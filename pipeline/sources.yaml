@@ -1,0 +1,20 @@
+# துலாமுள் — மூலங்கள். grade: official (ஒரு மூலம் போதும்) / media (2 மூலம் ஒத்தால் மட்டும் வெளியீடு)
+- {name: PIB Tamil, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=4&Regid=3", topic: india, grade: official}
+- {name: PIB English, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", topic: india, grade: official}
+- {name: RBI, url: "https://www.rbi.org.in/pressreleases_rss.xml", topic: economy, grade: official}
+- {name: ET Markets, url: "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms", topic: economy, grade: media}
+- {name: MoneyControl, url: "https://www.moneycontrol.com/rss/marketreports.xml", topic: economy, grade: media}
+- {name: The Hindu TN, url: "https://www.thehindu.com/news/national/tamil-nadu/feeder/default.rss", topic: tn, grade: media}
+- {name: Dinamani TN, url: "https://www.dinamani.com/api/v1/collections/tamilnadu.rss", topic: tn, grade: media}
+- {name: BBC Tamil, url: "https://feeds.bbci.co.uk/tamil/rss.xml", topic: world, grade: media}
+- {name: BBC World, url: "https://feeds.bbci.co.uk/news/world/rss.xml", topic: world, grade: media}
+- {name: Al Jazeera, url: "https://www.aljazeera.com/xml/rss/all.xml", topic: world, grade: media}
+- {name: ESPNcricinfo, url: "https://www.espncricinfo.com/rss/content/story/feeds/0.xml", topic: sports, grade: media}
+- {name: The Hindu Sport, url: "https://www.thehindu.com/sport/feeder/default.rss", topic: sports, grade: media}
+- {name: The Hindu Cinema, url: "https://www.thehindu.com/entertainment/movies/feeder/default.rss", topic: cinema, grade: media}
+- {name: Cinema Express, url: "https://www.cinemaexpress.com/api/v1/collections/tamil.rss", topic: cinema, grade: media}
+- {name: The Hindu Tech, url: "https://www.thehindu.com/sci-tech/technology/feeder/default.rss", topic: tech, grade: media}
+- {name: Wired, url: "https://www.wired.com/feed/rss", topic: tech, grade: media}
+- {name: Employment News, url: "https://www.employmentnews.gov.in/rss.xml", topic: jobs, grade: official}
+- {name: The Hindu Faith, url: "https://www.thehindu.com/society/faith/feeder/default.rss", topic: spirit, grade: media}
+# RSS முகவரிகள் மாறலாம் — முதல் ஓட்டத்தின் log பார்த்து சரிசெய்வோம். மூலம் சேர்ப்பது = ஒரு வரி.

@@ -1,0 +1,12 @@
+<!-- Session 3-ல் v10 frame இங்கே உண்மை data-வுடன் வரும். இப்போது feed.json சோதனைப் பக்கம். -->
+<!DOCTYPE html><html lang="ta"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>துலாமுள்</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@500&family=Noto+Sans+Tamil&display=swap" rel="stylesheet">
+<style>body{font-family:'Noto Sans Tamil',sans-serif;background:#F3F2EE;color:#161B24;max-width:520px;margin:0 auto;padding:20px}
+h1{font-family:'Noto Serif Tamil',serif;font-weight:500}.s{border-bottom:1px solid #DDDBD4;padding:16px 0}.k{font-size:12px;color:#A8862F}
+h2{font-family:'Noto Serif Tamil',serif;font-size:18px;font-weight:500;line-height:1.45;margin:6px 0}.c{border-left:2px solid #A8862F;padding-left:12px;font-family:'Noto Serif Tamil',serif;margin-top:10px}
+.m{font-size:11px;color:#8C919B;margin-top:8px}audio{width:100%;margin-top:8px}</style></head><body>
+<h1>துலாமுள்</h1><div id="f">ஏற்றுகிறது…</div>
+<script>
+fetch('../data/feed.json').then(r=>r.json()).then(d=>{document.getElementById('f').innerHTML=d.map(s=>`<div class="s"><div class="k">${s.topic_ta} · ${s.published_at.slice(0,16).replace('T',' ')}</div><h2>${s.headline}</h2>${s.lines.map(l=>`<p>${l}</p>`).join('')}<div class="c">${s.closing}</div>${s.audio?`<audio controls src="../${s.audio}"></audio>`:''}<div class="m">மூலம்: ${s.sources.map(x=>x.name+(x.doc?' · '+x.doc:'')).join(' · ')}</div></div>`).join('')}).catch(e=>document.getElementById('f').textContent='feed.json இன்னும் இல்லை — முதல் ஓட்டத்திற்குப் பின் வரும்.');
+</script></body></html>
