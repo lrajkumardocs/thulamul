@@ -16,10 +16,9 @@
 - "closing": ஒரே ஒரு வாக்கியம் — (அ) பின்னணி, (ஆ) கவனிக்க — அடுத்து எதைப் பார்க்க, (இ) கேள்வி — பதிலளிக்கப்படாதது. மூலத்தில் உள்ள உண்மைகளிலிருந்து மட்டும். அறிவுரை தடை. தலைப்பு போடாதே.
 - "closing_type": "background" | "watch" | "question"
 - "sources": [{"name": "...", "doc": "ஆவண எண்/பெயர் இருந்தால், இல்லையெனில் null", "date": "YYYY-MM-DD அல்லது null"}]
-- "topic": tn | india | world | economy | tech | sports | cinema | spirit | jobs | court | assembly
+- "topic": tn | india | world | economy | tech | sports | cinema | spirit | jobs | court | assembly | health | agri
 - "entities": இடம், நிறுவனம், நபர், திட்டம் — 3–6, தமிழில்
 - "confidence": 0–1
 - "flags": இவற்றில் பொருந்துபவை: "defamation_risk", "numbers_conflict", "communal", "single_source", "unverified_claim". இல்லையென்றால் [].
-- "audio_script": 5 வரி + closing ஒரே பத்தியாக, கேட்பதற்கேற்ப.
 
 இன்றைய தேதி: {{TODAY}}
