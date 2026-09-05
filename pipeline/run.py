@@ -65,6 +65,9 @@ def fetch_all(sources, seen):
                 iid = item_id(link)
                 if iid in seen:
                     continue
+                pp = e.get("published_parsed") or e.get("updated_parsed")
+                if pp and (time.time() - time.mktime(pp)) > 36 * 3600:
+                    seen.add(iid); continue          # 36 மணிக்கு மேல் பழையது — தவிர்
                 text = clean_html(e.get("summary") or e.get("description") or "")
                 if hasattr(e, "content") and e.content:
                     text = clean_html(e.content[0].get("value", "")) or text
@@ -113,13 +116,15 @@ def write_news(client, prompt, c, today):
         f"[மூலம் {n+1}: {i['source']} | {i['published']} | {i['link']}]\nதலைப்பு: {i['title']}\n{i['text']}"
         for n, i in enumerate(c["items"][:4]))
     msg = client.messages.create(
-        model=MODEL, max_tokens=1400,
+        model=MODEL, max_tokens=4000,
         system=prompt.replace("{{TODAY}}", today),
         messages=[{"role": "user", "content": f"துறை குறிப்பு: {c['topic_hint']}\n\n{src_text}"}],
     )
     raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
-    raw = re.sub(r"^```(json)?|```$", "", raw, flags=re.M).strip()
-    return json.loads(raw)
+    a, b = raw.find("{"), raw.rfind("}")
+    if a < 0 or b < 0:
+        raise ValueError("JSON இல்லை: " + raw[:120])
+    return json.loads(raw[a:b + 1])
 
 def validate(story):
     ok = isinstance(story.get("lines"), list) and len(story["lines"]) == 5
@@ -134,8 +139,9 @@ async def _tts(text, out):
 
 def make_audio(story_id, script):
     out = AUDIO_DIR / f"{story_id}.mp3"
+    AUDIO_DIR.mkdir(parents=True, exist_ok=True)
     try:
-        asyncio.run(_tts(script, out))
+        asyncio.run(asyncio.wait_for(_tts(script, out), timeout=60))   # 60 நொடிக்கு மேல் காத்திருக்காது
         return f"data/audio/{story_id}.mp3"
     except Exception as ex:
         print(f"[tts] {story_id}: பிழை {ex}")
@@ -246,7 +252,7 @@ def main():
         story["published_at"] = datetime.now(IST).isoformat(timespec="minutes")
         story["links"] = [i["link"] for i in c["items"]]
         story["image"] = pick_image(c)
-        story["audio"] = make_audio(sid, story.get("audio_script") or " ".join(story["lines"]))
+        story["audio"] = make_audio(sid, story["headline"] + ". " + " ".join(story["lines"]) + " " + story["closing"])
         story["created_ts"] = time.time()
 
         hold = bool(story["flags"]) or story.get("confidence", 1) < AUTO_PUBLISH_MIN_CONFIDENCE
@@ -260,6 +266,8 @@ def main():
         else:
             story["status"] = "published"; feed.insert(0, story)
             print("[publish]", story["headline"])
+        save_json(FEED_FILE, feed[:300]); save_json(PENDING_FILE, pending)
+        state["seen"] = list(seen)[-5000:]; save_json(STATE_FILE, state)   # ஒவ்வொன்றுக்கும் உடனே சேமி
 
     # 6. save
     feed = feed[:300]
