@@ -1,12 +1,82 @@
-<!-- Session 3-ல் v10 frame இங்கே உண்மை data-வுடன் வரும். இப்போது feed.json சோதனைப் பக்கம். -->
-<!DOCTYPE html><html lang="ta"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>துலாமுள்</title>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@500&family=Noto+Sans+Tamil&display=swap" rel="stylesheet">
-<style>body{font-family:'Noto Sans Tamil',sans-serif;background:#F3F2EE;color:#161B24;max-width:520px;margin:0 auto;padding:20px}
-h1{font-family:'Noto Serif Tamil',serif;font-weight:500}.s{border-bottom:1px solid #DDDBD4;padding:16px 0}.k{font-size:12px;color:#A8862F}
-h2{font-family:'Noto Serif Tamil',serif;font-size:18px;font-weight:500;line-height:1.45;margin:6px 0}.c{border-left:2px solid #A8862F;padding-left:12px;font-family:'Noto Serif Tamil',serif;margin-top:10px}
-.m{font-size:11px;color:#8C919B;margin-top:8px}audio{width:100%;margin-top:8px}</style></head><body>
-<h1>துலாமுள்</h1><div id="f">ஏற்றுகிறது…</div>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@500&family=Noto+Sans+Tamil:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#161B24;--ink2:#4A5160;--ink3:#8C919B;--paper:#F3F2EE;--paper2:#fff;--rule:#DDDBD4;--brass:#A8862F;--green:#2F6B4F}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Noto Sans Tamil',sans-serif;background:var(--paper);color:var(--ink);max-width:560px;margin:0 auto}
+  header{padding:14px 20px 12px;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;align-items:flex-end}
+  .mast{font-family:'Noto Serif Tamil',serif;font-size:22px;font-weight:500}
+  .date{font-size:12px;color:var(--ink3)}
+  .brief{margin:14px 20px 0;background:var(--ink);color:var(--paper);border-radius:14px;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .brief b{font-family:'Noto Serif Tamil',serif;font-weight:500;font-size:15px;display:block}
+  .brief small{color:#A9AEB8;font-size:11px}
+  .brief audio{width:150px;height:32px}
+  .chips{display:flex;gap:8px;padding:14px 20px 4px;overflow-x:auto;scrollbar-width:none}
+  .chip{flex:none;font-size:12px;padding:6px 12px;border-radius:999px;border:1px solid var(--rule);background:var(--paper2);color:var(--ink2);cursor:pointer}
+  .chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  select.chip{font-family:inherit;appearance:none;-webkit-appearance:none}
+  .story{padding:16px 20px;border-bottom:1px solid var(--rule)}
+  .k{font-size:11px;color:var(--ink3);display:flex;justify-content:space-between;margin-bottom:6px}
+  .k b{color:var(--brass);font-weight:500}
+  .v{color:var(--green)}
+  .story img{width:100%;max-height:220px;object-fit:cover;border-radius:4px;margin-bottom:10px;background:#2E3441}
+  h2{font-family:'Noto Serif Tamil',serif;font-size:18px;font-weight:500;line-height:1.45;cursor:pointer}
+  .body{display:none;margin-top:10px}
+  .story.open .body{display:block}
+  .body p{position:relative;padding-left:22px;font-size:14.5px;line-height:1.75;margin-bottom:6px}
+  .body p span{position:absolute;left:0;top:1px;font-family:'Noto Serif Tamil',serif;font-size:12px;color:var(--brass)}
+  .close{border-left:2px solid var(--brass);padding:2px 0 2px 12px;font-family:'Noto Serif Tamil',serif;font-size:14px;line-height:1.7;margin-top:12px}
+  .src{font-size:11px;color:var(--ink3);margin-top:10px;line-height:1.6}
+  .src b{color:var(--brass);font-weight:500}
+  audio.s{width:100%;height:32px;margin-top:8px}
+  .empty{padding:40px 20px;color:var(--ink3);text-align:center;font-size:13px}
+  .wx{margin:16px 20px 0;padding:12px 0;border-top:1px solid var(--rule);font-size:12px;color:var(--ink2);display:flex;gap:14px;overflow-x:auto;scrollbar-width:none}
+  .wx div{flex:none}.wx b{display:block;font-family:'Noto Serif Tamil',serif;font-weight:500;font-size:16px;color:var(--ink)}
+  .foot{padding:24px 20px;font-size:11px;color:var(--ink3);text-align:center}
+</style>
+</head>
+<body>
+<header><div><div class="date" id="d"></div><div class="mast">துலாமுள்</div></div><div class="date">சோதனை</div></header>
+<div id="brief"></div>
+<div class="chips" id="chips"></div>
+<div id="feed"><div class="empty">ஏற்றுகிறது…</div></div>
+<div id="wx"></div>
+<div class="foot">துலாமுள் · AI எழுதியது · மூலங்கள் ஒவ்வொரு செய்தியிலும்</div>
 <script>
-fetch('../data/feed.json').then(r=>r.json()).then(d=>{document.getElementById('f').innerHTML=d.map(s=>`<div class="s"><div class="k">${s.topic_ta} · ${s.published_at.slice(0,16).replace('T',' ')}</div><h2>${s.headline}</h2>${s.lines.map(l=>`<p>${l}</p>`).join('')}<div class="c">${s.closing}</div>${s.audio?`<audio controls src="../${s.audio}"></audio>`:''}<div class="m">மூலம்: ${s.sources.map(x=>x.name+(x.doc?' · '+x.doc:'')).join(' · ')}</div></div>`).join('')}).catch(e=>document.getElementById('f').textContent='feed.json இன்னும் இல்லை — முதல் ஓட்டத்திற்குப் பின் வரும்.');
-</script></body></html>
+const T={all:'முதல் பக்கம்',tn:'தமிழ்நாடு',india:'இந்தியா',world:'உலகம்',edit:'தலையங்கம்',economy:'பொருளாதாரம்',sports:'விளையாட்டு',cinema:'சினிமா',tech:'தொழில்நுட்பம்',rasi:'ராசிபலன்',court:'நீதிமன்றம்',jobs:'வேலைவாய்ப்பு',health:'சுகாதாரம்',agri:'விவசாயம்',spirit:'ஆன்மீகம்',assembly:'சட்டமன்றம்'};
+const TA=['௧','௨','௩','௪','௫'];
+const base='../';
+let all=[],cur='all';
+document.getElementById('d').textContent=new Date().toLocaleDateString('ta-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+const MAIN=['all','tn','india','world','edit','economy','sports','cinema','tech','rasi'], MORE=['court','jobs','health','agri','spirit','assembly'];
+const chips=document.getElementById('chips');
+chips.innerHTML=MAIN.map(k=>`<span class="chip${k==='all'?' on':''}" data-t="${k}">${T[k]}</span>`).join('')+`<select class="chip" id="more"><option value="">மற்றவை ▾</option>${MORE.map(k=>`<option value="${k}">${T[k]}</option>`).join('')}</select>`;
+chips.addEventListener('click',e=>{const c=e.target.closest('span.chip');if(!c)return;cur=c.dataset.t;document.getElementById('more').value='';document.querySelectorAll('span.chip').forEach(x=>x.classList.toggle('on',x===c));render();});
+document.getElementById('more').addEventListener('change',e=>{if(!e.target.value)return;cur=e.target.value;document.querySelectorAll('span.chip').forEach(x=>x.classList.remove('on'));render();});
+function esc(s){return (s||'').replace(/</g,'&lt;')}
+function render(){
+  const f=document.getElementById('feed');
+  if(cur==='edit'){f.innerHTML='<div class="empty">தலையங்கம் — Session 6-ல் (Telegram-ல் அனுப்பியவை இங்கே வரும்).</div>';return;}
+  if(cur==='rasi'){f.innerHTML='<div class="empty">ராசிபலன் — Session 4-ல்.</div>';return;}
+  const list=all.filter(s=>s.status==='published'&&(cur==='all'||s.topic===cur));
+  if(!list.length){f.innerHTML='<div class="empty">இந்தத் துறையில் இன்னும் செய்தி இல்லை.</div>';return;}
+  f.innerHTML=list.map(s=>`<div class="story"><div class="k"><span><b>${s.topic_ta}</b> · ${(s.published_at||'').slice(11,16)}</span><span class="v">● சரிபார்க்கப்பட்டது</span></div>
+   ${s.image?`<img src="${esc(s.image.url)}" alt="" loading="lazy" onerror="this.remove()">`:''}
+   <h2>${esc(s.headline)}</h2>
+   <div class="body">${(s.lines||[]).map((l,i)=>`<p><span>${TA[i]}</span>${esc(l)}</p>`).join('')}
+   <div class="close">${esc(s.closing)}</div>
+   ${s.audio?`<audio class="s" controls preload="none" src="${base}${s.audio}"></audio>`:''}
+   <div class="src"><b>மூலம்</b> · ${(s.sources||[]).map(x=>esc(x.name)+(x.doc?' · '+esc(x.doc):'')).join(' · ')}${s.image?` · படம்: ${esc(s.image.credit)}`:''}</div></div></div>`).join('');
+  f.querySelectorAll('h2').forEach(h=>h.addEventListener('click',()=>h.parentElement.classList.toggle('open')));
+}
+fetch(base+'data/feed.json?'+Date.now()).then(r=>r.json()).then(d=>{all=d;render();}).catch(()=>{document.getElementById('feed').innerHTML='<div class="empty">feed.json இல்லை — Pages இன்னும் build ஆகவில்லை; 2 நிமிடம் கழித்து refresh.</div>'});
+fetch(base+'data/weather.json?'+Date.now()).then(r=>r.json()).then(w=>{document.getElementById('wx').innerHTML='<div class="wx">'+Object.entries(w.cities).map(([c,v])=>`<div>${c}<b>${v.now}°</b>${v.min}°–${v.max}° · மழை ${v.rain}%</div>`).join('')+'</div>'}).catch(()=>{});
+fetch(base+'data/brief.json?'+Date.now()).then(r=>r.json()).then(b=>{if(b&&b.audio)document.getElementById('brief').innerHTML=`<div class="brief"><div><b>இன்றைய 60 நொடி</b><small>${b.headlines.length} செய்திகள் · ${b.date}</small></div><audio controls preload="none" src="${base}${b.audio}"></audio></div>`}).catch(()=>{});
+</script>
+</body>
+</html>
