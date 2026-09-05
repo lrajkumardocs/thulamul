@@ -4,7 +4,8 @@
 
 GitHub Actions ஒவ்வொரு 30 நிமிடமும் இதை ஓட்டும். மனிதன் தேவைப்படுவது flag ஆனவற்றுக்கு மட்டும் (Telegram).
 """
-import os, re, json, hashlib, asyncio, time
+import os, re, json, hashlib, asyncio, time, socket
+socket.setdefaulttimeout(20)   # எந்த இணைய அழைப்பும் 20 நொடிக்கு மேல் காத்திருக்காது
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -56,7 +57,8 @@ def fetch_all(sources, seen):
     fresh = []
     for src in sources:
         try:
-            f = feedparser.parse(src["url"], request_headers={"User-Agent": "ThulamulBot/1.0"})
+            r = requests.get(src["url"], headers={"User-Agent": "ThulamulBot/1.0"}, timeout=(10, 20))
+            f = feedparser.parse(r.content)
             n = 0
             for e in f.entries[:30]:
                 link = e.get("link") or ""
@@ -204,7 +206,7 @@ def main():
     seen = set(state["seen"])
     feed = load_json(FEED_FILE, [])
     pending = load_json(PENDING_FILE, [])
-    client = Anthropic()   # ANTHROPIC_API_KEY env-லிருந்து
+    client = Anthropic(timeout=180, max_retries=2)   # ANTHROPIC_API_KEY env-லிருந்து
 
     # 0. முந்தைய ஓட்டத்தின் Telegram முடிவுகள்
     decisions = telegram_poll_approvals(state)
@@ -227,12 +229,13 @@ def main():
     print(f"[run] புதியவை {len(fresh)} → நிகழ்வுகள் {len(clusters)}")
 
     # 3–5. write / audio / publish
+    t_start = time.time()
     written = 0
     def mark_seen(c):
         for i in c["items"]:
             seen.add(i["id"])
     for c in clusters:
-        if written >= MAX_NEW_PER_RUN:
+        if written >= MAX_NEW_PER_RUN or time.time() - t_start > 15 * 60:
             continue                      # அடுத்த ஓட்டத்தில் எடுக்கும்; seen-ல் சேர்க்காது
         ok, extra_flags = eligible(c)
         if not ok:
