@@ -220,8 +220,12 @@ def main():
     # 0. முந்தைய ஓட்டத்தின் Telegram முடிவுகள்
     decisions = telegram_poll_approvals(state)
     still = []
+    HOLD_FLAGS = {"defamation_risk", "communal", "numbers_conflict"}
     for p in pending:
         d = decisions.get(p["id"])
+        # புதிய விதி: மென்மையான flag மட்டும் (single_source போன்றவை) → தானாக வெளியீடு
+        if d is None and not (HOLD_FLAGS & set(p.get("flags", []))) and p.get("confidence", 1) >= AUTO_PUBLISH_MIN_CONFIDENCE:
+            d = True
         if d is True:
             p["status"] = "published"; feed.insert(0, p); print("[approve]", p["id"])
         elif d is False:
