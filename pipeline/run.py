@@ -113,7 +113,7 @@ def write_news(client, prompt, c, today):
         f"[மூலம் {n+1}: {i['source']} | {i['published']} | {i['link']}]\nதலைப்பு: {i['title']}\n{i['text']}"
         for n, i in enumerate(c["items"][:4]))
     msg = client.messages.create(
-        model=MODEL, max_tokens=1400, temperature=0.2,
+        model=MODEL, max_tokens=1400,
         system=prompt.replace("{{TODAY}}", today),
         messages=[{"role": "user", "content": f"துறை குறிப்பு: {c['topic_hint']}\n\n{src_text}"}],
     )
@@ -222,20 +222,22 @@ def main():
 
     # 3–5. write / audio / publish
     written = 0
-    for c in clusters:
+    def mark_seen(c):
         for i in c["items"]:
             seen.add(i["id"])
+    for c in clusters:
         if written >= MAX_NEW_PER_RUN:
-            continue
+            continue                      # அடுத்த ஓட்டத்தில் எடுக்கும்; seen-ல் சேர்க்காது
         ok, extra_flags = eligible(c)
         if not ok:
-            continue
+            mark_seen(c); continue
         try:
             story = write_news(client, prompt, c, today)
         except Exception as ex:
-            print("[claude] பிழை", ex); continue
+            print("[claude] பிழை", ex); continue   # பிழை → அடுத்த ஓட்டத்தில் மீண்டும் முயற்சி
         if not validate(story):
-            print("[validate] தவறான வடிவம், தவிர்க்கப்பட்டது"); continue
+            print("[validate] தவறான வடிவம், தவிர்க்கப்பட்டது"); mark_seen(c); continue
+        mark_seen(c)
         written += 1
         sid = c["items"][0]["id"]
         story["id"] = sid
