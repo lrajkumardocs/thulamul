@@ -24,7 +24,7 @@ IST = timezone(timedelta(hours=5, minutes=30))
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
 MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "12"))   # ஒரு ஓட்டத்தில் அதிகபட்சம் (செலவு கட்டுப்பாடு)
 TTS_VOICE = os.environ.get("TTS_VOICE", "ta-IN-PallaviNeural")   # Microsoft Edge இலவச தமிழ் குரல் (ஆண்: ta-IN-ValluvarNeural)
-AUTO_PUBLISH_MIN_CONFIDENCE = 0.6
+AUTO_PUBLISH_MIN_CONFIDENCE = 0.3
 
 TOPIC_TA = {"tn": "தமிழ்நாடு", "india": "இந்தியா", "world": "உலகம்", "economy": "பொருளாதாரம்",
             "tech": "தொழில்நுட்பம்", "sports": "விளையாட்டு", "cinema": "சினிமா", "spirit": "ஆன்மீகம்",
@@ -149,14 +149,25 @@ async def _tts(text, out):
     import edge_tts
     await edge_tts.Communicate(text, TTS_VOICE, rate="-5%").save(str(out))
 
+TTS_STATE = {"edge_failed": 0}
 def make_audio(story_id, script):
     out = AUDIO_DIR / f"{story_id}.mp3"
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
-    try:
-        asyncio.run(asyncio.wait_for(_tts(script, out), timeout=60))   # 60 நொடிக்கு மேல் காத்திருக்காது
+    script = script[:2500]
+    if TTS_STATE["edge_failed"] < 2:                       # Edge TTS — 2 முறை தோல்வி என்றால் இந்த ஓட்டத்தில் தவிர்
+        try:
+            asyncio.run(asyncio.wait_for(_tts(script, out), timeout=40))
+            if out.exists() and out.stat().st_size > 1000:
+                return f"data/audio/{story_id}.mp3"
+        except Exception as ex:
+            print(f"[tts-edge] {story_id}: {str(ex)[:80]}")
+        TTS_STATE["edge_failed"] += 1
+    try:                                                   # மாற்று: Google TTS (gTTS), இலவசம்
+        from gtts import gTTS
+        gTTS(script, lang="ta").save(str(out))
         return f"data/audio/{story_id}.mp3"
     except Exception as ex:
-        print(f"[tts] {story_id}: பிழை {ex}")
+        print(f"[tts-gtts] {story_id}: {str(ex)[:80]}")
         return None
 
 # ---------------------------------------------------------------- 5. image (மூலப் படம் மட்டும்; இல்லையெனில் null → ஆப் துறை-அட்டை காட்டும்)
