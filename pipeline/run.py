@@ -24,11 +24,12 @@ IST = timezone(timedelta(hours=5, minutes=30))
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
 MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "12"))   # ஒரு ஓட்டத்தில் அதிகபட்சம் (செலவு கட்டுப்பாடு)
 TTS_VOICE = os.environ.get("TTS_VOICE", "ta-IN-PallaviNeural")   # Microsoft Edge இலவச தமிழ் குரல் (ஆண்: ta-IN-ValluvarNeural)
-AUTO_PUBLISH_MIN_CONFIDENCE = 0.7
+AUTO_PUBLISH_MIN_CONFIDENCE = 0.6
 
 TOPIC_TA = {"tn": "தமிழ்நாடு", "india": "இந்தியா", "world": "உலகம்", "economy": "பொருளாதாரம்",
             "tech": "தொழில்நுட்பம்", "sports": "விளையாட்டு", "cinema": "சினிமா", "spirit": "ஆன்மீகம்",
-            "jobs": "வேலை · தேர்வு", "court": "நீதிமன்றம்", "assembly": "சட்டமன்றம்"}
+            "jobs": "வேலை · தேர்வு", "court": "நீதிமன்றம்", "assembly": "சட்டமன்றம்",
+            "health": "சுகாதாரம்", "agri": "விவசாயம்"}
 
 # ---------------------------------------------------------------- helpers
 def load_json(p, default):
@@ -73,8 +74,17 @@ def fetch_all(sources, seen):
                 text = clean_html(e.get("summary") or e.get("description") or "")
                 if hasattr(e, "content") and e.content:
                     text = clean_html(e.content[0].get("value", "")) or text
+                img = None
+                for m in (e.get("media_content") or []) + (e.get("media_thumbnail") or []):
+                    if m.get("url"): img = m["url"]; break
+                if not img:
+                    for en in e.get("enclosures") or []:
+                        if "image" in (en.get("type") or ""): img = en.get("href"); break
+                if not img:
+                    m = re.search(r'<img[^>]+src="([^"]+)"', (e.get("summary") or "") + "".join(c.get("value","") for c in getattr(e,"content",[]) or []))
+                    if m: img = m.group(1)
                 fresh.append({
-                    "id": iid, "source": src["name"], "grade": src.get("grade", "media"),
+                    "id": iid, "source": src["name"], "grade": src.get("grade", "media"), "img": img,
                     "topic_hint": src.get("topic"), "title": clean_html(e.get("title", "")),
                     "text": text[:4000], "link": link,
                     "published": e.get("published", "") or e.get("updated", ""),
@@ -152,9 +162,8 @@ def make_audio(story_id, script):
 # ---------------------------------------------------------------- 5. image (மூலப் படம் மட்டும்; இல்லையெனில் null → ஆப் துறை-அட்டை காட்டும்)
 def pick_image(c):
     for i in c["items"]:
-        m = re.search(r'<img[^>]+src="([^"]+)"', i.get("raw_html", "") or "")
-        if m:
-            return {"url": m.group(1), "credit": i["source"]}
+        if i.get("img"):
+            return {"url": i["img"], "credit": i["source"]}
     return None
 
 # ---------------------------------------------------------------- 6. telegram
@@ -258,7 +267,8 @@ def main():
         story["audio"] = make_audio(sid, story["headline"] + ". " + " ".join(story["lines"]) + " " + story["closing"])
         story["created_ts"] = time.time()
 
-        hold = bool(story["flags"]) or story.get("confidence", 1) < AUTO_PUBLISH_MIN_CONFIDENCE
+        HOLD_FLAGS = {"defamation_risk", "communal", "numbers_conflict"}
+        hold = bool(HOLD_FLAGS & set(story["flags"])) or story.get("confidence", 1) < AUTO_PUBLISH_MIN_CONFIDENCE
         if hold:
             story["status"] = "pending"; pending.append(story)
             telegram(f"⚖️ <b>சரிபார்க்க</b> [{', '.join(story['flags']) or 'குறைந்த நம்பிக்கை'}]\n"
@@ -271,6 +281,35 @@ def main():
             print("[publish]", story["headline"])
         save_json(FEED_FILE, feed[:300]); save_json(PENDING_FILE, pending)
         state["seen"] = list(seen)[-5000:]; save_json(STATE_FILE, state)   # ஒவ்வொன்றுக்கும் உடனே சேமி
+
+    # 5b. காலை brief — 6:00–6:29 IST ஓட்டத்தில் (அல்லது இன்று இன்னும் இல்லையெனில்)
+    now = datetime.now(IST)
+    brief = load_json(DATA / "brief.json", {})
+    if now.hour >= 6 and brief.get("date") != today and feed:
+        top = [x for x in feed if x["status"] == "published"][:5]
+        script = f"துலாமுள் — {now.strftime('%d')} தேதி காலை செய்திகள். " + " ".join(
+            f"{n+1}. {x['headline']}. {x['lines'][0]}" for n, x in enumerate(top)) + " இன்றைய முழுச் செய்திகள் துலாமுள் ஆப்பில்."
+        audio = make_audio(f"brief_{today}", script)
+        save_json(DATA / "brief.json", {"date": today, "items": [x["id"] for x in top],
+                                        "headlines": [x["headline"] for x in top], "audio": audio})
+        print("[brief] காலை brief தயார்")
+
+    # 5c. வானிலை — open-meteo (இலவசம், key தேவையில்லை); சென்னை + 4 நகரங்கள்
+    try:
+        cities = {"சென்னை": (13.08, 80.27), "கோயம்புத்தூர்": (11.02, 76.97), "மதுரை": (9.93, 78.12),
+                  "திருச்சி": (10.79, 78.70), "சேலம்": (11.66, 78.15)}
+        wx = {}
+        for name, (la, lo) in cities.items():
+            r = requests.get("https://api.open-meteo.com/v1/forecast", timeout=15, params={
+                "latitude": la, "longitude": lo, "timezone": "Asia/Kolkata", "forecast_days": 1,
+                "current": "temperature_2m,weather_code", "daily": "temperature_2m_max,temperature_2m_min,precipitation_probability_max"}).json()
+            wx[name] = {"now": round(r["current"]["temperature_2m"]), "code": r["current"]["weather_code"],
+                        "max": round(r["daily"]["temperature_2m_max"][0]), "min": round(r["daily"]["temperature_2m_min"][0]),
+                        "rain": r["daily"]["precipitation_probability_max"][0]}
+        save_json(DATA / "weather.json", {"updated": datetime.now(IST).isoformat(timespec="minutes"), "cities": wx})
+        print("[weather] புதுப்பிக்கப்பட்டது")
+    except Exception as ex:
+        print("[weather] பிழை", ex)
 
     # 6. save
     feed = feed[:300]
