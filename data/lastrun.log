@@ -1,10 +1,10 @@
 [fetch] PIB Tamil: 0 புதியவை
 [fetch] PIB English: 0 புதியவை
 [fetch] RBI: 0 புதியவை
-[fetch] ET Markets: 7 புதியவை
+[fetch] ET Markets: 0 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 20 புதியவை
+[fetch] The Hindu TN: 12 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 16 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
@@ -32,30 +32,29 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 24 புதியவை
-[fetch] Dinamani Sports: 24 புதியவை
+[fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[run] புதியவை 329 → நிகழ்வுகள் 329
-[tts-edge] 0a070bfbd550: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எம்சிஎக்ஸ் மின்சார ஃப்யூச்சர்ஸ் வர்த்தகம் ₹245 கோடியாக சாதனை படைத்தது
-[tts-edge] b8a4f129bec8: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அடுத்த வாரம் 16 ஐபிஓக்கள் அறிமுகம், 38% வரை லாபம் எதிர்பார்ப்பு
-[publish] செபியின் இறுதி ஏல அமர்வால் சென்செக்ஸ் விருப்பங்களில் 6,000 புள்ளி கலவரம்
-[skip] இது பங்குச் சந்தை பட்டியல் (slideshow) வகை உள்ளடக்கம், போதிய
-[skip] இது அமெரிக்க பங்குச் சந்தை வரலாற்று நபர் முரியல் சீபர்ட் பற்
-[skip] இது ஒரு பங்குச் சந்தை பரிந்துரை/முதலீட்டு ஆலோசனை கட்டுரை, செ
-[skip] இது ஒரு குறிப்பிட்ட மியூச்சுவல் ஃபண்டின் முதலீட்டு உத்தி பற்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CeniHEyfyiK9TbcuQztCR'}
-[publish] திருவண்ணாமலையைச் சேர்ந்த மூன்று கடன் தொழிலாளர்கள் கர்நாடகாவில் மீட்பு
-[publish] ஜவ்வாது மலையில் 1,000 ஏக்கர் ஆக்கிரமிப்பு: 6 வனத்துறை அதிகாரிகள் இடைநீக்கம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யார், எப்போது, என்ன நிகழ்வ
-[publish] IUML வானியம்பாடி எம்எல்ஏ கோடிகள் வாக்குறுதி பெற்றதாக கூற்று
-[publish] மாவட்ட குளிரூட்டல் அமைப்புக்கு கோயம்புத்தூர் ஏற்றது என Grundfos தகவல்
-[publish] பூம்புகார் கடலில் மூன்றாம் கட்ட நீரடி தொல்லியல் ஆய்வு தொடக்கம்
+[run] புதியவை 315 → நிகழ்வுகள் 314
+[tts-edge] 971db20893eb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஜெர்மனியின் சாக்சனி-அன்ஹால்ட் தேர்தலில் தீவிர வலதுசாரி AfD முன்னிலை
+[tts-edge] 0fd96e56b7ed: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] திருப்பத்தூரில் இரு குழந்தைகளைக் கொன்ற பெண், காதலர் கைது
+[publish] தாய் மாமன் தங்க மோதிரம் திட்டத்திற்கு நகை நிறுவனங்கள் மோதிரம் அனுப்பத் தொடக்கம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, கூட்டத்தின் விவரங்கள், பேச
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cenm3C9DirDEBXq62Jzw7'}
+[publish] காவிரி நீர் திறையைக் குறைக்கக் கோரி கர்நாடகா மேலாண்மை ஆணையத்தில் மனு
+[publish] சாதி கணக்கெடுப்பு குறித்து சட்டசபையில் தீர்மானம் கோரிய முதலமைச்சர் ஸ்டாலின்
+[publish] தமிழ்நாடு திட்டமிடல் ஆணையத்தை கலைக்கும் யோசனையில் அரசு
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது, நிகழ்வு பற்றிய விவர
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] கடலூரில் வெள்ள தடுப்பு பணிகளை ஆய்வு செய்த மாவட்ட ஆட்சியர்
+[publish] நோலம்பூரில் புலம்பெயர் தொழிலாளி கொலை; நான்கு பேர் கைது
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 125 · pending 0 · எழுதியவை 8
+[push] 1 அறிவிப்புகள்
+[done] feed 132 · pending 1 · எழுதியவை 8
