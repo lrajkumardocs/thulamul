@@ -487,7 +487,7 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if malar.get("week") != week and (now.weekday() == 6 or not malar) and not api_dead:
+        if (malar.get("week") != week or malar.get("v") != 2) and (now.weekday() == 6 or not malar or malar.get("v") != 2) and not api_dead:
             mon = now - timedelta(days=now.weekday()); dates = ", ".join((mon + timedelta(days=i)).strftime("%m-%d") for i in range(7))
             mp = (ROOT / "pipeline/prompts/malar.md").read_text(encoding="utf-8").replace("{{WEEK}}", week).replace("{{TODAY}}", today).replace("{{DATES}}", dates)
             wk_cut = (now - timedelta(days=7)).isoformat()
@@ -496,7 +496,7 @@ def main():
             msg = client.messages.create(model=MODEL, max_tokens=8000, system=mp,
                 messages=[{"role": "user", "content": "சென்ற வாரத்தின் செய்தித் தலைப்புகள்:\n" + wk_txt + "\n\nஇவற்றிலிருந்து 'சென்ற வார உலகம்' பகுதியை எழுது; மற்ற பகுதிகளை உன் அறிவிலிருந்து எழுது."}])
             raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
-            m = parse_json(client, raw); m["week"] = week; m["generated"] = today
+            m = parse_json(client, raw); m["week"] = week; m["v"] = 2; m["generated"] = today
             if m.get("song", {}).get("text"):
                 m["song"]["audio"] = make_audio(f"malar_{week}", m["song"]["text"] + ". பொருள்: " + m["song"].get("meaning", ""))
             save_json(DATA / "malar.json", m); print("[malar] வாரமலர் தயார்", week)
