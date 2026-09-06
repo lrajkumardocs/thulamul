@@ -103,15 +103,16 @@
   .phead .dots i.on{background:var(--brass)}
   .mh{padding:calc(8px + env(safe-area-inset-top)) 16px 6px;background:var(--paper);position:sticky;top:0;z-index:2;border-bottom:1px solid var(--rule)}
   .mh-top{text-align:center;font-size:10.5px;color:var(--brass);letter-spacing:.06em;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:4px 0}
-  .mh-row{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 0 6px}
-  .ear{min-width:86px;font-size:10px;color:var(--ink2);line-height:1.6;border:1px solid var(--rule);padding:7px 8px;border-radius:3px;white-space:nowrap;text-align:center;flex:none}
+  .mh-row{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:12px 0 6px}
+  @media(max-width:400px){.ear{min-width:64px;font-size:9px;padding:5px 5px}.ear b{font-size:12px}}
+  .ear{min-width:72px;max-width:96px;font-size:10px;color:var(--ink2);line-height:1.6;border:1px solid var(--rule);padding:7px 8px;border-radius:3px;white-space:nowrap;text-align:center;flex:none}
   .ear b{display:block;font-family:var(--serif);font-weight:500;font-size:14px;color:var(--ink);margin-bottom:1px}
   .ear span{display:block}
   .ear.r{text-align:center}
   .mh-center{text-align:center;flex:1;min-width:0}
   .emblem svg{width:34px;height:34px;display:block;margin:0 auto 2px}
   .motto{font-size:11px;color:var(--ink2);letter-spacing:.12em;margin-top:8px}
-  .mh-name{font-family:var(--serif);font-size:30px;font-weight:600;letter-spacing:.01em;line-height:1.25}
+    .mh-name{font-family:var(--serif);font-size:clamp(20px,7vw,30px);font-weight:600;letter-spacing:.01em;line-height:1.25}
   .mh-name svg{width:28px;height:28px}
   .mh-date{text-align:center;font-size:11px;color:var(--ink2);border-top:2px solid var(--ink);border-bottom:1px solid var(--ink);padding:9px 0 8px;margin-top:10px;position:relative;line-height:1.4}
   .mh-date::after{content:"";position:absolute;left:0;right:0;top:2px;border-top:1px solid var(--ink)}
@@ -354,7 +355,7 @@ function masthead(i){
     <div class="mh-row">
       <div class="ear"><b>ஆண்டு ${yr}</b><span>இதழ் ${issue}</span><span>விலை: இலவசம்</span></div>
       <div class="mh-center"><div class="emblem"><svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M50 24v56"/><path d="M36 82h28"/><path d="M18 34h64"/><path d="M50 14l-4 8h8z" fill="#A8862F" stroke="none"/><circle cx="50" cy="34" r="3.2" fill="#A8862F" stroke="none"/><path d="M18 34l-9 22M18 34l9 22"/><path d="M82 34l-9 22M82 34l9 22"/><path d="M6 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/><path d="M70 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/></svg></div><div class="mh-name">துலாமுள்</div><div class="motto">நடுநிலை செய்திகள்</div></div>
-      <div class="ear r"><b>${w?w.now+'°':'—'}</b><span>${w?esc(w.city):'வானிலை'}</span><span>${w?'மழை '+w.rain+'%':'—'}</span></div>
+      <div class="ear r"><b>${w?w.now+'°':'—'}</b><span>${w?esc(w.city):'வானிலை'}</span><span>${w?'மழை வாய்ப்பு '+w.rain+'%':'—'}</span></div>
     </div>
     <div class="mh-date">தமிழ்நாடு · ${d.toLocaleDateString('ta-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'})} · பக்கம் 1 / ${PAGES.length}</div>
     <div class="dots" onclick="go('#topics')">${PAGES.map((_,j)=>`<i class="${j===i?'on':''}"></i>`).join('')}</div>
@@ -380,20 +381,36 @@ const VAPID="BFQRFZWOEFWiX2HhmxxjGgP8ZweQusgxfrQLQWKTDCfmg_leYbuLSFXY7-PeX7aV097
 let pushToken=null;
 async function ensurePush(){
   if(pushToken) return pushToken;
-  if(!('serviceWorker' in navigator)||!window.FB||!(await FB.isSupported())) throw new Error('இந்த உலாவியில் அறிவிப்பு ஆதரவு இல்லை');
-  const perm=await Notification.requestPermission();
-  if(perm!=='granted') throw new Error('அறிவிப்பு அனுமதி மறுக்கப்பட்டது');
-  const reg=await navigator.serviceWorker.register('firebase-messaging-sw.js');
+  if(!window.isSecureContext) throw new Error('https தேவை');
+  if(!('serviceWorker' in navigator)) throw new Error('இந்த உலாவி ஆதரிக்கவில்லை');
+  if(!('Notification' in window)) throw new Error('அறிவிப்பு ஆதரவு இல்லை');
+  if(!window.FB) throw new Error('Firebase ஏற்றப்படவில்லை — சில நொடி கழித்து முயற்சிக்கவும்');
+  if(!(await FB.isSupported())) throw new Error('இந்த உலாவியில் push ஆதரவு இல்லை');
+  const perm = Notification.permission==='granted' ? 'granted' : await Notification.requestPermission();
+  if(perm!=='granted') throw new Error('உலாவியில் அறிவிப்பு அனுமதி தரவும்');
+  const reg=await navigator.serviceWorker.register('firebase-messaging-sw.js',{scope:'./'});
+  await navigator.serviceWorker.ready;
   const m=FB.getMessaging(FB.app);
   pushToken=await FB.getToken(m,{vapidKey:VAPID,serviceWorkerRegistration:reg});
-  FB.onMessage(m,p=>{const d=p.data||{};if(Notification.permission==='granted')new Notification(d.title||'துலாமுள்',{body:d.body||'',icon:'icon.svg'});});
+  if(!pushToken) throw new Error('token கிடைக்கவில்லை');
+  FB.onMessage(m,pl=>{const d=pl.data||{};try{new Notification(d.title||'துலாமுள்',{body:d.body||'',icon:'icon.svg'});}catch(_){}});
   return pushToken;
 }
 async function saveTopics(){
   const topics=PAGES.filter(k=>localStorage.getItem('bell_'+k)==='1');
   if(!pushToken) return;
-  try{ await FB.setDoc(FB.doc(FB.db,'push',pushToken),{token:pushToken,topics,lang:LANG,updated:new Date().toISOString()}); }catch(e){ console.log('push save',e.message); }
+  await FB.setDoc(FB.doc(FB.db,'push',pushToken),{token:pushToken,topics,lang:LANG,updated:new Date().toISOString()});
 }
+const BELL_OFF='இந்தப் பக்கத்தின் செய்திகளை மட்டும் உடனுக்குடன் அறிய 🔔 தொடுங்கள்';
+const BELL_ON='இந்தப் பக்கத்தின் அறிவிப்புகள் மட்டும் — on';
+document.addEventListener('click',async e=>{
+  const b=e.target.closest('[data-bell]'); if(!b) return;
+  const k=b.dataset.bell, on=localStorage.getItem('bell_'+k)==='1', sp=b.querySelector('span');
+  if(on){ localStorage.setItem('bell_'+k,'0'); b.classList.remove('on'); sp.textContent=BELL_OFF; try{await saveTopics();}catch(_){} return; }
+  sp.textContent='அனுமதி கேட்கிறோம்…';
+  try{ await ensurePush(); localStorage.setItem('bell_'+k,'1'); b.classList.add('on'); sp.textContent=BELL_ON; await saveTopics(); }
+  catch(err){ sp.textContent='இயக்க முடியவில்லை: '+((err&&err.message)||err); }
+});
 function pageBody(k){
   if(k==='front'){const p=pub();return (brief&&brief.audio?briefHtml():'')+storiesHtml(p.slice(0,12),'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot">இன்றைய இதழ் · இரவு 12:00-க்கு புதிய இதழ் · <a href="#archive" class="brass">பழைய இதழ்கள் →</a><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்<br><b>அடுத்த பக்கம்: தமிழ்நாடு</b></div>`;}
   if(k==='edit'){return editHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: பொருளாதாரம்</b></div>`;}
@@ -406,12 +423,24 @@ function pageBody(k){
 function indexHtml(){
   return `<div class="inside"><div class="t">உள்ளே</div><div class="grid">${PAGES.slice(1).map((k,i)=>`<a href="#page/${k}"><span>${T[k]}</span><b>${i+2}</b></a>`).join('')}</div></div>`;
 }
+function adActive(a){const t=todayIST();return (!a.from||a.from<=t)&&(!a.to||a.to>=t);}
+function rasiHtml(){
+  const R=rasi;if(!R||!R.rasi)return '<div class="empty" style="padding-top:60px">ராசிபலன் — இன்று அதிகாலை தயாராகும்.</div>';
+  const p=R.panchangam;const r=R.rasi[rasiSel]||R.rasi[0];
+  return `<div class="panch"><div><small>வாரம்</small><b>${esc(p.vaaram)}</b></div><div><small>திதி</small><b>${esc(p.tithi)}</b></div><div><small>நட்சத்திரம்</small><b>${esc(p.nakshatram)}</b></div><div><small>சந்திரன்</small><b>${esc(p.chandra_rasi)}</b></div></div>
+   <div class="pad"><div class="rasigrid">${R.rasi.map((x,i)=>`<span data-rasi="${i}" class="${i===rasiSel?'on':''}">${esc(x.rasi)}</span>`).join('')}</div>
+   <div class="rasibox"><div style="display:flex;justify-content:space-between;align-items:flex-end"><div><h1 style="font-size:24px;margin:0">${esc(r.rasi)}</h1><div class="small muted">${esc(r.stars)}</div></div><div class="score"><b>${esc(r.score)}</b><small>${esc(r.label)}</small></div></div>
+   <div class="body4">${(r.lines||[]).map(l=>`<p>${esc(l)}</p>`).join('')}</div>
+   ${r.audio?`<div class="follow"><audio controls preload="none" src="${BASE}${r.audio}"></audio></div>`:''}</div>
+   <div class="note">ராகு காலம் ${esc(p.rahu)} · எமகண்டம் ${esc(p.yama)} · குளிகை ${esc(p.kuligai)}<br>கோசாரம்: குரு ${esc(p.gocharam.jupiter)} · சனி ${esc(p.gocharam.saturn)} · ராகு ${esc(p.gocharam.rahu)} · கேது ${esc(p.gocharam.ketu)}<br><span class="muted">சந்திர கோசாரம் + தாராபலம் அடிப்படையிலான பொதுப் பலன்; வாழ்க்கை முடிவுகளுக்கு ஜோதிடரை அணுகவும்.</span></div></div>`;
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-rasi]');if(!b)return;rasiSel=+b.dataset.rasi;localStorage.setItem('rasi',rasiSel);const pg=document.querySelector('.page[data-k="rasi"]');if(pg){const head=pg.querySelector('.phead').outerHTML;pg.innerHTML=head+rasiHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[PAGES.indexOf('rasi')+1]]}</b></div>`;}});
 function malarHtml(){
   const m=malar;if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.<br>சென்ற வார உலகம் · வரலாறு · ஒரு சொல் · ஒரு பாடல் · கட்டுரை · உலக இலக்கியம் · எண் · அன்று–இன்று · பாட்டி வைத்தியம் · விடுகதை.</div>';
   const sec=(id,t,b)=>`<div class="msec" id="m-${id}"><div class="mt">${t}</div>${b}</div>`;
   const toc=[['world','சென்ற வார உலகம்'],['history','வரலாற்றில்'],['word','ஒரு சொல்'],['song','ஒரு பாடல்'],['essay','கட்டுரை'],['lit','உலக இலக்கியம்'],['num','வாரத்தின் எண்'],['then','அன்று–இன்று'],['remedy','பாட்டி வைத்தியம்'],['riddle','விடுகதை']];
   let h=`<div class="pad"><div class="small muted" style="margin-top:12px">வாரம் ${esc(m.week||'')} · ஞாயிறு இணைப்பு</div>
-   <div class="chips" style="padding:12px 0 0">${toc.map(([id,t])=>`<a class="chip" href="#malar/${id}" onclick="setTimeout(()=>{const el=document.getElementById('m-${id}');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});},50)">${t}</a>`).join('')}</div>`;
+   <div class="chips" style="padding:12px 0 0">${toc.map(([id,t])=>`<span class="chip" onclick="const el=document.getElementById('m-${id}');const pg=document.querySelector('.page[data-k=&quot;malar&quot;]');if(el&&pg){pg.scrollTop=el.offsetTop-10;}">${t}</span>`).join('')}</div>`;
   if(m.world&&m.world.items) h+=sec('world',esc(m.world.title||'சென்ற வார உலகம்'),m.world.items.map(x=>`<p class="mh1"><b>${esc(x.head)}</b><br>${esc(x.text)}</p>`).join(''));
   h+=sec('history','இந்த வாரம் வரலாற்றில்',(m.history||[]).map(x=>`<p class="mh1"><b>${esc(x.year)}</b> ${esc(x.text)}</p>`).join(''));
   if(m.word) h+=sec('word','வாரம் ஒரு தமிழ்ச் சொல்',`<h2 style="font-size:24px;margin-bottom:8px">${esc(m.word.word)}</h2><p class="mp"><b>வேர்:</b> ${esc(m.word.root)}</p><p class="mp"><b>பழைய பயன்பாடு:</b> ${esc(m.word.old)}</p><p class="mp"><b>இன்று:</b> ${esc(m.word.today)}</p>`);
@@ -482,7 +511,7 @@ function renderAdForm(){
 }
 function briefHtml(){return `<div class="brief"><div><b>இன்றைய 60 நொடி</b><small>${brief.headlines.length} செய்திகள் · ${brief.date}</small></div><button class="play" id="bplay">${PLAY}</button><audio id="baudio" preload="none" src="${BASE}${brief.audio}"></audio></div>`;}
 let wxData=null;
-function wxHtml(){if(!wxData||!wxData.cities)return '';return `<div class="wx"><div class="t">வானிலை · ${hm(wxData.updated)}</div><div class="row">${Object.entries(wxData.cities).map(([c,v])=>`<div>${c}<b>${v.now}°</b>${v.min}°–${v.max}° · மழை ${v.rain}%</div>`).join('')}</div></div>`;}
+function wxHtml(){if(!wxData||!wxData.cities)return '';return `<div class="wx"><div class="t">வானிலை · ${hm(wxData.updated)}</div><div class="row">${Object.entries(wxData.cities).map(([c,v])=>`<div>${c}<b>${v.now}°</b>${v.min}°–${v.max}° · மழை வாய்ப்பு ${v.rain}%</div>`).join('')}</div></div>`;}
 function editHtml(){
   const e=eds[0];let h='';
   if(e){h+=`<div class="pad"><div class="small brass" style="margin-top:16px">ஆசிரியர் குறிப்பு</div><h1 style="font-size:25px;margin-top:6px">${esc(e.title)}</h1><div class="byline">${esc(e.author||'ஆசிரியர்')} · ${esc(e.date)}</div><div class="edbody">${esc(e.body).split(/\n+/).map(p=>`<p>${p}</p>`).join('')}</div></div>`;}
