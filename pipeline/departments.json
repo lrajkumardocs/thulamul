@@ -1,0 +1,563 @@
+{
+ "_note": "துலாமுள் மனு உதவி — துறை அட்டவணை. AI இதிலிருந்து மட்டுமே துறை/சட்டம்/portal எடுக்கும்; தானாக உருவாக்காது. ஆசிரியர் திருத்தலாம்.",
+ "categories": [
+  {
+   "id": "street_light",
+   "ta": "தெரு விளக்கு",
+   "dept_urban": "மாநகராட்சி/நகராட்சி — மின் பிரிவு",
+   "dept_rural": "ஊராட்சி ஒன்றியம்",
+   "officer_urban": "மண்டல அலுவலர் / செயற்பொறியாளர் (மின்)",
+   "officer_rural": "ஊராட்சி ஒன்றியத் துணைவட்டாட்சியர் (BDO)",
+   "law": "Tamil Nadu District Municipalities Act 1920 / Chennai City Municipal Corporation Act 1919 — தெரு விளக்குப் பராமரிப்பு உள்ளாட்சியின் கடமை",
+   "portal": [
+    "chennaicorporation.gov.in (சென்னை)",
+    "tnurbanepay.tn.gov.in",
+    "cmcell.tn.gov.in"
+   ],
+   "helpline": [
+    "1913 (சென்னை மாநகராட்சி)",
+    "1100 (முதல்வர் தனிப்பிரிவு)"
+   ],
+   "days": 7,
+   "docs": [
+    "தெரு/கம்பம் எண்",
+    "புகைப்படம்"
+   ]
+  },
+  {
+   "id": "road_pothole",
+   "ta": "சாலைப் பள்ளம் · சாலை பராமரிப்பு",
+   "dept_urban": "மாநகராட்சி/நகராட்சி — பொறியியல் பிரிவு",
+   "dept_rural": "நெடுஞ்சாலைத் துறை / ஊராட்சி ஒன்றியம்",
+   "officer_urban": "மண்டல அலுவலர் / உதவி செயற்பொறியாளர்",
+   "officer_rural": "கோட்டப் பொறியாளர், நெடுஞ்சாலைத் துறை",
+   "law": "Tamil Nadu Highways Act 2001; உள்ளாட்சிச் சட்டங்கள் — சாலை பராமரிப்புக் கடமை",
+   "portal": [
+    "chennaicorporation.gov.in",
+    "tnhighways.tn.gov.in",
+    "cmcell.tn.gov.in"
+   ],
+   "helpline": [
+    "1913",
+    "1100"
+   ],
+   "days": 15,
+   "docs": [
+    "இடம்/சாலைப் பெயர்",
+    "புகைப்படம்"
+   ]
+  },
+  {
+   "id": "garbage",
+   "ta": "குப்பை · தூய்மை",
+   "dept_urban": "மாநகராட்சி — சுகாதாரப் பிரிவு",
+   "dept_rural": "ஊராட்சி",
+   "officer_urban": "மண்டல சுகாதார அலுவலர்",
+   "officer_rural": "ஊராட்சித் தலைவர் / செயலர்",
+   "law": "Solid Waste Management Rules 2016 — தினசரி சேகரிப்பு உள்ளாட்சியின் கடமை",
+   "portal": [
+    "chennaicorporation.gov.in",
+    "tnurbanepay.tn.gov.in"
+   ],
+   "helpline": [
+    "1913",
+    "1800-425-1912 (தூய்மை)"
+   ],
+   "days": 7,
+   "docs": [
+    "தெரு",
+    "புகைப்படம்",
+    "எத்தனை நாள்"
+   ]
+  },
+  {
+   "id": "drainage",
+   "ta": "கழிவுநீர் · வடிகால்",
+   "dept_urban": "மெட்ரோ குடிநீர் & கழிவுநீர் வாரியம் / மாநகராட்சி",
+   "dept_rural": "TWAD Board / ஊராட்சி",
+   "officer_urban": "பகுதி பொறியாளர் (CMWSSB)",
+   "officer_rural": "உதவி செயற்பொறியாளர், TWAD",
+   "law": "CMWSSB Act 1978; Water (Prevention and Control of Pollution) Act 1974",
+   "portal": [
+    "chennaimetrowater.tn.gov.in",
+    "twadboard.tn.gov.in"
+   ],
+   "helpline": [
+    "044-45674567 (மெட்ரோ வாட்டர்)",
+    "1916"
+   ],
+   "days": 7,
+   "docs": [
+    "முகவரி",
+    "புகைப்படம்"
+   ]
+  },
+  {
+   "id": "water_supply",
+   "ta": "குடிநீர் — வரவில்லை · கசிவு · தரம்",
+   "dept_urban": "மெட்ரோ குடிநீர் வாரியம் / நகராட்சி",
+   "dept_rural": "TWAD Board / ஊராட்சி",
+   "officer_urban": "பகுதி பொறியாளர்",
+   "officer_rural": "உதவி செயற்பொறியாளர், TWAD",
+   "law": "CMWSSB Act 1978; தேசிய குடிநீர்த் திட்ட விதிகள்",
+   "portal": [
+    "chennaimetrowater.tn.gov.in",
+    "twadboard.tn.gov.in",
+    "cmcell.tn.gov.in"
+   ],
+   "helpline": [
+    "044-45674567",
+    "1916"
+   ],
+   "days": 3,
+   "docs": [
+    "முகவரி",
+    "இணைப்பு எண்",
+    "எத்தனை நாள்"
+   ]
+  },
+  {
+   "id": "electricity",
+   "ta": "மின்சாரம் — தடை · கட்டணம் · கம்பம்",
+   "dept_urban": "TANGEDCO (தமிழ்நாடு மின் வாரியம்)",
+   "dept_rural": "TANGEDCO",
+   "officer_urban": "உதவி செயற்பொறியாளர், சம்பந்தப்பட்ட பிரிவு",
+   "officer_rural": "உதவி செயற்பொறியாளர்",
+   "law": "Electricity Act 2003 பிரிவு 42, 57; TNERC Standards of Performance",
+   "portal": [
+    "tangedco.gov.in",
+    "tnebnet.org"
+   ],
+   "helpline": [
+    "94987-94987",
+    "1912"
+   ],
+   "days": 3,
+   "docs": [
+    "நுகர்வோர் எண்",
+    "முகவரி"
+   ]
+  },
+  {
+   "id": "ration",
+   "ta": "ரேஷன் கடை · குடிமைப்பொருள்",
+   "dept_urban": "உணவு & குடிமைப் பொருள் வழங்கல் துறை",
+   "dept_rural": "அதே",
+   "officer_urban": "வட்டார வழங்கல் அலுவலர் (TSO)",
+   "officer_rural": "வட்டார வழங்கல் அலுவலர்",
+   "law": "National Food Security Act 2013; TN PDS Control Order",
+   "portal": [
+    "tnpds.gov.in"
+   ],
+   "helpline": [
+    "1967",
+    "1800-425-5901"
+   ],
+   "days": 15,
+   "docs": [
+    "ரேஷன் அட்டை எண்",
+    "கடை எண்"
+   ]
+  },
+  {
+   "id": "patta",
+   "ta": "பட்டா · சிட்டா · நில ஆவணம்",
+   "dept_urban": "வருவாய்த் துறை",
+   "dept_rural": "வருவாய்த் துறை",
+   "officer_urban": "வட்டாட்சியர் (Tahsildar)",
+   "officer_rural": "வட்டாட்சியர்",
+   "law": "TN Patta Pass Book Act 1983; TN Revenue Standing Orders",
+   "portal": [
+    "eservices.tn.gov.in",
+    "tnesevai.tn.gov.in"
+   ],
+   "helpline": [
+    "1100"
+   ],
+   "days": 30,
+   "docs": [
+    "சர்வே எண்",
+    "பட்டா எண்",
+    "ஆவண நகல்"
+   ]
+  },
+  {
+   "id": "encroachment",
+   "ta": "ஆக்கிரமிப்பு — பொது இடம் · நீர்நிலை",
+   "dept_urban": "வருவாய்த் துறை / மாநகராட்சி",
+   "dept_rural": "வருவாய்த் துறை / ஊராட்சி",
+   "officer_urban": "வட்டாட்சியர் / மண்டல அலுவலர்",
+   "officer_rural": "வட்டாட்சியர்",
+   "law": "TN Land Encroachment Act 1905; TN Protection of Tanks and Eviction of Encroachment Act 2007",
+   "portal": [
+    "eservices.tn.gov.in",
+    "cmcell.tn.gov.in"
+   ],
+   "helpline": [
+    "1100"
+   ],
+   "days": 30,
+   "docs": [
+    "சர்வே எண்",
+    "புகைப்படம்",
+    "இடம்"
+   ]
+  },
+  {
+   "id": "bus_transport",
+   "ta": "பேருந்து · போக்குவரத்து",
+   "dept_urban": "போக்குவரத்துக் கழகம் (MTC/TNSTC)",
+   "dept_rural": "TNSTC",
+   "officer_urban": "கிளை மேலாளர் / பொது மேலாளர்",
+   "officer_rural": "கிளை மேலாளர்",
+   "law": "Motor Vehicles Act 1988; TNSTC பயணிகள் சாசனம்",
+   "portal": [
+    "mtcbus.tn.gov.in",
+    "tnstc.in"
+   ],
+   "helpline": [
+    "1800-599-1500"
+   ],
+   "days": 15,
+   "docs": [
+    "வழித்தட எண்",
+    "நேரம்",
+    "பேருந்து எண்"
+   ]
+  },
+  {
+   "id": "rto",
+   "ta": "ஓட்டுநர் உரிமம் · RC · RTO",
+   "dept_urban": "போக்குவரத்துத் துறை (RTO)",
+   "dept_rural": "RTO",
+   "officer_urban": "பிராந்திய போக்குவரத்து அலுவலர்",
+   "officer_rural": "பிராந்திய போக்குவரத்து அலுவலர்",
+   "law": "Motor Vehicles Act 1988; Central Motor Vehicles Rules 1989",
+   "portal": [
+    "parivahan.gov.in",
+    "tnsta.gov.in"
+   ],
+   "helpline": [
+    "1800-599-1500"
+   ],
+   "days": 30,
+   "docs": [
+    "விண்ணப்ப எண்",
+    "வாகன எண்"
+   ]
+  },
+  {
+   "id": "school",
+   "ta": "பள்ளி — கட்டணம் · சேர்க்கை · வசதி",
+   "dept_urban": "பள்ளிக் கல்வித் துறை",
+   "dept_rural": "அதே",
+   "officer_urban": "மாவட்டக் கல்வி அலுவலர் (CEO/DEO)",
+   "officer_rural": "மாவட்டக் கல்வி அலுவலர்",
+   "law": "RTE Act 2009; TN Schools (Regulation of Collection of Fee) Act 2009",
+   "portal": [
+    "tnschools.gov.in",
+    "emis.tnschools.gov.in"
+   ],
+   "helpline": [
+    "14417 (RTE)",
+    "1098 (குழந்தைகள்)"
+   ],
+   "days": 15,
+   "docs": [
+    "பள்ளிப் பெயர்",
+    "மாணவர் விவரம்",
+    "ரசீது"
+   ]
+  },
+  {
+   "id": "college",
+   "ta": "கல்லூரி · உயர்கல்வி",
+   "dept_urban": "உயர்கல்வித் துறை / பல்கலைக்கழகம்",
+   "dept_rural": "அதே",
+   "officer_urban": "கல்லூரிக் கல்வி இயக்குநர் / பதிவாளர்",
+   "officer_rural": "அதே",
+   "law": "UGC Regulations; TN Private Colleges (Regulation) Act 1976",
+   "portal": [
+    "tndce.tn.gov.in"
+   ],
+   "helpline": [
+    "1100"
+   ],
+   "days": 30,
+   "docs": [
+    "கல்லூரிப் பெயர்",
+    "பதிவு எண்"
+   ]
+  },
+  {
+   "id": "hospital",
+   "ta": "அரசு மருத்துவமனை · மருத்துவம்",
+   "dept_urban": "சுகாதாரம் & குடும்ப நலத் துறை",
+   "dept_rural": "அதே",
+   "officer_urban": "மருத்துவமனைத் தலைமை மருத்துவர் / இணை இயக்குநர் (சுகாதாரம்)",
+   "officer_rural": "வட்டார மருத்துவ அலுவலர்",
+   "law": "Clinical Establishments Act 2010; TN Public Health Act 1939; நோயாளிகள் உரிமைச் சாசனம்",
+   "portal": [
+    "tnhealth.tn.gov.in",
+    "cmcell.tn.gov.in"
+   ],
+   "helpline": [
+    "104",
+    "108 (அவசரம்)"
+   ],
+   "days": 15,
+   "docs": [
+    "மருத்துவமனை",
+    "தேதி",
+    "ஆவணம்"
+   ]
+  },
+  {
+   "id": "insurance_scheme",
+   "ta": "முதல்வர் காப்பீடு · அரசுத் திட்டப் பலன்",
+   "dept_urban": "சுகாதாரத் துறை / சம்பந்தப்பட்ட துறை",
+   "dept_rural": "அதே",
+   "officer_urban": "திட்ட ஒருங்கிணைப்பாளர் / இணை இயக்குநர்",
+   "officer_rural": "அதே",
+   "law": "CMCHIS திட்ட விதிகள்; PMJAY வழிகாட்டுதல்கள்",
+   "portal": [
+    "cmchistn.com",
+    "pmjay.gov.in"
+   ],
+   "helpline": [
+    "1800-425-3993",
+    "14555"
+   ],
+   "days": 15,
+   "docs": [
+    "அட்டை எண்",
+    "மருத்துவமனை",
+    "மறுப்புக் கடிதம்"
+   ]
+  },
+  {
+   "id": "police_fir",
+   "ta": "காவல் — FIR பதிவு மறுப்பு · நடவடிக்கை இல்லை",
+   "dept_urban": "காவல் துறை",
+   "dept_rural": "காவல் துறை",
+   "officer_urban": "காவல் கண்காணிப்பாளர் (SP) / துணை ஆணையர்",
+   "officer_rural": "காவல் கண்காணிப்பாளர்",
+   "law": "CrPC/BNSS — புகார் பதிவு கட்டாயம்; Lalita Kumari vs State of UP (2013) — அறியக்கூடிய குற்றத்திற்கு FIR கட்டாயம்",
+   "portal": [
+    "eservices.tnpolice.gov.in",
+    "cybercrime.gov.in"
+   ],
+   "helpline": [
+    "100",
+    "112",
+    "1091 (மகளிர்)"
+   ],
+   "days": 7,
+   "docs": [
+    "தேதி",
+    "நிலையம்",
+    "புகார் நகல்"
+   ]
+  },
+  {
+   "id": "consumer",
+   "ta": "நுகர்வோர் — மோசடி · சேவைக் குறை",
+   "dept_urban": "நுகர்வோர் பாதுகாப்பு ஆணையம்",
+   "dept_rural": "அதே",
+   "officer_urban": "மாவட்ட நுகர்வோர் ஆணையம்",
+   "officer_rural": "மாவட்ட நுகர்வோர் ஆணையம்",
+   "law": "Consumer Protection Act 2019 — 2 ஆண்டுக்குள் புகார்; ₹50 லட்சம் வரை மாவட்ட ஆணையம்",
+   "portal": [
+    "edaakhil.nic.in",
+    "consumerhelpline.gov.in"
+   ],
+   "helpline": [
+    "1915"
+   ],
+   "days": 45,
+   "docs": [
+    "ரசீது",
+    "ஒப்பந்தம்",
+    "கடிதப் பரிமாற்றம்"
+   ]
+  },
+  {
+   "id": "bank_finance",
+   "ta": "வங்கி · நிதி நிறுவனம்",
+   "dept_urban": "வங்கியின் புகார் பிரிவு → RBI ஒம்புட்ஸ்மேன்",
+   "dept_rural": "அதே",
+   "officer_urban": "முதன்மை நோடல் அலுவலர் → RBI ஒம்புட்ஸ்மேன்",
+   "officer_rural": "அதே",
+   "law": "RBI Integrated Ombudsman Scheme 2021 — வங்கியில் 30 நாள் பதில் இல்லையெனில் ஒம்புட்ஸ்மேன்",
+   "portal": [
+    "cms.rbi.org.in"
+   ],
+   "helpline": [
+    "14448 (RBI)"
+   ],
+   "days": 30,
+   "docs": [
+    "கணக்கு எண்",
+    "கடிதப் பரிமாற்றம்",
+    "வங்கிப் புகார் எண்"
+   ]
+  },
+  {
+   "id": "labour",
+   "ta": "தொழிலாளர் — ஊதியம் · பணிநீக்கம் · பாதுகாப்பு",
+   "dept_urban": "தொழிலாளர் நலத் துறை",
+   "dept_rural": "அதே",
+   "officer_urban": "உதவி ஆணையர் (தொழிலாளர்) / ஆய்வாளர்",
+   "officer_rural": "தொழிலாளர் ஆய்வாளர்",
+   "law": "Payment of Wages Act 1936; Industrial Disputes Act 1947; Code on Wages 2019",
+   "portal": [
+    "labour.tn.gov.in"
+   ],
+   "helpline": [
+    "1800-425-5959"
+   ],
+   "days": 30,
+   "docs": [
+    "பணி ஆவணம்",
+    "ஊதிய விவரம்",
+    "நிறுவனப் பெயர்"
+   ]
+  },
+  {
+   "id": "pollution",
+   "ta": "சுற்றுச்சூழல் — மாசு · ஒலி · கழிவு",
+   "dept_urban": "தமிழ்நாடு மாசுக் கட்டுப்பாட்டு வாரியம் (TNPCB)",
+   "dept_rural": "TNPCB",
+   "officer_urban": "மாவட்ட சுற்றுச்சூழல் பொறியாளர்",
+   "officer_rural": "மாவட்ட சுற்றுச்சூழல் பொறியாளர்",
+   "law": "Air Act 1981; Water Act 1974; Environment (Protection) Act 1986; Noise Pollution Rules 2000",
+   "portal": [
+    "tnpcb.gov.in"
+   ],
+   "helpline": [
+    "1800-425-9911"
+   ],
+   "days": 30,
+   "docs": [
+    "இடம்",
+    "புகைப்படம்/ஒலிப்பதிவு",
+    "நிறுவனப் பெயர்"
+   ]
+  },
+  {
+   "id": "agriculture",
+   "ta": "வேளாண்மை — உரம் · பயிர்க் காப்பீடு · கொள்முதல்",
+   "dept_urban": "வேளாண்மைத் துறை",
+   "dept_rural": "வேளாண்மைத் துறை",
+   "officer_urban": "வேளாண்மை உதவி இயக்குநர்",
+   "officer_rural": "வேளாண்மை உதவி இயக்குநர்",
+   "law": "PM Fasal Bima Yojana விதிகள்; TN Agricultural Produce Marketing Act",
+   "portal": [
+    "tnagrisnet.tn.gov.in",
+    "pmfby.gov.in"
+   ],
+   "helpline": [
+    "1800-180-1551"
+   ],
+   "days": 15,
+   "docs": [
+    "பட்டா/சர்வே எண்",
+    "காப்பீட்டு எண்",
+    "ரசீது"
+   ]
+  },
+  {
+   "id": "pension",
+   "ta": "ஓய்வூதியம் · சமூகப் பாதுகாப்பு உதவி",
+   "dept_urban": "வருவாய் / சமூக நலத் துறை",
+   "dept_rural": "அதே",
+   "officer_urban": "வட்டாட்சியர்",
+   "officer_rural": "வட்டாட்சியர்",
+   "law": "TN Social Security Schemes; NSAP வழிகாட்டுதல்",
+   "portal": [
+    "tnesevai.tn.gov.in",
+    "cmcell.tn.gov.in"
+   ],
+   "helpline": [
+    "1100"
+   ],
+   "days": 30,
+   "docs": [
+    "விண்ணப்ப எண்",
+    "அடையாள ஆவணம்"
+   ]
+  },
+  {
+   "id": "women_child",
+   "ta": "மகளிர் · குழந்தைகள் பாதுகாப்பு",
+   "dept_urban": "சமூக நலம் & மகளிர் உரிமைத் துறை",
+   "dept_rural": "அதே",
+   "officer_urban": "மாவட்ட சமூக நல அலுவலர் / குழந்தைகள் நல குழு",
+   "officer_rural": "அதே",
+   "law": "Protection of Women from Domestic Violence Act 2005; POCSO Act 2012; JJ Act 2015",
+   "portal": [
+    "ncwapps.nic.in",
+    "cmcell.tn.gov.in"
+   ],
+   "helpline": [
+    "181 (மகளிர்)",
+    "1098 (குழந்தைகள்)",
+    "1091"
+   ],
+   "days": 7,
+   "docs": [
+    "விவரம்",
+    "(ரகசியம் பேணப்படும்)"
+   ]
+  },
+  {
+   "id": "rti",
+   "ta": "தகவல் அறியும் உரிமை (RTI)",
+   "dept_urban": "சம்பந்தப்பட்ட பொதுத் தகவல் அலுவலர் (PIO)",
+   "dept_rural": "அதே",
+   "officer_urban": "பொதுத் தகவல் அலுவலர் (PIO) → மேல்முறையீட்டு அதிகாரி",
+   "officer_rural": "அதே",
+   "law": "Right to Information Act 2005 — 30 நாளில் பதில் கட்டாயம்; ₹10 கட்டணம்",
+   "portal": [
+    "tnsic.gov.in",
+    "rtionline.gov.in"
+   ],
+   "helpline": [
+    "1100"
+   ],
+   "days": 30,
+   "docs": [
+    "எந்தத் துறை",
+    "என்ன தகவல்",
+    "காலம்"
+   ]
+  }
+ ],
+ "escalation": [
+  {
+   "step": 1,
+   "ta": "சம்பந்தப்பட்ட துறை — எழுத்துப்பூர்வ மனு (portal / நேரில் ஒப்புகையுடன்)"
+  },
+  {
+   "step": 2,
+   "ta": "காலக்கெடு முடிந்தும் பதில் இல்லை → முதல்வர் தனிப்பிரிவு (cmcell.tn.gov.in / 1100)"
+  },
+  {
+   "step": 3,
+   "ta": "பதில் இல்லை → RTI: என் மனுவின் மீது என்ன நடவடிக்கை, யார் கோப்பை வைத்திருக்கிறார், எத்தனை நாள் தாமதம்"
+  },
+  {
+   "step": 4,
+   "ta": "தொடர்ந்து புறக்கணிப்பு → மாவட்ட ஆட்சியரின் குறைதீர் நாள் (திங்கள்) / சம்பந்தப்பட்ட ஆணையம்"
+  },
+  {
+   "step": 5,
+   "ta": "நுகர்வோர்/வங்கி/மனித உரிமை → அந்தந்த ஆணையம் · தேவைப்பட்டால் வழக்கறிஞர் (DLSA இலவச உதவி: 1516)"
+  }
+ ],
+ "free_legal_aid": {
+  "ta": "மாவட்ட சட்ட சேவை ஆணையம் (DLSA) — இலவச சட்ட உதவி",
+  "helpline": "15100 / 1516",
+  "portal": "tnslsa.tn.gov.in"
+ }
+}
