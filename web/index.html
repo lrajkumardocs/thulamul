@@ -218,8 +218,11 @@
   body.f-l .body5 p{font-size:17.5px;line-height:1.8}body.f-l h1{font-size:26px}body.f-l h2{font-size:20px}body.f-l .stxt h2{font-size:18px}
   /* copy protection */
   body{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+  #s-complaint,#s-adform,#s-complaint *,#s-adform *{-webkit-user-select:auto!important;user-select:auto!important;-webkit-touch-callout:default!important}
+  #s-complaint,#s-adform{-webkit-user-select:auto;user-select:auto}
   textarea,input,select,[contenteditable]{-webkit-user-select:text!important;user-select:text!important;-webkit-touch-callout:default;pointer-events:auto!important}
-  img{pointer-events:none;-webkit-user-drag:none}
+  img{-webkit-user-drag:none}
+  .story img,.lead img,.dph{pointer-events:none}
   .pbtn,.play,button,a,.icon{pointer-events:auto}
   .ph,.dph,.th,.ad img{position:relative}
   .wm{position:absolute;right:10px;bottom:8px;font-family:var(--serif);font-size:11px;color:rgba(243,242,238,.85);text-shadow:0 0 4px rgba(0,0,0,.6);pointer-events:none;letter-spacing:.04em}
@@ -690,8 +693,8 @@ function step1(){
    <textarea id="c-text" placeholder="எங்க தெருவுல (காமராஜர் தெரு, அசோக் நகர்) 3 மாசமா 3 தெருவிளக்கு எரியல. 1913-ல சொன்னேன், நடவடிக்கை இல்ல.">${esc2(cdata.text||'')}</textarea>
    <label class="fl">உங்கள் பெயர்<input id="c-name" value="${esc2(cdata.name||'')}"></label>
    <label class="fl">முகவரி / பகுதி<input id="c-addr" value="${esc2(cdata.addr||'')}" placeholder="தெரு, பகுதி, ஊர், மாவட்டம்"></label>
-   <div class="row2"><label class="fl">பகுதி வகை<select id="c-area" class="chip" style="width:100%;font-size:15px;padding:11px"><option value="urban">நகர்ப்புறம் (மாநகராட்சி/நகராட்சி)</option><option value="rural">ஊரகம் (ஊராட்சி)</option></select></label>
-   <label class="fl">&nbsp;<button class="btn" id="c-go" style="margin-top:6px">துலாமுள் அலசட்டும்</button></label></div>
+   <label class="fl">பகுதி வகை<select id="c-area" class="chip" style="width:100%;font-size:15px;padding:12px"><option value="urban">நகர்ப்புறம் (மாநகராட்சி/நகராட்சி)</option><option value="rural">ஊரகம் (ஊராட்சி)</option></select></label>
+   <button class="btn" id="c-go">ஆராய்ந்து கூறு</button>
    <div class="small" id="c-msg" style="margin-top:10px"></div>
    <div class="note">இது சட்ட ஆலோசனை அல்ல; மனு உதவி.</div>
    <div class="rule"></div><a class="prow" href="#complaint" onclick="cstep=5"><span>என் மனுக்கள்</span><span class="brass">→</span></a></div>`;
@@ -819,8 +822,10 @@ function route(hh){
 }
 
 // ---- copy protection
-['contextmenu','copy','cut','dragstart','selectstart'].forEach(ev=>document.addEventListener(ev,e=>{const t=e.target;if(t&&(t.tagName==='TEXTAREA'||t.tagName==='INPUT'||t.tagName==='SELECT'||(t.closest&&t.closest('textarea,input,select'))))return;e.preventDefault();}));
-document.addEventListener('keydown',e=>{const t=e.target;const inField=t&&(t.tagName==='TEXTAREA'||t.tagName==='INPUT'||t.tagName==='SELECT');const k=e.key.toLowerCase();if((e.ctrlKey||e.metaKey)&&['c','s','p','u','a','x','v'].includes(k)&&!inField)e.preventDefault();if(e.key==='PrintScreen'){navigator.clipboard&&navigator.clipboard.writeText('துலாமுள் — thulamul.com');}});
+const isField=t=>{try{return !!(t&&(t.tagName==='TEXTAREA'||t.tagName==='INPUT'||t.tagName==='SELECT'||(t.closest&&t.closest('textarea,input,select'))));}catch(_){return false;}};
+['contextmenu','copy','cut','dragstart'].forEach(ev=>document.addEventListener(ev,e=>{if(isField(e.target)||isField(document.activeElement))return;e.preventDefault();}));
+document.addEventListener('selectstart',e=>{if(isField(e.target)||isField(document.activeElement))return;e.preventDefault();});
+document.addEventListener('keydown',e=>{const t=e.target;const inField=isField(t)||isField(document.activeElement);const k=e.key.toLowerCase();if((e.ctrlKey||e.metaKey)&&['c','s','p','u','a','x','v'].includes(k)&&!inField)e.preventDefault();if(e.key==='PrintScreen'){navigator.clipboard&&navigator.clipboard.writeText('துலாமுள் — thulamul.com');}});
 setInterval(()=>{const t=Date.now();debugger;if(Date.now()-t>100)document.body.classList.add('devtools');},1500);
 let curHash='#home';
 function go(h){curHash=h;let ok=false;try{if(location.hash!==h){location.hash=h;ok=true;}}catch(_){ok=false;}if(!ok)route(h);}
