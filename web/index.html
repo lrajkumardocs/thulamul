@@ -167,6 +167,21 @@
   .jr{text-align:right;flex:none}.jr i{font-style:normal;font-size:11px;color:var(--brass)}.jr small{display:block;font-size:11px;color:var(--ink3)}
   .med summary{font-size:12px;color:var(--ink2);cursor:pointer;list-style:none;padding:2px 0}
   .med div{padding-left:12px}
+  .panch{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border-bottom:1px solid var(--rule)}
+  .panch div{background:var(--paper2);padding:10px 16px}.panch small{display:block;font-size:10.5px;color:var(--ink3)}.panch b{display:block;font-family:var(--serif);font-size:14px;font-weight:500;margin-top:2px}
+  .rasigrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:14px}
+  .rasigrid span{font-size:12px;text-align:center;padding:9px 4px;border:1px solid var(--rule);border-radius:8px;background:var(--paper2);cursor:pointer}
+  .rasigrid span.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .rasibox{margin-top:18px;border-top:1px solid var(--rule);padding-top:18px}
+  .score{text-align:right}.score b{display:block;font-family:var(--serif);font-size:26px;font-weight:500;color:var(--brass);line-height:1}.score small{font-size:11px;color:var(--ink2)}
+  .body4{margin-top:14px}.body4 p{font-size:15px;line-height:1.8;margin-bottom:8px;padding-left:14px;border-left:1px solid var(--rule)}
+  .note{font-size:11px;color:var(--ink3);line-height:1.7;margin-top:16px}
+  .month{margin-top:18px}.mname{font-family:var(--serif);font-size:16px;font-weight:500;margin-bottom:8px}
+  .cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+  .cal em{font-style:normal;font-size:10px;color:var(--ink3);text-align:center}
+  .cal a,.cal i{display:flex;flex-direction:column;align-items:center;justify-content:center;aspect-ratio:1;border-radius:8px;font-style:normal;font-size:13px}
+  .cal i{color:var(--rule)}.cal i b{font-weight:400;color:var(--ink3);opacity:.5}
+  .cal a.on{background:var(--brass2);border:1px solid var(--brass);color:var(--ink)}.cal a b{font-family:var(--serif);font-weight:500}.cal a small{font-size:9px;color:var(--brass)}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -223,7 +238,7 @@
   <div class="head"><div class="mast">நான்</div></div>
   <div class="pad">
     <div class="prow"><span>மொழி</span><span class="small muted">தமிழ்</span></div>
-    <div class="prow"><span>ராசி பலன்</span><span class="small brass">Session 4</span></div>
+    <div class="prow"><span>ராசி பலன்</span><span class="small muted">பக்கம் 13</span></div>
     <div class="prow"><span>தினசரி brief நேரம்</span><span class="small muted">காலை 6:00</span></div>
     <div class="prow"><span>ஆப்பாக நிறுவு</span><span class="small muted">Share → Add to Home Screen</span></div>
     <div class="prow"><span>எழுத்து அளவு</span><span class="seg"><span data-f="s">சிறியது</span><span data-f="m" class="on">நடுத்தரம்</span><span data-f="l">பெரியது</span></span></div>
@@ -250,7 +265,7 @@ const LOGO=`<svg viewBox="0 0 100 100"><line x1="50" y1="18" x2="50" y2="82" str
 const T={ads:'விளம்பரம்',malar:'வாரமலர்',all:'முதல் பக்கம்',tn:'தமிழ்நாடு',india:'இந்தியா',world:'உலகம்',edit:'தலையங்கம்',economy:'பொருளாதாரம்',sports:'விளையாட்டு',cinema:'சினிமா',tech:'தொழில்நுட்பம்',rasi:'ராசிபலன்',court:'நீதிமன்றம்',jobs:'வேலைவாய்ப்பு',health:'சுகாதாரம்',agri:'விவசாயம்',spirit:'ஆன்மீகம்',assembly:'சட்டமன்றம்'};
 const MAIN=['all','tn','india','world','edit','economy','sports','cinema','tech','rasi'], MORE=['court','jobs','health','agri','spirit','assembly'];
 const TA=['1','2','3','4','5'];
-let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null;
+let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,rasiSel=parseInt(localStorage.getItem('rasi')||'0');
 const $=s=>document.querySelector(s);
 const esc=s=>(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
 const tdate=d=>new Date(d).toLocaleDateString('ta-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
@@ -308,7 +323,7 @@ function pageBody(k){
   if(k==='edit'){return editHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: பொருளாதாரம்</b></div>`;}
   if(k==='malar'){return malarHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: விளம்பரம்</b></div>`;}
   if(k==='ads'){return adsHtml()+`<div class="pad"><div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>ஆசிரியர்: ல. ராஜ்குமார் · சென்னை<br>விளம்பரம்: <a href="https://wa.me/${AD_WA}">WhatsApp</a> · <a href="mailto:${AD_MAIL}">${AD_MAIL}</a></div></div><div class="pfoot">16 பக்கங்கள் நிறைவு · <b>முதல் பக்கத்திற்கு: கீழே "இன்று"</b></div>`;}
-  if(k==='rasi'){return `<div class="empty" style="padding-top:60px">ராசிபலன் — 12 ராசிகளுக்கும் இன்றைய 4 வரி.<br>Session 4-ல் வரும்.</div><div class="pfoot"><b>அடுத்த பக்கம்: நீதிமன்றம்</b></div>`;}
+  if(k==='rasi'){const i=PAGES.indexOf(k);return rasiHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[i+1]]}</b></div>`;}
   const i=PAGES.indexOf(k);const nxt=PAGES[i+1];const items=pub().filter(s=>s.topic===k);
   return storiesHtml(items,'இந்தப் பக்கத்தில் இன்று செய்தி இல்லை.',true)+`<div class="pfoot">${nxt?`<b>அடுத்த பக்கம்: ${T[nxt]||'முதல் பக்கம்'}</b>`:'<b>கடைசிப் பக்கம்</b> · முதல் பக்கத்திற்கு: கீழே "இன்று"'}</div>`;
 }
@@ -326,6 +341,17 @@ function malarHtml(){
    ${m.wonder?sec('ஆச்சரியம்',`<p class="mp">${esc(m.wonder.text)}</p>`):''}</div>`;
 }
 function adActive(a){const t=todayIST();return (!a.from||a.from<=t)&&(!a.to||a.to>=t);}
+function rasiHtml(){
+  const R=rasi;if(!R||!R.rasi)return '<div class="empty" style="padding-top:60px">ராசிபலன் — இன்று அதிகாலை தயாராகும்.</div>';
+  const p=R.panchangam;const r=R.rasi[rasiSel]||R.rasi[0];
+  return `<div class="panch"><div><small>வாரம்</small><b>${esc(p.vaaram)}</b></div><div><small>திதி</small><b>${esc(p.tithi)}</b></div><div><small>நட்சத்திரம்</small><b>${esc(p.nakshatram)}</b></div><div><small>சந்திரன்</small><b>${esc(p.chandra_rasi)}</b></div></div>
+   <div class="pad"><div class="rasigrid">${R.rasi.map((x,i)=>`<span data-rasi="${i}" class="${i===rasiSel?'on':''}">${esc(x.rasi)}</span>`).join('')}</div>
+   <div class="rasibox"><div style="display:flex;justify-content:space-between;align-items:flex-end"><div><h1 style="font-size:24px;margin:0">${esc(r.rasi)}</h1><div class="small muted">${esc(r.stars)}</div></div><div class="score"><b>${r.score}</b><small>${esc(r.label)}</small></div></div>
+   <div class="body4">${r.lines.map(l=>`<p>${esc(l)}</p>`).join('')}</div>
+   ${r.audio?`<div class="follow"><audio controls preload="none" src="${BASE}${r.audio}"></audio></div>`:''}</div>
+   <div class="note">ராகு காலம் ${esc(p.rahu)} · எமகண்டம் ${esc(p.yama)} · குளிகை ${esc(p.kuligai)}<br>கோசாரம்: குரு ${esc(p.gocharam.jupiter)} · சனி ${esc(p.gocharam.saturn)} · ராகு ${esc(p.gocharam.rahu)} · கேது ${esc(p.gocharam.ketu)}<br><span class="muted">சந்திர கோசாரம் + தாராபலம் அடிப்படையிலான பொதுப் பலன்; வாழ்க்கை முடிவுகளுக்கு ஜோதிடரை அணுகவும்.</span></div></div>`;
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-rasi]');if(!b)return;rasiSel=+b.dataset.rasi;localStorage.setItem('rasi',rasiSel);const pg=document.querySelector('.page[data-k="rasi"]');if(pg){const head=pg.querySelector('.phead').outerHTML;pg.innerHTML=head+rasiHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[PAGES.indexOf('rasi')+1]]}</b></div>`;}});
 function adsHtml(){
   const live=ads.filter(adActive);const slots=[];
   for(let i=1;i<=AD_SLOTS;i++){const a=live.find(x=>+x.slot===i)||null;slots.push(a);}
@@ -400,8 +426,13 @@ document.addEventListener('DOMContentLoaded',()=>{$('#paper').addEventListener('
 let issueLabel='';
 function renderArchive(){
   fetch(BASE+'data/issues/index.json'+q).then(r=>r.json()).then(list=>{
-    if(!list.length)throw 0;
-    $('#arc-list').innerHTML=list.map(x=>`<a class="prow" href="#issue/${x.date}"><span class="serif">${new Date(x.date).toLocaleDateString('ta-IN',{weekday:'short',day:'numeric',month:'long',year:'numeric'})}</span><span class="small muted">${x.count} செய்தி</span></a>`).join('');
+    if(!list.length)throw 0;const have={};list.forEach(x=>have[x.date]=x.count);
+    const months=[...new Set(list.map(x=>x.date.slice(0,7)))].sort().reverse();
+    const DN=['ஞா','தி','செ','பு','வி','வெ','ச'];
+    $('#arc-list').innerHTML=months.map(m=>{const [y,mo]=m.split('-').map(Number);const first=new Date(y,mo-1,1);const days=new Date(y,mo,0).getDate();
+      let cells=Array(first.getDay()).fill('<i></i>');
+      for(let d=1;d<=days;d++){const key=`${m}-${String(d).padStart(2,'0')}`;cells.push(have[key]?`<a href="#issue/${key}" class="on"><b>${d}</b><small>${have[key]}</small></a>`:`<i><b>${d}</b></i>`);}
+      return `<div class="month"><div class="mname">${first.toLocaleDateString('ta-IN',{month:'long',year:'numeric'})}</div><div class="cal">${DN.map(x=>`<em>${x}</em>`).join('')}${cells.join('')}</div></div>`;}).join('')+'<div class="note">பித்தளை நிற தேதிகளில் இதழ் உள்ளது · எண் = அன்றைய செய்திகள் · 90 நாள் காப்பகம்</div>';
   }).catch(()=>{$('#arc-list').innerHTML='<div class="empty">காப்பகம் நாளை முதல் நிரம்பும் — ஒவ்வொரு நாளின் இதழும் இங்கே சேமிக்கப்படும்.</div>'});
 }
 let liveFeed=null;
@@ -429,7 +460,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-play]');if
 function gotoPage(k,smooth){const paper=$('#paper');const i=Math.max(0,PAGES.indexOf(k));paper.scrollTo({left:i*paper.clientWidth,behavior:smooth?'smooth':'auto'});}
 function renderTopics(){
   const c={};pub().forEach(s=>c[s.topic]=(c[s.topic]||0)+1);
-  $('#topics-list').innerHTML=PAGES.map((k,i)=>`<a class="prow" href="#page/${k}"><span><span class="num">${tnum(i+1)}</span>${k==='front'?'முதல் பக்கம்':T[k]}</span><span class="small ${k==='rasi'?'brass':'muted'}">${k==='front'?pub().length:k==='edit'?eds.length:k==='rasi'?'விரைவில்':k==='ads'?'':k==='malar'?'ஞாயிறு':(c[k]||0)}</span></a>`).join('');
+  $('#topics-list').innerHTML=PAGES.map((k,i)=>`<a class="prow" href="#page/${k}"><span><span class="num">${tnum(i+1)}</span>${k==='front'?'முதல் பக்கம்':T[k]}</span><span class="small ${k==='rasi'?'brass':'muted'}">${k==='front'?pub().length:k==='edit'?eds.length:k==='rasi'?'12':k==='ads'?'':k==='malar'?'ஞாயிறு':(c[k]||0)}</span></a>`).join('');
 }
 const OFFICIAL=/PIB|RBI|TNPSC|TN Private|WHO|ICMR|ICAR|TNAU|Employment News|G\.O|அரசு|நீதிமன்றம்|Supreme|High Court|ACC|BCCI|ISRO|SEBI|NSE|IMD/i;
 function srcShort(list){const off=list.filter(x=>OFFICIAL.test(x.name)||x.doc);const n=list.length-off.length;return [...off.map(x=>x.name),...(n?['ஊடகச் செய்திகள் ('+n+')']:[])].join(', ');}
@@ -498,7 +529,8 @@ Promise.all([
   fetch(BASE+'data/editorials.json'+q).then(r=>r.json()).catch(()=>[]),
   fetch(BASE+'data/ads.json'+q).then(r=>r.json()).catch(()=>[]),
   fetch(BASE+'data/malar.json'+q).then(r=>r.json()).catch(()=>null),
-]).then(([f,b,w,e,a,m])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;renderHome();route(location.hash||'#home');});
+  fetch(BASE+'data/rasi.json'+q).then(r=>r.json()).catch(()=>null),
+]).then(([f,b,w,e,a,m,rs])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;renderHome();route(location.hash||'#home');});
 </script>
 </body>
 </html>
