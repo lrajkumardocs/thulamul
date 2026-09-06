@@ -165,5 +165,57 @@
   "audio": "data/audio/d4ddbc17a636.mp3",
   "created_ts": 1788728969.3377292,
   "status": "pending"
+ },
+ {
+  "headline": "நேபாளம், சீனா வெள்ளத்தில் 1,300 பேர் பலி, ஐநா நிதி உதவி கோரிக்கை",
+  "lines": [
+   "நேபாளம் மற்றும் சீனாவில் ஏற்பட்ட கடும் வெள்ளத்தால் 1,300 க்கும் அதிகமானோர் உயிரிழந்ததாக தகவல் வெளியானது.",
+   "நேபாளத்தில் மட்டும் 84,000 க்கும் அதிகமான மக்கள் இந்த வெள்ளத்தால் பாதிக்கப்பட்டுள்ளனர்.",
+   "ஐக்கிய நாடுகள் சபை பாதிக்கப்பட்டோருக்கு உதவ 50 மில்லியன் டாலர் நிதி திரட்ட உலக நாடுகளிடம் வேண்டுகோள் விடுத்துள்ளது.",
+   "பாதிக்கப்பட்ட பகுதிகளில் காலரா நோய் பரவும் அபாயமும், சுகாதார வசதிகள் பற்றாக்குறையும் நிலவுவதாக ஐநா தெரிவித்துள்ளது.",
+   "நிவாரண பணிகள் தொடர்ந்து நடைபெற்று வரும் நிலையில், சர்வதேச நிதி உதவி எவ்வளவு விரைவில் வந்து சேரும் என்பது கவனிக்கப்பட வேண்டும்."
+  ],
+  "closing": "வெள்ள பாதிப்பு பகுதிகளில் சுகாதார வசதிகள் மற்றும் நிவாரண பணிகள் எந்த அளவு விரைவாக மேம்படும் என்பதை கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": "2026-09-06"
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "நேபாளம்",
+   "சீனா",
+   "ஐக்கிய நாடுகள் சபை",
+   "காலரா"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Nepal, China Floods Kill Over 1,300, UN Seeks Global Aid",
+   "lines": [
+    "Floods in Nepal and China have killed more than 1,300 people, according to reports.",
+    "In Nepal alone, over 84,000 people have been affected by the flooding.",
+    "The United Nations has appealed to the international community to raise $50 million to help those affected.",
+    "The UN has stated that there is a risk of cholera spreading in the affected areas along with a shortage of sanitation facilities.",
+    "Relief operations are continuing, and how quickly international financial aid arrives remains to be seen."
+   ],
+   "closing": "How quickly sanitation facilities and relief efforts improve in the flood-hit areas remains to be watched."
+  },
+  "flags": [
+   "numbers_conflict",
+   "single_source"
+  ],
+  "id": "336820bcf9c5",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-09-07T04:38+05:30",
+  "links": [
+   "https://www.aljazeera.com/gallery/2026/9/6/photos-nepal-flood-survivors-face-overwhelming-devastation?traffic_source=rss"
+  ],
+  "image": null,
+  "audio": "data/audio/336820bcf9c5.mp3",
+  "created_ts": 1788736121.6740596,
+  "status": "pending"
  }
 ]
