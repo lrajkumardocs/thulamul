@@ -219,6 +219,8 @@ def telegram_poll_approvals(state):
         m = re.match(r"^(✔|✓|ok|சரி|✘|✗|no|வேண்டாம்)\s*([a-f0-9]{12})", t, re.I)
         if m:
             decisions[m.group(2)] = m.group(1) in ("✔", "✓", "ok", "சரி")
+        if re.match(r"^(✘|✗|no|வேண்டாம்)\s*editorial", t, re.I):
+            ed = load_json(DATA / "ai_editorial.json", {}); ed["hidden"] = True; save_json(DATA / "ai_editorial.json", ed); telegram("இன்றைய AI தலையங்கம் மறைக்கப்பட்டது.")
         # தலையங்கம்: "தலையங்கம்: தலைப்பு\nஉரை..."
         if t.startswith("தலையங்கம்:"):
             body = t[len("தலையங்கம்:"):].strip()
@@ -386,6 +388,43 @@ def main():
     except Exception as ex:
         print("[malar] பிழை", ex)
 
+    # 5b4. AI தலையங்கம் "தராசில் இன்று" + கேலிச்சித்திரம் — தினமும் 5:30-க்குப் பின் ஒரு முறை
+    try:
+        ed = load_json(DATA / "ai_editorial.json", {})
+        todays_pub = [x for x in feed if x.get("published_at", "").startswith(today) and x["status"] == "published" and x["topic"] in ("tn", "india", "world", "economy", "court", "health", "agri", "assembly")]
+        if now.hour >= 5 and ed.get("date") != today and len(todays_pub) >= 3 and not api_dead:
+            src = "\n\n".join(f"[{x['topic_ta']}] {x['headline']}\n" + " ".join(x["lines"]) for x in todays_pub[:10])
+            ep = (ROOT / "pipeline/prompts/editorial.md").read_text(encoding="utf-8").replace("{{TODAY}}", today)
+            msg = client.messages.create(model=MODEL, max_tokens=3000, system=ep, messages=[{"role": "user", "content": src}])
+            raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+            e = parse_json(client, raw); e["date"] = today; e["author"] = "துலாமுள் AI ஆசிரியர்"
+            e["audio"] = make_audio(f"editorial_{today.replace('-', '')}", f"தராசில் இன்று. {e['title']}. {e['issue']} ஒரு தட்டு: {e['side_a']['label']}. " + " ".join(e["side_a"]["points"]) + f" மறு தட்டு: {e['side_b']['label']}. " + " ".join(e["side_b"]["points"]) + " " + e["question"])
+            # கேலிச்சித்திரம் — Gemini
+            e["cartoon"]["image"] = None
+            gk = os.environ.get("GEMINI_API_KEY")
+            if gk:
+                try:
+                    style = ("Editorial newspaper cartoon, black ink brush-pen line art with cross-hatching on off-white paper, single panel, 4:3, no text, no words, no letters, no speech bubbles. "
+                             "Recurring character 'Saatchi': a thin, calm, middle-aged Tamil man in a white veshti and half-sleeve shirt, a folded towel on his shoulder, holding a folded newspaper, standing silently at the edge of the frame observing. "
+                             "No real politicians, no identifiable faces. Scene: ")
+                    r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image-preview:generateContent?key={gk}",
+                                      json={"contents": [{"parts": [{"text": style + e["cartoon"]["scene_en"]}]}], "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}}, timeout=120).json()
+                    import base64
+                    for part in r.get("candidates", [{}])[0].get("content", {}).get("parts", []):
+                        if "inlineData" in part:
+                            (DATA / "cartoons").mkdir(parents=True, exist_ok=True)
+                            fn = DATA / "cartoons" / f"{today}.png"
+                            fn.write_bytes(base64.b64decode(part["inlineData"]["data"]))
+                            e["cartoon"]["image"] = f"data/cartoons/{today}.png"; break
+                    if not e["cartoon"]["image"]:
+                        print("[cartoon] படம் இல்லை:", str(r)[:200])
+                except Exception as ex:
+                    print("[cartoon] பிழை", str(ex)[:150])
+            save_json(DATA / "ai_editorial.json", e); print("[editorial] தராசில் இன்று:", e["title"])
+            telegram(f"⚖️ <b>தராசில் இன்று</b> — {e['title']}\n{e['question']}\n\n🖼 கேலிச்சித்திரம்: {e['cartoon'].get('caption_ta','')}\n{'படம் தயார்' if e['cartoon'].get('image') else 'படம் இல்லை'}\n\nதவறு என்றால் <code>✘ editorial</code> அனுப்பவும் (இன்று மட்டும் மறைக்கும்).")
+    except Exception as ex:
+        print("[editorial] பிழை", str(ex)[:200])
+
     # 5b3. ராசிபலன் + பஞ்சாங்கம் — தினமும் ஒரு முறை (Claude தேவையில்லை)
     try:
         rs = load_json(DATA / "rasi.json", {})
@@ -426,15 +465,13 @@ def main():
     # துறை வாரியாக தனிக் கோப்புகள் (ஆப் வேகத்திற்கு)
     for t in TOPIC_TA:
         save_json(NEWS_DIR / f"{t}.json", [s for s in feed if s["topic"] == t][:60])
-    # இதழ் காப்பகம் — இன்றைய இதழ் தனிக் கோப்பாக (90 நாள்)
+    # இதழ் காப்பகம் — இன்றைய இதழ் தனிக் கோப்பாக (நிரந்தரம்)
     try:
         ISSUES = DATA / "issues"; ISSUES.mkdir(parents=True, exist_ok=True)
         todays = [x for x in feed if x.get("published_at", "").startswith(today)]
         save_json(ISSUES / f"{today}.json", todays)
-        idx = sorted({f.stem for f in ISSUES.glob("20*.json")}, reverse=True)
-        for old_day in idx[90:]:
-            (ISSUES / f"{old_day}.json").unlink(missing_ok=True)
-        save_json(ISSUES / "index.json", [{"date": d0, "count": len(load_json(ISSUES / f"{d0}.json", []))} for d0 in idx[:90]])
+        idx = sorted({f.stem for f in ISSUES.glob("20*.json")}, reverse=True)   # நிரந்தரக் காப்பகம் — நீக்கம் இல்லை
+        save_json(ISSUES / "index.json", [{"date": d0, "count": len(load_json(ISSUES / f"{d0}.json", []))} for d0 in idx])
     except Exception as ex:
         print("[issues] பிழை", ex)
 
