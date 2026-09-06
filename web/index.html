@@ -753,7 +753,7 @@ function wireComplaint(){
     if(cdata.text.length<15){$('#c-msg').textContent='பிரச்சனையைச் சற்று விரிவாக எழுதுங்கள்.';return;}
     if(!cdata.name||!cdata.addr){$('#c-msg').textContent='பெயரும் முகவரியும் தேவை.';return;}
     go.disabled=true; $('#c-msg').textContent='அலசுகிறோம்…';
-    cdata.analysis=await analyse(cdata);
+    try{ cdata.analysis=await analyse(cdata); }catch(e){ cdata.analysis=null; $('#c-msg').textContent='பிழை: '+(e.message||e); go.disabled=false; return; }
     if(!cdata.analysis){$('#c-msg').textContent='இப்போது அலச முடியவில்லை; சிறிது நேரம் கழித்து முயற்சிக்கவும்.';go.disabled=false;return;}
     cstep=2; renderComplaint();
   });
@@ -768,10 +768,13 @@ function wireComplaint(){
     }catch(e){ sv.disabled=false; alert('சேமிக்க முடியவில்லை: '+e.message); }
   });
 }
+const AI_URL="https://thulamul-ai.lrajkumar.workers.dev";
 async function claude(system,user,max=2000){
-  const r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"Content-Type":"application/json"},
-    body:JSON.stringify({model:"claude-sonnet-4-6",max_tokens:max,system,messages:[{role:"user",content:user}]})});
-  const d=await r.json(); return (d.content||[]).map(x=>x.text||"").join("");
+  const r=await fetch(AI_URL,{method:"POST",headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({system,user,max_tokens:max})});
+  const d=await r.json();
+  if(d.error) throw new Error(typeof d.error==='string'?d.error:(d.error.message||'AI பிழை'));
+  return d.text||"";
 }
 async function analyse(c){
   if(!DEPTS) return null;
@@ -779,7 +782,8 @@ async function analyse(c){
   const sys=`நீ துலாமுள் நாளிதழின் மனு உதவியாளர். கீழே உள்ள வகைப் பட்டியலிலிருந்து மட்டும் ஒன்றைத் தேர்வு செய். JSON மட்டும், code fence இல்லை:
 {"cat_id":"பட்டியலில் உள்ள id","summary":"பிரச்சனை ஒரு வாக்கியம்","missing":["மனுவை வலுப்படுத்த தேவையான 0–3 விவரம்"],"urgent":true/false}
 வகைகள்:\n${cats}`;
-  try{ const raw=await claude(sys,`பிரச்சனை: ${c.text}\nமுகவரி: ${c.addr}`,700);
+  const raw=await claude(sys,`பிரச்சனை: ${c.text}\nமுகவரி: ${c.addr}`,700);
+  try{
     const j=JSON.parse(raw.slice(raw.indexOf('{'),raw.lastIndexOf('}')+1));
     const cat=DEPTS.categories.find(x=>x.id===j.cat_id)||DEPTS.categories[0];
     const urban=c.area!=='rural';
