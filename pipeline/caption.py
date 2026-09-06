@@ -53,7 +53,7 @@ def add_caption(img_path, caption, date_str, out_path=None):
                 sg = Image.open(sig_png).convert("RGBA")
                 tw = int(W * 0.13)
                 sg = sg.resize((tw, max(1, int(sg.height * tw / sg.width))), Image.LANCZOS)
-                im.paste(sg, (W - margin - tw, im.height - margin - sg.height), sg)
+                im.paste(sg, (margin, im.height - margin - sg.height), sg)          # கீழ் இடது மூலை
             except Exception as ex:
                 print("[sig] பிழை", str(ex)[:80])
         else:
@@ -61,7 +61,7 @@ def add_caption(img_path, caption, date_str, out_path=None):
             sig = _font("Kavivanar-Regular.ttf", max(18, int(W * 0.042)))
             st = "Mr. X"
             sw = sd.textlength(st, font=sig)
-            sd.text((W - margin - sw, im.height - margin - int(W * 0.055)), st, font=sig, fill=INK)
+            sd.text((margin, im.height - margin - int(W * 0.055)), st, font=sig, fill=INK)
 
         tmp = ImageDraw.Draw(im)
         lines = _wrap(tmp, (caption or "").strip(), f, W - 2 * pad)
