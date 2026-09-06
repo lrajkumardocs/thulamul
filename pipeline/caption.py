@@ -53,15 +53,25 @@ def add_caption(img_path, caption, date_str, out_path=None):
                 sg = Image.open(sig_png).convert("RGBA")
                 tw = int(W * 0.13)
                 sg = sg.resize((tw, max(1, int(sg.height * tw / sg.width))), Image.LANCZOS)
-                im.paste(sg, (margin, im.height - margin - sg.height), sg)          # கீழ் இடது மூலை (ஆல்பா)
+                sh = sg.height
+                # காலியான மூலையைத் தேர்வு: மை அடர்த்தி குறைவான இடம்
+                import numpy as np
+                g = np.asarray(im.convert("L"), dtype=float)
+                def ink(x0, y0):
+                    box = g[max(0, y0):y0 + sh, max(0, x0):x0 + tw]
+                    return float((box < 170).mean()) if box.size else 1.0
+                cands = [(margin, im.height - margin - sh),
+                         (W - margin - tw, im.height - margin - sh),
+                         (margin, int(im.height * 0.5)),
+                         (W - margin - tw, int(im.height * 0.5))]
+                x0, y0 = min(cands, key=lambda p: ink(*p))
+                im.paste(sg, (x0, y0), sg)                 # ஆல்பா; பின்னணிப் பெட்டி இல்லை
             except Exception as ex:
                 print("[sig] பிழை", str(ex)[:80])
         else:
             sd = ImageDraw.Draw(im, "RGBA")
             sig = _font("Kavivanar-Regular.ttf", max(18, int(W * 0.042)))
-            st = "Mr. X"
-            sw = sd.textlength(st, font=sig)
-            sd.text((margin, im.height - margin - int(W * 0.055)), st, font=sig, fill=INK)
+            sd.text((margin, im.height - margin - int(W * 0.055)), "Mr. X", font=sig, fill=INK)
 
         tmp = ImageDraw.Draw(im)
         lines = _wrap(tmp, (caption or "").strip(), f, W - 2 * pad)
