@@ -309,7 +309,7 @@ const TA=['1','2','3','4','5'];
 let LANG=localStorage.getItem('lang')||'ta';let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,aied=null,rasiSel=parseInt(localStorage.getItem('rasi')||'0');
 const $=s=>document.querySelector(s);
 const H=s=>(LANG==='en'&&s.en&&s.en.headline)?s.en.headline:s.headline;const L=s=>(LANG==='en'&&s.en&&s.en.lines)?s.en.lines:(s.lines||[]);const C=s=>(LANG==='en'&&s.en&&s.en.closing)?s.en.closing:s.closing;
-const esc=s=>(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
 const tdate=d=>new Date(d).toLocaleDateString('ta-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
 const hm=s=>(s||'').slice(11,16);
 const istDay=d=>new Date(new Date(d).getTime()+330*60000).toISOString().slice(0,10);
