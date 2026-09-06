@@ -182,6 +182,11 @@
   .cal a,.cal i{display:flex;flex-direction:column;align-items:center;justify-content:center;aspect-ratio:1;border-radius:8px;font-style:normal;font-size:13px}
   .cal i{color:var(--rule)}.cal i b{font-weight:400;color:var(--ink3);opacity:.5}
   .cal a.on{background:var(--brass2);border:1px solid var(--brass);color:var(--ink)}.cal a b{font-family:var(--serif);font-weight:500}.cal a small{font-size:9px;color:var(--brass)}
+  .scales{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+  .pan{background:var(--paper2);border:1px solid var(--rule);border-radius:12px;padding:12px}
+  .pan.b{background:var(--brass2)}
+  .pl{font-size:11px;color:var(--brass);margin-bottom:8px;letter-spacing:.02em}
+  .pan p{font-size:12.5px;line-height:1.6;margin-bottom:8px;padding-left:10px;border-left:1px solid var(--rule)}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -265,7 +270,7 @@ const LOGO=`<svg viewBox="0 0 100 100"><line x1="50" y1="18" x2="50" y2="82" str
 const T={ads:'விளம்பரம்',malar:'வாரமலர்',all:'முதல் பக்கம்',tn:'தமிழ்நாடு',india:'இந்தியா',world:'உலகம்',edit:'தலையங்கம்',economy:'பொருளாதாரம்',sports:'விளையாட்டு',cinema:'சினிமா',tech:'தொழில்நுட்பம்',rasi:'ராசிபலன்',court:'நீதிமன்றம்',jobs:'வேலைவாய்ப்பு',health:'சுகாதாரம்',agri:'விவசாயம்',spirit:'ஆன்மீகம்',assembly:'சட்டமன்றம்'};
 const MAIN=['all','tn','india','world','edit','economy','sports','cinema','tech','rasi'], MORE=['court','jobs','health','agri','spirit','assembly'];
 const TA=['1','2','3','4','5'];
-let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,rasiSel=parseInt(localStorage.getItem('rasi')||'0');
+let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,aied=null,rasiSel=parseInt(localStorage.getItem('rasi')||'0');
 const $=s=>document.querySelector(s);
 const esc=s=>(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
 const tdate=d=>new Date(d).toLocaleDateString('ta-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
@@ -410,10 +415,22 @@ function briefHtml(){return `<div class="brief"><div><b>இன்றைய 60 �
 let wxData=null;
 function wxHtml(){if(!wxData||!wxData.cities)return '';return `<div class="wx"><div class="t">வானிலை · ${hm(wxData.updated)}</div><div class="row">${Object.entries(wxData.cities).map(([c,v])=>`<div>${c}<b>${v.now}°</b>${v.min}°–${v.max}° · மழை ${v.rain}%</div>`).join('')}</div></div>`;}
 function editHtml(){
-  const e=eds[0];
-  if(!e)return '<div class="empty" style="padding-top:60px">தலையங்கம் இன்னும் இல்லை.<br>Telegram-ல் "தலையங்கம்: தலைப்பு ⏎ உரை" அனுப்பினால் இங்கே வரும்.</div>';
-  return `<div class="pad"><h1 style="font-size:25px;margin-top:20px">${esc(e.title)}</h1><div class="byline">${esc(e.author||'ஆசிரியர்')} · ${esc(e.date)}</div><div class="edbody">${esc(e.body).split(/\n+/).map(p=>`<p>${p}</p>`).join('')}</div>
-   ${eds.length>1?`<div class="rule"></div><div class="small muted">முந்தைய தலையங்கங்கள்</div>${eds.slice(1,6).map(x=>`<div class="prow"><span class="serif" style="font-size:14px">${esc(x.title)}</span><span class="small muted">${esc(x.date)}</span></div>`).join('')}`:''}</div>`;
+  const e=eds[0];let h='';
+  if(e){h+=`<div class="pad"><div class="small brass" style="margin-top:16px">ஆசிரியர் குறிப்பு</div><h1 style="font-size:25px;margin-top:6px">${esc(e.title)}</h1><div class="byline">${esc(e.author||'ஆசிரியர்')} · ${esc(e.date)}</div><div class="edbody">${esc(e.body).split(/\n+/).map(p=>`<p>${p}</p>`).join('')}</div></div>`;}
+  const a=aied;
+  if(a&&a.title&&!a.hidden){
+    const c=a.cartoon||{};
+    h+=`<div class="pad"><div class="rule"></div><div class="small brass">தராசில் இன்று · ${esc(a.date)}</div><h1 style="font-size:24px;margin-top:6px">${esc(a.title)}</h1><div class="byline">${esc(a.author||'துலாமுள் AI ஆசிரியர்')}</div>
+      ${c.image?`<span class="imgwrap" style="margin-top:14px"><img class="ph" style="height:auto;aspect-ratio:4/3;object-fit:cover" src="${BASE}${esc(c.image)}" alt="${esc(c.alt_ta||'')}" onerror="this.parentElement.remove()"><span class="wm">துலாமுள்</span></span><div class="cap" style="margin-top:6px">${esc(c.caption_ta||'')} · <span class="muted">AI கேலிச்சித்திரம்</span></div>`:''}
+      <p class="mp" style="margin-top:14px">${esc(a.issue)}</p>
+      <div class="scales"><div class="pan"><div class="pl">${esc(a.side_a.label)}</div>${a.side_a.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div><div class="pan b"><div class="pl">${esc(a.side_b.label)}</div>${a.side_b.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div></div>
+      ${a.history?`<p class="mp muted">${esc(a.history)}</p>`:''}
+      <div class="aware"><div class="at">${esc(a.question)}</div><div class="follow">${a.audio?`<audio controls preload="none" src="${BASE}${a.audio}"></audio>`:''}<span>முடிவு உங்களுடையது.</span></div></div>
+      <div class="note">தராசில் இன்று — இரு தரப்பையும் சம எடையில் வைக்கும் AI தலையங்கம்; தீர்ப்பு சொல்லாது.</div></div>`;
+  }
+  if(!h)h='<div class="empty" style="padding-top:60px">தலையங்கம் இன்று அதிகாலை தயாராகும்.</div>';
+  if(eds.length>1)h+=`<div class="pad"><div class="rule"></div><div class="small muted">முந்தைய ஆசிரியர் குறிப்புகள்</div>${eds.slice(1,6).map(x=>`<div class="prow"><span class="serif" style="font-size:14px">${esc(x.title)}</span><span class="small muted">${esc(x.date)}</span></div>`).join('')}</div>`;
+  return h;
 }
 function renderHome(){
   const paper=$('#paper');
@@ -460,7 +477,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-play]');if
 function gotoPage(k,smooth){const paper=$('#paper');const i=Math.max(0,PAGES.indexOf(k));paper.scrollTo({left:i*paper.clientWidth,behavior:smooth?'smooth':'auto'});}
 function renderTopics(){
   const c={};pub().forEach(s=>c[s.topic]=(c[s.topic]||0)+1);
-  $('#topics-list').innerHTML=PAGES.map((k,i)=>`<a class="prow" href="#page/${k}"><span><span class="num">${tnum(i+1)}</span>${k==='front'?'முதல் பக்கம்':T[k]}</span><span class="small ${k==='rasi'?'brass':'muted'}">${k==='front'?pub().length:k==='edit'?eds.length:k==='rasi'?'12':k==='ads'?'':k==='malar'?'ஞாயிறு':(c[k]||0)}</span></a>`).join('');
+  $('#topics-list').innerHTML=PAGES.map((k,i)=>`<a class="prow" href="#page/${k}"><span><span class="num">${tnum(i+1)}</span>${k==='front'?'முதல் பக்கம்':T[k]}</span><span class="small ${k==='rasi'?'brass':'muted'}">${k==='front'?pub().length:k==='edit'?((aied&&!aied.hidden?1:0)+eds.length):k==='rasi'?'12':k==='ads'?'':k==='malar'?'ஞாயிறு':(c[k]||0)}</span></a>`).join('');
 }
 const OFFICIAL=/PIB|RBI|TNPSC|TN Private|WHO|ICMR|ICAR|TNAU|Employment News|G\.O|அரசு|நீதிமன்றம்|Supreme|High Court|ACC|BCCI|ISRO|SEBI|NSE|IMD/i;
 function srcShort(list){const off=list.filter(x=>OFFICIAL.test(x.name)||x.doc);const n=list.length-off.length;return [...off.map(x=>x.name),...(n?['ஊடகச் செய்திகள் ('+n+')']:[])].join(', ');}
@@ -530,7 +547,8 @@ Promise.all([
   fetch(BASE+'data/ads.json'+q).then(r=>r.json()).catch(()=>[]),
   fetch(BASE+'data/malar.json'+q).then(r=>r.json()).catch(()=>null),
   fetch(BASE+'data/rasi.json'+q).then(r=>r.json()).catch(()=>null),
-]).then(([f,b,w,e,a,m,rs])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;renderHome();route(location.hash||'#home');});
+  fetch(BASE+'data/ai_editorial.json'+q).then(r=>r.json()).catch(()=>null),
+]).then(([f,b,w,e,a,m,rs,ai])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;aied=ai;renderHome();route(location.hash||'#home');});
 </script>
 </body>
 </html>
