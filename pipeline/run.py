@@ -126,20 +126,31 @@ def eligible(c):
     return True, ["single_source"]   # வெளியிடலாம், ஆனால் flag → Telegram ஒப்புதல்
 
 # ---------------------------------------------------------------- 3. write (Claude)
+def parse_json(client, raw, what="JSON"):
+    """JSON-ஐ படிக்க முயல்; தோல்வி → Claude-ஐயே திருத்தச் சொல் (சிறிய அழைப்பு)."""
+    a, b = raw.find("{"), raw.rfind("}")
+    if a >= 0 and b > a:
+        try:
+            return json.loads(raw[a:b + 1])
+        except Exception:
+            pass
+    fix = client.messages.create(model=MODEL, max_tokens=4000, system="You repair broken JSON. Return ONLY valid JSON, no prose, no code fences. Keep all text content exactly; escape quotes/newlines inside strings; close any truncated structure sensibly.",
+                                 messages=[{"role": "user", "content": raw[:12000]}])
+    r2 = "".join(x.text for x in fix.content if getattr(x, "type", "") == "text")
+    a, b = r2.find("{"), r2.rfind("}")
+    return json.loads(r2[a:b + 1])
+
 def write_news(client, prompt, c, today):
     src_text = "\n\n".join(
         f"[மூலம் {n+1}: {i['source']} | {i['published']} | {i['link']}]\nதலைப்பு: {i['title']}\n{i['text'][:1500]}"
         for n, i in enumerate(c["items"][:3]))
     msg = client.messages.create(
-        model=MODEL, max_tokens=2000,
+        model=MODEL, max_tokens=3000,
         system=prompt.replace("{{TODAY}}", today),
         messages=[{"role": "user", "content": f"துறை குறிப்பு: {c['topic_hint']}\n\n{src_text}"}],
     )
     raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
-    a, b = raw.find("{"), raw.rfind("}")
-    if a < 0 or b < 0:
-        raise ValueError("JSON இல்லை: " + raw[:120])
-    return json.loads(raw[a:b + 1])
+    return parse_json(client, raw)
 
 def validate(story):
     ok = isinstance(story.get("lines"), list) and len(story["lines"]) == 5
@@ -260,7 +271,13 @@ def main():
     written = 0
     # தினசரி குறைந்தபட்சம்: இன்று 0 உள்ள துறைகளின் நிகழ்வுகளை முதலில் எழுது
     today_topics = {x["topic"] for x in feed if x.get("published_at", "").startswith(today)}
-    clusters.sort(key=lambda c: 0 if (c["topic_hint"] in THIN and c["topic_hint"] not in today_topics) else 1)
+    boosted = set()
+    def prio(c):
+        t = c["topic_hint"]
+        if t in THIN and t not in today_topics and t not in boosted:
+            boosted.add(t); return (0, 0)
+        return (1, -len(c["items"]))          # பல மூலங்கள் = முக்கியம்
+    clusters.sort(key=prio)
     def mark_seen(c):
         for i in c["items"]:
             seen.add(i["id"])
@@ -282,6 +299,8 @@ def main():
                     telegram("⚠️ <b>துலாமுள் நின்றுவிட்டது</b>\nAnthropic credit தீர்ந்தது / key பிழை. console.anthropic.com → Billing → Add credits.")
                     state["alert_day"] = today
             continue   # பிழை → அடுத்த ஓட்டத்தில் மீண்டும் முயற்சி
+        if story.get("skip"):
+            print("[skip]", (story.get("reason") or "")[:60]); mark_seen(c); continue
         if not validate(story):
             print("[validate] தவறான வடிவம், தவிர்க்கப்பட்டது"); mark_seen(c); continue
         mark_seen(c)
@@ -336,7 +355,7 @@ def main():
                       "உண்மைகள் மட்டும்; மூலத்தில் இல்லாததைச் சேர்க்காதே; ஒரே அறிவிப்பு இரு முறை வேண்டாம்; அதிகபட்சம் 12. தமிழில் org/post.")
                 msg = client.messages.create(model=MODEL, max_tokens=3000, system=jp, messages=[{"role": "user", "content": src_text}])
                 rw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
-                j = json.loads(rw[rw.find("{"):rw.rfind("}") + 1]); items = j.get("items", [])
+                j = parse_json(client, rw); items = j.get("items", [])
                 if items:
                     sid = "jobs_" + today.replace("-", "")
                     story = {"id": sid, "headline": f"இன்றைய வேலை அறிவிப்புகள் — {len(items)} · அரசு & தனியார்",
@@ -360,7 +379,7 @@ def main():
             mp = (ROOT / "pipeline/prompts/malar.md").read_text(encoding="utf-8").replace("{{WEEK}}", week).replace("{{TODAY}}", today).replace("{{DATES}}", dates)
             msg = client.messages.create(model=MODEL, max_tokens=6000, system=mp, messages=[{"role": "user", "content": "இந்த வாரத்தின் வாரமலரை எழுது."}])
             raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
-            m = json.loads(raw[raw.find("{"):raw.rfind("}") + 1]); m["week"] = week; m["generated"] = today
+            m = parse_json(client, raw); m["week"] = week; m["generated"] = today
             if m.get("song", {}).get("text"):
                 m["song"]["audio"] = make_audio(f"malar_{week}", m["song"]["text"] + ". பொருள்: " + m["song"].get("meaning", ""))
             save_json(DATA / "malar.json", m); print("[malar] வாரமலர் தயார்", week)
