@@ -8,7 +8,7 @@
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 24 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 26 புதியவை
+[fetch] ESPNcricinfo: 14 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
 [fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 11 புதியவை
@@ -22,7 +22,7 @@
 [fetch] PIB Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 2 புதியவை
+[fetch] The Hindu Jobs: 3 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
@@ -32,7 +32,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 7 புதியவை
+[fetch] Bar and Bench: 8 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -40,44 +40,43 @@
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[run] புதியவை 382 → நிகழ்வுகள் 357
-[tts-edge] 9c634f44f509: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பூரனின் ஆறடிகள், நரைனின் சுழற்பந்துவீச்சில் TKR வெற்றி
-[claude] பிழை JSON இல்லை: {
-  "headline": "தொடக்க போட்டியில் டிரினிபாகோ நைட் ரைடர்ஸ் அணிக்கு வெற்றி; பர்படாஸ் அணி தோல்வி",
-  "lines": [
-    "இரு அ
-[claude] பிழை Expecting ',' delimiter: line 13 column 64 (char 965)
-[claude] பிழை JSON இல்லை: 
-[tts-edge] b27364564152: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மிடில்செக்ஸ் அணியை விட்டு விலக ஏற்பாடு செய்யும் லியூஸ் டு புளோய்
-[publish] PSL போட்டியை ஜனவரி மாதத்திற்கு மாற்ற PCB பேச்சுவார்த்தை
-[publish] இந்திய பெண்கள் அணி பாகிஸ்தானை 55 ரன்களுக்கு வீழ்த்தி எளிதில் வெற்றி
+[run] புதியவை 372 → நிகழ்வுகள் 346
+[claude] பிழை Expecting ',' delimiter: line 13 column 64 (char 1091)
 [claude] பிழை JSON இல்லை: ```json
 {
-  "headline": "இறுதி விக்கெட்டில் 106 ரன் கூட்டணி; நாட்டிங்காம்ஷயர் இரண்டாம் இடத்திற்கு தள்ளப்பட்டது",
+  "headline": "மீனா குமாரியின் கடைசிப் படம் பாகீஜா புதுப்பிக்கப்பட்டு பிரான்ஸில் திரையிடலுக்கு தயார்",
   "line
-[claude] பிழை JSON இல்லை: {
-  "headline": "டி'ஒலிவீரா நூறு ரன் எடுத்தும் கென்ட் அணி இரண்டாம் இடத்திற்கு முன்னேற்றம்",
-  "lines": [
-    "இங்கிலாந்த
-[claude] பிழை JSON இல்லை: 
-[publish] Guyana Amazon Warriors அணி தொடர்ந்து ஐந்தாவது வெற்றி, எட்டு விக்கெட் வித்தியாசம்
-[publish] துலீப் டிராபி இறுதி: சிராஜ், படிக்கல் அணியில் தென்மண்டலம் கிழக்கு மண்டலத்தை எதிர்கொள்கிறது
-[publish] கலம் பார்கின்சனின் ஆறு விக்கெட்டால் நார்த்தாம்ப்டன்ஷயர் 50 ரன்களுக்கு வீழ்ச்சி
-[claude] பிழை Expecting ',' delimiter: line 13 column 64 (char 1169)
-[publish] சர்ரே அணிக்கு பிளேக் அசத்தல்: ஒரு விக்கெட் இடைவெளியில் யார்க்‌ஷயர் வீழ்ச்சி
-[publish] பாகிஸ்தான் அணிக்கு இடைக்கால பயிற்சியாளராக மைக் ஹெசன் நியமனம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[tts-edge] 069d2867e12a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ‘Dil Chahta Hai’ படத்திற்கு 25 ஆண்டுகள்: பாணி பற்றி பேசும் படக்குழு
 [claude] பிழை JSON இல்லை: ```json
 {
-  "headline": "இலங்கை தொடருக்கு புதுமுகங்கள் டொனால்ட், க்ரோகோம்பை அறிவித்த இங்கிலாந்து அணி",
+  "headline": "கொலம்பிய இயக்குநர்கள் AI உதவியுடன் உருவாக்கிய 'தி எண்ட் ஆஃப் டைம்ஸ்' வெனிஸில் திரையிடல்",
+  "li
+[tts-edge] 7da71d6d23dd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆண்ட்ரூ கார்·ஃபீல்ட், கிளேர் ஃபாய் நடிப்பில் 'தி மேஜிக் ஃபேரவே டிரீ' திரைப்பட விமர்சனம் வெளியீடு
+[publish] நான்கு புதிய இயக்குநர்களுடன் 'லஸ்ட் ஸ்டோரீஸ் 3' வெளியீட்டு தேதி அறிவிப்பு
+[claude] பிழை Expecting ',' delimiter: line 13 column 61 (char 1038)
+[hold] GV பிரகாஷ் நடிப்பு Immortal படம் இரண்டாம் நாள் வசூலில் உயர்வு
+[publish] இளையராஜாவின் பின்னணி இசையுடன் Dorothy படத்தின் ஜூக்பாக்ஸ் வெளியீடு
+[publish] ஓம் படத்தில் மம்முட்டியின் கதாபாத்திர வெளிப்பாடு பிறந்தநாளில் வெளியாகும்
+[publish] ஷிவராஜ்குமார், அபிஷன் ஜீவின்த் படத்தில் யோகலக்ஷ்மி ஏஞ்சல் ஜெனிஃபராக நடிப்பு
+[publish] Bethlehem Kudumba Unit குழுவினரை பாராட்டி வாழ்த்து தெரிவித்த கமல் ஹாசன்
+[claude] பிழை JSON இல்லை: {
+  "headline": "நயன்தாரா, விக்னேஷ் சிவன் இரவு உணவில் பிவி சிந்துவுடன் இணைந்தனர்",
   "lines": [
-    
-[claude] பிழை Expecting ',' delimiter: line 13 column 64 (char 1010)
-[publish] இந்தோனேசியாவை வீழ்த்தி அரையிறுதி நம்பிக்கையை தக்கவைத்த ஐக்கிய அரபு அமீரகம் அணி
-[publish] ஹல் 97 ரன்கள் அடித்து லீசெஸ்டர்ஷையரை காப்பாற்றினார், நாட்ஸ் விரக்தி
-[publish] சசெக்ஸுக்கு எதிராக எசெக்ஸுக்கு இறுதி நாளில் 131 ரன்கள் இலக்கு
-[jobs] தொகுப்பு 12
-[malar] பிழை Expecting ',' delimiter: line 5 column 152 (char 346)
+    "நடிகை நயன்தாரா மற்ற
+[publish] GOAT படத்தின் ஆண்டு நிறைவில் விஜயின் அரசியல் தொடர்பை காட்டும் வீடியோ
+[claude] பிழை JSON இல்லை: ```json
+{
+  "headline": "\"4 Idiots\" திரைப்படம் குறித்து Cinema Express விமர்சனம் வெளியானது",
+  "lines": [
+    "\"4 Idi
+[claude] பிழை JSON இல்லை: 
+[publish] மண்டாடி படத்தின் ட்ரெய்லர் வெளியீடு; சூரி, சுஹாஸ் நடிப்பு
+[publish] கல்வி முறையின் குறைபாடுகள் பற்றி சுகதா மித்ரா நேர்காணல் வெளியீடு
+[claude] பிழை Expecting ',' delimiter: line 13 column 66 (char 1030)
+[publish] டிஜிட்டல் அரெஸ்ட் மோசடி: 20 மாநிலங்களில் 89 இடங்களில் சிபிஐ சோதனை
+[malar] வாரமலர் தயார் 2026-W36
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 52 · pending 0 · எழுதியவை 12
+[done] feed 63 · pending 1 · எழுதியவை 12
