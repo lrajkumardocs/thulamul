@@ -53,11 +53,7 @@ def add_caption(img_path, caption, date_str, out_path=None):
                 sg = Image.open(sig_png).convert("RGBA")
                 tw = int(W * 0.13)
                 sg = sg.resize((tw, max(1, int(sg.height * tw / sg.width))), Image.LANCZOS)
-                x0, y0 = margin, im.height - margin - sg.height
-                pad = int(W * 0.012)
-                patch = ImageDraw.Draw(im)                                          # பின்னணி சுத்தம்
-                patch.rectangle([x0 - pad, y0 - pad, x0 + tw + pad, y0 + sg.height + pad], fill=PAPER)
-                im.paste(sg, (x0, y0), sg)                                          # கீழ் இடது மூலை
+                im.paste(sg, (margin, im.height - margin - sg.height), sg)          # கீழ் இடது மூலை (ஆல்பா)
             except Exception as ex:
                 print("[sig] பிழை", str(ex)[:80])
         else:
@@ -89,9 +85,7 @@ def add_caption(img_path, caption, date_str, out_path=None):
         y += int(fs_small * 0.3)
         d.line([(W // 2 - int(W * 0.06), y), (W // 2 + int(W * 0.06), y)], fill=BRASS, width=2)  # சிறு பித்தளைக் கோடு
         y += int(fs_small * 0.5)
-        left, right = "துலாமுள் · Mr. X", date_str
-        d.text((pad, y), left, font=fsm, fill=GREY)
-        d.text((W - pad - d.textlength(right, font=fsm), y), right, font=fsm, fill=GREY)
+        d.text((W - pad - d.textlength(date_str, font=fsm), y), date_str, font=fsm, fill=GREY)
 
         out.save(out_path or img_path, quality=92)
         return True
