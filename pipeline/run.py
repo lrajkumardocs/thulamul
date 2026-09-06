@@ -126,6 +126,37 @@ def eligible(c):
     return True, ["single_source"]   # வெளியிடலாம், ஆனால் flag → Telegram ஒப்புதல்
 
 # ---------------------------------------------------------------- 3. write (Claude)
+def make_cartoon(scene_en, today):
+    """Gemini மூலம் கேலிச்சித்திரம். தோல்வி → None."""
+    gk = os.environ.get("GEMINI_API_KEY")
+    if not gk or not scene_en:
+        print("[cartoon] key/scene இல்லை"); return None
+    style = ("Editorial newspaper cartoon, black ink brush-pen line art with cross-hatching on off-white paper, single panel, 4:3, "
+             "no text, no words, no letters, no speech bubbles. Recurring character 'Saatchi': a thin, calm, middle-aged Tamil man in a white veshti "
+             "and half-sleeve shirt, a folded towel on his shoulder, holding a folded newspaper, standing silently at the edge of the frame observing. "
+             "No real politicians, no identifiable faces. Scene: ")
+    import base64
+    for model in ("gemini-2.5-flash-image", "gemini-2.0-flash-preview-image-generation"):
+        try:
+            r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                              headers={"x-goog-api-key": gk, "Content-Type": "application/json"},
+                              json={"contents": [{"parts": [{"text": style + scene_en}]}],
+                                    "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}}, timeout=150).json()
+            if "error" in r:
+                print(f"[cartoon] {model}:", str(r["error"].get("message", ""))[:120]); continue
+            for part in r.get("candidates", [{}])[0].get("content", {}).get("parts", []):
+                data = part.get("inlineData") or part.get("inline_data")
+                if data and data.get("data"):
+                    (DATA / "cartoons").mkdir(parents=True, exist_ok=True)
+                    fn = DATA / "cartoons" / f"{today}.png"
+                    fn.write_bytes(base64.b64decode(data["data"]))
+                    print(f"[cartoon] {model}: படம் தயார்")
+                    return f"data/cartoons/{today}.png"
+            print(f"[cartoon] {model}: படம் திரும்பவில்லை")
+        except Exception as ex:
+            print(f"[cartoon] {model} பிழை", str(ex)[:120])
+    return None
+
 def parse_json(client, raw, what="JSON"):
     """JSON-ஐ படிக்க முயல்; தோல்வி → Claude-ஐயே திருத்தச் சொல் (சிறிய அழைப்பு)."""
     a, b = raw.find("{"), raw.rfind("}")
@@ -399,29 +430,13 @@ def main():
             raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
             e = parse_json(client, raw); e["date"] = today; e["author"] = "துலாமுள் AI ஆசிரியர்"
             e["audio"] = make_audio(f"editorial_{today.replace('-', '')}", f"தராசில் இன்று. {e['title']}. {e['issue']} ஒரு தட்டு: {e['side_a']['label']}. " + " ".join(e["side_a"]["points"]) + f" மறு தட்டு: {e['side_b']['label']}. " + " ".join(e["side_b"]["points"]) + " " + e["question"])
-            # கேலிச்சித்திரம் — Gemini
-            e["cartoon"]["image"] = None
-            gk = os.environ.get("GEMINI_API_KEY")
-            if gk:
-                try:
-                    style = ("Editorial newspaper cartoon, black ink brush-pen line art with cross-hatching on off-white paper, single panel, 4:3, no text, no words, no letters, no speech bubbles. "
-                             "Recurring character 'Saatchi': a thin, calm, middle-aged Tamil man in a white veshti and half-sleeve shirt, a folded towel on his shoulder, holding a folded newspaper, standing silently at the edge of the frame observing. "
-                             "No real politicians, no identifiable faces. Scene: ")
-                    r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image-preview:generateContent?key={gk}",
-                                      json={"contents": [{"parts": [{"text": style + e["cartoon"]["scene_en"]}]}], "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}}, timeout=120).json()
-                    import base64
-                    for part in r.get("candidates", [{}])[0].get("content", {}).get("parts", []):
-                        if "inlineData" in part:
-                            (DATA / "cartoons").mkdir(parents=True, exist_ok=True)
-                            fn = DATA / "cartoons" / f"{today}.png"
-                            fn.write_bytes(base64.b64decode(part["inlineData"]["data"]))
-                            e["cartoon"]["image"] = f"data/cartoons/{today}.png"; break
-                    if not e["cartoon"]["image"]:
-                        print("[cartoon] படம் இல்லை:", str(r)[:200])
-                except Exception as ex:
-                    print("[cartoon] பிழை", str(ex)[:150])
+            e["cartoon"]["image"] = make_cartoon(e["cartoon"].get("scene_en", ""), today)
             save_json(DATA / "ai_editorial.json", e); print("[editorial] தராசில் இன்று:", e["title"])
-            telegram(f"⚖️ <b>தராசில் இன்று</b> — {e['title']}\n{e['question']}\n\n🖼 கேலிச்சித்திரம்: {e['cartoon'].get('caption_ta','')}\n{'படம் தயார்' if e['cartoon'].get('image') else 'படம் இல்லை'}\n\nதவறு என்றால் <code>✘ editorial</code> அனுப்பவும் (இன்று மட்டும் மறைக்கும்).")
+            telegram(f"⚖️ <b>தராசில் இன்று</b> — {e['title']}\n{e['question']}\n\n🖼 {e['cartoon'].get('caption_ta','')}\n{'படம் தயார்' if e['cartoon'].get('image') else 'படம் இல்லை'}\n\nதவறு என்றால் <code>✘ editorial</code>")
+        elif ed.get("date") == today and not ed.get("cartoon", {}).get("image") and not api_dead:
+            img = make_cartoon(ed.get("cartoon", {}).get("scene_en", ""), today)   # படம் மட்டும் மீண்டும் முயற்சி
+            if img:
+                ed["cartoon"]["image"] = img; save_json(DATA / "ai_editorial.json", ed); print("[cartoon] படம் தயார்")
     except Exception as ex:
         print("[editorial] பிழை", str(ex)[:200])
 
