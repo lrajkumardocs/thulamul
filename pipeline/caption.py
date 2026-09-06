@@ -53,7 +53,11 @@ def add_caption(img_path, caption, date_str, out_path=None):
                 sg = Image.open(sig_png).convert("RGBA")
                 tw = int(W * 0.13)
                 sg = sg.resize((tw, max(1, int(sg.height * tw / sg.width))), Image.LANCZOS)
-                im.paste(sg, (margin, im.height - margin - sg.height), sg)          # கீழ் இடது மூலை
+                x0, y0 = margin, im.height - margin - sg.height
+                pad = int(W * 0.012)
+                patch = ImageDraw.Draw(im)                                          # பின்னணி சுத்தம்
+                patch.rectangle([x0 - pad, y0 - pad, x0 + tw + pad, y0 + sg.height + pad], fill=PAPER)
+                im.paste(sg, (x0, y0), sg)                                          # கீழ் இடது மூலை
             except Exception as ex:
                 print("[sig] பிழை", str(ex)[:80])
         else:
