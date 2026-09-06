@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "headline": "டெல்லியில் ஐந்து மாடி விடுதி கட்டிடம் இடிந்து பலர் சிக்கியிருக்கலாம் என அச்சம்",
+  "lines": [
+   "டெல்லியில் ஐந்து மாடி கொண்ட விடுதி கட்டிடம் ஒன்று திடீரென இடிந்து விழுந்துள்ளது.",
+   "விபத்து நடந்த நேரத்தில் கட்டிடத்தில் சுமார் 50 பேர் இருந்திருக்கலாம் என தகவல்கள் தெரிவிக்கின்றன.",
+   "மீட்புப் பணிகள் தொடர்பான அதிகாரப்பூர்வ அறிக்கை இதுவரை வெளியிடப்படவில்லை.",
+   "கட்டிடம் ஏன் திடீரென இடிந்தது என்பதற்கான காரணம் இன்னும் உறுதிப்படுத்தப்படவில்லை.",
+   "சிக்கியுள்ளவர்களை மீட்பது தொடர்பான மேலும் விவரங்கள் விரைவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இது ஆரம்பகட்ட தகவல் என்பதால் சிக்கியுள்ளவர்களின் எண்ணிக்கை மற்றும் மீட்புப் பணிகள் குறித்த தெளிவான விவரங்களுக்காக காத்திருக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": "2026-09-06"
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "டெல்லி",
+   "விடுதி கட்டிடம்",
+   "கட்டிட இடிவு"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Five-storey hostel building collapses in Delhi, dozens feared trapped",
+   "lines": [
+    "A five-storey hostel building in Delhi suddenly collapsed.",
+    "As many as 50 people are thought to have been inside the building at the time of the collapse.",
+    "No official statement on rescue operations has been released so far.",
+    "The reason behind the building's sudden collapse has not yet been confirmed.",
+    "Further details on the rescue of those trapped are expected to emerge soon."
+   ],
+   "closing": "As this is early information, further clarity is awaited on the exact number of people trapped and the status of rescue operations."
+  },
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "8888dade1bda",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-09-07T03:08+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a286/live/1c93d200-a9f4-11f1-a291-b542ee92de7c.jpg",
+   "credit": "BBC World"
+  },
+  "audio": "data/audio/8888dade1bda.mp3",
+  "created_ts": 1788730695.9895618,
+  "status": "published"
+ }
+]
