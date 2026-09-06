@@ -192,6 +192,22 @@
   .pan p{font-family:var(--text);font-size:13.5px;line-height:1.6;margin-bottom:8px;padding-left:10px;border-left:1px solid var(--rule)}
   .bell{display:flex;align-items:center;gap:10px;margin:10px 20px 0;padding:8px 12px;border:1px dashed var(--rule);border-radius:10px;font-size:11.5px;color:var(--ink2);cursor:pointer}
   .bell svg{width:18px;height:18px;stroke:var(--ink3);fill:none;stroke-width:1.5;flex:none}.bell.on{border-style:solid;border-color:var(--brass)}.bell.on svg{stroke:var(--brass)}
+  .steps{display:flex;gap:6px;padding:8px 0 0}
+  .steps i{flex:1;height:2px;background:var(--rule)}.steps i.on{background:var(--brass)}
+  .kv{display:grid;gap:0;background:var(--paper2);border:1px solid var(--rule);border-radius:16px;overflow:hidden;margin-top:16px}
+  .kv div{padding:14px 16px;border-bottom:1px solid var(--rule);font-size:13.5px}.kv div:last-child{border-bottom:0}
+  .kv small{display:block;color:var(--ink3);font-size:11px;margin-bottom:3px}.kv b{font-weight:500}
+  .fwd{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--rule)}
+  .fwd .num{font-family:var(--serif);font-size:20px;color:var(--brass);width:26px;flex:none;line-height:1}
+  .fwd .t{font-size:14px;font-weight:500}.fwd .d{font-size:12.5px;color:var(--ink2);line-height:1.6;margin-top:3px}
+  .btn-soft{background:var(--brass2);color:var(--ink);border:0;border-radius:12px;text-decoration:none}
+  .track{background:var(--paper2);border:1px solid var(--rule);border-radius:16px;padding:16px;margin-top:14px}
+  .track .id{font-size:11px;color:var(--ink3)}.track .t{font-size:14px;font-weight:500;margin-top:4px}
+  .tl{margin-top:12px;position:relative;padding-left:18px}
+  .tl::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:1px;background:var(--rule)}
+  .tl div{position:relative;font-size:12px;color:var(--ink2);padding:4px 0}
+  .tl div::before{content:"";position:absolute;left:-16px;top:9px;width:7px;height:7px;border-radius:50%;background:var(--rule)}
+  .tl div.done::before{background:var(--green)}.tl div.now::before{background:var(--brass)}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -225,16 +241,9 @@
 </section>
 
 <section class="screen" id="s-complaint" style="height:calc(100vh - 64px);overflow-y:auto">
-  <div class="head"><div class="mast">மனு உதவி</div></div>
-  <div class="pad" style="padding-top:20px">
-    <h1 style="font-size:22px">என்ன பிரச்சனை?</h1>
-    <div class="small" style="margin-top:8px;line-height:1.7">உங்கள் வார்த்தையில் சொல்லுங்கள். எந்த துறை, என்ன சட்டம், மனு எப்படி, எங்கே கொடுப்பது — துலாமுள் தயார் செய்யும்.</div>
-    <textarea placeholder="எங்க தெருவுல 3 மாசமா தெருவிளக்கு எரியல…" disabled></textarea>
-    <label class="fl">தொலைபேசி எண் (மனுவைச் சேமிக்க, நிலையை அறிய)<input type="tel" placeholder="+91" disabled></label>
-    <div class="row2"><label class="fl">OTP<input type="text" placeholder="6 இலக்கம்" disabled></label><label class="fl">&nbsp;<button class="btn dim" style="margin-top:6px;padding:11px" disabled>OTP அனுப்பு</button></label></div>
-    <button class="btn dim" disabled>மனுவைத் தயாரிக்கவும்</button>
-    <div class="cbox"><b>துலாமுள் என்ன செய்யும்:</b><br>1. உங்கள் பிரச்சனை எந்தத் துறையின் பொறுப்பு என்று கண்டறியும் — மாநகராட்சி முதல் மத்திய அமைச்சகம் வரை.<br>2. சரியான அதிகாரிக்கு முறையான தமிழ் மனுவை எழுதித் தரும்.<br>3. எங்கே, எப்படிக் கொடுப்பது — portal, helpline, நேரில் — வழி காட்டும்.<br>4. பதில் வரவில்லை என்றால் RTI வரைவு தயார் செய்யும்.<br><span class="muted">இது சட்ட ஆலோசனை அல்ல; மனு உதவி.</span></div>
-  </div>
+  <div class="head"><div class="mast">மனு உதவி</div><span class="small muted" id="c-user"></span></div>
+  <div class="pad" id="c-body"></div>
+  <div id="recaptcha"></div>
 </section>
 
 <section class="screen" id="s-edit" style="height:calc(100vh - 64px);overflow-y:auto"><div class="head"><div><div class="date" id="e-date"></div><div class="mast">தலையங்கம்</div></div></div><div class="pad" id="e-body"></div></section>
@@ -276,8 +285,17 @@
   <a href="#me" data-n="me"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="12" cy="19" r="1.5"/></svg>மேலும்</a>
 </nav>
 
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+import { getAuth, RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
+import { getFirestore, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
+const fb = initializeApp({apiKey:"AIzaSyB3aUM0tQKByUaUg4jMGpHFDuVokkjFXg8",authDomain:"thulamul.firebaseapp.com",projectId:"thulamul",storageBucket:"thulamul.firebasestorage.app",messagingSenderId:"1075780759307",appId:"1:1075780759307:web:d10b25f39a1b54bc96fc0e"});
+window.FB = {auth:getAuth(fb), db:getFirestore(fb), RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, serverTimestamp};
+window.dispatchEvent(new Event('fb-ready'));
+</script>
 <script>
 const BASE='../';
+const q='?'+Math.floor(Date.now()/60000);
 const AD_WA='91XXXXXXXXXX';  // விளம்பரத் தொடர்பு WhatsApp (நாட்டுக் குறியீட்டுடன்)
 const AD_MAIL='thulamul@lrajkumar.com';
 const AD_PRICE_PER_DAY=150; const AD_FULL_PRICE=1000; const AD_SLOTS=8;
@@ -616,6 +634,165 @@ function renderDetail(id){
 }
 const PLAY='<svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg>',PAUSE='<svg viewBox="0 0 24 24"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>';
 let backTo='#home';
+
+// ================= மனு உதவி =================
+let DEPTS=null, cuser=null, cstep=1, cdata={}, confirmationResult=null, myPets=[];
+fetch(BASE+'pipeline/departments.json?'+Math.floor(Date.now()/6e4)).then(r=>r.json()).then(d=>DEPTS=d).catch(()=>{});
+window.addEventListener('fb-ready',()=>{
+  FB.onAuthStateChanged(FB.auth,u=>{cuser=u;const el=$('#c-user');if(el)el.textContent=u?u.phoneNumber:'';if(location.hash.startsWith('#complaint'))renderComplaint();});
+});
+const esc2=s=>esc(s);
+function renderComplaint(){
+  const b=$('#c-body'); if(!b) return;
+  if(!cuser){ b.innerHTML=loginHtml(); wireLogin(); return; }
+  if(cstep===1) b.innerHTML=step1(); 
+  else if(cstep===2) b.innerHTML=step2();
+  else if(cstep===3) b.innerHTML=step3();
+  else if(cstep===4) b.innerHTML=step4();
+  else if(cstep===5){ b.innerHTML='<div class="empty">ஏற்றுகிறது…</div>'; loadPetitions(); }
+  wireComplaint();
+}
+function loginHtml(){
+  return `<div style="padding-top:16px">
+   <h1 style="font-size:22px">உங்கள் பிரச்சனைக்கு ஒரு மனு</h1>
+   <div class="small" style="margin-top:8px;line-height:1.7">எந்தத் துறை, என்ன சட்டம், மனு எப்படி, எங்கே கொடுப்பது — துலாமுள் தயார் செய்யும். மனுவைச் சேமிக்கவும் நிலையை அறியவும் தொலைபேசி எண் மட்டும்.</div>
+   <label class="fl">தொலைபேசி எண்<input id="ph" type="tel" placeholder="9876543210" inputmode="numeric"></label>
+   <button class="btn" id="send-otp">OTP அனுப்பு</button>
+   <div id="otp-box" style="display:none">
+     <label class="fl">OTP (6 இலக்கம்)<input id="otp" type="text" inputmode="numeric" maxlength="6"></label>
+     <button class="btn" id="verify-otp">உள்நுழை</button>
+   </div>
+   <div class="small" id="auth-msg" style="margin-top:10px;color:var(--caution)"></div>
+   <div class="note">உங்கள் எண் மனுவைச் சேமிக்க மட்டும்; விளம்பரத்திற்கு பயன்படுத்தப்படாது, யாருக்கும் தரப்படாது. செய்திகளைப் படிக்க உள்நுழைவு தேவையில்லை.</div></div>`;
+}
+function wireLogin(){
+  const s1=$('#send-otp'); if(!s1) return;
+  s1.addEventListener('click',async()=>{
+    const raw=($('#ph').value||'').replace(/\D/g,''); const num=raw.length===10?'+91'+raw:(raw.startsWith('91')?'+'+raw:'+'+raw);
+    if(raw.length<10){$('#auth-msg').textContent='சரியான 10 இலக்க எண் கொடுங்கள்.';return;}
+    s1.disabled=true; $('#auth-msg').textContent='OTP அனுப்புகிறோம்…';
+    try{
+      if(!window._rv) window._rv=new FB.RecaptchaVerifier(FB.auth,'recaptcha',{size:'invisible'});
+      confirmationResult=await FB.signInWithPhoneNumber(FB.auth,num,window._rv);
+      $('#otp-box').style.display='block'; $('#auth-msg').textContent='OTP அனுப்பப்பட்டது.';
+    }catch(e){ $('#auth-msg').textContent='பிழை: '+(e.message||e); s1.disabled=false; }
+  });
+  const v=$('#verify-otp'); if(v) v.addEventListener('click',async()=>{
+    try{ await confirmationResult.confirm(($('#otp').value||'').trim()); cstep=1; renderComplaint(); }
+    catch(e){ $('#auth-msg').textContent='OTP தவறு. மீண்டும் முயற்சிக்கவும்.'; }
+  });
+}
+function cbar(n){return `<div class="steps">${[1,2,3,4].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</div>`;}
+function step1(){
+  return cbar(1)+`<div style="padding-top:14px">
+   <h1 style="font-size:22px">என்ன பிரச்சனை?</h1>
+   <div class="small" style="margin-top:8px;line-height:1.7">உங்கள் வார்த்தையில் சொல்லுங்கள் — தமிழ், தங்கிலீஷ், ஆங்கிலம். இடம், எத்தனை நாள், யாரிடம் ஏற்கனவே சொன்னீர்கள் என்று இருந்தால் மனு வலுவாக இருக்கும்.</div>
+   <textarea id="c-text" placeholder="எங்க தெருவுல (காமராஜர் தெரு, அசோக் நகர்) 3 மாசமா 3 தெருவிளக்கு எரியல. 1913-ல சொன்னேன், நடவடிக்கை இல்ல.">${esc2(cdata.text||'')}</textarea>
+   <label class="fl">உங்கள் பெயர்<input id="c-name" value="${esc2(cdata.name||'')}"></label>
+   <label class="fl">முகவரி / பகுதி<input id="c-addr" value="${esc2(cdata.addr||'')}" placeholder="தெரு, பகுதி, ஊர், மாவட்டம்"></label>
+   <div class="row2"><label class="fl">பகுதி வகை<select id="c-area" class="chip" style="width:100%;font-size:15px;padding:11px"><option value="urban">நகர்ப்புறம் (மாநகராட்சி/நகராட்சி)</option><option value="rural">ஊரகம் (ஊராட்சி)</option></select></label>
+   <label class="fl">&nbsp;<button class="btn" id="c-go" style="margin-top:6px">துலாமுள் அலசட்டும்</button></label></div>
+   <div class="small" id="c-msg" style="margin-top:10px"></div>
+   <div class="note">இது சட்ட ஆலோசனை அல்ல; மனு உதவி.</div>
+   <div class="rule"></div><a class="prow" href="#complaint" onclick="cstep=5"><span>என் மனுக்கள்</span><span class="brass">→</span></a></div>`;
+}
+function step2(){
+  const a=cdata.analysis||{};
+  return cbar(2)+`<div style="padding-top:14px"><h1 style="font-size:22px">இது யாருடைய பொறுப்பு</h1>
+   <div class="kv">
+    <div><small>பிரச்சனை வகை</small><b>${esc2(a.category_ta||'')}</b></div>
+    <div><small>பொறுப்பான துறை</small><b>${esc2(a.dept||'')}</b></div>
+    <div><small>யாருக்கு எழுத வேண்டும்</small><b>${esc2(a.officer||'')}</b></div>
+    <div><small>சட்ட அடிப்படை</small><b>${esc2(a.law||'')}</b></div>
+    <div><small>பதில் காலம்</small><b>${esc2(a.days||'')} நாள்</b></div>
+    ${a.missing&&a.missing.length?`<div><small>மனுவை வலுப்படுத்த</small><b>${a.missing.map(esc2).join(' · ')}</b></div>`:''}
+   </div>
+   <button class="btn" id="c-draft" style="margin-top:16px">மனுவைத் தயாரிக்கவும்</button>
+   <button class="btn" id="c-back1" style="background:transparent;color:var(--ink);border:1px solid var(--rule)">திரும்பு</button></div>`;
+}
+function step3(){
+  return cbar(3)+`<div style="padding-top:14px"><h1 style="font-size:22px">உங்கள் மனு</h1>
+   <div class="small muted" style="margin-top:6px">திருத்தலாம் · உங்கள் பெயரில் செல்லும்</div>
+   <textarea id="c-letter" style="min-height:320px;font-family:var(--text);font-size:15px">${esc2(cdata.letter||'')}</textarea>
+   <div class="row2"><button class="btn" id="c-copy" style="background:transparent;color:var(--ink);border:1px solid var(--ink)">நகலெடு</button>
+   <button class="btn" id="c-next3">எங்கே கொடுப்பது →</button></div></div>`;
+}
+function step4(){
+  const a=cdata.analysis||{};
+  const esc_=esc2;
+  return cbar(4)+`<div style="padding-top:14px"><h1 style="font-size:22px">எங்கே, எப்படிக் கொடுப்பது</h1>
+   <div class="small" style="margin-top:6px">ஒன்று போதும்; இரண்டு செய்தால் வலிமை.</div>
+   ${(a.portal||[]).map((p,i)=>`<div class="fwd"><div class="num">${i+1}</div><div><div class="t">${esc_(p)}</div><div class="d">மனுவை நகலெடுத்து ஒட்டுங்கள்; புகைப்படம் இணையுங்கள்; பதிவு எண்ணைச் சேமியுங்கள்.</div><a class="btn btn-soft" style="margin-top:8px;padding:10px;font-size:13px;display:block;text-align:center" href="https://${esc_(p.split(' ')[0])}" target="_blank" rel="noopener">தளத்தைத் திற</a></div></div>`).join('')}
+   ${(a.helpline||[]).length?`<div class="fwd"><div class="num">☎</div><div><div class="t">தொலைபேசி</div><div class="d">${(a.helpline||[]).map(esc_).join(' · ')}</div></div></div>`:''}
+   <div class="fwd"><div class="num">✉</div><div><div class="t">நேரில் / தபால்</div><div class="d">${esc_(a.officer||'')} — அச்சிட்டு, ஒப்புகை (received seal) வாங்குங்கள்.</div></div></div>
+   <div class="rule"></div>
+   <label class="fl">பதிவு எண் (portal-ல் கிடைத்தது)<input id="c-ref" placeholder="எ.கா. GCC-2026-0912344"></label>
+   <button class="btn" id="c-save">மனுவைச் சேமித்துக் கண்காணி</button>
+   <div class="note">துலாமுள் உங்களுக்காக அனுப்பாது — நீங்கள் அனுப்புகிறீர்கள்; அதனால் மனு உங்கள் பெயரில் சட்டப்படி செல்லும். ${esc_(a.days||'')} நாள் கழித்து நினைவூட்டுவோம்; பதில் இல்லையெனில் RTI வரைவு.</div></div>`;
+}
+async function loadPetitions(){
+  try{
+    const qs=await FB.getDocs(FB.query(FB.collection(FB.db,'petitions'),FB.where('uid','==',cuser.uid)));
+    myPets=qs.docs.map(d=>({id:d.id,...d.data()})).sort((x,y)=>(y.created||'').localeCompare(x.created||''));
+    $('#c-body').innerHTML=`<div style="padding-top:14px"><div style="display:flex;justify-content:space-between;align-items:center"><h1 style="font-size:22px">என் மனுக்கள்</h1><a class="brass small" href="#complaint" onclick="cstep=1;renderComplaint()">+ புதிது</a></div>
+     ${myPets.length?myPets.map(p=>`<div class="track"><div class="id">${esc2(p.ref||'பதிவு எண் இல்லை')} · ${esc2((p.analysis&&p.analysis.dept)||'')}</div><div class="t">${esc2((p.text||'').slice(0,70))}…</div>
+      <div class="tl"><div class="done">${esc2((p.created||'').slice(0,10))} — மனு தயார்</div>${p.ref?`<div class="done">பதிவு செய்யப்பட்டது</div>`:''}<div class="now">${esc2(p.status||'பதில் காத்திருப்பு')}</div></div>
+      <div class="row2" style="margin-top:10px"><button class="btn" style="padding:10px;font-size:13px;background:transparent;color:var(--ink);border:1px solid var(--rule)" onclick="setStatus('${p.id}','தீர்ந்தது')">தீர்ந்தது</button><button class="btn" style="padding:10px;font-size:13px;background:transparent;color:var(--ink);border:1px solid var(--rule)" onclick="setStatus('${p.id}','தீரவில்லை — மேல்முறையீடு')">தீரவில்லை</button></div></div>`).join(''):'<div class="empty">இன்னும் மனு இல்லை.</div>'}
+     <div class="note">உங்கள் பதில் துலாமுளின் உள் கணக்கீட்டிற்கு மட்டும்; பெயர் வெளியில் காட்டப்படாது.</div></div>`;
+  }catch(e){ $('#c-body').innerHTML='<div class="empty">ஏற்ற முடியவில்லை.</div>'; }
+}
+window.setStatus=async(id,st)=>{ try{ await FB.updateDoc(FB.doc(FB.db,'petitions',id),{status:st}); loadPetitions(); }catch(e){} };
+window.cstep=cstep; window.renderComplaint=renderComplaint;
+function wireComplaint(){
+  const go=$('#c-go');
+  if(go) go.addEventListener('click',async()=>{
+    cdata.text=$('#c-text').value.trim(); cdata.name=$('#c-name').value.trim(); cdata.addr=$('#c-addr').value.trim(); cdata.area=$('#c-area').value;
+    if(cdata.text.length<15){$('#c-msg').textContent='பிரச்சனையைச் சற்று விரிவாக எழுதுங்கள்.';return;}
+    if(!cdata.name||!cdata.addr){$('#c-msg').textContent='பெயரும் முகவரியும் தேவை.';return;}
+    go.disabled=true; $('#c-msg').textContent='அலசுகிறோம்…';
+    cdata.analysis=await analyse(cdata);
+    if(!cdata.analysis){$('#c-msg').textContent='இப்போது அலச முடியவில்லை; சிறிது நேரம் கழித்து முயற்சிக்கவும்.';go.disabled=false;return;}
+    cstep=2; renderComplaint();
+  });
+  const d=$('#c-draft'); if(d) d.addEventListener('click',async()=>{ d.disabled=true; d.textContent='எழுதுகிறோம்…'; cdata.letter=await draft(cdata); cstep=3; renderComplaint(); });
+  const b1=$('#c-back1'); if(b1) b1.addEventListener('click',()=>{cstep=1;renderComplaint();});
+  const cp=$('#c-copy'); if(cp) cp.addEventListener('click',()=>{navigator.clipboard&&navigator.clipboard.writeText($('#c-letter').value);cp.textContent='நகலெடுக்கப்பட்டது ✓';});
+  const n3=$('#c-next3'); if(n3) n3.addEventListener('click',()=>{cdata.letter=$('#c-letter').value;cstep=4;renderComplaint();});
+  const sv=$('#c-save'); if(sv) sv.addEventListener('click',async()=>{
+    sv.disabled=true;
+    try{ await FB.addDoc(FB.collection(FB.db,'petitions'),{uid:cuser.uid,phone:cuser.phoneNumber,text:cdata.text,name:cdata.name,addr:cdata.addr,analysis:cdata.analysis,letter:cdata.letter,ref:($('#c-ref').value||'').trim(),status:'பதில் காத்திருப்பு',created:new Date().toISOString()});
+      cdata={}; cstep=5; renderComplaint();
+    }catch(e){ sv.disabled=false; alert('சேமிக்க முடியவில்லை: '+e.message); }
+  });
+}
+async function claude(system,user,max=2000){
+  const r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({model:"claude-sonnet-4-6",max_tokens:max,system,messages:[{role:"user",content:user}]})});
+  const d=await r.json(); return (d.content||[]).map(x=>x.text||"").join("");
+}
+async function analyse(c){
+  if(!DEPTS) return null;
+  const cats=DEPTS.categories.map(x=>`${x.id} | ${x.ta}`).join('\n');
+  const sys=`நீ துலாமுள் நாளிதழின் மனு உதவியாளர். கீழே உள்ள வகைப் பட்டியலிலிருந்து மட்டும் ஒன்றைத் தேர்வு செய். JSON மட்டும், code fence இல்லை:
+{"cat_id":"பட்டியலில் உள்ள id","summary":"பிரச்சனை ஒரு வாக்கியம்","missing":["மனுவை வலுப்படுத்த தேவையான 0–3 விவரம்"],"urgent":true/false}
+வகைகள்:\n${cats}`;
+  try{ const raw=await claude(sys,`பிரச்சனை: ${c.text}\nமுகவரி: ${c.addr}`,700);
+    const j=JSON.parse(raw.slice(raw.indexOf('{'),raw.lastIndexOf('}')+1));
+    const cat=DEPTS.categories.find(x=>x.id===j.cat_id)||DEPTS.categories[0];
+    const urban=c.area!=='rural';
+    return {cat_id:cat.id,category_ta:cat.ta,dept:urban?cat.dept_urban:cat.dept_rural,officer:urban?cat.officer_urban:cat.officer_rural,
+            law:cat.law,portal:cat.portal,helpline:cat.helpline,days:cat.days,docs:cat.docs,summary:j.summary,missing:j.missing||[]};
+  }catch(e){ return null; }
+}
+async function draft(c){
+  const a=c.analysis;
+  const sys=`நீ தமிழ் அரசு மனு எழுதும் உதவியாளர். முறையான, மரியாதையான, சுருக்கமான மனு எழுது. உண்மைகளை மட்டும் பயன்படுத்து; புதிதாக எதையும் சேர்க்காதே. வடிவம்:
+பெறுநர் / பொருள் / ஐயா அல்லது அம்மையா / 2–3 பத்தி (பிரச்சனை, சட்ட அடிப்படை, கோரிக்கை + காலக்கெடு) / இணைப்பு / நன்றி, பெயர்-முகவரி.
+சட்டப் பிரிவை மேற்கோள் காட்டு: ${a.law}. பதில் காலம்: ${a.days} நாள். மனு உரையை மட்டும் தா; விளக்கம் வேண்டாம்.`;
+  try{ return await claude(sys,`பெறுநர்: ${a.officer}, ${a.dept}\nமனுதாரர்: ${c.name}, ${c.addr}\nபிரச்சனை: ${c.text}`,1500); }
+  catch(e){ return 'மனு எழுத முடியவில்லை; மீண்டும் முயற்சிக்கவும்.'; }
+}
+
 function route(hh){
   let h=(typeof hh==='string'?hh:location.hash)||curHash||'#home';
   if(h==='#back'){h=backTo;try{history.replaceState(null,'',h);}catch(_){}}
@@ -633,6 +810,7 @@ function route(hh){
   if(r==='topics')renderTopics();
   if(r==='archive')renderArchive();
   if(r==='adform')renderAdForm();
+  if(r==='complaint')renderComplaint();
   if(r==='legal')renderLegal(arg);
   if((r==='home'||r==='page')&&liveFeed&&issueLabel){feed=liveFeed;issueLabel='';renderHome();}
   if(r==='page')gotoPage(arg,false);
@@ -648,7 +826,6 @@ let curHash='#home';
 function go(h){curHash=h;let ok=false;try{if(location.hash!==h){location.hash=h;ok=true;}}catch(_){ok=false;}if(!ok)route(h);}
 document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;e.preventDefault();go(a.getAttribute('href'));});
 window.addEventListener('hashchange',()=>route(location.hash));
-const q='?'+Math.floor(Date.now()/60000);
 Promise.all([
   fetch(BASE+'data/feed.json'+q).then(r=>r.json()).catch(()=>[]),
   fetch(BASE+'data/brief.json'+q).then(r=>r.json()).catch(()=>null),
