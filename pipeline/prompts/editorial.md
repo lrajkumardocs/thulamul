@@ -11,7 +11,7 @@ JSON-ஆக மட்டும் (``` இல்லை; string-களுக்�
  "history": "இது முன்பு எப்படி இருந்தது — 2 வாக்கியம் (உண்மை)",
  "question": "தீர்ப்பு அல்ல — வாசகர் யோசிக்க ஒரே ஒரு கேள்வி",
  "cartoon": {
-   "scene_en": "Editorial cartoon scene in English for an image model: a symbolic, situational gag about this issue. NO real politicians or identifiable people. Use objects/institutions (chairs, files, pits, podiums, queues, scales). Include the recurring silent observer character 'Saatchi' standing at one edge watching. 2–3 sentences, concrete and visual.",
+   "scene_en": "The cartoon scene in English for an image model — 2–3 concrete visual sentences. Describe ONLY what is physically in the frame: people, objects, gestures, setting. The gag must work with NO text anywhere (no signs with words), so carry the meaning through objects, expressions and scale — e.g. an enormous file, a tiny door, a broken queue, an empty chair, a ladder to nowhere. No real politicians. Do not describe Saatchi (he is added automatically).",
    "caption_ta": "படத்தின் கீழ் ஒரு வரி தமிழ் caption — கூர்மையான, ஆனால் நடுநிலையான; ஒரு தரப்பையும் கேலி செய்யாமல் நிலைமையைக் கேலி",
    "alt_ta": "படத்தில் என்ன இருக்கிறது — ஒரு வரி"
  }
