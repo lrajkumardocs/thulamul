@@ -126,6 +126,50 @@ def eligible(c):
     return True, ["single_source"]   # வெளியிடலாம், ஆனால் flag → Telegram ஒப்புதல்
 
 # ---------------------------------------------------------------- 3. write (Claude)
+def send_push(items, brief_item=None):
+    """Firebase Cloud Messaging — பக்கம் வாரியாக அறிவிப்பு. FIREBASE_SA இல்லையெனில் தவிர்."""
+    sa = os.environ.get("FIREBASE_SA")
+    if not sa:
+        return
+    try:
+        import firebase_admin
+        from firebase_admin import credentials, messaging, firestore as fs
+        if not firebase_admin._apps:
+            firebase_admin.initialize_app(credentials.Certificate(json.loads(sa)))
+        db = fs.client()
+        subs = list(db.collection("push").stream())
+        if not subs:
+            return
+        sent = 0
+        for doc in subs:
+            d = doc.to_dict() or {}
+            topics = set(d.get("topics") or [])
+            tok = d.get("token")
+            if not tok or not topics:
+                continue
+            picks = []
+            if brief_item and "front" in topics:
+                picks.append(brief_item)
+            for it in items:
+                t = it.get("topic")
+                if t in topics or ("front" in topics and it.get("front")):
+                    picks.append(it)
+            for p in picks[:2]:                      # ஒரு சாதனத்திற்கு ஓட்டத்திற்கு அதிகபட்சம் 2
+                try:
+                    messaging.send(messaging.Message(
+                        data={"title": p["title"][:80], "body": p.get("body", "")[:140],
+                              "url": p.get("url", "./"), "tag": p.get("tag", "thulamul")},
+                        token=tok,
+                        android=messaging.AndroidConfig(priority="high"),
+                    ))
+                    sent += 1
+                except Exception as ex:
+                    if "not-registered" in str(ex) or "invalid" in str(ex).lower():
+                        doc.reference.delete()       # செல்லாத token நீக்கு
+        print(f"[push] {sent} அறிவிப்புகள்")
+    except Exception as ex:
+        print("[push] பிழை", str(ex)[:150])
+
 def make_cartoon(scene_en, today, caption=""):
     """Gemini மூலம் கேலிச்சித்திரம் + கீழே தமிழ் வசனப் பட்டை. தோல்வி → None."""
     gk = os.environ.get("GEMINI_API_KEY")
@@ -334,6 +378,7 @@ def main():
     def mark_seen(c):
         for i in c["items"]:
             seen.add(i["id"])
+    push_items = []
     day_count = state.get("day_count", {}).get(today, 0)
     api_dead = False
     for c in clusters:
@@ -380,6 +425,10 @@ def main():
             print("[hold]", story["headline"])
         else:
             story["status"] = "published"; feed.insert(0, story)
+            if len(story.get("sources", [])) >= 2 or story.get("confidence", 0) >= 0.8:
+                push_items.append({"topic": story["topic"], "title": story["headline"],
+                                   "body": story["lines"][0][:140], "url": f"./#story/{story['id']}",
+                                   "tag": story["id"], "front": len(story.get("sources", [])) >= 3})
             print("[publish]", story["headline"])
         save_json(FEED_FILE, feed[:300]); save_json(PENDING_FILE, pending)
         state["seen"] = list(seen)[-5000:]; save_json(STATE_FILE, state)   # ஒவ்வொன்றுக்கும் உடனே சேமி
@@ -489,6 +538,19 @@ def main():
         print("[weather] புதுப்பிக்கப்பட்டது")
     except Exception as ex:
         print("[weather] பிழை", ex)
+
+    # 5d. அறிவிப்புகள்
+    try:
+        brief_item = None
+        b = load_json(DATA / "brief.json", {})
+        if b.get("date") == today and state.get("push_brief_day") != today and now.hour >= 6:
+            brief_item = {"title": f"இன்றைய 60 நொடி — {len(b.get('headlines', []))} செய்திகள்",
+                          "body": (b.get("headlines") or [""])[0][:140], "url": "./#home", "tag": "brief"}
+            state["push_brief_day"] = today
+        if push_items or brief_item:
+            send_push(push_items, brief_item)
+    except Exception as ex:
+        print("[push] பிழை", str(ex)[:120])
 
     # 6. save
     feed = feed[:300]
