@@ -180,8 +180,9 @@ def make_cartoon(scene_en, today, caption=""):
         "STYLE: hand-drawn black ink brush-pen line art with fine cross-hatching, on warm off-white paper (#F3F2EE). "
         "Monochrome throughout EXCEPT one single small accent in muted antique brass-gold (#A8862F) on the most important object in the scene. "
         "Expressive but dignified faces; no caricature of any real person.\n"
-        "ABSOLUTELY NO TEXT: no words, letters, numbers, captions, signage text, labels, logos or speech bubbles anywhere in the image. "
-        "Any board, sign, poster, file or screen in the scene must be completely blank or show only abstract squiggles.\n"
+        "CRITICAL — ZERO TEXT: the image must contain no writing of any kind. No words, no letters (Latin, Tamil or any script), no numbers, no captions, no labels, no logos, no speech bubbles, no handwriting. "
+        "Every board, sign, poster, banner, file, paper, screen, badge and wall must be COMPLETELY BLANK — empty surfaces only. Do not attempt to render Tamil or English text anywhere; leave those surfaces plain. "
+        "If a sign is needed for the gag, draw an empty frame.\n"
         "RECURRING CHARACTER (must appear, always the same): 'Saatchi' — a thin, calm, middle-aged Tamil man, short grey-flecked hair, "
         "plain white veshti and white half-sleeve shirt, a folded white towel over his left shoulder, a folded newspaper in his right hand, "
         "standing quietly at the right edge of the frame, not participating, simply observing the scene with a level gaze.\n"
@@ -513,13 +514,13 @@ def main():
             raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
             e = parse_json(client, raw); e["date"] = today; e["author"] = "Mr. X"
             e["audio"] = make_audio(f"editorial_{today.replace('-', '')}", f"தராசில் இன்று. {e['title']}. {e['issue']} ஒரு தட்டு: {e['side_a']['label']}. " + " ".join(e["side_a"]["points"]) + f" மறு தட்டு: {e['side_b']['label']}. " + " ".join(e["side_b"]["points"]) + " " + e["question"])
-            e["cartoon"]["image"] = make_cartoon(e["cartoon"].get("scene_en", ""), today, e["cartoon"].get("caption_ta", "")); e["cartoon_v"] = 6
+            e["cartoon"]["image"] = make_cartoon(e["cartoon"].get("scene_en", ""), today, e["cartoon"].get("caption_ta", "")); e["cartoon_v"] = 7
             save_json(DATA / "ai_editorial.json", e); print("[editorial] தராசில் இன்று:", e["title"])
             telegram(f"⚖️ <b>தராசில் இன்று</b> — {e['title']}\n{e['question']}\n\n🖼 {e['cartoon'].get('caption_ta','')}\n{'படம் தயார்' if e['cartoon'].get('image') else 'படம் இல்லை'}\n\nதவறு என்றால் <code>✘ editorial</code>")
-        elif ed.get("date") == today and (not ed.get("cartoon", {}).get("image") or ed.get("cartoon_v") != 6) and not api_dead:
+        elif ed.get("date") == today and (not ed.get("cartoon", {}).get("image") or ed.get("cartoon_v") != 7) and not api_dead:
             img = make_cartoon(ed.get("cartoon", {}).get("scene_en", ""), today, ed.get("cartoon", {}).get("caption_ta", ""))   # படம் மட்டும் மீண்டும்
             if img:
-                ed["cartoon"]["image"] = img; ed["cartoon_v"] = 6; save_json(DATA / "ai_editorial.json", ed); print("[cartoon] படம் தயார்")
+                ed["cartoon"]["image"] = img; ed["cartoon_v"] = 7; save_json(DATA / "ai_editorial.json", ed); print("[cartoon] படம் தயார்")
     except Exception as ex:
         print("[editorial] பிழை", str(ex)[:200])
 
