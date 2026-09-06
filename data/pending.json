@@ -109,5 +109,61 @@
   "audio": "data/audio/90f84423d693.mp3",
   "created_ts": 1788725339.9078884,
   "status": "pending"
+ },
+ {
+  "headline": "டெல்லியில் மாணவர் விடுதி கட்டடம் இடிந்து வீழ்ச்சி, பலி எண்ணிக்கை குழப்பம்",
+  "lines": [
+   "இந்தியத் தலைநகர் டெல்லியில் மாணவர்கள் பேயிங் கெஸ்ட்டாகத் தங்கியிருந்த ஐந்து மாடிக் கட்டடம் ஒன்று திடீரென இடிந்து விழுந்தது.",
+   "இந்தச் சம்பவத்தில் உயிரிழந்தவர்களின் எண்ணிக்கை குறித்து மூலத் தகவல்களில் இருவர் என்றும் மூவர் என்றும் வெவ்வேறு விவரங்கள் தெரிவிக்கப்பட்டுள்ளன.",
+   "கட்டடத்தில் பேயிங் கெஸ்ட் விடுதி நடத்தப்பட்டு வந்ததாகவும், அங்கு பல மாணவர்கள் தங்கியிருந்ததாகவும் தகவல் வெளியாகியுள்ளது.",
+   "கட்டடம் ஏன் திடீரென இடிந்தது என்பது குறித்த விரிவான காரணம் இதுவரை உறுதிசெய்யப்படவில்லை.",
+   "மீட்புப் பணிகள் தொடர்வதாகவும், மேலும் விவரங்கள் விரைவில் வெளியாகும் என்றும் தெரிவிக்கப்படுகிறது."
+  ],
+  "closing": "இந்தச் சம்பவத்தில் இறந்தவர்களின் உண்மையான எண்ணிக்கை என்ன என்பது தெளிவாக அறிவிக்கப்படவில்லை.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": "2026-09-06"
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "டெல்லி",
+   "மாணவர் விடுதி",
+   "பேயிங் கெஸ்ட்",
+   "கட்டட இடிவு"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Delhi student hostel building collapses, death toll figures conflict",
+   "lines": [
+    "A five-storey building housing a paying-guest hostel for students collapsed suddenly in the Indian capital Delhi.",
+    "Source reports differ on the death toll, with some stating two people died while others report three deaths.",
+    "The building reportedly functioned as a paying-guest accommodation where several students were staying.",
+    "The exact cause of the sudden collapse has not yet been confirmed.",
+    "Rescue operations are said to be continuing, with more details expected soon."
+   ],
+   "closing": "The exact number of people who died in this incident has not been clearly confirmed."
+  },
+  "flags": [
+   "numbers_conflict",
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "d4ddbc17a636",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-09-07T02:39+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/ce872r850r8o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/393f/live/edea7930-a9fe-11f1-aed2-8d6da8d75094.jpg",
+   "credit": "BBC Tamil"
+  },
+  "audio": "data/audio/d4ddbc17a636.mp3",
+  "created_ts": 1788728969.3377292,
+  "status": "pending"
  }
 ]
