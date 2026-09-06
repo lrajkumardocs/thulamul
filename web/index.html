@@ -11,10 +11,10 @@
 <link rel="icon" href="icon.svg">
 <link rel="apple-touch-icon" href="icon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@400;500;600&family=Noto+Sans+Tamil:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@400;500;600&family=Noto+Sans+Tamil:wght@400;500;600&family=Tiro+Tamil&display=swap" rel="stylesheet">
 <style>
   :root{--ink:#161B24;--ink2:#4A5160;--ink3:#8C919B;--paper:#F3F2EE;--paper2:#fff;--rule:#DDDBD4;--brass:#A8862F;--brass2:#F1EAD3;--green:#2F6B4F;
-        --serif:'Noto Serif Tamil',serif;--sans:'Noto Sans Tamil',system-ui,sans-serif}
+        --serif:'Noto Serif Tamil',serif;--text:'Tiro Tamil','Noto Serif Tamil',serif;--sans:'Noto Sans Tamil',system-ui,sans-serif}
   *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
   html,body{background:var(--paper);color:var(--ink);font-family:var(--sans)}
   body{max-width:520px;margin:0 auto;min-height:100vh;overflow:hidden}
@@ -50,7 +50,7 @@
   .srow{display:flex;gap:14px;align-items:flex-start}
   .stxt{flex:1;min-width:0}
   .stxt h2{font-size:16px}
-  .stxt p{font-size:13px;line-height:1.65;color:var(--ink2);margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .stxt p{font-family:var(--text);font-size:13.5px;line-height:1.65;color:var(--ink2);margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .th{width:88px;height:88px;flex:none;border-radius:4px;object-fit:cover;background:#2E3441}
   .th.txt{display:flex;align-items:flex-end;padding:6px;font-size:9px;color:#C9CCD3;background:repeating-linear-gradient(135deg,#3A4150 0 6px,#2E3441 6px 12px)}
   .empty{padding:40px 20px;color:var(--ink3);text-align:center;font-size:13px;line-height:1.7}
@@ -66,10 +66,10 @@
   .dcap{font-size:11px;color:var(--ink3);font-style:italic;padding:8px 20px 0;line-height:1.5}
   h1{font-family:var(--serif);font-size:23px;line-height:1.45;font-weight:500;margin-top:8px}
   .body5{margin-top:18px}
-  .body5 p{position:relative;padding-left:26px;font-size:15px;line-height:1.75;margin-bottom:10px}
+  .body5 p{position:relative;padding-left:26px;font-family:var(--text);font-size:16px;line-height:1.8;margin-bottom:10px}
   .body5 .n{position:absolute;left:0;top:2px;font-family:var(--serif);font-size:13px;color:var(--brass)}
   .aware{margin-top:20px;border-left:2px solid var(--brass);padding:4px 0 4px 16px}
-  .aware .at{font-family:var(--serif);font-size:14.5px;line-height:1.7}
+  .aware .at{font-family:var(--text);font-size:15.5px;line-height:1.75}
   .follow{font-size:12px;color:var(--ink3);margin-top:12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
   .follow audio{height:32px;flex:1;min-width:180px}
   .srcline{margin-top:22px;padding-top:12px;border-top:1px solid var(--rule)}
@@ -79,7 +79,7 @@
   .prow{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--rule);font-size:15px;cursor:pointer}
   .byline{font-size:12px;color:var(--ink3);margin-top:8px;padding-bottom:14px;border-bottom:1px solid var(--rule)}
   .edbody{margin-top:16px}
-  .edbody p{font-family:var(--serif);font-size:15px;line-height:1.85;margin-bottom:14px}
+  .edbody p{font-family:var(--text);font-size:16px;line-height:1.85;margin-bottom:14px}
   .edbody p:first-child::first-letter{font-size:200%;line-height:1;float:left;padding:4px 6px 0 0;color:var(--brass)}
   .cbox{margin:20px 0;border:1px dashed var(--brass);border-radius:14px;padding:18px;font-size:13px;line-height:1.7}
   textarea{width:100%;border:1px solid var(--rule);background:var(--paper2);border-radius:14px;padding:14px;font-family:inherit;font-size:15px;line-height:1.7;min-height:130px;resize:none;margin-top:14px}
@@ -103,15 +103,18 @@
   .phead .dots i.on{background:var(--brass)}
   .mh{padding:calc(8px + env(safe-area-inset-top)) 16px 6px;background:var(--paper);position:sticky;top:0;z-index:2;border-bottom:1px solid var(--rule)}
   .mh-top{text-align:center;font-size:10.5px;color:var(--brass);letter-spacing:.06em;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:4px 0}
-  .mh-row{display:flex;align-items:center;justify-content:space-between;padding:10px 0 8px}
-  .ear{width:74px;font-size:10px;color:var(--ink2);line-height:1.5;border:1px solid var(--rule);padding:5px 7px;border-radius:3px}
-  .ear b{display:block;font-family:var(--serif);font-weight:500;font-size:13px;color:var(--ink)}
+  .mh-row{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 0 6px}
+  .ear{min-width:86px;font-size:10px;color:var(--ink2);line-height:1.6;border:1px solid var(--rule);padding:7px 8px;border-radius:3px;white-space:nowrap;text-align:center;flex:none}
+  .ear b{display:block;font-family:var(--serif);font-weight:500;font-size:14px;color:var(--ink);margin-bottom:1px}
   .ear span{display:block}
-  .ear.r{text-align:right}
-  .mh-name{font-family:var(--serif);font-size:34px;font-weight:600;display:flex;align-items:center;gap:8px;letter-spacing:.01em}
+  .ear.r{text-align:center}
+  .mh-center{text-align:center;flex:1;min-width:0}
+  .emblem svg{width:34px;height:34px;display:block;margin:0 auto 2px}
+  .motto{font-size:11px;color:var(--ink2);letter-spacing:.12em;margin-top:8px}
+  .mh-name{font-family:var(--serif);font-size:30px;font-weight:600;letter-spacing:.01em;line-height:1.25}
   .mh-name svg{width:28px;height:28px}
-  .mh-date{text-align:center;font-size:11px;color:var(--ink2);border-top:2px solid var(--ink);border-bottom:1px solid var(--ink);padding:5px 0;position:relative}
-  .mh-date::after{content:"";position:absolute;left:0;right:0;top:3px;border-top:1px solid var(--ink)}
+  .mh-date{text-align:center;font-size:11px;color:var(--ink2);border-top:2px solid var(--ink);border-bottom:1px solid var(--ink);padding:9px 0 8px;margin-top:10px;position:relative;line-height:1.4}
+  .mh-date::after{content:"";position:absolute;left:0;right:0;top:2px;border-top:1px solid var(--ink)}
   .mh .dots{display:flex;gap:4px;padding:8px 0 2px;cursor:pointer}
   .mh .dots i{flex:1;height:2px;background:var(--rule)}
   .mh .dots i.on{background:var(--brass)}
@@ -158,9 +161,9 @@
   .lead .foot{align-items:center}
   .msec{margin-top:22px;padding-top:14px;border-top:1px solid var(--rule)}
   .mt{font-size:11px;color:var(--brass);letter-spacing:.04em;margin-bottom:10px}
-  .mh1{font-size:14px;line-height:1.7;margin-bottom:8px}.mh1 b{font-family:var(--serif);color:var(--ink3);font-weight:500;margin-right:6px}
-  .song{font-family:var(--serif);font-size:16px;line-height:1.9;padding:12px 16px;background:var(--brass2);border-radius:10px}
-  .mp{font-size:14px;line-height:1.75;margin-top:10px}
+  .mh1{font-family:var(--text);font-size:15px;line-height:1.7;margin-bottom:8px}.mh1 b{font-family:var(--serif);color:var(--ink3);font-weight:500;margin-right:6px}
+  .song{font-family:var(--text);font-size:17px;line-height:1.9;padding:12px 16px;background:var(--brass2);border-radius:10px}
+  .mp{font-family:var(--text);font-size:15px;line-height:1.75;margin-top:10px}
   .jobs{margin-top:16px;border-top:1px solid var(--rule)}
   .job{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--rule);font-size:13px}
   .job b{display:block;font-weight:500}.job span{color:var(--ink2);font-size:12.5px}
@@ -174,7 +177,7 @@
   .rasigrid span.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
   .rasibox{margin-top:18px;border-top:1px solid var(--rule);padding-top:18px}
   .score{text-align:right}.score b{display:block;font-family:var(--serif);font-size:26px;font-weight:500;color:var(--brass);line-height:1}.score small{font-size:11px;color:var(--ink2)}
-  .body4{margin-top:14px}.body4 p{font-size:15px;line-height:1.8;margin-bottom:8px;padding-left:14px;border-left:1px solid var(--rule)}
+  .body4{margin-top:14px}.body4 p{font-family:var(--text);font-size:16px;line-height:1.8;margin-bottom:8px;padding-left:14px;border-left:1px solid var(--rule)}
   .note{font-size:11px;color:var(--ink3);line-height:1.7;margin-top:16px}
   .month{margin-top:18px}.mname{font-family:var(--serif);font-size:16px;font-weight:500;margin-bottom:8px}
   .cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
@@ -186,7 +189,9 @@
   .pan{background:var(--paper2);border:1px solid var(--rule);border-radius:12px;padding:12px}
   .pan.b{background:var(--brass2)}
   .pl{font-size:11px;color:var(--brass);margin-bottom:8px;letter-spacing:.02em}
-  .pan p{font-size:12.5px;line-height:1.6;margin-bottom:8px;padding-left:10px;border-left:1px solid var(--rule)}
+  .pan p{font-family:var(--text);font-size:13.5px;line-height:1.6;margin-bottom:8px;padding-left:10px;border-left:1px solid var(--rule)}
+  .bell{display:flex;align-items:center;gap:10px;margin:10px 20px 0;padding:8px 12px;border:1px dashed var(--rule);border-radius:10px;font-size:11.5px;color:var(--ink2);cursor:pointer}
+  .bell svg{width:18px;height:18px;stroke:var(--ink3);fill:none;stroke-width:1.5;flex:none}.bell.on{border-style:solid;border-color:var(--brass)}.bell.on svg{stroke:var(--brass)}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -220,13 +225,15 @@
 </section>
 
 <section class="screen" id="s-complaint" style="height:calc(100vh - 64px);overflow-y:auto">
-  <div class="head"><div class="mast">மனு உதவி</div><span class="small muted">விரைவில்</span></div>
+  <div class="head"><div class="mast">மனு உதவி</div></div>
   <div class="pad" style="padding-top:20px">
     <h1 style="font-size:22px">என்ன பிரச்சனை?</h1>
     <div class="small" style="margin-top:8px;line-height:1.7">உங்கள் வார்த்தையில் சொல்லுங்கள். எந்த துறை, என்ன சட்டம், மனு எப்படி, எங்கே கொடுப்பது — துலாமுள் தயார் செய்யும்.</div>
     <textarea placeholder="எங்க தெருவுல 3 மாசமா தெருவிளக்கு எரியல…" disabled></textarea>
-    <button class="btn dim" disabled>துலாமுள் அலசட்டும் — Session 5-ல்</button>
-    <div class="cbox">எல்லா அரசுத் துறைகளுக்கும் — மாநகராட்சி முதல் மத்திய அமைச்சகம் வரை — புகார் வழிமுறை இங்கே வரும். இது சட்ட ஆலோசனை அல்ல; மனு உதவி.</div>
+    <label class="fl">தொலைபேசி எண் (மனுவைச் சேமிக்க, நிலையை அறிய)<input type="tel" placeholder="+91" disabled></label>
+    <div class="row2"><label class="fl">OTP<input type="text" placeholder="6 இலக்கம்" disabled></label><label class="fl">&nbsp;<button class="btn dim" style="margin-top:6px;padding:11px" disabled>OTP அனுப்பு</button></label></div>
+    <button class="btn dim" disabled>மனுவைத் தயாரிக்கவும்</button>
+    <div class="cbox"><b>துலாமுள் என்ன செய்யும்:</b><br>1. உங்கள் பிரச்சனை எந்தத் துறையின் பொறுப்பு என்று கண்டறியும் — மாநகராட்சி முதல் மத்திய அமைச்சகம் வரை.<br>2. சரியான அதிகாரிக்கு முறையான தமிழ் மனுவை எழுதித் தரும்.<br>3. எங்கே, எப்படிக் கொடுப்பது — portal, helpline, நேரில் — வழி காட்டும்.<br>4. பதில் வரவில்லை என்றால் RTI வரைவு தயார் செய்யும்.<br><span class="muted">இது சட்ட ஆலோசனை அல்ல; மனு உதவி.</span></div>
   </div>
 </section>
 
@@ -234,30 +241,39 @@
 
 <section class="screen" id="s-adform" style="height:calc(100vh - 64px);overflow-y:auto"></section>
 
+<section class="screen" id="s-legal" style="height:calc(100vh - 64px);overflow-y:auto"></section>
+
 <section class="screen" id="s-archive" style="height:calc(100vh - 64px);overflow-y:auto">
-  <div class="head"><div><div class="date">காப்பகம் · 90 நாள்</div><div class="mast">பழைய இதழ்கள்</div></div></div>
+  <div class="head"><div><div class="date">காப்பகம்</div><div class="mast">பழைய இதழ்கள்</div></div></div>
   <div class="pad" id="arc-list"><div class="empty">ஏற்றுகிறது…</div></div>
 </section>
 
 <section class="screen" id="s-me" style="height:calc(100vh - 64px);overflow-y:auto">
-  <div class="head"><div class="mast">நான்</div></div>
+  <div class="head"><div class="mast">மேலும்</div></div>
   <div class="pad">
-    <div class="prow"><span>மொழி</span><span class="small muted">தமிழ்</span></div>
-    <div class="prow"><span>ராசி பலன்</span><span class="small muted">பக்கம் 13</span></div>
-    <div class="prow"><span>தினசரி brief நேரம்</span><span class="small muted">காலை 6:00</span></div>
-    <div class="prow"><span>ஆப்பாக நிறுவு</span><span class="small muted">Share → Add to Home Screen</span></div>
+    <div class="prow"><span>மொழி</span><span class="seg" id="langseg"><span data-l="ta">தமிழ்</span><span data-l="en">English</span></span></div>
     <div class="prow"><span>எழுத்து அளவு</span><span class="seg"><span data-f="s">சிறியது</span><span data-f="m" class="on">நடுத்தரம்</span><span data-f="l">பெரியது</span></span></div>
+    <div class="prow"><span>அறிவிப்புகள்</span><span class="small muted">பக்கங்களில் 🔔 · விரைவில்</span></div>
     <div class="prow" id="share-paper" style="cursor:pointer"><span>இன்றைய இதழை WhatsApp-ல் பகிர்</span><span class="brass">→</span></div>
-    <div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>ஆசிரியர்: ல. ராஜ்குமார் · சென்னை<br>விளம்பரம்: <a id="ad-wa" href="#">WhatsApp</a> · <a id="ad-mail" href="#">மின்னஞ்சல்</a><br><span class="muted">சோதனைப் பதிப்பு · AI எழுதியது; ஒவ்வொரு செய்திக்கும் மூலம் குறிப்பிடப்படுகிறது</span></div>
+    <div class="prow"><span>ஆப்பாக நிறுவு</span><span class="small muted">Share → Add to Home Screen</span></div>
+    <div class="prow" style="cursor:pointer" onclick="go('#adform')"><span>விளம்பரம் செய்ய</span><span class="brass">→</span></div>
+    <a class="prow" href="#legal/privacy"><span>தனியுரிமைக் கொள்கை</span><span class="brass">→</span></a>
+    <a class="prow" href="#legal/terms"><span>விதிமுறைகள் & நிபந்தனைகள்</span><span class="brass">→</span></a>
+    <a class="prow" href="#legal/editorial"><span>ஆசிரியக் கொள்கை</span><span class="brass">→</span></a>
+    <a class="prow" href="#legal/corrections"><span>திருத்தக் கொள்கை</span><span class="brass">→</span></a>
+    <a class="prow" href="#legal/grievance"><span>குறைதீர் அதிகாரி</span><span class="brass">→</span></a>
+    <a class="prow" href="#legal/disclaimer"><span>மறுப்பறிக்கை (ஜோதிடம் · மனு உதவி · விளம்பரம்)</span><span class="brass">→</span></a>
+    <div class="prow"><span>பதிப்பு</span><span class="small muted">0.4 · சோதனை</span></div>
+    <div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br><span class="muted">© <span id="cy"></span> முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. All rights reserved.</span><a id="ad-wa" hidden></a><a id="ad-mail" hidden></a></div>
   </div>
 </section>
 
 <nav class="nav" id="nav">
-  <a href="#home" data-n="home"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM4 10h16M9 10v9"/></svg>இன்று</a>
+  <a href="#home" data-n="home"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM4 10h16M9 10v9"/></svg>முதல் பக்கம்</a>
   <a href="#topics" data-n="topics"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>பக்கங்கள்</a>
   <a href="#complaint" data-n="complaint"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4zM9 8h6M9 12h4"/></svg>மனு உதவி</a>
   <a href="#archive" data-n="archive"><svg viewBox="0 0 24 24"><path d="M4 7h16v13H4zM4 7l2-3h12l2 3M10 11h4"/></svg>பழைய இதழ்</a>
-  <a href="#me" data-n="me"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>நான்</a>
+  <a href="#me" data-n="me"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="12" cy="19" r="1.5"/></svg>மேலும்</a>
 </nav>
 
 <script>
@@ -266,12 +282,13 @@ const AD_WA='91XXXXXXXXXX';  // விளம்பரத் தொடர்ப�
 const AD_MAIL='thulamul@lrajkumar.com';
 const AD_PRICE_PER_DAY=150; const AD_FULL_PRICE=1000; const AD_SLOTS=8;
 const PAPER_URL='https://lrajkumardocs.github.io/thulamul/web/';
-const LOGO=`<svg viewBox="0 0 100 100"><line x1="50" y1="18" x2="50" y2="82" stroke="#161B24" stroke-width="4"/><line x1="18" y1="50" x2="82" y2="50" stroke="#161B24" stroke-width="4"/><circle cx="50" cy="50" r="6" fill="#A8862F"/></svg>துலாமுள்`;
+const LOGO=`<svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M50 24v56"/><path d="M36 82h28"/><path d="M18 34h64"/><path d="M50 14l-4 8h8z" fill="#A8862F" stroke="none"/><circle cx="50" cy="34" r="3.2" fill="#A8862F" stroke="none"/><path d="M18 34l-9 22M18 34l9 22"/><path d="M82 34l-9 22M82 34l9 22"/><path d="M6 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/><path d="M70 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/></svg>துலாமுள்`;
 const T={ads:'விளம்பரம்',malar:'வாரமலர்',all:'முதல் பக்கம்',tn:'தமிழ்நாடு',india:'இந்தியா',world:'உலகம்',edit:'தலையங்கம்',economy:'பொருளாதாரம்',sports:'விளையாட்டு',cinema:'சினிமா',tech:'தொழில்நுட்பம்',rasi:'ராசிபலன்',court:'நீதிமன்றம்',jobs:'வேலைவாய்ப்பு',health:'சுகாதாரம்',agri:'விவசாயம்',spirit:'ஆன்மீகம்',assembly:'சட்டமன்றம்'};
 const MAIN=['all','tn','india','world','edit','economy','sports','cinema','tech','rasi'], MORE=['court','jobs','health','agri','spirit','assembly'];
 const TA=['1','2','3','4','5'];
-let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,aied=null,rasiSel=parseInt(localStorage.getItem('rasi')||'0');
+let LANG=localStorage.getItem('lang')||'ta';let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,aied=null,rasiSel=parseInt(localStorage.getItem('rasi')||'0');
 const $=s=>document.querySelector(s);
+const H=s=>(LANG==='en'&&s.en&&s.en.headline)?s.en.headline:s.headline;const L=s=>(LANG==='en'&&s.en&&s.en.lines)?s.en.lines:(s.lines||[]);const C=s=>(LANG==='en'&&s.en&&s.en.closing)?s.en.closing:s.closing;
 const esc=s=>(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
 const tdate=d=>new Date(d).toLocaleDateString('ta-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
 const hm=s=>(s||'').slice(11,16);
@@ -293,18 +310,29 @@ const ago=s=>{const m=(Date.now()-new Date(s))/60000;return m<60?`${Math.max(1,M
 const PAGES=['front','tn','india','world','edit','economy','court','jobs','tech','health','agri','spirit','rasi','cinema','sports','malar','ads'];
 const MERGE={assembly:'tn'};
 const tnum=n=>String(n);
+const CITIES=[['சென்னை',13.08,80.27],['கோயம்புத்தூர்',11.02,76.97],['மதுரை',9.93,78.12],['திருச்சி',10.79,78.70],['சேலம்',11.66,78.15],['திருநெல்வேலி',8.71,77.76],['தூத்துக்குடி',8.76,78.13],['வேலூர்',12.92,79.13],['ஈரோடு',11.34,77.72],['திருப்பூர்',11.11,77.34],['தஞ்சாவூர்',10.79,79.14],['திண்டுக்கல்',10.37,77.98],['கன்னியாகுமரி',8.09,77.54],['நாகர்கோவில்',8.18,77.43],['கடலூர்',11.75,79.77],['விழுப்புரம்',11.94,79.49],['காஞ்சிபுரம்',12.83,79.70],['திருவள்ளூர்',13.14,79.91],['செங்கல்பட்டு',12.69,79.98],['கரூர்',10.96,78.08],['நாமக்கல்',11.22,78.17],['தர்மபுரி',12.13,78.16],['கிருஷ்ணகிரி',12.52,78.21],['திருவண்ணாமலை',12.23,79.07],['புதுக்கோட்டை',10.38,78.82],['சிவகங்கை',9.85,78.48],['ராமநாதபுரம்',9.37,78.83],['விருதுநகர்',9.58,77.96],['தேனி',10.01,77.48],['நாகப்பட்டினம்',10.77,79.84],['திருவாரூர்',10.77,79.64],['மயிலாடுதுறை',11.10,79.65],['அரியலூர்',11.14,79.08],['பெரம்பலூர்',11.23,78.88],['நீலகிரி',11.41,76.70],['ராணிப்பேட்டை',12.93,79.33],['திருப்பத்தூர்',12.50,78.57],['தென்காசி',8.96,77.31],['கள்ளக்குறிச்சி',11.74,78.96],['புதுச்சேரி',11.94,79.83],['பெங்களூரு',12.97,77.59],['ஐதராபாத்',17.39,78.49],['மும்பை',19.08,72.88],['டெல்லி',28.61,77.21],['கொல்கத்தா',22.57,88.36],['கொச்சி',9.93,76.27],['திருவனந்தபுரம்',8.52,76.94],['விசாகப்பட்டினம்',17.69,83.22],['புனே',18.52,73.86],['அகமதாபாத்',23.02,72.57],['துபாய்',25.20,55.27],['சிங்கப்பூர்',1.35,103.82],['கோலாலம்பூர்',3.14,101.69],['லண்டன்',51.51,-0.13],['டொராண்டோ',43.65,-79.38],['நியூயார்க்',40.71,-74.01]];
+let myWx=null;
+function nearestCity(la,lo){let best=null,bd=1e9;for(const c of CITIES){const d=(c[1]-la)**2+((c[2]-lo)*Math.cos(la*Math.PI/180))**2;if(d<bd){bd=d;best=c;}}return best[0];}
+function localWeather(){
+  if(!navigator.geolocation)return;
+  navigator.geolocation.getCurrentPosition(pos=>{const la=pos.coords.latitude,lo=pos.coords.longitude;
+    fetch(`https://api.open-meteo.com/v1/forecast?latitude=${la.toFixed(3)}&longitude=${lo.toFixed(3)}&timezone=auto&forecast_days=1&current=temperature_2m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max`).then(r=>r.json()).then(w=>{
+      myWx={city:nearestCity(la,lo),now:Math.round(w.current.temperature_2m),max:Math.round(w.daily.temperature_2m_max[0]),min:Math.round(w.daily.temperature_2m_min[0]),rain:w.daily.precipitation_probability_max[0]};
+      const ear=document.querySelector('.ear.r');if(ear)ear.innerHTML=`<b>${myWx.now}°</b><span>${myWx.city}</span><span>மழை ${myWx.rain}%</span>`;
+    }).catch(()=>{});},()=>{},{timeout:8000,maximumAge:1800000});
+}
 function masthead(i){
-  const w=wxData&&wxData.cities&&wxData.cities['சென்னை'];
-  const launch=new Date('2026-09-06');const issue=Math.max(1,Math.floor((Date.now()-launch)/86400000)+1);
+  const w=myWx||(wxData&&wxData.cities&&wxData.cities['சென்னை']?{...wxData.cities['சென்னை'],city:'சென்னை'}:null);
+  const launch=new Date('2026-09-06T00:00:00+05:30');const issue=Math.max(1,Math.floor((Date.now()-launch)/86400000)+1);const yr=Math.floor((Date.now()-launch)/(365.25*86400000))+1;
   const d=new Date();
   return `<div class="mh">
     <div class="mh-top">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ்</div>
     <div class="mh-row">
-      <div class="ear"><b>ஆண்டு 1</b><span>இதழ் ${issue}</span><span>விலை: இலவசம்</span></div>
-      <div class="mh-name">${LOGO}</div>
-      <div class="ear r"><b>${w?w.now+'°':'—'}</b><span>சென்னை</span><span>${w?'மழை '+w.rain+'%':'வானிலை'}</span></div>
+      <div class="ear"><b>ஆண்டு ${yr}</b><span>இதழ் ${issue}</span><span>விலை: இலவசம்</span></div>
+      <div class="mh-center"><div class="emblem"><svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M50 24v56"/><path d="M36 82h28"/><path d="M18 34h64"/><path d="M50 14l-4 8h8z" fill="#A8862F" stroke="none"/><circle cx="50" cy="34" r="3.2" fill="#A8862F" stroke="none"/><path d="M18 34l-9 22M18 34l9 22"/><path d="M82 34l-9 22M82 34l9 22"/><path d="M6 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/><path d="M70 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/></svg></div><div class="mh-name">துலாமுள்</div><div class="motto">நடுநிலை செய்திகள்</div></div>
+      <div class="ear r"><b>${w?w.now+'°':'—'}</b><span>${w?esc(w.city):'வானிலை'}</span><span>${w?'மழை '+w.rain+'%':'—'}</span></div>
     </div>
-    <div class="mh-date">சென்னை · ${d.toLocaleDateString('ta-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'})} · பக்கம் 1 / ${PAGES.length}</div>
+    <div class="mh-date">தமிழ்நாடு · ${d.toLocaleDateString('ta-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'})} · பக்கம் 1 / ${PAGES.length}</div>
     <div class="dots" onclick="go('#topics')">${PAGES.map((_,j)=>`<i class="${j===i?'on':''}"></i>`).join('')}</div>
   </div>`;
 }
@@ -316,21 +344,23 @@ function card(s,lead,onTopic){
   const img=s.image&&s.image.url;const kick=onTopic?((s.entities||[])[0]||s.topic_ta):s.topic_ta;
   if(lead) return `<div class="lead" data-id="${s.id}">${img?`<span class="imgwrap"><img class="ph" src="${esc(img)}" alt="" loading="lazy" onerror="this.parentElement.nextElementSibling&&this.parentElement.nextElementSibling.remove();this.parentElement.remove()"><span class="wm">துலாமுள்</span></span><div class="cap">படம்: ${esc(s.image.credit)}</div>`:''}
     <div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span><span class="v">சரிபார்க்கப்பட்டது</span></div>
-    <h2>${esc(s.headline)}</h2>
+    <h2>${esc(H(s))}</h2>
     <div class="foot"><span>மூலம்: ${esc(srcShort(s.sources||[]))}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:'<span>30 நொடி</span>'}</div></div>`;
   return `<div class="story" data-id="${s.id}"><div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:''}</div>
-    <div class="srow"><div class="stxt"><h2>${esc(s.headline)}</h2><p>${esc((s.lines||[])[0])}</p></div>
+    <div class="srow"><div class="stxt"><h2>${esc(H(s))}</h2><p>${esc(L(s)[0])}</p></div>
     ${img?`<img class="th" src="${esc(img)}" alt="" loading="lazy" onerror="this.className='th txt';this.removeAttribute('src')">`:`<div class="th txt">${esc((s.entities||[])[0]||s.topic_ta)}</div>`}</div></div>`;
 }
 function storiesHtml(items,empty,onTopic){return items.length?items.map((s,i)=>card(s,i===0,onTopic)).join(''):`<div class="empty">${empty}</div>`;}
+function bellHtml(k){const on=(localStorage.getItem('bell_'+k)==='1');return `<div class="bell ${on?'on':''}" data-bell="${k}"><svg viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0112 0v5l2 2H4zM10 20a2 2 0 004 0"/></svg><span>${on?'இந்தப் பக்கத்தின் அறிவிப்புகள் மட்டும் — on':'இந்தப் பக்கத்தின் செய்திகளை மட்டும் உடனுக்குடன் அறிய 🔔 தொடுங்கள்'}</span></div>`;}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-bell]');if(!b)return;const k=b.dataset.bell;const on=localStorage.getItem('bell_'+k)==='1';localStorage.setItem('bell_'+k,on?'0':'1');b.classList.toggle('on',!on);b.querySelector('span').textContent=!on?'இந்தப் பக்கத்தின் அறிவிப்புகள் மட்டும் — on':'இந்தப் பக்கத்தின் செய்திகளை மட்டும் உடனுக்குடன் அறிய 🔔 தொடுங்கள்';});
 function pageBody(k){
-  if(k==='front'){const p=pub();return (brief&&brief.audio?briefHtml():'')+storiesHtml(p.slice(0,12),'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot">இன்றைய இதழ் · இரவு 12:00-க்கு புதிய இதழ் · <a href="#archive" class="brass">நேற்றைய இதழ் →</a><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்<br><b>அடுத்த பக்கம்: தமிழ்நாடு</b></div>`;}
+  if(k==='front'){const p=pub();return (brief&&brief.audio?briefHtml():'')+storiesHtml(p.slice(0,12),'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot">இன்றைய இதழ் · இரவு 12:00-க்கு புதிய இதழ் · <a href="#archive" class="brass">பழைய இதழ்கள் →</a><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்<br><b>அடுத்த பக்கம்: தமிழ்நாடு</b></div>`;}
   if(k==='edit'){return editHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: பொருளாதாரம்</b></div>`;}
   if(k==='malar'){return malarHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: விளம்பரம்</b></div>`;}
-  if(k==='ads'){return adsHtml()+`<div class="pad"><div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>ஆசிரியர்: ல. ராஜ்குமார் · சென்னை<br>விளம்பரம்: <a href="https://wa.me/${AD_WA}">WhatsApp</a> · <a href="mailto:${AD_MAIL}">${AD_MAIL}</a></div></div><div class="pfoot">16 பக்கங்கள் நிறைவு · <b>முதல் பக்கத்திற்கு: கீழே "இன்று"</b></div>`;}
+  if(k==='ads'){return adsHtml()+`<div class="pad"><div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X<br><a href="https://thulamul.com">www.thulamul.com</a> · <a href="mailto:info@thulamul.com">info@thulamul.com</a><br><span class="muted">© ${new Date().getFullYear()} முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. All rights reserved.</span></div><div style="height:30px"></div></div>`;}
   if(k==='rasi'){const i=PAGES.indexOf(k);return rasiHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[i+1]]}</b></div>`;}
   const i=PAGES.indexOf(k);const nxt=PAGES[i+1];const items=pub().filter(s=>s.topic===k);
-  return storiesHtml(items,'இந்தப் பக்கத்தில் இன்று செய்தி இல்லை.',true)+`<div class="pfoot">${nxt?`<b>அடுத்த பக்கம்: ${T[nxt]||'முதல் பக்கம்'}</b>`:'<b>கடைசிப் பக்கம்</b> · முதல் பக்கத்திற்கு: கீழே "இன்று"'}</div>`;
+  return bellHtml(k)+storiesHtml(items,'இந்தப் பக்கத்தில் இன்று செய்தி இல்லை.',true)+`<div class="pfoot">${nxt?`<b>அடுத்த பக்கம்: ${T[nxt]||'முதல் பக்கம்'}</b>`:'<b>கடைசிப் பக்கம்</b>'}</div>`;
 }
 function indexHtml(){
   return `<div class="inside"><div class="t">உள்ளே</div><div class="grid">${PAGES.slice(1).map((k,i)=>`<a href="#page/${k}"><span>${T[k]}</span><b>${i+2}</b></a>`).join('')}</div></div>`;
@@ -420,8 +450,8 @@ function editHtml(){
   const a=aied;
   if(a&&a.title&&!a.hidden){
     const c=a.cartoon||{};
-    h+=`<div class="pad"><div class="rule"></div><div class="small brass">தராசில் இன்று · ${esc(a.date)}</div><h1 style="font-size:24px;margin-top:6px">${esc(a.title)}</h1><div class="byline">${esc(a.author||'துலாமுள் AI ஆசிரியர்')}</div>
-      ${c.image?`<span class="imgwrap" style="margin-top:14px"><img class="ph" style="height:auto;aspect-ratio:4/3;object-fit:cover" src="${BASE}${esc(c.image)}" alt="${esc(c.alt_ta||'')}" onerror="this.parentElement.remove()"><span class="wm">துலாமுள்</span></span><div class="cap" style="margin-top:6px">${esc(c.caption_ta||'')} · <span class="muted">AI கேலிச்சித்திரம்</span></div>`:''}
+    h+=`<div class="pad"><div class="rule"></div><div class="small brass">தராசில் இன்று · ${esc(a.date)}</div><h1 style="font-size:24px;margin-top:6px">${esc(a.title)}</h1><div class="byline">${esc(a.author||'Mr. X')} · AI ஆசிரியர்</div>
+      ${c.image?`<span class="imgwrap" style="margin-top:14px"><img class="ph" style="height:auto;aspect-ratio:auto;object-fit:contain;background:var(--paper)" src="${BASE}${esc(c.image)}" alt="${esc(c.alt_ta||'')}" onerror="this.parentElement.remove()"><span class="wm">துலாமுள்</span></span><div class="cap" style="margin-top:6px"><span class="muted">AI கேலிச்சித்திரம் · Mr. X</span></div>`:''}
       <p class="mp" style="margin-top:14px">${esc(a.issue)}</p>
       <div class="scales"><div class="pan"><div class="pl">${esc(a.side_a.label)}</div>${a.side_a.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div><div class="pan b"><div class="pl">${esc(a.side_b.label)}</div>${a.side_b.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div></div>
       ${a.history?`<p class="mp muted">${esc(a.history)}</p>`:''}
@@ -441,6 +471,84 @@ function renderHome(){
 let scrollT=null,curPage='front';
 document.addEventListener('DOMContentLoaded',()=>{$('#paper').addEventListener('scroll',()=>{clearTimeout(scrollT);scrollT=setTimeout(()=>{const p=$('#paper');const i=Math.round(p.scrollLeft/p.clientWidth);const k=PAGES[i]||'front';if(k!==curPage){curPage=k;stopOne();}const want=k==='front'?'#home':'#page/'+k;if(curHash!==want&&!curHash.startsWith('#story')){curHash=want;try{history.replaceState(null,'',want);}catch(_){}}},120);});});
 let issueLabel='';
+const LEGAL={
+privacy:{t:'தனியுரிமைக் கொள்கை',b:`துலாமுள் (முத்தமிழ் கலைக்கூடம் வெளியீடு) உங்கள் தனியுரிமையை மதிக்கிறது. இந்தக் கொள்கை Digital Personal Data Protection Act, 2023-க்கு உட்பட்டது.
+## சேகரிக்கும் தகவல்
+• இடம் — வானிலைக்கு மட்டும்; நீங்கள் அனுமதித்தால்; சேமிக்கப்படுவதில்லை.
+• எழுத்து அளவு, அறிவிப்புத் தேர்வுகள் — உங்கள் சாதனத்தில் மட்டும்.
+• மனு உதவி — நீங்கள் தட்டச்சு செய்யும் பிரச்சனை விவரம் மனு தயாரிக்க மட்டும் பயன்படும்; நீங்கள் சேமித்தால் மட்டுமே சேமிக்கப்படும்.
+• விளம்பரப் பதிவு — பெயர், தொலைபேசி, தேதிகள் — விளம்பரப் பணிக்கு மட்டும்.
+## பயன்படுத்தாதவை
+கணக்குகள், கடவுச்சொற்கள், cookies அடிப்படையிலான கண்காணிப்பு, மூன்றாம் தரப்பு விளம்பர tracking — எதுவும் இல்லை. உங்கள் தரவு யாருக்கும் விற்கப்படுவதில்லை.
+## மூன்றாம் தரப்பு சேவைகள்
+வானிலை (Open-Meteo), எழுத்துருக்கள் (Google Fonts), ஆடியோ உருவாக்கம் — இவை தனிநபர் தரவு பெறுவதில்லை.
+## உங்கள் உரிமைகள்
+உங்கள் தரவைப் பார்க்க, திருத்த, நீக்கக் கோர: குறைதீர் அதிகாரியை அணுகவும். சாதனத்தில் உள்ள தேர்வுகள் ஆப்பை நீக்கினால் அழிந்துவிடும்.
+## குழந்தைகள்
+துலாமுள் 13 வயதுக்கு மேற்பட்டவர்களுக்கானது; குழந்தைகளின் தரவை அறிந்து சேகரிப்பதில்லை.
+## மாற்றங்கள்
+கொள்கை மாறினால் இங்கே தேதியுடன் பதிப்பிக்கப்படும். கடைசி புதுப்பிப்பு: 6 செப்டம்பர் 2026.`},
+terms:{t:'விதிமுறைகள் & நிபந்தனைகள்',b:`துலாமுள்-ஐப் பயன்படுத்துவதன் மூலம் இந்த விதிமுறைகளை ஏற்கிறீர்கள்.
+## சேவை
+துலாமுள் ஒரு AI-ஆல் எழுதப்படும் தமிழ் டிஜிட்டல் நாளிதழ். செய்திகள் பொது மூலங்களிலிருந்து சுருக்கப்பட்டு, மூலம் குறிப்பிடப்பட்டு வழங்கப்படுகின்றன. சேவை "உள்ளபடி" வழங்கப்படுகிறது; தடையற்ற அல்லது பிழையற்ற சேவை உத்தரவாதம் இல்லை.
+## உள்ளடக்க உரிமை
+துலாமுள் உருவாக்கும் உரை, ஆடியோ, கேலிச்சித்திரம், வடிவமைப்பு — முத்தமிழ் கலைக்கூடத்தின் உரிமை. தனிப்பட்ட, வணிகமற்ற வாசிப்புக்கு மட்டும்; மறுபதிப்பு, நகலெடுப்பு, தானியங்கி scraping — எழுத்துப்பூர்வ அனுமதியின்றி அனுமதிக்கப்படாது. மூலச் செய்திகளின் உரிமை அந்தந்த வெளியீட்டாளர்களுடையது.
+## பயனர் பொறுப்பு
+சேவையைச் சட்டவிரோதமாகவோ, மற்றவர்களைத் துன்புறுத்தவோ, தவறான தகவல் பரப்பவோ பயன்படுத்தக்கூடாது. விளம்பரப் பதிவில் தரும் உள்ளடக்கத்திற்கான முழுப் பொறுப்பும் விளம்பரதாரருடையது.
+## பொறுப்பு வரம்பு
+செய்தி, ராசிபலன், மனு உதவி, வானிலை — எதையும் அடிப்படையாகக் கொண்டு எடுக்கும் முடிவுகளுக்கு துலாமுள் பொறுப்பல்ல. சட்டம் அனுமதிக்கும் அளவுக்கு, எந்த நேரடி அல்லது மறைமுக இழப்புக்கும் பொறுப்பேற்பதில்லை.
+## சட்ட அதிகார வரம்பு
+இந்த விதிமுறைகள் இந்தியச் சட்டங்களுக்கு உட்பட்டவை; சென்னை நீதிமன்றங்களின் அதிகார வரம்பு.
+## மாற்றங்கள்
+விதிமுறைகள் மாறலாம்; தொடர்ந்து பயன்படுத்துவது ஏற்பாகக் கருதப்படும். கடைசி புதுப்பிப்பு: 6 செப்டம்பர் 2026.`},
+editorial:{t:'ஆசிரியக் கொள்கை',b:`## நடுநிலை
+துலாமுள் = தராசின் முள். எந்தத் தரப்புக்கும் சாயாது. கருத்து, விமர்சனம், உணர்ச்சிச் சொற்கள் செய்தியில் இடம்பெறாது. இரு தரப்பு இருந்தால் இரண்டும் சம எடையில்.
+## AI எழுதுகிறது
+ஒவ்வொரு செய்தியும் AI-ஆல் (Anthropic Claude) பொது மூலங்களிலிருந்து 5 வரிகளில் எழுதப்படுகிறது; ஒரு வார்த்தையும் மூலத்திலிருந்து அப்படியே எடுக்கப்படுவதில்லை; மூலத்தில் இல்லாத எண், பெயர், தேதி சேர்க்கப்படுவதில்லை.
+## மூலம்
+ஒவ்வொரு செய்தியின் கீழும் மூலம் குறிப்பிடப்படும் — அரசு/முகமை மூலங்கள் பெயருடன்; ஊடக மூலங்கள் "ஊடகச் செய்திகள்" என்று, தொட்டால் பெயர்களுடன். அரசு அறிவிப்புகள், நீதிமன்றத் தீர்ப்புகள், முகமைச் செய்திகள் — இவை முதல் தேர்வு; ஊடக அறிக்கைகள் இரண்டாம் நிலை (இரு மூலங்கள் ஒத்தால் மட்டும்).
+## மனிதச் சரிபார்ப்பு
+தனிநபர் மீதான குற்றச்சாட்டு, மத/சாதி/வன்முறை தொடர்பு, மூலங்களுக்கிடையே எண் முரண் — இவை ஆசிரியரின் ஒப்புதலின்றி வெளியிடப்படாது.
+## தலையங்கம்
+"தராசில் இன்று" — AI ஆசிரியர் இரு தரப்பையும் சம எடையில் வைத்து, தீர்ப்பு சொல்லாமல், ஒரு கேள்வியில் முடிக்கும். "ஆசிரியர் குறிப்பு" — மனித ஆசிரியர் எழுதுவது, பெயருடன்.
+## கேலிச்சித்திரம்
+AI-ஆல் உருவாக்கப்படுகிறது; உண்மையான நபர்களின் முகங்கள் இல்லை; நிலைமையைச் சித்தரிக்கும், நபர்களை அல்ல. "AI கேலிச்சித்திரம்" என்று குறிக்கப்படும்.
+## விளம்பரம்
+விளம்பரம் பக்கம் 17-ல் மட்டும், "விளம்பரம்" என்று தெளிவாகக் குறித்து. செய்திக்கும் விளம்பரத்திற்கும் எந்தத் தொடர்பும் இல்லை.`},
+corrections:{t:'திருத்தக் கொள்கை',b:`AI எழுதும் செய்தியில் தவறு நேரலாம். துலாமுள் தவறை மறைக்காது.
+## தவறு தெரிவிக்க
+குறைதீர் அதிகாரி மின்னஞ்சல் அல்லது WhatsApp — செய்தியின் தலைப்பு, தேதி, தவறு என்ன, சரியான தகவலின் மூலம்.
+## நடைமுறை
+• 24 மணி நேரத்தில் ஒப்புகை.
+• உண்மைப் பிழை உறுதியானால் 48 மணி நேரத்தில் திருத்தம் — செய்தியின் கீழே "திருத்தம்: [தேதி] — என்ன மாற்றப்பட்டது" என்ற குறிப்புடன். திருத்தம் மறைக்கப்படாது.
+• பெரிய பிழை (தலைப்பே தவறு) — செய்தி திரும்பப் பெறப்பட்டு, அதே இடத்தில் திரும்பப் பெற்றதன் காரணம் குறிக்கப்படும்.
+• மூலமே தவறாக இருந்தால் — அதுவும் குறிப்பிடப்படும்.
+## பழைய இதழ்கள்
+காப்பகத்தில் உள்ள இதழ்களிலும் திருத்தக் குறிப்பு சேர்க்கப்படும்; அசல் நீக்கப்படாது.`},
+grievance:{t:'குறைதீர் அதிகாரி',b:`Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021-ன்படி:
+## குறைதீர் அதிகாரி
+பெயர்: ல. ராஜ்குமார் (ஆசிரியர்)
+நிறுவனம்: முத்தமிழ் கலைக்கூடம், அசோக் நகர், சென்னை
+மின்னஞ்சல்: ${AD_MAIL}
+WhatsApp: +${AD_WA}
+## காலக்கெடு
+• புகார் பெற்ற 24 மணி நேரத்தில் ஒப்புகை.
+• 15 நாட்களுக்குள் தீர்வு / பதில்.
+## என்ன புகார் செய்யலாம்
+தவறான செய்தி, அவதூறு, தனியுரிமை மீறல், காப்புரிமை, விளம்பர உள்ளடக்கம், ஆபாசம் — எதுவும்.
+## மேல்முறையீடு
+தீர்வு திருப்தியில்லை என்றால் Rules 2021-ன் Level II (சுய ஒழுங்குமுறை அமைப்பு) மற்றும் Level III (மத்திய அரசு மேற்பார்வை) வழிகள் உங்களுக்கு உண்டு.`},
+disclaimer:{t:'மறுப்பறிக்கை',b:`## ராசிபலன் · பஞ்சாங்கம்
+சந்திர கோசாரம், தாராபலம் அடிப்படையிலான பொதுப் பலன் — கணிதம் Swiss Ephemeris (லாஹிரி அயனாம்சம்). இது தனிநபர் ஜாதக ஆலோசனை அல்ல; மருத்துவ, நிதி, திருமண, வாழ்க்கை முடிவுகளுக்கு இதை மட்டும் அடிப்படையாக்க வேண்டாம்; தகுந்த ஜோதிடரை அணுகவும். அறிவியல் ரீதியாக நிரூபிக்கப்பட்டதல்ல; பாரம்பரிய நம்பிக்கை அடிப்படையிலானது.
+## மனு உதவி
+பொது சட்டத் தகவலும் மனு வரைவு உதவியும் மட்டுமே; வழக்கறிஞர் ஆலோசனைக்குப் பதிலாகாது. மனுவை நீங்களே அனுப்புகிறீர்கள்; துலாமுள் உங்கள் சார்பாக எந்த அதிகாரியிடமும் மனு அளிப்பதில்லை. தீவிர வழக்குகளுக்கு மாவட்ட சட்ட சேவை ஆணையம் (இலவச சட்ட உதவி) அல்லது வழக்கறிஞரை அணுகவும்.
+## விளம்பரம்
+விளம்பரங்களின் கூற்றுகளுக்கு விளம்பரதாரரே பொறுப்பு. துலாமுள் ASCI விதிகளின்படி சரிபார்க்கிறது; ஆனால் தயாரிப்பு/சேவையை உத்தரவாதப்படுத்துவதில்லை. விளம்பரதாரருடன் பணப் பரிவர்த்தனை செய்யும் முன் நீங்களே சரிபார்க்கவும்.
+## வானிலை · வேலை அறிவிப்பு
+வானிலை Open-Meteo கணிப்பு; திட்டமிடலுக்கு IMD அறிவிப்பைப் பார்க்கவும். வேலை அறிவிப்புகள் பொது மூலங்களின் தொகுப்பு; விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பைச் சரிபார்க்கவும்; பணம் கேட்கும் எந்த அறிவிப்பையும் துலாமுள் பரிந்துரைப்பதில்லை.`}
+};
+function renderLegal(k){const L=LEGAL[k]||LEGAL.privacy;const html=L.b.split(/\n/).map(l=>l.startsWith('## ')?`<h2 style="font-size:15px;margin:16px 0 6px">${esc(l.slice(3))}</h2>`:`<p class="mp" style="margin-top:6px">${esc(l)}</p>`).join('');
+  $('#s-legal').innerHTML=`<div class="topbar"><a class="icon" href="#me"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></a><span class="small muted">துலாமுள் · கொள்கை</span></div><div class="pad"><h1 style="font-size:22px">${esc(L.t)}</h1>${html}<div class="note">முத்தமிழ் கலைக்கூடம் · துலாமுள் · கடைசி புதுப்பிப்பு 6 செப்டம்பர் 2026</div><div style="height:30px"></div></div>`;}
 function renderArchive(){
   fetch(BASE+'data/issues/index.json'+q).then(r=>r.json()).then(list=>{
     if(!list.length)throw 0;const have={};list.forEach(x=>have[x.date]=x.count);
@@ -449,7 +557,7 @@ function renderArchive(){
     $('#arc-list').innerHTML=months.map(m=>{const [y,mo]=m.split('-').map(Number);const first=new Date(y,mo-1,1);const days=new Date(y,mo,0).getDate();
       let cells=Array(first.getDay()).fill('<i></i>');
       for(let d=1;d<=days;d++){const key=`${m}-${String(d).padStart(2,'0')}`;cells.push(have[key]?`<a href="#issue/${key}" class="on"><b>${d}</b><small>${have[key]}</small></a>`:`<i><b>${d}</b></i>`);}
-      return `<div class="month"><div class="mname">${first.toLocaleDateString('ta-IN',{month:'long',year:'numeric'})}</div><div class="cal">${DN.map(x=>`<em>${x}</em>`).join('')}${cells.join('')}</div></div>`;}).join('')+'<div class="note">பித்தளை நிற தேதிகளில் இதழ் உள்ளது · எண் = அன்றைய செய்திகள் · 90 நாள் காப்பகம்</div>';
+      return `<div class="month"><div class="mname">${first.toLocaleDateString('ta-IN',{month:'long',year:'numeric'})}</div><div class="cal">${DN.map(x=>`<em>${x}</em>`).join('')}${cells.join('')}</div></div>`;}).join('')+'<div class="note">பித்தளை நிற தேதிகளில் இதழ் உள்ளது · எண் = அன்றைய செய்திகள்</div>';
   }).catch(()=>{$('#arc-list').innerHTML='<div class="empty">காப்பகம் நாளை முதல் நிரம்பும் — ஒவ்வொரு நாளின் இதழும் இங்கே சேமிக்கப்படும்.</div>'});
 }
 let liveFeed=null;
@@ -461,7 +569,8 @@ function openIssue(date){
 document.addEventListener('DOMContentLoaded',()=>{
   const f=localStorage.getItem('font')||'m';document.body.classList.add('f-'+f);
   document.querySelectorAll('.seg span').forEach(x=>{x.classList.toggle('on',x.dataset.f===f);x.addEventListener('click',()=>{document.body.classList.remove('f-s','f-m','f-l');document.body.classList.add('f-'+x.dataset.f);localStorage.setItem('font',x.dataset.f);document.querySelectorAll('.seg span').forEach(y=>y.classList.toggle('on',y===x));});});
-  $('#ad-wa').href='https://wa.me/'+AD_WA;$('#ad-mail').href='mailto:'+AD_MAIL;
+  $('#ad-wa').href='https://wa.me/'+AD_WA;$('#ad-mail').href='mailto:'+AD_MAIL;$('#cy').textContent=new Date().getFullYear();
+
   $('#share-paper').addEventListener('click',()=>{const t='துலாமுள் — தமிழின் முதல் AI டிஜிட்டல் நாளிதழ். இன்றைய இதழ்: '+PAPER_URL;if(navigator.share)navigator.share({title:'துலாமுள்',text:t,url:PAPER_URL});else location.href='https://wa.me/?text='+encodeURIComponent(t);});
 });
 const ONE=new Audio();let oneId=null;
@@ -494,13 +603,13 @@ function renderDetail(id){
   el.innerHTML=`<div class="topbar"><a class="icon" href="#back"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></a><span class="small muted">30 நொடி${s.audio?' · கேட்கலாம்':''}</span><a class="icon" id="share"><svg viewBox="0 0 24 24"><path d="M4 12v7h16v-7M12 3v12M8 7l4-4 4 4"/></svg></a></div>
    ${img?`<span class="imgwrap"><img class="dph" src="${esc(img)}" alt="" onerror="this.parentElement.nextElementSibling&&this.parentElement.nextElementSibling.remove();this.parentElement.remove()"><span class="wm">துலாமுள்</span></span><div class="dcap">படம்: ${esc(s.image.credit)}</div>`:''}
    <div class="pad"><div class="small muted" style="margin-top:14px"><b class="brass" style="font-weight:500">${esc(s.topic_ta)}</b> · ${esc((s.entities||[])[0]||'')} · ${new Date(s.published_at).toLocaleDateString('ta-IN',{day:'numeric',month:'short',year:'numeric'})} ${hm(s.published_at)}</div>
-   <h1>${esc(s.headline)}</h1>
-   <div class="body5">${(s.lines||[]).map((l,i)=>`<p><span class="n">${TA[i]}</span>${esc(l)}</p>`).join('')}</div>
+   <h1>${esc(H(s))}</h1>
+   <div class="body5">${L(s).map((l,i)=>`<p><span class="n">${TA[i]}</span>${esc(l)}</p>`).join('')}</div>
    ${s.jobs?`<div class="jobs">${s.jobs.map(j=>`<a class="job" href="${esc(j.link||'#')}" target="_blank" rel="noopener"><div><b>${esc(j.org)}</b><span>${esc(j.post)}${j.count?' · '+esc(String(j.count))+' இடங்கள்':''}</span></div><div class="jr"><i>${esc(j.type||'')}</i>${j.last_date?`<small>கடைசி நாள் ${esc(j.last_date)}</small>`:''}</div></a>`).join('')}</div>`:''}
-   <div class="aware"><div class="at">${esc(s.closing)}</div>
+   <div class="aware"><div class="at">${esc(C(s))}</div>
      <div class="follow">${s.audio?`<audio controls preload="none" src="${BASE}${s.audio}"></audio>`:'<span>ஆடியோ விரைவில்</span>'}</div></div>
    <div class="srcline"><small>மூலம்</small>${srcHtml(s.sources||[])}<div class="muted">துலாமுள் செய்தி · AI எழுதியது · சரிபார்க்கப்பட்டது</div></div>
-   ${nxt?`<div class="next" data-id="${nxt.id}"><div class="small muted">அடுத்த செய்தி ↓</div><h2 style="font-size:16px;margin-top:4px">${esc(nxt.headline)}</h2></div>`:'<div style="height:30px"></div>'}</div>`;
+   ${nxt?`<div class="next" data-id="${nxt.id}"><div class="small muted">அடுத்த செய்தி ↓</div><h2 style="font-size:16px;margin-top:4px">${esc(H(nxt))}</h2></div>`:'<div style="height:30px"></div>'}</div>`;
   const n=el.querySelector('.next');if(n)n.addEventListener('click',()=>{go('#story/'+n.dataset.id)});
   el.querySelector('#share').addEventListener('click',()=>{const u=location.href;if(navigator.share)navigator.share({title:s.headline,text:s.headline+'\n'+(s.lines||[]).join(' '),url:u});else if(navigator.clipboard)navigator.clipboard.writeText(u)});
   el.scrollTop=0;
@@ -517,13 +626,14 @@ function route(hh){
   detail.classList.remove('on');
   document.querySelectorAll('.screen:not(#s-detail)').forEach(x=>x.classList.remove('on'));
   if(r==='issue'){document.querySelectorAll('.screen:not(#s-detail)').forEach(x=>x.classList.remove('on'));openIssue(arg);document.querySelectorAll('.nav a').forEach(a=>a.classList.toggle('on',a.dataset.n==='archive'));return;}
-  const map={home:'s-home',page:'s-home',topics:'s-topics',complaint:'s-complaint',edit:'s-home',me:'s-me',archive:'s-archive',adform:'s-adform'};
+  const map={home:'s-home',page:'s-home',topics:'s-topics',complaint:'s-complaint',edit:'s-home',me:'s-me',archive:'s-archive',adform:'s-adform',legal:'s-legal'};
   document.getElementById(map[r]||'s-home').classList.add('on');
-  const navKey={home:'home',page:'home',topics:'topics',complaint:'complaint',edit:'home',me:'me',archive:'archive'}[r]||'home';
+  const navKey={home:'home',page:'home',topics:'topics',complaint:'complaint',edit:'home',me:'me',archive:'archive',legal:'me',adform:'me'}[r]||'home';
   document.querySelectorAll('.nav a').forEach(a=>a.classList.toggle('on',a.dataset.n===navKey));
   if(r==='topics')renderTopics();
   if(r==='archive')renderArchive();
   if(r==='adform')renderAdForm();
+  if(r==='legal')renderLegal(arg);
   if((r==='home'||r==='page')&&liveFeed&&issueLabel){feed=liveFeed;issueLabel='';renderHome();}
   if(r==='page')gotoPage(arg,false);
   if(r==='edit')gotoPage('edit',false);
@@ -548,7 +658,7 @@ Promise.all([
   fetch(BASE+'data/malar.json'+q).then(r=>r.json()).catch(()=>null),
   fetch(BASE+'data/rasi.json'+q).then(r=>r.json()).catch(()=>null),
   fetch(BASE+'data/ai_editorial.json'+q).then(r=>r.json()).catch(()=>null),
-]).then(([f,b,w,e,a,m,rs,ai])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;aied=ai;renderHome();route(location.hash||'#home');});
+]).then(([f,b,w,e,a,m,rs,ai])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;aied=ai;renderHome();route(location.hash||'#home');localWeather();});
 </script>
 </body>
 </html>
