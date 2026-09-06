@@ -639,6 +639,7 @@ const PLAY='<svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg>',PAUSE='<
 let backTo='#home';
 
 // ================= மனு உதவி =================
+const DISTRICTS=['சென்னை','திருவள்ளூர்','காஞ்சிபுரம்','செங்கல்பட்டு','ராணிப்பேட்டை','வேலூர்','திருப்பத்தூர்','திருவண்ணாமலை','விழுப்புரம்','கள்ளக்குறிச்சி','கடலூர்','மயிலாடுதுறை','நாகப்பட்டினம்','திருவாரூர்','தஞ்சாவூர்','புதுக்கோட்டை','அரியலூர்','பெரம்பலூர்','திருச்சிராப்பள்ளி','கரூர்','நாமக்கல்','சேலம்','தர்மபுரி','கிருஷ்ணகிரி','ஈரோடு','நீலகிரி','கோயம்புத்தூர்','திருப்பூர்','திண்டுக்கல்','தேனி','மதுரை','சிவகங்கை','ராமநாதபுரம்','விருதுநகர்','தூத்துக்குடி','திருநெல்வேலி','தென்காசி','கன்னியாகுமரி','புதுச்சேரி'];
 let DEPTS=null, cuser=null, cstep=1, cdata={}, confirmationResult=null, myPets=[];
 fetch(BASE+'pipeline/departments.json?'+Math.floor(Date.now()/6e4)).then(r=>r.json()).then(d=>DEPTS=d).catch(()=>{});
 window.addEventListener('fb-ready',()=>{
@@ -692,7 +693,11 @@ function step1(){
    <div class="small" style="margin-top:8px;line-height:1.7">உங்கள் வார்த்தையில் சொல்லுங்கள் — தமிழ், தங்கிலீஷ், ஆங்கிலம். இடம், எத்தனை நாள், யாரிடம் ஏற்கனவே சொன்னீர்கள் என்று இருந்தால் மனு வலுவாக இருக்கும்.</div>
    <textarea id="c-text" placeholder="எங்க தெருவுல (காமராஜர் தெரு, அசோக் நகர்) 3 மாசமா 3 தெருவிளக்கு எரியல. 1913-ல சொன்னேன், நடவடிக்கை இல்ல.">${esc2(cdata.text||'')}</textarea>
    <label class="fl">உங்கள் பெயர்<input id="c-name" value="${esc2(cdata.name||'')}"></label>
-   <label class="fl">முகவரி / பகுதி<input id="c-addr" value="${esc2(cdata.addr||'')}" placeholder="தெரு, பகுதி, ஊர், மாவட்டம்"></label>
+   <label class="fl">வீட்டு எண் / தெரு<input id="c-street" value="${esc2(cdata.street||'')}" placeholder="5, முதல் தெரு"></label>
+   <div class="row2"><label class="fl">பகுதி<input id="c-locality" value="${esc2(cdata.locality||'')}" placeholder="வேளச்சேரி"></label>
+   <label class="fl">ஊர் / நகரம்<input id="c-city" value="${esc2(cdata.city||'')}" placeholder="சென்னை"></label></div>
+   <div class="row2"><label class="fl">மாவட்டம்<select id="c-dist" class="chip" style="width:100%;font-size:15px;padding:12px">${DISTRICTS.map(d=>`<option ${d===cdata.dist?'selected':''}>${d}</option>`).join('')}</select></label>
+   <label class="fl">பின்கோடு<input id="c-pin" value="${esc2(cdata.pin||'')}" inputmode="numeric" maxlength="6" placeholder="600042"></label></div>
    <label class="fl">பகுதி வகை<select id="c-area" class="chip" style="width:100%;font-size:15px;padding:12px"><option value="urban">நகர்ப்புறம் (மாநகராட்சி/நகராட்சி)</option><option value="rural">ஊரகம் (ஊராட்சி)</option></select></label>
    <button class="btn" id="c-go">ஆராய்ந்து கூறு</button>
    <div class="small" id="c-msg" style="margin-top:10px"></div>
@@ -749,9 +754,13 @@ window.cstep=cstep; window.renderComplaint=renderComplaint;
 function wireComplaint(){
   const go=$('#c-go');
   if(go) go.addEventListener('click',async()=>{
-    cdata.text=$('#c-text').value.trim(); cdata.name=$('#c-name').value.trim(); cdata.addr=$('#c-addr').value.trim(); cdata.area=$('#c-area').value;
+    cdata.text=$('#c-text').value.trim(); cdata.name=$('#c-name').value.trim();
+    cdata.street=$('#c-street').value.trim(); cdata.locality=$('#c-locality').value.trim(); cdata.city=$('#c-city').value.trim();
+    cdata.dist=$('#c-dist').value; cdata.pin=$('#c-pin').value.trim(); cdata.area=$('#c-area').value;
+    cdata.addr=[cdata.street,cdata.locality,cdata.city,cdata.dist+' மாவட்டம்',cdata.pin].filter(Boolean).join(', ');
     if(cdata.text.length<15){$('#c-msg').textContent='பிரச்சனையைச் சற்று விரிவாக எழுதுங்கள்.';return;}
-    if(!cdata.name||!cdata.addr){$('#c-msg').textContent='பெயரும் முகவரியும் தேவை.';return;}
+    if(!cdata.name||!cdata.street||!cdata.locality||!cdata.city){$('#c-msg').textContent='பெயர், தெரு, பகுதி, ஊர் — நிரப்பவும்.';return;}
+    if(cdata.pin&&!/^\d{6}$/.test(cdata.pin)){$('#c-msg').textContent='பின்கோடு 6 இலக்கம்.';return;}
     go.disabled=true; $('#c-msg').textContent='அலசுகிறோம்…';
     try{ cdata.analysis=await analyse(cdata); }catch(e){ cdata.analysis=null; $('#c-msg').textContent='பிழை: '+(e.message||e); go.disabled=false; return; }
     if(!cdata.analysis){$('#c-msg').textContent='இப்போது அலச முடியவில்லை; சிறிது நேரம் கழித்து முயற்சிக்கவும்.';go.disabled=false;return;}
@@ -768,7 +777,7 @@ function wireComplaint(){
     }catch(e){ sv.disabled=false; alert('சேமிக்க முடியவில்லை: '+e.message); }
   });
 }
-const AI_URL="https://thulamul-ai.lrajkumar.workers.dev";
+const AI_URL="https://thulamul-ai.rajkumarpakkam.workers.dev";
 async function claude(system,user,max=2000){
   const r=await fetch(AI_URL,{method:"POST",headers:{"Content-Type":"application/json"},
     body:JSON.stringify({system,user,max_tokens:max})});
