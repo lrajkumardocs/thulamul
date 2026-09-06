@@ -259,10 +259,20 @@ async def _tts(text, out):
     await edge_tts.Communicate(text, TTS_VOICE, rate="-5%").save(str(out))
 
 TTS_STATE = {"edge_failed": 0}
+def speakable(text):
+    """ஆடியோவுக்கு உரையைச் சீரமை — நிறுத்தற்குறி, இடைவெளி, சுருக்கங்கள்."""
+    t = re.sub(r"\s+", " ", str(text or "")).strip()
+    t = t.replace("—", ", ").replace("–", ", ").replace("·", ", ").replace("|", ", ")
+    t = re.sub(r"\(([^)]{1,40})\)", r", \1,", t)          # அடைப்புக்குறி → இடைநிறுத்தம்
+    t = t.replace("₹", " ரூபாய் ").replace("%", " சதவீதம் ")
+    t = re.sub(r"([.!?])(?=\S)", r"\1 ", t)                # புள்ளிக்குப் பின் இடைவெளி
+    t = re.sub(r"([^.!?])$", r"\1.", t)                    # முடிவில் புள்ளி
+    t = re.sub(r"\s*([,.])\s*", r"\1 ", t)
+    return t.strip()
 def make_audio(story_id, script):
     out = AUDIO_DIR / f"{story_id}.mp3"
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
-    script = script[:2500]
+    script = speakable(script)[:2500]
     if TTS_STATE["edge_failed"] < 2:                       # Edge TTS — 2 முறை தோல்வி என்றால் இந்த ஓட்டத்தில் தவிர்
         try:
             asyncio.run(asyncio.wait_for(_tts(script, out), timeout=40))
@@ -411,7 +421,7 @@ def main():
         story["published_at"] = datetime.now(IST).isoformat(timespec="minutes")
         story["links"] = [i["link"] for i in c["items"]]
         story["image"] = pick_image(c)
-        story["audio"] = make_audio(sid, story["headline"] + ". " + " ".join(story["lines"]) + " " + story["closing"])
+        story["audio"] = make_audio(sid, ". ".join([story["headline"].rstrip(".")] + [l.rstrip(".") for l in story["lines"]] + [story["closing"].rstrip(".")]) + ".")
         story["created_ts"] = time.time()
 
         HOLD_FLAGS = {"defamation_risk", "communal", "numbers_conflict"}
@@ -479,7 +489,11 @@ def main():
         if malar.get("week") != week and (now.weekday() == 6 or not malar) and not api_dead:
             mon = now - timedelta(days=now.weekday()); dates = ", ".join((mon + timedelta(days=i)).strftime("%m-%d") for i in range(7))
             mp = (ROOT / "pipeline/prompts/malar.md").read_text(encoding="utf-8").replace("{{WEEK}}", week).replace("{{TODAY}}", today).replace("{{DATES}}", dates)
-            msg = client.messages.create(model=MODEL, max_tokens=6000, system=mp, messages=[{"role": "user", "content": "இந்த வாரத்தின் வாரமலரை எழுது."}])
+            wk_cut = (now - timedelta(days=7)).isoformat()
+            wk = [x for x in feed if x.get("published_at", "") > wk_cut and x.get("status") == "published"][:40]
+            wk_txt = "\n".join(f"[{x['topic_ta']}] {x['headline']}" for x in wk) or "(செய்திகள் இல்லை)"
+            msg = client.messages.create(model=MODEL, max_tokens=8000, system=mp,
+                messages=[{"role": "user", "content": "சென்ற வாரத்தின் செய்தித் தலைப்புகள்:\n" + wk_txt + "\n\nஇவற்றிலிருந்து 'சென்ற வார உலகம்' பகுதியை எழுது; மற்ற பகுதிகளை உன் அறிவிலிருந்து எழுது."}])
             raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
             m = parse_json(client, raw); m["week"] = week; m["generated"] = today
             if m.get("song", {}).get("text"):

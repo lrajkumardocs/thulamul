@@ -51,7 +51,7 @@ def add_caption(img_path, caption, date_str, out_path=None):
         if sig_png.exists():
             try:
                 sg = Image.open(sig_png).convert("RGBA")
-                tw = int(W * 0.18)
+                tw = int(W * 0.13)
                 sg = sg.resize((tw, max(1, int(sg.height * tw / sg.width))), Image.LANCZOS)
                 im.paste(sg, (W - margin - tw, im.height - margin - sg.height), sg)
             except Exception as ex:
