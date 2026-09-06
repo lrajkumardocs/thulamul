@@ -26,6 +26,7 @@ MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "12"))   # ஒரு ஓ
 TTS_VOICE = os.environ.get("TTS_VOICE", "ta-IN-PallaviNeural")   # Microsoft Edge இலவச தமிழ் குரல் (ஆண்: ta-IN-ValluvarNeural)
 AUTO_PUBLISH_MIN_CONFIDENCE = 0.3
 
+THIN = {"health", "agri", "jobs", "court", "spirit", "cinema", "sports", "tech"}   # தினமும் குறைந்தது 1 உறுதி
 TOPIC_TA = {"tn": "தமிழ்நாடு", "india": "இந்தியா", "world": "உலகம்", "economy": "பொருளாதாரம்",
             "tech": "தொழில்நுட்பம்", "sports": "விளையாட்டு", "cinema": "சினிமா", "spirit": "ஆன்மீகம்",
             "jobs": "வேலை · தேர்வு", "court": "நீதிமன்றம்", "assembly": "சட்டமன்றம்",
@@ -69,7 +70,8 @@ def fetch_all(sources, seen):
                 if iid in seen:
                     continue
                 pp = e.get("published_parsed") or e.get("updated_parsed")
-                if pp and (time.time() - time.mktime(pp)) > 36 * 3600:
+                maxage = 72 if src.get("topic") in THIN else 36
+                if pp and (time.time() - time.mktime(pp)) > maxage * 3600:
                     seen.add(iid); continue          # 36 மணிக்கு மேல் பழையது — தவிர்
                 text = clean_html(e.get("summary") or e.get("description") or "")
                 if hasattr(e, "content") and e.content:
@@ -255,6 +257,9 @@ def main():
     # 3–5. write / audio / publish
     t_start = time.time()
     written = 0
+    # தினசரி குறைந்தபட்சம்: இன்று 0 உள்ள துறைகளின் நிகழ்வுகளை முதலில் எழுது
+    today_topics = {x["topic"] for x in feed if x.get("published_at", "").startswith(today)}
+    clusters.sort(key=lambda c: 0 if (c["topic_hint"] in THIN and c["topic_hint"] not in today_topics) else 1)
     def mark_seen(c):
         for i in c["items"]:
             seen.add(i["id"])
@@ -309,6 +314,49 @@ def main():
                                         "headlines": [x["headline"] for x in top], "audio": audio})
         print("[brief] காலை brief தயார்")
 
+    # 5b1. இன்றைய வேலை அறிவிப்புகள் — தினமும் ஒரு தொகுப்பு (8:00-க்குப் பின், ஒரு முறை)
+    try:
+        jd = load_json(DATA / "jobs_digest.json", {})
+        if now.hour >= 8 and jd.get("date") != today:
+            raw_items = [i for i in fresh if i["topic_hint"] == "jobs"][:25]
+            if raw_items:
+                src_text = "\n\n".join(f"[{i['source']}] {i['title']}\n{i['text'][:600]}\n{i['link']}" for i in raw_items)
+                jp = ("நீ துலாமுள் நாளிதழின் வேலைவாய்ப்பு பக்க எழுத்தாளர். கீழே உள்ள மூலங்களிலிருந்து இன்றைய வேலை அறிவிப்புகளை JSON-ஆக மட்டும் தொகு: "
+                      '{"items":[{"org":"நிறுவனம்/துறை","post":"பதவி","count":"இடங்கள் அல்லது null","last_date":"YYYY-MM-DD அல்லது null","type":"அரசு|தனியார்","link":"url"}]} '
+                      "உண்மைகள் மட்டும்; மூலத்தில் இல்லாததைச் சேர்க்காதே; ஒரே அறிவிப்பு இரு முறை வேண்டாம்; அதிகபட்சம் 12. தமிழில் org/post.")
+                msg = client.messages.create(model=MODEL, max_tokens=3000, system=jp, messages=[{"role": "user", "content": src_text}])
+                rw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+                j = json.loads(rw[rw.find("{"):rw.rfind("}") + 1]); items = j.get("items", [])
+                if items:
+                    sid = "jobs_" + today.replace("-", "")
+                    story = {"id": sid, "headline": f"இன்றைய வேலை அறிவிப்புகள் — {len(items)} · அரசு & தனியார்",
+                             "lines": [f"{x['org']} — {x['post']}" + (f" ({x['count']} இடங்கள்)" if x.get("count") else "") + (f" · கடைசி நாள் {x['last_date']}" if x.get("last_date") else "") for x in items[:5]],
+                             "closing": "விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பை சரிபார்க்கவும்; துலாமுள் பணம் கேட்கும் எந்த அறிவிப்பையும் பட்டியலிடாது.",
+                             "closing_type": "watch", "sources": [{"name": i["source"], "doc": None, "date": today} for i in raw_items[:4]],
+                             "topic": "jobs", "topic_ta": TOPIC_TA["jobs"], "entities": [x["org"] for x in items[:4]], "confidence": 0.8, "flags": [],
+                             "jobs": items, "image": None, "status": "published", "published_at": datetime.now(IST).isoformat(timespec="minutes"), "created_ts": time.time()}
+                    story["audio"] = make_audio(sid, story["headline"] + ". " + " ".join(story["lines"]))
+                    feed.insert(0, story); save_json(DATA / "jobs_digest.json", {"date": today, "count": len(items)})
+                    print("[jobs] தொகுப்பு", len(items))
+    except Exception as ex:
+        print("[jobs] பிழை", ex)
+
+    # 5b2. வாரமலர் — ஞாயிறு (அல்லது இந்த வாரத்திற்கு இல்லையெனில்) ஒரு முறை
+    try:
+        week = now.strftime("%G-W%V")
+        malar = load_json(DATA / "malar.json", {})
+        if malar.get("week") != week and (now.weekday() == 6 or not malar):
+            mon = now - timedelta(days=now.weekday()); dates = ", ".join((mon + timedelta(days=i)).strftime("%m-%d") for i in range(7))
+            mp = (ROOT / "pipeline/prompts/malar.md").read_text(encoding="utf-8").replace("{{WEEK}}", week).replace("{{TODAY}}", today).replace("{{DATES}}", dates)
+            msg = client.messages.create(model=MODEL, max_tokens=6000, system=mp, messages=[{"role": "user", "content": "இந்த வாரத்தின் வாரமலரை எழுது."}])
+            raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+            m = json.loads(raw[raw.find("{"):raw.rfind("}") + 1]); m["week"] = week; m["generated"] = today
+            if m.get("song", {}).get("text"):
+                m["song"]["audio"] = make_audio(f"malar_{week}", m["song"]["text"] + ". பொருள்: " + m["song"].get("meaning", ""))
+            save_json(DATA / "malar.json", m); print("[malar] வாரமலர் தயார்", week)
+    except Exception as ex:
+        print("[malar] பிழை", ex)
+
     # 5c. வானிலை — open-meteo (இலவசம், key தேவையில்லை); சென்னை + 4 நகரங்கள்
     try:
         cities = {"சென்னை": (13.08, 80.27), "கோயம்புத்தூர்": (11.02, 76.97), "மதுரை": (9.93, 78.12),
@@ -335,6 +383,18 @@ def main():
     # துறை வாரியாக தனிக் கோப்புகள் (ஆப் வேகத்திற்கு)
     for t in TOPIC_TA:
         save_json(NEWS_DIR / f"{t}.json", [s for s in feed if s["topic"] == t][:60])
+    # இதழ் காப்பகம் — இன்றைய இதழ் தனிக் கோப்பாக (90 நாள்)
+    try:
+        ISSUES = DATA / "issues"; ISSUES.mkdir(parents=True, exist_ok=True)
+        todays = [x for x in feed if x.get("published_at", "").startswith(today)]
+        save_json(ISSUES / f"{today}.json", todays)
+        idx = sorted({f.stem for f in ISSUES.glob("20*.json")}, reverse=True)
+        for old_day in idx[90:]:
+            (ISSUES / f"{old_day}.json").unlink(missing_ok=True)
+        save_json(ISSUES / "index.json", [{"date": d0, "count": len(load_json(ISSUES / f"{d0}.json", []))} for d0 in idx[:90]])
+    except Exception as ex:
+        print("[issues] பிழை", ex)
+
     # பழைய ஆடியோ சுத்தம் (30 நாள்)
     cutoff = time.time() - 30 * 86400
     for f in AUDIO_DIR.glob("*.mp3"):

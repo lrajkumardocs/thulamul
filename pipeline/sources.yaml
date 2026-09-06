@@ -17,4 +17,30 @@
 - {name: Wired, url: "https://www.wired.com/feed/rss", topic: tech, grade: media}
 - {name: Employment News, url: "https://www.employmentnews.gov.in/rss.xml", topic: jobs, grade: official}
 - {name: The Hindu Faith, url: "https://www.thehindu.com/society/faith/feeder/default.rss", topic: spirit, grade: media}
+- {name: The Hindu Health, url: "https://www.thehindu.com/sci-tech/health/feeder/default.rss", topic: health, grade: media}
+- {name: PIB Health, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&MinistryId=31", topic: health, grade: official}
+- {name: The Hindu Agriculture, url: "https://www.thehindu.com/sci-tech/agriculture/feeder/default.rss", topic: agri, grade: media}
+- {name: PIB Agriculture, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&MinistryId=2", topic: agri, grade: official}
+- {name: TNPSC, url: "https://www.tnpsc.gov.in/rss.xml", topic: jobs, grade: official}
+- {name: TN Private Jobs, url: "https://tnprivatejobs.tn.gov.in/rss", topic: jobs, grade: official}
+- {name: FreeJobAlert, url: "https://www.freejobalert.com/feed/", topic: jobs, grade: media}
+- {name: Sarkari Result, url: "https://www.sarkariresult.com/feed", topic: jobs, grade: media}
+- {name: The Hindu Jobs, url: "https://www.thehindu.com/education/careers/feeder/default.rss", topic: jobs, grade: media}
+- {name: WHO News, url: "https://www.who.int/rss-feeds/news-english.xml", topic: health, grade: official}
+- {name: ICMR, url: "https://www.icmr.gov.in/rss.xml", topic: health, grade: official}
+- {name: Times Health, url: "https://timesofindia.indiatimes.com/rssfeeds/3908999.cms", topic: health, grade: media}
+- {name: Dinamani Health, url: "https://www.dinamani.com/api/v1/collections/health.rss", topic: health, grade: media}
+- {name: TNAU Agritech, url: "https://agritech.tnau.ac.in/rss.xml", topic: agri, grade: official}
+- {name: ICAR, url: "https://icar.org.in/rss.xml", topic: agri, grade: official}
+- {name: Dinamani Agri, url: "https://www.dinamani.com/api/v1/collections/agriculture.rss", topic: agri, grade: media}
+- {name: Krishi Jagran, url: "https://krishijagran.com/rss/", topic: agri, grade: media}
+- {name: Live Law, url: "https://www.livelaw.in/rss", topic: court, grade: media}
+- {name: Bar and Bench, url: "https://www.barandbench.com/feed", topic: court, grade: media}
+- {name: The Hindu Legal, url: "https://www.thehindu.com/news/national/feeder/default.rss", topic: india, grade: media}
+- {name: Dinamalar Aanmeegam, url: "https://www.dinamalar.com/rss/aanmeegam.xml", topic: spirit, grade: media}
+- {name: Dinamani Cinema, url: "https://www.dinamani.com/api/v1/collections/cinema.rss", topic: cinema, grade: media}
+- {name: Dinamani Sports, url: "https://www.dinamani.com/api/v1/collections/sports.rss", topic: sports, grade: media}
+- {name: Dinamani Tech, url: "https://www.dinamani.com/api/v1/collections/technology.rss", topic: tech, grade: media}
+- {name: TechCrunch, url: "https://techcrunch.com/feed/", topic: tech, grade: media}
+- {name: The Verge, url: "https://www.theverge.com/rss/index.xml", topic: tech, grade: media}
 # RSS முகவரிகள் மாறலாம் — முதல் ஓட்டத்தின் log பார்த்து சரிசெய்வோம். மூலம் சேர்ப்பது = ஒரு வரி.
