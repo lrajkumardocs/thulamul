@@ -503,7 +503,8 @@ function editHtml(){
 }
 function renderHome(){
   const paper=$('#paper');
-  paper.innerHTML=PAGES.map((k,i)=>`<div class="page" data-k="${k}">${pageHead(i,T[k]||'முதல் பக்கம்',k==='front')}${pageBody(k)}</div>`).join('');
+  paper.innerHTML=PAGES.map((k,i)=>{let body='';try{body=pageBody(k);}catch(err){console.error('page '+k,err);body='<div class="empty">இந்தப் பக்கத்தில் சிக்கல்.</div>';}
+    return `<div class="page" data-k="${k}">${pageHead(i,T[k]||'முதல் பக்கம்',k==='front')}${body}</div>`;}).join('');
   paper.querySelectorAll('[data-id]').forEach(x=>x.addEventListener('click',()=>{go('#story/'+x.dataset.id)}));
   const a=$('#baudio'),p=$('#bplay');if(a&&p){p.addEventListener('click',()=>{if(a.paused){a.play();p.innerHTML=PAUSE;}else{a.pause();p.innerHTML=PLAY;}});a.addEventListener('ended',()=>p.innerHTML=PLAY);}
 }
@@ -875,7 +876,10 @@ Promise.all([
   fetch(BASE+'data/malar.json'+q).then(r=>r.json()).catch(()=>null),
   fetch(BASE+'data/rasi.json'+q).then(r=>r.json()).catch(()=>null),
   fetch(BASE+'data/ai_editorial.json'+q).then(r=>r.json()).catch(()=>null),
-]).then(([f,b,w,e,a,m,rs,ai])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;aied=ai;renderHome();route(location.hash||'#home');localWeather();});
+]).then(([f,b,w,e,a,m,rs,ai])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;aied=ai;
+  try{renderHome();}catch(err){console.error('renderHome',err);const p=$('#paper');if(p)p.innerHTML='<div class="page"><div class="empty">ஏற்றுவதில் சிக்கல்: '+esc(err.message)+'</div></div>';}
+  try{route(location.hash||'#home');}catch(err){console.error('route',err);}
+  try{localWeather();}catch(err){}});
 </script>
 </body>
 </html>
