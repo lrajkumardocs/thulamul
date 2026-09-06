@@ -22,7 +22,8 @@ PENDING_FILE = DATA / "pending.json"      # flag ஆனவை — Telegram ஒ�
 
 IST = timezone(timedelta(hours=5, minutes=30))
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
-MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "12"))   # ஒரு ஓட்டத்தில் அதிகபட்சம் (செலவு கட்டுப்பாடு)
+MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "8"))    # ஒரு ஓட்டத்தில் அதிகபட்சம்
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "80"))         # ஒரு நாளில் அதிகபட்சம் (செலவு கட்டுப்பாடு)
 TTS_VOICE = os.environ.get("TTS_VOICE", "ta-IN-PallaviNeural")   # Microsoft Edge இலவச தமிழ் குரல் (ஆண்: ta-IN-ValluvarNeural)
 AUTO_PUBLISH_MIN_CONFIDENCE = 0.3
 
@@ -127,10 +128,10 @@ def eligible(c):
 # ---------------------------------------------------------------- 3. write (Claude)
 def write_news(client, prompt, c, today):
     src_text = "\n\n".join(
-        f"[மூலம் {n+1}: {i['source']} | {i['published']} | {i['link']}]\nதலைப்பு: {i['title']}\n{i['text']}"
-        for n, i in enumerate(c["items"][:4]))
+        f"[மூலம் {n+1}: {i['source']} | {i['published']} | {i['link']}]\nதலைப்பு: {i['title']}\n{i['text'][:1500]}"
+        for n, i in enumerate(c["items"][:3]))
     msg = client.messages.create(
-        model=MODEL, max_tokens=4000,
+        model=MODEL, max_tokens=2000,
         system=prompt.replace("{{TODAY}}", today),
         messages=[{"role": "user", "content": f"துறை குறிப்பு: {c['topic_hint']}\n\n{src_text}"}],
     )
@@ -263,8 +264,10 @@ def main():
     def mark_seen(c):
         for i in c["items"]:
             seen.add(i["id"])
+    day_count = state.get("day_count", {}).get(today, 0)
+    api_dead = False
     for c in clusters:
-        if written >= MAX_NEW_PER_RUN or time.time() - t_start > 15 * 60:
+        if api_dead or written >= MAX_NEW_PER_RUN or day_count + written >= MAX_PER_DAY or time.time() - t_start > 15 * 60:
             continue                      # அடுத்த ஓட்டத்தில் எடுக்கும்; seen-ல் சேர்க்காது
         ok, extra_flags = eligible(c)
         if not ok:
@@ -272,11 +275,18 @@ def main():
         try:
             story = write_news(client, prompt, c, today)
         except Exception as ex:
-            print("[claude] பிழை", ex); continue   # பிழை → அடுத்த ஓட்டத்தில் மீண்டும் முயற்சி
+            msg = str(ex); print("[claude] பிழை", msg[:200])
+            if "credit" in msg or "authentication" in msg or "401" in msg or "402" in msg:
+                api_dead = True
+                if state.get("alert_day") != today:
+                    telegram("⚠️ <b>துலாமுள் நின்றுவிட்டது</b>\nAnthropic credit தீர்ந்தது / key பிழை. console.anthropic.com → Billing → Add credits.")
+                    state["alert_day"] = today
+            continue   # பிழை → அடுத்த ஓட்டத்தில் மீண்டும் முயற்சி
         if not validate(story):
             print("[validate] தவறான வடிவம், தவிர்க்கப்பட்டது"); mark_seen(c); continue
         mark_seen(c)
         written += 1
+        state.setdefault("day_count", {})[today] = day_count + written
         sid = c["items"][0]["id"]
         story["id"] = sid
         story["flags"] = sorted(set(story.get("flags", []) + extra_flags))
@@ -317,7 +327,7 @@ def main():
     # 5b1. இன்றைய வேலை அறிவிப்புகள் — தினமும் ஒரு தொகுப்பு (8:00-க்குப் பின், ஒரு முறை)
     try:
         jd = load_json(DATA / "jobs_digest.json", {})
-        if now.hour >= 8 and jd.get("date") != today:
+        if now.hour >= 8 and jd.get("date") != today and not api_dead:
             raw_items = [i for i in fresh if i["topic_hint"] == "jobs"][:25]
             if raw_items:
                 src_text = "\n\n".join(f"[{i['source']}] {i['title']}\n{i['text'][:600]}\n{i['link']}" for i in raw_items)
@@ -345,7 +355,7 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if malar.get("week") != week and (now.weekday() == 6 or not malar):
+        if malar.get("week") != week and (now.weekday() == 6 or not malar) and not api_dead:
             mon = now - timedelta(days=now.weekday()); dates = ", ".join((mon + timedelta(days=i)).strftime("%m-%d") for i in range(7))
             mp = (ROOT / "pipeline/prompts/malar.md").read_text(encoding="utf-8").replace("{{WEEK}}", week).replace("{{TODAY}}", today).replace("{{DATES}}", dates)
             msg = client.messages.create(model=MODEL, max_tokens=6000, system=mp, messages=[{"role": "user", "content": "இந்த வாரத்தின் வாரமலரை எழுது."}])
@@ -379,6 +389,7 @@ def main():
     save_json(FEED_FILE, feed)
     save_json(PENDING_FILE, pending)
     state["seen"] = list(seen)[-5000:]
+    state["day_count"] = {k: v for k, v in state.get("day_count", {}).items() if k >= (now - timedelta(days=2)).strftime("%Y-%m-%d")}
     save_json(STATE_FILE, state)
     # துறை வாரியாக தனிக் கோப்புகள் (ஆப் வேகத்திற்கு)
     for t in TOPIC_TA:

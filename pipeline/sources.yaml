@@ -21,8 +21,6 @@
 - {name: PIB Health, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&MinistryId=31", topic: health, grade: official}
 - {name: The Hindu Agriculture, url: "https://www.thehindu.com/sci-tech/agriculture/feeder/default.rss", topic: agri, grade: media}
 - {name: PIB Agriculture, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&MinistryId=2", topic: agri, grade: official}
-- {name: TNPSC, url: "https://www.tnpsc.gov.in/rss.xml", topic: jobs, grade: official}
-- {name: TN Private Jobs, url: "https://tnprivatejobs.tn.gov.in/rss", topic: jobs, grade: official}
 - {name: FreeJobAlert, url: "https://www.freejobalert.com/feed/", topic: jobs, grade: media}
 - {name: Sarkari Result, url: "https://www.sarkariresult.com/feed", topic: jobs, grade: media}
 - {name: The Hindu Jobs, url: "https://www.thehindu.com/education/careers/feeder/default.rss", topic: jobs, grade: media}
