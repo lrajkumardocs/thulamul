@@ -694,8 +694,7 @@ function step1(){
    <textarea id="c-text" placeholder="எங்க தெருவுல (காமராஜர் தெரு, அசோக் நகர்) 3 மாசமா 3 தெருவிளக்கு எரியல. 1913-ல சொன்னேன், நடவடிக்கை இல்ல.">${esc2(cdata.text||'')}</textarea>
    <label class="fl">உங்கள் பெயர்<input id="c-name" value="${esc2(cdata.name||'')}"></label>
    <label class="fl">வீட்டு எண் / தெரு<input id="c-street" value="${esc2(cdata.street||'')}" placeholder="5, முதல் தெரு"></label>
-   <div class="row2"><label class="fl">பகுதி<input id="c-locality" value="${esc2(cdata.locality||'')}" placeholder="வேளச்சேரி"></label>
-   <label class="fl">ஊர் / நகரம்<input id="c-city" value="${esc2(cdata.city||'')}" placeholder="சென்னை"></label></div>
+   <label class="fl">பகுதி / ஊர்<input id="c-locality" value="${esc2(cdata.locality||'')}" placeholder="வேளச்சேரி"></label>
    <div class="row2"><label class="fl">மாவட்டம்<select id="c-dist" class="chip" style="width:100%;font-size:15px;padding:12px">${DISTRICTS.map(d=>`<option ${d===cdata.dist?'selected':''}>${d}</option>`).join('')}</select></label>
    <label class="fl">பின்கோடு<input id="c-pin" value="${esc2(cdata.pin||'')}" inputmode="numeric" maxlength="6" placeholder="600042"></label></div>
    <label class="fl">பகுதி வகை<select id="c-area" class="chip" style="width:100%;font-size:15px;padding:12px"><option value="urban">நகர்ப்புறம் (மாநகராட்சி/நகராட்சி)</option><option value="rural">ஊரகம் (ஊராட்சி)</option></select></label>
@@ -755,11 +754,11 @@ function wireComplaint(){
   const go=$('#c-go');
   if(go) go.addEventListener('click',async()=>{
     cdata.text=$('#c-text').value.trim(); cdata.name=$('#c-name').value.trim();
-    cdata.street=$('#c-street').value.trim(); cdata.locality=$('#c-locality').value.trim(); cdata.city=$('#c-city').value.trim();
+    cdata.street=$('#c-street').value.trim(); cdata.locality=$('#c-locality').value.trim();
     cdata.dist=$('#c-dist').value; cdata.pin=$('#c-pin').value.trim(); cdata.area=$('#c-area').value;
-    cdata.addr=[cdata.street,cdata.locality,cdata.city,cdata.dist+' மாவட்டம்',cdata.pin].filter(Boolean).join(', ');
+    cdata.addr=[cdata.street,cdata.locality,cdata.dist+' மாவட்டம்',cdata.pin].filter(Boolean).join(', ');
     if(cdata.text.length<15){$('#c-msg').textContent='பிரச்சனையைச் சற்று விரிவாக எழுதுங்கள்.';return;}
-    if(!cdata.name||!cdata.street||!cdata.locality||!cdata.city){$('#c-msg').textContent='பெயர், தெரு, பகுதி, ஊர் — நிரப்பவும்.';return;}
+    if(!cdata.name||!cdata.street||!cdata.locality){$('#c-msg').textContent='பெயர், தெரு, பகுதி — நிரப்பவும்.';return;}
     if(cdata.pin&&!/^\d{6}$/.test(cdata.pin)){$('#c-msg').textContent='பின்கோடு 6 இலக்கம்.';return;}
     go.disabled=true; $('#c-msg').textContent='அலசுகிறோம்…';
     try{ cdata.analysis=await analyse(cdata); }catch(e){ cdata.analysis=null; $('#c-msg').textContent='பிழை: '+(e.message||e); go.disabled=false; return; }
@@ -798,7 +797,7 @@ async function analyse(c){
     const urban=c.area!=='rural';
     return {cat_id:cat.id,category_ta:cat.ta,dept:urban?cat.dept_urban:cat.dept_rural,officer:urban?cat.officer_urban:cat.officer_rural,
             law:cat.law,portal:cat.portal,helpline:cat.helpline,days:cat.days,docs:cat.docs,summary:j.summary,missing:j.missing||[]};
-  }catch(e){ return null; }
+  }catch(e){ throw new Error('AI பதிலைப் படிக்க முடியவில்லை: '+String(raw).slice(0,80)); }
 }
 async function draft(c){
   const a=c.analysis;
