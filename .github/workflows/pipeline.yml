@@ -23,13 +23,15 @@ jobs:
       - name: Run pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CLAUDE_MODEL: claude-sonnet-5
           MAX_NEW_PER_RUN: "12"
+          PYTHONUNBUFFERED: "1"
         run: |
           mkdir -p data/audio data/news
-          python pipeline/run.py
+          python pipeline/run.py 2>&1 | tee data/lastrun.log
       - name: Commit data
         if: always()
         run: |
