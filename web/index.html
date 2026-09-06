@@ -700,7 +700,7 @@ function step1(){
    <button class="btn" id="c-go">ஆராய்ந்து கூறு</button>
    <div class="small" id="c-msg" style="margin-top:10px"></div>
    <div class="note">இது சட்ட ஆலோசனை அல்ல; மனு உதவி.</div>
-   <div class="rule"></div><a class="prow" href="#complaint" onclick="cstep=5"><span>என் மனுக்கள்</span><span class="brass">→</span></a></div>`;
+   <div class="rule"></div><a class="prow" href="#complaint" onclick="goStep(5)"><span>என் மனுக்கள்</span><span class="brass">→</span></a></div>`;
 }
 function step2(){
   const a=cdata.analysis||{};
@@ -740,7 +740,7 @@ async function loadPetitions(){
   try{
     const qs=await FB.getDocs(FB.query(FB.collection(FB.db,'petitions'),FB.where('uid','==',cuser.uid)));
     myPets=qs.docs.map(d=>({id:d.id,...d.data()})).sort((x,y)=>(y.created||'').localeCompare(x.created||''));
-    $('#c-body').innerHTML=`<div style="padding-top:14px"><div style="display:flex;justify-content:space-between;align-items:center"><h1 style="font-size:22px">என் மனுக்கள்</h1><a class="brass small" href="#complaint" onclick="cstep=1;renderComplaint()">+ புதிது</a></div>
+    $('#c-body').innerHTML=`<div style="padding-top:14px"><div style="display:flex;justify-content:space-between;align-items:center"><h1 style="font-size:22px">என் மனுக்கள்</h1><a class="brass small" href="#complaint" onclick="goStep(1)">+ புதிது</a></div>
      ${myPets.length?myPets.map(p=>`<div class="track"><div class="id">${esc2(p.ref||'பதிவு எண் இல்லை')} · ${esc2((p.analysis&&p.analysis.dept)||'')}</div><div class="t">${esc2((p.text||'').slice(0,70))}…</div>
       <div class="tl"><div class="done">${esc2((p.created||'').slice(0,10))} — மனு தயார்</div>${p.ref?`<div class="done">பதிவு செய்யப்பட்டது</div>`:''}<div class="now">${esc2(p.status||'பதில் காத்திருப்பு')}</div></div>
       <div class="row2" style="margin-top:10px"><button class="btn" style="padding:10px;font-size:13px;background:transparent;color:var(--ink);border:1px solid var(--rule)" onclick="setStatus('${p.id}','தீர்ந்தது')">தீர்ந்தது</button><button class="btn" style="padding:10px;font-size:13px;background:transparent;color:var(--ink);border:1px solid var(--rule)" onclick="setStatus('${p.id}','தீரவில்லை — மேல்முறையீடு')">தீரவில்லை</button></div></div>`).join(''):'<div class="empty">இன்னும் மனு இல்லை.</div>'}
@@ -748,7 +748,8 @@ async function loadPetitions(){
   }catch(e){ $('#c-body').innerHTML='<div class="empty">ஏற்ற முடியவில்லை.</div>'; }
 }
 window.setStatus=async(id,st)=>{ try{ await FB.updateDoc(FB.doc(FB.db,'petitions',id),{status:st}); loadPetitions(); }catch(e){} };
-window.cstep=cstep; window.renderComplaint=renderComplaint;
+window.renderComplaint=renderComplaint;
+window.goStep=n=>{cstep=n;renderComplaint();};
 function wireComplaint(){
   const go=$('#c-go');
   if(go) go.addEventListener('click',async()=>{
@@ -760,11 +761,15 @@ function wireComplaint(){
     if(!cdata.name||!cdata.street||!cdata.locality){$('#c-msg').textContent='பெயர், தெரு, பகுதி — நிரப்பவும்.';return;}
     if(cdata.pin&&!/^\d{6}$/.test(cdata.pin)){$('#c-msg').textContent='பின்கோடு 6 இலக்கம்.';return;}
     go.disabled=true; $('#c-msg').textContent='அலசுகிறோம்…';
-    try{ cdata.analysis=await analyse(cdata); }catch(e){ cdata.analysis=null; $('#c-msg').textContent='பிழை: '+(e.message||e); go.disabled=false; return; }
-    if(!cdata.analysis){$('#c-msg').textContent='இப்போது அலச முடியவில்லை; சிறிது நேரம் கழித்து முயற்சிக்கவும்.';go.disabled=false;return;}
-    cstep=2; renderComplaint();
+    try{
+      cdata.analysis=await analyse(cdata);
+      if(!cdata.analysis) throw new Error('அலச முடியவில்லை');
+      cstep=2; renderComplaint();
+    }catch(e){ $('#c-msg').textContent='பிழை: '+(e&&e.message?e.message:e); go.disabled=false; }
   });
-  const d=$('#c-draft'); if(d) d.addEventListener('click',async()=>{ d.disabled=true; d.textContent='எழுதுகிறோம்…'; cdata.letter=await draft(cdata); cstep=3; renderComplaint(); });
+  const d=$('#c-draft'); if(d) d.addEventListener('click',async()=>{ d.disabled=true; d.textContent='எழுதுகிறோம்…';
+    try{ cdata.letter=await draft(cdata); cstep=3; renderComplaint(); }
+    catch(e){ d.disabled=false; d.textContent='மனுவைத் தயாரிக்கவும்'; alert('பிழை: '+(e&&e.message?e.message:e)); } });
   const b1=$('#c-back1'); if(b1) b1.addEventListener('click',()=>{cstep=1;renderComplaint();});
   const cp=$('#c-copy'); if(cp) cp.addEventListener('click',()=>{navigator.clipboard&&navigator.clipboard.writeText($('#c-letter').value);cp.textContent='நகலெடுக்கப்பட்டது ✓';});
   const n3=$('#c-next3'); if(n3) n3.addEventListener('click',()=>{cdata.letter=$('#c-letter').value;cstep=4;renderComplaint();});
