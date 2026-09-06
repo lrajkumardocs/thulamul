@@ -1,5 +1,112 @@
 [
  {
+  "headline": "மத்திய மெக்சிகோவில் பட்டாசு விபத்தில் 10 பேர் பலி",
+  "lines": [
+   "மத்திய மெக்சிகோவில் ஒரு திருவிழாவின் போது பட்டாசு வெடித்து குறைந்தது 10 பேர் உயிரிழந்தனர்.",
+   "இந்த விபத்தில் 60 பேருக்கும் மேல் காயமடைந்ததாக உள்ளூர் அரசு தெரிவித்துள்ளது.",
+   "எரிந்து கொண்டிருந்த காளை உருவ சிலையால் இந்த வெடிப்பு ஏற்பட்டிருக்கலாம் என உள்ளூர் அதிகாரிகள் தெரிவித்தனர்.",
+   "திருவிழாவின் போது இதுபோன்ற பட்டாசு நிகழ்ச்சிகள் பொதுவாக நடத்தப்படும் வழக்கம் உள்ளது.",
+   "காயமடைந்தவர்களின் நிலை குறித்தும், விபத்துக்கான காரணம் குறித்தும் மேலும் விசாரணை நடைபெற்று வருகிறது."
+  ],
+  "closing": "இந்த விபத்திற்கான உறுதியான காரணம் விசாரணையின் முடிவில் மட்டுமே தெரியவரும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": "2026-09-06"
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "மெக்சிகோ",
+   "திருவிழா",
+   "பட்டாசு விபத்து",
+   "காளை சிலை"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "At Least 10 Killed in Central Mexico Fireworks Festival Blast",
+   "lines": [
+    "At least 10 people were killed in a fireworks blast during a festival in central Mexico.",
+    "Local government officials said more than 60 people were injured in the incident.",
+    "Authorities said the blast was apparently caused by a burning bull effigy at the event.",
+    "Such fireworks displays are reportedly a common practice during festivals in the region.",
+    "Investigations are ongoing into the exact cause of the blast and the condition of the injured."
+   ],
+   "closing": "The exact cause of the blast is expected to be confirmed only after investigations conclude."
+  },
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "bb083b1a68e8",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-09-07T03:42+05:30",
+  "links": [
+   "https://www.aljazeera.com/news/2026/9/6/at-least-10-killed-in-central-mexico-fireworks-blast-during-festival?traffic_source=rss"
+  ],
+  "image": null,
+  "audio": "data/audio/bb083b1a68e8.mp3",
+  "created_ts": 1788732756.63688,
+  "status": "published"
+ },
+ {
+  "headline": "நேபாள வெள்ளத்தில் 10% மின் உற்பத்தி திறன் பாதிப்பு",
+  "lines": [
+   "நேபாளத்தில் கடந்த வாரம் ஏற்பட்ட கடுமையான வெள்ளத்தால் நாட்டின் மின் உற்பத்தி திறனில் பெரும் பாதிப்பு ஏற்பட்டுள்ளது.",
+   "நாட்டின் மொத்த மின் உற்பத்தி திறனில் 10 சதவீதத்திற்கும் அதிகமான பகுதி இந்த வெள்ளத்தால் செயலிழந்ததாக தகவல்கள் தெரிவிக்கின்றன.",
+   "நேபாளம் தனது மின்சாரத் தேவைகளுக்கு பெரும்பாலும் நீர்மின் திட்டங்களையே நம்பியிருப்பதாக அறிக்கைகள் சுட்டிக்காட்டுகின்றன.",
+   "இந்த வெள்ளம் நீர்மின் சார்ந்த மின் உற்பத்தி முறையின் பலவீனங்களை மீண்டும் முன்னிலைப்படுத்தியுள்ளது.",
+   "பாதிக்கப்பட்ட மின் நிலையங்களை சீரமைக்கும் பணிகள் குறித்த தெளிவான காலஅட்டவணை இதுவரை வெளியிடப்படவில்லை."
+  ],
+  "closing": "நீர்மின் மீது கடும் சார்பு கொண்ட நேபாளத்திற்கு காலநிலை மாற்றத்தால் ஏற்படும் வெள்ளங்கள் எவ்வளவு அபாயகரமானவை என்பதை இந்த சம்பவம் மீண்டும் காட்டுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": "2026-09-05"
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "நேபாளம்",
+   "நீர்மின் திட்டங்கள்",
+   "வெள்ளம்",
+   "மின் உற்பத்தி"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Nepal floods knock out over 10% of hydropower capacity",
+   "lines": [
+    "Severe floods in Nepal last week caused major damage to the country's power generation capacity.",
+    "More than 10% of Nepal's total energy generation capacity was reportedly knocked out by the floods.",
+    "Reports point out that Nepal relies heavily on hydropower for most of its electricity needs.",
+    "The floods have once again highlighted the vulnerabilities of a power system dependent largely on hydropower.",
+    "No clear timeline has yet been announced for repairing the affected power plants."
+   ],
+   "closing": "The incident again shows how vulnerable Nepal, heavily reliant on hydropower, is to climate-driven floods."
+  },
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "d3ad7d37bf6c",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-09-07T03:41+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cy0zx368prno?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/490f/live/cf76c760-a864-11f1-aed2-8d6da8d75094.jpg",
+   "credit": "BBC World"
+  },
+  "audio": "data/audio/d3ad7d37bf6c.mp3",
+  "created_ts": 1788732691.730297,
+  "status": "published"
+ },
+ {
   "headline": "காலநிலை மாற்றத்தால் விமான பயணத்தில் அதிக இடையூறு எச்சரிக்கை",
   "lines": [
    "காலநிலை மாற்றத்தின் விளைவால் விமானப் பயணங்களில் இனிமேல் அதிக தாமதங்களும் திசைமாற்றங்களும் ஏற்படக்கூடும் என பிபிசி அறிக்கை தெரிவிக்கிறது.",
