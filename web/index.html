@@ -264,7 +264,7 @@
   <div class="pad">
     <div class="prow"><span>மொழி</span><span class="seg" id="langseg"><span data-l="ta">தமிழ்</span><span data-l="en">English</span></span></div>
     <div class="prow"><span>எழுத்து அளவு</span><span class="seg"><span data-f="s">சிறியது</span><span data-f="m" class="on">நடுத்தரம்</span><span data-f="l">பெரியது</span></span></div>
-    <div class="prow"><span>அறிவிப்புகள்</span><span class="small muted">பக்கங்களில் 🔔 · விரைவில்</span></div>
+    <div class="prow" id="notif-row" style="cursor:pointer"><span>அறிவிப்புகள்<br><span class="small muted">காலை brief + நீங்கள் 🔔 செய்த பக்கங்கள்</span></span><span class="brass" id="notif-state">→</span></div>
     <div class="prow" id="share-paper" style="cursor:pointer"><span>இன்றைய இதழை WhatsApp-ல் பகிர்</span><span class="brass">→</span></div>
     <div class="prow"><span>ஆப்பாக நிறுவு</span><span class="small muted">Share → Add to Home Screen</span></div>
     <div class="prow" style="cursor:pointer" onclick="go('#adform')"><span>விளம்பரம் செய்ய</span><span class="brass">→</span></div>
@@ -290,9 +290,10 @@
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
 import { getAuth, RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
-import { getFirestore, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
+import { getFirestore, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
+import { getMessaging, getToken, onMessage, isSupported } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-messaging.js";
 const fb = initializeApp({apiKey:"AIzaSyB3aUM0tQKByUaUg4jMGpHFDuVokkjFXg8",authDomain:"thulamul.firebaseapp.com",projectId:"thulamul",storageBucket:"thulamul.firebasestorage.app",messagingSenderId:"1075780759307",appId:"1:1075780759307:web:d10b25f39a1b54bc96fc0e"});
-window.FB = {auth:getAuth(fb), db:getFirestore(fb), RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, serverTimestamp};
+window.FB = {app:fb, auth:getAuth(fb), db:getFirestore(fb), RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, setDoc, serverTimestamp, getMessaging, getToken, onMessage, isSupported};
 window.dispatchEvent(new Event('fb-ready'));
 </script>
 <script>
@@ -372,7 +373,24 @@ function card(s,lead,onTopic){
 }
 function storiesHtml(items,empty,onTopic){return items.length?items.map((s,i)=>card(s,i===0,onTopic)).join(''):`<div class="empty">${empty}</div>`;}
 function bellHtml(k){const on=(localStorage.getItem('bell_'+k)==='1');return `<div class="bell ${on?'on':''}" data-bell="${k}"><svg viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0112 0v5l2 2H4zM10 20a2 2 0 004 0"/></svg><span>${on?'இந்தப் பக்கத்தின் அறிவிப்புகள் மட்டும் — on':'இந்தப் பக்கத்தின் செய்திகளை மட்டும் உடனுக்குடன் அறிய 🔔 தொடுங்கள்'}</span></div>`;}
-document.addEventListener('click',e=>{const b=e.target.closest('[data-bell]');if(!b)return;const k=b.dataset.bell;const on=localStorage.getItem('bell_'+k)==='1';localStorage.setItem('bell_'+k,on?'0':'1');b.classList.toggle('on',!on);b.querySelector('span').textContent=!on?'இந்தப் பக்கத்தின் அறிவிப்புகள் மட்டும் — on':'இந்தப் பக்கத்தின் செய்திகளை மட்டும் உடனுக்குடன் அறிய 🔔 தொடுங்கள்';});
+const VAPID="BFQRFZWOEFWiX2HhmxxjGgP8ZweQusgxfrQLQWKTDCfmg_leYbuLSFXY7-PeX7aV097prKJ0Gd8rubgSjVU50P8";
+let pushToken=null;
+async function ensurePush(){
+  if(pushToken) return pushToken;
+  if(!('serviceWorker' in navigator)||!window.FB||!(await FB.isSupported())) throw new Error('இந்த உலாவியில் அறிவிப்பு ஆதரவு இல்லை');
+  const perm=await Notification.requestPermission();
+  if(perm!=='granted') throw new Error('அறிவிப்பு அனுமதி மறுக்கப்பட்டது');
+  const reg=await navigator.serviceWorker.register('firebase-messaging-sw.js');
+  const m=FB.getMessaging(FB.app);
+  pushToken=await FB.getToken(m,{vapidKey:VAPID,serviceWorkerRegistration:reg});
+  FB.onMessage(m,p=>{const d=p.data||{};if(Notification.permission==='granted')new Notification(d.title||'துலாமுள்',{body:d.body||'',icon:'icon.svg'});});
+  return pushToken;
+}
+async function saveTopics(){
+  const topics=PAGES.filter(k=>localStorage.getItem('bell_'+k)==='1');
+  if(!pushToken) return;
+  try{ await FB.setDoc(FB.doc(FB.db,'push',pushToken),{token:pushToken,topics,lang:LANG,updated:new Date().toISOString()}); }catch(e){ console.log('push save',e.message); }
+}
 function pageBody(k){
   if(k==='front'){const p=pub();return (brief&&brief.audio?briefHtml():'')+storiesHtml(p.slice(0,12),'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot">இன்றைய இதழ் · இரவு 12:00-க்கு புதிய இதழ் · <a href="#archive" class="brass">பழைய இதழ்கள் →</a><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்<br><b>அடுத்த பக்கம்: தமிழ்நாடு</b></div>`;}
   if(k==='edit'){return editHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: பொருளாதாரம்</b></div>`;}
