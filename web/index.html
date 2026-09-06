@@ -358,7 +358,7 @@ function masthead(i){
   return `<div class="mh">
     <div class="mh-top">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ்</div>
     <div class="mh-row">
-      <div class="ear"><b>ஆண்டு ${yr}</b><span>இதழ் ${issue}</span><span>விலை இலவசம்</span></div>
+      <div class="ear"><b>ஆண்டு ${yr}</b><span>இதழ் ${issue}</span><span>விலை: இலவசம்</span></div>
       <div class="mh-center">
         <div class="emblem"><svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M50 24v56"/><path d="M36 82h28"/><path d="M18 34h64"/><path d="M50 14l-4 8h8z" fill="#A8862F" stroke="none"/><circle cx="50" cy="34" r="3.2" fill="#A8862F" stroke="none"/><path d="M18 34l-9 22M18 34l9 22"/><path d="M82 34l-9 22M82 34l9 22"/><path d="M6 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/><path d="M70 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/></svg></div>
         <div class="mh-name">துலாமுள்</div>
@@ -444,26 +444,37 @@ function rasiHtml(){
    <div class="note">ராகு காலம் ${esc(p.rahu)} · எமகண்டம் ${esc(p.yama)} · குளிகை ${esc(p.kuligai)}<br>கோசாரம்: குரு ${esc(p.gocharam.jupiter)} · சனி ${esc(p.gocharam.saturn)} · ராகு ${esc(p.gocharam.rahu)} · கேது ${esc(p.gocharam.ketu)}<br><span class="muted">சந்திர கோசாரம் + தாராபலம் அடிப்படையிலான பொதுப் பலன்; வாழ்க்கை முடிவுகளுக்கு ஜோதிடரை அணுகவும்.</span></div></div>`;
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-rasi]');if(!b)return;rasiSel=+b.dataset.rasi;localStorage.setItem('rasi',rasiSel);const pg=document.querySelector('.page[data-k="rasi"]');if(pg){const head=pg.querySelector('.phead').outerHTML;pg.innerHTML=head+rasiHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[PAGES.indexOf('rasi')+1]]}</b></div>`;}});
+let malarSel=localStorage.getItem('malarSel')||'world';
 function malarHtml(){
-  const m=malar;if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.<br>சென்ற வார உலகம் · வரலாறு · ஒரு சொல் · ஒரு பாடல் · கட்டுரை · உலக இலக்கியம் · எண் · அன்று–இன்று · பாட்டி வைத்தியம் · விடுகதை.</div>';
-  const sec=(id,t,b)=>`<div class="msec" id="m-${id}"><div class="mt">${t}</div>${b}</div>`;
-  const toc=[['world','சென்ற வார உலகம்'],['history','வரலாற்றில்'],['word','ஒரு சொல்'],['song','ஒரு பாடல்'],['essay','கட்டுரை'],['lit','உலக இலக்கியம்'],['num','வாரத்தின் எண்'],['then','அன்று–இன்று'],['remedy','பாட்டி வைத்தியம்'],['riddle','விடுகதை']];
-  let h=`<div class="pad"><div class="small muted" style="margin-top:12px">வாரம் ${esc(m.week||'')} · ஞாயிறு இணைப்பு</div>
-   <div class="chips" style="padding:12px 0 0">${toc.map(([id,t])=>`<span class="chip" onclick="const el=document.getElementById('m-${id}');const pg=document.querySelector('.page[data-k=&quot;malar&quot;]');if(el&&pg){pg.scrollTop=el.offsetTop-10;}">${t}</span>`).join('')}</div>`;
-  if(m.world&&m.world.items) h+=sec('world',esc(m.world.title||'சென்ற வார உலகம்'),m.world.items.map(x=>`<p class="mh1"><b>${esc(x.head)}</b><br>${esc(x.text)}</p>`).join(''));
-  h+=sec('history','இந்த வாரம் வரலாற்றில்',(m.history||[]).map(x=>`<p class="mh1"><b>${esc(x.year)}</b> ${esc(x.text)}</p>`).join(''));
-  if(m.word) h+=sec('word','வாரம் ஒரு தமிழ்ச் சொல்',`<h2 style="font-size:24px;margin-bottom:8px">${esc(m.word.word)}</h2><p class="mp"><b>வேர்:</b> ${esc(m.word.root)}</p><p class="mp"><b>பழைய பயன்பாடு:</b> ${esc(m.word.old)}</p><p class="mp"><b>இன்று:</b> ${esc(m.word.today)}</p>`);
-  if(m.song) h+=sec('song','ஒரு பாடல் · '+esc(m.song.source||'')+(m.song.ref?' · '+esc(m.song.ref):''),`<div class="song">${esc(m.song.text).split(/\n+/).map(l=>`<div>${l}</div>`).join('')}</div><p class="mp"><b>பொருள்:</b> ${esc(m.song.meaning)}</p>${m.song.why?`<p class="mp muted">${esc(m.song.why)}</p>`:''}${m.song.audio?`<audio controls preload="none" src="${BASE}${m.song.audio}" style="width:100%;height:32px;margin-top:8px"></audio>`:''}`);
-  h+=sec('essay','கட்டுரை',`<h2 style="font-size:20px;margin-bottom:8px">${esc(m.essay.title)}</h2><div class="edbody">${esc(m.essay.body).split(/\n+/).map(p=>`<p>${p}</p>`).join('')}</div>`);
-  const L=m.world_lit;
-  if(L) h+=sec('lit','உலக இலக்கியம்',`<p class="mp"><b>${esc(L.title)}</b> · ${esc(L.author)}${L.year?' · '+esc(L.year):''}${L.country?' · '+esc(L.country):''}</p>${L.line?`<div class="song">${esc(L.line)}</div>`:''}<p class="mp">${esc(L.intro)}</p>`);
-  if(m.number) h+=sec('num','வாரத்தின் எண்',`<div class="bignum"><b>${esc(m.number.value)}</b><span>${esc(m.number.label)}</span></div><p class="mp">${esc(m.number.text)}</p>`);
-  if(m.then_now) h+=sec('then','அன்று – இன்று',`<p class="mp"><b>${esc(m.then_now.topic)}</b></p><div class="cmp"><div><small>அன்று</small>${esc(m.then_now.then)}</div><div><small>இன்று</small>${esc(m.then_now.now)}</div></div>`);
-  if(m.remedy) h+=sec('remedy','பாட்டி வைத்தியம் · பாரம்பரிய உணவு',`<p class="mp"><b>${esc(m.remedy.title)}</b></p><p class="mp">${esc(m.remedy.text)}</p><div class="note">${esc(m.remedy.note||'மருத்துவரை அணுகுவது அவசியம்.')}</div>`);
-  if(m.riddle) h+=sec('riddle','விடுகதை',`<p class="mp">${esc(m.riddle.q)}</p><details class="med" style="margin-top:8px"><summary>விடை <span class="brass">பார்</span></summary><p class="mp">${esc(m.riddle.a)}</p></details>`);
-  if(m.wonder) h+=sec('wonder','ஆச்சரியம்',`<p class="mp">${esc(m.wonder.text)}</p>`);
-  return h+'</div>';
+  const m=malar;
+  if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
+  const T2=[['world','சென்ற வார உலகம்'],['history','இந்த வாரம் வரலாற்றில்'],['word','ஒரு தமிழ்ச் சொல்'],['song','ஒரு பாடல்'],['essay','கட்டுரை'],['lit','உலக இலக்கியம்'],['num','வாரத்தின் எண்'],['then','அன்று – இன்று'],['remedy','பாட்டி வைத்தியம்'],['riddle','விடுகதை'],['wonder','ஆச்சரியம்']];
+  const has={world:!!(m.world&&m.world.items),history:!!(m.history&&m.history.length),word:!!m.word,song:!!m.song,essay:!!m.essay,lit:!!m.world_lit,num:!!m.number,then:!!m.then_now,remedy:!!m.remedy,riddle:!!m.riddle,wonder:!!m.wonder};
+  const avail=T2.filter(([k])=>has[k]);
+  if(!avail.length)return '<div class="empty" style="padding-top:60px">வாரமலர் தயாராகிறது.</div>';
+  if(!has[malarSel]) malarSel=avail[0][0];
+  const cur=malarSel;
+  let body='';
+  if(cur==='world') body=m.world.items.map(x=>`<p class="mh1"><b>${esc(x.head)}</b><br>${esc(x.text)}</p>`).join('');
+  else if(cur==='history') body=(m.history||[]).map(x=>`<p class="mh1"><b>${esc(x.year)}</b> ${esc(x.text)}</p>`).join('');
+  else if(cur==='word') body=`<h2 style="font-size:26px;margin-bottom:10px">${esc(m.word.word)}</h2><p class="mp"><b>வேர்:</b> ${esc(m.word.root)}</p><p class="mp"><b>பழைய பயன்பாடு:</b> ${esc(m.word.old)}</p><p class="mp"><b>இன்று:</b> ${esc(m.word.today)}</p>`;
+  else if(cur==='song') body=`<div class="small muted" style="margin-bottom:8px">${esc(m.song.source||'')}${m.song.ref?' · '+esc(m.song.ref):''}</div><div class="song">${esc(m.song.text).split(/\n+/).map(l=>`<div>${l}</div>`).join('')}</div><p class="mp"><b>பொருள்:</b> ${esc(m.song.meaning)}</p>${m.song.why?`<p class="mp muted">${esc(m.song.why)}</p>`:''}${m.song.audio?`<audio controls preload="none" src="${BASE}${m.song.audio}" style="width:100%;height:32px;margin-top:8px"></audio>`:''}`;
+  else if(cur==='essay') body=`<h2 style="font-size:21px;margin-bottom:10px">${esc(m.essay.title)}</h2><div class="edbody">${esc(m.essay.body).split(/\n+/).map(x=>`<p>${x}</p>`).join('')}</div>`;
+  else if(cur==='lit'){const L=m.world_lit;body=`<p class="mp"><b>${esc(L.title)}</b> · ${esc(L.author)}${L.year?' · '+esc(L.year):''}${L.country?' · '+esc(L.country):''}</p>${L.line?`<div class="song">${esc(L.line)}</div>`:''}<p class="mp">${esc(L.intro)}</p>`;}
+  else if(cur==='num') body=`<div class="bignum"><b>${esc(m.number.value)}</b><span>${esc(m.number.label)}</span></div><p class="mp">${esc(m.number.text)}</p>`;
+  else if(cur==='then') body=`<p class="mp"><b>${esc(m.then_now.topic)}</b></p><div class="cmp"><div><small>அன்று</small>${esc(m.then_now.then)}</div><div><small>இன்று</small>${esc(m.then_now.now)}</div></div>`;
+  else if(cur==='remedy') body=`<p class="mp"><b>${esc(m.remedy.title)}</b></p><p class="mp">${esc(m.remedy.text)}</p><div class="note">${esc(m.remedy.note||'மருத்துவரை அணுகுவது அவசியம்.')}</div>`;
+  else if(cur==='riddle') body=`<p class="mp">${esc(m.riddle.q)}</p><details class="med" style="margin-top:10px"><summary>விடை <span class="brass">பார்</span></summary><p class="mp">${esc(m.riddle.a)}</p></details>`;
+  else if(cur==='wonder') body=`<p class="mp">${esc(m.wonder.text)}</p>`;
+  const title=(T2.find(([k])=>k===cur)||['',''])[1];
+  return `<div class="pad"><div class="small muted" style="margin-top:12px">வாரம் ${esc(m.week||'')} · ஞாயிறு இணைப்பு</div>
+   <div class="chips" style="padding:12px 0 2px">${avail.map(([k,t])=>`<span class="chip ${k===cur?'on':''}" data-malar="${k}">${t}</span>`).join('')}</div>
+   <div class="msec" style="border-top:1px solid var(--rule);margin-top:14px"><div class="mt">${esc(title)}</div>${body}</div></div>`;
 }
+document.addEventListener('click',e=>{const b=e.target.closest('[data-malar]');if(!b)return;
+  malarSel=b.dataset.malar;localStorage.setItem('malarSel',malarSel);
+  const pg=document.querySelector('.page[data-k="malar"]');
+  if(pg){const head=pg.querySelector('.phead').outerHTML;pg.innerHTML=head+malarHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[PAGES.indexOf('malar')+1]]||''}</b></div>`;pg.scrollTop=0;}});
 function adsHtml(){
   const live=ads.filter(adActive);const slots=[];
   for(let i=1;i<=AD_SLOTS;i++){const a=live.find(x=>+x.slot===i)||null;slots.push(a);}
