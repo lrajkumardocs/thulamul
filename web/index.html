@@ -103,9 +103,9 @@
   .phead .dots i.on{background:var(--brass)}
   .mh{padding:calc(8px + env(safe-area-inset-top)) 16px 6px;background:var(--paper);position:sticky;top:0;z-index:2;border-bottom:1px solid var(--rule)}
   .mh-top{text-align:center;font-size:10.5px;color:var(--brass);letter-spacing:.06em;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:4px 0}
-  .mh-row{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:12px 0 6px}
+  .mh-row{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:12px 0 10px}
   @media(max-width:400px){.ear{min-width:64px;font-size:9px;padding:5px 5px}.ear b{font-size:12px}}
-  .ear{min-width:72px;max-width:96px;font-size:10px;color:var(--ink2);line-height:1.6;border:1px solid var(--rule);padding:7px 8px;border-radius:3px;white-space:nowrap;text-align:center;flex:none}
+  .ear{min-width:72px;max-width:98px;font-size:10px;color:var(--ink2);line-height:1.7;border:1px solid var(--rule);padding:8px 9px 10px;border-radius:4px;white-space:nowrap;text-align:center;flex:none}
   .ear b{display:block;font-family:var(--serif);font-weight:500;font-size:14px;color:var(--ink);margin-bottom:1px}
   .ear span{display:block}
   .ear.r{text-align:center}
@@ -144,6 +144,7 @@
   .fl{display:block;margin-top:14px;font-size:12px;color:var(--ink2)}
   .fl input{display:block;width:100%;margin-top:6px;border:1px solid var(--rule);background:var(--paper2);border-radius:10px;padding:11px 12px;font-family:inherit;font-size:15px}
   .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media(max-width:420px){.row2{grid-template-columns:1fr}.slotgrid{grid-template-columns:repeat(2,1fr)}.rasigrid{grid-template-columns:repeat(3,1fr)}.adgrid{grid-template-columns:1fr}}
   .slotgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:8px 0 4px}
   .slot{border:1px solid var(--rule);border-radius:10px;padding:8px 4px;text-align:center;font-size:11px;background:var(--paper2);cursor:pointer}
   .slot input{display:none}.slot b{display:block;font-family:var(--serif);font-size:16px;font-weight:500}.slot span{color:var(--ink3);font-size:10px}
@@ -193,7 +194,9 @@
   .pan p{font-family:var(--text);font-size:13.5px;line-height:1.6;margin-bottom:8px;padding-left:10px;border-left:1px solid var(--rule)}
   .bell{display:flex;align-items:center;gap:10px;margin:10px 20px 0;padding:8px 12px;border:1px dashed var(--rule);border-radius:10px;font-size:11.5px;color:var(--ink2);cursor:pointer}
   .bell svg{width:18px;height:18px;stroke:var(--ink3);fill:none;stroke-width:1.5;flex:none}.bell.on{border-style:solid;border-color:var(--brass)}.bell.on svg{stroke:var(--brass)}
-  .steps{display:flex;gap:6px;padding:8px 0 0}
+  .cnav{display:flex;justify-content:space-between;align-items:center;padding:10px 0 4px}
+  .lnk{background:none;border:0;color:var(--brass);font-family:inherit;font-size:13px;cursor:pointer;padding:0}
+  .steps{display:flex;gap:6px;padding:6px 0 0}
   .steps i{flex:1;height:2px;background:var(--rule)}.steps i.on{background:var(--brass)}
   .kv{display:grid;gap:0;background:var(--paper2);border:1px solid var(--rule);border-radius:16px;overflow:hidden;margin-top:16px}
   .kv div{padding:14px 16px;border-bottom:1px solid var(--rule);font-size:13.5px}.kv div:last-child{border-bottom:0}
@@ -247,7 +250,7 @@
 </section>
 
 <section class="screen" id="s-complaint" style="height:calc(100vh - 64px);overflow-y:auto">
-  <div class="head"><div class="mast">மனு உதவி</div><span class="small muted" id="c-user"></span></div>
+  <div class="head"><div class="mast">மனு உதவி</div><span class="small muted" id="c-user" style="text-align:right"></span></div>
   <div class="pad" id="c-body"></div>
   <div id="recaptcha"></div>
 </section>
@@ -269,7 +272,7 @@
     <div class="prow"><span>மொழி</span><span class="seg" id="langseg"><span data-l="ta">தமிழ்</span><span data-l="en">English</span></span></div>
     <div class="prow"><span>எழுத்து அளவு</span><span class="seg"><span data-f="s">சிறியது</span><span data-f="m" class="on">நடுத்தரம்</span><span data-f="l">பெரியது</span></span></div>
     <div class="prow" id="notif-row" style="cursor:pointer"><span>அறிவிப்புகள்<br><span class="small muted">காலை brief + நீங்கள் 🔔 செய்த பக்கங்கள்</span></span><span class="brass" id="notif-state">→</span></div>
-    <div class="prow" id="share-paper" style="cursor:pointer"><span>இன்றைய இதழை WhatsApp-ல் பகிர்</span><span class="brass">→</span></div>
+    <div class="prow" id="share-paper" style="cursor:pointer"><span>இன்றைய இதழைப் பகிர்</span><span class="brass">→</span></div>
     <div class="prow"><span>ஆப்பாக நிறுவு</span><span class="small muted">Share → Add to Home Screen</span></div>
     <div class="prow" style="cursor:pointer" onclick="go('#adform')"><span>விளம்பரம் செய்ய</span><span class="brass">→</span></div>
     <a class="prow" href="#legal/privacy"><span>தனியுரிமைக் கொள்கை</span><span class="brass">→</span></a>
@@ -412,13 +415,13 @@ document.addEventListener('click',async e=>{
   catch(err){ sp.textContent='இயக்க முடியவில்லை: '+((err&&err.message)||err); }
 });
 function pageBody(k){
-  if(k==='front'){const p=pub();return (brief&&brief.audio?briefHtml():'')+storiesHtml(p.slice(0,12),'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot">இன்றைய இதழ் · இரவு 12:00-க்கு புதிய இதழ் · <a href="#archive" class="brass">பழைய இதழ்கள் →</a><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்<br><b>அடுத்த பக்கம்: தமிழ்நாடு</b></div>`;}
+  if(k==='front'){const p=pub();return (brief&&brief.audio?briefHtml():'')+storiesHtml(p.slice(0,12),'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: தமிழ்நாடு</b><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்</div>`;}
   if(k==='edit'){return editHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: பொருளாதாரம்</b></div>`;}
   if(k==='malar'){return malarHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: விளம்பரம்</b></div>`;}
   if(k==='ads'){return adsHtml()+`<div class="pad"><div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X<br><a href="https://thulamul.com">www.thulamul.com</a> · <a href="mailto:info@thulamul.com">info@thulamul.com</a><br><span class="muted">© ${new Date().getFullYear()} முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. All rights reserved.</span></div><div style="height:30px"></div></div>`;}
   if(k==='rasi'){const i=PAGES.indexOf(k);return rasiHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[i+1]]}</b></div>`;}
   const i=PAGES.indexOf(k);const nxt=PAGES[i+1];const items=pub().filter(s=>s.topic===k);
-  return bellHtml(k)+storiesHtml(items,'இந்தப் பக்கத்தில் இன்று செய்தி இல்லை.',true)+`<div class="pfoot">${nxt?`<b>அடுத்த பக்கம்: ${T[nxt]||'முதல் பக்கம்'}</b>`:'<b>கடைசிப் பக்கம்</b>'}</div>`;
+  return bellHtml(k)+storiesHtml(items,'இந்தப் பக்கத்தில் இன்று செய்தி இல்லை.',true)+`<div class="pfoot">${nxt?`<b>அடுத்த பக்கம்: ${T[nxt]||'முதல் பக்கம்'}</b><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்`:'<b>கடைசிப் பக்கம்</b>'}</div>`;
 }
 function indexHtml(){
   return `<div class="inside"><div class="t">உள்ளே</div><div class="grid">${PAGES.slice(1).map((k,i)=>`<a href="#page/${k}"><span>${T[k]}</span><b>${i+2}</b></a>`).join('')}</div></div>`;
@@ -519,7 +522,7 @@ function editHtml(){
   if(a&&a.title&&!a.hidden){
     const c=a.cartoon||{};
     h+=`<div class="pad"><div class="rule"></div><div class="small brass">தராசில் இன்று · ${esc(a.date)}</div><h1 style="font-size:24px;margin-top:6px">${esc(a.title)}</h1><div class="byline">${esc(a.author||'Mr. X')} · AI ஆசிரியர்</div>
-      ${c.image?`<span class="imgwrap" style="margin-top:14px"><img class="ph" style="height:auto;aspect-ratio:auto;object-fit:contain;background:var(--paper)" src="${BASE}${esc(c.image)}" alt="${esc(c.alt_ta||'')}" onerror="this.parentElement.remove()"><span class="wm">துலாமுள்</span></span><div class="cap" style="margin-top:6px"><span class="muted">AI கேலிச்சித்திரம் · Mr. X</span></div>`:''}
+      ${c.image?`<img class="ph" style="height:auto;aspect-ratio:auto;object-fit:contain;background:var(--paper);margin-top:14px" src="${BASE}${esc(c.image)}" alt="${esc(c.alt_ta||'')}" onerror="this.remove()"><div class="cap" style="margin-top:6px"><span class="muted">AI கேலிச்சித்திரம் · Mr. X</span></div>`:''}
       <p class="mp" style="margin-top:14px">${esc(a.issue)}</p>
       <div class="scales"><div class="pan"><div class="pl">${esc(a.side_a.label)}</div>${a.side_a.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div><div class="pan b"><div class="pl">${esc(a.side_b.label)}</div>${a.side_b.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div></div>
       ${a.history?`<p class="mp muted">${esc(a.history)}</p>`:''}
@@ -734,7 +737,7 @@ function wireLogin(){
     catch(e){ $('#auth-msg').textContent='OTP தவறு. மீண்டும் முயற்சிக்கவும்.'; }
   });
 }
-function cbar(n){return `<div class="steps">${[1,2,3,4].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</div>`;}
+function cbar(n){return `<div class="cnav">${n>1?`<button class="lnk" onclick="goStep(${n-1})">← திரும்பு</button>`:'<span></span>'}<span class="small muted">படி ${n} / 4</span></div><div class="steps">${[1,2,3,4].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</div>`;}
 function step1(){
   return cbar(1)+`<div style="padding-top:14px">
    <h1 style="font-size:22px">என்ன பிரச்சனை?</h1>
@@ -789,7 +792,7 @@ async function loadPetitions(){
   try{
     const qs=await FB.getDocs(FB.query(FB.collection(FB.db,'petitions'),FB.where('uid','==',cuser.uid)));
     myPets=qs.docs.map(d=>({id:d.id,...d.data()})).sort((x,y)=>(y.created||'').localeCompare(x.created||''));
-    $('#c-body').innerHTML=`<div style="padding-top:14px"><div style="display:flex;justify-content:space-between;align-items:center"><h1 style="font-size:22px">என் மனுக்கள்</h1><a class="brass small" href="#complaint" onclick="goStep(1)">+ புதிது</a></div>
+    $('#c-body').innerHTML=`<div style="padding-top:14px"><div class="cnav"><button class="lnk" onclick="goStep(1)">← திரும்பு</button><span></span></div><div style="display:flex;justify-content:space-between;align-items:center"><h1 style="font-size:22px">என் மனுக்கள்</h1><a class="brass small" href="#complaint" onclick="goStep(1)">+ புதிது</a></div>
      ${myPets.length?myPets.map(p=>`<div class="track"><div class="id">${esc2(p.ref||'பதிவு எண் இல்லை')} · ${esc2((p.analysis&&p.analysis.dept)||'')}</div><div class="t">${esc2((p.text||'').slice(0,70))}…</div>
       <div class="tl"><div class="done">${esc2((p.created||'').slice(0,10))} — மனு தயார்</div>${p.ref?`<div class="done">பதிவு செய்யப்பட்டது</div>`:''}<div class="now">${esc2(p.status||'பதில் காத்திருப்பு')}</div></div>
       <div class="row2" style="margin-top:10px"><button class="btn" style="padding:10px;font-size:13px;background:transparent;color:var(--ink);border:1px solid var(--rule)" onclick="setStatus('${p.id}','தீர்ந்தது')">தீர்ந்தது</button><button class="btn" style="padding:10px;font-size:13px;background:transparent;color:var(--ink);border:1px solid var(--rule)" onclick="setStatus('${p.id}','தீரவில்லை — மேல்முறையீடு')">தீரவில்லை</button></div></div>`).join(''):'<div class="empty">இன்னும் மனு இல்லை.</div>'}
