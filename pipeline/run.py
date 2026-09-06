@@ -126,8 +126,8 @@ def eligible(c):
     return True, ["single_source"]   # வெளியிடலாம், ஆனால் flag → Telegram ஒப்புதல்
 
 # ---------------------------------------------------------------- 3. write (Claude)
-def make_cartoon(scene_en, today):
-    """Gemini மூலம் கேலிச்சித்திரம். தோல்வி → None."""
+def make_cartoon(scene_en, today, caption=""):
+    """Gemini மூலம் கேலிச்சித்திரம் + கீழே தமிழ் வசனப் பட்டை. தோல்வி → None."""
     gk = os.environ.get("GEMINI_API_KEY")
     if not gk or not scene_en:
         print("[cartoon] key/scene இல்லை"); return None
@@ -143,6 +143,7 @@ def make_cartoon(scene_en, today):
         "standing quietly at the right edge of the frame, not participating, simply observing the scene with a level gaze.\n"
         "CONTENT RULES: satirise the situation, never a person or party; no real politicians, no identifiable public figures, no religious symbols, "
         "no violence, no caste or communal markers. Indian/Tamil Nadu setting, ordinary people.\n"
+        "COMPOSITION: keep the bottom-right corner of the frame visually quiet — no figures, no hatching, plain paper there — a small empty margin is reserved for the artist signature.\n"
         "SCENE: ")
     import base64
     for model in ("gemini-2.5-flash-image", "gemini-2.0-flash-preview-image-generation"):
@@ -159,6 +160,16 @@ def make_cartoon(scene_en, today):
                     (DATA / "cartoons").mkdir(parents=True, exist_ok=True)
                     fn = DATA / "cartoons" / f"{today}.png"
                     fn.write_bytes(base64.b64decode(data["data"]))
+                    if caption:
+                        try:
+                            import importlib, sys
+                            sys.path.insert(0, str(ROOT / "pipeline"))
+                            cap = importlib.import_module("caption")
+                            d = datetime.strptime(today, "%Y-%m-%d")
+                            TA_M = ["ஜனவரி","பிப்ரவரி","மார்ச்","ஏப்ரல்","மே","ஜூன்","ஜூலை","ஆகஸ்ட்","செப்டம்பர்","அக்டோபர்","நவம்பர்","டிசம்பர்"]
+                            cap.add_caption(fn, caption, f"{d.day} {TA_M[d.month-1]} {d.year}")
+                        except Exception as ex:
+                            print("[caption] பிழை", str(ex)[:100])
                     print(f"[cartoon] {model}: படம் தயார்")
                     return f"data/cartoons/{today}.png"
             print(f"[cartoon] {model}: படம் திரும்பவில்லை")
@@ -437,15 +448,15 @@ def main():
             ep = (ROOT / "pipeline/prompts/editorial.md").read_text(encoding="utf-8").replace("{{TODAY}}", today)
             msg = client.messages.create(model=MODEL, max_tokens=3000, system=ep, messages=[{"role": "user", "content": src}])
             raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
-            e = parse_json(client, raw); e["date"] = today; e["author"] = "துலாமுள் AI ஆசிரியர்"
+            e = parse_json(client, raw); e["date"] = today; e["author"] = "Mr. X"
             e["audio"] = make_audio(f"editorial_{today.replace('-', '')}", f"தராசில் இன்று. {e['title']}. {e['issue']} ஒரு தட்டு: {e['side_a']['label']}. " + " ".join(e["side_a"]["points"]) + f" மறு தட்டு: {e['side_b']['label']}. " + " ".join(e["side_b"]["points"]) + " " + e["question"])
-            e["cartoon"]["image"] = make_cartoon(e["cartoon"].get("scene_en", ""), today); e["cartoon_v"] = 2
+            e["cartoon"]["image"] = make_cartoon(e["cartoon"].get("scene_en", ""), today, e["cartoon"].get("caption_ta", "")); e["cartoon_v"] = 3
             save_json(DATA / "ai_editorial.json", e); print("[editorial] தராசில் இன்று:", e["title"])
             telegram(f"⚖️ <b>தராசில் இன்று</b> — {e['title']}\n{e['question']}\n\n🖼 {e['cartoon'].get('caption_ta','')}\n{'படம் தயார்' if e['cartoon'].get('image') else 'படம் இல்லை'}\n\nதவறு என்றால் <code>✘ editorial</code>")
-        elif ed.get("date") == today and (not ed.get("cartoon", {}).get("image") or ed.get("cartoon_v") != 2) and not api_dead:
-            img = make_cartoon(ed.get("cartoon", {}).get("scene_en", ""), today)   # படம் மட்டும் மீண்டும் முயற்சி
+        elif ed.get("date") == today and (not ed.get("cartoon", {}).get("image") or ed.get("cartoon_v") != 3) and not api_dead:
+            img = make_cartoon(ed.get("cartoon", {}).get("scene_en", ""), today, ed.get("cartoon", {}).get("caption_ta", ""))   # படம் மட்டும் மீண்டும்
             if img:
-                ed["cartoon"]["image"] = img; ed["cartoon_v"] = 2; save_json(DATA / "ai_editorial.json", ed); print("[cartoon] படம் தயார்")
+                ed["cartoon"]["image"] = img; ed["cartoon_v"] = 3; save_json(DATA / "ai_editorial.json", ed); print("[cartoon] படம் தயார்")
     except Exception as ex:
         print("[editorial] பிழை", str(ex)[:200])
 
