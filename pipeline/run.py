@@ -386,6 +386,19 @@ def main():
     except Exception as ex:
         print("[malar] பிழை", ex)
 
+    # 5b3. ராசிபலன் + பஞ்சாங்கம் — தினமும் ஒரு முறை (Claude தேவையில்லை)
+    try:
+        rs = load_json(DATA / "rasi.json", {})
+        if rs.get("date") != today:
+            import importlib, sys
+            sys.path.insert(0, str(ROOT / "pipeline")); rasi_mod = importlib.import_module("rasi")
+            rs = rasi_mod.build(now.date())
+            for r in rs["rasi"]:
+                r["audio"] = make_audio(f"rasi_{today.replace('-', '')}_{rs['rasi'].index(r)+1}", f"{r['rasi']} ராசி, இன்று. " + " ".join(r["lines"]))
+            save_json(DATA / "rasi.json", rs); print("[rasi] ராசிபலன் தயார்")
+    except Exception as ex:
+        print("[rasi] பிழை", ex)
+
     # 5c. வானிலை — open-meteo (இலவசம், key தேவையில்லை); சென்னை + 4 நகரங்கள்
     try:
         cities = {"சென்னை": (13.08, 80.27), "கோயம்புத்தூர்": (11.02, 76.97), "மதுரை": (9.93, 78.12),
