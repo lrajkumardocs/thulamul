@@ -228,7 +228,6 @@
   .wm{position:absolute;right:10px;bottom:8px;font-family:var(--serif);font-size:11px;color:rgba(243,242,238,.85);text-shadow:0 0 4px rgba(0,0,0,.6);pointer-events:none;letter-spacing:.04em}
   .imgwrap{position:relative;display:block}
   @media print{body{display:none}}
-  body.devtools *{filter:blur(6px)}
   .dim{opacity:.5}
 </style>
 </head>
@@ -838,7 +837,6 @@ const isField=t=>{try{return !!(t&&(t.tagName==='TEXTAREA'||t.tagName==='INPUT'|
 ['contextmenu','copy','cut','dragstart'].forEach(ev=>document.addEventListener(ev,e=>{if(isField(e.target)||isField(document.activeElement))return;e.preventDefault();}));
 document.addEventListener('selectstart',e=>{if(isField(e.target)||isField(document.activeElement))return;e.preventDefault();});
 document.addEventListener('keydown',e=>{const t=e.target;const inField=isField(t)||isField(document.activeElement);const k=e.key.toLowerCase();if((e.ctrlKey||e.metaKey)&&['c','s','p','u','a','x','v'].includes(k)&&!inField)e.preventDefault();if(e.key==='PrintScreen'){navigator.clipboard&&navigator.clipboard.writeText('துலாமுள் — thulamul.com');}});
-setInterval(()=>{const t=Date.now();debugger;if(Date.now()-t>100)document.body.classList.add('devtools');},1500);
 let curHash='#home';
 function go(h){curHash=h;let ok=false;try{if(location.hash!==h){location.hash=h;ok=true;}}catch(_){ok=false;}if(!ok)route(h);}
 document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;e.preventDefault();go(a.getAttribute('href'));});
