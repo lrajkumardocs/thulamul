@@ -1,7 +1,7 @@
 [fetch] PIB Tamil: 0 புதியவை
 [fetch] PIB English: 0 புதியவை
 [fetch] RBI: 0 புதியவை
-[fetch] ET Markets: 4 புதியவை
+[fetch] ET Markets: 5 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 21 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
@@ -9,10 +9,10 @@
 [fetch] BBC World: 24 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 14 புதியவை
-[fetch] The Hindu Sport: 24 புதியவை
-[fetch] The Hindu Cinema: 8 புதியவை
-[fetch] Cinema Express: 11 புதியவை
-[fetch] The Hindu Tech: 8 புதியவை
+[fetch] The Hindu Sport: 25 புதியவை
+[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] Cinema Express: 3 புதியவை
+[fetch] The Hindu Tech: 6 புதியவை
 [fetch] Wired: 8 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -32,51 +32,37 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 8 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 3 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[run] புதியவை 372 → நிகழ்வுகள் 346
-[claude] பிழை Expecting ',' delimiter: line 13 column 64 (char 1091)
-[claude] பிழை JSON இல்லை: ```json
-{
-  "headline": "மீனா குமாரியின் கடைசிப் படம் பாகீஜா புதுப்பிக்கப்பட்டு பிரான்ஸில் திரையிடலுக்கு தயார்",
-  "line
+[run] புதியவை 354 → நிகழ்வுகள் 331
+[tts-edge] a89f30ba9538: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] டெல்லியில் மொஹல்லா கிளினிக் ஊழியர்களுக்கு நிலுவைத் தொகை கிடைக்காமல் காத்திருப்பு
+[tts-edge] 9dbee0df5942: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வர்த்தக ஒப்பந்தங்களுக்கு எதிராக 10 லட்சம் தன்னார்வலர்களை திரட்ட விவசாய ஒன்றியம் திட்டம்
+[skip] இது ஒரு நீதிமன்றத் தீர்ப்பு அல்லது நடப்புச் செய்தி அல்ல; ஒப்
+[publish] JNCASR, IIT கான்பூர், NISER நிறுவனங்களில் காலியிடங்களுக்கு விண்ணப்பங்கள் வரவேற்பு
+[skip] இவை பீகார், கிருஸ்து ஜெயந்தி பல்கலைக்கழகம், காஷ்மீர் பல்கலைக
+[skip] இவை மத்தியப் பிரதேசம், தெலங்காணா, உத்தரப் பிரதேச மாநிலங்களில
+[publish] IIM கோழிக்கோடு, NIO, உ.பி. அங்கன்வாடியில் புதிய வேலை வாய்ப்புகள் அறிவிப்பு
+[skip] மூலங்களில் உண்மையான செய்தி விவரங்கள் இல்லை - இவை வெறும் 'நேர
+[publish] தமிழகத்தில் 2 மணி நேரத்தில் 20 மாவட்டங்களில் மழை; 6 நாட்கள் தொடர வாய்ப்பு
+[publish] உக்ரைன் பேச்சுவார்த்தை: புடினை சந்தித்த அமெரிக்க தூதர்கள் விட்காஃப், குஷ்னர்
+[publish] ஜெர்மனியில் தீவிர வலதுசாரி AfD கட்சி வரலாற்று வெற்றி நோக்கி நகர்வு
+[skip] இவை தலா ஒரு பதவிக்கான சிறிய walk-in வேலை அறிவிப்புகள் (IPC ப
+[skip] இது சத்தீஸ்கர் மற்றும் மத்தியப் பிரதேச மாநிலங்களுக்கான NEET 
+[skip] மூலங்களில் படத்தின் பெயர், கதை, இயக்குநர், வெளியீட்டு தேதி ப
+[publish] நிவின் பாலி நடித்த பெத்லகேம் குடும்ப யூனிட் தமிழில் 200+ திரைகளில் வெளியீடு
+[publish] ஆசிய கோப்பையில் பாகிஸ்தானை வீழ்த்தி இந்தியா அபார வெற்றி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] 069d2867e12a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ‘Dil Chahta Hai’ படத்திற்கு 25 ஆண்டுகள்: பாணி பற்றி பேசும் படக்குழு
-[claude] பிழை JSON இல்லை: ```json
-{
-  "headline": "கொலம்பிய இயக்குநர்கள் AI உதவியுடன் உருவாக்கிய 'தி எண்ட் ஆஃப் டைம்ஸ்' வெனிஸில் திரையிடல்",
-  "li
-[tts-edge] 7da71d6d23dd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆண்ட்ரூ கார்·ஃபீல்ட், கிளேர் ஃபாய் நடிப்பில் 'தி மேஜிக் ஃபேரவே டிரீ' திரைப்பட விமர்சனம் வெளியீடு
-[publish] நான்கு புதிய இயக்குநர்களுடன் 'லஸ்ட் ஸ்டோரீஸ் 3' வெளியீட்டு தேதி அறிவிப்பு
-[claude] பிழை Expecting ',' delimiter: line 13 column 61 (char 1038)
-[hold] GV பிரகாஷ் நடிப்பு Immortal படம் இரண்டாம் நாள் வசூலில் உயர்வு
-[publish] இளையராஜாவின் பின்னணி இசையுடன் Dorothy படத்தின் ஜூக்பாக்ஸ் வெளியீடு
-[publish] ஓம் படத்தில் மம்முட்டியின் கதாபாத்திர வெளிப்பாடு பிறந்தநாளில் வெளியாகும்
-[publish] ஷிவராஜ்குமார், அபிஷன் ஜீவின்த் படத்தில் யோகலக்ஷ்மி ஏஞ்சல் ஜெனிஃபராக நடிப்பு
-[publish] Bethlehem Kudumba Unit குழுவினரை பாராட்டி வாழ்த்து தெரிவித்த கமல் ஹாசன்
-[claude] பிழை JSON இல்லை: {
-  "headline": "நயன்தாரா, விக்னேஷ் சிவன் இரவு உணவில் பிவி சிந்துவுடன் இணைந்தனர்",
-  "lines": [
-    "நடிகை நயன்தாரா மற்ற
-[publish] GOAT படத்தின் ஆண்டு நிறைவில் விஜயின் அரசியல் தொடர்பை காட்டும் வீடியோ
-[claude] பிழை JSON இல்லை: ```json
-{
-  "headline": "\"4 Idiots\" திரைப்படம் குறித்து Cinema Express விமர்சனம் வெளியானது",
-  "lines": [
-    "\"4 Idi
-[claude] பிழை JSON இல்லை: 
-[publish] மண்டாடி படத்தின் ட்ரெய்லர் வெளியீடு; சூரி, சுஹாஸ் நடிப்பு
-[publish] கல்வி முறையின் குறைபாடுகள் பற்றி சுகதா மித்ரா நேர்காணல் வெளியீடு
-[claude] பிழை Expecting ',' delimiter: line 13 column 66 (char 1030)
-[publish] டிஜிட்டல் அரெஸ்ட் மோசடி: 20 மாநிலங்களில் 89 இடங்களில் சிபிஐ சோதனை
-[malar] வாரமலர் தயார் 2026-W36
+[publish] லார்ஜ்கேப் பங்குகள் தற்போது சிறந்த தேர்வு என பிராங்க்ளின் டெம்பிள்டன் நிபுணர் கருத்து
+[publish] கச்சா எண்ணெய் விலை 100 டாலர் நோக்கி பாய்ச்சல்: அமெரிக்கா-ஈரான் பதற்றமே காரணம்
+[skip] இது பங்கு சந்தையின் வழக்கமான ex-dividend தேதிகளின் பட்டியல் 
+[publish] ஆண்ட்ரோபிக் IPO நவம்பர் மாதத்திற்கு தள்ளிவைப்பு, மதிப்பு 2 லட்சம் கோடி டாலர்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 63 · pending 1 · எழுதியவை 12
+[done] feed 75 · pending 1 · எழுதியவை 12
