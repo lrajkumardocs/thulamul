@@ -3,12 +3,12 @@
 [fetch] RBI: 0 புதியவை
 [fetch] ET Markets: 9 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 15 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 20 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 11 புதியவை
 [fetch] Cinema Express: 13 புதியவை
@@ -34,13 +34,29 @@
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 10 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
-[fetch] Dinamalar Aanmeegam: 0 புதியவை
+[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 26 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[run] புதியவை 345 → நிகழ்வுகள் 339
-[malar] பிழை Expecting ',' delimiter: line 36 column 3 (char 4767)
+[run] புதியவை 349 → நிகழ்வுகள் 343
+[tts-edge] 695ab3949069: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சமரவிக்ரமா அரைசதத்தில் இலங்கைக்கு அரையிறுதி வாய்ப்பு
+[tts-edge] edff267e40fd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பிக் பாஸ் தமிழ் சீசன் 10: 29 போட்டியாளர்களில் 10 பேர் வெளியேற்றம்
+[publish] பெரிய தரவு மையங்களை காற்றால் குளிர்விப்பதில் உள்ள தொழில்நுட்ப சவால்கள்
+[publish] புற்றுநோய் பக்கவிளைவுக்கு Psilocybin மருந்து சோதனை: அமெரிக்க ஆய்வு
+[publish] தில்லி உயர் நீதிமன்றத்தில் 150 உதவியாளர் பணியிடங்களுக்கு காலிப்பணி அறிவிப்பு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] பம்பாய், பாட்னா, மத்தியப் பிரதேச உயர்நீதிமன்ற தலைமை நீதிபதிகள் நியமனத்திற்கு மத்திய அரசு ஒப்புதல்
+[skip] இது குதிரைப் பந்தய முடிவு தொடர்பான உள்ளூர் விளையாட்டுச் செய்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CengKgmXhJpP4fDDgSDNA'}
+[publish] பிக் பாஸ் தமிழ் சீசன் 10: 19 பேர் தொடக்கம், 8 பேர் மேடையிலேயே அகற்றம்
+[skip] இது தனிப்பட்ட பங்கு வர்த்தக சிபாரிசுகள் தரும் ஆலோசனைக் கட்டு
+[publish] சென்செக்ஸ் 363 புள்ளிகள் உயர்வு, நிஃப்டி 23,898-க்குக் கீழே முடிவு
+[malar] பிழை Expecting ',' delimiter: line 36 column 3 (char 4901)
+[rasi] ராசிபலன் தயார்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 109 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 117 · pending 0 · எழுதியவை 8

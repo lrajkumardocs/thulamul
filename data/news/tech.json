@@ -1,5 +1,60 @@
 [
  {
+  "headline": "பெரிய தரவு மையங்களை காற்றால் குளிர்விப்பதில் உள்ள தொழில்நுட்ப சவால்கள்",
+  "lines": [
+   "கூகுள் மற்றும் டிசிஎஸ் நிறுவனங்கள் தொடர்பான பெரிய தரவு மையங்களை குளிர்விக்கும் முறைகள் குறித்து தி ஹிந்து ஒரு விளக்கக் கட்டுரையை வெளியிட்டுள்ளது.",
+   "1 கிகாவாட் திறன் கொண்ட தரவு மையத்தை காற்று மூலம் மட்டும் குளிர்விப்பது நடைமுறையில் சாத்தியமற்றது என்று கட்டுரையில் கூறப்பட்டுள்ளது.",
+   "திரவம் மூலம் குளிர்விக்கும் முறைக்கு ஆரம்பத்தில் அதிக செலவு ஆகும் எனவும், காற்று மூலம் குளிர்விக்கும் முறை செயல்திறனிலும் மின் பயன்பாட்டிலும் இழப்பை ஏற்படுத்தும் எனவும் விளக்கப்பட்டுள்ளது.",
+   "தரவு மையங்களின் அளவு பெரிதாகும் போது குளிரூட்டும் முறையின் தேர்வு நிறுவனங்களுக்கு முக்கிய தொழில்நுட்ப மற்றும் நிதி முடிவாக மாறுகிறது என்று கட்டுரை சுட்டிக்காட்டுகிறது.",
+   "செயற்கை நுண்ணறிவு தொடர்பான தரவு மைய கட்டமைப்பு விரிவடையும் நிலையில், குளிரூட்டும் தொழில்நுட்பம் குறித்த இந்த விவாதம் முக்கியத்துவம் பெறுகிறது என கட்டுரையில் தெரிவிக்கப்பட்டுள்ளது."
+  ],
+  "closing": "செயற்கை நுண்ணறிவுக்கான தரவு மையங்கள் பெரிதாகும் போது, அவற்றை குளிர்விக்கும் முறை தொழில்நுட்ப ரீதியாகவும் நிதி ரீதியாகவும் எவ்வளவு சிக்கலானது என்பதை இந்தக் கட்டுரை விளக்குகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Tech",
+    "doc": null,
+    "date": "2026-09-06"
+   }
+  ],
+  "topic": "tech",
+  "entities": [
+   "கூகுள்",
+   "டிசிஎஸ்",
+   "தரவு மையம்",
+   "திரவக் குளிரூட்டல்",
+   "காற்றுக் குளிரூட்டல்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Explained: The Technical Challenges of Air-Cooling Large Data Centres",
+   "lines": [
+    "The Hindu has published an explainer article about methods to cool large data centres linked to Google and TCS.",
+    "The article states that cooling a 1-GW capacity data centre using air-cooling alone is considered impractical.",
+    "It explains that liquid-cooling involves higher upfront costs, while air-cooling imposes a tax on performance and power efficiency.",
+    "The article points out that as data centres grow larger, the choice of cooling method becomes a critical technical and financial decision for companies.",
+    "As AI-related data centre infrastructure expands, the article notes that this debate over cooling technology gains greater importance."
+   ],
+   "closing": "The article explains how, as AI-related data centres grow larger, the choice of cooling method becomes both a technically and financially complex decision."
+  },
+  "flags": [
+   "single_source"
+  ],
+  "id": "1066d577fb6b",
+  "topic_ta": "தொழில்நுட்பம்",
+  "published_at": "2026-09-07T00:10+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/science/google-tcs-and-the-physics-of-air-cooling-a-large-data-centre-explained/article71434727.ece"
+  ],
+  "image": {
+   "url": "https://th-i.thgim.com/public/todays-paper/tp-international/miwpvu/article71409353.ece/alternates/LANDSCAPE_1200/Data-center-bacGQJGFD9O9.3.jpg.jpg",
+   "credit": "The Hindu Tech"
+  },
+  "audio": "data/audio/1066d577fb6b.mp3",
+  "created_ts": 1788720009.6641316,
+  "status": "published"
+ },
+ {
   "headline": "டிஜிட்டல் அரெஸ்ட் மோசடி: 20 மாநிலங்களில் 89 இடங்களில் சிபிஐ சோதனை",
   "lines": [
    "டிஜிட்டல் அரெஸ்ட் என்ற பெயரில் நடக்கும் ஆன்லைன் மோசடிகள் தொடர்பாக சிபிஐ நாடு முழுவதும் சோதனை நடத்தியுள்ளது.",
