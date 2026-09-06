@@ -8,8 +8,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>துலாமுள்</title>
 <link rel="manifest" href="manifest.json">
-<link rel="icon" href="icon.svg">
-<link rel="apple-touch-icon" href="icon.svg">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="description" content="தமிழின் முதல் AI டிஜிட்டல் நாளிதழ் — நடுநிலை செய்திகள், ஆடியோ, ராசிபலன், வாரமலர், மனு உதவி.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@400;500;600&family=Noto+Sans+Tamil:wght@400;500;600&family=Tiro+Tamil&display=swap" rel="stylesheet">
 <style>
@@ -915,6 +916,7 @@ document.addEventListener('keydown',e=>{const t=e.target;const inField=isField(t
 let curHash='#home';
 function go(h){curHash=h;let ok=false;try{if(location.hash!==h){location.hash=h;ok=true;}}catch(_){ok=false;}if(!ok)route(h);}
 document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;e.preventDefault();go(a.getAttribute('href'));});
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js',{scope:'./'}).catch(()=>{}));
 window.addEventListener('hashchange',()=>route(location.hash));
 Promise.all([
   fetch(BASE+'data/feed.json'+q).then(r=>r.json()).catch(()=>[]),

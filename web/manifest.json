@@ -1,0 +1,29 @@
+{
+  "name": "துலாமுள் — தமிழ் AI நாளிதழ்",
+  "short_name": "துலாமுள்",
+  "description": "தமிழின் முதல் AI டிஜிட்டல் நாளிதழ். நடுநிலை செய்திகள், 17 பக்கங்கள், ஆடியோ, ராசிபலன், வாரமலர், மனு உதவி. Thulamul — Tamil AI daily newspaper with balanced news, audio, panchangam and citizen petition help.",
+  "id": "/thulamul/web/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3F2EE",
+  "theme_color": "#161B24",
+  "lang": "ta",
+  "dir": "ltr",
+  "categories": ["news", "magazines"],
+  "icons": [
+    { "src": "icon-48.png",  "sizes": "48x48",   "type": "image/png" },
+    { "src": "icon-72.png",  "sizes": "72x72",   "type": "image/png" },
+    { "src": "icon-96.png",  "sizes": "96x96",   "type": "image/png" },
+    { "src": "icon-144.png", "sizes": "144x144", "type": "image/png" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "முதல் பக்கம்", "url": "./#home" },
+    { "name": "பக்கங்கள்",   "url": "./#topics" },
+    { "name": "மனு உதவி",   "url": "./#complaint" }
+  ]
+}
