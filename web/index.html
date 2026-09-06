@@ -218,7 +218,7 @@
   body.f-l .body5 p{font-size:17.5px;line-height:1.8}body.f-l h1{font-size:26px}body.f-l h2{font-size:20px}body.f-l .stxt h2{font-size:18px}
   /* copy protection */
   body{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
-  textarea,input{-webkit-user-select:text;user-select:text}
+  textarea,input,select,[contenteditable]{-webkit-user-select:text!important;user-select:text!important;-webkit-touch-callout:default;pointer-events:auto!important}
   img{pointer-events:none;-webkit-user-drag:none}
   .pbtn,.play,button,a,.icon{pointer-events:auto}
   .ph,.dph,.th,.ad img{position:relative}
@@ -819,8 +819,8 @@ function route(hh){
 }
 
 // ---- copy protection
-['contextmenu','copy','cut','dragstart','selectstart'].forEach(ev=>document.addEventListener(ev,e=>{if(!e.target.closest('textarea,input'))e.preventDefault();}));
-document.addEventListener('keydown',e=>{const k=e.key.toLowerCase();if((e.ctrlKey||e.metaKey)&&['c','s','p','u','a','x'].includes(k)&&!e.target.closest('textarea,input'))e.preventDefault();if(e.key==='PrintScreen'){navigator.clipboard&&navigator.clipboard.writeText('துலாமுள் — thulamul.com');}});
+['contextmenu','copy','cut','dragstart','selectstart'].forEach(ev=>document.addEventListener(ev,e=>{const t=e.target;if(t&&(t.tagName==='TEXTAREA'||t.tagName==='INPUT'||t.tagName==='SELECT'||(t.closest&&t.closest('textarea,input,select'))))return;e.preventDefault();}));
+document.addEventListener('keydown',e=>{const t=e.target;const inField=t&&(t.tagName==='TEXTAREA'||t.tagName==='INPUT'||t.tagName==='SELECT');const k=e.key.toLowerCase();if((e.ctrlKey||e.metaKey)&&['c','s','p','u','a','x','v'].includes(k)&&!inField)e.preventDefault();if(e.key==='PrintScreen'){navigator.clipboard&&navigator.clipboard.writeText('துலாமுள் — thulamul.com');}});
 setInterval(()=>{const t=Date.now();debugger;if(Date.now()-t>100)document.body.classList.add('devtools');},1500);
 let curHash='#home';
 function go(h){curHash=h;let ok=false;try{if(location.hash!==h){location.hash=h;ok=true;}}catch(_){ok=false;}if(!ok)route(h);}
