@@ -490,11 +490,13 @@ def main():
         if (malar.get("week") != week or malar.get("v") != 2) and (now.weekday() == 6 or not malar or malar.get("v") != 2) and not api_dead:
             mon = now - timedelta(days=now.weekday()); dates = ", ".join((mon + timedelta(days=i)).strftime("%m-%d") for i in range(7))
             mp = (ROOT / "pipeline/prompts/malar.md").read_text(encoding="utf-8").replace("{{WEEK}}", week).replace("{{TODAY}}", today).replace("{{DATES}}", dates)
-            wk_cut = (now - timedelta(days=7)).isoformat()
-            wk = [x for x in feed if x.get("published_at", "") > wk_cut and x.get("status") == "published"][:40]
-            wk_txt = "\n".join(f"[{x['topic_ta']}] {x['headline']}" for x in wk) or "(செய்திகள் இல்லை)"
+            wk_cut = (now - timedelta(days=8)).strftime("%Y-%m-%d")
+            wk = [x for x in feed if str(x.get("published_at", ""))[:10] >= wk_cut and x.get("status") == "published"][:40]
+            wk_txt = "\n".join(f"[{x.get('topic_ta','')}] {x.get('headline','')}" for x in wk).strip()
+            if not wk_txt:
+                wk_txt = "(சென்ற வாரச் செய்திகள் கிடைக்கவில்லை — 'சென்ற வார உலகம்' பகுதியை உன் பொது அறிவிலிருந்து, சமீபத்திய பொதுவான உலக/இந்திய நிகழ்வுகளாக எழுது.)"
             msg = client.messages.create(model=MODEL, max_tokens=8000, system=mp,
-                messages=[{"role": "user", "content": "சென்ற வாரத்தின் செய்தித் தலைப்புகள்:\n" + wk_txt + "\n\nஇவற்றிலிருந்து 'சென்ற வார உலகம்' பகுதியை எழுது; மற்ற பகுதிகளை உன் அறிவிலிருந்து எழுது."}])
+                messages=[{"role": "user", "content": ("சென்ற வாரத்தின் செய்தித் தலைப்புகள்:\n" + wk_txt + "\n\nஇவற்றிலிருந்து 'சென்ற வார உலகம்' பகுதியை எழுது; மற்ற பகுதிகளை உன் அறிவிலிருந்து எழுது.").strip()}])
             raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
             m = parse_json(client, raw); m["week"] = week; m["v"] = 2; m["generated"] = today
             if m.get("song", {}).get("text"):
