@@ -293,11 +293,11 @@
 
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
-import { getAuth, RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
+import { getAuth, RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
 import { getMessaging, getToken, onMessage, isSupported } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-messaging.js";
 const fb = initializeApp({apiKey:"AIzaSyB3aUM0tQKByUaUg4jMGpHFDuVokkjFXg8",authDomain:"thulamul.firebaseapp.com",projectId:"thulamul",storageBucket:"thulamul.firebasestorage.app",messagingSenderId:"1075780759307",appId:"1:1075780759307:web:d10b25f39a1b54bc96fc0e"});
-window.FB = {app:fb, auth:getAuth(fb), db:getFirestore(fb), RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, setDoc, serverTimestamp, getMessaging, getToken, onMessage, isSupported};
+window.FB = {app:fb, auth:getAuth(fb), db:getFirestore(fb), RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, setDoc, serverTimestamp, getMessaging, getToken, onMessage, isSupported};
 window.dispatchEvent(new Event('fb-ready'));
 </script>
 <script>
@@ -733,8 +733,9 @@ const DISTRICTS=['சென்னை','திருவள்ளூர்','க�
 let DEPTS=null, cuser=null, cstep=1, cdata={}, confirmationResult=null, myPets=[];
 fetch(BASE+'pipeline/departments.json?'+Math.floor(Date.now()/6e4)).then(r=>r.json()).then(d=>DEPTS=d).catch(()=>{});
 window.addEventListener('fb-ready',()=>{
+  completeEmailSignIn();
   FB.onAuthStateChanged(FB.auth,u=>{cuser=u;const el=$('#c-user');
-    if(el) el.innerHTML=u?`${esc(u.phoneNumber||'')} · <a href="#complaint" id="c-logout" class="brass">வெளியேறு</a>`:'';
+    if(el) el.innerHTML=u?`${esc(u.email||u.phoneNumber||'')} · <a href="#complaint" id="c-logout" class="brass">வெளியேறு</a>`:'';
     const lo=$('#c-logout'); if(lo) lo.onclick=async(ev)=>{ev.preventDefault();try{await FB.signOut(FB.auth);}catch(_){}
       cuser=null;cstep=1;cdata={};pushToken=null;confirmationResult=null;if(window._rv){try{window._rv.clear();}catch(_){ }window._rv=null;}
       renderComplaint();};
@@ -755,37 +756,43 @@ function loginHtml(){
   return `<div style="padding-top:16px">
    <h1 style="font-size:22px">மனு உதவி</h1>
    <div class="mp" style="margin-top:8px">உங்களுடைய எந்தப் பிரச்சனையாக இருந்தாலும், அதைச் சம்பந்தப்பட்ட துறைக்கு எடுத்துச் செல்வதுதான் இந்தப் பக்கத்தின் நோக்கம்.</div>
-   <label class="fl">தொலைபேசி எண்<input id="ph" type="tel" placeholder="9876543210" inputmode="numeric"></label>
-   <button class="btn" id="send-otp">OTP அனுப்பு</button>
-   <div id="otp-box" style="display:none">
-     <label class="fl">OTP (6 இலக்கம்)<input id="otp" type="text" inputmode="numeric" maxlength="6"></label>
-     <button class="btn" id="verify-otp">உள்நுழை</button>
-   </div>
-   <div class="small" id="auth-msg" style="margin-top:10px;color:var(--caution)"></div>
+   <label class="fl">மின்னஞ்சல் முகவரி<input id="em" type="email" inputmode="email" placeholder="yourname@gmail.com" autocomplete="email"></label>
+   <button class="btn" id="send-link">உள்நுழைவு இணைப்பை அனுப்பு</button>
+   <div class="small" id="auth-msg" style="margin-top:10px;line-height:1.7"></div>
    <details class="med" style="margin-top:18px"><summary>நிபந்தனைகள்</summary>
      <div class="note" style="margin-top:8px"><b>எதற்கு:</b> உள்ளாட்சி · குடிநீர் · மின்சாரம் · ரேஷன் · பட்டா · ஆக்கிரமிப்பு · போக்குவரத்து · RTO · கல்வி · மருத்துவம் · அரசுத் திட்டம் · காவல் துறை · நுகர்வோர் · வங்கி · தொழிலாளர் · மாசு · விவசாயம் · ஓய்வூதியம் · மகளிர்/குழந்தை · RTI — 24 வகை.</div>
      <div class="note"><b>எதற்கு இல்லை:</b> நீதிமன்ற வழக்கு, ஜாமீன், தனிநபர் தகராறு, சொத்துப் பிரிவினை. இது சட்ட ஆலோசனை அல்ல; மனு உதவி மட்டும். இலவச சட்ட உதவி: 15100.</div>
      <div class="note"><b>அவசரம் என்றால்</b> — 100 / 112 · மகளிர் 181 · குழந்தைகள் 1098.</div>
-     <div class="note">உங்கள் எண் மனுவைச் சேமிக்க மட்டும்; விளம்பரத்திற்குப் பயன்படுத்தப்படாது, யாருக்கும் தரப்படாது.</div>
+     <div class="note">உங்கள் மின்னஞ்சல் மனுவைச் சேமிக்க மட்டும்; விளம்பரத்திற்குப் பயன்படுத்தப்படாது, யாருக்கும் தரப்படாது.</div>
    </details>
    <div style="height:40px"></div></div>`;
 }
 function wireLogin(){
-  const s1=$('#send-otp'); if(!s1) return;
-  s1.addEventListener('click',async()=>{
-    const raw=($('#ph').value||'').replace(/\D/g,''); const num=raw.length===10?'+91'+raw:(raw.startsWith('91')?'+'+raw:'+'+raw);
-    if(raw.length<10){$('#auth-msg').textContent='சரியான 10 இலக்க எண் கொடுங்கள்.';return;}
-    s1.disabled=true; $('#auth-msg').textContent='OTP அனுப்புகிறோம்…';
+  const b=$('#send-link'); if(!b) return;
+  const msg=$('#auth-msg');
+  b.addEventListener('click',async()=>{
+    const em=($('#em').value||'').trim().toLowerCase();
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(em)){ msg.textContent='சரியான மின்னஞ்சல் முகவரி கொடுங்கள்.'; return; }
+    b.disabled=true; msg.textContent='இணைப்பை அனுப்புகிறோம்…';
     try{
-      if(!window._rv) window._rv=new FB.RecaptchaVerifier(FB.auth,'recaptcha',{size:'invisible'});
-      confirmationResult=await FB.signInWithPhoneNumber(FB.auth,num,window._rv);
-      $('#otp-box').style.display='block'; $('#auth-msg').textContent='OTP அனுப்பப்பட்டது.';
-    }catch(e){ $('#auth-msg').textContent='பிழை: '+(e.message||e); s1.disabled=false; }
+      await FB.sendSignInLinkToEmail(FB.auth, em, {url: location.origin+location.pathname+'#complaint', handleCodeInApp:true});
+      localStorage.setItem('emailForSignIn', em);
+      msg.innerHTML=`<b>${esc(em)}</b> முகவரிக்கு உள்நுழைவு இணைப்பு அனுப்பப்பட்டது.<br>அந்த மின்னஞ்சலைத் திறந்து இணைப்பைத் தொடுங்கள் — இதே பக்கம் திரும்பி, தானாக உள்நுழையும்.<br><span class="muted">வரவில்லையா? Promotions / Spam folder-ஐயும் பாருங்கள்.</span>`;
+      b.disabled=false; b.textContent='மீண்டும் அனுப்பு';
+    }catch(e){ msg.textContent='பிழை: '+((e&&e.message)||e); b.disabled=false; }
   });
-  const v=$('#verify-otp'); if(v) v.addEventListener('click',async()=>{
-    try{ await confirmationResult.confirm(($('#otp').value||'').trim()); cstep=1; renderComplaint(); }
-    catch(e){ $('#auth-msg').textContent='OTP தவறு. மீண்டும் முயற்சிக்கவும்.'; }
-  });
+}
+async function completeEmailSignIn(){
+  try{
+    if(!window.FB || !FB.isSignInWithEmailLink(FB.auth, location.href)) return false;
+    let em=localStorage.getItem('emailForSignIn');
+    if(!em) em=prompt('உள்நுழைய, இணைப்பைப் பெற்ற மின்னஞ்சல் முகவரியைக் கொடுங்கள்:');
+    if(!em) return false;
+    await FB.signInWithEmailLink(FB.auth, em, location.href);
+    localStorage.removeItem('emailForSignIn');
+    try{ history.replaceState(null,'',location.pathname+'#complaint'); }catch(_){}
+    return true;
+  }catch(e){ const m=$('#auth-msg'); if(m) m.textContent='இணைப்பு செல்லாது அல்லது காலாவதி. மீண்டும் அனுப்பவும்.'; return false; }
 }
 function cbar(n){return `<div class="cnav">${n>1?`<button class="lnk" onclick="goStep(${n-1})">← திரும்பு</button>`:'<span></span>'}<span class="small muted">படி ${n} / 4</span></div><div class="steps">${[1,2,3,4].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</div>`;}
 function step1(){
@@ -880,7 +887,7 @@ function wireComplaint(){
   const n3=$('#c-next3'); if(n3) n3.addEventListener('click',()=>{ try{ cdata.letter=$('#c-letter').value; cstep=4; renderComplaint(); }catch(e){ alert('பிழை: '+e.message); } });
   const sv=$('#c-save'); if(sv) sv.addEventListener('click',async()=>{
     sv.disabled=true;
-    try{ await FB.addDoc(FB.collection(FB.db,'petitions'),{uid:cuser.uid,phone:cuser.phoneNumber,text:cdata.text,name:cdata.name,addr:cdata.addr,analysis:cdata.analysis,letter:cdata.letter,ref:($('#c-ref').value||'').trim(),status:'பதில் காத்திருப்பு',created:new Date().toISOString()});
+    try{ await FB.addDoc(FB.collection(FB.db,'petitions'),{uid:cuser.uid,email:cuser.email||'',phone:cuser.phoneNumber||'',text:cdata.text,name:cdata.name,addr:cdata.addr,analysis:cdata.analysis,letter:cdata.letter,ref:($('#c-ref').value||'').trim(),status:'பதில் காத்திருப்பு',created:new Date().toISOString()});
       cdata={}; cstep=5; renderComplaint();
     }catch(e){ sv.disabled=false; alert('சேமிக்க முடியவில்லை: '+e.message); }
   });
