@@ -1,9 +1,9 @@
 [fetch] PIB Tamil: 0 புதியவை
 [fetch] PIB English: 0 புதியவை
-[fetch] RBI: 5 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] RBI: 1 புதியவை
+[fetch] ET Markets: 21 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 27 புதியவை
+[fetch] The Hindu TN: 29 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 19 புதியவை
@@ -16,7 +16,7 @@
 [fetch] Wired: 22 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 20 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
 [fetch] PIB Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] PIB Agriculture: 0 புதியவை
@@ -36,30 +36,28 @@
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 25 புதியவை
-[fetch] Dinamani Sports: 28 புதியவை
+[fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 14 புதியவை
 [fetch] The Verge: 10 புதியவை
-[run] புதியவை 400 → நிகழ்வுகள் 399
-[skip] இது ஒரு கருத்துரை/பார்வைக் கட்டுரை (opinion piece) - குறிப்ப
-[tts-edge] c07a6a61f613: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] துலீப் கோப்பை: இஷான் கிஷன் இரட்டை சதம்; கிழக்கு மண்டலம் 708 ரன்கள் குவிப்பு
-[tts-edge] b83f62809921: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ₹32,000 கோடி மதிப்பிலான அரசு பத்திரங்கள் ஏலம் விடும் ரிசர்வ் வங்கி
-[publish] இறையாண்மை தங்கக் கடன் பத்திரம் திரும்பப் பெறும் விலை ₹15,384 அறிவிப்பு
-[skip] இது ஜூலை 2026 மாத ECB/FCCB/RDB புள்ளிவிவரங்கள் வெளியிடப்பட்ட
-[claude] பிழை Expecting ',' delimiter: line 1 column 776 (char 775)
-[skip] நாசிக் மாவட்ட மகளிர் கூட்டுறவு வங்கிக்கான RBI கட்டுப்பாட்டு 
+[run] புதியவை 386 → நிகழ்வுகள் 386
+[skip] இது ஒரு குறிப்பிட்ட செய்தி நிகழ்வு அல்ல; கண் தான தொடர்பான பொ
+[tts-edge] 955503cf82b0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] NBFC கடன் வளர்ச்சி ஜூலையில் 14.9% ஆக உயர்வு - ரிசர்வ் வங்கி தரவு
+[tts-edge] aeeb43e1949e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பிரசோல் கெமிக்கல்ஸ் ஐபிஓவுக்கு முன் ₹150 கோடி திரட்டியது
+[skip] இது ஸ்பெயின் நாட்டின் அரசாங்கப் பச்சை பத்திரம் தொடர்பான நிதி
+[publish] பணப்புழக்க நடவடிக்கையால் இந்திய அரசு பத்திரங்கள் மாற்றமின்றி முடிவு
+[publish] 240 மில்லியன் டாலர் பிட்காயின் திருட்டு: மோசடி கும்பல் 18 பேர் கைது
+[publish] சென்செக்ஸ் சரிவுக்கு நடுவே 4 பங்குகள் 52 வார உயர்வு எட்டின
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cepc7TzYEFPRMADJnLMfm'}
-[publish] என்விடியா பங்குதாரர் விஸ்ட்ரான் 1.5 பில்லியன் டாலர் நிதி திரட்டுகிறது
-[skip] இது ஐரோப்பிய பங்குச் சந்தையின் வழக்கமான ஏற்ற இறக்கம் பற்றிய 
-[publish] தாமிரம் விலை $14,533-ஆக உயர்ந்து புதிய சாதனை பதிவு
-[publish] எண்ணெய் விலை உயர்வு, அமெரிக்கா-ஈரான் பதற்றத்தால் சென்செக்ஸ் தொடர் சரிவு
-[publish] பிரென்ட் கச்சா எண்ணெய் விலை 100 டாலருக்கு அருகில் உயர்வு
-[skip] இது ஒரு தனிநபர் முதலீட்டாளரின் பங்கு பரிவர்த்தனை தொடர்பான கு
-[skip] இது அமெரிக்க டாலர் இருப்பு பங்கு குறித்த ஒரு நிதி ஆய்வு தொடர
-[publish] SEBI ஏஞ்சல் நிதிகளுக்கான அங்கீகரிக்கப்பட்ட முதலீட்டாளர் விதிமுறை காலக்கெடுவை 2027 மார்ச் 31 வரை நீட்டித்தது
+[skip] இது ஜீரோதா நிறுவனத்தின் ஊழியர் ஒருவரைப் பாராட்டும் தனிப்பட்ட
+[skip] இது ET Alpha Summit எனும் நிகழ்வுக்கான விளம்பரக் குறிப்பு, உ
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது ஒரு முதலீட்டு மேற்கோள்/கருத்து கட்டுரை, குறிப்பிட்ட செய்
+[publish] வெளிநாட்டு முதலீட்டாளர்களிடம் இருந்து 1 பில்லியன் டாலர் திரட்ட ஆர்பிஎல் வங்கி திட்டம்
+[publish] பாங்க் ஆஃப் மகாராஷ்டிரா, கனரா வங்கி தலா 500 மில்லியன் டாலர் கடன் திட்டம்
+[publish] சென்னை உள்ளிட்ட நகரங்களில் ரியல் எஸ்டேட் திட்டத்திற்கு ₹750 கோடி நிதி திரட்டும் திட்டம்
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 202 · pending 0 · எழுதியவை 8
+[done] feed 210 · pending 0 · எழுதியவை 8
