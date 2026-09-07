@@ -3,14 +3,14 @@
 [fetch] RBI: 0 புதியவை
 [fetch] ET Markets: 0 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 13 புதியவை
+[fetch] The Hindu TN: 4 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 19 புதியவை
 [fetch] Al Jazeera: 23 புதியவை
 [fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 21 புதியவை
-[fetch] The Hindu Cinema: 22 புதியவை
+[fetch] The Hindu Cinema: 20 புதியவை
 [fetch] Cinema Express: 20 புதியவை
 [fetch] The Hindu Tech: 10 புதியவை
 [fetch] Wired: 22 புதியவை
@@ -40,18 +40,23 @@
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 15 புதியவை
 [fetch] The Verge: 10 புதியவை
-[run] புதியவை 337 → நிகழ்வுகள் 337
-[tts-edge] 8582daceb5c5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சர்க்காரியா கமிஷன் விவகாரம்: சட்டமன்றத்தில் விஜய் கருத்து பரபரப்பு
-[tts-edge] 96c3e8e7780f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டில் 25 மாதிரி பதிவு மையங்கள் அமைக்க அரசு அறிவிப்பு
-[publish] தொழிலாளர் சட்டங்களுக்கு எதிராக சட்டமன்றத் தீர்மானம் கோரிக்கை
-[publish] தமிழக சட்டமன்றத்தில் முதலமைச்சர் விஜய் தாக்குதலால் பரபரப்பு பேச்சு
-[publish] சென்னை மாநகராட்சி கவுன்சிலர் நிதி வழங்கலில் குழப்பம், எதிர்ப்பு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரமான உரை இல்லை என்பதால்
-[publish] திமுக மக்கள் தீர்ப்பை ஏற்காவிட்டால் ஏன் அரசியலில் தொடர வேண்டும் என முதலமைச்சர் விஜய் கேள்வி
-[publish] மம்முட்டியின் 75-வது பிறந்தநாளில் 'OM Chapter 1' படத்தின் டீசர் வெளியீடு
-[publish] மாரி செல்வராஜ் - இளையராஜா இணைந்த 'மஞ்ஞாத்தி' திரைப்படம் அறிமுகம்
+[run] புதியவை 326 → நிகழ்வுகள் 326
+[skip] இது 'Sardar 2' திரைப்படம் தொடர்பான இயக்குநர் நேர்காணல் கட்டு
+[tts-edge] cabaf349a8f6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திருச்சூரில் விபத்தில் பலியான 8 தமிழக மாணவர்கள் மது அருந்தியிருக்கலாம் என தகவல்
+[tts-edge] 1635f52aeb39: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழக வனத்துறைக்கு ₹100 கோடி; 200 பள்ளிகள் பசுமை வளாகமாக மாற்றம்
+[hold] விஜயபாஸ்கர் மீதான ₹4 கோடி மோசடி புகார்: விசாரணை தொடக்கம்
+[publish] சிறப்பு குழந்தைகள் விளையாட்டு மூலம் திறமை வெளிப்படுத்தலாம்: அமைச்சர் அருண்ராஜ்
+[skip] மூலம் ஒரு live-blog தலைப்பு மட்டுமே; இடைத்தேர்தல் பற்றிய உண்
+[publish] விலைவாசி உயர்வு கட்டுப்பாட்டுக்கு நடவடிக்கை எடுக்க கம்யூனிஸ்ட் கட்சி வலியுறுத்தல்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CepgxFv66CR1A8SCfVp7N'}
+[skip] மூலத்தில் தலைப்பை தவிர வேறு விவரங்கள் (எந்த சட்டப்பேரவை, என்
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது, மாவட்டம், நபர் விவர
+[hold] முதல்வர் விஜய் மீது சொகுசு செலவு குற்றச்சாட்டு: நயினார் நாகேந்திரன் கேள்வி
+[publish] செப்டம்பர் 9-ம் தேதி சென்னையில் மழைக்கு வாய்ப்பு
+[skip] மூல உரையில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (இட
+[publish] இரும்புக் கம்பியில் சிக்கிய யானைக்கு வனத்துறையினர் இரவு பகலாக சிகிச்சை
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 233 · pending 1 · எழுதியவை 8
+[done] feed 239 · pending 3 · எழுதியவை 8
