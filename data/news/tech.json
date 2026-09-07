@@ -1,5 +1,65 @@
 [
  {
+  "headline": "இந்தியாவின் செல் ப்ராட்காஸ்ட் எச்சரிக்கை அமைப்பு எப்படி செயல்படுகிறது? விளக்கம்",
+  "lines": [
+   "இயற்கை பேரிடர்களின்போது மக்களை உடனடியாக எச்சரிக்க இந்தியாவில் செல் ப்ராட்காஸ்ட் அமைப்பு பயன்படுத்தப்படுவதாக தி இந்து தொழில்நுட்பப் பிரிவு விளக்கமளித்துள்ளது.",
+   "இந்த அமைப்பு மூலம் நிலநடுக்கம், மின்னல், சுனாமி போன்ற அபாயங்கள் ஏற்படும்போது மொபைல் போன்களுக்கு நேரடி எச்சரிக்கை அறிவிப்புகள் அனுப்பப்படும் என்று கூறப்படுகிறது.",
+   "ஒரு குறிப்பிட்ட புவியியல் பகுதியில் உள்ள அனைத்து மொபைல் பயனர்களுக்கும் ஒரே நேரத்தில் எச்சரிக்கையை சேர்க்கும் வகையில் இந்த தொழில்நுட்பம் வடிவமைக்கப்பட்டுள்ளது.",
+   "சாதாரண குறுஞ்செய்திகளிலிருந்து வேறுபட்டு, நெட்வொர்க் அளவில் நேரடியாக அறிவிப்பு அனுப்பும் முறை இது என்று விளக்கப்பட்டுள்ளது.",
+   "இந்த தொழில்நுட்பம் தற்போது பேரிடர் எச்சரிக்கை நடவடிக்கைகளில் எவ்வாறு பயன்படுத்தப்படுகிறது என்பது குறித்த விளக்கக் கட்டுரையாக இது வெளியிடப்பட்டுள்ளது."
+  ],
+  "closing": "இந்த அமைப்பு உண்மையான பேரிடர் காலங்களில் எவ்வளவு துல்லியமாக செயல்படுகிறது என்பது இன்னும் விவரமாக அறியப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Tech",
+    "doc": null,
+    "date": "2026-09-07"
+   }
+  ],
+  "topic": "tech",
+  "entities": [
+   "இந்தியா",
+   "செல் ப்ராட்காஸ்ட் அமைப்பு",
+   "நிலநடுக்கம்",
+   "சுனாமி",
+   "மின்னல்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "How does India's Cell Broadcast Warning System actually work? Explained",
+   "lines": [
+    "The Hindu's technology section has explained how India's Cell Broadcast System is used to instantly warn people during natural disasters.",
+    "Through this system, direct warning alerts are reportedly sent to mobile phones when hazards like earthquakes, lightning and tsunamis occur.",
+    "The technology is designed to deliver a warning simultaneously to all mobile users in a specific geographic area.",
+    "Unlike regular text messages, it is explained as a method that broadcasts notifications directly across the network to everyone at once.",
+    "The article was published as an explainer piece detailing how this technology is currently being used in disaster warning efforts."
+   ],
+   "closing": "It is not yet known in detail how accurately this system performs during actual disaster situations."
+  },
+  "id": "39ac9692d2c1",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தொழில்நுட்பம்",
+  "published_at": "2026-09-08T00:18+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/technology/what-is-the-cell-broadcast-system-and-how-does-it-help-in-emergencies-explained/article71438246.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/langta-960px-Flag_of_India.svg.png?utm_source=ta.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · இந்தியா",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%BE"
+  },
+  "audio": "data/audio/39ac9692d2c1.mp3",
+  "created_ts": 1788806926.2640455,
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "1 கிகாவாட் தரவு மையம்: காற்று குளிரூட்டல் போதுமா? Google, TCS விளக்கம்",
   "lines": [
    "Google மற்றும் TCS தொடர்பான 1 கிகாவாட் திறன் கொண்ட ஒரு பெரிய தரவு மையத்தை காற்றால் மட்டும் குளிர்விப்பது நடைமுறையில் சாத்தியமற்றது என்று விளக்கப்பட்டுள்ளது.",
@@ -46,10 +106,7 @@
   "links": [
    "https://www.thehindu.com/sci-tech/science/google-tcs-and-the-physics-of-air-cooling-a-large-data-centre-explained/article71434727.ece"
   ],
-  "image": {
-   "url": "https://th-i.thgim.com/public/todays-paper/tp-international/miwpvu/article71409353.ece/alternates/LANDSCAPE_1200/Data-center-bacGQJGFD9O9.3.jpg.jpg",
-   "credit": "The Hindu Tech"
-  },
+  "image": null,
   "audio": "data/audio/1066d577fb6b.mp3",
   "created_ts": 1788720687.0089498,
   "status": "published"
@@ -89,10 +146,7 @@
   "links": [
    "https://www.thehindu.com/news/national/digital-arrest-scams-cbis-nationwide-crackdown-and-the-supreme-courts-continuing-oversight/article71431189.ece"
   ],
-  "image": {
-   "url": "https://th-i.thgim.com/public/news/national/4fp50i/article71431191.ece/alternates/LANDSCAPE_1200/iStock-1461047320.jpg",
-   "credit": "The Hindu Tech"
-  },
+  "image": null,
   "audio": "data/audio/29463f7da6a8.mp3",
   "created_ts": 1788673635.131297,
   "status": "published"
@@ -133,10 +187,7 @@
   "links": [
    "https://www.thehindu.com/children/fixing-the-holes-in-the-education-system/article71388530.ece"
   ],
-  "image": {
-   "url": "https://th-i.thgim.com/public/incoming/rlipo2/article71388553.ece/alternates/LANDSCAPE_1200/HP187786.jpg",
-   "credit": "The Hindu Tech"
-  },
+  "image": null,
   "audio": "data/audio/747caa15ea47.mp3",
   "created_ts": 1788673576.0995693,
   "status": "published"
