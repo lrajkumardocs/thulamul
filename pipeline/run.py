@@ -291,13 +291,103 @@ def make_audio(story_id, script):
         return None
 
 # ---------------------------------------------------------------- 5. image (மூலப் படம் மட்டும்; இல்லையெனில் null → ஆப் துறை-அட்டை காட்டும்)
-def pick_image(c):
-    for i in c["items"]:
-        if i.get("img"):
-            return {"url": i["img"], "credit": i["source"]}
+SAFE_HOSTS = ("pib.gov.in", "isro.gov.in", "rbi.org.in", "mygov.in", "tn.gov.in",
+              "india.gov.in", "nic.in", "gov.in", "prsindia.org",
+              "wikimedia.org", "wikipedia.org", "unsplash.com", "pexels.com", "pixabay.com")
+
+def _safe_host(u):
+    try:
+        h = u.split("/")[2].lower()
+    except Exception:
+        return False
+    return any(d in h for d in SAFE_HOSTS)
+
+def wiki_image(term, lang="ta"):
+    """விக்கிப்பீடியாவில் ஒரு நபர்/இடம்/நிறுவனத்தின் இலவசப் படம்."""
+    try:
+        r = requests.get(f"https://{lang}.wikipedia.org/api/rest_v1/page/summary/" + requests.utils.quote(term.replace(" ", "_")),
+                         headers={"User-Agent": "Thulamul/1.0 (news app; info@thulamul.com)"}, timeout=12)
+        if r.status_code != 200:
+            return None
+        d = r.json()
+        if d.get("type") == "disambiguation":
+            return None
+        src = ((d.get("originalimage") or {}).get("source") or (d.get("thumbnail") or {}).get("source"))
+        if src and _safe_host(src):
+            return {"url": src.replace("/thumb/", "/thumb/") if "/thumb/" in src else src,
+                    "credit": f"விக்கிமீடியா · {d.get('title', term)}", "license": "CC / பொதுச் சொத்து",
+                    "page": (d.get("content_urls", {}).get("desktop", {}) or {}).get("page", "")}
+    except Exception:
+        pass
     return None
 
-# ---------------------------------------------------------------- 6. telegram
+def commons_image(query):
+    """Wikimedia Commons தேடல் — பொதுக் காட்சிகள்."""
+    try:
+        r = requests.get("https://commons.wikimedia.org/w/api.php",
+                         params={"action": "query", "generator": "search", "gsrsearch": query + " filetype:bitmap",
+                                 "gsrlimit": 3, "gsrnamespace": 6, "prop": "imageinfo",
+                                 "iiprop": "url|extmetadata", "iiurlwidth": 1000, "format": "json"},
+                         headers={"User-Agent": "Thulamul/1.0 (news app; info@thulamul.com)"}, timeout=15)
+        pages = (r.json().get("query") or {}).get("pages") or {}
+        for pg in pages.values():
+            ii = (pg.get("imageinfo") or [{}])[0]
+            url = ii.get("thumburl") or ii.get("url")
+            meta = ii.get("extmetadata") or {}
+            lic = (meta.get("LicenseShortName") or {}).get("value", "CC")
+            if "Fair" in lic or "Non-free" in lic:
+                continue
+            author = re.sub("<[^>]+>", "", (meta.get("Artist") or {}).get("value", ""))[:40]
+            if url and _safe_host(url):
+                return {"url": url, "credit": f"விக்கிமீடியா Commons{' · ' + author if author else ''}", "license": lic}
+    except Exception:
+        pass
+    return None
+
+def openverse_image(query):
+    """Openverse — 8 கோடி CC படங்கள்."""
+    try:
+        r = requests.get("https://api.openverse.org/v1/images/",
+                         params={"q": query, "license_type": "commercial,modification", "page_size": 3, "mature": "false"},
+                         headers={"User-Agent": "Thulamul/1.0 (info@thulamul.com)"}, timeout=15)
+        for it in (r.json().get("results") or []):
+            u = it.get("url") or it.get("thumbnail")
+            if u:
+                return {"url": u, "credit": f"{it.get('creator') or 'Openverse'} · {it.get('source', '')}",
+                        "license": (it.get("license") or "cc").upper()}
+    except Exception:
+        pass
+    return None
+
+def pick_image(c, story=None):
+    """படம் — காப்புரிமை பாதுகாப்பான மூலங்கள் மட்டும்:
+    1) RSS-ல் அரசுத் தளப் படம்  2) செய்தியில் உள்ள நபர்/இடத்தின் விக்கிப் படம்
+    3) Commons தேடல்  4) Openverse. எதுவும் இல்லையெனில் படம் இல்லை."""
+    for i in c["items"]:
+        u = i.get("image") or ""
+        if u and _safe_host(u):
+            return {"url": u, "credit": i["source"], "license": "அரசு / திறந்த உரிமம்"}
+    if not story:
+        return None
+    ents = [e for e in (story.get("entities") or []) if len(str(e)) > 3][:3]
+    for e in ents:
+        for lang in ("ta", "en"):
+            im = wiki_image(str(e), lang)
+            if im:
+                return im
+    q = " ".join(str(e) for e in ents[:2]) or story.get("topic_ta", "")
+    TOPIC_Q = {"agri": "paddy field Tamil Nadu farmer", "health": "hospital India", "tech": "technology computer",
+               "sports": "cricket stadium India", "cinema": "cinema theatre India", "economy": "indian rupee market",
+               "spirit": "temple Tamil Nadu", "court": "court building India", "jobs": "office workers India",
+               "tn": "Tamil Nadu", "india": "India government", "world": "world map globe"}
+    for query in ([q] if q else []) + [TOPIC_Q.get(story.get("topic"), "")]:
+        if not query:
+            continue
+        im = commons_image(query) or openverse_image(query)
+        if im:
+            return im
+    return None
+
 def telegram(text):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not (tok and chat):
@@ -421,9 +511,12 @@ def main():
         story["topic_ta"] = TOPIC_TA[story["topic"]]
         story["published_at"] = datetime.now(IST).isoformat(timespec="minutes")
         story["links"] = [i["link"] for i in c["items"]]
-        story["image"] = pick_image(c)
+        story["image"] = pick_image(c, story)
         story["audio"] = make_audio(sid, ". ".join([story["headline"].rstrip(".")] + [l.rstrip(".") for l in story["lines"]] + [story["closing"].rstrip(".")]) + ".")
         story["created_ts"] = time.time()
+        story["front_cat"] = str(story.get("front_cat") or "routine")
+        story["urgent"] = bool(story.get("urgent"))
+        story["affected"] = str(story.get("affected") or "")
 
         HOLD_FLAGS = {"defamation_risk", "communal", "numbers_conflict"}
         hold = bool(HOLD_FLAGS & set(story["flags"])) or story.get("confidence", 1) < AUTO_PUBLISH_MIN_CONFIDENCE
@@ -435,6 +528,8 @@ def main():
                      f"பதில்: <code>✔ {sid}</code> அல்லது <code>✘ {sid}</code>")
             print("[hold]", story["headline"])
         else:
+            if any(x.get("headline") == story["headline"] for x in feed[:200]):
+                print("[dup] அதே தலைப்பு உள்ளது; தவிர்"); mark_seen(c); continue
             story["status"] = "published"; feed.insert(0, story)
             if len(story.get("sources", [])) >= 2 or story.get("confidence", 0) >= 0.8:
                 push_items.append({"topic": story["topic"], "title": story["headline"],
@@ -459,7 +554,7 @@ def main():
     # 5b1. இன்றைய வேலை அறிவிப்புகள் — தினமும் ஒரு தொகுப்பு (8:00-க்குப் பின், ஒரு முறை)
     try:
         jd = load_json(DATA / "jobs_digest.json", {})
-        if now.hour >= 8 and jd.get("date") != today and not api_dead:
+        if now.hour >= 7 and jd.get("date") != today and not api_dead:
             raw_items = [i for i in fresh if i["topic_hint"] == "jobs"][:25]
             if raw_items:
                 src_text = "\n\n".join(f"[{i['source']}] {i['title']}\n{i['text'][:600]}\n{i['link']}" for i in raw_items)
@@ -509,7 +604,7 @@ def main():
     try:
         ed = load_json(DATA / "ai_editorial.json", {})
         todays_pub = [x for x in feed if x.get("published_at", "").startswith(today) and x["status"] == "published" and x["topic"] in ("tn", "india", "world", "economy", "court", "health", "agri", "assembly")]
-        if now.hour >= 5 and ed.get("date") != today and len(todays_pub) >= 3 and not api_dead:
+        if now.hour >= 4 and ed.get("date") != today and len(todays_pub) >= 2 and not api_dead:
             src = "\n\n".join(f"[{x['topic_ta']}] {x['headline']}\n" + " ".join(x["lines"]) for x in todays_pub[:10])
             ep = (ROOT / "pipeline/prompts/editorial.md").read_text(encoding="utf-8").replace("{{TODAY}}", today)
             msg = client.messages.create(model=MODEL, max_tokens=3000, system=ep, messages=[{"role": "user", "content": src}])
@@ -569,6 +664,17 @@ def main():
     except Exception as ex:
         print("[push] பிழை", str(ex)[:120])
 
+    # 5e. பாதுகாப்பற்ற படங்களை நீக்கு (பழைய செய்திகளிலிருந்தும்)
+    removed = 0
+    for x in feed:
+        im = x.get("image")
+        if im and im.get("url"):
+            u = im["url"]
+            if not _safe_host(u):
+                x["image"] = None; removed += 1
+    if removed:
+        print(f"[image] {removed} காப்புரிமைப் படங்கள் நீக்கப்பட்டன")
+
     # 6. save
     feed = feed[:300]
     save_json(FEED_FILE, feed)
@@ -584,7 +690,7 @@ def main():
         ISSUES = DATA / "issues"; ISSUES.mkdir(parents=True, exist_ok=True)
         todays = [x for x in feed if x.get("published_at", "").startswith(today)]
         save_json(ISSUES / f"{today}.json", todays)
-        idx = sorted({f.stem for f in ISSUES.glob("20*.json")}, reverse=True)   # நிரந்தரக் காப்பகம் — நீக்கம் இல்லை
+        idx = sorted({f.stem for f in ISSUES.glob("20*.json")}, reverse=True)   # நிரந்தரக் காப்பகம்
         save_json(ISSUES / "index.json", [{"date": d0, "count": len(load_json(ISSUES / f"{d0}.json", []))} for d0 in idx])
     except Exception as ex:
         print("[issues] பிழை", ex)
