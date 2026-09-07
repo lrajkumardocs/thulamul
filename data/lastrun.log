@@ -3,15 +3,15 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 26 புதியவை
+[fetch] The Hindu TN: 27 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 19 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 26 புதியவை
 [fetch] The Hindu Cinema: 23 புதியவை
-[fetch] Cinema Express: 22 புதியவை
+[fetch] Cinema Express: 21 புதியவை
 [fetch] The Hindu Tech: 11 புதியவை
 [fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -32,14 +32,41 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 5 புதியவை
+[fetch] Bar and Bench: 6 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
-[fetch] Dinamalar Aanmeegam: 0 புதியவை
+[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 14 புதியவை
 [fetch] The Verge: 10 புதியவை
-[run] புதியவை 446 → நிகழ்வுகள் 422
+[run] புதியவை 448 → நிகழ்வுகள் 423
+[tts-edge] 96b625ed5ff3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பாகிஸ்தான் பெண் பந்துவீச்சாளர் சாண்டு 6 விக்கெட் வீழ்த்தி அரையிறுதிக்கு அணி முன்னேற்றம்
+[tts-edge] 867db8d5ef42: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காஷ்மீரில் முதல் சர்வதேச திரைப்பட திருவிழா தொடக்கம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CepZqsXiBeYpENXis5Jh5'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உள்ளடக்கம் இல்லை; இது ராமா
+[skip] இது ஒரு குறிப்பிட்ட நிகழ்வு அல்ல; ஹண்டிங்டன் நோய் பற்றிய பொத
+[skip] இவை மிசோரம், ஜம்மு காஷ்மீர், குஜராத் ஆகிய மாநிலங்களின் உள்ளூ
+[publish] கர்நாடக உயர் நீதிமன்றம் செய்தி சேனல் எம்டி, சிஇஓ மீதான வழக்கை ரத்து செய்ய மறுப்பு
+[publish] பேங்க் ஆஃப் பரோடாவில் 2,482 அலுவலர் பணியிடங்கள் - கடைசி நாள் நீட்டிப்பு
+[skip] இவை ஒரு பதவிக்கான சிறிய, குறிப்பிட்ட நிறுவன அளவிலான walk-in/
+[skip] இது ரிசர்வ் வங்கியின் அன்றாட பணப்புழக்க மேலாண்மை தொடர்பான வழ
+[skip] இவை AMU (உத்தரப் பிரதேசம்), நந்தியால் அங்கன்வாடி (ஆந்திரா), 
+[skip] இது ரிசர்வ் வங்கியின் அன்றாட பணச் சந்தை செயல்பாடுகள் தொடர்பா
+[publish] செர்பியாவில் போர்க் குற்றவாளி ரட்கோ ம்லாடிச்சுக்கு இறுதி மரியாதை
+[publish] ஷெஃபாலி வர்மா அவுட் சம்பவத்தில் பாகிஸ்தான் கேப்டன் ஃபாத்திமா சனாவுக்கு அபராதம்
+[skip] இது குதிரைப் பந்தய பயிற்சி முடிவுகள் பற்றிய குறிப்பு, பொது வ
+[skip] இது ஒரு உள்ளூர் குதிரைப் பந்தய முடிவுகள் பற்றிய வழக்கமான செய
+[publish] மணிரத்னம் புதிய படம் இஞ்சி வெள்ளம் முதல் பார்வை வெளியீடு
+[skip] இது அமெரிக்க Labor Day விற்பனை பற்றிய நுகர்வோர் தள்ளுபடி/விள
+[skip] இது மேற்கு வங்கம் மற்றும் ஆந்திரப் பிரதேச மாநிலங்களுக்கான கு
+[skip] இது உத்தரப் பிரதேசம் மற்றும் மத்தியப் பிரதேச மாநிலங்களில் உள
+[skip] இரண்டு மூலங்களும் வெறும் தலைப்பு அளவிலான குறிப்புகள் மட்டுமே
+[publish] துலீப் கோப்பை: இஷான் கிஷனின் இரட்டை சதத்துடன் 708 ரன்கள் குவித்த கிழக்கு மண்டலம்
+[rasi] ராசிபலன் தயார்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 186 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[image] 129 காப்புரிமைப் படங்கள் நீக்கப்பட்டன
+[done] feed 194 · pending 0 · எழுதியவை 8
