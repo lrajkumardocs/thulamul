@@ -733,7 +733,12 @@ const DISTRICTS=['சென்னை','திருவள்ளூர்','க�
 let DEPTS=null, cuser=null, cstep=1, cdata={}, confirmationResult=null, myPets=[];
 fetch(BASE+'pipeline/departments.json?'+Math.floor(Date.now()/6e4)).then(r=>r.json()).then(d=>DEPTS=d).catch(()=>{});
 window.addEventListener('fb-ready',()=>{
-  FB.onAuthStateChanged(FB.auth,u=>{cuser=u;const el=$('#c-user');if(el)el.textContent=u?u.phoneNumber:'';if(location.hash.startsWith('#complaint'))renderComplaint();});
+  FB.onAuthStateChanged(FB.auth,u=>{cuser=u;const el=$('#c-user');
+    if(el) el.innerHTML=u?`${esc(u.phoneNumber||'')} · <a href="#complaint" id="c-logout" class="brass">வெளியேறு</a>`:'';
+    const lo=$('#c-logout'); if(lo) lo.onclick=async(ev)=>{ev.preventDefault();try{await FB.signOut(FB.auth);}catch(_){}
+      cuser=null;cstep=1;cdata={};pushToken=null;confirmationResult=null;if(window._rv){try{window._rv.clear();}catch(_){ }window._rv=null;}
+      renderComplaint();};
+    if(location.hash.startsWith('#complaint'))renderComplaint();});
 });
 const esc2=s=>esc(s);
 function renderComplaint(){
