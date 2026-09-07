@@ -234,6 +234,12 @@
   .ph,.dph,.th,.ad img{position:relative}
   .wm{position:absolute;right:10px;bottom:10px;line-height:1;font-family:var(--serif);font-size:11px;color:rgba(243,242,238,.85);text-shadow:0 0 4px rgba(0,0,0,.6);pointer-events:none;letter-spacing:.04em}
   .imgwrap{position:relative;display:block;width:100%;margin:0 0 8px;line-height:0;overflow:hidden;border-radius:4px;background:var(--paper2)}
+  .fig{display:block;margin:0 0 14px;padding:0;width:100%;position:relative}
+  .fig img{display:block;width:100%;height:auto;max-height:60vh;object-fit:contain;background:var(--paper2);border-radius:4px}
+  .fig figcaption{display:block;font-size:11px;color:var(--ink3);font-style:italic;line-height:1.5;margin-top:6px}
+  .figfull{margin:0 0 4px}
+  .figfull img{max-height:56vh;border-radius:0}
+  .figfull figcaption{padding:0 20px 10px}
   @media print{body{display:none}}
   .dim{opacity:.5}
 </style>
@@ -367,7 +373,7 @@ function pageHead(i,title,withLogo){
 }
 function card(s,lead,onTopic){
   const img=s.image&&s.image.url;const kick=onTopic?((s.entities||[])[0]||s.topic_ta):s.topic_ta;
-  if(lead) return `<div class="lead" data-id="${s.id}">${img?`<span class="imgwrap"><img class="ph" src="${esc(img)}" alt="" loading="lazy" onerror="this.parentElement.nextElementSibling&&this.parentElement.nextElementSibling.remove();this.parentElement.remove()"><span class="wm">துலாமுள்</span></span><div class="cap">படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}</div>`:''}
+  if(lead) return `<div class="lead" data-id="${s.id}">${img?`<figure class="fig"><img class="ph" src="${esc(img)}" alt="" loading="lazy" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}</figcaption></figure>`:''}
     <div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span><span class="v">சரிபார்க்கப்பட்டது</span></div>
     <h2>${esc(H(s))}</h2>
     <div class="foot"><span>மூலம்: ${esc(srcShort(s.sources||[]))}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:'<span>30 நொடி</span>'}</div></div>`;
@@ -713,7 +719,7 @@ function renderDetail(id){
   if(!s){el.innerHTML='<div class="empty">செய்தி கிடைக்கவில்லை.</div>';return;}
   const img=s.image&&s.image.url;const p=pub();const idx=p.indexOf(s);const nxt=p[idx+1];
   el.innerHTML=`<div class="topbar"><a class="icon" href="#back"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></a><span class="small muted">30 நொடி${s.audio?' · கேட்கலாம்':''}</span><a class="icon" id="share"><svg viewBox="0 0 24 24"><path d="M4 12v7h16v-7M12 3v12M8 7l4-4 4 4"/></svg></a></div>
-   ${img?`<span class="imgwrap"><img class="dph" src="${esc(img)}" alt="" onerror="this.parentElement.nextElementSibling&&this.parentElement.nextElementSibling.remove();this.parentElement.remove()"><span class="wm">துலாமுள்</span></span><div class="dcap">படம்: ${esc(s.image.credit)}</div>`:''}
+   ${img?`<figure class="fig figfull"><img src="${esc(img)}" alt="" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}</figcaption></figure>`:''}
    <div class="pad"><div class="small muted" style="margin-top:14px"><b class="brass" style="font-weight:500">${esc(s.topic_ta)}</b> · ${esc((s.entities||[])[0]||'')} · ${new Date(s.published_at).toLocaleDateString('ta-IN',{day:'numeric',month:'short',year:'numeric'})} ${hm(s.published_at)}</div>
    <h1>${esc(H(s))}</h1>
    <div class="body5">${L(s).map((l,i)=>`<p><span class="n">${TA[i]}</span>${esc(l)}</p>`).join('')}</div>
