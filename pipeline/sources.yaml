@@ -41,4 +41,19 @@
 - {name: Dinamani Tech, url: "https://www.dinamani.com/api/v1/collections/technology.rss", topic: tech, grade: media}
 - {name: TechCrunch, url: "https://techcrunch.com/feed/", topic: tech, grade: media}
 - {name: The Verge, url: "https://www.theverge.com/rss/index.xml", topic: tech, grade: media}
+- {name: The Hindu National, url: "https://www.thehindu.com/news/national/feeder/default.rss", topic: india, grade: media}
+- {name: NDTV India, url: "https://feeds.feedburner.com/ndtvnews-india-news", topic: india, grade: media}
+- {name: India Today, url: "https://www.indiatoday.in/rss/1206578", topic: india, grade: media}
+- {name: Indian Express India, url: "https://indianexpress.com/section/india/feed/", topic: india, grade: media}
+- {name: Business Standard India, url: "https://www.business-standard.com/rss/india-news-215.rss", topic: india, grade: media}
+- {name: PIB Cabinet, url: "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", topic: india, grade: official}
+- {name: Dinamani India, url: "https://www.dinamani.com/api/v1/collections/india.rss", topic: india, grade: media}
+- {name: Hindu Tamil India, url: "https://www.hindutamil.in/rss/india.xml", topic: india, grade: media}
+- {name: Behindwoods, url: "https://www.behindwoods.com/rss/tamil-cinema-news.xml", topic: cinema, grade: media}
+- {name: Indian Express Cinema, url: "https://indianexpress.com/section/entertainment/tamil/feed/", topic: cinema, grade: media}
+- {name: Hindu Tamil Cinema, url: "https://www.hindutamil.in/rss/cinema.xml", topic: cinema, grade: media}
+- {name: Hindu Tamil Sports, url: "https://www.hindutamil.in/rss/sports.xml", topic: sports, grade: media}
+- {name: Sportstar, url: "https://sportstar.thehindu.com/feeder/default.rss", topic: sports, grade: media}
+- {name: Olympics India, url: "https://olympics.com/en/news/rss", topic: sports, grade: media}
+- {name: Hindu Tamil TN, url: "https://www.hindutamil.in/rss/tamilnadu.xml", topic: tn, grade: media}
 # RSS முகவரிகள் மாறலாம் — முதல் ஓட்டத்தின் log பார்த்து சரிசெய்வோம். மூலம் சேர்ப்பது = ஒரு வரி.
