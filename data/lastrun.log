@@ -3,17 +3,17 @@
 [fetch] RBI: 3 புதியவை
 [fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 27 புதியவை
+[fetch] The Hindu TN: 21 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 22 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 27 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 23 புதியவை
 [fetch] Cinema Express: 25 புதியவை
-[fetch] The Hindu Tech: 11 புதியவை
-[fetch] Wired: 26 புதியவை
+[fetch] The Hindu Tech: 12 புதியவை
+[fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 17 புதியவை
@@ -32,15 +32,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 16 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 16 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -55,26 +55,35 @@
 [fetch] Sportstar: 29 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
-[run] புதியவை 548 → நிகழ்வுகள் 516
-[tts-edge] f0b4741a0c43: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மத்தியப் பிரதேசம் சேகோரில் குளோரின் கேஸ் கசிவு; 4 பேர் மருத்துவமனையில்
-[tts-edge] 4db4b0dee425: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆந்திரப் பிரதேசத்தில் செப்டம்பர் 12 முதல் மழை; 59% பற்றாக்குறை
-[img wiki] Expecting value: line 1 column 1 (char 0)
-[img] pexels_image: தமிழ்நாடு சட்டப்பேரவை முன்னாள் ராணுவ வீர
-[publish] முன்னாள் ராணுவ வீரர்கள், விதவைகளுக்கான மாத உதவி ₹6,000 ஆக உயர்வு: அமைச்சர்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உள்ளடக்கம் இல்லை; இது ஒரு 
-[publish] எஸ்பி இளைஞர் அணிக்கு நீல உடை அறிமுகப்படுத்திய அகிலேஷ் யாதவ்
-[img wiki] Expecting value: line 1 column 1 (char 0)
-[img] pexels_image: பீகார் வெள்ளம்
-[publish] பீகாரில் வெள்ள நீர் மட்டம் சிறிது குறைவு, அபாயம் தொடர்கிறது
-[skip] இது ஒரு நபரின் பழைய நினைவுகளை பகிரும் கட்டுரை/பேட்டி வகை உள்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைக்கிறது, சம்பவத்தின் விவரம், த
-[publish] ஷோலிங்கர் அருகே தீ விபத்தில் புதிய நீர்க்குழாய்கள் எரிந்து நாசம்
-[skip] இது கர்நாடகாவின் உள்ளூர் மின்சார வாரியத்தின் வழக்கமான பண்டிக
+[run] புதியவை 518 → நிகழ்வுகள் 499
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உள்ளடக்கம் இல்லை என்பதால் 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (பெயர், இடம், நே
+[skip] இது கேரளாவின் ஒரு கல்லூரி நிகழ்வு பற்றிய சிறு உள்ளூர் செய்தி
+[tts-edge] d2bd1b4c28ec: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மணிப்பூரில் நெடுஞ்சாலை முடக்கத்தை தீவிரப்படுத்தும் நாகா கவுன்சில்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; 2019 உள்ள
+[skip] மூலத்தில் ஒரு தலைப்பும், ஒரு பொதுவான வரியும் மட்டுமே உள்ளது;
+[tts-edge] d5ba95e46492: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கார்கே அணிவகுப்பு மேடை தூய்மைப்படுத்தியோர் மீது நைனிடால் காவல் புகார்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] கர்நாடகாவில் 72,000 காலிப் பணியிடங்களுக்கு அறிவிப்பு கோரி போராட்டம்
-[publish] திருவண்ணாமலையில் புதிய டாசுமாக் கடைக்கு 100க்கும் மேற்பட்டோர் எதிர்ப்பு
+[img wiki] Expecting value: line 1 column 1 (char 0)
+[img] unsplash_image: தமிழ்நாடு அரசு தர்மேந்திர பிரதாப் யாதவ்
+[publish] தமிழ்நாட்டில் 27 ஐஏஎஸ் அதிகாரிகள் பணியிட மாற்றம், புதிய முதன்மைச் செயலாளர் நியமனம்
+[skip] இது கேரளாவின் ஒரு மாவட்ட அளவிலான வழக்கமான துறை மறுஆய்வுக் கூ
+[skip] மூலத்தில் தலைப்பும் ஒரு வரி சுருக்கமும் மட்டுமே உள்ளன; மேற்க
+[publish] நோய்டா மாணவருக்கு போலீஸ் நோட்டீஸ், ஒரு நாளில் ரத்து
+[publish] கார்கே குடும்ப அறக்கட்டளை மனை வழக்கில் புதிய உத்தரவிட உயர் நீதிமன்றம் பணிப்பு
+[skip] ஆந்திரப் பிரதேசத்தின் உள்ளூர் கலாச்சார விருது பற்றிய சிறு அற
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; மேலும் இத
+[publish] பேலந்தோர் விருது: ஆண்கள், பெண்கள் பிரிவுக்கான 30 வீரர் பட்டியல் வெளியீடு
+[skip] ஆஸ்திரேலியா-தென்னாப்பிரிக்கா இருதரப்பு தொடருக்கான அணி அறிவிப
+[skip] வெறும் லைவ் ஸ்கோர் அப்டேட் - சாம்பியன்ஸ் லீக் குரூப் கட்ட வழ
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது ரிசர்வ் வங்கியின் அன்றாட பணச் சந்தை செயல்பாடுகள் தொடர்பா
+[publish] AI பயம், எண்ணெய் விலை உயர்வால் அமெரிக்க பங்குச் சந்தை சரிவு
+[publish] NSE-யின் IPO பங்கு விலை ₹1,700-1,785ஆக குறைப்பு எனத் தகவல்
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 290 · pending 0 · எழுதியவை 8
+[done] feed 298 · pending 0 · எழுதியவை 8
