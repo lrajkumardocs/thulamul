@@ -129,8 +129,9 @@ def write_script(client, model, state, today):
     extras = ", ".join(CHARS.get("extras_en", {}).keys())
     beats = BEATS.get(arc["id"]) or []
     d = state.get("day", 1)
-    beat = beats[d - 1] if d - 1 < len(beats) else ""
-    nxt = beats[d] if d < len(beats) else ""
+    _clean = lambda x: re.sub(r"^\s*நாள்\s*\d+\s*[:.\-–]\s*", "", x or "").strip()
+    beat = _clean(beats[d - 1]) if d - 1 < len(beats) else ""
+    nxt = _clean(beats[d]) if d < len(beats) else ""
     user = (f"ARC: பாகம் {arc['book']} «{BOOK_TA.get(arc['book'], '')}» · பகுதி «{arc['title_ta']}» · "
             f"N = {arc['days']} நாட்கள் · இன்று d = {state.get('day', 1)}\n"
             f"இடங்கள்: {arc.get('places', '')}\nஇப்பகுதியின் சுருக்கம்:\n{arc['synopsis_ta']}\n\n"
@@ -339,7 +340,11 @@ def compose(panels_bytes, script, state, today, out_path):
     d.line([(MARGIN, fy - 12), (W - MARGIN, fy - 12)], fill=BRASS, width=2)
     d.text((MARGIN, fy), "துலாமுள் தினசரிக் காமிக்ஸ் · கல்கியின் நாவலின் ஓவிய வடிவம்", font=f_foot, fill=GREY)
     ds = ta_date(today); d.text((W - MARGIN - d.textlength(ds, font=f_foot), fy), ds, font=f_foot, fill=GREY)
-    d.text((MARGIN, fy + 30), "நாளை தொடரும்...", font=f_foot, fill=INK)
+    tmr = (script.get("tomorrow_ta") or "").strip()
+    line = f"நாளை: {tmr}" if tmr else "நாளை தொடரும்..."
+    while d.textlength(line, font=f_foot) > W - 2 * MARGIN - 150 and len(line) > 20:
+        line = line[:-2].rstrip() + "…"
+    d.text((MARGIN, fy + 30), line, font=f_foot, fill=INK)
     sig = FONT_DIR / "signature.png"
     if sig.exists():
         try:
@@ -378,6 +383,9 @@ def telegram_photo(path, caption):
 def build(client, model, today, telegram=None):
     """run.py அழைக்கும். இன்று ஏற்கெனவே வெளியானது / மறைக்கப்பட்டது எனில் ஒன்றும் செய்யாது."""
     state = load_state()
+    launch = state.get("launch_date") or os.environ.get("COMIC_LAUNCH_DATE", "")
+    if launch and today < launch:                      # தொடக்க நாளுக்கு முன் வெளியிடாது
+        print(f"[comic] தொடக்கம் {launch} — இன்னும் இல்லை"); return None
     if state.get("last_date") == today or state.get("skip_date") == today:
         return None
     if not STORY.get("arcs"):
@@ -465,6 +473,15 @@ if __name__ == "__main__":
         pb = [(OUT / "panels" / f"{dt}_{n}.png").read_bytes() for n in range(1, 5)]
         e = next(x for x in _j(INDEX_FILE, []) if x["date"] == dt)
         print("பலகைகள் உள்ளன; ஆனால் அன்றைய கதை JSON சேமிக்கப்படவில்லை — comic_draft-லிருந்து மட்டுமே" if not e.get("script") else compose(pb, e["script"], load_state(), dt, OUT / f"{dt}.png"))
+    elif "--reset" in sys.argv:                           # லான்ச்: நாள் 1-லிருந்து புதிதாக. python pipeline/comic.py --reset 2026-10-01
+        d = sys.argv[sys.argv.index("--reset") + 1] if len(sys.argv) > sys.argv.index("--reset") + 1 else ""
+        _save(STATE_FILE, {"arc_i": 0, "day": 1, "global_day": 1, "story_so_far": "", "arc_days": [],
+                           "last_date": None, "skip_date": None, "prev": None, "launch_date": d})
+        _save(INDEX_FILE, []); _save(DRAFT_FILE, {})
+        for f in list(OUT.glob("*.png")) + list((OUT / "panels").glob("*.png") if (OUT / "panels").exists() else []) + list((OUT / "_wip").glob("*.png") if (OUT / "_wip").exists() else []):
+            f.unlink()
+        print(f"[comic] மீட்டமைக்கப்பட்டது · தொடக்கம் {d or 'உடனே'} · நாள் 1-லிருந்து")
+        telegram(f"🔄 காமிக்ஸ் நாள் 1-லிருந்து தொடங்கத் தயார்" + (f" — {d} முதல்." if d else "."))
     elif "--redo" in sys.argv:                            # இன்றைய பக்கத்தை முதலிலிருந்து மீண்டும் (கதை + படங்கள்) உருவாக்கு
         from anthropic import Anthropic
         today = datetime.now(IST).strftime("%Y-%m-%d")
