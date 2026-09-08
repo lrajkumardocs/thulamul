@@ -73,6 +73,7 @@ def ta_date(today):
 CHARS = _j(PIPE / "comic_characters.json", {})
 STORY = _j(PIPE / "comic_story.json", {})
 CHAR_BY_ID = {c["id"]: c for c in CHARS.get("characters", [])}
+BEATS = _j(PIPE / "comic_beats.json", {})      # முன்பே பூட்டப்பட்ட நாள் வாரி நிகழ்வுகள்
 BOOK_TA = {b["n"]: b["title_ta"] for b in STORY.get("books", [])}
 EXTRA_TA = {"sendhan_amudhan": "சேந்தன் அமுதன்", "mandakini": "மந்தாகினி", "kandamaran": "கந்தமாறன்", "manimekalai": "மணிமேகலை",
             "sambuvaraiyar": "சம்புவரையர்", "ravidasan": "ரவிதாசன்", "parthibendran": "பார்த்திபேந்திரன்", "malayaman": "மலையமான்",
@@ -126,6 +127,10 @@ def write_script(client, model, state, today):
     sysm = (PIPE / "prompts/comic_day.md").read_text(encoding="utf-8")
     cast = "\n".join(f"- {c['id']}: {c['name_ta']} — {c['role_ta']}" for c in CHARS["characters"])
     extras = ", ".join(CHARS.get("extras_en", {}).keys())
+    beats = BEATS.get(arc["id"]) or []
+    d = state.get("day", 1)
+    beat = beats[d - 1] if d - 1 < len(beats) else ""
+    nxt = beats[d] if d < len(beats) else ""
     user = (f"ARC: பாகம் {arc['book']} «{BOOK_TA.get(arc['book'], '')}» · பகுதி «{arc['title_ta']}» · "
             f"N = {arc['days']} நாட்கள் · இன்று d = {state.get('day', 1)}\n"
             f"இடங்கள்: {arc.get('places', '')}\nஇப்பகுதியின் சுருக்கம்:\n{arc['synopsis_ta']}\n\n"
@@ -133,7 +138,9 @@ def write_script(client, model, state, today):
             f"ARC_DAYS_DONE:\n" + ("\n".join(f"{k + 1}. {s}" for k, s in enumerate(state.get('arc_days') or [])) or "(இல்லை)") +
             f"\n\nCAST (குறிப்புப் படம் உண்டு):\n{cast}\nஇப்பகுதியின் முக்கியப் பாத்திரங்கள்: {', '.join(arc.get('chars', []))}\n"
             f"extras (குறிப்புப் படம் இல்லை; scene_en-ல் விவரி): {extras}\n"
-            f"இன்று: {today}. JSON மட்டும் தா.")
+            + (f"\n\n★ இன்றைய நிகழ்வு (இதை மட்டும் 4 பலகையாக்கு; முன்னும் பின்னும் போகாதே):\n{beat}"
+               + (f"\n(நாளை வரப்போவது: {nxt} — இதை இன்று சொல்லாதே; இன்றைய பக்கம் இதை நோக்கிய ஈர்ப்புடன் முடியட்டும்.)" if nxt else "") if beat else "")
+            + f"\nஇன்று: {today}. JSON மட்டும் தா.")
     msg = client.messages.create(model=model, max_tokens=3500, system=sysm, messages=[{"role": "user", "content": user}])
     raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
     raw = re.sub(r"^```(?:json)?|```$", "", raw.strip(), flags=re.M).strip()
@@ -169,10 +176,21 @@ def _gemini(parts, tag):
                 print(f"[comic:{tag}] {model} பிழை", str(ex)[:120])
     return None
 
+def _phash(b, n=16):
+    """எளிய அடையாளக் குறியீடு — இரு படங்கள் ஒரே மாதிரியா என்று ஒப்பிட."""
+    im = Image.open(io.BytesIO(b)).convert("L").resize((n, n), Image.LANCZOS)
+    px = list(im.getdata()); avg = sum(px) / len(px)
+    return [1 if v > avg else 0 for v in px]
+
+def _too_similar(a, b, limit=0.86):
+    ha, hb = _phash(a), _phash(b)
+    same = sum(1 for x, y in zip(ha, hb) if x == y) / len(ha)
+    return same >= limit, same
+
 def _img_part(b, mime="image/png"):
     return {"inline_data": {"mime_type": mime, "data": base64.b64encode(b).decode()}}
 
-def draw_panel(panel, n, prev_bytes=None):
+def draw_panel(panel, n, prev_bytes=None, differ=False):
     """ஒரு பலகை. குறிப்புப் படங்கள் + முந்தைய பலகை → Gemini → bytes."""
     parts = [{"text": CHARS["style_en"] + "\n\nThis is one panel of a four-panel daily comic page. "
               "Landscape framing, 4:3 (wider than tall). Keep the main characters' faces well inside the frame, not cut off at the edges. "
@@ -194,8 +212,14 @@ def draw_panel(panel, n, prev_bytes=None):
         if ex in (panel.get("scene_en", "") + " " + json.dumps(panel.get("bubbles", []))).lower():
             parts.append({"text": f"Minor character '{ex}': {desc}"})
     if prev_bytes:
-        parts.append({"text": "The previous panel of this same page is shown next; match its style, palette, line weight and lighting exactly."})
+        parts.append({"text": "The previous panel of this same page is shown next. Match its style, palette, line weight and lighting exactly — "
+                              "but the PICTURE ITSELF MUST BE CLEARLY DIFFERENT: a different camera distance and angle, different placement of the "
+                              "characters in the frame, and a different part of the setting. Never repeat the previous panel's composition."})
         parts.append(_img_part(prev_bytes))
+    if differ:
+        parts.append({"text": "IMPORTANT: your previous attempt looked almost identical to the earlier panel. Change the shot completely — "
+                              "if the last one was a wide view, make this a close-up; move the characters to the other side of the frame; "
+                              "change the angle (low, high, over-the-shoulder) and show a different part of the scene."})
     parts.append({"text": f"NOW DRAW PANEL {n}: {panel['scene_en']}\nREMINDER: absolutely no text, letters, numbers or speech bubbles in the image."})
     return _gemini(parts, f"panel{n}")
 
@@ -329,6 +353,16 @@ def compose(panels_bytes, script, state, today, out_path):
     return out_path
 
 # ---------------------------------------------------------------- 4. telegram
+def telegram(text):
+    tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    if not (tok and chat):
+        return
+    try:
+        requests.post(f"https://api.telegram.org/bot{tok}/sendMessage",
+                      json={"chat_id": chat, "text": text, "parse_mode": "HTML"}, timeout=15)
+    except Exception as ex:
+        print("[comic:telegram]", ex)
+
 def telegram_photo(path, caption):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not (tok and chat):
@@ -364,9 +398,20 @@ def build(client, model, today, telegram=None):
     panels, prev = [], None
     for n, p in enumerate(script["panels"], 1):
         f = wip / f"{today}_{n}.png"
-        b = f.read_bytes() if f.exists() else draw_panel(p, n, prev)
-        if not b:
-            print(f"[comic] பலகை {n} தோல்வி — அடுத்த ஓட்டத்தில் தொடரும்"); return None
+        b = f.read_bytes() if f.exists() else None
+        tries = 0
+        while True:
+            if b is None:
+                b = draw_panel(p, n, prev, differ=tries > 0)
+            if not b:
+                print(f"[comic] பலகை {n} தோல்வி — அடுத்த ஓட்டத்தில் தொடரும்"); return None
+            dup = next(((k, sc) for k, old_b in enumerate(panels, 1) for ok, sc in [_too_similar(old_b, b)] if ok), None)
+            if not dup or tries >= 2:                       # அதிகபட்சம் 2 மறுமுயற்சி (செலவுக் கட்டுப்பாடு)
+                if dup:
+                    print(f"[comic] பலகை {n}: பலகை {dup[0]}-ஐ ஒத்திருக்கிறது ({dup[1]:.2f}) — அப்படியே வைக்கிறேன்")
+                break
+            print(f"[comic] பலகை {n}: பலகை {dup[0]}-ஐப் போலவே உள்ளது ({dup[1]:.2f}) — மீண்டும் வரைகிறேன்")
+            b = None; tries += 1
         f.write_bytes(b); panels.append(b); prev = b
         print(f"[comic] பலகை {n} தயார்")
 
