@@ -3,7 +3,7 @@
 [fetch] RBI: 0 புதியவை
 [fetch] ET Markets: 0 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 13 புதியவை
+[fetch] The Hindu TN: 4 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 23 புதியவை
@@ -33,14 +33,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 2 புதியவை
+[fetch] The Hindu Legal: 1 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 2 புதியவை
+[fetch] The Hindu National: 1 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -52,31 +52,17 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 29 புதியவை
+[fetch] Sportstar: 27 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
-[run] புதியவை 447 → நிகழ்வுகள் 444
-[skip] மூலத்தில் ஒரே ஒரு வாக்கியம் மட்டுமே உள்ளது; 5 உண்மைத் தகவல் 
+[run] புதியவை 434 → நிகழ்வுகள் 433
+[tts-edge] d9f07f7f8974: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சமூக, அரசியல் அமைப்புகள் மீதான தடையை மறுபரிசீலனை செய்ய வேண்டும்: மிர்வாய்ஸ் உமர் பரூக்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (யார்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] ஐரோப்பிய கால்பந்து சாம்பியன்ஸ் லீக் கிளப் போட்டி முடிவுகள் —
-[tts-edge] 8ece138f08fc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டின் GSDP 15.98 % வளர்ச்சி, கடன் ₹8.53 லட்சம் கோடி: CAG
-[tts-edge] c3757dd48eeb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலில் வேட்பாளர் நிறுத்துவோம்: பழனிசாமி அறிவிப்பு
-[publish] கடலூர் மாவட்டத்தில் 11 அரசுப் பள்ளிகளில் பசுமைப் பள்ளி திட்டம் நிறைவு
-[img wiki] Expecting value: line 1 column 1 (char 0)
-[img] pexels_image: கடலூர் ஆதார் சேவை மையம்
-[publish] கடலூரில் புதிய ஆதார் சேவை மையம் திறப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CernGZmioUVsvfT4qCMaT'}
-[skip] இது ஒரு 'விளக்கம்' (Explainer) கட்டுரையின் தலைப்பு மற்றும் க
-[publish] தமிழக சட்டமன்ற பட்ஜெட் கூட்டத்தொடர் 28 நாட்களுக்குப் பிறகு நிறைவு
-[publish] சட்டசபை பேச்சின் போது தன் சைகை தற்செயலானது என முதலமைச்சர் விஜய் விளக்கம்
-[img wiki] Expecting value: line 1 column 1 (char 0)
-[img] pexels_image: நீலகிரி நடுஹட்டி
-[publish] நீலகிரியில் 14 அனுமதியில்லா லேஅவுட்கள் மீது நடவடிக்கை கோரிக்கை
-[img wiki] Expecting value: line 1 column 1 (char 0)
-[img] pexels_image: தமிழ்நாடு சட்டமன்றம் திமுக
-[hold] தமிழக சட்டமன்றத்தில் எதிர்ப்புக்கு இடையே 11 மசோதாக்கள் நிறைவேற்றம்
+[tts-edge] d89fb31f5386: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கள்ளக்குறிச்சி மது சோகம்: காவல், கலால் அதிகாரிகள் மீது கமிஷன் குற்றச்சாட்டு
+[publish] சிவகார்த்திகேயன் புதிய படத்தில் சீமான் நடிப்பு உறுதி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 8
+[done] feed 300 · pending 2 · எழுதியவை 3
