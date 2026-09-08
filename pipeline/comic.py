@@ -177,6 +177,7 @@ def draw_panel(panel, n, prev_bytes=None):
     parts = [{"text": CHARS["style_en"] + "\n\nThis is one panel of a four-panel daily comic page. "
               "Landscape framing, 4:3 (wider than tall). Keep the main characters' faces well inside the frame, not cut off at the edges. "
               "Do NOT draw any speech bubble, empty bubble, banner, scroll or text box — dialogue will be printed separately beneath the picture. "
+              "The painting fills the whole image edge to edge: no frame, no border, no blank margin around it. "
               "Full colour in the fixed mural palette; ink outlines strong and clean."}]
     k = 0
     for cid in panel.get("characters", []):
@@ -230,8 +231,30 @@ def _bubble(d, x0, w, y, text, side, font, f_name, name):
         d.text((bx + pad, ty), l, font=font, fill=INK); ty += lh
     return y + bh + 20
 
+def _trim(im):
+    """Gemini வரைந்த காலி ஓரம் / சட்டகம் இருந்தால் தானாக நீக்கு (மூலையின் நிறத்தை ஒத்த பகுதி)."""
+    try:
+        from PIL import ImageChops, ImageFilter, ImageStat
+        g = im.convert("RGB"); w, h = g.size
+        ring = [g.crop((0, 0, w, 6)), g.crop((0, h - 6, w, h)), g.crop((0, 0, 6, h)), g.crop((w - 6, 0, w, h))]
+        med = [int(sum(ImageStat.Stat(r).median[k] for r in ring) / 4) for k in range(3)]     # ஓரங்களின் சராசரி நிறம்
+        bg = Image.new("RGB", g.size, tuple(med))
+        diff = ImageChops.difference(g.filter(ImageFilter.GaussianBlur(2)), bg).convert("L").point(lambda v: 255 if v > 40 else 0)
+        import numpy as np
+        a = np.asarray(diff) > 0
+        rows = np.where(a.mean(axis=1) > 0.03)[0]; cols = np.where(a.mean(axis=0) > 0.03)[0]   # ஒற்றைப் புள்ளிகளைப் புறக்கணி
+        box = (int(cols[0]), int(rows[0]), int(cols[-1]) + 1, int(rows[-1]) + 1) if len(rows) and len(cols) else None
+        if box and (box[2] - box[0]) * (box[3] - box[1]) < 0.92 * g.width * g.height and (box[2] - box[0]) > 0.4 * g.width:
+            return g.crop(box)
+    except Exception:
+        pass
+    return im.convert("RGB")
+
+def _open(pb):
+    return _trim(Image.open(io.BytesIO(pb)))
+
 def _img_size(pb):
-    im = Image.open(io.BytesIO(pb)); r = min((PW - 8) / im.width, IMG_MAX_H / im.height)
+    im = _open(pb); r = min((PW - 8) / im.width, IMG_MAX_H / im.height)
     return max(1, int(im.width * r)), max(1, int(im.height * r))
 
 def _panel_height(d, p, f_cap, f_bub, f_name):
@@ -277,7 +300,7 @@ def compose(panels_bytes, script, state, today, out_path):
             for l in _wrap(d, cap, f_cap, PW - 48)[:2]:
                 d.text((x0 + 24, ty), l, font=f_cap, fill=INK); ty += int(f_cap.size * 1.5)
             y += cap_h
-        im = Image.open(io.BytesIO(pb)).convert("RGB").resize((iw, ih), Image.LANCZOS)   # முழுப் படமும் — வெட்டு இல்லை
+        im = _open(pb).resize((iw, ih), Image.LANCZOS)   # முழுக் காட்சியும் — காலி ஓரம் மட்டும் நீக்கம்
         page.paste(im, (x0 + 4 + (PW - 8 - iw) // 2, y))
         d.line([(x0 + 4, y), (x0 + PW - 4, y)], fill=INK, width=2); y += ih
         d.line([(x0 + 4, y), (x0 + PW - 4, y)], fill=INK, width=2)
