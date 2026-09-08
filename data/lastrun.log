@@ -1,22 +1,22 @@
 [fetch] PIB Tamil: 0 புதியவை
 [fetch] PIB English: 0 புதியவை
 [fetch] RBI: 0 புதியவை
-[fetch] ET Markets: 26 புதியவை
+[fetch] ET Markets: 16 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 22 புதியவை
+[fetch] BBC World: 23 புதியவை
 [fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 27 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 23 புதியவை
 [fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 12 புதியவை
-[fetch] Wired: 27 புதியவை
+[fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Health: 18 புதியவை
 [fetch] PIB Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] PIB Agriculture: 0 புதியவை
@@ -33,14 +33,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 0 புதியவை
+[fetch] The Hindu Legal: 1 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 0 புதியவை
+[fetch] The Hindu National: 1 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -55,19 +55,21 @@
 [fetch] Sportstar: 28 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
-[run] புதியவை 471 → நிகழ்வுகள் 471
-[tts-edge] 700f5ade5747: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கரம்தாரா இன்ஜினியரிங் ஆங்கர் முதலீட்டாளர்களிடம் ரூ. 262 கோடி திரட்டியது
-[tts-edge] c504361e0ffa: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] செபி ஒப்புதலுக்குப் பின் ஜியோ ஐபிஓவுக்கு முதலீட்டாளர் தொடர்பு தொடக்கம்
-[publish] சென்செக்ஸ் 555 புள்ளி சரிவு, நிஃப்டி 23,650க்கு கீழே முடிவு
-[publish] அமெரிக்க மக்கள் வேலைவாய்ப்பு குறித்து அதிக கவலை: நியூயார்க் ஃபெட் அறிக்கை
+[run] புதியவை 466 → நிகழ்வுகள் 464
+[img wiki] Expecting value: line 1 column 1 (char 0)
+[img] openverse_image: world globe map international
+[tts-edge] 241216912ddb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பிரிட்டனில் விமான போக்குவரத்துக் கோளாறால் நூற்றுக்கணக்கான விமானங்கள் ரத்து
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CerhPEkqi6417PEnLQVZd'}
+[tts-edge] 8a4de79635a9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] 2047க்குள் ரியல் எஸ்டேட் ஜிடிபி பங்கு 20% ஆக உயரலாம் என நைட் ஃபிராங்க் கணிப்பு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] நிஃப்டி தொடர்ச்சியாக இரண்டாவது நாளாக 144 புள்ளிகள் சரிவு, நான்கு பங்குகள் பரிந்துரை
-[publish] ஸ்டீம்ஹவுஸ் இந்தியா IPO: ஆங்கர் முதலீட்டாளர்களிடமிருந்து ₹124 கோடி திரட்டிய நிறுவனம்
-[skip] இது கனடா நிறுவனமான Bombardier பங்கு விலை ஏற்ற இறக்கம் தொடர்ப
-[publish] அமெரிக்க 10 ஆண்டு பத்திர வட்டி 5 சதவீதத்தை நெருங்குகிறது
-[publish] பயோகான் நிறுவனத்தின் 1% பங்கு விற்பனை ₹638 கோடி மதிப்பில் திட்டம்
+[publish] மும்பையில் அக்சென்ச்சருக்கு 2.7 லட்சம் சதுர அடி அலுவலக இடம் குத்தகை
+[hold] பெங்களூரு, ஹைதராபாத், சென்னை நகரங்களில் REIT அலுவலக இடம் 62% பங்கு
+[publish] சிக்னேச்சர் குளோபல் நிறுவனம் ரூ 12,000 கோடியில் இரு குடியிருப்பு திட்டங்கள் அறிவிப்பு
+[publish] நகர்ப்புற வளர்ச்சி அமைச்சகச் செயலர் ரியல் எஸ்டேட் நிறுவனங்களுக்கு அறிவுரை
+[publish] ஆல்பாகிரெப் நிறுவனம் 200 கோடி ரூபாய் பத்திரங்கள் மூலம் நிதி திரட்டியது
+[publish] வளைகுடா பதற்றத்தால் எண்ணெய் விலை உயர்வு, அமெரிக்க பங்குச் சந்தை கலவையான தொடக்கம்
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 8
+[done] feed 300 · pending 1 · எழுதியவை 8
