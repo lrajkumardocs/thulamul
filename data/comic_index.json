@@ -1,13 +1,70 @@
 [
  {
   "date": "2026-09-08",
-  "title": "வீரநாராயண ஏரிக்கரையில்",
+  "title": "வீரநாராயணபுரம் பயணம்",
   "book": 1,
   "book_ta": "புது வெள்ளம்",
   "arc": "ஆடித் திருநாள்",
   "day": 1,
   "file": "data/comic/2026-09-08.png",
-  "summary": "வந்தியத்தேவன் ஆதித்த கரிகாலனின் ஓலைகளுடன் வீரநாராயண ஏரிக்கரை வழியே கடம்பூர் நோக்கிச் செல்கையில் முன்னால் கூச்சலைக் காண்கிறான்.",
-  "hidden": false
+  "summary": "வந்தியத்தேவன் இரு ரகசிய ஓலைகளுடன் வீரநாராயணபுரம் ஏரிக்கரை வழியே கடம்பூர் செல்கையில் தூரத்தே கூச்சல் கேட்கிறது.",
+  "hidden": false,
+  "script": {
+   "title_ta": "வீரநாராயணபுரம் பயணம்",
+   "panels": [
+    {
+     "scene_en": "Wide shot, golden evening light over a vast lake shore path in 10th century Chola country. Vandiyathevan (as in reference image), a young warrior in simple travel armor, rides a brown horse along the earthen bund of a huge lake. Palm trees line the horizon. Feeling: adventurous, free. Camera: wide, day/dusk.",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "ஆடித் திருநாள் மாலை, வீரநாராயணபுரம் ஏரிக்கரை வழியே ஒரு குதிரைவீரன்...",
+     "bubbles": []
+    },
+    {
+     "scene_en": "Medium shot, Vandiyathevan (as in reference image) slows his horse near the lake, looking out at the shimmering water with admiration, sluice gates visible in distance, farmers working fields beyond the bund. Feeling: wonder. Camera: medium, dusk, keep upper sky area empty for text.",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "இந்த ஏரியின் பரப்பே ஒரு சிற்றரசு போல் இருக்கிறதே!"
+      }
+     ]
+    },
+    {
+     "scene_en": "Close-up, Vandiyathevan (as in reference image) has stopped his horse under a tree, reaching into his waist pouch to touch two sealed palm-leaf letters, checking them carefully with a serious expression. Feeling: responsibility, secrecy. Camera: close-up, dusk, upper part of frame kept plain (tree bark/sky).",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "இளவரசர் ஆதித்த கரிகாலனின் இரு ஓலைகள் அவன் இடையிலே பாதுகாப்பாக...",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "R",
+       "text_ta": "சக்கரவர்த்திக்கு ஒன்று, இளையபிராட்டிக்கு ஒன்று — கவனமாகச் சேர்க்க வேண்டும்."
+      }
+     ]
+    },
+    {
+     "scene_en": "Wide shot, dusk turning to twilight, Vandiyathevan (as in reference image) sitting alert on his horse on the lake road, turning his head sharply toward a distant commotion — faint shouting and a crowd gathering near a temple road junction far ahead. Feeling: curiosity, tension building. Camera: wide, day-to-dusk.",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "தூரத்தே ஏதோ கூச்சல்! கடம்பூர் சாலையின் திருப்பத்தில் என்ன நடக்கிறது?",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "இது என்ன சண்டையின் சத்தம் போல் இருக்கிறதே?"
+      }
+     ]
+    }
+   ],
+   "summary_ta": "வந்தியத்தேவன் இரு ரகசிய ஓலைகளுடன் வீரநாராயணபுரம் ஏரிக்கரை வழியே கடம்பூர் செல்கையில் தூரத்தே கூச்சல் கேட்கிறது.",
+   "story_so_far_ta": "ஆடித் திருநாள் மாலையில், வல்லவரையன் வந்தியத்தேவன் என்ற இளம் வீரன் தன் குதிரையில் வீரநாராயணபுரம் ஏரிக்கரை வழியே கடம்பூர் நோக்கிச் செல்கிறான். இளவரசர் ஆதித்த கரிகாலன் அவனிடம் இரு முக்கிய ரகசிய ஓலைகளை ஒப்படைத்திருக்கிறான் — ஒன்று சோழ சக்கரவர்த்திக்கும், மற்றொன்று இளையபிராட்டி குந்தவைக்கும். சோழ நாட்டின் செழிப்பையும் ஏரியின் பெருமையையும் கண்டு வியந்தபடி பயணிக்கும் அவன், தான் சுமக்கும் பொறுப்பின் முக்கியத்துவத்தை நினைத்துப் பார்க்கிறான். பயணத்தின் நடுவே, தூரத்தே கடம்பூர் சாலையின் திருப்பத்தில் ஏதோ கூச்சலும் கூட்டமும் கூடியிருப்பதைக் கவனிக்கிறான். அங்கு என்ன நடக்கிறது என்று அறியும் ஆவலுடன் அவன் அந்தத் திசையை நோக்கி நடத்திச் செல்கிறான்."
+  }
  }
 ]
