@@ -3,17 +3,17 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 24 புதியவை
+[fetch] The Hindu TN: 26 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 23 புதியவை
+[fetch] BBC World: 22 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 29 புதியவை
+[fetch] ESPNcricinfo: 30 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
 [fetch] The Hindu Cinema: 24 புதியவை
 [fetch] Cinema Express: 27 புதியவை
 [fetch] The Hindu Tech: 12 புதியவை
-[fetch] Wired: 25 புதியவை
+[fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 17 புதியவை
@@ -32,10 +32,10 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 9 புதியவை
+[fetch] Bar and Bench: 5 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 27 புதியவை
+[fetch] Dinamani Cinema: பிழை HTTPSConnectionPool(host='www.dinamani.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
@@ -55,6 +55,22 @@
 [fetch] Sportstar: 30 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
-[run] புதியவை 599 → நிகழ்வுகள் 541
+[run] புதியவை 571 → நிகழ்வுகள் 512
+[skip] இது வங்காளதேசம்-ஐக்கிய அரபு அமீரகம் அணிகளுக்கு இடையிலான ஒரு 
+[tts-edge] c574a5806843: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சிவராஜ்குமார்-அபிஷன் ஜீவின்த் படத்திற்கு பிகாசோ என தலைப்பு
+[tts-edge] 9ad82635cbed: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆப்பிள் நிறுவனத்தின் செப்டம்பர் 9 நிகழ்வில் ஜான் டெர்னஸ் முதல் உரை
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக் கட்டுரையின் உள்ளட
+[publish] புகைப்பிடித்தல் மலட்டுத்தன்மையை அதிகரிக்கிறது என WHO அறிக்கை தெரிவிப்பு
+[publish] உத்தரகண்ட் UKSSSC தேர்வு அட்டவணை திருத்தம் - கேமராமேன், கணக்காளர் பணிகளுக்கு புதிய தேதி
+[publish] சிக்கிம் மாவட்ட நீதிபதி உயர் நீதிமன்றத்திற்கு எதிராக உச்ச நீதிமன்றத்தில் மனு
+[skip] உத்தரகண்ட், ஒடிசா, சத்தீஸ்கர் ஆகிய மாநிலங்களின் சிறிய அளவிலா
+[skip] இவை கேரளா மற்றும் குஜராத் மாநிலங்களின் குறிப்பிட்ட பல்கலைக்க
+[publish] இந்தியா முழுவதும் விலைவாசி எதிர்பார்ப்பு கணக்கெடுப்பை தொடங்கியது ஆர்பிஐ
+[publish] இஸ்ரேலிய குடியேற்றப் பொருட்களுக்குத் தடை விதித்த பிரிட்டன்
+[publish] வயது மோசடி: இந்திய 19 வயதுக்குட்பட்ட வீரர் ரோஹித் யாதவுக்கு 2 ஆண்டு தடை
+[rasi] ராசிபலன் தயார்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 266 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 274 · pending 0 · எழுதியவை 8
