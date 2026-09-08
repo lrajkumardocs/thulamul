@@ -1,0 +1,45 @@
+name: comic-beats
+on:
+  workflow_dispatch:
+    inputs:
+      arcs:
+        description: "காலியாக விடு = மீதமுள்ளவை மட்டும் · all = எல்லாம் மீண்டும் · b1a01,b1a02 = அவை மட்டும்"
+        default: ""
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  beats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - name: Build locked story beats
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CLAUDE_MODEL: claude-sonnet-5
+          ARCS: ${{ github.event.inputs.arcs }}
+          PYTHONUNBUFFERED: "1"
+        run: python pipeline/build_beats.py
+      - name: Commit beats
+        if: always()
+        run: |
+          git config user.name "thulamul-bot"
+          git config user.email "bot@thulamul"
+          git add pipeline/comic_beats.json
+          git diff --cached --quiet || git commit -m "comic: story beats"
+          for i in 1 2 3; do
+            git pull --no-rebase -X ours origin main && git push && break
+            sleep 5
+          done
