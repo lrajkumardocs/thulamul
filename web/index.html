@@ -528,11 +528,11 @@ function comicHtml(){
   if(!list.length)return '<div class="empty" style="padding-top:60px">பொன்னியின் செல்வன் காமிக்ஸ் இன்று அதிகாலை தயாராகும்.</div>';
   const c=list[0];
   return `<div class="pad"><div class="small brass" style="margin-top:16px">தினசரிக் காமிக்ஸ் · கல்கியின் பொன்னியின் செல்வன்</div>
-    <h1 style="font-size:24px;margin-top:6px">${esc(c.title||'')}</h1><div class="byline">பாகம் ${esc(String(c.book||''))} «${esc(c.book_ta||'')}» · ${esc(c.arc||'')} · நாள் ${esc(String(c.day||''))} · ${esc(c.date)}</div>
+    <h1 style="font-size:24px;margin-top:6px">${esc(c.title||'')}</h1><div class="byline">கல்கி · பாகம் ${esc(String(c.book||''))} — ${esc(c.book_ta||'')} · காட்சி ${esc(String(c.day||''))}</div>
     <a href="${BASE}${esc(c.file)}" target="_blank" rel="noopener"><img class="ph" style="height:auto;aspect-ratio:auto;object-fit:contain;background:var(--paper);margin-top:14px;border:1px solid var(--rule)" src="${BASE}${esc(c.file)}" alt="${esc(c.title||'')}" onerror="this.remove()"></a>
     <div class="cap" style="margin-top:6px"><span class="muted">பெரிதாகப் பார்க்க படத்தைத் தொடவும் · AI ஓவியம் · வசனம்: துலாமுள்</span></div>
     ${c.summary?`<p class="mp" style="margin-top:12px">${esc(c.summary)}</p>`:''}
-    ${list.length>1?`<div class="rule"></div><div class="small muted">முந்தைய நாட்கள்</div>${list.slice(1,15).map(x=>`<a class="prow" href="${BASE}${esc(x.file)}" target="_blank" rel="noopener"><span class="serif" style="font-size:14px">நாள் ${esc(String(x.day||''))} · ${esc(x.title||'')}</span><span class="small muted">${esc(x.date)}</span></a>`).join('')}`:''}
+    ${list.length>1?`<div class="rule"></div><div class="small muted">முந்தைய நாட்கள்</div>${list.slice(1,15).map(x=>`<a class="prow" href="${BASE}${esc(x.file)}" target="_blank" rel="noopener"><span class="serif" style="font-size:14px">காட்சி ${esc(String(x.day||''))} · ${esc(x.title||'')}</span><span class="small muted">${esc(x.date)}</span></a>`).join('')}`:''}
     <div class="note">கல்கி (1899–1954) எழுதிய பொன்னியின் செல்வன் இந்தியப் பதிப்புரிமைச் சட்டப்படி பொதுச் சொத்து. ஓவியங்கள் சோழர்கால சுவரோவியப் பாணியில் துலாமுள் உருவாக்கியவை.</div></div>`;
 }
 function editHtml(){
