@@ -374,10 +374,10 @@ function pageHead(i,title,withLogo){
 function card(s,lead,onTopic){
   const img=s.image&&s.image.url;const kick=onTopic?((s.entities||[])[0]||s.topic_ta):s.topic_ta;
   if(lead) return `<div class="lead" data-id="${s.id}">${img?`<figure class="fig"><img class="ph" src="${esc(img)}" alt="" loading="lazy" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}${s.image.symbolic?' · குறியீட்டுப் படம்':''}</figcaption></figure>`:''}
-    <div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span><span class="v">சரிபார்க்கப்பட்டது</span></div>
+    <div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span><span class="v">${s.kind==='article'?'கட்டுரை':'சரிபார்க்கப்பட்டது'}</span></div>
     <h2>${esc(H(s))}</h2>
     <div class="foot"><span>மூலம்: ${esc(srcShort(s.sources||[]))}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:'<span>30 நொடி</span>'}</div></div>`;
-  return `<div class="story" data-id="${s.id}"><div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:''}</div>
+  return `<div class="story" data-id="${s.id}"><div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}${s.kind==='article'?' · கட்டுரை':''}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:''}</div>
     <div class="srow"><div class="stxt"><h2>${esc(H(s))}</h2><p>${esc(L(s)[0])}</p></div>
     ${img?`<img class="th" src="${esc(img)}" alt="" loading="lazy" onerror="this.className='th txt';this.removeAttribute('src')">`:`<div class="th txt">${esc((s.entities||[])[0]||s.topic_ta)}</div>`}</div></div>`;
 }
@@ -471,8 +471,8 @@ let malarSel=localStorage.getItem('malarSel')||'world';
 function malarHtml(){
   const m=malar;
   if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
-  const T2=[['world','சென்ற வார உலகம்'],['history','இந்த வாரம் வரலாற்றில்'],['word','ஒரு தமிழ்ச் சொல்'],['song','ஒரு பாடல்'],['essay','கட்டுரை'],['lit','உலக இலக்கியம்'],['num','வாரத்தின் எண்'],['then','அன்று – இன்று'],['remedy','பாட்டி வைத்தியம்'],['riddle','விடுகதை'],['wonder','ஆச்சரியம்']];
-  const has={world:!!(m.world&&m.world.items),history:!!(m.history&&m.history.length),word:!!m.word,song:!!m.song,essay:!!m.essay,lit:!!m.world_lit,num:!!m.number,then:!!m.then_now,remedy:!!m.remedy,riddle:!!m.riddle,wonder:!!m.wonder};
+  const T2=[['world','சென்ற வார உலகம்'],['history','இந்த வாரம் வரலாற்றில்'],['word','ஒரு தமிழ்ச் சொல்'],['song','ஒரு பாடல்'],['essay','கட்டுரை'],['lit','உலக இலக்கியம்'],['num','வாரத்தின் எண்'],['then','அன்று – இன்று'],['remedy','பாட்டி வைத்தியம்'],['review','திரை விமர்சனம்'],['riddle','விடுகதை'],['wonder','ஆச்சரியம்']];
+  const has={world:!!(m.world&&m.world.items),history:!!(m.history&&m.history.length),word:!!m.word,song:!!m.song,essay:!!m.essay,lit:!!m.world_lit,num:!!m.number,then:!!m.then_now,remedy:!!m.remedy,riddle:!!m.riddle,wonder:!!m.wonder,review:!!m.review};
   const avail=T2.filter(([k])=>has[k]);
   if(!avail.length)return '<div class="empty" style="padding-top:60px">வாரமலர் தயாராகிறது.</div>';
   if(!has[malarSel]) malarSel=avail[0][0];
@@ -488,6 +488,10 @@ function malarHtml(){
   else if(cur==='then') body=`<p class="mp"><b>${esc(m.then_now.topic)}</b></p><div class="cmp"><div><small>அன்று</small>${esc(m.then_now.then)}</div><div><small>இன்று</small>${esc(m.then_now.now)}</div></div>`;
   else if(cur==='remedy') body=`<p class="mp"><b>${esc(m.remedy.title)}</b></p><p class="mp">${esc(m.remedy.text)}</p><div class="note">${esc(m.remedy.note||'மருத்துவரை அணுகுவது அவசியம்.')}</div>`;
   else if(cur==='riddle') body=`<p class="mp">${esc(m.riddle.q)}</p><details class="med" style="margin-top:10px"><summary>விடை</summary><p class="mp">${esc(m.riddle.a)}</p></details>`;
+  else if(cur==='review'){const R=m.review;body=`<h2 style="font-size:22px;margin-bottom:6px">${esc(R.title)}</h2>
+     <div class="small muted">இயக்கம்: ${esc(R.director||'')} · நடிப்பு: ${esc(R.cast||'')}</div>
+     <div class="bignum" style="margin-top:10px"><b>${esc(R.rating||'')}</b><span>5-ல் · ${esc(R.verdict||'')}</span></div>
+     <p class="mp">${esc(R.text)}</p><div class="note">${esc(R.note||'')}</div>`;}
   else if(cur==='wonder') body=`<p class="mp">${esc(m.wonder.text)}</p>`;
   const title=(T2.find(([k])=>k===cur)||['',''])[1];
   return `<div class="pad"><div class="small muted" style="margin-top:12px">வாரம் ${esc(m.week||'')} · ஞாயிறு இணைப்பு</div>
@@ -717,7 +721,12 @@ function srcHtml(list){
 function renderDetail(id){
   const s=feed.find(x=>x.id===id);const el=$('#s-detail');
   if(!s){el.innerHTML='<div class="empty">செய்தி கிடைக்கவில்லை.</div>';return;}
-  const img=s.image&&s.image.url;const p=pub();const idx=p.indexOf(s);const nxt=p[idx+1];
+  const img=s.image&&s.image.url;
+  // அடுத்த செய்தி — அதே பக்கத்தில் (துறையில்) அடுத்தது; இல்லையெனில் முதல் பக்கத்தில் அடுத்தது
+  const front=frontIds();
+  const same=pub().filter(x=>x.topic===s.topic&&(front.has(s.id)?front.has(x.id):!front.has(x.id)));
+  let idx=same.indexOf(s), nxt=idx>=0?same[idx+1]:null;
+  if(!nxt){ const fp=frontPicks(); const fi=fp.findIndex(x=>x.id===s.id); if(fi>=0) nxt=fp[fi+1]; }
   el.innerHTML=`<div class="topbar"><a class="icon" href="#back"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></a><span class="small muted">30 நொடி${s.audio?' · கேட்கலாம்':''}</span><a class="icon" id="share"><svg viewBox="0 0 24 24"><path d="M4 12v7h16v-7M12 3v12M8 7l4-4 4 4"/></svg></a></div>
    ${img?`<figure class="fig figfull"><img src="${esc(img)}" alt="" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}${s.image.symbolic?' · குறியீட்டுப் படம்':''}</figcaption></figure>`:''}
    <div class="pad"><div class="small muted" style="margin-top:14px"><b class="brass" style="font-weight:500">${esc(s.topic_ta)}</b> · ${esc((s.entities||[])[0]||'')} · ${new Date(s.published_at).toLocaleDateString('ta-IN',{day:'numeric',month:'short',year:'numeric'})} ${hm(s.published_at)}</div>
@@ -727,7 +736,7 @@ function renderDetail(id){
    <div class="aware"><div class="at">${esc(C(s))}</div>
      <div class="follow">${s.audio?`<audio controls preload="none" src="${BASE}${s.audio}"></audio>`:'<span>ஆடியோ விரைவில்</span>'}</div></div>
    <div class="srcline"><small>மூலம்</small>${srcHtml(s.sources||[])}<div class="muted">துலாமுள் செய்தி · AI எழுதியது · சரிபார்க்கப்பட்டது</div></div>
-   ${nxt?`<div class="next" data-id="${nxt.id}"><div class="small muted">அடுத்த செய்தி ↓</div><h2 style="font-size:16px;margin-top:4px">${esc(H(nxt))}</h2></div>`:'<div style="height:30px"></div>'}</div>`;
+   ${nxt?`<div class="next" data-id="${nxt.id}"><div class="small muted">அடுத்த செய்தி · ${esc(nxt.topic_ta)} ↓</div><h2 style="font-size:16px;margin-top:4px">${esc(H(nxt))}</h2></div>`:'<div style="height:30px"></div>'}</div>`;
   const n=el.querySelector('.next');if(n)n.addEventListener('click',()=>{go('#story/'+n.dataset.id)});
   el.querySelector('#share').addEventListener('click',()=>{const u=location.href;if(navigator.share)navigator.share({title:s.headline,text:s.headline+'\n'+(s.lines||[]).join(' '),url:u});else if(navigator.clipboard)navigator.clipboard.writeText(u)});
   el.scrollTop=0;
