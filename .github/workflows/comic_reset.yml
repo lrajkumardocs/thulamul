@@ -1,0 +1,42 @@
+name: comic-reset
+on:
+  workflow_dispatch:
+    inputs:
+      launch_date:
+        description: "லான்ச் தேதி YYYY-MM-DD (காலியாக விட்டால் உடனே தொடங்கும்)"
+        default: ""
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - name: Reset comic to day 1
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PYTHONUNBUFFERED: "1"
+        run: python pipeline/comic.py --reset "${{ github.event.inputs.launch_date }}"
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "thulamul-bot"
+          git config user.email "bot@thulamul"
+          git add data/
+          git diff --cached --quiet || git commit -m "comic: reset to day 1"
+          for i in 1 2 3; do
+            git pull --no-rebase -X ours origin main && git push && break
+            sleep 5
+          done
