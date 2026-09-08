@@ -143,12 +143,33 @@ def write_script(client, model, state, today):
             + (f"\n\n★ இன்றைய நிகழ்வு (இதை மட்டும் 4 பலகையாக்கு; முன்னும் பின்னும் போகாதே):\n{beat}"
                + (f"\n(நாளை வரப்போவது: {nxt} — இதை இன்று சொல்லாதே; இன்றைய பக்கம் இதை நோக்கிய ஈர்ப்புடன் முடியட்டும்.)" if nxt else "") if beat else "")
             + f"\nஇன்று: {today}. JSON மட்டும் தா.")
-    msg = client.messages.create(model=model, max_tokens=3500, system=sysm, messages=[{"role": "user", "content": user}])
-    raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
-    raw = re.sub(r"^```(?:json)?|```$", "", raw.strip(), flags=re.M).strip()
-    s = raw.find("{"); e = raw.rfind("}")
-    script = json.loads(raw[s:e + 1])
-    assert len(script["panels"]) == 4, "4 பலகை இல்லை"
+    def _parse(raw):
+        raw = re.sub(r"^```(?:json)?|```$", "", (raw or "").strip(), flags=re.M).strip()
+        a, b = raw.find("{"), raw.rfind("}")
+        if a < 0 or b < 0:
+            raise ValueError("JSON இல்லை")
+        txt = raw[a:b + 1]
+        try:
+            return json.loads(txt)
+        except Exception:
+            fixed = re.sub(r",\s*([}\]])", r"\1", txt)                     # கடைசி காற்புள்ளி
+            fixed = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", " ", fixed)   # கெட்ட எழுத்துகள்
+            return json.loads(fixed)
+
+    script, last = None, ""
+    for attempt in (1, 2, 3):
+        u = user if attempt == 1 else user + f"\n\n(முந்தைய முயற்சியில் JSON வடிவம் தவறாக இருந்தது: {last[:120]}. இம்முறை சரியான JSON மட்டும் தா — மேற்கோள் குறிகளுக்குள் இரட்டை மேற்கோள், புதுவரி எதுவும் இல்லாமல்.)"
+        msg = client.messages.create(model=model, max_tokens=4000, system=sysm, messages=[{"role": "user", "content": u}])
+        raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
+        try:
+            cand = _parse(raw)
+            if len(cand.get("panels") or []) != 4:
+                raise ValueError(f"{len(cand.get('panels') or [])} பலகை")
+            script = cand; break
+        except Exception as ex:
+            last = str(ex); print(f"[comic] கதை முயற்சி {attempt} தோல்வி: {last[:100]}")
+    if script is None:
+        raise ValueError("கதை JSON மூன்று முயற்சியிலும் தோல்வி: " + last[:120])
     for p in script["panels"]:
         p.setdefault("bubbles", []); p.setdefault("caption_ta", ""); p.setdefault("characters", [])
         p["characters"] = [c for c in p["characters"] if c in CHAR_BY_ID][:3]

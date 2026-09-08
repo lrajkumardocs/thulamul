@@ -290,12 +290,133 @@ def make_audio(story_id, script):
         print(f"[tts-gtts] {story_id}: {str(ex)[:80]}")
         return None
 
-# ---------------------------------------------------------------- 5. image (மூலப் படம் மட்டும்; இல்லையெனில் null → ஆப் துறை-அட்டை காட்டும்)
-def pick_image(c):
-    for i in c["items"]:
-        if i.get("img"):
-            return {"url": i["img"], "credit": i["source"]}
+# ---------------------------------------------------------------- 5. படம்
+# வரிசை: (1) செய்தி மூலத்தின் சொந்தப் படம் → (2) Wikipedia/Commons → (3) Openverse
+#        → (4) Unsplash → (5) Pexels → (6) Pixabay → இல்லையெனில் None (ஆப் துறை-அட்டை காட்டும்)
+# watermark / stock முன்னோட்டப் படங்கள் தவிர்க்கப்படும். ஒவ்வொன்றுக்கும் வரவுக் குறிப்பு.
+
+WM_BLOCK = ("shutterstock", "gettyimages", "alamy", "dreamstime", "123rf", "istockphoto",
+            "depositphotos", "adobestock", "stock.adobe", "watermark", "/preview", "logo")
+
+def _ok_img(u):
+    lu = (u or "").lower()
+    return bool(u) and lu.startswith("http") and not any(b in lu for b in WM_BLOCK) \
+        and not lu.endswith(".svg") and not lu.endswith(".gif")
+
+# ஒவ்வொரு துறைக்கும் குறியீட்டுத் தேடல் சொல் (ஆங்கிலம் — தேடல் நன்றாக வேலை செய்ய)
+TOPIC_Q = {"tn": "tamil nadu village landscape india", "india": "india parliament flag",
+           "world": "world globe map international", "economy": "indian rupee market economy",
+           "tech": "technology computer circuit", "sports": "sports stadium play",
+           "cinema": "cinema film reel theatre", "spirit": "temple lamp india spiritual",
+           "jobs": "office work employment desk", "court": "court law justice gavel",
+           "assembly": "government building assembly india", "health": "hospital health medicine",
+           "agri": "paddy field farmer india agriculture"}
+
+def wiki_image(q):
+    """Wikipedia/Commons — பொதுச் சொத்து / CC. முதல் தேர்வு."""
+    try:
+        r = requests.get("https://commons.wikimedia.org/w/api.php", timeout=15, params={
+            "action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
+            "gsrsearch": q, "gsrlimit": 8, "prop": "imageinfo", "iiprop": "url|extmetadata",
+            "iiurlwidth": 1200}).json()
+        for pg in (r.get("query", {}).get("pages", {}) or {}).values():
+            ii = (pg.get("imageinfo") or [{}])[0]
+            u = ii.get("thumburl") or ii.get("url")
+            meta = ii.get("extmetadata") or {}
+            lic = (meta.get("LicenseShortName", {}) or {}).get("value", "")
+            art = re.sub(r"<[^>]+>", "", (meta.get("Artist", {}) or {}).get("value", "") or "").strip()
+            if _ok_img(u) and "fair" not in lic.lower():
+                return {"url": u, "credit": f"{art[:40] or 'Wikimedia Commons'} · Commons",
+                        "license": lic or "CC", "symbolic": True}
+    except Exception as ex:
+        print("[img wiki]", str(ex)[:60])
     return None
+
+def openverse_image(q):
+    try:
+        r = requests.get("https://api.openverse.org/v1/images/", timeout=15,
+                         params={"q": q, "page_size": 8, "license_type": "commercial,modification",
+                                 "mature": "false", "aspect_ratio": "wide"}).json()
+        for it in (r.get("results") or []):
+            u = it.get("url") or it.get("thumbnail")
+            if _ok_img(u):
+                return {"url": u, "credit": f"{(it.get('creator') or 'Openverse')[:40]} · Openverse",
+                        "license": it.get("license", "CC").upper(), "symbolic": True}
+    except Exception as ex:
+        print("[img openverse]", str(ex)[:60])
+    return None
+
+def unsplash_image(q):
+    k = os.environ.get("UNSPLASH_KEY")
+    if not k:
+        return None
+    try:
+        r = requests.get("https://api.unsplash.com/search/photos", timeout=15,
+                         params={"query": q, "per_page": 5, "orientation": "landscape", "content_filter": "high"},
+                         headers={"Authorization": "Client-ID " + k}).json()
+        for it in (r.get("results") or []):
+            u = (it.get("urls") or {}).get("regular")
+            if _ok_img(u):
+                return {"url": u, "credit": f"{(it.get('user') or {}).get('name', 'Unsplash')} · Unsplash",
+                        "license": "Unsplash — இலவசம்", "symbolic": True}
+    except Exception as ex:
+        print("[img unsplash]", str(ex)[:60])
+    return None
+
+def pexels_image(q):
+    k = os.environ.get("PEXELS_KEY")
+    if not k:
+        return None
+    try:
+        r = requests.get("https://api.pexels.com/v1/search", timeout=15,
+                         params={"query": q, "per_page": 5, "orientation": "landscape"},
+                         headers={"Authorization": k}).json()
+        for it in (r.get("photos") or []):
+            u = (it.get("src") or {}).get("large")
+            if _ok_img(u):
+                return {"url": u, "credit": f"{it.get('photographer', 'Pexels')} · Pexels",
+                        "license": "Pexels — இலவசம்", "symbolic": True}
+    except Exception as ex:
+        print("[img pexels]", str(ex)[:60])
+    return None
+
+def pixabay_image(q):
+    k = os.environ.get("PIXABAY_KEY")
+    if not k:
+        return None
+    try:
+        r = requests.get("https://pixabay.com/api/", timeout=15,
+                         params={"key": k, "q": q, "image_type": "photo", "orientation": "horizontal",
+                                 "safesearch": "true", "per_page": 5}).json()
+        for it in (r.get("hits") or []):
+            u = it.get("largeImageURL") or it.get("webformatURL")
+            if _ok_img(u):
+                return {"url": u, "credit": f"{it.get('user', 'Pixabay')} · Pixabay",
+                        "license": "Pixabay — இலவசம்", "symbolic": True}
+    except Exception as ex:
+        print("[img pixabay]", str(ex)[:60])
+    return None
+
+def stock_image(topic, query=""):
+    """குறியீட்டுப் படம் — Commons → Openverse → Unsplash → Pexels → Pixabay."""
+    q = (query or "").strip() or TOPIC_Q.get(topic, "india news")
+    for fn in (wiki_image, openverse_image, unsplash_image, pexels_image, pixabay_image):
+        img = fn(q)
+        if img:
+            print(f"[img] {fn.__name__}: {q[:40]}")
+            return img
+    if q != TOPIC_Q.get(topic, ""):                       # குறிப்பிட்ட தேடல் தோற்றால் — துறைப் பொதுத் தேடல்
+        return stock_image(topic, TOPIC_Q.get(topic, "india news"))
+    return None
+
+def pick_image(c, story=None):
+    """முதலில் செய்தி மூலத்தின் படம்; இல்லையெனில் இலவச/திறந்த உரிமப் படம்."""
+    for i in c["items"]:
+        if _ok_img(i.get("img")):
+            return {"url": i["img"], "credit": i["source"]}
+    topic = (story or {}).get("topic", "") or (c["items"][0].get("topic_hint") or "tn")
+    ents = [e for e in ((story or {}).get("entities") or []) if e and len(e) > 2][:2]
+    return stock_image(topic, " ".join(ents))
 
 # ---------------------------------------------------------------- 6. telegram
 def telegram(text):
@@ -427,7 +548,7 @@ def main():
         story["topic_ta"] = TOPIC_TA[story["topic"]]
         story["published_at"] = datetime.now(IST).isoformat(timespec="minutes")
         story["links"] = [i["link"] for i in c["items"]]
-        story["image"] = pick_image(c)
+        story["image"] = pick_image(c, story)
         story["audio"] = make_audio(sid, ". ".join([story["headline"].rstrip(".")] + [l.rstrip(".") for l in story["lines"]] + [story["closing"].rstrip(".")]) + ".")
         story["created_ts"] = time.time()
 
