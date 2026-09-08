@@ -126,6 +126,40 @@ def eligible(c):
     return True, ["single_source"]   # வெளியிடலாம், ஆனால் flag → Telegram ஒப்புதல்
 
 # ---------------------------------------------------------------- 3. write (Claude)
+
+FILLER_TOPICS = {
+    "health": "பருவகால நோய், தடுப்பு, ஊட்டச்சத்து, சித்த/ஆயுர்வேத பொது அறிவு, அரசு சுகாதாரத் திட்டங்கள்",
+    "agri":   "பருவப் பயிர்ப் பராமரிப்பு, நீர் மேலாண்மை, இயற்கை உரம், சந்தை விலை போக்கு, அரசு வேளாண் திட்டங்கள், பாரம்பரிய நெல் ரகங்கள்",
+    "spirit": "தமிழகக் கோயில் வரலாறு, இந்த மாதத் திருவிழாக்கள், சித்தர் மரபு, ஆழ்வார்/நாயன்மார் வரலாறு, திருமுறை-தேவாரப் பாடல் விளக்கம்",
+}
+
+def write_filler(client, topic, today, now):
+    """செய்தி இல்லாத பக்கத்திற்கு ஒரு பொது அறிவுக் கட்டுரை (evergreen)."""
+    sysmsg = (f"நீ துலாமுள் தமிழ் நாளிதழின் {TOPIC_TA.get(topic, topic)} பக்க எழுத்தாளர். இன்று இந்தப் பக்கத்தில் செய்தி குறைவு. "
+              f"வாசகருக்குப் பயன்படும் ஒரு பொது அறிவுக் கட்டுரையை எழுது. பொருள்: {FILLER_TOPICS.get(topic,'')}. "
+              "இது செய்தி அல்ல — நிலையான பயனுள்ள தகவல். உண்மைகள் மட்டும்; சந்தேகமான கூற்று வேண்டாம். "
+              "மருத்துவ உத்தரவாதம், முதலீட்டு ஆலோசனை தராதே. "
+              'JSON மட்டும், code fence இல்லை: {"headline":"தலைப்பு 6–12 சொல்","lines":["5 வாக்கியம் — ஒவ்வொன்றும் முற்றுப்புள்ளியில் முடிய வேண்டும்"],"closing":"ஒரு வரி முடிவு","tags":["2 சொல்"]}')
+        
+    try:
+        msg = client.messages.create(model=MODEL, max_tokens=1500, system=sysmsg,
+                                     messages=[{"role": "user", "content": f"இன்று {today}. {TOPIC_TA.get(topic, topic)} பக்கத்திற்கு ஒரு கட்டுரை எழுது."}])
+        raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+        d = parse_json(client, raw)
+        sid = f"art_{topic}_{today.replace('-','')}"
+        story = {"id": sid, "headline": d["headline"], "lines": d.get("lines", [])[:5],
+                 "closing": d.get("closing", ""), "closing_type": "background",
+                 "sources": [{"name": "துலாமுள் தொகுப்பு", "doc": None, "date": today}],
+                 "topic": topic, "topic_ta": TOPIC_TA.get(topic, topic), "entities": d.get("tags", []),
+                 "confidence": 0.9, "flags": [], "front_cat": "routine", "urgent": False, "affected": "",
+                 "kind": "article", "image": None, "status": "published",
+                 "published_at": now.isoformat(timespec="minutes"), "created_ts": time.time()}
+        story["audio"] = make_audio(sid, story["headline"] + ". " + " ".join(story["lines"]))
+        return story
+    except Exception as ex:
+        print(f"[filler:{topic}] பிழை", str(ex)[:120])
+        return None
+
 def send_push(items, brief_item=None):
     """Firebase Cloud Messaging — பக்கம் வாரியாக அறிவிப்பு. FIREBASE_SA இல்லையெனில் தவிர்."""
     sa = os.environ.get("FIREBASE_SA")
@@ -291,7 +325,7 @@ def make_audio(story_id, script):
         return None
 
 # ---------------------------------------------------------------- 5. image (மூலப் படம் மட்டும்; இல்லையெனில் null → ஆப் துறை-அட்டை காட்டும்)
-SAFE_HOSTS = ("openverse", "flickr", "staticflickr", "unsplash", "pexels", "pixabay", "pib.gov.in", "isro.gov.in", "rbi.org.in", "mygov.in", "tn.gov.in",
+SAFE_HOSTS = ("openverse", "flickr", "staticflickr", "unsplash", "pexels", "pixabay", "cdn.pixabay", "pib.gov.in", "isro.gov.in", "rbi.org.in", "mygov.in", "tn.gov.in",
               "india.gov.in", "nic.in", "gov.in", "prsindia.org",
               "wikimedia.org", "wikipedia.org", "unsplash.com", "pexels.com", "pixabay.com")
 
@@ -376,22 +410,77 @@ STOCK_Q = {
     "assembly":["government building india", "parliament session"],
 }
 
+# watermark வரக்கூடிய stock முகவரிகள் — தவிர்
+WM_BLOCK = ("shutterstock", "gettyimages", "alamy", "dreamstime", "123rf", "istockphoto",
+            "depositphotos", "adobestock", "stock.adobe", "watermark", "preview")
+
+def _no_wm(u):
+    lu = (u or "").lower()
+    return u and lu.startswith("http") and not any(b in lu for b in WM_BLOCK)
+
+def unsplash_image(q):
+    k = os.environ.get("UNSPLASH_KEY")
+    if not k:
+        return None
+    try:
+        r = requests.get("https://api.unsplash.com/search/photos",
+                         params={"query": q, "per_page": 5, "orientation": "landscape", "content_filter": "high"},
+                         headers={"Authorization": "Client-ID " + k}, timeout=15).json()
+        for it in (r.get("results") or []):
+            u = (it.get("urls") or {}).get("regular")
+            if _no_wm(u):
+                return {"url": u, "credit": f"{(it.get('user') or {}).get('name','Unsplash')} · Unsplash",
+                        "license": "Unsplash — இலவசம்", "symbolic": True}
+    except Exception:
+        pass
+    return None
+
+def pexels_image(q):
+    k = os.environ.get("PEXELS_KEY")
+    if not k:
+        return None
+    try:
+        r = requests.get("https://api.pexels.com/v1/search",
+                         params={"query": q, "per_page": 5, "orientation": "landscape"},
+                         headers={"Authorization": k}, timeout=15).json()
+        for it in (r.get("photos") or []):
+            u = (it.get("src") or {}).get("large")
+            if _no_wm(u):
+                return {"url": u, "credit": f"{it.get('photographer','Pexels')} · Pexels",
+                        "license": "Pexels — இலவசம்", "symbolic": True}
+    except Exception:
+        pass
+    return None
+
+def pixabay_image(q):
+    k = os.environ.get("PIXABAY_KEY")
+    if not k:
+        return None
+    try:
+        r = requests.get("https://pixabay.com/api/",
+                         params={"key": k, "q": q, "image_type": "photo", "orientation": "horizontal",
+                                 "safesearch": "true", "per_page": 5}, timeout=15).json()
+        for it in (r.get("hits") or []):
+            u = it.get("largeImageURL") or it.get("webformatURL")
+            if _no_wm(u):
+                return {"url": u, "credit": f"{it.get('user','Pixabay')} · Pixabay",
+                        "license": "Pixabay — இலவசம்", "symbolic": True}
+    except Exception:
+        pass
+    return None
+
 def stock_image(topic, query=""):
-    """Openverse (CC) → குறியீட்டுப் படம். செய்தி நிகழ்வுப் படம் அல்ல."""
+    """குறியீட்டுப் படம் — Unsplash → Pexels → Pixabay → Openverse. Watermark உள்ளவை தவிர்க்கப்படும்."""
     tries = ([query] if query else []) + STOCK_Q.get(topic, [])
     for q in tries[:3]:
-        try:
-            r = requests.get("https://api.openverse.org/v1/images/",
-                             params={"q": q, "license_type": "commercial,modification",
-                                     "page_size": 5, "mature": "false", "aspect_ratio": "wide"},
-                             headers={"User-Agent": "Thulamul/1.0 (info@thulamul.com)"}, timeout=15)
-            for it in (r.json().get("results") or []):
-                u = it.get("url")
-                if u and u.startswith("http"):
-                    return {"url": u, "credit": f"{it.get('creator') or 'Openverse'} · {it.get('source','')}",
-                            "license": (it.get("license") or "cc").upper(), "symbolic": True}
-        except Exception:
-            continue
+        for fn in (unsplash_image, pexels_image, pixabay_image, openverse_image):
+            try:
+                im = fn(q)
+            except Exception:
+                im = None
+            if im and _no_wm(im.get("url")):
+                im["symbolic"] = True
+                return im
     return None
 
 def pick_image(c, story=None):
@@ -578,6 +667,19 @@ def main():
         save_json(DATA / "brief.json", {"date": today, "items": [x["id"] for x in top],
                                         "headlines": [x["headline"] for x in top], "audio": audio})
         print("[brief] காலை brief தயார்")
+
+    # 5a2. மெல்லிய பக்கங்களுக்குக் கட்டுரை நிரப்பு
+    try:
+        if not api_dead:
+            for t in FILLER_TOPICS:
+                todays = [x for x in feed if x.get("topic") == t and str(x.get("published_at", ""))[:10] == today and x["status"] == "published"]
+                if len(todays) < 2 and not any(x.get("kind") == "article" for x in todays):
+                    art = write_filler(client, t, today, now)
+                    if art:
+                        art["image"] = stock_image(t, "")
+                        feed.insert(0, art); print(f"[filler] {t} கட்டுரை")
+    except Exception as ex:
+        print("[filler] பிழை", str(ex)[:120])
 
     # 5b1. இன்றைய வேலை அறிவிப்புகள் — தினமும் ஒரு தொகுப்பு (8:00-க்குப் பின், ஒரு முறை)
     try:
