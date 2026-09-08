@@ -291,7 +291,7 @@ def make_audio(story_id, script):
         return None
 
 # ---------------------------------------------------------------- 5. image (மூலப் படம் மட்டும்; இல்லையெனில் null → ஆப் துறை-அட்டை காட்டும்)
-SAFE_HOSTS = ("pib.gov.in", "isro.gov.in", "rbi.org.in", "mygov.in", "tn.gov.in",
+SAFE_HOSTS = ("openverse", "flickr", "staticflickr", "unsplash", "pexels", "pixabay", "pib.gov.in", "isro.gov.in", "rbi.org.in", "mygov.in", "tn.gov.in",
               "india.gov.in", "nic.in", "gov.in", "prsindia.org",
               "wikimedia.org", "wikipedia.org", "unsplash.com", "pexels.com", "pixabay.com")
 
@@ -359,34 +359,62 @@ def openverse_image(query):
         pass
     return None
 
+# துறை வாரியான குறியீட்டுப் படத் தேடல் (stock)
+STOCK_Q = {
+    "agri":    ["paddy field india", "farmer tamil nadu", "indian agriculture harvest", "coconut farm india"],
+    "economy": ["indian rupee currency", "stock market chart", "bank india", "market vendor india"],
+    "tech":    ["technology circuit", "smartphone coding", "data server", "artificial intelligence"],
+    "health":  ["hospital india", "doctor stethoscope", "medicine pills", "health checkup"],
+    "jobs":    ["office workers india", "job interview", "students exam hall", "resume writing"],
+    "spirit":  ["hindu temple tamil nadu", "temple gopuram", "oil lamp diya", "temple architecture india"],
+    "cinema":  ["cinema theatre seats", "film camera", "movie projector", "stage lights"],
+    "sports":  ["cricket stadium", "running track", "sports ball", "athletics"],
+    "court":   ["court building india", "law books gavel", "justice scales", "legal documents"],
+    "world":   ["world map globe", "united nations flags", "international city skyline"],
+    "india":   ["india gate delhi", "indian parliament", "indian flag"],
+    "tn":      ["chennai city", "tamil nadu temple", "marina beach chennai"],
+    "assembly":["government building india", "parliament session"],
+}
+
+def stock_image(topic, query=""):
+    """Openverse (CC) → குறியீட்டுப் படம். செய்தி நிகழ்வுப் படம் அல்ல."""
+    tries = ([query] if query else []) + STOCK_Q.get(topic, [])
+    for q in tries[:3]:
+        try:
+            r = requests.get("https://api.openverse.org/v1/images/",
+                             params={"q": q, "license_type": "commercial,modification",
+                                     "page_size": 5, "mature": "false", "aspect_ratio": "wide"},
+                             headers={"User-Agent": "Thulamul/1.0 (info@thulamul.com)"}, timeout=15)
+            for it in (r.json().get("results") or []):
+                u = it.get("url")
+                if u and u.startswith("http"):
+                    return {"url": u, "credit": f"{it.get('creator') or 'Openverse'} · {it.get('source','')}",
+                            "license": (it.get("license") or "cc").upper(), "symbolic": True}
+        except Exception:
+            continue
+    return None
+
 def pick_image(c, story=None):
-    """படம் — காப்புரிமை பாதுகாப்பான மூலங்கள் மட்டும்:
-    1) RSS-ல் அரசுத் தளப் படம்  2) செய்தியில் உள்ள நபர்/இடத்தின் விக்கிப் படம்
-    3) Commons தேடல்  4) Openverse. எதுவும் இல்லையெனில் படம் இல்லை."""
+    """1) அரசுத் தளப் படம்  2) செய்தியில் உள்ள நபர்/இடத்தின் விக்கிப் படம்
+       3) Commons தேடல்  4) குறியீட்டுப் படம் (Openverse stock)."""
     for i in c["items"]:
         u = i.get("image") or ""
         if u and _safe_host(u):
             return {"url": u, "credit": i["source"], "license": "அரசு / திறந்த உரிமம்"}
     if not story:
         return None
-    ents = [e for e in (story.get("entities") or []) if len(str(e)) > 3][:3]
+    ents = [str(e) for e in (story.get("entities") or []) if len(str(e)) > 3][:3]
     for e in ents:
         for lang in ("ta", "en"):
-            im = wiki_image(str(e), lang)
+            im = wiki_image(e, lang)
             if im:
                 return im
-    q = " ".join(str(e) for e in ents[:2]) or story.get("topic_ta", "")
-    TOPIC_Q = {"agri": "paddy field Tamil Nadu farmer", "health": "hospital India", "tech": "technology computer",
-               "sports": "cricket stadium India", "cinema": "cinema theatre India", "economy": "indian rupee market",
-               "spirit": "temple Tamil Nadu", "court": "court building India", "jobs": "office workers India",
-               "tn": "Tamil Nadu", "india": "India government", "world": "world map globe"}
-    for query in ([q] if q else []) + [TOPIC_Q.get(story.get("topic"), "")]:
-        if not query:
-            continue
-        im = commons_image(query) or openverse_image(query)
+    q = " ".join(ents[:2])
+    if q:
+        im = commons_image(q)
         if im:
             return im
-    return None
+    return stock_image(story.get("topic", ""), "")
 
 def telegram(text):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
@@ -670,7 +698,7 @@ def main():
         im = x.get("image")
         if im and im.get("url"):
             u = im["url"]
-            if not _safe_host(u):
+            if not _safe_host(u) and not im.get("license"):
                 x["image"] = None; removed += 1
     if removed:
         print(f"[image] {removed} காப்புரிமைப் படங்கள் நீக்கப்பட்டன")
