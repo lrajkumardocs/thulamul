@@ -126,40 +126,6 @@ def eligible(c):
     return True, ["single_source"]   # வெளியிடலாம், ஆனால் flag → Telegram ஒப்புதல்
 
 # ---------------------------------------------------------------- 3. write (Claude)
-
-FILLER_TOPICS = {
-    "health": "பருவகால நோய், தடுப்பு, ஊட்டச்சத்து, சித்த/ஆயுர்வேத பொது அறிவு, அரசு சுகாதாரத் திட்டங்கள்",
-    "agri":   "பருவப் பயிர்ப் பராமரிப்பு, நீர் மேலாண்மை, இயற்கை உரம், சந்தை விலை போக்கு, அரசு வேளாண் திட்டங்கள், பாரம்பரிய நெல் ரகங்கள்",
-    "spirit": "தமிழகக் கோயில் வரலாறு, இந்த மாதத் திருவிழாக்கள், சித்தர் மரபு, ஆழ்வார்/நாயன்மார் வரலாறு, திருமுறை-தேவாரப் பாடல் விளக்கம்",
-}
-
-def write_filler(client, topic, today, now):
-    """செய்தி இல்லாத பக்கத்திற்கு ஒரு பொது அறிவுக் கட்டுரை (evergreen)."""
-    sysmsg = (f"நீ துலாமுள் தமிழ் நாளிதழின் {TOPIC_TA.get(topic, topic)} பக்க எழுத்தாளர். இன்று இந்தப் பக்கத்தில் செய்தி குறைவு. "
-              f"வாசகருக்குப் பயன்படும் ஒரு பொது அறிவுக் கட்டுரையை எழுது. பொருள்: {FILLER_TOPICS.get(topic,'')}. "
-              "இது செய்தி அல்ல — நிலையான பயனுள்ள தகவல். உண்மைகள் மட்டும்; சந்தேகமான கூற்று வேண்டாம். "
-              "மருத்துவ உத்தரவாதம், முதலீட்டு ஆலோசனை தராதே. "
-              'JSON மட்டும், code fence இல்லை: {"headline":"தலைப்பு 6–12 சொல்","lines":["5 வாக்கியம் — ஒவ்வொன்றும் முற்றுப்புள்ளியில் முடிய வேண்டும்"],"closing":"ஒரு வரி முடிவு","tags":["2 சொல்"]}')
-        
-    try:
-        msg = client.messages.create(model=MODEL, max_tokens=1500, system=sysmsg,
-                                     messages=[{"role": "user", "content": f"இன்று {today}. {TOPIC_TA.get(topic, topic)} பக்கத்திற்கு ஒரு கட்டுரை எழுது."}])
-        raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
-        d = parse_json(client, raw)
-        sid = f"art_{topic}_{today.replace('-','')}"
-        story = {"id": sid, "headline": d["headline"], "lines": d.get("lines", [])[:5],
-                 "closing": d.get("closing", ""), "closing_type": "background",
-                 "sources": [{"name": "துலாமுள் தொகுப்பு", "doc": None, "date": today}],
-                 "topic": topic, "topic_ta": TOPIC_TA.get(topic, topic), "entities": d.get("tags", []),
-                 "confidence": 0.9, "flags": [], "front_cat": "routine", "urgent": False, "affected": "",
-                 "kind": "article", "image": None, "status": "published",
-                 "published_at": now.isoformat(timespec="minutes"), "created_ts": time.time()}
-        story["audio"] = make_audio(sid, story["headline"] + ". " + " ".join(story["lines"]))
-        return story
-    except Exception as ex:
-        print(f"[filler:{topic}] பிழை", str(ex)[:120])
-        return None
-
 def send_push(items, brief_item=None):
     """Firebase Cloud Messaging — பக்கம் வாரியாக அறிவிப்பு. FIREBASE_SA இல்லையெனில் தவிர்."""
     sa = os.environ.get("FIREBASE_SA")
@@ -325,186 +291,13 @@ def make_audio(story_id, script):
         return None
 
 # ---------------------------------------------------------------- 5. image (மூலப் படம் மட்டும்; இல்லையெனில் null → ஆப் துறை-அட்டை காட்டும்)
-SAFE_HOSTS = ("openverse", "flickr", "staticflickr", "unsplash", "pexels", "pixabay", "cdn.pixabay", "pib.gov.in", "isro.gov.in", "rbi.org.in", "mygov.in", "tn.gov.in",
-              "india.gov.in", "nic.in", "gov.in", "prsindia.org",
-              "wikimedia.org", "wikipedia.org", "unsplash.com", "pexels.com", "pixabay.com")
-
-def _safe_host(u):
-    try:
-        h = u.split("/")[2].lower()
-    except Exception:
-        return False
-    return any(d in h for d in SAFE_HOSTS)
-
-def wiki_image(term, lang="ta"):
-    """விக்கிப்பீடியாவில் ஒரு நபர்/இடம்/நிறுவனத்தின் இலவசப் படம்."""
-    try:
-        r = requests.get(f"https://{lang}.wikipedia.org/api/rest_v1/page/summary/" + requests.utils.quote(term.replace(" ", "_")),
-                         headers={"User-Agent": "Thulamul/1.0 (news app; info@thulamul.com)"}, timeout=12)
-        if r.status_code != 200:
-            return None
-        d = r.json()
-        if d.get("type") == "disambiguation":
-            return None
-        src = ((d.get("originalimage") or {}).get("source") or (d.get("thumbnail") or {}).get("source"))
-        if src and _safe_host(src):
-            return {"url": src.replace("/thumb/", "/thumb/") if "/thumb/" in src else src,
-                    "credit": f"விக்கிமீடியா · {d.get('title', term)}", "license": "CC / பொதுச் சொத்து",
-                    "page": (d.get("content_urls", {}).get("desktop", {}) or {}).get("page", "")}
-    except Exception:
-        pass
-    return None
-
-def commons_image(query):
-    """Wikimedia Commons தேடல் — பொதுக் காட்சிகள்."""
-    try:
-        r = requests.get("https://commons.wikimedia.org/w/api.php",
-                         params={"action": "query", "generator": "search", "gsrsearch": query + " filetype:bitmap",
-                                 "gsrlimit": 3, "gsrnamespace": 6, "prop": "imageinfo",
-                                 "iiprop": "url|extmetadata", "iiurlwidth": 1000, "format": "json"},
-                         headers={"User-Agent": "Thulamul/1.0 (news app; info@thulamul.com)"}, timeout=15)
-        pages = (r.json().get("query") or {}).get("pages") or {}
-        for pg in pages.values():
-            ii = (pg.get("imageinfo") or [{}])[0]
-            url = ii.get("thumburl") or ii.get("url")
-            meta = ii.get("extmetadata") or {}
-            lic = (meta.get("LicenseShortName") or {}).get("value", "CC")
-            if "Fair" in lic or "Non-free" in lic:
-                continue
-            author = re.sub("<[^>]+>", "", (meta.get("Artist") or {}).get("value", ""))[:40]
-            if url and _safe_host(url):
-                return {"url": url, "credit": f"விக்கிமீடியா Commons{' · ' + author if author else ''}", "license": lic}
-    except Exception:
-        pass
-    return None
-
-def openverse_image(query):
-    """Openverse — 8 கோடி CC படங்கள்."""
-    try:
-        r = requests.get("https://api.openverse.org/v1/images/",
-                         params={"q": query, "license_type": "commercial,modification", "page_size": 3, "mature": "false"},
-                         headers={"User-Agent": "Thulamul/1.0 (info@thulamul.com)"}, timeout=15)
-        for it in (r.json().get("results") or []):
-            u = it.get("url") or it.get("thumbnail")
-            if u:
-                return {"url": u, "credit": f"{it.get('creator') or 'Openverse'} · {it.get('source', '')}",
-                        "license": (it.get("license") or "cc").upper()}
-    except Exception:
-        pass
-    return None
-
-# துறை வாரியான குறியீட்டுப் படத் தேடல் (stock)
-STOCK_Q = {
-    "agri":    ["paddy field india", "farmer tamil nadu", "indian agriculture harvest", "coconut farm india"],
-    "economy": ["indian rupee currency", "stock market chart", "bank india", "market vendor india"],
-    "tech":    ["technology circuit", "smartphone coding", "data server", "artificial intelligence"],
-    "health":  ["hospital india", "doctor stethoscope", "medicine pills", "health checkup"],
-    "jobs":    ["office workers india", "job interview", "students exam hall", "resume writing"],
-    "spirit":  ["hindu temple tamil nadu", "temple gopuram", "oil lamp diya", "temple architecture india"],
-    "cinema":  ["cinema theatre seats", "film camera", "movie projector", "stage lights"],
-    "sports":  ["cricket stadium", "running track", "sports ball", "athletics"],
-    "court":   ["court building india", "law books gavel", "justice scales", "legal documents"],
-    "world":   ["world map globe", "united nations flags", "international city skyline"],
-    "india":   ["india gate delhi", "indian parliament", "indian flag"],
-    "tn":      ["chennai city", "tamil nadu temple", "marina beach chennai"],
-    "assembly":["government building india", "parliament session"],
-}
-
-# watermark வரக்கூடிய stock முகவரிகள் — தவிர்
-WM_BLOCK = ("shutterstock", "gettyimages", "alamy", "dreamstime", "123rf", "istockphoto",
-            "depositphotos", "adobestock", "stock.adobe", "watermark", "preview")
-
-def _no_wm(u):
-    lu = (u or "").lower()
-    return u and lu.startswith("http") and not any(b in lu for b in WM_BLOCK)
-
-def unsplash_image(q):
-    k = os.environ.get("UNSPLASH_KEY")
-    if not k:
-        return None
-    try:
-        r = requests.get("https://api.unsplash.com/search/photos",
-                         params={"query": q, "per_page": 5, "orientation": "landscape", "content_filter": "high"},
-                         headers={"Authorization": "Client-ID " + k}, timeout=15).json()
-        for it in (r.get("results") or []):
-            u = (it.get("urls") or {}).get("regular")
-            if _no_wm(u):
-                return {"url": u, "credit": f"{(it.get('user') or {}).get('name','Unsplash')} · Unsplash",
-                        "license": "Unsplash — இலவசம்", "symbolic": True}
-    except Exception:
-        pass
-    return None
-
-def pexels_image(q):
-    k = os.environ.get("PEXELS_KEY")
-    if not k:
-        return None
-    try:
-        r = requests.get("https://api.pexels.com/v1/search",
-                         params={"query": q, "per_page": 5, "orientation": "landscape"},
-                         headers={"Authorization": k}, timeout=15).json()
-        for it in (r.get("photos") or []):
-            u = (it.get("src") or {}).get("large")
-            if _no_wm(u):
-                return {"url": u, "credit": f"{it.get('photographer','Pexels')} · Pexels",
-                        "license": "Pexels — இலவசம்", "symbolic": True}
-    except Exception:
-        pass
-    return None
-
-def pixabay_image(q):
-    k = os.environ.get("PIXABAY_KEY")
-    if not k:
-        return None
-    try:
-        r = requests.get("https://pixabay.com/api/",
-                         params={"key": k, "q": q, "image_type": "photo", "orientation": "horizontal",
-                                 "safesearch": "true", "per_page": 5}, timeout=15).json()
-        for it in (r.get("hits") or []):
-            u = it.get("largeImageURL") or it.get("webformatURL")
-            if _no_wm(u):
-                return {"url": u, "credit": f"{it.get('user','Pixabay')} · Pixabay",
-                        "license": "Pixabay — இலவசம்", "symbolic": True}
-    except Exception:
-        pass
-    return None
-
-def stock_image(topic, query=""):
-    """குறியீட்டுப் படம் — Unsplash → Pexels → Pixabay → Openverse. Watermark உள்ளவை தவிர்க்கப்படும்."""
-    tries = ([query] if query else []) + STOCK_Q.get(topic, [])
-    for q in tries[:3]:
-        for fn in (unsplash_image, pexels_image, pixabay_image, openverse_image):
-            try:
-                im = fn(q)
-            except Exception:
-                im = None
-            if im and _no_wm(im.get("url")):
-                im["symbolic"] = True
-                return im
-    return None
-
-def pick_image(c, story=None):
-    """1) அரசுத் தளப் படம்  2) செய்தியில் உள்ள நபர்/இடத்தின் விக்கிப் படம்
-       3) Commons தேடல்  4) குறியீட்டுப் படம் (Openverse stock)."""
+def pick_image(c):
     for i in c["items"]:
-        u = i.get("image") or ""
-        if u and _safe_host(u):
-            return {"url": u, "credit": i["source"], "license": "அரசு / திறந்த உரிமம்"}
-    if not story:
-        return None
-    ents = [str(e) for e in (story.get("entities") or []) if len(str(e)) > 3][:3]
-    for e in ents:
-        for lang in ("ta", "en"):
-            im = wiki_image(e, lang)
-            if im:
-                return im
-    q = " ".join(ents[:2])
-    if q:
-        im = commons_image(q)
-        if im:
-            return im
-    return stock_image(story.get("topic", ""), "")
+        if i.get("img"):
+            return {"url": i["img"], "credit": i["source"]}
+    return None
 
+# ---------------------------------------------------------------- 6. telegram
 def telegram(text):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not (tok and chat):
@@ -532,6 +325,12 @@ def telegram_poll_approvals(state):
         m = re.match(r"^(✔|✓|ok|சரி|✘|✗|no|வேண்டாம்)\s*([a-f0-9]{12})", t, re.I)
         if m:
             decisions[m.group(2)] = m.group(1) in ("✔", "✓", "ok", "சரி")
+        if re.match(r"^(✘|✗|no|வேண்டாம்)\s*comic", t, re.I):
+            try:
+                import importlib, sys as _s; _s.path.insert(0, str(ROOT / "pipeline"))
+                importlib.import_module("comic").hide_today(datetime.now(IST).strftime("%Y-%m-%d")); telegram("இன்றைய காமிக்ஸ் பக்கம் மறைக்கப்பட்டது; நாளை அதே நிகழ்வு மீண்டும் வரும்.")
+            except Exception as ex:
+                print("[comic hide]", ex)
         if re.match(r"^(✘|✗|no|வேண்டாம்)\s*editorial", t, re.I):
             ed = load_json(DATA / "ai_editorial.json", {}); ed["hidden"] = True; save_json(DATA / "ai_editorial.json", ed); telegram("இன்றைய AI தலையங்கம் மறைக்கப்பட்டது.")
         # தலையங்கம்: "தலையங்கம்: தலைப்பு\nஉரை..."
@@ -628,12 +427,9 @@ def main():
         story["topic_ta"] = TOPIC_TA[story["topic"]]
         story["published_at"] = datetime.now(IST).isoformat(timespec="minutes")
         story["links"] = [i["link"] for i in c["items"]]
-        story["image"] = pick_image(c, story)
+        story["image"] = pick_image(c)
         story["audio"] = make_audio(sid, ". ".join([story["headline"].rstrip(".")] + [l.rstrip(".") for l in story["lines"]] + [story["closing"].rstrip(".")]) + ".")
         story["created_ts"] = time.time()
-        story["front_cat"] = str(story.get("front_cat") or "routine")
-        story["urgent"] = bool(story.get("urgent"))
-        story["affected"] = str(story.get("affected") or "")
 
         HOLD_FLAGS = {"defamation_risk", "communal", "numbers_conflict"}
         hold = bool(HOLD_FLAGS & set(story["flags"])) or story.get("confidence", 1) < AUTO_PUBLISH_MIN_CONFIDENCE
@@ -645,8 +441,6 @@ def main():
                      f"பதில்: <code>✔ {sid}</code> அல்லது <code>✘ {sid}</code>")
             print("[hold]", story["headline"])
         else:
-            if any(x.get("headline") == story["headline"] for x in feed[:200]):
-                print("[dup] அதே தலைப்பு உள்ளது; தவிர்"); mark_seen(c); continue
             story["status"] = "published"; feed.insert(0, story)
             if len(story.get("sources", [])) >= 2 or story.get("confidence", 0) >= 0.8:
                 push_items.append({"topic": story["topic"], "title": story["headline"],
@@ -668,23 +462,10 @@ def main():
                                         "headlines": [x["headline"] for x in top], "audio": audio})
         print("[brief] காலை brief தயார்")
 
-    # 5a2. மெல்லிய பக்கங்களுக்குக் கட்டுரை நிரப்பு
-    try:
-        if not api_dead:
-            for t in FILLER_TOPICS:
-                todays = [x for x in feed if x.get("topic") == t and str(x.get("published_at", ""))[:10] == today and x["status"] == "published"]
-                if len(todays) < 2 and not any(x.get("kind") == "article" for x in todays):
-                    art = write_filler(client, t, today, now)
-                    if art:
-                        art["image"] = stock_image(t, "")
-                        feed.insert(0, art); print(f"[filler] {t} கட்டுரை")
-    except Exception as ex:
-        print("[filler] பிழை", str(ex)[:120])
-
     # 5b1. இன்றைய வேலை அறிவிப்புகள் — தினமும் ஒரு தொகுப்பு (8:00-க்குப் பின், ஒரு முறை)
     try:
         jd = load_json(DATA / "jobs_digest.json", {})
-        if now.hour >= 7 and jd.get("date") != today and not api_dead:
+        if now.hour >= 8 and jd.get("date") != today and not api_dead:
             raw_items = [i for i in fresh if i["topic_hint"] == "jobs"][:25]
             if raw_items:
                 src_text = "\n\n".join(f"[{i['source']}] {i['title']}\n{i['text'][:600]}\n{i['link']}" for i in raw_items)
@@ -734,7 +515,7 @@ def main():
     try:
         ed = load_json(DATA / "ai_editorial.json", {})
         todays_pub = [x for x in feed if x.get("published_at", "").startswith(today) and x["status"] == "published" and x["topic"] in ("tn", "india", "world", "economy", "court", "health", "agri", "assembly")]
-        if now.hour >= 4 and ed.get("date") != today and len(todays_pub) >= 2 and not api_dead:
+        if now.hour >= 5 and ed.get("date") != today and len(todays_pub) >= 3 and not api_dead:
             src = "\n\n".join(f"[{x['topic_ta']}] {x['headline']}\n" + " ".join(x["lines"]) for x in todays_pub[:10])
             ep = (ROOT / "pipeline/prompts/editorial.md").read_text(encoding="utf-8").replace("{{TODAY}}", today)
             msg = client.messages.create(model=MODEL, max_tokens=3000, system=ep, messages=[{"role": "user", "content": src}])
@@ -750,6 +531,14 @@ def main():
                 ed["cartoon"]["image"] = img; ed["cartoon_v"] = 7; save_json(DATA / "ai_editorial.json", ed); print("[cartoon] படம் தயார்")
     except Exception as ex:
         print("[editorial] பிழை", str(ex)[:200])
+
+    # 5b5. பொன்னியின் செல்வன் தினசரிக் காமிக்ஸ் (பக்கம் 18) — தினமும் 5:30-க்குப் பின் ஒரு முறை; பாதியில் நின்றால் அடுத்த ஓட்டத்தில் தொடரும்
+    try:
+        if now.hour >= 5 and not api_dead:
+            import importlib, sys as _s; _s.path.insert(0, str(ROOT / "pipeline"))
+            importlib.import_module("comic").build(client, MODEL, today)
+    except Exception as ex:
+        print("[comic] பிழை", str(ex)[:200])
 
     # 5b3. ராசிபலன் + பஞ்சாங்கம் — தினமும் ஒரு முறை (Claude தேவையில்லை)
     try:
@@ -794,17 +583,6 @@ def main():
     except Exception as ex:
         print("[push] பிழை", str(ex)[:120])
 
-    # 5e. பாதுகாப்பற்ற படங்களை நீக்கு (பழைய செய்திகளிலிருந்தும்)
-    removed = 0
-    for x in feed:
-        im = x.get("image")
-        if im and im.get("url"):
-            u = im["url"]
-            if not _safe_host(u) and not im.get("license"):
-                x["image"] = None; removed += 1
-    if removed:
-        print(f"[image] {removed} காப்புரிமைப் படங்கள் நீக்கப்பட்டன")
-
     # 6. save
     feed = feed[:300]
     save_json(FEED_FILE, feed)
@@ -820,7 +598,7 @@ def main():
         ISSUES = DATA / "issues"; ISSUES.mkdir(parents=True, exist_ok=True)
         todays = [x for x in feed if x.get("published_at", "").startswith(today)]
         save_json(ISSUES / f"{today}.json", todays)
-        idx = sorted({f.stem for f in ISSUES.glob("20*.json")}, reverse=True)   # நிரந்தரக் காப்பகம்
+        idx = sorted({f.stem for f in ISSUES.glob("20*.json")}, reverse=True)   # நிரந்தரக் காப்பகம் — நீக்கம் இல்லை
         save_json(ISSUES / "index.json", [{"date": d0, "count": len(load_json(ISSUES / f"{d0}.json", []))} for d0 in idx])
     except Exception as ex:
         print("[issues] பிழை", ex)

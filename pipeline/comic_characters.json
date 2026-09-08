@@ -1,0 +1,128 @@
+{
+  "_note": "பொன்னியின் செல்வன் — துலாமுள் தினசரி காமிக்ஸ் பாத்திரக் குறிப்புகள். visual_en = Gemini-க்கு; ta = அண்ணா பார்க்க. ref = pipeline/comic_refs/<id>.png (gen_characters.py உருவாக்கும்). மணிரத்னம் படத்தின் தோற்றம் எதுவும் இல்லை — சோழர்கால சுவரோவியப் பாணி, நமது சொந்த வடிவம்.",
+  "style_en": "STYLE (fixed for every image): Chola-era temple mural painting (10th-11th century Thanjavur / Sittannavasal fresco tradition) drawn with bold, confident black ink brush outlines like a modern ink comic. Flat mineral pigments only: ochre yellow, terracotta red, lamp black, lime white, indigo, green earth, on a warm cream lime-plaster ground (#F3F2EE) with faint plaster texture. Elongated almond eyes, arched brows, stylised profile and three-quarter poses, jewellery drawn as simple flat shapes, no gradients, no photorealism, no 3D render, no cinematic lighting, no film-still look. Original character designs — do not imitate any movie or actor. ZERO TEXT: no letters, numbers, logos, signs or speech bubbles anywhere in the image.",
+  "characters": [
+    {
+      "id": "vandiyathevan",
+      "name_ta": "வல்லவரையன் வந்தியத்தேவன்",
+      "name_en": "Vandiyathevan",
+      "role_ta": "வாணர் குலத்து இளம் வீரன்; ஆதித்த கரிகாலனின் தூதுவன்; கதையின் நாயகன்",
+      "age": 22,
+      "ta": "மெலிந்த உறுதியான உடல், சுருள் முடி சிவப்புத் துணியால் கட்டப்பட்ட முடிச்சு, மெல்லிய மீசை, குறும்பான புன்னகை. மஞ்சள்-காவி வேட்டியை குதிரை ஏறும் விதத்தில் கட்டியிருப்பான்; கைவில்லாத தோல் மார்புக் கவசம்; இடுப்பில் வாள்; தோளில் ஓலைச் சுருள் குழாய்; வெள்ளிக் காதணி. அடையாள நிறம்: காவி மஞ்சள்.",
+      "visual_en": "Vandiyathevan, a 22-year-old Tamil warrior of the Vaanar clan. Lean athletic build, curly black hair tied in a top-knot with a red cloth band, thin youthful moustache, mischievous confident grin, bright quick eyes. Wears an ochre-yellow dhoti tied short for riding, a sleeveless brown leather chest-guard, a sword at the hip, a palm-leaf scroll tube slung on a strap across his chest, small silver ear-rings. Signature colour: ochre yellow."
+    },
+    {
+      "id": "kundavai",
+      "name_ta": "இளையபிராட்டி குந்தவை",
+      "name_en": "Kundavai",
+      "role_ta": "சுந்தர சோழரின் மகள்; அரசியல் அறிவின் சிகரம்; அருள்மொழியின் அக்கை",
+      "age": 20,
+      "ta": "உயரமான, நிதானமான தோற்றம்; பின்னிய முடி உயர்ந்த கொண்டையாக, மல்லிகை மற்றும் சிறிய பொன் சுட்டி; நீண்ட அறிவுள்ள கண்கள். கருமைபட்ட பச்சை நிறப் பட்டு, பொன் கரை; முத்து மாலை. கையில் ஓலைச் சுவடி — அவளின் அடையாளம். அடையாள நிறம்: அடர் பச்சை.",
+      "visual_en": "Kundavai, 20-year-old Chola princess. Tall, poised and composed, long elongated intelligent eyes, calm half-smile. Hair braided and coiled into a high bun with a jasmine string and a small gold chutti ornament on the forehead. Wears a deep green silk sari with a gold border, a single pearl necklace, small gold bangles. Often holds a palm-leaf manuscript. Signature colour: deep green."
+    },
+    {
+      "id": "nandini",
+      "name_ta": "பழுவூர் இளையராணி நந்தினி",
+      "name_en": "Nandini",
+      "role_ta": "பெரிய பழுவேட்டரையரின் மனைவி; கதையின் எதிர்நாயகி; பாண்டிய சூழ்ச்சியின் மையம்",
+      "age": 22,
+      "ta": "நூலில் மிக அழகியவள். இடுப்புவரை விரிந்த நீண்ட முடி, கனத்த இமைகள், கூர்மையான மெல்லிய புருவங்கள், வசீகரமும் சோகமும் கலந்த பார்வை. பழுவூர் நிறங்கள் — செந்நிறப் பட்டு, கருங்கல் அணிகலன்கள், பாம்பு வடிவக் கை வளை; தங்க இடைக்கச்சை. அடையாள நிறம்: செந்நிறம்.",
+      "visual_en": "Nandini, 22, the young queen of Pazhuvoor, described as the most beautiful woman in the land. Long black hair worn loose to the waist, heavy-lidded almond eyes with a look that is both alluring and sorrowful, thin sharply arched brows, full lips. Wears crimson silk with a black border, black-stone jewellery, a serpent-shaped gold armlet on the upper arm, a gold waist chain. Signature colour: crimson."
+    },
+    {
+      "id": "arulmozhi",
+      "name_ta": "அருள்மொழிவர்மன் (பொன்னியின் செல்வன்)",
+      "name_en": "Arulmozhi Varman",
+      "role_ta": "சுந்தர சோழரின் இளைய மகன்; ஈழத்தில் படைத்தலைவன்; பின்னாளில் ராஜராஜ சோழன்",
+      "age": 19,
+      "ta": "அமைதியான ஒளிரும் முகம், அகன்ற தோள்கள், குட்டையான முடி எளிய பொன் பட்டையுடன், மீசை இல்லை. எளிய வெள்ளை பருத்தி ஆடை, ஒரே ஒரு நீல நிற மேல்துண்டு (பொன்னி நதி); கழுத்தில் சங்கு வடிவப் பதக்கம். மக்களோடு மக்களாய் இருப்பவன். அடையாள நிறம்: நதி நீலம்.",
+      "visual_en": "Arulmozhi Varman, 19-year-old Chola prince, later Raja Raja Chola. Calm luminous face, gentle steady eyes, broad shoulders, clean-shaven, short black hair held by a simple thin gold band. Dresses simply: plain white cotton dhoti and a single indigo-blue shoulder cloth, a conch-shaped pendant at the neck. Humble, warm posture, often shown among ordinary people. Signature colour: river blue."
+    },
+    {
+      "id": "adhitha_karikalan",
+      "name_ta": "ஆதித்த கரிகாலன்",
+      "name_en": "Adhitha Karikalan",
+      "role_ta": "சோழ இளவரசன், மூத்த மகன்; காஞ்சியில் வடபடைத் தலைவன்; வீரபாண்டியனைக் கொன்றவன்",
+      "age": 24,
+      "ta": "தீவிரமான தோற்றம்; தோள்வரை விரிந்த அடர்ந்த முடி, குட்டையாக வெட்டிய முழுத் தாடி, எரியும் கண்கள்; இடது முன்கையில் தழும்பு. போர்ச் சிவப்பு வேட்டி, புலி முத்திரை இடைப்பட்டை, கனத்த தோள் கவசம்; வாள் எப்போதும் அருகில். அடையாள நிறம்: தீச் சிவப்பு.",
+      "visual_en": "Adhitha Karikalan, 24, Chola crown prince and war commander. Fierce intense face, thick black hair worn loose to the shoulders, short-trimmed full beard, burning restless eyes, a scar on the left forearm. Wears a war-red dhoti, a wide belt with a tiger emblem, heavy bronze shoulder guard, sword always drawn or within reach. Signature colour: fire red."
+    },
+    {
+      "id": "sundara_chozhar",
+      "name_ta": "சுந்தர சோழர் (பராந்தகன் இரண்டாம்)",
+      "name_en": "Sundara Chola",
+      "role_ta": "சோழப் பேரரசர்; நோயுற்று தஞ்சை மாளிகையில் படுக்கையில்",
+      "age": 52,
+      "ta": "நோயால் மெலிந்த ஆனால் மாண்பு குறையாத தோற்றம்; நரைத்த முடி, நீண்ட தாடி, சோர்ந்த கருணைக் கண்கள். வெள்ளைப் பட்டு, எளிய பொன் கிரீடப் பட்டை; தஞ்சை பொன் மாளிகையில் மெத்தையில் சாய்ந்திருப்பார். அடையாள நிறம்: வெளிர் பொன்.",
+      "visual_en": "Sundara Chola, 52, the ailing Chola emperor. Gaunt from illness but noble, grey-streaked hair, long grey beard, tired kind eyes with deep shadows. Wears white silk and a simple thin gold crown band; usually reclining on a cushioned couch in the golden palace of Thanjavur, a hand resting weakly. Signature colour: pale gold."
+    },
+    {
+      "id": "azhwarkadiyan",
+      "name_ta": "ஆழ்வார்க்கடியான் நம்பி (திருமலை)",
+      "name_en": "Azhwarkadiyan Nambi",
+      "role_ta": "வைணவ பக்தன் போல் உலவும் சோழ ஒற்றன்; நந்தினியின் வளர்ப்புச் சகோதரன்",
+      "age": 35,
+      "ta": "குட்டையான பருத்த உடல், மொட்டைத் தலையில் முன் குடுமி, நெற்றியில் வைணவத் திருமண் நாமம், கையில் நீண்ட தடி, கெட்டியான கழுத்து, சூட்சுமமும் சிரிப்பும் கலந்த கண்கள். காவி-பழுப்பு ஆடை; தோளில் சிறு மூட்டை. அடையாள நிறம்: காவி.",
+      "visual_en": "Azhwarkadiyan Nambi, 35, a stout short Vaishnava devotee who is secretly a Chola spy. Shaven head with a front tuft (kudumi), white U-shaped namam mark with a red centre line on the forehead, thick neck, round belly, sly merry eyes, always carrying a long wooden staff and a small cloth bundle on the shoulder. Wears a saffron-brown cloth. Signature colour: saffron."
+    },
+    {
+      "id": "poonguzhali",
+      "name_ta": "பூங்குழலி (சமுத்திரகுமாரி)",
+      "name_en": "Poonguzhali",
+      "role_ta": "கோடிக்கரை கலங்கரை விளக்கக் காவலனின் மகள்; படகோட்டி; கடலின் மகள்",
+      "age": 18,
+      "ta": "வெயிலில் கருத்த தோல், காற்றில் பறக்கும் சுருள் முடி, கடல்-பச்சை பருத்தி ஆடையை படகோட்ட வசதியாகக் கட்டியிருப்பாள்; சங்கு-சிப்பி மாலை; கையில் துடுப்பு; அச்சமற்ற கண்கள். அடையாள நிறம்: கடல் பச்சை.",
+      "visual_en": "Poonguzhali, 18, boat-woman of Kodikkarai, daughter of the lighthouse keeper. Sun-darkened skin, wild wind-blown curly hair, fearless direct eyes, strong arms. Wears a sea-green cotton cloth tied short for rowing, a necklace of shells and cowries, a wooden oar in hand. Signature colour: sea green."
+    },
+    {
+      "id": "vanathi",
+      "name_ta": "கொடும்பாளூர் இளவரசி வானதி",
+      "name_en": "Vanathi",
+      "role_ta": "கொடும்பாளூர் இளவரசி; குந்தவையின் தோழி; அருள்மொழியைக் காதலிப்பவள்",
+      "age": 17,
+      "ta": "சிறிய மென்மையான தோற்றம், நாணமான தாழ்ந்த பெரிய கண்கள்; இரண்டு பின்னல்களில் கொடும்பாளூர் முத்துச் சரங்கள்; வெளிர் ரோஜா நிற ஆடை; அடிக்கடி மயக்கம் அடையும் மென்மை. அடையாள நிறம்: ரோஜா.",
+      "visual_en": "Vanathi, 17, princess of Kodumbalur. Small, delicate and shy, large downcast doe eyes, soft rounded face. Hair in two long braids threaded with pearl strands, a small pearl forehead ornament. Wears a pale rose-pink cloth with a thin gold border. Gentle timid posture, hands often clasped. Signature colour: rose pink."
+    },
+    {
+      "id": "periya_pazhuvettaraiyar",
+      "name_ta": "பெரிய பழுவேட்டரையர்",
+      "name_en": "Periya Pazhuvettaraiyar",
+      "role_ta": "சோழ நாட்டின் கருவூலத் தலைவர்; 64 போர்த் தழும்புகள்; நந்தினியின் கணவர்",
+      "age": 62,
+      "ta": "மலை போன்ற உடல், முகத்திலும் கைகளிலும் போர்த் தழும்புகள், மேலே சுருண்ட அடர் வெள்ளை மீசை, மொட்டைத் தலையில் வெள்ளைக் குடுமி; பொன் தோள்வளைகள்; கருப்பு-சிவப்பு பழுவூர் ஆடை; இடுப்பில் கருவூலச் சாவிக் கொத்து. அடையாள நிறம்: கருப்பு.",
+      "visual_en": "Periya Pazhuvettaraiyar, 62, chancellor and treasurer of the Chola kingdom. Massive mountain-like body, many old battle scars on face and arms, thick white moustache curling upward, bald head with a white top-knot, heavy gold armlets. Wears black cloth with a red border, a ring of large treasury keys at the waist, a heavy sword. Proud, stern, commanding. Signature colour: black."
+    },
+    {
+      "id": "chinna_pazhuvettaraiyar",
+      "name_ta": "சின்ன பழுவேட்டரையர் (கலாந்தகக் கண்டர்)",
+      "name_en": "Chinna Pazhuvettaraiyar",
+      "role_ta": "தஞ்சைக் கோட்டைத் தளபதி; பெரிய பழுவேட்டரையரின் தம்பி",
+      "age": 45,
+      "ta": "அண்ணனை விட உயரமும் மெலிவும்; கருப்பு மீசை, பருந்து மூக்கு, சந்தேகம் நிறைந்த கடுமையான கண்கள்; இரும்பு-சாம்பல் கவசம், கையில் ஈட்டி. அடையாள நிறம்: இரும்புச் சாம்பல்.",
+      "visual_en": "Chinna Pazhuvettaraiyar, 45, commander of Thanjavur fort, younger brother of the chancellor. Taller and leaner than his brother, sharp hawk nose, thick black moustache, hard suspicious narrow eyes. Wears iron-grey scale armour over a dark dhoti, a long spear in hand, a red Pazhuvoor sash. Signature colour: iron grey."
+    },
+    {
+      "id": "madhuranthakan",
+      "name_ta": "மதுராந்தகத் தேவர்",
+      "name_en": "Madhuranthakan",
+      "role_ta": "கண்டராதித்தரின் மகனாக வளர்க்கப்பட்டவன்; சிவபக்தன்; அரியணைக்கு ஆசைப்படுபவன்",
+      "age": 28,
+      "ta": "மென்மையான, மெலிந்த, பக்திமிக்க தோற்றம்; நெற்றியில் விபூதிப் பட்டைகள், ருத்ராட்ச மாலை; காவி-வெள்ளை சைவத் துறவி போன்ற ஆடை; ஆனால் கண்களில் மறைந்த ஆசை. அடையாள நிறம்: விபூதி வெள்ளை.",
+      "visual_en": "Madhuranthakan, 28, raised as the son of Gandaraditya. Soft-featured, thin, pious-looking man with three horizontal white sacred-ash stripes on the forehead, rudraksha bead necklace, a plain ochre-and-white cloth like a Shaiva devotee, hair tied simply. But his eyes show a hidden restless hunger for the throne. Signature colour: ash white."
+    }
+  ],
+  "extras_en": {
+    "sendhan_amudhan": "Sendhan Amudhan, a gentle young flower-seller of Thanjavur, slim, kind face, carries a basket of flowers, plain white cloth.",
+    "mandakini": "Mandakini the Mute Queen (Oomai Rani), a tall silver-haired woman of about 50 with a strikingly beautiful but weathered face, sea-worn simple grey cloth, wild long white hair, silent, often near water.",
+    "kandamaran": "Kandamaran, son of the Sambuvaraiyar of Kadambur, a burly cheerful young warrior with a bushy moustache, green-and-gold cloth.",
+    "manimekalai": "Manimekalai, Kandamaran's young sister, round innocent face, playful eyes, yellow cloth with flowers in her hair.",
+    "sambuvaraiyar": "The Sambuvaraiyar of Kadambur, an old heavy landlord-chieftain with a grey beard and rich green robes.",
+    "ravidasan": "Ravidasan, the Pandya conjurer-conspirator, a wiry man with matted hair, ash-smeared face and cold eyes, dark cloth.",
+    "parthibendran": "Parthibendra Pallava, a proud handsome warrior prince with a long moustache and blue-and-gold Pallava dress.",
+    "malayaman": "Malayaman of Thirukovilur, the grand old grandfather-general, white beard to the chest, iron armour, huge stature.",
+    "sembiyan_madevi": "Sembiyan Mahadevi, the elder queen-mother, serene, white-clad widow with a rudraksha necklace and gentle face.",
+    "veerapandiyan": "Veerapandiyan, the Pandya king (seen only in memory), fierce warrior with a crescent-moon emblem, wounded.",
+    "karuthiruman": "Karuthiruman, an old Pandya boatman with a grizzled beard and one bad eye.",
+    "vaani": "Vaani Ammal, Sendhan Amudhan's deaf-mute foster mother, thin old woman in white."
+  }
+}
