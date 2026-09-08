@@ -32,7 +32,8 @@ TA_M = ["ஜனவரி", "பிப்ரவரி", "மார்ச்", "�
 # பக்க வடிவம் — நிலையானது: ஒன்றன் கீழ் ஒன்றாக 4 பலகை (மொபைலில் முழு அகலம்)
 W = 1080; MARGIN = 36; HEAD = 118; GUT = 26; FOOT = 84
 PW = W - 2 * MARGIN                        # 1008 — பலகை அகலம்
-IMG_H = 620                                # படம் (16:10-க்கு அருகில்) — ஒருபோதும் மறைக்கப்படாது
+IMG_MAX_H = 800                            # படத்தின் அதிகபட்ச உயரம்; அகலத்துக்கு ஏற்ப தானாக (வெட்டு இல்லை)
+ASPECT = "4:3"                             # Gemini-க்கு படத்தின் அகல-உயர விகிதம் ("" = விடு)
 
 # ---------------------------------------------------------------- helpers
 def _j(p, default):
@@ -155,7 +156,8 @@ def _gemini(parts, tag):
                 r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
                                   headers={"x-goog-api-key": gk, "Content-Type": "application/json"},
                                   json={"contents": [{"parts": parts}],
-                                        "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}}, timeout=180).json()
+                                        "generationConfig": ({"responseModalities": ["IMAGE", "TEXT"], "imageConfig": {"aspectRatio": ASPECT}}
+                                                             if "2.5" in model and ASPECT else {"responseModalities": ["IMAGE", "TEXT"]})}, timeout=180).json()
                 if "error" in r:
                     print(f"[comic:{tag}] {model}:", str(r["error"].get("message", ""))[:120]); break
                 for part in r.get("candidates", [{}])[0].get("content", {}).get("parts", []):
@@ -173,7 +175,7 @@ def _img_part(b, mime="image/png"):
 def draw_panel(panel, n, prev_bytes=None):
     """ஒரு பலகை. குறிப்புப் படங்கள் + முந்தைய பலகை → Gemini → bytes."""
     parts = [{"text": CHARS["style_en"] + "\n\nThis is one panel of a four-panel daily comic page. "
-              "Landscape framing, about 16:10 (clearly wider than tall). Keep the main characters' faces well inside the frame, not cut off at the edges. "
+              "Landscape framing, 4:3 (wider than tall). Keep the main characters' faces well inside the frame, not cut off at the edges. "
               "Do NOT draw any speech bubble, empty bubble, banner, scroll or text box — dialogue will be printed separately beneath the picture. "
               "Full colour in the fixed mural palette; ink outlines strong and clean."}]
     k = 0
@@ -228,6 +230,10 @@ def _bubble(d, x0, w, y, text, side, font, f_name, name):
         d.text((bx + pad, ty), l, font=font, fill=INK); ty += lh
     return y + bh + 20
 
+def _img_size(pb):
+    im = Image.open(io.BytesIO(pb)); r = min((PW - 8) / im.width, IMG_MAX_H / im.height)
+    return max(1, int(im.width * r)), max(1, int(im.height * r))
+
 def _panel_height(d, p, f_cap, f_bub, f_name):
     cap = (p.get("caption_ta") or "").strip()
     cap_h = (len(_wrap(d, cap, f_cap, PW - 48)[:2]) * int(f_cap.size * 1.5) + 18) if cap else 0
@@ -244,7 +250,8 @@ def compose(panels_bytes, script, state, today, out_path):
     f_name = _font("NotoSerifTamil.ttf", 18); f_foot = _font("NotoSerifTamil.ttf", 18)
     meas = ImageDraw.Draw(Image.new("RGB", (10, 10)))
     plan = [_panel_height(meas, p, f_cap, f_bub, f_name) for p in script["panels"]]
-    heights = [8 + c + IMG_H + b for c, b, _ in plan]
+    sizes = [_img_size(pb) for pb in panels_bytes]
+    heights = [8 + c + sz[1] + b for (c, b, _), sz in zip(plan, sizes)]
     H = MARGIN + HEAD + sum(heights) + GUT * 3 + FOOT + MARGIN
     page = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(page)
@@ -260,7 +267,7 @@ def compose(panels_bytes, script, state, today, out_path):
 
     # 4 பலகை — ஒன்றன் கீழ் ஒன்று: விவரிப்பு · படம் (முழுசாக) · பேசுபவர் பெயர் + குமிழ்
     y0 = MARGIN + HEAD
-    for n, (pb, p, (cap_h, bub_h, bubbles), ph) in enumerate(zip(panels_bytes, script["panels"], plan, heights)):
+    for n, (pb, p, (cap_h, bub_h, bubbles), ph, (iw, ih)) in enumerate(zip(panels_bytes, script["panels"], plan, heights, sizes)):
         x0 = MARGIN
         d.rectangle((x0, y0, x0 + PW - 1, y0 + ph - 1), fill=PAPER, outline=INK, width=4)
         y = y0 + 4
@@ -270,11 +277,9 @@ def compose(panels_bytes, script, state, today, out_path):
             for l in _wrap(d, cap, f_cap, PW - 48)[:2]:
                 d.text((x0 + 24, ty), l, font=f_cap, fill=INK); ty += int(f_cap.size * 1.5)
             y += cap_h
-        im = Image.open(io.BytesIO(pb)).convert("RGB")
-        r = min((PW - 8) / im.width, IMG_H / im.height)            # முழுப் படமும் உள்ளே — வெட்டு இல்லை
-        im = im.resize((max(1, int(im.width * r)), max(1, int(im.height * r))), Image.LANCZOS)
-        page.paste(im, (x0 + 4 + (PW - 8 - im.width) // 2, y + (IMG_H - im.height) // 2))
-        d.line([(x0 + 4, y), (x0 + PW - 4, y)], fill=INK, width=2); y += IMG_H
+        im = Image.open(io.BytesIO(pb)).convert("RGB").resize((iw, ih), Image.LANCZOS)   # முழுப் படமும் — வெட்டு இல்லை
+        page.paste(im, (x0 + 4 + (PW - 8 - iw) // 2, y))
+        d.line([(x0 + 4, y), (x0 + PW - 4, y)], fill=INK, width=2); y += ih
         d.line([(x0 + 4, y), (x0 + PW - 4, y)], fill=INK, width=2)
         for b in bubbles:
             side = "R" if str(b.get("side", "L")).upper().startswith("R") else "L"
