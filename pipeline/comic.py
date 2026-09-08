@@ -10,7 +10,8 @@ Telegram-ல் "✘ comic" → இன்றையது மறையும்; 
 மனித வேலை இல்லை. பாதி வேலையில் தோல்வி → அடுத்த 30-நிமிட ஓட்டத்தில் மீதியைத் தொடரும் (comic_draft.json).
 """
 import os, io, re, json, base64, textwrap, time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+IST = timezone(timedelta(hours=5, minutes=30))
 from pathlib import Path
 import requests
 from PIL import Image, ImageDraw, ImageFont
@@ -28,11 +29,10 @@ DRAFT_FILE = DATA / "comic_draft.json"
 PAPER = (243, 242, 238); INK = (22, 27, 36); BRASS = (168, 134, 47); GREY = (140, 145, 155); WHITE = (255, 255, 255)
 TA_M = ["ஜனவரி", "பிப்ரவரி", "மார்ச்", "ஏப்ரல்", "மே", "ஜூன்", "ஜூலை", "ஆகஸ்ட்", "செப்டம்பர்", "அக்டோபர்", "நவம்பர்", "டிசம்பர்"]
 
-# பக்க வடிவம் — நிலையானது
-W = 1080; MARGIN = 36; HEAD = 118; GUT = 22; FOOT = 84
-PW = (W - 2 * MARGIN - GUT) // 2          # 500
-PH = 560
-H = MARGIN + HEAD + 2 * PH + GUT + FOOT + MARGIN
+# பக்க வடிவம் — நிலையானது: ஒன்றன் கீழ் ஒன்றாக 4 பலகை (மொபைலில் முழு அகலம்)
+W = 1080; MARGIN = 36; HEAD = 118; GUT = 26; FOOT = 84
+PW = W - 2 * MARGIN                        # 1008 — பலகை அகலம்
+IMG_H = 620                                # படம் (16:10-க்கு அருகில்) — ஒருபோதும் மறைக்கப்படாது
 
 # ---------------------------------------------------------------- helpers
 def _j(p, default):
@@ -73,6 +73,14 @@ CHARS = _j(PIPE / "comic_characters.json", {})
 STORY = _j(PIPE / "comic_story.json", {})
 CHAR_BY_ID = {c["id"]: c for c in CHARS.get("characters", [])}
 BOOK_TA = {b["n"]: b["title_ta"] for b in STORY.get("books", [])}
+EXTRA_TA = {"sendhan_amudhan": "சேந்தன் அமுதன்", "mandakini": "மந்தாகினி", "kandamaran": "கந்தமாறன்", "manimekalai": "மணிமேகலை",
+            "sambuvaraiyar": "சம்புவரையர்", "ravidasan": "ரவிதாசன்", "parthibendran": "பார்த்திபேந்திரன்", "malayaman": "மலையமான்",
+            "sembiyan_madevi": "செம்பியன் மாதேவி", "veerapandiyan": "வீரபாண்டியன்", "karuthiruman": "கருத்திருமன்", "vaani": "வாணி அம்மாள்"}
+def speaker_ta(sid):
+    sid = (sid or "").strip()
+    if sid in CHAR_BY_ID:
+        return CHAR_BY_ID[sid]["name_ta"].split("(")[0].strip().split()[-1] if sid != "periya_pazhuvettaraiyar" and sid != "chinna_pazhuvettaraiyar" else CHAR_BY_ID[sid]["name_ta"].split("(")[0].strip()
+    return EXTRA_TA.get(sid, sid.replace("_", " "))
 
 # ---------------------------------------------------------------- state
 def load_state():
@@ -165,7 +173,8 @@ def _img_part(b, mime="image/png"):
 def draw_panel(panel, n, prev_bytes=None):
     """ஒரு பலகை. குறிப்புப் படங்கள் + முந்தைய பலகை → Gemini → bytes."""
     parts = [{"text": CHARS["style_en"] + "\n\nThis is one panel of a four-panel daily comic page. "
-              "Portrait framing, roughly 7:8 (slightly taller than wide). Leave the upper part of the image comparatively calm and uncluttered (sky, plain wall, empty plaster) — a speech bubble will be added there later. "
+              "Landscape framing, about 16:10 (clearly wider than tall). Keep the main characters' faces well inside the frame, not cut off at the edges. "
+              "Do NOT draw any speech bubble, empty bubble, banner, scroll or text box — dialogue will be printed separately beneath the picture. "
               "Full colour in the fixed mural palette; ink outlines strong and clean."}]
     k = 0
     for cid in panel.get("characters", []):
@@ -198,36 +207,47 @@ def _fit(b, w, h):
 def _rounded(d, box, r, fill, outline, width):
     d.rounded_rectangle(box, radius=r, fill=fill, outline=outline, width=width)
 
-def _bubble(d, panel_box, text, side, y, font, order):
-    """பேச்சுக் குமிழ்: வெள்ளை, மை விளிம்பு, வால் பேசுபவரை நோக்கி. return next y."""
-    x0, y0, x1, y1 = panel_box
-    pad = 16; max_w = int((x1 - x0) * 0.62)
+def _bubble(d, x0, w, y, text, side, font, f_name, name):
+    """கீழ்ப் பட்டையில் ஒரு குமிழ்: மேலே பேசுபவர் பெயர் (பித்தளை), வால் மேலே படத்தில் பேசுபவரை நோக்கி. return next y."""
+    pad = 16; max_w = int(w * 0.72)
     lines = _wrap(d, text, font, max_w - 2 * pad)
-    while len(lines) > 4 and font.size > 18:
-        font = _font("MeeraInimai-Regular.ttf", font.size - 2); lines = _wrap(d, text, font, max_w - 2 * pad)
-    lh = int(font.size * 1.45)
+    lh = int(font.size * 1.4)
     bw = max(d.textlength(l, font=font) for l in lines) + 2 * pad
     bh = len(lines) * lh + 2 * pad - 6
-    bx = x0 + 14 if side == "L" else x1 - 14 - bw
-    if order == 1:                                   # இரண்டாவது குமிழ் சற்று உள்ளே
-        bx = bx + 40 if side == "L" else bx - 40
-    bx = max(x0 + 10, min(bx, x1 - 10 - bw))
-    box = (bx, y, bx + bw, y + bh)
-    _rounded(d, box, 18, WHITE, INK, 3)
-    tx = bx + bw * (0.28 if side == "L" else 0.72)
-    d.polygon([(tx - 12, y + bh - 2), (tx + 12, y + bh - 2), (tx + (-6 if side == "L" else 6), y + bh + 22)], fill=WHITE, outline=INK)
-    d.line([(tx - 12, y + bh - 2), (tx + 12, y + bh - 2)], fill=WHITE, width=3)
+    bx = x0 + 18 if side == "L" else x0 + w - 18 - bw
+    if name:
+        nx = bx + 92 if side == "L" else bx + bw - 92 - d.textlength(name, font=f_name)   # வாலுக்கு அடுத்து
+        d.text((nx, y - 2), name + " :", font=f_name, fill=BRASS)
+    y += int(f_name.size * 1.5)
+    d.rounded_rectangle((bx, y, bx + bw, y + bh), radius=18, fill=WHITE, outline=INK, width=3)
+    tx = bx + (56 if side == "L" else bw - 56)
+    d.polygon([(tx - 13, y + 2), (tx + 13, y + 2), (tx + (-10 if side == "L" else 10), y - 22)], fill=WHITE, outline=INK)
+    d.line([(tx - 12, y + 2), (tx + 12, y + 2)], fill=WHITE, width=4)
     ty = y + pad - 4
     for l in lines:
         d.text((bx + pad, ty), l, font=font, fill=INK); ty += lh
-    return y + bh + 26
+    return y + bh + 20
+
+def _panel_height(d, p, f_cap, f_bub, f_name):
+    cap = (p.get("caption_ta") or "").strip()
+    cap_h = (len(_wrap(d, cap, f_cap, PW - 48)[:2]) * int(f_cap.size * 1.5) + 18) if cap else 0
+    tmp = ImageDraw.Draw(Image.new("RGB", (PW, 800))); y = 0
+    bubbles = [b for b in (p.get("bubbles") or [])[:2] if (b.get("text_ta") or "").strip()]
+    for b in bubbles:
+        y = _bubble(tmp, 0, PW, y + 26, b["text_ta"].strip(), "L", f_bub, f_name, "x")
+    return cap_h, (y + 10 if bubbles else 12), bubbles
 
 def compose(panels_bytes, script, state, today, out_path):
     i, arc = current_arc(state)
+    f_title = _font("NotoSerifTamil.ttf", 46); f_sub = _font("NotoSerifTamil.ttf", 21)
+    f_cap = _font("NotoSerifTamil.ttf", 22); f_bub = _font("MeeraInimai-Regular.ttf", 28)
+    f_name = _font("NotoSerifTamil.ttf", 18); f_foot = _font("NotoSerifTamil.ttf", 18)
+    meas = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    plan = [_panel_height(meas, p, f_cap, f_bub, f_name) for p in script["panels"]]
+    heights = [8 + c + IMG_H + b for c, b, _ in plan]
+    H = MARGIN + HEAD + sum(heights) + GUT * 3 + FOOT + MARGIN
     page = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(page)
-    f_title = _font("NotoSerifTamil.ttf", 46); f_sub = _font("NotoSerifTamil.ttf", 21)
-    f_cap = _font("NotoSerifTamil.ttf", 21); f_bub = _font("MeeraInimai-Regular.ttf", 26); f_foot = _font("NotoSerifTamil.ttf", 18)
 
     # தலைப்பு
     d.text((MARGIN, MARGIN - 6), "பொன்னியின் செல்வன்", font=f_title, fill=INK)
@@ -238,27 +258,29 @@ def compose(panels_bytes, script, state, today, out_path):
         d.text((W - MARGIN - d.textlength(t, font=f_sub), MARGIN + 60), t, font=f_sub, fill=GREY)
     d.line([(MARGIN, MARGIN + HEAD - 14), (W - MARGIN, MARGIN + HEAD - 14)], fill=INK, width=3)
 
-    # 4 பலகை
-    for n, (pb, p) in enumerate(zip(panels_bytes, script["panels"])):
-        col, row = n % 2, n // 2
-        x0 = MARGIN + col * (PW + GUT); y0 = MARGIN + HEAD + row * (PH + GUT)
-        page.paste(_fit(pb, PW, PH), (x0, y0))
-        d.rectangle((x0, y0, x0 + PW - 1, y0 + PH - 1), outline=INK, width=4)
-        y = y0 + 12
+    # 4 பலகை — ஒன்றன் கீழ் ஒன்று: விவரிப்பு · படம் (முழுசாக) · பேசுபவர் பெயர் + குமிழ்
+    y0 = MARGIN + HEAD
+    for n, (pb, p, (cap_h, bub_h, bubbles), ph) in enumerate(zip(panels_bytes, script["panels"], plan, heights)):
+        x0 = MARGIN
+        d.rectangle((x0, y0, x0 + PW - 1, y0 + ph - 1), fill=PAPER, outline=INK, width=4)
+        y = y0 + 4
         cap = (p.get("caption_ta") or "").strip()
-        if cap:                                       # விவரிப்புப் பெட்டி — மேலே
-            lines = _wrap(d, cap, f_cap, PW - 60)[:2]
-            lh = int(f_cap.size * 1.5); bh = len(lines) * lh + 14
-            d.rectangle((x0 + 12, y, x0 + PW - 12, y + bh), fill=PAPER, outline=INK, width=2)
-            ty = y + 5
-            for l in lines:
-                d.text((x0 + 22, ty), l, font=f_cap, fill=INK); ty += lh
-            y += bh + 14
-        for k, b in enumerate((p.get("bubbles") or [])[:2]):
-            txt = (b.get("text_ta") or "").strip()
-            if txt:
-                y = _bubble(d, (x0, y0, x0 + PW, y0 + PH), txt, "R" if str(b.get("side", "L")).upper().startswith("R") else "L", y, f_bub, k)
-        d.text((x0 + PW - 30, y0 + PH - 30), str(n + 1), font=f_foot, fill=GREY)    # பலகை எண்
+        if cap_h:
+            ty = y + 8
+            for l in _wrap(d, cap, f_cap, PW - 48)[:2]:
+                d.text((x0 + 24, ty), l, font=f_cap, fill=INK); ty += int(f_cap.size * 1.5)
+            y += cap_h
+        im = Image.open(io.BytesIO(pb)).convert("RGB")
+        r = min((PW - 8) / im.width, IMG_H / im.height)            # முழுப் படமும் உள்ளே — வெட்டு இல்லை
+        im = im.resize((max(1, int(im.width * r)), max(1, int(im.height * r))), Image.LANCZOS)
+        page.paste(im, (x0 + 4 + (PW - 8 - im.width) // 2, y + (IMG_H - im.height) // 2))
+        d.line([(x0 + 4, y), (x0 + PW - 4, y)], fill=INK, width=2); y += IMG_H
+        d.line([(x0 + 4, y), (x0 + PW - 4, y)], fill=INK, width=2)
+        for b in bubbles:
+            side = "R" if str(b.get("side", "L")).upper().startswith("R") else "L"
+            y = _bubble(d, x0, PW, y + 26, b["text_ta"].strip(), side, f_bub, f_name, speaker_ta(b.get("speaker")))
+        d.text((x0 + PW - 30, y0 + ph - 30), str(n + 1), font=f_foot, fill=GREY)
+        y0 += ph + GUT
 
     # அடிக்குறிப்பு
     fy = H - MARGIN - FOOT + 22
@@ -323,6 +345,9 @@ def build(client, model, today, telegram=None):
     # 3. பக்கம்
     out = OUT / f"{today}.png"
     compose(panels, script, state, today, out)
+    keep = OUT / "panels"; keep.mkdir(exist_ok=True)          # பலகைகள் தனியாகவும் சேமிப்பு — பின்னர் வடிவம் மாற்றி மீண்டும் இணைக்க
+    for n, b in enumerate(panels, 1):
+        (keep / f"{today}_{n}.png").write_bytes(b)
     for f in wip.glob("*.png"):
         f.unlink()
 
@@ -330,7 +355,7 @@ def build(client, model, today, telegram=None):
     i, arc = current_arc(state)
     entry = {"date": today, "title": script.get("title_ta", ""), "book": arc["book"], "book_ta": BOOK_TA.get(arc["book"], ""),
              "arc": arc["title_ta"], "day": state.get("global_day", 1), "file": f"data/comic/{today}.png",
-             "summary": script.get("summary_ta", ""), "hidden": False}
+             "summary": script.get("summary_ta", ""), "hidden": False, "script": script}
     idx = [e for e in _j(INDEX_FILE, []) if e["date"] != today]
     idx.insert(0, entry); _save(INDEX_FILE, idx)
     advance(state, script.get("summary_ta", ""), script.get("story_so_far_ta", ""))
@@ -344,13 +369,13 @@ def build(client, model, today, telegram=None):
 def _demo():
     import random
     script = {"title_ta": "ஆடித் திருநாள்", "panels": [
-        {"caption_ta": "ஆடித் திருநாள். வீரநாராயண ஏரிக்கரை.", "bubbles": [{"side": "L", "text_ta": "இந்த ஏரியின் பரப்பு ஒரு கடல் போல!"}]},
-        {"caption_ta": "", "bubbles": [{"side": "L", "text_ta": "அடே! கடம்பூர் மாளிகைக்கு வழி எது?"}, {"side": "R", "text_ta": "வழி சொல்கிறேன்; ஆனால் யார் நீ?"}]},
+        {"caption_ta": "ஆடித் திருநாள். வீரநாராயண ஏரிக்கரை.", "bubbles": [{"speaker": "vandiyathevan", "side": "L", "text_ta": "இந்த ஏரியின் பரப்பு ஒரு கடல் போல!"}]},
+        {"caption_ta": "", "bubbles": [{"speaker": "vandiyathevan", "side": "L", "text_ta": "அடே! கடம்பூர் மாளிகைக்கு வழி எது?"}, {"speaker": "azhwarkadiyan", "side": "R", "text_ta": "வழி சொல்கிறேன்; ஆனால் யார் நீ?"}]},
         {"caption_ta": "ஆழ்வார்க்கடியான் நம்பி — தடியும் நாமமும்.", "bubbles": [{"side": "R", "text_ta": "வைணவனுக்கு வழி கேட்டாய்; வாதமும் கிடைக்கும்!"}]},
         {"caption_ta": "", "bubbles": [{"side": "L", "text_ta": "இவன் யாரோ... சாதாரண பக்தன் அல்ல."}]}]}
     pb = []
     for n in range(4):
-        im = Image.new("RGB", (700, 800), (232, 214, 176)); dd = ImageDraw.Draw(im)
+        im = Image.new("RGB", (1000, 640), (232, 214, 176)); dd = ImageDraw.Draw(im)
         for _ in range(9):
             x, y = random.randint(40, 660), random.randint(300, 760)
             dd.ellipse((x - 60, y - 60, x + 60, y + 60), fill=random.choice([(184, 92, 52), (58, 74, 110), (120, 110, 60)]), outline=INK, width=5)
@@ -362,8 +387,25 @@ if __name__ == "__main__":
     import sys
     if "--demo" in sys.argv:
         print(_demo())
+    elif "--recompose" in sys.argv:                       # python pipeline/comic.py --recompose 2026-09-09
+        dt = sys.argv[sys.argv.index("--recompose") + 1]
+        pb = [(OUT / "panels" / f"{dt}_{n}.png").read_bytes() for n in range(1, 5)]
+        e = next(x for x in _j(INDEX_FILE, []) if x["date"] == dt)
+        print("பலகைகள் உள்ளன; ஆனால் அன்றைய கதை JSON சேமிக்கப்படவில்லை — comic_draft-லிருந்து மட்டுமே" if not e.get("script") else compose(pb, e["script"], load_state(), dt, OUT / f"{dt}.png"))
+    elif "--redo" in sys.argv:                            # இன்றைய பக்கத்தை முதலிலிருந்து மீண்டும் (கதை + படங்கள்) உருவாக்கு
+        from anthropic import Anthropic
+        today = datetime.now(IST).strftime("%Y-%m-%d")
+        st = load_state()
+        if st.get("last_date") == today and st.get("prev"):
+            prev = st["prev"]; prev["prev"] = None; prev["skip_date"] = None; _save(STATE_FILE, prev)
+        elif st.get("skip_date") == today:
+            st["skip_date"] = None; _save(STATE_FILE, st)
+        _save(INDEX_FILE, [e for e in _j(INDEX_FILE, []) if e["date"] != today]); _save(DRAFT_FILE, {})
+        for f in (OUT / "_wip").glob("*.png") if (OUT / "_wip").exists() else []:
+            f.unlink()
+        print(build(Anthropic(timeout=180, max_retries=2), os.environ.get("CLAUDE_MODEL", "claude-sonnet-5"), today))
     elif "--hide" in sys.argv:
-        hide_today(datetime.now().strftime("%Y-%m-%d"))
+        hide_today(datetime.now(IST).strftime("%Y-%m-%d"))
     else:
         from anthropic import Anthropic
-        build(Anthropic(timeout=180, max_retries=2), os.environ.get("CLAUDE_MODEL", "claude-sonnet-5"), datetime.now().strftime("%Y-%m-%d"))
+        build(Anthropic(timeout=180, max_retries=2), os.environ.get("CLAUDE_MODEL", "claude-sonnet-5"), datetime.now(IST).strftime("%Y-%m-%d"))
