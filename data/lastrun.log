@@ -1,9 +1,9 @@
 [fetch] PIB Tamil: 0 புதியவை
 [fetch] PIB English: 0 புதியவை
 [fetch] RBI: 0 புதியவை
-[fetch] ET Markets: 8 புதியவை
+[fetch] ET Markets: 0 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 23 புதியவை
@@ -16,7 +16,7 @@
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
 [fetch] PIB Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] PIB Agriculture: 0 புதியவை
@@ -52,26 +52,31 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 28 புதியவை
+[fetch] Sportstar: 29 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
-[run] புதியவை 459 → நிகழ்வுகள் 457
-[tts-edge] 0b708bf30783: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஒடிசா கிராமப்புற பணிகளில் 52% க்கு புகைப்படச் சான்று இல்லை: தணிக்கை
-[tts-edge] b634b2af76a2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] போபால் பயிற்சி மருத்துவர்கள் போராட்டத்தில் போலீஸ் லத்திசார்ஜ் புகார் - விசாரணைக்கு உத்தரவு
-[skip] இது ஜப்பானிய முதலீட்டாளர்களின் அந்நிய சொத்து ஒதுக்கீடு பற்றி
-[publish] ரிசர்வ் வங்கி பணப்புழக்க நடவடிக்கைக்குப் பின் இந்திய பத்திரங்கள் உயர்வு
-[skip] இது தாய்லாந்து நாட்டு வங்கியின் அமெரிக்க டாலர் பத்திர விற்பன
-[skip] இது அமேசான் நிறுவனத்தின் பிரிட்டிஷ் பவுண்ட் பத்திர விற்பனை ப
-[publish] பஜாஜ் ஃபைனான்ஸ் நிறுவனம் ட்ரூஃபேன் ஏஐ-இல் 5% பங்கு கொள்முதல்
-[publish] NSE ஐபிஓ செப்டம்பர் 18 தொடக்கம்; ₹30,000 கோடி திரட்ட திட்டம்
-[skip] இது அமெரிக்க பங்குச் சந்தை (Dow Jones, Nasdaq, S&P 500) பற்ற
-[publish] சென்செக்ஸ் சரிவுக்கு இடையே 4 நிறுவனப் பங்குகள் 52 வார உச்சம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cerk29VMGNvANztTmyBVR'}
+[run] புதியவை 447 → நிகழ்வுகள் 444
+[skip] மூலத்தில் ஒரே ஒரு வாக்கியம் மட்டுமே உள்ளது; 5 உண்மைத் தகவல் 
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] திண்டிவனம் துணை ஆட்சியரை ஆஜராகுமாறு மதுரை உயர் நீதிமன்றம் அழைப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலில் திமுக நுழைவால் முக்கோண் போட்டி உருவானது
+[skip] ஐரோப்பிய கால்பந்து சாம்பியன்ஸ் லீக் கிளப் போட்டி முடிவுகள் —
+[tts-edge] 8ece138f08fc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டின் GSDP 15.98 % வளர்ச்சி, கடன் ₹8.53 லட்சம் கோடி: CAG
+[tts-edge] c3757dd48eeb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலில் வேட்பாளர் நிறுத்துவோம்: பழனிசாமி அறிவிப்பு
+[publish] கடலூர் மாவட்டத்தில் 11 அரசுப் பள்ளிகளில் பசுமைப் பள்ளி திட்டம் நிறைவு
+[img wiki] Expecting value: line 1 column 1 (char 0)
+[img] pexels_image: கடலூர் ஆதார் சேவை மையம்
+[publish] கடலூரில் புதிய ஆதார் சேவை மையம் திறப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CernGZmioUVsvfT4qCMaT'}
+[skip] இது ஒரு 'விளக்கம்' (Explainer) கட்டுரையின் தலைப்பு மற்றும் க
+[publish] தமிழக சட்டமன்ற பட்ஜெட் கூட்டத்தொடர் 28 நாட்களுக்குப் பிறகு நிறைவு
+[publish] சட்டசபை பேச்சின் போது தன் சைகை தற்செயலானது என முதலமைச்சர் விஜய் விளக்கம்
+[img wiki] Expecting value: line 1 column 1 (char 0)
+[img] pexels_image: நீலகிரி நடுஹட்டி
+[publish] நீலகிரியில் 14 அனுமதியில்லா லேஅவுட்கள் மீது நடவடிக்கை கோரிக்கை
+[img wiki] Expecting value: line 1 column 1 (char 0)
+[img] pexels_image: தமிழ்நாடு சட்டமன்றம் திமுக
+[hold] தமிழக சட்டமன்றத்தில் எதிர்ப்புக்கு இடையே 11 மசோதாக்கள் நிறைவேற்றம்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 8
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 2 · எழுதியவை 8
