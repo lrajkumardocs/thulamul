@@ -1,0 +1,40 @@
+name: comic-redo
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  redo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - name: Redo today's comic page
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CLAUDE_MODEL: claude-sonnet-5
+          PYTHONUNBUFFERED: "1"
+        run: python pipeline/comic.py --redo
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "thulamul-bot"
+          git config user.email "bot@thulamul"
+          git add data/
+          git diff --cached --quiet || git commit -m "comic: redo $(date -u +'%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do
+            git pull --no-rebase -X ours origin main && git push && break
+            sleep 5
+          done
