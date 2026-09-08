@@ -1,13 +1,13 @@
 [fetch] PIB Tamil: 0 புதியவை
 [fetch] PIB English: 0 புதியவை
 [fetch] RBI: 0 புதியவை
-[fetch] ET Markets: 16 புதியவை
+[fetch] ET Markets: 8 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 23 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
 [fetch] ESPNcricinfo: 27 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 23 புதியவை
@@ -33,14 +33,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 1 புதியவை
+[fetch] The Hindu Legal: 2 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 1 புதியவை
+[fetch] The Hindu National: 2 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -55,21 +55,23 @@
 [fetch] Sportstar: 28 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
-[run] புதியவை 466 → நிகழ்வுகள் 464
-[img wiki] Expecting value: line 1 column 1 (char 0)
-[img] openverse_image: world globe map international
-[tts-edge] 241216912ddb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பிரிட்டனில் விமான போக்குவரத்துக் கோளாறால் நூற்றுக்கணக்கான விமானங்கள் ரத்து
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CerhPEkqi6417PEnLQVZd'}
-[tts-edge] 8a4de79635a9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] 2047க்குள் ரியல் எஸ்டேட் ஜிடிபி பங்கு 20% ஆக உயரலாம் என நைட் ஃபிராங்க் கணிப்பு
+[run] புதியவை 459 → நிகழ்வுகள் 457
+[tts-edge] 0b708bf30783: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஒடிசா கிராமப்புற பணிகளில் 52% க்கு புகைப்படச் சான்று இல்லை: தணிக்கை
+[tts-edge] b634b2af76a2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] போபால் பயிற்சி மருத்துவர்கள் போராட்டத்தில் போலீஸ் லத்திசார்ஜ் புகார் - விசாரணைக்கு உத்தரவு
+[skip] இது ஜப்பானிய முதலீட்டாளர்களின் அந்நிய சொத்து ஒதுக்கீடு பற்றி
+[publish] ரிசர்வ் வங்கி பணப்புழக்க நடவடிக்கைக்குப் பின் இந்திய பத்திரங்கள் உயர்வு
+[skip] இது தாய்லாந்து நாட்டு வங்கியின் அமெரிக்க டாலர் பத்திர விற்பன
+[skip] இது அமேசான் நிறுவனத்தின் பிரிட்டிஷ் பவுண்ட் பத்திர விற்பனை ப
+[publish] பஜாஜ் ஃபைனான்ஸ் நிறுவனம் ட்ரூஃபேன் ஏஐ-இல் 5% பங்கு கொள்முதல்
+[publish] NSE ஐபிஓ செப்டம்பர் 18 தொடக்கம்; ₹30,000 கோடி திரட்ட திட்டம்
+[skip] இது அமெரிக்க பங்குச் சந்தை (Dow Jones, Nasdaq, S&P 500) பற்ற
+[publish] சென்செக்ஸ் சரிவுக்கு இடையே 4 நிறுவனப் பங்குகள் 52 வார உச்சம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cerk29VMGNvANztTmyBVR'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] மும்பையில் அக்சென்ச்சருக்கு 2.7 லட்சம் சதுர அடி அலுவலக இடம் குத்தகை
-[hold] பெங்களூரு, ஹைதராபாத், சென்னை நகரங்களில் REIT அலுவலக இடம் 62% பங்கு
-[publish] சிக்னேச்சர் குளோபல் நிறுவனம் ரூ 12,000 கோடியில் இரு குடியிருப்பு திட்டங்கள் அறிவிப்பு
-[publish] நகர்ப்புற வளர்ச்சி அமைச்சகச் செயலர் ரியல் எஸ்டேட் நிறுவனங்களுக்கு அறிவுரை
-[publish] ஆல்பாகிரெப் நிறுவனம் 200 கோடி ரூபாய் பத்திரங்கள் மூலம் நிதி திரட்டியது
-[publish] வளைகுடா பதற்றத்தால் எண்ணெய் விலை உயர்வு, அமெரிக்க பங்குச் சந்தை கலவையான தொடக்கம்
+[publish] திண்டிவனம் துணை ஆட்சியரை ஆஜராகுமாறு மதுரை உயர் நீதிமன்றம் அழைப்பு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலில் திமுக நுழைவால் முக்கோண் போட்டி உருவானது
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 1 · எழுதியவை 8
