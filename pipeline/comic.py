@@ -33,6 +33,7 @@ TA_M = ["ஜனவரி", "பிப்ரவரி", "மார்ச்", "�
 W = 1080; MARGIN = 36; HEAD = 118; GUT = 26; FOOT = 84
 PW = W - 2 * MARGIN                        # 1008 — பலகை அகலம்
 IMG_MAX_H = 800                            # படத்தின் அதிகபட்ச உயரம்; அகலத்துக்கு ஏற்ப தானாக (வெட்டு இல்லை)
+UNIT = "காட்சி"                             # தொடரின் அலகுப் பெயர்: காட்சி / அத்தியாயம் / பகுதி
 ASPECT = "4:3"                             # Gemini-க்கு படத்தின் அகல-உயர விகிதம் ("" = விடு)
 
 # ---------------------------------------------------------------- helpers
@@ -306,7 +307,7 @@ def compose(panels_bytes, script, state, today, out_path):
 
     # தலைப்பு
     d.text((MARGIN, MARGIN - 6), "பொன்னியின் செல்வன்", font=f_title, fill=INK)
-    sub = f"கல்கி · பாகம் {arc['book']} «{BOOK_TA.get(arc['book'], '')}» · {arc['title_ta']} · நாள் {state.get('global_day', 1)}"
+    sub = f"கல்கி · பாகம் {arc['book']} — {BOOK_TA.get(arc['book'], '')} · {UNIT} {state.get('global_day', 1)}"
     d.text((MARGIN, MARGIN + 60), sub, font=f_sub, fill=BRASS)
     t = script.get("title_ta", "")
     if t:
@@ -341,7 +342,8 @@ def compose(panels_bytes, script, state, today, out_path):
     d.text((MARGIN, fy), "துலாமுள் தினசரிக் காமிக்ஸ் · கல்கியின் நாவலின் ஓவிய வடிவம்", font=f_foot, fill=GREY)
     ds = ta_date(today); d.text((W - MARGIN - d.textlength(ds, font=f_foot), fy), ds, font=f_foot, fill=GREY)
     tmr = (script.get("tomorrow_ta") or "").strip()
-    line = f"நாளை: {tmr}" if tmr else "நாளை தொடரும்..."
+    nxt_n = state.get("global_day", 1) + 1
+    line = f"நாளை · {UNIT} {nxt_n} — {tmr}" if tmr else f"நாளை · {UNIT} {nxt_n} தொடரும்..."
     while d.textlength(line, font=f_foot) > W - 2 * MARGIN - 150 and len(line) > 20:
         line = line[:-2].rstrip() + "…"
     d.text((MARGIN, fy + 30), line, font=f_foot, fill=INK)
@@ -442,7 +444,7 @@ def build(client, model, today, telegram=None):
     advance(state, script.get("summary_ta", ""), script.get("story_so_far_ta", ""))
     state["last_date"] = today; _save(STATE_FILE, state)
     _save(DRAFT_FILE, {})
-    telegram_photo(out, f"📖 <b>பொன்னியின் செல்வன்</b> · நாள் {entry['day']} — {entry['title']}\n{entry['summary']}\n\nதவறு என்றால் <code>✘ comic</code>")
+    telegram_photo(out, f"📖 <b>பொன்னியின் செல்வன்</b> · {UNIT} {entry['day']} — {entry['title']}\n{entry['summary']}\n\nதவறு என்றால் <code>✘ comic</code>")
     print(f"[comic] பக்கம் தயார்: {out.name} · நாள் {entry['day']}")
     return entry
 
