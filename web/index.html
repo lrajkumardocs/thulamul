@@ -219,8 +219,8 @@
   .ctitle{font-family:var(--serif);font-size:28px;font-weight:600;margin-top:18px;line-height:1.25}
   .csub{font-family:var(--serif);font-size:19px;color:var(--ink);margin-top:6px}
   .cmeta{font-size:11.5px;color:var(--brass);margin-top:6px;letter-spacing:.02em}
-  .tmrhead{font-family:var(--serif);font-size:13px;color:var(--brass);letter-spacing:.08em;margin-top:14px}
-  .tomorrow{font-family:var(--serif);font-size:17px;font-weight:500;line-height:1.6;color:var(--ink);margin-top:6px}
+  .tmrhead{font-family:var(--serif);font-size:13px;color:var(--brass);letter-spacing:.1em;margin-top:16px}
+  .tomorrow{font-family:var(--serif);font-size:21px;font-weight:600;line-height:1.5;color:var(--ink);margin-top:8px}
   .prevday{display:block;margin-top:14px;cursor:pointer}
   .prevday b{display:block;font-family:var(--serif);font-size:15px;font-weight:500;color:var(--brass)}
   .prevday span{display:block;font-family:var(--serif);font-size:15px;margin-top:4px}
@@ -497,7 +497,7 @@ function comicHtml(){
     ${c.summary?`<p class="mp" style="margin-top:12px">${esc(c.summary)}</p>`:''}</div>
     <div class="comicwrap" data-zoom="${esc(c.file)}"><img src="${BASE}${esc(c.file)}" alt="${esc(c.title||'')}" onerror="this.parentElement.remove()"></div>
     <div class="pad">
-    ${c.next_hint?`<div class="rule"></div><div class="tmrhead">நாளை</div><div class="tomorrow">${esc(c.next_hint)}</div>`:''}
+    ${(function(){const h=c.next_hint||(c.script&&c.script.tomorrow_ta)||'';return h?`<div class="rule"></div><div class="tmrhead">நாளை</div><div class="tomorrow">${esc(h)}</div>`:'';})()}
     ${prev?`<div class="rule"></div><div class="prevday" data-prevcomic="${comicOpen+1}"><b>நேற்றைய காட்சி →</b><span>${esc(prev.title||'')}</span></div>`:''}
     ${comicOpen>0?`<button class="btn" style="margin-top:18px;background:transparent;color:var(--ink);border:1px solid var(--rule)" data-prevcomic="0">இன்றைய காட்சிக்குத் திரும்பு</button>`:''}
     <div style="height:40px"></div></div>`;
