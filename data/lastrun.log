@@ -6,13 +6,13 @@
 [fetch] The Hindu TN: 13 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 27 புதியவை
+[fetch] BBC World: 26 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 29 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
 [fetch] The Hindu Cinema: 27 புதியவை
 [fetch] Cinema Express: 27 புதியவை
-[fetch] The Hindu Tech: 17 புதியவை
+[fetch] The Hindu Tech: 18 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -32,9 +32,9 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 6 புதியவை
+[fetch] Bar and Bench: 3 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
-[fetch] Dinamalar Aanmeegam: 0 புதியவை
+[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
@@ -56,15 +56,29 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Tamil Nadu: 0 புதியவை
-[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7fc66fc669d0>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7f4c74d13d90>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] PIB Rural: 0 புதியவை
 [fetch] PIB Education: 0 புதியவை
 [fetch] PIB Social Justice: 0 புதியவை
 [fetch] MyGov India: 0 புதியவை
-[run] புதியவை 601 → நிகழ்வுகள் 546
-[triage] 546 → 48 முக்கியமானவை
+[run] புதியவை 598 → நிகழ்வுகள் 544
+[triage] 544 → 37 முக்கியமானவை
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[tts-edge] ddd1cb63e305: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு திமுக வேட்பாளர்கள் அறிவிப்பு
+[tts-edge] 95d04fa15831: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தட்டாஞ்சாவடி இடைத்தேர்தலுக்கு திமுக வேட்பாளர் அறிவிப்பு வெளியானது
+[publish] இடைத்தேர்தலுக்கான தவெக கூட்டணி வேட்பாளர் பட்டியல் நாளை அறிவிப்பு
+[publish] விஜய் தலைமையிலான கூட்டணி இந்தியா கூட்டணியின் பகுதி எனக் கூறிய மாணிக்கம் தாகூர்
+[publish] தவெக கூட்டணிக்கு மதச்சார்பற்ற சமூகநீதி வெற்றிக் கூட்டணி எனப் பெயர்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, கூட்டத்தின் விவரங்கள், பங்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; தமிழ் தலை
+[publish] விஜய் பேச்சு சர்ச்சை: ஸ்டாலினை கண்டித்ததாக குற்றச்சாட்டு, திமுக ஆர்ப்பாட்டம் அறிவிப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CetMfb5M2mgHCaJzo5eUn'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] சிலை திருட்டு குற்றவாளி சுபாஷ் கபூரை ஜெர்மனிக்கு அனுப்ப மதராஸ் உயர்நீதிமன்றம் உத்தரவு
+[publish] பட்டினப்பாக்கத்தில் புதிய சட்டமன்ற-செயலகக் கட்டிடம் அமைய அரசு ஒப்புதல்
+[filler] health கட்டுரை
 [malar] JSON மீள்முயற்சி
 [malar] JSON மீள்முயற்சி
 [malar] இதழ் 1 தயார்
-[weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
