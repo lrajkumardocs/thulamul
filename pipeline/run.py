@@ -6,7 +6,7 @@ GitHub Actions ஒவ்வொரு 30 நிமிடமும் இதை �
 """
 import os, re, json, hashlib, asyncio, time, socket
 socket.setdefaulttimeout(20)   # எந்த இணைய அழைப்பும் 20 நொடிக்கு மேல் காத்திருக்காது
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, date
 from pathlib import Path
 
 import yaml, feedparser, requests
@@ -21,6 +21,7 @@ FEED_FILE = DATA / "feed.json"            # ஆப் படிக்கும�
 PENDING_FILE = DATA / "pending.json"      # flag ஆனவை — Telegram ஒப்புதல் காத்திருப்பு
 
 IST = timezone(timedelta(hours=5, minutes=30))
+TA_MONTHS = ["ஜனவரி", "பிப்ரவரி", "மார்ச்", "ஏப்ரல்", "மே", "ஜூன்", "ஜூலை", "ஆகஸ்ட்", "செப்டம்பர்", "அக்டோபர்", "நவம்பர்", "டிசம்பர்"]
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
 MODEL_FAST = os.environ.get("CLAUDE_MODEL_FAST", "claude-haiku-4-5-20251001")
 BIG_TOPICS = {"tn", "india", "assembly", "court", "economy"}
@@ -807,27 +808,26 @@ def main():
     except Exception as ex:
         print("[jobs] பிழை", ex)
 
-    # 5b2. வாரமலர் — ஞாயிறு (அல்லது இந்த வாரத்திற்கு இல்லையெனில்) ஒரு முறை
+    # 5c. வாரமலர் — ஞாயிறு இணைப்பு (பக்கம் 17)
     try:
-        week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if (malar.get("week") != week or malar.get("v") != 2) and (now.weekday() == 6 or not malar or malar.get("v") != 2) and not api_dead:
-            mon = now - timedelta(days=now.weekday()); dates = ", ".join((mon + timedelta(days=i)).strftime("%m-%d") for i in range(7))
-            mp = (ROOT / "pipeline/prompts/malar.md").read_text(encoding="utf-8").replace("{{WEEK}}", week).replace("{{TODAY}}", today).replace("{{DATES}}", dates)
-            wk_cut = (now - timedelta(days=8)).strftime("%Y-%m-%d")
-            wk = [x for x in feed if str(x.get("published_at", ""))[:10] >= wk_cut and x.get("status") == "published"][:40]
-            wk_txt = "\n".join(f"[{x.get('topic_ta','')}] {x.get('headline','')}" for x in wk).strip()
-            if not wk_txt:
-                wk_txt = "(சென்ற வாரச் செய்திகள் கிடைக்கவில்லை — 'சென்ற வார உலகம்' பகுதியை உன் பொது அறிவிலிருந்து, சமீபத்திய பொதுவான உலக/இந்திய நிகழ்வுகளாக எழுது.)"
-            msg = client.messages.create(model=MODEL, max_tokens=8000, system=mp,
-                messages=[{"role": "user", "content": ("சென்ற வாரத்தின் செய்தித் தலைப்புகள்:\n" + wk_txt + "\n\nஇவற்றிலிருந்து 'சென்ற வார உலகம்' பகுதியை எழுது; மற்ற பகுதிகளை உன் அறிவிலிருந்து எழுது.").strip()}])
-            raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
-            m = parse_json(client, raw); m["week"] = week; m["v"] = 2; m["generated"] = today
-            if m.get("song", {}).get("text"):
-                m["song"]["audio"] = make_audio(f"malar_{week}", m["song"]["text"] + ". பொருள்: " + m["song"].get("meaning", ""))
-            save_json(DATA / "malar.json", m); print("[malar] வாரமலர் தயார்", week)
+        if (malar.get("week") != week or malar.get("v") != 3) and (now.weekday() == 6 or not malar) and not api_dead:
+            import importlib, sys
+            sys.path.insert(0, str(ROOT / "pipeline"))
+            mal = importlib.import_module("malar")
+            wk_start = now - timedelta(days=6)
+            dates_ta = f"{wk_start.day} {TA_MONTHS[wk_start.month-1]} – {now.day} {TA_MONTHS[now.month-1]}"
+            issue = max(1, (now.date() - date(2026, 9, 6)).days // 7 + 1)
+            done = [b.get("title_en", "") for old in [malar] for b in (old.get("books") or [])]
+            done += load_json(DATA / "malar_books.json", [])
+            kural_no = ((issue - 1) % 1330) + 1
+            mm2 = mal.build(client, MODEL, week, today, issue, dates_ta, kural_no, done, telegram)
+            if mm2:
+                save_json(DATA / "malar.json", mm2)
+                save_json(DATA / "malar_books.json", (done + [b.get("title_en", "") for b in mm2.get("books", [])])[-60:])
+                print(f"[malar] இதழ் {issue} தயார்")
     except Exception as ex:
-        print("[malar] பிழை", ex)
+        print("[malar] பிழை", str(ex)[:200])
 
     # 5b4. AI தலையங்கம் "தராசில் இன்று" + கேலிச்சித்திரம் — தினமும் 5:30-க்குப் பின் ஒரு முறை
     try:
