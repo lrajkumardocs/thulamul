@@ -10,13 +10,13 @@
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 28 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 25 புதியவை
+[fetch] The Hindu Cinema: 26 புதியவை
 [fetch] Cinema Express: 27 புதியவை
 [fetch] The Hindu Tech: 16 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 19 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
 [fetch] PIB Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] PIB Agriculture: 0 புதியவை
@@ -32,7 +32,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 18 புதியவை
+[fetch] Bar and Bench: 15 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -45,7 +45,7 @@
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] PIB Cabinet: 0 புதியவை
+[fetch] PIB Cabinet: பிழை HTTPSConnectionPool(host='www.pib.gov.in', port=443): Max retries exceeded with url: /RssMain.aspx?ModId=6&Lang=1&Regid=3 (Caused by NewConnectionError("HTTPSConnection(host='www.pib.gov.in', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
 [fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
@@ -55,8 +55,8 @@
 [fetch] Sportstar: 30 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
-[run] புதியவை 607 → நிகழ்வுகள் 550
-[triage] 550 → 49 முக்கியமானவை
+[run] புதியவை 603 → நிகழ்வுகள் 546
+[triage] 546 → 49 முக்கியமானவை
 [malar] பிழை Expecting value: line 1 column 1 (char 0)
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
