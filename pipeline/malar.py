@@ -54,10 +54,19 @@ STYLE = ("Editorial ink-line illustration, black brush pen on warm off-white pap
          "every board, paper, screen and wall must be completely blank.")
 
 
-def gemini_image(scene_en, tag=""):
+def gemini_image(scene_en, tag="", tries=2):
     key = os.environ.get("GEMINI_API_KEY")
     if not key or not scene_en:
         return None
+    for _n in range(tries):
+        b = _gem_once(key, scene_en, tag)
+        if b:
+            return b
+        time.sleep(3)
+    return None
+
+
+def _gem_once(key, scene_en, tag):
     try:
         r = requests.post(
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent",
@@ -186,13 +195,43 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
             raise RuntimeError("JSON தோல்வி: " + str(ex)[:100] + " | " + last[:200])
 
     # இரு பகுதியாக — ஒரே அழைப்பு நேரம் தாண்டுகிறது
-    m = ask(f"{week} வாரமலர், இதழ் {issue}. இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: "
-            "cover_query, roundup, numbers, history, hero, essay. மற்றவற்றை இப்போது தராதே.", 8000)
-    time.sleep(2)
-    m2 = ask(f"{week} வாரமலர், இதழ் {issue}. இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: "
-             "word, zen, poem, agri, food, spirit, books, films, remedy, satire. மற்றவற்றை இப்போது தராதே.", 14000)
-    m.update(m2)
-    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 5
+    m = {}
+    for part, budget in [
+        ("cover_query, roundup, numbers", 6000),
+        ("history, hero", 6000),
+        ("essay, agri, spirit", 8000),
+        ("word, zen, poem, food", 7000),
+        ("books, films, remedy, satire", 9000),
+    ]:
+        try:
+            m.update(ask(f"{week} வாரமலர், இதழ் {issue}. இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: "
+                         f"{part}. மற்றவற்றை இப்போது தராதே.", budget))
+        except Exception as ex:
+            print(f"[malar] {part} தோல்வி:", str(ex)[:90])
+        time.sleep(2)
+    # விடுபட்டவற்றை மீண்டும் கேள் — முழு இதழ் உறுதி
+    NEED = {"roundup": 5, "numbers": 5, "history": 7, "hero": 1, "essay": 1, "agri": 1,
+            "spirit": 1, "word": 1, "zen": 1, "poem": 1, "food": 1, "books": 3,
+            "films": 1, "remedy": 1, "satire": 5}
+    for attempt in range(3):
+        missing = [k for k, n in NEED.items()
+                   if not m.get(k) or (isinstance(m.get(k), list) and len(m[k]) < min(n, 3))]
+        if not missing:
+            break
+        print("[malar] விடுபட்டவை:", ", ".join(missing))
+        for chunk in [missing[i:i + 3] for i in range(0, len(missing), 3)]:
+            try:
+                got = ask(f"{week} வாரமலர், இதழ் {issue}. இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: "
+                          f"{', '.join(chunk)}. முழுமையாக, குறிப்பிட்ட எண்ணிக்கையுடன். மற்றவற்றை இப்போது தராதே.", 8000)
+                for k in chunk:
+                    if got.get(k):
+                        m[k] = got[k]
+            except Exception as ex:
+                print(f"[malar] {chunk} மீள்முயற்சி தோல்வி:", str(ex)[:80])
+            time.sleep(2)
+    if not m:
+        raise RuntimeError("எந்தப் பகுதியும் வரவில்லை")
+    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 7
 
     OUT.mkdir(parents=True, exist_ok=True)
 
