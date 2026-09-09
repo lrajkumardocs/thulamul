@@ -810,6 +810,7 @@ def main():
 
     # 5c. வாரமலர் — ஞாயிறு இணைப்பு (பக்கம் 17)
     try:
+        week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
         if (malar.get("week") != week or malar.get("v") != 3) and (now.weekday() == 6 or not malar) and not api_dead:
             import importlib, sys
