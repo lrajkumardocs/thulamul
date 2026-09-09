@@ -3,11 +3,11 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 15 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 25 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 22 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
 [fetch] ESPNcricinfo: 29 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
 [fetch] The Hindu Cinema: 27 புதியவை
@@ -32,15 +32,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,41 +56,23 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Tamil Nadu: 0 புதியவை
-[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7f85fe6133d0>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7fd497dec790>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] PIB Rural: 0 புதியவை
 [fetch] PIB Education: 0 புதியவை
 [fetch] PIB Social Justice: 0 புதியவை
 [fetch] MyGov India: 0 புதியவை
-[run] புதியவை 599 → நிகழ்வுகள் 546
-[triage] 546 → 72 முக்கியமானவை
-[tts-edge] 178876d2e408: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காஞ்சிபுரத்தில் பழங்குடி பெண், குழந்தை மரணம்; சிபிஎம் கடும் நடவடிக்கை கோரிக்கை
-[tts-edge] 7683b596c279: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பிரசவம் பார்க்க அனுமதி மறுத்ததால் தாய், குழந்தை உயிரிழப்பு
-[skip] மூலத் தகவல் தெளிவற்றது - தலைப்பு தமிழக மாடுபிடி வீரர்கள் விப
-[skip] இது ஒரு அரசியல் பகுப்பாய்வு/கருத்துக் கட்டுரை - 2029 தேர்தல்
-[skip] உலக அளவில் குறிப்பிடத்தக்க முக்கியத்துவம் இல்லாத, தமிழ்நாடு/
-[publish] உக்ரைன்-ரஷியா ஆளில்லா விமானப் போரில் மால்டோவா எல்லையில் இருவர் பலி
-[skip] இது அமெரிக்காவின் மிஸிசிப்பி மாநிலத்தில் நடந்த ஒரு உள்ளூர் க
-[publish] சிரியாவில் ஆயுதக் கிடங்கு வெடிவெடிப்பில் 14 பேர் பலி
-[publish] ஹவுதி தாக்குதல் தொடர்ந்தால் பாதுகாப்பு ஒப்பந்தம் அமலாகும் - பாகிஸ்தான் எச்சரிக்கை
-[publish] பட்டினப்பாக்கத்தில் புதிய சட்டமன்றம்-செயலக வளாகம் அமைக்க அரசு ஒப்புதல்
-[publish] TVK தலைமையிலான கூட்டணிக்கு புதிய பெயர் அறிவிப்பு
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு திமுக வேட்பாளர்கள் அறிவிப்பு
-[filler] health கட்டுரை
-[malar] JSON மீள்முயற்சி
-[malar] JSON மீள்முயற்சி
-[malar] இதழ் 1 தயார்
-[comic] கதை: செழிக்கும் சோழ நாடு
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.91) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.89) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐ ஒத்திருக்கிறது (0.86) — அப்படியே வைக்கிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-09-10.png · நாள் 3
-[rasi] ராசிபலன் தயார்
+[run] புதியவை 590 → நிகழ்வுகள் 534
+[triage] 534 → 28 முக்கியமானவை
+[tts-edge] c34ddd181103: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] முதல்வர் விஜய் முதல் வெளிநாட்டுப் பயணமாக லண்டன் செல்கிறார், தங்க மோதிரத் திட்டம் தள்ளிவைப்பு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வேட்பாளர் பெயர், தொகுதி வி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CetS2zNMp2dAssQVTQypT'}
+[tts-edge] d6d721d844c7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தவெக கூட்டணிக்கு மதச்சார்பற்ற சமூகநீதி வெற்றிக் கூட்டணி என பெயர்
+[publish] பட்டினப்பாக்கத்தில் புதிய தலைமைச் செயலகம் அமைக்க அரசாணை வெளியீடு
+[publish] சேலம்-திண்டுக்கல், ஒசூர்-ஓமலூர் இருவழி ரயில் பாதைக்கு மத்திய அமைச்சரவை ஒப்புதல்
+[publish] மேற்கு ஆசியா பதற்றத்தால் ரூபாய் மதிப்பு 95.11 ஆக சரிவு
+[publish] ரூபாய் மதிப்பு 34 காசு சரிவு, கச்சா எண்ணெய் 100 டாலர் கடந்தது
+[publish] பட்டினப்பாக்கம் புதிய செயலகம் கடும் போக்குவரத்து நெரிசலுக்கு வழிவகுக்கும்: அன்புமணி
 [weather] புதுப்பிக்கப்பட்டது
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 8
+[done] feed 300 · pending 0 · எழுதியவை 7
