@@ -261,6 +261,26 @@
   .ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:var(--ink3);font-family:var(--serif);font-size:12px;text-align:center;padding:8px}
   .bt,.revtxt{flex:1;min-width:0}
   .rating{font-family:var(--serif);font-size:26px;color:var(--brass);font-weight:600}
+  /* வண்ண அட்டைகள் — செய்தி அல்லாத தொகுதிகளுக்கு மட்டும் */
+  .alertbar{display:block;background:#9C2F2F;color:#fff;border-radius:12px;padding:14px 16px;margin:14px 20px 4px;text-decoration:none}
+  .alertbar b{display:block;font-family:var(--serif);font-size:12px;letter-spacing:.1em;opacity:.9}
+  .alertbar span{display:block;font-family:var(--serif);font-size:18px;font-weight:600;line-height:1.4;margin-top:5px}
+  .artcard{border-left:3px solid var(--brass);background:var(--brass2);border-radius:0 12px 12px 0;padding:14px 16px;margin-top:14px}
+  .artcard .kick{font-family:var(--serif);font-size:11px;color:var(--brass);letter-spacing:.1em}
+  .jobcard{background:#EAF2ED;border:1px solid #CBDFD3;border-radius:12px;padding:14px 16px;margin-top:14px}
+  .jobcard .kick{font-family:var(--serif);font-size:11px;color:#2F6B4F;letter-spacing:.1em}
+  .jobcard .due{display:inline-block;background:#2F6B4F;color:#fff;font-size:12px;border-radius:20px;padding:4px 12px;margin-top:8px}
+  .statbox{background:var(--ink);color:var(--paper);border-radius:12px;padding:14px 16px;margin:12px 0}
+  .statbox b{display:block;font-family:var(--serif);font-size:28px;font-weight:600;color:#E4C971;line-height:1.1}
+  .statbox span{display:block;font-size:12.5px;opacity:.85;margin-top:5px;line-height:1.6}
+  .twoside{display:grid;grid-template-columns:1fr;gap:12px;margin-top:14px}
+  .side{border-radius:12px;padding:14px 16px;line-height:1.75;font-family:var(--text);font-size:15px}
+  .sideA{background:#EBEFF7;border-left:3px solid #2B3A67}
+  .sideB{background:#F5EDE7;border-left:3px solid #9C4A2F}
+  .side .h{display:block;font-family:var(--serif);font-size:12px;letter-spacing:.08em;margin-bottom:7px}
+  .side p{margin-top:8px}
+  .side p:first-of-type{margin-top:0}
+  .sideA .h{color:#2B3A67}.sideB .h{color:#9C4A2F}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -419,6 +439,13 @@ function pageHead(i,title,withLogo){
   return `<div class="phead"><div class="pn">துலாமுள் · பக்கம் ${tnum(i+1)} / ${tnum(PAGES.length)} · ${tdate(new Date())}</div><div class="pt">${withLogo?LOGO:esc(title)}</div>${withLogo?'<div class="tag">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ்</div>':''}<div class="dots" onclick="go('#topics')" title="பக்கங்கள்">${PAGES.map((_,j)=>`<i class="${j===i?'on':''}"></i>`).join('')}</div></div>`;
 }
 function card(s,lead,onTopic){
+  if(s.kind==='article') return `<div class="artcard story" data-id="${esc(s.id)}"><div class="kick">கட்டுரை · ${esc(s.topic_ta)}</div>
+    <h2 style="font-size:20px;margin-top:6px;line-height:1.35">${esc(s.headline)}</h2>
+    <p class="mp" style="margin-top:8px;font-size:14.5px">${esc((s.lines||[])[0]||'')}</p></div>`;
+  if(s.topic==='jobs') return `<div class="jobcard story" data-id="${esc(s.id)}"><div class="kick">வேலை அறிவிப்பு</div>
+    <h2 style="font-size:19px;margin-top:6px;line-height:1.35">${esc(s.headline)}</h2>
+    <p class="mp" style="margin-top:8px;font-size:14.5px">${esc((s.lines||[])[0]||'')}</p>
+    ${s.due?`<span class="due">கடைசி நாள்: ${esc(s.due)}</span>`:''}</div>`;
   const img=s.image&&s.image.url;const kick=onTopic?((s.entities||[])[0]||s.topic_ta):s.topic_ta;
   if(lead) return `<div class="lead" data-id="${s.id}">${img?`<figure class="fig"><img class="ph" src="${esc(img)}" alt="" loading="lazy" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}${s.image.symbolic?' · குறியீட்டுப் படம்':''}</figcaption></figure>`:''}
     <div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span><span class="v">${s.kind==='article'?'கட்டுரை':'சரிபார்க்கப்பட்டது'}</span></div>
@@ -491,7 +518,10 @@ function frontPicks(){
 }
 function frontIds(){ return new Set(frontPicks().map(s=>s.id)); }
 function pageBody(k){
-  if(k==='front'){const p=frontPicks();return (brief&&brief.audio?briefHtml():'')+storiesHtml(p,'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: தமிழ்நாடு</b><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்</div>`;}
+  if(k==='front'){const p=frontPicks();
+    const urg=p.filter(x=>x.urgent)[0];
+    const ub=urg?`<a class="alertbar" href="#story/${esc(urg.id)}"><b>⚠ அவசர அறிவிப்பு</b><span>${esc(urg.headline)}</span></a>`:'';
+    return ub+(brief&&brief.audio?briefHtml():'')+storiesHtml(p,'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: தமிழ்நாடு</b><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்</div>`;}
   if(k==='edit'){return editHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: பொருளாதாரம்</b></div>`;}
   if(k==='comic'){const i=PAGES.indexOf(k);return comicHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[i+1]]||''}</b></div>`;}
   if(k==='malar'){return malarHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: விளம்பரம்</b></div>`;}
@@ -670,7 +700,7 @@ function editHtml(){
     h+=`<div class="pad"><div class="rule"></div><div class="small brass">தராசில் இன்று · ${esc(a.date)}</div><h1 style="font-size:24px;margin-top:6px">${esc(a.title)}</h1><div class="byline">${esc(a.author||'Mr. X')} · AI ஆசிரியர்</div>
       ${c.image?`<img class="ph" style="margin-top:14px;background:var(--paper);margin-top:14px" src="${BASE}${esc(c.image)}" alt="${esc(c.alt_ta||'')}" onerror="this.remove()"><div class="cap" style="margin-top:6px"><span class="muted">AI கேலிச்சித்திரம் · Mr. X</span></div>`:''}
       <p class="mp" style="margin-top:14px">${esc(a.issue)}</p>
-      <div class="scales"><div class="pan"><div class="pl">${esc(a.side_a.label)}</div>${a.side_a.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div><div class="pan b"><div class="pl">${esc(a.side_b.label)}</div>${a.side_b.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div></div>
+      <div class="twoside"><div class="side sideA"><span class="h">${esc(a.side_a.label)}</span>${a.side_a.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div><div class="side sideB"><span class="h">${esc(a.side_b.label)}</span>${a.side_b.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div></div>
       ${a.history?`<p class="mp muted">${esc(a.history)}</p>`:''}
       <div class="aware"><div class="at">${esc(a.question)}</div><div class="follow">${a.audio?`<audio controls preload="none" src="${BASE}${a.audio}"></audio>`:''}<span>முடிவு உங்களுடையது.</span></div></div>
       <div class="note">தராசில் இன்று — இரு தரப்பையும் சம எடையில் வைக்கும் AI தலையங்கம்; தீர்ப்பு சொல்லாது.</div></div>`;
