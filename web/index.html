@@ -622,8 +622,9 @@ function malHas(m,k){return {week:(m.roundup||[]).length,num:(m.numbers||[]).len
  food:!!m.food,book:(m.books||[]).length,film:(m.films||[]).length,remedy:!!m.remedy,satire:(m.satire||[]).length}[k];}
 function malarHtml(){
   const m=malar;
-  if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
+  if(!m)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
   const avail=MAL_SECS.filter(([k])=>malHas(m,k));
+  if(!avail.length)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
   if(malarSel===null||!malHas(m,malarSel)){
     const cv=m.cover;
     return `${cv&&cv.url?`<div class="malcover"><img src="${esc(cv.url)}" alt="" onerror="this.parentElement.remove()"></div><div class="pad"><div class="cap">அட்டை: ${esc(cv.credit||'')}${cv.license?' · '+esc(cv.license):''}</div></div>`:''}
