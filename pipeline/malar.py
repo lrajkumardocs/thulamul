@@ -156,11 +156,20 @@ def build(client, model, week, today, issue, dates_ta, kural_no, done_books, tel
     p = (p.replace("{{WEEK}}", week).replace("{{TODAY}}", today).replace("{{ISSUE}}", str(issue))
           .replace("{{DATES}}", dates_ta).replace("{{KURAL_NO}}", str(kural_no))
           .replace("{{DONE_BOOKS}}", ", ".join(done_books[-30:]) or "(இல்லை)"))
-    msg = client.messages.create(model=model, max_tokens=12000, system=p,
-                                 messages=[{"role": "user", "content": f"{week} வாரமலரை எழுது. இதழ் {issue}."}])
-    raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
-    raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
-    m = json.loads(raw[raw.find("{"):raw.rfind("}") + 1])
+    def ask(part, budget):
+        mm = client.messages.create(model=model, max_tokens=budget, timeout=600.0, system=p,
+                                    messages=[{"role": "user", "content": part}])
+        raw = "".join(b.text for b in mm.content if getattr(b, "type", "") == "text").strip()
+        raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
+        return json.loads(raw[raw.find("{"):raw.rfind("}") + 1])
+
+    # இரு பகுதியாக — ஒரே அழைப்பு நேரம் தாண்டுகிறது
+    m = ask(f"{week} வாரமலர், இதழ் {issue}. இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: "
+            "cover_query, roundup, numbers, history, essay, word, kural. மற்றவற்றை இப்போது தராதே.", 8000)
+    time.sleep(2)
+    m2 = ask(f"{week} வாரமலர், இதழ் {issue}. இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: "
+             "books, films, remedy, satire. மற்றவற்றை இப்போது தராதே.", 8000)
+    m.update(m2)
     m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 3
 
     OUT.mkdir(parents=True, exist_ok=True)
