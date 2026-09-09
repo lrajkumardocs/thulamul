@@ -1,10 +1,10 @@
 [fetch] PIB Tamil: 0 புதியவை
 [fetch] PIB English: 0 புதியவை
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 22 புதியவை
 [fetch] Al Jazeera: 23 புதியவை
@@ -46,7 +46,7 @@
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] PIB Cabinet: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 29 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,23 +56,12 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Tamil Nadu: 0 புதியவை
-[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7fd497dec790>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7fe5d5f020d0>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] PIB Rural: 0 புதியவை
 [fetch] PIB Education: 0 புதியவை
 [fetch] PIB Social Justice: 0 புதியவை
 [fetch] MyGov India: 0 புதியவை
-[run] புதியவை 590 → நிகழ்வுகள் 534
-[triage] 534 → 28 முக்கியமானவை
-[tts-edge] c34ddd181103: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] முதல்வர் விஜய் முதல் வெளிநாட்டுப் பயணமாக லண்டன் செல்கிறார், தங்க மோதிரத் திட்டம் தள்ளிவைப்பு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வேட்பாளர் பெயர், தொகுதி வி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CetS2zNMp2dAssQVTQypT'}
-[tts-edge] d6d721d844c7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தவெக கூட்டணிக்கு மதச்சார்பற்ற சமூகநீதி வெற்றிக் கூட்டணி என பெயர்
-[publish] பட்டினப்பாக்கத்தில் புதிய தலைமைச் செயலகம் அமைக்க அரசாணை வெளியீடு
-[publish] சேலம்-திண்டுக்கல், ஒசூர்-ஓமலூர் இருவழி ரயில் பாதைக்கு மத்திய அமைச்சரவை ஒப்புதல்
-[publish] மேற்கு ஆசியா பதற்றத்தால் ரூபாய் மதிப்பு 95.11 ஆக சரிவு
-[publish] ரூபாய் மதிப்பு 34 காசு சரிவு, கச்சா எண்ணெய் 100 டாலர் கடந்தது
-[publish] பட்டினப்பாக்கம் புதிய செயலகம் கடும் போக்குவரத்து நெரிசலுக்கு வழிவகுக்கும்: அன்புமணி
+[run] புதியவை 581 → நிகழ்வுகள் 525
+[triage] 525 → 19 முக்கியமானவை
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 7
+[done] feed 300 · pending 0 · எழுதியவை 0
