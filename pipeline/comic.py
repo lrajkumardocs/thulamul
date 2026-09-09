@@ -330,9 +330,7 @@ def compose(panels_bytes, script, state, today, out_path):
     d.text((MARGIN, MARGIN - 6), "பொன்னியின் செல்வன்", font=f_title, fill=INK)
     sub = f"கல்கி · பாகம் {arc['book']} — {BOOK_TA.get(arc['book'], '')} · {UNIT} {state.get('global_day', 1)}"
     d.text((MARGIN, MARGIN + 60), sub, font=f_sub, fill=BRASS)
-    t = script.get("title_ta", "")
-    if t:
-        d.text((W - MARGIN - d.textlength(t, font=f_sub), MARGIN + 60), t, font=f_sub, fill=GREY)
+    # அத்தியாயத் தலைப்பு பக்கத்தில் வேண்டாம் — ஆப்பில் மேலே தெரிகிறது
     d.line([(MARGIN, MARGIN + HEAD - 14), (W - MARGIN, MARGIN + HEAD - 14)], fill=INK, width=3)
 
     # 4 பலகை — ஒன்றன் கீழ் ஒன்று: விவரிப்பு · படம் (முழுசாக) · பேசுபவர் பெயர் + குமிழ்
@@ -459,7 +457,8 @@ def build(client, model, today, telegram=None):
     i, arc = current_arc(state)
     entry = {"date": today, "title": script.get("title_ta", ""), "book": arc["book"], "book_ta": BOOK_TA.get(arc["book"], ""),
              "arc": arc["title_ta"], "day": state.get("global_day", 1), "file": f"data/comic/{today}.png",
-             "summary": script.get("summary_ta", ""), "hidden": False, "script": script}
+             "summary": script.get("summary_ta", ""), "next_hint": (script.get("tomorrow_ta") or "").strip(),
+             "hidden": False, "script": script}
     idx = [e for e in _j(INDEX_FILE, []) if e["date"] != today]
     idx.insert(0, entry); _save(INDEX_FILE, idx)
     advance(state, script.get("summary_ta", ""), script.get("story_so_far_ta", ""))

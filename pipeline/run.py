@@ -400,14 +400,14 @@ STOCK_Q = {
     "tech":    ["technology circuit", "smartphone coding", "data server", "artificial intelligence"],
     "health":  ["hospital india", "doctor stethoscope", "medicine pills", "health checkup"],
     "jobs":    ["office workers india", "job interview", "students exam hall", "resume writing"],
-    "spirit":  ["hindu temple tamil nadu", "temple gopuram", "oil lamp diya", "temple architecture india"],
-    "cinema":  ["cinema theatre seats", "film camera", "movie projector", "stage lights"],
-    "sports":  ["cricket stadium", "running track", "sports ball", "athletics"],
     "court":   ["court building india", "law books gavel", "justice scales", "legal documents"],
     "world":   ["world map globe", "united nations flags", "international city skyline"],
     "india":   ["india gate delhi", "indian parliament", "indian flag"],
     "tn":      ["chennai city", "tamil nadu temple", "marina beach chennai"],
-    "assembly":["government building india", "parliament session"],
+    "assembly":["tamil nadu assembly", "government building india", "parliament session india", "legislative assembly"],
+    "spirit":  ["hindu temple tamil nadu", "temple gopuram south india", "oil lamp diya", "temple sculpture chola", "meenakshi temple"],
+    "cinema":  ["cinema theatre seats", "film camera", "movie projector", "stage lights concert", "indian cinema"],
+    "sports":  ["cricket stadium india", "kabaddi", "athletics track", "hockey india", "sports trophy"],
 }
 
 # watermark வரக்கூடிய stock முகவரிகள் — தவிர்
@@ -537,7 +537,10 @@ def pick_image(c, story=None):
         im = commons_image(q)
         if im:
             return im
-    return stock_image(story.get("topic", ""), "")
+    im = stock_image(story.get("topic", ""), "")
+    if im:
+        return im
+    return stock_image("", (story.get("topic_ta") or "") + " india")
 
 def telegram(text):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
@@ -845,6 +848,19 @@ def main():
             send_push(push_items, brief_item)
     except Exception as ex:
         print("[push] பிழை", str(ex)[:120])
+
+    # 5d2. படம் இல்லாத இன்றைய செய்திகளுக்கு குறியீட்டுப் படம்
+    try:
+        filled = 0
+        for x in feed[:60]:
+            if str(x.get("published_at", ""))[:10] == today and not (x.get("image") or {}).get("url") and filled < 12:
+                im = stock_image(x.get("topic", ""), "")
+                if im:
+                    x["image"] = im; filled += 1
+        if filled:
+            print(f"[image] {filled} குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன")
+    except Exception as ex:
+        print("[image] பிழை", str(ex)[:120])
 
     # 5e. பாதுகாப்பற்ற படங்களை நீக்கு (பழைய செய்திகளிலிருந்தும்)
     removed = 0
