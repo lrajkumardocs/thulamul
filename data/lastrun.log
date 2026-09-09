@@ -6,7 +6,7 @@
 [fetch] The Hindu TN: 16 புதியவை
 [fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 25 புதியவை
+[fetch] BBC World: 24 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 29 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
@@ -15,7 +15,7 @@
 [fetch] The Hindu Tech: 18 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 18 புதியவை
 [fetch] PIB Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
@@ -56,12 +56,12 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Tamil Nadu: 0 புதியவை
-[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7fcbaf164950>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7f050645d410>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] PIB Rural: 0 புதியவை
 [fetch] PIB Education: 0 புதியவை
 [fetch] PIB Social Justice: 0 புதியவை
 [fetch] MyGov India: 0 புதியவை
-[run] புதியவை 590 → நிகழ்வுகள் 531
-[triage] 531 → 53 முக்கியமானவை
+[run] புதியவை 590 → நிகழ்வுகள் 532
+[triage] 532 → 36 முக்கியமானவை
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
