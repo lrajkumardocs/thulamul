@@ -190,9 +190,9 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
             "cover_query, roundup, numbers, history, hero, essay. மற்றவற்றை இப்போது தராதே.", 8000)
     time.sleep(2)
     m2 = ask(f"{week} வாரமலர், இதழ் {issue}. இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: "
-             "word, zen, poem, agri, spirit, books, films, remedy, satire. மற்றவற்றை இப்போது தராதே.", 12000)
+             "word, zen, poem, agri, food, spirit, books, films, remedy, satire. மற்றவற்றை இப்போது தராதே.", 14000)
     m.update(m2)
-    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 4
+    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 5
 
     OUT.mkdir(parents=True, exist_ok=True)
 
