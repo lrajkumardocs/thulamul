@@ -3,10 +3,10 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 13 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 12 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 26 புதியவை
+[fetch] BBC World: 25 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 29 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
@@ -32,15 +32,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,29 +56,34 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Tamil Nadu: 0 புதியவை
-[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7f4c74d13d90>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7efee68c0250>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] PIB Rural: 0 புதியவை
 [fetch] PIB Education: 0 புதியவை
 [fetch] PIB Social Justice: 0 புதியவை
 [fetch] MyGov India: 0 புதியவை
-[run] புதியவை 598 → நிகழ்வுகள் 544
-[triage] 544 → 37 முக்கியமானவை
+[run] புதியவை 586 → நிகழ்வுகள் 532
+[triage] 532 → 63 முக்கியமானவை
+[tts-edge] 178876d2e408: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காஞ்சிபுரத்தில் பழங்குடியின பெண், குழந்தை மரணம்; CPI(M) நடவடிக்கை கோரிக்கை
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது; இடம், தேதி, மருத்து
+[tts-edge] b722f07b84b4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மேற்கு ஆசியா பதற்றத்தால் ரூபாய் மதிப்பு 95.11ஆக சரிவு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள், எண்கள், மேற்கோள
+[publish] கச்சா எண்ணெய் விலை 100 டாலர் தாண்டியதால் ரூபாய் மதிப்பு 95.08-ஆக சரிவு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] ddd1cb63e305: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு திமுக வேட்பாளர்கள் அறிவிப்பு
-[tts-edge] 95d04fa15831: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தட்டாஞ்சாவடி இடைத்தேர்தலுக்கு திமுக வேட்பாளர் அறிவிப்பு வெளியானது
-[publish] இடைத்தேர்தலுக்கான தவெக கூட்டணி வேட்பாளர் பட்டியல் நாளை அறிவிப்பு
-[publish] விஜய் தலைமையிலான கூட்டணி இந்தியா கூட்டணியின் பகுதி எனக் கூறிய மாணிக்கம் தாகூர்
-[publish] தவெக கூட்டணிக்கு மதச்சார்பற்ற சமூகநீதி வெற்றிக் கூட்டணி எனப் பெயர்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, கூட்டத்தின் விவரங்கள், பங்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; தமிழ் தலை
-[publish] விஜய் பேச்சு சர்ச்சை: ஸ்டாலினை கண்டித்ததாக குற்றச்சாட்டு, திமுக ஆர்ப்பாட்டம் அறிவிப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CetMfb5M2mgHCaJzo5eUn'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] சிலை திருட்டு குற்றவாளி சுபாஷ் கபூரை ஜெர்மனிக்கு அனுப்ப மதராஸ் உயர்நீதிமன்றம் உத்தரவு
-[publish] பட்டினப்பாக்கத்தில் புதிய சட்டமன்ற-செயலகக் கட்டிடம் அமைய அரசு ஒப்புதல்
+[publish] முதல்வர் விஜய் முதல் வெளிநாட்டுப் பயணமாக லண்டன் புறப்பாடு; பொன் மோதிரத் திட்டம் ஒத்திவைப்பு
+[publish] பிரிட்டன் ஒப்படைப்பிற்குப் பிறகு ஹாங்காங்கின் முதல் தலைவர் துங் சீ-வா காலமானார்
+[publish] சிரியாவின் சர்மடாவில் ஆயுதக் கிடங்கு வெடிப்பில் 14 பேர் பலி
+[publish] 4 வங்கிகளில் 9.95% பங்கு வாங்க ஐசிஐசிஐ ப்ரூடென்ஷியலுக்கு ஆர்பிஐ ஒப்புதல்
+[publish] எண்ணெய் விலை 100 டாலர் தாண்டியதால் அமெரிக்க பங்குச் சந்தையில் சரிவு
 [filler] health கட்டுரை
-[malar] JSON மீள்முயற்சி
-[malar] JSON மீள்முயற்சி
-[malar] இதழ் 1 தயார்
+[comic] கதை: செழித்த சோழ நாடு
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-10.png · நாள் 3
+[rasi] ராசிபலன் தயார்
+[weather] புதுப்பிக்கப்பட்டது
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 8
