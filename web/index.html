@@ -215,6 +215,8 @@
   .bignum{display:flex;align-items:baseline;gap:12px;margin-top:8px}
   .bignum b{font-family:var(--serif);font-size:38px;font-weight:500;color:var(--brass);line-height:1}
   .bignum span{font-size:13px;color:var(--ink2)}
+  .comicwrap{display:block;width:100%;margin:12px 0 8px;line-height:0}
+  .comicwrap img{display:block;width:100%;height:auto;background:var(--paper2)}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -475,13 +477,15 @@ function comicHtml(){
   if(!list.length)return '<div class="empty" style="padding-top:60px">பொன்னியின் செல்வன் காமிக்ஸ் இன்று அதிகாலை தயாராகும்.</div>';
   const c=list[0];
   return `<div class="pad"><div class="small brass" style="margin-top:16px">தினசரிக் காமிக்ஸ் · கல்கியின் பொன்னியின் செல்வன்</div>
-    <h1 style="font-size:24px;margin-top:6px">${esc(c.title||'')}</h1><div class="byline">கல்கி · பாகம் ${esc(String(c.book||''))} — ${esc(c.book_ta||'')} · காட்சி ${esc(String(c.day||''))}</div>
-    <a href="${BASE}${esc(c.file)}" target="_blank" rel="noopener"><img class="ph" style="height:auto;aspect-ratio:auto;object-fit:contain;background:var(--paper);margin-top:14px;border:1px solid var(--rule)" src="${BASE}${esc(c.file)}" alt="${esc(c.title||'')}" onerror="this.remove()"></a>
-    <div class="cap" style="margin-top:6px"><span class="muted">பெரிதாகப் பார்க்க படத்தைத் தொடவும் · AI ஓவியம் · வசனம்: துலாமுள்</span></div>
-    ${c.summary?`<p class="mp" style="margin-top:12px">${esc(c.summary)}</p>`:''}
+    <h1 style="font-size:24px;margin-top:6px">${esc(c.title||'')}</h1>
+    <div class="byline">பாகம் ${esc(String(c.book||''))}${c.book_ta?' — '+esc(c.book_ta):''} · காட்சி ${esc(String(c.day||''))}</div>
+    ${c.summary?`<p class="mp" style="margin-top:10px">${esc(c.summary)}</p>`:''}</div>
+    <a class="comicwrap" href="${BASE}${esc(c.file)}" target="_blank" rel="noopener"><img src="${BASE}${esc(c.file)}" alt="${esc(c.title||'')}" onerror="this.parentElement.remove()"></a>
+    <div class="pad"><div class="cap"><span class="muted">பெரிதாகப் பார்க்க படத்தைத் தொடவும் · AI ஓவியம் · வசனம்: துலாமுள்</span></div>
     ${list.length>1?`<div class="rule"></div><div class="small muted">முந்தைய நாட்கள்</div>${list.slice(1,15).map(x=>`<a class="prow" href="${BASE}${esc(x.file)}" target="_blank" rel="noopener"><span class="serif" style="font-size:14px">காட்சி ${esc(String(x.day||''))} · ${esc(x.title||'')}</span><span class="small muted">${esc(x.date)}</span></a>`).join('')}`:''}
-    <div class="note">கல்கி (1899–1954) எழுதிய பொன்னியின் செல்வன் இந்தியப் பதிப்புரிமைச் சட்டப்படி பொதுச் சொத்து. ஓவியங்கள் சோழர்கால சுவரோவியப் பாணியில் துலாமுள் உருவாக்கியவை.</div></div>`;
+    <div style="height:40px"></div></div>`;
 }
+
 function malarHtml(){
   const m=malar;
   if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
@@ -595,7 +599,9 @@ function renderHome(){
   const paper=$('#paper');
   paper.innerHTML=PAGES.map((k,i)=>{let body='';try{body=pageBody(k);}catch(err){console.error('page '+k,err);body='<div class="empty">இந்தப் பக்கத்தில் சிக்கல்.</div>';}
     return `<div class="page" data-k="${k}">${pageHead(i,T[k]||'முதல் பக்கம்',k==='front')}${body}</div>`;}).join('');
-  paper.querySelectorAll('[data-id]').forEach(x=>x.addEventListener('click',()=>{go('#story/'+x.dataset.id)}));
+  paper.querySelectorAll('[data-id]').forEach(x=>x.addEventListener('click',()=>{
+    const pg=x.closest('.page'); if(pg&&pg.dataset.k) backTo='#page/'+pg.dataset.k;
+    go('#story/'+x.dataset.id);}));
   const a=$('#baudio'),p=$('#bplay');if(a&&p){p.addEventListener('click',()=>{if(a.paused){a.play();p.innerHTML=PAUSE;}else{a.pause();p.innerHTML=PLAY;}});a.addEventListener('ended',()=>p.innerHTML=PLAY);}
 }
 let scrollT=null,curPage='front';
@@ -956,8 +962,8 @@ async function draft(c){
 
 function route(hh){
   let h=(typeof hh==='string'?hh:location.hash)||curHash||'#home';
-  if(h==='#back'){h=backTo;try{history.replaceState(null,'',h);}catch(_){}}
-  if(h.startsWith('#story')&&!curHash.startsWith('#story'))backTo=curHash||'#home';
+  if(h==='#back'){h=backTo||'#home';backTo='#home';try{history.replaceState(null,'',h);}catch(_){}}
+  if(h.startsWith('#story')&&!curHash.startsWith('#story')&&!backTo.startsWith('#page/'))backTo=curHash||'#home';
   curHash=h;const [r,arg]=h.slice(1).split('/');
   const detail=$('#s-detail');
   if(r==='story'){detail.classList.add('on');renderDetail(arg);return;}
