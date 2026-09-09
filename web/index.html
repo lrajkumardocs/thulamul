@@ -281,6 +281,31 @@
   .side p{margin-top:8px}
   .side p:first-of-type{margin-top:0}
   .sideA .h{color:#2B3A67}.sideB .h{color:#9C4A2F}
+  /* ------- பெரிய திரை (வலைத்தளம்) ------- */
+  @media (min-width:900px){
+    body{background:#DEDBD3}
+    #app{max-width:none}
+    .page{width:100vw;max-width:none}
+    .paper,.page{padding-left:0;padding-right:0}
+    .mh,.pad,.phead{max-width:1180px;margin-left:auto;margin-right:auto}
+    .mh-name{font-size:46px}
+    .mh-top,.mh-issue,.mh-date{max-width:1180px;margin-left:auto;margin-right:auto}
+    .wx{grid-template-columns:repeat(5,1fr);max-width:1180px;margin:0 auto}
+    .pad{padding-left:40px;padding-right:40px}
+    /* செய்திகள் மூன்று நெடுவரிசை */
+    .stories{column-count:3;column-gap:34px}
+    .stories>*{break-inside:avoid;-webkit-column-break-inside:avoid;margin-bottom:26px;display:inline-block;width:100%}
+    .lead{border:1px solid var(--rule);border-radius:12px;padding:20px 22px}
+    .lead h2,.story h2{font-size:22px}
+    .nav{max-width:1180px;left:50%;transform:translateX(-50%);border-radius:14px 14px 0 0}
+    .twoside{grid-template-columns:1fr 1fr}
+    .fig img{max-height:520px}
+    .edbody,.mp{font-size:16.5px}
+  }
+  @media (min-width:1400px){
+    .mh,.pad,.phead,.wx,.nav,.mh-top,.mh-issue,.mh-date{max-width:1320px}
+    .stories{column-count:4}
+  }
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -455,7 +480,7 @@ function card(s,lead,onTopic){
     <div class="srow"><div class="stxt"><h2>${esc(H(s))}</h2><p>${esc(L(s)[0])}</p></div>
     ${img?`<img class="th" src="${esc(img)}" alt="" loading="lazy" onerror="this.className='th txt';this.removeAttribute('src')">`:`<div class="th txt">${esc((s.entities||[])[0]||s.topic_ta)}</div>`}</div></div>`;
 }
-function storiesHtml(items,empty,onTopic){return items.length?items.map((s,i)=>card(s,i===0,onTopic)).join(''):`<div class="empty">${empty}</div>`;}
+function storiesHtml(items,empty,onTopic){return items.length?`<div class="stories">${items.map((s,i)=>card(s,i===0,onTopic)).join('')}</div>`:`<div class="empty">${empty}</div>`;}
 function bellHtml(k){const on=(localStorage.getItem('bell_'+k)==='1');return `<div class="bell ${on?'on':''}" data-bell="${k}"><svg viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0112 0v5l2 2H4zM10 20a2 2 0 004 0"/></svg><span>${on?'இந்தப் பக்கத்தின் அறிவிப்புகள் மட்டும் — on':'இந்தப் பக்கத்தின் செய்திகளை மட்டும் உடனுக்குடன் அறிய 🔔 தொடுங்கள்'}</span></div>`;}
 const VAPID="BFQRFZWOEFWiX2HhmxxjGgP8ZweQusgxfrQLQWKTDCfmg_leYbuLSFXY7-PeX7aV097prKJ0Gd8rubgSjVU50P8";
 let pushToken=null;
@@ -520,8 +545,8 @@ function frontIds(){ return new Set(frontPicks().map(s=>s.id)); }
 function pageBody(k){
   if(k==='front'){const p=frontPicks();
     const urg=p.filter(x=>x.urgent)[0];
-    const ub=urg?`<a class="alertbar" href="#story/${esc(urg.id)}"><b>⚠ அவசர அறிவிப்பு</b><span>${esc(urg.headline)}</span></a>`:'';
-    return ub+(brief&&brief.audio?briefHtml():'')+storiesHtml(p,'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: தமிழ்நாடு</b><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்</div>`;}
+    window.__urg=urg?`<a class="alertbar" href="#story/${esc(urg.id)}"><b>⚠ அவசர அறிவிப்பு</b><span>${esc(urg.headline)}</span></a>`:'';
+    return (brief&&brief.audio?briefHtml():'')+storiesHtml(p,'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+(window.__urg||'')+`<div class="pfoot"><b>அடுத்த பக்கம்: தமிழ்நாடு</b><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்</div>`;}
   if(k==='edit'){return editHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: பொருளாதாரம்</b></div>`;}
   if(k==='comic'){const i=PAGES.indexOf(k);return comicHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[i+1]]||''}</b></div>`;}
   if(k==='malar'){return malarHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: விளம்பரம்</b></div>`;}
