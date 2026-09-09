@@ -33,9 +33,9 @@ AUTO_PUBLISH_MIN_CONFIDENCE = 0.3
 
 THIN = {"health", "agri", "jobs", "court", "spirit", "cinema", "sports", "tech"}   # தினமும் குறைந்தது 1 உறுதி
 TOPIC_TA = {"tn": "தமிழ்நாடு", "india": "இந்தியா", "world": "உலகம்", "economy": "பொருளாதாரம்",
-            "tech": "தொழில்நுட்பம்", "sports": "விளையாட்டு", "cinema": "சினிமா", "spirit": "ஆன்மீகம்",
+            "tech": "தொழில்நுட்பம்", "sports": "விளையாட்டு", "cinema": "சினிமா",
             "jobs": "வேலை · தேர்வு", "court": "நீதிமன்றம்", "assembly": "சட்டமன்றம்",
-            "health": "சுகாதாரம்", "agri": "விவசாயம்"}
+            "health": "சுகாதாரம்", "govt": "அரசு அறிவிப்புகள்"}
 
 # ---------------------------------------------------------------- helpers
 def load_json(p, default):
@@ -132,9 +132,7 @@ def eligible(c):
 # ---------------------------------------------------------------- 3. write (Claude)
 
 FILLER_TOPICS = {
-    "health": "பருவகால நோய், தடுப்பு, ஊட்டச்சத்து, சித்த/ஆயுர்வேத பொது அறிவு, அரசு சுகாதாரத் திட்டங்கள்",
-    "agri":   "பருவப் பயிர்ப் பராமரிப்பு, நீர் மேலாண்மை, இயற்கை உரம், சந்தை விலை போக்கு, அரசு வேளாண் திட்டங்கள், பாரம்பரிய நெல் ரகங்கள்",
-    "spirit": "தமிழகக் கோயில் வரலாறு, இந்த மாதத் திருவிழாக்கள், சித்தர் மரபு, ஆழ்வார்/நாயன்மார் வரலாறு, திருமுறை-தேவாரப் பாடல் விளக்கம்",
+    "health": "பருவகால நோய், தடுப்பு, ஊட்டச்சத்து, சித்த/ஆயுர்வேத பொது அறிவு, அரசு சுகாதாரத் திட்டங்கள்",  # ஆன்மீகம்/விவசாயம் இப்போது வாரமலரில்
 }
 
 def write_filler(client, topic, today, now):
@@ -812,7 +810,7 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if (malar.get("v") != 3 or malar.get("week") != week) and (now.weekday() == 6 or not malar or malar.get("v") != 3) and not api_dead:
+        if (malar.get("v") != 4 or malar.get("week") != week) and (now.weekday() == 6 or not malar or malar.get("v") != 4) and not api_dead:
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
             mal = importlib.import_module("malar")
@@ -821,11 +819,14 @@ def main():
             issue = max(1, (now.date() - date(2026, 9, 6)).days // 7 + 1)
             done = [b.get("title_en", "") for old in [malar] for b in (old.get("books") or [])]
             done += load_json(DATA / "malar_books.json", [])
-            kural_no = ((issue - 1) % 1330) + 1
-            mm2 = mal.build(client, MODEL, week, today, issue, dates_ta, kural_no, done, telegram)
+            done_heroes = load_json(DATA / "malar_heroes.json", [])
+            mm2 = mal.build(client, MODEL, week, today, issue, dates_ta, done, done_heroes, telegram)
             if mm2:
                 save_json(DATA / "malar.json", mm2)
                 save_json(DATA / "malar_books.json", (done + [b.get("title_en", "") for b in mm2.get("books", [])])[-60:])
+                hn = (mm2.get("hero") or {}).get("name", "")
+                if hn:
+                    save_json(DATA / "malar_heroes.json", (done_heroes + [hn])[-80:])
                 print(f"[malar] இதழ் {issue} தயார்")
     except Exception as ex:
         print("[malar] பிழை", str(ex)[:200])

@@ -150,27 +150,49 @@ def tmdb_poster(q, year=None):
 
 
 # ---------------------------------------------------------------- build
-def build(client, model, week, today, issue, dates_ta, kural_no, done_books, telegram=None):
+def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, telegram=None):
     """run.py அழைக்கும். வெற்றி → dict; தோல்வி → None."""
     p = (PIPE / "prompts" / "malar.md").read_text(encoding="utf-8")
     p = (p.replace("{{WEEK}}", week).replace("{{TODAY}}", today).replace("{{ISSUE}}", str(issue))
-          .replace("{{DATES}}", dates_ta).replace("{{KURAL_NO}}", str(kural_no))
-          .replace("{{DONE_BOOKS}}", ", ".join(done_books[-30:]) or "(இல்லை)"))
-    def ask(part, budget):
-        mm = client.messages.create(model=model, max_tokens=budget, timeout=600.0, system=p,
-                                    messages=[{"role": "user", "content": part}])
-        raw = "".join(b.text for b in mm.content if getattr(b, "type", "") == "text").strip()
+          .replace("{{DATES}}", dates_ta)
+          .replace("{{DONE_BOOKS}}", ", ".join(done_books[-30:]) or "(இல்லை)")
+          .replace("{{DONE_HEROES}}", ", ".join(done_heroes[-40:]) or "(இல்லை)"))
+    def _clean(raw):
         raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
-        return json.loads(raw[raw.find("{"):raw.rfind("}") + 1])
+        i, j = raw.find("{"), raw.rfind("}")
+        return raw[i:j + 1] if i >= 0 and j > i else raw
+
+    def ask(part, budget, tries=2):
+        last = ""
+        for n in range(tries):
+            mm = client.messages.create(model=model, max_tokens=budget, timeout=600.0, system=p,
+                                        messages=[{"role": "user", "content": part}])
+            raw = "".join(b.text for b in mm.content if getattr(b, "type", "") == "text").strip()
+            last = raw
+            try:
+                return json.loads(_clean(raw))
+            except Exception:
+                if n == 0:
+                    print("[malar] JSON மீள்முயற்சி")
+                    part = part + "\n\nமுக்கியம்: JSON மட்டும் தா. விளக்கம், code fence, முன்னுரை எதுவும் வேண்டாம். { -இல் தொடங்கி } -இல் முடிய வேண்டும்."
+                    time.sleep(2)
+        # கடைசி முயற்சி — Claude-ஐயே சரிசெய்யச் சொல்
+        try:
+            fix = client.messages.create(model=model, max_tokens=budget, timeout=600.0,
+                                         system="கீழே உள்ளதை செல்லுபடியாகும் JSON ஆக மட்டும் திருப்பித் தா. வேறு எதுவும் எழுதாதே.",
+                                         messages=[{"role": "user", "content": last[:60000]}])
+            return json.loads(_clean("".join(b.text for b in fix.content if getattr(b, "type", "") == "text")))
+        except Exception as ex:
+            raise RuntimeError("JSON தோல்வி: " + str(ex)[:100] + " | " + last[:200])
 
     # இரு பகுதியாக — ஒரே அழைப்பு நேரம் தாண்டுகிறது
     m = ask(f"{week} வாரமலர், இதழ் {issue}. இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: "
-            "cover_query, roundup, numbers, history, essay, word, kural. மற்றவற்றை இப்போது தராதே.", 8000)
+            "cover_query, roundup, numbers, history, hero, essay. மற்றவற்றை இப்போது தராதே.", 8000)
     time.sleep(2)
     m2 = ask(f"{week} வாரமலர், இதழ் {issue}. இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: "
-             "books, films, remedy, satire. மற்றவற்றை இப்போது தராதே.", 8000)
+             "word, zen, poem, agri, spirit, books, films, remedy, satire. மற்றவற்றை இப்போது தராதே.", 12000)
     m.update(m2)
-    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 3
+    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 4
 
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -194,6 +216,19 @@ def build(client, model, week, today, issue, dates_ta, kural_no, done_books, tel
             caption_image(b, s.get("line", ""), f"சாட்சி · {i}", fp)
             s["image"] = f"data/malar/{fp.name}"
         time.sleep(1)
+
+    # மண்ணின் மைந்தர்கள் — உருவப்படம்
+    hero = m.get("hero") or {}
+    if hero:
+        wi = wiki_photo(hero.get("name", ""))
+        if wi:
+            hero["photo"] = wi
+        else:
+            b = gemini_image(hero.get("scene_en", ""), "hero")
+            if b:
+                fp = OUT / f"{today}_hero.png"
+                caption_image(b, hero.get("line", ""), hero.get("name", ""), fp)
+                hero["image"] = f"data/malar/{fp.name}"
 
     # நூல் அட்டை · திரைப்பட போஸ்டர்
     for b in m.get("books", []):
