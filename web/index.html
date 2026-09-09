@@ -306,6 +306,10 @@
     .mh,.pad,.phead,.wx,.nav,.mh-top,.mh-issue,.mh-date{max-width:1320px}
     .stories{column-count:4}
   }
+  .zenbox{font-family:var(--text);font-size:16.5px;line-height:2;background:var(--paper2);border-radius:12px;padding:18px 20px;margin-top:12px}
+  .zenbox p{margin-top:6px}
+  .zenline{font-family:var(--serif);font-size:18px;font-weight:500;color:var(--brass);border-left:3px solid var(--brass);padding-left:14px;margin-top:16px;line-height:1.6}
+  .poemtext{text-align:left;font-size:17px;line-height:2.1}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -406,7 +410,7 @@ const AD_MAIL='ads@thulamul.com';
 const AD_PRICE_PER_DAY=150; const AD_FULL_PRICE=1000; const AD_SLOTS=8;
 const PAPER_URL='https://thulamul.com/';
 const LOGO=`<svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M50 24v56"/><path d="M36 82h28"/><path d="M18 34h64"/><path d="M50 14l-4 8h8z" fill="#A8862F" stroke="none"/><circle cx="50" cy="34" r="3.2" fill="#A8862F" stroke="none"/><path d="M18 34l-9 22M18 34l9 22"/><path d="M82 34l-9 22M82 34l9 22"/><path d="M6 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/><path d="M70 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/></svg>துலாமுள்`;
-const T={ads:'விளம்பரம்',comic:'காமிக்ஸ்',malar:'வாரமலர்',all:'முதல் பக்கம்',tn:'தமிழ்நாடு',india:'இந்தியா',world:'உலகம்',edit:'தலையங்கம்',economy:'பொருளாதாரம்',sports:'விளையாட்டு',cinema:'சினிமா',tech:'தொழில்நுட்பம்',rasi:'ராசிபலன்',court:'நீதிமன்றம்',jobs:'வேலைவாய்ப்பு',health:'சுகாதாரம்',agri:'விவசாயம்',spirit:'ஆன்மீகம்',assembly:'சட்டமன்றம்'};
+const T={ads:'விளம்பரம்',comic:'காமிக்ஸ்',malar:'வாரமலர்',all:'முதல் பக்கம்',tn:'தமிழ்நாடு',india:'இந்தியா',world:'உலகம்',edit:'தலையங்கம்',economy:'பொருளாதாரம்',sports:'விளையாட்டு',cinema:'சினிமா',tech:'தொழில்நுட்பம்',rasi:'ராசிபலன்',court:'நீதிமன்றம்',govt:'அரசு அறிவிப்புகள்',jobs:'வேலைவாய்ப்பு',health:'சுகாதாரம்',assembly:'சட்டமன்றம்'};
 const MAIN=['all','tn','india','world','edit','economy','sports','cinema','tech','rasi'], MORE=['court','jobs','health','agri','spirit','assembly'];
 const TA=['1','2','3','4','5'];
 let LANG=localStorage.getItem('lang')||'ta';let comicIdx=null;
@@ -430,8 +434,8 @@ function pub(){
 }
 const ago=s=>{const m=(Date.now()-new Date(s))/60000;return m<60?`${Math.max(1,Math.round(m))} நிமிடம் முன்`:m<1440?`${Math.round(m/60)} மணி முன்`:new Date(s).toLocaleDateString('ta-IN',{day:'numeric',month:'short'})};
 
-const PAGES=['front','tn','india','world','edit','economy','court','jobs','tech','health','agri','spirit','rasi','cinema','sports','comic','malar','ads'];
-const MERGE={assembly:'tn'};
+const PAGES=['front','tn','india','world','editorial','economy','court','govt','jobs','tech','health','rasi','cinema','sports','comic','malar','ads'];
+const MERGE={agri:'govt',spirit:'govt',assembly:'tn'};
 const tnum=n=>String(n);
 const CITIES=[['சென்னை',13.08,80.27],['கோயம்புத்தூர்',11.02,76.97],['மதுரை',9.93,78.12],['திருச்சி',10.79,78.70],['சேலம்',11.66,78.15],['திருநெல்வேலி',8.71,77.76],['தூத்துக்குடி',8.76,78.13],['வேலூர்',12.92,79.13],['ஈரோடு',11.34,77.72],['திருப்பூர்',11.11,77.34],['தஞ்சாவூர்',10.79,79.14],['திண்டுக்கல்',10.37,77.98],['கன்னியாகுமரி',8.09,77.54],['நாகர்கோவில்',8.18,77.43],['கடலூர்',11.75,79.77],['விழுப்புரம்',11.94,79.49],['காஞ்சிபுரம்',12.83,79.70],['திருவள்ளூர்',13.14,79.91],['செங்கல்பட்டு',12.69,79.98],['கரூர்',10.96,78.08],['நாமக்கல்',11.22,78.17],['தர்மபுரி',12.13,78.16],['கிருஷ்ணகிரி',12.52,78.21],['திருவண்ணாமலை',12.23,79.07],['புதுக்கோட்டை',10.38,78.82],['சிவகங்கை',9.85,78.48],['ராமநாதபுரம்',9.37,78.83],['விருதுநகர்',9.58,77.96],['தேனி',10.01,77.48],['நாகப்பட்டினம்',10.77,79.84],['திருவாரூர்',10.77,79.64],['மயிலாடுதுறை',11.10,79.65],['அரியலூர்',11.14,79.08],['பெரம்பலூர்',11.23,78.88],['நீலகிரி',11.41,76.70],['ராணிப்பேட்டை',12.93,79.33],['திருப்பத்தூர்',12.50,78.57],['தென்காசி',8.96,77.31],['கள்ளக்குறிச்சி',11.74,78.96],['புதுச்சேரி',11.94,79.83],['பெங்களூரு',12.97,77.59],['ஐதராபாத்',17.39,78.49],['மும்பை',19.08,72.88],['டெல்லி',28.61,77.21],['கொல்கத்தா',22.57,88.36],['கொச்சி',9.93,76.27],['திருவனந்தபுரம்',8.52,76.94],['விசாகப்பட்டினம்',17.69,83.22],['புனே',18.52,73.86],['அகமதாபாத்',23.02,72.57],['துபாய்',25.20,55.27],['சிங்கப்பூர்',1.35,103.82],['கோலாலம்பூர்',3.14,101.69],['லண்டன்',51.51,-0.13],['டொராண்டோ',43.65,-79.38],['நியூயார்க்',40.71,-74.01]];
 let myWx=null;
@@ -604,13 +608,14 @@ document.addEventListener('click',e=>{
 });
 let malarSel=null;                                  // null = அட்டைப் பக்கம்
 const MAL_SECS=[['week','சென்ற வாரம்','ஐந்து நிகழ்வுகள்'],['num','செய்திகளும் எண்களும்','வாரத்தின் ஐந்து எண்கள்'],
- ['hist','இந்த வாரம் வரலாற்றில்','இதே நாட்களில்'],['essay','கட்டுரை','முதன்மைக் கட்டுரை'],
- ['word','வாரம் ஒரு தமிழ்ச் சொல்','சொல்லும் அதன் கதையும்'],['kural','ஒரு பாடல்','திருக்குறள் · தெளிவுரை'],
+ ['hist','இந்த வாரம் வரலாற்றில்','இதே நாட்களில்'],['hero','மண்ணின் மைந்தர்கள்','சுதந்திரப் போராட்ட வீரர்கள்'],
+ ['essay','கட்டுரை','முதன்மைக் கட்டுரை'],['agri','வேளாண்மை','பருவத்திற்கு உரியது'],['spirit','ஆன்மீகம்','கோயில் · மரபு'],
+ ['word','வாரம் ஒரு தமிழ்ச் சொல்','சொல்லும் அதன் கதையும்'],['zen','ஜென் கதை','பத்து வரி'],['poem','கவிதை','உலகக் கவிதை'],
  ['book','வாசிப்பு','உலகக் கிளாசிக்'],['film','திரை விமர்சனம்','இந்த வாரத் திரைப்பட வெளியீடுகள்'],
  ['remedy','பாட்டி வைத்தியம்','பாரம்பரிய அறிவு'],['satire','நையாண்டி','சாட்சி பார்க்கிறார்']];
 function malHas(m,k){return {week:(m.roundup||[]).length,num:(m.numbers||[]).length,hist:(m.history||[]).length,
- essay:!!m.essay,word:!!m.word,kural:!!m.kural,book:(m.books||[]).length,film:(m.films||[]).length,
- remedy:!!m.remedy,satire:(m.satire||[]).length}[k];}
+ hero:!!m.hero,essay:!!m.essay,agri:!!m.agri,spirit:!!m.spirit,word:!!m.word,zen:!!m.zen,poem:!!m.poem,
+ book:(m.books||[]).length,film:(m.films||[]).length,remedy:!!m.remedy,satire:(m.satire||[]).length}[k];}
 function malarHtml(){
   const m=malar;
   if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
@@ -632,9 +637,17 @@ function malarHtml(){
     +`<div class="note">இதே வாரத்தின் நாட்களில், வெவ்வேறு ஆண்டுகளில் நடந்தவை.</div>`;
   else if(k==='essay') h+=`<h2 style="margin-top:12px">${esc(m.essay.title)}</h2>`+esc(m.essay.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');
   else if(k==='word') h+=`<h2 style="margin-top:12px">${esc(m.word.word)}</h2>`+esc(m.word.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');
-  else if(k==='kural'){const K=m.kural;h+=`<div class="small muted" style="margin-top:10px">திருக்குறள் ${esc(String(K.number))} · ${esc(K.adhikaram||'')}</div>
-    <div class="song">${esc(K.text).split(/\n+/).join('<br>')}</div><p class="mp">${esc(K.explain)}</p>
-    <div class="note">பழைய உரைகளைத் தொகுத்து AI எழுதிய தெளிவுரை.</div>`;}
+  else if(k==='hero'){const H=m.hero;h+=`${H.photo&&H.photo.url?`<figure class="fig"><img src="${esc(H.photo.url)}" alt=""><figcaption>படம்: ${esc(H.photo.credit||'')}</figcaption></figure>`:(H.image?`<div class="wcard"><img src="${BASE}${esc(H.image)}" alt=""></div>`:'')}
+    <h2 style="margin-top:12px">${esc(H.name)}</h2><div class="small muted" style="margin-top:4px">${esc(H.years||'')}${H.place?' · '+esc(H.place):''}</div>
+    ${H.line?`<div class="song">${esc(H.line)}</div>`:''}`+esc(H.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
+  else if(k==='agri'){h+=`<h2 style="margin-top:12px">${esc(m.agri.title)}</h2>`+esc(m.agri.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
+  else if(k==='spirit'){h+=`<h2 style="margin-top:12px">${esc(m.spirit.title)}</h2>`+esc(m.spirit.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
+  else if(k==='zen'){const Z=m.zen;h+=`<h2 style="margin-top:12px">${esc(Z.title)}</h2>
+    <div class="zenbox">${esc(Z.story).split(/\n+/).map(x=>`<p>${x}</p>`).join('')}</div>
+    <div class="zenline">${esc(Z.insight||'')}</div>`;}
+  else if(k==='poem'){const P=m.poem;h+=`<div class="small muted" style="margin-top:10px">${esc(P.poet)}${P.origin?' · '+esc(P.origin):''}</div>
+    <div class="song poemtext">${esc(P.text).split(/\n+/).join('<br>')}</div><p class="mp">${esc(P.note||'')}</p>
+    <div class="note">பொதுச் சொத்துப் படைப்பு; தமிழாக்கம் துலாமுள்.</div>`;}
   else if(k==='book') h+=(m.books||[]).map((b,i)=>`<div class="bookrow"${i?' style="border-top:1px solid var(--rule);padding-top:22px;margin-top:26px"':''}>
       <div class="bc">${b.cover&&b.cover.url?`<img src="${esc(b.cover.url)}" alt="" onerror="this.parentElement.innerHTML='<div class=&quot;ph&quot;>${esc(b.title_ta||'')}</div>'">`:`<div class="ph">${esc(b.title_ta||'')}</div>`}</div>
       <div class="bt"><h2 style="font-size:18px">${esc(b.title_ta)}</h2><div class="small muted" style="margin-top:5px">${esc(b.author||'')} · ${esc(String(b.year||''))} · ${esc(b.country||'')}</div></div></div>
