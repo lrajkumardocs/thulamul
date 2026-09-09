@@ -306,6 +306,10 @@
     .mh,.pad,.phead,.wx,.nav,.mh-top,.mh-issue,.mh-date{max-width:1320px}
     .stories{column-count:4}
   }
+  .recipe{background:var(--paper2);border-radius:12px;padding:18px 20px;margin-top:16px}
+  .recipe .rh{font-family:var(--serif);font-size:12px;color:var(--brass);letter-spacing:.1em;margin-bottom:8px}
+  .recipe ul,.recipe ol{margin:0;padding-left:20px}
+  .recipe li{font-family:var(--text);font-size:15px;line-height:1.9}
   .zenbox{font-family:var(--text);font-size:16.5px;line-height:2;background:var(--paper2);border-radius:12px;padding:18px 20px;margin-top:12px}
   .zenbox p{margin-top:6px}
   .zenline{font-family:var(--serif);font-size:18px;font-weight:500;color:var(--brass);border-left:3px solid var(--brass);padding-left:14px;margin-top:16px;line-height:1.6}
@@ -611,11 +615,11 @@ const MAL_SECS=[['week','சென்ற வாரம்','ஐந்து ந�
  ['hist','இந்த வாரம் வரலாற்றில்','இதே நாட்களில்'],['hero','மண்ணின் மைந்தர்கள்','சுதந்திரப் போராட்ட வீரர்கள்'],
  ['essay','கட்டுரை','முதன்மைக் கட்டுரை'],['agri','வேளாண்மை','பருவத்திற்கு உரியது'],['spirit','ஆன்மீகம்','கோயில் · மரபு'],
  ['word','வாரம் ஒரு தமிழ்ச் சொல்','சொல்லும் அதன் கதையும்'],['zen','ஜென் கதை','பத்து வரி'],['poem','கவிதை','உலகக் கவிதை'],
- ['book','வாசிப்பு','உலகக் கிளாசிக்'],['film','திரை விமர்சனம்','இந்த வாரத் திரைப்பட வெளியீடுகள்'],
+ ['food','தமிழர் உணவு முறை','பாரம்பரியச் செய்முறை'],['book','வாசிப்பு','உலகக் கிளாசிக்'],['film','திரை விமர்சனம்','இந்த வாரத் திரைப்பட வெளியீடுகள்'],
  ['remedy','பாட்டி வைத்தியம்','பாரம்பரிய அறிவு'],['satire','நையாண்டி','சாட்சி பார்க்கிறார்']];
 function malHas(m,k){return {week:(m.roundup||[]).length,num:(m.numbers||[]).length,hist:(m.history||[]).length,
  hero:!!m.hero,essay:!!m.essay,agri:!!m.agri,spirit:!!m.spirit,word:!!m.word,zen:!!m.zen,poem:!!m.poem,
- book:(m.books||[]).length,film:(m.films||[]).length,remedy:!!m.remedy,satire:(m.satire||[]).length}[k];}
+ food:!!m.food,book:(m.books||[]).length,film:(m.films||[]).length,remedy:!!m.remedy,satire:(m.satire||[]).length}[k];}
 function malarHtml(){
   const m=malar;
   if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
@@ -648,6 +652,11 @@ function malarHtml(){
   else if(k==='poem'){const P=m.poem;h+=`<div class="small muted" style="margin-top:10px">${esc(P.poet)}${P.origin?' · '+esc(P.origin):''}</div>
     <div class="song poemtext">${esc(P.text).split(/\n+/).join('<br>')}</div><p class="mp">${esc(P.note||'')}</p>
     <div class="note">பொதுச் சொத்துப் படைப்பு; தமிழாக்கம் துலாமுள்.</div>`;}
+  else if(k==='food'){const F=m.food;h+=`<h2 style="margin-top:12px">${esc(F.title)}</h2>`
+    +esc(F.intro).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')
+    +`<div class="recipe"><div class="rh">தேவையானவை</div><ul>${(F.items||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+      <div class="rh" style="margin-top:16px">செய்முறை</div><ol>${(F.steps||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>
+    ${F.note?`<div class="note">${esc(F.note)}</div>`:''}`;}
   else if(k==='book') h+=(m.books||[]).map((b,i)=>`<div class="bookrow"${i?' style="border-top:1px solid var(--rule);padding-top:22px;margin-top:26px"':''}>
       <div class="bc">${b.cover&&b.cover.url?`<img src="${esc(b.cover.url)}" alt="" onerror="this.parentElement.innerHTML='<div class=&quot;ph&quot;>${esc(b.title_ta||'')}</div>'">`:`<div class="ph">${esc(b.title_ta||'')}</div>`}</div>
       <div class="bt"><h2 style="font-size:18px">${esc(b.title_ta)}</h2><div class="small muted" style="margin-top:5px">${esc(b.author||'')} · ${esc(String(b.year||''))} · ${esc(b.country||'')}</div></div></div>
