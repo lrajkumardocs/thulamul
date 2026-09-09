@@ -22,8 +22,11 @@ PENDING_FILE = DATA / "pending.json"      # flag ஆனவை — Telegram ஒ�
 
 IST = timezone(timedelta(hours=5, minutes=30))
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
+MODEL_FAST = os.environ.get("CLAUDE_MODEL_FAST", "claude-haiku-4-5-20251001")
+BIG_TOPICS = {"tn", "india", "assembly", "court", "economy"}
 MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "8"))    # ஒரு ஓட்டத்தில் அதிகபட்சம்
-MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "80"))         # ஒரு நாளில் அதிகபட்சம் (செலவு கட்டுப்பாடு)
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "53"))
+MIN_SCORE = int(os.environ.get("MIN_SCORE", "5"))               # இதற்குக் குறைவானவை எழுதப்படாது
 TTS_VOICE = os.environ.get("TTS_VOICE", "ta-IN-PallaviNeural")   # Microsoft Edge இலவச தமிழ் குரல் (ஆண்: ta-IN-ValluvarNeural)
 AUTO_PUBLISH_MIN_CONFIDENCE = 0.3
 
@@ -270,10 +273,38 @@ def parse_json(client, raw, what="JSON"):
     a, b = r2.find("{"), r2.rfind("}")
     return json.loads(r2[a:b + 1])
 
-def write_news(client, prompt, c, today):
+
+def triage(client, clusters):
+    """எழுதுவதற்கு முன் தரம் பார்ப்பு — Haiku ஒரே அழைப்பில் எல்லாத் தலைப்புகளுக்கும் 1–10 மதிப்பெண்.
+    முக்கியமானவை மட்டும் எழுதப்படும்; சாதாரணமானவை தவிர்க்கப்படும்."""
+    if not clusters:
+        return {}
+    items = []
+    for n, c in enumerate(clusters[:120]):
+        t = c["items"][0]
+        items.append(f"{n}. [{TOPIC_TA.get(c['topic_hint'], c['topic_hint'])}] {t['title'][:150]}")
+    sysmsg = ("நீ தமிழ் நாளிதழின் செய்தி ஆசிரியர். கீழே இன்றைய நிகழ்வுத் தலைப்புகள். ஒவ்வொன்றுக்கும் "
+              "'இது நாளிதழில் இடம்பெற வேண்டுமா' என்று 1–10 மதிப்பெண் தா.\n"
+              "10–9 = உயிரிழப்பு, பேரிடர், தாக்குதல், தலைவர் மரணம்/கைது, தேர்தல், போர்.\n"
+              "8–7 = முதல்வர்/பிரதமர் அறிவிப்பு, சட்டமன்றம், நீதிமன்றத் தீர்ப்பு, விலை/வட்டி/வரி, பெரும் திட்டம், ஊழல், சுகாதார எச்சரிக்கை.\n"
+              "6–5 = துறை அறிவிப்பு, மாவட்டத் திட்டம், வேலைவாய்ப்பு, முக்கிய வழக்கு, பெரிய விளையாட்டு/சினிமா நிகழ்வு.\n"
+              "4–1 = வழக்கமான கூட்டம், அறிக்கை, சந்தை ஏற்ற இறக்கம், தயாரிப்பு அறிவிப்பு, பட்டியல்/கருத்துக் கட்டுரை, வெளிநாட்டு உள்ளூர்ச் செய்தி, விளம்பரம் போன்றவை.\n"
+              "தமிழ்நாடு தொடர்பானதற்கு ஒரு புள்ளி கூடுதல். "
+              'JSON மட்டும், code fence இல்லை: {"s":{"0":7,"1":3,...}} — எண் மட்டும்.')
+    try:
+        msg = client.messages.create(model=MODEL_FAST, max_tokens=2000, system=sysmsg,
+                                     messages=[{"role": "user", "content": "\n".join(items)}])
+        raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+        d = json.loads(raw[raw.find("{"):raw.rfind("}") + 1]).get("s", {})
+        return {int(k): int(v) for k, v in d.items()}
+    except Exception as ex:
+        print("[triage] பிழை", str(ex)[:120])
+        return {}
+
+def write_news(client, prompt, c, today, model=None):
     src_text = "\n\n".join(
-        f"[மூலம் {n+1}: {i['source']} | {i['published']} | {i['link']}]\nதலைப்பு: {i['title']}\n{i['text'][:1500]}"
-        for n, i in enumerate(c["items"][:3]))
+        f"[மூலம் {n+1}: {i['source']}]\nதலைப்பு: {i['title']}\n{i['text'][:800]}"
+        for n, i in enumerate(c["items"][:2]))
     msg = client.messages.create(
         model=MODEL, max_tokens=3000,
         system=prompt.replace("{{TODAY}}", today),
@@ -503,10 +534,13 @@ def met_image(q):
         pass
     return None
 
+_STOCK_CACHE = {}
 def stock_image(topic, query=""):
     """குறியீட்டுப் படம் — Unsplash → Pexels → Pixabay → Openverse. Watermark உள்ளவை தவிர்க்கப்படும்."""
-    tries = ([query] if query else []) + STOCK_Q.get(topic, [])
-    for q in tries[:3]:
+    tries = ([query] if query else []) + STOCK_Q.get(topic, []) + ["tamil nadu india", "india"]
+    import random
+    random.shuffle(tries)
+    for q in tries[:6]:
         for fn in (unsplash_image, pexels_image, pixabay_image, openverse_image, flickr_cc_image, met_image):
             try:
                 im = fn(q)
@@ -631,22 +665,39 @@ def main():
     written = 0
     # தினசரி குறைந்தபட்சம்: இன்று 0 உள்ள துறைகளின் நிகழ்வுகளை முதலில் எழுது
     today_topics = {x["topic"] for x in feed if x.get("published_at", "").startswith(today)}
+    TOPIC_CAP = {"tn": 10, "india": 6, "world": 5, "economy": 5, "assembly": 4}
+    todays_count = {}
+    for x in feed:
+        if str(x.get("published_at", ""))[:10] == today and x.get("status") == "published":
+            todays_count[x.get("topic")] = todays_count.get(x.get("topic"), 0) + 1
+    api_dead = False
+    scores = triage(client, clusters) if clusters else {}
+    if scores:
+        keep = [(scores.get(n, 5), n, c) for n, c in enumerate(clusters)]
+        keep = [x for x in keep if x[0] >= MIN_SCORE]
+        keep.sort(key=lambda x: -x[0])
+        print(f"[triage] {len(clusters)} → {len(keep)} முக்கியமானவை")
+        for sc, _, c in keep:
+            c["score"] = sc
+        clusters = [c for _, _, c in keep]
     boosted = set()
     def prio(c):
         t = c["topic_hint"]
         if t in THIN and t not in today_topics and t not in boosted:
             boosted.add(t); return (0, 0)
-        return (1, -len(c["items"]))          # பல மூலங்கள் = முக்கியம்
+        return (1, -(c.get("score", 5) * 10 + len(c["items"])))   # முக்கியத்துவம் → பல மூலம்
     clusters.sort(key=prio)
     def mark_seen(c):
         for i in c["items"]:
             seen.add(i["id"])
     push_items = []
     day_count = state.get("day_count", {}).get(today, 0)
-    api_dead = False
     for c in clusters:
         if api_dead or written >= MAX_NEW_PER_RUN or day_count + written >= MAX_PER_DAY or time.time() - t_start > 15 * 60:
             continue                      # அடுத்த ஓட்டத்தில் எடுக்கும்; seen-ல் சேர்க்காது
+        _t = c["topic_hint"]
+        if todays_count.get(_t, 0) >= TOPIC_CAP.get(_t, 8):
+            continue                      # இந்தப் பக்கம் இன்று நிரம்பிவிட்டது
         ok, extra_flags = eligible(c)
         if not ok:
             mark_seen(c); continue
@@ -693,6 +744,7 @@ def main():
             if any(x.get("headline") == story["headline"] for x in feed[:200]):
                 print("[dup] அதே தலைப்பு உள்ளது; தவிர்"); mark_seen(c); continue
             story["status"] = "published"; feed.insert(0, story)
+            todays_count[story["topic"]] = todays_count.get(story["topic"], 0) + 1
             if len(story.get("sources", [])) >= 2 or story.get("confidence", 0) >= 0.8:
                 push_items.append({"topic": story["topic"], "title": story["headline"],
                                    "body": story["lines"][0][:140], "url": f"./#story/{story['id']}",
@@ -736,7 +788,7 @@ def main():
                 jp = ("நீ துலாமுள் நாளிதழின் வேலைவாய்ப்பு பக்க எழுத்தாளர். கீழே உள்ள மூலங்களிலிருந்து இன்றைய வேலை அறிவிப்புகளை JSON-ஆக மட்டும் தொகு: "
                       '{"items":[{"org":"நிறுவனம்/துறை","post":"பதவி","count":"இடங்கள் அல்லது null","last_date":"YYYY-MM-DD அல்லது null","type":"அரசு|தனியார்","link":"url"}]} '
                       "உண்மைகள் மட்டும்; மூலத்தில் இல்லாததைச் சேர்க்காதே; ஒரே அறிவிப்பு இரு முறை வேண்டாம்; அதிகபட்சம் 12. தமிழில் org/post.")
-                msg = client.messages.create(model=MODEL, max_tokens=3000, system=jp, messages=[{"role": "user", "content": src_text}])
+                msg = client.messages.create(model=(model or MODEL), max_tokens=3000, system=jp, messages=[{"role": "user", "content": src_text}])
                 rw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
                 j = parse_json(client, rw); items = j.get("items", [])
                 if items:
@@ -782,7 +834,7 @@ def main():
         if now.hour >= 4 and ed.get("date") != today and len(todays_pub) >= 2 and not api_dead:
             src = "\n\n".join(f"[{x['topic_ta']}] {x['headline']}\n" + " ".join(x["lines"]) for x in todays_pub[:10])
             ep = (ROOT / "pipeline/prompts/editorial.md").read_text(encoding="utf-8").replace("{{TODAY}}", today)
-            msg = client.messages.create(model=MODEL, max_tokens=3000, system=ep, messages=[{"role": "user", "content": src}])
+            msg = client.messages.create(model=(model or MODEL), max_tokens=3000, system=ep, messages=[{"role": "user", "content": src}])
             raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
             e = parse_json(client, raw); e["date"] = today; e["author"] = "Mr. X"
             e["audio"] = make_audio(f"editorial_{today.replace('-', '')}", f"தராசில் இன்று. {e['title']}. {e['issue']} ஒரு தட்டு: {e['side_a']['label']}. " + " ".join(e["side_a"]["points"]) + f" மறு தட்டு: {e['side_b']['label']}. " + " ".join(e["side_b"]["points"]) + " " + e["question"])
@@ -852,8 +904,8 @@ def main():
     # 5d2. படம் இல்லாத இன்றைய செய்திகளுக்கு குறியீட்டுப் படம்
     try:
         filled = 0
-        for x in feed[:60]:
-            if str(x.get("published_at", ""))[:10] == today and not (x.get("image") or {}).get("url") and filled < 12:
+        for x in feed[:80]:
+            if str(x.get("published_at", ""))[:10] == today and not (x.get("image") or {}).get("url") and filled < 30:
                 im = stock_image(x.get("topic", ""), "")
                 if im:
                     x["image"] = im; filled += 1

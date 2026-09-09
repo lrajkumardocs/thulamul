@@ -30,7 +30,7 @@ PAPER = (243, 242, 238); INK = (22, 27, 36); BRASS = (168, 134, 47); GREY = (140
 TA_M = ["ஜனவரி", "பிப்ரவரி", "மார்ச்", "ஏப்ரல்", "மே", "ஜூன்", "ஜூலை", "ஆகஸ்ட்", "செப்டம்பர்", "அக்டோபர்", "நவம்பர்", "டிசம்பர்"]
 
 # பக்க வடிவம் — நிலையானது: ஒன்றன் கீழ் ஒன்றாக 4 பலகை (மொபைலில் முழு அகலம்)
-W = 1080; MARGIN = 36; HEAD = 118; GUT = 26; FOOT = 84
+W = 1080; MARGIN = 36; HEAD = 0; GUT = 26; FOOT = 70
 PW = W - 2 * MARGIN                        # 1008 — பலகை அகலம்
 IMG_MAX_H = 800                            # படத்தின் அதிகபட்ச உயரம்; அகலத்துக்கு ஏற்ப தானாக (வெட்டு இல்லை)
 UNIT = "காட்சி"                             # தொடரின் அலகுப் பெயர்: காட்சி / அத்தியாயம் / பகுதி
@@ -326,13 +326,7 @@ def compose(panels_bytes, script, state, today, out_path):
     page = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(page)
 
-    # தலைப்பு
-    d.text((MARGIN, MARGIN - 6), "பொன்னியின் செல்வன்", font=f_title, fill=INK)
-    sub = f"கல்கி · பாகம் {arc['book']} — {BOOK_TA.get(arc['book'], '')} · {UNIT} {state.get('global_day', 1)}"
-    d.text((MARGIN, MARGIN + 60), sub, font=f_sub, fill=BRASS)
-    # அத்தியாயத் தலைப்பு பக்கத்தில் வேண்டாம் — ஆப்பில் மேலே தெரிகிறது
-    d.line([(MARGIN, MARGIN + HEAD - 14), (W - MARGIN, MARGIN + HEAD - 14)], fill=INK, width=3)
-
+    # தலைப்பு ஆப்பில் தெரிகிறது — படத்தில் வேண்டாம்
     # 4 பலகை — ஒன்றன் கீழ் ஒன்று: விவரிப்பு · படம் (முழுசாக) · பேசுபவர் பெயர் + குமிழ்
     y0 = MARGIN + HEAD
     for n, (pb, p, (cap_h, bub_h, bubbles), ph, (iw, ih)) in enumerate(zip(panels_bytes, script["panels"], plan, heights, sizes)):
@@ -355,23 +349,15 @@ def compose(panels_bytes, script, state, today, out_path):
         d.text((x0 + PW - 30, y0 + ph - 30), str(n + 1), font=f_foot, fill=GREY)
         y0 += ph + GUT
 
-    # அடிக்குறிப்பு
+    # அடிக்குறிப்பு — கையொப்பம் மட்டும் (மற்ற உரை ஆப்பில்)
     fy = H - MARGIN - FOOT + 22
     d.line([(MARGIN, fy - 12), (W - MARGIN, fy - 12)], fill=BRASS, width=2)
-    d.text((MARGIN, fy), "துலாமுள் தினசரிக் காமிக்ஸ் · கல்கியின் நாவலின் ஓவிய வடிவம்", font=f_foot, fill=GREY)
-    ds = ta_date(today); d.text((W - MARGIN - d.textlength(ds, font=f_foot), fy), ds, font=f_foot, fill=GREY)
-    tmr = (script.get("tomorrow_ta") or "").strip()
-    nxt_n = state.get("global_day", 1) + 1
-    line = f"நாளை · {UNIT} {nxt_n} — {tmr}" if tmr else f"நாளை · {UNIT} {nxt_n} தொடரும்..."
-    while d.textlength(line, font=f_foot) > W - 2 * MARGIN - 150 and len(line) > 20:
-        line = line[:-2].rstrip() + "…"
-    d.text((MARGIN, fy + 30), line, font=f_foot, fill=INK)
     sig = FONT_DIR / "signature.png"
     if sig.exists():
         try:
             sg = Image.open(sig).convert("RGBA"); tw = 120
             sg = sg.resize((tw, max(1, int(sg.height * tw / sg.width))), Image.LANCZOS)
-            page.paste(sg, (W - MARGIN - tw, fy + 24), sg)
+            page.paste(sg, (W - MARGIN - tw, fy + 4), sg)
         except Exception:
             pass
     Path(out_path).parent.mkdir(parents=True, exist_ok=True)
