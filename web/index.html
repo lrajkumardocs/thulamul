@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#161B24">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>துலாமுள்</title>
@@ -40,8 +41,8 @@
   .chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
   select.chip{appearance:none;-webkit-appearance:none}
   .lead{padding:18px 20px 16px;border-bottom:1px solid var(--rule);cursor:pointer}
-  .ph{width:100%;height:190px;object-fit:cover;border-radius:4px;display:block;background:#2E3441;margin-bottom:10px}
-  .cap{font-size:11px;color:var(--ink3);font-style:italic;margin:-4px 0 10px;line-height:1.5}
+  .ph{display:block;width:100%;height:auto;max-height:64vh;object-fit:contain;border-radius:4px;background:var(--paper2)}
+  .cap{display:block;font-size:11px;color:var(--ink3);font-style:italic;margin:0 0 12px;line-height:1.5;clear:both}
   .k{font-size:11px;color:var(--ink3);display:flex;justify-content:space-between;margin-bottom:6px}
   .k b{color:var(--brass);font-weight:500}
   .v{color:var(--green)}.v::before{content:"● ";font-size:8px;vertical-align:2px}
@@ -49,10 +50,11 @@
   .lead .foot{display:flex;justify-content:space-between;font-size:11px;color:var(--ink3);margin-top:10px}
   .story{padding:16px 20px;border-bottom:1px solid var(--rule);cursor:pointer}
   .srow{display:flex;gap:14px;align-items:flex-start}
+  .srow img{width:92px;height:92px;object-fit:contain;background:var(--paper2);border-radius:4px;flex:none;display:block}
   .stxt{flex:1;min-width:0}
   .stxt h2{font-size:16px}
   .stxt p{font-family:var(--text);font-size:13.5px;line-height:1.65;color:var(--ink2);margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .th{width:88px;height:88px;flex:none;border-radius:4px;object-fit:cover;background:#2E3441}
+  .th{width:88px;height:88px;flex:none;border-radius:4px;object-fit:contain;background:#2E3441}
   .th.txt{display:flex;align-items:flex-end;padding:6px;font-size:9px;color:#C9CCD3;background:repeating-linear-gradient(135deg,#3A4150 0 6px,#2E3441 6px 12px)}
   .empty{padding:40px 20px;color:var(--ink3);text-align:center;font-size:13px;line-height:1.7}
   .wx{margin:8px 20px 0;padding:14px 0 6px;border-top:1px solid var(--rule)}
@@ -63,7 +65,7 @@
   .topbar{display:flex;justify-content:space-between;align-items:center;padding:calc(8px + env(safe-area-inset-top)) 16px 8px}
   .icon{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule);background:var(--paper2);cursor:pointer}
   .icon svg{width:18px;height:18px;stroke:var(--ink);fill:none;stroke-width:1.6}
-  .dph{width:100%;height:230px;object-fit:cover;display:block;background:#2E3441}
+  .dph{width:100%;height:230px;object-fit:contain;display:block;background:#2E3441}
   .dcap{font-size:11px;color:var(--ink3);font-style:italic;padding:8px 20px 0;line-height:1.5}
   h1{font-family:var(--serif);font-size:23px;line-height:1.45;font-weight:500;margin-top:8px}
   .body5{margin-top:18px}
@@ -127,10 +129,10 @@
   .inside .grid{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
   .inside a{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px dotted var(--rule);font-size:13px}
   .inside b{font-family:var(--serif);font-weight:500;color:var(--ink3)}
-  .adfullslot{padding:12px 20px 4px;cursor:pointer}.adfullslot img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:6px;display:block;pointer-events:none}.adfullslot small{display:block;font-size:10px;color:var(--ink3);margin-top:4px}
+  .adfullslot{padding:12px 20px 4px;cursor:pointer}.adfullslot img{width:100%;aspect-ratio:4/5;object-fit:contain;background:var(--paper2);border-radius:6px;display:block;pointer-events:none}.adfullslot small{display:block;font-size:10px;color:var(--ink3);margin-top:4px}
   .typegrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
   .adgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 20px}
-  .adbox{cursor:pointer}.adbox img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block;pointer-events:none}
+  .adbox{cursor:pointer}.adbox img{width:100%;aspect-ratio:3/4;object-fit:contain;background:var(--paper2);border-radius:6px;display:block;pointer-events:none}
   .adbox small{display:block;font-size:10px;color:var(--ink3);margin-top:4px}
   .adfull{position:fixed;inset:0;background:#0E1117;z-index:50;display:flex;flex-direction:column;justify-content:center}
   .adfull img{width:100%;max-height:90vh;object-fit:contain}
@@ -166,7 +168,9 @@
   .job{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--rule);font-size:13px}
   .job b{display:block;font-weight:500}.job span{color:var(--ink2);font-size:12.5px}
   .jr{text-align:right;flex:none}.jr i{font-style:normal;font-size:11px;color:var(--brass)}.jr small{display:block;font-size:11px;color:var(--ink3)}
-  .med summary{font-size:12px;color:var(--ink2);cursor:pointer;list-style:none;padding:2px 0}
+  .med summary{font-size:12px;color:var(--ink2);cursor:pointer;list-style:none;padding:3px 0}
+  .med summary::after{content:' ›';color:var(--brass)}
+  .med[open] summary::after{content:' ⌄'}
   .med div{padding-left:12px}
   .panch{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border-bottom:1px solid var(--rule)}
   .panch div{background:var(--paper2);padding:10px 16px}.panch small{display:block;font-size:10.5px;color:var(--ink3)}.panch b{display:block;font-family:var(--serif);font-size:14px;font-weight:500;margin-top:2px}
@@ -228,8 +232,14 @@
   .story img,.lead img,.dph{pointer-events:none}
   .pbtn,.play,button,a,.icon{pointer-events:auto}
   .ph,.dph,.th,.ad img{position:relative}
-  .wm{position:absolute;right:10px;bottom:8px;font-family:var(--serif);font-size:11px;color:rgba(243,242,238,.85);text-shadow:0 0 4px rgba(0,0,0,.6);pointer-events:none;letter-spacing:.04em}
-  .imgwrap{position:relative;display:block}
+  .wm{position:absolute;right:10px;bottom:10px;line-height:1;font-family:var(--serif);font-size:11px;color:rgba(243,242,238,.85);text-shadow:0 0 4px rgba(0,0,0,.6);pointer-events:none;letter-spacing:.04em}
+  .imgwrap{position:relative;display:block;width:100%;margin:0 0 8px;line-height:0;overflow:hidden;border-radius:4px;background:var(--paper2)}
+  .fig{display:block;margin:0 0 14px;padding:0;width:100%;position:relative}
+  .fig img{display:block;width:100%;height:auto;max-height:60vh;object-fit:contain;background:var(--paper2);border-radius:4px}
+  .fig figcaption{display:block;font-size:11px;color:var(--ink3);font-style:italic;line-height:1.5;margin-top:6px}
+  .figfull{margin:0 0 4px}
+  .figfull img{max-height:56vh;border-radius:0}
+  .figfull figcaption{padding:0 20px 10px}
   @media print{body{display:none}}
   .dim{opacity:.5}
 </style>
@@ -262,14 +272,12 @@
   <div class="pad" id="arc-list"><div class="empty">ஏற்றுகிறது…</div></div>
 </section>
 
-<section class="screen" id="s-me" style="height:calc(100vh - 64px);overflow-y:auto">
+<section class="screen" id="s-me" style="height:calc(100vh - 64px);overflow-y:auto;-webkit-overflow-scrolling:touch;padding-bottom:40px">
   <div class="head"><div class="mast">மேலும்</div></div>
   <div class="pad">
     <div class="prow"><span>மொழி</span><span class="seg" id="langseg"><span data-l="ta">தமிழ்</span><span data-l="en">English</span></span></div>
     <div class="prow"><span>எழுத்து அளவு</span><span class="seg"><span data-f="s">சிறியது</span><span data-f="m" class="on">நடுத்தரம்</span><span data-f="l">பெரியது</span></span></div>
-    <div class="prow" id="notif-row" style="cursor:pointer"><span>அறிவிப்புகள்<br><span class="small muted">காலை brief + நீங்கள் 🔔 செய்த பக்கங்கள்</span></span><span class="brass" id="notif-state">→</span></div>
     <div class="prow" id="share-paper" style="cursor:pointer"><span>இன்றைய இதழைப் பகிர்</span><span class="brass">→</span></div>
-    <div class="prow"><span>ஆப்பாக நிறுவு</span><span class="small muted">Share → Add to Home Screen</span></div>
     <div class="prow" style="cursor:pointer" onclick="go('#adform')"><span>விளம்பரம் செய்ய</span><span class="brass">→</span></div>
     <a class="prow" href="#legal/privacy"><span>தனியுரிமைக் கொள்கை</span><span class="brass">→</span></a>
     <a class="prow" href="#legal/terms"><span>விதிமுறைகள் & நிபந்தனைகள்</span><span class="brass">→</span></a>
@@ -277,7 +285,7 @@
     <a class="prow" href="#legal/corrections"><span>திருத்தக் கொள்கை</span><span class="brass">→</span></a>
     <a class="prow" href="#legal/grievance"><span>குறைதீர் அதிகாரி</span><span class="brass">→</span></a>
     <a class="prow" href="#legal/disclaimer"><span>மறுப்பறிக்கை (ஜோதிடம் · மனு உதவி · விளம்பரம்)</span><span class="brass">→</span></a>
-    <div class="prow"><span>பதிப்பு</span><span class="small muted">0.4 · சோதனை</span></div>
+    <div class="prow"><span>பதிப்பு</span><span class="small muted">1.0</span></div>
     <div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br><span class="muted">© <span id="cy"></span> முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. All rights reserved.</span><a id="ad-wa" hidden></a><a id="ad-mail" hidden></a></div>
   </div>
 </section>
@@ -292,11 +300,11 @@
 
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
-import { getAuth, RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
+import { getAuth, RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
 import { getMessaging, getToken, onMessage, isSupported } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-messaging.js";
 const fb = initializeApp({apiKey:"AIzaSyB3aUM0tQKByUaUg4jMGpHFDuVokkjFXg8",authDomain:"thulamul.firebaseapp.com",projectId:"thulamul",storageBucket:"thulamul.firebasestorage.app",messagingSenderId:"1075780759307",appId:"1:1075780759307:web:d10b25f39a1b54bc96fc0e"});
-window.FB = {app:fb, auth:getAuth(fb), db:getFirestore(fb), RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, setDoc, serverTimestamp, getMessaging, getToken, onMessage, isSupported};
+window.FB = {app:fb, auth:getAuth(fb), db:getFirestore(fb), RecaptchaVerifier, signInWithPhoneNumber, onAuthStateChanged, signOut, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, setDoc, serverTimestamp, getMessaging, getToken, onMessage, isSupported};
 window.dispatchEvent(new Event('fb-ready'));
 </script>
 <script>
@@ -307,10 +315,11 @@ const AD_MAIL='thulamul@lrajkumar.com';
 const AD_PRICE_PER_DAY=150; const AD_FULL_PRICE=1000; const AD_SLOTS=8;
 const PAPER_URL='https://lrajkumardocs.github.io/thulamul/web/';
 const LOGO=`<svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M50 24v56"/><path d="M36 82h28"/><path d="M18 34h64"/><path d="M50 14l-4 8h8z" fill="#A8862F" stroke="none"/><circle cx="50" cy="34" r="3.2" fill="#A8862F" stroke="none"/><path d="M18 34l-9 22M18 34l9 22"/><path d="M82 34l-9 22M82 34l9 22"/><path d="M6 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/><path d="M70 56c0 6 5 9 12 9s12-3 12-9z" fill="#F3F2EE"/></svg>துலாமுள்`;
-const T={comic:'காமிக்ஸ்',ads:'விளம்பரம்',malar:'வாரமலர்',all:'முதல் பக்கம்',tn:'தமிழ்நாடு',india:'இந்தியா',world:'உலகம்',edit:'தலையங்கம்',economy:'பொருளாதாரம்',sports:'விளையாட்டு',cinema:'சினிமா',tech:'தொழில்நுட்பம்',rasi:'ராசிபலன்',court:'நீதிமன்றம்',jobs:'வேலைவாய்ப்பு',health:'சுகாதாரம்',agri:'விவசாயம்',spirit:'ஆன்மீகம்',assembly:'சட்டமன்றம்'};
+const T={ads:'விளம்பரம்',comic:'காமிக்ஸ்',malar:'வாரமலர்',all:'முதல் பக்கம்',tn:'தமிழ்நாடு',india:'இந்தியா',world:'உலகம்',edit:'தலையங்கம்',economy:'பொருளாதாரம்',sports:'விளையாட்டு',cinema:'சினிமா',tech:'தொழில்நுட்பம்',rasi:'ராசிபலன்',court:'நீதிமன்றம்',jobs:'வேலைவாய்ப்பு',health:'சுகாதாரம்',agri:'விவசாயம்',spirit:'ஆன்மீகம்',assembly:'சட்டமன்றம்'};
 const MAIN=['all','tn','india','world','edit','economy','sports','cinema','tech','rasi'], MORE=['court','jobs','health','agri','spirit','assembly'];
 const TA=['1','2','3','4','5'];
-let LANG=localStorage.getItem('lang')||'ta';let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,aied=null,comicIdx=[],rasiSel=parseInt(localStorage.getItem('rasi')||'0');
+let LANG=localStorage.getItem('lang')||'ta';let comicIdx=null;
+let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,aied=null,rasiSel=parseInt(localStorage.getItem('rasi')||'0');
 const $=s=>document.querySelector(s);
 const H=s=>(LANG==='en'&&s.en&&s.en.headline)?s.en.headline:s.headline;const L=s=>(LANG==='en'&&s.en&&s.en.lines)?s.en.lines:(s.lines||[]);const C=s=>(LANG==='en'&&s.en&&s.en.closing)?s.en.closing:s.closing;
 const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
@@ -325,9 +334,8 @@ function pubWeek(){
 function pub(){
   let all=feed.filter(s=>s.status==='published').map(s=>MERGE[s.topic]?{...s,topic:MERGE[s.topic]}:s);
   if(issueLabel)return all;
-  const t=todayIST();let today=all.filter(s=>istDay(s.published_at)===t);
-  if(!today.length&&all.length){const last=istDay(all[0].published_at);today=all.filter(s=>istDay(s.published_at)===last);}
-  return today;
+  const t=todayIST();
+  return all.filter(s=>istDay(s.published_at)===t);
 }
 const ago=s=>{const m=(Date.now()-new Date(s))/60000;return m<60?`${Math.max(1,Math.round(m))} நிமிடம் முன்`:m<1440?`${Math.round(m/60)} மணி முன்`:new Date(s).toLocaleDateString('ta-IN',{day:'numeric',month:'short'})};
 
@@ -366,11 +374,11 @@ function pageHead(i,title,withLogo){
 }
 function card(s,lead,onTopic){
   const img=s.image&&s.image.url;const kick=onTopic?((s.entities||[])[0]||s.topic_ta):s.topic_ta;
-  if(lead) return `<div class="lead" data-id="${s.id}">${img?`<span class="imgwrap"><img class="ph" src="${esc(img)}" alt="" loading="lazy" onerror="this.parentElement.nextElementSibling&&this.parentElement.nextElementSibling.remove();this.parentElement.remove()"><span class="wm">துலாமுள்</span></span><div class="cap">படம்: ${esc(s.image.credit)}</div>`:''}
-    <div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span><span class="v">சரிபார்க்கப்பட்டது</span></div>
+  if(lead) return `<div class="lead" data-id="${s.id}">${img?`<figure class="fig"><img class="ph" src="${esc(img)}" alt="" loading="lazy" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}${s.image.symbolic?' · குறியீட்டுப் படம்':''}</figcaption></figure>`:''}
+    <div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span><span class="v">${s.kind==='article'?'கட்டுரை':'சரிபார்க்கப்பட்டது'}</span></div>
     <h2>${esc(H(s))}</h2>
     <div class="foot"><span>மூலம்: ${esc(srcShort(s.sources||[]))}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:'<span>30 நொடி</span>'}</div></div>`;
-  return `<div class="story" data-id="${s.id}"><div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:''}</div>
+  return `<div class="story" data-id="${s.id}"><div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}${s.kind==='article'?' · கட்டுரை':''}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:''}</div>
     <div class="srow"><div class="stxt"><h2>${esc(H(s))}</h2><p>${esc(L(s)[0])}</p></div>
     ${img?`<img class="th" src="${esc(img)}" alt="" loading="lazy" onerror="this.className='th txt';this.removeAttribute('src')">`:`<div class="th txt">${esc((s.entities||[])[0]||s.topic_ta)}</div>`}</div></div>`;
 }
@@ -410,14 +418,40 @@ document.addEventListener('click',async e=>{
   try{ await ensurePush(); localStorage.setItem('bell_'+k,'1'); b.classList.add('on'); sp.textContent=BELL_ON; await saveTopics(); }
   catch(err){ sp.textContent='இயக்க முடியவில்லை: '+((err&&err.message)||err); }
 });
+let FRONT=null;
+fetch(BASE+'pipeline/front_rules.json?'+Math.floor(Date.now()/6e4)).then(r=>r.json()).then(d=>{FRONT=d;renderHome();}).catch(()=>{});
+function frontWeight(s){
+  if(!FRONT) return 50;
+  const cat=(FRONT.categories||[]).find(c=>c.id===(s.front_cat||'routine'));
+  let v=cat?cat.weight:40;
+  v+=(FRONT.region_bonus||{})[s.topic]||0;
+  if(s.urgent) v+=FRONT.urgent_bonus||0;
+  for(const k in (FRONT.affected_bonus||{})) if((s.affected||'').indexOf(k)>=0){ v+=FRONT.affected_bonus[k]; break; }
+  v+=Math.min(4,((s.sources||[]).length-1)*2);
+  return v;
+}
+function frontPicks(){
+  if(!FRONT) return pub().slice(0,10);
+  const sorted=[...pub()].sort((a,b)=>frontWeight(b)-frontWeight(a)||new Date(b.published_at)-new Date(a.published_at));
+  const out=[],per={},minW=FRONT.front_min_weight||55,maxN=FRONT.front_max||10,maxT=FRONT.max_per_topic||3;
+  for(const s of sorted){
+    if(frontWeight(s)<minW) break;
+    const t=s.topic; per[t]=per[t]||0;
+    if(per[t]>=maxT) continue;
+    per[t]++; out.push(s);
+    if(out.length>=maxN) break;
+  }
+  return out.length?out:sorted.slice(0,6);
+}
+function frontIds(){ return new Set(frontPicks().map(s=>s.id)); }
 function pageBody(k){
-  if(k==='front'){const p=pub();return (brief&&brief.audio?briefHtml():'')+storiesHtml(p.slice(0,12),'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: தமிழ்நாடு</b><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்</div>`;}
+  if(k==='front'){const p=frontPicks();return (brief&&brief.audio?briefHtml():'')+storiesHtml(p,'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: தமிழ்நாடு</b><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்</div>`;}
   if(k==='edit'){return editHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: பொருளாதாரம்</b></div>`;}
+  if(k==='comic'){const i=PAGES.indexOf(k);return comicHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[i+1]]||''}</b></div>`;}
   if(k==='malar'){return malarHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: விளம்பரம்</b></div>`;}
-  if(k==='ads'){return adsHtml()+`<div class="pad"><div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X<br><a href="https://thulamul.com">www.thulamul.com</a> · <a href="mailto:info@thulamul.com">info@thulamul.com</a><br><span class="muted">© ${new Date().getFullYear()} முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. All rights reserved.</span></div><div style="height:30px"></div></div>`;}
-  if(k==='comic'){return comicHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: வாரமலர்</b></div>`;}
+  if(k==='ads'){return adsHtml()+`<div class="pad"><div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X<br><a href="https://thulamul.com">www.thulamul.com</a> · <a href="mailto:info@thulamul.com">info@thulamul.com</a><br><span class="muted">© ${new Date().getFullYear()} முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. All rights reserved.</span></div><div style="height:70px"></div></div>`;}
   if(k==='rasi'){const i=PAGES.indexOf(k);return rasiHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[i+1]]}</b></div>`;}
-  const i=PAGES.indexOf(k);const nxt=PAGES[i+1];const items=pub().filter(s=>s.topic===k);
+  const i=PAGES.indexOf(k);const nxt=PAGES[i+1];const front=frontIds();const items=pub().filter(s=>s.topic===k&&!front.has(s.id));
   return bellHtml(k)+storiesHtml(items,'இந்தப் பக்கத்தில் இன்று செய்தி இல்லை.',true)+`<div class="pfoot">${nxt?`<b>அடுத்த பக்கம்: ${T[nxt]||'முதல் பக்கம்'}</b><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்`:'<b>கடைசிப் பக்கம்</b>'}</div>`;
 }
 function indexHtml(){
@@ -436,11 +470,23 @@ function rasiHtml(){
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-rasi]');if(!b)return;rasiSel=+b.dataset.rasi;localStorage.setItem('rasi',rasiSel);const pg=document.querySelector('.page[data-k="rasi"]');if(pg){const head=pg.querySelector('.phead').outerHTML;pg.innerHTML=head+rasiHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[PAGES.indexOf('rasi')+1]]}</b></div>`;}});
 let malarSel=localStorage.getItem('malarSel')||'world';
+function comicHtml(){
+  const list=(Array.isArray(comicIdx)?comicIdx:[]).filter(x=>x&&x.file&&!x.hidden);
+  if(!list.length)return '<div class="empty" style="padding-top:60px">பொன்னியின் செல்வன் காமிக்ஸ் இன்று அதிகாலை தயாராகும்.</div>';
+  const c=list[0];
+  return `<div class="pad"><div class="small brass" style="margin-top:16px">தினசரிக் காமிக்ஸ் · கல்கியின் பொன்னியின் செல்வன்</div>
+    <h1 style="font-size:24px;margin-top:6px">${esc(c.title||'')}</h1><div class="byline">கல்கி · பாகம் ${esc(String(c.book||''))} — ${esc(c.book_ta||'')} · காட்சி ${esc(String(c.day||''))}</div>
+    <a href="${BASE}${esc(c.file)}" target="_blank" rel="noopener"><img class="ph" style="height:auto;aspect-ratio:auto;object-fit:contain;background:var(--paper);margin-top:14px;border:1px solid var(--rule)" src="${BASE}${esc(c.file)}" alt="${esc(c.title||'')}" onerror="this.remove()"></a>
+    <div class="cap" style="margin-top:6px"><span class="muted">பெரிதாகப் பார்க்க படத்தைத் தொடவும் · AI ஓவியம் · வசனம்: துலாமுள்</span></div>
+    ${c.summary?`<p class="mp" style="margin-top:12px">${esc(c.summary)}</p>`:''}
+    ${list.length>1?`<div class="rule"></div><div class="small muted">முந்தைய நாட்கள்</div>${list.slice(1,15).map(x=>`<a class="prow" href="${BASE}${esc(x.file)}" target="_blank" rel="noopener"><span class="serif" style="font-size:14px">காட்சி ${esc(String(x.day||''))} · ${esc(x.title||'')}</span><span class="small muted">${esc(x.date)}</span></a>`).join('')}`:''}
+    <div class="note">கல்கி (1899–1954) எழுதிய பொன்னியின் செல்வன் இந்தியப் பதிப்புரிமைச் சட்டப்படி பொதுச் சொத்து. ஓவியங்கள் சோழர்கால சுவரோவியப் பாணியில் துலாமுள் உருவாக்கியவை.</div></div>`;
+}
 function malarHtml(){
   const m=malar;
   if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
-  const T2=[['world','சென்ற வார உலகம்'],['history','இந்த வாரம் வரலாற்றில்'],['word','ஒரு தமிழ்ச் சொல்'],['song','ஒரு பாடல்'],['essay','கட்டுரை'],['lit','உலக இலக்கியம்'],['num','வாரத்தின் எண்'],['then','அன்று – இன்று'],['remedy','பாட்டி வைத்தியம்'],['riddle','விடுகதை'],['wonder','ஆச்சரியம்']];
-  const has={world:!!(m.world&&m.world.items),history:!!(m.history&&m.history.length),word:!!m.word,song:!!m.song,essay:!!m.essay,lit:!!m.world_lit,num:!!m.number,then:!!m.then_now,remedy:!!m.remedy,riddle:!!m.riddle,wonder:!!m.wonder};
+  const T2=[['world','சென்ற வார உலகம்'],['history','இந்த வாரம் வரலாற்றில்'],['word','ஒரு தமிழ்ச் சொல்'],['song','ஒரு பாடல்'],['essay','கட்டுரை'],['lit','உலக இலக்கியம்'],['num','வாரத்தின் எண்'],['then','அன்று – இன்று'],['remedy','பாட்டி வைத்தியம்'],['review','திரை விமர்சனம்'],['riddle','விடுகதை'],['wonder','ஆச்சரியம்']];
+  const has={world:!!(m.world&&m.world.items),history:!!(m.history&&m.history.length),word:!!m.word,song:!!m.song,essay:!!m.essay,lit:!!m.world_lit,num:!!m.number,then:!!m.then_now,remedy:!!m.remedy,riddle:!!m.riddle,wonder:!!m.wonder,review:!!m.review};
   const avail=T2.filter(([k])=>has[k]);
   if(!avail.length)return '<div class="empty" style="padding-top:60px">வாரமலர் தயாராகிறது.</div>';
   if(!has[malarSel]) malarSel=avail[0][0];
@@ -455,7 +501,11 @@ function malarHtml(){
   else if(cur==='num') body=`<div class="bignum"><b>${esc(m.number.value)}</b><span>${esc(m.number.label)}</span></div><p class="mp">${esc(m.number.text)}</p>`;
   else if(cur==='then') body=`<p class="mp"><b>${esc(m.then_now.topic)}</b></p><div class="cmp"><div><small>அன்று</small>${esc(m.then_now.then)}</div><div><small>இன்று</small>${esc(m.then_now.now)}</div></div>`;
   else if(cur==='remedy') body=`<p class="mp"><b>${esc(m.remedy.title)}</b></p><p class="mp">${esc(m.remedy.text)}</p><div class="note">${esc(m.remedy.note||'மருத்துவரை அணுகுவது அவசியம்.')}</div>`;
-  else if(cur==='riddle') body=`<p class="mp">${esc(m.riddle.q)}</p><details class="med" style="margin-top:10px"><summary>விடை <span class="brass">பார்</span></summary><p class="mp">${esc(m.riddle.a)}</p></details>`;
+  else if(cur==='riddle') body=`<p class="mp">${esc(m.riddle.q)}</p><details class="med" style="margin-top:10px"><summary>விடை</summary><p class="mp">${esc(m.riddle.a)}</p></details>`;
+  else if(cur==='review'){const R=m.review;body=`<h2 style="font-size:22px;margin-bottom:6px">${esc(R.title)}</h2>
+     <div class="small muted">இயக்கம்: ${esc(R.director||'')} · நடிப்பு: ${esc(R.cast||'')}</div>
+     <div class="bignum" style="margin-top:10px"><b>${esc(R.rating||'')}</b><span>5-ல் · ${esc(R.verdict||'')}</span></div>
+     <p class="mp">${esc(R.text)}</p><div class="note">${esc(R.note||'')}</div>`;}
   else if(cur==='wonder') body=`<p class="mp">${esc(m.wonder.text)}</p>`;
   const title=(T2.find(([k])=>k===cur)||['',''])[1];
   return `<div class="pad"><div class="small muted" style="margin-top:12px">வாரம் ${esc(m.week||'')} · ஞாயிறு இணைப்பு</div>
@@ -523,18 +573,6 @@ function renderAdForm(){
 function briefHtml(){return `<div class="brief"><div><b>இன்றைய 60 நொடி</b><small>${brief.headlines.length} செய்திகள் · ${brief.date}</small></div><button class="play" id="bplay">${PLAY}</button><audio id="baudio" preload="none" src="${BASE}${brief.audio}"></audio></div>`;}
 let wxData=null;
 function wxHtml(){if(!wxData||!wxData.cities)return '';return `<div class="wx"><div class="t">வானிலை · ${hm(wxData.updated)}</div><div class="row">${Object.entries(wxData.cities).map(([c,v])=>`<div><span>${c}</span><b>${v.now}°</b>${v.rain!=null?'மழை '+v.rain+'%':''}</div>`).join('')}</div></div>`;}
-function comicHtml(){
-  const list=(Array.isArray(comicIdx)?comicIdx:[]).filter(x=>x&&x.file&&!x.hidden);
-  if(!list.length)return '<div class="empty" style="padding-top:60px">பொன்னியின் செல்வன் காமிக்ஸ் இன்று அதிகாலை தயாராகும்.</div>';
-  const c=list[0];
-  return `<div class="pad"><div class="small brass" style="margin-top:16px">தினசரிக் காமிக்ஸ் · கல்கியின் பொன்னியின் செல்வன்</div>
-    <h1 style="font-size:24px;margin-top:6px">${esc(c.title||'')}</h1><div class="byline">கல்கி · பாகம் ${esc(String(c.book||''))} — ${esc(c.book_ta||'')} · காட்சி ${esc(String(c.day||''))}</div>
-    <a href="${BASE}${esc(c.file)}" target="_blank" rel="noopener"><img class="ph" style="height:auto;aspect-ratio:auto;object-fit:contain;background:var(--paper);margin-top:14px;border:1px solid var(--rule)" src="${BASE}${esc(c.file)}" alt="${esc(c.title||'')}" onerror="this.remove()"></a>
-    <div class="cap" style="margin-top:6px"><span class="muted">பெரிதாகப் பார்க்க படத்தைத் தொடவும் · AI ஓவியம் · வசனம்: துலாமுள்</span></div>
-    ${c.summary?`<p class="mp" style="margin-top:12px">${esc(c.summary)}</p>`:''}
-    ${list.length>1?`<div class="rule"></div><div class="small muted">முந்தைய நாட்கள்</div>${list.slice(1,15).map(x=>`<a class="prow" href="${BASE}${esc(x.file)}" target="_blank" rel="noopener"><span class="serif" style="font-size:14px">காட்சி ${esc(String(x.day||''))} · ${esc(x.title||'')}</span><span class="small muted">${esc(x.date)}</span></a>`).join('')}`:''}
-    <div class="note">கல்கி (1899–1954) எழுதிய பொன்னியின் செல்வன் இந்தியப் பதிப்புரிமைச் சட்டப்படி பொதுச் சொத்து. ஓவியங்கள் சோழர்கால சுவரோவியப் பாணியில் துலாமுள் உருவாக்கியவை.</div></div>`;
-}
 function editHtml(){
   const e=eds[0];let h='';
   if(e){h+=`<div class="pad"><div class="small brass" style="margin-top:16px">ஆசிரியர் குறிப்பு</div><h1 style="font-size:25px;margin-top:6px">${esc(e.title)}</h1><div class="byline">${esc(e.author||'ஆசிரியர்')} · ${esc(e.date)}</div><div class="edbody">${esc(e.body).split(/\n+/).map(p=>`<p>${p}</p>`).join('')}</div></div>`;}
@@ -542,7 +580,7 @@ function editHtml(){
   if(a&&a.title&&!a.hidden){
     const c=a.cartoon||{};
     h+=`<div class="pad"><div class="rule"></div><div class="small brass">தராசில் இன்று · ${esc(a.date)}</div><h1 style="font-size:24px;margin-top:6px">${esc(a.title)}</h1><div class="byline">${esc(a.author||'Mr. X')} · AI ஆசிரியர்</div>
-      ${c.image?`<img class="ph" style="height:auto;aspect-ratio:auto;object-fit:contain;background:var(--paper);margin-top:14px" src="${BASE}${esc(c.image)}" alt="${esc(c.alt_ta||'')}" onerror="this.remove()"><div class="cap" style="margin-top:6px"><span class="muted">AI கேலிச்சித்திரம் · Mr. X</span></div>`:''}
+      ${c.image?`<img class="ph" style="margin-top:14px;background:var(--paper);margin-top:14px" src="${BASE}${esc(c.image)}" alt="${esc(c.alt_ta||'')}" onerror="this.remove()"><div class="cap" style="margin-top:6px"><span class="muted">AI கேலிச்சித்திரம் · Mr. X</span></div>`:''}
       <p class="mp" style="margin-top:14px">${esc(a.issue)}</p>
       <div class="scales"><div class="pan"><div class="pl">${esc(a.side_a.label)}</div>${a.side_a.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div><div class="pan b"><div class="pl">${esc(a.side_b.label)}</div>${a.side_b.points.map(x=>`<p>${esc(x)}</p>`).join('')}</div></div>
       ${a.history?`<p class="mp muted">${esc(a.history)}</p>`:''}
@@ -640,7 +678,7 @@ disclaimer:{t:'மறுப்பறிக்கை',b:`## ராசிபலன
 வானிலை Open-Meteo கணிப்பு; திட்டமிடலுக்கு IMD அறிவிப்பைப் பார்க்கவும். வேலை அறிவிப்புகள் பொது மூலங்களின் தொகுப்பு; விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பைச் சரிபார்க்கவும்; பணம் கேட்கும் எந்த அறிவிப்பையும் துலாமுள் பரிந்துரைப்பதில்லை.`}
 };
 function renderLegal(k){const L=LEGAL[k]||LEGAL.privacy;const html=L.b.split(/\n/).map(l=>l.startsWith('## ')?`<h2 style="font-size:15px;margin:16px 0 6px">${esc(l.slice(3))}</h2>`:`<p class="mp" style="margin-top:6px">${esc(l)}</p>`).join('');
-  $('#s-legal').innerHTML=`<div class="topbar"><a class="icon" href="#me"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></a><span class="small muted">துலாமுள் · கொள்கை</span></div><div class="pad"><h1 style="font-size:22px">${esc(L.t)}</h1>${html}<div class="note">முத்தமிழ் கலைக்கூடம் · துலாமுள் · கடைசி புதுப்பிப்பு 6 செப்டம்பர் 2026</div><div style="height:30px"></div></div>`;}
+  $('#s-legal').innerHTML=`<div class="topbar"><a class="icon" href="#me"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></a><span class="small muted">துலாமுள் · கொள்கை</span></div><div class="pad"><h1 style="font-size:22px">${esc(L.t)}</h1>${html}<div class="note">முத்தமிழ் கலைக்கூடம் · துலாமுள் · கடைசி புதுப்பிப்பு 6 செப்டம்பர் 2026</div><div style="height:70px"></div></div>`;}
 function renderArchive(){
   fetch(BASE+'data/issues/index.json'+q).then(r=>r.json()).then(list=>{
     if(!list.length)throw 0;const have={};list.forEach(x=>have[x.date]=x.count);
@@ -655,8 +693,14 @@ function renderArchive(){
 let liveFeed=null;
 function openIssue(date){
   if(!liveFeed)liveFeed=feed;
-  fetch(BASE+'data/issues/'+date+'.json'+q).then(r=>r.json()).then(f=>{feed=f;issueLabel=date;renderHome();$('#s-home').classList.add('on');gotoPage('front',false);
-    const b=document.createElement('div');b.className='issue-bar';b.innerHTML=`பழைய இதழ் · ${new Date(date).toLocaleDateString('ta-IN',{day:'numeric',month:'long',year:'numeric'})} &nbsp;<a href="#home" onclick="feed=liveFeed;issueLabel='';renderHome();">இன்றைய இதழுக்கு →</a>`;$('#paper').prepend(b);});
+  const home=$('#s-home');
+  fetch(BASE+'data/issues/'+date+'.json'+q).then(r=>r.json()).then(f=>{
+    if(!Array.isArray(f)||!f.length) throw 0;
+    feed=f; issueLabel=date; renderHome(); home.classList.add('on'); gotoPage('front',false); $('#paper').scrollLeft=0;
+  }).catch(()=>{
+    home.classList.add('on');
+    $('#paper').innerHTML='<div class="page"><div class="empty" style="padding-top:80px">அந்தத் தேதிக்கு இதழ் இல்லை.<br><a href="#archive" class="brass">காப்பகத்திற்குத் திரும்பு</a></div></div>';
+  });
 }
 document.addEventListener('DOMContentLoaded',()=>{
   const f=localStorage.getItem('font')||'m';document.body.classList.add('f-'+f);
@@ -678,22 +722,27 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-play]');if
 function gotoPage(k,smooth){const paper=$('#paper');const i=Math.max(0,PAGES.indexOf(k));paper.scrollTo({left:i*paper.clientWidth,behavior:smooth?'smooth':'auto'});}
 function renderTopics(){
   const c={};pub().forEach(s=>c[s.topic]=(c[s.topic]||0)+1);
-  $('#topics-list').innerHTML=PAGES.map((k,i)=>`<a class="prow" href="#page/${k}"><span><span class="num">${tnum(i+1)}</span>${k==='front'?'முதல் பக்கம்':T[k]}</span><span class="small ${k==='rasi'?'brass':'muted'}">${k==='front'?pub().length:k==='edit'?((aied&&!aied.hidden?1:0)+eds.length):k==='rasi'?'12':k==='ads'?'':k==='comic'?'தினமும்':k==='malar'?'ஞாயிறு':(c[k]||0)}</span></a>`).join('');
+  $('#topics-list').innerHTML=PAGES.map((k,i)=>`<a class="prow" href="#page/${k}"><span><span class="num">${tnum(i+1)}</span>${k==='front'?'முதல் பக்கம்':T[k]}</span><span class="small ${k==='rasi'?'brass':'muted'}">${k==='front'?pub().length:k==='edit'?((aied&&!aied.hidden?1:0)+eds.length):k==='comic'?'தினசரி':k==='rasi'?'12':k==='ads'?'':k==='malar'?'ஞாயிறு':(c[k]||0)}</span></a>`).join('');
 }
 const OFFICIAL=/PIB|RBI|TNPSC|TN Private|WHO|ICMR|ICAR|TNAU|Employment News|G\.O|அரசு|நீதிமன்றம்|Supreme|High Court|ACC|BCCI|ISRO|SEBI|NSE|IMD/i;
 function srcShort(list){const off=list.filter(x=>OFFICIAL.test(x.name)||x.doc);const n=list.length-off.length;return [...off.map(x=>x.name),...(n?['ஊடகச் செய்திகள் ('+n+')']:[])].join(', ');}
 function srcHtml(list){
   const off=list.filter(x=>OFFICIAL.test(x.name)||x.doc);const med=list.filter(x=>!off.includes(x));
   let h=off.map(x=>`<div>${esc(x.name)}${x.doc?' · '+esc(x.doc):''}${x.date?' · '+esc(x.date):''}</div>`).join('');
-  if(med.length)h+=`<details class="med"><summary>ஊடகச் செய்திகள் · ${med.length} <span class="brass">காட்டு</span></summary>${med.map(x=>`<div>${esc(x.name)}${x.date?' · '+esc(x.date):''}</div>`).join('')}</details>`;
+  if(med.length)h+=`<details class="med"><summary>ஊடகச் செய்திகள் · ${med.length}</summary>${med.map(x=>`<div>${esc(x.name)}${x.date?' · '+esc(x.date):''}</div>`).join('')}</details>`;
   return h||'<div>—</div>';
 }
 function renderDetail(id){
   const s=feed.find(x=>x.id===id);const el=$('#s-detail');
   if(!s){el.innerHTML='<div class="empty">செய்தி கிடைக்கவில்லை.</div>';return;}
-  const img=s.image&&s.image.url;const p=pub();const idx=p.indexOf(s);const nxt=p[idx+1];
+  const img=s.image&&s.image.url;
+  // அடுத்த செய்தி — அதே பக்கத்தில் (துறையில்) அடுத்தது; இல்லையெனில் முதல் பக்கத்தில் அடுத்தது
+  const front=frontIds();
+  const same=pub().filter(x=>x.topic===s.topic&&(front.has(s.id)?front.has(x.id):!front.has(x.id)));
+  let idx=same.indexOf(s), nxt=idx>=0?same[idx+1]:null;
+  if(!nxt){ const fp=frontPicks(); const fi=fp.findIndex(x=>x.id===s.id); if(fi>=0) nxt=fp[fi+1]; }
   el.innerHTML=`<div class="topbar"><a class="icon" href="#back"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></a><span class="small muted">30 நொடி${s.audio?' · கேட்கலாம்':''}</span><a class="icon" id="share"><svg viewBox="0 0 24 24"><path d="M4 12v7h16v-7M12 3v12M8 7l4-4 4 4"/></svg></a></div>
-   ${img?`<span class="imgwrap"><img class="dph" src="${esc(img)}" alt="" onerror="this.parentElement.nextElementSibling&&this.parentElement.nextElementSibling.remove();this.parentElement.remove()"><span class="wm">துலாமுள்</span></span><div class="dcap">படம்: ${esc(s.image.credit)}</div>`:''}
+   ${img?`<figure class="fig figfull"><img src="${esc(img)}" alt="" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}${s.image.symbolic?' · குறியீட்டுப் படம்':''}</figcaption></figure>`:''}
    <div class="pad"><div class="small muted" style="margin-top:14px"><b class="brass" style="font-weight:500">${esc(s.topic_ta)}</b> · ${esc((s.entities||[])[0]||'')} · ${new Date(s.published_at).toLocaleDateString('ta-IN',{day:'numeric',month:'short',year:'numeric'})} ${hm(s.published_at)}</div>
    <h1>${esc(H(s))}</h1>
    <div class="body5">${L(s).map((l,i)=>`<p><span class="n">${TA[i]}</span>${esc(l)}</p>`).join('')}</div>
@@ -701,7 +750,7 @@ function renderDetail(id){
    <div class="aware"><div class="at">${esc(C(s))}</div>
      <div class="follow">${s.audio?`<audio controls preload="none" src="${BASE}${s.audio}"></audio>`:'<span>ஆடியோ விரைவில்</span>'}</div></div>
    <div class="srcline"><small>மூலம்</small>${srcHtml(s.sources||[])}<div class="muted">துலாமுள் செய்தி · AI எழுதியது · சரிபார்க்கப்பட்டது</div></div>
-   ${nxt?`<div class="next" data-id="${nxt.id}"><div class="small muted">அடுத்த செய்தி ↓</div><h2 style="font-size:16px;margin-top:4px">${esc(H(nxt))}</h2></div>`:'<div style="height:30px"></div>'}</div>`;
+   ${nxt?`<div class="next" data-id="${nxt.id}"><div class="small muted">அடுத்த செய்தி · ${esc(nxt.topic_ta)} ↓</div><h2 style="font-size:16px;margin-top:4px">${esc(H(nxt))}</h2></div>`:'<div style="height:30px"></div>'}</div>`;
   const n=el.querySelector('.next');if(n)n.addEventListener('click',()=>{go('#story/'+n.dataset.id)});
   el.querySelector('#share').addEventListener('click',()=>{const u=location.href;if(navigator.share)navigator.share({title:s.headline,text:s.headline+'\n'+(s.lines||[]).join(' '),url:u});else if(navigator.clipboard)navigator.clipboard.writeText(u)});
   el.scrollTop=0;
@@ -714,7 +763,13 @@ const DISTRICTS=['சென்னை','திருவள்ளூர்','க�
 let DEPTS=null, cuser=null, cstep=1, cdata={}, confirmationResult=null, myPets=[];
 fetch(BASE+'pipeline/departments.json?'+Math.floor(Date.now()/6e4)).then(r=>r.json()).then(d=>DEPTS=d).catch(()=>{});
 window.addEventListener('fb-ready',()=>{
-  FB.onAuthStateChanged(FB.auth,u=>{cuser=u;const el=$('#c-user');if(el)el.textContent=u?u.phoneNumber:'';if(location.hash.startsWith('#complaint'))renderComplaint();});
+  completeEmailSignIn();
+  FB.onAuthStateChanged(FB.auth,u=>{cuser=u;const el=$('#c-user');
+    if(el) el.innerHTML=u?`${esc(u.email||u.phoneNumber||'')} · <a href="#complaint" id="c-logout" class="brass">வெளியேறு</a>`:'';
+    const lo=$('#c-logout'); if(lo) lo.onclick=async(ev)=>{ev.preventDefault();try{await FB.signOut(FB.auth);}catch(_){}
+      cuser=null;cstep=1;cdata={};pushToken=null;confirmationResult=null;if(window._rv){try{window._rv.clear();}catch(_){ }window._rv=null;}
+      renderComplaint();};
+    if(location.hash.startsWith('#complaint'))renderComplaint();});
 });
 const esc2=s=>esc(s);
 function renderComplaint(){
@@ -729,45 +784,57 @@ function renderComplaint(){
 }
 function loginHtml(){
   return `<div style="padding-top:16px">
-   <h1 style="font-size:22px">உங்கள் பிரச்சனைக்கு ஒரு மனு</h1>
-   <div class="small" style="margin-top:8px;line-height:1.7">எந்தத் துறை, என்ன சட்டம், மனு எப்படி, எங்கே கொடுப்பது — துலாமுள் தயார் செய்யும். மனுவைச் சேமிக்கவும் நிலையை அறியவும் தொலைபேசி எண் மட்டும்.</div>
-   <label class="fl">தொலைபேசி எண்<input id="ph" type="tel" placeholder="9876543210" inputmode="numeric"></label>
-   <button class="btn" id="send-otp">OTP அனுப்பு</button>
-   <div id="otp-box" style="display:none">
-     <label class="fl">OTP (6 இலக்கம்)<input id="otp" type="text" inputmode="numeric" maxlength="6"></label>
-     <button class="btn" id="verify-otp">உள்நுழை</button>
-   </div>
-   <div class="small" id="auth-msg" style="margin-top:10px;color:var(--caution)"></div>
-   <div class="note">உங்கள் எண் மனுவைச் சேமிக்க மட்டும்; விளம்பரத்திற்கு பயன்படுத்தப்படாது, யாருக்கும் தரப்படாது. செய்திகளைப் படிக்க உள்நுழைவு தேவையில்லை.</div></div>`;
+   <h1 style="font-size:22px">மனு உதவி</h1>
+   <div class="mp" style="margin-top:8px">உங்களுடைய எந்தப் பிரச்சனையாக இருந்தாலும், அதைச் சம்பந்தப்பட்ட துறைக்கு எடுத்துச் செல்வதுதான் இந்தப் பக்கத்தின் நோக்கம்.</div>
+   <label class="fl">மின்னஞ்சல் முகவரி<input id="em" type="email" inputmode="email" placeholder="yourname@gmail.com" autocomplete="email"></label>
+   <button class="btn" id="send-link">உள்நுழைவு இணைப்பை அனுப்பு</button>
+   <div class="small" id="auth-msg" style="margin-top:10px;line-height:1.7"></div>
+   <details class="med" style="margin-top:18px"><summary>நிபந்தனைகள்</summary>
+     <div class="note" style="margin-top:8px"><b>எதற்கு:</b> உள்ளாட்சி · குடிநீர் · மின்சாரம் · ரேஷன் · பட்டா · ஆக்கிரமிப்பு · போக்குவரத்து · RTO · கல்வி · மருத்துவம் · அரசுத் திட்டம் · காவல் துறை · நுகர்வோர் · வங்கி · தொழிலாளர் · மாசு · விவசாயம் · ஓய்வூதியம் · மகளிர்/குழந்தை · RTI — 24 வகை.</div>
+     <div class="note"><b>எதற்கு இல்லை:</b> நீதிமன்ற வழக்கு, ஜாமீன், தனிநபர் தகராறு, சொத்துப் பிரிவினை. இது சட்ட ஆலோசனை அல்ல; மனு உதவி மட்டும். இலவச சட்ட உதவி: 15100.</div>
+     <div class="note"><b>அவசரம் என்றால்</b> — 100 / 112 · மகளிர் 181 · குழந்தைகள் 1098.</div>
+     <div class="note">உங்கள் மின்னஞ்சல் மனுவைச் சேமிக்க மட்டும்; விளம்பரத்திற்குப் பயன்படுத்தப்படாது, யாருக்கும் தரப்படாது.</div>
+   </details>
+   <div style="height:40px"></div></div>`;
 }
 function wireLogin(){
-  const s1=$('#send-otp'); if(!s1) return;
-  s1.addEventListener('click',async()=>{
-    const raw=($('#ph').value||'').replace(/\D/g,''); const num=raw.length===10?'+91'+raw:(raw.startsWith('91')?'+'+raw:'+'+raw);
-    if(raw.length<10){$('#auth-msg').textContent='சரியான 10 இலக்க எண் கொடுங்கள்.';return;}
-    s1.disabled=true; $('#auth-msg').textContent='OTP அனுப்புகிறோம்…';
+  const b=$('#send-link'); if(!b) return;
+  const msg=$('#auth-msg');
+  b.addEventListener('click',async()=>{
+    const em=($('#em').value||'').trim().toLowerCase();
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(em)){ msg.textContent='சரியான மின்னஞ்சல் முகவரி கொடுங்கள்.'; return; }
+    b.disabled=true; msg.textContent='இணைப்பை அனுப்புகிறோம்…';
     try{
-      if(!window._rv) window._rv=new FB.RecaptchaVerifier(FB.auth,'recaptcha',{size:'invisible'});
-      confirmationResult=await FB.signInWithPhoneNumber(FB.auth,num,window._rv);
-      $('#otp-box').style.display='block'; $('#auth-msg').textContent='OTP அனுப்பப்பட்டது.';
-    }catch(e){ $('#auth-msg').textContent='பிழை: '+(e.message||e); s1.disabled=false; }
+      await FB.sendSignInLinkToEmail(FB.auth, em, {url: location.origin+location.pathname+'#complaint', handleCodeInApp:true});
+      localStorage.setItem('emailForSignIn', em);
+      msg.innerHTML=`<b>${esc(em)}</b> முகவரிக்கு உள்நுழைவு இணைப்பு அனுப்பப்பட்டது.<br>அந்த மின்னஞ்சலைத் திறந்து இணைப்பைத் தொடுங்கள் — இதே பக்கம் திரும்பி, தானாக உள்நுழையும்.<br><span class="muted">வரவில்லையா? Promotions / Spam folder-ஐயும் பாருங்கள்.</span>`;
+      b.disabled=false; b.textContent='மீண்டும் அனுப்பு';
+    }catch(e){ msg.textContent='பிழை: '+((e&&e.message)||e); b.disabled=false; }
   });
-  const v=$('#verify-otp'); if(v) v.addEventListener('click',async()=>{
-    try{ await confirmationResult.confirm(($('#otp').value||'').trim()); cstep=1; renderComplaint(); }
-    catch(e){ $('#auth-msg').textContent='OTP தவறு. மீண்டும் முயற்சிக்கவும்.'; }
-  });
+}
+async function completeEmailSignIn(){
+  try{
+    if(!window.FB || !FB.isSignInWithEmailLink(FB.auth, location.href)) return false;
+    let em=localStorage.getItem('emailForSignIn');
+    if(!em) em=prompt('உள்நுழைய, இணைப்பைப் பெற்ற மின்னஞ்சல் முகவரியைக் கொடுங்கள்:');
+    if(!em) return false;
+    await FB.signInWithEmailLink(FB.auth, em, location.href);
+    localStorage.removeItem('emailForSignIn');
+    try{ history.replaceState(null,'',location.pathname+'#complaint'); }catch(_){}
+    return true;
+  }catch(e){ const m=$('#auth-msg'); if(m) m.textContent='இணைப்பு செல்லாது அல்லது காலாவதி. மீண்டும் அனுப்பவும்.'; return false; }
 }
 function cbar(n){return `<div class="cnav">${n>1?`<button class="lnk" onclick="goStep(${n-1})">← திரும்பு</button>`:'<span></span>'}<span class="small muted">படி ${n} / 4</span></div><div class="steps">${[1,2,3,4].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</div>`;}
 function step1(){
   return cbar(1)+`<div style="padding-top:14px">
    <h1 style="font-size:22px">என்ன பிரச்சனை?</h1>
    <div class="small" style="margin-top:8px;line-height:1.7">உங்கள் வார்த்தையில் சொல்லுங்கள் — தமிழ், தங்கிலீஷ், ஆங்கிலம். இடம், எத்தனை நாள், யாரிடம் ஏற்கனவே சொன்னீர்கள் என்று இருந்தால் மனு வலுவாக இருக்கும்.</div>
-   <textarea id="c-text" placeholder="எங்க தெருவுல (காமராஜர் தெரு, அசோக் நகர்) 3 மாசமா 3 தெருவிளக்கு எரியல. 1913-ல சொன்னேன், நடவடிக்கை இல்ல.">${esc2(cdata.text||'')}</textarea>
+   <textarea id="c-text" placeholder="எ.கா. எங்க தெருவுல 3 மாசமா தெருவிளக்கு எரியல. அலுவலகத்துல சொன்னேன், நடவடிக்கை இல்ல.">${esc2(cdata.text||'')}</textarea>
    <label class="fl">உங்கள் பெயர்<input id="c-name" value="${esc2(cdata.name||'')}"></label>
-   <label class="fl">வீட்டு எண் / தெரு<input id="c-street" value="${esc2(cdata.street||'')}" placeholder="5, முதல் தெரு"></label>
-   <label class="fl">பகுதி / ஊர்<input id="c-locality" value="${esc2(cdata.locality||'')}" placeholder="வேளச்சேரி"></label>
+   <label class="fl">வீட்டு எண் / தெரு<input id="c-street" value="${esc2(cdata.street||'')}" placeholder="எ.கா. 12, பாரதி தெரு"></label>
+   <label class="fl">பகுதி / ஊர்<input id="c-locality" value="${esc2(cdata.locality||'')}" placeholder="எ.கா. காந்தி நகர்"></label>
    <div class="row2"><label class="fl">மாவட்டம்<select id="c-dist" class="chip" style="width:100%;font-size:15px;padding:12px">${DISTRICTS.map(d=>`<option ${d===cdata.dist?'selected':''}>${d}</option>`).join('')}</select></label>
-   <label class="fl">பின்கோடு<input id="c-pin" value="${esc2(cdata.pin||'')}" inputmode="numeric" maxlength="6" placeholder="600042"></label></div>
+   <label class="fl">பின்கோடு<input id="c-pin" value="${esc2(cdata.pin||'')}" inputmode="numeric" maxlength="6" placeholder="600000"></label></div>
    <label class="fl">பகுதி வகை<select id="c-area" class="chip" style="width:100%;font-size:15px;padding:12px"><option value="urban">நகர்ப்புறம் (மாநகராட்சி/நகராட்சி)</option><option value="rural">ஊரகம் (ஊராட்சி)</option></select></label>
    <button class="btn" id="c-go">ஆராய்ந்து கூறு</button>
    <div class="small" id="c-msg" style="margin-top:10px"></div>
@@ -804,7 +871,7 @@ function step4(){
    ${(a.helpline||[]).length?`<div class="fwd"><div class="num">☎</div><div><div class="t">தொலைபேசி</div><div class="d">${(a.helpline||[]).map(esc_).join(' · ')}</div></div></div>`:''}
    <div class="fwd"><div class="num">✉</div><div><div class="t">நேரில் / தபால்</div><div class="d">${esc_(a.officer||'')} — அச்சிட்டு, ஒப்புகை (received seal) வாங்குங்கள்.</div></div></div>
    <div class="rule"></div>
-   <label class="fl">பதிவு எண் (portal-ல் கிடைத்தது)<input id="c-ref" placeholder="எ.கா. GCC-2026-0912344"></label>
+   <label class="fl">பதிவு எண் (portal-ல் கிடைத்தது)<input id="c-ref" placeholder="portal-ல் கிடைத்த எண்"></label>
    <button class="btn" id="c-save">மனுவைச் சேமித்துக் கண்காணி</button>
    <div class="note">துலாமுள் உங்களுக்காக அனுப்பாது — நீங்கள் அனுப்புகிறீர்கள்; அதனால் மனு உங்கள் பெயரில் சட்டப்படி செல்லும். ${esc_(a.days||'')} நாள் கழித்து நினைவூட்டுவோம்; பதில் இல்லையெனில் RTI வரைவு.</div></div>`;
 }
@@ -843,11 +910,14 @@ function wireComplaint(){
     try{ cdata.letter=await draft(cdata); cstep=3; renderComplaint(); }
     catch(e){ d.disabled=false; d.textContent='மனுவைத் தயாரிக்கவும்'; alert('பிழை: '+(e&&e.message?e.message:e)); } });
   const b1=$('#c-back1'); if(b1) b1.addEventListener('click',()=>{cstep=1;renderComplaint();});
-  const cp=$('#c-copy'); if(cp) cp.addEventListener('click',()=>{navigator.clipboard&&navigator.clipboard.writeText($('#c-letter').value);cp.textContent='நகலெடுக்கப்பட்டது ✓';});
-  const n3=$('#c-next3'); if(n3) n3.addEventListener('click',()=>{cdata.letter=$('#c-letter').value;cstep=4;renderComplaint();});
+  const cp=$('#c-copy'); if(cp) cp.addEventListener('click',async()=>{
+    const t=$('#c-letter').value;
+    try{ if(navigator.clipboard&&window.isSecureContext){ await navigator.clipboard.writeText(t); } else { const ta=$('#c-letter'); ta.select(); document.execCommand('copy'); } cp.textContent='நகலெடுக்கப்பட்டது ✓'; }
+    catch(e){ cp.textContent='நகலெடுக்க முடியவில்லை'; }});
+  const n3=$('#c-next3'); if(n3) n3.addEventListener('click',()=>{ try{ cdata.letter=$('#c-letter').value; cstep=4; renderComplaint(); }catch(e){ alert('பிழை: '+e.message); } });
   const sv=$('#c-save'); if(sv) sv.addEventListener('click',async()=>{
     sv.disabled=true;
-    try{ await FB.addDoc(FB.collection(FB.db,'petitions'),{uid:cuser.uid,phone:cuser.phoneNumber,text:cdata.text,name:cdata.name,addr:cdata.addr,analysis:cdata.analysis,letter:cdata.letter,ref:($('#c-ref').value||'').trim(),status:'பதில் காத்திருப்பு',created:new Date().toISOString()});
+    try{ await FB.addDoc(FB.collection(FB.db,'petitions'),{uid:cuser.uid,email:cuser.email||'',phone:cuser.phoneNumber||'',text:cdata.text,name:cdata.name,addr:cdata.addr,analysis:cdata.analysis,letter:cdata.letter,ref:($('#c-ref').value||'').trim(),status:'பதில் காத்திருப்பு',created:new Date().toISOString()});
       cdata={}; cstep=5; renderComplaint();
     }catch(e){ sv.disabled=false; alert('சேமிக்க முடியவில்லை: '+e.message); }
   });
@@ -914,7 +984,7 @@ function route(hh){
 const isField=t=>{try{return !!(t&&(t.tagName==='TEXTAREA'||t.tagName==='INPUT'||t.tagName==='SELECT'||(t.closest&&t.closest('textarea,input,select'))));}catch(_){return false;}};
 ['contextmenu','copy','cut','dragstart'].forEach(ev=>document.addEventListener(ev,e=>{if(isField(e.target)||isField(document.activeElement))return;e.preventDefault();}));
 document.addEventListener('selectstart',e=>{if(isField(e.target)||isField(document.activeElement))return;e.preventDefault();});
-document.addEventListener('keydown',e=>{const t=e.target;const inField=isField(t)||isField(document.activeElement);const k=e.key.toLowerCase();if((e.ctrlKey||e.metaKey)&&['c','s','p','u','a','x','v'].includes(k)&&!inField)e.preventDefault();if(e.key==='PrintScreen'){navigator.clipboard&&navigator.clipboard.writeText('துலாமுள் — thulamul.com');}});
+document.addEventListener('keydown',e=>{const t=e.target;const inField=isField(t)||isField(document.activeElement);const k=(e.key||'').toLowerCase();if((e.ctrlKey||e.metaKey)&&['c','s','p','u','a','x','v'].includes(k)&&!inField)e.preventDefault();if(e.key==='PrintScreen'){navigator.clipboard&&navigator.clipboard.writeText('துலாமுள் — thulamul.com');}});
 let curHash='#home';
 function go(h){curHash=h;let ok=false;try{if(location.hash!==h){location.hash=h;ok=true;}}catch(_){ok=false;}if(!ok)route(h);}
 document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;e.preventDefault();go(a.getAttribute('href'));});
@@ -929,8 +999,8 @@ Promise.all([
   fetch(BASE+'data/malar.json'+q).then(r=>r.json()).catch(()=>null),
   fetch(BASE+'data/rasi.json'+q).then(r=>r.json()).catch(()=>null),
   fetch(BASE+'data/ai_editorial.json'+q).then(r=>r.json()).catch(()=>null),
-  fetch(BASE+'data/comic_index.json'+q).then(r=>r.json()).catch(()=>[]),
-]).then(([f,b,w,e,a,m,rs,ai,ci])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;aied=ai;comicIdx=ci||[];
+  fetch(BASE+'data/comic_index.json'+q).then(r=>r.json()).catch(()=>null),
+]).then(([f,b,w,e,a,m,rs,ai,ci])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;aied=ai;comicIdx=ci;
   try{renderHome();}catch(err){console.error('renderHome',err);const p=$('#paper');if(p)p.innerHTML='<div class="page"><div class="empty">ஏற்றுவதில் சிக்கல்: '+esc(err.message)+'</div></div>';}
   try{route(location.hash||'#home');}catch(err){console.error('route',err);}
   try{localWeather();}catch(err){}});
