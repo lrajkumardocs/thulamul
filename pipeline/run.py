@@ -539,10 +539,8 @@ def met_image(q):
 _STOCK_CACHE = {}
 def stock_image(topic, query=""):
     """குறியீட்டுப் படம் — Unsplash → Pexels → Pixabay → Openverse. Watermark உள்ளவை தவிர்க்கப்படும்."""
-    tries = ([query] if query else []) + STOCK_Q.get(topic, []) + ["tamil nadu india", "india"]
-    import random
-    random.shuffle(tries)
-    for q in tries[:6]:
+    tries = [q for q in ([query] if query else []) if q]
+    for q in tries[:2]:
         for fn in (unsplash_image, pexels_image, pixabay_image, openverse_image, flickr_cc_image, met_image):
             try:
                 im = fn(q)
@@ -554,29 +552,28 @@ def stock_image(topic, query=""):
     return None
 
 def pick_image(c, story=None):
-    """1) அரசுத் தளப் படம்  2) செய்தியில் உள்ள நபர்/இடத்தின் விக்கிப் படம்
-       3) Commons தேடல்  4) குறியீட்டுப் படம் (Openverse stock)."""
+    """1) அரசுத் தளப் படம்  2) AI தந்த image_query-க்குப் பொருந்தும் படம்
+       3) செய்தியில் உள்ள நபர்/நிறுவனத்தின் விக்கிப் படம். பொருந்தாவிட்டால் படம் இல்லை."""
     for i in c["items"]:
         u = i.get("image") or ""
         if u and _safe_host(u):
             return {"url": u, "credit": i["source"], "license": "அரசு / திறந்த உரிமம்"}
     if not story:
         return None
-    ents = [str(e) for e in (story.get("entities") or []) if len(str(e)) > 3][:3]
-    for e in ents:
-        for lang in ("ta", "en"):
-            im = wiki_image(e, lang)
-            if im:
-                return im
-    q = " ".join(ents[:2])
-    if q:
-        im = commons_image(q)
-        if im:
-            return im
-    im = stock_image(story.get("topic", ""), "")
+    q = (story.get("image_query") or "").strip()
+    if not q:
+        return None                                   # AI-யே படம் வேண்டாம் என்றது
+    im = commons_image(q) or stock_image("", q)
     if im:
+        im["symbolic"] = True
         return im
-    return stock_image("", (story.get("topic_ta") or "") + " india")
+    # நபர்/நிறுவனப் பெயருக்கு மட்டும் விக்கிப் படம் (இடப்பெயர் அல்ல)
+    for e in [str(x) for x in (story.get("entities") or [])][:2]:
+        if len(e) > 4 and any(w in q.lower() for w in e.lower().split()[:1]):
+            wi = wiki_image(e, "ta") or wiki_image(e, "en")
+            if wi:
+                return wi
+    return None
 
 def telegram(text):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
@@ -732,6 +729,7 @@ def main():
         story["audio"] = make_audio(sid, ". ".join([story["headline"].rstrip(".")] + [l.rstrip(".") for l in story["lines"]] + [story["closing"].rstrip(".")]) + ".")
         story["created_ts"] = time.time()
         story["front_cat"] = str(story.get("front_cat") or "routine")
+        story["image_query"] = str(story.get("image_query") or "")
         story["urgent"] = bool(story.get("urgent"))
         story["affected"] = str(story.get("affected") or "")
 
@@ -777,7 +775,7 @@ def main():
                 if len(todays) < 2 and not any(x.get("kind") == "article" for x in todays):
                     art = write_filler(client, t, today, now)
                     if art:
-                        art["image"] = stock_image(t, "")
+                        art["image"] = stock_image("", {"health":"healthy food india","agri":"paddy field farmer india","spirit":"temple gopuram tamil nadu"}.get(t, ""))
                         feed.insert(0, art); print(f"[filler] {t} கட்டுரை")
     except Exception as ex:
         print("[filler] பிழை", str(ex)[:120])
@@ -910,13 +908,28 @@ def main():
         filled = 0
         for x in feed[:80]:
             if str(x.get("published_at", ""))[:10] == today and not (x.get("image") or {}).get("url") and filled < 30:
-                im = stock_image(x.get("topic", ""), "")
+                qq = (x.get("image_query") or "").strip()
+                im = (commons_image(qq) or stock_image("", qq)) if qq else None
                 if im:
-                    x["image"] = im; filled += 1
+                    im["symbolic"] = True; x["image"] = im; filled += 1
         if filled:
             print(f"[image] {filled} குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன")
     except Exception as ex:
         print("[image] பிழை", str(ex)[:120])
+
+    # 5e0. image_query இல்லாமல் சேர்க்கப்பட்ட பொதுப் படங்களை நீக்கு (பொருந்தாதவை)
+    try:
+        STOCKY = ("unsplash", "pexels", "pixabay", "openverse", "flickr", "metmuseum")
+        drop = 0
+        for x in feed:
+            im = x.get("image") or {}
+            u = (im.get("url") or "").lower()
+            if u and any(h in u for h in STOCKY) and not (x.get("image_query") or "").strip():
+                x["image"] = None; drop += 1        # பொருந்தாத பொதுப் படம்
+        if drop:
+            print(f"[image] {drop} பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன")
+    except Exception:
+        pass
 
     # 5e. பாதுகாப்பற்ற படங்களை நீக்கு (பழைய செய்திகளிலிருந்தும்)
     removed = 0
