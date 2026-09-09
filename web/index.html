@@ -216,12 +216,15 @@
   .bignum b{font-family:var(--serif);font-size:38px;font-weight:500;color:var(--brass);line-height:1}
   .bignum span{font-size:13px;color:var(--ink2)}
   .comicwrap{display:block;width:100%;margin:12px 0 10px;line-height:0;cursor:zoom-in}
-  .csub{font-family:var(--serif);font-size:17px;color:var(--ink2);margin-top:4px}
-  .tomorrow{font-family:var(--text);font-size:16px;font-weight:600;line-height:1.7;color:var(--ink);border-left:3px solid var(--brass);padding:2px 0 2px 12px;margin-top:4px}
+  .ctitle{font-family:var(--serif);font-size:28px;font-weight:600;margin-top:18px;line-height:1.25}
+  .csub{font-family:var(--serif);font-size:19px;color:var(--ink);margin-top:6px}
+  .cmeta{font-size:11.5px;color:var(--brass);margin-top:6px;letter-spacing:.02em}
+  .tmrhead{font-family:var(--serif);font-size:13px;color:var(--brass);letter-spacing:.08em;margin-top:14px}
+  .tomorrow{font-family:var(--serif);font-size:17px;font-weight:500;line-height:1.6;color:var(--ink);margin-top:6px}
   .prevday{display:block;margin-top:14px;cursor:pointer}
   .prevday b{display:block;font-family:var(--serif);font-size:15px;font-weight:500;color:var(--brass)}
   .prevday span{display:block;font-family:var(--serif);font-size:15px;margin-top:4px}
-  .prevday p{font-family:var(--text);font-size:13.5px;color:var(--ink2);line-height:1.65;margin-top:5px}
+
   .zoomer{position:fixed;inset:0;background:#0E1117;z-index:60;display:flex;align-items:center;justify-content:center;overflow:auto}
   .zoomer img{width:100%;height:auto}
   .zoomer b{position:fixed;top:14px;right:18px;color:#F3F2EE;font-size:24px;cursor:pointer}
@@ -488,14 +491,15 @@ function comicHtml(){
   if(comicOpen>=list.length) comicOpen=0;
   const c=list[comicOpen], prev=list[comicOpen+1];
   return `<div class="pad">
-    <h1 style="font-size:26px;margin-top:16px;font-weight:600">பொன்னியின் செல்வன்</h1>
+    <h1 class="ctitle">பொன்னியின் செல்வன்</h1>
     <div class="csub">${esc(c.title||'')}</div>
-    ${c.summary?`<p class="mp" style="margin-top:10px">${esc(c.summary)}</p>`:''}</div>
+    <div class="cmeta">கல்கி · பாகம் ${esc(String(c.book||''))}${c.book_ta?' — '+esc(c.book_ta):''} · காட்சி ${esc(String(c.day||''))}</div>
+    ${c.summary?`<p class="mp" style="margin-top:12px">${esc(c.summary)}</p>`:''}</div>
     <div class="comicwrap" data-zoom="${esc(c.file)}"><img src="${BASE}${esc(c.file)}" alt="${esc(c.title||'')}" onerror="this.parentElement.remove()"></div>
     <div class="pad">
-    ${c.next_hint?`<div class="tomorrow">${esc(c.next_hint)}</div>`:''}
-    ${prev?`<div class="rule"></div><div class="prevday" data-prevcomic="${comicOpen+1}"><b>நேற்றைய காட்சி →</b><span>${esc(prev.title||'')}</span>${prev.summary?`<p>${esc(prev.summary)}</p>`:''}</div>`:''}
-    ${comicOpen>0?`<button class="btn" style="margin-top:16px;background:transparent;color:var(--ink);border:1px solid var(--rule)" data-prevcomic="0">இன்றைய காட்சிக்குத் திரும்பு</button>`:''}
+    ${c.next_hint?`<div class="rule"></div><div class="tmrhead">நாளை</div><div class="tomorrow">${esc(c.next_hint)}</div>`:''}
+    ${prev?`<div class="rule"></div><div class="prevday" data-prevcomic="${comicOpen+1}"><b>நேற்றைய காட்சி →</b><span>${esc(prev.title||'')}</span></div>`:''}
+    ${comicOpen>0?`<button class="btn" style="margin-top:18px;background:transparent;color:var(--ink);border:1px solid var(--rule)" data-prevcomic="0">இன்றைய காட்சிக்குத் திரும்பு</button>`:''}
     <div style="height:40px"></div></div>`;
 }
 document.addEventListener('click',e=>{
@@ -512,7 +516,6 @@ document.addEventListener('click',e=>{
   o.addEventListener('click',()=>o.remove());
   document.body.appendChild(o);
 });
-
 function malarHtml(){
   const m=malar;
   if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
