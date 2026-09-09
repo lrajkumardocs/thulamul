@@ -229,6 +229,38 @@
   .zoomer img{width:100%;height:auto}
   .zoomer b{position:fixed;top:14px;right:18px;color:#F3F2EE;font-size:24px;cursor:pointer}
   .comicwrap img{display:block;width:100%;height:auto;background:var(--paper2)}
+  .malcover{display:block;width:100%;line-height:0;margin-top:10px}
+  .malcover img{width:100%;height:auto;display:block;background:var(--paper2)}
+  .malmenu{padding:8px 0 0}
+  .malmenu .mrow{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid var(--rule);cursor:pointer}
+  .malmenu .mrow b{font-family:var(--serif);font-size:16.5px;font-weight:500}
+  .malmenu .mrow small{display:block;font-family:var(--sans);font-size:11.5px;color:var(--ink3);margin-top:3px;font-weight:400}
+  .malmenu .mrow i{font-style:normal;color:var(--brass);font-size:18px}
+  .malback{padding:12px 0 2px;cursor:pointer}
+  .malback span{font-size:13px;color:var(--brass)}
+  .mtsub{font-size:11.5px;color:var(--brass);margin:5px 0 12px;letter-spacing:.04em}
+  .wcard{background:var(--paper2);border-radius:12px;overflow:hidden;margin-top:14px}
+  .wcard img{width:100%;height:auto;display:block}
+  .wcard .tag{display:block;font-size:10px;color:var(--brass);margin-bottom:5px;letter-spacing:.05em}
+  .nbox{border-radius:14px;padding:16px 18px;margin-top:12px;color:#fff}
+  .nbox b{display:block;font-family:var(--serif);font-size:29px;font-weight:600;line-height:1.1}
+  .nbox u{display:block;text-decoration:none;font-size:12px;opacity:.85;margin-top:5px}
+  .nbox p{font-family:var(--text);font-size:14px;line-height:1.65;margin-top:10px;opacity:.95}
+  .n1{background:#2B3A67}.n2{background:#2F6B4F}.n3{background:#9C4A2F}.n4{background:#3B3F4A}.n5{background:#A8862F}
+  .hist{font-family:var(--text);font-size:15px;line-height:1.75;padding:11px 0;border-bottom:1px solid var(--rule)}
+  .hist b{display:block;font-family:var(--sans);font-size:11.5px;color:var(--brass);margin-bottom:3px;font-weight:500}
+  .joke{padding:18px 0;border-bottom:1px solid var(--rule)}
+  .joke .jim{border:1px solid var(--rule);border-radius:10px;overflow:hidden;line-height:0}
+  .joke .jim img{width:100%;display:block}
+  .joke .jc{font-family:var(--serif);font-size:17.5px;font-weight:500;line-height:1.55;margin-top:12px}
+  .joke .jn{font-size:11px;color:var(--ink3);margin-top:6px}
+  .bookrow,.revrow{display:flex;gap:16px;margin-top:14px;align-items:flex-start}
+  .bc{width:100px;aspect-ratio:2/3;border-radius:6px;overflow:hidden;flex:none;background:var(--paper2);border:1px solid var(--rule)}
+  .pos{width:112px;aspect-ratio:2/3;border-radius:8px;overflow:hidden;flex:none;background:var(--paper2);border:1px solid var(--rule)}
+  .bc img,.pos img{width:100%;height:100%;object-fit:cover;display:block}
+  .ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:var(--ink3);font-family:var(--serif);font-size:12px;text-align:center;padding:8px}
+  .bt,.revtxt{flex:1;min-width:0}
+  .rating{font-family:var(--serif);font-size:26px;color:var(--brass);font-weight:600}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -483,7 +515,6 @@ function rasiHtml(){
    <div class="note">ராகு காலம் ${esc(p.rahu)} · எமகண்டம் ${esc(p.yama)} · குளிகை ${esc(p.kuligai)}<br>கோசாரம்: குரு ${esc(p.gocharam.jupiter)} · சனி ${esc(p.gocharam.saturn)} · ராகு ${esc(p.gocharam.rahu)} · கேது ${esc(p.gocharam.ketu)}<br><span class="muted">சந்திர கோசாரம் + தாராபலம் அடிப்படையிலான பொதுப் பலன்; வாழ்க்கை முடிவுகளுக்கு ஜோதிடரை அணுகவும்.</span></div></div>`;
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-rasi]');if(!b)return;rasiSel=+b.dataset.rasi;localStorage.setItem('rasi',rasiSel);const pg=document.querySelector('.page[data-k="rasi"]');if(pg){const head=pg.querySelector('.phead').outerHTML;pg.innerHTML=head+rasiHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[PAGES.indexOf('rasi')+1]]}</b></div>`;}});
-let malarSel=localStorage.getItem('malarSel')||'world';
 let comicOpen=0;                                  // 0 = இன்று, 1 = நேற்று …
 function comicHtml(){
   const list=(Array.isArray(comicIdx)?comicIdx:[]).filter(x=>x&&x.file&&!x.hidden);
@@ -516,40 +547,63 @@ document.addEventListener('click',e=>{
   o.addEventListener('click',()=>o.remove());
   document.body.appendChild(o);
 });
+let malarSel=null;                                  // null = அட்டைப் பக்கம்
+const MAL_SECS=[['week','சென்ற வாரம்','ஐந்து நிகழ்வுகள்'],['num','செய்திகளும் எண்களும்','வாரத்தின் ஐந்து எண்கள்'],
+ ['hist','இந்த வாரம் வரலாற்றில்','இதே நாட்களில்'],['essay','கட்டுரை','முதன்மைக் கட்டுரை'],
+ ['word','வாரம் ஒரு தமிழ்ச் சொல்','சொல்லும் அதன் கதையும்'],['kural','ஒரு பாடல்','திருக்குறள் · தெளிவுரை'],
+ ['book','வாசிப்பு','உலகக் கிளாசிக்'],['film','திரை விமர்சனம்','இந்த வாரத் திரைப்பட வெளியீடுகள்'],
+ ['remedy','பாட்டி வைத்தியம்','பாரம்பரிய அறிவு'],['satire','நையாண்டி','சாட்சி பார்க்கிறார்']];
+function malHas(m,k){return {week:(m.roundup||[]).length,num:(m.numbers||[]).length,hist:(m.history||[]).length,
+ essay:!!m.essay,word:!!m.word,kural:!!m.kural,book:(m.books||[]).length,film:(m.films||[]).length,
+ remedy:!!m.remedy,satire:(m.satire||[]).length}[k];}
 function malarHtml(){
   const m=malar;
   if(!m||!m.essay)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
-  const T2=[['world','சென்ற வார உலகம்'],['history','இந்த வாரம் வரலாற்றில்'],['word','ஒரு தமிழ்ச் சொல்'],['song','ஒரு பாடல்'],['essay','கட்டுரை'],['lit','உலக இலக்கியம்'],['num','வாரத்தின் எண்'],['then','அன்று – இன்று'],['remedy','பாட்டி வைத்தியம்'],['review','திரை விமர்சனம்'],['riddle','விடுகதை'],['wonder','ஆச்சரியம்']];
-  const has={world:!!(m.world&&m.world.items),history:!!(m.history&&m.history.length),word:!!m.word,song:!!m.song,essay:!!m.essay,lit:!!m.world_lit,num:!!m.number,then:!!m.then_now,remedy:!!m.remedy,riddle:!!m.riddle,wonder:!!m.wonder,review:!!m.review};
-  const avail=T2.filter(([k])=>has[k]);
-  if(!avail.length)return '<div class="empty" style="padding-top:60px">வாரமலர் தயாராகிறது.</div>';
-  if(!has[malarSel]) malarSel=avail[0][0];
-  const cur=malarSel;
-  let body='';
-  if(cur==='world') body=m.world.items.map(x=>`<p class="mh1"><b>${esc(x.head)}</b><br>${esc(x.text)}</p>`).join('');
-  else if(cur==='history') body=(m.history||[]).map(x=>`<p class="mh1"><b>${esc(x.year)}</b> ${esc(x.text)}</p>`).join('');
-  else if(cur==='word') body=`<h2 style="font-size:26px;margin-bottom:10px">${esc(m.word.word)}</h2><p class="mp"><b>வேர்:</b> ${esc(m.word.root)}</p><p class="mp"><b>பழைய பயன்பாடு:</b> ${esc(m.word.old)}</p><p class="mp"><b>இன்று:</b> ${esc(m.word.today)}</p>`;
-  else if(cur==='song') body=`<div class="small muted" style="margin-bottom:8px">${esc(m.song.source||'')}${m.song.ref?' · '+esc(m.song.ref):''}</div><div class="song">${esc(m.song.text).split(/\n+/).map(l=>`<div>${l}</div>`).join('')}</div><p class="mp"><b>பொருள்:</b> ${esc(m.song.meaning)}</p>${m.song.why?`<p class="mp muted">${esc(m.song.why)}</p>`:''}${m.song.audio?`<audio controls preload="none" src="${BASE}${m.song.audio}" style="width:100%;height:32px;margin-top:8px"></audio>`:''}`;
-  else if(cur==='essay') body=`<h2 style="font-size:21px;margin-bottom:10px">${esc(m.essay.title)}</h2><div class="edbody">${esc(m.essay.body).split(/\n+/).map(x=>`<p>${x}</p>`).join('')}</div>`;
-  else if(cur==='lit'){const L=m.world_lit;body=`<p class="mp"><b>${esc(L.title)}</b> · ${esc(L.author)}${L.year?' · '+esc(L.year):''}${L.country?' · '+esc(L.country):''}</p>${L.line?`<div class="song">${esc(L.line)}</div>`:''}<p class="mp">${esc(L.intro)}</p>`;}
-  else if(cur==='num') body=`<div class="bignum"><b>${esc(m.number.value)}</b><span>${esc(m.number.label)}</span></div><p class="mp">${esc(m.number.text)}</p>`;
-  else if(cur==='then') body=`<p class="mp"><b>${esc(m.then_now.topic)}</b></p><div class="cmp"><div><small>அன்று</small>${esc(m.then_now.then)}</div><div><small>இன்று</small>${esc(m.then_now.now)}</div></div>`;
-  else if(cur==='remedy') body=`<p class="mp"><b>${esc(m.remedy.title)}</b></p><p class="mp">${esc(m.remedy.text)}</p><div class="note">${esc(m.remedy.note||'மருத்துவரை அணுகுவது அவசியம்.')}</div>`;
-  else if(cur==='riddle') body=`<p class="mp">${esc(m.riddle.q)}</p><details class="med" style="margin-top:10px"><summary>விடை</summary><p class="mp">${esc(m.riddle.a)}</p></details>`;
-  else if(cur==='review'){const R=m.review;body=`<h2 style="font-size:22px;margin-bottom:6px">${esc(R.title)}</h2>
-     <div class="small muted">இயக்கம்: ${esc(R.director||'')} · நடிப்பு: ${esc(R.cast||'')}</div>
-     <div class="bignum" style="margin-top:10px"><b>${esc(R.rating||'')}</b><span>5-ல் · ${esc(R.verdict||'')}</span></div>
-     <p class="mp">${esc(R.text)}</p><div class="note">${esc(R.note||'')}</div>`;}
-  else if(cur==='wonder') body=`<p class="mp">${esc(m.wonder.text)}</p>`;
-  const title=(T2.find(([k])=>k===cur)||['',''])[1];
-  return `<div class="pad"><div class="small muted" style="margin-top:12px">வாரம் ${esc(m.week||'')} · ஞாயிறு இணைப்பு</div>
-   <div class="chips" style="padding:12px 0 2px">${avail.map(([k,t])=>`<span class="chip ${k===cur?'on':''}" data-malar="${k}">${t}</span>`).join('')}</div>
-   <div class="msec" style="border-top:1px solid var(--rule);margin-top:14px"><div class="mt">${esc(title)}</div>${body}</div></div>`;
+  const avail=MAL_SECS.filter(([k])=>malHas(m,k));
+  if(malarSel===null||!malHas(m,malarSel)){
+    const cv=m.cover;
+    return `${cv&&cv.url?`<div class="malcover"><img src="${esc(cv.url)}" alt="" onerror="this.parentElement.remove()"></div><div class="pad"><div class="cap">அட்டை: ${esc(cv.credit||'')}${cv.license?' · '+esc(cv.license):''}</div></div>`:''}
+      <div class="pad"><div class="small muted" style="margin-top:10px">மலர் 1 · இதழ் ${esc(String(m.issue||1))} · வாரம் ${esc(m.week||'')}</div>
+      <div class="malmenu">${avail.map(([k,t,sub])=>`<div class="mrow" data-mal="${k}"><b>${t}<small>${sub}</small></b><i>›</i></div>`).join('')}</div>
+      <div style="height:40px"></div></div>`;
+  }
+  const k=malarSel, sec=MAL_SECS.find(x=>x[0]===k);
+  let h=`<div class="pad"><div class="malback" data-mal="__home"><span>← வாரமலர்</span></div>
+    <div class="mt">${esc(sec[1])}</div><div class="mtsub">${esc(sec[2])}</div>`;
+  if(k==='week') h+=(m.roundup||[]).map(r=>`<div class="wcard">${r.image?`<img src="${BASE}${esc(r.image)}" alt="" onerror="this.remove()">`:`<div class="cap" style="padding:14px"><span class="tag">${esc(r.region||'')}</span>${esc(r.text)}</div>`}</div>`).join('')
+    +`<div class="note">படங்கள் AI ஓவியங்கள் — புகைப்படங்கள் அல்ல.</div>`;
+  else if(k==='num') h+=(m.numbers||[]).map((n,i)=>`<div class="nbox n${(i%5)+1}"><b>${esc(n.value)}</b><u>${esc(n.label)}</u><p>${esc(n.text)}</p></div>`).join('');
+  else if(k==='hist') h+=(m.history||[]).map(x=>`<div class="hist"><b>${esc(x.date_ta)}</b>${esc(x.text)}</div>`).join('')
+    +`<div class="note">இதே வாரத்தின் நாட்களில், வெவ்வேறு ஆண்டுகளில் நடந்தவை.</div>`;
+  else if(k==='essay') h+=`<h2 style="margin-top:12px">${esc(m.essay.title)}</h2>`+esc(m.essay.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');
+  else if(k==='word') h+=`<h2 style="margin-top:12px">${esc(m.word.word)}</h2>`+esc(m.word.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');
+  else if(k==='kural'){const K=m.kural;h+=`<div class="small muted" style="margin-top:10px">திருக்குறள் ${esc(String(K.number))} · ${esc(K.adhikaram||'')}</div>
+    <div class="song">${esc(K.text).split(/\n+/).join('<br>')}</div><p class="mp">${esc(K.explain)}</p>
+    <div class="note">பழைய உரைகளைத் தொகுத்து AI எழுதிய தெளிவுரை.</div>`;}
+  else if(k==='book') h+=(m.books||[]).map((b,i)=>`<div class="bookrow"${i?' style="border-top:1px solid var(--rule);padding-top:22px;margin-top:26px"':''}>
+      <div class="bc">${b.cover&&b.cover.url?`<img src="${esc(b.cover.url)}" alt="" onerror="this.parentElement.innerHTML='<div class=&quot;ph&quot;>${esc(b.title_ta||'')}</div>'">`:`<div class="ph">${esc(b.title_ta||'')}</div>`}</div>
+      <div class="bt"><h2 style="font-size:18px">${esc(b.title_ta)}</h2><div class="small muted" style="margin-top:5px">${esc(b.author||'')} · ${esc(String(b.year||''))} · ${esc(b.country||'')}</div></div></div>
+      ${esc(b.review).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')}
+      <p class="mp muted" style="font-size:14px"><b>எங்கே:</b> ${esc(b.where||'')}</p>`).join('')
+    +`<div class="note">அட்டைப்படங்கள் மதிப்புரை நோக்கத்திற்காக; உரிமை அந்தந்தப் பதிப்பகங்களுக்கே.</div>`;
+  else if(k==='film') h+=(m.films||[]).map((f,i)=>`<div class="revrow"${i?' style="border-top:1px solid var(--rule);padding-top:22px;margin-top:26px"':''}>
+      <div class="pos">${f.poster&&f.poster.url?`<img src="${esc(f.poster.url)}" alt="" onerror="this.parentElement.innerHTML='<div class=&quot;ph&quot;>${esc(f.title||'')}</div>'">`:`<div class="ph">${esc(f.title||'')}</div>`}</div>
+      <div class="revtxt"><h2 style="font-size:18px">${esc(f.title)}</h2>
+      <div class="small muted" style="margin-top:5px">${esc(f.director||'')}${f.cast?' · '+esc(f.cast):''}${f.lang?' · '+esc(f.lang):''}</div>
+      <div style="margin-top:8px"><span class="rating">${esc(String(f.rating||''))}</span> <span class="small muted">/ 5 · ${esc(f.verdict||'')}</span></div></div></div>
+      <p class="mp">${esc(f.review)}</p>`).join('')
+    +`<div class="note">போஸ்டர்கள் விமர்சன நோக்கத்திற்காக; உரிமை தயாரிப்பு நிறுவனங்களுக்கே. விமர்சனங்கள் பல ஊடகக் கருத்துகளின் AI தொகுப்பு.</div>`;
+  else if(k==='remedy'){const R=m.remedy;h+=`<h2 style="margin-top:12px">${esc(R.title)}</h2><div class="small muted" style="margin-top:4px">${esc(R.sub||'')}</div>`
+    +esc(R.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')+`<div class="note">${esc(R.warn||'மருத்துவரை அணுகுவது அவசியம்.')}</div>`;}
+  else if(k==='satire') h+=(m.satire||[]).map((x,i)=>`<div class="joke">${x.image?`<div class="jim"><img src="${BASE}${esc(x.image)}" alt="" onerror="this.parentElement.remove()"></div>`:''}<div class="jc">${esc(x.line)}</div><div class="jn">சாட்சி · ${i+1}</div></div>`).join('')
+    +`<div class="note">இவை நபர்களைக் குறிக்கவில்லை; அதிகாரத்தின் இயல்பைப் பற்றியவை.</div>`;
+  return h+'<div style="height:40px"></div></div>';
 }
-document.addEventListener('click',e=>{const b=e.target.closest('[data-malar]');if(!b)return;
-  malarSel=b.dataset.malar;localStorage.setItem('malarSel',malarSel);
+document.addEventListener('click',e=>{const b=e.target.closest('[data-mal]');if(!b)return;
+  malarSel=(b.dataset.mal==='__home')?null:b.dataset.mal;
   const pg=document.querySelector('.page[data-k="malar"]');
-  if(pg){const head=pg.querySelector('.phead').outerHTML;pg.innerHTML=head+malarHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[PAGES.indexOf('malar')+1]]||''}</b></div>`;pg.scrollTop=0;}});
+  if(pg){const head=pg.querySelector('.phead').outerHTML;
+    pg.innerHTML=head+malarHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[PAGES.indexOf('malar')+1]]||''}</b></div>`;pg.scrollTop=0;}});
 function adsHtml(){
   const live=ads.filter(adActive);const slots=[];
   for(let i=1;i<=AD_SLOTS;i++){const a=live.find(x=>+x.slot===i)||null;slots.push(a);}
