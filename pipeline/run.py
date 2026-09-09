@@ -325,7 +325,7 @@ def make_audio(story_id, script):
         return None
 
 # ---------------------------------------------------------------- 5. image (மூலப் படம் மட்டும்; இல்லையெனில் null → ஆப் துறை-அட்டை காட்டும்)
-SAFE_HOSTS = ("openverse", "flickr", "staticflickr", "unsplash", "pexels", "pixabay", "cdn.pixabay", "pib.gov.in", "isro.gov.in", "rbi.org.in", "mygov.in", "tn.gov.in",
+SAFE_HOSTS = ("openverse", "flickr", "staticflickr", "metmuseum", "images.metmuseum", "unsplash", "pexels", "pixabay", "cdn.pixabay", "pib.gov.in", "isro.gov.in", "rbi.org.in", "mygov.in", "tn.gov.in",
               "india.gov.in", "nic.in", "gov.in", "prsindia.org",
               "wikimedia.org", "wikipedia.org", "unsplash.com", "pexels.com", "pixabay.com")
 
@@ -469,11 +469,45 @@ def pixabay_image(q):
         pass
     return None
 
+
+def flickr_cc_image(q):
+    """Flickr — CC உரிமப் படங்கள் (key இருந்தால்)."""
+    k = os.environ.get("FLICKR_KEY")
+    if not k:
+        return None
+    try:
+        r = requests.get("https://www.flickr.com/services/rest/",
+                         params={"method": "flickr.photos.search", "api_key": k, "text": q,
+                                 "license": "1,2,3,4,5,6,9,10", "sort": "relevance", "safe_search": 1,
+                                 "content_type": 1, "per_page": 5, "format": "json", "nojsoncallback": 1,
+                                 "extras": "url_l,owner_name,license"}, timeout=15).json()
+        for it in ((r.get("photos") or {}).get("photo") or []):
+            u = it.get("url_l")
+            if _no_wm(u):
+                return {"url": u, "credit": f"{it.get('ownername','Flickr')} · Flickr", "license": "CC", "symbolic": True}
+    except Exception:
+        pass
+    return None
+
+def met_image(q):
+    """The Met Museum — பொதுச் சொத்து கலைப் படைப்புகள் (key தேவையில்லை)."""
+    try:
+        s1 = requests.get("https://collectionapi.metmuseum.org/public/collection/v1/search",
+                          params={"q": q, "hasImages": "true", "isPublicDomain": "true"}, timeout=15).json()
+        for oid in (s1.get("objectIDs") or [])[:3]:
+            o = requests.get(f"https://collectionapi.metmuseum.org/public/collection/v1/objects/{oid}", timeout=15).json()
+            u = o.get("primaryImage") or o.get("primaryImageSmall")
+            if _no_wm(u):
+                return {"url": u, "credit": f"{o.get('artistDisplayName') or 'The Met'} · The Met", "license": "பொதுச் சொத்து", "symbolic": True}
+    except Exception:
+        pass
+    return None
+
 def stock_image(topic, query=""):
     """குறியீட்டுப் படம் — Unsplash → Pexels → Pixabay → Openverse. Watermark உள்ளவை தவிர்க்கப்படும்."""
     tries = ([query] if query else []) + STOCK_Q.get(topic, [])
     for q in tries[:3]:
-        for fn in (unsplash_image, pexels_image, pixabay_image, openverse_image):
+        for fn in (unsplash_image, pexels_image, pixabay_image, openverse_image, flickr_cc_image, met_image):
             try:
                 im = fn(q)
             except Exception:
