@@ -4,10 +4,10 @@
 [fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 24 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
+[fetch] BBC World: 25 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 29 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
 [fetch] The Hindu Cinema: 27 புதியவை
@@ -33,14 +33,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,12 +56,15 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Tamil Nadu: 0 புதியவை
-[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7f5004468510>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7fa963dae450>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] PIB Rural: 0 புதியவை
 [fetch] PIB Education: 0 புதியவை
 [fetch] PIB Social Justice: 0 புதியவை
 [fetch] MyGov India: 0 புதியவை
-[run] புதியவை 583 → நிகழ்வுகள் 526
-[triage] 526 → 33 முக்கியமானவை
+[run] புதியவை 590 → நிகழ்வுகள் 531
+[triage] 531 → 42 முக்கியமானவை
+[tts-edge] editorial_20260910: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: பட்டினப்பாக்கம் செயலகம் — வளர்ச்சியா, நெரிசலா?
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
