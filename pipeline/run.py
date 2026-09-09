@@ -26,7 +26,7 @@ MODEL_FAST = os.environ.get("CLAUDE_MODEL_FAST", "claude-haiku-4-5-20251001")
 BIG_TOPICS = {"tn", "india", "assembly", "court", "economy"}
 MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "8"))    # ஒரு ஓட்டத்தில் அதிகபட்சம்
 MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "53"))
-MIN_SCORE = int(os.environ.get("MIN_SCORE", "5"))               # இதற்குக் குறைவானவை எழுதப்படாது
+MIN_SCORE = int(os.environ.get("MIN_SCORE", "6"))               # இதற்குக் குறைவானவை எழுதப்படாது
 TTS_VOICE = os.environ.get("TTS_VOICE", "ta-IN-PallaviNeural")   # Microsoft Edge இலவச தமிழ் குரல் (ஆண்: ta-IN-ValluvarNeural)
 AUTO_PUBLISH_MIN_CONFIDENCE = 0.3
 
@@ -290,6 +290,8 @@ def triage(client, clusters):
               "6–5 = துறை அறிவிப்பு, மாவட்டத் திட்டம், வேலைவாய்ப்பு, முக்கிய வழக்கு, பெரிய விளையாட்டு/சினிமா நிகழ்வு.\n"
               "4–1 = வழக்கமான கூட்டம், அறிக்கை, சந்தை ஏற்ற இறக்கம், தயாரிப்பு அறிவிப்பு, பட்டியல்/கருத்துக் கட்டுரை, வெளிநாட்டு உள்ளூர்ச் செய்தி, விளம்பரம் போன்றவை.\n"
               "தமிழ்நாடு தொடர்பானதற்கு ஒரு புள்ளி கூடுதல். "
+              "கண்டிப்பாக: பெரும்பாலான தலைப்புகள் 3–4 மதிப்பெண் பெற வேண்டும். 6-க்கு மேல் தருவது ஒரு நாளிதழின் "
+              "பக்கத்தில் இடம்பெறத் தகுதியான, மக்களைப் பாதிக்கும் செய்திகளுக்கு மட்டும் — 100-ல் 15-க்கு மேல் இருக்கக் கூடாது. "
               'JSON மட்டும், code fence இல்லை: {"s":{"0":7,"1":3,...}} — எண் மட்டும்.')
     try:
         msg = client.messages.create(model=MODEL_FAST, max_tokens=2000, system=sysmsg,
@@ -306,7 +308,7 @@ def write_news(client, prompt, c, today, model=None):
         f"[மூலம் {n+1}: {i['source']}]\nதலைப்பு: {i['title']}\n{i['text'][:800]}"
         for n, i in enumerate(c["items"][:2]))
     msg = client.messages.create(
-        model=MODEL, max_tokens=3000,
+        model=(model or MODEL), max_tokens=3000,
         system=prompt.replace("{{TODAY}}", today),
         messages=[{"role": "user", "content": f"துறை குறிப்பு: {c['topic_hint']}\n\n{src_text}"}],
     )
@@ -702,7 +704,9 @@ def main():
         if not ok:
             mark_seen(c); continue
         try:
-            story = write_news(client, prompt, c, today)
+            _big = (c["topic_hint"] in BIG_TOPICS) or len(c["items"]) >= 2 \
+                   or any(i.get("grade") == "official" for i in c["items"]) or c.get("score", 5) >= 8
+            story = write_news(client, prompt, c, today, MODEL if _big else MODEL_FAST)
         except Exception as ex:
             msg = str(ex); print("[claude] பிழை", msg[:200])
             if "credit" in msg or "authentication" in msg or "401" in msg or "402" in msg:
@@ -788,7 +792,7 @@ def main():
                 jp = ("நீ துலாமுள் நாளிதழின் வேலைவாய்ப்பு பக்க எழுத்தாளர். கீழே உள்ள மூலங்களிலிருந்து இன்றைய வேலை அறிவிப்புகளை JSON-ஆக மட்டும் தொகு: "
                       '{"items":[{"org":"நிறுவனம்/துறை","post":"பதவி","count":"இடங்கள் அல்லது null","last_date":"YYYY-MM-DD அல்லது null","type":"அரசு|தனியார்","link":"url"}]} '
                       "உண்மைகள் மட்டும்; மூலத்தில் இல்லாததைச் சேர்க்காதே; ஒரே அறிவிப்பு இரு முறை வேண்டாம்; அதிகபட்சம் 12. தமிழில் org/post.")
-                msg = client.messages.create(model=(model or MODEL), max_tokens=3000, system=jp, messages=[{"role": "user", "content": src_text}])
+                msg = client.messages.create(model=MODEL, max_tokens=3000, system=jp, messages=[{"role": "user", "content": src_text}])
                 rw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
                 j = parse_json(client, rw); items = j.get("items", [])
                 if items:
@@ -834,7 +838,7 @@ def main():
         if now.hour >= 4 and ed.get("date") != today and len(todays_pub) >= 2 and not api_dead:
             src = "\n\n".join(f"[{x['topic_ta']}] {x['headline']}\n" + " ".join(x["lines"]) for x in todays_pub[:10])
             ep = (ROOT / "pipeline/prompts/editorial.md").read_text(encoding="utf-8").replace("{{TODAY}}", today)
-            msg = client.messages.create(model=(model or MODEL), max_tokens=3000, system=ep, messages=[{"role": "user", "content": src}])
+            msg = client.messages.create(model=MODEL, max_tokens=3000, system=ep, messages=[{"role": "user", "content": src}])
             raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
             e = parse_json(client, raw); e["date"] = today; e["author"] = "Mr. X"
             e["audio"] = make_audio(f"editorial_{today.replace('-', '')}", f"தராசில் இன்று. {e['title']}. {e['issue']} ஒரு தட்டு: {e['side_a']['label']}. " + " ".join(e["side_a"]["points"]) + f" மறு தட்டு: {e['side_b']['label']}. " + " ".join(e["side_b"]["points"]) + " " + e["question"])
