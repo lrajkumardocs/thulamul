@@ -32,10 +32,10 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 13 புதியவை
+[fetch] Bar and Bench: 18 புதியவை
 [fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 27 புதியவை
+[fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
@@ -55,10 +55,13 @@
 [fetch] Sportstar: 28 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
-[run] புதியவை 571 → நிகழ்வுகள் 521
-[triage] 521 → 494 முக்கியமானவை
-[jobs] பிழை name 'model' is not defined
-[editorial] பிழை name 'model' is not defined
+[run] புதியவை 577 → நிகழ்வுகள் 526
+[triage] 526 → 16 முக்கியமானவை
+[tts-edge] jobs_20260909: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[jobs] தொகுப்பு 12
+[tts-edge] editorial_20260909: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: கள்ளக்குறிச்சி சோகம்: பொறுப்பு நிர்ணயம், நீதி எப்போது?
 [weather] புதுப்பிக்கப்பட்டது
-[image] 5 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 0
