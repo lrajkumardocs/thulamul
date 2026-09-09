@@ -35,7 +35,7 @@ jobs:
           CLAUDE_MODEL_FAST: claude-haiku-4-5-20251001
           MAX_NEW_PER_RUN: "8"
           MAX_PER_DAY: "53"
-          MIN_SCORE: "5"
+          MIN_SCORE: "6"
           PYTHONUNBUFFERED: "1"
         run: |
           mkdir -p data/audio data/news data/issues data/cartoons data/comic
