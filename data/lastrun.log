@@ -7,16 +7,16 @@
 [fetch] BBC World: 16 புதியவை
 [fetch] Al Jazeera: 22 புதியவை
 [fetch] ESPNcricinfo: 0 புதியவை
-[fetch] The Hindu Sport: 1 புதியவை
-[fetch] The Hindu Cinema: 1 புதியவை
-[fetch] Cinema Express: 29 புதியவை
+[fetch] The Hindu Sport: 0 புதியவை
+[fetch] The Hindu Cinema: 0 புதியவை
+[fetch] Cinema Express: 27 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 16 புதியவை
+[fetch] Wired: 13 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 12 புதியவை
+[fetch] The Hindu Health: 10 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 3 புதியவை
+[fetch] FreeJobAlert: 1 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,19 +24,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 14 புதியவை
+[fetch] The Hindu Legal: 12 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 30 புதியவை
+[fetch] Dinamani Sports: 29 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 14 புதியவை
+[fetch] The Hindu National: 12 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,28 +56,29 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6ba593ba50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 14 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f79ba46f350>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 12 புதியவை
 [fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 457 → நிகழ்வுகள் 435
-[triage] 435 → 64 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] அமெரிக்க சட்ட প্রয়োগ நীতिश ஒক ড்যান்ক, தமிழ்நாடு வாসকர் সরা
-[skip] கাশ்மீர் திரைப்படத் திருவிழா — தமிழ்நாட்டு/தமிழ் திரையுலகத்த
-[skip] தமிழ்நாட்டுக்குப் பொருத்தமில்லை — அசாம் மாநிலத்தின் உள்ளூர் 
-[skip] ஜம்மு-காஷ்மீர் மாநிலத்தின் உள்ளூர் சினிமா நிகழ்வு; தமிழ்நாடு
-[skip] மகாராஷ்ட்ரத்தின் MPSC தேர்வு — தமிழ்நாட்டு வாசகருக்குப் பொரு
-[skip] IIT JAM என்பது அகில இந்திய பட்டப்படிப்புத் தேர்வு; தமிழ்நாடு
-[skip] இது மேலை நாட்டு சামাজிக விவகாரம்; தமிழ்நாடு/இந்திய வாசகரின் 
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமற்ற தனிநபர் கட்டுரை — அமெரி
-[skip] கர্நாடக மாநிலத்தின் உள்ளூர் செய்தி — பெங்களூர் போலீஸ் பணியாள
-[skip] இது ஒரு தனியார் நிறுவனத்தின் பிআர் அறிவிப்பு / தயாரிப்பு அறி
-[skip] செய்தியாக இல்லை — சினிமா விமர்சனம். விமர்சனம், புத்தக/திரைப்
-[skip] வெறும் திரைப்பட மதிப்பாய்வு — தமிழ்நாட்டு வாசகரைக் கூட்டாகப்
-[skip] Routine cricket team statement ahead of series. No match res
-[tts-edge] 5083abad8318: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆசிய கோப்பை அரையிறுதியில் ஷஃபாலி அரைசதம்; வங்கதேசம் 150 ரன் நாட.
+[run] புதியவை 439 → நிகழ்வுகள் 419
+[triage] 419 → 21 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] நாசாவின் வெளிநாட்டு விண்வெளி நিலையத்தின் செயல்பாட்டு முடிவு 
+[skip] தமிழ் திரையுலகம் அல்ல; தமிழ்நாட்டு வாசகருக்குப் பொருத்தமான ச
+[skip] மேற்குவங்கத்து ஒரு குறிப்பிட்ட வழக்கின் சட்ட நடவடிக்கை — தமி
+[skip] மহाராஷ்ட्र மாநில போராட்டம் — தமிழ்நாட்டுக்குப் பொருந்தாது
+[tts-edge] 54be89934ce2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மத்திய தமிழ்நாட்டுப் பல்கலைக்கழகத்தில் திட்ட உதவியாளர் பணி
+[skip] வெளிநாட்டு தயாரிப்பு விளம்பர அறிவிப்பு — தமிழ்நாடு/இந்திய வா
+[skip] அமெரிக்கப் பொருளாதாரக் கொள்கை — தமிழ்நாடு/இந்திய வாசகரைப் பா
+[skip] தமிழ்நாட்டுக்கு வரையறுக்கப்பட்ட தகவல் இல்லை — பொதுவான சுகாதா
+[skip] இந்தச் செய்தி தமிழ்நாட்டு/இந்திய வாசகர்களுக்குப் பொருந்தாத ப
+[skip] தனிநபர் சர্ச்சை அல்ல; சினிமாக் குறிப்பு என்பது ஆங்கிலம் மாত்
+[skip] தமிழ் நடிகர்களின் பாராட்டுச் செய்தி மட்டும்; படத்தின் வெளியீ
+[skip] இங்கிலாந்துக்கு எதிரான தேசிய கிரிக்கெட் டெஸ்ட் மேல்நாட்டு உள
+[tts-edge] editorial_20260911: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: பீகாரில் பாலம் இடிந்தது — யாரது தவறு?
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 2 · எழுதியவை 1
