@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
+[fetch] The Hindu TN: 16 புதியவை
 [fetch] Dinamani TN: 23 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 21 புதியவை
 [fetch] ESPNcricinfo: 0 புதியவை
-[fetch] The Hindu Sport: 5 புதியவை
-[fetch] The Hindu Cinema: 5 புதியவை
+[fetch] The Hindu Sport: 3 புதியவை
+[fetch] The Hindu Cinema: 2 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 22 புதியவை
+[fetch] Wired: 19 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Health: 14 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 7 புதியவை
+[fetch] FreeJobAlert: 5 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 19 புதியவை
+[fetch] The Hindu Legal: 16 புதியவை
 [fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 19 புதியவை
+[fetch] The Hindu National: 16 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,28 +56,30 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f642cc0ba50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5751c6b510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 16 புதியவை
 [fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 494 → நிகழ்வுகள் 467
-[triage] 467 → 33 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு பণ்যங்களின் மதிப்பீடு மட்டுமே; தமிழ்நாடு / இந்திய
-[skip] வெளிநாட்டு சினிமா — ஜப்பানிய திரைப்படம், தமிழில் வெளியாகும் 
-[skip] இது ஒரு மாநாட்டு விளம்பர அறிவிப்பு, பொது மக்களுக்குப் பயனுள்
-[skip] இது விளம்பர/தயாரிப்பு அறிவிப்பு. கான்கிளேவ் என்பது தனியார் ந
-[skip] BRICS summit is international multilateral event without dir
-[skip] Andhra Pradesh state job/education announcement — not releva
-[skip] Himachal Pradesh அரசின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. தமிழ
-[skip] வெளிநாட்டு প্রযুক்தি/সংস্কৃதி பற்றிய ব্যক্তিগত கட்டுரை — தமி
-[skip] உலகக் தொழில்நுட்ப வகைக்குறிப்பு — தமிழ்நாடு / இந்திய வாசகருக
-[skip] தமிழ்நாட்டு வாசகருக்கு உடனடி பொருந்தம் இல்லை. ஆய்வு நோக்கமான
-[skip] தমிழ்நாடு/இந்திய மக்களைப் பாதிக்கும் உடனடி செய்திக் கட்டமைப்
-[skip] Documentary about military operation, not cinema/entertainme
-[skip] செய்தி சினிமா வரலாற்று ஆய்வு — தமிழ்த் திரையுலகின் பழைய பக்த
-[skip] உலக அல்லது இந்திய தரத்தின் வரலாற்று நிகழ்வு அல்ல. ஒரு உள்நாட
-[skip] வெளிநாட்டு உள்ளூர் கோல்ப் தொடர் — தமிழ்நாட்டு/இந்திய வாசகரின
+[run] புதியவை 472 → நிகழ்வுகள் 448
+[triage] 448 → 54 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] தமிழ்நாட்டு வாசகரைப் பொருந்தாத வெளிநாட்டு தயாரிப்பு ஒப்பீடு 
+[skip] ஜம்மு-காஷ்மீரின் உள்ளூர் சினிமா நிகழ்வு. தமிழ்நாட்டு வாசகருக
+[tts-edge] f6f531a31ad6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பீகார் வைஷாலியில் கட்டப்பட்டு வந்த பாலம் இடிந்து வீழ்ச்சி, ஏழு பேர் காயம்
+[skip] பிहार மாநிலத்தின் உள்ளூர் விபத்து; தமிழ்நாடு வாசகரைப் பாதிக்
+[skip] கேரளாவின் உள்ளூர் பஞ்சாயத் அரசியல் — தமிழ்நாடு/இந்திய வாசகரு
+[skip] Rajasthan RPSC வேலைவாய்ப்பு அறிவிப்பு தமிழ்நாட்டுக்கு பொருந்
+[skip] ஆந்திரப் பிரதேச பொது சேவா ஆணையம் (APPSC) தேர்வு முடிவு — தெல
+[skip] வெளிநாட்டு எழுத்தாளரின் புத்தக சாரাংசம் — தமிழ்நாடு/இந்திய வ
+[skip] வெளிநாட்டு பொருளின் விமர்சனம்; தமிழ்நாடு/இந்திய வாசகரை பாதிக
+[skip] பொதுவான சுகாதார ஆலோசனை / வளிப்பட உரை — குறிப்பிட்ட நடைமுறை, 
+[skip] மூல உரை வெறும் ஆங்கிலத்தில் தலைப்பும் விவரமும் இல்லாமல் உள்ள
+[skip] வெளிநாட்டு ஆங்கிலச் சீரிஸ் — தமிழ்நாடு/இந்திய வாசகரின் பொருத
+[skip] தமிழ் செய்தியல்ல — ஆங்கிலச் சினிமா செய்திக் குறிப்பு; தமிழ்ந
+[skip] சர்வதேশக் கிரீடாவல்ல; சாதாரণ பூமியியல் விளையாட்டு — தமிழ்நாட
+[skip] குதிரைப் பந்தயம் — தமிழ்நாட்டு விளையாட்டுப் முன்னுரிமையில் ப
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 2 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 2 · எழுதியவை 1
