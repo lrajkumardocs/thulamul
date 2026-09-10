@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 11 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
+[fetch] The Hindu TN: 16 புதியவை
+[fetch] Dinamani TN: 22 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 8 புதியவை
-[fetch] The Hindu Sport: 5 புதியவை
-[fetch] The Hindu Cinema: 15 புதியவை
+[fetch] BBC World: 16 புதியவை
+[fetch] Al Jazeera: 21 புதியவை
+[fetch] ESPNcricinfo: 7 புதியவை
+[fetch] The Hindu Sport: 6 புதியவை
+[fetch] The Hindu Cinema: 14 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 4 புதியவை
+[fetch] The Hindu Tech: 3 புதியவை
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 21 புதியவை
+[fetch] The Hindu Health: 22 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 14 புதியவை
+[fetch] FreeJobAlert: 13 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,19 +24,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=10)
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 27 புதியவை
+[fetch] The Hindu Legal: 24 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 27 புதியவை
+[fetch] The Hindu National: 24 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,39 +56,34 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd184fd62d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 27 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0c67161a10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 24 புதியவை
+[fetch] Dinamani Govt: 22 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 560 → நிகழ்வுகள் 525
-[triage] 525 → 105 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] This is a job notification for Himachal Pradesh (HP state), 
-[skip] Apple-ன் நிர்வாகக் குழு மாற்றம் — வெளிநாட்டு நிறுவனத்தின் உள
-[skip] வெறும் இந்தி திரையுலகத் திரட்சிப் பார்வை — தமிழ்நாடுக்குப் ப
-[skip] Caribbean Premier League (CPL) — வெளிநாட்டு உள்நாட்டுத் T20 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CevHVi8WfxpXW8bmzvYAU'}
-[tts-edge] 7d0d4d3f6bdb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நவம்பர் தேர்தலுக்குப் பின்னரே ஈரான் மோதல் முடியும் என டிரம்ப் கூற்று
-[tts-edge] f475921ce666: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] காசாவில் தூங்கிக் கொண்டிருந்த பாலஸ்தீனிய குடும்பத்தினர் நால்வர் வான் தாக்குதலில் பலி
-[skip] இது ஒரு கருத்துப் பகுப்பாய்வுக் கட்டுரை; உறுதியான எண்கள், மே
-[publish] கடன் பத்திரங்களுக்கான Demat 2.0 முதல் கட்டத்தை செபி முடித்தது
-[publish] சென்செக்ஸ் 1,000 புள்ளி ஏற்ற இறக்கம்: CAS முறை தொடரும் என சேபி தலைவர் தெரிவிப்பு
-[publish] பட்டினப்பாக்கத்தில் புதிய செயலகம் அமைப்பதற்கு அரசியல் தலைவர்கள் எதிர்ப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் போதிய உண்மைத் தகவல் இல்லை; வெறும் க்ளிக்பெய்ட் தலை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CevHtHET7Qsx2wXFDJMyV'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] ரஷ்யாவின் புதிய ஜெட் ட்ரோன்கள் உக்ரைன் தற்காப்பை மிஞ்சி பறக்கின்றன
-[publish] பிலிப்பீன்ஸ் கொரோன் அருகே படகில் தீ விபத்து, பயணி பீதி பேட்டி
-[publish] மேற்குக் கரையில் ஒரே வாரத்தில் 100 பாலஸ்தீனியர்களை இஸ்ரேல் கைது செய்தது
-[publish] அமெரிக்க அரசு பத்திரங்களின் வட்டி விகிதம் எண்ணெய் விலை உயர்வால் பல ஆண்டு உச்சத்தை எட்டியது
-[publish] ஹோசூரில் அல்ட்ராவயலட் நிறுவனத்தின் புதிய பிக்கா தொழிற்சாலை; 2,000 வேலைவாய்ப்பு
-[publish] தூத்துக்குடியில் எச்டி ஹூண்டாய் கப்பல் தள திட்டம் - டிபிஆர் கட்டத்திற்கு முன்னேற்றம்
-[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் அரசியல் மோதல் சம்பவம் (KCR
-[skip] ஆந்திரப் பிரதேச சுற்றுலா குறித்த மத்திய அமைச்சரின் கூற்று - 
-[publish] இந்தியாவில் பெண்கள் பணியாளர் பங்கேற்பு உயர்வு, நிதி-தலைமை இடைவெளி தொடர்பு.
+[run] புதியவை 542 → நிகழ்வுகள் 510
+[triage] 510 → 53 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] Tesla Cybercab is a US vehicle under investigation by US reg
+[skip] வெறும் ஆளுமைப் பற்றிய ரசனை வினாடி விளையாட்டு — தமிழ்நாட்டு வ
+[skip] வெளிநாட்டு உள்நாட்டு கிரிக்கெட் — இங்கிலாந்து county cricket
+[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள ஓர் ஊரின் உள்ளூர் கண்காணிப்பு
+[skip] இது ஒரு குறிப்பிட்ட நாடக கலைஞருக்கான அஞ்சலி நிகழ்வு பற்றிய உ
+[tts-edge] 32d114404ec6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியா, அமெரிக்கா இராணுவங்கள் 22வது யுத் அப்யாஸ் பயிற்சியில் இணைந்து பங்கேற்பு
+[skip] ஒரு குறிப்பிட்ட கிராமத்தின் உள்ளூர் நிরাপत்তা திட்டம்; தமிழ்
+[skip] இது ஒரு கலைஞர் நினைவுத்திட்டத்தைப் பற்றிய செய்திதான் என்றாலு
+[skip] இந்திய-அமெரிக்க ராணுவ பயிற்சி நிகழ்வு தமிழ்நாட்டு வாசகருக்கு
+[skip] வெறும் ஒரு நடைப்பயணப் போராட்டம் — மக்கள் செயல்படக் கூடிய அரச
+[skip] கேரளா PSC தேர்வு — கேரள மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறி
+[skip] பிहாரில் உள்ள பொலிசு வேலைவாய்ப்பு தேர்வு — தமிழ்நாட்டு வாசகர
+[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனங்களின் உலகச் சந்தைப் போட்டி — 
+[skip] சீனாவின் உள்நாட்டு ராணுவ প்রযুক்தி திட்டம் — தமிழ்நாடு/இந்தி
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது — மருத்துய நிறுவனத்தின் வழக்
+[skip] வெளிநாட்டு நீதிமன்றத்தின் உத்தரவு; தமிழ்நாடு/இந்தியத் வாசகர்
+[skip] இந்தி படம் — தமிழில் வெளியாகும் என்ற தகவல் இல்லை; தமிழ் நடிக
+[skip] இந்திப் படத்தின் ட்ரெய்லர் அறிவிப்பு — தமிழ்நாட்டு வாசகருக்க
+[skip] ஆங்கிலேய county cricket — தமிழ்நாடு/இந்திய வாசகருக்குப் பொரு
+[skip] English county cricket — Nottinghamshire vs Hampshire. Not r
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 2 · எழுதியவை 12
+[done] feed 300 · pending 2 · எழுதியவை 1
