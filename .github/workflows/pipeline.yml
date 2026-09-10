@@ -29,6 +29,9 @@ jobs:
           PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
           PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
           FLICKR_KEY: ${{ secrets.FLICKR_KEY }}
+          TMDB_KEY: ${{ secrets.TMDB_KEY }}
+          SI_KEY: ${{ secrets.SI_KEY }}
+          RIJKS_KEY: ${{ secrets.RIJKS_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CLAUDE_MODEL: claude-sonnet-5
