@@ -309,6 +309,21 @@
     .edbody,.mp{font-size:16.5px}
     .malmenu .mrow{padding:16px 0}
   }
+  .pagenav{display:none}
+  @media (min-width:900px){
+    .pagenav{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;
+             max-width:1180px;margin:0 auto;padding:14px 28px 6px;border-bottom:1px solid var(--rule)}
+    .pagenav a{font-size:12.5px;color:var(--ink2);text-decoration:none;padding:6px 11px;border-radius:16px;
+               border:1px solid transparent;white-space:nowrap}
+    .pagenav a:hover{background:var(--paper2)}
+    .pagenav a.on{background:var(--ink);color:var(--paper)}
+    .pagearrows{display:flex;justify-content:space-between;align-items:center;max-width:1180px;
+                margin:24px auto 0;padding:18px 28px 40px;border-top:1px solid var(--rule)}
+    .pagearrows a{font-family:var(--serif);font-size:15px;color:var(--brass);text-decoration:none}
+    .pagearrows a.dim{color:var(--ink3);pointer-events:none}
+    .pfoot{display:none}
+    .paper{scroll-snap-type:none}
+  }
   @media (min-width:1400px){
     .mh,.phead,.wx,.nav,.pad,.stories,.mh-top,.mh-issue,.mh-date{max-width:1320px}
     .stories{grid-template-columns:repeat(4,1fr)}
@@ -766,7 +781,10 @@ function editHtml(){
 function renderHome(){
   const paper=$('#paper');
   paper.innerHTML=PAGES.map((k,i)=>{let body='';try{body=pageBody(k);}catch(err){console.error('page '+k,err);body='<div class="empty">இந்தப் பக்கத்தில் சிக்கல்.</div>';}
-    return `<div class="page" data-k="${k}">${pageHead(i,T[k]||'முதல் பக்கம்',k==='front')}${body}</div>`;}).join('');
+    const nx=PAGES[i+1], pv=PAGES[i-1];
+    const strip=`<div class="pagenav">${PAGES.map((p,j)=>`<a href="#page/${p}" class="${j===i?'on':''}">${T[p]||'முதல் பக்கம்'}</a>`).join('')}</div>`;
+    const arrows=`<div class="pagearrows"><a href="#page/${pv||''}" class="${pv?'':'dim'}">${pv?'← '+(T[pv]||''):''}</a><a href="#page/${nx||''}" class="${nx?'':'dim'}">${nx?(T[nx]||'')+' →':''}</a></div>`;
+    return `<div class="page" data-k="${k}">${pageHead(i,T[k]||'முதல் பக்கம்',k==='front')}${strip}${body}${arrows}</div>`;}).join('');
   paper.querySelectorAll('[data-id]').forEach(x=>x.addEventListener('click',()=>{
     const pg=x.closest('.page'); if(pg&&pg.dataset.k) backTo='#page/'+pg.dataset.k;
     go('#story/'+x.dataset.id);}));
