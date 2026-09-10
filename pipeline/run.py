@@ -640,27 +640,31 @@ def stock_image(topic, query=""):
     return None
 
 def pick_image(c, story=None):
-    """1) அரசுத் தளப் படம்  2) AI தந்த image_query-க்குப் பொருந்தும் படம்
-       3) செய்தியில் உள்ள நபர்/நிறுவனத்தின் விக்கிப் படம். பொருந்தாவிட்டால் படம் இல்லை."""
+    """படம் — தவறான படம் வருவதைவிட படமே இல்லாதது மேல்.
+    1) அரசுத் தளப் படம்  2) நபர் செய்தி → அந்த நபரின் விக்கிப் படம் மட்டும்
+    3) பொருள் செய்தி → image_query-க்கு commons/stock. பொருந்தாவிட்டால் None."""
     for i in c["items"]:
         u = i.get("image") or ""
         if u and _safe_host(u):
             return {"url": u, "credit": i["source"], "license": "அரசு / திறந்த உரிமம்"}
     if not story:
         return None
+
+    person = (story.get("person_en") or "").strip()
+    if person:
+        # நபர் செய்தி — அவரது படம் கிடைத்தால் மட்டும்; இல்லையெனில் படம் இல்லை
+        im = wiki_image(person, "en") or wiki_image(person, "ta")
+        if im and person.split()[0].lower() in (im.get("credit", "") + im.get("url", "")).lower():
+            return im
+        return None
+
     q = (story.get("image_query") or "").strip()
     if not q:
-        return None                                   # AI-யே படம் வேண்டாம் என்றது
+        return None
     im = commons_image(q) or stock_image("", q)
     if im:
         im["symbolic"] = True
         return im
-    # நபர்/நிறுவனப் பெயருக்கு மட்டும் விக்கிப் படம் (இடப்பெயர் அல்ல)
-    for e in [str(x) for x in (story.get("entities") or [])][:2]:
-        if len(e) > 4 and any(w in q.lower() for w in e.lower().split()[:1]):
-            wi = wiki_image(e, "ta") or wiki_image(e, "en")
-            if wi:
-                return wi
     return None
 
 def telegram(text):
@@ -839,6 +843,7 @@ def main():
         story["created_ts"] = time.time()
         story["front_cat"] = str(story.get("front_cat") or "routine")
         story["image_query"] = str(story.get("image_query") or "")
+        story["person_en"] = str(story.get("person_en") or "")
         story["urgent"] = bool(story.get("urgent"))
         story["affected"] = str(story.get("affected") or "")
 
@@ -1029,6 +1034,8 @@ def main():
         filled = 0
         for x in feed[:80]:
             if str(x.get("published_at", ""))[:10] == today and not (x.get("image") or {}).get("url") and filled < 30:
+                if (x.get("person_en") or "").strip():
+                    continue                      # நபர் செய்தி — தவறான படம் வேண்டாம்
                 qq = (x.get("image_query") or "").strip()
                 im = (commons_image(qq) or stock_image("", qq)) if qq else None
                 if im:
@@ -1040,9 +1047,15 @@ def main():
 
     # 5e0. image_query இல்லாமல் சேர்க்கப்பட்ட பொதுப் படங்களை நீக்கு (பொருந்தாதவை)
     try:
-        STOCKY = ("unsplash", "pexels", "pixabay", "openverse", "flickr", "metmuseum")
+        STOCKY = ("unsplash", "pexels", "pixabay", "openverse", "flickr", "metmuseum",
+                  "nasa.gov", "si.edu", "artic.edu", "rijksmuseum", "loc.gov")
         drop = 0
         for x in feed:
+            if (x.get("person_en") or "").strip() and (x.get("image") or {}).get("url"):
+                u2 = (x["image"]["url"] or "").lower()
+                if "wikipedia" not in u2 and "wikimedia" not in u2:
+                    x["image"] = None; drop += 1     # நபர் செய்திக்குத் தவறான படம்
+                    continue
             im = x.get("image") or {}
             u = (im.get("url") or "").lower()
             if u and any(h in u for h in STOCKY) and not (x.get("image_query") or "").strip():
