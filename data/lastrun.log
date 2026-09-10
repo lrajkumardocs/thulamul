@@ -6,8 +6,8 @@
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 23 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 8 புதியவை
-[fetch] The Hindu Sport: 3 புதியவை
+[fetch] ESPNcricinfo: 9 புதியவை
+[fetch] The Hindu Sport: 5 புதியவை
 [fetch] The Hindu Cinema: 16 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 5 புதியவை
@@ -24,19 +24,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 6 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 27 புதியவை
+[fetch] Sportstar: 28 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,13 +56,46 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f611065d6d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fbba173a590>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
 [fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 594 → நிகழ்வுகள் 557
-[triage] 557 → 64 (முக்கியம் + பக்க ஒதுக்கீடு)
+[run] புதியவை 595 → நிகழ்வுகள் 559
+[triage] 559 → 69 (முக்கியம் + பக்க ஒதுக்கீடு)
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] ஹரியாணா மாநிலத்தின் உள்ளூர் தேர்வு; தமிழ்நாட்டு வாசகரைப் பாத
+[skip] பொதுவான தகவல் — தமிழ்நாடு/இந்தியுடன் நேரடி தொடர்பு இல்லை; உல
+[skip] பொதுவான சுகாதார விழிப்புணர்வுத் தலைப்பு; தமிழ்நாட்டில் உடனடி
+[skip] தமிழ்த் திரையுலகம் சம்பந்தப்பட்ட வিமர்சனம் ஆனாலும், மூல உரை 
+[skip] महिलाओं की T20 एशिया कप एक अंतर्राष्ट्रीय टूर्नामेंट है, लेक
+[tts-edge] cc2a7b9ec78f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காட்பாடி அருகே தேவாலயக் கட்டுமான மேடை இடிந்து 3 பேர் பலி
+[tts-edge] 0d5e1b404fd1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] காங்கோவில் பள்ளித் தீ விபத்தில் 20க்கும் மேற்பட்ட மாணவர்கள் பலி
+[publish] TVK-க்கு மாநிலக் கட்சி அந்தஸ்து வழங்கிய தேர்தல் ஆணையம்
+[publish] ரானிப்பேட்டில் வேலைக்குச் செல்லச் சொன்னதற்காக தாயைக் கொலை செய்த மகன்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] காஞ்சிபுரத்தில் கர்ப்பிணி பெண் உயிரிழப்பு; உச்சபட்ச தண்டனை கோரிக்கை
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் காவல் துறை தொடர்பான குற்ற வழக்க
+[publish] காஞ்சிபுரத்தில் முன்பணத்துக்காக பிரசவப் பெண் அனுப்பப்படாமல் மரணம், வழக்குப் பதிவு
+[publish] கிழக்கு சீனாவில் சரக்குக் கப்பலில் தீ விபத்து: 25 பேர் பலி
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] அமெரிக்கா-ஈரான் மோதலால் உலக எண்ணெய் விலை 5% உயர்வு, பீரல் 100 டாலர் கடந்தது
+[publish] அதானி போர்ட்ஸ் அதிகாரிகள் மீதான செபி வெளிப்படுத்தல் மீறல் வழக்கு தீர்வு
+[publish] பட்டினப்பாக்கம் புதிய செயலகத் திட்டத்தைக் கைவிடக் கோரி சிபிஐ வலியுறுத்தல்
+[publish] ஐந்து நாள் வேலை வாரம் கோரி செப்டம்பர் 11 அன்று வங்கி ஊழியர்கள் வேலைநிறுத்தம்
+[publish] காஞ்சிபுரம் அருகே கர்ப்பிணி, குழந்தை மரணம்: நடவடிக்கை கோரி டிஎம்டிகே கோரிக்கை
+[filler] health கட்டுரை
+[comic] கதை: வழியில் ஒரு வாதக் கூட்டம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-11.png · நாள் 4
+[rasi] ராசிபலன் தயார்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 12

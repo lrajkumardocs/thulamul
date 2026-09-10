@@ -1,5 +1,60 @@
 [
  {
+  "headline": "கிழக்கு சீனாவில் சரக்குக் கப்பலில் தீ விபத்து: 25 பேர் பலி",
+  "lines": [
+   "கிழக்கு சீனாவில் ஒரு சரக்குக் கப்பலில் திடீரென தீ பரவியதில் 25 பேர் உயிரிழந்துள்ளனர்.",
+   "கப்பலில் மொத்தம் 42 பேர் பயணித்து வந்ததாகவும், அவர்களில் 17 பேர் பாதுகாப்பாக மீட்கப்பட்டதாகவும் தகவல் வெளியாகியுள்ளது.",
+   "சீன அரசு தொலைக்காட்சி நிறுவனமான சிசிடிவி இந்த தீ விபத்து குறித்த தகவலை வெளியிட்டுள்ளது.",
+   "தீ ஏற்பட்டதற்கான காரணம் குறித்து இதுவரை அதிகாரப்பூர்வமாக எதுவும் தெரிவிக்கப்படவில்லை.",
+   "இந்த சம்பவம் குறித்த கூடுதல் விவரங்களை சீன அதிகாரிகள் விரைவில் வெளியிடலாம் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்த தீ விபத்து குறித்த முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": "2026-09-11"
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "கிழக்கு சீனா",
+   "சரக்குக் கப்பல்",
+   "சிசிடிவி"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Fire on cargo ship in eastern China kills 25 people onboard",
+   "lines": [
+    "A fire broke out on a cargo ship in eastern China, killing 25 people onboard.",
+    "The ship was carrying a total of 42 people, of whom 17 were evacuated safely, reports said.",
+    "Chinese state broadcaster CCTV reported the details of the fire incident.",
+    "The cause of the fire has not yet been officially disclosed.",
+    "Further details about the incident are expected to be released by Chinese authorities soon."
+   ],
+   "closing": "Complete details about the cause and aftermath of the fire have not yet been officially released."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "61eae7e487a4",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-09-11T00:20+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cj4jyv7l92eo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": null,
+  "audio": "data/audio/61eae7e487a4.mp3",
+  "created_ts": 1789066236.3446217,
+  "status": "published"
+ },
+ {
   "headline": "சிரியாவின் சர்மடாவில் ஆயுதக் கிடங்கு வெடிப்பில் 14 பேர் பலி",
   "lines": [
    "வடமேற்கு சிரியாவில் உள்ள சர்மடா நகருக்கு அருகே ஒரு தற்காலிக ஆயுதக் கிடங்கில் பெரும் வெடிப்பு ஏற்பட்டது.",
@@ -1845,87 +1900,6 @@
   "image": null,
   "audio": "data/audio/971db20893eb.mp3",
   "created_ts": 1788723753.849763,
-  "status": "published"
- },
- {
-  "headline": "எகிப்தில் போதைப்பொருள் வழக்கில் தொலைக்காட்சி தொகுப்பாளர் உள்பட 11 பேருக்கு மரண தண்டனை",
-  "lines": [
-   "எகிப்தில் நடந்த போதைப்பொருள் கடத்தல் தொடர்பான வழக்கில் நீதிமன்றம் 11 பேருக்கு மரண தண்டனை விதித்துள்ளது.",
-   "தண்டனை பெற்றவர்களில் அறியப்பட்ட தொலைக்காட்சி தொகுப்பாளர் சாரா காலிஃபாவும் ஒருவராவார்.",
-   "சாரா காலிஃபா குற்றச் செயல்களை மையமாகக் கொண்ட மிஷன் இம்பாசிபிள் என்ற நிகழ்ச்சி மூலம் பரவலாக அறியப்பட்டவர்.",
-   "வழக்கின் விரிவான பின்னணி, குற்றச்சாட்டுகளின் தன்மை குறித்த முழு விவரங்கள் இதுவரை வெளியிடப்படவில்லை.",
-   "இந்தத் தண்டனைக்கு எதிராக மேல்முறையீடு செய்யப்படுமா என்பது குறித்து இன்னும் அறிவிக்கப்படவில்லை."
-  ],
-  "closing": "இந்த வழக்கில் தண்டனை பெற்றவர்கள் மேல்முறையீடு செய்வார்களா என்பது இன்னும் தெரியவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "எகிப்து",
-   "சாரா காலிஃபா",
-   "மிஷன் இம்பாசிபிள்"
-  ],
-  "confidence": 0.35,
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "d31b4f8c9165",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-09-06T13:13+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": null,
-  "audio": "data/audio/d31b4f8c9165.mp3",
-  "created_ts": 1788680604.9148421,
-  "status": "published"
- },
- {
-  "headline": "நேபாள வெள்ளம் இந்தியாவுக்கு எச்சரிக்கை என நிபுணர்கள் கருத்து",
-  "lines": [
-   "நேபாளத்தில் சமீபத்தில் ஏற்பட்ட வெள்ளப்பெருக்கு குறித்து நிபுணர்கள் விளக்கம் அளித்துள்ளனர்.",
-   "இந்தியாவும் நேபாளமும் இமயமலையில் தோன்றும் பொதுவான ஆறுகளைப் பகிர்ந்து கொள்கின்றன என்பது முக்கிய அம்சம்.",
-   "நேபாள வெள்ளத்திற்கும் இந்தியாவில் ஏற்படும் பேரிடர்களுக்கும் நேரடித் தொடர்பு உள்ளதாக நிபுணர்கள் கூறுகின்றனர்.",
-   "இந்தத் தொடர்பு வெறும் நீரின் ஓட்டத்தை மட்டும் அடிப்படையாகக் கொண்டது அல்ல என விளக்கப்படுகிறது.",
-   "இந்த நிலை இந்தியாவுக்கு ஒரு எச்சரிக்கையாகக் கருதப்பட வேண்டும் என ஆய்வாளர்கள் சுட்டிக்காட்டுகின்றனர்."
-  ],
-  "closing": "இமயமலை ஆறுகளின் பகிர்வு காரணமாக நேபாளத்தில் ஏற்படும் இயற்கை மாற்றங்கள் இந்தியாவையும் எவ்வளவு தூரம் பாதிக்கும் என்பது இன்னும் முழுமையாக விளக்கப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC Tamil",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "நேபாளம்",
-   "இந்தியா",
-   "இமயமலை",
-   "வெள்ளம்"
-  ],
-  "confidence": 0.35,
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "9fd6258efdca",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-09-06T12:44+05:30",
-  "links": [
-   "https://www.bbc.com/tamil/articles/cwyz7xvxve2o?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": null,
-  "audio": "data/audio/9fd6258efdca.mp3",
-  "created_ts": 1788678894.7295277,
   "status": "published"
  }
 ]

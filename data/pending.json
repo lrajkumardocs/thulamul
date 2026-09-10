@@ -1,1 +1,64 @@
-[]
+[
+ {
+  "headline": "காங்கோவில் பள்ளித் தீ விபத்தில் 20க்கும் மேற்பட்ட மாணவர்கள் பலி",
+  "lines": [
+   "கிழக்கு காங்கோ நாட்டில் கலகக்காரர் கட்டுப்பாட்டில் உள்ள புகாவு நகரில் இரு பள்ளிகளில் பெரும் தீ விபத்து ஏற்பட்டது.",
+   "அல் ஜசீரா தகவலின்படி குறைந்தது 14 மாணவர்கள் உயிரிழந்ததாகவும், பிபிசி தகவலின்படி 20 க்கும் மேற்பட்டோர் உயிரிழந்திருக்கலாம் எனவும் தெரிவிக்கப்படுகிறது.",
+   "தீயிலிருந்து தப்பிக்கும் முயற்சியில் மாணவர்கள் நெரிசலில் சிக்கியதாக அதிகாரிகள் தெரிவித்தனர்.",
+   "புகாவு நகரம் தற்போது கலகக்காரர் படைகளின் கட்டுப்பாட்டில் இருப்பதாக செய்தி நிறுவனங்கள் குறிப்பிட்டுள்ளன.",
+   "விபத்துக்கான காரணம் மற்றும் உண்மையான உயிரிழப்பு எண்ணிக்கை குறித்து அதிகாரிகள் விசாரணை நடத்தி வருகின்றனர்."
+  ],
+  "closing": "இரு செய்தி நிறுவனங்களும் உயிரிழப்பு எண்ணிக்கை குறித்து வெவ்வேறு தகவல்களை தெரிவித்துள்ளன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": "2026-09-11"
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": "2026-09-11"
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "காங்கோ நாடு",
+   "புகாவு நகரம்",
+   "பள்ளிகள்",
+   "கலகக்காரர்கள்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Over 20 children feared dead in DR Congo school fire",
+   "lines": [
+    "A major fire broke out at two schools in the rebel-held eastern DR Congo city of Bukavu.",
+    "Al Jazeera reports at least 14 children were killed, while BBC reports more than 20 may have died.",
+    "Officials said a stampede occurred as children tried to flee the fire.",
+    "Bukavu city is currently under the control of rebel forces, news agencies reported.",
+    "Authorities are investigating the cause of the fire and the exact death toll."
+   ],
+   "closing": "The two news agencies have reported differing death toll figures."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "numbers_conflict"
+  ],
+  "id": "0d5e1b404fd1",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-09-11T00:15+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cgjq15j7318o?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/video/newsfeed/2026/9/10/more-than-a-dozen-children-killed-in-fire-in-eastern-dr-congo-schools?traffic_source=rss"
+  ],
+  "image": null,
+  "audio": "data/audio/0d5e1b404fd1.mp3",
+  "created_ts": 1789065934.7080576,
+  "status": "pending"
+ }
+]
