@@ -810,7 +810,7 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if (malar.get("v") != 7 or malar.get("week") != week) and (now.weekday() == 6 or not malar or malar.get("v") != 7) and not api_dead:
+        if (malar.get("v") != 8 or malar.get("week") != week) and (now.weekday() == 6 or not malar or malar.get("v") != 8) and not api_dead:
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
             mal = importlib.import_module("malar")

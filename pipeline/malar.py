@@ -47,31 +47,37 @@ def _wrap(d, text, font, max_w):
 
 
 # ---------------------------------------------------------------- Gemini ஓவியம்
-STYLE = ("Editorial ink-line illustration, black brush pen on warm off-white paper, "
+STYLE_INK = ("Editorial ink-line illustration, black brush pen on warm off-white paper, "
          "cross-hatching for shade, single restrained brass-gold accent on one key object, "
          "clean composition, no colour wash, no photorealism. "
          "ABSOLUTELY NO TEXT: no words, letters, numbers, signage text or speech bubbles anywhere — "
          "every board, paper, screen and wall must be completely blank.")
 
+STYLE_COLOUR = ("Rich colour editorial illustration, gouache and watercolour on textured paper, "
+                "warm earthy palette with indigo, ochre, terracotta and deep green, soft light, "
+                "visible brush texture, painterly — clearly a painting, never photorealistic. "
+                "ABSOLUTELY NO TEXT: no words, letters, numbers, signage or speech bubbles anywhere — "
+                "every board, paper, screen and wall must be completely blank.")
 
-def gemini_image(scene_en, tag="", tries=2):
+
+def gemini_image(scene_en, tag="", tries=2, style=None):
     key = os.environ.get("GEMINI_API_KEY")
     if not key or not scene_en:
         return None
     for _n in range(tries):
-        b = _gem_once(key, scene_en, tag)
+        b = _gem_once(key, scene_en, tag, style or STYLE_COLOUR)
         if b:
             return b
         time.sleep(3)
     return None
 
 
-def _gem_once(key, scene_en, tag):
+def _gem_once(key, scene_en, tag, style):
     try:
         r = requests.post(
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent",
             headers={"x-goog-api-key": key, "Content-Type": "application/json"},
-            json={"contents": [{"parts": [{"text": STYLE + "\n\nSCENE: " + scene_en}]}],
+            json={"contents": [{"parts": [{"text": style + "\n\nSCENE: " + scene_en}]}],
                   "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}},
             timeout=120)
         for p in r.json()["candidates"][0]["content"]["parts"]:
@@ -231,7 +237,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
             time.sleep(2)
     if not m:
         raise RuntimeError("எந்தப் பகுதியும் வரவில்லை")
-    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 7
+    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 8
 
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -249,12 +255,43 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
 
     # நையாண்டி — 5 கேலிச்சித்திரம்
     for i, s in enumerate(m.get("satire", [])[:5], 1):
-        b = gemini_image(s.get("scene_en", ""), f"s{i}")
+        b = gemini_image(s.get("scene_en", ""), f"s{i}", style=STYLE_INK)
         if b:
             fp = OUT / f"{today}_satire{i}.png"
-            caption_image(b, s.get("line", ""), f"சாட்சி · {i}", fp)
+            cap = (s.get("line") or "").strip()
+            if not cap:
+                cap = f"— {s.get('a','')}\n— {s.get('b','')}"
+            caption_image(b, cap.replace("\n", "  "), f"நையாண்டி · {i}", fp)
             s["image"] = f"data/malar/{fp.name}"
         time.sleep(1)
+
+    # கட்டுரை · ஜென் கதை — வண்ண ஓவியம்
+    for key_, tag in (("essay", "essay"), ("zen", "zen")):
+        blk = m.get(key_) or {}
+        sc = blk.get("scene_en")
+        if sc:
+            b = gemini_image(sc, tag)
+            if b:
+                fp = OUT / f"{today}_{tag}.png"
+                Path(fp).parent.mkdir(parents=True, exist_ok=True)
+                im = Image.open(io.BytesIO(b)).convert("RGB")
+                im = im.resize((W, int(im.height * W / im.width)), Image.LANCZOS)
+                im.save(fp, "PNG", optimize=True)
+                blk["image"] = f"data/malar/{fp.name}"
+            time.sleep(1)
+
+    # பாட்டி — ஒரு முறை உருவாக்கி, எல்லா வாரமும் அதே
+    gp = OUT / "granny.png"
+    if not gp.exists():
+        b = gemini_image("A kind smiling Tamil grandmother in a simple cotton saree, silver hair in a bun, "
+                         "sitting beside a brass vessel and herbs, warm friendly expression, waist-up portrait",
+                         "granny", style=STYLE_INK)
+        if b:
+            im = Image.open(io.BytesIO(b)).convert("RGB")
+            im.thumbnail((600, 600), Image.LANCZOS)
+            im.save(gp, "PNG", optimize=True)
+    if gp.exists() and m.get("remedy"):
+        m["remedy"]["image"] = "data/malar/granny.png"
 
     # மண்ணின் மைந்தர்கள் — உருவப்படம்
     hero = m.get("hero") or {}
