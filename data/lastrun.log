@@ -3,13 +3,13 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 19 புதியவை
+[fetch] The Hindu TN: பிழை HTTPSConnectionPool(host='www.thehindu.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 24 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 30 புதியவை
-[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Sport: பிழை HTTPSConnectionPool(host='www.thehindu.com', port=443): Read timed out. (read timeout=20)
 [fetch] The Hindu Cinema: 27 புதியவை
 [fetch] Cinema Express: 27 புதியவை
 [fetch] The Hindu Tech: 18 புதியவை
@@ -52,19 +52,16 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: பிழை HTTPSConnectionPool(host='sportstar.thehindu.com', port=443): Read timed out. (read timeout=20)
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Tamil Nadu: 0 புதியவை
-[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7efd83e92d10>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7f4262c60bd0>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] PIB Rural: 0 புதியவை
 [fetch] PIB Education: 0 புதியவை
 [fetch] PIB Social Justice: 0 புதியவை
 [fetch] MyGov India: 0 புதியவை
-[run] புதியவை 595 → நிகழ்வுகள் 535
-[triage] 535 → 34 முக்கியமானவை
-[tts-edge] brief_2026-09-10: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[brief] காலை brief தயார்
+[run] புதியவை 518 → நிகழ்வுகள் 461
+[triage] 461 → 17 முக்கியமானவை
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 0 · எழுதியவை 0
