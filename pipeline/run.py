@@ -778,6 +778,8 @@ def main():
             if short <= 0:
                 continue
             extra = [x for x in scored if x[2]["topic_hint"] == t and id(x[2]) not in kept_ids]
+            if not extra and t == "govt":      # அரசு feed காலி — பொது feed-லிருந்து எடு
+                extra = [x for x in scored if x[2]["topic_hint"] in ("tn", "india") and id(x[2]) not in kept_ids]
             extra.sort(key=lambda x: -x[0])
             for x in extra[:short]:
                 keep.append(x); kept_ids.add(id(x[2]))
