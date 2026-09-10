@@ -1,6 +1,4 @@
 # துலாமுள் — மூலங்கள். grade: official (ஒரு மூலம் போதும்) / media (2 மூலம் ஒத்தால் மட்டும் வெளியீடு)
-- {name: PIB Tamil, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=4&Regid=3", topic: india, grade: official}
-- {name: PIB English, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", topic: india, grade: official}
 - {name: RBI, url: "https://www.rbi.org.in/pressreleases_rss.xml", topic: economy, grade: official}
 - {name: ET Markets, url: "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms", topic: economy, grade: media}
 - {name: MoneyControl, url: "https://www.moneycontrol.com/rss/marketreports.xml", topic: economy, grade: media}
@@ -18,9 +16,7 @@
 - {name: Employment News, url: "https://www.employmentnews.gov.in/rss.xml", topic: jobs, grade: official}
 - {name: The Hindu Faith, url: "https://www.thehindu.com/society/faith/feeder/default.rss", topic: govt, grade: media}
 - {name: The Hindu Health, url: "https://www.thehindu.com/sci-tech/health/feeder/default.rss", topic: health, grade: media}
-- {name: PIB Health, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&MinistryId=31", topic: health, grade: official}
 - {name: The Hindu Agriculture, url: "https://www.thehindu.com/sci-tech/agriculture/feeder/default.rss", topic: govt, grade: media}
-- {name: PIB Agriculture, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&MinistryId=2", topic: govt, grade: official}
 - {name: FreeJobAlert, url: "https://www.freejobalert.com/feed/", topic: jobs, grade: media}
 - {name: Sarkari Result, url: "https://www.sarkariresult.com/feed", topic: jobs, grade: media}
 - {name: The Hindu Jobs, url: "https://www.thehindu.com/education/careers/feeder/default.rss", topic: jobs, grade: media}
@@ -46,7 +42,6 @@
 - {name: India Today, url: "https://www.indiatoday.in/rss/1206578", topic: india, grade: media}
 - {name: Indian Express India, url: "https://indianexpress.com/section/india/feed/", topic: india, grade: media}
 - {name: Business Standard India, url: "https://www.business-standard.com/rss/india-news-215.rss", topic: india, grade: media}
-- {name: PIB Cabinet, url: "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", topic: india, grade: official}
 - {name: Dinamani India, url: "https://www.dinamani.com/api/v1/collections/india.rss", topic: india, grade: media}
 - {name: Hindu Tamil India, url: "https://www.hindutamil.in/rss/india.xml", topic: india, grade: media}
 - {name: Behindwoods, url: "https://www.behindwoods.com/rss/tamil-cinema-news.xml", topic: cinema, grade: media}
@@ -56,10 +51,16 @@
 - {name: Sportstar, url: "https://sportstar.thehindu.com/feeder/default.rss", topic: sports, grade: media}
 - {name: Olympics India, url: "https://olympics.com/en/news/rss", topic: sports, grade: media}
 - {name: Hindu Tamil TN, url: "https://www.hindutamil.in/rss/tamilnadu.xml", topic: tn, grade: media}
-- {name: PIB Tamil Nadu, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=13", topic: govt, grade: official}
-- {name: TN Govt DIPR, url: "https://www.tn.gov.in/rss.xml", topic: govt, grade: official}
-- {name: PIB Rural, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&MinistryId=27", topic: govt, grade: official}
-- {name: PIB Education, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&MinistryId=17", topic: govt, grade: official}
-- {name: PIB Social Justice, url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&MinistryId=32", topic: govt, grade: official}
-- {name: MyGov India, url: "https://www.mygov.in/rss/", topic: govt, grade: official}
+- {name: PIB Releases, url: "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", topic: govt, grade: official}
+- {name: PIB All India, url: "https://pib.gov.in/PressReleseRss.aspx?Reg=3&Lang=1", topic: govt, grade: official}
+- {name: PIB Tamil Releases, url: "https://pib.gov.in/PressReleseRss.aspx?Reg=13&Lang=4", topic: govt, grade: official}
+- {name: PIB Chennai, url: "https://pib.gov.in/PressReleseRss.aspx?Reg=13&Lang=1", topic: govt, grade: official}
+- {name: Press Information Bureau, url: "https://www.pib.gov.in/RssMain.aspx?ModId=8&Lang=1&Regid=3", topic: govt, grade: official}
+- {name: India Gov Announcements, url: "https://www.india.gov.in/rss.xml", topic: govt, grade: official}
+- {name: TN Gov Orders, url: "https://cms.tn.gov.in/rss.xml", topic: govt, grade: official}
+- {name: The Hindu Govt Policy, url: "https://www.thehindu.com/news/national/feeder/default.rss", topic: govt, grade: media}
+- {name: Dinamani Govt, url: "https://www.dinamani.com/api/v1/collections/tamilnadu.rss", topic: govt, grade: media}
+- {name: Times Govt Schemes, url: "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms", topic: govt, grade: media}
+- {name: TNPSC Notifications, url: "https://www.freejobalert.com/tamil-nadu-govt-jobs/feed/", topic: govt, grade: media}
+- {name: Sarkari Yojana, url: "https://www.mygov.in/rss/all/", topic: govt, grade: official}
 # RSS முகவரிகள் மாறலாம் — முதல் ஓட்டத்தின் log பார்த்து சரிசெய்வோம். மூலம் சேர்ப்பது = ஒரு வரி.
