@@ -2,21 +2,21 @@
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 22 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 16 புதியவை
+[fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 21 புதியவை
-[fetch] ESPNcricinfo: 4 புதியவை
-[fetch] The Hindu Sport: 6 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] ESPNcricinfo: 1 புதியவை
+[fetch] The Hindu Sport: 7 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 2 புதியவை
-[fetch] Wired: 27 புதியவை
+[fetch] The Hindu Tech: 0 புதியவை
+[fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 20 புதியவை
+[fetch] The Hindu Health: 18 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 11 புதியவை
+[fetch] FreeJobAlert: 9 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 22 புதியவை
+[fetch] The Hindu Legal: 20 புதியவை
 [fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 22 புதியவை
+[fetch] The Hindu National: 20 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,35 +56,33 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fbf7264d110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 23 புதியவை
-[fetch] Dinamani Govt: 22 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f994b8b8210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 20 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 527 → நிகழ்வுகள் 496
-[triage] 496 → 63 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இது ஒரு பாட்காஸ்ட் விவாத அறிவிப்பு மட்டும், உண்மையான செய்தி 
-[skip] தமிழ் சினிமாவுடன் தொடர்பற்ற வெளிநாட்டு இசையமைப்பாளরின் பொதுவ
-[skip] England county cricket — தமிழ்நாட்டு வாசகரைப் பாதிக்காது. இந
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை - எந்த ஊர்
-[skip] இது ஹைதராபாத்தில் உள்ளூர் விநாயகர் சதுர்த்தி ஏற்பாடுகள் தொடர
-[skip] Hyderabad (Telangana) உள்நாட்டுச் செய்தி — தமிழ்நாடு வாசகருக
-[tts-edge] 8ba51c1f475f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] 1,071 경찰서가 CCTV பதிவு 18 மாதம் வைக்க தயாரானது
-[tts-edge] a537bb4de4be: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] விநாயக சதுர்த்தி பண்டிகை செப்டம்பர் 14 இல் தொடங்கும்.
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் செய்தி; தமிழ்நாட்டுக்குப் பொரு
-[skip] கালிகட் பல்கலைக்கலையின் பরীட்ச முடிவு அறிவிப்பு கேரள மாநிலத்
-[skip] அகில இந்திய அளவிலான வேலைவாய்ப்பு அறிவிப்பு; தமிழ்நாட்டு குறி
-[skip] வெளிநாட்டு தொழில்நுட்ப பொருட்டு அறிவிப்பு — தமிழ்நாடு/இந்திய
-[skip] வெளிநாட்டு பொருட்களின் விமர்சனம். தமிழ்நாடு/இந்தியக் வாசகர்க
-[skip] বাংলাদেশের রাজনৈতিক ব্যক্তিত்ব সম্পর্কিত আন্তর্জাতিক সংস্থার
-[skip] உணர்வுபூர்வ/ஆत்ம்நிந்தனா தகவல் — தமிழ்நாட்டு வாசகர்களுக்கான 
-[skip] வெளிநாட்டு சினிமா நிகழ்வு — தமிழ்நாட்டு/இந்திய வாசகருக்குப் 
-[skip] வெளிநாட்டுத் திரைப்படம் — ஆங்கிலேய மொழிப் படம், தமிழ்நாட்டுட
-[skip] இங்கிலாந்து county cricket — உள்ளூர்ச் செய்தி, தமிழ்நாடு/இந்
-[skip] வெளிநாட்டு ক্রীড়া সাক্ষাৎকার — இந்தியத் தলைমverbiggest খেলো
+[run] புதியவை 510 → நிகழ்வுகள் 482
+[triage] 482 → 57 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு தொழில்நுட்ப ম্যাগাজিনின் கொத்தவলைப்பு செய்திகள் —
+[skip] இந்தி/ஆங்கிலப் படம்; தமிழ்நாட்டுக்கு உரிய தொடர்பு இல்லை. நெট
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — இங்கிலாந்து county cricket. த
+[tts-edge] aa00f914b259: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மருமகன் ஆகாஷ் ஆனந்தை பிஎஸ்பியில் இருந்து விடுவித்த மாயாவதி
+[tts-edge] d7e21cedfcdf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] SARFAESI வழக்குகளில் வழக்கறிஞர் கமிஷனர் கட்டணம் வேலைக்கேற்ப இருக்க வேண்டும்: சென்னை உயர் நீதிமன்றம்
+[skip] கட்சிச் செய்திக்குள் பட்டது — அரசுத் தகவல் அல்ல. பொதுமக்கள் 
+[publish] SARFAESI வழக்குகளில் வழக்கறிஞர் ஆணையாளர் கட்டணம் வேலைக்கு ஏற்ப இருக்க வேண்டும் என மதராஸ் உயர் நீதிமன்றம் தீர்ப்பளித்தது.
+[skip] NEHU (North-Eastern Hill University) is located in Meghalaya
+[skip] ராஜஸ்தான் RPSC தேர்வு — தமிழ்நாட்டு வாசகருக்குப் பொருந்தாத வ
+[skip] தமிழ்நாட்டு/இந்திய வாசகரின் உடனடிப் செயலுக்குப் பொருந்தாது. 
+[skip] வெளிநாட்டு அரசியல்வாদி / பிரபலத்தின் ব্যক்তিগত சঘটনை; தமிழ்ந
+[skip] மூல உரை முழுமையாக வழங்கப்படவில்லை. இந்தியாவின் சர்க்கரை சிக்
+[skip] தமிழ்நாட்டுக்குப் பொருத்தமான구체적 செய்திக் குறிப்பு இல்லை — பொ
+[skip] தমிழ்நாட்டு வாசகரைப் பாதிக்கும் செய்தி அல்ல. கொங்கணா சென் சர
+[skip] வெளிநாட்டு ওটிটি தொடரின் பிரযোजনா விவரம்; தமிழ்நாட்டு வாசகரு
+[skip] இந்திய ক்रिकेट தளத்தின் ஆதায়ক நபர் மாற்றம் — தமிழ்நாட்டு வா
+[publish] சாஃபலி வழிநடத்தி இந்தியா பெண்கள் ஆசியக் கோப்பை இறுதிக்கு
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 2
+[done] feed 300 · pending 2 · எழுதியவை 4
