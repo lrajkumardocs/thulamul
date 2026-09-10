@@ -6,11 +6,11 @@
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 21 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 15 புதியவை
+[fetch] ESPNcricinfo: 14 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
 [fetch] The Hindu Cinema: 19 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 9 புதியவை
+[fetch] The Hindu Tech: 8 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 24 புதியவை
-[fetch] The Hindu Legal: 13 புதியவை
+[fetch] The Hindu Legal: 11 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 13 புதியவை
+[fetch] The Hindu National: 11 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,17 +56,17 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f37c55ca790>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ffa95783b90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 11 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 623 → நிகழ்வுகள் 583
-[triage] 583 → 48 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இது அகில இந்திய உணவு பாதுகாப்புச் சட்டத்தின் பொதுவான правні 
-[skip] தெலங்கானா அரசின் உள்நாட்டுச் செய்தி. தமிழ்நாட்டு வாசகருக்குப
-[skip] ஆஸ்திரேலிய அரசின் உள்நாட்டுச் செய்தி; தமிழ்நாடு/இந்திய வாசகர
-[skip] இங்கிலாந்து county cricket — தமிழ்நாடு/இந்திய வாசகரின் முன்ன
+[run] புதியவை 615 → நிகழ்வுகள் 579
+[triage] 579 → 40 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] மேற்கு வங்கத்தின் உள்ளூர் அரசியலமைப்பு சட்ட மசோதா — தமிழ்நாட
+[skip] இது அரசு அறிவிப்பு அல்ல; கட்சி নেতரின் அரசியல் விமர்சனம். 'g
+[skip] வெளிநாட்டு நிয়ந்திரண நிறுவனத்தின் இரலாந்து உள்நாட்டுச் சோதன
+[skip] ஆங்கிலேய county cricket — தமிழ்நாடு/இந்திய வாசகருக்குப் பொரு
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 1 · எழுதியவை 0
