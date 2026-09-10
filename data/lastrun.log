@@ -6,7 +6,7 @@
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 21 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 7 புதியவை
+[fetch] ESPNcricinfo: 6 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 19 புதியவை
 [fetch] Cinema Express: 30 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 30 புதியவை
+[fetch] Bar and Bench: 24 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,14 +56,14 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fab828162d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f41fac40310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 673 → நிகழ்வுகள் 620
-[triage] 620 → 40 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இங்கிலாந்து county cricket — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[run] புதியவை 666 → நிகழ்வுகள் 613
+[triage] 613 → 21 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டுத் துவக்க அঞ்சல் — தமிழ்நாட்டு/இந்திய வீரர் அல்லது
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 1 · எழுதியவை 0
