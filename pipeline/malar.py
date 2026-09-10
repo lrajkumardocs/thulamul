@@ -322,3 +322,103 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
         except Exception:
             pass
     return m
+
+
+def topup(client, model, m, today, week_heads="", telegram=None):
+    """இருக்கும் இதழை மாற்றாமல் — விடுபட்ட படங்களை மட்டும் சேர். நையாண்டி உரை இல்லையெனில் ஒரு முறை மட்டும்.
+    செலவு: படங்கள் மட்டும்; உரை மீண்டும் எழுதப்படாது."""
+    OUT.mkdir(parents=True, exist_ok=True)
+    changed = False
+
+    # 1) பகுதிப் படங்கள் — இல்லாதவை மட்டும்
+    for key_, tag in (("essay", "essay"), ("zen", "zen"), ("agri", "agri"),
+                      ("spirit", "spirit"), ("food", "food")):
+        blk = m.get(key_) or {}
+        if not blk or blk.get("image"):
+            continue
+        sc = blk.get("scene_en") or _fallback_scene(key_, blk)
+        b = gemini_image(sc, tag)
+        if b:
+            fp = OUT / f"{today}_{tag}.png"
+            im = Image.open(io.BytesIO(b)).convert("RGB")
+            im = im.resize((W, int(im.height * W / im.width)), Image.LANCZOS)
+            im.save(fp, "PNG", optimize=True)
+            blk["image"] = f"data/malar/{fp.name}"; m[key_] = blk; changed = True
+        time.sleep(1)
+
+    # 2) பாட்டி — ஒரு முறை
+    gp = OUT / "granny.png"
+    if not gp.exists():
+        b = gemini_image("A kind smiling elderly Tamil grandmother in a simple cotton saree with silver hair in a bun, "
+                         "seated on the floor pounding herbs with a stone pestle in a heavy stone mortar, "
+                         "dried herbs, brass vessel and clay pot beside her, warm kitchen light, waist-up", "granny")
+        if b:
+            im = Image.open(io.BytesIO(b)).convert("RGB"); im.thumbnail((700, 700), Image.LANCZOS)
+            im.save(gp, "PNG", optimize=True); changed = True
+    if gp.exists() and m.get("remedy") and not m["remedy"].get("image"):
+        m["remedy"]["image"] = "data/malar/granny.png"; changed = True
+
+    # 3) மண்ணின் மைந்தர் — படம் இல்லையெனில்
+    hero = m.get("hero") or {}
+    if hero and not (hero.get("photo") or hero.get("image")):
+        wi = wiki_photo(hero.get("name", ""))
+        if wi:
+            hero["photo"] = wi; changed = True
+        else:
+            b = gemini_image(hero.get("scene_en") or f"Portrait of an 18th century Tamil freedom fighter {hero.get('name','')}, dignified, historical setting", "hero")
+            if b:
+                fp = OUT / f"{today}_hero.png"
+                caption_image(b, hero.get("line", ""), hero.get("name", ""), fp)
+                hero["image"] = f"data/malar/{fp.name}"; changed = True
+        m["hero"] = hero
+
+    # 4) நையாண்டி — உரை இல்லையெனில் ஒரு முறை மட்டும் எழுது (அரசியல்/நடப்புத் தொனி)
+    sat = m.get("satire") or []
+    if not sat or not sat[0].get("a"):
+        try:
+            sysmsg = (open(PIPE / "prompts" / "malar.md", encoding="utf-8").read())
+            mm = client.messages.create(model=model, max_tokens=4000, timeout=600.0, system=sysmsg,
+                messages=[{"role": "user", "content":
+                    "நையாண்டி (satire) பகுதியை மட்டும் JSON-ஆகத் தா: {\"satire\": [...5...]}. "
+                    "இந்த வாரத்தின் நடப்புகளை அடிப்படையாகக் கொள்: \n" + (week_heads or "(பொதுவானவை)") +
+                    "\nதேர்தல், சட்டமன்றம், பட்ஜெட், அரசுத் திட்டம், தேர்வு, விலைவாசி — இவற்றில் நடப்பில் உள்ளதைப் பயன்படுத்து. "
+                    "தனிநபர்/கட்சிப் பெயர் வேண்டாம்; ஆனால் கூர்மையாக இருக்கட்டும்."}])
+            raw = "".join(b.text for b in mm.content if getattr(b, "type", "") == "text")
+            raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
+            got = json.loads(raw[raw.find("{"):raw.rfind("}") + 1]).get("satire")
+            if got:
+                m["satire"] = got; sat = got; changed = True
+        except Exception as ex:
+            print("[malar:topup] நையாண்டி", str(ex)[:90])
+
+    # 5) நையாண்டிக் கேலிச்சித்திரம் — இல்லாதவை மட்டும்
+    for i, x in enumerate(sat[:5], 1):
+        if x.get("image"):
+            continue
+        b = gemini_image(x.get("scene_en") or "Two ordinary Indian people talking at a government office counter", f"s{i}", style=STYLE_INK)
+        if b:
+            fp = OUT / f"{today}_satire{i}.png"
+            cap = f"— {x.get('a','')}   — {x.get('b','')}" if x.get("a") else (x.get("line") or "")
+            caption_image(b, cap, f"நையாண்டி · {i}", fp)
+            x["image"] = f"data/malar/{fp.name}"; changed = True
+        time.sleep(1)
+
+    if changed:
+        m["v"] = 10
+        if telegram:
+            try:
+                telegram("📔 வாரமலர் — விடுபட்ட படங்கள் சேர்க்கப்பட்டன.")
+            except Exception:
+                pass
+    return m if changed else None
+
+
+def _fallback_scene(key_, blk):
+    t = (blk.get("title") or "")[:60]
+    return {
+        "agri": f"Tamil Nadu paddy field with a farmer at work, water channel, coconut palms — {t}",
+        "spirit": f"South Indian temple gopuram and oil lamps at dusk, devotees, serene — {t}",
+        "food": f"Traditional Tamil dish served on a banana leaf with brass and clay vessels, warm kitchen light — {t}",
+        "essay": f"Historical Tamil Nadu scene — {t}",
+        "zen": f"East Asian monastery courtyard, mountain and mist, calm — {t}",
+    }.get(key_, t)

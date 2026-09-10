@@ -810,7 +810,16 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if ((malar.get("week") != week and now.weekday() == 6) or malar.get("v") != 9) and not api_dead:   # ஞாயிறு; பதிப்பு மாறினால் ஒரு முறை
+        if malar.get("week") == week and malar.get("v", 0) < 10 and not api_dead:
+            # இருக்கும் இதழ் — உரையை மாற்றாமல் விடுபட்ட படங்களை மட்டும் சேர்
+            import importlib, sys
+            sys.path.insert(0, str(ROOT / "pipeline"))
+            mal = importlib.import_module("malar")
+            heads = "\n".join(x.get("headline", "") for x in feed[:25])
+            got = mal.topup(client, MODEL, malar, today, heads, telegram)
+            if got:
+                save_json(DATA / "malar.json", got); print("[malar] படங்கள் சேர்க்கப்பட்டன")
+        elif malar.get("week") != week and now.weekday() == 6 and not api_dead:   # ஞாயிறு மட்டும் — புதிய இதழ்
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
             mal = importlib.import_module("malar")
