@@ -439,3 +439,43 @@ def _fallback_scene(key_, blk):
         "essay": f"Historical Tamil Nadu scene — {t}",
         "zen": f"East Asian monastery courtyard, mountain and mist, calm — {t}",
     }.get(key_, t)
+
+
+# ---------------------------------------------------------------- காப்பகம் / மீட்பு
+EVERGREEN = ("zen", "poem", "hero", "essay", "agri", "spirit", "food", "word", "books", "remedy", "satire")
+TIMELY = ("roundup", "numbers", "history", "films")
+
+
+def archive(m, path):
+    """காலம் சாராத பகுதிகளைக் காப்பகத்தில் சேர் — launch நாளில் மீண்டும் பயன்படுத்த."""
+    try:
+        old = json.loads(Path(path).read_text(encoding="utf-8")) if Path(path).exists() else []
+    except Exception:
+        old = []
+    entry = {"week": m.get("week"), "saved": m.get("generated")}
+    for k in EVERGREEN:
+        if m.get(k):
+            entry[k] = m[k]
+    if len(entry) > 2:
+        old = [x for x in old if x.get("week") != entry["week"]]
+        old.append(entry)
+        Path(path).parent.mkdir(parents=True, exist_ok=True)
+        Path(path).write_text(json.dumps(old[-30:], ensure_ascii=False, indent=1), encoding="utf-8")
+    return len(old)
+
+
+def restore(m, path, used_weeks=()):
+    """காப்பகத்திலிருந்து காலம் சாராத பகுதிகளை எடு (பயன்படுத்தாத வாரத்திலிருந்து).
+    m-ல் ஏற்கனவே இருப்பதை மாற்றாது; இல்லாதவற்றை மட்டும் நிரப்பும்."""
+    try:
+        arc = json.loads(Path(path).read_text(encoding="utf-8"))
+    except Exception:
+        return m, None
+    pool = [x for x in arc if x.get("week") not in used_weeks]
+    if not pool:
+        return m, None
+    src = pool[0]                              # பழையது முதலில் — சோதனைக் காலத்தின் முதல் இதழ்
+    for k in EVERGREEN:
+        if src.get(k) and not m.get(k):
+            m[k] = src[k]
+    return m, src.get("week")

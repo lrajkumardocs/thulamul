@@ -934,13 +934,19 @@ def main():
             got = mal.topup(client, MODEL, malar, today, heads, telegram)
             if got:
                 save_json(DATA / "malar.json", got); print("[malar] படங்கள் சேர்க்கப்பட்டன")
+                try:
+                    n = mal.archive(got, DATA / "malar_archive.json"); print(f"[malar] காப்பகம் {n} வாரம்")
+                except Exception as ex:
+                    print("[malar] காப்பக பிழை", str(ex)[:80])
         elif malar.get("week") != week and now.weekday() == 6 and not api_dead:   # ஞாயிறு மட்டும் — புதிய இதழ்
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
             mal = importlib.import_module("malar")
             wk_start = now - timedelta(days=6)
             dates_ta = f"{wk_start.day} {TA_MONTHS[wk_start.month-1]} – {now.day} {TA_MONTHS[now.month-1]}"
-            issue = max(1, (now.date() - date(2026, 9, 6)).days // 7 + 1)
+            _ld = state.get("launch_date") or os.environ.get("LAUNCH_DATE") or "2026-09-06"
+            _ly, _lm, _ldd = (int(x) for x in _ld.split("-"))
+            issue = max(1, (now.date() - date(_ly, _lm, _ldd)).days // 7 + 1)
             done = [b.get("title_en", "") for old in [malar] for b in (old.get("books") or [])]
             done += load_json(DATA / "malar_books.json", [])
             done_heroes = load_json(DATA / "malar_heroes.json", [])
@@ -948,6 +954,18 @@ def main():
             if mm2:
                 save_json(DATA / "malar.json", mm2)
                 save_json(DATA / "malar_books.json", (done + [b.get("title_en", "") for b in mm2.get("books", [])])[-60:])
+                try:
+                    # LAUNCH_REUSE=1 என்றால், காலம் சாராத பகுதிகளைக் காப்பகத்திலிருந்து எடு
+                    if os.environ.get("LAUNCH_REUSE") == "1":
+                        mm2, src_wk = mal.restore(mm2, DATA / "malar_archive.json",
+                                                  load_json(DATA / "malar_reused.json", []))
+                        if src_wk:
+                            save_json(DATA / "malar_reused.json",
+                                      load_json(DATA / "malar_reused.json", []) + [src_wk])
+                            print(f"[malar] {src_wk} காப்பகப் பகுதிகள் மீண்டும்")
+                    n = mal.archive(mm2, DATA / "malar_archive.json"); print(f"[malar] காப்பகம் {n} வாரம்")
+                except Exception as ex:
+                    print("[malar] காப்பக பிழை", str(ex)[:80])
                 hn = (mm2.get("hero") or {}).get("name", "")
                 if hn:
                     save_json(DATA / "malar_heroes.json", (done_heroes + [hn])[-80:])
