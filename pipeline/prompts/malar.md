@@ -13,7 +13,7 @@ JSON-ஆக மட்டும் எழுது (code fence இல்லை). 
  "roundup": [ ×5 {
    "region": "தமிழ்நாடு | இந்தியா | உலகம்",
    "text": "1–2 வாக்கியம் — என்ன நடந்தது, ஏன் முக்கியம்.",
-   "scene_en": "Ink-line cartoon scene in English, 15–25 words. NO text/letters/numbers anywhere. Symbolic, not a photo-like depiction. Indian setting where relevant."
+   "scene_en": "Scene description in English, 18–30 words, for a COLOUR editorial illustration. Concrete and specific to the event. Indian setting where relevant. NO text/letters/numbers anywhere."
  } ]  — 2 தமிழ்நாடு, 2 இந்தியா, 1 உலகம். சென்ற வாரத்தின் மிக முக்கியமான நிகழ்வுகள்.
 
  "numbers": [ ×5 {
@@ -29,6 +29,7 @@ JSON-ஆக மட்டும் எழுது (code fence இல்லை). 
 
  "essay": {
    "title": "தலைப்பு",
+   "scene_en": "Scene for a COLOUR editorial illustration of this essay, 18–30 words English. Historical Tamil Nadu setting where relevant. NO text/letters anywhere.",
    "body": "5 பத்தி, 400–500 சொல். பொருள்: தமிழக வரலாறு, சோழர்/பாண்டியர், சங்க வாழ்வியல், சித்தர் மரபு, பாரம்பரிய அறிவு, தமிழ் இலக்கிய வரலாறு. வரலாற்று உண்மைகள் துல்லியமாக. பத்திகளைப் பிரிக்க backslash-n backslash-n."
  },
 
@@ -49,7 +50,8 @@ JSON-ஆக மட்டும் எழுது (code fence இல்லை). 
  "zen": {
    "title": "கதையின் பெயர்",
    "story": "10 வரிக்குள் — ஒவ்வொரு வரியும் backslash-n கொண்டு பிரிக்கப்பட வேண்டும். பாரம்பரிய ஜென்/தாவோ கதை (நூற்றாண்டு பழையது, பொதுச் சொத்து). உன் சொந்த தமிழில்; மொழிபெயர்ப்பு நகல் அல்ல. எளிமை, அமைதி, திடுக்கிடும் முடிவு.",
-   "insight": "ஒரு வரி சிந்தனை — விளக்கம் அல்ல, கேள்வி அல்லது கூர்மையான கூற்று."
+   "insight": "ஒரு வரி சிந்தனை — விளக்கம் அல்ல, கேள்வி அல்லது கூர்மையான கூற்று.",
+   "scene_en": "Scene for a COLOUR illustration of this Zen story, 15–25 words English. East-Asian monastery, mountain, river or garden. Calm, spacious. NO text/letters anywhere."
  },
 
  "poem": {
@@ -108,8 +110,9 @@ JSON-ஆக மட்டும் எழுது (code fence இல்லை). 
  },
 
  "satire": [ ×5 {
-   "line": "ஒரு வரி அரசியல்/அதிகார நையாண்டி. நபரைக் குறிக்காதே; கட்சி, தலைவர், சாதி, சமயம் — எதையும் குறிக்காதே. அதிகாரத்தின் இயல்பையே கிண்டல் செய்: வாக்குறுதி, கோப்பு, வரிசை, குழு அமைத்தல், திறப்பு விழா, ஆய்வுக் குழு, அறிக்கை, மாற்றுத் திட்டம். 50 ஆண்டு கழித்தும் பொருந்த வேண்டும்.",
-   "scene_en": "Ink-line cartoon scene, 15–25 words English. NO text/letters anywhere. Indian government-office or public setting. One ordinary citizen observing."
+   "a": "முதல் நபர் சொல்வது — ஒரு வாக்கியம், பேச்சுத் தமிழில்.",
+   "b": "இரண்டாம் நபரின் பதில் — ஒரு வாக்கியம். இதுவே நகைச்சுவையின் முடிவு; திடுக்கிடும் திருப்பம் இருக்க வேண்டும். ஆனந்த விகடன் ஜோக்குப் பாணி.",
+   "scene_en": "Two ordinary Indian people standing and talking, 15–25 words English describing the setting (government office, bus stop, ration shop, road works, tea stall). NO text/letters/speech bubbles anywhere."
  } ]
 }
 
