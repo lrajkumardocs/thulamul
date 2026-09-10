@@ -306,6 +306,11 @@
     .mh,.pad,.phead,.wx,.nav,.mh-top,.mh-issue,.mh-date{max-width:1320px}
     .stories{column-count:4}
   }
+  .grannyhead{display:flex;align-items:center;gap:14px;margin-top:14px}
+  .grannyhead img{width:76px;height:76px;object-fit:cover;border-radius:50%;background:var(--paper2);flex:none}
+  .dlg{margin-top:12px}
+  .dlg p{font-family:var(--serif);font-size:16.5px;line-height:1.6;margin-top:8px}
+  .dlg span{color:var(--brass);font-weight:500;margin-right:6px}
   .recipe{background:var(--paper2);border-radius:12px;padding:18px 20px;margin-top:16px}
   .recipe .rh{font-family:var(--serif);font-size:12px;color:var(--brass);letter-spacing:.1em;margin-bottom:8px}
   .recipe ul,.recipe ol{margin:0;padding-left:20px}
@@ -633,21 +638,23 @@ function malarHtml(){
       <div style="height:40px"></div></div>`;
   }
   const k=malarSel, sec=MAL_SECS.find(x=>x[0]===k);
-  let h=`<div class="pad"><div class="malback" data-mal="__home"><span>← வாரமலர்</span></div>
+  let h=`<div class="pad"><div class="malback" data-mal="__home"><span>← திரும்பு</span></div>
     <div class="mt">${esc(sec[1])}</div><div class="mtsub">${esc(sec[2])}</div>`;
   if(k==='week') h+=(m.roundup||[]).map(r=>`<div class="wcard">${r.image?`<img src="${BASE}${esc(r.image)}" alt="" onerror="this.remove()">`:`<div class="cap" style="padding:14px"><span class="tag">${esc(r.region||'')}</span>${esc(r.text)}</div>`}</div>`).join('')
     +`<div class="note">படங்கள் AI ஓவியங்கள் — புகைப்படங்கள் அல்ல.</div>`;
   else if(k==='num') h+=(m.numbers||[]).map((n,i)=>`<div class="nbox n${(i%5)+1}"><b>${esc(n.value)}</b><u>${esc(n.label)}</u><p>${esc(n.text)}</p></div>`).join('');
   else if(k==='hist') h+=(m.history||[]).map(x=>`<div class="hist"><b>${esc(x.date_ta)}</b>${esc(x.text)}</div>`).join('')
     +`<div class="note">இதே வாரத்தின் நாட்களில், வெவ்வேறு ஆண்டுகளில் நடந்தவை.</div>`;
-  else if(k==='essay') h+=`<h2 style="margin-top:12px">${esc(m.essay.title)}</h2>`+esc(m.essay.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');
+  else if(k==='essay') h+=(m.essay.image?`<div class="wcard"><img src="${BASE}${esc(m.essay.image)}" alt="" onerror="this.parentElement.remove()"></div>`:'')
+    +`<h2 style="margin-top:14px">${esc(m.essay.title)}</h2>`+esc(m.essay.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');
   else if(k==='word') h+=`<h2 style="margin-top:12px">${esc(m.word.word)}</h2>`+esc(m.word.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');
   else if(k==='hero'){const H=m.hero;h+=`${H.photo&&H.photo.url?`<figure class="fig"><img src="${esc(H.photo.url)}" alt=""><figcaption>படம்: ${esc(H.photo.credit||'')}</figcaption></figure>`:(H.image?`<div class="wcard"><img src="${BASE}${esc(H.image)}" alt=""></div>`:'')}
     <h2 style="margin-top:12px">${esc(H.name)}</h2><div class="small muted" style="margin-top:4px">${esc(H.years||'')}${H.place?' · '+esc(H.place):''}</div>
     ${H.line?`<div class="song">${esc(H.line)}</div>`:''}`+esc(H.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
   else if(k==='agri'){h+=`<h2 style="margin-top:12px">${esc(m.agri.title)}</h2>`+esc(m.agri.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
   else if(k==='spirit'){h+=`<h2 style="margin-top:12px">${esc(m.spirit.title)}</h2>`+esc(m.spirit.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
-  else if(k==='zen'){const Z=m.zen;h+=`<h2 style="margin-top:12px">${esc(Z.title)}</h2>
+  else if(k==='zen'){const Z=m.zen;h+=(Z.image?`<div class="wcard"><img src="${BASE}${esc(Z.image)}" alt="" onerror="this.parentElement.remove()"></div>`:'')
+    +`<h2 style="margin-top:14px">${esc(Z.title)}</h2>
     <div class="zenbox">${esc(Z.story).split(/\n+/).map(x=>`<p>${x}</p>`).join('')}</div>
     <div class="zenline">${esc(Z.insight||'')}</div>`;}
   else if(k==='poem'){const P=m.poem;h+=`<div class="small muted" style="margin-top:10px">${esc(P.poet)}${P.origin?' · '+esc(P.origin):''}</div>
@@ -671,9 +678,11 @@ function malarHtml(){
       <div style="margin-top:8px"><span class="rating">${esc(String(f.rating||''))}</span> <span class="small muted">/ 5 · ${esc(f.verdict||'')}</span></div></div></div>
       <p class="mp">${esc(f.review)}</p>`).join('')
     +`<div class="note">போஸ்டர்கள் விமர்சன நோக்கத்திற்காக; உரிமை தயாரிப்பு நிறுவனங்களுக்கே. விமர்சனங்கள் பல ஊடகக் கருத்துகளின் AI தொகுப்பு.</div>`;
-  else if(k==='remedy'){const R=m.remedy;h+=`<h2 style="margin-top:12px">${esc(R.title)}</h2><div class="small muted" style="margin-top:4px">${esc(R.sub||'')}</div>`
+  else if(k==='remedy'){const R=m.remedy;h+=`<div class="grannyhead">${R.image?`<img src="${BASE}${esc(R.image)}" alt="" onerror="this.remove()">`:''}<div><h2 style="font-size:19px">${esc(R.title)}</h2><div class="small muted" style="margin-top:3px">${esc(R.sub||'')}</div></div></div>`
     +esc(R.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')+`<div class="note">${esc(R.warn||'மருத்துவரை அணுகுவது அவசியம்.')}</div>`;}
-  else if(k==='satire') h+=(m.satire||[]).map((x,i)=>`<div class="joke">${x.image?`<div class="jim"><img src="${BASE}${esc(x.image)}" alt="" onerror="this.parentElement.remove()"></div>`:''}<div class="jc">${esc(x.line)}</div><div class="jn">சாட்சி · ${i+1}</div></div>`).join('')
+  else if(k==='satire') h+=(m.satire||[]).map((x,i)=>`<div class="joke">${x.image?`<div class="jim"><img src="${BASE}${esc(x.image)}" alt="" onerror="this.parentElement.remove()"></div>`:''}
+    ${x.a||x.b?`<div class="dlg"><p><span>அவர்:</span> ${esc(x.a||'')}</p><p><span>இவர்:</span> ${esc(x.b||'')}</p></div>`:`<div class="jc">${esc(x.line||'')}</div>`}
+    <div class="jn">நையாண்டி · ${i+1}</div></div>`).join('')
     +`<div class="note">இவை நபர்களைக் குறிக்கவில்லை; அதிகாரத்தின் இயல்பைப் பற்றியவை.</div>`;
   return h+'<div style="height:40px"></div></div>';
 }
