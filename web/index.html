@@ -97,14 +97,14 @@
   .paper::-webkit-scrollbar{display:none}
   .page{flex:0 0 100%;width:100%;scroll-snap-align:start;overflow-y:auto;overflow-x:hidden;scrollbar-width:none;background:var(--paper)}
   .page::-webkit-scrollbar{display:none}
-  .phead{padding:calc(10px + env(safe-area-inset-top)) 20px 10px;border-bottom:1px solid var(--rule);background:var(--paper);position:sticky;top:0;z-index:2}
+  .phead{padding:calc(10px + env(safe-area-inset-top)) 20px 10px;border-bottom:1px solid var(--rule);background:var(--paper);position:relative}
   .phead .pn{font-size:11px;color:var(--brass);letter-spacing:.04em}
   .phead .pt{font-family:var(--serif);font-size:21px;font-weight:500;display:flex;align-items:center;gap:8px;margin-top:2px}
   .phead .pt svg{width:20px;height:20px}
   .phead .dots{display:flex;gap:4px;margin-top:8px;padding:6px 0;cursor:pointer}
   .phead .dots i{flex:1;height:2px;background:var(--rule);border-radius:1px}
   .phead .dots i.on{background:var(--brass)}
-  .mh{padding:calc(8px + env(safe-area-inset-top)) 16px 6px;background:var(--paper);position:sticky;top:0;z-index:2;border-bottom:1px solid var(--rule)}
+  .mh{padding:calc(8px + env(safe-area-inset-top)) 16px 6px;background:var(--paper);position:relative;border-bottom:1px solid var(--rule)}
   .mh-top{text-align:center;font-size:10.5px;color:var(--brass);letter-spacing:.06em;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:4px 0}
 
   .emblem svg{width:38px;height:38px;display:block;margin:14px auto 4px}
@@ -325,9 +325,9 @@
     .pfoot{display:none}
     /* வரிசை அமைப்பைக் கைவிட்டு — ஒரு நேரத்தில் ஒரே பக்கம் */
     .paper{display:block;overflow:visible;height:auto;scroll-snap-type:none}
-    .page{display:none;width:100%;height:auto;overflow:visible;scroll-snap-align:none}
-    .page.cur{display:block}
-    .mh{position:static}
+    .page{display:block;width:100%;height:auto;overflow:visible;scroll-snap-align:none}
+    body.wideon .page{display:none}
+    body.wideon .page.cur{display:block}
     #s-home{height:auto;overflow:visible}
     body{overflow:auto}
   }
@@ -797,7 +797,7 @@ function renderHome(){
   paper.querySelectorAll('[data-id]').forEach(x=>x.addEventListener('click',()=>{
     const pg=x.closest('.page'); if(pg&&pg.dataset.k) backTo='#page/'+pg.dataset.k;
     go('#story/'+x.dataset.id);}));
-  if(isWide()){const pg=$('#paper').querySelector('.page[data-k="'+curPage+'"]')||$('#paper').querySelector('.page');if(pg)pg.classList.add('cur');}
+  if(isWide()){document.body.classList.add('wideon');const pg=$('#paper').querySelector('.page[data-k="'+curPage+'"]')||$('#paper').querySelector('.page');if(pg)pg.classList.add('cur');}
   const a=$('#baudio'),p=$('#bplay');if(a&&p){p.addEventListener('click',()=>{if(a.paused){a.play();p.innerHTML=PAUSE;}else{a.pause();p.innerHTML=PLAY;}});a.addEventListener('ended',()=>p.innerHTML=PLAY);}
 }
 let scrollT=null,curPage='front';
@@ -925,6 +925,7 @@ function isWide(){return window.matchMedia('(min-width:900px)').matches;}
 function gotoPage(k,smooth){
   const paper=$('#paper');const i=Math.max(0,PAGES.indexOf(k));
   if(isWide()){
+    document.body.classList.add('wideon');
     paper.querySelectorAll('.page').forEach(p=>p.classList.toggle('cur',p.dataset.k===PAGES[i]));
     window.scrollTo({top:0,behavior:smooth?'smooth':'auto'});
     curPage=PAGES[i];
@@ -932,7 +933,7 @@ function gotoPage(k,smooth){
     paper.scrollTo({left:i*paper.clientWidth,behavior:smooth?'smooth':'auto'});
   }
 }
-window.addEventListener('resize',()=>{ if(isWide()) gotoPage(curPage,false); });
+window.addEventListener('resize',()=>{ if(isWide()){gotoPage(curPage,false);} else {document.body.classList.remove('wideon');document.querySelectorAll('.page').forEach(p=>p.classList.remove('cur'));} });
 function renderTopics(){
   const c={};pub().forEach(s=>c[s.topic]=(c[s.topic]||0)+1);
   $('#topics-list').innerHTML=PAGES.map((k,i)=>`<a class="prow" href="#page/${k}"><span><span class="num">${tnum(i+1)}</span>${k==='front'?'முதல் பக்கம்':T[k]}</span><span class="small ${k==='rasi'?'brass':'muted'}">${k==='front'?pub().length:k==='edit'?((aied&&!aied.hidden?1:0)+eds.length):k==='comic'?'தினசரி':k==='rasi'?'12':k==='ads'?'':k==='malar'?'ஞாயிறு':(c[k]||0)}</span></a>`).join('');
