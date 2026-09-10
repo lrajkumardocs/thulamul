@@ -286,7 +286,8 @@
     body{max-width:none;background:var(--paper)}
     .screen{max-width:none}
     .nav{max-width:1180px}
-    #s-detail{max-width:900px;padding-left:24px;padding-right:24px}
+    #s-detail{position:static;max-width:900px;margin:0 auto;padding:0 24px 60px;min-height:100vh}
+    #s-detail.on{display:block}
     .mh{position:static}                              /* தலைப்பு ஒட்டிக்கொள்ளாது */
     .mh,.phead{max-width:1180px;margin-left:auto;margin-right:auto}
     .mh-top,.mh-issue,.mh-date{max-width:1180px;margin-left:auto;margin-right:auto}
@@ -322,7 +323,13 @@
     .pagearrows a{font-family:var(--serif);font-size:15px;color:var(--brass);text-decoration:none}
     .pagearrows a.dim{color:var(--ink3);pointer-events:none}
     .pfoot{display:none}
-    .paper{scroll-snap-type:none}
+    /* வரிசை அமைப்பைக் கைவிட்டு — ஒரு நேரத்தில் ஒரே பக்கம் */
+    .paper{display:block;overflow:visible;height:auto;scroll-snap-type:none}
+    .page{display:none;width:100%;height:auto;overflow:visible;scroll-snap-align:none}
+    .page.cur{display:block}
+    .mh{position:static}
+    #s-home{height:auto;overflow:visible}
+    body{overflow:auto}
   }
   @media (min-width:1400px){
     .mh,.phead,.wx,.nav,.pad,.stories,.mh-top,.mh-issue,.mh-date{max-width:1320px}
@@ -431,7 +438,8 @@ const LOGO=`<svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width
 const T={ads:'விளம்பரம்',comic:'காமிக்ஸ்',malar:'வாரமலர்',all:'முதல் பக்கம்',tn:'தமிழ்நாடு',india:'இந்தியா',world:'உலகம்',edit:'தலையங்கம்',economy:'பொருளாதாரம்',sports:'விளையாட்டு',cinema:'சினிமா',tech:'தொழில்நுட்பம்',rasi:'ராசிபலன்',court:'நீதிமன்றம்',govt:'அரசு அறிவிப்புகள்',jobs:'வேலைவாய்ப்பு',health:'சுகாதாரம்',assembly:'சட்டமன்றம்'};
 const MAIN=['all','tn','india','world','edit','economy','sports','cinema','tech','rasi'], MORE=['court','jobs','health','agri','spirit','assembly'];
 const TA=['1','2','3','4','5'];
-let LANG=localStorage.getItem('lang')||'ta';let comicIdx=null;
+let LANG=localStorage.getItem('lang')||'ta';
+let comicIdx=null;
 fetch(BASE+'data/state.json'+q).then(r=>r.json()).then(d=>{if(d&&d.launch_date){window.__launch=d.launch_date;renderHome();}}).catch(()=>{});
 let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,aied=null,rasiSel=parseInt(localStorage.getItem('rasi')||'0');
 const $=s=>document.querySelector(s);
@@ -789,6 +797,7 @@ function renderHome(){
   paper.querySelectorAll('[data-id]').forEach(x=>x.addEventListener('click',()=>{
     const pg=x.closest('.page'); if(pg&&pg.dataset.k) backTo='#page/'+pg.dataset.k;
     go('#story/'+x.dataset.id);}));
+  if(isWide()){const pg=$('#paper').querySelector('.page[data-k="'+curPage+'"]')||$('#paper').querySelector('.page');if(pg)pg.classList.add('cur');}
   const a=$('#baudio'),p=$('#bplay');if(a&&p){p.addEventListener('click',()=>{if(a.paused){a.play();p.innerHTML=PAUSE;}else{a.pause();p.innerHTML=PLAY;}});a.addEventListener('ended',()=>p.innerHTML=PLAY);}
 }
 let scrollT=null,curPage='front';
@@ -912,7 +921,18 @@ function playOne(id){
 function stopOne(){ONE.pause();if(oneId)document.querySelectorAll(`[data-play="${oneId}"]`).forEach(b=>b.innerHTML=PLAY);oneId=null;}
 ONE.addEventListener('ended',stopOne);
 document.addEventListener('click',e=>{const b=e.target.closest('[data-play]');if(b){e.stopPropagation();e.preventDefault();playOne(b.dataset.play);}},true);
-function gotoPage(k,smooth){const paper=$('#paper');const i=Math.max(0,PAGES.indexOf(k));paper.scrollTo({left:i*paper.clientWidth,behavior:smooth?'smooth':'auto'});}
+function isWide(){return window.matchMedia('(min-width:900px)').matches;}
+function gotoPage(k,smooth){
+  const paper=$('#paper');const i=Math.max(0,PAGES.indexOf(k));
+  if(isWide()){
+    paper.querySelectorAll('.page').forEach(p=>p.classList.toggle('cur',p.dataset.k===PAGES[i]));
+    window.scrollTo({top:0,behavior:smooth?'smooth':'auto'});
+    curPage=PAGES[i];
+  }else{
+    paper.scrollTo({left:i*paper.clientWidth,behavior:smooth?'smooth':'auto'});
+  }
+}
+window.addEventListener('resize',()=>{ if(isWide()) gotoPage(curPage,false); });
 function renderTopics(){
   const c={};pub().forEach(s=>c[s.topic]=(c[s.topic]||0)+1);
   $('#topics-list').innerHTML=PAGES.map((k,i)=>`<a class="prow" href="#page/${k}"><span><span class="num">${tnum(i+1)}</span>${k==='front'?'முதல் பக்கம்':T[k]}</span><span class="small ${k==='rasi'?'brass':'muted'}">${k==='front'?pub().length:k==='edit'?((aied&&!aied.hidden?1:0)+eds.length):k==='comic'?'தினசரி':k==='rasi'?'12':k==='ads'?'':k==='malar'?'ஞாயிறு':(c[k]||0)}</span></a>`).join('');
