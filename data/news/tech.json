@@ -1,5 +1,67 @@
 [
  {
+  "headline": "Meta, Muse AI பயன்பாட்டை அறிமுகம் செய்தது.",
+  "lines": [
+   "Meta நிறுவனம் Muse என்ற AI உதவியாளரை அமெரிக்காவில் வெளியிட்டுள்ளது.",
+   "இந்த AI மின்னஞ்சல் அனுப்ப, பணம் செலுத்த, நாள்வாசகம் நிர்வகிக்க மற்றும் வீட்டு அமைப்பை கட்டுப்படுத்த முடியும்.",
+   "Muse ஐ நேரடி பயன்பாட்டின் மூலமாகவோ அல்லது WhatsApp மூலமாகவோ பயன்படுத்தலாம்.",
+   "நிறுவனத்தின் உள்ளக சோதனை கூட்டங்களில் இந்த பணிமுறை சிலசமயம் தடைபட்டிருந்தது என Reuters அறிவித்துள்ளது.",
+   "Meta வரும் நாள்களில் இந்த AI உதவியாளரின் பயன்பாட்டை விரிவுபடுத்த திட்டமிட்டுள்ளது."
+  ],
+  "closing": "செயல்பாட்டின் போது தெளிவான செயல்பாடு மற்றும் பாதுகாப்புக்கான Meta உடனிய கவனம் தேவைப்படுகிறது.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "The Hindu Tech",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tech",
+  "entities": [
+   "Meta",
+   "Muse",
+   "அமெரிக்கா",
+   "WhatsApp",
+   "Reuters"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Meta launches Muse, an AI agent for emails and payments.",
+   "lines": [
+    "Meta has launched Muse, an artificial intelligence assistant, in the United States.",
+    "The AI can send emails, make payments, manage calendars, and control smart home devices.",
+    "Users can access Muse through a dedicated app or via WhatsApp.",
+    "Internal testing by the company showed occasional performance failures, according to Reuters.",
+    "Meta plans to expand Muse's availability in the coming days."
+   ],
+   "closing": "Meta needs immediate attention to ensure stable performance and security during operation."
+  },
+  "front_cat": "routine",
+  "image_query": "Meta Muse AI assistant",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "d6ed284e7a4e",
+  "topic_ta": "தொழில்நுட்பம்",
+  "published_at": "2026-09-10T18:15+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/technology/meta-launches-muse-ai-agent-that-can-access-other-apps-to-send-emails-make-payments/article71444514.ece"
+  ],
+  "image": {
+   "url": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+   "credit": "Matheus Bertelli · Pexels",
+   "license": "Pexels — இலவசம்",
+   "symbolic": true
+  },
+  "audio": "data/audio/d6ed284e7a4e.mp3",
+  "created_ts": 1789044347.764408,
+  "status": "published"
+ },
+ {
   "skip": false,
   "headline": "ஆப்பிள் iPhone 18 Pro சீரிஸை வெளியிட்டது A20 சிப் உடன்",
   "lines": [
