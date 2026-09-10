@@ -25,8 +25,8 @@ TA_MONTHS = ["ஜனவரி", "பிப்ரவரி", "மார்ச்"
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
 MODEL_FAST = os.environ.get("CLAUDE_MODEL_FAST", "claude-haiku-4-5-20251001")
 BIG_TOPICS = {"tn", "india", "assembly", "court", "economy"}
-MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "8"))    # ஒரு ஓட்டத்தில் அதிகபட்சம்
-MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "53"))
+MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "12"))    # ஒரு ஓட்டத்தில் அதிகபட்சம்
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "60"))
 MIN_SCORE = int(os.environ.get("MIN_SCORE", "6"))               # இதற்குக் குறைவானவை எழுதப்படாது
 TTS_VOICE = os.environ.get("TTS_VOICE", "ta-IN-PallaviNeural")   # Microsoft Edge இலவச தமிழ் குரல் (ஆண்: ta-IN-ValluvarNeural)
 AUTO_PUBLISH_MIN_CONFIDENCE = 0.3
@@ -671,10 +671,29 @@ def main():
     api_dead = False
     scores = triage(client, clusters) if clusters else {}
     if scores:
-        keep = [(scores.get(n, 5), n, c) for n, c in enumerate(clusters)]
-        keep = [x for x in keep if x[0] >= MIN_SCORE]
+        scored = [(scores.get(n, 5), n, c) for n, c in enumerate(clusters)]
+        keep = [x for x in scored if x[0] >= MIN_SCORE]
+        # ஒவ்வொரு பக்கத்திற்கும் குறைந்தபட்ச இடம் — பக்கம் காலியாகக் கூடாது
+        PAGE_MIN = {"tn": 6, "india": 4, "world": 3, "economy": 3, "court": 3, "govt": 4,
+                    "jobs": 3, "tech": 3, "health": 3, "cinema": 3, "sports": 3, "assembly": 2}
+        have = {}
+        for sc, n, c in keep:
+            t = c["topic_hint"]; have[t] = have.get(t, 0) + 1
+        todays = {}
+        for x in feed:
+            if str(x.get("published_at", ""))[:10] == today and x.get("status") == "published":
+                todays[x.get("topic")] = todays.get(x.get("topic"), 0) + 1
+        kept_ids = {id(c) for _, _, c in keep}
+        for t, need in PAGE_MIN.items():
+            short = need - have.get(t, 0) - todays.get(t, 0)
+            if short <= 0:
+                continue
+            extra = [x for x in scored if x[2]["topic_hint"] == t and id(x[2]) not in kept_ids]
+            extra.sort(key=lambda x: -x[0])
+            for x in extra[:short]:
+                keep.append(x); kept_ids.add(id(x[2]))
         keep.sort(key=lambda x: -x[0])
-        print(f"[triage] {len(clusters)} → {len(keep)} முக்கியமானவை")
+        print(f"[triage] {len(clusters)} → {len(keep)} (முக்கியம் + பக்க ஒதுக்கீடு)")
         for sc, _, c in keep:
             c["score"] = sc
         clusters = [c for _, _, c in keep]
@@ -810,7 +829,7 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if malar.get("week") == week and malar.get("v", 0) < 10 and not api_dead:
+        if malar.get("week") == week and malar.get("v", 0) < 11 and not api_dead:
             # இருக்கும் இதழ் — உரையை மாற்றாமல் விடுபட்ட படங்களை மட்டும் சேர்
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))

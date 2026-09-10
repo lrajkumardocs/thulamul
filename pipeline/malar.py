@@ -53,6 +53,10 @@ STYLE_INK = ("Editorial ink-line illustration, black brush pen on warm off-white
          "ABSOLUTELY NO TEXT: no words, letters, numbers, signage text or speech bubbles anywhere — "
          "every board, paper, screen and wall must be completely blank.")
 
+STYLE_PHOTO = ("Photographic editorial image, natural colour, realistic lighting, shallow depth of field, "
+               "documentary news photography look, Indian context where relevant, no people's faces recognisable as real individuals. "
+               "ABSOLUTELY NO TEXT: no words, letters, numbers, signage or watermarks anywhere.")
+
 STYLE_COLOUR = ("Rich colour editorial illustration, gouache and watercolour on textured paper, "
                 "warm earthy palette with indigo, ochre, terracotta and deep green, soft light, "
                 "visible brush texture, painterly — clearly a painting, never photorealistic. "
@@ -65,7 +69,7 @@ def gemini_image(scene_en, tag="", tries=2, style=None):
     if not key or not scene_en:
         return None
     for _n in range(tries):
-        b = _gem_once(key, scene_en, tag, style or STYLE_COLOUR)
+        b = _gem_once(key, scene_en, tag, style or STYLE_PHOTO)
         if b:
             return b
         time.sleep(3)
@@ -237,7 +241,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
             time.sleep(2)
     if not m:
         raise RuntimeError("எந்தப் பகுதியும் வரவில்லை")
-    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 9
+    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 11
 
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -270,7 +274,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
         blk = m.get(key_) or {}
         sc = blk.get("scene_en")
         if sc:
-            b = gemini_image(sc, tag)
+            b = gemini_image(sc, tag, style=(STYLE_COLOUR if tag in ("essay", "zen") else STYLE_PHOTO))
             if b:
                 fp = OUT / f"{today}_{tag}.png"
                 Path(fp).parent.mkdir(parents=True, exist_ok=True)
@@ -337,7 +341,7 @@ def topup(client, model, m, today, week_heads="", telegram=None):
         if not blk or blk.get("image"):
             continue
         sc = blk.get("scene_en") or _fallback_scene(key_, blk)
-        b = gemini_image(sc, tag)
+        b = gemini_image(sc, tag, style=(STYLE_COLOUR if tag in ("essay", "zen") else STYLE_PHOTO))
         if b:
             fp = OUT / f"{today}_{tag}.png"
             im = Image.open(io.BytesIO(b)).convert("RGB")
@@ -345,6 +349,19 @@ def topup(client, model, m, today, week_heads="", telegram=None):
             im.save(fp, "PNG", optimize=True)
             blk["image"] = f"data/malar/{fp.name}"; m[key_] = blk; changed = True
         time.sleep(1)
+
+    # 1b) சென்ற வாரம் — புகைப்படப் பாணிக்கு ஒரு முறை மாற்று
+    if m.get("v", 0) < 11:
+        for i, r in enumerate(m.get("roundup", [])[:5], 1):
+            sc = r.get("scene_en")
+            if not sc:
+                continue
+            b = gemini_image(sc, f"w{i}", style=STYLE_PHOTO)
+            if b:
+                fp = OUT / f"{today}_week{i}.png"
+                caption_image(b, r.get("text", ""), r.get("region", ""), fp)
+                r["image"] = f"data/malar/{fp.name}"; changed = True
+            time.sleep(1)
 
     # 2) பாட்டி — ஒரு முறை
     gp = OUT / "granny.png"
@@ -404,7 +421,7 @@ def topup(client, model, m, today, week_heads="", telegram=None):
         time.sleep(1)
 
     if changed:
-        m["v"] = 10
+        m["v"] = 11
         if telegram:
             try:
                 telegram("📔 வாரமலர் — விடுபட்ட படங்கள் சேர்க்கப்பட்டன.")
