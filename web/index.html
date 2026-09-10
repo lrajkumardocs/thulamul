@@ -651,8 +651,10 @@ function malarHtml(){
   else if(k==='hero'){const H=m.hero;h+=`${H.photo&&H.photo.url?`<figure class="fig"><img src="${esc(H.photo.url)}" alt=""><figcaption>படம்: ${esc(H.photo.credit||'')}</figcaption></figure>`:(H.image?`<div class="wcard"><img src="${BASE}${esc(H.image)}" alt=""></div>`:'')}
     <h2 style="margin-top:12px">${esc(H.name)}</h2><div class="small muted" style="margin-top:4px">${esc(H.years||'')}${H.place?' · '+esc(H.place):''}</div>
     ${H.line?`<div class="song">${esc(H.line)}</div>`:''}`+esc(H.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
-  else if(k==='agri'){h+=`<h2 style="margin-top:12px">${esc(m.agri.title)}</h2>`+esc(m.agri.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
-  else if(k==='spirit'){h+=`<h2 style="margin-top:12px">${esc(m.spirit.title)}</h2>`+esc(m.spirit.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
+  else if(k==='agri'){h+=(m.agri.image?`<div class="wcard"><img src="${BASE}${esc(m.agri.image)}" alt="" onerror="this.parentElement.remove()"></div>`:'')
+    +`<h2 style="margin-top:14px">${esc(m.agri.title)}</h2>`+esc(m.agri.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
+  else if(k==='spirit'){h+=(m.spirit.image?`<div class="wcard"><img src="${BASE}${esc(m.spirit.image)}" alt="" onerror="this.parentElement.remove()"></div>`:'')
+    +`<h2 style="margin-top:14px">${esc(m.spirit.title)}</h2>`+esc(m.spirit.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
   else if(k==='zen'){const Z=m.zen;h+=(Z.image?`<div class="wcard"><img src="${BASE}${esc(Z.image)}" alt="" onerror="this.parentElement.remove()"></div>`:'')
     +`<h2 style="margin-top:14px">${esc(Z.title)}</h2>
     <div class="zenbox">${esc(Z.story).split(/\n+/).map(x=>`<p>${x}</p>`).join('')}</div>
@@ -660,7 +662,8 @@ function malarHtml(){
   else if(k==='poem'){const P=m.poem;h+=`<div class="small muted" style="margin-top:10px">${esc(P.poet)}${P.origin?' · '+esc(P.origin):''}</div>
     <div class="song poemtext">${esc(P.text).split(/\n+/).join('<br>')}</div><p class="mp">${esc(P.note||'')}</p>
     <div class="note">பொதுச் சொத்துப் படைப்பு; தமிழாக்கம் துலாமுள்.</div>`;}
-  else if(k==='food'){const F=m.food;h+=`<h2 style="margin-top:12px">${esc(F.title)}</h2>`
+  else if(k==='food'){const F=m.food;h+=(F.image?`<div class="wcard"><img src="${BASE}${esc(F.image)}" alt="" onerror="this.parentElement.remove()"></div>`:'')
+    +`<h2 style="margin-top:14px">${esc(F.title)}</h2>`
     +esc(F.intro).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')
     +`<div class="recipe"><div class="rh">தேவையானவை</div><ul>${(F.items||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
       <div class="rh" style="margin-top:16px">செய்முறை</div><ol>${(F.steps||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>
