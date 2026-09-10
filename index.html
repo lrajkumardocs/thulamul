@@ -47,9 +47,12 @@ img{max-width:100%;display:block}
 .nav{background:var(--card);border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:30;box-shadow:0 1px 0 rgba(0,0,0,.03)}
 .nav .wrap{display:flex;align-items:center;gap:4px;flex-wrap:wrap;padding-top:9px;padding-bottom:9px}
 
-.nav a{font-family:var(--serif);font-size:15px;font-weight:500;padding:8px 13px;border-radius:8px;white-space:nowrap;color:var(--ink2)}
-.nav a:hover{background:var(--paper2);color:var(--ink)}
-.nav a.on{background:var(--ink);color:var(--paper)}
+.nav a{font-family:var(--serif);font-size:14.5px;font-weight:500;padding:7px 14px;border:1px solid var(--rule);border-radius:22px;white-space:nowrap;color:var(--ink2);background:var(--paper)}
+.nav a:hover{background:var(--paper2);color:var(--ink);border-color:var(--ink3)}
+.nav a.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.nav .gap{flex:1;min-width:8px}
+.nav a.cta{background:var(--brass);color:#fff;border-color:var(--brass);font-weight:600}
+.nav a.cta:hover{background:var(--ink);border-color:var(--ink);color:#fff}
 .nav .home{font-weight:600;color:var(--ink)}
 
 /* ---------- weather strip ---------- */
@@ -196,7 +199,9 @@ footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:34px}
 footer h5{font-family:var(--serif);color:#F1EFE9;font-size:15px;margin-bottom:10px}
 footer a{color:#C9C6BE}
 footer a:hover{color:#fff}
-footer .fine{border-top:1px solid #2C323C;margin-top:26px;padding-top:18px;font-size:12px;color:#8D9199}
+footer .autoline{margin-top:26px;padding:12px 0;border-top:1px solid #2C323C;text-align:center;
+   font-family:var(--serif);font-size:14px;color:var(--brass);letter-spacing:.05em}
+footer .fine{margin-top:0;padding-top:14px;font-size:12px;color:#8D9199}
 
 @media (max-width:900px){
  .lead{grid-template-columns:1fr;gap:18px}
@@ -228,7 +233,7 @@ footer .fine{border-top:1px solid #2C323C;margin-top:26px;padding-top:18px;font-
 </div></div>
 
 <header class="mast"><div class="wrap">
-  <div class="kicker">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ்</div>
+  <div class="kicker">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ் · 100% தானியங்கி</div>
   <div class="emblem"><svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 26v54"/><path d="M38 80h24"/><path d="M20 36h60"/>
     <path d="M50 13l-4.5 11h9z" fill="#A8862F" stroke="none"/><circle cx="50" cy="36" r="3.8" fill="#A8862F" stroke="none"/>
@@ -249,8 +254,14 @@ footer .fine{border-top:1px solid #2C323C;margin-top:26px;padding-top:18px;font-
     <div>
       <h5>துலாமுள்</h5>
       நடுநிலை செய்திகள். ஒவ்வொரு செய்தியும் ஐந்து வரி, மூலத்துடன்.<br>
-      முத்தமிழ் கலைக்கூடம் வெளியீடு · ஆசிரியர்: ல. ராஜ்குமார்<br>
-      <a href="mailto:info@thulamul.com">info@thulamul.com</a>
+      முத்தமிழ் கலைக்கூடம் வெளியீடு · <b>AI ஆசிரியர்</b><br><br>
+      <b style="color:#F1EFE9">தொடர்பு</b><br>
+      பொது: <a href="mailto:info@thulamul.com">info@thulamul.com</a><br>
+      செய்தித் தகவல்: <a href="mailto:news@thulamul.com">news@thulamul.com</a><br>
+      பத்திரிகை அறிக்கை: <a href="mailto:press@thulamul.com">press@thulamul.com</a><br>
+      விளம்பரம்: <a href="mailto:ads@thulamul.com">ads@thulamul.com</a><br>
+      திருத்தம்: <a href="mailto:corrections@thulamul.com">corrections@thulamul.com</a><br>
+      குறைதீர்: <a href="mailto:grievance@thulamul.com">grievance@thulamul.com</a>
     </div>
     <div>
       <h5>பக்கங்கள்</h5>
@@ -269,6 +280,7 @@ footer .fine{border-top:1px solid #2C323C;margin-top:26px;padding-top:18px;font-
       <a href="?p=legal&d=grievance">குறைதீர் அதிகாரி</a>
     </div>
   </div>
+  <div class="autoline">100% தானியங்கி · செய்தி முதல் ஓவியம் வரை AI</div>
   <div class="fine">
     செய்திகள் AI-ஆல் பொது மூலங்களிலிருந்து தமிழில் எழுதப்படுகின்றன; ஒவ்வொன்றுக்கும் மூலம் குறிக்கப்படுகிறது.
     ராசிபலன் பாரம்பரிய நம்பிக்கை அடிப்படையிலான பொதுப் பலன். மனு உதவி சட்ட ஆலோசனை அல்ல.<br>
@@ -356,7 +368,7 @@ function chrome(){
   $('#issueline').innerHTML=`<span>ஆண்டு ${yr}</span><span>இதழ் ${issue}</span><span>விலை: இலவசம்</span>`;
   const cur=pg();
   $('#nav').innerHTML=PAGES.map(k=>`<a href="?p=${k}" class="${k===cur?'on':''}${k==='front'?' home':''}">${T[k]}</a>`).join('')
-    +`<a href="?p=complaint" class="${cur==='complaint'?'on':''}">மனு உதவி</a>`;
+    +`<span class="gap"></span><a href="?p=complaint" class="cta ${cur==='complaint'?'on':''}">✍ மனு உதவி</a>`;
   if(wxData&&wxData.cities){
     const cs=Object.entries(wxData.cities).slice(0,5);
     $('#wx').innerHTML=cs.map(([c,v])=>`<div><span>${esc(c)}</span><b>${esc(v.now)}°</b><span>மழை ${esc(v.rain)}%</span></div>`).join('');
@@ -676,10 +688,10 @@ async function issuePage(d){
 
 /* ---------- legal ---------- */
 const LEGAL={
- privacy:['தனியுரிமைக் கொள்கை',`துலாமுள் உங்களைக் கண்காணிப்பதில்லை. படிப்பதற்குக் கணக்கு தேவையில்லை.\n\n**சேகரிக்கப்படுவது:** மனு உதவியைப் பயன்படுத்தினால் மட்டும் — மின்னஞ்சல் முகவரி, நீங்கள் எழுதும் மனு விவரம். இவை Firebase (Google) சேவையகத்தில் இந்தியாவில் சேமிக்கப்படுகின்றன.\n\n**வானிலை:** உங்கள் அனுமதியுடன் தோராயமான இடம்; சேமிக்கப்படுவதில்லை.\n\n**சேகரிக்கப்படாதவை:** பெயர், தொலைபேசி, தொடர்பு பட்டியல், படங்கள், இருப்பிடச் சரித்திரம். விளம்பரக் கண்காணிப்பு இல்லை; மூன்றாம் தரப்பு analytics இல்லை.\n\n**நீக்க:** info@thulamul.com — 30 நாளுக்குள் நீக்கப்படும்.`],
- terms:['பயன்பாட்டு விதிகள்',`துலாமுள் இலவசம். செய்திகளைப் படிக்க, பகிர, மேற்கோள் காட்ட முழு உரிமை (மூலம் குறிப்பிட்டால்).\n\nசெய்திகள் AI-ஆல் பொது மூலங்களிலிருந்து எழுதப்படுகின்றன. துல்லியத்திற்கு முயல்கிறோம்; பிழை கண்டால் திருத்துகிறோம். முக்கிய முடிவுகளுக்கு அதிகாரப்பூர்வ மூலத்தைச் சரிபார்க்கவும்.\n\nமனு உதவி சட்ட ஆலோசனை அல்ல. ராசிபலன் பாரம்பரிய நம்பிக்கை.`],
- editorial:['ஆசிரியக் கொள்கை',`**நடுநிலை.** துலாமுள் எந்தக் கட்சிக்கும், சமயத்திற்கும், சாதிக்கும் ஆதரவாகவோ எதிராகவோ இல்லை.\n\n**ஐந்து வரி.** ஒவ்வொரு செய்தியும்: என்ன நடந்தது · முக்கிய எண் · அதிகாரப்பூர்வ நிலைப்பாடு · பின்னணி · அடுத்து என்ன.\n\n**மூலம்.** அரசு/முகமை மூலம் ஒன்று போதும். ஊடக மூலம் என்றால் இரண்டு ஒத்தால் மட்டும் வெளியீடு.\n\n**கருத்து இல்லை.** தலையங்கத்தில்கூட இரு தரப்பும் சம எடையில்; முடிவு வாசகருடையது.\n\n**படம்.** காப்புரிமை பாதுகாப்பான மூலங்கள் மட்டும். பொருந்தாவிட்டால் படம் இல்லை.`],
- corrections:['திருத்தக் கொள்கை',`பிழை கண்டால் திருத்துகிறோம் — மறைக்கமாட்டோம்.\n\nஒரு செய்தியில் தவறு இருந்தால் info@thulamul.com-க்கு எழுதுங்கள். சரிபார்த்து, 24 மணி நேரத்திற்குள் திருத்துவோம்; திருத்தம் அந்தச் செய்தியிலேயே குறிக்கப்படும்.\n\nபெரிய பிழையானால் அன்றைய இதழில் தனியாக அறிவிக்கப்படும்.`],
+ privacy:['தனியுரிமைக் கொள்கை',`துலாமுள் உங்களைக் கண்காணிப்பதில்லை. படிப்பதற்குக் கணக்கு தேவையில்லை.\n\n**சேகரிக்கப்படுவது:** மனு உதவியைப் பயன்படுத்தினால் மட்டும் — மின்னஞ்சல் முகவரி, நீங்கள் எழுதும் மனு விவரம். இவை Firebase (Google) சேவையகத்தில் இந்தியாவில் சேமிக்கப்படுகின்றன.\n\n**வானிலை:** உங்கள் அனுமதியுடன் தோராயமான இடம்; சேமிக்கப்படுவதில்லை.\n\n**சேகரிக்கப்படாதவை:** பெயர், தொலைபேசி, தொடர்பு பட்டியல், படங்கள், இருப்பிடச் சரித்திரம். விளம்பரக் கண்காணிப்பு இல்லை; மூன்றாம் தரப்பு analytics இல்லை.\n\n**நீக்க:** info@thulamul.com — 30 நாளுக்குள் நீக்கப்படும். தொழில்நுட்பச் சிக்கல்: support@thulamul.com`],
+ terms:['பயன்பாட்டு விதிகள்',`துலாமுள் இலவசம். செய்திகளைப் படிக்க, பகிர, மேற்கோள் காட்ட முழு உரிமை (மூலம் குறிப்பிட்டால்).\n\nசெய்திகள் AI-ஆல் பொது மூலங்களிலிருந்து எழுதப்படுகின்றன. துல்லியத்திற்கு முயல்கிறோம்; பிழை கண்டால் திருத்துகிறோம். முக்கிய முடிவுகளுக்கு அதிகாரப்பூர்வ மூலத்தைச் சரிபார்க்கவும்.\n\nமனு உதவி சட்ட ஆலோசனை அல்ல. ராசிபலன் பாரம்பரிய நம்பிக்கை.\n\nசட்ட நோட்டீஸ், காப்புரிமைப் புகார்: legal@thulamul.com`],
+ editorial:['ஆசிரியக் கொள்கை',`**நடுநிலை.** துலாமுள் எந்தக் கட்சிக்கும், சமயத்திற்கும், சாதிக்கும் ஆதரவாகவோ எதிராகவோ இல்லை.\n\n**ஐந்து வரி.** ஒவ்வொரு செய்தியும்: என்ன நடந்தது · முக்கிய எண் · அதிகாரப்பூர்வ நிலைப்பாடு · பின்னணி · அடுத்து என்ன.\n\n**மூலம்.** அரசு/முகமை மூலம் ஒன்று போதும். ஊடக மூலம் என்றால் இரண்டு ஒத்தால் மட்டும் வெளியீடு.\n\n**கருத்து இல்லை.** தலையங்கத்தில்கூட இரு தரப்பும் சம எடையில்; முடிவு வாசகருடையது.\n\n**படம்.** காப்புரிமை பாதுகாப்பான மூலங்கள் மட்டும். பொருந்தாவிட்டால் படம் இல்லை.\n\nஆசிரியக் குழு: editor@thulamul.com · பிழைத் திருத்தம்: corrections@thulamul.com`],
+ corrections:['திருத்தக் கொள்கை',`பிழை கண்டால் திருத்துகிறோம் — மறைக்கமாட்டோம்.\n\nஒரு செய்தியில் தவறு இருந்தால் info@thulamul.com-க்கு எழுதுங்கள். சரிபார்த்து, 24 மணி நேரத்திற்குள் திருத்துவோம்; திருத்தம் அந்தச் செய்தியிலேயே குறிக்கப்படும்.\n\nபெரிய பிழையானால் அன்றைய இதழில் தனியாக அறிவிக்கப்படும்.\n\nதிருத்தம்: corrections@thulamul.com · ஆசிரியர்: editor@thulamul.com`],
  grievance:['குறைதீர் அதிகாரி',`IT Rules 2021-ன் படி:\n\n**குறைதீர் அதிகாரி:** ல. ராஜ்குமார்\n**மின்னஞ்சல்:** grievance@thulamul.com\n**முகவரி:** முத்தமிழ் கலைக்கூடம், சென்னை\n\nபுகார் பெற்ற 24 மணி நேரத்திற்குள் ஒப்புகை; 15 நாளுக்குள் தீர்வு.`],
 };
 function legalPage(k){
@@ -858,7 +870,7 @@ function appPage(){
     </div>
     <h3 style="font-family:var(--serif);font-size:20px;margin-top:28px">ஆப்பில் என்ன இருக்கும்</h3>
     <p class="mp">17 பக்க நாளிதழ் · ஒவ்வொரு செய்திக்கும் ஆடியோ · காலை 60 நொடி சுருக்கம் · தராசில் இன்று தலையங்கம் · Mr. X கேலிச்சித்திரம் · பொன்னியின் செல்வன் தினசரிக் காமிக்ஸ் · ராசிபலன் · வாரமலர் · மனு உதவி · பழைய இதழ்கள்.</p>
-    <div class="note">முழுவதும் இலவசம். சந்தா இல்லை; கட்டணச் சுவர் இல்லை; கண்காணிப்பு இல்லை.</div>
+    <div class="note">முழுவதும் இலவசம். சந்தா இல்லை; கட்டணச் சுவர் இல்லை; கண்காணிப்பு இல்லை.<br>ஆப் தொடர்பான சிக்கல்: <a href="mailto:support@thulamul.com" style="color:var(--indigo)">support@thulamul.com</a></div>
   </article>`;
 }
 
