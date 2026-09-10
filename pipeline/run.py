@@ -810,7 +810,7 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if malar.get("week") != week and now.weekday() == 6 and not api_dead:   # ஞாயிறு மட்டும்; இதழ் lock
+        if ((malar.get("week") != week and now.weekday() == 6) or malar.get("v") != 9) and not api_dead:   # ஞாயிறு; பதிப்பு மாறினால் ஒரு முறை
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
             mal = importlib.import_module("malar")
