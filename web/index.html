@@ -289,6 +289,7 @@
     .mh,.phead,.wx,.nav,.pad,.stories,.mh-top,.mh-issue,.mh-date{max-width:1320px}
     .stories{grid-template-columns:repeat(4,1fr)}
   }
+  .autoline{font-family:var(--serif);font-size:14px;color:var(--brass);text-align:center;letter-spacing:.04em;padding:12px 0;line-height:1.6}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -416,7 +417,7 @@ body{max-width:none;background:var(--paper)}
     <a class="prow" href="#legal/grievance"><span>குறைதீர் அதிகாரி</span><span class="brass">→</span></a>
     <a class="prow" href="#legal/disclaimer"><span>மறுப்பறிக்கை (ஜோதிடம் · மனு உதவி · விளம்பரம்)</span><span class="brass">→</span></a>
     <div class="prow"><span>பதிப்பு</span><span class="small muted">1.0</span></div>
-    <div class="rule"></div><div class="small muted">தொடர்பு</div>
+    <div class="rule"></div><div class="autoline">100% தானியங்கி · செய்தி முதல் ஓவியம் வரை AI</div><div class="rule"></div><div class="small muted">தொடர்பு</div>
     <a class="prow" href="mailto:info@thulamul.com"><span>பொதுத் தொடர்பு</span><span class="small muted">info@</span></a>
     <a class="prow" href="mailto:news@thulamul.com"><span>செய்தித் தகவல்</span><span class="small muted">news@</span></a>
     <a class="prow" href="mailto:corrections@thulamul.com"><span>பிழைத் திருத்தம்</span><span class="small muted">corrections@</span></a>
@@ -498,7 +499,7 @@ function masthead(i){
   const yr=Math.floor((Date.now()-launch)/(365.25*86400000))+1;
   const d=new Date();
   return `<div class="mh">
-    <div class="mh-top">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ்</div>
+    <div class="mh-top">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ் · 100% தானியங்கி</div>
     <div class="emblem"><svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M50 26v54"/><path d="M38 80h24"/><path d="M20 36h60"/><path d="M50 13l-4.5 11h9z" fill="#A8862F" stroke="none"/><circle cx="50" cy="36" r="3.8" fill="#A8862F" stroke="none"/><path d="M20 36l-8 20M20 36l8 20"/><path d="M80 36l-8 20M80 36l8 20"/><path d="M9 56c0 6 5 9 11 9s11-3 11-9z" fill="#F3F2EE"/><path d="M69 56c0 6 5 9 11 9s11-3 11-9z" fill="#F3F2EE"/></svg></div>
     <div class="mh-name">துலாமுள்</div>
     <div class="motto">நடுநிலை செய்திகள்</div>
@@ -598,7 +599,7 @@ function pageBody(k){
   if(k==='edit'){return editHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: பொருளாதாரம்</b></div>`;}
   if(k==='comic'){const i=PAGES.indexOf(k);return comicHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[i+1]]||''}</b></div>`;}
   if(k==='malar'){return malarHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: விளம்பரம்</b></div>`;}
-  if(k==='ads'){return adsHtml()+`<div class="pad"><div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X<br><a href="https://thulamul.com">www.thulamul.com</a><br>பொது: <a href="mailto:info@thulamul.com">info@thulamul.com</a> · ஆதரவு: <a href="mailto:support@thulamul.com">support@thulamul.com</a><br>குறைதீர்: <a href="mailto:grievance@thulamul.com">grievance@thulamul.com</a><br><span class="muted">© ${new Date().getFullYear()} முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. All rights reserved.</span></div><div style="height:70px"></div></div>`;}
+  if(k==='ads'){return adsHtml()+`<div class="pad"><div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X<br><b class="brass">100% தானியங்கி · செய்தி முதல் ஓவியம் வரை AI</b><br><a href="https://thulamul.com">www.thulamul.com</a><br>பொது: <a href="mailto:info@thulamul.com">info@thulamul.com</a> · ஆதரவு: <a href="mailto:support@thulamul.com">support@thulamul.com</a><br>குறைதீர்: <a href="mailto:grievance@thulamul.com">grievance@thulamul.com</a><br><span class="muted">© ${new Date().getFullYear()} முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. All rights reserved.</span></div><div style="height:70px"></div></div>`;}
   if(k==='rasi'){const i=PAGES.indexOf(k);return rasiHtml()+`<div class="pfoot"><b>அடுத்த பக்கம்: ${T[PAGES[i+1]]}</b></div>`;}
   const i=PAGES.indexOf(k);const nxt=PAGES[i+1];const front=frontIds();const items=pub().filter(s=>s.topic===k&&!front.has(s.id));
   return bellHtml(k)+storiesHtml(items,'இந்தப் பக்கத்தில் இன்று செய்தி இல்லை.',true)+`<div class="pfoot">${nxt?`<b>அடுத்த பக்கம்: ${T[nxt]||'முதல் பக்கம்'}</b><br>பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்`:'<b>கடைசிப் பக்கம்</b>'}</div>`;
