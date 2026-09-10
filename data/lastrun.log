@@ -16,7 +16,7 @@
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 20 புதியவை
+[fetch] The Hindu Health: 21 புதியவை
 [fetch] PIB Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] PIB Agriculture: 0 புதியவை
@@ -56,12 +56,15 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Tamil Nadu: 0 புதியவை
-[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7fda098aed10>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7fb091cfd010>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] PIB Rural: 0 புதியவை
 [fetch] PIB Education: 0 புதியவை
 [fetch] PIB Social Justice: 0 புதியவை
-[fetch] MyGov India: பிழை ('Connection broken: IncompleteRead(0 bytes read, 369 more expected)', IncompleteRead(0 bytes read, 369 more expected))
-[run] புதியவை 630 → நிகழ்வுகள் 568
-[triage] 568 → 35 முக்கியமானவை
+[fetch] MyGov India: 0 புதியவை
+[run] புதியவை 631 → நிகழ்வுகள் 568
+[triage] 568 → 25 முக்கியமானவை
+[malar] JSON மீள்முயற்சி
+[malar] JSON மீள்முயற்சி
+[malar] இதழ் 1 தயார்
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
