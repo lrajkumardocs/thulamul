@@ -243,7 +243,10 @@ def draw_panel(panel, n, prev_bytes=None, differ=False):
         parts.append({"text": "IMPORTANT: your previous attempt looked almost identical to the earlier panel. Change the shot completely — "
                               "if the last one was a wide view, make this a close-up; move the characters to the other side of the frame; "
                               "change the angle (low, high, over-the-shoulder) and show a different part of the scene."})
-    parts.append({"text": f"NOW DRAW PANEL {n}: {panel['scene_en']}\nREMINDER: absolutely no text, letters, numbers or speech bubbles in the image."})
+    parts.append({"text": f"NOW DRAW PANEL {n}: {panel['scene_en']}\n"
+                          "FRAMING: keep every character fully inside the frame — heads, faces and feet must not be cut off by the edges. "
+                          "Leave a comfortable margin around the subjects. "
+                          "REMINDER: absolutely no text, letters, numbers or speech bubbles in the image."})
     return _gemini(parts, f"panel{n}")
 
 # ---------------------------------------------------------------- 3. Pillow — பக்கம்
@@ -421,7 +424,7 @@ def build(client, model, today, telegram=None):
             if not b:
                 print(f"[comic] பலகை {n} தோல்வி — அடுத்த ஓட்டத்தில் தொடரும்"); return None
             dup = next(((k, sc) for k, old_b in enumerate(panels, 1) for ok, sc in [_too_similar(old_b, b)] if ok), None)
-            if not dup or tries >= 2:                       # அதிகபட்சம் 2 மறுமுயற்சி (செலவுக் கட்டுப்பாடு)
+            if not dup or tries >= 3:                       # அதிகபட்சம் 3 மறுமுயற்சி
                 if dup:
                     print(f"[comic] பலகை {n}: பலகை {dup[0]}-ஐ ஒத்திருக்கிறது ({dup[1]:.2f}) — அப்படியே வைக்கிறேன்")
                 break
