@@ -1,23 +1,22 @@
-[expire] 91370564a573
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 21 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 5 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 19 புதியவை
+[fetch] ESPNcricinfo: 1 புதியவை
+[fetch] The Hindu Sport: 1 புதியவை
+[fetch] The Hindu Cinema: 16 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 5 புதியவை
-[fetch] Wired: 29 புதியவை
+[fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 22 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 15 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -27,17 +26,17 @@
 [fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
-[fetch] Krishi Jagran: பிழை HTTPSConnectionPool(host='krishijagran.com', port=443): Read timed out. (read timeout=20)
+[fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 23 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 15 புதியவை
+[fetch] The Hindu Legal: 14 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 14 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -48,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 26 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -57,82 +56,13 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f829245c610>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f624f967490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 14 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 667 → நிகழ்வுகள் 610
-[skip] இவை தமிழ்நாட்டுடன் தொடர்பில்லாத சிறு அளவிலான (தலா 1 பணியிடம்
-[skip] இவை கேரள மாநிலத்திற்கான உள்ளூர் வேலைவாய்ப்பு அறிவிப்புகள் (S
-[skip] இது ஜம்மு காஷ்மீர் மற்றும் ஜார்க்கண்ட் உயர் நீதிமன்ற நீதிபதி
-[skip] இவை ராஜஸ்தான் மற்றும் மத்தியப் பிரதேச AIIMS-களில் ஒவ்வொரு பண
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இவை தயாரிப்பு தள்ளுபடி/விளம்பரக் குறியீடுகள் பற்றிய உள்ளடக்க
-[skip] இது தெலங்கானா மாநில அரசு (TSLPRB) வேலைவாய்ப்பு அறிவிப்பு - த
-[tts-edge] 7ec1195c5c2e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அசாமின் நல்பாரி மாவட்டத்தில் பெப்சிகோ புதிய உணவு உற்பத்தி ஆலை தொடங்கியது.
-[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் மின் நுகர்வு சாதனை பற்றிய 
-[tts-edge] 6363a24b9870: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாடு-ஆந்திரா எல்லையில் தேவாலயக் கூரை இடிந்து இரு தொழிலாளர்கள் பலி
-[skip] இது கர்நாடக மாநில அரசியல் தொடர்பான உள்ளூர் செய்தி; தமிழ்நாடு
-[skip] இது கேரளாவின் பாலக்காடு மாவட்ட நிர்வாகத்தின் உள்ளூர் அறிவிப்
-[skip] ஆந்திரப் பிரதேசத்தின் உள்ளூர் கட்சி அரசியல் செய்தி; தமிழ்நாட
-[publish] CSIR-NEERI இயக்குநர் வெங்கட மோகன் INSA உறுப்பினராகத் தேர்வு
-[skip] இது கேரள மாநில அரசு தொடர்பான உள்ளூர் அரசியல்/நிர்வாகச் சர்ச்
-[publish] திருப்பதி பக்தர்களுக்கு சாதகமாக ரெனிகுண்டா-அரக்கோணம் இடையே புதிய ரயில் பாதைகளுக்கு மத்திய அரசு ஒப்புதல்
-[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் உணவுப் பாதுகாப்பு தணிக்கை 
-[publish] இடுக்கியில் விஷவாயு சுவாசித்து தமிழக மூவர் மரணம் இழப்பீடு கோரிய கேரள ஆணையம்
-[skip] இது தெலங்கானா மாநில அரசின் மியூசி நதி திட்டம் தொடர்பான உள்ளூ
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, நிகழ்வின் இடம், தேதி, விவர
-[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் நகராட்சி நடவடிக்கை - தமிழ்
-[skip] இது ஆந்திரப் பிரதேச மாநில அரசு தொடர்பான உள்ளூர்ச் செய்தி; தம
-[skip] ஆந்திரப் பிரதேசம் கர்நூல் நகராட்சியின் உள்ளூர் குப்பை மேலாண்
-[publish] ஆன்லைன் பந்தயக் கடனால் இரு காவலர்கள் தற்கொலை - டிஜிபி எச்சரிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cev2M56LgqDYj5LJHy4JU'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cev2QuvYG1bG2yUHo1uxy'}
-[publish] மகளிர் ஆசியக் கோப்பை அரையிறுதியில் ஷஃபாலி 64 ஓட்டங்கள்
-[publish] துலீப் கோப்பை 2026: முகேஷ் குமார், அபித் முஷ்தாக் கூட்டு விக்கெட் சாதனையாளர்கள்
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு அதிமுக, தவெக கூட்டணி வேட்பாளர்கள் அறிவிப்பு
-[publish] கொளத்தூர் எம்எல்ஏ வி.எஸ். பாபு மருத்துவமனையில் அனுமதி: அமைச்சர் நலம் எனத் தகவல்
-[skip] ஆங்கிலேய county cricket — தமிழ்நாடு/இந்தியா/உலக வாசகரைப் பாத
-[skip] இங்கிலாந்து county cricket — தமிழ்நாடு/இந்திய வாசகருக்குப் ப
-[skip] இங்கிலாந்து county cricket — தமிழ்நாடு/இந்திய வாசகருக்கு பொர
-[skip] தென்னாফ்রிக்கா vs நமிபியா ஒரு அஞ்சலி ম்যாச் அல்லது சர்வதேশப்
-[skip] ஆங்கிலத் கவுண்টி கிரிக்கெட் — தமிழ்நாடு/இந்திய வாசகரின் செய்
-[skip] இந்தியக் கிரிக்கெட் வீரர்களின் ஆரோக்கியம் குறித்த BCCI அறிவி
-[skip] Duleep Trophy is an all-India domestic cricket tournament. W
-[skip] உள்நாட்டு ঘরேலு தொடர் — Duleep Trophy என்பது இந்தியக் கிரிக்
-[skip] தெலுங்கு/ஆந்திர உள்ளூர் விளையாட்டு நிகழ்வு; தமிழ்நாடு, இந்தி
-[skip] J.R.R. Tolkien என்ற ஆங்கில எழுத்தாளர் / இலக்கியப் பெயர் சம்ப
-[skip] வெளிநாட்டு குதிரைப் பந்தயம் — பொருத்தமற்றது
-[skip] England vs Pakistan Test match — England உள்நாட்டுப் போட்டி,
-[skip] வெளிநாட்டு ফুटবॉल லीग் — இந்தியர்/தமிழர்கள் சம்பந்தப்படாதவர்
-[skip] வெளிநாட்டு ஈவென்ட் — அமெரிக்க உபயோகித் தொடர், தமிழ்நாடு/இந்த
-[skip] வெளிநாட்டு টেனிஸ் தொடர். தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்க
-[skip] விনேஷ் ஃபோகாட்டின் வழக்கு தில்லி உயர் நீதிமன்றத்தில் நிலுவைய
-[skip] வெளிநாட்டு செஸ் வিশ্லேষணம் — தமிழ்நாடு/இந்தியத் வாசகருக்குப்
-[skip] வெளிநாட்டு golf tournament (PGA Tour) இல் அமெரிக்க வீரர். தம
-[skip] விளையாட்டுத் தகவல் — ஆசிய விளையாட்டு பற்றிய செய்தி, ஆனால் மூ
-[skip] ஆசிய விளையாட்டுக் கூட়ம் பற்றிய பொது அறிவிப்பு மட்டுமே; தமிழ
-[publish] தூப் கோப்பை இறுதியில் தिलक குறிப்பிட்ட முடிவுதான் முக்கியம்.
-[skip] முழு செய்தி உரை கிடைக்கவில்லை. தலைப்பு மட்டும் உள்ளது. Sheet
-[skip] ভারতীয় দলিল ক্রিকেটের অভ্যন্তরীণ টুর্নামেন্ট; তামিলনাড়ু দল
-[skip] வெளிநாட்டு ব்যক্তিগত ক্রীড়াবিদ் / நிகழ்வு தமிழ்நாடு / இந்தி
-[skip] Asian Games weightlifting — இந்திய வீரர் செய்திதான் என்றாலும
-[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் அல்லது விளையாட்டு - தமிழ்ந
-[skip] தமிழ்நாடு/இந்திய வீரர் அல்லது பொருத்தம் இல்லை. US Open டென்ன
-[skip] இந்தியக் கிரிக்கெட் நிர்வாகத்தின் சட்ட நடைமுறை — தமிழ்நாட்டு
-[skip] Pakistan's internal team management matter not directly rele
-[skip] Test cricket-ன் நிலை பற்றிய பொதுவான கருத்து விசாரணை; தமிழ்நா
-[skip] Champions League is a European club football competition wit
-[skip] வெளிநாட்டு টেनिس — அमेरिका ओपन യൂএস ওপেന്‌ ഇന്ത്യ/തമിഴ്നാട്ട
-[skip] வெளிநாட்டு விளையாட்டு — அமெரிக்க ஓபன் (பெண்கள் டென்னிஸ்). தம
-[skip] வெளிநாட்டு টেனிஸ் খেளாடியின் US Open போட்டி — தமிழ்நாடு, இந்
-[skip] தெலுங்குத் தமிழ் திரைப்படம்; தமிழ்நாட்டில் வெளியாகுகிறது என்
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமற்றது — தமிழில் வெளியாகாத ஆ
-[publish] சூரியா 'விஸ்வநாத் அண்ட் சன்ஸ்' தேசிய விருது பெற்ற இயக்குநர் பேட்டி
+[run] புதியவை 545 → நிகழ்வுகள் 525
+[triage] 525 → 40 (முக்கியம் + பக்க ஒதுக்கீடு)
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 12
+[done] feed 300 · pending 0 · எழுதியவை 0
