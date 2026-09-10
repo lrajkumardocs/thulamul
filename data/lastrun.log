@@ -8,19 +8,19 @@
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 25 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 30 புதியவை
+[fetch] ESPNcricinfo: 27 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 28 புதியவை
+[fetch] The Hindu Cinema: 25 புதியவை
 [fetch] Cinema Express: 29 புதியவை
-[fetch] The Hindu Tech: 25 புதியவை
+[fetch] The Hindu Tech: 22 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 22 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 21 புதியவை
 [fetch] PIB Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] PIB Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 24 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,19 +28,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 1 புதியவை
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 30 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 28 புதியவை
+[fetch] The Hindu Legal: 24 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 24 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -52,41 +52,33 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 29 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Tamil Nadu: 0 புதியவை
-[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7f881bc66610>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Govt DIPR: பிழை HTTPSConnectionPool(host='www.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tn.gov.in', port=443) at 0x7fee899ae190>, 'Connection to www.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] PIB Rural: 0 புதியவை
 [fetch] PIB Education: 0 புதியவை
 [fetch] PIB Social Justice: 0 புதியவை
 [fetch] MyGov India: 0 புதியவை
-[run] புதியவை 651 → நிகழ்வுகள் 591
-[triage] 591 → 66 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இது சர்வதேச சட்ட நிறுவனங்களுக்கு இடையேயான ஒரு வழக்கறிஞரின் ப
-[skip] வெளிநாட்டு நிறுவனத்தின் பொது தயாரிப்பு அறிவிப்பு — தமிழ்நாடு
-[skip] இது வெளிநாட்டு (இந்திய அல்லாத) OTT தொடர் சம்பந்தமான அரசியல் 
-[tts-edge] ef7370025a1b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காயத்தால் ஆசிய விளையாட்டுப் போட்டியிலிருந்து ஹர்ஷித் ராணா விலகல்
-[skip] இவை மகாராஷ்டிரா சிந்துதுர்க் மற்றும் உத்தரப் பிரதேசம் பாண்டா
-[skip] மூலத்தில் உள்ள தலைப்பு மற்றும் விவரங்களுக்கு இடையே முரண்பாடு
+[run] புதியவை 618 → நிகழ்வுகள் 571
+[triage] 571 → 40 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] 687bfa1602ac: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] SSC CPO துணை ஆய்வாளர் பணிக்கு 1,871 காலியிடங்கள் - விண்ணப்பம் தொடக்கம்
+[tts-edge] acc96f9bff58: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தெலங்கானாவில் கான்ஸ்டபிள் பணிக்கான வயது வரம்பு 3 ஆண்டுகள் உயர்வு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CeuVxT62wGgfd1RpGPega'}
+[hold] பினராயி விஜயன், மகள் வீணா மீது சாட்சியம் அளிக்க ED நிர்ப்பந்தம்: எம்.எல்.ஏ குற்றச்சாட்டு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CeuW7y7K82tAzaT3hdd1q'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] 0c167c954ae3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சத்யா நிகேதன் கட்டிடச் சரிவு வழக்கை உச்ச நீதிமன்றம் விசாரணை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CeuUYbdCzaWARnjmMprLo'}
-[skip] இது ஒரு வழக்கறிஞர் நிறுவனத்தை மாற்றிய தனிப்பட்ட செய்தி; பொது
-[skip] தமிழ்நாடு/இந்திய வாசகருக்குப் பொருத்தமான செய்திச் சளுவல்லை —
-[skip] மூலஉரை புரிந்துகொள்ள முடியாத, உள்ளடக்கமற்ற குறிப்பு (தலைப்பு
-[skip] ஹரியாணா மாநிலத்தின் உள்ளூர் வேலைவாய்ப்புத் தேர்வு; தமிழ்நாடு
-[publish] மெட்டா அதிகாரிகள் குழந்தைகளுக்கு எதிரான பொருள் வழக்கில் நீதிமன்றம் முன் ஆஜர்
-[skip] Apple iPhone Duo உலக அறிவிப்பு ஆனாலும் — தமிழ்நாடு/இந்திய வா
-[publish] உணவுப் பொருட்களில் முன்புறக் கப்பல் எச்சரிக்கை லேபிள் அவசியம் என உச்ச நீதிமன்றம் வலியுறுத்தல்.
-[publish] சிनेമா விலை விவகாரம்: உச்சநீதிமன்ற தீர்ப்பு தெளிவு
-[skip] வெளிநாட்டு சினிமா — அமெரிக்க இயக்குனர், வெளிநாட்டு நடிகை, ஆங
-[skip] ऑस्ट्रेलियाई domestic cricket (BBL) — तमिलनाडु/भारतीय читате
-[skip] Caribbean Premier League (CPL) - West Indies domestic cricke
-[malar] படங்கள் சேர்க்கப்பட்டன
+[skip] झारखंड राज्यातील स्थानिक शिक्षक परीक्षा — तमिळनाडू/भारतीय वा
+[skip] தமிழ்நாடு/இந்திய வாசகருக்குப் பொருந்தம் இல்லை — வெளிநாட்டு ஸ
+[skip] ஒரு நபரின் ব্যক্তিগত Apple அভিজ্ঞতা பর্যালোচনা — செய்தি அல்ல
+[publish] ஆனந்த் தேவரக்கோண்ட: தொடர்ச்சிப் படங்களில் சிறந்த வசூல் வேண்டும்
+[skip] வெளிநாட்டு சினிமா — தமிழ்நாடு/இந்திய வாசகருக்குப் பொருத்தமில
+[skip] வெளிநாட்டு உள்ளூர் লீگ் (BBL — ஆஸ்திரேலிய T20) மற்றும் நியூஜ
+[skip] Pakistan cricket team's internal match performance — Tamil N
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 5
+[done] feed 300 · pending 1 · எழுதியவை 4
