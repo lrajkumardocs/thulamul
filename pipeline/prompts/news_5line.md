@@ -24,7 +24,9 @@ JSON சுத்தம்: string-களுக்குள் இரட்ட�
 - "closing": ஒரே ஒரு வாக்கியம் — (அ) பின்னணி, (ஆ) கவனிக்க — அடுத்து எதைப் பார்க்க, (இ) கேள்வி — பதிலளிக்கப்படாதது. மூலத்தில் உள்ள உண்மைகளிலிருந்து மட்டும். அறிவுரை தடை. தலைப்பு போடாதே.
 - "closing_type": "background" | "watch" | "question"
 - "sources": [{"name": "...", "doc": "ஆவண எண்/பெயர் இருந்தால், இல்லையெனில் null", "date": "YYYY-MM-DD அல்லது null"}]
-- "topic": tn | india | world | economy | tech | sports | cinema | spirit | jobs | court | assembly | health | agri
+- "topic": tn | india | world | economy | tech | sports | cinema | jobs | court | assembly | health | govt
+  **govt** = அரசு அறிவிப்பு: புதிய திட்டம், மானியம், அரசாணை (GO), விண்ணப்ப அழைப்பு, கடைசி நாள், விலை நிர்ணயம், கொள்முதல் அறிவிப்பு, சான்றிதழ்/பதிவு நடைமுறை, நலத்திட்டப் பலன், மின்/நீர்/போக்குவரத்து அறிவிப்பு, தேர்வு அட்டவணை, துறை உத்தரவு — மக்கள் **செயல்பட** வேண்டிய அரசுத் தகவல். இது தமிழ்நாடு அரசாக இருந்தாலும் மத்திய அரசாக இருந்தாலும் **govt**.
+  அரசியல் நிகழ்வு, கட்சிச் செய்தி, தலைவர் உரை — இவை govt அல்ல; tn/india.
 - "entities": இடம், நிறுவனம், நபர், திட்டம் — 3–6, தமிழில்
 - "confidence": 0–1
 - "en": {"headline": "English headline, same facts, 8–14 words", "lines": ["5 English sentences mirroring the Tamil lines exactly"], "closing": "English closing line"} — ஆங்கிலப் பதிப்பு; அதே உண்மைகள், அதே நடுநிலை.
