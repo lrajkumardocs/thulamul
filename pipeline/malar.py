@@ -237,7 +237,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
             time.sleep(2)
     if not m:
         raise RuntimeError("எந்தப் பகுதியும் வரவில்லை")
-    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 8
+    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 9
 
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -266,7 +266,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
         time.sleep(1)
 
     # கட்டுரை · ஜென் கதை — வண்ண ஓவியம்
-    for key_, tag in (("essay", "essay"), ("zen", "zen")):
+    for key_, tag in (("essay", "essay"), ("zen", "zen"), ("agri", "agri"), ("spirit", "spirit"), ("food", "food")):
         blk = m.get(key_) or {}
         sc = blk.get("scene_en")
         if sc:
@@ -283,9 +283,11 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
     # பாட்டி — ஒரு முறை உருவாக்கி, எல்லா வாரமும் அதே
     gp = OUT / "granny.png"
     if not gp.exists():
-        b = gemini_image("A kind smiling Tamil grandmother in a simple cotton saree, silver hair in a bun, "
-                         "sitting beside a brass vessel and herbs, warm friendly expression, waist-up portrait",
-                         "granny", style=STYLE_INK)
+        b = gemini_image("A kind smiling elderly Tamil grandmother in a simple cotton saree with silver hair in a bun, "
+                         "seated on the floor pounding herbs with a stone pestle in a heavy stone mortar, "
+                         "dried herbs, brass vessel and a clay pot beside her, warm kitchen light, waist-up, "
+                         "affectionate and dignified expression",
+                         "granny")
         if b:
             im = Image.open(io.BytesIO(b)).convert("RGB")
             im.thumbnail((600, 600), Image.LANCZOS)
