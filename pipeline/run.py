@@ -357,7 +357,8 @@ def make_audio(story_id, script):
         return None
 
 # ---------------------------------------------------------------- 5. image (மூலப் படம் மட்டும்; இல்லையெனில் null → ஆப் துறை-அட்டை காட்டும்)
-SAFE_HOSTS = ("openverse", "flickr", "staticflickr", "metmuseum", "images.metmuseum", "unsplash", "pexels", "pixabay", "cdn.pixabay", "pib.gov.in", "isro.gov.in", "rbi.org.in", "mygov.in", "tn.gov.in",
+SAFE_HOSTS = ("openverse", "flickr", "staticflickr", "metmuseum", "images.metmuseum",
+              "nasa.gov", "si.edu", "artic.edu", "rijksmuseum.nl", "loc.gov", "tile.loc.gov", "unsplash", "pexels", "pixabay", "cdn.pixabay", "pib.gov.in", "isro.gov.in", "rbi.org.in", "mygov.in", "tn.gov.in",
               "india.gov.in", "nic.in", "gov.in", "prsindia.org",
               "wikimedia.org", "wikipedia.org", "unsplash.com", "pexels.com", "pixabay.com")
 
@@ -536,11 +537,99 @@ def met_image(q):
     return None
 
 _STOCK_CACHE = {}
+
+def nasa_image(q):
+    """NASA — விண்வெளி, பூமி, காலநிலை (பொதுச் சொத்து; key இல்லை)."""
+    try:
+        r = requests.get("https://images-api.nasa.gov/search",
+                         params={"q": q, "media_type": "image"}, timeout=15).json()
+        for it in ((r.get("collection") or {}).get("items") or [])[:3]:
+            links = it.get("links") or []
+            if links and links[0].get("href"):
+                d = (it.get("data") or [{}])[0]
+                return {"url": links[0]["href"], "credit": f"NASA · {d.get('center','')}",
+                        "license": "பொதுச் சொத்து", "symbolic": True}
+    except Exception:
+        pass
+    return None
+
+
+def smithsonian_image(q):
+    """Smithsonian Open Access — வரலாறு, இயற்கை (CC0; key இல்லை)."""
+    try:
+        r = requests.get("https://api.si.edu/openaccess/api/v1.0/search",
+                         params={"q": f"{q} AND online_media_type:Images", "rows": 3,
+                                 "api_key": os.environ.get("SI_KEY", "")}, timeout=15).json()
+        for row in ((r.get("response") or {}).get("rows") or []):
+            media = (((row.get("content") or {}).get("descriptiveNonRepeating") or {})
+                     .get("online_media") or {}).get("media") or []
+            for md in media:
+                u = md.get("content") or md.get("thumbnail")
+                if u and str(u).startswith("http"):
+                    return {"url": u, "credit": "Smithsonian Open Access", "license": "CC0", "symbolic": True}
+    except Exception:
+        pass
+    return None
+
+
+def rijks_image(q):
+    """Rijksmuseum — பொதுச் சொத்துக் கலை (key விருப்பம்)."""
+    k = os.environ.get("RIJKS_KEY")
+    if not k:
+        return None
+    try:
+        r = requests.get("https://www.rijksmuseum.nl/api/en/collection",
+                         params={"key": k, "q": q, "ps": 3, "imgonly": "true"}, timeout=15).json()
+        for a in (r.get("artObjects") or []):
+            u = (a.get("webImage") or {}).get("url")
+            if u:
+                return {"url": u, "credit": f"Rijksmuseum · {a.get('principalOrFirstMaker','')}",
+                        "license": "பொதுச் சொத்து", "symbolic": True}
+    except Exception:
+        pass
+    return None
+
+
+def artic_image(q):
+    """Art Institute of Chicago — பொதுச் சொத்துக் கலை (key இல்லை)."""
+    try:
+        r = requests.get("https://api.artic.edu/api/v1/artworks/search",
+                         params={"q": q, "limit": 3, "fields": "id,title,image_id,artist_title,is_public_domain"},
+                         timeout=15).json()
+        for a in (r.get("data") or []):
+            if a.get("image_id") and a.get("is_public_domain"):
+                return {"url": f"https://www.artic.edu/iiif/2/{a['image_id']}/full/1200,/0/default.jpg",
+                        "credit": f"Art Institute of Chicago · {a.get('artist_title','')}",
+                        "license": "பொதுச் சொத்து", "symbolic": True}
+    except Exception:
+        pass
+    return None
+
+
+def loc_image(q):
+    """Library of Congress — வரலாற்றுப் புகைப்படங்கள் (key இல்லை)."""
+    try:
+        r = requests.get("https://www.loc.gov/photos/", params={"q": q, "fo": "json", "c": 3}, timeout=20).json()
+        for it in (r.get("results") or [])[:3]:
+            img = it.get("image_url") or []
+            if img:
+                u = img[-1]
+                if u.startswith("//"):
+                    u = "https:" + u
+                if u.startswith("http"):
+                    return {"url": u, "credit": "Library of Congress", "license": "பொதுச் சொத்து", "symbolic": True}
+    except Exception:
+        pass
+    return None
+
+
 def stock_image(topic, query=""):
     """குறியீட்டுப் படம் — Unsplash → Pexels → Pixabay → Openverse. Watermark உள்ளவை தவிர்க்கப்படும்."""
     tries = [q for q in ([query] if query else []) if q]
     for q in tries[:2]:
-        for fn in (unsplash_image, pexels_image, pixabay_image, openverse_image, flickr_cc_image, met_image):
+        for fn in (unsplash_image, pexels_image, pixabay_image, openverse_image,
+                   flickr_cc_image, met_image, nasa_image, artic_image, smithsonian_image,
+                   loc_image, rijks_image):
             try:
                 im = fn(q)
             except Exception:
