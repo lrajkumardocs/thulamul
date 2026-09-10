@@ -1,5 +1,68 @@
 [
  {
+  "skip": false,
+  "headline": "இந்தியায் மறைமுக புகைப்பிடிப்பால் உயிரிழப்பு 50% அதிகமாகியுள்ளது.",
+  "lines": [
+   "1990 ஐஃப் ஒப்பிடும்போது இந்தியায் மறைமுக புகைப்பிடிப்பால் ஏற்படும் உயிரிழப்பு 50% அதிகமாகிவிட்டது என்று ஒரு ஆய்வு கூறுகிறது.",
+   "மற்றவர்களுக்கு பக்கவாதம் ஏற்படுவது புகைப்பிடிப்பாளர்கள் தகுந்த조치 எடுத்து தடுக்கலாம் என்று ஆய்வாளர்கள் குறிப்பிடுகின்றனர்.",
+   "நுரையீரல் நோய், இதய நோய் மற்றும் புற்றுநோய் போன்ற பல நோய்களுக்கு மறைமுக புகைப்பிடிப்பு காரணமாக இருப்பதாக ஆய்வு சுட்டிக்காட்டுகிறது.",
+   "மறைமுக புகைப்பிடிப்பு பொதுச் சுகாதாரப் பிரச்சனைக்கான விழிப்புணர்வு பல தேশங்களில் அதிகரிப்பதன் மூலம் இந்த பிரச்சனையைத் தீர்க்க முடியும்.",
+   "இந்தியায் மரணம், நோய்த்தாக்கம் மற்றும் ஊனமை குறைக்க தபாகோ பயன்பாட்டைக் கட்டுப்படுத்தும் நடவடிக்கைகள் மேற்கொள்ள வேண்டும் என்று ஆய்வாளர்கள் பரிந்துரைக்கின்றனர்."
+  ],
+  "closing": "மறைமுக புகைப்பிடிப்பு குறித்த பொதுச் சுகாதாரக் கவலைகள் பல ஆண்டுகளாக அறிவுத் தேடல்களால் ஆதாரிக்கப்பட்டுவருவதாக அறிவியல் சমூகம் தெரிவிக்கின்றது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health / Lancet Study",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "இந்தியா",
+   "மறைமுக புகைப்பிடிப்பு",
+   "The Lancet",
+   "நுரையீரல் நோய்",
+   "இதய நோய்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Passive smoking deaths in India increased 50% since 1990.",
+   "lines": [
+    "Deaths due to passive smoking in India have increased by 50% compared to 1990, according to a study.",
+    "Researchers note that exposure to secondhand smoke is avoidable if smokers take preventive steps.",
+    "The study highlights that passive smoking contributes to lung disease, heart disease, and cancer.",
+    "Increased public health awareness about passive smoking in many countries can help address this problem.",
+    "Researchers recommend implementing tobacco control measures in India to reduce deaths, illness, and disability."
+   ],
+   "closing": "Scientific communities report that public health concerns about passive smoking have been supported by research for many years."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "passive smoking india health",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "848387c0f6e0",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-09-11T04:38+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/deaths-due-to-passive-smoking-in-india-up-50-pc-compared-to-1990-lancet-study/article71442744.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Water_pipe_smoking.jpg/1280px-Water_pipe_smoking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · HealthHistoryArt",
+   "license": "CC BY-SA 4.0",
+   "symbolic": true
+  },
+  "audio": "data/audio/848387c0f6e0.mp3",
+  "created_ts": 1789081733.1476603,
+  "status": "published"
+ },
+ {
   "id": "art_health_20260911",
   "headline": "பருவமழைக் காலத்தில் உடல்நலம் காக்க எளிய வழிகள்",
   "lines": [
