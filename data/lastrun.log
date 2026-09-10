@@ -1,16 +1,16 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
+[fetch] The Hindu TN: 16 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 21 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 12 புதியவை
+[fetch] ESPNcricinfo: 11 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 19 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 6 புதியவை
+[fetch] The Hindu Tech: 5 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 27 புதியவை
-[fetch] The Hindu Legal: 16 புதியவை
+[fetch] The Hindu Legal: 14 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 29 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 16 புதியவை
+[fetch] The Hindu National: 14 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,19 +56,15 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f59de6c30d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 16 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f473e50ba50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 14 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 632 → நிகழ்வுகள் 589
-[triage] 589 → 51 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] 22ff75d91fbb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தனியார் பல்கலைக்கழகங்கள் திருத்த மசோதா நிறைவேற்றம்.
-[skip] மூல உரை தமிழ்நாட்டுக்குப் பொருத்தமான தகவல் தரவில்லை. குற்றவி
-[tts-edge] d6ed284e7a4e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] Meta, Muse AI பயன்பாட்டை அறிமுகம் செய்தது.
-[skip] England vs Pakistan cricket match in Birmingham, UK — வெளிநா
+[run] புதியவை 623 → நிகழ்வுகள் 584
+[triage] 584 → 31 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] கர்நாടக அரசியல் — தমिषवर কர்நाटക के नेતृत्व और कानून प्रवर्त
+[skip] England-Pakistan cricket Test match — வெளிநாட்டு அணிகளின் ஆட
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 2
+[done] feed 300 · pending 1 · எழுதியவை 0
