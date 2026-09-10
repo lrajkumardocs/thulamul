@@ -9,12 +9,12 @@
 [fetch] ESPNcricinfo: 0 புதியவை
 [fetch] The Hindu Sport: 0 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 24 புதியவை
+[fetch] Cinema Express: 21 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 10 புதியவை
+[fetch] Wired: 7 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 8 புதியவை
+[fetch] The Hindu Health: 6 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 10 புதியவை
+[fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 28 புதியவை
+[fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 10 புதியவை
+[fetch] The Hindu National: 8 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,26 +56,23 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ffa0d0f6750>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 10 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc3e50a3090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 8 புதியவை
 [fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 424 → நிகழ்வுகள் 405
-[triage] 405 → 55 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] விளம্பர/தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்திய வாசகரை நேரடிய
-[tts-edge] 72b335793064: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சூரியா திரைப்படத்தின் தலைப்பு டিசர் ரசிகர்களைத் துவண்டவைத்தது.
-[skip] பிहார் மாநிலத்தின் கட்சி உள் விஷயம்; தமிழ்நாடு வாசகருக்குப் 
-[skip] வெளிநாட்டு தலைவரின் வெளிநாட்டு நிகழ்வு. தமிழ்நாட்டு வாசகரைப்
-[skip] விளம்பர/தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்திய வாசகருக்குச் 
-[skip] விளம்பர/தயாரிப்பு அறிவிப்பு — செய்தி அல்ல
-[skip] வெளிநாட்டு ஆய்வின் பொது விளக்கம்; தமிழ்நாட்டு/இந்திய வாசகருக
-[tts-edge] 848387c0f6e0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இந்தியায் மறைமுக புகைப்பிடிப்பால் உயிரிழப்பு 50% அதிகமாகியுள்ளது.
-[skip] தயாரிப்பு அறிவிப்பு மட்டும். OTT வெளியீட்டு நாள் அறிவிப்பு த
-[skip] விசால் இயக்கியுள்ள தமிழ்ப் படத்தின் OTT வெளியீடு பற்றிய தகவல
-[skip] ஒரு நபরின் ব்যক্তিগত கூற்று மட்டும் — செய்திக் கட்டமைப்பு இல
+[run] புதியவை 409 → நிகழ்வுகள் 392
+[triage] 392 → 67 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] உலக தொழில்நுட்ப நிறுவனங்களின் உள்நாட்டுக் கொள்கை விவாதம் — த
+[skip] கேரளத்தின் உள்ளூர் நிகழ்வு; தமிழ்நாட்டு வாசகரின் நேரடிச் செய
+[skip] மேघாலயம் (மேற்கு வங்கத்துக்கு அருகில் உத்திரப்രதேશத்தின் ஒரு
+[skip] விளம்பர/தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்திய வாசகருக்குப் 
+[skip] தமிழ்நாடு/இந்திய வாசகருக்கு உடனடி প্রভாவம் இல்லை. Anthropic 
+[tts-edge] 35492bff4968: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நினைவாற்றல் இழப்பு ஏற்படாத பக்ষாঘাத நோய் வகை உண்டு.
+[skip] தெலுங்கு/கன्నड படமான Sardar படத்தின் அடுத்த பாகம்; தமிழ்நாட்
+[skip] ஐந்து சொல்லுக்கும் குறைவான உள்ளடக்கம்; தெலுங்குப் படிப்பறிக்
+[skip] வெளிநாட்டு உள்நாட்டு T20 தொடர் (Big Bash — ஆஸ்திரேலிய லீગ்).
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 2 · எழுதியவை 2
+[done] feed 300 · pending 2 · எழுதியவை 1
