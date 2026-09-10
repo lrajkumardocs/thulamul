@@ -432,6 +432,7 @@ const T={ads:'விளம்பரம்',comic:'காமிக்ஸ்',mala
 const MAIN=['all','tn','india','world','edit','economy','sports','cinema','tech','rasi'], MORE=['court','jobs','health','agri','spirit','assembly'];
 const TA=['1','2','3','4','5'];
 let LANG=localStorage.getItem('lang')||'ta';let comicIdx=null;
+fetch(BASE+'data/state.json'+q).then(r=>r.json()).then(d=>{if(d&&d.launch_date){window.__launch=d.launch_date;renderHome();}}).catch(()=>{});
 let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,aied=null,rasiSel=parseInt(localStorage.getItem('rasi')||'0');
 const $=s=>document.querySelector(s);
 const H=s=>(LANG==='en'&&s.en&&s.en.headline)?s.en.headline:s.headline;const L=s=>(LANG==='en'&&s.en&&s.en.lines)?s.en.lines:(s.lines||[]);const C=s=>(LANG==='en'&&s.en&&s.en.closing)?s.en.closing:s.closing;
@@ -467,7 +468,7 @@ function localWeather(){
     }).catch(()=>{});},()=>{},{timeout:8000,maximumAge:1800000});
 }
 function masthead(i){
-  const launch=new Date('2026-09-06T00:00:00+05:30');
+  const launch=new Date((window.__launch||'2026-09-06')+'T00:00:00+05:30');
   const issue=Math.max(1,Math.floor((Date.now()-launch)/86400000)+1);
   const yr=Math.floor((Date.now()-launch)/(365.25*86400000))+1;
   const d=new Date();
