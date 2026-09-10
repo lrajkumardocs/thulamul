@@ -45,8 +45,8 @@ img{max-width:100%;display:block}
 
 /* ---------- nav ---------- */
 .nav{background:var(--card);border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:30;box-shadow:0 1px 0 rgba(0,0,0,.03)}
-.nav .wrap{display:flex;align-items:center;gap:4px;height:52px;overflow-x:auto;scrollbar-width:none}
-.nav .wrap::-webkit-scrollbar{display:none}
+.nav .wrap{display:flex;align-items:center;gap:4px;flex-wrap:wrap;padding-top:9px;padding-bottom:9px}
+
 .nav a{font-family:var(--serif);font-size:15px;font-weight:500;padding:8px 13px;border-radius:8px;white-space:nowrap;color:var(--ink2)}
 .nav a:hover{background:var(--paper2);color:var(--ink)}
 .nav a.on{background:var(--ink);color:var(--paper)}
@@ -182,6 +182,14 @@ details.med summary{font-size:13px;color:var(--brass);cursor:pointer;list-style:
        align-items:center;justify-content:center;text-align:center;padding:14px;color:var(--ink3);font-size:12.5px;background:var(--card)}
 .adbox img{width:100%;height:100%;object-fit:contain;border-radius:10px}
 
+/* calendar */
+.cal-head{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:12px;font-size:11.5px;color:var(--ink3);text-align:center}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:6px}
+.cal a,.cal div{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:9px;font-size:14px}
+.cal .cal-on{background:var(--brass);color:#fff;font-weight:500}
+.cal .cal-on:hover{background:var(--ink)}
+.cal .cal-off{color:var(--ink3);background:var(--paper2);opacity:.5}
+
 /* footer */
 footer{background:var(--ink);color:#C9C6BE;padding:40px 0 34px;font-size:13px;line-height:1.9;margin-top:40px}
 footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:34px}
@@ -215,7 +223,7 @@ footer .fine{border-top:1px solid #2C323C;margin-top:26px;padding-top:18px;font-
   <div class="tb-r">
     <a href="?p=archive">பழைய இதழ்கள்</a>
     <a href="?p=ads">விளம்பரம்</a>
-    <a href="web/">ஆப்</a>
+    <a href="?p=app">ஆப் பதிவிறக்கம்</a>
   </div>
 </div></div>
 
@@ -386,7 +394,7 @@ function frontPage(){
   let h='';
   if(brief&&brief.audio) h+=`<div class="brief"><div><b>இன்றைய 60 நொடி</b>
      <span>${esc((brief.headlines||[]).length)} செய்திகள் · ${esc(brief.date||'')}</span></div>
-     <audio id="ba" src="${D}${esc(brief.audio)}" preload="none"></audio>
+     <audio id="ba" src="${esc(brief.audio)}" preload="none"></audio>
      <button onclick="const a=document.getElementById('ba');a.paused?a.play():a.pause()">▶</button></div>`;
   h+=`<a class="lead" href="?s=${encodeURIComponent(lead.id)}">
       ${img?`<div class="ph"><img src="${esc(img)}" alt=""></div>`:'<div></div>'}
@@ -395,15 +403,8 @@ function frontPage(){
   h+=`<div class="grid">${rest.map(cardHtml).join('')}</div>`;
   if(urg) h+=`<a class="alert" href="?s=${encodeURIComponent(urg.id)}" style="margin-top:26px">
       <small>⚠ அவசர அறிவிப்பு</small><b>${esc(urg.headline)}</b></a>`;
-  // section teasers
-  const front=frontIds();
-  ['tn','india','world','economy'].forEach(k=>{
-    const items=pub().filter(s=>s.topic===k&&!front.has(s.id)).slice(0,3);
-    if(!items.length) return;
-    h+=`<div class="rule"></div><div class="sec-head"><h2>${T[k]}</h2>
-        <span><a href="?p=${k}" style="color:var(--brass)">அனைத்தும் →</a></span></div>
-        <div class="grid">${items.map(cardHtml).join('')}</div>`;
-  });
+  h+=`<div class="nextbar"><span></span>
+      <a href="?p=tn" style="text-align:right"><small>அடுத்த பக்கம்</small>தமிழ்நாடு →</a></div>`;
   return h;
 }
 
@@ -439,7 +440,7 @@ function storyPage(id){
        <figcaption>படம்: ${esc((s.image.credit)||'')}${s.image.license?' · '+esc(s.image.license):''}${s.image.symbolic?' · குறியீட்டுப் படம்':''}</figcaption></figure>`:''}
     <div class="lines">${(s.lines||[]).map(l=>`<p>${esc(l)}</p>`).join('')}</div>
     ${s.closing?`<div class="closing">${esc(s.closing)}</div>`:''}
-    ${s.audio?`<div class="audio"><audio controls preload="none" src="${D}${esc(s.audio)}"></audio></div>`:''}
+    ${s.audio?`<div class="audio"><audio controls preload="none" src="${esc(s.audio)}"></audio></div>`:''}
     <div class="srcbox"><h4>மூலம்</h4>
       ${off.map(x=>`<div>${esc(x.name)}${x.date?' · '+esc(x.date):''}</div>`).join('')}
       ${med.length?`<details class="med" style="border:0;padding:0;margin-top:6px"><summary>ஊடகச் செய்திகள் · ${med.length}</summary>
@@ -458,7 +459,7 @@ function editorialPage(){
   return `<article class="article">
     <div class="kick">தராசில் இன்று · ${esc(a.date||'')}</div>
     <h1>${esc(a.title)}</h1>
-    ${a.image?`<figure><img src="${D}${esc(a.image)}" alt=""><figcaption>கேலிச்சித்திரம்: Mr. X</figcaption></figure>`:''}
+    ${a.image?`<figure><img src="${esc(a.image)}" alt=""><figcaption>கேலிச்சித்திரம்: Mr. X</figcaption></figure>`:''}
     ${a.intro?`<p class="mp">${esc(a.intro)}</p>`:''}
     <div class="twoside">
       <div class="side sideA"><h4>${esc((a.side_a||{}).label||'ஒரு தரப்பு')}</h4>
@@ -467,7 +468,7 @@ function editorialPage(){
         ${((a.side_b||{}).points||[]).map(x=>`<p>${esc(x)}</p>`).join('')}</div>
     </div>
     ${a.question?`<div class="closing" style="margin-top:24px"><b>${esc(a.question)}</b></div>`:''}
-    ${a.audio?`<div class="audio"><audio controls preload="none" src="${D}${esc(a.audio)}"></audio></div>`:''}
+    ${a.audio?`<div class="audio"><audio controls preload="none" src="${esc(a.audio)}"></audio></div>`:''}
     <div class="note">துலாமுள் கருத்து சொல்லாது; இரு தரப்பையும் சம எடையில் வைக்கும். முடிவு உங்களுடையது.
       AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X</div>
   </article>`;
@@ -486,7 +487,7 @@ function comicPage(){
     <div style="font-family:var(--serif);font-size:21px;margin-top:6px">${esc(c.title||'')}</div>
     <div class="meta"><span>கல்கி · பாகம் ${esc(String(c.book||''))}${c.book_ta?' — '+esc(c.book_ta):''} · காட்சி ${esc(String(c.day||''))}</span></div>
     ${c.summary?`<p class="mp">${esc(c.summary)}</p>`:''}
-    <div class="imgblock"><img src="${D.replace('data/','')}${esc(c.file)}" alt=""></div>
+    <div class="imgblock"><img src="${esc(c.file)}" alt=""></div>
     ${hint?`<div style="margin-top:22px"><div class="kick">நாளை</div>
       <div style="font-family:var(--serif);font-size:22px;font-weight:600;line-height:1.5;margin-top:6px">${esc(hint)}</div></div>`:''}
     ${prev?`<div class="nextbar"><a href="?p=comic&c=${n+1}"><small>நேற்றைய காட்சி</small>← ${esc(prev.title||'')}</a>
@@ -509,7 +510,7 @@ function rasiPage(){
      <div class="meta"><span>${esc(r.stars||'')}</span></div>
      <div class="score"><b>${esc(r.score)}</b><span>${esc(r.label||'')}</span></div>
      ${(r.lines||[]).map(l=>`<p class="mp">${esc(l)}</p>`).join('')}
-     ${r.audio?`<div class="audio"><audio controls preload="none" src="${D}${esc(r.audio)}"></audio></div>`:''}
+     ${r.audio?`<div class="audio"><audio controls preload="none" src="${esc(r.audio)}"></audio></div>`:''}
      <div class="note">ராகு காலம் ${esc(p.rahu)} · எமகண்டம் ${esc(p.yama)} · குளிகை ${esc(p.kuligai)}<br>
        கோசாரம்: குரு ${esc(p.gocharam.jupiter)} · சனி ${esc(p.gocharam.saturn)} · ராகு ${esc(p.gocharam.rahu)} · கேது ${esc(p.gocharam.ketu)}<br>
        சந்திர கோசாரம் + தாராபலம் அடிப்படையிலான பொதுப் பலன்; வாழ்க்கை முடிவுகளுக்கு ஜோதிடரை அணுகவும்.</div>
@@ -545,7 +546,7 @@ function malarPage(){
   const sec=MAL.find(x=>x[0]===sel);
   let b='';
   if(sel==='week') b=(m.roundup||[]).map(r=>`<div class="imgblock" style="margin-top:22px">
-      ${r.image?`<img src="${D}${esc(r.image)}" alt="">`:''}</div>
+      ${r.image?`<img src="${esc(r.image)}" alt="">`:''}</div>
       <div class="k" style="margin-top:10px"><b>${esc(r.region||'')}</b></div>
       <p class="mp" style="margin-top:4px">${esc(r.text)}</p>`).join('');
   else if(sel==='num') b=(m.numbers||[]).map((n,i)=>`<div class="side ${i%2?'sideB':'sideA'}" style="margin-top:16px">
@@ -556,17 +557,17 @@ function malarPage(){
       <div class="k"><b>${esc(x.date_ta)}</b></div><p class="mp" style="margin-top:2px">${esc(x.text)}</p></div>`).join('')}</div>`;
   else if(sel==='hero'){const H=m.hero;
     b=`${H.photo&&H.photo.url?`<figure><img src="${esc(H.photo.url)}" alt=""><figcaption>படம்: ${esc(H.photo.credit||'')}</figcaption></figure>`
-       :(H.image?`<div class="imgblock"><img src="${D}${esc(H.image)}" alt=""></div>`:'')}
+       :(H.image?`<div class="imgblock"><img src="${esc(H.image)}" alt=""></div>`:'')}
       <h1 style="font-family:var(--serif);font-size:32px;margin-top:18px">${esc(H.name)}</h1>
       <div class="meta"><span>${esc(H.years||'')}${H.place?' · '+esc(H.place):''}</span></div>
       ${H.line?`<div class="song">${esc(H.line)}</div>`:''}
       ${esc(H.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')}`;}
   else if(['essay','agri','spirit'].includes(sel)){const B=m[sel];
-    b=`${B.image?`<div class="imgblock"><img src="${D}${esc(B.image)}" alt=""></div>`:''}
+    b=`${B.image?`<div class="imgblock"><img src="${esc(B.image)}" alt=""></div>`:''}
        <h1 style="font-family:var(--serif);font-size:30px;margin-top:18px">${esc(B.title)}</h1>
        ${esc(B.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')}`;}
   else if(sel==='food'){const F=m.food;
-    b=`${F.image?`<div class="imgblock"><img src="${D}${esc(F.image)}" alt=""></div>`:''}
+    b=`${F.image?`<div class="imgblock"><img src="${esc(F.image)}" alt=""></div>`:''}
       <h1 style="font-family:var(--serif);font-size:30px;margin-top:18px">${esc(F.title)}</h1>
       ${esc(F.intro).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')}
       <div class="infobox"><div class="r"><span>தேவையானவை</span><div>${(F.items||[]).map(esc).join(' · ')}</div></div></div>
@@ -575,7 +576,7 @@ function malarPage(){
   else if(sel==='word') b=`<h1 style="font-family:var(--serif);font-size:34px">${esc(m.word.word)}</h1>
       ${esc(m.word.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')}`;
   else if(sel==='zen'){const Z=m.zen;
-    b=`${Z.image?`<div class="imgblock"><img src="${D}${esc(Z.image)}" alt=""></div>`:''}
+    b=`${Z.image?`<div class="imgblock"><img src="${esc(Z.image)}" alt=""></div>`:''}
       <h1 style="font-family:var(--serif);font-size:30px;margin-top:18px">${esc(Z.title)}</h1>
       <div class="song" style="text-align:left">${esc(Z.story).split(/\n+/).map(x=>`<div style="margin-top:6px">${x}</div>`).join('')}</div>
       <div style="font-family:var(--serif);font-size:19px;color:var(--brass);border-left:3px solid var(--brass);padding-left:14px;margin-top:20px">${esc(Z.insight||'')}</div>`;}
@@ -603,13 +604,13 @@ function malarPage(){
       +`<div class="note">போஸ்டர்கள் விமர்சன நோக்கத்திற்காக; உரிமை தயாரிப்பு நிறுவனங்களுக்கே. விமர்சனங்கள் பல ஊடகக் கருத்துகளின் AI தொகுப்பு.</div>`;
   else if(sel==='remedy'){const R=m.remedy;
     b=`<div style="display:flex;gap:18px;align-items:center;margin-top:18px">
-       ${R.image?`<img src="${D}${esc(R.image)}" alt="" style="width:90px;height:90px;border-radius:50%;object-fit:cover;background:var(--paper2)">`:''}
+       ${R.image?`<img src="${esc(R.image)}" alt="" style="width:90px;height:90px;border-radius:50%;object-fit:cover;background:var(--paper2)">`:''}
        <div><h1 style="font-family:var(--serif);font-size:26px">${esc(R.title)}</h1>
        <div style="font-size:13px;color:var(--ink3);margin-top:3px">${esc(R.sub||'')}</div></div></div>
       ${esc(R.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')}
       <div class="note">${esc(R.warn||'மருத்துவரை அணுகுவது அவசியம்.')}</div>`;}
   else if(sel==='satire') b=(m.satire||[]).map((x,i)=>`<div style="${i?'border-top:1px solid var(--rule);padding-top:26px;':''}margin-top:26px">
-      ${x.image?`<div class="imgblock" style="margin-top:0"><img src="${D}${esc(x.image)}" alt=""></div>`:''}
+      ${x.image?`<div class="imgblock" style="margin-top:0"><img src="${esc(x.image)}" alt=""></div>`:''}
       ${x.a||x.b?`<div style="margin-top:14px">
         <p style="font-family:var(--serif);font-size:18px;line-height:1.7"><span style="color:var(--brass)">அவர்:</span> ${esc(x.a||'')}</p>
         <p style="font-family:var(--serif);font-size:18px;line-height:1.7;margin-top:8px"><span style="color:var(--brass)">இவர்:</span> ${esc(x.b||'')}</p></div>`
@@ -641,15 +642,27 @@ function adsPage(){
 /* ---------- archive ---------- */
 async function archivePage(){
   const idx=await j('issues/index.json',[]) || [];
-  if(!idx.length) return `<div class="empty">காப்பகம் விரைவில்.</div>`;
-  const byMonth={};
-  idx.forEach(d=>{const m=d.slice(0,7);(byMonth[m]=byMonth[m]||[]).push(d);});
+  if(!idx.length) return `<div class="empty">காப்பகம் விரைவில். ஒவ்வொரு நாளும் அன்றைய இதழ் இங்கே சேமிக்கப்படும்.</div>`;
+  const have=new Set(idx);
+  const months=[...new Set(idx.map(d=>d.slice(0,7)))].sort().reverse();
+  const TAM=['ஞா','தி','செ','பு','வி','வெ','ச'];
   return `<div class="sec-head"><h2>பழைய இதழ்கள்</h2><span>${idx.length} இதழ்</span></div>`
-   +Object.entries(byMonth).map(([m,ds])=>`<div style="margin-top:22px">
-      <h3 style="font-family:var(--serif);font-size:18px;color:var(--ink2)">${esc(new Date(m+'-01').toLocaleDateString('ta-IN',{month:'long',year:'numeric'}))}</h3>
-      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px">
-      ${ds.map(d=>`<a href="?p=issue&d=${d}" style="border:1px solid var(--rule);border-radius:8px;padding:8px 13px;background:var(--card);font-size:14px">${d.slice(8)} ${esc(new Date(d).toLocaleDateString('ta-IN',{month:'short'}))}</a>`).join('')}
-      </div></div>`).join('');
+   + months.map(m=>{
+      const [y,mo]=m.split('-').map(Number);
+      const first=new Date(y,mo-1,1), days=new Date(y,mo,0).getDate(), pad=first.getDay();
+      let cells='';
+      for(let i=0;i<pad;i++) cells+='<div></div>';
+      for(let d=1;d<=days;d++){
+        const ds=`${y}-${String(mo).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+        cells+= have.has(ds)
+          ? `<a href="?p=issue&d=${ds}" class="cal-on">${d}</a>`
+          : `<div class="cal-off">${d}</div>`;
+      }
+      return `<div style="margin-top:26px">
+        <h3 style="font-family:var(--serif);font-size:19px">${esc(first.toLocaleDateString('ta-IN',{month:'long',year:'numeric'}))}</h3>
+        <div class="cal-head">${TAM.map(x=>`<span>${x}</span>`).join('')}</div>
+        <div class="cal">${cells}</div></div>`;
+    }).join('');
 }
 async function issuePage(d){
   const f=await j('issues/'+d+'.json',null);
@@ -730,7 +743,10 @@ function complaintPage(){
     <h1>உங்கள் பிரச்சனை</h1>
     <p class="mp" style="font-size:15px">உங்கள் வார்த்தையில் சொல்லுங்கள். இடம், எத்தனை நாள், யாரிடம் ஏற்கனவே சொன்னீர்கள் — இருந்தால் மனு வலுவாக இருக்கும்.</p>
     <label class="fl">பிரச்சனை<textarea id="c-text" placeholder="எ.கா. எங்க தெருவுல 3 மாசமா தெருவிளக்கு எரியல. அலுவலகத்துல சொன்னேன், நடவடிக்கை இல்ல.">${esc(cdata.text||'')}</textarea></label>
-    <label class="fl">உங்கள் பெயர்<input id="c-name" value="${esc(cdata.name||'')}"></label>
+    <div class="row2">
+      <label class="fl">உங்கள் பெயர்<input id="c-name" value="${esc(cdata.name||'')}"></label>
+      <label class="fl">தொலைபேசி எண்<input id="c-phone" type="tel" inputmode="numeric" maxlength="10" value="${esc(cdata.phone||'')}" placeholder="9876543210"></label>
+    </div>
     <label class="fl">வீட்டு எண் / தெரு<input id="c-street" value="${esc(cdata.street||'')}" placeholder="எ.கா. 12, பாரதி தெரு"></label>
     <label class="fl">பகுதி / ஊர்<input id="c-locality" value="${esc(cdata.locality||'')}" placeholder="எ.கா. காந்தி நகர்"></label>
     <div class="row2">
@@ -794,6 +810,7 @@ function wireComplaint(){
   if(go) go.onclick=async()=>{
     cdata.text=document.getElementById('c-text').value.trim();
     cdata.name=document.getElementById('c-name').value.trim();
+    cdata.phone=(document.getElementById('c-phone').value||'').trim();
     cdata.street=document.getElementById('c-street').value.trim();
     cdata.locality=document.getElementById('c-locality').value.trim();
     cdata.dist=document.getElementById('c-dist').value;
@@ -803,6 +820,7 @@ function wireComplaint(){
     const m=document.getElementById('c-msg');
     if(cdata.text.length<15){m.textContent='பிரச்சனையை இன்னும் கொஞ்சம் விவரமாக எழுதுங்கள்.';return;}
     if(!cdata.name||!cdata.street||!cdata.locality){m.textContent='பெயர், தெரு, பகுதி — நிரப்பவும்.';return;}
+    if(cdata.phone&&!/^[6-9]\d{9}$/.test(cdata.phone)){m.textContent='தொலைபேசி எண் 10 இலக்கம், 6-9-ல் தொடங்க வேண்டும்.';return;}
     go.disabled=true; m.textContent='அலசுகிறோம்…';
     try{ cdata.analysis=await analyse(cdata); cstep=2; render(); }
     catch(e){ m.textContent='பிழை: '+(e.message||e); go.disabled=false; }
@@ -821,13 +839,29 @@ function wireComplaint(){
   if(sv) sv.onclick=async()=>{ sv.disabled=true;
     try{
       await FB.addDoc(FB.collection(FB.db,'petitions'),{uid:cuser.uid,email:cuser.email||'',
-        text:cdata.text.slice(0,4000),name:cdata.name,addr:cdata.addr,cat:(cdata.analysis||{}).cat_id||'',
+        text:cdata.text.slice(0,4000),name:cdata.name,phone:cdata.phone||'',addr:cdata.addr,cat:(cdata.analysis||{}).cat_id||'',
         dept:(cdata.analysis||{}).dept||'',letter:(cdata.letter||'').slice(0,6000),
         ref:document.getElementById('c-ref').value.trim(),status:'sent',created:FB.serverTimestamp()});
       document.getElementById('c-msg2').textContent='சேமிக்கப்பட்டது ✓';
     }catch(e){ document.getElementById('c-msg2').textContent='சேமிக்க முடியவில்லை: '+(e.message||e); sv.disabled=false; }
   };
 }
+function appPage(){
+  return `<article class="article">
+    <div class="kick">துலாமுள் ஆப்</div>
+    <h1>நாளிதழை ஆப்பாகப் படியுங்கள்</h1>
+    <p class="mp">துலாமுள் ஆப்பில் 17 பக்கங்களும் நாளிதழ் போலப் புரட்டிப் படிக்கலாம் — விரலால் இடதுபுறம் தள்ளினால் அடுத்த பக்கம். இணையம் இல்லாதபோதும் அன்றைய இதழ் திறக்கும்; புதிய செய்தி வந்ததும் அறிவிப்பு வரும்.</p>
+    <div class="infobox">
+      <div class="r"><span>Android</span><div>Google Play — <b>விஜயதசமி, 20 அக்டோபர் 2026</b> முதல்</div></div>
+      <div class="r"><span>இப்போது</span><div><a href="web/" style="color:var(--indigo)">உலாவியில் ஆப் வடிவம் திறக்க →</a></div></div>
+      <div class="r"><span>iPhone / Android</span><div>உலாவியில் திறந்து <b>"Add to Home screen"</b> — ஆப்பாக நிறுவப்படும்</div></div>
+    </div>
+    <h3 style="font-family:var(--serif);font-size:20px;margin-top:28px">ஆப்பில் என்ன இருக்கும்</h3>
+    <p class="mp">17 பக்க நாளிதழ் · ஒவ்வொரு செய்திக்கும் ஆடியோ · காலை 60 நொடி சுருக்கம் · தராசில் இன்று தலையங்கம் · Mr. X கேலிச்சித்திரம் · பொன்னியின் செல்வன் தினசரிக் காமிக்ஸ் · ராசிபலன் · வாரமலர் · மனு உதவி · பழைய இதழ்கள்.</p>
+    <div class="note">முழுவதும் இலவசம். சந்தா இல்லை; கட்டணச் சுவர் இல்லை; கண்காணிப்பு இல்லை.</div>
+  </article>`;
+}
+
 /* ---------- router ---------- */
 async function render(){
   chrome();
@@ -842,6 +876,7 @@ async function render(){
   if(p==='malar'){ app.innerHTML=malarPage(); return; }
   if(p==='ads'){ app.innerHTML=adsPage(); return; }
   if(p==='legal'){ app.innerHTML=legalPage(P.get('d')); return; }
+  if(p==='app'){ app.innerHTML=appPage(); return; }
   if(p==='archive'){ app.innerHTML='<div class="empty">ஏற்றுகிறோம்…</div>'; app.innerHTML=await archivePage(); return; }
   if(p==='issue'){ app.innerHTML='<div class="empty">ஏற்றுகிறோம்…</div>'; app.innerHTML=await issuePage(P.get('d')); return; }
   if(p==='complaint'){ app.innerHTML=complaintPage(); wireComplaint(); return; }
