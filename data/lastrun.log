@@ -2,21 +2,21 @@
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 21 புதியவை
+[fetch] BBC World: 16 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
 [fetch] ESPNcricinfo: 0 புதியவை
-[fetch] The Hindu Sport: 3 புதியவை
-[fetch] The Hindu Cinema: 2 புதியவை
-[fetch] Cinema Express: 30 புதியவை
+[fetch] The Hindu Sport: 1 புதியவை
+[fetch] The Hindu Cinema: 1 புதியவை
+[fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 19 புதியவை
+[fetch] Wired: 16 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 14 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 5 புதியவை
+[fetch] FreeJobAlert: 3 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,19 +24,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 16 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] The Hindu Legal: 14 புதியவை
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 16 புதியவை
+[fetch] The Hindu National: 14 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,30 +56,28 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5751c6b510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 16 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6ba593ba50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 14 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 472 → நிகழ்வுகள் 448
-[triage] 448 → 54 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] தமிழ்நாட்டு வாசகரைப் பொருந்தாத வெளிநாட்டு தயாரிப்பு ஒப்பீடு 
-[skip] ஜம்மு-காஷ்மீரின் உள்ளூர் சினிமா நிகழ்வு. தமிழ்நாட்டு வாசகருக
-[tts-edge] f6f531a31ad6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பீகார் வைஷாலியில் கட்டப்பட்டு வந்த பாலம் இடிந்து வீழ்ச்சி, ஏழு பேர் காயம்
-[skip] பிहार மாநிலத்தின் உள்ளூர் விபத்து; தமிழ்நாடு வாசகரைப் பாதிக்
-[skip] கேரளாவின் உள்ளூர் பஞ்சாயத் அரசியல் — தமிழ்நாடு/இந்திய வாசகரு
-[skip] Rajasthan RPSC வேலைவாய்ப்பு அறிவிப்பு தமிழ்நாட்டுக்கு பொருந்
-[skip] ஆந்திரப் பிரதேச பொது சேவா ஆணையம் (APPSC) தேர்வு முடிவு — தெல
-[skip] வெளிநாட்டு எழுத்தாளரின் புத்தக சாரাংசம் — தமிழ்நாடு/இந்திய வ
-[skip] வெளிநாட்டு பொருளின் விமர்சனம்; தமிழ்நாடு/இந்திய வாசகரை பாதிக
-[skip] பொதுவான சுகாதார ஆலோசனை / வளிப்பட உரை — குறிப்பிட்ட நடைமுறை, 
-[skip] மூல உரை வெறும் ஆங்கிலத்தில் தலைப்பும் விவரமும் இல்லாமல் உள்ள
-[skip] வெளிநாட்டு ஆங்கிலச் சீரிஸ் — தமிழ்நாடு/இந்திய வாசகரின் பொருத
-[skip] தமிழ் செய்தியல்ல — ஆங்கிலச் சினிமா செய்திக் குறிப்பு; தமிழ்ந
-[skip] சர்வதேশக் கிரீடாவல்ல; சாதாரণ பூமியியல் விளையாட்டு — தமிழ்நாட
-[skip] குதிரைப் பந்தயம் — தமிழ்நாட்டு விளையாட்டுப் முன்னுரிமையில் ப
+[run] புதியவை 457 → நிகழ்வுகள் 435
+[triage] 435 → 64 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] அமெரிக்க சட்ட প্রয়োগ நীতिश ஒক ড்যান்ক, தமிழ்நாடு வாসকர் সরা
+[skip] கাশ்மீர் திரைப்படத் திருவிழா — தமிழ்நாட்டு/தமிழ் திரையுலகத்த
+[skip] தமிழ்நாட்டுக்குப் பொருத்தமில்லை — அசாம் மாநிலத்தின் உள்ளூர் 
+[skip] ஜம்மு-காஷ்மீர் மாநிலத்தின் உள்ளூர் சினிமா நிகழ்வு; தமிழ்நாடு
+[skip] மகாராஷ்ட்ரத்தின் MPSC தேர்வு — தமிழ்நாட்டு வாசகருக்குப் பொரு
+[skip] IIT JAM என்பது அகில இந்திய பட்டப்படிப்புத் தேர்வு; தமிழ்நாடு
+[skip] இது மேலை நாட்டு சামাজிக விவகாரம்; தமிழ்நாடு/இந்திய வாசகரின் 
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமற்ற தனிநபர் கட்டுரை — அமெரி
+[skip] கர্நாடக மாநிலத்தின் உள்ளூர் செய்தி — பெங்களூர் போலீஸ் பணியாள
+[skip] இது ஒரு தனியார் நிறுவனத்தின் பிআர் அறிவிப்பு / தயாரிப்பு அறி
+[skip] செய்தியாக இல்லை — சினிமா விமர்சனம். விமர்சனம், புத்தக/திரைப்
+[skip] வெறும் திரைப்பட மதிப்பாய்வு — தமிழ்நாட்டு வாசகரைக் கூட்டாகப்
+[skip] Routine cricket team statement ahead of series. No match res
+[tts-edge] 5083abad8318: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆசிய கோப்பை அரையிறுதியில் ஷஃபாலி அரைசதம்; வங்கதேசம் 150 ரன் நாட.
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 2 · எழுதியவை 1
