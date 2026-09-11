@@ -1,12 +1,12 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 18 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] The Hindu TN: 14 புதியவை
+[fetch] Dinamani TN: 19 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 17 புதியவை
+[fetch] Al Jazeera: 15 புதியவை
+[fetch] ESPNcricinfo: 15 புதியவை
 [fetch] The Hindu Sport: 15 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 0 புதியவை
@@ -14,9 +14,9 @@
 [fetch] Wired: 1 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 3 புதியவை
+[fetch] The Hindu Health: 1 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 18 புதியவை
+[fetch] FreeJobAlert: 17 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 22 புதியவை
+[fetch] The Hindu Legal: 18 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 20 புதியவை
+[fetch] Dinamani Cinema: 18 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 2 புதியவை
+[fetch] TechCrunch: 0 புதியவை
 [fetch] The Verge: 0 புதியவை
-[fetch] The Hindu National: 22 புதியவை
+[fetch] The Hindu National: 18 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,48 +56,30 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fab9824d0d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 22 புதியவை
-[fetch] Dinamani Govt: 18 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f63734bced0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 18 புதியவை
+[fetch] Dinamani Govt: 19 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 433 → நிகழ்வுகள் 401
-[triage] 401 → 34 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] அமெரிக்க அரசின் ஒரு கறுப்புப் பொறி நிறுவனத்தின் (Polymarket)
-[skip] விளம்பர அறிவிப்பு — படத்தின் திரைக்காட்சி அட்டவணை மாற்றம் பற
-[skip] வெளிநாட்டு க्रिकेટ — ইংলেন্ড-পাকिस्तान टেস्ट போட்டி, தமிழ்நா
-[tts-edge] 843510b9b466: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] 9/11 தாக்குதலின் 25வது ஆண்டு நினைவு அஞ்சலி பென்டகனில் டிரம்ப் பங்கேற்பு
-[skip] நরওয়ேயின் உள்ளாட்சி நபர்களின் குடும்பச் செய்தி; தமிழ்நாடு/இ
-[skip] உலகச் செய்தி — ஆனால் தமிழ்நாடு வாசகரைக் குறிப்பாக பாதிக்காது
-[skip] அமெரிக்காவின் உள்நாட்டுச் சம்பிரதாய நிகழ்வு; தமிழ்நாடு/இந்தி
-[skip] ফিলিপাইন নাগরিকদের একটি স্থানীয় দুর্যোগ। தমিজ নাড়ু বা ভারত
-[skip] தமிழ்நாடு/இந்திய வாசகருக்குப் பொருத்தமான உள்ளூர் செய்திக்கு 
-[skip] உலக செய்தி அல்ல — இந்தியக் கூட்டமைப்பு தேர்தல், தமிழ்நாட்டு 
-[skip] யேமன் உள்நாட்டு நிகழ்வு — தமிழ்நாடு / இந்தியஜல வர்த்தகத்தில்
-[skip] ஐரோப்பா — சுவிஸ் — இந்தியா அல்லது தமிழ்நாட்டுக்கு தொடர்பு இல
-[skip] யேமனில் ஹூதி அமைப்பின் இராணுவ நடவடிக்கையும் சிவப்புக் கடல் எ
-[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாடு/இந்திய வாசகரின் முதல்
-[skip] அமெரிக்காவின் உள்நாட்டு பொருளாதாரச் செய்தி; தமிழ்நாடு/இந்திய
-[skip] தமிழ்நாட்டு / இந்திய வாசகருக்குப் பொருந்தாத வெளிநாட்டு உள்ளூ
-[skip] இது அமெரிக்கா-ரஷ்யா-உக்రைன் இடையிலான வெளிநாட்டு உறவுச் செய்த
-[skip] வெளிநாட்டுக் போர்/அரசியல் நிகழ்வு; தமிழ்நாடு/இந்திய வாசகரின்
-[skip] இது கர்நாடக மாநில மாசுக் கட்டுப்பாட்டு வாரியத் தலைவரின் கருத
-[tts-edge] cae63da059e1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பொறியாளர்களுக்கு 'Er.', விரிவுரையாளர்களுக்கு 'Lr.' முன்னொட்டு கோரிக்கை எழுச்சி
-[publish] அம்பூர் அருகே தோல் கிடங்கில் தீ விபத்து, முழுவதுமாக எரிந்து நாசம்
-[publish] வேலூர் கிறிஸ்தவ மருத்துவக் கல்லூரியில் பிரம்மி சிகிச்சை மாநாடு நடைபெற்றது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CexDsG13V7efGy2CSFdMc'}
-[publish] பணப்புழக்கத்தை குறைக்க ரூ. 1 லட்சம் கோடி வெளியேற்ற ரிசர்வ் வங்கி நடவடிக்கை
-[skip] गुजरात राज्य के लिए स्थानीय परीक्षा। तमिलनाडु के वाचकों के ल
-[skip] சீனக் நிறுவனத்தின் வெளிநாட்டுத் தொழில்நுட்ப செய்திதான் — தமி
-[skip] தமிழ்நாடு/இந்தியாவுக்குப் பொருந்தாத வெளிநாட்டு தொழில்நுட்ப ந
-[skip] பொது ஆரோக்கிய ஆலோசனை மட்டுமே; தமிழ்நாடு/இந்தியாவுக்கு குறிப்
-[publish] செயற்கை நுண்ணறிவுக் கருவிகள் மानसिक நோய் நெருக்கடியில் போதுமைய என்று வல்லுநர்கள் குறிப்பு.
-[publish] சாலமன் பாப்பையாவின் மறைவுக்கு சிவகார்த்திகேயன் புகழஞ்சலி.
-[skip] இங்கிலாந்து county cricket — தமிழ்நாடு/இந்திய வாசகருக்குப் ப
-[skip] தமிழ்நாடு/இந்திய அணி, வீரர், நிகழ்வு இல்லை — தெற்காফ்రிக்கா 
+[run] புதியவை 396 → நிகழ்வுகள் 368
+[triage] 368 → 21 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] பொழுதுபோக்கு பட்டியல் — செய்தி அல்ல. தமிழ்நாட்டு வாசகருக்கு 
+[skip] நமீபியா vs தென்னாப்பிரிக்கா — தமிழ்நாடு, இந்தியா, உலக அளவில்
+[skip] இந்தியாவுக்கு தமிழ்நாடு தொடர்பு இல்லை; வெளிநாட்டு அரசியல் — 
+[skip] வரலாற்று பகுப்பாய்வு — உடனடி செய்திகளைப் பொறுத்து 25 ஆண்டு ப
+[skip] வெளிநாட்டு உள்நாட்ட மோதல் — தமிழ்நாடு / இந்திய வாசகர் நலன் ந
+[skip] வெளிநாட்டு உள்நாட்டுத் தகவல் — யேமனின் உள்ளுறவு மற்றும் அளவி
+[skip] வெளிநாட்டு உள்நாட்டு갈등 — யேமன் অভ্যন্তரীণ அரசியல் ও ভূ-রাজনী
+[skip] இவை தமிழ்நாட்டிற்கு வெளியே அமைந்த DRDO ASL (ஐதராபாத்), CSIR 
+[skip] இது கேரளாவின் எடப்பள்ளியில் உள்ள சாலை அடிப்பாதை தொடர்பான உள்
+[skip] இது கேரளாவின் ஃபோர்ட் கொச்சியில் உள்ள ஒரு குறிப்பிட்ட குடியி
+[skip] இது கேரளாவின் கொச்சியில் நடந்த உள்ளூர் போதைப்பொருள் கைது வழக
+[tts-edge] 6d555b8e5f7d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அன்பில் அவன் படத்தின் இரண்டாவது பாடல் ப்ரோமோ வெளியீடு
+[skip] தயாரிப்பு அறிவிப்பு மட்டுமே — செய்திக்க முக்கியத்துவம் இல்லை
+[skip] Caribbean Premier League (CPL) என்பது வெளிநாட்டு உள்நாட்டுத்
+[skip] Duleep Trophy என்பது ভারতীয় দেশীয় ক্রিকেট প্রতিযোগিতা; தமि
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 7
+[done] feed 300 · pending 1 · எழுதியவை 1
