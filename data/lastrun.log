@@ -4,19 +4,19 @@
 [fetch] The Hindu TN: 16 புதியவை
 [fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 18 புதியவை
+[fetch] BBC World: 19 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 3 புதியவை
 [fetch] The Hindu Sport: 4 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 1 புதியவை
-[fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 2 புதியவை
+[fetch] Cinema Express: 0 புதியவை
+[fetch] The Hindu Tech: 1 புதியவை
+[fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 4 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: பிழை HTTPSConnectionPool(host='www.freejobalert.com', port=443): Read timed out. (read timeout=20)
+[fetch] FreeJobAlert: 29 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 10 புதியவை
-[fetch] The Hindu Legal: 17 புதியவை
+[fetch] Bar and Bench: 15 புதியவை
+[fetch] The Hindu Legal: 18 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 24 புதியவை
+[fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 0 புதியவை
-[fetch] The Verge: 6 புதியவை
-[fetch] The Hindu National: 17 புதியவை
+[fetch] The Verge: 5 புதியவை
+[fetch] The Hindu National: 18 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,21 +56,18 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f486bd54050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 17 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f098689fad0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 18 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 407 → நிகழ்வுகள் 380
-[triage] 380 → 45 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] விளம்பர/தயாரிப்பு அறிவிப்பு — தமிழ்நாடு வாசகருக்குப் பொருத்த
-[skip] கேரளா மாநில மின்சாரத் துறைச் செய்தி. தமிழ்நாட்டு வாசகருக்குப
-[skip] விளம்பர/தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
-[skip] வெளிநாட்டு தொழிற்சாலைக்குப் பொருந்தாத பொதுமுதல் தொழில்நுட்ப 
-[tts-edge] a67bff589636: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சூரியின் 'மண்டாடி' முதல் நாளே தமிழ்நாட்டில் பெரும் வசூல்
-[tts-edge] 31c6f693fcc0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] சூரி முதல் நாளில் கார்த்தியின் வசூலைத் தாண்டியது.
+[run] புதியவை 441 → நிகழ்வுகள் 401
+[triage] 401 → 32 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] OpenAI ஐ ஆக்கிரமிக்கும் உள் நிர்வாக முடிவு; தமிழ்நாடு/இந்திய
+[skip] சோனியா காந்தியின் புத்தகம் வெளியீடு — இது தமிழ்நாட்டுக் வாசக
+[skip] Apple Watch, iPhone போன்ற பொதுலக நுகர்வோர் மின்னணுப் பொருட்க
+[skip] விளையாட்டு விளம்பரம் — PS5 விளையாட்டு மதிப்பாய்வு. தமிழ்நாடு
+[skip] மூல உரையில் கதை, ஆண்டு, வெளியாகும் நாள், தயாரிப்பு குறிப்புக
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 2
+[done] feed 300 · pending 1 · எழுதியவை 0
