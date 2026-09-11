@@ -6,12 +6,12 @@
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 22 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 13 புதியவை
-[fetch] The Hindu Sport: 10 புதியவை
+[fetch] ESPNcricinfo: 15 புதியவை
+[fetch] The Hindu Sport: 12 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 5 புதியவை
+[fetch] Cinema Express: 4 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 1 புதியவை
+[fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 4 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 9 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 11 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 0 புதியவை
-[fetch] The Verge: 1 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] TechCrunch: 1 புதியவை
+[fetch] The Verge: 3 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,17 +56,17 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2f77c5e050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1a2dfa73d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 512 → நிகழ்வுகள் 457
-[triage] 457 → 47 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] கேரளா மாநில PSC தொடர்பான செய்தி. தமிழ்நாடு வாசகரைப் பாதிக்கா
-[skip] வெளிநாட்டு தொழில்நுட்ப விতர்க்கை — தமிழ்நாடு/இந்திய வாசகரைப்
-[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருத்தமில்லை — வெளிநாட்டு ই
-[skip] வெறும் சினிமா ব্যক্তিगত சাক்ষাৎ செய்தி — தமிழ்நாடு வாசகருக்க
+[run] புதியவை 516 → நிகழ்வுகள் 465
+[triage] 465 → 20 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] இந்தியாவுக்கும் தமிழ்நாட்டுக்கும் நேரடிப் பொருந்தமின்றி, ஈரா
+[skip] Automattic என்பது அமெரிக்க நிறுவனம்; தமிழ்நாடு/இந்தியாவுக்கு
+[skip] Meta ஒரு அமெரிக்க நிறுவனம்; இது வெளிநாட்டு தொழில்நுட்ப நிறுவ
+[skip] வெளிநாட்டு சினிமா — தமிழ் மொழியிலோ தமிழ் நடிகர்களிலோ சம்பந்த
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
