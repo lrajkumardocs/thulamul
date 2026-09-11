@@ -1,5 +1,5 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 26 புதியவை
@@ -9,8 +9,8 @@
 [fetch] ESPNcricinfo: 0 புதியவை
 [fetch] The Hindu Sport: 2 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 7 புதியவை
-[fetch] The Hindu Tech: 1 புதியவை
+[fetch] Cinema Express: 5 புதியவை
+[fetch] The Hindu Tech: 0 புதியவை
 [fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 6 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 5 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 7 புதியவை
+[fetch] TechCrunch: 5 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 6 புதியவை
+[fetch] The Hindu National: 5 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 28 புதியவை
+[fetch] Sportstar: 29 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,22 +56,20 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9f452566d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 6 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb412c48450>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 5 புதியவை
 [fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 380 → நிகழ்வுகள் 364
-[triage] 364 → 61 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு பொதுவான தொழில் பரிமாற்ற கட்டுரை — தமிழ்நாடு/இந்தி
-[tts-edge] 297ebbe276b7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வினேஷ் போகாட்டுக்கு இடைக்கால நிவாரணம் மறுத்த டெல்லி உயர் நீதிமன்றம்
-[skip] வங்கி வேலைநிறுத்தம் — அகில இந்திய நிகழ்வு; தமிழ்நாட்டுக்குக்
-[skip] ஆந்திரப் பிரதேசத்தின் வானிலை எச்சரிக்கை — தமிழ்நாட்டுக்குப் 
-[skip] தமிழ்நாடு / இந்தியாவைப் பாதிக்காத வெளிநாட்டு தொழில்நுட்ப நிற
-[skip] தமிழ்நாட்டு/இந்திய தொடர்பு இல்லை — வெளிநாட்டு பொதுச் சேவைகளை
-[skip] தமிழ்ப் படமல்ல; தெலுங்குப் படம் — தமிழில் வெளியாகும் தகவல் இ
-[skip] தமிழ் நடிகர்கள் பற்றிய சர்ச்சை என்றாலும், மூல உரையில் மாளவிக
+[run] புதியவை 376 → நிகழ்வுகள் 360
+[triage] 360 → 45 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] சர்வதேশীய தொழில்நுட்ப நிறுவனங்களின் மலிவுப்படுத்தல் மற்றும் 
+[skip] இந்தச் செய்தி தமிழ்நாட்டு/இந்திய வாசகரைக் குறிப்பாகப் பாதிக்
+[skip] ஆந்திர பிரதேச மாநிலத்தில் நிகழ்ந்த ரயில்வே போலீசின் உள்ளூர் 
+[skip] வெளிநாட்டு தனியார் நிறுவனத்தின் நிதி உயர்த்தல் — தமிழ்நாடு அ
+[skip] வெளிநாட்டு நிறுவனத்தின் சர்வதேশீয় வணிக ஒப்பந்தம் — தமிழ்நாட
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்கும் தமிழ் சினிமாச் செய்தியல்ல — 
+[skip] தலைப்பு மட்டும் உள்ளது; முழு செய்தி இல்லை. பத்திரிகை மூலத்தி
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 1
+[done] feed 300 · pending 0 · எழுதியவை 0
