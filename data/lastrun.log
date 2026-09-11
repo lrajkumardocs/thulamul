@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 24 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 16 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 0 புதியவை
-[fetch] The Hindu Sport: 0 புதியவை
+[fetch] The Hindu Sport: 1 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 21 புதியவை
+[fetch] Cinema Express: 19 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 7 புதியவை
+[fetch] Wired: 4 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 6 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 8 புதியவை
+[fetch] The Hindu Legal: 6 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 27 புதியவை
+[fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 8 புதியவை
+[fetch] The Hindu National: 6 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,23 +56,21 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc3e50a3090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 8 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4523626350>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 6 புதியவை
 [fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 409 → நிகழ்வுகள் 392
-[triage] 392 → 67 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] உலக தொழில்நுட்ப நிறுவனங்களின் உள்நாட்டுக் கொள்கை விவாதம் — த
-[skip] கேரளத்தின் உள்ளூர் நிகழ்வு; தமிழ்நாட்டு வாசகரின் நேரடிச் செய
-[skip] மேघாலயம் (மேற்கு வங்கத்துக்கு அருகில் உத்திரப்രதேશத்தின் ஒரு
-[skip] விளம்பர/தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்திய வாசகருக்குப் 
-[skip] தமிழ்நாடு/இந்திய வாசகருக்கு உடனடி প্রভாவம் இல்லை. Anthropic 
-[tts-edge] 35492bff4968: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நினைவாற்றல் இழப்பு ஏற்படாத பக்ষாঘাத நோய் வகை உண்டு.
-[skip] தெலுங்கு/கன्నड படமான Sardar படத்தின் அடுத்த பாகம்; தமிழ்நாட்
-[skip] ஐந்து சொல்லுக்கும் குறைவான உள்ளடக்கம்; தெலுங்குப் படிப்பறிக்
-[skip] வெளிநாட்டு உள்நாட்டு T20 தொடர் (Big Bash — ஆஸ்திரேலிய லீગ்).
+[run] புதியவை 400 → நிகழ்வுகள் 385
+[triage] 385 → 75 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] San Francisco நகரின் Meta-க்கு எதிரான சட்ட நடவடிக்கை. தமிழ்ந
+[skip] ஆன்மிக/மத விளக்கம் — செய்தி அல்ல; தமிழ்நாடு வாசகரின் செயல்பற
+[skip] Delhi High Court வழக்கு விநேஷ் ஃபோகாட்டின் ஆண்டுக்குப் பின் 
+[skip] தமிழ்நாடு / இந்திய வாசகருக்குப் பொருந்தாது. அமெரிக்க அரசியல்
+[skip] Apple Watch நிகழ்வு தமிழ்நாடு வாசகরைப் பாதிக்காது; பொருள் பற
+[skip] தமிழ்த் திரையுலகத்துடன் தொடர்பில்லாத தனிநபர் சர்ச்சை மற்றும்
+[skip] Sardar 2 என்பது தெலுங்கு படம்; தமிழ்நாட்டில் வெளியாகும் அல்ல
+[skip] வினேஷ் ஃபோகாத்தின் தனிநபர் சட்ட வழக்கு — தில்லி உচ்ச நீதிமன்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 2 · எழுதியவை 1
+[done] feed 300 · pending 2 · எழுதியவை 0
