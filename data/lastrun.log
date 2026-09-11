@@ -4,19 +4,19 @@
 [fetch] The Hindu TN: 14 புதியவை
 [fetch] Dinamani TN: 19 புதியவை
 [fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 15 புதியவை
+[fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 18 புதியவை
 [fetch] ESPNcricinfo: 13 புதியவை
-[fetch] The Hindu Sport: 3 புதியவை
+[fetch] The Hindu Sport: 4 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 0 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
 [fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 1 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 5 புதியவை
+[fetch] FreeJobAlert: 4 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,7 +24,7 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 2 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=10)
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
@@ -34,7 +34,7 @@
 [fetch] Dinamani Cinema: 13 புதியவை
 [fetch] Dinamani Sports: 20 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 1 புதியவை
+[fetch] TechCrunch: 0 புதியவை
 [fetch] The Verge: 0 புதியவை
 [fetch] The Hindu National: 12 புதியவை
 [fetch] NDTV India: 20 புதியவை
@@ -56,15 +56,25 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff018ad1510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f907c616e90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 12 புதியவை
 [fetch] Dinamani Govt: 19 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 340 → நிகழ்வுகள் 324
-[triage] 324 → 4 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனத்தின் நிதி சுற்று — தமிழ்நாடு/
-[skip] ஜம்மு-காஷ்மீர் அரசுத் தேர்வு — தமிழ்நாட்டுக்கு நேரடி தொடர்பு
+[run] புதியவை 342 → நிகழ்வுகள் 326
+[triage] 326 → 14 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] இத்தாலியில் நிகழ்ந்த குற்ற வழக்கு. தமிழ்நாடு/இந்தியப் வாசகரை
+[skip] ஐரோப்பாவின் உள்நாட்டுத் துயரம் — தமிழ்நாடு/இந்திய வாசகரை நேர
+[skip] அமெரிக்க உள்நாட்டு குற்றவியல் வழக்கு — தமிழ்நாடு/இந்திய வாசக
+[skip] தமிழ்நாடு அல்லது இந்திய வாசகரைப் பாதிக்காது — பலஸ்தீன் உள்ளூ
+[skip] DRC-ல் ஏற்பட்ட பள்ளிப் பள்ளி தீ விபத்து தமிழ்நாடு / இந்திய வ
+[skip] வெளிநாட்டு உள்ளூர் ஊழல் வழக்கு — தமிழ்நாடு/இந்திய வாசகருக்கு
+[skip] ஃபிலிப்பைனில் நடந்த கப்பல் தீக்காண்ட சம்பவம். தமிழ்நாடு அல்ல
+[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருத்தமில்லை. நைஜீரியர்கள் 
+[skip] ஒரு ফ்রான்சிய கிராமத்தின் உள்ளூர் குற்ற வழக்கு; தமிழ்நாடு/இந
+[skip] ब्राजीलचे राजकीय व्यक्तिमत्वाचे भ्रष्टाचार प्रकरण तमिळनाडू व
+[skip] வெளிநாட்டு இரண்டு நாட்டுக்கிடையிலான στρατιωτικό மோதல் — தமிழ
+[skip] தமிழ்நாட்டு வாசகருக்கான செய்தி அல்ல. இது ஒரு பல்கலைக்கழக தேர
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 2 · எழுதியவை 0
