@@ -9,14 +9,14 @@
 [fetch] ESPNcricinfo: 0 புதியவை
 [fetch] The Hindu Sport: 2 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 5 புதியவை
+[fetch] Cinema Express: 3 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
 [fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 7 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 0 புதியவை
+[fetch] FreeJobAlert: 5 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
-[fetch] The Hindu Legal: 5 புதியவை
+[fetch] Bar and Bench: 3 புதியவை
+[fetch] The Hindu Legal: 7 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 5 புதியவை
+[fetch] TechCrunch: 2 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 5 புதியவை
+[fetch] The Hindu National: 7 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,20 +56,23 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb412c48450>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 5 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9aaaccafd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 7 புதியவை
 [fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 376 → நிகழ்வுகள் 360
-[triage] 360 → 45 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] சர்வதேশীய தொழில்நுட்ப நிறுவனங்களின் மலிவுப்படுத்தல் மற்றும் 
-[skip] இந்தச் செய்தி தமிழ்நாட்டு/இந்திய வாசகரைக் குறிப்பாகப் பாதிக்
-[skip] ஆந்திர பிரதேச மாநிலத்தில் நிகழ்ந்த ரயில்வே போலீசின் உள்ளூர் 
-[skip] வெளிநாட்டு தனியார் நிறுவனத்தின் நிதி உயர்த்தல் — தமிழ்நாடு அ
-[skip] வெளிநாட்டு நிறுவனத்தின் சர்வதேশீয় வணிக ஒப்பந்தம் — தமிழ்நாட
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்கும் தமிழ் சினிமாச் செய்தியல்ல — 
-[skip] தலைப்பு மட்டும் உள்ளது; முழு செய்தி இல்லை. பத்திரிகை மூலத்தி
+[run] புதியவை 383 → நிகழ்வுகள் 363
+[triage] 363 → 51 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டுத் தகவல் தொழில்நுட்ப நிறுவனம், தமிழ்நாடு/இந்திய வா
+[skip] அசாமின் மாराथון நிகழ்வு — தமிழ்நாடு வாசகருக்குப் பொருத்தமற்ற
+[skip] இது அரசுக் கொள்கைச் செய்தி அல்ல. வெளிநாட்টு விருந்தினரின் சந
+[skip] RRB Technician தேர்வு அறிவிப்பு அகில இந்திய அளவில் உள்ளது. த
+[skip] வெளிநாட்டு tech நிறுவனத்தின் நிறுத்தம், தமிழ்நாட்டு / இந்திய
+[skip] வெளிநாட்டு tech நிறுவனத்தின் (Slack) உலகளாவிய feature அறிவிப
+[skip] பிற மொழிப் படம் பற்றிய செய்தி. தமிழ்த் திரையுலகம், தமிழ் நடி
+[skip] AR Rahman-ன் பாடல் வீடியோ வெளியீடு — சாதாரণ தயாரிப்பு அறிவிப
+[tts-edge] jobs_20260911: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[jobs] தொகுப்பு 5
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
