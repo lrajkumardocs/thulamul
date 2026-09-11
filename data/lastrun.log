@@ -1,16 +1,16 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 25 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 19 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 3 புதியவை
+[fetch] ESPNcricinfo: 4 புதியவை
 [fetch] The Hindu Sport: 4 புதியவை
-[fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 0 புதியவை
-[fetch] The Hindu Tech: 1 புதியவை
+[fetch] The Hindu Cinema: 1 புதியவை
+[fetch] Cinema Express: 1 புதியவை
+[fetch] The Hindu Tech: 0 புதியவை
 [fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 15 புதியவை
-[fetch] The Hindu Legal: 18 புதியவை
+[fetch] Bar and Bench: 16 புதியவை
+[fetch] The Hindu Legal: 21 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 23 புதியவை
+[fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 0 புதியவை
-[fetch] The Verge: 5 புதியவை
-[fetch] The Hindu National: 18 புதியவை
+[fetch] The Verge: 3 புதியவை
+[fetch] The Hindu National: 21 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 29 புதியவை
+[fetch] Sportstar: 30 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,18 +56,18 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f098689fad0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 18 புதியவை
-[fetch] Dinamani Govt: 25 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f34c8a6ca10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 21 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 441 → நிகழ்வுகள் 401
-[triage] 401 → 32 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] OpenAI ஐ ஆக்கிரமிக்கும் உள் நிர்வாக முடிவு; தமிழ்நாடு/இந்திய
-[skip] சோனியா காந்தியின் புத்தகம் வெளியீடு — இது தமிழ்நாட்டுக் வாசக
-[skip] Apple Watch, iPhone போன்ற பொதுலக நுகர்வோர் மின்னணுப் பொருட்க
-[skip] விளையாட்டு விளம்பரம் — PS5 விளையாட்டு மதிப்பாய்வு. தமிழ்நாடு
-[skip] மூல உரையில் கதை, ஆண்டு, வெளியாகும் நாள், தயாரிப்பு குறிப்புக
+[run] புதியவை 454 → நிகழ்வுகள் 417
+[triage] 417 → 43 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு தயாரிப்பு அறிவிப்பு — Meta Muse தமிழ்நாடு/இந்தியர
+[skip] झारखंड उच्च न्यायालय का आदेश — तमिलनाडु के पाठकों के लिए सीध
+[skip] தமிழ்நாட்டுக்கு அசంబന்ధமான அமெரிக்க உள்நாட்டு மீடியா சர்ச்சை
+[skip] iPhone Duo ஆப்பிளின் புதிய மடக்கக்கூடிய ஸ்மார்ட்ஃபோன்; வெளிந
+[skip] മലയാളം സിനിമയുടെ കേരളത്തിലെ ഉള്ളൂർ സംഭവം; തമിഴ്നാട് വായനക്കാ
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 1 · எழுதியவை 0
