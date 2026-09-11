@@ -6,12 +6,12 @@
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 22 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 7 புதியவை
+[fetch] ESPNcricinfo: 8 புதியவை
 [fetch] The Hindu Sport: 4 புதியவை
-[fetch] The Hindu Cinema: 0 புதியவை
+[fetch] The Hindu Cinema: 1 புதியவை
 [fetch] Cinema Express: 3 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 3 புதியவை
+[fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 3 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 24 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] The Hindu Legal: 23 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 0 புதியவை
 [fetch] The Verge: 1 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Hindu National: 23 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,18 +56,16 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f56c2454950>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe84a6736d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 23 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 495 → நிகழ்வுகள் 440
-[triage] 440 → 50 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு உள்ளூர் நிறுவனத்தின் விளம்பரம்; தமிழ்நாடு அல்லது 
-[skip] தெலங்கானா அரசின் உள்நாட்டுச் செய்தி. தமிழ்நாட்டு வாசகரைப் பா
-[skip] தயாரிப்பு சுப்பரிசை / விளம்பர அறிவிப்பு — தமிழ்நாடு / இந்திய
-[skip] வெளிநாட்டு விவசாய உপকरণ செய்திஆகியது தமிழ்நாடு/இந்திய வாசகர்
-[skip] வெளிநாட்டு நபரின் மரணம் அறிவிப்பு; தமிழ்நாடு வாசகர்க்கு நேரட
+[run] புதியவை 491 → நிகழ்வுகள் 439
+[triage] 439 → 40 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு தயாரிப்பு வெளியீடு — தமிழ்நாடு அல்லது இந்திய வாசக
+[skip] This is a local temple rope car service resumption in Kanche
+[skip] இது ஒரு நபரின் இலக்கியச் சாதனம் மற்றும் பாடநெறி (talk shows)
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 1 · எழுதியவை 0
