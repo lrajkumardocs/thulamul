@@ -1,16 +1,16 @@
-[expire] 0d5e1b404fd1
+[expire] f475921ce666
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 16 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 0 புதியவை
 [fetch] The Hindu Sport: 0 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 15 புதியவை
+[fetch] Cinema Express: 13 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
 [fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -30,14 +30,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 5 புதியவை
+[fetch] The Hindu Legal: 6 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 25 புதியவை
+[fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 18 புதியவை
+[fetch] TechCrunch: 15 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 5 புதியவை
+[fetch] The Hindu National: 6 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,21 +57,22 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f88718fef10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 5 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7feff9ae5310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 6 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 390 → நிகழ்வுகள் 375
-[triage] 375 → 38 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு நபரின் விளம்பர அறிவிப்பு; தமிழ்நாடு/இந்திய வாசகரை
-[skip] கேரளத்தில் நடந்த வழக்கு; தமிழ்நாட்டு வாசகரைப் பாதிக்கவில்லை.
-[skip] கேரளத்தின் கাസരகോഡ് மாவட்டத்தில் நடந்த வனச் சரகம் சம்பந்தமான
-[skip] OpenAI-ன் சந்தாக்கள் பற்றிய உலகச் செய்தி; தமிழ்நாடு / இந்திய
-[skip] வெளிநாட்டு AI நிறுவனங்களிடையேயான தொழில்நுட்ப விவாதம்; தமிழ்ந
-[skip] தமிழ்நாட்டு வாசகரின் நலனுக்குப் பொருந்தாத செய்தி — தமிழ் நடி
-[skip] தமிழ் திரையுலகம் அல்ல — தெலுங்குப் படம். தமிழ்நாடு வாசகரின் 
-[skip] ब्राज़ील के फुटबॉल खिलाड़ी की व्यक्तिगत उपलब्धि — तमिलनाडु /
+[run] புதியவை 389 → நிகழ்வுகள் 374
+[triage] 374 → 53 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனத்தின் நிதி அறிவிப்பு — தமிழ்நா
+[skip] मध्य प्रदेश के मुख्यमंत्री का कथन है, तमिलनाडु के वाचकों के 
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமான அரசு அறிவிப்பு அல்ல. இந்
+[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனத்தின் அப்ளிகேশன் வெளியீடு. தமி
+[skip] ஐரோப்பா நிலவாசத்தில் ஒரு தனியார் நிறுவனத்தின் ஆலை அமைப்பு பற
+[skip] தமிழ்த் திரையுலகத்துடன் நேரடி தொடர்பு இல்லை. மலையாளம்/ஆंग्रे
+[skip] வெளிநாட்டு நபரின் (Kangana Ranaut) மற்றொரு மாநிலத்தின் (தெலு
+[tts-edge] c3246d28a297: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆப்கானிஸ்தான் டி20 தொடரிலிருந்து ஹர்ஷித் ராணா விலகுகிறார்.
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 1
