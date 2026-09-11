@@ -1,13 +1,13 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 14 புதியவை
 [fetch] Dinamani TN: 19 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 15 புதியவை
-[fetch] Al Jazeera: 18 புதியவை
+[fetch] Al Jazeera: 17 புதியவை
 [fetch] ESPNcricinfo: 13 புதியவை
-[fetch] The Hindu Sport: 12 புதியவை
+[fetch] The Hindu Sport: 9 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 0 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 1 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 12 புதியவை
+[fetch] FreeJobAlert: 9 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 13 புதியவை
+[fetch] The Hindu Legal: 11 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 14 புதியவை
+[fetch] Dinamani Cinema: 13 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 2 புதியவை
-[fetch] The Verge: 1 புதியவை
-[fetch] The Hindu National: 13 புதியவை
+[fetch] TechCrunch: 1 புதியவை
+[fetch] The Verge: 0 புதியவை
+[fetch] The Hindu National: 11 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,29 +56,18 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9c8c2f32d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6304995ed0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 11 புதியவை
 [fetch] Dinamani Govt: 19 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 368 → நிகழ்வுகள் 348
-[triage] 348 → 30 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனத்தின் (Y Combinator) தலைவரின் 
-[skip] இந்திய கிரிக்கெட் வீரர் ஒருவரின் ব்যক்তிगত கருத்து; தமிழ்நாட
-[tts-edge] 920ad67f485b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] NSE IPO விலை வரம்பு குறைப்பு, ₹21,494 கோடி முதல் திரட்ட திட்டம்
-[skip] வெளிநாட்டு அரசியல் — UK-இஸ்রேல் உறவு, தமிழ்நாடு/இந்திய வாசகர
-[skip] இது ஐக்கிய இராஜ்ஜியத்தின் உள்நாட்டு சட்ட விவகாரம்; தமிழ்நாடு
-[skip] இவை மேற்கு வங்க மாநிலப் பல்கலைக்கழகங்களின் (WBUAFS, கல்கத்தா
-[tts-edge] 80350baf8c6a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இந்தியா-கனடா உறவு மீட்டமைப்பை தாண்டியது என உயர் ஸ்தானிகர் தெரிவிப்பு
-[publish] உக்ரைன் போரை முடிவுக்குக் கொண்டுவர வேண்டும் என புதின் சந்திப்பில் மோடி வலியுறுத்தல்
-[skip] OpenAI மற்றும் கணிதவியலாளர்களுக்கு இடையிலான சர்ச்சை தமிழ்நாட
-[skip] வெளிநாட்டு (அமெரிக்கா) நீதிமன்ற வழக்கு. தமிழ்நாடு / இந்திய வ
-[publish] கௌதம் ராம் கார்த்திக் படத்தின் டீசர் தேதி வெளியானது.
-[skip] வெளிநாட்டு உள்ளூர் லీग் — GCL (கிரீஸ்) பற்றிய செய்தி; தமிழ்ந
-[skip] வெளிநாட்டு ক্রীড়া খবর - ভারতীয় ক্রীড়াবিদের ব্যক্তিগত কর্ম
+[run] புதியவை 351 → நிகழ்வுகள் 335
+[triage] 335 → 7 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] தமிழ்நாட்டு வாசகருக்குத் தொடர்புடையதல்ல. அமெரிக்க ஆதிக்க மூல
+[skip] வெளிநாட்டு மோட்டார்சைக்கிள் பந்தயம் — தமிழ்நாட்டு/இந்திய வாச
+[skip] கர்நாடகா அரசின் உள்ளூர் பொலிசு தேர்வு முடிவு — தமிழ்நாட்டு வ
+[skip] வெளிநாட்டுக் குதிரைச் சவாரிப் போட்டி — தமிழ்நாடு / இந்திய வா
+[skip] மூல உரையில் செய்தித் தகவல் இல்லை; தலைப்பு மட்டும் உள்ளது. இந
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 4
+[done] feed 300 · pending 2 · எழுதியவை 0
