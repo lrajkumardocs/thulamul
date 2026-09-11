@@ -1,5 +1,66 @@
 [
  {
+  "headline": "அமெரிக்க நுகர்வோர் விலைவாசி ஆகஸ்ட் மாதம் 3.4% உயர்வு, வட்டி விகித அதிகரிப்பு எதிர்பார்ப்பு.",
+  "lines": [
+   "அமெரிக்காவில் ஆகஸ்ட் மாதத்தில் நுகர்வோர் விலைவாசி முந்தைய ஆண்டைக் காட்டிலும் 3.4% அதிகரித்துள்ளது, முக்கியமாக பெட்ரோல் விலை உயர்வு காரணமாக.",
+   "மாதாந்திர நுகர்வோர் விலைக் குறியீடு 0.4% உயரும் என பொருளாதார நிபுணர்கள் எதிர்பார்க்கின்றனர், உணவு மற்றும் எரிசக்தியைத் தவிர்த்த அடிப்படை குறியீடு 0.3% உயர்ந்துள்ளது.",
+   "இந்த விலைவாசி உயர்வு காரணமாக, அமெரிக்க மத்திய வங்கியான பெடரல் ரிசர்வ் வட்டி விகிதத்தை உயர்த்தும் வாய்ப்பு அதிகரித்துள்ளது என நிபுணர்கள் தெரிவிக்கின்றனர்.",
+   "சந்தை நிபுணர்களின் கணிப்பின்படி, 25 அடிப்படை புள்ளிகள் வட்டி விகித உயர்வுக்கான வாய்ப்பு 70% ஆக உள்ளது.",
+   "பெடரல் ரிசர்வின் அடுத்த கொள்கை முடிவு, இந்த விலைவாசி தரவுகளின் அடிப்படையில் எடுக்கப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "அமெரிக்க வட்டி விகித முடிவுகள் உலகளாவிய பங்குச் சந்தைகளையும் இந்திய சந்தையையும் பாதிக்கக்கூடும் என்பதால் இந்த தரவு கவனிக்கப்பட வேண்டியது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "அமெரிக்கா",
+   "பெடரல் ரிசர்வ்",
+   "நுகர்வோர் விலைக் குறியீடு",
+   "பெட்ரோல் விலை"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "US Consumer Inflation Rises 3.4% YoY in August, Rate Hike Expected",
+   "lines": [
+    "US consumer prices rose 3.4% year-on-year in August, driven mainly by higher gasoline prices.",
+    "Economists expect the monthly consumer price index to rise by 0.4%, while the core index, excluding food and energy, rose 0.3%.",
+    "Due to this rise in inflation, the likelihood of the Federal Reserve raising interest rates has increased, experts say.",
+    "According to market analysts, there is now a 70% chance of a 25-basis-point interest rate hike.",
+    "The Federal Reserve's next policy decision is expected to be based on this inflation data."
+   ],
+   "closing": "US interest rate decisions can affect global stock markets, including India's, making this data worth watching."
+  },
+  "front_cat": "price_policy",
+  "image_query": "US Federal Reserve inflation",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1732aebd8846",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-09-12T03:39+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/us-stocks/news/us-consumer-inflation-picks-up-in-august-up-3-4-yoy/articleshow/134068712.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Inflation_compared_to_federal_funds_rate.jpg/1280px-Inflation_compared_to_federal_funds_rate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · U.S. Bureau of Labor Statistics, Board o",
+   "license": "Public domain",
+   "symbolic": true
+  },
+  "audio": "data/audio/1732aebd8846.mp3",
+  "created_ts": 1789164586.7899494,
+  "status": "published"
+ },
+ {
   "headline": "கௌதம் ராம் கார்த்திக் படத்தின் டீசர் தேதி வெளியானது.",
   "lines": [
    "நடிகர் கௌதம் ராம் கார்த்திக் நடித்த 'ப்ளடி பாலிடிக்ஸ்' என்ற திரைப்படத்தின் டீசர் வெளியாக இருக்கும் தேதি அறிவிக்கப்பட்டுள்ளது.",
@@ -17550,59 +17611,6 @@
   "image": null,
   "audio": "data/audio/b5c1986a372d.mp3",
   "created_ts": 1788734451.1104813,
-  "status": "published"
- },
- {
-  "headline": "உக்ரைன் அமைதிப் பேச்சுவார்த்தைகள் மிகவும் அர்த்தமுள்ளதாக இருந்தது என விட்காஃப் தெரிவிப்பு",
-  "lines": [
-   "அமெரிக்க சிறப்புத் தூதர் ஸ்டீவ் விட்காஃப், உக்ரைன் மோதலை முடிவுக்குக் கொண்டுவரும் அமைதிப் பேச்சுவார்த்தைகள் மிகவும் அர்த்தமுள்ளதாக இருந்ததாகக் கூறினார்.",
-   "அல் ஜசீரா நிறுவனத்திடம் வெளியிட்ட ஒரு காணொளியில் இந்தக் கருத்தை அவர் தெரிவித்தார்.",
-   "பேச்சுவார்த்தைகள் யாருக்கிடையே எந்த இடத்தில் நடைபெற்றன என்பது குறித்த விவரங்கள் இந்த அறிக்கையில் இல்லை.",
-   "உக்ரைன்-ரஷ்யா மோதலை முடிவுக்குக் கொண்டுவர அமெரிக்கா தரப்பில் தொடர்ந்து இராஜதந்திர முயற்சிகள் நடைபெற்று வருகின்றன.",
-   "பேச்சுவார்த்தைகளின் அடுத்த கட்ட நிலவரம் குறித்து இதுவரை அதிகாரப்பூர்வ விரிவான அறிவிப்பு வெளியாகவில்லை."
-  ],
-  "closing": "இந்த அறிக்கையில் பேச்சுவார்த்தைகளின் தரப்புகள், இடம், நேரம் குறித்த விவரங்கள் தெளிவாகக் கூறப்படவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "ஸ்டீவ் விட்காஃப்",
-   "உக்ரைன்",
-   "ரஷ்யா",
-   "அமெரிக்கா",
-   "அல் ஜசீரா"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Witkoff says Ukraine peace talks have been very meaningful",
-   "lines": [
-    "US special envoy Steve Witkoff said peace talks aimed at ending the conflict in Ukraine have been very meaningful.",
-    "He made this remark in a video statement given to Al Jazeera.",
-    "The report does not provide details on which parties took part in the talks or where they were held.",
-    "The United States continues its diplomatic efforts to bring an end to the Russia-Ukraine conflict.",
-    "No detailed official announcement has been made so far on the next stage of the talks."
-   ],
-   "closing": "The report does not clearly state the parties, location, or timing of the talks."
-  },
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "a2b3c11539f1",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-09-07T04:10+05:30",
-  "links": [
-   "https://www.aljazeera.com/video/newsfeed/2026/9/6/witkoff-says-peace-talks-have-been-very-meaningful-in-ukraine?traffic_source=rss"
-  ],
-  "image": null,
-  "audio": "data/audio/a2b3c11539f1.mp3",
-  "created_ts": 1788734427.4374754,
   "status": "published"
  }
 ]
