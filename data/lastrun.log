@@ -1,16 +1,16 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 26 புதியவை
+[fetch] The Hindu TN: 25 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 23 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] ESPNcricinfo: 20 புதியவை
 [fetch] The Hindu Sport: 14 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 1 புதியவை
-[fetch] The Hindu Tech: 0 புதியவை
+[fetch] Cinema Express: 0 புதியவை
+[fetch] The Hindu Tech: 1 புதியவை
 [fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 4 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
-[fetch] Dinamalar Aanmeegam: 0 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
+[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 0 புதியவை
-[fetch] The Verge: 2 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Verge: 0 புதியவை
+[fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,17 +56,51 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5f6396f190>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa65ec99750>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 498 → நிகழ்வுகள் 452
-[triage] 452 → 31 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] தமிழ்நாட்டு வாசகரால் தற்போது செயல்பட வேண்டிய அரசு அறிவிப்பு 
-[skip] வெளிநாட்டுப் பொருளாக இருப்பினும் தமிழ்நாட்டு வாசকரைப் பாதிக்
-[skip] தமிழ்நாடு/இந்திய வாசகருக்குப் பொருத்தமில்லை — வெளிநாட்டு You
-[skip] உருவாக்கத்தடையான சினிமா அறிவிப்பு — நடிப்பு முடிந்ததென்பது த
+[run] புதியவை 498 → நிகழ்வுகள் 450
+[triage] 450 → 65 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] இது மும்பை பார் அசோசியேஷன் மற்றும் தாய்லாந்து சட்டவல்லுநர் க
+[skip] AIIMS NEET cutoff is an all-India medical entrance counselli
+[skip] விளம்பர/தயாரிப்பு அறிவிப்பு — BRICS நாடுகளின் உலக வணிக நிகழ்
+[skip] கூட்டம், சেமினார், பேரணி — வழக்கமான நிகழ்வு; மக்களைப் பாதிக்
+[skip] மலையாளப் படம் — தமிழ்நாட்டு வாசகருக்குப் பொருந்தாதது. தமிழ் 
+[skip] வெளிநாட்டு கிரிக்கெட் — இந்திய அணி சம்பந்தப்பட்டாலும் தமிழ்ந
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cex9NYHZQv7YpP2jjotoW'}
+[tts-edge] 398f13088991: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழறிஞர் சாலமன் பாப்பையா காலமானார், தலைவர்கள் இரங்கல்
+[tts-edge] a3cef0d5c04c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] கள்ளக்குறிச்சியில் அரசுப் பள்ளி மாணவி உயிரிழப்பு; ஆசிரியர் போக்சோ சட்டத்தில் கைது
+[publish] தமிழறிஞர் சாலமன் பாப்பையா மறைவு: சிபிஐ, சிபிஐ(எம்) இரங்கல்
+[publish] ஹாங்காங்கில் தியனன்மென் ஆர்வலர்களுக்கு ஏழு ஆண்டுகள் வரை சிறை தண்டனை
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] உக்ரைன் கிராமடோர்ஸ்க், ஸ்லோவியான்ஸ்க் நகர மக்களுக்கு வெளியேற உத்தரவு
+[publish] வங்கி ஆவணங்களுக்கு நேரிலா பதிவு முறை: செப்டம்பர் 15 முதல் தமிழக அரசு உத்தரவு
+[publish] தமிழ்நாட்டில் ஒரே நேரத்தில் 112 இரண்டாம் நிலை முதல்வர்கள் நியமனம் - அமைச்சர் தகவல்
+[publish] தமிழக அரசு: செப்டம்பர் 12க்குப் பின் அச்சு driving licence, RC வழங்க தடை
+[publish] 1,857 சூப்பர் ஸ்பெஷாலிட்டி மருத்துவ இடங்கள் காலியாக உள்ளதாக ஸ்டாலின் வலியுறுத்தல்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] வங்கிக் கடன் ஆவணங்கள் பதிவுக்கு புதிய நடைமுறை செப்.15 முதல் அமல்
+[publish] பட்டினம்பாக்கம், நீலாங்கரையில் விநாயகர் சிலை கரைக்க தடை: தீர்ப்பாயம் உத்தரவு
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமான ஆனால் உலக செய்திக் குறிப
+[publish] சீன அதிபர் ஜின்பிங் 7 ஆண்டுக்கு பிறகு இந்தியா வருகிறார்.
+[filler] health கட்டுரை
+[comic] கதை: தடியேந்திய மர்மன்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.89) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.95) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.96) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐ ஒத்திருக்கிறது (0.95) — அப்படியே வைக்கிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-12.png · நாள் 5
+[rasi] ராசிபலன் தயார்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 12

@@ -1,5 +1,703 @@
 [
  {
+  "id": "art_health_20260912",
+  "headline": "பருவமழைக் காலத்தில் பொது சுகாதாரம் காக்க எளிய வழிமுறைகள்",
+  "lines": [
+   "செப்டம்பர் மாதம் பருவமழை தொடங்கும் காலமாக இருப்பதால் டெங்கு, சிக்குன்குனியா போன்ற கொசு வழி நோய்கள் அதிகரிக்க வாய்ப்புள்ளது.",
+   "வீட்டைச் சுற்றி தண்ணீர் தேங்காமல் பார்த்துக் கொள்வதும், வாரம் ஒரு முறை நீர் தொட்டிகளை சுத்தம் செய்வதும் கொசு பெருக்கத்தைத் தடுக்கும்.",
+   "சளி, இருமல், காய்ச்சல் அறிகுறிகள் தென்பட்டால் உடனடியாக அருகிலுள்ள அரசு மருத்துவமனையில் பரிசோதனை செய்து கொள்வது நல்லது.",
+   "சித்த மருத்துவத்தில் பயன்படும் மிளகு, இஞ்சி, துளசி கசாயம் போன்றவை நோய் எதிர்ப்பு சக்தியை அதிகரிக்க உதவும் என பாரம்பரிய அறிவு கூறுகிறது.",
+   "தமிழ்நாடு அரசு நடத்தும் இலவச மருத்துவ முகாம்கள் மற்றும் தடுப்பூசி திட்டங்களை பொது மக்கள் பயன்படுத்திக் கொள்ளலாம்."
+  ],
+  "closing": "சிறு முன்னெச்சரிக்கை பெரிய நோய்களைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-09-12"
+   }
+  ],
+  "topic": "health",
+  "topic_ta": "சுகாதாரம்",
+  "entities": [
+   "சுகாதாரம்",
+   "பருவநோய்"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-09-12T00:23+05:30",
+  "created_ts": 1789152832.78038,
+  "audio": "data/audio/art_health_20260912.mp3"
+ },
+ {
+  "headline": "சீன அதிபர் ஜின்பிங் 7 ஆண்டுக்கு பிறகு இந்தியா வருகிறார்.",
+  "lines": [
+   "சீன அதிபர் ஷி ஜின்பிங் ஏழு ஆண்டுகளுக்குப் பிறகு இந்தியாவுக்குப் புகுமுக விருந்தினராக வருவதாக அறிவிக்கப்பட்டுள்ளது.",
+   "அவர் செப்டம்பர் 12 மற்றும் 13 ஆம் தேதிகளில் புதுடெல்லியில் நடைபெறும் பிரிக்ஸ் மாநாட்டில் கலந்துகொள்ள உள்ளார்.",
+   "இந்த பயணம் இந்தியா மற்றும் சீனா ஆகிய இரு நாடுகளுக்கிடையேயான உறவுகளின் நிலை குறித்து கேள்விகளை எழுப்பியுள்ளது.",
+   "இந்து-சீன எல்லைப் பிரச்சினை கடந்த சில ஆண்டுகளில் பதட்டத்தை ஏற்படுத்தி வந்துள்ளது.",
+   "மாநாட்டில் சீன அதிபரின் கலந்துகொள்ளல் பிரிக்ஸ் நாடுகளுக்கிடையேயான ஒத்துழைப்பைப் பலப்படுத்தக்கூடும்."
+  ],
+  "closing": "பிரிக்ஸ் மாநாடு ஐந்து வளர்ந்து வரும் நாடுகளின் (பிரேசில், ரஷ்யா, இந்தியா, சீனா, தென்னாப்பிரிக்கா) பெரிய சந்திப்பாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": "2026-09-12"
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "சீனா",
+   "இந்தியா",
+   "ஷி ஜின்பிங்",
+   "பிரிக்ஸ் மாநாடு",
+   "புதுடெல்லி"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Chinese President Xi Jinping visits India after seven years.",
+   "lines": [
+    "Chinese President Xi Jinping is set to visit India as a state guest after a gap of seven years.",
+    "He will participate in the BRICS summit being held in New Delhi on September 12 and 13.",
+    "The visit has raised questions about the state of relations between India and China.",
+    "The India-China border dispute has caused tensions in recent years.",
+    "The president's participation in the summit may strengthen cooperation among BRICS nations."
+   ],
+   "closing": "The BRICS summit is a major meeting of five emerging nations: Brazil, Russia, India, China, and South Africa."
+  },
+  "front_cat": "routine",
+  "image_query": "Xi Jinping India visit BRICS summit",
+  "person_en": "Xi Jinping",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "6e41b0eb4263",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-09-12T00:23+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cg4920x69gzo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Xi Jinping",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Xi_Jinping"
+  },
+  "audio": "data/audio/6e41b0eb4263.mp3",
+  "created_ts": 1789152813.6425145,
+  "status": "published"
+ },
+ {
+  "headline": "பட்டினம்பாக்கம், நீலாங்கரையில் விநாயகர் சிலை கரைக்க தடை: தீர்ப்பாயம் உத்தரவு",
+  "lines": [
+   "சென்னையின் பட்டினம்பாக்கம், நீலாங்கரை கடற்கரைகளில் விநாயகர் சிலைகளை கரைக்க அனுமதிக்க முடியாது என தேசிய பசுமை தீர்ப்பாயம் தெரிவித்துள்ளது.",
+   "இந்த இரு கடற்கரைப் பகுதிகளும் சிலை கரைப்புக்கு தகுதியற்றவை என தீர்ப்பாயம் தனது உத்தரவில் குறிப்பிட்டுள்ளது.",
+   "கடலின் சுற்றுச்சூழலை பாதுகாக்கும் நோக்கில் இந்த உத்தரவு பிறப்பிக்கப்பட்டதாக தீர்ப்பாயம் தெரிவித்துள்ளது.",
+   "ஒவ்வொரு ஆண்டும் விநாயகர் சிலைகளை இந்த கடற்கரைகளில் கரைக்கும் வழக்கம் நீண்ட காலமாக நடைபெற்று வருகிறது.",
+   "தீர்ப்பாயத்தின் இந்த உத்தரவுக்கு பிறகு மாற்று ஏற்பாடுகளை அரசு எப்படி செய்யும் என்பது கவனிக்கப்பட வேண்டும்."
+  ],
+  "closing": "விநாயகர் சிலை கரைப்பு தொடர்பான மாற்று ஏற்பாடுகளை தமிழ்நாடு அரசு எவ்வாறு அறிவிக்கும் என்பதை கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "பட்டினம்பாக்கம்",
+   "நீலாங்கரை",
+   "தேசிய பசுமை தீர்ப்பாயம்",
+   "சென்னை",
+   "விநாயகர் சிலை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "NGT Bars Immersion of Vinayagar Idols at Pattinapakkam, Neelankarai Beaches",
+   "lines": [
+    "The National Green Tribunal has ruled that Vinayagar idol immersion cannot be permitted at Pattinapakkam and Neelankarai beaches in Chennai.",
+    "The tribunal stated in its order that both these coastal areas are unsuitable for idol immersion.",
+    "The order was issued with the aim of protecting the marine environment, the tribunal said.",
+    "The practice of immersing Vinayagar idols at these beaches has been going on for many years every year.",
+    "It remains to be seen how the state government will arrange alternative immersion sites following this order."
+   ],
+   "closing": "It should be watched how the Tamil Nadu government announces alternative arrangements for Vinayagar idol immersion."
+  },
+  "front_cat": "routine",
+  "image_query": "Vinayagar idol immersion beach",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "3b7098168ffa",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-12T00:22+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/11/immersion-of-vinayagar-idols-cannot-be-permitted-in-pattinapakkam-neelankarai-areas-ngt"
+  ],
+  "image": {
+   "url": "https://images.pexels.com/photos/10807587/pexels-photo-10807587.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+   "credit": "Rahul Varge · Pexels",
+   "license": "Pexels — இலவசம்",
+   "symbolic": true
+  },
+  "audio": "data/audio/3b7098168ffa.mp3",
+  "created_ts": 1789152784.2083743,
+  "status": "published"
+ },
+ {
+  "headline": "வங்கிக் கடன் ஆவணங்கள் பதிவுக்கு புதிய நடைமுறை செப்.15 முதல் அமல்",
+  "lines": [
+   "தமிழ்நாட்டில் வங்கிக் கடன் தொடர்பான ஆவணங்களைப் பதிவு செய்வதற்கான புதிய நடைமுறை அறிமுகப்படுத்தப்பட்டுள்ளது.",
+   "இந்த புதிய நடைமுறை செப்டம்பர் 15 ஆம் தேதி முதல் அமலுக்கு வர உள்ளது.",
+   "வங்கிக் கடன் ஆவணங்களைப் பதிவு செய்வோர் இந்த மாற்றத்தைப் பின்பற்ற வேண்டும் என அறிவிக்கப்பட்டுள்ளது.",
+   "புதிய நடைமுறை குறித்த விரிவான விவரங்கள் தற்போது வெளியிடப்படவில்லை.",
+   "இது தொடர்பான கூடுதல் அறிவிப்புகள் அடுத்த சில நாட்களில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "வங்கிக் கடன் ஆவணப் பதிவு தொடர்பான இந்த மாற்றம் செப்டம்பர் 15 முதல் நடைமுறைக்கு வர இருப்பதால், கடன் பெறுவோர் மற்றும் வங்கிகள் இதைக் கவனத்தில் கொள்ள வேண்டியிருக்கும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு",
+   "வங்கிக் கடன் ஆவணங்கள்",
+   "பதிவு நடைமுறை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "New procedure for registering bank loan documents from September 15",
+   "lines": [
+    "A new procedure for registering bank loan-related documents has been introduced in Tamil Nadu.",
+    "The new procedure will come into effect from September 15.",
+    "Those registering bank loan documents have been told to follow this new process.",
+    "Detailed information about the new procedure has not yet been released.",
+    "Further announcements regarding this are expected to be released in the coming days."
+   ],
+   "closing": "As this change related to bank loan document registration is set to take effect from September 15, borrowers and banks will need to take note of it.",
+   "entities": [
+    "Tamil Nadu",
+    "Bank Loan Documents",
+    "Registration Procedure"
+   ]
+  },
+  "id": "b0cfd1fe1094",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-12T00:22+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/11/new-procedure-for-registering-bank-loan-documents-to-come-into-effect-from-september-15"
+  ],
+  "image": null,
+  "audio": "data/audio/b0cfd1fe1094.mp3",
+  "created_ts": 1789152746.927377,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "1,857 சூப்பர் ஸ்பெஷாலிட்டி மருத்துவ இடங்கள் காலியாக உள்ளதாக ஸ்டாலின் வலியுறுத்தல்",
+  "lines": [
+   "தமிழக முதலமைச்சரும் திமுக தலைவருமான ஸ்டாலின், நாடு முழுவதும் 1,857 சூப்பர் ஸ்பெஷாலிட்டி மருத்துவ இடங்கள் காலியாக உள்ளதாகக் கூறி பிரதமர் மோடிக்குக் கடிதம் எழுதினார்.",
+   "இந்த இடங்கள் நிரப்பப்படாததால் நாட்டிற்குத் தேவையான நிபுணத்துவ மருத்துவர்களின் எண்ணிக்கை பாதிக்கப்படுவதாக அவர் தெரிவித்தார்.",
+   "ஒவ்வொரு மருத்துவ இடமும் நாட்டின் மதிப்புமிக்க வளம் என்றும், அதை வீணாக்கக் கூடாது என்றும் ஸ்டாலின் தனது கடிதத்தில் குறிப்பிட்டார்.",
+   "மக்களுக்குத் தேவையான நிபுணத்துவ மருத்துவ சேவைகளை உறுதிசெய்ய இந்த இடங்களை உடனடியாக நிரப்ப வேண்டும் என அவர் வலியுறுத்தினார்.",
+   "இந்தப் பிரச்சினையில் மத்திய அரசு உடனடியாகத் தலையிட வேண்டும் என ஸ்டாலின் பிரதமரிடம் கோரிக்கை வைத்துள்ளார்."
+  ],
+  "closing": "நாடு முழுவதும் மருத்துவக் கல்வி இடங்கள் நிரப்பப்படாத பிரச்சினை முன்பும் பல்வேறு தரப்புகளால் எழுப்பப்பட்டுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "ஸ்டாலின்",
+   "பிரதமர் மோடி",
+   "திமுக",
+   "சூப்பர் ஸ்பெஷாலிட்டி மருத்துவ இடங்கள்",
+   "மத்திய அரசு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Stalin flags 1,857 vacant super-speciality medical seats to PM Modi",
+   "lines": [
+    "Tamil Nadu Chief Minister and DMK president M. K. Stalin wrote to Prime Minister Narendra Modi, stating that 1,857 super-speciality medical seats remain vacant across the country.",
+    "He said the unfilled seats are affecting the number of specialist doctors the nation needs.",
+    "Stalin noted in his letter that every medical seat is a precious national asset that should not be allowed to go waste.",
+    "He urged that these seats be filled immediately to ensure specialist medical services reach the people who need them.",
+    "Stalin requested the Central government to intervene urgently on this issue."
+   ],
+   "closing": "The issue of unfilled medical education seats across the country has been raised by various quarters in the past as well."
+  },
+  "front_cat": "cm_pm_announcement",
+  "image_query": "M K Stalin",
+  "person_en": "M. K. Stalin",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1b8c3da491d8",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-12T00:20+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/dmk-president-stalin-urges-pm-modi-to-intervene-over-1857-vacant-super-speciality-medical-seats/article71455290.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Chief_Minister_of_Tamil_Nadu%2C_Thiru_MK_Stalin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · M. K. Stalin",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/M._K._Stalin"
+  },
+  "audio": "data/audio/1b8c3da491d8.mp3",
+  "created_ts": 1789152632.0498164,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழக அரசு: செப்டம்பர் 12க்குப் பின் அச்சு driving licence, RC வழங்க தடை",
+  "lines": [
+   "தமிழ்நாடு அரசு செப்டம்பர் 12 முதல் அச்சிடப்பட்ட driving licence மற்றும் வாகனப் பதிவு சான்றிதழ்களை வழங்குவதை நிறுத்த உத்தரவிட்டுள்ளது.",
+   "அரசாணையின்படி, டிஜிட்டல் பதிப்புகளை செப்டம்பர் 13 முதல் ஒரு ஆண்டு காலத்திற்கு இலவசமாக பதிவிறக்கம் செய்யலாம்.",
+   "தொடர்புடைய சட்டங்கள் திருத்தப்படும் வரை அல்லது ஒரு ஆண்டு வரை, எது முதலில் நிறைவடைகிறதோ அது வரை இந்த வசதி இருக்கும் என அரசு தெரிவித்துள்ளது.",
+   "இதன் மூலம் வாகன ஓட்டுநர் உரிமம் மற்றும் பதிவு சான்றிதழ் நடைமுறை முழுமையாக டிஜிட்டல் மயமாக்கப்படும் என அரசு அறிவித்துள்ளது.",
+   "பொதுமக்கள் இனி அச்சுப் பிரதிக்குப் பதிலாக டிஜிட்டல் நகல்களையே பயன்படுத்த வேண்டும் என்பதால், தேவையான மாற்றங்களை அறிந்து செயல்பட வேண்டும்."
+  ],
+  "closing": "இந்த மாற்றம் மூலம் தமிழ்நாட்டில் லட்சக்கணக்கான வாகன ஓட்டுநர்கள் இனி அச்சு சான்றிதழுக்குப் பதிலாக டிஜிட்டல் நகலையே சார்ந்திருக்க வேண்டும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-09-12"
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "Driving Licence",
+   "பதிவு சான்றிதழ்",
+   "போக்குவரத்துத் துறை"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Tamil Nadu to stop issuing printed driving licences, RCs after Sept 12",
+   "lines": [
+    "The Tamil Nadu government has ordered a stop to issuing printed driving licences and vehicle registration certificates from September 12.",
+    "As per the G.O., digital versions of these documents can be downloaded free of cost for one year starting September 13.",
+    "The government stated this facility will continue until relevant laws are amended or for one year, whichever comes first.",
+    "The move aims to fully digitise the issuance of driving licences and registration certificates, the government said.",
+    "The public will now need to rely on digital copies instead of printed documents and must adapt to the change accordingly."
+   ],
+   "closing": "With this change, lakhs of drivers in Tamil Nadu will now depend solely on digital copies instead of printed licence and registration documents."
+  },
+  "front_cat": "policy_mass",
+  "image_query": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "2aa4fc12a3b9",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-12T00:19+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tn-government-to-stop-issuance-of-physical-driving-licences-registration-certificates-after-september-12/article71455879.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/2aa4fc12a3b9.mp3",
+  "created_ts": 1789152591.7470229,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழ்நாட்டில் ஒரே நேரத்தில் 112 இரண்டாம் நிலை முதல்வர்கள் நியமனம் - அமைச்சர் தகவல்",
+  "lines": [
+   "தமிழ்நாட்டு அரசு கல்லூரிகளில் 112 இரண்டாம் தர முதல்வர்களை ஒரே நேரத்தில் நியமித்துள்ளதாக உயர்கல்வித் துறை அமைச்சர் தெரிவித்தார்.",
+   "இவ்வளவு பெரிய எண்ணிக்கையில் முதல்வர்கள் ஒரே நேரத்தில் பொறுப்பேற்பது தமிழ்நாட்டில் இதுவரை இல்லாத சாதனை என அமைச்சர் குறிப்பிட்டார்.",
+   "இந்த நியமனம் உயர்கல்வித் துறையின் நிர்வாகப் பணிகளை மேலும் வலுப்படுத்தும் என அமைச்சர் கூறினார்.",
+   "கல்லூரிகளில் நீண்ட காலமாக நிலவிய முதல்வர் பணியிட வெற்றிடங்கள் இந்த நியமனத்தின் மூலம் நிரப்பப்பட்டதாகத் தெரிகிறது.",
+   "புதிதாக நியமிக்கப்பட்டவர்கள் விரைவில் தத்தமது கல்லூரிகளில் பொறுப்பேற்க உள்ளதாக அரசு தரப்பு தெரிவித்துள்ளது."
+  ],
+  "closing": "இந்த நியமனத்தால் தமிழ்நாட்டு அரசுக் கல்லூரிகளின் நிர்வாக நிலையில் ஏற்படும் மாற்றத்தை பொறுத்திருந்து பார்க்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு",
+   "உயர்கல்வித் துறை",
+   "அரசு கல்லூரிகள்",
+   "இரண்டாம் நிலை முதல்வர்கள்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Tamil Nadu appoints 112 Grade II principals at once, says Higher Education Minister",
+   "lines": [
+    "The Tamil Nadu Higher Education Minister said 112 Grade II principals have been appointed to government colleges in one go.",
+    "The minister noted that appointing such a large number of principals at the same time is a first for the state.",
+    "The minister said the appointments would strengthen administrative functioning in the higher education department.",
+    "The move appears to have filled long-standing vacancies for principal posts in several colleges.",
+    "Government sources said the newly appointed principals are expected to take charge in their respective colleges soon."
+   ],
+   "closing": "It remains to be seen how this appointment drive affects administration in Tamil Nadu's government colleges going forward."
+  },
+  "front_cat": "routine",
+  "image_query": "Tamil Nadu government college",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "db84ba17ec58",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-12T00:19+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/appointing-112-grade-ii-principals-in-one-go-is-a-record-for-tamil-nadu-says-higher-education-minister/article71431992.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/GOVERNMENT_DHARMAPURI_MEDICAL_COLLEGE%2C_DHARMAPURI%2CTAMIL_NADU_by_DR.ARUNKUMAR_VENKATESAN_2020.png/1280px-GOVERNMENT_DHARMAPURI_MEDICAL_COLLEGE%2C_DHARMAPURI%2CTAMIL_NADU_by_DR.ARUNKUMAR_VENKATESAN_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · Arunkumar Venkatesan 07",
+   "license": "CC BY-SA 4.0",
+   "symbolic": true
+  },
+  "audio": "data/audio/db84ba17ec58.mp3",
+  "created_ts": 1789152549.408404,
+  "status": "published"
+ },
+ {
+  "headline": "வங்கி ஆவணங்களுக்கு நேரிலா பதிவு முறை: செப்டம்பர் 15 முதல் தமிழக அரசு உத்தரவு",
+  "lines": [
+   "வங்கிகள் மூலம் சமர்ப்பிக்கப்படும் சொத்து உரிமைப் பத்திரங்கள் மற்றும் ரசீதுகளை நேரில் வராமலேயே பதிவு செய்யும் புதிய முறையை தமிழ்நாடு பதிவுத் துறை அமல்படுத்த உத்தரவிட்டுள்ளது.",
+   "இந்த நேரிலா பதிவு முறை வரும் செப்டம்பர் 15 ஆம் தேதி முதல் தமிழ்நாடு முழுவதும் நடைமுறைக்கு வரும் என அறிவிக்கப்பட்டுள்ளது.",
+   "வங்கிக் கடன் தொடர்பாக சமர்ப்பிக்கப்படும் ஆவணங்களுக்கு இந்த புதிய வசதி பொருந்தும் என தமிழ்நாடு பதிவுத் துறை தெரிவித்துள்ளது.",
+   "இதுவரை இத்தகைய ஆவணங்களைப் பதிவு செய்ய உரிமையாளர் அல்லது பிரதிநிதி நேரில் பதிவு அலுவலகத்திற்குச் சென்று கையொப்பமிட வேண்டிய நிலை இருந்தது.",
+   "இந்த மாற்றத்தால் வங்கிக் கடன் தொடர்பான பதிவு நடைமுறைகள் விரைவாகவும் எளிதாகவும் மாறும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்த புதிய நடைமுறையால் பொதுமக்கள் பதிவு அலுவலகம் செல்லாமலேயே ஆவணப் பதிவை முடிக்க முடியுமா என்பதை அடுத்த சில நாட்களில் தெளிவாகக் காணலாம்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு பதிவுத் துறை",
+   "வங்கிகள்",
+   "சொத்து உரிமைப் பத்திரம்",
+   "செப்டம்பர் 15"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "TN mandates presenceless registration of bank documents from September 15",
+   "lines": [
+    "Tamil Nadu's registration department has ordered a new system allowing presenceless registration of title deeds and receipts submitted by banks.",
+    "This presenceless registration system will come into effect across Tamil Nadu from September 15.",
+    "The registration department said the facility will apply to documents submitted in connection with bank loans.",
+    "Until now, property owners or their representatives had to be physically present at registration offices to sign such documents.",
+    "The change is expected to make bank loan-related registration processes faster and simpler."
+   ],
+   "closing": "It remains to be seen in the coming days whether the public can complete document registration entirely without visiting registration offices under this new system."
+  },
+  "front_cat": "policy_mass",
+  "image_query": "land registration office India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "eaf0d5c195f2",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-12T00:18+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tn-govt-mandates-presenceless-registration-of-title-deeds-receipts-presented-by-banks-from-sept-15/article71456562.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Portuguese_Carracks_off_a_Rocky_Coast_RMG_BHC0705.tiff/lossy-page1-1280px-Portuguese_Carracks_off_a_Rocky_Coast_RMG_BHC0705.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · \nUnknown authorUnknown author ",
+   "license": "Public domain",
+   "symbolic": true
+  },
+  "audio": "data/audio/eaf0d5c195f2.mp3",
+  "created_ts": 1789152506.918632,
+  "status": "published"
+ },
+ {
+  "headline": "உக்ரைன் கிராமடோர்ஸ்க், ஸ்லோவியான்ஸ்க் நகர மக்களுக்கு வெளியேற உத்தரவு",
+  "lines": [
+   "உக்ரைனின் டோன்பாஸ் பகுதியில் உள்ள கிராமடோர்ஸ்க் மற்றும் ஸ்லோவியான்ஸ்க் நகரங்களில் ரஷ்யா தரைப்படைத் தாக்குதலை தீவிரப்படுத்தியுள்ளது.",
+   "இந்த இரு நகரங்களும் உக்ரைனின் முக்கியக் கோட்டை நகரங்களாகக் கருதப்படுகின்றன, இப்போது ரஷ்யப் படைகளின் முதன்மை இலக்காக மாறியுள்ளன.",
+   "இந்நகரங்களில் வசிக்கும் பொதுமக்களை உடனடியாக வெளியேறுமாறு உக்ரைன் அதிகாரிகள் அறிவுறுத்தியுள்ளனர்.",
+   "டோன்பாஸ் பகுதி முழுவதையும் கட்டுப்பாட்டில் கொண்டுவரும் நோக்கத்துடன் ரஷ்யா இந்தத் தாக்குதலை முன்னெடுத்து வருவதாகத் தெரிகிறது.",
+   "போரின் தற்போதைய நிலவரம் குறித்த மேலும் தகவல்கள் எதிர்வரும் நாட்களில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்நிலையில் கிராமடோர்ஸ்க், ஸ்லோவியான்ஸ்க் நகரங்களில் ரஷ்யாவின் தாக்குதல் மேலும் எவ்வாறு தொடரும் என்பதைக் கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "கிராமடோர்ஸ்க்",
+   "ஸ்லோவியான்ஸ்க்",
+   "டோன்பாஸ்",
+   "உக்ரைன்",
+   "ரஷ்யா"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Ukraine orders civilians to flee Kramatorsk and Sloviansk cities",
+   "lines": [
+    "Russia has intensified ground assaults on the cities of Kramatorsk and Sloviansk in Ukraine's Donbas region.",
+    "Both cities are regarded as key fortress cities of Ukraine and have now become the main focus of Russian forces.",
+    "Ukrainian authorities have told civilians living in these cities to evacuate immediately.",
+    "Russia appears to be pressing this offensive with the aim of bringing the entire Donbas region under its control.",
+    "Further updates on the current state of the war are expected to emerge in the coming days."
+   ],
+   "closing": "It remains to be watched how Russia's assault on Kramatorsk and Sloviansk develops further."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "858afc7f61c6",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-09-12T00:17+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cwyz89w59l3o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": null,
+  "audio": "data/audio/858afc7f61c6.mp3",
+  "created_ts": 1789152448.5667918,
+  "status": "published"
+ },
+ {
+  "headline": "ஹாங்காங்கில் தியனன்மென் ஆர்வலர்களுக்கு ஏழு ஆண்டுகள் வரை சிறை தண்டனை",
+  "lines": [
+   "சீனாவின் ஹாங்காங் பகுதியில் 1989 தியனன்மென் சதுக்க சம்பவத்தை நினைவுகூர்ந்த ஆர்வலர்களுக்கு நீதிமன்றம் சிறை தண்டனை விதித்துள்ளது.",
+   "சிலருக்கு ஏழு ஆண்டுகள் வரை சிறைத் தண்டனை அறிவிக்கப்பட்டுள்ளது.",
+   "இந்த தண்டனை ஹாங்காங் நீதிமன்றத்தால் அதிகாரப்பூர்வமாக வழங்கப்பட்டதாக தெரிவிக்கப்பட்டுள்ளது.",
+   "முன்னர் சீனப் பகுதியில் 1989 சம்பவத்தை பொதுமக்கள் வெளிப்படையாக நினைவுகூரக்கூடிய ஒரே இடமாக ஹாங்காங் இருந்தது.",
+   "இந்த தண்டனைக்கு எதிராக ஆர்வலர்கள் மேல்முறையீடு செய்வார்களா என்பது குறித்து இன்னும் தெளிவு இல்லை."
+  ],
+  "closing": "ஹாங்காங்கில் 1989 சம்பவம் தொடர்பான பொது நினைவேந்தல்கள் மீதான கட்டுப்பாடு தற்போது எந்த அளவுக்கு நீடிக்கும் என்பது கேள்வியாக உள்ளது.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ஹாங்காங்",
+   "தியனன்மென் சதுக்கம்",
+   "சீனா"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Hong Kong Tiananmen activists sentenced to up to seven years in jail",
+   "lines": [
+    "A court in Hong Kong, part of Chinese territory, has sentenced activists who commemorated the 1989 Tiananmen Square events.",
+    "Some of the activists have been sentenced to up to seven years in prison.",
+    "The sentencing was officially announced by the Hong Kong court.",
+    "Hong Kong was previously one of the only places in Chinese territory where people could openly commemorate the 1989 events.",
+    "It remains unclear whether the activists will appeal against the sentences."
+   ],
+   "closing": "It remains a question how far restrictions on public commemoration of the 1989 events in Hong Kong will now extend."
+  },
+  "front_cat": "court_landmark",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "b43c2e14cf73",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-09-12T00:15+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": null,
+  "audio": "data/audio/b43c2e14cf73.mp3",
+  "created_ts": 1789152356.5477386,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழறிஞர் சாலமன் பாப்பையா மறைவு: சிபிஐ, சிபிஐ(எம்) இரங்கல்",
+  "lines": [
+   "தமிழறிஞர் சாலமன் பாப்பையா காலமானார் என்று தகவல் வெளியாகியுள்ளது.",
+   "அவரது மறைவுக்கு இந்திய கம்யூனிஸ்ட் கட்சி மற்றும் மார்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சி ஆகிய இரு கட்சிகளும் இரங்கல் தெரிவித்துள்ளன.",
+   "இரு கட்சிகளின் தலைவர்களும் தங்கள் இரங்கல் செய்தியில் சாலமன் பாப்பையாவின் தமிழ்ப் பணி குறித்து குறிப்பிட்டுள்ளனர்.",
+   "தமிழ் இலக்கியத் துறையில் நீண்ட காலமாக அறிஞராகச் செயல்பட்டவர் என அறியப்படுகிறார்.",
+   "அவரது இறுதிச் சடங்கு தொடர்பான விவரங்கள் இன்னும் வெளியிடப்படவில்லை."
+  ],
+  "closing": "சாலமன் பாப்பையா தமிழ் அறிஞராக அறியப்பட்டவர் என்பது குறிப்பிடத்தக்கது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சாலமன் பாப்பையா",
+   "இந்திய கம்யூனிஸ்ட் கட்சி",
+   "சிபிஐ(எம்)"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Tamil Scholar Solomon Pappaiya Passes Away, CPI and CPI(M) Condole",
+   "lines": [
+    "Tamil scholar Solomon Pappaiya has passed away, according to reports.",
+    "Both the Communist Party of India and the Communist Party of India (Marxist) have expressed condolences over his death.",
+    "Leaders of both parties referred to his contributions to Tamil literature in their condolence messages.",
+    "He was known as a long-standing scholar in the field of Tamil literature.",
+    "Details regarding his final rites have not yet been announced."
+   ],
+   "closing": "Solomon Pappaiya was known as a notable Tamil scholar."
+  },
+  "front_cat": "leader_death",
+  "image_query": "",
+  "person_en": "Solomon Pappaiya",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "9e6a3410e02a",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-12T00:15+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/11/condolence-for-the-death-of-tamil-scholar-thiru-solomon-pappaiya"
+  ],
+  "image": null,
+  "audio": "data/audio/9e6a3410e02a.mp3",
+  "created_ts": 1789152311.3317602,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழறிஞர் சாலமன் பாப்பையா காலமானார், தலைவர்கள் இரங்கல்",
+  "lines": [
+   "தமிழ்ப் பேச்சாளரும் எழுத்தாளருமான சாலமன் பாப்பையா காலமானார் என தெரிவிக்கப்பட்டுள்ளது.",
+   "அவரது மறைவுக்கு தமிழ்நாடு ஆளுநர், முதல்வர் மு.க. ஸ்டாலின் உள்ளிட்ட பலர் இரங்கல் தெரிவித்துள்ளனர்.",
+   "முதல்வர் ஸ்டாலின், அரும்புதல்வர்களுள் ஒருவரைத் தமிழ்த்தாய் இழந்துவிட்டதாக இரங்கல் செய்தியில் கூறியுள்ளார்.",
+   "சாலமன் பாப்பையா தமிழ் மொழி மற்றும் இலக்கியப் பரப்புரையில் நீண்டகாலமாக ஈடுபட்டு வந்தவர் ஆவார்.",
+   "அவரது இறுதிச் சடங்கு மற்றும் அஞ்சலி நிகழ்வுகள் குறித்த விவரங்கள் எதுவும் இதுவரை வெளியிடப்படவில்லை."
+  ],
+  "closing": "சாலமன் பாப்பையா தமிழ் மொழிப் பணிக்காக பரவலாக அறியப்பட்டவர் என்பது குறிப்பிடத்தக்கது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சாலமன் பாப்பையா",
+   "மு.க. ஸ்டாலின்",
+   "தமிழ்நாடு ஆளுநர்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Tamil orator Solomon Pappaiah passes away, leaders condole",
+   "lines": [
+    "Tamil orator and writer Solomon Pappaiah has reportedly passed away.",
+    "Tamil Nadu Governor, Chief Minister M. K. Stalin and several other leaders have expressed condolences over his death.",
+    "Chief Minister Stalin said in his condolence message that Tamil Nadu has lost one of its cherished sons.",
+    "Solomon Pappaiah was long associated with the promotion of the Tamil language and literature.",
+    "Details regarding funeral arrangements and tribute events have not yet been announced."
+   ],
+   "closing": "Solomon Pappaiah was widely known for his contributions to the Tamil language."
+  },
+  "front_cat": "leader_death",
+  "image_query": "",
+  "person_en": "Solomon Pappaiah",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "398f13088991",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-12T00:13+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/11/passing-of-solomon-pappaiahgovernor-chief-minister-and-leaders-offer-condolences",
+   "https://www.dinamani.com/tamilnadu/2026/Sep/11/tamil-thai-has-lost-one-of-her-cherished-sons-stalin-condoles-the-passing-of-solomon-pappaiah",
+   "https://www.dinamani.com/tamilnadu/2026/Sep/11/chief-minister-vijay-condoles-the-passing-of-solomon-pappaiah"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Prof._Sundaram_Solomon_Pappaiah_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Solomon Pappaiah",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Solomon_Pappaiah"
+  },
+  "audio": "data/audio/398f13088991.mp3",
+  "created_ts": 1789152240.2027726,
+  "status": "published"
+ },
+ {
   "headline": "Meta AI தனிப்பட்ட கேள்விகள் கேட்ட விவகாரத்திற்குப் பிறகு மாற்றம் செய்கிறது.",
   "lines": [
    "Meta நிறுவனம் தனது AI உரையாடல் தொழிலியல் நீக்க வேண்டிய தனிப்பட்ட கேள்விகள் கேட்ட விவகாரத்திற்குப் பிறகு மாற்றம் செய்ய உள்ளது என்று அறிவித்துள்ளது.",
@@ -16707,623 +17405,6 @@
   "image": null,
   "audio": "data/audio/51902eb436fc.mp3",
   "created_ts": 1788729066.8244784,
-  "status": "published"
- },
- {
-  "headline": "கோவையில் நகை வியாபாரி பணம் கொள்ளை: நான்கு பேர் கைது",
-  "lines": [
-   "கோவையில் ஆந்திர மாநிலத்தைச் சேர்ந்த நகை வியாபாரி ஒருவரிடமிருந்து பெரும் தொகை பணம் கொள்ளையடிக்கப்பட்ட சம்பவத்தில் நான்கு பேர் கைது செய்யப்பட்டனர்.",
-   "கொள்ளையடிக்கப்பட்ட தொகை ரூ.1.06 கோடி என அறியப்படுகிறது, குற்றவாளிகள் உளுந்தூர்பேட்டையில் சிக்கினர்.",
-   "கள்ளக்குறிச்சி மற்றும் கோவை காவல்துறையினர் இணைந்து விரைவாக நடவடிக்கை எடுத்து இவர்களைப் பிடித்ததாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "தப்பியோடிய மீதமுள்ள மூன்று பேரையும் கொள்ளையடிக்கப்பட்ட பணத்தையும் கண்டுபிடிக்க தீவிர தேடுதல் நடைபெற்று வருகிறது.",
-   "தப்பியோடியவர்களைக் கைது செய்ய காவல்துறை பல்வேறு பகுதிகளில் சோதனை நடத்தி வருகிறது."
-  ],
-  "closing": "கொள்ளையடிக்கப்பட்ட பணம் இன்னும் முழுமையாக மீட்கப்படாத நிலையில் தப்பியோடியவர்களைப் பிடிப்பதே காவல்துறையின் அடுத்தக் கவனமாக உள்ளது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "BBC Tamil",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "கோவை",
-   "உளுந்தூர்பேட்டை",
-   "கள்ளக்குறிச்சி",
-   "ஆந்திரா",
-   "காவல்துறை"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Coimbatore jewellery merchant robbery: Four arrested near Ulundurpettai",
-   "lines": [
-    "Four people were arrested in connection with a robbery of a large sum of money from a jewellery merchant from Andhra Pradesh in Coimbatore.",
-    "The stolen amount is reported to be around Rs.1.06 crore, and the accused were caught in Ulundurpettai.",
-    "Police from Kallakurichi and Coimbatore acted swiftly together to apprehend the suspects, officials said.",
-    "Intensive search is underway to trace the remaining three fugitives and recover the stolen money.",
-    "Police are conducting checks across various areas to arrest the absconding suspects."
-   ],
-   "closing": "With the stolen money yet to be fully recovered, catching the remaining fugitives remains the police's next focus."
-  },
-  "flags": [
-   "single_source"
-  ],
-  "id": "b13f549cd95a",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-07T02:40+05:30",
-  "links": [
-   "https://www.bbc.com/tamil/articles/cy9z0zy4enzo?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": null,
-  "audio": "data/audio/b13f549cd95a.mp3",
-  "created_ts": 1788729007.4182897,
-  "status": "published"
- },
- {
-  "headline": "ஆப்பிரிக்கா அளவை சரிசெய்யும் ஐ.நா தீர்மானத்தில் இந்தியா ஆட்சேபனை",
-  "lines": [
-   "ஐக்கிய நாடுகள் பொதுச் சபை வெள்ளிக்கிழமை ஒரு முக்கிய தீர்மானத்தை நிறைவேற்றியது.",
-   "இந்த தீர்மானம் ஆப்பிரிக்காவின் உண்மையான பரப்பளவை துல்லியமாகக் காட்டும் வகையில் தற்போதைய உலக வரைபடத்தை மாற்ற வலியுறுத்துகிறது.",
-   "இந்தியா முன்பு இந்த தீர்மானத்தை ஆதரித்திருந்ததாக தெரிகிறது.",
-   "ஆனால் இப்போது இந்தியா இந்த தீர்மானத்திற்கு ஆட்சேபனை தெரிவித்துள்ளதாக தகவல்கள் வெளிவந்துள்ளன.",
-   "இந்தியாவின் ஆட்சேபனைக்கான துல்லியமான காரணம் இதுவரை தெளிவாக வெளியிடப்படவில்லை."
-  ],
-  "closing": "இந்தியா ஏன் தனது முந்தைய நிலைப்பாட்டை மாற்றியது என்பது இன்னும் தெளிவாகத் தெரியவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "BBC Tamil",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "ஐக்கிய நாடுகள் பொதுச் சபை",
-   "இந்தியா",
-   "ஆப்பிரிக்கா"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "India Objects to UN Resolution It Once Supported on Africa's Map Size",
-   "lines": [
-    "The United Nations General Assembly passed a key resolution on Friday.",
-    "The resolution calls for changing the current world map to accurately depict Africa's true land area.",
-    "India reportedly had supported this resolution earlier.",
-    "However, reports now indicate that India has raised objections to the resolution.",
-    "The exact reason behind India's objection has not been clearly disclosed so far."
-   ],
-   "closing": "It remains unclear why India has changed its earlier stance on the resolution."
-  },
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "b341a77520e3",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-09-07T02:38+05:30",
-  "links": [
-   "https://www.bbc.com/tamil/articles/c17jr4w812po?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": null,
-  "audio": "data/audio/b341a77520e3.mp3",
-  "created_ts": 1788728927.242901,
-  "status": "published"
- },
- {
-  "headline": "சென்னையில் இன்று, நாளை மழைக்கு வாய்ப்பு என அறிவிப்பு",
-  "lines": [
-   "சென்னை நகரில் இன்றும் நாளையும் மழை பெய்யும் வாய்ப்பு உள்ளதாக வானிலை அறிக்கை தெரிவிக்கிறது.",
-   "நகரின் பல்வேறு பகுதிகளில் இந்த இரண்டு நாட்களில் மழை தொடரும் என எதிர்பார்க்கப்படுகிறது.",
-   "வானிலை ஆய்வு மையம் இந்த மழை குறித்த முன்னறிவிப்பை வெளியிட்டுள்ளது.",
-   "தற்போதைய பருவநிலை மாற்றத்தால் நகரில் மழை பெய்வதற்கான சூழ்நிலை நிலவுவதாக தெரிவிக்கப்படுகிறது.",
-   "அடுத்த சில நாட்களில் மழையின் அளவு மற்றும் பாதிக்கப்படும் பகுதிகள் குறித்து மேலும் விவரங்கள் வெளியாக உள்ளன."
-  ],
-  "closing": "சென்னையில் மழை தொடர்பான விரிவான விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "சென்னை",
-   "தமிழ்நாடு வானிலை மையம்"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Chances of rain in Chennai today and tomorrow, says weather report",
-   "lines": [
-    "A weather forecast has indicated chances of rain in Chennai today and tomorrow.",
-    "Rain is expected to continue across various parts of the city during these two days.",
-    "The weather monitoring centre has issued this forecast for the city.",
-    "Current seasonal conditions are said to be favourable for rainfall in the city.",
-    "Further details on rainfall intensity and affected areas are expected to be released in the coming days."
-   ],
-   "closing": "Detailed information regarding the rain in Chennai has not yet been released."
-  },
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "bcee462b42f9",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-07T02:38+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/06/chances-of-rain-in-chennai-today-and-tomorrow"
-  ],
-  "image": null,
-  "audio": "data/audio/bcee462b42f9.mp3",
-  "created_ts": 1788728903.0119774,
-  "status": "published"
- },
- {
-  "headline": "கடைகளின் பெயர்ப் பலகைகளை தமிழில் மாற்ற வேண்டும்: சீமான் வலியுறுத்தல்",
-  "lines": [
-   "நாம் தமிழர் கட்சியின் தலைவர் சீமான், தமிழ்நாட்டில் உள்ள கடைகளின் பெயர்ப் பலகைகளை தமிழில் மாற்ற வேண்டும் என வலியுறுத்தினார்.",
-   "மாநிலம் முழுவதும் உள்ள வணிக நிறுவனங்கள் தமிழ் மொழிக்கு முன்னுரிமை அளிக்க வேண்டும் என அவர் கருத்து தெரிவித்தார்.",
-   "தமிழ் மொழியை பாதுகாக்கும் நோக்கில் இந்த நடவடிக்கை மேற்கொள்ளப்பட வேண்டும் என சீமான் கூறினார்.",
-   "இது தொடர்பாக தமிழ்நாடு அரசு தரப்பில் இதுவரை உத்தியோகபூர்வமாக எந்த பதிலும் வெளியிடப்படவில்லை.",
-   "இந்தக் கோரிக்கை குறித்து அடுத்த கட்டத்தில் என்ன நடவடிக்கை எடுக்கப்படும் என்பது இன்னும் தெளிவாகத் தெரியவில்லை."
-  ],
-  "closing": "தமிழ் மொழி பாதுகாப்பு தொடர்பான கோரிக்கைகளை சீமான் அவ்வப்போது முன்வைத்து வருகிறார்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": "2026-09-07"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "சீமான்",
-   "நாம் தமிழர் கட்சி",
-   "தமிழ்நாடு",
-   "கடைகள் பெயர்ப் பலகை",
-   "தமிழ் மொழி"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Seeman insists shop nameboards must be changed to Tamil",
-   "lines": [
-    "Naam Tamilar Katchi leader Seeman insisted that shop nameboards across Tamil Nadu must be changed to Tamil.",
-    "He said business establishments across the state should give priority to the Tamil language.",
-    "Seeman said this step should be taken with the aim of protecting the Tamil language.",
-    "The Tamil Nadu government has not yet issued any official response on this matter.",
-    "It is not yet clear what further action will be taken regarding this demand."
-   ],
-   "closing": "Seeman has periodically raised demands related to the protection of the Tamil language."
-  },
-  "flags": [
-   "single_source"
-  ],
-  "id": "cbe9a86d37f4",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-07T02:37+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/06/shop-nameboards-must-be-changed-to-tamil-seeman-insists"
-  ],
-  "image": null,
-  "audio": "data/audio/cbe9a86d37f4.mp3",
-  "created_ts": 1788728875.9032128,
-  "status": "published"
- },
- {
-  "headline": "திருவலஞ்சுழி விநாயகர் கோயிலில் சதுர்த்தி விழா கொடியேற்றம் நடந்தது",
-  "lines": [
-   "1500 ஆண்டுகள் பழமையான திருவலஞ்சுழி விநாயகர் கோயிலில் சதுர்த்தி விழாவைக் குறிக்கும் கொடியேற்றம் நடைபெற்றது.",
-   "இந்த விழா கோயிலின் வழக்கமான பாரம்பரிய முறைப்படி துவங்கியது.",
-   "கோயில் நிர்வாகத்தினர் மற்றும் அர்ச்சகர்கள் சிறப்பு பூஜைகளுடன் கொடியேற்ற நிகழ்ச்சியை நடத்தினர்.",
-   "இந்தக் கோயில் பழமையான வரலாறு கொண்டதாக அறியப்படுகிறது.",
-   "சதுர்த்தி விழா தொடர்பான மேலும் நிகழ்ச்சிகள் அடுத்த நாட்களில் நடைபெறும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்தச் செய்தி ஒரே மூலத்திலிருந்து பெறப்பட்டதால் விழாவின் மேலும் விவரங்கள் உறுதிசெய்யப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "spirit",
-  "entities": [
-   "திருவலஞ்சுழி விநாயகர் கோயில்",
-   "சதுர்த்தி விழா",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Flag Hoisting Marks Chaturthi Festival at Thiruvalanchuli Vinayagar Temple",
-   "lines": [
-    "The flag hoisting ceremony marking the Chaturthi festival was held at the 1,500-year-old Thiruvalanchuli Vinayagar Temple.",
-    "The festival began following the temple's traditional customs.",
-    "Temple authorities and priests conducted the flag hoisting event with special rituals.",
-    "The temple is known for its ancient historical significance.",
-    "Further events related to the Chaturthi festival are expected to take place in the coming days."
-   ],
-   "closing": "As this report is based on a single source, further details about the festival remain unconfirmed."
-  },
-  "flags": [
-   "single_source"
-  ],
-  "id": "5017092346b5",
-  "topic_ta": "ஆன்மீகம்",
-  "published_at": "2026-09-07T02:15+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/06/hoisting-of-the-flag-for-the-chaturthi-festival-at-the-1500-year-old-thiruvalanchuli-vinayagar-temple"
-  ],
-  "image": null,
-  "audio": "data/audio/5017092346b5.mp3",
-  "created_ts": 1788727511.701259,
-  "status": "published"
- },
- {
-  "headline": "மழையில் நெல் சேதம்: அரசு நடவடிக்கை கோரி பிரேமலதா விஜயகாந்த் கோரிக்கை",
-  "lines": [
-   "தமிழகத்தில் பெய்யும் மழையால் அறுவடையான நெல் மணிகள் வயல்களில் நனைந்து வீணாகி வருவதாக பிரேமலதா விஜயகாந்த் தெரிவித்தார்.",
-   "மழையில் நனையும் நெல் மணிகளை பாதுகாக்க உடனடி நடவடிக்கை எடுக்குமாறு அவர் தமிழக அரசிடம் கோரிக்கை வைத்தார்.",
-   "விவசாயிகள் இதனால் பெரும் இழப்பை சந்திக்க நேரிடும் என்றும், அரசு உடனடித் தீர்வு காண வேண்டும் என்றும் அவர் வலியுறுத்தினார்.",
-   "இந்தக் கோரிக்கை தொடர்பாக தமிழக அரசு தரப்பில் இதுவரை அதிகாரப்பூர்வ பதில் வெளியிடப்படவில்லை.",
-   "பாதிக்கப்பட்ட விவசாயிகளுக்கு அரசு எந்த வகையிலான நிவாரணம் அல்லது பாதுகாப்பு நடவடிக்கை தரும் என்பது இன்னும் தெரியவில்லை."
-  ],
-  "closing": "மழையால் பாதிக்கப்பட்ட நெல் விவசாயிகளுக்கு தமிழக அரசு என்ன நடவடிக்கை எடுக்கும் என்பது இன்னும் தெளிவாகவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "agri",
-  "entities": [
-   "தமிழ்நாடு",
-   "பிரேமலதா விஜயகாந்த்",
-   "நெல் விவசாயம்",
-   "மழை"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Rain Damages Paddy Grains: Premalatha Vijayakanth Urges Government Action",
-   "lines": [
-    "Premalatha Vijayakanth said that harvested paddy grains are getting soaked and ruined in the rain across Tamil Nadu.",
-    "She urged the Tamil Nadu government to take immediate measures to protect the paddy grains being damaged by rain.",
-    "She stressed that farmers would suffer heavy losses and that the government must find an urgent solution.",
-    "The state government has not yet issued an official response regarding this demand.",
-    "It remains unclear what kind of relief or protective measures the government will provide to the affected farmers."
-   ],
-   "closing": "It is still unclear what action the Tamil Nadu government will take for paddy farmers affected by the rain."
-  },
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "166ca932e7a6",
-  "topic_ta": "விவசாயம்",
-  "published_at": "2026-09-07T02:13+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/06/tn-government-must-take-measures-to-protect-paddy-grains-that-are-getting-ruined-by-the-rain"
-  ],
-  "image": null,
-  "audio": "data/audio/166ca932e7a6.mp3",
-  "created_ts": 1788727439.4410515,
-  "status": "published"
- },
- {
-  "headline": "அடுத்தடுத்த கொலைகள் தொடர்பாக தவெக அரசுக்கு கனிமொழி எம்பி கேள்வி",
-  "lines": [
-   "தமிழ்நாட்டில் தொடர்ந்து நடைபெறும் கொலைச் சம்பவங்களை முன்வைத்து, திமுக நாடாளுமன்ற உறுப்பினர் கனிமொழி, ஆளும் தவெக அரசிடம் கேள்வி எழுப்பியுள்ளார் என தினமணி செய்தி தெரிவிக்கிறது.",
-   "மாநிலத்தில் அடுத்தடுத்து நடக்கும் கொலைகள் குறித்து துல்லியமான எண்ணிக்கை விவரங்கள் இந்தச் செய்தியில் குறிப்பிடப்படவில்லை.",
-   "பாதுகாப்பு நிலைமையை மேம்படுத்த அரசு உடனடி நடவடிக்கை எடுக்க வேண்டும் என கனிமொழி கோரிக்கை விடுத்ததாக தெரிவிக்கப்படுகிறது.",
-   "இந்தக் கேள்விக்கு தவெக அரசு தரப்பில் இதுவரை எந்த பதிலும் அளிக்கப்படவில்லை என்பது கவனிக்கத்தக்கது.",
-   "இது தொடர்பாக அரசு என்ன நடவடிக்கை எடுக்கும் என்பது இன்னும் தெளிவாகத் தெரியவில்லை."
-  ],
-  "closing": "இச்செய்தி தொடர்பான விரிவான விவரங்களோ, சம்பவங்களின் எண்ணிக்கையோ இதுவரை வெளியிடப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "கனிமொழி",
-   "தவெக அரசு",
-   "தமிழ்நாடு",
-   "திமுக"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Kanimozhi MP Questions TVK Government Over Series Of Murders",
-   "lines": [
-    "DMK MP Kanimozhi has questioned the ruling TVK government over a series of murders taking place continuously in Tamil Nadu, according to a Dinamani report.",
-    "The report does not specify the exact number or detailed count of the murder cases referred to.",
-    "Kanimozhi reportedly demanded that the government take immediate action to improve the security situation in the state.",
-    "The TVK government has not yet responded to this question, which remains a point to watch.",
-    "It is still unclear what action the government will take in response to this issue."
-   ],
-   "closing": "Detailed information about the incidents or their exact numbers has not been released so far."
-  },
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "74b830c79dc2",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-07T02:12+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/06/mp-kanimozhi-has-questioned-the-tvk-government-regarding-the-series-of-murders"
-  ],
-  "image": null,
-  "audio": "data/audio/74b830c79dc2.mp3",
-  "created_ts": 1788727368.1277826,
-  "status": "published"
- },
- {
-  "headline": "பேரவையில் பேச முதல்வர் விஜய்க்கு 3 நாள் பயிற்சியா? சேலூர் ராஜு விமர்சனம்",
-  "lines": [
-   "தமிழக முன்னாள் அமைச்சர் சேலூர் ராஜு, சட்டப்பேரவையில் பேசுவதற்காக முதல்வர் விஜய் மூன்று நாட்கள் பயிற்சி பெற்றதாகக் கூறி விமர்சனம் தெரிவித்தார்.",
-   "முதல்வர் பேரவையில் பஞ்ச் டயலாக் பேசுவதற்காக மூன்று நாட்கள் ஒத்திகை பார்த்ததாக சேலூர் ராஜு குற்றம் சாட்டினார்.",
-   "அதிமுக முன்னாள் அமைச்சராக இருந்த சேலூர் ராஜு இந்த விமர்சனத்தை ஞாயிற்றுக்கிழமை வெளியிட்டார்.",
-   "இந்த குற்றச்சாட்டு தொடர்பாக முதல்வர் தரப்பிலிருந்து இதுவரை அதிகாரப்பூர்வ பதில் வெளியாகவில்லை.",
-   "இந்த விவகாரம் தொடர்பாக அரசியல் கட்சிகளிடையே மேலும் விவாதங்கள் தொடரக்கூடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்த விமர்சனத்துக்கு முதல்வர் தரப்பில் இதுவரை பதிலளிக்கப்படவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "சேலூர் ராஜு",
-   "முதல்வர் விஜய்",
-   "அதிமுக",
-   "தமிழக சட்டப்பேரவை"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Did CM Vijay Need 3 Days to Rehearse Assembly Speech? ADMK Slams",
-   "lines": [
-    "Former Tamil Nadu minister Sellur Raju criticized Chief Minister Vijay, alleging he took three days of training to speak in the state assembly.",
-    "Raju accused the Chief Minister of rehearsing punch dialogues for three days before addressing the assembly.",
-    "The former AIADMK minister made this criticism public on Sunday.",
-    "There has been no official response from the Chief Minister's office regarding this allegation so far.",
-    "The issue is expected to spark further political debate among parties in the coming days."
-   ],
-   "closing": "The Chief Minister's side has not yet responded to this criticism."
-  },
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "ef05d8809136",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-07T02:12+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/06/former-admk-minister-sellur-raju-criticized-cm-vijay-stating-that-he-has-been-undergoing-training-for-3-days-to-speak-in-the-assembly"
-  ],
-  "image": null,
-  "audio": "data/audio/ef05d8809136.mp3",
-  "created_ts": 1788727325.4540584,
-  "status": "published"
- },
- {
-  "headline": "மேட்டூர் அணையில் இருந்து பாசன நீர்திறப்பு 10,000 கன அடிக்கு அதிகரிப்பு",
-  "lines": [
-   "தமிழகத்தில் உள்ள மேட்டூர் அணையில் இருந்து விவசாயப் பாசனத்திற்காக திறக்கப்படும் நீரின் அளவு அதிகரிக்கப்பட்டுள்ளது.",
-   "தற்போது அணையில் இருந்து வெளியேற்றப்படும் நீரின் அளவு 10,000 கன அடி வினாடிக்கு என உயர்த்தப்பட்டுள்ளது.",
-   "நீர்வளத் துறை அதிகாரிகள் பாசன தேவையைக் கருத்தில் கொண்டு இந்த முடிவை எடுத்துள்ளதாக தெரிவிக்கப்படுகிறது.",
-   "காவிரி டெல்டா பகுதி விவசாயிகளுக்கு இந்த நீர் பாசனத்திற்கு பயன்படும் என எதிர்பார்க்கப்படுகிறது.",
-   "அணையின் நீர்மட்டம் மற்றும் பாசன தேவைக்கு ஏற்ப நீர்திறப்பு அளவு மேலும் மாற்றப்படலாம் என தெரிவிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "காவிரி டெல்டா மாவட்டங்களுக்கு பாசன நீர் வழங்குவதில் மேட்டூர் அணை முக்கிய பங்கு வகிக்கிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "தினமணி",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "மேட்டூர் அணை",
-   "காவிரி டெல்டா",
-   "நீர்வளத் துறை",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Mettur Dam water release for irrigation increased to 10,000 cusecs",
-   "lines": [
-    "The Mettur Dam in Tamil Nadu has increased the quantity of water released for agricultural irrigation.",
-    "The water discharge from the dam has now been raised to 10,000 cubic feet per second.",
-    "Water resources department officials reportedly took this decision considering irrigation requirements.",
-    "The released water is expected to benefit farmers in the Cauvery delta region.",
-    "Officials said the discharge rate may be further adjusted based on the dam's water level and irrigation needs."
-   ],
-   "closing": "The Mettur Dam plays a key role in supplying irrigation water to the Cauvery delta districts."
-  },
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "5ff9c4bfd126",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-07T02:09+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/06/water-release-from-mettur-dam-for-irrigation-increased-to-10000-cubic-feet-per-second"
-  ],
-  "image": null,
-  "audio": "data/audio/5ff9c4bfd126.mp3",
-  "created_ts": 1788727196.112744,
-  "status": "published"
- },
- {
-  "headline": "சென்னை உள்பட 17 நகரங்களுக்கு 4,000 டன் வெங்காயம் விநியோகம்",
-  "lines": [
-   "தமிழ்நாடு அரசு சென்னை உள்பட 17 நகரங்களில் வெங்காய விலையைக் கட்டுப்படுத்த நடவடிக்கை எடுத்துள்ளது.",
-   "மொத்தம் 4,000 டன் வெங்காயம் இந்த நகரங்களுக்கு விநியோகிக்கப்பட்டுள்ளது.",
-   "இந்த நடவடிக்கை தமிழ்நாடு அரசின் சார்பில் மேற்கொள்ளப்பட்டதாக தகவல் தெரிவிக்கப்பட்டுள்ளது.",
-   "வெங்காய விலை உயர்வால் பொதுமக்கள் சிரமப்பட்ட நிலையில் இந்த விநியோக நடவடிக்கை மேற்கொள்ளப்பட்டுள்ளது.",
-   "தொடர்ந்து விலையைக் கட்டுப்படுத்தும் வகையில் மேலும் நடவடிக்கைகள் எடுக்கப்படும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "வெங்காய விலை உயர்வு தொடர்பாக விரிவான காரணங்கள் இதுவரை தெளிவாகத் தெரிவிக்கப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": "2026-09-06"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "சென்னை",
-   "தமிழ்நாடு அரசு",
-   "வெங்காயம்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Government Distributes 4,000 Tonnes of Onions to 17 Cities",
-   "lines": [
-    "The Tamil Nadu government has taken action to control onion prices in 17 cities, including Chennai.",
-    "A total of 4,000 tonnes of onions have been distributed to these cities.",
-    "The measure was reportedly carried out by the Tamil Nadu government.",
-    "The distribution comes amid public difficulty caused by rising onion prices.",
-    "Further measures are expected to be taken to continue controlling prices."
-   ],
-   "closing": "Detailed reasons behind the rise in onion prices have not yet been clearly stated."
-  },
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "d80fe1cbcac5",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-07T02:08+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/06/4000-tonnes-of-onions-distributed-to-17-cities-including-chennai-government-takes-action-to-control-prices"
-  ],
-  "image": null,
-  "audio": "data/audio/d80fe1cbcac5.mp3",
-  "created_ts": 1788727141.1869028,
-  "status": "published"
- },
- {
-  "headline": "காவிரி நீர் மேலாண்மை ஆணையம் செப்டம்பர் 8 அன்று மீண்டும் கூட்டம்",
-  "lines": [
-   "காவிரி நீர் மேலாண்மை ஆணையத்தின் அடுத்த கூட்டம் செப்டம்பர் எட்டாம் தேதி நடைபெறவுள்ளது.",
-   "தமிழ்நாடு, கர்நாடகா உள்ளிட்ட மாநிலங்களுக்கு இடையேயான காவிரி நீர் பங்கீடு தொடர்பான விவகாரங்கள் இந்தக் கூட்டத்தில் இடம்பெறும் என எதிர்பார்க்கப்படுகிறது.",
-   "ஆணையம் தொடர்ந்து இந்த மாநிலங்களுக்கு இடையேயான நீர் பகிர்வு நிலவரத்தை கண்காணித்து வருகிறது.",
-   "முன்னதாக நடந்த கூட்டங்களிலும் இதே தலைப்பில் விவாதங்கள் நடைபெற்றதாக தெரிகிறது.",
-   "இந்தக் கூட்டத்தில் எடுக்கப்படும் முடிவுகள் குறித்த விவரங்கள் பின்னர் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "காவிரி நீர் மேலாண்மை ஆணையத்தின் இந்தக் கூட்டத்தில் என்ன முடிவுகள் எடுக்கப்படும் என்பதை கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": "2026-09-07"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "காவிரி நீர் மேலாண்மை ஆணையம்",
-   "தமிழ்நாடு",
-   "கர்நாடகா",
-   "புது தில்லி"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Cauvery Water Management Authority to meet again on September 8",
-   "lines": [
-    "The Cauvery Water Management Authority's next meeting is scheduled to take place on September 8.",
-    "Issues related to Cauvery water sharing between Tamil Nadu, Karnataka and other states are expected to be discussed at this meeting.",
-    "The authority has been continuously monitoring the water sharing situation between these states.",
-    "Previous meetings are also reported to have discussed the same topic.",
-    "Details of the decisions taken at this meeting are expected to be released later."
-   ],
-   "closing": "It remains to be seen what decisions will be taken at this meeting of the Cauvery Water Management Authority."
-  },
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "f1b31759716b",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-07T02:08+05:30",
-  "links": [
-   "https://www.dinamani.com/newdelhi/2026/Sep/06/the-cauvery-water-management-authority-meets-again-tomorrow-sept-8"
-  ],
-  "image": null,
-  "audio": "data/audio/f1b31759716b.mp3",
-  "created_ts": 1788727113.406893,
-  "status": "published"
- },
- {
-  "headline": "இனி வரும் தேர்தல்களில் அதிமுக வெற்றி பெறும்: எடப்பாடி பழனிசாமி கூற்று",
-  "lines": [
-   "தமிழகத்தில் இனிமேல் நடைபெறும் தேர்தல்களில் அதிமுக வெற்றி பெறும் என அக்கட்சியின் பொதுச் செயலாளர் எடப்பாடி கே.",
-   "பழனிசாமி தெரிவித்துள்ளார்.",
-   "தமிழக அரசியலில் அதிமுக மீண்டும் முன்னிலைக்கு வரும் என்ற நம்பிக்கையை அவர் தனது கூற்றில் வெளிப்படுத்தியுள்ளார்.",
-   "இது தொடர்பாக எதிர்க்கட்சிகள் எந்த பதிலும் அளிக்கவில்லை என்று தற்போதைக்கு தகவல் இல்லை.",
-   "அதிமுகவின் இந்த நம்பிக்கை அறிக்கை அடுத்த சில நாட்களில் கட்சி வட்டாரங்களில் விவாதப் பொருளாக மாறக்கூடும்."
-  ],
-  "closing": "எடப்பாடி பழனிசாமியின் இந்தக் கூற்று தமிழக அரசியல் சூழலில் என்ன தாக்கத்தை ஏற்படுத்தும் என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": "2026-09-07"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "அதிமுக",
-   "எடப்பாடி கே. பழனிசாமி",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "AIADMK Will Win Future Tamil Nadu Elections: Edappadi Palaniswami",
-   "lines": [
-    "AIADMK general secretary Edappadi K. Palaniswami has said that the party will win all upcoming elections in Tamil Nadu.",
-    "He expressed confidence that AIADMK will return to a prominent position in Tamil Nadu politics.",
-    "There is no information yet on any response from opposition parties regarding this statement.",
-    "This confident remark by Palaniswami is likely to become a topic of discussion within party circles in the coming days.",
-    "It remains to be seen what impact this statement will have on the political atmosphere in Tamil Nadu."
-   ],
-   "closing": "It remains to be watched what impact Edappadi Palaniswami's statement will have on Tamil Nadu's political landscape."
-  },
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "6f0af5db1afd",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-07T02:07+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/06/aiadmk-will-win-future-elections-in-tamil-nadu-edappadi-k-palaniswami"
-  ],
-  "image": null,
-  "audio": "data/audio/6f0af5db1afd.mp3",
-  "created_ts": 1788727071.7324142,
   "status": "published"
  }
 ]
