@@ -9,9 +9,9 @@
 [fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 13 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 4 புதியவை
+[fetch] Cinema Express: 3 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 1 புதியவை
+[fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 4 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 8 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
+[fetch] Bar and Bench: 7 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 0 புதியவை
-[fetch] The Verge: 5 புதியவை
-[fetch] The Hindu National: 26 புதியவை
+[fetch] TechCrunch: 1 புதியவை
+[fetch] The Verge: 4 புதியவை
+[fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,17 +56,17 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6bd9a52d90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff566807ed0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 513 → நிகழ்வுகள் 465
-[triage] 465 → 23 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] தமிழ்நாடு/இந்திய வாசகருக்கு நேரடிப் பொருத்தமுள்ள செய்தி அல்ல
-[skip] விளம்பர அறிவிப்பு — தயாரிப்பு ছাড் விற்பனை. தமிழ்நாடு/இந்திய
-[skip] Apple iPhone Duo குறித்த செய்தி. இது ஐபோன் தொடர் பற்றிய அறிவ
-[skip] தமிழ்நாடு அரசு அல்லது தமிழ் மக்களுக்கு நேரடிப் பாதிப்பு இல்ல
+[run] புதியவை 507 → நிகழ்வுகள் 460
+[triage] 460 → 30 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] தெலங்கானா முதல்வரின் உரை — தெலங்கானா அரசு கொள்கை. தமிழ்நாட்ட
+[skip] வெளிநாட்டு நிறுவனத்தின் உட்பகுப்பு மாற்றம் — தமிழ்நாடு/இந்தி
+[skip] அமெரிக்க அரசின் உள்நாட்டுக் கொள்கை/அரசியல் பேষ்ட — தமிழ்நாடு
+[skip] வெளிநாட்டு மூலத்தில் இருந்து ஆங்கிலம் மட்டும் — தமிழ் விவரங்
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
