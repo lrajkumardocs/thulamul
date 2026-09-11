@@ -5,7 +5,7 @@
 [fetch] Dinamani TN: 19 புதியவை
 [fetch] BBC Tamil: 6 புதியவை
 [fetch] BBC World: 15 புதியவை
-[fetch] Al Jazeera: 17 புதியவை
+[fetch] Al Jazeera: 18 புதியவை
 [fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 3 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 1 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 6 புதியவை
+[fetch] FreeJobAlert: 5 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -32,9 +32,9 @@
 [fetch] The Hindu Legal: 12 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 13 புதியவை
-[fetch] Dinamani Sports: 23 புதியவை
+[fetch] Dinamani Sports: 20 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 0 புதியவை
+[fetch] TechCrunch: 1 புதியவை
 [fetch] The Verge: 0 புதியவை
 [fetch] The Hindu National: 12 புதியவை
 [fetch] NDTV India: 20 புதியவை
@@ -56,21 +56,15 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f410d20b410>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff018ad1510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 12 புதியவை
 [fetch] Dinamani Govt: 19 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 342 → நிகழ்வுகள் 326
-[triage] 326 → 11 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] dd4d64ee55ad: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னை ஓபன் கோல்ஃப்: விராஜ் மடப்பா சாம்பியன் பட্டம் வென்றார்.
-[skip] India Optel ஒரு தனியார் நிறுவனம்; வேலைவாய்ப்பு அறிவிப்பு தமி
-[tts-edge] 1e70f3753de2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] செப். 29-இல் பள்ளிகளுக்கு இடையிலான மாநில வாலிபால் சாம்பியன் போட்டி
-[publish] தேசிய மோட்டார் பைக் பந்தயத்தில் வெங்கடேசன், ஹரிஹரன், அனந்து முன்னிலை
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: பணப்புழக்கத்தை கட்டுப்படுத்துமா, வளர்ச்சியை தடுக்குமா?
+[run] புதியவை 340 → நிகழ்வுகள் 324
+[triage] 324 → 4 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனத்தின் நிதி சுற்று — தமிழ்நாடு/
+[skip] ஜம்மு-காஷ்மீர் அரசுத் தேர்வு — தமிழ்நாட்டுக்கு நேரடி தொடர்பு
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 2 · எழுதியவை 3
+[done] feed 300 · pending 2 · எழுதியவை 0
