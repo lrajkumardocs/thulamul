@@ -1,3 +1,4 @@
+[expire] 31c6f693fcc0
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
@@ -7,10 +8,10 @@
 [fetch] BBC World: 22 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 10 புதியவை
-[fetch] The Hindu Sport: 7 புதியவை
-[fetch] The Hindu Cinema: 5 புதியவை
-[fetch] Cinema Express: 4 புதியவை
-[fetch] The Hindu Tech: 1 புதியவை
+[fetch] The Hindu Sport: 8 புதியவை
+[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] Cinema Express: 5 புதியவை
+[fetch] The Hindu Tech: 0 புதியவை
 [fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -56,16 +57,15 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff58ee91190>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f60fc646990>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 23 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 500 → நிகழ்வுகள் 452
-[triage] 452 → 69 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இயேமன் உள்நாட்டு갈등 மற்றும் வெளிநாட்டு ராணுவ நிகழ்வு — தமிழ்ந
-[skip] இது அரசியல் நிகழ்வு — பிரதமர் உரையாடல் / ராஜதந்திரத் தோகை. த
-[skip] English-language film review without Tamil cinema connection
+[run] புதியவை 500 → நிகழ்வுகள் 450
+[triage] 450 → 27 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] கேரளா அரசின் உள்ளூர் ஊழல் வழக்கு — தமிழ்நாடு வாசகரைப் பாதிக்
+[skip] ஆங்கிலச் செய்திதாளில் ஆங்கிலப் பெயரில் வெளியிடப்பட்ட தெலுங்க
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 0
