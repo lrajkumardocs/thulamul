@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 22 புதியவை
+[fetch] The Hindu TN: 21 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 22 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 8 புதியவை
 [fetch] The Hindu Sport: 4 புதியவை
-[fetch] The Hindu Cinema: 1 புதியவை
+[fetch] The Hindu Cinema: 2 புதியவை
 [fetch] Cinema Express: 3 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
 [fetch] Wired: 0 புதியவை
@@ -56,16 +56,16 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe84a6736d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc63f6a3050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 23 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 491 → நிகழ்வுகள் 439
-[triage] 439 → 40 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு தயாரிப்பு வெளியீடு — தமிழ்நாடு அல்லது இந்திய வாசக
-[skip] This is a local temple rope car service resumption in Kanche
-[skip] இது ஒரு நபரின் இலக்கியச் சாதனம் மற்றும் பாடநெறி (talk shows)
+[run] புதியவை 491 → நிகழ்வுகள் 440
+[triage] 440 → 28 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] அமெரிக்க உள்நாட்டு செய்தி — தமிழ்நாடு/இந்திய வாசகருக்குப் பொ
+[skip] உத्தரப் பிரதேசத்தின் உள்நாட்டுச் சட்ட வழக்கு. தமிழ்நாடு/தமிழ
+[skip] வெறும் கன్నಡ চলচ্চিত্রের পর্যালোচনা। তমिழ் நाট में প्रदর्शन,
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 1 · எழுதியவை 0
