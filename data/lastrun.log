@@ -3,40 +3,40 @@
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 14 புதியவை
 [fetch] Dinamani TN: 19 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 17 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 15 புதியவை
 [fetch] Al Jazeera: 15 புதியவை
-[fetch] ESPNcricinfo: 15 புதியவை
+[fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 15 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 0 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 1 புதியவை
+[fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 1 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 17 புதியவை
+[fetch] FreeJobAlert: 13 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 2 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 18 புதியவை
+[fetch] The Hindu Legal: 16 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 18 புதியவை
+[fetch] Dinamani Cinema: 15 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 0 புதியவை
+[fetch] TechCrunch: 2 புதியவை
 [fetch] The Verge: 0 புதியவை
-[fetch] The Hindu National: 18 புதியவை
+[fetch] The Hindu National: 16 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,30 +56,26 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f63734bced0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 18 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6140a28e10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 16 புதியவை
 [fetch] Dinamani Govt: 19 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 396 → நிகழ்வுகள் 368
-[triage] 368 → 21 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] பொழுதுபோக்கு பட்டியல் — செய்தி அல்ல. தமிழ்நாட்டு வாசகருக்கு 
-[skip] நமீபியா vs தென்னாப்பிரிக்கா — தமிழ்நாடு, இந்தியா, உலக அளவில்
-[skip] இந்தியாவுக்கு தமிழ்நாடு தொடர்பு இல்லை; வெளிநாட்டு அரசியல் — 
-[skip] வரலாற்று பகுப்பாய்வு — உடனடி செய்திகளைப் பொறுத்து 25 ஆண்டு ப
-[skip] வெளிநாட்டு உள்நாட்ட மோதல் — தமிழ்நாடு / இந்திய வாசகர் நலன் ந
-[skip] வெளிநாட்டு உள்நாட்டுத் தகவல் — யேமனின் உள்ளுறவு மற்றும் அளவி
-[skip] வெளிநாட்டு உள்நாட்டு갈등 — யேமன் অভ্যন্তரীণ அரசியல் ও ভূ-রাজনী
-[skip] இவை தமிழ்நாட்டிற்கு வெளியே அமைந்த DRDO ASL (ஐதராபாத்), CSIR 
-[skip] இது கேரளாவின் எடப்பள்ளியில் உள்ள சாலை அடிப்பாதை தொடர்பான உள்
-[skip] இது கேரளாவின் ஃபோர்ட் கொச்சியில் உள்ள ஒரு குறிப்பிட்ட குடியி
-[skip] இது கேரளாவின் கொச்சியில் நடந்த உள்ளூர் போதைப்பொருள் கைது வழக
-[tts-edge] 6d555b8e5f7d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அன்பில் அவன் படத்தின் இரண்டாவது பாடல் ப்ரோமோ வெளியீடு
-[skip] தயாரிப்பு அறிவிப்பு மட்டுமே — செய்திக்க முக்கியத்துவம் இல்லை
-[skip] Caribbean Premier League (CPL) என்பது வெளிநாட்டு உள்நாட்டுத்
-[skip] Duleep Trophy என்பது ভারতীয় দেশীয় ক্রিকেট প্রতিযোগিতা; தமि
+[run] புதியவை 378 → நிகழ்வுகள் 355
+[triage] 355 → 16 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] விளம্பர/தயாரிப்பு அறிவிப்பு — தமிழ்நாட்டு வாசகரின் அரசு/பொது
+[skip] வெளிநாட்டு ক্রিকেট সংস্థার உள்নாட்టু স্মারক/ভবন অনুষ্ঠান — த
+[tts-edge] 92836c3cce22: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] கொல்கத்தா சட்டக் கல்லூரி துணை முதல்வர் மாணவர் போராட்டத்தால் ராஜினாமா
+[skip] இது ஒரு குறிப்பிட்ட நபரின் சிறைவாழ்க்கை பற்றிய தனிப்பட்ட நேர
+[tts-edge] 3b960f61e520: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காஷ்மீர் மத தலைவர்கள் மூவர் டெல்லியில் ஈரான் தூதரகக் கண்காட்சியில் பங்கேற்பு
+[skip] உত்तரப்রதேशத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு — தமிழ்நாடு
+[skip] தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்காது — வெளிநாட்டு தொழில்நுட்
+[skip] பிரபல நபரின் மரணச் செய்தி — image_query மற்றும் உணர்வுபூர்வம
+[skip] சிங்கப்பூர் கால்பந்து அணியின் உள்ளூர்ச் பணிக்கூட்டு ஒப்பந்தம
+[skip] மூல உரை விளையாட்டுத் தகவல் நிறைய அல்ல; தாவணி, உடை, வண்ணப் பெ
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 1
+[done] feed 300 · pending 2 · எழுதியவை 2
