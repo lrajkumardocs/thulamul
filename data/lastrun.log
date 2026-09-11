@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 25 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 24 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 16 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 0 புதியவை
-[fetch] The Hindu Sport: 1 புதியவை
+[fetch] The Hindu Sport: 0 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 19 புதியவை
+[fetch] Cinema Express: 17 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 4 புதியவை
+[fetch] Wired: 1 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 5 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 7 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -56,21 +56,24 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4523626350>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6710047790>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 6 புதியவை
 [fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 400 → நிகழ்வுகள் 385
-[triage] 385 → 75 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] San Francisco நகரின் Meta-க்கு எதிரான சட்ட நடவடிக்கை. தமிழ்ந
-[skip] ஆன்மிக/மத விளக்கம் — செய்தி அல்ல; தமிழ்நாடு வாசகரின் செயல்பற
-[skip] Delhi High Court வழக்கு விநேஷ் ஃபோகாட்டின் ஆண்டுக்குப் பின் 
-[skip] தமிழ்நாடு / இந்திய வாசகருக்குப் பொருந்தாது. அமெரிக்க அரசியல்
-[skip] Apple Watch நிகழ்வு தமிழ்நாடு வாசகরைப் பாதிக்காது; பொருள் பற
-[skip] தமிழ்த் திரையுலகத்துடன் தொடர்பில்லாத தனிநபர் சர்ச்சை மற்றும்
-[skip] Sardar 2 என்பது தெலுங்கு படம்; தமிழ்நாட்டில் வெளியாகும் அல்ல
-[skip] வினேஷ் ஃபோகாத்தின் தனிநபர் சட்ட வழக்கு — தில்லி உচ்ச நீதிமன்
+[run] புதியவை 398 → நிகழ்வுகள் 383
+[triage] 383 → 47 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] பிரிட்டனின் உள்நாட்டு அரசியல் செய்தி; தமிழ்நாடு/இந்திய வாசகர
+[skip] அசாமில் யானைகளுக்கான செய்திக்கு தமிழ்நாட்டு வாசகர்களுக்கு மு
+[skip] This is a Kerala High Court order regarding a social activis
+[skip] வெளிநாட்டு ஆமெரிக்க விளையாட்டு முதலீடு செய்தி. தமிழ்நாடு/இந்
+[skip] Nvidia-ன் நிதியாண்டு முன்னறிப்பு பற்றிய செய்தி; தமிழ்நாட்டுக
+[skip] கன্னட நடிகர் Yash குறித்த ஒரு திரைப்படத் திட்டத்தின் பின்னணி
+[skip] தெலுங்கு, ஹிந்தி மொழிப் படங்களின் வெளியீட்டு அறிவிப்பு. தமிழ
+[skip] Barcelona-ஐ மையமாகக் கொண்ட ஐரோப்பীய ক்লப் கால்பந்து செய்தி. 
+[tts-edge] brief_2026-09-11: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[brief] காலை brief தயார்
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 2 · எழுதியவை 0
