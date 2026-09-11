@@ -4,14 +4,14 @@
 [fetch] The Hindu TN: 19 புதியவை
 [fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 23 புதியவை
+[fetch] BBC World: 22 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 6 புதியவை
 [fetch] The Hindu Sport: 4 புதியவை
-[fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 3 புதியவை
+[fetch] The Hindu Cinema: 2 புதியவை
+[fetch] Cinema Express: 2 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 2 புதியவை
+[fetch] Wired: 1 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 3 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 26 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] The Hindu Legal: 23 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 0 புதியவை
 [fetch] The Verge: 0 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Hindu National: 23 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,17 +56,16 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f34d04423d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f46245faed0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 23 புதியவை
 [fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 487 → நிகழ்வுகள் 438
-[triage] 438 → 42 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] உலகப் பொதுச் செய்தி; தமிழ்நாடு/இந்திய வாசகரைக் குறிப்பாக பாத
-[skip] Hyderabad is in Telangana. This is a local Telangana news, n
-[skip] வெளிநாட்டு நுகர்வோர் பொருளின் பর்যালோചனை — தமிழ்நாடு/இந்தியப
-[skip] தமிழ்நாட்டுக்கு சம்பந்தப்படாத வெளிநாட்டு சினிமா கதாபாத்திரக்
+[run] புதியவை 483 → நிகழ்வுகள் 433
+[triage] 433 → 27 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்காது — அமெரிக்கா-மெக்சிகோ ஒப
+[skip] கேரள மாநிலத்தின் உள்ளூர் செய்தி; தமிழ்நாடு வாசகரைப் பாதிக்கவ
+[skip] தெலుங்குப் படம் — தமிழ்நாட்டுக்குப் பொருத்தமாக வெளியாகும் அல
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 1 · எழுதியவை 0
