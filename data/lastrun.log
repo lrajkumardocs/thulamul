@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 25 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 23 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 20 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
+[fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 14 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 0 புதியவை
-[fetch] The Hindu Tech: 1 புதியவை
-[fetch] Wired: 0 புதியவை
+[fetch] The Hindu Tech: 0 புதியவை
+[fetch] Wired: 1 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 4 புதியவை
+[fetch] The Hindu Health: 3 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 29 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,13 +28,13 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 25 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
-[fetch] Dinamani Cinema: 22 புதியவை
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
+[fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 0 புதியவை
+[fetch] TechCrunch: 1 புதியவை
 [fetch] The Verge: 0 புதியவை
 [fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
@@ -56,51 +56,40 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa65ec99750>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f018b615ed0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 25 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 498 → நிகழ்வுகள் 450
-[triage] 450 → 65 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இது மும்பை பார் அசோசியேஷன் மற்றும் தாய்லாந்து சட்டவல்லுநர் க
-[skip] AIIMS NEET cutoff is an all-India medical entrance counselli
-[skip] விளம்பர/தயாரிப்பு அறிவிப்பு — BRICS நாடுகளின் உலக வணிக நிகழ்
-[skip] கூட்டம், சেமினார், பேரணி — வழக்கமான நிகழ்வு; மக்களைப் பாதிக்
-[skip] மலையாளப் படம் — தமிழ்நாட்டு வாசகருக்குப் பொருந்தாதது. தமிழ் 
-[skip] வெளிநாட்டு கிரிக்கெட் — இந்திய அணி சம்பந்தப்பட்டாலும் தமிழ்ந
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cex9NYHZQv7YpP2jjotoW'}
-[tts-edge] 398f13088991: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழறிஞர் சாலமன் பாப்பையா காலமானார், தலைவர்கள் இரங்கல்
-[tts-edge] a3cef0d5c04c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] கள்ளக்குறிச்சியில் அரசுப் பள்ளி மாணவி உயிரிழப்பு; ஆசிரியர் போக்சோ சட்டத்தில் கைது
-[publish] தமிழறிஞர் சாலமன் பாப்பையா மறைவு: சிபிஐ, சிபிஐ(எம்) இரங்கல்
-[publish] ஹாங்காங்கில் தியனன்மென் ஆர்வலர்களுக்கு ஏழு ஆண்டுகள் வரை சிறை தண்டனை
+[run] புதியவை 470 → நிகழ்வுகள் 426
+[triage] 426 → 34 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] IIM நாக்பூர் மற்றும் NIT சில்சார் ஆகியவை தமிழ்நாட்டைச் சாராத
+[skip] Meta-ன் உலகளாவிய AI பயிற்சிக் கொள்கை பற்றிய வழக்கு. தமிழ்நாட
+[skip] தமிழ் நடிகர் அஜித் குமாரின் ব্যক্তিগত கூற்று மட்டும். செய்தி
+[skip] இங்கிலாந்து county cricket — வெளிநாட்டு உள்ளூர் விளையாட்டு வ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CexBKCJvM4S8p42TpGqPw'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] உக்ரைன் கிராமடோர்ஸ்க், ஸ்லோவியான்ஸ்க் நகர மக்களுக்கு வெளியேற உத்தரவு
-[publish] வங்கி ஆவணங்களுக்கு நேரிலா பதிவு முறை: செப்டம்பர் 15 முதல் தமிழக அரசு உத்தரவு
-[publish] தமிழ்நாட்டில் ஒரே நேரத்தில் 112 இரண்டாம் நிலை முதல்வர்கள் நியமனம் - அமைச்சர் தகவல்
-[publish] தமிழக அரசு: செப்டம்பர் 12க்குப் பின் அச்சு driving licence, RC வழங்க தடை
-[publish] 1,857 சூப்பர் ஸ்பெஷாலிட்டி மருத்துவ இடங்கள் காலியாக உள்ளதாக ஸ்டாலின் வலியுறுத்தல்
+[tts-edge] 47f74f90a273: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுரை சென்ட்ரல் தியேட்டரில் பயங்கர தீ விபத்து
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை உருவாக்க போதுமான 
+[tts-edge] c5415256f525: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வேலூர் தேவாலய கூரை இடிந்த சம்பவம் - நிர்வாகத்திற்கு காரணம் கேட்டு நோட்டீஸ்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] வங்கிக் கடன் ஆவணங்கள் பதிவுக்கு புதிய நடைமுறை செப்.15 முதல் அமல்
-[publish] பட்டினம்பாக்கம், நீலாங்கரையில் விநாயகர் சிலை கரைக்க தடை: தீர்ப்பாயம் உத்தரவு
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமான ஆனால் உலக செய்திக் குறிப
-[publish] சீன அதிபர் ஜின்பிங் 7 ஆண்டுக்கு பிறகு இந்தியா வருகிறார்.
-[filler] health கட்டுரை
-[comic] கதை: தடியேந்திய மர்மன்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.89) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.95) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.96) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐ ஒத்திருக்கிறது (0.95) — அப்படியே வைக்கிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-09-12.png · நாள் 5
-[rasi] ராசிபலன் தயார்
+[publish] புதிய செயலக இடம் குறித்து அனைத்துக் கட்சிக் கூட்டம் கூட்ட சிபிஎம் கோரிக்கை
+[publish] எடப்பாடி பழனிசாமி புதிய சட்டமன்ற-செயலக கட்டிடத் திட்டத்தை தேவையற்றது எனக் கூறினார்
+[publish] மீனாட்சியம்மன் கும்பாபிஷேகம்: சென்னை - மதுரை சிறப்பு ரயில்கள் அறிவிப்பு
+[publish] தமிழ்நாட்டில் விரைவில் 4,500 செவிலியர்கள் நியமனம்: அமைச்சர் அருண்ராஜ் அறிவிப்பு
+[publish] இடைத்தேர்தலில் மட்டுமல்ல அனைத்திலும் தவெக வெற்றி: ரவிசங்கர்
+[publish] மகாமகம் திருவிழா ஏற்பாடுகள் தீவிரம் என அமைச்சர் ரமேஷ் தகவல்
+[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் தொழிற்சங்கக் கோரிக்கை பற்றி
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] வெல்லூர் தேவாலயக் கூரை இடிந்த சம்பவம்: நிர்வாகத்திற்கு நோட்டீஸ்
+[skip] இரு மூலங்களிலும் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரங்க
+[publish] HAL நிறுவனத்தில் 120 பணியிடங்களுக்கு நேர்காணல் அழைப்பு கடிதம் வெளியீடு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CexC9ra8iSVy7uGGcVkNe'}
+[publish] கிரானுல்ஸ் இந்தியா நிறுவனர் 1.72 கோடி பங்குகளை ரூ.1,500 கோடிக்கு விற்றார்
+[publish] அமெரிக்க பணவீக்க உயர்வால் வட்டி அதிகரிப்பு வாய்ப்பு 85% ஆக உயர்வு
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 12
