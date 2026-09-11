@@ -1,5 +1,67 @@
 [
  {
+  "headline": "அம்பூர் அருகே தோல் கிடங்கில் தீ விபத்து, முழுவதுமாக எரிந்து நாசம்",
+  "lines": [
+   "தமிழ்நாட்டில் அம்பூர் அருகே அமைந்திருந்த ஒரு தோல் கிடங்கு தீ விபத்தில் முழுவதுமாக எரிந்து நாசமானது.",
+   "தீ காரணமாக கிடங்கில் இருந்த தோல் பொருட்கள் அனைத்தும் முழுமையாக சேதமடைந்ததாக தகவல்.",
+   "இந்த விபத்து மின் சுருக்கினால் ஏற்பட்டிருக்கலாம் என காவல் துறையினர் தெரிவித்தனர்.",
+   "விபத்தால் ஏற்பட்ட இழப்பு தொடர்பான முழுமையான விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+   "தீ ஏற்பட்ட உண்மையான காரணத்தை உறுதிப்படுத்த காவல் துறையினர் மேலும் விசாரணை நடத்தி வருகின்றனர்."
+  ],
+  "closing": "தீ விபத்துக்கான உண்மையான காரணத்தை உறுதிசெய்ய காவல் துறை விசாரணையை தொடர்கிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "அம்பூர்",
+   "தோல் கிடங்கு",
+   "காவல் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Leather godown near Ambur gutted in fire, completely destroyed",
+   "lines": [
+    "A leather godown located near Ambur in Tamil Nadu was completely gutted in a fire accident.",
+    "The fire reportedly destroyed all the leather goods stored inside the godown.",
+    "Police said the incident could have been caused by an electrical short circuit.",
+    "Complete details regarding the extent of loss caused by the fire have not been officially released yet.",
+    "Police are continuing their investigation to confirm the exact cause of the fire."
+   ],
+   "closing": "Police investigation is ongoing to confirm the exact cause of the fire."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "1f6146ef3f05",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-12T01:10+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/leather-godown-gutted-near-ambur/article71456412.ece",
+   "https://www.thehindu.com/news/national/tamil-nadu/leather-godown-gutted-near-ambur/article71456412.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/1f6146ef3f05.mp3",
+  "created_ts": 1789155646.8061554,
+  "status": "published"
+ },
+ {
   "headline": "வெல்லூர் தேவாலயக் கூரை இடிந்த சம்பவம்: நிர்வாகத்திற்கு நோட்டீஸ்",
   "lines": [
    "வெல்லூரில் உள்ள CSI தேவாலயத்தின் கூரை இடிந்து விழுந்த சம்பவம் தொடர்பாக மாவட்ட நிர்வாகம் தேவாலய நிர்வாகத்திற்கு விளக்கம் கோரி நோட்டீஸ் அனுப்பியுள்ளது.",
@@ -3451,65 +3513,6 @@
   },
   "audio": "data/audio/afda7894fad2.mp3",
   "created_ts": 1788814153.9699922,
-  "status": "published"
- },
- {
-  "headline": "DMK - AIADMK கூட்டணி அரசு திட்டம் என ஷாஜகான் குற்றச்சாட்டு",
-  "lines": [
-   "தமிழ்நாட்டில் DMK மற்றும் AIADMK கட்சிகள் இணைந்து கூட்டணி அரசு அமைக்கத் திட்டமிட்டதாக ஷாஜகான் என்பவர் குற்றச்சாட்டு முன்வைத்துள்ளார்.",
-   "தன்னை ஒரு ஹோட்டலில் அடைத்து வைத்தது யார் என்பதை விரைவில் வெளிப்படுத்துவதாக அவர் எச்சரிக்கை தொனியில் தெரிவித்துள்ளார்.",
-   "இந்தக் குற்றச்சாட்டை ஷாஜகான் ஊடகங்களிடம் பேசும்போது முன்வைத்ததாகத் தெரிகிறது.",
-   "இது குறித்து DMK அல்லது AIADMK கட்சிகள் இதுவரை அதிகாரப்பூர்வமாக பதிலளிக்கவில்லை.",
-   "இந்த குற்றச்சாட்டு தமிழக அரசியலில் மேலும் விவாதத்தை ஏற்படுத்தக்கூடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "ஷாஜகான் யார், எந்தச் சூழலில் இந்தக் குற்றச்சாட்டை முன்வைத்தார் என்பது தெளிவாகத் தெரியவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": "2026-09-07"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "DMK",
-   "AIADMK",
-   "ஷாஜகான்",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Shahjahan alleges DMK-AIADMK planned coalition government",
-   "lines": [
-    "A person named Shahjahan has alleged that DMK and AIADMK parties in Tamil Nadu had planned to form a coalition government together.",
-    "He warned that he would soon reveal who had confined him to a hotel, speaking in a threatening tone.",
-    "The allegation appears to have been made by Shahjahan while speaking to the media.",
-    "Neither DMK nor AIADMK has officially responded to this claim so far.",
-    "The allegation is expected to trigger further debate in Tamil Nadu politics."
-   ],
-   "closing": "It is not clear who Shahjahan is or in what context he made this allegation."
-  },
-  "front_cat": "routine",
-  "id": "5a3731bda3cd",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-08T02:16+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/07/dmk-aiadmk-planned-coalition-government-shahjahan"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Indian_Election_Symbol_Two_Leaves.svg/500px-Indian_Election_Symbol_Two_Leaves.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · All India Anna Dravida Munnetra Kazhagam",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/All_India_Anna_Dravida_Munnetra_Kazhagam"
-  },
-  "audio": "data/audio/5a3731bda3cd.mp3",
-  "created_ts": 1788813980.9304922,
-  "urgent": false,
-  "affected": "",
   "status": "published"
  }
 ]
