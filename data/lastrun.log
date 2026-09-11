@@ -9,7 +9,7 @@
 [fetch] ESPNcricinfo: 0 புதியவை
 [fetch] The Hindu Sport: 2 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 9 புதியவை
+[fetch] Cinema Express: 7 புதியவை
 [fetch] The Hindu Tech: 1 புதியவை
 [fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 5 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 6 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 9 புதியவை
+[fetch] TechCrunch: 7 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 5 புதியவை
+[fetch] The Hindu National: 6 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,20 +56,22 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fad723687d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 5 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9f452566d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 6 புதியவை
 [fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 380 → நிகழ்வுகள் 365
-[triage] 365 → 40 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] நিউயார்க்கின் AI தடைச் செய்தி — அமெரிக்க உள்ளூர் கல்வி নীதி.
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர்ச் செய்தி. தமிழ்நாட்டு வாசகரைப்
-[skip] கேரளத்தின் மலப്പुരം மாவட்டத்தில் பனിய பழங்குடி மக்கள் எதிர்க
-[skip] Instagram-ன் புதிய feature குறித்த உலக தயாரிப்பு அறிவிப்பு —
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமற்ற உலகப் பொழுதுபோக்கு தொழி
-[skip] தமிழ் நடிகர் தனிப்பட்ட மனநல விষயத்தைப் பகிர்ந்துகொண்டது — சி
-[skip] ஆங்கிலப் பேட்டி — பொதுவான திரையுலக நுணுக்கம். தமிழ்நாட்டு வா
+[run] புதியவை 380 → நிகழ்வுகள் 364
+[triage] 364 → 61 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு பொதுவான தொழில் பரிமாற்ற கட்டுரை — தமிழ்நாடு/இந்தி
+[tts-edge] 297ebbe276b7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வினேஷ் போகாட்டுக்கு இடைக்கால நிவாரணம் மறுத்த டெல்லி உயர் நீதிமன்றம்
+[skip] வங்கி வேலைநிறுத்தம் — அகில இந்திய நிகழ்வு; தமிழ்நாட்டுக்குக்
+[skip] ஆந்திரப் பிரதேசத்தின் வானிலை எச்சரிக்கை — தமிழ்நாட்டுக்குப் 
+[skip] தமிழ்நாடு / இந்தியாவைப் பாதிக்காத வெளிநாட்டு தொழில்நுட்ப நிற
+[skip] தமிழ்நாட்டு/இந்திய தொடர்பு இல்லை — வெளிநாட்டு பொதுச் சேவைகளை
+[skip] தமிழ்ப் படமல்ல; தெலுங்குப் படம் — தமிழில் வெளியாகும் தகவல் இ
+[skip] தமிழ் நடிகர்கள் பற்றிய சர்ச்சை என்றாலும், மூல உரையில் மாளவிக
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 1
