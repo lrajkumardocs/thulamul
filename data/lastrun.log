@@ -9,8 +9,8 @@
 [fetch] ESPNcricinfo: 0 புதியவை
 [fetch] The Hindu Sport: 2 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 11 புதியவை
-[fetch] The Hindu Tech: 0 புதியவை
+[fetch] Cinema Express: 9 புதியவை
+[fetch] The Hindu Tech: 1 புதியவை
 [fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -34,7 +34,7 @@
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 12 புதியவை
+[fetch] TechCrunch: 9 புதியவை
 [fetch] The Verge: 10 புதியவை
 [fetch] The Hindu National: 5 புதியவை
 [fetch] NDTV India: 20 புதியவை
@@ -56,20 +56,20 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7feb0e18d090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fad723687d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 5 புதியவை
 [fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 384 → நிகழ்வுகள் 370
-[triage] 370 → 33 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காத வெளிநாட்டு நிறுவனத்தின
-[skip] BRICS summit is international diplomatic event; Putin's visi
-[skip] வெளிநாட்டு மாநில (ஆந்திரப்ரதேசு) விளையாட்டுச் செய்திக்குத் த
-[skip] வெளிநாட்டு প্রযুক்தி நிறுவனத்தின் ল্যাবরেটरी গবेষणा; தமிழ்நா
-[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனத்தின் உள்நாட்டு முதலீட்டு சுற்
-[skip] சாதாரণ விமர்சனம் மட்டும்; தமிழ் சினிமாவுக்குப் பொருந்தாத சர்
-[skip] விஜய்யின் மகன் சிনிமா ইভেন்টில் கட்சிச் சுலোகங்கள் — இது தமி
+[run] புதியவை 380 → நிகழ்வுகள் 365
+[triage] 365 → 40 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] நিউயார்க்கின் AI தடைச் செய்தி — அமெரிக்க உள்ளூர் கல்வி নীதி.
+[skip] தெலங்கானா மாநிலத்தின் உள்ளூர்ச் செய்தி. தமிழ்நாட்டு வாசகரைப்
+[skip] கேரளத்தின் மலப്പुരം மாவட்டத்தில் பனിய பழங்குடி மக்கள் எதிர்க
+[skip] Instagram-ன் புதிய feature குறித்த உலக தயாரிப்பு அறிவிப்பு —
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமற்ற உலகப் பொழுதுபோக்கு தொழி
+[skip] தமிழ் நடிகர் தனிப்பட்ட மனநல விষயத்தைப் பகிர்ந்துகொண்டது — சி
+[skip] ஆங்கிலப் பேட்டி — பொதுவான திரையுலக நுணுக்கம். தமிழ்நாட்டு வா
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
