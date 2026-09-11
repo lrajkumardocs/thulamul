@@ -5,9 +5,9 @@
 [fetch] Dinamani TN: 19 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 15 புதியவை
-[fetch] Al Jazeera: 15 புதியவை
+[fetch] Al Jazeera: 18 புதியவை
 [fetch] ESPNcricinfo: 13 புதியவை
-[fetch] The Hindu Sport: 15 புதியவை
+[fetch] The Hindu Sport: 12 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 0 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
@@ -16,27 +16,27 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 1 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 13 புதியவை
+[fetch] FreeJobAlert: 12 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 2 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 16 புதியவை
+[fetch] The Hindu Legal: 13 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 15 புதியவை
+[fetch] Dinamani Cinema: 14 புதியவை
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 2 புதியவை
-[fetch] The Verge: 0 புதியவை
-[fetch] The Hindu National: 16 புதியவை
+[fetch] The Verge: 1 புதியவை
+[fetch] The Hindu National: 13 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,26 +56,29 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6140a28e10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 16 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9c8c2f32d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 13 புதியவை
 [fetch] Dinamani Govt: 19 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 378 → நிகழ்வுகள் 355
-[triage] 355 → 16 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] விளம্பர/தயாரிப்பு அறிவிப்பு — தமிழ்நாட்டு வாசகரின் அரசு/பொது
-[skip] வெளிநாட்டு ক্রিকেট সংস্థার உள்নாட்టু স্মারক/ভবন অনুষ্ঠান — த
-[tts-edge] 92836c3cce22: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] கொல்கத்தா சட்டக் கல்லூரி துணை முதல்வர் மாணவர் போராட்டத்தால் ராஜினாமா
-[skip] இது ஒரு குறிப்பிட்ட நபரின் சிறைவாழ்க்கை பற்றிய தனிப்பட்ட நேர
-[tts-edge] 3b960f61e520: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காஷ்மீர் மத தலைவர்கள் மூவர் டெல்லியில் ஈரான் தூதரகக் கண்காட்சியில் பங்கேற்பு
-[skip] உত்तரப்রதேशத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு — தமிழ்நாடு
-[skip] தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்காது — வெளிநாட்டு தொழில்நுட்
-[skip] பிரபல நபரின் மரணச் செய்தி — image_query மற்றும் உணர்வுபூர்வம
-[skip] சிங்கப்பூர் கால்பந்து அணியின் உள்ளூர்ச் பணிக்கூட்டு ஒப்பந்தம
-[skip] மூல உரை விளையாட்டுத் தகவல் நிறைய அல்ல; தாவணி, உடை, வண்ணப் பெ
+[run] புதியவை 368 → நிகழ்வுகள் 348
+[triage] 348 → 30 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனத்தின் (Y Combinator) தலைவரின் 
+[skip] இந்திய கிரிக்கெட் வீரர் ஒருவரின் ব்যক்তிगত கருத்து; தமிழ்நாட
+[tts-edge] 920ad67f485b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] NSE IPO விலை வரம்பு குறைப்பு, ₹21,494 கோடி முதல் திரட்ட திட்டம்
+[skip] வெளிநாட்டு அரசியல் — UK-இஸ்রேல் உறவு, தமிழ்நாடு/இந்திய வாசகர
+[skip] இது ஐக்கிய இராஜ்ஜியத்தின் உள்நாட்டு சட்ட விவகாரம்; தமிழ்நாடு
+[skip] இவை மேற்கு வங்க மாநிலப் பல்கலைக்கழகங்களின் (WBUAFS, கல்கத்தா
+[tts-edge] 80350baf8c6a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியா-கனடா உறவு மீட்டமைப்பை தாண்டியது என உயர் ஸ்தானிகர் தெரிவிப்பு
+[publish] உக்ரைன் போரை முடிவுக்குக் கொண்டுவர வேண்டும் என புதின் சந்திப்பில் மோடி வலியுறுத்தல்
+[skip] OpenAI மற்றும் கணிதவியலாளர்களுக்கு இடையிலான சர்ச்சை தமிழ்நாட
+[skip] வெளிநாட்டு (அமெரிக்கா) நீதிமன்ற வழக்கு. தமிழ்நாடு / இந்திய வ
+[publish] கௌதம் ராம் கார்த்திக் படத்தின் டீசர் தேதி வெளியானது.
+[skip] வெளிநாட்டு உள்ளூர் லీग் — GCL (கிரீஸ்) பற்றிய செய்தி; தமிழ்ந
+[skip] வெளிநாட்டு ক্রীড়া খবর - ভারতীয় ক্রীড়াবিদের ব্যক্তিগত কর্ম
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 2
+[done] feed 300 · pending 2 · எழுதியவை 4
