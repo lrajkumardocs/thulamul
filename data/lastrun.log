@@ -10,11 +10,11 @@
 [fetch] The Hindu Sport: 7 புதியவை
 [fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 7 புதியவை
-[fetch] The Hindu Tech: 1 புதியவை
-[fetch] Wired: 1 புதியவை
+[fetch] The Hindu Tech: 0 புதியவை
+[fetch] Wired: 0 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 4 புதியவை
+[fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 29 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
 [fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 13 புதியவை
@@ -56,17 +56,13 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f95e421acd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fae0823c450>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 25 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 462 → நிகழ்வுகள் 411
-[triage] 411 → 26 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வீடியோ விளையாட்டு விமர்சனம் — தமிழ்நாடு/இந்தியப் பாதிப்பு இல
-[tts-edge] 36b12df8f91d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ராஜத் ஷர்மாவின் பட உரிமை மீறல்கள் மீது தில்லி உயர் நீதிமன்றம் தடை உத்தரவு
-[skip] அமெரிக்கத் தீர்ப்பாயத்தின் உள்நாட்டு ஆணை; தமிழ்நாடு/இந்தியக்
+[run] புதியவை 460 → நிகழ்வுகள் 409
+[triage] 409 → 26 (முக்கியம் + பக்க ஒதுக்கீடு)
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 1
+[done] feed 300 · pending 0 · எழுதியவை 0
