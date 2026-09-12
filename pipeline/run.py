@@ -35,7 +35,7 @@ THIN = {"health", "agri", "jobs", "court", "spirit", "cinema", "sports", "tech"}
 TOPIC_TA = {"tn": "தமிழ்நாடு", "india": "இந்தியா", "world": "உலகம்", "economy": "பொருளாதாரம்",
             "tech": "தொழில்நுட்பம்", "sports": "விளையாட்டு", "cinema": "சினிமா",
             "jobs": "வேலை · தேர்வு", "court": "நீதிமன்றம்", "assembly": "சட்டமன்றம்",
-            "health": "சுகாதாரம்", "govt": "அரசு அறிவிப்புகள்"}
+            "health": "சுகாதாரம்", "govt": "அரசு அறிவிப்புகள்", "crime": "சட்டம் ஒழுங்கு"}
 
 # ---------------------------------------------------------------- helpers
 def load_json(p, default):
@@ -777,7 +777,7 @@ def main():
     written = 0
     # தினசரி குறைந்தபட்சம்: இன்று 0 உள்ள துறைகளின் நிகழ்வுகளை முதலில் எழுது
     today_topics = {x["topic"] for x in feed if x.get("published_at", "").startswith(today)}
-    TOPIC_CAP = {"tn": 10, "india": 6, "world": 5, "economy": 5, "assembly": 4}
+    TOPIC_CAP = {"tn": 10, "india": 6, "world": 5, "economy": 5, "crime": 6, "assembly": 4, "tech": 2}
     todays_count = {}
     for x in feed:
         if str(x.get("published_at", ""))[:10] == today and x.get("status") == "published":
@@ -789,7 +789,7 @@ def main():
         keep = [x for x in scored if x[0] >= MIN_SCORE]
         # ஒவ்வொரு பக்கத்திற்கும் குறைந்தபட்ச இடம் — பக்கம் காலியாகக் கூடாது
         PAGE_MIN = {"tn": 6, "india": 4, "world": 3, "economy": 3, "court": 3, "govt": 4,
-                    "jobs": 3, "tech": 3, "health": 3, "cinema": 3, "sports": 3, "assembly": 2}
+                    "crime": 4, "jobs": 3, "health": 3, "cinema": 3, "sports": 3, "assembly": 2}
         have = {}
         for sc, n, c in keep:
             t = c["topic_hint"]; have[t] = have.get(t, 0) + 1
@@ -946,7 +946,7 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if malar.get("week") == week and malar.get("v", 0) < 11 and not api_dead:
+        if malar.get("week") == week and malar.get("v", 0) < 12 and not api_dead:
             # இருக்கும் இதழ் — உரையை மாற்றாமல் விடுபட்ட படங்களை மட்டும் சேர்
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))

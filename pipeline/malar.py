@@ -210,7 +210,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
         ("cover_query, roundup, numbers", 6000),
         ("history, hero", 6000),
         ("essay, agri, spirit", 8000),
-        ("word, zen, poem, food", 7000),
+        ("word, zen, poem, food, tech", 8000),
         ("books, films, remedy, satire", 9000),
     ]:
         try:
@@ -221,7 +221,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
         time.sleep(2)
     # விடுபட்டவற்றை மீண்டும் கேள் — முழு இதழ் உறுதி
     NEED = {"roundup": 5, "numbers": 5, "history": 7, "hero": 1, "essay": 1, "agri": 1,
-            "spirit": 1, "word": 1, "zen": 1, "poem": 1, "food": 1, "books": 3,
+            "spirit": 1, "word": 1, "zen": 1, "poem": 1, "food": 1, "tech": 3, "books": 3,
             "films": 1, "remedy": 1, "satire": 5}
     for attempt in range(3):
         missing = [k for k, n in NEED.items()
@@ -241,7 +241,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
             time.sleep(2)
     if not m:
         raise RuntimeError("எந்தப் பகுதியும் வரவில்லை")
-    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 11
+    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 12
 
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -421,7 +421,7 @@ def topup(client, model, m, today, week_heads="", telegram=None):
         time.sleep(1)
 
     if changed:
-        m["v"] = 11
+        m["v"] = 12
         if telegram:
             try:
                 telegram("📔 வாரமலர் — விடுபட்ட படங்கள் சேர்க்கப்பட்டன.")
@@ -443,6 +443,7 @@ def _fallback_scene(key_, blk):
 
 # ---------------------------------------------------------------- காப்பகம் / மீட்பு
 EVERGREEN = ("zen", "poem", "hero", "essay", "agri", "spirit", "food", "word", "books", "remedy", "satire")
+TIMELY_EXTRA = ("tech",)
 TIMELY = ("roundup", "numbers", "history", "films")
 
 
