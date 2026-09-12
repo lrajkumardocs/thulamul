@@ -1,5 +1,77 @@
 [
  {
+  "date": "2026-09-13",
+  "title": "தடியின் நீதி",
+  "book": 1,
+  "book_ta": "புது வெள்ளம்",
+  "arc": "ஆடித் திருநாள்",
+  "day": 6,
+  "file": "data/comic/2026-09-13.png",
+  "summary": "தடியேந்திய மர்ம உருவம் வாதிகளை விரட்டி அடித்து வாதத்தை முடிக்க, வந்தியத்தேவன் வியப்பில் மூழ்குகிறான்.",
+  "next_hint": "அந்த மர்ம மனிதன் யார் என்று தெரியுமா?",
+  "hidden": false,
+  "script": {
+   "title_ta": "தடியின் நீதி",
+   "panels": [
+    {
+     "scene_en": "Wide shot of a temple courtyard crowd, Vaishnava and Saiva debaters shouting at each other, azhwarkadiyan as in reference image standing at the edge raising his wooden stick high, evening light, dusty ground, vandiyathevan as in reference image watching from a distance near his horse",
+     "characters": [
+      "azhwarkadiyan",
+      "vandiyathevan"
+     ],
+     "caption_ta": "வாதம் உச்சத்தை அடைந்த நேரம்",
+     "bubbles": [
+      {
+       "speaker": "azhwarkadiyan",
+       "side": "L",
+       "text_ta": "போதும் உங்கள் வாதம்! அமைதி காக்கிறேன்!"
+      }
+     ]
+    },
+    {
+     "scene_en": "Medium shot, azhwarkadiyan as in reference image swinging his stick fiercely at the fleeing crowd of debaters, dust rising, angry determined expression, temple pillars in background, evening, camera at eye level",
+     "characters": [
+      "azhwarkadiyan"
+     ],
+     "caption_ta": "தடி ஓங்கியது",
+     "bubbles": [
+      {
+       "speaker": "ravidasan",
+       "side": "R",
+       "text_ta": "ஐயோ! இவன் பைத்தியமா!"
+      }
+     ]
+    },
+    {
+     "scene_en": "Close-up shot from a low angle, azhwarkadiyan's fierce face and raised stick filling the frame, sweat and dust, fleeing feet of debaters blurred at the edges, dramatic evening light",
+     "characters": [
+      "azhwarkadiyan"
+     ],
+     "caption_ta": "",
+     "bubbles": []
+    },
+    {
+     "scene_en": "Medium shot from behind vandiyathevan as in reference image, standing near his horse, watching azhwarkadiyan as in reference image stand alone victorious amid the now-empty courtyard, dusk light fading, sense of wonder on vandiyathevan's face",
+     "characters": [
+      "vandiyathevan",
+      "azhwarkadiyan"
+     ],
+     "caption_ta": "வாதம் முடிந்தது, மர்மம் மிஞ்சியது",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "இவன் யார்? தடியொன்றே அரசு நடத்துகிறானே!"
+      }
+     ]
+    }
+   ],
+   "summary_ta": "தடியேந்திய மர்ம உருவம் வாதிகளை விரட்டி அடித்து வாதத்தை முடிக்க, வந்தியத்தேவன் வியப்பில் மூழ்குகிறான்.",
+   "tomorrow_ta": "அந்த மர்ம மனிதன் யார் என்று தெரியுமா?",
+   "story_so_far_ta": "ஆடித் திருநாள் மாலையில், வாணர் குலத்து இளம் வீரன் வல்லவரையன் வந்தியத்தேவன், ஆதித்த கரிகாலன் கொடுத்த இரு ஓலைச் சுருள்களுடன் — சக்கரவர்த்திக்கும் இளையபிராட்டி குந்தவைக்கும் — குதிரையில் வீரநாராயணபுரம் ஏரிக்கரை வழியே கடம்பூர் நோக்கிச் செல்கிறான். ஏரியின் பெருமையையும் சோழ நாட்டின் செழிப்பையும் கண்டு பெருமிதம் கொள்கிறான். வழியில் ஒரு கோயில் திண்ணையில் வைணவ-சைவ சமயவாதிகள் உரத்த குரலில் வாதிடும் கூட்டத்தைக் காண்கிறான். கூட்டத்தின் ஓரத்தில் நின்ற தடியேந்திய மர்மமான உருவம் — ஆழ்வார்க்கடியான் நம்பி — யாரென்று வந்தியத்தேவன் ஆவலுடன் எண்ணுகிறான். இன்று, வாதம் உச்சத்தை அடைந்த நேரத்தில், அந்த மர்ம மனிதன் தன் தடியை ஓங்கி இரு தரப்பு வாதிகளையும் அச்சத்துடன் விரட்டியடிக்கிறான். வாதம் திடீரென முடிவுக்கு வர, தனியொருவனாக நின்ற அவனது வீரத்தையும் மர்மத்தையும் கண்டு வந்தியத்தேவன் பெரு வியப்பில் ஆழ்கிறான். இவன் யார் என்ற கேள்வியுடன் அவனை நோக்கி கவனம் திரும்புகிறது."
+  }
+ },
+ {
   "date": "2026-09-12",
   "title": "தடியேந்திய மர்மன்",
   "book": 1,

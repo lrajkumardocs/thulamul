@@ -4,7 +4,7 @@
 [fetch] The Hindu TN: 22 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 18 புதியவை
+[fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 25 புதியவை
 [fetch] The Hindu Sport: 20 புதியவை
@@ -14,7 +14,7 @@
 [fetch] Wired: 6 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 5 புதியவை
+[fetch] The Hindu Health: 6 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -30,7 +30,7 @@
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 1 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
-[fetch] Dinamalar Aanmeegam: 0 புதியவை
+[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 20 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe5d242b950>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7feea7ba77d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -66,8 +66,53 @@
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 0 புதியவை
-[fetch] Times Chennai Crime: 0 புதியவை
-[run] புதியவை 553 → நிகழ்வுகள் 497
-[triage] 497 → 42 (முக்கியம் + பக்க ஒதுக்கீடு)
+[fetch] Times Chennai Crime: 5 புதியவை
+[run] புதியவை 558 → நிகழ்வுகள் 501
+[triage] 501 → 59 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] மூலத்தில் ஒரு தலைப்பு வாக்கியம் மட்டுமே உள்ளது; விவரங்கள், எ
+[skip] மைசூர் நகராட்சி (கர்நாடகா) மற்றும் பஞ்சாப் தொழில்நுட்பப் பல்
+[skip] வெளிநாட்டு அரசியல் நிகழ்வு — BRICS தலைவர்களின் பொதுவான சுகாத
+[skip] வெளிநாட்டு மোட்டார் ஸ்போர்ட்ஸ் ইভেন்ட் score நிகழ்வு; தமிழ்ந
+[skip] இங்கிலாந்தின் உள்நாட்டுக் கிரிக்கெட் தொடர் — தமிழ்நாடு/இந்தி
+[tts-edge] 09d26aab3d49: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] விஜய் கருத்துக்கு எதிராக தி.மு.க. மாநிலம் முழுவதும் ஆர்ப்பாட்டம்
+[tts-edge] a4eba37289e5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நிதி அமைச்சர் நிர்மலா சீதாராமன் செயற்கை நுண்ணறிவு குறித்து எச்சரிக்கை
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யார், எப்போது, எங்கே, என்ன
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரங்கள் (தேத
+[publish] உயர் மருத்துவப் படிப்பு விவகாரத்தில் பிரதமர் தலையிட வேண்டும் - ஸ்டாலின் கோரிக்கை
+[skip] உலக செய்தி என்றாலும் தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்
+[skip] ফিলিপাইনের ফেরি தীয়ায় ঘটা ঘটনা। তামिल नादु/भारतीय वाचकों क
+[skip] மூலங்களில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை. மேலும் த
+[publish] இந்திய ரூபாய் மதிப்பு 95.55ஆக சரிவு, கச்சா எண்ணெய் விலை உயர்வு
+[publish] இந்திய அரசு பத்திரங்களின் வட்டி விகிதம் ஏழு சதவீதத்தைத் தாண்டியது
+[publish] பாலியல் துன்புறுத்தல் வழக்கில் நபருக்கு இருபது ஆண்டு சிறை
+[publish] கடலூரில் காலை உணவுத் திட்ட பாத்திரங்கள் விவகாரம், ஆட்சியர் நடவடிக்கைக்கு உத்தரவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cez3efMxbhCydYBVWdnob'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cez3hqeBFzV3rosUuCgSp'}
+[publish] தலவாடி மலைப்பகுதியில் வறட்சியால் நீர்ப் பற்றாக்குறை தீவிரம்
+[publish] வேலூரில் பள்ளிக் கட்டிடம் இடிக்கப்பட்டு இரண்டாண்டுகள்; மரத்தடியில் பாடம் கேட்கும் மாணவர்கள்
+[publish] அஜித் பங்கேற்கும் கார் பந்தயத்தை தொடங்கி வைத்த முதல்வர் விஜய்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; அமைச்சர் யார், என்ன சூழலில
+[skip] மூலத்தில் ஒரு தலைப்பு வரி மட்டுமே உள்ளது, விவரங்கள் இல்லை. ப
+[publish] மின் தேவை சமாளிக்க கூடுதல் மின்சாரம் கொள்முதல் தமிழக அரசு அறிவிப்பு
+[publish] தூத்துக்குடி தாதுமணல் திட்டத்திற்கு கனிமொழி எதிர்ப்பு
+[filler] health கட்டுரை
+[comic] கதை: தடியின் நீதி
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.94) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.87) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.90) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐ ஒத்திருக்கிறது (0.86) — அப்படியே வைக்கிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-13.png · நாள் 6
+[rasi] ராசிபலன் தயார்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 12
