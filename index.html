@@ -242,7 +242,7 @@ footer .fine{margin-top:0;padding-top:14px;font-size:12px;color:#8D9199}
 </div></div>
 
 <header class="mast"><div class="wrap">
-  <div class="kicker">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ் · 100% தானியங்கி</div>
+  <div class="kicker">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ்</div>
   <div class="emblem"><svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 26v54"/><path d="M38 80h24"/><path d="M20 36h60"/>
     <path d="M50 13l-4.5 11h9z" fill="#A8862F" stroke="none"/><circle cx="50" cy="36" r="3.8" fill="#A8862F" stroke="none"/>
@@ -562,9 +562,11 @@ function malarPage(){
     const cv=m.cover;
     return `${cv&&cv.url?`<div class="imgblock" style="margin-top:0"><img src="${esc(cv.url)}" alt=""></div>
       <div class="note" style="border:0;margin-top:8px">அட்டை: ${esc(cv.credit||'')}${cv.license?' · '+esc(cv.license):''}</div>`:''}
-      <div class="sec-head" style="margin-top:22px"><h2>வாரமலர்</h2><span>மலர் 1 · இதழ் ${esc(String(m.issue||1))}</span></div>
+      <div class="sec-head" style="margin-top:22px"><h2>வாரமலர்</h2><span>மலர் 1 · இதழ் ${esc(String(m.issue||1))}${m.generated?' · '+new Date(m.generated).toLocaleDateString('ta-IN',{day:'numeric',month:'long',year:'numeric'}):''}</span></div>
       <div class="list">${avail.map(([k,t,s])=>`<a class="row" href="?p=malar&m=${k}" style="align-items:center">
-        <div style="flex:1"><h3>${t}</h3><p>${s}</p></div><div style="color:var(--brass);font-size:20px">›</div></a>`).join('')}</div>`;
+        <div style="flex:1"><h3>${t}</h3><p>${s}</p></div><div style="color:var(--brass);font-size:20px">›</div></a>`).join('')}</div>
+      <div class="rule"></div><div class="sec-head"><h2 style="font-size:20px">விளம்பரம்</h2></div>
+      <div style="max-width:420px">${adFrame(slotAds('malar')[0],'3/4','வாரமலர் · முழுப் பக்கம் · ₹'+slotPrice('malar')+'/வாரம்')}</div>`;
   }
   const sec=MAL.find(x=>x[0]===sel);
   let b='';
@@ -649,7 +651,7 @@ const slotPrice=id=>{const x=((ADS&&ADS.slots)||[]).find(y=>y.id===id);return x?
 function adFrame(a,ratio,label){
   if(a) return `<a class="adunit" href="${esc(a.url||'#')}" target="_blank" rel="noopener" style="aspect-ratio:${ratio}">
      <img src="${esc(a.image)}" alt="${esc(a.title||'')}"><span class="admark">விளம்பரம்</span></a>`;
-  return `<a class="adunit empty" href="?p=adbook" style="aspect-ratio:${ratio}"><span>${esc(label)}<br><b>விளம்பரம் செய்ய →</b></span></a>`;
+  return `<a class="adunit empty" href="?p=adform" style="aspect-ratio:${ratio}"><span>${esc(label)}<br><b>விளம்பரம் செய்ய →</b></span></a>`;
 }
 function frontAd(){const a=slotAds('front')[0];
   return `<div style="margin-top:28px">${adFrame(a,'16/5','முதல் பக்கம் · கால் பங்கு · ₹'+slotPrice('front'))}</div>`;}
@@ -704,21 +706,12 @@ function wireAdForm(){
 }
 const adActive=a=>{const t=todayIST();return (!a.from||a.from<=t)&&(!a.to||a.to>=t);};
 function adsPage(){
-  const cin=slotAds('cinema'), box=slotAds('box'), line=slotAds('line'), mid=slotAds('mid')[0];
-  return `<div class="sec-head"><h2>விளம்பரம்</h2><span>துலாமுள் இதழில் உங்கள் இடம்</span></div>
-   <h3 style="font-family:var(--serif);font-size:20px;margin-top:22px">நடுப்பக்கம்</h3>
-   <div style="max-width:420px">${adFrame(mid,'3/4','நடுப்பக்கம் · முழுப் பக்கம் · ₹'+slotPrice('mid'))}</div>
-   <div class="rule"></div>
-   <h3 style="font-family:var(--serif);font-size:20px">சினிமா</h3>
+  const cin=slotAds('cinema');
+  return `<div class="sec-head"><h2>விளம்பரம்</h2><span>சினிமா</span></div>
    <div class="grid" style="grid-template-columns:repeat(3,1fr)">
      ${[0,1,2].map(n=>adFrame(cin[n],'3/4','சினிமா · ₹'+slotPrice('cinema'))).join('')}</div>
-   <div class="rule"></div>
-   <h3 style="font-family:var(--serif);font-size:20px">வகைப் பெட்டிகள்</h3>
-   <div class="adgrid">${Array.from({length:8},(_,n)=>adFrame(box[n],'1/1','₹'+slotPrice('box'))).join('')}</div>
-   ${line.length?`<div class="rule"></div><h3 style="font-family:var(--serif);font-size:20px">வரிசை விளம்பரம்</h3>
-     <div class="list">${line.map(a=>`<div class="row" style="display:block"><b>${esc(a.title||'')}</b>
-       <p>${esc(a.text||'')}</p><div class="k"><b>${esc(a.cat||'')}</b></div></div>`).join('')}</div>`:''}
-   <div class="rule"></div>${adbookPage()}`;
+   <div class="note">துலாமுள் விளம்பரங்களை வெளியிடுகிறது; தயாரிப்பு/சேவையை உத்தரவாதப்படுத்துவதில்லை.
+     விளம்பரம் கொடுக்க: <a href="?p=adform" style="color:var(--brass)">இங்கே →</a></div>`;
 }
 
 /* ---------- archive ---------- */
@@ -945,7 +938,8 @@ function appPage(){
 }
 
 /* ---------- router ---------- */
-async function render(){
+function stopAudio(){document.querySelectorAll('audio').forEach(a=>{try{a.pause();a.currentTime=0;}catch(e){}});}
+async function render(){ stopAudio();
   chrome();
   const s=P.get('s');
   if(s){ app.innerHTML=storyPage(s); document.title=(byId(s)?byId(s).headline+' — ':'')+'துலாமுள்'; return; }
