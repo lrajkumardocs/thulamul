@@ -1,5 +1,66 @@
 [
  {
+  "headline": "உணவுப் பொருட்களுக்கு எச்சரிக்கை ப்ளேபெல் விதிக்க தடை நீதிமன்றம் கால அளவு கேட்டுள்ளது",
+  "lines": [
+   "உணவு பாதுகாப்பு மற்றும் தர நிர்ணய ஆணையத்திடம் (FSSAI) உச்ச நீதிமன்றம் ஆரோக்கியமற்ற உணவுப் பொருட்களுக்கு எச்சரிக்கை ப்ளேபெல் விதிக்க தெளிவான கால அளவு வழங்க வேண்டுமென்று வலியுறுத்தியுள்ளது.",
+   "நீதிமன்றம் சிறுவர்களை உதாரணமாக வைத்து, அவர்கள் பெரிதும் பாதுக்காப்பற்றவர்கள் என்றும் தாங்களாக முடிவெடுக்க முடியாது என்றும் குறிப்பிட்டுள்ளது.",
+   "மத்திய அரசை நோக்கி நீதிமன்றம், பள்ளிப் பாடத்திட்டத்தில் ஆரோக்கிய உணவு பற்றிய கல்வியைக் கட்டாயம் சேர்த்துக் கொள்ள அறிவுறுத்தியுள்ளது.",
+   "ஏற்கனவே பல நாடுகளில் உணவுப் பொருட்களில் எச்சரிக்கை ப்ளேபெல் கட்டாயமாக்கப்பட்டுள்ளது என்பது நீதிமன்றத்தின் கவனத்தில் உள்ளது.",
+   "FSSAI இந்த விதிமுறைகளை எவ்வளவு விரைவில் நடைமுறைப்படுத்தப் போகிறது என்பது இப்போது முக்கியமாக பார்க்கப்பட்டு வருகிறது."
+  ],
+  "closing": "ஆரோக்கியமற்ற உணவுப் பொருட்களிலிருந்து சிறுவர்களைக் காப்பாற்ற நீதிமன்றம் எடுக்கும் முயற்சிகள் வெகு சீக்கிரம் வலிமையாக நடைமுறைப்பட வேண்டும் என்பது பொதுமக்களின் எதிர்பார்ப்பு.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "உச்ச நீதிமன்றம்",
+   "FSSAI",
+   "மத்திய அரசு",
+   "பள்ளிக் கல்வி"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Supreme Court demands timeline for food warning labels, pushes nutritional education in schools",
+   "lines": [
+    "The Supreme Court has directed the Food Safety and Standards Authority of India (FSSAI) to provide a clear timeline for implementing warning labels on unhealthy food products.",
+    "The court emphasized that children are particularly vulnerable and cannot make informed dietary choices on their own.",
+    "The court instructed the central government to make nutritional literacy a mandatory part of school curricula.",
+    "Several countries have already made food warning labels compulsory on packaged products, the court noted.",
+    "The implementation speed of these regulations by FSSAI is now a key area of focus."
+   ],
+   "closing": "Public expectations are high that the court's efforts to protect children from unhealthy foods will be implemented swiftly and effectively."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "nutrition education children schools",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "3e68bbd517f2",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-09-13T01:43+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/sc-seeks-clear-timeline-for-fssais-food-warning-label-rollout-calls-for-nutritional-literacy-in-schools/article71455653.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/LAMAT_25-_Connecting_cultures_through_nutrition_education%2C_health_awareness_%288978249%29.jpg/1280px-LAMAT_25-_Connecting_cultures_through_nutrition_education%2C_health_awareness_%288978249%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · U.S. Air Force photo by Maj. Stephani Sc",
+   "license": "Public domain",
+   "symbolic": true
+  },
+  "audio": "data/audio/3e68bbd517f2.mp3",
+  "created_ts": 1789243999.6997793,
+  "status": "published"
+ },
+ {
   "id": "art_health_20260913",
   "headline": "பருவமழைக் காலத்தில் உடல்நலம் காக்க எளிய வழிகள்",
   "lines": [
@@ -668,65 +729,5 @@
   "published_at": "2026-09-08T21:48+05:30",
   "created_ts": 1788884304.946097,
   "audio": "data/audio/art_health_20260908.mp3"
- },
- {
-  "headline": "போலி Abhayrab ரேபிஸ் தடுப்பூசி பேட்ச் குறித்து விசாரணை தொடக்கம்",
-  "lines": [
-   "இந்தியாவில் பயன்பாட்டில் உள்ள Abhayrab ரேபிஸ் தடுப்பூசியின் ஒரு பேட்ச் போலியானதாக கண்டறியப்பட்டு அதுகுறித்த விசாரணை நடைபெற்று வருகிறது.",
-   "ரேபிஸ் நோய்க்கு தடுப்பூசி தவறாக செலுத்தப்பட்டால் உயிருக்கு ஆபத்து ஏற்படும் அளவுக்கு தவறுக்கு இடமில்லை என மருத்துவ நிபுணர்கள் தெரிவிக்கின்றனர்.",
-   "உண்மையான, ஆற்றல் மிக்க தடுப்பூசி உடனடியாக செலுத்தப்பட்டால் கொடிய நோயைத் தடுக்க முடியும் என வல்லுநர்கள் கூறுகின்றனர்.",
-   "போலி தடுப்பூசி பாதுகாப்பு கிடைத்துவிட்டதாக தவறான நம்பிக்கையை ஏற்படுத்தி ஆபத்தை அதிகரிக்கும் என எச்சரிக்கப்படுகிறது.",
-   "இந்த போலி பேட்ச் தொடர்பான முழு விவரங்களும் அதிகாரிகளால் தற்போது விசாரிக்கப்பட்டு வருகின்றன."
-  ],
-  "closing": "இது தொடர்பான அதிகாரப்பூர்வ முழு அறிக்கை இன்னும் வெளியிடப்படாத நிலையில், விசாரணை முடிவுகளை மக்கள் கவனிக்க வேண்டியுள்ளது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": "2026-09-07"
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "Abhayrab தடுப்பூசி",
-   "ரேபிஸ் நோய்",
-   "இந்தியா",
-   "சுகாதார அதிகாரிகள்"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Investigation launched into counterfeit batch of Abhayrab rabies vaccine",
-   "lines": [
-    "A batch of the Abhayrab rabies vaccine used in India has been found to be counterfeit and is currently under investigation.",
-    "Medical experts say the margin for error with rabies is exceptionally small, as a wrong vaccine dose can prove fatal.",
-    "Experts state that a genuine, potent vaccine administered promptly can prevent the fatal disease.",
-    "It is warned that a counterfeit vaccine can create a dangerous illusion that protection has been provided, increasing risk.",
-    "Full details regarding this counterfeit batch are currently being investigated by authorities."
-   ],
-   "closing": "With an official full report yet to be released, the outcome of the investigation remains something the public needs to watch."
-  },
-  "front_cat": "health_emergency",
-  "urgent": true,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "a50cfc4187be",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-09-08T01:19+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/health/all-about-the-counterfeit-abhayrab-rabies-vaccine-batch-under-investigation/article71434828.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/langta-960px-Flag_of_India.svg.png?utm_source=ta.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · இந்தியா",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%BE"
-  },
-  "audio": "data/audio/a50cfc4187be.mp3",
-  "created_ts": 1788810605.8733041,
-  "status": "published"
  }
 ]
