@@ -63,4 +63,9 @@
 - {name: Times Govt Schemes, url: "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms", topic: govt, grade: media}
 - {name: TNPSC Notifications, url: "https://www.freejobalert.com/tamil-nadu-govt-jobs/feed/", topic: govt, grade: media}
 - {name: Sarkari Yojana, url: "https://www.mygov.in/rss/all/", topic: govt, grade: official}
+- {name: Dinamalar Crime, url: "https://www.dinamalar.com/rss/crime.xml", topic: crime, grade: media}
+- {name: Hindu Tamil Crime, url: "https://www.hindutamil.in/rss/tamilnadu.xml", topic: crime, grade: media}
+- {name: Dinamani Crime, url: "https://www.dinamani.com/api/v1/collections/crime.rss", topic: crime, grade: media}
+- {name: TN Police News, url: "https://www.thehindu.com/news/cities/chennai/feeder/default.rss", topic: crime, grade: media}
+- {name: Times Chennai Crime, url: "https://timesofindia.indiatimes.com/rssfeeds/2950623.cms", topic: crime, grade: media}
 # RSS முகவரிகள் மாறலாம் — முதல் ஓட்டத்தின் log பார்த்து சரிசெய்வோம். மூலம் சேர்ப்பது = ஒரு வரி.
