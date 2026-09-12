@@ -650,9 +650,7 @@ def stock_image(topic, query=""):
     """குறியீட்டுப் படம் — Unsplash → Pexels → Pixabay → Openverse. Watermark உள்ளவை தவிர்க்கப்படும்."""
     tries = [q for q in ([query] if query else []) if q]
     for q in tries[:2]:
-        for fn in (unsplash_image, pexels_image, pixabay_image, openverse_image,
-                   flickr_cc_image, met_image, nasa_image, artic_image, smithsonian_image,
-                   loc_image, rijks_image):
+        for fn in (unsplash_image, pexels_image, pixabay_image, openverse_image, flickr_cc_image, nasa_image):
             try:
                 im = fn(q)
             except Exception:
