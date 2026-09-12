@@ -4,14 +4,14 @@
 [fetch] The Hindu TN: 21 புதியவை
 [fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
+[fetch] BBC World: 15 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 7 புதியவை
 [fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 8 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 0 புதியவை
+[fetch] Wired: 2 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 5 புதியவை
@@ -56,23 +56,21 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fedb6a67150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2274b77250>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 25 புதியவை
-[fetch] Dinamani Govt: 25 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 14 புதியவை
-[run] புதியவை 501 → நிகழ்வுகள் 448
-[triage] 448 → 38 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] बेंगलूरु में हुई घटना है, तमिलनाडु से संबंधित नहीं। तमिलनाडु
-[skip] இது குற்றச் செய்தி அல்ல; மாணவர்களின் அறிவியல் திட்டம் பற்றிய
-[skip] இது தமிழ்நாட்டுக் குற்றச் செய்தி அல்ல. ராணுவ அதிகாரியின் தொழ
-[tts-edge] d308e52612e1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பதினேழு ஆண்டுகளுக்குப் பிறகு எல்.ஐ.சி. காசோலை மோசடி வழக்கில் இருவர் கைது
+[run] புதியவை 503 → நிகழ்வுகள் 449
+[triage] 449 → 38 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] பாதிக்கப்பட்டவரின் உடல் விவரம், மரணச் சம்பவ, சோகமான நிகழ்வு 
+[skip] குறிப்பிட்ட சம்பவம் இல்லை — பொதுவான காவல் நடவடிக்கை அறிவிப்ப
+[skip] உள்ளூர் குற்றச் சம்பவம் — நிகழ்ந்த/கைது செய்யப்பட்ட நபரின் ப
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 1
+[done] feed 300 · pending 0 · எழுதியவை 0
