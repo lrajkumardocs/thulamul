@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 29 புதியவை
+[fetch] FreeJobAlert: 28 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -56,13 +56,23 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8d62fe9990>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fedb6a67150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 25 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 464 → நிகழ்வுகள் 412
-[triage] 412 → 26 (முக்கியம் + பக்க ஒதுக்கீடு)
+[fetch] Dinamalar Crime: 0 புதியவை
+[fetch] Hindu Tamil Crime: 0 புதியவை
+[fetch] Dinamani Crime: 0 புதியவை
+[fetch] TN Police News: 24 புதியவை
+[fetch] Times Chennai Crime: 14 புதியவை
+[run] புதியவை 501 → நிகழ்வுகள் 448
+[triage] 448 → 38 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] बेंगलूरु में हुई घटना है, तमिलनाडु से संबंधित नहीं। तमिलनाडु
+[skip] இது குற்றச் செய்தி அல்ல; மாணவர்களின் அறிவியல் திட்டம் பற்றிய
+[skip] இது தமிழ்நாட்டுக் குற்றச் செய்தி அல்ல. ராணுவ அதிகாரியின் தொழ
+[tts-edge] d308e52612e1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பதினேழு ஆண்டுகளுக்குப் பிறகு எல்.ஐ.சி. காசோலை மோசடி வழக்கில் இருவர் கைது
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 1
