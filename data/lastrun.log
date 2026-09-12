@@ -2,12 +2,12 @@
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 9 புதியவை
-[fetch] Dinamani TN: 21 புதியவை
+[fetch] Dinamani TN: 22 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 13 புதியவை
-[fetch] Al Jazeera: 17 புதியவை
+[fetch] Al Jazeera: 18 புதியவை
 [fetch] ESPNcricinfo: 19 புதியவை
-[fetch] The Hindu Sport: 18 புதியவை
+[fetch] The Hindu Sport: 17 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 13 புதியவை
 [fetch] The Hindu Tech: 1 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 9 புதியவை
+[fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 18 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 4 புதியவை
-[fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 9 புதியவை
+[fetch] The Verge: 10 புதியவை
+[fetch] The Hindu National: 8 புதியவை
 [fetch] NDTV India: 18 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f70c8889b90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 9 புதியவை
-[fetch] Dinamani Govt: 21 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f647381b6d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 8 புதியவை
+[fetch] Dinamani Govt: 22 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -66,14 +66,12 @@
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 0 புதியவை
-[fetch] Times Chennai Crime: 15 புதியவை
-[run] புதியவை 403 → நிகழ்வுகள் 387
-[triage] 387 → 18 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] 373b434c29c6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காங்கிரஸ் கட்சி கார்வால் மாணவர் ஒன்றியத் தேர்தலில் NSUI வெற்றி என்று கூறியது
-[skip] வெளிநாட்டு பல்கலைக்கழகத் (Garhwal university) உள்ளூர் ஆசிரிய
-[skip] இது சம்பத்தை வசூல் செய்ய வேண்டிய நிலை பற்றிய ஆவணத் தகவல்; கு
-[skip] வெளிநாட்டுத் டென்னிஸ் கிரீடாங்கன் — தமிழ்நாடு/இந்திய வாசகரைப
+[fetch] Times Chennai Crime: 14 புதியவை
+[run] புதியவை 402 → நிகழ்வுகள் 387
+[triage] 387 → 15 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] ஜம்மு-காஷ்மீர் அரசியல் மற்றும் சர்வதேச விவாதம் — தமிழ்நாடு வ
+[tts-edge] 894b16adc02c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சட்டவிரோத நீர்ப்பம்ப எட்டு பறிமுதல்
+[skip] Nottinghamshire, Hampshire — ஆங்கிலத்தின் county cricket உள்
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 1 · எழுதியவை 1
