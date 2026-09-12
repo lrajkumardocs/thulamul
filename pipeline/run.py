@@ -323,19 +323,42 @@ def validate(story):
 # ---------------------------------------------------------------- 4. audio (Edge TTS, இலவசம்)
 async def _tts(text, out):
     import edge_tts
-    await edge_tts.Communicate(text, TTS_VOICE, rate="-5%").save(str(out))
+    await edge_tts.Communicate(text, TTS_VOICE, rate="-8%", pitch="+0Hz", volume="+8%").save(str(out))
 
 TTS_STATE = {"edge_failed": 0}
+# ஆடியோ உச்சரிப்பு அகராதி — எழுத்தில் மாறாது; ஒலிக்கும்போது மட்டும்
+SAY = {
+    "துலாமுள்": "துலா முள்",
+    "AI": "ஏ ஐ", "PIB": "பி ஐ பி", "RBI": "ஆர் பி ஐ", "GST": "ஜி எஸ் டி",
+    "RTI": "ஆர் டி ஐ", "TNPSC": "டி என் பி எஸ் சி", "UPSC": "யு பி எஸ் சி",
+    "SSC": "எஸ் எஸ் சி", "IBPS": "ஐ பி பி எஸ்", "CBI": "சி பி ஐ", "ED": "இ டி",
+    "IT": "ஐ டி", "SIR": "எஸ் ஐ ஆர்", "GO": "அரசாணை", "FIR": "எஃப் ஐ ஆர்",
+    "CM": "முதல்வர்", "PM": "பிரதமர்", "MLA": "எம் எல் ஏ", "MP": "எம் பி",
+    "ISRO": "இஸ்ரோ", "NASA": "நாசா", "WHO": "டபிள்யூ எச் ஓ", "ICMR": "ஐ சி எம் ஆர்",
+    "TVK": "டி வி கே", "DMK": "டி எம் கே", "AIADMK": "அ இ அ தி மு க",
+    "BJP": "பி ஜே பி", "TASMAC": "டாஸ்மாக்", "CMRL": "சி எம் ஆர் எல்",
+    "%": " சதவீதம் ", "₹": " ரூபாய் ", "&": " மற்றும் ", "+": " பிளஸ் ",
+}
+
+
 def speakable(text):
-    """ஆடியோவுக்கு உரையைச் சீரமை — நிறுத்தற்குறி, இடைவெளி, சுருக்கங்கள்."""
+    """ஆடியோவுக்கு உரையைச் சீரமை — உச்சரிப்பு, நிறுத்தற்குறி, இடைவெளி."""
     t = re.sub(r"\s+", " ", str(text or "")).strip()
+    for k, v in SAY.items():                                   # உச்சரிப்பு
+        t = t.replace(k, v)
     t = t.replace("—", ", ").replace("–", ", ").replace("·", ", ").replace("|", ", ")
-    t = re.sub(r"\(([^)]{1,40})\)", r", \1,", t)          # அடைப்புக்குறி → இடைநிறுத்தம்
-    t = t.replace("₹", " ரூபாய் ").replace("%", " சதவீதம் ")
-    t = re.sub(r"([.!?])(?=\S)", r"\1 ", t)                # புள்ளிக்குப் பின் இடைவெளி
-    t = re.sub(r"([^.!?])$", r"\1.", t)                    # முடிவில் புள்ளி
-    t = re.sub(r"\s*([,.])\s*", r"\1 ", t)
-    return t.strip()
+    t = re.sub(r"\(([^)]{1,40})\)", r", \1,", t)                 # அடைப்புக்குறி → இடைநிறுத்தம்
+    t = re.sub(r"([\u0B80-\u0BFF])/([\u0B80-\u0BFF])", r"\1 அல்லது \2", t)
+    t = re.sub(r"(\d),(\d)", r"\1\2", t)                        # 1,240 → 1240 (எண் உடையாமல்)
+    t = re.sub(r"(?<!\d)([.!?])(?=\S)", r"\1 ", t)              # புள்ளிக்குப் பின் இடைவெளி (தசமம் தவிர)
+    t = re.sub(r"\s*,\s*", ", ", t)
+    t = re.sub(r"(?<!\d)\s*\.\s*(?!\d)", ". ", t)               # தசம எண்ணை உடைக்காது
+    t = re.sub(r";\s*", ". ", t)                                # அரைப்புள்ளி → முழு நிறுத்தம்
+    t = re.sub(r"\s{2,}", " ", t).strip()
+    if t and t[-1] not in ".!?":
+        t += "."
+    return t
+
 def make_audio(story_id, script):
     out = AUDIO_DIR / f"{story_id}.mp3"
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
@@ -350,7 +373,7 @@ def make_audio(story_id, script):
         TTS_STATE["edge_failed"] += 1
     try:                                                   # மாற்று: Google TTS (gTTS), இலவசம்
         from gtts import gTTS
-        gTTS(script, lang="ta").save(str(out))
+        gTTS(script, lang="ta", slow=False).save(str(out))
         return f"data/audio/{story_id}.mp3"
     except Exception as ex:
         print(f"[tts-gtts] {story_id}: {str(ex)[:80]}")
