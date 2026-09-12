@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 23 புதியவை
+[fetch] The Hindu TN: 22 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 17 புதியவை
+[fetch] BBC World: 16 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 13 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
 [fetch] Wired: 6 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 3 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 19 புதியவை
+[fetch] Dinamani Cinema: 20 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 2 புதியவை
 [fetch] The Verge: 5 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f65c0a7ed90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc19a15c510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,12 +65,10 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 1 புதியவை
-[fetch] Times Chennai Crime: 2 புதியவை
-[run] புதியவை 548 → நிகழ்வுகள் 492
-[triage] 492 → 24 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இது குற்றச் செய்தி அல்ல. சினிமா/பொழுதுபோக்கு செய்தி. துறை கு
-[skip] இது ஒரு அரசியல் நிருபணம் மற்றும் ஊடக பகுப்பாய்வு; crime செய்
-[skip] இது குற்றச் செய்தி அல்ல; சினிமா-பண்பாடு வரலாற்றுக் கட்டுரை. 
+[fetch] TN Police News: 0 புதியவை
+[fetch] Times Chennai Crime: 1 புதியவை
+[run] புதியவை 541 → நிகழ்வுகள் 486
+[triage] 486 → 29 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] இடப்பক্ష கட்சிகளின் இடைத்தேர்தல் முடிவு அறிவிப்பு — இது crim
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
