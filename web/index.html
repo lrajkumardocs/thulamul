@@ -406,7 +406,7 @@ body{max-width:none;background:var(--paper)}
   <div class="head"><div class="mast">மேலும்</div></div>
   <div class="pad">
     <div class="prow"><span>மொழி</span><span class="seg" id="langseg"><span data-l="ta">தமிழ்</span><span data-l="en">English</span></span></div>
-    <div class="prow"><span>எழுத்து அளவு</span><span class="seg"><span data-f="s">சிறியது</span><span data-f="m" class="on">நடுத்தரம்</span><span data-f="l">பெரியது</span></span></div>
+    <div class="prow"><span>எழுத்து அளவு</span><span class="seg" id="fsseg"><span data-f="s">சிறியது</span><span data-f="m">நடுத்தரம்</span><span data-f="l">பெரியது</span></span></div>
     <div class="prow" id="share-paper" style="cursor:pointer"><span>இன்றைய இதழைப் பகிர்</span><span class="brass">→</span></div>
     <div class="prow" style="cursor:pointer" onclick="go('#adform')"><span>விளம்பரம் செய்ய</span><span class="brass">→</span></div>
     <a class="prow" href="#legal/privacy"><span>தனியுரிமைக் கொள்கை</span><span class="brass">→</span></a>
@@ -447,7 +447,7 @@ window.dispatchEvent(new Event('fb-ready'));
 <script>
 const BASE='../';
 const q='?'+Math.floor(Date.now()/60000);
-const AD_WA='91XXXXXXXXXX';  // விளம்பரத் தொடர்பு WhatsApp (நாட்டுக் குறியீட்டுடன்)
+const AD_WA='';  // விளம்பரத் தொடர்பு WhatsApp (நாட்டுக் குறியீட்டுடன்)
 const AD_MAIL='ads@thulamul.com';
 const AD_PRICE_PER_DAY=150; const AD_FULL_PRICE=1000; const AD_SLOTS=8;
 const PAPER_URL='https://thulamul.com/';
@@ -694,8 +694,7 @@ function malarHtml(){
   else if(k==='spirit'){h+=(m.spirit.image?`<div class="wcard"><img src="${BASE}${esc(m.spirit.image)}" alt="" onerror="this.parentElement.remove()"></div>`:'')
     +`<h2 style="margin-top:14px">${esc(m.spirit.title)}</h2>`+esc(m.spirit.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
   else if(k==='tech') h+=(m.tech||[]).map((x,i)=>`<div style="${i?'border-top:1px solid var(--rule);padding-top:20px;':''}margin-top:20px">
-      <h2 style="font-size:20px">${esc(x.title)}</h2>
-      <p class="mp">${esc(x.body)}</p>
+      <h2 style="font-size:20px">${esc(x.title)}</h2><p class="mp">${esc(x.body)}</p>
       ${x.why?`<div class="note" style="border:0;padding-top:6px;color:var(--brass)">${esc(x.why)}</div>`:''}</div>`).join('');
   else if(k==='zen'){const Z=m.zen;h+=(Z.image?`<div class="wcard"><img src="${BASE}${esc(Z.image)}" alt="" onerror="this.parentElement.remove()"></div>`:'')
     +`<h2 style="margin-top:14px">${esc(Z.title)}</h2>
@@ -760,6 +759,14 @@ function wireAdForm(){
     }catch(e){ msg.textContent='அனுப்ப முடியவில்லை — ads@thulamul.com-க்கு எழுதுங்கள்.'; b.disabled=false; }
   };
 }
+function applyFS(v){
+  document.documentElement.style.fontSize=(v==='s'?'93%':v==='l'?'115%':'100%');
+  localStorage.setItem('fs',v);
+  const seg=document.getElementById('fsseg');
+  if(seg) seg.querySelectorAll('[data-f]').forEach(x=>x.classList.toggle('on',x.dataset.f===v));
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-f]');if(b) applyFS(b.dataset.f);});
+setTimeout(()=>applyFS(localStorage.getItem('fs')||'m'),300);
 document.addEventListener('click',e=>{const b=e.target.closest('[data-mal]');if(!b)return;
   malarSel=(b.dataset.mal==='__home')?null:b.dataset.mal;
   const pg=document.querySelector('.page[data-k="malar"]');
@@ -844,7 +851,7 @@ function renderAdForm(){
   el.innerHTML=`<div class="topbar"><a class="icon" href="#page/ads"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></a><span class="small muted">விளம்பரப் பதிவு</span></div>
   <div class="pad"><h1 style="font-size:22px">உங்கள் விளம்பரம்</h1>
   <label class="fl">பெயர் / நிறுவனம்<input id="a-name"></label>
-  <label class="fl">தொலைபேசி (WhatsApp)<input id="a-phone" type="tel"></label>
+  <label class="fl">தொலைபேசி<input id="a-phone" type="tel" inputmode="numeric" maxlength="10"></label>
   <label class="fl">Link (விருப்பம்)<input id="a-link" placeholder="https://"></label>
   <div class="row2"><label class="fl">எந்தத் தேதியிலிருந்து<input id="a-from" type="date" min="${t}"></label><label class="fl">எந்தத் தேதி வரை<input id="a-to" type="date" min="${t}"></label></div>
   <div class="small muted" style="margin-top:14px">விளம்பர வகை</div>
@@ -855,7 +862,7 @@ function renderAdForm(){
   <label class="chk"><input type="checkbox" id="a-ok"> விளம்பர உள்ளடக்கத்திற்கான முழுப் பொறுப்பும் என்னுடையது; ASCI விதிகளுக்கு உட்பட்டது; அரசியல் கட்சி, மது, புகையிலை, சூதாட்டம், பணம் கேட்கும் திட்டங்கள், தவறான மருத்துவக் கூற்று — இவை இல்லை என உறுதி செய்கிறேன்.</label>
   <div class="cbox"><b>சரிபார்ப்பு:</b> ஒவ்வொரு விளம்பரமும் துலாமுள் சரிபார்த்த பின்பே பதிவேறும். ஆபாசம், தவறான/தவறாக வழிநடத்தும் கூற்று, தடைப் பட்டியலில் உள்ளவை — நிராகரிக்கப்படும். <b>நிராகரிக்கப்பட்டால் 7 வேலை நாட்களுக்குள் முழுத் தொகையும் உங்கள் கணக்கிற்குத் திரும்பும்.</b><br><br><b>பணம்:</b> UPI / வங்கி — பதிவு அனுப்பியதும் விவரம் WhatsApp-ல் வரும். பணம் உறுதியானதும் தேர்ந்த தேதியில் தானாகப் பதிவேறும்; கடைசி நாள் இரவு 12:00-க்குத் தானாக இறங்கும்.</div>
   <div class="calc" id="a-calc" style="display:none"></div>
-  <button class="btn" id="a-send">பதிவை அனுப்பு (WhatsApp)</button><div style="height:30px"></div></div>`;
+  <button class="btn" id="a-send">பதிவை அனுப்பு</button><div style="height:30px"></div></div>`;
   const atype=()=>(document.querySelector('input[name=atype]:checked')||{}).value||'box';
   const upd=()=>{const f=$('#a-from').value,to=$('#a-to').value;const st=(f&&to&&to>=f)?adSlotStatus(f,to):null;const isFull=atype()==='full';
     $('#a-boxwrap').style.display=isFull?'none':'block';$('#a-fullstat').style.display=isFull?'block':'none';
@@ -864,11 +871,19 @@ function renderAdForm(){
     const c=$('#a-calc');if(f&&to&&to>=f){const days=Math.round((new Date(to)-new Date(f))/86400000)+1;c.style.display='flex';c.innerHTML=`<span>${days} நாள் × ₹${AD_PRICE_PER_DAY}</span><b>₹${(days*AD_PRICE_PER_DAY).toLocaleString('en-IN')}</b>`;}else{c.style.display='none';}};
   $('#a-from').addEventListener('change',upd);$('#a-to').addEventListener('change',upd);upd();
   $('#a-img').addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>$('#a-prev').innerHTML=`<img src="${r.result}" style="width:50%;border-radius:6px;margin-top:8px">`;r.readAsDataURL(f);});
-  $('#a-send').addEventListener('click',()=>{const g=id=>$(id).value.trim();const isFull=atype()==='full';const slot=isFull?'பின் அட்டை':(document.querySelector('input[name=slot]:checked')||{}).value;
+  $('#a-send').addEventListener('click',async()=>{const g=id=>$(id).value.trim();const isFull=atype()==='full';const slot=isFull?'பின் அட்டை':(document.querySelector('input[name=slot]:checked')||{}).value;
     if(!g('#a-name')||!g('#a-phone')||!g('#a-from')||!g('#a-to')||!slot||!$('#a-ok').checked){alert('எல்லா விவரங்களையும் நிரப்பி, ஒப்புதல் பெட்டியைத் தேர்வு செய்யுங்கள்.');return;}
-    const days=Math.round((new Date(g('#a-to'))-new Date(g('#a-from')))/86400000)+1;const rate=isFull?AD_FULL_PRICE:AD_PRICE_PER_DAY;
-    const msg=`துலாமுள் விளம்பரப் பதிவு\nபெயர்: ${g('#a-name')}\nதொலைபேசி: ${g('#a-phone')}\nவகை: ${isFull?'பின் அட்டை (முழுப்பக்கம்)':'பெட்டி '+slot}\nதேதி: ${g('#a-from')} → ${g('#a-to')} (${days} நாள்)\nமொத்தம்: ₹${days*rate}\nLink: ${g('#a-link')||'-'}\n(போஸ்டரை இந்த chat-ல் அனுப்பவும்)`;
-    location.href='https://wa.me/'+AD_WA+'?text='+encodeURIComponent(msg);});
+    const days=Math.max(1,Math.round((new Date(g('#a-to'))-new Date(g('#a-from')))/86400000)+1);
+    const rate=isFull?AD_FULL_PRICE:AD_PRICE_PER_DAY;
+    const btn=$('#a-send'); btn.disabled=true; btn.textContent='அனுப்புகிறோம்…';
+    try{
+      await FB.addDoc(FB.collection(FB.db,'ad_requests'),{org:g('#a-name'),phone:g('#a-phone'),
+        slot:isFull?'full':slot,from:g('#a-from'),to:g('#a-to'),days,amount:days*rate,
+        url:g('#a-link'),status:'new',source:'app',created:FB.serverTimestamp()});
+      btn.textContent='பதிவு அனுப்பப்பட்டது ✓';
+      alert('பதிவு பெறப்பட்டது.\\nAI ஆய்வு + ஒப்புதலுக்குப் பின் தொடர்பு கொள்வோம்.\\nபோஸ்டரை ads@thulamul.com-க்கு அனுப்பவும்.');
+    }catch(e){ btn.disabled=false; btn.textContent='பதிவை அனுப்பு'; alert('அனுப்ப முடியவில்லை. ads@thulamul.com-க்கு எழுதுங்கள்.'); }
+  });
 }
 function briefHtml(){return `<div class="brief"><div><b>இன்றைய 60 நொடி</b><small>${brief.headlines.length} செய்திகள் · ${brief.date}</small></div><button class="play" id="bplay">${PLAY}</button><audio id="baudio" preload="none" src="${BASE}${brief.audio}"></audio></div>`;}
 let wxData=null;
@@ -945,8 +960,8 @@ editorial:{t:'ஆசிரியக் கொள்கை',b:`## நடுநி
 ஒவ்வொரு செய்தியும் AI-ஆல் (Anthropic Claude) பொது மூலங்களிலிருந்து 5 வரிகளில் எழுதப்படுகிறது; ஒரு வார்த்தையும் மூலத்திலிருந்து அப்படியே எடுக்கப்படுவதில்லை; மூலத்தில் இல்லாத எண், பெயர், தேதி சேர்க்கப்படுவதில்லை.
 ## மூலம்
 ஒவ்வொரு செய்தியின் கீழும் மூலம் குறிப்பிடப்படும் — அரசு/முகமை மூலங்கள் பெயருடன்; ஊடக மூலங்கள் "ஊடகச் செய்திகள்" என்று, தொட்டால் பெயர்களுடன். அரசு அறிவிப்புகள், நீதிமன்றத் தீர்ப்புகள், முகமைச் செய்திகள் — இவை முதல் தேர்வு; ஊடக அறிக்கைகள் இரண்டாம் நிலை (இரு மூலங்கள் ஒத்தால் மட்டும்).
-## மனிதச் சரிபார்ப்பு
-தனிநபர் மீதான குற்றச்சாட்டு, மத/சாதி/வன்முறை தொடர்பு, மூலங்களுக்கிடையே எண் முரண் — இவை ஆசிரியரின் ஒப்புதலின்றி வெளியிடப்படாது.
+## வெளியீட்டு வரம்புகள்
+துலாமுள் முழுவதும் தானியங்கி; எதை வெளியிடலாம், எதை வெளியிடக் கூடாது என்ற வரம்புகள் முன்கூட்டியே நிரலாக்கப்பட்டுள்ளன. உறுதிப்படுத்தப்படாத தனிநபர் குற்றச்சாட்டு, மத/சாதி/வன்முறைத் தூண்டுதல், மூலங்களுக்கிடையே முரண்பட்ட எண்கள், பாதிக்கப்பட்டவரின் அடையாளம், சிறார் தொடர்பான விவரம் — இவை அந்த வரம்புகளால் தானாகவே தடுக்கப்படுகின்றன.
 ## தலையங்கம்
 "தராசில் இன்று" — AI ஆசிரியர் இரு தரப்பையும் சம எடையில் வைத்து, தீர்ப்பு சொல்லாமல், ஒரு கேள்வியில் முடிக்கும். "ஆசிரியர் குறிப்பு" — மனித ஆசிரியர் எழுதுவது, பெயருடன்.
 ## கேலிச்சித்திரம்
@@ -955,7 +970,7 @@ AI-ஆல் உருவாக்கப்படுகிறது; உண்�
 விளம்பரம் பக்கம் 17-ல் மட்டும், "விளம்பரம்" என்று தெளிவாகக் குறித்து. செய்திக்கும் விளம்பரத்திற்கும் எந்தத் தொடர்பும் இல்லை.`},
 corrections:{t:'திருத்தக் கொள்கை',b:`AI எழுதும் செய்தியில் தவறு நேரலாம். துலாமுள் தவறை மறைக்காது.
 ## தவறு தெரிவிக்க
-குறைதீர் அதிகாரி மின்னஞ்சல் அல்லது WhatsApp — செய்தியின் தலைப்பு, தேதி, தவறு என்ன, சரியான தகவலின் மூலம்.
+குறைதீர் அதிகாரி மின்னஞ்சல் — செய்தியின் தலைப்பு, தேதி, தவறு என்ன, சரியான தகவலின் மூலம்.
 ## நடைமுறை
 • 24 மணி நேரத்தில் ஒப்புகை.
 • உண்மைப் பிழை உறுதியானால் 48 மணி நேரத்தில் திருத்தம் — செய்தியின் கீழே "திருத்தம்: [தேதி] — என்ன மாற்றப்பட்டது" என்ற குறிப்புடன். திருத்தம் மறைக்கப்படாது.
@@ -968,7 +983,7 @@ grievance:{t:'குறைதீர் அதிகாரி',b:`Information Tec
 பெயர்: ல. ராஜ்குமார் (ஆசிரியர்)
 நிறுவனம்: முத்தமிழ் கலைக்கூடம், அசோக் நகர், சென்னை
 மின்னஞ்சல்: ${AD_MAIL}
-WhatsApp: +${AD_WA}
+மின்னஞ்சல்: ads@thulamul.com
 ## காலக்கெடு
 • புகார் பெற்ற 24 மணி நேரத்தில் ஒப்புகை.
 • 15 நாட்களுக்குள் தீர்வு / பதில்.
@@ -1013,7 +1028,7 @@ function openIssue(date){
 document.addEventListener('DOMContentLoaded',()=>{
   const f=localStorage.getItem('font')||'m';document.body.classList.add('f-'+f);
   document.querySelectorAll('.seg span').forEach(x=>{x.classList.toggle('on',x.dataset.f===f);x.addEventListener('click',()=>{document.body.classList.remove('f-s','f-m','f-l');document.body.classList.add('f-'+x.dataset.f);localStorage.setItem('font',x.dataset.f);document.querySelectorAll('.seg span').forEach(y=>y.classList.toggle('on',y===x));});});
-  $('#ad-wa').href='https://wa.me/'+AD_WA;$('#ad-mail').href='mailto:'+AD_MAIL;$('#cy').textContent=new Date().getFullYear();
+  $('#ad-mail').href='mailto:'+AD_MAIL;$('#cy').textContent=new Date().getFullYear();
 
   $('#share-paper').addEventListener('click',()=>{const t='துலாமுள் — தமிழின் முதல் AI டிஜிட்டல் நாளிதழ். இன்றைய இதழ்: '+PAPER_URL;if(navigator.share)navigator.share({title:'துலாமுள்',text:t,url:PAPER_URL});else location.href='https://wa.me/?text='+encodeURIComponent(t);});
 });
