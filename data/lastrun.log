@@ -2,10 +2,10 @@
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 9 புதியவை
-[fetch] Dinamani TN: 22 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 13 புதியவை
-[fetch] Al Jazeera: 18 புதியவை
+[fetch] Al Jazeera: 19 புதியவை
 [fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 17 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
@@ -13,7 +13,7 @@
 [fetch] The Hindu Tech: 1 புதியவை
 [fetch] Wired: 6 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: பிழை ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 [fetch] The Hindu Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 5 புதியவை
@@ -29,25 +29,25 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 6 புதியவை
+[fetch] The Hindu Legal: 5 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 18 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 4 புதியவை
+[fetch] TechCrunch: 5 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 6 புதியவை
+[fetch] The Hindu National: 5 புதியவை
 [fetch] NDTV India: 18 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
-[fetch] Hindu Tamil India: 0 புதியவை
+[fetch] Hindu Tamil India: பிழை ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 29 புதியவை
+[fetch] Sportstar: பிழை ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,22 +56,20 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fdd223cfe10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 6 புதியவை
-[fetch] Dinamani Govt: 22 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f31b3fa8fd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 5 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 0 புதியவை
+[fetch] TN Police News: 2 புதியவை
 [fetch] Times Chennai Crime: 13 புதியவை
-[run] புதியவை 393 → நிகழ்வுகள் 380
-[triage] 380 → 18 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] 3697526f02e8: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தேர்தல்싸fight செய்ய பதவி விட்ட அரசு ஊழியர் மீண்டும் வேலைக்கு செல்ல முடியாது
-[skip] இந்திய கிரிக்கெட் அணির தலைவர் பற்றிய நபர்மை மற்றும் பேச்சு ம
+[run] புதியவை 367 → நிகழ்வுகள் 357
+[triage] 357 → 18 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] பஞ்சாப் மாநிலத்தின் உள்நாட்டுச் செய்தி — தமிழ்நாடு வாசகரைப் 
+[skip] தமிழ்நாட்டுத் தொடர்பு இல்லை — இது இலங்கை, பாகிஸ்தான் போட்டி,
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 1
+[done] feed 300 · pending 1 · எழுதியவை 0
