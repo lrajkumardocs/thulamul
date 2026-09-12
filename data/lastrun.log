@@ -1,4 +1,3 @@
-[expire] a3cef0d5c04c
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
@@ -6,7 +5,7 @@
 [fetch] Dinamani TN: 18 புதியவை
 [fetch] BBC Tamil: 6 புதியவை
 [fetch] BBC World: 10 புதியவை
-[fetch] Al Jazeera: 15 புதியவை
+[fetch] Al Jazeera: 13 புதியவை
 [fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 5 புதியவை
 [fetch] The Hindu Cinema: 1 புதியவை
@@ -23,7 +22,7 @@
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
-[fetch] Dinamani Health: 1 புதியவை
+[fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
@@ -57,20 +56,13 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa7f282cb50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc85032e110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 11 புதியவை
 [fetch] Dinamani Govt: 18 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[run] புதியவை 325 → நிகழ்வுகள் 310
-[triage] 310 → 10 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] 0ab414357225: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] சஹாரன்பூர் மசூதி இடிப்பு வழக்கில் உ.பி அரசிடம் விளக்கம் கேட்ட அலகாபாத் உயர் நீதிமன்றம்
-[skip] ஐரோப்பிய நாட்டின் உள்ளூர் விபத்து — தமிழ்நாடு / இந்திய வாசகர
-[skip] Sudan-க்கான ஐக்கிய நாடுகள் ஆயுதத் தடையின் நீட்டிப்பு தமிழ்நா
-[skip] வெளிநாட்டு அரசுத்துறைக் கூட்டத்தை பற்றிய செய்தி. தமிழ்நாடு/இ
-[skip] அமெரிக்க உள்நாட்டு স்বাস்థ்य நிகழ்வு; தமிழ்நாடு/இந்திய வாசகர
-[skip] 9/11 அமெரிக்க ঐতिहাস — தமிழ்நாடு வாசகருக்கு தொடர்பற்ற வெளிநா
+[run] புதியவை 322 → நிகழ்வுகள் 307
+[triage] 307 → 2 (முக்கியம் + பக்க ஒதுக்கீடு)
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 2 · எழுதியவை 1
+[done] feed 300 · pending 2 · எழுதியவை 0
