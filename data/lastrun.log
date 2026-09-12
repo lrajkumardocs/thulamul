@@ -1,42 +1,42 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 26 புதியவை
+[fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 16 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 14 புதியவை
+[fetch] The Hindu TN: 10 புதியவை
+[fetch] Dinamani TN: 17 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 13 புதியவை
+[fetch] Al Jazeera: 15 புதியவை
 [fetch] ESPNcricinfo: 20 புதியவை
-[fetch] The Hindu Sport: 22 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Sport: 19 புதியவை
+[fetch] The Hindu Cinema: 4 புதியவை
 [fetch] Cinema Express: 14 புதியவை
 [fetch] The Hindu Tech: 1 புதியவை
 [fetch] Wired: 6 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 3 புதியவை
+[fetch] The Hindu Health: 1 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 11 புதியவை
+[fetch] FreeJobAlert: 8 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 19 புதியவை
+[fetch] The Hindu Legal: 14 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 18 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 3 புதியவை
-[fetch] The Verge: 7 புதியவை
-[fetch] The Hindu National: 19 புதியவை
+[fetch] TechCrunch: 4 புதியவை
+[fetch] The Verge: 8 புதியவை
+[fetch] The Hindu National: 14 புதியவை
 [fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 29 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,42 +56,34 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3f56711d10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 19 புதியவை
-[fetch] Dinamani Govt: 16 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f716d4b5250>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 14 புதியவை
+[fetch] Dinamani Govt: 17 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 8 புதியவை
+[fetch] TN Police News: 5 புதியவை
 [fetch] Times Chennai Crime: 15 புதியவை
-[run] புதியவை 454 → நிகழ்வுகள் 423
-[triage] 423 → 45 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] d69a389ae2a1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆப்கானிஸ்தான் அணிக்கு எதிரான முதல் டி20 போட்டியில் இந்திய அணி களமிறங்கியது
-[tts-edge] 5b827161ba95: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சிலியில் முதியோர் இல்லத்தில் தீ விபத்து, பதினாறு பேர் பலி
-[publish] பிரிக்ஸ் உச்சிமாநாட்டுக்கு சீன அதிபர் புதுடெல்லி வருகை
-[publish] அமெரிக்காவில் ஆகஸ்ட் நுகர்வோர் விலைவாசி உயர்வு, வட்டி அதிகரிப்பு எதிர்பார்ப்பு
-[publish] பிரிக்ஸ் உச்சிமாநாட்டு விருந்தில் தினை புலாவ், பன்னீர் லபாப்தார் பரிமாறல்
-[skip] இது கேரள மாநிலத்தில் உள்ள ஒரு சங்கத்தின் புதிய நிர்வாகிகள் த
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரமான உண்மைத் தகவல்கள் (
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான உண்மைத் தகவல்க
-[publish] ஏவிஎன்எல் நிறுவனத்தில் 1,213 பணியிடங்களுக்கான தேர்வு விடைத்தாள் வெளியீடு
-[publish] BRICS மாநாட்டு விருந்தில் இந்திய உணவு பரிமாறப்பட்டது
-[skip] கேரளா மாநில குழுமத்தின் உள்ளாட்சி நிகழ்வு — தமிழ்நாடு வாசகரை
-[skip] crime பிரிவிற்குக் குற்றச் செய்தி கிடைக்கவில்லை. 'Finding a 
-[skip] flood preparedness inspection and routine NDRF demonstration
-[skip] இது குற்றச் செய்தி அல்ல — மதத் தொடர்புடைய மற்றும் வாழ்விடக் 
-[skip] பटना உচ்ச நீதிமன்றம் (பिहार மாநிலம்) — தமிழ்நாட்டுக்குப் பொர
-[skip] வட இந்தியாவின் காற்று மாசு பற்றிய ஆய்வு — தமிழ்நாட்டு வாசகரு
-[publish] உணவுப் பொருட்களுக்கு எச்சரிக்கை ப்ளேபெல் விதிக்க தடை நீதிமன்றம் கால அளவு கேட்டுள்ளது
-[skip] வெளிநாட்டு தொடர் — தமிழ்நாடு/இந்தியா தொடர்பற்றது, தமிழில் வெ
-[skip] வெனிஸ் திரைப்பட விழாவில் ஒரு இந்திய இயக்குநர் பங்கேற்பது சர்
-[skip] வெளிநாட்டு உள்நாட்டுப் போட்டி — GCL (Global Champions League
-[skip] Hockey India இன் உள் நிர்வாக நடவடிக்கை — தமிழ்நாடு அல்லது இந
+[run] புதியவை 425 → நிகழ்வுகள் 401
+[triage] 401 → 45 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] d41d59942aa6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மராத்தா இட ஒதுக்கீடு போராட்டக்காரர் மும்பையில் செப்டம்பர் பத்தொன்பதில் உண்ணாவிரதம்
+[tts-edge] c83cefd936c5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பாலாகாத் பழங்குடி குழந்தைகள் மரணம்: உயர் நீதிமன்ற நோட்டீசுக்குப் பின் தீப்கே விசாரணை
+[skip] இது கர்நாடக அமைச்சர் தொடர்பான ஒரு மாநில அரசியல்/ED வழக்கு பற
+[skip] மध्य प्रदेश (मध्य प्रदेश) மாநிலத்தின் உள्ளூர் நிகழ்வு; தமிழ்
+[skip] வழக்கமான நிர்வாக கூட்டம் — செய்தி மதிப்பு இல்லை
+[publish] அவடி, செங்கோட்டையில் இரு தனித்தனி சரக்கு வாகன விபத்தில் இரண்டு பேர் உயிரிழப்பு
+[skip] இது குற்றம் சம்பந்தமான செய்தி அல்ல; எழுத்தாளரின் புத்தக வெளி
+[skip] பஞ্சாப் மாநிலத்தின் மின்சாரத் துறை வேலைவாய்ப்பு. தமிழ்நாட்டு
+[skip] கேரள மாநிலத்தின் உள்ளூர் ஆராய்ச்சி; தமிழ்நாட்டு வாசகருக்கு ந
+[skip] தெலுங்குப் படம்; தமிழ்நாட்டுத் தொடர்பு இல்லை. தமிழ்த் திரையு
+[skip] வெறும் இந்தி/ஹிந்தி திரையுலகச் செய்தி — தமிழ்நாட்டு வாசகரைப்
+[skip] இங்கிலாந்து உள்நாட்டுக் கிரிக்கெட் தொடர் — தமிழ்நாடு அல்லது 
+[publish] சர்தாக் பெட்రோனாஸ் டிவিএஸ் ரேசிங்கை முதலிடத்தில் இட்டுச் சென்றார்
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 8
+[done] feed 300 · pending 1 · எழுதியவை 4
