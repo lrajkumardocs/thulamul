@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 18 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 15 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
-[fetch] The Hindu Sport: 20 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
+[fetch] Dinamani TN: 13 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC World: 14 புதியவை
+[fetch] Al Jazeera: 16 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] The Hindu Sport: 22 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 14 புதியவை
-[fetch] The Hindu Tech: 0 புதியவை
+[fetch] The Hindu Tech: 1 புதியவை
 [fetch] Wired: 6 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 24 புதியவை
+[fetch] FreeJobAlert: 14 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,15 +29,15 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
+[fetch] The Hindu Legal: 23 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 18 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 2 புதியவை
+[fetch] TechCrunch: 3 புதியவை
 [fetch] The Verge: 7 புதியவை
-[fetch] The Hindu National: 26 புதியவை
-[fetch] NDTV India: 20 புதியவை
+[fetch] The Hindu National: 23 புதியவை
+[fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
@@ -56,52 +56,46 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5ef59272d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 18 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5f6c6cd490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 23 புதியவை
+[fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 3 புதியவை
-[fetch] Times Chennai Crime: 9 புதியவை
-[run] புதியவை 506 → நிகழ்வுகள் 460
-[triage] 460 → 47 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டிற்குப் பொருந்தாத வேலைவாய்ப்புகள
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடி (Caribbean Premier League) — தமி
-[skip] சவுதி அரேபியா, ஈரான், ஈராக் ஆகிய நாடுகளுக்கு இடையிலான புறநാட
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் நடவடிக்கை — தமிழ்நாடு/இந்திய வா
-[skip] DRC-ல் நடக்கும் எபோலா வைரஸ் பரவல் — உலகச் சுகாதாரத் தேவல் என
-[skip] வெளிநாட்டு அரசியல்-ராணுவ மோதல்; தமிழ்நாடு/இந்திய வாசகரை நேரட
-[skip] தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்க்கையைப் பாதிக்காத வெ
-[skip] வெளிநாட்டு அரசியல் உரை — தமிழ்நாடு/இந்திய வாசகரின் அன்றாட செ
-[skip] இந்த செய்தி யேமன் உள்நாட்டு மோதலைப் பற்றியது. தமிழ்நாடு/இந்த
-[tts-edge] 6bc12bfbfe41: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அடுத்த வாரம் 24,600 கோடி ரூபாய் மதிப்பில் 11 IPOக்கள் வெளியீடு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cez5A5Qk9UdoTaJ2oYTKC'}
-[tts-edge] bb3ca2f50f34: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சவுக்கு சங்கர் மீது ஐபிஎஸ் அதிகாரி அருண் அவதூறு வழக்கு உயர் நீதிமன்றத்தில்
+[fetch] TN Police News: 11 புதியவை
+[fetch] Times Chennai Crime: 15 புதியவை
+[run] புதியவை 479 → நிகழ்வுகள் 444
+[triage] 444 → 30 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு ক্রিকেট தொடர் — ভারত vs আফগানিস্তান খেলা। তামিलना
+[tts-edge] 6b9c3cb2cf4f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] TNTEU பி.எஸ்சி.பி.எட் பொதுவெளி வந்துவிட்டது
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருந்தும் விளையாட்டு செய்திக் கீழ்
+[skip] வெளிநாட்டு டென்னிஸ் போட்டி — தமிழ்நாடு/இந்தியத் வீரர்/அணி கொ
+[skip] இங்கிலாந்து Premier League — தமிழ்நாடு அல்லது இந்திய வாசகரைப
+[skip] England-Pakistan Test series என்பது உலகக் கிரிக்கெட் சம்பவம்
+[skip] இது ஆங்கிலப் பிரிமியர் லீக் ফுட்பாலுக்குக் கூட்டமைக்கப் போகு
+[skip] Asia Cup cricket final — இந்திய வாசகரைப் பாதிக்கும் முக்கியச
+[skip] English domestic cricket series — India-England Test series 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; மேலும் இத
+[skip] இது கர்நாடகா மாநிலத்தில் உள்ள ஒரு தனியார் நிறுவனத்தில் நடந்த
+[tts-edge] d3c0e8add651: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வடகிழக்குப் பருவமழைக்கு முன் நம்ம சென்னை செயலியில் தன்னார்வலர் பதிவு தொடக்கம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] இடைத்தேர்தல் நிலைப்பாடு குறித்து செப்டம்பர் 13ல் மார்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சி முடிவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cez5PK6sexdrwiT5PSJwi'}
-[publish] புதிய தலைமைச் செயலக அமைப்புத் திட்டத்தைக் கைவிடுமாறு சீமான் வலியுறுத்தல்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, மின்தடைக்கான காரணம், பாதிக
-[publish] பட்டினப்பாக்கத்தில் புதிய தலைமைச் செயலகம்: இந்திய கம்யூனிஸ்ட் கட்சி கண்டன ஆர்ப்பாட்டம்
-[publish] மதுரை மீனாட்சி அம்மன் கோவில் கும்பாபிஷேகம், 6,000 காவலர்கள் பாதுகாப்பு
-[publish] பிரிக்ஸ் உச்சிமாநாட்டு புதுடெல்லி பிரகடனம் வெளியீடு
-[publish] பிரிக்ஸ் உச்சி மாநாடு இந்தியாவில் நடைபெற்றது
-[publish] ஏமனில் ஹூத்தி படைகள் முன்னேற்றம் நிகழ்ந்துள்ளது
-[skip] சவுதி அரேபியா, பாகிஸ்தான், துருக்கி, ஹூதி — இவற்றுக்கிடையேயா
-[skip] வட சிரியாவில் சிறைச்சாலைத் தீ — தமிழ்நாட்டு வாசகர்களைப் பாதி
-[skip] வெளிநாட்டு அரசியல் கூற்று — தமிழ்நாட்டு வாசகரைப் பாதிக்கவில்
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிப்பதில்லை. பாலஸ்தீன பகுதியில் நடக்க
-[skip] இவை தமிழ்நாட்டு வேலைவாய்ப்புகள் அல்ல; ஐஐடி ரூர்க்கி மற்றும் 
-[publish] டெல்லி ஹோட்டலில் ஏர் இந்தியா விமானி மர்மமான முறையில் மரணம்
-[publish] சென்னையில் மூன்று மண்டலங்களில் பாலங்கள் புதுப்பிப்பு பணி
-[hold] சவுக்கு சங்கர் மீது ஐபிஎஸ் அதிகாரி அவதூறு வழக்கு தாக்கல்
+[skip] மூல உரை போதுமான செய்திக் குறிப்புகளைக் கொண்டிருக்கவில்லை — த
+[skip] மத்திய பிரதேச மாநிலத்தின் உள்ளூர் கூட்டம். தமிழ்நாடு வாசகரைப
+[skip] கர্நாटகா மாநிலத்தின் உள்ளூர் நிகழ்வு; தமிழ்நாட்டு வாசகரைப் ப
+[skip] This is a political rally announcement, not a crime news ite
+[skip] மெட்ரோவாட்டர் நிறுவனத்தின் அவैध குழாய் இணைப்புகளைத் தடுக்க ம
+[skip] இது பொதுவான கல்வி/சமூக அறிவிப்பு; குற்றச் செய்தி அல்ல. TN Po
+[skip] அகில இந்தியத் தேர்வு — தமிழ்நாட்டுக்கு மட்டுமான வேலைவாய்ப்பு
+[skip] பிहாரிலെ (மற்ற மாநிலம்) ஆசிரியர் பயிற்சி பாட மெரிட் பட்டியல்
+[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் நிகழ்வு; தமிழ்நாட்டு வாசகரைப் 
+[skip] மெலனோமா சிகிச்சை முறை பற்றிய பொதுத் தகவல் — தமிழ்நாட்டு வாசக
+[skip] வெனிஸ் திரைப்படக் குழுவில் தமிழ் படம் இல்லை; தமிழ் நடிகர்/இய
+[skip] ஐதரிய சினிமா வரலாற்று கட்டுரை — பொருந்தாத பழைய நிகழ்வு. செய்
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 12
+[done] feed 300 · pending 1 · எழுதியவை 2
