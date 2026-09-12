@@ -290,13 +290,15 @@
   .sideA .h{color:#2B3A67}.sideB .h{color:#9C4A2F}
   /* ------- பெரிய திரை (வலைத்தளம்) ------- */
   
-  .pagenav{display:none}
-  
   @media (min-width:1400px){
     .mh,.phead,.wx,.nav,.pad,.stories,.mh-top,.mh-issue,.mh-date{max-width:1320px}
     .stories{grid-template-columns:repeat(4,1fr)}
   }
   .autoline{font-family:var(--serif);font-size:14px;color:var(--brass);text-align:center;letter-spacing:.04em;padding:12px 0;line-height:1.6}
+  .grannyhead{display:flex;align-items:center;gap:14px;margin-top:16px}
+  .grannyhead img{width:64px;height:64px;min-width:64px;object-fit:cover;object-position:center 22%;
+     border-radius:50%;background:var(--paper2);border:1px solid var(--rule);flex:none}
+  .grannyhead>div{flex:1;min-width:0}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -353,16 +355,6 @@ body{max-width:none;background:var(--paper)}
     .twoside{grid-template-columns:1fr 1fr}
     .edbody,.mp{font-size:16.5px}
     .malmenu .mrow{padding:16px 0}
-.pagenav{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;
-             max-width:1180px;margin:0 auto;padding:14px 28px 6px;border-bottom:1px solid var(--rule)}
-    .pagenav a{font-size:12.5px;color:var(--ink2);text-decoration:none;padding:6px 11px;border-radius:16px;
-               border:1px solid transparent;white-space:nowrap}
-    .pagenav a:hover{background:var(--paper2)}
-    .pagenav a.on{background:var(--ink);color:var(--paper)}
-    .pagearrows{display:flex;justify-content:space-between;align-items:center;max-width:1180px;
-                margin:24px auto 0;padding:18px 28px 40px;border-top:1px solid var(--rule)}
-    .pagearrows a{font-family:var(--serif);font-size:15px;color:var(--brass);text-decoration:none}
-    .pagearrows a.dim{color:var(--ink3);pointer-events:none}
     .pfoot{display:none}
     /* வரிசை அமைப்பைக் கைவிட்டு — ஒரு நேரத்தில் ஒரே பக்கம் */
     .paper{display:block;overflow:visible;height:auto;scroll-snap-type:none}
@@ -506,7 +498,7 @@ function masthead(i){
   const yr=Math.floor((Date.now()-launch)/(365.25*86400000))+1;
   const d=new Date();
   return `<div class="mh">
-    <div class="mh-top">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ் · 100% தானியங்கி</div>
+    <div class="mh-top">தமிழின் முதல் AI டிஜிட்டல் நாளிதழ்</div>
     <div class="emblem"><svg viewBox="0 0 100 100" fill="none" stroke="#161B24" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M50 26v54"/><path d="M38 80h24"/><path d="M20 36h60"/><path d="M50 13l-4.5 11h9z" fill="#A8862F" stroke="none"/><circle cx="50" cy="36" r="3.8" fill="#A8862F" stroke="none"/><path d="M20 36l-8 20M20 36l8 20"/><path d="M80 36l-8 20M80 36l8 20"/><path d="M9 56c0 6 5 9 11 9s11-3 11-9z" fill="#F3F2EE"/><path d="M69 56c0 6 5 9 11 9s11-3 11-9z" fill="#F3F2EE"/></svg></div>
     <div class="mh-name">துலாமுள்</div>
     <div class="motto">நடுநிலை செய்திகள்</div>
@@ -602,7 +594,7 @@ function pageBody(k){
   if(k==='front'){const p=frontPicks();
     const urg=p.filter(x=>x.urgent)[0];
     window.__urg=urg?`<a class="alertbar" href="#story/${esc(urg.id)}"><b>⚠ அவசர அறிவிப்பு</b><span>${esc(urg.headline)}</span></a>`:'';
-    return (brief&&brief.audio?briefHtml():'')+storiesHtml(p,'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+(window.__urg||'')+frontAdHtml()+`<div class="pfoot">பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்</div>`;}
+    return `<div class="pad">${bellHtml('front')}</div>`+(brief&&brief.audio?briefHtml():'')+storiesHtml(p,'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+(window.__urg||'')+frontAdHtml()+'';}
   if(k==='editorial'){return editHtml()+'';}
   if(k==='comic'){const i=PAGES.indexOf(k);return comicHtml()+'';}
   if(k==='malar'){return malarHtml()+'';}
@@ -610,7 +602,7 @@ function pageBody(k){
   if(k==='ads'){return adsHtml()+`<div class="pad"><div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X<br><b class="brass">100% தானியங்கி · செய்தி முதல் ஓவியம் வரை AI</b><br><a href="https://thulamul.com">www.thulamul.com</a><br>பொது: <a href="mailto:info@thulamul.com">info@thulamul.com</a> · ஆதரவு: <a href="mailto:support@thulamul.com">support@thulamul.com</a><br>குறைதீர்: <a href="mailto:grievance@thulamul.com">grievance@thulamul.com</a><br><span class="muted">© ${new Date().getFullYear()} முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. All rights reserved.</span></div><div style="height:70px"></div></div>`;}
   if(k==='rasi'){const i=PAGES.indexOf(k);return rasiHtml()+'';}
   const i=PAGES.indexOf(k);const nxt=PAGES[i+1];const front=frontIds();const items=pub().filter(s=>s.topic===k&&!front.has(s.id));
-  return bellHtml(k)+storiesHtml(items,'இந்தப் பக்கத்தில் இன்று செய்தி இல்லை.',true)+`<div class="pfoot">${nxt?'பக்கத்தைத் திருப்ப → விரலால் இடதுபுறம் தள்ளுங்கள்':'கடைசிப் பக்கம்'}</div>`;
+  return bellHtml(k)+storiesHtml(items,'இந்தப் பக்கத்தில் இன்று செய்தி இல்லை.',true)+'';
 }
 function indexHtml(){
   return `<div class="inside"><div class="t">உள்ளே</div><div class="grid">${PAGES.slice(1).map((k,i)=>`<a href="#page/${k}"><span>${T[k]}</span><b>${i+2}</b></a>`).join('')}</div></div>`;
@@ -677,8 +669,10 @@ function malarHtml(){
   if(malarSel===null||!malHas(m,malarSel)){
     const cv=m.cover;
     return `${cv&&cv.url?`<div class="malcover"><img src="${esc(cv.url)}" alt="" onerror="this.parentElement.remove()"></div><div class="pad"><div class="cap">அட்டை: ${esc(cv.credit||'')}${cv.license?' · '+esc(cv.license):''}</div></div>`:''}
-      <div class="pad"><div class="small muted" style="margin-top:10px">மலர் 1 · இதழ் ${esc(String(m.issue||1))} · வாரம் ${esc(m.week||'')}</div>
+      <div class="pad"><div class="small muted" style="margin-top:10px">மலர் 1 · இதழ் ${esc(String(m.issue||1))}${m.generated?' · '+new Date(m.generated).toLocaleDateString('ta-IN',{day:'numeric',month:'long',year:'numeric'}):''}</div>
       <div class="malmenu">${avail.map(([k,t,sub])=>`<div class="mrow" data-mal="${k}"><b>${t}<small>${sub}</small></b><i>›</i></div>`).join('')}</div>
+      <div class="rule"></div><div class="small muted">விளம்பரம்</div>
+      ${adFrame(slotAds('malar')[0],'malar','3/4','வாரமலர் · முழுப் பக்கம் · ₹'+slotPrice('malar')+'/வாரம்')}
       <div style="height:40px"></div></div>`;
   }
   const k=malarSel, sec=MAL_SECS.find(x=>x[0]===k);
@@ -733,8 +727,35 @@ function malarHtml(){
     +`<div class="note">இவை நபர்களைக் குறிக்கவில்லை; அதிகாரத்தின் இயல்பைப் பற்றியவை.</div>`;
   return h+'<div style="height:40px"></div></div>';
 }
-document.addEventListener('click',e=>{const a=e.target.closest('a[href="#adbook"]');
-  if(a){e.preventDefault();go('#page/ads');setTimeout(()=>{const el=document.getElementById('adbook');const pg=document.querySelector('.page[data-k="ads"]');if(el&&pg)pg.scrollTop=el.offsetTop-10;},200);}});
+document.addEventListener('click',e=>{const a=e.target.closest('a[href="#adform"]');
+  if(a){e.preventDefault();openAdForm();}});
+function openAdForm(){
+  const sc=document.getElementById('s-detail');
+  if(!sc) return;
+  sc.innerHTML=`<div class="dhead"><button class="back" onclick="location.hash='#back'">← திரும்பு</button></div>`+adFormHtml();
+  location.hash='#adform';
+  document.querySelectorAll('.screen').forEach(x=>x.classList.remove('on'));
+  sc.classList.add('on'); sc.scrollTop=0; wireAdForm();
+}
+function wireAdForm(){
+  const b=document.getElementById('ad-send'); if(!b) return;
+  const msg=document.getElementById('ad-msg');
+  b.onclick=async()=>{
+    const g=id=>((document.getElementById(id)||{}).value||'').trim();
+    const org=g('ad-org'), ph=g('ad-phone'), ml=g('ad-mail');
+    if(!org){msg.textContent='நிறுவனப் பெயர் தேவை.';return;}
+    if(!/^[6-9]\d{9}$/.test(ph)){msg.textContent='தொலைபேசி எண் 10 இலக்கம்.';return;}
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(ml)){msg.textContent='சரியான மின்னஞ்சல் தேவை.';return;}
+    b.disabled=true; msg.textContent='அனுப்புகிறோம்…';
+    try{
+      await FB.addDoc(FB.collection(FB.db,'ad_requests'),{org,phone:ph,email:ml,cat:g('ad-cat'),
+        slot:g('ad-slot'),from:g('ad-from'),days:+g('ad-days')||7,image:g('ad-img'),url:g('ad-url'),
+        text:g('ad-text').slice(0,600),status:'new',created:FB.serverTimestamp()});
+      msg.innerHTML='<b>பெறப்பட்டது ✓</b><br>AI ஆய்வு + ஆசிரியர் ஒப்புதலுக்குப் பின் தொடர்பு கொள்வோம்.<br>ads@thulamul.com';
+      b.textContent='அனுப்பப்பட்டது';
+    }catch(e){ msg.textContent='அனுப்ப முடியவில்லை — ads@thulamul.com-க்கு எழுதுங்கள்.'; b.disabled=false; }
+  };
+}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-mal]');if(!b)return;
   malarSel=(b.dataset.mal==='__home')?null:b.dataset.mal;
   const pg=document.querySelector('.page[data-k="malar"]');
@@ -744,7 +765,7 @@ function slotAds(id){return (ads||[]).filter(a=>adActive(a)&&(a.slot||'box')===i
 function adFrame(a,id,ratio,label){
   if(a) return `<a class="adunit" href="${esc(a.url||'#')}" target="_blank" rel="noopener" style="aspect-ratio:${ratio}">
       <img src="${esc(a.image)}" alt="${esc(a.title||'')}"><span class="admark">விளம்பரம்</span></a>`;
-  return `<a class="adunit empty" href="#adbook" style="aspect-ratio:${ratio}"><span>${esc(label)}<br><b>விளம்பரம் செய்ய →</b></span></a>`;
+  return `<a class="adunit empty" href="#adform" style="aspect-ratio:${ratio}"><span>${esc(label)}<br><b>விளம்பரம் செய்ய →</b></span></a>`;
 }
 function slotPrice(id){const s=((ADS&&ADS.slots)||[]).find(x=>x.id===id);return s?s.price:0;}
 function frontAdHtml(){
@@ -793,20 +814,15 @@ function adFormHtml(){
     <div style="height:40px"></div></div>`;
 }
 function adsHtml(){
-  const cin=slotAds('cinema'), box=slotAds('box'), line=slotAds('line');
+  const cin=slotAds('cinema');
   return `<div class="pad">
     <div class="small brass" style="margin-top:14px">விளம்பரம்</div>
     <h2 style="font-family:var(--serif);font-size:20px;margin-top:4px">சினிமா</h2>
     ${[0,1,2].map(n=>adFrame(cin[n],'cinema','3/4','சினிமா · முழுப் பெட்டி · ₹'+slotPrice('cinema'))).join('')}
-    <div class="rule"></div>
-    <h2 style="font-family:var(--serif);font-size:20px">வகைப் பெட்டிகள்</h2>
-    <div class="adgrid">${Array.from({length:8},(_,n)=>adFrame(box[n],'box','1/1','₹'+slotPrice('box'))).join('')}</div>
-    ${line.length?`<div class="rule"></div><h2 style="font-family:var(--serif);font-size:20px">வரிசை விளம்பரம்</h2>
-      ${line.map(a=>`<div class="prow"><span><b>${esc(a.title||'')}</b><br><span class="small muted">${esc(a.text||'')}</span></span>
-        <span class="small brass">${esc(a.cat||'')}</span></div>`).join('')}`:''}
-    </div>${adBookHtml()}<div class="pad">
-    <div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X<br><b class="brass">100% தானியங்கி · செய்தி முதல் ஓவியம் வரை AI</b><br>
-      <a href="https://thulamul.com">www.thulamul.com</a><br>பொது: <a href="mailto:info@thulamul.com">info@thulamul.com</a> · ஆதரவு: <a href="mailto:support@thulamul.com">support@thulamul.com</a><br>குறைதீர்: <a href="mailto:grievance@thulamul.com">grievance@thulamul.com</a><br>
+    <div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X<br>
+      <b class="brass">100% தானியங்கி · செய்தி முதல் ஓவியம் வரை AI</b><br>
+      <a href="https://thulamul.com">www.thulamul.com</a><br>பொது: <a href="mailto:info@thulamul.com">info@thulamul.com</a> · ஆதரவு: <a href="mailto:support@thulamul.com">support@thulamul.com</a><br>
+      குறைதீர்: <a href="mailto:grievance@thulamul.com">grievance@thulamul.com</a> · விளம்பரம்: <a href="mailto:ads@thulamul.com">ads@thulamul.com</a><br>
       <span class="muted">© ${new Date().getFullYear()} முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</span></div>
     <div style="height:40px"></div></div>`;
 }
@@ -875,9 +891,9 @@ function renderHome(){
   const paper=$('#paper');
   paper.innerHTML=PAGES.map((k,i)=>{let body='';try{body=pageBody(k);}catch(err){console.error('page '+k,err);body='<div class="empty">இந்தப் பக்கத்தில் சிக்கல்.</div>';}
     const nx=PAGES[i+1], pv=PAGES[i-1];
-    const strip=`<div class="pagenav">${PAGES.map((p,j)=>`<a href="#page/${p}" class="${j===i?'on':''}">${T[p]||'முதல் பக்கம்'}</a>`).join('')}</div>`;
-    const arrows=`<div class="pagearrows"><a href="#page/${pv||''}" class="${pv?'':'dim'}">${pv?'← '+(T[pv]||''):''}</a><a href="#page/${nx||''}" class="${nx?'':'dim'}">${nx?(T[nx]||'')+' →':''}</a></div>`;
-    return `<div class="page" data-k="${k}">${pageHead(i,T[k]||'முதல் பக்கம்',k==='front')}${strip}${body}${arrows}</div>`;}).join('');
+    const strip='';
+    const arrows='';
+    return `<div class="page" data-k="${k}">${pageHead(i,T[k]||'முதல் பக்கம்',k==='front')}${body}</div>`;}).join('');
   paper.querySelectorAll('[data-id]').forEach(x=>x.addEventListener('click',()=>{
     const pg=x.closest('.page'); if(pg&&pg.dataset.k) backTo='#page/'+pg.dataset.k;
     go('#story/'+x.dataset.id);}));
@@ -1285,7 +1301,8 @@ const isField=t=>{try{return !!(t&&(t.tagName==='TEXTAREA'||t.tagName==='INPUT'|
 document.addEventListener('selectstart',e=>{if(isField(e.target)||isField(document.activeElement))return;e.preventDefault();});
 document.addEventListener('keydown',e=>{const t=e.target;const inField=isField(t)||isField(document.activeElement);const k=(e.key||'').toLowerCase();if((e.ctrlKey||e.metaKey)&&['c','s','p','u','a','x','v'].includes(k)&&!inField)e.preventDefault();if(e.key==='PrintScreen'){navigator.clipboard&&navigator.clipboard.writeText('துலாமுள் — thulamul.com');}});
 let curHash='#home';
-function go(h){curHash=h;let ok=false;try{if(location.hash!==h){location.hash=h;ok=true;}}catch(_){ok=false;}if(!ok)route(h);}
+function stopAudio(){document.querySelectorAll('audio').forEach(a=>{try{a.pause();a.currentTime=0;}catch(e){}});}
+function go(h){stopAudio();curHash=h;let ok=false;try{if(location.hash!==h){location.hash=h;ok=true;}}catch(_){ok=false;}if(!ok)route(h);}
 document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;e.preventDefault();go(a.getAttribute('href'));});
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js',{scope:'./'}).catch(()=>{}));
 window.addEventListener('hashchange',()=>route(location.hash));
