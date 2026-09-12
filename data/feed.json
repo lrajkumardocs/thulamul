@@ -1,5 +1,66 @@
 [
  {
+  "headline": "அரசு அதிகாரிகளுக்கு பாதுகாப்பு வேண்டும் என நீதிபதி ஹிமா கோஹ்லி கோரிக்கை",
+  "lines": [
+   "ஓய்வுபெற்ற உச்ச நீதிமன்ற நீதிபதி ஹிமா கோஹ்லி ஒரு நிகழ்வில் கருத்து தெரிவித்தார்.",
+   "சர்ச்சைக்குரிய நிதியை வெளியிடும் முடிவெடுக்கும் அரசு அதிகாரிகளுக்கு சட்டப்பூர்வ பாதுகாப்பு அளிக்க வேண்டும் என அவர் கூறினார்.",
+   "இதுபோன்ற முடிவுகள் எடுக்கும் அதிகாரிகள் பின்னர் சட்ட நடவடிக்கைகளை எதிர்கொள்ளும் அபாயம் உள்ளதாக அவர் சுட்டிக்காட்டினார்.",
+   "இதன் காரணமாக அதிகாரிகள் முடிவெடுக்கத் தயங்கும் நிலை ஏற்படுவதாக அவர் தெரிவித்தார்.",
+   "இது குறித்து மேலும் விவரங்கள் எதுவும் இதுவரை வெளியாகவில்லை."
+  ],
+  "closing": "இந்தக் கருத்து Bar and Bench எனும் சட்ட செய்தித் தளத்தின் மூலம் வெளியானது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Bar and Bench",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "ஹிமா கோஹ்லி",
+   "உச்ச நீதிமன்றம்",
+   "அரசு அதிகாரிகள்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Retired Justice Hima Kohli seeks statutory protection for government officers",
+   "lines": [
+    "Retired Supreme Court Justice Hima Kohli spoke at an event recently.",
+    "She said statutory protection should be given to government officers who release disputed funds.",
+    "She pointed out that officers who take such decisions may later face legal action.",
+    "She noted this causes officers to hesitate in taking decisions.",
+    "No further details on this matter have been released so far."
+   ],
+   "closing": "The remarks were reported by legal news platform Bar and Bench."
+  },
+  "front_cat": "routine",
+  "image_query": "Hima Kohli judge",
+  "person_en": "Hima Kohli",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "6c7b04825bed",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-09-12T11:08+05:30",
+  "links": [
+   "https://www.barandbench.com/news/law-policy/retired-justice-hima-kohli-calls-for-statutory-protection-of-government-officers-releasing-disputed-funds"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Justice_Hima_Kohli.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Hima Kohli",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Hima_Kohli"
+  },
+  "audio": "data/audio/6c7b04825bed.mp3",
+  "created_ts": 1789191540.5350327,
+  "status": "published"
+ },
+ {
   "id": "jobs_20260912",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 1 · அரசு & தனியார்",
   "lines": [
@@ -17634,66 +17695,6 @@
   },
   "audio": "data/audio/0b6cd0f3e012.mp3",
   "created_ts": 1788807005.0011687,
-  "status": "published"
- },
- {
-  "headline": "இந்தியாவின் செல் ப்ராட்காஸ்ட் எச்சரிக்கை அமைப்பு எப்படி செயல்படுகிறது? விளக்கம்",
-  "lines": [
-   "இயற்கை பேரிடர்களின்போது மக்களை உடனடியாக எச்சரிக்க இந்தியாவில் செல் ப்ராட்காஸ்ட் அமைப்பு பயன்படுத்தப்படுவதாக தி இந்து தொழில்நுட்பப் பிரிவு விளக்கமளித்துள்ளது.",
-   "இந்த அமைப்பு மூலம் நிலநடுக்கம், மின்னல், சுனாமி போன்ற அபாயங்கள் ஏற்படும்போது மொபைல் போன்களுக்கு நேரடி எச்சரிக்கை அறிவிப்புகள் அனுப்பப்படும் என்று கூறப்படுகிறது.",
-   "ஒரு குறிப்பிட்ட புவியியல் பகுதியில் உள்ள அனைத்து மொபைல் பயனர்களுக்கும் ஒரே நேரத்தில் எச்சரிக்கையை சேர்க்கும் வகையில் இந்த தொழில்நுட்பம் வடிவமைக்கப்பட்டுள்ளது.",
-   "சாதாரண குறுஞ்செய்திகளிலிருந்து வேறுபட்டு, நெட்வொர்க் அளவில் நேரடியாக அறிவிப்பு அனுப்பும் முறை இது என்று விளக்கப்பட்டுள்ளது.",
-   "இந்த தொழில்நுட்பம் தற்போது பேரிடர் எச்சரிக்கை நடவடிக்கைகளில் எவ்வாறு பயன்படுத்தப்படுகிறது என்பது குறித்த விளக்கக் கட்டுரையாக இது வெளியிடப்பட்டுள்ளது."
-  ],
-  "closing": "இந்த அமைப்பு உண்மையான பேரிடர் காலங்களில் எவ்வளவு துல்லியமாக செயல்படுகிறது என்பது இன்னும் விவரமாக அறியப்படவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu Tech",
-    "doc": null,
-    "date": "2026-09-07"
-   }
-  ],
-  "topic": "tech",
-  "entities": [
-   "இந்தியா",
-   "செல் ப்ராட்காஸ்ட் அமைப்பு",
-   "நிலநடுக்கம்",
-   "சுனாமி",
-   "மின்னல்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "How does India's Cell Broadcast Warning System actually work? Explained",
-   "lines": [
-    "The Hindu's technology section has explained how India's Cell Broadcast System is used to instantly warn people during natural disasters.",
-    "Through this system, direct warning alerts are reportedly sent to mobile phones when hazards like earthquakes, lightning and tsunamis occur.",
-    "The technology is designed to deliver a warning simultaneously to all mobile users in a specific geographic area.",
-    "Unlike regular text messages, it is explained as a method that broadcasts notifications directly across the network to everyone at once.",
-    "The article was published as an explainer piece detailing how this technology is currently being used in disaster warning efforts."
-   ],
-   "closing": "It is not yet known in detail how accurately this system performs during actual disaster situations."
-  },
-  "id": "39ac9692d2c1",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தொழில்நுட்பம்",
-  "published_at": "2026-09-08T00:18+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/technology/what-is-the-cell-broadcast-system-and-how-does-it-help-in-emergencies-explained/article71438246.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/langta-960px-Flag_of_India.svg.png?utm_source=ta.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · இந்தியா",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%BE"
-  },
-  "audio": "data/audio/39ac9692d2c1.mp3",
-  "created_ts": 1788806926.2640455,
-  "front_cat": "routine",
-  "urgent": false,
-  "affected": "",
   "status": "published"
  }
 ]
