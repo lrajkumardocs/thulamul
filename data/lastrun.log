@@ -6,10 +6,10 @@
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 15 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] ESPNcricinfo: 20 புதியவை
 [fetch] The Hindu Sport: 15 புதியவை
 [fetch] The Hindu Cinema: 6 புதியவை
-[fetch] Cinema Express: 10 புதியவை
+[fetch] Cinema Express: 12 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
 [fetch] Wired: 6 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -20,7 +20,7 @@
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
-[fetch] ICMR: 0 புதியவை
+[fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.icmr.gov.in', port=443): Failed to resolve 'www.icmr.gov.in' ([Errno -5] No address associated with hostname)"))
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
@@ -31,7 +31,7 @@
 [fetch] Bar and Bench: 4 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 16 புதியவை
+[fetch] Dinamani Cinema: 17 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 0 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f797ac38710>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f278ddc68d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,12 +65,12 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 1 புதியவை
-[fetch] Times Chennai Crime: 11 புதியவை
-[run] புதியவை 534 → நிகழ்வுகள் 477
-[triage] 477 → 47 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இது சட்டம் ஒழுங்குத் தொடர்பான செய்தியல்ல; சுற்றுச் சூழல் நீத
-[skip] மூல உரை ஆங்கிலத்தில் மட்டும் இருக்கிறது; தமிழ் விவரங்கள் போத
-[skip] This appears to be an entertainment or cinema-related featur
+[fetch] TN Police News: 0 புதியவை
+[fetch] Times Chennai Crime: 9 புதியவை
+[run] புதியவை 535 → நிகழ்வுகள் 479
+[triage] 479 → 44 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] மெட்ரோ ரயில் வர்த்தக வளாகத் திட்டம் — அரசுத் திட்டம் அறிவிப்
+[skip] இது குற்றம் சம்பந்தமான செய்தி அல்ல; சொலமன் பப்பையாவின் அஞ্ஞே
+[skip] இது கலை/பண்பாட்டுச் செய்தி; crime வகையல்ல. மதுரை/சென்னை கலை 
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
