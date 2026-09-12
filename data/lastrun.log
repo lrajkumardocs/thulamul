@@ -6,7 +6,7 @@
 [fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 13 புதியவை
 [fetch] Al Jazeera: 18 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 17 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 13 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 8 புதியவை
+[fetch] The Hindu Legal: 7 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 18 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 4 புதியவை
-[fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 8 புதியவை
+[fetch] The Verge: 9 புதியவை
+[fetch] The Hindu National: 7 புதியவை
 [fetch] NDTV India: 18 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f647381b6d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 8 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6e6f901c10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 7 புதியவை
 [fetch] Dinamani Govt: 22 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -66,12 +66,13 @@
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 0 புதியவை
-[fetch] Times Chennai Crime: 14 புதியவை
-[run] புதியவை 402 → நிகழ்வுகள் 387
-[triage] 387 → 15 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] ஜம்மு-காஷ்மீர் அரசியல் மற்றும் சர்வதேச விவாதம் — தமிழ்நாடு வ
-[tts-edge] 894b16adc02c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சட்டவிரோத நீர்ப்பம்ப எட்டு பறிமுதல்
-[skip] Nottinghamshire, Hampshire — ஆங்கிலத்தின் county cricket உள்
+[fetch] Times Chennai Crime: 13 புதியவை
+[run] புதியவை 396 → நிகழ்வுகள் 382
+[triage] 382 → 27 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] Bihar-ல் நடந்த சம்பவம்; தமிழ்நாட்டுக்குப் பொருத்தமில்லை
+[skip] இங்கிலாந்து county cricket — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[tts-edge] editorial_20260913: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: எச்சரிக்கை லேபிள்: குழந்தைக்கா, தொழிலுக்கா முன்னுரிமை?
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 1
+[done] feed 300 · pending 1 · எழுதியவை 0
