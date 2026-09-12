@@ -2,16 +2,16 @@
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 22 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 15 புதியவை
+[fetch] BBC World: 14 புதியவை
 [fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 8 புதியவை
 [fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 9 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
-[fetch] Wired: 4 புதியவை
+[fetch] Wired: 5 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 5 புதியவை
@@ -28,14 +28,14 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 4 புதியவை
+[fetch] Bar and Bench: 3 புதியவை
 [fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 14 புதியவை
+[fetch] Dinamani Cinema: 15 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 0 புதியவை
-[fetch] The Verge: 0 புதியவை
+[fetch] The Verge: 1 புதியவை
 [fetch] The Hindu National: 26 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
@@ -56,21 +56,21 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f36484a7290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9436804b90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 17 புதியவை
+[fetch] TN Police News: 15 புதியவை
 [fetch] Times Chennai Crime: 13 புதியவை
-[run] புதியவை 514 → நிகழ்வுகள் 458
-[triage] 458 → 21 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்கும் குற்றச் செய்திக் கோப்பு அல்ல
-[skip] இது சட்டம் ஒழுங்கு செய்தி அல்ல — மருத்துவ/சுகாதாரச் செய்தி. 
-[skip] பொதுத் திட்ட நிষ்பादனம் — குற்றம் அல்ல. நீர்த்துறை சட்ட நடவட
+[run] புதியவை 515 → நிகழ்வுகள் 459
+[triage] 459 → 16 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] மூல உரை ஆங்கிலத்திலும், செய்திக்குக் குறிப்பிடப்பட்ட நீதிமன்
+[skip] இது crime செய்திக் கோப்பாக குறிப்பிடப்பட்டுள்ளது, ஆனால் மூல 
+[skip] இது கலை প্রদர்শनी செய்தி; குற்றம் சட்ட ஒழுங்கு சம்பந்தமாக இல
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
