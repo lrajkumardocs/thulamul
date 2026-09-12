@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 22 புதியவை
+[fetch] The Hindu TN: 23 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 16 புதியவை
+[fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 21 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 13 புதியவை
 [fetch] The Hindu Tech: 0 புதியவை
 [fetch] Wired: 6 புதியவை
@@ -34,7 +34,7 @@
 [fetch] Dinamani Cinema: 19 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 1 புதியவை
+[fetch] TechCrunch: 2 புதியவை
 [fetch] The Verge: 5 புதியவை
 [fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff5c45835d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc0efd36dd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,12 +65,12 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 0 புதியவை
-[fetch] Times Chennai Crime: 5 புதியவை
-[run] புதியவை 542 → நிகழ்வுகள் 486
-[triage] 486 → 36 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இது விவசாயக் குறிப்பாகும்; குற்றச் செய்தி அல்ல. தேக் மரம் வள
-[skip] இது குற்றச் செய்தி அல்ல. மரங்களைப் பாதுகாப்பான சுற்றுச்சூழல்
-[skip] மனநோய் பராமரிப்பு குறித்த சামাजिक விழிப்புணர்வுக் கட்டுரை; க
+[fetch] TN Police News: 1 புதியவை
+[fetch] Times Chennai Crime: 2 புதியவை
+[run] புதியவை 547 → நிகழ்வுகள் 491
+[triage] 491 → 30 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] இது சினிமா/பொழுதுபோக்குச் செய்தி. crime துறை குறிப்பு தவறு. 
+[skip] இது அரசியல் செய்தி, குற்றம் சம்பந்தப்பட்டது அல்ல. மூல உரையில
+[skip] இது சினிமா வரலாறு / நடிகர் சரிত்திரம் — தமிழ்நாட்டு சினிமாவு
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
