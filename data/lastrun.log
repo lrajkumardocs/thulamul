@@ -1,18 +1,18 @@
-[fetch] RBI: 0 புதியவை
+[fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 14 புதியவை
+[fetch] BBC World: 16 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 2 புதியவை
+[fetch] ESPNcricinfo: 4 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
 [fetch] The Hindu Cinema: 3 புதியவை
 [fetch] Cinema Express: 20 புதியவை
 [fetch] The Hindu Tech: 3 புதியவை
 [fetch] Wired: 12 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7f13952429d0>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 10 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
@@ -20,7 +20,7 @@
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
-[fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.icmr.gov.in', port=443): Failed to resolve 'www.icmr.gov.in' ([Errno -5] No address associated with hostname)"))
+[fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
@@ -51,15 +51,15 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
-[fetch] PIB All India: பிழை HTTPSConnectionPool(host='pib.gov.in', port=443): Max retries exceeded with url: /PressReleseRss.aspx?Reg=3&Lang=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='pib.gov.in', port=443) at 0x7f13953046d0>, 'Connection to pib.gov.in timed out. (connect timeout=10)'))
-[fetch] PIB Tamil Releases: பிழை HTTPSConnectionPool(host='pib.gov.in', port=443): Max retries exceeded with url: /PressReleseRss.aspx?Reg=13&Lang=4 (Caused by ConnectTimeoutError(<HTTPSConnection(host='pib.gov.in', port=443) at 0x7f13952bb4d0>, 'Connection to pib.gov.in timed out. (connect timeout=10)'))
-[fetch] PIB Chennai: பிழை HTTPSConnectionPool(host='pib.gov.in', port=443): Max retries exceeded with url: /PressReleseRss.aspx?Reg=13&Lang=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='pib.gov.in', port=443) at 0x7f139527d9d0>, 'Connection to pib.gov.in timed out. (connect timeout=10)'))
+[fetch] PIB All India: 0 புதியவை
+[fetch] PIB Tamil Releases: 0 புதியவை
+[fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1395110b50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f964b33bcd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,7 +67,7 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 14 புதியவை
 [fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 538 → நிகழ்வுகள் 489
-[triage] 489 → 13 (முக்கியம் + பக்க ஒதுக்கீடு)
+[run] புதியவை 552 → நிகழ்வுகள் 502
+[triage] 502 → 36 (முக்கியம் + பக்க ஒதுக்கீடு)
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
