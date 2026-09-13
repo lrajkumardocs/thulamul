@@ -1,12 +1,13 @@
+[expire] bb3ca2f50f34
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 10 புதியவை
 [fetch] Dinamani TN: 24 புதியவை
-[fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 13 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC World: 15 புதியவை
 [fetch] Al Jazeera: 23 புதியவை
-[fetch] ESPNcricinfo: 14 புதியவை
+[fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 17 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 13 புதியவை
@@ -29,14 +30,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 4 புதியவை
+[fetch] The Hindu Legal: 3 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 18 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 5 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 4 புதியவை
+[fetch] The Hindu National: 3 புதியவை
 [fetch] NDTV India: 18 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +57,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2420aa2fd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 4 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff5e9d0ef10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 3 புதியவை
 [fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,9 +68,11 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 5 புதியவை
 [fetch] Times Chennai Crime: 13 புதியவை
-[run] புதியவை 400 → நிகழ்வுகள் 389
-[triage] 389 → 31 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] West Bengal மாநிலத்தின் உள்நாட்டுச் செய்தி. தமிழ்நாடு அல்லது
-[skip] பாகிஸ்தான் தேசிய கிரிக்கெட் வீரருடைய ইংল்যান্ডில் நடைபெறும் 
+[run] புதியவை 399 → நிகழ்வுகள் 388
+[triage] 388 → 26 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] கேரளாவின் உள்ளூர் அமைப்பு (Devaswom Board) செய்தி; தமிழ்நாட்
+[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் லீக் — தமிழ்நாட்டு/இந்திய 
+[tts-edge] jobs_20260913: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[jobs] தொகுப்பு 2
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 0
