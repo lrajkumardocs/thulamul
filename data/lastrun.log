@@ -5,11 +5,11 @@
 [fetch] Dinamani TN: 16 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 20 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
 [fetch] ESPNcricinfo: 1 புதியவை
-[fetch] The Hindu Sport: 13 புதியவை
+[fetch] The Hindu Sport: 12 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 15 புதியவை
+[fetch] Cinema Express: 13 புதியவை
 [fetch] The Hindu Tech: 3 புதியவை
 [fetch] Wired: 12 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fdee0e87390>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa479c81150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 13 புதியவை
 [fetch] Dinamani Govt: 16 புதியவை
-[fetch] Times Govt Schemes: 18 புதியவை
+[fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,15 +67,11 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 5 புதியவை
 [fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 402 → நிகழ்வுகள் 383
-[triage] 383 → 22 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] a1a9dd0c1c56: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சூரி நடிப்பில் மண்டாடி படம் வசூலில் தொடர் உயர்வு
-[tts-edge] 3676ecf1f80d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆசியாக் கோப்பையில் இந்தியா வெற்றி பெற்றது
-[skip] Formula 1 ஐரோப்பிய ரேசிங் — தமிழ்நாடு அல்லது இந்தியாவுக்குத்
-[skip] ஒடிசாவைச் சேர்ந்த வீரர், அகில இந்திய சாதாரண தொடர். தமிழ்நாடு
-[publish] தனித்த அம்பெயர்ப்பு உலகக் கோப்பை இறுதியில் திரௌபதி வெற்றி
+[run] புதியவை 399 → நிகழ்வுகள் 381
+[triage] 381 → 16 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு நிறுவனத்தின் (OpenAI) ஐபிஓ அறிவிப்பு — தமிழ்நாட்ட
+[tts-edge] editorial_20260914: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: காலை உணவுத் திட்டச் செலவு: யார் சுமக்க வேண்டும்?
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 3
+[done] feed 300 · pending 2 · எழுதியவை 0
