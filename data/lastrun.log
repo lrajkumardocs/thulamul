@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 24 புதியவை
+[fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 22 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 16 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 9 புதியவை
+[fetch] BBC World: 15 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
+[fetch] ESPNcricinfo: 8 புதியவை
 [fetch] The Hindu Sport: 20 புதியவை
-[fetch] The Hindu Cinema: 3 புதியவை
+[fetch] The Hindu Cinema: 2 புதியவை
 [fetch] Cinema Express: 20 புதியவை
 [fetch] The Hindu Tech: 3 புதியவை
 [fetch] Wired: 12 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 10 புதியவை
+[fetch] The Hindu Health: 9 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 5 புதியவை
+[fetch] FreeJobAlert: 4 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 24 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 8 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 24 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,57 +56,56 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2c52e61090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff731080190>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 24 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 16 புதியவை
+[fetch] TN Police News: 15 புதியவை
 [fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 564 → நிகழ்வுகள் 522
-[triage] 522 → 44 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; ஐந்து வாக
-[skip] ஆந்திர பிரதேச மாநிலத்தின் (GMC Ongole) உள்ளூர் வேலைவாய்ப்பு 
-[skip] வரலாற்றுக் கட்டுரை — 20ஆம் நூற்றாண்டின் விஞ்ஞான வரலாறு, இன்ற
-[skip] कन्नड़ फिल्म है, तमिलनाडु दर्शकों के लिए प्रासंगिक नहीं। तमि
-[skip] வெளிநாட்டு உள்நாட்டுப் போட்டி — இங்கிலாந்து Lions vs இலங்கை.
-[tts-edge] 798444dc209a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு நாம் தமிழர் கட்சி வேட்பாளர் அறிவிப்பு எதிர்பார்ப்பு
-[tts-edge] 8fa031df311f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] கோயம்புத்தூரில் சிறுமி கடத்தல், பாலியல் வன்கொடுமை வழக்கில் காவலர் காயம்
-[publish] தமிழ்நாட்டில் மின் தேவை உச்சம், திட்டமிடா மின்வெட்டு மீண்டும் தொடக்கம்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] தாராபுரம், மதுராந்தகம் இடைத்தேர்தலில் இடதுசாரிக் கட்சிகள் களம்
-[publish] வங்கி ஊழியர்கள் அக்டோபர் 6 முதல் காலவரையற்ற வேலைநிறுத்தப் போராட்டம்
-[publish] தாராபுரம், மதுராந்தகம் தொகுதிகள் குறித்து மு. வீரபாண்டியன் அறிவிப்பு
-[publish] இந்தோனேசியாவில் படகு கவிழ்ந்து ஆறு பேர் பலி, நூற்றுக்கும் மேற்பட்டோர் காணாமல்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; செய்தியின் வி
-[publish] மின்வெட்டு, விலைவாசி பிரச்சினையில் தி.வெ.க. அரசுக்கு எதிராக உதயநிதி ஸ்டாலின் விமர்சனம்
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலை நிறுத்த சென்னை உயர் நீதிமன்றத்தில் மனு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf1wTwa2s2Lcx7o7FAtr4'}
-[publish] தடையற்ற மின் விநியோகத்திற்கு 2,000 மெகாவாட் கூடுதல் மின்சாரம் கொள்முதல்: தமிழக அரசு
-[skip] வெளிநாட்டுப் போர்ப் பகுதியின் தினசரி ராணுவ நடவடிக்கை — தமிழ்
-[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருத்தமற்ற வெளிநாட்டு உள்நா
-[skip] BRICS கூட்டம் உலக அளவிலான செய்தி என்றாலும், தமிழ்நாடு அல்லது
-[skip] இது கேரள மாநிலத்தின் கொச்சி நகர உள்ளூர் படகு சேவை தொடர்பான ச
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை உறுதிப்படுத்த போத
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை. எந்த மாநி
-[publish] சென்னையிலிருந்து திருப்பதிக்கு பட்டு குடைகள் ஊர்வலம் புறப்பாடு
-[publish] செப்டம்பரில் இந்திய பங்குச் சந்தையிலிருந்து 13,138 கோடி ரூபாய் வெளியேற்றம்
-[filler] health கட்டுரை
-[comic] கதை: இரு கூர்மையான நாவுகள்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.89) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-09-14.png · நாள் 7
-[rasi] ராசிபலன் தயார்
+[run] புதியவை 520 → நிகழ்வுகள் 484
+[triage] 484 → 52 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] ஒடிசா மாநிலத்தின் OPSC தேர்வு — தமிழ்நாட்டைப் பாதிக்காது
+[tts-edge] 11356a680ee1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] விஜய்யின் வரிசு, அஜித்தின் துணிவு ஒரே நாளில் வெளியாகிறது
+[skip] வெளிநாட்டுத் தொடர் — இந்திய மகளிர் கிரிக்கெட் ஆசியா கோப்பைக்
+[tts-edge] 5d4616fe8b5f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] யேமனில் மீண்டும் மோதல்கள், மனிதாபிமான நெருக்கடி கடுமை
+[publish] தென் லெபனான் அழிவால் இடம்பெயர்ந்தோர் நிரந்தர நெருக்கடியில்
+[skip] மூலத்தில் போதிய உண்மைத் தகவல்கள் இல்லை - இது ஒரு கருத்துப் ப
+[publish] மோதல் நிறைந்த பங்சமோரோவில் வரலாற்று தேர்தலுக்கு பிலிப்பைன்ஸ் தயார்
+[publish] பணவீக்கத்தைக் கட்டுப்படுத்த அமெரிக்க மத்திய வங்கி வட்டி விகித உயர்வுக்கு வாய்ப்பு
+[skip] உक்రைனை-ரஷ்யா போர் — தமிழ்நாடு/இந்தியா வாசகரின் அன்றாட வாழ்க
+[skip] சிரியா நாட்டின் உள்நாட்டுச் சம்பவம். தமிழ்நாடு/இந்தியா வாசகர
+[skip] வெளிநாட்டு அரசியல் — அமெரிக்க-உக்रேன்-ரஷ்யா மோதல் தமிழ்நாடு/
+[skip] வெளிநாட்டுப் போர்க் களத்தின் தீவிரமான இராணுவ நடவடிக்கை. தமிழ
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் மற்றும் ஜியோপோலிटிக்ஸ் — தமிழ்ந
+[skip] உலக செய்திகளில் தமிழ்நாடு/இந்தியக் கணக்கு இல்லாதது. யேமன்-ஜி
+[skip] உக்రைனு-ரஷியப் போர் — தமிழ்நாடு/இந்தியச் செய்திக்குப் பொருந்
+[skip] வெளிநாட்டு அரசியல் பகுப்பாய்வு — தமிழ்நாட்டு/இந்திய வாசகரின்
+[skip] வெளிநாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரின் அன்றாட வாழ்க்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, நீர்வரத்து அளவு, தேதி விவர
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf1yDk4aPhtPjgU9q6uZE'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf1yH52vrD1uMKzzsvbvo'}
+[publish] மின் பற்றாக்குறை குறைவு: பரந்தூர் விமான நிலையம் குறித்து செங்கோட்டையன்
+[publish] அசாமிலிருந்து ‘துர்கா’ யானை மதுரை மீனாட்சி கோவிலுக்கு, மாற்றம் குறித்து ஆர்வலர்கள் எதிர்ப்பு
+[publish] கோவையில் பெண் ஆய்வாளரைத் தாக்கிய நபர் காவல்துறையிடம் பிடிபட்டார்
+[publish] கவுண்டம்பாளையம் தொகுதிக்கு மூன்று கோடி ரூபாய் சுகாதாரத் திட்டங்கள் அறிவிப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf1yZoW1SAjUxxbNSkg8Z'}
+[publish] சீனா இந்தியாவுடன் நெருங்க சொந்த தேவை காரணம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; இது ஒரு ப
+[publish] பிரிக்ஸ் விருந்து உணவு தேர்வு மீது காங்கிரஸ் விமர்சனம்
+[skip] இது கேரளாவின் கோழிக்கோட்டில் நடந்த சிறிய கொள்ளை முயற்சி வழக்
+[skip] வெளிநாட்டு (இந்திய அல்ல) அரசு நிகழ்வு அல்லது வெறும் புத்தக/வ
+[skip] இது மத்திய அரசின் அறிவிப்பு அல்ல; கட்சிச் சர்ச்சையும் ஒரு மா
+[skip] இந்தப் பொருள் ஒரு நபரின் தனிப்பட்ட நினைவுகளைப் பற்றிய साक्षा
+[skip] பாதையைக் கடக்கும் நடத்தை தொடர்பான பொதுவான விழிப்புணர்வுச் செ
+[skip] இது சாலைப் பணி அறிவிப்பு; குற்றச் செய்தி அல்ல. crime துறை பய
+[publish] திருவண்ணாமலையில் மூன்று கட்டாய தொழிலாளிகள் விடுவிக்கப்பட்டனர்
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 12
