@@ -1,12 +1,12 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 19 புதியவை
+[fetch] The Hindu TN: 22 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 17 புதியவை
+[fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 7 புதியவை
+[fetch] ESPNcricinfo: 9 புதியவை
 [fetch] The Hindu Sport: 20 புதியவை
 [fetch] The Hindu Cinema: 3 புதியவை
 [fetch] Cinema Express: 20 புதியவை
@@ -23,8 +23,8 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
@@ -56,18 +56,57 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5482065590>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2c52e61090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[fetch] Dinamalar Crime: 0 புதியவை
+[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 15 புதியவை
+[fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 557 → நிகழ்வுகள் 514
-[triage] 514 → 29 (முக்கியம் + பக்க ஒதுக்கீடு)
+[run] புதியவை 564 → நிகழ்வுகள் 522
+[triage] 522 → 44 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; ஐந்து வாக
+[skip] ஆந்திர பிரதேச மாநிலத்தின் (GMC Ongole) உள்ளூர் வேலைவாய்ப்பு 
+[skip] வரலாற்றுக் கட்டுரை — 20ஆம் நூற்றாண்டின் விஞ்ஞான வரலாறு, இன்ற
+[skip] कन्नड़ फिल्म है, तमिलनाडु दर्शकों के लिए प्रासंगिक नहीं। तमि
+[skip] வெளிநாட்டு உள்நாட்டுப் போட்டி — இங்கிலாந்து Lions vs இலங்கை.
+[tts-edge] 798444dc209a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு நாம் தமிழர் கட்சி வேட்பாளர் அறிவிப்பு எதிர்பார்ப்பு
+[tts-edge] 8fa031df311f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] கோயம்புத்தூரில் சிறுமி கடத்தல், பாலியல் வன்கொடுமை வழக்கில் காவலர் காயம்
+[publish] தமிழ்நாட்டில் மின் தேவை உச்சம், திட்டமிடா மின்வெட்டு மீண்டும் தொடக்கம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] தாராபுரம், மதுராந்தகம் இடைத்தேர்தலில் இடதுசாரிக் கட்சிகள் களம்
+[publish] வங்கி ஊழியர்கள் அக்டோபர் 6 முதல் காலவரையற்ற வேலைநிறுத்தப் போராட்டம்
+[publish] தாராபுரம், மதுராந்தகம் தொகுதிகள் குறித்து மு. வீரபாண்டியன் அறிவிப்பு
+[publish] இந்தோனேசியாவில் படகு கவிழ்ந்து ஆறு பேர் பலி, நூற்றுக்கும் மேற்பட்டோர் காணாமல்
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; செய்தியின் வி
+[publish] மின்வெட்டு, விலைவாசி பிரச்சினையில் தி.வெ.க. அரசுக்கு எதிராக உதயநிதி ஸ்டாலின் விமர்சனம்
+[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலை நிறுத்த சென்னை உயர் நீதிமன்றத்தில் மனு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf1wTwa2s2Lcx7o7FAtr4'}
+[publish] தடையற்ற மின் விநியோகத்திற்கு 2,000 மெகாவாட் கூடுதல் மின்சாரம் கொள்முதல்: தமிழக அரசு
+[skip] வெளிநாட்டுப் போர்ப் பகுதியின் தினசரி ராணுவ நடவடிக்கை — தமிழ்
+[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருத்தமற்ற வெளிநாட்டு உள்நா
+[skip] BRICS கூட்டம் உலக அளவிலான செய்தி என்றாலும், தமிழ்நாடு அல்லது
+[skip] இது கேரள மாநிலத்தின் கொச்சி நகர உள்ளூர் படகு சேவை தொடர்பான ச
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை உறுதிப்படுத்த போத
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை. எந்த மாநி
+[publish] சென்னையிலிருந்து திருப்பதிக்கு பட்டு குடைகள் ஊர்வலம் புறப்பாடு
+[publish] செப்டம்பரில் இந்திய பங்குச் சந்தையிலிருந்து 13,138 கோடி ரூபாய் வெளியேற்றம்
+[filler] health கட்டுரை
+[comic] கதை: இரு கூர்மையான நாவுகள்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.89) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-14.png · நாள் 7
+[rasi] ராசிபலன் தயார்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 12
