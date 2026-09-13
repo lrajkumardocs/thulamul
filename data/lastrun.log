@@ -6,7 +6,7 @@
 [fetch] BBC Tamil: 8 புதியவை
 [fetch] BBC World: 15 புதியவை
 [fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 12 புதியவை
+[fetch] ESPNcricinfo: 11 புதியவை
 [fetch] The Hindu Sport: 17 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 13 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f955f185d10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f57c1a8fa90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 4 புதியவை
 [fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,11 +65,11 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 5 புதியவை
+[fetch] TN Police News: 6 புதியவை
 [fetch] Times Chennai Crime: 13 புதியவை
 [run] புதியவை 402 → நிகழ்வுகள் 390
-[triage] 390 → 34 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] கர்நாடகா மாநிலத்தின் உள்நாட்டு செய்தி. தமிழ்நாட்டு வாசகரைப் 
-[skip] பாகிஸ்தான் கிரிக்கெட் அணியின் பயிற்சியாளர் நியமனம் — தமிழ்நா
+[triage] 390 → 37 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டுக் சர্வதேச மாநாடு — தமிழ்நாடு/இந்திய மக்களுக்கு உட
+[skip] கരিபியன் பிராண்டிக் டியன் பிரீমியர் ஐ 20 (CPL) — வெளிநாட்டு 
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
