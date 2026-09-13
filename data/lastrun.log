@@ -7,7 +7,7 @@
 [fetch] BBC World: 14 புதியவை
 [fetch] Al Jazeera: 23 புதியவை
 [fetch] ESPNcricinfo: 1 புதியவை
-[fetch] The Hindu Sport: 12 புதியவை
+[fetch] The Hindu Sport: 10 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 13 புதியவை
 [fetch] The Hindu Tech: 2 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 13 புதியவை
+[fetch] The Hindu Legal: 14 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 12 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 13 புதியவை
+[fetch] The Hindu National: 14 புதியவை
 [fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa8283d0a10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f81cbe69610>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 14 புதியவை
 [fetch] Dinamani Govt: 16 புதியவை
 [fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,11 +65,9 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 5 புதியவை
+[fetch] TN Police News: 6 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 400 → நிகழ்வுகள் 382
-[triage] 382 → 18 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு ফুटबாலின் ஒரு சாধாரண நிரந்தர ஆட்டம். தமிழ்நாடு, இ
-[skip] பாকிஸ்தான் கிரிக்கெட் அணியின் உள்நாட்டு பிரச்சினை. தமிழ்நாடு
-[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
+[run] புதியவை 402 → நிகழ்வுகள் 382
+[triage] 382 → 5 (முக்கியம் + பக்க ஒதுக்கீடு)
+[weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 2 · எழுதியவை 0
