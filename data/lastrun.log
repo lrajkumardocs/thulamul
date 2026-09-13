@@ -4,14 +4,14 @@
 [fetch] The Hindu TN: 15 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 13 புதியவை
+[fetch] BBC World: 14 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 0 புதியவை
-[fetch] The Hindu Sport: 17 புதியவை
+[fetch] The Hindu Sport: 16 புதியவை
 [fetch] The Hindu Cinema: 3 புதியவை
 [fetch] Cinema Express: 18 புதியவை
 [fetch] The Hindu Tech: 3 புதியவை
-[fetch] Wired: 11 புதியவை
+[fetch] Wired: 12 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 9 புதியவை
@@ -32,7 +32,7 @@
 [fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 18 புதியவை
-[fetch] Dinamani Sports: 27 புதியவை
+[fetch] Dinamani Sports: 29 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 5 புதியவை
 [fetch] The Verge: 10 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6c420184d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7feaad49e490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 28 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,8 +67,10 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 12 புதியவை
 [fetch] Times Chennai Crime: 15 புதியவை
-[run] புதியவை 521 → நிகழ்வுகள் 477
-[triage] 477 → 11 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டுப் பெண்கள் டென்னிஸ் வீரர்களின் அமெரிக்க நிகழ்வு — 
+[run] புதியவை 523 → நிகழ்வுகள் 477
+[triage] 477 → 23 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] fa29d49a7b18: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பெண்களின் டி20 ஆசிய கோப்பை இறுதியில் இந்தியா ஸ்রீலங்காவுக்கு எதிரெ
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 1
