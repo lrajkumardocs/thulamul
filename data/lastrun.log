@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 16 புதியவை
+[fetch] ET Markets: 14 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 5 புதியவை
 [fetch] Dinamani TN: 15 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 15 புதியவை
+[fetch] Al Jazeera: 17 புதியவை
 [fetch] ESPNcricinfo: 6 புதியவை
-[fetch] The Hindu Sport: 16 புதியவை
+[fetch] The Hindu Sport: 14 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 18 புதியவை
+[fetch] Cinema Express: 17 புதியவை
 [fetch] The Hindu Tech: 3 புதியவை
 [fetch] Wired: 12 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 6 புதியவை
+[fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -23,21 +23,21 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 14 புதியவை
+[fetch] The Hindu Legal: 13 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 10 புதியவை
+[fetch] TechCrunch: 11 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 14 புதியவை
-[fetch] NDTV India: 20 புதியவை
+[fetch] The Hindu National: 13 புதியவை
+[fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 29 புதியவை
+[fetch] Sportstar: 28 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9cdee2ead0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 14 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3165c75550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 13 புதியவை
 [fetch] Dinamani Govt: 15 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,18 +65,14 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 6 புதியவை
+[fetch] TN Police News: 5 புதியவை
 [fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 417 → நிகழ்வுகள் 394
-[triage] 394 → 18 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] 36bc0c0bc753: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வில்வித்தையில் திரஜ்க்கு வரலாற்று தங்கம், முதல் இந்தியர் சாதனை
-[tts-edge] 2135ebba8d68: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ভারত আফগানিস্তানকে முதல் T20 க경েளியில் வெல்லுதல்
-[publish] ஓமன் கடற்பகுதியில் எண்ணெய் கப்பல் மீது தாக்குதல், இந்தியர் காணாமல்
-[publish] சாலை விபத்தில் லாரி ஓட்டுநர் மரணம் சென்னையில்
-[skip] வெளிநாட்டு ஆய்வாளரின் வரலாற்று கண்டுபிடிப்பு — தமிழ்நாடு/இந்
-[skip] வெளிநாட்டு சினிமாச் செய்திக் குறிப்பு மட்டுமாக இருக்கிறது. வ
+[run] புதியவை 408 → நிகழ்வுகள் 388
+[triage] 388 → 19 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] BCCI-ன் உள் நிர்வாக நிலைமையோ, பணிப்பாளரின் ஒப்பந்த நবீকரণம் 
+[tts-edge] f96be80d6428: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கார்த்தியின் சார்தார் 2 மூன்றாம் நாளில் இரண்டு கோடி ரூபாய் வசூல்
+[skip] பொதுவான மருத்துவ விவாதம் — தமிழ்நாட்டு/இந்திய வாசகர் செயல்பட
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 4
+[done] feed 300 · pending 2 · எழுதியவை 1
