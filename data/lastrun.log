@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 22 புதியவை
+[fetch] ET Markets: 20 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 25 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 15 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
+[fetch] The Hindu TN: 9 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 14 புதியவை
+[fetch] Al Jazeera: 13 புதியவை
 [fetch] ESPNcricinfo: 8 புதியவை
 [fetch] The Hindu Sport: 20 புதியவை
-[fetch] The Hindu Cinema: 2 புதியவை
+[fetch] The Hindu Cinema: 1 புதியவை
 [fetch] Cinema Express: 20 புதியவை
 [fetch] The Hindu Tech: 3 புதியவை
 [fetch] Wired: 12 புதியவை
@@ -16,27 +16,27 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 9 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 4 புதியவை
+[fetch] FreeJobAlert: 3 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] The Hindu Legal: 19 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 8 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Hindu National: 19 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,56 +56,45 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff731080190>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
-[fetch] Dinamani Govt: 25 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa626c21910>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 19 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 15 புதியவை
+[fetch] TN Police News: 10 புதியவை
 [fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 520 → நிகழ்வுகள் 484
-[triage] 484 → 52 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] ஒடிசா மாநிலத்தின் OPSC தேர்வு — தமிழ்நாட்டைப் பாதிக்காது
-[tts-edge] 11356a680ee1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] விஜய்யின் வரிசு, அஜித்தின் துணிவு ஒரே நாளில் வெளியாகிறது
-[skip] வெளிநாட்டுத் தொடர் — இந்திய மகளிர் கிரிக்கெட் ஆசியா கோப்பைக்
-[tts-edge] 5d4616fe8b5f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] யேமனில் மீண்டும் மோதல்கள், மனிதாபிமான நெருக்கடி கடுமை
-[publish] தென் லெபனான் அழிவால் இடம்பெயர்ந்தோர் நிரந்தர நெருக்கடியில்
-[skip] மூலத்தில் போதிய உண்மைத் தகவல்கள் இல்லை - இது ஒரு கருத்துப் ப
-[publish] மோதல் நிறைந்த பங்சமோரோவில் வரலாற்று தேர்தலுக்கு பிலிப்பைன்ஸ் தயார்
-[publish] பணவீக்கத்தைக் கட்டுப்படுத்த அமெரிக்க மத்திய வங்கி வட்டி விகித உயர்வுக்கு வாய்ப்பு
-[skip] உक்రைனை-ரஷ்யா போர் — தமிழ்நாடு/இந்தியா வாசகரின் அன்றாட வாழ்க
-[skip] சிரியா நாட்டின் உள்நாட்டுச் சம்பவம். தமிழ்நாடு/இந்தியா வாசகர
-[skip] வெளிநாட்டு அரசியல் — அமெரிக்க-உக்रேன்-ரஷ்யா மோதல் தமிழ்நாடு/
-[skip] வெளிநாட்டுப் போர்க் களத்தின் தீவிரமான இராணுவ நடவடிக்கை. தமிழ
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் மற்றும் ஜியோপோலிटிக்ஸ் — தமிழ்ந
-[skip] உலக செய்திகளில் தமிழ்நாடு/இந்தியக் கணக்கு இல்லாதது. யேமன்-ஜி
-[skip] உக்రைனு-ரஷியப் போர் — தமிழ்நாடு/இந்தியச் செய்திக்குப் பொருந்
-[skip] வெளிநாட்டு அரசியல் பகுப்பாய்வு — தமிழ்நாட்டு/இந்திய வாசகரின்
-[skip] வெளிநாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரின் அன்றாட வாழ்க்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, நீர்வரத்து அளவு, தேதி விவர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf1yDk4aPhtPjgU9q6uZE'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf1yH52vrD1uMKzzsvbvo'}
-[publish] மின் பற்றாக்குறை குறைவு: பரந்தூர் விமான நிலையம் குறித்து செங்கோட்டையன்
-[publish] அசாமிலிருந்து ‘துர்கா’ யானை மதுரை மீனாட்சி கோவிலுக்கு, மாற்றம் குறித்து ஆர்வலர்கள் எதிர்ப்பு
-[publish] கோவையில் பெண் ஆய்வாளரைத் தாக்கிய நபர் காவல்துறையிடம் பிடிபட்டார்
-[publish] கவுண்டம்பாளையம் தொகுதிக்கு மூன்று கோடி ரூபாய் சுகாதாரத் திட்டங்கள் அறிவிப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf1yZoW1SAjUxxbNSkg8Z'}
-[publish] சீனா இந்தியாவுடன் நெருங்க சொந்த தேவை காரணம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; இது ஒரு ப
-[publish] பிரிக்ஸ் விருந்து உணவு தேர்வு மீது காங்கிரஸ் விமர்சனம்
-[skip] இது கேரளாவின் கோழிக்கோட்டில் நடந்த சிறிய கொள்ளை முயற்சி வழக்
-[skip] வெளிநாட்டு (இந்திய அல்ல) அரசு நிகழ்வு அல்லது வெறும் புத்தக/வ
-[skip] இது மத்திய அரசின் அறிவிப்பு அல்ல; கட்சிச் சர்ச்சையும் ஒரு மா
-[skip] இந்தப் பொருள் ஒரு நபரின் தனிப்பட்ட நினைவுகளைப் பற்றிய साक्षा
-[skip] பாதையைக் கடக்கும் நடத்தை தொடர்பான பொதுவான விழிப்புணர்வுச் செ
-[skip] இது சாலைப் பணி அறிவிப்பு; குற்றச் செய்தி அல்ல. crime துறை பய
-[publish] திருவண்ணாமலையில் மூன்று கட்டாய தொழிலாளிகள் விடுவிக்கப்பட்டனர்
+[run] புதியவை 473 → நிகழ்வுகள் 444
+[triage] 444 → 26 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] e37baf1619eb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியா பெண்கள் ஆசிய கோப்பையில் எட்டாவது முறை சாம்பியன்
+[skip] குஜராத் அரசு வேலைவாய்ப்பு அறிவிப்பு — தமிழ்நாடு வாசகர்களுக்க
+[tts-edge] 8486f000e8e1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஏச்டிஎப்சி வங்கி அடுத்த தலைமை நிர்வாக அதிகாரி பதவிக்கு இரு பெயர்களை ரிசர்வ் வங்கிக்கு அனுப்பியது
+[publish] கட்பாடி அருகே நாகாலாந்து இளம் வயதினர் இருவரை மீட்ட ரயில்வே பாதுகாப்புப் படை
+[publish] காலாவதி நாள் தீர்வு முறையில் மாற்றம் முன்மொழிந்த செபி
+[publish] காலை உணவுத் திட்ட விழா செலவு விவகாரத்தில் திணகரன் விமர்சனம்
+[hold] மின் தடையால் மாணவர் பாதிப்பு: அதிமுக தலைவர் உதயகுமார் குற்றச்சாட்டு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf21aCBk7RV8ngUgPwCfK'}
+[publish] மதுரை உள்பட ஐந்து மாவட்டங்களில் இன்று கனமழைக்கு வாய்ப்பு
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் நிகழ்வு (முன்னாள் மாணவர் சந்திப
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf21faLtjnpMbGU5Q9MNZ'}
+[skip] கேரளத்தின் முதல்வர் பற்றிய செய்தி — தமிழ்நாட்டுக்குத் தொடர்ப
+[skip] crime துறைக்குத் தொடர்பற்றது; மருத்துவ/சுகாதாரப் பொருள் (வயத
+[skip] இந்தச் செய்தி குற்றம், சட்டம் ஒழுங்கு தொடர்பற்றது. இது ஒரு எ
+[skip] தில்லியைப் பொறுத்தவையே — தமிழ்நாட்டில் உள்ள வேலை அல்ல. DDA எ
+[publish] ICAR நிறுவனம் இரண்டு பதவிக்கு நடந்தமையும் தேர்வு
+[skip] செய்தியல்ல — வீடியோ சேனல் அறிவிப்பு. 'Health Wrap' என்பது தொ
+[publish] நீண்ட ஆயுளுக்கான உணவு, உடல்வேலை மற்றும் மனம் முக்கியம்
+[publish] விஜய் சினிமாவில் தனது அரசியல் பாதை அமைத்தான்
+[skip] தமிழ் திரையுலகத்துடன் நேரடித் தொடர்பு இல்லை. தெலுங்கு/ஆங்கில
+[skip] வெளிநாட்டு மகளிர் கிரிக்கெட் சர்ச்சை — தமிழ்நாடு/இந்திய விளை
+[skip] வெறும் கிரிக்கெட் ஆட்டம் — தமிழ்நாட்டு வாசகரின் அன்றாடப் பாத
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 12
+[done] feed 300 · pending 2 · எழுதியவை 10
