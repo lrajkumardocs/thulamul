@@ -5,16 +5,16 @@
 [fetch] Dinamani TN: 15 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 17 புதியவை
+[fetch] Al Jazeera: 20 புதியவை
 [fetch] ESPNcricinfo: 6 புதியவை
-[fetch] The Hindu Sport: 14 புதியவை
+[fetch] The Hindu Sport: 13 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 17 புதியவை
+[fetch] Cinema Express: 15 புதியவை
 [fetch] The Hindu Tech: 3 புதியவை
 [fetch] Wired: 12 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 5 புதியவை
+[fetch] The Hindu Health: 4 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -34,7 +34,7 @@
 [fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 11 புதியவை
+[fetch] TechCrunch: 12 புதியவை
 [fetch] The Verge: 10 புதியவை
 [fetch] The Hindu National: 13 புதியவை
 [fetch] NDTV India: 19 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3165c75550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f99b0c62ad0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 13 புதியவை
 [fetch] Dinamani Govt: 15 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
@@ -67,12 +67,15 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 5 புதியவை
 [fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 408 → நிகழ்வுகள் 388
-[triage] 388 → 19 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] BCCI-ன் உள் நிர்வாக நிலைமையோ, பணிப்பாளரின் ஒப்பந்த நবீকரণம் 
-[tts-edge] f96be80d6428: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கார்த்தியின் சார்தார் 2 மூன்றாம் நாளில் இரண்டு கோடி ரூபாய் வசூல்
-[skip] பொதுவான மருத்துவ விவாதம் — தமிழ்நாட்டு/இந்திய வாசகர் செயல்பட
+[run] புதியவை 408 → நிகழ்வுகள் 389
+[triage] 389 → 23 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] ஜிம்பாப்வே vs தென்னாப்பிரிக்கா T20 போட்டி — தமிழ்நாடு அல்லது
+[skip] Zimbabwe national cricket team ODI series — தமிழ்நாட்டு வாசக
+[skip] இந்தியா-இலங்கை T20 போட்டியில் விளையாட்டு வீரர்களின் தேர்வு ம
+[skip] இந்திய நிষেதனத் திட்டம் — சர்வதேச T20/ODI போட்டிக்கான தலைமுற
+[skip] வெளிநாட்டு அணிகளின் உள்நாட்டுத் தொடர் — தமிழ்நாடு/இந்திய வாச
+[skip] আফগানিस্তান ক্রিকেট দলের নেতৃত্ব সম্পর্কিত আন্তর্জাতিক সংবাদ
+[tts-edge] 465bfef8c8d9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சமூக ஊடகம் சிறார் திருமணத்தை ஊக்குவிக்கிறதா?
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 2 · எழுதியவை 1
