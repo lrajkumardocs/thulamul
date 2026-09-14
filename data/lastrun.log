@@ -1,17 +1,17 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 7 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
+[fetch] The Hindu TN: 8 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 16 புதியவை
+[fetch] BBC World: 15 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 11 புதியவை
-[fetch] The Hindu Sport: 13 புதியவை
+[fetch] The Hindu Sport: 14 புதியவை
 [fetch] The Hindu Cinema: 11 புதியவை
-[fetch] Cinema Express: 17 புதியவை
+[fetch] Cinema Express: 18 புதியவை
 [fetch] The Hindu Tech: 4 புதியவை
-[fetch] Wired: 13 புதியவை
+[fetch] Wired: 15 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 8 புதியவை
@@ -23,20 +23,20 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 26 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 12 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f565600f650>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f52f70aadd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,7 +67,7 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 4 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 538 → நிகழ்வுகள் 496
-[triage] 496 → 48 (முக்கியம் + பக்க ஒதுக்கீடு)
+[run] புதியவை 547 → நிகழ்வுகள் 504
+[triage] 504 → 25 (முக்கியம் + பக்க ஒதுக்கீடு)
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
