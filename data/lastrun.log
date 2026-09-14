@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 26 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 6 புதியவை
-[fetch] Dinamani TN: 16 புதியவை
+[fetch] Dinamani TN: 15 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 13 புதியவை
+[fetch] Al Jazeera: 16 புதியவை
+[fetch] ESPNcricinfo: 10 புதியவை
 [fetch] The Hindu Sport: 17 புதியவை
-[fetch] The Hindu Cinema: 8 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 6 புதியவை
 [fetch] Wired: 22 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 3 புதியவை
+[fetch] The Hindu Health: 1 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 18 புதியவை
+[fetch] The Hindu Legal: 14 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 18 புதியவை
+[fetch] The Hindu National: 14 புதியவை
 [fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fcd24b3f990>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 18 புதியவை
-[fetch] Dinamani Govt: 16 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f31734a1610>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 14 புதியவை
+[fetch] Dinamani Govt: 15 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -66,42 +66,30 @@
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 0 புதியவை
-[fetch] Times Chennai Crime: 16 புதியவை
-[run] புதியவை 492 → நிகழ்வுகள் 467
-[triage] 467 → 31 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] Asia Cup cricket — Pakistan vs Sri Lanka semi-final. தமிழ்நா
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf3uBJnHbLpL2bFzqa1hR'}
-[tts-edge] 5984f5f2d29c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பதினொரு ஐபிஓக்களில் என்எஸ்இ மிகப் பெரியது, சாம்பல் சந்தை முப்பத்தி இரண்டு சதவீதம் லாபம் உணர்த்துகிறது
-[tts-edge] 9d905e5902a6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] செப்டம்பரில் இந்திய பங்குகளில் இருந்து 14,475 கோடி வெளியேற்றம்
-[publish] எச்டிஎப்சி வங்கி பங்கு விலை 52 வார கடைந்த நிலைக்கு வீழ்ச்சி, ஆய்வாளர்கள் வாங்கும் அறிவுரை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf3uQc4iV7885qvPPkJa8'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf3uUnpyo7Qb27hUpkpeU'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf3uXarjGaQfUyyK293uM'}
-[publish] சீர்காழியில் கொள்முதல் நிலையங்களில் நெல் மூட்டைகள் மழையில் நனைந்து பாதிப்பு
-[skip] உலக வர்த்தக/ஆற்றல் செய்திக்கு தமிழ்நாட்டு வாசகர்களுக்கு நேரட
-[skip] பாலஸ்தீன-இஸ்ரேல் நிகழ்வு; தமிழ்நாடு/இந்திய வாசகரைக் கவனிக்கத
-[skip] பிரிட்டன்-கஜா அரசியல் கூற்று; தமிழ்நாடு/இந்திய வாசகரின் அன்ற
-[skip] வெளிநாட்டு அரசியல் மற்றும் பொருளாதார மாதிரி விশ்লேषணம் — தமி
-[skip] இந்தச் செய்தி வெளிநாட்டுத் தொழில்நுட்ப நীতிப் பிரச்சினை — தம
-[skip] வெளிநாட்டு அரசியல் மற்றும் சர்வதேச மோதல் — தமிழ்நாடு/இந்திய 
-[skip] இது ராஜஸ்தான் மாநிலத்தின் கோட்டா நகராட்சித் தேர்தல் பற்றிய உ
-[skip] இது தெலங்காணா மாநிலத்தின் ஆதிலாபாத் பகுதியில் நடந்த உள்ளூர் 
-[skip] தெலங்கானா மாநிலத்தில் உள்ள தேசிய நெடுஞ்சாலை மேம்பாடு - தமிழ்
-[skip] கோடா நகராட்சித் தேர்தல் ராજஸ்தானில் நடந்தது. தமிழ்நாடு வாசகர
-[publish] ஆதिలाबाद் கணேஷ் பண்டாலில் டிஜே கணினி பறிமுதல் நடவடிக்கை
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் சாலைப் பணி — தமிழ்நாடு வாசகரைப
-[skip] மகாராஷ்ட்ர மாநில அரசின் உள்ளூர் நிலத் தகராறு. தமிழ்நாடு வாசக
-[skip] இது சுற்றுச்சூழல் தொழிற்தொடர்பான செய்தி; crime (குற்றம்/சட்ட
-[skip] இந்தச் செய்தி குற்றம் சம்பந்தமானதல்ல — பொருளாதாரம், தொழிற்சா
-[publish] சென்னையின் பாறைக் குழியிலிருந்து கோயிலின் பச்சைக் கல் சிலை மீட்கப்பட்டது
-[publish] மருத்துவ கல்லூரிகளுக்கு மீறிய சேர்க்கை தடை
-[skip] கேரளாவின் இரണ్నാകുളം மாவட்டத்தைப் பற்றிய செய்தி. தமிழ்நாட்டு
-[publish] மங்களகெளரி திரைப்படத்தில் மலஸ்ரீ, ருக்மிணி வாசந்த் நடிப்பு
-[skip] வெளிநாட்டு ஆங்கிலப் பேரம் — தமிழ்நாட்டு/இந்திய வாசகரின் அன்ற
-[skip] महिला क्रिकेट एशिया कप का केवल एक खेल विश्लेषण है जिसमें कोई
-[skip] வெளிநாட்டு க্রிக்கெট தொடர் — அவস্ট்রேலியா மற்றும் சிம்பாப்வே
+[fetch] Times Chennai Crime: 13 புதியவை
+[run] புதியவை 460 → நிகழ்வுகள் 439
+[triage] 439 → 20 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] பாகிஸ்தான் ஹாக்கி நிகழ்வு — இந்தியாவில் நடந்தாலும் தமிழ்நாடு
+[tts-edge] acf34bd03cdb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மோசமான வார்த்தைகள் திமுகவின் இயல்பு என அமைச்சர் எஸ். ரமேஷ் விமர்சனம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் ஒரே ஒரு குறுகிய வாக்கியம் மட்டுமே உள்ளது; சம்பவத்த
+[skip] இது கேரள மாநில சட்டமன்ற உறுப்பினர் தகுதி நீக்கம் தொடர்பான உள
+[tts-edge] 3afe35addc07: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மராத்தா இட ஒதுக்கீடு போராட்டத்தை மும்பைக்குக் கொண்டு செல்ல ஜரங்கே பாட்டீல் உறுதி
+[skip] இது கேரள மாநிலத்துடன் தொடர்புடைய உள்ளூர் அரசியல்/முதலமைச்சர்
+[skip] இந்தியாவுக்குத் தொடர்புடைய செய்தி என்றாலும் பிரிக்ஸ் நாடுகளி
+[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — துருக்கி அரசியல். தமிழ்நாடு 
+[skip] வெளிநாட்டு ক্রিকেট தொடர் — তமிழ்நாட்டு/இந்திய வாসகருக்கு உடன
+[skip] Kerala உயர் நீதிமன்றத்தின் வழக்கு — தமிழ்நாட்டு வாசகருக்கு அ
+[skip] மહারાष्ट्र राज्य सरकार की खबर है, तमिलनाडु से संबंधित नहीं। 
+[skip] கேரளம் மாநிலத்துக்கும் மலேசியாவுக்கும் இடையேயான ஈடுபாடு; தமி
+[publish] மின்னகம் உதவி வரி அடிக்கடி செயல்படாமல் நிற்கிறது.
+[skip] பொதுவான அரசியல் வர்ணனை மற்றும் நபரிடைய கருத்து மாற்றம். குற்
+[skip] வெளிநாட்டு ஆய்வு அறிக்கையின் சந்தை முன்னறிவிப்பு — தமிழ்நாட்
+[skip] வெளிநாட்டு निर्माण, தமிழ்நாட்டுக்கு நேரடி தொடர்பு இல்லை. தமி
+[skip] கிரிக்கெட் செய்திகள் விளையாட்டு பிரிவுக்கு ஏற்றவை, ஆனால் இந்
+[publish] சார்தக், ஆன் ஜெனிஃபர் மோட்டார்சைக்கிள் பந்தயத்தில் வெற்றி
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 8
+[done] feed 300 · pending 0 · எழுதியவை 4
