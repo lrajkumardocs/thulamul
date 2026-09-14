@@ -2,10 +2,10 @@
 [fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 10 புதியவை
+[fetch] Dinamani TN: 15 புதியவை
 [fetch] BBC Tamil: 5 புதியவை
 [fetch] BBC World: 16 புதியவை
-[fetch] Al Jazeera: 19 புதியவை
+[fetch] Al Jazeera: 18 புதியவை
 [fetch] ESPNcricinfo: 8 புதியவை
 [fetch] The Hindu Sport: 14 புதியவை
 [fetch] The Hindu Cinema: 4 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 6 புதியவை
+[fetch] The Hindu Legal: 5 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
-[fetch] Dinamani Sports: 27 புதியவை
+[fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 6 புதியவை
+[fetch] The Hindu National: 5 புதியவை
 [fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7efcb8b7ddd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 6 புதியவை
-[fetch] Dinamani Govt: 10 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1186a95410>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 5 புதியவை
+[fetch] Dinamani Govt: 15 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -66,16 +66,18 @@
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 0 புதியவை
-[fetch] Times Chennai Crime: 5 புதியவை
-[run] புதியவை 401 → நிகழ்வுகள் 388
-[triage] 388 → 5 (முக்கியம் + பக்க ஒதுக்கீடு)
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்நாட்டுக் கொள்கை — அமெரிக்காவின் மின்சக்தி விதி
-[skip] உத्தரப்രதேசம் அரசின் செய்தி — தமிழ்நாட்டுக்குத் தொடர்பில்லை
-[skip] சென்னை விமான நிலையத்தின் ট্যாக்சி பிக்-அப் இடம் மாற்றம் — செ
-[skip] IPL என்பது வெளிநாட்டுத் தொடர் (இந்திய அணிகள் என்றாலும் மூல உ
-[tts-edge] editorial_20260915: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: நிலம் கொடுத்தோர் நியாயம் கேட்கிறார்களா, குறைக்கிறார்களா?
+[fetch] Times Chennai Crime: 4 புதியவை
+[run] புதியவை 405 → நிகழ்வுகள் 393
+[triage] 393 → 8 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] 626b0924aef1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] துபையிலிருந்து கடத்தப்பட்ட ரூபாய் 2.80 கோடி கஞ்சா பறிமுதல்
+[tts-edge] eb99eb439ce6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திருச்சி-காரைக்குடி, தாம்பரம்-விழுப்புரம் ரயில்கள் பகுதி ரத்து
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf4BACmECJdwyjvEk4DLU'}
+[publish] சென்னை திரும்பும் பயணிகளுக்காக இரு நாட்களில் 5,763 சிறப்பு பேருந்துகள் இயக்கம்
+[skip] உலக அளவில் முக்கியம் என்றாலும், இது தமிழ்நாடு அல்லது இந்திய 
+[skip] உத்தரப் பிரதேச மாநிலத்தின் உள்ளூர் அரசு அறிவிப்பு. தமிழ்நாட்
+[skip] இது குற்றச் செய்தி அல்ல, பிரசாद விலை உயர்வு பற்றிய பொருளாதார
+[publish] சென்னை தமிழ் டைட்டன்ஸின் புதிய ஜெர்சி வெளியானது
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 4
