@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 6 புதியவை
-[fetch] Dinamani TN: 15 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 16 புதியவை
+[fetch] The Hindu TN: 5 புதியவை
+[fetch] Dinamani TN: 13 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 16 புதியவை
+[fetch] Al Jazeera: 19 புதியவை
 [fetch] ESPNcricinfo: 10 புதியவை
-[fetch] The Hindu Sport: 17 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Sport: 14 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 6 புதியவை
 [fetch] Wired: 22 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 1 புதியவை
+[fetch] The Hindu Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 14 புதியவை
+[fetch] The Hindu Legal: 11 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 14 புதியவை
+[fetch] The Hindu National: 11 புதியவை
 [fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f31734a1610>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 14 புதியவை
-[fetch] Dinamani Govt: 15 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc596bee410>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 11 புதியவை
+[fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -66,30 +66,27 @@
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 0 புதியவை
-[fetch] Times Chennai Crime: 13 புதியவை
-[run] புதியவை 460 → நிகழ்வுகள் 439
-[triage] 439 → 20 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] பாகிஸ்தான் ஹாக்கி நிகழ்வு — இந்தியாவில் நடந்தாலும் தமிழ்நாடு
-[tts-edge] acf34bd03cdb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மோசமான வார்த்தைகள் திமுகவின் இயல்பு என அமைச்சர் எஸ். ரமேஷ் விமர்சனம்
+[fetch] Times Chennai Crime: 11 புதியவை
+[run] புதியவை 440 → நிகழ்வுகள் 422
+[triage] 422 → 16 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] தென்னாப்பிரிக்காவின் உள்ளூர் சாலை விபத்து. தமிழ்நாட்டு/இந்தி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் ஒரே ஒரு குறுகிய வாக்கியம் மட்டுமே உள்ளது; சம்பவத்த
-[skip] இது கேரள மாநில சட்டமன்ற உறுப்பினர் தகுதி நீக்கம் தொடர்பான உள
-[tts-edge] 3afe35addc07: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மராத்தா இட ஒதுக்கீடு போராட்டத்தை மும்பைக்குக் கொண்டு செல்ல ஜரங்கே பாட்டீல் உறுதி
-[skip] இது கேரள மாநிலத்துடன் தொடர்புடைய உள்ளூர் அரசியல்/முதலமைச்சர்
-[skip] இந்தியாவுக்குத் தொடர்புடைய செய்தி என்றாலும் பிரிக்ஸ் நாடுகளி
-[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — துருக்கி அரசியல். தமிழ்நாடு 
-[skip] வெளிநாட்டு ক্রিকেট தொடர் — তமிழ்நாட்டு/இந்திய வாসகருக்கு உடன
-[skip] Kerala உயர் நீதிமன்றத்தின் வழக்கு — தமிழ்நாட்டு வாசகருக்கு அ
-[skip] மહারાष्ट्र राज्य सरकार की खबर है, तमिलनाडु से संबंधित नहीं। 
-[skip] கேரளம் மாநிலத்துக்கும் மலேசியாவுக்கும் இடையேயான ஈடுபாடு; தமி
-[publish] மின்னகம் உதவி வரி அடிக்கடி செயல்படாமல் நிற்கிறது.
-[skip] பொதுவான அரசியல் வர்ணனை மற்றும் நபரிடைய கருத்து மாற்றம். குற்
-[skip] வெளிநாட்டு ஆய்வு அறிக்கையின் சந்தை முன்னறிவிப்பு — தமிழ்நாட்
-[skip] வெளிநாட்டு निर्माण, தமிழ்நாட்டுக்கு நேரடி தொடர்பு இல்லை. தமி
-[skip] கிரிக்கெட் செய்திகள் விளையாட்டு பிரிவுக்கு ஏற்றவை, ஆனால் இந்
-[publish] சார்தக், ஆன் ஜெனிஃபர் மோட்டார்சைக்கிள் பந்தயத்தில் வெற்றி
+[tts-edge] 80a8c16adcd5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மேட்டூர் அணைக்கு வரும் நீர்வரத்து குறைவு
+[skip] மூலத்தில் தங்கம் விலை குறைந்தது என்ற தலைப்பு மட்டுமே உள்ளது;
+[skip] சுடான் மனிதாதார நெருக்கடி தமிழ்நாடு/இந்திய வாசகரைப் பாதிப்பத
+[skip] DR Congo-ஐ (Democratic Republic of Congo) பற்றிய உள்ளூர் நிக
+[tts-edge] 61cb06add984: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எம்எஸ்சி எல்சா 3 கப்பல் மூழ்கிய பாதிப்பு குறித்து கடலடி ஆய்வு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] கப்பல் மூழ்கிய பின் கடல் ஆய்வு நடைபெறும் என மத்திய அரசு தெரிவித்தது
+[skip] பிহாரில் UCC செயல்படுத்தல் பற்றிய கட்சிச் சச்சரவு — இது தமிழ
+[skip] தில்லி அரசியல் — தமிழ்நாட்டுக்கு தொடர்பு இல்லை. DUTA (Delhi 
+[skip] இந்தச் செய்தி குற்றத் துறையிலோ தமிழ்நாட்டுக்குப் பொருந்துவதா
+[skip] crime வகையாகக் குறிக்கப்பட்டுள்ளது, ஆனால் செய்தி நீர்ப் பிரச
+[publish] மூக்குத்தி அம்மன் 2 டீசர் வெளியிடப்பட்டுள்ளது.
+[skip] ব্যক্তিগত/পারিবারিক সোশ্যাল মিডিয়া পোস্ট; ক্রীড়া সংবাদ নয়
+[publish] ஆப்கானிஸ்தানுக்கு எதிரான டி20 தொடரிலிருந்து வருண் விலகினார்
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 4
+[done] feed 300 · pending 0 · எழுதியவை 5

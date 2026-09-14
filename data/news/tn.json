@@ -1,5 +1,66 @@
 [
  {
+  "headline": "மேட்டூர் அணைக்கு வரும் நீர்வரத்து குறைவு",
+  "lines": [
+   "மேட்டூர் அணைக்கு வரும் நீர்வரத்தின் அளவு குறைந்துள்ளதாகத் தமிழக நீர்ப்பாசனத் துறை தெரிவித்துள்ளது.",
+   "தற்போது அணைக்கு வினாடிக்கு 7,177 கன அடி நீர் மட்டுமே வந்து சேர்கிறது.",
+   "அணையின் நீர்மட்ட நிலவரம் தொடர்ந்து கண்காணிக்கப்பட்டு வருவதாக அதிகாரிகள் தெரிவித்தனர்.",
+   "காவிரி நதிநீர் வரத்தில் ஏற்படும் மாற்றங்கள் அணையின் நீர்மட்டத்தை நேரடியாகப் பாதிக்கின்றன.",
+   "நீர்வரத்து நிலவரத்தைப் பொறுத்து அடுத்த நடவடிக்கைகள் மேற்கொள்ளப்படும் என அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "மேட்டூர் அணை நீர்மட்டம் விவசாயிகளுக்கும் குடிநீர் தேவைக்கும் நேரடியாகத் தொடர்புடையது என்பதால் இந்த நிலவரம் தொடர்ந்து கவனிக்கப்பட வேண்டியுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "மேட்டூர் அணை",
+   "காவிரி நதி",
+   "தமிழக நீர்ப்பாசனத் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Water inflow to Mettur dam sees a decline",
+   "lines": [
+    "The Tamil Nadu irrigation department has stated that water inflow to Mettur dam has decreased.",
+    "Currently, only 7,177 cusecs of water per second is flowing into the dam.",
+    "Officials said the dam's water level status is being continuously monitored.",
+    "Changes in the flow of the Cauvery river directly affect the dam's water level.",
+    "Officials stated that further action will be taken based on the water inflow situation."
+   ],
+   "closing": "Since the Mettur dam's water level is directly linked to the needs of farmers and drinking water supply, this situation continues to require close monitoring."
+  },
+  "front_cat": "farmer_water",
+  "image_query": "Mettur dam Cauvery river",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "80a8c16adcd5",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-15T02:11+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/14/water-inflow-to-mettur-dam-decreases"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/16_%E0%AE%95%E0%AE%A3%E0%AF%8D_%E0%AE%AE%E0%AE%A4%E0%AE%95%E0%AF%81_%E0%AE%AA%E0%AE%BE%E0%AE%B2%E0%AE%AE%E0%AF%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா Commons · ANBARASU THIRAVIYAM",
+   "license": "CC BY-SA 4.0",
+   "symbolic": true
+  },
+  "audio": "data/audio/80a8c16adcd5.mp3",
+  "created_ts": 1789418495.311219,
+  "status": "published"
+ },
+ {
   "headline": "மின்னகம் உதவி வரி அடிக்கடி செயல்படாமல் நிற்கிறது.",
   "lines": [
    "தமிழ்நாட்டில் மின் சப்ளை நிலைப்படுத்தப்பட்டதாக மின்சக்தி அமைச்சர் நிர்மல்குமார் கூறினார்.",
@@ -3510,67 +3571,6 @@
   },
   "audio": "data/audio/d6d721d844c7.mp3",
   "created_ts": 1788982822.8373852,
-  "status": "published"
- },
- {
-  "headline": "முதல்வர் விஜய் முதல் வெளிநாட்டுப் பயணமாக லண்டன் செல்கிறார், தங்க மோதிரத் திட்டம் தள்ளிவைப்பு",
-  "lines": [
-   "தமிழ்நாடு முதலமைச்சர் விஜய் செப்டம்பர் 10, 2026 அன்று சென்னையிலிருந்து லண்டனுக்குத் தனது முதல் அதிகாரப்பூர்வ வெளிநாட்டுப் பயணமாகப் புறப்பட்டார்.",
-   "இந்தப் பயணத்தின்போது தமிழ்நாடு அரசுக்கும் பல பன்னாட்டு நிறுவனங்களுக்கும் இடையே முக்கிய புரிந்துணர்வு ஒப்பந்தங்கள் கையெழுத்தாகும் என எதிர்பார்க்கப்படுகிறது.",
-   "முதல்வர் விஜயின் முன்னிலையில் இந்த ஒப்பந்தங்கள் நிறைவேற்றப்படும் என அரசு வட்டாரங்கள் தெரிவித்துள்ளன.",
-   "இதே நேரத்தில் ஏற்கெனவே திட்டமிடப்பட்டிருந்த தங்க மோதிரத் திட்ட தொடக்க விழா தற்காலிகமாக தள்ளிவைக்கப்பட்டுள்ளது.",
-   "முதல்வரின் லண்டன் பயணத்தின் விரிவான நிகழ்ச்சி நிரலும் ஒப்பந்தங்களின் முழு விவரங்களும் விரைவில் வெளியிடப்படும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இது முதல்வர் விஜயின் முதல் அதிகாரப்பூர்வ வெளிநாட்டுப் பயணம் என தி இந்து செய்தியில் குறிப்பிடப்பட்டுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": "2026-09-10"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "முதலமைச்சர் விஜய்",
-   "லண்டன்",
-   "சென்னை",
-   "தங்க மோதிரத் திட்டம்",
-   "பன்னாட்டு நிறுவனங்கள்"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "CM Vijay Departs for First Overseas Trip to London, Gold Ring Scheme Postponed",
-   "lines": [
-    "Tamil Nadu Chief Minister Vijay left Chennai for London on September 10, 2026, marking his first official overseas visit.",
-    "Several important memoranda of understanding between the Tamil Nadu government and multinational companies are expected to be signed during this trip.",
-    "Government sources said these agreements will be finalised in the presence of Chief Minister Vijay.",
-    "Meanwhile, the previously planned launch event for the gold ring scheme has been temporarily postponed.",
-    "The detailed itinerary of the Chief Minister's London visit and full details of the agreements are expected to be released soon."
-   ],
-   "closing": "The Hindu reported that this is Chief Minister Vijay's first official overseas trip."
-  },
-  "front_cat": "cm_pm_announcement",
-  "image_query": "chief minister London official visit delegation",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "c34ddd181103",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-10T01:08+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-cm-vijay-to-travel-to-london-on-first-official-overseas-visit-gold-ring-scheme-launch-postponed/article71445870.ece"
-  ],
-  "image": {
-   "url": "https://images.unsplash.com/photo-1589175133998-5e7302ef7881?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8Y2hpZWYlMjBtaW5pc3RlciUyMExvbmRvbiUyMG9mZmljaWFsJTIwdmlzaXQlMjBkZWxlZ2F0aW9ufGVufDF8MHx8fDE3ODg5ODI3MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-   "credit": "Mariano Gilioli · Unsplash",
-   "license": "Unsplash — இலவசம்",
-   "symbolic": true
-  },
-  "audio": "data/audio/c34ddd181103.mp3",
-  "created_ts": 1788982719.1371787,
   "status": "published"
  }
 ]
