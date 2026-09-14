@@ -1,15 +1,15 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 5 புதியவை
-[fetch] Dinamani TN: 22 புதியவை
+[fetch] The Hindu TN: 6 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 16 புதியவை
+[fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 8 புதியவை
-[fetch] The Hindu Sport: 11 புதியவை
-[fetch] The Hindu Cinema: 4 புதியவை
-[fetch] Cinema Express: 14 புதியவை
+[fetch] ESPNcricinfo: 9 புதியவை
+[fetch] The Hindu Sport: 12 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
+[fetch] Cinema Express: 15 புதியவை
 [fetch] The Hindu Tech: 3 புதியவை
 [fetch] Wired: 12 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -28,10 +28,10 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
+[fetch] Bar and Bench: 3 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 24 புதியவை
+[fetch] Dinamani Cinema: 26 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 12 புதியவை
@@ -56,19 +56,19 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa8062497d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f04164d0950>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 22 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 6 புதியவை
+[fetch] TN Police News: 4 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 510 → நிகழ்வுகள் 472
-[triage] 472 → 13 (முக்கியம் + பக்க ஒதுக்கீடு)
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf2v3ipnyDkPLn7P6YDrv'}
+[run] புதியவை 519 → நிகழ்வுகள் 479
+[triage] 479 → 30 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] இது மேற்கு வங்க கல்கத்தா உயர் நீதிமன்ற நூலகத்தில் நடந்த ஒரு 
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
