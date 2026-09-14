@@ -1,5 +1,6 @@
+[expire] d55abe721a7f
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 25 புதியவை
+[fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 5 புதியவை
 [fetch] Dinamani TN: 16 புதியவை
@@ -56,7 +57,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff11c47d850>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fcee0fc0510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 14 புதியவை
 [fetch] Dinamani Govt: 16 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -67,7 +68,7 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 6 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 425 → நிகழ்வுகள் 406
-[triage] 406 → 6 (முக்கியம் + பக்க ஒதுக்கீடு)
+[run] புதியவை 428 → நிகழ்வுகள் 409
+[triage] 409 → 10 (முக்கியம் + பக்க ஒதுக்கீடு)
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 0
