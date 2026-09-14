@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 5 புதியவை
-[fetch] Dinamani TN: 13 புதியவை
+[fetch] The Hindu TN: 3 புதியவை
+[fetch] Dinamani TN: 11 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 16 புதியவை
-[fetch] Al Jazeera: 19 புதியவை
+[fetch] BBC World: 15 புதியவை
+[fetch] Al Jazeera: 18 புதியவை
 [fetch] ESPNcricinfo: 10 புதியவை
 [fetch] The Hindu Sport: 14 புதியவை
-[fetch] The Hindu Cinema: 5 புதியவை
+[fetch] The Hindu Cinema: 4 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 6 புதியவை
 [fetch] Wired: 22 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 11 புதியவை
+[fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
-[fetch] Dinamani Sports: 30 புதியவை
+[fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 11 புதியவை
+[fetch] The Hindu National: 8 புதியவை
 [fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc596bee410>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 11 புதியவை
-[fetch] Dinamani Govt: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe57056a0d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 8 புதியவை
+[fetch] Dinamani Govt: 11 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -66,27 +66,23 @@
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 0 புதியவை
-[fetch] Times Chennai Crime: 11 புதியவை
-[run] புதியவை 440 → நிகழ்வுகள் 422
-[triage] 422 → 16 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] தென்னாப்பிரிக்காவின் உள்ளூர் சாலை விபத்து. தமிழ்நாட்டு/இந்தி
+[fetch] Times Chennai Crime: 9 புதியவை
+[run] புதியவை 418 → நிகழ்வுகள் 404
+[triage] 404 → 12 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] 4d2213bec3bc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சிதம்பரத்தில் அம்பேத்கர் சிலை சேதம், பகுதியில் காவல்துறையினர் குவிப்பு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] 80a8c16adcd5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மேட்டூர் அணைக்கு வரும் நீர்வரத்து குறைவு
-[skip] மூலத்தில் தங்கம் விலை குறைந்தது என்ற தலைப்பு மட்டுமே உள்ளது;
-[skip] சுடான் மனிதாதார நெருக்கடி தமிழ்நாடு/இந்திய வாசகரைப் பாதிப்பத
-[skip] DR Congo-ஐ (Democratic Republic of Congo) பற்றிய உள்ளூர் நிக
-[tts-edge] 61cb06add984: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எம்எஸ்சி எல்சா 3 கப்பல் மூழ்கிய பாதிப்பு குறித்து கடலடி ஆய்வு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] கப்பல் மூழ்கிய பின் கடல் ஆய்வு நடைபெறும் என மத்திய அரசு தெரிவித்தது
-[skip] பிহாரில் UCC செயல்படுத்தல் பற்றிய கட்சிச் சச்சரவு — இது தமிழ
-[skip] தில்லி அரசியல் — தமிழ்நாட்டுக்கு தொடர்பு இல்லை. DUTA (Delhi 
-[skip] இந்தச் செய்தி குற்றத் துறையிலோ தமிழ்நாட்டுக்குப் பொருந்துவதா
-[skip] crime வகையாகக் குறிக்கப்பட்டுள்ளது, ஆனால் செய்தி நீர்ப் பிரச
-[publish] மூக்குத்தி அம்மன் 2 டீசர் வெளியிடப்பட்டுள்ளது.
-[skip] ব্যক্তিগত/পারিবারিক সোশ্যাল মিডিয়া পোস্ট; ক্রীড়া সংবাদ নয়
-[publish] ஆப்கானிஸ்தানுக்கு எதிரான டி20 தொடரிலிருந்து வருண் விலகினார்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf424yudCX1TGB9p7pyHN'}
+[tts-edge] 2421edb92c9f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியா சீனா உறவை முன்னெடுக்க வேண்டும் என சீன வெளியுறவு அமைச்சர் கருத்து
+[publish] இரண்டாயிரம் ரூபாய் வரை UPI, RuPay கடன் அட்டையில் வங்கி கட்டணம் விதிக்க தடை
+[skip] சீனாவின் வெளிநாட்டுத் தொடர்புத் துறைக் குறிப்பு — இந்தியாவைப
+[skip] வெளிநாட்டு NGO பொதுமக்கள் ஈடுபாடு இல்லாத நிர்வாக விவகாரம். த
+[publish] அமைச்சர் நீதிமன்றக் கடமை தவிர்க்க முடியாது என நீதிபதி
+[skip] ஆஸ்திரேலியாவின் உள்நாட்டு ஒரு நாள் கிரிக்கெட் தயாரிப்பு — தம
+[publish] எச்.ஐ.வி.க்கு எதிர இயற்கை நோய் எதிர்ப்பு சக்தி கொண்ட பெண்
+[publish] இமயமலை பனிப்பாறைகள் வேகமாக உருகி இந்தியாவின் நீர்வளம் குறைந்து வருகிறது
+[skip] பொதுவான சுகாதார ஆலோசனை — தமிழ்நாடு/இந்திய வாசகரைப் பாதிப்பவல
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 5
+[done] feed 300 · pending 0 · எழுதியவை 6
