@@ -2,21 +2,21 @@
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 2 புதியவை
-[fetch] Dinamani TN: 14 புதியவை
-[fetch] BBC Tamil: 5 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 14 புதியவை
+[fetch] Dinamani TN: 16 புதியவை
+[fetch] BBC Tamil: 4 புதியவை
+[fetch] BBC World: 14 புதியவை
+[fetch] Al Jazeera: 10 புதியவை
 [fetch] ESPNcricinfo: 9 புதியவை
 [fetch] The Hindu Sport: 14 புதியவை
-[fetch] The Hindu Cinema: 8 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 24 புதியவை
-[fetch] The Hindu Tech: 7 புதியவை
+[fetch] The Hindu Tech: 8 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 0 புதியவை
+[fetch] The Hindu Health: 1 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 8 புதியவை
+[fetch] FreeJobAlert: 15 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 2 புதியவை
-[fetch] The Hindu Legal: 9 புதியவை
+[fetch] The Hindu Legal: 10 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 9 புதியவை
+[fetch] The Hindu National: 10 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2f65ae1750>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 9 புதியவை
-[fetch] Dinamani Govt: 15 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc591709890>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 10 புதியவை
+[fetch] Dinamani Govt: 16 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,19 +67,12 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 0 புதியவை
 [fetch] Times Chennai Crime: 1 புதியவை
-[run] புதியவை 433 → நிகழ்வுகள் 412
-[triage] 412 → 17 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு உள்நாட்டு ராணுவ/வெளிநாட்டு கொள்கை விষயம். தமிழ்நா
-[skip] வரலாற்றுப் பின்னணி கூடிய தனிநபர் சாகசக் கதை; தமிழ்நாடு/இந்தி
-[skip] இது லிதுவேனியா-பெலாரஸ் எல்லை நிகழ்வு; தமிழ்நாடு/இந்தியா வாசக
-[skip] இது இஸ்ரேல்-பாலஸ்தீன மோதல் பற்றிய வெளிநாட்டு உள்நாட்டுச் சர்
-[skip] நைஜீரியாவின் தனிப்பட்ட ஒரு பணக்காரர் தனது எண்ணெய் சுத்திகரண்
-[skip] அமெரிக்க உள்நாட்டு தேர்தல் செய்தி. தமிழ்நாடு/இந்திய வாசகரின்
-[skip] வெளிநாட்டு அரசியல்갈등 — இஸ்ரேல்-பலஸ்தீன் சர்ச்சை தமிழ்நாடு/இந
-[skip] உலக அளவிலான கனிய உற்பத்தி மற்றும் எல்லை மோதல் — தமிழ்நாடு/இந
-[skip] தமிழ்நாடு/இந்திய வாசகருக்குப் பொருத்தமில்லை — அமெரிக்கத் தலி
-[skip] வெளிநாட்டு உள்நாட்டுச் சர்ச்சை — இஸ்ரேல்-ஐ. பி. என் வகைக்கு 
-[skip] ஐரோப்பிய நாடுகளின் இராணுவ ஒப்பந்தம் — தமிழ்நாடு/இந்திய வாசகர
-[skip] அகில இந்திய ரயில்வே மாநில-குறிப்பிட்ட அல்லாத தேர்வு; தமிழ்நா
+[run] புதியவை 441 → நிகழ்வுகள் 409
+[triage] 409 → 9 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு টেலிவিশன் விருது (அமெரிக்க Emmy Awards) — தமிழ்நா
+[skip] வெளிநாட்டு தொலைக்காட்சித் தொடர் அமெரிக்க விருது — தமிழ்நாட்ட
+[skip] வெளிநாட்டுத் தொலைக்காட்சி விருது நிகழ்வு. தமிழ்நாட்டு/இந்திய
+[skip] பிहार மாநிலத்தின் லக்ஷ்மீநாராயண் மஹா விশ்வவிద்யாலயத்தின் உள்
+[skip] பொது சுகாதார விளக்கம் — குறிப்பிட்ட நிகழ்வு, அறிவிப்பு, ஆய்வ
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
