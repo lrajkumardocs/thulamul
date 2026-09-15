@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 10 புதியவை
+[fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 19 புதியவை
 [fetch] Dinamani Sports: 22 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 10 புதியவை
+[fetch] The Hindu National: 8 புதியவை
 [fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7434ad4450>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 10 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f95d487c5d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 8 புதியவை
 [fetch] Dinamani Govt: 19 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,16 +65,25 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 8 புதியவை
+[fetch] TN Police News: 9 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 415 → நிகழ்வுகள் 393
-[triage] 393 → 15 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] 863a6343eb76: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] திருவேற்காடு பூங்காவில் கழிவு நீரேற்று நிலையம் வழக்கில் அரசுக்கு உத்தரவு
-[skip] இது கேரளாவின் எர்ணாகுளம் மாவட்டப் பள்ளிக் கலைவிழா தொடர்பான உ
-[skip] அமெரிக்கத் சட்டமன்றத்தின் உள்நாட்டு நிதிக் கொள்கை — தமிழ்நாட
-[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்திய வாசகருக்குத்
-[skip] கேரளத்தின் உள்ளூர் நிகழ்வு — தமிழ்நாட்டுக்குப் பொருத்தமல்ல
-[skip] மூல உரை முழுவதும் தமிழ் வரிகளோ உண்மை தரவோ வழங்கப்படவில்லை. ஆ
+[run] புதியவை 410 → நிகழ்வுகள் 390
+[triage] 390 → 17 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] மூலத்தில் ஒரே தலைப்பு வரி மட்டுமே உள்ளது; விரிவான உண்மைத் தக
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf62cqgvRQ5UfY7W93mv4'}
+[tts-edge] 768201d06a0e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எல்சா-3 கப்பல் விபத்து நுர்டில் மாசு குறித்து ஆய்வு தொடக்கம்
+[tts-edge] d00ea7953ca4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] உவேசா நூலகத்தை தமிழ் வரலாற்றுப் பெட்டகம் என பாராட்டிய நிர்மலா சீதாராமன்
+[skip] Zimbabwe vs Ellis (likely South Africa/Australia) ODI — வெளி
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருந்தாது — தென்னாபிரிக்கா பெண் கி
+[skip] வெளிநாட்டு ஆர்ச்சারির வரலாற்று சாதனை; தமிழ்நாடு/இந்திய அளவில
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] கேரளத்தின் உள்ளூர் வழக்கு — தமிழ்நாடு வாசகரைப் பாதிக்காது. க
+[skip] வெளிநாட்டுச் செய்தி — மூல ஆவணம் ஆங்கிலத்தில் உள்ளது; தமிழ்நா
+[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காத வெளிநாட்டு உள்ளூர் அரச
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமில்லை. மலாவியில் நிகழ்ந்த ஐ
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: வேலைநிறுத்தமும் வகுப்பறையும் — யார் தராசில் கனக்கிறார்கள்?
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 1
+[done] feed 300 · pending 1 · எழுதியவை 2
