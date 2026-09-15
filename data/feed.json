@@ -1,5 +1,43 @@
 [
  {
+  "id": "jobs_20260915",
+  "headline": "இன்றைய வேலை அறிவிப்புகள் — 1 · அரசு & தனியார்",
+  "lines": [
+   "இந்திய தொழில்நுட்ப நிறுவனம், ஜம்மு (IIT Jammu) — ஆய்வு உதவியாளர் (Research Associate) (1 இடங்கள்) · கடைசி நாள் 2026-09-30"
+  ],
+  "closing": "விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பை சரிபார்க்கவும்; துலாமுள் பணம் கேட்கும் எந்த அறிவிப்பையும் பட்டியலிடாது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-09-15"
+   }
+  ],
+  "topic": "jobs",
+  "topic_ta": "வேலை · தேர்வு",
+  "entities": [
+   "இந்திய தொழில்நுட்ப நிறுவனம், ஜம்மு (IIT Jammu)"
+  ],
+  "confidence": 0.8,
+  "flags": [],
+  "jobs": [
+   {
+    "org": "இந்திய தொழில்நுட்ப நிறுவனம், ஜம்மு (IIT Jammu)",
+    "post": "ஆய்வு உதவியாளர் (Research Associate)",
+    "count": "1",
+    "last_date": "2026-09-30",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/iit-jammu-research-associate-recruitment-2026-apply-online-3067618"
+   }
+  ],
+  "image": null,
+  "status": "published",
+  "published_at": "2026-09-15T09:39+05:30",
+  "created_ts": 1789445385.3433874,
+  "audio": "data/audio/jobs_20260915.mp3"
+ },
+ {
   "headline": "வாடகைத் தாய் குழந்தையின் பாதுகாப்பு உரிமைக்காக அமெரிக்க நீதிமன்றத்தை நாடியுள்ளார்",
   "lines": [
    "அமெரிக்காவில் ஒப்பந்தத்தின் மூலம் குழந்தை பெற்றுத்தர ஒப்புக்கொண்ட வாடகைத் தாய் நீதிமன்றத்தை நாடியுள்ளார்.",
@@ -17846,68 +17884,6 @@
   },
   "audio": "data/audio/f017f178c0aa.mp3",
   "created_ts": 1788980787.4782155,
-  "status": "published"
- },
- {
-  "headline": "ஹவுதி தாக்குதல் தொடர்ந்தால் பாதுகாப்பு ஒப்பந்தம் அமலாகும் - பாகிஸ்தான் எச்சரிக்கை",
-  "lines": [
-   "யேமனில் உள்ள ஹவுதி கிளர்ச்சியாளர்கள் சவூதி அரேபியா மீது தொடர்ந்து தாக்குதல் நடத்தி வருவதாக பாகிஸ்தான் தெரிவித்துள்ளது.",
-   "இந்த தாக்குதல்கள் நிற்காமல் தொடர்ந்தால் மெக்கா பாதுகாப்பு ஒப்பந்தம் அமலுக்கு வரக்கூடும் என பாகிஸ்தான் எச்சரித்துள்ளது.",
-   "பாகிஸ்தான் மற்றும் சவூதி அரேபியா இடையேயான பரிமாற்ற பாதுகாப்பு ஒப்பந்தமே இந்த மெக்கா ஒப்பந்தம் என்று தெரிகிறது.",
-   "இந்த ஒப்பந்தம் அமலானால் அது இரு நாடுகளின் பாதுகாப்பு உறவில் பெரும் மாற்றத்தை ஏற்படுத்தும் என எதிர்பார்க்கப்படுகிறது.",
-   "ஹவுதி தாக்குதல்கள் தொடர்ந்தால் பாகிஸ்தான் என்ன நடவடிக்கை எடுக்கும் என்பது குறித்து இன்னும் தெளிவு வரவில்லை."
-  ],
-  "closing": "பாகிஸ்தான் மற்றும் சவூதி அரேபியா இடையேயான பாதுகாப்பு ஒப்பந்தம் யேமன் மோதலின் விளைவாக இப்போது கவனத்தில் உள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "பாகிஸ்தான்",
-   "சவூதி அரேபியா",
-   "ஹவுதி கிளர்ச்சியாளர்கள்",
-   "யேமன்",
-   "மெக்கா பாதுகாப்பு ஒப்பந்தம்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Pakistan warns defence pact may activate over Houthi attacks on Saudi",
-   "lines": [
-    "Pakistan stated that Yemen's Houthi rebels have continued targeting Saudi Arabia in recent attacks.",
-    "Pakistan warned that if these attacks continue, the Mecca defence pact could be activated.",
-    "This pact is reportedly a mutual defence agreement between Pakistan and Saudi Arabia.",
-    "If activated, the agreement is expected to significantly alter the security relationship between the two nations.",
-    "It remains unclear what specific action Pakistan would take if Houthi attacks persist."
-   ],
-   "closing": "The Pakistan-Saudi defence pact is now in focus amid the ongoing Yemen conflict."
-  },
-  "front_cat": "war_conflict",
-  "image_query": "Saudi Arabia Yemen Houthi conflict military",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "acf6ea4f392d",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-09-10T00:35+05:30",
-  "links": [
-   "https://www.aljazeera.com/news/2026/9/9/pakistan-warns-mecca-defense-pact-will-activate-after-houthi-attacks?traffic_source=rss"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/%D0%A1%D0%B0%D1%83%D0%B4%D0%BE%D0%B2%D1%81%D0%BA%D0%BE-%D0%B9%D0%B5%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82-ar.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா Commons · Bassem Fleifel",
-   "license": "Public domain",
-   "symbolic": true
-  },
-  "audio": "data/audio/acf6ea4f392d.mp3",
-  "created_ts": 1788980759.032583,
   "status": "published"
  }
 ]
