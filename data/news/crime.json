@@ -1,5 +1,178 @@
 [
  {
+  "headline": "சென்னையில் வங்கிக் கதவாளியில் தங்கத்தை போலியாக மாற்றியவர்கள் கைது",
+  "lines": [
+   "சென்னையின் கிள்பாக்கு பகுதியில் உள்ள பஞ்சாப் நேஷனல் வங்கியில் தங்கத்தைப் போலி நகையாக மாற்றிய நான்கு பேர் கைது செய்யப்பட்டனர்.",
+   "வங்கிக் கூட்டங்களில் வைத்திருந்த வாடிக்கையாளர்களின் தங்க நகைகளை போலி ஆபரணங்களாக மாற்றி, மொத்தம் 3 கோடி 15 இலட்சம் ரூபாய் இழப்பை ஏற்படுத்தியுள்ளனர்.",
+   "குற்றம் சாட்டப்பட்டவர்கள் வங்கியின் கூட்ட பிரிவில் பணிபுரிந்தவர்களாக இருக்கலாம் என்று போலீஸ் விசாரித்து வருகிறது.",
+   "இதுபோன்ற மோசடிகள் வங்கிகளின் பாதுகாப்பு ব்যவस్థை மீறி நிகழ்கின்றன என்பதை வெளிச்சமிடுகிறது.",
+   "குற்றம் சாட்டப்பட்டவர்களின் விரிவான விசாரணை நடைபெற்று வருவதாக போலீஸ் சொன்னது."
+  ],
+  "closing": "வங்கிகளின் கூட்ட பிரிவுகளில் பாதுகாப்பு மேலோட்டம் இருக்கிறதா என்ற கேள்வி எழுந்துள்ளது.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "TN Police News",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "கிள்பாக்கு சென்னை",
+   "பஞ்சாப் நேஷனல் வங்கி",
+   "வங்கி மோசடி"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "Four arrested for replacing gold with fake ornaments in Chennai bank",
+   "lines": [
+    "Four people have been arrested for replacing customers' gold jewellery with fake ornaments in a Punjab National Bank branch in Kilpauk, Chennai.",
+    "The suspects allegedly switched gold ornaments kept in the bank's lockers with imitation jewellery, causing a total loss of ₹3.15 crore.",
+    "Police suspect the accused may have been employees working in the bank's locker department, and investigations are underway.",
+    "Such frauds highlight serious security lapses in bank locker facilities across branches.",
+    "The accused are being interrogated further, police said."
+   ],
+   "closing": "The incident raises questions about whether bank locker departments have adequate security oversight."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "deb72ca56597",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-16T00:52+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/4-booked-for-replacing-gold-jewellery-with-fake-ornaments-in-bank-locker/article71468939.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/deb72ca56597.mp3",
+  "created_ts": 1789500156.1874626,
+  "status": "published"
+ },
+ {
+  "headline": "ராணிப்பேட்டையில் மின்சாரத் தாக்குதலில் ஒருவர் பலி, ஒன்பது பேர் காயம்",
+  "lines": [
+   "தமிழ்நாடு ராணிப்பேட்டையில் மின்சாரம் தாக்கி ஒருவர் உயிரிழந்தார், ஒன்பது பேர் காயமடைந்தனர்.",
+   "இறந்தவர் அரும்பாக்கம் கிராமத்தைச் சேர்ந்தவர் என தெரியவந்துள்ளது.",
+   "காயமடைந்த ஒன்பது பேரும் தற்போது மருத்துவமனையில் சிகிச்சை பெற்று வருகின்றனர்.",
+   "சம்பவம் குறித்த முழு விவரங்களை காவல்துறை இதுவரை அதிகாரப்பூர்வமாக வெளியிடவில்லை.",
+   "மின்சாரம் தாக்கியதற்கான காரணம் குறித்து அதிகாரிகள் விசாரணை நடத்தி வருகின்றனர்."
+  ],
+  "closing": "சம்பவம் தொடர்பான கூடுதல் விவரங்கள் அதிகாரிகளிடமிருந்து இன்னும் வெளியாக வேண்டியுள்ளன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ராணிப்பேட்டை",
+   "அரும்பாக்கம்",
+   "மின்சாரம் விபத்து",
+   "காவல்துறை"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "One killed, nine injured in electrocution incident in Ranipet",
+   "lines": [
+    "A man died of electrocution in Ranipet, Tamil Nadu, while nine others were injured.",
+    "The deceased has been identified as a resident of Arumbakkam village.",
+    "The nine injured persons are currently receiving treatment at a hospital.",
+    "Police have not yet officially released full details about the incident.",
+    "Officials are investigating the cause behind the electrocution."
+   ],
+   "closing": "Further details about the incident are yet to be released by officials."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "5f99c123dd15",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-16T00:51+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/man-electrocuted-nine-others-injured-in-ranipet/article71468263.ece",
+   "https://www.thehindu.com/news/national/tamil-nadu/man-electrocuted-nine-others-injured-in-ranipet/article71468263.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/5f99c123dd15.mp3",
+  "created_ts": 1789500072.9745114,
+  "status": "published"
+ },
+ {
+  "headline": "ரணிபேட்டையில் மின்சாரம் தாக்கி ஒருவர் பலி, ஒன்பது பேர் காயம்",
+  "lines": [
+   "தமிழ்நாடு ரணிபேட்டை பகுதியில் மின்சாரம் தாக்கியதில் ஒருவர் உயிரிழந்தார், மேலும் ஒன்பது பேர் காயமடைந்தனர் என தகவல்.",
+   "இறந்தவர் அரும்பாக்கம் கிராமத்தைச் சேர்ந்தவராவார், காயமடைந்த ஒன்பது பேரும் தற்போது சிகிச்சை பெற்று வருகின்றனர்.",
+   "இச்சம்பவம் தொடர்பாக காவல் துறையினர் விசாரணை நடத்தி வருவதாக தகவல்கள் தெரிவிக்கின்றன.",
+   "விபத்து ஏற்பட்ட காரணம் குறித்து தற்போது கூடுதல் தகவல்கள் வெளியிடப்படவில்லை.",
+   "சம்பவம் தொடர்பான முழு விவரங்கள் அதிகாரிகளிடமிருந்து அடுத்த சில நாட்களில் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "இது தொடர்பான கூடுதல் தகவல்களுக்காக அதிகாரிகளின் அறிக்கை காத்திருக்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ரணிபேட்டை",
+   "அரும்பாக்கம் கிராமம்",
+   "தமிழ்நாடு காவல் துறை"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Man dies of electrocution, nine injured in Ranipet",
+   "lines": [
+    "A man died after being electrocuted in Ranipet, Tamil Nadu, while nine others were injured, according to reports.",
+    "The deceased hails from Arumbakkam village, and the nine injured persons are currently undergoing treatment.",
+    "Police are said to be investigating the incident.",
+    "No additional details regarding the cause of the accident have been released so far.",
+    "Complete details about the incident are expected from officials in the coming days."
+   ],
+   "closing": "Further details are awaited from officials regarding this incident."
+  },
+  "id": "5f99c123dd15",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-16T00:40+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/man-electrocuted-nine-others-injured-in-ranipet/article71468263.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/5f99c123dd15.mp3",
+  "created_ts": 1789499442.2529724,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "திமுக எம்.பி ராஜா உள்ளிட்ட மூவர் மீது முதலமைச்சர் விஜய் அவதூறு வழக்கு",
   "lines": [
    "திமுக நாடாளுமன்ற உறுப்பினர் ஏ. ராஜா மற்றும் சட்டமன்ற உறுப்பினர்கள் சேகர்பாபு, வசந்தம் கார்த்திகேயன் ஆகியோர் மீது வழக்கு பதிவு செய்யப்பட்டுள்ளது.",
