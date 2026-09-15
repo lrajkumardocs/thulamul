@@ -1,17 +1,17 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 24 புதியவை
+[fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 13 புதியவை
-[fetch] BBC Tamil: 5 புதியவை
+[fetch] Dinamani TN: 11 புதியவை
+[fetch] BBC Tamil: 4 புதியவை
 [fetch] BBC World: 16 புதியவை
-[fetch] Al Jazeera: 16 புதியவை
+[fetch] Al Jazeera: 15 புதியவை
 [fetch] ESPNcricinfo: 8 புதியவை
 [fetch] The Hindu Sport: 15 புதியவை
-[fetch] The Hindu Cinema: 5 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 6 புதியவை
-[fetch] Wired: 22 புதியவை
+[fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f16bb36a7d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4b04b26750>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 4 புதியவை
-[fetch] Dinamani Govt: 13 புதியவை
+[fetch] Dinamani Govt: 11 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,15 +67,18 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 0 புதியவை
 [fetch] Times Chennai Crime: 3 புதியவை
-[run] புதியவை 396 → நிகழ்வுகள் 384
-[triage] 384 → 6 (முக்கியம் + பக்க ஒதுக்கீடு)
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf4Fuw8Kyj1qZ8YRpGFWw'}
-[tts-edge] 3548ef3277dc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] திமுக பேரணிக்கு அனுமதி மறுப்பு, உதயநிதி ஸ்டாலின் கண்டனம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் இல்லை
-[tts-edge] cb115cebb012: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இந்திய மகளிர் டி20 அணி ஆசிய கோப்பை பெற மறுத்தது
-[skip] தமிழ்நாடு அல்லது இந்தியாவைப் பாதிக்காத வெளிநாட்டு உள்நாட்டுப
-[skip] யேமனின் உள்நாட்டுப் பொருளாதார நிகழ்வு — தமிழ்நாடு/இந்திய வாச
+[run] புதியவை 393 → நிகழ்வுகள் 381
+[triage] 381 → 9 (முக்கியம் + பக்க ஒதுக்கீடு)
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf4JWCWiRoxSvc72uKZhp'}
+[skip] வெளிநாட்டு உள்நாட்டு இராணுவ/கடல் சண்டையாக உள்ளது. தமிழ்நாடு 
+[tts-edge] 06ad34639844: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] முதல்வர் போலி காணொலி மூலம் மோசடி: ராஜஸ்தானில் ஒருவர் கைது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, ரயில் ரத்து பற்றிய விவரங்க
+[skip] சுவீடனின் உள்நாட்டுத் தேர்தல் — தமிழ்நாட்டு அல்லது இந்திய வா
+[skip] வெளிநாட்டுத் தொலைக்காட்சி நாடகத்தின் பரிசு — தமிழ்நாடு/இந்தி
+[skip] வெளிநாட்டுத் தொலைக்காட்சி விருது — தமிழ்நாடு/இந்திய வாசகருக்
+[tts-edge] brief_2026-09-15: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[brief] காலை brief தயார்
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 2
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 1
