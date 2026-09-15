@@ -6,7 +6,7 @@
 [fetch] BBC Tamil: 8 புதியவை
 [fetch] BBC World: 15 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 14 புதியவை
+[fetch] ESPNcricinfo: 16 புதியவை
 [fetch] The Hindu Sport: 26 புதியவை
 [fetch] The Hindu Cinema: 7 புதியவை
 [fetch] Cinema Express: 5 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f70786ba390>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f577420c690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
@@ -66,8 +66,45 @@
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 11 புதியவை
-[fetch] Times Chennai Crime: 17 புதியவை
-[run] புதியவை 596 → நிகழ்வுகள் 532
-[triage] 532 → 32 (முக்கியம் + பக்க ஒதுக்கீடு)
-[weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[fetch] Times Chennai Crime: 20 புதியவை
+[run] புதியவை 600 → நிகழ்வுகள் 536
+[triage] 536 → 76 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] இது திரிபுரா தேசிய சட்டப் பல்கலைக்கழகத்தின் உள்நாட்டு நிர்வா
+[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுக்கு வெளியே உள்ள வேலைவாய்ப்புகள
+[tts-edge] 9b1d1ae280f1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] உறுப்பு மாற்றுதলில் பெண்ணுக்கு ஏற்றத்தாழ்வு உள்ளது
+[skip] மലയാள சினிமா உள்ளூர்ச் செய்தி. தமிழ்நாட்டு வாசகரைப் பாதிப்பத
+[skip] இங்கிலாந்து county cricket — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5iorFrmgUCygFuS3Cbe'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5ivrREBkLsqsqkCMDb9'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[tts-edge] b4b4f9fc3fe5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இடதுசாரி முன்னணி தமிழ்நாடு இடைத்தேர்தல் வேட்பாளர்களை அறிவிப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5j5hdPvT5NBg1edFhxs'}
+[publish] திமுக எம்.பி ராஜா உள்ளிட்ட மூவர் மீது முதலமைச்சர் விஜய் அவதூறு வழக்கு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] அமைச்சர் செங்கோட்டையன் வெற்றிக்கு எதிரான மனுவை தள்ளுபடி செய்த சென்னை உயர் நீதிமன்றம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5jNuL5XarmybDntW7Ez'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5jSrwpXtzEfzM6xu3z1'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] அமைச்சர் செங்கோட்டையன் தேர்தல் வெற்றிக்கு எதிரான வழக்கு நிராகரிப்பு
+[skip] தமிழ்நாட்டுக் உள்ளூர் சம்பூர்ண்ணம் — மீனவர் எதிர்ப்பு, நிலப்
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருந்தாத செய்தி — UPI கட்டணம் நாடு
+[skip] தமிழ்நாட்டு முதல்வரின் பயணம் தமிழ்நாட்டுக்கே சம்பந்தப்பட்டது
+[publish] டிஜிட்டல் கடன் நிறுவனம் ஃபைப்புக்கு ஐபிஓ நடத்த செபி ஒப்புதல்
+[skip] இது அமெரிக்க பங்குச் சந்தையின் அன்றாட ஏற்ற இறக்கம் பற்றிய செ
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[filler] health கட்டுரை
+[comic] கதை: வினாக்களின் வலை
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-16.png · நாள் 9
+[rasi] ராசிபலன் தயார்
+[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 6
