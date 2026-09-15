@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 26 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 11 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 5 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 17 புதியவை
+[fetch] The Hindu TN: 9 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
+[fetch] BBC Tamil: 4 புதியவை
+[fetch] BBC World: 12 புதியவை
+[fetch] Al Jazeera: 19 புதியவை
+[fetch] ESPNcricinfo: 15 புதியவை
 [fetch] The Hindu Sport: 27 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Cinema: 3 புதியவை
 [fetch] Cinema Express: 5 புதியவை
 [fetch] The Hindu Tech: 4 புதியவை
 [fetch] Wired: 27 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 25 புதியவை
+[fetch] FreeJobAlert: 14 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 26 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,65 +56,56 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe1a7669bd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2038c81f10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 26 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 11 புதியவை
+[fetch] TN Police News: 9 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 582 → நிகழ்வுகள் 525
-[triage] 525 → 44 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வதோதரா மாநகராட்சி (குஜராத்) மற்றும் ஏய்ம்ஸ் கோரக்பூர் (உத்தர
-[skip] பிற மொழிப் படம்; தமிழ்நாட்டுடன் தொடர்பு இல்லை; திரைப்பட வர்ణ
-[skip] ஆங்கிலம் county cricket — Middlesex vs Gloucestershire. தமிழ
+[run] புதியவை 529 → நிகழ்வுகள் 484
+[triage] 484 → 42 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] 64d6e392ce40: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியாவில் ஃபார்முலா ஒன் பந்தயத்தை மீண்டும் கொண்டு வர பணிக்குழு அமைப்பு
+[skip] ஆங்கிலப் பொதுவெளி மாধ்যமத்தின் anime பর்যালோசனை; தமிழ்நாட்டு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] 5f99c123dd15: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ரணிபேட்டையில் மின்சாரம் தாக்கி ஒருவர் பலி, ஒன்பது பேர் காயம்
+[tts-edge] e86b981035d1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பங்குச் சந்தை UPI பரிவர்த்தனைகளுக்கு புதிய கட்டணம் அறிவிப்பு
+[publish] மூன்று நாட்களில் அரசுப் பத்திரங்களில் இருந்து 5,109 கோடி வெளியேற்றம்
+[publish] தமிழக மின் நிறுவனத்திற்கு 14 ஆண்டில் 2.55 லட்சம் கோடி அரசு உதவி
+[skip] தமிழ்நாட்டுக்கு நேரடி சம்பந்தம் இல்லை. டেनმार்ก்-ரஷ்யா இடையே
+[skip] வெளிநாட்டுக் ராணுவ நுட்பம் — தமிழ்நாடு/இந்திய வாசகருக்கு நேர
+[skip] Westerners்க்கான மாநில அளவிலான போக்குவரத்து செய்தி. தமிழ்நாட
+[skip] இலிதுவேனியா — ஐரோப்பு நாடு, தமிழ்நாடு/இந்தியாவுடன் நேரடி சம்
+[skip] வெளிநாட்டுத் தாந்தரிக வாணிணய மணங்களாய்.. எகிப்து-சவூதிய தாகா
+[skip] DR Congo-இன் உள் அரசியல் நிகழ்வு. தமிழ்நாடு அல்லது இந்திய வா
+[skip] வெளிநாட்டுக் நடுரக்ஷணைக் கூட்டம் — தமிழ்நாடு/இந்திய வாசகரைப்
+[skip] வெளிநாட்டு அரசியல் பகுப்பாய்வு — தமிழ்நாடு/இந்திய வாசகரைப் ப
+[skip] வெளிநாட்டுக் கண்டனத் செய்தி — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டு ராணுவ ঘটனை. உலக செ
+[skip] கனடா-ஐரோப்பா வাণிજ்য உறவு — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக
+[skip] வெளிநாட்டு உள்நாட்டுப் பணிமுறை — யேமனில் Houthi இயக்கம் மற்ற
+[skip] வெளிநாட்டுத் தொழில்நுட்பச் செய்தி — தமிழ்நாட்டு/இந்திய வாசகர
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5oJo7dKRLPXTVQzqb9z'}
+[publish] மதுரை மாநகராட்சி, ரோட்டரி கழகம் இணைந்து பெண்களுக்கு ஐந்து இளஞ்சிவப்பு ஆட்டோக்கள் வழங்கின
+[publish] ஹெப்பரின் அளவை விரைவாகக் கண்காணிக்க புதிய உணரி கண்டுபிடிப்பு
+[publish] ஆறு மாநிலங்கள், ஒரு யூனியன் பிரதேசம் கிஷாவு திட்ட ஒப்பந்தம் கையெழுத்து
+[skip] APSC (அசாம்) மற்றும் MBOSE (மேகாலயா) ஆகியவை தமிழ்நாட்டு அல்ல
+[skip] இது ஒரு கருத்துப் பத்தி (எடிட்டோரியல்) - ஹென்றியட்டா லாக்ஸ் 
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5kohVVvPFZo62ozk2wb'}
-[skip] বাংলাদেশের অভ্যন্তরীণ আইনি কার্যক্রম — তমিল নাडு/ভারতীয় পাঠ
-[tts-edge] b82349284854: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பரிமாற்ற நிறுவனங்களுக்கான பேரிடர் மீட்பு ஒத்திகை நேரத்தைக் குறைக்க செபி திட்டம்
-[publish] சென்செக்ஸ் 1,400 புள்ளிகள் சரிவு, ஒன்பது லட்சம் கோடி நிதி இழப்பு
-[publish] மத்திய மாநில உறவுகள் குழு முடக்கம் என உதயநிதி ஸ்டாலின் குற்றச்சாட்டு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5m2XAFdBEvBJ4scJ3XL'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] தமிழ்நாட்டில் 9 மாவட்டங்களுக்கு இன்று கனமழை எச்சரிக்கை
-[publish] விண்வெளியில் ஆயுதம் நிலைநிறுத்திய அமெரிக்கா பாதுகாப்பு நடவடிக்கை
-[skip] தென்னாப்பிரிக்காவுக்கு தமிழ்நாடு/இந்தியக் தொடர்பு இல்லை. உலக
-[skip] வெளிநாட்டு நீரிலுள்ள கப்பல் தாக்குதல் — தமிழ்நாடு/இந்திய வாச
-[skip] வெளிநாட்டு உள்நாட்டுப் பாதுகாப்புக் கொள்கை — தமிழ்நாடு/இந்தி
-[skip] சऊதி அரேபியாவின் உள்நாட்டு எண்ணெய் உள்கட்டமைப்பு — தமிழ்நாடு
-[skip] வெளிநாட்டு உள்நாட்டு ராணுவ/வெளியுறவுக் கொள்கை — தமிழ்நாடு அல
-[skip] யேமன் உள்நாட்டுக் கலவரம் — தமிழ்நாடு/இந்தியத் வாசகருக்குத் த
-[skip] வெளிநாட்டு உள்நாட்டுக் குற்றவழக்கு — பிரிட்டன் நோயாளி வேறுபா
-[skip] அமெரிக்க உள்நாட்டு அரசியல் பற்றிய பகுப்பாய்வு. தமிழ்நாடு/இந்
-[skip] உலகச் செய்தி என்றாலும் தமிழ்நாட்டு/இந்திய வாசகரைக் கணிசமாகப்
-[skip] தமிழ்நாட்டு / இந்திய வாசகரைப் பாதிக்கவில்லை. சவுதி அரேபியா-ஹ
-[publish] ஐஐடி சென்னையில் காப்புரிமை முகவர் பணியிடத்திற்கு விண்ணப்பம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5mPmvqfXNjnFUR3PAsN'}
-[hold] திருப்பத்தூர் கோயிலில் சிலைகள் சேதம், நபர் கைது
-[publish] ராணிப்பேட்டையில் மின்சாரத் தாக்குதலில் ஒருவர் பலி, ஒன்பது பேர் காயம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5mYHoAtykTGxKWkePmo'}
-[skip] இது தில்லி உயர் நீதிமன்றம் தில்லி வழக்கறிஞர் மன்றத்திற்கு இர
-[skip] சரிபார்ப்பு செய்திக் கொள்கைக்கு வெளிநாட்டு நிகழ்வு — ஹார்முஜ
-[skip] குற்றச் செய்தி — கட்டிய மனிதனின் பெயர், முகவரி, விபரங்கள் இல
-[skip] விபத்துச் செய்தி — பாதிக்கப்பட்டவரின் பெயர், ஊரின் பெயர் குற
-[skip] அரசியல் கூற்று — அரசு அறிவிப்பு அல்ல. ஒரு தரப்பின் விமர்சனம்
-[publish] சென்னையில் வங்கிக் கதவாளியில் தங்கத்தை போலியாக மாற்றியவர்கள் கைது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தமிழ்நாட்டுக்குப் பொருத்தமான செய்தி அல்ல. இது ஒரு அரசுத் துற
-[skip] தமிழ்நாட்டுடன் தொடர்பு இல்லை — IUST (Islamic University of S
-[skip] ஆங்கிலச் சினிமா/தொலைக்காட்சி நிகழ்வு - தமிழ் வாசகரின் முதன்ம
-[skip] ஆங்கிலத் திரைப்படம், தமிழ் நடிகர் / நிர்வாகம் / இயக்குநர் தொ
-[skip] இங்கிலாந்து மற்றும் இலங்கையின் இடையிலான சர்வதேச கிரிக்கெட் ஆ
-[skip] இங்கிலாந்து county cricket — தமிழ்நாட்டு வாசகருக்குப் பொருத்
+[publish] மின் நிறுவனம் அரசு நிதி உதவிக்கு சார்பிலுள்ளது
+[skip] ஆங்கிலப் பெயர் மட்டுமே தெரிந்திருக்கிறது, தமிழ்நாட்டுத் தகவல
+[skip] கேரளாவைத் தொடர்புடையது. தமிழ்நாட்டுக்குப் பொருந்தாது.
+[skip] இமாச்சல பிரதேசத்தின் உள்ளூர் அறிவிப்பு. தமிழ்நாடு வாசகரைப் ப
+[skip] வெளிநாட்டுக் கல்வி நிறுவனத்தின் பகுதி நுழைவுத் தகவல். தமிழ்ந
+[skip] தெலுங்குத் திரையுலகத்தின் பிற மொழிப் படமாகும். தமிழ்நாடுக்கு
+[skip] வெளிநாட்டுக் கலைப்படம் — தமிழ்நாட்டு/இந்திய சினிமாவுடன் தொடர
+[skip] வெளிநாட்டு T20 சிரিஸ்: முழுவதும் ஆங்கிலம், தமிழ்நாட்டு தொடர்
+[skip] ஆஃப்கானிஸ்தான் மற்றும் இந்தியாக்களுக்கு இடையேயான T20 போட்டி 
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 8
