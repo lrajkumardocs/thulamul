@@ -5,10 +5,10 @@
 [fetch] Dinamani TN: 13 புதியவை
 [fetch] BBC Tamil: 5 புதியவை
 [fetch] BBC World: 16 புதியவை
-[fetch] Al Jazeera: 17 புதியவை
+[fetch] Al Jazeera: 16 புதியவை
 [fetch] ESPNcricinfo: 8 புதியவை
 [fetch] The Hindu Sport: 15 புதியவை
-[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 6 புதியவை
 [fetch] Wired: 22 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7efcce308a10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f16bb36a7d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 4 புதியவை
 [fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -67,9 +67,15 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 0 புதியவை
 [fetch] Times Chennai Crime: 3 புதியவை
-[run] புதியவை 396 → நிகழ்வுகள் 385
-[triage] 385 → 2 (முக்கியம் + பக்க ஒதுக்கீடு)
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf4DEu6DWwukmXkvFvZmk'}
-[skip] இந்தச் செய்தி தமிழ்நாட்டு / இந்திய வாசகரை நேரடியாகப் பாதிக்க
+[run] புதியவை 396 → நிகழ்வுகள் 384
+[triage] 384 → 6 (முக்கியம் + பக்க ஒதுக்கீடு)
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf4Fuw8Kyj1qZ8YRpGFWw'}
+[tts-edge] 3548ef3277dc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திமுக பேரணிக்கு அனுமதி மறுப்பு, உதயநிதி ஸ்டாலின் கண்டனம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் இல்லை
+[tts-edge] cb115cebb012: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்திய மகளிர் டி20 அணி ஆசிய கோப்பை பெற மறுத்தது
+[skip] தமிழ்நாடு அல்லது இந்தியாவைப் பாதிக்காத வெளிநாட்டு உள்நாட்டுப
+[skip] யேமனின் உள்நாட்டுப் பொருளாதார நிகழ்வு — தமிழ்நாடு/இந்திய வாச
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 2
