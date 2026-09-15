@@ -1,5 +1,291 @@
 [
  {
+  "headline": "விருது விழாவில் தொகுப்பாளர் மீது பாட்டில் வீசிய நடிகர் ராணா",
+  "lines": [
+   "சென்னையில் நடந்த ஒரு விருது விழாவில் தொகுப்பாளர் மீது நடிகர் ராணா தண்ணீர் பாட்டிலை வீசினார்.",
+   "விழாவின் போது ஏற்பட்ட ஒரு சம்பவத்தை受けうけて நடிகர் சீற்றம் அடைந்த எனக் கூறப்படுகிறது.",
+   "தொகுப்பாளர் இந்தச் சம்பவத்தைக் குறித்து மறுமொழி கூறியுள்ளார்.",
+   "விருது விழாக்கள் பொதுவாக சினிமா துறையின் முக்கிய நிகழ்வுகளாகக் கருதப்படுகின்றன.",
+   "சம்பவத்தைத் தொடர்ந்து விழாவினர் எவ்வாறு செயல்பட்டனர் என்பது தெரியவில்லை."
+  ],
+  "closing": "சினிமா சகாபিரமாண்ட நபர்களுக்கு இடையே நேரலையாக ஆவேசம் ஏற்படுவது அரிய நிகழ்வாகக் கருதப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "நடிகர் ராணா",
+   "சென்னை",
+   "விருது விழா"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Actor Rana throws water bottle at host at awards ceremony",
+   "lines": [
+    "At an awards ceremony held in Chennai, actor Rana threw a water bottle at the host.",
+    "It is said that the actor became angry due to an incident that occurred during the ceremony.",
+    "The host has responded to this incident.",
+    "Award ceremonies are generally considered important events in the cinema industry.",
+    "It is not clear how the ceremony attendees reacted after the incident."
+   ],
+   "closing": "Direct outbursts between prominent cinema personalities on live television are considered rare events."
+  },
+  "front_cat": "routine",
+  "image_query": "Rana actor",
+  "person_en": "Rana",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "01a00e3bbf75",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-09-16T02:13+05:30",
+  "links": [
+   "https://www.dinamani.com/cinema/cinema-news/2026/Sep/15/actor-rana-threw-a-water-bottle-at-the-host-during-the-awards-ceremony"
+  ],
+  "image": null,
+  "audio": "data/audio/01a00e3bbf75.mp3",
+  "created_ts": 1789504990.6622627,
+  "status": "published"
+ },
+ {
+  "headline": "மேட்டா நிறுவனம் குழந்தைகள் பாதுகாப்புத் தகவல்களை நேரடியாக இந்திய அமைப்புகளுக்கு பகிரும்",
+  "lines": [
+   "மேட்டா நிறுவனம் குழந்தைகள் பாதுகாப்பு தொடர்பான தகவல்களை இனி நேரடியாக இந்திய அரசு அமைப்புகளுக்கு அனுப்பும் என அறிவித்துள்ளது.",
+   "தற்போது இந்தத் தகவல்கள் அமெரிக்காவை தளமாகக் கொண்ட தேசிய காணாமல் போன மற்றும் சுரண்டப்பட்ட குழந்தைகள் மையத்திற்கு அனுப்பப்படுகின்றன.",
+   "அந்த மையம் இந்தியாவுக்கு உரிய குழந்தைகள் மீதான பாலியல் தொல்லை பொருள் தொடர்பான அறிக்கைகளை தேசிய குற்ற பதிவேடு பணியகத்திற்கு அனுப்பி வருகிறது.",
+   "இனி இந்த இடைத்தரகர் நடைமுறை இல்லாமல் மேட்டா நேரடியாக இந்திய அமைப்புகளுடன் தகவல்களைப் பகிரும் என்று தெரிவிக்கப்பட்டுள்ளது.",
+   "இந்த மாற்றம் எப்போது முதல் அமலுக்கு வரும் என்பது குறித்த விரிவான தகவல்கள் இன்னும் வெளியிடப்படவில்லை."
+  ],
+  "closing": "தற்போது வரை இந்தியாவுக்கான குழந்தைகள் பாதுகாப்பு தகவல்கள் அமெரிக்க அமைப்பு வழியாகவே தேசிய குற்ற பதிவேடு பணியகத்தை சென்றடைந்தன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tech",
+  "entities": [
+   "மேட்டா",
+   "NCMEC",
+   "NCRB",
+   "இந்தியா",
+   "குழந்தைகள் பாதுகாப்பு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Meta to share child safety information directly with Indian agencies",
+   "lines": [
+    "Meta has announced it will now share child safety related information directly with Indian government agencies.",
+    "Currently this information is shared with the U.S.-based National Center for Missing & Exploited Children.",
+    "That center in turn forwards India-specific child sexual abuse material reports to the National Crime Records Bureau.",
+    "Going forward, Meta will share information directly with Indian agencies without this intermediary process.",
+    "Detailed information on when exactly this change will take effect has not yet been released."
+   ],
+   "closing": "Until now, India-specific child safety information reached the National Crime Records Bureau only via the U.S.-based organisation."
+  },
+  "front_cat": "policy_mass",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "37b4823c2a3f",
+  "topic_ta": "தொழில்நுட்பம்",
+  "published_at": "2026-09-16T02:11+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/meta-says-will-report-child-safety-cases-directly-to-indian-cybercrime-portal/article71467015.ece",
+   "https://www.thehindu.com/news/national/meta-says-will-report-child-safety-cases-directly-to-indian-cybercrime-portal/article71467015.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/37b4823c2a3f.mp3",
+  "created_ts": 1789504908.6599584,
+  "status": "published"
+ },
+ {
+  "headline": "ஆசிய விளையாட்டுப் போட்டி 2026: மிர் பிల்கிஸுக்கு பயணச் சிद்ധம்",
+  "lines": [
+   "உச்ச நீதிமன்றம் செப்டம்பர் 10ஆம் தேதியில் ஜम்மு-காஷ்மீர் அரசின் பயணத் தடையை நீக்கியது.",
+   "விளையாட்டு வீரர் மிர் பில்கிஸ் ஆசிய விளையாட்டுப் போட்டி 2026-ல் இந்திய படகுவேட்டை குழுவுக்கு பயிற்சியாளராக செயல்பட அனுமதி பெற்றார்.",
+   "நீதிமன்றம் அரசின் பணிநீக்கச் சோதனை மற்றும் சேவை நிபந்தனைகளை காரணமாகக் கூறிய தடையை எதிர்க்கொண்டு உத்தரவிட்டது.",
+   "இந்திய விளையாட்டுத் துறை இந்த முடிவை வரவேற்றுள்ளது.",
+   "ஆசிய விளையாட்டுப் போட்டி 2026 எந்நாளில் நடைபெறுவது என்பது தெளிவு பெறப் பட வேண்டும்."
+  ],
+  "closing": "உচ்ச நீதிமன்றத்தின் தலையீடு விளையாட்டு வீரர்களின் சர்வதேச பதிலளிப்புக்குத் தடையாக இல்லை என்ற கொள்கையை உறுதிப்படுத்தியுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Sport",
+    "doc": null,
+    "date": "2026-09-16"
+   }
+  ],
+  "topic": "sports",
+  "entities": [
+   "மிர் பில்கிஸ்",
+   "உச்ச நீதிமன்றம்",
+   "ஜம்மு-காஷ்மீர் அரசு",
+   "ஆசிய விளையாட்டுப் போட்டி 2026",
+   "இந்திய படகுவேட்டை குழு"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Asian Games 2026: Mir Bilquis cleared to travel as India's kayaking coach",
+   "lines": [
+    "The Supreme Court on September 10 quashed a J&K government order that had barred the sports athlete from traveling.",
+    "Mir Bilquis has been granted permission to serve as a coach for the Indian kayaking and canoeing team at the 2026 Asian Games.",
+    "The court overturned the government's denial citing pending departmental inquiries and service conditions as invalid grounds.",
+    "Indian sports authorities have welcomed this court intervention.",
+    "The exact dates for the 2026 Asian Games remain to be confirmed."
+   ],
+   "closing": "The Supreme Court's ruling reinforces that international sporting representation cannot be restricted by pending administrative matters."
+  },
+  "front_cat": "sports_historic",
+  "image_query": "Mir Bilquis Indian kayaking",
+  "person_en": "Mir Bilquis",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "94f81f1d9dbe",
+  "topic_ta": "விளையாட்டு",
+  "published_at": "2026-09-16T02:11+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/jammu-and-kashmir/asian-games-2026-jk-govt-allowsmir-bilquis-to-travel-after-sc-intervention-to-coach-indian-kayaking-canoeing-team/article71469442.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/94f81f1d9dbe.mp3",
+  "created_ts": 1789504871.9150298,
+  "status": "published"
+ },
+ {
+  "headline": "விருதுநகர் நிகழ்ச்சி தேதி இடம் மாற்றம், செப். 25 உசிலம்பட்டியில்",
+  "lines": [
+   "விருதுநகரில் செப்டம்பர் பதினேழாம் தேதி நடைபெற திட்டமிடப்பட்டிருந்த அரசு நிகழ்ச்சி ஒன்று மாற்றப்பட்டுள்ளது.",
+   "இந்நிகழ்ச்சியில் முதல்வர் சி. ஜோசப் விஜய் பங்கேற்க இருந்ததாகத் தெரிவிக்கப்பட்டுள்ளது.",
+   "நிகழ்ச்சி இப்போது செப்டம்பர் இருபத்தைந்தாம் தேதிக்கு மாற்றப்பட்டுள்ளது.",
+   "இடமும் மாறி, விருதுநகருக்குப் பதிலாக உசிலம்பட்டியில் நிகழ்ச்சி நடைபெறும் என அறிவிக்கப்பட்டுள்ளது.",
+   "மாற்றத்திற்கான காரணம் தற்போது வெளியிடப்படவில்லை, மேலும் விவரங்கள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "நிகழ்ச்சி தேதி மற்றும் இட மாற்றத்திற்கான காரணம் குறித்து அதிகாரப்பூர்வ விளக்கம் இன்னும் வெளியிடப்படவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "விருதுநகர்",
+   "உசிலம்பட்டி",
+   "முதல்வர்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Viruthunagar event postponed to September 25 in Usilampatti",
+   "lines": [
+    "A government event scheduled to be held in Viruthunagar on September 17 has been changed.",
+    "Chief Minister C. Joseph Vijay was reportedly set to participate in this event.",
+    "The event has now been rescheduled to September 25.",
+    "The venue has also changed, with the event now set to take place in Usilampatti instead of Viruthunagar.",
+    "The reason for the change has not been disclosed yet, and further details are awaited."
+   ],
+   "closing": "An official explanation for the change in date and venue has not yet been released."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "a7c81b8a37a4",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-16T02:10+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/15/change-in-event-scheduled-for-chief-minister-in-virudhunagar-on-sept-17"
+  ],
+  "image": null,
+  "audio": "data/audio/a7c81b8a37a4.mp3",
+  "created_ts": 1789504858.0533504,
+  "status": "published"
+ },
+ {
+  "headline": "அஸ்ஸாம் பெண் இயக்குநரின் விலேஜ் ராக்ஸ்டார்ஸ் இரண்டாம் பாகம் வெளியாகிறது",
+  "lines": [
+   "அஸ்ஸாமின் பெண் இயக்குநர் உषபிம் பড்டி உருவாக்கிய விலேஜ் ராக்ஸ்டார்ஸ் தொடரின் இரண்டாம் பாகம் வெளியாவது குறிப்பிடத்தக்கது.",
+   "முதல் பாகம் ஆন்তர்தேশிய திரையரங்குகளில் பெரும் வரவேற்பு பெற்றிருந்தது.",
+   "இரண்டாம் பாகத்தில் எழுத்து, இயக்கம், தயாரிப்பு, ஒளிப்பதிவு, எடிட்டிங் அனைத்தையும் அவரே செய்திருக்கிறார்.",
+   "சிறுமியின் வாழ்வைக் கேந்திரமாக வைத்து எடுக்கப்பட்ட முதல் பாகம் உலகளாவிய பல விருதுகளை வென்றிருந்தது.",
+   "இந்திய திரையுலகை வெளிப்படுத்தும் வலிமையான படங்களுள் ஒன்றாக விலேஜ் ராக்ஸ்டார்ஸ் தொடர் கணக்கிடப்படுகிறது."
+  ],
+  "closing": "முதல் பாகத்தின் வெற்றிக்குப் பிறகு இரண்டாம் பாகம் உலக திரையரங்குகளில் கூடிய கவனத்துடன் எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "விலேஜ் ராக்ஸ்டார்ஸ் 2",
+   "உషபிம் பட்டி",
+   "அஸ்ஸாம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Assamese director Ushapati Chakraborty's Village Rockstars sequel releases",
+   "lines": [
+    "The sequel to Village Rockstars, created by Assamese filmmaker Ushapati Chakraborty, is being released to audiences.",
+    "The first part received major international recognition and acclaim across film festivals.",
+    "The director has written, directed, produced, shot, and edited the second installment herself.",
+    "The first film, centered on a girl's life, won numerous international awards and accolades.",
+    "The Village Rockstars series is considered among India's most powerful cinema that speaks to global audiences."
+   ],
+   "closing": "Following the success of the first part, the sequel is eagerly anticipated in cinemas worldwide."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Village Rockstars 2 film poster",
+  "person_en": "Ushapati Chakraborty",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c72f0a3f730f",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-09-16T02:09+05:30",
+  "links": [
+   "https://www.dinamani.com/cinema/cinema-news/2026/Sep/15/rima-das-village-rockstars-2-to-release-nationwide-on-september-25"
+  ],
+  "image": null,
+  "audio": "data/audio/c72f0a3f730f.mp3",
+  "created_ts": 1789504755.5654,
+  "status": "published"
+ },
+ {
   "headline": "NEET MDS 2026 இரண்டாம் கட்ட கவுன்சலிங் பதிவு தொடக்கம்",
   "lines": [
    "நாடு முழுவதும் பல் மருத்துவ முதுநிலை படிப்புக்கான நீட் எம்டிஎஸ் இரண்டாம் சுற்று கவுன்சலிங் பதிவு தொடங்கியுள்ளது.",
@@ -17526,309 +17812,6 @@
   },
   "audio": "data/audio/3accc86ab2b3.mp3",
   "created_ts": 1789045770.511382,
-  "status": "published"
- },
- {
-  "headline": "Meta, Muse AI பயன்பாட்டை அறிமுகம் செய்தது.",
-  "lines": [
-   "Meta நிறுவனம் Muse என்ற AI உதவியாளரை அமெரிக்காவில் வெளியிட்டுள்ளது.",
-   "இந்த AI மின்னஞ்சல் அனுப்ப, பணம் செலுத்த, நாள்வாசகம் நிர்வகிக்க மற்றும் வீட்டு அமைப்பை கட்டுப்படுத்த முடியும்.",
-   "Muse ஐ நேரடி பயன்பாட்டின் மூலமாகவோ அல்லது WhatsApp மூலமாகவோ பயன்படுத்தலாம்.",
-   "நிறுவனத்தின் உள்ளக சோதனை கூட்டங்களில் இந்த பணிமுறை சிலசமயம் தடைபட்டிருந்தது என Reuters அறிவித்துள்ளது.",
-   "Meta வரும் நாள்களில் இந்த AI உதவியாளரின் பயன்பாட்டை விரிவுபடுத்த திட்டமிட்டுள்ளது."
-  ],
-  "closing": "செயல்பாட்டின் போது தெளிவான செயல்பாடு மற்றும் பாதுகாப்புக்கான Meta உடனிய கவனம் தேவைப்படுகிறது.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "The Hindu Tech",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tech",
-  "entities": [
-   "Meta",
-   "Muse",
-   "அமெரிக்கா",
-   "WhatsApp",
-   "Reuters"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Meta launches Muse, an AI agent for emails and payments.",
-   "lines": [
-    "Meta has launched Muse, an artificial intelligence assistant, in the United States.",
-    "The AI can send emails, make payments, manage calendars, and control smart home devices.",
-    "Users can access Muse through a dedicated app or via WhatsApp.",
-    "Internal testing by the company showed occasional performance failures, according to Reuters.",
-    "Meta plans to expand Muse's availability in the coming days."
-   ],
-   "closing": "Meta needs immediate attention to ensure stable performance and security during operation."
-  },
-  "front_cat": "routine",
-  "image_query": "Meta Muse AI assistant",
-  "person_en": "",
-  "urgent": false,
-  "affected": "உலகம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "d6ed284e7a4e",
-  "topic_ta": "தொழில்நுட்பம்",
-  "published_at": "2026-09-10T18:15+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/technology/meta-launches-muse-ai-agent-that-can-access-other-apps-to-send-emails-make-payments/article71444514.ece"
-  ],
-  "image": {
-   "url": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-   "credit": "Matheus Bertelli · Pexels",
-   "license": "Pexels — இலவசம்",
-   "symbolic": true
-  },
-  "audio": "data/audio/d6ed284e7a4e.mp3",
-  "created_ts": 1789044347.764408,
-  "status": "published"
- },
- {
-  "headline": "தனியார் பல்கலைக்கழகங்கள் திருத்த மசோதா நிறைவேற்றம்.",
-  "lines": [
-   "செப்டம்பர் 8 ஆம் தேதி தமிழ்நாட்டு சட்டமன்றம் தனியார் பல்கலைக்கழகங்கள் சட்டம் 2019 ஐ திருத்தும் மசோதாவை நிறைவேற்றியது.",
-   "இம்மசோதா வளர்ந்த நாடுகளிலிருந்து உலகத்தரம் வாய்ந்த பல்கலைக்கழகங்களை தமிழ்நாட்டுக்கு ஈர்க்கும் என அரசு கூறுகிறது.",
-   "உচ்চ கல்வி அமைச்சர் இப்படிப்பான நிறுவனங்கள் தமிழ்நாட்டில் அமைந்து கல்வி வளர்ச்சிக்கு உதவும் என தெரிவித்தார்.",
-   "தனியார் பல்கலைக்கழகங்கள் மீது தமிழ்நாட்டில் பல தடைகள் இருந்து வந்தன; இந்த மசோதா அவற்றை நீக்குவதாக கூறப்படுகிறது.",
-   "மசோதாவின் விவரங்களை அமைச்சு விரைவில் வெளியிடவுள்ளதாக எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "தமிழ்நாட்டில் தனியார் பல்கலைக்கழகங்களுக்கான விதிகள் எவ்வாறு மாறுவன என அரசு விளக்க உள்ளது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": "Govt Policy",
-    "date": "2026-09-08"
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "தமிழ்நாட்டு சட்டமன்றம்",
-   "உச்சக் கல்வி அமைச்சகம்",
-   "தனியார் பல்கலைக்கழகங்கள்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Private Universities Amendment Bill passed by Tamil Nadu Assembly.",
-   "lines": [
-    "The Tamil Nadu Assembly passed an amendment to the Private Universities Act 2019 on September 8.",
-    "The government states this bill will attract world-class universities from developed nations to Tamil Nadu.",
-    "The Higher Education Minister said such institutions will establish in Tamil Nadu and support educational development.",
-    "Several restrictions on private universities existed in Tamil Nadu; this bill is said to remove them.",
-    "The ministry is expected to release details of the bill soon."
-   ],
-   "closing": "The government is set to explain how regulations for private universities in Tamil Nadu will change."
-  },
-  "front_cat": "assembly_event",
-  "image_query": "Tamil Nadu assembly",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "22ff75d91fbb",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-10T18:15+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/private-universities-amendment-bill-will-attract-world-class-institutes-to-tamil-nadu-higher-education-minister/article71450976.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Tamil_Nadu_Legislative_Assembly_2024.png/1280px-Tamil_Nadu_Legislative_Assembly_2024.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா Commons · Singh PreetManak",
-   "license": "CC0",
-   "symbolic": true
-  },
-  "audio": "data/audio/22ff75d91fbb.mp3",
-  "created_ts": 1789044326.7503302,
-  "status": "published"
- },
- {
-  "skip": false,
-  "headline": "நீதிபதிகளுக்கு எதிராக வழக்குரைப்பாளர் குரல் எழுப்புவது கடுமையான ஒழுங்கீனம் என்று உச்ச நீதிமன்றம்",
-  "lines": [
-   "மகாராஷ்டிரத்தைச் சேர்ந்த வழக்குரைப்பாளர் திலிப் எஸ். குமாரே ஒரு மனுவைத் தாக்கல் செய்தார். நீதிமன்ற நடவடிக்கையின் போது தகாத நடத்தை செய்ததற்காக அவர் மீது அவதூறு நடவடிக்கை தொடங்கிய பம்பாய் உயர் நீதிமன்றத்தின் உத்தரவை சவால் செய்தார்.",
-   "உச்ச நீதிமன்றம் இந்த மனுவைக் கேட்டுக்கொண்டிருக்கிறது.",
-   "உச்ச நீதிமன்றம் நீதிபதிகளுக்கு எதிராக நீதிமன்ற அறையில் குரல் எழுப்புவதை ஒழுங்கீனம் என்று குறிப்பிட்டுள்ளது.",
-   "இந்த வழக்குரைப்பாளர் நீதிமன்ற ஒழுங்குக் கடமைகளைப் பின்பற்ற வேண்டியவர் என்பதாக உச்ச நீதிமன்றம் கூறியுள்ளது.",
-   "இந்த வழக்கின் இறுதி தீர்ப்பு விரைவில் வெளியாக வாய்ப்புள்ளது."
-  ],
-  "closing": "நீதிமன்றக் கட்டுப்பாடு நிலைநிறுத்தல் நீதிமன்ற செயல்பாட்டிற்கு மையமாக இருப்பதாக உச்ச நீதிமன்றம் வலியுறுத்தியுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "உச்ச நீதிமன்றம்",
-   "பம்பாய் உயர் நீதிமன்றம்",
-   "திலிப் எஸ். குமாரே",
-   "மகாராஷ்டிரம்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Judicial officer raising voice against judges is gross misconduct, Supreme Court rules",
-   "lines": [
-    "A judicial officer from Maharashtra, Dilip S. Ghumare, filed a petition challenging a Bombay High Court order that initiated contempt proceedings against him for misconduct in open court.",
-    "The Supreme Court is hearing this petition.",
-    "The Supreme Court stated that raising voice against judges in the courtroom constitutes misconduct.",
-    "The Supreme Court noted that this judicial officer must follow court discipline requirements.",
-    "A final verdict in this case is likely to come soon."
-   ],
-   "closing": "The Supreme Court emphasized that maintaining court discipline is central to the functioning of judicial proceedings."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "supreme court india judicial officer",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "768948b92da9",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-09-10T16:39+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/judicial-officer-raising-his-voice-at-judges-is-gross-indiscipline-says-supreme-court/article71450679.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Raghunath_Vyankaji_Sabnis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா Commons · Anonymous",
-   "license": "Public domain",
-   "symbolic": true
-  },
-  "audio": "data/audio/768948b92da9.mp3",
-  "created_ts": 1789038553.961432,
-  "status": "published"
- },
- {
-  "headline": "தெலங்கானா அரசு பணியாளர் சுகாதார திட்டத்திற்கு 240 கோடி நிதி ஒதுக்கியது",
-  "lines": [
-   "தெலங்கானா அரசு பணியாளர்களுக்கான சுகாதார திட்டத்திற்கு 240 கோடி ரூபாயின் நிதிக் கணக்கை (corpus) உருவாக்கியுள்ளது.",
-   "இந்தத் திட்டத்துடன் சேர்த்து அரசு பணியாளர்களுக்கு 1 கோடி ரூபாய் விபத்து இழப்பீடு வசதியும் செயல்படுத்தப்படுகிறது.",
-   "இந்த அறிவிப்பை உப முதல்வர் சட்டமன்றத்தில் வெளியிட்டார்.",
-   "தெலங்கானா அரசு ஊழியர்களின் சுகாதார பாதுகாப்பை மேம்படுத்துவதற்கு இந்தத் திட்டம் வடிவமைக்கப்பட்டுள்ளது.",
-   "இந்த சுகாதார திட்டமும் விபத்து இழப்பீட்டு வசதியும் எப்போது முழுமையாக செயல்படக் கூடும் என்பது தெரியவில்லை."
-  ],
-  "closing": "தெலங்கானா அரசின் இந்த நடவடிக்கை மாநிலத்தின் பணியாளர்களுக்குப் பாதுகாப்பு வசதியை மேம்படுத்தும் நோக்கத்தில் கையெடுக்கப்பட்டுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Govt Policy",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "தெலங்கானா அரசு",
-   "பணியாளர் சுகாதார திட்டம்",
-   "உப முதல்வர்",
-   "சட்டமன்றம்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Telangana government creates ₹240 crore corpus for employees health scheme",
-   "lines": [
-    "Telangana government has established a corpus of ₹240 crore for an employees health scheme.",
-    "The government is also implementing a ₹1 crore accidental cover benefit for state employees.",
-    "The Deputy Chief Minister announced this measure in the state assembly.",
-    "The scheme is designed to enhance healthcare protection for Telangana government employees.",
-    "The complete operational timeline for the health scheme and accident cover remains unclear."
-   ],
-   "closing": "Telangana government's initiative aims to strengthen healthcare and accident protection for state employees."
-  },
-  "front_cat": "price_policy",
-  "image_query": "telangana health insurance scheme employees",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "7dc7d4b5bb79",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-10T16:33+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/telangana/telangana-govt-created-corpus-of-240-crore-for-employees-health-scheme/article71450855.ece"
-  ],
-  "image": {
-   "url": "https://images.pexels.com/photos/8297423/pexels-photo-8297423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-   "credit": "Mikhail Nilov · Pexels",
-   "license": "Pexels — இலவசம்",
-   "symbolic": true
-  },
-  "audio": "data/audio/7dc7d4b5bb79.mp3",
-  "created_ts": 1789038208.9657931,
-  "status": "published"
- },
- {
-  "headline": "கோயம்பூரில் டிஜே விருந்துகளுக்கு தற்காலிக தடை விதிக்கப்பட்டது.",
-  "lines": [
-   "கோயம்பூரில் உள்ள சில பார் மற்றும் கிளப் பொலிசுக்கு அறிவிப்பு தெரிவிக்காமல் டிஜே விருந்துகள் நடத்திய நிலையில் போலிசார் தற்காலிக தடை விதித்துள்ளனர்.",
-   "FL3 மற்றும் FL2 உரிமம் பெற்ற பல நிறுவனங்கள் இந்நடவடிக்கையால் பாதிக்கப்படுகின்றன.",
-   "மூத்த அதிகாரிகள் பொலிசுக்கு முறையான அறிவிப்பு தெரிவிக்காமல் நடத்திய நிகழ்வுகளை கண்டறிந்ததாக கூறினார்கள்.",
-   "பார் மற்றும் நல்லுரிமக் கிளப்புகளுக்கு பொலிસு ஒப்புதல் பெறுவது கட்டாயம் என்ற விதிமுறை முன்பே நிலவி வருகிறது.",
-   "இந்த தடை எவ்வளவு காலத்திற்கு நீடிக்கும் என்பது குறித்து உத்தரவு வெளியிடப்பட வேண்டியுள்ளது."
-  ],
-  "closing": "கோயம்பூரில் டிஜே விருந்துகளுக்கான விதிமுறைகள் எவ்வாறு கடுமையாக்கப்படும் என்பது அடுத்து நோக்கிக் காணத்தக்க விஷயம்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu Govt Policy",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "கோயம்பூர்",
-   "பொலிசு",
-   "பார்",
-   "கிளப்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Temporary ban imposed on DJ parties in Coimbatore.",
-   "lines": [
-    "Police have imposed a temporary ban on DJ parties in Coimbatore after discovering that some FL3 and FL2 licensed bars and clubs were conducting such events without notifying authorities.",
-    "Multiple establishments holding FL3 and FL2 licenses are affected by this action.",
-    "Senior officials said they found venues organizing parties without providing proper notice to police, as required.",
-    "Rules requiring bars and licensed clubs to obtain police permission for such events have been in place previously.",
-    "Clarification is still awaited on how long this ban will remain in effect."
-   ],
-   "closing": "How the regulations on DJ parties in Coimbatore will be further tightened remains to be seen."
-  },
-  "front_cat": "district_scheme",
-  "image_query": "bar nightclub DJ party police",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "3fda1467064b",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-10T16:33+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/Coimbatore/temporary-ban-on-dj-parties-in-coimbatore/article71451131.ece"
-  ],
-  "image": {
-   "url": "https://images.unsplash.com/photo-1778298144878-08d19d312d0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8YmFyJTIwbmlnaHRjbHViJTIwREolMjBwYXJ0eSUyMHBvbGljZXxlbnwxfDB8fHwxNzg5MDM4MTgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-   "credit": "Allen Y · Unsplash",
-   "license": "Unsplash — இலவசம்",
-   "symbolic": true
-  },
-  "audio": "data/audio/3fda1467064b.mp3",
-  "created_ts": 1789038187.355336,
   "status": "published"
  }
 ]

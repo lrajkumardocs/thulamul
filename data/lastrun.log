@@ -1,13 +1,13 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 21 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 5 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
-[fetch] BBC Tamil: 4 புதியவை
+[fetch] The Hindu TN: 4 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
+[fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 9 புதியவை
 [fetch] Al Jazeera: 9 புதியவை
 [fetch] ESPNcricinfo: 14 புதியவை
-[fetch] The Hindu Sport: 24 புதியவை
+[fetch] The Hindu Sport: 22 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 5 புதியவை
 [fetch] The Hindu Tech: 5 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 11 புதியவை
+[fetch] FreeJobAlert: 4 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,15 +29,15 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 22 புதியவை
+[fetch] The Hindu Legal: 19 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 27 புதியவை
+[fetch] Dinamani Cinema: 24 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 22 புதியவை
-[fetch] NDTV India: 20 புதியவை
+[fetch] The Hindu National: 19 புதியவை
+[fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd2c1b9c110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 22 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb7ce2bfcd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 19 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,27 +67,25 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 8 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 487 → நிகழ்வுகள் 447
-[triage] 447 → 18 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] தயாரிப்பு அறிவிப்பு / விளம்பரம்: சினிமா நபர்களின் கூட்டுப்பண
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் நேரடி தொடர்பில்லாத பிராந்தி
-[tts-edge] c757c02e2496: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] புகை எச்சரிக்கை காரணமாக அகர்தலா டெல்லி விமானம் லக்னோவில் இறக்கம்
-[tts-edge] 882607ba0668: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] NEET MDS 2026 இரண்டாம் கட்ட கவுன்சலிங் பதிவு தொடக்கம்
-[skip] ஒடிசா மாநிலத்தில் நடந்த உள்ளூர் வனவிலங்கு மீட்புச் சம்பவம், 
-[skip] ஆந்திரப் பிரதேச மாநிலத்துக்கு உரிய உள்ளூர் அரசியல் குற்றச்சா
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரங்கள் இல்ல
-[skip] த्रिपुरा राज्य की घटना है, तमिलनाडु के पाठकों के लिए प्रासंग
-[skip] வெளிநாட்டு வனவிலங்க செய்தி — தமிழ்நாட்டு வாசகருக்குப் பொருத்
-[skip] ஆந்திர பிரதேசம் மாநிலம் சம்பந்தப்பட்டது; தமிழ்நாட்டு வாசகர்க
-[skip] தனிநபர் சர்ச்சை / தனிப்பட்ட வாழ்க்கை நிகழ்வு — சினிமா தகவல் 
-[skip] മലയാളം திரையுலகத்தின் உள்ளூர் செய்தி — தமிழ்நாட்டு வாசகருக்க
-[skip] வெளிநாட்டு ஆங்கிலச் செய்திதாள் மூலம்; தமிழ்நாட்டு வாசகருக்கா
-[skip] ஆசிய விளையாட்டுக் கூடத்தில் கிரிக்கெட் பற்றிய ஒரு நபரின் கரு
-[skip] இது தமிழ்நாட்டுச் செய்தி; world நிறுப்பு தவறு. tn-ஆக மாற்ற வ
-[skip] உலக அளவில் முக்கியமான விளையாட்டுச் செய்தி இல்லை. T20 தொடரில்
+[run] புதியவை 461 → நிகழ்வுகள் 430
+[triage] 430 → 24 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] c72f0a3f730f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அஸ்ஸாம் பெண் இயக்குநரின் விலேஜ் ராக்ஸ்டார்ஸ் இரண்டாம் பாகம் வெளியாகிறது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5sWdHaWHHYoRZFNuJ1u'}
+[tts-edge] a7c81b8a37a4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] விருதுநகர் நிகழ்ச்சி தேதி இடம் மாற்றம், செப். 25 உசிலம்பட்டியில்
+[publish] ஆசிய விளையாட்டுப் போட்டி 2026: மிர் பிల்கிஸுக்கு பயணச் சிद்ധம்
+[publish] மேட்டா நிறுவனம் குழந்தைகள் பாதுகாப்புத் தகவல்களை நேரடியாக இந்திய அமைப்புகளுக்கு பகிரும்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf5sgrEUMpLXtptYC61vB'}
+[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பிரত்યক்ষமாகப் பாதிக்காத வெளிநாட
+[skip] வெளிநாட்டு அரசியல்갈등 — இஸ்ரேல்-பாலஸ்தீன மோதல் தமிழ்நாட்டு வா
+[skip] Meta-இன் சர்வதேச கொள்கை மாற்றம்; தமிழ்நாட்டு மக்களுக்கு உடனட
+[skip] தெல்லி நிகழ்வு; தமிழ்நாட்டு வாசகரைப் பொருத்தம் இல்லை. AAP = 
+[skip] ஜம்மு-காஷ்மீர் அரசின் உள்ளூர் அரசு செயல்; தமிழ்நாட்டுக்குப் 
+[skip] தமிழ்நாட்டுக்குப் பொருத்தமில்லை — UPES (Uttarakhand Deemed U
+[publish] விருது விழாவில் தொகுப்பாளர் மீது பாட்டில் வீசிய நடிகர் ராணா
+[skip] தயாரிப்பு அறிவிப்பு மட்டுமே; தமிழ்நாடு வாசகருக்குப் பொருத்தம
+[skip] வெளிநாட்டு ক্রীড়া মন্তব্যকারীর ভবিষ্যৎ পূর্বাভাস। তাৎক্ষণিক
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 2
+[done] feed 300 · pending 1 · எழுதியவை 5
