@@ -143,15 +143,23 @@ def cluster(items, threshold=0.28):
             clusters.append({"topic_hint": it["topic_hint"], "tokens": t, "items": [it]})
     return clusters
 
+# உணர்வுபூர்வ/சட்டரீதியான துறைகள் — ஒரு மூலம் போதாது
+STRICT_TOPICS = {"crime", "court", "govt", "economy", "health"}
+
+
 def eligible(c):
-    """வெளியீட்டுத் தகுதி: official ஒன்று போதும்; media என்றால் 2 தனித்த மூலங்கள்."""
+    """வெளியீட்டுத் தகுதி.
+    official ஒன்று போதும். media என்றால் 2 தனித்த மூலங்கள்.
+    குற்றம்/நீதிமன்றம்/அரசு/பொருளாதாரம்/சுகாதாரம் — ஒரு மூலம் மட்டும் என்றால் **வெளியிடக் கூடாது**."""
     grades = {i["grade"] for i in c["items"]}
     names = {i["source"] for i in c["items"]}
     if "official" in grades:
         return True, []
     if len(names) >= 2:
         return True, []
-    return True, ["single_source"]   # வெளியிடலாம், ஆனால் flag → Telegram ஒப்புதல்
+    if c.get("topic_hint") in STRICT_TOPICS:
+        return False, ["single_source_strict"]      # ஒரே ஊடகம் — உறுதி இல்லை
+    return True, ["single_source"]
 
 # ---------------------------------------------------------------- 3. write (Claude)
 
@@ -189,56 +197,98 @@ def write_filler(client, topic, today, now):
 
 # ---------------------------------------------------------------- சந்தை நிலவரம்
 def _yf(sym):
-    """Yahoo Finance — கடைசி விலை + 7 நாள் வரலாறு (key இல்லை)."""
-    try:
-        r = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}",
-                         params={"interval": "1d", "range": "30d"},
-                         headers={"User-Agent": "Mozilla/5.0"}, timeout=20).json()
-        res = r["chart"]["result"][0]
-        closes = [c for c in res["indicators"]["quote"][0]["close"] if c]
-        prev = res["meta"].get("chartPreviousClose") or (closes[-2] if len(closes) > 1 else closes[-1])
-        return {"last": closes[-1], "prev": prev, "hist": closes[-7:], "month": closes[0] if closes else None}
-    except Exception as ex:
-        print(f"[market:{sym}]", str(ex)[:80])
-        return None
+    """Yahoo Finance — கடைசி விலை, முந்தைய இறுதி, சந்தை நேரம் (key இல்லை)."""
+    for attempt in range(2):
+        try:
+            r = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}",
+                             params={"interval": "1d", "range": "10d"},
+                             headers={"User-Agent": "Mozilla/5.0"}, timeout=20).json()
+            res = r["chart"]["result"][0]
+            meta = res.get("meta") or {}
+            closes = [c for c in res["indicators"]["quote"][0]["close"] if c]
+            if not closes:
+                return None
+            last = meta.get("regularMarketPrice") or closes[-1]
+            prev = meta.get("previousClose") or meta.get("chartPreviousClose")
+            if not prev or prev == last:
+                prev = closes[-2] if len(closes) > 1 else last
+            ts = meta.get("regularMarketTime")
+            return {"last": float(last), "prev": float(prev),
+                    "ts": int(ts) if ts else None,
+                    "state": meta.get("marketState", ""), "sym": sym}
+        except Exception as ex:
+            if attempt:
+                print(f"[market:{sym}]", str(ex)[:80])
+            time.sleep(2)
+    return None
 
 
-def market_snapshot():
-    """தங்கம், வெள்ளி, சென்செக்ஸ், நிஃப்டி, டாலர் — 30 நிமிடத்திற்கு ஒரு முறை."""
-    out = {"at": datetime.now(IST).isoformat(timespec="minutes")}
-    usdinr = _yf("INR=X")
-    gold = _yf("GC=F")        # $/troy ounce
-    silver = _yf("SI=F")
-    sensex = _yf("^BSESN")
-    nifty = _yf("^NSEI")
+def _age_ta(ts):
+    """எவ்வளவு நேரம் முன் — தமிழில்."""
+    if not ts:
+        return ""
+    mins = int((time.time() - ts) / 60)
+    if mins < 2:
+        return "இப்போது"
+    if mins < 60:
+        return f"{mins} நிமிடம் முன்"
+    if mins < 24 * 60:
+        return f"{mins // 60} மணி நேரம் முன்"
+    d = mins // (24 * 60)
+    return "நேற்று" if d == 1 else f"{d} நாள் முன்"
+
+
+def market_snapshot(prev_snap=None):
+    """தங்கம், வெள்ளி, சென்செக்ஸ், நிஃப்டி, டாலர். திடீர் மாற்றம் என்றால் நிராகரிப்பு."""
+    usdinr = _yf("INR=X"); gold = _yf("GC=F"); silver = _yf("SI=F")
+    sensex = _yf("^BSESN"); nifty = _yf("^NSEI")
+    if not usdinr:
+        print("[market] டாலர் விகிதம் கிடைக்கவில்லை"); return None
     OZ = 31.1035
+    GOLD_F, SILVER_F = 1.12, 1.22      # இந்திய இறக்குமதி வரி + GST
+    old = prev_snap or {}
+    out = {"at": datetime.now(IST).isoformat(timespec="minutes")}
+
+    def sane(key, val, band=0.10):
+        """முந்தைய மதிப்பிலிருந்து 10%-க்கு மேல் தாவினால் சந்தேகம் — பழையதை வை."""
+        o = old.get(key)
+        if o and val and abs(val - o) / o > band:
+            print(f"[market] {key} சந்தேகமான மாற்றம் {o} → {round(val)} — பழையது வைக்கப்படுகிறது")
+            return o, True
+        return val, False
 
     def pct(d):
-        if not d or not d.get("prev"):
-            return 0.0
-        return round((d["last"] - d["prev"]) / d["prev"] * 100, 2)
+        return round((d["last"] - d["prev"]) / d["prev"] * 100, 2) if d and d.get("prev") else 0.0
 
-    if usdinr and gold:
-        g24 = gold["last"] * usdinr["last"] / OZ            # $/oz → ₹/gram
-        g24 *= 1.09                                          # இறக்குமதி வரி + சுங்கம் (தோராயம்)
-        out["gold24"] = round(g24)
-        out["gold22"] = round(g24 * 22 / 24)
+    if gold:
+        g24 = gold["last"] * usdinr["last"] / OZ * GOLD_F
+        g24, held = sane("gold24", round(g24))
+        out["gold24"] = round(g24); out["gold22"] = round(g24 * 22 / 24)
         out["gold_pct"] = pct(gold)
-        out["gold_hist"] = [round(c * usdinr["last"] / OZ * 1.09) for c in (gold.get("hist") or [])]
-        if gold.get("month"):
-            out["gold_month"] = round(gold["month"] * usdinr["last"] / OZ * 1.09)
-        out["gold_per10k"] = round(10000 / g24, 2) if g24 else None
-    if usdinr and silver:
-        sv = silver["last"] * usdinr["last"] / OZ * 1.09
-        out["silver"] = round(sv, 2)
-        out["silver_pct"] = pct(silver)
+        p24 = gold["prev"] * usdinr["last"] / OZ * GOLD_F
+        out["gold24_chg"] = round(gold["last"] * usdinr["last"] / OZ * GOLD_F - p24)
+        out["gold22_chg"] = round(out["gold24_chg"] * 22 / 24)
+        out["gold_per10k"] = round(10000 / out["gold24"], 2)
+        out["gold_age"] = _age_ta(gold.get("ts")); out["gold_ts"] = gold.get("ts")
+        if held:
+            out["gold_note"] = "சரிபார்ப்பில் உள்ளது"
+    if silver:
+        sv = silver["last"] * usdinr["last"] / OZ * SILVER_F
+        sv, _ = sane("silver", round(sv, 2))
+        out["silver"] = round(sv, 2); out["silver_pct"] = pct(silver)
+        out["silver_chg"] = round((silver["last"] - silver["prev"]) * usdinr["last"] / OZ * SILVER_F, 2)
     if sensex:
-        out["sensex"] = round(sensex["last"]); out["sensex_pct"] = pct(sensex)
+        v, _ = sane("sensex", round(sensex["last"]), 0.08)
+        out["sensex"] = round(v); out["sensex_pct"] = pct(sensex)
+        out["sensex_age"] = _age_ta(sensex.get("ts")); out["market_state"] = sensex.get("state", "")
     if nifty:
-        out["nifty"] = round(nifty["last"]); out["nifty_pct"] = pct(nifty)
+        v, _ = sane("nifty", round(nifty["last"]), 0.08)
+        out["nifty"] = round(v); out["nifty_pct"] = pct(nifty)
     if usdinr:
         out["usd"] = round(usdinr["last"], 2); out["usd_pct"] = pct(usdinr)
-    return out if len(out) > 3 else None
+        out["usd_age"] = _age_ta(usdinr.get("ts"))
+    return out if out.get("gold24") or out.get("sensex") else None
+
 
 def send_push(items, brief_item=None):
     """Firebase Cloud Messaging — பக்கம் வாரியாக அறிவிப்பு. FIREBASE_SA இல்லையெனில் தவிர்."""
@@ -403,6 +453,46 @@ def foreign_chars(text):
     return sorted({ch for ch in str(text or "") if not ALLOWED.match(ch)})
 BAD_TAIL = ("மற்றும்", "ஆனால்", "என்று", "என", "இதனால்", "அதனால்", "எனவே", "-", "–", "…", ",", ";", ":")
 
+
+
+# ---------------------------------------------------------------- உண்மைச் சரிபார்ப்பு
+TA_NUM = {"ஒன்று": "1", "இரண்டு": "2", "மூன்று": "3", "நான்கு": "4", "ஐந்து": "5", "ஆறு": "6",
+          "ஏழு": "7", "எட்டு": "8", "ஒன்பது": "9", "பத்து": "10", "நூறு": "100", "ஆயிரம்": "1000"}
+
+
+def _nums(text):
+    """உரையில் உள்ள எண்கள் — காற்புள்ளி/இடைவெளி நீக்கி ஒப்பிடத் தயார்."""
+    out = set()
+    for m in re.finditer(r"\d[\d,\.]*", str(text or "")):
+        t = m.group(0).rstrip(".").replace(",", "")
+        if t:
+            out.add(t)
+            if "." in t:
+                out.add(t.split(".")[0])
+    return out
+
+
+def fact_problems(story, src_text):
+    """மூலத்தில் இல்லாத எண் / ஆண்டு செய்தியில் வந்தால் பிழை. தவறான தகவலைத் தடுக்கும்."""
+    src = _nums(src_text)
+    # ஆண்டுகளும் சதவீதமும் மூலத்தில் இருக்க வேண்டும்
+    body = " ".join([str(story.get("headline") or "")] + [str(x) for x in (story.get("lines") or [])])
+    bad = []
+    for n in _nums(body):
+        if n in src:
+            continue
+        # சிறிய எண்கள் (1–12) பொதுவான சொற்களில் வரலாம் — தவிர்
+        try:
+            if len(n) <= 2 and int(float(n)) <= 12:
+                continue
+        except Exception:
+            pass
+        # 2.5 → 2.50, 1240 → 1,240 வடிவ வேறுபாடு
+        alt = {n.lstrip("0"), n + "0", n.rstrip("0").rstrip(".")}
+        if alt & src:
+            continue
+        bad.append(n)
+    return ["மூலத்தில் இல்லாத எண்: " + ", ".join(bad[:5])] if bad else []
 
 def text_problems(story):
     """வெளியிடுவதற்கு முன் கட்டாயச் சோதனை. பிழைப் பட்டியலைத் திருப்பும்; காலி = சரி."""
@@ -1018,7 +1108,8 @@ def main():
             continue                      # இந்தப் பக்கம் இன்று நிரம்பிவிட்டது
         ok, extra_flags = eligible(c)
         if not ok:
-            mark_seen(c); continue
+            print(f"[மூலம்] ஒரே ஊடகம் ({c['topic_hint']}) — வெளியிடப்படவில்லை: {c['items'][0]['title'][:48]}")
+            continue
         try:
             _big = (c["topic_hint"] in BIG_TOPICS) or len(c["items"]) >= 2 \
                    or any(i.get("grade") == "official" for i in c["items"]) or c.get("score", 5) >= 8
@@ -1048,6 +1139,20 @@ def main():
             _errs = text_problems(story)
         if _errs:
             print("[தரம்] தோல்வி — வெளியிடப்படவில்லை:", "; ".join(_errs[:3]))
+            mark_seen(c); continue
+        # உண்மைச் சரிபார்ப்பு — மூலத்தில் இல்லாத எண் வந்தால் ஒரு திருத்தம், பிறகு நிராகரிப்பு
+        _src = " ".join((i.get("title", "") + " " + i.get("text", "")) for i in c["items"])
+        _f = fact_problems(story, _src)
+        if _f:
+            print("[உண்மை]", _f[0][:90], "→ திருத்துகிறோம்")
+            try:
+                story = fix_text(client, story, _f + ["மூல உரையில் உள்ள எண்களை மட்டும் பயன்படுத்து; "
+                                                     "உறுதியில்லாத எண்ணை நீக்கிவிடு"])
+                _f = fact_problems(story, _src)
+            except Exception:
+                pass
+        if _f:
+            print("[உண்மை] தோல்வி — வெளியிடப்படவில்லை:", _f[0][:90])
             mark_seen(c); continue
         mark_seen(c)
         written += 1
@@ -1266,9 +1371,36 @@ def main():
     except Exception as ex:
         print("[தரம்] சுத்தப்படுத்தல் பிழை", str(ex)[:110])
 
+    # 5b85. ஏற்கனவே வெளியானவற்றின் படங்கள் — பொருந்தாதவற்றை நீக்கு/மாற்று
+    try:
+        chg = 0
+        for x in feed[:120]:
+            if str(x.get("published_at", ""))[:10] != today:
+                continue
+            im = x.get("image") or {}
+            if not im.get("url"):
+                continue
+            q = (x.get("image_query") or "").strip()
+            per = (x.get("person_en") or "").strip()
+            u = (im.get("url") or "").lower()
+            keep = True
+            if per:
+                keep = ("wikipedia" in u or "wikimedia" in u)
+            elif im.get("symbolic") and q:
+                keep = image_matches(im, q)
+            elif not q:
+                keep = ("wikipedia" in u or "wikimedia" in u or "gov.in" in u)
+            if not keep:
+                x["image"] = place_image(x.get("headline")) or (pick_image({"items": []}, x) if q else None)
+                chg += 1
+        if chg:
+            print(f"[image] {chg} பொருந்தாத படம் மாற்றப்பட்டது")
+    except Exception as ex:
+        print("[image] சுத்தப்படுத்தல் பிழை", str(ex)[:110])
+
     # 5b9. சந்தை நிலவரம் — தங்கம், வெள்ளி, சென்செக்ஸ், நிஃப்டி, டாலர்
     try:
-        ms = market_snapshot()
+        ms = market_snapshot(load_json(DATA / "market.json", {}))
         if ms:
             save_json(DATA / "market.json", ms)
             print(f"[market] தங்கம் 22K ₹{ms.get('gold22','—')} · சென்செக்ஸ் {ms.get('sensex','—')}")
