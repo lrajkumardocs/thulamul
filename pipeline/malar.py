@@ -169,7 +169,7 @@ def tmdb_poster(q, year=None):
 
 
 # ---------------------------------------------------------------- build
-def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, telegram=None):
+def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, telegram=None, cinema_news=""):
     """run.py அழைக்கும். வெற்றி → dict; தோல்வி → None."""
     p = (PIPE / "prompts" / "malar.md").read_text(encoding="utf-8")
     p = (p.replace("{{WEEK}}", week).replace("{{TODAY}}", today).replace("{{ISSUE}}", str(issue))
@@ -211,7 +211,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
         ("history, hero", 6000),
         ("essay, agri, spirit", 8000),
         ("word, zen, poem, food, tech", 8000),
-        ("books, films, remedy, satire", 9000),
+        ("books, remedy, satire", 8000),
     ]:
         try:
             m.update(ask(f"{week} வாரமலர், இதழ் {issue}. இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: "
@@ -219,13 +219,31 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
         except Exception as ex:
             print(f"[malar] {part} தோல்வி:", str(ex)[:90])
         time.sleep(2)
+    # திரை விமர்சனம் — உண்மையான படங்கள் மட்டும்
+    try:
+        fm = ask(f"{week} வாரமலர். 'films' பகுதியை மட்டும் JSON-ஆகத் தா. "
+                 f"இந்த வாரச் சினிமாச் செய்திகள்:\n{cinema_news[:6000] or '(தரவு இல்லை)'}\n"
+                 "இவற்றில் உண்மையில் வெளியான படங்களை மட்டும் எடு. உறுதியாகத் தெரியாவிட்டால் films: [].", 6000)
+        if isinstance(fm.get("films"), list):
+            m["films"] = fm["films"]
+    except Exception as ex:
+        print("[malar] films", str(ex)[:90])
+    time.sleep(2)
+
     # விடுபட்டவற்றை மீண்டும் கேள் — முழு இதழ் உறுதி
+    def _ok(k, v):
+        if k == "hero":
+            return bool(v) and len(str((v or {}).get("body", ""))) > 200 and (v or {}).get("name")
+        if k in ("essay", "agri", "spirit", "word", "zen", "food"):
+            return bool(v) and len(str((v or {}).get("body") or (v or {}).get("story") or (v or {}).get("intro") or "")) > 120
+        return bool(v)
+
     NEED = {"roundup": 5, "numbers": 5, "history": 7, "hero": 1, "essay": 1, "agri": 1,
             "spirit": 1, "word": 1, "zen": 1, "poem": 1, "food": 1, "tech": 3, "books": 3,
-            "films": 1, "remedy": 1, "satire": 5}
+            "remedy": 1, "satire": 5}
     for attempt in range(3):
         missing = [k for k, n in NEED.items()
-                   if not m.get(k) or (isinstance(m.get(k), list) and len(m[k]) < min(n, 3))]
+                   if not _ok(k, m.get(k)) or (isinstance(m.get(k), list) and len(m[k]) < min(n, 3))]
         if not missing:
             break
         print("[malar] விடுபட்டவை:", ", ".join(missing))
@@ -241,7 +259,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
             time.sleep(2)
     if not m:
         raise RuntimeError("எந்தப் பகுதியும் வரவில்லை")
-    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 12
+    m["week"] = week; m["issue"] = issue; m["generated"] = today; m["v"] = 13
 
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -316,7 +334,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
     for b in m.get("books", []):
         b["cover"] = openlibrary_cover(b.get("cover_query") or b.get("title_en", "")) or None
     for f in m.get("films", []):
-        f["poster"] = tmdb_poster(f.get("poster_query") or f.get("title", "")) or None
+        f["poster"] = wiki_photo(f.get("poster_query") or f.get("title", "")) or tmdb_poster(f.get("poster_query") or f.get("title", "")) or None
 
     if telegram:
         try:
@@ -421,7 +439,7 @@ def topup(client, model, m, today, week_heads="", telegram=None):
         time.sleep(1)
 
     if changed:
-        m["v"] = 12
+        m["v"] = 13
         if telegram:
             try:
                 telegram("📔 வாரமலர் — விடுபட்ட படங்கள் சேர்க்கப்பட்டன.")
