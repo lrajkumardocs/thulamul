@@ -1,15 +1,15 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 5 புதியவை
+[fetch] The Hindu TN: 6 புதியவை
 [fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 1 புதியவை
+[fetch] BBC Tamil: 0 புதியவை
 [fetch] BBC World: 6 புதியவை
-[fetch] Al Jazeera: 9 புதியவை
+[fetch] Al Jazeera: 10 புதியவை
 [fetch] ESPNcricinfo: 12 புதியவை
 [fetch] The Hindu Sport: 20 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 7 புதியவை
+[fetch] Cinema Express: 6 புதியவை
 [fetch] The Hindu Tech: 6 புதியவை
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2424d7e8d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 5 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc5f1372790>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 6 புதியவை
 [fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,12 +65,10 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 12 புதியவை
+[fetch] TN Police News: 13 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 423 → நிகழ்வுகள் 408
-[triage] 408 → 36 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] 5eb6e7feda84: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சூரியா, ஜோதிகா தம்பதிகள் 20 ஆண்டுகளுக்குப் பிறகு誓约ு புதுப்பித்தனர்
-[skip] உலகச் செய்தி — பாரிஸ் நீதிமன்றத் வழக்கு, தமிழ்நாடு / இந்திய 
+[run] புதியவை 427 → நிகழ்வுகள் 412
+[triage] 412 → 13 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] சௌதி அரேபியா-ஹூதி மோதல் — தமிழ்நாடு/இந்தியாவைப் பாதிக்காது. 
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 1
+[done] feed 300 · pending 0 · எழுதியவை 0
