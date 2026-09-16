@@ -1,15 +1,15 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 9 புதியவை
+[fetch] The Hindu TN: 10 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 2 புதியவை
-[fetch] BBC World: 8 புதியவை
+[fetch] BBC World: 7 புதியவை
 [fetch] Al Jazeera: 9 புதியவை
-[fetch] ESPNcricinfo: 13 புதியவை
+[fetch] ESPNcricinfo: 15 புதியவை
 [fetch] The Hindu Sport: 22 புதியவை
 [fetch] The Hindu Cinema: 1 புதியவை
-[fetch] Cinema Express: 8 புதியவை
+[fetch] Cinema Express: 7 புதியவை
 [fetch] The Hindu Tech: 7 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -23,12 +23,12 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='agritech.tnau.ac.in', port=443) at 0x7f4a93e940d0>, 'Connection to agritech.tnau.ac.in timed out. (connect timeout=10)'))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 20 புதியவை
+[fetch] Bar and Bench: 19 புதியவை
 [fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 20 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4a93e96d10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4188eec550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 28 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -68,8 +68,10 @@
 [fetch] TN Police News: 14 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
 [run] புதியவை 583 → நிகழ்வுகள் 527
-[triage] 527 → 19 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] லாஸ் ஏஞ্சல்ஸ், அமெரிக்காவில் நிகழ்ந்த விபத்து. தமிழ்நாடு/இந்
-[market] தங்கம் 22K ₹13481 · சென்செக்ஸ் 74350
+[triage] 527 → 25 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] 107a0e0cd4c6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தாம்பரம் மாநகராட்சியில் ஊழல் புகார்: ஆணையர் பதவி நீக்கம்
+[market] தங்கம் 22K ₹13489 · சென்செக்ஸ் 74418
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 1
