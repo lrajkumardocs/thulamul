@@ -1,13 +1,13 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 8 புதியவை
+[fetch] The Hindu TN: 9 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 1 புதியவை
-[fetch] BBC World: 5 புதியவை
+[fetch] BBC World: 6 புதியவை
 [fetch] Al Jazeera: 10 புதியவை
 [fetch] ESPNcricinfo: 13 புதியவை
-[fetch] The Hindu Sport: 20 புதியவை
+[fetch] The Hindu Sport: 21 புதியவை
 [fetch] The Hindu Cinema: 1 புதியவை
 [fetch] Cinema Express: 8 புதியவை
 [fetch] The Hindu Tech: 7 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 24 புதியவை
+[fetch] FreeJobAlert: 28 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 14 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] Bar and Bench: 18 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 20 புதியவை
 [fetch] Dinamani Sports: 22 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f08970f8390>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f204da17690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,12 +67,9 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 14 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 555 → நிகழ்வுகள் 499
-[triage] 499 → 11 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு வாசகரைப் பாதிக்காது. 
-[tts-edge] 5574d0e7546f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[tts-edge] 9b1d1ae280f1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[தரம்] பழையவை: 2 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹13466 · சென்செக்ஸ் 74332
+[run] புதியவை 575 → நிகழ்வுகள் 518
+[triage] 518 → 23 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[market] தங்கம் 22K ₹13450 · சென்செக்ஸ் 74280
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
