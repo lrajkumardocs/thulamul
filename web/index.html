@@ -299,6 +299,20 @@
   .grannyhead img{width:64px;height:64px;min-width:64px;object-fit:cover;object-position:center 22%;
      border-radius:50%;background:var(--paper2);border:1px solid var(--rule);flex:none}
   .grannyhead>div{flex:1;min-width:0}
+  .mkt{background:var(--card,#fff);border:1px solid var(--rule);border-radius:14px;padding:14px 16px;margin-top:14px}
+  .mkt-h{font-family:var(--serif);font-size:13px;color:var(--brass);letter-spacing:.06em;display:flex;justify-content:space-between}
+  .mkt-h span{color:var(--ink3);font-family:var(--sans);letter-spacing:0}
+  .mkt-row{display:flex;align-items:baseline;gap:8px;padding:9px 0;border-bottom:1px solid var(--rule)}
+  .mkt-row span:first-child{flex:1;font-size:14px;color:var(--ink2)}
+  .mkt-row b{font-family:var(--serif);font-size:19px;font-weight:600}
+  .mkt-row i{font-style:normal;font-size:11px;color:var(--ink3);margin-right:6px}
+  .mkt-row .up{color:#2F6B4F;font-size:12px}
+  .mkt-row .dn{color:#9C2F2F;font-size:12px}
+  .mkt-row .flat{color:var(--ink3);font-size:12px}
+  .mkt-note{background:var(--brass2);border-radius:10px;padding:10px 12px;margin-top:10px;font-family:var(--text);font-size:14px;line-height:1.7}
+  .mkt-spark{margin-top:12px}
+  .mkt-sep{height:1px;background:var(--ink);opacity:.15;margin:12px 0 4px}
+  .mkt-cap{font-size:11px;color:var(--ink3);line-height:1.6;margin-top:8px}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -319,9 +333,10 @@
   .wm{position:absolute;right:10px;bottom:10px;line-height:1;font-family:var(--serif);font-size:11px;color:rgba(243,242,238,.85);text-shadow:0 0 4px rgba(0,0,0,.6);pointer-events:none;letter-spacing:.04em}
   .imgwrap{position:relative;display:block;width:100%;margin:0 0 8px;line-height:0;overflow:hidden;border-radius:4px;background:var(--paper2)}
   .fig{margin:14px 0;line-height:0}
-  .fig img{display:block;width:100%;height:auto;max-height:60vh;object-fit:contain;background:var(--paper2);border-radius:4px}
+  .fig img{display:block;width:100%;height:auto;border-radius:8px}
   .fig figcaption{display:block;font-size:11px;color:var(--ink3);font-style:italic;line-height:1.5;margin-top:6px}
   .figfull{margin:16px 0;line-height:0}
+  .figfull img{display:block;width:100%;height:auto;border-radius:10px}
   .figfull{margin:16px 0;line-height:0}
   .figfull{margin:16px 0;line-height:0}
   @media print{body{display:none}}
@@ -351,7 +366,7 @@ body{max-width:none;background:var(--paper)}
     .lead h2{font-size:30px;line-height:1.3}
     .story,.artcard,.jobcard{border-bottom:0;border:1px solid var(--rule);border-radius:12px;padding:18px 20px}
     .story h2{font-size:20px}
-    .fig img{max-height:460px}
+    
     .twoside{grid-template-columns:1fr 1fr}
     .edbody,.mp{font-size:16.5px}
     .malmenu .mrow{padding:16px 0}
@@ -455,7 +470,7 @@ const T={front:'முதல் பக்கம்',admid:'விளம்பர
 const MAIN=['all','tn','india','world','edit','economy','sports','cinema','tech','rasi'], MORE=['court','jobs','health','agri','spirit','assembly'];
 const TA=['1','2','3','4','5'];
 let LANG=localStorage.getItem('lang')||'ta';
-let comicIdx=null,ADS=null;
+let comicIdx=null,ADS=null,MKT=null;
 fetch(BASE+'data/state.json'+q).then(r=>r.json()).then(d=>{if(d&&d.launch_date){window.__launch=d.launch_date;renderHome();}}).catch(()=>{});
 let feed=[],cur='all',eds=[],brief=null,ads=[],malar=null,rasi=null,aied=null,rasiSel=parseInt(localStorage.getItem('rasi')||'0');
 const $=s=>document.querySelector(s);
@@ -600,6 +615,8 @@ function pageBody(k){
   if(k==='admid'){return admidHtml();}
   if(k==='ads'){return adsHtml();}
   if(k==='rasi'){const i=PAGES.indexOf(k);return rasiHtml()+'';}
+  if(k==='economy'){const front=frontIds();const items=pub().filter(x=>x.topic==='economy'&&!front.has(x.id));
+    return `<div class="pad">${bellHtml('economy')}</div>`+`<div class="pad">${marketHtml()}</div>`+storiesHtml(items,'இன்றைய பொருளாதாரச் செய்திகள் விரைவில்.');}
   const i=PAGES.indexOf(k);const nxt=PAGES[i+1];const front=frontIds();const items=pub().filter(s=>s.topic===k&&!front.has(s.id));
   return bellHtml(k)+storiesHtml(items,'இந்தப் பக்கத்தில் இன்று செய்தி இல்லை.',true)+'';
 }
@@ -822,6 +839,34 @@ function adFormHtml(){
     <div class="small" id="ad-msg" style="margin-top:12px"></div>
     <div class="note"><b>நிபந்தனைகள்:</b> ${((ADS&&ADS.rules)||[]).map(esc).join('<br>')}</div>
     <div style="height:40px"></div></div>`;
+}
+function spark(vals,w,h){
+  const a=(vals||[]).filter(x=>typeof x==='number');
+  if(a.length<2) return '';
+  const mn=Math.min(...a), mx=Math.max(...a), rg=(mx-mn)||1;
+  const pts=a.map((v,i)=>`${(i/(a.length-1)*w).toFixed(1)},${(h-((v-mn)/rg)*h).toFixed(1)}`).join(' ');
+  const up=a[a.length-1]>=a[0];
+  return `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:${h}px"><polyline points="${pts}" fill="none"
+     stroke="${up?'#2F6B4F':'#9C2F2F'}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+}
+function arrow(p){const n=Number(p)||0;return n>0?`<span class="up">▲ ${n.toFixed(2)}%</span>`:n<0?`<span class="dn">▼ ${Math.abs(n).toFixed(2)}%</span>`:'<span class="flat">—</span>';}
+function marketHtml(){
+  const m=MKT;
+  if(!m||!m.gold22) return '';
+  const yr = (m.gold_month&&m.gold24)?Math.round((m.gold24-m.gold_month)/m.gold_month*100):null;
+  return `<div class="mkt">
+    <div class="mkt-h">இன்றைய விலை <span>${esc((m.at||'').slice(11,16))}</span></div>
+    <div class="mkt-row"><span>தங்கம் 22K</span><b>₹${Number(m.gold22).toLocaleString('en-IN')}</b><i>/கிராம்</i>${arrow(m.gold_pct)}</div>
+    <div class="mkt-row"><span>தங்கம் 24K</span><b>₹${Number(m.gold24).toLocaleString('en-IN')}</b><i>/கிராம்</i>${arrow(m.gold_pct)}</div>
+    ${m.silver?`<div class="mkt-row"><span>வெள்ளி</span><b>₹${m.silver}</b><i>/கிராம்</i>${arrow(m.silver_pct)}</div>`:''}
+    ${m.gold_per10k?`<div class="mkt-note">₹10,000-க்கு <b>${m.gold_per10k} கிராம்</b> தங்கம் (24K)${yr!==null?` · ஒரு மாதத்தில் ${yr>0?'+':''}${yr}%`:''}</div>`:''}
+    ${(m.gold_hist||[]).length>2?`<div class="mkt-spark">${spark(m.gold_hist,300,34)}<div class="mkt-cap">கடந்த 7 நாள் — தங்கம்</div></div>`:''}
+    <div class="mkt-sep"></div>
+    ${m.sensex?`<div class="mkt-row"><span>சென்செக்ஸ்</span><b>${Number(m.sensex).toLocaleString('en-IN')}</b><i></i>${arrow(m.sensex_pct)}</div>`:''}
+    ${m.nifty?`<div class="mkt-row"><span>நிஃப்டி 50</span><b>${Number(m.nifty).toLocaleString('en-IN')}</b><i></i>${arrow(m.nifty_pct)}</div>`:''}
+    ${m.usd?`<div class="mkt-row"><span>அமெரிக்க டாலர்</span><b>₹${m.usd}</b><i></i>${arrow(m.usd_pct)}</div>`:''}
+    <div class="mkt-cap">தங்கம்/வெள்ளி — உலகச் சந்தை அடிப்படையிலான குறிப்பு விலை; நகைக்கடையில் செய்கூலியுடன் மாறுபடும்.</div>
+  </div>`;
 }
 function adsHtml(){
   const cin=slotAds('cinema');
@@ -1335,7 +1380,8 @@ Promise.all([
   fetch(BASE+'data/ai_editorial.json'+q).then(r=>r.json()).catch(()=>null),
   fetch(BASE+'data/comic_index.json'+q).then(r=>r.json()).catch(()=>null),
   fetch(BASE+'pipeline/adslots.json'+q).then(r=>r.json()).catch(()=>null),
-]).then(([f,b,w,e,a,m,rs,ai,ci,asl])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;aied=ai;comicIdx=ci;ADS=asl;
+  fetch(BASE+'data/market.json'+q).then(r=>r.json()).catch(()=>null),
+]).then(([f,b,w,e,a,m,rs,ai,ci,asl,mk])=>{feed=f||[];brief=b;eds=e||[];wxData=w;ads=Array.isArray(a)?a:[];malar=m;rasi=rs;aied=ai;comicIdx=ci;ADS=asl;MKT=mk;
   try{renderHome();}catch(err){console.error('renderHome',err);const p=$('#paper');if(p)p.innerHTML='<div class="page"><div class="empty">ஏற்றுவதில் சிக்கல்: '+esc(err.message)+'</div></div>';}
   try{route(location.hash||'#home');}catch(err){console.error('route',err);}
   try{localWeather();}catch(err){}});
