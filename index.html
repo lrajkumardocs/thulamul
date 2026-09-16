@@ -109,7 +109,7 @@ main{padding:26px 0 60px}
 .article h1{font-family:var(--serif);font-size:clamp(28px,3.6vw,40px);font-weight:600;line-height:1.28;margin-top:8px}
 .article .meta{font-size:12.5px;color:var(--ink3);margin-top:12px;display:flex;gap:14px;flex-wrap:wrap;align-items:center}
 .article figure{margin:24px 0}
-.article figure img{border-radius:12px;width:100%}
+.article figure img{width:100%;height:auto;display:block;border-radius:12px}
 .article figcaption{font-size:11.5px;color:var(--ink3);font-style:italic;margin-top:8px}
 .lines{counter-reset:l;margin-top:8px}
 .lines p{font-family:var(--text);font-size:18px;line-height:2;margin-top:18px;padding-left:38px;position:relative}
@@ -192,6 +192,23 @@ details.med summary{font-size:13px;color:var(--brass);cursor:pointer;list-style:
 .cal .cal-on{background:var(--brass);color:#fff;font-weight:500}
 .cal .cal-on:hover{background:var(--ink)}
 .cal .cal-off{color:var(--ink3);background:var(--paper2);opacity:.5}
+
+/* market */
+.mkt{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:18px 20px;margin-bottom:22px}
+.mkt-h{font-family:var(--serif);font-size:13px;color:var(--brass);letter-spacing:.06em;display:flex;justify-content:space-between;margin-bottom:6px}
+.mkt-h span{color:var(--ink3);font-family:var(--sans);letter-spacing:0}
+.mkt-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.mkt-row{display:flex;align-items:baseline;gap:8px;padding:9px 0;border-bottom:1px solid var(--rule)}
+.mkt-row span:first-child{flex:1;font-size:14px;color:var(--ink2)}
+.mkt-row b{font-family:var(--serif);font-size:20px;font-weight:600}
+.mkt-row i{font-style:normal;font-size:11px;color:var(--ink3);margin-right:6px}
+.mkt-row .up{color:var(--green);font-size:12px}
+.mkt-row .dn{color:var(--red);font-size:12px}
+.mkt-row .flat{color:var(--ink3);font-size:12px}
+.mkt-note{background:var(--brass2);border-radius:10px;padding:11px 13px;margin-top:12px;font-family:var(--text);font-size:14.5px;line-height:1.7}
+.mkt-spark{margin-top:14px}
+.mkt-cap{font-size:11.5px;color:var(--ink3);line-height:1.6;margin-top:10px}
+@media (max-width:760px){.mkt-grid{grid-template-columns:1fr;gap:0}}
 
 /* ad units */
 .adunit{display:block;position:relative;border-radius:12px;overflow:hidden;background:var(--paper2);border:1px solid var(--rule)}
@@ -322,7 +339,7 @@ const T={front:'முதல் பக்கம்',tn:'தமிழ்நாட
  health:'சுகாதாரம்',rasi:'ராசிபலன்',cinema:'சினிமா',sports:'விளையாட்டு',comic:'காமிக்ஸ்',malar:'வாரமலர்',ads:'விளம்பரம்'};
 const MERGE={agri:'govt',spirit:'govt',tech:'govt',assembly:'tn'};
 
-let ADS=null;
+let ADS=null,MKT=null;
 let feed=[],brief=null,wxData=null,aied=null,rasi=null,malar=null,comicIdx=null,ads=[],FRONT=null,state=null;
 let liveFeed=null, issueLabel='';
 
@@ -411,7 +428,6 @@ function frontPage(){
   const picks=frontPicks();
   if(!picks.length) return `<div class="empty">இன்றைய செய்திகள் விரைவில்.<br>ஒவ்வொரு 30 நிமிடமும் புதுப்பிக்கப்படுகிறது.</div>`;
   const lead=picks[0], rest=picks.slice(1);
-  const urg=picks.find(x=>x.urgent);
   const img=lead.image&&lead.image.url;
   let h='';
   if(brief&&brief.audio) h+=`<div class="brief"><div><b>இன்றைய 60 நொடி</b>
@@ -423,12 +439,39 @@ function frontPage(){
       <div><div class="k"><span><b>${esc(lead.topic_ta||'')}</b> · ${ago(lead.published_at)}</span><span class="v">சரிபார்க்கப்பட்டது</span></div>
       <h1>${esc(lead.headline)}</h1><div class="sub">${esc((lead.lines||[])[0]||'')}</div></div></a>`;
   h+=`<div class="grid">${rest.map(cardHtml).join('')}</div>`;
-  if(urg) h+=`<a class="alert" href="?s=${encodeURIComponent(urg.id)}" style="margin-top:26px">
-      <small>⚠ அவசர அறிவிப்பு</small><b>${esc(urg.headline)}</b></a>`;
   h+=frontAd();
   h+=`<div class="nextbar"><span></span>
       <a href="?p=tn" style="text-align:right"><small>அடுத்த பக்கம்</small>தமிழ்நாடு →</a></div>`;
   return h;
+}
+
+function spark(vals,w,h){
+  const a=(vals||[]).filter(x=>typeof x==='number');
+  if(a.length<2) return '';
+  const mn=Math.min(...a), mx=Math.max(...a), rg=(mx-mn)||1;
+  const pts=a.map((v,i)=>`${(i/(a.length-1)*w).toFixed(1)},${(h-((v-mn)/rg)*h).toFixed(1)}`).join(' ');
+  const up=a[a.length-1]>=a[0];
+  return `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:${h}px"><polyline points="${pts}" fill="none"
+     stroke="${up?'#2F6B4F':'#9C2F2F'}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+}
+const arrow=p=>{const n=Number(p)||0;return n>0?`<span class="up">▲ ${n.toFixed(2)}%</span>`:n<0?`<span class="dn">▼ ${Math.abs(n).toFixed(2)}%</span>`:'<span class="flat">—</span>';};
+function marketHtml(){
+  const m=MKT; if(!m||!m.gold22) return '';
+  const yr=(m.gold_month&&m.gold24)?Math.round((m.gold24-m.gold_month)/m.gold_month*100):null;
+  return `<div class="mkt">
+    <div class="mkt-h">இன்றைய விலை <span>${esc((m.at||'').slice(11,16))}</span></div>
+    <div class="mkt-grid">
+     <div><div class="mkt-row"><span>தங்கம் 22K</span><b>₹${Number(m.gold22).toLocaleString('en-IN')}</b><i>/கிராம்</i>${arrow(m.gold_pct)}</div>
+      <div class="mkt-row"><span>தங்கம் 24K</span><b>₹${Number(m.gold24).toLocaleString('en-IN')}</b><i>/கிராம்</i>${arrow(m.gold_pct)}</div>
+      ${m.silver?`<div class="mkt-row"><span>வெள்ளி</span><b>₹${m.silver}</b><i>/கிராம்</i>${arrow(m.silver_pct)}</div>`:''}
+      ${m.gold_per10k?`<div class="mkt-note">₹10,000-க்கு <b>${m.gold_per10k} கிராம்</b> தங்கம் (24K)${yr!==null?` · ஒரு மாதத்தில் ${yr>0?'+':''}${yr}%`:''}</div>`:''}</div>
+     <div>${m.sensex?`<div class="mkt-row"><span>சென்செக்ஸ்</span><b>${Number(m.sensex).toLocaleString('en-IN')}</b><i></i>${arrow(m.sensex_pct)}</div>`:''}
+      ${m.nifty?`<div class="mkt-row"><span>நிஃப்டி 50</span><b>${Number(m.nifty).toLocaleString('en-IN')}</b><i></i>${arrow(m.nifty_pct)}</div>`:''}
+      ${m.usd?`<div class="mkt-row"><span>அமெரிக்க டாலர்</span><b>₹${m.usd}</b><i></i>${arrow(m.usd_pct)}</div>`:''}
+      ${(m.gold_hist||[]).length>2?`<div class="mkt-spark">${spark(m.gold_hist,300,36)}<div class="mkt-cap">கடந்த 7 நாள் — தங்கம்</div></div>`:''}</div>
+    </div>
+    <div class="mkt-cap">தங்கம்/வெள்ளி — உலகச் சந்தை அடிப்படையிலான குறிப்பு விலை; நகைக்கடையில் செய்கூலியுடன் மாறுபடும்.</div>
+  </div>`;
 }
 
 /* ---------- topic page ---------- */
@@ -437,6 +480,7 @@ function topicPage(k){
   const items=pub().filter(s=>s.topic===k&&!front.has(s.id));
   const i=PAGES.indexOf(k), nx=PAGES[i+1], pv=PAGES[i-1];
   let h=`<div class="sec-head"><h2>${T[k]}</h2><span>${items.length} செய்திகள்</span></div>`;
+  if(k==='economy') h+=marketHtml();
   h+= items.length ? `<div class="grid">${items.map(cardHtml).join('')}</div>`
      : `<div class="empty">இந்தப் பக்கத்தில் இன்று செய்திகள் இல்லை.<br>ஒவ்வொரு 30 நிமிடமும் புதுப்பிக்கப்படுகிறது.</div>`;
   h+=`<div class="nextbar">
@@ -639,11 +683,10 @@ function malarPage(){
       <div class="note">${esc(R.warn||'மருத்துவரை அணுகுவது அவசியம்.')}</div>`;}
   else if(sel==='satire') b=(m.satire||[]).map((x,i)=>`<div style="${i?'border-top:1px solid var(--rule);padding-top:26px;':''}margin-top:26px">
       ${x.image?`<div class="imgblock" style="margin-top:0"><img src="${esc(x.image)}" alt=""></div>`:''}
-      ${x.a||x.b?`<div style="margin-top:14px">
+      ${x.image?'':(x.a||x.b?`<div style="margin-top:14px">
         <p style="font-family:var(--serif);font-size:18px;line-height:1.7"><span style="color:var(--brass)">அவர்:</span> ${esc(x.a||'')}</p>
         <p style="font-family:var(--serif);font-size:18px;line-height:1.7;margin-top:8px"><span style="color:var(--brass)">இவர்:</span> ${esc(x.b||'')}</p></div>`
-        :`<p class="mp">${esc(x.line||'')}</p>`}
-      <div style="font-size:11.5px;color:var(--ink3);margin-top:8px">நையாண்டி · ${i+1}</div></div>`).join('')
+        :`<p class="mp">${esc(x.line||'')}</p>`)}</div>`).join('')
       +`<div class="note">இவை நபர்களைக் குறிக்கவில்லை; அதிகாரத்தின் இயல்பைப் பற்றியவை.</div>`;
   return `<div style="margin-bottom:14px"><a href="?p=malar" style="color:var(--brass);font-size:14px">← வாரமலர்</a></div>
     <article class="article"><div class="kick">${esc(sec[2])}</div><h1>${esc(sec[1])}</h1>${b}</article>`;
@@ -972,9 +1015,10 @@ Promise.all([
   j('state.json',null), fetch('pipeline/front_rules.json'+q).then(r=>r.json()).catch(()=>null),
   fetch('pipeline/departments.json'+q).then(r=>r.json()).catch(()=>null),
   fetch('pipeline/adslots.json'+q).then(r=>r.json()).catch(()=>null),
-]).then(([f,b,w,e,r,m,c,a,st,fr,dp,asl])=>{
+  j('market.json',null),
+]).then(([f,b,w,e,r,m,c,a,st,fr,dp,asl,mk])=>{
   feed=f||[]; brief=b; wxData=w; aied=e; rasi=r; malar=m||{}; comicIdx=c||[]; ads=Array.isArray(a)?a:[];
-  state=st; FRONT=fr; DEPTS=dp; ADS=asl;
+  state=st; FRONT=fr; DEPTS=dp; ADS=asl; MKT=mk;
   render();
 }).catch(err=>{ app.innerHTML='<div class="empty">ஏற்றுவதில் சிக்கல். சிறிது நேரம் கழித்து முயற்சிக்கவும்.</div>'; console.error(err); });
 
