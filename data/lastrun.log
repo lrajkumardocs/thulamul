@@ -1,11 +1,12 @@
+[expire] 1be77ce97362
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 4 புதியவை
+[fetch] The Hindu TN: 5 புதியவை
 [fetch] Dinamani TN: 22 புதியவை
-[fetch] BBC Tamil: 1 புதியவை
+[fetch] BBC Tamil: 2 புதியவை
 [fetch] BBC World: 6 புதியவை
-[fetch] Al Jazeera: 9 புதியவை
+[fetch] Al Jazeera: 8 புதியவை
 [fetch] ESPNcricinfo: 12 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
@@ -56,7 +57,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fec663faed0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff3cabd4890>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 3 புதியவை
 [fetch] Dinamani Govt: 22 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
@@ -65,12 +66,15 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 12 புதியவை
+[fetch] TN Police News: 13 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 396 → நிகழ்வுகள் 382
-[triage] 382 → 13 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இரான் மற்றும் அமெரிக்க போர், ஆயுதம் — தமிழ்நாடு/இந்திய வாசகர
-[skip] Chhattisgarh மாநில உள்ளூர் அரசியல் — தமிழ்நாட்டு வாசகருக்குப
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமில்லாத வெளிநாட்டு உள்ளூர் ர
+[run] புதியவை 398 → நிகழ்வுகள் 384
+[triage] 384 → 23 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] 87746f633a34: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சங்கரணாபரணம் நிறுவனத்தில் எழுத்தறிவு செயற்படிமுறை ஆயுதப்பयோகம் அறிமுகம்
+[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்கும் செய்தி அல்ல — சவர்ணம்
+[tts-edge] bad8622484c7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆப்பிரிக்க காட்டு நாய்கள் 4000 கிமீ தூரம் பயணம் செய்தன
+[jobs] தொகுப்பு 4
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 2
