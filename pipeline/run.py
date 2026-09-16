@@ -186,6 +186,60 @@ def write_filler(client, topic, today, now):
         print(f"[filler:{topic}] பிழை", str(ex)[:120])
         return None
 
+
+# ---------------------------------------------------------------- சந்தை நிலவரம்
+def _yf(sym):
+    """Yahoo Finance — கடைசி விலை + 7 நாள் வரலாறு (key இல்லை)."""
+    try:
+        r = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}",
+                         params={"interval": "1d", "range": "30d"},
+                         headers={"User-Agent": "Mozilla/5.0"}, timeout=20).json()
+        res = r["chart"]["result"][0]
+        closes = [c for c in res["indicators"]["quote"][0]["close"] if c]
+        prev = res["meta"].get("chartPreviousClose") or (closes[-2] if len(closes) > 1 else closes[-1])
+        return {"last": closes[-1], "prev": prev, "hist": closes[-7:], "month": closes[0] if closes else None}
+    except Exception as ex:
+        print(f"[market:{sym}]", str(ex)[:80])
+        return None
+
+
+def market_snapshot():
+    """தங்கம், வெள்ளி, சென்செக்ஸ், நிஃப்டி, டாலர் — 30 நிமிடத்திற்கு ஒரு முறை."""
+    out = {"at": datetime.now(IST).isoformat(timespec="minutes")}
+    usdinr = _yf("INR=X")
+    gold = _yf("GC=F")        # $/troy ounce
+    silver = _yf("SI=F")
+    sensex = _yf("^BSESN")
+    nifty = _yf("^NSEI")
+    OZ = 31.1035
+
+    def pct(d):
+        if not d or not d.get("prev"):
+            return 0.0
+        return round((d["last"] - d["prev"]) / d["prev"] * 100, 2)
+
+    if usdinr and gold:
+        g24 = gold["last"] * usdinr["last"] / OZ            # $/oz → ₹/gram
+        g24 *= 1.09                                          # இறக்குமதி வரி + சுங்கம் (தோராயம்)
+        out["gold24"] = round(g24)
+        out["gold22"] = round(g24 * 22 / 24)
+        out["gold_pct"] = pct(gold)
+        out["gold_hist"] = [round(c * usdinr["last"] / OZ * 1.09) for c in (gold.get("hist") or [])]
+        if gold.get("month"):
+            out["gold_month"] = round(gold["month"] * usdinr["last"] / OZ * 1.09)
+        out["gold_per10k"] = round(10000 / g24, 2) if g24 else None
+    if usdinr and silver:
+        sv = silver["last"] * usdinr["last"] / OZ * 1.09
+        out["silver"] = round(sv, 2)
+        out["silver_pct"] = pct(silver)
+    if sensex:
+        out["sensex"] = round(sensex["last"]); out["sensex_pct"] = pct(sensex)
+    if nifty:
+        out["nifty"] = round(nifty["last"]); out["nifty_pct"] = pct(nifty)
+    if usdinr:
+        out["usd"] = round(usdinr["last"], 2); out["usd_pct"] = pct(usdinr)
+    return out if len(out) > 3 else None
+
 def send_push(items, brief_item=None):
     """Firebase Cloud Messaging — பக்கம் வாரியாக அறிவிப்பு. FIREBASE_SA இல்லையெனில் தவிர்."""
     sa = os.environ.get("FIREBASE_SA")
@@ -340,7 +394,13 @@ def write_news(client, prompt, c, today, model=None):
 
 
 # ---------------------------------------------------------------- உரைத் தரக் காவல்
-NON_TAMIL = re.compile(r"[\u0900-\u097F\u0C00-\u0C7F\u0C80-\u0CFF\u0D00-\u0D7F\u0600-\u06FF\u0980-\u09FF]")
+# அனுமதிக்கப்பட்டவை: தமிழ் · ஆங்கிலம் · எண் · நிறுத்தற்குறி · இடைவெளி · ₹ % ° — வேறு எதுவும் பிழை
+ALLOWED = re.compile(r"[\u0B80-\u0BFFa-zA-Z0-9\s.,;:!?'\"()\[\]{}\-–—/%₹°+*=<>@&#_|\\~`^$…‘’“”\u200b\u200c\u200d\u00b7\u00a0\u2013\u2014\u2018\u2019\u201c\u201d\u2026\u20b9\u00b0\u00bd\u00bc]")
+
+
+def foreign_chars(text):
+    """தமிழ்/ஆங்கிலம் அல்லாத எழுத்துகள் (இந்தி, வங்காளம், சீனம், கொரியம்…) பட்டியல்."""
+    return sorted({ch for ch in str(text or "") if not ALLOWED.match(ch)})
 BAD_TAIL = ("மற்றும்", "ஆனால்", "என்று", "என", "இதனால்", "அதனால்", "எனவே", "-", "–", "…", ",", ";", ":")
 
 
@@ -352,8 +412,9 @@ def text_problems(story):
     closing = str(story.get("closing") or "").strip()
     blob = " ".join([head] + lines + [closing])
 
-    if NON_TAMIL.search(blob):
-        errs.append("தமிழ் அல்லாத இந்திய எழுத்து")
+    fc = foreign_chars(blob)
+    if fc:
+        errs.append("தமிழ் அல்லாத எழுத்து: " + "".join(fc[:8]))
     if len(head) < 12:
         errs.append("தலைப்பு மிகக் குறுகியது")
     if head.endswith(BAD_TAIL):
@@ -1177,6 +1238,17 @@ def main():
             save_json(DATA / "rasi.json", rs); print("[rasi] ராசிபலன் தயார்")
     except Exception as ex:
         print("[rasi] பிழை", ex)
+
+    # 5b9. சந்தை நிலவரம் — தங்கம், வெள்ளி, சென்செக்ஸ், நிஃப்டி, டாலர்
+    try:
+        ms = market_snapshot()
+        if ms:
+            save_json(DATA / "market.json", ms)
+            print(f"[market] தங்கம் 22K ₹{ms.get('gold22','—')} · சென்செக்ஸ் {ms.get('sensex','—')}")
+        else:
+            print("[market] தரவு கிடைக்கவில்லை")
+    except Exception as ex:
+        print("[market] பிழை", str(ex)[:110])
 
     # 5c. வானிலை — open-meteo (இலவசம், key தேவையில்லை); சென்னை + 4 நகரங்கள்
     try:
