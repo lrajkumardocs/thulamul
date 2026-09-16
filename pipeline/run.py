@@ -1239,6 +1239,33 @@ def main():
     except Exception as ex:
         print("[rasi] பிழை", ex)
 
+    # 5b8. ஏற்கனவே வெளியான செய்திகளில் எழுத்துப் பிழை — திருத்து அல்லது நீக்கு
+    try:
+        if not api_dead:
+            fixed = dropped = 0
+            for x in list(feed):
+                if str(x.get("published_at", ""))[:10] != today or x.get("status") != "published":
+                    continue
+                if fixed + dropped >= 12:
+                    break
+                errs = text_problems(x)
+                if not errs:
+                    continue
+                try:
+                    x2 = fix_text(client, dict(x), errs)
+                    if not text_problems(x2):
+                        x.update({k: x2[k] for k in ("headline", "lines", "closing") if k in x2})
+                        x["audio"] = make_audio(x["id"], x["headline"] + ". " + " ".join(x.get("lines", [])))
+                        fixed += 1
+                        continue
+                except Exception:
+                    pass
+                feed.remove(x); dropped += 1
+            if fixed or dropped:
+                print(f"[தரம்] பழையவை: {fixed} திருத்தம், {dropped} நீக்கம்")
+    except Exception as ex:
+        print("[தரம்] சுத்தப்படுத்தல் பிழை", str(ex)[:110])
+
     # 5b9. சந்தை நிலவரம் — தங்கம், வெள்ளி, சென்செக்ஸ், நிஃப்டி, டாலர்
     try:
         ms = market_snapshot()
