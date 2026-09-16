@@ -318,12 +318,12 @@
   .ph,.dph,.th,.ad img{position:relative}
   .wm{position:absolute;right:10px;bottom:10px;line-height:1;font-family:var(--serif);font-size:11px;color:rgba(243,242,238,.85);text-shadow:0 0 4px rgba(0,0,0,.6);pointer-events:none;letter-spacing:.04em}
   .imgwrap{position:relative;display:block;width:100%;margin:0 0 8px;line-height:0;overflow:hidden;border-radius:4px;background:var(--paper2)}
-  .fig{display:block;margin:0 0 14px;padding:0;width:100%;position:relative}
+  .fig{margin:14px 0;line-height:0}
   .fig img{display:block;width:100%;height:auto;max-height:60vh;object-fit:contain;background:var(--paper2);border-radius:4px}
   .fig figcaption{display:block;font-size:11px;color:var(--ink3);font-style:italic;line-height:1.5;margin-top:6px}
-  .figfull{margin:0 0 4px}
-  .figfull img{max-height:56vh;border-radius:0}
-  .figfull figcaption{padding:0 20px 10px}
+  .figfull{margin:16px 0;line-height:0}
+  .figfull{margin:16px 0;line-height:0}
+  .figfull{margin:16px 0;line-height:0}
   @media print{body{display:none}}
   .dim{opacity:.5}
 
@@ -347,7 +347,7 @@ body{max-width:none;background:var(--paper)}
     .stories>*{margin:0}
     .lead{grid-column:1 / -1;display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;
           border:1px solid var(--rule);border-radius:14px;padding:24px}
-    .lead .fig{margin:0}
+    .lead .fig{margin:14px 0;line-height:0}
     .lead h2{font-size:30px;line-height:1.3}
     .story,.artcard,.jobcard{border-bottom:0;border:1px solid var(--rule);border-radius:12px;padding:18px 20px}
     .story h2{font-size:20px}
@@ -405,8 +405,7 @@ body{max-width:none;background:var(--paper)}
 <section class="screen" id="s-me" style="height:calc(100vh - 64px);overflow-y:auto;-webkit-overflow-scrolling:touch;padding-bottom:40px">
   <div class="head"><div class="mast">மேலும்</div></div>
   <div class="pad">
-    <div class="prow"><span>மொழி</span><span class="seg" id="langseg"><span data-l="ta">தமிழ்</span><span data-l="en">English</span></span></div>
-    <div class="prow"><span>எழுத்து அளவு</span><span class="seg" id="fsseg"><span data-f="s">சிறியது</span><span data-f="m">நடுத்தரம்</span><span data-f="l">பெரியது</span></span></div>
+        <div class="prow"><span>எழுத்து அளவு</span><span class="seg" id="fsseg"><span data-f="s">சிறியது</span><span data-f="m">நடுத்தரம்</span><span data-f="l">பெரியது</span></span></div>
     <div class="prow" id="share-paper" style="cursor:pointer"><span>இன்றைய இதழைப் பகிர்</span><span class="brass">→</span></div>
     <div class="prow" style="cursor:pointer" onclick="go('#adform')"><span>விளம்பரம் செய்ய</span><span class="brass">→</span></div>
     <a class="prow" href="#legal/privacy"><span>தனியுரிமைக் கொள்கை</span><span class="brass">→</span></a>
@@ -593,7 +592,7 @@ function frontIds(){ return new Set(frontPicks().map(s=>s.id)); }
 function pageBody(k){
   if(k==='front'){const p=frontPicks();
     const urg=p.filter(x=>x.urgent)[0];
-    window.__urg=urg?`<a class="alertbar" href="#story/${esc(urg.id)}"><b>⚠ அவசர அறிவிப்பு</b><span>${esc(urg.headline)}</span></a>`:'';
+    window.__urg='';
     return `<div class="pad">${bellHtml('front')}</div>`+(brief&&brief.audio?briefHtml():'')+storiesHtml(p,'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+(window.__urg||'')+frontAdHtml()+'';}
   if(k==='editorial'){return editHtml()+'';}
   if(k==='comic'){const i=PAGES.indexOf(k);return comicHtml()+'';}
@@ -725,8 +724,7 @@ function malarHtml(){
   else if(k==='remedy'){const R=m.remedy;h+=`<div class="grannyhead">${R.image?`<img src="${BASE}${esc(R.image)}" alt="" onerror="this.remove()">`:''}<div><h2 style="font-size:19px">${esc(R.title)}</h2><div class="small muted" style="margin-top:3px">${esc(R.sub||'')}</div></div></div>`
     +esc(R.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')+`<div class="note">${esc(R.warn||'மருத்துவரை அணுகுவது அவசியம்.')}</div>`;}
   else if(k==='satire') h+=(m.satire||[]).map((x,i)=>`<div class="joke">${x.image?`<div class="jim"><img src="${BASE}${esc(x.image)}" alt="" onerror="this.parentElement.remove()"></div>`:''}
-    ${x.a||x.b?`<div class="dlg"><p><span>அவர்:</span> ${esc(x.a||'')}</p><p><span>இவர்:</span> ${esc(x.b||'')}</p></div>`:`<div class="jc">${esc(x.line||'')}</div>`}
-    <div class="jn">நையாண்டி · ${i+1}</div></div>`).join('')
+    ${x.image?'':(x.a||x.b?`<div class="dlg"><p><span>அவர்:</span> ${esc(x.a||'')}</p><p><span>இவர்:</span> ${esc(x.b||'')}</p></div>`:`<div class="jc">${esc(x.line||'')}</div>`)}</div>`).join('')
     +`<div class="note">இவை நபர்களைக் குறிக்கவில்லை; அதிகாரத்தின் இயல்பைப் பற்றியவை.</div>`;
   return h+'<div style="height:40px"></div></div>';
 }
@@ -735,7 +733,8 @@ document.addEventListener('click',e=>{const a=e.target.closest('a[href="#adform"
 function openAdForm(){
   const sc=document.getElementById('s-detail');
   if(!sc) return;
-  sc.innerHTML=`<div class="dhead"><button class="back" onclick="location.hash='#back'">← திரும்பு</button></div>`+adFormHtml();
+  window.__adFrom = (location.hash && location.hash.startsWith('#page/')) ? location.hash : ('#page/'+(curPage||'front'));
+  sc.innerHTML=`<div class="dhead"><button class="back" onclick="go(window.__adFrom||'#home')">← திரும்பு</button></div>`+adFormHtml();
   location.hash='#adform';
   document.querySelectorAll('.screen').forEach(x=>x.classList.remove('on'));
   sc.classList.add('on'); sc.scrollTop=0; wireAdForm();
