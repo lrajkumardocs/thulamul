@@ -104,27 +104,27 @@
   {
    "id": "exam_jobs_deadline",
    "ta": "தேர்வு முடிவு, பெரும் வேலைவாய்ப்பு அறிவிப்பு, கடைசி நாள்",
-   "weight": 66
+   "weight": 40
   },
   {
    "id": "sports_historic",
    "ta": "உலகக் கோப்பை, ஒலிம்பிக், வரலாற்று வெற்றி",
-   "weight": 64
+   "weight": 40
   },
   {
    "id": "space_science",
    "ta": "விண்வெளி, அறிவியல் சாதனை, பெரும் கண்டுபிடிப்பு",
-   "weight": 62
+   "weight": 40
   },
   {
    "id": "district_scheme",
    "ta": "மாவட்ட அளவுத் திட்டம், துறை அறிவிப்பு, உள்ளாட்சி முடிவு",
-   "weight": 55
+   "weight": 40
   },
   {
    "id": "cinema_culture",
    "ta": "சினிமா, கலை, பண்பாடு — பெரும் நிகழ்வு",
-   "weight": 45
+   "weight": 40
   },
   {
    "id": "routine",
@@ -149,7 +149,7 @@
   "ஊர": 0,
   "சிலர": 0
  },
- "front_min_weight": 55,
+ "front_min_weight": 70,
  "front_max": 7,
  "max_per_topic": 3
 }
