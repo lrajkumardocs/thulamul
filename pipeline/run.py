@@ -103,10 +103,34 @@ def fetch_all(sources, seen):
     return fresh
 
 # ---------------------------------------------------------------- 2. cluster
+def _stale(pub_str, days=3):
+    """3 நாளுக்கு மேல் பழைய RSS உருப்படியா?"""
+    if not pub_str:
+        return False
+    try:
+        from email.utils import parsedate_to_datetime
+        d = parsedate_to_datetime(str(pub_str))
+        if d is None:
+            return False
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - d).days > days
+    except Exception:
+        try:
+            d = datetime.fromisoformat(str(pub_str).replace("Z", "+00:00"))
+            if d.tzinfo is None:
+                d = d.replace(tzinfo=timezone.utc)
+            return (datetime.now(timezone.utc) - d).days > days
+        except Exception:
+            return False
+
+
 def cluster(items, threshold=0.28):
     """ஒரே நிகழ்வைப் பற்றிய items-ஐ இணைக்கும் (தலைப்பு+உரை சொற்கள் Jaccard)."""
     clusters = []
     for it in items:
+        if _stale(it.get("published")):
+            continue                              # 3 நாளுக்கு மேல் பழையது
         t = tokens(it["title"] + " " + it["text"][:600])
         placed = False
         for c in clusters:
@@ -313,6 +337,63 @@ def write_news(client, prompt, c, today, model=None):
     )
     raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
     return parse_json(client, raw)
+
+
+# ---------------------------------------------------------------- உரைத் தரக் காவல்
+NON_TAMIL = re.compile(r"[\u0900-\u097F\u0C00-\u0C7F\u0C80-\u0CFF\u0D00-\u0D7F\u0600-\u06FF\u0980-\u09FF]")
+BAD_TAIL = ("மற்றும்", "ஆனால்", "என்று", "என", "இதனால்", "அதனால்", "எனவே", "-", "–", "…", ",", ";", ":")
+
+
+def text_problems(story):
+    """வெளியிடுவதற்கு முன் கட்டாயச் சோதனை. பிழைப் பட்டியலைத் திருப்பும்; காலி = சரி."""
+    errs = []
+    head = str(story.get("headline") or "").strip()
+    lines = [str(x).strip() for x in (story.get("lines") or [])]
+    closing = str(story.get("closing") or "").strip()
+    blob = " ".join([head] + lines + [closing])
+
+    if NON_TAMIL.search(blob):
+        errs.append("தமிழ் அல்லாத இந்திய எழுத்து")
+    if len(head) < 12:
+        errs.append("தலைப்பு மிகக் குறுகியது")
+    if head.endswith(BAD_TAIL):
+        errs.append("தலைப்பு முழுமையடையவில்லை")
+    if len(lines) < 4:
+        errs.append("வரிகள் போதவில்லை")
+    for i, l in enumerate(lines, 1):
+        if len(l) < 25:
+            errs.append(f"வரி {i} மிகக் குறுகியது")
+        if not l.endswith((".", "?", "!")):
+            errs.append(f"வரி {i} முற்றுப்புள்ளி இல்லை")
+        if l.rstrip(".?!").rstrip().endswith(BAD_TAIL):
+            errs.append(f"வரி {i} அரைகுறையாக முடிகிறது")
+        if l.count("(") != l.count(")"):
+            errs.append(f"வரி {i} அடைப்புக்குறி பொருந்தவில்லை")
+    if closing and not closing.endswith((".", "?", "!")):
+        errs.append("முடிவு வரி முற்றுப்புள்ளி இல்லை")
+    # ஒரே வரி மீண்டும்
+    if len(set(lines)) < len(lines):
+        errs.append("வரி மீண்டும் வருகிறது")
+    return errs
+
+
+def fix_text(client, story, errs):
+    """பிழைகளைச் சொல்லி Claude-ஐத் திருத்தச் சொல்."""
+    sysmsg = ("நீ தமிழ்ச் செய்தி ஆசிரியர். கீழே ஒரு செய்தி JSON மற்றும் அதில் உள்ள பிழைகள். "
+              "பிழைகளைத் திருத்திய அதே JSON-ஐத் திருப்பித் தா — headline, lines, closing மட்டும் மாற்று; "
+              "மற்ற புலங்களை அப்படியே வை. விதிகள்: முழுவதும் தமிழ் எழுத்து (இந்தி/தெலுங்கு/கன்னடம் கூடாது; "
+              "பெயர்களைத் தமிழில் ஒலிபெயர்); ஒவ்வொரு வரியும் முழுமையான வாக்கியம், முற்றுப்புள்ளியில் முடிய வேண்டும்; "
+              "ஒரு வரி 20 சொல்லுக்குள்; அரைகுறையாக முடியக் கூடாது. JSON மட்டும், code fence இல்லை.")
+    payload = json.dumps({"headline": story.get("headline"), "lines": story.get("lines"),
+                          "closing": story.get("closing")}, ensure_ascii=False)
+    msg = client.messages.create(model=MODEL, max_tokens=2500, system=sysmsg,
+                                 messages=[{"role": "user", "content": payload + "\n\nபிழைகள்: " + "; ".join(errs)}])
+    raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+    d = parse_json(client, raw)
+    for k in ("headline", "lines", "closing"):
+        if d.get(k):
+            story[k] = d[k]
+    return story
 
 def validate(story):
     ok = isinstance(story.get("lines"), list) and len(story["lines"]) == 5
@@ -660,10 +741,46 @@ def stock_image(topic, query=""):
                 return im
     return None
 
+
+# அறியப்பட்ட இடங்கள் — விக்கிமீடியாவில் உறுதியான படம்
+PLACE_WIKI = {
+    "சென்னை உயர்நீதிமன்ற": "Madras High Court", "மதராஸ் உயர்நீதிமன்ற": "Madras High Court",
+    "மதுரை உயர்நீதிமன்ற": "Madras High Court Madurai Bench", "உச்ச நீதிமன்ற": "Supreme Court of India",
+    "டெல்லி உயர்நீதிமன்ற": "Delhi High Court", "கேரள உயர்நீதிமன்ற": "Kerala High Court",
+    "கர்நாடக உயர்நீதிமன்ற": "Karnataka High Court", "தலைமைச் செயலக": "Fort St. George Chennai",
+    "சட்டமன்ற": "Tamil Nadu Legislative Assembly", "ரிசர்வ் வங்கி": "Reserve Bank of India",
+    "பாராளுமன்ற": "Parliament House New Delhi", "ராஜ்பவன்": "Raj Bhavan Chennai",
+    "சென்ட்ரல் ரயில்": "Chennai Central railway station", "எழும்பூர்": "Chennai Egmore railway station",
+    "மெட்ரோ ரயில்": "Chennai Metro", "விமான நிலைய": "Chennai International Airport",
+    "மெரினா": "Marina Beach", "ஐஐடி": "IIT Madras", "அண்ணா பல்கலை": "Anna University",
+    "இஸ்ரோ": "ISRO", "ஸ்ரீஹரிகோட்டா": "Satish Dhawan Space Centre",
+}
+
+
+def place_image(headline):
+    """செய்தியில் அறியப்பட்ட இடம் இருந்தால் அதன் விக்கிப் படம்."""
+    h = str(headline or "")
+    for key, en in PLACE_WIKI.items():
+        if key in h:
+            im = wiki_image(en, "en")
+            if im:
+                im["symbolic"] = False
+                return im
+    return None
+
+
+def image_matches(im, query):
+    """படத்தின் விவரத்தில் தேடல் சொல்லின் முக்கியச் சொல் இருக்கிறதா — பொருந்தாத படத்தைத் தவிர்."""
+    if not im or not query:
+        return False
+    hay = (str(im.get("credit", "")) + " " + str(im.get("url", "")) + " " + str(im.get("title", ""))).lower()
+    words = [w for w in re.split(r"[^a-z0-9]+", str(query).lower()) if len(w) > 3]
+    if not words:
+        return True
+    return any(w in hay for w in words[:4])
+
 def pick_image(c, story=None):
-    """படம் — தவறான படம் வருவதைவிட படமே இல்லாதது மேல்.
-    1) அரசுத் தளப் படம்  2) நபர் செய்தி → அந்த நபரின் விக்கிப் படம் மட்டும்
-    3) பொருள் செய்தி → image_query-க்கு commons/stock. பொருந்தாவிட்டால் None."""
+    """படம் — தவறான படத்தைவிட படமே இல்லாதது மேல்."""
     for i in c["items"]:
         u = i.get("image") or ""
         if u and _safe_host(u):
@@ -671,9 +788,12 @@ def pick_image(c, story=None):
     if not story:
         return None
 
+    pl = place_image(story.get("headline"))
+    if pl:
+        return pl
+
     person = (story.get("person_en") or "").strip()
     if person:
-        # நபர் செய்தி — அவரது படம் கிடைத்தால் மட்டும்; இல்லையெனில் படம் இல்லை
         im = wiki_image(person, "en") or wiki_image(person, "ta")
         if im and person.split()[0].lower() in (im.get("credit", "") + im.get("url", "")).lower():
             return im
@@ -682,8 +802,12 @@ def pick_image(c, story=None):
     q = (story.get("image_query") or "").strip()
     if not q:
         return None
-    im = commons_image(q) or stock_image("", q)
-    if im:
+    im = commons_image(q)
+    if im and image_matches(im, q):
+        im["symbolic"] = True
+        return im
+    im = stock_image("", q)
+    if im and image_matches(im, q):
         im["symbolic"] = True
         return im
     return None
@@ -850,6 +974,20 @@ def main():
             print("[skip]", (story.get("reason") or "")[:60]); mark_seen(c); continue
         if not validate(story):
             print("[validate] தவறான வடிவம், தவிர்க்கப்பட்டது"); mark_seen(c); continue
+        # உரைத் தரக் காவல் — 2 திருத்த முயற்சி; பிறகும் பிழை என்றால் வெளியிடாது
+        _errs = text_problems(story)
+        for _try in range(2):
+            if not _errs:
+                break
+            print(f"[தரம்] {'; '.join(_errs[:3])} → திருத்துகிறோம் ({_try+1})")
+            try:
+                story = fix_text(client, story, _errs)
+            except Exception as ex:
+                print("[தரம்] திருத்தப் பிழை", str(ex)[:90]); break
+            _errs = text_problems(story)
+        if _errs:
+            print("[தரம்] தோல்வி — வெளியிடப்படவில்லை:", "; ".join(_errs[:3]))
+            mark_seen(c); continue
         mark_seen(c)
         written += 1
         state.setdefault("day_count", {})[today] = day_count + written
@@ -946,7 +1084,7 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if malar.get("week") == week and malar.get("v", 0) < 12 and not api_dead:
+        if malar.get("week") == week and malar.get("v", 0) < 13 and not api_dead:
             # இருக்கும் இதழ் — உரையை மாற்றாமல் விடுபட்ட படங்களை மட்டும் சேர்
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
@@ -971,7 +1109,9 @@ def main():
             done = [b.get("title_en", "") for old in [malar] for b in (old.get("books") or [])]
             done += load_json(DATA / "malar_books.json", [])
             done_heroes = load_json(DATA / "malar_heroes.json", [])
-            mm2 = mal.build(client, MODEL, week, today, issue, dates_ta, done, done_heroes, telegram)
+            _cin = "\n".join(f"- {x.get('headline','')}: {' '.join((x.get('lines') or [])[:2])}"
+                             for x in feed if x.get("topic") == "cinema")[:6000]
+            mm2 = mal.build(client, MODEL, week, today, issue, dates_ta, done, done_heroes, telegram, _cin)
             if mm2:
                 save_json(DATA / "malar.json", mm2)
                 save_json(DATA / "malar_books.json", (done + [b.get("title_en", "") for b in mm2.get("books", [])])[-60:])
