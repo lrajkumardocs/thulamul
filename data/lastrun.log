@@ -1,3 +1,4 @@
+[expire] 10c2b951a461
 [fetch] RBI: 8 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
@@ -5,10 +6,10 @@
 [fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 1 புதியவை
 [fetch] BBC World: 11 புதியவை
-[fetch] Al Jazeera: 6 புதியவை
+[fetch] Al Jazeera: 3 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 22 புதியவை
-[fetch] The Hindu Cinema: 19 புதியவை
+[fetch] The Hindu Cinema: 20 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 14 புதியவை
 [fetch] Wired: 27 புதியவை
@@ -29,16 +30,16 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 9 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 19 புதியவை
+[fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 29 புதியவை
@@ -47,7 +48,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 10 புதியவை
+[fetch] Sportstar: 11 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +57,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f00b52b1490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0ae221f310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,56 +66,57 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 28 புதியவை
+[fetch] TN Police News: 29 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 571 → நிகழ்வுகள் 531
+[run] புதியவை 563 → நிகழ்வுகள் 527
 [triage] சேமித்த மதிப்பெண் (462) — புதிய அழைப்பு இல்லை
-[triage] 531 → 96 (முக்கியம் + பக்க ஒதுக்கீடு)
+[triage] 527 → 143 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] Australia A vs India A series — வெளிநாட்டு உள்நாட்டுக் கிரிக
+[தரம்] தமிழ் அல்லாத எழுத்து: টলহ → ஒரு திருத்தம்
+[tts-edge] ffb0d8e6bb9c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மோட ரத்திரி பட விமர்சனம்: ரிஷிகாந்த், அனிஷ்மா அபிநயத்தில் சிறப்பு
+[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனங்களின் உள்நாட்டு மாநாடு. தமிழ்
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi court orders FIR against Karishma Aziz ove
+[skip] பிற மாநிலத்தின் உள்ளூர் வேலை அறிவிப்பு. ஆந்திர பிரதேச அரசு அ
+[மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Biotechnology and healthcare: where we are in In
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi bars Kore Digital promoters over alleged Rs
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
+[skip] மூலத்தில் ஒரே வரித் தலைப்பு மட்டுமே உள்ளது, முழு விவரங்கள் இ
+[tts-edge] 86bcf8e3f268: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மொரிஷியஸில் விட் துணைத் தலைவருக்கு உலகத் தமிழர் மகுடம் விருது
+[skip] இது ஒரு படத்தின் விமர்சனம் (review), அனுமதிக்கப்பட்ட ஆறு சின
+[skip] மேற்கு வங்க திரிணாமூல் காங்கிரஸ் பிரிவுகள் தொடர்பான உள்ளூர் 
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் நீதிமன்ற உத்தரவு தொடர்பான செய்த
+[skip] இது கேரளாவின் கொச்சி-முசிறிஸ் பிணாலே தொடர்பான உள்ளூர் கலைநிக
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான விவரங்கள் (யார
+[skip] இது ஆந்திரப் பல்கலைக்கழகத்தின் உள்ளூர் ஆயுர்வேத முகாம் பற்றி
+[skip] இது ஒரு கட்சி நிகழ்வு பற்றிய சாதாரண செய்தி - பிரதமரின் பிறந்
+[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் அரசியல் தொடர்பான மானநஷ்ட வ
+[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் அறிவிப்பு, தமிழ்நாட்டுடன் 
+[skip] இது தெலங்கானாவின் சைபராபாத் போக்குவரத்துக் காவல் துறையின் உள
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உள்ளடக்கம் இல்லை; 
+[publish] வங்காளதேச பிரதமர் தாரிக் ரஹ்மான் இந்தியப் பயணத்திற்கு பேச்சுவார்த்தை மீண்டும் தொடக்கம்
+[skip] தெலங்கானா மாநிலத்தில் நடந்த உள்ளூர் சாலை விபத்து; தமிழ்நாட்ட
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான போதிய விவரங்கள
+[skip] இது ஜம்மு காஷ்மீர் மாநில உள்ளூர் அரசியல் சர்ச்சை; தமிழ்நாடு 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விரிவான தகவல், இடம், தேதி,
+[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள துனி அருகே நடந்த உள்ளூர் சாலை
+[skip] இது கேரளாவின் தலசேரியில் நடந்த உள்ளூர் மருத்துவமனைச் சம்பவம்
+[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள ஓங்கோலு நகராட்சியின் உள்ளூர்ச
+[skip] இது கர்நாடகாவை சேர்ந்த ஒரு தனியார் நிறுவனத்தின் வணிக விரிவாக
+[skip] இது ஆந்திரப் பிரதேசத்தின் உள்ளூர் அரசு அறிவிப்பு, தமிழ்நாட்ட
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf9YA12VobkRfTXWVFpdf'}
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: US mortgage rates brush 7%, weighing on buyers, 
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: SEC gives tokenized stock trading platforms five
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Puravankara Ltd eyes Rs 2,600 cr revenue from re
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Investors should assess if F&amp;O trading works
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other group stocks zoom up 
-[skip] வெளிநாட்டுக் ক্রীড়া நிர்வாহக அভ্যন্তரীণ விவகாரம் — தமிழ்நாட
-[skip] பிரேசிலின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப் பாத
-[skip] பிற நாடுகளின் வெளிநாட்டுக் கூட்டம் — தமிழ்நாடு/இந்தியக் வாசக
-[skip] T20 மல்டি-நேশன் சিரிஸ் செய்தி. தமிழ்நாட்டு/இந்திய வாசகருக்கு
-[skip] வெளிநாட்டு ক্রীড়াবিদின் உள்ளூர் அரசியல் தொடர்பான செய்திகள் 
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Future wars will be won by the force that can se
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: AU’s free Ayurvedic medical camp benefits 185 pa
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: BJP, TDP celebrate PM Modi’s birthday
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Harish Rao files defamation case against Mahesh 
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Harvard executive education programme to be offe
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Cyberabad Traffic Police advise WFH, online clas
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Nature workshops can promote eco-friendly lifest
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: After brief disruption, officials restart talks 
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Three killed, two injured as car rams parked lor
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Adult family member can appear on behalf of vote
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Student models offer solutions to social problem
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: IPS Bushra Bano’s simple words rattle a party so
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Quarry strike to oppose royalty system may hit c
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Five injured after container lorry collides bus 
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Relatives allege delay in C-section led to foeta
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Ongole Municipal Corporation eyes World Record w
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Bengaluru firm Deccan Gold Mines to up its gold 
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: AP government to set up fire station in each con
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Man stabbed to death for confronting daughter’s 
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Man held for murdering partner after a fight
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Supreme Court notice to Centre, Maharashtra offi
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: KSRTC launches multi-axle service on Bengaluru-B
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Karnataka Transport Department books 1,508 cases
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Bengaluru: Two police officers suspended over vi
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Many parts of T.N., including Chennai, see summe
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: No NOC required to get power supply for houses o
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Cooum Check dams could help track and tackle pol
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamil Nadu's mission to repair the hills of Tiru
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Kanimozhi meets Mamata Banerjee as DMK works on 
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi court orders FIR against Karishma Aziz ove
-[மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Biotechnology and healthcare: where we are in In
-[மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Rattlesnake blood could reinvent the fight again
-[image] 7 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13941 · சென்செக்ஸ் 74315
-[weather] புதுப்பிக்கப்பட்டது
-[image] 7 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 0
+[skip] இது ஒரு திரைப்பட விமர்சனம் - அனுமதிக்கப்பட்ட ஆறு சினிமா வகைக
+Traceback (most recent call last):
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1531, in <module>
+    main()
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1185, in main
+    hold = bool(HOLD_FLAGS & set(story["flags"])) or story.get("confidence", 1) < AUTO_PUBLISH_MIN_CONFIDENCE
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
