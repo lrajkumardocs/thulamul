@@ -4,8 +4,8 @@
 [fetch] The Hindu TN: 16 புதியவை
 [fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 1 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 10 புதியவை
+[fetch] BBC World: 16 புதியவை
+[fetch] Al Jazeera: 9 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 22 புதியவை
 [fetch] The Hindu Cinema: 19 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 25 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 2 புதியவை
+[fetch] FreeJobAlert: 1 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,17 +28,17 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 9 புதியவை
-[fetch] The Hindu Legal: 19 புதியவை
+[fetch] Bar and Bench: 8 புதியவை
+[fetch] The Hindu Legal: 21 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 24 புதியவை
+[fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 11 புதியவை
+[fetch] TechCrunch: 10 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 19 புதியவை
+[fetch] The Hindu National: 21 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 10 புதியவை
+[fetch] India Today: 12 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 29 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 10 புதியவை
+[fetch] Sportstar: 5 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd12f0d9290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc4a4ac1510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 21 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,58 +67,28 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 557 → நிகழ்வுகள் 527
-[triage] சேமித்த மதிப்பெண் (511) — புதிய அழைப்பு இல்லை
-[triage] 527 → 80 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு (அமெரிக்கா) தொழில்நுட்பக் கூட்டம் அறிவிப்பு — தமி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘What was CM doing during remaining five days?’:
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Ahead of Market: 10 things that will decide stoc
+[run] புதியவை 554 → நிகழ்வுகள் 521
+[triage] 521 → 29 (முக்கியம் + பக்க ஒதுக்கீடு)
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi bars Kore Digital promoters over alleged Rs
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: US stocks today: US stocks rise as oil prices ea
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Puravankara Ltd eyes Rs 2,600 cr revenue from re
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Investors should assess if F&amp;O trading works
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other group stocks zoom up 
-[skip] Chelsea FC-ன் உரிமையாளர் மாற்றம் — பிரிட்டன் ஆட்சி/வணிக நிகழ
-[மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Biotechnology and healthcare: where we are in In
+[skip] தமிழ்நாட்டு / இந்திய வாசகரைப் பாதிக்காது. அமெரிக்கா-ரஷ்யா-உக
+[skip] தமிழ்நாட்டு வாசகருக்கு உடனடி பாதிப்பு இல்லை. ஈரான்-அமெரிக்க 
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi court orders FIR against Karishma Aziz ove
-[skip] செய்தி நির்ধারணை தகுதி மூல உரையே வெளிப்படையாக இல்லை - தலைப்ப
-[skip] வெளிநாட்டு ফুটबল செய்தி — AFCON 2027 ஆப்பிரிக்க நாடுகளின் வி
-[skip] சென்னை அணியின் உள்நாட்டுத் தொடராக ISL என்பது இந்திய லீகு ஆகி
-[skip] அமெரிக்கா தேசிய கால்பந்து அணியின் சுற்றுப்பயணக் கூட்டம் — தம
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் / உலக மாநாட்டுச் செய்தி — தமிழ்
-[tts-edge] cbbc38522737: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆசிய விளையாட்டு 2026: உடல்நிலை பராமரிப்பே முக்கியம் என சத்விக்
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Birthday wishes pour in for Modi as he turns 76
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Puthoor zoo a model for relocation: expert
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: On PM Modi’s birthday, Youth Congress gives gove
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: KTR, three others to appear before ACB court in 
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Debate rages over plan to shift Thiruvananthapur
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Govt puts 25 coal blocks on sale in 16th round o
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: West Bengal police arrest top Maoist leader Akas
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Drought-hit taluks rise to 124, with 23 more add
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Oil India plans to spend ₹15,000 crore for deepw
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Congress top brass warns State leaders not to ma
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Supreme Court agrees to give ‘precedence’ in hea
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: PAC pulls up Railways over gaps in passenger ame
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Decomposed body of woman found in car in Ernakul
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: KSEAB to provide question papers for SSLC mid-te
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Kerala High Court directs Railways to shift elec
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Revenue officials begin verification of lands at
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Panchayats facing crisis as material costs for M
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Bengaluru: Varthur-Gunjur congestion leaves scho
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: அமைச்சர் வன்னி அரசிடம் 4 முறை பேசியுள்ளேன்! பாரத
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: She willed house to sister, revoked it; HC uphol
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: NSE IPO: Why did India's second largest initial 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Migrant worker killed in wild elephant attack in
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: BJP chief Nitin Nabin slams Opposition for criti
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Puthoor zoo offers blueprint for relocation of z
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Microstudies can help bridge gap between policy 
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: City hospital treats man with year-long severe p
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man booked for poisoning community cats in Chenn
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Vijay’s first abroad visit a success, to create 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Four murder cases involving minors transferred t
-[skip] பிற நாட்டின் உள்நாட்டு அரசியல் மற்றும் பிற நாட்டு பத்திரிக்க
-[skip] மத்திய அரசின் EMRS (Eklavya Model Residential Schools) தேர்வ
+[tts-edge] b2eb539be12c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] UPSC IFS முதன்மைத் தேர்வு நவம்பர் 22 முதல் 29 வரை
+[மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Biotechnology and healthcare: where we are in In
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Rattlesnake blood could reinvent the fight again
 [image] 6 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13929 · சென்செக்ஸ் 74315
+[market] தங்கம் 22K ₹13936 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 6 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[image] 7 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 1
