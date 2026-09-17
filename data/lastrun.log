@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 23 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
 [fetch] Dinamani TN: 25 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 24 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC World: 17 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
 [fetch] ESPNcricinfo: 29 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
+[fetch] The Hindu Sport: 28 புதியவை
 [fetch] The Hindu Cinema: 19 புதியவை
-[fetch] Cinema Express: 25 புதியவை
+[fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 14 புதியவை
-[fetch] Wired: 30 புதியவை
+[fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 26 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 25 புதியவை
+[fetch] FreeJobAlert: 11 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,17 +28,17 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 18 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 14 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 28 புதியவை
+[fetch] Dinamani Cinema: 26 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 20 புதியவை
-[fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] TechCrunch: 18 புதியவை
+[fetch] The Verge: 8 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 20 புதியவை
+[fetch] India Today: 17 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 28 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd27e83b090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f41bdb00e50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,72 +67,74 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 730 → நிகழ்வுகள் 671
+[run] புதியவை 681 → நிகழ்வுகள் 634
 [triage] சேமித்த மதிப்பெண் (615) — புதிய அழைப்பு இல்லை
-[triage] 671 → 57 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] விளையாட்டுச் செய்தி என்றாலும் தமிழ்நாட்டு அணி/வீரர் அல்லது இ
-[skip] இவை வெளிநாட்டு நுகர்வோர் தள்ளுபடி விளம்பரங்கள் (Noom, HelloF
-[skip] AIIMS டெல்லி மற்றும் IOCL ஆய்வாளர் பணியிடங்கள் தமிழ்நாட்டுடன
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: DUSU polls: Delhi HC directs DU, Police to act a
-[tts-edge] 5b65f42900f7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தவறுதலாக வசூலித்த வரி திருப்பித் தர வேண்டாம் என மதராஸ் உயர் நீதிமன்றம் தீர்ப்பு
-[tts-edge] ba4f0d251c3c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கிரானைட் தொழிலதிபர் வீரமணி மீதான பாலியல் வழக்கில் புதிய திருப்பம்
-[skip] இந்தியா-பாகிஸ்தான் கடற்படைக் மோதல் — பாகிஸ்தান் என்பது வெளிந
-[skip] Sweden-ன் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்தியாவுடன் நேரடித் 
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டுத் துன்பச் செய்தி. 
-[skip] இந்தியாவின் அமெரிக்க வ무றை விவகாரம் — தமிழ்நாடு வாசகரின் அன்ற
-[skip] IIT Roorkee மற்றும் NCERT ஆகியவை தமிழ்நாட்டிற்கு வெளியே அமைந
-[publish] வி.சி.கே கூட்டணி குறித்த பிரேமலதா கருத்துக்கு அமைச்சர் வண்ணை அரசு பதில்
-[தரம்] மூலத்தில் இல்லாத எண்: 2023 → ஒரு திருத்தம்
-[publish] ஆசிய விளையாட்டுப் போட்டி: மல்யுத்தத்தில் இந்திய பெண்கள் முன்னிலை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf94htr4YJzRKaNocSoxG'}
+[triage] 634 → 64 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] இது ஒரு குறிப்பிட்ட மாநிலத்தின் உள்ளூர் விவசாயிகள் கோரிக்கை 
+[skip] இது ஆந்திரப் பிரதேச முன்னாள் துணை முதலமைச்சர் அல்ல நானியின் 
+[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் அரசியல் சர்ச்சை - தமிழ்நாட்டுட
+[skip] இது கர்நாடகா மாநிலத்தின் ராமநகர மாவட்டத்தில் நடந்த உள்ளூர் ஊ
+[skip] மத்தியப் பிரதேச மாநில அரசுக்கு எதிரான காங்கிரஸ் தலைவரின் உள்
+[skip] இது கர்நாடக மாநிலத்தின் உள்ளூர் வங்கி நிவாரண அறிவிப்பு, தமிழ
+[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர்க் குற்றச் சம்பவம்; தமிழ்நாட
+[skip] இது தெலங்கானா மாநிலத்தின் ரங்காரெட்டி மாவட்டத்தில் நடந்த உள்
+[skip] தெலங்கானா மாநில அரசு மருத்துவமனைகள் தொடர்பான உள்ளூர்ச் செய்த
+[tts-edge] c5dd0ef82157: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மணிப்பூர் நிவாரண முகாம் மரணங்கள்: தலைமைச் செயலாளர் விளக்கம் கேட்ட உச்ச நீதிமன்றம்
+[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் காவல்துறை புள்ளிவிவரம் - தமிழ்ந
+[skip] இது தெலங்காணா மாநிலம் சைபராபாத் காவல்துறையின் உள்ளூர் ஏற்பாட
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Mauritius-based Soach Global to make 25 times re
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Bank of England sounds inflation alarm as it hol
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Voltas among 7 stocks hitting 52-week low; slipp
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Puravankara Ltd eyes Rs 2,600 cr revenue from re
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Investors should assess if F&amp;O trading works
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other group stocks zoom up 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf94kegr51tVv4mJHFcQy'}
-[publish] தமிழக அரசுப் பள்ளிகளில் மாணவர் எண்ணிக்கை குறைவு என அன்புமணி குற்றச்சாட்டு
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்கும் செய்தி அல்ல. அமெரிக்கா-ரஷ்யா
-[skip] மத்திய கிழக்கு ராணுவ மோதல் — தமிழ்நாடு/இந்திய வாசகருக்குத் த
-[skip] உத்தரப் பிரதேশத்தின் உள்ளூர் வழக்கு - தமிழ்நாடு / இந்தியாவுக
-[skip] தெற்கு ஆப்பிரிக்காவின் உள்நாட்டு குற்றச் செய்தி. தமிழ்நாடு/இ
-[skip] இது ஐரோப்பிய ஒன்றியத்தின் உள்ளூர் கொள்கை அறிவிப்பு. தமிழ்நாட
-[skip] வெளிநாட்டுச் செய்தி — தமிழ்நாடு/இந்திய வாசகரின் நேரடித் தொடர
-[skip] வெளிநாட்டு இராணுவ மோதலும் தமிழ்நாடு வாசகருக்குப் பொதுவான செய
-[skip] வெளிநாட்டு அரசியல் — கனடா-ஐரோப்பா ஒப்பந்தம். தமிழ்நாடு/இந்தி
-[skip] சிரியாவின் உள்நாட்டு நீதிமன்றத் தீர்ப்பு — தமிழ்நாடு/இந்திய 
-[தரம்] தமிழ் அல்லாத எழுத்து: जধযো → ஒரு திருத்தம்
-[publish] தருவ நட்சத்திரத்தை வெளியிட முதலீட்டாளர் கிடைத்தார்
-[skip] வெளிநாட்டுச் தொழில்நுட்பக் கம்பனி OpenAI-ஐ பற்றிய தனியார் ஆர
-[skip] கேரளப் பல்கலைக்கழகத்தின் தேர்வு அட்டவணை — தமிழ்நாட்டுக்குத் 
-[skip] வெளிநாட்டு (டெல்லி) மருத்துவ நிறுவனத்தின் உள்ளூர் வேலைவாய்ப்
-[skip] झारखंड राज्य की शिक्षा परीक्षा — तमिलनाडु पाठकों के लिए प्रा
-[publish] கஞ்சீபுரம் மாவட்ட சிறார் பாதுகாப்பு அலுவலகத்தில் உதவியாளர் வேலை
+[skip] இது இந்தியத் தொழிலில் தாக்கம் ஆனால் மாநிலம் அல்லது நகரம் குற
+[skip] வெளிநாட்டு ক্রীড়া (ইউরোপীয় ফুটবল) ও ক্লাব-স্তরের অভ্যন্তরী
+[skip] சுவீடன் பிரதமர் பதவி விலகல் — தமிழ்நாடு அல்லது இந்திய வாசகரை
+[skip] தமிழ்நாடு வாசகரைப் பாதிக்கும் உலக அளவிலான பொருளாதாரச் செய்தி
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (Big Bash League). தமிழ்நாட்டு 
+[skip] வெளிநாட்டு ক্রীড়াப் போட்டি பற்றிய ভবিষ்யத் முன்னறிவிப்பு மற
+[skip] இமாச்சல் பிரதேশ மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. 
+[skip] கேரளப் பொதுச் சேவை ஆணையம் (Kerala PSC) நடத்திய தேர்வு — கேரள
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Same-sex partner medical rights plea: Delhi HC a
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Tryst with the Constitution: The many constituti
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Equal pay for equal work cannot be applied mecha
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: DUSU polls: Delhi HC directs DU, Police to act a
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Avail IT Act remedy first: Supreme Court to lawy
-[publish] மொத ராத்திரி படத்தின் இயக்குநரை நேரில் சந்தித்த கமல்ஹாசன்
-[skip] வதந்தி, சமூக ஊடக வைரல்ப் பதிவு, பழைய நிகழ்வு — சினிமாச் செய்
-[skip] வெளிநாட்டு முதலீட்டு நிதி அறிவிப்பு — தமிழ்நாடு/இந்தியாவுக்க
-[skip] Spotify is a foreign company's service expansion announcemen
-[skip] வெளிநாட்டு நிறுவனத்தின் (Bose, அமெரிக்கா) பொருள் அறிவிப்பு. 
-[தரம்] தமிழ் அல்லாத எழுத்து: তরি → ஒரு திருத்தம்
-[தரம்] தோல்வி — வெளியிடப்படவில்லை: வரிகள் போதவில்லை; வரி 3 முற்றுப்புள்ளி இல்லை
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் அரசியல் கருத்துப் பரிமாற்றம்; த
-[skip] டெல்லியில் நடந்த உள்ளூர் திருட்டுச் சம்பவம் - தமிழ்நாட்டுடன்
-[publish] UPI கட்டண மாற்றம் குறித்த அரசியல் சர்ச்சை தீவிரம்
-[skip] ஆசிய விளையாட்டுக்கள் 2026 நাகோயா நகரில் (ஜப்பான்) நடக்கவிருப
+[skip] ஆங்கிலேயக் கிரிக்கெட் வீரர் ஹாரி ப்ரூக்கின் ব்যক்তிগত கருத்த
+[skip] கிரிக்கெட் வீரர் மாறுபாடு செய்தி — தமிழ்நாட்டு வாசகருக்குப் 
+[skip] இது ஜார்க்கண்ட் மாநிலத்தில் நடந்த உள்ளூர்க் கொலைச் சம்பவம், 
+[skip] மூலத்தில் தலைப்பு மட்டும் உள்ளது; சூழல், நேரம், இடம், முழு வ
+[skip] வெளிநாட்டு ஃபார்முலா ওன் தொழிற்சாலை நிয়োগம் — தமிழ்நாடு அல்
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: LSGD allocates ₹16 crore for land acquisition fo
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Don’t drag national flag into politics: Ponnam t
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Central university student dies in Assam
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Former Deputy CM Alla Nani’s last rites performe
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Forest officer caught accepting ₹30,000 bribe in
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Sugarcane growers seek FRP of ₹4,500
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ‘If Nizam was so good, why did Komuram Bheem and
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Death of tribal children in Balaghat: Rahul Gand
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Banks to offer financial respite to farmers in 1
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Man attacks wife with machete, suspected acid in
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Treasury officer and assistant caught taking ₹1 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Telangana has 50 CT scanners, only nine MRI mach
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Supreme Court expresses shock over deaths in rel
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Rowdy sheets on the decline in Karnataka
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Cyberabad police, civic departments step up imme
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Navodaya schools case: Supreme Court asks Tamil 
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Fear of court intervention must not stop arbitra
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Tata Trusts dissents to reappointment of N. Chan
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Youth Photographic Society invites entries for c
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: She declared Rs 43,796 income in ITR, misses Rs 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: 100% Trump tariffs loom: Russia sanctions bill p
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: CCB summons former Minister Anbil Mahesh in ₹100
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: What is ‘whimsymaxxing’, the internet’s latest f
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘What did you do in the past year?’ NGT asks Tam
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: DMK govt. mooted heritage structure in place of 
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Stem cell therapy for autism only in approved cl
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: CCTV proposed at medical stores for sale of pres
-[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13954 · சென்செக்ஸ் 74315
+[image] 3 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13980 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [image] 3 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 9
+[done] feed 300 · pending 1 · எழுதியவை 1
