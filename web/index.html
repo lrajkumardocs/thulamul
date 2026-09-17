@@ -314,6 +314,8 @@
   .bx-row .flat{color:var(--ink3);font-size:12.5px}
   .bx-note{background:rgba(255,255,255,.55);border-radius:10px;padding:10px 12px;margin-top:10px;font-family:var(--text);font-size:14px;line-height:1.7}
   .bx-cap{font-size:11px;color:var(--ink3);line-height:1.6;margin-top:9px}
+  .oldnote{background:var(--brass2);border-left:3px solid var(--brass);border-radius:0 10px 10px 0;
+      padding:11px 13px;margin-top:12px;font-size:13.5px;line-height:1.7;color:var(--ink2)}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -485,11 +487,24 @@ function pubWeek(){
   const all=feed.filter(s=>s.status==='published').map(s=>MERGE[s.topic]?{...s,topic:MERGE[s.topic]}:s);
   const cut=Date.now()-7*86400000;return all.filter(s=>new Date(s.published_at).getTime()>cut);
 }
+let PAPER_DAY='';                      // எந்த நாளின் இதழ் காட்டப்படுகிறது
 function pub(){
   let all=feed.filter(s=>s.status==='published').map(s=>MERGE[s.topic]?{...s,topic:MERGE[s.topic]}:s);
-  if(issueLabel)return all;
+  if(issueLabel){PAPER_DAY='';return all;}
   const t=todayIST();
-  return all.filter(s=>istDay(s.published_at)===t);
+  let today=all.filter(s=>istDay(s.published_at)===t);
+  if(today.length>=3){PAPER_DAY='';return today;}
+  // இன்றைய இதழ் இன்னும் தயாராகவில்லை — கடைசி இதழைக் காட்டு
+  const days=[...new Set(all.map(s=>istDay(s.published_at)))].sort().reverse();
+  const prev=days.find(d=>d!==t);
+  if(!prev){PAPER_DAY='';return today;}
+  PAPER_DAY=prev;
+  return all.filter(s=>istDay(s.published_at)===prev);
+}
+function prevDayNote(){
+  if(!PAPER_DAY) return '';
+  const d=new Date(PAPER_DAY+'T06:00:00+05:30');
+  return `<div class="oldnote">இன்றைய இதழ் அதிகாலை தயாராகிறது. கீழே ${d.toLocaleDateString('ta-IN',{day:'numeric',month:'long'})} இதழ்.</div>`;
 }
 const ago=s=>{const m=(Date.now()-new Date(s))/60000;return m<60?`${Math.max(1,Math.round(m))} நிமிடம் முன்`:m<1440?`${Math.round(m/60)} மணி முன்`:new Date(s).toLocaleDateString('ta-IN',{day:'numeric',month:'short'})};
 
@@ -609,7 +624,7 @@ function pageBody(k){
   if(k==='front'){const p=frontPicks();
     const urg=p.filter(x=>x.urgent)[0];
     window.__urg='';
-    return `<div class="pad">${bellHtml('front')}</div>`+(brief&&brief.audio?briefHtml():'')+storiesHtml(p,'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+(window.__urg||'')+frontAdHtml()+'';}
+    return `<div class="pad">${bellHtml('front')}</div>`+`<div class="pad">${prevDayNote()}</div>`+(brief&&brief.audio?briefHtml():'')+storiesHtml(p,'செய்திகள் இன்னும் இல்லை — சில நிமிடங்களில்.')+wxHtml()+(window.__urg||'')+frontAdHtml()+'';}
   if(k==='editorial'){return editHtml()+'';}
   if(k==='comic'){const i=PAGES.indexOf(k);return comicHtml()+'';}
   if(k==='malar'){return malarHtml()+'';}
