@@ -1,4 +1,3 @@
-[expire] 10c2b951a461
 [fetch] RBI: 8 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
@@ -6,20 +5,20 @@
 [fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 1 புதியவை
 [fetch] BBC World: 11 புதியவை
-[fetch] Al Jazeera: 3 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
+[fetch] Al Jazeera: 5 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 22 புதியவை
-[fetch] The Hindu Cinema: 20 புதியவை
+[fetch] The Hindu Cinema: 19 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 14 புதியவை
-[fetch] Wired: 27 புதியவை
+[fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 25 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 2 புதியவை
+[fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
@@ -30,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 25 புதியவை
+[fetch] The Hindu Legal: 12 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 9 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 25 புதியவை
+[fetch] The Hindu National: 12 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0ae221f310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 25 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb6b22d5d10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 12 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -68,55 +67,58 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 29 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 563 → நிகழ்வுகள் 527
-[triage] சேமித்த மதிப்பெண் (462) — புதிய அழைப்பு இல்லை
-[triage] 527 → 143 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] Australia A vs India A series — வெளிநாட்டு உள்நாட்டுக் கிரிக
-[தரம்] தமிழ் அல்லாத எழுத்து: টলহ → ஒரு திருத்தம்
-[tts-edge] ffb0d8e6bb9c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மோட ரத்திரி பட விமர்சனம்: ரிஷிகாந்த், அனிஷ்மா அபிநயத்தில் சிறப்பு
-[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனங்களின் உள்நாட்டு மாநாடு. தமிழ்
+[run] புதியவை 522 → நிகழ்வுகள் 500
+[triage] 500 → 37 (முக்கியம் + பக்க ஒதுக்கீடு)
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi court orders FIR against Karishma Aziz ove
-[skip] பிற மாநிலத்தின் உள்ளூர் வேலை அறிவிப்பு. ஆந்திர பிரதேச அரசு அ
+[skip] ஆந்திரப் பொதுச் சேவை ஆணையத்தின் (APPSC) அறிவிப்பு — ஆந்திரப்
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Biotechnology and healthcare: where we are in In
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi bars Kore Digital promoters over alleged Rs
+[tts-edge] 2190d5dd2eef: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆசியக் கோப்பை 2026: இந்தியாவில் எப்போது, எங்கே பார்க்கலாம்
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
-[skip] மூலத்தில் ஒரே வரித் தலைப்பு மட்டுமே உள்ளது, முழு விவரங்கள் இ
-[tts-edge] 86bcf8e3f268: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மொரிஷியஸில் விட் துணைத் தலைவருக்கு உலகத் தமிழர் மகுடம் விருது
-[skip] இது ஒரு படத்தின் விமர்சனம் (review), அனுமதிக்கப்பட்ட ஆறு சின
-[skip] மேற்கு வங்க திரிணாமூல் காங்கிரஸ் பிரிவுகள் தொடர்பான உள்ளூர் 
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் நீதிமன்ற உத்தரவு தொடர்பான செய்த
-[skip] இது கேரளாவின் கொச்சி-முசிறிஸ் பிணாலே தொடர்பான உள்ளூர் கலைநிக
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான விவரங்கள் (யார
-[skip] இது ஆந்திரப் பல்கலைக்கழகத்தின் உள்ளூர் ஆயுர்வேத முகாம் பற்றி
-[skip] இது ஒரு கட்சி நிகழ்வு பற்றிய சாதாரண செய்தி - பிரதமரின் பிறந்
-[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் அரசியல் தொடர்பான மானநஷ்ட வ
-[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் அறிவிப்பு, தமிழ்நாட்டுடன் 
-[skip] இது தெலங்கானாவின் சைபராபாத் போக்குவரத்துக் காவல் துறையின் உள
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உள்ளடக்கம் இல்லை; 
-[publish] வங்காளதேச பிரதமர் தாரிக் ரஹ்மான் இந்தியப் பயணத்திற்கு பேச்சுவார்த்தை மீண்டும் தொடக்கம்
-[skip] தெலங்கானா மாநிலத்தில் நடந்த உள்ளூர் சாலை விபத்து; தமிழ்நாட்ட
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான போதிய விவரங்கள
-[skip] இது ஜம்மு காஷ்மீர் மாநில உள்ளூர் அரசியல் சர்ச்சை; தமிழ்நாடு 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விரிவான தகவல், இடம், தேதி,
-[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள துனி அருகே நடந்த உள்ளூர் சாலை
-[skip] இது கேரளாவின் தலசேரியில் நடந்த உள்ளூர் மருத்துவமனைச் சம்பவம்
-[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள ஓங்கோலு நகராட்சியின் உள்ளூர்ச
-[skip] இது கர்நாடகாவை சேர்ந்த ஒரு தனியார் நிறுவனத்தின் வணிக விரிவாக
-[skip] இது ஆந்திரப் பிரதேசத்தின் உள்ளூர் அரசு அறிவிப்பு, தமிழ்நாட்ட
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf9YA12VobkRfTXWVFpdf'}
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: US mortgage rates brush 7%, weighing on buyers, 
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: SEC gives tokenized stock trading platforms five
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Puravankara Ltd eyes Rs 2,600 cr revenue from re
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Investors should assess if F&amp;O trading works
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf9ZKgsFDoABbwAGisndf'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (பின்
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi bars Kore Digital promoters over alleged Rs
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other group stocks zoom up 
-[skip] இது ஒரு திரைப்பட விமர்சனம் - அனுமதிக்கப்பட்ட ஆறு சினிமா வகைக
-Traceback (most recent call last):
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1531, in <module>
-    main()
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1185, in main
-    hold = bool(HOLD_FLAGS & set(story["flags"])) or story.get("confidence", 1) < AUTO_PUBLISH_MIN_CONFIDENCE
-                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf9ZQ1p8aaXocfeQarLQy'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[tts-edge] 602cf5cf5853: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] விநாயகர் சிலை நிமஜ்ஜனம்: தமிழக அரசிடம் பசுமை தீர்ப்பாயம் கேள்வி
+[publish] கிங்ஸ் பேரக்ஸ் இடத்தில் பாரம்பரியக் கட்டிடம் திட்டமிட்ட திமுக அரசு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] தமிழ்நாட்டில் செப்டம்பர் 19 முதல் மழைக்கு வாய்ப்பு: புதிய தாழ்வுப் பகுதி
+[skip] மூலத்தில் தலைப்பு மற்றும் கோப்புப் படம் என்ற குறிப்பைத் தவிர
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது மணிப்பூர் மாநிலத்தின் உள்ளூர் இனப் பிரச்சனை தொடர்பான தலை
+[publish] பிரசன்ன குமார் ஆச்சார்யா என்.எல்.சி இந்தியாவின் புதிய தலைமை செயல் அதிகாரியாக நியமனம்
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: New fault lines: On Manipur’s Kuki-Zo–Naga confl
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Prasanna Kumar Acharya is new CMD of NLCIL
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Disha Salian’s father sends ₹500-crore defamatio
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: SC/ST Commission seeks action over alleged humil
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three persons arrested in migrant worker murder 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 2,079 non-functioning streetlights identified ac
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Four persons held for robbing bank employee of ₹
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Prof. K.S. Hegde Memorial Endowment Lecture orga
+[மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Rattlesnake blood could reinvent the fight again
+[மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Stem cell therapy for autism only in approved cl
+[skip] கன்னடச் சினிமா — தமிழ்நாட்டு வாசகருக்கு முதலிடப் பொருத்தம் இ
+[skip] வெளிநாட்டு வेब தொடர் (OTT platform), நீதிமன்றப் பிரச்சினை — 
+[skip] வெளிநாட்டுத் தகவல் — ஜப்பான்-மாதிரியான ஆசிய விளையாட்டு நிகழ்
+[skip] அயல்நாட்டுக் குதிரைப் பந்தய நிகழ்வு — தமிழ்நாடு/இந்தியாவுடன்
+[skip] வெளிநாட்டு உள்நாட்டுக் சட்ட நடவடிக்கை — தமிழ்நாடு/இந்திய வாச
+[skip] வெளிநாட்டு அரசியல்வாதியின் தனிப்பட்ட சுகாதாரச் செய்தி — தமிழ
+[skip] வெளிநாட்டு உள்ளூர் சுகாதார நிகழ்வு — தமிழ்நாடு/இந்தியா வாசகர
+[filler] health கட்டுரை
+[comic] கதை: தூரத்தே பழுவூர்க் கொடி
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-18.png · நாள் 11
+[rasi] ராசிபலன் தயார்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13889 · சென்செக்ஸ் 74315
+[weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 5
