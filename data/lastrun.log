@@ -5,12 +5,12 @@
 [fetch] Dinamani TN: 7 புதியவை
 [fetch] BBC Tamil: 0 புதியவை
 [fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 9 புதியவை
+[fetch] Al Jazeera: 5 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
-[fetch] The Hindu Sport: 15 புதியவை
-[fetch] The Hindu Cinema: 14 புதியவை
+[fetch] The Hindu Sport: 13 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 24 புதியவை
-[fetch] The Hindu Tech: 13 புதியவை
+[fetch] The Hindu Tech: 12 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 2 புதியவை
+[fetch] The Hindu Legal: 4 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 5 புதியவை
+[fetch] TechCrunch: 6 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 2 புதியவை
+[fetch] The Hindu National: 4 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 22 புதியவை
+[fetch] Dinamani India: 20 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f65e03813d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 2 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f22facfd010>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 4 புதியவை
 [fetch] Dinamani Govt: 7 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,30 +65,33 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 407 → நிகழ்வுகள் 396
+[run] புதியவை 403 → நிகழ்வுகள் 390
 [triage] சேமித்த மதிப்பெண் (396) — புதிய அழைப்பு இல்லை
-[triage] 396 → 13 (முக்கியம் + பக்க ஒதுக்கீடு)
+[triage] 390 → 17 (முக்கியம் + பக்க ஒதுக்கீடு)
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
+[skip] நேபாள நிதி அமைச்சருடனான சந்திப்பு பற்றிய இந்தச் செய்தி வழக்க
+[skip] இது தில்லியில் நடந்த கட்டிடம் இடிந்த வழக்கு தொடர்பான உள்ளூர்
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi bars Kore Digital promoters over alleged Rs
-[skip] வெளிநாட்டு உள்நாட்டு நீதிமன்றத் தீர்ப்பு — தமிழ்நாடு/இந்திய 
-[skip] வெளிநாட்டு ராணுவ விற்பனை — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்
-[skip] வெளிநாட்டு அகதிப் பெயர்வு — தமிழ்நாடு/இந்தியாவுடன் நேரடித் த
-[skip] வெளிநாட்டுக் குறிப்பு — ஈரান்-அமெரிக்கா வீசா நடவடிக்கை, ஐக்க
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தி விவரங்கள் (தேதி, தே
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf9mY8TbuvjKRtqnUvc7R'}
-[tts-edge] c38261879751: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பயங்கரவாதிகளுக்கு பாகிஸ்தான் ஆதரவு: ஐ.நா.வில் இந்தியா குற்றச்சாட்டு
+[தரம்] தமிழ் அல்லாத எழுத்து: স → ஒரு திருத்தம்
+[tts-edge] ce66bb2a69cb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அபிஷேக் முழு அங்கீகார T20ல் வேகமான நூறு
+[skip] ஆசிய விளையாட்டு 2026 — বাংলাদেশ, পাকிস্তান, থাইল্যান্ড, জাপা
+[skip] அமெரிக்க FAA-ன் வான் போக்குவரத்துத் திட்டம்; தமிழ்நாடு/இந்தி
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, விவரமான உள்ளட
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: FM Nirmala Sitharaman meets Nepalese counterpart
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Satya Niketan building collapse case: Kiran Bedi
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Judge Amogh Kaloti: The man who holds key to Tat
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: UPI fee: Government, payment gateways discuss wa
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three persons arrested in migrant worker murder 
-[தரம்] தமிழ் அல்லாத எழுத்து: जনা → ஒரு திருத்தம்
-[tts-edge] 1f49ddb1e9cf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆசிய விளையாட்டுக்களில் இந்திய கணினி விளையாட்டு அணிக்கு அக்ஷய் செனாய் தலைவர்
-[publish] தமிழ்நாடு பிக்கிள்பால் லீக் சென்னையில் இந்த வாரவிடுதியில் நடக்கிறது
-[image] 5 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13869 · சென்செக்ஸ் 74315
+[skip] வெளிநாட்டு அரசியல் — தமிழ்நாட்டு / இந்திய வாசகரை நேரடியாகப் 
+[skip] வெளிநாட்டு பொருঘ்ணூலகம் / தொல்லியல் நிகழ்வு — தமிழ்நாடு / இந
+[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனத்தின் கூற்று மட்டுமே. தமிழ்நாட
+[image] 6 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13878 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [image] 6 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 3
+[done] feed 300 · pending 1 · எழுதியவை 1
