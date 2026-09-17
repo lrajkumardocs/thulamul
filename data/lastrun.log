@@ -1,17 +1,17 @@
 [fetch] RBI: 8 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 8 புதியவை
+[fetch] The Hindu TN: 5 புதியவை
 [fetch] Dinamani TN: 20 புதியவை
-[fetch] BBC Tamil: 1 புதியவை
-[fetch] BBC World: 9 புதியவை
-[fetch] Al Jazeera: 4 புதியவை
+[fetch] BBC Tamil: 0 புதியவை
+[fetch] BBC World: 8 புதியவை
+[fetch] Al Jazeera: 7 புதியவை
 [fetch] ESPNcricinfo: 23 புதியவை
-[fetch] The Hindu Sport: 17 புதியவை
+[fetch] The Hindu Sport: 16 புதியவை
 [fetch] The Hindu Cinema: 15 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 13 புதியவை
-[fetch] Wired: 26 புதியவை
+[fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 24 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 6 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
@@ -41,13 +41,13 @@
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 25 புதியவை
+[fetch] Dinamani India: 24 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 12 புதியவை
+[fetch] Sportstar: 11 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa17d8f92d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 7 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb32822e690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 6 புதியவை
 [fetch] Dinamani Govt: 20 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,38 +67,40 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 464 → நிகழ்வுகள் 449
+[run] புதியவை 455 → நிகழ்வுகள் 440
 [triage] சேமித்த மதிப்பெண் (446) — புதிய அழைப்பு இல்லை
-[triage] 449 → 25 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] Amazon Prime இன் வெளிநாட்டு சேவைகளின் விளம்பர பட்டியல். தமிழ
+[triage] 440 → 27 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு தொழில்நுட்பச் சொற்பொழிவு — தமிழ்நாடு/இந்தியாவுக்க
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
+[skip] இது உத்தரப் பிரதேச மாநிலத்தின் உள்ளூர் அரசியல் பகுப்பாய்வுக்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு உரை இல்லை; மேலும் இது
+[skip] இது கேரள மாநிலத்தின் உள்ளூர்த் திட்டம் (திருவனந்தபுரம் உயிரி
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: US stocks today: US stocks rebound as tech rally
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: US Treasuries rally as oil cools and confidence 
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi bars Kore Digital promoters over alleged Rs
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Dow Jones| Nasdaq | S&amp;P 500 | US Stock Marke
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other group stocks zoom up 
-[skip] கனடா-ஐரோப்பா உறவு பற்றிய செய்தி. தமிழ்நாடு/இந்திய வாசகருக்கு
-[skip] வெளிநாட்டு நிறுவனங்களின் உள் அரசியல். தமிழ்நாட்டு/இந்திய மக்
-[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காது. AI பாதுகாப்பு பற்றிய
-[tts-edge] 1f5633298de1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பிறப்பு, இறப்பு பதிவு திருத்தச் சட்டம் அக்டோபர் ஒன்றில் அமல்
-[skip] Gukesh-ஐப் பற்றிய சதுரங்கப் புள்ளிமதிப்பு மாற்றம் — சிறிய தொ
+[tts-edge] 8cb47f1dfa8a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] குரூப் ஒன்று தேர்வு அனுமதிச் சீட்டு பதிவிறக்கத்திற்குக் கிடைக்கிறது
+[tts-edge] e9c83983598a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆவின் பால் விற்பனை பத்து சதவீதம் குறைவு: முகவர்கள் சங்கம் குற்றச்சாட்டு
+[skip] வெளிநாட்டு அரசியல் நிகழ்வு — தமிழ்நாட்டு/இந்திய வாசகரைப் பாத
+[skip] தமிழ்நாட்டு வாசகரை நேரடியாகப் பாதிக்காத வெளிநாட்டு உள்நாட்டு
+[skip] வெளிநாட்டு நாடுகளின் நாடாளுமன்ற நடைமுறை பற்றிய கட்டுரை. தமிழ
+[skip] இந்தச் செய்தி கனடாவும் ஐரோப்பாவும் இடையே பொருளாதார கூட்டணி ப
+[skip] சீனாவின் உள்நாட்டு எண்ணெய் விலை — தமிழ்நாடு அல்லது இந்தியக் 
+[skip] வெளிநாட்டு cricket ஒற்றைக்கொம்பு தொடர் — இங்கிலாந்து vs இலங்
+[skip] வெளிநாட்டு தயாரிப்புச் செய்தி — தமிழ்நாடு/இந்தியாவுடன் நேரடி
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: The crucial Uttar Pradesh test of the BJP’s hege
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: It took two to tango to set stage for September 
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Puthur zoo offers blueprint for relocation of zo
-[tts-edge] 261e43d63345: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கடலூரில் ஆதிதிராவிடர் மாணவர்கள் அவமதிப்பு புகார்: நடவடிக்கை கோரி ஆணையம்
-[publish] ஓ'வேலியில் புலிக்கான கூண்டில் சிக்கிய சிறுத்தை, காட்டில் விடுவிப்பு
-[publish] ஊட்டியில் காவல்துறையிடம் இருந்து தப்பிய விசாரணைக் கைதிக்கு கால் எலும்பு முறிவு
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi court orders FIR against Karishma Aziz ove
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: குரூப் 1 தோ்வு: அனுமதிச் சீட்டை பதிவிறக்கம் செய
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ஆவின் பால் விற்பனை 10% குறைப்பு: பால் முகவா்கள் 
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three persons arrested in migrant worker murder 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 2,079 non-functioning streetlights identified ac
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Biotechnology and healthcare: where we are in In
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Rattlesnake blood could reinvent the fight again
-[skip] வெளிநாட்டுக் குற்றாலயத்தில் இந்திய அணியின் உள்ளூர் கூற்று. த
-[skip] தமிழ்நாட்டு / இந்திய வாசகருக்குப் பொருத்தமற்ற பிற நாட்டின் உ
-[skip] வரலாற்றுச் செய்தி — பண்டைய கிரேக்க அறிஞர் பற்றிய கல்வி/வரலாற
+[skip] ஆசிய விளையாட்டு மாபெரும் நிகழ்வாக இருந்தாலும், இந்த செய்தி இ
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13878 · சென்செக்ஸ் 74315
+[market] தங்கம் 22K ₹13871 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
-[image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 4
+[image] 3 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 2
