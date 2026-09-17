@@ -1,5 +1,479 @@
 [
  {
+  "headline": "ஏற்காட்டில் கனமழை, மலைப்பாதையில் நிலச்சரிவு",
+  "lines": [
+   "சேலம் மாவட்டம் ஏற்காடு மலைப்பகுதியில் நேற்று இரவு முழுவதும் கனமழை பெய்தது.",
+   "தொடர்ந்த மழையால் மலைப்பாதையின் ஒரு பகுதியில் நிலச்சரிவு ஏற்பட்டுள்ளது.",
+   "மண் மற்றும் சிறு பாறைகள் சாலையில் விழுந்ததால் போக்குவரத்து பாதிக்கப்பட்டுள்ளது.",
+   "தற்போது சம்பவ இடத்தில் அதிகாரப்பூர்வ உறுதிப்பாடு எதுவும் வெளியிடப்படவில்லை.",
+   "மழை தொடர்ந்தால் மேலும் நிலச்சரிவு ஏற்படக்கூடும் என உள்ளூர் மக்கள் கவனத்துடன் உள்ளனர்."
+  ],
+  "closing": "மழை தொடர்ந்து பெய்தால் ஏற்காடு மலைப்பாதையில் மேலும் என்ன நடவடிக்கை எடுக்கப்படும் என்பதைக் கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-09-17"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "ஏற்காடு",
+   "சேலம் மாவட்டம்",
+   "மலைப்பாதை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Heavy Rain in Yercaud Triggers Landslide on Hill Road",
+   "lines": [
+    "Yercaud hill area in Salem district received heavy rainfall throughout last night.",
+    "Continuous rain caused a landslide on a stretch of the hill road.",
+    "Mud and small rocks fell onto the road, disrupting traffic movement.",
+    "No official statement has been issued regarding the incident so far.",
+    "Local residents remain cautious as further landslides may occur if rain continues."
+   ],
+   "closing": "It remains to be seen what further action will be taken on the Yercaud hill road if the rain continues."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "fbdeb23e862a",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-17T18:24+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/17/heavy-rain-in-yercaud-the-night-landslide-on-the-hill-road"
+  ],
+  "image": null,
+  "audio": "data/audio/fbdeb23e862a.mp3",
+  "created_ts": 1789649679.769319,
+  "status": "published"
+ },
+ {
+  "headline": "புதிய செயலக கட்டிடம் கட்ட வேண்டாம் என பழனிசாமி வலியுறுத்தல்",
+  "lines": [
+   "தமிழ்நாடு நிதிநிலை நெருக்கடியில் இருக்கும் நிலையில் புதிய செயலக வளாகம் கட்டுவது ஏன் என அதிமுக பொதுச் செயலாளர் எடப்பாடி பழனிசாமி கேள்வி எழுப்பினார்.",
+   "முதலில் மாநிலத்தின் நிதி நிலைமையை சரிசெய்ய வேண்டும் என அவர் தெரிவித்தார்.",
+   "அதன் பின்னரே புதிய செயலகத்திற்கான இடத்தை அரசு தேர்வு செய்ய வேண்டும் என அவர் கூறினார்.",
+   "மக்களுக்கு பாதிப்பு ஏற்படாத வகையில் மாற்று இடத்தை தேர்ந்தெடுக்க வேண்டும் என அவர் வலியுறுத்தினார்.",
+   "இது தொடர்பாக ஆளும் அரசு இதுவரை அதிகாரப்பூர்வமாக பதிலளிக்கவில்லை."
+  ],
+  "closing": "புதிய செயலக கட்டுமானம் தொடர்பான அரசின் இறுதி முடிவு குறித்து அடுத்த சில நாட்களில் தெளிவு கிடைக்கும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "எடப்பாடி பழனிசாமி",
+   "அதிமுக",
+   "தமிழ்நாடு அரசு",
+   "புதிய செயலக வளாகம்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Palaniswami questions building new Secretariat amid financial crisis",
+   "lines": [
+    "AIADMK general secretary Edappadi K. Palaniswami questioned why the state government is planning to build a new Secretariat complex when Tamil Nadu is facing a financial crisis.",
+    "He said the government should first set right the state's financial situation.",
+    "Only after that should the government choose a location for the new Secretariat, he said.",
+    "He urged the government to select an alternate site that would not adversely affect the people.",
+    "The ruling government has not yet officially responded to this statement."
+   ],
+   "closing": "Clarity on the government's final decision regarding the new Secretariat construction is expected in the coming days."
+  },
+  "front_cat": "routine",
+  "image_query": "Edappadi K Palaniswami",
+  "person_en": "Edappadi K. Palaniswami",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "56ec3269679d",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-17T18:20+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Madurai/why-construct-new-secretariat-complex-when-tn-is-facing-financial-crisis-palaniswami-asks-tvk-govt/article71476052.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/EdappadiKPalaniswami.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Edappadi K. Palaniswami",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Edappadi_K._Palaniswami"
+  },
+  "audio": "data/audio/56ec3269679d.mp3",
+  "created_ts": 1789649419.0479622,
+  "status": "published"
+ },
+ {
+  "headline": "முன்னாள் மத்திய அமைச்சர் சுதர்சன நாச்சியப்பன் காலமானார்",
+  "lines": [
+   "முன்னாள் மத்திய அமைச்சர் சுதர்சன நாச்சியப்பன் காலமானார் என்று தகவல் வெளியாகியுள்ளது.",
+   "இவரது மறைவு தொடர்பான கூடுதல் விவரங்கள் இதுவரை உறுதிப்படுத்தப்படவில்லை.",
+   "அவர் முன்னர் மத்திய அரசில் அமைச்சராகப் பொறுப்பு வகித்தவர் என்பது குறிப்பிடத்தக்கது.",
+   "பல்வேறு தரப்பினரும் இவரது மறைவுக்கு இரங்கல் தெரிவித்து வருகின்றனர்.",
+   "இறுதிச் சடங்கு தொடர்பான விவரங்கள் விரைவில் வெளியிடப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இவர் முன்னர் மத்திய அமைச்சராகப் பணியாற்றியவர் என்பதால் இவரது மறைவு அரசியல் வட்டாரங்களில் கவனம் பெறுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-09-17"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சுதர்சன நாச்சியப்பன்",
+   "மத்திய அமைச்சரவை",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Former Union Minister Sudarsana Nachiappan Passes Away",
+   "lines": [
+    "Reports have emerged that former Union Minister Sudarsana Nachiappan has passed away.",
+    "Further details regarding his death have not yet been confirmed.",
+    "He had previously served as a minister in the Union government.",
+    "Several quarters have been conveying their condolences over his passing.",
+    "Details regarding the funeral arrangements are expected to be announced soon."
+   ],
+   "closing": "Since he had earlier served as a Union Minister, his passing is drawing attention in political circles."
+  },
+  "front_cat": "leader_death",
+  "image_query": "",
+  "person_en": "Sudarsana Nachiappan",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "c3727ef38a76",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-17T18:19+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/17/former-union-minister-sudarsana-nachiappan-passed-away"
+  ],
+  "image": null,
+  "audio": "data/audio/c3727ef38a76.mp3",
+  "created_ts": 1789649354.5766873,
+  "status": "published"
+ },
+ {
+  "headline": "மதுரை மீனாட்சி சுந்தரேஸ்வரர் கோவில் கும்பாபிஷேகம் தொடக்கம்",
+  "lines": [
+   "மதுரை மீனாட்சி சுந்தரேஸ்வரர் கோவிலில் கும்பாபிஷேகம் நடைபெற உள்ளது.",
+   "காலை ஏழு மணி நாற்பது நிமிடம் முதல் எட்டு மணி பத்து நிமிடம் வரை நிர்ணயிக்கப்பட்ட நேரத்தில் சடங்கு நடைபெறும் என தெரிவிக்கப்பட்டுள்ளது.",
+   "கோவில் பூசாரிகள் இந்த முக்கியச் சடங்கை மேற்கொள்ள உள்ளனர்.",
+   "கும்பாபிஷேகம் என்பது கோவில் புனரமைப்பு மற்றும் தூய்மைப்படுத்தும் பணிகளுக்குப் பின் நடத்தப்படும் முக்கிய சமய நிகழ்வாகும்.",
+   "நிர்ணயிக்கப்பட்ட நேரத்தில் சடங்குகள் முழுமையடையும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "மீனாட்சி சுந்தரேஸ்வரர் கோவில் தமிழ்நாட்டின் முக்கியத் தலங்களில் ஒன்றாக விளங்குகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "மதுரை",
+   "மீனாட்சி சுந்தரேஸ்வரர் கோவில்",
+   "கும்பாபிஷேகம்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Meenakshi Sundareswarar Temple Kumbabishekam Begins in Madurai",
+   "lines": [
+    "The Kumbabishekam ceremony is set to take place at the Meenakshi Sundareswarar Temple in Madurai.",
+    "The ritual is scheduled to be performed between 7.40 a.m. and 8.10 a.m.",
+    "Temple priests are expected to carry out this important ceremony.",
+    "Kumbabishekam is a significant religious event conducted after temple renovation and purification works.",
+    "The rituals are expected to be completed within the scheduled time."
+   ],
+   "closing": "The Meenakshi Sundareswarar Temple remains one of Tamil Nadu's most important shrines."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Meenakshi Amman Temple Madurai",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "859a5bc6e81d",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-17T18:18+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Madurai/meenakshi-sundareswarar-temple-consecration-ceremony-kumbhabhishekam-september-17-2026/article71475098.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/MEENAKSHI_TEMPLE-_WEST_TOWER.jpg/1280px-MEENAKSHI_TEMPLE-_WEST_TOWER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · Mamichaelraj",
+   "license": "CC BY-SA 4.0",
+   "symbolic": true
+  },
+  "audio": "data/audio/859a5bc6e81d.mp3",
+  "created_ts": 1789649319.7241867,
+  "status": "published"
+ },
+ {
+  "headline": "மதுரை மீனாட்சி அம்மன் கோவில் மகா கும்பாபிஷேகம் பதினேழு ஆண்டுகளுக்குப் பிறகு நடைபெற்றது",
+  "lines": [
+   "மதுரையில் உள்ள மீனாட்சி அம்மன் கோவிலில் பதினேழு ஆண்டுகளுக்குப் பிறகு மகா கும்பாபிஷேக நிகழ்வு நடைபெற்றது.",
+   "இந்த வழிபாட்டு நிகழ்வைக் காண ஆயிரக்கணக்கான பக்தர்கள் கோவிலுக்குத் திரண்டு வந்தனர்.",
+   "பக்தர்களின் பாதுகாப்பை உறுதி செய்ய ஏராளமான காவல் துறையினர் பணியில் நியமிக்கப்பட்டனர்.",
+   "கும்பாபிஷேக நிகழ்வு சிறப்பாக நடைபெற கோவில் நிர்வாகம் முன்னதாகவே ஏற்பாடுகளைச் செய்திருந்தது.",
+   "நிகழ்வுக்குப் பிறகு கோவிலில் வழக்கமான வழிபாடு மற்றும் தரிசனம் தொடரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "மீனாட்சி அம்மன் கோவில் மதுரையின் முக்கியப் பண்பாட்டு மற்றும் ஆன்மிக அடையாளங்களில் ஒன்றாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "மதுரை",
+   "மீனாட்சி அம்மன் கோவில்",
+   "காவல் துறை",
+   "பக்தர்கள்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Madurai Meenakshi Temple kumbabishekam held after seventeen years",
+   "lines": [
+    "The Meenakshi Amman Temple in Madurai held its maha kumbabishekam ceremony after seventeen years.",
+    "Thousands of devotees gathered at the temple to witness this consecration ceremony.",
+    "A large number of police personnel were deployed to ensure the safety and security of the devotees.",
+    "The temple administration had made arrangements in advance to conduct the event smoothly.",
+    "Regular worship and darshan at the temple are expected to continue following the ceremony."
+   ],
+   "closing": "The Meenakshi Amman Temple is one of Madurai's important cultural and spiritual landmarks."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Meenakshi temple Madurai kumbabishekam",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "dbb860ec06a3",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-17T18:17+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/madurai-meenakshi-temple-kumbabishekam-devotees-gather-in-large-numbers-for-consecration-ceremony-september-17-2026-live-updates/article71475137.ece"
+  ],
+  "image": {
+   "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8TWVlbmFrc2hpJTIwdGVtcGxlJTIwTWFkdXJhaSUyMGt1bWJhYmlzaGVrYW18ZW58MXwwfHx8MTc4OTY0OTk2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+   "credit": "SIBY · Unsplash",
+   "license": "Unsplash — இலவசம்",
+   "symbolic": true
+  },
+  "audio": "data/audio/dbb860ec06a3.mp3",
+  "created_ts": 1789649281.215274,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழக முதலமைச்சர் விஜய் பிரிட்டன் பயணத்தில் பெரும் முதலீடு உறுதி",
+  "lines": [
+   "தமிழக முதலமைச்சர் விஜய் ஐக்கிய இராச்சியப் பயணத்தை முடித்துக்கொண்டு தமிழ்நாடு திரும்பினார்.",
+   "இந்தப் பயணத்தின்போது பதினைந்தாயிரத்து முந்நூறு கோடி ரூபாய் மதிப்பிலான முதலீட்டு உறுதிமொழிகள் பெறப்பட்டதாக தெரிவிக்கப்பட்டுள்ளது.",
+   "பயணத்தின் ஒரு பகுதியாக இந்திய உயர் ஸ்தானிகர் குமரன் பெரியசாமியை முதலமைச்சர் சந்தித்து பேச்சுவார்த்தை நடத்தினார்.",
+   "இந்தியா மற்றும் ஐக்கிய இராச்சியத்திற்கு இடையேயான விரிவான பொருளாதார மற்றும் வர்த்தக ஒப்பந்தத்தின் கீழ் கூட்டு முயற்சிகள் குறித்து இருவரும் ஆலோசனை நடத்தினர்.",
+   "இந்த ஒப்பந்தத்தின் அடிப்படையில் தமிழ்நாட்டுக்கும் ஐக்கிய இராச்சியத்துக்கும் இடையேயான தொழில் ஒத்துழைப்பு மேலும் விரிவடையும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "விரிவான பொருளாதார மற்றும் வர்த்தக ஒப்பந்தம் இந்தியா மற்றும் ஐக்கிய இராச்சியத்திற்கு இடையேயான வர்த்தக உறவை வலுப்படுத்தும் நோக்கில் கையெழுத்தானது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "விஜய்",
+   "தமிழ்நாடு",
+   "ஐக்கிய இராச்சியம்",
+   "குமரன் பெரியசாமி",
+   "விரிவான பொருளாதார மற்றும் வர்த்தக ஒப்பந்தம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Tamil Nadu CM Vijay secures major investments during UK visit",
+   "lines": [
+    "Tamil Nadu Chief Minister Vijay returned to Tamil Nadu after concluding his visit to the United Kingdom.",
+    "It has been reported that investment commitments worth fifteen thousand three hundred crore rupees were secured during this visit.",
+    "As part of the visit, the Chief Minister met and held talks with Indian High Commissioner Kumaran Periasamy.",
+    "The two discussed joint initiatives under the Comprehensive Economic and Trade Agreement between India and the United Kingdom.",
+    "Based on this agreement, industrial cooperation between Tamil Nadu and the United Kingdom is expected to expand further."
+   ],
+   "closing": "The Comprehensive Economic and Trade Agreement was signed with the aim of strengthening trade relations between India and the United Kingdom."
+  },
+  "id": "63ba17ce8bb3",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-17T18:17+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tn-cm-vijay-returns-from-uk-with-15300-crore-investment-commitments/article71475246.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/63ba17ce8bb3.mp3",
+  "created_ts": 1789649241.3152635,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "மதுரை மீனாட்சி அம்மன் கோயில் கும்பாபிஷேகத்திற்கு ஆயிரக்கணக்கான பக்தர்கள் திரள்",
+  "lines": [
+   "மதுரை மீனாட்சி அம்மன் கோயிலில் நடைபெற்ற வரலாற்று சிறப்புமிக்க கும்பாபிஷேகத்திற்கு ஆயிரக்கணக்கான பக்தர்கள் திரண்டனர்.",
+   "கூட்டத்தை ஒழுங்குபடுத்த சிவப்பு, மஞ்சள், ஊதா, பச்சை என நான்கு நிற அனுமதிச் சீட்டுகள் அறிமுகப்படுத்தப்பட்டன்.",
+   "ஒவ்வொரு நிற சீட்டும் கருவறைக்கு அருகில் உள்ள குறிப்பிட்ட பகுதிகளுக்கு பக்தர்களை வழிநடத்தியது.",
+   "கோயில் நிர்வாகம் கூட்டக் கட்டுப்பாட்டு நடவடிக்கைகளையும் பாதுகாப்பு ஏற்பாடுகளையும் மேற்கொண்டது.",
+   "கும்பாபிஷேகத் தொடர்பான நிகழ்வுகள் அடுத்த சில நாட்களில் தொடரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "பக்தர்களின் நெரிசலைக் கருத்தில் கொண்டு அதிகாரிகள் மேலும் ஏற்பாடுகளை மேற்கொள்ள வாய்ப்புள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "மதுரை",
+   "மீனாட்சி அம்மன் கோயில்",
+   "கும்பாபிஷேகம்",
+   "பக்தர்கள்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Thousands gather for historic consecration of Madurai Meenakshi temple",
+   "lines": [
+    "Thousands of devotees gathered for the historic consecration ceremony at the Meenakshi Amman Temple in Madurai.",
+    "A four colour pass system with red, yellow, purple, and green tokens was introduced to manage the crowds.",
+    "Each coloured pass directed devotees to specific access areas closest to the inner sanctum.",
+    "Temple authorities put in place crowd control measures along with additional security arrangements.",
+    "Consecration related events are expected to continue over the coming days."
+   ],
+   "closing": "Authorities may introduce further arrangements considering the scale of devotee turnout."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Meenakshi Amman temple Madurai",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "ddeb156e119e",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-17T18:16+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Madurai/devotees-gather-for-historic-consecration-of-meenakshi-temple-in-madurai/article71475121.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/MEENAKSHI_TEMPLE-_WEST_TOWER.jpg/1280px-MEENAKSHI_TEMPLE-_WEST_TOWER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · Mamichaelraj",
+   "license": "CC BY-SA 4.0",
+   "symbolic": true
+  },
+  "audio": "data/audio/ddeb156e119e.mp3",
+  "created_ts": 1789649184.750576,
+  "status": "published"
+ },
+ {
+  "headline": "முன்னாள் மத்திய அமைச்சர் நச்சியப்பன் காலமானார், அகவை 78",
+  "lines": [
+   "முன்னாள் மத்திய அமைச்சரும், மூத்த காங்கிரஸ் தலைவருமான ஈ.எம். சுதர்சன நச்சியப்பன் காலமானார்.",
+   "அவருக்கு அகவை எழுபத்தி எட்டு ஆகியிருந்தது.",
+   "ஆயிரத்து தொள்ளாயிரத்து தொண்ணூற்று ஒன்பதாம் ஆண்டு நாடாளுமன்றத் தேர்தலில் சிவகங்கை தொகுதியில் அவர் வெற்றி பெற்றார்.",
+   "அந்தத் தேர்தலில் முன்னாள் மத்திய அமைச்சர் பி. சிதம்பரத்தை தோற்கடித்து அவர் பரவலான கவனம் பெற்றார்.",
+   "அந்த வெற்றிக்குப் பின்னர் காங்கிரஸ் கட்சியில் அவரது அரசியல் பிரதிநிதித்துவம் மேலும் உயர்ந்தது."
+  ],
+  "closing": "சிவகங்கை தொகுதியில் அந்த வெற்றி அவரை தேசிய அரசியலில் அறியப்பட்ட முகமாக மாற்றியது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "ஈ.எம். சுதர்சன நச்சியப்பன்",
+   "காங்கிரஸ் கட்சி",
+   "சிவகங்கை",
+   "பி. சிதம்பரம்",
+   "மக்களவை"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Former Union Minister Natchiappan Passes Away at 78",
+   "lines": [
+    "Former Union Minister and senior Congress leader E. M. Sudarsana Natchiappan has passed away.",
+    "He was 78 years old.",
+    "In the 1999 parliamentary election, he won from the Sivaganga Lok Sabha constituency.",
+    "In that election, he defeated former Union Minister P. Chidambaram, gaining wide attention.",
+    "Following that victory, his political standing within the Congress party grew further."
+   ],
+   "closing": "That win in Sivaganga made him a recognised figure in national politics."
+  },
+  "front_cat": "leader_death",
+  "image_query": "",
+  "person_en": "E. M. Sudarsana Natchiappan",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "f33a9244a606",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-17T18:15+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/em-sudarsana-nachiappan-former-union-minister-and-senior-congress-leader-passes-away-at-79/article71475548.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/E.M.S._Natchiappan_-_2014_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · E. M. Sudarsana Natchiappan",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/E._M._Sudarsana_Natchiappan"
+  },
+  "audio": "data/audio/f33a9244a606.mp3",
+  "created_ts": 1789649148.4175599,
+  "status": "published"
+ },
+ {
   "headline": "தாம்பரம் மாநகராட்சியில் ஊழல் புகார்: ஆணையர் பதவி நீக்கம்",
   "lines": [
    "முதல்வர் விஜய் நேரடியாகக் கவனிக்கும் நகராட்சி நிர்வாகத் துறையின் கீழ் உள்ள தாம்பரம் மாநகராட்சியில் ஊழல் புகார் எழுந்துள்ளது.",
@@ -3075,305 +3549,6 @@
   },
   "audio": "data/audio/1b8c3da491d8.mp3",
   "created_ts": 1789152632.0498164,
-  "status": "published"
- },
- {
-  "headline": "தமிழறிஞர் சாலமன் பாப்பையா மறைவு: சிபிஐ, சிபிஐ(எம்) இரங்கல்",
-  "lines": [
-   "தமிழறிஞர் சாலமன் பாப்பையா காலமானார் என்று தகவல் வெளியாகியுள்ளது.",
-   "அவரது மறைவுக்கு இந்திய கம்யூனிஸ்ட் கட்சி மற்றும் மார்க்சிஸ்ட் கம்யூனிஸ்ட் கட்சி ஆகிய இரு கட்சிகளும் இரங்கல் தெரிவித்துள்ளன.",
-   "இரு கட்சிகளின் தலைவர்களும் தங்கள் இரங்கல் செய்தியில் சாலமன் பாப்பையாவின் தமிழ்ப் பணி குறித்து குறிப்பிட்டுள்ளனர்.",
-   "தமிழ் இலக்கியத் துறையில் நீண்ட காலமாக அறிஞராகச் செயல்பட்டவர் என அறியப்படுகிறார்.",
-   "அவரது இறுதிச் சடங்கு தொடர்பான விவரங்கள் இன்னும் வெளியிடப்படவில்லை."
-  ],
-  "closing": "சாலமன் பாப்பையா தமிழ் அறிஞராக அறியப்பட்டவர் என்பது குறிப்பிடத்தக்கது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "சாலமன் பாப்பையா",
-   "இந்திய கம்யூனிஸ்ட் கட்சி",
-   "சிபிஐ(எம்)"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Tamil Scholar Solomon Pappaiya Passes Away, CPI and CPI(M) Condole",
-   "lines": [
-    "Tamil scholar Solomon Pappaiya has passed away, according to reports.",
-    "Both the Communist Party of India and the Communist Party of India (Marxist) have expressed condolences over his death.",
-    "Leaders of both parties referred to his contributions to Tamil literature in their condolence messages.",
-    "He was known as a long-standing scholar in the field of Tamil literature.",
-    "Details regarding his final rites have not yet been announced."
-   ],
-   "closing": "Solomon Pappaiya was known as a notable Tamil scholar."
-  },
-  "front_cat": "leader_death",
-  "image_query": "",
-  "person_en": "Solomon Pappaiya",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "9e6a3410e02a",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-12T00:15+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/11/condolence-for-the-death-of-tamil-scholar-thiru-solomon-pappaiya"
-  ],
-  "image": null,
-  "audio": "data/audio/9e6a3410e02a.mp3",
-  "created_ts": 1789152311.3317602,
-  "status": "published"
- },
- {
-  "headline": "தமிழறிஞர் சாலமன் பாப்பையா காலமானார், தலைவர்கள் இரங்கல்",
-  "lines": [
-   "தமிழ்ப் பேச்சாளரும் எழுத்தாளருமான சாலமன் பாப்பையா காலமானார் என தெரிவிக்கப்பட்டுள்ளது.",
-   "அவரது மறைவுக்கு தமிழ்நாடு ஆளுநர், முதல்வர் மு.க. ஸ்டாலின் உள்ளிட்ட பலர் இரங்கல் தெரிவித்துள்ளனர்.",
-   "முதல்வர் ஸ்டாலின், அரும்புதல்வர்களுள் ஒருவரைத் தமிழ்த்தாய் இழந்துவிட்டதாக இரங்கல் செய்தியில் கூறியுள்ளார்.",
-   "சாலமன் பாப்பையா தமிழ் மொழி மற்றும் இலக்கியப் பரப்புரையில் நீண்டகாலமாக ஈடுபட்டு வந்தவர் ஆவார்.",
-   "அவரது இறுதிச் சடங்கு மற்றும் அஞ்சலி நிகழ்வுகள் குறித்த விவரங்கள் எதுவும் இதுவரை வெளியிடப்படவில்லை."
-  ],
-  "closing": "சாலமன் பாப்பையா தமிழ் மொழிப் பணிக்காக பரவலாக அறியப்பட்டவர் என்பது குறிப்பிடத்தக்கது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "சாலமன் பாப்பையா",
-   "மு.க. ஸ்டாலின்",
-   "தமிழ்நாடு ஆளுநர்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Tamil orator Solomon Pappaiah passes away, leaders condole",
-   "lines": [
-    "Tamil orator and writer Solomon Pappaiah has reportedly passed away.",
-    "Tamil Nadu Governor, Chief Minister M. K. Stalin and several other leaders have expressed condolences over his death.",
-    "Chief Minister Stalin said in his condolence message that Tamil Nadu has lost one of its cherished sons.",
-    "Solomon Pappaiah was long associated with the promotion of the Tamil language and literature.",
-    "Details regarding funeral arrangements and tribute events have not yet been announced."
-   ],
-   "closing": "Solomon Pappaiah was widely known for his contributions to the Tamil language."
-  },
-  "front_cat": "leader_death",
-  "image_query": "",
-  "person_en": "Solomon Pappaiah",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "398f13088991",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-12T00:13+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/11/passing-of-solomon-pappaiahgovernor-chief-minister-and-leaders-offer-condolences",
-   "https://www.dinamani.com/tamilnadu/2026/Sep/11/tamil-thai-has-lost-one-of-her-cherished-sons-stalin-condoles-the-passing-of-solomon-pappaiah",
-   "https://www.dinamani.com/tamilnadu/2026/Sep/11/chief-minister-vijay-condoles-the-passing-of-solomon-pappaiah"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Prof._Sundaram_Solomon_Pappaiah_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Solomon Pappaiah",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Solomon_Pappaiah"
-  },
-  "audio": "data/audio/398f13088991.mp3",
-  "created_ts": 1789152240.2027726,
-  "status": "published"
- },
- {
-  "headline": "தூத்துக்குடியில் எச்டி ஹூண்டாய் கப்பல் தள திட்டம் - டிபிஆர் கட்டத்திற்கு முன்னேற்றம்",
-  "lines": [
-   "தென் கொரிய நிறுவனமான எச்டி ஹூண்டாய், தமிழ்நாட்டின் தூத்துக்குடியில் கப்பல் தளம் அமைக்கும் திட்டத்துடன் முன்னேறி வருகிறது.",
-   "இந்தத் திட்டம் தற்போது விரிவான திட்ட அறிக்கை எனப்படும் டிபிஆர் தயாரிக்கும் கட்டத்தை அடைந்துள்ளது.",
-   "கப்பல் கட்டும் தொழிற்துறை தொடர்பான இந்தத் திட்டம் தூத்துக்குடி பகுதியில் செயல்படுத்தப்பட உள்ளது.",
-   "விரிவான திட்ட அறிக்கை தயாரானதும் அடுத்தகட்ட அரசு அனுமதிகள் மற்றும் ஒப்புதல்கள் பெறப்படும் என்று தெரிகிறது.",
-   "இந்தத் திட்டம் குறித்த மேலும் விவரங்கள் விரைவில் அதிகாரப்பூர்வமாக வெளியிடப்படும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "விரிவான திட்ட அறிக்கை என்பது பெரிய தொழில் திட்டங்களுக்கு அரசு அனுமதி பெறுவதற்கு முந்தைய முக்கியக் கட்டமாகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "எச்டி ஹூண்டாய்",
-   "தூத்துக்குடி",
-   "தமிழ்நாடு",
-   "கப்பல் தளம்",
-   "விரிவான திட்ட அறிக்கை"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "HD Hyundai's Thoothukudi Shipyard Project Advances to DPR Stage",
-   "lines": [
-    "South Korean company HD Hyundai is moving forward with a shipyard project in Thoothukudi, Tamil Nadu.",
-    "The project has now reached the stage of preparing a Detailed Project Report, known as DPR.",
-    "The shipbuilding sector project is planned to be set up in the Thoothukudi region.",
-    "Once the DPR is ready, further government approvals and clearances are expected to follow.",
-    "More official details about the project are expected to be released soon."
-   ],
-   "closing": "A Detailed Project Report is a key stage that precedes government approval for major industrial projects."
-  },
-  "id": "266fd32dbc94",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-11T00:48+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/hd-hyundai-moves-ahead-with-shipyard-project-in-thoothukudi-project-advances-to-dpr-stage/article71451725.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/266fd32dbc94.mp3",
-  "created_ts": 1789067907.9126482,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "பட்டினப்பாக்கத்தில் புதிய செயலகம் அமைப்பதற்கு அரசியல் தலைவர்கள் எதிர்ப்பு",
-  "lines": [
-   "தமிழ்நாடு அரசு புதிய செயலகம் கட்ட பட்டினப்பாக்கம் பகுதியைத் தேர்வு செய்ததற்கு அரசியல் தலைவர்களும் மீனவர்களும் கடும் எதிர்ப்பு தெரிவித்துள்ளனர்.",
-   "பிஎம்கே தலைவர் அன்புமணி ராமதாஸ் மற்றும் ஏஎம்எம்கே தலைவர் டி.டி.வி. தினகரன் ஆகியோர் இந்த முடிவை விமர்சித்துள்ளனர்.",
-   "இந்த இடத் தேர்வு சரியானது அல்ல என்று அன்புமணி ராமதாஸ் கருத்து தெரிவித்துள்ளார்.",
-   "அரசின் இந்த நடவடிக்கையை தினகரனும் எதிர்த்து பேசியுள்ளார்.",
-   "பட்டினப்பாக்கம் பகுதி மீனவர்களும் இந்த இடத் தேர்விற்கு எதிர்ப்பு தெரிவித்து வருகின்றனர்."
-  ],
-  "closing": "அரசு இந்த எதிர்ப்புகளுக்குப் பதிலளித்து இடத் தேர்வை மறுபரிசீலனை செய்யுமா என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "பட்டினப்பாக்கம்",
-   "தமிழ்நாடு அரசு",
-   "அன்புமணி ராமதாஸ்",
-   "டி.டி.வி. தினகரன்",
-   "மீனவர்கள்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Political leaders oppose Pattinapakkam as site for new TN Secretariat",
-   "lines": [
-    "Political leaders and fisherfolk have strongly opposed the Tamil Nadu government's choice of Pattinapakkam as the site for the new Secretariat.",
-    "PMK leader Dr. Anbumani Ramadoss and AMMK chief T.T.V. Dhinakaran have criticised the government's decision.",
-    "Anbumani Ramadoss stated that the choice of this location is not appropriate.",
-    "Dhinakaran also spoke out against the government's move.",
-    "Fisherfolk from the Pattinapakkam area have also raised objections to the site selection."
-   ],
-   "closing": "It remains to be seen whether the government will respond to these objections and reconsider the site choice."
-  },
-  "front_cat": "routine",
-  "image_query": "government secretariat building",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "0a975ee45dab",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-11T00:41+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/fisherfolk-oppose-choice-of-pattinapakkam-as-site-for-secretariat/article71448528.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Delhi%2C_India%2C_Secretariat_Building_%28Central_Secretariat%29.jpg/1280px-Delhi%2C_India%2C_Secretariat_Building_%28Central_Secretariat%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா Commons · Vyacheslav Argenberg",
-   "license": "CC BY 4.0",
-   "symbolic": true
-  },
-  "audio": "data/audio/0a975ee45dab.mp3",
-  "created_ts": 1789067523.7522464,
-  "status": "published"
- },
- {
-  "headline": "காஞ்சிபுரம் அருகே கர்ப்பிணி, குழந்தை மரணம்: நடவடிக்கை கோரி டிஎம்டிகே கோரிக்கை",
-  "lines": [
-   "காஞ்சிபுரம் அருகே ஒரு கர்ப்பிணிப் பெண் மற்றும் ஒரு குழந்தை உயிரிழந்த சம்பவம் தொடர்பாக டிஎம்டிகே கட்சி நடவடிக்கை கோரியுள்ளது.",
-   "இச்சம்பவம் குறித்த முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-   "பொறுப்பானவர்கள் மீது உரிய நடவடிக்கை எடுக்க வேண்டும் என டிஎம்டிகே கட்சியினர் கோரிக்கை விடுத்துள்ளனர்.",
-   "இதுகுறித்து அரசு தரப்பில் இதுவரை உறுதியான பதில் வெளியிடப்படவில்லை.",
-   "இச்சம்பவம் தொடர்பாக அரசு என்ன நடவடிக்கை எடுக்கும் என்பது அடுத்து கவனிக்கப்பட வேண்டும்."
-  ],
-  "closing": "இச்சம்பவம் தொடர்பான முழு விவரங்கள் இன்னும் தெளிவாக வெளிவரவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "டிஎம்டிகே",
-   "காஞ்சிபுரம்",
-   "கர்ப்பிணிப் பெண்",
-   "குழந்தை"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "DMDK demands action over deaths of pregnant woman and infant near Kancheepuram",
-   "lines": [
-    "The DMDK party has demanded action over the death of a pregnant woman and an infant near Kancheepuram.",
-    "Complete official details of the incident have not yet been released.",
-    "DMDK members have called for strict action against those responsible.",
-    "The government has not yet issued a clear response on the matter.",
-    "What action the government will take on this incident remains to be seen."
-   ],
-   "closing": "Complete details about the incident are yet to emerge clearly."
-  },
-  "front_cat": "crime_major",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "81d1dca19dc1",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-11T00:24+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/dmdk-seeks-action-over-death-of-pregnant-woman-infant-near-kancheepuram/article71451257.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/81d1dca19dc1.mp3",
-  "created_ts": 1789066485.8885572,
   "status": "published"
  }
 ]
