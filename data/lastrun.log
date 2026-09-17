@@ -3,7 +3,7 @@
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 25 புதியவை
-[fetch] BBC Tamil: 5 புதியவை
+[fetch] BBC Tamil: 2 புதியவை
 [fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 17 புதியவை
 [fetch] ESPNcricinfo: 26 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 25 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 6 புதியவை
+[fetch] FreeJobAlert: 5 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 15 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 12 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 24 புதியவை
 [fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 13 புதியவை
 [fetch] The Verge: 5 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 7 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1310988390>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f746a9231d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,27 +67,71 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 623 → நிகழ்வுகள் 581
-[triage] 581 → 45 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] மேற்கு வங்கத்தின் உள்ளூர் நிர்வாகத் தகராறு — தமிழ்நாட்டு வாச
+[run] புதியவை 610 → நிகழ்வுகள் 567
+[triage] சேமித்த மதிப்பெண் (511) — புதிய அழைப்பு இல்லை
+[triage] 567 → 60 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் பிராந்திய வ
+[tts-edge] 855cd0b0a0d6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்திய வீரர் அபிஷேக் சர்மா 30 பந்தில் நூறு ரன்கள் அடித்து சாதனை
+[skip] பரசுராம் எக்ஸ்பிரஸ் என்பது கேரளா-கர்நாடகா இடையே இயங்கும் ரயி
+[tts-edge] 9344c89b0d0d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கிரானைட் தொழிலதிபர் வீரமணி மீது மேலும் பாதிக்கப்பட்டோர் புகார்
+[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள ஒரு தனியார் கல்லூரியின் உள்ளூ
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், மாநிலம், சம்பவ விவரங
+[skip] இது ஆந்திரப் பிரதேசம் திருப்பதி மாவட்டக் காவல் துறையின் உள்ள
+[skip] இது ஒரு குறிப்பிட்ட மருத்துவமனையின் தனிப்பட்ட சிகிச்சை வழக்க
+[skip] இது கர்நாடகா உயர் நீதிமன்றத்தின் பெங்களூரு நகர உள்ளூர் விவகா
+[skip] இது தெலங்கானா மாநில அரசின் உள்ளூர் அறிவிப்பு, தமிழ்நாட்டுடன்
+[skip] இது கேரள மாநிலத்தின் கோழிக்கோடு மாவட்டத்தில் உள்ளூர் சிறை கட
+[skip] இது தெலங்கானாவின் ஃப்யூச்சர் சிட்டி திட்டத்தில் எஸ்பிஐ தரவு 
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள ஒரு கல்லூரியில் நாடாளுமன்ற உற
+[skip] இது ஒரு கல்லூரி அறிவியல் கண்காட்சி பற்றிய சிறு உள்ளூர் அறிவி
+[skip] தலைப்பு மட்டுமே கிடைத்துள்ளது, செய்தியின் விவரங்கள் (பெயர், 
+[skip] இது ஆந்திரப் பிரதேச மின்சார நிறுவனத்தின் (APSPDCL) உள்ளூர் த
+[skip] இது கர்நாடகா மாநிலத்தில் உள்ள IIIT-பெங்களூரு நிறுவனத்திற்கும
+[skip] இது ஆந்திரப் பிரதேச மாநிலத்தின் உள்ளூர் தொழில்நுட்பக் கூட்டம
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விபத்து நடந்த இடம், மாநிலம
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Article 371(J) a blessing for educated youth in 
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other group stocks zoom up 
-[skip] தமிழ்நாட்டுத் தொழில்நுட்ப/மின்சாரத் சிக்கல் என்றாலும், மூல உ
-[skip] தமிழ்நாட்டு செய்தி. world என்ற கட்டுறுப்பு தந்திருந்தாலும் இ
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; எந்த மாநிலம், எந்த முதல்வர
-[skip] இது ஒரு குறிப்பிட்ட நகரத்தின் (தமிழ்நாட்டுக்கு வெளியே) உள்ளூ
+[skip] வெளிநாட்டு உள்நாட்டுப் பொருளாதாரம் — சீனாவின் எண்ணெய் விலையு
+[skip] ஹரியானா மற்றும் மகாராஷ்டிரா மாநிலங்களின் உள்ளூர் சம்பவங்கள் 
+[publish] பிரதமர் மோடி பிறந்தநாளில் கிரண் ரிஜிஜு பாராட்டு
+[தரம்] தமிழ் அல்லாத எழுத்து: कजठथधयला → ஒரு திருத்தம்
+[publish] ஆசிய விளையாட்டுக்களத்தில் இந்தியா 30-32 கட்டைப் பதக்கம் வெல்லலாம்
+[skip] வெளிநாட்டு ক্রীড়া நিউজ যা তামিলনাडु/भारत পাঠকদের সরাসরি প্র
+[skip] வெளிநாட்டு விளையாட்டுச் சரிதம் — தமிழ்நாடு அல்லது இந்திய வீர
+[skip] பশ্চிமப் பதங்கம். கொல்கத்தா நகரத்தின் உள்ளூர் ফুட்பாள் விளைய
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Parasuram Express to be upgraded to LHB coaches
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: More victims give statements against granite bar
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Sri Sivani College inks pact with UK’s Universit
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: CGST Superintendent, mediator held in ₹8 lakh br
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Geo-tagging to help police trace missing childre
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: KIMS successfully treats pregnant woman with lif
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Karnataka High Court lays down norms for authori
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: State aiming to achieve 20,000 MW renewable ener
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Construction of rural district jail moves at a s
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: SBI Data Centre gets 10 acres in Future City
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: With southwest monsoon set for withdrawal, rain 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: MP inaugurates new dining hall in V.S. Krishna c
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Teresian College to host science exhibition
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Army sepoy from Bengaluru competes in IRONMAN 70
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: APSPDCL’s phone-in receives 2249 complaints; 1,8
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: IIIT-B, TCA sign LoI to deepen tech cooperation
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: PanIIT summit to help shape roadmap for DeepTech
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Man, daughter killed in road accident while retu
+[skip] பிரிட்டனின் உள்ளூர் குற்றச் செய்தி. தமிழ்நாடு/இந்தியச் வாசகர
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: West Bengal woman deported to Bangladesh after S
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: CM to distribute pattas for plots tomorrow
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: New underpass to ease traffic, improve U-turn ef
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ₹73 lakh CSR-funded toilet works begin at Mysuru
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Rela Hospital launches centre for cleft and cran
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Traffic police to set up 15 centres for to help 
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man held for cheating woman of around 155 sovere
-[skip] குஜராத் மாநிலத்தில் அமைந்த நிறுவனத்தின் வேலைவாய்ப்பு அறிவிப்
+[skip] மத்திய பிரதேश மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு/கல்வி அறிவிப்
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Rattlesnake blood could reinvent the fight again
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Stem cell therapy for autism only in approved cl
 [image] 6 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13928 · சென்செக்ஸ் 74315
+[market] தங்கம் 22K ₹13938 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 6 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 0
+[done] feed 300 · pending 1 · எழுதியவை 4
