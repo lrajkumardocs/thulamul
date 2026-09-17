@@ -209,9 +209,17 @@ def _yf(sym):
             if not closes:
                 return None
             last = meta.get("regularMarketPrice") or closes[-1]
-            prev = meta.get("previousClose") or meta.get("chartPreviousClose")
-            if not prev or prev == last:
-                prev = closes[-2] if len(closes) > 1 else last
+            # முந்தைய இறுதி — வரலாற்றுத் தொடரிலிருந்து (meta நம்பகமற்றது)
+            prev = None
+            for c in reversed(closes[:-1]):
+                if c and abs(c - closes[-1]) / closes[-1] < 0.25:
+                    prev = c
+                    break
+            if not prev:
+                prev = meta.get("previousClose") or meta.get("chartPreviousClose") or last
+            # last-ஐ closes[-1] உடன் ஒப்பிடு; regularMarketPrice வேறு நாளாக இருக்கலாம்
+            if abs(last - closes[-1]) / closes[-1] > 0.25:
+                last = closes[-1]
             ts = meta.get("regularMarketTime")
             return {"last": float(last), "prev": float(prev),
                     "ts": int(ts) if ts else None,
@@ -249,7 +257,7 @@ def market_snapshot(prev_snap=None):
     old = prev_snap or {}
     out = {"at": datetime.now(IST).isoformat(timespec="minutes")}
 
-    def sane(key, val, band=0.10):
+    def sane(key, val, band=0.18):
         """முந்தைய மதிப்பிலிருந்து 10%-க்கு மேல் தாவினால் சந்தேகம் — பழையதை வை."""
         o = old.get(key)
         if o and val and abs(val - o) / o > band:
@@ -258,7 +266,10 @@ def market_snapshot(prev_snap=None):
         return val, False
 
     def pct(d):
-        return round((d["last"] - d["prev"]) / d["prev"] * 100, 2) if d and d.get("prev") else 0.0
+        if not d or not d.get("prev"):
+            return 0.0
+        v = round((d["last"] - d["prev"]) / d["prev"] * 100, 2)
+        return 0.0 if abs(v) > 12 else v          # சந்தேகமான சதவீதம் — காட்டாதே
 
     if gold:
         g24 = gold["last"] * usdinr["last"] / OZ * GOLD_F
@@ -274,15 +285,15 @@ def market_snapshot(prev_snap=None):
             out["gold_note"] = "சரிபார்ப்பில் உள்ளது"
     if silver:
         sv = silver["last"] * usdinr["last"] / OZ * SILVER_F
-        sv, _ = sane("silver", round(sv, 2))
+        sv, _ = sane("silver", round(sv, 2), 0.30)
         out["silver"] = round(sv, 2); out["silver_pct"] = pct(silver)
         out["silver_chg"] = round((silver["last"] - silver["prev"]) * usdinr["last"] / OZ * SILVER_F, 2)
     if sensex:
-        v, _ = sane("sensex", round(sensex["last"]), 0.08)
+        v, _ = sane("sensex", round(sensex["last"]), 0.12)
         out["sensex"] = round(v); out["sensex_pct"] = pct(sensex)
         out["sensex_age"] = _age_ta(sensex.get("ts")); out["market_state"] = sensex.get("state", "")
     if nifty:
-        v, _ = sane("nifty", round(nifty["last"]), 0.08)
+        v, _ = sane("nifty", round(nifty["last"]), 0.12)
         out["nifty"] = round(v); out["nifty_pct"] = pct(nifty)
     if usdinr:
         out["usd"] = round(usdinr["last"], 2); out["usd_pct"] = pct(usdinr)
