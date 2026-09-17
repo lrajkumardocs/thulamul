@@ -1,16 +1,16 @@
 [fetch] RBI: 8 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 10 புதியவை
-[fetch] Dinamani TN: 21 புதியவை
+[fetch] The Hindu TN: 8 புதியவை
+[fetch] Dinamani TN: 20 புதியவை
 [fetch] BBC Tamil: 1 புதியவை
 [fetch] BBC World: 9 புதியவை
-[fetch] Al Jazeera: 9 புதியவை
+[fetch] Al Jazeera: 4 புதியவை
 [fetch] ESPNcricinfo: 23 புதியவை
-[fetch] The Hindu Sport: 19 புதியவை
-[fetch] The Hindu Cinema: 17 புதியவை
+[fetch] The Hindu Sport: 17 புதியவை
+[fetch] The Hindu Cinema: 15 புதியவை
 [fetch] Cinema Express: 24 புதியவை
-[fetch] The Hindu Tech: 15 புதியவை
+[fetch] The Hindu Tech: 13 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -29,25 +29,25 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 8 புதியவை
+[fetch] The Hindu Legal: 6 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 9 புதியவை
-[fetch] The Verge: 5 புதியவை
-[fetch] The Hindu National: 8 புதியவை
+[fetch] TechCrunch: 7 புதியவை
+[fetch] The Verge: 4 புதியவை
+[fetch] The Hindu National: 6 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 29 புதியவை
+[fetch] Dinamani India: 25 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 11 புதியவை
+[fetch] Sportstar: 12 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f60cf08fb50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 8 புதியவை
-[fetch] Dinamani Govt: 21 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa17d8f92d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 7 புதியவை
+[fetch] Dinamani Govt: 20 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,53 +67,38 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 490 → நிகழ்வுகள் 473
+[run] புதியவை 464 → நிகழ்வுகள் 449
 [triage] சேமித்த மதிப்பெண் (446) — புதிய அழைப்பு இல்லை
-[triage] 473 → 37 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] வெளிநாட்டு தொழிற்சாலைக் உற்பத்திப் பொதுசேவையாக அறிவிப்பு வெள
+[triage] 449 → 25 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] Amazon Prime இன் வெளிநாட்டு சேவைகளின் விளம்பர பட்டியல். தமிழ
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: US Treasuries rally as oil cools and confidence 
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi bars Kore Digital promoters over alleged Rs
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Dow Jones| Nasdaq | S&amp;P 500 | US Stock Marke
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other group stocks zoom up 
-[tts-edge] 07ca95d08ba5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] 250 சதுர அடிக்குள் வீடுகளுக்கு தடையில்லா சான்று தேவையில்லை
-[skip] ஆஸ்திரேலிய ஒலிம்பிக் பயிற்சிப் போட்டி நீரில் முதலை பற்றிய சி
-[skip] Poland-Russia military tensions and NATO allied response — E
-[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியத் வாசகரின் அன்
-[skip] நேपाल की एक स्थानीय आपातकालीन घटना है। तमिलनाडु या भारतीय पा
-[skip] வெளிநாட்டுக் அரசியல் — யேமன் Houthi குழுவின் உள்ளூர் அறிக்கை
-[skip] உலகச் செய்தி என்றாலும் தமிழ்நாட்டு / இந்திய வாசகருக்குப் நேர
-[skip] வெளிநாட்டுச் பத்திரிகைத் தொழில் பற்றிய பொதுவான கட்டுரை. தமிழ
-[skip] வெளிநாட்டுத் தொழில்நுட்பப் பொதுவுரை — தமிழ்நாடு/இந்தியாவுடன்
-[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனங்களের (Microsoft, OpenAI) ஊகம்
-[skip] வெளிநாட்டு நிறுவனங்களின் (Anthropic, OpenAI, Google, Microso
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை - முழுமையா
-[tts-edge] 39aa878b4787: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நீட் சிறப்பு மருத்துவ இடங்களுக்கு தகுதி மதிப்பெண் 30 சதவீதமாக குறைப்பு திட்டம்
-[skip] இது தில்லியில் நடந்த உள்ளூர் கட்டட இடிவு தொடர்பான வழக்கு; தம
-[publish] ஆர்எஸ்எஸ் அலுவலகம் மீது குண்டு வீச்சு: நான்கு மாநிலங்களில் அமலாக்கத் துறை சோதனை
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: 250 சதுர அடிக்குள் கட்டப்பட்டுள்ள வீடுகளுக்கு தட
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf9chSXkKnGfNJRSeH6Y9'}
-[publish] பொய்கை கிராமத்தில் நடைபாலம் அமைக்க தேசிய நெடுஞ்சாலை ஆணையம் திட்டம்
-[publish] ஜோலார்பேட்டையில் 32 கிலோ கஞ்சா பறிமுதல் செய்த ரயில்வே பாதுகாப்புப் படை
+[skip] கனடா-ஐரோப்பா உறவு பற்றிய செய்தி. தமிழ்நாடு/இந்திய வாசகருக்கு
+[skip] வெளிநாட்டு நிறுவனங்களின் உள் அரசியல். தமிழ்நாட்டு/இந்திய மக்
+[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காது. AI பாதுகாப்பு பற்றிய
+[tts-edge] 1f5633298de1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பிறப்பு, இறப்பு பதிவு திருத்தச் சட்டம் அக்டோபர் ஒன்றில் அமல்
+[skip] Gukesh-ஐப் பற்றிய சதுரங்கப் புள்ளிமதிப்பு மாற்றம் — சிறிய தொ
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: The crucial Uttar Pradesh test of the BJP’s hege
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: It took two to tango to set stage for September 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Puthur zoo offers blueprint for relocation of zo
+[tts-edge] 261e43d63345: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கடலூரில் ஆதிதிராவிடர் மாணவர்கள் அவமதிப்பு புகார்: நடவடிக்கை கோரி ஆணையம்
+[publish] ஓ'வேலியில் புலிக்கான கூண்டில் சிக்கிய சிறுத்தை, காட்டில் விடுவிப்பு
+[publish] ஊட்டியில் காவல்துறையிடம் இருந்து தப்பிய விசாரணைக் கைதிக்கு கால் எலும்பு முறிவு
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi court orders FIR against Karishma Aziz ove
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Disha Salian’s father sends ₹500-crore defamatio
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: SC/ST Commission seeks action over alleged humil
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: NPTEL survey proposing ‘charge’ for access to fr
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three persons arrested in migrant worker murder 
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 2,079 non-functioning streetlights identified ac
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Four persons held for robbing bank employee of ₹
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Prof. K.S. Hegde Memorial Endowment Lecture orga
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Biotechnology and healthcare: where we are in In
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Rattlesnake blood could reinvent the fight again
-[தரம்] தமிழ் அல்லாத எழுத்து: অতনপযরহু; மூலத்தில் இல்லாத எண்: 1990 → ஒரு திருத்தம்
-[publish] பெங்களூருவை மையமாக வைத்து நவீன காதல் கதை சொல்லும் 'சேஸிங் ராஹுல்' படம்
-[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
-[publish] அஜித்குமாரின் 'டேர் டெவில்' முதல் தோற்றம் வெளியாகியது
-[skip] Asian Games 2026 is a future event (9 months away) with only
-[skip] பிரிட்டிஷ் குதிரைப் பந்தயம் — தமிழ்நாடு/இந்தியாவுடன் தொடர்பே
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13884 · சென்செக்ஸ் 74315
+[skip] வெளிநாட்டுக் குற்றாலயத்தில் இந்திய அணியின் உள்ளூர் கூற்று. த
+[skip] தமிழ்நாட்டு / இந்திய வாசகருக்குப் பொருத்தமற்ற பிற நாட்டின் உ
+[skip] வரலாற்றுச் செய்தி — பண்டைய கிரேக்க அறிஞர் பற்றிய கல்வி/வரலாற
+[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13878 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 7
+[done] feed 300 · pending 0 · எழுதியவை 4
