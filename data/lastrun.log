@@ -4,8 +4,8 @@
 [fetch] The Hindu TN: 16 புதியவை
 [fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 1 புதியவை
-[fetch] BBC World: 16 புதியவை
-[fetch] Al Jazeera: 8 புதியவை
+[fetch] BBC World: 11 புதியவை
+[fetch] Al Jazeera: 6 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 22 புதியவை
 [fetch] The Hindu Cinema: 19 புதியவை
@@ -24,21 +24,21 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 5 புதியவை
-[fetch] The Hindu Legal: 27 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 10 புதியவை
+[fetch] TechCrunch: 9 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 27 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 14 புதியவை
+[fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 29 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 9 புதியவை
+[fetch] Sportstar: 10 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3029ef2c10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f00b52b1490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,22 +67,28 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 28 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 574 → நிகழ்வுகள் 535
+[run] புதியவை 571 → நிகழ்வுகள் 531
 [triage] சேமித்த மதிப்பெண் (462) — புதிய அழைப்பு இல்லை
-[triage] 535 → 70 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] பிற நாட்டின் உள்ளூர் அரசியல் நிகழ்வு. தமிழ்நாடு/இந்திய வாசகர
+[triage] 531 → 96 (முக்கியம் + பக்க ஒதுக்கீடு)
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi bars Kore Digital promoters over alleged Rs
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: SEC gives tokenized stock trading platforms five
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Puravankara Ltd eyes Rs 2,600 cr revenue from re
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Investors should assess if F&amp;O trading works
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other group stocks zoom up 
-[skip] இரான்-அமெரிக்கா இரு தரப்பு நிகழ்வு; தமிழ்நாடு வாசகரைக் குறிப
-[skip] வெளிநாட்டு ক্রীড়াবিদின் ব்যক্তিগত விষয় — தமிழ்நாடு/இந்திய 
-[skip] வெளிநாட்டு உள்நாட்டு விவகாரம். அமெரிக்க அறிஞர்கள், சீனா நெரு
-[skip] வெளிநாட்டுக் அரசியல் — கனடா-ஐரோப்பா ஒப்பந்தம். தமிழ்நாடு/இந்
-[skip] வெளிநாட்டுத் தொகுப்பிற்குள் உள்ள வெளிநாட்டு விசயம். சவூதி அர
-[skip] தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இல்லாத வெளிநாட்டு அரச
-[skip] இந்தியா vs அஃப்கானிஸ்தான் T20 ক்রிக்கெட் ஆட்டம் — சர்வதேச போ
+[skip] வெளிநாட்டுக் ক্রীড়া நிர்வாহக அভ্যন্তரীণ விவகாரம் — தமிழ்நாட
+[skip] பிரேசிலின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப் பாத
+[skip] பிற நாடுகளின் வெளிநாட்டுக் கூட்டம் — தமிழ்நாடு/இந்தியக் வாசக
+[skip] T20 மல்டি-நேশன் சিரிஸ் செய்தி. தமிழ்நாட்டு/இந்திய வாசகருக்கு
+[skip] வெளிநாட்டு ক্রীড়াবিদின் உள்ளூர் அரசியல் தொடர்பான செய்திகள் 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Future wars will be won by the force that can se
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: AU’s free Ayurvedic medical camp benefits 185 pa
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: BJP, TDP celebrate PM Modi’s birthday
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Harish Rao files defamation case against Mahesh 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Harvard executive education programme to be offe
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Cyberabad Traffic Police advise WFH, online clas
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Nature workshops can promote eco-friendly lifest
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: After brief disruption, officials restart talks 
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Three killed, two injured as car rams parked lor
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Adult family member can appear on behalf of vote
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Student models offer solutions to social problem
@@ -99,14 +105,16 @@
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: KSRTC launches multi-axle service on Bengaluru-B
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Karnataka Transport Department books 1,508 cases
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Bengaluru: Two police officers suspended over vi
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: After brief disruption, officials restart talks 
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Many parts of T.N., including Chennai, see summe
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: No NOC required to get power supply for houses o
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Cooum Check dams could help track and tackle pol
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamil Nadu's mission to repair the hills of Tiru
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Kanimozhi meets Mamata Banerjee as DMK works on 
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi court orders FIR against Karishma Aziz ove
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Microstudies can help bridge gap between policy 
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Biotechnology and healthcare: where we are in In
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Rattlesnake blood could reinvent the fight again
 [image] 7 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13934 · சென்செக்ஸ் 74315
+[market] தங்கம் 22K ₹13941 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
 [image] 7 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 0
