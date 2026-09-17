@@ -1,13 +1,13 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 25 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 18 புதியவை
+[fetch] Al Jazeera: 20 புதியவை
 [fetch] ESPNcricinfo: 29 புதியவை
-[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Sport: 26 புதியவை
 [fetch] The Hindu Cinema: 19 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 14 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 26 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 11 புதியவை
+[fetch] FreeJobAlert: 9 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,16 +29,16 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 14 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 26 புதியவை
-[fetch] Dinamani Sports: 30 புதியவை
+[fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 8 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 17 புதியவை
+[fetch] India Today: 15 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 28 புதியவை
+[fetch] Sportstar: 27 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f41bdb00e50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5ef3df1010>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,23 +67,38 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 681 → நிகழ்வுகள் 634
+[run] புதியவை 665 → நிகழ்வுகள் 618
 [triage] சேமித்த மதிப்பெண் (615) — புதிய அழைப்பு இல்லை
-[triage] 634 → 64 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] இது ஒரு குறிப்பிட்ட மாநிலத்தின் உள்ளூர் விவசாயிகள் கோரிக்கை 
-[skip] இது ஆந்திரப் பிரதேச முன்னாள் துணை முதலமைச்சர் அல்ல நானியின் 
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் அரசியல் சர்ச்சை - தமிழ்நாட்டுட
-[skip] இது கர்நாடகா மாநிலத்தின் ராமநகர மாவட்டத்தில் நடந்த உள்ளூர் ஊ
-[skip] மத்தியப் பிரதேச மாநில அரசுக்கு எதிரான காங்கிரஸ் தலைவரின் உள்
-[skip] இது கர்நாடக மாநிலத்தின் உள்ளூர் வங்கி நிவாரண அறிவிப்பு, தமிழ
-[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர்க் குற்றச் சம்பவம்; தமிழ்நாட
-[skip] இது தெலங்கானா மாநிலத்தின் ரங்காரெட்டி மாவட்டத்தில் நடந்த உள்
-[skip] தெலங்கானா மாநில அரசு மருத்துவமனைகள் தொடர்பான உள்ளூர்ச் செய்த
-[tts-edge] c5dd0ef82157: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மணிப்பூர் நிவாரண முகாம் மரணங்கள்: தலைமைச் செயலாளர் விளக்கம் கேட்ட உச்ச நீதிமன்றம்
-[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் காவல்துறை புள்ளிவிவரம் - தமிழ்ந
-[skip] இது தெலங்காணா மாநிலம் சைபராபாத் காவல்துறையின் உள்ளூர் ஏற்பாட
+[triage] 618 → 98 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] வெளிநாட்டு தொழில்நுட்ப மாநாட்டின் பூத் பதிவு அறிவிப்பு — தமி
+[tts-edge] 0ad6f0152306: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ரிசர்வ் வங்கி இரண்டு லட்சத்து இருபத்தைந்தாயிரம் கோடிக்கு மாறு வட்டி ரெப்போ ஏலம்
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: US stocks today: S&amp;P, Nasdaq soar 1% at open
+[tts-edge] be092968975f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மணப்பாறை பால் உற்பத்தியாளர் சங்கம் பால் விலையை ஐந்து ரூபாய் உயர்த்தியது
+[skip] இது கர்நாடகாவின் மைசூரு பிரிவில் மட்டும் நடத்தப்பட்ட உள்ளூர்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் நிர்வாக நியமனச் செய்தி, தமிழ்நா
+[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள கோவில்களுக்கிடையேயான உள்ளூர் 
+[skip] இது கர்நாடகாவின் பெங்களூரு மெட்ரோ தொடர்பான உள்ளூர்ச் செய்தி;
+[skip] மூலத்தில் தலைப்பு மட்டும் உள்ளது, விவரங்கள் (மாநிலம், பாதிக்
+[skip] இது கேரள மாநிலத்தின் தலைநகர் மருத்துவமனைகள் மேம்பாடு தொடர்பா
+[skip] இது கேரள மாநிலத்தின் கொச்சி நகரத்தில் நடக்கும் உள்ளூர் நீர் 
+[skip] இது வேறு மாநிலத்தின் உள்ளூர் அரசியல் செய்தி (KK பகுதி பற்றிய
+[skip] இது கேரள மாநிலத்தின் கால்நடை மருத்துவப் பல்கலைக்கழக மாநாடு த
+[skip] கர்நாடக மாநிலத்தின் உள்ளூர் அரசு அறிவிப்பு - கல்யாண கர்நாடகா
+[skip] ஆந்திரப் பிரதேசத்தின் உள்ளூர் அரசியல் செய்தி; தமிழ்நாட்டுடன்
+[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் அரசியல் குற்றச்சாட்டு செய்
+[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் காவல் துறை வேலைவாய்ப்பு அற
+[skip] இது பஞ்சாப் மாநிலத்தின் உள்ளூர் அரசியல் குற்றச்சாட்டு செய்தி
+[skip] இது ஆந்திரப் பிரதேச மாநிலத்தின் உள்ளூர் அரசியல் செய்தி - சிப
+[skip] இது ஆந்திரப் பிரதேசத்தின் உள்ளூர் மழைப்பொழிவு பற்றிய தகவல்; 
+[skip] இது பீஹார் மாநில உள்ளூர் அரசியல் குற்றச்சாட்டு (எதிர்க்கட்சி
+[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் வறட்சி/அரசியல் விவகாரம் — தமிழ்
+[skip] இது கர்நாடகா மாநில அரசின் கிருஹலட்சுமி திட்டம் தொடர்பான உள்ள
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் அரசு நிலம் கையகப்படுத்தல் திட்ட
+[skip] அசாம் மாநிலத்தில் உள்ள ஒரு பல்கலைக்கழக மாணவர் இறப்பு தொடர்பா
+[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் அரசியல் தகராறு - காங்கிரஸ்
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Mauritius-based Soach Global to make 25 times re
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Bank of England sounds inflation alarm as it hol
@@ -91,50 +106,72 @@
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Puravankara Ltd eyes Rs 2,600 cr revenue from re
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Investors should assess if F&amp;O trading works
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other group stocks zoom up 
-[skip] இது இந்தியத் தொழிலில் தாக்கம் ஆனால் மாநிலம் அல்லது நகரம் குற
-[skip] வெளிநாட்டு ক্রীড়া (ইউরোপীয় ফুটবল) ও ক্লাব-স্তরের অভ্যন্তরী
-[skip] சுவீடன் பிரதமர் பதவி விலகல் — தமிழ்நாடு அல்லது இந்திய வாசகரை
-[skip] தமிழ்நாடு வாசகரைப் பாதிக்கும் உலக அளவிலான பொருளாதாரச் செய்தி
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (Big Bash League). தமிழ்நாட்டு 
-[skip] வெளிநாட்டு ক্রীড়াப் போட்டি பற்றிய ভবিষ்யத் முன்னறிவிப்பு மற
-[skip] இமாச்சல் பிரதேশ மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. 
-[skip] கேரளப் பொதுச் சேவை ஆணையம் (Kerala PSC) நடத்திய தேர்வு — கேரள
+[skip] குறிப்பு 'world' ஆனால் தமிழ்நாடு/இந்திய வாசகரை நேரடிப் பாதிக
+[skip] வெளிநாட்டு ক্রীড়া ও রাজনীতি সম্পর্কিত। জার্মানি ফুটবল দলের 
+[skip] இந்திய-பாகிஸ்தான் கடல்வெளிப் பிரச்சினை — தமிழ்நாட்டு வாசகருக
+[skip] வெளிநாட்டுத் தாய நীதிக் செய்தி — தமிழ்நாடு அல்லது இந்தியாவுட
+[skip] வெளிநாட்டு விளையாட்டு நிகழ்வு — ஜப்பানிய ஆசிய விளையாட்டுப் ப
+[skip] வெளிநாட்டு ক্রীড়া ইভেন্ট — தমিழ்നাड়ু/ভারতের সাথে প্রাসঙ্গি
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Same-sex partner medical rights plea: Delhi HC a
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Tryst with the Constitution: The many constituti
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Equal pay for equal work cannot be applied mecha
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: DUSU polls: Delhi HC directs DU, Police to act a
 [மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Avail IT Act remedy first: Supreme Court to lawy
-[skip] ஆங்கிலேயக் கிரிக்கெட் வீரர் ஹாரி ப்ரூக்கின் ব்যক்তிগত கருத்த
-[skip] கிரிக்கெட் வீரர் மாறுபாடு செய்தி — தமிழ்நாட்டு வாசகருக்குப் 
-[skip] இது ஜார்க்கண்ட் மாநிலத்தில் நடந்த உள்ளூர்க் கொலைச் சம்பவம், 
-[skip] மூலத்தில் தலைப்பு மட்டும் உள்ளது; சூழல், நேரம், இடம், முழு வ
-[skip] வெளிநாட்டு ஃபார்முலா ওன் தொழிற்சாலை நிয়োগம் — தமிழ்நாடு அல்
+[skip] வதந்தி மற்றும் ரசிகர் சமூக ஊடக வியாக்கியானம் — சினிமாச் செய்
+[தரம்] தமிழ் அல்லாத எழுத்து: ణ → ஒரு திருத்தம்
+[publish] கடைசி டி20: இந்தியா பேட்டிங்; தொடரை முழுமையாகக் கைப்பற்றுமா?
+[skip] விளையாட்டு செய்தி அல்ல — சோশ்যல் மீடியா வைரல் உষ்ணியோ ரசிகர்
+[skip] வெளிநாட்டுத் தயாரிப்பு அறிவிப்பு — தமிழ்நாட்டு/இந்தியத் தொடர
+[skip] வெளிநாட்டுத் தயாரிப்பு நிறுவனங்களின் தொழில்நுட்প அறிவிப்பு —
+[skip] வெளிநாட்டு நிறுவனத்தின் சர்வதேশ இணைப்பாக்கம் — தமிழ்நாட்டு/இ
+[skip] வெளிநாட்டு தொழில்நுட்பப் பிரமுகர்களின் கருத்து மேதையல்ல; தமி
+[skip] வெளிநாட்டு நாடுகளின் கணக்கெடுப்பு; தமிழ்நாடு/இந்தியாவுக்கு ந
+[skip] வெளிநாட்டு tech தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்திய வாசகர
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது ஒரு மாநிலத்தின் உள்ளூர் தனிநபர் தற்கொலைச் சம்பவம், தமிழ்
+[skip] இது மேற்கு வங்க மாநிலத்தில் நடந்த பிரதமரின் பிறந்தநாள் கொண்ட
+[skip] இது தில்லி போக்குவரத்துக் கழக ஒப்பந்த ஓட்டுநர்களின் உள்ளூர்ப
+[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் அரசியல் சம்பவம் - சித்தராமை
+[skip] வெளிநாட்டு T20 இன்টারন্যாஷனல் போட்டி — தமிழ்நாட்டு/இந்திய வீ
+[skip] வெளிநாட்டு ক্রীড়া ইভেন্ট (এশিয়ান গেমস 2026, ওলিম্পিক) সম্প
+[skip] Japan-centric logistical issue at Asian Games 2026. Not dire
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Manapparai milk society increases sale price of 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ‘Swachhata Hi Seva’ campaign launched across Mys
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: EPFO wage ceiling of ₹25,000 too little, too lat
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Director of Health Services appointed in Keralam
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Vijayawada temple offers silk robes to Kanipakam
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Bengaluru Metro inducts first Titagarh-CRRC trai
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: COVID-19 assistance to families: ₹9.96 crore san
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Comprehensive master plan for development of hos
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Frequent water supply disruptions hit life in Ko
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: State government’s top priority is overall devel
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: KVASU–SAVAK conclave to focus on emerging needs 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: CM kickstarts Kalyana Karnataka Economy Mission,
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Cheepurupalli MLA predicts TDP’s continued succe
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: KCR declared himself landless in 2004 affidavit:
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Over 4.29 lakh candidates apply for 7,437 posts 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: BJP asks Punjab CM to resign over failure to cur
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: CPI seeks release of ‘political prisoners’ langu
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: With 42% deficit rainfall, Andhra Pradesh is thi
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: JD(U) to merge with BJP, claims Tejashwi Yadav
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Will discuss drought in special session, irrespe
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Gruhalakshmi aid helps woman sustain psychiatric
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: LSGD allocates ₹16 crore for land acquisition fo
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Don’t drag national flag into politics: Ponnam t
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Central university student dies in Assam
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Former Deputy CM Alla Nani’s last rites performe
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Forest officer caught accepting ₹30,000 bribe in
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Sugarcane growers seek FRP of ₹4,500
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ‘If Nizam was so good, why did Komuram Bheem and
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Death of tribal children in Balaghat: Rahul Gand
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Banks to offer financial respite to farmers in 1
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Man attacks wife with machete, suspected acid in
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Treasury officer and assistant caught taking ₹1 
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Telangana has 50 CT scanners, only nine MRI mach
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Supreme Court expresses shock over deaths in rel
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Rowdy sheets on the decline in Karnataka
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Cyberabad police, civic departments step up imme
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Navodaya schools case: Supreme Court asks Tamil 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Don’t drag national flag into politics: Ponnam t
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: She declared Rs 43,796 income in ITR, misses Rs 
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: 100% Trump tariffs loom: Russia sanctions bill p
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man held for cheating woman of around 155 sovere
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: CCB summons former Minister Anbil Mahesh in ₹100
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: What is ‘whimsymaxxing’, the internet’s latest f
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘What did you do in the past year?’ NGT asks Tam
+[skip] உத्தரப் பிரதேश அரசுத் தேர்வு (UPPSC). தமிழ்நாட்டு வாசகர்களுக
+[தரம்] தமிழ் அல்லாத எழுத்து: কযরি → ஒரு திருத்தம்
+[publish] சென்னை நகர நீர்வழங்கல் வாரியம் 108 பயிற்சி பணியிடங்கள் அறிவிப்பு
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Stem cell therapy for autism only in approved cl
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: CCTV proposed at medical stores for sale of pres
 [image] 3 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13980 · சென்செக்ஸ் 74315
+[market] தங்கம் 22K ₹13948 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 3 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 1
+[image] 5 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 4
