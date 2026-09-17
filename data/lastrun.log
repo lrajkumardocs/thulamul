@@ -1,14 +1,14 @@
-[fetch] RBI: 8 புதியவை
+[fetch] RBI: 7 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 5 புதியவை
-[fetch] Dinamani TN: 19 புதியவை
+[fetch] The Hindu TN: 2 புதியவை
+[fetch] Dinamani TN: 7 புதியவை
 [fetch] BBC Tamil: 0 புதியவை
 [fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 5 புதியவை
+[fetch] Al Jazeera: 9 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 15 புதியவை
-[fetch] The Hindu Cinema: 15 புதியவை
+[fetch] The Hindu Cinema: 14 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 13 புதியவை
 [fetch] Wired: 24 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 3 புதியவை
+[fetch] The Hindu Legal: 2 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 5 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 3 புதியவை
+[fetch] The Hindu National: 2 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 24 புதியவை
+[fetch] Dinamani India: 22 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f26173b8fd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 3 புதியவை
-[fetch] Dinamani Govt: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f65e03813d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 2 புதியவை
+[fetch] Dinamani Govt: 7 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,34 +67,28 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 437 → நிகழ்வுகள் 425
-[triage] 425 → 29 (முக்கியம் + பக்க ஒதுக்கீடு)
+[run] புதியவை 407 → நிகழ்வுகள் 396
+[triage] சேமித்த மதிப்பெண் (396) — புதிய அழைப்பு இல்லை
+[triage] 396 → 13 (முக்கியம் + பக்க ஒதுக்கீடு)
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
-[tts-edge] fbd8b5dc72c6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காய்ச்சல் சிகிச்சைக்கு அதிக கட்டணம்: தனியார் மருத்துவமனைகளுக்கு எச்சரிக்கை
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi bars Kore Digital promoters over alleged Rs
-[tts-edge] 8d64f9838fd7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] ஸ்டாலின் மிசா கைது தொடர்பான வரலாற்று விவாதம் மீண்டும் பேசுபொருள்
-[publish] மதுரை மீனாட்சி கோவில் விழாவில் தமிழுக்கு முக்கியத்துவம், அமைச்சர் ராமேஷ் விளக்கம்
-[publish] துருவ நட்சத்திரம் படம் அக்டோபர் 31க்குள் வெளியீடு, உயர்நீதிமன்ற உத்தரவு
-[publish] பாரதிதாசன் பல்கலைக்கழகத்திற்கு நிதி வழங்க பெ. சண்முகம் வலியுறுத்தல்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, விவரங்கள் (எந
-[skip] மூலத்தில் தலைப்புகள் மட்டும் உள்ளன; தேர்வு அட்டவணை மற்றும் ம
-[skip] மூலத்தில் தலைப்பு மற்றும் பெயர் மட்டுமே உள்ளது; சம்பவம் என்ன
-[skip] மூலத்தில் தலைப்பு மற்றும் ஜெயக்குமார் என்ற பெயர் மட்டுமே கொட
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] தமிழ்நாட்டில் 6 மாவட்டங்களில் இன்று கனமழை எச்சரிக்கை
-[publish] மதுரை எய்ம்ஸில் புறநோயாளிகள் பிரிவு ஜனவரி ஒன்று முதல் தொடக்கம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, எம்எல்ஏ வி.எஸ்.பாபுவின் உட
-[publish] UPI பரிவர்த்தனைக்கு கட்டணம் விதிக்கும் திட்டம் குறித்து ஆலோசனை
-[தரம்] தமிழ் அல்லாத எழுத்து: ംഅആഈഉഎകഖ → ஒரு திருத்தம்
-[publish] துருவ நட்சத்திரம் திரைப்படம் செப்டம்பர் 31க்குள் வெளியாகும்.
-[skip] இது மகாராஷ்டிர மாநில அரசியல்வாதி தொடர்பான தனிநபர் அவதூறு நோட
-[publish] இந்திய ரிசர்வ் வங்கி 25,000 கோடி மதிப்பில் அரசுப் பத்திரங்கள் விற்பனை
-[image] 3 பொருந்தாத படம் மாற்றப்பட்டது
+[skip] வெளிநாட்டு உள்நாட்டு நீதிமன்றத் தீர்ப்பு — தமிழ்நாடு/இந்திய 
+[skip] வெளிநாட்டு ராணுவ விற்பனை — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்
+[skip] வெளிநாட்டு அகதிப் பெயர்வு — தமிழ்நாடு/இந்தியாவுடன் நேரடித் த
+[skip] வெளிநாட்டுக் குறிப்பு — ஈரান்-அமெரிக்கா வீசா நடவடிக்கை, ஐக்க
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தி விவரங்கள் (தேதி, தே
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cf9mY8TbuvjKRtqnUvc7R'}
+[tts-edge] c38261879751: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பயங்கரவாதிகளுக்கு பாகிஸ்தான் ஆதரவு: ஐ.நா.வில் இந்தியா குற்றச்சாட்டு
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: UPI fee: Government, payment gateways discuss wa
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three persons arrested in migrant worker murder 
+[தரம்] தமிழ் அல்லாத எழுத்து: जনা → ஒரு திருத்தம்
+[tts-edge] 1f49ddb1e9cf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆசிய விளையாட்டுக்களில் இந்திய கணினி விளையாட்டு அணிக்கு அக்ஷய் செனாய் தலைவர்
+[publish] தமிழ்நாடு பிக்கிள்பால் லீக் சென்னையில் இந்த வாரவிடுதியில் நடக்கிறது
+[image] 5 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13869 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 5 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 10
+[image] 6 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 3
