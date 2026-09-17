@@ -1,7 +1,7 @@
 name: thulamul-pipeline
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "10,55 * * * *"          # 45 நிமிடத்திற்கு ஒரு முறை (செலவுக் கட்டுப்பாடு)
   workflow_dispatch:
 
 permissions:
@@ -30,18 +30,16 @@ jobs:
           PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
           FLICKR_KEY: ${{ secrets.FLICKR_KEY }}
           TMDB_KEY: ${{ secrets.TMDB_KEY }}
-          SI_KEY: ${{ secrets.SI_KEY }}
-          RIJKS_KEY: ${{ secrets.RIJKS_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CLAUDE_MODEL: claude-sonnet-5
           CLAUDE_MODEL_FAST: claude-haiku-4-5-20251001
-          MAX_NEW_PER_RUN: "12"
-          MAX_PER_DAY: "60"
+          MAX_NEW_PER_RUN: "10"
+          MAX_PER_DAY: "50"
           MIN_SCORE: "6"
           PYTHONUNBUFFERED: "1"
         run: |
-          mkdir -p data/audio data/news data/issues data/cartoons data/comic
+          mkdir -p data/audio data/news data/issues data/cartoons data/comic data/malar
           python pipeline/run.py 2>&1 | tee data/lastrun.log
       - name: Commit data
         if: always()
