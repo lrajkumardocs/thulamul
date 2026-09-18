@@ -26,7 +26,7 @@ MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
 MODEL_FAST = os.environ.get("CLAUDE_MODEL_FAST", "claude-haiku-4-5-20251001")
 BIG_TOPICS = {"tn", "india", "assembly", "court", "economy"}
 MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "12"))    # ஒரு ஓட்டத்தில் அதிகபட்சம்
-MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "60"))
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "50"))
 MIN_SCORE = int(os.environ.get("MIN_SCORE", "6"))               # இதற்குக் குறைவானவை எழுதப்படாது
 TTS_VOICE = os.environ.get("TTS_VOICE", "ta-IN-PallaviNeural")   # Microsoft Edge இலவச தமிழ் குரல் (ஆண்: ta-IN-ValluvarNeural)
 AUTO_PUBLISH_MIN_CONFIDENCE = 0.3
@@ -504,6 +504,91 @@ def fact_problems(story, src_text):
             continue
         bad.append(n)
     return ["மூலத்தில் இல்லாத எண்: " + ", ".join(bad[:5])] if bad else []
+
+
+# ---------------------------------------------------------------- தமிழ் எழுத்துப் பிழை
+COMMON_TA = {
+    "காஞ்சிபுரம்", "திருவள்ளூர்", "செங்கல்பட்டு", "கள்ளக்குறிச்சி", "திருவண்ணாமலை",
+    "விழுப்புரம்", "மயிலாடுதுறை", "நாகப்பட்டினம்", "திருவாரூர்", "புதுக்கோட்டை",
+    "திருச்சிராப்பள்ளி", "கிருஷ்ணகிரி", "தருமபுரி", "கோயம்புத்தூர்", "திண்டுக்கல்",
+    "ராமநாதபுரம்", "விருதுநகர்", "தூத்துக்குடி", "திருநெல்வேலி", "கன்னியாகுமரி",
+    "அரியலூர்", "பெரம்பலூர்", "நாமக்கல்", "சிவகங்கை", "தென்காசி", "திருப்பத்தூர்",
+    "ராணிப்பேட்டை", "திருப்பூர்", "நீலகிரி", "வேலூர்", "கடலூர்", "தஞ்சாவூர்", "மதுரை",
+    "சேலம்", "ஈரோடு", "கரூர்", "தேனி", "சென்னை", "துருவ", "வன்னி", "முதலமைச்சர்",
+    "அமைச்சர்", "நீதிமன்றம்", "உயர்நீதிமன்றம்", "சட்டமன்றம்", "ஆணையம்", "நட்சத்திரம்",
+}
+
+
+def _ed1(a, b, lim=2):
+    """திருத்த தூரம் lim-க்குள் இருக்கிறதா?"""
+    if abs(len(a) - len(b)) > lim:
+        return False
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        prev = cur
+        if min(prev) > lim:
+            return False
+    return prev[-1] <= lim
+
+
+SUFFIX = ("ுக்கு", "ில்", "ின்", "ால்", "ாக", "ஆக", "ையும்", "ையே", "ை", "ும்", "ே", "ா",
+          "த்தில்", "த்தின்", "த்தை", "த்துக்கு", "கள்", "களில்", "களுக்கு", "வில்", "வின்")
+
+# அறியப்பட்ட எழுத்துக் குழப்பங்கள் (ண/ன, ழ/ள, ற/ர) — நேரடித் திருத்தம்
+FIX_MAP = {
+    "வண்ணை": "வன்னி", "கஞ்சிபுரம்": "காஞ்சிபுரம்", "தருவ": "துருவ",
+    "கோயம்பத்தூர்": "கோயம்புத்தூர்", "திருச்சிராபள்ளி": "திருச்சிராப்பள்ளி",
+    "தூத்துகுடி": "தூத்துக்குடி", "நாகபட்டினம்": "நாகப்பட்டினம்",
+    "விழுபுரம்": "விழுப்புரம்", "கன்னியகுமரி": "கன்னியாகுமரி",
+    "திருநெல்வேளி": "திருநெல்வேலி", "செங்கல்பட்டு": "செங்கல்பட்டு",
+}
+
+
+def _stem(w):
+    for suf in sorted(SUFFIX, key=len, reverse=True):
+        if w.endswith(suf) and len(w) - len(suf) >= 3:
+            return w[: -len(suf)]
+    return w
+
+
+def spell_fix(story, src_text):
+    """செய்தியில் உள்ள தமிழ்ச் சொல் மூலத்தில் இல்லை, ஆனால் மூலத்தில் ஒத்த சொல் இருந்தால் — திருத்து.
+    வண்ணை → வன்னி, தருவ → துருவ, கஞ்சிபுரம் → காஞ்சிபுரம்."""
+    src_words = set(re.findall(r"[\u0B80-\u0BFF]{3,}", str(src_text or "")))
+    known = src_words | COMMON_TA
+    stems = {_stem(k) for k in known}
+    fixes = {}
+    for field in ("headline", "closing"):
+        pass
+    body = [str(story.get("headline") or "")] + [str(x) for x in (story.get("lines") or [])] + [str(story.get("closing") or "")]
+    for txt in body:
+        for w in re.findall(r"[\u0B80-\u0BFF]{4,}", txt):
+            if w in fixes:
+                continue
+            if w in FIX_MAP:
+                fixes[w] = FIX_MAP[w]
+                continue
+            if w in known or _stem(w) in stems:
+                continue
+            cand = [k for k in known if _ed1(w, k, 2) and abs(len(k) - len(w)) <= 1
+                    and k[:1] == w[:1] and k[-1:] == w[-1:]]
+            # ஒரே ஒரு பொருத்தம் இருந்தால் மட்டும் திருத்து (தெளிவற்றால் விடு)
+            if len(cand) == 1:
+                fixes[w] = cand[0]
+    if not fixes:
+        return story, []
+    def apply(t):
+        for a, b in fixes.items():
+            t = t.replace(a, b)
+        return t
+    story["headline"] = apply(str(story.get("headline") or ""))
+    story["lines"] = [apply(str(x)) for x in (story.get("lines") or [])]
+    if story.get("closing"):
+        story["closing"] = apply(str(story["closing"]))
+    return story, [f"{a}→{b}" for a, b in list(fixes.items())[:4]]
 
 def text_problems(story):
     """வெளியிடுவதற்கு முன் கட்டாயச் சோதனை. பிழைப் பட்டியலைத் திருப்பும்; காலி = சரி."""
@@ -1069,7 +1154,19 @@ def main():
         if str(x.get("published_at", ""))[:10] == today and x.get("status") == "published":
             todays_count[x.get("topic")] = todays_count.get(x.get("topic"), 0) + 1
     api_dead = False
-    scores = triage(client, clusters) if clusters else {}
+    # triage — 2 மணிக்கு ஒரு முறை (செலவுக் கட்டுப்பாடு); இடையில் சேமித்ததைப் பயன்படுத்து
+    _tri = load_json(DATA / "triage_cache.json", {})
+    _fresh = (time.time() - float(_tri.get("at", 0))) < 7200
+    if clusters and not _fresh:
+        scores = triage(client, clusters)
+        _keys = {c["items"][0]["title"][:60]: sc for sc, c in zip(
+            [scores.get(n, 5) for n in range(len(clusters))], clusters)}
+        save_json(DATA / "triage_cache.json", {"at": time.time(), "k": _keys})
+    else:
+        _k = _tri.get("k", {})
+        scores = {n: _k.get(c["items"][0]["title"][:60], 6) for n, c in enumerate(clusters)}
+        if clusters:
+            print(f"[triage] சேமித்த மதிப்பெண் ({len(_k)}) — புதிய அழைப்பு இல்லை")
     if scores:
         scored = [(scores.get(n, 5), n, c) for n, c in enumerate(clusters)]
         keep = [x for x in scored if x[0] >= MIN_SCORE]
@@ -1094,8 +1191,23 @@ def main():
             extra.sort(key=lambda x: -x[0])
             for x in extra[:short]:
                 keep.append(x); kept_ids.add(id(x[2]))
-        keep.sort(key=lambda x: -x[0])
-        print(f"[triage] {len(clusters)} → {len(keep)} (முக்கியம் + பக்க ஒதுக்கீடு)")
+        # காலியான பக்கங்களுக்கு முன்னுரிமை — சுழற்சி முறை
+        need = {t: max(0, n - todays.get(t, 0)) for t, n in PAGE_MIN.items()}
+        keep.sort(key=lambda x: (-need.get(x[2]["topic_hint"], 0), -x[0]))
+        by_topic = {}
+        for item in keep:
+            by_topic.setdefault(item[2]["topic_hint"], []).append(item)
+        rr, idx = [], 0
+        while any(by_topic.values()):
+            for t in sorted(by_topic, key=lambda t: -need.get(t, 0)):
+                if by_topic[t]:
+                    rr.append(by_topic[t].pop(0))
+            idx += 1
+            if idx > 60:
+                break
+        keep = rr
+        print(f"[triage] {len(clusters)} → {len(keep)} | காலி: " +
+              ", ".join(f"{t}:{n}" for t, n in sorted(need.items(), key=lambda x: -x[1])[:5] if n))
         for sc, _, c in keep:
             c["score"] = sc
         clusters = [c for _, _, c in keep]
@@ -1138,32 +1250,21 @@ def main():
         if not validate(story):
             print("[validate] தவறான வடிவம், தவிர்க்கப்பட்டது"); mark_seen(c); continue
         # உரைத் தரக் காவல் — 2 திருத்த முயற்சி; பிறகும் பிழை என்றால் வெளியிடாது
-        _errs = text_problems(story)
-        for _try in range(2):
-            if not _errs:
-                break
-            print(f"[தரம்] {'; '.join(_errs[:3])} → திருத்துகிறோம் ({_try+1})")
-            try:
-                story = fix_text(client, story, _errs)
-            except Exception as ex:
-                print("[தரம்] திருத்தப் பிழை", str(ex)[:90]); break
-            _errs = text_problems(story)
-        if _errs:
-            print("[தரம்] தோல்வி — வெளியிடப்படவில்லை:", "; ".join(_errs[:3]))
-            mark_seen(c); continue
-        # உண்மைச் சரிபார்ப்பு — மூலத்தில் இல்லாத எண் வந்தால் ஒரு திருத்தம், பிறகு நிராகரிப்பு
+        # உரை + உண்மை — ஒரே சோதனை, ஒரே திருத்த முயற்சி (செலவுக் கட்டுப்பாடு)
         _src = " ".join((i.get("title", "") + " " + i.get("text", "")) for i in c["items"])
-        _f = fact_problems(story, _src)
-        if _f:
-            print("[உண்மை]", _f[0][:90], "→ திருத்துகிறோம்")
+        story, _sp = spell_fix(story, _src)
+        if _sp:
+            print("[எழுத்து]", ", ".join(_sp))
+        _errs = text_problems(story) + fact_problems(story, _src)
+        if _errs:
+            print(f"[தரம்] {'; '.join(_errs[:2])} → ஒரு திருத்தம்")
             try:
-                story = fix_text(client, story, _f + ["மூல உரையில் உள்ள எண்களை மட்டும் பயன்படுத்து; "
-                                                     "உறுதியில்லாத எண்ணை நீக்கிவிடு"])
-                _f = fact_problems(story, _src)
-            except Exception:
-                pass
-        if _f:
-            print("[உண்மை] தோல்வி — வெளியிடப்படவில்லை:", _f[0][:90])
+                story = fix_text(client, story, _errs + ["மூல உரையில் உள்ள எண்களை மட்டும் பயன்படுத்து"])
+                _errs = text_problems(story) + fact_problems(story, _src)
+            except Exception as ex:
+                print("[தரம்] திருத்தப் பிழை", str(ex)[:80])
+        if _errs:
+            print("[தரம்] தோல்வி — வெளியிடப்படவில்லை:", "; ".join(_errs[:2]))
             mark_seen(c); continue
         mark_seen(c)
         written += 1
@@ -1261,7 +1362,7 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if malar.get("week") == week and malar.get("v", 0) < 13 and not api_dead:
+        if malar.get("week") == week and 13 <= malar.get("v", 0) < 14 and not api_dead:
             # இருக்கும் இதழ் — உரையை மாற்றாமல் விடுபட்ட படங்களை மட்டும் சேர்
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
@@ -1274,7 +1375,7 @@ def main():
                     n = mal.archive(got, DATA / "malar_archive.json"); print(f"[malar] காப்பகம் {n} வாரம்")
                 except Exception as ex:
                     print("[malar] காப்பக பிழை", str(ex)[:80])
-        elif malar.get("week") != week and now.weekday() == 6 and not api_dead:   # ஞாயிறு மட்டும் — புதிய இதழ்
+        elif (malar.get("week") != week and now.weekday() == 6 or malar.get("v", 0) < 13) and not api_dead:
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
             mal = importlib.import_module("malar")
@@ -1359,11 +1460,15 @@ def main():
     try:
         if not api_dead:
             fixed = dropped = 0
+            _done = set(load_json(DATA / "repaired.json", []))
             for x in list(feed):
                 if str(x.get("published_at", ""))[:10] != today or x.get("status") != "published":
                     continue
-                if fixed + dropped >= 12:
+                if x.get("id") in _done:
+                    continue                      # ஒரு முறை மட்டும் — மீண்டும் செலவு இல்லை
+                if fixed + dropped >= 6:
                     break
+                _done.add(x.get("id"))
                 errs = text_problems(x)
                 if not errs:
                     continue
@@ -1377,6 +1482,7 @@ def main():
                 except Exception:
                     pass
                 feed.remove(x); dropped += 1
+            save_json(DATA / "repaired.json", list(_done)[-400:])
             if fixed or dropped:
                 print(f"[தரம்] பழையவை: {fixed} திருத்தம், {dropped} நீக்கம்")
     except Exception as ex:
