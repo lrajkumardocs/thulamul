@@ -172,7 +172,17 @@ def eligible(c):
 # ---------------------------------------------------------------- 3. write (Claude)
 
 FILLER_TOPICS = {
-    "health": "பருவகால நோய், தடுப்பு, ஊட்டச்சத்து, சித்த/ஆயுர்வேத பொது அறிவு, அரசு சுகாதாரத் திட்டங்கள்",  # ஆன்மீகம்/விவசாயம் இப்போது வாரமலரில்
+    "health": "பருவகால நோய், தடுப்பு, ஊட்டச்சத்து, சித்த/ஆயுர்வேத பொது அறிவு, அரசு சுகாதாரத் திட்டங்கள்",
+    "world": "உலக அரசியல் அமைப்புகள் (ஐ.நா., உலக வங்கி), சர்வதேச ஒப்பந்தங்கள், உலக நாடுகளின் நிலவியல்-பொருளாதாரப் பின்னணி, இந்தியாவின் வெளியுறவு வரலாறு",
+    "economy": "பொருளாதாரக் கருத்துகள் எளிய விளக்கம் — பணவீக்கம், ரெப்போ விகிதம், GST, பங்குச் சந்தை அடிப்படை, சேமிப்புத் திட்டங்கள், வரிக் கணக்கு",
+    "court": "சட்ட அறிவு — அடிப்படை உரிமைகள், நுகர்வோர் சட்டம், RTI, தொழிலாளர் உரிமை, நீதிமன்ற நடைமுறை, இலவச சட்ட உதவி",
+    "govt": "அரசுத் திட்டங்கள் விளக்கம் — யார் தகுதி, எப்படி விண்ணப்பிப்பது, என்ன ஆவணம், எங்கே செல்வது",
+    "tech": "அன்றாடத் தொழில்நுட்பம் — UPI, ஆதார், இணைய பாதுகாப்பு, மோசடி தவிர்ப்பு, மொபைல் அமைப்புகள்",
+    "sports": "தமிழ்நாட்டு விளையாட்டு மரபு — ஜல்லிக்கட்டு, சிலம்பம், கபடி, மல்யுத்தம்; விளையாட்டு வீரர் வரலாறு",
+    "cinema": "தமிழ்த் திரைப்பட வரலாறு — முன்னோடிகள், தொழில்நுட்ப மாற்றங்கள், இசை மரபு, திரைத்துறை நடைமுறை",
+    "india": "இந்திய அரசியலமைப்பு, நாடாளுமன்ற நடைமுறை, மாநில-மத்திய உறவு, தேசிய வரலாற்று நிகழ்வுகள்",
+    "crime": "பொதுமக்கள் பாதுகாப்பு — சைபர் மோசடி தவிர்ப்பு, புகார் அளிக்கும் முறை, உதவி எண்கள், சட்ட உரிமைகள்",
+    "jobs": "வேலைவாய்ப்புத் தயாரிப்பு — போட்டித் தேர்வு முறை, விண்ணப்ப நடைமுறை, நேர்காணல், திறன் மேம்பாடு",
 }
 
 def write_filler(client, topic, today, now):
@@ -1009,6 +1019,15 @@ PLACE_WIKI = {
     "மெட்ரோ ரயில்": "Chennai Metro", "விமான நிலைய": "Chennai International Airport",
     "மெரினா": "Marina Beach", "ஐஐடி": "IIT Madras", "அண்ணா பல்கலை": "Anna University",
     "இஸ்ரோ": "ISRO", "ஸ்ரீஹரிகோட்டா": "Satish Dhawan Space Centre",
+    "மீனாட்சி": "Meenakshi Temple", "மதுரை மீனாட்சி": "Meenakshi Temple",
+    "பிரகதீஸ்வரர்": "Brihadeeswarar Temple", "தஞ்சை பெரிய கோயில்": "Brihadeeswarar Temple",
+    "ரங்கநாதர்": "Ranganathaswamy Temple, Srirangam", "ஸ்ரீரங்கம்": "Ranganathaswamy Temple, Srirangam",
+    "பழனி": "Palani Murugan Temple", "திருச்செந்தூர்": "Thiruchendur Murugan Temple",
+    "சிதம்பரம்": "Thillai Nataraja Temple", "காஞ்சி காமாட்சி": "Kamakshi Amman Temple",
+    "ராமேஸ்வரம்": "Ramanathaswamy Temple", "திருப்பதி": "Tirumala Venkateswara Temple",
+    "வேளாங்கண்ணி": "Basilica of Our Lady of Good Health", "நாகூர்": "Nagore Dargah",
+    "கபாலீஸ்வரர்": "Kapaleeshwarar Temple", "மாமல்லபுரம்": "Mahabalipuram",
+    "தஞ்சாவூர் கோயில்": "Brihadeeswarar Temple", "வள்ளுவர் சிலை": "Thiruvalluvar Statue",
 }
 
 
@@ -1043,6 +1062,13 @@ def pick_image(c, story=None):
     if not story:
         return None
 
+    # 1) AI தந்த விக்கிப்பீடியாத் தலைப்பு — மிகத் துல்லியம்
+    ws = (story.get("wiki_subject") or "").strip()
+    if ws and len(ws) > 3 and ws.lower() not in ("temple", "court", "minister", "government"):
+        im = wiki_image(ws, "en")
+        if im:
+            im["symbolic"] = False
+            return im
     pl = place_image(story.get("headline"))
     if pl:
         return pl
@@ -1050,7 +1076,8 @@ def pick_image(c, story=None):
     person = (story.get("person_en") or "").strip()
     if person:
         im = wiki_image(person, "en") or wiki_image(person, "ta")
-        if im and person.split()[0].lower() in (im.get("credit", "") + im.get("url", "")).lower():
+        if im:
+            im["symbolic"] = False
             return im
         return None
 
@@ -1156,7 +1183,8 @@ def main():
     written = 0
     # தினசரி குறைந்தபட்சம்: இன்று 0 உள்ள துறைகளின் நிகழ்வுகளை முதலில் எழுது
     today_topics = {x["topic"] for x in feed if x.get("published_at", "").startswith(today)}
-    TOPIC_CAP = {"tn": 10, "india": 6, "world": 5, "economy": 5, "crime": 6, "assembly": 4, "tech": 2}
+    TOPIC_CAP = {"tn": 10, "india": 6, "world": 6, "economy": 6, "crime": 6, "court": 5,
+             "govt": 5, "jobs": 5, "sports": 5, "cinema": 4, "health": 4, "assembly": 3, "tech": 2}
     todays_count = {}
     for x in feed:
         if str(x.get("published_at", ""))[:10] == today and x.get("status") == "published":
@@ -1289,6 +1317,7 @@ def main():
         story["front_cat"] = str(story.get("front_cat") or "routine")
         story["image_query"] = str(story.get("image_query") or "")
         story["person_en"] = str(story.get("person_en") or "")
+        story["wiki_subject"] = str(story.get("wiki_subject") or "")
         story["urgent"] = bool(story.get("urgent"))
         story["affected"] = str(story.get("affected") or "")
 
@@ -1329,12 +1358,22 @@ def main():
     # 5a2. மெல்லிய பக்கங்களுக்குக் கட்டுரை நிரப்பு
     try:
         if not api_dead:
+            _made = 0
             for t in FILLER_TOPICS:
+                if _made >= 2:
+                    break
                 todays = [x for x in feed if x.get("topic") == t and str(x.get("published_at", ""))[:10] == today and x["status"] == "published"]
-                if len(todays) < 2 and not any(x.get("kind") == "article" for x in todays):
+                if len(todays) < 1 and not any(x.get("kind") == "article" for x in todays):
+                    _made += 1
                     art = write_filler(client, t, today, now)
                     if art:
-                        art["image"] = stock_image("", {"health":"healthy food india","agri":"paddy field farmer india","spirit":"temple gopuram tamil nadu"}.get(t, ""))
+                        art["image"] = stock_image("", {
+                            "health": "healthy food india", "world": "united nations flags",
+                            "economy": "indian rupee coins finance", "court": "law books gavel",
+                            "govt": "government office india", "tech": "smartphone payment india",
+                            "sports": "kabaddi players india", "cinema": "film camera cinema",
+                            "india": "indian parliament building", "crime": "scales of justice",
+                            "jobs": "students writing exam india"}.get(t, ""))
                         feed.insert(0, art); print(f"[filler] {t} கட்டுரை")
     except Exception as ex:
         print("[filler] பிழை", str(ex)[:120])
