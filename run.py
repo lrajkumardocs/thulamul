@@ -26,7 +26,7 @@ MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
 MODEL_FAST = os.environ.get("CLAUDE_MODEL_FAST", "claude-haiku-4-5-20251001")
 BIG_TOPICS = {"tn", "india", "assembly", "court", "economy"}
 MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "12"))    # ஒரு ஓட்டத்தில் அதிகபட்சம்
-MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "60"))
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "50"))
 MIN_SCORE = int(os.environ.get("MIN_SCORE", "6"))               # இதற்குக் குறைவானவை எழுதப்படாது
 TTS_VOICE = os.environ.get("TTS_VOICE", "ta-IN-PallaviNeural")   # Microsoft Edge இலவச தமிழ் குரல் (ஆண்: ta-IN-ValluvarNeural)
 AUTO_PUBLISH_MIN_CONFIDENCE = 0.3
@@ -35,7 +35,7 @@ THIN = {"health", "agri", "jobs", "court", "spirit", "cinema", "sports", "tech"}
 TOPIC_TA = {"tn": "தமிழ்நாடு", "india": "இந்தியா", "world": "உலகம்", "economy": "பொருளாதாரம்",
             "tech": "தொழில்நுட்பம்", "sports": "விளையாட்டு", "cinema": "சினிமா",
             "jobs": "வேலை · தேர்வு", "court": "நீதிமன்றம்", "assembly": "சட்டமன்றம்",
-            "health": "சுகாதாரம்", "govt": "அரசு அறிவிப்புகள்"}
+            "health": "சுகாதாரம்", "govt": "அரசு அறிவிப்புகள்", "crime": "சட்டம் ஒழுங்கு"}
 
 # ---------------------------------------------------------------- helpers
 def load_json(p, default):
@@ -103,10 +103,34 @@ def fetch_all(sources, seen):
     return fresh
 
 # ---------------------------------------------------------------- 2. cluster
+def _stale(pub_str, days=3):
+    """3 நாளுக்கு மேல் பழைய RSS உருப்படியா?"""
+    if not pub_str:
+        return False
+    try:
+        from email.utils import parsedate_to_datetime
+        d = parsedate_to_datetime(str(pub_str))
+        if d is None:
+            return False
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - d).days > days
+    except Exception:
+        try:
+            d = datetime.fromisoformat(str(pub_str).replace("Z", "+00:00"))
+            if d.tzinfo is None:
+                d = d.replace(tzinfo=timezone.utc)
+            return (datetime.now(timezone.utc) - d).days > days
+        except Exception:
+            return False
+
+
 def cluster(items, threshold=0.28):
     """ஒரே நிகழ்வைப் பற்றிய items-ஐ இணைக்கும் (தலைப்பு+உரை சொற்கள் Jaccard)."""
     clusters = []
     for it in items:
+        if _stale(it.get("published")):
+            continue                              # 3 நாளுக்கு மேல் பழையது
         t = tokens(it["title"] + " " + it["text"][:600])
         placed = False
         for c in clusters:
@@ -119,15 +143,31 @@ def cluster(items, threshold=0.28):
             clusters.append({"topic_hint": it["topic_hint"], "tokens": t, "items": [it]})
     return clusters
 
+# குற்றச்சாட்டு உள்ள செய்தி — இரு மூலம் கட்டாயம் (பிற துறைகளுக்கு நம்பகமான ஒரு ஊடகம் போதும்)
+STRICT_TOPICS = {"crime"}
+
+# நம்பகமான ஊடகங்கள் — ஒன்று போதும்
+TRUSTED = ("hindu", "dinamalar", "dinamani", "indian express", "times of india", "ndtv",
+           "pti", "ani", "business standard", "hindu tamil", "india today", "the print",
+           "livemint", "economic times", "deccan", "news18", "maalaimalar", "daily thanthi",
+           "vikatan", "puthiyathalaimurai", "polimer", "sun news", "bbc", "reuters", "afp")
+
+
 def eligible(c):
-    """வெளியீட்டுத் தகுதி: official ஒன்று போதும்; media என்றால் 2 தனித்த மூலங்கள்."""
+    """வெளியீட்டுத் தகுதி.
+    official ஒன்று போதும். media என்றால் 2 தனித்த மூலங்கள்.
+    குற்றம்/நீதிமன்றம்/அரசு/பொருளாதாரம்/சுகாதாரம் — ஒரு மூலம் மட்டும் என்றால் **வெளியிடக் கூடாது**."""
     grades = {i["grade"] for i in c["items"]}
     names = {i["source"] for i in c["items"]}
     if "official" in grades:
         return True, []
     if len(names) >= 2:
         return True, []
-    return True, ["single_source"]   # வெளியிடலாம், ஆனால் flag → Telegram ஒப்புதல்
+    one = next(iter(names), "").lower()
+    trusted = any(t in one for t in TRUSTED)
+    if c.get("topic_hint") in STRICT_TOPICS and not trusted:
+        return False, ["single_source_strict"]      # குற்றச் செய்தி + நம்பகமற்ற ஒரே மூலம்
+    return True, ["single_source"]
 
 # ---------------------------------------------------------------- 3. write (Claude)
 
@@ -161,6 +201,113 @@ def write_filler(client, topic, today, now):
     except Exception as ex:
         print(f"[filler:{topic}] பிழை", str(ex)[:120])
         return None
+
+
+# ---------------------------------------------------------------- சந்தை நிலவரம்
+def _yf(sym):
+    """Yahoo Finance — கடைசி விலை, முந்தைய இறுதி, சந்தை நேரம் (key இல்லை)."""
+    for attempt in range(2):
+        try:
+            r = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}",
+                             params={"interval": "1d", "range": "10d"},
+                             headers={"User-Agent": "Mozilla/5.0"}, timeout=20).json()
+            res = r["chart"]["result"][0]
+            meta = res.get("meta") or {}
+            closes = [c for c in res["indicators"]["quote"][0]["close"] if c]
+            if not closes:
+                return None
+            last = meta.get("regularMarketPrice") or closes[-1]
+            # முந்தைய இறுதி — வரலாற்றுத் தொடரிலிருந்து (meta நம்பகமற்றது)
+            prev = None
+            for c in reversed(closes[:-1]):
+                if c and abs(c - closes[-1]) / closes[-1] < 0.25:
+                    prev = c
+                    break
+            if not prev:
+                prev = meta.get("previousClose") or meta.get("chartPreviousClose") or last
+            # last-ஐ closes[-1] உடன் ஒப்பிடு; regularMarketPrice வேறு நாளாக இருக்கலாம்
+            if abs(last - closes[-1]) / closes[-1] > 0.25:
+                last = closes[-1]
+            ts = meta.get("regularMarketTime")
+            return {"last": float(last), "prev": float(prev),
+                    "ts": int(ts) if ts else None,
+                    "state": meta.get("marketState", ""), "sym": sym}
+        except Exception as ex:
+            if attempt:
+                print(f"[market:{sym}]", str(ex)[:80])
+            time.sleep(2)
+    return None
+
+
+def _age_ta(ts):
+    """எவ்வளவு நேரம் முன் — தமிழில்."""
+    if not ts:
+        return ""
+    mins = int((time.time() - ts) / 60)
+    if mins < 2:
+        return "இப்போது"
+    if mins < 60:
+        return f"{mins} நிமிடம் முன்"
+    if mins < 24 * 60:
+        return f"{mins // 60} மணி நேரம் முன்"
+    d = mins // (24 * 60)
+    return "நேற்று" if d == 1 else f"{d} நாள் முன்"
+
+
+def market_snapshot(prev_snap=None):
+    """தங்கம், வெள்ளி, சென்செக்ஸ், நிஃப்டி, டாலர். திடீர் மாற்றம் என்றால் நிராகரிப்பு."""
+    usdinr = _yf("INR=X"); gold = _yf("GC=F"); silver = _yf("SI=F")
+    sensex = _yf("^BSESN"); nifty = _yf("^NSEI")
+    if not usdinr:
+        print("[market] டாலர் விகிதம் கிடைக்கவில்லை"); return None
+    OZ = 31.1035
+    GOLD_F, SILVER_F = 1.12, 1.22      # இந்திய இறக்குமதி வரி + GST
+    old = prev_snap or {}
+    out = {"at": datetime.now(IST).isoformat(timespec="minutes")}
+
+    def sane(key, val, band=0.18):
+        """முந்தைய மதிப்பிலிருந்து 10%-க்கு மேல் தாவினால் சந்தேகம் — பழையதை வை."""
+        o = old.get(key)
+        if o and val and abs(val - o) / o > band:
+            print(f"[market] {key} சந்தேகமான மாற்றம் {o} → {round(val)} — பழையது வைக்கப்படுகிறது")
+            return o, True
+        return val, False
+
+    def pct(d):
+        if not d or not d.get("prev"):
+            return 0.0
+        v = round((d["last"] - d["prev"]) / d["prev"] * 100, 2)
+        return 0.0 if abs(v) > 12 else v          # சந்தேகமான சதவீதம் — காட்டாதே
+
+    if gold:
+        g24 = gold["last"] * usdinr["last"] / OZ * GOLD_F
+        g24, held = sane("gold24", round(g24))
+        out["gold24"] = round(g24); out["gold22"] = round(g24 * 22 / 24)
+        out["gold_pct"] = pct(gold)
+        p24 = gold["prev"] * usdinr["last"] / OZ * GOLD_F
+        out["gold24_chg"] = round(gold["last"] * usdinr["last"] / OZ * GOLD_F - p24)
+        out["gold22_chg"] = round(out["gold24_chg"] * 22 / 24)
+        out["gold_per10k"] = round(10000 / out["gold24"], 2)
+        out["gold_age"] = _age_ta(gold.get("ts")); out["gold_ts"] = gold.get("ts")
+        if held:
+            out["gold_note"] = "சரிபார்ப்பில் உள்ளது"
+    if silver:
+        sv = silver["last"] * usdinr["last"] / OZ * SILVER_F
+        sv, _ = sane("silver", round(sv, 2), 0.30)
+        out["silver"] = round(sv, 2); out["silver_pct"] = pct(silver)
+        out["silver_chg"] = round((silver["last"] - silver["prev"]) * usdinr["last"] / OZ * SILVER_F, 2)
+    if sensex:
+        v, _ = sane("sensex", round(sensex["last"]), 0.12)
+        out["sensex"] = round(v); out["sensex_pct"] = pct(sensex)
+        out["sensex_age"] = _age_ta(sensex.get("ts")); out["market_state"] = sensex.get("state", "")
+    if nifty:
+        v, _ = sane("nifty", round(nifty["last"]), 0.12)
+        out["nifty"] = round(v); out["nifty_pct"] = pct(nifty)
+    if usdinr:
+        out["usd"] = round(usdinr["last"], 2); out["usd_pct"] = pct(usdinr)
+        out["usd_age"] = _age_ta(usdinr.get("ts"))
+    return out if out.get("gold24") or out.get("sensex") else None
+
 
 def send_push(items, brief_item=None):
     """Firebase Cloud Messaging — பக்கம் வாரியாக அறிவிப்பு. FIREBASE_SA இல்லையெனில் தவிர்."""
@@ -313,6 +460,195 @@ def write_news(client, prompt, c, today, model=None):
     )
     raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
     return parse_json(client, raw)
+
+
+# ---------------------------------------------------------------- உரைத் தரக் காவல்
+# அனுமதிக்கப்பட்டவை: தமிழ் · ஆங்கிலம் · எண் · நிறுத்தற்குறி · இடைவெளி · ₹ % ° — வேறு எதுவும் பிழை
+ALLOWED = re.compile(r"[\u0B80-\u0BFFa-zA-Z0-9\s.,;:!?'\"()\[\]{}\-–—/%₹°+*=<>@&#_|\\~`^$…‘’“”\u200b\u200c\u200d\u00b7\u00a0\u2013\u2014\u2018\u2019\u201c\u201d\u2026\u20b9\u00b0\u00bd\u00bc]")
+
+
+def foreign_chars(text):
+    """தமிழ்/ஆங்கிலம் அல்லாத எழுத்துகள் (இந்தி, வங்காளம், சீனம், கொரியம்…) பட்டியல்."""
+    return sorted({ch for ch in str(text or "") if not ALLOWED.match(ch)})
+BAD_TAIL = ("மற்றும்", "ஆனால்", "என்று", "என", "இதனால்", "அதனால்", "எனவே", "-", "–", "…", ",", ";", ":")
+
+
+
+# ---------------------------------------------------------------- உண்மைச் சரிபார்ப்பு
+TA_NUM = {"ஒன்று": "1", "இரண்டு": "2", "மூன்று": "3", "நான்கு": "4", "ஐந்து": "5", "ஆறு": "6",
+          "ஏழு": "7", "எட்டு": "8", "ஒன்பது": "9", "பத்து": "10", "நூறு": "100", "ஆயிரம்": "1000"}
+
+
+def _nums(text):
+    """உரையில் உள்ள எண்கள் — காற்புள்ளி/இடைவெளி நீக்கி ஒப்பிடத் தயார்."""
+    out = set()
+    for m in re.finditer(r"\d[\d,\.]*", str(text or "")):
+        t = m.group(0).rstrip(".").replace(",", "")
+        if t:
+            out.add(t)
+            if "." in t:
+                out.add(t.split(".")[0])
+    return out
+
+
+def fact_problems(story, src_text):
+    """மூலத்தில் இல்லாத எண் / ஆண்டு செய்தியில் வந்தால் பிழை. தவறான தகவலைத் தடுக்கும்."""
+    src = _nums(src_text)
+    # ஆண்டுகளும் சதவீதமும் மூலத்தில் இருக்க வேண்டும்
+    body = " ".join([str(story.get("headline") or "")] + [str(x) for x in (story.get("lines") or [])])
+    bad = []
+    for n in _nums(body):
+        if n in src:
+            continue
+        # சிறிய எண்கள் (1–12) பொதுவான சொற்களில் வரலாம் — தவிர்
+        try:
+            if len(n) <= 2 and int(float(n)) <= 12:
+                continue
+        except Exception:
+            pass
+        # 2.5 → 2.50, 1240 → 1,240 வடிவ வேறுபாடு
+        alt = {n.lstrip("0"), n + "0", n.rstrip("0").rstrip(".")}
+        if alt & src:
+            continue
+        bad.append(n)
+    return ["மூலத்தில் இல்லாத எண்: " + ", ".join(bad[:5])] if bad else []
+
+
+# ---------------------------------------------------------------- தமிழ் எழுத்துப் பிழை
+COMMON_TA = {
+    "காஞ்சிபுரம்", "திருவள்ளூர்", "செங்கல்பட்டு", "கள்ளக்குறிச்சி", "திருவண்ணாமலை",
+    "விழுப்புரம்", "மயிலாடுதுறை", "நாகப்பட்டினம்", "திருவாரூர்", "புதுக்கோட்டை",
+    "திருச்சிராப்பள்ளி", "கிருஷ்ணகிரி", "தருமபுரி", "கோயம்புத்தூர்", "திண்டுக்கல்",
+    "ராமநாதபுரம்", "விருதுநகர்", "தூத்துக்குடி", "திருநெல்வேலி", "கன்னியாகுமரி",
+    "அரியலூர்", "பெரம்பலூர்", "நாமக்கல்", "சிவகங்கை", "தென்காசி", "திருப்பத்தூர்",
+    "ராணிப்பேட்டை", "திருப்பூர்", "நீலகிரி", "வேலூர்", "கடலூர்", "தஞ்சாவூர்", "மதுரை",
+    "சேலம்", "ஈரோடு", "கரூர்", "தேனி", "சென்னை", "துருவ", "வன்னி", "முதலமைச்சர்",
+    "அமைச்சர்", "நீதிமன்றம்", "உயர்நீதிமன்றம்", "சட்டமன்றம்", "ஆணையம்", "நட்சத்திரம்",
+}
+
+
+def _ed1(a, b, lim=2):
+    """திருத்த தூரம் lim-க்குள் இருக்கிறதா?"""
+    if abs(len(a) - len(b)) > lim:
+        return False
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        prev = cur
+        if min(prev) > lim:
+            return False
+    return prev[-1] <= lim
+
+
+SUFFIX = ("ுக்கு", "ில்", "ின்", "ால்", "ாக", "ஆக", "ையும்", "ையே", "ை", "ும்", "ே", "ா",
+          "த்தில்", "த்தின்", "த்தை", "த்துக்கு", "கள்", "களில்", "களுக்கு", "வில்", "வின்")
+
+# அறியப்பட்ட எழுத்துக் குழப்பங்கள் (ண/ன, ழ/ள, ற/ர) — நேரடித் திருத்தம்
+FIX_MAP = {
+    "வண்ணை": "வன்னி", "கஞ்சிபுரம்": "காஞ்சிபுரம்", "தருவ": "துருவ",
+    "கோயம்பத்தூர்": "கோயம்புத்தூர்", "திருச்சிராபள்ளி": "திருச்சிராப்பள்ளி",
+    "தூத்துகுடி": "தூத்துக்குடி", "நாகபட்டினம்": "நாகப்பட்டினம்",
+    "விழுபுரம்": "விழுப்புரம்", "கன்னியகுமரி": "கன்னியாகுமரி",
+    "திருநெல்வேளி": "திருநெல்வேலி", "செங்கல்பட்டு": "செங்கல்பட்டு",
+}
+
+
+def _stem(w):
+    for suf in sorted(SUFFIX, key=len, reverse=True):
+        if w.endswith(suf) and len(w) - len(suf) >= 3:
+            return w[: -len(suf)]
+    return w
+
+
+def spell_fix(story, src_text):
+    """செய்தியில் உள்ள தமிழ்ச் சொல் மூலத்தில் இல்லை, ஆனால் மூலத்தில் ஒத்த சொல் இருந்தால் — திருத்து.
+    வண்ணை → வன்னி, தருவ → துருவ, கஞ்சிபுரம் → காஞ்சிபுரம்."""
+    src_words = set(re.findall(r"[\u0B80-\u0BFF]{3,}", str(src_text or "")))
+    known = src_words | COMMON_TA
+    stems = {_stem(k) for k in known}
+    fixes = {}
+    for field in ("headline", "closing"):
+        pass
+    body = [str(story.get("headline") or "")] + [str(x) for x in (story.get("lines") or [])] + [str(story.get("closing") or "")]
+    for txt in body:
+        for w in re.findall(r"[\u0B80-\u0BFF]{4,}", txt):
+            if w in fixes:
+                continue
+            if w in FIX_MAP:
+                fixes[w] = FIX_MAP[w]
+                continue
+            if w in known or _stem(w) in stems:
+                continue
+            cand = [k for k in known if _ed1(w, k, 2) and abs(len(k) - len(w)) <= 1
+                    and k[:1] == w[:1] and k[-1:] == w[-1:]]
+            # ஒரே ஒரு பொருத்தம் இருந்தால் மட்டும் திருத்து (தெளிவற்றால் விடு)
+            if len(cand) == 1:
+                fixes[w] = cand[0]
+    if not fixes:
+        return story, []
+    def apply(t):
+        for a, b in fixes.items():
+            t = t.replace(a, b)
+        return t
+    story["headline"] = apply(str(story.get("headline") or ""))
+    story["lines"] = [apply(str(x)) for x in (story.get("lines") or [])]
+    if story.get("closing"):
+        story["closing"] = apply(str(story["closing"]))
+    return story, [f"{a}→{b}" for a, b in list(fixes.items())[:4]]
+
+def text_problems(story):
+    """வெளியிடுவதற்கு முன் கட்டாயச் சோதனை. பிழைப் பட்டியலைத் திருப்பும்; காலி = சரி."""
+    errs = []
+    head = str(story.get("headline") or "").strip()
+    lines = [str(x).strip() for x in (story.get("lines") or [])]
+    closing = str(story.get("closing") or "").strip()
+    blob = " ".join([head] + lines + [closing])
+
+    fc = foreign_chars(blob)
+    if fc:
+        errs.append("தமிழ் அல்லாத எழுத்து: " + "".join(fc[:8]))
+    if len(head) < 12:
+        errs.append("தலைப்பு மிகக் குறுகியது")
+    if head.endswith(BAD_TAIL):
+        errs.append("தலைப்பு முழுமையடையவில்லை")
+    if len(lines) < 4:
+        errs.append("வரிகள் போதவில்லை")
+    for i, l in enumerate(lines, 1):
+        if len(l) < 25:
+            errs.append(f"வரி {i} மிகக் குறுகியது")
+        if not l.endswith((".", "?", "!")):
+            errs.append(f"வரி {i} முற்றுப்புள்ளி இல்லை")
+        if l.rstrip(".?!").rstrip().endswith(BAD_TAIL):
+            errs.append(f"வரி {i} அரைகுறையாக முடிகிறது")
+        if l.count("(") != l.count(")"):
+            errs.append(f"வரி {i} அடைப்புக்குறி பொருந்தவில்லை")
+    if closing and not closing.endswith((".", "?", "!")):
+        errs.append("முடிவு வரி முற்றுப்புள்ளி இல்லை")
+    # ஒரே வரி மீண்டும்
+    if len(set(lines)) < len(lines):
+        errs.append("வரி மீண்டும் வருகிறது")
+    return errs
+
+
+def fix_text(client, story, errs):
+    """பிழைகளைச் சொல்லி Claude-ஐத் திருத்தச் சொல்."""
+    sysmsg = ("நீ தமிழ்ச் செய்தி ஆசிரியர். கீழே ஒரு செய்தி JSON மற்றும் அதில் உள்ள பிழைகள். "
+              "பிழைகளைத் திருத்திய அதே JSON-ஐத் திருப்பித் தா — headline, lines, closing மட்டும் மாற்று; "
+              "மற்ற புலங்களை அப்படியே வை. விதிகள்: முழுவதும் தமிழ் எழுத்து (இந்தி/தெலுங்கு/கன்னடம் கூடாது; "
+              "பெயர்களைத் தமிழில் ஒலிபெயர்); ஒவ்வொரு வரியும் முழுமையான வாக்கியம், முற்றுப்புள்ளியில் முடிய வேண்டும்; "
+              "ஒரு வரி 20 சொல்லுக்குள்; அரைகுறையாக முடியக் கூடாது. JSON மட்டும், code fence இல்லை.")
+    payload = json.dumps({"headline": story.get("headline"), "lines": story.get("lines"),
+                          "closing": story.get("closing")}, ensure_ascii=False)
+    msg = client.messages.create(model=MODEL, max_tokens=2500, system=sysmsg,
+                                 messages=[{"role": "user", "content": payload + "\n\nபிழைகள்: " + "; ".join(errs)}])
+    raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+    d = parse_json(client, raw)
+    for k in ("headline", "lines", "closing"):
+        if d.get(k):
+            story[k] = d[k]
+    return story
 
 def validate(story):
     ok = isinstance(story.get("lines"), list) and len(story["lines"]) == 5
@@ -660,10 +996,46 @@ def stock_image(topic, query=""):
                 return im
     return None
 
+
+# அறியப்பட்ட இடங்கள் — விக்கிமீடியாவில் உறுதியான படம்
+PLACE_WIKI = {
+    "சென்னை உயர்நீதிமன்ற": "Madras High Court", "மதராஸ் உயர்நீதிமன்ற": "Madras High Court",
+    "மதுரை உயர்நீதிமன்ற": "Madras High Court Madurai Bench", "உச்ச நீதிமன்ற": "Supreme Court of India",
+    "டெல்லி உயர்நீதிமன்ற": "Delhi High Court", "கேரள உயர்நீதிமன்ற": "Kerala High Court",
+    "கர்நாடக உயர்நீதிமன்ற": "Karnataka High Court", "தலைமைச் செயலக": "Fort St. George Chennai",
+    "சட்டமன்ற": "Tamil Nadu Legislative Assembly", "ரிசர்வ் வங்கி": "Reserve Bank of India",
+    "பாராளுமன்ற": "Parliament House New Delhi", "ராஜ்பவன்": "Raj Bhavan Chennai",
+    "சென்ட்ரல் ரயில்": "Chennai Central railway station", "எழும்பூர்": "Chennai Egmore railway station",
+    "மெட்ரோ ரயில்": "Chennai Metro", "விமான நிலைய": "Chennai International Airport",
+    "மெரினா": "Marina Beach", "ஐஐடி": "IIT Madras", "அண்ணா பல்கலை": "Anna University",
+    "இஸ்ரோ": "ISRO", "ஸ்ரீஹரிகோட்டா": "Satish Dhawan Space Centre",
+}
+
+
+def place_image(headline):
+    """செய்தியில் அறியப்பட்ட இடம் இருந்தால் அதன் விக்கிப் படம்."""
+    h = str(headline or "")
+    for key, en in PLACE_WIKI.items():
+        if key in h:
+            im = wiki_image(en, "en")
+            if im:
+                im["symbolic"] = False
+                return im
+    return None
+
+
+def image_matches(im, query):
+    """படத்தின் விவரத்தில் தேடல் சொல்லின் முக்கியச் சொல் இருக்கிறதா — பொருந்தாத படத்தைத் தவிர்."""
+    if not im or not query:
+        return False
+    hay = (str(im.get("credit", "")) + " " + str(im.get("url", "")) + " " + str(im.get("title", ""))).lower()
+    words = [w for w in re.split(r"[^a-z0-9]+", str(query).lower()) if len(w) > 3]
+    if not words:
+        return True
+    return any(w in hay for w in words[:4])
+
 def pick_image(c, story=None):
-    """படம் — தவறான படம் வருவதைவிட படமே இல்லாதது மேல்.
-    1) அரசுத் தளப் படம்  2) நபர் செய்தி → அந்த நபரின் விக்கிப் படம் மட்டும்
-    3) பொருள் செய்தி → image_query-க்கு commons/stock. பொருந்தாவிட்டால் None."""
+    """படம் — தவறான படத்தைவிட படமே இல்லாதது மேல்."""
     for i in c["items"]:
         u = i.get("image") or ""
         if u and _safe_host(u):
@@ -671,9 +1043,12 @@ def pick_image(c, story=None):
     if not story:
         return None
 
+    pl = place_image(story.get("headline"))
+    if pl:
+        return pl
+
     person = (story.get("person_en") or "").strip()
     if person:
-        # நபர் செய்தி — அவரது படம் கிடைத்தால் மட்டும்; இல்லையெனில் படம் இல்லை
         im = wiki_image(person, "en") or wiki_image(person, "ta")
         if im and person.split()[0].lower() in (im.get("credit", "") + im.get("url", "")).lower():
             return im
@@ -682,8 +1057,12 @@ def pick_image(c, story=None):
     q = (story.get("image_query") or "").strip()
     if not q:
         return None
-    im = commons_image(q) or stock_image("", q)
-    if im:
+    im = commons_image(q)
+    if im and image_matches(im, q):
+        im["symbolic"] = True
+        return im
+    im = stock_image("", q)
+    if im and image_matches(im, q):
         im["symbolic"] = True
         return im
     return None
@@ -777,19 +1156,32 @@ def main():
     written = 0
     # தினசரி குறைந்தபட்சம்: இன்று 0 உள்ள துறைகளின் நிகழ்வுகளை முதலில் எழுது
     today_topics = {x["topic"] for x in feed if x.get("published_at", "").startswith(today)}
-    TOPIC_CAP = {"tn": 10, "india": 6, "world": 5, "economy": 5, "assembly": 4}
+    TOPIC_CAP = {"tn": 10, "india": 6, "world": 6, "economy": 6, "crime": 6, "court": 5,
+             "govt": 5, "jobs": 5, "sports": 5, "cinema": 4, "health": 4, "assembly": 3, "tech": 2}
     todays_count = {}
     for x in feed:
         if str(x.get("published_at", ""))[:10] == today and x.get("status") == "published":
             todays_count[x.get("topic")] = todays_count.get(x.get("topic"), 0) + 1
     api_dead = False
-    scores = triage(client, clusters) if clusters else {}
+    # triage — 2 மணிக்கு ஒரு முறை (செலவுக் கட்டுப்பாடு); இடையில் சேமித்ததைப் பயன்படுத்து
+    _tri = load_json(DATA / "triage_cache.json", {})
+    _fresh = (time.time() - float(_tri.get("at", 0))) < 7200
+    if clusters and not _fresh:
+        scores = triage(client, clusters)
+        _keys = {c["items"][0]["title"][:60]: sc for sc, c in zip(
+            [scores.get(n, 5) for n in range(len(clusters))], clusters)}
+        save_json(DATA / "triage_cache.json", {"at": time.time(), "k": _keys})
+    else:
+        _k = _tri.get("k", {})
+        scores = {n: _k.get(c["items"][0]["title"][:60], 6) for n, c in enumerate(clusters)}
+        if clusters:
+            print(f"[triage] சேமித்த மதிப்பெண் ({len(_k)}) — புதிய அழைப்பு இல்லை")
     if scores:
         scored = [(scores.get(n, 5), n, c) for n, c in enumerate(clusters)]
         keep = [x for x in scored if x[0] >= MIN_SCORE]
         # ஒவ்வொரு பக்கத்திற்கும் குறைந்தபட்ச இடம் — பக்கம் காலியாகக் கூடாது
         PAGE_MIN = {"tn": 6, "india": 4, "world": 3, "economy": 3, "court": 3, "govt": 4,
-                    "jobs": 3, "tech": 3, "health": 3, "cinema": 3, "sports": 3, "assembly": 2}
+                    "crime": 4, "jobs": 3, "health": 3, "cinema": 3, "sports": 3, "assembly": 2}
         have = {}
         for sc, n, c in keep:
             t = c["topic_hint"]; have[t] = have.get(t, 0) + 1
@@ -808,8 +1200,23 @@ def main():
             extra.sort(key=lambda x: -x[0])
             for x in extra[:short]:
                 keep.append(x); kept_ids.add(id(x[2]))
-        keep.sort(key=lambda x: -x[0])
-        print(f"[triage] {len(clusters)} → {len(keep)} (முக்கியம் + பக்க ஒதுக்கீடு)")
+        # காலியான பக்கங்களுக்கு முன்னுரிமை — சுழற்சி முறை
+        need = {t: max(0, n - todays.get(t, 0)) for t, n in PAGE_MIN.items()}
+        keep.sort(key=lambda x: (-need.get(x[2]["topic_hint"], 0), -x[0]))
+        by_topic = {}
+        for item in keep:
+            by_topic.setdefault(item[2]["topic_hint"], []).append(item)
+        rr, idx = [], 0
+        while any(by_topic.values()):
+            for t in sorted(by_topic, key=lambda t: -need.get(t, 0)):
+                if by_topic[t]:
+                    rr.append(by_topic[t].pop(0))
+            idx += 1
+            if idx > 60:
+                break
+        keep = rr
+        print(f"[triage] {len(clusters)} → {len(keep)} | காலி: " +
+              ", ".join(f"{t}:{n}" for t, n in sorted(need.items(), key=lambda x: -x[1])[:5] if n))
         for sc, _, c in keep:
             c["score"] = sc
         clusters = [c for _, _, c in keep]
@@ -833,7 +1240,8 @@ def main():
             continue                      # இந்தப் பக்கம் இன்று நிரம்பிவிட்டது
         ok, extra_flags = eligible(c)
         if not ok:
-            mark_seen(c); continue
+            print(f"[மூலம்] ஒரே ஊடகம் ({c['topic_hint']}) — வெளியிடப்படவில்லை: {c['items'][0]['title'][:48]}")
+            continue
         try:
             _big = (c["topic_hint"] in BIG_TOPICS) or len(c["items"]) >= 2 \
                    or any(i.get("grade") == "official" for i in c["items"]) or c.get("score", 5) >= 8
@@ -850,6 +1258,23 @@ def main():
             print("[skip]", (story.get("reason") or "")[:60]); mark_seen(c); continue
         if not validate(story):
             print("[validate] தவறான வடிவம், தவிர்க்கப்பட்டது"); mark_seen(c); continue
+        # உரைத் தரக் காவல் — 2 திருத்த முயற்சி; பிறகும் பிழை என்றால் வெளியிடாது
+        # உரை + உண்மை — ஒரே சோதனை, ஒரே திருத்த முயற்சி (செலவுக் கட்டுப்பாடு)
+        _src = " ".join((i.get("title", "") + " " + i.get("text", "")) for i in c["items"])
+        story, _sp = spell_fix(story, _src)
+        if _sp:
+            print("[எழுத்து]", ", ".join(_sp))
+        _errs = text_problems(story) + fact_problems(story, _src)
+        if _errs:
+            print(f"[தரம்] {'; '.join(_errs[:2])} → ஒரு திருத்தம்")
+            try:
+                story = fix_text(client, story, _errs + ["மூல உரையில் உள்ள எண்களை மட்டும் பயன்படுத்து"])
+                _errs = text_problems(story) + fact_problems(story, _src)
+            except Exception as ex:
+                print("[தரம்] திருத்தப் பிழை", str(ex)[:80])
+        if _errs:
+            print("[தரம்] தோல்வி — வெளியிடப்படவில்லை:", "; ".join(_errs[:2]))
+            mark_seen(c); continue
         mark_seen(c)
         written += 1
         state.setdefault("day_count", {})[today] = day_count + written
@@ -946,7 +1371,7 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if malar.get("week") == week and malar.get("v", 0) < 11 and not api_dead:
+        if malar.get("week") == week and 13 <= malar.get("v", 0) < 14 and not api_dead:
             # இருக்கும் இதழ் — உரையை மாற்றாமல் விடுபட்ட படங்களை மட்டும் சேர்
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
@@ -959,7 +1384,7 @@ def main():
                     n = mal.archive(got, DATA / "malar_archive.json"); print(f"[malar] காப்பகம் {n} வாரம்")
                 except Exception as ex:
                     print("[malar] காப்பக பிழை", str(ex)[:80])
-        elif malar.get("week") != week and now.weekday() == 6 and not api_dead:   # ஞாயிறு மட்டும் — புதிய இதழ்
+        elif (malar.get("week") != week and now.weekday() == 6 or malar.get("v", 0) < 13) and not api_dead:
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
             mal = importlib.import_module("malar")
@@ -971,7 +1396,9 @@ def main():
             done = [b.get("title_en", "") for old in [malar] for b in (old.get("books") or [])]
             done += load_json(DATA / "malar_books.json", [])
             done_heroes = load_json(DATA / "malar_heroes.json", [])
-            mm2 = mal.build(client, MODEL, week, today, issue, dates_ta, done, done_heroes, telegram)
+            _cin = "\n".join(f"- {x.get('headline','')}: {' '.join((x.get('lines') or [])[:2])}"
+                             for x in feed if x.get("topic") == "cinema")[:6000]
+            mm2 = mal.build(client, MODEL, week, today, issue, dates_ta, done, done_heroes, telegram, _cin)
             if mm2:
                 save_json(DATA / "malar.json", mm2)
                 save_json(DATA / "malar_books.json", (done + [b.get("title_en", "") for b in mm2.get("books", [])])[-60:])
@@ -1037,6 +1464,76 @@ def main():
             save_json(DATA / "rasi.json", rs); print("[rasi] ராசிபலன் தயார்")
     except Exception as ex:
         print("[rasi] பிழை", ex)
+
+    # 5b8. ஏற்கனவே வெளியான செய்திகளில் எழுத்துப் பிழை — திருத்து அல்லது நீக்கு
+    try:
+        if not api_dead:
+            fixed = dropped = 0
+            _done = set(load_json(DATA / "repaired.json", []))
+            for x in list(feed):
+                if str(x.get("published_at", ""))[:10] != today or x.get("status") != "published":
+                    continue
+                if x.get("id") in _done:
+                    continue                      # ஒரு முறை மட்டும் — மீண்டும் செலவு இல்லை
+                if fixed + dropped >= 6:
+                    break
+                _done.add(x.get("id"))
+                errs = text_problems(x)
+                if not errs:
+                    continue
+                try:
+                    x2 = fix_text(client, dict(x), errs)
+                    if not text_problems(x2):
+                        x.update({k: x2[k] for k in ("headline", "lines", "closing") if k in x2})
+                        x["audio"] = make_audio(x["id"], x["headline"] + ". " + " ".join(x.get("lines", [])))
+                        fixed += 1
+                        continue
+                except Exception:
+                    pass
+                feed.remove(x); dropped += 1
+            save_json(DATA / "repaired.json", list(_done)[-400:])
+            if fixed or dropped:
+                print(f"[தரம்] பழையவை: {fixed} திருத்தம், {dropped} நீக்கம்")
+    except Exception as ex:
+        print("[தரம்] சுத்தப்படுத்தல் பிழை", str(ex)[:110])
+
+    # 5b85. ஏற்கனவே வெளியானவற்றின் படங்கள் — பொருந்தாதவற்றை நீக்கு/மாற்று
+    try:
+        chg = 0
+        for x in feed[:120]:
+            if str(x.get("published_at", ""))[:10] != today:
+                continue
+            im = x.get("image") or {}
+            if not im.get("url"):
+                continue
+            q = (x.get("image_query") or "").strip()
+            per = (x.get("person_en") or "").strip()
+            u = (im.get("url") or "").lower()
+            keep = True
+            if per:
+                keep = ("wikipedia" in u or "wikimedia" in u)
+            elif im.get("symbolic") and q:
+                keep = image_matches(im, q)
+            elif not q:
+                keep = ("wikipedia" in u or "wikimedia" in u or "gov.in" in u)
+            if not keep:
+                x["image"] = place_image(x.get("headline")) or (pick_image({"items": []}, x) if q else None)
+                chg += 1
+        if chg:
+            print(f"[image] {chg} பொருந்தாத படம் மாற்றப்பட்டது")
+    except Exception as ex:
+        print("[image] சுத்தப்படுத்தல் பிழை", str(ex)[:110])
+
+    # 5b9. சந்தை நிலவரம் — தங்கம், வெள்ளி, சென்செக்ஸ், நிஃப்டி, டாலர்
+    try:
+        ms = market_snapshot(load_json(DATA / "market.json", {}))
+        if ms:
+            save_json(DATA / "market.json", ms)
+            print(f"[market] தங்கம் 22K ₹{ms.get('gold22','—')} · சென்செக்ஸ் {ms.get('sensex','—')}")
+        else:
+            print("[market] தரவு கிடைக்கவில்லை")
+    except Exception as ex:
+        print("[market] பிழை", str(ex)[:110])
 
     # 5c. வானிலை — open-meteo (இலவசம், key தேவையில்லை); சென்னை + 4 நகரங்கள்
     try:
