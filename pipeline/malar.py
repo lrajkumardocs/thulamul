@@ -169,6 +169,22 @@ def tmdb_poster(q, year=None):
 
 
 # ---------------------------------------------------------------- build
+def _spell(m, ref):
+    """run.py-ன் எழுத்துத் திருத்தத்தை வாரமலருக்கும் பயன்படுத்து."""
+    try:
+        import importlib, sys
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        rn = importlib.import_module("run")
+        for f in (m.get("films") or []):
+            st, fx = rn.spell_fix({"headline": f.get("title", ""), "lines": [f.get("review", "")]}, ref)
+            if fx:
+                f["title"] = st["headline"]; f["review"] = st["lines"][0]
+                print("[malar:எழுத்து]", ", ".join(fx))
+    except Exception as ex:
+        print("[malar:எழுத்து]", str(ex)[:70])
+    return m
+
+
 def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, telegram=None, cinema_news=""):
     """run.py அழைக்கும். வெற்றி → dict; தோல்வி → None."""
     p = (PIPE / "prompts" / "malar.md").read_text(encoding="utf-8")
@@ -220,12 +236,14 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
             print(f"[malar] {part} தோல்வி:", str(ex)[:90])
         time.sleep(2)
     # திரை விமர்சனம் — உண்மையான படங்கள் மட்டும்
+    _cine_ref = cinema_news
     try:
         fm = ask(f"{week} வாரமலர். 'films' பகுதியை மட்டும் JSON-ஆகத் தா. "
                  f"இந்த வாரச் சினிமாச் செய்திகள்:\n{cinema_news[:6000] or '(தரவு இல்லை)'}\n"
                  "இவற்றில் உண்மையில் வெளியான படங்களை மட்டும் எடு. உறுதியாகத் தெரியாவிட்டால் films: [].", 6000)
         if isinstance(fm.get("films"), list):
             m["films"] = fm["films"]
+            m = _spell(m, _cine_ref)
     except Exception as ex:
         print("[malar] films", str(ex)[:90])
     time.sleep(2)
