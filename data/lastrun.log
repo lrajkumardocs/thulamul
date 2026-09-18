@@ -2,18 +2,18 @@
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 2 புதியவை
-[fetch] Dinamani TN: 6 புதியவை
+[fetch] Dinamani TN: 9 புதியவை
 [fetch] BBC Tamil: 0 புதியவை
-[fetch] BBC World: 4 புதியவை
+[fetch] BBC World: 3 புதியவை
 [fetch] Al Jazeera: 4 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
-[fetch] The Hindu Sport: 11 புதியவை
+[fetch] The Hindu Sport: 10 புதியவை
 [fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 12 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 24 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 2 புதியவை
+[fetch] The Hindu Legal: 4 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
-[fetch] Dinamani Sports: 25 புதியவை
+[fetch] Dinamani Sports: 21 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 6 புதியவை
+[fetch] TechCrunch: 7 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 2 புதியவை
+[fetch] The Hindu National: 4 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 16 புதியவை
+[fetch] Dinamani India: 13 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fbfe28d4050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 3 புதியவை
-[fetch] Dinamani Govt: 6 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd6960a0210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 4 புதியவை
+[fetch] Dinamani Govt: 9 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,31 +67,18 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 385 → நிகழ்வுகள் 375
-[triage] சேமித்த மதிப்பெண் (396) — புதிய அழைப்பு இல்லை
-[triage] 375 → 20 (முக்கியம் + பக்க ஒதுக்கீடு)
+[run] புதியவை 389 → நிகழ்வுகள் 377
+[triage] 377 → 10 (முக்கியம் + பக்க ஒதுக்கீடு)
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi bars Kore Digital promoters over alleged Rs
-[skip] விளையாட்டுச் செய்தி ஆனால் தமிழ்நாட்டுக்கு முக்கியமல்ல. அனாஹத
-[skip] Maldives cricket series announcement — insufficient details 
-[skip] விளையாட்டுச் செய்திகளில் தமிழ்நாடு முன்னுரிமை: (1) தமிழ்நாடு
-[skip] செய்தி தெளிவாக வரையறுக்கப்படவில்லை. மூலம் தலைப்பு மட்டும் கொ
-[skip] tennis_international_players_no_tn_connection
-[skip] வெளிநாட்டு நிறுவனத்தின் அமெரிக்கச் சாலைத் தொழில்நுட்பம் — தம
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் ஊழல் வழக்கு தொடர்பான தீர்ப்பு. 
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] b4a8e86532a0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சமஸ்தானங்கள் இணைப்பில் படேல் பங்கு: துணைத் தலைவர் பெருமிதம்
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Bihar CM, other BJP leaders take part in Ashirwa
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: விநாயகா் சிலை கரைப்பு விவகாரம்: தமிழக அரசுக்கு அ
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Judge Amogh Kaloti: The man who holds key to Tat
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: UPI fee: Government, payment gateways discuss wa
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Hiranandani-backed Greenbase to develop 5mn sqft
-[skip] ஜெர்மனியின் உள்ளூர் அரசியல். தமிழ்நாட்டு/இந்திய வாசகரைப் பாத
-[skip] அமெரிக்காவின் ஒரு மாநிலத்தின் உள்ளூர் சுகாதாரப் பிரச்சினை. த
-[skip] செருபியாவின் உள்நாட்டு ராணுவ நிர்ణயம் — தமிழ்நாடு/இந்தியச் வ
+[skip] கிரிக்கெட் T20I தொடர் — இது ஒரு போட்டிப் பலன் மாত்திரம். தமி
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Puravankara Ltd eyes Rs 2,600 cr revenue from re
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Kallazhagar and Ramanuja
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three persons arrested in migrant worker murder 
+[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி. ஐரோப்பாவுக்கான குடிபெயர்ப்பு 
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத தெற்காபிரிக்கா உள்ளூர் குற்றச
+[skip] வெளிநாட்டு உள்நாட்டு விளையாட்டு ஏற்பாடு. ஆஸ்திரேலியாவின் ஒலி
 [image] 7 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13879 · சென்செக்ஸ் 74315
+[market] தங்கம் 22K ₹13884 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
 [image] 7 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 1
+[done] feed 300 · pending 1 · எழுதியவை 0
