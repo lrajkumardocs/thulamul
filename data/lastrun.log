@@ -2,21 +2,21 @@
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 18 புதியவை
-[fetch] BBC Tamil: 0 புதியவை
+[fetch] Dinamani TN: 21 புதியவை
+[fetch] BBC Tamil: 1 புதியவை
 [fetch] BBC World: 0 புதியவை
-[fetch] Al Jazeera: 3 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] Al Jazeera: 2 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 9 புதியவை
 [fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 25 புதியவை
-[fetch] The Hindu Tech: 13 புதியவை
+[fetch] The Hindu Tech: 14 புதியவை
 [fetch] Wired: 16 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 24 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 24 புதியவை
+[fetch] FreeJobAlert: 29 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 30 புதியவை
-[fetch] The Hindu Legal: 25 புதியவை
+[fetch] The Hindu Legal: 24 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 22 புதியவை
+[fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 20 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 7 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 25 புதியவை
+[fetch] The Hindu National: 24 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 13 புதியவை
+[fetch] Sportstar: 11 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,95 +56,27 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3c80c18390>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 25 புதியவை
-[fetch] Dinamani Govt: 18 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa030db6590>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 24 புதியவை
+[fetch] Dinamani Govt: 21 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 511 → நிகழ்வுகள் 465
-[triage] சேமித்த மதிப்பெண் (384) — புதிய அழைப்பு இல்லை
-[triage] 465 → 126 (முக்கியம் + பக்க ஒதுக்கீடு)
+[run] புதியவை 512 → நிகழ்வுகள் 465
+[triage] 465 → 19 (முக்கியம் + பக்க ஒதுக்கீடு)
+[skip] தமிழ்நாட்டுப் சிறுவனின் தனிப்பட்ட சம்பவம் — கைது, விசாரணை, க
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Kore Digital shares crash 10% as Sebi alleges Rs
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other Tata stocks tumble up
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Coal India Share Price Live Updates: Coal India 
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Motilal Oswal sees surging steel prices to offse
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Even JPMorgan can’t predict oil’s next move as I
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: GPT Infraprojects shares surge 9% after securing
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: India bonds little changed, debt auction cutoff 
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: How Bessent, America's bond salesman, cornered J
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Rupee rises 16 paise to 95.73 against US dollar 
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Global Market: Nikkei gains 1% as AI, chip stock
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sensex rises 200 points, Nifty above 23,300 as o
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Gold prices at Rs 1.52 lakh/10 gram, silver gain
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Yatharth Hospitals shares rally 10% to fresh rec
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: 2026’s Best IPO: 325% gain in 7 sessions and now
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: AI’s 3 musketeers are hitting the brakes. Why Je
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: 3 smallcap mutual funds returned over 23% in 202
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE IPO impact on BSE explained: How the mega li
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: HUL Share Price Live Updates: HUL's Current Pric
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Elevate Campuses IPO price band set at Rs 343–36
-[skip] வெளிநாட்டு பொருளாதார/ஆற்றல் உறைப்பு — தமிழ்நாடு/இந்தியாவுடன்
-[skip] வெளிநாட்டு கிரிக்கெட் லீग் (Caribbean Premier League WCPL) —
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: NLSIU, TNNLU still not on BCI's approved list of
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Karnataka High Court dismisses lawyer's anticipa
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Kerala court remands Reporter TV MD Anto Augusti
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: CCPA imposes ₹10 lakh fine on Xboom for ads of a
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: The Mediation Act 2023: The changing landscape o
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi High Court grants bail to British national
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Where should judge go when faced with injustice?
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Overcrowding to fire safety: Karnataka HC issues
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Supreme Court criticises States for poor impleme
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Stray dogs: Kerala HC to monitor implementation 
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Supreme Court dismisses Central government's app
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi HC says words used by Ajeet Bharti were of
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Karnataka HC notice to State in contempt plea fo
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi HC seeks Centre’s stand on PIL for checks 
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Gurugram hit and run: Court remands accused Kaly
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi HC rejects PIL for probe into conflicting 
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Orissa High Court reinstates judge who resigned 
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Kerala HC grants anticipatory bail to advocate a
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Courts must take progressive approach in John Do
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Madras High Court rejects election petitions aga
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi HC declines urgent listing of Kshatriya Ka
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: RERA cannot decide disputed questions of title; 
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Justice Jaishree Thakur, Senior Advocate GK Mann
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Illegal arrest warrants release, not bail: Keral
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: BharatPe moves Delhi High Court against Centrum,
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Illegal electric fencing: Delhi High Court denie
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Karnataka High Court sentences advocate till ris
-[skip] OTT வெளியீடு அறிவிப்பு — சினிமாவின் உத்தேசிக்கப்பட்ட ஆறு வகை
-[skip] சமரকந்து சதுரங்கத் தொடர் உலக நிகழ்வு — தமிழ்நாட்டு/இந்திய வீ
-[skip] வீரர்களின் பூரண பட்டியல் அல்லது தனிப்பு தகவல் இல்லாமல் வெறும
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Attappady land grab row returns as tribal farmer
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: The Greyhounds’ last leap
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Defence Minister, UP CM Launch Seva Sankalp Abhi
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Older Gen Z girls in Keralam delaying marriage
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Congress backs Mamata as ECI freezes name and sy
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Why has a Punjab villager’s death triggered poli
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Merchants to be charged 0.4% for UPI transaction
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: As Project Cheetah completes 4 years, big cat po
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Police debunk ‘24-karat gold-plated’ Ganesh idol
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Visually challenged students write exams without
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Paramedical students seek ₹15,000 monthly stipen
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Adarana-3 scheme to be relaunched soon, says Vis
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: UP CM Yogi lights lamp at Prerna Sthal, launches
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Andhra government imposed ₹1,000-crore house tax
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: சென்னை குற்றப்பிரிவில் அன்பில் மகேஸ் ஆஜர்!
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: 2026 -லும் கல்விக்காக ஒரு மாணவர் கண்ணீர் சிந்த வ
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: சென்னையில் மின்வெட்டைக் கண்டித்து மக்கள் சாலை மற
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: தமிழகத்தில் டெங்கு காய்ச்சல் பாதிப்பு 16,577 ஆக 
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Amid Tata group power struggle, Shapoor Mistry b
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: NSE IPO Day 2: After 43% subscription on first d
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Rupee rebounds 16 paise to 95.73 from over two-m
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Kerala court denies bail to Reporter TV MD Anto 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Kallazhagar and Ramanuja
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘My heart still beats for the unhurried city tha
 [image] 9 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13987 · சென்செக்ஸ் 74419
-[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
+[market] தங்கம் 22K ₹14006 · சென்செக்ஸ் 74467
+[weather] புதுப்பிக்கப்பட்டது
 [image] 9 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 0
