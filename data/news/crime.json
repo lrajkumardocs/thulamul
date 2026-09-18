@@ -1,5 +1,60 @@
 [
  {
+  "headline": "முன்னாள் அமைச்சர் அன்பில் மகேஸை விசாரணைக்கு உட்படுத்தினர்",
+  "lines": [
+   "ரூ.100 கோடி மோசடி வழக்கை தொடர்ந்து தமிழ்நாடு பொலிசார் முன்னாள் அமைச்சர் அன்பில் மகேஸை விசாரணைக்கு உட்படுத்தினர்.",
+   "அவர் 8 மணி நேரம் விசாரணையில் இருந்தார்.",
+   "குற்றம் சாட்டப்பட்ட மோசடி வழக்கு தொடர்பான விசாரணை நடந்து வருகிறது.",
+   "தொடர்ந்து விசாரணை நடைபெறும் என அதிகாரிகள் தெரிவித்தனர்.",
+   "வழக்கு குறித்த விரிவான அறிக்கை விரைவில் வெளியாக எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்த வழக்கு தொடர்பான மேலும் விசாரணை நடைபெறவுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "அன்பில் மகேஸ்",
+   "தமிழ்நாடு பொலிசார்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Former minister Anbalil Mahesh questioned for eight hours",
+   "lines": [
+    "Tamil Nadu police interrogated former minister Anbalil Mahesh in connection with a ₹100 crore fraud case.",
+    "He underwent questioning for eight hours.",
+    "The investigation into the alleged fraud case is ongoing.",
+    "Authorities said the interrogation will continue further.",
+    "A detailed report on the case is expected to be released soon."
+   ],
+   "closing": "Further investigation into the case will proceed."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "Anbalil Mahesh",
+  "person_en": "Anbalil Mahesh",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "fdc7fd554a38",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-19T01:46+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/18/rs-100-crore-fraud-case-former-minister-anbil-mahesh-questioned-for-8-hours"
+  ],
+  "image": null,
+  "audio": "data/audio/fdc7fd554a38.mp3",
+  "created_ts": 1789762616.4655147,
+  "status": "published"
+ },
+ {
   "headline": "சிவகங்கை அருகே ரசாயனப் பொருள் ஏற்றிய லாரி கவிழ்ந்து விபத்து",
   "lines": [
    "சிவகங்கை அருகே ரசாயனப் பொருட்களை ஏற்றிச் சென்ற லாரி ஒன்று சாலையில் கவிழ்ந்து விபத்தில் சிக்கியது.",
@@ -1419,65 +1474,6 @@
   "image": null,
   "audio": "data/audio/2c2ed24b166a.mp3",
   "created_ts": 1789245813.2548392,
-  "status": "published"
- },
- {
-  "headline": "டெல்லி ஹோட்டலில் ஏர் இந்தியா விமானி மர்மமான முறையில் மரணம்",
-  "lines": [
-   "ஏர் இந்தியா நிறுவனத்தின் ஒரு விமானி, டெல்லியின் வசந்த் குஞ்ச் பகுதியில் உள்ள ஹோட்டல் அறையில் இறந்த நிலையில் கண்டுபிடிக்கப்பட்டார்.",
-   "அவர் செப்டம்பர் பத்தாம் தேதி அந்த ஹோட்டலில் தங்கியிருந்தார், மறுநாள் மாலை உடல் மீட்கப்பட்டது.",
-   "இச்சம்பவத்தில் வேறு யாரும் ஈடுபடவில்லை என காவல் துறையினர் தெரிவித்துள்ளனர்.",
-   "மரணத்திற்கான காரணம் குறித்த முழுமையான தகவல்கள் இதுவரை வெளியிடப்படவில்லை.",
-   "மரணத்திற்கான உண்மையான காரணத்தை அறிய இறுதி மருத்துவ அறிக்கைக்காக காவல் துறை காத்திருக்கிறது."
-  ],
-  "closing": "இந்நிலையில், இச்சம்பவம் குறித்த விரிவான விசாரணை காவல் துறையால் தொடரப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": "2026-09-13"
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "ஏர் இந்தியா",
-   "டெல்லி",
-   "வசந்த் குஞ்ச்",
-   "காவல் துறை"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Air India Pilot Found Dead in Delhi Hotel Room",
-   "lines": [
-    "An Air India pilot was found dead in a hotel room in the Vasant Kunj area of Delhi.",
-    "The pilot had checked into the hotel on September 10 and the body was found the next evening.",
-    "Police stated that no other person was involved in the incident.",
-    "Complete details about the cause of death have not yet been released.",
-    "Police are awaiting the final medical report to determine the actual cause of death."
-   ],
-   "closing": "Meanwhile, a detailed investigation into the incident is being carried out by the police."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "9de71e2ab443",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-09-13T00:46+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/air-india-pilot-found-dead-in-delhi-hotel-police-rule-out-foul-play/article71461296.ece",
-   "https://www.thehindu.com/news/national/air-india-pilot-found-dead-in-delhi-hotel-police-rule-out-foul-play/article71461296.ece",
-   "https://www.ndtv.com/india-news/air-india-pilot-found-dead-in-5-star-hotel-in-delhis-vasant-kunj-12037869#publisher=newsstand"
-  ],
-  "image": null,
-  "audio": "data/audio/9de71e2ab443.mp3",
-  "created_ts": 1789240608.3226871,
   "status": "published"
  }
 ]
