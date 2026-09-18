@@ -143,8 +143,14 @@ def cluster(items, threshold=0.28):
             clusters.append({"topic_hint": it["topic_hint"], "tokens": t, "items": [it]})
     return clusters
 
-# உணர்வுபூர்வ/சட்டரீதியான துறைகள் — ஒரு மூலம் போதாது
-STRICT_TOPICS = {"crime", "court", "govt", "economy", "health"}
+# குற்றச்சாட்டு உள்ள செய்தி — இரு மூலம் கட்டாயம் (பிற துறைகளுக்கு நம்பகமான ஒரு ஊடகம் போதும்)
+STRICT_TOPICS = {"crime"}
+
+# நம்பகமான ஊடகங்கள் — ஒன்று போதும்
+TRUSTED = ("hindu", "dinamalar", "dinamani", "indian express", "times of india", "ndtv",
+           "pti", "ani", "business standard", "hindu tamil", "india today", "the print",
+           "livemint", "economic times", "deccan", "news18", "maalaimalar", "daily thanthi",
+           "vikatan", "puthiyathalaimurai", "polimer", "sun news", "bbc", "reuters", "afp")
 
 
 def eligible(c):
@@ -157,8 +163,10 @@ def eligible(c):
         return True, []
     if len(names) >= 2:
         return True, []
-    if c.get("topic_hint") in STRICT_TOPICS:
-        return False, ["single_source_strict"]      # ஒரே ஊடகம் — உறுதி இல்லை
+    one = next(iter(names), "").lower()
+    trusted = any(t in one for t in TRUSTED)
+    if c.get("topic_hint") in STRICT_TOPICS and not trusted:
+        return False, ["single_source_strict"]      # குற்றச் செய்தி + நம்பகமற்ற ஒரே மூலம்
     return True, ["single_source"]
 
 # ---------------------------------------------------------------- 3. write (Claude)
