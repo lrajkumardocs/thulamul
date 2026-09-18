@@ -26,7 +26,7 @@ MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
 MODEL_FAST = os.environ.get("CLAUDE_MODEL_FAST", "claude-haiku-4-5-20251001")
 BIG_TOPICS = {"tn", "india", "assembly", "court", "economy"}
 MAX_NEW_PER_RUN = int(os.environ.get("MAX_NEW_PER_RUN", "12"))    # ஒரு ஓட்டத்தில் அதிகபட்சம்
-MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "50"))
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "60"))
 MIN_SCORE = int(os.environ.get("MIN_SCORE", "6"))               # இதற்குக் குறைவானவை எழுதப்படாது
 TTS_VOICE = os.environ.get("TTS_VOICE", "ta-IN-PallaviNeural")   # Microsoft Edge இலவச தமிழ் குரல் (ஆண்: ta-IN-ValluvarNeural)
 AUTO_PUBLISH_MIN_CONFIDENCE = 0.3
@@ -1069,19 +1069,7 @@ def main():
         if str(x.get("published_at", ""))[:10] == today and x.get("status") == "published":
             todays_count[x.get("topic")] = todays_count.get(x.get("topic"), 0) + 1
     api_dead = False
-    # triage — 2 மணிக்கு ஒரு முறை (செலவுக் கட்டுப்பாடு); இடையில் சேமித்ததைப் பயன்படுத்து
-    _tri = load_json(DATA / "triage_cache.json", {})
-    _fresh = (time.time() - float(_tri.get("at", 0))) < 7200
-    if clusters and not _fresh:
-        scores = triage(client, clusters)
-        _keys = {c["items"][0]["title"][:60]: sc for sc, c in zip(
-            [scores.get(n, 5) for n in range(len(clusters))], clusters)}
-        save_json(DATA / "triage_cache.json", {"at": time.time(), "k": _keys})
-    else:
-        _k = _tri.get("k", {})
-        scores = {n: _k.get(c["items"][0]["title"][:60], 6) for n, c in enumerate(clusters)}
-        if clusters:
-            print(f"[triage] சேமித்த மதிப்பெண் ({len(_k)}) — புதிய அழைப்பு இல்லை")
+    scores = triage(client, clusters) if clusters else {}
     if scores:
         scored = [(scores.get(n, 5), n, c) for n, c in enumerate(clusters)]
         keep = [x for x in scored if x[0] >= MIN_SCORE]
@@ -1150,18 +1138,32 @@ def main():
         if not validate(story):
             print("[validate] தவறான வடிவம், தவிர்க்கப்பட்டது"); mark_seen(c); continue
         # உரைத் தரக் காவல் — 2 திருத்த முயற்சி; பிறகும் பிழை என்றால் வெளியிடாது
-        # உரை + உண்மை — ஒரே சோதனை, ஒரே திருத்த முயற்சி (செலவுக் கட்டுப்பாடு)
-        _src = " ".join((i.get("title", "") + " " + i.get("text", "")) for i in c["items"])
-        _errs = text_problems(story) + fact_problems(story, _src)
-        if _errs:
-            print(f"[தரம்] {'; '.join(_errs[:2])} → ஒரு திருத்தம்")
+        _errs = text_problems(story)
+        for _try in range(2):
+            if not _errs:
+                break
+            print(f"[தரம்] {'; '.join(_errs[:3])} → திருத்துகிறோம் ({_try+1})")
             try:
-                story = fix_text(client, story, _errs + ["மூல உரையில் உள்ள எண்களை மட்டும் பயன்படுத்து"])
-                _errs = text_problems(story) + fact_problems(story, _src)
+                story = fix_text(client, story, _errs)
             except Exception as ex:
-                print("[தரம்] திருத்தப் பிழை", str(ex)[:80])
+                print("[தரம்] திருத்தப் பிழை", str(ex)[:90]); break
+            _errs = text_problems(story)
         if _errs:
-            print("[தரம்] தோல்வி — வெளியிடப்படவில்லை:", "; ".join(_errs[:2]))
+            print("[தரம்] தோல்வி — வெளியிடப்படவில்லை:", "; ".join(_errs[:3]))
+            mark_seen(c); continue
+        # உண்மைச் சரிபார்ப்பு — மூலத்தில் இல்லாத எண் வந்தால் ஒரு திருத்தம், பிறகு நிராகரிப்பு
+        _src = " ".join((i.get("title", "") + " " + i.get("text", "")) for i in c["items"])
+        _f = fact_problems(story, _src)
+        if _f:
+            print("[உண்மை]", _f[0][:90], "→ திருத்துகிறோம்")
+            try:
+                story = fix_text(client, story, _f + ["மூல உரையில் உள்ள எண்களை மட்டும் பயன்படுத்து; "
+                                                     "உறுதியில்லாத எண்ணை நீக்கிவிடு"])
+                _f = fact_problems(story, _src)
+            except Exception:
+                pass
+        if _f:
+            print("[உண்மை] தோல்வி — வெளியிடப்படவில்லை:", _f[0][:90])
             mark_seen(c); continue
         mark_seen(c)
         written += 1
@@ -1357,15 +1359,11 @@ def main():
     try:
         if not api_dead:
             fixed = dropped = 0
-            _done = set(load_json(DATA / "repaired.json", []))
             for x in list(feed):
                 if str(x.get("published_at", ""))[:10] != today or x.get("status") != "published":
                     continue
-                if x.get("id") in _done:
-                    continue                      # ஒரு முறை மட்டும் — மீண்டும் செலவு இல்லை
-                if fixed + dropped >= 6:
+                if fixed + dropped >= 12:
                     break
-                _done.add(x.get("id"))
                 errs = text_problems(x)
                 if not errs:
                     continue
@@ -1379,7 +1377,6 @@ def main():
                 except Exception:
                     pass
                 feed.remove(x); dropped += 1
-            save_json(DATA / "repaired.json", list(_done)[-400:])
             if fixed or dropped:
                 print(f"[தரம்] பழையவை: {fixed} திருத்தம், {dropped} நீக்கம்")
     except Exception as ex:
