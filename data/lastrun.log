@@ -1,13 +1,13 @@
 [fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 10 புதியவை
-[fetch] Dinamani TN: 16 புதியவை
-[fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 3 புதியவை
-[fetch] Al Jazeera: 9 புதியவை
+[fetch] The Hindu TN: 6 புதியவை
+[fetch] Dinamani TN: 12 புதியவை
+[fetch] BBC Tamil: 6 புதியவை
+[fetch] BBC World: 4 புதியவை
+[fetch] Al Jazeera: 10 புதியவை
 [fetch] ESPNcricinfo: 17 புதியவை
-[fetch] The Hindu Sport: 21 புதியவை
+[fetch] The Hindu Sport: 16 புதியவை
 [fetch] The Hindu Cinema: 16 புதியவை
 [fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 13 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 15 புதியவை
+[fetch] The Hindu Legal: 13 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 18 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 15 புதியவை
+[fetch] The Hindu National: 13 புதியவை
 [fetch] NDTV India: 7 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,49 +56,22 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0950a792d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 15 புதியவை
-[fetch] Dinamani Govt: 16 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f97652ea8d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 13 புதியவை
+[fetch] Dinamani Govt: 12 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 509 → நிகழ்வுகள் 475
-[triage] 475 → 25 | காலி: jobs:2, cinema:2, sports:2, tn:1, india:1
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBfM5cx8ya7XLYESLvYX'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBfQcZPHkKXnb8LJ3emT'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; இடம், தேதி, ச
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBfXQoPqNQ7AvZpzgUSW'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான தகவல், எண்கள், அமை
-[எழுத்து] குடலூர்→கடலூர்
-[tts-edge] b3f552bec856: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இரண்டு பேரைக் கொன்ற புலி 29 நாட்களுக்குப் பின் பிடிபட்டது
-[tts-edge] 4bb82680120e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னை விமான நிலைய இயக்குநர் மாற்றம் கோரி பிரதமருக்கு தமிழ்நாடு கடிதம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBfitgzjrQQvxDjc9awv'}
-[skip] தமிழ்நாட்டுடன் நேரடித் தொடர்பு தெரியவில்லை. பர்வீன் என்ற விள
-[skip] இந்தியாவின் உள்நாட்டுக் கொள்கை மாற்றம் — EPFO சம்பள வரம்பு உ
-[தரம்] தமிழ் அல்லாத எழுத்து: যা → ஒரு திருத்தம்
-[publish] ஆசிய விளையாட்டு: இந்திய தொகுதி கொடி ஏற்ற விழாவில் குழப்பம்
-[எழுத்து] தேதி→தேனி
-[தரம்] தமிழ் அல்லாத எழுத்து: চ → ஒரு திருத்தம்
-[publish] ஆசிய விளையாட்டுக் கோப்பை 2026: இந்திய வீரர்களின் சாதனை நாட்கள்
-[தரம்] தமிழ் அல்லாத எழுத்து: তভযর়াী → ஒரு திருத்தம்
-[publish] உள்நாட்டுத் தீர்ப்பாளர்களுக்கு சம்பளம் உயர்வு
-[skip] வெளிநாட்டு ஒலிம்பிக் / ஆசிய விளையாட்டு நிகழ்வின் சடங்குரீதிய
-[publish] வேலூர், திருவண்ணாமலை உள்பட நான்கு ரெயில் நிலையங்களில் லிஃப்ட் பாலம்
-[எழுத்து] தேர்தல்→தோ்தல், சங்கங்களில்→சங்கங்களின்
-[publish] தமிழக கூட்டுறவு சங்கத் தோ்தல்: ஐந்து கட்டங்களாக பட்டியல் கோரிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBg1w4bRVsv5WrNPeagP'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[எழுத்து] நயினார்→நயினாா்
-[publish] நவோதயா பள்ளிகள் உத்தரவை உடனடியாக அமல்படுத்தக் கோரிக்கை
+[run] புதியவை 485 → நிகழ்வுகள் 453
+[triage] சேமித்த மதிப்பெண் (436) — புதிய அழைப்பு இல்லை
+[triage] 453 → 9 | காலி: jobs:2, cinema:2, india:1, world:1
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13973 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 2 · எழுதியவை 8
+[done] feed 300 · pending 2 · எழுதியவை 0
