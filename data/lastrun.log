@@ -1,11 +1,12 @@
-[fetch] RBI: 4 புதியவை
+[expire] 8d64f9838fd7
+[fetch] RBI: 5 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 12 புதியவை
-[fetch] BBC Tamil: 1 புதியவை
+[fetch] Dinamani TN: 13 புதியவை
+[fetch] BBC Tamil: 0 புதியவை
 [fetch] BBC World: 0 புதியவை
-[fetch] Al Jazeera: 4 புதியவை
+[fetch] Al Jazeera: 2 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 9 புதியவை
 [fetch] The Hindu Cinema: 12 புதியவை
@@ -16,7 +17,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 24 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 0 புதியவை
+[fetch] FreeJobAlert: 4 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +30,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 16 புதியவை
+[fetch] The Hindu Legal: 23 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 21 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 7 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 16 புதியவை
+[fetch] The Hindu National: 23 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +48,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 11 புதியவை
+[fetch] Sportstar: 12 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,9 +57,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3516f2ed10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 16 புதியவை
-[fetch] Dinamani Govt: 12 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe5241f5b10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 23 புதியவை
+[fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,11 +68,25 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 427 → நிகழ்வுகள் 402
+[run] புதியவை 453 → நிகழ்வுகள் 412
 [triage] சேமித்த மதிப்பெண் (371) — புதிய அழைப்பு இல்லை
-[triage] 402 → 39 (முக்கியம் + பக்க ஒதுக்கீடு)
-[tts-edge] d3c33de88cec: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அமெரிக்க தாக்குதல்கள் போர்க் குற்றமாக இருக்கலாம் என ஐநா நிபுணர்கள் தெரிவிப்பு
+[triage] 412 → 89 (முக்கியம் + பக்க ஒதுக்கீடு)
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Titan Company Share Price Live Updates: Titan Co
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: SBI Share Price Live Updates: SBI Trading Metric
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NTPC Share Price Live Updates: NTPC Trading Over
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Wipro Share Price Live Updates: Wipro's Stock De
+[skip] இது ரிசர்வ் வங்கியின் அன்றாட பணச் சந்தை தரவு அறிக்கை மட்டும்
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Elevate Campuses IPO price band set at Rs 343–36
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other Tata stocks tumble up
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: ETMarkets Management Talk | Nuclear, data centre
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Small and midcap trade at up to 50% premium, say
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: IndiGo shares rise 2% after India’s largest airl
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: BEL shares in focus as PSU receives orders worth
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Six factors, 250 stocks and one model: How JioBl
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: JK Cement among 4 stocks showing White Marubozu 
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Hero Motors IPO Day 3: GMP at 7%; Check subscrip
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sonaselection India IPO Day 2: GMP at 7%. Check 
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: HDFC Life Insurance Company among 4 stocks showi
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Veegaland Developers shares to list today; Check
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: BOJ raises interest rates to 31-year high in wid
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Axiom Gas Engineering IPO opens today: Check GMP
@@ -79,29 +94,45 @@
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Four SME IPOs set to list today on BSE: Check GM
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Last day to bid! Jindal Supreme IPO closes today
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Government seeks long-term funds to boost infras
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Positive Breakout: These 11 stocks cross above 2
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: SS Retail IPO Day 3: Subscription surpasses 6 ti
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Oil Price Today (September 18): Crude oil falls 
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Six companies debut on bourses; four deliver pre
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE IPO Day 2: GMP at 8%, subscription reaches 4
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sensex Today | Nifty 50 | Stock Market Live Upda
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Rupee down nearly 6% in 2026, further weakening 
-[skip] வெளிநாட்டு ব்যক్తিगත குறிப்பு — தமிழ்நாடு/இந்தியா/உலக அளவில்
-[skip] வெளிநாட்டு ராணுவ நடவடிக்கை — இத்தாலி மற்றும் பாப் அல்-மান்தெ
-[skip] கொலম্பியாவின் உள்நாட்டுக் குற்றவியல் நிகழ்வு — தமிழ்நாடு/இந்
-[skip] அமெரிக்க உள் அரசியல் — பாம் பீச்카운ட்டியின் முதலீட்டு முடிவு.
-[skip] வெளிநாட்டு தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்தியா தொடர்பற்ற
-[skip] WCPL என்பது ওয়েস্ট ইন்ডீজ ক্রিকেট লীগ — ক্যারিபিய தীপபுঞ்சத
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ED raids 7 locations in Jharkhand State Co-op ba
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: FDA suspends Café Mondegar licence over food-saf
+[skip] Japan-ன் உள்நாட்டு பொருளாதாரக் கொள்கை. தமிழ்நாடு/இந்தியாவுக்
+[skip] வெளிநாட்டுத் தயாரிப்பு (அமெரிக்க பনிரே நிறுவனம்) மற்றும் அமெ
+[skip] New Zealand women's cricket coach appointment — New Zealand'
+[skip] வெளிநாட்டு நிறுவனத்தின் பொருள் வெளியீடு அறிவிப்பு. தமிழ்நாடு
+[தரம்] தமிழ் அல்லாத எழுத்து: षপরী → ஒரு திருத்தம்
+[tts-edge] f01a9c3a301b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] UGC NET மீள்தேர்வு இறுதிப் பதில் விசை வெளியீடு
+[தரம்] தமிழ் அல்லாத எழுத்து: कपरषाी्র → ஒரு திருத்தம்
+[tts-edge] a79854b94e48: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்திய கடற்படை அக்னிவீர் தேர்வு முடிவு வெளியீடு
+[தரம்] தமிழ் அல்லாத எழுத்து: ईकखथधयरस → ஒரு திருத்தம்
+[publish] IOB LBO தேர்வுக்கான ஒப்புதல் பத்திரம் வெளியீடு
+[skip] மேற்கு வங்கத்தின் உள்ளூர் பொறியியல் கல்வி ஆலோசனை — தமிழ்நாட்
+[skip] Live match coverage — real-time sports updates aren't news a
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது. ஆஸ்திரேலியா தேசிய கால்பந்து
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: iPhone 18 Pro and iPhone 18 Pro Max go on sale i
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Homestay: Charting a smooth path for hosts & gue
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Four, including three juveniles, arrested for ra
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Voting for Delhi University Students' Union poll
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: 25 years on, Konaseema Railway Line project yet 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Union Cabinet approves ₹24,815 crore multi-track
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Ongole Municipal Corporation eyes World Record w
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Union Cabinet approves new railway lines at a co
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Supreme Court agrees to give ‘precedence’ in hea
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ED raids 7 locations in Jharkhand State Co-op ba
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: IIT grad, bank manager among 6 held for taking ₹
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: FDA suspends Café Mondegar licence over food-saf
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Four India-based companies bear the brunt of U.S
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: அமைச்சர் வன்னி அரசின் அறிக்கைக்கு பதிலளித்து விட
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: சட்டப்பேரவையில் நிறைவேற்றப்பட்ட 12 மசோதாக்களுக்க
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ‘டேப்ஸ்’ திட்டத்தில் இடைக்கால ஓய்வூதியம் குறைப்ப
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Top stocks to buy today: Stock market recommenda
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three persons arrested in migrant worker murder 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Stock Market Live Updates Today: Asian markets r
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘My heart still beats for the unhurried city tha
+[jobs] தொகுப்பு 4
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [image] 7 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13878 · சென்செக்ஸ் 74315
+[market] தங்கம் 22K ₹13893 · சென்செக்ஸ் 74496
 [weather] புதுப்பிக்கப்பட்டது
-[image] 7 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 1
+[push] 0 அறிவிப்புகள்
+[image] 8 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 3
