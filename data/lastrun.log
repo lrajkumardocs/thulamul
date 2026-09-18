@@ -3,14 +3,14 @@
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
 [fetch] Dinamani TN: 12 புதியவை
-[fetch] BBC Tamil: 0 புதியவை
+[fetch] BBC Tamil: 1 புதியவை
 [fetch] BBC World: 0 புதியவை
-[fetch] Al Jazeera: 1 புதியவை
+[fetch] Al Jazeera: 4 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 9 புதியவை
 [fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 24 புதியவை
-[fetch] The Hindu Tech: 13 புதியவை
+[fetch] The Hindu Tech: 14 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 15 புதியவை
+[fetch] The Hindu Legal: 16 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 21 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 7 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 15 புதியவை
+[fetch] The Hindu National: 16 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 16 புதியவை
+[fetch] Sportstar: 11 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3e6046b510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 15 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3516f2ed10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 16 புதியவை
 [fetch] Dinamani Govt: 12 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,13 +67,13 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 424 → நிகழ்வுகள் 400
+[run] புதியவை 427 → நிகழ்வுகள் 402
 [triage] சேமித்த மதிப்பெண் (371) — புதிய அழைப்பு இல்லை
-[triage] 400 → 34 (முக்கியம் + பக்க ஒதுக்கீடு)
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfAAP3aqxrq9KDypomeEZ'}
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Gujarat floods trigger thousands of crores in in
-[tts-edge] 170b25c25664: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இந்திய, ஆஸ்திரேலிய 19 வயதுக்குட்பட்டோர் ஒருநாள் தொடர் ராஜ்கோட்டில் தொடக்கம்
+[triage] 402 → 39 (முக்கியம் + பக்க ஒதுக்கீடு)
+[tts-edge] d3c33de88cec: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அமெரிக்க தாக்குதல்கள் போர்க் குற்றமாக இருக்கலாம் என ஐநா நிபுணர்கள் தெரிவிப்பு
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Veegaland Developers shares to list today; Check
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: BOJ raises interest rates to 31-year high in wid
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Axiom Gas Engineering IPO opens today: Check GMP
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Dividend alert! Last day to buy Bharat Dynamics,
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Four SME IPOs set to list today on BSE: Check GM
@@ -86,19 +86,22 @@
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE IPO Day 2: GMP at 8%, subscription reaches 4
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sensex Today | Nifty 50 | Stock Market Live Upda
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Rupee down nearly 6% in 2026, further weakening 
-[skip] வெளிநாட்டுக் கால்பந்து — தமிழ்நாடு அல்லது இந்திய வாசகரைப் பா
-[skip] சர্ச்சைமிக்க நபர்களின் தனிப்பட மোதல், தமிழ்நாடு/இந்தியா அளவு
-[skip] வெளிநாட்டு ক্লাব ফুটবল লিগ — தমিழ்நாடு/இंडिया সম्बन्ध नहीं। 
-[skip] இங்கிலாந்து மற்றும் இலங்கை இடையேயான T20 தொடர் — தமிழ்நாடு/இந
+[skip] வெளிநாட்டு ব்যক్తিगත குறிப்பு — தமிழ்நாடு/இந்தியா/உலக அளவில்
+[skip] வெளிநாட்டு ராணுவ நடவடிக்கை — இத்தாலி மற்றும் பாப் அல்-மান்தெ
+[skip] கொலম্பியாவின் உள்நாட்டுக் குற்றவியல் நிகழ்வு — தமிழ்நாடு/இந்
+[skip] அமெரிக்க உள் அரசியல் — பாம் பீச்카운ட்டியின் முதலீட்டு முடிவு.
+[skip] வெளிநாட்டு தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்தியா தொடர்பற்ற
+[skip] WCPL என்பது ওয়েস্ট ইন்ডீজ ক্রিকেট লীগ — ক্যারিபিய தীপபுঞ்சத
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ED raids 7 locations in Jharkhand State Co-op ba
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: FDA suspends Café Mondegar licence over food-saf
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: 25 years on, Konaseema Railway Line project yet 
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Four India-based companies bear the brunt of U.S
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: சட்டப்பேரவையில் நிறைவேற்றப்பட்ட 12 மசோதாக்களுக்க
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ‘டேப்ஸ்’ திட்டத்தில் இடைக்கால ஓய்வூதியம் குறைப்ப
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Top stocks to buy today: Stock market recommenda
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three persons arrested in migrant worker murder 
 [image] 7 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13895 · சென்செக்ஸ் 74315
+[market] தங்கம் 22K ₹13878 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [image] 7 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 1
