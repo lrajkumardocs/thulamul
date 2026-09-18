@@ -3,10 +3,10 @@
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
 [fetch] Dinamani TN: 10 புதியவை
-[fetch] BBC Tamil: 1 புதியவை
+[fetch] BBC Tamil: 0 புதியவை
 [fetch] BBC World: 0 புதியவை
-[fetch] Al Jazeera: 1 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] Al Jazeera: 2 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 9 புதியவை
 [fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 24 புதியவை
@@ -23,20 +23,20 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 8 புதியவை
+[fetch] The Hindu Legal: 12 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 21 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 7 புதியவை
-[fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 8 புதியவை
+[fetch] The Verge: 5 புதியவை
+[fetch] The Hindu National: 12 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f802ddaef90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 8 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f48b2bfca50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 13 புதியவை
 [fetch] Dinamani Govt: 10 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,16 +65,18 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 399 → நிகழ்வுகள் 384
+[run] புதியவை 413 → நிகழ்வுகள் 394
 [triage] சேமித்த மதிப்பெண் (363) — புதிய அழைப்பு இல்லை
-[triage] 384 → 40 (முக்கியம் + பக்க ஒதுக்கீடு)
+[triage] 394 → 59 (முக்கியம் + பக்க ஒதுக்கீடு)
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Dollar bonds to lose some lustre as US yields su
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Rupee down nearly 6% in 2026, further weakening 
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: US stocks rebound as oil prices fall and bond yi
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: RBI’s Rs 50,000 crore OMO sale gets bids worth R
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Global Market Today: Asian stocks, bonds gain as
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Stocks in news: Tata Group, Wipro, BEL, HAL, Pet
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Pre-market action: Here's the trade setup for to
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: D-St set for a cautious opening as GIFT Nifty si
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Rupee edges up on RBI support, softer oil prices
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Sebi to examine discount brokers’ concerns over 
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Tata stocks rise on listing hopes, Chandra's ext
@@ -85,23 +87,35 @@
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: RBI rate hike imminent? Fed's move pressures Ind
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Crude shock to hit oil companies' margins, but r
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
-[skip] தமிழ்நாடு/இந்திய வாசகருக்கு உடனடி செய்திக் கீழ்ச்சயமே இல்லை.
-[skip] தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்காத வெளிநாட்டு உள்ளூர் செய்த
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்கா அரசு நபர் நியமனம். 
+[skip] வெளிநாட்டு நீதிமன்றத் தீர்ப்பு — சிரியாவின் முன்னாள் அதிகாரி
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (Big Bash League, ஆஸ்திரேலியா) 
+[skip] இந்த செய்தி கிரிக்கெட் ஒப்பந்த / வணிக நடவடிக்கை பற்றியது. தம
 [மூலம்] ஒரே ஊடகம் (health) — வெளியிடப்படவில்லை: Why patient safety needs more than hospital chec
+[skip] வெளிநாட்டுத் தயாரிப்பு (Waymo, Google) சிங்கப்பூரில் செயல்பா
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Rajasthan order asking students to join PM Modi'
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Birthday wishes pour in for Modi as he turns 76
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: FDA chief Tukaram flags huge price gaps in medic
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: HAL airport becomes first in India to operationa
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Former Minister Ram Asrey Kushwaha joins Samajwa
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Why was Shahzad Bhatti Network designated as a t
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Bombay HC seeks Maharashtra govt. reply on Maleg
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: The new BJP team’s piecemeal reset
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Charting a smooth path for hosts & guests
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: A dream shattered: rehabilitation fails to solve
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: பேருந்து ஓட்டும்போது மாரடைப்பு: பாதுகாப்பாக நிறு
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: முதலீடு செய்தால் அதிக லாபம் எனக்கூறி இளைஞரிடம் ர
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: எழும்பூா் ரயில் நிலையத்தில் வைகை புறப்பாடு தாமதம
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: NSE IPO subscribed 43% on day 1
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Brookfield to invest up to $600mn in ACME's busi
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Tata Sons board gives Chandrasekaran 5 more year
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Chandra needs majority support from Tata Trusts'
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Tata group dispute: Panel sought 5-year term for
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Tata group shares rally on hopes of listing
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Tata Sons must stay unlisted, should engage with
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three persons arrested in migrant worker murder 
 [image] 7 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13931 · சென்செக்ஸ் 74315
+[market] தங்கம் 22K ₹13893 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
 [image] 7 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 0
