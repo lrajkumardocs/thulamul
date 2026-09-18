@@ -1,22 +1,22 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 10 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] The Hindu TN: 12 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 5 புதியவை
+[fetch] Al Jazeera: 12 புதியவை
+[fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 21 புதியவை
-[fetch] The Hindu Cinema: 18 புதியவை
+[fetch] The Hindu Cinema: 16 புதியவை
 [fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 13 புதியவை
-[fetch] Wired: 18 புதியவை
+[fetch] Wired: 16 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 25 புதியவை
+[fetch] The Hindu Health: 23 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 28 புதியவை
+[fetch] FreeJobAlert: 25 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 20 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 18 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 18 புதியவை
+[fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 20 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff67f4a3050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3318b7efd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 20 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,82 +67,45 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 633 → நிகழ்வுகள் 580
+[run] புதியவை 566 → நிகழ்வுகள் 524
 [triage] சேமித்த மதிப்பெண் (532) — புதிய அழைப்பு இல்லை
-[triage] 580 → 63 | காலி: tn:5, india:4, govt:4, cinema:3, sports:3
-[தரம்] தமிழ் அல்லாத எழுத்து: নস়া → ஒரு திருத்தம்
-[tts-edge] efccc8072c34: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பா. ரஞ்சித் புதிய படம் வெட்டுவம் இதழ் அறிக்கை
-[skip] இந்தியக் கிரிக்கெட் தலைவர் தேர்வு குறித்த அறிக்கையாகும். தமி
-[skip] வெளிநாட்டு நுகர்வோர் பণ்য விமர்சனம் — தமிழ்நாடு வாசகரের அவசர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBWCSBugFU7CeC3BK2mJ'}
-[skip] இது கொல்கத்தா நகரின் ஒரு குடியிருப்பில் நடக்கும் உள்ளூர் நீர
-[skip] இது மேற்கு வங்க மாநிலத்தின் உள்ளூர் கட்சி அரசியல் தகராறு தொட
-[skip] மூலஉரை Bitcoin, Ethereum, Solana ஆகிய கிரிப்டோ சொத்துகளின் வ
+[triage] 524 → 42 | காலி: india:3, govt:3, tn:2, jobs:2, cinema:2
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது ராஜஸ்தான் மாநிலத்தின் உள்ளூர் மருத்துவமனை சம்பவம். தேசிய
-[skip] தலைப்பு மட்டுமே கிடைத்துள்ளது, விவரமான உள்ளடக்கம் இல்லை. இதி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBWP9fJEKomjFvDqNwhp'}
-[skip] இது தெலங்காணா மாநிலத்தின் ஹைதராபாத் நகர உள்ளூர்ச் செய்தி, தம
-[எழுத்து] தேதி→தேனி
-[tts-edge] 9af48bf0d7dc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நேபாள நிதியமைச்சர் ஜெய்சங்கரை சந்தித்தார், பிரதமர் வருகைக்கு ஏற்பாடு
-[publish] பச்சையப்பன் அறக்கட்டளைக்கு தேர்தல் மூலம் புதிய நிர்வாகக் குழு
-[skip] இது டெல்லி பல்கலைக்கழக மாணவர் சங்கத் தேர்தல் பற்றிய உள்ளூர்ச
-[skip] கொல்கத்தா (மேற்கு வங்கம்) என்ற மற்றொரு மாநிலத்தின் உள்ளூர் ந
-[skip] இது ஒரு தனிப்பட்ட பங்குச் சந்தை பரிவர்த்தனை பற்றிய குறுகிய ந
-[skip] வெளிநாட்டு ஆயுத விற்பனை — தமிழ்நாடு/இந்திய வாசகரின் அன்றாட வ
-[publish] பச்சையப்பன் அறக்கட்டளைக்கு தேர்தல் மூலம் புதிய வாரியம்
-[skip] பশ්চिम בנגालের स्थानीय राजनीতिक विवाद है। तमिळनाडु पाठकांना 
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டுக் கொள்கை நிகழ்வு. 
-[skip] வெளிநாட்டு தொழில்நுட்பப் பরிசீலனம் — தமிழ்நாடு/இந்தியா தொடர்
+[skip] இது ஸ்பானிய நகரமான சேவுட்டாவில் நடந்த உள்ளூர் புலம்பெயர்வோர்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBXnTgX7d6H2o3q7Cyo6'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBXrDX6AdHUUm3QK1mZz'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] defence/aviation equipment handover — வற்றாய் தமிழ்நாடு வாசக
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBWhLvTspAGxh3MbWmyk'}
-[skip] உலக அளவில் முக்கியமானதாக இல்லை. அமெரிக்க உள்நாட்டு ஊடக மோதல்
+[skip] பிற மாநილத்தின் உள்ளூர் அரசியல் — கருப்பு எம். முருகானந்தம் 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBXxnbLXtQbu4FbCdPp7'}
+[skip] வெளிநாட்டு தொழில்நுட்பக் கம்பனிகளின் உள்நாட்டு வணிক மர்மமே ப
+[tts-edge] b86556ae40e5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எதிர்க்கட்சிகள் மீது கிரண் ரிஜிஜு 'கோபமான மாமாக்கள்' எனக் குற்றச்சாட்டு
+[எழுத்து] கட்டுப்படுத்த→கட்டுபட்டுத்த
+[tts-edge] 7966ba7d195f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] டெங்கு பரவலை கட்டுபட்டுத்த தமிழ்நாடு அரசு நடவடிக்கை எடுக்க வேண்டும்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBY5G7y3Fis7aD7zVej7'}
+[எழுத்து] சொல்→சேலம்
+[publish] ஜேஎல்எல் அறிக்கை: உலக ரியல் எஸ்டேட் வெளிப்படைத்தன்மையில் இந்தியா 26வது இடம்
+[skip] இது RSS தலைவரின் ஒரு நிகழ்வுப் பேச்சு பற்றிய மிகக் குறுகிய, 
+[publish] விழித்திரை காப்போம் திட்டம் தொடக்கம்
+[எழுத்து] நிர்வாகி→நிா்வாகி, புகார்→புகாா்
+[hold] பெண் நிா்வாகி புகாா்: பாஜகவிலிருந்து முருகானந்தம் நீக்கம்
+[skip] இது தில்லியில் நடந்த உள்ளூர் குற்றச் சம்பவம்; தமிழ்நாட்டுடன்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] பிற மாநிலத்தின் உள்ளூர் சுகாதாரப் பிரச்சினை — தமிழ்நாட்டுக்க
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBWqBcbQ51sYdNna2SMr'}
-[skip] Kennedy Center என்பது அமெரிக்க கலாசாலம்; தமிழ்நாடு/இந்திய வா
-[எழுத்து] மனுவை→மதுரை
-[publish] வருமான வரி ஏய்ப்பு வழக்கு மதுரை திரும்பப் பெற்ற நடிகர் சூர்யா
-[skip] வெளிநாட்டு (கர্நாடக) உள்நாட்டு ராணுவ/போலீஸ் நிয়োजन — தமிழ்ந
-[எழுத்து] வட்டி→வன்னி
-[publish] மத்திய கிழக்கு பதற்றம், கடன் வன்னி உயர்வால் உலக பொருளாதாரத்தில் பணவீக்க அச்சம்
-[எழுத்து] தேதி→தேனி
-[publish] காலை உணவுத் திட்ட விரிவாக்கம்: செப்டம்பர் 22இல் முதல்வர் தொடக்கம்
-[skip] வெளிநாட்டு (தெலங்கானா) அரசின் உள்ளூர் நிகழ்வு. தமிழ்நாட்டுக்
-[skip] வெளிநாட்டு பொருளாதார நीति — தமிழ்நாடு வாசகரைக் கொடுங்கூறாக ப
-[publish] தமிழ்நாட்டில் முதற்கட்டமாக 7,405 கூட்டுறவுச் சங்கங்களுக்கு தேர்தல்
-[skip] நேपال அரசாங்கத்தின் வெளிநாட்டு நிষ்பத்தி சம்பந்தமான செய்தி. 
-[skip] பிற நாடுகளின் ஆயுத வாங்கல் — தமிழ்நாடு/இந்திய வாசகருக்குப் ந
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBX8yUMKL8FMbcUW2to1'}
-[skip] செய்திப் பொருளைப் புரிந்துகொள்ள போதுமான தமிழ் விளக்கம் இல்லை
-[skip] வெளிநாட்டு திரைப்படத் தயாரிப்பாளரின் அரசியல் சர்ச்சை — தமிழ்
-[skip] தலைப்பு 'govt' என்று குறிப்பிடப்பட்டாலும், இது டெல்லி பல்கலை
-[skip] வெளிநாட்டு உள்ளூர் கலையியல் நிகழ்வு — தமிழ்நாடு அல்லது இந்தி
-[publish] முன்னாள் அமைச்சர் அன்பில் மகேஸை விசாரணைக்கு உட்படுத்தினர்
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — தமிழ்நாடு அல்லது இந்தியாவுக்க
-[skip] வெளிநாட்டுப் போர்ப் பகுதியின் உள்நாட்டு ராணுவ நடவடிக்கை — தம
-[skip] வெளிநாட்டு ক্রিকেটரின் ব্যক্তিগত சমস্যা — তামিলনাড়ু/ভারতীয়
-[skip] அமெரிக்க ராணுவத்தின் உள் சுகாதார கொள்கை — தமிழ்நாடு / இந்திய
-[skip] வெளிநாட்டு அரசியல் — மெக்சிகோவும் அமெரிக்காவும் இடையிலான வர்
-[skip] உலக அளவில் முக்கியமானது என்றாலும் தமிழ்நாடு/இந்திய வாசகர்களு
-[skip] வெளிநாட்டு உள்நாட்டு அன்று நிகழ்வு — தமிழ்நாடு/இந்திய வாசகரை
-[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருந்தாத அமெரிக்க உள்நாட்டு
-[skip] Swedes மாநிலத்துடன் தமிழ்நாட்டுக்குக் கோல/நேரடி சம்பந்தம் இல
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — இரான்-அமெரிக்கா மோதல், தெருவெ
-[skip] இது உத்தரப்பிரதேச மாநில அரசு (UPSSSC) வேலைவாய்ப்புத் தேர்வு 
-[skip] தெலங்கானா அரசுத் துறையின் வேலைவாய்ப்பு — தமிழ்நாட்டு வாசகர்க
-[skip] வெளிநாட்டுச் சுகாதாரக் கொள்கை — தமிழ்நாடு/இந்திய வாசகரைப் பா
-[skip] வெளிநாட்டுத் திரைப்படங்கள் மற்றும் அவற்றின் ஆஸ்கார் தேர்வு —
-[skip] இங்கிலாந்து county cricket — தமிழ்நாடு/இந்தியாவுடன் தொடர்பு 
-[தரம்] தமிழ் அல்லாத எழுத்து: মা → ஒரு திருத்தம்
-[publish] காற்று மாசு தற்கொலை சிந்தனை பெருக்குவதாக ஆய்வு
-[filler] tech கட்டுரை
-[filler] sports கட்டுரை
-[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13976 · சென்செக்ஸ் 74295
+[skip] இது மேற்கு வங்க மாநிலத்தின் உள்ளூர் கட்சி சின்ன தகராறு தொடர்
+[தரம்] தமிழ் அல்லாத எழுத்து: ম → ஒரு திருத்தம்
+[publish] கள்ளச்சாராயம் விஷம் சாப்பிட்டு இறப்பவர்களைக் கட்டுப்படுத்த உச்சநீதிமன்றம் வழிகாட்டுதல்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, திட்டம் பற்றிய விவரங்கள் (
+[skip] பஞ்சாப் மாநில அரசின் அறிவிப்பு - தமிழ்நாட்டுடன் நேரடித் தொடர
+[எழுத்து] வேண்டும்→வேண்டாம்
+[publish] நவோதயா பள்ளிகள் நிறுவனத்தைத் திறக்க வேண்டாம்: உதயநிதி
+[skip] இது மத்தியப் பிரதேசத்தின் இந்தூர் நகரில் நடைபெறும் காங்கிரஸ்
+[எழுத்து] இடைத்தேர்தலில்→இடைத்தோ்தலில்
+[தரம்] தமிழ் அல்லாத எழுத்து: క → ஒரு திருத்தம்
+[publish] இடைத்தேர்தலில் பாமக எந்தக் கட்சிக்கும் ஆதரவளிக்காது
+[publish] கள்ளச்சாராய மரணங்கள் தடுக்க மாநிலங்களுக்கு உச்சநீதிமன்றம் பரிந்துரை
+[publish] ஒருங்கிணைந்த விமானத் துறை அமைப்பு வேண்டும் என ராஜ்நாத் சிங் கோரிக்கை
+[market] தங்கம் 22K ₹13988 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 10

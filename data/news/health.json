@@ -1,5 +1,69 @@
 [
  {
+  "headline": "டெங்கு பரவலை கட்டுபட்டுத்த தமிழ்நாடு அரசு நடவடிக்கை எடுக்க வேண்டும்",
+  "lines": [
+   "தமிழ்நாடு முழுவதும் டெங்கு காய்ச்சல் பாதிப்பு அதிகரித்து வருவதாக சீமான் தெரிவித்துள்ளார்.",
+   "நோய் தடுப்பு நடவடிக்கையை விரைவில் செயல்படுத்த வேண்டும் என்று அவர் கூறினார்.",
+   "சுகாதாரத் துறை உறுதிபூர்வக் நடவடிக்கை மேற்கொள்ள வேண்டும் என்பது அவரது வலியுறுத்தல்.",
+   "மக்கள் தங்கள் சுற்றுச்சூழல்களை சுத்தமாக வைத்துக்கொள்ள வேண்டும் என்றும் அவர் அறிவுறுத்தினார்.",
+   "தமிழ்நாட்டில் டெங்கு பாதிப்பு தொடர்ந்து கண்காணிக்கப்பட வேண்டும் என்பது மாவட்ட அரசுகளின் கடமை."
+  ],
+  "closing": "டெங்கு பரவல் தொடர்பாக மக்களுக்கு விழிப்புணர்வு ஏற்படுத்துவது அவசியமாகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Govt",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "தமிழ்நாடு",
+   "டெங்கு காய்ச்சல்",
+   "சீமான்",
+   "சுகாதாரத் துறை"
+  ],
+  "confidence": 0.65,
+  "front_cat": "health_emergency",
+  "image_query": "dengue fever awareness india",
+  "wiki_subject": "Dengue_fever",
+  "person_en": "Seeman",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "en": {
+   "headline": "Tamil Nadu must control dengue fever spread urgently",
+   "lines": [
+    "Seeman has stated that dengue fever cases are rising across Tamil Nadu.",
+    "He urged the government to implement disease prevention measures quickly.",
+    "The health department must take decisive action to combat the spread.",
+    "He also advised people to maintain cleanliness in their surroundings.",
+    "District administrations must continue monitoring dengue cases regularly."
+   ],
+   "closing": "Public awareness about dengue transmission has become essential now."
+  },
+  "flags": [
+   "single_source"
+  ],
+  "skip": false,
+  "id": "7966ba7d195f",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-09-19T01:58+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/18/spread-of-dengue-fever-must-be-controlled-seeman"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Denguerash.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Dengue fever",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Dengue_fever",
+   "symbolic": false
+  },
+  "audio": "data/audio/7966ba7d195f.mp3",
+  "created_ts": 1789763296.6715155,
+  "status": "published"
+ },
+ {
   "headline": "காற்று மாசு தற்கொலை சிந்தனை பெருக்குவதாக ஆய்வு",
   "lines": [
    "காற்று மாசுபட்ட பகுதிகளில் வாழும் மக்களுக்கு தற்கொலை சிந்தனை அதிகமாக ஏற்படுவதாக ஆய்வாளர்கள் கண்டறிந்துள்ளனர்.",
@@ -723,130 +787,5 @@
   "published_at": "2026-09-14T00:22+05:30",
   "created_ts": 1789325555.439095,
   "audio": "data/audio/art_health_20260914.mp3"
- },
- {
-  "headline": "பாலாகாத் பழங்குடி குழந்தைகள் மரணம்: உயர் நீதிமன்ற நோட்டீசுக்குப் பின் தீப்கே விசாரணை",
-  "lines": [
-   "மத்தியப் பிரதேசத்தின் பாலாகாத் மாவட்டத்தில் பழங்குடி குழந்தைகள் பலர் உயிரிழந்த பின்னணியில், தீப்கே என்பவர் பாதிக்கப்பட்ட குடும்பங்களைச் சந்தித்தார்.",
-   "கடந்த சில நாட்களில் முப்பதுக்கும் மேற்பட்ட குழந்தைகள் இறந்ததாகத் தகவல்கள் தெரிவிக்கின்றன.",
-   "இந்த மரணங்கள் தொடர்பாக மத்தியப் பிரதேச உயர் நீதிமன்றம் மாநில அரசுக்கு நோட்டீஸ் அனுப்பியுள்ளது.",
-   "தொற்று நோய்கள் காரணமாகவே இந்த மரணங்கள் நிகழ்ந்ததாகக் கூறப்படுகிறது.",
-   "இந்த வழக்கு தொடர்பாக நீதிமன்றத்தில் அடுத்த கட்ட விசாரணை நடைபெறவுள்ளது."
-  ],
-  "closing": "மத்தியப் பிரதேச உயர் நீதிமன்றம் இந்த மரணங்கள் தொடர்பாக மாநில அரசிடம் விளக்கம் கேட்டுள்ள நிலையில், அடுத்த விசாரணையில் என்ன தகவல் வெளியாகும் என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "மத்தியப் பிரதேசம்",
-   "பாலாகாத்",
-   "உயர் நீதிமன்றம்",
-   "பழங்குடி குழந்தைகள்",
-   "தீப்கே"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "After M.P. High Court notice, Dipke visits families of tribal children who died",
-   "lines": [
-    "Following the deaths of several tribal children in Balaghat district of Madhya Pradesh, Mr. Dipke visited the affected families.",
-    "Reports indicate that more than thirty children have died in recent days.",
-    "The Madhya Pradesh High Court has issued notices to the State government over these deaths.",
-    "The deaths are allegedly linked to infectious diseases.",
-    "The next hearing on the matter is expected to take place in the High Court."
-   ],
-   "closing": "With the Madhya Pradesh High Court seeking an explanation from the State government over these deaths, attention now turns to what emerges in the next hearing."
-  },
-  "front_cat": "health_emergency",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "c83cefd936c5",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-09-13T02:12+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/madhya-pradesh/balaghat-child-deaths-cjp-convernor-dipke-visits-tribal-villages-demands-accountability/article71459426.ece",
-   "https://www.thehindu.com/news/national/madhya-pradesh/balaghat-child-deaths-cjp-convernor-dipke-visits-tribal-villages-demands-accountability/article71459426.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/c83cefd936c5.mp3",
-  "created_ts": 1789245776.6147296,
-  "status": "published"
- },
- {
-  "headline": "உணவுப் பொருட்களுக்கு எச்சரிக்கை ப்ளேபெல் விதிக்க தடை நீதிமன்றம் கால அளவு கேட்டுள்ளது",
-  "lines": [
-   "உணவு பாதுகாப்பு மற்றும் தர நிர்ணய ஆணையத்திடம் (FSSAI) உச்ச நீதிமன்றம் ஆரோக்கியமற்ற உணவுப் பொருட்களுக்கு எச்சரிக்கை ப்ளேபெல் விதிக்க தெளிவான கால அளவு வழங்க வேண்டுமென்று வலியுறுத்தியுள்ளது.",
-   "நீதிமன்றம் சிறுவர்களை உதாரணமாக வைத்து, அவர்கள் பெரிதும் பாதுக்காப்பற்றவர்கள் என்றும் தாங்களாக முடிவெடுக்க முடியாது என்றும் குறிப்பிட்டுள்ளது.",
-   "மத்திய அரசை நோக்கி நீதிமன்றம், பள்ளிப் பாடத்திட்டத்தில் ஆரோக்கிய உணவு பற்றிய கல்வியைக் கட்டாயம் சேர்த்துக் கொள்ள அறிவுறுத்தியுள்ளது.",
-   "ஏற்கனவே பல நாடுகளில் உணவுப் பொருட்களில் எச்சரிக்கை ப்ளேபெல் கட்டாயமாக்கப்பட்டுள்ளது என்பது நீதிமன்றத்தின் கவனத்தில் உள்ளது.",
-   "FSSAI இந்த விதிமுறைகளை எவ்வளவு விரைவில் நடைமுறைப்படுத்தப் போகிறது என்பது இப்போது முக்கியமாக பார்க்கப்பட்டு வருகிறது."
-  ],
-  "closing": "ஆரோக்கியமற்ற உணவுப் பொருட்களிலிருந்து சிறுவர்களைக் காப்பாற்ற நீதிமன்றம் எடுக்கும் முயற்சிகள் வெகு சீக்கிரம் வலிமையாக நடைமுறைப்பட வேண்டும் என்பது பொதுமக்களின் எதிர்பார்ப்பு.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "உச்ச நீதிமன்றம்",
-   "FSSAI",
-   "மத்திய அரசு",
-   "பள்ளிக் கல்வி"
-  ],
-  "confidence": 0.85,
-  "en": {
-   "headline": "Supreme Court demands timeline for food warning labels, pushes nutritional education in schools",
-   "lines": [
-    "The Supreme Court has directed the Food Safety and Standards Authority of India (FSSAI) to provide a clear timeline for implementing warning labels on unhealthy food products.",
-    "The court emphasized that children are particularly vulnerable and cannot make informed dietary choices on their own.",
-    "The court instructed the central government to make nutritional literacy a mandatory part of school curricula.",
-    "Several countries have already made food warning labels compulsory on packaged products, the court noted.",
-    "The implementation speed of these regulations by FSSAI is now a key area of focus."
-   ],
-   "closing": "Public expectations are high that the court's efforts to protect children from unhealthy foods will be implemented swiftly and effectively."
-  },
-  "front_cat": "health_emergency",
-  "image_query": "nutrition education children schools",
-  "person_en": "",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "3e68bbd517f2",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-09-13T01:43+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/sc-seeks-clear-timeline-for-fssais-food-warning-label-rollout-calls-for-nutritional-literacy-in-schools/article71455653.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/LAMAT_25-_Connecting_cultures_through_nutrition_education%2C_health_awareness_%288978249%29.jpg/1280px-LAMAT_25-_Connecting_cultures_through_nutrition_education%2C_health_awareness_%288978249%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா Commons · U.S. Air Force photo by Maj. Stephani Sc",
-   "license": "Public domain",
-   "symbolic": true
-  },
-  "audio": "data/audio/3e68bbd517f2.mp3",
-  "created_ts": 1789243999.6997793,
-  "status": "published"
  }
 ]

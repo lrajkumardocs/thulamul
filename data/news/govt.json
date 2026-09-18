@@ -1,5 +1,129 @@
 [
  {
+  "headline": "நவோதயா பள்ளிகள் நிறுவனத்தைத் திறக்க வேண்டாம்: உதயநிதி",
+  "lines": [
+   "நவோதயா பள்ளிகள் நிறுவனத்தை தமிழ்நாட்டில் திறக்க வேண்டாம் என்று தமிழ்நாடு அரசு கூறியுள்ளது.",
+   "உதயநிதி ஸ்டாலின் இந்த கருத்தை தெரிவித்துள்ளார்.",
+   "தமிழ்நாட்டில் ஏற்கனவே உள்ள பள்ளிகளைப் போதிய நிதி வழங்கி மேம்படுத்த வேண்டாம் என்பது அரசின் நிலைப்பாடு.",
+   "நவோதயா பள்ளிகள் மற்ற மாநிலங்களில் செயல்பட்டு வருகின்றன.",
+   "இந்த விவகாரம் குறித்து மேலும் வெளிப்பாடுகள் வரக்கூடும்."
+  ],
+  "closing": "தமிழ்நாட்டின் கல்வி அமைப்பை வலுப்படுத்துவதில் அரசு கவனம் செலுத்துவதாக தெரிவிக்கப்பட்டுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "உதயநிதி ஸ்டாலின்",
+   "தமிழ்நாடு அரசு",
+   "நவோதயா பள்ளிகள்"
+  ],
+  "confidence": 0.45,
+  "front_cat": "routine",
+  "image_query": "\"\"",
+  "wiki_subject": "Navodaya Vidyalaya",
+  "person_en": "Udhayanidhi Stalin",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "en": {
+   "headline": "Navodaya schools should not open in Tamil Nadu: Udhayanidhi",
+   "lines": [
+    "Tamil Nadu government has stated that Navodaya schools should not be opened in the state.",
+    "Udhayanidhi Stalin has expressed this view.",
+    "The government's stance is to strengthen existing schools with adequate funding.",
+    "Navodaya schools are operating in other states.",
+    "Further statements on this matter may emerge."
+   ],
+   "closing": "The government is reported to be focusing on strengthening Tamil Nadu's education system."
+  },
+  "id": "cecd567f64de",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-19T02:02+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/18/we-will-stop-the-navodaya-schools-that-force-the-three-language-policy-udhayanidhi"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/8/82/Jawahar_Navodaya_Vidyalaya_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Jawahar Navodaya Vidyalaya",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Jawahar_Navodaya_Vidyalaya",
+   "symbolic": false
+  },
+  "audio": "data/audio/cecd567f64de.mp3",
+  "created_ts": 1789763573.215781,
+  "status": "published"
+ },
+ {
+  "headline": "விழித்திரை காப்போம் திட்டம் தொடக்கம்",
+  "lines": [
+   "தமிழ்நாடு அரசு 'விழித்திரை காப்போம்' திட்டம் தொடங்கியுள்ளது.",
+   "இத்திட்டம் விழித்திரை நோய் இருந்தோருக்கு சிகிச்சை வழங்க முன்வருகிறது.",
+   "அரசு மருத்துவ வள்ளல் நிறுவனங்கள் மூலம் இந்தச் சேவை பெற்றுக்கொள்ளலாம்.",
+   "விழித்திரை நோயாளிகள் இ-பொலிஸ் மூலம் சிகிச்சைக்கு பதிவு செய்யலாம்.",
+   "மேலும் விவரங்களுக்கு சுகாதார துறை அறிவிப்பைக் கவனிக்கவும்."
+  ],
+  "closing": "விழித்திரை நோய் உலகளவில் குருடுகளின் முக்கிய காரணாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Govt",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "விழித்திரை காப்போம் திட்டம்",
+   "சுகாதார துறை"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Tamil Nadu launches 'Vizhithuray Kaappom' scheme",
+   "lines": [
+    "The Tamil Nadu government has launched the 'Vizhithuray Kaappom' scheme.",
+    "This scheme provides treatment for people with retinal diseases.",
+    "Beneficiaries can access services through government medical institutions.",
+    "Eligible patients can register through e-Police for treatment.",
+    "Check health department announcements for more details."
+   ],
+   "closing": "Retinal disease is a leading cause of blindness globally."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "",
+  "wiki_subject": "Retinal disease",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7ea45ab06ba9",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-19T02:00+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/18/save-the-retina-initiative-launched"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Human_eye_cross-sectional_view_grayscale.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Retina",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Retina",
+   "symbolic": false
+  },
+  "audio": "data/audio/7ea45ab06ba9.mp3",
+  "created_ts": 1789763404.0961542,
+  "status": "published"
+ },
+ {
   "headline": "காலை உணவுத் திட்ட விரிவாக்கம்: செப்டம்பர் 22இல் முதல்வர் தொடக்கம்",
   "lines": [
    "தமிழ்நாட்டு முதல்வர் விஜய், பேரூர்த்தலைவர் காமராசர் காலை உணவுத் திட்டத்தை விரிவாக்கம் செய்யும் பணிகளை ஆய்வு செய்தார்.",
@@ -1179,66 +1303,6 @@
   },
   "audio": "data/audio/d2a8680fe739.mp3",
   "created_ts": 1789272577.3944435,
-  "status": "published"
- },
- {
-  "headline": "BRICS மாநாட்டு விருந்தில் இந்திய உணவு பரிமாறப்பட்டது",
-  "lines": [
-   "பிரதமர் நரேந்திர மோடி சனிக்கிழமை பாரத மண்டபத்தில் BRICS மாநாட்டுக்கான விருந்து ஏற்பாடு செய்தார்.",
-   "விருந்தின் மெனுவில் கேழ்வரகு பிரியாணி, பனீர் லபாபிதார், சாஹ்டூட் பிர்நி உள்ளிட்ட இந்திய உணவுகள் இடம்பெற்றுள்ளன.",
-   "இந்திய பாரம்பரிய உணவுகளைப் பரிசய செய்வதே இந்த மெனু அமைப்பின் நோக்கம் என அதிகாரிகள் கூறினர்.",
-   "BRICS நாடுகளுக்குத் தலைவர்கள் மற்றும் பிரதிநிதிகள் இந்த விருந்துக்கு வந்திருந்தனர்.",
-   "மாநாட்டுக்கு வரும் பிரதিநிதிகளுக்கு இந்திய பண்பாட்டைத் தெரிയப்படுத்துவதே இந்த நிகழ்வின் முக்கியத்துவம்."
-  ],
-  "closing": "BRICS மாநாட்டு விருந்தின் மெனু இந்திய உணவு வகைகளின் வரணத்தை உலக தலைவர்களுக்குக் கொண்டுசென்றது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": "2026-09-13"
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "நரேந்திர மோடி",
-   "பாரத மண்டபம்",
-   "BRICS மாநாடு"
-  ],
-  "confidence": 0.85,
-  "en": {
-   "headline": "Indian cuisine served at BRICS Summit gala dinner",
-   "lines": [
-    "Prime Minister Narendra Modi hosted a BRICS Summit gala dinner at Bharat Mandapam on Saturday.",
-    "The menu featured Indian dishes including millet pulao, paneer lababdar, and shahtoot phirni.",
-    "Officials said the menu was designed to showcase Indian traditional cuisine.",
-    "Leaders and representatives from BRICS nations attended the dinner.",
-    "The event aimed to introduce Indian culture to world leaders attending the summit."
-   ],
-   "closing": "The BRICS Summit gala dinner menu presented the range of Indian cuisine to global leaders."
-  },
-  "front_cat": "routine",
-  "image_query": "BRICS summit India gala dinner",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "3c27e7543a96",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-13T01:42+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/brics-summit-gala-dinner-menu/article71461293.ece"
-  ],
-  "image": {
-   "url": "https://images.pexels.com/photos/16935968/pexels-photo-16935968.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-   "credit": "Matheus Bertelli · Pexels",
-   "license": "Pexels — இலவசம்",
-   "symbolic": true
-  },
-  "audio": "data/audio/3c27e7543a96.mp3",
-  "created_ts": 1789243958.559535,
   "status": "published"
  }
 ]
