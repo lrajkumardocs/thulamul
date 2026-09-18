@@ -56,5 +56,68 @@
   "audio": "data/audio/634712788460.mp3",
   "created_ts": 1789763451.657273,
   "status": "pending"
+ },
+ {
+  "headline": "இறுதி ஏல அமர்வில் குழப்பம், சென்செக்ஸ் சரிவு, நிஃப்டி 23,300க்கு மேல்",
+  "lines": [
+   "இந்திய பங்குச் சந்தையில் இறுதி ஏல அமர்வின் போது பெரும் ஏற்ற இறக்கம் ஏற்பட்டது.",
+   "சென்செக்ஸ் குறியீட்டு விலை சில வினாடிகளில் சுமார் ஆயிரம் புள்ளிகள் சரிந்தது, இறுதியில் நஷ்டத்துடன் முடிவடைந்தது.",
+   "அதே நேரத்தில் நிஃப்டி குறியீடு 23,300 புள்ளிகளுக்கு மேல் ஏறி லாபத்துடன் முடிவடைந்தது.",
+   "சிறு மற்றும் நடுத்தர அளவிலான பங்குகளின் குறியீடுகள் முதன்மை குறியீடுகளை விட சிறப்பாகச் செயல்பட்டதாகத் தெரிவிக்கப்படுகிறது.",
+   "கச்சா எண்ணெய் விலை குறைவும், உலகளாவிய வன்னி விகித அழுத்தம் தளர்ந்ததும் முதலீட்டாளர் நம்பிக்கையை மேம்படுத்தியதாகக் கூறப்படுகிறது."
+  ],
+  "closing": "இறுதி ஏல அமர்வு எனப்படுவது சந்தை முடிவு நேர விலையை நிர்ணயிக்கும் நடைமுறையாகும், இதனால் சில நேரங்களில் திடீர் விலை மாற்றங்கள் ஏற்படுகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "சென்செக்ஸ்",
+   "நிஃப்டி",
+   "இந்திய பங்குச் சந்தை",
+   "இறுதி ஏல அமர்வு"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "CAS chaos: Sensex falls, Nifty closes above 23,300 points",
+   "lines": [
+    "Indian stock markets saw sharp swings during the closing auction session.",
+    "Sensex indicative price tumbled nearly 1,000 points in seconds and ended the day in the red.",
+    "Meanwhile, the Nifty closed higher, ending above 23,300 points.",
+    "Broader markets, including smallcap and midcap indices, reportedly outperformed the benchmark indices.",
+    "Easing crude oil prices and softer global bond yields are said to have improved investor sentiment."
+   ],
+   "closing": "The closing auction session is the mechanism used to determine a stock's official closing price, which can sometimes cause sudden price swings."
+  },
+  "front_cat": "routine",
+  "image_query": "Indian stock market Sensex Nifty",
+  "wiki_subject": "NSE Nifty 50",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "numbers_conflict",
+   "single_source"
+  ],
+  "id": "e7b8a44a3c25",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-09-19T02:54+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/cas-chaos-continues-sensex-indicative-price-tumbles-nearly-1000-points-closes-in-red-but-nifty-ends-above-23300/articleshow/134332368.cms"
+  ],
+  "image": {
+   "url": "https://images.pexels.com/photos/28682348/pexels-photo-28682348.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+   "credit": "StockRadars Co., · Pexels",
+   "license": "Pexels — இலவசம்",
+   "symbolic": true
+  },
+  "audio": "data/audio/e7b8a44a3c25.mp3",
+  "created_ts": 1789766702.7529905,
+  "status": "pending"
  }
 ]
