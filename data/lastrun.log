@@ -3,12 +3,12 @@
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
 [fetch] Dinamani TN: 21 புதியவை
-[fetch] BBC Tamil: 1 புதியவை
+[fetch] BBC Tamil: 0 புதியவை
 [fetch] BBC World: 0 புதியவை
-[fetch] Al Jazeera: 2 புதியவை
+[fetch] Al Jazeera: 5 புதியவை
 [fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 9 புதியவை
-[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 14 புதியவை
 [fetch] Wired: 16 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 11 புதியவை
+[fetch] Sportstar: 12 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa030db6590>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fcb728d91d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 24 புதியவை
 [fetch] Dinamani Govt: 21 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,18 +65,45 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 20 புதியவை
+[fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 512 → நிகழ்வுகள் 465
-[triage] 465 → 19 (முக்கியம் + பக்க ஒதுக்கீடு)
-[skip] தமிழ்நாட்டுப் சிறுவனின் தனிப்பட்ட சம்பவம் — கைது, விசாரணை, க
+[run] புதியவை 515 → நிகழ்வுகள் 467
+[triage] சேமித்த மதிப்பெண் (419) — புதிய அழைப்பு இல்லை
+[triage] 467 → 52 (முக்கியம் + பக்க ஒதுக்கீடு)
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: US Market: SEC unveils five-year exemption for t
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Can Fayuvi FDA approval lift RARE stock further?
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: MCX traders complain of commodity position price
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Why CoreWeave is raising $3 billion; stock falls
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Kore Digital shares crash 10% as Sebi alleges Rs
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other Tata stocks tumble up
-[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Kerala court denies bail to Reporter TV MD Anto 
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Kallazhagar and Ramanuja
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — இஸ்ரேல் தேர்தல் மற்றும் மேற்க
+[skip] யேமனின் உள்நாட்டுப் பொருளாதாரப் பாதிப்பு — தமிழ்நாடு அல்லது 
+[skip] நைஜீரியாவின் உள்நாட்டு குற்றச் சம்பவம் — தமிழ்நாடு/இந்தியா வ
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமில்லை. தென்னாப்பிரிக்கா-ஆஸ்
+[skip] வெளிநாட்டு உணவு ஊடகத்தின் ஆசிய விளையாட்டுப் பொதுத் அட்டவணை —
+[skip] மூலம் ஆங்கிலப் பத்திரிகை விமர்சனம் மட்டும். தமிழ்த் திரையுலக
+[skip] செய்திக் கட்டமைப்பு முழுமையாக இல்லை — படத்தின் பெயர், வெளியீ
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Women lawyers need not be designated Senior Advo
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Ajeet Bharti bail plea: Delhi High Court sees in
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Delhi High Court expresses concerns over growing
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Allahabad HC sets Ayush Malik free from family's
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Aarey tree-felling case: Supreme Court calls IIC
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Sridevi land dispute: Supreme Court sends Boney 
+[மூலம்] ஒரே ஊடகம் (court) — வெளியிடப்படவில்லை: Centre supports plea in Delhi HC to allow same-s
+[skip] Clickbait தலைப்பு, உண்மையான செய்தி விவரம் இல்லை. 'வைரালாகும்
+[skip] வெளிநாட்டு ফুটबল (ইউরোপীয় ক্লাব ফুটবল) — தமிழ்நாடு/இந்தியச்
+[skip] பாकிஸ்தான் வீராங்கனையின் தனிநபர் காரணத்தால் ஆசிய விளையாட்டு 
+[skip] ஆசிய விளையாட்டுக்கள் 2026 இந்தியாவில் (ஒய்ந்யாங்கে) நடைபெறவி
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: SRM University-A.P. signs MoU with University of
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: NIA court awards life imprisonment to nine, incl
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Students see how trains are cleaned as South Coa
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: 13-year-old boy abducted, murdered by neighbour 
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: West Bengal SIR: Over 37 lakh appeals stuck in T
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Season’s first cyclone may form over Andaman Sea
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: UGC-NET results for re-exam of English, commerce
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Gold price prediction: Should you buy gold on di
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘My heart still beats for the unhurried city tha
 [image] 9 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹14006 · சென்செக்ஸ் 74467
+[market] தங்கம் 22K ₹14011 · சென்செக்ஸ் 74503
 [weather] புதுப்பிக்கப்பட்டது
 [image] 9 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 0
