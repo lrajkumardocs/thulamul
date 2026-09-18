@@ -1,17 +1,17 @@
 [fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 5 புதியவை
-[fetch] Al Jazeera: 12 புதியவை
+[fetch] Al Jazeera: 11 புதியவை
 [fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 21 புதியவை
 [fetch] The Hindu Cinema: 16 புதியவை
 [fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 13 புதியவை
-[fetch] Wired: 16 புதியவை
+[fetch] Wired: 20 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 23 புதியவை
@@ -34,10 +34,10 @@
 [fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 18 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 19 புதியவை
+[fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 10 புதியவை
 [fetch] The Hindu National: 20 புதியவை
-[fetch] NDTV India: 20 புதியவை
+[fetch] NDTV India: 12 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
@@ -56,56 +56,39 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3318b7efd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6877bc8b10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 20 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
-[fetch] TNPSC Notifications: 0 புதியவை
+[fetch] TNPSC Notifications: பிழை HTTPSConnectionPool(host='www.freejobalert.com', port=443): Read timed out. (read timeout=20)
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 566 → நிகழ்வுகள் 524
+[run] புதியவை 555 → நிகழ்வுகள் 515
 [triage] சேமித்த மதிப்பெண் (532) — புதிய அழைப்பு இல்லை
-[triage] 524 → 42 | காலி: india:3, govt:3, tn:2, jobs:2, cinema:2
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது ஸ்பானிய நகரமான சேவுட்டாவில் நடந்த உள்ளூர் புலம்பெயர்வோர்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBXnTgX7d6H2o3q7Cyo6'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBXrDX6AdHUUm3QK1mZz'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] பிற மாநილத்தின் உள்ளூர் அரசியல் — கருப்பு எம். முருகானந்தம் 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBXxnbLXtQbu4FbCdPp7'}
-[skip] வெளிநாட்டு தொழில்நுட்பக் கம்பனிகளின் உள்நாட்டு வணிক மர்மமே ப
-[tts-edge] b86556ae40e5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எதிர்க்கட்சிகள் மீது கிரண் ரிஜிஜு 'கோபமான மாமாக்கள்' எனக் குற்றச்சாட்டு
-[எழுத்து] கட்டுப்படுத்த→கட்டுபட்டுத்த
-[tts-edge] 7966ba7d195f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] டெங்கு பரவலை கட்டுபட்டுத்த தமிழ்நாடு அரசு நடவடிக்கை எடுக்க வேண்டும்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBY5G7y3Fis7aD7zVej7'}
-[எழுத்து] சொல்→சேலம்
-[publish] ஜேஎல்எல் அறிக்கை: உலக ரியல் எஸ்டேட் வெளிப்படைத்தன்மையில் இந்தியா 26வது இடம்
-[skip] இது RSS தலைவரின் ஒரு நிகழ்வுப் பேச்சு பற்றிய மிகக் குறுகிய, 
-[publish] விழித்திரை காப்போம் திட்டம் தொடக்கம்
-[எழுத்து] நிர்வாகி→நிா்வாகி, புகார்→புகாா்
-[hold] பெண் நிா்வாகி புகாா்: பாஜகவிலிருந்து முருகானந்தம் நீக்கம்
-[skip] இது தில்லியில் நடந்த உள்ளூர் குற்றச் சம்பவம்; தமிழ்நாட்டுடன்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது மேற்கு வங்க மாநிலத்தின் உள்ளூர் கட்சி சின்ன தகராறு தொடர்
-[தரம்] தமிழ் அல்லாத எழுத்து: ম → ஒரு திருத்தம்
-[publish] கள்ளச்சாராயம் விஷம் சாப்பிட்டு இறப்பவர்களைக் கட்டுப்படுத்த உச்சநீதிமன்றம் வழிகாட்டுதல்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, திட்டம் பற்றிய விவரங்கள் (
-[skip] பஞ்சாப் மாநில அரசின் அறிவிப்பு - தமிழ்நாட்டுடன் நேரடித் தொடர
-[எழுத்து] வேண்டும்→வேண்டாம்
-[publish] நவோதயா பள்ளிகள் நிறுவனத்தைத் திறக்க வேண்டாம்: உதயநிதி
-[skip] இது மத்தியப் பிரதேசத்தின் இந்தூர் நகரில் நடைபெறும் காங்கிரஸ்
-[எழுத்து] இடைத்தேர்தலில்→இடைத்தோ்தலில்
-[தரம்] தமிழ் அல்லாத எழுத்து: క → ஒரு திருத்தம்
-[publish] இடைத்தேர்தலில் பாமக எந்தக் கட்சிக்கும் ஆதரவளிக்காது
-[publish] கள்ளச்சாராய மரணங்கள் தடுக்க மாநிலங்களுக்கு உச்சநீதிமன்றம் பரிந்துரை
-[publish] ஒருங்கிணைந்த விமானத் துறை அமைப்பு வேண்டும் என ராஜ்நாத் சிங் கோரிக்கை
-[market] தங்கம் 22K ₹13988 · சென்செக்ஸ் 74295
-[weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[triage] 515 → 75 | காலி: jobs:2, cinema:2, sports:2, tn:1, india:1
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உண்மைத் தகவல்கள் இல்லை; ஐந
+[skip] இது அமெரிக்க பங்குச் சந்தை பற்றிய வழக்கமான நாளாந்த சந்தைச் ச
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBammHkFh4HqRbE5Vsq6'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நிகழ்வு பற்றிய விவரங்கள், 
+[skip] வெளிநாட்டு ஐரோப்பிய ஒரு விமான நிறுவனத்தின் நிர்வாக அதிகாரியி
+[tts-edge] b874513c1df3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஈஸ்வரி பொறியியல் கல்லூரியில் புதுமைக் கையரங்கு திறப்பு
+[skip] வெளிநாட்டுத் தயாரிப்பு அறிவிப்பு மற்றும் ஆங்கிலப் பேச்சாளரின
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfBatuZ2mvpjHLPceRH3q'}
+[skip] வெளிநாட்டு விளையாட்டு நிகழ்வு — தமிழ்நாடு/இந்தியாவுடன் நேரடி
+[எழுத்து] சட்டமன்றக்→சட்டமன்றம், முறை→மதுரை
+[tts-edge] 9a7a5bbdab8a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நவோதய பள்ளிகள் மீது தமிழ்நாட்டின் நிலைப்பாட்டை மீண்டும் கூற சட்டமன்றம் கூட்டம் கூட்ட வேண்டும்: உதயனிதி
+[skip] இது அமெரிக்க பங்குச் சந்தை பற்றிய வழக்கமான தினசரி தகவல்; தமி
+[skip] வெளிநாட்டுச் செய்திச் சாரம். EU குழந்தைகள் சட்டம் வெளிநாட்டு
+Traceback (most recent call last):
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1681, in <module>
+    main()
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1325, in main
+    hold = bool(HOLD_FLAGS & set(story["flags"])) or story.get("confidence", 1) < AUTO_PUBLISH_MIN_CONFIDENCE
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'float'
