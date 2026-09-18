@@ -1,43 +1,42 @@
-[expire] 8d64f9838fd7
-[fetch] RBI: 5 புதியவை
+[fetch] RBI: 4 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 13 புதியவை
+[fetch] Dinamani TN: 14 புதியவை
 [fetch] BBC Tamil: 0 புதியவை
 [fetch] BBC World: 0 புதியவை
-[fetch] Al Jazeera: 2 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] Al Jazeera: 0 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 9 புதியவை
 [fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 24 புதியவை
-[fetch] The Hindu Tech: 14 புதியவை
+[fetch] The Hindu Tech: 13 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 24 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 4 புதியவை
+[fetch] FreeJobAlert: 6 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 23 புதியவை
+[fetch] The Hindu Legal: 22 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 21 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 7 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 23 புதியவை
+[fetch] The Hindu National: 22 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -48,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 12 புதியவை
+[fetch] Sportstar: 11 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -57,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe5241f5b10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 23 புதியவை
-[fetch] Dinamani Govt: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f62f2324c10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 22 புதியவை
+[fetch] Dinamani Govt: 14 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -68,14 +67,15 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 453 → நிகழ்வுகள் 412
+[run] புதியவை 448 → நிகழ்வுகள் 406
 [triage] சேமித்த மதிப்பெண் (371) — புதிய அழைப்பு இல்லை
-[triage] 412 → 89 (முக்கியம் + பக்க ஒதுக்கீடு)
+[triage] 406 → 89 (முக்கியம் + பக்க ஒதுக்கீடு)
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Titan Company Share Price Live Updates: Titan Co
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: SBI Share Price Live Updates: SBI Trading Metric
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NTPC Share Price Live Updates: NTPC Trading Over
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Wipro Share Price Live Updates: Wipro's Stock De
-[skip] இது ரிசர்வ் வங்கியின் அன்றாட பணச் சந்தை தரவு அறிக்கை மட்டும்
+[tts-edge] f74383ac48d6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்திய தபால் துறையில் இருபத்தி மூவாயிரத்திற்கும் மேற்பட்ட பணியிடங்கள்
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Elevate Campuses IPO price band set at Rs 343–36
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: TCS, Tata Chemicals, other Tata stocks tumble up
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: ETMarkets Management Talk | Nuclear, data centre
@@ -94,22 +94,15 @@
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Four SME IPOs set to list today on BSE: Check GM
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Last day to bid! Jindal Supreme IPO closes today
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Government seeks long-term funds to boost infras
-[skip] Japan-ன் உள்நாட்டு பொருளாதாரக் கொள்கை. தமிழ்நாடு/இந்தியாவுக்
-[skip] வெளிநாட்டுத் தயாரிப்பு (அமெரிக்க பনிரே நிறுவனம்) மற்றும் அமெ
-[skip] New Zealand women's cricket coach appointment — New Zealand'
-[skip] வெளிநாட்டு நிறுவனத்தின் பொருள் வெளியீடு அறிவிப்பு. தமிழ்நாடு
-[தரம்] தமிழ் அல்லாத எழுத்து: षপরী → ஒரு திருத்தம்
-[tts-edge] f01a9c3a301b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] UGC NET மீள்தேர்வு இறுதிப் பதில் விசை வெளியீடு
-[தரம்] தமிழ் அல்லாத எழுத்து: कपरषाी्র → ஒரு திருத்தம்
-[tts-edge] a79854b94e48: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இந்திய கடற்படை அக்னிவீர் தேர்வு முடிவு வெளியீடு
-[தரம்] தமிழ் அல்லாத எழுத்து: ईकखथधयरस → ஒரு திருத்தம்
-[publish] IOB LBO தேர்வுக்கான ஒப்புதல் பத்திரம் வெளியீடு
-[skip] மேற்கு வங்கத்தின் உள்ளூர் பொறியியல் கல்வி ஆலோசனை — தமிழ்நாட்
-[skip] Live match coverage — real-time sports updates aren't news a
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது. ஆஸ்திரேலியா தேசிய கால்பந்து
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: iPhone 18 Pro and iPhone 18 Pro Max go on sale i
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (CPL - கரিபியன் প্রিமியர் লীগ).
+[தரம்] தமிழ் அல்லாத எழுத்து: ।ংঅআইউএও; வரி 1 முற்றுப்புள்ளி இல்லை → ஒரு திருத்தம்
+[tts-edge] 8dfbf34b4b1f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] SSC ஸ்டெனோ LDCE இறுதி விடைத்தாள் வெளியிடப்பட்டது.
+[skip] தமிழ்நாட்டுடன் நேரடித் தொடர்பு இல்லை. UGC NET என்பது தேசிய அ
+[skip] Haryana (ஹரியாணா) மாநிலத்தின் உள்ளூர் தேர்வு. தமிழ்நாட்டு வா
+[skip] மத்திய பிரதேศ மாநிலத்தின் உள்ளூர் வேலை அறிவிப்பு. தமிழ்நாட்ட
+[skip] இது சர্வதேশக் கிரிக்கெட் (ஆங்கிலேய நடிகர் ஜோஸ் பட்லர் T20 சா
+[skip] வெளிநாட்டு ক্রীড়া ইভেন্ট যা তামিল నాడුக்கு ನೇరमైভাวे సంబంధం
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Homestay: Charting a smooth path for hosts & gue
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Four, including three juveniles, arrested for ra
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Voting for Delhi University Students' Union poll
@@ -122,17 +115,16 @@
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: IIT grad, bank manager among 6 held for taking ₹
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: FDA suspends Café Mondegar licence over food-saf
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Four India-based companies bear the brunt of U.S
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: வாழப்பாடியில் திடீர் தீ விபத்து: 2 குடிசைகள் எரி
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: அமைச்சர் வன்னி அரசின் அறிக்கைக்கு பதிலளித்து விட
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: சட்டப்பேரவையில் நிறைவேற்றப்பட்ட 12 மசோதாக்களுக்க
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: ‘டேப்ஸ்’ திட்டத்தில் இடைக்கால ஓய்வூதியம் குறைப்ப
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Top stocks to buy today: Stock market recommenda
 [மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Stock Market Live Updates Today: Asian markets r
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘My heart still beats for the unhurried city tha
-[jobs] தொகுப்பு 4
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[image] 7 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13893 · சென்செக்ஸ் 74496
+[image] 8 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13883 · சென்செக்ஸ் 74459
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 8 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 3
+[image] 9 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 2
