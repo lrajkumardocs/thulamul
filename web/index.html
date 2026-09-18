@@ -41,7 +41,7 @@
   .chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
   select.chip{appearance:none;-webkit-appearance:none}
   .lead{padding:18px 20px 16px;border-bottom:1px solid var(--rule);cursor:pointer}
-  .ph{display:block;width:100%;height:auto;max-height:64vh;object-fit:contain;border-radius:4px;background:var(--paper2)}
+  .ph{display:block;width:100%;height:auto;max-height:64vh;object-fit:cover;border-radius:4px;background:var(--paper2)}
   .cap{display:block;font-size:11px;color:var(--ink3);font-style:italic;margin:0 0 12px;line-height:1.5;clear:both}
   .k{font-size:11px;color:var(--ink3);display:flex;justify-content:space-between;margin-bottom:6px}
   .k b{color:var(--brass);font-weight:500}
@@ -50,11 +50,11 @@
   .lead .foot{display:flex;justify-content:space-between;font-size:11px;color:var(--ink3);margin-top:10px}
   .story{padding:16px 20px;border-bottom:1px solid var(--rule);cursor:pointer}
   .srow{display:flex;gap:14px;align-items:flex-start}
-  .srow img{width:92px;height:92px;object-fit:contain;background:var(--paper2);border-radius:4px;flex:none;display:block}
+  .srow img{width:92px;height:92px;object-fit:cover;background:var(--paper2);border-radius:4px;flex:none;display:block}
   .stxt{flex:1;min-width:0}
   .stxt h2{font-size:16px}
   .stxt p{font-family:var(--text);font-size:13.5px;line-height:1.65;color:var(--ink2);margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .th{width:88px;height:88px;flex:none;border-radius:4px;object-fit:contain;background:#2E3441}
+  .th{width:88px;height:88px;flex:none;border-radius:4px;object-fit:cover;background:#2E3441}
   .th.txt{display:flex;align-items:flex-end;padding:6px;font-size:9px;color:#C9CCD3;background:repeating-linear-gradient(135deg,#3A4150 0 6px,#2E3441 6px 12px)}
   .empty{padding:40px 20px;color:var(--ink3);text-align:center;font-size:13px;line-height:1.7}
   .wx{margin:8px 20px 0;padding:14px 0 6px;border-top:1px solid var(--rule)}
@@ -65,7 +65,7 @@
   .topbar{display:flex;justify-content:space-between;align-items:center;padding:calc(8px + env(safe-area-inset-top)) 16px 8px}
   .icon{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule);background:var(--paper2);cursor:pointer}
   .icon svg{width:18px;height:18px;stroke:var(--ink);fill:none;stroke-width:1.6}
-  .dph{width:100%;height:230px;object-fit:contain;display:block;background:#2E3441}
+  .dph{width:100%;height:230px;object-fit:cover;display:block;background:#2E3441}
   .dcap{font-size:11px;color:var(--ink3);font-style:italic;padding:8px 20px 0;line-height:1.5}
   h1{font-family:var(--serif);font-size:23px;line-height:1.45;font-weight:500;margin-top:8px}
   .body5{margin-top:18px}
@@ -129,7 +129,7 @@
   .inside .grid{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
   .inside a{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px dotted var(--rule);font-size:13px}
   .inside b{font-family:var(--serif);font-weight:500;color:var(--ink3)}
-  .adfullslot{padding:12px 20px 4px;cursor:pointer}.adfullslot img{width:100%;aspect-ratio:4/5;object-fit:contain;background:var(--paper2);border-radius:6px;display:block;pointer-events:none}.adfullslot small{display:block;font-size:10px;color:var(--ink3);margin-top:4px}
+  .adfullslot{padding:12px 20px 4px;cursor:pointer}.adfullslot img{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--paper2);border-radius:6px;display:block;pointer-events:none}.adfullslot small{display:block;font-size:10px;color:var(--ink3);margin-top:4px}
   .typegrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
   .adunit{display:block;position:relative;border-radius:12px;overflow:hidden;margin-top:14px;background:var(--paper2);border:1px solid var(--rule)}
   .adunit img{width:100%;height:100%;object-fit:cover;display:block}
@@ -139,10 +139,10 @@
       color:var(--ink3);font-size:12px;line-height:1.9;padding:14px}
   .adunit.empty b{font-family:var(--serif);color:var(--brass);font-size:14px;font-weight:500}
   .adgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 20px}
-  .adbox{cursor:pointer}.adbox img{width:100%;aspect-ratio:3/4;object-fit:contain;background:var(--paper2);border-radius:6px;display:block;pointer-events:none}
+  .adbox{cursor:pointer}.adbox img{width:100%;aspect-ratio:3/4;object-fit:cover;background:var(--paper2);border-radius:6px;display:block;pointer-events:none}
   .adbox small{display:block;font-size:10px;color:var(--ink3);margin-top:4px}
   .adfull{position:fixed;inset:0;background:#0E1117;z-index:50;display:flex;flex-direction:column;justify-content:center}
-  .adfull img{width:100%;max-height:90vh;object-fit:contain}
+  .adfull img{width:100%;max-height:90vh;object-fit:cover}
   .adfull .adph.big{aspect-ratio:3/4;max-height:85vh;margin:0 auto;width:100%;border-radius:0}
   .adbar{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:space-between;align-items:center;padding:14px 18px calc(14px + env(safe-area-inset-bottom));background:rgba(22,27,36,.9);color:#F3F2EE;font-size:12px}
   .adbar a{color:var(--brass);text-decoration:underline}.adbar b{font-size:18px;cursor:pointer}
@@ -316,6 +316,26 @@
   .bx-cap{font-size:11px;color:var(--ink3);line-height:1.6;margin-top:9px}
   .oldnote{background:var(--brass2);border-left:3px solid var(--brass);border-radius:0 10px 10px 0;
       padding:11px 13px;margin-top:12px;font-size:13.5px;line-height:1.7;color:var(--ink2)}
+  /* எழுத்து அளவு */
+  body.fs-s .story h2,body.fs-s .lead h2{font-size:17px}
+  body.fs-s .story p,body.fs-s .lead p,body.fs-s .dline,body.fs-s .mp{font-size:14px}
+  body.fs-s .dtitle{font-size:22px}
+  body.fs-l .story h2,body.fs-l .lead h2{font-size:23px}
+  body.fs-l .story p,body.fs-l .lead p,body.fs-l .dline,body.fs-l .mp{font-size:19px;line-height:2.05}
+  body.fs-l .dtitle{font-size:30px}
+  body.fs-l .small{font-size:13.5px}
+  .amtbox{background:var(--paper2);border-radius:10px;padding:12px 14px;margin-top:12px;font-size:15px}
+  .amtbox b{font-family:var(--serif);font-size:19px;color:var(--brass)}
+  .adprev{margin-top:10px;border:1px dashed var(--rule);border-radius:12px;overflow:hidden;background:var(--paper2);
+     display:flex;align-items:center;justify-content:center;color:var(--ink3);font-size:12.5px}
+  .adprev img{width:100%;height:100%;object-fit:cover;display:block}
+  label.chk{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:14px;line-height:1.6;color:var(--ink2)}
+  label.chk input{margin-top:3px;flex:none}
+  .wx .row u{display:block;text-decoration:none;font-size:11px;color:#2B5E8A;margin-top:2px;white-space:nowrap}
+  .wx .row u.no{color:var(--ink3)}
+  .wx .t span{color:var(--ink3);font-weight:400}
+  .paybox{background:var(--brass2);border:1px solid var(--rule);border-radius:14px;padding:18px;margin-top:16px;text-align:center}
+  .upiid{font-family:var(--serif);font-size:22px;font-weight:600;margin:6px 0 2px;letter-spacing:.02em}
   .imprint{margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:11.5px;line-height:1.8;color:var(--ink2)}
   .imprint b{color:var(--ink);font-weight:500}
   .imprint a{color:var(--brass);text-decoration:underline}
@@ -519,7 +539,7 @@ function localWeather(){
   navigator.geolocation.getCurrentPosition(pos=>{const la=pos.coords.latitude,lo=pos.coords.longitude;
     fetch(`https://api.open-meteo.com/v1/forecast?latitude=${la.toFixed(3)}&longitude=${lo.toFixed(3)}&timezone=auto&forecast_days=1&current=temperature_2m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max`).then(r=>r.json()).then(w=>{
       myWx={city:nearestCity(la,lo),now:Math.round(w.current.temperature_2m),max:Math.round(w.daily.temperature_2m_max[0]),min:Math.round(w.daily.temperature_2m_min[0]),rain:w.daily.precipitation_probability_max[0]};
-      const ear=document.querySelector('.ear.r');if(ear)ear.innerHTML=`<b>${myWx.now}°</b><span>${myWx.city}</span><span>மழை ${myWx.rain}%</span>`;
+      const ear=document.querySelector('.ear.r');if(ear)ear.innerHTML=`<b>${myWx.now}°</b><span>${myWx.city}</span><span>மழை வாய்ப்பு வாய்ப்பு ${myWx.rain}%</span>`;
     }).catch(()=>{});},()=>{},{timeout:8000,maximumAge:1800000});
 }
 function masthead(i){
@@ -761,38 +781,93 @@ function malarHtml(){
     +`<div class="note">இவை நபர்களைக் குறிக்கவில்லை; அதிகாரத்தின் இயல்பைப் பற்றியவை.</div>`;
   return h+'<div style="height:40px"></div></div>';
 }
-document.addEventListener('click',e=>{const a=e.target.closest('a[href="#adform"]');
-  if(a){e.preventDefault();openAdForm();}});
-function openAdForm(){
+document.addEventListener('click',e=>{const a=e.target.closest('a[data-adslot]');
+  if(a){e.preventDefault();openAdForm(a.dataset.adslot);}});
+function openAdForm(slotId){
   const sc=document.getElementById('s-detail');
   if(!sc) return;
   window.__adFrom = (location.hash && location.hash.startsWith('#page/')) ? location.hash : ('#page/'+(curPage||'front'));
-  sc.innerHTML=`<div class="dhead"><button class="back" onclick="go(window.__adFrom||'#home')">← திரும்பு</button></div>`+adFormHtml();
-  location.hash='#adform';
+  window.__adSlot=slotId||'box';
+  sc.innerHTML=`<div class="dhead"><button class="back" onclick="go(window.__adFrom||'#home')">← திரும்பு</button></div>`+adFormHtml(window.__adSlot);
   document.querySelectorAll('.screen').forEach(x=>x.classList.remove('on'));
   sc.classList.add('on'); sc.scrollTop=0; wireAdForm();
 }
 function wireAdForm(){
-  const b=document.getElementById('ad-send'); if(!b) return;
-  const msg=document.getElementById('ad-msg');
-  b.onclick=async()=>{
-    const g=id=>((document.getElementById(id)||{}).value||'').trim();
-    const org=g('ad-org'), ph=g('ad-phone'), ml=g('ad-mail');
-    if(!org){msg.textContent='நிறுவனப் பெயர் தேவை.';return;}
-    if(!/^[6-9]\d{9}$/.test(ph)){msg.textContent='தொலைபேசி எண் 10 இலக்கம்.';return;}
-    if(!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(ml)){msg.textContent='சரியான மின்னஞ்சல் தேவை.';return;}
-    b.disabled=true; msg.textContent='அனுப்புகிறோம்…';
+  const S=((ADS&&ADS.slots)||[]).find(x=>x.id===window.__adSlot) || {};
+  const per=S.price||0, unit=S.unit||'நாள்';
+  const $$=id=>document.getElementById(id);
+  const amt=$$('ad-amt'), prev=document.querySelector('.adprev');
+  let total=0, imgData='';
+  function calc(){
+    const a=$$('ad-from').value, b=$$('ad-to').value;
+    if(!a||!b){amt.textContent='நாட்களைத் தேர்வு செய்யுங்கள்';total=0;return;}
+    const d1=new Date(a), d2=new Date(b);
+    if(d2<d1){amt.textContent='முடியும் நாள் பின்னால் இருக்க வேண்டும்';total=0;return;}
+    const days=Math.round((d2-d1)/86400000)+1;
+    const units = unit==='வாரம்' ? Math.ceil(days/7) : days;
+    total=units*per;
+    amt.innerHTML=`${days} நாள் · ${units} ${esc(unit)} × ₹${per} = <b>₹${total.toLocaleString('en-IN')}</b>`;
+  }
+  ['ad-from','ad-to'].forEach(id=>$$(id)&&$$(id).addEventListener('change',calc));
+  calc();
+  const f=$$('ad-file');
+  if(f) f.addEventListener('change',()=>{
+    const file=f.files&&f.files[0]; if(!file) return;
+    if(file.size>2*1024*1024){alert('படம் 2MB-க்குள் இருக்க வேண்டும்.');f.value='';return;}
+    const r=new FileReader();
+    r.onload=()=>{imgData=r.result;prev.innerHTML=`<img src="${imgData}" alt="">`;};
+    r.readAsDataURL(file);
+  });
+  const c=$$('ad-confirm');
+  if(c) c.onclick=async()=>{
+    const g=id=>(($$(id)||{}).value||'').trim();
+    const msg=$$('ad-msg');
+    if(!g('ad-org')){msg.textContent='நிறுவனப் பெயர் தேவை.';return;}
+    if(!/^[6-9]\d{9}$/.test(g('ad-phone'))){msg.textContent='தொலைபேசி எண் 10 இலக்கம்.';return;}
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(g('ad-mail'))){msg.textContent='சரியான மின்னஞ்சல் தேவை.';return;}
+    if(!total){msg.textContent='தேதிகளைச் சரியாகத் தேர்வு செய்யுங்கள்.';return;}
+    if(!imgData){msg.textContent='விளம்பரப் படத்தைத் தேர்வு செய்யுங்கள்.';return;}
+    if(!/^[\w.\-]{2,}@[\w\-]{2,}$/.test(g('ad-upi'))){msg.textContent='பணத்திருப்பத்திற்கு உங்கள் UPI ID தேவை.';return;}
+    if(!$$('ad-ok').checked){msg.textContent='நிபந்தனைகளை ஏற்க வேண்டும்.';return;}
+    c.disabled=true; msg.textContent='பதிவு செய்கிறோம்…';
     try{
-      await FB.addDoc(FB.collection(FB.db,'ad_requests'),{org,phone:ph,email:ml,cat:g('ad-cat'),
-        slot:g('ad-slot'),from:g('ad-from'),days:+g('ad-days')||7,image:g('ad-img'),url:g('ad-url'),
-        text:g('ad-text').slice(0,600),status:'new',created:FB.serverTimestamp()});
-      msg.innerHTML='<b>பெறப்பட்டது ✓</b><br>AI ஆய்வு + ஆசிரியர் ஒப்புதலுக்குப் பின் தொடர்பு கொள்வோம்.<br>ads@thulamul.com';
-      b.textContent='அனுப்பப்பட்டது';
-    }catch(e){ msg.textContent='அனுப்ப முடியவில்லை — ads@thulamul.com-க்கு எழுதுங்கள்.'; b.disabled=false; }
+      const ref='TM'+Date.now().toString(36).toUpperCase();
+      await FB.addDoc(FB.collection(FB.db,'ad_requests'),{ref,org:g('ad-org'),phone:g('ad-phone'),
+        email:g('ad-mail'),cat:g('ad-cat'),slot:window.__adSlot,slot_name:(S.page||'')+' · '+(S.size||''),
+        from:g('ad-from'),to:g('ad-to'),amount:total,url:g('ad-url'),refund_upi:g('ad-upi'),
+        image_b64:imgData.slice(0,900000),status:'awaiting_payment',created:FB.serverTimestamp()});
+      document.getElementById('s-detail').innerHTML=
+        `<div class="dhead"><button class="back" onclick="go(window.__adFrom||'#home')">← திரும்பு</button></div>`+payHtml(ref,total,S);
+      document.getElementById('s-detail').scrollTop=0;
+    }catch(e){ msg.textContent='பதிவு செய்ய முடியவில்லை. ads@thulamul.com-க்கு எழுதுங்கள்.'; c.disabled=false; }
   };
 }
+function payHtml(ref,total,S){
+  const upi=(ADS&&ADS.upi)||'', nm=(ADS&&ADS.upi_name)||'Muthamizh Kalaikoodam';
+  const link=`upi://pay?pa=${encodeURIComponent(upi)}&pn=${encodeURIComponent(nm)}&am=${total}&cu=INR&tn=${encodeURIComponent(ref)}`;
+  return `<div class="pad">
+    <div class="small brass">கட்டணம்</div>
+    <h1 style="font-size:30px;margin-top:4px;font-family:var(--serif)">₹${total.toLocaleString('en-IN')}</h1>
+    <div class="small muted">பதிவு எண் <b>${esc(ref)}</b> · ${esc(S.page||'')} · ${esc(S.size||'')}</div>
+    ${upi?`<div class="paybox">
+      <div class="small muted">UPI-ல் செலுத்துங்கள்</div>
+      <div class="upiid">${esc(upi)}</div>
+      <div class="small muted">${esc(nm)}</div>
+      <a class="btn" href="${link}" style="display:block;text-align:center;text-decoration:none;margin-top:14px">UPI செயலியில் செலுத்து →</a>
+      <div class="small muted" style="margin-top:10px">PhonePe · Google Pay · Paytm · BHIM — எதுவும் ஆகும்.<br>
+        குறிப்பில் <b>${esc(ref)}</b> என்ற எண்ணைச் சேர்க்கவும்.</div>
+    </div>`:''}
+    <div class="note"><b>அடுத்து என்ன</b><br>
+      • கட்டணம் செலுத்தியதும் ads@thulamul.com-க்கு <b>${esc(ref)}</b> குறிப்பிட்டு ஒரு வரி எழுதுங்கள்.<br>
+      • 24 மணி நேரத்திற்குள் சரிபார்த்து விளம்பரம் வெளியாகும்.<br>
+      • நிபந்தனைகளை மீறினால் நிராகரிக்கப்படும்; <b>முழுத் தொகையும்</b> நீங்கள் தந்த UPI ID-க்கு 7 வேலை நாட்களுக்குள் திரும்பும்.</div>
+    <div style="height:40px"></div></div>`;
+}
+
 function applyFS(v){
-  document.documentElement.style.fontSize=(v==='s'?'93%':v==='l'?'115%':'100%');
+  document.body.classList.remove('fs-s','fs-l');
+  if(v==='s')document.body.classList.add('fs-s');
+  if(v==='l')document.body.classList.add('fs-l');
   localStorage.setItem('fs',v);
   const seg=document.getElementById('fsseg');
   if(seg) seg.querySelectorAll('[data-f]').forEach(x=>x.classList.toggle('on',x.dataset.f===v));
@@ -808,7 +883,7 @@ function slotAds(id){return (ads||[]).filter(a=>adActive(a)&&(a.slot||'box')===i
 function adFrame(a,id,ratio,label){
   if(a) return `<a class="adunit" href="${esc(a.url||'#')}" target="_blank" rel="noopener" style="aspect-ratio:${ratio}">
       <img src="${esc(a.image)}" alt="${esc(a.title||'')}"><span class="admark">விளம்பரம்</span></a>`;
-  return `<a class="adunit empty" href="#adform" style="aspect-ratio:${ratio}"><span>${esc(label)}<br><b>விளம்பரம் செய்ய →</b></span></a>`;
+  return `<a class="adunit empty" href="#adform" data-adslot="${esc(id)}" style="aspect-ratio:${ratio}"><span>${esc(label)}<br><b>விளம்பரம் செய்ய →</b></span></a>`;
 }
 function slotPrice(id){const s=((ADS&&ADS.slots)||[]).find(x=>x.id===id);return s?s.price:0;}
 function frontAdHtml(){
@@ -835,37 +910,48 @@ function adBookHtml(){
     <a class="btn" href="#adform" style="display:block;text-align:center;text-decoration:none">விளம்பரம் கொடுக்க →</a>
     <div class="note">${((ADS&&ADS.rules)||[]).map(esc).join('<br>')}</div></div>`;
 }
-function adFormHtml(){
+function adFormHtml(slotId){
+  const S=((ADS&&ADS.slots)||[]).find(x=>x.id===slotId) || ((ADS&&ADS.slots)||[])[0] || {};
   const cats=((ADS&&ADS.categories)||[]);
-  const slots=((ADS&&ADS.slots)||[]);
-  return `<div class="pad"><div class="malback" onclick="location.hash='#page/ads'"><span>← திரும்பு</span></div>
-    <h1 style="font-size:22px;margin-top:6px">விளம்பரம் கொடுக்க</h1>
-    <p class="mp" style="font-size:15px">விவரங்களை நிரப்புங்கள். AI ஆய்வு + ஆசிரியர் ஒப்புதலுக்குப் பின் வெளியாகும்.</p>
+  const ratio=(S.ratio||'1:1').replace(':','/');
+  const today=new Date(Date.now()+19800000).toISOString().slice(0,10);
+  return `<div class="pad" id="adform">
+    <div class="small brass">விளம்பரம்</div>
+    <h1 style="font-size:22px;margin-top:4px">${esc(S.page||'')} · ${esc(S.size||'')}</h1>
+    <div class="small muted" style="margin-top:3px">${esc(S.pos||'')} · ₹${S.price||0}/${esc(S.unit||'நாள்')}</div>
+
     <label class="fl">நிறுவனம் / நபர்<input id="ad-org"></label>
-    <div class="row2"><label class="fl">தொடர்பு எண்<input id="ad-phone" type="tel" inputmode="numeric" maxlength="10"></label>
-    <label class="fl">மின்னஞ்சல்<input id="ad-mail" type="email"></label></div>
+    <div class="row2">
+      <label class="fl">தொலைபேசி<input id="ad-phone" type="tel" inputmode="numeric" maxlength="10"></label>
+      <label class="fl">மின்னஞ்சல்<input id="ad-mail" type="email"></label>
+    </div>
     <label class="fl">வகை<select id="ad-cat">${cats.map(c=>`<option>${esc(c)}</option>`).join('')}</select></label>
-    <label class="fl">இடம்<select id="ad-slot">${slots.map(x=>`<option value="${esc(x.id)}">${esc(x.page)} · ${esc(x.size)} · ₹${x.price}/${esc(x.unit||'நாள்')}</option>`).join('')}</select></label>
-    <div class="row2"><label class="fl">தொடங்கும் நாள்<input id="ad-from" type="date"></label>
-    <label class="fl">எத்தனை நாள்<input id="ad-days" type="number" min="1" value="7"></label></div>
-    <label class="fl">விளம்பரப் படத்தின் இணைப்பு (URL)<input id="ad-img" placeholder="https://..."></label>
-    <label class="fl">உங்கள் இணையதளம் / WhatsApp இணைப்பு<input id="ad-url" placeholder="https://..."></label>
-    <label class="fl">விளம்பர உரை (விரும்பினால்)<textarea id="ad-text" style="min-height:90px"></textarea></label>
-    <button class="btn" id="ad-send">சமர்ப்பி</button>
-    <div class="small" id="ad-msg" style="margin-top:12px"></div>
-    <div class="note"><b>நிபந்தனைகள்:</b> ${((ADS&&ADS.rules)||[]).map(esc).join('<br>')}</div>
+    <div class="row2">
+      <label class="fl">தொடங்கும் நாள்<input id="ad-from" type="date" value="${today}"></label>
+      <label class="fl">முடியும் நாள்<input id="ad-to" type="date" value="${today}"></label>
+    </div>
+    <div class="amtbox" id="ad-amt">நாட்களைத் தேர்வு செய்யுங்கள்</div>
+
+    <label class="fl">விளம்பரப் படம் (${esc(S.ratio||'')})<input id="ad-file" type="file" accept="image/*"></label>
+    <div class="small muted">பெட்டியின் அளவில் எப்படித் தெரியும் என்று கீழே பாருங்கள்.</div>
+    <div class="adprev" style="aspect-ratio:${ratio}"><span>படம் தேர்வு செய்யவில்லை</span></div>
+    <label class="fl">இணையதளம் / WhatsApp இணைப்பு (விருப்பம்)<input id="ad-url" placeholder="https://..."></label>
+    <label class="fl">உங்கள் UPI ID <span style="color:var(--ink3);font-size:12px">— நிராகரிக்கப்பட்டால் இதற்குப் பணம் திரும்பும்</span>
+      <input id="ad-upi" placeholder="yourname@bank"></label>
+
+    <label class="chk"><input type="checkbox" id="ad-ok"> மேலே உள்ள விவரங்கள் சரி; நிபந்தனைகளை ஏற்கிறேன்.</label>
+    <button class="btn" id="ad-confirm">உறுதிசெய்து தொடர் →</button>
+    <div class="small" id="ad-msg" style="margin-top:10px"></div>
+
+    <div class="note"><b>நிபந்தனைகள்</b><br>
+      • உங்கள் விளம்பரம் பிழைத்திருத்தம் மற்றும் ஆசிரியர் சரிபார்ப்புக்குப் பின்பே பதிவேற்றப்படும்.<br>
+      • நிராகரிக்கப்பட்டால் முழுத் தொகையும் 7 வேலை நாட்களுக்குள் அதே கணக்கிற்குத் திரும்பும்.<br>
+      • மது, புகையிலை, சூதாட்டம், கடன் ஆசை வார்த்தை, மருத்துவ உத்தரவாதம், அரசியல் பிரச்சாரம் — ஏற்கப்படாது.<br>
+      • துலாமுள் விளம்பரங்களை வெளியிடுகிறது; தயாரிப்பு/சேவையை உத்தரவாதப்படுத்துவதில்லை.<br>
+      • கேள்விகளுக்கு: ads@thulamul.com</div>
     <div style="height:40px"></div></div>`;
 }
-function spark(vals,w,h){
-  const a=(vals||[]).filter(x=>typeof x==='number');
-  if(a.length<2) return '';
-  const mn=Math.min(...a), mx=Math.max(...a), rg=(mx-mn)||1;
-  const pts=a.map((v,i)=>`${(i/(a.length-1)*w).toFixed(1)},${(h-((v-mn)/rg)*h).toFixed(1)}`).join(' ');
-  const up=a[a.length-1]>=a[0];
-  return `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:${h}px"><polyline points="${pts}" fill="none"
-     stroke="${up?'#2F6B4F':'#9C2F2F'}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-}
-function arrow(p){const n=Number(p)||0;return n>0?`<span class="up">▲ ${n.toFixed(2)}%</span>`:n<0?`<span class="dn">▼ ${Math.abs(n).toFixed(2)}%</span>`:'<span class="flat">—</span>';}
+
 function marketHtml(){
   const m=MKT;
   if(!m||!m.gold22) return '';
@@ -880,7 +966,7 @@ function marketHtml(){
     <div class="bx-row"><span>தங்கம் 24K</span><b>₹${Number(m.gold24).toLocaleString('en-IN')}</b><i>/கிராம்</i>${chg(m.gold24_chg,m.gold_pct)}</div>
     ${m.silver?`<div class="bx-row"><span>வெள்ளி</span><b>₹${m.silver}</b><i>/கிராம்</i>${chg(m.silver_chg,m.silver_pct)}</div>`:''}
     ${m.gold_per10k?`<div class="bx-note">₹10,000-க்கு <b>${m.gold_per10k} கிராம்</b> தங்கம் (24K)</div>`:''}
-    <div class="bx-cap">${esc(m.gold_age||'')} புதுப்பிக்கப்பட்டது · நேற்றைய இறுதி விலையுடன் ஒப்பீடு.<br>உலகச் சந்தை (COMEX) + டாலர் விகிதம் அடிப்படையிலான குறிப்பு விலை; நகைக்கடையில் செய்கூலி, GST சேர்ந்து மாறுபடும்.${m.gold_note?' · '+esc(m.gold_note):''}</div>
+    <div class="bx-cap">${esc(m.gold_age||'')} புதுப்பிக்கப்பட்டது · நேற்றைய இறுதி விலையுடன் ஒப்பீடு.<br>உலகச் சந்தை (COMEX) + டாலர் விகிதம் அடிப்படையிலான குறிப்பு விலை; நகைக்கடையில் செய்கூலி, GST சேர்ந்து மாறுபடும்.</div>
   </div>
   ${(m.sensex||m.nifty)?`<div class="sbox">
     <div class="bx-h">பங்குச் சந்தை <span>${esc(m.sensex_age||t)}${m.market_state==='REGULAR'?' · நேரலை':''}</span></div>
@@ -890,7 +976,6 @@ function marketHtml(){
     <div class="bx-cap">${esc(m.sensex_age||'')} புதுப்பிக்கப்பட்டது · முந்தைய நாள் இறுதி மதிப்புடன் ஒப்பீடு. மூலம்: BSE / NSE.</div>
   </div>`:''}`;
 }
-
 function adsHtml(){
   const cin=slotAds('cinema');
   return `<div class="pad">
@@ -899,8 +984,7 @@ function adsHtml(){
     ${[0,1,2].map(n=>adFrame(cin[n],'cinema','3/4','சினிமா · முழுப் பெட்டி · ₹'+slotPrice('cinema'))).join('')}
     <div class="imprint"><b>முத்தமிழ் கலைக்கூடம் வெளியீடு</b><br>AI ஆசிரியர் · கேலிச்சித்திரம்: Mr. X<br>
       <b class="brass">100% தானியங்கி · செய்தி முதல் ஓவியம் வரை AI</b><br>
-      <a href="https://thulamul.com">www.thulamul.com</a><br>பொது: <a href="mailto:info@thulamul.com">info@thulamul.com</a> · ஆதரவு: <a href="mailto:support@thulamul.com">support@thulamul.com</a><br>
-      குறைதீர்: <a href="mailto:grievance@thulamul.com">grievance@thulamul.com</a> · விளம்பரம்: <a href="mailto:ads@thulamul.com">ads@thulamul.com</a><br>
+      <a href="https://thulamul.com">www.thulamul.com</a> · <a href="mailto:info@thulamul.com">info@thulamul.com</a><br>
       <span class="muted">© ${new Date().getFullYear()} முத்தமிழ் கலைக்கூடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</span></div>
     <div style="height:40px"></div></div>`;
 }
@@ -954,7 +1038,22 @@ function renderAdForm(){
 }
 function briefHtml(){return `<div class="brief"><div><b>இன்றைய 60 நொடி</b><small>${brief.headlines.length} செய்திகள் · ${brief.date}</small></div><button class="play" id="bplay">${PLAY}</button><audio id="baudio" preload="none" src="${BASE}${brief.audio}"></audio></div>`;}
 let wxData=null;
-function wxHtml(){if(!wxData||!wxData.cities)return '';return `<div class="wx"><div class="t">வானிலை · ${hm(wxData.updated)}</div><div class="row">${Object.entries(wxData.cities).map(([c,v])=>`<div><span>${c}</span><b>${v.now}°</b>${v.rain!=null?'மழை '+v.rain+'%':''}</div>`).join('')}</div></div>`;}
+function rainWord(p){
+  const n=Number(p);
+  if(!isFinite(n)||n<20) return '';
+  if(n<40) return 'சிறிது';
+  if(n<70) return 'நடுத்தரம்';
+  if(n<90) return 'அதிகம்';
+  return 'மிக அதிகம்';
+}
+function wxHtml(){
+  if(!wxData||!wxData.cities)return '';
+  return `<div class="wx"><div class="t">வானிலை · மழை வாய்ப்பு <span>${hm(wxData.updated)}</span></div>
+    <div class="row">${Object.entries(wxData.cities).map(([c,v])=>{
+      const w=rainWord(v.rain);
+      return `<div><span>${c}</span><b>${v.now}°</b>${w?`<u>☂ ${w}</u>`:'<u class="no">—</u>'}</div>`;
+    }).join('')}</div></div>`;
+}
 function editHtml(){
   const e=eds[0];let h='';
   if(e){h+=`<div class="pad"><div class="small brass" style="margin-top:16px">ஆசிரியர் குறிப்பு</div><h1 style="font-size:25px;margin-top:6px">${esc(e.title)}</h1><div class="byline">${esc(e.author||'ஆசிரியர்')} · ${esc(e.date)}</div><div class="edbody">${esc(e.body).split(/\n+/).map(p=>`<p>${p}</p>`).join('')}</div></div>`;}
@@ -1046,12 +1145,7 @@ corrections:{t:'திருத்தக் கொள்கை',b:`AI எழு�
 ## பழைய இதழ்கள்
 காப்பகத்தில் உள்ள இதழ்களிலும் திருத்தக் குறிப்பு சேர்க்கப்படும்; அசல் நீக்கப்படாது.`},
 grievance:{t:'குறைதீர் அதிகாரி',b:`Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021-ன்படி:
-## குறைதீர் அதிகாரி
-பெயர்: ல. ராஜ்குமார் (நிறுவனர்)
-நிறுவனம்: முத்தமிழ் கலைக்கூடம், அசோக் நகர், சென்னை
-மின்னஞ்சல்: grievance@thulamul.com
-மின்னஞ்சல்: ads@thulamul.com
-## காலக்கெடு
+## குறைதீர் அதிகாரி\nபெயர்: ல. ராஜ்குமார்\nமுத்தமிழ் கலைக்கூடம், அசோக் நகர், சென்னை – 600083\nமின்னஞ்சல்: grievance@thulamul.com\n## காலக்கெடு
 • புகார் பெற்ற 24 மணி நேரத்தில் ஒப்புகை.
 • 15 நாட்களுக்குள் தீர்வு / பதில்.
 ## என்ன புகார் செய்யலாம்
