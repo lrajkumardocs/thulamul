@@ -2,12 +2,12 @@
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 2 புதியவை
-[fetch] Dinamani TN: 9 புதியவை
+[fetch] Dinamani TN: 10 புதியவை
 [fetch] BBC Tamil: 0 புதியவை
-[fetch] BBC World: 3 புதியவை
-[fetch] Al Jazeera: 4 புதியவை
+[fetch] BBC World: 2 புதியவை
+[fetch] Al Jazeera: 3 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
-[fetch] The Hindu Sport: 10 புதியவை
+[fetch] The Hindu Sport: 9 புதியவை
 [fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 12 புதியவை
@@ -23,20 +23,20 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 4 புதியவை
+[fetch] The Hindu Legal: 5 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 21 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 7 புதியவை
+[fetch] TechCrunch: 8 புதியவை
 [fetch] The Verge: 4 புதியவை
-[fetch] The Hindu National: 4 புதியவை
+[fetch] The Hindu National: 5 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd6960a0210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 4 புதியவை
-[fetch] Dinamani Govt: 9 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe225ace5d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 5 புதியவை
+[fetch] Dinamani Govt: 10 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,18 +67,26 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 389 → நிகழ்வுகள் 377
-[triage] 377 → 10 (முக்கியம் + பக்க ஒதுக்கீடு)
+[run] புதியவை 392 → நிகழ்வுகள் 379
+[triage] சேமித்த மதிப்பெண் (363) — புதிய அழைப்பு இல்லை
+[triage] 379 → 17 (முக்கியம் + பக்க ஒதுக்கீடு)
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: RBI rate hike imminent? Fed's move pressures Ind
+[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Crude shock to hit oil companies' margins, but r
 [மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: NSE enters India’s mega-IPO club: 2nd-largest is
-[skip] கிரிக்கெட் T20I தொடர் — இது ஒரு போட்டிப் பலன் மாত்திரம். தமி
-[மூலம்] ஒரே ஊடகம் (economy) — வெளியிடப்படவில்லை: Puravankara Ltd eyes Rs 2,600 cr revenue from re
-[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Kallazhagar and Ramanuja
+[skip] வெளிநாட்டு அரசியல் மற்றும் சர்வதேச மோதல் — தமிழ்நாடு வாசகரின
+[skip] வெளிநாட்டு தயாரிப்பு நிறுவனத்தின் நிதி சংগ்রহ — தமிழ்நாடு/இந
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: Bombay HC seeks Maharashtra govt. reply on Maleg
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: பேருந்து ஓட்டும்போது மாரடைப்பு: பாதுகாப்பாக நிறு
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: முதலீடு செய்தால் அதிக லாபம் எனக்கூறி இளைஞரிடம் ர
+[மூலம்] ஒரே ஊடகம் (govt) — வெளியிடப்படவில்லை: எழும்பூா் ரயில் நிலையத்தில் வைகை புறப்பாடு தாமதம
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three persons arrested in migrant worker murder 
-[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி. ஐரோப்பாவுக்கான குடிபெயர்ப்பு 
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத தெற்காபிரிக்கா உள்ளூர் குற்றச
-[skip] வெளிநாட்டு உள்நாட்டு விளையாட்டு ஏற்பாடு. ஆஸ்திரேலியாவின் ஒலி
+[skip] தமிழ்நாட்டு அல்லது இந்திய வாசகரைப் பாதிக்காத வெளிநாட்டு நிறு
+[skip] வெளிநாட்டுச் சினிமா/உணவு வணிக செய்தி — தமிழ்நாடு/இந்தியத் வா
+[tts-edge] brief_2026-09-18: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[brief] காலை brief தயார்
 [image] 7 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13884 · சென்செக்ஸ் 74315
+[market] தங்கம் 22K ₹13908 · சென்செக்ஸ் 74315
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 7 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 0
