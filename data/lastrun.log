@@ -3,9 +3,9 @@
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 6 புதியவை
 [fetch] Dinamani TN: 13 புதியவை
-[fetch] BBC Tamil: 6 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 9 புதியவை
-[fetch] Al Jazeera: 12 புதியவை
+[fetch] Al Jazeera: 13 புதியவை
 [fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
 [fetch] The Hindu Cinema: 16 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 13 புதியவை
+[fetch] The Hindu Legal: 14 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 18 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 13 புதியவை
+[fetch] The Hindu National: 14 புதியவை
 [fetch] NDTV India: 7 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc7a0d4f810>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7ccd0ce1d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 14 புதியவை
 [fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,9 +67,13 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 503 → நிகழ்வுகள் 473
+[run] புதியவை 508 → நிகழ்வுகள் 477
 [triage] சேமித்த மதிப்பெண் (438) — புதிய அழைப்பு இல்லை
-[triage] 473 → 14 | காலி: jobs:2, cinema:2, india:1, world:1
+[triage] 477 → 30 | காலி: jobs:2, cinema:2, india:1, world:1
+[tts-edge] jobs_20260919: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[jobs] தொகுப்பு 12
+[tts-edge] jobs_20260919: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13973 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
