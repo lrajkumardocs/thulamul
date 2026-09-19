@@ -1,5 +1,76 @@
 [
  {
+  "headline": "மூன்று ஊடக நிறுவனங்களுக்கு வெள்ளை மாளிகை நுழைவுத் தடை விதித்த டிரம்ப்",
+  "lines": [
+   "அமெரிக்க அதிபர் டொனால்ட் டிரம்ப், சிஎன்என், எம்எஸ் நவ், பொலிடிகோ ஆகிய மூன்று ஊடக நிறுவனங்களுக்கு வெள்ளை மாளிகைக்குள் நுழைவதற்குத் தடை விதித்துள்ளார்.",
+   "இந்த மூன்று நிறுவனங்களின் நிருபர்களின் ஊடக அடையாள அட்டைகள் பறிமுதல் செய்யப்பட்டதாக அந்த ஊடகங்களே தெரிவித்துள்ளன.",
+   "இந்தத் தடை உடனடியாக அமலுக்கு வருவதாக வெள்ளிக்கிழமை டிரம்ப் அறிவித்தார்.",
+   "இந்த ஊடகங்கள் பொய்ச் செய்திகளை வெளியிடுவதாகக் கூறி, அதன் காரணமாகவே இந்த முடிவு எடுக்கப்பட்டதாக அவர் தெரிவித்தார்.",
+   "இந்த முடிவு தொடர்பாக பாதிக்கப்பட்ட மூன்று ஊடக நிறுவனங்களும் இதுவரை அதிகாரப்பூர்வ மறுப்பு அறிக்கை எதுவும் வெளியிடவில்லை."
+  ],
+  "closing": "இந்தத் தடை, அமெரிக்க அதிபரும் ஊடகங்களும் இடையேயான மோதலை மீண்டும் முன்னிலைக்குக் கொண்டு வந்துள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": "Journalists denied White House access after Trump banned some media outlets",
+    "date": null
+   },
+   {
+    "name": "BBC World",
+    "doc": "Watch: Trump says ban on some news outlets is 'because they're fake news'",
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "டொனால்ட் டிரம்ப்",
+   "வெள்ளை மாளிகை",
+   "சிஎன்என்",
+   "எம்எஸ் நவ்",
+   "பொலிடிகோ"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Trump bans three media outlets from White House access",
+   "lines": [
+    "US President Donald Trump has banned reporters from CNN, MS NOW and Politico from entering the White House.",
+    "Press badges belonging to reporters from these three outlets were reportedly confiscated, according to the outlets themselves.",
+    "Trump announced on Friday that the ban would take effect immediately.",
+    "He said the ban was imposed because these outlets were spreading fake news.",
+    "The three affected media organisations have not yet issued any official response to the decision."
+   ],
+   "closing": "The ban has reignited the ongoing tension between the US president and the media."
+  },
+  "front_cat": "routine",
+  "image_query": "Donald Trump president",
+  "wiki_subject": "Donald Trump",
+  "person_en": "Donald Trump",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "d6f846915316",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-09-20T00:35+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/videos/cm93e7p1wkndo?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/news/2026/9/19/a-ban-on-the-free-press-white-house-bars-journalists-from-three-outlets?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Donald Trump",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Donald_Trump",
+   "symbolic": false
+  },
+  "audio": "data/audio/d6f846915316.mp3",
+  "created_ts": 1789844738.2155416,
+  "status": "published"
+ },
+ {
   "headline": "பிலிப்பீன்ஸ் பள்ளியில் துப்பாக்கிச் சூடு மூவர் பலி எட்டு பேர் காயம்",
   "lines": [
    "பிலிப்பீன்ஸ் நாட்டில் உள்ள ஒரு பள்ளியில் பதினாறு வயது மாணவர் ஒருவர் துப்பாக்கிச் சூடு நடத்தினார்.",
