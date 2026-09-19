@@ -4,8 +4,8 @@
 [fetch] The Hindu TN: 6 புதியவை
 [fetch] Dinamani TN: 13 புதியவை
 [fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 8 புதியவை
-[fetch] Al Jazeera: 10 புதியவை
+[fetch] BBC World: 9 புதியவை
+[fetch] Al Jazeera: 11 புதியவை
 [fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 18 புதியவை
 [fetch] The Hindu Cinema: 16 புதியவை
@@ -56,22 +56,24 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3104da9790>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f03d96d4690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 13 புதியவை
 [fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
-[fetch] Sarkari Yojana: 0 புதியவை
+[fetch] Sarkari Yojana: பிழை HTTPSConnectionPool(host='www.mygov.in', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 498 → நிகழ்வுகள் 467
-[triage] சேமித்த மதிப்பெண் (436) — புதிய அழைப்பு இல்லை
-[triage] 467 → 45 | காலி: jobs:2, cinema:2, india:1, world:1
+[run] புதியவை 500 → நிகழ்வுகள் 468
+[triage] 468 → 18 | காலி: jobs:2, cinema:2, india:1, world:1
+[tts-edge] brief_2026-09-19: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[brief] காலை brief தயார்
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13973 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 2 · எழுதியவை 0
