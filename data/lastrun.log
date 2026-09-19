@@ -1,7 +1,7 @@
 [fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
+[fetch] The Hindu TN: 21 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 16 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 25 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8cba0b1f50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff6d84ee210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
@@ -65,13 +65,39 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 22 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 685 → நிகழ்வுகள் 636
-[triage] சேமித்த மதிப்பெண் (571) — புதிய அழைப்பு இல்லை
-[triage] 636 → 99 | காலி: cinema:2, india:1, world:1, jobs:1
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[run] புதியவை 694 → நிகழ்வுகள் 644
+[triage] 644 → 55 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது ஒரு கருத்துக் கட்டுரை/பகுப்பாய்வுப் பத்தி (Courting Cont
+[skip] NBPGR (தில்லி) மற்றும் UPCAR (உத்தரப் பிரதேசம்) ஆகிய வேலைவாய
+[எழுத்து] முறை→மதுரை
+[தரம்] தமிழ் அல்லாத எழுத்து: रগটতনযর় → ஒரு திருத்தம்
+[tts-edge] 2863efa682b0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியா நீரிழிவு மருந்துகளை மலிவாக வழங்கும் மதுரை ஆய்வு
+[skip] கேரள மாநிலத்தின் உள்ளூர் திரைத் திருவிழாச் செய்திகள் தமிழ்நா
+[skip] ஆங்கிலம் மற்றும் இலங்கை இடையே T20 தொடர் — தமிழ்நாடு/இந்திய வ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfDLqXKc88xgqYRWJ719L'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; எந்த இடைத்தேர்தல், எப்போது
+[skip] சऊதிய அரேபியாவின் உள்நாட்டு ராணுவ மோதல் — தமிழ்நாடு வாசகரைப்
+[skip] வெளிநாட்டு அரசியல் — அமெரிக்கா-ரஷ்யா உறவு, அமெரிக்கத் சட்டப்
+[tts-edge] 4531ac55ba51: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அண்ணா பல்கலைக்கழக மாணவர் மரணம், டெங்கு அல்ல ஸ்க்ரப் டைபஸ் எனத் தெளிவு
+[skip] தென்னாப்பிரிக்காவின் உள்நாட்டுக் குற்ற நிகழ்வு — தமிழ்நாடு/இ
+[எழுத்து] மனுவை→மதுரை
+[publish] ஒரே ஒரு வாக்கு வித்தியாசத்தில் வென்ற தி.வெ.க. எம்.எல்.ஏ. மனு மீது உத்தரவு ஒத்திவைப்பு
+[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — கியூபா மின்சக்திக் கஷ்டம் தம
+[publish] சென்னை பெங்களூரு நெடுஞ்சாலையில் பள்ளி பேருந்து லாரி மோதல் நான்கு மாணவர்கள் காயம்
+[skip] வெளிநாட்டு உள்நாட்டு நிகழ்வு — சவுதி அரேபியாவின் உள் பாதுகாப
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfDM536cXHQfYeTui2JW3'}
+[skip] உலக செய்திக்கும் தமிழ்நாடு வாசகருக்கும் தொடர்பு இல்லை. ரஷ்யா
+[எழுத்து] சட்டமன்றத்→சட்டமன்றம்
+[publish] தவெக ஆட்சி வந்தால் விலைவாசி உயரும் என எடப்பாடி பழனிசாமி குற்றச்சாட்டு
+[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காத வெளிநாட்டு உள்ளூர் குற
+[skip] மூலத்தில் போதிய தகவல் இல்லை - தலைப்பு மட்டும் உள்ளது, விவரங்
+[skip] வெளிநாட்டு அரசியல் — இரண்டு நாட்டுக்கு இடையிலான இராஜதந்திரப்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha
+[rasi] ராசிபலன் தயார்
 [market] தங்கம் 22K ₹14004 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
-[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 5
