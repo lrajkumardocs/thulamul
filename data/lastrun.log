@@ -6,7 +6,7 @@
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 14 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 20 புதியவை
 [fetch] Cinema Express: 25 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 2 புதியவை
 [fetch] The Hindu Health: 23 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: பிழை HTTPSConnectionPool(host='www.freejobalert.com', port=443): Read timed out. (read timeout=20)
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,16 +28,16 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 5 புதியவை
+[fetch] Bar and Bench: 4 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 25 புதியவை
-[fetch] Dinamani Sports: 20 புதியவை
+[fetch] Dinamani Sports: 21 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 9 புதியவை
 [fetch] The Hindu National: 30 புதியவை
-[fetch] NDTV India: 19 புதியவை
+[fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa6740f32d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7faf1b3eded0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,11 +65,11 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 18 புதியவை
+[fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 641 → நிகழ்வுகள் 595
+[run] புதியவை 677 → நிகழ்வுகள் 625
 [triage] சேமித்த மதிப்பெண் (549) — புதிய அழைப்பு இல்லை
-[triage] 595 → 57 | காலி: cinema:2, india:1, world:1, jobs:1
+[triage] 625 → 124 | காலி: cinema:2, india:1, world:1, jobs:1
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹14004 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
