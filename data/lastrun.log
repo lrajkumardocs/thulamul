@@ -1,7 +1,7 @@
 [fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 16 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8cba0b1f50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f74035a8b50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
@@ -65,13 +65,74 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 22 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 685 → நிகழ்வுகள் 636
+[run] புதியவை 692 → நிகழ்வுகள் 642
 [triage] சேமித்த மதிப்பெண் (571) — புதிய அழைப்பு இல்லை
-[triage] 636 → 99 | காலி: cinema:2, india:1, world:1, jobs:1
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[triage] 642 → 144 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] வெஸ்टইண்டீஸ் தேசிய அணியின் உள்ளூர் நியமன அறிவிப்பு; தமிழ்நாட
+[skip] கேரளாவின் சர்வதேச திரையுலக விழாவுக்கான மத்திய அரசு தடை — தமி
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உண்மையான செய்தி உள்ளடக்கம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[tts-edge] 2863efa682b0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியா நீரிழிவு மருந்துகளை மலிவாக்க நிபுணர் ஆய்வு
+[skip] வெளிநாட்டு தொழில்நுட்பப் பொருள் நிறுவனத்தின் அভ്যন்তரीণ சோதன
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfDKUxunQy6Cbmhx5etHX'}
+[tts-edge] d6f846915316: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மூன்று ஊடக நிறுவனங்களுக்கு வெள்ளை மாளிகை நுழைவுத் தடை விதித்த டிரம்ப்
+[publish] அண்ணா பல்கலைக்கழக மாணவர் மரணம் டெங்கு காரணம் இல்லை என தெளிவு
+[skip] இது வேறு பகுதியில் நடந்த உள்ளூர் சாலை விபத்து செய்தி; தமிழ்ந
+[எழுத்து] சட்டமன்றத்→சட்டமன்றம்
+[publish] இடைத்தேர்தல் முடிவெடுக்க வசனுக்கு தமிழ் மணிலா காங்கிரஸ் அதிகாரம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfDKhUfXLepGLLcwvA3hz'}
+[skip] இது கேரள மலையாளத் திரையுலகம் தொடர்பான உள்ளூர் சட்டப் பிரச்சி
+[publish] அரக்கோணத்தில் 600 போதை மாத்திரைகளுடன் மூவர் கைது
+[skip] இது வேறு மாநிலத்தில் (கேரளா போன்று தெரிகிறது) நடந்த சிறிய உள
+[publish] வாஷர்மேன்பேட்டையில் பெண்ணுக்கு தீ வைத்த வழக்கில் ஒருவர் கைது
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் உயர்கல்வி ஒப்பந்தப் பேச்சு, தமி
+[skip] இது ஆந்திரப் பிரதேசம் விஜயவாடா கனகதுர்கை கோயிலின் உள்ளூர் நி
+[skip] இது கேரள மாநிலத்தின் ஆவணப்பட விழா தொடர்பான உள்ளூர் செய்தி; த
+[skip] பெங்களூரு நகரின் உள்ளூர் போக்குவரத்து நெரிசல் தொடர்பான செய்த
+[skip] இது பெங்களூரு (கர்நாடகா) நகரின் உள்ளூர் மேம்பாலத் திட்டம் தொ
+[skip] இது விசாகப்பட்டினத்தில் உள்ள ஒரு பள்ளியின் உள்ளூர் நிகழ்வு (
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் சம்பவம், தமிழ்நாட்டுடன் நேரடித்
+[skip] இது ஜம்மு காஷ்மீரின் உள்ளூர் நிர்வாக மற்றும் மத நிகழ்வு தொடர
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfDKvcCpGyt5cdaABteJY'}
+[skip] இது பீகார்/உத்தரப் பிரதேச மாநில அரசியல் பிரச்சார செய்தி; தமி
+[skip] இது தெலங்கானா மாநில அரசின் உள்ளூர் அறிவிப்பு (முதல்வர் ரேவந்
+[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் நீதிமன்ற வழக்கு, தமிழ்நாடு அல்
+[skip] இது உத்தரப் பிரதேச மாநில அரசியல் சார்ந்த உள்ளூர்ச் செய்தி; த
+[publish] நாடு முழுவதும் ரோஜ்கார் மேளாவில் 51,000 நியமனக் கடிதங்கள் வழங்கம்
+[skip] இது பஞ்சாப் மாநில உள்ளூர் அரசியல் தொடர்பான பாலியல் வழக்கு செ
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[publish] அண்ணா பல்கலைக்கழக மாணவன் மரணம் டெங்கு காரணமல்ல: சுகாதாரத்துறை
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 16,500 police personnel deployed for Vinayaka id
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] சவுதி அரேபியாவின் உள்நாட்டு ராணுவ갈등. தமிழ்நாடு/இந்தியாவுடன் 
+[publish] அண்ணா பல்கலைக்கழக மாணவர் மரணம்: டெங்கு அல்ல, ஸ்க்ரப் டைபஸ் எனத் தெளிவு
+[skip] ஆந்திர மாநிலத்தின் உள்ளூர் சாலை விபத்து — தமிழ்நாட்டுடன் தொட
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Sensitive communication on dementia important: M
+[skip] வெளிநாட்டுக் கிரிக்கெட் அறிவிப்பு — தெலங்கானா மாநிலத்தின் உள
+[skip] வெளிநாட்டு அரசியல் — தமிழ்நாடு/இந்தியா வாசகருக்குப் பொருந்தா
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfDLDoGYwVuSMSBtSs9Sv'}
+[skip] வெளிநாட்டு அரசியல் செய்தி — তமிழ்நாட்டுக்குப் பொருந்தாதது. T
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai’s commons belong to those who live, work
+[skip] வெளிநாட்டுத் தனியார் நிறுவனத்தின் விளம்பர சர்ச்சை. தமிழ்நாடு
+[skip] வெளிநாட்டுக் கிரிக்கெட் — இங்கிலாந்து vs இலங்கை T20 போட்டி. 
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] தமிழ்நாட்டில் ஜனநாயகம் இறந்துவிட்டது என்று ஸ்டாலின்
+[filler] economy கட்டுரை
+[filler] court கட்டுரை
+[comic] கதை: காவல் வினா, சாதுர்ய பதில்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-20.png · நாள் 13
+[rasi] ராசிபலன் தயார்
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹14004 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
-[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 10

@@ -1,5 +1,76 @@
 [
  {
+  "headline": "மூன்று ஊடக நிறுவனங்களுக்கு வெள்ளை மாளிகை நுழைவுத் தடை விதித்த டிரம்ப்",
+  "lines": [
+   "அமெரிக்க அதிபர் டொனால்ட் டிரம்ப், சிஎன்என், எம்எஸ் நவ், பொலிடிகோ ஆகிய மூன்று ஊடக நிறுவனங்களுக்கு வெள்ளை மாளிகைக்குள் நுழைவதற்குத் தடை விதித்துள்ளார்.",
+   "இந்த மூன்று நிறுவனங்களின் நிருபர்களின் ஊடக அடையாள அட்டைகள் பறிமுதல் செய்யப்பட்டதாக அந்த ஊடகங்களே தெரிவித்துள்ளன.",
+   "இந்தத் தடை உடனடியாக அமலுக்கு வருவதாக வெள்ளிக்கிழமை டிரம்ப் அறிவித்தார்.",
+   "இந்த ஊடகங்கள் பொய்ச் செய்திகளை வெளியிடுவதாகக் கூறி, அதன் காரணமாகவே இந்த முடிவு எடுக்கப்பட்டதாக அவர் தெரிவித்தார்.",
+   "இந்த முடிவு தொடர்பாக பாதிக்கப்பட்ட மூன்று ஊடக நிறுவனங்களும் இதுவரை அதிகாரப்பூர்வ மறுப்பு அறிக்கை எதுவும் வெளியிடவில்லை."
+  ],
+  "closing": "இந்தத் தடை, அமெரிக்க அதிபரும் ஊடகங்களும் இடையேயான மோதலை மீண்டும் முன்னிலைக்குக் கொண்டு வந்துள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": "Journalists denied White House access after Trump banned some media outlets",
+    "date": null
+   },
+   {
+    "name": "BBC World",
+    "doc": "Watch: Trump says ban on some news outlets is 'because they're fake news'",
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "டொனால்ட் டிரம்ப்",
+   "வெள்ளை மாளிகை",
+   "சிஎன்என்",
+   "எம்எஸ் நவ்",
+   "பொலிடிகோ"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Trump bans three media outlets from White House access",
+   "lines": [
+    "US President Donald Trump has banned reporters from CNN, MS NOW and Politico from entering the White House.",
+    "Press badges belonging to reporters from these three outlets were reportedly confiscated, according to the outlets themselves.",
+    "Trump announced on Friday that the ban would take effect immediately.",
+    "He said the ban was imposed because these outlets were spreading fake news.",
+    "The three affected media organisations have not yet issued any official response to the decision."
+   ],
+   "closing": "The ban has reignited the ongoing tension between the US president and the media."
+  },
+  "front_cat": "routine",
+  "image_query": "Donald Trump president",
+  "wiki_subject": "Donald Trump",
+  "person_en": "Donald Trump",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "d6f846915316",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-09-20T00:35+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/videos/cm93e7p1wkndo?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/news/2026/9/19/a-ban-on-the-free-press-white-house-bars-journalists-from-three-outlets?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Donald Trump",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Donald_Trump",
+   "symbolic": false
+  },
+  "audio": "data/audio/d6f846915316.mp3",
+  "created_ts": 1789844738.2155416,
+  "status": "published"
+ },
+ {
   "headline": "பிலிப்பீன்ஸ் பள்ளியில் துப்பாக்கிச் சூடு மூவர் பலி எட்டு பேர் காயம்",
   "lines": [
    "பிலிப்பீன்ஸ் நாட்டில் உள்ள ஒரு பள்ளியில் பதினாறு வயது மாணவர் ஒருவர் துப்பாக்கிச் சூடு நடத்தினார்.",
@@ -745,240 +816,6 @@
   "image": null,
   "audio": "data/audio/a4e298302c96.mp3",
   "created_ts": 1789420364.7642996,
-  "status": "published"
- },
- {
-  "headline": "சீனா இந்தியாவுடன் நெருங்க சொந்த தேவை காரணம்",
-  "lines": [
-   "கல்வான் மோதலுக்குப் பிறகு இரு நாடுகளிடையே பதற்றம் இருந்த நிலையில், சீனப் பதிவுசெயலாளர் ஷி ஜின்பிங் இந்தியா வருவதாக உறுதியளித்துள்ளார்.",
-   "உலக அரசியலில் விரைவான மாற்றங்களும் சீனப் பொருளாதாரத்தின் சவால்களும் இந்த நிகழ்வுக்குப் பின்னணி என நிபுணர்கள் சுட்டிக்காட்டுகின்றனர்.",
-   "சீனாவின் வெளிநாட்டுக் கொள்கை வல்லுநர்கள் சீனாவின் சொந்த கூட்டியம் மற்றும் பொருளாதாரக் கண்டங்களே இந்தியாவுடனான உறவு மேம்படுத்த தூண்டுகின்றன என்கின்றனர்.",
-   "கல்வான் பள்ளத்தாக்கில் 2020-ல் நடந்த இராணுவ மோதலுக்குப் பிறகு இந்தியா சீனா உறவு குறிப்பிடத்தக்க அளவில் பாதிக்கப்பட்டிருந்தது.",
-   "நெருங்கிய வரவு பேசி எவ்வளவு உறவு நீர்த்த பிரச்சினைகளைத் தீர்க்க முடிவை எதிர்நோக்கும் பொழுது, இருநாட்டு தலைமைத் திறப்பே சீன புவிசார் நெருங்கலுக்கு முக்கிய எழுப்பின."
-  ],
-  "closing": "சீனாவின் பொருளாதாரக் கவலைகளும் உலக ஆற்றல் சமநிலை மாற்றங்களும் இந்தியாவுடன் உறவு மேம்படுத்தல் நாடிக்கச் செய்கின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC Tamil",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "சீனா",
-   "இந்தியா",
-   "ஷி ஜின்பிங்",
-   "கல்வான் பள்ளத்தாக்கு"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "China's own needs push it closer to India",
-   "lines": [
-    "After the Galwan clash, Chinese leader Xi Jinping has agreed to visit India despite tensions between the two nations.",
-    "Experts point to rapid shifts in global politics and challenges facing China's economy as the backdrop for this move.",
-    "China's foreign policy experts say Beijing's own strategic and economic needs are driving improved ties with India.",
-    "Sino-Indian relations suffered significantly after the military clash in the Galwan Valley in 2020.",
-    "As both countries face global shifts in power balance, dialogue between leaders appears essential to address deepening issues."
-   ],
-   "closing": "China's economic concerns and changes in global power dynamics are motivating Beijing to strengthen its relationship with India."
-  },
-  "front_cat": "routine",
-  "image_query": "China India relations diplomacy",
-  "person_en": "Xi Jinping",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "b38d8ae7d473",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-09-14T00:47+05:30",
-  "links": [
-   "https://www.bbc.com/tamil/articles/cq630rl8qejo?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Xi Jinping",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Xi_Jinping"
-  },
-  "audio": "data/audio/b38d8ae7d473.mp3",
-  "created_ts": 1789327047.9682608,
-  "status": "published"
- },
- {
-  "headline": "மோதல் நிறைந்த பங்சமோரோவில் வரலாற்று தேர்தலுக்கு பிலிப்பைன்ஸ் தயார்",
-  "lines": [
-   "பிலிப்பைன்ஸ் நாட்டின் பங்சமோரோ பகுதியில் வரலாற்று முக்கியத்துவம் வாய்ந்த தேர்தல் நடைபெறவுள்ளது.",
-   "பல பத்தாண்டுகளாக நீடித்த மோதலுக்குப் பின்னர் இந்தத் தேர்தல் நடத்தப்படுவது குறிப்பிடத்தக்கது.",
-   "இப்பகுதியில் அமைதியை நிலைநிறுத்தும் நோக்கில் இந்த வாக்குப்பதிவு முக்கியமானதாகக் கருதப்படுகிறது.",
-   "பங்சமோரோ பிராந்தியம் நீண்ட காலமாக அரசியல் மற்றும் ஆயுத மோதல்களால் பாதிக்கப்பட்டு வந்துள்ளது.",
-   "இந்தத் தேர்தலின் முடிவுகள் பிராந்தியத்தின் எதிர்கால அரசியல் நிலைமையை தீர்மானிக்கும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "பங்சமோரோ பிராந்தியத்தில் இந்தத் தேர்தல் அமைதிக்கும் ஆட்சி மாற்றத்திற்கும் ஒரு திருப்புமுனையாக அமையுமா என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "பிலிப்பைன்ஸ்",
-   "பங்சமோரோ"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Philippines set for historic vote in Bangsamoro after decades of conflict",
-   "lines": [
-    "The Philippines is preparing for a historic election in the Bangsamoro region.",
-    "This vote comes after decades of prolonged conflict in the area.",
-    "The election is seen as significant for establishing lasting peace in the region.",
-    "The Bangsamoro region has long faced political and armed conflict.",
-    "The results of this election are expected to shape the region's future political landscape."
-   ],
-   "closing": "It remains to be seen whether this election in Bangsamoro will mark a turning point for peace and governance in the region."
-  },
-  "front_cat": "election_major",
-  "image_query": "Bangsamoro Philippines election",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "0d7e4947b842",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-09-14T00:40+05:30",
-  "links": [
-   "https://www.aljazeera.com/video/newsfeed/2026/9/13/philippines-set-for-historic-vote-in-bangsamoro-after-decades-of-conflict?traffic_source=rss"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/BOL_ballot_sample_Basilan_except_Isabela_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா Commons · Government work provided to the media by",
-   "license": "Public domain",
-   "symbolic": true
-  },
-  "audio": "data/audio/0d7e4947b842.mp3",
-  "created_ts": 1789326627.180868,
-  "status": "published"
- },
- {
-  "headline": "தென் லெபனான் அழிவால் இடம்பெயர்ந்தோர் நிரந்தர நெருக்கடியில்",
-  "lines": [
-   "இஸ்ரேலிய தாக்குதல்களால் தென் லெபனான் பகுதிகள் பெருமளவில் சேதமடைந்துள்ளன.",
-   "வீடுகள் இடிக்கப்பட்டு, வாழ்வாதாரம் இழந்த ஏராளமான லெபனான் மக்கள் இடம்பெயர்ந்துள்ளனர்.",
-   "பாதுகாப்பு உறுதி இல்லாததால், பலரால் தங்கள் சொந்த ஊர்களுக்குத் திரும்ப முடியவில்லை.",
-   "இடம்பெயர்வு தற்காலிகமாக இருக்கும் என எதிர்பார்க்கப்பட்டாலும், இது நிரந்தர நிலையாக மாறி வருவதாக அல் ஜசீரா தெரிவித்துள்ளது.",
-   "பாதிக்கப்பட்டோரை மீள்குடியேற்றும் நடவடிக்கைகள் எப்போது தொடங்கும் என்பது தெளிவாகத் தெரியவில்லை."
-  ],
-  "closing": "வீடு, வாழ்வாதாரம் இழந்த லெபனான் மக்களின் வாழ்க்கை எப்போது சீரடையும் என்பது கேள்விக்குறியாகவே உள்ளது.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "லெபனான்",
-   "இஸ்ரேல்",
-   "தென் லெபனான்",
-   "அல் ஜசீரா"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Israel's destruction leaves south Lebanon's displaced in permanent limbo",
-   "lines": [
-    "Israeli attacks have caused extensive destruction across parts of south Lebanon.",
-    "Many Lebanese people have been displaced after losing their homes and livelihoods.",
-    "With little security guaranteed, many are unable to return to their hometowns.",
-    "Displacement expected to be temporary is instead becoming a permanent reality, Al Jazeera reported.",
-    "It remains unclear when concrete steps toward resettlement will begin."
-   ],
-   "closing": "It remains an open question when the displaced, having lost homes and livelihoods, will be able to rebuild their lives."
-  },
-  "front_cat": "war_conflict",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "cc4370643096",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-09-14T00:39+05:30",
-  "links": [
-   "https://www.aljazeera.com/features/2026/9/13/how-israels-destruction-of-south-lebanon-is-making-displacement-permanent?traffic_source=rss"
-  ],
-  "image": null,
-  "audio": "data/audio/cc4370643096.mp3",
-  "created_ts": 1789326586.5919433,
-  "status": "published"
- },
- {
-  "headline": "யேமனில் மீண்டும் மோதல்கள், மனிதாபிமான நெருக்கடி கடுமை",
-  "lines": [
-   "யேமனில் மீண்டும் ஏற்பட்ட ராணுவ மோதல்கள் நாட்டின் மனிதாபிமான நெருக்கடியை மேலும் மோசமாக்கியுள்ளன.",
-   "போர் காரணமாக பொதுமக்களுக்கு உணவு, பாதுகாப்பு, மருத்துவ உதவி ஆகியவற்றில் கடும் பற்றாக்குறை நிலவுவதாக தகவல்கள் தெரிவிக்கின்றன.",
-   "நிலைமை குறித்து சர்வதேச நிறுவனங்கள் கவலை தெரிவித்துள்ளன.",
-   "கடந்த பல ஆண்டுகளாக யேமன் உள்நாட்டுப் போரால் தொடர்ந்து பாதிக்கப்பட்டு வருகிறது.",
-   "மோதல் தொடர்ந்தால் மனிதாபிமான நிலைமை இன்னும் மோசமடையும் என எச்சரிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "யேமனின் மனிதாபிமான நெருக்கடி ஆண்டுகளாகத் தொடர்வதால் சர்வதேச உதவி எந்த அளவு சென்றடையும் என்பது கேள்விக்குறியாக உள்ளது.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "யேமன்",
-   "மனிதாபிமான நெருக்கடி",
-   "உள்நாட்டுப் போர்"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Renewed fighting in Yemen worsens humanitarian crisis",
-   "lines": [
-    "Renewed military clashes in Yemen have further worsened the country's humanitarian crisis.",
-    "Reports indicate severe shortages of food, security, and medical aid for civilians due to the fighting.",
-    "International organisations have expressed concern over the situation.",
-    "Yemen has continued to suffer from civil war for several years now.",
-    "Warnings suggest the humanitarian situation could worsen further if the fighting continues."
-   ],
-   "closing": "As Yemen's humanitarian crisis persists for years, it remains uncertain how much international aid will actually reach those affected."
-  },
-  "front_cat": "war_conflict",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "5d4616fe8b5f",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-09-14T00:39+05:30",
-  "links": [
-   "https://www.aljazeera.com/video/newsfeed/2026/9/13/renewed-fighting-worsens-yemens-humanitarian-crisis?traffic_source=rss"
-  ],
-  "image": null,
-  "audio": "data/audio/5d4616fe8b5f.mp3",
-  "created_ts": 1789326551.3375006,
   "status": "published"
  }
 ]
