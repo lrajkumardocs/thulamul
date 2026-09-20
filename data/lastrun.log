@@ -1,17 +1,17 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 25 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 25 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 11 புதியவை
 [fetch] Al Jazeera: 23 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 15 புதியவை
-[fetch] Cinema Express: 25 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] The Hindu Sport: 27 புதியவை
+[fetch] The Hindu Cinema: 14 புதியவை
+[fetch] Cinema Express: 26 புதியவை
 [fetch] The Hindu Tech: 9 புதியவை
-[fetch] Wired: 27 புதியவை
+[fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 15 புதியவை
@@ -29,16 +29,16 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 21 புதியவை
+[fetch] The Hindu Legal: 16 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
-[fetch] Dinamani Sports: 27 புதியவை
+[fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 21 புதியவை
+[fetch] The Hindu National: 16 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 20 புதியவை
+[fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 27 புதியவை
+[fetch] Sportstar: 26 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7eff3de34b10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 21 புதியவை
-[fetch] Dinamani Govt: 25 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fef497e9210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 16 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,45 +67,23 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 618 → நிகழ்வுகள் 579
+[run] புதியவை 589 → நிகழ்வுகள் 555
 [triage] சேமித்த மதிப்பெண் (577) — புதிய அழைப்பு இல்லை
-[triage] 579 → 31 | காலி: india:3, govt:3, tn:2, crime:2, cinema:2
-[skip] இது தெலங்காணா மாநிலத்தின் உள்ளூர் ஏடிஎம் திருட்டுச் சம்பவம்,
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfET2z9ACQVHQdP58ug4A'}
-[எழுத்து] தேதி→தேனி
-[tts-edge] e8b52c0f198f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆசிய விளையாட்டுப் போட்டி: இந்தியாவுக்கு இரண்டு வெள்ளிப் பதக்கம்
-[எழுத்து] சட்டமன்றத்→சட்டமன்றம்
-[tts-edge] 50b28ac8239b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பீகார் வாக்காளர் பட்டியல் நீக்கம் தொடர்பாக காங்கிரஸ் குற்றச்சாட்டு
-[hold] தேர்தல் ஆணையம் பாஜக கருவி என ஜெய்ராம் ரமேஷ் குற்றச்சாட்டு
-[skip] இது ஆந்திரப் பிரதேசத்தில் நடந்த உள்ளூர் சம்பவம், தமிழ்நாட்டு
-[skip] ஆந்திரப் பிரதேசத்தின் உள்ளூர் சம்பவம்; தமிழ்நாட்டுக்குத் தொட
-[எழுத்து] தேதி→தேனி
-[publish] பழனி மலைக்கோயிலில் செப்டம்பர் 22 முதல் ரோப் கார் சேவை மீண்டும் தொடக்கம்
-[திருத்தம்] சாஃபலி சதமடித்தாள்; இந்தியா ஆசிய விளையாட → சாஃபலி சதமடித்தாள்; இந்தியா ஆசிய விளையாட
-[publish] சாஃபலி சதமடித்தாள்; இந்தியா ஆசிய விளையாட்டு இறுதிக்குச் செல்லல்
-[skip] இது தனிப்பட்ட பங்கு பரிந்துரை பட்டியல் சார்ந்த வழக்கமான வர்த
-[skip] பொது விஞ்ஞান ஆய்வு — தமிழ்நாடு/இந்தியாவுக்கான தொழில்நுட்பச் 
-[skip] தெலంగానా மாநிலத்தின் உள்ளூர் குற்றச் செய்தி. தமிழ்நாட்டு வாச
-[skip] வெளிநாட்டு விளையாட்டு நிகழ்வு - சீனாவின் 13 வயது வீராங்கனையி
-[skip] பிற மாநிலத்தின் தேர்தல் அரசியல் — தமிழ்நாட்டுக்கு நேரடித் தொ
-[skip] பிहார் மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாட்டு வாசகரை நேரட
-[தரம்] தமிழ் அல்லாத எழுத்து: শ → ஒரு திருத்தம்
-[publish] ஆசிய விளையாட்டுக்களில் இந்தியா மகளிர் T20 இறுதிக்குள் நுழைந்தது
-[skip] ஒரு கட்சியின் குற்றச்சாட்டு; அரசு அறிவிப்பு அல்ல. Govt = மக்
-[எழுத்து] விளையாட்டுக்→விளையாட்டுப்
-[publish] ஆசிய விளையாட்டுப் போட்டியில் வெள்ளிப் பதக்கம் வென்ற விதர்சா
-[skip] டெல்லியில் நடந்த உள்ளூர் குற்றச் சம்பவம் - தமிழ்நாட்டுடன் தொ
-[தரம்] மூலத்தில் இல்லாத எண்: 1200 → ஒரு திருத்தம்
-[நகல்] ஏற்கனவே வெளியானது: பழனி மலைக்கோயிலில் செப்டம்பர் 22 முதல் ரோப் கார் சேவை மீண்டு
-[skip] இது டெல்லி பல்கலைக்கழக மாணவர் அமைப்பு தேர்தல் தொடர்பான உள்ளூ
-[skip] இது ஹரியானா மாநிலம் குருகிராமில் நடந்த உள்ளூர் குற்றச் சம்பவ
-[skip] மேற்கு வங்க மாநில உள்ளூர் அரசியல் செய்தி; தமிழ்நாட்டுடன் நேர
+[triage] 555 → 21 | காலி: govt:3, crime:3, tn:1, jobs:1, health:1
+[skip] கேரள மாநிலத்தின் உள்ளூர் காவல்துறை ஊழல் வழக்கு, தமிழ்நாட்டு 
+[skip] மும்பையில் நடந்த உள்ளூர் விபத்துச் செய்தி; தமிழ்நாட்டுடன் தொ
+[skip] ஆந்திரப் பிரதேசத்தில் நடந்த உள்ளூர் குற்றச் சம்பவம், தமிழ்நா
+[skip] கேரளாவின் உள்ளூர் காவல்துறை நடவடிக்கை — தமிழ்நாடு வாசகரின் ச
+[skip] நடிகர் சிறுவர்ப் பொழுதுபோக்கு நடிகர் சனந்த் மற்றும் இயக்குநர
+[skip] வெளிநாட்டு உள்ளூர் காவல்நடவடிக்கை. தமிழ்நாடு/இந்தியாவுக்குப்
+[skip] महाराष्ट्र (मुंबई) में हुई दुर्घटना है। तमिलनाडु से कोई संबं
+[skip] வெளிநாட்டு அரசியல் மற்றும் ஈரান்-அமெரிக்க உறவு பற்றிய செய்தி
+[skip] आंध्र प्रदेश का अंदरूनी अपराध समाचार है, तमिलनाडु के पाठकों 
+[tts-edge] ab07512fbdd9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எதிஹாத் விமான நிறுவனத்தின் அபுதாபி விமானம் ரத்து, டெல்லியில் 200 பயணிகள் முடங்கல்
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, விவரமான செய்த
+[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் குற்றச் சம்பவம், தமிழ்நாட்ட
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: An extended and green Ganesh Chaturthi
-[தரம்] தமிழ் அல்லாத எழுத்து: যা → ஒரு திருத்தம்
-[publish] இசை, நட்பு, தமிழ் — ஹிப்-ஹாப் தமிழ் அதி பேட்டி
-[skip] ஜம்மு-காஷ்மீர் பொதுச் சேவা தேர்வாணையின் (JKSSB) தேர்வு அறிவி
 Traceback (most recent call last):
   File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1767, in <module>
     main()
