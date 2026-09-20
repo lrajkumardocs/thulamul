@@ -201,6 +201,15 @@ def _spell(m, ref):
     return m
 
 
+
+def cached(text):
+    """System prompt-ஐ cache செய் — மீண்டும் அனுப்பும்போது 90% மலிவு.
+    1024 token-க்கு மேல் உள்ள prompt-களுக்கு மட்டும் பயனுள்ளது."""
+    t = str(text or "")
+    if len(t) < 3000:                      # சிறியது — cache தேவையில்லை
+        return t
+    return [{"type": "text", "text": t, "cache_control": {"type": "ephemeral"}}]
+
 def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, telegram=None, cinema_news=""):
     """run.py அழைக்கும். வெற்றி → dict; தோல்வி → None."""
     p = (PIPE / "prompts" / "malar.md").read_text(encoding="utf-8")
@@ -216,7 +225,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
     def ask(part, budget, tries=2):
         last = ""
         for n in range(tries):
-            mm = client.messages.create(model=model, max_tokens=budget, timeout=600.0, system=p,
+            mm = client.messages.create(model=model, max_tokens=budget, timeout=600.0, system=cached(p),
                                         messages=[{"role": "user", "content": part}])
             raw = "".join(b.text for b in mm.content if getattr(b, "type", "") == "text").strip()
             last = raw
@@ -446,7 +455,7 @@ def topup(client, model, m, today, week_heads="", telegram=None):
     if not sat or not sat[0].get("a"):
         try:
             sysmsg = (open(PIPE / "prompts" / "malar.md", encoding="utf-8").read())
-            mm = client.messages.create(model=model, max_tokens=4000, timeout=600.0, system=sysmsg,
+            mm = client.messages.create(model=model, max_tokens=4000, timeout=600.0, system=cached(sysmsg),
                 messages=[{"role": "user", "content":
                     "நையாண்டி (satire) பகுதியை மட்டும் JSON-ஆகத் தா: {\"satire\": [...5...]}. "
                     "இந்த வாரத்தின் நடப்புகளை அடிப்படையாகக் கொள்: \n" + (week_heads or "(பொதுவானவை)") +
@@ -547,7 +556,7 @@ def refresh_parts(client, model, m, today, parts=("films", "satire"), cinema_new
                  "\nஇவற்றில் உண்மையில் வெளியான படங்களை மட்டும் எடு; உறுதியாகத் தெரியாவிட்டால் films: [].")
     try:
         msg = client.messages.create(model=model, max_tokens=7000, timeout=600.0,
-                                     system=sysmsg, messages=[{"role": "user", "content": user}])
+                                     system=cached(sysmsg), messages=[{"role": "user", "content": user}])
         raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
         raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
         got = json.loads(raw[raw.find("{"):raw.rfind("}") + 1])
