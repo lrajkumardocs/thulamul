@@ -3,18 +3,18 @@
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 18 புதியவை
 [fetch] Dinamani TN: 23 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 11 புதியவை
 [fetch] Al Jazeera: 22 புதியவை
 [fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 27 புதியவை
-[fetch] The Hindu Cinema: 14 புதியவை
+[fetch] The Hindu Cinema: 16 புதியவை
 [fetch] Cinema Express: 25 புதியவை
-[fetch] The Hindu Tech: 9 புதியவை
+[fetch] The Hindu Tech: 8 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 14 புதியவை
+[fetch] The Hindu Health: 13 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 20 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 9 புதியவை
+[fetch] The Hindu Legal: 15 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 26 புதியவை
-[fetch] Dinamani Sports: 26 புதியவை
+[fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 9 புதியவை
+[fetch] The Hindu National: 15 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 15 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff2bb6f5e50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 9 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa5b76e6a50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 15 புதியவை
 [fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,34 +65,51 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 555 → நிகழ்வுகள் 529
-[triage] சேமித்த மதிப்பெண் (577) — புதிய அழைப்பு இல்லை
-[triage] 529 → 44 | காலி: govt:3, crime:2, tn:1, jobs:1, health:1
-[skip] கர்நாடகாவில் அமைந்த ஒரு நிறுவனத்தின் IPO அறிவிப்பு. தமிழ்நாட
-[tts-edge] d435d8d20f49: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] குறைவாக அல்லது அதிகமாக தூங்கினால் முதுமை சீக்கிரம் வரலாம்
-[skip] வெளிநாட்டுத் தயாரிப்பு நற்றிறம் பற்றிய கருத்து; தமிழ்நாட்டு 
-[skip] வதந்தி மற்றும் ஊகம் — 'ஜெயிலர் 2' பற்றிய உறுதியான அறிவிப்பு,
-[skip] IIT Bombay மும்பை இல் அமைந்துள்ளது — மகாராஷ்டிரம். தமிழ்நாட்
-[skip] வெளிநாட்டுக் கால்பந்து லீக்; தமிழ்நாடு/இந்தியாவுக்கு நேரடித்
-[skip] அமெரிக்க உள்நாட்டு வர்த்தக விதி — தமிழ்நாடு அல்லது இந்தியாவு
-[skip] பங்கால் மாநிலத்தின் வானிலை எச்சரிக்கை. தமிழ்நாட்டுக்குத் தொட
-[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் ஆட்டத்தின் ஒரு சுற்று மாத்
-[skip] வந்திய செய்தி ஆந்திரப் பிரதேச மாநிலத்தின் (விஜயவாடா) உள்ளூர்
-[skip] வெளிநாட்டு நாடுகளுக்கிடையேயான இராணுவ/அரசியல் மோதல். தமிழ்நாட
-[skip] வெளிநாட்டுப் போர்ச் செய்தி — தமிழ்நாடு அல்லது இந்திய வாசகர்க
-[skip] இவை பீகார் மற்றும் ஹரியானா மாநிலப் பல்கலைக்கழகங்களின் உள்ளூர
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: An extended and green Ganesh Chaturthi
-[தரம்] தமிழ் அல்லாத எழுத்து: ফে → ஒரு திருத்தம்
-Traceback (most recent call last):
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1767, in <module>
-    main()
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1390, in main
-    story["image"] = pick_image(c, story)
-                     ^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1149, in pick_image
-    return stock_image("", random.choice(
-                           ^^^^^^
-NameError: name 'random' is not defined
+[run] புதியவை 575 → நிகழ்வுகள் 543
+[triage] 543 → 22 | காலி: govt:3, crime:2, tn:1, jobs:1, assembly:1
+[tts-edge] acc99fdeb961: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுரவோயல் அருகே விநியோக முகவர் சாலை விபத்தில் உயிரிழப்பு
+[நகல்] 3 மீண்டும் வந்த செய்தி நீக்கப்பட்டது
+[tts-edge] 8e4a65c0148f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டில் நாளை 21 மாவட்டங்களில் கனமழைக்கு வாய்ப்பு
+[நகல்] 3 மீண்டும் வந்த செய்தி நீக்கப்பட்டது
+[publish] இந்தாண்டு தமிழகத்தில் 17,000 பேருக்கு டெங்கு காய்ச்சல் - அமைச்சர் அருண்ராஜ்
+[நகல்] 3 மீண்டும் வந்த செய்தி நீக்கப்பட்டது
+[திருத்தம்] சென்னையில் செப்டம்பர் 21, 22-ல் கனமழைக்க → சென்னையில் செப். 21, 22-ல் கனமழைக்கு வாய
+[தரம்] மூலத்தில் இல்லாத எண்: 22, 21 → ஒரு திருத்தம்
+[publish] சென்னையில் வரும் நாட்களில் கனமழைக்கு வாய்ப்பு
+[நகல்] 3 மீண்டும் வந்த செய்தி நீக்கப்பட்டது
+[திருத்தம்] மதுரையில் ஒரே நாளில் மூவர் வெட்டிக் கொலை → மதுரையில் ஒரே நாளில் பெண் உள்பட மூவர் வெ
+[publish] மதுரையில் ஒரே நாளில் பெண் உள்பட மூவர் வெட்டிக் கொலை
+[நகல்] 3 மீண்டும் வந்த செய்தி நீக்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfEatJY8VSVE7xh2ys3Jd'}
+[திருத்தம்] அரக்கோணத்தில் ரயில் நிலையத்தில் 600 போதை → அரக்கோணத்தில் 600 போதைப்பொருள் மாத்திரைக
+[publish] அரக்கோணத்தில் 600 போதைப்பொருள் மாத்திரைகளுடன் மூவர் கைது
+[நகல்] 3 மீண்டும் வந்த செய்தி நீக்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfEazR6SSU94S3KKXFp3K'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கு விவரம், இடம், பாதிக
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (எண்,
+[skip] மூலத்தில் தலைப்பைத் தவிர வேறு விவரங்கள் இல்லை - எண், இடம் சா
+[தரம்] தமிழ் அல்லாத எழுத்து: न → ஒரு திருத்தம்
+[publish] சென்னையில் இன்று விநாயகர் சிலை ஊர்வலம், 23,000 போலீஸார் பாதுகாப்பு
+[நகல்] 3 மீண்டும் வந்த செய்தி நீக்கப்பட்டது
+[திருத்தம்] சிட்டா வழங்க லஞ்சமாக மீன் வாங்கிய விஏஓ ப → சிட்டா வழங்க லஞ்சமாக பொரித்த மீன் பெற்ற 
+[publish] சிட்டா வழங்க லஞ்சமாக பொரித்த மீன் பெற்ற விஏஓ பணியிடை நீக்கம்
+[நகல்] 3 மீண்டும் வந்த செய்தி நீக்கப்பட்டது
+[skip] இவை பீகார் மற்றும் ஹரியாணா மாநில பல்கலைக்கழகங்களின் உள்ளூர் 
+[skip] கேரளப் பல்கலைக்கழகத்தின் உள்நாட்டு நிர்வாக முடிவு. தமிழ்நாட்
+[skip] பிहார் மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாட்டுக்குத் தொடர்
+[skip] தமிழ்நாட்டு அரசுத் தகவல் அல்ல. ஒரு தனியார் நிறுவன ஊழியரின் வ
+[malar] திரை விமர்சனம்: மொத ராத்திரி
+[malar] திரை விமர்சனம் மட்டும் (மற்ற பகுதிகள் உறைந்தவை)
+[image] 4 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹14004 · சென்செக்ஸ் 74295
+[weather] புதுப்பிக்கப்பட்டது
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[நகல்] 3 மீண்டும் வந்த செய்தி நீக்கப்பட்டது
+[done] feed 300 · pending 1 · எழுதியவை 8
