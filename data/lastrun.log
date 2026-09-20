@@ -1,7 +1,7 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 16 புதியவை
+[fetch] ET Markets: 13 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
+[fetch] The Hindu TN: 16 புதியவை
 [fetch] Dinamani TN: 18 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 12 புதியவை
@@ -14,7 +14,7 @@
 [fetch] Wired: 22 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 16 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -34,7 +34,7 @@
 [fetch] Dinamani Cinema: 24 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 19 புதியவை
+[fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 9 புதியவை
 [fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2793b20fd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f348d94bc10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 18 புதியவை
-[fetch] Times Govt Schemes: 16 புதியவை
+[fetch] Times Govt Schemes: 15 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,11 +67,82 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 609 → நிகழ்வுகள் 560
+[run] புதியவை 610 → நிகழ்வுகள் 562
 [triage] சேமித்த மதிப்பெண் (504) — புதிய அழைப்பு இல்லை
-[triage] 560 → 28 | காலி: govt:3, jobs:1, assembly:1
-[image] 3 பொருந்தாத படம் மாற்றப்பட்டது
+[triage] 562 → 97 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இங்கிலாந்தின் county cricket - தமிழ்நாடு/இந்தியச் வாசகரைப் ப
+[தரம்] தமிழ் அல்லாத எழுத்து: া → ஒரு திருத்தம்
+[tts-edge] 68669574d847: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டில் டெங்கு நோய் மூன்றாம் ஆண்டாக குறைந்துள்ளது
+[தரம்] தமிழ் அல்லாத எழுத்து: তৃ → ஒரு திருத்தம்
+[tts-edge] ce5de0cbbc39: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஹைட்ஸ் மேலாளர் பணியிட அறிவிப்பு: 21 பதவிகளுக்குத் தேர்வு
+[skip] ஆங்கிலத்தில் வெளியாகும் பிரிட்டிஷ் தொடர் — தமிழ்நாடு வாசகரின
+[skip] வெளிநாட்டுத் தொழில்நுட்பக் கருத்துவிமர்சனம் — தமிழ்நாடு/இந்த
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFDGpTWbVxvbZWi9oZf9'}
+[skip] இது கேரள மாநிலத்தின் நிலம்பூர் பகுதியில் நடந்த உள்ளூர் இயற்க
+[skip] மூலத்தில் போதுமான விவரங்கள் இல்லை — இடம், நபர்கள், நிறுவனம்,
+[publish] விழுப்புரம் மாவட்டத்தில் கிராம அறிவு மையம் திறப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFDQsPbHq6w19w5D7ioa'}
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் கடலோரப் பாதுகாப்புத் திட்டம், த
+[skip] மூலத்தில் தலைப்பு மற்றும் துணைத்தலைப்பு மட்டுமே உள்ளன; குறிப
+[publish] விஜய் ஆட்சியில் இரு ஆலோசகர் நியமனம் குறித்து அதிகாரவட்டாரத்தில் விவாதம்
+[publish] பிச்சாவரத்தில் புதிதாக 25 ஹெக்டேர் சதுப்புநிலம் உருவாக்கம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் உள்ளடக்கம், விவ
+[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள மங்கிநாபுடி கடற்கரையில் நடந்த
+[skip] கேரள மாநிலத்தின் உள்ளூர் பள்ளி அறிவியல் விழா முடிவு - தமிழ்ந
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் அரசு நிகழ்வு (மனித-வனவிலங்கு மோ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Aravind Eye Care System: How one doctor’s vision
+[publish] தமிழ்நாட்டில் டெங்கு பாதிப்பு தொடர்ச்சியாக மூன்றாம் ஆண்டாகவும் குறைந்தது என அரசு தரவு
+[தரம்] தமிழ் அல்லாத எழுத்து: মা → ஒரு திருத்தம்
+[நகல்] ஏற்கனவே வெளியானது: தமிழ்நாட்டில் டெங்கு நோய் மூன்றாம் ஆண்டாக குறைந்துள்ளது
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Dengue cases in Tamil Nadu decline for third con
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் மற்றும் இராணுவ மோதல் — தமிழ்நாட
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFDkwKnXeEkC64iZfPS1'}
+[skip] வெளிநாட்டு (கேരளா) உள்ளூர் விபத்து — தமிழ்நாட்டுக்குத் தொடர்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: T.N. mid-level healthcare providers demand job r
+[skip] வெளிநாட்டு ফুटबল லीग் (ইংলंड প्রিમियर লीग) — तमिल नाडु वाचको
+[skip] இங்கிலாந்தின் county cricket — தமிழ்நாடு/இந்திய வாசகரைப் பாத
+[skip] வெளிநாட்டுச் சம்பவம் — தமிழ்நாடு/இந்தியத் தொடர்பு தெரியவில்ல
+[skip] வெளிநாட்டு தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்தியாவுடன் தொடர
+[நகல்] ஏற்கனவே வெளியானது: விழுப்புரம் மாவட்டத்தில் கிராம அறிவு மையம் திறப்பு
+[skip] சொந்த ஆரோக்கியப் பொருள் — தமிழ்நாட்டு அரசின் அரசாணை அல்லது அ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: AAI plans slew of changes at airport for improve
+[skip] வெளிநாட்டு கலைஞர் ஒருவரின் தரப்பு ஆதரணம் பற்றிய செய்தி. தமிழ
+[skip] விளையாட்டுக் செய்திகளுக்குக் கட்டாயம் தமிழ்நாடு/இந்திய வீரர்
+[skip] வெளிநாட்டு தொழில்நுட்பத் தயாரிப்பு நிறுவனத்தின் அறிவிப்பு; த
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[நகல்] ஏற்கனவே வெளியானது: விழுப்புரம் மாவட்டத்தில் கிராம அறிவு மையம் திறப்பு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Experts discuss specific diagnosis and brain mod
+[skip] இসுரேல்-பலஸ்தீன் உள்நாட்டு இராணுவ விசயம்; தமிழ்நாடு/இந்தியாவ
+[publish] எஃப்4 தேசிய கார் பந்தயம் 2-ஆம் சுற்றில் சம்புட்ல கைரியாக்கு முதல் இடம்
+[skip] வெளிநாட்டு விளையாட்டு/வீடியோ கேம் நிறுவனத்தின் உள்நாட்டு அறி
+[skip] இது ஒரு பகுப்பாய்வு/கருத்துக் கட்டுரை போன்று உள்ளது, தெளிவான
+[skip] இந்தச் செய்தி தமிழ்நாட்டுக் கூட்டணிக் குறிப்புக்கான அரசியல் 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Police file case against TVK member, five others
+[skip] வெளிநாட்டு ফুটবল ஆட்டம் — தமிழ்நாடு/இந்திய வாசகரிடம் நேரடிப்
+[திருத்தம்] இந்தியா-A பெண்கள் அணி ஆஸ்திரேலியாவை நான் → இந்தியா-A பெண்கள் அணி ஆஸ்திரேலியா-A-வை ந
+[publish] இந்தியா-A பெண்கள் அணி ஆஸ்திரேலியா-A-வை நான்கு விக்கெட்டால் வீழ்த்தியது
+[நகல்] ஏற்கனவே வெளியானது: பிச்சாவரத்தில் புதிதாக 25 ஹெக்டேர் சதுப்புநிலம் உருவாக்கம்
+[skip] கேரளாவின் உள்ளூர் அரசுத் திட்டம் — தமிழ்நாட்டு வாசகருக்கு மு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: North Chennai residents demand civic infrastruct
+[திருத்தம்] அம்பூர் அருகே பள்ளி பேருந்து விபத்து இடத → அம்பூர் அருகே பள்ளி பேருந்து விபத்து இடத
+[publish] அம்பூர் அருகே பள்ளி பேருந்து விபத்து இடத்தில் NHAI பாதுகாப்பு நடவடிக்கை
+[skip] வெளிநாட்டு NGO-வின் பொதுவான கொள்கை விமர்சனம்; தமிழ்நாடு அரசு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: NHAI, Forest Department efforts provide Pichavar
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; அமைச்சர் ஆதவ் அர்ஜுனா என்ன
+[திருத்தம்] தமிழ்நாடு அரசில் முதல்வருக்கு இரு ஆலோசகர → விஜய় தலைவரிக் கட்சி அரசு: முதல்வருக்கு 
+[தரம்] தமிழ் அல்லாத எழுத்து: किর়ি → ஒரு திருத்தம்
+[publish] விஜய் தலைவரிக் கட்சி அரசு: முதல்வருக்கு இரு ஆலோசகர் நியமனம், தமிழ்நாட்டு அரசுப் பணியாளர் வட்டாரங்களில் கலந்த கருத்து
+[comic] கதை: கடம்பூர் வாயிலில் வந்தியத்தேவன்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-21.png · நாள் 14
+[rasi] ராசிபலன் தயார்
 [market] தங்கம் 22K ₹14001 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
-[image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
