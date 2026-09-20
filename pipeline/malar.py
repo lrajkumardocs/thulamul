@@ -47,6 +47,22 @@ def _wrap(d, text, font, max_w):
 
 
 # ---------------------------------------------------------------- Gemini ஓவியம்
+STYLE_TOON = (
+    "Tamil Nadu political cartoon in the style of a Tamil weekly humour page. "
+    "Bold confident black outlines, flat bright saturated colours, clean hand-drawn feel. "
+    "CHARACTERS MUST LOOK SOUTH INDIAN TAMIL: medium-to-dark brown skin, black hair, "
+    "typical Tamil Nadu features; men in a simple cotton shirt with a white veshti/dhoti, "
+    "or a plain shirt and trousers; some with a thick moustache; a politician type in a spotless "
+    "white shirt and white veshti with a shawl over the shoulder. Older men may have grey hair and glasses. "
+    "NOT north Indian, NOT kurta-pyjama, NOT turbans, NOT western suits. "
+    "Setting is unmistakably Tamil Nadu: a small town government office with steel chairs and files, "
+    "a tea stall, a bus stop, a village road, a party office with plastic chairs. "
+    "Exaggerated comic expressions — wide eyes, raised eyebrows, open mouths, expressive hands; "
+    "slightly caricatured proportions with bigger heads. Plain light background, few props. "
+    "Not photorealistic, not 3D, not anime. "
+    "ABSOLUTELY NO TEXT: no words, letters, numbers, signage, speech bubbles or captions anywhere — "
+    "every board, paper, screen and wall must be completely blank.")
+
 STYLE_INK = ("Editorial ink-line illustration, black brush pen on warm off-white paper, "
          "cross-hatching for shade, single restrained brass-gold accent on one key object, "
          "clean composition, no colour wash, no photorealism. "
@@ -295,7 +311,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
 
     # நையாண்டி — 5 கேலிச்சித்திரம்
     for i, s in enumerate(m.get("satire", [])[:5], 1):
-        b = gemini_image(s.get("scene_en", ""), f"s{i}", style=STYLE_INK)
+        b = gemini_image(s.get("scene_en", ""), f"s{i}", style=STYLE_TOON)
         if b:
             fp = OUT / f"{today}_satire{i}.png"
             cap = (s.get("line") or "").strip()
@@ -448,11 +464,12 @@ def topup(client, model, m, today, week_heads="", telegram=None):
     for i, x in enumerate(sat[:5], 1):
         if x.get("image"):
             continue
-        b = gemini_image(x.get("scene_en") or "Two ordinary Indian people talking at a government office counter", f"s{i}", style=STYLE_INK)
+        b = gemini_image(x.get("scene_en") or "Two ordinary Indian men talking, one reacting in surprise", f"s{i}", style=STYLE_TOON)
         if b:
-            fp = OUT / f"{today}_satire{i}.png"
-            cap = f"— {x.get('a','')}   — {x.get('b','')}" if x.get("a") else (x.get("line") or "")
-            caption_image(b, cap, f"நையாண்டி · {i}", fp)
+            fp = OUT / f"{today}_satire{i}.jpg"
+            im = Image.open(io.BytesIO(b)).convert("RGB")
+            im = im.resize((900, int(im.height * 900 / im.width)), Image.LANCZOS)
+            im.save(fp, "JPEG", quality=82, optimize=True)      # உரை அட்டையில் வரும்
             x["image"] = f"data/malar/{fp.name}"; changed = True
         time.sleep(1)
 
@@ -516,3 +533,57 @@ def restore(m, path, used_weeks=()):
         if src.get(k) and not m.get(k):
             m[k] = src[k]
     return m, src.get("week")
+
+
+def refresh_parts(client, model, m, today, parts=("films", "satire"), cinema_news="", telegram=None):
+    """வாரமலரில் குறிப்பிட்ட பகுதிகளை மட்டும் மீண்டும் உருவாக்கு. மற்றவை தொடப்படாது.
+    செலவு: ஒரு சிறு அழைப்பு + தேவையான படங்கள் மட்டும்."""
+    OUT.mkdir(parents=True, exist_ok=True)
+    sysmsg = open(PIPE / "prompts" / "malar.md", encoding="utf-8").read()
+    want = ", ".join(parts)
+    user = (f"வாரமலர். இந்தப் பகுதிகளை மட்டும் JSON-ஆகத் தா: {want}. மற்றவற்றை இப்போது தராதே.")
+    if "films" in parts:
+        user += ("\nஇந்த வாரச் சினிமாச் செய்திகள்:\n" + (cinema_news[:6000] or "(தரவு இல்லை)") +
+                 "\nஇவற்றில் உண்மையில் வெளியான படங்களை மட்டும் எடு; உறுதியாகத் தெரியாவிட்டால் films: [].")
+    try:
+        msg = client.messages.create(model=model, max_tokens=7000, timeout=600.0,
+                                     system=sysmsg, messages=[{"role": "user", "content": user}])
+        raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+        raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
+        got = json.loads(raw[raw.find("{"):raw.rfind("}") + 1])
+    except Exception as ex:
+        print("[malar:refresh]", str(ex)[:100]); return None
+
+    changed = False
+    if "films" in parts and isinstance(got.get("films"), list):
+        m["films"] = got["films"]
+        m = _spell(m, cinema_news)
+        for f in m["films"]:
+            f["poster"] = wiki_photo(f.get("poster_query") or f.get("title", "")) or tmdb_poster(
+                f.get("poster_query") or f.get("title", "")) or None
+        changed = True
+        print("[malar] திரை விமர்சனம்:", ", ".join(x.get("title", "") for x in m["films"]))
+
+    if "satire" in parts and isinstance(got.get("satire"), list):
+        m["satire"] = got["satire"][:5]
+        for i, x in enumerate(m["satire"], 1):
+            b = gemini_image(x.get("scene_en", ""), f"s{i}", style=STYLE_TOON)
+            if b:
+                fp = OUT / f"{today}_satire{i}.png"
+                im = Image.open(io.BytesIO(b)).convert("RGB")
+                im = im.resize((900, int(im.height * 900 / im.width)), Image.LANCZOS)
+                fp = fp.with_suffix(".jpg")
+                im.save(fp, "JPEG", quality=82, optimize=True)   # 2MB → ~150KB
+                x["image"] = f"data/malar/{fp.name}"
+            time.sleep(1)
+        changed = True
+        print("[malar] நையாண்டி:", len(m["satire"]))
+
+    if changed:
+        m["v"] = 14
+        if telegram:
+            try:
+                telegram("📔 வாரமலர் — " + want + " புதுப்பிக்கப்பட்டது.")
+            except Exception:
+                pass
+    return m if changed else None
