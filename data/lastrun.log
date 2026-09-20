@@ -1,14 +1,14 @@
-[fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 6 புதியவை
+[fetch] RBI: 8 புதியவை
+[fetch] ET Markets: 5 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 15 புதியவை
+[fetch] Dinamani TN: 14 புதியவை
 [fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 10 புதியவை
-[fetch] Al Jazeera: 17 புதியவை
+[fetch] BBC World: 11 புதியவை
+[fetch] Al Jazeera: 14 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Cinema: 3 புதியவை
 [fetch] Cinema Express: 27 புதியவை
 [fetch] The Hindu Tech: 8 புதியவை
 [fetch] Wired: 22 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 7 புதியவை
+[fetch] FreeJobAlert: 6 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 3 புதியவை
+[fetch] The Hindu Legal: 1 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 24 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 18 புதியவை
-[fetch] The Verge: 7 புதியவை
-[fetch] The Hindu National: 3 புதியவை
+[fetch] TechCrunch: 17 புதியவை
+[fetch] The Verge: 6 புதியவை
+[fetch] The Hindu National: 1 புதியவை
 [fetch] NDTV India: 11 புதியவை
-[fetch] India Today: 13 புதியவை
+[fetch] India Today: 12 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 21 புதியவை
+[fetch] Dinamani India: 14 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe84281a210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 3 புதியவை
-[fetch] Dinamani Govt: 15 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe698502e10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 1 புதியவை
+[fetch] Dinamani Govt: 14 புதியவை
 [fetch] Times Govt Schemes: 15 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,37 +67,28 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 430 → நிகழ்வுகள் 411
+[run] புதியவை 404 → நிகழ்வுகள் 387
 [triage] சேமித்த மதிப்பெண் (424) — புதிய அழைப்பு இல்லை
-[triage] 411 → 24 | காலி: world:3, court:3, govt:3, cinema:3, india:2
-[skip] திரை விமர்சனம் — இப்பக்கத்தில் விலக்கப்பட்டுள்ளது. விமர்சனம்
-[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனங்களின் உள்நாட்டு ஆராய்ச்சியைப்
-[skip] இது உத்தரப் பிரதேச மாநில முதல்வரின் உள்ளூர் அரசியல் பேச்சு; 
-[skip] வெளிநாட்டுக் குற்றவியல் விசாரணை — தமிழ்நாடு/இந்தியாவுக்குத் 
-[skip] உத்தரப்রதேश மாநில அரசின் உள்ளூர் அரசியல் அறிவிப்பு. தமிழ்நாட
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை - ஐந்து அர
-[skip] வெளிநாட்டு அரசியல் நடிப்பு — தமிழ்நாட்டு/இந்திய வாசகரைப் பாத
-[skip] அரசியல் நிகழ்வு — கட்சித் தலைவர் உரை. அரசு அறிவிப்பு (govt எ
-[skip] உத்தரகண்ட் மாநிலத்தின் உள்ளூர் தனிநபர் சோகச் சம்பவம், தமிழ்ந
-[skip] செய்திக் குறிப்பு 'tech' என்றாலும், இந்தச் செய்தி தமிழ்நாடு/
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை உருவாக்க போதிய வி
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, விவரமான உள்ளட
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் கோயில் நிர்வாக விவகாரம்; போதிய 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி உள்ளடக்கம் இல்
-[skip] மும்பையில் நடந்த உள்ளூர் சாலை விபத்து செய்தி, தமிழ்நாட்டுடன்
-[திருத்தம்] ஆந்திரக் கடற்பகுதியில் இந்தியா இலங்கை கட → ஆந்திரக் கடற்பகுதியில் இந்தியா - இலங்கை 
-[tts-edge] 8bce994d931f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆந்திரக் கடற்பகுதியில் இந்தியா - இலங்கை கடற்படை கூட்டுப் பயிற்சி
-[skip] இது உத்தரப் பிரதேச மாநிலத்தின் உள்ளூர் கட்சி அரசியல் செய்தி;
-[skip] BITSAT is an entrance exam for engineering admission at BITS
-[skip] விமர்சனம் — இந்த வகையை தமிழ்நாட்டு நாளிதழ்க்குக் கூடாது. மதி
-[skip] Andhra Pradesh (Vijayawada) news — non-Tamil Nadu local even
-[skip] தமிழ்த் திரையுலகம் சம்பந்தமில்லாத ஆங்கிலப் நேர்காணல் மூலம். 
-[skip] இது உலகளாவிய கிரிப்டோ சந்தை மற்றும் அமெரிக்க கூட்டாட்சி முடி
-[skip] வெளிநாட்டு இரு நாட்டு உறவு — தமிழ்நாடு/இந்தியாவுக்குத் தற்போ
-[skip] இது பல்வேறு மாநில அரசுகளின் பத்திரங்கள் ஏலம் தொடர்பான RBI தொ
+[triage] 387 → 13 | காலி: world:3, court:3, govt:3, cinema:3, economy:2
+[skip] திரை விமர்சனம். தமிழ்நாட்டுச் செய்திப் பக்கத்தில் விமர்சனம் 
+[skip] கிரீசிலെ ஒரு சிறு சம்பவம் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்
+[skip] இது உத்தரகண்ட் மாநிலத்தின் உள்ளூர் குற்றச் சம்பவம்; தமிழ்நாட
+[skip] வெளிநாட்டு அரசியல் — இந்தியா அல்லது தமிழ்நாட்டுக்குச் சம்பந்
+[skip] அர்ஜென்டினாவின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப
+[tts-edge] 65a188827563: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டில் 21 மாவட்டங்களில் இன்று பலத்த மழைக்கு வாய்ப்பு
+[skip] IIT Bombay is in Maharashtra, not Tamil Nadu. This is a loca
+[tts-edge] b7daa996f138: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] MOIL நிர்வாகி நியமன நடைபோக்கு சேவையாய் அக்டோபர் 7
+[திருத்தம்] சினிமா: 'ஆஷா' இயக்குநர் சாஃபர் சனல் நடிக → 'ஆஷா' இயக்குநர் சாஃபர் சனல்: உர்வஷி இல்ல
+[publish] 'ஆஷா' இயக்குநர் சாஃபர் சனல்: உர்வஷி இல்லாமல் இந்தப் படம் உருவாகியிருக்காது
+[publish] பழனி கோயிலில் ரோப்வே சேவை செப்டம்பர் 22 முதல் மறுதொடக்கம்
+[skip] ஆங்கிலப் தொடர்வரிசை (Amazon Prime) — தமிழ்நாட்டு சினிமாவுடன்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFPzXKDSA8Mr1RocUKBk'}
+[skip] இது வழக்கமான ரிசர்வ் வங்கியின் கருவூல உண்டி ஏலம் தொடர்பான தொ
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹14001 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 1
+[done] feed 300 · pending 0 · எழுதியவை 4
