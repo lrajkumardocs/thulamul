@@ -1,16 +1,16 @@
-[fetch] RBI: 4 புதியவை
-[fetch] ET Markets: 4 புதியவை
+[fetch] RBI: 3 புதியவை
+[fetch] ET Markets: 3 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 11 புதியவை
-[fetch] BBC Tamil: 6 புதியவை
+[fetch] Dinamani TN: பிழை HTTPSConnectionPool(host='www.dinamani.com', port=443): Read timed out. (read timeout=20)
+[fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 10 புதியவை
 [fetch] Al Jazeera: 9 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
-[fetch] The Hindu Sport: 24 புதியவை
+[fetch] The Hindu Sport: 23 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 25 புதியவை
-[fetch] The Hindu Tech: 8 புதியவை
+[fetch] Cinema Express: 24 புதியவை
+[fetch] The Hindu Tech: 6 புதியவை
 [fetch] Wired: 22 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -41,7 +41,7 @@
 [fetch] India Today: 10 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 14 புதியவை
+[fetch] Dinamani India: 15 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb40ab31290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f95f17b67d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 1 புதியவை
-[fetch] Dinamani Govt: 11 புதியவை
+[fetch] Dinamani Govt: 9 புதியவை
 [fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,29 +67,36 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 379 → நிகழ்வுகள் 366
-[triage] 366 → 30 | காலி: world:3, court:3, economy:2, cinema:2, assembly:2
-[skip] வெளிநாட்டு அளவிலான தொழில்நுட்ப எச்சரிக்கை; தமிழ்நாட்டு/இந்தி
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; உண்மைத் தரவு, எண்கள், அதிக
-[தரம்] தமிழ் அல்லாத எழுத்து: গনভােേ → ஒரு திருத்தம்
-[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: ஆசிய விளையாட்டு 2026: துப்பாக்கி சுடுப
-[tts-edge] e5009b876cf0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆசிய விளையாட்டு 2026: துப்பாக்கி சுடுபவர்கள் இரண்டு வெள்ளிப் பதக்கம்
-[திருத்தம்] கோயம்புத்தூரில் நாளை குடியரசு துணைத் தலை → கோவையில் நாளை குடியரசு துணைத் தலைவர் வரு
-[tts-edge] 20121e08a6c9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கோவையில் நாளை குடியரசு துணைத் தலைவர் வருகை, ட்ரோன் தடை
-[skip] Apple Pay இந்தியாவில் வரலாம் என்ற ஒரு ஊகம் மட்டும்; இன்னும் 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFUYStAu1pCHukAgPtqN'}
-[skip] இது லக்னோவில் உள்ள ஒரு தனியார் கல்வி நிறுவனத்தின் உள்ளூர் ஒப
-[skip] மூலத்தில் இந்திய ரிசர்வ் வங்கி வெளியிட்ட உண்மையான வெளிநாட்டு
-[skip] உत্തர் பிரதேச மாநிலத்தின் உள்ளூர் शिक्षा நிறுவனத் திட்டம். த
-[skip] வதந்தி மட்டும் — படம் இன்னும் அறிவிக்கப்படவில்லை, கூட்டணி உற
-[skip] இது இந்தியாவின் மிகப் பெரும் பணக்காரர்களின் (HNI) சொத்து முத
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — பிரிட்டன் அரச குடும்பத்தின் த
-[skip] உலகப் பிரকृതிக் கட்டுரை — செய்திதல் அல்ல. திமிங்கலப் பாடல் ப
-[skip] தமிழ்நாட்டுச் செய்தி; world துறையாக குறிப்பிடப்பட்டுள்ளது ஆன
-[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13976 · சென்செக்ஸ் 74295
+[run] புதியவை 358 → நிகழ்வுகள் 346
+[triage] சேமித்த மதிப்பெண் (349) — புதிய அழைப்பு இல்லை
+[triage] 346 → 30 | காலி: world:3, court:3, economy:2, cinema:2, assembly:2
+[skip] மேற்கு வங்காள மாநிலத்திற்கான உள்ளூர் வானிலை எச்சரிக்கை, தமிழ
+[skip] வெளிநாட்டு உள்நாட்டு இராஜதந்திர சம்பவம் — பிரான்স் மற்றும் ஈ
+[skip] West Bengal is a different state; not relevant to Tamil Nadu
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘₹4,000 crore investment to strengthen Chennai p
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் இயற்கை விபத்துச் செய்தி; தமிழ்ந
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Bridge commercial EV, charging gaps for wider ad
+[திருத்தம்] பாதுகாப்பு தளவாட உற்பத்தி, ஏற்றுமதி பத்த → பாதுகாப்பு தளவாட உற்பத்தி, ஏற்றுமதி 10 ஆ
+[tts-edge] c97b2f7a9555: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பாதுகாப்பு தளவாட உற்பத்தி, ஏற்றுமதி 10 ஆண்டுகளில் அதிகரிப்பு: இணையமைச்சர்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Need For Speed
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், தேதி, சம்பந்தப்பட்டவ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFXei31bqBYi9ywQL5DN'}
+[skip] நொய்டாவில் நடந்த உள்ளூர் உறுப்பு போக்குவரத்து நிகழ்வு - தமிழ
+[திருத்தம்] வங்கி கருவூலத்தில் பதினேழு கோடி ரூபாய் க → வங்கி கருவூலத்தில் ரூ.17.29 கோடி கள்ளநோட
+[tts-edge] 6b7796f7cc50: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வங்கி கருவூலத்தில் ரூ.17.29 கோடி கள்ளநோட்டுகள்: மேலும் இருவர் கைது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFXnVYerq76v4S9SSqac'}
+[skip] தமிழ்த் திரையுலகத்தைப் பற்றிய செய்தி இல்லை. 'Mandaadi' படத்த
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFXqR8aJSNfuoarTWGJL'}
+[skip] ரஷ்யாவின் உள்ளூர் வரலாற்றுக் கட்டுரை — தமிழ்நாடு அல்லது இந்த
+[skip] இது ஒரு நிதி நிறுவனத்தின் தலைமை முதலீட்டு அதிகாரியின் தனிப்ப
+[publish] 2032 ஒலிம்பிக் நடக்கவுள்ள ஆற்றில் முதலைகளை விட பெரிய சவால்
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: சிப்காட் விரிவாக்கம்: நிலமா, தொழிலா?
+[image] 3 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13964 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
-[image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 2
+[push] 0 அறிவிப்புகள்
+[image] 3 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 3
