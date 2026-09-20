@@ -1,15 +1,15 @@
 [fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
 [fetch] Dinamani TN: 24 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 11 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
 [fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 27 புதியவை
 [fetch] The Hindu Cinema: 14 புதியவை
-[fetch] Cinema Express: 26 புதியவை
+[fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 9 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -28,17 +28,17 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 16 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 13 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 16 புதியவை
+[fetch] The Hindu National: 13 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 16 புதியவை
+[fetch] India Today: 15 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fef497e9210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 16 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f48bb886c10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 13 புதியவை
 [fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,23 +67,15 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 589 → நிகழ்வுகள் 555
+[run] புதியவை 578 → நிகழ்வுகள் 547
 [triage] சேமித்த மதிப்பெண் (577) — புதிய அழைப்பு இல்லை
-[triage] 555 → 21 | காலி: govt:3, crime:3, tn:1, jobs:1, health:1
-[skip] கேரள மாநிலத்தின் உள்ளூர் காவல்துறை ஊழல் வழக்கு, தமிழ்நாட்டு 
-[skip] மும்பையில் நடந்த உள்ளூர் விபத்துச் செய்தி; தமிழ்நாட்டுடன் தொ
-[skip] ஆந்திரப் பிரதேசத்தில் நடந்த உள்ளூர் குற்றச் சம்பவம், தமிழ்நா
-[skip] கேரளாவின் உள்ளூர் காவல்துறை நடவடிக்கை — தமிழ்நாடு வாசகரின் ச
-[skip] நடிகர் சிறுவர்ப் பொழுதுபோக்கு நடிகர் சனந்த் மற்றும் இயக்குநர
-[skip] வெளிநாட்டு உள்ளூர் காவல்நடவடிக்கை. தமிழ்நாடு/இந்தியாவுக்குப்
-[skip] महाराष्ट्र (मुंबई) में हुई दुर्घटना है। तमिलनाडु से कोई संबं
-[skip] வெளிநாட்டு அரசியல் மற்றும் ஈரান்-அமெரிக்க உறவு பற்றிய செய்தி
-[skip] आंध्र प्रदेश का अंदरूनी अपराध समाचार है, तमिलनाडु के पाठकों 
-[tts-edge] ab07512fbdd9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எதிஹாத் விமான நிறுவனத்தின் அபுதாபி விமானம் ரத்து, டெல்லியில் 200 பயணிகள் முடங்கல்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, விவரமான செய்த
-[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் குற்றச் சம்பவம், தமிழ்நாட்ட
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: An extended and green Ganesh Chaturthi
+[triage] 547 → 21 | காலி: govt:3, crime:3, tn:1, jobs:1, health:1
+[திருத்தம்] கள்ளக்குறிச்சியில் மாணவர் தாக்குதல் வழக் → கள்ளக்குறிச்சியில் ஆதிதிராவிட மாணவர் தாக
+[tts-edge] 8ddb5b986aae: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கள்ளக்குறிச்சியில் ஆதிதிராவிட மாணவர் தாக்குதல் வழக்கில் காவல் துறை விசாரணை
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது அரசு அறிவிப்பு (govt) அல்ல; ஒரு பள்ளிச் சம்பவம் — அக்கிர
+[திருத்தம்] களக்குறிச்சியில் மாணவர் தாக்குதல் - எட்ட → களக்குறிச்சியில் பட்டியல் சாதி மாணவர் தா
 Traceback (most recent call last):
   File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1767, in <module>
     main()
