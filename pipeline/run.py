@@ -194,7 +194,7 @@ def write_filler(client, topic, today, now):
               'JSON மட்டும், code fence இல்லை: {"headline":"தலைப்பு 6–12 சொல்","lines":["5 வாக்கியம் — ஒவ்வொன்றும் முற்றுப்புள்ளியில் முடிய வேண்டும்"],"closing":"ஒரு வரி முடிவு","tags":["2 சொல்"]}')
         
     try:
-        msg = client.messages.create(model=MODEL, max_tokens=1500, system=sysmsg,
+        msg = client.messages.create(model=MODEL, max_tokens=1500, system=cached(sysmsg),
                                      messages=[{"role": "user", "content": f"இன்று {today}. {TOPIC_TA.get(topic, topic)} பக்கத்திற்கு ஒரு கட்டுரை எழுது."}])
         raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
         d = parse_json(client, raw)
@@ -415,6 +415,15 @@ def make_cartoon(scene_en, today, caption=""):
             print(f"[cartoon] {model} பிழை", str(ex)[:120])
     return None
 
+
+def cached(text):
+    """System prompt-ஐ cache செய் — மீண்டும் அனுப்பும்போது 90% மலிவு.
+    1024 token-க்கு மேல் உள்ள prompt-களுக்கு மட்டும் பயனுள்ளது."""
+    t = str(text or "")
+    if len(t) < 3000:                      # சிறியது — cache தேவையில்லை
+        return t
+    return [{"type": "text", "text": t, "cache_control": {"type": "ephemeral"}}]
+
 def parse_json(client, raw, what="JSON"):
     """JSON-ஐ படிக்க முயல்; தோல்வி → Claude-ஐயே திருத்தச் சொல் (சிறிய அழைப்பு)."""
     a, b = raw.find("{"), raw.rfind("}")
@@ -450,7 +459,7 @@ def triage(client, clusters):
               "பக்கத்தில் இடம்பெறத் தகுதியான, மக்களைப் பாதிக்கும் செய்திகளுக்கு மட்டும் — 100-ல் 15-க்கு மேல் இருக்கக் கூடாது. "
               'JSON மட்டும், code fence இல்லை: {"s":{"0":7,"1":3,...}} — எண் மட்டும்.')
     try:
-        msg = client.messages.create(model=MODEL_FAST, max_tokens=2000, system=sysmsg,
+        msg = client.messages.create(model=MODEL_FAST, max_tokens=2000, system=cached(sysmsg),
                                      messages=[{"role": "user", "content": "\n".join(items)}])
         raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
         d = json.loads(raw[raw.find("{"):raw.rfind("}") + 1]).get("s", {})
@@ -465,7 +474,7 @@ def write_news(client, prompt, c, today, model=None):
         for n, i in enumerate(c["items"][:2]))
     msg = client.messages.create(
         model=(model or MODEL), max_tokens=3000,
-        system=prompt.replace("{{TODAY}}", today),
+        system=cached(prompt.replace("{{TODAY}}", today)),
         messages=[{"role": "user", "content": f"துறை குறிப்பு: {c['topic_hint']}\n\n{src_text}"}],
     )
     raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
@@ -682,8 +691,8 @@ def proofread(client, story, src_text):
     payload = json.dumps({"headline": story.get("headline"), "lines": story.get("lines"),
                           "closing": story.get("closing")}, ensure_ascii=False)
     msg = client.messages.create(
-        model=MODEL_FAST, max_tokens=1800, system=sysmsg,
-        messages=[{"role": "user", "content": "மூல உரை:\n" + str(src_text)[:3000] +
+        model=MODEL_FAST, max_tokens=1500, system=cached(sysmsg),
+        messages=[{"role": "user", "content": "மூல உரை:\n" + str(src_text)[:1800] +
                                               "\n\nசெய்தி:\n" + payload}])
     raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
     d = parse_json(client, raw)
@@ -703,7 +712,7 @@ def fix_text(client, story, errs):
               "ஒரு வரி 20 சொல்லுக்குள்; அரைகுறையாக முடியக் கூடாது. JSON மட்டும், code fence இல்லை.")
     payload = json.dumps({"headline": story.get("headline"), "lines": story.get("lines"),
                           "closing": story.get("closing")}, ensure_ascii=False)
-    msg = client.messages.create(model=MODEL, max_tokens=2500, system=sysmsg,
+    msg = client.messages.create(model=MODEL, max_tokens=2500, system=cached(sysmsg),
                                  messages=[{"role": "user", "content": payload + "\n\nபிழைகள்: " + "; ".join(errs)}])
     raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
     d = parse_json(client, raw)
@@ -1455,7 +1464,7 @@ def main():
                 jp = ("நீ துலாமுள் நாளிதழின் வேலைவாய்ப்பு பக்க எழுத்தாளர். கீழே உள்ள மூலங்களிலிருந்து இன்றைய வேலை அறிவிப்புகளை JSON-ஆக மட்டும் தொகு: "
                       '{"items":[{"org":"நிறுவனம்/துறை","post":"பதவி","count":"இடங்கள் அல்லது null","last_date":"YYYY-MM-DD அல்லது null","type":"அரசு|தனியார்","link":"url"}]} '
                       "உண்மைகள் மட்டும்; மூலத்தில் இல்லாததைச் சேர்க்காதே; ஒரே அறிவிப்பு இரு முறை வேண்டாம்; அதிகபட்சம் 12. தமிழில் org/post.")
-                msg = client.messages.create(model=MODEL, max_tokens=3000, system=jp, messages=[{"role": "user", "content": src_text}])
+                msg = client.messages.create(model=MODEL, max_tokens=3000, system=cached(jp), messages=[{"role": "user", "content": src_text}])
                 rw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
                 j = parse_json(client, rw); items = j.get("items", [])
                 if items:
@@ -1543,7 +1552,7 @@ def main():
         if now.hour >= 4 and ed.get("date") != today and len(todays_pub) >= 2 and not api_dead:
             src = "\n\n".join(f"[{x['topic_ta']}] {x['headline']}\n" + " ".join(x["lines"]) for x in todays_pub[:10])
             ep = (ROOT / "pipeline/prompts/editorial.md").read_text(encoding="utf-8").replace("{{TODAY}}", today)
-            msg = client.messages.create(model=MODEL, max_tokens=3000, system=ep, messages=[{"role": "user", "content": src}])
+            msg = client.messages.create(model=MODEL, max_tokens=3000, system=cached(ep), messages=[{"role": "user", "content": src}])
             raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
             e = parse_json(client, raw); e["date"] = today; e["author"] = "Mr. X"
             e["audio"] = make_audio(f"editorial_{today.replace('-', '')}", f"தராசில் இன்று. {e['title']}. {e['issue']} ஒரு தட்டு: {e['side_a']['label']}. " + " ".join(e["side_a"]["points"]) + f" மறு தட்டு: {e['side_b']['label']}. " + " ".join(e["side_b"]["points"]) + " " + e["question"])
