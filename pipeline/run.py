@@ -669,9 +669,33 @@ def is_duplicate(story, feed, today):
         if not old:
             continue
         j = len(new & old) / max(1, len(new | old))
-        if j >= 0.5:
+        if j >= 0.35:
             return x.get("headline", "")[:60]
     return False
+
+
+def dedupe_feed(feed, today):
+    """சேமிப்பதற்கு முன் இறுதிச் சுத்தம் — ஒரே நாளில் ஒத்த தலைப்புகள் இருந்தால் முதலியது மட்டும்."""
+    kept, dropped = [], 0
+    todays = []
+    for x in feed:
+        if str(x.get("published_at", ""))[:10] != today or x.get("status") != "published":
+            kept.append(x); continue
+        a = _hwords(x.get("headline"))
+        dup = False
+        for y in todays:
+            b = _hwords(y.get("headline"))
+            if not a or not b:
+                continue
+            if len(a & b) / max(1, len(a | b)) >= 0.35:
+                dup = True; break
+        if dup:
+            dropped += 1
+            continue
+        todays.append(x); kept.append(x)
+    if dropped:
+        print(f"[நகல்] {dropped} மீண்டும் வந்த செய்தி நீக்கப்பட்டது")
+    return kept
 
 def proofread(client, story, src_text):
     """கட்டாயப் பிழைதிருத்தம் — Haiku (மலிவு). சூழல் பிழைகளைப் பிடிக்கும்:
@@ -1117,6 +1141,61 @@ def image_matches(im, query):
         return True
     return any(w in hay for w in words[:4])
 
+
+# துறை ↔ ஆங்கிலச் சொல் பொருத்தம் — image_query வேறு துறையைச் சேர்ந்ததா எனச் சோதிக்க
+TOPIC_WORDS = {
+    "health": {"health", "medical", "medicine", "hospital", "doctor", "patient", "drug", "disease",
+               "vaccine", "clinic", "nurse", "pharmacy", "heart", "cancer", "diabetes"},
+    "economy": {"economy", "market", "stock", "trading", "bank", "rupee", "finance", "investment",
+                "gdp", "inflation", "budget", "tax", "export", "import", "gold", "price"},
+    "court": {"court", "justice", "judge", "legal", "law", "verdict", "petition", "tribunal", "gavel"},
+    "crime": {"police", "crime", "arrest", "justice", "investigation", "theft", "case", "gavel"},
+    "sports": {"sport", "cricket", "hockey", "football", "athlete", "stadium", "medal", "games",
+               "kabaddi", "olympic", "player", "match", "tournament"},
+    "cinema": {"film", "cinema", "movie", "actor", "actress", "director", "shooting", "poster", "music"},
+    "jobs": {"job", "employment", "exam", "recruitment", "students", "office", "interview", "career"},
+    "tech": {"technology", "digital", "internet", "mobile", "smartphone", "computer", "software", "app"},
+    "govt": {"government", "official", "scheme", "ministry", "parliament", "secretariat", "document"},
+}
+
+
+
+_BANK = None
+
+
+def bank_image(topic, headline=""):
+    """படக் களஞ்சியத்திலிருந்து அந்தத் துறைக்கு ஒரு படம் (சுழற்சி முறையில்)."""
+    global _BANK
+    if _BANK is None:
+        try:
+            _BANK = json.loads((DATA / "bank_index.json").read_text(encoding="utf-8"))
+        except Exception:
+            _BANK = {}
+    items = _BANK.get(topic) or []
+    if not items:
+        return None
+    # தலைப்பை வைத்து நிலையான தேர்வு — ஒரே செய்திக்கு ஒரே படம்
+    k = sum(ord(ch) for ch in str(headline)[:40]) % len(items)
+    it = items[k]
+    return {"url": it["file"], "credit": "துலாமுள் AI ஓவியம்",
+            "license": "சொந்தப் படைப்பு", "symbolic": True, "bank": True}
+
+def query_fits(story):
+    """image_query / wiki_subject செய்தியின் துறையுடன் பொருந்துகிறதா?
+    வேறு துறையின் சொல் இருந்தால் — படம் வேண்டாம் (தவறான படத்தைவிட மேல்)."""
+    topic = story.get("topic") or ""
+    blob = ((story.get("image_query") or "") + " " + (story.get("wiki_subject") or "")).lower()
+    if not blob.strip():
+        return True
+    words = set(re.findall(r"[a-z]+", blob))
+    mine = TOPIC_WORDS.get(topic, set())
+    for t, ws in TOPIC_WORDS.items():
+        if t == topic:
+            continue
+        if words & ws and not (words & mine):
+            return False                      # வேறு துறையின் சொல் மட்டும் — பொருந்தாது
+    return True
+
 def pick_image(c, story=None):
     """படம் — தவறான படத்தைவிட படமே இல்லாதது மேல்."""
     for i in c["items"]:
@@ -1125,6 +1204,9 @@ def pick_image(c, story=None):
             return {"url": u, "credit": i["source"], "license": "அரசு / திறந்த உரிமம்"}
     if not story:
         return None
+    if not query_fits(story):
+        print("[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்:", str(story.get("headline"))[:38])
+        return bank_image(story.get("topic") or "", story.get("headline"))
 
     # 1) AI தந்த விக்கிப்பீடியாத் தலைப்பு — மிகத் துல்லியம்
     ws = (story.get("wiki_subject") or "").strip()
@@ -1146,9 +1228,8 @@ def pick_image(c, story=None):
         return None
 
     if c.get("topic_hint") == "crime" or story.get("topic") == "crime":
-        return stock_image("", random.choice(
-            ["scales of justice statue", "police vehicle india", "court gavel wooden",
-             "police station building india", "legal documents file"]))
+        return bank_image("crime", story.get("headline")) or stock_image(
+            "", "scales of justice statue")
     q = (story.get("image_query") or "").strip()
     if not q:
         return None
@@ -1160,7 +1241,7 @@ def pick_image(c, story=None):
     if im and image_matches(im, q):
         im["symbolic"] = True
         return im
-    return None
+    return bank_image(story.get("topic") or c.get("topic_hint") or "", story.get("headline"))
 
 def telegram(text):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
@@ -1416,7 +1497,7 @@ def main():
                                    "body": story["lines"][0][:140], "url": f"./#story/{story['id']}",
                                    "tag": story["id"], "front": len(story.get("sources", [])) >= 3})
             print("[publish]", story["headline"])
-        save_json(FEED_FILE, feed[:300]); save_json(PENDING_FILE, pending)
+        save_json(FEED_FILE, dedupe_feed(feed, today)[:300]); save_json(PENDING_FILE, pending)
         state["seen"] = list(seen)[-5000:]; save_json(STATE_FILE, state)   # ஒவ்வொன்றுக்கும் உடனே சேமி
 
     # 5b. காலை brief — 6:00–6:29 IST ஓட்டத்தில் (அல்லது இன்று இன்னும் இல்லையெனில்)
@@ -1495,7 +1576,19 @@ def main():
             got = mal.refresh_parts(client, MODEL, malar, today, ("films", "satire"), _cin, telegram)
             if got:
                 save_json(DATA / "malar.json", got); print("[malar] பகுதிகள் புதுப்பிக்கப்பட்டன")
-        elif malar.get("week") == week and 15 <= malar.get("v", 0) < 16 and not api_dead:
+        elif (now.weekday() == 6 and malar.get("films_week") != week and not api_dead):
+            # வாரமலர் உறைந்தது — ஞாயிறு திரை விமர்சனம் மட்டும் புதுப்பிப்பு
+            import importlib, sys
+            sys.path.insert(0, str(ROOT / "pipeline"))
+            mal = importlib.import_module("malar")
+            _cin = "\n".join(f"- {x.get('headline','')}: {' '.join((x.get('lines') or [])[:2])}"
+                             for x in feed if x.get("topic") == "cinema")[:6000]
+            got = mal.refresh_parts(client, MODEL, malar, today, ("films",), _cin, telegram)
+            if got:
+                got["films_week"] = week
+                save_json(DATA / "malar.json", got)
+                print("[malar] திரை விமர்சனம் மட்டும் (மற்ற பகுதிகள் உறைந்தவை)")
+        elif False and malar.get("week") == week and 15 <= malar.get("v", 0) < 16 and not api_dead:
             # இருக்கும் இதழ் — உரையை மாற்றாமல் விடுபட்ட படங்களை மட்டும் சேர்
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
@@ -1508,7 +1601,7 @@ def main():
                     n = mal.archive(got, DATA / "malar_archive.json"); print(f"[malar] காப்பகம் {n} வாரம்")
                 except Exception as ex:
                     print("[malar] காப்பக பிழை", str(ex)[:80])
-        elif (malar.get("week") != week and now.weekday() == 6 or malar.get("v", 0) < 13) and not api_dead:
+        elif malar.get("v", 0) < 13 and not api_dead:   # முதல் உருவாக்கம் மட்டும்; பிறகு உறைவு
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
             mal = importlib.import_module("malar")
@@ -1737,6 +1830,7 @@ def main():
         print(f"[image] {removed} காப்புரிமைப் படங்கள் நீக்கப்பட்டன")
 
     # 6. save
+    feed = dedupe_feed(feed, today)
     feed = feed[:300]
     save_json(FEED_FILE, feed)
     save_json(PENDING_FILE, pending)
