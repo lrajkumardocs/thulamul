@@ -1,4 +1,3 @@
-[expire] 53fc50311355
 [fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
@@ -57,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3ff05acd50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f79802b8b50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 27 புதியவை
 [fetch] Dinamani Govt: 16 புதியவை
 [fetch] Times Govt Schemes: 16 புதியவை
@@ -68,9 +67,9 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 598 → நிகழ்வுகள் 552
+[run] புதியவை 598 → நிகழ்வுகள் 553
 [triage] சேமித்த மதிப்பெண் (504) — புதிய அழைப்பு இல்லை
-[triage] 552 → 64 | காலி: govt:3, jobs:1, assembly:1
+[triage] 553 → 79 | காலி: govt:3, jobs:1, assembly:1
 [image] 3 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹14001 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
