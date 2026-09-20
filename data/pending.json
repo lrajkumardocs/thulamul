@@ -1,1 +1,66 @@
-[]
+[
+ {
+  "headline": "நிகழாண்டில் இதுவரை 17,049 பேருக்கு டெங்கு பாதிப்பு",
+  "lines": [
+   "நிகழாண்டில் தமிழ்நாட்டில் 17,049 பேர் டெங்கு காய்ச்சலால் பாதிக்கப்பட்டுள்ளனர் என்று சுகாதாரத் துறை அமைச்சர் அருண்ராஜ் தெரிவித்தார்.",
+   "இவர்களுக்குள் சிலர் தற்போது டெங்கு காய்ச்சலால் பாதிக்கப்பட்டு சிகிச்சையிலுள்ளனர் என்று அமைச்சர் கூறினார்.",
+   "அமைச்சர் அருண்ராஜ் டெங்கு பாதிப்பு தடுக்க மக்கள் தனிப்பட்ட சுகாதாரத்தைப் பேணிக்கொள்ள அறிவுரை வழங்கினார்.",
+   "நிலையான மழைக்காலம் கொசுக்களின் பெருக்கத்திற்கு வழிவகுத்துவிட்டது என்று சுகாதாரத் துறை நிகழ்வுகளை பதிவுசெய்துவந்தது.",
+   "தமிழ்நாட்டில் டெங்கு பாதிப்பை முற்றிலும் தடுக்க அதிகாரிகள் கொசுப் பரவல் கட்டுப்பாட்டு நடவடிக்கைகளைத் தொடரவுள்ளனர்."
+  ],
+  "closing": "மக்கள் வீட்டைச் சுற்றிலும் நீரும் கழிவும் சேர்ந்துவிடாமல் பார்த்துக்கொள்ள வேண்டும் என்று அமைச்சர் வலியுறுத்தினார்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "தமிழ்நாடு",
+   "டெங்கு",
+   "அருண்ராஜ்",
+   "சுகாதாரத் துறை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "17,049 dengue cases reported in Tamil Nadu this fiscal year",
+   "lines": [
+    "Health minister Arun Raj announced that 17,049 people have been affected by dengue fever in Tamil Nadu during the current fiscal year.",
+    "Among them, 88 people are currently undergoing treatment for dengue fever, the minister stated.",
+    "Minister Arun Raj advised the public to maintain personal hygiene to prevent dengue transmission.",
+    "The prolonged monsoon season has created favorable conditions for mosquito breeding across the state.",
+    "Health officials will continue implementing mosquito control measures to prevent further dengue spread in Tamil Nadu."
+   ],
+   "closing": "The minister emphasized that people should ensure water and waste do not accumulate around their homes."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "dengue fever awareness health",
+  "wiki_subject": "Dengue fever",
+  "person_en": "Arun Raj",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "numbers_conflict",
+   "single_source"
+  ],
+  "id": "fbacdef8cb38",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-09-21T04:52+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/20/17049-dengue-cases-reported-so-far-this-year-minister-arunraj"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Denguerash.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Dengue fever",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Dengue_fever",
+   "symbolic": false
+  },
+  "audio": "data/audio/fbacdef8cb38.mp3",
+  "created_ts": 1789946575.144334,
+  "status": "pending"
+ }
+]

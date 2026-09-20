@@ -1,5 +1,125 @@
 [
  {
+  "headline": "விரைவு ரயில் பெட்டியில் தொங்கிய பயணியை மீட்ட ரயில்வே காவலர்",
+  "lines": [
+   "விரைவு ரயில் பயணத்தின் போது ஒரு பயணி பெட்டியின் வெளிப்புறத்தில் தொங்கியிருந்தார்.",
+   "ரயில்வே காவலர் இந்த ஆபத்தான நிலையை கவனித்து உடனடியாக நடவடிக்கை எடுத்தனர்.",
+   "பயணியை பாதுகாப்பாக மீட்டெடுத்து ரயிலுக்குள் கொண்டுவந்து உதவி செய்தனர் காவலர்கள்.",
+   "இந்த சம்பவம் ரயிலுக்குள் பயணிக்கும் போது பாதுகாப்பு விதிகளை பின்பற்றுவதின் முக்கியத்தை எடுத்துக்காட்டுகிறது.",
+   "ரயில்வே அதிகாரிகள் பயணிகளை ரயிலுக்குள் தங்கியிருக்குமாறு வலியுறுத்தி வருகின்றனர்."
+  ],
+  "closing": "ரயிலப் பயணத்தின் போது ஜன்னல் வழியாக தலை வெளியே நீட்டுதல் அல்லது பெட்டியின் வெளிப்புறத்தில் செல்வது உயிருக்கு ஆபத்து என்பதை பயணிகள் மனத்தில் கொள்ள வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "ரயில்வே",
+   "விரைவு ரயில்",
+   "ரயில்வே காவலர்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Railway guard rescues passenger clinging to express train exterior",
+   "lines": [
+    "A passenger was found clinging to the outside of an express train carriage during travel.",
+    "Railway guards noticed this dangerous situation and immediately took action.",
+    "The guards safely brought the passenger back inside the train and provided assistance.",
+    "This incident highlights the importance of following safety rules while traveling by rail.",
+    "Railway officials continue to urge passengers to remain inside the train at all times."
+   ],
+   "closing": "Passengers must remember that extending heads through windows or venturing outside train coaches is a serious risk to life."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Indian Railways",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "b344d3b21f77",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-09-21T04:54+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/20/railway-police-officer-rescues-passenger-hanging-from-an-express-train-coach"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Indian_railways_18_star_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Indian Railways",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Indian_Railways",
+   "symbolic": false
+  },
+  "audio": "data/audio/b344d3b21f77.mp3",
+  "created_ts": 1789946644.8685763,
+  "status": "published"
+ },
+ {
+  "headline": "பருவநிலை மாற்றத்திற்கு நன்கு கட்டமைக்கப்பட்ட கொள்கைகள் அவசியம்: குடியரசுத் தலைவர் முர்மு",
+  "lines": [
+   "குடியரசுத் தலைவர் திரௌபதி முர்மு, பருவநிலை மாற்றத்தால் ஏற்படும் சவால்களை எதிர்கொள்ள நன்கு கட்டமைக்கப்பட்ட கொள்கைகள் அவசியம் என்று வலியுறுத்தினார்.",
+   "பருவநிலை மாற்றத்தின் தாக்கத்தைக் குறைக்க நீண்டகால திட்டமிடலுடன் கூடிய கொள்கைகள் வேண்டும் என்று அவர் கூறினார்.",
+   "இந்தக் கருத்துகளை குடியரசுத் தலைவர் ஒரு பொது நிகழ்வில் பேசும்போது வலியுறுத்தினார்.",
+   "பருவநிலை மாற்றம் உலகளாவிய பிரச்சனையாகப் பார்க்கப்படுவதை அவர் நினைவுகூர்ந்தார்.",
+   "இது தொடர்பான கூடுதல் விவரங்கள் இதுவரை அரசுத் தரப்பில் வெளியிடப்படவில்லை."
+  ],
+  "closing": "பருவநிலை மாற்றம் தொடர்பான கொள்கை வகுப்புப் பணிகள் மத்திய அரசு மட்டத்தில் தொடர்ந்து நடைபெற்று வருகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani India",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "திரௌபதி முர்மு",
+   "குடியரசுத் தலைவர்",
+   "பருவநிலை மாற்றம்",
+   "கொள்கைகள்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "President Murmu Stresses Strong Policies for Climate Change Challenges",
+   "lines": [
+    "President Droupadi Murmu said well structured policies are essential to address the challenges posed by climate change.",
+    "She stated that long-term planning policies are needed to mitigate the impact of climate change.",
+    "The President emphasized these views while speaking at a public event.",
+    "She recalled that climate change is being viewed as a global issue.",
+    "Further details regarding this have not yet been released by the government."
+   ],
+   "closing": "Policy-making efforts related to climate change continue to take place at the central government level.",
+   "closing_type": "background"
+  },
+  "id": "57ee6fa6e4d6",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-09-21T04:53+05:30",
+  "links": [
+   "https://www.dinamani.com/india/2026/Sep/20/well-structured-policies-are-essential-to-address-climate-change-challenges-president-murmu-asserts"
+  ],
+  "image": null,
+  "audio": "data/audio/57ee6fa6e4d6.mp3",
+  "created_ts": 1789946630.5923884,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "2032 ஒலிம்பிக் நடக்கவுள்ள ஆற்றில் முதலைகளை விட பெரிய சவால்",
   "lines": [
    "2032 ஒலிம்பிக் விளையாட்டுகளுக்காக ஆஸ்திரேலியாவின் ஃபிட்ஸ்ராய் ஆறு தேர்வு செய்யப்பட்டுள்ளது.",
@@ -1034,7 +1154,7 @@
    "https://www.thehindu.com/opinion/op-ed/campaign-to-reduce-the-intake-of-salt/article71468973.ece"
   ],
   "image": {
-   "url": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8c2FsdCUyMHJlZHVjdGlvbiUyMGNhcmRpb3Zhc2N1bGFyJTIwaGVhbHRofGVufDF8MHx8fDE3ODk5NDU3NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+   "url": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8c2FsdCUyMHJlZHVjdGlvbiUyMGNhcmRpb3Zhc2N1bGFyJTIwaGVhbHRofGVufDF8MHx8fDE3ODk5MzYwNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
    "credit": "Jason Tuinstra · Unsplash",
    "license": "Unsplash — இலவசம்",
    "symbolic": true

@@ -1,15 +1,15 @@
 [fetch] RBI: 3 புதியவை
-[fetch] ET Markets: 3 புதியவை
+[fetch] ET Markets: 2 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: பிழை HTTPSConnectionPool(host='www.dinamani.com', port=443): Read timed out. (read timeout=20)
-[fetch] BBC Tamil: 3 புதியவை
+[fetch] Dinamani TN: 9 புதியவை
+[fetch] BBC Tamil: 1 புதியவை
 [fetch] BBC World: 10 புதியவை
-[fetch] Al Jazeera: 9 புதியவை
+[fetch] Al Jazeera: 8 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 23 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 24 புதியவை
+[fetch] Cinema Express: 23 புதியவை
 [fetch] The Hindu Tech: 6 புதியவை
 [fetch] Wired: 22 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 1 புதியவை
+[fetch] The Hindu Legal: 0 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 24 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 15 புதியவை
 [fetch] The Verge: 6 புதியவை
-[fetch] The Hindu National: 1 புதியவை
+[fetch] The Hindu National: 0 புதியவை
 [fetch] NDTV India: 11 புதியவை
-[fetch] India Today: 10 புதியவை
+[fetch] India Today: 9 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 15 புதியவை
+[fetch] Dinamani India: 11 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f95f17b67d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 1 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f62ec4cbe50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 0 புதியவை
 [fetch] Dinamani Govt: 9 புதியவை
 [fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,36 +67,28 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 358 → நிகழ்வுகள் 346
+[run] புதியவை 354 → நிகழ்வுகள் 343
 [triage] சேமித்த மதிப்பெண் (349) — புதிய அழைப்பு இல்லை
-[triage] 346 → 30 | காலி: world:3, court:3, economy:2, cinema:2, assembly:2
-[skip] மேற்கு வங்காள மாநிலத்திற்கான உள்ளூர் வானிலை எச்சரிக்கை, தமிழ
-[skip] வெளிநாட்டு உள்நாட்டு இராஜதந்திர சம்பவம் — பிரான்স் மற்றும் ஈ
-[skip] West Bengal is a different state; not relevant to Tamil Nadu
+[triage] 343 → 29 | காலி: court:3, world:2, economy:2, cinema:2, assembly:2
+[skip] வெளிநாட்டு உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்திய வாசகருக்கு
+[திருத்தம்] தமிழ்நாட்டில் இதுவரை 17,049 பேருக்கு டெங → நிகழாண்டில் இதுவரை 17,049 பேருக்கு டெங்க
+[தரம்] மூலத்தில் இல்லாத எண்: 88 → ஒரு திருத்தம்
+[tts-edge] fbacdef8cb38: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] நிகழாண்டில் இதுவரை 17,049 பேருக்கு டெங்கு பாதிப்பு
+[திருத்தம்] பருவநிலை மாற்றத்திற்கு வலுவான கொள்கைகள்  → பருவநிலை மாற்றத்திற்கு நன்கு கட்டமைக்கப்
+[tts-edge] 57ee6fa6e4d6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பருவநிலை மாற்றத்திற்கு நன்கு கட்டமைக்கப்பட்ட கொள்கைகள் அவசியம்: குடியரசுத் தலைவர் முர்மு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘₹4,000 crore investment to strengthen Chennai p
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் இயற்கை விபத்துச் செய்தி; தமிழ்ந
+[publish] விரைவு ரயில் பெட்டியில் தொங்கிய பயணியை மீட்ட ரயில்வே காவலர்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Bridge commercial EV, charging gaps for wider ad
-[திருத்தம்] பாதுகாப்பு தளவாட உற்பத்தி, ஏற்றுமதி பத்த → பாதுகாப்பு தளவாட உற்பத்தி, ஏற்றுமதி 10 ஆ
-[tts-edge] c97b2f7a9555: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பாதுகாப்பு தளவாட உற்பத்தி, ஏற்றுமதி 10 ஆண்டுகளில் அதிகரிப்பு: இணையமைச்சர்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Need For Speed
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், தேதி, சம்பந்தப்பட்டவ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFXei31bqBYi9ywQL5DN'}
-[skip] நொய்டாவில் நடந்த உள்ளூர் உறுப்பு போக்குவரத்து நிகழ்வு - தமிழ
-[திருத்தம்] வங்கி கருவூலத்தில் பதினேழு கோடி ரூபாய் க → வங்கி கருவூலத்தில் ரூ.17.29 கோடி கள்ளநோட
-[tts-edge] 6b7796f7cc50: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வங்கி கருவூலத்தில் ரூ.17.29 கோடி கள்ளநோட்டுகள்: மேலும் இருவர் கைது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFXnVYerq76v4S9SSqac'}
-[skip] தமிழ்த் திரையுலகத்தைப் பற்றிய செய்தி இல்லை. 'Mandaadi' படத்த
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFXqR8aJSNfuoarTWGJL'}
-[skip] ரஷ்யாவின் உள்ளூர் வரலாற்றுக் கட்டுரை — தமிழ்நாடு அல்லது இந்த
-[skip] இது ஒரு நிதி நிறுவனத்தின் தலைமை முதலீட்டு அதிகாரியின் தனிப்ப
-[publish] 2032 ஒலிம்பிக் நடக்கவுள்ள ஆற்றில் முதலைகளை விட பெரிய சவால்
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: சிப்காட் விரிவாக்கம்: நிலமா, தொழிலா?
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFZ7qXL9PY9v3yisMGLf'}
+[skip] விளையாட்டுச் செய்தி (பார்சிலோனா கார் பந்தயம்) — சினிமா துறை 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFZAuTJgpXrdz62gmZXq'}
+[skip] பிற நாட்டின் உள்ளூர் கல்வி நிறுவனத்தின் ব்যক্তிগত சம்பவம் — 
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
 [image] 3 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13964 · சென்செக்ஸ் 74295
+[market] தங்கம் 22K ₹13955 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [image] 3 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 3
+[done] feed 300 · pending 1 · எழுதியவை 3
