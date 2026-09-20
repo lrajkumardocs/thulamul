@@ -1,7 +1,7 @@
 [fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 19 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
 [fetch] Dinamani TN: 24 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 11 புதியவை
@@ -9,7 +9,7 @@
 [fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 27 புதியவை
 [fetch] The Hindu Cinema: 14 புதியவை
-[fetch] Cinema Express: 25 புதியவை
+[fetch] Cinema Express: 26 புதியவை
 [fetch] The Hindu Tech: 9 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 13 புதியவை
+[fetch] The Hindu Legal: 12 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 13 புதியவை
+[fetch] The Hindu National: 12 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 15 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f48bb886c10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f452e10ec90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 12 புதியவை
 [fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,22 +67,30 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 578 → நிகழ்வுகள் 547
+[run] புதியவை 575 → நிகழ்வுகள் 545
 [triage] சேமித்த மதிப்பெண் (577) — புதிய அழைப்பு இல்லை
-[triage] 547 → 21 | காலி: govt:3, crime:3, tn:1, jobs:1, health:1
-[திருத்தம்] கள்ளக்குறிச்சியில் மாணவர் தாக்குதல் வழக் → கள்ளக்குறிச்சியில் ஆதிதிராவிட மாணவர் தாக
-[tts-edge] 8ddb5b986aae: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கள்ளக்குறிச்சியில் ஆதிதிராவிட மாணவர் தாக்குதல் வழக்கில் காவல் துறை விசாரணை
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது அரசு அறிவிப்பு (govt) அல்ல; ஒரு பள்ளிச் சம்பவம் — அக்கிர
-[திருத்தம்] களக்குறிச்சியில் மாணவர் தாக்குதல் - எட்ட → களக்குறிச்சியில் பட்டியல் சாதி மாணவர் தா
-Traceback (most recent call last):
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1767, in <module>
-    main()
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1390, in main
-    story["image"] = pick_image(c, story)
-                     ^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1146, in pick_image
-    return stock_image("", random.choice(
-                           ^^^^^^
-NameError: name 'random' is not defined
+[triage] 545 → 31 | காலி: govt:3, crime:2, tn:1, jobs:1, health:1
+[skip] இது கர்நாடகா மாநிலத்தில் நடந்த உள்ளூர் சாலை விபத்து செய்தி; 
+[tts-edge] acdddf61b4a5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பெண் மாணவிகள் விடுதி வசதி பற்றி ராகுல் காந்தி பிரதமரிடம் கேள்வி
+[skip] பெங்களூரு நகரத்தின் உள்ளூர் விபத்து — தமிழ்நாட்டுக்குச் சம்ப
+[skip] மூலத்தில் ஒரு தலைப்பு வரி மற்றும் ஊகக் கேள்வி மட்டுமே உள்ளது
+[skip] மூல உரை முழுவதும் கிடைக்கவில்லை — தலைப்பு மட்டும் உள்ளது. செ
+[skip] வেளிநாட்டுக் கலைக் சர்ச்சை — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[skip] Amazon உலக ஆணையக் வாணிબ்பக் தளம்; இது தமிழ்நாடு/இந்திய வாசகர
+[skip] இது தில்லி மாநில அளவிலான உள்ளூர் நீதிமன்ற விவகாரம், தமிழ்நாட
+[skip] This is a political statement by an opposition leader about 
+[skip] வெளிநாட்டு தயாரிப்பு (ChatGPT) பயன்பாட்டுக் குறிப்பு — தமிழ்
+[skip] கட்சிச் செய்தி, அரசு அறிவிப்பு அல்ல। 'govt' துறை குறிப்புக்க
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: An extended and green Ganesh Chaturthi
+[skip] ஜம்மு-காஷ்மீர் பொதுசேவা ஆयोग (JKSSB) தேர்வு — ஜம்மு-காஷ்மீரி
+[skip] கேரளாவின் உள்ளூர் சுகாதாரச் செய்தி — தமிழ்நாட்டு வாசகரைப் பா
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Residents want dislodged railings along tracks o
+[malar] திரை விமர்சனம்: மோட ரத்திரி, பிரதமா திருஷ்டிய குட்டக்கர்
+[malar] நையாண்டி — ஒப்புதல் பெற்ற நிலையான ஐந்து
+[malar] நையாண்டி: 5
+[malar] பகுதிகள் புதுப்பிக்கப்பட்டன
+[market] தங்கம் 22K ₹14004 · சென்செக்ஸ் 74295
+[weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 1 · எழுதியவை 1
