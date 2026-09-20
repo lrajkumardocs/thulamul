@@ -1,22 +1,22 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 23 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
 [fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 15 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 13 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 25 புதியவை
+[fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 19 புதியவை
+[fetch] The Hindu Cinema: 16 புதியவை
 [fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 9 புதியவை
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 24 புதியவை
+[fetch] FreeJobAlert: 22 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 26 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 28 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4cf5e8ab50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8b135f0250>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 26 புதியவை
 [fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,58 +67,47 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 676 → நிகழ்வுகள் 626
+[run] புதியவை 644 → நிகழ்வுகள் 598
 [triage] சேமித்த மதிப்பெண் (577) — புதிய அழைப்பு இல்லை
-[triage] 626 → 32 | காலி: india:4, govt:4, tn:3, economy:3, crime:3
-[skip] தென்கொரியாவின் பேருந்து சிக்கல் — தமிழ்நாடு/இந்திய வாசகருக்க
-[skip] பிற மொழித் திரையுலக விமர்சனம். தமிழ்த் திரையுலகம் அல்ல; ஆங்க
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfEQ3BCpmQgTw7hPJyGCL'}
-[tts-edge] c2516b16f2c1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] போலி சாதிச் சான்றிதழ் வழக்கில் ஓய்வூதியம் மறுத்த சென்னை உயர் நீதிமன்றம்
-[skip] உலக செய்தி என்றாலும் தமிழ்நாட்டு / இந்திய வாசகரைப் நேரடிப் ப
+[triage] 598 → 27 | காலி: india:4, govt:3, crime:3, tn:2, cinema:2
+[திருத்தம்] சபரிமலையில் அரவணை தட்டுப்பாடு, பக்தர்கள் → சபരிமலையில் அரவணை தட்டுப்பாடு, பக்தர்கள்
+[தரம்] தமிழ் அல்லாத எழுத்து: കങരവാ് → ஒரு திருத்தம்
+[tts-edge] e7b62f432def: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சபரிமலையில் அரவணை தட்டுப்பாடு, பக்தர்கள் கடும் அதிருப்தி
+[tts-edge] d6f846915316: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அமெரிக்க அதிபர் இல்லம் நுழைவை மறுத்த மூன்று ஊடக நிறுவனங்கள்
+[skip] ராஜஸ்தான் மாநிலத்தின் உள்ளூர் வானிலை தகவல் - தமிழ்நாட்டு வாச
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfERYbD84E6z5SwkhKNnN'}
 [எழுத்து] தேதி→தேனி
-[tts-edge] e700ef9ce37f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] டாஸ்மாக் ஊழியர்களுக்கு நவம்பர் பதினைந்திலிருந்து சீருடை கட்டாயம்
-[skip] வெளிநாட்டு விளையாட்டு நிகழ்வின் பொதுவான தகவல் — ஜப்பான் ஆசிய
-[திருத்தம்] நீதித்துறை சந்திப்புமுனையில் உள்ளது என ந → நீதித்துறை சந்திப்புமுனையில் உள்ளது, நடு
-[publish] நீதித்துறை சந்திப்புமுனையில் உள்ளது, நடுநிலைமை மீட்க தன்னாய்வு அவசியம்: நீதிபதி ஆனந்த் வெங்கடேஷ்
-[skip] வெளிநாட்டு உள்நாட்டுக் கொள்கை — தமிழ்நாடு/இந்தியவாசகரைப் பாத
+[publish] ஐஐடி பம்பாய் மாணவர் மரணம், பேராசிரியர் மீது சாதி தூஷண வழக்கு
+[skip] மும்பையில் நடந்த உள்ளூர் சாலை விபத்து, தமிழ்நாட்டுடன் தொடர்ப
+[skip] கேரளாவின் உள்ளூர் ধார்மிక நிகழ்வு — தமிழ்நாட்டுக்கு பொருத்தம
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்ளூர் நிகழ்வு — ஆஸ்திரேலியாவின் உள்நாட்டு தகவல்
+[skip] சீனாவின் உள்நாட்டுப் பொதுமக்கள் விளையாட்டு நிகழ்வு — தமிழ்நா
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] ஆசிய விளையாட்டில் வெள்ளிப் பதக்கம் வென்ற விதர்ஷா விநோத்
-[skip] ஆந்திரப் பிரதேசம் ஸ்ரீகாகுளம் மாவட்டத்தில் ஜனசேனா கட்சியின் 
-[skip] இது கேரளாவின் திருவனந்தபுரம் உள்ளூர் உயிரியல் பூங்கா சம்பவம்
-[skip] இது ஆந்திரப் பிரதேசம் விஜயவாடா ரயில்வே பிரிவின் உள்ளூர் சரக்
-[skip] கேரளா முதல்வர் ஒரு தீரணை வீரர்களை வாழ்த்துவது — இது தமிழ்நாட
-[publish] இந்த வாரம் 19 ஐபிஓக்கள் வழியாக 4,169 கோடி ரூபாய் திரட்ட திட்டம்
+[skip] இது ராஜஸ்தான் மாநிலத்தைப் பற்றிய வானிலை அறிவிப்பு. தமிழ்நாட்
+[எழுத்து] தேதி→தேனி, வட்டி→வன்னி
+[publish] செப்டம்பரில் வெளிநாட்டு முதலீட்டாளர் வெளியேற்றம் 23,000 கோடி ரூபாய் தாண்டியது
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்க அரசியல்வாதியின் சர்ச
+[skip] கட்சிச் செய்தி — அரசுத் தகவல் அல்ல. Congress கட்சியின் குற்ற
+[skip] வெளிநாட்டு அரசியல் மற்றும் தற்கால மோதல் பற்றிய தத்துவ ஆய்வு 
+[skip] இந்தச் செய்தி மும்பை IIT-ஐ பற்றியது — மகாராஷ்டிரத்தில் அமைந்
+[skip] மும்பை நகரின் உள்ளூர் விபத்து — தமிழ்நாட்டு வாசகரின் நேரடித்
+[எழுத்து] முறை→மதுரை
+[publish] சட்டப்பேரவையின் செயல்பாடு சாதாரணம் அல்ல என்று உதயநிதி
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: An extended and green Ganesh Chaturthi
-[skip] ஒடிசா மாநிலத்தில் அமைந்த AIIMS-ன் வேலைவாய்ப்பு அறிவிப்பு. தம
-[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரின் அன்றா
-[skip] ஆந்திர பிரதேசம் — தமிழ்நாட்டுக்குத் தொடர்பில்லாத மாநிலப் அரச
-[skip] 150 நிறுவனங்களின் dividend/stock split record date பட்டியல் 
+[skip] இது ஆங்கில மொழிப் படம் மற்றும் பெங்களூர்கத்தை மையமாக வைத்த ச
+[skip] வெளிநாட்டு (மேற்கு வங்காளம்) அரசு/ அரசு அல்லாத संस्था மூலம் 
+[தரம்] தமிழ் அல்லாத எழுத்து: 임 → ஒரு திருத்தம்
+[publish] இதய நோய்க்கான புதிய மருந்துகள் பயனளிக்கவில்லை
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Residents want dislodged railings along tracks o
-[skip] Kannada actor's national award is not Tamil cinema. Tamil Na
-[skip] मध्य प्रदेश (Madhya Pradesh) राज्य की परीक्षा है। तमिलनाडु क
-[skip] கேரளா மாநில செய்திக்கு — தமிழ்நாட்டுடன் நேரடித் தொடர்பு இல்ல
-[skip] Zimbabwe vs Australia ODI — தமிழ்நாட்டு அல்லது இந்தியத் தொடர
-[publish] இந்திய பங்குச் சந்தையில் கலவையான போக்கு நிஃப்டி உயர்வு செல்சென்செக்ஸ் சரிவு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Medians sought at sharp bends in Guindy
-[திருத்தம்] வாহீதா ரேஹ்மான் காந்தியின் தாயைப் படத்தி → வாহீதா ரேஹ்மான் காந்தியின் தாயை சுதீர் ம
-[தரம்] தமிழ் அல்லாத எழுத்து: হ → ஒரு திருத்தம்
-[publish] வஹீதா ரெஹ்மான் காந்தியின் தாயை சுதீர் மிஸ்ரா படத்தில் நடிக்கிறார்.
-[skip] விஜயவாடை என்பது ஆந்திரப் பிரதேச மாநிலத்தில் உள்ளது. இது ஆந்த
-[filler] tech கட்டுரை
-[jobs] தொகுப்பு 9
-[malar:எழுத்து] விரிக்கிறார்→வகிக்கிறார், வேகம்→வசனம், வசனங்கள்→வேடங்கள், ஆனால்→ஆவார்
-[malar] திரை விமர்சனம்: மோட ரத்திரி
-[malar] நையாண்டி: 5
-[malar] பகுதிகள் புதுப்பிக்கப்பட்டன
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: முப்பத்திரண்டு ஆண்டு சேவைக்கு பின் ஓய்வூதியம் மறுப்பு நியாயமா?
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹14004 · சென்செக்ஸ் 74295
-[weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 7
+Traceback (most recent call last):
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1767, in <module>
+    main()
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1390, in main
+    story["image"] = pick_image(c, story)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1146, in pick_image
+    return stock_image("", random.choice(
+                           ^^^^^^
+NameError: name 'random' is not defined
