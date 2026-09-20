@@ -1,22 +1,22 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 11 புதியவை
+[fetch] ET Markets: 10 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 9 புதியவை
+[fetch] The Hindu TN: 8 புதியவை
 [fetch] Dinamani TN: 18 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 13 புதியவை
-[fetch] Al Jazeera: 20 புதியவை
+[fetch] BBC World: 12 புதியவை
+[fetch] Al Jazeera: 19 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
-[fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 15 புதியவை
+[fetch] The Hindu Sport: 25 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 27 புதியவை
 [fetch] The Hindu Tech: 8 புதியவை
 [fetch] Wired: 22 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 15 புதியவை
+[fetch] FreeJobAlert: 9 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,25 +29,25 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 16 புதியவை
+[fetch] The Hindu Legal: 11 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 24 புதியவை
-[fetch] Dinamani Sports: 27 புதியவை
+[fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 7 புதியவை
-[fetch] The Hindu National: 16 புதியவை
-[fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 20 புதியவை
+[fetch] The Hindu National: 11 புதியவை
+[fetch] NDTV India: 11 புதியவை
+[fetch] India Today: 13 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 25 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 29 புதியவை
+[fetch] Sportstar: 28 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f91f33d1250>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 16 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5e5caaa4d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 11 புதியவை
 [fetch] Dinamani Govt: 18 புதியவை
 [fetch] Times Govt Schemes: 15 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,86 +67,45 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 543 → நிகழ்வுகள் 507
-[triage] சேமித்த மதிப்பெண் (504) — புதிய அழைப்பு இல்லை
-[triage] 507 → 66 | காலி: india:4, tn:3, world:3, economy:3, court:3
-[skip] வெளிநாட்டுத் திரைப்படம் — தமிழ்நாடு/தமிழ்க் கலைஞர் தொடர்பு இ
-[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் வறட்சி தொடர
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Aravind Eye Care System: How one doctor’s vision
-[skip] இது பஞ்சாப் மாநிலத்தின் உள்ளூர் அரசியல் பகுப்பாய்வு கட்டுரை 
-[திருத்தம்] மதுராந்தகத்தில் எட்டு இடங்களில் எடப்பாடி → மதுராந்தகத்தில் 8 இடங்களில் எடப்பாடி பழன
-[tts-edge] 600e3441bc2d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகத்தில் 8 இடங்களில் எடப்பாடி பழனிசாமி பிரசாரம்
-[skip] Pakistan-related political event; no direct impact on Tamil 
-[skip] பெங்களூரு நகரத்தின் உள்ளூர் வானிலை செய்தி. தமிழ்நாட்டு வாசகர
+[run] புதியவை 490 → நிகழ்வுகள் 463
+[triage] 463 → 28 | காலி: india:3, world:3, economy:3, court:3, govt:3
+[skip] CBFC வழிகாட்டுதல் மாற்றம் பற்றிய செய்தி சினிமா தொழிலுக்கு நி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFHqVfYmLknjJW1iG1Zz'}
+[tts-edge] fdbb055e2c18: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னை மாநகராட்சி எல்லையில் செப்டம்பர் மாதத்தில் 4,600 காய்ச்சல் வழக்குகள் பதிவு
+[skip] வெளிநாட்டு உள்நாட்டு ராணுவ மோதல். தமிழ்நாடு/இந்திய வாசகருக்க
+[tts-edge] 52a6de4afda4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ராணிப்பேட்டையில் வேன் ஓட்டுநர் கொலை வழக்கில் ஐந்து பேர் கைது
+[திருத்தம்] பட்டினப்பாக்கம் புதிய செயலக திட்டத்தை கை → பட்டினப்பாக்கம் புதிய செயலக திட்டத்தை கை
+[தரம்] தமிழ் அல்லாத எழுத்து: একভে → ஒரு திருத்தம்
+[publish] பட்டினப்பாக்கம் புதிய செயலக திட்டத்தை கைவிட சிபிஎம் எச்சரிக்கை.
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] இடைத்தேர்தலில் தவெக பின்னடைவு சந்திக்கும → இடைத்தேர்தலில் தவெக மிகப்பெரிய பின்னடைவை
+[publish] இடைத்தேர்தலில் தவெக மிகப்பெரிய பின்னடைவைச் சந்திக்கும் என நாகேந்திரன் கூற்று
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFJGSpLm1Rx77bk2i4fu'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்குத் தேவையான விவரங
+[skip] இது ஆந்திரப் பிரதேசம் விசாகப்பட்டினம் தரவுத்தள மையங்களுக்கு 
+[skip] இது ஒரு கருத்துக் கட்டுரை/பகுப்பாய்வுத் தலைப்பு மட்டும்; உண்
+[skip] இது கேரளாவின் கோழிக்கோடு மாவட்டத்தில் உள்ள பெருவண்ணாமுழி பகு
+[skip] வெளிநாட்டு (ஆந்திரப்রதேശ்) உள்ளூர் அரசியல் — தமிழ்நாட்டுக்கு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: T.N. mid-level healthcare providers demand job r
-[skip] வெளிநாட்டு (இங்கிலாந்து) உள்நாட்டு கிரிக்கெட் தொடர் — தமிழ்ந
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFEcVDoCaTjzooRXB9ip'}
-[skip] பெங்களூருவு (கர্நாடகா) நகருக்குரிய உள்ளூர் நடைபாதை வெள்ளப் ப
+[skip] உத्தரப் பிரதேசத்தின் UPPSC தேர்வு — தமிழ்நாடு வாசகருக்குப் ப
+[திருத்தம்] உப்பு உட்கொள்ளை குறைக்க பிரச்சாரம் → உப்பு உட்கொள்ளைக் குறைக்க பிரச்சாரம்
+[தரம்] தமிழ் அல்லாத எழுத்து: ंథస్ → ஒரு திருத்தம்
+[publish] உப்பு உட்கொள்ளைக் குறைக்க பிரச்சாரம்
+[skip] வெளிநாட்டு அரசியல் — அமெரிக்கா-சீனாவுக்கு இடையிலான பொதுவான உ
+[skip] கேள்வி அடிப்படையிலான கருத்துரை — அரசு அறிவிப்பு அல்ல. மூலம் 
+[skip] இது ஹிந்தி சினிமா (பாலிவுட்) செய்தி; தமிழ்நாட்டு/தமிழ்ச் சின
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: AAI plans slew of changes at airport for improve
+[skip] வெளிநாட்டு அரசியல் — இரண்டு வெளிநாட்டு நாடுகளுக்கிடையேயான பே
+[skip] கேரளா மாநிலத்தின் உள்ளூர் அரசு அறிவிப்பு — தமிழ்நாட்டுக்குத்
+[skip] விளம்பரமான படத்தொடர் அறிவிப்பு — ஹிந்தி/ஆங்கிலம், தமிழ்நாட்ட
+[skip] இது குறிப்பிட்ட எண்கள் அல்லது நிகழ்வு இல்லாத, தங்கம் விலை பற
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFJTZM4GekyR9tvAmwM7'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது பஞ்சாப் மாநிலத்தின் உள்ளூர் அரசியல் சம்பவம், தமிழ்நாடு அ
-[skip] கேரளா மாநிலத்தின் உள்ளூர் குற்றச் சம்பவம்; தமிழ்நாட்டுடன் தொ
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Police file case against TVK member, five others
-[திருத்தம்] கபடி: ஆசிய விளையாட்டுப் போட்டিகளில் இந்த → கபடி: ஆசிய விளையாட்டுப் போட்டிகளில் இந்த
-[தரம்] தமிழ் அல்லாத எழுத்து: ড → ஒரு திருத்தம்
-[tts-edge] 34ea2b41b837: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கபடி: ஆசிய விளையாட்டுப் போட்டிகளில் இந்திய அணிகளின் நேரலை
-[skip] இது ஹரியானா மாநிலத்தின் உள்ளூர் விபத்துச் செய்தி; தமிழ்நாடு 
-[skip] பெங்களூருவில் நிகழ்ந்த ஒரு மரண விபத்து — தமிழ்நாட்டுக்கு வெள
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: North Chennai residents demand civic infrastruct
-[skip] இது ராஜஸ்தான் மாநிலத்தில் நடந்த தனிநபர் கொலை வழக்கு கைது செய
-[skip] அரசியல் பிரசாரம் — அரசு அறிவிப்பு அல்ல. தளத்தைக் குறிப்பிட்ட
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Stalker murdered by woman’s friend, two held
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் அரசியல் சர்ச்சை, தமிழ்நாட்டுடன
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Stopgap amenities to aid disabled at Egmore,Tamb
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: GCC sets up registration stalls for beach clean-
-[skip] டெல்லி உயர்நீதிமன்ற நீதிபதிகள் நியமனம் — தமிழ்நாட்டுடன் நேரட
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Vijay to campaign at Madurantakam on Sept 28
-[publish] கேரளாவில் மண்சரிவில் சிக்கி சென்னை சுற்றுலாப் பயணி உயிரிழப்பு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man stabbed and robbed of gold chain
-[skip] இது ஆக்ராவில் ஒரு புகைப்படக்காரர் சமூக ஊடகத்தில் பதிவிட்ட தன
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Nagapattinam youngsters make waves at FOTNA Sail
-[skip] இது கேரள காவல்துறையின் உள்ளூர் எச்சரிக்கை; தமிழ்நாட்டுடன் நே
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: High festive energy, but low seriousness towards
-[skip] மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் தேர்வு முறைகேடு தொடர்பான செய
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two held in Kundrathur murder case
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் ரயில் சோதனை மற்றும் போதைப்பொருள
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Wife held for murder of armed reserve SI in Chen
-[skip] இது பஞ்சாப் மாநில அரசின் உள்ளூர் சுகாதாரத் திட்டச் செய்தி; த
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TN researchers discover a new wild coriander spe
-[skip] இது ஒடிசா மாநிலத்திற்கான உள்ளூர் வானிலை எச்சரிக்கை; தமிழ்நாட
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tiger trapped in Gudalur released at at Vandalur
-[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் மருத்துவமனை விபத்து; தமிழ்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘TN pvt varsities amendment bill sent to Preside
-[திருத்தம்] மணிப்பூரில் கிராமவாசிகள் கைதுக்கு எதிர்ப → கிராமவாசிகள் 7 போ் கைதுக்கு எதிர்ப்பு, ம
-[publish] கிராமவாசிகள் 7 போ் கைதுக்கு எதிர்ப்பு, மணிப்பூரில் போராட்டம் வன்முறையாக மாறியது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: City steps up dengue prevention as fever cases r
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ₹20K fest advance, ₹6K uniform allowance for Tas
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (எப்போது, எங்கே,
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TN to give up to ₹22K to households for rooftop 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (இடம், தேதி, சூழ
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: HC orders review of seniority, promotions of mun
-[skip] மும்பையில் நடந்த உள்ளூர் சாலை விபத்து செய்தி; தமிழ்நாட்டுடன்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 2.4 tonnes of waste removed from Palavakkam Beac
-[திருத்தம்] கோயம்புத்தூர் அரசு மருத்துவமனையில் கள உத → கோயம்புத்தூர் மருத்துவக் கல்லூரி மருத்து
-[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: கோயம்புத்தூர் மருத்துவக் கல்லூரி மருத்
-[publish] கோயம்புத்தூர் மருத்துவக் கல்லூரி மருத்துவமனையில் கள உதவியாளர் பணியிடத்திற்கு விண்ணப்பம்
-[skip] தெலங்கானா MDS மெரிட் லிஸ்ட் மற்றும் டெல்லி பல்கலைக்கழக மத்தி
-[skip] வரலாற்று சுயசரிதை — தற்போதைய நிகழ்வு அல்ல. அசীমा சட்டர்ஜி பற
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFF81UGsRMeVHtEfWbMe'}
-[skip] வெளிநாட்டு உள்நாட்டுக் கால்பந்து ஆட்டம் — தமிழ்நாடு/இந்திய வ
-[skip] മലയാളം സിനിമ നിർമാണ സമ്മേളനം. തമിഴ്നാട്ടിനോടു നേരിട ബന്ധമോ ത
-[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: நாட்டின் வளர்ச்சிக்கு அறிவியல், தொழில்
-[publish] நாட்டின் வளர்ச்சிக்கு அறிவியல், தொழில்நுட்பம் இன்றியமையாதவை: விஐடி வேந்தர்
-[skip] வெளிநாட்டு விளையாட்டு வீரர்களின் ব్య్‌క్తిগత சாதனை — தமிழ்நா
-[skip] விமர்சனம் மற்றும் திரைப்படத்தின் கதை விவரம் — தலைப்பில் 'riv
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFFDa6DR9mV6vZEi3g6z'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFFGdRy1R3qyGYwx8Sok'}
-[skip] இது குறிப்பிட்ட நிறுவனங்களின் பெயர்கள், எண் விவரங்கள் இல்லாத
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹14001 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 6
+[done] feed 300 · pending 0 · எழுதியவை 5
