@@ -1,14 +1,14 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 8 புதியவை
+[fetch] ET Markets: 6 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 4 புதியவை
+[fetch] The Hindu TN: 3 புதியவை
 [fetch] Dinamani TN: 15 புதியவை
-[fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 12 புதியவை
-[fetch] Al Jazeera: 16 புதியவை
+[fetch] BBC Tamil: 6 புதியவை
+[fetch] BBC World: 10 புதியவை
+[fetch] Al Jazeera: 17 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 27 புதியவை
 [fetch] The Hindu Tech: 8 புதியவை
 [fetch] Wired: 22 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 8 புதியவை
+[fetch] FreeJobAlert: 7 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 6 புதியவை
+[fetch] The Hindu Legal: 3 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 24 புதியவை
-[fetch] Dinamani Sports: 26 புதியவை
+[fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 7 புதியவை
-[fetch] The Hindu National: 6 புதியவை
+[fetch] The Hindu National: 3 புதியவை
 [fetch] NDTV India: 11 புதியவை
 [fetch] India Today: 13 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 24 புதியவை
+[fetch] Dinamani India: 21 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -51,13 +51,13 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
-[fetch] PIB All India: பிழை HTTPSConnectionPool(host='pib.gov.in', port=443): Max retries exceeded with url: /PressReleseRss.aspx?Reg=3&Lang=1 (Caused by NameResolutionError("HTTPSConnection(host='pib.gov.in', port=443): Failed to resolve 'pib.gov.in' ([Errno -5] No address associated with hostname)"))
+[fetch] PIB All India: 0 புதியவை
 [fetch] PIB Tamil Releases: 0 புதியவை
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fed740dd590>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 6 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe84281a210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 3 புதியவை
 [fetch] Dinamani Govt: 15 புதியவை
 [fetch] Times Govt Schemes: 15 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,35 +67,37 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 452 → நிகழ்வுகள் 430
+[run] புதியவை 430 → நிகழ்வுகள் 411
 [triage] சேமித்த மதிப்பெண் (424) — புதிய அழைப்பு இல்லை
-[triage] 430 → 18 | காலி: india:3, world:3, economy:3, court:3, govt:3
-[skip] This is a film review article. Reviews (ratings, critical ev
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உள்ளடக்க விவரங்கள் (எந்த ந
-[திருத்தம்] டேவிஸ் கோப்பை: செக்குடியரசு, கனடா, ஆஸ்தி → டேவிஸ் கோப்பை: செக் குடியரசு, கனடா, ஆஸ்த
-[tts-edge] 3b13999b12a9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] டேவிஸ் கோப்பை: செக் குடியரசு, கனடா, ஆஸ்திரியா, ஸ்பெயின் முன்னேற்றம்
-[திருத்தம்] தில்லி வாக்காளர் பட்டியல் திருத்தத்தில்  → தில்லி வாக்காளர் பட்டியலில் முரண்பாடுகள்
-[தரம்] தமிழ் அல்லாத எழுத்து: ন → ஒரு திருத்தம்
-[tts-edge] 9c6f06e20f2a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தில்லி வாக்காளர் பட்டியலில் முரண்பாடுகள்: அத்வானி, சிசோடியா பெயர்களில் பிழை
-[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
-[publish] மும்பை ஐஐடி மாணவர் தற்கொலை வழக்கில் பேராசிரியர் மீது வழக்குப் பதிவு
-[skip] மூல உரை முழுமையாக வழங்கப்படவில்லை. தலைப்பு மட்டுமே உள்ளது. ச
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: T.N. mid-level healthcare providers demand job r
-[skip] கேரளத்தின் உள்ளூர் தேர்வு. தமிழ்நாட்டு வாசகருக்குப் பொருத்தம
-[skip] ஆந்திர பிரதேச மாநிலத்தின் உள்ளூர் அரசு அறிவிப்பு. தமிழ்நாடு 
-[skip] கन்నடம் படம் — தமிழ்நாட்டுத் தமிழ் வாசகருக்குப் பொருத்தமல்ல.
-[skip] This is a Andhra Pradesh government order regarding YSRCP (Y
-[skip] மராठி திரைப்படம் — தமிழ்த் திரையுலகத்துடன் தொடர்பு இல்லை. தம
-[skip] வெளிநாட்டு உள்ளூர் சம்பவம் — தமிழ்நாடு/இந்தியாவுடன் தொடர்பு 
-[publish] என்.எஸ்.இ. பங்கு வழங்கலில் சந்தை பிரீமியம் கடுமையாகச் சரிவு
-[skip] ஜெர்மனி உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியா வாசகருக்குப் ப
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFKa89YxJAkyrYeqg6J8'}
-[skip] வெளிநாட்டு தொழில்நுட்பக் கம்பனியின் உள் சோதனைச் செய்தி — தமி
-[skip] இது அமெரிக்க பங்குச் சந்தை பற்றிய வாரன் பஃபேட்டின் கருத்து ச
+[triage] 411 → 24 | காலி: world:3, court:3, govt:3, cinema:3, india:2
+[skip] திரை விமர்சனம் — இப்பக்கத்தில் விலக்கப்பட்டுள்ளது. விமர்சனம்
+[skip] வெளிநாட்டு தொழில்நுட்ப நிறுவனங்களின் உள்நாட்டு ஆராய்ச்சியைப்
+[skip] இது உத்தரப் பிரதேச மாநில முதல்வரின் உள்ளூர் அரசியல் பேச்சு; 
+[skip] வெளிநாட்டுக் குற்றவியல் விசாரணை — தமிழ்நாடு/இந்தியாவுக்குத் 
+[skip] உத்தரப்রதேश மாநில அரசின் உள்ளூர் அரசியல் அறிவிப்பு. தமிழ்நாட
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை - ஐந்து அர
+[skip] வெளிநாட்டு அரசியல் நடிப்பு — தமிழ்நாட்டு/இந்திய வாசகரைப் பாத
+[skip] அரசியல் நிகழ்வு — கட்சித் தலைவர் உரை. அரசு அறிவிப்பு (govt எ
+[skip] உத்தரகண்ட் மாநிலத்தின் உள்ளூர் தனிநபர் சோகச் சம்பவம், தமிழ்ந
+[skip] செய்திக் குறிப்பு 'tech' என்றாலும், இந்தச் செய்தி தமிழ்நாடு/
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை உருவாக்க போதிய வி
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, விவரமான உள்ளட
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் கோயில் நிர்வாக விவகாரம்; போதிய 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி உள்ளடக்கம் இல்
+[skip] மும்பையில் நடந்த உள்ளூர் சாலை விபத்து செய்தி, தமிழ்நாட்டுடன்
+[திருத்தம்] ஆந்திரக் கடற்பகுதியில் இந்தியா இலங்கை கட → ஆந்திரக் கடற்பகுதியில் இந்தியா - இலங்கை 
+[tts-edge] 8bce994d931f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆந்திரக் கடற்பகுதியில் இந்தியா - இலங்கை கடற்படை கூட்டுப் பயிற்சி
+[skip] இது உத்தரப் பிரதேச மாநிலத்தின் உள்ளூர் கட்சி அரசியல் செய்தி;
+[skip] BITSAT is an entrance exam for engineering admission at BITS
+[skip] விமர்சனம் — இந்த வகையை தமிழ்நாட்டு நாளிதழ்க்குக் கூடாது. மதி
+[skip] Andhra Pradesh (Vijayawada) news — non-Tamil Nadu local even
+[skip] தமிழ்த் திரையுலகம் சம்பந்தமில்லாத ஆங்கிலப் நேர்காணல் மூலம். 
+[skip] இது உலகளாவிய கிரிப்டோ சந்தை மற்றும் அமெரிக்க கூட்டாட்சி முடி
+[skip] வெளிநாட்டு இரு நாட்டு உறவு — தமிழ்நாடு/இந்தியாவுக்குத் தற்போ
+[skip] இது பல்வேறு மாநில அரசுகளின் பத்திரங்கள் ஏலம் தொடர்பான RBI தொ
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹14001 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 4
+[done] feed 300 · pending 0 · எழுதியவை 1
