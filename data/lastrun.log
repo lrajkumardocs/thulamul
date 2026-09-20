@@ -19,7 +19,7 @@
 [fetch] FreeJobAlert: 25 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
-[fetch] WHO News: பிழை ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: பிழை ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff1ced2d090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd6f3e10b10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
@@ -68,9 +68,39 @@
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
 [run] புதியவை 693 → நிகழ்வுகள் 643
-[triage] சேமித்த மதிப்பெண் (581) — புதிய அழைப்பு இல்லை
-[triage] 643 → 123 | காலி: tn:5, india:4, govt:4, world:3, economy:3
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha
-[market] தங்கம் 22K ₹14004 · சென்செக்ஸ் 74295
-[weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[triage] 643 → 64 | காலி: tn:5, india:4, govt:4, world:3, economy:3
+[திருத்தம்] மதராஸ் உயர் நீதிமன்றம் உதவி நிரலாக்க நில → மதராஸ் உயர் நீதிமன்றம் உதவி நிரலாக்கர் த
+[tts-edge] 3f7b912daee1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதராஸ் உயர் நீதிமன்றம் உதவி நிரலாக்கர் தேர்வு முடிவு வெளியிட்டது
+[skip] வதந்தி மற்றும் ஊகம் — 'Jailer 2' பற்றி உறுதியான அறிவிப்பு இல
+[skip] வெளிநாட்டுக் கிரிக்கெட் நிர்வாகக் கருத்து - தமிழ்நாடு/இந்திய
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfEP72AbeYqUmpCphiSDo'}
+[எழுத்து] சவுதி→சௌதி, ஏவுகணைகள்→ஏவுகணைத், கிழக்குப்→கிழக்கில்
+[tts-edge] 094f2646635f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ரியாத் மீது ஏவுகணைத் தாக்குதல் நடத்தியதாக ஹூத்தி போராளிகள் கூற்று
+[publish] மாஸ்கோ பகுதியில் உக்ரைன் ட்ரோன் தாக்குதலில் இருவர் பலி என ரஷ்யா தகவல்
+[எழுத்து] தேதி→தேனி, சட்டமன்றத்→சட்டமன்றம்
+[திருத்தம்] மதுராந்தகம், தாராபுரம் தொகுதிகளில் அக்டோ → மதுராந்தகம், தாராபுரம் தொகுதிகளில் அக்டோ
+[publish] மதுராந்தகம், தாராபுரம் தொகுதிகளில் அக்டோபர் ஆறாம் தேதி பொது விடுமுறை
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டு உள்ளூர் அரசியல் — ஜெர்மனிய தேர்தல் தமிழ்நாடு/இந்த
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டு அரசியல் நிகழ்வு — தமிழ்நாடு/இந்தியாவுக்கு நேரடித்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfEPRYy1fvAMWVbhb1SxZ'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] வங்காள விரிகுடாவில் காற்றழுத்த தாழ்வுப் பகுதி உருவாக்கம்
+[எழுத்து] கழிவுநீர்→கழிவுநீா்
+[திருத்தம்] திருவேற்காடு கழிவுநீா் சுத்திகரிப்பு நில → திருவேற்காடு கழிவுநீர் சுத்திகரிப்பு நில
+[publish] திருவேற்காடு கழிவுநீர் சுத்திகரிப்பு நிலையம் தொடர்பாக உயர்நீதிமன்றம் உத்தரவு
+[எழுத்து] மூவர்→மூவா்
+[திருத்தம்] மதுரையில் ஒரே நாளில் பெண் உள்பட மூவா் வெ → மதுரையில் ஒரே நாளில் பெண் உள்பட மூவர் வெ
+Traceback (most recent call last):
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1758, in <module>
+    main()
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1381, in main
+    story["image"] = pick_image(c, story)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1137, in pick_image
+    return stock_image("", random.choice(
+                           ^^^^^^
+NameError: name 'random' is not defined
