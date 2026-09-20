@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 10 புதியவை
+[fetch] The Hindu Legal: 9 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 27 புதியவை
+[fetch] Dinamani Cinema: 26 புதியவை
 [fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 10 புதியவை
+[fetch] The Hindu National: 9 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 15 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3e497d15d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 10 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff2bb6f5e50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 9 புதியவை
 [fetch] Dinamani Govt: 23 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,21 +67,25 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 560 → நிகழ்வுகள் 532
+[run] புதியவை 555 → நிகழ்வுகள் 529
 [triage] சேமித்த மதிப்பெண் (577) — புதிய அழைப்பு இல்லை
-[triage] 532 → 35 | காலி: govt:3, crime:2, tn:1, jobs:1, health:1
-[skip] தமிழ்நாடு அரசு அறிவிப்பு அல்ல; தேசிய வ무ர்த்த நிலை. மக்கள் செ
-[tts-edge] caf1916b38c6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] டோரதி படத்தின் டிரைலர் வெளியீட்டு விழாவில் கீர்த்தி சுரேஷ்
-[skip] வெளிநாட்டுத் தொடர் (துருக்கி கால்பந்து) — தமிழ்நாடு/இந்திய வ
-[skip] தமிழ்நாடு அல்லாத மாநிலத்தில் (மகாராஷ்டிரம்) நிகழ்ந்த உள்நாட்
-[skip] வெளிநாட்டுக் கிரிக்கெட் போட்டி — இந்தியக் குறிப்பு இருந்தாலு
-[skip] பங்காளம் மாநிலத்தின் வானிலை எச்சரிக்கை — தமிழ்நாட்டுக்குப் ப
-[skip] வெளிநாட்டு உள்நாட்டுப் பிரச்சினை — சவுதி அரேபியா-ஹூதி மோதல்.
-[skip] விஜயவாடம் ஆந்திரப் பிரதேशத்தில் உள்ளது. இது ஒரு உள்ளூர் விபத
-[skip] வெளிநாட்டு உள்நாட்டுப் போர் — தமிழ்நாடு/இந்தியா வாசகருக்கு ந
-[skip] இவை ஜார்க்கண்ட் மற்றும் ஹரியானா மாநிலங்களின் உள்ளூர் பல்கலைக
+[triage] 529 → 44 | காலி: govt:3, crime:2, tn:1, jobs:1, health:1
+[skip] கர்நாடகாவில் அமைந்த ஒரு நிறுவனத்தின் IPO அறிவிப்பு. தமிழ்நாட
+[tts-edge] d435d8d20f49: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] குறைவாக அல்லது அதிகமாக தூங்கினால் முதுமை சீக்கிரம் வரலாம்
+[skip] வெளிநாட்டுத் தயாரிப்பு நற்றிறம் பற்றிய கருத்து; தமிழ்நாட்டு 
+[skip] வதந்தி மற்றும் ஊகம் — 'ஜெயிலர் 2' பற்றிய உறுதியான அறிவிப்பு,
+[skip] IIT Bombay மும்பை இல் அமைந்துள்ளது — மகாராஷ்டிரம். தமிழ்நாட்
+[skip] வெளிநாட்டுக் கால்பந்து லீக்; தமிழ்நாடு/இந்தியாவுக்கு நேரடித்
+[skip] அமெரிக்க உள்நாட்டு வர்த்தக விதி — தமிழ்நாடு அல்லது இந்தியாவு
+[skip] பங்கால் மாநிலத்தின் வானிலை எச்சரிக்கை. தமிழ்நாட்டுக்குத் தொட
+[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் ஆட்டத்தின் ஒரு சுற்று மாத்
+[skip] வந்திய செய்தி ஆந்திரப் பிரதேச மாநிலத்தின் (விஜயவாடா) உள்ளூர்
+[skip] வெளிநாட்டு நாடுகளுக்கிடையேயான இராணுவ/அரசியல் மோதல். தமிழ்நாட
+[skip] வெளிநாட்டுப் போர்ச் செய்தி — தமிழ்நாடு அல்லது இந்திய வாசகர்க
+[skip] இவை பீகார் மற்றும் ஹரியானா மாநிலப் பல்கலைக்கழகங்களின் உள்ளூர
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: An extended and green Ganesh Chaturthi
+[தரம்] தமிழ் அல்லாத எழுத்து: ফে → ஒரு திருத்தம்
 Traceback (most recent call last):
   File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1767, in <module>
     main()
