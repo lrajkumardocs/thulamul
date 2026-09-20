@@ -642,6 +642,58 @@ def text_problems(story):
     return errs
 
 
+
+
+def _hwords(t):
+    return {w for w in re.findall(r"[\u0B80-\u0BFF]{4,}", str(t or ""))}
+
+
+def is_duplicate(story, feed, today):
+    """இன்று ஏற்கனவே வெளியான செய்தியுடன் ஒத்திருக்கிறதா — தலைப்புச் சொல் ஒப்பீடு."""
+    new = _hwords(story.get("headline"))
+    if len(new) < 3:
+        return False
+    for x in feed:
+        if str(x.get("published_at", ""))[:10] != today or x.get("status") != "published":
+            continue
+        old = _hwords(x.get("headline"))
+        if not old:
+            continue
+        j = len(new & old) / max(1, len(new | old))
+        if j >= 0.5:
+            return x.get("headline", "")[:60]
+    return False
+
+def proofread(client, story, src_text):
+    """கட்டாயப் பிழைதிருத்தம் — Haiku (மலிவு). சூழல் பிழைகளைப் பிடிக்கும்:
+    'தேதி→தேனி', 'வேட்டுவம்→வெட்டுவம்' போன்ற சரியான-சொல் தவறுகள்."""
+    sysmsg = (
+        "நீ தமிழ்ச் செய்தித்தாளின் பிழைதிருத்துநர். கீழே ஒரு செய்தி JSON மற்றும் அதன் மூல உரை.\n"
+        "**மூல உரையை ஒப்பிட்டு** செய்தியில் உள்ள பிழைகளைத் திருத்து:\n"
+        "1. எழுத்துப் பிழை — ண/ன, ழ/ள/ல, ற/ர, ஒற்று மிகுதல்/குறைதல்.\n"
+        "2. **சூழல் பிழை** — சரியான சொல்லே தவறான இடத்தில் ('தேதி' இடத்தில் 'தேனி', "
+        "'வேட்டுவம்' இடத்தில் 'வெட்டுவம்'). மூல உரையில் உள்ள பெயர்/சொல்லே சரி.\n"
+        "3. பெயர்ச்சொற்கள் — நபர், ஊர், அமைப்பு, படம், திட்டம் — **மூல உரையில் உள்ளபடியே** இருக்க வேண்டும்.\n"
+        "4. முழுமையடையாத வாக்கியம், விடுபட்ட சொல், இரட்டைச் சொல்.\n"
+        "5. மரியாதைப் பன்மை — நபரைக் குறிக்கும்போது 'அவர்/வந்தார்'.\n"
+        "பொருளை மாற்றாதே; புதிய தகவல் சேர்க்காதே; எண்களைத் தொடாதே.\n"
+        "திருத்தப்பட்ட JSON-ஐ மட்டும் திருப்பித் தா: {\"headline\":\"\",\"lines\":[],\"closing\":\"\"} — "
+        "code fence இல்லை, விளக்கம் இல்லை. பிழை இல்லையென்றால் அதையே திருப்பித் தா.")
+    payload = json.dumps({"headline": story.get("headline"), "lines": story.get("lines"),
+                          "closing": story.get("closing")}, ensure_ascii=False)
+    msg = client.messages.create(
+        model=MODEL_FAST, max_tokens=1800, system=sysmsg,
+        messages=[{"role": "user", "content": "மூல உரை:\n" + str(src_text)[:3000] +
+                                              "\n\nசெய்தி:\n" + payload}])
+    raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+    d = parse_json(client, raw)
+    out = dict(story)
+    for k in ("headline", "lines", "closing"):
+        v = d.get(k)
+        if v and (not isinstance(v, list) or len(v) == len(story.get("lines") or [])):
+            out[k] = v
+    return out
+
 def fix_text(client, story, errs):
     """பிழைகளைச் சொல்லி Claude-ஐத் திருத்தச் சொல்."""
     sysmsg = ("நீ தமிழ்ச் செய்தி ஆசிரியர். கீழே ஒரு செய்தி JSON மற்றும் அதில் உள்ள பிழைகள். "
@@ -1081,6 +1133,10 @@ def pick_image(c, story=None):
             return im
         return None
 
+    if c.get("topic_hint") == "crime" or story.get("topic") == "crime":
+        return stock_image("", random.choice(
+            ["scales of justice statue", "police vehicle india", "court gavel wooden",
+             "police station building india", "legal documents file"]))
     q = (story.get("image_query") or "").strip()
     if not q:
         return None
@@ -1291,6 +1347,13 @@ def main():
         story, _sp = spell_fix(story, _src)
         if _sp:
             print("[எழுத்து]", ", ".join(_sp))
+        try:                                   # கட்டாயப் பிழைதிருத்தம் (Haiku)
+            _before = story.get("headline", "")
+            story = proofread(client, story, _src)
+            if story.get("headline", "") != _before:
+                print("[திருத்தம்]", _before[:40], "→", story.get("headline", "")[:40])
+        except Exception as ex:
+            print("[திருத்தம்] பிழை", str(ex)[:80])
         _errs = text_problems(story) + fact_problems(story, _src)
         if _errs:
             print(f"[தரம்] {'; '.join(_errs[:2])} → ஒரு திருத்தம்")
@@ -1301,6 +1364,10 @@ def main():
                 print("[தரம்] திருத்தப் பிழை", str(ex)[:80])
         if _errs:
             print("[தரம்] தோல்வி — வெளியிடப்படவில்லை:", "; ".join(_errs[:2]))
+            mark_seen(c); continue
+        _dup = is_duplicate(story, feed, today)
+        if _dup:
+            print("[நகல்] ஏற்கனவே வெளியானது:", _dup)
             mark_seen(c); continue
         mark_seen(c)
         written += 1
@@ -1359,8 +1426,8 @@ def main():
     try:
         if not api_dead:
             _made = 0
-            for t in FILLER_TOPICS:
-                if _made >= 2:
+            for t in (FILLER_TOPICS if now.hour >= 11 else []):
+                if _made >= 1:
                     break
                 todays = [x for x in feed if x.get("topic") == t and str(x.get("published_at", ""))[:10] == today and x["status"] == "published"]
                 if len(todays) < 1 and not any(x.get("kind") == "article" for x in todays):
@@ -1409,7 +1476,17 @@ def main():
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if malar.get("week") == week and 13 <= malar.get("v", 0) < 14 and not api_dead:
+        if malar.get("v", 0) == 13 and not api_dead:
+            # திரை விமர்சனம் + நையாண்டி மட்டும் மீண்டும்; மற்ற பகுதிகள் தொடப்படாது
+            import importlib, sys
+            sys.path.insert(0, str(ROOT / "pipeline"))
+            mal = importlib.import_module("malar")
+            _cin = "\n".join(f"- {x.get('headline','')}: {' '.join((x.get('lines') or [])[:2])}"
+                             for x in feed if x.get("topic") == "cinema")[:6000]
+            got = mal.refresh_parts(client, MODEL, malar, today, ("films", "satire"), _cin, telegram)
+            if got:
+                save_json(DATA / "malar.json", got); print("[malar] பகுதிகள் புதுப்பிக்கப்பட்டன")
+        elif malar.get("week") == week and 14 <= malar.get("v", 0) < 15 and not api_dead:
             # இருக்கும் இதழ் — உரையை மாற்றாமல் விடுபட்ட படங்களை மட்டும் சேர்
             import importlib, sys
             sys.path.insert(0, str(ROOT / "pipeline"))
