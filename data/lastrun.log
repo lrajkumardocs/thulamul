@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f13544c0d90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9f26f08490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
@@ -67,13 +67,10 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 683 → நிகழ்வுகள் 641
+[run] புதியவை 683 → நிகழ்வுகள் 640
 [triage] சேமித்த மதிப்பெண் (565) — புதிய அழைப்பு இல்லை
-[triage] 641 → 32 | காலி: tn:5, india:4, govt:4, world:3, economy:3
+[triage] 640 → 32 | காலி: tn:5, india:4, govt:4, world:3, economy:3
 [claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha
-[tts-edge] brief_2026-09-20: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[brief] காலை brief தயார்
 [market] தங்கம் 22K ₹14004 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 0 · எழுதியவை 0
