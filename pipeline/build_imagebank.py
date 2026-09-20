@@ -169,13 +169,15 @@ def gen(prompt, tries=2):
         try:
             r = requests.post(
                 "https://generativelanguage.googleapis.com/v1beta/models/"
-                "gemini-2.5-flash-image-preview:generateContent",
+                "gemini-2.5-flash-image:generateContent",
                 headers={"x-goog-api-key": key, "Content-Type": "application/json"},
                 json={"contents": [{"parts": [{"text": STYLE + "\n\nSCENE: " + prompt}]}],
-                      "generationConfig": {"responseModalities": ["IMAGE"]}},
+                      "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}},
                 timeout=120).json()
             for p in r["candidates"][0]["content"]["parts"]:
-                d = p.get("inlineData") or p.get("inline_data")
+                if "inlineData" in p:
+                    return base64.b64decode(p["inlineData"]["data"])
+                d = p.get("inline_data")
                 if d and d.get("data"):
                     return base64.b64decode(d["data"])
         except Exception as ex:
