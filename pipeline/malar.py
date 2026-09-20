@@ -268,7 +268,7 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
                  "இவற்றில் உண்மையில் வெளியான படங்களை மட்டும் எடு. உறுதியாகத் தெரியாவிட்டால் films: [].", 6000)
         if isinstance(fm.get("films"), list):
             m["films"] = fm["films"]
-            m = _spell(m, _cine_ref)
+
     except Exception as ex:
         print("[malar] films", str(ex)[:90])
     time.sleep(2)
@@ -319,6 +319,12 @@ def build(client, model, week, today, issue, dates_ta, done_books, done_heroes, 
         time.sleep(1)
 
     # நையாண்டி — 5 கேலிச்சித்திரம்
+    try:
+        _fx = json.loads((PIPE / "satire_fixed.json").read_text(encoding="utf-8"))
+        if _fx:
+            m["satire"] = _fx[:5]
+    except Exception:
+        pass
     for i, s in enumerate(m.get("satire", [])[:5], 1):
         b = gemini_image(s.get("scene_en", ""), f"s{i}", style=STYLE_TOON)
         if b:
@@ -566,15 +572,21 @@ def refresh_parts(client, model, m, today, parts=("films", "satire"), cinema_new
     changed = False
     if "films" in parts and isinstance(got.get("films"), list):
         m["films"] = got["films"]
-        m = _spell(m, cinema_news)
+
         for f in m["films"]:
             f["poster"] = wiki_photo(f.get("poster_query") or f.get("title", "")) or tmdb_poster(
                 f.get("poster_query") or f.get("title", "")) or None
         changed = True
         print("[malar] திரை விமர்சனம்:", ", ".join(x.get("title", "") for x in m["films"]))
 
-    if "satire" in parts and isinstance(got.get("satire"), list):
-        m["satire"] = got["satire"][:5]
+    if "satire" in parts:
+        try:
+            fixed = json.loads((PIPE / "satire_fixed.json").read_text(encoding="utf-8"))
+            m["satire"] = fixed[:5]
+            print("[malar] நையாண்டி — ஒப்புதல் பெற்ற நிலையான ஐந்து")
+        except Exception:
+            if isinstance(got.get("satire"), list):
+                m["satire"] = got["satire"][:5]
         for i, x in enumerate(m["satire"], 1):
             b = gemini_image(x.get("scene_en", ""), f"s{i}", style=STYLE_TOON)
             if b:
@@ -589,7 +601,7 @@ def refresh_parts(client, model, m, today, parts=("films", "satire"), cinema_new
         print("[malar] நையாண்டி:", len(m["satire"]))
 
     if changed:
-        m["v"] = 14
+        m["v"] = 15
         if telegram:
             try:
                 telegram("📔 வாரமலர் — " + want + " புதுப்பிக்கப்பட்டது.")
