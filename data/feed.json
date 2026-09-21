@@ -1,5 +1,42 @@
 [
  {
+  "id": "art_tech_20260921",
+  "headline": "UPI, ஆதார் பாதுகாப்பு: அன்றாடம் கவனிக்க வேண்டிய தொழில்நுட்ப குறிப்புகள்",
+  "lines": [
+   "UPI பயன்பாட்டில் பணம் அனுப்பும் முன் பெறுநரின் பெயர் மற்றும் எண்ணை இருமுறை சரிபார்க்க வேண்டும்.",
+   "அறிமுகமில்லாத நபர்கள் அனுப்பும் QR குறியீடுகளை ஸ்கேன் செய்வது மோசடிக்கு வழிவகுக்கும் என்பதால் எச்சரிக்கையாக இருக்க வேண்டும்.",
+   "ஆதார் எண்ணை UIDAI இணையதளத்தில் Lock/Unlock Aadhaar வசதி மூலம் தேவையின்றி பூட்டி வைப்பது பாதுகாப்பானது.",
+   "மொபைல் போனில் தேவையற்ற ஆப்களுக்கு Location, Contacts, Camera அனுமதிகளை தேவைக்கேற்ப மட்டும் அளிக்க வேண்டும்.",
+   "OTP, PIN போன்ற தனிப்பட்ட விவரங்களை போன் அழைப்பு, மெசேஜ் மூலம் யாருக்கும் பகிரக் கூடாது."
+  ],
+  "closing": "சிறு எச்சரிக்கை பெரிய இழப்பைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-09-21"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "தொழில்நுட்பம்",
+   "பாதுகாப்பு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-09-21T12:01+05:30",
+  "created_ts": 1789972330.1473312,
+  "audio": "data/audio/art_tech_20260921.mp3"
+ },
+ {
   "id": "art_court_20260921",
   "headline": "சாதாரண மக்களுக்கான அடிப்படை சட்ட அறிவு",
   "lines": [
@@ -332,7 +369,7 @@
    "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-rush-continues-20-issues-to-raise-over-rs-4152-crore-this-week/articleshow/134377158.cms"
   ],
   "image": {
-   "url": "https://images.unsplash.com/photo-1645226880663-81561dcab0ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8SW5kaWFuJTIwc3RvY2slMjBtYXJrZXQlMjBJUE98ZW58MXwwfHx8MTc4OTk2NzA1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+   "url": "https://images.unsplash.com/photo-1645226880663-81561dcab0ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8SW5kaWFuJTIwc3RvY2slMjBtYXJrZXQlMjBJUE98ZW58MXwwfHx8MTc4OTk2MzM3MHww&ixlib=rb-4.1.0&q=80&w=1080",
    "credit": "Adam Śmigielski · Unsplash",
    "license": "Unsplash — இலவசம்",
    "symbolic": true
@@ -1870,7 +1907,7 @@
    "https://www.thehindu.com/opinion/op-ed/campaign-to-reduce-the-intake-of-salt/article71468973.ece"
   ],
   "image": {
-   "url": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8c2FsdCUyMHJlZHVjdGlvbiUyMGNhcmRpb3Zhc2N1bGFyJTIwaGVhbHRofGVufDF8MHx8fDE3ODk5NDkxMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+   "url": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8c2FsdCUyMHJlZHVjdGlvbiUyMGNhcmRpb3Zhc2N1bGFyJTIwaGVhbHRofGVufDF8MHx8fDE3ODk5NDMxMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
    "credit": "Jason Tuinstra · Unsplash",
    "license": "Unsplash — இலவசம்",
    "symbolic": true
@@ -18088,67 +18125,6 @@
   },
   "audio": "data/audio/9b1d1ae280f1.mp3",
   "created_ts": 1789497851.1148486,
-  "status": "published"
- },
- {
-  "headline": "நீரஜ் சோபரா ஆசிய விளையாட்டு, டைமண்ட் லீக் முடிவிலிருந்து வெளியேற்றம்",
-  "lines": [
-   "ஜாவலின் வீச்சு வீரர் நீரஜ் சோபரா கணுக்காலில் ஏற்பட்ட காயத்தினால் 2026 ஆசிய விளையாட்டு போட்டிக்கு வர முடியாது.",
-   "டைமண்ட் லீக் இறுதிப் போட்டিக்கும் அவர் கலந்துகொள்ள இயலாது என்று அறிவிக்கப்பட்டுள்ளது.",
-   "28 வயதான சோபரா கடந்த செப்டம்பரிலிருந்து கீழ் முதுகில் ஏற்பட்ட காயம் குணமாகிவந்தார் என்று தெரிவிக்கப்பட்டுள்ளது.",
-   "இந்தியாவின் முதல் ஒலிம்பிக் தங்கப் பதக்க வீரர் சோபரா முடிய மீண்டு வர பல மாதங்கள் தேவைப்படக்கூடும்.",
-   "அடுத்த நிலையிலான சிகிச்சையைத் தொடர்ந்து அவரது விளையாட்டு நிலை என்ன হবென்பது தெளிவாகக் கூறப்படவில்லை."
-  ],
-  "closing": "நீரஜ் சோபரா 2021 டோக்கியோ ஒலிம்பிக்கில் தங்கப் பதக்கம் வென்ற இந்தியாவின் முதல் ஆணோவிய ஒலிம்பிக் சாம்பியன் ஆவார்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "நீரஜ் சோபரா",
-   "2026 ஆசிய விளையாட்டு",
-   "டைமண்ட் லீக்",
-   "ஜாவலின் வீச்சு"
-  ],
-  "confidence": 0.92,
-  "en": {
-   "headline": "Neeraj Chopra ruled out of 2026 Asian Games, Diamond League Finals",
-   "lines": [
-    "Javelin thrower Neeraj Chopra will miss the 2026 Asian Games due to an ankle injury.",
-    "He has also been ruled out of the Diamond League Finals.",
-    "The 28-year-old was recovering from a lower back injury that has troubled him since last September.",
-    "India's first Olympic gold medallist may need several months to return fully.",
-    "His athletic status after ongoing treatment remains unclear."
-   ],
-   "closing": "Neeraj Chopra is India's first individual male Olympic gold medallist, winning at the 2021 Tokyo Olympics."
-  },
-  "front_cat": "routine",
-  "image_query": "Neeraj Chopra javelin",
-  "person_en": "Neeraj Chopra",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "aa3fe27953cc",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-15T13:12+05:30",
-  "links": [
-   "https://www.thehindu.com/sport/athletics/neeraj-chopra-ruled-out-of-2026-asian-games-diamond-league-finals-due-to-ankle-injury/article71404112.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Neeraj_Chopra_Olympic_gold_medalist.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Neeraj Chopra",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Neeraj_Chopra"
-  },
-  "audio": "data/audio/aa3fe27953cc.mp3",
-  "created_ts": 1789458174.3978443,
   "status": "published"
  }
 ]
