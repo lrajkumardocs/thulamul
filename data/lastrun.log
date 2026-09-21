@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
+[fetch] The Hindu TN: 12 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 16 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
+[fetch] Al Jazeera: 6 புதியவை
+[fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 18 புதியவை
+[fetch] Cinema Express: 15 புதியவை
 [fetch] The Hindu Tech: 10 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 8 புதியவை
-[fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 14 புதியவை
+[fetch] The Hindu Agriculture: 0 புதியவை
+[fetch] FreeJobAlert: 11 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 17 புதியவை
-[fetch] The Hindu Legal: 11 புதியவை
+[fetch] Bar and Bench: 16 புதியவை
+[fetch] The Hindu Legal: 10 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 24 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 13 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 11 புதியவை
+[fetch] The Hindu National: 10 புதியவை
 [fetch] NDTV India: 9 புதியவை
 [fetch] India Today: 17 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,59 +56,43 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f303debc610>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 11 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff7efcffdd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 10 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 522 → நிகழ்வுகள் 496
-[triage] 496 → 33 | காலி: cinema:3, crime:2, jobs:2, assembly:2, india:1
-[skip] வதந்தி/ஊகம் — 'Aadhi-ன் கதை இல்லையா?' என்ற கேள்வி மற்றும் 'இ
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியா வாசகருக்க
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — சீனாவின் ராணுவ அமைச்சர்கள் நீ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfHGMzzWqryJP7bmoFsom'}
-[skip] தமிழ்நாடு/இந்திய வாசகருக்கு நேரடிப் பாதிப்பு இல்லை. UN பொதுச
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு அரசுகளுக்கு இடையேயான பொருளாதாரச் சதுரங்கம்; தமிழ்
-[skip] சிரியாவின் உள்நாட்டு ராணுவ நிலைமை — தமிழ்நாட்டு வாசகருக்கு ந
-[tts-edge] cf671cb27bcf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாடு அரசு மருத்துவமனைகளில் முன்கூட்டிய குழந்தைகளுக்கான மருந்து பற்றாக்குறை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfHGZAJfbvB4dtA2e2Nnw'}
-[skip] பாকிஸ்தான் உள்நாட்டு அரசியல் நிகழ்வு — தமிழ்நாடு/இந்தியச் வா
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfHGcG51ivaHz1Z98n8CW'}
-[skip] பிரான்சின் உள்ளூர் அரசியல் போராட்டம். தமிழ்நாடு/இந்திய வாசகர
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இஸ்ரேல்-பாலஸ்தீன மோதல், உள்ளூர் அரசியல் நபரின் கூற்று. தமிழ்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfHGjE7PPpjpGmkzWMbo2'}
-[skip] வெளிநாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகருக்கு நேரடித் தொட
-[திருத்தம்] வடகிழக்குப் பருவமழை: கடலோர, டெல்டா மாவட் → வடகிழக்குப் பருவமழை: கடலோர, டெல்டா மாவட்
-[tts-edge] b35a2e0af718: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வடகிழக்குப் பருவமழை: கடலோர, டெல்டா மாவட்டங்களில் முன்னெச்சரிக்கை நடவடிக்கை - முதல்வர் உத்தரவு
-[skip] வெளிநாட்டு ஊடகத்தின் UN தலைவருடனான நேர்காணல் — தமிழ்நாட்டு/இ
-[publish] சென்னையில் ஸ்டார்பக்ஸ் திறன் மையம், எண்நூறு பேருக்கு வேலை
-[skip] வெளிநாட்டு ராணுவ/ஆயுதப் பொறியியல் பற்றிய தொழில்நுட்பச் செய்த
-[skip] மத்தியப் பிரதேச மாநிலத்தின் உள்ளூர் திட்டம் தொடர்பான உயர் நீ
-[skip] ஒடிசா, ஜார்க்கண்ட் மாநிலங்களின் உள்ளூர் கல்வி/வேலைவாய்ப்பு அ
+[run] புதியவை 487 → நிகழ்வுகள் 463
+[triage] சேமித்த மதிப்பெண் (447) — புதிய அழைப்பு இல்லை
+[triage] 463 → 16 | காலி: cinema:3, crime:2, assembly:2, india:1, govt:1
+[skip] நெறிமுறை மீறல்: நேர்காணல் உரையை அப்படியே மொழிபெயர்ப்பு செய்ய
+[tts-edge] e7b62ac2aa9d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சோனியா காந்தி வாக்காளர் பட்டியல் வழக்கில் புதிய விசாரணைக்கு உத்தரவு
+[skip] இது பீகார் மாநிலத்தில் நடந்த உள்ளூர் குற்றச் சம்பவம், தமிழ்ந
+[skip] இது மகாராஷ்டிரா மாநிலத்தின் கல்யாண் நகரில் நடந்த உள்ளூர் கொள
+[skip] பொதுவான விளையாட்டுச் செய்திக்குக் குறிப்பிட்ட விபரங்கள் (ஆட்
+[skip] பிற மாநிலத்தின் உள்ளூர் அரசியல் வழக்கு — தமிழ்நாட்டுக்கு நேர
+[skip] தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்காது — கம்போடியாவின் உள்நாட்
+[skip] அமெரிக்கா (கலிபோர்னியா) உள் அரசியல் சட்டம். தமிழ்நாடு / இந்த
+[skip] பிहார் மாநிலத்தின் உள்ளூர் குற்றச் சம்பவம். தமிழ்நாடு வாசகரை
+[skip] வெளிநாட்டு உள்நாட்ட அரசியல் நிகழ்வு — தமிழ்நாடு/இந்திய வாசகர
+[திருத்தம்] கல்யாணத்தில் ₹40 லட்ச கொள்ளையை 24 மணிநேர → கல்யாணத்தில் ₹40 லட்ச கொள்ளை: 24 மணிநேரத
+[tts-edge] c5d657d2d7ba: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கல்யாணத்தில் ₹40 லட்ச கொள்ளை: 24 மணிநேரத்தில் ஆறு பேர் கைது; ₹36.48 லட்ச பணமும் மோட்டார்சைக்கிளும் மீட்டெடுப்பு
+[திருத்தம்] இந்தியாவின் பாதுகாப்பு கவுன்சில் நிரந்தர → இந்தியாவின் ஐ.நா. பாதுகாப்பு கவுன்சில் ந
+[publish] இந்தியாவின் ஐ.நா. பாதுகாப்பு கவுன்சில் நிரந்தர இடத்திற்கு நான்கு ஐரோப்பிய நாடுகள் ஆதரவு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 86,489 stray dogs vaccinated against rabies in C
-[திருத்தம்] NABFINS வாடிக்கையாளர் சேவை அதिकारி பதவிக → NABFINS வாடிக்கையாளர் சேவை அதिकारி பதவிக
-[தரம்] தமிழ் அல்லாத எழுத்து: कराि → ஒரு திருத்தம்
-[publish] NABFINS வாடிக்கையாளர் சேவை அதிகாரி பதவிக்கு விண்ணப்பம் செய்யுங்கள்.
-[publish] சாஸ்திரா பல்கலைக்கழக நிலம் அத்துமீறல்: மாற்று நிலம் பரிசீலிக்க உச்ச நீதிமன்றம் உத்தரவு
-[skip] பஞ্சாப் மாநிலத்தின் உள்ளூர் விவசாய சிக்கல் — தமிழ்நாட்டுக்கு
-[skip] ஆஸ்திரேலியாவின் விக்டோரியா மாநிலத் கிரிக்கெட் — தமிழ்நாடு அல
-[skip] தமிழ்த் திரையுலகத்துடன் சம்பந்தம் இல்லை. நடிகர் / இயக்குநர் 
+[skip] தனிநபரின் சர்ச்சை மற்றும் சமூக ஊடகப் பதிவு சார்ந்த செய்திக்க
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Private hospital launches bike ambulances
-[skip] வதந்தி மற்றும் ரசிகர் தொந்தரவு — சினிமா செய்தி தருணங்கள் (பட
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[skip] நடிகர் அஜித்குமாரின் தனிப்பட்ட ரேசிங் அணி நடவடிக்கை — சினிமா
+[image] 3 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13854 · சென்செக்ஸ் 74859
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 5
+[done] feed 300 · pending 1 · எழுதியவை 3
