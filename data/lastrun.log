@@ -1,11 +1,11 @@
 [fetch] RBI: 3 புதியவை
-[fetch] ET Markets: 7 புதியவை
+[fetch] ET Markets: 5 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 8 புதியவை
 [fetch] Dinamani TN: 6 புதியவை
 [fetch] BBC Tamil: 0 புதியவை
 [fetch] BBC World: 8 புதியவை
-[fetch] Al Jazeera: 5 புதியவை
+[fetch] Al Jazeera: 4 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 23 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 4 புதியவை
+[fetch] The Hindu Legal: 2 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 20 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 15 புதியவை
 [fetch] The Verge: 6 புதியவை
-[fetch] The Hindu National: 4 புதியவை
+[fetch] The Hindu National: 2 புதியவை
 [fetch] NDTV India: 11 புதியவை
 [fetch] India Today: 9 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f87bd707e10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 4 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fde059b5c10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 2 புதியவை
 [fetch] Dinamani Govt: 6 புதியவை
 [fetch] Times Govt Schemes: 17 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,23 +65,18 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 22 புதியவை
+[fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 357 → நிகழ்வுகள் 341
+[run] புதியவை 347 → நிகழ்வுகள் 333
 [triage] சேமித்த மதிப்பெண் (322) — புதிய அழைப்பு இல்லை
-[triage] 341 → 29 | காலி: court:3, assembly:2, world:1, economy:1, govt:1
-[tts-edge] 8cba59e71910: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] RVNL, மசகான் டாக், லென்ஸ்கார்ட் பங்குகள் கவனத்தில்: இந்திய சந்தை நிலவரம்
-[skip] இந்திய அரசு அறிவிப்பு அல்ல. இதோ ஒரு நாடு (இஸ்রேல்) தொடர்பான 
-[skip] இது ஒரு பொதுவான சந்தை முன்னறிக்கை/ஆய்வுக் கட்டுரை; உறுதியான 
-[skip] தமிழ்நாடு அரசுக்கான தெளிவான செய்திப் பொருள் அல்ல; பাঠకக் கடி
-[tts-edge] 24d472ef7294: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இந்திய நிறுவனங்கள் பத்திரச் சந்தை வழியே ஆயிரம் கோடி ரூபாய் திரட்ட முயற்சி
-[publish] இந்த வாரம் இருபது ஐபிஓக்கள் மூலம் 4,152 கோடி ரூபாய் திரட்ட திட்டம்
-[publish] எச்எஸ்பிசி வங்கிக்கு 14.5 பில்லியன் டாலர் அந்நிய நாணய வைப்பு கிடைப்பு
-[skip] வெளிநாட்டு நிறுவனத்துக்கு எதிரான வெளிநாட்டுச் சட்ட வழக்கு — 
-[image] 3 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13936 · சென்செக்ஸ் 74295
+[triage] 333 → 26 | காலி: court:3, assembly:2, world:1, govt:1
+[skip] பொதுவான அரசியல் விश்লேষணம்; தமிழ்நாடு/இந்திய வாசகரைக் குறிப்
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — எத்தியோப்பியாவின் உள்ளூர் ஆயு
+[தரம்] தமிழ் அல்லாத எழுத்து: रস → ஒரு திருத்தம்
+[tts-edge] 8819c72b6bfc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சுகாதாரப் பணியாளர்கள் நிரந்தர வேலைக்குக் கோரிக்கை
+[image] 4 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13979 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
 [image] 4 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 4
+[done] feed 300 · pending 1 · எழுதியவை 1
