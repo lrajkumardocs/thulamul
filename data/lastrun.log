@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 3 புதியவை
+[fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 21 புதியவை
 [fetch] The Hindu Tech: 10 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 11 புதியவை
+[fetch] The Hindu Health: 9 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 22 புதியவை
+[fetch] FreeJobAlert: 17 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,20 +28,20 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 20 புதியவை
-[fetch] The Hindu Legal: 15 புதியவை
+[fetch] Bar and Bench: 18 புதியவை
+[fetch] The Hindu Legal: 13 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 24 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 15 புதியவை
+[fetch] TechCrunch: 14 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 15 புதியவை
-[fetch] NDTV India: 17 புதியவை
-[fetch] India Today: 20 புதியவை
+[fetch] The Hindu National: 13 புதியவை
+[fetch] NDTV India: 12 புதியவை
+[fetch] India Today: 17 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 28 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1272f67c10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 15 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3a001709d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 13 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,59 +67,53 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 590 → நிகழ்வுகள் 554
+[run] புதியவை 552 → நிகழ்வுகள் 522
 [triage] சேமித்த மதிப்பெண் (556) — புதிய அழைப்பு இல்லை
-[triage] 554 → 41 | காலி: india:3, economy:3, cinema:3, court:2, crime:2
-[skip] Unni Mukundan is a Malayalam actor. His 50th film project is
-[skip] இது வேறு மாநிலத்தின் உள்ளூர் கூட்டுறவு வங்கி நியமனம் தொடர்பா
-[skip] இது கர்நாடகா மாநிலத்தின் பேளகாவி மாவட்ட உள்ளூர் திட்டம் தொடர
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[triage] 522 → 35 | காலி: cinema:3, india:2, crime:2, jobs:2, sports:2
+[skip] English-only source without Tamil context; unclear Tamil tit
+[skip] மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் வறட்சி அறிவிப்பு; தமிழ்நாட்ட
+[skip] ராஜஸ்தான் உள்ளாட்சி தேர்தல் தொடர்பான ஹரியானா மாநிலத்தின் உள்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 86,489 stray dogs vaccinated against rabies in C
-[திருத்தம்] ஒரே ஏரியில் மூன்றாவது முறை குவாரி - மக்க → ஒரே ஏரியில் தொடர்ந்து மூன்றாவது முறை குவ
-[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
-[tts-edge] 026b325e94a5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஒரே ஏரியில் தொடர்ந்து மூன்றாவது முறை குவாரி - மக்கள் கடும் எதிர்ப்பு
-[skip] பொருத்தமற்ற செய்தி: BDCC வங்கியின் உள்ளூர் நியமன விஷயம் தமிழ
-[skip] பிரிட்டனில் ஐஸ்ரேல் ஆயுதக் கொள்வாய்க்குக் கண்டன விளையாட்டு. 
-[skip] வெளிநாட்டு (அமெரிக்கா) தொழில்நுட்ப மாநாட்டின் டிக்கட் விளம்ப
+[skip] மகாராஷ்ட்ரத்தின் உள்ளூர் வறட்சிக் கொள்கை — தமிழ்நாட்டுக்கு ந
+[skip] வெளிநாட்டு அரசியல் நிকழ்வு — தமிழ்நாடு/இந்தியாவுடன் நேரடித் 
+[skip] வெளிநாட்டு நிறுவனத்தின் உள்ளூர் அறிவிப்பு — தமிழ்நாடு/இந்திய
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Private hospital launches bike ambulances
-[skip] கர்நாடக மாநிலத்தின் உள்ளூர் திட்டம் — தமிழ்நாட்டுக்கு நேரடித
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல். அமெரிக்க தேர்தல் மதிப்பீடு, கு
-[skip] டெல்லியில் ஒரு வாக்காளர் தொடர்பான உள்ளூர்ச் செய்தி; தமிழ்நாட
+[skip] ஹரியாணா மாநிலத்தில் நடந்த உள்ளூர் அரசியல் சம்பவம். தமிழ்நாட்
+[skip] வெளிநாட்டு உள்நாட்டு குற்றச் செய்தி — தமிழ்நாட்டு/இந்திய வாச
+[skip] இது டெல்லியில் நடந்த உள்ளூர் கட்டிடச் சரிவு வழக்கு தொடர்பான 
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: One more person held in murder of SI in Nungamba
-[skip] பூர্ণ संदर्भ இல்லை — குவாரி, ஏரி, மக்கள் எதிர்ப்பு — எந்த ஏர
-[skip] மும்பையின் உள்ளூர் உணவு உரிம ரத்து சம்பவம் - தமிழ்நாட்டுடன் 
+[skip] வெளிநாட்டுக் செய்தி — தமிழ்நாட்டு/இந்தியச் வாசகரைப் பாதிக்கா
+[skip] உத்தரப் பிரதேசத்தில் நடந்த உள்ளூர் தொழிற்சாலை விபத்து செய்தி
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: City police widens probe in case against Veerama
-[தரம்] தமிழ் அல்லாத எழுத்து: ब → ஒரு திருத்தம்
-[tts-edge] 047b153a4d62: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கர்தார்பூர் தாழ்வாரத்தில் பிரார்த்தனை நிறுத்தம், விளக்கம் கேட்ட அகால் தக்த்
+[skip] வெளிநாட்டு ক্রীড়া সংগठনের অভ্যন্তরীণ நிர্বাহக் விষয়। தமிழ்
+[skip] இது உத்தரப் பிரதேசத்தில் நடந்த உள்ளூர்க் குற்றச் சம்பவம்; தம
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: GCC identifies 593 mosquito breeding hotspots in
-[skip] டெல்லியில் நடந்த உள்ளூர்க் குற்றச் சம்பவம் - தமிழ்நாட்டுடன் 
+[skip] இந்தச் செய்தி ஐக்கிய இராஜ்ஞ்ய நாட்டின் உள்நாட்டுச் சட்டப் நட
+[skip] பிகாரில் நடந்த உள்ளூர் குற்றச் சம்பவம் - தமிழ்நாட்டு வாசகருக
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: WRD’s institute takes training to the field, ado
-[skip] இது டெல்லியில் நடந்த உள்ளூர்க் குற்றச் சம்பவம்; தமிழ்நாட்டுட
+[skip] வெளிநாட்டு தொழில்நுட்ப/மீடியா நிறுவனங்களின் வணிகப் புரு உடன்
+[திருத்தம்] விவசாயிகள் நலனுக்கு பாதிப்பு இல்லை என மத → பிரதமர் மோடி இருக்கும் வரை விவசாயிகள் நல
+[தரம்] தமிழ் அல்லாத எழுத்து: ना → ஒரு திருத்தம்
+[tts-edge] 71a27e37a54a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பிரதமர் மோடி இருக்கும் வரை விவசாயிகள் நலனுக்கு பாதிப்பு இல்லை: மத்திய அமைச்சர் சிவராஜ் சிங்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: CM reviews preparedness for northeast monsoon an
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Stalin warns of protest over Foreshore Estate se
-[skip] மேற்கு வங்க மாநிலத்தின் உள்ளூர் அரசியல் கட்சி தொடர்பான நீதிம
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: University of Madras changes its distance educat
-[publish] சோனியா காந்தி மீதான மனுவை ஏற்றது தில்லி நீதிமன்றம்
-[skip] இது மேற்கு வங்காளத்தின் உள்ளூர் அரசியல் கட்சி விவகாரம் (திரி
-[skip] பஞ்சாப் மற்றும் கேரளாவின் உள்ளூர் அரசு வேலைவாய்ப்பு அறிவிப்ப
-[திருத்தம்] தேசிய பங்குச் சந்தை பட்டியலிடல் பட்டியலி → தேசிய பங்குச் சந்தை IPO பட்டியலிடா பங்கு
-[publish] தேசிய பங்குச் சந்தை IPO பட்டியலிடா பங்கு சந்தையை பாதிக்கும் என எதிர்பார்ப்பு
-[skip] இது கர்நாடகா மாநில பொதுத் தேர்வாணையம் தொடர்பான உள்ளூர் நீதிம
-[திருத்தம்] கர্নாடகம் முழுவதும் নকল மருந்து விற்பனை  → கர்நாடகம் முழுவதும் நகல் மருந்து விற்பனை
-[publish] கர்நாடகம் முழுவதும் நகல் மருந்து விற்பனை வலையம் பிடிபட்டது
-[skip] இங்கிலாந்துக்கு இலங்கை அணির சுற்றுலா — தமிழ்நாடு அல்லது இந்த
-[publish] கச்சா எண்ணெய் விலை குறைவால் ரூபாய் மதிப்பு தொடர்ந்து மூன்றாவது நாளாக உயர்வு
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமில்லை. TIFF (Toronto Intern
-[skip] இது கர்நாடகா மாநில KPSC ஆட்சேர்ப்பு முறைகேடு தொடர்பான பெங்கள
-[skip] ஆந்திர பிரதேச மாநிலத்தின் உள்ளூர் பல்கலைக்கழகத் தேர்வு முடிவ
-[skip] வெளிநாட்டு கட்டுரை — இந்தியா/தமிழ்நாட்டு சூழல் இல்லை; கால்நட
-[skip] இங்கிலாந்து county cricket — வெளிநாட்டு உள்நாட்டுத் தொடர். த
-[skip] இது குறிப்பிட்ட சிறு பங்குகளின் விலை உயர்வு பற்றிய தனிப்பட்ட
-[skip] ஆங்கிலச் செய்திமூல ஒழிந்து விவரம் கிடைக்கவில்லை; தமிழ்த் திர
+[skip] இவை இமாச்சலப் பிரதேசம் (HPPSC) மற்றும் சத்தீஸ்கர் (CGSSB) மா
+[திருத்தம்] சென்னை சூப்பர் கிங்ஸ் அணிக்கு புதிய பயிற → சென்னை சூப்பர் கிங்ஸ் அணிக்கு புதிய தலைம
+[tts-edge] c6fb7d55f282: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னை சூப்பர் கிங்ஸ் அணிக்கு புதிய தலைமைப் பயிற்சியாளராக ஜஹீர் கான் நியமனம்
+[skip] உத்தரப் பிரதேச அரசுத் தேர்வு — தமிழ்நாட்டுக்கு பொருத்தமில்லை
+[skip] வெளிநாட்டு ক্রিকেট — জিম्बाబ्वे বनाम ऑस्ट्रेलिয়ा ODI। तमिल्
+[publish] இந்தியா ஆசியாவின் நான்காவது பெரிய REIT சந்தையாக உயர்வு
+[skip] இது பம்பாய் உயர் நீதிமன்றத்தின் மாநில அளவிலான சுயமுன்னெடுப்ப
+[திருத்தம்] ஐ.வி.எஃப் சிகிச்சையில் ஜீன் பர்டির் பங்க → ஐ.வி.எஃப் சிகிச்சையில் ஜீன் பர்டியின் பங
+[publish] ஐ.வி.எஃப் சிகிச்சையில் ஜீன் பர்டியின் பங்கு அங்கீகாரம்
+[skip] வதந்தி / ஊகம் — 'Almost Nallavan' பெயர், நடிகர், இயக்குநர் இ
+[skip] தமிழ்த் திரையுலகத்தின் செய்தி இருந்தாலும் ஆங்கிலத்தில் மட்டு
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13853 · சென்செக்ஸ் 74859
+[market] தங்கம் 22K ₹13846 · சென்செக்ஸ் 74859
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 6
+[done] feed 300 · pending 1 · எழுதியவை 4
