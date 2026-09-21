@@ -2,14 +2,14 @@
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
+[fetch] Dinamani TN: 22 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 7 புதியவை
 [fetch] Al Jazeera: 3 புதியவை
 [fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 9 புதியவை
+[fetch] Cinema Express: 6 புதியவை
 [fetch] The Hindu Tech: 10 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 6 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 5 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 24 புதியவை
 [fetch] Dinamani Sports: 22 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 13 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 6 புதியவை
+[fetch] The Hindu National: 5 புதியவை
 [fetch] NDTV India: 9 புதியவை
 [fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4144769d50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 6 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe401769910>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 5 புதியவை
+[fetch] Dinamani Govt: 22 புதியவை
 [fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,23 +67,37 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 440 → நிகழ்வுகள் 422
+[run] புதியவை 431 → நிகழ்வுகள் 414
 [triage] சேமித்த மதிப்பெண் (447) — புதிய அழைப்பு இல்லை
-[triage] 422 → 14 | காலி: cinema:3, assembly:2, crime:1
-[skip] கன்னடப் படம் — தமிழ்நாடு வாசகர்க்கு முதல்நிலையில் பொருத்தமற்
-[skip] இது மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் சமூகத் த
-[திருத்தம்] 6 முதல் 8ஆம் வகுப்பு மாணவர்களுக்கு காலை  → 6 முதல் 8-ஆம் வகுப்பு மாணவர்களுக்கு காலை
-[tts-edge] 7304a2675045: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] 6 முதல் 8-ஆம் வகுப்பு மாணவர்களுக்கு காலை உணவுத் திட்ட விரிவாக்கம்
-[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
-[tts-edge] 43ee7e8a4fa9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தனியார் பேருந்து கட்டண உயர்வு வழக்கில் தமிழக அரசுக்கு அறிக்கை தாக்கல் உத்தரவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfHNUBj3hhofNdbYsm4Js'}
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 86,489 stray dogs vaccinated against rabies in C
-[skip] சினிமா நிகழ்வு அல்ல — நடிகரின் பொதுவான நேர்காணல். தமிழ்த் தி
-[skip] தமிழ்ப் படம் அல்ல — கன்னட/தெலுங்குப் படத்தின் நடிகர் சேர்க்க
+[triage] 414 → 27 | காலி: cinema:3, assembly:2, crime:1
+[திருத்தம்] அசோக் செல்வனின் 70 அடி உயரத்திலிருந்து த → அசோக் செல்வனின் 70 அடி உயரத்திலிருந்து த
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[tts-edge] c92b1e887bbf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அசோக் செல்வனின் 70 அடி உயரத்திலிருந்து தைரியமான குதிப்பின் பின்னணிக் குறிப்பு
+[skip] தலைப்பு மட்டுமே கிடைத்துள்ளது, முழு செய்தி விவரங்கள் இல்லை; 
+[skip] பஞ்சாப் மாநில அரசுக்கும் மத்திய அமைச்சருக்கும் இடையிலான உள்ள
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Workday expands its India GCC, as it builds agen
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfHRPQK3fRSzikAGAXVvb'}
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Logitech eyes premium consumer &amp; B2B growth 
+[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
+[tts-edge] a5ede0a6aadb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டின் மேற்கு தொடர்ச்சி மலை மாவட்டங்களில் மழை பெய்ய வாய்ப்பு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tesla to plug into Chennai as it expands footpri
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது ஒடிசா மாநிலத்தின் வாக்காளர் பட்டியல் திருத்தம் தொடர்பான 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfHRbnqU36RevsAqvMrpt'}
+[skip] இது கேரள மாநிலத்தின் நிலம்பூர் பகுதியில் நிகழ்ந்த உள்ளூர் வெ
+[திருத்தம்] விளாத்திகுளம் திமுக எம்எல்ஏ வெற்றி மனு ந → விளாத்திகுளம் திமுக எம்எல்ஏ வெற்றியை எதி
+[publish] விளாத்திகுளம் திமுக எம்எல்ஏ வெற்றியை எதிர்த்த மனு நீதிமன்றத்தில் தள்ளுபடி
+[திருத்தம்] உயர் நீதிமன்ற நீதிபதிகள் நியமனத்தில் சீக → உயர் நீதிமன்ற நீதிபதிகள் நியமனத்தில் இரண
+[தரம்] தமிழ் அல்லாத எழுத்து: तधनि → ஒரு திருத்தம்
+[publish] உயர் நீதிமன்ற நீதிபதிகள் நியமனத்தில் இரண்டு சீக்கியர்கள் புறக்கணிப்பு புகார்
+[skip] விளையாட்டு/பொழுதுபோக்கு அறிவிப்பு மட்டுமே; படத்தின் தொடக்கம்
+[skip] தமிழ்த் திரையுலக செய்திகளுக்கான நிபந்தனை: (1) புதிய படத்தின்
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: நீதிபதிகள் நியமனம்: பிரதிநிதித்துவமா, தகுதியா?
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13874 · சென்செக்ஸ் 74859
+[market] தங்கம் 22K ₹13915 · சென்செக்ஸ் 74859
 [weather] புதுப்பிக்கப்பட்டது
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 2
+[done] feed 300 · pending 1 · எழுதியவை 4
