@@ -1,11 +1,11 @@
 [fetch] RBI: 3 புதியவை
-[fetch] ET Markets: 2 புதியவை
+[fetch] ET Markets: 1 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 9 புதியவை
-[fetch] BBC Tamil: 1 புதியவை
+[fetch] The Hindu TN: 8 புதியவை
+[fetch] Dinamani TN: 7 புதியவை
+[fetch] BBC Tamil: 0 புதியவை
 [fetch] BBC World: 10 புதியவை
-[fetch] Al Jazeera: 8 புதியவை
+[fetch] Al Jazeera: 7 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 23 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
@@ -13,7 +13,7 @@
 [fetch] The Hindu Tech: 6 புதியவை
 [fetch] Wired: 22 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 5 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 0 புதியவை
+[fetch] The Hindu Legal: 1 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 24 புதியவை
-[fetch] Dinamani Sports: 25 புதியவை
+[fetch] Dinamani Cinema: 23 புதியவை
+[fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 15 புதியவை
 [fetch] The Verge: 6 புதியவை
-[fetch] The Hindu National: 0 புதியவை
+[fetch] The Hindu National: 1 புதியவை
 [fetch] NDTV India: 11 புதியவை
 [fetch] India Today: 9 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f62ec4cbe50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 0 புதியவை
-[fetch] Dinamani Govt: 9 புதியவை
-[fetch] Times Govt Schemes: 18 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fef982cee10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 1 புதியவை
+[fetch] Dinamani Govt: 7 புதியவை
+[fetch] Times Govt Schemes: 17 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,28 +67,24 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 354 → நிகழ்வுகள் 343
+[run] புதியவை 353 → நிகழ்வுகள் 340
 [triage] சேமித்த மதிப்பெண் (349) — புதிய அழைப்பு இல்லை
-[triage] 343 → 29 | காலி: court:3, world:2, economy:2, cinema:2, assembly:2
-[skip] வெளிநாட்டு உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்திய வாசகருக்கு
-[திருத்தம்] தமிழ்நாட்டில் இதுவரை 17,049 பேருக்கு டெங → நிகழாண்டில் இதுவரை 17,049 பேருக்கு டெங்க
-[தரம்] மூலத்தில் இல்லாத எண்: 88 → ஒரு திருத்தம்
-[tts-edge] fbacdef8cb38: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] நிகழாண்டில் இதுவரை 17,049 பேருக்கு டெங்கு பாதிப்பு
-[திருத்தம்] பருவநிலை மாற்றத்திற்கு வலுவான கொள்கைகள்  → பருவநிலை மாற்றத்திற்கு நன்கு கட்டமைக்கப்
-[tts-edge] 57ee6fa6e4d6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பருவநிலை மாற்றத்திற்கு நன்கு கட்டமைக்கப்பட்ட கொள்கைகள் அவசியம்: குடியரசுத் தலைவர் முர்மு
+[triage] 340 → 32 | காலி: court:3, world:2, economy:2, cinema:2, assembly:2
+[skip] மூலம் தெளிவாக அறிவியல்-சிறுவர் உள்ளடக்கம் அல்லது பண்பாட்டு/ம
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘₹4,000 crore investment to strengthen Chennai p
-[publish] விரைவு ரயில் பெட்டியில் தொங்கிய பயணியை மீட்ட ரயில்வே காவலர்
+[skip] ओडिशा राज्य की आंतरिक राजनीति है। तमिलनाडु पाठकों के लिए प्र
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Bridge commercial EV, charging gaps for wider ad
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Need For Speed
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFZ7qXL9PY9v3yisMGLf'}
-[skip] விளையாட்டுச் செய்தி (பார்சிலோனா கார் பந்தயம்) — சினிமா துறை 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFZAuTJgpXrdz62gmZXq'}
-[skip] பிற நாட்டின் உள்ளூர் கல்வி நிறுவனத்தின் ব்যক্তிগত சம்பவம் — 
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[tts-edge] bb606d561459: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நடிகர் சிவாஜி கணேசனின் மூத்த மகள் சாந்தி காலமானார்
+[skip] வதந்தி, ஊகம், ஆராய்ச்சி இல்லாத சுய-விளம்பர நேர்காணல். நிகழ்வ
+[skip] உலகளாவிய பொது நிबந்தனைக் கட்டுரை; தமிழ்நாடு, இந்தியா அல்லது 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFcAmAaiRNSsxwuNWrDi'}
+[skip] பிற நாட்டின் உள்நாட்டு அரசியல் — எரிட்রியாவின் கடந்த கால வழக
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFcDRQmt8KDbFHnXt4dp'}
 [image] 3 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13955 · சென்செக்ஸ் 74295
+[market] தங்கம் 22K ₹13953 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 3 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 3
+[done] feed 300 · pending 1 · எழுதியவை 1
