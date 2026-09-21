@@ -2,14 +2,14 @@
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 4 புதியவை
+[fetch] Al Jazeera: 3 புதியவை
 [fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 12 புதியவை
+[fetch] Cinema Express: 9 புதியவை
 [fetch] The Hindu Tech: 10 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -28,20 +28,20 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 13 புதியவை
-[fetch] The Hindu Legal: 7 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 6 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 24 புதியவை
-[fetch] Dinamani Sports: 23 புதியவை
+[fetch] Dinamani Sports: 22 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 13 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 7 புதியவை
+[fetch] The Hindu National: 6 புதியவை
 [fetch] NDTV India: 9 புதியவை
 [fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 26 புதியவை
+[fetch] Dinamani India: 25 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f27b36f1110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 7 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
-[fetch] Times Govt Schemes: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4144769d50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 6 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
+[fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,32 +67,23 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 467 → நிகழ்வுகள் 448
+[run] புதியவை 440 → நிகழ்வுகள் 422
 [triage] சேமித்த மதிப்பெண் (447) — புதிய அழைப்பு இல்லை
-[triage] 448 → 15 | காலி: cinema:3, assembly:2, govt:1, crime:1, sports:1
-[skip] வதந்தி மற்றும் ஊகம் — 'Thalaivar 173' என்ற படம் பற்றிய உறுதி
-[skip] உத்தரப் பிரதேச மாநிலப் பிரிவினை பற்றிய உள்ளூர் அரசியல் கட்சி
-[திருத்தம்] தற்காப்புக் கலையில் வெண்கலம்; துப்பாக்கி → துப்பாக்கி சுடுதலில் தொடரும் பதக்க வேட்ட
-[தரம்] தமிழ் அல்லாத எழுத்து: শશ → ஒரு திருத்தம்
-[tts-edge] 546827bde782: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] துப்பாக்கி சுடுதலில் தொடரும் பதக்க வேட்டை; தற்காப்புக் கலையில் வெண்கலம்
-[skip] உत্தர பிரதேশ மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாடு வாசகருக
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்ளூர் விவகாரம் — ஸ்பெயின்-மொரக்கோ எல்லை பிரச்சி
-[திருத்தம்] ஐ.நா. நிகழ்வுகளில் பங்கேற்க 18 இந்திய எம → ஐ.நா. நிகழ்வுகளில் பங்கேற்க தேமுதிக எம்.
-[tts-edge] 7b622968fdc4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஐ.நா. நிகழ்வுகளில் பங்கேற்க தேமுதிக எம்.பி. உள்பட 18 இந்திய எம்.பி.க்கள் நியூயார்க் பயணம் செய்கின்றனர்
-[திருத்தம்] இந்தியா நியூசிலாந்து தடையற்ற வர்த்தக ஒப் → இந்தியா - நியூசிலாந்து தடையற்ற வர்த்தக ஒ
-[publish] இந்தியா - நியூசிலாந்து தடையற்ற வர்த்தக ஒப்பந்தம் அக். 20-இல் அமல்: பியூஷ் கோயல்
-[skip] வெளிநாட்டுச் சந்தை ஒப்பந்தம் — தமிழ்நாட்டு வாசகருக்குத் தொடர
-[skip] மூல உரை முழுமையாக இல்லை — தலைப்பு மட்டுமே உள்ளது. தொலைத்தொடர
-[skip] இது நிறுவன IPO செய்தி — மக்கள் செயல்பட வேண்டிய அரசு அறிவிப்ப
-[skip] இது வெளிநாட்டு ব்যাংக நிறுவனத்தின் நிர்வாகியின் கருத்துரை; த
+[triage] 422 → 14 | காலி: cinema:3, assembly:2, crime:1
+[skip] கன்னடப் படம் — தமிழ்நாடு வாசகர்க்கு முதல்நிலையில் பொருத்தமற்
+[skip] இது மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் சமூகத் த
+[திருத்தம்] 6 முதல் 8ஆம் வகுப்பு மாணவர்களுக்கு காலை  → 6 முதல் 8-ஆம் வகுப்பு மாணவர்களுக்கு காலை
+[tts-edge] 7304a2675045: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] 6 முதல் 8-ஆம் வகுப்பு மாணவர்களுக்கு காலை உணவுத் திட்ட விரிவாக்கம்
+[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
+[tts-edge] 43ee7e8a4fa9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தனியார் பேருந்து கட்டண உயர்வு வழக்கில் தமிழக அரசுக்கு அறிக்கை தாக்கல் உத்தரவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfHNUBj3hhofNdbYsm4Js'}
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 86,489 stray dogs vaccinated against rabies in C
-[skip] சினிமா நாட்டுத் தகவல் இல்லை — தமிழ்க் கலைஞர்களின் ব்যক্তிப் 
-[skip] வெளிநாட்டுப் படம் (அரபு நாடுகளின் தயாரிப்பு); தமிழ்நாட்டுத் 
+[skip] சினிமா நிகழ்வு அல்ல — நடிகரின் பொதுவான நேர்காணல். தமிழ்த் தி
+[skip] தமிழ்ப் படம் அல்ல — கன்னட/தெலுங்குப் படத்தின் நடிகர் சேர்க்க
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13854 · சென்செக்ஸ் 74859
+[market] தங்கம் 22K ₹13874 · சென்செக்ஸ் 74859
 [weather] புதுப்பிக்கப்பட்டது
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 3
+[done] feed 300 · pending 1 · எழுதியவை 2
