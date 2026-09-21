@@ -1,5 +1,72 @@
 [
  {
+  "headline": "கடலூர் மாவட்டத்தில் டெங்கு தடுப்பு நடவடிக்கைகளை ஆய்வு செய்த ஆட்சியர்",
+  "lines": [
+   "கடலூர் மாவட்ட ஆட்சியர் அண்மையில் டெங்கு தடுப்பு நடவடிக்கைகளை நேரடியாகச் சென்று ஆய்வு செய்தார்.",
+   "மழைநீர் தேங்கும் வகையிலான தேவையற்ற பொருட்களை அகற்றுமாறு மக்களுக்கு அறிவுறுத்தப்பட்டது.",
+   "வீட்டுப் பொருட்களில் தண்ணீர் தேங்காமல் பார்த்துக்கொள்ளுமாறும், மேல்தொட்டிகளை வாரத்திற்கு ஒரு முறையாவது சுத்தம் செய்யுமாறும் ஆட்சியர் கேட்டுக்கொண்டார்.",
+   "இந்த ஆய்வு, மாவட்டத்தில் டெங்கு பரவலைத் தடுக்கும் நோக்கில் மேற்கொள்ளப்பட்டதாக அதிகாரிகள் தெரிவித்தனர்.",
+   "பொதுமக்கள் ஒத்துழைப்புடன் தொடர்ந்து சுகாதாரப் பழக்கங்களைக் கடைப்பிடிக்குமாறு அறிவுறுத்தப்பட்டுள்ளது."
+  ],
+  "closing": "மழைக்காலத்தில் தேங்கும் நீரே கொசு இனப்பெருக்கத்திற்கு முக்கியக் காரணமாக இருப்பதால், இதுபோன்ற தடுப்பு நடவடிக்கைகள் தொடர்ந்து மேற்கொள்ளப்பட வேண்டியது அவசியமாகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "கடலூர் மாவட்டம்",
+   "மாவட்ட ஆட்சியர்",
+   "டெங்கு",
+   "பொதுமக்கள்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Collector Inspects Dengue Prevention Measures In Cuddalore",
+   "lines": [
+    "The Cuddalore district collector recently conducted a direct inspection of dengue prevention measures.",
+    "Residents were advised to remove unwanted objects in which rainwater could collect.",
+    "The collector also urged people to prevent water stagnation in household articles and clean overhead tanks at least once a week.",
+    "Officials said the inspection was carried out to curb the spread of dengue in the district.",
+    "Residents were asked to continue following hygiene practices with cooperation."
+   ],
+   "closing": "Since stagnant water during the rainy season is a major cause of mosquito breeding, such preventive measures need to be continued regularly."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "dengue prevention water tank cleaning",
+  "wiki_subject": "Cuddalore",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [],
+  "id": "035179c49a59",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-09-22T00:44+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/collector-inspects-dengue-prevention-measures-in-cuddalore/article71491027.ece",
+   "https://www.thehindu.com/news/national/tamil-nadu/collector-inspects-dengue-prevention-measures-in-cuddalore/article71491027.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Early_morning_in_cuddalore%2C_india.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Cuddalore",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Cuddalore",
+   "symbolic": false
+  },
+  "audio": "data/audio/035179c49a59.mp3",
+  "created_ts": 1790018091.3411355,
+  "status": "published"
+ },
+ {
   "headline": "உப்பு உட்கொள்ளைக் குறைக்க பிரச்சாரம்",
   "lines": [
    "உப்பு உட்கொள்ளைக் குறைப்பது இதய நோய் தடுப்பதற்கு ஒரு எளிய மாற்றம் என சுகாதார நிபுணர்கள் கூறுகின்றனர்.",
@@ -966,103 +1033,6 @@
   },
   "audio": "data/audio/1c10b045b0d5.mp3",
   "created_ts": 1789501601.2538664,
-  "status": "published"
- },
- {
-  "id": "art_health_20260916",
-  "headline": "பருவமழைக் காலத்தில் உடல்நலம் காத்திட எளிய வழிமுறைகள்",
-  "lines": [
-   "செப்டம்பர் மாதத்தில் பெய்யும் இடைப்பட்ட மழையால் தேங்கும் நீரில் கொசு இனப்பெருக்கம் அதிகரித்து டெங்கு, சிக்குன்குனியா போன்ற நோய்கள் பரவும் வாய்ப்பு உள்ளது.",
-   "வீட்டைச் சுற்றியுள்ள தொட்டிகள், சாக்கடை, தொட்டிமூடி போன்றவற்றில் நீர் தேங்காமல் வாரத்திற்கு ஒருமுறை சுத்தம் செய்வது அவசியம்.",
-   "குடிநீரை கொதிக்க வைத்து ஆறவைத்துக் குடிப்பது வயிற்றுப்போக்கு, டைபாய்டு போன்ற நீர்வழி நோய்களைத் தடுக்க உதவும்.",
-   "சித்த மருத்துவ முறைப்படி இஞ்சி, மிளகு, துளசி இலை சேர்த்த காடா அல்லது மோர் மற்றும் சூடான உணவுகளை உட்கொள்வது இந்தக் காலத்தில் நோய் எதிர்ப்பு சக்தியை மேம்படுத்த உதவும் என பாரம்பரியமாகக் கூறப்படுகிறது.",
-   "தமிழ்நாடு அரசின் பொது சுகாதார நிலையங்களில் இலவச டெங்கு பரிசோதனை மற்றும் காய்ச்சல் கண்காணிப்பு முகாம்கள் இந்த மாதம் நடத்தப்படுகின்றன, அவற்றைப் பயன்படுத்திக் கொள்ளலாம்."
-  ],
-  "closing": "எளிய முன்னெச்சரிக்கை நடவடிக்கைகள் மூலம் பருவகால நோய்களைத் தவிர்க்க முடியும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "துலாமுள் தொகுப்பு",
-    "doc": null,
-    "date": "2026-09-16"
-   }
-  ],
-  "topic": "health",
-  "topic_ta": "சுகாதாரம்",
-  "entities": [
-   "சுகாதாரம்",
-   "பருவநோய்"
-  ],
-  "confidence": 0.9,
-  "flags": [],
-  "front_cat": "routine",
-  "urgent": false,
-  "affected": "",
-  "kind": "article",
-  "image": null,
-  "status": "published",
-  "published_at": "2026-09-16T00:28+05:30",
-  "created_ts": 1789498727.759962,
-  "audio": "data/audio/art_health_20260916.mp3"
- },
- {
-  "headline": "உறுப்பு மாற்றுதலில் பெண்ணுக்கு ஏற்றத்தாழ்வு உள்ளது",
-  "lines": [
-   "2019 முதல் 2023 வரை உறுப்பு தான செயல்பாட்டில் பெண்கள் 63.8 சதவீதமாக இருந்துள்ளனர்.",
-   "அதே காலகட்டத்தில் மாற்றப்பெற்ற உறுப்புகளின் 69.8 சதவீதம் ஆண்களுக்கு வழங்கப்பட்டுள்ளது.",
-   "இந்த புள்ளிவிவரங்கள் பெண்கள் அதிகம் தான செய்யும் போது ஆண்களே பெரும் பலனடைகிறார்கள் என்பதைக் காட்டுகின்றன.",
-   "சுகாதாரம் சார்ந்த பாலினப் பற்றாக்குறி பற்றிய விழிப்புணர்வு அதிகரிக்க வேண்டும் என்ற கோரிக்கை எழுந்துள்ளது.",
-   "இந்த விவகாரம் உறுப்பு மாற்றுதல் கொள்கை மற்றும் நிதி ஆதரவு விஷயங்களை மீள் ஆய்வு செய்ய வேண்டியுள்ளது."
-  ],
-  "closing": "பெண் தான செய்பவர்களுக்கான சாதக பரிமாற நடைமுறைகள் அமைப்பது சுகாதார ஏற்றத்தாழ்வுக் குறைப்பின் பகுதியாக கருதப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "உறுப்பு மாற்றுதல்",
-   "பெண் தான செய்பவர்கள்",
-   "சுகாதாரம்"
-  ],
-  "confidence": 0.72,
-  "en": {
-   "headline": "Gender disparity evident in organ transplantation practices",
-   "lines": [
-    "Between 2019 and 2023, women accounted for 63.8 percent of living organ donors.",
-    "During the same period, 69.8 percent of transplanted organs were given to male recipients.",
-    "These figures show that women donate organs more often while men receive the majority of transplants.",
-    "There is a growing call for greater awareness of health-related gender inequality in transplantation.",
-    "This issue requires a review of organ transplant policies and financial support mechanisms."
-   ],
-   "closing": "Developing favorable transfer procedures for female donors is being considered part of reducing health-related disparities."
-  },
-  "front_cat": "routine",
-  "image_query": "organ donation",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "9b1d1ae280f1",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-09-16T00:14+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/health/why-we-need-to-focus-on-the-gender-disparity-in-organ-transplantation/article71455625.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Organ_donation_launch_-_10554135074.jpg/1280px-Organ_donation_launch_-_10554135074.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா Commons · Scottish Government",
-   "license": "CC BY 2.0",
-   "symbolic": true
-  },
-  "audio": "data/audio/9b1d1ae280f1.mp3",
-  "created_ts": 1789497851.1148486,
   "status": "published"
  }
 ]
