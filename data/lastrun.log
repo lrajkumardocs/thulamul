@@ -1,19 +1,19 @@
 [fetch] RBI: 3 புதியவை
-[fetch] ET Markets: 1 புதியவை
+[fetch] ET Markets: 3 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 8 புதியவை
 [fetch] Dinamani TN: 7 புதியவை
 [fetch] BBC Tamil: 0 புதியவை
-[fetch] BBC World: 10 புதியவை
+[fetch] BBC World: 8 புதியவை
 [fetch] Al Jazeera: 7 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 23 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 23 புதியவை
+[fetch] Cinema Express: 22 புதியவை
 [fetch] The Hindu Tech: 6 புதியவை
 [fetch] Wired: 22 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 5 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 1 புதியவை
+[fetch] The Hindu Legal: 0 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 23 புதியவை
+[fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 15 புதியவை
 [fetch] The Verge: 6 புதியவை
-[fetch] The Hindu National: 1 புதியவை
+[fetch] The Hindu National: 0 புதியவை
 [fetch] NDTV India: 11 புதியவை
 [fetch] India Today: 9 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fef982cee10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 1 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5a6acb3fd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 0 புதியவை
 [fetch] Dinamani Govt: 7 புதியவை
 [fetch] Times Govt Schemes: 17 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,24 +67,23 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 353 → நிகழ்வுகள் 340
-[triage] சேமித்த மதிப்பெண் (349) — புதிய அழைப்பு இல்லை
-[triage] 340 → 32 | காலி: court:3, world:2, economy:2, cinema:2, assembly:2
-[skip] மூலம் தெளிவாக அறிவியல்-சிறுவர் உள்ளடக்கம் அல்லது பண்பாட்டு/ம
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘₹4,000 crore investment to strengthen Chennai p
-[skip] ओडिशा राज्य की आंतरिक राजनीति है। तमिलनाडु पाठकों के लिए प्र
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Bridge commercial EV, charging gaps for wider ad
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Need For Speed
-[tts-edge] bb606d561459: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நடிகர் சிவாஜி கணேசனின் மூத்த மகள் சாந்தி காலமானார்
-[skip] வதந்தி, ஊகம், ஆராய்ச்சி இல்லாத சுய-விளம்பர நேர்காணல். நிகழ்வ
-[skip] உலகளாவிய பொது நிबந்தனைக் கட்டுரை; தமிழ்நாடு, இந்தியா அல்லது 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFcAmAaiRNSsxwuNWrDi'}
-[skip] பிற நாட்டின் உள்நாட்டு அரசியல் — எரிட்রியாவின் கடந்த கால வழக
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfFcDRQmt8KDbFHnXt4dp'}
+[run] புதியவை 346 → நிகழ்வுகள் 335
+[triage] 335 → 23 | காலி: court:3, world:2, economy:2, assembly:2, govt:1
+[திருத்தம்] அமெரிக்கா புதிய தாக்குதல் திட்டமிட்டால்  → அமெরிக்கா புதிய தாக்குதல் திட்டமிட்டால் 
+[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
+[tts-edge] b07bbe72a9ac: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அமெரிக்கா புதிய தாக்குதல் திட்டமிட்டால் வரம்பற்ற பதிலடி என ஈரான் எச்சரிக்கை
+[skip] வெளிநாட்டு உள்நாட்டுப் பேரிடர் செய்தி — தமிழ்நாடு/இந்தியக் க
+[tts-edge] 576200de04ba: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நிதி மோசடி வழக்குகள் தீர்வுக்கு புதிய முறை பரிசீலனை செய்யும் செபி
+[தரம்] தமிழ் அல்லாத எழுத்து: देদ → ஒரு திருத்தம்
+[நகல்] ஏற்கனவே வெளியானது: கோவையில் நாளை குடியரசு துணைத் தலைவர் வருகை, ட்ரோன் தடை
+[publish] சூர்யாவும் ஜோதிகாவும் திருமண நாளைக் கொண்டாடினர்
+[skip] இது இந்தியாவுடன் நேரடித் தொடர்பில்லாத பொதுவான உலகளாவிய வளர்ந
+[brief] காலை brief தயார்
 [image] 3 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13953 · சென்செக்ஸ் 74295
+[market] தங்கம் 22K ₹13930 · சென்செக்ஸ் 74295
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [image] 3 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 1
+[done] feed 300 · pending 1 · எழுதியவை 3
