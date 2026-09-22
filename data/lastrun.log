@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 2 புதியவை
+[fetch] The Hindu Legal: 3 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 14 புதியவை
 [fetch] The Verge: 8 புதியவை
-[fetch] The Hindu National: 2 புதியவை
+[fetch] The Hindu National: 3 புதியவை
 [fetch] NDTV India: 9 புதியவை
 [fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f559bfc6590>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 2 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8e954bd650>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 3 புதியவை
 [fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,14 +67,15 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 455 → நிகழ்வுகள் 441
+[run] புதியவை 458 → நிகழ்வுகள் 443
 [triage] சேமித்த மதிப்பெண் (437) — புதிய அழைப்பு இல்லை
-[triage] 441 → 24 | காலி: world:3, jobs:3, assembly:2
+[triage] 443 → 27 | காலி: world:3, jobs:3, assembly:2
 [tts-edge] editorial_20260923: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[editorial] பிழை 'cartoon'
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: கட்டணச் சாலை நன்றாக இருக்க வேண்டுமா, யார் பொறுப்பு?
 [image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: செப். 28 முதல் 3 நாள் வங்கி வேலைநிறுத்
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13884 · சென்செக்ஸ் 74529
+[market] தங்கம் 22K ₹13880 · சென்செக்ஸ் 74529
 [weather] புதுப்பிக்கப்பட்டது
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 0
