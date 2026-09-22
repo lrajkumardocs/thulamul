@@ -1,11 +1,11 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 26 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 25 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
+[fetch] Dinamani TN: 17 புதியவை
 [fetch] BBC Tamil: 8 புதியவை
 [fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 12 புதியவை
+[fetch] Al Jazeera: 9 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 5 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 22 புதியவை
+[fetch] FreeJobAlert: 21 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 24 புதியவை
+[fetch] Bar and Bench: 23 புதியவை
 [fetch] The Hindu Legal: 6 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,52 +56,54 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd6e48cf050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0d684610d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 6 புதியவை
-[fetch] Dinamani Govt: 25 புதியவை
+[fetch] Dinamani Govt: 17 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
-[fetch] TNPSC Notifications: 0 புதியவை
+[fetch] TNPSC Notifications: பிழை HTTPSConnectionPool(host='www.freejobalert.com', port=443): Read timed out. (read timeout=20)
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 554 → நிகழ்வுகள் 532
-[triage] 532 → 47 | காலி: tn:3, world:3, jobs:3, india:2, crime:2
-[skip] BECIL என்பது இந்திய ஒலிபரப்பு ஆய்வுக் நிறுவனம் — பொதுவாக இந்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான விவரங்கள் இல்ல
-[tts-edge] 50f940ce145c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] திருவண்ணாமலையில் 350 கிலோ சிவப்பு சந்தனம் பறிமுதல்
-[திருத்தம்] கூவம் ஆறு மறுசீரமைப்பு திட்டம் குறித்து  → கூவம் ஆறு மறுசீரமைப்பு திட்டம் குறித்து 
-[தரம்] தமிழ் அல்லாத எழுத்து: ় → ஒரு திருத்தம்
-[tts-edge] 89a6c95aad8a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கூவம் ஆறு மறுசீரமைப்பு திட்டம் குறித்து தமிழ்நாடு முதல்வர் விஜய் ஆய்வு
-[publish] நீலகிரியில் வடகிழக்குப் பருவமழை தயார்நிலை மதிப்பாய்வு கூட்டம் நடைபெற்றது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7DBwnVFVzjoDbwqZrU'}
+[run] புதியவை 525 → நிகழ்வுகள் 503
+[triage] சேமித்த மதிப்பெண் (493) — புதிய அழைப்பு இல்லை
+[triage] 503 → 29 | காலி: world:3, jobs:3, india:2, sports:2, assembly:2
+[skip] உত्तर प्रदेश அரசுத் தேர्वு — तमिल्नाडु வாசकரके लिए பொருத्तமி
+[skip] வெளிநாட்டு தயாரிப்பு (அமெரிக்க நிறுவனம் Rabbit) அறிவிப்பு — 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfKA3Btt1GcJH5RN8LLdt'}
+[tts-edge] 004f1aa64cfb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஜோத்பூரில் தரங் சக்தி-26 பயிற்சியில் ஏழு நாட்டு விமானப் படைகள்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7L8HDfpC4Un4EqewMr'}
-[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு பெயர் மட்டுமே உள்ளது; மயில்வாக
-[skip] மூலத்தில் தலைப்பைத் தவிர போதிய விவரங்கள் இல்லை - எடப்பாடி பழ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7T4NWn5frheWk5kp2T'}
-[publish] புதிய தலைமைச் செயலகத்துக்கு எதிராக மீனவர்கள் செப்.29-இல் ஆர்ப்பாட்டம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லாததால் உண்மை
-[நகல்] ஏற்கனவே வெளியானது: கூவம் ஆறு மறுசீரமைப்பு திட்டம் குறித்து தமிழ்நாடு முதல்வர் வ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7cfPvpeuYdMjkPj3WS'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7g8ALNiih2hfoJAJJE'}
-[publish] மதுரை மாணவன் மரணம்: 16 நாட்களுக்குப் பிறகு உடல் ஒப்படைப்பு
-[திருத்தம்] ஆதவ் அர்ஜுனா மானநஷ்ட வழக்கில் ஸ்டாலின் ப → ஆதவ் அர்ஜூனா மானநஷ்ட வழக்கில் ஸ்டாலின் ப
-[publish] ஆதவ் அர்ஜூனா மானநஷ்ட வழக்கில் ஸ்டாலின் பதில் மனு தாக்கல்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7r9pL847DTvk3B9kWv'}
+[skip] வெளிநாட்டுள் அரசியல் — சவுதி அரேபியா-ஹூதி மோதல். தமிழ்நாடு/இ
+[skip] இது அமெரிக்க பங்குச் சந்தை நிலவரம் (டோவ், நாஸ்டாக்) பற்றியது
+[skip] வெளிநாட்டுத் தூதரீக மற்றும் அமெரிக்க உள்நாட்டு அரசியல் — தமி
+[tts-edge] fc7997d6c1d1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வாலாஜா அருகே சாலை விபத்தில் இருவர் உயிரிழப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfKAGu8TkTJJJVGyGZdZD'}
+[skip] வெளிநாட்டு அரசியல் நிகழ்வு - தமிழ்நாடு அல்லது இந்தியா வாசகரை
+[திருத்தம்] செப்.28 முதல் 3 நாள் வங்கி வேலைநிறுத்தம் → செப். 28 முதல் 3 நாள் வங்கி வேலைநிறுத்தம
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: செப். 28 முதல் 3 நாள் வங்கி வேலைநிறுத்
+[publish] செப். 28 முதல் 3 நாள் வங்கி வேலைநிறுத்தம்: வங்கிகள், ஏடிஎம் மையங்களுக்குப் பாதுகாப்பு அளிக்க மத்திய உள்துறை அறிவுறுத்தல்
+[திருத்தம்] கிருஷ்ணகிரி நுகர்வோர் ஆணையம் NHAI-க்கு ஒ → கிருஷ்ணகிரி நுகர்வோர் ஆணையம் NHAI-க்கு ஒ
+[publish] கிருஷ்ணகிரி நுகர்வோர் ஆணையம் NHAI-க்கு ஒரு கோடி ரூபாய் இழப்பீடு, பயணிக்கு ₹1 லட்சம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfKAUcsVq9SBfq8dCtYYF'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு அரசியல் தலைவரின் உரை — தமிழ்நாடு/இந்திய வாசகர்களு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7xsQo3NpUDV7AMMqJw'}
-[skip] வெளிநாட்டு அரசியல் நிகழ்வு — தமிழ்நாடு/இந்திய வாசகரைப் நேரடி
-[publish] தேசிய பங்குச் சந்தையின் 22,800 கோடி பங்கு வழங்கலில் எல்ஐசி முதன்மை முதலீட்டாளர்
-[skip] இது இலங்கை உள்நாட்டுச் செய்தி. தமிழ்நாட்டு வாசகருக்குக் குறி
-[publish] இந்தியாவில் இரண்டு லட்சம் கோடி ரூபாய் ஐபிஓ வாய்ப்பு என செபி தலைவர்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfKAbWxjynf6hNa5u78xx'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfKAeM7jpstvmhd55fptH'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfKAh5L41zGDSNGYinje4'}
+[skip] India A cricket match — not TN player, not TN team, not majo
+[திருத்தம்] ஒசூகர் இந்திய பிரवेশம் பெற்ற 'கோந்தள்' இ → 'கோந்தள்' இயக்குநர் சந்தோஷ் தவக்கர்: நம்
+[தரம்] தமிழ் அல்லாத எழுத்து: ंचনরশ → ஒரு திருத்தம்
+[publish] 'கோந்தள்' இயக்குநர் சந்தோஷ் தவக்கர்: நம் படம் தனிச்சிறப்புடன் நிற்கும் என்ற நம்பிக்கை இருந்தது
+[skip] திரிபுரா பல்கலைக் கழக தேர்வு முடிவு — தமிழ்நாட்டுக்குத் தொடர
+[skip] வெளிநாட்டு கிரிக்கெட் அন்தர்জাতிய இயக்கத்தின் (வெ-இ-இ) தொடர்
+[skip] பிহார் மாநில பொது சேவா ஆணையத்தின் ஆசிரியர் நியமன அறிவிப்பு. 
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13874 · சென்செக்ஸ் 74529
+[market] தங்கம் 22K ₹13869 · சென்செக்ஸ் 74529
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 8
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 5
