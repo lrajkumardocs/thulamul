@@ -1,5 +1,125 @@
 [
  {
+  "headline": "மதுரை மாணவன் மரணம்: 16 நாட்களுக்குப் பிறகு உடல் ஒப்படைப்பு",
+  "lines": [
+   "மதுரையில் மாணவன் ஒருவர் மரணம் அடைந்த சம்பவத்தில் அவரது உடல் உறவினர்களிடம் ஒப்படைக்கப்பட்டுள்ளது.",
+   "மரணம் நிகழ்ந்து பதினாறு நாட்களுக்குப் பிறகு உடல் உறவினர்களிடம் கையளிக்கப்பட்டதாகத் தெரிகிறது.",
+   "இவ்வளவு காலம் உடல் தாமதமான காரணம் குறித்து அதிகாரப்பூர்வமாக இதுவரை தெரிவிக்கப்படவில்லை.",
+   "மாணவன் மரணம் தொடர்பான விசாரணை நிலவரம் குறித்தும் தெளிவான தகவல் வெளியாகவில்லை.",
+   "இந்த வழக்கில் அடுத்த கட்ட நடவடிக்கைகள் என்னவென்பது தொடர்ந்து கவனிக்கப்பட வேண்டும்."
+  ],
+  "closing": "இச்சம்பவம் தொடர்பாக முழு விவரங்களும் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "மதுரை",
+   "மாணவன்",
+   "உறவினர்கள்"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "Madurai Student Death: Body Handed Over After 16 Days",
+   "lines": [
+    "In Madurai, the body of a student who died has been handed over to his relatives.",
+    "The body was reportedly given to the family sixteen days after his death.",
+    "The reason for this prolonged delay has not been officially disclosed so far.",
+    "Details regarding the status of the investigation into the student's death have also not been released.",
+    "The next steps in this case remain to be seen in the coming days."
+   ],
+   "closing": "Full details regarding this incident have not yet been officially released."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "16905f63078a",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-23T02:04+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/22/death-of-madurai-student-body-handed-over-after-16-days"
+  ],
+  "image": null,
+  "audio": "data/audio/16905f63078a.mp3",
+  "created_ts": 1790109267.583753,
+  "status": "published"
+ },
+ {
+  "headline": "திருவண்ணாமலையில் 350 கிலோ சிவப்பு சந்தனம் பறிமுதல்",
+  "lines": [
+   "திருவண்ணாமலை மாவட்டத்தில் காவல்துறையினர் நடத்திய சோதனையில் சிவப்பு சந்தன மரக்கட்டைகள் பறிமுதல் செய்யப்பட்டுள்ளன.",
+   "பறிமுதல் செய்யப்பட்ட சிவப்பு சந்தனத்தின் எடை 350 கிலோ என தெரிவிக்கப்பட்டுள்ளது.",
+   "பறிமுதல் செய்யப்பட்ட மரக்கட்டைகள் வனத்துறையிடம் ஒப்படைக்கப்பட்டுள்ளன.",
+   "சிவப்பு சந்தனம் கடத்தல் தொடர்பாக காவல்துறை மேலும் விவரங்களைத் திரட்டி வருகிறது.",
+   "இது தொடர்பான வழக்கு பதிவு செய்யப்பட்டு, தொடர் விசாரணை நடைபெறும் என அறியப்படுகிறது."
+  ],
+  "closing": "வனப் பாதுகாப்பில் உள்ள சிவப்பு சந்தன மரக் கடத்தல் தமிழ்நாட்டின் மலைப் பகுதிகளில் அவ்வப்போது நடந்து வரும் பிரச்சினையாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "திருவண்ணாமலை",
+   "காவல்துறை",
+   "வனத்துறை",
+   "சிவப்பு சந்தனம்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Police Seize 350 kg of Red Sanders in Tiruvannamalai",
+   "lines": [
+    "Police in Tiruvannamalai district seized red sanders wooden logs during a search operation.",
+    "The seized red sanders logs weighed around 350 kilograms, officials said.",
+    "The seized logs were handed over to the Forest Department for further action.",
+    "Police are gathering more details related to the red sanders smuggling case.",
+    "A case has been registered and further investigation is said to be underway."
+   ],
+   "closing": "Smuggling of protected red sanders wood remains a recurring issue in Tamil Nadu's hilly regions."
+  },
+  "front_cat": "routine",
+  "image_query": "red sanders wood seizure",
+  "wiki_subject": "Red sandalwood",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "50f940ce145c",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-23T01:54+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/police-seized-350-kg-of-red-sanders-in-tiruvannamalai/article71495336.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Pterocarpus_santalinus_in_Talakona_forest%2C_AP_W_IMG_8145.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Pterocarpus santalinus",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Pterocarpus_santalinus",
+   "symbolic": false
+  },
+  "audio": "data/audio/50f940ce145c.mp3",
+  "created_ts": 1790108675.062593,
+  "status": "published"
+ },
+ {
   "headline": "கடலூரில் POCSO வழக்கில் 20 ஆண்டு சிறை தண்டனை",
   "lines": [
    "கடலூரில் POCSO வழக்கில் குற்றம் சாட்டப்பட்ட நபருக்கு நீதிமன்றம் தண்டனை விதித்துள்ளது.",
@@ -1584,69 +1704,6 @@
   "person_en": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "கிரானைட் தொழிலதிபர் வீரமணி மீது மேலும் பாதிக்கப்பட்டோர் புகார்",
-  "lines": [
-   "கிரானைட் தொழிலதிபர் வீரமணி மீது மேலும் சிலர் காவல்துறையிடம் புகார் அளித்துள்ளனர்.",
-   "இதுவரை பதிவான புகார்களுடன் இந்தப் புதிய புகார்களும் சேர்க்கப்பட்டுள்ளன.",
-   "இந்தப் புகார்கள் அனைத்தும் முழுமையாக விசாரிக்கப்படும் என்று விசாரணை அதிகாரிகள் தெரிவித்துள்ளனர்.",
-   "மேலதிக நடவடிக்கைக்காக இந்த வழக்கு தொடர்ந்து ஆய்வு செய்யப்படும் என்று அதிகாரிகள் கூறியுள்ளனர்.",
-   "வழக்கு தொடர்பான மேலதிக விவரங்கள் விசாரணை முடிவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்த வழக்கில் இதுவரை எத்தனை பேர் புகார் அளித்துள்ளனர் என்பது இன்னும் உறுதிப்படுத்தப்படவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "வீரமணி",
-   "கிரானைட் தொழில்",
-   "காவல்துறை",
-   "பாதிக்கப்பட்டோர்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "More victims give statements against granite baron Veeramani",
-   "lines": [
-    "More victims have come forward to give statements to police against granite baron Veeramani.",
-    "These new statements add to the complaints already registered against him.",
-    "Investigators said all the complaints would be thoroughly inquired into.",
-    "Officials stated that the case would continue to be investigated for further action.",
-    "Further details about the case are expected to emerge as the inquiry progresses."
-   ],
-   "closing": "It is not yet confirmed how many people have filed complaints in this case so far."
-  },
-  "front_cat": "crime_major",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "9344c89b0d0d",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-09-17T20:56+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/more-victims-give-statements-against-granite-baron-veeramani/article71477374.ece",
-   "https://www.thehindu.com/news/national/tamil-nadu/more-victims-give-statements-against-granite-baron-veeramani/article71477374.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/9344c89b0d0d.mp3",
-  "created_ts": 1789658806.1799588,
   "status": "published"
  }
 ]

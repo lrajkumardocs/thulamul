@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 19 புதியவை
-[fetch] Al Jazeera: 15 புதியவை
+[fetch] BBC World: 18 புதியவை
+[fetch] Al Jazeera: 12 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 17 புதியவை
 [fetch] The Hindu Tech: 20 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 9 புதியவை
+[fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 27 புதியவை
+[fetch] FreeJobAlert: 22 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 24 புதியவை
-[fetch] The Hindu Legal: 18 புதியவை
+[fetch] The Hindu Legal: 6 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 27 புதியவை
+[fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 17 புதியவை
+[fetch] TechCrunch: 15 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 18 புதியவை
-[fetch] NDTV India: 13 புதியவை
-[fetch] India Today: 20 புதியவை
+[fetch] The Hindu National: 6 புதியவை
+[fetch] NDTV India: 9 புதியவை
+[fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 27 புதியவை
+[fetch] Dinamani India: 26 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ffa3bd02f90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 18 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd6e48cf050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 6 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,77 +67,41 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 623 → நிகழ்வுகள் 586
-[triage] சேமித்த மதிப்பெண் (563) — புதிய அழைப்பு இல்லை
-[triage] 586 → 88 | காலி: tn:4, india:3, world:3, crime:3, jobs:3
-[skip] தமிழ்நாட்டுக்குப் பொருந்தாது — அனைத்திந்திய MBBS இடமாட்டம் ப
-[skip] வெளிநாட்டு நிறுவனத்தின் தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்த
-[skip] இது உத்தரப் பிரதேச மாநில அரசியல் செய்தி; தமிழ்நாட்டுடன் நேரட
-[skip] இது கேரளாவின் FACT நிறுவன அடிக்கல் நாள் தொடர்பான உள்ளூர் அரச
-[skip] இது ஒடிசா மாநில சட்டசபையின் உள்ளூர் அரசியல் நிகழ்வு - பாடப்ப
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் சட்டமன்றக் குழு விவகாரம், தமிழ்
-[skip] இது ராஜஸ்தான் மாநிலத்தின் உள்ளூர் நகர்ப்புற அமைப்புத் தேர்தல
-[skip] இது தேர்தல் ஆணையம் குறித்த கருத்துப் பத்திரிகை (எடிட்டோரியல்
-[skip] இது ஹரியானா மாநிலத்தின் உள்ளூர் விவசாயிகள் போராட்டச் செய்தி;
-[skip] இது ஜம்மு காஷ்மீர் சட்டமன்றத்தின் உள்ளூர் அரசியல் சர்ச்சை (வ
-[skip] இது பஞ்சாப் மாநிலத்தின் நிலத்தடி நீர் பிரச்சினை குறித்த கருத
-[skip] இது டெல்லியை மையமாகக் கொண்ட மாணவர் அமைப்பு தொடர்பான உள்ளூர்ச
-[skip] மூலத்தில் ஹைஃபா தினம் தொடர்பான ஒரு வரி தகவல் மட்டுமே உள்ளது;
-[skip] இது கர்நாடகா மாநிலத்தின் அனேகல் பகுதியில் நடந்த உள்ளூர் காவல
-[திருத்தம்] கடலூரில் பாலியல் வன்கொடுமை வழக்கில் 20 ஆ → கடலூரில் POCSO வழக்கில் 20 ஆண்டு சிறை தண
-[tts-edge] a3c7e5e17d39: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கடலூரில் POCSO வழக்கில் 20 ஆண்டு சிறை தண்டனை
-[skip] உலக அளவில் முக்கியமாக இருந்தாலும், தமிழ்நாடு அல்லது இந்தியாவ
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Suspect who set hospital worker on fire shot whi
-[திருத்தம்] ஆசிய விளையாட்டுப் போட்டியில் இந்திய வீரர → செப். 23-ல் ஆசிய விளையாட்டுப் போட்டி வெற
-[tts-edge] 735d00d345d3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] செப். 23-ல் ஆசிய விளையாட்டுப் போட்டி வெற்றியாளர்கள்!
-[skip] இது அமெரிக்க பங்குச் சந்தையின் அன்றாட நிலவரம் பற்றிய செய்தி.
-[skip] உত्तर प्रदेश அரசியல் — தமிழ்நாடுடன் நேரடித் தொடர்பு இல்லை. ப
-[திருத்தம்] காட்பாடியில் பலத்த மழை: மூன்று ஏக்கர் நெ → காட்பாடியில் பலத்த மழை: நீரில் மூழ்கி 3 
-[publish] காட்பாடியில் பலத்த மழை: நீரில் மூழ்கி 3 ஏக்கர் நெற்பயிர்கள் சேதம்
-[skip] பிற நாட்டின் உள்ளூர் நலத்திட்டம் — தமிழ்நாடு/இந்திய வாசகரைப்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: A. Myilvaganan posted as Joint CEO of T.N. Sport
-[skip] வெளிநாட்டு வ்யக்திகள் மற்றும் சர்வதேச மகளிர் டென்னிஸ் ரவுண்ட
-[skip] வெளிநாட்டுத் தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்திய வாசகரைப்
-[skip] பிற மாநிலத்தின் உள்ளூர் அரசியல் — கட்சிச் சர்ச்சை, வரலாற்று 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம், தேதி, உத்தரவிட்டவ
-[skip] வெளிநாட்டின் உள்ளூர் சட்ட வழக்கு — தமிழ்நாடு/இந்திய வாசகரின்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Construction sites, commercial establishments in
-[skip] ஒடிசா மாநிலத்தின் சட்டமன்றத்தில் நடந்த அமளி — தமிழ்நாட்டுக்க
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (இடம்
-[skip] வெளிநாட்டு அரசியல் — கத்தார் மற்றும் இசுரேல் இடையே உள்ள வெளி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Boy glued to mobile phone run over by train in C
-[திருத்தம்] சட்டமன்றப் பேரணை ஆராலம் பண்ணை பயணம் பற்ற → சட்டமன்றப் பேரணையின் ஆராலம் பண்ணைப் பயணம
-[தரம்] தமிழ் அல்லாத எழுத்து: ट → ஒரு திருத்தம்
-[publish] சட்டமன்றப் பேரணையின் ஆராலம் பண்ணைப் பயணம் பற்றி விசாரணை கோரிக்கை
-[skip] வரலாற்றுச் சம்பவம் — 1994ல் நடந்த ருவாண்ட மனுஷ்ய இனக்கொலை பற
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: HC dismisses ex-minister’s discharge plea in cor
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Ex DMK MLA moves HC against secretariat building
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Frisking of school kids flayed
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man held for harassing woman sleeping on pavemen
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 5 weekly special trains to Kollam from Chennai f
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chinmaya Vidyalaya to plant 75,000 trees to mark
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Vijay launches expanded breakfast scheme for Cla
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man held for firing air pistol at father-in-law
-[skip] இது கர்நாடக மாநிலத்தைச் சேர்ந்த நபர் தொடர்பான சர்ஜா நாட்டில்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai metro phase-2 inauguration awaits PM Mod
-[skip] இது டெல்லியின் உள்ளூர் காவல்துறை நடவடிக்கை (பிங்க் ஃபோர்ஸ் த
-[skip] இது ஒரு குறிப்பிட்ட மாநிலத்தின் உள்ளூர்ப் பள்ளி சம்பவம், தமி
-[publish] இந்தியாவை அமெரிக்கா தண்டிக்காது என நம்புவதாக ஜேபி மோர்கன் தலைவர் கருத்து
+[run] புதியவை 554 → நிகழ்வுகள் 532
+[triage] 532 → 47 | காலி: tn:3, world:3, jobs:3, india:2, crime:2
+[skip] BECIL என்பது இந்திய ஒலிபரப்பு ஆய்வுக் நிறுவனம் — பொதுவாக இந்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான விவரங்கள் இல்ல
+[tts-edge] 50f940ce145c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திருவண்ணாமலையில் 350 கிலோ சிவப்பு சந்தனம் பறிமுதல்
+[திருத்தம்] கூவம் ஆறு மறுசீரமைப்பு திட்டம் குறித்து  → கூவம் ஆறு மறுசீரமைப்பு திட்டம் குறித்து 
+[தரம்] தமிழ் அல்லாத எழுத்து: ় → ஒரு திருத்தம்
+[tts-edge] 89a6c95aad8a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கூவம் ஆறு மறுசீரமைப்பு திட்டம் குறித்து தமிழ்நாடு முதல்வர் விஜய் ஆய்வு
+[publish] நீலகிரியில் வடகிழக்குப் பருவமழை தயார்நிலை மதிப்பாய்வு கூட்டம் நடைபெற்றது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7DBwnVFVzjoDbwqZrU'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது தெலங்காணா மாநிலத்தின் உள்ளூர் மருத்துவமனை தீ விபத்து; தம
-[skip] இது ராஜஸ்தான் மாநிலத்தில் நடந்த ஒரு தனிப்பட்ட மருத்துவர் மரண
-[publish] புற்றுநோய் மருந்து விலை பத்து மடங்கு அதிகம் என உச்ச நீதிமன்றம் கண்டனம்
-[skip] ஹரியாணா மாநிலத்தின் உள்ளூர் விவசாயிகள் போராட்டம் மற்றும் காவ
-[skip] இவை உத்தரப் பிரதேசம் மற்றும் மகாராஷ்டிரா மாநில அரசுத் தேர்வு
-[skip] இவை ஜார்க்கண்ட் மற்றும் மகாராஷ்டிரா மாநிலங்களில் உள்ள நிறுவன
-[தரம்] தமிழ் அல்லாத எழுத்து: कञিి; மூலத்தில் இல்லாத எண்: 2023 → ஒரு திருத்தம்
-[publish] தனுஷ் 'கப்டன் மில்லர்' படத்திற்கு சிறப்புக் குறிப்பைப் பெற்றார்
-[திருத்தம்] ஆட்டிசம் சிகிச்சைக்கு干细胞 சிகிச்சை பற்றிய → ஆட்டிசம் சிகிச்சைக்கு தண்டுசெல் சிகிச்சை
-[publish] ஆட்டிசம் சிகிச்சைக்கு தண்டுசெல் சிகிச்சை பற்றிய சுகாதாரத் துறை வழிகாட்டுதல்
-[skip] பொருந்தாது: (1) கார்திக் ஆர்யன் வட இந்திய நடிகர், தமிழ் படமல
-[market] தங்கம் 22K ₹13884 · சென்செக்ஸ் 74529
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7L8HDfpC4Un4EqewMr'}
+[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு பெயர் மட்டுமே உள்ளது; மயில்வாக
+[skip] மூலத்தில் தலைப்பைத் தவிர போதிய விவரங்கள் இல்லை - எடப்பாடி பழ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7T4NWn5frheWk5kp2T'}
+[publish] புதிய தலைமைச் செயலகத்துக்கு எதிராக மீனவர்கள் செப்.29-இல் ஆர்ப்பாட்டம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லாததால் உண்மை
+[நகல்] ஏற்கனவே வெளியானது: கூவம் ஆறு மறுசீரமைப்பு திட்டம் குறித்து தமிழ்நாடு முதல்வர் வ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7cfPvpeuYdMjkPj3WS'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7g8ALNiih2hfoJAJJE'}
+[publish] மதுரை மாணவன் மரணம்: 16 நாட்களுக்குப் பிறகு உடல் ஒப்படைப்பு
+[திருத்தம்] ஆதவ் அர்ஜுனா மானநஷ்ட வழக்கில் ஸ்டாலின் ப → ஆதவ் அர்ஜூனா மானநஷ்ட வழக்கில் ஸ்டாலின் ப
+[publish] ஆதவ் அர்ஜூனா மானநஷ்ட வழக்கில் ஸ்டாலின் பதில் மனு தாக்கல்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7r9pL847DTvk3B9kWv'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டு அரசியல் தலைவரின் உரை — தமிழ்நாடு/இந்திய வாசகர்களு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfK7xsQo3NpUDV7AMMqJw'}
+[skip] வெளிநாட்டு அரசியல் நிகழ்வு — தமிழ்நாடு/இந்திய வாசகரைப் நேரடி
+[publish] தேசிய பங்குச் சந்தையின் 22,800 கோடி பங்கு வழங்கலில் எல்ஐசி முதன்மை முதலீட்டாளர்
+[skip] இது இலங்கை உள்நாட்டுச் செய்தி. தமிழ்நாட்டு வாசகருக்குக் குறி
+[publish] இந்தியாவில் இரண்டு லட்சம் கோடி ரூபாய் ஐபிஓ வாய்ப்பு என செபி தலைவர்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13874 · சென்செக்ஸ் 74529
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 1 · எழுதியவை 8
