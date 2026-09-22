@@ -1,5 +1,78 @@
 [
  {
+  "date": "2026-09-23",
+  "title": "மர்மச் சிரிப்பு",
+  "book": 1,
+  "book_ta": "புது வெள்ளம்",
+  "arc": "கடம்பூர் மாளிகை இரவு",
+  "day": 16,
+  "file": "data/comic/2026-09-23.png",
+  "summary": "காரணம் கேட்ட வந்தியத்தேவனுக்கு மர்மமாகச் சிரித்து, மௌனமாக கந்தமாறன் மாளிகைக்குள் வழிநடத்துகிறான்.",
+  "next_hint": "காட்டு வழியில் என்ன காத்திருக்கிறது?",
+  "hidden": false,
+  "script": {
+   "title_ta": "மர்மச் சிரிப்பு",
+   "panels": [
+    {
+     "scene_en": "Wide shot outside Kadambur mansion at dusk, vandiyathevan (as in reference image) standing beside kandamaran near the mansion's outer wall, torches being lit by servants in background, tension building, low angle from ground level, evening light fading",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "மாலை இருள் சூழத் தொடங்கியது.",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "கந்தமாறா, ஏன் இந்த இரகசிய அழைப்பு?"
+      }
+     ]
+    },
+    {
+     "scene_en": "Medium shot, over-the-shoulder angle from behind vandiyathevan looking at kandamaran, both standing near a stone pillar of the mansion courtyard, kandamaran's face half-lit by a torch, evening",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "என்ன ஆபத்து காத்திருக்கிறது என்று சொல்!"
+      },
+      {
+       "speaker": "kandamaran",
+       "side": "R",
+       "text_ta": "பொறுமை, தோழா! எல்லாம் விளங்கும்."
+      }
+     ]
+    },
+    {
+     "scene_en": "Close-up shot of kandamaran's face alone, a mysterious sly smile playing on his lips, eyes glinting with secrecy, torchlight flickering, night falling, slightly low angle",
+     "characters": [],
+     "caption_ta": "கந்தமாறன் முகத்தில் மர்மச் சிரிப்பு.",
+     "bubbles": [
+      {
+       "speaker": "kandamaran",
+       "side": "R",
+       "text_ta": "வந்து பார்த்தால் தானே தெரியும்!"
+      }
+     ]
+    },
+    {
+     "scene_en": "Wide shot from behind, vandiyathevan (as in reference image) following kandamaran who walks ahead silently toward a dark inner gateway of the mansion, torches casting long shadows, night, high angle from a balcony above",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "மௌனமாக அவனை வழிநடத்தினான் கந்தமாறன்.",
+     "bubbles": []
+    }
+   ],
+   "summary_ta": "காரணம் கேட்ட வந்தியத்தேவனுக்கு மர்மமாகச் சிரித்து, மௌனமாக கந்தமாறன் மாளிகைக்குள் வழிநடத்துகிறான்.",
+   "tomorrow_ta": "காட்டு வழியில் என்ன காத்திருக்கிறது?",
+   "story_so_far_ta": "ஆடித் திருநாள் மாலையில் வாணர் குலத்து வீரன் வந்தியத்தேவன், ஆதித்த கரிகாலனின் ஓலைச் சுருள்களுடன் சக்கரவர்த்திக்கும் குந்தவைக்கும் தூது சொல்ல கடம்பூர் நோக்கிச் செல்கிறான். வழியில் வைணவ ஒற்றன் ஆழ்வார்க்கடியான் நம்பியை சந்தித்து வாதிட்டு பிரிகிறான். பழுவூர்க் கொடி பறக்கும் அணிவகுப்பையும், மூடிய பல்லக்கையும் கண்டு ஆவல் கொள்கிறான். இரவு நெருங்க கடம்பூர் மாளிகையை அடைந்து தூதன் என அறிமுகப்படுத்திக் கொண்டு வாயில் திறக்கக் காண்கிறான். மாளிகை அருகே பழைய நண்பன் கந்தமாறன் திடீரென எதிர்ப்பட்டு, ஆர்வத்துடன் வரவேற்கிறான். சிறிது நேரம் உரையாடிய பின், கந்தமாறனின் முகம் மாறி, இரவில் மாளிகைக்கு இரகசியமாக வருமாறு வேண்டுகிறான். காரணம் கேட்டும் பதில் சொல்லாமல் மர்மமாகச் சிரித்து, மௌனமாக வந்தியத்தேவனை மாளிகைக்குள் வழிநடத்திச் செல்கிறான்."
+  }
+ },
+ {
   "date": "2026-09-22",
   "title": "கந்தமாறனின் இரகசிய அழைப்பு",
   "book": 1,

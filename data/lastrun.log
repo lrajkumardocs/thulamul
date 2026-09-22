@@ -1,7 +1,7 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 27 புதியவை
+[fetch] The Hindu TN: 28 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 21 புதியவை
@@ -28,13 +28,13 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 25 புதியவை
+[fetch] Bar and Bench: 30 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 19 புதியவை
+[fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
 [fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5045e69b10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7e08d25110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -67,11 +67,64 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 709 → நிகழ்வுகள் 658
+[run] புதியவை 716 → நிகழ்வுகள் 666
 [triage] சேமித்த மதிப்பெண் (563) — புதிய அழைப்பு இல்லை
-[triage] 658 → 53 | காலி: cinema:2, assembly:2, crime:1
-[image] 4 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13874 · சென்செக்ஸ் 74529
+[triage] 666 → 100 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது கேரள மாநில நுகர்வோர் நீதிமன்ற உள்ளூர் வழக்கு; தமிழ்நாட்ட
+[skip] Dr NTR UHS is in Andhra Pradesh. Ph.D admission in medical s
+[tts-edge] 66af814d3cde: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வலிப்பைத் தணிக்கும் மருந்து, நுண்ணுயிர்க் கொல்லிகள் பாதுகாப்பாக உபயோகிக்க வேண்டும்
+[திருத்தம்] தேசிய திரைப்படம் விருது: அனந்த் நாகுக்கு → 72-வது தேசிய திரைப்படப் புரস்காரம்: அனந்
+[தரம்] தமிழ் அல்லாத எழுத்து: बहाुेসలര → ஒரு திருத்தம்
+[tts-edge] bde1f2c9b333: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] 72-வது தேசிய திரைப்படப் புரஸ்காரம்: அனந்த் நாகுக்கு தாதாசாகேப் பல்கே விருது; மம்மூட்டி, கார்த்திக் ஆர்யன், யமி கௌதம் சிறந்த நடிகர் விருது பெற்றனர்.
+[skip] Japan vs India cricket match — வெளிநாட்டு cricket tournament
+[skip] வெளிநாட்டு நுகர்வோர் வழக்கு — அமெரிக்கா; தமிழ்நாடு/இந்திய வா
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] கேரளாவின் உள்ளூர் பேரிடர் — தமிழ்நாடு வாசகர்கள் செயல்பட வேண்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfJzyYmqTBghC4YL1coiP'}
+[skip] வெளிநாட்டு உள்ளூர் குற்றவழக்கு. இலங்கை நீதிமன்ற விவரம் தமிழ்
+[skip] உலகச் செய்தி என்றாலும் தமிழ்நாட்டு வாசகரைப் பாதிக்கவில்லை. இ
+[publish] ஃபோர்ஷோர் எஸ்டேட் புதிய செயலகத் திட்டத்திற்கு எதிராக மீனவர் போராட்டம்
+[publish] 50 வயதுக்கு மேற்பட்ட வெளிநாட்டவருக்கு ஐவிஎஃப் சிகிச்சைக்கு சென்னை உயர் நீதிமன்றம் அனுமதி
+[திருத்தம்] பாதுகாப்பு கவுன்சில் தேர்தலுக்காக ஐநா-வி → பாதுகாப்பு கவுன்சில் தேர்தலுக்காக ஐந்து-
+[தரம்] தமிழ் அல்லாத எழுத்து: शংবলা → ஒரு திருத்தம்
+[publish] பாதுகாப்பு கவுன்சில் தேர்தலுக்காக ஐந்து-வில் ஜெய்சங்கர் பரபரப்பு பயணம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] அமைப்புசாரா தொழிலாளர் பாதுகாப்புக் கொள்கை இன்னும் நிலுவையில்
+[skip] இது ஆந்திரப் பிரதேசம் விஜயவாடாவில் நடந்த உள்ளூர்ச் சம்பவம், 
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் காவல்துறை சாதனை பற்றிய செய
+[திருத்தம்] மீனவர்கள் செப்டம்பர் 29 இல் முன்புற மாநி → மீனவர்கள் செப்டம்பர் 29 இல் கரையோர மாநில
+[தரம்] தமிழ் அல்லாத எழுத்து: ोঘষ → ஒரு திருத்தம்
+[publish] மீனவர்கள் செப்டம்பர் 29 இல் கரையோர மாநிலக் காரியாலய திட்டத்துக்கு எதிர்ப்பு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Fishermen plan protest against new Secretariat p
+[skip] இது அமெரிக்க பிராந்திய பெடரல் ரிசர்வ் தலைவர் ஒருவரின் கருத்த
+[தரம்] தமிழ் அல்லாத எழுத்து: তধরিী্ → ஒரு திருத்தம்
+[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: வெளிநாட்டினர் 50 வயதுக்கு மேல் IVF சிக
+[publish] வெளிநாட்டினர் 50 வயதுக்கு மேல் IVF சிகிச்சை பெறலாம்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Suspect who set hospital worker on fire shot whi
+[திருத்தம்] வழிமுறை ஒப்பந்த முடிவு நாள் விலை பிரச்சி → வழிகாள் ஒப்பந்த முடிவு நாள் விலை பிரச்சி
+[publish] வழிகாள் ஒப்பந்த முடிவு நாள் விலை பிரச்சினை சரிசெய்வோம் - செபி தலைவர்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] பொருத்தமற்ற உலக நிகழ்வு - அமெரிக்க FBI-யின் உள்நாட்டுச் சம்ப
+[நகல்] ஏற்கனவே வெளியானது: ஃபோர்ஷோர் எஸ்டேட் புதிய செயலகத் திட்டத்திற்கு எதிராக மீனவர் 
+[skip] வெளிநாட்டு அரசியல் நிகழ்வு — இந்தியத் வெளியுறவுக் கொள்கை, ஐக
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Annai Velankanni Shrine becomes a minor Basilica
+[திருத்தம்] அதானி நிறுவனங்கள் ஐந்தும் செபியுடன் வழக் → அதானி குழுமத்தின் ஐந்து நிறுவனங்கள் செபி
+[publish] அதானி குழுமத்தின் ஐந்து நிறுவனங்கள் செபியுடன் வழக்கைத் தீர்த்தன
+[comic] கதை: மர்மச் சிரிப்பு
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.94) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-23.png · நாள் 16
+[rasi] ராசிபலன் தயார்
+[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: வெளிநாட்டினர் 50 வயதுக்கு மேல் IVF சிக
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13860 · சென்செக்ஸ் 74529
 [weather] புதுப்பிக்கப்பட்டது
-[image] 4 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
