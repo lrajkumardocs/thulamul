@@ -2,9 +2,9 @@
 [fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 10 புதியவை
-[fetch] Dinamani TN: 13 புதியவை
+[fetch] Dinamani TN: 12 புதியவை
 [fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 20 புதியவை
+[fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 6 புதியவை
 [fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 10 புதியவை
+[fetch] FreeJobAlert: 9 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 24 புதியவை
-[fetch] The Hindu Legal: 4 புதியவை
+[fetch] Bar and Bench: 18 புதியவை
+[fetch] The Hindu Legal: 2 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 25 புதியவை
+[fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 15 புதியவை
+[fetch] TechCrunch: 14 புதியவை
 [fetch] The Verge: 8 புதியவை
-[fetch] The Hindu National: 4 புதியவை
+[fetch] The Hindu National: 2 புதியவை
 [fetch] NDTV India: 9 புதியவை
 [fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6fb93bcf50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 4 புதியவை
-[fetch] Dinamani Govt: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f640a4cd010>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 2 புதியவை
+[fetch] Dinamani Govt: 12 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,31 +67,11 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 490 → நிகழ்வுகள் 475
-[triage] சேமித்த மதிப்பெண் (493) — புதிய அழைப்பு இல்லை
-[triage] 475 → 27 | காலி: world:3, jobs:3, assembly:2, sports:1
-[skip] HP (Himachal Pradesh) மாநிலத்தின் உள்ளூர் மருத்துவக் கவுன்சல
-[skip] வெளிநாட்டு நிறுவனத்தின் நிதி சுற்று — தமிழ்நாடு/இந்தியா வாசக
-[tts-edge] 162fead3058c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] டெல்லி பாலியல் வன்கொடுமை வழக்கு: கல்லூரி வகுப்புகள் இடைநிறுத்தம்
-[திருத்தம்] இந்தியா பூடான் கூட்டு முயற்சியில் காண்டா → இந்தியா-பூடான் கூட்டு முயற்சியில் காண்டா
-[tts-edge] 48145fd7c64c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இந்தியா-பூடான் கூட்டு முயற்சியில் காண்டாமிருக எண்ணிக்கை உயர்வு
-[skip] பீகார் மாநில உள்ளூர் அரசியல் தலைவரின் கருத்து - தமிழ்நாட்டுட
-[skip] தமிழ்நாட்டு வாசகருக்குக் கூடியவரை பொருந்தாது. அமெரிக்கா-ஈரான
-[திருத்தம்] ஒலிம்பிக் 2036 இலக்கு: மயில்வாகனன் ஐபிஎஸ → மிஷன் ஒலிம்பிக்-2036: மயில்வாகனன் ஐபிஎஸ்
-[தரம்] தமிழ் அல்லாத எழுத்து: ति → ஒரு திருத்தம்
-[publish] மிஷன் ஒலிம்பிக்-2036: மயில்வாகனன் ஐபிஎஸ் திட்ட சிறப்பு அதிகாரியாக நியமனம்
-[publish] அரக்கோணம் நகராட்சி அலுவலகத்தில் லஞ்ச ஒழிப்புத் துறை திடீர் சோதனை
-[skip] பிரிட்டன் பிரதமர் மற்றும் அமெரிக்க பதவியாளரின் சந்திப்பு தமி
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்ளூர் சட்ட வழக்கு — அமெரிக்க கோர்ட்டு தீர்ப்பு.
-[தரம்] தமிழ் அல்லாத எழுத்து: د → ஒரு திருத்தம்
-[publish] சொத்து குவிப்பு வழக்கில் முன்னாள் அமைச்சர் பன்னீர்செல்வம் மனு தள்ளுபடி
+[run] புதியவை 470 → நிகழ்வுகள் 457
+[triage] 457 → 19 | காலி: world:3, jobs:3, assembly:2
 [image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: செப். 28 முதல் 3 நாள் வங்கி வேலைநிறுத்
-[image] 4 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13869 · சென்செக்ஸ் 74529
+[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13885 · சென்செக்ஸ் 74529
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 5
+[done] feed 300 · pending 1 · எழுதியவை 0
