@@ -1,13 +1,13 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 23 புதியவை
+[fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 11 புதியவை
-[fetch] Dinamani TN: 16 புதியவை
+[fetch] The Hindu TN: 10 புதியவை
+[fetch] Dinamani TN: 13 புதியவை
 [fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 8 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
-[fetch] The Hindu Sport: 25 புதியவை
+[fetch] BBC World: 20 புதியவை
+[fetch] Al Jazeera: 6 புதியவை
+[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] The Hindu Sport: 24 புதியவை
 [fetch] The Hindu Cinema: 4 புதியவை
 [fetch] Cinema Express: 17 புதியவை
 [fetch] The Hindu Tech: 20 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 18 புதியவை
+[fetch] FreeJobAlert: 10 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 23 புதியவை
+[fetch] Bar and Bench: 24 புதியவை
 [fetch] The Hindu Legal: 4 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -41,7 +41,7 @@
 [fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 26 புதியவை
+[fetch] Dinamani India: 27 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f116d8cd610>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6fb93bcf50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 4 புதியவை
-[fetch] Dinamani Govt: 16 புதியவை
+[fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,35 +67,31 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 506 → நிகழ்வுகள் 486
+[run] புதியவை 490 → நிகழ்வுகள் 475
 [triage] சேமித்த மதிப்பெண் (493) — புதிய அழைப்பு இல்லை
-[triage] 486 → 19 | காலி: world:3, jobs:3, sports:2, assembly:2, tn:1
-[skip] இவை தமிழ்நாட்டிற்கு வெளியே உள்ள சிற்றளவு காலிப்பணியிடங்கள் (
-[tts-edge] 50bf4003dd6b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பருவமழை தயார்நிலை குறித்து முதலமைச்சர் விஜய் ஆய்வு
-[skip] மொரோக்கோவின் உள்நாட்டு தேர்தல் — தமிழ்நாடு / இந்தியத் வாசகரை
-[திருத்தம்] ஆசிய விளையாட்டுப் போட்டி: வீரர் தீபகிற்க → ஆசிய விளையாட்டுப் போட்டி 2026: வீரர் தீப
-[தரம்] தமிழ் அல்லாத எழுத்து: না → ஒரு திருத்தம்
-[tts-edge] 4d49743c1888: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆசிய விளையாட்டுப் போட்டி 2026: வீரர் தீபக் ஜப்பானுக்குப் பயணிக்கலாம் - நீதிமன்ற ஆணை
-[திருத்தம்] இந்தியாவில் கூட்டு விமானப் படை பயிற்சி:  → இந்தியாவில் கூட்டு விமானப் படை பயிற்சி: 
-[publish] இந்தியாவில் கூட்டு விமானப் படை பயிற்சி: எஃப்35 உள்பட ஏழு நாடுகளின் விமானங்கள் பங்கேற்பு
-[publish] சென்செக்ஸ் 330 புள்ளி இழப்பு, நிஃப்டி 23,150க்குக் கீழே வீழ்ச்சி
-[skip] வெளிநாட்டு உள்நாட்டு ஒப்பந்தம் — தமிழ்நாடு/இந்தியப் வாசகருக்
+[triage] 475 → 27 | காலி: world:3, jobs:3, assembly:2, sports:1
+[skip] HP (Himachal Pradesh) மாநிலத்தின் உள்ளூர் மருத்துவக் கவுன்சல
+[skip] வெளிநாட்டு நிறுவனத்தின் நிதி சுற்று — தமிழ்நாடு/இந்தியா வாசக
+[tts-edge] 162fead3058c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] டெல்லி பாலியல் வன்கொடுமை வழக்கு: கல்லூரி வகுப்புகள் இடைநிறுத்தம்
+[திருத்தம்] இந்தியா பூடான் கூட்டு முயற்சியில் காண்டா → இந்தியா-பூடான் கூட்டு முயற்சியில் காண்டா
+[tts-edge] 48145fd7c64c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியா-பூடான் கூட்டு முயற்சியில் காண்டாமிருக எண்ணிக்கை உயர்வு
+[skip] பீகார் மாநில உள்ளூர் அரசியல் தலைவரின் கருத்து - தமிழ்நாட்டுட
+[skip] தமிழ்நாட்டு வாசகருக்குக் கூடியவரை பொருந்தாது. அமெரிக்கா-ஈரான
+[திருத்தம்] ஒலிம்பிக் 2036 இலக்கு: மயில்வாகனன் ஐபிஎஸ → மிஷன் ஒலிம்பிக்-2036: மயில்வாகனன் ஐபிஎஸ்
+[தரம்] தமிழ் அல்லாத எழுத்து: ति → ஒரு திருத்தம்
+[publish] மிஷன் ஒலிம்பிக்-2036: மயில்வாகனன் ஐபிஎஸ் திட்ட சிறப்பு அதிகாரியாக நியமனம்
+[publish] அரக்கோணம் நகராட்சி அலுவலகத்தில் லஞ்ச ஒழிப்புத் துறை திடீர் சோதனை
+[skip] பிரிட்டன் பிரதமர் மற்றும் அமெரிக்க பதவியாளரின் சந்திப்பு தமி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfKBoNKnW9PZhwzKrrpi9'}
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — கத்தார் எமீரின் UN பாষணம் தமி
-[skip] மூலத்தில் ஒரே தலைப்பு மட்டும் உள்ளது; யார், எங்கே, எப்போது, 
-[skip] பிரான்சின் உள்நாட்டு அரசியல் நிலை மற்றும் ইউक్రेইनுக்கான பிர
-[திருத்தம்] ஆதவ் அர்ஜுனா மனு தள்ளுபடிக்கு ஸ்டாலின் ப → அமைச்சர் ஆதவ் அர்ஜுனா மனு தள்ளுபடிக்கு ஸ
-[நகல்] ஏற்கனவே வெளியானது: ஆதவ் அர்ஜூனா மானநஷ்ட வழக்கில் ஸ்டாலின் பதில் மனு தாக்கல்
-[skip] கர்நாடகா மற்றும் பஞ்சாப் பல்கலைக்கழகத்தின் உள்ளூர் வேலைவாய்ப
-[skip] தெல்லி பல்கலைக்கழகம் — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை
-[skip] வெளிநாட்டு கிரிக்கெட் வீரர்/டিம் — தமிழ்நாடு/இந்தியாவுக்குப்
+[skip] வெளிநாட்டு உள்ளூர் சட்ட வழக்கு — அமெரிக்க கோர்ட்டு தீர்ப்பு.
+[தரம்] தமிழ் அல்லாத எழுத்து: د → ஒரு திருத்தம்
+[publish] சொத்து குவிப்பு வழக்கில் முன்னாள் அமைச்சர் பன்னீர்செல்வம் மனு தள்ளுபடி
 [image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: செப். 28 முதல் 3 நாள் வங்கி வேலைநிறுத்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[image] 4 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13869 · சென்செக்ஸ் 74529
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 4
+[done] feed 300 · pending 1 · எழுதியவை 5
