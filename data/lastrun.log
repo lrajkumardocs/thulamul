@@ -23,7 +23,7 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f62f3ac9650>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8ca39eac10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 17 புதியவை
 [fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -69,9 +69,13 @@
 [fetch] Times Chennai Crime: 20 புதியவை
 [run] புதியவை 560 → நிகழ்வுகள் 530
 [triage] சேமித்த மதிப்பெண் (538) — புதிய அழைப்பு இல்லை
-[triage] 530 → 52 | காலி: crime:2, cinema:2, assembly:2, jobs:1
+[triage] 530 → 73 | காலி: crime:2, cinema:2, assembly:2, jobs:1
+[tts-edge] editorial_20260924: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[cartoon] gemini-2.5-flash-image: Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and bi
+[cartoon] gemini-2.0-flash-preview-image-generation: models/gemini-2.0-flash-preview-image-generation is not found for API version v1beta, or is not supported for generateCo
+[editorial] தராசில் இன்று: வாக்காளர் பட்டியல் சர்ச்சை — யார் தராசில் நிற்பது?
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13659 · சென்செக்ஸ் 74828
+[market] தங்கம் 22K ₹13667 · சென்செக்ஸ் 74828
 [weather] புதுப்பிக்கப்பட்டது
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 0
