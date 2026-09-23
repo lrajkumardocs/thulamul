@@ -1,13 +1,13 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 21 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 25 புதியவை
-[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Sport: 27 புதியவை
 [fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 27 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 4 புதியவை
-[fetch] FreeJobAlert: 27 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 29 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 28 புதியவை
+[fetch] The Hindu Legal: 21 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 20 புதியவை
+[fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 21 புதியவை
 [fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 29 புதியவை
+[fetch] Sportstar: 26 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f570e13dd10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f170a8bead0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 21 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,53 +67,59 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 734 → நிகழ்வுகள் 684
+[run] புதியவை 693 → நிகழ்வுகள் 650
 [triage] சேமித்த மதிப்பெண் (618) — புதிய அழைப்பு இல்லை
-[triage] 684 → 90 | காலி: tn:5, india:4, govt:4, crime:4, economy:3
-[tts-edge] ae7b8a568d4f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தேர்தல் ஆணையர் நியமனச் சட்டம் விவகாரம் பெரிய அமர்வுக்கு பரிந்துரை
-[skip] महाराष्ट्र लोक सेवा आयोग (MPSC) - महाराष्ट्र राज्य की परीक्ष
-[skip] வெளிநாட்டு தயாரிப்பு நிறுவனத்தின் தொழில்நுட்ப அறிவிப்பு — தம
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfLvFP1aP3UiS1fFCgPUc'}
+[triage] 650 → 101 | காலி: crime:4, tn:3, jobs:3, india:2, economy:2
+[skip] UPSC Senior Veterinary Officer தெரிவு செயல்முறை இந்திய அளவில
+[skip] வெளிநாட்டு நிறுவனத்தின் நிதிப் பெறுதல் — தமிழ்நாடு/இந்திய தொ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfLyFyU7BEQ419owAsXVf'}
+[skip] இது மேற்கு வங்க பகுதியில் நடந்த உள்ளூர் யானைக் காப்பாற்றும் 
+[skip] கேரள மாநிலம் நிலம்பூரில் நடந்த உள்ளூர் அரசியல் நிகழ்வு; தமிழ
+[skip] இது ஆந்திரப் பிரதேசத்தின் உள்ளூர் மழை எச்சரிக்கை செய்தி, தமி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfLvNkAFnC4RCkjLhavuf'}
-[tts-edge] 673b10bb6c31: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வாக்காளர் பட்டியல் திருத்தம் விவகாரத்தில் எதிர்க்கட்சி குற்றச்சாட்டை மறுத்த பாஜக
-[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் உணவுப் பாதுகாப்பு சோதனைச் 
-[skip] இது கர்நாடகா மாநிலம் பெங்களூரு நகரின் உள்ளூர் திட்டம் தொடர்ப
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் மர்மமான மரணச் சம்பவம், தமிழ்நா
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; எந்த மாநிலம், எந்த முதலமைச
-[publish] இலடாக் வன்முறை ஆண்டு நினைவு, சோனம் வாங்சுக் அமைதி பேரணி
-[skip] இது கேரள மாநிலம் கொச்சியில் உள்ள உள்ளூர்த் திட்டம், தமிழ்நாட
-[தரம்] தமிழ் அல்லாத எழுத்து: सআনষ → ஒரு திருத்தம்
-[publish] UG-NEET மூன்றாம் கட்ட ஆலோசனை செப்டம்பர் 24 இல் தொடங்குகிறது
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man tied to pole and thrashed for stealing bike 
-[skip] இது அமெரிக்க உள்நாட்டு எரிபொருள் ஏற்றுமதிக் கொள்கை பற்றிய, வ
-[skip] horse racing - வெளிநாட்டு/பொதுவெளி ஸ்டেকிங், தமிழ்நாட்டு வாச
-[skip] தமிழ்நாட்டுக்கு நேரடிப் பொருத்தம் இல்லை. மத்திய தேர்தல் ஆयोग
+[திருத்தம்] தీஸ்தா ஆற்றில் அலைந்த யானைக் குட்டி மீட் → தீஸ்தா ஆற்றில் அலைந்த யானைக் குட்டி மீட்
+[tts-edge] 2d251076d727: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தீஸ்தா ஆற்றில் அலைந்த யானைக் குட்டி மீட்கப்பட்டு தாயுடன் மீண்டும் இணைந்தது
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Terek sandpiper spotted at Pallikaranai; bird ta
-[publish] நீண்டகால டெரிவேட்டிவ் மார்ஜின் குறைப்பு பரிசீலனையில் செபி: தலைவர் தகவல்
-[skip] வெளிநாட்டு ফুটবল நிர্வாহக உরையாடல் — தமிழ்நாடு/இந்தியாவுக்கு
-[publish] வெண்கலப் பதக்கம் வென்ற பேட்மிண்டன் அணிக்கு முதல்வர் வாழ்த்து
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் உணவுப் பாதுகாப்பு நடவடிக்கை. த
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Traffic experiment backfires, OMR chokes; police
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; மேலும் இத
-[skip] ஐரோப்பா-அமெரிக்கா ফুটबॉল நிர्வाहन சङ्घर्ष; தமிழ்நாடு/ভारত खे
-[publish] வடகிழக்கு பருவமழைக்கு முன் சென்னையில் 219 பாதிப்புக்குரிய பகுதிகள் அடையாளம்
-[skip] கர্நாடகத்தின் உள்ளூர் திட்டம் — பெங்களூரு நகரத்தின் சுரங்கப்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Jana Nayagan leak: HC quashes detention of film 
-[skip] ফর্মুলা 1 ইউরোপীয় চালক এবং দলের অভ্যন্তরীণ বিষয় — তামিলনাড
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் நிகழ்வு — தமிழ்நாடு தொடர்பில்ல
+[skip] கேரளத்தில் நடந்த வெள்ளப் பேரிடர்ப் பாதிக்கப்பட்டவர்களுடன் பி
+[skip] வெளிநாட்டு தயாரிப்பு (Meta) அறிவிப்பு — தமிழ்நாடு/இந்தியா தொ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Traffic experiment backfires, OMR chokes; police
+[திருத்தம்] மருத்துவமனை வருவோர் முகக்கவசம் அணிய வேண் → மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அண
+[tts-edge] 52fa325ea908: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அணிய வேண்டும்: சுகாதாரத் துறை அறிவுறுத்தல்
+[skip] Srikakulam is in Andhra Pradesh, not Tamil Nadu. This is a l
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Jana Nayagan leak: HC quashes detention of film 
+[திருத்தம்] 'ஜனநாயகன்' படப் பிரச்சினையில் கைதானவர் ம → 'ஜனநாயகன்' திரைப்படப் பிரச்சினையில் கைதா
+[publish] 'ஜனநாயகன்' திரைப்படப் பிரச்சினையில் கைதானவர் மீதான குண்டர் சட்ட நடவடிக்கை ரத்து
+[skip] இது உத்தரப்பிரதேச மாநிலத்தின் உள்ளூர் உயர்நீதிமன்ற வழக்கு, த
+[திருத்தம்] பொங்கல் பண்டிகை பட்ടு வேட்டி சேலை உற்பத் → பொங்கல் பண்டிகைக்கான வேட்டி-சேலை உற்பத்த
+[தரம்] தமிழ் அல்லாத எழுத்து: धयिতিప → ஒரு திருத்தம்
+[publish] பொங்கல் பண்டிகைக்கான வேட்டி-சேலை உற்பத்தி டிசம்பருக்குள் முடிக்க அமைச்சர் உத்தரவு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Ten school students injured in van collision
-[தரம்] தமிழ் அல்லாத எழுத்து: रा → ஒரு திருத்தம்
-[publish] அதிமுக இடைத்தேர்தல் பிரச்சாரப் பட்டியலில் அதிருப்தி எம்எல்ஏக்களுக்கு இடமில்லை
-[திருத்தம்] பேட்மிண்டன் வீரர்களுக்குத் தமிழ்நாட்டு ம → பேட்மிண்டன் வீரர்களுக்குத் தமிழ்நாட்டுத்
-[publish] பேட்மிண்டன் வீரர்களுக்குத் தமிழ்நாட்டுத் தலைமைச் செயலாளர் வாழ்த்து
+[திருத்தம்] சொத்து வரி உயர்வு வழக்கு: மூன்று மாநகராட → சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள்: 
+[publish] சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள்: சென்னை, கோவை, ஈரோடு மாநகராட்சி ஆணையர்கள் ஆஜராக உத்தரவு
+[தரம்] தமிழ் அல்லாத எழுத்து: আইডি; மூலத்தில் இல்லாத எண்: 30 → ஒரு திருத்தம்
+[publish] ஜோஹோ முப்பதாம் ஆண்டு நிறைவில் ஜியா சாட் அறிமுகம், வேம்பு கருத்து.
+[திருத்தம்] மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அண → மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அண
+[தரம்] தமிழ் அல்லாத எழுத்து: ও → ஒரு திருத்தம்
+[நகல்] ஏற்கனவே வெளியானது: மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அணிய வேண்டும்: சுகாதார
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Empty racks greet buyers at Tasmac outlets
-[திருத்தம்] கீழடி ஆராய்ச்சி முடிவுகள்: மத்திய அரசுக் → கீழடி ஆராய்ச்சி முடிவுகள்: மத்திய அரசுக்
-[publish] கீழடி ஆராய்ச்சி முடிவுகள்: மத்திய அரசுக்கு அமைச்சர் ராஜ்மோகன் வேண்டுகோள்
-[market] தங்கம் 22K ₹13658 · சென்செக்ஸ் 74828
-[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
+[திருத்தம்] அரசு விடுதி மாணவர்களுக்கு 24 மணி நேர புக → அரசு விடுதி மாணவர்கள் புகார் தெரிவிக்க 2
+[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
+[publish] அரசு விடுதி மாணவர்கள் புகார் தெரிவிக்க 24 மணி நேரக் கட்டுப்பாட்டு அறை
+[publish] ராம் கோயில் நன்கொடை திருட்டு வழக்கில் குற்றப்பத்திரிகை தாக்கல்
+[skip] சினிமா/குற்றச் செய்திகளின் கலவை. 'ஜனநாயகன்' படத்துடன் தொடர்ப
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Clean school campuses every Wednesday, govt tell
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், தேதி, அமைப்பாளர் போன
+[skip] இது பீகார் மாநிலத்தில் நடந்த உள்ளூர்க் குற்றச் சம்பவம், தமிழ
+[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள்
+[publish] சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள் மூன்று நகரில் நிலுவையில்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: First look! T3 integrated terminal at Chennai ai
+[publish] தமிழ்நாட்டில் பொது விநியோகத் திட்ட செயல்பாடுகள் குறித்து அமைச்சர்கள் ஆய்வு
+[market] தங்கம் 22K ₹13654 · சென்செக்ஸ் 74828
+[weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
+[image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 10

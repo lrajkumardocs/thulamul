@@ -1,5 +1,581 @@
 [
  {
+  "headline": "தமிழ்நாட்டில் பொது விநியோகத் திட்ட செயல்பாடுகள் குறித்து அமைச்சர்கள் ஆய்வு",
+  "lines": [
+   "தமிழ்நாட்டில் பொது விநியோகத் திட்டத்தின் தற்போதைய செயல்பாடுகள் குறித்து அமைச்சர்கள் ஆய்வுக் கூட்டம் ஒன்றை நடத்தினர்.",
+   "நியாய விலைக் கடைகள் மூலம் பொருட்கள் விநியோகிக்கப்படும் விதம் குறித்த தகவல்கள் இக்கூட்டத்தில் பரிசீலிக்கப்பட்டன.",
+   "திட்டத்தை மேலும் திறம்பட செயல்படுத்த வேண்டும் என அதிகாரிகளிடம் அமைச்சர்கள் கருத்து தெரிவித்ததாகத் தெரிகிறது.",
+   "பொது விநியோகத் திட்டம் மூலம் மாநிலம் முழுவதும் உள்ள குடும்பங்களுக்கு அத்தியாவசியப் பொருட்கள் வழங்கப்பட்டு வருகின்றன.",
+   "ஆய்வில் எழுப்பப்பட்ட கருத்துகளின் அடிப்படையில் அடுத்தகட்ட நடவடிக்கைகள் விரைவில் அறிவிக்கப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "தமிழ்நாட்டில் பொது விநியோகத் திட்டம் லட்சக்கணக்கான குடும்பங்களுக்கு நியாய விலையில் அரிசி உள்ளிட்ட பொருட்களை வழங்கி வரும் முக்கியத் திட்டமாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-09-24"
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு",
+   "பொது விநியோகத் திட்டம்",
+   "அமைச்சர்கள்",
+   "நியாய விலைக் கடை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Ministers review Public Distribution Scheme activities in Tamil Nadu",
+   "lines": [
+    "Ministers in Tamil Nadu held a review meeting on the current functioning of the Public Distribution Scheme.",
+    "Details of how goods are being distributed through fair price shops were discussed at the meeting.",
+    "Ministers reportedly told officials that the scheme needs to be implemented more effectively.",
+    "The Public Distribution Scheme provides essential goods to households across the state at fair prices.",
+    "Further steps are expected to be announced soon based on the points raised during the review."
+   ],
+   "closing": "The Public Distribution Scheme is a key programme that provides rice and other essentials to lakhs of families in Tamil Nadu at fair prices."
+  },
+  "id": "651f360f7866",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-24T01:44+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/23/public-distribution-scheme-operations-ministers-review"
+  ],
+  "image": null,
+  "audio": "data/audio/651f360f7866.mp3",
+  "created_ts": 1790194500.3853552,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள் மூன்று நகரில் நிலுவையில்",
+  "lines": [
+   "சென்னை, கோவை, ஈரோடு மாநகராட்சிகளில் சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள் நிலுவையில் உள்ளன.",
+   "இந்த வழக்குகளில் மாநகராட்சி ஆணையர்கள் ஆஜராக உத்தரவு பிறப்பிக்கப்பட்டுள்ளது.",
+   "சொத்து வரி விகிதம் அதிகரிப்பு குறித்து மக்கள் மற்றும் நிறுவனங்கள் நீதிமன்றத்தை நாடியுள்ளனர்.",
+   "இந்த வழக்குகளின் விசாரணை தொடர்ந்து நடந்து வருகிறது.",
+   "மாநகராட்சிகளின் வரிவிதிப்பு முறை குறித்து நீதிமன்றம் மதிப்பிடும் எனக் கூறப்படுகிறது."
+  ],
+  "closing": "சொத்து வரி உயர்வு பற்றிய இந்த வழக்குகள் மூன்று மாநகரங்களிலும் முக்கியமான பிரச்சினையாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Govt",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "சென்னை மாநகராட்சி",
+   "கோவை மாநகராட்சி",
+   "ஈரோடு மாநகராட்சி",
+   "சொத்து வரி"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Property tax hike cases pending in three corporations",
+   "lines": [
+    "Property tax hike cases are pending in Chennai, Coimbatore, and Erode municipal corporations.",
+    "Municipal commissioners in these cases have been directed to appear in court.",
+    "Citizens and organizations have approached the court against property tax rate increases.",
+    "The court proceedings in these cases continue.",
+    "The court is examining the municipal corporations' taxation method."
+   ],
+   "closing": "The property tax hike cases remain a major issue in all three cities."
+  },
+  "front_cat": "price_policy",
+  "image_query": "property tax india",
+  "wiki_subject": "Property tax",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நகரம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "40422830a7bc",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-24T01:44+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/23/cases-against-property-tax-hike-chennai-coimbatore-and-erode-corporation-commissioners-ordered-to-appear"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/India_signs_multilateral_convention_on_mutual_administrative_assistance_in_tax_matters%2C_in_Paris_on_January_26%2C_2012.jpg/1280px-India_signs_multilateral_convention_on_mutual_administrative_assistance_in_tax_matters%2C_in_Paris_on_January_26%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · Ministry of Finance of India\n",
+   "license": "GODL-India",
+   "symbolic": true
+  },
+  "audio": "data/audio/40422830a7bc.mp3",
+  "created_ts": 1790194444.6849947,
+  "status": "published"
+ },
+ {
+  "headline": "ராம் கோயில் நன்கொடை திருட்டு வழக்கில் குற்றப்பத்திரிகை தாக்கல்",
+  "lines": [
+   "அயோத்தி ராம் கோயிலில் நடந்த நன்கொடை திருட்டு வழக்கில் நீதிமன்றத்தில் குற்றப்பத்திரிகை தாக்கல் செய்யப்பட்டுள்ளது.",
+   "இந்த வழக்கில் சுபாஷ் ஸ்ரீவாஸ்தவா மற்றும் ராமசங்கர் என்பவர் மட்டும் குற்றம் சாட்டப்பட்டவர்களாகப் பெயரிடப்பட்டுள்ளனர்.",
+   "ராமசங்கர் திண்ணு யாதவ் என்ற பெயரிலும் அறியப்படுகிறார் என வழக்கறிஞர் குல் சேகர் சிங் தெரிவித்தார்.",
+   "கோயில் அறங்காவலர்கள் யாரும் இந்த குற்றப்பத்திரிகையில் பெயரிடப்படவில்லை என அவர் மேலும் கூறினார்.",
+   "இருவரின் ஜாமீன் மனுக்கள் மீதான விசாரணை வரும் வியாழக்கிழமை நடைபெறும் என அவர் கூறினார்."
+  ],
+  "closing": "ராம் கோயில் நிர்வாகத்துடன் தொடர்புடைய நிதி முறைகேடு தொடர்பான இந்த வழக்கில் அடுத்த விசாரணை வியாழக்கிழமை நடைபெறவுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "NDTV India",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ராம் கோயில்",
+   "அயோத்தி",
+   "சுபாஷ் ஸ்ரீவாஸ்தவா",
+   "ராமசங்கர்",
+   "குல் சேகர் சிங்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Chargesheet Filed In Ram Temple Donation Theft Case",
+   "lines": [
+    "A chargesheet has been filed in court in the donation theft case linked to the Ram Temple in Ayodhya.",
+    "Only two accused, Subhash Srivastava and Ramashankar, have been named in the case.",
+    "Advocate Kul Shekhar Singh said Ramashankar is also known as Tinnu Yadav.",
+    "He further stated that no temple trustees have been named in the chargesheet.",
+    "The bail applications of both accused will be heard on Thursday, according to the announcement."
+   ],
+   "closing": "The next hearing in this case, linked to alleged financial irregularities at the Ram Temple administration, is scheduled for Thursday."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Ram Mandir, Ayodhya",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "5eba7651f193",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-24T01:43+05:30",
+  "links": [
+   "https://www.ndtv.com/india-news/chargesheet-filed-in-ram-temple-donation-theft-case-trustees-not-named-12089039#publisher=newsstand"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Shri_Ram_Janambhoomi_Mandir%2C_Ayodhya_Dham.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Ram Mandir",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Ram_Mandir",
+   "symbolic": false
+  },
+  "audio": "data/audio/5eba7651f193.mp3",
+  "created_ts": 1790194387.896309,
+  "status": "published"
+ },
+ {
+  "headline": "அரசு விடுதி மாணவர்கள் புகார் தெரிவிக்க 24 மணி நேரக் கட்டுப்பாட்டு அறை",
+  "lines": [
+   "தமிழ்நாட்டில் உள்ள அரசு விடுதிகளில் தங்கியிருக்கும் மாணவர்களின் புகார்களைப் பெற புதிய ஏற்பாடு அறிவிக்கப்பட்டுள்ளது.",
+   "மாணவர்கள் தங்களது கஷ்டங்களை நேரடியாகத் தெரிவிக்க 24 மணி நேரமும் இயங்கும் கட்டுப்பாட்டு அறை அமைக்கப்படுகிறது.",
+   "இது தொடர்பான முழு விவரங்களை சம்பந்தப்பட்ட துறை விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது.",
+   "விடுதி மாணவர்களின் பாதுகாப்பு மற்றும் நலன் கருதி இந்த நடவடிக்கை எடுக்கப்பட்டதாகத் தெரிகிறது.",
+   "கட்டுப்பாட்டு அறையின் தொடர்பு எண் மற்றும் செயல்பாட்டு நாள் குறித்து அதிகாரப்பூர்வ அறிவிப்பு வர உள்ளது."
+  ],
+  "closing": "அரசு விடுதி மாணவர்களுக்கான இந்தக் கட்டுப்பாட்டு அறை பற்றிய முழு விவரங்களை அரசு விரைவில் வெளியிட உள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "அரசு விடுதி",
+   "மாணவர்கள்",
+   "கட்டுப்பாட்டு அறை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Tamil Nadu Govt Hostels Get 24-Hour Grievance Control Room",
+   "lines": [
+    "The Tamil Nadu government has announced a new arrangement to receive complaints from students staying in government hostels.",
+    "A control room operating round the clock has been set up for students to directly report their grievances.",
+    "Complete details regarding this initiative are expected to be released soon by the concerned department.",
+    "The move appears to have been taken keeping in mind the safety and welfare of hostel students.",
+    "An official announcement on the control room's contact number and operational details is awaited."
+   ],
+   "closing": "Full details about the grievance control room for government hostel students are expected to be released by the government soon."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "491e75db26e7",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-24T01:42+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/23/24-hour-control-room-set-up-for-government-hostel-students-to-lodge-complaints"
+  ],
+  "image": null,
+  "audio": "data/audio/491e75db26e7.mp3",
+  "created_ts": 1790194353.6013572,
+  "status": "published"
+ },
+ {
+  "headline": "ஜோஹோ முப்பதாம் ஆண்டு நிறைவில் ஜியா சாட் அறிமுகம், வேம்பு கருத்து.",
+  "lines": [
+   "சென்னையைத் தலைமையிடமாகக் கொண்ட மென்பொருள் நிறுவனமான ஜோஹோ, முப்பது ஆண்டுகள் நிறைவடைந்த நிலையில் புதிய செயற்கை நுண்ணறிவு அம்சத்தை அறிமுகப்படுத்தியுள்ளது.",
+   "ஜியா சாட் எனும் இந்த அம்சம், நிறுவனங்களின் பல்வேறு பயன்பாடுகளில் உள்ள தகவல், தரவு, பணிப்பாய்வுகளை ஒருங்கிணைத்து உரையாடல் வடிவில் வழங்குகிறது.",
+   "ஜோஹோ நிறுவனர் ஸ்ரீதர் வேம்பு, என்டிடிவிக்கு அளித்த பேட்டியில், ஓபன்ஏஐ மற்றும் ஆந்த்ரோபிக் நிறுவனங்கள் தங்கள் வேகத்தைக் குறைத்துக் கொள்ளலாம் என்று கருத்து தெரிவித்தார்.",
+   "யாரும் துப்பாக்கியை நீட்டி நிர்ப்பந்திக்கவில்லை என்று அவர் குறிப்பிட்டு, செயற்கை நுண்ணறிவுத் துறையில் தேவையற்ற அவசரம் வேண்டாம் என்று வலியுறுத்தினார்.",
+   "ஜோஹோவின் இந்தப் புதிய தயாரிப்பு தற்போது நிறுவன வாடிக்கையாளர்களுக்குப் படிப்படியாக அறிமுகப்படுத்தப்பட்டு வருகிறது."
+  ],
+  "closing": "செயற்கை நுண்ணறிவுத் துறையில் உலகளாவிய போட்டியின் நடுவே, இந்திய தயாரிப்பு நிறுவனமான ஜோஹோ இந்தக் கருத்தை முன்வைத்துள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "NDTV India",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tech",
+  "entities": [
+   "ஜோஹோ",
+   "ஸ்ரீதர் வேம்பு",
+   "Zia Chat",
+   "ஓபன்ஏஐ",
+   "ஆந்த்ரோபிக்"
+  ],
+  "id": "6c1be298fa6b",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தொழில்நுட்பம்",
+  "published_at": "2026-09-24T01:41+05:30",
+  "links": [
+   "https://www.ndtv.com/india-news/openai-anthropic-can-slow-down-no-ones-pointing-gun-sridhar-vembu-to-ndtv-12089029#publisher=newsstand"
+  ],
+  "image": null,
+  "audio": "data/audio/6c1be298fa6b.mp3",
+  "created_ts": 1790194282.156941,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள்: சென்னை, கோவை, ஈரோடு மாநகராட்சி ஆணையர்கள் ஆஜராக உத்தரவு",
+  "lines": [
+   "சொத்து வரி உயர்வுக்கு எதிராக தாக்கல் செய்யப்பட்ட வழக்குகளை நீதிமன்றம் விசாரணைக்கு எடுத்துக்கொண்டது.",
+   "சென்னை, கோவை, ஈரோடு ஆகிய மூன்று மாநகராட்சிகளின் ஆணையர்கள் நேரில் ஆஜராக வேண்டும் என உத்தரவிடப்பட்டுள்ளது.",
+   "சொத்து வரி உயர்வு தொடர்பாக பொதுமக்கள் தாக்கல் செய்த வழக்குகள் அடிப்படையில் இந்த உத்தரவு பிறப்பிக்கப்பட்டுள்ளது.",
+   "மாநகராட்சிகளின் வரி உயர்வு முடிவால் பாதிக்கப்பட்டதாகக் கூறி பொதுமக்கள் நீதிமன்றத்தை அணுகியிருந்தனர்.",
+   "விசாரணை நாளன்று மூன்று மாநகராட்சி ஆணையர்களும் நேரில் ஆஜராக வேண்டும் என நீதிமன்றம் கேட்டுக்கொண்டுள்ளது."
+  ],
+  "closing": "சொத்து வரி உயர்வு தொடர்பான இந்த வழக்குகளின் மேல் விசாரணை தொடரும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "சென்னை மாநகராட்சி",
+   "கோயம்புத்தூர் மாநகராட்சி",
+   "ஈரோடு மாநகராட்சி",
+   "சொத்து வரி"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Property Tax Hike Case: Three Corporation Commissioners Ordered to Appear",
+   "lines": [
+    "The court has taken up cases filed against the recent property tax hike for hearing.",
+    "Commissioners of Chennai, Coimbatore and Erode corporations have been ordered to appear in person.",
+    "The order was issued based on petitions filed by the public regarding the property tax increase.",
+    "Citizens had approached the court claiming they were affected by the corporations' tax hike decision.",
+    "The three corporation commissioners are required to appear in person on the hearing date, the court has said."
+   ],
+   "closing": "Further hearings on the property tax hike cases are expected to continue."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "40422830a7bc",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-09-24T01:39+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/23/cases-against-property-tax-hike-chennai-coimbatore-and-erode-corporation-commissioners-ordered-to-appear"
+  ],
+  "image": null,
+  "audio": "data/audio/40422830a7bc.mp3",
+  "created_ts": 1790194201.4331527,
+  "status": "published"
+ },
+ {
+  "headline": "பொங்கல் பண்டிகைக்கான வேட்டி-சேலை உற்பத்தி டிசம்பருக்குள் முடிக்க அமைச்சர் உத்தரவு",
+  "lines": [
+   "தமிழ்நாடு அரசின் ஜவுளித் துறை அமைச்சர் பொங்கல் பண்டிகைக்கான வேட்டி மற்றும் சேலை உற்பத்தி டிசம்பர் இறுதிக்குள் முடிக்குமாறு அதிகாரிகளுக்கு உத்தரவு பிறப்பித்துள்ளார்.",
+   "தமிழ்நாட்டின் பாரம்பரிய ஜவுளி பொருட்களின் உற்பத்தி அதிகரிப்பதன் மூலம் நெசவாளர்களுக்கு வேலைவாய்ப்பு ஏற்படுத்த இந்த நடவடிக்கை எடுக்கப்பட்டுள்ளது.",
+   "பொங்கல் கொண்டாட்ட மாதத்துக்கு முன்பே பட்ட வேட்டி மற்றும் சேலை பொதுமக்களுக்கு கிடைத்து விடவேண்டும் என்ற நோக்கத்தில் இந்த திட்டம் கொண்டு வரப்பட்டுள்ளது.",
+   "நெசவாளர்கள் மற்றும் ஜவுளி உற்பத்தி நிறுவனங்கள் இந்த காலக்கெடுவில் உற்பத்தி பணிகளை முடிக்க தாங்கள் தயாராக உள்ளதாக அறிவித்துள்ளனர்.",
+   "இந்த உற்பத்தி திட்டம் ஜனவரி பொங்கல் பண்டிகை கொண்டாட்டத்தைக் குறிப்பாக கருத்தில் கொண்டு வகுக்கப்பட்டுள்ளது."
+  ],
+  "closing": "பொங்கல் பண்டிகைக்கு தமிழ் மணப் பெண்களும் மகளிரும் பாரம்பரிய பட்ட வேட்டி சேலை அணிவது வழக்கமாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "ஜவுளித் துறை",
+   "பொங்கல் பண்டிகை",
+   "நெசவாளர்கள்"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Tamil Nadu government orders completion of Pongal traditional sarees by December",
+   "lines": [
+    "The Tamil Nadu textile minister has instructed officials to complete production of traditional sarees and dhotis for Pongal festival by the end of December.",
+    "This initiative aims to increase traditional Tamil textile production and create employment opportunities for weavers.",
+    "The scheme ensures that handwoven sarees and dhotis reach the public before the January Pongal celebrations begin.",
+    "Weavers and textile production units have announced their readiness to complete production within this timeframe.",
+    "The production plan specifically targets the Pongal festival celebration period in January."
+   ],
+   "closing": "Wearing traditional silk sarees is a customary practice for Tamil women during Pongal festivities."
+  },
+  "front_cat": "routine",
+  "image_query": "handloom sarees production Tamil Nadu",
+  "wiki_subject": "Pongal",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "950501515a1a",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-24T01:39+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/23/production-of-dhotis-and-sarees-for-pongal-festival-minister-directs-officials-to-complete-by-december"
+  ],
+  "image": {
+   "url": "https://images.pexels.com/photos/10317106/pexels-photo-10317106.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+   "credit": "Sharath G. · Pexels",
+   "license": "Pexels — இலவசம்",
+   "symbolic": true
+  },
+  "audio": "data/audio/950501515a1a.mp3",
+  "created_ts": 1790194155.4004524,
+  "status": "published"
+ },
+ {
+  "headline": "'ஜனநாயகன்' திரைப்படப் பிரச்சினையில் கைதானவர் மீதான குண்டர் சட்ட நடவடிக்கை ரத்து",
+  "lines": [
+   "'ஜனநாயகன்' திரைப்படம் தொடர்பான விவகாரத்தில் கைது செய்யப்பட்ட நபர் மீது பிரயோகிக்கப்பட்டிருந்த குண்டர் சட்ட நடவடிக்கையை நீதிமன்றம் ரத்து செய்துள்ளது.",
+   "இந்த நபர் மீது காவல் துறையினர் குண்டர் சட்டத்தின் கீழ் நடவடிக்கை எடுத்திருந்தனர்.",
+   "வழக்கை விசாரித்த நீதிமன்றம், சட்ட நடவடிக்கையை ரத்து செய்வதாக உத்தரவிட்டுள்ளது.",
+   "'ஜனநாயகன்' திரைப்படம் தொடர்பான சர்ச்சை முன்னதாகப் பெரும் கவனத்தை ஈர்த்திருந்தது.",
+   "இந்த வழக்கில் அடுத்த கட்ட நடவடிக்கை குறித்து அதிகாரிகள் இதுவரை விளக்கம் அளிக்கவில்லை."
+  ],
+  "closing": "இந்த வழக்கின் விரிவான விவரங்கள் தற்போதைக்கு அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-09-24"
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "ஜனநாயகன் திரைப்படம்",
+   "குண்டர் சட்டம்",
+   "நீதிமன்றம்"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "Goondas Act action against arrested man in 'Jananayagan' case quashed",
+   "lines": [
+    "A court has quashed the Goondas Act action imposed on a man arrested in connection with the 'Jananayagan' film controversy.",
+    "Police had earlier booked the man under the Goondas Act in relation to the case.",
+    "The court, after hearing the case, ordered the withdrawal of the Goondas Act proceedings.",
+    "The controversy surrounding the film 'Jananayagan' had earlier drawn wide attention.",
+    "Authorities have not yet clarified the next steps to be taken in the case."
+   ],
+   "closing": "Detailed official information regarding this case has not yet been released."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "4228d5b3d2d9",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-09-24T01:38+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/23/jananayagan-movie-controversy-detention-of-arrested-person-under-goondas-act-revoked"
+  ],
+  "image": null,
+  "audio": "data/audio/4228d5b3d2d9.mp3",
+  "created_ts": 1790194111.1667807,
+  "status": "published"
+ },
+ {
+  "headline": "மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அணிய வேண்டும்: சுகாதாரத் துறை அறிவுறுத்தல்",
+  "lines": [
+   "மருத்துவமனைகளுக்கு வருபவர்கள் அனைவரும் முகக்கவசம் அணிய வேண்டும் என சுகாதாரத் துறை அதிகாரிகள் அறிவுறுத்தியுள்ளனர்.",
+   "நோயாளிகள் மற்றும் அவர்களுடன் வருபவர்கள் இருவரும் இந்த வழிகாட்டுதலைப் பின்பற்ற வேண்டும் என தெரிவிக்கப்பட்டுள்ளது.",
+   "இந்த அறிவுறுத்தலை சுகாதாரத் துறை அதிகாரிகள் அரசு சார்பில் வெளியிட்டுள்ளனர்.",
+   "தொற்றுநோய் பரவலைத் தடுக்கும் நடவடிக்கைகளின் ஒரு பகுதியாக இத்தகைய முன்னெச்சரிக்கை அறிவுறுத்தல்கள் வழக்கமாக வெளியிடப்படுகின்றன.",
+   "மருத்துவமனை வளாகங்களில் இந்த விதிமுறையை பொது மக்கள் கடைப்பிடிக்குமாறு அதிகாரிகள் கேட்டுக் கொண்டுள்ளனர்."
+  ],
+  "closing": "இந்த அறிவுறுத்தலுக்கான குறிப்பிட்ட காரணம் இதுவரை விரிவாக வெளியிடப்படவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "சுகாதாரத் துறை",
+   "மருத்துவமனை",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Health department advises mask-wearing for hospital visitors"
+  },
+  "id": "52fa325ea908",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-09-24T01:37+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/23/mandatory-for-hospital-visitors-to-wear-masks-health-department-officials-instruction"
+  ],
+  "image": null,
+  "audio": "data/audio/52fa325ea908.mp3",
+  "created_ts": 1790194067.2751513,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "தீஸ்தா ஆற்றில் அலைந்த யானைக் குட்டி மீட்கப்பட்டு தாயுடன் மீண்டும் இணைந்தது",
+  "lines": [
+   "தீஸ்தா ஆற்றைக் கடக்கும்போது வேகமான நீரோட்டம் யானைக் குட்டியைக் கூட்டத்திலிருந்து பிரித்துச் செலுத்தியது.",
+   "மீனவர்கள் ஆற்றிலிருந்து குட்டியை மீட்டு வெளியே எடுத்தனர்.",
+   "யானைக் குட்டி முறையாக மாய்ந்திருக்கக்கூடிய நிலையில் கரையில் கிடந்தது.",
+   "மீனவர்களின் நிவேதனத்துக்குப் பிறகு பாதுகாப்பு நிலையம் தேவைப்பட்ட உதவி செய்தது.",
+   "குட்டி இப்போது தனது தாய் யானையுடன் மீண்டும் இணைந்து உள்ளது."
+  ],
+  "closing": "தீஸ்தா ஆற்றில் மழைக்காலத்தில் பெரும் வெள்ளம் ஓடியுள்ளமையால் வனவிலங்குகளும் ஆபத்துக்கு உள்ளாகியுள்ளன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "தீஸ்தா ஆறு",
+   "யானைக் குட்டி",
+   "மீனவர்கள்",
+   "வனவிலங்குக் கட்டுப்பாட்டு நிலையம்"
+  ],
+  "confidence": 0.72,
+  "en": {
+   "headline": "Elephant calf swept away in Teesta river rescued by fishermen",
+   "lines": [
+    "Strong currents in the Teesta river separated an elephant calf from its herd while crossing the river.",
+    "Fishermen rescued the calf from the river and pulled it to shore.",
+    "The calf was in critical condition when it lay on the riverbank.",
+    "Wildlife control officials provided necessary medical assistance after fishermen's intervention.",
+    "The calf has now been reunited with its mother elephant."
+   ],
+   "closing": "Heavy monsoon flooding in the Teesta river has put wildlife at significant risk."
+  },
+  "front_cat": "routine",
+  "image_query": "elephant calf rescue river",
+  "wiki_subject": "Teesta River",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "2d251076d727",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-09-24T01:35+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/elephant-calf-swept-away-in-teesta-rescued-by-fishermen-reunited-with-mother/article71501503.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Teesta_River_View_From_Sikkim.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Teesta River",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Teesta_River",
+   "symbolic": false
+  },
+  "audio": "data/audio/2d251076d727.mp3",
+  "created_ts": 1790193950.4012349,
+  "status": "published"
+ },
+ {
   "headline": "கீழடி ஆராய்ச்சி முடிவுகள்: மத்திய அரசுக்கு அமைச்சர் ராஜ்மோகன் வேண்டுகோள்",
   "lines": [
    "கீழடி அகழாய்வு ஆராய்ச்சி முடிவுகள் தொடர்பாக தமிழ்நாடு அமைச்சர் ராஜ்மோகன் மத்திய அரசுக்கு வேண்டுகோள் விடுத்துள்ளார்.",
@@ -17576,582 +18152,6 @@
   },
   "audio": "data/audio/5df7ab996a70.mp3",
   "created_ts": 1789693416.5070338,
-  "status": "published"
- },
- {
-  "headline": "சமஸ்தானங்கள் இணைப்பில் படேல் பங்கு: துணைத் தலைவர் பெருமிதம்",
-  "lines": [
-   "இந்தியாவுடன் பல்வேறு சமஸ்தானங்களை இணைத்ததில் சர்தார் வல்லபாய் படேல் முக்கியப் பங்காற்றியதாக குடியரசுத் துணைத் தலைவர் தெரிவித்தார்.",
-   "படேலின் தலைமைத்துவப் பங்களிப்பை அவர் பாராட்டி பேசினார்.",
-   "இது தொடர்பாக துணைத் தலைவர் தனது பெருமிதத்தை வெளிப்படுத்தினார்.",
-   "நிகழ்வின் முழு விவரங்கள் தற்போது வெளியிடப்படவில்லை.",
-   "இது தொடர்பான கூடுதல் தகவல்கள் அடுத்து வெளியாக உள்ளன."
-  ],
-  "closing": "சர்தார் வல்லபாய் படேல், இந்தியாவின் முதல் துணைப் பிரதமராகவும், சமஸ்தானங்களை ஒன்றிணைத்த தலைவராகவும் அறியப்படுகிறார்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani India",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "சர்தார் வல்லபாய் படேல்",
-   "குடியரசு துணைத் தலைவர்",
-   "இந்தியா"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Vallabhbhai Patel's key role in integrating princely states: VP",
-   "lines": [
-    "The Vice President of India stated that Sardar Vallabhbhai Patel played a key role in integrating princely states with India.",
-    "He praised Patel's leadership contribution in this process.",
-    "The Vice President expressed pride regarding this historical achievement.",
-    "Full details of the event have not been released so far.",
-    "Further information related to this is expected to be released soon."
-   ],
-   "closing": "Sardar Vallabhbhai Patel is known as India's first Deputy Prime Minister and the leader who unified the princely states."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "b4a8e86532a0",
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-09-18T04:52+05:30",
-  "links": [
-   "https://www.dinamani.com/india/2026/Sep/17/sardar-vallabhbhai-patel-played-a-key-role-in-integrating-the-princely-states-with-india-vice-president-expresses-pride"
-  ],
-  "image": null,
-  "audio": "data/audio/b4a8e86532a0.mp3",
-  "created_ts": 1789687364.7906876,
-  "status": "published"
- },
- {
-  "headline": "பொது சிவில் சட்டம் குறித்து அமித் ஷா பேச்சு, முஸ்லிம் வாரியம் கவலை",
-  "lines": [
-   "மத்திய உள்துறை அமைச்சர் அமித் ஷா பொது சிவில் சட்டம் அமல்படுத்துவது குறித்து கருத்து தெரிவித்துள்ளார்.",
-   "இது தொடர்பாக இந்திய முஸ்லிம் தனிநபர் சட்ட வாரியம் தனது கவலையை வெளியிட்டுள்ளது.",
-   "நாடு முழுவதும் ஒரே சட்டத்தை அமல்படுத்தும் திட்டமாக பொது சிவில் சட்டம் பரிசீலிக்கப்பட்டு வருகிறது.",
-   "இந்த திட்டம் மத அடிப்படையிலான தனிநபர் சட்டங்களை பாதிக்கும் என சட்ட வாரியம் தெரிவித்துள்ளது.",
-   "இது குறித்த மேலும் விவரங்கள் மற்றும் அரசின் அடுத்த நடவடிக்கை எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "பொது சிவில் சட்டம் தொடர்பான விவாதம் நீண்ட காலமாக அரசியல் மற்றும் சமூக வட்டாரங்களில் நடைபெற்று வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani India",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "அமித் ஷா",
-   "பொது சிவில் சட்டம்",
-   "இந்திய முஸ்லிம் தனிநபர் சட்ட வாரியம்"
-  ],
-  "id": "12f999f5e929",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-09-18T04:36+05:30",
-  "links": [
-   "https://www.dinamani.com/india/2026/Sep/17/amit-shahs-remarks-on-the-implementation-of-the-uniform-civil-code-all-india-muslim-personal-law-board-expresses-concern"
-  ],
-  "image": null,
-  "audio": "data/audio/12f999f5e929.mp3",
-  "created_ts": 1789686374.0771532,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "மதுரை மீனாட்சி சுந்தரேசுவரர் கோயிலில் மகா குடமுழுக்கு விழா",
-  "lines": [
-   "மதுரை மீனாட்சி சுந்தரேசுவரர் கோயிலில் மகா குடமுழுக்கு விழா நடைபெற்றது.",
-   "இந்த வேத விழாவை முன்னிட்டு கோயிலில் சிறப்பு அலங்காரங்களும் மத சடங்குகளும் மேற்கொள்ளப்பட்டன.",
-   "பக்தர்கள் பெருந்திரளாக கலந்து கொண்டு இறைவனை தரிசித்ததாக கோயில் வட்டாரங்கள் தெரிவித்தன.",
-   "இதுபோன்ற குடமுழுக்கு சடங்குகளுக்கு பொதுவாக பல மாதங்களுக்கு முன்பே தயாரிப்புகள் தொடங்கப்படும்.",
-   "விழா தொடர்பான மேலும் விரிவான தகவல்களை கோயில் நிர்வாகம் விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "மதுரை மீனாட்சி சுந்தரேசுவரர் கோயில் தமிழ்நாட்டின் மிக முக்கியமான தலங்களில் ஒன்றாக கருதப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "மதுரை",
-   "மீனாட்சி சுந்தரேசுவரர் கோயில்",
-   "குடமுழுக்கு",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Maha Kudamuzhukku ceremony held at Madurai Meenakshi temple",
-   "lines": [
-    "A grand Maha Kudamuzhukku ceremony was held at the Meenakshi Sundareswarar Temple in Madurai.",
-    "Special decorations and Vedic rituals were performed at the temple ahead of the ceremony.",
-    "Temple sources said a large number of devotees gathered to witness and take part in the event.",
-    "Such consecration ceremonies are typically preceded by months of preparation.",
-    "The temple administration is expected to release more details about the event soon."
-   ],
-   "closing": "The Meenakshi Sundareswarar Temple in Madurai is regarded as one of Tamil Nadu's most significant religious sites."
-  },
-  "front_cat": "cinema_culture",
-  "image_query": "Madurai Meenakshi temple kumbhabhishekam",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "3a0505cd695b",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-18T04:34+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/17/grand-consecration-of-the-madurai-meenakshi-sundareswarar-temple"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg/3840px-An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Meenakshi Temple",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Meenakshi_Temple",
-   "symbolic": false
-  },
-  "audio": "data/audio/3a0505cd695b.mp3",
-  "created_ts": 1789686249.3999171,
-  "status": "published"
- },
- {
-  "headline": "அபிஷேக் முழு அங்கீகார T20ல் வேகமான நூறு",
-  "lines": [
-   "26 வயது அபிஷேக் 34 பந்தில் 108 ரன் எடுத்தார். ஒன்பது சிக்ஸர்கள் மற்றும் 11 ஃபோர்கள் அடித்தார்.",
-   "ராஷிட் கான் பந்தில் விக்கெட் இழந்து மைதானம் விட்டு வெளியேறினார்.",
-   "இது இந்திய முழு அங்கீகார T20 வரலாற்றில் ஒரு சாதனையாக அமைந்தது. 2017ல் ரோஹித் சர்மா இலங்கைக்கு எதிராக 35 பந்தில் நூறு எடுத்திருந்தார்.",
-   "T20 போட்டிகளில் வேகம் என்பது பொதுவாக மேற்கத்திய வீரர்களுக்கே உரிய சாதனையாக இருந்து வந்தது.",
-   "அபிஷேக்கின் இந்த முயற்சி இந்திய T20 வரலாற்றில் முக்கியமான மைல்கல்லாகக் குறிப்பிடப்படுகிறது."
-  ],
-  "closing": "இந்திய T20 அணி வேகத்தை மையமாகக் கொண்டு வெற்றியை நோக்கிச் செல்லும் ஆற்றலைக் காட்டிவருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "அபிஷேக்",
-   "ரோஹித் சர்மா",
-   "ராஷிட் கான்",
-   "T20 போட்டி"
-  ],
-  "confidence": 0.92,
-  "en": {
-   "headline": "Abhishek smashes fastest century in full-member T20s",
-   "lines": [
-    "The 26-year-old hammered 108 runs off 34 balls. He struck nine sixes and 11 fours before getting out.",
-    "Rashid Khan took his wicket and Abhishek left the field.",
-    "The Indian full-member T20 record stands broken. Rohit Sharma had scored a century off 35 balls against Sri Lanka in 2017.",
-    "Speed in T20 cricket has usually been the preserve of West Asian batsmen.",
-    "Abhishek's effort marks an important milestone in Indian T20 history."
-   ],
-   "closing": "Indian T20 cricket appears to be embracing speed as a pathway to success."
-  },
-  "front_cat": "sports_historic",
-  "image_query": "T20 cricket batting fastest century",
-  "person_en": "Abhishek",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "ce66bb2a69cb",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-18T03:53+05:30",
-  "links": [
-   "https://www.thehindu.com/sport/cricket/abhishek-blazes-fastest-century-in-full-member-t20s/article71478364.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/ce66bb2a69cb.mp3",
-  "created_ts": 1789683798.4846969,
-  "status": "published"
- },
- {
-  "headline": "தமிழ்நாடு பிக்கிள்பால் லீக் சென்னையில் இந்த வாரவிடுதியில் நடக்கிறது",
-  "lines": [
-   "சென்னையின் எக்ஸ்பிரெஸ் அவென்யு மாலில் தமிழ்நாடு பிக்கிள்பால் முதல்வர் லீக் இரண்டாம் பருவம் இந்த வாரவிடுதியில் நடக்கிறது.",
-   "12 அணிகளும் 168 விளையாடுகளரும் பங்கெடுக்கின்றனர்.",
-   "நடிகர் விக்ரம், வரலட்சுமி சரத்குமார் மற்றும் கீர்த்தி பாண்டியன் உள்ளிட்ட சினிமாத் தொழிலாளர்கள் அணிகளுக்கு தலைவராக உள்ளனர்.",
-   "பிக்கிள்பால் விளையாட்டு சமீபத்தில் இந்தியாவில் வளர்ந்து வரும் ர‍ாக்கெட் விளையாட்டு ஆகும்.",
-   "லீகின் முதல் பருவம் கடந்த ஆண்டு வெற்றிகரமாக நடந்தது."
-  ],
-  "closing": "பிக்கிள்பால் வேகமாக வளரும் ரக்கெட் விளையாட்டாக தமிழ்நாட்டில் மக்கள் ஆர்வம் காட்டுகின்றனர்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "சென்னை",
-   "எக்ஸ்பிரெஸ் அவென்யு மால்",
-   "தமிழ்நாடு பிக்கிள்பால் முதல்வர் லீக்",
-   "விக்ரம்",
-   "வரலட்சுமி சரத்குமார்",
-   "கீர்த்தி பாண்டியன்"
-  ],
-  "confidence": 0.92,
-  "en": {
-   "headline": "Tamil Nadu Pickleball Premier League returns to Chennai this weekend",
-   "lines": [
-    "The Tamil Nadu Pickleball Premier League's second season takes place at Express Avenue Mall in Chennai this weekend.",
-    "12 teams and 168 players will participate in the tournament.",
-    "Actors Vikram, Varalaxmi Sarathkumar and Keerthy Pandian are among the celebrity team owners backing the sport.",
-    "Pickleball is a rapidly growing racquet sport gaining popularity in India.",
-    "The league's inaugural edition last year proved successful."
-   ],
-   "closing": "Pickleball is emerging as a fast-growing racquet sport with growing public interest in Tamil Nadu."
-  },
-  "front_cat": "cinema_culture",
-  "image_query": "pickleball tournament Chennai",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "2f9c0597121c",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-18T03:35+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/chennai/tn-pickleball-premier-league-chennai-mall-set-to-host-12-teams-168-players-print-a-dose-of-pickleball/article71467148.ece"
-  ],
-  "image": {
-   "url": "https://images.unsplash.com/photo-1578552398878-37247ca9726a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8cGlja2xlYmFsbCUyMHRvdXJuYW1lbnQlMjBDaGVubmFpfGVufDF8MHx8fDE3ODk3MDc3OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-   "credit": "Daniel Pell · Unsplash",
-   "license": "Unsplash — இலவசம்",
-   "symbolic": true
-  },
-  "audio": "data/audio/2f9c0597121c.mp3",
-  "created_ts": 1789682747.3283207,
-  "status": "published"
- },
- {
-  "headline": "ஆசிய விளையாட்டுக்களில் இந்திய கணினி விளையாட்டு அணிக்கு அக்ஷய் செனாய் தலைவர்",
-  "lines": [
-   "அக்ஷய் செனாய் ஆசிய விளையாட்டுக்களில் லீக் ஆஃப் லெஜண்ட்ஸ் கணினி விளையாட்டுக்கான ஆறு உறுப்பினர் இந்திய அணியின் தலைவராக நியமிக்கப்பட்டுள்ளார்.",
-   "விளையாட்டுக் கூட்டம் செப்டம்பர் 19 முதல் அக்டோபர் 4 வரை ஜப்பானின் ஐச்சி-நகோயாவில் நடைபெறும்.",
-   "லீக் ஆஃப் லெஜண்ட்ஸ் 2026 ஆசிய விளையாட்டுக்களின் கணினி விளையாட்டு பிரிவின் ஒரு நிகழ்வு.",
-   "கணினி விளையாட்டு இந்த முறை ஆசிய விளையாட்டுக்களில் கூடுதல் முக்கியத்துவம் பெற்றுள்ளது.",
-   "இந்திய அணி ஆசிய விளையாட்டுக்களில் சிறப்பாக செயல்பட இலக்கு வைத்துள்ளது."
-  ],
-  "closing": "கணினி விளையாட்டுகளில் இந்தியா ஆசிய விளையாட்டுக்களில் பங்கேற்பது இந்திய விளையாட்டுக் களத்தில் ஒரு புதிய நிலை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": "2026-09-18"
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "அக்ஷज் செனாய்",
-   "லீக் ஆஃப் லெஜண்ட்ஸ்",
-   "ஆசிய விளையாட்டுக்கள் 2026",
-   "ஐச்சி-நகோயா, ஜப்பான்",
-   "இந்திய அணி"
-  ],
-  "confidence": 0.95,
-  "en": {
-   "headline": "Gamer Akshaj Shenoy named captain of Indian League of Legends team for Asian Games 2026",
-   "lines": [
-    "Akshaj Shenoy has been appointed captain of the six-member Indian team competing in the League of Legends esports event at the Asian Games 2026.",
-    "The games will be held in Aichi-Nagoya, Japan, from September 19 to October 4.",
-    "League of Legends is one of the esports events featured in this edition of the Asian Games.",
-    "Esports has gained increased prominence in the Asian Games program this time.",
-    "The Indian team aims to perform well and represent the country in the competition."
-   ],
-   "closing": "India's participation in esports at the Asian Games marks a new milestone for the country's gaming community."
-  },
-  "front_cat": "sports_historic",
-  "image_query": "League of Legends esports team India",
-  "person_en": "Akshaj Shenoy",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "1f49ddb1e9cf",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-18T03:35+05:30",
-  "links": [
-   "https://www.thehindu.com/sport/asian-games-2026-gamer-akshaj-shenoy-on-leading-india-for-league-of-legends-esports/article71455476.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/1f49ddb1e9cf.mp3",
-  "created_ts": 1789682734.6232588,
-  "status": "published"
- },
- {
-  "headline": "பயங்கரவாதிகளுக்கு பாகிஸ்தான் ஆதரவு: ஐ.நா.வில் இந்தியா குற்றச்சாட்டு",
-  "lines": [
-   "ஐக்கிய நாடுகள் அவையில் பாகிஸ்தான் மீது இந்தியா கடும் குற்றச்சாட்டு முன்வைத்துள்ளது.",
-   "பயங்கரவாத அமைப்புகளுக்கு பாகிஸ்தான் தொடர்ந்து ஆதரவு அளிப்பதாக இந்தியா தெரிவித்துள்ளது.",
-   "இந்தக் குற்றச்சாட்டை இந்தியா ஐ.நா. மேடையில் அதிகாரப்பூர்வமாக முன்வைத்துள்ளது.",
-   "இதற்கு பாகிஸ்தான் தரப்பில் இதுவரை பதில் எதுவும் வெளியாகவில்லை.",
-   "இருநாடுகளுக்கும் இடையே பயங்கரவாதம் தொடர்பான பிரச்சினை நீண்டகாலமாக விவாதப் பொருளாக உள்ளது."
-  ],
-  "closing": "இந்தியா, பாகிஸ்தான் இடையேயான பயங்கரவாதம் தொடர்பான குற்றச்சாட்டு விவகாரம் பல ஆண்டுகளாக ஐ.நா. மேடைகளில் தொடர்ந்து எழுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani India",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "இந்தியா",
-   "பாகிஸ்தான்",
-   "ஐக்கிய நாடுகள் அவை"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "India accuses Pakistan of backing terror groups at UN",
-   "lines": [
-    "India has raised a strong accusation against Pakistan at the United Nations.",
-    "India stated that Pakistan continues to support terrorist organisations.",
-    "India officially placed this accusation before the UN platform.",
-    "Pakistan has not yet issued any official response to the claim.",
-    "The issue of terrorism between the two countries has long remained a subject of debate."
-   ],
-   "closing": "The dispute over terrorism-related accusations between India and Pakistan has continued to surface at UN platforms for many years."
-  },
-  "id": "c38261879751",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-09-18T03:35+05:30",
-  "links": [
-   "https://www.dinamani.com/india/2026/Sep/17/pakistan-continues-to-support-terrorist-organizations-indias-accusation-at-the-un"
-  ],
-  "image": null,
-  "audio": "data/audio/c38261879751.mp3",
-  "created_ts": 1789682712.1327317,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "இந்திய ரிசர்வ் வங்கி 25,000 கோடி மதிப்பில் அரசுப் பத்திரங்கள் விற்பனை",
-  "lines": [
-   "இந்திய ரிசர்வ் வங்கி, செப்டம்பர் இருபத்தி ஒன்றாம் தேதி அரசுப் பத்திரங்களுக்கான திறந்த சந்தை விற்பனை ஏலத்தை நடத்தவுள்ளதாக அறிவித்துள்ளது.",
-   "இந்த ஏலத்தின் மூலம் மொத்தம் இருபத்தி ஐந்தாயிரம் கோடி ரூபாய் மதிப்பிலான ஆறு வகையான அரசுப் பத்திரங்கள் விற்பனைக்கு வைக்கப்படும்.",
-   "இந்த அறிவிப்பு செப்டம்பர் பதினொன்றாம் தேதி வெளியிடப்பட்ட செய்தி வெளியீட்டின் அடிப்படையில் மேற்கொள்ளப்படுவதாக இந்திய ரிசர்வ் வங்கி தெரிவித்துள்ளது.",
-   "இந்தப் பத்திரங்களின் முதிர்வுத் தேதிகள் இரண்டாயிரத்து இருபத்தி ஏழு முதல் இரண்டாயிரத்து முப்பத்தி இரண்டு வரை பரவியுள்ளன, ஒவ்வொன்றுக்கும் தனித் தொகை அறிவிக்கப்படவில்லை.",
-   "தனிப்பட்ட பத்திரங்களுக்கான விற்பனை அளவை முடிவு செய்யவும், போதுமான ஏலங்கள் இல்லாவிட்டால் குறைவாக ஏற்கவும் இந்திய ரிசர்வ் வங்கிக்கு உரிமை உள்ளது."
-  ],
-  "closing": "இந்த வகையான திறந்த சந்தை நடவடிக்கைகள், சந்தையில் உள்ள பணப் புழக்கத்தை சீரமைக்க இந்திய ரிசர்வ் வங்கியால் அவ்வப்போது மேற்கொள்ளப்படுகின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "RBI",
-    "doc": "Press Release 2026-27/1106",
-    "date": "2026-09-11"
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "இந்திய ரிசர்வ் வங்கி",
-   "அரசுப் பத்திரங்கள்",
-   "திறந்த சந்தை நடவடிக்கை"
-  ],
-  "confidence": 0.9,
-  "en": {
-   "headline": "RBI to Sell Government Securities Worth Rs. 25,000 Crore",
-   "lines": [
-    "The Reserve Bank of India has announced it will conduct an open market sale auction of government securities on September 21.",
-    "Through this auction, six types of government securities worth a total of Rs. 25,000 crore will be put up for sale.",
-    "The RBI stated that this announcement is being made based on the press release issued on September 11.",
-    "The maturity dates of these securities range from 2027 to 2032, with no individual amounts specified for each.",
-    "The RBI reserves the right to decide the sale amount for individual securities and to accept less if there are insufficient bids."
-   ],
-   "closing": "Such open market operations are periodically undertaken by the Reserve Bank of India to regulate liquidity in the market.",
-   "closing_type": "background"
-  },
-  "id": "7438e94fb17d",
-  "flags": [],
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-09-18T03:04+05:30",
-  "links": [
-   "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63615"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/500px-Seal_of_the_Reserve_Bank_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Reserve Bank of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/7438e94fb17d.mp3",
-  "created_ts": 1789680898.069231,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "துருவ நட்சத்திரம் திரைப்படம் செப்டம்பர் 31க்குள் வெளியாகும்.",
-  "lines": [
-   "துருவ நட்சத்திரம் என்ற திரைப்படம் செப்டம்பர் 31க்குள் பார்வையாளர்களைச் சென்றடையும் என இயக்குநர் கௌதம் வாசுதேவ் மேனன் சென்னை உயர்நீதிமன்றத்தில் தெரிவித்தார்.",
-   "நடிகர் விக்ரமுக்கு செலுத்த வேண்டிய ₹10.57 கோடி பணம் வழங்கப்பட்டதற்கான ஆவணங்களை நீதிமன்றத்தில் சமர்ப்பிக்குமாறு இயக்குநருக்கு உத்தரவிடப்பட்டது.",
-   "நீதிபதி செந்தில்குமார் ராமமூர்த்தி திரைப்படம் வெளியீட்டிற்கான கால அவகாசத்தை நீட்டித்துள்ளார்.",
-   "திரைப்படம் வெளியீடு தொடர்பான நடவடிக்கைகள் நீதிமன்றத்தின் மேற்பார்வையில் நடைபெற்று வருகின்றன.",
-   "நடிகர் விக்ரம் இந்தத் திரைப்படத்திற்காக நிர்ணயிக்கப்பட்ட பணத்தை பெற்றதற்கான ஆதாரத்தை சமர்ப்பித்த பிறகு நீதிமன்றம் திரைப்படத்தின் வெளியீட்டு தேதி குறித்து இறுதி முடிவை அறிவிக்கும்."
-  ],
-  "closing": "இயக்குநர் விற்பனை ஒப்பந்தத்தின் விவரங்களை நீதிமன்றத்தில் சமர்ப்பித்து திரைப்படத்தை முன்கூட்டியே வெளியிடக்கூடும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu Cinema",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "cinema",
-  "entities": [
-   "ധ്രുവ നക്ഷത്രം",
-   "ഗൌതം വാസുദേവ് മേനോൻ",
-   "നടൻ വിക്രം",
-   "മദ്രാസ് ഉച്ചനീതിമർദ്ദം"
-  ],
-  "confidence": 0.78,
-  "en": {
-   "headline": "Dhruva Natchathiram to be released before October 31, Gautham Menon tells High Court",
-   "lines": [
-    "Director Gautham Vasudev Menon informed Madras High Court that the film Dhruva Natchathiram will be released to audiences before October 31.",
-    "The court directed the filmmaker to submit records proving payment of ₹10.57 crore owed to actor Vikram.",
-    "Justice Senthilkumar Ramamoorthy granted additional time for the film's release process.",
-    "The film's release proceedings are being monitored by the court.",
-    "After the director submits proof of payment to actor Vikram, the court will issue a final directive on the release date."
-   ],
-   "closing": "The director may achieve an earlier release of the film by submitting details of the sales agreement to the court."
-  },
-  "front_cat": "cinema_culture",
-  "image_query": "Gautham Menon director",
-  "person_en": "Gautham Menon",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "68155af496b2",
-  "topic_ta": "சினிமா",
-  "published_at": "2026-09-18T03:03+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/investor-finalised-to-get-dhruva-natchathiram-released-before-oct-31-gautham-vasudev-menon-tells-madras-high-court/article71475414.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Gautham_Menon_at_Dhuruvangal_Pathinaaru_Success_Meet_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Gautham Vasudev Menon",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Gautham_Vasudev_Menon"
-  },
-  "audio": "data/audio/68155af496b2.mp3",
-  "created_ts": 1789680836.8457105,
-  "status": "published"
- },
- {
-  "headline": "UPI பரிவர்த்தனைக்கு கட்டணம் விதிக்கும் திட்டம் குறித்து ஆலோசனை",
-  "lines": [
-   "இணையவழி உடனடி பணப் பரிமாற்ற முறையான UPI-க்கு வணிகர் கழிவுத் தொகை எனப்படும் MDR கட்டணம் விதிக்கும் புதிய கட்டமைப்பு குறித்து தொழில்துறையில் விவாதம் நடைபெறுகிறது.",
-   "இந்தக் கட்டமைப்பு நீண்ட காலத்திற்கு டிஜிட்டல் பணப் பரிவர்த்தனை முறையை நிலைத்து நடத்த உதவும் என தொழில்துறை சாராரின் கருத்தாக தெரிவிக்கப்பட்டுள்ளது.",
-   "தற்போது UPI மூலம் பணம் அனுப்புவோர் மற்றும் பெறுவோர் இருவருக்கும் எந்தக் கட்டணமும் இல்லாமல் இந்த சேவை இயங்கி வருகிறது.",
-   "புதிய கட்டமைப்பின் கீழ் யார் கட்டணம் செலுத்த வேண்டும், எவ்வளவு தொகை செலுத்த வேண்டும் என்பது தொடர்பான விவரங்கள் இதுவரை தெளிவுபடுத்தப்படவில்லை.",
-   "இது தொடர்பான இறுதி முடிவு மற்றும் அமலுக்கு வரும் தேதி குறித்த அதிகாரப்பூர்வ அறிவிப்பு இன்னும் வெளியிடப்படவில்லை."
-  ],
-  "closing": "UPI கட்டணம் அமலுக்கு வந்தால் அது சாதாரண பயனர்களையும் பாதிக்குமா என்பது இன்னும் தெளிவாகத் தெரியவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tech",
-  "entities": [
-   "UPI",
-   "MDR கட்டணம்",
-   "டிஜிட்டல் பணப் பரிவர்த்தனை",
-   "தொழில்துறை"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "New Framework Proposed to Levy Fee on UPI Transactions",
-   "lines": [
-    "A new framework to impose a Merchant Discount Rate (MDR) fee on the instant digital payment system UPI is under discussion within the industry.",
-    "Industry representatives have stated that this framework will support the long-term sustainability of the digital payment system.",
-    "Currently, UPI transactions operate without any charge to either the sender or the recipient of funds.",
-    "Details on who will be required to pay the fee under the new framework and how much has not yet been clarified.",
-    "An official announcement on the final decision and the date of implementation has not yet been issued."
-   ],
-   "closing": "It remains unclear whether ordinary UPI users will also be affected once such a fee comes into effect."
-  },
-  "front_cat": "price_policy",
-  "image_query": "UPI digital payment India",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "a5a124afa738",
-  "topic_ta": "தொழில்நுட்பம்",
-  "published_at": "2026-09-18T03:03+05:30",
-  "links": [
-   "https://www.dinamani.com/web-only/2026/Sep/17/upi-payments-who-needs-to-pay-how-much-full-details"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Flag_of_South_Upi%2C_Maguindanao.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா Commons · Municipal Government of South Upi",
-   "license": "Public domain",
-   "symbolic": true
-  },
-  "audio": "data/audio/a5a124afa738.mp3",
-  "created_ts": 1789680789.3071303,
   "status": "published"
  }
 ]
