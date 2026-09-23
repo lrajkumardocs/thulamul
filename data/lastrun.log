@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 24 புதியவை
+[fetch] ET Markets: 23 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 12 புதியவை
 [fetch] Dinamani TN: 12 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 19 புதியவை
+[fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 25 புதியவை
 [fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 27 புதியவை
 [fetch] Wired: 26 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 4 புதியவை
-[fetch] FreeJobAlert: 19 புதியவை
+[fetch] FreeJobAlert: 12 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,20 +28,20 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 7 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 17 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 26 புதியவை
+[fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 18 புதியவை
+[fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 9 புதியவை
 [fetch] The Hindu National: 17 புதியவை
 [fetch] NDTV India: 7 புதியவை
-[fetch] India Today: 18 புதியவை
+[fetch] India Today: 17 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 26 புதியவை
+[fetch] Dinamani India: 23 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fdb81ca8b50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7efd90c010d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 17 புதியவை
 [fetch] Dinamani Govt: 12 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -67,28 +67,18 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 588 → நிகழ்வுகள் 553
+[run] புதியவை 564 → நிகழ்வுகள் 534
 [triage] சேமித்த மதிப்பெண் (538) — புதிய அழைப்பு இல்லை
-[triage] 553 → 44 | காலி: crime:2, jobs:2, cinema:2, assembly:2, economy:1
-[skip] செய்தியின் உள்ளடக்கம் முழுவதும் கிடைக்கவில்லை — தலைப்பு மட்ட
-[skip] வெளிநாட்டுக் நிறுவனத்தின் பொதுவான கொள்கைப் பேச்சு. தமிழ்நாடு
-[skip] இது பிரதமர் அமைச்சர்களுடன் நடத்திய உள்கட்சி சிந்தனை கூட்டம் 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (யார் கூறினார், 
-[திருத்தம்] ஆயுஷ்மான் பாரத் திட்டத்தால் மருத்துவச் ச → ஆயுஷ்மான் பாரத் காப்பீட்டுத் திட்டத்தால்
-[tts-edge] fe03346f4077: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆயுஷ்மான் பாரத் காப்பீட்டுத் திட்டத்தால் மருத்துவச் செலவு குறைந்தது- பிரதமர் மோடி
-[தரம்] தமிழ் அல்லாத எழுத்து: ে → ஒரு திருத்தம்
-[tts-edge] a5fa0d7fa2c1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] டிசம்பர் மாதம் கனடா செல்லலாம் பிரதமர் மோடி, மார்க் கார்னி தகவல்
-[publish] ஈஎஸ்ஐசி மருத்துவ அதிகாரி பணியிடங்களுக்கு விண்ணப்பிக்க அழைப்பு
-[skip] இது மத்திய பிரதேச மாநில அரசுப் பணியாளர் தேர்வாணையத்தின் (MPP
+[triage] 534 → 47 | காலி: crime:2, cinema:2, assembly:2, economy:1, jobs:1
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 260 history-sheeters sent to judicial custody af
-[skip] കേരളത്തിലെ നടിയുടെ മരണം — തമിഴ്നാട്ടുമായി നേരിട്ടുള്ള സമ്പര്
+[skip] விமர்சனச் செய்தி — திரை விமர்சனம் இப்பக்கத்தில் கூடாது; வாரம
+[skip] உத்தர பிரதேশ மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. தமி
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: CPCL looking to be a part of the renewable energ
-[skip] தலைப்பு மற்றும் உள்ளடக்கம் கணேஷன் பற்றிய மீள்பார்வை / விமர்ச
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இச்செய்தி சினிமா வகைக்குப் பொருந்தாது. ஆவணசித்திரம் (documen
+[tts-edge] 7d2111eb7e4e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நான்கு நாள் உயர்வுக்குப் பின் ரூபாய் மதிப்பு தொண்ணூற்று ஐந்து புள்ளி எழுபத்து நான்குக்கு சரிவு
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13659 · சென்செக்ஸ் 74828
 [weather] புதுப்பிக்கப்பட்டது
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 3
+[done] feed 300 · pending 0 · எழுதியவை 1
