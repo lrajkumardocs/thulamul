@@ -2,7 +2,7 @@
 [fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 15 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
+[fetch] Dinamani TN: 21 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 21 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 4 புதியவை
-[fetch] FreeJobAlert: 26 புதியவை
+[fetch] FreeJobAlert: 25 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,17 +28,17 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 28 புதியவை
-[fetch] The Hindu Legal: 21 புதியவை
+[fetch] Bar and Bench: 30 புதியவை
+[fetch] The Hindu Legal: 18 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 19 புதியவை
-[fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 21 புதியவை
-[fetch] NDTV India: 19 புதியவை
-[fetch] India Today: 20 புதியவை
+[fetch] TechCrunch: 18 புதியவை
+[fetch] The Verge: 9 புதியவை
+[fetch] The Hindu National: 18 புதியவை
+[fetch] NDTV India: 14 புதியவை
+[fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f170a8bead0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 21 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1a8647f190>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 18 புதியவை
+[fetch] Dinamani Govt: 21 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,59 +67,54 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 693 → நிகழ்வுகள் 650
+[run] புதியவை 663 → நிகழ்வுகள் 624
 [triage] சேமித்த மதிப்பெண் (618) — புதிய அழைப்பு இல்லை
-[triage] 650 → 101 | காலி: crime:4, tn:3, jobs:3, india:2, economy:2
-[skip] UPSC Senior Veterinary Officer தெரிவு செயல்முறை இந்திய அளவில
-[skip] வெளிநாட்டு நிறுவனத்தின் நிதிப் பெறுதல் — தமிழ்நாடு/இந்திய தொ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfLyFyU7BEQ419owAsXVf'}
-[skip] இது மேற்கு வங்க பகுதியில் நடந்த உள்ளூர் யானைக் காப்பாற்றும் 
-[skip] கேரள மாநிலம் நிலம்பூரில் நடந்த உள்ளூர் அரசியல் நிகழ்வு; தமிழ
-[skip] இது ஆந்திரப் பிரதேசத்தின் உள்ளூர் மழை எச்சரிக்கை செய்தி, தமி
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[triage] 624 → 81 | காலி: tn:3, crime:3, jobs:3, india:2, economy:2
+[திருத்தம்] RRB NTPC விடைக்குறிப்பு வெளியீடு, ஆட்சேப → RRB NTPC விடைக்குறிப்பு வெளியீடு, ஆட்சேப
+[தரம்] தமிழ் அல்லாத எழுத்து: क → ஒரு திருத்தம்
+[tts-edge] 07a23c143cfa: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] RRB NTPC விடைக்குறிப்பு வெளியீடு, ஆட்சேபணை சமர்பிக்க நேரம்
+[tts-edge] 9ad5e543871d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] டெங்கு பரவலைத் தடுக்கத் தவறியதாக பழனிசாமி குற்றச்சாட்டு
+[skip] இது ஹரியானா மாநிலத்தின் உள்ளூர் அரசியல் செய்தி; தமிழ்நாட்டுட
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man tied to pole and thrashed for stealing bike 
-[திருத்தம்] தీஸ்தா ஆற்றில் அலைந்த யானைக் குட்டி மீட் → தீஸ்தா ஆற்றில் அலைந்த யானைக் குட்டி மீட்
-[tts-edge] 2d251076d727: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தீஸ்தா ஆற்றில் அலைந்த யானைக் குட்டி மீட்கப்பட்டு தாயுடன் மீண்டும் இணைந்தது
+[skip] இது அமெரிக்க பங்குச் சந்தை பற்றிய வழக்கமான செய்தி; தமிழ்நாடு
+[skip] IPL auction is not about Tamil Nadu teams or players, and Ta
+[skip] இது தில்லி நீதிமன்றத்தின் உள்ளூர் நடைமுறை நிலை புகார் தொடர்ப
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfM15d2Vom2487G4awdse'}
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Terek sandpiper spotted at Pallikaranai; bird ta
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] கேரளத்தில் நடந்த வெள்ளப் பேரிடர்ப் பாதிக்கப்பட்டவர்களுடன் பி
-[skip] வெளிநாட்டு தயாரிப்பு (Meta) அறிவிப்பு — தமிழ்நாடு/இந்தியா தொ
+[skip] இது பஞ்சாப் மாநிலத்தின் உள்ளூர் அரசியல் மோதல் தொடர்பான செய்த
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfM193eR2W661pCkvsZ7v'}
+[publish] பள்ளிக் கல்வித் துறை இணை இயக்குநர் மீது ரூ.100 கோடி மோசடி புகார்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Traffic experiment backfires, OMR chokes; police
-[திருத்தம்] மருத்துவமனை வருவோர் முகக்கவசம் அணிய வேண் → மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அண
-[tts-edge] 52fa325ea908: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அணிய வேண்டும்: சுகாதாரத் துறை அறிவுறுத்தல்
-[skip] Srikakulam is in Andhra Pradesh, not Tamil Nadu. This is a l
+[skip] மேற்கு வங்க நந்திகிராம் இடைத்தேர்தல் தொடர்பான உள்ளூர் அரசியல
+[திருத்தம்] ஐஐடி நிறுவனங்களில் பாகுபாடற்ற நிலை வேண்ட → ஐஐடி கல்வி நிறுவனங்களில் பாகுபாடற்ற நிலை
+[publish] ஐஐடி கல்வி நிறுவனங்களில் பாகுபாடற்ற நிலை வேண்டும்: மாணிக்கம் தாகூர்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Jana Nayagan leak: HC quashes detention of film 
-[திருத்தம்] 'ஜனநாயகன்' படப் பிரச்சினையில் கைதானவர் ம → 'ஜனநாயகன்' திரைப்படப் பிரச்சினையில் கைதா
-[publish] 'ஜனநாயகன்' திரைப்படப் பிரச்சினையில் கைதானவர் மீதான குண்டர் சட்ட நடவடிக்கை ரத்து
-[skip] இது உத்தரப்பிரதேச மாநிலத்தின் உள்ளூர் உயர்நீதிமன்ற வழக்கு, த
-[திருத்தம்] பொங்கல் பண்டிகை பட்ടு வேட்டி சேலை உற்பத் → பொங்கல் பண்டிகைக்கான வேட்டி-சேலை உற்பத்த
-[தரம்] தமிழ் அல்லாத எழுத்து: धयिতিప → ஒரு திருத்தம்
-[publish] பொங்கல் பண்டிகைக்கான வேட்டி-சேலை உற்பத்தி டிசம்பருக்குள் முடிக்க அமைச்சர் உத்தரவு
+[publish] வாக்காளர் பட்டியல் குறைபாடு குறித்து தேர்தல் ஆணையத்தை சாடிய சிங்வி
+[திருத்தம்] பெண் ஊழியர் மாதவிடாய் விடுப்பு விதிக்கு  → பெண் ஊழியர்களுக்கான மாதவிடாய் விடுப்பு வ
+[publish] பெண் ஊழியர்களுக்கான மாதவிடாய் விடுப்பு விதிக்கு 13 பேர் கொண்ட குழு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Ten school students injured in van collision
-[திருத்தம்] சொத்து வரி உயர்வு வழக்கு: மூன்று மாநகராட → சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள்: 
-[publish] சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள்: சென்னை, கோவை, ஈரோடு மாநகராட்சி ஆணையர்கள் ஆஜராக உத்தரவு
-[தரம்] தமிழ் அல்லாத எழுத்து: আইডি; மூலத்தில் இல்லாத எண்: 30 → ஒரு திருத்தம்
-[publish] ஜோஹோ முப்பதாம் ஆண்டு நிறைவில் ஜியா சாட் அறிமுகம், வேம்பு கருத்து.
-[திருத்தம்] மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அண → மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அண
-[தரம்] தமிழ் அல்லாத எழுத்து: ও → ஒரு திருத்தம்
-[நகல்] ஏற்கனவே வெளியானது: மருத்துவமனைகளுக்கு வருவோர் முகக்கவசம் அணிய வேண்டும்: சுகாதார
+[skip] மூலத்தில் போதிய தகவல் இல்லை; ஒரு காணொளிக் காட்சி மட்டுமே விவ
+[திருத்தம்] அரசு தலைமையகங்கள் சென்னையில் மட்டும் இரு → அரசு தலைமையகங்கள் சென்னையிலேயே இருக்க வே
+[publish] அரசு தலைமையகங்கள் சென்னையிலேயே இருக்க வேண்டியதில்லை - கார்த்தி சிதம்பரம்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Empty racks greet buyers at Tasmac outlets
-[திருத்தம்] அரசு விடுதி மாணவர்களுக்கு 24 மணி நேர புக → அரசு விடுதி மாணவர்கள் புகார் தெரிவிக்க 2
-[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
-[publish] அரசு விடுதி மாணவர்கள் புகார் தெரிவிக்க 24 மணி நேரக் கட்டுப்பாட்டு அறை
-[publish] ராம் கோயில் நன்கொடை திருட்டு வழக்கில் குற்றப்பத்திரிகை தாக்கல்
-[skip] சினிமா/குற்றச் செய்திகளின் கலவை. 'ஜனநாயகன்' படத்துடன் தொடர்ப
+[skip] இது பஞ்சாப் மாநிலத்தின் உள்ளூர்க் கட்சி அரசியல் பிரச்சாரம் த
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Clean school campuses every Wednesday, govt tell
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், தேதி, அமைப்பாளர் போன
-[skip] இது பீகார் மாநிலத்தில் நடந்த உள்ளூர்க் குற்றச் சம்பவம், தமிழ
-[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள்
-[publish] சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள் மூன்று நகரில் நிலுவையில்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfM1YP6MD7UpKfnhbbARM'}
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: First look! T3 integrated terminal at Chennai ai
-[publish] தமிழ்நாட்டில் பொது விநியோகத் திட்ட செயல்பாடுகள் குறித்து அமைச்சர்கள் ஆய்வு
-[market] தங்கம் 22K ₹13654 · சென்செக்ஸ் 74828
+[skip] மூலத்தில் ஒரே ஒரு வரி மட்டுமே உள்ளது; உறுதியான தகவல்கள், எண்
+[skip] மேற்கு வங்காளத்தின் உள்ளூர் சந்தை பிரச்சனை - தமிழ்நாட்டுடன் 
+[publish] வாக்காளர் பட்டியல் திருத்த சர்ச்சை: முன்னாள் தேர்தல் ஆணையர்கள் மீது வல்லுநர்கள் கேள்வி
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] அரக்கோணம் ரேணிகுண்டா இடையே புதிய ரயில் ப → அரக்கோணம்-ரேணிகுண்டா இடையே 3, 4-ஆவது பாத
+[publish] அரக்கோணம்-ரேணிகுண்டா இடையே 3, 4-ஆவது பாதை அமைக்க ரூ.1,936 கோடி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfM1pQBXQuKvNN6E4zSvJ'}
+[skip] இது திரிணமூல் காங்கிரஸ் கட்சியின் உள்ளூர் அரசியல் வழக்கு (மே
+[publish] அமெரிக்கா நூறு சதவீத வரிச் சட்டம்: ரூபியோவிடம் ஜெய்சங்கர் கவலை
+[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13653 · சென்செக்ஸ் 74828
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 10
