@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 23 புதியவை
+[fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 12 புதியவை
+[fetch] Dinamani TN: 13 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 25 புதியவை
 [fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 8 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 27 புதியவை
 [fetch] Wired: 26 புதியவை
@@ -16,14 +16,14 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 4 புதியவை
-[fetch] FreeJobAlert: 12 புதியவை
+[fetch] FreeJobAlert: 11 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 1 புதியவை
+[fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
@@ -56,29 +56,22 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7efd90c010d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f62f3ac9650>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 17 புதியவை
-[fetch] Dinamani Govt: 12 புதியவை
+[fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 20 புதியவை
+[fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 564 → நிகழ்வுகள் 534
+[run] புதியவை 560 → நிகழ்வுகள் 530
 [triage] சேமித்த மதிப்பெண் (538) — புதிய அழைப்பு இல்லை
-[triage] 534 → 47 | காலி: crime:2, cinema:2, assembly:2, economy:1, jobs:1
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 260 history-sheeters sent to judicial custody af
-[skip] விமர்சனச் செய்தி — திரை விமர்சனம் இப்பக்கத்தில் கூடாது; வாரம
-[skip] உத்தர பிரதேশ மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. தமி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: CPCL looking to be a part of the renewable energ
-[skip] இச்செய்தி சினிமா வகைக்குப் பொருந்தாது. ஆவணசித்திரம் (documen
-[tts-edge] 7d2111eb7e4e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நான்கு நாள் உயர்வுக்குப் பின் ரூபாய் மதிப்பு தொண்ணூற்று ஐந்து புள்ளி எழுபத்து நான்குக்கு சரிவு
+[triage] 530 → 52 | காலி: crime:2, cinema:2, assembly:2, jobs:1
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13659 · சென்செக்ஸ் 74828
 [weather] புதுப்பிக்கப்பட்டது
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 1
+[done] feed 300 · pending 0 · எழுதியவை 0
