@@ -1,8 +1,8 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 22 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 26 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
@@ -11,7 +11,7 @@
 [fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 27 புதியவை
-[fetch] Wired: 26 புதியவை
+[fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 17 புதியவை
@@ -23,7 +23,7 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f99320ddc50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7eff74b0d4d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,11 +67,40 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 752 → நிகழ்வுகள் 698
-[triage] 698 → 59 | காலி: world:2, jobs:2, assembly:2
-[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: செப். 28 முதல் 3 நாள் வங்கி வேலைநிறுத்
-[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13673 · சென்செக்ஸ் 74828
+[run] புதியவை 752 → நிகழ்வுகள் 700
+[triage] சேமித்த மதிப்பெண் (618) — புதிய அழைப்பு இல்லை
+[triage] 700 → 69 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[திருத்தம்] ஆசிய விளையாட்டுகளில் இந்திய மகளிர் பேட்ம → ஆசிய விளையாட்டுகளில் இந்திய ஆண் பேட்மிண்
+[tts-edge] 144b11ec05f3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆசிய விளையாட்டுகளில் இந்திய ஆண் பேட்மிண்டன் வெண்கலப் பதக்கம்
+[skip] இது டெல்லி உயர் நீதிமன்றத்தின் ஒரு சிறிய, உள்ளூர் நடைமுறைச் 
+[skip] குஜராத் (GPSC) மற்றும் மத்தியப் பிரதேசம் (MPPSC) அரசுகளின் உ
+[tts-edge] c0a8c4722ce5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] உணவுப் பொதியல்களில் ஊட்டச்சத்திப் பெயரிடல் விதிமுறை வரும் நாலு மாதத்தில்
+[திருத்தம்] தனுஷின் 'ஓம்' திரைப்படம் ஜனவரிக்கு தள்ளி → தனுஷின் 'ஓம்' திரைப்படம் தள்ளிவைக்கப்பட்
+[publish] தனுஷின் 'ஓம்' திரைப்படம் தள்ளிவைக்கப்பட்டது
+[skip] வெளிநாட்டுக் கருவிகளின் ஆய்வு செய்தி. தமிழ்நாடு/இந்தியா வாசக
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfLtngShZeHv8E9shHa46'}
+[publish] தென்னாப்பிரிக்காவில் துப்பாக்கிச் சூடு பதினொரு பேர் பலி
+[திருத்தம்] தலைமை தேர்தல் அதிகாரி ராஜினாமா கோரி ஸ்டா → தலைமை தேர்தல் ஆணையர் ராஜினாமா கோரி ஸ்டால
+[publish] தலைமை தேர்தல் ஆணையர் ராஜினாமா கோரி ஸ்டாலின் கோரிக்கை
+[publish] இலங்கை ஈஸ்டர் தாக்குதல் வழக்கில் 15 பேருக்கு நீண்ட சிறைத் தண்டனை
+[publish] வாஷிங்டனுக்கு ஷி ஜின்பிங் வருகை, வரலாற்று சந்திப்புக்கு வெள்ளை மாளிகை தயார்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfLu5tetwemj8HY44iE74'}
+[publish] போலந்து வான்பரப்பில் 42 வினாடிகள் ரஷ்ய ஹெலிகாப்டர் ஊடுருவல் குற்றச்சாட்டு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfLuCUDARybzG6jQVopnX'}
+[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்: தென் சூடான் அதிபர் தேர்தலுக்கு முன் அர
+[publish] தென் சூடான் அதிபர் தேர்தலுக்கு முன் அரசாங்கத்தைக் கலைத்தார்
+[publish] லிதுவேனியா பிரதமர் ரஷியா அச்சுறுத்தலுக்கு எதிர்த்துப் போராடத் தயார் என்றும் வெளியேற்றத் திட்டம் உள்ளதாகவும் தெரிவிப்பு
+[comic] கதை: இருள் சூழ் காட்டுப் பாதை
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-24.png · நாள் 17
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹13667 · சென்செக்ஸ் 74828
 [weather] புதுப்பிக்கப்பட்டது
-[image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
