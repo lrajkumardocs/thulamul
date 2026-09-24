@@ -1,5 +1,5 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 25 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 19 புதியவை
 [fetch] Dinamani TN: 13 புதியவை
@@ -7,11 +7,11 @@
 [fetch] BBC World: 19 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 25 புதியவை
-[fetch] The Hindu Sport: 26 புதியவை
+[fetch] The Hindu Sport: 27 புதியவை
 [fetch] The Hindu Cinema: 7 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 27 புதியவை
-[fetch] Wired: 27 புதியவை
+[fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 16 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7feda4eda990>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe3777042d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 27 புதியவை
 [fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -67,17 +67,13 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 606 → நிகழ்வுகள் 566
+[run] புதியவை 608 → நிகழ்வுகள் 569
 [triage] சேமித்த மதிப்பெண் (511) — புதிய அழைப்பு இல்லை
-[triage] 566 → 56 | காலி: crime:2, cinema:2, assembly:2, jobs:1
-[tts-edge] jobs_20260924: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[jobs] தொகுப்பு 5
+[triage] 569 → 66 | காலி: crime:2, cinema:2, assembly:2
 [cartoon] gemini-2.5-flash-image: Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and bi
 [cartoon] gemini-2.0-flash-preview-image-generation: models/gemini-2.0-flash-preview-image-generation is not found for API version v1beta, or is not supported for generateCo
-[tts-edge] jobs_20260924: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13655 · சென்செக்ஸ் 74828
+[market] தங்கம் 22K ₹13642 · சென்செக்ஸ் 74828
 [weather] புதுப்பிக்கப்பட்டது
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 0
