@@ -1,5 +1,69 @@
 [
  {
+  "headline": "காவிரி நீர் தகராறு உச்ச நீதிமன்றில் விசாரணை அக்டோபர் 12க்கு ஒத்திவைப்பு",
+  "lines": [
+   "உச்ச நீதிமன்றில் காவிரி நீர் தகராறு தொடர்பாக தமிழ்நாடு, கர்நாடகா அரசுகளுக்கு இடையே வழக்கு விசாரணைக்கு வந்தது.",
+   "தமிழ்நாடு தமக்கு இருபது டிஎம்சி நீர் பற்றாக்குறை உள்ளதாகக் கூறியது; கர்நாடகா தன் மாநிலத்தில் பல மாவட்டங்கள் வறட்சியை எதிர்கொள்வதாகத் தெரிவித்தது.",
+   "நீதிபதி விக்ரம் நாத் தலைமையிலான அமர்வு முன் ஆஜரான இரு மாநில அரசுகளும், காவிரி நீர் பிரச்சினை தங்களுக்கு மிகவும் உணர்திறன் வாய்ந்த விஷயம் என ஒப்புக்கொண்டன.",
+   "கர்நாடகா தனது பதிலை தாக்கல் செய்ய நீதிமன்றம் ஒரு வார அவகாசம் அளித்தது; அடுத்த விசாரணை அக்டோபர் 12 அன்று நடைபெறும்.",
+   "காவிரி நதி நீர் பங்கீடு தமிழ்நாடு, கர்நாடகா இடையே பல ஆண்டுகளாக நீடிக்கும் சர்ச்சையாக இருந்து வருகிறது."
+  ],
+  "closing": "காவிரி நதி நீர் பங்கீடு தமிழ்நாடு, கர்நாடகா இடையே பல ஆண்டுகளாக நீடிக்கும் சர்ச்சையாக இருந்து வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "தமிழ்நாடு",
+   "கர்நாடகா",
+   "உச்ச நீதிமன்றம்",
+   "நீதிபதி விக்ரம் நாத்",
+   "காவிரி நதி"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Cauvery water dispute: Supreme Court adjourns hearing to October 12",
+   "lines": [
+    "The Supreme Court heard a case involving the Cauvery water dispute between the Tamil Nadu and Karnataka governments.",
+    "Tamil Nadu claimed it faces a shortfall of twenty TMC of water, while Karnataka said several of its districts are facing drought.",
+    "Appearing before a Bench headed by Justice Vikram Nath, both State governments agreed that the Cauvery water issue was a very sensitive matter for them.",
+    "The court heard arguments from both sides but did not issue an immediate ruling.",
+    "The court gave Karnataka a week to file its response, with the next hearing scheduled for October 12."
+   ],
+   "closing": "The sharing of Cauvery river water has remained a long-standing dispute between Tamil Nadu and Karnataka for several years."
+  },
+  "front_cat": "farmer_water",
+  "image_query": "Cauvery river India",
+  "wiki_subject": "Cauvery water dispute",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7926efa37f51",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-09-25T00:36+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/cauvery-water-dispute-in-sc-tamil-nadu-claims-20-tmc-deficit-as-karnataka-says-many-districts-face-drought/article71503693.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Emblem_of_the_Supreme_Court_of_India.svg/1280px-Emblem_of_the_Supreme_Court_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Supreme Court of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Supreme_Court_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/7926efa37f51.mp3",
+  "created_ts": 1790276824.457617,
+  "status": "published"
+ },
+ {
   "headline": "சொத்து வரி உயர்வுக்கு எதிரான வழக்குகள்: சென்னை, கோவை, ஈரோடு மாநகராட்சி ஆணையர்கள் ஆஜராக உத்தரவு",
   "lines": [
    "சொத்து வரி உயர்வுக்கு எதிராக தாக்கல் செய்யப்பட்ட வழக்குகளை நீதிமன்றம் விசாரணைக்கு எடுத்துக்கொண்டது.",
@@ -1586,42 +1650,5 @@
   "audio": "data/audio/4d47e1a04238.mp3",
   "created_ts": 1789762393.227424,
   "status": "published"
- },
- {
-  "id": "art_court_20260919",
-  "headline": "சாதாரண மக்களுக்கான அடிப்படை சட்ட அறிவு",
-  "lines": [
-   "இந்திய அரசியலமைப்பின் பிரிவு 21ன் கீழ் வாழ்வுரிமையும் சுதந்திரமும் ஒவ்வொரு குடிமகனுக்கும் அடிப்படை உரிமையாக உள்ளது.",
-   "நுகர்வோர் பாதுகாப்புச் சட்டம் 2019ன் கீழ், பொருள் அல்லது சேவையில் குறைபாடு ஏற்பட்டால் நுகர்வோர் ஆணையத்தில் இழப்பீடு கோரலாம்.",
-   "தகவல் அறியும் உரிமைச் சட்டம் (RTI) 2005ன் மூலம் அரசு அலுவலகங்களில் இருந்து குடிமகன் எந்தத் தகவலையும் விண்ணப்பம் மூலம் பெறலாம்.",
-   "தொழிலாளர் சட்டங்களின் கீழ் ஊதியம், வேலை நேரம், பாதுகாப்பு ஆகியவை உறுதி செய்யப்பட வேண்டும் என தொழிலாளர் உரிமைச் சட்டங்கள் வலியுறுத்துகின்றன.",
-   "சட்ட சேவைகள் ஆணையச் சட்டம் 1987ன் கீழ், வருமானம் குறைந்தவர்களுக்கு நீதிமன்றங்களில் இலவச சட்ட உதவி பெறும் வசதி உள்ளது."
-  ],
-  "closing": "தங்கள் உரிமைகளை அறிந்து செயல்படுவதே சிறந்த பாதுகாப்பு.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "துலாமுள் தொகுப்பு",
-    "doc": null,
-    "date": "2026-09-19"
-   }
-  ],
-  "topic": "court",
-  "topic_ta": "நீதிமன்றம்",
-  "entities": [
-   "சட்ட",
-   "உரிமைகள்"
-  ],
-  "confidence": 0.9,
-  "flags": [],
-  "front_cat": "routine",
-  "urgent": false,
-  "affected": "",
-  "kind": "article",
-  "image": null,
-  "status": "published",
-  "published_at": "2026-09-19T01:07+05:30",
-  "created_ts": 1789760308.6958354,
-  "audio": "data/audio/art_court_20260919.mp3"
  }
 ]

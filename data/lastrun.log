@@ -14,7 +14,7 @@
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 20 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
 [fetch] The Hindu Agriculture: 3 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -24,11 +24,11 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 1 புதியவை
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 9 புதியவை
+[fetch] Bar and Bench: 6 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0bdb7d47d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7f83122550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,15 +65,61 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 29 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 761 → நிகழ்வுகள் 690
+[run] புதியவை 759 → நிகழ்வுகள் 688
 [triage] சேமித்த மதிப்பெண் (619) — புதிய அழைப்பு இல்லை
-[triage] 690 → 123 | காலி: crime:2, cinema:2, assembly:2
-[cartoon] gemini-2.5-flash-image: Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and bi
-[cartoon] gemini-2.0-flash-preview-image-generation: models/gemini-2.0-flash-preview-image-generation is not found for API version v1beta, or is not supported for generateCo
+[triage] 688 → 180 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இங்கிலாந்து county cricket — வெளிநாட்டு உள்நாட்டுத் தொடர். த
+[skip] இது திரைவிமர்சனம். தமிழ் செய்தியாக எழுத முடியாது — இப்பக்கத்
+[skip] இது மகாராஷ்டிரா தொடர்பான வாக்காளர் பட்டியல் நீக்கம் குறித்த 
+[skip] ACTREC என்பது முழுவதுமாக மும்பையில் அமைந்த மத்திய அரசு நிறுவ
+[திருத்தம்] பனீர் தயாரிப்பில் பால் மட்டும் பயன்படுத் → பனீர் தயாரிப்பில் பால் மட்டுமே பயன்படுத்
+[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
+[tts-edge] a8c8bcebc549: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பனீர் தயாரிப்பில் பால் மட்டுமே பயன்படுத்தக் கூடும் என FSSAI முன்மொழிவு
+[skip] வெளிநாட்டு விஞ்ஞான ஆய்வு — இந்தியா அல்லது தமிழ்நாட்டுச் செய்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfNnafhXqM5PoNnkjWCNf'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfNndrkP7nnBfe8d1DnE8'}
+[tts-edge] 7926efa37f51: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காவிரி நீர் தகராறு உச்ச நீதிமன்றில் விசாரணை அக்டோபர் 12க்கு ஒத்திவைப்பு
+[skip] இந்திய உள்ளூர் அரசியல் — ராகுல் காந்தி மற்றும் பாஜக இடையிலான
+[skip] தமிழ்நாட்டுக்கு நேரடித் தாக்கம் இல்லாத இந்திய அரசு உள்ளிடக் 
+[skip] இந்தியாவின் உள்நாட்டு அரசாங்கக் கட்டமைப்பின் அலுவலகத் முரண்ப
+[skip] இந்தியாவின் மத்திய தேர்தல் ஆணையர் குறித்த செய்தி — தமிழ்நாட்
+[skip] பிற நாட்டின் உள்நாட்டு அரசியல் — தமிழ்நாட்டு வாசகருக்குப் பொ
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] தேர்தல் முறைகேடு குற்றச்சாட்டு: தலைமை தேர்தல் ஆணையர் ராஜினாமா செய்ய வேண்டும் என ராகுல் காந்தி கோரிக்கை
+[publish] ஆசிய விளையாட்டுப் போட்டி ஆறாம் நாளில் இந்தியாவுக்கு பல பதக்கங்கள்
+[skip] இவை UEFA நேஷன்ஸ் லீக் போட்டிகளுக்கான ஒளிபரப்பு நேர அட்டவணைச்
+[skip] மூலங்களில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் அல்ல
+[திருத்தம்] அண்ணா பல்கலைக்கழகம், போயிங் இந்தியா இணைந → அண்ணா பல்கலைக்கழகம், போயிங் இந்தியா இணைந
+[தரம்] தமிழ் அல்லாத எழுத்து: ल → ஒரு திருத்தம்
+[publish] அண்ணா பல்கலைக்கழகம், போயிங் இந்தியா இணைந்து ஜ்வலனத் தன்மை ஆய்வகம் நிறுவ
+[skip] இது ஆந்திரப் பல்கலைக்கழகத்தின் NSS நடவடிக்கைகள் தொடர்பான உள்
+[skip] இது தெலங்காணா மாநிலத்தின் உள்ளூர் அரசியல் சம்பவம் (முதல்வரின
+[publish] வீரமணி பாக்சோ வழக்கில் இரு மூத்த ஐபிஎஸ் அதிகாரிகள் பதவி நீக்கம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை - உண்மைத் 
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது ஹைதராபாத் நகரின் உள்ளூர் போக்குவரத்து ஏற்பாடு தொடர்பான ச
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Veeramani POCSO case: Two senior IPS officers re
+[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் சிறைச் சம்பவம் - தமிழ்நாட்
+[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் மின் உற்பத்தி நிலையம் தொடர
+[skip] ஆந்திரப் பிரதேசத்தில் உள்ளூர் பல்கலைக்கழக மாணவர் போராட்டம் —
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[நகல்] ஏற்கனவே வெளியானது: தேர்தல் முறைகேடு குற்றச்சாட்டு: தலைமை தேர்தல் ஆணையர் ராஜினாம
+[திருத்தம்] நொய்டா பேருந்தில் தீ விபத்து, ஒன்பது பேர → நொய়டா பேருந்தில் தீ விபத்து, ஒன்பது பேர
+[தரம்] தமிழ் அல்லாத எழுத்து: ় → ஒரு திருத்தம்
+[publish] நொய்டா பேருந்தில் தீ விபத்து, ஒன்பது பேர் பலி, ஓட்டுநர் நடத்துனர் கைது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfNocT2DD2tegcFTBzYbj'}
+[comic] கதை: மாளிகை வாசலில் கூரிய கண்கள்
+[comic:panel1] gemini-2.5-flash-image: Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and bi
+[comic:panel1] gemini-2.0-flash-preview-image-generation: models/gemini-2.0-flash-preview-image-generation is not found for API version v1beta, or is not supported for generateCo
+[comic] பலகை 1 தோல்வி — அடுத்த ஓட்டத்தில் தொடரும்
+[rasi] ராசிபலன் தயார்
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13638 · சென்செக்ஸ் 73581
+[market] தங்கம் 22K ₹13633 · சென்செக்ஸ் 73581
 [weather] புதுப்பிக்கப்பட்டது
-[image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 7
