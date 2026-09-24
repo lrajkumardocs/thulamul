@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 25 புதியவை
+[fetch] The Hindu TN: 20 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 26 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 29 புதியவை
+[fetch] BBC Tamil: 6 புதியவை
+[fetch] BBC World: 25 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
+[fetch] ESPNcricinfo: 26 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
-[fetch] The Hindu Cinema: 19 புதியவை
+[fetch] The Hindu Cinema: 18 புதியவை
 [fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 28 புதியவை
 [fetch] Wired: 26 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 18 புதியவை
 [fetch] The Hindu Agriculture: 3 புதியவை
-[fetch] FreeJobAlert: 29 புதியவை
+[fetch] FreeJobAlert: 28 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
-[fetch] The Hindu Legal: 15 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 29 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 20 புதியவை
+[fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 15 புதியவை
+[fetch] The Hindu National: 7 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f729e19d450>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 15 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff6f38717d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 7 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,67 +65,15 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
-[fetch] Times Chennai Crime: 19 புதியவை
-[run] புதியவை 685 → நிகழ்வுகள் 639
-[triage] சேமித்த மதிப்பெண் (619) — புதிய அழைப்பு இல்லை
-[triage] 639 → 155 | காலி: tn:5, govt:4, india:3, world:3, economy:3
-[skip] பஞ்சாப் மற்றும் ஹரியாணா உயர் நீதிமன்றத்தின் வேலைவாய்ப்பு அறி
-[skip] ஹிந்தி/உर्दू திரைப்படத் தொழிலில் உள்ள இந்தியக் கலைஞர்; தமிழ்
-[skip] வெளிநாட்டு தொழிற்சாலைத் தயாரிப்பு விளம்பர அறிவிப்பு — TechCr
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfNp23JrWZumH3FonCbq3'}
-[திருத்தம்] பசும்பொன் தேவர் கருத்து வழக்கில் அண்ணாமல → பசும்பொன் முத்துராமலிங்க தேவர் குறித்த க
-[tts-edge] 225bfd41d2bd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பசும்பொன் முத்துராமலிங்க தேவர் குறித்த கருத்துக்கு வழக்கு ரத்து: அண்ணாமலைக்கு உயர்நீதிமன்ற நிவாரணம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfNpAKF2jF5w3QWNNWsnA'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfNpHX6chR5yAi3NdzZTg'}
-[skip] இது ஒரு குறிப்பிட்ட பள்ளியில் நடந்த உள்ளூர் உணவு பாதுகாப்பு 
-[skip] இது கேரளத்தின் கோழிக்கோடு மருத்துவக் கல்லூரியில் நடந்த உள்ளூ
-[tts-edge] 91b506d775a3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] திருப்பத்தூரில் கூர்மையான ஆயுதங்களுடன் ஏழு பேர் கைது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfNpRnp93XvBEBuh7Vkun'}
-[skip] இது தெலங்கானா மாநில அரசின் உள்ளூர் நலத்திட்ட அறிவிப்பு, தமிழ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfNpVBFbdZRck9TA16saU'}
-[skip] இது கர்நாடக மாநிலத்தின் உள்ளூர் குற்ற வழக்கு புதிய விசாரணைக்
-[skip] இது கேரள மாநிலத்தின் கொச்சியில் நடந்த உள்ளூர் போக்குவரத்துச்
-[publish] வோட் திருட்டு குற்றச்சாட்டுக்கு ஆதாரம் இல்லை என பாஜக தலைவர் விமர்சனம்
-[திருத்தம்] கர்நாடகா தமிழகத்திற்கு தினமும் 4,000 கனஅ → கர்நாடகா தமிழ்நாட்டிற்கு தினமும் 4,000 க
-[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
-[publish] கர்நாடகா தமிழ்நாட்டிற்கு தினமும் 4,000 கன அடி நீர் திறக்க உத்தரவு
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் ஊழல் வழக்கு - கொச்சி மாநகராட்சி
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூல உரை முழுமையாக தமிழில் இல்லை; ஆங்கிலத் தலைப்பு மாత்திரமே 
-[skip] இது அமெரிக்க மத்திய வங்கியின் ஒரு பிராந்திய தலைவரின் கருத்து
-[skip] வெস்ட் இண்டீஸ் அணির உள்நாட்டுத் தயாரிப்பு — தமிழ்நாட்டு/இந்த
-[publish] வீரமணி வழக்கில் திமுக ஆட்சி யாரையும் பாதுகாக்கவில்லை என ஸ்டாலின் பதில்
-[திருத்தம்] திருவண்ணாமலை அருணாசலேஸ்வரர் கோயிலுக்கு அ → திருவண்ணாமலை அருணாசலேஸ்வரர் கோயிலுக்கு அ
-[publish] திருவண்ணாமலை அருணாசலேஸ்வரர் கோயிலுக்கு அசாமிலிருந்து எட்டு வயது யானை ஹிரலால்
-[skip] தமிழ்நாட்டின் உள்ளூர் விவசায விவகாரம் — மாவட்ட அளவுத் திட்டம
-[திருத்தம்] ஸ்நாப்டீல் தாய் நிறுவனம் ஏஸ்வெக்டர் நங்க → ஸ்நாப்டீல் தாய் நிறுவனம் ஏஸ்வெக்டர் நங்க
-[தரம்] தமிழ் அல்லாத எழுத்து: চডি → ஒரு திருத்தம்
-[publish] ஸ்நாப்டீல் தாய் நிறுவனம் ஏஸ்வெக்டர் நங்கூர முதலீட்டாளரிடம் நூறு எண்பத்தொன்பது கோடி திரட்டியது
-[skip] பிற மாநிலத்தின் உள்ளூர் ক்রிக்கெட் — இங்கிலாந்து county cric
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: RPF constable pulls 69-year-old passenger to saf
-[skip] வெளிநாட்டு நிறுவனத்தின் தொழில்நுட்ப அறிவிப்பு. தமிழ்நாடு / இ
-[நகல்] ஏற்கனவே வெளியானது: திருவண்ணாமலை அருணாசலேஸ்வரர் கோயிலுக்கு அசாமிலிருந்து எட்டு வ
-[skip] பொருத்தமுடையச் செய்திகளுக்கு அரசு அறிவிப்பு மட்டுமே உள்ளது. 
-[skip] தமிழ்நாட்டுச் சம்பவம் என்றாலும் உலக செய்திக்கான பிரிவுக்குத்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfNpzAxYhEDqa3WDxZMDy'}
-[skip] இங்கிலாந்து county cricket — தமிழ்நாட்டு/இந்திய வாசகரின் அன்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: GCC removes over 2,300 kg of used tyres, unused 
-[skip] வெளிநாட்டுத் தயாரிப்பு அறிவிப்பு. தமிழ்நாடு அல்லது இந்தியாவு
-[publish] பள்ளி உணவில் பல்லி கிடைப்பு, சமையல்காரர்கள் பணி நீக்கம்
-[skip] கேரளாவின் உள்ளூர் மாநிலக் கல்லூரி நிர்வாக விவகாரம் — தமிழ்நா
-[skip] வெளிநாட்டுப் போர்க் குறிப்பு — தமிழ்நாடு/இந்திய வாசகரின் நேர
-[திருத்தம்] கோத்ரேஜ் குடும்பத்தினர் தொள்ளாயிரம் கோடி → கோத்ரேஜ் குடும்பத்தினர் நூறு கோடি ரூபாய்
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[publish] கோத்ரேஜ் குடும்பத்தினர் தொள்ளாயிரம் கோடி ரூபாய்க்கு பங்குகள் கொள்முதல்
-[comic:panel1] gemini-2.5-flash-image: Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and bi
-[comic:panel1] gemini-2.0-flash-preview-image-generation: models/gemini-2.0-flash-preview-image-generation is not found for API version v1beta, or is not supported for generateCo
-[comic] பலகை 1 தோல்வி — அடுத்த ஓட்டத்தில் தொடரும்
-[market] தங்கம் 22K ₹13644 · சென்செக்ஸ் 73581
+[fetch] TN Police News: 24 புதியவை
+[fetch] Times Chennai Crime: 18 புதியவை
+[run] புதியவை 636 → நிகழ்வுகள் 597
+[triage] 597 → 35 | காலி: world:3, govt:3, jobs:3, cinema:3, tn:2
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfNs5MJXAz3eNNHmEVaXx'}
+[skip] ஆங்கிலப் படம், தமிழ்த் திரையுலகத்துடன் தொடர்பு இல்லை. தமிழ்ந
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13649 · சென்செக்ஸ் 73581
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 9
+[done] feed 300 · pending 0 · எழுதியவை 0
