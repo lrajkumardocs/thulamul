@@ -1,7 +1,7 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 12 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
 [fetch] Dinamani TN: 13 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 19 புதியவை
@@ -12,7 +12,7 @@
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 27 புதியவை
 [fetch] Wired: 27 புதியவை
-[fetch] Employment News: 0 புதியவை
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.employmentnews.gov.in', port=443): Failed to resolve 'www.employmentnews.gov.in' ([Errno -5] No address associated with hostname)"))
 [fetch] The Hindu Faith: 2 புதியவை
 [fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 4 புதியவை
@@ -35,7 +35,7 @@
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 17 புதியவை
-[fetch] The Verge: 9 புதியவை
+[fetch] The Verge: 10 புதியவை
 [fetch] The Hindu National: 21 புதியவை
 [fetch] NDTV India: 7 புதியவை
 [fetch] India Today: 17 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f27b58d26d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd899051150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 21 புதியவை
 [fetch] Dinamani Govt: 13 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -67,13 +67,16 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 576 → நிகழ்வுகள் 542
+[run] புதியவை 583 → நிகழ்வுகள் 547
 [triage] சேமித்த மதிப்பெண் (494) — புதிய அழைப்பு இல்லை
-[triage] 542 → 61 | காலி: crime:2, cinema:2, assembly:2, jobs:1
+[triage] 547 → 73 | காலி: crime:2, cinema:2, assembly:2, jobs:1
+[tts-edge] brief_2026-09-24: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[brief] காலை brief தயார்
 [cartoon] gemini-2.5-flash-image: Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and bi
 [cartoon] gemini-2.0-flash-preview-image-generation: models/gemini-2.0-flash-preview-image-generation is not found for API version v1beta, or is not supported for generateCo
 [image] 2 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13671 · சென்செக்ஸ் 74828
+[market] தங்கம் 22K ₹13656 · சென்செக்ஸ் 74828
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 0
