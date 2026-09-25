@@ -1161,24 +1161,114 @@ TOPIC_WORDS = {
 
 
 _BANK = None
+_BANK_FLAT = None
+_BANK_DF = None
+_TA_WORD = re.compile(r"[\u0B80-\u0BFF]+")
 
 
-def bank_image(topic, headline=""):
-    """படக் களஞ்சியத்திலிருந்து அந்தத் துறைக்கு ஒரு படம் (சுழற்சி முறையில்)."""
-    global _BANK
-    if _BANK is None:
-        try:
-            _BANK = json.loads((DATA / "bank_index.json").read_text(encoding="utf-8"))
-        except Exception:
-            _BANK = {}
+def _stems(tag):
+    """தமிழ் வேற்றுமை உருபு சேரும்போது சொல்லின் முடிவு மாறும் —
+    'விபத்து' → 'விபத்தில்', 'திட்டம்' → 'திட்டத்தில்'.
+    அதனால் அடிச்சொல்லையும் சேர்த்துத் தேடு."""
+    out = [tag]
+    if len(tag) >= 5 and tag[-1] in "\u0bc1\u0bc2":        # ு ூ
+        out.append(tag[:-1])
+    elif len(tag) >= 6 and tag.endswith("\u0bae\u0bcd"):    # ம்
+        out.append(tag[:-2])
+    return out
+
+
+def _bank_load():
+    """bank_index.json-ஐ ஒரு முறை ஏற்று, குறிச்சொற்களைத் தயார் செய்."""
+    global _BANK, _BANK_FLAT, _BANK_DF
+    if _BANK is not None:
+        return
+    try:
+        _BANK = json.loads((DATA / "bank_index.json").read_text(encoding="utf-8"))
+    except Exception:
+        _BANK = {}
+    _BANK_FLAT, _BANK_DF = [], {}
+    for t, items in _BANK.items():
+        for it in items:
+            tags = [w for w in str(it.get("tags") or "").split() if len(w) >= 3]
+            for w in set(tags):
+                _BANK_DF[w] = _BANK_DF.get(w, 0) + 1
+            _BANK_FLAT.append((t, it, tags))
+
+
+def _bank_rec(it):
+    return {"url": it["file"], "credit": "துலாமுள் AI ஓவியம்",
+            "license": "சொந்தப் படைப்பு", "symbolic": True, "bank": True}
+
+
+def story_text(story):
+    """தலைப்பு + வரிகள் + முடிவு — படம் தேட."""
+    parts = [str(story.get("headline") or "")]
+    parts += [str(x) for x in (story.get("lines") or [])]
+    parts.append(str(story.get("closing") or ""))
+    return " ".join(parts)
+
+
+def bank_best(topic, text=""):
+    """குறிச்சொல் பொருத்தம் → (படம், மதிப்பெண்).
+
+    விதி 1 — குறிச்சொல் செய்திச் சொல்லின் *தொடக்கமாக* இருக்க வேண்டும்
+      ('கொலை' → 'கொலையில்' ஆம்; 'உதவி' → 'கழிவுநீரை' இல்லை).
+      சொல்லின் நடுவில் தேடினால் பொதுச் சொற்கள் தற்செயலாகப் பொருந்தும்.
+    விதி 2 — அதே துறையில் 2 சொல் பொருந்தினால் போதும்.
+    விதி 3 — வேறு துறையின் படம் எடுக்க, பொருந்திய சொற்களில்
+      குறைந்தது ஒன்று *அரியதாக* (களஞ்சியத்தில் 3 படத்திற்கு மேல்
+      வராத சொல்) இருக்க வேண்டும். 'அரசு', 'திட்டம்', 'பாதுகாப்பு'
+      போன்ற பொதுச் சொற்கள் மட்டும் பொருந்தினால் ஏற்காதே."""
+    _bank_load()
+    words = _TA_WORD.findall(str(text or "")[:800])
+    if not words or not _BANK_FLAT:
+        return None, 0
+
+    def score(tags):
+        n = rare = 0
+        for tg in tags:
+            if any(w.startswith(st) or (len(w) >= 5 and st.startswith(w))
+                   for st in _stems(tg) for w in words):
+                n += 1
+                if _BANK_DF.get(tg, 99) <= 3:
+                    rare += 1
+        return n, rare
+
+    best, bs = None, 0
+    for t, it, tags in _BANK_FLAT:
+        if t != topic:
+            continue
+        n, _r = score(tags)
+        if n > bs:
+            best, bs = it, n
+    if bs >= 2:                        # அதே துறையில் வலுவான பொருத்தம்
+        return _bank_rec(best), bs
+
+    b2, s2 = None, 1                   # வேறு துறை — 2 சொல் + ஒரு அரிய சொல்
+    for t, it, tags in _BANK_FLAT:
+        n, rare = score(tags)
+        if n > s2 and rare >= 1:
+            b2, s2 = it, n
+    if b2 is not None:
+        return _bank_rec(b2), s2
+    if bs >= 1:                        # பலவீனம் — கடைசி வழியாக மட்டும்
+        return _bank_rec(best), bs
+    return None, 0
+
+
+def bank_image(topic, headline="", text=""):
+    """களஞ்சியப் படம் — முதலில் குறிச்சொல், இல்லையேல் நிலையான சுழற்சி."""
+    rec, _ = bank_best(topic, text or headline)
+    if rec:
+        return rec
+    _bank_load()
     items = _BANK.get(topic) or []
     if not items:
         return None
-    # தலைப்பை வைத்து நிலையான தேர்வு — ஒரே செய்திக்கு ஒரே படம்
     k = sum(ord(ch) for ch in str(headline)[:40]) % len(items)
-    it = items[k]
-    return {"url": it["file"], "credit": "துலாமுள் AI ஓவியம்",
-            "license": "சொந்தப் படைப்பு", "symbolic": True, "bank": True}
+    return _bank_rec(items[k])
+
 
 def query_fits(story):
     """image_query / wiki_subject செய்தியின் துறையுடன் பொருந்துகிறதா?
@@ -1196,6 +1286,7 @@ def query_fits(story):
             return False                      # வேறு துறையின் சொல் மட்டும் — பொருந்தாது
     return True
 
+
 def pick_image(c, story=None):
     """படம் — தவறான படத்தைவிட படமே இல்லாதது மேல்."""
     for i in c["items"]:
@@ -1204,9 +1295,14 @@ def pick_image(c, story=None):
             return {"url": u, "credit": i["source"], "license": "அரசு / திறந்த உரிமம்"}
     if not story:
         return None
+
+    topic = story.get("topic") or c.get("topic_hint") or ""
+    txt = story_text(story)
+    bk, bs = bank_best(topic, txt)
+
     if not query_fits(story):
-        print("[image] படத் தேடல் பொருந்தவில்லை — களஞ்சியப் படம்:", str(story.get("headline"))[:38])
-        return bank_image(story.get("topic") or "", story.get("headline"))
+        print("[image] தேடல் பொருந்தவில்லை → களஞ்சியம்:", str(story.get("headline"))[:34])
+        return bk or bank_image(topic, story.get("headline"), txt)
 
     # 1) AI தந்த விக்கிப்பீடியாத் தலைப்பு — மிகத் துல்லியம்
     ws = (story.get("wiki_subject") or "").strip()
@@ -1227,21 +1323,26 @@ def pick_image(c, story=None):
             return im
         return None
 
-    if c.get("topic_hint") == "crime" or story.get("topic") == "crime":
-        return bank_image("crime", story.get("headline")) or stock_image(
-            "", "scales of justice statue")
+    # 2) களஞ்சியத்தில் வலுவான பொருத்தம் (2+ குறிச்சொல்) →
+    #    பொது stock படத்தைவிட இதுவே துல்லியம்
+    if bs >= 2:
+        print(f"[image] களஞ்சியம் ({bs} சொல்):", str(story.get("headline"))[:34])
+        return bk
+
+    if topic == "crime":
+        return bk or bank_image("crime", story.get("headline"), txt)
+
     q = (story.get("image_query") or "").strip()
-    if not q:
-        return None
-    im = commons_image(q)
-    if im and image_matches(im, q):
-        im["symbolic"] = True
-        return im
-    im = stock_image("", q)
-    if im and image_matches(im, q):
-        im["symbolic"] = True
-        return im
-    return bank_image(story.get("topic") or c.get("topic_hint") or "", story.get("headline"))
+    if q:
+        im = commons_image(q)
+        if im and image_matches(im, q):
+            im["symbolic"] = True
+            return im
+        im = stock_image("", q)
+        if im and image_matches(im, q):
+            im["symbolic"] = True
+            return im
+    return bk or bank_image(topic, story.get("headline"), txt)
 
 def telegram(text):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
