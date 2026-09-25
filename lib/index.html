@@ -105,8 +105,10 @@ header.top button{background:rgba(255,255,255,.14);color:#fff;border:1px solid r
   padding:1px 9px;font-size:11px;color:var(--brand)}
 .card p{margin:0 0 7px;font-size:14.5px}
 .card .close{font-style:italic;color:var(--ink2);font-size:13.5px}
-.card img.ph{width:100%;max-height:340px;object-fit:cover;border-radius:8px;
-  margin:4px 0 10px;background:#eee;display:block}
+/* படம் வெட்டப்படக் கூடாது — ஆவணக் காப்பகம், அலங்காரம் அல்ல */
+.card img.ph{width:100%;height:auto;border-radius:8px;margin:4px 0 10px;
+  background:#efece6;display:block;cursor:zoom-in}
+.card img.tall{max-width:760px;margin-left:auto;margin-right:auto}
 .card .cred{font-size:10.5px;color:var(--ink2);margin:-6px 0 10px}
 .card audio{width:100%;margin-top:8px;height:34px}
 .card .src{font-size:11px;color:var(--ink2);margin-top:8px}
@@ -357,7 +359,8 @@ async function openDay(ds){
   if(ed){
     h += `<div class="card feat"><div class="meta"><span class="chip">தராசில் இன்று</span></div>
       <h3>${esc(ed.title)}</h3>
-      ${ed.cartoon_file ? `<img class="ph" loading="lazy" src="${esc(asset(ed.cartoon_file))}" alt="">
+      ${ed.cartoon_file ? `<img class="ph tall" loading="lazy" src="${esc(asset(ed.cartoon_file))}" alt=""
+        onclick="window.open(this.src,'_blank')">
         ${ed.cartoon_caption?`<div class="cred">${esc(ed.cartoon_caption)}</div>`:""}` : ""}
       <p>${esc(ed.issue||"")}</p>
       ${side(ed.side_a)}${side(ed.side_b)}
@@ -366,16 +369,19 @@ async function openDay(ds){
       ${ed.audio?`<audio controls preload="none" src="${esc(asset(ed.audio))}"></audio>`:""}</div>`;
   }
 
+
+  h += arr.map(s => storyCard(s)).join("");   // map-இன் index-ஐ தேதியாக அனுப்பக் கூடாது
+
+  // காமிக்ஸ் கடைசியாக — செய்தித்தாளில் அது பக்கம் 18
   const cm = COMICS[ds];
   if(cm && !cm.hidden){
     h += `<div class="card feat"><div class="meta"><span class="chip">காமிக்ஸ்</span>
       <span>நாள் ${cm.day} · ${esc(cm.book_ta||"")}</span></div>
       <h3>${esc(cm.title)}</h3>
-      <img class="ph" loading="lazy" src="${esc(asset(cm.file))}" alt="">
+      <img class="ph tall" loading="lazy" src="${esc(asset(cm.file))}" alt=""
+        onclick="window.open(this.src,'_blank')">
       <p>${esc(cm.summary||"")}</p></div>`;
   }
-
-  h += arr.map(s => storyCard(s)).join("");   // map-இன் index-ஐ தேதியாக அனுப்பக் கூடாது
   $("out1").innerHTML = h;
   $("dl").onclick = () => {
     const b = new Blob([JSON.stringify(arr,null,1)], {type:"application/json"});
@@ -398,6 +404,7 @@ function storyCard(s, showDate){
     </div>
     <h3>${esc(s.headline)}</h3>
     ${im?`<img class="ph" loading="lazy" src="${esc(im.url)}" alt=""
+           onclick="window.open(this.src,'_blank')"
            onerror="this.style.display='none';this.nextElementSibling&&(this.nextElementSibling.style.display='none')">
           <div class="cred">${esc(im.credit||"")}${im.license?" · "+esc(im.license):""}</div>`:""}
     ${lines}
