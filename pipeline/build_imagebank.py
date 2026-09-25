@@ -676,26 +676,52 @@ def gen(prompt, topic="", tries=2):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise SystemExit("GEMINI_API_KEY இல்லை")
-    for _ in range(tries):
+    url = ("https://generativelanguage.googleapis.com/v1beta/models/"
+           "gemini-2.5-flash-image:generateContent")
+    body = STYLE + STYLE_EXTRA.get(topic, "") + "\n\nSCENE: " + prompt
+    for attempt in range(tries):
         try:
-            r = requests.post(
-                "https://generativelanguage.googleapis.com/v1beta/models/"
-                "gemini-2.5-flash-image:generateContent",
+            resp = requests.post(
+                url,
                 headers={"x-goog-api-key": key, "Content-Type": "application/json"},
-                json={"contents": [{"parts": [{"text": STYLE + STYLE_EXTRA.get(topic, "") +
-                                                    "\n\nSCENE: " + prompt}]}],
+                json={"contents": [{"parts": [{"text": body}]}],
                       "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}},
-                timeout=120).json()
-            for p in r["candidates"][0]["content"]["parts"]:
-                if "inlineData" in p:
-                    return base64.b64decode(p["inlineData"]["data"])
-                d = p.get("inline_data")
-                if d and d.get("data"):
-                    return base64.b64decode(d["data"])
+                timeout=120)
         except Exception as ex:
-            print("   பிழை", str(ex)[:80]); time.sleep(4)
-    return None
+            print("   இணைப்பு பிழை:", str(ex)[:140]); time.sleep(5); continue
+        try:
+            r = resp.json()
+        except Exception:
+            print(f"   HTTP {resp.status_code} — JSON அல்ல:", resp.text[:160])
+            time.sleep(5); continue
 
+        if "candidates" not in r:
+            err = r.get("error") or {}
+            print(f"   API பிழை · HTTP {resp.status_code} · {err.get('status','')} "
+                  f"· {str(err.get('message',''))[:200]}")
+            if r.get("promptFeedback"):
+                print("   promptFeedback:",
+                      json.dumps(r["promptFeedback"], ensure_ascii=False)[:220])
+            if not err and not r.get("promptFeedback"):
+                print("   முழு பதில்:", json.dumps(r, ensure_ascii=False)[:300])
+            time.sleep(5); continue
+
+        cand = (r["candidates"] or [{}])[0]
+        parts = (cand.get("content") or {}).get("parts") or []
+        for p in parts:
+            if "inlineData" in p and p["inlineData"].get("data"):
+                return base64.b64decode(p["inlineData"]["data"])
+            d = p.get("inline_data")
+            if d and d.get("data"):
+                return base64.b64decode(d["data"])
+        print("   படம் வரவில்லை · finishReason:", cand.get("finishReason"))
+        said = [p.get("text", "") for p in parts if p.get("text")]
+        if said:
+            print("   மாதிரி சொன்னது:", said[0][:200])
+        if cand.get("safetyRatings"):
+            print("   safety:", json.dumps(cand["safetyRatings"], ensure_ascii=False)[:220])
+        time.sleep(5)
+    return None
 
 def main():
     ap = argparse.ArgumentParser()
