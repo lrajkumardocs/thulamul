@@ -5,7 +5,7 @@ on:
       topics:
         description: "துறைகள் — இதை மாற்ற வேண்டாம், அப்படியே Run அழுத்துங்கள்"
         required: true
-        default: "economy health govt tech india world sports cinema weather transport power local accident pension env space defence"
+        default: "world space"
       per:
         description: "ஒரு துறைக்கு அதிகபட்சம்"
         required: true
@@ -13,7 +13,7 @@ on:
       redo:
         description: "மீண்டும் உருவாக்க — காலியாக விடுங்கள்"
         required: false
-        default: ""
+        default: "space05"
 
 permissions:
   contents: write
