@@ -3,15 +3,15 @@ on:
   workflow_dispatch:
     inputs:
       topics:
-        description: "துறைகள் (இடைவெளியால் பிரித்து) — எ.கா. court crime"
+        description: "துறைகள் — இதை மாற்ற வேண்டாம், அப்படியே Run அழுத்துங்கள்"
         required: true
-        default: "court"
+        default: "crime"
       per:
-        description: "ஒரு துறைக்கு அதிகபட்சம் எத்தனை படம்"
+        description: "ஒரு துறைக்கு அதிகபட்சம்"
         required: true
         default: "99"
       redo:
-        description: "மீண்டும் உருவாக்க வேண்டியவை — எ.கா. court03 court04 (காலியாக விட்டால் இல்லாதவை மட்டும்)"
+        description: "மீண்டும் உருவாக்க — காலியாக விடுங்கள்"
         required: false
         default: ""
 
@@ -36,6 +36,11 @@ jobs:
           PER: ${{ github.event.inputs.per }}
           REDO: ${{ github.event.inputs.redo }}
         run: |
+          echo "=============================================="
+          echo " துறைகள்  : [$TOPICS]"
+          echo " அதிகபட்சம் : [$PER]"
+          echo " redo     : [$REDO]"
+          echo "=============================================="
           mkdir -p data/bank
           if [ -n "$REDO" ]; then
             python pipeline/build_imagebank.py --per "$PER" --only $TOPICS --redo $REDO
