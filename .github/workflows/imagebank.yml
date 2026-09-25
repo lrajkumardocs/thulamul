@@ -5,7 +5,7 @@ on:
       topics:
         description: "துறைகள் — இதை மாற்ற வேண்டாம், அப்படியே Run அழுத்துங்கள்"
         required: true
-        default: "temple politics women labour fisher jobs edu agri"
+        default: "economy health govt tech india world sports cinema weather transport power local accident pension env space defence"
       per:
         description: "ஒரு துறைக்கு அதிகபட்சம்"
         required: true
