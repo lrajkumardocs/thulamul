@@ -43,6 +43,19 @@ STYLE = (
     "RULE 4 — Nothing that identifies a real named person, a real named building or a real organisation."
 )
 
+
+TOPIC_TA = {
+    "court": "நீதிமன்றம்", "crime": "சட்டம் ஒழுங்கு", "economy": "பொருளாதாரம்",
+    "health": "சுகாதாரம்", "jobs": "வேலைவாய்ப்பு", "govt": "அரசு அறிவிப்புகள்",
+    "tech": "தொழில்நுட்பம்", "india": "இந்தியா", "world": "உலகம்",
+    "sports": "விளையாட்டு", "cinema": "சினிமா", "edu": "கல்வி",
+    "agri": "வேளாண்மை", "weather": "வானிலை / பேரிடர்", "transport": "போக்குவரத்து",
+    "power": "மின்சாரம் / குடிநீர்", "local": "உள்ளாட்சி", "politics": "அரசியல் நிகழ்வு",
+    "accident": "விபத்து", "fisher": "மீனவர் / கடல்", "labour": "தொழிலாளர்",
+    "women": "மகளிர் / குழந்தை", "pension": "ஓய்வூதியம்", "env": "சுற்றுச்சூழல்",
+    "temple": "கோயில் / திருவிழா", "space": "விண்வெளி", "defence": "பாதுகாப்பு",
+}
+
 # சில துறைகளுக்கு மட்டும் கூடுதல் விதி
 STYLE_EXTRA = {
     "temple": ("EXCEPTION to Rule 1: traditional carved stone or painted stucco temple sculptures "
@@ -672,6 +685,68 @@ BANK = {
 }
 
 
+
+GALLERY_CSS = """
+*{box-sizing:border-box}
+body{margin:0;background:#f6f4ef;color:#1a1a1a;
+     font-family:"Noto Sans Tamil","Latha",system-ui,sans-serif}
+header{background:#7a1f1f;color:#fff;padding:18px 20px;position:sticky;top:0;z-index:5}
+header h1{margin:0;font-size:20px;font-weight:700}
+header p{margin:4px 0 0;font-size:13px;opacity:.85}
+nav{padding:12px 20px;background:#fff;border-bottom:1px solid #e3ded4;
+    display:flex;flex-wrap:wrap;gap:6px}
+nav a{font-size:13px;text-decoration:none;color:#7a1f1f;border:1px solid #d9cfc0;
+      border-radius:14px;padding:3px 10px;background:#fdfbf7}
+main{padding:20px;max-width:1500px;margin:0 auto}
+h2{font-size:17px;margin:30px 0 12px;padding-bottom:6px;border-bottom:2px solid #7a1f1f}
+h2 span{font-weight:400;font-size:13px;color:#6b6257;margin-left:8px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+figure{margin:0;background:#fff;border:1px solid #e3ded4;border-radius:8px;overflow:hidden}
+figure img{width:100%;display:block;aspect-ratio:1/1;object-fit:cover;background:#eee}
+figcaption{padding:7px 9px;font-size:12px;line-height:1.45}
+.fn{color:#8a8178;font-size:11px;font-family:ui-monospace,monospace}
+.tg{color:#1a1a1a;margin-top:2px}
+footer{padding:26px 20px;text-align:center;color:#8a8178;font-size:12px}
+"""
+
+
+def write_gallery(idx):
+    """படக் களஞ்சியத்தைப் பார்வையிட ஒரு HTML பக்கம் (செலவு இல்லை)."""
+    import html as _h
+    order = [k for k in BANK if k in idx] + [k for k in idx if k not in BANK]
+    total = sum(len(idx[k]) for k in order)
+    nav = "".join(f'<a href="#{k}">{TOPIC_TA.get(k, k)}</a>' for k in order)
+    body = []
+    for k in order:
+        rows = sorted(idx[k], key=lambda r: r.get("file", ""))
+        cards = []
+        for r in rows:
+            fn = r.get("file", "").split("/")[-1]
+            cards.append(
+                '<figure><img loading="lazy" src="{f}" alt="">'
+                '<figcaption><div class="fn">{n}</div>'
+                '<div class="tg">{t}</div></figcaption></figure>'.format(
+                    f=_h.escape(fn), n=_h.escape(fn),
+                    t=_h.escape(r.get("tags", ""))))
+        body.append(
+            '<h2 id="{k}">{ta} <span>{k} · {c} படம்</span></h2>'
+            '<div class="grid">{cards}</div>'.format(
+                k=k, ta=_h.escape(TOPIC_TA.get(k, k)), c=len(rows),
+                cards="".join(cards)))
+    page = (
+        '<!doctype html><html lang="ta"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        '<meta name="robots" content="noindex,nofollow">'
+        '<title>படக் களஞ்சியம் — துலாமுள்</title>'
+        '<style>' + GALLERY_CSS + '</style></head><body>'
+        '<header><h1>படக் களஞ்சியம்</h1>'
+        '<p>' + str(len(order)) + ' துறை · ' + str(total) + ' படம் · '
+        'உள் பயன்பாட்டிற்கு மட்டும்</p></header>'
+        '<nav>' + nav + '</nav><main>' + "".join(body) + '</main>'
+        '<footer>முத்தமிழ் கலைக்கூடம் · துலாமுள்</footer></body></html>')
+    (OUT / "index.html").write_text(page, encoding="utf-8")
+    print(f"காட்சியகம்: data/bank/index.html ({len(order)} துறை, {total} படம்)")
+
 def gen(prompt, topic="", tries=2):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
@@ -763,6 +838,7 @@ def main():
             time.sleep(2)
         idx[t].sort(key=lambda r: r.get("file", ""))
         IDX.write_text(json.dumps(idx, ensure_ascii=False, indent=1), encoding="utf-8")
+    write_gallery(idx)
     print(f"\nமுடிந்தது — {made} புதிய படம். மொத்தம்: " +
           ", ".join(f"{k}:{len(v)}" for k, v in sorted(idx.items())))
 
