@@ -82,7 +82,7 @@ header.top button{background:rgba(255,255,255,.14);color:#fff;border:1px solid r
   font-size:14px;color:#b9b0a5;position:relative}
 .day.has{background:#fff;color:var(--ink);border-color:#d6c9b4;cursor:pointer;font-weight:600}
 .day.has:hover{border-color:var(--brand);background:#fffaf5}
-.day.sel{background:var(--brand);color:#fff;border-color:var(--brand)}
+.day.has.sel,.day.has.sel:hover{background:var(--brand);color:#fff;border-color:var(--brand)}
 .day .n{font-size:9.5px;opacity:.75;margin-top:1px}
 .day.blank{border:0;background:transparent}
 
@@ -112,6 +112,11 @@ header.top button{background:rgba(255,255,255,.14);color:#fff;border:1px solid r
 .card .cred{font-size:10.5px;color:var(--ink2);margin:-6px 0 10px}
 .card audio{width:100%;margin-top:8px;height:34px}
 .card .src{font-size:11px;color:var(--ink2);margin-top:8px}
+.jump{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 14px}
+.jump button{font-size:12.5px;padding:6px 14px;border:1px solid var(--line);
+  background:var(--card);border-radius:20px;color:var(--brand);font-weight:600}
+.jump button:hover{background:#fff;border-color:var(--brand)}
+[id^="s-"]{scroll-margin-top:64px}
 .hit{font-size:11.5px;color:var(--brand);font-weight:600;margin-bottom:4px}
 .empty{padding:36px 16px;text-align:center;color:var(--ink2);font-size:14px}
 @media (max-width:520px){ .wrap{padding:12px} .card{padding:13px} }
@@ -348,16 +353,23 @@ async function openDay(ds){
   try{ arr = await loadDay(ds); }
   catch(e){ $("out1").innerHTML = `<div class="empty">இந்த நாளின் கோப்பு கிடைக்கவில்லை.</div>`; return; }
 
+  const hasEd = !!EDIT[ds];
+  const hasCm = !!(COMICS[ds] && !COMICS[ds].hidden);
   let h = `<div class="dayhead">
      <h2>${taDate(ds)}</h2><span class="c">${arr.length} செய்தி</span>
      <div class="acts">
        <button id="dl">JSON சேமி</button>
        <button id="pr">அச்சிடு / PDF</button>
-     </div></div>`;
+     </div></div>
+   <div class="jump">
+     ${hasEd?`<button data-go="s-ed">தலையங்கம்</button>`:""}
+     <button data-go="s-news">செய்திகள்</button>
+     ${hasCm?`<button data-go="s-comic">காமிக்ஸ்</button>`:""}
+   </div>`;
 
   const ed = EDIT[ds];
   if(ed){
-    h += `<div class="card feat"><div class="meta"><span class="chip">தராசில் இன்று</span></div>
+    h += `<div class="card feat" id="s-ed"><div class="meta"><span class="chip">தராசில் இன்று</span></div>
       <h3>${esc(ed.title)}</h3>
       ${ed.cartoon_file ? `<img class="ph tall" loading="lazy" src="${esc(asset(ed.cartoon_file))}" alt=""
         onclick="window.open(this.src,'_blank')">
@@ -370,12 +382,12 @@ async function openDay(ds){
   }
 
 
-  h += arr.map(s => storyCard(s)).join("");   // map-இன் index-ஐ தேதியாக அனுப்பக் கூடாது
+  h += `<div id="s-news"></div>` + arr.map(s => storyCard(s)).join("");   // map-இன் index-ஐ தேதியாக அனுப்பக் கூடாது
 
   // காமிக்ஸ் கடைசியாக — செய்தித்தாளில் அது பக்கம் 18
   const cm = COMICS[ds];
   if(cm && !cm.hidden){
-    h += `<div class="card feat"><div class="meta"><span class="chip">காமிக்ஸ்</span>
+    h += `<div class="card feat" id="s-comic"><div class="meta"><span class="chip">காமிக்ஸ்</span>
       <span>நாள் ${cm.day} · ${esc(cm.book_ta||"")}</span></div>
       <h3>${esc(cm.title)}</h3>
       <img class="ph tall" loading="lazy" src="${esc(asset(cm.file))}" alt=""
@@ -389,6 +401,10 @@ async function openDay(ds){
     a.href = URL.createObjectURL(b); a.download = "thulamul-"+ds+".json"; a.click();
   };
   $("pr").onclick = () => window.print();
+  $("out1").querySelectorAll(".jump button").forEach(btn => btn.onclick = () => {
+    const el = document.getElementById(btn.dataset.go);
+    if(el) el.scrollIntoView({behavior:"smooth", block:"start"});
+  });
   window.scrollTo({top:0,behavior:"smooth"});
 }
 
