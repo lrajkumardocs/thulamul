@@ -5,7 +5,7 @@ on:
       topics:
         description: "துறைகள் — இதை மாற்ற வேண்டாம், அப்படியே Run அழுத்துங்கள்"
         required: true
-        default: "crime"
+        default: "temple politics women labour fisher jobs edu agri"
       per:
         description: "ஒரு துறைக்கு அதிகபட்சம்"
         required: true
