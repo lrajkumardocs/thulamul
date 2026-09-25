@@ -363,6 +363,28 @@ def send_push(items, brief_item=None):
     except Exception as ex:
         print("[push] பிழை", str(ex)[:150])
 
+def archive_editorial(e):
+    """ஒவ்வொரு நாள் தலையங்கமும் கேலிச்சித்திரமும் நூலகத்திற்காகச் சேமிக்கப்படும்.
+    ai_editorial.json இன்றையதை மட்டுமே வைத்திருக்கும் — இது வரலாறு."""
+    try:
+        d = e.get("date")
+        if not d:
+            return
+        p = DATA / "editorial_archive.json"
+        arc = load_json(p, {})
+        arc[d] = {"title": e.get("title"), "issue": e.get("issue"),
+                  "side_a": e.get("side_a"), "side_b": e.get("side_b"),
+                  "history": e.get("history"), "question": e.get("question"),
+                  "audio": e.get("audio"),
+                  "cartoon_file": (e.get("cartoon") or {}).get("image"),
+                  "cartoon_caption": (e.get("cartoon") or {}).get("caption_ta")}
+        for k in sorted(arc)[:-500]:          # 500 நாளுக்கு மேல் வேண்டாம்
+            arc.pop(k, None)
+        save_json(p, arc)
+    except Exception as ex:
+        print("[editorial archive]", str(ex)[:120])
+
+
 def make_cartoon(scene_en, today, caption=""):
     """Gemini மூலம் கேலிச்சித்திரம் + கீழே தமிழ் வசனப் பட்டை. தோல்வி → None."""
     gk = os.environ.get("GEMINI_API_KEY")
@@ -1751,12 +1773,12 @@ def main():
             e = parse_json(client, raw); e["date"] = today; e["author"] = "Mr. X"
             e["audio"] = make_audio(f"editorial_{today.replace('-', '')}", f"தராசில் இன்று. {e['title']}. {e['issue']} ஒரு தட்டு: {e['side_a']['label']}. " + " ".join(e["side_a"]["points"]) + f" மறு தட்டு: {e['side_b']['label']}. " + " ".join(e["side_b"]["points"]) + " " + e["question"])
             e["cartoon"]["image"] = make_cartoon(e["cartoon"].get("scene_en", ""), today, e["cartoon"].get("caption_ta", "")); e["cartoon_v"] = 7
-            save_json(DATA / "ai_editorial.json", e); print("[editorial] தராசில் இன்று:", e["title"])
+            save_json(DATA / "ai_editorial.json", e); archive_editorial(e); print("[editorial] தராசில் இன்று:", e["title"])
             telegram(f"⚖️ <b>தராசில் இன்று</b> — {e['title']}\n{e['question']}\n\n🖼 {e['cartoon'].get('caption_ta','')}\n{'படம் தயார்' if e['cartoon'].get('image') else 'படம் இல்லை'}\n\nதவறு என்றால் <code>✘ editorial</code>")
         elif ed.get("date") == today and (not ed.get("cartoon", {}).get("image") or ed.get("cartoon_v") != 7) and not api_dead:
             img = make_cartoon(ed.get("cartoon", {}).get("scene_en", ""), today, ed.get("cartoon", {}).get("caption_ta", ""))   # படம் மட்டும் மீண்டும்
             if img:
-                ed["cartoon"]["image"] = img; ed["cartoon_v"] = 7; save_json(DATA / "ai_editorial.json", ed); print("[cartoon] படம் தயார்")
+                ed["cartoon"]["image"] = img; ed["cartoon_v"] = 7; save_json(DATA / "ai_editorial.json", ed); archive_editorial(ed); print("[cartoon] படம் தயார்")
     except Exception as ex:
         print("[editorial] பிழை", str(ex)[:200])
 
