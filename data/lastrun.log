@@ -7,7 +7,7 @@
 [fetch] BBC World: 28 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 27 புதியவை
-[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Sport: 29 புதியவை
 [fetch] The Hindu Cinema: 27 புதியவை
 [fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 28 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4e193f2490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5d2eae1f50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -67,13 +67,10 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 760 → நிகழ்வுகள் 704
+[run] புதியவை 761 → நிகழ்வுகள் 705
 [triage] சேமித்த மதிப்பெண் (633) — புதிய அழைப்பு இல்லை
-[triage] 704 → 39 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[triage] 705 → 42 | காலி: tn:6, india:4, govt:4, crime:4, world:3
 [claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha
-[tts-edge] brief_2026-09-26: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[brief] காலை brief தயார்
 [market] தங்கம் 22K ₹13662 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 0 · எழுதியவை 0
