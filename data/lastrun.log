@@ -1,24 +1,24 @@
-[fetch] RBI: 0 புதியவை
-[fetch] ET Markets: 25 புதியவை
+[fetch] RBI: 10 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 10 புதியவை
+[fetch] The Hindu TN: 9 புதியவை
 [fetch] Dinamani TN: 16 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 11 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 10 புதியவை
 [fetch] Al Jazeera: 9 புதியவை
 [fetch] ESPNcricinfo: 27 புதியவை
 [fetch] The Hindu Sport: 23 புதியவை
 [fetch] The Hindu Cinema: 27 புதியவை
-[fetch] Cinema Express: 27 புதியவை
-[fetch] The Hindu Tech: 18 புதியவை
-[fetch] Wired: 25 புதியவை
+[fetch] Cinema Express: 24 புதியவை
+[fetch] The Hindu Tech: 17 புதியவை
+[fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 1 புதியவை
+[fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 1 புதியவை
+[fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
@@ -29,15 +29,15 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 14 புதியவை
+[fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 14 புதியவை
-[fetch] NDTV India: 12 புதியவை
+[fetch] The Hindu National: 8 புதியவை
+[fetch] NDTV India: 17 புதியவை
 [fetch] India Today: 11 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 24 புதியவை
+[fetch] Sportstar: 25 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f701f86c890>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 14 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f554c401f50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 8 புதியவை
 [fetch] Dinamani Govt: 16 புதியவை
 [fetch] Times Govt Schemes: 10 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,31 +67,16 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 510 → நிகழ்வுகள் 482
+[run] புதியவை 496 → நிகழ்வுகள் 476
 [triage] சேமித்த மதிப்பெண் (475) — புதிய அழைப்பு இல்லை
-[triage] 482 → 51 | காலி: jobs:2, assembly:2, world:1, health:1
-[tts-edge] 9e97fee1764a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கார்த்திக் சுப்பராஜின் டோரதி படம் வசூலில் தொடர் வளர்ச்சி
-[skip] தமிழ்நாட்டுச் செய்தி ஆனால் 'world' துறையில் தரப்பட்டுள்ளது. 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTuwjA4bDJx2niHBmuve'}
-[skip] வெளிநாட்டு நிகழ்வு (ஆஸ்திரேலியா) — தமிழ்நாட்டு/இந்திய வாசகரு
-[skip] பிற மாநில (உத்தரப்பிரதேசம்) நீதிமன்ற வழக்கு — தமிழ்நாடுக்குத
-[skip] வெளிநாட்டுக் மதக் நிகழ்வு — தமிழ்நாடு/இந்தியாவுடன் நேரடித் த
-[tts-edge] 18707ab88a71: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஒன்பது நிறுவனங்கள் ஐபிஓ விண்ணப்பம் செபியிடம் தாக்கல்
-[skip] வெளிநாட்டு தயாரிப்பு பர்যালோசனை — தமிழ்நாடு/இந்திய வாசகருக்க
-[skip] கேரளாவின் உள்ளூர் அரசியல் — முதல்வர், உள்துறை அமைச்சர் இடையே
-[skip] வெளிநாட்டுக் சம்பவம் — பாரிசில் நடந்த போப் மிஸ் வழிபாடு. தமி
-[skip] பிற மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் சமூக மோதல் — தமிழ்நா
-[skip] உत्तर प्रदेश முத्तैया அமைச்சரின் மரணம் — தமிழ்நாட்டுக்குத் த
-[skip] ஆஸ்திரேலியாவின் AI பாதுகாப்புப் பற்றிய செய்தி; இந்தியாவுக்கா
-[தரம்] தமிழ் அல்லாத எழுத்து: 남용 → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ஒபரேஷன் தூபான் இரண்டாம் கட்டத்தில்
-[publish] ஒபரேஷன் தூபான் இரண்டாம் கட்டத்தில் நுழையும்
-[skip] Nicobar Islands are union territory under Andaman & Nicobar,
-[skip] ओडिशा (ओडिशा राज्य) की स्थानीय स्वास्थ्य जागरूकता घटना है, त
-[skip] ஆந்திர பிரதேச அரசின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு — தமிழ்ந
+[triage] 476 → 55 | காலி: jobs:2, assembly:2, world:1, health:1
+[skip] தமிழ்நாடு அரசின் உள்ளூர் நிர்வாகக் கட்டளை — world செய்தி அல்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டு பொதுவான தொழில்நுட்பக் கட்டுரை — தமிழ்நாடு/இந்தியா
+[image] களஞ்சியம் (2 சொல்): இந்தியாவிலும் நேபாளத்திலும் வெள்ளம
+[tts-edge] a5b580b39332: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியாவிலும் நேபாளத்திலும் வெள்ளமும் மண்சரிவும் கொல்லுதல்
 [market] தங்கம் 22K ₹13668 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 3
+[done] feed 300 · pending 1 · எழுதியவை 1
