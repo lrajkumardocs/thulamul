@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 14 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 16 புதியவை
-[fetch] Al Jazeera: 18 புதியவை
+[fetch] Dinamani TN: 21 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 15 புதியவை
+[fetch] Al Jazeera: 15 புதியவை
 [fetch] ESPNcricinfo: 27 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
 [fetch] The Hindu Cinema: 27 புதியவை
-[fetch] Cinema Express: 28 புதியவை
-[fetch] The Hindu Tech: 20 புதியவை
-[fetch] Wired: 28 புதியவை
+[fetch] Cinema Express: 27 புதியவை
+[fetch] The Hindu Tech: 19 புதியவை
+[fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 22 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 17 புதியவை
+[fetch] FreeJobAlert: 15 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,17 +28,17 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 18 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 16 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 25 புதியவை
+[fetch] Dinamani Cinema: 24 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 18 புதியவை
+[fetch] The Hindu National: 16 புதியவை
 [fetch] NDTV India: 8 புதியவை
-[fetch] India Today: 17 புதியவை
+[fetch] India Today: 8 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd069519b50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 18 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
-[fetch] Times Govt Schemes: 9 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f15be9dae50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 16 புதியவை
+[fetch] Dinamani Govt: 21 புதியவை
+[fetch] Times Govt Schemes: 7 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,55 +67,30 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 606 → நிகழ்வுகள் 561
+[run] புதியவை 568 → நிகழ்வுகள் 525
 [triage] சேமித்த மதிப்பெண் (609) — புதிய அழைப்பு இல்லை
-[triage] 561 → 48 | காலி: world:2, economy:2, crime:2, jobs:2, health:2
-[திருத்தம்] குழந்தைகள் மற்றும் பெரியவர்களுக்கான தடுப → குழந்தைகள் மற்றும் பெரியவர்களுக்கான தடுப
-[tts-edge] 3b00a10e3e1f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] குழந்தைகள் மற்றும் பெரியவர்களுக்கான தடுப்பூசி அட்டவணை குறித்த கருத்தரங்கு செப்டம்பர் 27-ல் நடைபெறுகிறது
-[skip] மேற்கு வங்க உள்ளூர் அரசியல் செய்தி - தமிழ்நாட்டுடன் நேரடித் 
-[skip] இது கேரளா மாநிலத்தில் உள்ளூர் விஜிலென்ஸ் துறை நடத்திய சோதனை 
-[skip] மகாராஷ்டிர மாநிலத்தின் உள்ளூர் அரசு முடிவு — தமிழ்நாட்டு வாச
+[triage] 525 → 39 | காலி: world:2, crime:2, jobs:2, assembly:2, economy:1
+[skip] வங்கதேசத்தின் உள்ளூர் விலங்குப் பாதுகாப்பு விষயம்; தமிழ்நாடு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘A pedestrian signal is needed at MM Nagar Munic
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTknFU8HygfhQZ3qgzxN'}
-[skip] வெளிநாட்டுச் தயாரிப்பு / மேற்கத்திய சுகாதாரக் கேள்வி — தமிழ்
-[skip] இது கேரள உயர் நீதிமன்றத்தின் உள்ளூர் வழக்கு தொடர்பான தீர்ப்ப
-[skip] சினிமா செய்தியல்ல — நடிகரின் ব்যক્તিগत கூற்று / அரசியல் கருத
-[skip] மேற்குவங்காள அரசியல் — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை
-[skip] வெளிநாட்டு உள்நாட்டு விபத்து — தமிழ்நாடு/இந்தியாவுடன் நேரடித
+[tts-edge] 5f4d1a12caeb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பிஎம்எஸ் நுழைவு வரம்பை 25 லட்சமாகக் குறைத்தது செபியின் புதிய திட்டம்
+[image] களஞ்சியம் (3 சொல்): ஜெம் கிரானைட்ஸ் வீரமணி கைது நீதிமன
+[tts-edge] 7669c27ca706: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஜெம் கிரானைட்ஸ் வீரமணி கைது நீதிமன்ற உத்தரவால் என திமுக எம்பி தெரிவிப்பு
+[skip] வெளிநாட்டு அப்ளிகேஷன் நிறுவனங்களின் பொது அறிவுரை / பயன்பாட்ட
+[skip] தமிழ்நாட்டு சினிமா நிகழ்வு அல்ல — பிக் பாஸ் என்பது வெளிநாட்ட
+[skip] லடாக் சுயாட்சிப் பிரதேசத்தின் உள்ளூர் அரசியல் — தமிழ்நாட்டுக
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — இসுரேல்-பாலஸ்தீன் மோதல் தமிழ்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘Spruce up the area outside Youth Hostel in Adya
-[திருத்தம்] பிரகதீஸ்வரர் கோயிலில் அபிஷேகத்துக்கு தண் → பிரகதீஸ்வரர் கோயிலில் அபிஷேகத்துக்குக் க
-[tts-edge] 8deffb7b6b85: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பிரகதீஸ்வரர் கோயிலில் அபிஷேகத்துக்குக் கூட தண்ணீர் இல்லை என அர்ச்சகர் குற்றச்சாட்டு
-[skip] கேரளா மாநிலத்தின் உள்ளூர் ஊழல் வழக்கு — தமிழ்நாட்டுக்கு நேரட
-[skip] வெளிநாட்டு ஆட்லிட்டிக்் — மலேசியா-சிங்கப்பூர் விளையாட்டு வீர
-[திருத்தம்] தமிழ்நாட்டில் நாளை பத்தொன்பது மாவட்டங்கள → தமிழ்நாட்டில் நாளை 19 மாவட்டங்களில் மழைக
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் நாளை 19 மாவட்டங்களில
-[publish] தமிழ்நாட்டில் நாளை 19 மாவட்டங்களில் மழைக்கு வாய்ப்பு
-[skip] இது பஞ்சாப் மாநிலத்தில் உள்ள ஒரு தனியார் பல்கலைக்கழகத்தில் ந
-[skip] கோயிலின் உள்ளாட்சி நிர்வாহ விவகாரம் — அரசு அறிவிப்பு அல்ல. அ
-[skip] இங்கிலாந்தின் உள்ளூர் நிরাপত்தை நிகழ்வு — தமிழ்நாடு/இந்திய வ
-[skip] இது மேற்கு வங்க மாநில உள்ளூர் அரசியல் குற்றச்சாட்டு தொடர்பான
-[நகல்] ஏற்கனவே வெளியானது: தமிழ்நாட்டில் நாளை 19 மாவட்டங்களில் மழைக்கு வாய்ப்பு
-[skip] இது சத்தீஸ்கர் மாநிலத்தின் உள்ளூர் இயற்கை பேரிடர் செய்தி, தம
-[skip] வெளிநாட்டு உள்ளூர் பொருளாதாரச் செய்தி — தமிழ்நாட்டு வாசகரின்
-[skip] இது கேரள அரசின் உள்ளூர் நிர்வாக முடிவு (தகவல் அறியும் உரிமைச
-[skip] பிரான்சின் உள்நாட்டுப் பொருளாதாரச் செய்தி — தமிழ்நாடு அல்லது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] உத்தரப் பிரதேசத்தில் மழை பேரிடர்; 56 பேர் பலி, 1,021 வீடுகள் சேதம்
-[skip] பஞ்சாப் மாநிலத்தில் உள்ள ஒரு தனியார் பல்கலைக்கழகத்தில் நடந்த
-[திருத்தம்] இரண்டாயிரம் ரூபாய்க்கு மேல் யுபிஐ கட்டணம → இரண்டாயிரம் ரூபாய்க்கு மேல் UPI கட்டணம் 
-[தரம்] தமிழ் அல்லாத எழுத்து: ো → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: இரண்டாயிரம் ரூபாய்க்கு மேல் UPI கட
-[publish] இரண்டாயிரம் ரூபாய்க்கு மேல் UPI கட்டணம் மீதான மனு உச்சநீதிமன்றத்தில் விசாரணை
-[publish] தேர்தல் ஆணையம் தொடர்பான சர்ச்சை தீவிரம் - பாஜக, எதிர்க்கட்சிகள் மோதல்
-[image] களஞ்சியம் (2 சொல்): இந்திய பங்குச் சந்தையில் இந்த வாரம
-[publish] இந்திய பங்குச் சந்தையில் இந்த வாரம் இருபது ஐபிஓக்கள் தொடக்கம்
-[skip] jammu_kashmir_local_employment_not_relevant_to_tamil_nadu
-[skip] இந்தியாவின் ஐ.நா.演說 — தமிழ்நாட்டு வாசகருக்கு நேரடிச் செயல்பா
-[skip] இது ஒரு சிறிய நிறுவனத்தின் ஐபிஓ (IPO) தொடர்பான வழக்கமான வணிக
-[skip] பிற மாநில மத்திய அலுவலக வேலைவாய்ப்பு — தமிழ்நாட்டு வாசகருக்க
+[skip] வெளிநாட்டு (USA) தரப்பில் உள்ள தரவுக்மையங்களின் சமூக எதிர்ப்
+[skip] பஞ்சாப் மாநிலத்தின் உள்ளூர் விபத்து — தமிழ்நாட்டுக்கு நேரடித
+[skip] வெளிநாட்டு உள்நாட்டுச் சம்பவம் — யேமன் அரசு மற்றும் ஹூதி பின
+[தரம்] தமிழ் அல்லாத எழுத்து: লা → ஒரு திருத்தம்
+[publish] ஜயலலிதாவின் சொத்தை கேட்டவர் இறந்துவிட்டார்
+[skip] பশ্চிம வங்கம் மாநிலத்தின் உள்ளூர் அரசியல் நிகழ்வு. தமிழ்நாடு
+[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பற்றவை - IIT ரூர்க்கி 
+[skip] कांगो देश की आंतरिक स्वास्थ्य घटना - तमिलनाडु/भारत के पाठकों
+[skip] அசாம் மாவட்டத்தில் அமைந்த மத்திய ஆராய்ச்சி நிறுவனத்தின் உள்ள
 [market] தங்கம் 22K ₹13668 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 7
+[done] feed 300 · pending 1 · எழுதியவை 3
