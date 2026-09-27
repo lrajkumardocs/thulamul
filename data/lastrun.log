@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 30 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 23 புதியவை
+[fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 30 புதியவை
+[fetch] ESPNcricinfo: 29 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 28 புதியவை
+[fetch] The Hindu Cinema: 27 புதியவை
 [fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 21 புதியவை
 [fetch] Wired: 29 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 22 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 29 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,72 +56,79 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8de171e110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f42dae42290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
+[fetch] Times Govt Schemes: 15 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 30 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 758 → நிகழ்வுகள் 685
-[triage] 685 → 63 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இது ஒரு சட்டக் கருத்துக் கட்டுரையின் தலைப்பு மட்டும்; உண்மைய
-[skip] அசாம் பொதுச் சேவா ஆணையத்தின் தேர்வு அறிவிப்பு — தமிழ்நாட்டு 
-[skip] பொதுவான தகவல் விளக்கம் — குறிப்பிட்ட நிகழ்வு, அறிவிப்பு, தமி
-[skip] சினிமா விமர்சனம். துலாமுள் நीதி: திரை விமர்சனம் (மதிப்பெண், 
-[skip] வெளிநாட்டுத் தொடர் (T20 World Cup) — தமிழ்நாடு/இந்திய வீரர்/
-[tts-edge] e7e572dfb70b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கருர் கூட்ட நெரிசல் முதலாண்டு: விஜய் இரங்கல் பதிவு
+[run] புதியவை 717 → நிகழ்வுகள் 645
+[triage] சேமித்த மதிப்பெண் (609) — புதிய அழைப்பு இல்லை
+[triage] 645 → 65 | காலி: india:4, world:3, crime:3, jobs:3, cinema:3
+[skip] வெளிநாட்டுக் கிரிக்கெட் தொடர் — இந்தியா vs வெஸ்ட் இண்டீஸ் OD
+[tts-edge] 4a866a2a35ad: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நிவின் பாலியின் 'பெத்லகேம்' குடும்ப யூனிட் ஓடிடியில் வெளியாகிறது
+[skip] இந்த இரு வேலைவாய்ப்புச் செய்திகளும் தமிழ்நாட்டுடன் தொடர்பில்
+[skip] வெளிநாட்டு ஆய்வகம், தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இ
+[image] களஞ்சியம் (3 சொல்): செம்மண் கடத்தல் வழக்கு: பொன்முடி வ
+[tts-edge] 099951c7d8be: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] செம்மண் கடத்தல் வழக்கு: பொன்முடி விடுதலைக்கு எதிராக அரசு மேல்முறையீடு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdLjpf8NCCF5s67QhiG'}
-[திருத்தம்] கரூர் நெரிசல் வழக்கு: முதல் குற்றவாளி உள → கரூர் நெரிசல் வழக்கு: முதல் குற்றவாளி மற
-[தரம்] தமிழ் அல்லாத எழுத்து: ক → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): கரூர் நெரிசல் வழக்கு: முதல் குற்றவ
-[tts-edge] 38cdbb86e27f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கரூர் நெரிசல் வழக்கு: முதல் குற்றவாளி மற்றும் மற்றொரு டிவிகே பொறுப்பாளர் 15 நாள் நீதிமன்றக் காவலில்.
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdUHhFdXE6dbaBhiiZB'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdXZKSVQEsh2Pzi5VGM'}
-[publish] தூத்துக்குடியில் மாபெரும் கப்பல் கட்டும் தளத் திட்டம் முன்மொழிவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdeA8NCbmz9XJbk7uDB'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdhTrofBUn9esji6ifA'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdm7RbXmCso14sSEPwi'}
-[skip] மூலம் ஒரு தொகுப்புப் பட்டியல் மட்டுமே; உண்மையான சம்பவம், தேத
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] கரூர் கூட்ட நெரிசலில் பலியானோருக்கு உறவினர்கள் அஞ்சலி
-[திருத்தம்] அந்நிய முதலீட்டில் தமிழ்நாடு நாட்டிலேயே  → ரூ. 55,900 கோடி அந்நிய முதலீட்டை ஈர்த்து
-[image] களஞ்சியம் (2 சொல்): ரூ. 55,900 கோடி அந்நிய முதலீட்டை ஈ
-[publish] ரூ. 55,900 கோடி அந்நிய முதலீட்டை ஈர்த்து தமிழகம் முதலிடம்!
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdzsUqqT627jDaMQpBf'}
-[skip] வெளிநாட்டுத் துறை — கனடாவில் நிகழ்ந்த விமான விபத்து. தமிழ்நா
-[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — அதீனா (கிரீஸ்) கட்டிடப் வெடி
-[skip] வெளிநாட்டுத் தகவல். தமிழ்நாடு அல்லது இந்தியவாசகரைப் பாதிக்கா
-[skip] வெளிநாட்டு உள்ளூர் பேரிடர் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
-[publish] சென்னை கட்டளை மையத்தை மேம்படுத்த 98.25 கோடி ரூபாய் திட்டம்
-[image] களஞ்சியம் (2 சொல்): தூய்மைப் பணியாளர்களுக்கு நாளொன்றுக
-[publish] தூய்மைப் பணியாளர்களுக்கு நாளொன்றுக்கு ஐம்பது ரூபாய் உணவுப்படி
-[publish] சென்னை வடிகால் வண்டல் அகற்றும் பணி அக்டோபர் பத்தில் நிறைவு
-[publish] ஜாஃபர் சாதிக் வழக்கில் அமலாக்கத் துறை புகார் உத்தரவை ரத்து செய்த சென்னை உயர் நீதிமன்றம்
-[hold] ஜெம் வீரமணி கைது விவகாரத்தில் விஜய் மீது பழனிசாமி விமர்சனம்
-[filler] health கட்டுரை
-[jobs] தொகுப்பு 2
-[malar] திரை விமர்சனம்: 
-[malar] திரை விமர்சனம் மட்டும் (மற்ற பகுதிகள் உறைந்தவை)
-[editorial] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTeT92CaWKa7PVYUqSVR'}
-[comic] கதை: மாளிகை வாசலில் காவலர்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.97) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.98) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.98) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐ ஒத்திருக்கிறது (0.98) — அப்படியே வைக்கிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-09-27.png · நாள் 18
-[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): வாக்காளர் பட்டியல் திருத்தம் நிறுத
+[publish] வாக்காளர் பட்டியல் திருத்தம் நிறுத்த கோரி தலைமை நீதிபதிக்கு 2,000 பேர் கடிதம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTgVK6E1XngLTQZh4kJb'}
+[திருத்தம்] ஆசிய விளையாட்டில் தமிழக ஸ்குவாஷ் வீரர் அ → ஆசிய விளையாட்டில் தமிழக ஸ்குவாஷ் வீரர் அ
+[publish] ஆசிய விளையாட்டில் தமிழக ஸ்குவாஷ் வீரர் அபய் சிங்கிற்கு வெள்ளிப் பதக்கம்
+[skip] தென்னாப்பிரிக்கா-ஆஸ்திரேலியா இருதரப்பு ODI தொடர் - இந்தியா/த
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டு உள்நாட்டு குற்றம் — தமிழ்நாடு/இந்திய வாசகரின் தின
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்கும் செய்தி இல்லை — பொதுவான ஆங்கி
+[skip] மகாராஷ்டிரத்தின் உள்ளூர் அரசியல் — தமிழ்நாட்டுக்கு நேரடித் த
+[skip] உலக செய்திக்கும் (world) தமிழ்நாட்டு வாசகருக்கு முக்கியம் அல
+[skip] ஆங்கில கவுண்டி கிரிக்கெட் — தமிழ்நாடு/இந்தியவாசகரைப் பாதிக்க
+[publish] ரஜினிகாந்த் நடிப்பில் தர்மன் பொங்கல் வெளியீடு
+[skip] இந்தச் செய்தி இந்திய தேர்தல் ஆணையம் (EC) மற்றும் உச்ச நீதிமன
+[skip] வெளிநாட்டு பொருளாதாரக் கொள்கை — தமிழ்நாடு அல்லது இந்தியாவுடன
+[திருத்தம்] ஆசிய விளையாட்டு 2026: ஐவர் தடகள வீரர்கள் → ஆசிய விளையாட்டு 2026: ஐவர் தடகள வீரர்கள்
+[தரம்] தமிழ் அல்லாத எழுத்து: न → ஒரு திருத்தம்
+[publish] ஆசிய விளையாட்டு 2026: ஐவர் தடகள வீரர்கள் இறுதிப் போட்டிக்குத் தகுதி பெற்றனர்.
+[skip] பிற நாட்டுக் அறிவிப்பு — தமிழ்நாடு அரசு அல்லது மத்திய அரசின்
+[skip] இது டெல்லி மாநிலத்தின் உள்ளூர்ச் செய்தி; தமிழ்நாட்டுடன் தொடர
+[skip] வெளிநாட்டு உள்ளூர் அரசியல் — ஜிபூட்டி, யேமன் ந难民危機 தமிழ்நாடு
+[skip] Asian Games 2026 இன்னும் நடந்து கொண்டிருப்பதாக வெளிப்படையான 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTgn28UrQ9SeowKMJDtf'}
+[திருத்தம்] தேர்தல் ஆணையத்தின் நம்பகத்தன்மைக்கு ஞானே → தேர்தல் ஆணையத்தின் நம்பகத்தன்மையைக் காப்
+[தரம்] தமிழ் அல்லாத எழுத்து: রি → ஒரு திருத்தம்
+[publish] தேர்தல் ஆணையத்தின் நம்பகத்தன்மையைக் காப்பாற்ற ஞானேஷ் குமார் பதவி விலக வேண்டும்: சு. வெங்கடேசன்
+[skip] உத்தரப் பிரதேச மாநிலத்தின் உள்ளூர்க் குற்றச் சம்பவம் - தமிழ்
+[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — பாகிஸ்தானின் உள்ளூர் பாதுகாப
+[publish] சாதிப் பெயர்கள் நீக்கம்: மாவட்ட ஆட்சியர்களுக்கு தமிழக ஆணையம் உத்தரவு
+[skip] மூல உரை முழுவதும் தெளிவான செய்திக் கட்டமைப்பு, நிரலான தথ்যம்
+[skip] மூலச் செய்தியில் அரசு அடையாளம் தொடர்பான முரண்பாடு உள்ளது (TV
+[skip] வெளிநாட்டு உள்ளூர் நிகழ்வு — பான்சிற்கு தமிழ்நாடு/இந்தியத் த
+[திருத்தம்] தேர்தல் ஆணையர் ஞானேஷ் குமார் பதவி விலக வ → தேர்தல் ஆணையத்தின் நம்பகத்தன்மையைக் காப்
+[நகல்] ஏற்கனவே வெளியானது: தேர்தல் ஆணையத்தின் நம்பகத்தன்மையைக் காப்பாற்ற ஞானேஷ் குமார் 
+[skip] பொருளாதாரப் பூண்டணி (commodity markets, crude oil) — அரசு அற
+[skip] இது அசாமின் உள்ளூர் அரசியல் நிகழ்வு - தமிழ்நாட்டுடன் தொடர்பி
+[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியா வாசகருக்கு நேர
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான போதிய விவரங்கள
+[skip] இது தமிழ்நாட்டுக்குப் பொருந்தாத வெளிநாட்டு நிறுவனங்களின் வில
+[skip] மூலத்தில் குறிப்பிட்ட நிகழ்வு, தேதி, எண் விவரங்கள் இல்லை; பொ
+[skip] வெளிநாட்டின் உள்ளூர் அரசியல் — வட ஐரிலாந்து மதச் சண்டை. தமிழ
+[திருத்தம்] இந்தியா மற்றும் ஆஸ்திரேலியா U-19 பலকாரத் → இந்தியா மற்றும் ஆஸ்திரேலியா U-19 பலகாரத்
+[தரம்] தமிழ் அல்லாத எழுத்து: জ → ஒரு திருத்தம்
+[publish] இந்தியா மற்றும் ஆஸ்திரேலியா U-19 பலகாரத் தொடர் தொடங்கியது
+[publish] ஒடிசாவின் ஐஸ்வர்யா இந்தியாவின் முதல் திருநங்கை அரசு அதிகாரி
+[filler] world கட்டுரை
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: தேர்தல் ஆணையத்தின் நம்பகத்தன்மை: கேள்விக் குறியா, தராசு நடுவா?
 [image] களஞ்சியம் (2 சொல்): ரூ. 55,900 கோடி அந்நிய முதலீட்டை ஈ
 [image] 4 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13668 · சென்செக்ஸ் 73896
