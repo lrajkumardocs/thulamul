@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f26b5b0e210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2437887a50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 1 புதியவை
 [fetch] Dinamani Govt: 11 புதியவை
 [fetch] Times Govt Schemes: 14 புதியவை
@@ -68,13 +68,18 @@
 [fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
 [run] புதியவை 380 → நிகழ்வுகள் 374
-[triage] 374 → 5 | காலி: crime:3, jobs:3, court:2, assembly:2
+[triage] சேமித்த மதிப்பெண் (362) — புதிய அழைப்பு இல்லை
+[triage] 374 → 9 | காலி: crime:3, jobs:3, court:2, assembly:2
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUnFJCx9jsAjThSbGa9u'}
+[திருத்தம்] செஸ் ஒலிம்பியாடில் இந்தியா வெள்ளி, வெண்க → செஸ் ஒலிம்பியாடில் இந்திய ஆடவருக்கு வெள்
+[தரம்] தமிழ் அல்லாத எழுத்து: मনশ → ஒரு திருத்தம்
+[tts-edge] e84677447203: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] செஸ் ஒலிம்பியாடில் இந்திய ஆடவருக்கு வெள்ளி; மகளிருக்கு வெண்கலம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (யார் கோரிக்கை வ
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MSSRF sets up water ATM at Perungudi heat study 
 [editorial] பிழை 'question'
-[market] தங்கம் 22K ₹13579 · சென்செக்ஸ் 73896
+[market] தங்கம் 22K ₹13595 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 0
+[done] feed 300 · pending 1 · எழுதியவை 1
