@@ -1,5 +1,131 @@
 [
  {
+  "headline": "தமிழ்நாட்டில் நாளை 19 மாவட்டங்களில் மழைக்கு வாய்ப்பு",
+  "lines": [
+   "தமிழ்நாட்டில் நாளை 19 மாவட்டங்களில் மழை பெய்யக்கூடும் என வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "மாநிலம் முழுவதும் பரவலான மழை நிலவும் என எண்ணிக்கை அடிப்படையில் அறிவிக்கப்பட்டுள்ளது.",
+   "வானிலை ஆய்வு மையம் இந்த எச்சரிக்கையை வெளியிட்டுள்ளது.",
+   "பாதிக்கப்படும் மாவட்டங்களின் பெயர்கள் தொடர்பான விரிவான தகவல்கள் இன்னும் வெளியிடப்படவில்லை.",
+   "மழை நிலவும் பகுதிகளில் மக்கள் முன்னெச்சரிக்கை நடவடிக்கை எடுக்குமாறு அறிவுறுத்தப்பட்டுள்ளனர்."
+  ],
+  "closing": "வானிலை ஆய்வு மையத்தின் அடுத்த புதுப்பிப்பில் பாதிக்கப்படும் மாவட்டங்களின் விரிவான பட்டியல் வெளியாகக்கூடும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தமிழ்நாடு",
+   "வானிலை ஆய்வு மையம்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Tamil Nadu likely to receive rain in 19 districts tomorrow",
+   "lines": [
+    "The Meteorological Department has said rain is likely in nineteen districts of Tamil Nadu tomorrow.",
+    "Widespread rainfall is expected across the state based on this forecast.",
+    "The weather department has issued this alert.",
+    "Detailed information about the specific districts affected has not yet been released.",
+    "People in the affected areas have been advised to take precautionary measures."
+   ],
+   "closing": "The next update from the weather department may provide a detailed list of the affected districts."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "Tamil Nadu rain weather",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "665ebdb624f7",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-27T15:36+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/rain-expected-in-19-districts-of-tamil-nadu-tomorrow"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/665ebdb624f7.mp3",
+  "created_ts": 1790503620.9096339,
+  "status": "published"
+ },
+ {
+  "headline": "பிரகதீஸ்வரர் கோயிலில் அபிஷேகத்துக்குக் கூட தண்ணீர் இல்லை என அர்ச்சகர் குற்றச்சாட்டு",
+  "lines": [
+   "கங்கைகொண்ட சோழபுரத்தில் உள்ள பிரகதீஸ்வரர் கோயிலில் அர்ச்சகர் ஒருவர் பல குற்றச்சாட்டுகளை முன்வைத்துள்ளார்.",
+   "அபிஷேகத்திற்குக் கூட போதிய தண்ணீர் கிடைக்கவில்லை என அவர் தெரிவித்துள்ளார்.",
+   "கோயில் நிர்வாக நடைமுறைகளில் பல குறைபாடுகள் இருப்பதாக அர்ச்சகர் குற்றம் சாட்டியுள்ளார்.",
+   "இது தொடர்பாக இந்து சமய அறநிலையத் துறையிடம் இருந்து அதிகாரப்பூர்வ பதில் இதுவரை வெளியாகவில்லை.",
+   "குற்றச்சாட்டுகள் குறித்து தொடர்பு துறை என்ன நடவடிக்கை எடுக்கும் என்பது கவனிக்கப்பட வேண்டும்."
+  ],
+  "closing": "சோழர் கால கட்டிடக்கலைக்குச் சான்றாக விளங்கும் இந்தக் கோயில் யுனெஸ்கோ உலக பாரம்பரியத் தளமாக அறியப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "கங்கைகொண்ட சோழபுரம்",
+   "பிரகதீஸ்வரர் கோயில்",
+   "அர்ச்சகர்",
+   "இந்து சமய அறநிலையத் துறை"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Priest raises multiple complaints against Gangaikonda Cholapuram temple",
+   "lines": [
+    "A priest at the Piragatheswarar temple in Gangaikonda Cholapuram has raised several complaints.",
+    "He stated that there is not even enough water available for the ritual abhishekam.",
+    "The priest alleged multiple lapses in the temple's administrative practices.",
+    "There has been no official response so far from the Hindu Religious and Charitable Endowments department.",
+    "It remains to be seen what action the department will take regarding these complaints."
+   ],
+   "closing": "The temple, a fine example of Chola-era architecture, is recognised as a UNESCO World Heritage Site."
+  },
+  "front_cat": "routine",
+  "image_query": "Brihadeeswarar Temple Gangaikonda Cholapuram",
+  "wiki_subject": "Gangaikonda Cholapuram",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "8deffb7b6b85",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-27T15:36+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/priest-levels-a-series-of-allegations-at-the-gangaikondacholapuram-brihadeeswara-temple"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/GangaiKonda_Cholapuram%28Front_View%29.JPG/3840px-GangaiKonda_Cholapuram%28Front_View%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Gangaikonda Cholapuram",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Gangaikonda_Cholapuram",
+   "symbolic": false
+  },
+  "audio": "data/audio/8deffb7b6b85.mp3",
+  "created_ts": 1790503572.4969563,
+  "status": "published"
+ },
+ {
   "headline": "டாஸ்மாக் கடையை இடமாற்ற வலியுறுத்தி குடையுடன் போராட்டம்",
   "lines": [
    "ஒரு பகுதியில் உள்ள டாஸ்மாக் கடையை வேறு இடத்திற்கு மாற்ற வேண்டும் என வலியுறுத்தி உள்ளூர் மக்கள் போராட்டம் நடத்தினர்.",
@@ -3195,196 +3321,6 @@
   },
   "audio": "data/audio/a4e5cd2b0341.mp3",
   "created_ts": 1789894071.741897,
-  "status": "published"
- },
- {
-  "headline": "வங்காள விரிகுடாவில் காற்றழுத்த தாழ்வுப் பகுதி உருவாக்கம்",
-  "lines": [
-   "வங்காள விரிகுடாவின் வடக்கு அந்தமான் கடல் பகுதியில் புதிதாக காற்றழுத்த தாழ்வுப் பகுதி உருவாகியுள்ளது.",
-   "இது வரும் நாட்களில் மேலும் வலுவடையக்கூடும் என வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
-   "இதன் தாக்கத்தால் தமிழ்நாடு உள்ளிட்ட கடலோர மாநிலங்களில் மழை பெய்யக்கூடும் என அறிவிக்கப்பட்டுள்ளது.",
-   "இந்த தாழ்வுப் பகுதியின் நகர்வுப் பாதையை வானிலை ஆய்வு மையம் தொடர்ந்து கண்காணித்து வருகிறது.",
-   "இது புயலாக மாறுமா என்பது குறித்து அடுத்த சில நாட்களில் விரிவான அறிவிப்பு வெளியிடப்படும் என தெரிவிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "இந்த தாழ்வுப் பகுதி எவ்வாறு வளர்கிறது என்பதைப் பொறுத்தே தமிழ்நாட்டில் அடுத்த சில நாட்களில் மழையின் அளவு தீர்மானிக்கப்படும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "வங்காள விரிகுடா",
-   "வடக்கு அந்தமான் கடல் பகுதி",
-   "தமிழ்நாடு",
-   "வானிலை ஆய்வு மையம்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Low Pressure Area Forms in Bay of Bengal Near Andamans",
-   "lines": [
-    "A low pressure area has newly formed over the North Andaman Sea in the Bay of Bengal.",
-    "The weather department has said it is likely to intensify further in the coming days.",
-    "Its impact could bring rain to Tamil Nadu and other coastal states, officials have indicated.",
-    "The weather department continues to monitor the movement path of this low pressure area.",
-    "A detailed update on whether it will turn into a cyclone will be issued in the coming days."
-   ],
-   "closing": "How this low pressure area develops in the coming days will determine the extent of rainfall in Tamil Nadu."
-  },
-  "front_cat": "disaster_warning",
-  "image_query": "Bay of Bengal weather satellite",
-  "wiki_subject": "Bay of Bengal",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "2ec3951b343c",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-20T14:08+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/20/a-low-pressure-area-has-formed-over-the-north-andaman-sea"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Bay_of_Bengal_map.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Bay of Bengal",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Bay_of_Bengal",
-   "symbolic": false
-  },
-  "audio": "data/audio/2ec3951b343c.mp3",
-  "created_ts": 1789893520.7196236,
-  "status": "published"
- },
- {
-  "headline": "மதுராந்தகம், தாராபுரம் தொகுதிகளில் அக்டோபர் ஆறாம் தேதி பொது விடுமுறை",
-  "lines": [
-   "மதுராந்தகம் மற்றும் தாராபுரம் சட்டமன்றம் தொகுதிகளுக்கான இடைத்தேர்தல் அக்டோபர் ஆறாம் தேதி நடைபெறுகிறது.",
-   "இந்த இரு தொகுதிகளிலும் வரும் அக்டோபர் ஆறாம் தேதி பொது விடுமுறை அறிவிக்கப்பட்டுள்ளது.",
-   "அரசு அலுவலகங்கள், பள்ளிகள், கல்லூரிகள் அன்றைய தினம் மூடப்பட உள்ளதாக மாவட்ட நிர்வாகம் தெரிவித்துள்ளது.",
-   "வாக்காளர்கள் தடையின்றி வாக்களிக்கும் வகையில் இந்த ஏற்பாடு செய்யப்பட்டதாக அதிகாரிகள் தெரிவித்தனர்.",
-   "வாக்கு எண்ணிக்கை பின்னர் தேர்தல் ஆணையத்தால் அறிவிக்கப்படும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "தமிழ்நாட்டில் காலியாக உள்ள இரு சட்டமன்றம் தொகுதிகளுக்கு இந்த இடைத்தேர்தல் நடத்தப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "மதுராந்தகம்",
-   "தாராபுரம்",
-   "இடைத்தேர்தல்",
-   "அக்டோபர் 6"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Public holiday declared in Madurantakam, Dharapuram for October 6 bypolls",
-   "lines": [
-    "By-elections for the Madurantakam and Dharapuram assembly constituencies will be held on October 6.",
-    "A public holiday has been declared in both constituencies for that day.",
-    "Government offices, schools and colleges will remain closed on the day, district administration officials said.",
-    "Officials said the arrangement was made to allow voters to cast their ballots without hindrance.",
-    "The counting date is expected to be announced later by the Election Commission."
-   ],
-   "closing": "The by-elections are being held to fill two vacant assembly seats in Tamil Nadu."
-  },
-  "front_cat": "election_major",
-  "image_query": "polling booth election Tamil Nadu",
-  "wiki_subject": "Madurantakam",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "92b4567bd1e1",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-20T14:04+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/public-holiday-declared-in-madurantakam-dharapuram-on-october-6-for-bypolls/article71484591.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Madhuranthakan2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Maduranthakam",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Maduranthakam",
-   "symbolic": false
-  },
-  "audio": "data/audio/92b4567bd1e1.mp3",
-  "created_ts": 1789893286.7961023,
-  "status": "published"
- },
- {
-  "headline": "தவெக ஆட்சி வந்தால் விலைவாசி உயரும் என எடப்பாடி பழனிசாமி குற்றச்சாட்டு",
-  "lines": [
-   "அதிமுக பொதுச்செயலாளர் எடப்பாடி பழனிசாமி, தமிழக வேற்றுமை கழகம் ஆட்சிக்கு வந்தால் விலைவாசி கடுமையாக உயரும் என குற்றம் சாட்டினார்.",
-   "தமிழக சட்டமன்றம் தேர்தலை முன்னிட்டு நடைபெறும் அரசியல் நிகழ்வொன்றில் இந்தக் கருத்தை அவர் தெரிவித்தார்.",
-   "தவெக கட்சியின் கொள்கைகள் பொதுமக்களுக்குப் பொருளாதார ரீதியாகப் பாதிப்பை ஏற்படுத்தும் என அவர் கூறினார்.",
-   "இக்குற்றச்சாட்டு குறித்து தவெக கட்சியிடமிருந்து இதுவரை உத்தியோகபூர்வ பதில் வெளியிடப்படவில்லை.",
-   "தேர்தல் நெருங்கும் நிலையில் கட்சிகளுக்கு இடையே இதுபோன்ற குற்றச்சாட்டுகள் தொடர வாய்ப்புள்ளது."
-  ],
-  "closing": "தமிழக சட்டமன்றம் தேர்தலை முன்னிட்டு அரசியல் கட்சிகளுக்கு இடையேயான குற்றச்சாட்டுகள் தீவிரமடைந்து வருகின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "எடப்பாடி பழனிசாமி",
-   "அதிமுக",
-   "தமிழக வேற்றுமை கழகம்",
-   "விலைவாசி"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Palaniswami Claims Prices Will Skyrocket Under TVK Rule",
-   "lines": [
-    "AIADMK General Secretary Edappadi Palaniswami alleged that prices would rise sharply if the Tamilaga Vettri Kazhagam comes to power.",
-    "He made the remark at a political event ahead of the Tamil Nadu assembly elections.",
-    "He claimed TVK's policies would economically burden the common people.",
-    "TVK has not issued an official response to the allegation so far.",
-    "Such accusations between parties are likely to continue as the election approaches."
-   ],
-   "closing": "Political allegations between parties are intensifying ahead of the Tamil Nadu assembly elections."
-  },
-  "front_cat": "routine",
-  "image_query": "Edappadi K Palaniswami",
-  "wiki_subject": "Edappadi K. Palaniswami",
-  "person_en": "Edappadi K. Palaniswami",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "e3f4861a547b",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-20T00:56+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/19/skyrocketing-prices-under-tvk-governance-edappadi-palaniswamis-allegation"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/K._Palaniswami.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Edappadi K. Palaniswami",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Edappadi_K._Palaniswami",
-   "symbolic": false
-  },
-  "audio": "data/audio/e3f4861a547b.mp3",
-  "created_ts": 1789845983.7811904,
   "status": "published"
  }
 ]
