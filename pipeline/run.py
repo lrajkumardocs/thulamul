@@ -1257,25 +1257,30 @@ def bank_best(topic, text=""):
                     rare += 1
         return n, rare
 
-    best, bs = None, 0
+    same, ss = None, 0                 # அதே துறையில் சிறந்தது
     for t, it, tags in _BANK_FLAT:
         if t != topic:
             continue
         n, _r = score(tags)
-        if n > bs:
-            best, bs = it, n
-    if bs >= 2:                        # அதே துறையில் வலுவான பொருத்தம்
-        return _bank_rec(best), bs
+        if n > ss:
+            same, ss = it, n
 
-    b2, s2 = None, 1                   # வேறு துறை — 2 சொல் + ஒரு அரிய சொல்
+    cross, cs = None, 1                # வேறு துறை — 2 சொல் + ஒரு அரிய சொல்
     for t, it, tags in _BANK_FLAT:
+        if t == topic:
+            continue
         n, rare = score(tags)
-        if n > s2 and rare >= 1:
-            b2, s2 = it, n
-    if b2 is not None:
-        return _bank_rec(b2), s2
-    if bs >= 1:                        # பலவீனம் — கடைசி வழியாக மட்டும்
-        return _bank_rec(best), bs
+        if n > cs and rare >= 1:
+            cross, cs = it, n
+
+    if ss >= 2:                        # அதே துறையில் வலுவான பொருத்தம் — இதுவே சிறந்தது
+        return _bank_rec(same), ss
+    if cross is not None and cs > ss + 1:   # வேறு துறை தெளிவாக மேலானால் மட்டும்
+        return _bank_rec(cross), cs
+    if ss >= 1:                        # அதே துறை — பலவீனமானாலும் பொருத்தமானது
+        return _bank_rec(same), ss
+    if cross is not None:
+        return _bank_rec(cross), cs
     return None, 0
 
 
@@ -1343,7 +1348,9 @@ def pick_image(c, story=None):
         if im:
             im["symbolic"] = False
             return im
-        return None
+        # நபரின் படம் இல்லை → துறைக்கு ஏற்ற களஞ்சியப் படம்
+        # (படமே இல்லாததைவிட, பொருத்தமான குறியீட்டுப் படம் மேல்)
+        return bk or bank_image(topic, story.get("headline"), txt)
 
     # 2) களஞ்சியத்தில் வலுவான பொருத்தம் (2+ குறிச்சொல்) →
     #    பொது stock படத்தைவிட இதுவே துல்லியம்
@@ -1846,6 +1853,8 @@ def main():
             im = x.get("image") or {}
             if not im.get("url"):
                 continue
+            if im.get("bank") or str(im.get("url", "")).startswith("data/bank/"):
+                continue          # களஞ்சியப் படம் — நம்முடையது, குறிச்சொல்லால் பொருத்தியது
             q = (x.get("image_query") or "").strip()
             per = (x.get("person_en") or "").strip()
             u = (im.get("url") or "").lower()
