@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 15 புதியவை
+[fetch] ET Markets: 11 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 8 புதியவை
-[fetch] Dinamani TN: 15 புதியவை
+[fetch] Dinamani TN: 11 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
-[fetch] BBC World: 9 புதியவை
+[fetch] BBC World: 8 புதியவை
 [fetch] Al Jazeera: 8 புதியவை
-[fetch] ESPNcricinfo: 25 புதியவை
-[fetch] The Hindu Sport: 22 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
+[fetch] The Hindu Sport: 20 புதியவை
 [fetch] The Hindu Cinema: 20 புதியவை
 [fetch] Cinema Express: 23 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 11 புதியவை
+[fetch] The Hindu Health: 9 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 8 புதியவை
+[fetch] The Hindu Legal: 5 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 8 புதியவை
+[fetch] The Hindu National: 5 புதியவை
 [fetch] NDTV India: 13 புதியவை
 [fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,62 +56,43 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f19a7b8fe50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 8 புதியவை
-[fetch] Dinamani Govt: 15 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff957aeaf10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 5 புதியவை
+[fetch] Dinamani Govt: 11 புதியவை
 [fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 17 புதியவை
+[fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 454 → நிகழ்வுகள் 440
-[triage] 440 → 28 | காலி: tn:3, court:3, crime:3, jobs:3, sports:3
-[skip] Virat Kohli is an Indian cricketer, but this is a generic in
-[skip] செர்பியாவின் உள்நாட்டு அரசியல் நிகழ்வு. தமிழ்நாடு/இந்தியாவுக
-[skip] வெளிநாட்டு அரசுகளின் இருதரப்பு உறவுகொள்கை — தமிழ்நாடு / இந்த
-[tts-edge] b8a7af534738: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] செங்கல்பட்டில் சுன் பார்மா விரிவாக்கம் செயல்படவில்லை என TNPCB தகவல்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUa9XV6eufQgB1WUuKJm'}
-[skip] வெளிநாட்டு cricket tournament — பாகிஸ்தான் vs ஹாங்காங் ஒரு ச
-[tts-edge] 9727a4ff4a46: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகத்தில் திமுக வெற்றி பெற்றால் பதவி விலகுவேன்: உதயநிதிக்கு ஆதவ் அர்ஜுனா சவால்
-[skip] ஆங்கிலேயத் ক্রীড়া ওয়েবসাইட்ट்ட்டத்தின் நபர் நேர்காணல் மட்ட
-[skip] சுவிஸ் நடுநிலைக் கொள்கை - தமிழ்நாடு / இந்திய வாசகரை நேரடியாக
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, என்ன சம்பவம் என்பது பற்றிய
-[skip] வெளிநாட்டுத் தொடர் — இந்தியாவின் ஆட்டத்தை விளையாட்டு வல்லுநர
-[skip] பிற மாநிலத்தின் உள்ளூர் சர்ச்சை — மத்திய அரசின் தேசிய நীতி அ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUaKaYgTXJKopiczEkti'}
-[திருத்தம்] சதுரங்கத் தேசிய விளையாட்டுக்களத்தில் இந் → சதுரங்க ஒலிம்பியாडுல் இந்தியா வெள்ளி பதக
-[தரம்] தமிழ் அல்லாத எழுத்து: ड → ஒரு திருத்தம்
-[publish] சதுரங்க ஒலிம்பியாட்டில் இந்தியா வெள்ளி பதக்கம்; மகளிர் அணி வெண்கலம் பெற்றாள்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை உறுதியாக எழுத போத
-[திருத்தம்] ஆசிய விளையாட்டு: கபடி பொன்னுக்கு இந்தியா → ஆசிய விளையாட்டு: கபடியில் இந்தியா இரட்டை
-[image] களஞ்சியம் (2 சொல்): ஆசிய விளையாட்டு: கபடியில் இந்தியா 
-[publish] ஆசிய விளையாட்டு: கபடியில் இந்தியா இரட்டைப் பொன்னுக்கு
-[திருத்தம்] சட்டம் ஒழுங்கு தகவல் கட்டுப்பாடு குறித்த → சட்டம் - ஒழுங்கு தகவல் பெறுவதில் கட்டுப்
-[publish] சட்டம் - ஒழுங்கு தகவல் பெறுவதில் கட்டுப்பாடு ஏன்? அமைச்சர் நிர்மல்குமார் விளக்கம்
-[திருத்தம்] ஆசிய விளையாட்டுப் போட்டিகளில் இந்திய பெண → ஆசிய விளையாட்டுப் போட்டிகளில் இந்திய பெண
-[தரம்] தமிழ் அல்லாத எழுத்து: রি → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): ஆசிய விளையாட்டுப் போட்டிகளில் இந்த
-[publish] ஆசிய விளையாட்டுப் போட்டிகளில் இந்திய பெண் கபடி அணி நான்காம் தங்கப் பதக்கம் வென்றது.
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUaasusPxSvcsduYJfv3'}
-[திருத்தம்] ஜப்பான் ஆசிய விளையாட்டில் தொடர்ந்து இரண் → ஜப்பானில் வெள்ளிப் பதக்கம் — கேரளாவின் ந
-[தரம்] தமிழ் அல்லாத எழுத்து: া → ஒரு திருத்தம்
-[publish] ஜப்பானில் வெள்ளிப் பதக்கம் — கேரளாவின் நாட்டிகாவில் கொண்டாட்டம்
+[run] புதியவை 423 → நிகழ்வுகள் 413
+[triage] சேமித்த மதிப்பெண் (411) — புதிய அழைப்பு இல்லை
+[triage] 413 → 17 | காலி: crime:3, jobs:3, court:2, govt:2, assembly:2
+[skip] வெளிநாட்டுத் தொழில்நுட்பப் பொதிப்பு நிறுவனத்தின் அமெரிக்க அர
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: சுற்றுலாத் துறை மாணவர்களுக்கு பயிற
+[tts-edge] 79bbd6f63a00: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சுற்றுலாத் துறை மாணவர்களுக்கு பயிற்சி வாய்ப்பு பரிசீலனையில் தமிழக அரசு
+[skip] இது பஞ்சாப் மாநில உள்ளூர் அரசியல் செய்தி - அகாலி தளம் மற்றும
+[skip] வெளிநாட்டு உள்நாட்டுக் குழப்பம் — தமிழ்நாடு/இந்தியாவுக்கு நே
+[skip] ஆசிய விளையாட்டு — இந்திய பெண்கள் ஹாக்கி அணி சிங்கப்பூரை 7-0 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUd7Yj4AH7TfXjxbBywG'}
+[skip] வெளிநாட்டு அரசியல் — கியூபா-அமெரிக்கா இருதரப்பு சர்ச்சை. தமி
+[skip] வெளிநாட்டு ক্রীড়াবিদের வெளிநাட்டு விளையாட்டு மொசடி குறித்த 
+[skip] வெளிநாட்டுத் தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்தியா தொடர்பு
+[skip] செர்பியாவின் உள்நாட்டு அரசியல் நிகழ்வு — தமிழ்நாடு/இந்தியாவு
+[skip] இஸ்ரேல்-பாலஸ்தீன மணிக்க உறவு பற்றிய வெளிநாட்டுத் துறை விசயம்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
-[skip] கேரளாவின் உள்ளூர் விளையாட்டு வீரர் செய்தி — தமிழ்நாட்டுக்குத
-[திருத்தம்] நிகোடின் பொட்டிகளுக்கு எதிரான நடவடிக்கை  → நிகோடின் பொட்டிகளுக்கு எதிரான நடவடிக்கை 
-[publish] நிகோடின் பொட்டிகளுக்கு எதிரான நடவடிக்கை — சுகாதாரக் கோச்சரம்
-[skip] இது அமெரிக்க இயற்கை எரிவாயு சந்தை பற்றிய நிபுணத்துவ பகுப்பாய
+[skip] உள்ளூர் சாலைப் பொதுசாதனம் — வெள்ளரையூர் அல்லது ஒரு நகரத்தின்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
-[skip] திரிபுரா மாநிலத்தின் உள்ளூர் அரசியல் சம்பவம். தமிழ்நாட்டுக்க
-[publish] பெண்களின் ஆரோக்கியம் முக்கியம் என நிபுணர்
+[skip] வெளோரில் நடந்த சமையல் போட்டி என்பது உள்ளூர் நிகழ்வு. அரசு அற
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MSSRF sets up water ATM at Perungudi heat study 
+[திருத்தம்] கார்ஸ்24 நிறுவனம் அடுத்த ஆண்டு ஐபிஓ வரைவ → கார்ஸ்24 நிறுவனம் ஏப்ரல் 2026-க்குள் ஐபி
+[தரம்] தமிழ் அல்லாத எழுத்து: আ → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): கார்ஸ்24 நிறுவனம் ஏப்ரல் 2026-க்கு
+[tts-edge] f61ac04d4a0b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கார்ஸ்24 நிறுவனம் ஏப்ரல் 2026-க்குள் ஐபிஓ வரைவு தாக்கல் திட்டம்
 [market] தங்கம் 22K ₹13665 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[image] 2 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 9
+[done] feed 300 · pending 1 · எழுதியவை 2
