@@ -1,12 +1,12 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 9 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 5 புதியவை
-[fetch] Dinamani TN: 11 புதியவை
+[fetch] The Hindu TN: 3 புதியவை
+[fetch] Dinamani TN: 12 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 8 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] Al Jazeera: 3 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
 [fetch] The Hindu Cinema: 20 புதியவை
 [fetch] Cinema Express: 23 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 3 புதியவை
+[fetch] The Hindu Legal: 2 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 8 புதியவை
-[fetch] The Hindu National: 3 புதியவை
+[fetch] The Hindu National: 2 புதியவை
 [fetch] NDTV India: 12 புதியவை
 [fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 22 புதியவை
+[fetch] Sportstar: 23 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4aea46ced0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 3 புதியவை
-[fetch] Dinamani Govt: 11 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa2b66ccd10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 2 புதியவை
+[fetch] Dinamani Govt: 12 புதியவை
 [fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,27 +67,35 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 407 → நிகழ்வுகள் 399
+[run] புதியவை 399 → நிகழ்வுகள் 392
 [triage] சேமித்த மதிப்பெண் (411) — புதிய அழைப்பு இல்லை
-[triage] 399 → 15 | காலி: crime:3, jobs:3, court:2, govt:2, assembly:2
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUebTyTAFAg1G71p2U99'}
-[skip] வெளிநாட்டுச் செய்தி — தமிழ்நாடு அல்லது இந்தியாவுக்குப் பொருத
-[skip] வெளிநாட்டுக் கிரிக்கெட் தொடர் — ওয়েস্ট இন্டিজ் எதிரான ODI. 
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர், தமிழ்நாடு/இந்தியாவுடன் தொடர்பு
-[skip] வெளிநாட்டு உள்நாட்டு மோதல் — யேமன் உள்ளுறவு மோதல் தமிழ்நாடு/
-[skip] வெளிநாட்டுப் போர்/மோதல் — இஸ்রேல்-லெபனான் மோதல் தமிழ்நாட்டு 
-[skip] இங்கிலாந்தின் உள்ளூர் சட்டம் ஒழுங்குச் செய்தி. தமிழ்நாடு/இந்
-[skip] வெளிநாட்டு உள்நாட்டுப் போர் — தமிழ்நாடு/இந்தியவாசகரைப் பாதிக
-[skip] வெளிநாட்டு உள்ளூர் குற்றச் சம்பவம் — தமிழ்நாட்டு/இந்திய வாசக
+[triage] 392 → 23 | காலி: crime:3, jobs:3, court:2, assembly:2, india:1
+[skip] இது கர்நாடக மாநில மின்சார அமைச்சரின் உள்ளூர் அறிக்கை; தமிழ்ந
+[தரம்] தமிழ் அல்லாத எழுத்து: दाজদরাৎು → ஒரு திருத்தம்
+[tts-edge] 1bbb5c5bd692: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தற்போது மின் நெருக்கடி இல்லை என முதல்வர்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUhd7b1by2UwuKS4JdWA'}
+[skip] வெளிநாட்டு விளையாட்டு நிகழ்வு — தமிழ்நாடு/இந்தியாவுக்குப் பொ
+[skip] மூல உரை অসম்பூர্ணமாக உள்ளது — தலைப்பு மட்டுமே கொடுக்கப்பட்டு
+[skip] இது உத்தரப் பிரதேசத்தின் ஒரு மாவட்டத்தில் நடந்த உள்ளூர் இயற்
+[தரம்] தமிழ் அல்லாத எழுத்து: তস → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): விசிக-வில் விரைவில் மாவட்டச் செயலா
+[tts-edge] 684c99d5ce4c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] விசிக-வில் விரைவில் மாவட்டச் செயலாளர்கள் தேர்தல்
+[நகல்] ஏற்கனவே வெளியானது: விசிக-வில் விரைவில் மாவட்டச் செயலாளர்கள் தேர்தல்
+[skip] பிற மாநிலத்தின் உள்நாட்டு விசயம். தமிழ்நாட்டுக்கும் தேசிய அள
+[skip] வெளிநாட்டு கால்பந்து ஐரோப்பா நாடுகளுக்கிடையிலான ஆட்டம். தமிழ
+[skip] இது குஜராத் மாநிலத்தின் உள்ளூர் மருத்துவ சம்பவம், தமிழ்நாட்ட
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] இந்தியா கனடா உறவுகள் அடுத்தகட்டத்தை நோக் → அடுத்தகட்டத்தை நோக்கி இந்தியா-கனடா உறவுக
+[publish] அடுத்தகட்டத்தை நோக்கி இந்தியா-கனடா உறவுகள்: எஸ். ஜெய்சங்கர்
+[image] களஞ்சியம் (3 சொல்): நீட் வினாத்தாள் கசிவு: என்டிஏ அலுவ
+[publish] நீட் வினாத்தாள் கசிவு: என்டிஏ அலுவலகத்திற்கு சிஐஎஸ்எஃப் பாதுகாப்பு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள் (அளவு, தேதி, நிற
+[publish] ஐ.நா. பாதுகாப்பு கவுன்சிலில் இந்தியாவுக்கு ரஷியா ஆதரவு தெரிவிப்பு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
-[திருத்தம்] ரணிபேட்டுக் காவல் நிலையம் பறிமுதல் செய்த → ரணிபேட்டு காவல் நிலையம் மீட்டெடுக்கப்பட்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ரணிபேட்டு காவல் நிலையம் மீட்டெடுக்
-[tts-edge] ef92099dc57d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ரணிபேட்டு காவல் நிலையம் மீட்டெடுக்கப்பட்ட ஸ்மார்ட்ஃபோன்களை உரியவர்களுக்கு ஒப்படைத்தது
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
-[skip] ஒரு வரிக்கு மேல் விவரம் அல்லது சரியான தமிழ் மூல உரை இல்லை. ப
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MSSRF sets up water ATM at Perungudi heat study 
 [market] தங்கம் 22K ₹13665 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 1
+[done] feed 300 · pending 1 · எழுதியவை 5
