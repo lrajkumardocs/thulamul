@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 13 புதியவை
-[fetch] Dinamani TN: 21 புதியவை
+[fetch] The Hindu TN: 10 புதியவை
+[fetch] Dinamani TN: 17 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 15 புதியவை
-[fetch] Al Jazeera: 13 புதியவை
+[fetch] BBC World: 11 புதியவை
+[fetch] Al Jazeera: 10 புதியவை
 [fetch] ESPNcricinfo: 27 புதியவை
 [fetch] The Hindu Sport: 23 புதியவை
 [fetch] The Hindu Cinema: 27 புதியவை
 [fetch] Cinema Express: 26 புதியவை
-[fetch] The Hindu Tech: 18 புதியவை
+[fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 8 புதியவை
+[fetch] FreeJobAlert: 6 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 13 புதியவை
+[fetch] The Hindu Legal: 12 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 23 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 13 புதியவை
+[fetch] The Hindu National: 12 புதியவை
 [fetch] NDTV India: 12 புதியவை
 [fetch] India Today: 8 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,41 +56,32 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9c54eba710>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 13 புதியவை
-[fetch] Dinamani Govt: 21 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f99b8e404d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 12 புதியவை
+[fetch] Dinamani Govt: 17 புதியவை
 [fetch] Times Govt Schemes: 8 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 547 → நிகழ்வுகள் 516
-[triage] 516 → 19 | காலி: world:2, jobs:2, assembly:2, crime:1, health:1
-[திருத்தம்] கரூரில் விஜய் பொதுக்கூட்டத்தில் கூட்டநெர → கரூரில் விஜய்ய பொதுக்கூட்டத்தில் கூட்டநெ
-[image] களஞ்சியம் (2 சொல்): கரூரில் விஜய்ய பொதுக்கூட்டத்தில் க
-[tts-edge] 11c2b6d9e8a9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கரூரில் விஜய்ய பொதுக்கூட்டத்தில் கூட்டநெரிசல் விபத்து
-[திருத்தம்] மாணிக்கம் தாக்கூர் வெற்றிக்கு எதிரான தேர → மாணிக்கம் தாக்கூர் வெற்றிக்கு எதிரான தேர
-[tts-edge] 8f154a283fa3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மாணிக்கம் தாக்கூர் வெற்றிக்கு எதிரான தேர்தல் மனு திரும்பப் பெறப்படவுள்ளது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரம்/உள்ளடக்க
-[publish] கரூர் சம்பவம் மனதில் மறையாத வலி என அமைச்சர் நிர்மல்குமார் கருத்து
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரமான உரை இல்லை. மேலும் 
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகருக்குப் ப
-[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — தமிழ்நாடு/இந்தியாவுக்குத் தொ
-[skip] தென்னாபிரிக்கா உள்நாட்டுக் குற்றச் சம்பவம் — தமிழ்நாடு/இந்தி
-[skip] தாய்லாந்தின் உள்நாட்டு விபத்து. தமிழ்நாடு/இந்திய வாசகரைப் பா
-[image] களஞ்சியம் (2 சொல்): நாய் இனங்களுக்கான மூச்சுக்குழாய் ஸ
-[publish] நாய் இனங்களுக்கான மூச்சுக்குழாய் ஸ்டென்ட் பயிற்சி பட்டறை சென்னையில் நடைபெற்றது
-[skip] ஹிமாச்சல் பிரதேஷ் அரசுத் தேர்வு — தமிழ்நாட்டுக்கு வேலைவாய்ப்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tracheal stents offer relief to dog breeds prone
-[skip] வெளிநாட்டு செய்தி — ஆஸ்திரேலியாவின் உள்ளூர் தரவுப் பாதுகாப்ப
-[skip] உத्तரப் பிரதேশ அரசு தேர்வின் செய்தி — தமிழ்நாட்டு வாசகருக்கு
+[run] புதியவை 520 → நிகழ்வுகள் 491
+[triage] சேமித்த மதிப்பெண் (475) — புதிய அழைப்பு இல்லை
+[triage] 491 → 19 | காலி: world:2, jobs:2, assembly:2, health:1
+[skip] வெளிநாட்டு அரசியல் — இজ்ரேல்-பாலஸ்தீன மோதல் பற்றிய சர்வதேச அ
+[tts-edge] 2335cba6dbfa: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] செம்செக்ஸ், நிஃப்டி குறியீடுகள் வெள்ளிக்கிழமை உயர்வுடன் முடிவு
+[skip] பிறநாட்டுப் பொருள் — இந்தியாவிலோ தமிழ்நாட்டிலோ பொருந்தாது; ப
+[skip] மலையாளத் திரைப்படம் — தமிழில் வெளியாகும் அல்லது தமிழ்க் கலைஞ
+[skip] கேரளத்தில் கண்டுபிடிக்கப்பட்ட தாவர இனம் — தமிழ்நாட்டுக்கு நே
+[skip] குற்றச் சம்பவத்தில் சமூக ஊடகப் பக்கங்களுக்கான எச்சரிக்கை — ச
+[skip] IIM கோழிக்கோடு (கேரளா) மற்றும் NIT அகர்தலா (திரிபுரா) ஆகியவை
+[skip] அசாம் தீமா ஹசாவோ மற்றும் ஒடிசா தேசிய சட்டப் பல்கலைக்கழக வேலை
+[skip] பொதுவான ஆரோக்கிய விளக்கக் கட்டுரை — குறிப்பிட்ட நிகழ்வு, அறி
+[tts-edge] ae06ae368008: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நேபாள பிரதமர் ஐ.நா. உரையில் வல்லரசுகளை விமர்சித்து பாராட்டு பெற்றார்
 [market] தங்கம் 22K ₹13668 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 4
+[done] feed 300 · pending 1 · எழுதியவை 2
