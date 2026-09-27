@@ -3,7 +3,7 @@
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 30 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 25 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 30 புதியவை
@@ -20,7 +20,7 @@
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
-[fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.icmr.gov.in', port=443): Failed to resolve 'www.icmr.gov.in' ([Errno -5] No address associated with hostname)"))
+[fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fcd351ce410>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0d9770db50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 16 புதியவை
@@ -67,9 +67,9 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 30 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 752 → நிகழ்வுகள் 693
+[run] புதியவை 753 → நிகழ்வுகள் 692
 [triage] சேமித்த மதிப்பெண் (622) — புதிய அழைப்பு இல்லை
-[triage] 693 → 76 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[triage] 692 → 87 | காலி: tn:6, india:4, govt:4, crime:4, world:3
 [claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha
 [market] தங்கம் 22K ₹13668 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
