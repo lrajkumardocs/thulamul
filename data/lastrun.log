@@ -1,15 +1,15 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 8 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 14 புதியவை
+[fetch] The Hindu TN: 2 புதியவை
+[fetch] Dinamani TN: 11 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 1 புதியவை
+[fetch] Al Jazeera: 2 புதியவை
 [fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
 [fetch] The Hindu Cinema: 20 புதியவை
-[fetch] Cinema Express: 24 புதியவை
+[fetch] Cinema Express: 23 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -35,7 +35,7 @@
 [fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
-[fetch] The Verge: 8 புதியவை
+[fetch] The Verge: 7 புதியவை
 [fetch] The Hindu National: 1 புதியவை
 [fetch] NDTV India: 12 புதியவை
 [fetch] India Today: 14 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fec4d00fe90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f26b5b0e210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 1 புதியவை
-[fetch] Dinamani Govt: 14 புதியவை
-[fetch] Times Govt Schemes: 16 புதியவை
+[fetch] Dinamani Govt: 11 புதியவை
+[fetch] Times Govt Schemes: 14 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,27 +67,14 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 390 → நிகழ்வுகள் 384
-[triage] சேமித்த மதிப்பெண் (411) — புதிய அழைப்பு இல்லை
-[triage] 384 → 23 | காலி: crime:3, jobs:3, court:2, assembly:2
-[skip] வெளிநாட்டு விளையாட்டு விளையாட்டு கேமின் மதிப்பீடு — தமிழ்நாட
-[திருத்தம்] கரூர் நெரிசல் சம்பவம் முதலாண்டு: அமைச்சர → கரூர் நெரிசல் சம்பவம் முதலாண்டு: முதல்வர
-[tts-edge] e7e572dfb70b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கரூர் நெரிசல் சம்பவம் முதலாண்டு: முதல்வர் விஜய் இரங்கல்
-[skip] வதந்தி மற்றும் ஊகம் — 'Dorothy' என்ற படம் பற்றிய உறுதியற்ற த
-[திருத்தம்] தமிழகத்தில் இன்று பத்தொன்பது மாவட்டங்களி → தமிழகத்தில் இன்று 19 மாவட்டங்களில் மழைக்
-[image] களஞ்சியம் (2 சொல்): தமிழகத்தில் இன்று 19 மாவட்டங்களில்
-[tts-edge] 43b9fe55ad2c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழகத்தில் இன்று 19 மாவட்டங்களில் மழைக்கு வாய்ப்பு
-[திருத்தம்] பிரதமர் மோடி அக்டோபர் பதினொன்றில் சென்னை → பிரதமர் மோடி அக். 11-இல் சென்னை வருகை
-[publish] பிரதமர் மோடி அக். 11-இல் சென்னை வருகை
-[skip] தலைப்பு மட்டுமே கிடைத்துள்ளது, செய்தியின் விவரங்கள் (எப்போது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUjQHAqxXWWhdK7PhkHe'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கின் தன்மை, இடம், நேரம
+[run] புதியவை 380 → நிகழ்வுகள் 374
+[triage] 374 → 5 | காலி: crime:3, jobs:3, court:2, assembly:2
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUnFJCx9jsAjThSbGa9u'}
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MSSRF sets up water ATM at Perungudi heat study 
-[market] தங்கம் 22K ₹13612 · சென்செக்ஸ் 73896
+[editorial] பிழை 'question'
+[market] தங்கம் 22K ₹13579 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 3
+[done] feed 300 · pending 1 · எழுதியவை 0
