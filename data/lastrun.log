@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 16 புதியவை
+[fetch] ET Markets: 15 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 10 புதியவை
-[fetch] Dinamani TN: 17 புதியவை
+[fetch] The Hindu TN: 8 புதியவை
+[fetch] Dinamani TN: 15 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
-[fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 12 புதியவை
-[fetch] ESPNcricinfo: 26 புதியவை
-[fetch] The Hindu Sport: 23 புதியவை
-[fetch] The Hindu Cinema: 23 புதியவை
-[fetch] Cinema Express: 24 புதியவை
+[fetch] BBC World: 9 புதியவை
+[fetch] Al Jazeera: 8 புதியவை
+[fetch] ESPNcricinfo: 25 புதியவை
+[fetch] The Hindu Sport: 22 புதியவை
+[fetch] The Hindu Cinema: 20 புதியவை
+[fetch] Cinema Express: 23 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 13 புதியவை
+[fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 13 புதியவை
+[fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
-[fetch] Dinamani Sports: 27 புதியவை
+[fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 20 புதியவை
+[fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 13 புதியவை
-[fetch] NDTV India: 14 புதியவை
+[fetch] The Hindu National: 8 புதியவை
+[fetch] NDTV India: 13 புதியவை
 [fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 27 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,63 +56,62 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0ceb279b50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 13 புதியவை
-[fetch] Dinamani Govt: 17 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f19a7b8fe50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 8 புதியவை
+[fetch] Dinamani Govt: 15 புதியவை
 [fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 19 புதியவை
+[fetch] TN Police News: 17 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 496 → நிகழ்வுகள் 475
-[triage] சேமித்த மதிப்பெண் (504) — புதிய அழைப்பு இல்லை
-[triage] 475 → 36 | காலி: tn:4, court:3, govt:3, crime:3, jobs:3
-[skip] பிற நாட்டுத் தொடர்பு - இங்கிலாந்து county cricket லீக்; தமிழ
-[tts-edge] aaa4b15feca3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கார்த்திக் சுப்பராஜ் புதிய படத்தில் உபேந்திரா, பிரபுதேவா, அதர்வா
-[skip] வெளிநாட்டுத் தொழில்நுட்பக் நிறுவனங்களின் (Meta, OpenAI, Anth
-[skip] இது கேரள மாநில உயர் நீதிமன்றத்தின் அந்த மாநிலத்திற்கான உள்ளூ
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரம் இல்லை - யார் கப்பான
-[skip] மூலங்களில் தலைப்பு மட்டுமே உள்ளது, விபரமான உரை இல்லை. போட்டி
-[skip] இது கேரள/மலையாள சினிமா தொடர்பான உள்ளூர் அவதூறு வழக்கு; தமிழ்
-[skip] மூலம் ஒரே தலைப்பு வரி மட்டும் கொண்டது; யார் அகற்றினர், எப்போ
-[skip] கேரளாவின் உள்ளூர் நீதிமன்றக் கட்டளை — தமிழ்நாட்டுக்கும் இந்த
+[run] புதியவை 454 → நிகழ்வுகள் 440
+[triage] 440 → 28 | காலி: tn:3, court:3, crime:3, jobs:3, sports:3
+[skip] Virat Kohli is an Indian cricketer, but this is a generic in
+[skip] செர்பியாவின் உள்நாட்டு அரசியல் நிகழ்வு. தமிழ்நாடு/இந்தியாவுக
+[skip] வெளிநாட்டு அரசுகளின் இருதரப்பு உறவுகொள்கை — தமிழ்நாடு / இந்த
+[tts-edge] b8a7af534738: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] செங்கல்பட்டில் சுன் பார்மா விரிவாக்கம் செயல்படவில்லை என TNPCB தகவல்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUa9XV6eufQgB1WUuKJm'}
+[skip] வெளிநாட்டு cricket tournament — பாகிஸ்தான் vs ஹாங்காங் ஒரு ச
+[tts-edge] 9727a4ff4a46: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகத்தில் திமுக வெற்றி பெற்றால் பதவி விலகுவேன்: உதயநிதிக்கு ஆதவ் அர்ஜுனா சவால்
+[skip] ஆங்கிலேயத் ক্রীড়া ওয়েবসাইட்ट்ட்டத்தின் நபர் நேர்காணல் மட்ட
+[skip] சுவிஸ் நடுநிலைக் கொள்கை - தமிழ்நாடு / இந்திய வாசகரை நேரடியாக
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, என்ன சம்பவம் என்பது பற்றிய
+[skip] வெளிநாட்டுத் தொடர் — இந்தியாவின் ஆட்டத்தை விளையாட்டு வல்லுநர
+[skip] பிற மாநிலத்தின் உள்ளூர் சர்ச்சை — மத்திய அரசின் தேசிய நীতி அ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUaKaYgTXJKopiczEkti'}
+[திருத்தம்] சதுரங்கத் தேசிய விளையாட்டுக்களத்தில் இந் → சதுரங்க ஒலிம்பியாडுல் இந்தியா வெள்ளி பதக
+[தரம்] தமிழ் அல்லாத எழுத்து: ड → ஒரு திருத்தம்
+[publish] சதுரங்க ஒலிம்பியாட்டில் இந்தியா வெள்ளி பதக்கம்; மகளிர் அணி வெண்கலம் பெற்றாள்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை உறுதியாக எழுத போத
+[திருத்தம்] ஆசிய விளையாட்டு: கபடி பொன்னுக்கு இந்தியா → ஆசிய விளையாட்டு: கபடியில் இந்தியா இரட்டை
+[image] களஞ்சியம் (2 சொல்): ஆசிய விளையாட்டு: கபடியில் இந்தியா 
+[publish] ஆசிய விளையாட்டு: கபடியில் இந்தியா இரட்டைப் பொன்னுக்கு
+[திருத்தம்] சட்டம் ஒழுங்கு தகவல் கட்டுப்பாடு குறித்த → சட்டம் - ஒழுங்கு தகவல் பெறுவதில் கட்டுப்
+[publish] சட்டம் - ஒழுங்கு தகவல் பெறுவதில் கட்டுப்பாடு ஏன்? அமைச்சர் நிர்மல்குமார் விளக்கம்
+[திருத்தம்] ஆசிய விளையாட்டுப் போட்டিகளில் இந்திய பெண → ஆசிய விளையாட்டுப் போட்டிகளில் இந்திய பெண
+[தரம்] தமிழ் அல்லாத எழுத்து: রি → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): ஆசிய விளையாட்டுப் போட்டிகளில் இந்த
+[publish] ஆசிய விளையாட்டுப் போட்டிகளில் இந்திய பெண் கபடி அணி நான்காம் தங்கப் பதக்கம் வென்றது.
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUaasusPxSvcsduYJfv3'}
+[திருத்தம்] ஜப்பான் ஆசிய விளையாட்டில் தொடர்ந்து இரண் → ஜப்பானில் வெள்ளிப் பதக்கம் — கேரளாவின் ந
+[தரம்] தமிழ் அல்லாத எழுத்து: া → ஒரு திருத்தம்
+[publish] ஜப்பானில் வெள்ளிப் பதக்கம் — கேரளாவின் நாட்டிகாவில் கொண்டாட்டம்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — ஐரோப்பா/மத்திய கிழக்கு சர்ச்ச
-[tts-edge] 2e3093b23b81: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆவின் பால் விலை உயர்வு தகவல் வதந்தி, நிர்வாகம் மறுப்பு
-[skip] பெங்களூரு நகரின் உள்ளூர் ম்যারத்தன் நிகழ்வு; தமிழ்நாடு அல்லத
-[skip] ஆங்கிலப் செய்திப் பத்திரிகையின் சுருக்கம் மட்டும்; தமிழ் நிற
+[skip] கேரளாவின் உள்ளூர் விளையாட்டு வீரர் செய்தி — தமிழ்நாட்டுக்குத
+[திருத்தம்] நிகোடின் பொட்டிகளுக்கு எதிரான நடவடிக்கை  → நிகோடின் பொட்டிகளுக்கு எதிரான நடவடிக்கை 
+[publish] நிகோடின் பொட்டிகளுக்கு எதிரான நடவடிக்கை — சுகாதாரக் கோச்சரம்
+[skip] இது அமெரிக்க இயற்கை எரிவாயு சந்தை பற்றிய நிபுணத்துவ பகுப்பாய
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
-[skip] வெளிநாட்டு பொது கருத்து — தமிழ்நாடு/இந்தியவாசகரைப் நேரடியாகப
-[skip] இது குற்றவியல் வழக்கு (defamation) — சினிமாத் தகராறு. நடிகர்
+[skip] திரிபுரா மாநிலத்தின் உள்ளூர் அரசியல் சம்பவம். தமிழ்நாட்டுக்க
+[publish] பெண்களின் ஆரோக்கியம் முக்கியம் என நிபுணர்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MSSRF sets up water ATM at Perungudi heat study 
-[skip] வெளிநாட்டுச் செய்தி — தமிழ்நாடு/இந்திய வாசகரை நேரடிப் பாதிக்
-[skip] மூல உரை முழுமையாக வழங்கப்படவில்லை. செய்திதிருந்த உரை தலைப்பு
-[skip] இலங்கையின் உள்ளூர் அரசியல் நிகழ்வு. தமிழ்நாடு அல்லது இந்தியா
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Senior citizen killed after tree branch falls on
-[skip] இது சிக்கிம் மாநிலத்தின் உள்ளூர் பேரிடர் சம்பவம் - தமிழ்நாட்
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் நிகழ்வு — பிரிட்டன் கொள்கை சம்ம
-[நகல்] ஏற்கனவே வெளியானது: ஆவின் பால் விலை உயர்வு தகவல் வதந்தி, நிர்வாகம் மறுப்பு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamil Nadu govt exempts law and order from RTI, 
-[skip] இது கேரளாவின் உள்ளூர் அரசியல் நிகழ்வு (பிரியங்கா காந்திக்கு 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யார் மல்ஹோத்ரா, எப்போது, எ
-[நகல்] ஏற்கனவே வெளியானது: வங்கி ஊழியர் வேலைநிறுத்தம் ஒத்திவைப்பு, IBA உடன் புரிந்துணர்
-[skip] Congo-ல் நடந்த ஈபோலா பரவல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
-[skip] இது எதிர்கால சந்தை ஊகம் மற்றும் 'ஏறுமா இறங்குமா' பாணி யூகக் 
-[திருத்தம்] தனுஷுடன் வடிவேலு ஒரே படத்தில் நடிக்கிறார → 'டி 56': தனுஷுடன் வடிவேலு ஒரே படத்தில் ந
-[தரம்] தமிழ் அல்லாத எழுத்து: ু → ஒரு திருத்தம்
-[publish] 'டி 56': தனுஷுடன் வடிவேலு ஒரே படத்தில் நடிக்கிறார்; படிமுக நிலையில் உள்ளது
-[skip] வெளிநாட்டு மருந்து அনுமதி — தமிழ்நாட்டு/இந்திய வாசகருக்கு நே
-[skip] மூலத்தில் ஒரே தலைப்பு மட்டும் உள்ளது; இறந்த தேதி, வயது, பின்
-[தரம்] தமிழ் அல்லாத எழுத்து: ল → ஒரு திருத்தம்
-[publish] எஸ்.கே.27: சிவகார்த்திகேயன் நடிப்பில் புதிய படம் தொடக்கம்
-[image] களஞ்சியம் (2 சொல்): ஓமந்தூரார் மருத்துவமனையில் அம்மா உ
-[publish] ஓமந்தூரார் மருத்துவமனையில் அம்மா உணவகம் அமைக்க திட்டம்
 [market] தங்கம் 22K ₹13665 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 5
+[image] 2 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 9
