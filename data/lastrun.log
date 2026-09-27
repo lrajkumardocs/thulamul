@@ -4,7 +4,7 @@
 [fetch] The Hindu TN: 30 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 24 புதியவை
+[fetch] BBC World: 23 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 30 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff9bac2a750>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8de171e110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
@@ -67,10 +67,64 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 30 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 759 → நிகழ்வுகள் 686
-[triage] சேமித்த மதிப்பெண் (608) — புதிய அழைப்பு இல்லை
-[triage] 686 → 138 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha
+[run] புதியவை 758 → நிகழ்வுகள் 685
+[triage] 685 → 63 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது ஒரு சட்டக் கருத்துக் கட்டுரையின் தலைப்பு மட்டும்; உண்மைய
+[skip] அசாம் பொதுச் சேவா ஆணையத்தின் தேர்வு அறிவிப்பு — தமிழ்நாட்டு 
+[skip] பொதுவான தகவல் விளக்கம் — குறிப்பிட்ட நிகழ்வு, அறிவிப்பு, தமி
+[skip] சினிமா விமர்சனம். துலாமுள் நीதி: திரை விமர்சனம் (மதிப்பெண், 
+[skip] வெளிநாட்டுத் தொடர் (T20 World Cup) — தமிழ்நாடு/இந்திய வீரர்/
+[tts-edge] e7e572dfb70b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கருர் கூட்ட நெரிசல் முதலாண்டு: விஜய் இரங்கல் பதிவு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdLjpf8NCCF5s67QhiG'}
+[திருத்தம்] கரூர் நெரிசல் வழக்கு: முதல் குற்றவாளி உள → கரூர் நெரிசல் வழக்கு: முதல் குற்றவாளி மற
+[தரம்] தமிழ் அல்லாத எழுத்து: ক → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): கரூர் நெரிசல் வழக்கு: முதல் குற்றவ
+[tts-edge] 38cdbb86e27f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கரூர் நெரிசல் வழக்கு: முதல் குற்றவாளி மற்றும் மற்றொரு டிவிகே பொறுப்பாளர் 15 நாள் நீதிமன்றக் காவலில்.
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdUHhFdXE6dbaBhiiZB'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdXZKSVQEsh2Pzi5VGM'}
+[publish] தூத்துக்குடியில் மாபெரும் கப்பல் கட்டும் தளத் திட்டம் முன்மொழிவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdeA8NCbmz9XJbk7uDB'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdhTrofBUn9esji6ifA'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdm7RbXmCso14sSEPwi'}
+[skip] மூலம் ஒரு தொகுப்புப் பட்டியல் மட்டுமே; உண்மையான சம்பவம், தேத
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] கரூர் கூட்ட நெரிசலில் பலியானோருக்கு உறவினர்கள் அஞ்சலி
+[திருத்தம்] அந்நிய முதலீட்டில் தமிழ்நாடு நாட்டிலேயே  → ரூ. 55,900 கோடி அந்நிய முதலீட்டை ஈர்த்து
+[image] களஞ்சியம் (2 சொல்): ரூ. 55,900 கோடி அந்நிய முதலீட்டை ஈ
+[publish] ரூ. 55,900 கோடி அந்நிய முதலீட்டை ஈர்த்து தமிழகம் முதலிடம்!
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTdzsUqqT627jDaMQpBf'}
+[skip] வெளிநாட்டுத் துறை — கனடாவில் நிகழ்ந்த விமான விபத்து. தமிழ்நா
+[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — அதீனா (கிரீஸ்) கட்டிடப் வெடி
+[skip] வெளிநாட்டுத் தகவல். தமிழ்நாடு அல்லது இந்தியவாசகரைப் பாதிக்கா
+[skip] வெளிநாட்டு உள்ளூர் பேரிடர் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[publish] சென்னை கட்டளை மையத்தை மேம்படுத்த 98.25 கோடி ரூபாய் திட்டம்
+[image] களஞ்சியம் (2 சொல்): தூய்மைப் பணியாளர்களுக்கு நாளொன்றுக
+[publish] தூய்மைப் பணியாளர்களுக்கு நாளொன்றுக்கு ஐம்பது ரூபாய் உணவுப்படி
+[publish] சென்னை வடிகால் வண்டல் அகற்றும் பணி அக்டோபர் பத்தில் நிறைவு
+[publish] ஜாஃபர் சாதிக் வழக்கில் அமலாக்கத் துறை புகார் உத்தரவை ரத்து செய்த சென்னை உயர் நீதிமன்றம்
+[hold] ஜெம் வீரமணி கைது விவகாரத்தில் விஜய் மீது பழனிசாமி விமர்சனம்
+[filler] health கட்டுரை
+[jobs] தொகுப்பு 2
+[malar] திரை விமர்சனம்: 
+[malar] திரை விமர்சனம் மட்டும் (மற்ற பகுதிகள் உறைந்தவை)
+[editorial] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTeT92CaWKa7PVYUqSVR'}
+[comic] கதை: மாளிகை வாசலில் காவலர்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.97) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.98) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.98) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐ ஒத்திருக்கிறது (0.98) — அப்படியே வைக்கிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-27.png · நாள் 18
+[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
+[image] களஞ்சியம் (2 சொல்): ரூ. 55,900 கோடி அந்நிய முதலீட்டை ஈ
+[image] 4 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13668 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 1 · எழுதியவை 10

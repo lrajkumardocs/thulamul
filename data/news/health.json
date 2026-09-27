@@ -1,5 +1,42 @@
 [
  {
+  "id": "art_health_20260927",
+  "headline": "பருவமாற்ற காலத்தில் உடல்நலம் காக்க எளிய வழிமுறைகள்",
+  "lines": [
+   "தமிழகத்தில் தற்போது பருவமழைக் காலம் தொடங்கி வருவதால் காய்ச்சல், சளி, டெங்கு போன்ற நோய்கள் அதிகரிக்க வாய்ப்புள்ளது.",
+   "குடிநீரை கொதிக்க வைத்து ஆற வைத்துப் பருகுவது நோய்க்கிருமிகளின் தாக்கத்தைக் குறைக்க உதவும்.",
+   "வீட்டைச் சுற்றி தண்ணீர் தேங்காமல் பார்த்துக் கொள்வது கொசு இனப்பெருக்கத்தைத் தடுக்க முக்கியமானது.",
+   "நெல்லிக்காய், மஞ்சள், இஞ்சி போன்ற பாரம்பரிய சித்த மூலிகைகள் நோய் எதிர்ப்பு சக்தியை மேம்படுத்த உதவும் என சித்த மருத்துவ நூல்கள் குறிப்பிடுகின்றன.",
+   "அரசு பொது சுகாதார நிலையங்களில் இலவச காய்ச்சல் பரிசோதனை மற்றும் டெங்கு சோதனை வசதிகள் தற்போது கிடைக்கின்றன."
+  ],
+  "closing": "சிறு எச்சரிக்கை நடவடிக்கைகள் மூலம் பருவகால நோய்களிலிருந்து குடும்பத்தைப் பாதுகாக்கலாம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-09-27"
+   }
+  ],
+  "topic": "health",
+  "topic_ta": "சுகாதாரம்",
+  "entities": [
+   "சுகாதாரம்",
+   "பருவநோய்"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-09-27T14:10+05:30",
+  "created_ts": 1790498429.5311463,
+  "audio": "data/audio/art_health_20260927.mp3"
+ },
+ {
   "headline": "பனீர் தயாரிப்பில் பால் மட்டுமே பயன்படுத்தக் கூடும் என FSSAI முன்மொழிவு",
   "lines": [
    "கேந்திர உணவு பாதுகாப்பு அதிகாரம் (FSSAI) பனீரை வரையறுக்க புதிய சட்ட திருத்தத்தைக் கொண்டுவர முன்மொழிந்துள்ளது.",
@@ -1197,70 +1234,6 @@
   "wiki_subject": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "டெங்கு பரவலை கட்டுபட்டுத்த தமிழ்நாடு அரசு நடவடிக்கை எடுக்க வேண்டும்",
-  "lines": [
-   "தமிழ்நாடு முழுவதும் டெங்கு காய்ச்சல் பாதிப்பு அதிகரித்து வருவதாக சீமான் தெரிவித்துள்ளார்.",
-   "நோய் தடுப்பு நடவடிக்கையை விரைவில் செயல்படுத்த வேண்டும் என்று அவர் கூறினார்.",
-   "சுகாதாரத் துறை உறுதிபூர்வக் நடவடிக்கை மேற்கொள்ள வேண்டும் என்பது அவரது வலியுறுத்தல்.",
-   "மக்கள் தங்கள் சுற்றுச்சூழல்களை சுத்தமாக வைத்துக்கொள்ள வேண்டும் என்றும் அவர் அறிவுறுத்தினார்.",
-   "தமிழ்நாட்டில் டெங்கு பாதிப்பு தொடர்ந்து கண்காணிக்கப்பட வேண்டும் என்பது மாவட்ட அரசுகளின் கடமை."
-  ],
-  "closing": "டெங்கு பரவல் தொடர்பாக மக்களுக்கு விழிப்புணர்வு ஏற்படுத்துவது அவசியமாகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani Govt",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "தமிழ்நாடு",
-   "டெங்கு காய்ச்சல்",
-   "சீமான்",
-   "சுகாதாரத் துறை"
-  ],
-  "confidence": 0.65,
-  "front_cat": "health_emergency",
-  "image_query": "dengue fever awareness india",
-  "wiki_subject": "Dengue_fever",
-  "person_en": "Seeman",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "en": {
-   "headline": "Tamil Nadu must control dengue fever spread urgently",
-   "lines": [
-    "Seeman has stated that dengue fever cases are rising across Tamil Nadu.",
-    "He urged the government to implement disease prevention measures quickly.",
-    "The health department must take decisive action to combat the spread.",
-    "He also advised people to maintain cleanliness in their surroundings.",
-    "District administrations must continue monitoring dengue cases regularly."
-   ],
-   "closing": "Public awareness about dengue transmission has become essential now."
-  },
-  "flags": [
-   "single_source"
-  ],
-  "skip": false,
-  "id": "7966ba7d195f",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-09-19T01:58+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/18/spread-of-dengue-fever-must-be-controlled-seeman"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Denguerash.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Dengue fever",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Dengue_fever",
-   "symbolic": false
-  },
-  "audio": "data/audio/7966ba7d195f.mp3",
-  "created_ts": 1789763296.6715155,
   "status": "published"
  }
 ]
