@@ -1,5 +1,663 @@
 [
  {
+  "id": "art_tech_20260927",
+  "headline": "அன்றாடத் தொழில்நுட்பம்: UPI, ஆதார், பாதுகாப்பு பற்றி அறிந்து கொள்ள வேண்டியவை",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது PIN எண்ணை யாருடனும் பகிர்ந்து கொள்ளக் கூடாது, ஏனெனில் பணம் பெறுவதற்கு PIN தேவையில்லை.",
+   "ஆதார் எண்ணை பயன்படுத்தும் இணையதளங்களில் UIDAI வழங்கும் Masked Aadhaar விருப்பத்தைப் பயன்படுத்தினால் முழு எண் வெளியிடப்படாது.",
+   "அறியாத எண்களிலிருந்து வரும் QR கோடு அல்லது லிங்க் மூலம் பணம் ‘பெறுவதாக’ கூறி அனுப்பப்படும் கோரிக்கைகளை ஸ்கேன் செய்யக் கூடாது, ஏனெனில் QR ஸ்கேன் பணம் அனுப்புவதற்கே பயன்படுகிறது.",
+   "மொபைலில் தேவையற்ற ஆப்களுக்கு Camera, Microphone, Contacts அனுமதிகளை Settings > Apps > Permissions வழியாக பரிசோதித்து நிறுத்தலாம்.",
+   "இரண்டு-அடுக்கு அங்கீகாரம் (2FA) மற்றும் பயோமெட்ரிக் லாக் ஆகியவற்றை வங்கி, UPI ஆப்களில் இயக்கி வைத்திருப்பது கணக்கு பாதுகாப்பை அதிகரிக்கும்."
+  ],
+  "closing": "சிறிய கவனிப்புகள் பெரிய இழப்புகளைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-09-27"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "UPI பாதுகாப்பு",
+   "ஆதார் தகவல்"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-09-27T15:07+05:30",
+  "created_ts": 1790501850.5445197,
+  "audio": "data/audio/art_tech_20260927.mp3"
+ },
+ {
+  "headline": "தலைமை தேர்தல் ஆணையர் நீக்கம் கோரி எதிர்க்கட்சிகள் ஒன்றிணைப்பு",
+  "lines": [
+   "தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமாரை பதவி நீக்கம் செய்ய வேண்டும் என்ற கோரிக்கையில் எதிர்க்கட்சிகள் ஒன்றிணைந்துள்ளன.",
+   "இந்தியா கூட்டணியில் உள்ள கட்சிகள் இந்த விவகாரம் தொடர்பாக கூட்டு மூலோபாயம் வகுக்கும் பணியில் ஈடுபட்டுள்ளன.",
+   "இது தொடர்பாக கட்சித் தலைவர்கள் இடையே ஆலோசனைகள் நடைபெற்று வருவதாகத் தகவல்கள் தெரிவிக்கின்றன.",
+   "தேர்தல் ஆணையத்தின் செயல்பாடு தொடர்பாக எதிர்க்கட்சிகளிடையே கடந்த சில காலமாக கருத்து வேறுபாடு நிலவி வருகிறது.",
+   "இந்த விவகாரம் தொடர்பாக அடுத்த சில நாட்களில் மேலும் தெளிவான அறிவிப்பு வெளிவரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "தலைமை தேர்தல் ஆணையர் பதவி நீக்கம் தொடர்பான இந்த விவகாரத்தில் அரசு தரப்பு இதுவரை அதிகாரப்பூர்வமாக பதிலளிக்கவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "India Today",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "ஞானேஷ் குமார்",
+   "இந்தியா கூட்டணி",
+   "தேர்தல் ஆணையம்"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Opposition Unites Demanding Ouster of CEC Gyanesh Kumar",
+   "lines": [
+    "Opposition parties have come together demanding the removal of Chief Election Commissioner Gyanesh Kumar.",
+    "Parties within the INDIA bloc are working out a joint strategy on this issue.",
+    "Reports indicate that consultations are underway among party leaders regarding the matter.",
+    "Opposition parties have expressed differences over the functioning of the Election Commission for some time.",
+    "A clearer announcement on the matter is expected in the coming days."
+   ],
+   "closing": "The government has not yet officially responded to the demand for the removal of the Chief Election Commissioner."
+  },
+  "front_cat": "election_major",
+  "image_query": "",
+  "wiki_subject": "Gyanesh Kumar",
+  "person_en": "Gyanesh Kumar",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "e3d98431db9b",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-09-27T15:07+05:30",
+  "links": [
+   "https://www.indiatoday.in/india/video/opposition-unites-on-cec-gyanesh-kumar-ouster-row-india-bloc-deliberates-strategy-ytvd-3004075-2026-09-27?utm_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/The_Chief_Election_Commissioner_of_India%2C_Sh._Gyanesh_Kumar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Gyanesh Kumar",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Gyanesh_Kumar",
+   "symbolic": false
+  },
+  "audio": "data/audio/e3d98431db9b.mp3",
+  "created_ts": 1790501832.5973144,
+  "status": "published"
+ },
+ {
+  "headline": "புதிய ஆயுதங்கள் இணைப்பதில் ஆண்டுக்கணக்கில் தாமதம் கூடாது என்று விமானப்படை அதிகாரி கூற்று",
+  "lines": [
+   "இந்தியாவின் என்டிடிவி பாதுகாப்பு உச்சிமாநாட்டில் விமான மார்ஷல் தேஜ்பால் சிங் உரையாற்றினார்.",
+   "புதிய ஆயுதங்களை இராணுவப் படைகளுடன் இணைப்பதற்கு ஆண்டுக்கணக்கில் காலம் எடுத்துக்கொள்ளக் கூடாது என்று அவர் தெரிவித்தார்.",
+   "தொழில்நுட்ப ஒற்றுமையே இலக்காக இருக்கக் கூடாது என்று அவர் கூறினார்.",
+   "வெவ்வேறு தொழில்நுட்பங்கள் இருந்தாலும் செயல்பாட்டு ஒருங்கிணைப்பே முக்கியம் என அவர் விளக்கினார்.",
+   "பாதுகாப்புத் துறையின் நவீனமயமாக்கல் குறித்த விவாதங்கள் இந்த உச்சிமாநாட்டில் தொடர்ந்தன."
+  ],
+  "closing": "இந்திய இராணுவப் படைகளின் நவீனமயமாக்கல் மற்றும் ஆயுத ஒருங்கிணைப்பு குறித்த விவாதங்கள் பாதுகாப்பு உச்சிமாநாடுகளில் தொடர்ந்து முன்னெடுக்கப்படுகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "NDTV India",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "தேஜ்பால் சிங்",
+   "விமானப்படை",
+   "என்டிடிவி பாதுகாப்பு உச்சிமாநாடு",
+   "இந்தியா"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "New Weapons Should Not Take Years To Integrate: Air Marshal",
+   "lines": [
+    "Air Marshal Tejpal Singh addressed the NDTV Defence Summit in India.",
+    "He stated that integrating new weapons with armed forces should not take years.",
+    "He said the objective cannot be technological uniformity.",
+    "He explained that operational coherence matters despite technological diversity.",
+    "Discussions on defence modernisation continued at the summit."
+   ],
+   "closing": "Discussions on modernising India's armed forces and weapons integration continue to be raised at defence summits."
+  },
+  "front_cat": "routine",
+  "image_query": "Air Marshal Tejpal Singh",
+  "wiki_subject": "",
+  "person_en": "Tejpal Singh",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "b086c1cc1049",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-09-27T15:05+05:30",
+  "links": [
+   "https://www.ndtv.com/india-news/new-weapons-should-not-take-years-to-integrate-air-marshal-tejpal-singh-at-ndtv-defence-summit-2026-12104533#publisher=newsstand"
+  ],
+  "image": null,
+  "audio": "data/audio/b086c1cc1049.mp3",
+  "created_ts": 1790501728.8890803,
+  "status": "published"
+ },
+ {
+  "headline": "AIMA மேட் செப்டம்பர் 2026 தேர்வு முடிவு விரைவில் வெளியீடு - மதிப்பெண் பட்டியல் பதிவிறக்கம் விவரம்",
+  "lines": [
+   "இந்திய மேலாண்மைச் சங்கம் (AIMA) நடத்திய மேலாண்மைத் திறன் தேர்வ (MAT) முடிவுகளை விரைவில் வெளியிடவுள்ளது.",
+   "எழுத்துத் தேர்வு முறை (PBT) மற்றும் கணினி வழித் தேர்வு முறை (CBT) ஆகிய இரண்டிற்குமான மதிப்பெண் பட்டியல் வெளியாகும்.",
+   "மதிப்பெண் பட்டியல் அதிகாரப்பூர்வ இணையதளத்தில் வெளியிடப்படும் என தேர்வ நடத்தும் அமைப்பு தெரிவித்துள்ளது.",
+   "தேர்வு எழுதிய மாணவர்கள் தங்கள் மின்னஞ்சல் முகவரி மற்றும் கடவுச்சொல்லைப் பயன்படுத்தி மதிப்பெண் பட்டியலைப் பதிவிறக்கம் செய்ய முடியும்.",
+   "மதிப்பெண் பட்டியல் வெளியான பிறகு அதைப் பதிவிறக்கம் செய்ய மாணவர்களுக்கு அறிவுறுத்தப்பட்டுள்ளது."
+  ],
+  "closing": "மேலாண்மைத் திறன் தேர்வு (MAT) நாடு முழுவதும் மேலாண்மைப் படிப்புகளில் சேர்க்கைக்காக நடத்தப்படும் தேர்வு ஆகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "NDTV India",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "இந்திய மேலாண்மைச் சங்கம்",
+   "மேலாண்மைத் திறன் தேர்வு",
+   "இந்தியா",
+   "மாணவர்கள்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "AIMA MAT Result To Be Released Soon: Scorecard Download Details",
+   "lines": [
+    "The All India Management Association is soon set to release the Management Aptitude Test results.",
+    "Scorecards for both the paper based test mode and the computer based test mode will be published.",
+    "The exam conducting body stated that the scorecard will be released on the official website.",
+    "Candidates who took the exam will be able to download their scorecard using their email ID and password.",
+    "Students have been advised to check the official website once the scorecard is released."
+   ],
+   "closing": "The Management Aptitude Test is conducted nationwide for admission to management courses."
+  },
+  "front_cat": "exam_jobs_deadline",
+  "image_query": "",
+  "wiki_subject": "Management Aptitude Test",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "865916f9df13",
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-09-27T15:04+05:30",
+  "links": [
+   "https://www.ndtv.com/education/aima-management-aptitude-test-september-2026-result-soon-know-how-to-download-scorecard-12104548#publisher=newsstand"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Management_Aptitude_Test_Logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Management Aptitude Test",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Management_Aptitude_Test",
+   "symbolic": false
+  },
+  "audio": "data/audio/865916f9df13.mp3",
+  "created_ts": 1790501688.2189915,
+  "status": "published"
+ },
+ {
+  "headline": "ஏரி மணல் கொள்ளை வழக்கு: அமைச்சர் எ.வ.வேலு, மகன் மீது வழக்கு",
+  "lines": [
+   "தமிழ்நாட்டில் ஓர் ஏரியில் மணல் கொள்ளை நடந்ததாகக் கூறி, அமைச்சர் எ.வ.வேலு மற்றும் அவரது மகன் மீது லஞ்ச ஒழிப்புத் துறை வழக்குப் பதிவு செய்துள்ளது.",
+   "குற்றச்சாட்டின் படி, ரூபாய் எட்டு கோடி மதிப்புள்ள மணல் சட்டவிரோதமாக அள்ளப்பட்டதாகத் தெரிகிறது.",
+   "லஞ்ச ஒழிப்புத் துறை இந்த வழக்கில் விசாரணையைத் தொடங்கியுள்ளதாக அறிவிக்கப்பட்டுள்ளது.",
+   "குற்றம் சாட்டப்பட்டவர்கள் தரப்பிலிருந்து இதுவரை அதிகாரப்பூர்வ விளக்கம் வெளியிடப்படவில்லை.",
+   "இந்த வழக்கு தொடர்பான விரிவான விசாரணை அடுத்த சில நாட்களில் தொடரும் எனத் தெரிகிறது."
+  ],
+  "closing": "இந்த வழக்கு தொடர்பாக லஞ்ச ஒழிப்புத் துறை மேலும் என்ன நடவடிக்கை எடுக்கும் என்பதைக் கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "எ.வ.வேலு",
+   "லஞ்ச ஒழிப்புத் துறை",
+   "தமிழ்நாடு",
+   "ஏரி"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Lake sand theft case: Minister E.V. Velu, son booked",
+   "lines": [
+    "A case has been registered by the Anti-Corruption Bureau against Minister E.V. Velu and his son over an alleged sand theft from a lake in Tamil Nadu.",
+    "According to the allegation, sand worth eight crore rupees was illegally extracted.",
+    "The Anti-Corruption Bureau has stated that an investigation into the case has begun.",
+    "No official response has been issued so far from the side of the accused.",
+    "A detailed investigation into the case is expected to continue in the coming days."
+   ],
+   "closing": "It remains to be seen what further action the Anti-Corruption Bureau will take in this case."
+  },
+  "front_cat": "scam_expose",
+  "image_query": "",
+  "wiki_subject": "E. V. Velu",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "284c5d2a73b9",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-27T15:03+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/the-dvac-has-registered-a-case-against-former-dmk-minister-ev-velu-for-alleged-sand-theft-from-a-lake"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/284c5d2a73b9.mp3",
+  "created_ts": 1790501609.8064697,
+  "status": "published"
+ },
+ {
+  "headline": "டாஸ்மாக் கடையை இடமாற்ற வலியுறுத்தி குடையுடன் போராட்டம்",
+  "lines": [
+   "ஒரு பகுதியில் உள்ள டாஸ்மாக் கடையை வேறு இடத்திற்கு மாற்ற வேண்டும் என வலியுறுத்தி உள்ளூர் மக்கள் போராட்டம் நடத்தினர்.",
+   "கொளுத்தும் வெய்யிலிலும் குடைகளுடன் நின்று போராட்டக்காரர்கள் தங்கள் கோரிக்கையை முன்வைத்தனர்.",
+   "டாஸ்மாக் கடை இருப்பதால் பகுதி மக்களுக்குத் தொல்லை ஏற்படுவதாக போராட்டக்காரர்கள் தெரிவித்தனர்.",
+   "இது தொடர்பாக அதிகாரிகள் தரப்பில் உடனடி விளக்கம் எதுவும் வெளியிடப்படவில்லை.",
+   "கோரிக்கை ஏற்கப்படுமா என்பது குறித்து அரசு பதில் அளிக்க வேண்டும் என பகுதி மக்கள் எதிர்பார்க்கின்றனர்."
+  ],
+  "closing": "டாஸ்மாக் கடைகளை குடியிருப்பு பகுதிகளிலிருந்து இடமாற்றம் கோரும் போராட்டங்கள் பல்வேறு பகுதிகளில் அவ்வப்போது நடைபெறுகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "டாஸ்மாக்",
+   "போராட்டம்"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Protesters with umbrellas demand relocation of TASMAC shop",
+   "lines": [
+    "Residents of a locality staged a protest demanding that a nearby TASMAC liquor shop be relocated.",
+    "Protesters stood under umbrellas in scorching heat to press their demand.",
+    "They said the presence of the liquor shop was causing trouble for local residents.",
+    "No official response has been issued yet regarding the demand.",
+    "Local residents are awaiting a decision from the government on their request."
+   ],
+   "closing": "Protests demanding relocation of TASMAC outlets from residential areas occur periodically in various parts of Tamil Nadu."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "c5eee692d4c0",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-27T15:02+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/relocate-the-tasmac-shop-protest-with-umbrellas-under-the-scorching-sun"
+  ],
+  "image": null,
+  "audio": "data/audio/c5eee692d4c0.mp3",
+  "created_ts": 1790501550.7817607,
+  "status": "published"
+ },
+ {
+  "headline": "வெள்ளிப் பதக்கம் வென்ற அபய் சிங்குக்கு ₹50 லட்சம் ஊக்கத் தொகை",
+  "lines": [
+   "தமிழ்நாட்டைச் சேர்ந்த வீரர் அபய் சிங் சமீபத்தில் வெள்ளிப் பதக்கம் வென்றுள்ளார்.",
+   "அந்தப் பதக்க வெற்றிக்காக தமிழ்நாடு அரசு ₹50 லட்சம் ஊக்கத் தொகை வழங்க அறிவித்துள்ளது.",
+   "விளையாட்டு வீரர்களின் சாதனைகளைப் பாராட்டி அரசு இந்த நிதி ஒதுக்கீட்டை அதிகரித்து வருகிறது.",
+   "தமிழ்நாட்டுப் பெயரை உயர்த்தும் வீரர்களுக்கு அரசு இத்தகைய ஆதரவை அளிப்பது வழக்கமாக உள்ளது.",
+   "இத்தகைய ஊக்கத் தொகை வரும் தலைமுறை வீரர்களையும் சாதனை செய்ய ஊக்குவிப்பதாக எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "அபய் சிங் போன்ற பதக்கம் வெல்லும் விளையாட்டு வீரர்களின் பெயரை உயர்த்துதலும் அவர்களுக்கு ஆதரவு அளிப்பதும் தமிழ்நாட்டின் நிலை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Sports",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "sports",
+  "entities": [
+   "அபய் சிங்க்",
+   "தமிழ்நாட்டு அரசு",
+   "வெள்ளிப் பதகம்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Tamil Nadu announces ₹50 lakh incentive for silver medalist Abhay Singh",
+   "lines": [
+    "Abhay Singh, an athlete from Tamil Nadu, recently won a silver medal.",
+    "The Tamil Nadu government has announced an incentive of ₹50 lakh for his medal-winning achievement.",
+    "The state government has been increasing financial support to recognize athletes' accomplishments.",
+    "Supporting medal-winning athletes who bring honor to Tamil Nadu is a regular practice.",
+    "Such incentives are expected to encourage the next generation of athletes to achieve excellence."
+   ],
+   "closing": "Recognizing and supporting medal-winning athletes like Abhay Singh has become part of Tamil Nadu's commitment to sports."
+  },
+  "front_cat": "sports_historic",
+  "image_query": "Abhay Singh athlete",
+  "wiki_subject": "Abhay Singh (athlete)",
+  "person_en": "Abhay Singh",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "dee99dc6e73f",
+  "topic_ta": "விளையாட்டு",
+  "published_at": "2026-09-27T15:01+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/50-lakh-cash-incentive-announced-for-the-tamil-nadu-athlete-abhay-singh-who-won-silver-at-asian-games-2026"
+  ],
+  "image": null,
+  "audio": "data/audio/dee99dc6e73f.mp3",
+  "created_ts": 1790501516.547006,
+  "status": "published"
+ },
+ {
+  "headline": "புது வசந்தம் தொடரின் குதூகல நிறைவு விழா நடந்தது",
+  "lines": [
+   "தமிழ்த் திரையுலகத்தின் புகழ்பெற்ற புது வசந்தம் தொடர் குதூகல விழாவுடன் நிறைவு பெற்றது.",
+   "தொடரின் கதை, நடிப்பு, இசை ஆகிய அனைத்துக்கும் இயக்குநர் மற்றும் தொழில்நுட்ப குழு பாராட்டு பெற்றனர்.",
+   "இயக்குநர் இது தமிழ் சினிமாவின் ஒரு முக்கிய நகர்வு என்று கூறினார்.",
+   "பல பேர் இந்தத் தொடரை தமிழ் வரலாற்றில் ஓர் சிறப்புத் தருணம் என்று கருதினர்.",
+   "புது வசந்தம் தொடர் எதிர்வரும் மாதங்களில் வெளிநாடுகளில் பரவ உள்ளது."
+  ],
+  "closing": "தொடர் நிறைவுக்குப் பின் இதில் நடிகர்களாகப் பணிபுரிந்த பல கலைஞர்கள் அடுத்த திரைப்படத் திட்டத்தை அறிவித்தனர்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "புது வசந்தம் தொடர்",
+   "தமிழ் சினிமா"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Pudhu Vasantham series concludes with celebratory event",
+   "lines": [
+    "The acclaimed Pudhu Vasantham series concluded with a celebratory gathering.",
+    "The director and technical team received praise for the series' story, performances, and music.",
+    "The director said this is a significant moment in Tamil cinema.",
+    "Many considered the series a historic occasion in Tamil film history.",
+    "The series is set to expand to foreign countries in the coming months."
+   ],
+   "closing": "After the series concluded, several cast members announced their next film projects."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Pudhu Vasantham series Tamil",
+  "wiki_subject": "Pudhu Vasantham",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "5731eda3fbeb",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-09-27T14:59+05:30",
+  "links": [
+   "https://www.dinamani.com/cinema/cinema-news/2026/Sep/27/pudhu-vasantham-series-concludes-with-jubilant-celebrations"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/6/64/Pudhu_Vasantham.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Pudhu Vasantham",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Pudhu_Vasantham",
+   "symbolic": false
+  },
+  "audio": "data/audio/5731eda3fbeb.mp3",
+  "created_ts": 1790501344.1278443,
+  "status": "published"
+ },
+ {
+  "headline": "சட்டம் ஒழுங்கு துறையை RTI விலக்கு அரசாணையை தமிழ்நாடு அரசு திரும்பப் பெற்றது",
+  "lines": [
+   "தமிழ்நாடு அரசு பொது (சட்டம் ஒழுங்கு) துறையை தகவல் அறியும் உரிமைச் சட்டத்திலிருந்து விலக்கு அளித்த அரசாணையை திரும்பப் பெற்றுள்ளது.",
+   "செப்டம்பர் 21, 2026 அன்று பிறப்பிக்கப்பட்ட அரசாணை வகுப்புவாத மற்றும் சாதி மோதல்கள் தொடர்பான தகவல்களை விலக்கியிருந்தது.",
+   "பொது எதிர்ப்பு வெளிப்பட்டதை அடுத்து அரசு இந்த அரசாணையை திரும்பப் பெற்றுள்ளது.",
+   "போலீஸ் துப்பாக்கிச் சூடு விசாரணை அறிக்கைகள், காவல் காப்பில் மரணங்கள் தொடர்பான தகவல்களும் விலக்கப்பட்ட பட்டியலில் இடம்பெற்றிருந்தன.",
+   "மாணவர்கள் மற்றும் விவசாயிகளின் போராட்டங்கள் கையாளப்பட்ட விதம் குறித்த தகவல்களும் இனி கிடைக்கும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "தேசிய பாதுகாப்புச் சட்டத்தின் கீழ் தடுப்புக் காவலில் வைக்கப்பட்டோர் தொடர்பான விவரங்களும் இந்த விலக்கு அரசாணையில் இடம்பெற்றிருந்தன என்பது குறிப்பிடத்தக்கது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-09-27"
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "தகவல் அறியும் உரிமைச் சட்டம்",
+   "பொது சட்டம் ஒழுங்கு துறை",
+   "தேசிய பாதுகாப்புச் சட்டம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Tamil Nadu withdraws G.O. exempting police department from RTI Act",
+   "lines": [
+    "The Tamil Nadu government has withdrawn a G.O. that exempted the Public Law and Order Department from the Right to Information Act.",
+    "The order, dated September 21, had excluded information on communal and caste clashes from RTI access.",
+    "The withdrawal reportedly followed public backlash against the exemption order.",
+    "Inquiry reports on police firing and custodial deaths were also among the items excluded under the original order.",
+    "Information on how student and farmer agitations were handled is now expected to remain accessible again."
+   ],
+   "closing": "Details related to detentions under the National Security Act were also part of the categories excluded in the withdrawn order."
+  },
+  "front_cat": "policy_mass",
+  "image_query": "Tamil Nadu government secretariat",
+  "wiki_subject": "Right to Information Act, 2005",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e5481359b561",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-27T14:58+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-exempts-public-law-and-order-department-from-rti-act/article71515196.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/960px-Emblem_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Right to Information Act, 2005",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Right_to_Information_Act%2C_2005",
+   "symbolic": false
+  },
+  "audio": "data/audio/e5481359b561.mp3",
+  "created_ts": 1790501321.0797975,
+  "status": "published"
+ },
+ {
+  "headline": "சட்டம் - ஒழுங்கு தகவல் ஆர்டிஐ கட்டுப்பாடு அரசாணை திரும்பப் பெறப்பட்டது",
+  "lines": [
+   "தமிழக அரசு தகவல் அறியும் உரிமைச் சட்டத்தின் கீழ் சட்டம் - ஒழுங்கு தொடர்பான தகவல்களைப் பெறுவதில் கட்டுப்பாடு விதித்து ஒரு அரசாணையை பிறப்பித்தது.",
+   "இந்த அரசாணை காலையில் வெளியான உடனேயே அதற்கு எதிர்ப்பு கிளம்பியது.",
+   "எதிர்ப்பைத் தொடர்ந்து மதியத்திற்குள் தமிழக அரசு அந்த அரசாணையை திரும்பப் பெற்றது.",
+   "தகவல் அறியும் உரிமைச் சட்டம் பொதுமக்களுக்கு அரசுத் துறைகளிடமிருந்து தகவல் பெறும் உரிமையை அளிக்கிறது.",
+   "இந்த அரசாணை ஏன் பிறப்பிக்கப்பட்டது என்பது குறித்த முழு விளக்கம் இன்னும் வெளியிடப்படவில்லை."
+  ],
+  "closing": "தகவல் அறியும் உரிமைச் சட்டம் 2005ஆம் ஆண்டு இயற்றப்பட்டு, பொதுமக்கள் அரசுத் துறைகளிடமிருந்து தகவல் பெற உரிமை அளிக்கும் மத்திய சட்டம் ஆகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "தினமணி",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "தினமணி",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழக அரசு",
+   "தகவல் அறியும் உரிமைச் சட்டம்",
+   "அரசாணை",
+   "சட்டம் ஒழுங்கு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Tamil Nadu withdraws GO restricting RTI on law and order",
+   "lines": [
+    "The Tamil Nadu government issued a government order restricting access to law and order related information under the Right to Information Act.",
+    "Protests erupted soon after the order was issued in the morning.",
+    "Following the protests, the government withdrew the order by afternoon the same day.",
+    "The Right to Information Act allows citizens to seek information from government departments.",
+    "The full reason behind the original order has not yet been made public."
+   ],
+   "closing": "The Right to Information Act, enacted in 2005, is a central law that grants citizens the right to obtain information from government departments."
+  },
+  "front_cat": "routine",
+  "image_query": "Right to Information India document",
+  "wiki_subject": "Right to Information Act, 2005",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "ea7a3b9c9338",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-27T14:57+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/government-order-withdrawn-regarding-the-exemption-granted-to-obtain-certain-information-related-to-general-law-and-order",
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/rti-restrictions-on-obtaining-information-regarding-law-and-order"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/960px-Emblem_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Right to Information Act, 2005",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Right_to_Information_Act%2C_2005",
+   "symbolic": false
+  },
+  "audio": "data/audio/ea7a3b9c9338.mp3",
+  "created_ts": 1790501246.7250712,
+  "status": "published"
+ },
+ {
+  "headline": "ஆசிய விளையாட்டுப் போட்டி 2026: அபய், அனாஹத்துக்கு வெள்ளிப் பதக்கம் — மலேசிய வீரர்களுக்கு தோல்வி",
+  "lines": [
+   "ஆசிய விளையாட்டுப் போட்டியில் இந்திய ஸ்குவாஷ் வீரர் அபய் சிங் ஆண்கள் ஒற்றையர் இறுதிப் போட்டியில் வெள்ளிப் பதக்கம் வென்றார்.",
+   "இதே போட்டியில் பதினெட்டு வயது அனாஹத் என்ற வீராங்கனையும் வெள்ளிப் பதக்கத்துடன் திருப்தி அடைந்தார்.",
+   "இருபத்தி ஆறாவது தரவரிசையில் உள்ள அபய் சிங், மலேசியாவின் ஈயின் யோ ங்கிடம் தொடர்ச்சியாக மூன்று கேம்களில் 9-11, 5-11, 5-11 என்ற கணக்கில் தோற்றார்.",
+   "உலக பதினெட்டாவது தரவரிசையில் உள்ள ஈயின் யோ, தனது தங்கப் பதக்கத்தைத் தக்க வைத்துக் கொண்டார்.",
+   "அனாஹத் 4-11, 4-11, 7-11 என்ற கணக்கில் தோல்வியைச் சந்தித்தார்."
+  ],
+  "closing": "மலேசிய வீரர் ஈயின் யோ இரு பிரிவுகளிலும் தங்கப் பதக்கம் வென்று மேலாதிக்கம் காட்டியது கவனிக்கத்தக்கது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Sport",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu Sport",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "sports",
+  "entities": [
+   "அபய் சிங்",
+   "அனாஹத்",
+   "மலேசியா",
+   "ஆசிய விளையாட்டுப் போட்டி",
+   "ஈயின் யோ ங்"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Asian Games: Abhay, Anahat win silver in squash singles",
+   "lines": [
+    "Indian squash player Abhay Singh won a silver medal in the men's singles final at the Asian Games.",
+    "Eighteen-year-old Anahat also settled for a silver medal in the same tournament.",
+    "Ranked 26th, Abhay Singh lost in straight games to Malaysia's Eain Yow Ng.",
+    "World number 18 Eain Yow Ng defended his gold medal with a commanding performance.",
+    "Anahat lost her final 4-11, 4-11, 7-11."
+   ],
+   "closing": "Malaysian players dominated both categories by winning gold medals in each."
+  },
+  "front_cat": "sports_historic",
+  "image_query": "squash Asian Games final",
+  "wiki_subject": "2026 Asian Games",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [],
+  "id": "fed67c79b8b7",
+  "topic_ta": "விளையாட்டு",
+  "published_at": "2026-09-27T14:55+05:30",
+  "links": [
+   "https://www.thehindu.com/sport/asian-games-2026-anahat-abhay-end-with-silver-each-after-losing-to-the-mighty-malaysians/article71515659.ece",
+   "https://www.thehindu.com/sport/asian-games-2026-abhay-settles-for-silver-after-losing-to-malaysias-eain-yow/article71515577.ece",
+   "https://sportstar.thehindu.com/asian-games/asian-games-2026-abhay-singh-silver-eain-yow-gold-mens-singles-squash-final/article71515550.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4d/2026_Asian_Games_logo.svg/250px-2026_Asian_Games_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · 2026 Asian Games",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/2026_Asian_Games",
+   "symbolic": false
+  },
+  "audio": "data/audio/fed67c79b8b7.mp3",
+  "created_ts": 1790501119.9883006,
+  "status": "published"
+ },
+ {
   "id": "art_world_20260927",
   "headline": "ஐ.நா., உலக வங்கி மற்றும் இந்தியாவின் வெளியுறவுப் பின்னணி",
   "lines": [

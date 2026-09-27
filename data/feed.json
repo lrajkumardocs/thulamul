@@ -1,5 +1,663 @@
 [
  {
+  "id": "art_tech_20260927",
+  "headline": "அன்றாடத் தொழில்நுட்பம்: UPI, ஆதார், பாதுகாப்பு பற்றி அறிந்து கொள்ள வேண்டியவை",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது PIN எண்ணை யாருடனும் பகிர்ந்து கொள்ளக் கூடாது, ஏனெனில் பணம் பெறுவதற்கு PIN தேவையில்லை.",
+   "ஆதார் எண்ணை பயன்படுத்தும் இணையதளங்களில் UIDAI வழங்கும் Masked Aadhaar விருப்பத்தைப் பயன்படுத்தினால் முழு எண் வெளியிடப்படாது.",
+   "அறியாத எண்களிலிருந்து வரும் QR கோடு அல்லது லிங்க் மூலம் பணம் ‘பெறுவதாக’ கூறி அனுப்பப்படும் கோரிக்கைகளை ஸ்கேன் செய்யக் கூடாது, ஏனெனில் QR ஸ்கேன் பணம் அனுப்புவதற்கே பயன்படுகிறது.",
+   "மொபைலில் தேவையற்ற ஆப்களுக்கு Camera, Microphone, Contacts அனுமதிகளை Settings > Apps > Permissions வழியாக பரிசோதித்து நிறுத்தலாம்.",
+   "இரண்டு-அடுக்கு அங்கீகாரம் (2FA) மற்றும் பயோமெட்ரிக் லாக் ஆகியவற்றை வங்கி, UPI ஆப்களில் இயக்கி வைத்திருப்பது கணக்கு பாதுகாப்பை அதிகரிக்கும்."
+  ],
+  "closing": "சிறிய கவனிப்புகள் பெரிய இழப்புகளைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-09-27"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "UPI பாதுகாப்பு",
+   "ஆதார் தகவல்"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-09-27T15:07+05:30",
+  "created_ts": 1790501850.5445197,
+  "audio": "data/audio/art_tech_20260927.mp3"
+ },
+ {
+  "headline": "தலைமை தேர்தல் ஆணையர் நீக்கம் கோரி எதிர்க்கட்சிகள் ஒன்றிணைப்பு",
+  "lines": [
+   "தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமாரை பதவி நீக்கம் செய்ய வேண்டும் என்ற கோரிக்கையில் எதிர்க்கட்சிகள் ஒன்றிணைந்துள்ளன.",
+   "இந்தியா கூட்டணியில் உள்ள கட்சிகள் இந்த விவகாரம் தொடர்பாக கூட்டு மூலோபாயம் வகுக்கும் பணியில் ஈடுபட்டுள்ளன.",
+   "இது தொடர்பாக கட்சித் தலைவர்கள் இடையே ஆலோசனைகள் நடைபெற்று வருவதாகத் தகவல்கள் தெரிவிக்கின்றன.",
+   "தேர்தல் ஆணையத்தின் செயல்பாடு தொடர்பாக எதிர்க்கட்சிகளிடையே கடந்த சில காலமாக கருத்து வேறுபாடு நிலவி வருகிறது.",
+   "இந்த விவகாரம் தொடர்பாக அடுத்த சில நாட்களில் மேலும் தெளிவான அறிவிப்பு வெளிவரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "தலைமை தேர்தல் ஆணையர் பதவி நீக்கம் தொடர்பான இந்த விவகாரத்தில் அரசு தரப்பு இதுவரை அதிகாரப்பூர்வமாக பதிலளிக்கவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "India Today",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "ஞானேஷ் குமார்",
+   "இந்தியா கூட்டணி",
+   "தேர்தல் ஆணையம்"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Opposition Unites Demanding Ouster of CEC Gyanesh Kumar",
+   "lines": [
+    "Opposition parties have come together demanding the removal of Chief Election Commissioner Gyanesh Kumar.",
+    "Parties within the INDIA bloc are working out a joint strategy on this issue.",
+    "Reports indicate that consultations are underway among party leaders regarding the matter.",
+    "Opposition parties have expressed differences over the functioning of the Election Commission for some time.",
+    "A clearer announcement on the matter is expected in the coming days."
+   ],
+   "closing": "The government has not yet officially responded to the demand for the removal of the Chief Election Commissioner."
+  },
+  "front_cat": "election_major",
+  "image_query": "",
+  "wiki_subject": "Gyanesh Kumar",
+  "person_en": "Gyanesh Kumar",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "e3d98431db9b",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-09-27T15:07+05:30",
+  "links": [
+   "https://www.indiatoday.in/india/video/opposition-unites-on-cec-gyanesh-kumar-ouster-row-india-bloc-deliberates-strategy-ytvd-3004075-2026-09-27?utm_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/The_Chief_Election_Commissioner_of_India%2C_Sh._Gyanesh_Kumar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Gyanesh Kumar",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Gyanesh_Kumar",
+   "symbolic": false
+  },
+  "audio": "data/audio/e3d98431db9b.mp3",
+  "created_ts": 1790501832.5973144,
+  "status": "published"
+ },
+ {
+  "headline": "புதிய ஆயுதங்கள் இணைப்பதில் ஆண்டுக்கணக்கில் தாமதம் கூடாது என்று விமானப்படை அதிகாரி கூற்று",
+  "lines": [
+   "இந்தியாவின் என்டிடிவி பாதுகாப்பு உச்சிமாநாட்டில் விமான மார்ஷல் தேஜ்பால் சிங் உரையாற்றினார்.",
+   "புதிய ஆயுதங்களை இராணுவப் படைகளுடன் இணைப்பதற்கு ஆண்டுக்கணக்கில் காலம் எடுத்துக்கொள்ளக் கூடாது என்று அவர் தெரிவித்தார்.",
+   "தொழில்நுட்ப ஒற்றுமையே இலக்காக இருக்கக் கூடாது என்று அவர் கூறினார்.",
+   "வெவ்வேறு தொழில்நுட்பங்கள் இருந்தாலும் செயல்பாட்டு ஒருங்கிணைப்பே முக்கியம் என அவர் விளக்கினார்.",
+   "பாதுகாப்புத் துறையின் நவீனமயமாக்கல் குறித்த விவாதங்கள் இந்த உச்சிமாநாட்டில் தொடர்ந்தன."
+  ],
+  "closing": "இந்திய இராணுவப் படைகளின் நவீனமயமாக்கல் மற்றும் ஆயுத ஒருங்கிணைப்பு குறித்த விவாதங்கள் பாதுகாப்பு உச்சிமாநாடுகளில் தொடர்ந்து முன்னெடுக்கப்படுகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "NDTV India",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "தேஜ்பால் சிங்",
+   "விமானப்படை",
+   "என்டிடிவி பாதுகாப்பு உச்சிமாநாடு",
+   "இந்தியா"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "New Weapons Should Not Take Years To Integrate: Air Marshal",
+   "lines": [
+    "Air Marshal Tejpal Singh addressed the NDTV Defence Summit in India.",
+    "He stated that integrating new weapons with armed forces should not take years.",
+    "He said the objective cannot be technological uniformity.",
+    "He explained that operational coherence matters despite technological diversity.",
+    "Discussions on defence modernisation continued at the summit."
+   ],
+   "closing": "Discussions on modernising India's armed forces and weapons integration continue to be raised at defence summits."
+  },
+  "front_cat": "routine",
+  "image_query": "Air Marshal Tejpal Singh",
+  "wiki_subject": "",
+  "person_en": "Tejpal Singh",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "b086c1cc1049",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-09-27T15:05+05:30",
+  "links": [
+   "https://www.ndtv.com/india-news/new-weapons-should-not-take-years-to-integrate-air-marshal-tejpal-singh-at-ndtv-defence-summit-2026-12104533#publisher=newsstand"
+  ],
+  "image": null,
+  "audio": "data/audio/b086c1cc1049.mp3",
+  "created_ts": 1790501728.8890803,
+  "status": "published"
+ },
+ {
+  "headline": "AIMA மேட் செப்டம்பர் 2026 தேர்வு முடிவு விரைவில் வெளியீடு - மதிப்பெண் பட்டியல் பதிவிறக்கம் விவரம்",
+  "lines": [
+   "இந்திய மேலாண்மைச் சங்கம் (AIMA) நடத்திய மேலாண்மைத் திறன் தேர்வ (MAT) முடிவுகளை விரைவில் வெளியிடவுள்ளது.",
+   "எழுத்துத் தேர்வு முறை (PBT) மற்றும் கணினி வழித் தேர்வு முறை (CBT) ஆகிய இரண்டிற்குமான மதிப்பெண் பட்டியல் வெளியாகும்.",
+   "மதிப்பெண் பட்டியல் அதிகாரப்பூர்வ இணையதளத்தில் வெளியிடப்படும் என தேர்வ நடத்தும் அமைப்பு தெரிவித்துள்ளது.",
+   "தேர்வு எழுதிய மாணவர்கள் தங்கள் மின்னஞ்சல் முகவரி மற்றும் கடவுச்சொல்லைப் பயன்படுத்தி மதிப்பெண் பட்டியலைப் பதிவிறக்கம் செய்ய முடியும்.",
+   "மதிப்பெண் பட்டியல் வெளியான பிறகு அதைப் பதிவிறக்கம் செய்ய மாணவர்களுக்கு அறிவுறுத்தப்பட்டுள்ளது."
+  ],
+  "closing": "மேலாண்மைத் திறன் தேர்வு (MAT) நாடு முழுவதும் மேலாண்மைப் படிப்புகளில் சேர்க்கைக்காக நடத்தப்படும் தேர்வு ஆகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "NDTV India",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "இந்திய மேலாண்மைச் சங்கம்",
+   "மேலாண்மைத் திறன் தேர்வு",
+   "இந்தியா",
+   "மாணவர்கள்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "AIMA MAT Result To Be Released Soon: Scorecard Download Details",
+   "lines": [
+    "The All India Management Association is soon set to release the Management Aptitude Test results.",
+    "Scorecards for both the paper based test mode and the computer based test mode will be published.",
+    "The exam conducting body stated that the scorecard will be released on the official website.",
+    "Candidates who took the exam will be able to download their scorecard using their email ID and password.",
+    "Students have been advised to check the official website once the scorecard is released."
+   ],
+   "closing": "The Management Aptitude Test is conducted nationwide for admission to management courses."
+  },
+  "front_cat": "exam_jobs_deadline",
+  "image_query": "",
+  "wiki_subject": "Management Aptitude Test",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "865916f9df13",
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-09-27T15:04+05:30",
+  "links": [
+   "https://www.ndtv.com/education/aima-management-aptitude-test-september-2026-result-soon-know-how-to-download-scorecard-12104548#publisher=newsstand"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Management_Aptitude_Test_Logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Management Aptitude Test",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Management_Aptitude_Test",
+   "symbolic": false
+  },
+  "audio": "data/audio/865916f9df13.mp3",
+  "created_ts": 1790501688.2189915,
+  "status": "published"
+ },
+ {
+  "headline": "ஏரி மணல் கொள்ளை வழக்கு: அமைச்சர் எ.வ.வேலு, மகன் மீது வழக்கு",
+  "lines": [
+   "தமிழ்நாட்டில் ஓர் ஏரியில் மணல் கொள்ளை நடந்ததாகக் கூறி, அமைச்சர் எ.வ.வேலு மற்றும் அவரது மகன் மீது லஞ்ச ஒழிப்புத் துறை வழக்குப் பதிவு செய்துள்ளது.",
+   "குற்றச்சாட்டின் படி, ரூபாய் எட்டு கோடி மதிப்புள்ள மணல் சட்டவிரோதமாக அள்ளப்பட்டதாகத் தெரிகிறது.",
+   "லஞ்ச ஒழிப்புத் துறை இந்த வழக்கில் விசாரணையைத் தொடங்கியுள்ளதாக அறிவிக்கப்பட்டுள்ளது.",
+   "குற்றம் சாட்டப்பட்டவர்கள் தரப்பிலிருந்து இதுவரை அதிகாரப்பூர்வ விளக்கம் வெளியிடப்படவில்லை.",
+   "இந்த வழக்கு தொடர்பான விரிவான விசாரணை அடுத்த சில நாட்களில் தொடரும் எனத் தெரிகிறது."
+  ],
+  "closing": "இந்த வழக்கு தொடர்பாக லஞ்ச ஒழிப்புத் துறை மேலும் என்ன நடவடிக்கை எடுக்கும் என்பதைக் கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "எ.வ.வேலு",
+   "லஞ்ச ஒழிப்புத் துறை",
+   "தமிழ்நாடு",
+   "ஏரி"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Lake sand theft case: Minister E.V. Velu, son booked",
+   "lines": [
+    "A case has been registered by the Anti-Corruption Bureau against Minister E.V. Velu and his son over an alleged sand theft from a lake in Tamil Nadu.",
+    "According to the allegation, sand worth eight crore rupees was illegally extracted.",
+    "The Anti-Corruption Bureau has stated that an investigation into the case has begun.",
+    "No official response has been issued so far from the side of the accused.",
+    "A detailed investigation into the case is expected to continue in the coming days."
+   ],
+   "closing": "It remains to be seen what further action the Anti-Corruption Bureau will take in this case."
+  },
+  "front_cat": "scam_expose",
+  "image_query": "",
+  "wiki_subject": "E. V. Velu",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "284c5d2a73b9",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-27T15:03+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/the-dvac-has-registered-a-case-against-former-dmk-minister-ev-velu-for-alleged-sand-theft-from-a-lake"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/284c5d2a73b9.mp3",
+  "created_ts": 1790501609.8064697,
+  "status": "published"
+ },
+ {
+  "headline": "டாஸ்மாக் கடையை இடமாற்ற வலியுறுத்தி குடையுடன் போராட்டம்",
+  "lines": [
+   "ஒரு பகுதியில் உள்ள டாஸ்மாக் கடையை வேறு இடத்திற்கு மாற்ற வேண்டும் என வலியுறுத்தி உள்ளூர் மக்கள் போராட்டம் நடத்தினர்.",
+   "கொளுத்தும் வெய்யிலிலும் குடைகளுடன் நின்று போராட்டக்காரர்கள் தங்கள் கோரிக்கையை முன்வைத்தனர்.",
+   "டாஸ்மாக் கடை இருப்பதால் பகுதி மக்களுக்குத் தொல்லை ஏற்படுவதாக போராட்டக்காரர்கள் தெரிவித்தனர்.",
+   "இது தொடர்பாக அதிகாரிகள் தரப்பில் உடனடி விளக்கம் எதுவும் வெளியிடப்படவில்லை.",
+   "கோரிக்கை ஏற்கப்படுமா என்பது குறித்து அரசு பதில் அளிக்க வேண்டும் என பகுதி மக்கள் எதிர்பார்க்கின்றனர்."
+  ],
+  "closing": "டாஸ்மாக் கடைகளை குடியிருப்பு பகுதிகளிலிருந்து இடமாற்றம் கோரும் போராட்டங்கள் பல்வேறு பகுதிகளில் அவ்வப்போது நடைபெறுகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "டாஸ்மாக்",
+   "போராட்டம்"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Protesters with umbrellas demand relocation of TASMAC shop",
+   "lines": [
+    "Residents of a locality staged a protest demanding that a nearby TASMAC liquor shop be relocated.",
+    "Protesters stood under umbrellas in scorching heat to press their demand.",
+    "They said the presence of the liquor shop was causing trouble for local residents.",
+    "No official response has been issued yet regarding the demand.",
+    "Local residents are awaiting a decision from the government on their request."
+   ],
+   "closing": "Protests demanding relocation of TASMAC outlets from residential areas occur periodically in various parts of Tamil Nadu."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "c5eee692d4c0",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-27T15:02+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/relocate-the-tasmac-shop-protest-with-umbrellas-under-the-scorching-sun"
+  ],
+  "image": null,
+  "audio": "data/audio/c5eee692d4c0.mp3",
+  "created_ts": 1790501550.7817607,
+  "status": "published"
+ },
+ {
+  "headline": "வெள்ளிப் பதக்கம் வென்ற அபய் சிங்குக்கு ₹50 லட்சம் ஊக்கத் தொகை",
+  "lines": [
+   "தமிழ்நாட்டைச் சேர்ந்த வீரர் அபய் சிங் சமீபத்தில் வெள்ளிப் பதக்கம் வென்றுள்ளார்.",
+   "அந்தப் பதக்க வெற்றிக்காக தமிழ்நாடு அரசு ₹50 லட்சம் ஊக்கத் தொகை வழங்க அறிவித்துள்ளது.",
+   "விளையாட்டு வீரர்களின் சாதனைகளைப் பாராட்டி அரசு இந்த நிதி ஒதுக்கீட்டை அதிகரித்து வருகிறது.",
+   "தமிழ்நாட்டுப் பெயரை உயர்த்தும் வீரர்களுக்கு அரசு இத்தகைய ஆதரவை அளிப்பது வழக்கமாக உள்ளது.",
+   "இத்தகைய ஊக்கத் தொகை வரும் தலைமுறை வீரர்களையும் சாதனை செய்ய ஊக்குவிப்பதாக எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "அபய் சிங் போன்ற பதக்கம் வெல்லும் விளையாட்டு வீரர்களின் பெயரை உயர்த்துதலும் அவர்களுக்கு ஆதரவு அளிப்பதும் தமிழ்நாட்டின் நிலை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Sports",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "sports",
+  "entities": [
+   "அபய் சிங்க்",
+   "தமிழ்நாட்டு அரசு",
+   "வெள்ளிப் பதகம்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Tamil Nadu announces ₹50 lakh incentive for silver medalist Abhay Singh",
+   "lines": [
+    "Abhay Singh, an athlete from Tamil Nadu, recently won a silver medal.",
+    "The Tamil Nadu government has announced an incentive of ₹50 lakh for his medal-winning achievement.",
+    "The state government has been increasing financial support to recognize athletes' accomplishments.",
+    "Supporting medal-winning athletes who bring honor to Tamil Nadu is a regular practice.",
+    "Such incentives are expected to encourage the next generation of athletes to achieve excellence."
+   ],
+   "closing": "Recognizing and supporting medal-winning athletes like Abhay Singh has become part of Tamil Nadu's commitment to sports."
+  },
+  "front_cat": "sports_historic",
+  "image_query": "Abhay Singh athlete",
+  "wiki_subject": "Abhay Singh (athlete)",
+  "person_en": "Abhay Singh",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "dee99dc6e73f",
+  "topic_ta": "விளையாட்டு",
+  "published_at": "2026-09-27T15:01+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/50-lakh-cash-incentive-announced-for-the-tamil-nadu-athlete-abhay-singh-who-won-silver-at-asian-games-2026"
+  ],
+  "image": null,
+  "audio": "data/audio/dee99dc6e73f.mp3",
+  "created_ts": 1790501516.547006,
+  "status": "published"
+ },
+ {
+  "headline": "புது வசந்தம் தொடரின் குதூகல நிறைவு விழா நடந்தது",
+  "lines": [
+   "தமிழ்த் திரையுலகத்தின் புகழ்பெற்ற புது வசந்தம் தொடர் குதூகல விழாவுடன் நிறைவு பெற்றது.",
+   "தொடரின் கதை, நடிப்பு, இசை ஆகிய அனைத்துக்கும் இயக்குநர் மற்றும் தொழில்நுட்ப குழு பாராட்டு பெற்றனர்.",
+   "இயக்குநர் இது தமிழ் சினிமாவின் ஒரு முக்கிய நகர்வு என்று கூறினார்.",
+   "பல பேர் இந்தத் தொடரை தமிழ் வரலாற்றில் ஓர் சிறப்புத் தருணம் என்று கருதினர்.",
+   "புது வசந்தம் தொடர் எதிர்வரும் மாதங்களில் வெளிநாடுகளில் பரவ உள்ளது."
+  ],
+  "closing": "தொடர் நிறைவுக்குப் பின் இதில் நடிகர்களாகப் பணிபுரிந்த பல கலைஞர்கள் அடுத்த திரைப்படத் திட்டத்தை அறிவித்தனர்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "புது வசந்தம் தொடர்",
+   "தமிழ் சினிமா"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Pudhu Vasantham series concludes with celebratory event",
+   "lines": [
+    "The acclaimed Pudhu Vasantham series concluded with a celebratory gathering.",
+    "The director and technical team received praise for the series' story, performances, and music.",
+    "The director said this is a significant moment in Tamil cinema.",
+    "Many considered the series a historic occasion in Tamil film history.",
+    "The series is set to expand to foreign countries in the coming months."
+   ],
+   "closing": "After the series concluded, several cast members announced their next film projects."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Pudhu Vasantham series Tamil",
+  "wiki_subject": "Pudhu Vasantham",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "5731eda3fbeb",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-09-27T14:59+05:30",
+  "links": [
+   "https://www.dinamani.com/cinema/cinema-news/2026/Sep/27/pudhu-vasantham-series-concludes-with-jubilant-celebrations"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/6/64/Pudhu_Vasantham.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Pudhu Vasantham",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Pudhu_Vasantham",
+   "symbolic": false
+  },
+  "audio": "data/audio/5731eda3fbeb.mp3",
+  "created_ts": 1790501344.1278443,
+  "status": "published"
+ },
+ {
+  "headline": "சட்டம் ஒழுங்கு துறையை RTI விலக்கு அரசாணையை தமிழ்நாடு அரசு திரும்பப் பெற்றது",
+  "lines": [
+   "தமிழ்நாடு அரசு பொது (சட்டம் ஒழுங்கு) துறையை தகவல் அறியும் உரிமைச் சட்டத்திலிருந்து விலக்கு அளித்த அரசாணையை திரும்பப் பெற்றுள்ளது.",
+   "செப்டம்பர் 21, 2026 அன்று பிறப்பிக்கப்பட்ட அரசாணை வகுப்புவாத மற்றும் சாதி மோதல்கள் தொடர்பான தகவல்களை விலக்கியிருந்தது.",
+   "பொது எதிர்ப்பு வெளிப்பட்டதை அடுத்து அரசு இந்த அரசாணையை திரும்பப் பெற்றுள்ளது.",
+   "போலீஸ் துப்பாக்கிச் சூடு விசாரணை அறிக்கைகள், காவல் காப்பில் மரணங்கள் தொடர்பான தகவல்களும் விலக்கப்பட்ட பட்டியலில் இடம்பெற்றிருந்தன.",
+   "மாணவர்கள் மற்றும் விவசாயிகளின் போராட்டங்கள் கையாளப்பட்ட விதம் குறித்த தகவல்களும் இனி கிடைக்கும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "தேசிய பாதுகாப்புச் சட்டத்தின் கீழ் தடுப்புக் காவலில் வைக்கப்பட்டோர் தொடர்பான விவரங்களும் இந்த விலக்கு அரசாணையில் இடம்பெற்றிருந்தன என்பது குறிப்பிடத்தக்கது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-09-27"
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "தகவல் அறியும் உரிமைச் சட்டம்",
+   "பொது சட்டம் ஒழுங்கு துறை",
+   "தேசிய பாதுகாப்புச் சட்டம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Tamil Nadu withdraws G.O. exempting police department from RTI Act",
+   "lines": [
+    "The Tamil Nadu government has withdrawn a G.O. that exempted the Public Law and Order Department from the Right to Information Act.",
+    "The order, dated September 21, had excluded information on communal and caste clashes from RTI access.",
+    "The withdrawal reportedly followed public backlash against the exemption order.",
+    "Inquiry reports on police firing and custodial deaths were also among the items excluded under the original order.",
+    "Information on how student and farmer agitations were handled is now expected to remain accessible again."
+   ],
+   "closing": "Details related to detentions under the National Security Act were also part of the categories excluded in the withdrawn order."
+  },
+  "front_cat": "policy_mass",
+  "image_query": "Tamil Nadu government secretariat",
+  "wiki_subject": "Right to Information Act, 2005",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e5481359b561",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-27T14:58+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-exempts-public-law-and-order-department-from-rti-act/article71515196.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/960px-Emblem_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Right to Information Act, 2005",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Right_to_Information_Act%2C_2005",
+   "symbolic": false
+  },
+  "audio": "data/audio/e5481359b561.mp3",
+  "created_ts": 1790501321.0797975,
+  "status": "published"
+ },
+ {
+  "headline": "சட்டம் - ஒழுங்கு தகவல் ஆர்டிஐ கட்டுப்பாடு அரசாணை திரும்பப் பெறப்பட்டது",
+  "lines": [
+   "தமிழக அரசு தகவல் அறியும் உரிமைச் சட்டத்தின் கீழ் சட்டம் - ஒழுங்கு தொடர்பான தகவல்களைப் பெறுவதில் கட்டுப்பாடு விதித்து ஒரு அரசாணையை பிறப்பித்தது.",
+   "இந்த அரசாணை காலையில் வெளியான உடனேயே அதற்கு எதிர்ப்பு கிளம்பியது.",
+   "எதிர்ப்பைத் தொடர்ந்து மதியத்திற்குள் தமிழக அரசு அந்த அரசாணையை திரும்பப் பெற்றது.",
+   "தகவல் அறியும் உரிமைச் சட்டம் பொதுமக்களுக்கு அரசுத் துறைகளிடமிருந்து தகவல் பெறும் உரிமையை அளிக்கிறது.",
+   "இந்த அரசாணை ஏன் பிறப்பிக்கப்பட்டது என்பது குறித்த முழு விளக்கம் இன்னும் வெளியிடப்படவில்லை."
+  ],
+  "closing": "தகவல் அறியும் உரிமைச் சட்டம் 2005ஆம் ஆண்டு இயற்றப்பட்டு, பொதுமக்கள் அரசுத் துறைகளிடமிருந்து தகவல் பெற உரிமை அளிக்கும் மத்திய சட்டம் ஆகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "தினமணி",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "தினமணி",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழக அரசு",
+   "தகவல் அறியும் உரிமைச் சட்டம்",
+   "அரசாணை",
+   "சட்டம் ஒழுங்கு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Tamil Nadu withdraws GO restricting RTI on law and order",
+   "lines": [
+    "The Tamil Nadu government issued a government order restricting access to law and order related information under the Right to Information Act.",
+    "Protests erupted soon after the order was issued in the morning.",
+    "Following the protests, the government withdrew the order by afternoon the same day.",
+    "The Right to Information Act allows citizens to seek information from government departments.",
+    "The full reason behind the original order has not yet been made public."
+   ],
+   "closing": "The Right to Information Act, enacted in 2005, is a central law that grants citizens the right to obtain information from government departments."
+  },
+  "front_cat": "routine",
+  "image_query": "Right to Information India document",
+  "wiki_subject": "Right to Information Act, 2005",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "ea7a3b9c9338",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-09-27T14:57+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/government-order-withdrawn-regarding-the-exemption-granted-to-obtain-certain-information-related-to-general-law-and-order",
+   "https://www.dinamani.com/tamilnadu/2026/Sep/27/rti-restrictions-on-obtaining-information-regarding-law-and-order"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/960px-Emblem_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Right to Information Act, 2005",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Right_to_Information_Act%2C_2005",
+   "symbolic": false
+  },
+  "audio": "data/audio/ea7a3b9c9338.mp3",
+  "created_ts": 1790501246.7250712,
+  "status": "published"
+ },
+ {
+  "headline": "ஆசிய விளையாட்டுப் போட்டி 2026: அபய், அனாஹத்துக்கு வெள்ளிப் பதக்கம் — மலேசிய வீரர்களுக்கு தோல்வி",
+  "lines": [
+   "ஆசிய விளையாட்டுப் போட்டியில் இந்திய ஸ்குவாஷ் வீரர் அபய் சிங் ஆண்கள் ஒற்றையர் இறுதிப் போட்டியில் வெள்ளிப் பதக்கம் வென்றார்.",
+   "இதே போட்டியில் பதினெட்டு வயது அனாஹத் என்ற வீராங்கனையும் வெள்ளிப் பதக்கத்துடன் திருப்தி அடைந்தார்.",
+   "இருபத்தி ஆறாவது தரவரிசையில் உள்ள அபய் சிங், மலேசியாவின் ஈயின் யோ ங்கிடம் தொடர்ச்சியாக மூன்று கேம்களில் 9-11, 5-11, 5-11 என்ற கணக்கில் தோற்றார்.",
+   "உலக பதினெட்டாவது தரவரிசையில் உள்ள ஈயின் யோ, தனது தங்கப் பதக்கத்தைத் தக்க வைத்துக் கொண்டார்.",
+   "அனாஹத் 4-11, 4-11, 7-11 என்ற கணக்கில் தோல்வியைச் சந்தித்தார்."
+  ],
+  "closing": "மலேசிய வீரர் ஈயின் யோ இரு பிரிவுகளிலும் தங்கப் பதக்கம் வென்று மேலாதிக்கம் காட்டியது கவனிக்கத்தக்கது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Sport",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu Sport",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "sports",
+  "entities": [
+   "அபய் சிங்",
+   "அனாஹத்",
+   "மலேசியா",
+   "ஆசிய விளையாட்டுப் போட்டி",
+   "ஈயின் யோ ங்"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Asian Games: Abhay, Anahat win silver in squash singles",
+   "lines": [
+    "Indian squash player Abhay Singh won a silver medal in the men's singles final at the Asian Games.",
+    "Eighteen-year-old Anahat also settled for a silver medal in the same tournament.",
+    "Ranked 26th, Abhay Singh lost in straight games to Malaysia's Eain Yow Ng.",
+    "World number 18 Eain Yow Ng defended his gold medal with a commanding performance.",
+    "Anahat lost her final 4-11, 4-11, 7-11."
+   ],
+   "closing": "Malaysian players dominated both categories by winning gold medals in each."
+  },
+  "front_cat": "sports_historic",
+  "image_query": "squash Asian Games final",
+  "wiki_subject": "2026 Asian Games",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [],
+  "id": "fed67c79b8b7",
+  "topic_ta": "விளையாட்டு",
+  "published_at": "2026-09-27T14:55+05:30",
+  "links": [
+   "https://www.thehindu.com/sport/asian-games-2026-anahat-abhay-end-with-silver-each-after-losing-to-the-mighty-malaysians/article71515659.ece",
+   "https://www.thehindu.com/sport/asian-games-2026-abhay-settles-for-silver-after-losing-to-malaysias-eain-yow/article71515577.ece",
+   "https://sportstar.thehindu.com/asian-games/asian-games-2026-abhay-singh-silver-eain-yow-gold-mens-singles-squash-final/article71515550.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4d/2026_Asian_Games_logo.svg/250px-2026_Asian_Games_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · 2026 Asian Games",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/2026_Asian_Games",
+   "symbolic": false
+  },
+  "audio": "data/audio/fed67c79b8b7.mp3",
+  "created_ts": 1790501119.9883006,
+  "status": "published"
+ },
+ {
   "id": "art_world_20260927",
   "headline": "ஐ.நா., உலக வங்கி மற்றும் இந்தியாவின் வெளியுறவுப் பின்னணி",
   "lines": [
@@ -17543,780 +18201,6 @@
   },
   "audio": "data/audio/7782fbf1bda3.mp3",
   "created_ts": 1789845904.948028,
-  "status": "published"
- },
- {
-  "headline": "ஒரே ஒரு வாக்கு வித்தியாசத்தில் வென்ற தி.வெ.க. எம்.எல்.ஏ. மனு மீது உத்தரவு ஒத்திவைப்பு",
-  "lines": [
-   "திருப்பத்தூர் தொகுதியில் ஒரே ஒரு வாக்கு வித்தியாசத்தில் வென்ற தி.வெ.க. எம்.எல்.ஏ. சீனிவாச சேதுபதி தொடர்பான வழக்கில் சென்னை உயர் நீதிமன்றம் உத்தரவை ஒத்திவைத்தது.",
-   "இந்தத் தொகுதியில் வெற்றி இடைவெளி வெறும் ஒரு வாக்காக இருந்தது என்பது குறிப்பிடத்தக்கது.",
-   "முன்னாள் திமுக அமைச்சர் கே.ஆர். பெரியகருப்பன் தாக்கல் செய்த தேர்தல் மதுரை நிராகரிக்குமாறு கோரி சேதுபதி தாக்கல் செய்த மதுரை நீதிபதி ஜி.கே. இளந்திரையன் விசாரித்தார்.",
-   "இந்தத் தொகுதியின் வெற்றியை எதிர்த்து பெரியகருப்பன் ஏற்கெனவே தேர்தல் மனு தாக்கல் செய்திருந்தார் என்பது பின்னணி.",
-   "இந்த மனு மீதான இறுதி உத்தரவு பின்னர் வெளியிடப்படும் என நீதிமன்றம் தெரிவித்தது."
-  ],
-  "closing": "ஒரு வாக்கு வித்தியாசத்தில் வென்ற இந்தத் தொகுதியின் தேர்தல் மனு வழக்கின் இறுதி உத்தரவை அடுத்து கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "திருப்பத்தூர்",
-   "சென்னை உயர் நீதிமன்றம்",
-   "தமிழக வெற்றிக் கழகம்",
-   "சீனிவாச சேதுபதி",
-   "கே.ஆர். பெரியகருப்பன்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Court reserves order on plea in one-vote MLA win case",
-   "lines": [
-    "The Madras High Court reserved its order on a plea by Tiruppattur TVK MLA R. Seenivasa Sethupathy, who won by a single vote.",
-    "The margin of victory in this constituency was notably just one vote.",
-    "Justice G. K. Ilanthiraiyan heard Sethupathy's plea seeking to reject the election petition filed by former DMK Minister K. R. Periakaruppan.",
-    "Periakaruppan had earlier filed an election petition challenging the result of this constituency.",
-    "The court said the final order on the plea would be delivered later."
-   ],
-   "closing": "The final verdict on this election petition case involving a one-vote margin win is awaited."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "Madras High Court building",
-  "wiki_subject": "Madras High Court",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "da33d09c647a",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-09-20T00:54+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/tirupattur-tvk-mlas-win-by-a-single-vote-madras-high-court-reserves-orders-on-plea-to-reject-election-petition/article71483682.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/da33d09c647a.mp3",
-  "created_ts": 1789845867.3879411,
-  "status": "published"
- },
- {
-  "headline": "அண்ணா பல்கலைக்கழக மாணவர் மரணம், டெங்கு அல்ல ஸ்க்ரப் டைபஸ் எனத் தெளிவு",
-  "lines": [
-   "அண்ணா பல்கலைக்கழகத்தில் மாணவர் ஒருவர் இறந்த சம்பவம் குறித்து பொது சுகாதாரத் துறை தெளிவுபடுத்தியுள்ளது.",
-   "அந்த மாணவர் டெங்கு காய்ச்சலால் அல்ல, ஸ்க்ரப் டைபஸ் நோயால் இறந்ததாக துறை தெரிவித்துள்ளது.",
-   "பல்கலைக்கழக வளாகத்தில் பதிவான ஒரே சுகாதாரப் பாதிப்பு இதுவே என்றும் அறிக்கையில் கூறப்பட்டுள்ளது.",
-   "வளாகத்தில் டெங்கு பரவியதாக தகவல் பரவியதால் மாணவர்கள் மத்தியில் அச்சம் ஏற்பட்டது.",
-   "இதைத் தொடர்ந்து பல மாணவர்கள் பரிசோதனைக்காக அருகிலுள்ள ஆரம்ப சுகாதார நிலையத்திற்கு விரைந்து சென்றனர்."
-  ],
-  "closing": "பொது சுகாதாரத் துறை இந்த விளக்கத்தை சமூக ஊடகத் தளமான எக்ஸ் வழியாக வெளியிட்டு உண்மை நிலையை உறுதிப்படுத்தியது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "அண்ணா பல்கலைக்கழகம்",
-   "பொது சுகாதாரத் துறை",
-   "ஸ்க்ரப் டைபஸ்",
-   "டெங்கு",
-   "சென்னை"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Anna University Student's Death Not Dengue, Was Scrub Typhus: Officials",
-   "lines": [
-    "The Public Health Department has clarified details about the death of an Anna University student.",
-    "The department stated the student did not die of dengue but of scrub typhus.",
-    "It said this was the only reported health case of its kind on the campus.",
-    "Rumours of a dengue outbreak on campus had caused alarm among students.",
-    "Following this, several students rushed to a nearby primary health centre for testing."
-   ],
-   "closing": "The Public Health Department issued this clarification through a post on X to confirm the actual situation."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Anna University",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "4531ac55ba51",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-09-20T00:53+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/death-of-anna-university-student-was-not-due-to-dengue-clarifies-public-health-department/article71484377.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Anna_university_01.jpg/3840px-Anna_university_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Anna University",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Anna_University",
-   "symbolic": false
-  },
-  "audio": "data/audio/4531ac55ba51.mp3",
-  "created_ts": 1789845822.9962409,
-  "status": "published"
- },
- {
-  "headline": "இந்தியா நீரிழிவு மருந்துகளை மலிவாக வழங்கும் மதுரை ஆய்வு",
-  "lines": [
-   "இந்தியாவில் நீரிழிவு நோய்க்கான மருந்துகள் விலை குறைவாக இருப்பதற்கான காரணங்களை ஆய்வு செய்துள்ளனர்.",
-   "இந்திய மருந்து ஏற்றுமதியாளர் நிறுவனங்களின் முக்கியப் பங்கு இந்த சாதனைக்கு வழிவகுத்துள்ளது.",
-   "'பேட்டன்ட் எவர்கிரீனிங்' என்ற நடைமுறையைத் தடை செய்யும் சட்டங்களும் பொதுமருந்து உற்பத்தியை அனுமதிக்கும் சட்டங்களும் இதற்குக் காரணம் என்று நீரிழிவு நோய் நிபுணர்கள் கூறினர்.",
-   "மருந்து விலை கட்டுப்பாட்டிற்கான இந்தியாவின் கொள்கை ரீதியான முயற்சிகள் உலகளவில் பாராட்டப்பட்டு வருகின்றன.",
-   "இந்த ஆய்வு முடிவுகள் வேறு நாடுகளும் பின்பற்றக்கூடிய மாதிரிக் கொள்கைகளை முன்மொழிகின்றன."
-  ],
-  "closing": "மலிவான மருந்து வகைப்படுத்தப்படுவதற்கான சட்டப்பகுப்பாய்வு பற்றிய விவரங்கள் மேலும் அறியப்பட வேண்டியுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "இந்தியா",
-   "நீரிழிவு நோய்",
-   "மருந்து ஏற்றுமதி",
-   "பொதுமருந்து"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Study examines India's affordable diabetes medicine approach",
-   "lines": [
-    "Researchers have studied why diabetes medicines in India are priced affordably for patients.",
-    "Indian pharmaceutical exporters' significant role has contributed to achieving this goal.",
-    "Legislation that prevents patent evergreening and permits generic drug production are key factors, according to diabetologists.",
-    "India's drug pricing policy initiatives have gained appreciation worldwide.",
-    "The study's findings suggest policy models that other countries could adopt."
-   ],
-   "closing": "Further details on legal analysis of affordable medicine classification need to be understood."
-  },
-  "front_cat": "routine",
-  "image_query": "affordable medicines india pharmacy",
-  "wiki_subject": "Indian pharmaceutical industry",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "2863efa682b0",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-09-20T00:51+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/health/study-attempts-to-find-out-how-india-made-expensive-diabetes-medicines-affordable/article71484378.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/The_Union_Minister_for_Health_%26_Family_Welfare%2C_Shri_J.P._Nadda_inaugurating_the_%E2%80%9CAMRIT%E2%80%9D_%28Affordable_medicines_and_Reliable_implants_for_treatment%29%2C_a_HLL_Lifecare_Pharmacy_Centre%2C_at_AIIMS%2C_in_New_Delhi_on_November_15%2C_2015.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா Commons · Ministry of Health and Family Welfare\n",
-   "license": "GODL-India",
-   "symbolic": true
-  },
-  "audio": "data/audio/2863efa682b0.mp3",
-  "created_ts": 1789845716.6202645,
-  "status": "published"
- },
- {
-  "id": "jobs_20260919",
-  "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
-  "lines": [
-   "Samagra Shiksha Jajpur — பகுதிநேர ஆசிரியர் (சமஸ்கிருதம்) (1 இடங்கள்) · கடைசி நாள் 2026-10-06.",
-   "CPRI - மத்திய மின் ஆராய்ச்சி நிறுவனம் — பொறியாளர்/உதவியாளர்/எம்.டி.எஸ் (110 இடங்கள்) · கடைசி நாள் 2026-10-12.",
-   "KVK அதவுரா — பண்ணை மேலாளர் மற்றும் சுருக்கெழுத்தாளர்-III (2 இடங்கள்) · கடைசி நாள் 2026-09-18.",
-   "DRDO - VRDE — இளநிலை ஆராய்ச்சி பணியாளர் (JRF) (5 இடங்கள்) · கடைசி நாள் 2026-09-27.",
-   "SAIRD — மூத்த விஞ்ஞானி-KVK தலைவர்/பொருள் நிபுணர் (2 இடங்கள்) · கடைசி நாள் 2026-10-03."
-  ],
-  "closing": "விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பை சரிபார்க்கவும்; துலாமுள் பணம் கேட்கும் எந்த அறிவிப்பையும் பட்டியலிடாது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-09-19"
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-09-19"
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-09-19"
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-09-19"
-   }
-  ],
-  "topic": "jobs",
-  "topic_ta": "வேலை · தேர்வு",
-  "entities": [
-   "Samagra Shiksha Jajpur",
-   "CPRI - மத்திய மின் ஆராய்ச்சி நிறுவனம்",
-   "KVK அதவுரா",
-   "DRDO - VRDE"
-  ],
-  "confidence": 0.8,
-  "flags": [],
-  "jobs": [
-   {
-    "org": "Samagra Shiksha Jajpur",
-    "post": "பகுதிநேர ஆசிரியர் (சமஸ்கிருதம்)",
-    "count": "1",
-    "last_date": "2026-10-06",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/samagra-shiksha-jajpur-part-time-teacher-recruitment-2026-apply-offline-3068339"
-   },
-   {
-    "org": "CPRI - மத்திய மின் ஆராய்ச்சி நிறுவனம்",
-    "post": "பொறியாளர்/உதவியாளர்/எம்.டி.எஸ்",
-    "count": "110",
-    "last_date": "2026-10-12",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/cpri-recruitment-2026-apply-online-for-110-assistant-mts-and-more-posts-3067640"
-   },
-   {
-    "org": "KVK அதவுரா",
-    "post": "பண்ணை மேலாளர் மற்றும் சுருக்கெழுத்தாளர்-III",
-    "count": "2",
-    "last_date": "2026-09-18",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/kvk-adhaura-recruitment-2026-apply-offline-for-farm-manager-and-stenographer-posts-3068336"
-   },
-   {
-    "org": "DRDO - VRDE",
-    "post": "இளநிலை ஆராய்ச்சி பணியாளர் (JRF)",
-    "count": "5",
-    "last_date": "2026-09-27",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/drdo-vrde-junior-research-fellow-recruitment-2026-apply-online-3068333"
-   },
-   {
-    "org": "SAIRD",
-    "post": "மூத்த விஞ்ஞானி-KVK தலைவர்/பொருள் நிபுணர்",
-    "count": "2",
-    "last_date": "2026-10-03",
-    "type": "தனியார்",
-    "link": "https://www.freejobalert.com/articles/saird-recruitment-2026-apply-offline-for-senior-scientist-cum-head-kvk-subject-matter-specialist-posts-3068331"
-   },
-   {
-    "org": "HPPSC",
-    "post": "மருத்துவ அதிகாரி",
-    "count": "228",
-    "last_date": "2026-10-16",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/hppsc-medical-officer-recruitment-2026-apply-online-for-228-posts-3068329"
-   },
-   {
-    "org": "TNGCL - திரிபுரா இயற்கை எரிவாயு நிறுவனம்",
-    "post": "துணை பொது மேலாளர் மற்றும் உதவி மேலாளர்",
-    "count": "3",
-    "last_date": "2026-10-09",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/tngcl-recruitment-2026-apply-online-for-deputy-general-manager-assistant-manager-and-more-posts-3068327"
-   },
-   {
-    "org": "Ordnance Factory Ambarnath",
-    "post": "தொழிலாளர் நல அதிகாரி",
-    "count": "1",
-    "last_date": "2026-10-03",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/ordnance-factory-ambarnath-labour-welfare-officer-recruitment-2026-apply-offline-3068325"
-   },
-   {
-    "org": "NCDC - தேசிய நோய் கட்டுப்பாட்டு மையம்",
-    "post": "தொழில்நுட்ப அதிகாரி, தரவு மேலாளர் மற்றும் பிற",
-    "count": "16",
-    "last_date": "2026-09-29",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/ncdc-recruitment-2026-apply-online-for-16-technical-officer-data-manager-and-more-posts-3068322"
-   },
-   {
-    "org": "South Zone Cultural Centre",
-    "post": "உதவியாளர், உதவி பொறியாளர் மற்றும் பிற",
-    "count": "25",
-    "last_date": null,
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/south-zone-cultural-centre-recruitment-2026-apply-offline-for-25-assistant-assistant-engineer-and-more-posts-3068321"
-   },
-   {
-    "org": "IGNOU",
-    "post": "பேராசிரியர், துணை பேராசிரியர் மற்றும் உதவி பேராசிரியர்",
-    "count": "42",
-    "last_date": "2026-10-20",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/ignou-teaching-recruitment-2026-apply-online-42-professor-associate-assistant-professor-posts-3068316"
-   },
-   {
-    "org": "HPSC - ஹரியானா பொது சேவை ஆணையம்",
-    "post": "உணவு பாதுகாப்பு அதிகாரி",
-    "count": "45",
-    "last_date": "2026-09-28",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/hpsc-fso-recruitment-2026-apply-online-for-45-food-safety-officer-posts-3068315"
-   }
-  ],
-  "image": null,
-  "status": "published",
-  "published_at": "2026-09-19T07:32+05:30",
-  "created_ts": 1789783379.1668344,
-  "audio": "data/audio/jobs_20260919.mp3"
- },
- {
-  "headline": "நவோதயா பள்ளிகள் உத்தரவை உடனடியாக அமல்படுத்தக் கோரிக்கை",
-  "lines": [
-   "நவோதயா வித்யாலயா பள்ளிகள் தொடர்பான உச்ச நீதிமன்ற உத்தரவை தமிழக அரசு உடனடியாக அமல்படுத்த வேண்டும் என பாஜக தலைவர் நயினாா் நாகேந்திரன் கோரிக்கை வைத்துள்ளார்.",
-   "இந்த உத்தரவை நடைமுறைப்படுத்தாமல் தமிழக அரசு தாமதம் செய்வதாக அவர் குற்றம் சாட்டியுள்ளார்.",
-   "உச்ச நீதிமன்றத்தின் தீர்ப்பை மதிக்க வேண்டியது அரசின் கடமை என்று அவர் தெரிவித்துள்ளார்.",
-   "நவோதயா வித்யாலயா திட்டம் பல ஆண்டுகளாக தமிழ்நாட்டில் சர்ச்சைக்குரிய பிரச்சினையாக உள்ளது.",
-   "இந்த கோரிக்கைக்கு தமிழக அரசு இதுவரை அதிகாரப்பூர்வமாக பதிலளிக்கவில்லை."
-  ],
-  "closing": "நவோதயா வித்யாலயா பள்ளிகள் அமைப்பு தொடர்பாக தமிழக அரசு என்ன நடவடிக்கை எடுக்கும் என்பது இன்னும் தெளிவாகவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "நயினார் நாகேந்திரன்",
-   "தமிழக அரசு",
-   "உச்ச நீதிமன்றம்",
-   "நவோதயா வித்யாலயா"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Navodaya Schools: Implement Supreme Court Order Immediately Says Nainar Nagenthran",
-   "lines": [
-    "BJP leader Nainar Nagenthran has demanded that the Tamil Nadu government immediately implement the Supreme Court order regarding Navodaya Vidyalaya schools.",
-    "He accused the state government of delaying the implementation of the court's directive.",
-    "He stated that respecting the Supreme Court's ruling is the government's duty.",
-    "The Navodaya Vidyalaya scheme has remained a contentious issue in Tamil Nadu for several years.",
-    "The Tamil Nadu government has not yet officially responded to this demand."
-   ],
-   "closing": "It remains unclear what action the Tamil Nadu government will take regarding the establishment of Navodaya Vidyalaya schools."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Nainar Nagenthran",
-  "person_en": "Nainar Nagenthran",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "fbaeb9411521",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-19T03:44+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/18/navodaya-schools-tamil-nadu-government-must-immediately-implement-the-supreme-courts-order-nainar-nagendran"
-  ],
-  "image": null,
-  "audio": "data/audio/fbaeb9411521.mp3",
-  "created_ts": 1789769677.7015922,
-  "status": "published"
- },
- {
-  "headline": "தமிழக கூட்டுறவு சங்கத் தோ்தல்: ஐந்து கட்டங்களாக பட்டியல் கோரிக்கை",
-  "lines": [
-   "தமிழ்நாட்டில் கூட்டுறவு சங்கங்களுக்கான தேர்தலை நடத்த ஏற்பாடுகள் தொடங்கியுள்ளன.",
-   "இந்தத் தோ்தல் ஐந்து கட்டங்களாக நடத்தப்பட உள்ளதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "இதற்காக கூட்டுறவு சங்கங்களின் பட்டியல் கோரப்பட்டுள்ளதாக அறிவிக்கப்பட்டுள்ளது.",
-   "இது தொடர்பான முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-   "தோ்தல் அட்டவணை மற்றும் நடைமுறை குறித்த மேலும் தகவல்கள் எதிர்பார்க்கப்படுகின்றன."
-  ],
-  "closing": "கூட்டுறவு சங்கங்களின் உறுப்பினராக உள்ளவர்கள் இந்தத் தோ்தல் அறிவிப்பை கவனத்தில் கொள்ள வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "தமிழ்நாடு",
-   "கூட்டுறவுத் துறை",
-   "கூட்டுறவு சங்கங்கள்"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Tamil Nadu Co-operative Society Elections: List Sought in Five Phases",
-   "lines": [
-    "Preparations have begun for elections to co-operative societies in Tamil Nadu.",
-    "The elections are reportedly set to be conducted in five phases.",
-    "A list of co-operative societies has been sought for this purpose.",
-    "Complete details regarding this have not yet been officially released.",
-    "Further information on the election schedule and process is awaited."
-   ],
-   "closing": "Members of co-operative societies should take note of this election announcement."
-  },
-  "front_cat": "routine",
-  "image_query": "cooperative society office india",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "6d901fd9656d",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-19T03:42+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/18/elections-for-cooperative-societies-request-for-list-of-societies-in-five-phases"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/GP_Sun_Service_Co-operative_Society_Limited_-_Sankarpur_Road_-_East_Midnapore_2015-05-02_9291.JPG/1280px-GP_Sun_Service_Co-operative_Society_Limited_-_Sankarpur_Road_-_East_Midnapore_2015-05-02_9291.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா Commons · Biswarup Ganguly",
-   "license": "CC BY 3.0",
-   "symbolic": true
-  },
-  "audio": "data/audio/6d901fd9656d.mp3",
-  "created_ts": 1789769531.3289135,
-  "status": "published"
- },
- {
-  "headline": "வேலூர், திருவண்ணாமலை உள்பட நான்கு ரெயில் நிலையங்களில் லிஃப்ட் பாலம்",
-  "lines": [
-   "வேலூர் கண்டோன்மென்ட், திருவண்ணாமலை, அரக்கோணம், வாணியம்பாடி ஆகிய பிரிட்டிஷ் காலத் தொடர்வண்டி நிலையங்களில் புதிய மேம்பாலங்கள் அமைக்கப்பட்டுள்ளன.",
-   "இந்த நான்கு நிலையங்களிலும் மேம்பாலங்களில் லிஃப்ட் வசதி ஏற்படுத்தப்பட்டுள்ளது.",
-   "பயணிகள் எளிதாக ஒரு பிளாட்பாரத்திலிருந்து மறு பிளாட்பாரத்திற்குச் செல்ல இந்த வசதி பயன்படும் என ரெயில்வே தரப்பில் தெரிவிக்கப்பட்டுள்ளது.",
-   "முதியோர், மாற்றுத்திறனாளிகள், சிறு குழந்தைகளுடன் பயணிப்பவர்களுக்கு லிஃப்ட் வசதி பெரிதும் உதவும் என எதிர்பார்க்கப்படுகிறது.",
-   "பழைய நிலையங்களை நவீனப்படுத்தும் பணிகளின் ஒரு பகுதியாக இந்த மேம்பாலங்கள் அமைக்கப்பட்டதாகத் தெரிகிறது."
-  ],
-  "closing": "இந்த நான்கு நிலையங்களும் பிரிட்டிஷ் காலத்தில் கட்டப்பட்டவை என்பது குறிப்பிடத்தக்கது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "வேலூர் கண்டோன்மென்ட்",
-   "திருவண்ணாமலை",
-   "அரக்கோணம்",
-   "வாணியம்பாடி",
-   "தென் தொடர்வண்டி"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Vellore Cantonment, Tiruvannamalai among four stations get lift bridges",
-   "lines": [
-    "British era railway stations at Vellore Cantonment, Tiruvannamalai, Arakkonam and Vaniyambadi have got new foot over bridges.",
-    "All four stations now have lift facility installed on these bridges.",
-    "Railway officials said the facility will help passengers move easily between platforms.",
-    "Elderly people, persons with disabilities and those travelling with young children are expected to benefit the most.",
-    "The bridges appear to be part of ongoing modernisation works at these older stations."
-   ],
-   "closing": "It may be noted that all four stations date back to the British era."
-  },
-  "front_cat": "district_scheme",
-  "image_query": "railway station foot over bridge lift",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "6357028b5a0a",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-19T03:41+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/british-era-railway-stations-at-vellore-cantonment-tiruvannamalai-arakkonam-vaniyambadi-get-bridges-with-lifts-for-commuters/article71480677.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Piyush_Goyal_along_with_the_Chief_Minister_of_Maharashtra%2C_Shri_Devendra_Fadnavis_inaugurating%2C_commissioning_of_Foot_over_bridge%2C_Lifts%2C_New_Platforms%2C_IP_system_Train_Indicators%2C_New_Toilets%2C_CCTV_cameras.JPG/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா Commons · Ministry of Railways\n",
-   "license": "GODL-India",
-   "symbolic": true
-  },
-  "audio": "data/audio/6357028b5a0a.mp3",
-  "created_ts": 1789769500.687943,
-  "status": "published"
- },
- {
-  "headline": "உள்நாட்டுத் தீர்ப்பாளர்களுக்கு சம்பளம் உயர்வு",
-  "lines": [
-   "இந்திய கிரிக்கெட் கட்டுப்பாட்டு வாரியம் உள்நாட்டுத் தீர்ப்பாளர்களுக்கும் ஆட்ட நிர்வாகிகளுக்கும் சம்பளம் உயர்வு அறிவித்துள்ளது.",
-   "இந்த உயர்வு என்ன தொகை, எவ்வளவு சதவீதம் என்பது தெரிந்துகொள்ள மூல உரையில் விவரம் இல்லை.",
-   "இந்த நடவடிக்கை உள்நாட்டு விளையாட்டு பணிக்குச் சம்பளம் அதிகரிக்கும் என்பது பொதுவான நோக்கம்.",
-   "இந்தியாவில் கிரிக்கெட்டுக்கான தீர்ப்பாளர் பணிக்குத் தேவைப்படும் தகுதிகளை பிசிசிஐ வரையறுக்கிறது.",
-   "உள்நாட்டுக் கிரிக்கெட் தொடர்களிலும் மாநிலப் போட்டிகளிலும் இச்செய்திபற்றிய கூடுதல் விவரங்களை பிசிசிஐ அறிவிக்கும் என்று எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "ஆட்டநிர்வாகக் குழுவினர் பணிபுரியும் தரம் மேம்படும் என்ற நம்பிக்கையோடு இச்செய்தியை பிசிசிஐ வெளியிட்டுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "உள்நாட்டுத் தீர்ப்பாளர்",
-   "ஆட்ட நிர்வாகி",
-   "BCCI",
-   "இந்திய கிரிக்கெட்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Domestic umpires and match referees get pay hike",
-   "lines": [
-    "The Board of Control for Cricket in India (BCCI) has announced a pay increase for domestic umpires and match referees.",
-    "The exact amount and percentage of the pay hike is not detailed in the source material provided.",
-    "The measure aims to improve remuneration for officials working in domestic cricket.",
-    "The BCCI sets qualifications required for umpires and referees serving Indian domestic cricket.",
-    "Further details on this announcement are expected from BCCI regarding domestic cricket tournaments."
-   ],
-   "closing": "BCCI has released this news with the expectation that the quality of match administration will improve."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Board of Control for Cricket in India",
-  "person_en": "",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "skip": false,
-  "id": "1721d0848608",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-19T03:40+05:30",
-  "links": [
-   "https://www.thehindu.com/sport/cricket/pay-hike-for-domestic-umpires-and-match-referees/article71481789.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Board_of_Control_for_Cricket_in_India_Logo_%282024%29.svg/960px-Board_of_Control_for_Cricket_in_India_Logo_%282024%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Board of Control for Cricket in India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Board_of_Control_for_Cricket_in_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/1721d0848608.mp3",
-  "created_ts": 1789769446.478546,
-  "status": "published"
- },
- {
-  "headline": "ஆசிய விளையாட்டுக் கோப்பை 2026: இந்திய வீரர்களின் சாதனை நாட்கள்",
-  "lines": [
-   "ஆசிய விளையாட்டுக் கோப்பை 2026 நெருங்கி வருகிறது. இந்திய வீரர்கள் மாநாடு முடிந்துவிட்டு களத்தில் தயாரிக்கப்பட்டுள்ளனர்.",
-   "முந்தைய பதிப்பான ஹாங்ஷூவில் நாட்டு பெரும் வெற்றி கண்டது. இப்போது அதேபோல அல்லது அதைவிட சிறப்பான விளைவுக்குத் திட்டமிடப்பட்டுள்ளது.",
-   "தேசிய அளவிலான பயிற்சி நிறைந்துவிட்டதாக கூறப்படுகிறது. வீரர்கள் இப்போது உச்ச கட்டத்தில் பயிற்சி பெற்றுக் கொண்டுள்ளனர்.",
-   "ஆசிய விளையாட்டுக் கோப்பை பல நாட்டு வீரர்களை ஒரே மேடையில் கொண்டு வருவது உலகளாவிய விளையாட்டுக் கருவூலத்தின் பெரிய பகுதி.",
-   "கோப்பையின் தேதி, இடம் போன்ற தகவல்கள் வரவிருந்தன."
-  ],
-  "closing": "ஹாங்ஷூ பதிப்பில் இந்தியா பெற்ற பதக்கங்களை ஆசிய விளையாட்டுக் கோப்பையில் மீண்டும் அதேபோல சாதனை புரிய இந்திய வீரர்கள் உறுதிபூண்டுள்ளனர்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "ஆசிய விளையாட்டுக் கோப்பை 2026",
-   "இந்தியா",
-   "ஹாங்ஷூ"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Asian Games 2026: India aims to match or exceed Hangzhou medal haul",
-   "lines": [
-    "The Asian Games 2026 are approaching, with Indian athletes finishing their training schedule and ready for competition.",
-    "India achieved a strong medal count at the previous edition in Hangzhou. The nation now aims to deliver an equal or better performance.",
-    "National-level preparations have been completed, officials said. Athletes are currently undergoing peak training.",
-    "The Asian Games bring together athletes from multiple nations on a single platform, representing a major global sporting event.",
-    "Details regarding the dates and venue of the games were forthcoming."
-   ],
-   "closing": "Indian athletes are committed to achieving a medal haul in the upcoming Asian Games that matches or surpasses the results from Hangzhou."
-  },
-  "front_cat": "sports_historic",
-  "image_query": "asian games athletes training",
-  "wiki_subject": "2026 Asian Games",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "a0d139a5315d",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-19T03:40+05:30",
-  "links": [
-   "https://www.thehindu.com/sport/asian-games-2026-time-for-indias-athletes-to-make-it-count/article71481786.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4d/2026_Asian_Games_logo.svg/250px-2026_Asian_Games_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · 2026 Asian Games",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/2026_Asian_Games",
-   "symbolic": false
-  },
-  "audio": "data/audio/a0d139a5315d.mp3",
-  "created_ts": 1789769419.3706727,
-  "status": "published"
- },
- {
-  "headline": "ஆசிய விளையாட்டு: இந்திய தொகுதி கொடி ஏற்ற விழாவில் குழப்பம்",
-  "lines": [
-   "ஆசிய விளையாட்டுக்கு இந்திய வீரர்கள் முறைப்படி வரவேற்கப்பட்டனர். வட கொரியா, யேமன், பாலஸ்தீனம், திமோர் லெஸ்தே, தைவான் ஆகிய நாடுகளுடன் கொடி ஏற்றப்பட்டது.",
-   "கொடி ஏற்ற விழா முதலில் மதியம் 1:30 மணிக்கு இடம்பெற திட்டமிடப்பட்டிருந்தது.",
-   "ஒழுங்கில்லாத ஏற்பாட்டு சிக்கல் காரணமாக விழா 2:30 மணிக்குத் தாமதமாக நடந்தது.",
-   "பொதுவாக விளையாட்டு நிகழ்வுகளில் வீரர் வரவேற்பு விழாக்கள் முதல் நாள் மாலையே நடத்தப்பட வேண்டும்.",
-   "இந்திய தொகுதி அடுத்து பயிற்சிக் களங்களுக்கு நகர்ந்து முதல் போட்டியின் தயாரிப்பைத் தொடங்கும்."
-  ],
-  "closing": "ஆசிய விளையாட்டுக்கு வந்திருக்கும் இந்திய வீரர் கணக்கு மற்றும் உட்பிரிவு விவரம் என்ன?",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "ஆசிய விளையாட்டு",
-   "இந்திய தொகுதி",
-   "கொடி ஏற்ற விழா"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Asian Games: Indian contingent welcomed amid flag ceremony confusion",
-   "lines": [
-    "Indian athletes were formally received at the Asian Games alongside contingents from North Korea, Yemen, Palestine, Timor-Leste, and Taiwan.",
-    "The flag-hoisting ceremony was scheduled to take place at 1:30 p.m. local time.",
-    "Organisational issues caused the ceremony to be delayed until 2:30 p.m.",
-    "Athlete welcome ceremonies at major sporting events are typically held on the opening evening.",
-    "The Indian contingent will move to training facilities to prepare for their first competitions."
-   ],
-   "closing": "What is the total number of Indian athletes competing at the Asian Games?"
-  },
-  "front_cat": "routine",
-  "image_query": "Asian Games opening ceremony flag hoisting",
-  "wiki_subject": "Asian Games",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "e6aa12e1c2a5",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-19T03:39+05:30",
-  "links": [
-   "https://www.thehindu.com/sport/athletics/asian-games-indian-contingent-formally-welcomed-amidst-chaos-confusion-at-flag-hoisting-ceremony/article71480809.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Asian_Games_logo.svg/500px-Asian_Games_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Asian Games",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Asian_Games",
-   "symbolic": false
-  },
-  "audio": "data/audio/e6aa12e1c2a5.mp3",
-  "created_ts": 1789769395.0963862,
-  "status": "published"
- },
- {
-  "headline": "சென்னை விமான நிலைய இயக்குநர் மாற்றம் கோரி பிரதமருக்கு தமிழ்நாடு கடிதம்",
-  "lines": [
-   "தமிழ்நாடு அரசு, சென்னை விமான நிலையத்தின் இயக்குநரை மாற்றக் கோரி பிரதமர் நரேந்திர மோடிக்கு கடிதம் அனுப்பியுள்ளது.",
-   "இந்த கோரிக்கை கடந்த ஆகஸ்ட் மாதம் அனுப்பப்பட்ட கடிதத்தில் முன்வைக்கப்பட்டுள்ளது.",
-   "தமிழ்நாடு தொழில் வளர்ச்சிக்கு ஏற்ற சூழலை உருவாக்கி வருவதாகவும், முதலீடுகளை ஈர்க்க தொடர்ந்து முயற்சி செய்வதாகவும் முதலமைச்சர் கடிதத்தில் குறிப்பிட்டுள்ளார்.",
-   "எனவே, விமான நிலையத்தை சிறப்பாக நிர்வகிப்பது மிக முக்கியமானது என்று அவர் தெரிவித்துள்ளார்.",
-   "மத்திய அரசு இந்த கோரிக்கைக்கு என்ன பதில் அளிக்கும் என்பது இன்னும் தெரியவில்லை."
-  ],
-  "closing": "தமிழ்நாடு அரசு இந்த கோரிக்கையை ஏன் இப்போது முன்வைத்தது என்பதற்கான முழு விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தமிழ்நாடு அரசு",
-   "பிரதமர் நரேந்திர மோடி",
-   "சென்னை விமான நிலையம்",
-   "முதலமைச்சர்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Tamil Nadu writes to PM Modi seeking Chennai airport operator change",
-   "lines": [
-    "The Tamil Nadu government has written to Prime Minister Narendra Modi seeking a change in the operator of Chennai airport.",
-    "The letter making this request was sent in August this year.",
-    "The Chief Minister stated in the letter that Tamil Nadu has consistently worked to create an industry-friendly environment and attract investments.",
-    "He said that, therefore, better management of the airport is of paramount importance.",
-    "It is not yet known how the central government will respond to this request."
-   ],
-   "closing": "The full details of why the Tamil Nadu government made this request now have not yet been released."
-  },
-  "id": "4bb82680120e",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-19T03:38+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/chennai/tn-government-writes-to-pm-modi-seeking-to-change-the-operator-of-chennai-airport/article71481590.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Chennai_airport_view_3.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Chennai International Airport",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Chennai_International_Airport",
-   "symbolic": false
-  },
-  "audio": "data/audio/4bb82680120e.mp3",
-  "created_ts": 1789769297.9963257,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
   "status": "published"
  }
 ]

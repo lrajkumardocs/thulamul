@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 19 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 29 புதியவை
-[fetch] The Hindu Sport: 29 புதியவை
+[fetch] BBC World: 17 புதியவை
+[fetch] Al Jazeera: 18 புதியவை
+[fetch] ESPNcricinfo: 27 புதியவை
+[fetch] The Hindu Sport: 27 புதியவை
 [fetch] The Hindu Cinema: 27 புதியவை
-[fetch] Cinema Express: 29 புதியவை
-[fetch] The Hindu Tech: 21 புதியவை
-[fetch] Wired: 29 புதியவை
+[fetch] Cinema Express: 28 புதியவை
+[fetch] The Hindu Tech: 20 புதியவை
+[fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 22 புதியவை
+[fetch] The Hindu Health: 21 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 29 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,15 +29,15 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 30 புதியவை
+[fetch] Dinamani Cinema: 26 புதியவை
+[fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
-[fetch] NDTV India: 20 புதியவை
+[fetch] The Hindu National: 25 புதியவை
+[fetch] NDTV India: 14 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 26 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f42dae42290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0ebe9c4050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
 [fetch] Dinamani Govt: 28 புதியவை
-[fetch] Times Govt Schemes: 15 புதியவை
+[fetch] Times Govt Schemes: 7 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,71 +67,69 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 717 → நிகழ்வுகள் 645
+[run] புதியவை 662 → நிகழ்வுகள் 596
 [triage] சேமித்த மதிப்பெண் (609) — புதிய அழைப்பு இல்லை
-[triage] 645 → 65 | காலி: india:4, world:3, crime:3, jobs:3, cinema:3
-[skip] வெளிநாட்டுக் கிரிக்கெட் தொடர் — இந்தியா vs வெஸ்ட் இண்டீஸ் OD
-[tts-edge] 4a866a2a35ad: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நிவின் பாலியின் 'பெத்லகேம்' குடும்ப யூனிட் ஓடிடியில் வெளியாகிறது
-[skip] இந்த இரு வேலைவாய்ப்புச் செய்திகளும் தமிழ்நாட்டுடன் தொடர்பில்
-[skip] வெளிநாட்டு ஆய்வகம், தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இ
-[image] களஞ்சியம் (3 சொல்): செம்மண் கடத்தல் வழக்கு: பொன்முடி வ
-[tts-edge] 099951c7d8be: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] செம்மண் கடத்தல் வழக்கு: பொன்முடி விடுதலைக்கு எதிராக அரசு மேல்முறையீடு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): வாக்காளர் பட்டியல் திருத்தம் நிறுத
-[publish] வாக்காளர் பட்டியல் திருத்தம் நிறுத்த கோரி தலைமை நீதிபதிக்கு 2,000 பேர் கடிதம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTgVK6E1XngLTQZh4kJb'}
-[திருத்தம்] ஆசிய விளையாட்டில் தமிழக ஸ்குவாஷ் வீரர் அ → ஆசிய விளையாட்டில் தமிழக ஸ்குவாஷ் வீரர் அ
-[publish] ஆசிய விளையாட்டில் தமிழக ஸ்குவாஷ் வீரர் அபய் சிங்கிற்கு வெள்ளிப் பதக்கம்
-[skip] தென்னாப்பிரிக்கா-ஆஸ்திரேலியா இருதரப்பு ODI தொடர் - இந்தியா/த
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்நாட்டு குற்றம் — தமிழ்நாடு/இந்திய வாசகரின் தின
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்கும் செய்தி இல்லை — பொதுவான ஆங்கி
-[skip] மகாராஷ்டிரத்தின் உள்ளூர் அரசியல் — தமிழ்நாட்டுக்கு நேரடித் த
-[skip] உலக செய்திக்கும் (world) தமிழ்நாட்டு வாசகருக்கு முக்கியம் அல
-[skip] ஆங்கில கவுண்டி கிரிக்கெட் — தமிழ்நாடு/இந்தியவாசகரைப் பாதிக்க
-[publish] ரஜினிகாந்த் நடிப்பில் தர்மன் பொங்கல் வெளியீடு
-[skip] இந்தச் செய்தி இந்திய தேர்தல் ஆணையம் (EC) மற்றும் உச்ச நீதிமன
-[skip] வெளிநாட்டு பொருளாதாரக் கொள்கை — தமிழ்நாடு அல்லது இந்தியாவுடன
-[திருத்தம்] ஆசிய விளையாட்டு 2026: ஐவர் தடகள வீரர்கள் → ஆசிய விளையாட்டு 2026: ஐவர் தடகள வீரர்கள்
-[தரம்] தமிழ் அல்லாத எழுத்து: न → ஒரு திருத்தம்
-[publish] ஆசிய விளையாட்டு 2026: ஐவர் தடகள வீரர்கள் இறுதிப் போட்டிக்குத் தகுதி பெற்றனர்.
-[skip] பிற நாட்டுக் அறிவிப்பு — தமிழ்நாடு அரசு அல்லது மத்திய அரசின்
-[skip] இது டெல்லி மாநிலத்தின் உள்ளூர்ச் செய்தி; தமிழ்நாட்டுடன் தொடர
-[skip] வெளிநாட்டு உள்ளூர் அரசியல் — ஜிபூட்டி, யேமன் ந难民危機 தமிழ்நாடு
-[skip] Asian Games 2026 இன்னும் நடந்து கொண்டிருப்பதாக வெளிப்படையான 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTgn28UrQ9SeowKMJDtf'}
-[திருத்தம்] தேர்தல் ஆணையத்தின் நம்பகத்தன்மைக்கு ஞானே → தேர்தல் ஆணையத்தின் நம்பகத்தன்மையைக் காப்
-[தரம்] தமிழ் அல்லாத எழுத்து: রি → ஒரு திருத்தம்
-[publish] தேர்தல் ஆணையத்தின் நம்பகத்தன்மையைக் காப்பாற்ற ஞானேஷ் குமார் பதவி விலக வேண்டும்: சு. வெங்கடேசன்
-[skip] உத்தரப் பிரதேச மாநிலத்தின் உள்ளூர்க் குற்றச் சம்பவம் - தமிழ்
-[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — பாகிஸ்தானின் உள்ளூர் பாதுகாப
-[publish] சாதிப் பெயர்கள் நீக்கம்: மாவட்ட ஆட்சியர்களுக்கு தமிழக ஆணையம் உத்தரவு
-[skip] மூல உரை முழுவதும் தெளிவான செய்திக் கட்டமைப்பு, நிரலான தথ்যம்
-[skip] மூலச் செய்தியில் அரசு அடையாளம் தொடர்பான முரண்பாடு உள்ளது (TV
-[skip] வெளிநாட்டு உள்ளூர் நிகழ்வு — பான்சிற்கு தமிழ்நாடு/இந்தியத் த
-[திருத்தம்] தேர்தல் ஆணையர் ஞானேஷ் குமார் பதவி விலக வ → தேர்தல் ஆணையத்தின் நம்பகத்தன்மையைக் காப்
-[நகல்] ஏற்கனவே வெளியானது: தேர்தல் ஆணையத்தின் நம்பகத்தன்மையைக் காப்பாற்ற ஞானேஷ் குமார் 
-[skip] பொருளாதாரப் பூண்டணி (commodity markets, crude oil) — அரசு அற
-[skip] இது அசாமின் உள்ளூர் அரசியல் நிகழ்வு - தமிழ்நாட்டுடன் தொடர்பி
-[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியா வாசகருக்கு நேர
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான போதிய விவரங்கள
-[skip] இது தமிழ்நாட்டுக்குப் பொருந்தாத வெளிநாட்டு நிறுவனங்களின் வில
-[skip] மூலத்தில் குறிப்பிட்ட நிகழ்வு, தேதி, எண் விவரங்கள் இல்லை; பொ
-[skip] வெளிநாட்டின் உள்ளூர் அரசியல் — வட ஐரிலாந்து மதச் சண்டை. தமிழ
-[திருத்தம்] இந்தியா மற்றும் ஆஸ்திரேலியா U-19 பலকாரத் → இந்தியா மற்றும் ஆஸ்திரேலியா U-19 பலகாரத்
-[தரம்] தமிழ் அல்லாத எழுத்து: জ → ஒரு திருத்தம்
-[publish] இந்தியா மற்றும் ஆஸ்திரேலியா U-19 பலகாரத் தொடர் தொடங்கியது
-[publish] ஒடிசாவின் ஐஸ்வர்யா இந்தியாவின் முதல் திருநங்கை அரசு அதிகாரி
-[filler] world கட்டுரை
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: தேர்தல் ஆணையத்தின் நம்பகத்தன்மை: கேள்விக் குறியா, தராசு நடுவா?
-[image] களஞ்சியம் (2 சொல்): ரூ. 55,900 கோடி அந்நிய முதலீட்டை ஈ
-[image] 4 பொருந்தாத படம் மாற்றப்பட்டது
+[triage] 596 → 56 | காலி: crime:3, jobs:3, india:2, world:2, economy:2
+[skip] NCRTC (டெல்லி என்.சி.ஆர்.) மற்றும் CAU இம்பால் (மணிப்பூர்) ஆ
+[திருத்தம்] ஆசிய விளையாட்டுப் போட்டி இறகுப்பந்து, அப → ஆசிய விளையாட்டுப் போட்டி 2026: அபய், அனா
+[tts-edge] fed67c79b8b7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆசிய விளையாட்டுப் போட்டி 2026: அபய், அனாஹத்துக்கு வெள்ளிப் பதக்கம் — மலேசிய வீரர்களுக்கு தோல்வி
+[skip] இது ஆந்திரப் பிரதேசத்தில் நெல்லூர் நகராட்சி (NMC) தேர்தல் வே
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfThpKskDUGDchPup2L3d'}
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் அரசியல்/சட்ட விவகாரம் - தமிழ்நா
+[skip] இது ஆந்திரப் பிரதேசத்தின் அங்கன்வாடி திட்டம் தொடர்பான குறிப்
+[skip] ஆந்திரப் பிரதேச மாநில உள்ளூர் பொருளாதாரச் செய்தி, தமிழ்நாட்ட
+[skip] இங்கிலாந்து vs இலங்கை இருதரப்பு ODI தொடர் - தமிழ்நாடு/இந்திய
+[skip] ஒடிசா மாநிலத்தின் உள்ளூர் ஊழல் வழக்கு; தமிழ்நாட்டுடன் நேரடித
+[skip] இது ஆந்திரப் பிரதேசத்தில் நடந்த உள்ளூர்க் குற்றச் சம்பவம் - 
+[திருத்தம்] சட்டம் ஒழுங்கு தகவல் ஆர்டிஐ கட்டுப்பாடு  → சட்டம் - ஒழுங்கு தகவல் ஆர்டிஐ கட்டுப்பாட
+[tts-edge] ea7a3b9c9338: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சட்டம் - ஒழுங்கு தகவல் ஆர்டிஐ கட்டுப்பாடு அரசாணை திரும்பப் பெறப்பட்டது
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘Spruce up the area outside Youth Hostel in Adya
+[skip] இது ஒரு பொதுவான முதலீட்டு அறிவுரைக் கட்டுரை, தமிழ்நாடு/இந்தி
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிப்பதாக இருந்தாலும், இது முதலில் IIT
+[skip] பொருந்தாத மாநிலம் — ஆந்திரப் பிரதேச உள்ளூர் அரசாங்கம் நிகழ்வ
+[publish] சட்டம் ஒழுங்கு துறையை RTI விலக்கு அரசாணையை தமிழ்நாடு அரசு திரும்பப் பெற்றது
+[தரம்] வரி 3 அரைகுறையாக முடிகிறது → ஒரு திருத்தம்
+[publish] புது வசந்தம் தொடரின் குதூகல நிறைவு விழா நடந்தது
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: After backlash, Tamil Nadu government withdraws 
+[skip] வெளிநாட்டுத் தண்டனை நிकழ்வு — தமிழ்நாடு/இந்தியா வாசகருக்குப்
+[நகல்] ஏற்கனவே வெளியானது: சட்டம் ஒழுங்கு துறையை RTI விலக்கு அரசாணையை தமிழ்நாடு அரசு தி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTi9oRUki9svBqQ4HZtj'}
+[skip] பொதுவான வெளிநாட்டுக் கிரிக்கெட் ஒரு நாள் போட்டி. தமிழ்நாடு/இ
+[skip] கேரள மாநில அரசின் உள்ளூர் அரசியல் முடிவு — தமிழ்நாடு வாசகரைப
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfTiEUeWU6AjVjBn8E5cc'}
+[திருத்தம்] வெள்ளி பதক வென்ற அபய் சிங்கைக்கு ₹50 லட் → வெள்ளிப் பதक வென்ற அபய் சிங்குக்கு ₹50 ல
+[தரம்] தமிழ் அல்லாத எழுத்து: क → ஒரு திருத்தம்
+[publish] வெள்ளிப் பதக்கம் வென்ற அபய் சிங்குக்கு ₹50 லட்சம் ஊக்கத் தொகை
+[skip] ஆந்திர பிரதேசம் மாநில திட்டம்; தமிழ்நாட்டுக்கு நேரடித் தொடர்
+[publish] டாஸ்மாக் கடையை இடமாற்ற வலியுறுத்தி குடையுடன் போராட்டம்
+[skip] ஆந்திரப் பிரதேச மாநிலத்தின் உள்ளூர் அரசு அறிவிப்பு. தமிழ்நாட
+[image] களஞ்சியம் (2 சொல்): ஏரி மணல் கொள்ளை வழக்கு: அமைச்சர் எ
+[publish] ஏரி மணல் கொள்ளை வழக்கு: அமைச்சர் எ.வ.வேலு, மகன் மீது வழக்கு
+[skip] ஒடிசா மாநிலத்தின் உள்ளூர் ஊழல் வழக்கு — தமிழ்நாடு/இந்தியா தே
+[skip] குற்றச் செய்தியாக இருந்தாலும் தமிழ்நாடு அரசு அறிவிப்பு அல்ல.
+[skip] மேற்கு வங்க உள்ளூர் அரசியல் தொடர்பான தனிநபர் குற்றச்சாட்டு, 
+[தரம்] தமிழ் அல்லாத எழுத்து: राধ → ஒரு திருத்தம்
+[நகல்] ஏற்கனவே வெளியானது: வெள்ளிப் பதக்கம் வென்ற அபய் சிங்குக்கு ₹50 லட்சம் ஊக்கத் தொக
+[திருத்தம்] AIMA மேட் தேர்வு முடிவு விரைவில் வெளியீட → AIMA மேட் செப்டம்பர் 2026 தேர்வு முடிவு 
+[publish] AIMA மேட் செப்டம்பர் 2026 தேர்வு முடிவு விரைவில் வெளியீடு - மதிப்பெண் பட்டியல் பதிவிறக்கம் விவரம்
+[skip] செய்தி மையமோ மূল விஷயமோ தெளிவாக இல்லை — மூல உரை 'போராட்டம்' 
+[திருத்தம்] புதிய ஆயுதங்கள் இணைப்பதில் ஆண்டுக்கணக்கி → புதிய ஆயுதங்கள் இணைப்பதில் ஆண்டுக்கணக்கி
+[தரம்] தமிழ் அல்லாத எழுத்து: নভাি → ஒரு திருத்தம்
+[publish] புதிய ஆயுதங்கள் இணைப்பதில் ஆண்டுக்கணக்கில் தாமதம் கூடாது என்று விமானப்படை அதிகாரி கூற்று
+[திருத்தம்] ஏரியில் ₹8 கோடி மணல் கொள்ளை: முன்னாள் அம → ஏரியில் ₹8 கோடி மணல் கொள்ளை: எ.வ.வேலு, ம
+[நகல்] ஏற்கனவே வெளியானது: ஏரி மணல் கொள்ளை வழக்கு: அமைச்சர் எ.வ.வேலு, மகன் மீது வழக்கு
+[skip] மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் LLB சேர்க்கை அறிவிப்பு - தமி
+[skip] இது NDTV நிறுவனத்தின் சொந்த மாநாடு பற்றிய விளம்பர அறிவிப்பு;
+[skip] இது சத்தீஸ்கர் மாநிலம் ராய்ப்பூரில் நடந்த உள்ளூர் குடும்பச் 
+[skip] தலைப்பு மட்டுமே கிடைத்துள்ளது, செய்தியின் விவரங்கள் அடங்கிய 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உரை இல்லை; யார் என
+[publish] தலைமை தேர்தல் ஆணையர் நீக்கம் கோரி எதிர்க்கட்சிகள் ஒன்றிணைப்பு
+[filler] tech கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13668 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
+[image] 2 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 10
