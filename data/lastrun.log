@@ -1,15 +1,15 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 9 புதியவை
+[fetch] ET Markets: 8 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 12 புதியவை
+[fetch] Dinamani TN: 14 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 3 புதியவை
+[fetch] Al Jazeera: 1 புதியவை
 [fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
 [fetch] The Hindu Cinema: 20 புதியவை
-[fetch] Cinema Express: 23 புதியவை
+[fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -29,25 +29,25 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 2 புதியவை
+[fetch] The Hindu Legal: 1 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
-[fetch] Dinamani Sports: 24 புதியவை
+[fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 8 புதியவை
-[fetch] The Hindu National: 2 புதியவை
+[fetch] The Hindu National: 1 புதியவை
 [fetch] NDTV India: 12 புதியவை
-[fetch] India Today: 16 புதியவை
+[fetch] India Today: 14 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 27 புதியவை
+[fetch] Dinamani India: 23 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 23 புதியவை
+[fetch] Sportstar: 22 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa2b66ccd10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 2 புதியவை
-[fetch] Dinamani Govt: 12 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fec4d00fe90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 1 புதியவை
+[fetch] Dinamani Govt: 14 புதியவை
 [fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,35 +67,27 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 399 → நிகழ்வுகள் 392
+[run] புதியவை 390 → நிகழ்வுகள் 384
 [triage] சேமித்த மதிப்பெண் (411) — புதிய அழைப்பு இல்லை
-[triage] 392 → 23 | காலி: crime:3, jobs:3, court:2, assembly:2, india:1
-[skip] இது கர்நாடக மாநில மின்சார அமைச்சரின் உள்ளூர் அறிக்கை; தமிழ்ந
-[தரம்] தமிழ் அல்லாத எழுத்து: दाজদরাৎು → ஒரு திருத்தம்
-[tts-edge] 1bbb5c5bd692: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தற்போது மின் நெருக்கடி இல்லை என முதல்வர்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUhd7b1by2UwuKS4JdWA'}
-[skip] வெளிநாட்டு விளையாட்டு நிகழ்வு — தமிழ்நாடு/இந்தியாவுக்குப் பொ
-[skip] மூல உரை অসম்பூர্ணமாக உள்ளது — தலைப்பு மட்டுமே கொடுக்கப்பட்டு
-[skip] இது உத்தரப் பிரதேசத்தின் ஒரு மாவட்டத்தில் நடந்த உள்ளூர் இயற்
-[தரம்] தமிழ் அல்லாத எழுத்து: তস → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): விசிக-வில் விரைவில் மாவட்டச் செயலா
-[tts-edge] 684c99d5ce4c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] விசிக-வில் விரைவில் மாவட்டச் செயலாளர்கள் தேர்தல்
-[நகல்] ஏற்கனவே வெளியானது: விசிக-வில் விரைவில் மாவட்டச் செயலாளர்கள் தேர்தல்
-[skip] பிற மாநிலத்தின் உள்நாட்டு விசயம். தமிழ்நாட்டுக்கும் தேசிய அள
-[skip] வெளிநாட்டு கால்பந்து ஐரோப்பா நாடுகளுக்கிடையிலான ஆட்டம். தமிழ
-[skip] இது குஜராத் மாநிலத்தின் உள்ளூர் மருத்துவ சம்பவம், தமிழ்நாட்ட
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] இந்தியா கனடா உறவுகள் அடுத்தகட்டத்தை நோக் → அடுத்தகட்டத்தை நோக்கி இந்தியா-கனடா உறவுக
-[publish] அடுத்தகட்டத்தை நோக்கி இந்தியா-கனடா உறவுகள்: எஸ். ஜெய்சங்கர்
-[image] களஞ்சியம் (3 சொல்): நீட் வினாத்தாள் கசிவு: என்டிஏ அலுவ
-[publish] நீட் வினாத்தாள் கசிவு: என்டிஏ அலுவலகத்திற்கு சிஐஎஸ்எஃப் பாதுகாப்பு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள் (அளவு, தேதி, நிற
-[publish] ஐ.நா. பாதுகாப்பு கவுன்சிலில் இந்தியாவுக்கு ரஷியா ஆதரவு தெரிவிப்பு
+[triage] 384 → 23 | காலி: crime:3, jobs:3, court:2, assembly:2
+[skip] வெளிநாட்டு விளையாட்டு விளையாட்டு கேமின் மதிப்பீடு — தமிழ்நாட
+[திருத்தம்] கரூர் நெரிசல் சம்பவம் முதலாண்டு: அமைச்சர → கரூர் நெரிசல் சம்பவம் முதலாண்டு: முதல்வர
+[tts-edge] e7e572dfb70b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கரூர் நெரிசல் சம்பவம் முதலாண்டு: முதல்வர் விஜய் இரங்கல்
+[skip] வதந்தி மற்றும் ஊகம் — 'Dorothy' என்ற படம் பற்றிய உறுதியற்ற த
+[திருத்தம்] தமிழகத்தில் இன்று பத்தொன்பது மாவட்டங்களி → தமிழகத்தில் இன்று 19 மாவட்டங்களில் மழைக்
+[image] களஞ்சியம் (2 சொல்): தமிழகத்தில் இன்று 19 மாவட்டங்களில்
+[tts-edge] 43b9fe55ad2c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழகத்தில் இன்று 19 மாவட்டங்களில் மழைக்கு வாய்ப்பு
+[திருத்தம்] பிரதமர் மோடி அக்டோபர் பதினொன்றில் சென்னை → பிரதமர் மோடி அக். 11-இல் சென்னை வருகை
+[publish] பிரதமர் மோடி அக். 11-இல் சென்னை வருகை
+[skip] தலைப்பு மட்டுமே கிடைத்துள்ளது, செய்தியின் விவரங்கள் (எப்போது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfUjQHAqxXWWhdK7PhkHe'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கின் தன்மை, இடம், நேரம
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MSSRF sets up water ATM at Perungudi heat study 
-[market] தங்கம் 22K ₹13665 · சென்செக்ஸ் 73896
+[market] தங்கம் 22K ₹13612 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 5
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 3
