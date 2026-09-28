@@ -1,11 +1,11 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 9 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
-[fetch] BBC Tamil: 14 புதியவை
+[fetch] The Hindu TN: 4 புதியவை
+[fetch] Dinamani TN: 20 புதியவை
+[fetch] BBC Tamil: 13 புதியவை
 [fetch] BBC World: 11 புதியவை
-[fetch] Al Jazeera: 20 புதியவை
+[fetch] Al Jazeera: 15 புதியவை
 [fetch] ESPNcricinfo: 26 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 7 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 10 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 27 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -30,7 +30,7 @@
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 1 புதியவை
 [fetch] The Hindu Legal: 3 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
@@ -41,7 +41,7 @@
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 26 புதியவை
+[fetch] Dinamani India: 28 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,58 +56,54 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f22a154acd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff759a2f9d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 3 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
+[fetch] Dinamani Govt: 20 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 14 புதியவை
+[fetch] TN Police News: 13 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 525 → நிகழ்வுகள் 492
-[triage] 492 → 57 | காலி: tn:6, crime:4, world:3, jobs:3, economy:2
-[skip] குஜராத் மாநிலத்தின் உள்ளூர் அரசு வேலைவாய்ப்பு அறிவிப்பு - தம
-[திருத்தம்] வீரமணி மீது மேலும் ஒரு போக்சோ வழக்கு பதி → வீரமணி மீது மேலும் ஒரு பாக்ஸோ வழக்கு பதி
-[image] களஞ்சியம் (3 சொல்): வீரமணி மீது மேலும் ஒரு பாக்ஸோ வழக்
-[tts-edge] b56c060981d5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] வீரமணி மீது மேலும் ஒரு பாக்ஸோ வழக்கு பதிவு
+[run] புதியவை 493 → நிகழ்வுகள் 465
+[triage] சேமித்த மதிப்பெண் (460) — புதிய அழைப்பு இல்லை
+[triage] 465 → 30 | காலி: tn:5, crime:3, jobs:3, world:2, health:2
+[skip] ஹிமாச்சல் பிரதேச் அரசின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு — தம
+[திருத்தம்] SAKHI மைய ஊழியர்களுக்கு மூன்று மாதமாக ஊத → SAKHI மையத் ஊழியர்களுக்கு மூன்று மாதமாக 
+[tts-edge] 5d0a8eb8b51a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] SAKHI மையத் ஊழியர்களுக்கு மூன்று மாதமாக சம்பளம் இல்லை என அன்புமணி ராமதாஸ்
+[skip] இது ஒடிசா-சத்தீஸ்கர் மாநிலங்களுக்கு இடையேயான மஹாநதி நீர் பங்
+[skip] தென்னாபிரிக்கா உள்நாட்டுக் குற்றச் செய்தி — தமிழ்நாடு/இந்திய
+[skip] இது அமெரிக்க பங்குச் சந்தையின் வழக்கமான ஏற்ற இறக்கம் பற்றிய 
+[திருத்தம்] மகानதி நீர்ப் பகிர்வு சச்சரவை தீர்க்க அம → மகானதி நீர்ப் பகிர்வு சச்சரவை தீர்க்க அம
+[tts-edge] 7390c3e8477c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மகானதி நீர்ப் பகிர்வு சச்சரவை தீர்க்க அமித் ஷா தலைமை கூட்டம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; எம்.பி. பெயர்
+[skip] வெளிநாட்டு உள்நாட்டுப் பேரிடர். தமிழ்நாடு/இந்தியாவுடன் நேரடி
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது, முழு விவரம் இல்லை -
+[publish] அரசுக் கடன் வாங்கல் குறுகிய கால பத்திரங்களை நோக்கி மாற்றம் எதிர்பார்ப்பு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] அமெரிக்க-சீன நেতாவின் சந்திப்பு தமிழ்நாடு வாசகர்களை நேரடியாக
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] பர்மாவின் உள்நாட்டு ராணுவ மோதல் — தமிழ்நாட்டு/இந்திய வாசகரைப
+[skip] பொதுவான விশ்லேষணம்; தமிழ்நாடு/இந்தியாவுக்கு நேரடி தாக்கம் இல
+[skip] அமெரிக்கத் தொழிற்துறைச் செய்தி. தமிழ்நாடு அல்லது இந்திய வாசக
+[skip] வெளிநாட்டுத் தலைமை நிலை பயணம் — தமிழ்நாடு/இந்தியா வாசகரைப் ப
+[skip] தமிழ்நாட்டு / இந்திய வாসகரைப் பாதிக்காத உள்நாட்டுப் பிராந்தி
+[skip] வெளிநாட்டுக் தளவாய வரலாறு — இரான்-அமெரிக்கா ஈரான் வளைகுடா நி
+[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பிரत்যక্ষமாகப் பாதிக்காத இஸ்রائே
+[skip] CSIR-NGRI (ஹைதராபாத்) மற்றும் RITES ஆகிய இரண்டு வேலைவாய்ப்பு
+[skip] IIT கரக்பூர் மற்றும் IIT ரூர்கி ஆகியவை தமிழ்நாட்டுடன் தொடர்ப
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two drown in sea in separate incidents
+[skip] வேறு மாநிலக் கட்டமைப்பைப் பற்றிய தேசிய அளவு விதிப் பொதுமைச் 
+[skip] அசாம் இயக்குநர் பற்றிய சினிமாக் கட்டுரை — தமிழ்நாட்டுக்கு நே
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Customs officials seize 3.4 kg of hydroponic gan
+[skip] பொதுவான ஆரோக்கியக் கட்டுரை — தமிழ்நாட்டு வாசகருக்கு நேரடித் 
+[skip] வெளிநாட்டு (கேரளா) திரைப்படத் திருவிழா, தமிழ்நாட்டுடன் தொடர்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Alert CISF personnel avert fire mishap at High C
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான தகவல்கள் இல்லாததால
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] உலகச் செய்தி — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இல்லை.
-[திருத்தம்] விநோத் அதானி மீதான குறைந்தபட்ச பொதுப் பங → விநோத் அதானி மீதான குறைந்தபட்ச பொதுப் பங
-[தரம்] தமிழ் அல்லாத எழுத்து: पभरवाी् → ஒரு திருத்தம்
-[tts-edge] d8dd94ce4095: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] விநோத் அதானி மீதான குறைந்தபட்ச பொதுப் பங்குடைமை வழக்கை செபி முடித்தது.
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டு உள்நாட்டு மோதல். உ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWSf5EShcTWjMS5w1Jm7'}
-[skip] உலகச் செய்தி — தமிழ்நாட்டு வாசகரைப் பாதிக்காது. கொঙ্গோ গণতান
-[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
-[publish] மின் மீட்டர் வாசிப்பை வெளியாட்களிடம் ஒப்படைக்கும் திட்டத்திற்கு திருமாவளவன் எதிர்ப்பு
-[image] களஞ்சியம் (3 சொல்): நுண் பிளாஸ்டிக் எச்சரிக்கை லேபிள் 
-[publish] நுண் பிளாஸ்டிக் எச்சரிக்கை லேபிள் உத்தரவு மறுஆய்வு மனு தள்ளுபடி
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வேலைநிறுத்தம் எப்போது, ஏன்
-[skip] மூலம் ஒரு தலைப்பு மற்றும் நேரலை குறிப்பு மட்டுமே கொண்டுள்ளது
-[திருத்தம்] போக்சோ வீரமணி வழக்கு: தகவல் அறிய மொபைல்  → போக்சோ வீரமணி வழக்கு: புகாரளிக்க, தகவல் 
-[image] களஞ்சியம் (3 சொல்): போக்சோ வீரமணி வழக்கு: புகாரளிக்க, 
-[publish] போக்சோ வீரமணி வழக்கு: புகாரளிக்க, தகவல் தெரிவிக்க மொபைல் எண் அறிவிப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWT2EeKpLw5wj4NyT7jZ'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWT9Ttk95QznG77EJfgd'}
-[publish] உக்ரைன் கீவ் நகரில் ரஷ்ய ட்ரோன் தாக்குதலில் ஒருவர் பலி
-[skip] மூலத்தில் 'முதல்வர் விஜய்' எனக் குறிப்பிடப்பட்டுள்ளது, ஆனால்
-[publish] அமெரிக்க டாலருக்கு எதிராக ரூபாய் மதிப்பு 96-ஐ நோக்கி சரிவு
-[தரம்] மூலத்தில் இல்லாத எண்: 7.18 → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): இந்திய பத்தாண்டு அரசுப் பத்திர வட்
-[publish] இந்திய பத்தாண்டு அரசுப் பத்திர வட்டி விகிதம் கடும் உயர்வு கண்டது
-[publish] தடை தாண்டும் ஓட்டத்தில் வித்யா ராம்ராஜ் வெண்கலம்
-[publish] பத்தாண்டுகளில் முதன்முறையாக ஒரு லட்சம் கோடி கடன் விற்பனை
-[market] தங்கம் 22K ₹13150 · சென்செக்ஸ் 72772
+[market] தங்கம் 22K ₹13165 · சென்செக்ஸ் 72772
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 10
+[done] feed 300 · pending 2 · எழுதியவை 3
