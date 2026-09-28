@@ -1,11 +1,11 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 8 புதியவை
+[fetch] ET Markets: 7 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 2 புதியவை
-[fetch] Dinamani TN: 11 புதியவை
+[fetch] Dinamani TN: 9 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
-[fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 2 புதியவை
+[fetch] BBC World: 9 புதியவை
+[fetch] Al Jazeera: 3 புதியவை
 [fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
 [fetch] The Hindu Cinema: 20 புதியவை
@@ -13,7 +13,7 @@
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 9 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
@@ -32,7 +32,7 @@
 [fetch] The Hindu Legal: 1 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
-[fetch] Dinamani Sports: 23 புதியவை
+[fetch] Dinamani Sports: 22 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 7 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2437887a50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb209c59e50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 1 புதியவை
-[fetch] Dinamani Govt: 11 புதியவை
-[fetch] Times Govt Schemes: 14 புதியவை
+[fetch] Dinamani Govt: 9 புதியவை
+[fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,19 +67,20 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 380 → நிகழ்வுகள் 374
+[run] புதியவை 383 → நிகழ்வுகள் 377
 [triage] சேமித்த மதிப்பெண் (362) — புதிய அழைப்பு இல்லை
-[triage] 374 → 9 | காலி: crime:3, jobs:3, court:2, assembly:2
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] செஸ் ஒலிம்பியாடில் இந்தியா வெள்ளி, வெண்க → செஸ் ஒலிம்பியாடில் இந்திய ஆடவருக்கு வெள்
-[தரம்] தமிழ் அல்லாத எழுத்து: मনশ → ஒரு திருத்தம்
-[tts-edge] e84677447203: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] செஸ் ஒலிம்பியாடில் இந்திய ஆடவருக்கு வெள்ளி; மகளிருக்கு வெண்கலம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (யார் கோரிக்கை வ
+[triage] 377 → 23 | காலி: crime:3, jobs:3, court:2, assembly:2
+[skip] வெளிநாட்டுள் நாட்டுச் சர்ச்சைக்கு உடனடி முக்கியத்துவம் தமிழ்
+[skip] பொதுவான பகுப்பாய்வுக் கட்டுரை — அறிவுரை/விமர்சனம். குறிப்பிட
+[skip] இது ஆங்கிலக் கருத்துரை மட்டும் — செய்திக் தகவல் அல்ல. World 
+[skip] வெளிநாட்டு உள்நாட்டு சர்ச்சை — தமிழ்நாடு/இந்தியாவுடன் நேரடித
+[skip] விளையாட்டுச் செய்தி — ஆங்கிலப் பிரিமியர் லீக் கிரிக்கெட் அல்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MSSRF sets up water ATM at Perungudi heat study 
-[editorial] பிழை 'question'
-[market] தங்கம் 22K ₹13595 · சென்செக்ஸ் 73896
+[tts-edge] editorial_20260928: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: நீட் பாதுகாப்பு - கடும் காவலா, முழுமையான மாற்றமா?
+[market] தங்கம் 22K ₹13582 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 1
+[done] feed 300 · pending 1 · எழுதியவை 0
