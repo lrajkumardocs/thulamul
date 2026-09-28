@@ -719,6 +719,58 @@ def dedupe_feed(feed, today):
         print(f"[நகல்] {dropped} மீண்டும் வந்த செய்தி நீக்கப்பட்டது")
     return kept
 
+# ═══════════════════════════════════════════════════════════════
+#  பெயர்ச்சொல் திருத்த அட்டவணை
+#  விதி: **சரியாக இந்த எழுத்து வரிசை இருந்தால் மட்டும்** மாற்று.
+#  ஒத்த-எழுத்து ஊகம் (Levenshtein) கிடையாது — அது முன்பு
+#  'வங்கி→வன்னி' என்று கெடுத்தது. இது சரியான பொருத்தம் மட்டும்.
+#  புதிய பிழை கண்டால் இங்கே ஒரு வரி சேர்த்தால் போதும்.
+# ═══════════════════════════════════════════════════════════════
+FIX_NAMES = {
+    # ஊர் / மாவட்டம்
+    "கருர்": "கரூர்", "விழுபுரம்": "விழுப்புரம்",
+    "திருவனாமலை": "திருவண்ணாமலை", "கஞ்சிபுரம்": "காஞ்சிபுரம்",
+    "நாகபட்டினம்": "நாகப்பட்டினம்", "புதுகோட்டை": "புதுக்கோட்டை",
+    "ராமநாதபுரம்": "இராமநாதபுரம்", "திருநெல்வேலி": "திருநெல்வேலி",
+    "கன்னியாகுமரி": "கன்னியாகுமரி", "தூத்துகுடி": "தூத்துக்குடி",
+    "கோவை": "கோயம்புத்தூர்", "ஈரோட்": "ஈரோடு", "தருமபுரி": "தர்மபுரி",
+    "கிருஷ்ணகிரி": "கிருஷ்ணகிரி", "அரியலூர்": "அரியலூர்",
+    # நபர் / அமைப்பு
+    "விஜய்ய": "விஜய்", "ஸ்டாலின்ன்": "ஸ்டாலின்", "அன்புமணி ராமதாஸ்": "அன்புமணி ராமதாஸ்",
+    "எடபாடி": "எடப்பாடி", "பழனிசாமி": "பழனிசாமி", "சீமன்ன்": "சீமான்",
+    # குறியீடு / பொருளாதாரம்
+    "செம்செக்ஸ்": "சென்செக்ஸ்", "சென்செக்ச்": "சென்செக்ஸ்",
+    "நிப்டி": "நிஃப்டி", "நிப்ட்டி": "நிஃப்டி",
+    # பொது
+    "ஒபரேஷன்": "ஆபரேஷன்", "நுலாமுள்": "துலாமுள்", "துலாமுல்": "துலாமுள்",
+    "தேனிக்கு முன்": "தேதிக்கு முன்", "வெட்டுவம்": "வேட்டுவம்",
+}
+
+
+_TA_CH = r"[\u0B80-\u0BFF]"
+
+
+def fix_names(text):
+    """அட்டவணையின்படி பெயர்ச்சொற்களைச் சரி செய்.
+    **சொல் முழுவதும் பொருந்தினால் மட்டும்** — முன்னும் பின்னும் தமிழ் எழுத்து
+    இருந்தால் மாற்றாது. ('கரூரில்' என்ற சொல்லின் உள்ளே 'கரூரில' பொருந்தி
+    'கரூரில்்' ஆகிவிடும் — அதைத் தடுக்க.)"""
+    t = str(text or "")
+    for a, b in FIX_NAMES.items():
+        if a == b or a not in t:
+            continue
+        t = re.sub(r"(?<!" + _TA_CH + r")" + re.escape(a) + r"(?!" + _TA_CH + r")", b, t)
+    return t
+
+
+def fix_names_story(story):
+    out = dict(story)
+    out["headline"] = fix_names(out.get("headline"))
+    out["closing"] = fix_names(out.get("closing"))
+    out["lines"] = [fix_names(x) for x in (out.get("lines") or [])]
+    return out
+
+
 def proofread(client, story, src_text):
     """கட்டாயப் பிழைதிருத்தம் — Haiku (மலிவு). சூழல் பிழைகளைப் பிடிக்கும்:
     'தேதி→தேனி', 'வேட்டுவம்→வெட்டுவம்' போன்ற சரியான-சொல் தவறுகள்."""
@@ -731,7 +783,10 @@ def proofread(client, story, src_text):
         "காஞ்சிபுரம்↔கஞ்சிபுரம் · துருவ↔தருவ · சட்டமன்றம்↔சட்டமன்றத் · நூற்றுக்கு↔நூற்றிற்கு. "
         "**மூல உரையில் உள்ள சொல்லே சரி** — ஒவ்வொரு பெயர்ச்சொல்லையும் மூலத்துடன் ஒப்பிடு.\n"
         "   வங்கி = bank; வன்னி = ஒரு மரம்/இடப்பெயர். தேதி = date; தேனி = மாவட்டம். குழப்பாதே.\n"
-        "3. பெயர்ச்சொற்கள் — நபர், ஊர், அமைப்பு, படம், திட்டம் — **மூல உரையில் உள்ளபடியே** இருக்க வேண்டும்.\n"
+        "3. **பெயர்ச்சொற்கள் — மிக மிக முக்கியம்.** நபர், ஊர், மாவட்டம், அமைப்பு, கட்சி, படம், "
+        "திட்டம், பங்குக் குறியீடு — ஒவ்வொன்றையும் மூல உரையுடன் **எழுத்து எழுத்தாக** ஒப்பிடு. "
+        "நீட்டல் (கரூர்/கருர்), ஒற்று (விழுப்புரம்/விழுபுரம்), இரட்டிப்பு (விஜய்/விஜய்ய) — "
+        "இவை மிகச் சாதாரணமாக நிகழும் பிழைகள். ஒரு எழுத்து மாறினாலும் அது தவறு.\n"
         "4. முழுமையடையாத வாக்கியம், விடுபட்ட சொல், இரட்டைச் சொல்.\n"
         "5. மரியாதைப் பன்மை — நபரைக் குறிக்கும்போது 'அவர்/வந்தார்'.\n"
         "பொருளை மாற்றாதே; புதிய தகவல் சேர்க்காதே; எண்களைத் தொடாதே.\n"
@@ -750,7 +805,7 @@ def proofread(client, story, src_text):
         v = d.get(k)
         if v and (not isinstance(v, list) or len(v) == len(story.get("lines") or [])):
             out[k] = v
-    return out
+    return fix_names_story(out)        # AI-க்குப் பிறகு அட்டவணைச் சோதனை
 
 def fix_text(client, story, errs):
     """பிழைகளைச் சொல்லி Claude-ஐத் திருத்தச் சொல்."""
@@ -1693,78 +1748,45 @@ def main():
         print("[jobs] பிழை", ex)
 
     # 5c. வாரமலர் — ஞாயிறு இணைப்பு (பக்கம் 17)
+    #  விதி: ஞாயிறு + புதிய வாரம் → புதிய இதழ்.
+    #  காலம் சார்ந்த பகுதிகள் புதிதாக; காலம் சாராதவை களஞ்சியச் சுழற்சியில்
+    #  (malar.py-ல் POOL_TARGET / MIN_GAP விதிகள்). எழுதியது எதுவும் வீணாகாது.
     try:
         week = now.strftime("%G-W%V")
         malar = load_json(DATA / "malar.json", {})
-        if malar.get("v", 0) in (13, 14) and not api_dead:
-            # திரை விமர்சனம் + நையாண்டி மட்டும் மீண்டும்; மற்ற பகுதிகள் தொடப்படாது
-            import importlib, sys
-            sys.path.insert(0, str(ROOT / "pipeline"))
+        import importlib, sys
+        sys.path.insert(0, str(ROOT / "pipeline"))
+        _cin = "\n".join(f"- {x.get('headline','')}: {' '.join((x.get('lines') or [])[:2])}"
+                         for x in feed if x.get("topic") == "cinema")[:6000]
+
+        if malar.get("v", 0) < 13 and not api_dead:
+            # முதல் உருவாக்கம் — முழு இதழ்
             mal = importlib.import_module("malar")
-            _cin = "\n".join(f"- {x.get('headline','')}: {' '.join((x.get('lines') or [])[:2])}"
-                             for x in feed if x.get("topic") == "cinema")[:6000]
-            got = mal.refresh_parts(client, MODEL, malar, today, ("films", "satire"), _cin, telegram)
+            heads = "\n".join(x.get("headline", "") for x in feed[:25])
+            got = mal.build(client, MODEL, week, today, 1, "", [], [], telegram, _cin)
             if got:
-                save_json(DATA / "malar.json", got); print("[malar] பகுதிகள் புதுப்பிக்கப்பட்டன")
-        elif (now.weekday() == 6 and malar.get("films_week") != week and not api_dead):
-            # வாரமலர் உறைந்தது — ஞாயிறு திரை விமர்சனம் மட்டும் புதுப்பிப்பு
-            import importlib, sys
-            sys.path.insert(0, str(ROOT / "pipeline"))
+                save_json(DATA / "malar.json", got); print("[malar] முதல் இதழ்")
+        elif now.weekday() == 6 and malar.get("week") != week and not api_dead:
+            # ஞாயிறு + புதிய வாரம் → புதிய இதழ் (சுழற்சி விதிப்படி)
             mal = importlib.import_module("malar")
-            _cin = "\n".join(f"- {x.get('headline','')}: {' '.join((x.get('lines') or [])[:2])}"
-                             for x in feed if x.get("topic") == "cinema")[:6000]
+            got = mal.weekly(client, MODEL, malar, week, today, _cin,
+                             pool_path=DATA / "malar_pool.json", telegram=telegram)
+            if got:
+                heads = "\n".join(x.get("headline", "") for x in feed[:25])
+                try:
+                    got = mal.topup(client, MODEL, got, today, heads, telegram) or got
+                except Exception as ex:
+                    print("[malar] படம் சேர்க்கும் பிழை", str(ex)[:90])
+                save_json(DATA / "malar.json", got)
+                print("[malar] புதிய வாரமலர்", week)
+        elif malar.get("films_week") != week and now.weekday() == 6 and not api_dead:
+            # இதழ் ஏற்கனவே இந்த வாரத்திற்கானது — திரை விமர்சனம் மட்டும்
+            mal = importlib.import_module("malar")
             got = mal.refresh_parts(client, MODEL, malar, today, ("films",), _cin, telegram)
             if got:
                 got["films_week"] = week
                 save_json(DATA / "malar.json", got)
-                print("[malar] திரை விமர்சனம் மட்டும் (மற்ற பகுதிகள் உறைந்தவை)")
-        elif False and malar.get("week") == week and 15 <= malar.get("v", 0) < 16 and not api_dead:
-            # இருக்கும் இதழ் — உரையை மாற்றாமல் விடுபட்ட படங்களை மட்டும் சேர்
-            import importlib, sys
-            sys.path.insert(0, str(ROOT / "pipeline"))
-            mal = importlib.import_module("malar")
-            heads = "\n".join(x.get("headline", "") for x in feed[:25])
-            got = mal.topup(client, MODEL, malar, today, heads, telegram)
-            if got:
-                save_json(DATA / "malar.json", got); print("[malar] படங்கள் சேர்க்கப்பட்டன")
-                try:
-                    n = mal.archive(got, DATA / "malar_archive.json"); print(f"[malar] காப்பகம் {n} வாரம்")
-                except Exception as ex:
-                    print("[malar] காப்பக பிழை", str(ex)[:80])
-        elif malar.get("v", 0) < 13 and not api_dead:   # முதல் உருவாக்கம் மட்டும்; பிறகு உறைவு
-            import importlib, sys
-            sys.path.insert(0, str(ROOT / "pipeline"))
-            mal = importlib.import_module("malar")
-            wk_start = now - timedelta(days=6)
-            dates_ta = f"{wk_start.day} {TA_MONTHS[wk_start.month-1]} – {now.day} {TA_MONTHS[now.month-1]}"
-            _ld = state.get("launch_date") or os.environ.get("LAUNCH_DATE") or "2026-09-06"
-            _ly, _lm, _ldd = (int(x) for x in _ld.split("-"))
-            issue = max(1, (now.date() - date(_ly, _lm, _ldd)).days // 7 + 1)
-            done = [b.get("title_en", "") for old in [malar] for b in (old.get("books") or [])]
-            done += load_json(DATA / "malar_books.json", [])
-            done_heroes = load_json(DATA / "malar_heroes.json", [])
-            _cin = "\n".join(f"- {x.get('headline','')}: {' '.join((x.get('lines') or [])[:2])}"
-                             for x in feed if x.get("topic") == "cinema")[:6000]
-            mm2 = mal.build(client, MODEL, week, today, issue, dates_ta, done, done_heroes, telegram, _cin)
-            if mm2:
-                save_json(DATA / "malar.json", mm2)
-                save_json(DATA / "malar_books.json", (done + [b.get("title_en", "") for b in mm2.get("books", [])])[-60:])
-                try:
-                    # LAUNCH_REUSE=1 என்றால், காலம் சாராத பகுதிகளைக் காப்பகத்திலிருந்து எடு
-                    if os.environ.get("LAUNCH_REUSE") == "1":
-                        mm2, src_wk = mal.restore(mm2, DATA / "malar_archive.json",
-                                                  load_json(DATA / "malar_reused.json", []))
-                        if src_wk:
-                            save_json(DATA / "malar_reused.json",
-                                      load_json(DATA / "malar_reused.json", []) + [src_wk])
-                            print(f"[malar] {src_wk} காப்பகப் பகுதிகள் மீண்டும்")
-                    n = mal.archive(mm2, DATA / "malar_archive.json"); print(f"[malar] காப்பகம் {n} வாரம்")
-                except Exception as ex:
-                    print("[malar] காப்பக பிழை", str(ex)[:80])
-                hn = (mm2.get("hero") or {}).get("name", "")
-                if hn:
-                    save_json(DATA / "malar_heroes.json", (done_heroes + [hn])[-80:])
-                print(f"[malar] இதழ் {issue} தயார்")
+                print("[malar] திரை விமர்சனம் மட்டும்")
     except Exception as ex:
         print("[malar] பிழை", str(ex)[:200])
 
