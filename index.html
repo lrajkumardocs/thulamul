@@ -60,6 +60,15 @@ img{max-width:100%;display:block}
 .wx div{background:var(--paper);padding:9px 6px;text-align:center;font-size:11.5px}
 .wx b{display:block;font-family:var(--serif);font-size:16px;font-weight:500;margin-top:2px}
 .wx span{color:var(--ink3)}
+.wx u{display:flex;align-items:center;justify-content:center;gap:3px;text-decoration:none;
+  color:#2B5E8A;min-height:20px;line-height:1;margin-top:3px}
+.wx u i{font-style:normal;font-size:11px;font-weight:600;font-variant-numeric:tabular-nums}
+.wi{width:16px;height:16px;flex:none;display:block;overflow:visible}
+.wi .s{fill:#E8A33D}
+.wi .s2{stroke:#E8A33D;stroke-width:1.7;stroke-linecap:round}
+.wi .c{fill:#9FB6C9}
+.wi .r{stroke:#4A8FC4;stroke-width:1.8;stroke-linecap:round}
+.wi .b{fill:#E8A33D}
 
 /* ---------- layout ---------- */
 main{padding:26px 0 60px}
@@ -331,6 +340,24 @@ window.FB = {app:fb, auth:getAuth(fb), db:getFirestore(fb), onAuthStateChanged, 
 window.dispatchEvent(new Event('fb-ready'));
 </script>
 <script>
+function wxIcon(p){
+  // SVG — emoji அல்ல. emoji ஒவ்வொரு சாதனத்திலும் வெவ்வேறு அகலம்;
+  // அதனால் வரிசை சீராக இருக்காது. SVG-க்கு நிலையான 18×18.
+  const n=Number(p), S='<svg class="wi" viewBox="0 0 24 24" aria-hidden="true">';
+  const SUN='<circle cx="12" cy="12" r="4.4" class="s"/><g class="s2"><path d="M12 2.6v2.4M12 19v2.4M2.6 12h2.4M19 12h2.4M5.3 5.3l1.7 1.7M17 17l1.7 1.7M18.7 5.3L17 7M7 17l-1.7 1.7"/></g>';
+  const CLOUD='<path class="c" d="M7.4 18.4h9.8a3.7 3.7 0 0 0 .5-7.35 5.5 5.5 0 0 0-10.5-1.2A3.9 3.9 0 0 0 7.4 18.4z"/>';
+  const SUNCLOUD='<circle cx="8.6" cy="8" r="3.1" class="s"/>'+CLOUD;
+  const RAIN='<g class="r"><path d="M8.6 20.1l-1 2.5M12 20.1l-1 2.5M15.4 20.1l-1 2.5"/></g>';
+  const RAIN2='<g class="r"><path d="M7.4 20.1l-1 2.6M16.6 20.1l-1 2.6"/></g>';
+  const BOLT='<g class="b" transform="translate(8.8 18.1) scale(0.30)"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></g>';
+  if(!isFinite(n))  return S+SUN+'</svg>';
+  if(n<20)  return S+SUN+'</svg>';                    // தெளிவு
+  if(n<40)  return S+SUNCLOUD+'</svg>';               // பகுதி மேகம்
+  if(n<60)  return S+CLOUD+'</svg>';                  // மேகமூட்டம்
+  if(n<85)  return S+CLOUD+RAIN+'</svg>';             // மழை
+  return S+CLOUD+RAIN2+BOLT+'</svg>';                  // இடி மின்னலுடன் மழை
+}
+
 /* ================= துலாமுள் — வலைத்தளம் ================= */
 const D='data/', AI='https://thulamul-ai.rajkumarpakkam.workers.dev';
 const q='?'+Math.floor(Date.now()/60000);
@@ -403,7 +430,7 @@ function chrome(){
     +`<span class="gap"></span><a href="?p=complaint" class="cta ${cur==='complaint'?'on':''}">✍ மனு உதவி</a>`;
   if(wxData&&wxData.cities){
     const cs=Object.entries(wxData.cities).slice(0,5);
-    $('#wx').innerHTML=cs.map(([c,v])=>`<div><span>${esc(c)}</span><b>${esc(v.now)}°</b><span>மழை ${esc(v.rain)}%</span></div>`).join('');
+    $('#wx').innerHTML=cs.map(([c,v])=>`<div><span>${esc(c)}</span><b>${esc(v.now)}°</b><u>${wxIcon(v.rain)}<i>${esc(v.rain)}%</i></u></div>`).join('');
   }
 }
 /* ---------- cards ---------- */
