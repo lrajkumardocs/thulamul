@@ -493,6 +493,10 @@ window.dispatchEvent(new Event('fb-ready'));
 </script>
 <script>
 const BASE='../';
+// படப் பாதை: வெளிப்புற முகவரியாக இருந்தால் அப்படியே; களஞ்சியப் பாதையாக
+// இருந்தால் BASE சேர்க்க வேண்டும். ஆப் /web/ கோப்புறையில் இருப்பதால்
+// 'data/bank/x.jpg' என்பது நேரடியாக '/web/data/...' என்று தவறாகச் செல்லும்.
+const asset=u=>{u=String(u||'');return /^(https?:|data:|blob:|\/\/)/i.test(u)?u:BASE+u.replace(/^\.?\//,'');};
 const q='?'+Math.floor(Date.now()/60000);
 const AD_WA='';  // விளம்பரத் தொடர்பு WhatsApp (நாட்டுக் குறியீட்டுடன்)
 const AD_MAIL='ads@thulamul.com';
@@ -580,13 +584,13 @@ function card(s,lead,onTopic){
     <p class="mp" style="margin-top:8px;font-size:14.5px">${esc((s.lines||[])[0]||'')}</p>
     ${s.due?`<span class="due">கடைசி நாள்: ${esc(s.due)}</span>`:''}</div>`;
   const img=s.image&&s.image.url;const kick=onTopic?((s.entities||[])[0]||s.topic_ta):s.topic_ta;
-  if(lead) return `<div class="lead" data-id="${s.id}">${img?`<figure class="fig"><img class="ph" src="${esc(img)}" alt="" loading="lazy" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}${s.image.symbolic?' · குறியீட்டுப் படம்':''}</figcaption></figure>`:''}
+  if(lead) return `<div class="lead" data-id="${s.id}">${img?`<figure class="fig"><img class="ph" src="${esc(asset(img))}" alt="" loading="lazy" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}${s.image.symbolic?' · குறியீட்டுப் படம்':''}</figcaption></figure>`:''}
     <div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}</span><span class="v">${s.kind==='article'?'கட்டுரை':'சரிபார்க்கப்பட்டது'}</span></div>
     <h2>${esc(H(s))}</h2>
     <div class="foot"><span>மூலம்: ${esc(srcShort(s.sources||[]))}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:'<span>30 நொடி</span>'}</div></div>`;
   return `<div class="story" data-id="${s.id}"><div class="k"><span><b>${esc(kick)}</b> · ${ago(s.published_at)}${s.kind==='article'?' · கட்டுரை':''}</span>${s.audio?`<button class="pbtn" data-play="${s.id}">${PLAY}</button>`:''}</div>
     <div class="srow"><div class="stxt"><h2>${esc(H(s))}</h2><p>${esc(L(s)[0])}</p></div>
-    ${img?`<img class="th" src="${esc(img)}" alt="" loading="lazy" onerror="this.remove()">`:''}</div></div>`;
+    ${img?`<img class="th" src="${esc(asset(img))}" alt="" loading="lazy" onerror="this.remove()">`:''}</div></div>`;
 }
 function storiesHtml(items,empty,onTopic){return items.length?`<div class="stories">${items.map((s,i)=>card(s,i===0,onTopic)).join('')}</div>`:`<div class="empty">${empty}</div>`;}
 function bellHtml(k){const on=(localStorage.getItem('bell_'+k)==='1');return `<div class="bell ${on?'on':''}" data-bell="${k}"><svg viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0112 0v5l2 2H4zM10 20a2 2 0 004 0"/></svg><span>${on?'இந்தப் பக்கத்தின் அறிவிப்புகள் மட்டும் — on':'இந்தப் பக்கத்தின் செய்திகளை மட்டும் உடனுக்குடன் அறிய 🔔 தொடுங்கள்'}</span></div>`;}
@@ -730,7 +734,7 @@ function malarHtml(){
   if(!avail.length)return '<div class="empty" style="padding-top:60px">வாரமலர் — ஞாயிறு அதிகாலை புதிதாக வரும்.</div>';
   if(malarSel===null||!malHas(m,malarSel)){
     const cv=m.cover;
-    return `${cv&&cv.url?`<div class="malcover"><img src="${esc(cv.url)}" alt="" onerror="this.parentElement.remove()"></div><div class="pad"><div class="cap">அட்டை: ${esc(cv.credit||'')}${cv.license?' · '+esc(cv.license):''}</div></div>`:''}
+    return `${cv&&cv.url?`<div class="malcover"><img src="${esc(asset(cv.url))}" alt="" onerror="this.parentElement.remove()"></div><div class="pad"><div class="cap">அட்டை: ${esc(cv.credit||'')}${cv.license?' · '+esc(cv.license):''}</div></div>`:''}
       <div class="pad"><div class="small muted" style="margin-top:10px">மலர் 1 · இதழ் ${esc(String(m.issue||1))}${m.generated?' · '+new Date(m.generated).toLocaleDateString('ta-IN',{day:'numeric',month:'long',year:'numeric'}):''}</div>
       <div class="malmenu">${avail.map(([k,t,sub])=>`<div class="mrow" data-mal="${k}"><b>${t}<small>${sub}</small></b><i>›</i></div>`).join('')}</div>
       <div class="rule"></div><div class="small muted">விளம்பரம்</div>
@@ -748,7 +752,7 @@ function malarHtml(){
   else if(k==='essay') h+=(m.essay.image?`<div class="wcard"><img src="${BASE}${esc(m.essay.image)}" alt="" onerror="this.parentElement.remove()"></div>`:'')
     +`<h2 style="margin-top:14px">${esc(m.essay.title)}</h2>`+esc(m.essay.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');
   else if(k==='word') h+=`<h2 style="margin-top:12px">${esc(m.word.word)}</h2>`+esc(m.word.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');
-  else if(k==='hero'){const H=m.hero;h+=`${H.photo&&H.photo.url?`<figure class="fig"><img src="${esc(H.photo.url)}" alt=""><figcaption>படம்: ${esc(H.photo.credit||'')}</figcaption></figure>`:(H.image?`<div class="wcard"><img src="${BASE}${esc(H.image)}" alt=""></div>`:'')}
+  else if(k==='hero'){const H=m.hero;h+=`${H.photo&&H.photo.url?`<figure class="fig"><img src="${esc(asset(H.photo.url))}" alt=""><figcaption>படம்: ${esc(H.photo.credit||'')}</figcaption></figure>`:(H.image?`<div class="wcard"><img src="${BASE}${esc(H.image)}" alt=""></div>`:'')}
     <h2 style="margin-top:12px">${esc(H.name)}</h2><div class="small muted" style="margin-top:4px">${esc(H.years||'')}${H.place?' · '+esc(H.place):''}</div>
     ${H.line?`<div class="song">${esc(H.line)}</div>`:''}`+esc(H.body).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('');}
   else if(k==='agri'){h+=(m.agri.image?`<div class="wcard"><img src="${BASE}${esc(m.agri.image)}" alt="" onerror="this.parentElement.remove()"></div>`:'')
@@ -772,13 +776,13 @@ function malarHtml(){
       <div class="rh" style="margin-top:16px">செய்முறை</div><ol>${(F.steps||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>
     ${F.note?`<div class="note">${esc(F.note)}</div>`:''}`;}
   else if(k==='book') h+=(m.books||[]).map((b,i)=>`<div class="bookrow"${i?' style="border-top:1px solid var(--rule);padding-top:22px;margin-top:26px"':''}>
-      <div class="bc">${b.cover&&b.cover.url?`<img src="${esc(b.cover.url)}" alt="" onerror="this.parentElement.innerHTML='<div class=&quot;ph&quot;>${esc(b.title_ta||'')}</div>'">`:`<div class="ph">${esc(b.title_ta||'')}</div>`}</div>
+      <div class="bc">${b.cover&&b.cover.url?`<img src="${esc(asset(b.cover.url))}" alt="" onerror="this.parentElement.innerHTML='<div class=&quot;ph&quot;>${esc(b.title_ta||'')}</div>'">`:`<div class="ph">${esc(b.title_ta||'')}</div>`}</div>
       <div class="bt"><h2 style="font-size:18px">${esc(b.title_ta)}</h2><div class="small muted" style="margin-top:5px">${esc(b.author||'')} · ${esc(String(b.year||''))} · ${esc(b.country||'')}</div></div></div>
       ${esc(b.review).split(/\n+/).map(x=>`<p class="mp">${x}</p>`).join('')}
       <p class="mp muted" style="font-size:14px"><b>எங்கே:</b> ${esc(b.where||'')}</p>`).join('')
     +`<div class="note">அட்டைப்படங்கள் மதிப்புரை நோக்கத்திற்காக; உரிமை அந்தந்தப் பதிப்பகங்களுக்கே.</div>`;
   else if(k==='film') h+=(m.films||[]).map((f,i)=>`<div class="revrow"${i?' style="border-top:1px solid var(--rule);padding-top:22px;margin-top:26px"':''}>
-      <div class="pos">${f.poster&&f.poster.url?`<img src="${esc(f.poster.url)}" alt="" onerror="this.parentElement.innerHTML='<div class=&quot;ph&quot;>${esc(f.title||'')}</div>'">`:`<div class="ph">${esc(f.title||'')}</div>`}</div>
+      <div class="pos">${f.poster&&f.poster.url?`<img src="${esc(asset(f.poster.url))}" alt="" onerror="this.parentElement.innerHTML='<div class=&quot;ph&quot;>${esc(f.title||'')}</div>'">`:`<div class="ph">${esc(f.title||'')}</div>`}</div>
       <div class="revtxt"><h2 style="font-size:18px">${esc(f.title)}</h2>
       <div class="small muted" style="margin-top:5px">${esc(f.director||'')}${f.cast?' · '+esc(f.cast):''}${f.lang?' · '+esc(f.lang):''}</div>
       <div style="margin-top:8px"><span class="rating">${esc(String(f.rating||''))}</span> <span class="small muted">/ 5 · ${esc(f.verdict||'')}</span></div></div></div>
@@ -888,7 +892,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-mal]');if(
 function slotAds(id){return (ads||[]).filter(a=>adActive(a)&&(a.slot||'box')===id);}
 function adFrame(a,id,ratio,label){
   if(a) return `<a class="adunit" href="${esc(a.url||'#')}" target="_blank" rel="noopener" style="aspect-ratio:${ratio}">
-      <img src="${esc(a.image)}" alt="${esc(a.title||'')}"><span class="admark">விளம்பரம்</span></a>`;
+      <img src="${esc(asset(a.image))}" alt="${esc(a.title||'')}"><span class="admark">விளம்பரம்</span></a>`;
   return `<a class="adunit empty" href="#adform" data-adslot="${esc(id)}" style="aspect-ratio:${ratio}"><span>${esc(label)}<br><b>விளம்பரம் செய்ய →</b></span></a>`;
 }
 function slotPrice(id){const s=((ADS&&ADS.slots)||[]).find(x=>x.id===id);return s?s.price:0;}
@@ -996,7 +1000,7 @@ function adsHtml(){
 }
 
 function showAd(i){const x=i==='full'?window._adFull:window._adSlots[i];if(!x)return;const img=x.image?(x.image.startsWith('http')?x.image:BASE+x.image):'';
-  const o=document.createElement('div');o.className='adfull';o.innerHTML=`${img?`<img src="${esc(img)}" alt="">`:`<div class="adph big" style="background:${esc(x.bg||'#2E3441')}"><b>${esc(x.title)}</b><span>${esc(x.sub||'')}</span></div>`}<div class="adbar"><span>விளம்பரம் · ${esc(x.title)}</span>${x.link?`<a href="${esc(x.link)}" target="_blank" rel="noopener">திற →</a>`:''}<b>✕</b></div>`;
+  const o=document.createElement('div');o.className='adfull';o.innerHTML=`${img?`<img src="${esc(asset(img))}" alt="">`:`<div class="adph big" style="background:${esc(x.bg||'#2E3441')}"><b>${esc(x.title)}</b><span>${esc(x.sub||'')}</span></div>`}<div class="adbar"><span>விளம்பரம் · ${esc(x.title)}</span>${x.link?`<a href="${esc(x.link)}" target="_blank" rel="noopener">திற →</a>`:''}<b>✕</b></div>`;
   o.addEventListener('click',e=>{if(!e.target.closest('a'))o.remove();});document.body.appendChild(o);}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-ad]');if(b)showAd(b.dataset.ad==='full'?'full':+b.dataset.ad);});
 function adSlotStatus(from,to){
@@ -1252,7 +1256,7 @@ function renderDetail(id){
   let idx=same.indexOf(s), nxt=idx>=0?same[idx+1]:null;
   if(!nxt){ const fp=frontPicks(); const fi=fp.findIndex(x=>x.id===s.id); if(fi>=0) nxt=fp[fi+1]; }
   el.innerHTML=`<div class="topbar"><a class="icon" href="#back"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></a><span class="small muted">30 நொடி${s.audio?' · கேட்கலாம்':''}</span><a class="icon" id="share"><svg viewBox="0 0 24 24"><path d="M4 12v7h16v-7M12 3v12M8 7l4-4 4 4"/></svg></a></div>
-   ${img?`<figure class="fig figfull"><img src="${esc(img)}" alt="" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}${s.image.symbolic?' · குறியீட்டுப் படம்':''}</figcaption></figure>`:''}
+   ${img?`<figure class="fig figfull"><img src="${esc(asset(img))}" alt="" onerror="this.closest('figure').remove()"><figcaption>படம்: ${esc(s.image.credit)}${s.image.license?' · '+esc(s.image.license):''}${s.image.symbolic?' · குறியீட்டுப் படம்':''}</figcaption></figure>`:''}
    <div class="pad"><div class="small muted" style="margin-top:14px"><b class="brass" style="font-weight:500">${esc(s.topic_ta)}</b> · ${esc((s.entities||[])[0]||'')} · ${new Date(s.published_at).toLocaleDateString('ta-IN',{day:'numeric',month:'short',year:'numeric'})} ${hm(s.published_at)}</div>
    <h1>${esc(H(s))}</h1>
    <div class="body5">${L(s).map((l,i)=>`<p><span class="n">${TA[i]}</span>${esc(l)}</p>`).join('')}</div>
