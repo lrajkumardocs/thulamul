@@ -205,7 +205,7 @@ def _phash(b, n=16):
     px = list(im.getdata()); avg = sum(px) / len(px)
     return [1 if v > avg else 0 for v in px]
 
-def _too_similar(a, b, limit=0.86):
+def _too_similar(a, b, limit=0.80):
     ha, hb = _phash(a), _phash(b)
     same = sum(1 for x, y in zip(ha, hb) if x == y) / len(ha)
     return same >= limit, same
@@ -213,7 +213,12 @@ def _too_similar(a, b, limit=0.86):
 def _img_part(b, mime="image/png"):
     return {"inline_data": {"mime_type": mime, "data": base64.b64encode(b).decode()}}
 
-def draw_panel(panel, n, prev_bytes=None, differ=False):
+SHOTS = ("an extreme wide establishing shot", "a close-up of the faces",
+         "a low-angle medium shot", "an extreme close-up of hands or an object",
+         "a high-angle wide shot")
+
+
+def draw_panel(panel, n, prev_bytes=None, differ=0):
     """ஒரு பலகை. குறிப்புப் படங்கள் + முந்தைய பலகை → Gemini → bytes."""
     parts = [{"text": CHARS["style_en"] + "\n\nThis is one panel of a four-panel daily comic page. "
               "Landscape framing, 4:3 (wider than tall). Keep the main characters' faces well inside the frame, not cut off at the edges. "
@@ -234,11 +239,17 @@ def draw_panel(panel, n, prev_bytes=None, differ=False):
     for ex, desc in CHARS.get("extras_en", {}).items():
         if ex in (panel.get("scene_en", "") + " " + json.dumps(panel.get("bubbles", []))).lower():
             parts.append({"text": f"Minor character '{ex}': {desc}"})
-    if prev_bytes:
+    if prev_bytes and differ < 2:
+        # 2-ஆவது மறுமுயற்சிக்குப் பிறகு முந்தைய பலகையை அனுப்புவதில்லை —
+        # அதைக் காட்டுவதே நகலெடுக்கத் தூண்டுகிறது.
         parts.append({"text": "The previous panel of this same page is shown next. Match its style, palette, line weight and lighting exactly — "
                               "but the PICTURE ITSELF MUST BE CLEARLY DIFFERENT: a different camera distance and angle, different placement of the "
                               "characters in the frame, and a different part of the setting. Never repeat the previous panel's composition."})
         parts.append(_img_part(prev_bytes))
+    if differ:
+        parts.append({"text": "MANDATORY CHANGE: draw this panel as "
+                              + SHOTS[(differ - 1) % len(SHOTS)] +
+                              ". This is not optional — the previous attempt repeated an earlier panel."})
     if differ:
         parts.append({"text": "IMPORTANT: your previous attempt looked almost identical to the earlier panel. Change the shot completely — "
                               "if the last one was a wide view, make this a close-up; move the characters to the other side of the frame; "
@@ -420,13 +431,20 @@ def build(client, model, today, telegram=None):
         tries = 0
         while True:
             if b is None:
-                b = draw_panel(p, n, prev, differ=tries > 0)
+                b = draw_panel(p, n, prev, differ=tries)
             if not b:
                 print(f"[comic] பலகை {n} தோல்வி — அடுத்த ஓட்டத்தில் தொடரும்"); return None
             dup = next(((k, sc) for k, old_b in enumerate(panels, 1) for ok, sc in [_too_similar(old_b, b)] if ok), None)
-            if not dup or tries >= 3:                       # அதிகபட்சம் 3 மறுமுயற்சி
+            if not dup or tries >= 4:                       # அதிகபட்சம் 4 மறுமுயற்சி
                 if dup:
-                    print(f"[comic] பலகை {n}: பலகை {dup[0]}-ஐ ஒத்திருக்கிறது ({dup[1]:.2f}) — அப்படியே வைக்கிறேன்")
+                    print(f"[comic] ⚠ பலகை {n}: பலகை {dup[0]}-ஐ ஒத்திருக்கிறது ({dup[1]:.2f}) "
+                          f"— {tries} முயற்சிக்குப் பிறகும் மாறவில்லை")
+                    if telegram and dup[1] >= 0.90:
+                        try:
+                            telegram(f"⚠️ காமிக்ஸ்: பலகை {n} ≈ பலகை {dup[0]} "
+                                     f"({dup[1]:.2f}) — {tries} முயற்சிக்குப் பிறகும் ஒரே மாதிரி.")
+                        except Exception:
+                            pass
                 break
             print(f"[comic] பலகை {n}: பலகை {dup[0]}-ஐப் போலவே உள்ளது ({dup[1]:.2f}) — மீண்டும் வரைகிறேன்")
             b = None; tries += 1
