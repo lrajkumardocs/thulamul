@@ -1,11 +1,11 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 10 புதியவை
+[fetch] ET Markets: 13 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 2 புதியவை
 [fetch] Dinamani TN: 9 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 6 புதியவை
-[fetch] Al Jazeera: 2 புதியவை
+[fetch] Al Jazeera: 3 புதியவை
 [fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
 [fetch] The Hindu Cinema: 20 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fcec87773d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd1b517bb50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 1 புதியவை
 [fetch] Dinamani Govt: 9 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
@@ -67,22 +67,20 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 380 → நிகழ்வுகள் 374
-[triage] சேமித்த மதிப்பெண் (362) — புதிய அழைப்பு இல்லை
-[triage] 374 → 23 | காலி: crime:3, jobs:3, court:2, assembly:2
-[skip] இது ஒரு பொதுவான சந்தை பகுப்பாய்வுக் கட்டுரை; குறிப்பிட்ட எண்
-[skip] வெளிநாட்டு அரசியல் நிகழ்வு — ইরान-அமெरिका பின்னணியில் ஈران ভ
-[திருத்தம்] 2027ஆம் நிதியாண்டு இறுதிக்குள் ரூபாய் மத → 2027ஆம் நிதியாண்டு இறுதிக்குள் ரூபாய் மத
-[தரம்] மூலத்தில் இல்லாத எண்: 2027 → ஒரு திருத்தம்
-[tts-edge] c9275a1a6ab0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வரும் நிதியாண்டுகளில் ரூபாய் மதிப்பு 96-97 ஆக சரியலாம்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[run] புதியவை 384 → நிகழ்வுகள் 376
+[triage] 376 → 8 | காலி: crime:3, jobs:3, court:2, assembly:2
+[skip] இது பழைய தேதியிலான ஒரு நிபுணரின் கணிப்பு/கருத்து மட்டுமே (RB
+[திருத்தம்] சிறுமி மீதான பாலியல் வன்கொடுமை நிகழ்வு:  → சிறுமி பாலியல் வன்கொடுமை: கனிமொழி கண்டனம
+[image] களஞ்சியம் (3 சொல்): சிறுமி பாலியல் வன்கொடுமை: கனிமொழி 
+[tts-edge] 3cb30331e45c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சிறுமி பாலியல் வன்கொடுமை: கனிமொழி கண்டனம்
+[skip] மூலத்தில் ஒரு தலைப்பு வரி மட்டுமே உள்ளது, விவரங்கள் இல்லை - 
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: பிரதமர் பதவிக்கு விஜய்க்குத் தகுதி
+[tts-edge] d4476059bfc2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பிரதமர் பதவிக்கு விஜய்க்குத் தகுதி உள்ளதா என நாகேந்திரன் கேள்வி
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MSSRF sets up water ATM at Perungudi heat study 
-[tts-edge] brief_2026-09-28: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[brief] காலை brief தயார்
-[market] தங்கம் 22K ₹13560 · சென்செக்ஸ் 73896
+[market] தங்கம் 22K ₹13495 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 1
+[done] feed 300 · pending 1 · எழுதியவை 2
