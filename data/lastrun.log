@@ -2,7 +2,7 @@
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 2 புதியவை
-[fetch] Dinamani TN: 7 புதியவை
+[fetch] Dinamani TN: 9 புதியவை
 [fetch] BBC Tamil: 2 புதியவை
 [fetch] BBC World: 5 புதியவை
 [fetch] Al Jazeera: 4 புதியவை
@@ -10,13 +10,13 @@
 [fetch] The Hindu Sport: 19 புதியவை
 [fetch] The Hindu Cinema: 21 புதியவை
 [fetch] Cinema Express: 23 புதியவை
-[fetch] The Hindu Tech: 17 புதியவை
+[fetch] The Hindu Tech: 15 புதியவை
 [fetch] Wired: 23 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.employmentnews.gov.in', port=443): Failed to resolve 'www.employmentnews.gov.in' ([Errno -3] Temporary failure in name resolution)"))
+[fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 7 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 0 புதியவை
+[fetch] FreeJobAlert: 2 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe972453c10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4881c17510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 9 புதியவை
-[fetch] Dinamani Govt: 8 புதியவை
+[fetch] Dinamani Govt: 9 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,13 +67,18 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 425 → நிகழ்வுகள் 401
+[run] புதியவை 428 → நிகழ்வுகள் 404
 [triage] சேமித்த மதிப்பெண் (383) — புதிய அழைப்பு இல்லை
-[triage] 401 → 60 | காலி: jobs:3, court:2, crime:2, assembly:2
-[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காது. வெளிநாட்டு நபর்களுக்
-[skip] வெளிநாட்டுச் செய்தி (அஸ்திரேலியா) — தமிழ்நாடு/இந்தியாவுடன் ந
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
-[market] தங்கம் 22K ₹13401 · சென்செக்ஸ் 73307
+[triage] 404 → 68 | காலி: jobs:3, court:2, crime:2, assembly:2
+[தரம்] தமிழ் அல்லாத எழுத்து: कधरवािদর → ஒரு திருத்தம்
+[tts-edge] 397fc3433875: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கனரா வங்கி மூவாயிரத்து ஐந்நூறு பயிற்சி பதவிக்கு விண்ணப்பங்கள் கோரப்பட்டுள்ளன
+[திருத்தம்] GATE 2027 விண்ணப்பத்திற்கு அவসரக் கடைசி  → GATE 2027 விண்ணப்பத்திற்கு கடைசி நாள் அக
+[tts-edge] a9a569f4d1e2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] GATE 2027 விண்ணப்பத்திற்கு கடைசி நாள் அக்டோபர் ஐந்து
+[jobs] தொகுப்பு 1
+[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
+[market] தங்கம் 22K ₹13401 · சென்செக்ஸ் 72995
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 2
