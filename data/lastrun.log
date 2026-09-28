@@ -2,10 +2,10 @@
 [fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 1 புதியவை
-[fetch] Dinamani TN: 5 புதியவை
+[fetch] Dinamani TN: 6 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 6 புதியவை
-[fetch] Al Jazeera: 4 புதியவை
+[fetch] BBC World: 5 புதியவை
+[fetch] Al Jazeera: 3 புதியவை
 [fetch] ESPNcricinfo: 26 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 1 புதியவை
@@ -34,14 +34,14 @@
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 13 புதியவை
+[fetch] TechCrunch: 12 புதியவை
 [fetch] The Verge: 8 புதியவை
 [fetch] The Hindu National: 2 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 24 புதியவை
+[fetch] Dinamani India: 22 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4c7a67d950>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fda92f42cd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 2 புதியவை
-[fetch] Dinamani Govt: 5 புதியவை
+[fetch] Dinamani Govt: 6 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,23 +67,17 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 14 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 392 → நிகழ்வுகள் 378
+[run] புதியவை 389 → நிகழ்வுகள் 375
 [triage] சேமித்த மதிப்பெண் (378) — புதிய அழைப்பு இல்லை
-[triage] 378 → 16 | காலி: crime:3, jobs:3, world:2, assembly:2
-[skip] வெளிநாட்டு நிறுவனத்தின் உள்நாட்டுத் திட்டம் — தமிழ்நாடு / இந
+[triage] 375 → 18 | காலி: crime:3, jobs:3, world:2, assembly:2
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Book documenting contemporary architecture of Ch
-[skip] அமெரிக்காவின் உள்நாட்டு சமூக ஊடக சர்ச்சை — தமிழ்நாடு/இந்திய 
-[திருத்தம்] போக்குவரத்து அபராதம் நிலுவை: மின் கட்டணத → போக்குவரத்து அபராதம் நிலுவை: மின் கட்டணத
-[tts-edge] 758b61737d7a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] போக்குவரத்து அபராதம் நிலுவை: மின் கட்டணத்துடன் இணைக்க உச்ச நீதிமன்றம் யோசனை
-[திருத்தம்] திரிணமூல் கட்சி சின்னம் விவகாரத்தில் நான → திரிணமூல் கட்சி சின்னம் விவகாரத்தில் நான
-[tts-edge] 0bbcb1d7de0c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] திரிணமூல் கட்சி சின்னம் விவகாரத்தில் நான்கு மாத கெடு: உச்ச நீதிமன்றம் உத்தரவு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கு விவரம், நீதிமன்றம்,
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWhdHULWPDwTmCEpAQGg'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Nursing training fees revised for students at GC
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two drown in sea in separate incidents
-[skip] நைஜீரியாவின் உள்நாட்டு குற்றச் சம்பவம் — தமிழ்நாடு/இந்தியா வ
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: மின் கட்டணத்துடன் அபராதம் இணைப்பு: வசதியா, நெருக்கடியா?
-[market] தங்கம் 22K ₹13159 · சென்செக்ஸ் 72772
+[skip] வெளிநாட்டு உள்நாட்டுக் குற்ற வழக்கு — இத்தாலிய நீதிமன்றத்தின
+[skip] பிரிட்டேனிய அரசியலுக்குத் தமிழ்நாட்டு/இந்திய வாசகரின் நேரடித
+[market] தங்கம் 22K ₹13171 · சென்செக்ஸ் 72772
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 2 · எழுதியவை 2
+[done] feed 300 · pending 2 · எழுதியவை 0
