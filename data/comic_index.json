@@ -1,5 +1,80 @@
 [
  {
+  "date": "2026-09-29",
+  "title": "மண்டபத்தில் மர்மக் கூட்டம்",
+  "book": 1,
+  "book_ta": "புது வெள்ளம்",
+  "arc": "கடம்பூர் மாளிகை இரவு",
+  "day": 20,
+  "file": "data/comic/2026-09-29.png",
+  "summary": "மறைவாக நின்ற வந்தியத்தேவன் மாளிகை மண்டபத்தில் விளக்கொளியில் கூடியிருந்த பெரும் கூட்டத்தைக் கண்டு வியப்படைகிறான்.",
+  "next_hint": "மண்டபத்தில் தலைமையில் அமர்ந்திருப்பது யார்?",
+  "hidden": false,
+  "script": {
+   "title_ta": "மண்டபத்தில் மர்மக் கூட்டம்",
+   "panels": [
+    {
+     "scene_en": "extreme wide shot of a moonlit courtyard inside Kadambur mansion, vandiyathevan as in reference image and extra character kandamaran walking briskly past stone pillars toward a distant lit hall, night, tense mood",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "வளாகத்தின் இருளினூடே இருவரும் நடந்தனர்.",
+     "bubbles": [
+      {
+       "speaker": "kandamaran",
+       "side": "R",
+       "text_ta": "மெல்ல வா, யாரும் காணக்கூடாது."
+      }
+     ]
+    },
+    {
+     "scene_en": "wide shot approaching a grand illuminated mandapam entrance of Kadambur palace at night, warm torchlight spilling out of open doors, vandiyathevan as in reference image pausing curiously while extra character kandamaran gestures for silence, evening",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "மண்டப வாயிலில் ஒளி பொங்கியது.",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "என்ன கூட்டம் இது, கந்தமாறா?"
+      },
+      {
+       "speaker": "kandamaran",
+       "side": "R",
+       "text_ta": "மறைந்து நில், விளங்கும்."
+      }
+     ]
+    },
+    {
+     "scene_en": "medium shot from behind a stone pillar, vandiyathevan as in reference image peeking into a wide mandapam filled with rows of oil lamps and many seated robed men in shadow, night, sense of secrecy and intrigue, low angle from his hiding spot",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "விளக்கொளியில் பலரும் அமர்ந்திருந்தனர்.",
+     "bubbles": []
+    },
+    {
+     "scene_en": "extreme close-up on vandiyathevan's wide, startled eyes as in reference image reflecting flickering lamp light, sweat on brow, night, dramatic tension, camera very close to his face from slightly below",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "இத்தனை பெரியோர்... இரகசியம் என்ன?"
+      }
+     ]
+    }
+   ],
+   "summary_ta": "மறைவாக நின்ற வந்தியத்தேவன் மாளிகை மண்டபத்தில் விளக்கொளியில் கூடியிருந்த பெரும் கூட்டத்தைக் கண்டு வியப்படைகிறான்.",
+   "tomorrow_ta": "மண்டபத்தில் தலைமையில் அமர்ந்திருப்பது யார்?",
+   "story_so_far_ta": "ஆடித் திருநாள் மாலையில் வாணர் குலத்து வீரன் வந்தியத்தேவன், ஆதித்த கரிகாலனின் ஓலைச் சுருள்களுடன் கடம்பூர் நோக்கிச் செல்கிறான். வழியில் ஆழ்வார்க்கடியான் நம்பியை சந்தித்து வாதிட்டு பிரிகிறான். பழுவூர்க் கொடி பறக்கும் அணிவகுப்பையும் மூடிய பல்லக்கையும் கண்டு ஆவல் கொள்கிறான். மாளிகை அருகே நண்பன் கந்தமாறன் எதிர்ப்பட்டு, இரவில் இரகசியமாக வருமாறு வேண்டுகிறான். காரணம் கேட்டும் பதில் சொல்லாமல் மர்மமாகச் சிரித்தான். இருவரும் காட்டுப் பாதை வழியே குதிரையில் பயணித்து, தூரத்தில் மாளிகைக் கோபுரம் தெரிந்தது. வாசலில் காவலரைக் கண்டு ஐயப்பட்ட வந்தியத்தேவனை கந்தமாறன் அமைதிப்படுத்தி, தன் அடையாள முத்திரையால் காவலரை சமன் செய்து வளாகத்திற்குள் அழைத்துச் சென்றான். இன்று, மாளிகையின் அகன்ற மண்டபத்தில் விளக்கொளி பொங்க, பலரும் கூடியிருப்பதை மறைவாக நின்று கண்ட வந்தியத்தேவன், அந்த ரகசியக் கூட்டத்தின் நோக்கம் என்ன என்று வியப்புடன் எண்ணுகிறான்."
+  }
+ },
+ {
   "date": "2026-09-28",
   "title": "காவலை மீறிய கந்தமாறன்",
   "book": 1,

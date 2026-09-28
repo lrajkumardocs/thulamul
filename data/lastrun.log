@@ -1,7 +1,7 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 14 புதியவை
 [fetch] BBC World: 15 புதியவை
@@ -11,7 +11,7 @@
 [fetch] The Hindu Cinema: 7 புதியவை
 [fetch] Cinema Express: 19 புதியவை
 [fetch] The Hindu Tech: 8 புதியவை
-[fetch] Wired: 20 புதியவை
+[fetch] Wired: 21 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 11 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 4 புதியவை
+[fetch] Bar and Bench: 3 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7344cc42d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f597ba59290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,11 +65,81 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 15 புதியவை
+[fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 645 → நிகழ்வுகள் 584
+[run] புதியவை 647 → நிகழ்வுகள் 584
 [triage] சேமித்த மதிப்பெண் (521) — புதிய அழைப்பு இல்லை
-[triage] 584 → 93 | காலி: court:2, crime:2, assembly:2, jobs:1
-[market] தங்கம் 22K ₹13201 · சென்செக்ஸ் 72772
+[triage] 584 → 137 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] மூலப் பத்திரிகையிலிருந்து உள்ளடக்க விவரம் பொதுமையாக உள்ளது; 
+[தரம்] தமிழ் அல்லாத எழுத்து: ঙ → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): ஜெயிலர் இரண்டாம் பாகத்தின் டிரெய்ல
+[tts-edge] dc1fe04bae6a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஜெயிலர் இரண்டாம் பாகத்தின் டிரெய்லர் வெளியாகிறது
+[திருத்தம்] சிறார் சமூக ஊடக கணக்குகளுக்கு விதிகள் வக → சிறார் சமூக ஊடக கணக்குகளை ஒழுங்குபடுத்த 
+[tts-edge] 633ed0558468: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] சிறார் சமூக ஊடக கணக்குகளை ஒழுங்குபடுத்த விதிகள் வகுக்க உச்ச நீதிமன்றம் அறிவுறுத்தல்
+[skip] ஹரியாணா பொதுசேவா ஆணையம் (HPSC) தேர்வு — ஹரியாணா மாநில வேலைவா
+[skip] வெளிநாட்டுச் சுகாதார அধ்যযனம் — தமிழ்நாடு/இந்தியாவுக்கு நேரட
+[skip] வெளிநாட்டுத் தொழில்நுட்ப நிறுவனங்களின் உள்நாட்டு அமைப்பு மாற
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: மதுரையில் தாய்மான் தங்க மோதிரத் தி
+[publish] மதுரையில் தாய்மான் தங்க மோதிரத் திட்டத்தைத் தொடங்கிய முதல்வர் விஜய்
+[skip] விदेशी देशের आंतरिक संघर्ष। म्यांमार सैन्य कार्रवाई तमिलनाडु
+[skip] இது கேரளாவின் எடப்பள்ளியில் நடந்த உள்ளூர் மோசடி வழக்கு தொடர்
+[skip] இது கர்நாடக மாநிலத்தின் உள்ளூர் போக்குவரத்து அறிவிப்பு (KSRT
+[skip] தெலங்கானா மாநில உள்ளூர் அரசியல் கட்சிச் செய்தி, தமிழ்நாட்டுட
+[skip] இது கர்நாடக மாநில அரசின் உள்ளூர் நிர்வாக நடவடிக்கை (காவல்துற
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWN5w1hkf5wsPsr661R4'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWNCDeFM26SixARtTWht'}
+[skip] இது ஆந்திரப் பிரதேசத்தின் விசாகப்பட்டினம் மாநகராட்சி தேர்தல்
+[திருத்தம்] டெல்லியில் பாலியல் வன்கொடுமை வழக்குகள்:  → டெல்லி-என்சிஆர்-ல் பாலியல் வன்கொடுமை வழக
+[publish] டெல்லி-என்சிஆர்-ல் பாலியல் வன்கொடுமை வழக்குகள்: உச்ச நீதிமன்றம் சுயமுன்னெடுப்பு விசாரணை
+[skip] தெலங்கானா மாநில மின்சார நிறுவனம் தொடர்பான உள்ளூர் செய்தி; தம
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWNKdjnA1xW343kigkpy'}
+[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் காங்கிரஸ் கட்சிப் போராட்டம் - த
+[skip] கர்நாடகாவின் விஜயபுரா, பெளகாவி பகுதிகளில் நடந்த உள்ளூர் அரசி
+[skip] இது ஆந்திரப் பிரதேசத்தின் ஸ்வர்ண கிராமம், ஸ்வர்ண வார்டு திட்
+[publish] என்டிஏவுடன் இணைய மாட்டேன் என்று சரத் பவார் தெளிவுபடுத்தல்
+[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் அரசியல் கோரிக்கை - தமிழ்நாட
+[publish] வாக்காளர் பட்டியல் திருத்தம் ரத்து செய்யக் கோரி சிவில் அமைப்புகள் கோரிக்கை
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் அரசு அறிவிப்பு (கண்ணூர் விமான ந
+[skip] இது கேரளாவின் உள்ளூர் நிறுவனம் தொடர்பான போதைப்பொருள் எதிர்ப்
+[திருத்தம்] ஜல்கபி நீர்மூழ்கிக் கப்பல் திட்டத்திற்கு → ஜல்கபி நீர்மூழ்கிக் கப்பல் திட்டத்திற்கு
+[image] களஞ்சியம் (2 சொல்): ஜல்கபி நீர்மூழ்கிக் கப்பல் திட்டத்
+[publish] ஜல்கபி நீர்மூழ்கிக் கப்பல் திட்டத்திற்கு கெல்ட்ரான் சோனார் ஒருங்கிணைப்புத் தொடக்கம்
+[skip] இது கேரள மாநில உள்ளூர் அரசியல்/அரசு அறிக்கை; தமிழ்நாட்டுடன் 
+[skip] இது ஒரு தனியார் நிறுவனத்தின் விருது பெற்ற செய்தி, விளம்பரத் 
+[skip] விசாகப்பட்டினத்தில் நடந்த உள்ளூர் மருத்துவமனை நிகழ்வு, தமிழ்
+[skip] இது ஆந்திரப் பிரதேச மாநிலத்திற்கான உள்ளூர் வானிலை முன்னறிவிப
+[skip] இது ஆந்திரப் பிரதேசம் மாநிலத்தின் மங்களகிரி பகுதிக்கான உள்ளூ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWNeyBbg5MkzmcDhnQ4E'}
+[skip] இது பொதுவான அரசியல் குற்றச்சாட்டு அறிக்கை மட்டும், தமிழ்நாட்
+[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள அரக்கு பள்ளியில் நடந்த உள்ளூர
+[image] களஞ்சியம் (2 சொல்): ரபி பருவ பயிர் திட்டமிடலில் தண்ணீர
+[publish] ரபி பருவ பயிர் திட்டமிடலில் தண்ணீர் மதிப்பீடு செய்யக் கூறிய மத்திய அரசு
+[skip] இது கேரளாவின் உள்ளூர்ச் சம்பவம் - ஒரு யூடியூபர் தொடர்பான குட
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWNpNM8GrcxUF11R45Q5'}
+[skip] கேரளாவின் உள்ளூர் குற்றவியல் வழக்கு — தமிழ்நாட்டுக்குத் தொடர
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two drown in sea in separate incidents
+[image] களஞ்சியம் (3 சொல்): எண்ணெய் விலை உயர்வால் தங்கம் விலை 
+[publish] எண்ணெய் விலை உயர்வால் தங்கம் விலை ஏழு வார கீழ் நிலைக்கு வீழ்ச்சி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWNvepjmAdrwFEFhYs2d'}
+[skip] கர்நாடகாவின் உள்ளூர் பேருந்து சேவை அறிக்கை — தமிழ்நாட்டுக்கு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Customs officials seize 3.4 kg of hydroponic gan
+[skip] வெளிநாட்டுப் பொதுமக்களின் உள்ளூர் குற்ற வழக்கு. தமிழ்நாடு/இந
+[திருத்தம்] சதுரங்கப் பொதுவிழায় குக்கேஷ் சவிதா சிறப → சதுரங்கப் பொதுவிழையில் குக்கேஷ், சவிதா ச
+[தரம்] தமிழ் அல்லாத எழுத்து: ডি → ஒரு திருத்தம்
+[publish] சதுரங்கப் பொதுவிழையில் குக்கேஷ், சவிதா சிறப்பாகச் செயல்பட்டனர்
+[comic] கதை: மண்டபத்தில் மர்மக் கூட்டம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.93) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-09-29.png · நாள் 20
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹13196 · சென்செக்ஸ் 72772
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 10
