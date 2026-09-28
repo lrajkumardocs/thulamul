@@ -550,6 +550,144 @@ def restore(m, path, used_weeks=()):
     return m, src.get("week")
 
 
+
+# ═══════════════════════════════════════════════════════════════════
+#  வாரமலர் சுழற்சி விதிகள்  —  எந்த உழைப்பும் வீணாகாது
+# ═══════════════════════════════════════════════════════════════════
+#
+#  பகுதிகள் மூன்று வகை:
+#    TIMELY  — ஒவ்வொரு வாரமும் புதிது (நடப்புச் செய்தி சார்ந்தவை)
+#    ROTATE  — ஒரு முறை எழுதியது நிரந்தரமாகச் சேமிக்கப்பட்டு, பின் சுழற்சியில் வரும்
+#    FIXED   — ஒருபோதும் மாறாது (ஒப்புதல் பெற்றவை)
+#
+#  ROTATE விதிகள்:
+#    1. எழுதப்படும் ஒவ்வொரு பகுதியும் உடனே களஞ்சியத்தில் சேர்க்கப்படும். அழிக்கப்படாது.
+#    2. ஒரு பகுதிக்கு POOL_TARGET (12) பதிப்பு சேரும் வரை — ஒவ்வொரு வாரமும் புதிது.
+#    3. 12 சேர்ந்த பிறகு — புதிதாக எழுதப்படாது; களஞ்சியத்திலிருந்து எடுக்கப்படும்.
+#    4. ஒரு பதிப்பு மீண்டும் வர MIN_GAP (8) வாரம் இடைவெளி கட்டாயம்.
+#    5. எடுக்கும்போது — மிகக் குறைவாகப் பயன்பட்டது முதலில்; சமமானால் மிகப் பழையது.
+#
+#  விளைவு: முதல் 12 வாரம் செலவு; 13-ஆம் வாரம் முதல் இந்தப் பகுதிகள் இலவசம்.
+#          எந்தக் கட்டுரையும் 12 வாரத்திற்குள் மீண்டும் வராது.
+# ═══════════════════════════════════════════════════════════════════
+
+POOL_TARGET = 12          # ஒரு பகுதிக்குச் சேர வேண்டிய பதிப்புகள்
+MIN_GAP = 8               # மீண்டும் வர வேண்டிய குறைந்தபட்ச இடைவெளி (வாரம்)
+ROTATE = ("zen", "poem", "hero", "essay", "agri", "spirit", "food",
+          "word", "books", "remedy", "tech")
+TIMELY_WEEKLY = ("roundup", "numbers", "history", "films")
+FIXED_PARTS = ("satire",)                 # satire_fixed.json — ஒப்புதல் பெற்றவை
+
+
+def _wk(s):
+    """'2026-W39' → ஒப்பிடக்கூடிய எண்."""
+    try:
+        y, w = str(s).split("-W")
+        return int(y) * 53 + int(w)
+    except Exception:
+        return 0
+
+
+def pool_load(path):
+    try:
+        d = json.loads(Path(path).read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    if isinstance(d, dict) and isinstance(d.get("pool"), dict):
+        return d["pool"]
+    if isinstance(d, list):                # பழைய வடிவம் → புதிய வடிவமாக மாற்று
+        pool = {}
+        for e in d:
+            w = e.get("week")
+            for k in ROTATE:
+                if e.get(k):
+                    pool.setdefault(k, []).append({"w": w, "last": w, "n": 1, "d": e[k]})
+        return pool
+    return {}
+
+
+def pool_save(path, pool):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    Path(path).write_text(json.dumps({"v": 1, "pool": pool}, ensure_ascii=False, indent=1),
+                          encoding="utf-8")
+
+
+def pool_add(pool, m, week):
+    """இந்த வாரம் எழுதப்பட்டவற்றைக் களஞ்சியத்தில் சேர் (ஏற்கனவே இருந்தால் சேர்க்காது)."""
+    added = 0
+    for k in ROTATE:
+        blk = m.get(k)
+        if not blk:
+            continue
+        sig = json.dumps(blk, ensure_ascii=False, sort_keys=True)[:400]
+        lst = pool.setdefault(k, [])
+        if any(json.dumps(x.get("d"), ensure_ascii=False, sort_keys=True)[:400] == sig for x in lst):
+            continue
+        lst.append({"w": week, "last": week, "n": 1, "d": blk})
+        added += 1
+    return added
+
+
+def pool_take(pool, key, week):
+    """சுழற்சி விதிப்படி ஒரு பதிப்பை எடு. தகுதியானது இல்லையெனில் None."""
+    lst = pool.get(key) or []
+    now = _wk(week)
+    ok = [x for x in lst if now - _wk(x.get("last")) >= MIN_GAP]
+    if not ok:
+        return None
+    ok.sort(key=lambda x: (x.get("n", 1), _wk(x.get("last"))))
+    pick = ok[0]
+    pick["last"] = week
+    pick["n"] = pick.get("n", 1) + 1
+    return pick.get("d")
+
+
+def week_plan(pool, week):
+    """இந்த வாரம் எந்தப் பகுதிகளை எழுத வேண்டும், எவற்றைக் களஞ்சியத்திலிருந்து எடுக்கலாம்."""
+    fresh, reuse = list(TIMELY_WEEKLY), {}
+    for k in ROTATE:
+        if len(pool.get(k) or []) < POOL_TARGET:
+            fresh.append(k)                      # களஞ்சியம் நிரம்பவில்லை → புதிது
+            continue
+        d = pool_take(pool, k, week)
+        if d is not None:
+            reuse[k] = d                         # சுழற்சியில் எடு
+        else:
+            fresh.append(k)                      # எல்லாம் சமீபத்தில் வந்தவை → புதிது
+    return fresh, reuse
+
+
+def weekly(client, model, m, week, today, cinema_news="", pool_path=None, telegram=None):
+    """வாரமலர் — விதிப்படி ஒரு புதிய இதழ். எழுதியது எல்லாம் சேமிக்கப்படும்."""
+    pool_path = Path(pool_path or (ROOT / "data" / "malar_pool.json"))
+    pool = pool_load(pool_path)
+    fresh, reuse = week_plan(pool, week)
+
+    print(f"[malar] {week} · புதிதாக எழுதுவது: {', '.join(fresh)}")
+    print(f"[malar] {week} · களஞ்சியத்திலிருந்து: {', '.join(reuse) or '(இல்லை)'}")
+
+    for k, d in reuse.items():                   # சுழற்சியில் வந்தவை — படம் உட்பட அப்படியே
+        m[k] = d
+
+    got = refresh_parts(client, model, m, today, tuple(fresh) + FIXED_PARTS,
+                        cinema_news, telegram)
+    m = got or m
+    m["week"] = week
+    m["films_week"] = week
+    m["generated"] = today
+    m["v"] = 16
+
+    n = pool_add(pool, m, week)
+    pool_save(pool_path, pool)
+    try:
+        archive(m, ROOT / "data" / "malar_archive.json")     # லாஞ்ச் மீள்பயன்பாட்டுக்கு
+    except Exception:
+        pass
+    sizes = ", ".join(f"{k}:{len(pool.get(k) or [])}" for k in ROTATE)
+    print(f"[malar] களஞ்சியத்தில் {n} புதிது சேர்ந்தது · இருப்பு — {sizes}")
+    return m
+
+
 def refresh_parts(client, model, m, today, parts=("films", "satire"), cinema_news="", telegram=None):
     """வாரமலரில் குறிப்பிட்ட பகுதிகளை மட்டும் மீண்டும் உருவாக்கு. மற்றவை தொடப்படாது.
     செலவு: ஒரு சிறு அழைப்பு + தேவையான படங்கள் மட்டும்."""
@@ -570,6 +708,15 @@ def refresh_parts(client, model, m, today, parts=("films", "satire"), cinema_new
         print("[malar:refresh]", str(ex)[:100]); return None
 
     changed = False
+    # films/satire அல்லாத பகுதிகள் — பொதுவாக நகலெடு, படத்தை மீண்டும் உருவாக்க வழி விடு
+    for k in parts:
+        if k in ("films", "satire") or k not in got or got[k] in (None, "", [], {}):
+            continue
+        m[k] = got[k]
+        if isinstance(m[k], dict):
+            m[k].pop("image", None)       # topup() புதிய படத்தைச் சேர்க்கும்
+        changed = True
+
     if "films" in parts and isinstance(got.get("films"), list):
         m["films"] = got["films"]
 
