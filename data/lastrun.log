@@ -1,21 +1,20 @@
-[expire] 09cf03d12553
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 14 புதியவை
+[fetch] ET Markets: 15 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 2 புதியவை
 [fetch] Dinamani TN: 6 புதியவை
-[fetch] BBC Tamil: 3 புதியவை
-[fetch] BBC World: 8 புதியவை
-[fetch] Al Jazeera: 6 புதியவை
+[fetch] BBC Tamil: 2 புதியவை
+[fetch] BBC World: 6 புதியவை
+[fetch] Al Jazeera: 3 புதியவை
 [fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
-[fetch] The Hindu Cinema: 22 புதியவை
+[fetch] The Hindu Cinema: 21 புதியவை
 [fetch] Cinema Express: 23 புதியவை
-[fetch] The Hindu Tech: 18 புதியவை
+[fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 8 புதியவை
+[fetch] The Hindu Health: 7 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -30,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 4 புதியவை
+[fetch] The Hindu Legal: 3 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 22 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 7 புதியவை
-[fetch] The Hindu National: 4 புதியவை
+[fetch] The Hindu National: 3 புதியவை
 [fetch] NDTV India: 12 புதியவை
 [fetch] India Today: 14 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5849a08310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 4 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f48bd877910>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 3 புதியவை
 [fetch] Dinamani Govt: 6 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -68,29 +67,14 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 397 → நிகழ்வுகள் 387
+[run] புதியவை 387 → நிகழ்வுகள் 378
 [triage] சேமித்த மதிப்பெண் (366) — புதிய அழைப்பு இல்லை
-[triage] 387 → 29 | காலி: jobs:3, court:2, crime:2, assembly:2
-[skip] தமிழ்நாடு/இந்தியாவுக்கு நேரடித் தொடர்பு இல்லை — வெளிநாட்டு A
+[triage] 378 → 26 | காலி: jobs:3, court:2, crime:2, assembly:2
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Amid backlash, Tamil Nadu govt revokes RTI exemp
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfV1x4TcwPPSa96Ztu9ww'}
-[skip] வரலாற்று/கலாச்சாரக் கட்டுரை — செய்தி அல்ல. மின்னஞ்சல் @ குறி
-[திருத்தம்] மாരി தെയ്യம் மரபை பதிவுசெய்தது இடிஎஸ்எஃப → மாரி தெய்யம் மரபை பதிவுசெய்தது IDSFFK 20
-[தரம்] தமிழ் அல்லாத எழுத்து: 作制 → ஒரு திருத்தம்
-[tts-edge] 9df7714e0e77: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மாரி தெய்யம் மரபை பதிவுசெய்தது IDSFFK 2026 திரைப்படம்
-[skip] தமிழ்நாட்டுத் தொடர்பு இல்லை — டெல்லியின் உள்ளூர் தடுப்பூசி க
-[தரம்] மூலத்தில் இல்லாத எண்: 552 → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): ஓரியண்ட் கேபிள்ஸ் நிறுவனம் ஐபிஓ மூ
-[tts-edge] b6540fa062c5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஓரியண்ட் கேபிள்ஸ் நிறுவனம் ஐபிஓ மூலம் நிதி திரட்ட திட்டம்
-[skip] வெளிநாட்டுப் பொழுதுபோக்குச் செய்தி — தமிழ்நாடு/இந்திய வாசகரை
-[publish] இந்தியப் பங்குச் சந்தை இன்று பலவீன தொடக்கத்தை எதிர்நோக்குகிறது
-[skip] வெளிநாட்டு உள்நாட்டு வரலாற்றுச் செய்தி — தமிழ்நாடு/இந்தியாவு
-[skip] வெளிநாட்டு கால்பந்து ஆட்டம் — தமிழ்நாடு/இந்திய வாசகருக்குப் 
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — இங்கிலாந்து அரசு, அங்கேயே நடக
-[skip] இது ইসরায়েল-প্যালেস্টাইন갈등 সম্পর্কিত একটি আন্তর্জাতিক রাজনৈ
+[தரம்] தமிழ் அல்லாத எழுத்து: তযর়ি → ஒரு திருத்தம்
+[tts-edge] 33c4c1d9c736: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மேற்கிந்திய தீவுகளுக்கு எதிரான முதல் ஒருநாள் போட்டியில் இந்திய 8 விக்கெட் வெற்றி
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
-[market] தங்கம் 22K ₹13440 · சென்செக்ஸ் 73896
+[market] தங்கம் 22K ₹13435 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 3
+[done] feed 300 · pending 0 · எழுதியவை 1
