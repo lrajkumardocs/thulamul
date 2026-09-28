@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 9 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 14 புதியவை
-[fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
+[fetch] BBC World: 11 புதியவை
+[fetch] Al Jazeera: 20 புதியவை
 [fetch] ESPNcricinfo: 26 புதியவை
-[fetch] The Hindu Sport: 24 புதியவை
+[fetch] The Hindu Sport: 25 புதியவை
 [fetch] The Hindu Cinema: 7 புதியவை
 [fetch] Cinema Express: 19 புதியவை
 [fetch] The Hindu Tech: 8 புதியவை
-[fetch] Wired: 20 புதியவை
+[fetch] Wired: 22 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 10 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 28 புதியவை
+[fetch] FreeJobAlert: 27 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
-[fetch] The Hindu Legal: 10 புதியவை
-[fetch] Dinamalar Aanmeegam: 0 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 3 புதியவை
+[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 27 புதியவை
-[fetch] Dinamani Sports: 24 புதியவை
+[fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 20 புதியவை
-[fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 10 புதியவை
+[fetch] TechCrunch: 15 புதியவை
+[fetch] The Verge: 9 புதியவை
+[fetch] The Hindu National: 3 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 24 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,92 +56,58 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f704556fb50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 10 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f22a154acd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 3 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 15 புதியவை
+[fetch] TN Police News: 14 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 576 → நிகழ்வுகள் 534
-[triage] சேமித்த மதிப்பெண் (521) — புதிய அழைப்பு இல்லை
-[triage] 534 → 95 | காலி: tn:6, crime:4, world:3, jobs:3, health:3
-[skip] ஒடிசாவின் உள்ளூர் அரசு தேர்வு; தமிழ்நாடு வாசகர்களுக்குப் பொர
-[திருத்தம்] ட்டிபி தடுப்பு மருந்தின் பாதுகாப்பு ஒரு  → டিবি தடுப்பு மருந்தின் பாதுகாப்பு ஒரு ஆண
-[தரம்] தமிழ் அல்லாத எழுத்து: বলািৃ → ஒரு திருத்தம்
-[tts-edge] f24f70ad3e4e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] டிபி தடுப்பு மருந்தின் பாதுகாப்பு ஒரு ஆண்டுக்குப் பிறகு குறையலாம்.
-[skip] வெளிநாட்டு உள்ளூர் விவாதம். அமெரிக்காவில் AI மற்றும் தரவு மை
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; B.S. Jha யார், எங்கு பேசின
-[skip] கர்நாடகாவைச் சேர்ந்த இளைஞர் தொடர்பான உள்ளூர் சாதனைச் செய்தி,
-[skip] கர்நாடகாவின் உள்ளூர் மொழி இலக்கிய விழா - தமிழ்நாடு/இந்தியத் 
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் புதிதாகப் பிறக்கும் 
-[tts-edge] 0e5c955bd8e1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டில் புதிதாகப் பிறக்கும் குழந்தைகளுக்கு தங்க மோதிரத் திட்டம்
-[skip] இது கர்நாடகாவின் கனகபுர சாலையில் நடந்த உள்ளூர் விபத்துச் செய
-[skip] இது கர்நாடக மாநிலத்திற்கே உரிய உயர்நீதிமன்ற உத்தரவு; தமிழ்நா
-[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் (பெங்களூரு மெட்ரோ) செய்தி; 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யார் விஜய், எந்த வீரர், எந
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான போதுமான விவரங்
+[run] புதியவை 525 → நிகழ்வுகள் 492
+[triage] 492 → 57 | காலி: tn:6, crime:4, world:3, jobs:3, economy:2
+[skip] குஜராத் மாநிலத்தின் உள்ளூர் அரசு வேலைவாய்ப்பு அறிவிப்பு - தம
+[திருத்தம்] வீரமணி மீது மேலும் ஒரு போக்சோ வழக்கு பதி → வீரமணி மீது மேலும் ஒரு பாக்ஸோ வழக்கு பதி
+[image] களஞ்சியம் (3 சொல்): வீரமணி மீது மேலும் ஒரு பாக்ஸோ வழக்
+[tts-edge] b56c060981d5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] வீரமணி மீது மேலும் ஒரு பாக்ஸோ வழக்கு பதிவு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] திருப்பத்தூர் தவெக எம்எல்ஏ வெற்றி மனுவை  → திருப்பத்தூர் தவெக எம்எல்ஏ வெற்றி மீதான 
-[image] களஞ்சியம் (2 சொல்): திருப்பத்தூர் தவெக எம்எல்ஏ வெற்றி 
-[publish] திருப்பத்தூர் தவெக எம்எல்ஏ வெற்றி மீதான தேர்தல் மனுவை சென்னை உயர் நீதிமன்றம் தள்ளுபடி செய்தது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; உத்தரவின் விவரங்கள், யார் 
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two drown in sea in separate incidents
-[skip] அமெரிக்காவின் உள்ளூர் நிகழ்வு — கல்லூரிப் பாலியல் வழக்கு. தம
-[தரம்] தமிழ் அல்லாத எழுத்து: शজ → ஒரு திருத்தம்
-[publish] இந்திய வேகப் பந்துவீச்சு நல்ல நிலையில் உள்ளது: பிரசீத்
-[skip] வெளிநாட்டு அரசியல்வாதியின் பொதுவான கருத்து; தமிழ்நாட்டுடன் ந
-[image] களஞ்சியம் (3 சொல்): திருப்பத்தூர் தொகுதியில் ஒரே வாக்க
-[publish] திருப்பத்தூர் தொகுதியில் ஒரே வாக்கு வித்தியாசத்தில் வென்ற தவெக எம்எல்ஏ வெற்றி மனு தள்ளுபடி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Customs officials seize 3.4 kg of hydroponic gan
-[skip] வெளிநாட்டு விண்வெளி நிறுவனத்தின் வழக்கமான ஆய்வுப் பயணம். தமி
-[திருத்தம்] சைली சிங்கின் பாய்ச்சல் அளவை தவறாக அளந்த → சைली சிங்கின் நீளப் பாய்ச்சல் அளவை தவறாக
-[தரம்] தமிழ் அல்லாத எழுத்து: लीকডরশ়া → ஒரு திருத்தம்
-[publish] சைலி சிங்கின் நீளப் பாய்ச்சல் அளவை தவறாக அளந்ததாக கூறும் ஆல் இந்தியா ஃபெடரேஷன்; சர்வதேச நீதிமன்றத்தில் வழக்குத் தொடர உள்ளது
-[skip] கர்நாடகத் தரப்பிற்கான செய்தி; தமிழ்நாட்டுக்குத் தொடர்பு இல்ல
-[skip] வெளிநாட்டுத் தொழில்நுட்பக் கোম்பানியின் தயாரிப்பு அறிவிப்பு 
-[skip] மூலம் ஒரு தலைப்பு மட்டுமே கொண்டுள்ளது; விவரங்கள் இல்லை. மேலு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Alert CISF personnel avert fire mishap at High C
-[skip] தமிழ்நாட்டு வாசகரின் நேரடி நலன் இல்லை. தெல்லி பெண்கள் போராட்
-[skip] வெளிநாட்டுத் தயாரிப்பு நிறுவனம் நியமனம்; தமிழ்நாடு/இந்திய வி
-[skip] கர্நாటகாவின் உள்ளூர் இலக்கியக் கொண்டாட்டம் — தமிழ்நாடு வாசகர
-[skip] வெளிநாட்டுத் தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்திய வாசகரைப்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: One-vote loss: HC dismisses former minister’s el
-[skip] பிற நாட்டுகளுக்கிடையே நிகழ்ந்த விஷயம்; தமிழ்நாடு/இந்திய வாசக
-[skip] பிসিசিআই (இந்திய கிரிக்கெட் வாரியம்) ஜூனியர் தேர்வு குழு அமை
-[skip] உள்ளூர் சாலை விபத்து — தமிழ்நாட்டுக்கு பொருந்தும் அரசுத் தகவ
-[skip] வெளிநாட்டு தயாரிப்பு அறிவிப்பு — Google-ன் நৈமித்திக அம்சம் 
-[திருத்தம்] கடலூரில் புதிதாகப் பிறக்கும் குழந்தைகளுக → கடலூரில் புதிதாகப் பிறக்கும் குழந்தைகளுக
-[image] களஞ்சியம் (2 சொல்): கடலூரில் புதிதாகப் பிறக்கும் குழந்
-[publish] கடலூரில் புதிதாகப் பிறக்கும் குழந்தைகளுக்குத் 'தாய்மான் தங்க மோதிரம்' திட்டம் தொடங்கி வைப்பு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TVK reports nil election spending in Puducherry 
-[skip] ஈரான்-அமெரிக்க வெளிநாட்டுக் கொள்கை விவகாரம். தமிழ்நாடு/இந்தி
-[திருத்தம்] விதியா ராம்ராஜ் 400 மீ தடைப்பாய்ச்சல் தே → விதியா ராம்ராஜ் 400 மீ தடைப்பாய்ச்சல் தே
-[தரம்] தமிழ் அல்லாத எழுத்து: রি; மூலத்தில் இல்லாத எண்: 1984 → ஒரு திருத்தம்
-[publish] விதியா ராம்ராஜ் 400 மீ தடைப்பாய்ச்சல் தேசிய சாதனை படைத்தார்.
-[skip] கர்நாடக மாநிலத்தின் உள்ளூர் அரசுக் கட்டளை — தமிழ்நாட்டுக்குப
-[skip] வெளிநாட்டு தயாரிப்பு நிறுவனத்தின் நிதி அறிவிப்பு — தமிழ்நாடு
-[image] களஞ்சியம் (3 சொல்): ஐந்து தொகுதி இடைத்தேர்தல் மறுப்பை 
-[publish] ஐந்து தொகுதி இடைத்தேர்தல் மறுப்பை எதிர்த்து விஜய் தாக்கல் செய்த வழக்கு விசாரணை
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Hatsun launches ‘Go-Dhan’ in Odisha
-[skip] வெளிநாட்டுக் கால்பந்து விளையாட்டு மாநாட்டுச் சம்பவம் — தமிழ்
-[skip] NBA செய்தி. தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இல்லை. வி
-[skip] கர்நாடகாவின் உள்ளூர் நிகழ்வு — பெங்களூரு மெட்রோ பிளிங்க் லைன
-[skip] வெளிநாட்டு AI நிறுவனங்களின் தயாரிப்பு அறிவிப்பு. தமிழ்நாடு/இ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWQHC6bXkoTQV5jsqPBw'}
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Students complain of excess fee demands at medic
-[skip] வெளிநாட்டு அரசியல் கருத்து - தமிழ்நாடு / இந்திய வாசகரைப் பாத
-[தரம்] தமிழ் அல்லாத எழுத்து: জ; மூலத்தில் இல்லாத எண்: 400 → ஒரு திருத்தம்
-[publish] ஆசிய விளையாட்டு: விதையா ராமராஜ் வெண்கலத்துக்குத் தமிழ்நாட்டு முதல்வர் ₹30 லட்ச விருது
-[market] தங்கம் 22K ₹13202 · சென்செக்ஸ் 72772
+[skip] பர்மாவின் உள்நாட்டு ராணுவ மோதல் — தமிழ்நாட்டு/இந்திய வாசகரைப
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] உலகச் செய்தி — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இல்லை.
+[திருத்தம்] விநோத் அதானி மீதான குறைந்தபட்ச பொதுப் பங → விநோத் அதானி மீதான குறைந்தபட்ச பொதுப் பங
+[தரம்] தமிழ் அல்லாத எழுத்து: पभरवाी् → ஒரு திருத்தம்
+[tts-edge] d8dd94ce4095: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] விநோத் அதானி மீதான குறைந்தபட்ச பொதுப் பங்குடைமை வழக்கை செபி முடித்தது.
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டு உள்நாட்டு மோதல். உ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWSf5EShcTWjMS5w1Jm7'}
+[skip] உலகச் செய்தி — தமிழ்நாட்டு வாசகரைப் பாதிக்காது. கொঙ্গோ গণতান
+[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
+[publish] மின் மீட்டர் வாசிப்பை வெளியாட்களிடம் ஒப்படைக்கும் திட்டத்திற்கு திருமாவளவன் எதிர்ப்பு
+[image] களஞ்சியம் (3 சொல்): நுண் பிளாஸ்டிக் எச்சரிக்கை லேபிள் 
+[publish] நுண் பிளாஸ்டிக் எச்சரிக்கை லேபிள் உத்தரவு மறுஆய்வு மனு தள்ளுபடி
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வேலைநிறுத்தம் எப்போது, ஏன்
+[skip] மூலம் ஒரு தலைப்பு மற்றும் நேரலை குறிப்பு மட்டுமே கொண்டுள்ளது
+[திருத்தம்] போக்சோ வீரமணி வழக்கு: தகவல் அறிய மொபைல்  → போக்சோ வீரமணி வழக்கு: புகாரளிக்க, தகவல் 
+[image] களஞ்சியம் (3 சொல்): போக்சோ வீரமணி வழக்கு: புகாரளிக்க, 
+[publish] போக்சோ வீரமணி வழக்கு: புகாரளிக்க, தகவல் தெரிவிக்க மொபைல் எண் அறிவிப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWT2EeKpLw5wj4NyT7jZ'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWT9Ttk95QznG77EJfgd'}
+[publish] உக்ரைன் கீவ் நகரில் ரஷ்ய ட்ரோன் தாக்குதலில் ஒருவர் பலி
+[skip] மூலத்தில் 'முதல்வர் விஜய்' எனக் குறிப்பிடப்பட்டுள்ளது, ஆனால்
+[publish] அமெரிக்க டாலருக்கு எதிராக ரூபாய் மதிப்பு 96-ஐ நோக்கி சரிவு
+[தரம்] மூலத்தில் இல்லாத எண்: 7.18 → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): இந்திய பத்தாண்டு அரசுப் பத்திர வட்
+[publish] இந்திய பத்தாண்டு அரசுப் பத்திர வட்டி விகிதம் கடும் உயர்வு கண்டது
+[publish] தடை தாண்டும் ஓட்டத்தில் வித்யா ராம்ராஜ் வெண்கலம்
+[publish] பத்தாண்டுகளில் முதன்முறையாக ஒரு லட்சம் கோடி கடன் விற்பனை
+[market] தங்கம் 22K ₹13150 · சென்செக்ஸ் 72772
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 2 · எழுதியவை 10
