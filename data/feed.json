@@ -1,5 +1,42 @@
 [
  {
+  "id": "art_tech_20260928",
+  "headline": "அன்றாடத் தொழில்நுட்பம்: UPI, ஆதார் பாதுகாப்புக்கு அடிப்படை வழிகாட்டி",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது, யாருடனும் உங்கள் UPI பின் எண்ணையோ OTP-யையோ பகிர வேண்டாம்.",
+   "பணம் பெறுவதற்கு UPI பின் தேவையில்லை என்பதை நினைவில் கொள்ளுங்கள், பணம் அனுப்புவதற்கு மட்டுமே பின் தேவை.",
+   "ஆதார் எண்ணைப் பயன்படுத்தும்போது, UIDAI இணையதளத்தில் உள்ள Masked Aadhaar வசதியைப் பயன்படுத்தி கடைசி நான்கு இலக்கங்களை மட்டும் காட்டலாம்.",
+   "அறியாத இணைப்புகள் (லிங்க்) அல்லது APK கோப்புகளை மொபைலில் நிறுவாமல் இருப்பது மோசடியைத் தவிர்க்க உதவும்.",
+   "மொபைல் அமைப்புகளில் Two-Factor Authentication (இரு-கட்ட சரிபார்ப்பு) இயக்கி வைத்திருப்பது கணக்கு பாதுகாப்பை மேலும் உறுதி செய்யும்."
+  ],
+  "closing": "சிறு எச்சரிக்கை உங்கள் தரவையும் பணத்தையும் பாதுகாக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-09-28"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "இணையப் பாதுகாப்பு",
+   "டிஜிட்டல் கொடுப்பனவு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-09-28T11:33+05:30",
+  "created_ts": 1790575415.9553633,
+  "audio": "data/audio/art_tech_20260928.mp3"
+ },
+ {
   "headline": "GATE 2027 விண்ணப்பத்திற்கு கடைசி நாள் அக்டோபர் ஐந்து",
   "lines": [
    "GATE 2027 தேர்வுக்கான விண்ணப்பத்திற்கான கடைசி நாள் அக்டோபர் ஐந்து வரை நீட்டிக்கப்பட்டுள்ளது.",
@@ -18181,70 +18218,6 @@
   "image": null,
   "audio": "data/audio/9c6f06e20f2a.mp3",
   "created_ts": 1789935855.2598498,
-  "status": "published"
- },
- {
-  "headline": "டேவிஸ் கோப்பை: செக் குடியரசு, கனடா, ஆஸ்திரியா, ஸ்பெயின் முன்னேற்றம்",
-  "lines": [
-   "டேவிஸ் கோப்பை டென்னிஸ் போட்டியில் செக் குடியரசு, கனடா, ஆஸ்திரியா, ஸ்பெயின் அணிகள் அடுத்த சுற்றுக்கு முன்னேற்றம் பெற்றுள்ளன.",
-   "உலகப் புகழ்பெற்ற இந்த டென்னிஸ் போட்டி வெவ்வேறு நாடுகளின் அணிகளுக்கிடையே நடைபெறுகிறது.",
-   "இந்தப் போட்டியில் ஆண் தலைமுறை டென்னிஸ் வீரர்கள் தங்கள் நாட்டைப் பிரதிநிதித்துவம் செய்கின்றனர்.",
-   "டேவிஸ் கோப்பை பன்னாண்டுக்கு பாரம்பரியமாக நடைபெறும் மிகப்பெரிய டென்னிஸ் போட்டியாகும்.",
-   "விரைவில் செமிஃபைனல் சுற்று நடைபெற எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "டேவிஸ் கோப்பை டென்னிஸில் உலக அளவிலான மிக மாண்பான போட்டியாகக் கருதப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani Sports",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "டேவிஸ் கோப்பை",
-   "செக் குடியரசு",
-   "கனடா",
-   "ஆஸ்திரியா",
-   "ஸ்பெயின்"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Davis Cup: Czech Republic, Canada, Austria, Spain advance",
-   "lines": [
-    "Czech Republic, Canada, Austria and Spain have advanced to the next round of the Davis Cup tennis tournament.",
-    "The world-renowned tennis competition is being held between teams from different nations.",
-    "Men's tennis players from these countries are representing their nations in this prestigious event.",
-    "The Davis Cup is considered one of the most important tennis tournaments held regularly over decades.",
-    "The semifinal round is expected to take place soon."
-   ],
-   "closing": "The Davis Cup is regarded as the most prestigious tennis tournament at the global level."
-  },
-  "front_cat": "sports_historic",
-  "image_query": "Davis Cup tennis tournament",
-  "wiki_subject": "Davis Cup",
-  "person_en": "",
-  "urgent": false,
-  "affected": "உலகம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "3b13999b12a9",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-21T01:53+05:30",
-  "links": [
-   "https://www.dinamani.com/sports/2026/Sep/20/davis-cup-czech-republic-canada-austria-and-spain-advance"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Coupe_Davis_Finale_2018.jpg/3840px-Coupe_Davis_Finale_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Davis Cup",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Davis_Cup",
-   "symbolic": false
-  },
-  "audio": "data/audio/3b13999b12a9.mp3",
-  "created_ts": 1789935809.877911,
   "status": "published"
  }
 ]
