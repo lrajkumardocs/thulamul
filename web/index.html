@@ -324,8 +324,16 @@
   .adprev img{width:100%;height:100%;object-fit:cover;display:block}
   label.chk{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:14px;line-height:1.6;color:var(--ink2)}
   label.chk input{margin-top:3px;flex:none}
-  .wx .row u{display:block;text-decoration:none;font-size:10px;line-height:1.3;color:#2B5E8A;white-space:normal;min-height:26px}
+  .wx .row u{display:flex;align-items:center;justify-content:center;gap:3px;
+    text-decoration:none;color:#2B5E8A;min-height:24px;line-height:1}
+  .wx .row u i{font-style:normal;font-size:11px;font-weight:600;font-variant-numeric:tabular-nums}
   .wx .row u.no{color:var(--ink3)}
+  .wi{width:17px;height:17px;flex:none;display:block;overflow:visible}
+  .wi .s{fill:#E8A33D}
+  .wi .s2{stroke:#E8A33D;stroke-width:1.7;stroke-linecap:round}
+  .wi .c{fill:#9FB6C9}
+  .wi .r{stroke:#4A8FC4;stroke-width:1.8;stroke-linecap:round}
+  .wi .b{fill:#E8A33D}
   .wx .t span{color:var(--ink3);font-weight:400}
   .paybox{background:var(--brass2);border:1px solid var(--rule);border-radius:14px;padding:18px;margin-top:16px;text-align:center}
   .upiid{font-family:var(--serif);font-size:22px;font-weight:600;margin:6px 0 2px;letter-spacing:.02em}
@@ -1037,20 +1045,28 @@ function renderAdForm(){
 function briefHtml(){return `<div class="brief"><div><b>இன்றைய 60 நொடி</b><small>${brief.headlines.length} செய்திகள் · ${brief.date}</small></div><button class="play" id="bplay">${PLAY}</button><audio id="baudio" preload="none" src="${BASE}${brief.audio}"></audio></div>`;}
 let wxData=null;
 function wxIcon(p){
-  const n=Number(p);
-  if(!isFinite(n)) return '☀';
-  if(n<20) return '☀';       // தெளிவு
-  if(n<40) return '⛅';       // பகுதி மேகம்
-  if(n<60) return '☁';       // மேகமூட்டம்
-  if(n<85) return '🌧';       // மழை
-  return '⛈';                // இடி மின்னலுடன் மழை
+  // SVG — emoji அல்ல. emoji ஒவ்வொரு சாதனத்திலும் வெவ்வேறு அகலம்;
+  // அதனால் வரிசை சீராக இருக்காது. SVG-க்கு நிலையான 18×18.
+  const n=Number(p), S='<svg class="wi" viewBox="0 0 24 24" aria-hidden="true">';
+  const SUN='<circle cx="12" cy="12" r="4.4" class="s"/><g class="s2"><path d="M12 2.6v2.4M12 19v2.4M2.6 12h2.4M19 12h2.4M5.3 5.3l1.7 1.7M17 17l1.7 1.7M18.7 5.3L17 7M7 17l-1.7 1.7"/></g>';
+  const CLOUD='<path class="c" d="M7.4 18.4h9.8a3.7 3.7 0 0 0 .5-7.35 5.5 5.5 0 0 0-10.5-1.2A3.9 3.9 0 0 0 7.4 18.4z"/>';
+  const SUNCLOUD='<circle cx="8.6" cy="8" r="3.1" class="s"/>'+CLOUD;
+  const RAIN='<g class="r"><path d="M8.6 20.1l-1 2.5M12 20.1l-1 2.5M15.4 20.1l-1 2.5"/></g>';
+  const RAIN2='<g class="r"><path d="M7.4 20.1l-1 2.6M16.6 20.1l-1 2.6"/></g>';
+  const BOLT='<g class="b" transform="translate(8.8 18.1) scale(0.30)"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></g>';
+  if(!isFinite(n))  return S+SUN+'</svg>';
+  if(n<20)  return S+SUN+'</svg>';                    // தெளிவு
+  if(n<40)  return S+SUNCLOUD+'</svg>';               // பகுதி மேகம்
+  if(n<60)  return S+CLOUD+'</svg>';                  // மேகமூட்டம்
+  if(n<85)  return S+CLOUD+RAIN+'</svg>';             // மழை
+  return S+CLOUD+RAIN2+BOLT+'</svg>';                  // இடி மின்னலுடன் மழை
 }
 function wxHtml(){
   if(!wxData||!wxData.cities)return '';
   return `<div class="wx"><div class="t">வானிலை · மழை வாய்ப்பு <span>${hm(wxData.updated)}</span></div>
     <div class="row">${Object.entries(wxData.cities).map(([c,v])=>{
       const n=Number(v.rain);
-      return `<div><span>${c}</span><b>${v.now}°</b><u>${wxIcon(v.rain)} ${isFinite(n)?n+'%':'—'}</u></div>`;
+      return `<div><span>${c}</span><b>${v.now}°</b><u>${wxIcon(v.rain)}<i>${isFinite(n)?n+'%':'—'}</i></u></div>`;
     }).join('')}</div></div>`;
 }
 function editHtml(){
