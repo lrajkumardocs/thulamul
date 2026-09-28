@@ -3,9 +3,9 @@
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 2 புதியவை
 [fetch] Dinamani TN: 7 புதியவை
-[fetch] BBC Tamil: 1 புதியவை
+[fetch] BBC Tamil: 2 புதியவை
 [fetch] BBC World: 6 புதியவை
-[fetch] Al Jazeera: 5 புதியவை
+[fetch] Al Jazeera: 4 புதியவை
 [fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
 [fetch] The Hindu Cinema: 21 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 6 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 7 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 22 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 7 புதியவை
-[fetch] The Hindu National: 6 புதியவை
+[fetch] The Hindu National: 7 புதியவை
 [fetch] NDTV India: 12 புதியவை
 [fetch] India Today: 14 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6f15df1cd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 6 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fca77601cd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 7 புதியவை
 [fetch] Dinamani Govt: 7 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,13 +67,12 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 405 → நிகழ்வுகள் 393
-[triage] சேமித்த மதிப்பெண் (366) — புதிய அழைப்பு இல்லை
-[triage] 393 → 54 | காலி: jobs:3, court:2, crime:2, assembly:2
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Amid backlash, Tamil Nadu govt revokes RTI exemp
-[skip] வெனிசுয়েலாவின் உள்ளூர் அரசியல் — தமிழ்நாடு/இந்திய வாசகருக்க
-[skip] வெளிநாட்டுத் தொழிற்சாலை உள்ளூர் அரசியல் — பிரிட்டেன் உள்ளூர்
+[run] புதியவை 410 → நிகழ்வுகள் 398
+[triage] 398 → 28 | காலி: jobs:3, court:2, crime:2, assembly:2
+[skip] இது பஞ்சாப் மாநில அரசின் திட்டம் தொடர்பான பஞ்சாப் மற்றும் அர
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
-[market] தங்கம் 22K ₹13392 · சென்செக்ஸ் 73896
+[skip] இது உத்தரப் பிரதேச அரசு தொடர்பான உள்ளூர் நிர்வாக நடவடிக்கை ப
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
+[market] தங்கம் 22K ₹13384 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
