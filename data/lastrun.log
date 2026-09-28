@@ -1,10 +1,10 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 13 புதியவை
+[fetch] ET Markets: 12 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 2 புதியவை
-[fetch] Dinamani TN: 9 புதியவை
+[fetch] Dinamani TN: 6 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
-[fetch] BBC World: 6 புதியவை
+[fetch] BBC World: 7 புதியவை
 [fetch] Al Jazeera: 3 புதியவை
 [fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 19 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd1b517bb50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe594739810>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 1 புதியவை
-[fetch] Dinamani Govt: 9 புதியவை
+[fetch] Dinamani Govt: 6 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,20 +67,12 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 384 → நிகழ்வுகள் 376
-[triage] 376 → 8 | காலி: crime:3, jobs:3, court:2, assembly:2
-[skip] இது பழைய தேதியிலான ஒரு நிபுணரின் கணிப்பு/கருத்து மட்டுமே (RB
-[திருத்தம்] சிறுமி மீதான பாலியல் வன்கொடுமை நிகழ்வு:  → சிறுமி பாலியல் வன்கொடுமை: கனிமொழி கண்டனம
-[image] களஞ்சியம் (3 சொல்): சிறுமி பாலியல் வன்கொடுமை: கனிமொழி 
-[tts-edge] 3cb30331e45c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சிறுமி பாலியல் வன்கொடுமை: கனிமொழி கண்டனம்
-[skip] மூலத்தில் ஒரு தலைப்பு வரி மட்டுமே உள்ளது, விவரங்கள் இல்லை - 
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: பிரதமர் பதவிக்கு விஜய்க்குத் தகுதி
-[tts-edge] d4476059bfc2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பிரதமர் பதவிக்கு விஜய்க்குத் தகுதி உள்ளதா என நாகேந்திரன் கேள்வி
+[run] புதியவை 378 → நிகழ்வுகள் 370
+[triage] சேமித்த மதிப்பெண் (366) — புதிய அழைப்பு இல்லை
+[triage] 370 → 4 | காலி: jobs:3, court:2, crime:2, assembly:2
+[skip] செர்பியாவின் உள்நாட்டு அரசியல் நிகழ்வு. தமிழ்நாடு அல்லது இந்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man suffers minor injury after concrete step col
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Centre for Mental Health, Social care and Liveli
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MSSRF sets up water ATM at Perungudi heat study 
-[market] தங்கம் 22K ₹13495 · சென்செக்ஸ் 73896
+[market] தங்கம் 22K ₹13449 · சென்செக்ஸ் 73896
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 2
+[done] feed 300 · pending 1 · எழுதியவை 0
