@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 24 புதியவை
+[fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 4 புதியவை
-[fetch] Dinamani TN: 20 புதியவை
+[fetch] The Hindu TN: 1 புதியவை
+[fetch] Dinamani TN: 19 புதியவை
 [fetch] BBC Tamil: 13 புதியவை
-[fetch] BBC World: 11 புதியவை
-[fetch] Al Jazeera: 15 புதியவை
+[fetch] BBC World: 7 புதியவை
+[fetch] Al Jazeera: 13 புதியவை
 [fetch] ESPNcricinfo: 26 புதியவை
 [fetch] The Hindu Sport: 25 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 19 புதியவை
 [fetch] The Hindu Tech: 8 புதியவை
-[fetch] Wired: 22 புதியவை
+[fetch] Wired: 21 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 10 புதியவை
+[fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 26 புதியவை
+[fetch] FreeJobAlert: 15 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -41,7 +41,7 @@
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 28 புதியவை
+[fetch] Dinamani India: 26 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,54 +56,48 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff759a2f9d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe1082be750>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 3 புதியவை
-[fetch] Dinamani Govt: 20 புதியவை
+[fetch] Dinamani Govt: 19 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 13 புதியவை
+[fetch] TN Police News: 14 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 493 → நிகழ்வுகள் 465
+[run] புதியவை 463 → நிகழ்வுகள் 443
 [triage] சேமித்த மதிப்பெண் (460) — புதிய அழைப்பு இல்லை
-[triage] 465 → 30 | காலி: tn:5, crime:3, jobs:3, world:2, health:2
-[skip] ஹிமாச்சல் பிரதேச் அரசின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு — தம
-[திருத்தம்] SAKHI மைய ஊழியர்களுக்கு மூன்று மாதமாக ஊத → SAKHI மையத் ஊழியர்களுக்கு மூன்று மாதமாக 
-[tts-edge] 5d0a8eb8b51a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] SAKHI மையத் ஊழியர்களுக்கு மூன்று மாதமாக சம்பளம் இல்லை என அன்புமணி ராமதாஸ்
-[skip] இது ஒடிசா-சத்தீஸ்கர் மாநிலங்களுக்கு இடையேயான மஹாநதி நீர் பங்
-[skip] தென்னாபிரிக்கா உள்நாட்டுக் குற்றச் செய்தி — தமிழ்நாடு/இந்திய
-[skip] இது அமெரிக்க பங்குச் சந்தையின் வழக்கமான ஏற்ற இறக்கம் பற்றிய 
-[திருத்தம்] மகानதி நீர்ப் பகிர்வு சச்சரவை தீர்க்க அம → மகானதி நீர்ப் பகிர்வு சச்சரவை தீர்க்க அம
-[tts-edge] 7390c3e8477c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மகானதி நீர்ப் பகிர்வு சச்சரவை தீர்க்க அமித் ஷா தலைமை கூட்டம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; எம்.பி. பெயர்
-[skip] வெளிநாட்டு உள்நாட்டுப் பேரிடர். தமிழ்நாடு/இந்தியாவுடன் நேரடி
-[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது, முழு விவரம் இல்லை -
-[publish] அரசுக் கடன் வாங்கல் குறுகிய கால பத்திரங்களை நோக்கி மாற்றம் எதிர்பார்ப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] அமெரிக்க-சீன நেতாவின் சந்திப்பு தமிழ்நாடு வாசகர்களை நேரடியாக
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] பொதுவான விশ்லேষணம்; தமிழ்நாடு/இந்தியாவுக்கு நேரடி தாக்கம் இல
-[skip] அமெரிக்கத் தொழிற்துறைச் செய்தி. தமிழ்நாடு அல்லது இந்திய வாசக
-[skip] வெளிநாட்டுத் தலைமை நிலை பயணம் — தமிழ்நாடு/இந்தியா வாசகரைப் ப
-[skip] தமிழ்நாட்டு / இந்திய வாসகரைப் பாதிக்காத உள்நாட்டுப் பிராந்தி
-[skip] வெளிநாட்டுக் தளவாய வரலாறு — இரான்-அமெரிக்கா ஈரான் வளைகுடா நி
-[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பிரत்যక্ষமாகப் பாதிக்காத இஸ்রائே
-[skip] CSIR-NGRI (ஹைதராபாத்) மற்றும் RITES ஆகிய இரண்டு வேலைவாய்ப்பு
-[skip] IIT கரக்பூர் மற்றும் IIT ரூர்கி ஆகியவை தமிழ்நாட்டுடன் தொடர்ப
+[triage] 443 → 25 | காலி: tn:4, crime:3, jobs:3, world:2, health:2
+[skip] ஹரியாணா HPSC தேர்வு — பஞ்சாப், ஹரியாணா, ஜம்மு-காஷ்மீர் பல்கல
+[skip] வெளிநாட்டுத் தொழில்நுட்பப் பொறுவணிக் கொள்வை (மைக்ரோசிப் தயார
+[skip] இது ஒடிசா மாநிலத்தின் உள்ளூர் நிதி தணிக்கைச் செய்தி; தமிழ்நா
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நிகழ்வு விவரம், இடம், தேதி
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 10-year-old girl sexually assaulted in Maduranth
+[skip] பொதுவான கருத்தாய்வு — இந்திய அரசுப் பணியாளர்களின் செயல்பாடு 
+[skip] பிற நாட்டுகளுக்கிடையே இருதரப்புக் கொள்கை மாற்றம் — தமிழ்நாடு
+[image] களஞ்சியம் (2 சொல்): மேகேதாது திட்டத்திற்கு விரைவு ஒப்ப
+[tts-edge] 705aaa7bdd49: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மேகேதாது திட்டத்திற்கு விரைவு ஒப்புதல் கோரிய கர்நாடகா
+[skip] வெளிநாட்டுச் சிறுமைய தொழில்நுட்ப நிகழ்வு — தமிழ்நாடு/இந்திய 
+[skip] வெளிநாட்டுக் கம்பனிகளுக்கிடையேயான வழக்கு; தமிழ்நாடு/இந்தியாவ
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்கப் போதுமாண்டு தேர்தல்
+[skip] நेपालका समाचार - तमिलनाडु वाचकलाई प्रत्यक्ष असर नगरेको। विदे
+[skip] இரு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத தனி பதவிகளுக்கான 
+[skip] கேரளத்தின் உள்ளூர் சுகாதாரத் திட்டம் — தமிழ்நாட்டு வாசகரின் 
+[tts-edge] 01493528938f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அபிஷேக் பச்சன், சூஜித் சிர்கார் பேட்டியில் புற்றுநோய் உயிர்பிழைப்பாளர் கதை பற்றி
+[publish] ஆன்லைன் பட்டாசு விற்பனையில் ஏமாற வேண்டாம்: அமைச்சர் கீர்த்தனா எச்சரிக்கை
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two drown in sea in separate incidents
-[skip] வேறு மாநிலக் கட்டமைப்பைப் பற்றிய தேசிய அளவு விதிப் பொதுமைச் 
-[skip] அசாம் இயக்குநர் பற்றிய சினிமாக் கட்டுரை — தமிழ்நாட்டுக்கு நே
+[publish] பல் காயம் உலகில் கோடிக்கணக்கானோரைப் பாதிக்கிறது
+[skip] తెలుగు నటుడు, తెలుగు చలనచిత్రం — తమిழ్ నాడుకు ప్రత్యక్ష సంబం
+[திருத்தம்] டெங்கு காரணமாக குழந்தைகள் இறப்பு தொடர்பா → டெங்குவால் குழந்தைகள் பலியாவதைத் தவெக அர
+[publish] டெங்குவால் குழந்தைகள் பலியாவதைத் தவெக அரசு தடுக்க வேண்டும்: கனிமொழி
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Customs officials seize 3.4 kg of hydroponic gan
-[skip] பொதுவான ஆரோக்கியக் கட்டுரை — தமிழ்நாட்டு வாசகருக்கு நேரடித் 
-[skip] வெளிநாட்டு (கேரளா) திரைப்படத் திருவிழா, தமிழ்நாட்டுடன் தொடர்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Alert CISF personnel avert fire mishap at High C
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான தகவல்கள் இல்லாததால
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[market] தங்கம் 22K ₹13165 · சென்செக்ஸ் 72772
+[skip] பீகார் மாநில ஆசிரியர் பயிற்சி தேர்வு — தமிழ்நாட்டுக்குத் தொட
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது, செய்தியின் விரிவான 
+[market] தங்கம் 22K ₹13140 · சென்செக்ஸ் 72772
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 2 · எழுதியவை 3
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 2 · எழுதியவை 5
