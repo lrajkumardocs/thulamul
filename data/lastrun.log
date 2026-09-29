@@ -2,10 +2,10 @@
 [fetch] ET Markets: 23 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 5 புதியவை
-[fetch] Dinamani TN: 13 புதியவை
+[fetch] Dinamani TN: 9 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 16 புதியவை
-[fetch] Al Jazeera: 14 புதியவை
+[fetch] BBC World: 14 புதியவை
+[fetch] Al Jazeera: 12 புதியவை
 [fetch] ESPNcricinfo: 28 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
 [fetch] The Hindu Cinema: 6 புதியவை
@@ -13,7 +13,7 @@
 [fetch] The Hindu Tech: 7 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 4 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 5 புதியவை
+[fetch] The Hindu Legal: 3 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 14 புதியவை
-[fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 5 புதியவை
+[fetch] TechCrunch: 13 புதியவை
+[fetch] The Verge: 9 புதியவை
+[fetch] The Hindu National: 3 புதியவை
 [fetch] NDTV India: 9 புதியவை
 [fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 25 புதியவை
+[fetch] Dinamani India: 24 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5e791b0b90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 5 புதியவை
-[fetch] Dinamani Govt: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fcc2d676d10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 3 புதியவை
+[fetch] Dinamani Govt: 9 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,35 +67,9 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 470 → நிகழ்வுகள் 447
+[run] புதியவை 448 → நிகழ்வுகள் 427
 [triage] சேமித்த மதிப்பெண் (444) — புதிய அழைப்பு இல்லை
-[triage] 447 → 25 | காலி: world:2, govt:2, jobs:2, assembly:2, tn:1
-[skip] மேற்கு வங்க உள்ளூர் அரசியல் தகராறு - மம்தா பானர்ஜி, சுவேந்து
-[skip] இது ஒடிசா மாநிலத்தின் உள்ளூர் அரசியல் போராட்டச் செய்தி — தமி
-[skip] தெற்காফிரிக்காவின் உள்ளூர் குற்றச் செய்தி; தமிழ்நாடு/இந்தியா
-[skip] மதக் கட்டுரை — செய்தி அல்ல
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYZrhfa5vBdWCoTkqp6x'}
-[skip] வெளிநாட்டுத் தயாரிப்பு அறிவிப்பு — தமிழ்நாட்டு/இந்திய வாசகரை
-[skip] வெளிநாட்டு theme park-ன் உள்ளூர் விபத்து/வழக்கு. தமிழ்நாடு அ
-[skip] மேற்கு வங்கால் அரசியல் — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்க அரசின் சொல்லாடல் மாற
-[skip] வெளிநாட்டுக் காரணிகளின் உள்நாட்டுப் பரிமாற்றம் — ஐக்கிய நாடு
-[skip] ஒடிசா மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாட்டுக்கு நேரடித் 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நிகழ்வு, இடம், தேதி, விவரங
-[திருத்தம்] புற்றுநோய் மருந்துகள் அதிக விலைக்கு விற் → புற்றுநோய் மருந்துகள் அதிக விலைக்கு விற்
-[tts-edge] a17b55dfa075: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] புற்றுநோய் மருந்துகள் அதிக விலைக்கு விற்பனை படுகொலைக்குச் சமம் என உச்ச நீதிமன்றம் கருத்து
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத அமெரிக்க உள்நாட்டுச் செய்தி. 
-[திருத்தம்] நிதி அமைச்சர் மீதான வழக்கில் இடைக்காலத்  → நிதி அமைச்சர் மரியவில்சன் மீதான வழக்கில்
-[தரம்] மூலத்தில் இல்லாத எண்: 27 → ஒரு திருத்தம்
-[tts-edge] 395cafc4038e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நிதி அமைச்சர் மரியவில்சன் மீதான வழக்கில் இடைக்காலத் தடை நீட்டிப்பு
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டின் பதினொரு மாவட்டங்களில
-[publish] தமிழ்நாட்டின் பதினொரு மாவட்டங்களில் இன்று பலத்த மழைக்கு வாய்ப்பு
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: சுருக்குமடி வலை தடை உத்தரவு அமலாகாதது ஏன்?
-[market] தங்கம் 22K ₹13341 · சென்செக்ஸ் 72529
+[triage] 427 → 13 | காலி: world:2, govt:2, jobs:2, assembly:2
+[market] தங்கம் 22K ₹13350 · சென்செக்ஸ் 72529
 [weather] புதுப்பிக்கப்பட்டது
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 3 · எழுதியவை 3
+[done] feed 300 · pending 3 · எழுதியவை 0
