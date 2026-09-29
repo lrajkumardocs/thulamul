@@ -2,18 +2,18 @@
 [fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 1 புதியவை
-[fetch] Dinamani TN: 6 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 5 புதியவை
-[fetch] Al Jazeera: 3 புதியவை
+[fetch] Dinamani TN: 5 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 6 புதியவை
+[fetch] Al Jazeera: 1 புதியவை
 [fetch] ESPNcricinfo: 26 புதியவை
-[fetch] The Hindu Sport: 25 புதியவை
+[fetch] The Hindu Sport: 26 புதியவை
 [fetch] The Hindu Cinema: 1 புதியவை
 [fetch] Cinema Express: 19 புதியவை
 [fetch] The Hindu Tech: 8 புதியவை
-[fetch] Wired: 21 புதியவை
+[fetch] Wired: 20 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Faith: 2 புதியவை
 [fetch] The Hindu Health: 6 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
@@ -41,7 +41,7 @@
 [fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 22 புதியவை
+[fetch] Dinamani India: 21 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,28 +56,26 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fda92f42cd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f90c137e790>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 2 புதியவை
-[fetch] Dinamani Govt: 6 புதியவை
+[fetch] Dinamani Govt: 5 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 14 புதியவை
+[fetch] TN Police News: 17 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 389 → நிகழ்வுகள் 375
+[run] புதியவை 388 → நிகழ்வுகள் 373
 [triage] சேமித்த மதிப்பெண் (378) — புதிய அழைப்பு இல்லை
-[triage] 375 → 18 | காலி: crime:3, jobs:3, world:2, assembly:2
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Book documenting contemporary architecture of Ch
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கு விவரம், நீதிமன்றம்,
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfWhdHULWPDwTmCEpAQGg'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Nursing training fees revised for students at GC
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two drown in sea in separate incidents
-[skip] வெளிநாட்டு உள்நாட்டுக் குற்ற வழக்கு — இத்தாலிய நீதிமன்றத்தின
-[skip] பிரிட்டேனிய அரசியலுக்குத் தமிழ்நாட்டு/இந்திய வாசகரின் நேரடித
-[market] தங்கம் 22K ₹13171 · சென்செக்ஸ் 72772
+[triage] 373 → 24 | காலி: crime:3, jobs:3, world:2, assembly:2
+[skip] வெளிநாட்டுத் தயாரிப்பு நிறுவனத்தின் உள்நாட்டுத் தொழில்நுட்பக
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Youth held for abducting mobile phone shop owner
+[skip] உகாண்டாவின் உள்நாட்டு அரச அடுக்குக் சச்சரவு — தமிழ்நாடு / இந
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: பள்ளிச் சீருடையில் டி-ஷர்ட் மாற்றம
+[tts-edge] 5fcb2560788e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பள்ளிச் சீருடையில் டி-ஷர்ட் மாற்றம் குறித்து அமைச்சர் விளக்கம்
+[market] தங்கம் 22K ₹13168 · சென்செக்ஸ் 72772
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 2 · எழுதியவை 0
+[done] feed 300 · pending 2 · எழுதியவை 1
