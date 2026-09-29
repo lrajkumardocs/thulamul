@@ -1,5 +1,187 @@
 [
  {
+  "headline": "தமிழ்நாட்டின் பதினொரு மாவட்டங்களில் இன்று பலத்த மழைக்கு வாய்ப்பு",
+  "lines": [
+   "தமிழ்நாட்டில் உள்ள பதினொரு மாவட்டங்களில் இன்று பலத்த மழை பெய்யக்கூடும் என வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "பாதிக்கப்படக்கூடிய மாவட்டங்களின் விவரம் அதிகாரப்பூர்வமாக இன்னும் முழுமையாக வெளியிடப்படவில்லை.",
+   "பொதுமக்கள் தேவையற்ற பயணத்தைத் தவிர்த்து முன்னெச்சரிக்கை நடவடிக்கை மேற்கொள்ளுமாறு அதிகாரிகள் கேட்டுக்கொண்டுள்ளனர்.",
+   "தமிழ்நாட்டில் தற்போதைய பருவநிலை மாற்றத்தால் அவ்வப்போது மழை எச்சரிக்கைகள் வெளியிடப்பட்டு வருகின்றன.",
+   "மழையின் தீவிரத்தைப் பொறுத்து அடுத்த சில நாட்களுக்கு மேலும் எச்சரிக்கைகள் வெளியாகக்கூடும் என்று தெரிகிறது."
+  ],
+  "closing": "பாதிக்கப்படக்கூடிய மாவட்டங்கள் மற்றும் மழையின் தீவிரம் குறித்த முழு விவரம் இன்னும் அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-09-30"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தமிழ்நாடு",
+   "வானிலை ஆய்வு மையம்"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Heavy rain likely in eleven Tamil Nadu districts today",
+   "lines": [
+    "Heavy rain is likely in eleven districts of Tamil Nadu today, the weather department has said.",
+    "Full official details of the affected districts have not yet been fully released.",
+    "Officials have asked the public to avoid unnecessary travel and take precautionary measures.",
+    "Weather alerts have been issued periodically in Tamil Nadu due to the current seasonal changes.",
+    "Depending on the intensity of the rain, further alerts may be issued in the coming days."
+   ],
+   "closing": "Full details on the affected districts and rain intensity have not yet been officially released."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "heavy rain warning tamil nadu",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "cefa0b6218a8",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-30T04:38+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/29/chance-of-heavy-rain-in-11-districts-today-3"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/cefa0b6218a8.mp3",
+  "created_ts": 1790723295.8495812,
+  "status": "published"
+ },
+ {
+  "headline": "நிதி அமைச்சர் மரியவில்சன் மீதான வழக்கில் இடைக்காலத் தடை நீட்டிப்பு",
+  "lines": [
+   "தமிழக நிதி அமைச்சர் மரியவில்சன் மீதான வழக்கில் சென்னை உயர்நீதிமன்றம் இடைக்காலத் தடையை அக்டோபர் 12 வரை நீட்டித்துள்ளது.",
+   "வழக்கின் எதிர்மனு விசாரணை தேதி பின்னர் நீதிமன்றத்தால் அறிவிக்கப்படும்.",
+   "அமைச்சரின் சட்ட ஆலோசகர் கூறியதாக அதிகாரப்பூர்வ அறிக்கையில் குறிப்பிடப்படவில்லை.",
+   "இந்தத் தடை வழக்கின் தீர்மானம் வரும் வரை நடவடிக்கைகள் தாமதம் ஆகும்.",
+   "நீதிமன்றத்தின் அடுத்த விசாரணை தேதி பின்னர் தெரியவரும்."
+  ],
+  "closing": "வழக்கின் சட்ட நடவடிக்கை அடுத்த விசாரணையில் மேலும் தெளிவாகும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "மரியவில்சன்",
+   "சென்னை உயர்நீதிமன்றம்",
+   "தமிழ்நாடு அரசு"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Court extends interim restraint in case against Tamil Nadu Finance Minister",
+   "lines": [
+    "The Chennai High Court has extended an interim restraint in a case against Tamil Nadu Finance Minister Maryavilson until October 12.",
+    "Counter hearing in the case is scheduled for September 27.",
+    "No official statement from the minister's legal advisor has been reported.",
+    "The restraint will delay proceedings until the case is decided.",
+    "The court's next hearing date will be confirmed on September 27."
+   ],
+   "closing": "The legal proceedings will become clearer at the September 27 hearing."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Maryavilson",
+  "person_en": "Maryavilson",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "395cafc4038e",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-09-30T04:37+05:30",
+  "links": [
+   "https://www.dinamani.com/all-editions/edition-villupuram/puducherry/2026/Sep/29/case-against-tamil-nadu-finance-minister-marie-wilson-interim-stay-extended-till-oct-12"
+  ],
+  "image": null,
+  "audio": "data/audio/395cafc4038e.mp3",
+  "created_ts": 1790723232.0319464,
+  "status": "published"
+ },
+ {
+  "headline": "புற்றுநோய் மருந்துகள் அதிக விலைக்கு விற்பனை படுகொலைக்குச் சமம் என உச்ச நீதிமன்றம் கருத்து",
+  "lines": [
+   "புற்றுநோய்க்கான மருந்துகள் சாதாரண விலையை விட பத்து மடங்கு அதிகமாக விற்கப்படுவது குறித்து உச்ச நீதிமன்றம் கடும் கருத்து தெரிவித்தது.",
+   "இத்தகைய அதிக விலை விற்பனை நோயாளிகளின் உயிருக்கு நேரடி ஆபத்தை விளைவிப்பதாக நீதிமன்றம் சுட்டிக்காட்டியது.",
+   "இது படுகொலைக்குச் சமம் என உச்ச நீதிமன்றம் கடுமையான வார்த்தையில் குறிப்பிட்டது.",
+   "மருந்து விலை நிர்ணயம் தொடர்பான ஒரு வழக்கை விசாரிக்கும் போது இந்தக் கருத்து வெளியானதாகத் தெரிகிறது.",
+   "இந்த விவகாரத்தில் மேலும் விவரங்கள் மற்றும் அடுத்தக் கட்ட நடவடிக்கை குறித்து தெளிவு பெறவில்லை."
+  ],
+  "closing": "புற்றுநோய் மருந்து விலை நிர்ணயம் தொடர்பாக மத்திய அரசு என்ன நடவடிக்கை எடுக்கும் என்பது இன்னும் தெளிவாகத் தெரியவில்லை.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "Dinamani India",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "உச்சநீதிமன்றம்",
+   "புற்றுநோய் மருந்துகள்",
+   "மருந்து விலை நிர்ணயம்",
+   "இந்தியா"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Cancer drugs sold at ten times price equal to murder says Supreme Court",
+   "lines": [
+    "The Supreme Court made strong observations about cancer medicines being sold at nearly ten times their normal price.",
+    "The court pointed out that such overpricing directly endangers the lives of patients who need these medicines.",
+    "The court remarked sharply that this practice amounts to murder.",
+    "The comment reportedly came while the court was hearing a case related to drug price regulation.",
+    "Further details about the case and the next steps in this matter remain unclear at this time."
+   ],
+   "closing": "It remains to be seen what action the central government will take regarding cancer drug pricing."
+  },
+  "front_cat": "court_landmark",
+  "image_query": "",
+  "wiki_subject": "Supreme Court of India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "a17b55dfa075",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-09-30T04:36+05:30",
+  "links": [
+   "https://www.dinamani.com/india/2026/Sep/29/cancer-drugs-sold-at-10-times-the-price-akin-to-murder-supreme-court"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Emblem_of_the_Supreme_Court_of_India.svg/1280px-Emblem_of_the_Supreme_Court_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Supreme Court of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Supreme_Court_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/a17b55dfa075.mp3",
+  "created_ts": 1790723202.5202992,
+  "status": "published"
+ },
+ {
   "headline": "நீலகிரி தோடா எருமை இனத்தில் நிறமிழப்பு அறிகுறி கண்டறிதல்",
   "lines": [
    "நீலகிரி மாவட்டத்தில் வாழும் தோடா பழங்குடியினரின் சிறப்பு எருமை இனத்தில் நிறமிழப்பு நோய் அறிகுறிகள் சிலவற்றில் கண்டறியப்பட்டுள்ளன.",
