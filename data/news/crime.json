@@ -1,5 +1,205 @@
 [
  {
+  "headline": "கட்பாடி அருகே கோயிலில் திருட்டு, சிசிடிவி பதிவுகள் பரிசோதனை",
+  "lines": [
+   "வேலூர் மாவட்டம் கட்பாடி அருகே உள்ள ஒரு கோயிலில் திருட்டு நடந்துள்ளது.",
+   "சம்பவம் தொடர்பாக காவல் துறையினர் விசாரணையைத் தொடங்கியுள்ளனர்.",
+   "சந்தேக நபர்களைக் கண்டறிய பகுதி வழித்தடத்தில் உள்ள சிசிடிவி காட்சிகள் பரிசோதிக்கப்பட்டு வருகின்றன.",
+   "திருடர்கள் யார் என்பது குறித்த முழு விவரம் இதுவரை வெளியிடப்படவில்லை.",
+   "சிசிடிவி பதிவுகள் ஆய்வு முடிந்த பின்னர் மேலும் விவரங்கள் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இச்சம்பவம் தொடர்பாக காவல் துறை விசாரணை தொடர்கிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "கட்பாடி",
+   "வேலூர்",
+   "கோயில்",
+   "காவல்துறை",
+   "சிசிடிவி"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Temple burgled near Katpadi, CCTV footage under scrutiny",
+   "lines": [
+    "A temple near Katpadi in Vellore district was burgled recently.",
+    "Police have launched an investigation into the incident.",
+    "CCTV camera footage along the route is being analysed to identify the suspects.",
+    "Complete details of the culprits have not been released so far.",
+    "More details are expected to emerge once the CCTV footage review is complete."
+   ],
+   "closing": "The police investigation into the incident is ongoing."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "cf2a19caac43",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-30T01:44+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/temple-burgled-near-katpadi/article71524166.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime21.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/cf2a19caac43.mp3",
+  "created_ts": 1790712859.1513848,
+  "status": "published"
+ },
+ {
+  "headline": "காட்பாடி அருகே கோயிலில் திருட்டு, விசாரணை தொடக்கம்",
+  "lines": [
+   "வேலூர் மாவட்டம் காட்பாடி அருகே உள்ள கோயில் ஒன்றில் திருட்டு நடந்துள்ளது.",
+   "திருடப்பட்ட பொருட்கள் குறித்த முழு விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
+   "சம்பவம் தொடர்பாக காவல் துறையினர் விசாரணையைத் தொடங்கியுள்ளனர்.",
+   "சந்தேக நபர்களைக் கண்டறிய, சம்பவ இடத்துக்குச் செல்லும் வழியில் உள்ள சிசிடிவி காமெரா பதிவுகள் பரிசோதிக்கப்பட்டு வருகின்றன.",
+   "விசாரணை முடிவடைந்த பிறகே சம்பவம் தொடர்பான கூடுதல் விவரங்கள் தெரியவரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்தச் சம்பவம் குறித்த முழு விவரங்களும் காவல் துறை விசாரணை முடிந்த பின்னரே தெரியவர வாய்ப்புள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "காட்பாடி",
+   "வேலூர் மாவட்டம்",
+   "கோயில்",
+   "காவல்துறை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Temple burgled near Katpadi, police begin investigation",
+   "lines": [
+    "A temple near Katpadi in Vellore district was burgled recently.",
+    "Full details of the stolen items have not yet been made public.",
+    "Police have launched an investigation into the incident.",
+    "CCTV camera footage along the route to the site is being analysed to identify suspects.",
+    "More details are expected to emerge once the police investigation is complete."
+   ],
+   "closing": "Complete details of the incident are likely to emerge only after the police investigation concludes."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "cf2a19caac43",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-30T01:40+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/temple-burgled-near-katpadi/article71524166.ece",
+   "https://www.thehindu.com/news/national/tamil-nadu/temple-burgled-near-katpadi/article71524166.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime21.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/cf2a19caac43.mp3",
+  "created_ts": 1790712628.9079676,
+  "status": "published"
+ },
+ {
+  "headline": "ஜெம் கிரானைட்ஸ் வீரமணி வழக்கில் எஸ்ஐடி குற்றப்பத்திரிகை தாக்கல் செய்ய தயாரானது",
+  "lines": [
+   "ஜெம் கிரானைட்ஸ் நிறுவனத்தின் உரிமையாளர் வீரமணி மீது பாலியல் வன்கொடுமைத் தடுப்புச் சட்டத்தின் கீழ் வழக்கு பதிவாகியுள்ளது.",
+   "இந்த வழக்கில் சிறப்புப் புலனாய்வுக் குழு விரைவில் குற்றப்பத்திரிகை தாக்கல் செய்ய உள்ளது.",
+   "காவல்துறை மற்றும் சிறப்புப் புலனாய்வுக் குழு அதிகாரிகள் இதுவரை ஆதாரங்களைத் திரட்டி வந்ததாகத் தெரிவிக்கப்படுகிறது.",
+   "பாலியல் வன்கொடுமைத் தடுப்புச் சட்ட வழக்குகளில் பாதிக்கப்பட்டவரின் அடையாளத்தை வெளிப்படுத்தக் கூடாது என்ற சட்டத் தடை உள்ளது.",
+   "குற்றப்பத்திரிகை தாக்கல் ஆனதும் இந்த வழக்கின் நீதிமன்ற விசாரணை தொடங்கும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "ஜெம் கிரானைட்ஸ் நிறுவனத்தின் உரிமையாளர் மீதான இந்த வழக்கை சிறப்புப் புலனாய்வுக் குழு தொடர்ந்து விசாரித்து வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சிட்",
+   "ஜெம் கிரானைட்ஸ்",
+   "வீரமணி",
+   "போக்சோ சட்டம்",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "SIT set to file chargesheet in Gem Granites Veeramani POCSO case",
+   "lines": [
+    "A case has been registered against Gem Granites owner Veeramani under the POCSO Act.",
+    "The Special Investigation Team is set to file a chargesheet in this case soon.",
+    "Police and SIT officials are reported to have gathered evidence in the case so far.",
+    "Under law, the identity of the victim cannot be disclosed in POCSO cases.",
+    "Once the chargesheet is filed, the court proceedings in this case are expected to begin."
+   ],
+   "closing": "The Special Investigation Team continues to investigate this case against the Gem Granites owner.",
+   "closing_type": "background"
+  },
+  "id": "21d29fd0262b",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-30T01:37+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/sit-set-to-file-chargesheet-in-gem-granites-veeramani-pocso-case/article71525315.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime03.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/21d29fd0262b.mp3",
+  "created_ts": 1790712448.7538145,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "போலி மருந்து வழக்கில் ஏழாவது நபர் கைது, சென்னை தொடர்பு விசாரணையில்",
   "lines": [
    "போலி மருந்து விநியோக வழக்கில் சிறப்பு புலனாய்வுக் குழு ஏழாவது குற்றம் சாட்டப்பட்டவரைக் கைது செய்துள்ளது.",
@@ -1284,62 +1484,6 @@
   "wiki_subject": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "கல்யாணத்தில் ₹40 லட்ச கொள்ளை: 24 மணிநேரத்தில் ஆறு பேர் கைது; ₹36.48 லட்ச பணமும் மோட்டார்சைக்கிளும் மீட்டெடுப்பு",
-  "lines": [
-   "₹40 லட்ச கொள்ளையை 24 மணிநேரத்திற்குள் தீர்ந்துவிட்ட ஆறு பேரைக் கைது செய்துவிட்டனர்.",
-   "குற்றப் பிரிவினர் தொழில்நுட்பப் பகுப்பாய்வு மற்றும் தகவலறிந்தவர்களின் உதவியால் குற்றவாளிகளைக் கண்டறிந்துவிட்டனர்.",
-   "₹36.48 லட்ச மதிப்புள்ள பணமும் இரு மோட்டார்சைக்கிளும் மீட்டெடுக்கப்பட்டுவிட்டன.",
-   "கல்யாணக் குடும்பங்களை இலக்காக வைத்த கொள்ளை வழக்குகள் சென்னையில் கடந்த மாதங்களில் அதிகரித்துவிட்டன.",
-   "விசாரணை தொடர்ந்துவரும் நிலையில் கைதான குற்றம் சாட்டப்பட்டவர்களிடமிருந்து மேலும் தகவல் பெற முயற்சிகளைத் தீவிரமாக்குவதாக குற்றப் பிரிவு அறிவித்துவிட்டது."
-  ],
-  "closing": "சென்னை நகரில் கொள்ளை வழக்குகள் கட்டுப்படுத்தப்பட வேண்டியது அவசியமாகிவிட்டது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "சென்னை",
-   "குற்றப் பிரிவு",
-   "கல்யாணம்"
-  ],
-  "confidence": 0.75,
-  "front_cat": "crime_major",
-  "image_query": "",
-  "wiki_subject": "Crime in Chennai",
-  "person_en": "",
-  "affected": "ஊர்",
-  "urgent": false,
-  "flags": [
-   "single_source"
-  ],
-  "en": {
-   "headline": "Six arrested within 24 hours for ₹40-lakh wedding robbery",
-   "lines": [
-    "Police arrested six accused for robbing ₹40 lakh from a wedding family within 24 hours of the crime.",
-    "The Crime Branch identified the suspects through technical analysis and information from informants.",
-    "Cash and two motorcycles valued at ₹36.48 lakh were recovered from the accused.",
-    "Robberies targeting wedding families have increased in Chennai over recent months.",
-    "The Crime Branch said it is intensifying efforts to gather more information from the arrested accused during interrogation."
-   ],
-   "closing": "Controlling robbery cases in Chennai city has become imperative."
-  },
-  "id": "c5d657d2d7ba",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-09-22T02:55+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/maharashtra/six-arrested-within-24-hours-for-40-lakh-kalyan-robbery-cash-motorcycles-worth-3648-lakh-recovered/article71492670.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/c5d657d2d7ba.mp3",
-  "created_ts": 1790025958.5253618,
   "status": "published"
  }
 ]
