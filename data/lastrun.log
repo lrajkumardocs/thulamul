@@ -1,10 +1,10 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 25 புதியவை
+[fetch] ET Markets: 23 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 9 புதியவை
-[fetch] Dinamani TN: 16 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 14 புதியவை
+[fetch] The Hindu TN: 7 புதியவை
+[fetch] Dinamani TN: 12 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 15 புதியவை
 [fetch] Al Jazeera: 14 புதியவை
 [fetch] ESPNcricinfo: 28 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
@@ -13,10 +13,10 @@
 [fetch] The Hindu Tech: 7 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 11 புதியவை
-[fetch] The Hindu Agriculture: 3 புதியவை
-[fetch] FreeJobAlert: 9 புதியவை
+[fetch] The Hindu Agriculture: 1 புதியவை
+[fetch] FreeJobAlert: 6 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,17 +28,17 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
-[fetch] The Hindu Legal: 6 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 5 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 16 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 6 புதியவை
+[fetch] The Hindu National: 5 புதியவை
 [fetch] NDTV India: 9 புதியவை
-[fetch] India Today: 19 புதியவை
+[fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 26 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f325ed81ed0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 6 புதியவை
-[fetch] Dinamani Govt: 16 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe2435729d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 5 புதியவை
+[fetch] Dinamani Govt: 12 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,31 +67,23 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 499 → நிகழ்வுகள் 474
-[triage] 474 → 15 | காலி: tn:3, world:2, govt:2, jobs:2, assembly:2
+[run] புதியவை 476 → நிகழ்வுகள் 453
+[triage] சேமித்த மதிப்பெண் (444) — புதிய அழைப்பு இல்லை
+[triage] 453 → 12 | காலி: tn:2, world:2, govt:2, jobs:2, assembly:2
+[skip] அமெரிக்க உள்நாட்டுச் செய்தி — தமிழ்நாடு அல்லது இந்தியாவை நேர
+[skip] வெளிநாட்டு நிறுவனங்களின் (OpenAI, xAI) ஆட்டிக்கொடுப்பு / சர்
+[skip] இது பீகார் மாநிலத்தின் உள்ளூர்க் குற்றச் சம்பவம்; தமிழ்நாட்ட
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்க நீதிமன்றத் தீர்ப்பு,
+[skip] வெளிநாட்டுப் பொது நிகழ்வு; தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்க
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (3 சொல்): நிஃப்டி குறியீடு இருபத்தைந்து ஆண்ட
-[tts-edge] d29cfcb8de42: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நிஃப்டி குறியீடு இருபத்தைந்து ஆண்டுகளில் இல்லாத செப்டம்பர் வீழ்ச்சி
-[திருத்தம்] 40 கிலோமீட்டர் வாகனத்தைப் பிடித்து நிறுத → 40 கிலோமீட்டரிற்கு மேல் வாகனத்தைப் பிடித
-[image] களஞ்சியம் (2 சொல்): 40 கிலோமீட்டரிற்கு மேல் வாகனத்தைப்
-[tts-edge] 313ab11cc490: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] 40 கிலோமீட்டரிற்கு மேல் வாகனத்தைப் பிடித்து நிறுத்திய போலீசுக்கு பாராட்டு
-[திருத்தம்] நிஃப்டி குறியீடு 200 வார சராசரியைக் கடந் → நிஃப்டி குறியீடு 200 வார சராசரியைக் கீழே
-[publish] நிஃப்டி குறியீடு 200 வார சராசரியைக் கீழே சரிவு, கொரோனாவுக்குப் பின் முதல் முறை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYVYBZMoTWs4ttgRzTzq'}
-[திருத்தம்] சென்னை உள்பட 22 மாவட்டங்களில் இன்று இரவு → சென்னை உள்பட 22 மாவட்டங்களில் இன்று இரவு
-[image] களஞ்சியம் (2 சொல்): சென்னை உள்பட 22 மாவட்டங்களில் இன்ற
-[publish] சென்னை உள்பட 22 மாவட்டங்களில் இன்று இரவு 10 மணி வரை மழை
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, இடமாற்றம் பெற்ற அதிகாரிகளி
-[skip] தலைப்பில் மட்டுமே தகவல் உள்ளது; சம்பவத்தின் விவரங்கள் (யார் 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; கட்டடங்கள் அதிர்வு ஏற்பட்ட
-[skip] CSIR CGCRI (கொல்கத்தா) மற்றும் AIIHPH (கொல்கத்தா) ஆகிய நிறுவ
-[skip] சௌதி அரேபியாவில் இலங்கைத் தமிழரின் தண்டனை — வெளிநாட்டு உள்ளூ
-[skip] ஆன்மிக/மதக் கட்டுரை — செய்தி அல்ல. தமிழ்நாடு வாசகர்களுக்குச்
-[skip] தமிழ்நாட்டு உள்ளூர் அரசியல் — தலைப்பிலேயே 'விஜய் அரசு' என்று
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] ஒடிசா மாநிலத்தின் பொதுத் தேர்வு — தமிழ்நாட்டு வாசகருக்குப் ப
-[market] தங்கம் 22K ₹13357 · சென்செக்ஸ் 72529
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விருது வழங்கிய இடம், தேதி,
+[skip] வெளிநாட்டு நிகழ்வு — தனிமைப்படுத்தப்பட்ட அமைப்பின் அழைப்பு, 
+[skip] झारखण्ड राज्य की परीक्षा परिणाम घोषणा है। तमिलनाडु पाठक के ल
+[திருத்தம்] நீலகிரி தோடர் எருமை இனத்தில் நிறமிழப்பு  → நீலகிரி தோடா எருமை இனத்தில் நிறமிழப்பு அ
+[tts-edge] 5d7bb1c97967: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நீலகிரி தோடா எருமை இனத்தில் நிறமிழப்பு அறிகுறி கண்டறிதல்
+[skip] மூலம் ஒரு PDF கோப்பு இணைப்புக் குறிப்பு மட்டும்; உண்மையான செ
+[skip] உत்தரப் பிரதேசம் போலீஸ் நியமனம் — தமிழ்நாட்டுக்குத் தொடர்பு 
+[market] தங்கம் 22K ₹13348 · சென்செக்ஸ் 72529
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 3 · எழுதியவை 4
+[done] feed 300 · pending 3 · எழுதியவை 1
