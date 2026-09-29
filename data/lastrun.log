@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 11 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
+[fetch] The Hindu TN: 9 புதியவை
+[fetch] Dinamani TN: 20 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 20 புதியவை
-[fetch] ESPNcricinfo: 30 புதியவை
-[fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] Al Jazeera: 19 புதியவை
+[fetch] ESPNcricinfo: 29 புதியவை
+[fetch] The Hindu Sport: 27 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 7 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 12 புதியவை
+[fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 3 புதியவை
-[fetch] FreeJobAlert: 22 புதியவை
+[fetch] FreeJobAlert: 14 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 15 புதியவை
-[fetch] The Hindu Legal: 6 புதியவை
+[fetch] The Hindu Legal: 5 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 18 புதியவை
+[fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 6 புதியவை
-[fetch] NDTV India: 14 புதியவை
+[fetch] The Hindu National: 5 புதியவை
+[fetch] NDTV India: 10 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 26 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fdbac76b550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 6 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fdb63fd1d10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 5 புதியவை
+[fetch] Dinamani Govt: 20 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,55 +67,31 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 570 → நிகழ்வுகள் 538
+[run] புதியவை 536 → நிகழ்வுகள் 511
 [triage] சேமித்த மதிப்பெண் (541) — புதிய அழைப்பு இல்லை
-[triage] 538 → 34 | காலி: tn:3, govt:3, jobs:3, india:2, world:2
-[skip] இவை பீகார் (BSEB) மற்றும் மேற்கு வங்க (WBPSC) மாநிலங்களுக்கா
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYMxUW5TiL6doh4r45tv'}
-[skip] ஒடிசா மாநிலத்தின் உள்ளூர் பாக்சைட் சுரங்கத் திட்டம் தொடர்பான
-[skip] ஒடிசா மாநிலத்தின் உள்ளூர் சுரங்க விவகாரம்; தமிழ்நாட்டு வாசகர
-[skip] வெளிநாட்டு உள்ளூர் நிகழ்வு — உகாண்டாவின் உள்நாட்டு রাজ்ஞச் ச
-[skip] இது அமெரிக்க பங்குச் சந்தையின் அன்றாட ஏற்ற இறக்கம் பற்றிய செ
-[திருத்தம்] தক্ষணவாயு தடுப்பு சிகிச்சைப் பாதுகாப்பு  → যক্ষ্মা প্রতিরোধী চিকিৎসার সুরক্ষা ஓராண்
-[தரம்] தமிழ் அல்லாத எழுத்து: কচতধপমযর → ஒரு திருத்தம்
-[tts-edge] f24f70ad3e4e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காசநோய் தடுப்பு சிகிச்சையின் பாதுகாப்பு ஓராண்டுக்குப் பின் குறையக்கூடும்: ஆய்வு
-[skip] OpenAI ஒரு வெளிநாட்டு நிறுவனம்; இதன் அம்சங்கள் தமிழ்நாடு/இந்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man arrested for cheating woman
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYN8nMQCfZoJHC3ZqgNg'}
-[tts-edge] 2b5404c12280: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] குப்பைக்கிடங்கு தீவிபத்து அணைக்க ₹46 லட்சம் செலவு
-[skip] வெளிநாட்டுக் στρατιωτிক நடவடிக்கை — தமிழ்நாடு/இந்தியா வாசகரை
+[triage] 511 → 22 | காலி: tn:3, world:2, govt:2, jobs:2, sports:2
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது அமெரிக்க மத்திய வங்கி அதிகாரியின் வட்டி விகிதம் தொடர்பான
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: India’s growing elderly population needs an inte
-[திருத்தம்] கரூர் குப்பைக்கிடங்கு தீ அணைக்க ரூபாய் ந → கரூர் குப்பைக்கிடங்கு தீ அணைக்க ரூ.46 லட
-[நகல்] ஏற்கனவே வெளியானது: குப்பைக்கிடங்கு தீவிபத்து அணைக்க ₹46 லட்சம் செலவு
-[image] களஞ்சியம் (2 சொல்): வேலூர் மத்திய சிறையில் 3 காவலர்கள்
-[publish] வேலூர் மத்திய சிறையில் 3 காவலர்கள் இடமாற்றம்
-[skip] பஞ்சாப் மாநிலத்தின் உள்ளூர் அரசியல் பிரச்சார நிகழ்வு - தமிழ்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYNPNc5Hez7C2fFPkg9j'}
-[skip] இது அரசு அறிவிப்பு அல்ல; காவல் நடவடிக்கை / சம்பவ செய்தி. top
-[திருத்தம்] யூடியூபர் சவுக்கு சங்கருக்கு 2013 அவதூறு → யூடியூபர் சவுக்கு சங்கருக்கு 2013 அவதூறு
-[image] களஞ்சியம் (3 சொல்): யூடியூபர் சவுக்கு சங்கருக்கு 2013 
-[publish] யூடியூபர் சவுக்கு சங்கருக்கு 2013 அவதூறு, மிரட்டல் வழக்கில் மூன்று ஆண்டு சிறைத் தண்டனை
-[image] களஞ்சியம் (2 சொல்): தஞ்சாவூரில் தடை செய்யப்பட்ட இயக்கம
-[publish] தஞ்சாவூரில் தடை செய்யப்பட்ட இயக்கம் தொடர்பாக ஐந்து வீடுகளில் சோதனை
-[image] களஞ்சியம் (3 சொல்): சென்னை தொழில்நுட்ப பணியாளர் கொலை வ
-[publish] சென்னை தொழில்நுட்ப பணியாளர் கொலை வழக்கு: பெற்றோர் மீதான குற்றப்பத்திரிகை ரத்து
-[skip] மேற்கு வங்க மாநிலத்தின் உள்ளூர் இடைத்தேர்தல் தொடர்பான வழக்கு
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; செய்தியை உண்ம
-[திருத்தம்] பஞ்சாப் பல்கலைக்கழக வன்முறை: தமிழக மாணவர → பஞ்சாப் தனியார் பல்கலைக்கழகத்தில் வன்முற
-[publish] பஞ்சாப் தனியார் பல்கலைக்கழகத்தில் வன்முறை: தமிழக மாணவர்கள் ஊர் திரும்ப ஏற்பாடு
-[skip] மூலத்தில் ஒரே வரித் தலைப்பு மட்டுமே உள்ளது; இடம், தேதி, சூழல
-[publish] பண்பாட்டு அமைச்சகத்தில் இருபது பயிற்சியாளர் பணியிடங்களுக்கு விண்ணப்பம்
-[திருத்தம்] விஜய் சேதுபதி 'பத்தா' திரைப்படத்தில் பால → விஜய் சேதுபதியின் 'பத்தா' திரைப்படத்தைப்
-[தரம்] மூலத்தில் இல்லாத எண்: 1980 → ஒரு திருத்தம்
-[publish] விஜய் சேதுபதியின் 'பத்தா' திரைப்படத்தைப் பற்றி இயக்குநர் பாலாஜி தாரணீதரன்
-[skip] இந்தச் செய்தி தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்கவில்லை. தென்ன
-[திருத்தம்] ஃபிரெஷ்வொர்க்ஸ் தலைவர் சற்ப்பட்ட தொடர்ச் → ஃபிரெஷ்வொர்க்ஸ் தலைவர் கிரிஷ் மதுருபூதம்
-[தரம்] தமிழ் அல்லாத எழுத்து: दाধ → ஒரு திருத்தம்
-[publish] ஃபிரெஷ்வொர்க்ஸ் தலைவர் கிரிஷ் மதுருபூதம் 'சற்ப்பட்ட பரம்பரை 2' தயாரிப்பாளராக
-[market] தங்கம் 22K ₹13332 · சென்செக்ஸ் 72529
+[skip] அமெரிக்க உள்நாட்டு குற்றவழக்கு. தமிழ்நாடு/இந்தியாவுடன் நேரடி
+[tts-edge] 4016110b8a55: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆசிய விளையாட்டுக்களில் இந்தியா கூடைப்பந்துத் தலைமுறை கட்டத்தில் நுழைந்தது
+[skip] கட்சிக் சர்ச்சை, அரசியல் அভিযோகம் — அரசு அறிவிப்பு (govt) அல
+[தரம்] தமிழ் அல்லாத எழுத்து: दयरिीก; முடிவு வரி முற்றுப்புள்ளி இல்லை → ஒரு திருத்தம்
+[tts-edge] 720794cce663: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியாவின் யுனெஸ்கோ தற்காலிகப் பட்டியலில் ஐந்து புதிய தளங்கள் சேர்க்கை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYQrdwXzBbY3BDPAyuvG'}
+[skip] பிரிட்டன் - ஐரான் இடையிலான உள்நாட்டு பாதுகாப்பு விஷயம். தமிழ
+[திருத்தம்] ராஜிநாமா செய்த எம்எல்ஏக்களிடம் தோ்தல் செ → ராஜிநாமா செய்த எம்எல்ஏ-க்களிடம் தேர்தல் 
+[publish] ராஜிநாமா செய்த எம்எல்ஏ-க்களிடம் தேர்தல் செலவு வசூல் கோரிய மனு ரூ.1 லட்சம் அபராதத்துடன் தள்ளுபடி
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான விவரங்கள் (சூழ
+[skip] வெளிநாட்டு அரசுகளுக்கிடையிலான பொதுவான பொருளாதாரத் தடை — தமிழ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYQyfMofVSbkptzqEscG'}
+[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருத்தமற்ற அமெரிக்கா-கানடா 
+[skip] அமெரிக்கா உள் அரசியல் — தமிழ்நாடு வாசகரைப் பாதிக்கவில்லை
+[skip] வெளிநாட்டு ফুटबল லিগ் — தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்கவ
+[skip] இவை இரண்டும் சத்தீஸ்கர் (பிலாஸ்பூர்) மற்றும் SAIL-இன் குறிப்
+[skip] கேரளா மாநிலத்தின் உள்ளூர் உচ்চ கல்வி அறிவிப்பு. தமிழ்நாடு வா
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYR3zVrLeceogLUoDi9i'}
+[skip] வெளிநாட்டு அணியின் விளையாட்டு செய்தி; தமிழ்நாடு அல்லது இந்தி
+[market] தங்கம் 22K ₹13352 · சென்செக்ஸ் 72529
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 2 · எழுதியவை 10
+[done] feed 300 · pending 2 · எழுதியவை 3
