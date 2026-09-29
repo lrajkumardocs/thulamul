@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 23 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 21 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 30 புதியவை
-[fetch] The Hindu Sport: 27 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Sport: 26 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 24 புதியவை
-[fetch] The Hindu Tech: 6 புதியவை
-[fetch] Wired: 26 புதியவை
+[fetch] The Hindu Tech: 7 புதியவை
+[fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 12 புதியவை
+[fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 3 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 29 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 24 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 16 புதியவை
+[fetch] The Hindu Legal: 12 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 20 புதியவை
+[fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 12 புதியவை
 [fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f76443eae90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe401959710>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 12 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,79 +65,53 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 715 → நிகழ்வுகள் 651
-[triage] சேமித்த மதிப்பெண் (564) — புதிய அழைப்பு இல்லை
-[triage] 651 → 125 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] வெளிநாட்டு அணிச் செய்தி — இந்தியத் தொடர்பு இருந்தாலும் தமிழ்
+[run] புதியவை 640 → நிகழ்வுகள் 596
+[triage] 596 → 65 | காலி: tn:6, india:4, govt:4, economy:3, jobs:3
+[skip] AIIMS புதுதெல்லி (நடுப்பகுதி அமெரிக்கா வெளியே) தேர்வு முடிவு
+[skip] கன্னடத் திரைப்படம்; தமிழ்நாட்டுடன் நேரடித் தொடர்பு இல்லை. சி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYHNCNoPL5yGBBWUJkG1'}
+[skip] அமெரிக்க மாநிலத்தின் உள்ளூர் குற்றச் சட்ட நடவடிக்கை — தமிழ்ந
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYHReWzycbc6uoEGd1tE'}
+[skip] பிற நாட்டின் உள்ளூர் குற்றச் சம்பவம். ஸ்லோவாக்கியாவின் உள்ளூ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYHV814m86mxvV8PYCBY'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தமிழ்நாடு வாசகருக்குப் பொருத்தமற்றது. NEET PG — நாடு முழுவது
-[tts-edge] 76143b373a06: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இளையவர்களுக்கு வளர்சிதைமை நோய் பெருகக் காரணம் ஆரோக்கியமற்ற உணவு
-[skip] வெளிநாட்டு சமையல் ஆய்வு நிகழ்வு — தமிழ்நாடு/இந்திய சினிமாத் 
-[skip] வெளிநாட்டுத் தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்திய வாசகருக்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYFm9bXJZ6s911RPrhvC'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYHbr3pVeCGPEJBbQwd2'}
+[திருத்தம்] காட்பாடி திருப்பதி இரண்டாம் ரயில் பாதைக் → காட்பாடி - திருப்பதி இரண்டாம் ரயில் பாதை
+[tts-edge] 32e614b48c97: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காட்பாடி - திருப்பதி இரண்டாம் ரயில் பாதைக்கு நிலம் கையகப்படுத்த அரசாணை
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம் எப்போது, எங்கே நடந
+[skip] மூலத்தில் போதுமான தகவல் இல்லை — தலைப்பு மற்றும் ஒரு துண்டு வ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYHmi7br1o32cvTgkwEk'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYHqtWJ8VBdh3KuUUKFH'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYHtrzLpSaYTpAadUUan'}
+[skip] மூலத்தில் தலைப்பு வரி மற்றும் ஒரு பெயர் மட்டுமே உள்ளது; வழக்
+[tts-edge] 8679afe5e818: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஒரு டாலருக்கு 96 ரூபாயைத் தாண்டிய இந்திய ரூபாய் மதிப்பு
+[skip] பலஸ்தீன-இஸ்ரேல் மோதல் தொடர்பான பக்கவாதப் பகுதியின் உள்ளூர் வ
+[skip] வெளிநாட்டுக் தலைவர்களின் கொள்கை நிலைப்பாடு; தமிழ்நாடு அல்லது
+[skip] தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இல்லை. கனடா-அமெரிக்க 
+[skip] வெளிநாட்டுப் பகுதிச் செய்தி — தமிழ்நாடு/இந்தியாவுக்குப் பொரு
+[skip] வெளிநாட்டு உள்ளூர் குற்றச் செய்தி — தமிழ்நாடு/இந்தியக் வாசகர
+[skip] பிஞ்சு விவரங்கள் மற்றும் ஊகம் — பொலிஸ் சரிபார்ப்புக்கின் கட்
+[skip] மகாராஷ்டிரம் மாநிலத்தின் உள்ளூர் அரசுக் கொள்கை — தமிழ்நாடு அ
+[skip] வெளிநாட்டு உள்நாட்டுத் தேர்தல் - தமிழ்நாட்டு/இந்திய வாசகருக்
+[publish] மதுராந்தகம் வாக்காளர்களுக்கு நயினார் நாகேந்திரன் எச்சரிக்கை
+[திருத்தம்] சென்னை செட்பட்டில் ஐந்து பிரமுகர்களுக்கு → சென்னை சேட்பெட்டில் ஐந்து பிரமுகர்களுக்க
+[publish] சென்னை சேட்பெட்டில் ஐந்து பிரமுகர்களுக்கு நினைவகம் அமைக்கத் திட்டம்
+[image] களஞ்சியம் (2 சொல்): அதிமுக-திமுக கூட்டணி பேச்சுக்கு மக
+[publish] அதிமுக-திமுக கூட்டணி பேச்சுக்கு மக்களே பதில் சொல்வர் என அமைச்சர் ராஜ்மோகன்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYJE8WGnyJcQPJjGDV6Y'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): ஐந்து தொகுதி இடைத்தேர்தல்: முடிவு 
-[tts-edge] 217840381152: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஐந்து தொகுதி இடைத்தேர்தல்: முடிவு தேர்தல் ஆணையத்திடம், மத்திய அரசு தெரிவிப்பு
-[skip] இது மகாராஷ்டிர மாநிலத்தில் உள்ளூர் அரசியல் தலைவர் தொடர்பான உ
-[skip] இது கேரளாவின் ஃபோர்ட் கொச்சியில் உள்ள கோடர் ஹவுஸ் என்ற கட்டி
-[திருத்தம்] மொரோக்கோவின் முதல் பெண் பிரதமராக பாத்திம → மொரோக்கோவின் முதல் பெண் பிரதமராக ফাத்திம
-[தரம்] தமிழ் அல்லாத எழுத்து: জফহা → ஒரு திருத்தம்
-[publish] மொரோக்கோவின் முதல் பெண் பிரதமராக ஃபாத்திமா எஸ்ஸாஹ்ரா எல் மன்சூரி நியமனம்.
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYG2KDtEviLPMUAKur76'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது தெலங்கானா மாநிலத்தின் ஹைதராபாத் நகர்ப்புற வளர்ச்சி ஆணையம
-[skip] தெலங்கானாவின் மல்கஜ்கிரி மாநகராட்சியின் உள்ளூர் அனுமதியற்ற க
-[skip] இது வேறு மாநிலத்தின் உள்ளூர் உணவுப் பாதுகாப்புத் துறை சோதனைச
-[image] களஞ்சியம் (3 சொல்): தொழிலதிபர் வீரமணி மீது மூன்றாவது ப
-[publish] தொழிலதிபர் வீரமணி மீது மூன்றாவது போக்சோ வழக்கு பதிவு
-[skip] இது வேறு மாநிலத்தின் (MLC பட்டதாரி இடங்கள்) உள்ளூர் கட்சி அர
-[skip] இது கேரள மாநிலத்தின் காசர்கோடு மாவட்டத்தில் உள்ளூர் நீர் பிர
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் கிராமப் பேரூராட்சித் தேர
-[skip] பஞ்சாப் மாநிலத்தின் உள்ளூர் தேர்தல் பிரச்சாரம் தொடர்பான செய்
-[skip] உத்தரப் பிரதேச எம்.எல்.சி தேர்தல் வேட்பாளர் தேர்வு - வேறு மா
-[தரம்] தமிழ் அல்லாத எழுத்து: ত → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): நாவல் ரேடார் ஒப்பந்த நடைமுறையை விர
-[hold] நாவல் ரேடார் ஒப்பந்த நடைமுறையை விரைவுபடுத்த ஜப்பான் கோரிக்கை
-[திருத்தம்] தேர்தல் ஆணையர் ஞானேஷ் குமாருக்கு பாரத ரத → தேர்தல் ஆணையர் ஞானேஷ் குமாருக்குப் பாரத 
-[hold] தேர்தல் ஆணையர் ஞானேஷ் குமாருக்குப் பாரத ரத்னா கொடுக்கலாம் என உமர் அப்துல்லா கிண்டல்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYGYUnSaKdhkCx5NyXmy'}
-[திருத்தம்] போலி மருந்து வழக்கில் ஏழாவது நபர் கைது,  → போலி மருந்து வழக்கில் ஏழாவது நபர் கைது, 
-[image] களஞ்சியம் (2 சொல்): போலி மருந்து வழக்கில் ஏழாவது நபர் 
-[publish] போலி மருந்து வழக்கில் ஏழாவது நபர் கைது, சென்னை தொடர்பு விசாரணையில்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] महाराष्ट्र राज्य का आंतरिक राजनीति समाचार। तमिलनाडु पाठक के 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Storage in reservoirs dip; desalination plants c
-[skip] தமிழ்நாட்டின் அரசு நீதிமன்றக் குறிப்புடன் தொடர்புடைய வழக்கே 
-[skip] கேரளத்தின் உள்ளூர் நிகழ்வு — தமிழ்நாடு/இந்திய தேசிய அளவில் ம
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TVK alliance partners to campaign together for f
-[skip] தில்லி உயர்நீதிமன்றத்தில் இன்ஸ்டாகிராம் பதிப்புரிமை மீறல் தொ
-[skip] வெளிநாட்டு நிறுவனத்தின் அறிவியல் ஆராய்ச்சி அறிவிப்பு; தமிழ்ந
-[skip] பிற மாநில அரசியல் — மாநிலம் தெரியவில்லை; 'Aadhav Arjuna', 'C
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamilvanan’s Centenary: Celebrating the Legacy o
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டு உள்ளூர் குற்றவழக்க
-[publish] ஐரிஷ் காஃபியும் சாஸி சாராவும் பெரிய பந்தயத்தில் மோதுகின்றன
-[skip] இது மத்தியப் பிரதேச உயர்நீதிமன்றத்தின் உள்ளூர் உத்தரவு; தமிழ
-[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காது — வெளிநாட்டு (சான்ஃபி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYGnzbTjFs3mqNxzixgg'}
-[comic] கதை முயற்சி 1 தோல்வி: Expecting ',' delimiter: line 27 column 4 (char 1950)
-[comic] கதை: தலைமையில் அமர்ந்தவர் யார்?
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.97) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.98) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3: பலகை 2-ஐப் போலவே உள்ளது (0.94) — மீண்டும் வரைகிறேன்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-09-30.png · நாள் 21
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹13310 · சென்செக்ஸ் 72529
+[திருத்தம்] இடைத்தேர்தல் செலவு வசூல் மனு தள்ளுபடி, வ → இடைத்தேர்தல் செலவு வசூல் மனு தள்ளுபடி, வ
+[publish] இடைத்தேர்தல் செலவு வசூல் மனு தள்ளுபடி, வழக்கறிஞருக்கு ₹1 லட்சம் அபராதம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfYJQ6AAjkuR1Xh3vJQve'}
+[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு சிறு குறிப்பு மட்டுமே உள்ளது; 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (என்ன
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விரிவான தகவல் (
+[market] தங்கம் 22K ₹13316 · சென்செக்ஸ் 72529
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 2 · எழுதியவை 8
+[done] feed 300 · pending 2 · எழுதியவை 6
