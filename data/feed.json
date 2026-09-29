@@ -1,5 +1,259 @@
 [
  {
+  "headline": "சென்னை உள்பட 22 மாவட்டங்களில் இன்று இரவு 10 மணி வரை மழை",
+  "lines": [
+   "தமிழ்நாட்டில் இன்று சென்னை உள்பட 22 மாவட்டங்களில் மழை பெய்யும் என வானிலை அறிவிப்பு வெளியாகியுள்ளது.",
+   "இந்த மழை நிலை இன்று இரவு 10 மணி வரை நீடிக்கும் என தெரிவிக்கப்பட்டுள்ளது.",
+   "மாநிலத்தின் பல பகுதிகளிலும் இதே நேரத்தில் மழை தொடரும் என எதிர்பார்க்கப்படுகிறது.",
+   "சென்னை நகரமும் இந்த மழை எச்சரிக்கைப் பட்டியலில் இடம்பெற்றுள்ளது.",
+   "மழை நிலவரம் தொடர்பான மேலும் விவரங்கள் அடுத்த சில மணி நேரங்களில் வெளியாக வாய்ப்புள்ளது."
+  ],
+  "closing": "இரவு 10 மணிக்குப் பிறகு மழையின் அளவு மேலும் அதிகரிக்குமா எனும் கேள்வி எழுந்துள்ளது.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "தினமணி",
+    "doc": null,
+    "date": "2026-09-30"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை",
+   "தமிழ்நாடு",
+   "மழை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Rain forecast for Chennai and 22 districts till 10 pm tonight",
+   "lines": [
+    "A rain forecast has been issued for Chennai and twenty two districts across Tamil Nadu today.",
+    "The rainy conditions are expected to continue until ten pm tonight.",
+    "Several parts of the state are likely to witness rain during the same period.",
+    "Chennai city is also included in the list of areas under this rain alert.",
+    "Further updates on the rain situation are expected over the next few hours."
+   ],
+   "closing": "Whether the rain intensity will increase after ten pm remains to be seen."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "heavy rain tamil nadu",
+  "id": "d009649daf18",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-30T03:39+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/29/rain-update-rain-in-23-districts-until-10-pm"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d009649daf18.mp3",
+  "created_ts": 1790719755.9544158,
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "நிஃப்டி குறியீடு 200 வார சராசரியைக் கீழே சரிவு, கொரோனாவுக்குப் பின் முதல் முறை",
+  "lines": [
+   "இந்திய பங்குச் சந்தையின் நிஃப்டி குறியீடு, தனது 200 வார நகரும் சராசரியான 22,600 புள்ளிக்குக் கீழே சரிந்தது.",
+   "இன்றைய வர்த்தக நேரத்தில் நிஃப்டி குறியீடு 22,569 புள்ளி வரை சரிவைக் கண்டது.",
+   "கொரோனா தொற்றுநோய்ச் சரிவுக்குப் பின், இந்த அளவுக்கு நிஃப்டி சரிவது இதுவே முதல் முறை என பகுப்பாய்வாளர்கள் தெரிவித்துள்ளனர்.",
+   "குறியீடு மீண்டும் 22,600 புள்ளியைத் தாண்டுமா என்பதை சந்தை வல்லுநர்கள் உன்னிப்பாகக் கவனிக்கின்றனர்.",
+   "தற்போது 22,800 புள்ளி நிஃப்டிக்கு உடனடி எதிர்ப்பு நிலையாக செயல்படுகிறது."
+  ],
+  "closing": "200 வார நகரும் சராசரி, பங்குச் சந்தையின் நீண்டகாலப் போக்கைக் குறிக்கும் முக்கிய அளவுகோலாகக் கருதப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "நிஃப்டி",
+   "இந்திய பங்குச் சந்தை",
+   "200 வார நகரும் சராசரி",
+   "பங்குச் சந்தை"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Nifty Slips Below 200-Week Moving Average, First Time Since Covid",
+   "lines": [
+    "India's Nifty index slipped below its 200-week moving average of around 22,600 points.",
+    "During today's trading session, the Nifty index fell to an intraday low of 22,569 points.",
+    "Analysts said this is the first time since the Covid crash that Nifty has fallen to this level.",
+    "Market experts are closely watching whether the index can reclaim the 22,600 mark again.",
+    "The 22,800 level is currently acting as immediate resistance for Nifty, analysts said."
+   ],
+   "closing": "The 200-week moving average is considered a key indicator of the stock market's long-term trend."
+  },
+  "front_cat": "routine",
+  "image_query": "Nifty 50 stock market chart",
+  "wiki_subject": "NIFTY 50",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "8a453b9a12e3",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-09-30T03:37+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/investor-alert-nifty-cracks-below-key-200-week-moving-average-for-the-first-time-since-covid/articleshow/134565786.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/be/Nifty_50_Logo.svg/960px-Nifty_50_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · NIFTY 50",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/NIFTY_50",
+   "symbolic": false
+  },
+  "audio": "data/audio/8a453b9a12e3.mp3",
+  "created_ts": 1790719631.5562649,
+  "status": "published"
+ },
+ {
+  "headline": "40 கிலோமீட்டரிற்கு மேல் வாகனத்தைப் பிடித்து நிறுத்திய போலீசுக்கு பாராட்டு",
+  "lines": [
+   "கோயம்புத்தூரில் குட்கா கடத்தல் வாகனத்தை தப்பிக்க விடாமல் ஒரு போலீசாரர் நாற்பத்திற்கு மேல் கிலோமீட்டர் தூரம் பிடித்துக்கொண்டே சென்றார்.",
+   "இந்த தைரியமான நடவடிக்கையால் வாகனம் திருப்பூர் மாவட்டம் அவிநாசி அருகில் ஒருங்கிணைந்த போலீஸ் நடவடிக்கை மூலம் தடுத்து நிறுத்தப்பட்டது.",
+   "தமிழ்நாடு முதல்வர் விஜய் இந்த போலீசாரைப் பாராட்டி கெளரவித்தார்.",
+   "பல போலீஸ் நிலையங்கள் ஒருங்கிணைந்து செயல்பட்டதன் மூலமே கடத்தல் வாகனத்தை தடுக்க முடிந்தது என தெரிவிக்கப்பட்டுள்ளது.",
+   "இந்த சம்பவம் தொடர்பாக மேலும் விசாரணை நடைபெற்று வருவதாக போலீஸார் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "குட்கா விற்பனை மற்றும் கடத்தல் தமிழ்நாட்டில் தடைசெய்யப்பட்ட குற்றம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "கோயம்புத்தூர்",
+   "போலீஸ் ஆணையர் விஜய்",
+   "அவிநாசி",
+   "திருப்பூர் மாவட்டம்",
+   "குட்கா கடத்தல்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Coimbatore Policeman Honoured for Chasing Smugglers 40 KM",
+   "lines": [
+    "A Coimbatore policeman held onto a gutkha smugglers' vehicle for over forty kilometres to prevent their escape.",
+    "Through this brave act, the vehicle was intercepted near Avinashi in Tiruppur district by coordinated police action.",
+    "Coimbatore Police Commissioner Vijay felicitated the policeman for his courage.",
+    "Officials said the coordination between multiple police stations helped stop the smugglers' vehicle.",
+    "Police stated that further investigation into the incident is underway."
+   ],
+   "closing": "Sale and smuggling of gutkha is a banned offence in Tamil Nadu."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "313ab11cc490",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-30T03:36+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/chief-minister-vijay-felicitates-coimbatore-policeman-who-held-onto-gutkha-smugglers-suv-for-over-40-km/article71523587.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/313ab11cc490.mp3",
+  "created_ts": 1790719594.72079,
+  "status": "published"
+ },
+ {
+  "headline": "நிஃப்டி குறியீடு இருபத்தைந்து ஆண்டுகளில் இல்லாத செப்டம்பர் வீழ்ச்சி",
+  "lines": [
+   "இந்திய பங்குச் சந்தையின் நிஃப்டி குறியீடு கடந்த இருபத்தைந்து ஆண்டுகளில் இல்லாத மோசமான செப்டம்பர் மாத பரிவர்த்தனையைக் கண்டது.",
+   "இந்த மாதத்தில் நிஃப்டி குறியீடு ஆறு புள்ளி ஏழு சதவீதம் சரிந்து, இருநூறு வார நகர்வு சராசரியையும் தாண்டி இறங்கியது.",
+   "வெளிநாட்டு முதலீட்டாளர்களின் விற்பனை, உயர்ந்த கச்சா எண்ணெய் விலை, பலவீனமான ரூபாய் மதிப்பு, அதிகரித்த பத்திரங்களின் வட்டி விகிதம் ஆகியவை சந்தையை பாதித்ததாக ஆய்வாளர்கள் தெரிவித்தனர்.",
+   "ஆய்வாளர்கள் இருபத்தி இரண்டாயிரத்து அறுநூறு புள்ளி நிலையை முக்கிய ஆதரவு நிலையாகக் குறிப்பிட்டுள்ளனர்.",
+   "அக்டோபர் மாதத்தில் சந்தை எவ்வாறு செயல்படும் என்பதை முதலீட்டாளர்கள் உன்னிப்பாகக் கவனித்து வருகின்றனர்."
+  ],
+  "closing": "நிஃப்டி குறியீட்டின் இந்த வீழ்ச்சி வெளிநாட்டு முதலீட்டாளர்களின் தொடர்ச்சியான பங்கு விற்பனையுடன் தொடர்புடையது என ஆய்வாளர்கள் கருதுகின்றனர்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "நிஃப்டி",
+   "இந்திய பங்குச் சந்தை",
+   "வெளிநாட்டு முதலீட்டாளர்கள்",
+   "ரூபாய்",
+   "எரிசக்தி விலை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Nifty index posts worst September fall in 25 years",
+   "lines": [
+    "India's Nifty index recorded its worst September derivatives series in the last twenty five years.",
+    "The index fell six point seven percent this month, breaching its two hundred week moving average.",
+    "Analysts said foreign investor selling, high crude oil prices, a weak rupee and rising bond yields pressured the market.",
+    "Analysts have identified the twenty two thousand six hundred point level as a key support level.",
+    "Investors are closely watching how the market will perform in the month of October."
+   ],
+   "closing": "Analysts believe this fall in the Nifty index is linked to continuous selling by foreign investors.",
+   "closing_type": "background"
+  },
+  "id": "d29cfcb8de42",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-09-30T03:35+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/nifty-sees-worst-september-series-in-25-years-what-does-october-hold/articleshow/134569275.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d29cfcb8de42.mp3",
+  "created_ts": 1790719544.643715,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "அமெரிக்க முப்பதாண்டு அரசுக் கடன் பத்திர வட்டி 5.6 சதவீதமாக உயர்வு",
   "lines": [
    "அமெரிக்காவின் முப்பதாண்டு கால அரசுக் கடன் பத்திரங்களின் வட்டி விகிதம் 2002ஆம் ஆண்டுக்குப் பிறகு இல்லாத அளவுக்கு உயர்ந்துள்ளது.",
@@ -18206,237 +18460,6 @@
   "image": null,
   "audio": "data/audio/a429bd9d60c9.mp3",
   "created_ts": 1790105388.1101043,
-  "status": "published"
- },
- {
-  "headline": "தனியார் பல்கலைக்கழகங்கள் இலாப நோக்கில் இயங்கக் கூடாது: உச்ச நீதிமன்றம் நிதி வெளிப்படுத்தல் உத்தரவு",
-  "lines": [
-   "தனியார் பல்கலைக்கழகங்களை இலாப நோக்கத்துடன் நடத்தக் கூடாது என்று உச்ச நீதிமன்றம் உத்தரவிட்டுள்ளது.",
-   "பல்கலைக்கழகங்களின் நிதி நிலவரம் மற்றும் கட்டணம் தொடர்பான விவரங்களை வெளியிட வேண்டும் என்றும் நீதிமன்றம் கூறியுள்ளது.",
-   "தனியார் கல்வி நிறுவனங்களின் செயல்பாட்டில் வெளிப்படைத்தன்மையை உறுதி செய்யும் நோக்கில் இந்த உத்தரவு வழங்கப்பட்டதாகத் தெரிகிறது.",
-   "இந்த வழக்கு தொடர்பான முழு விவரங்கள் இதுவரை முழுமையாக வெளியாகவில்லை.",
-   "இந்த உத்தரவை தனியார் பல்கலைக்கழகங்கள் எவ்வாறு பின்பற்றும் என்பது இனி கவனிக்கப்பட வேண்டும்."
-  ],
-  "closing": "இந்த உத்தரவு நாடு முழுவதும் உள்ள தனியார் பல்கலைக்கழகங்களின் நிதி நடைமுறைகளைப் பாதிக்கக்கூடும் எனக் கருதப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Bar and Bench",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "உச்ச நீதிமன்றம்",
-   "தனியார் பல்கலைக்கழகங்கள்",
-   "கல்வித் துறை",
-   "நிதி வெளிப்படைத்தன்மை"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Supreme Court: Private universities cannot be run for profit",
-   "lines": [
-    "The Supreme Court has ordered that private universities cannot be run for profit.",
-    "The court also directed universities to disclose details of their finances and fees.",
-    "The order appears aimed at ensuring transparency in the functioning of private educational institutions.",
-    "Full details of the case have not yet been made completely public.",
-    "It remains to be seen how private universities will implement this order going forward."
-   ],
-   "closing": "The order is expected to affect financial practices of private universities across the country."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "Supreme Court of India building",
-  "wiki_subject": "Supreme Court of India",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "8c548277e720",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-09-23T00:58+05:30",
-  "links": [
-   "https://www.barandbench.com/news/litigation/private-universities-cannot-be-run-for-profit-supreme-court-orders-disclosure-of-finances-fees-et-al"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Emblem_of_the_Supreme_Court_of_India.svg/1280px-Emblem_of_the_Supreme_Court_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Supreme Court of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Supreme_Court_of_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/8c548277e720.mp3",
-  "created_ts": 1790105319.020045,
-  "status": "published"
- },
- {
-  "headline": "சென்னையில் NTPC எலக்ட்ரான் கேள்விப்போட்டியின் தெற்குப் பகுதி சுற்று நடந்தது",
-  "lines": [
-   "தேசிய வெப்ப மின்சக்தி கழகத்தின் (NTPC) எலக்ட்ரான் கேள்விப்போட்டியின் தெற்குப் பகுதி சுற்று சென்னையில் நடைபெற்றது.",
-   "இந்தப் போட்டிக்கு பல்வேறு பிரிவுகளிலிருந்து பங்கேற்றவர்கள் கலந்துகொண்டனர்.",
-   "NTPC விஞ்ஞானம், தொழில்நுட்பம், சுற்றுச்சூழல் விழிப்புணர்வு பற்றிய கேள்விகள் வினவியது.",
-   "வெற்றி பெற்றவர்கள் தேசிய சுற்றுக்கு முன்னேற வாய்ப்பு பெறுகின்றனர்.",
-   "தெற்குப் பகுதி சுற்று முடிந்த பிறகு மேலும் இரண்டு பகுதி சுற்றுகள் நடைபெறும்."
-  ],
-  "closing": "NTPC எலக்ட்ரான் கேள்விப்போட்டி விஞ்ஞான சிந்தனை மற்றும் தொழில்நுட்ப அறிவை வளர்ப்பதற்கான அரசுத் திட்டம்.",
-  "closing_type": "background",
-  "topic": "govt",
-  "front_cat": "routine",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "entities": [
-   "NTPC",
-   "சென்னை",
-   "எலக்ட்ரான் கேள்விப்போட்டி"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "NTPC Electron quiz South regional round held in Chennai",
-   "lines": [
-    "The South regional round of the National Thermal Power Corporation (NTPC) Electron quiz was held in Chennai.",
-    "Participants from various categories took part in this competition.",
-    "NTPC posed questions on science, technology, and environmental awareness.",
-    "Winners from this round advance to the national round.",
-    "Two more regional rounds will be held after the South region round concludes."
-   ],
-   "closing": "The NTPC Electron quiz is a government initiative to foster scientific thinking and technological knowledge."
-  },
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "2557bd8cc3bc",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-23T00:57+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/regional-round-south-of-ntpc-electron-quiz-held-in-chennai/article71496386.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/2557bd8cc3bc.mp3",
-  "created_ts": 1790105278.9949858,
-  "status": "published"
- },
- {
-  "headline": "ரஞ்சி கோப்பைக்கான தமிழ்நாடு கிரிக்கெட் அணி அறிவிப்பு",
-  "lines": [
-   "தமிழ்நாடு கிரிக்கெட் அணி ரஞ்சி கோப்பைக்கான அணிச்சாய்வை அறிவித்துவிட்டது.",
-   "தமிழ்நாடு இந்திய கிரிக்கெட்டில் மிக முக்கியமான அணியாக விளங்குகிறது.",
-   "அணிச்சாய்வில் பழைய வீரர்கள் மற்றும் இளம் பிரதிபலன்கள் இருக்கின்றனர்.",
-   "தமிழ்நாடு கிரிக்கெட் சங்கம் இந்த அணியை நியமித்துவிட்டது.",
-   "கோப்பை நடைபெற வேண்டிய தேதி மற்றும் இடம் குறித்த விவரங்கள் விரைவில் அறிவிக்கப்படும்."
-  ],
-  "closing": "தமிழ்நாடு ரஞ்சி கோப்பைக்குத் தயாரிப்பு நடத்திக்கொண்டிருக்கிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani Sports",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "தமிழ்நாடு",
-   "ரஞ்சி கோப்பை",
-   "கிரிக்கெட்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Tamil Nadu announces cricket squad for Ranji Trophy",
-   "lines": [
-    "Tamil Nadu cricket team has announced its squad for the Ranji Trophy.",
-    "Tamil Nadu is one of the most important teams in Indian domestic cricket.",
-    "The squad includes veteran players and young talents.",
-    "Tamil Nadu Cricket Association has finalized this team.",
-    "Details about the tournament dates and venues will be announced soon."
-   ],
-   "closing": "Tamil Nadu is preparing for the Ranji Trophy."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Ranji Trophy",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "4e83be8dc892",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-23T00:56+05:30",
-  "links": [
-   "https://www.dinamani.com/sports/sports-news/2026/Sep/22/tamil-nadu-cricket-team-announced-for-the-ranji-trophy"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Ranji_Trophy_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Ranji Trophy",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Ranji_Trophy",
-   "symbolic": false
-  },
-  "audio": "data/audio/4e83be8dc892.mp3",
-  "created_ts": 1790105176.6200674,
-  "status": "published"
- },
- {
-  "headline": "சொத்துக் குவிப்பு வழக்கில் முன்அனுமதி தேவையில்லை என சென்னை உயர் நீதிமன்றம் தீர்ப்பு",
-  "lines": [
-   "சென்னை உயர் நீதிமன்ற நீதிபதி வி. லட்சுமிநாராயணன், அரசு ஊழியர்கள் மீதான சொத்துக் குவிப்பு வழக்குகளை விசாரிக்க பாரதிய நாகரிக் சுரக்ஷா சன்ஹிதா எனும் பிஎன்எஸ்எஸ் சட்டப்படி முன்அனுமதி தேவையில்லை என்று தீர்ப்பளித்தார்.",
-   "இதே தீர்ப்பில், முன்னாள் திமுக அமைச்சர் எம்.ஆர்.கே. பன்னீர்செல்வம் மற்றும் அவரது குடும்பத்தினரை சொத்துக் குவிப்பு வழக்கிலிருந்து விடுவிக்க வேண்டும் என்ற கோரிக்கையை நீதிமன்றம் நிராகரித்தது.",
-   "வழக்கு தொடர்பான குற்றவியல் நடவடிக்கைக்கு முன்அனுமதி தேவை என்ற வாதத்தை நீதிபதி ஏற்கவில்லை என நீதிமன்ற உத்தரவு தெரிவிக்கிறது.",
-   "பொது ஊழியர்கள் மீதான ஊழல் வழக்குகளில் சட்டப் பாதுகாப்பு எந்த அளவுக்குப் பொருந்தும் என்ற விவாதத்தை இந்தத் தீர்ப்பு மீண்டும் முன்னிலைப்படுத்தியுள்ளது.",
-   "இந்தத் தீர்ப்பைத் தொடர்ந்து, பன்னீர்செல்வம் மற்றும் குடும்பத்தினர் மீதான சொத்துக் குவிப்பு வழக்கு விசாரணை தொடரும் என்று எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்த வழக்கு, முன்னாள் அமைச்சர் எம்.ஆர்.கே. பன்னீர்செல்வம் மற்றும் அவரது குடும்பத்தினர் மீதான சொத்துக் குவிப்பு குற்றச்சாட்டுகள் தொடர்பானது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர் நீதிமன்றம்",
-   "நீதிபதி வி. லட்சுமிநாராயணன்",
-   "எம்.ஆர்.கே. பன்னீர்செல்வம்",
-   "திமுக"
-  ],
-  "id": "544d0ca1eeb5",
-  "flags": [],
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-09-23T00:54+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/no-sanction-required-under-bnss-to-prosecute-public-servants-for-disproportionate-assets-rules-madras-high-court/article71494241.ece",
-   "https://www.thehindu.com/news/national/tamil-nadu/no-sanction-required-under-bnss-to-prosecute-public-servants-for-disproportionate-assets-rules-madras-high-court/article71494241.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/544d0ca1eeb5.mp3",
-  "created_ts": 1790105087.5293908,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
   "status": "published"
  }
 ]

@@ -1,5 +1,259 @@
 [
  {
+  "headline": "சென்னை உள்பட 22 மாவட்டங்களில் இன்று இரவு 10 மணி வரை மழை",
+  "lines": [
+   "தமிழ்நாட்டில் இன்று சென்னை உள்பட 22 மாவட்டங்களில் மழை பெய்யும் என வானிலை அறிவிப்பு வெளியாகியுள்ளது.",
+   "இந்த மழை நிலை இன்று இரவு 10 மணி வரை நீடிக்கும் என தெரிவிக்கப்பட்டுள்ளது.",
+   "மாநிலத்தின் பல பகுதிகளிலும் இதே நேரத்தில் மழை தொடரும் என எதிர்பார்க்கப்படுகிறது.",
+   "சென்னை நகரமும் இந்த மழை எச்சரிக்கைப் பட்டியலில் இடம்பெற்றுள்ளது.",
+   "மழை நிலவரம் தொடர்பான மேலும் விவரங்கள் அடுத்த சில மணி நேரங்களில் வெளியாக வாய்ப்புள்ளது."
+  ],
+  "closing": "இரவு 10 மணிக்குப் பிறகு மழையின் அளவு மேலும் அதிகரிக்குமா எனும் கேள்வி எழுந்துள்ளது.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "தினமணி",
+    "doc": null,
+    "date": "2026-09-30"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை",
+   "தமிழ்நாடு",
+   "மழை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Rain forecast for Chennai and 22 districts till 10 pm tonight",
+   "lines": [
+    "A rain forecast has been issued for Chennai and twenty two districts across Tamil Nadu today.",
+    "The rainy conditions are expected to continue until ten pm tonight.",
+    "Several parts of the state are likely to witness rain during the same period.",
+    "Chennai city is also included in the list of areas under this rain alert.",
+    "Further updates on the rain situation are expected over the next few hours."
+   ],
+   "closing": "Whether the rain intensity will increase after ten pm remains to be seen."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "heavy rain tamil nadu",
+  "id": "d009649daf18",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-09-30T03:39+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/29/rain-update-rain-in-23-districts-until-10-pm"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d009649daf18.mp3",
+  "created_ts": 1790719755.9544158,
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "நிஃப்டி குறியீடு 200 வார சராசரியைக் கீழே சரிவு, கொரோனாவுக்குப் பின் முதல் முறை",
+  "lines": [
+   "இந்திய பங்குச் சந்தையின் நிஃப்டி குறியீடு, தனது 200 வார நகரும் சராசரியான 22,600 புள்ளிக்குக் கீழே சரிந்தது.",
+   "இன்றைய வர்த்தக நேரத்தில் நிஃப்டி குறியீடு 22,569 புள்ளி வரை சரிவைக் கண்டது.",
+   "கொரோனா தொற்றுநோய்ச் சரிவுக்குப் பின், இந்த அளவுக்கு நிஃப்டி சரிவது இதுவே முதல் முறை என பகுப்பாய்வாளர்கள் தெரிவித்துள்ளனர்.",
+   "குறியீடு மீண்டும் 22,600 புள்ளியைத் தாண்டுமா என்பதை சந்தை வல்லுநர்கள் உன்னிப்பாகக் கவனிக்கின்றனர்.",
+   "தற்போது 22,800 புள்ளி நிஃப்டிக்கு உடனடி எதிர்ப்பு நிலையாக செயல்படுகிறது."
+  ],
+  "closing": "200 வார நகரும் சராசரி, பங்குச் சந்தையின் நீண்டகாலப் போக்கைக் குறிக்கும் முக்கிய அளவுகோலாகக் கருதப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "நிஃப்டி",
+   "இந்திய பங்குச் சந்தை",
+   "200 வார நகரும் சராசரி",
+   "பங்குச் சந்தை"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Nifty Slips Below 200-Week Moving Average, First Time Since Covid",
+   "lines": [
+    "India's Nifty index slipped below its 200-week moving average of around 22,600 points.",
+    "During today's trading session, the Nifty index fell to an intraday low of 22,569 points.",
+    "Analysts said this is the first time since the Covid crash that Nifty has fallen to this level.",
+    "Market experts are closely watching whether the index can reclaim the 22,600 mark again.",
+    "The 22,800 level is currently acting as immediate resistance for Nifty, analysts said."
+   ],
+   "closing": "The 200-week moving average is considered a key indicator of the stock market's long-term trend."
+  },
+  "front_cat": "routine",
+  "image_query": "Nifty 50 stock market chart",
+  "wiki_subject": "NIFTY 50",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "8a453b9a12e3",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-09-30T03:37+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/investor-alert-nifty-cracks-below-key-200-week-moving-average-for-the-first-time-since-covid/articleshow/134565786.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/be/Nifty_50_Logo.svg/960px-Nifty_50_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · NIFTY 50",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/NIFTY_50",
+   "symbolic": false
+  },
+  "audio": "data/audio/8a453b9a12e3.mp3",
+  "created_ts": 1790719631.5562649,
+  "status": "published"
+ },
+ {
+  "headline": "40 கிலோமீட்டரிற்கு மேல் வாகனத்தைப் பிடித்து நிறுத்திய போலீசுக்கு பாராட்டு",
+  "lines": [
+   "கோயம்புத்தூரில் குட்கா கடத்தல் வாகனத்தை தப்பிக்க விடாமல் ஒரு போலீசாரர் நாற்பத்திற்கு மேல் கிலோமீட்டர் தூரம் பிடித்துக்கொண்டே சென்றார்.",
+   "இந்த தைரியமான நடவடிக்கையால் வாகனம் திருப்பூர் மாவட்டம் அவிநாசி அருகில் ஒருங்கிணைந்த போலீஸ் நடவடிக்கை மூலம் தடுத்து நிறுத்தப்பட்டது.",
+   "தமிழ்நாடு முதல்வர் விஜய் இந்த போலீசாரைப் பாராட்டி கெளரவித்தார்.",
+   "பல போலீஸ் நிலையங்கள் ஒருங்கிணைந்து செயல்பட்டதன் மூலமே கடத்தல் வாகனத்தை தடுக்க முடிந்தது என தெரிவிக்கப்பட்டுள்ளது.",
+   "இந்த சம்பவம் தொடர்பாக மேலும் விசாரணை நடைபெற்று வருவதாக போலீஸார் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "குட்கா விற்பனை மற்றும் கடத்தல் தமிழ்நாட்டில் தடைசெய்யப்பட்ட குற்றம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "கோயம்புத்தூர்",
+   "போலீஸ் ஆணையர் விஜய்",
+   "அவிநாசி",
+   "திருப்பூர் மாவட்டம்",
+   "குட்கா கடத்தல்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Coimbatore Policeman Honoured for Chasing Smugglers 40 KM",
+   "lines": [
+    "A Coimbatore policeman held onto a gutkha smugglers' vehicle for over forty kilometres to prevent their escape.",
+    "Through this brave act, the vehicle was intercepted near Avinashi in Tiruppur district by coordinated police action.",
+    "Coimbatore Police Commissioner Vijay felicitated the policeman for his courage.",
+    "Officials said the coordination between multiple police stations helped stop the smugglers' vehicle.",
+    "Police stated that further investigation into the incident is underway."
+   ],
+   "closing": "Sale and smuggling of gutkha is a banned offence in Tamil Nadu."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "313ab11cc490",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-09-30T03:36+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/chief-minister-vijay-felicitates-coimbatore-policeman-who-held-onto-gutkha-smugglers-suv-for-over-40-km/article71523587.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/313ab11cc490.mp3",
+  "created_ts": 1790719594.72079,
+  "status": "published"
+ },
+ {
+  "headline": "நிஃப்டி குறியீடு இருபத்தைந்து ஆண்டுகளில் இல்லாத செப்டம்பர் வீழ்ச்சி",
+  "lines": [
+   "இந்திய பங்குச் சந்தையின் நிஃப்டி குறியீடு கடந்த இருபத்தைந்து ஆண்டுகளில் இல்லாத மோசமான செப்டம்பர் மாத பரிவர்த்தனையைக் கண்டது.",
+   "இந்த மாதத்தில் நிஃப்டி குறியீடு ஆறு புள்ளி ஏழு சதவீதம் சரிந்து, இருநூறு வார நகர்வு சராசரியையும் தாண்டி இறங்கியது.",
+   "வெளிநாட்டு முதலீட்டாளர்களின் விற்பனை, உயர்ந்த கச்சா எண்ணெய் விலை, பலவீனமான ரூபாய் மதிப்பு, அதிகரித்த பத்திரங்களின் வட்டி விகிதம் ஆகியவை சந்தையை பாதித்ததாக ஆய்வாளர்கள் தெரிவித்தனர்.",
+   "ஆய்வாளர்கள் இருபத்தி இரண்டாயிரத்து அறுநூறு புள்ளி நிலையை முக்கிய ஆதரவு நிலையாகக் குறிப்பிட்டுள்ளனர்.",
+   "அக்டோபர் மாதத்தில் சந்தை எவ்வாறு செயல்படும் என்பதை முதலீட்டாளர்கள் உன்னிப்பாகக் கவனித்து வருகின்றனர்."
+  ],
+  "closing": "நிஃப்டி குறியீட்டின் இந்த வீழ்ச்சி வெளிநாட்டு முதலீட்டாளர்களின் தொடர்ச்சியான பங்கு விற்பனையுடன் தொடர்புடையது என ஆய்வாளர்கள் கருதுகின்றனர்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "நிஃப்டி",
+   "இந்திய பங்குச் சந்தை",
+   "வெளிநாட்டு முதலீட்டாளர்கள்",
+   "ரூபாய்",
+   "எரிசக்தி விலை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Nifty index posts worst September fall in 25 years",
+   "lines": [
+    "India's Nifty index recorded its worst September derivatives series in the last twenty five years.",
+    "The index fell six point seven percent this month, breaching its two hundred week moving average.",
+    "Analysts said foreign investor selling, high crude oil prices, a weak rupee and rising bond yields pressured the market.",
+    "Analysts have identified the twenty two thousand six hundred point level as a key support level.",
+    "Investors are closely watching how the market will perform in the month of October."
+   ],
+   "closing": "Analysts believe this fall in the Nifty index is linked to continuous selling by foreign investors.",
+   "closing_type": "background"
+  },
+  "id": "d29cfcb8de42",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-09-30T03:35+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/nifty-sees-worst-september-series-in-25-years-what-does-october-hold/articleshow/134569275.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d29cfcb8de42.mp3",
+  "created_ts": 1790719544.643715,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "அமெரிக்க முப்பதாண்டு அரசுக் கடன் பத்திர வட்டி 5.6 சதவீதமாக உயர்வு",
   "lines": [
    "அமெரிக்காவின் முப்பதாண்டு கால அரசுக் கடன் பத்திரங்களின் வட்டி விகிதம் 2002ஆம் ஆண்டுக்குப் பிறகு இல்லாத அளவுக்கு உயர்ந்துள்ளது.",
