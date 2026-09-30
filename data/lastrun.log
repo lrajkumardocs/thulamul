@@ -2,21 +2,21 @@
 [fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 18 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 25 புதியவை
+[fetch] Dinamani TN: 15 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 24 புதியவை
 [fetch] Al Jazeera: 11 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 10 புதியவை
+[fetch] The Hindu Health: 9 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 6 புதியவை
+[fetch] FreeJobAlert: 3 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -32,16 +32,16 @@
 [fetch] The Hindu Legal: 9 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 27 புதியவை
+[fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 16 புதியவை
-[fetch] The Verge: 10 புதியவை
+[fetch] TechCrunch: 15 புதியவை
+[fetch] The Verge: 8 புதியவை
 [fetch] The Hindu National: 9 புதியவை
-[fetch] NDTV India: 6 புதியவை
+[fetch] NDTV India: 1 புதியவை
 [fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 27 புதியவை
+[fetch] Dinamani India: 19 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,68 +56,46 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f60b8fea950>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f637d449cd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 9 புதியவை
-[fetch] Dinamani Govt: 18 புதியவை
+[fetch] Dinamani Govt: 15 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 534 → நிகழ்வுகள் 510
-[triage] சேமித்த மதிப்பெண் (586) — புதிய அழைப்பு இல்லை
-[triage] 510 → 42 | காலி: world:3, jobs:2, assembly:2, crime:1, health:1
-[skip] வெளிநாட்டு உள்நாட்டுத் தொழில்நுட்ப நிகழ்வு — தமிழ்நாடு/இந்தி
-[திருத்தம்] புதுச்சேரி சிறுமி பாலியல் கொலை வழக்கு கு → புதுச்சேரி சிறுமி பாலியல் கொலை வழக்கு: க
-[image] களஞ்சியம் (3 சொல்): புதுச்சேரி சிறுமி பாலியல் கொலை வழக
-[tts-edge] 3dc0ef9c7611: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] புதுச்சேரி சிறுமி பாலியல் கொலை வழக்கு: குற்றவாளிக்கு விதிக்கப்பட்ட தூக்குத் தண்டனை ஆயுள் தண்டனையாகக் குறைக்கப்பட்டது
-[தரம்] தமிழ் அல்லாத எழுத்து: ंचকর → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): பள்ளிகள் வாலிபால்: நான்கு மாவட்ட அ
-[tts-edge] 900aebfb0b92: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பள்ளிகள் வாலிபால்: நான்கு மாவட்ட அணிகள் காலிறுதியில்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Health Department cautions candidates applying f
-[skip] மேகாலயா மாநிலத் துணை முதல்வரின் உள்ளூர் அரசியல் கருத்து; தமி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Nurses stage hunger protest over temporary appoi
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரம், எண், தேதி, அதிகாரி
-[skip] வெளிநாட்டுத் தொழில்நுட்ப நிறுவனங்களின் உள்ளூர் சம்பவம். தமிழ
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் அரசியல் சம்பவம் (பாஜக அலுவலகத் 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man arrested for recurring bomb threat hoax
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaJexLoedrpxaMe3xXdw'}
-[skip] வெளிநாட்டு திரைத்துறை வணிக நிகழ்வு — தமிழ்நாட்டு வாசகரைப் பா
-[skip] பஞ்சாப் மாநிலத் தேர்தல் பிரச்சார உரை - தமிழ்நாட்டுடன் நேரடித
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Couple arrested for allegedly swindling ₹7.16 cr
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaJiCTSQ2HxuRwhWT3Vu'}
-[skip] வெளிநாட்டு தொழில்நுட்பக் கம்பனியின் (Google) தயாரிப்பு அறிவி
-[skip] இது கர்நாடகத்தில் நடந்த உள்ளூர்க் குற்றச் சம்பவம்; தமிழ்நாட்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chitlapakkam residents flag high property tax, s
-[skip] இது டெல்லி மற்றும் வட இந்திய மாநிலங்களின் காற்று மாசு தொடர்ப
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three men kill youth, dump body in Puzhal Lake
-[skip] உத்தரப் பிரதேச மாநிலங்களவைத் தேர்தல் தொடர்பான உள்ளூர் அரசியல
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: HC refuses to review order mandating micro plast
-[skip] தெலங்கானா மாநில முதல்வரின் கருத்து தொடர்பான உள்ளூர் அரசியல் 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Prime suspect in school recognition cheating cas
-[skip] பஞ்சாப் மாநிலத்தின் உள்ளூர் அரசியல் பிரசாரச் செய்தி - தமிழ்ந
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TNPCB invites bids to supply white cloth bags to
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; எப்போது, எங்கே, யார் சம்பந
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaJpxkshfcEfhPLDoppg'}
-[திருத்தம்] பசுமை மின்விநியோக வழித்தடத் திட்டத்துக்க → பசுமை மின்விநியோக வழித்தட திட்டத்துக்கு 
-[image] களஞ்சியம் (3 சொல்): பசுமை மின்விநியோக வழித்தட திட்டத்த
-[publish] பசுமை மின்விநியோக வழித்தட திட்டத்துக்கு ₹1.86 லட்சம் கோடி ஒப்புதல்
-[தரம்] தமிழ் அல்லாத எழுத்து: ল → ஒரு திருத்தம்
-[நகல்] ஏற்கனவே வெளியானது: வாக்குத் திருட்டு குற்றச்சாட்டில் அக். 2 முதல் இந்தியூர் கூட
+[run] புதியவை 502 → நிகழ்வுகள் 480
+[triage] 480 → 21 | காலி: world:3, jobs:2, assembly:2, crime:1, health:1
+[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாட்டு வாசகருக்கு நேரடி பொ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaLQ8VZ69K89cEHKRVoG'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இவை டெல்லியிலுள்ள தீப்சந்த் பந்து மருத்துவமனை மற்றும் இமாசலப
-[skip] வெளிநாட்டு விமான விபத்து/நிகழ்வு — தமிழ்நாடு/இந்திய வாசகரைப்
-[skip] வெளிநாட்டு/அவ்வப்போதான் வேலைவாய்ப்பு அறிவிப்பு; தமிழ்நாட்டு 
-[skip] கேரளாவின் உள்ளூர் சுகாதார செய்திக்குத் தமிழ்நாட்டு வாசகரின் 
-[skip] பரதபாల என்ற இயக்குநரின் ஆவணப்படம் சத்தீஸ்கர் பகுதியின் ராம்ந
-[skip] வெளிநாட்டு விமான விபத்து / சிறு சம்பவம் — தமிழ்நாடு/இந்தியாவ
-[skip] வெளிநாட்டு விமান நிறுவனத்தின் உள்ளூர் சம்பவம். தமிழ்நாடு/இந்
+[tts-edge] 5b71cb4a31dc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கச்சா எண்ணெய் விலை குறைவால் அமெரிக்க டாலருக்கு எதிராக ரூபாய் மீட்சி
+[tts-edge] d0fd64909b57: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இணைந்த பசுமை பட்டாசு உற்பத்திக்கு நிபந்தனையுடன் உச்ச நீதிமன்ற அனுமதி
+[image] களஞ்சியம் (2 சொல்): மூன்று நாட்களில் இந்தியப் பங்குச் 
+[publish] மூன்று நாட்களில் இந்தியப் பங்குச் சந்தையிலிருந்து 26,000 கோடி ரூபாய் வெளியேற்றம்
+[skip] வெளிநாட்டு ராணுவ நடவடிக்கை — தமிழ்நாடு/இந்தியாவுடன் நேரடித் 
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] பிற நாடுகளின் இருமுறைப் போர்/தகராறு பற்றிய உள்நாட்டு பாதிப்ப
+[skip] மூலத்தில் தலைப்பு மற்றும் சில சொற்கள் மட்டுமே உள்ளன; உண்மையா
+[skip] বাংলাদেশের ডেঙ্গু প্রাদুর্ভাব তামிল নাডু / ভারতীয় পাঠকদের জ
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] போதிய மூல உரை இல்லை - தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, வ
+[skip] மூலத் தகவல் மிகவும் குறைவாகவும் குழப்பமாகவும் உள்ளது; 'முதல்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (யார்
+[skip] தவெக தலைவர் விஜய் தொடர்பான அரசியல் பிரசார வரவேற்பு செய்தி - 
+[திருத்தம்] எம்டிএல் பணிக்கற்றல் இரண்டாம் காத்திரு ப → எம்டিএல் பணிக்கற்றல் இரண்டாம் অপேக்ষை பட
+[தரம்] தமிழ் அல்லாத எழுத்து: অএপষি → ஒரு திருத்தம்
+[publish] எம்டிஎல் பணிக்கற்றல் இரண்டாம் அபேக்ஷை பட்டியல் 2026 (சுற்று 3) — குழு அ, குழு ஆ ஆவண சரிபார்ப்பு அட்டவணை
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Health Department cautions candidates applying f
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்கும் ஒரு குறிப்பிட்ட நিகழ்வு, நபர
+[திருத்தம்] இந்தியாவின் முதல் அசல் அனிமே தொடர் அக்டோ → இந்தியாவின் முதல் அசல் குறுந்தொடர் அனிமே
+[publish] இந்தியாவின் முதல் அசல் குறுந்தொடர் அனிமே அக்டோபரில் வெளியாகிறது
+[skip] மும்பை대학 (மহाராஷ்ட்ர மாநிலம்) தொடர்பான செய்தி. தமிழ்நாட்டு வ
 [market] தங்கம் 22K ₹13250 · சென்செக்ஸ் 72480
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 3
+[done] feed 300 · pending 0 · எழுதியவை 5
