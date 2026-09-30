@@ -1,5 +1,68 @@
 [
  {
+  "headline": "'ஜெம்' வீரமணி மீது மேலும் ஒரு வழக்கு",
+  "lines": [
+   "'ஜெம்' நிறுவனத்தை நடத்திய வீரமணி மீது மேலும் ஒரு புதிய வழக்கு பதிவு செய்யப்பட்டுள்ளது.",
+   "முதலீட்டாளர்களிடமிருந்து பணம் பெற்று ஏமாற்றியதாகக் கூறப்படும் புகார் அடிப்படையில் இந்த வழக்கு தொடரப்பட்டுள்ளது.",
+   "காவல் துறை அதிகாரிகள் இந்த வழக்குத் தொடர்பாக விசாரணையை மேற்கொண்டு வருவதாகத் தெரிவித்துள்ளனர்.",
+   "வீரமணி மீது ஏற்கெனவே பல வழக்குகள் பதிவு செய்யப்பட்டு விசாரணை நடைபெற்று வருவதாகத் தெரிகிறது.",
+   "இந்த புதிய வழக்குத் தொடர்பான மேலதிக விசாரணை தொடர்ந்து நடைபெறும் என அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "வீரமணி மீதான வழக்குகள் தொடர்பாக விசாரணை இன்னும் நடைபெற்று வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ஜெம் நிறுவனம்",
+   "வீரமணி",
+   "காவல் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "New case registered against Gem Veeramani",
+   "lines": [
+    "A new case has been registered against Veeramani, who ran the Gem company.",
+    "The case was filed based on a complaint alleging that investors were cheated of money.",
+    "Police officials said an investigation into the case is currently underway.",
+    "Several cases have reportedly already been registered against Veeramani, with investigations ongoing.",
+    "Officials said further investigation into this new case will continue."
+   ],
+   "closing": "Investigations into the cases against Veeramani are still ongoing."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "32f11d988544",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-01T01:09+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/30/another-case-filed-against-gem-veeramani"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/32f11d988544.mp3",
+  "created_ts": 1790797171.258036,
+  "status": "published"
+ },
+ {
   "headline": "40 கிலோமீட்டரிற்கு மேல் வாகனத்தைப் பிடித்து நிறுத்திய போலீசுக்கு பாராட்டு",
   "lines": [
    "கோயம்புத்தூரில் குட்கா கடத்தல் வாகனத்தை தப்பிக்க விடாமல் ஒரு போலீசாரர் நாற்பத்திற்கு மேல் கிலோமீட்டர் தூரம் பிடித்துக்கொண்டே சென்றார்.",
@@ -1388,120 +1451,6 @@
   "image": null,
   "audio": "data/audio/162fead3058c.mp3",
   "created_ts": 1790114659.9152796,
-  "status": "published"
- },
- {
-  "headline": "வாலாஜா அருகே சாலை விபத்தில் இருவர் உயிரிழப்பு",
-  "lines": [
-   "வாலாஜா அருகே நடந்த சாலை விபத்தில் இருவர் உயிரிழந்தனர்.",
-   "விபத்தில் காயமடைந்த இருவரை பொதுமக்களும் சக வாகன ஓட்டிகளும் உடனடியாக மருத்துவமனைக்கு அழைத்துச் சென்றனர்.",
-   "வாலாஜா அரசு தாலுகா மருத்துவமனையில் சிகிச்சை பெற்று வந்த இருவரும் உயிரிழந்தனர் என அதிகாரிகள் தெரிவித்தனர்.",
-   "விபத்து ஏற்பட்ட விதம் மற்றும் காரணம் குறித்து இன்னும் விவரங்கள் வெளியாகவில்லை.",
-   "சம்பவம் தொடர்பாக காவல்துறையினர் மேலும் விசாரணை நடத்தி வருகின்றனர்."
-  ],
-  "closing": "விபத்துக்கான காரணம் மற்றும் பாதிக்கப்பட்டவர்களின் விவரங்கள் தொடர்பாக அதிகாரப்பூர்வ தகவல்கள் இன்னும் வெளியிடப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "வாலாஜா",
-   "அரசு தாலுகா மருத்துவமனை",
-   "சாலை விபத்து"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Two persons killed in road accident near Walajah",
-   "lines": [
-    "Two persons were killed in a road accident near Walajah.",
-    "Passersby and other motorists rushed the injured to a nearby hospital.",
-    "Officials said both victims succumbed to their injuries at the Government Taluk Hospital in Walajah town.",
-    "Details on how the accident occurred remain unclear so far.",
-    "Police are conducting further investigation into the incident."
-   ],
-   "closing": "Official details regarding the cause of the accident and the victims have not yet been released."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "fc7997d6c1d1",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-09-23T02:36+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/two-persons-killed-in-road-accident-near-walajah/article71495332.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/fc7997d6c1d1.mp3",
-  "created_ts": 1790111219.1478896,
-  "status": "published"
- },
- {
-  "headline": "மதுரை மாணவன் மரணம்: 16 நாட்களுக்குப் பிறகு உடல் ஒப்படைப்பு",
-  "lines": [
-   "மதுரையில் மாணவன் ஒருவர் மரணம் அடைந்த சம்பவத்தில் அவரது உடல் உறவினர்களிடம் ஒப்படைக்கப்பட்டுள்ளது.",
-   "மரணம் நிகழ்ந்து பதினாறு நாட்களுக்குப் பிறகு உடல் உறவினர்களிடம் கையளிக்கப்பட்டதாகத் தெரிகிறது.",
-   "இவ்வளவு காலம் உடல் தாமதமான காரணம் குறித்து அதிகாரப்பூர்வமாக இதுவரை தெரிவிக்கப்படவில்லை.",
-   "மாணவன் மரணம் தொடர்பான விசாரணை நிலவரம் குறித்தும் தெளிவான தகவல் வெளியாகவில்லை.",
-   "இந்த வழக்கில் அடுத்த கட்ட நடவடிக்கைகள் என்னவென்பது தொடர்ந்து கவனிக்கப்பட வேண்டும்."
-  ],
-  "closing": "இச்சம்பவம் தொடர்பாக முழு விவரங்களும் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "மதுரை",
-   "மாணவன்",
-   "உறவினர்கள்"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Madurai Student Death: Body Handed Over After 16 Days",
-   "lines": [
-    "In Madurai, the body of a student who died has been handed over to his relatives.",
-    "The body was reportedly given to the family sixteen days after his death.",
-    "The reason for this prolonged delay has not been officially disclosed so far.",
-    "Details regarding the status of the investigation into the student's death have also not been released.",
-    "The next steps in this case remain to be seen in the coming days."
-   ],
-   "closing": "Full details regarding this incident have not yet been officially released."
-  },
-  "front_cat": "crime_major",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "16905f63078a",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-09-23T02:04+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/22/death-of-madurai-student-body-handed-over-after-16-days"
-  ],
-  "image": null,
-  "audio": "data/audio/16905f63078a.mp3",
-  "created_ts": 1790109267.583753,
   "status": "published"
  }
 ]

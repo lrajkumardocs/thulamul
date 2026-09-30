@@ -1,22 +1,22 @@
-[fetch] RBI: 10 புதியவை
+[fetch] RBI: 7 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 24 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 27 புதியவை
+[fetch] The Hindu TN: 21 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 25 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 28 புதியவை
-[fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 16 புதியவை
+[fetch] ESPNcricinfo: 26 புதியவை
+[fetch] The Hindu Sport: 25 புதியவை
+[fetch] The Hindu Cinema: 14 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
-[fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] The Hindu Health: 14 புதியவை
+[fetch] The Hindu Agriculture: 0 புதியவை
+[fetch] FreeJobAlert: 21 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 28 புதியவை
+[fetch] Dinamani Sports: 29 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 26 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,85 +56,81 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff15da48810>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2818240390>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 26 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 719 → நிகழ்வுகள் 657
-[triage] 657 → 46 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இது டெல்லி மெட்ரோ ரயில் கழகம் தொடர்பான நடுவர் தீர்ப்பு வழக்க
-[skip] இவை பஞ்சாப் (BFUHS) மற்றும் அசாம் (SSUHS) மாநிலங்களின் உள்ளூ
-[skip] இந்திய জনসংख्या প्रवृत्तियों पर दीर्घकालीन विश्लेषण — तत्काल
-[skip] திரை விமர்சனம். தமிழ்நாடு வாசகரைப் பாதிக்கும் தமிழ்த் திரையு
-[skip] வெளிநாட்டுத் தொடரச் செய்தி. இந்திய அணி கிரிக்கெட் விளையாடுவத
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தரபுரம் பிரச்சாரத்தில் விஜய், தவெக
-[tts-edge] 6f9568764fdf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தரபுரம் பிரச்சாரத்தில் விஜய், தவெகவை அதிமுக வாரிசு என அறிவிப்பு
-[skip] உலக செய்திகளில் தமிழ்நாடு / இந்தியாவுக்குச் சிறப்புத் தொடர்ப
-[திருத்தம்] வேட்பாளர்களை இழுப்பதால் இடைத்தேர்தல் என  → வேட்டுவம் செய்வதால் இடைத்தேர்தல் என கனிம
-[tts-edge] e4c75ec1098a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வேட்டுவம் செய்வதால் இடைத்தேர்தல் என கனிமொழி குற்றச்சாட்டு
-[skip] ஈத்தியோப்பியாவின் உள்நாட்டு மோதல். தமிழ்நாடு / இந்தியாவுடன் 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfa9jmrMbDQpuAZDNhu8a'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfa9nGx8EirSB48LE8n8y'}
+[run] புதியவை 672 → நிகழ்வுகள் 623
+[triage] சேமித்த மதிப்பெண் (586) — புதிய அழைப்பு இல்லை
+[triage] 623 → 63 | காலி: india:4, crime:4, tn:3, world:3, court:3
+[skip] வெளிநாட்டு ক্রিকেট தোற்றுமை — இந்திய அணির ஒரு ஓடிআই போட்டிக்
+[tts-edge] fa4d803b4018: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதராஸ் பல்கலைக்கழகத்தில் மூன்று உயர்பதவி காலியிடங்களுக்கு விண்ணப்பம்
+[திருத்தம்] வலி நிவாரணி, நுண்ணுயிர்க் கொல்லி மருந்து → வலி நிவாரணி, நுண்ணுயிர்க் கொல்லி மருந்து
+[tts-edge] c087224c1109: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வலி நிவாரணி, நுண்ணுயிர்க் கொல்லி மருந்து — மருந்து ஒழுங்குபடுத்துநர் எச்சரிக்கை
+[skip] இது அமெரிக்க அரசியல் சச்சரவு மற்றும் ஆங்கிலேய நாட்டு உள்ளூர்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaBFEKVzbJoUbhkop6ma'}
+[திருத்தம்] எம்.ஜி.ஆர் பல்கலைக்கழகத்தில் 4,200 மாணவர → எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் 4,200 முது
+[தரம்] தமிழ் அல்லாத எழுத்து: तस्ష → ஒரு திருத்தம்
+[publish] எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் 4,200 முதுபக்ஷ மாணவர்களுக்கு பட்டமளிப்பு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Health Department cautions candidates applying f
+[திருத்தம்] காசிமேடு மீனவர்கள் ஆந்திரத்தில் சிக்கிய  → காசிமேடு மீனவர்கள் ஆந்திரப் பிரதேசத்தில்
+[தரம்] தமிழ் அல்லாத எழுத்து: द → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): காசிமேடு மீனவர்கள் ஆந்திரப் பிரதேச
+[publish] காசிமேடு மீனவர்கள் ஆந்திரப் பிரதேசத்தில் சிக்கிய படகுகள் மீட்பு கோரி காலவரையற்ற போராட்டம்
+[skip] பொதுவாக உசாவல் அறிக்கை; தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்கவி
+[skip] வெளிநாட்டு/பிற மாநிலச் செய்தி — ஆந்திரப்রதேச மீனவர்களின் உள்
+[skip] பிரான்ஸ் நாட்டின் அரசுக் கடன்பத்திர வட்டி உயர்வு தொடர்பான செ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Nurses stage hunger protest over temporary appoi
+[திருத்தம்] எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் 4,200 பேரு → எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் 4,200 பேரு
+[publish] எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் 4,200 பேருக்குப் பட்டமளிப்பு விழா
+[skip] வெளிநாட்டுப் பதற்றம் — தமிழ்நாடு/இந்தியாவுக்கு நேரடித் தொடர்
+[திருத்தம்] தொடர் ஓட்டத்தில் வெல்லும் தடகள வீரர்களுக → தொடர் ஓட்டத்தில் வென்ற தடகள வீரர்களுக்கு
+[image] களஞ்சியம் (3 சொல்): தொடர் ஓட்டத்தில் வென்ற தடகள வீரர்க
+[publish] தொடர் ஓட்டத்தில் வென்ற தடகள வீரர்களுக்குத் தலா 30 லட்சம் ரூபாய்
+[publish] எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் நான்காயிரம் இருநூறு பட்டதாரிகளுக்குப் பட்டம்
+[skip] வெளிநாட்டு நிறுவனத்தின் உள்நாட்டுத் தயாரிப்பு அறிவிப்பு — தம
+[skip] பஞ்சாப் மாநிலத்தின் உள்ளூர் அரசியல் கட்சிகளுக்கிடையேயான குற்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man arrested for recurring bomb threat hoax
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] தலைமைத் தேர்தல் ஆணையர் கைது கோரி திருமாவ → தலைமைத் தேர்தல் ஆணையர் ராஜினாமா, கைது கோ
-[publish] தலைமைத் தேர்தல் ஆணையர் ராஜினாமா, கைது கோரி தொல்.திருமாவளவன்
+[திருத்தம்] சிபிஐ விசாரணைக்கு மாற்ற உயர்நீதிமன்றம் ம → 'ஜெம்' வீரமணி வழக்கை சிபிஐ விசாரணைக்கு ம
+[தரம்] மூலத்தில் இல்லாத எண்: 200 → ஒரு திருத்தம்
+[publish] 'ஜெம்' வீரமணி வழக்கை சிபிஐ விசாரணைக்கு மாற்ற உயர்நீதிமன்றம் மறுப்பு
+[skip] வெளிநாட்டு வாகன நிறுவனத்தின் சந்தை அறிவிப்பு. தமிழ்நாடு / இந
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaBiPQTCVGLSkY1rAc4t'}
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Kasimedu fishers to go on indefinite strike, ask
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; மாவட்டங்களின் பெயர், அறிவி
+[skip] தமிழ்நாட்டுக்குப் பொருந்தாத பிற மாநிலக் கொள்கை / ரাজ்ய விশেষ
+[skip] இது டெல்லியில் நடந்த உள்ளூர் குற்றச் சம்பவம்; தமிழ்நாட்டுடன்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Couple arrested for allegedly swindling ₹7.16 cr
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaBpUuGGzVQoX3ongd3N'}
+[publish] நாளை கிராம சபைக் கூட்டம்: பங்கேற்க அழைப்பு
+[skip] இது தில்லியில் நடந்த ஒரு தனிப்பட்ட கொலை வழக்கு தொடர்பான உள்ள
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chitlapakkam residents flag high property tax, s
 [skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கு விவரங்கள், நீதிமன்ற
-[skip] மூலத்தில் போதிய உண்மைத் தகவல் இல்லை; தலைப்பு மட்டும் உள்ளது,
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, நிகழ்வின் விவரங்கள் (எங்கே
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; உரை, இடம், தேதி, மேற்கோள் 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaA73r7gpSXeohrUQvid'}
-[திருத்தம்] ஆறு மாதம் ரேஷன் வாங்காத அட்டைகள் நாளை மு → ஆறு மாதம் ரேஷன் வாங்காத அட்டைகள் நாளை மு
-[image] களஞ்சியம் (2 சொல்): ஆறு மாதம் ரேஷன் வாங்காத அட்டைகள் ந
-[publish] ஆறு மாதம் ரேஷன் வாங்காத அட்டைகள் நாளை முதல் முடக்கம்
+[skip] அசாம் மாநில முதல்வர் தொடர்பான உள்ளூர் சம்பவம் - தமிழ்நாட்டுட
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three men kill youth, dump body in Puzhal Lake
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இவை தமிழ்நாட்டில் அமைந்த அலுவலகங்கள் அல்ல - HLL (கேரளா) மற்ற
-[skip] போதிய விவரம் இல்லாத, குறிப்பிட்ட நகரத்தின் உள்ளூர் கதர் கண்க
-[skip] மூலத்தில் தலைப்பு மட்டும் உள்ளது; விவரங்கள், பின்னணி, எண்கள்
-[skip] DDK கொல்கத்தா மற்றும் TISS மும்பை ஆகியவற்றின் வேலைவாய்ப்பு அ
-[skip] இது ஹைதராபாத்தில் (தெலங்காணா) நடந்த உள்ளூர் சாலை விபத்துச் ச
-[skip] இது மகாராஷ்டிரா தொடர்பான உள்ளூர் மாணவர் மரணச் சம்பவம் தமிழ்ந
-[தரம்] தமிழ் அல்லாத எழுத்து: दा → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ராபி பருவத்துக்கு குறைந்தபட்ச ஆதார
-[publish] ராபி பருவத்துக்கு குறைந்தபட்ச ஆதார விலை உயர்வு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Govt. to soon sign MoU for CMRL’s takeover of MR
-[publish] வங்கிக் கடன் வட்டி விகிதம் ஆகஸ்டில் சற்று குறைவு: ரிசர்வ் வங்கி தரவு
-[திருத்தம்] சென்னையில் கதி சந்தா நடக்கிறது → சென்னையில் கதி சந்தா நடக்கவுள்ளது
-[தரம்] தமிழ் அல்லாத எழுத்து: शশ → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: சென்னையில் கதி சந்தா நடக்கவுள்ளது
-[publish] சென்னையில் கதி சந்தா நடக்கவுள்ளது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Declare govt. healthcare institutions as high-se
-[திருத்தம்] இந்தியாவின் வெளிநாட்டு முதலீட்டு நிலை தர → இந்தியாவின் சர்வதேச முதலீட்டு நிலை தரவை 
-[publish] இந்தியாவின் சர்வதேச முதலீட்டு நிலை தரவை வெளியிட்ட ரிசர்வ் வங்கி
-[skip] பொதுவான சுகாதார தகவல் — தமிழ்நாடு/இந்தியா தொடர்புடைய செய்தி 
-[திருத்தம்] ஐடிএஸ்எஃபஎஃப்கே 2026: அமேயா கோர் ஆவணப்பட → ஐடிஎஸ்எஃபএஃப்கே 2026: அமேயா கோர் 'கோயிங்
-[தரம்] தமிழ் அல்லாத எழுத்து: ाএ → ஒரு திருத்தம்
-[publish] ஐடிஎஸ்எஃப்எஃப்கே 2026: அமேயா கோர் 'கோயிங் சோலோ' ஆவணப்படம் பற்றிப் பேசினார்
-[skip] வெளிநாட்டு ওডিআই தொடர்: இந்திய அணির கிரிக்கெட் ஆட்டம் ஆனாலும
-[skip] பொருந்தாத மூலம் — தமிழ்நாடு அரசு அல்லது மத்திய அரசு அறிவிப்ப
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Northeast monsoon likely to be normal in Tamil N
-[skip] தமிழ்நாட்டு / இந்திய வாசகர்களுக்குப் நேரடித் தொடர்பு இல்லாத 
-[publish] இந்தியாவின் வெளிநாட்டுக் கடன் ஜூன் இறுதியில் 778.2 பில்லியன் டாலர்
-[comic] கதை: மறைவில் ஒரு காது
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3: பலகை 2-ஐப் போலவே உள்ளது (0.88) — மீண்டும் வரைகிறேன்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-01.png · நாள் 22
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹13224 · சென்செக்ஸ் 72480
+[skip] இது ஒரு பகுப்பாய்வுக் கட்டுரை; உறுதியான எண்கள், தேதிகள், குற
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: HC refuses to review order mandating micro plast
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை உருவாக்கப் போதிய 
+[skip] மூலத்தில் ஒரே ஒரு வாக்கியம் மற்றும் தலைப்பு மட்டுமே உள்ளது; 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Prime suspect in school recognition cheating cas
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; போட்டியின் பெயர், பதக்கம் 
+[skip] இது மேற்கு வங்காளத்தில் நடந்த உள்ளூர்ப் பள்ளிக் குற்றச் சம்ப
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TNPCB invites bids to supply white cloth bags to
+[திருத்தம்] ஜெம் வீரமணி மீது புதிய வழக்கு பதிவு → 'ஜெம்' வீரமணி மீது மேலும் ஒரு வழக்கு
+[image] களஞ்சியம் (3 சொல்): 'ஜெம்' வீரமணி மீது மேலும் ஒரு வழக்
+[publish] 'ஜெம்' வீரமணி மீது மேலும் ஒரு வழக்கு
+[market] தங்கம் 22K ₹13240 · சென்செக்ஸ் 72480
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 2 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 10

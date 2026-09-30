@@ -1,5 +1,68 @@
 [
  {
+  "headline": "வலி நிவாரணி, நுண்ணுயிர்க் கொல்லி மருந்து — மருந்து ஒழுங்குபடுத்துநர் எச்சரிக்கை",
+  "lines": [
+   "மருந்து ஒழுங்குபடுத்தும் அதிகாரம் வலி நிவாரணி மற்றும் நுண்ணுயிர்க் கொல்லி மருந்தை தொடர்ச்சியாக வாங்கி சாப்பிடக் கூடாது என எச்சரித்துள்ளது.",
+   "இந்த மருந்துகளை மருத்துவ ஆலோசனை இல்லாமல் பயன்படுத்தினால் சிறுநீரகம் பாதிக்கப்படும் ஆபத்து உள்ளது.",
+   "பொதுமக்கள் இந்த மருந்துகளை நீண்ட காலம் தொடர்ந்து உபயோகிக்க வேண்டாம் என அதிகாரம் அறிவுறுத்தியுள்ளது.",
+   "மருத்துவரின் பரிந்துரை இல்லாமல் மருந்துகளை வாங்கும் பழக்கம் ஆரோக்கியமற்ற தாக்கம் ஏற்படுத்துகிறது.",
+   "சிறுநீரக நோய் வராமல் தடுக்க மருத்துவ ஆலோசனை பெற்றுப் பின்பு மருந்து வாங்குவது அவசியம்."
+  ],
+  "closing": "சிறுநீரக நோய் தடுக்க மக்கள் எப்போதும் மருத்துவ ஆலோசனையைப் பெற்று மருந்து பயன்படுத்த வேண்டும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "மருந்து ஒழுங்குபடுத்தும் அதிகாரம்",
+   "வலி நிவாரணி",
+   "நுண்ணுயிர்க் கொல்லி",
+   "சிறுநீரகம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Warning issued on painkillers and antibiotics use without medical guidance",
+   "lines": [
+    "The drug regulator has warned the public against taking painkillers and antibiotics repeatedly or continuously without consulting a doctor.",
+    "Using these medications without medical advice for prolonged periods increases the risk of kidney damage.",
+    "The regulator has advised the public not to use these drugs long-term without professional guidance.",
+    "Self-medication without a doctor's recommendation is causing harmful health consequences.",
+    "Seeking medical advice before purchasing medicines is essential to prevent kidney disease."
+   ],
+   "closing": "People must follow doctors' guidance to maintain good health."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "medicine kidney health warning",
+  "wiki_subject": "Non-steroidal anti-inflammatory drug",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மக்கள்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c087224c1109",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-01T00:58+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/painkillers-antibiotics-and-kidney-disease-why-has-drug-regulator-issued-a-fresh-warning/article71523918.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/e/e3/NSAID_label.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Nonsteroidal anti-inflammatory drug",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Nonsteroidal_anti-inflammatory_drug",
+   "symbolic": false
+  },
+  "audio": "data/audio/c087224c1109.mp3",
+  "created_ts": 1790796516.0294082,
+  "status": "published"
+ },
+ {
   "headline": "காசநோய் தடுப்பு சிகிச்சையின் பாதுகாப்பு ஓராண்டுக்குப் பின் குறையக்கூடும்: ஆய்வு",
   "lines": [
    "காசநோய் பாதிப்பு அதிகமுள்ள நாடுகளில் தடுப்பு சிகிச்சையின் பாதுகாப்பு ஓராண்டுக்குப் பின் குறையக்கூடும் என்று ஆய்வு கண்டறிந்துள்ளது.",

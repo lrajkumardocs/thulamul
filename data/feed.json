@@ -1,5 +1,627 @@
 [
  {
+  "headline": "'ஜெம்' வீரமணி மீது மேலும் ஒரு வழக்கு",
+  "lines": [
+   "'ஜெம்' நிறுவனத்தை நடத்திய வீரமணி மீது மேலும் ஒரு புதிய வழக்கு பதிவு செய்யப்பட்டுள்ளது.",
+   "முதலீட்டாளர்களிடமிருந்து பணம் பெற்று ஏமாற்றியதாகக் கூறப்படும் புகார் அடிப்படையில் இந்த வழக்கு தொடரப்பட்டுள்ளது.",
+   "காவல் துறை அதிகாரிகள் இந்த வழக்குத் தொடர்பாக விசாரணையை மேற்கொண்டு வருவதாகத் தெரிவித்துள்ளனர்.",
+   "வீரமணி மீது ஏற்கெனவே பல வழக்குகள் பதிவு செய்யப்பட்டு விசாரணை நடைபெற்று வருவதாகத் தெரிகிறது.",
+   "இந்த புதிய வழக்குத் தொடர்பான மேலதிக விசாரணை தொடர்ந்து நடைபெறும் என அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "வீரமணி மீதான வழக்குகள் தொடர்பாக விசாரணை இன்னும் நடைபெற்று வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ஜெம் நிறுவனம்",
+   "வீரமணி",
+   "காவல் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "New case registered against Gem Veeramani",
+   "lines": [
+    "A new case has been registered against Veeramani, who ran the Gem company.",
+    "The case was filed based on a complaint alleging that investors were cheated of money.",
+    "Police officials said an investigation into the case is currently underway.",
+    "Several cases have reportedly already been registered against Veeramani, with investigations ongoing.",
+    "Officials said further investigation into this new case will continue."
+   ],
+   "closing": "Investigations into the cases against Veeramani are still ongoing."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "32f11d988544",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-01T01:09+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/30/another-case-filed-against-gem-veeramani"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/32f11d988544.mp3",
+  "created_ts": 1790797171.258036,
+  "status": "published"
+ },
+ {
+  "headline": "நாளை கிராம சபைக் கூட்டம்: பங்கேற்க அழைப்பு",
+  "lines": [
+   "தமிழ்நாட்டில் நாளை (10 அக்டோபர்) கிராம சபைக் கூட்டம் நடைபெறவுள்ளது.",
+   "முதல்வர் ஸ்டாலின் மக்கள் திரளாக இக்கூட்டத்தில் பங்கேற்க வேண்டும் என அழைப்பு விடுத்துள்ளார்.",
+   "கிராம சபை உள்ளாட்சி அமைப்பின் அடிப்படையான நிறுவனம் என அவர் கூறினார்.",
+   "மக்கள் உரிமைகளைக் காக்கவும் அபிவிருத்தி திட்டங்களைக் கட்டுப்பாட்டுக்கு கொண்டுவரவும் கிராம சபைகள் உதவுகின்றன.",
+   "கூட்டத்தின் முழு விவரங்கள் உள்ளாட்சி ஆணையத் தரப்பு அறிவிக்கப்படும்."
+  ],
+  "closing": "கிராம சபை கூட்டம் உள்ளாட்சி ஆட்சியின் அடிப்படையாக பார்க்கப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": "2026-10-01"
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு",
+   "முதல்வர் ஸ்டாலின்",
+   "கிராம சபை",
+   "உள்ளாட்சி"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Village Assembly Meeting Tomorrow: People Urged to Participate",
+   "lines": [
+    "Village assembly meetings will be held across Tamil Nadu tomorrow (October 10).",
+    "Chief Minister Stalin has urged people to participate in the meetings in large numbers.",
+    "He said village assemblies are the foundation of the local government system.",
+    "They help protect people's rights and bring development schemes under public control.",
+    "The municipal administration will announce the full details of the meetings."
+   ],
+   "closing": "Village assemblies are considered the foundation of grassroots governance."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Gram Sabhas in India",
+  "person_en": "M. K. Stalin",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "4293e6230adb",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-01T01:07+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/30/gram-sabha-meeting-tomorrow-people-must-participate-in-large-numbers-cm-vijay"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Chief_Minister_of_Tamil_Nadu%2C_Thiru_MK_Stalin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · M. K. Stalin",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/M._K._Stalin",
+   "symbolic": false
+  },
+  "audio": "data/audio/4293e6230adb.mp3",
+  "created_ts": 1790797031.0258574,
+  "status": "published"
+ },
+ {
+  "headline": "'ஜெம்' வீரமணி வழக்கை சிபிஐ விசாரணைக்கு மாற்ற உயர்நீதிமன்றம் மறுப்பு",
+  "lines": [
+   "ஜெம் டைமண்டஸ் நிறுவனத்தின் தலைவர் வீரமணி வழக்கை சிபிஐக்கு மாற்றும் வேண்டுகோளை சென்னை உயர்நீதிமன்றம் நிராகரித்துவிட்டது.",
+   "வீரமணி மீதான பெரும் மோசடி குற்றச்சாட்டுடன் தமிழ்நாடு காவல்துறை விசாரணை நடத்திவருகிறது.",
+   "வழக்கை மத்திய விசாரணை முகமையில் ஒப்படைப்பது தேவையில்லை என்று நீதிமன்றம் தீர்ப்பளித்துள்ளது.",
+   "ஜெம் சம்பந்தமாக முந்தைய ஆண்டுகளில் பல புகார்கள் பாதுகாப்புக் குழு அளவிலும் எழுந்துவந்துள்ளன.",
+   "தமிழ்நாடு காவல்துறை தொடர்ந்து விசாரணை மேற்கொண்டு வரும் நிலையில் உயர்நீதிமன்றத் தீர்ப்பு ஏற்கெனவே பதிவு செய்யப்பட்ட வழக்குக்குப் பொருந்தாது."
+  ],
+  "closing": "ஜெம் டைமண்டஸ் நிறுவனத்தை சுற்றியுள்ள பல ஆய்வுகள் நடந்துவருவதாக தெரிந்துள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "சென்னை உயர்நீதிமன்றம்",
+   "சிபிஐ",
+   "ஜெம் டைமண்டஸ்",
+   "வீரமணி",
+   "தமிழ்நாடு காவல்துறை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "High Court rejects plea to transfer Veeramani case to CBI",
+   "lines": [
+    "The Madras High Court has rejected a plea to transfer the case of Gem Diamonds founder Veeramani to the Central Bureau of Investigation.",
+    "Veeramani is under investigation by the Tamil Nadu Police for fraud charges exceeding Rs 200 crore.",
+    "The court ruled that transferring the case to the central agency is not necessary.",
+    "Multiple complaints have been filed in the past against Gem Diamonds at security committee levels.",
+    "The high court's order does not apply to cases already registered as Tamil Nadu Police continues its investigation."
+   ],
+   "closing": "Several inquiries surrounding Gem Diamonds company are reportedly underway."
+  },
+  "front_cat": "court_landmark",
+  "image_query": "",
+  "wiki_subject": "Madras High Court",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e9d5e7975e62",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-01T01:04+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/30/high-court-refuses-to-transfer-gem-veeramani-case-to-cbi"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Madras High Court",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
+   "symbolic": false
+  },
+  "audio": "data/audio/e9d5e7975e62.mp3",
+  "created_ts": 1790796885.992437,
+  "status": "published"
+ },
+ {
+  "headline": "எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் நான்காயிரம் இருநூறு பட்டதாரிகளுக்குப் பட்டம்",
+  "lines": [
+   "எம்.ஜி.ஆர். பல்கலைக்கழகத்தின் பட்டமளிப்பு விழாவில் நான்காயிரம் இருநூறு பட்டதாரிகள் பட்டம் பெற்றனர்.",
+   "கலைப்பு, விஞ்ஞான, வணிகம், சட்டம், பொறியியல் உள்ளிட்ட பல்வேறு துறைகளில் பட்டம் பெற்ற பட்டதாரிகளே இந்த எண்ணிக்கையை உள்ளடக்குகின்றனர்.",
+   "பல்கலைக்கழக நிர்வாகம் தமிழ்நாட்டின் வாசகர்களின் திறமைவளர்ச்சியை ஊக்குவிக்க முழுமையாக பணிபுரிந்து வருவதாக அறிவித்துள்ளது.",
+   "பட்டதாரிகள் நாட்டின் பல்வேறு துறைகளில் பணிபுரியக் கோரப்பட்டுள்ளனர்.",
+   "எம்.ஜி.ஆர். பல்கலைக்கழகம் பட்டதாரிகளுக்கு நல்வாழ்த்துக்கள் தெரிவித்துள்ளது."
+  ],
+  "closing": "எம்.ஜி.ஆர். பல்கலைக்கழகத்தின் இந்த பட்டமளிப்பு விழா தமிழ்நாட்டின் உயர்கல்வியில் ஓர் முக்கிய மைல்கல்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": "Govt Policy",
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "எம்.ஜி.ஆர். கல்வியியல் பல்கலைக்கழகம்",
+   "சென்னை",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "4,200 graduands receive degrees at M.G.R. University",
+   "lines": [
+    "M.G.R. Educational University held its convocation ceremony, awarding degrees and certificates to 4,200 graduates across various disciplines.",
+    "The graduates received qualifications in arts, science, commerce, law, engineering and other fields from the institution.",
+    "The university administration stated it continues to work towards developing the talent of Tamil Nadu's students across all streams.",
+    "The graduates have been encouraged to pursue careers in various sectors of the nation.",
+    "M.G.R. Educational University conveyed its congratulations to the graduates through an official press release."
+   ],
+   "closing": "The convocation ceremony of M.G.R. Educational University marks an important milestone in Tamil Nadu's higher education landscape."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "M.G.R. Educational University",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "194a356b1741",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-01T01:03+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/4200-graduands-receive-degrees-at-mgr-university/article71529729.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt03.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/194a356b1741.mp3",
+  "created_ts": 1790796812.3860006,
+  "status": "published"
+ },
+ {
+  "headline": "தொடர் ஓட்டத்தில் வென்ற தடகள வீரர்களுக்குத் தலா 30 லட்சம் ரூபாய்",
+  "lines": [
+   "முதல்வர் மு.க.ஸ்டாலின் தொடர் ஓட்டப் போட்டிகளில் வென்ற தமிழ்நாட்டு தடகள வீரர்களுக்குத் தலா 30 லட்சம் ரூபாய் பரிசுத் தொகை வழங்க அறிவிப்பு செய்துள்ளார்.",
+   "இந்த முடிவு தடகளத் துறையில் மாநிலத்தின் பங்களிப்பை மேலும் வலுப்படுத்தும் என்று அரசு தரப்பிலிருந்து தெரிவிக்கப்பட்டுள்ளது.",
+   "தமிழ்நாட்டு வீரர்கள் தேசியம் மற்றும் சர்வதேசப் போட்டிகளில் பல்வேறு சாதனைகளை ஈட்டியுள்ளனர்.",
+   "இந்தப் பரிசு அறிவிப்பு வீரர்களின் கடoபனை மற்றும் பயிற்சிப் முயற்சிகளுக்கான ஊக்கம் வழங்கும் நோக்கம் கொண்டுள்ளது.",
+   "விளையாட்டில் தமிழ்நாட்டின் பங்கு இனிமேல் மேலும் பெருக்கப்பட வேண்டும் என்பது அரசின் நீண்டகால முயற்சிக்கான பகுதியாகும்."
+  ],
+  "closing": "தடகளத் துறையில் சாதனை ஈட்டும் வீரர்களைக் கௌரவப்படுத்தும் இந்த முடிவு மாநிலத்தின் விளையாட்டு வளர்ச்சிக்கான உறுதிப்பாட்டை எடுத்துக்காட்டுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Sports",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "sports",
+  "entities": [
+   "தமிழ்நாடு",
+   "தடகளம்",
+   "முதல்வர் மு.க.ஸ்டாலின்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Athletes winning in consecutive races to get Rs 30 lakh each: CM announces",
+   "lines": [
+    "Chief Minister M.K. Stalin announced that Tamil Nadu athletes winning consecutive athletic events will receive Rs 30 lakh each as prize money.",
+    "The government stated this decision will strengthen the state's contribution to the sports sector.",
+    "Tamil Nadu athletes have achieved several milestones in national and international competitions.",
+    "This incentive aims to encourage athletes' dedication and training efforts.",
+    "Recognizing athletic achievers is part of the state's long-term sports development commitment."
+   ],
+   "closing": "This decision honoring athletes who excel in athletics reflects the state's commitment to sports development."
+  },
+  "front_cat": "routine",
+  "image_query": "athletics medal winners podium",
+  "wiki_subject": "Atikur Rahman (athlete) OR Athletics in Tamil Nadu",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "2c5f64ee9a35",
+  "topic_ta": "விளையாட்டு",
+  "published_at": "2026-10-01T01:03+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/29/chief-minister-vijay-announces-rs-30-lakh-each-for-relay-race-winning-athletes-asian"
+  ],
+  "image": {
+   "url": "data/bank/sports05.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/2c5f64ee9a35.mp3",
+  "created_ts": 1790796792.693571,
+  "status": "published"
+ },
+ {
+  "headline": "எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் 4,200 பேருக்குப் பட்டமளிப்பு விழா",
+  "lines": [
+   "சென்னையில் உள்ள டாக்டர் எம்.ஜி.ஆர். கல்வி மற்றும் ஆராய்ச்சி நிறுவனப் பல்கலைக்கழகத்தில் பட்டமளிப்பு விழா நடைபெற்றது.",
+   "இந்த விழாவில் 4,200 மாணவர்கள் தங்களுடைய பட்டங்களைப் பெற்றுக்கொண்டனர்.",
+   "பல்வேறு பாடப் பிரிவுகளில் பயின்ற மாணவர்கள் இந்த விழாவில் பங்கேற்று சான்றிதழ் பெற்றனர்.",
+   "இந்தப் பல்கலைக்கழகம் மருத்துவம், பொறியியல் உள்ளிட்ட பல துறைகளில் கல்வி வழங்கி வருகிறது.",
+   "இதுபோன்ற பட்டமளிப்பு விழாக்கள் ஆண்டுதோறும் இப் பல்கலைக்கழகத்தில் நடத்தப்பட்டு வருகின்றன."
+  ],
+  "closing": "இந்தப் பல்கலைக்கழகம் தமிழக முன்னாள் முதல்வர் எம்.ஜி.ஆர். அவர்களின் நினைவாக அமைக்கப்பட்டது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-10-01"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "எம்.ஜி.ஆர். பல்கலைக்கழகம்",
+   "சென்னை",
+   "பட்டதாரிகள்",
+   "பட்டமளிப்பு விழா"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "M.G.R. University confers degrees on 4,200 graduands",
+   "lines": [
+    "A convocation ceremony was held at Dr. M.G.R. Educational and Research Institute University in Chennai.",
+    "At the ceremony, 4,200 students received their degrees.",
+    "Students who completed studies across various disciplines took part in the event and received certificates."
+   ]
+  },
+  "id": "194a356b1741",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-01T01:02+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/4200-graduands-receive-degrees-at-mgr-university/article71529729.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/194a356b1741.mp3",
+  "created_ts": 1790796767.8577502,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "காசிமேடு மீனவர்கள் ஆந்திரப் பிரதேசத்தில் சிக்கிய படகுகள் மீட்பு கோரி காலவரையற்ற போராட்டம்",
+  "lines": [
+   "சென்னை காசிமேடு மீனவர்கள் ஆந்திரப் பிரதேசத்தில் சிக்கிய தங்கள் படகுகளை மீட்க வலியுறுத்தி காலவரையற்ற போராட்டத்தில் இறங்க உள்ளனர்.",
+   "கடந்த ஏப்ரல் 2026-ல் பிடிக்கப்பட்ட இந்தப் படகுகள் நூறு நாட்களுக்கும் மேலாக ஆந்திரப் பிரதேசத்தில் தடுத்து வைக்கப்பட்டுள்ளதாக மீனவர்கள் தெரிவிக்கின்றனர்.",
+   "மத்திய அரசின் தலையீட்டைக் கோரி தமிழ்நாடு அரசு உடனடி நடவடிக்கை எடுக்க வேண்டும் என மீனவ சமூகத் தலைவர் வலியுறுத்தியுள்ளார்.",
+   "படகுகள் விடுவிக்கப்படாத நிலையில் மீன்பிடி தொழிலாளர்களின் வாழ்வாதாரம் பாதிக்கப்பட்டுள்ளதாக மீனவர் சங்கத்தினர் கூறுகின்றனர்.",
+   "அரசு உடனடி நடவடிக்கை எடுக்கவில்லையெனில் காசிமேடு மீனவர்கள் காலவரையற்ற வேலைநிறுத்தத்தில் இறங்குவார்கள் என எச்சரிக்கை விடுக்கப்பட்டுள்ளது."
+  ],
+  "closing": "இத்தகைய படகுகள் பறிமுதல் சிக்கல்கள் தமிழ்நாடு, ஆந்திரப் பிரதேசம் மீனவர்களிடையே அவ்வப்போது எழுவது வழக்கம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "காசிமேடு",
+   "சென்னை",
+   "ஆந்திரப் பிரதேசம்",
+   "மீனவர் சங்கம்",
+   "தமிழ்நாடு அரசு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Kasimedu fishers plan indefinite strike over boats held in Andhra",
+   "lines": [
+    "Fishers from Kasimedu in Chennai are planning an indefinite strike demanding the return of their boats held captive in Andhra Pradesh.",
+    "The boats, caught in April this year, have reportedly been detained for over a hundred days in Andhra Pradesh, the fishers say.",
+    "A community leader has urged the Tamil Nadu government to seek the Centre's intervention to secure the release of the boats.",
+    "Fishing workers' livelihoods have been affected as the boats remain undelivered, according to fishers' association members.",
+    "Fishers have warned they will launch an indefinite strike if the government fails to take immediate action."
+   ],
+   "closing": "Such disputes over seized fishing boats between Tamil Nadu and Andhra Pradesh fishers have occurred periodically in the past."
+  },
+  "front_cat": "strike_protest",
+  "image_query": "fishing boats harbor India",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "id": "4d35a2497656",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-01T01:01+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/kasimedu-fishers-to-go-on-indefinite-strike-ask-govt-to-retrieve-captive-boats-in-andhra-pradesh/article71529897.ece"
+  ],
+  "image": {
+   "url": "data/bank/fisher01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/4d35a2497656.mp3",
+  "created_ts": 1790796700.0511718,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் 4,200 முதுபக்ஷ மாணவர்களுக்கு பட்டமளிப்பு",
+  "lines": [
+   "எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் சமீபத்தில் நடைபெற்ற பட்டமளிப்பு விழாவில் மாணவர்களுக்குப் பட்டங்கள் வழங்கப்பட்டன.",
+   "மொத்தம் 4,200 பட்டதாரிகள் இந்த விழாவில் தங்கள் பட்டங்களைப் பெற்றனர்.",
+   "பல்கலைக்கழக நிர்வாகம் இந்த விழாவை நடத்திய தகவல்கள் மட்டும் வெளியிட்டுள்ளது.",
+   "மாணவர்கள் பல்வேறு படிப்புகளை முடித்து இந்த பட்டமளிப்பு விழாவில் கலந்துகொண்டனர்.",
+   "இந்த விழா குறித்த கூடுதல் விவரங்கள் பல்கலைக்கழகத்தால் பின்னர் வெளியிடப்படக் கூடும்."
+  ],
+  "closing": "இந்த பட்டமளிப்பு விழா குறித்த விரிவான விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "எம்.ஜி.ஆர் பல்கலைக்கழகம்",
+   "பட்டமளிப்பு விழா",
+   "மாணவர்கள்"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "M.G.R. University confers degrees on 4,200 graduands",
+   "lines": [
+    "A convocation ceremony was recently held at M.G.R. University where students received their degrees.",
+    "A total of 4,200 students received their degrees at the ceremony.",
+    "The university administration has released only basic details about the event.",
+    "Students who completed various courses attended the convocation ceremony.",
+    "Further details about the event may be announced later by the university."
+   ],
+   "closing": "Further details about this convocation ceremony have not yet been officially released."
+  },
+  "id": "194a356b1741",
+  "flags": [],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-01T01:00+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/4200-graduands-receive-degrees-at-mgr-university/article71529729.ece",
+   "https://www.thehindu.com/news/national/tamil-nadu/4200-graduands-receive-degrees-at-mgr-university/article71529729.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/194a356b1741.mp3",
+  "created_ts": 1790796631.5059643,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "வலி நிவாரணி, நுண்ணுயிர்க் கொல்லி மருந்து — மருந்து ஒழுங்குபடுத்துநர் எச்சரிக்கை",
+  "lines": [
+   "மருந்து ஒழுங்குபடுத்தும் அதிகாரம் வலி நிவாரணி மற்றும் நுண்ணுயிர்க் கொல்லி மருந்தை தொடர்ச்சியாக வாங்கி சாப்பிடக் கூடாது என எச்சரித்துள்ளது.",
+   "இந்த மருந்துகளை மருத்துவ ஆலோசனை இல்லாமல் பயன்படுத்தினால் சிறுநீரகம் பாதிக்கப்படும் ஆபத்து உள்ளது.",
+   "பொதுமக்கள் இந்த மருந்துகளை நீண்ட காலம் தொடர்ந்து உபயோகிக்க வேண்டாம் என அதிகாரம் அறிவுறுத்தியுள்ளது.",
+   "மருத்துவரின் பரிந்துரை இல்லாமல் மருந்துகளை வாங்கும் பழக்கம் ஆரோக்கியமற்ற தாக்கம் ஏற்படுத்துகிறது.",
+   "சிறுநீரக நோய் வராமல் தடுக்க மருத்துவ ஆலோசனை பெற்றுப் பின்பு மருந்து வாங்குவது அவசியம்."
+  ],
+  "closing": "சிறுநீரக நோய் தடுக்க மக்கள் எப்போதும் மருத்துவ ஆலோசனையைப் பெற்று மருந்து பயன்படுத்த வேண்டும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "மருந்து ஒழுங்குபடுத்தும் அதிகாரம்",
+   "வலி நிவாரணி",
+   "நுண்ணுயிர்க் கொல்லி",
+   "சிறுநீரகம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Warning issued on painkillers and antibiotics use without medical guidance",
+   "lines": [
+    "The drug regulator has warned the public against taking painkillers and antibiotics repeatedly or continuously without consulting a doctor.",
+    "Using these medications without medical advice for prolonged periods increases the risk of kidney damage.",
+    "The regulator has advised the public not to use these drugs long-term without professional guidance.",
+    "Self-medication without a doctor's recommendation is causing harmful health consequences.",
+    "Seeking medical advice before purchasing medicines is essential to prevent kidney disease."
+   ],
+   "closing": "People must follow doctors' guidance to maintain good health."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "medicine kidney health warning",
+  "wiki_subject": "Non-steroidal anti-inflammatory drug",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மக்கள்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c087224c1109",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-01T00:58+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/painkillers-antibiotics-and-kidney-disease-why-has-drug-regulator-issued-a-fresh-warning/article71523918.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/e/e3/NSAID_label.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Nonsteroidal anti-inflammatory drug",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Nonsteroidal_anti-inflammatory_drug",
+   "symbolic": false
+  },
+  "audio": "data/audio/c087224c1109.mp3",
+  "created_ts": 1790796516.0294082,
+  "status": "published"
+ },
+ {
+  "headline": "மதராஸ் பல்கலைக்கழகத்தில் மூன்று உயர்பதவி காலியிடங்களுக்கு விண்ணப்பம்",
+  "lines": [
+   "சென்னை மதராஸ் பல்கலைக்கழகம் மூன்று முக்கியப் பதவிகளுக்கான காலியிடங்களை அறிவித்துள்ளது.",
+   "தேர்வுக் கட்டுப்பாட்டாளர், தொலைதூர கல்வி மைய இயக்குநர், கல்லூரி மேம்பாட்டு கவுன்சில் ஆசிரியர் ஆகிய பதவிகள் நிரப்பப்பட உள்ளன.",
+   "தகுதியான விண்ணப்பதாரர்கள் அக்டோபர் 16 ஆம் தேதிக்குள் நேரடி விண்ணப்பம் அளிக்க வேண்டும் என பல்கலைக்கழகம் தெரிவித்துள்ளது.",
+   "விண்ணப்பப் படிவம் மற்றும் விரிவான அறிவிப்பு பல்கலைக்கழகத்தின் அதிகாரப்பூர்வ இணையதளத்தில் கிடைக்கும்.",
+   "தகுதி வாய்ந்தோர் விரைவில் விண்ணப்பங்களைச் சமர்ப்பிக்குமாறு கேட்டுக்கொள்ளப்பட்டுள்ளனர்."
+  ],
+  "closing": "கடைசி நாளான அக்டோபர் 16 ஆம் தேதிக்குள் விண்ணப்பிக்கத் தவறினால் வாய்ப்பு இழக்க நேரிடும் என்பதால் தகுதியானவர்கள் விரைவில் நடவடிக்கை எடுக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "மதராஸ் பல்கலைக்கழகம்",
+   "சென்னை",
+   "தேர்வுக் கட்டுப்பாட்டாளர்",
+   "தொலைதூர கல்வி மையம்"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Madras University invites applications for three senior posts",
+   "lines": [
+    "Madras University in Chennai has announced vacancies for three key administrative positions.",
+    "The posts include Controller of Examinations, Director of the Centre for Distance and Online Education, and Dean of the College Development Council.",
+    "Eligible candidates must submit offline applications by October 16, the university said.",
+    "The application form and detailed notification are available on the university's official website.",
+    "Interested candidates have been asked to submit their applications at the earliest."
+   ],
+   "closing": "Candidates who miss the October 16 deadline risk losing the opportunity, making prompt action necessary for those eligible."
+  },
+  "front_cat": "exam_jobs_deadline",
+  "image_query": "",
+  "wiki_subject": "University of Madras",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "fa4d803b4018",
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-10-01T00:58+05:30",
+  "links": [
+   "https://www.freejobalert.com/articles/aiims-delhi-recruitment-2026-apply-online-for-deo-senior-research-fellow-posts-3070570",
+   "https://www.freejobalert.com/articles/madras-university-recruitment-2026-apply-offline-for-dean-professor-cum-director-and-more-posts-3070565",
+   "https://www.freejobalert.com/articles/jipmer-data-entry-operator-recruitment-2026-apply-online-3070558",
+   "https://www.freejobalert.com/articles/iiitdm-jabalpur-junior-research-fellow-recruitment-2026-apply-online-3070551",
+   "https://www.freejobalert.com/articles/iiitdm-jabalpur-junior-research-fellow-jrf-recruitment-2026-apply-online-3070549"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2e/Madras_University_Seal.svg/330px-Madras_University_Seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · University of Madras",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/University_of_Madras",
+   "symbolic": false
+  },
+  "audio": "data/audio/fa4d803b4018.mp3",
+  "created_ts": 1790796499.3443055,
+  "status": "published"
+ },
+ {
   "headline": "இந்தியாவின் வெளிநாட்டுக் கடன் ஜூன் இறுதியில் 778.2 பில்லியன் டாலர்",
   "lines": [
    "இந்திய ரிசர்வ் வங்கி வெளியிட்ட புள்ளிவிவரப்படி, 2026 ஜூன் மாத இறுதியில் இந்தியாவின் வெளிநாட்டுக் கடன் 778.2 பில்லியன் டாலராக இருந்தது.",
@@ -17921,610 +18543,6 @@
   },
   "audio": "data/audio/7f5ad6aa426b.mp3",
   "created_ts": 1790111634.0539029,
-  "status": "published"
- },
- {
-  "headline": "கிருஷ்ணகிரி நுகர்வோர் ஆணையம் NHAI-க்கு ஒரு கோடி ரூபாய் இழப்பீடு, பயணிக்கு ₹1 லட்சம்",
-  "lines": [
-   "கிருஷ்ணகிரி மாவட்ட நுகர்வோர் தகராறு தீர்வாணையம், தேசிய நெடுஞ்சாலை ஆணையத்தையும் அதன் ஒப்பந்தக்காரர் M/s. ஷிவா பில்ட்டெக் நிறுவனத்தையும் 'சேவையில் கடும் குறைபாடு' என்ற குற்றத்தில் குற்றவாளியாக அறிவித்துள்ளது.",
-   "கிருஷ்ணகிரி முதல் ஓசூர் வரையிலான சாலைப் பகுதியை முறையாகப் பராமரிக்காததால் ஒரு கோடி ரூபாய் இழப்பீடு செலுத்துமாறு உத்தரவிடப்பட்டுள்ளது.",
-   "இச்சாலையைப் பயன்படுத்திய பயணிக்கு தனியாக ஒரு லட்சம் ரூபாய் நஷ்ட ஈடு வழங்கவும் ஆணையம் உத்தரவிட்டுள்ளது.",
-   "கட்டணம் வசூலித்த போதிலும் சாலைப் பராமரிப்பில் கடும் குறைபாடு இருந்ததாக ஆணையம் தன் உத்தரவில் குறிப்பிட்டுள்ளது.",
-   "இந்த உத்தரவுக்கு எதிராக மேல்முறையீடு செய்ய தேசிய நெடுஞ்சாலை ஆணையத்திற்கும் ஒப்பந்தக்காருக்கும் வாய்ப்பு உள்ளது."
-  ],
-  "closing": "நெடுஞ்சாலை கட்டணம் வசூலிக்கும் நிறுவனங்களின் பராமரிப்புப் பொறுப்பு குறித்த கேள்விகளை இந்தத் தீர்ப்பு எழுப்பியுள்ளது.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "கிருஷ்ணகிரி நுகர்வோர் தகராறு தீர்வாணையம்",
-   "தேசிய நெடுஞ்சாலை ஆணையம்",
-   "ஷிவா பில்ட்டெக்",
-   "கிருஷ்ணகிரி-ஓசூர் நெடுஞ்சாலை"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Krishnagiri Consumer Court Fines NHAI One Crore Rupees",
-   "lines": [
-    "The Krishnagiri District Consumer Disputes Redressal Commission has held the National Highways Authority of India and its contractor Shiva Buildtech guilty of deficiency in service.",
-    "The order directs them to pay one crore rupees in damages for failing to properly maintain the Krishnagiri to Hosur highway stretch.",
-    "A commuter who used the road has been separately awarded one lakh rupees in compensation by the commission.",
-    "The commission noted that despite collecting toll revenue, there was gross deficiency in maintaining the road.",
-    "NHAI and the contractor have the option to appeal against this order."
-   ],
-   "closing": "The ruling raises questions about the maintenance responsibilities of companies that collect highway tolls."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "national highway toll plaza india",
-  "wiki_subject": "National Highways Authority of India",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "056d8f7409ac",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-09-23T02:39+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/Coimbatore/krishnagiriconsumer-court-directsnhai-contractor-to-pay-1lakhto-commuter-1crorein-damages/article71495770.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4e/National_Highways_Authority_of_India_logo.svg/330px-National_Highways_Authority_of_India_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · National Highways Authority of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/National_Highways_Authority_of_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/056d8f7409ac.mp3",
-  "created_ts": 1790111376.6926842,
-  "status": "published"
- },
- {
-  "headline": "செப். 28 முதல் 3 நாள் வங்கி வேலைநிறுத்தம்: வங்கிகள், ஏடிஎம் மையங்களுக்குப் பாதுகாப்பு அளிக்க மத்திய உள்துறை அறிவுறுத்தல்",
-  "lines": [
-   "வரும் செப்டம்பர் 28-ம் தேதி முதல் மூன்று நாட்கள் நாடு தழுவிய வங்கி ஊழியர் வேலைநிறுத்தம் நடைபெற உள்ளது.",
-   "இந்த மூன்று நாள் வேலைநிறுத்தத்தால் நாடு முழுவதும் வங்கிச் சேவைகள் பாதிக்கப்படும் என எதிர்பார்க்கப்படுகிறது.",
-   "இதையடுத்து மத்திய உள்துறை அமைச்சகம் வங்கிகள் மற்றும் ஏடிஎம் மையங்களுக்குப் பாதுகாப்பு அளிக்குமாறு மாநிலங்களுக்கு அறிவுறுத்தியுள்ளது.",
-   "வேலைநிறுத்தத்தின் போது பொது மக்கள் பாதுகாப்பாக இயங்குமாறும், ஒழுங்கு பராமரிக்கப்படுமாறும் அறிவுறுத்தல் வழங்கப்பட்டுள்ளது.",
-   "செப்டம்பர் 28-ம் தேதி முதல் மூன்று நாட்கள் இந்த வேலைநிறுத்தம் நடைபெறும் என்று தெரிவிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "வங்கி வேலைநிறுத்தம் நடைபெறும் மூன்று நாட்களில் வாடிக்கையாளர்கள் தங்கள் வங்கி பணிகளைத் திட்டமிட்டு மேற்கொள்ள வேண்டியிருக்கும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani India",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "மத்திய உள்துறை அமைச்சகம்",
-   "வங்கிகள்",
-   "ஏடிஎம் மையங்கள்",
-   "வங்கி ஊழியர் சங்கம்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Three-Day Bank Strike From Sept 28: Security Advisory Issued",
-   "lines": [
-    "A nationwide three-day bank employees strike is set to begin on September twenty eighth.",
-    "Banking services across the country are expected to be affected during this three-day strike.",
-    "Following this, the Union Home Ministry has instructed states to provide security to banks and ATM centres.",
-    "The advisory calls for maintaining order and ensuring public safety during the strike period.",
-    "The strike is scheduled to continue from September twenty eighth to thirtieth."
-   ],
-   "closing": "Customers will need to plan their banking needs in advance during the three days of the strike."
-  },
-  "front_cat": "strike_protest",
-  "image_query": "bank ATM security India",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": true,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "0bc6a1745a8e",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-23T02:38+05:30",
-  "links": [
-   "https://www.dinamani.com/india/2026/Sep/22/three-day-bank-strike-starting-september-28-union-home-ministry-issues-directive-to-provide-security-for-banks-and-atm-centres"
-  ],
-  "image": {
-   "url": "https://images.unsplash.com/photo-1565371768838-2479eb537a78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8YmFuayUyMEFUTSUyMHNlY3VyaXR5JTIwSW5kaWF8ZW58MXwwfHx8MTc5MDE3MDAxOHww&ixlib=rb-4.1.0&q=80&w=1080",
-   "credit": "rupixen · Unsplash",
-   "license": "Unsplash — இலவசம்",
-   "symbolic": true
-  },
-  "audio": "data/audio/0bc6a1745a8e.mp3",
-  "created_ts": 1790111318.2414196,
-  "status": "published"
- },
- {
-  "headline": "வாலாஜா அருகே சாலை விபத்தில் இருவர் உயிரிழப்பு",
-  "lines": [
-   "வாலாஜா அருகே நடந்த சாலை விபத்தில் இருவர் உயிரிழந்தனர்.",
-   "விபத்தில் காயமடைந்த இருவரை பொதுமக்களும் சக வாகன ஓட்டிகளும் உடனடியாக மருத்துவமனைக்கு அழைத்துச் சென்றனர்.",
-   "வாலாஜா அரசு தாலுகா மருத்துவமனையில் சிகிச்சை பெற்று வந்த இருவரும் உயிரிழந்தனர் என அதிகாரிகள் தெரிவித்தனர்.",
-   "விபத்து ஏற்பட்ட விதம் மற்றும் காரணம் குறித்து இன்னும் விவரங்கள் வெளியாகவில்லை.",
-   "சம்பவம் தொடர்பாக காவல்துறையினர் மேலும் விசாரணை நடத்தி வருகின்றனர்."
-  ],
-  "closing": "விபத்துக்கான காரணம் மற்றும் பாதிக்கப்பட்டவர்களின் விவரங்கள் தொடர்பாக அதிகாரப்பூர்வ தகவல்கள் இன்னும் வெளியிடப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "வாலாஜா",
-   "அரசு தாலுகா மருத்துவமனை",
-   "சாலை விபத்து"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Two persons killed in road accident near Walajah",
-   "lines": [
-    "Two persons were killed in a road accident near Walajah.",
-    "Passersby and other motorists rushed the injured to a nearby hospital.",
-    "Officials said both victims succumbed to their injuries at the Government Taluk Hospital in Walajah town.",
-    "Details on how the accident occurred remain unclear so far.",
-    "Police are conducting further investigation into the incident."
-   ],
-   "closing": "Official details regarding the cause of the accident and the victims have not yet been released."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "fc7997d6c1d1",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-09-23T02:36+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/two-persons-killed-in-road-accident-near-walajah/article71495332.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/fc7997d6c1d1.mp3",
-  "created_ts": 1790111219.1478896,
-  "status": "published"
- },
- {
-  "headline": "ஜோத்பூரில் தரங் சக்தி-26 பயிற்சியில் ஏழு நாட்டு விமானப் படைகள்",
-  "lines": [
-   "ராஜஸ்தான் மாநிலம் ஜோத்பூரில் நடைபெறவுள்ள தரங் சக்தி-26 விமானப் பயிற்சியில் ஏழு வெளிநாட்டு விமானப் படைகள் பங்கேற்கவுள்ளன.",
-   "பல நாடுகளின் விமானப் படைகள் இணைந்து பங்கேற்கும் இந்த பயிற்சி இந்திய விமானப்படையின் முக்கிய நிகழ்வாகக் கருதப்படுகிறது.",
-   "இந்திய விமானப்படை துணைத் தளபதி ஏர் மார்ஷல் அசுதோஷ் திக்ஷித் அவர் இது குறித்துத் தெரிவித்துள்ளார்.",
-   "பல ஆண்டுகளாக வெளிநாட்டு விமானப் படைகளுடனான செயல்பாட்டு ஒத்துழைப்பு பெரும்பாலும் இருதரப்பு பயிற்சிகள் வழியாகவே நடைபெற்று வந்தது என அவர் குறிப்பிட்டார்.",
-   "தரங் சக்தி-26 பயிற்சி ஜோத்பூரில் நடத்தப்படவுள்ளதுடன், பல தரப்பு இராணுவ ஒத்துழைப்பு மேலும் வலுப்பெறும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "பல நாட்டு விமானப் படைகளுடன் இணைந்து பயிற்சி நடத்துவது இந்தியாவின் பாதுகாப்புக் கூட்டுறவு அணுகுமுறையை விரிவுபடுத்தும் நடவடிக்கையாகக் கருதப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "ஜோத்பூர்",
-   "தரங் சக்தி-26",
-   "இந்திய விமானப்படை",
-   "அசுதோஷ் திக்ஷித்"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Seven foreign air forces to join Tarang Shakti-26 exercise",
-   "lines": [
-    "Seven foreign air forces will take part in the Tarang Shakti-26 exercise to be held in Jodhpur, Rajasthan.",
-    "The multinational exercise, involving several countries' air forces, is seen as a major event for the Indian Air Force.",
-    "Vice Chief of the Air Staff, Air Marshal Ashutosh Dixit, spoke about the exercise.",
-    "He said that for many years, operational engagement with foreign air forces was largely conducted through bilateral exercises.",
-    "The Tarang Shakti-26 exercise will be held in Jodhpur, and multilateral defence cooperation is expected to expand further."
-   ],
-   "closing": "Conducting exercises with multiple foreign air forces together is seen as a step toward expanding India's defence cooperation approach."
-  },
-  "front_cat": "routine",
-  "image_query": "Indian Air Force fighter jets exercise",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "004f1aa64cfb",
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-09-23T02:35+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/seven-foreign-air-forces-to-join-tarang-shakti-26-exercise-in-jodhpur/article71496344.ece",
-   "https://www.thehindu.com/news/national/seven-foreign-air-forces-to-join-tarang-shakti-26-exercise-in-jodhpur/article71496344.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Exercise_MALABAR_2020_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா Commons · Indian Navy",
-   "license": "GODL-India",
-   "symbolic": true
-  },
-  "audio": "data/audio/004f1aa64cfb.mp3",
-  "created_ts": 1790111123.1242461,
-  "status": "published"
- },
- {
-  "headline": "இந்தியாவில் இரண்டு லட்சம் கோடி ரூபாய் ஐபிஓ வாய்ப்பு என செபி தலைவர்",
-  "lines": [
-   "இந்திய பத்திரங்கள் மற்றும் பரிவர்த்தனை வாரியம் எனப்படும் செபியின் தலைவர் துஹின் கந்தா பாண்டே ஒரு நிகழ்வில் கருத்து தெரிவித்தார்.",
-   "இந்தியாவில் ஆரம்ப பங்கு விற்பனை மூலம் இரண்டு லட்சம் கோடி ரூபாய் வரை திரட்ட முடியும் என அவர் கூறினார்.",
-   "இதில் பெரும்பகுதி நிதி நேரடியாக நிறுவனங்களுக்கே செல்லும் என்று அவர் தெரிவித்தார்.",
-   "சந்தை அணுகலை எளிமையாக்கும் சீர்திருத்தங்கள், கடன்பத்திர வெளியீடு அதிகரிப்பு, உள்நாட்டு முதலீட்டாளர் பங்களிப்பு ஆகியவற்றை அவர் சுட்டிக்காட்டினார்.",
-   "மூலதனச் சந்தையை ஆழப்படுத்தவும், பணப்புழக்கத்தை மேம்படுத்தவும், உலகளாவிய முதலீட்டாளர் அணுகலை விரிவுபடுத்தவும் நடவடிக்கைகள் எடுக்கப்படும் என செபி தெரிவித்துள்ளது."
-  ],
-  "closing": "இந்திய ஐபிஓ சந்தையில் இனிவரும் மாதங்களில் எத்தனை நிறுவனங்கள் பட்டியலிடப்படும் என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "செபி",
-   "துஹின் கந்தா பாண்டே",
-   "இந்தியா",
-   "ஐபிஓ சந்தை",
-   "மூலதனச் சந்தை"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "SEBI Chief Says India Could Raise Rs 2 Lakh Crore Via IPOs",
-   "lines": [
-    "Securities and Exchange Board of India Chairman Tuhin Kanta Pandey spoke at an event on market fundraising.",
-    "He said India could raise up to Rs 2 lakh crore through initial public offerings.",
-    "A substantial portion of these proceeds would flow directly to the companies, he stated.",
-    "He highlighted reforms simplifying market access, rising corporate bond issuance and growing domestic investor participation.",
-    "SEBI said measures would be taken to deepen capital markets, improve liquidity and expand global investor access."
-   ],
-   "closing": "It remains to be seen how many companies will get listed on India's IPO market in the coming months."
-  },
-  "front_cat": "policy_mass",
-  "image_query": "Tuhin Kanta Pandey SEBI",
-  "wiki_subject": "Tuhin Kanta Pandey",
-  "person_en": "Tuhin Kanta Pandey",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "a2a33228b108",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-09-23T02:09+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/news/sebi-sees-potential-for-rs-2-lakh-crore-ipo-fundraising-as-fresh-capital-gains-prominence/articleshow/134409191.cms"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Tuhin_Kanta_Pandey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Tuhin Kanta Pandey",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Tuhin_Kanta_Pandey",
-   "symbolic": false
-  },
-  "audio": "data/audio/a2a33228b108.mp3",
-  "created_ts": 1790109554.0775325,
-  "status": "published"
- },
- {
-  "headline": "தேசிய பங்குச் சந்தையின் 22,800 கோடி பங்கு வழங்கலில் எல்ஐசி முதன்மை முதலீட்டாளர்",
-  "lines": [
-   "தேசிய பங்குச் சந்தையின் ஆரம்ப பொதுப் பங்கு வழங்கலில் ஆயுள் காப்பீட்டு கழகம் மிகப்பெரிய முதலீட்டாளராக உருவெடுத்துள்ளது.",
-   "ஆயுள் காப்பீட்டு கழகம் 4,500 கோடி ரூபாய் மதிப்பிலான ஏலம் விடுத்துள்ளது, மொத்த வழங்கல் மதிப்பு 22,800 கோடி ரூபாய்.",
-   "ஐசிஐசிஐ ப்ரூடென்ஷியல் மற்றும் குவாண்ட் மியூச்சுவல் ஃபண்ட் ஆகியவையும் இந்த ஏலத்தில் பங்கேற்றுள்ளன.",
-   "நிறுவன முதலீட்டாளர்களிடமிருந்து 12.7 மடங்கு கோரிக்கை வந்துள்ளது, சில்லறை முதலீட்டாளர்களிடமிருந்து 1.3 மடங்கு மட்டுமே பதிவானது.",
-   "மொத்த சந்தா அளவு 5.7 மடங்காக பதிவாகியுள்ளது, செப்டம்பர் 24ஆம் தேதி பம்பாய் பங்குச் சந்தையில் பட்டியலிடப்படவுள்ளது."
-  ],
-  "closing": "தேசிய பங்குச் சந்தை நாட்டின் மிகப்பெரிய பங்குச் சந்தையாகும்; இந்த வழங்கல் இந்திய பங்குச் சந்தை வரலாற்றில் மிகப்பெரிய வழங்கல்களில் ஒன்றாகக் கருதப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "ஆயுள் காப்பீட்டு கழகம்",
-   "தேசிய பங்குச் சந்தை",
-   "ஐசிஐசிஐ ப்ரூடென்ஷியல்",
-   "குவாண்ட் மியூச்சுவல் ஃபண்ட்",
-   "பம்பாய் பங்குச் சந்தை"
-  ],
-  "confidence": 0.85,
-  "en": {
-   "headline": "LIC Leads Bidding in NSE's Rs 22,800 Crore IPO",
-   "lines": [
-    "The Life Insurance Corporation emerged as the largest bidder in the National Stock Exchange's initial public offering.",
-    "LIC placed bids worth Rs 4,500 crore in the IPO, which is valued at a total of Rs 22,800 crore.",
-    "ICICI Prudential and Quant Mutual Fund also participated as bidders in this offering.",
-    "Institutional investors showed strong demand at 12.7 times, while retail investor subscription remained cautious at 1.3 times.",
-    "Overall subscription stood at 5.7 times, ahead of the listing on the Bombay Stock Exchange on September 24."
-   ],
-   "closing": "The National Stock Exchange is the country's largest stock exchange, and this offering is considered one of the biggest in Indian stock market history."
-  },
-  "front_cat": "big_project",
-  "image_query": "National Stock Exchange India building",
-  "wiki_subject": "National Stock Exchange of India",
-  "id": "a2152b739af1",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-09-23T02:08+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/ipos/fpos/lic-said-to-lead-bidding-in-nses-rs-22800-crore-india-ipo/articleshow/134409250.cms"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/IT7A2275_copy_%28cropped%29.jpg/3840px-IT7A2275_copy_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · National Stock Exchange of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/National_Stock_Exchange_of_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/a2152b739af1.mp3",
-  "created_ts": 1790109507.0699432,
-  "person_en": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ஆதவ் அர்ஜூனா மானநஷ்ட வழக்கில் ஸ்டாலின் பதில் மனு தாக்கல்",
-  "lines": [
-   "நடிகர் ஆதவ் அர்ஜூனா தாக்கல் செய்த ரூபாய் ஒரு கோடி மானநஷ்ட வழக்கில் முதலமைச்சர் மு.க.ஸ்டாலின் பதில் மனு அளித்துள்ளார்.",
-   "இந்த வழக்கை அபராதத்துடன் தள்ளுபடி செய்யக் கோரி முதலமைச்சர் நீதிமன்றத்தில் கோரிக்கை வைத்துள்ளார்.",
-   "வழக்கு தொடர்பான விரிவான காரணங்கள் தற்போது வெளிப்படையாகத் தெரிவிக்கப்படவில்லை.",
-   "ஆதவ் அர்ஜூனா தரப்பிலோ முதலமைச்சர் தரப்பிலோ கூடுதல் அதிகாரப்பூர்வ விளக்கம் இதுவரை வெளியிடப்படவில்லை.",
-   "இந்த வழக்கின் அடுத்த கட்ட விசாரணை குறித்து நீதிமன்றம் விரைவில் தெரிவிக்கும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்த மானநஷ்ட வழக்கு தொடர்பான முழு பின்னணியும் தெளிவாக வெளியிடப்படவில்லை என்பது கவனிக்கத்தக்கது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "ஆதவ் அர்ஜுனா",
-   "மு.க.ஸ்டாலின்",
-   "மானநஷ்ட வழக்கு",
-   "நீதிமன்றம்"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Stalin Files Counter Petition in Adhav Arjuna Defamation Case",
-   "lines": [
-    "Actor Adhav Arjuna had filed a one crore rupee defamation case, to which Chief Minister M K Stalin has now filed a counter petition.",
-    "He has sought that the case be dismissed with a penalty imposed on the complainant.",
-    "Detailed reasons behind the case have not been made public so far.",
-    "Neither Adhav Arjuna's side nor the Chief Minister's side has issued an official statement yet.",
-    "The court is expected to announce the next hearing date for the case soon."
-   ],
-   "closing": "The full background of this defamation case has not yet been made clear."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "",
-  "wiki_subject": "M. K. Stalin",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "b875c1e604ce",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-09-23T02:05+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/22/aadhav-arjunas-rs-1-crore-defamation-suit-mk-stalin-files-counter-affidavit-seeking-dismissal-with-costs"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Chief_Minister_of_Tamil_Nadu%2C_Thiru_MK_Stalin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · M. K. Stalin",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/M._K._Stalin",
-   "symbolic": false
-  },
-  "audio": "data/audio/b875c1e604ce.mp3",
-  "created_ts": 1790109310.0875256,
-  "status": "published"
- },
- {
-  "headline": "மதுரை மாணவன் மரணம்: 16 நாட்களுக்குப் பிறகு உடல் ஒப்படைப்பு",
-  "lines": [
-   "மதுரையில் மாணவன் ஒருவர் மரணம் அடைந்த சம்பவத்தில் அவரது உடல் உறவினர்களிடம் ஒப்படைக்கப்பட்டுள்ளது.",
-   "மரணம் நிகழ்ந்து பதினாறு நாட்களுக்குப் பிறகு உடல் உறவினர்களிடம் கையளிக்கப்பட்டதாகத் தெரிகிறது.",
-   "இவ்வளவு காலம் உடல் தாமதமான காரணம் குறித்து அதிகாரப்பூர்வமாக இதுவரை தெரிவிக்கப்படவில்லை.",
-   "மாணவன் மரணம் தொடர்பான விசாரணை நிலவரம் குறித்தும் தெளிவான தகவல் வெளியாகவில்லை.",
-   "இந்த வழக்கில் அடுத்த கட்ட நடவடிக்கைகள் என்னவென்பது தொடர்ந்து கவனிக்கப்பட வேண்டும்."
-  ],
-  "closing": "இச்சம்பவம் தொடர்பாக முழு விவரங்களும் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "மதுரை",
-   "மாணவன்",
-   "உறவினர்கள்"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Madurai Student Death: Body Handed Over After 16 Days",
-   "lines": [
-    "In Madurai, the body of a student who died has been handed over to his relatives.",
-    "The body was reportedly given to the family sixteen days after his death.",
-    "The reason for this prolonged delay has not been officially disclosed so far.",
-    "Details regarding the status of the investigation into the student's death have also not been released.",
-    "The next steps in this case remain to be seen in the coming days."
-   ],
-   "closing": "Full details regarding this incident have not yet been officially released."
-  },
-  "front_cat": "crime_major",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "16905f63078a",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-09-23T02:04+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/22/death-of-madurai-student-body-handed-over-after-16-days"
-  ],
-  "image": null,
-  "audio": "data/audio/16905f63078a.mp3",
-  "created_ts": 1790109267.583753,
-  "status": "published"
- },
- {
-  "headline": "புதிய தலைமைச் செயலகத்துக்கு எதிராக மீனவர்கள் செப்.29-இல் ஆர்ப்பாட்டம்",
-  "lines": [
-   "புதிய தலைமைச் செயலகம் அமைப்பதற்கான அரசாணையை ரத்து செய்யக் கோரி மீனவர்கள் ஆர்ப்பாட்டத்தில் இறங்க உள்ளனர்.",
-   "வரும் செப்டம்பர் 29 ஆம் தேதி கண்டன ஆர்ப்பாட்டம் நடத்தப்படும் என அறிவிக்கப்பட்டுள்ளது.",
-   "தொடர்புடைய அரசாணையை உடனடியாக ரத்து செய்ய வேண்டும் என மீனவர் அமைப்புகள் கோரிக்கை விடுத்துள்ளன.",
-   "இந்தத் திட்டம் தொடர்பான முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-   "செப்டம்பர் 29 ஆம் தேதி நடைபெறும் ஆர்ப்பாட்டத்தில் மீனவர்கள் பெருமளவில் கலந்துகொள்ள உள்ளனர்."
-  ],
-  "closing": "இந்தச் செய்தி ஒரே மூலத்திலிருந்து பெறப்பட்டதால், அரசாணை மற்றும் திட்டம் தொடர்பான கூடுதல் விவரங்கள் இன்னும் உறுதிப்படுத்தப்பட வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "மீனவர்கள்",
-   "தலைமைச் செயலகம்",
-   "அரசாணை",
-   "செப்டம்பர் 29"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Fishermen to protest new secretariat plan on September 29",
-   "lines": [
-    "Fishermen have announced a protest demanding the withdrawal of a government order to build a new secretariat.",
-    "The condemnation protest is scheduled to take place on September 29.",
-    "Fishermen's associations have demanded the immediate cancellation of the related government order.",
-    "Full official details about the project have not yet been released.",
-    "Fishermen are expected to participate in large numbers in the protest on September 29."
-   ],
-   "closing": "Since this report is based on a single source, further details about the government order and the project need to be confirmed."
-  },
-  "front_cat": "strike_protest",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "afd45c923074",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-23T02:01+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/22/opposition-to-the-new-secretariat-fishermen-to-stage-a-protest-on-september-29"
-  ],
-  "image": null,
-  "audio": "data/audio/afd45c923074.mp3",
-  "created_ts": 1790109084.8023384,
-  "status": "published"
- },
- {
-  "headline": "நீலகிரியில் வடகிழக்குப் பருவமழை தயார்நிலை மதிப்பாய்வு கூட்டம் நடைபெற்றது",
-  "lines": [
-   "நீலகிரி மாவட்ட நிர்வாகம் வடகிழக்குப் பருவமழைக்கான முன்னேற்பாடுகளை மதிப்பாய்வு செய்தது.",
-   "மாவட்ட அதிகாரிகள் பங்கேற்ற இக்கூட்டத்தில் மழைக்காலத் தயார்நிலை பற்றி விவாதிக்கப்பட்டது.",
-   "நிலச்சரிவு, வெள்ளம் போன்ற அபாயங்களை எதிர்கொள்ள தயார்நிலையில் இருக்குமாறு அதிகாரிகளுக்கு அறிவுறுத்தப்பட்டதாகத் தெரிகிறது.",
-   "மலைப்பகுதியான நீலகிரியில் பருவமழைக் காலத்தில் இத்தகைய முன்னெச்சரிக்கை நடவடிக்கைகள் வழக்கமாக மேற்கொள்ளப்படுகின்றன.",
-   "மேலும் விரிவான நடவடிக்கைகள் குறித்த தகவல்கள் மாவட்ட நிர்வாகத்திடமிருந்து எதிர்பார்க்கப்படுகின்றன."
-  ],
-  "closing": "நீலகிரி போன்ற மலைப்பகுதிகளில் பருவமழைக் காலத்தில் நிலச்சரிவு அபாயம் அதிகம் என்பதால் இத்தகைய முன்னெச்சரிக்கை மதிப்பாய்வுகள் வழக்கமாக நடத்தப்படுகின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "நீலகிரி மாவட்டம்",
-   "வடகிழக்குப் பருவமழை",
-   "மாவட்ட நிர்வாகம்",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.35,
-  "en": "",
-  "id": "0d3760869d19",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-23T01:56+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/Coimbatore/preparedness-for-northeast-monsoon-reviewed-in-the-nilgiris/article71494971.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/0d3760869d19.mp3",
-  "created_ts": 1790108794.427024,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
   "status": "published"
  }
 ]

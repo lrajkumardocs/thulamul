@@ -1,5 +1,627 @@
 [
  {
+  "headline": "'ஜெம்' வீரமணி மீது மேலும் ஒரு வழக்கு",
+  "lines": [
+   "'ஜெம்' நிறுவனத்தை நடத்திய வீரமணி மீது மேலும் ஒரு புதிய வழக்கு பதிவு செய்யப்பட்டுள்ளது.",
+   "முதலீட்டாளர்களிடமிருந்து பணம் பெற்று ஏமாற்றியதாகக் கூறப்படும் புகார் அடிப்படையில் இந்த வழக்கு தொடரப்பட்டுள்ளது.",
+   "காவல் துறை அதிகாரிகள் இந்த வழக்குத் தொடர்பாக விசாரணையை மேற்கொண்டு வருவதாகத் தெரிவித்துள்ளனர்.",
+   "வீரமணி மீது ஏற்கெனவே பல வழக்குகள் பதிவு செய்யப்பட்டு விசாரணை நடைபெற்று வருவதாகத் தெரிகிறது.",
+   "இந்த புதிய வழக்குத் தொடர்பான மேலதிக விசாரணை தொடர்ந்து நடைபெறும் என அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "வீரமணி மீதான வழக்குகள் தொடர்பாக விசாரணை இன்னும் நடைபெற்று வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ஜெம் நிறுவனம்",
+   "வீரமணி",
+   "காவல் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "New case registered against Gem Veeramani",
+   "lines": [
+    "A new case has been registered against Veeramani, who ran the Gem company.",
+    "The case was filed based on a complaint alleging that investors were cheated of money.",
+    "Police officials said an investigation into the case is currently underway.",
+    "Several cases have reportedly already been registered against Veeramani, with investigations ongoing.",
+    "Officials said further investigation into this new case will continue."
+   ],
+   "closing": "Investigations into the cases against Veeramani are still ongoing."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "32f11d988544",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-01T01:09+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/30/another-case-filed-against-gem-veeramani"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/32f11d988544.mp3",
+  "created_ts": 1790797171.258036,
+  "status": "published"
+ },
+ {
+  "headline": "நாளை கிராம சபைக் கூட்டம்: பங்கேற்க அழைப்பு",
+  "lines": [
+   "தமிழ்நாட்டில் நாளை (10 அக்டோபர்) கிராம சபைக் கூட்டம் நடைபெறவுள்ளது.",
+   "முதல்வர் ஸ்டாலின் மக்கள் திரளாக இக்கூட்டத்தில் பங்கேற்க வேண்டும் என அழைப்பு விடுத்துள்ளார்.",
+   "கிராம சபை உள்ளாட்சி அமைப்பின் அடிப்படையான நிறுவனம் என அவர் கூறினார்.",
+   "மக்கள் உரிமைகளைக் காக்கவும் அபிவிருத்தி திட்டங்களைக் கட்டுப்பாட்டுக்கு கொண்டுவரவும் கிராம சபைகள் உதவுகின்றன.",
+   "கூட்டத்தின் முழு விவரங்கள் உள்ளாட்சி ஆணையத் தரப்பு அறிவிக்கப்படும்."
+  ],
+  "closing": "கிராம சபை கூட்டம் உள்ளாட்சி ஆட்சியின் அடிப்படையாக பார்க்கப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": "2026-10-01"
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு",
+   "முதல்வர் ஸ்டாலின்",
+   "கிராம சபை",
+   "உள்ளாட்சி"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Village Assembly Meeting Tomorrow: People Urged to Participate",
+   "lines": [
+    "Village assembly meetings will be held across Tamil Nadu tomorrow (October 10).",
+    "Chief Minister Stalin has urged people to participate in the meetings in large numbers.",
+    "He said village assemblies are the foundation of the local government system.",
+    "They help protect people's rights and bring development schemes under public control.",
+    "The municipal administration will announce the full details of the meetings."
+   ],
+   "closing": "Village assemblies are considered the foundation of grassroots governance."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Gram Sabhas in India",
+  "person_en": "M. K. Stalin",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "4293e6230adb",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-01T01:07+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/30/gram-sabha-meeting-tomorrow-people-must-participate-in-large-numbers-cm-vijay"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Chief_Minister_of_Tamil_Nadu%2C_Thiru_MK_Stalin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · M. K. Stalin",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/M._K._Stalin",
+   "symbolic": false
+  },
+  "audio": "data/audio/4293e6230adb.mp3",
+  "created_ts": 1790797031.0258574,
+  "status": "published"
+ },
+ {
+  "headline": "'ஜெம்' வீரமணி வழக்கை சிபிஐ விசாரணைக்கு மாற்ற உயர்நீதிமன்றம் மறுப்பு",
+  "lines": [
+   "ஜெம் டைமண்டஸ் நிறுவனத்தின் தலைவர் வீரமணி வழக்கை சிபிஐக்கு மாற்றும் வேண்டுகோளை சென்னை உயர்நீதிமன்றம் நிராகரித்துவிட்டது.",
+   "வீரமணி மீதான பெரும் மோசடி குற்றச்சாட்டுடன் தமிழ்நாடு காவல்துறை விசாரணை நடத்திவருகிறது.",
+   "வழக்கை மத்திய விசாரணை முகமையில் ஒப்படைப்பது தேவையில்லை என்று நீதிமன்றம் தீர்ப்பளித்துள்ளது.",
+   "ஜெம் சம்பந்தமாக முந்தைய ஆண்டுகளில் பல புகார்கள் பாதுகாப்புக் குழு அளவிலும் எழுந்துவந்துள்ளன.",
+   "தமிழ்நாடு காவல்துறை தொடர்ந்து விசாரணை மேற்கொண்டு வரும் நிலையில் உயர்நீதிமன்றத் தீர்ப்பு ஏற்கெனவே பதிவு செய்யப்பட்ட வழக்குக்குப் பொருந்தாது."
+  ],
+  "closing": "ஜெம் டைமண்டஸ் நிறுவனத்தை சுற்றியுள்ள பல ஆய்வுகள் நடந்துவருவதாக தெரிந்துள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "சென்னை உயர்நீதிமன்றம்",
+   "சிபிஐ",
+   "ஜெம் டைமண்டஸ்",
+   "வீரமணி",
+   "தமிழ்நாடு காவல்துறை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "High Court rejects plea to transfer Veeramani case to CBI",
+   "lines": [
+    "The Madras High Court has rejected a plea to transfer the case of Gem Diamonds founder Veeramani to the Central Bureau of Investigation.",
+    "Veeramani is under investigation by the Tamil Nadu Police for fraud charges exceeding Rs 200 crore.",
+    "The court ruled that transferring the case to the central agency is not necessary.",
+    "Multiple complaints have been filed in the past against Gem Diamonds at security committee levels.",
+    "The high court's order does not apply to cases already registered as Tamil Nadu Police continues its investigation."
+   ],
+   "closing": "Several inquiries surrounding Gem Diamonds company are reportedly underway."
+  },
+  "front_cat": "court_landmark",
+  "image_query": "",
+  "wiki_subject": "Madras High Court",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e9d5e7975e62",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-01T01:04+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/30/high-court-refuses-to-transfer-gem-veeramani-case-to-cbi"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Madras High Court",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
+   "symbolic": false
+  },
+  "audio": "data/audio/e9d5e7975e62.mp3",
+  "created_ts": 1790796885.992437,
+  "status": "published"
+ },
+ {
+  "headline": "எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் நான்காயிரம் இருநூறு பட்டதாரிகளுக்குப் பட்டம்",
+  "lines": [
+   "எம்.ஜி.ஆர். பல்கலைக்கழகத்தின் பட்டமளிப்பு விழாவில் நான்காயிரம் இருநூறு பட்டதாரிகள் பட்டம் பெற்றனர்.",
+   "கலைப்பு, விஞ்ஞான, வணிகம், சட்டம், பொறியியல் உள்ளிட்ட பல்வேறு துறைகளில் பட்டம் பெற்ற பட்டதாரிகளே இந்த எண்ணிக்கையை உள்ளடக்குகின்றனர்.",
+   "பல்கலைக்கழக நிர்வாகம் தமிழ்நாட்டின் வாசகர்களின் திறமைவளர்ச்சியை ஊக்குவிக்க முழுமையாக பணிபுரிந்து வருவதாக அறிவித்துள்ளது.",
+   "பட்டதாரிகள் நாட்டின் பல்வேறு துறைகளில் பணிபுரியக் கோரப்பட்டுள்ளனர்.",
+   "எம்.ஜி.ஆர். பல்கலைக்கழகம் பட்டதாரிகளுக்கு நல்வாழ்த்துக்கள் தெரிவித்துள்ளது."
+  ],
+  "closing": "எம்.ஜி.ஆர். பல்கலைக்கழகத்தின் இந்த பட்டமளிப்பு விழா தமிழ்நாட்டின் உயர்கல்வியில் ஓர் முக்கிய மைல்கல்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": "Govt Policy",
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "எம்.ஜி.ஆர். கல்வியியல் பல்கலைக்கழகம்",
+   "சென்னை",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "4,200 graduands receive degrees at M.G.R. University",
+   "lines": [
+    "M.G.R. Educational University held its convocation ceremony, awarding degrees and certificates to 4,200 graduates across various disciplines.",
+    "The graduates received qualifications in arts, science, commerce, law, engineering and other fields from the institution.",
+    "The university administration stated it continues to work towards developing the talent of Tamil Nadu's students across all streams.",
+    "The graduates have been encouraged to pursue careers in various sectors of the nation.",
+    "M.G.R. Educational University conveyed its congratulations to the graduates through an official press release."
+   ],
+   "closing": "The convocation ceremony of M.G.R. Educational University marks an important milestone in Tamil Nadu's higher education landscape."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "M.G.R. Educational University",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "194a356b1741",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-01T01:03+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/4200-graduands-receive-degrees-at-mgr-university/article71529729.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt03.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/194a356b1741.mp3",
+  "created_ts": 1790796812.3860006,
+  "status": "published"
+ },
+ {
+  "headline": "தொடர் ஓட்டத்தில் வென்ற தடகள வீரர்களுக்குத் தலா 30 லட்சம் ரூபாய்",
+  "lines": [
+   "முதல்வர் மு.க.ஸ்டாலின் தொடர் ஓட்டப் போட்டிகளில் வென்ற தமிழ்நாட்டு தடகள வீரர்களுக்குத் தலா 30 லட்சம் ரூபாய் பரிசுத் தொகை வழங்க அறிவிப்பு செய்துள்ளார்.",
+   "இந்த முடிவு தடகளத் துறையில் மாநிலத்தின் பங்களிப்பை மேலும் வலுப்படுத்தும் என்று அரசு தரப்பிலிருந்து தெரிவிக்கப்பட்டுள்ளது.",
+   "தமிழ்நாட்டு வீரர்கள் தேசியம் மற்றும் சர்வதேசப் போட்டிகளில் பல்வேறு சாதனைகளை ஈட்டியுள்ளனர்.",
+   "இந்தப் பரிசு அறிவிப்பு வீரர்களின் கடoபனை மற்றும் பயிற்சிப் முயற்சிகளுக்கான ஊக்கம் வழங்கும் நோக்கம் கொண்டுள்ளது.",
+   "விளையாட்டில் தமிழ்நாட்டின் பங்கு இனிமேல் மேலும் பெருக்கப்பட வேண்டும் என்பது அரசின் நீண்டகால முயற்சிக்கான பகுதியாகும்."
+  ],
+  "closing": "தடகளத் துறையில் சாதனை ஈட்டும் வீரர்களைக் கௌரவப்படுத்தும் இந்த முடிவு மாநிலத்தின் விளையாட்டு வளர்ச்சிக்கான உறுதிப்பாட்டை எடுத்துக்காட்டுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani Sports",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "sports",
+  "entities": [
+   "தமிழ்நாடு",
+   "தடகளம்",
+   "முதல்வர் மு.க.ஸ்டாலின்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Athletes winning in consecutive races to get Rs 30 lakh each: CM announces",
+   "lines": [
+    "Chief Minister M.K. Stalin announced that Tamil Nadu athletes winning consecutive athletic events will receive Rs 30 lakh each as prize money.",
+    "The government stated this decision will strengthen the state's contribution to the sports sector.",
+    "Tamil Nadu athletes have achieved several milestones in national and international competitions.",
+    "This incentive aims to encourage athletes' dedication and training efforts.",
+    "Recognizing athletic achievers is part of the state's long-term sports development commitment."
+   ],
+   "closing": "This decision honoring athletes who excel in athletics reflects the state's commitment to sports development."
+  },
+  "front_cat": "routine",
+  "image_query": "athletics medal winners podium",
+  "wiki_subject": "Atikur Rahman (athlete) OR Athletics in Tamil Nadu",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "2c5f64ee9a35",
+  "topic_ta": "விளையாட்டு",
+  "published_at": "2026-10-01T01:03+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/29/chief-minister-vijay-announces-rs-30-lakh-each-for-relay-race-winning-athletes-asian"
+  ],
+  "image": {
+   "url": "data/bank/sports05.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/2c5f64ee9a35.mp3",
+  "created_ts": 1790796792.693571,
+  "status": "published"
+ },
+ {
+  "headline": "எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் 4,200 பேருக்குப் பட்டமளிப்பு விழா",
+  "lines": [
+   "சென்னையில் உள்ள டாக்டர் எம்.ஜி.ஆர். கல்வி மற்றும் ஆராய்ச்சி நிறுவனப் பல்கலைக்கழகத்தில் பட்டமளிப்பு விழா நடைபெற்றது.",
+   "இந்த விழாவில் 4,200 மாணவர்கள் தங்களுடைய பட்டங்களைப் பெற்றுக்கொண்டனர்.",
+   "பல்வேறு பாடப் பிரிவுகளில் பயின்ற மாணவர்கள் இந்த விழாவில் பங்கேற்று சான்றிதழ் பெற்றனர்.",
+   "இந்தப் பல்கலைக்கழகம் மருத்துவம், பொறியியல் உள்ளிட்ட பல துறைகளில் கல்வி வழங்கி வருகிறது.",
+   "இதுபோன்ற பட்டமளிப்பு விழாக்கள் ஆண்டுதோறும் இப் பல்கலைக்கழகத்தில் நடத்தப்பட்டு வருகின்றன."
+  ],
+  "closing": "இந்தப் பல்கலைக்கழகம் தமிழக முன்னாள் முதல்வர் எம்.ஜி.ஆர். அவர்களின் நினைவாக அமைக்கப்பட்டது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-10-01"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "எம்.ஜி.ஆர். பல்கலைக்கழகம்",
+   "சென்னை",
+   "பட்டதாரிகள்",
+   "பட்டமளிப்பு விழா"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "M.G.R. University confers degrees on 4,200 graduands",
+   "lines": [
+    "A convocation ceremony was held at Dr. M.G.R. Educational and Research Institute University in Chennai.",
+    "At the ceremony, 4,200 students received their degrees.",
+    "Students who completed studies across various disciplines took part in the event and received certificates."
+   ]
+  },
+  "id": "194a356b1741",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-01T01:02+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/4200-graduands-receive-degrees-at-mgr-university/article71529729.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/194a356b1741.mp3",
+  "created_ts": 1790796767.8577502,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "காசிமேடு மீனவர்கள் ஆந்திரப் பிரதேசத்தில் சிக்கிய படகுகள் மீட்பு கோரி காலவரையற்ற போராட்டம்",
+  "lines": [
+   "சென்னை காசிமேடு மீனவர்கள் ஆந்திரப் பிரதேசத்தில் சிக்கிய தங்கள் படகுகளை மீட்க வலியுறுத்தி காலவரையற்ற போராட்டத்தில் இறங்க உள்ளனர்.",
+   "கடந்த ஏப்ரல் 2026-ல் பிடிக்கப்பட்ட இந்தப் படகுகள் நூறு நாட்களுக்கும் மேலாக ஆந்திரப் பிரதேசத்தில் தடுத்து வைக்கப்பட்டுள்ளதாக மீனவர்கள் தெரிவிக்கின்றனர்.",
+   "மத்திய அரசின் தலையீட்டைக் கோரி தமிழ்நாடு அரசு உடனடி நடவடிக்கை எடுக்க வேண்டும் என மீனவ சமூகத் தலைவர் வலியுறுத்தியுள்ளார்.",
+   "படகுகள் விடுவிக்கப்படாத நிலையில் மீன்பிடி தொழிலாளர்களின் வாழ்வாதாரம் பாதிக்கப்பட்டுள்ளதாக மீனவர் சங்கத்தினர் கூறுகின்றனர்.",
+   "அரசு உடனடி நடவடிக்கை எடுக்கவில்லையெனில் காசிமேடு மீனவர்கள் காலவரையற்ற வேலைநிறுத்தத்தில் இறங்குவார்கள் என எச்சரிக்கை விடுக்கப்பட்டுள்ளது."
+  ],
+  "closing": "இத்தகைய படகுகள் பறிமுதல் சிக்கல்கள் தமிழ்நாடு, ஆந்திரப் பிரதேசம் மீனவர்களிடையே அவ்வப்போது எழுவது வழக்கம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "காசிமேடு",
+   "சென்னை",
+   "ஆந்திரப் பிரதேசம்",
+   "மீனவர் சங்கம்",
+   "தமிழ்நாடு அரசு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Kasimedu fishers plan indefinite strike over boats held in Andhra",
+   "lines": [
+    "Fishers from Kasimedu in Chennai are planning an indefinite strike demanding the return of their boats held captive in Andhra Pradesh.",
+    "The boats, caught in April this year, have reportedly been detained for over a hundred days in Andhra Pradesh, the fishers say.",
+    "A community leader has urged the Tamil Nadu government to seek the Centre's intervention to secure the release of the boats.",
+    "Fishing workers' livelihoods have been affected as the boats remain undelivered, according to fishers' association members.",
+    "Fishers have warned they will launch an indefinite strike if the government fails to take immediate action."
+   ],
+   "closing": "Such disputes over seized fishing boats between Tamil Nadu and Andhra Pradesh fishers have occurred periodically in the past."
+  },
+  "front_cat": "strike_protest",
+  "image_query": "fishing boats harbor India",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "id": "4d35a2497656",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-01T01:01+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/kasimedu-fishers-to-go-on-indefinite-strike-ask-govt-to-retrieve-captive-boats-in-andhra-pradesh/article71529897.ece"
+  ],
+  "image": {
+   "url": "data/bank/fisher01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/4d35a2497656.mp3",
+  "created_ts": 1790796700.0511718,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் 4,200 முதுபக்ஷ மாணவர்களுக்கு பட்டமளிப்பு",
+  "lines": [
+   "எம்.ஜி.ஆர். பல்கலைக்கழகத்தில் சமீபத்தில் நடைபெற்ற பட்டமளிப்பு விழாவில் மாணவர்களுக்குப் பட்டங்கள் வழங்கப்பட்டன.",
+   "மொத்தம் 4,200 பட்டதாரிகள் இந்த விழாவில் தங்கள் பட்டங்களைப் பெற்றனர்.",
+   "பல்கலைக்கழக நிர்வாகம் இந்த விழாவை நடத்திய தகவல்கள் மட்டும் வெளியிட்டுள்ளது.",
+   "மாணவர்கள் பல்வேறு படிப்புகளை முடித்து இந்த பட்டமளிப்பு விழாவில் கலந்துகொண்டனர்.",
+   "இந்த விழா குறித்த கூடுதல் விவரங்கள் பல்கலைக்கழகத்தால் பின்னர் வெளியிடப்படக் கூடும்."
+  ],
+  "closing": "இந்த பட்டமளிப்பு விழா குறித்த விரிவான விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "எம்.ஜி.ஆர் பல்கலைக்கழகம்",
+   "பட்டமளிப்பு விழா",
+   "மாணவர்கள்"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "M.G.R. University confers degrees on 4,200 graduands",
+   "lines": [
+    "A convocation ceremony was recently held at M.G.R. University where students received their degrees.",
+    "A total of 4,200 students received their degrees at the ceremony.",
+    "The university administration has released only basic details about the event.",
+    "Students who completed various courses attended the convocation ceremony.",
+    "Further details about the event may be announced later by the university."
+   ],
+   "closing": "Further details about this convocation ceremony have not yet been officially released."
+  },
+  "id": "194a356b1741",
+  "flags": [],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-01T01:00+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/4200-graduands-receive-degrees-at-mgr-university/article71529729.ece",
+   "https://www.thehindu.com/news/national/tamil-nadu/4200-graduands-receive-degrees-at-mgr-university/article71529729.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/194a356b1741.mp3",
+  "created_ts": 1790796631.5059643,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "வலி நிவாரணி, நுண்ணுயிர்க் கொல்லி மருந்து — மருந்து ஒழுங்குபடுத்துநர் எச்சரிக்கை",
+  "lines": [
+   "மருந்து ஒழுங்குபடுத்தும் அதிகாரம் வலி நிவாரணி மற்றும் நுண்ணுயிர்க் கொல்லி மருந்தை தொடர்ச்சியாக வாங்கி சாப்பிடக் கூடாது என எச்சரித்துள்ளது.",
+   "இந்த மருந்துகளை மருத்துவ ஆலோசனை இல்லாமல் பயன்படுத்தினால் சிறுநீரகம் பாதிக்கப்படும் ஆபத்து உள்ளது.",
+   "பொதுமக்கள் இந்த மருந்துகளை நீண்ட காலம் தொடர்ந்து உபயோகிக்க வேண்டாம் என அதிகாரம் அறிவுறுத்தியுள்ளது.",
+   "மருத்துவரின் பரிந்துரை இல்லாமல் மருந்துகளை வாங்கும் பழக்கம் ஆரோக்கியமற்ற தாக்கம் ஏற்படுத்துகிறது.",
+   "சிறுநீரக நோய் வராமல் தடுக்க மருத்துவ ஆலோசனை பெற்றுப் பின்பு மருந்து வாங்குவது அவசியம்."
+  ],
+  "closing": "சிறுநீரக நோய் தடுக்க மக்கள் எப்போதும் மருத்துவ ஆலோசனையைப் பெற்று மருந்து பயன்படுத்த வேண்டும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "மருந்து ஒழுங்குபடுத்தும் அதிகாரம்",
+   "வலி நிவாரணி",
+   "நுண்ணுயிர்க் கொல்லி",
+   "சிறுநீரகம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Warning issued on painkillers and antibiotics use without medical guidance",
+   "lines": [
+    "The drug regulator has warned the public against taking painkillers and antibiotics repeatedly or continuously without consulting a doctor.",
+    "Using these medications without medical advice for prolonged periods increases the risk of kidney damage.",
+    "The regulator has advised the public not to use these drugs long-term without professional guidance.",
+    "Self-medication without a doctor's recommendation is causing harmful health consequences.",
+    "Seeking medical advice before purchasing medicines is essential to prevent kidney disease."
+   ],
+   "closing": "People must follow doctors' guidance to maintain good health."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "medicine kidney health warning",
+  "wiki_subject": "Non-steroidal anti-inflammatory drug",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மக்கள்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c087224c1109",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-01T00:58+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/painkillers-antibiotics-and-kidney-disease-why-has-drug-regulator-issued-a-fresh-warning/article71523918.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/e/e3/NSAID_label.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Nonsteroidal anti-inflammatory drug",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Nonsteroidal_anti-inflammatory_drug",
+   "symbolic": false
+  },
+  "audio": "data/audio/c087224c1109.mp3",
+  "created_ts": 1790796516.0294082,
+  "status": "published"
+ },
+ {
+  "headline": "மதராஸ் பல்கலைக்கழகத்தில் மூன்று உயர்பதவி காலியிடங்களுக்கு விண்ணப்பம்",
+  "lines": [
+   "சென்னை மதராஸ் பல்கலைக்கழகம் மூன்று முக்கியப் பதவிகளுக்கான காலியிடங்களை அறிவித்துள்ளது.",
+   "தேர்வுக் கட்டுப்பாட்டாளர், தொலைதூர கல்வி மைய இயக்குநர், கல்லூரி மேம்பாட்டு கவுன்சில் ஆசிரியர் ஆகிய பதவிகள் நிரப்பப்பட உள்ளன.",
+   "தகுதியான விண்ணப்பதாரர்கள் அக்டோபர் 16 ஆம் தேதிக்குள் நேரடி விண்ணப்பம் அளிக்க வேண்டும் என பல்கலைக்கழகம் தெரிவித்துள்ளது.",
+   "விண்ணப்பப் படிவம் மற்றும் விரிவான அறிவிப்பு பல்கலைக்கழகத்தின் அதிகாரப்பூர்வ இணையதளத்தில் கிடைக்கும்.",
+   "தகுதி வாய்ந்தோர் விரைவில் விண்ணப்பங்களைச் சமர்ப்பிக்குமாறு கேட்டுக்கொள்ளப்பட்டுள்ளனர்."
+  ],
+  "closing": "கடைசி நாளான அக்டோபர் 16 ஆம் தேதிக்குள் விண்ணப்பிக்கத் தவறினால் வாய்ப்பு இழக்க நேரிடும் என்பதால் தகுதியானவர்கள் விரைவில் நடவடிக்கை எடுக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "மதராஸ் பல்கலைக்கழகம்",
+   "சென்னை",
+   "தேர்வுக் கட்டுப்பாட்டாளர்",
+   "தொலைதூர கல்வி மையம்"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Madras University invites applications for three senior posts",
+   "lines": [
+    "Madras University in Chennai has announced vacancies for three key administrative positions.",
+    "The posts include Controller of Examinations, Director of the Centre for Distance and Online Education, and Dean of the College Development Council.",
+    "Eligible candidates must submit offline applications by October 16, the university said.",
+    "The application form and detailed notification are available on the university's official website.",
+    "Interested candidates have been asked to submit their applications at the earliest."
+   ],
+   "closing": "Candidates who miss the October 16 deadline risk losing the opportunity, making prompt action necessary for those eligible."
+  },
+  "front_cat": "exam_jobs_deadline",
+  "image_query": "",
+  "wiki_subject": "University of Madras",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "fa4d803b4018",
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-10-01T00:58+05:30",
+  "links": [
+   "https://www.freejobalert.com/articles/aiims-delhi-recruitment-2026-apply-online-for-deo-senior-research-fellow-posts-3070570",
+   "https://www.freejobalert.com/articles/madras-university-recruitment-2026-apply-offline-for-dean-professor-cum-director-and-more-posts-3070565",
+   "https://www.freejobalert.com/articles/jipmer-data-entry-operator-recruitment-2026-apply-online-3070558",
+   "https://www.freejobalert.com/articles/iiitdm-jabalpur-junior-research-fellow-recruitment-2026-apply-online-3070551",
+   "https://www.freejobalert.com/articles/iiitdm-jabalpur-junior-research-fellow-jrf-recruitment-2026-apply-online-3070549"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2e/Madras_University_Seal.svg/330px-Madras_University_Seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · University of Madras",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/University_of_Madras",
+   "symbolic": false
+  },
+  "audio": "data/audio/fa4d803b4018.mp3",
+  "created_ts": 1790796499.3443055,
+  "status": "published"
+ },
+ {
   "headline": "இந்தியாவின் வெளிநாட்டுக் கடன் ஜூன் இறுதியில் 778.2 பில்லியன் டாலர்",
   "lines": [
    "இந்திய ரிசர்வ் வங்கி வெளியிட்ட புள்ளிவிவரப்படி, 2026 ஜூன் மாத இறுதியில் இந்தியாவின் வெளிநாட்டுக் கடன் 778.2 பில்லியன் டாலராக இருந்தது.",
