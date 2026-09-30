@@ -1,47 +1,47 @@
 [fetch] RBI: 7 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 19 புதியவை
-[fetch] Dinamani TN: 19 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 18 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 25 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
-[fetch] ESPNcricinfo: 25 புதியவை
-[fetch] The Hindu Sport: 25 புதியவை
-[fetch] The Hindu Cinema: 14 புதியவை
+[fetch] Al Jazeera: 17 புதியவை
+[fetch] ESPNcricinfo: 24 புதியவை
+[fetch] The Hindu Sport: 24 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
-[fetch] Wired: 24 புதியவை
+[fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 13 புதியவை
+[fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 16 புதியவை
+[fetch] FreeJobAlert: 9 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] The Hindu Legal: 15 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 18 புதியவை
+[fetch] TechCrunch: 17 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 24 புதியவை
-[fetch] NDTV India: 13 புதியவை
-[fetch] India Today: 20 புதியவை
+[fetch] The Hindu National: 15 புதியவை
+[fetch] NDTV India: 6 புதியவை
+[fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 27 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,86 +56,56 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5fd6d1fa90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
-[fetch] Dinamani Govt: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2b5e455b90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 15 புதியவை
+[fetch] Dinamani Govt: 18 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 631 → நிகழ்வுகள் 588
+[run] புதியவை 567 → நிகழ்வுகள் 538
 [triage] சேமித்த மதிப்பெண் (586) — புதிய அழைப்பு இல்லை
-[triage] 588 → 61 | காலி: india:4, world:3, crime:3, court:2, jobs:2
-[skip] வெளிநாட்டுத் தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்திய வாசகர்கள
-[skip] ஜம்மு காஷ்மீரின் உள்ளூர் ராணுவ நடவடிக்கை குறித்த எல்-ஜியின் 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான போதுமான உண்மைத
-[skip] மூலத்தில் ஒரே ஒரு வரி மட்டுமே உள்ளது — யார், எங்கே, எப்போது 
-[திருத்தம்] பிளைதுபாய் விமானம் திசைதிருப்பப்பட்ட சம் → பிளைதுபாய் விமானம் திசைதிருப்பப்பட்ட சம்
-[tts-edge] 8301abdf0b41: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பிளைதுபாய் விமானம் திசைதிருப்பப்பட்ட சம்பவம், காயமடைந்த இந்திய விமானியைப் பாராட்டிய இஸ்ரேல் பிரதமர்
-[skip] இது கேரளா திருவனந்தபுரத்தில் நடந்த யூத் காங்கிரஸ்-எஸ்எஃப்ஐ உ
-[skip] இது ஜம்மு காஷ்மீர் மாநிலத்தின் உள்ளூர் சட்டமன்ற அரசியல் செய்
-[திருத்தம்] திருமயம் தொகுதி வெற்றி மனுவை தள்ளுபடி செ → திருமயம் தொகுதி வெற்றி மனுவைத் தள்ளுபடி 
-[tts-edge] 5df46cacb145: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] திருமயம் தொகுதி வெற்றி மனுவைத் தள்ளுபடி செய்த சென்னை உயர்நீதிமன்றம்
-[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் சாலைத் திட்டம் தொடர்பான செய்தி;
-[skip] இது கர்நாடகா மாநிலத்தின் வாக்காளர் பட்டியல் திருத்தம் தொடர்ப
-[skip] இது ஆந்திரப் பிரதேசத்தில் உள்ள மசூலிபட்டினம் துறைமுகம் அருகி
-[skip] வெளிநாட்டுக் விமான விபத்து/জரুரி நிலை — தமிழ்நாட்டு வாசகருக்
+[triage] 538 → 37 | காலி: world:3, jobs:2, cinema:2, assembly:2, india:1
+[skip] வெளிநாட்டு தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்தியாவுடன் நேரட
+[tts-edge] 2c1724bb1f24: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஃப்ளைதுபாய் விமான சம்பவத்தில் காயமடைந்த இந்திய விமானிக்கு நெதன்யாகு பாராட்டு
+[skip] ஆந்திரப் பிரதேசம் விசாகப்பட்டினத்தில் நடந்த உள்ளூர் அரசியல் 
+[skip] இது டெல்லி மாநிலத்தின் உள்ளூர் வாக்காளர் பட்டியல் திருத்தப் 
+[skip] விசாகப்பட்டினத்தில் அமேசான் நவ் சேவை பற்றிய உள்ளூர் வணிக அறி
+[skip] பிகார் மாநில அரசின் உள்ளூர்க் கொள்கை அறிவிப்பு — தமிழ்நாட்டு
+[skip] இது கேரள உயர் நீதிமன்றத்தின் சபரிமலை மேல்சாந்தி தேர்வு தொடர்
+[skip] வெளிநாட்டுப் போராட்டம் — தமிழ்நாட்டு வாசகருக்குப் பொருத்தமான
+[skip] மூல உரை முழுவதும் கிடைக்கவில்லை. தலைப்பு மட்டும் உள்ளது. செய
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Health Department cautions candidates applying f
-[skip] வெளிநாட்டுத் T20 சர்ணி — தமிழ்நாட்டு/இந்திய வீரர்கள் அல்லது 
-[திருத்தம்] திருமயம் தொகுதி தேர்தல் மனுவை தள்ளுபடி ச → திருமயம் தொகுதி தேர்தல் மனுவை சென்னை உயர
-[நகல்] ஏற்கனவே வெளியானது: திருமயம் தொகுதி வெற்றி மனுவைத் தள்ளுபடி செய்த சென்னை உயர்நீத
-[skip] சவூதி அரேபியா-ஹூதி மோதல் என்பது அந்நாட்டின் உள்நாட்டுக் கொள்
+[skip] இது அமெரிக்க பங்குச் சந்தையின் அன்றாட ஏற்ற இறக்கம் பற்றிய செ
+[skip] அமெரிக்கக் குடிநாகரிக பிரச்சினை — தமிழ்நாடு/இந்தியா வாசகரைத்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Nurses stage hunger protest over temporary appoi
-[திருத்தம்] அம்பு வீச்சில் சிக்கிதா தனிபర்த்தி இரட்ட → அம்பு வீச்சில் சிக்கிதா தனிபர்த்தி இரட்ட
-[தரம்] தமிழ் அல்லாத எழுத்து: ু; மூலத்தில் இல்லாத எண்: 19 → ஒரு திருத்தம்
-[publish] அம்பு வீச்சில் சிக்கிதா தனிபர்த்தி இரட்டை தங்கம்
-[image] களஞ்சியம் (2 சொல்): கெம் கிரானைட்ஸ் வீரமணி மீது 2004 ச
-[publish] கெம் கிரானைட்ஸ் வீரமணி மீது 2004 சிறார் தற்கொலைத் தூண்டல் வழக்கு
-[skip] அமெரிக்க ராணுவப் பதிவுகளின் சைபர் தாக்குதல் — தமிழ்நாடு/இந்த
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — நோர்வே அரசின் உள் விசாரணை. தம
+[skip] அமெரிக்க பங்குச் சந்தையின் அன்றாட ஏற்ற இறக்கம் பற்றிய வழக்கம
+[skip] வெளிநாட்டு விமানப் பযணிகளுக்கு நেதன்யாகு பாராட்டு — தமிழ்நாட
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man arrested for recurring bomb threat hoax
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (நீதிமன்றம், தேத
-[skip] அமெரிக்க உள் அரசியல் — தமிழ்நாடு/இந்திய வாசகரின் அன்றாட பாதி
+[skip] வெளிநாட்டு உள்ளூர் ஒழுங்குவகுப்பு நடவடிக்கை. தமிழ்நாடு/இந்தி
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Couple arrested for allegedly swindling ₹7.16 cr
-[skip] சர்வதேச கால்பந்து — ஐரோப்பிய தேசிய அணிகளின் உள்ளூர் நிகழ்வு.
+[skip] வெளிநாட்டு உள்நாட்டுக் கொள்கை — தமிழ்நாடு/இந்திய வாசகரைப் பா
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chitlapakkam residents flag high property tax, s
-[skip] பிரிட்டன், ஈரான் இடையே இரு நாட்டுச் சம்பந்தம். தமிழ்நாடு/இந்
+[skip] சூடான் போர்க்காலச் செய்திகள் உலக அளவில் முக்கியமாக இருந்தாலு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three men kill youth, dump body in Puzhal Lake
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘Gem Granites’ Veeramani booked for abetting sui
+[tts-edge] 15ac6946142d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பிரதமர் மோடி, டிரம்ப் இடையே தொலைபேசி உரையாடல்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: HC refuses to review order mandating micro plast
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Prime suspect in school recognition cheating cas
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TNPCB invites bids to supply white cloth bags to
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது பஞ்சாப் மாநில காங்கிரஸ் கட்சியின் உள் அரசியல் தொடர்பான ச
-[skip] இது இந்தி தொலைக்காட்சி நடிகையின் பழைய தற்கொலை வழக்கு தொடர்பா
-[image] களஞ்சியம் (2 சொல்): கிரானைட் தொழிலதிபர் பாலியல் வழக்கி
-[publish] கிரானைட் தொழிலதிபர் பாலியல் வழக்கில் இருவருக்கு ஜாமீன் மறுப்பு
-[skip] இது குஜராத் மாநில அரசியல் கட்சிச் செய்தி; தமிழ்நாட்டுடன் நேர
-[skip] குஜராத் மாநிலத்தின் உள்ளூர்ச் சம்பவம், தேசிய முக்கியத்துவமோ 
-[skip] பஞ்சாப் மாநில காங்கிரஸ் கட்சித் தலைவர் பதவி விலகல் - தமிழ்நா
-[திருத்தம்] வாக்குத் திருட்டு குற்றச்சாட்டில் அக். 2 → வாக்குத் திருட்டு குற்றச்சாட்டில் அக். 2
-[image] களஞ்சியம் (2 சொல்): வாக்குத் திருட்டு குற்றச்சாட்டில் 
-[publish] வாக்குத் திருட்டு குற்றச்சாட்டில் அக். 2 முதல் இந்தியூர் கூட்டணி போராட்டம்
-[திருத்தம்] எஸ்ஐஆர் முடிந்த மாநிலங்களில் படிவம் 6 மா → எஸ்ஐஆர் முடிந்த மாநிலங்களில் படிவம் 6 மா
-[publish] எஸ்ஐஆர் முடிந்த மாநிலங்களில் படிவம் 6 மாற்றம் வாபஸ் — தேர்தல் ஆணையம்
-[publish] தேர்தல் ஆணையர் நியமனம்: மாறுபட்ட தீர்ப்பை திரும்பப் பெற மனு
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத வேறு மாநில வேல
-[skip] பொதுவான சுகாதார விளக்கப் பகுதி — செய்திக் கட்டுரை அல்ல. தமிழ
-[skip] తెలుగు చలనచిత్రం, తమిழ్‌నాడితో నేరుగా సంబంధం లేనిది. లాస్ ఏం
-[skip] மேற்கிழக்கு வங்காள தேர்தல் — தமிழ்நாடு வாசகருக்குப் பொருத்தம
-[திருத்தம்] உருவாக வைத்திருக்கும் நோய் மருந்து மாற்ற → உருவாய வைத்திருக்கும் நோய் மருந்து இந்தி
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): புதிதாக தோன்றும் நோய்களுக்கான மருந
-[publish] புதிதாக தோன்றும் நோய்களுக்கான மருந்து இந்தியாவின் அடுத்த கட்ட வளர்ச்சி
-[skip] திரைவிமர்சனம் — செய்திக்கல்ல. விமர்சனம் வாரமலரில் மட்டும்.
-[market] தங்கம் 22K ₹13241 · சென்செக்ஸ் 72480
+[skip] இமாசலப் பிரதேசம் மற்றும் மும்பை மாநகராட்சி தொடர்பான தேர்வு வ
+[skip] झारखंड (Jharkhand) மாநிலத்தின் உள்ளூர் தேர்வு முடிவு. தமிழ்ந
+[திருத்தம்] பெரியவர்களுக்கான குழந்தைப் படம் எனக் கூற → பெரியவர்களுக்கான குழந்தைப் படம் என்று கூ
+[தரம்] தமிழ் அல்லாத எழுத்து: לംഅഈഎകഗങ → ஒரு திருத்தம்
+[publish] பெரியவர்களுக்கான குழந்தைப் படம் என்று கூறும் ஃபாஹத் ஃபாசில்
+[skip] மூல உரை வெறும் தலைப்பு மட்டுமே; செய்தியாக நிறைய விவரங்கள் இல
+[skip] Kerala அரசின் மலையாளம் சினிமாவுக்கான தொழில் கொள்கை — தமிழ்நா
+[market] தங்கம் 22K ₹13243 · சென்செக்ஸ் 72480
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 9
+[done] feed 300 · pending 0 · எழுதியவை 3
