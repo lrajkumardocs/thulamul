@@ -7,7 +7,7 @@
 [fetch] BBC World: 27 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 28 புதியவை
-[fetch] The Hindu Sport: 25 புதியவை
+[fetch] The Hindu Sport: 26 புதியவை
 [fetch] The Hindu Cinema: 16 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fedd8aab6d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff15da48810>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -67,9 +67,74 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 718 → நிகழ்வுகள் 660
-[triage] சேமித்த மதிப்பெண் (573) — புதிய அழைப்பு இல்லை
-[triage] 660 → 210 | காலி: world:2, govt:2, assembly:2, jobs:1
-[market] தங்கம் 22K ₹13225 · சென்செக்ஸ் 72480
+[run] புதியவை 719 → நிகழ்வுகள் 657
+[triage] 657 → 46 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது டெல்லி மெட்ரோ ரயில் கழகம் தொடர்பான நடுவர் தீர்ப்பு வழக்க
+[skip] இவை பஞ்சாப் (BFUHS) மற்றும் அசாம் (SSUHS) மாநிலங்களின் உள்ளூ
+[skip] இந்திய জনসংख्या প्रवृत्तियों पर दीर्घकालीन विश्लेषण — तत्काल
+[skip] திரை விமர்சனம். தமிழ்நாடு வாசகரைப் பாதிக்கும் தமிழ்த் திரையு
+[skip] வெளிநாட்டுத் தொடரச் செய்தி. இந்திய அணி கிரிக்கெட் விளையாடுவத
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தரபுரம் பிரச்சாரத்தில் விஜய், தவெக
+[tts-edge] 6f9568764fdf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தரபுரம் பிரச்சாரத்தில் விஜய், தவெகவை அதிமுக வாரிசு என அறிவிப்பு
+[skip] உலக செய்திகளில் தமிழ்நாடு / இந்தியாவுக்குச் சிறப்புத் தொடர்ப
+[திருத்தம்] வேட்பாளர்களை இழுப்பதால் இடைத்தேர்தல் என  → வேட்டுவம் செய்வதால் இடைத்தேர்தல் என கனிம
+[tts-edge] e4c75ec1098a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வேட்டுவம் செய்வதால் இடைத்தேர்தல் என கனிமொழி குற்றச்சாட்டு
+[skip] ஈத்தியோப்பியாவின் உள்நாட்டு மோதல். தமிழ்நாடு / இந்தியாவுடன் 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfa9jmrMbDQpuAZDNhu8a'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfa9nGx8EirSB48LE8n8y'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] தலைமைத் தேர்தல் ஆணையர் கைது கோரி திருமாவ → தலைமைத் தேர்தல் ஆணையர் ராஜினாமா, கைது கோ
+[publish] தலைமைத் தேர்தல் ஆணையர் ராஜினாமா, கைது கோரி தொல்.திருமாவளவன்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; மாவட்டங்களின் பெயர், அறிவி
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கு விவரங்கள், நீதிமன்ற
+[skip] மூலத்தில் போதிய உண்மைத் தகவல் இல்லை; தலைப்பு மட்டும் உள்ளது,
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, நிகழ்வின் விவரங்கள் (எங்கே
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; உரை, இடம், தேதி, மேற்கோள் 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaA73r7gpSXeohrUQvid'}
+[திருத்தம்] ஆறு மாதம் ரேஷன் வாங்காத அட்டைகள் நாளை மு → ஆறு மாதம் ரேஷன் வாங்காத அட்டைகள் நாளை மு
+[image] களஞ்சியம் (2 சொல்): ஆறு மாதம் ரேஷன் வாங்காத அட்டைகள் ந
+[publish] ஆறு மாதம் ரேஷன் வாங்காத அட்டைகள் நாளை முதல் முடக்கம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இவை தமிழ்நாட்டில் அமைந்த அலுவலகங்கள் அல்ல - HLL (கேரளா) மற்ற
+[skip] போதிய விவரம் இல்லாத, குறிப்பிட்ட நகரத்தின் உள்ளூர் கதர் கண்க
+[skip] மூலத்தில் தலைப்பு மட்டும் உள்ளது; விவரங்கள், பின்னணி, எண்கள்
+[skip] DDK கொல்கத்தா மற்றும் TISS மும்பை ஆகியவற்றின் வேலைவாய்ப்பு அ
+[skip] இது ஹைதராபாத்தில் (தெலங்காணா) நடந்த உள்ளூர் சாலை விபத்துச் ச
+[skip] இது மகாராஷ்டிரா தொடர்பான உள்ளூர் மாணவர் மரணச் சம்பவம் தமிழ்ந
+[தரம்] தமிழ் அல்லாத எழுத்து: दा → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ராபி பருவத்துக்கு குறைந்தபட்ச ஆதார
+[publish] ராபி பருவத்துக்கு குறைந்தபட்ச ஆதார விலை உயர்வு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Govt. to soon sign MoU for CMRL’s takeover of MR
+[publish] வங்கிக் கடன் வட்டி விகிதம் ஆகஸ்டில் சற்று குறைவு: ரிசர்வ் வங்கி தரவு
+[திருத்தம்] சென்னையில் கதி சந்தா நடக்கிறது → சென்னையில் கதி சந்தா நடக்கவுள்ளது
+[தரம்] தமிழ் அல்லாத எழுத்து: शশ → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: சென்னையில் கதி சந்தா நடக்கவுள்ளது
+[publish] சென்னையில் கதி சந்தா நடக்கவுள்ளது
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Declare govt. healthcare institutions as high-se
+[திருத்தம்] இந்தியாவின் வெளிநாட்டு முதலீட்டு நிலை தர → இந்தியாவின் சர்வதேச முதலீட்டு நிலை தரவை 
+[publish] இந்தியாவின் சர்வதேச முதலீட்டு நிலை தரவை வெளியிட்ட ரிசர்வ் வங்கி
+[skip] பொதுவான சுகாதார தகவல் — தமிழ்நாடு/இந்தியா தொடர்புடைய செய்தி 
+[திருத்தம்] ஐடிএஸ்எஃபஎஃப்கே 2026: அமேயா கோர் ஆவணப்பட → ஐடிஎஸ்எஃபএஃப்கே 2026: அமேயா கோர் 'கோயிங்
+[தரம்] தமிழ் அல்லாத எழுத்து: ाএ → ஒரு திருத்தம்
+[publish] ஐடிஎஸ்எஃப்எஃப்கே 2026: அமேயா கோர் 'கோயிங் சோலோ' ஆவணப்படம் பற்றிப் பேசினார்
+[skip] வெளிநாட்டு ওডিআই தொடர்: இந்திய அணির கிரிக்கெட் ஆட்டம் ஆனாலும
+[skip] பொருந்தாத மூலம் — தமிழ்நாடு அரசு அல்லது மத்திய அரசு அறிவிப்ப
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Northeast monsoon likely to be normal in Tamil N
+[skip] தமிழ்நாட்டு / இந்திய வாசகர்களுக்குப் நேரடித் தொடர்பு இல்லாத 
+[publish] இந்தியாவின் வெளிநாட்டுக் கடன் ஜூன் இறுதியில் 778.2 பில்லியன் டாலர்
+[comic] கதை: மறைவில் ஒரு காது
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3: பலகை 2-ஐப் போலவே உள்ளது (0.88) — மீண்டும் வரைகிறேன்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-01.png · நாள் 22
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹13224 · சென்செக்ஸ் 72480
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[image] 2 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10

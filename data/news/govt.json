@@ -1,5 +1,194 @@
 [
  {
+  "headline": "சென்னையில் கதி சந்தா நடக்கவுள்ளது",
+  "lines": [
+   "சென்னையில் கதி சந்தா நிகழ்வு நடக்க உள்ளது.",
+   "இந்நிகழ்வு கதி பொருட்களின் விற்பனை மற்றும் பிரசாரம் நோக்கமாக நடத்தப்படுகிறது.",
+   "நுகர்வோர் தங்கள் விருப்பப்படி கதி ஆடைகளையும் பிற பொருட்களையும் வாங்க முடியும்.",
+   "இந்திய அரசு சுதேசி பொருட்களை ஊக்குவிக்கும் நோக்கத்தில் இத்தகைய சந்தாக்கள் நடத்தி வருகிறது.",
+   "மேலும் விவரங்களுக்கு உள்ளூர் அரசு நிறுவனங்களைத் தொடர்பு கொள்ளலாம்."
+  ],
+  "closing": "கதி சந்தா இந்திய கதி மையம் மூலம் சுதேசி பொருட்களை பிரசாரிக்கும் தொடர் நிகழ்வுகளின் ஓர் அங்கம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": "Govt Policy",
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "சென்னை",
+   "கதி சந்தா",
+   "இந்திய அரசு",
+   "கதி மையம்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Khadi fair to be held in Chennai",
+   "lines": [
+    "A Khadi fair will be held in Chennai.",
+    "The event is being conducted to sell and promote khadi products.",
+    "Consumers can purchase khadi garments and other items of their choice.",
+    "The Indian government is conducting such fairs to promote swadeshi goods.",
+    "For more details, one can contact local government organizations."
+   ],
+   "closing": "The Khadi fair is part of a series of events conducted by the Indian Khadi Centre to promote swadeshi products."
+  },
+  "front_cat": "routine",
+  "image_query": "khadi fair market",
+  "wiki_subject": "Khadi",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "5a40cb40a0ca",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-01T00:48+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/andhra-pradesh/khadi-santha-to-be-held-in-city/article71529036.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/5a40cb40a0ca.mp3",
+  "created_ts": 1790795894.6962135,
+  "status": "published"
+ },
+ {
+  "headline": "ராபி பருவத்துக்கு குறைந்தபட்ச ஆதார விலை உயர்வு",
+  "lines": [
+   "2027-28 ராபி பருவத்துக்கான குறைந்தபட்ச ஆதார விலை உயர்த்த மத்திய அமைச்சரவை ஒப்புதல் அளித்துள்ளது.",
+   "கர்ப்பூரம் விலை ₹675 உயர்த்தப்பட்டு ஒரு குவிண்டாலுக்கு ₹7,215 ஆக நிர்ணயிக்கப்பட்டுள்ளது.",
+   "இது கடந்த ஆண்டுடன் ஒப்பிடுகையில் 10.3 சதவீத உயர்வாகும்.",
+   "பிற ராபி பயிர்களுக்கும் விலை உயர்வு அறிவிக்கப்பட்டுள்ளது.",
+   "விவசாயிகளுக்கு ஆதார விலையால் விளை உற்பத்தி உற்சாகமடையும் என்று எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "ராபி பயிர்களுக்கான விலை உயர்வு விவசாய வருமானத்தை வலுப்படுத்தும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": "2026-10-01"
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "மத்திய அமைச்சரவை",
+   "கர்ப்பூரம்",
+   "குறைந்தபட்ச ஆதார விலை"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "Cabinet hikes Rabi minimum support prices for 2027-28",
+   "lines": [
+    "The Union Cabinet has approved an increase in minimum support prices for the 2027-28 Rabi season.",
+    "The MSP for safflower has been raised by ₹675 per quintal to ₹7,215, marking a significant increase.",
+    "This represents a 10.3 percent increase compared to the previous year.",
+    "Price hikes have also been announced for other Rabi crops.",
+    "The higher support prices are expected to encourage farmers to increase their produce."
+   ],
+   "closing": "The price increase for Rabi crops will strengthen agricultural income."
+  },
+  "front_cat": "price_policy",
+  "image_query": "safflower field india",
+  "wiki_subject": "Minimum support price",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e9dc1597f5c2",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-01T00:47+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/cabinet-raises-wheat-msp-by-25-to-2610-per-quintal-for-2027-28/article71527981.ece"
+  ],
+  "image": {
+   "url": "data/bank/agri01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/e9dc1597f5c2.mp3",
+  "created_ts": 1790795837.220431,
+  "status": "published"
+ },
+ {
+  "headline": "ஆறு மாதம் ரேஷன் வாங்காத அட்டைகள் நாளை முதல் முடக்கம்",
+  "lines": [
+   "தொடர்ந்து ஆறு மாதங்களாக ரேஷன் கடைகளில் பொருட்கள் வாங்காத குடும்ப அட்டைகள் நாளை முதல் முடக்கப்படலாம் என தகவல் வெளியாகியுள்ளது.",
+   "இந்த நடவடிக்கை ஆறு மாத காலப்பகுதியை அடிப்படையாகக் கொண்டது என்று தெரிவிக்கப்படுகிறது.",
+   "இது தொடர்பாக உணவுப் பொதுவிநியோகத் துறையிடமிருந்து அதிகாரப்பூர்வ உறுதிப்பாடு இதுவரை வெளியிடப்படவில்லை.",
+   "ரேஷன் கடை மூலம் தொடர்ந்து பொருட்கள் பெறாத அட்டைதாரர்களை அடையாளம் காணும் நடவடிக்கையின் பகுதியாக இது கூறப்படுகிறது.",
+   "இது குறித்த தெளிவான அறிவிப்பை அரசு விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "ரேஷன் அட்டைதாரர்கள் தங்கள் அட்டையின் நிலையை கடையில் உறுதிப்படுத்திக் கொள்வது நல்லது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "ரேஷன் கடை",
+   "குடும்ப அட்டை",
+   "உணவுப் பொதுவிநியோகத் துறை",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Ration cards unused for six months may be suspended tomorrow",
+   "lines": [
+    "Family ration cards that have not been used to purchase goods for six continuous months may be suspended starting tomorrow, according to reports.",
+    "The move is reportedly based on a six month period of non usage as the criteria.",
+    "There has been no official confirmation yet from the public distribution department regarding this.",
+    "The step is said to be part of efforts to identify cardholders who have not been receiving goods through ration shops.",
+    "The government is expected to issue a clear announcement regarding this soon."
+   ],
+   "closing": "Ration cardholders would do well to confirm the status of their card at the shop.",
+   "closing_type": "watch"
+  },
+  "id": "8a6202820e11",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-01T00:45+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Sep/30/unused-ration-cards-for-six-months-suspended"
+  ],
+  "image": {
+   "url": "data/bank/govt01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/8a6202820e11.mp3",
+  "created_ts": 1790795718.3118167,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "குப்பைக்கிடங்கு தீவிபத்து அணைக்க ₹46 லட்சம் செலவு",
   "lines": [
    "கரூர் மாநகராட்சிக் கூட்டத்தில் தீப்பற்றி எரிந்த குப்பைக்கிடங்கை அணைக்க ₹46 லட்சம் செலவாவது குறித்து உறுப்பினர் கேள்வி எழுந்தது.",
@@ -2075,68 +2264,6 @@
   "wiki_subject": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "சட்டமன்றப் பேரணையின் ஆராலம் பண்ணைப் பயணம் பற்றி விசாரணை கோரிக்கை",
-  "lines": [
-   "ஆதிவாசி தலித் முன்னேற்ற சமிதியின் தலைவர் ஸ்ரீரமன் கொய்யோன் சட்டமன்றப் பேரணையின் ஆராலம் பண்ணைப் பயணத்தில் ரகசியத்திற்கு விசாரணை கேட்டுள்ளார்.",
-   "கடந்த சில ஆண்டுகளில் பழங்குடி மறுவாழ்வளிப்பு பகுதியில் ஊழல் நடந்ததாக அவர் குற்றஞ்சாட்டுகிறார்.",
-   "இந்த ரகசியம் ஊழல் விவாதத்தைத் தடுக்கவே நோக்கம் என்று ஸ்ரீரமன் கொய்யோன் குறிப்பிட்டுள்ளார்.",
-   "ஆதிவாசி பகுதிகளில் மறுவாழ்வளிப்புத் திட்டங்கள் பல குறிப்பிடத்தக்க சர்ச்சையை எதிர்கொண்டுள்ளன.",
-   "இந்த விசாரணை கோரிக்கையின் மீது அரசு அடுத்து என்ன நடவடிக்கை எடுக்கும் என்பது தெரியவில்லை."
-  ],
-  "closing": "ஆதிவாசி கல்யாணப் பகுதியில் ஆளுமை மற்றும் வெளிப்படைத்தன்மை குறித்த கேள்விகள் எழுந்துள்ளன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "ஆராலம் பண்ணை",
-   "சட்டமன்றப் பேரணை",
-   "ஆதிவாசி தலித் முன்னெட்ட சமிதி"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Inquiry sought into secrecy over Assembly panel farm visit",
-   "lines": [
-    "Adivasi Dalit Munnetta Samithi president Sreeraman Koyyon has sought an inquiry into the secrecy surrounding an Assembly panel's visit to Aralam farm.",
-    "He alleges that corruption has taken place in the tribal rehabilitation area over the past decade.",
-    "Koyyon states that this secrecy was intended to block discussions on such alleged misconduct.",
-    "Rehabilitation schemes in tribal areas have faced several notable controversies.",
-    "It remains unclear what action the government will take on this inquiry request."
-   ],
-   "closing": "Questions have been raised about transparency and accountability in tribal welfare matters."
-  },
-  "front_cat": "routine",
-  "image_query": "\"\"",
-  "wiki_subject": "Aralam Farm",
-  "person_en": "Sreeraman Koyyon",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "2815c1d2044f",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-23T01:38+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/kerala/probe-sought-into-alleged-secrecy-over-assembly-panels-visit-to-aralam-farm/article71496466.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Seal_of_Tamil_Nadu.svg/960px-Seal_of_Tamil_Nadu.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Tamil Nadu Legislative Assembly",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Tamil_Nadu_Legislative_Assembly",
-   "symbolic": false
-  },
-  "audio": "data/audio/2815c1d2044f.mp3",
-  "created_ts": 1790107708.4862921,
   "status": "published"
  }
 ]
