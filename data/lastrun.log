@@ -2,21 +2,21 @@
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 10 புதியவை
+[fetch] Dinamani TN: 7 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 9 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
+[fetch] Al Jazeera: 6 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
 [fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 18 புதியவை
+[fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 24 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 8 புதியவை
+[fetch] The Hindu Health: 7 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 1 புதியவை
+[fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -32,7 +32,7 @@
 [fetch] The Hindu Legal: 9 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 26 புதியவை
+[fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 15 புதியவை
 [fetch] The Verge: 8 புதியவை
@@ -41,7 +41,7 @@
 [fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 19 புதியவை
+[fetch] Dinamani India: 18 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f96326b6f50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f113ed53a90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 9 புதியவை
-[fetch] Dinamani Govt: 10 புதியவை
+[fetch] Dinamani Govt: 7 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,26 +67,16 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 480 → நிகழ்வுகள் 459
+[run] புதியவை 465 → நிகழ்வுகள் 444
 [triage] சேமித்த மதிப்பெண் (449) — புதிய அழைப்பு இல்லை
-[triage] 459 → 19 | காலி: world:3, assembly:2, crime:1, jobs:1, health:1
-[skip] வெளிநாட்டுத் தயாரிப்பு நிறுவனத்தின் நுட்பமான தொழில்நுட்பச் ச
-[skip] உலக அளவிலான மருத்துவ/வைத்திய ஆய்வு செய்தி. தமிழ்நாட்டு வாசகர
-[tts-edge] 09eb5d4e5fd5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உயர்கல்வித் துறை கட்டமைப்பு சிதைந்தது: மாணிக்கம் தாகூர் குற்றச்சாட்டு
-[skip] இங்கிலாந்து உள்நாட்டுக் கிரிக்கெட் விருதுகள் — தமிழ்நாடு/இந்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது; சம்பவம் எப்போது நடந
-[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு வாசகரைப் பாதிக்காது. 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaPGBtp57sNSmhyEcd6D'}
-[skip] ஐரோப்பிய உள்நாட்டுத் தொடர் — தமிழ்நாடு/இந்திய வீரர் அல்லது ஆ
-[skip] வெளிநாட்டுக் விமான நிறுவனத்தின் உள்ளூர் சம்பவம். தமிழ்நாடு/இ
-[திருத்தம்] தமிழை அடுத்த தலைமுறைக்கு கொண்டு செல்ல வே → தமிழை அடுத்த தலைமுறைக்கு கொண்டுசெல்ல வேண
-[tts-edge] 30d0a057bfac: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழை அடுத்த தலைமுறைக்கு கொண்டுசெல்ல வேண்டும்: பேரவைத் தலைவர் ஜே.சி.டி.பிரபாகர்
-[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு சிறு குறிப்பு மட்டுமே உள்ளது; 
+[triage] 444 → 9 | காலி: world:3, assembly:2, crime:1, jobs:1, health:1
+[skip] நேபாளத்தின் உள்ளூர் பேரிடரம் — தமிழ்நாடு/இந்தியாவுடன் நேரடித
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaQpt4oZs2CVgnYSyozW'}
+[skip] உக்ரைன்-ரஷ்யா போர் செய்திகள் தமிழ்நாடு வாசகரைப் பொதுவாகப் பா
+[skip] வெளிநாட்டுக் பொருளாதார செய்தி — தமிழ்நாடு அல்லது இந்தியாவுடன
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Health Department cautions candidates applying f
-[skip] புதுச்சேரி அரசு வேலைவாய்ப்பு. தமிழ்நாடு அல்ல; தமிழ்நாட்டு வா
-[skip] பொதுவான சர்ச்சை மற்றும் கருத்து — வெளிநாட்டு சூழலுக்குரிய தொ
-[market] தங்கம் 22K ₹13250 · சென்செக்ஸ் 72480
+[skip] Design industry trend article - general career perspective p
+[skip] பிற மாநிலச் செய்தி. உச்ச நீதிமன்றத்தின் பொதுவான விசாரணை — தம
+[market] தங்கம் 22K ₹13240 · சென்செக்ஸ் 72480
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 2
+[done] feed 300 · pending 0 · எழுதியவை 0
