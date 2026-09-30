@@ -1,20 +1,20 @@
 [fetch] RBI: 7 புதியவை
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
 [fetch] Dinamani TN: 8 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 19 புதியவை
 [fetch] Al Jazeera: 4 புதியவை
 [fetch] ESPNcricinfo: 23 புதியவை
-[fetch] The Hindu Sport: 27 புதியவை
+[fetch] The Hindu Sport: 24 புதியவை
 [fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 6 புதியவை
+[fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 9 புதியவை
+[fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 15 புதியவை
 [fetch] The Verge: 8 புதியவை
-[fetch] The Hindu National: 9 புதியவை
+[fetch] The Hindu National: 8 புதியவை
 [fetch] NDTV India: 1 புதியவை
 [fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 18 புதியவை
+[fetch] Dinamani India: 17 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0f6f886ad0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 9 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f793b859550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 8 புதியவை
 [fetch] Dinamani Govt: 8 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,27 +65,24 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 465 → நிகழ்வுகள் 445
+[run] புதியவை 453 → நிகழ்வுகள் 434
 [triage] சேமித்த மதிப்பெண் (449) — புதிய அழைப்பு இல்லை
-[triage] 445 → 19 | காலி: world:3, assembly:2, crime:1, jobs:1, health:1
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfaTdRXAyKmV8yuF6YmF9'}
-[skip] ஹாங்காங் எனும் சீனத் தொடர்புடைய பிரதேசத்தின் உள்ளூர் சட்ட-ஒழ
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: T.N.’s first booth-less toll system becomes oper
-[திருத்தம்] பரனூரில் தமிழ்நாட்டின் முதல் சாவடி இல்லா → பரனூரில் தமிழ்நாட்டின் முதல் சாவடி இல்லா
-[tts-edge] 97e6284f51c4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பரனூரில் தமிழ்நாட்டின் முதல் சாவடி இல்லா கட்டணத் தொகுப்பு முறை தொடக்கம்
-[skip] சர்வதேச கிரிக்கெட் மட்டும்; தமிழ்நாடு/இந்திய வீரர் தொடர்பு த
-[skip] வெளிநாட்டு விளையாட்டு நிகழ்வு — தமிழ்நாடு அல்லது இந்திய முக்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (என்ன
-[skip] வெளிநாட்டு விளையாட்டுப் போட்டி (ஆசிய விளையாட்டு) என்றாலும், 
-[skip] வெளிநாட்டு संगठனின் சர்வதேச அழைப்பு — தமிழ்நாடு/இந்தியாவுக்க
-[skip] தாராபுரம் மாநில அளவுத் தேர்தল் பிரচாரம் — தமிழ்நாட்டு உள்ளூர
-[skip] தமிழ்நாட்டின் உள்ளூர் சம்பவம் — கோவை மாவட்டத்தின் ஒரு கிராமத
-[tts-edge] editorial_20261001: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: புதுச்சேரி சிறுமி வழக்கில் தூக்குத் தண்டனை ஆயுளாக மாறியது ஏன்?
-[market] தங்கம் 22K ₹13234 · சென்செக்ஸ் 72480
+[triage] 434 → 16 | காலி: world:3, assembly:2, crime:1, jobs:1, health:1
+[skip] வெளிநாட்டு ரক்ষணை அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக
+[skip] பிற நாட்டின் உள்நாட்டு வணிக செய்தி. தமிழ்நாடு அல்லது இந்திய 
+[tts-edge] a4bbe30493b6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வில்வித்தையில் ஒரு நாளில் நான்கு தங்கப் பதக்கங்கள் வென்ற சாதனம்
+[திருத்தம்] பட்டாசுகளுக்கு முழு தடை வேண்டாம் என உச்ச → பட்டாசுகளுக்கு முழு தடை வேண்டாம் என உச்ச
+[tts-edge] daeea0d4e1b5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பட்டாசுகளுக்கு முழு தடை வேண்டாம் என உச்ச நீதிமன்றம் கருத்து
+[skip] அமெரிக்க செனட்டின் உள்நாட்டு சட்டமியற்றல். தமிழ்நாடு/இந்தியா
+[skip] வெளிநாட்டு நிறுவனங்களின் நிர்வாக மாற்றம் — தமிழ்நாடு/இந்தியா
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Health Department cautions candidates applying f
+[publish] பருவகால தொற்றுநோய்கள் பரவிவரும் தற்போது தெரிந்துகொள்ள வேண்டியவை
+[skip] தமிழ்நாட்டுப் பத்திரிகை — உள்ளூர் நகரம், உள்ளூர் குற்றம். வெ
+[market] தங்கம் 22K ₹13229 · சென்செக்ஸ் 72480
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 1
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 3
