@@ -2,10 +2,10 @@
 [fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 15 புதியவை
-[fetch] Dinamani TN: 10 புதியவை
+[fetch] Dinamani TN: 11 புதியவை
 [fetch] BBC Tamil: 5 புதியவை
 [fetch] BBC World: 8 புதியவை
-[fetch] Al Jazeera: 8 புதியவை
+[fetch] Al Jazeera: 9 புதியவை
 [fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 22 புதியவை
 [fetch] The Hindu Cinema: 8 புதியவை
@@ -51,14 +51,14 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
-[fetch] PIB All India: 0 புதியவை
+[fetch] PIB All India: பிழை HTTPSConnectionPool(host='pib.gov.in', port=443): Max retries exceeded with url: /PressReleseRss.aspx?Reg=3&Lang=1 (Caused by NameResolutionError("HTTPSConnection(host='pib.gov.in', port=443): Failed to resolve 'pib.gov.in' ([Errno -5] No address associated with hostname)"))
 [fetch] PIB Tamil Releases: 0 புதியவை
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4837a5b450>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f960e556e50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 14 புதியவை
-[fetch] Dinamani Govt: 10 புதியவை
+[fetch] Dinamani Govt: 11 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,9 +67,9 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 464 → நிகழ்வுகள் 439
+[run] புதியவை 467 → நிகழ்வுகள் 442
 [triage] சேமித்த மதிப்பெண் (396) — புதிய அழைப்பு இல்லை
-[triage] 439 → 51 | காலி: assembly:2, world:1, crime:1, jobs:1
-[market] தங்கம் 22K ₹13251 · சென்செக்ஸ் 72480
+[triage] 442 → 57 | காலி: assembly:2, world:1, crime:1, jobs:1
+[market] தங்கம் 22K ₹13282 · சென்செக்ஸ் 72480
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
