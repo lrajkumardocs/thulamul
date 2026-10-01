@@ -3,8 +3,8 @@
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 15 புதியவை
 [fetch] Dinamani TN: 8 புதியவை
-[fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 19 புதியவை
+[fetch] BBC Tamil: 6 புதியவை
+[fetch] BBC World: 21 புதியவை
 [fetch] Al Jazeera: 4 புதியவை
 [fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
@@ -13,8 +13,8 @@
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 23 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 5 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 4 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -32,16 +32,16 @@
 [fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 25 புதியவை
+[fetch] Dinamani Sports: 24 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 15 புதியவை
-[fetch] The Verge: 8 புதியவை
+[fetch] TechCrunch: 14 புதியவை
+[fetch] The Verge: 7 புதியவை
 [fetch] The Hindu National: 8 புதியவை
 [fetch] NDTV India: 1 புதியவை
 [fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 17 புதியவை
+[fetch] Dinamani India: 16 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f793b859550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe3d054bd10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 8 புதியவை
 [fetch] Dinamani Govt: 8 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -67,22 +67,39 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 453 → நிகழ்வுகள் 434
-[triage] சேமித்த மதிப்பெண் (449) — புதிய அழைப்பு இல்லை
-[triage] 434 → 16 | காலி: world:3, assembly:2, crime:1, jobs:1, health:1
-[skip] வெளிநாட்டு ரক்ষணை அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக
-[skip] பிற நாட்டின் உள்நாட்டு வணிக செய்தி. தமிழ்நாடு அல்லது இந்திய 
-[tts-edge] a4bbe30493b6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வில்வித்தையில் ஒரு நாளில் நான்கு தங்கப் பதக்கங்கள் வென்ற சாதனம்
-[திருத்தம்] பட்டாசுகளுக்கு முழு தடை வேண்டாம் என உச்ச → பட்டாசுகளுக்கு முழு தடை வேண்டாம் என உச்ச
-[tts-edge] daeea0d4e1b5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பட்டாசுகளுக்கு முழு தடை வேண்டாம் என உச்ச நீதிமன்றம் கருத்து
-[skip] அமெரிக்க செனட்டின் உள்நாட்டு சட்டமியற்றல். தமிழ்நாடு/இந்தியா
-[skip] வெளிநாட்டு நிறுவனங்களின் நிர்வாக மாற்றம் — தமிழ்நாடு/இந்தியா
+[run] புதியவை 450 → நிகழ்வுகள் 431
+[triage] 431 → 35 | காலி: world:3, assembly:2, crime:1, jobs:1
+[skip] இது அமெரிக்காவின் உள்நாட்டு நீதிமன்ற வழக்கு, தமிழ்நாடு அல்லத
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] இஸ்ரேல் விமானத்தில் கட்டுப்பாட்டு அறைக்க → இஸ்ரேல் நோக்கிய ஃப்ளைதுபை விமानத்தில் கோ
+[தரம்] தமிழ் அல்லாத எழுத்து: ना → ஒரு திருத்தம்
+[tts-edge] ac96a0548362: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இஸ்ரேல் நோக்கிய ஃப்ளைதுபை விமானத்தில் காக்பிட் அருகே கத்தியால் தாக்குதல்
+[skip] இது ரிசர்வ் வங்கியின் வழக்கமான பணப்புழக்க மேலாண்மை நடவடிக்கை
+[skip] இது ரிசர்வ் வங்கியின் அரசுப் பத்திரங்கள் ஏலம் தொடர்பான தொழில
+[skip] இந்தச் செய்தி தமிழ்நாடு அல்லது இந்தியாவைப் பாதிக்கவில்லை. ஏம
+[skip] உலக செய்திகளுக்கிலும், ரஷ்ய-உக்ரைன் போர் தொடர்பு. தமிழ்நாட்ட
+[skip] வெளிநாட்டுக் நிறுவனத்தின் AI பாதுகாப்புச் சிக்கல் — இந்தியா/
+[skip] வெளிநாட்டு நீதிமன்ற வழக்கு — இந்தியாவுக்கு பொதுவான தாக்கம் இ
+[skip] மத்திய இந்தியாவின் உள்ளூர் சுகாதார நிகழ்வு — தமிழ்நாட்டுக்கு
+[skip] வெளிநாட்டு பத்திரிகையின் ব்যক্তিগত நேர்காணல் — தமிழ்நாடு/இந்
+[skip] நேपाली अधिकार क्षेत्र अंतर्गत स्थानीय घटना - तमिलनाडु/भारत प
+[skip] சிரியாவின் உள்நாட்டுப் பொதுவசதி சம்பவம். தமிழ்நாடு/இந்தியாவு
+[skip] வெளிநாட்டுப் பொதுவுரைச் செய்திக்காலம். தமிழ்நாடு/இந்தியா விள
+[tts-edge] 67c65d361754: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆகஸ்ட் மாதம் வங்கிக் கடன் வளர்ச்சி பதினெட்டு புள்ளி எட்டு சதவீதம் உயர்வு
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[publish] அமெரிக்காவில் 41 ஆண்டு மரண தண்டனை கைதிக்கு டிஎன்ஏ ஆதாரத்தால் விடுதலை
+[skip] மத்திய பிரதேசத்தில் நடந்த உள்ளூர் சர்ச்சை. தமிழ்நாட்டையோ இந்
+[skip] பிரிட்டன்-பிரான்ஸ் புலம்பெயர்ப்பு ஒப்பந்தம் பிற ஐரோப்பிய நாட
+[skip] கென்யாவின் உள்ளூர் அரசு திட்டம் — தமிழ்நாடு/இந்தியா தொடர்பு 
+[skip] வெளிநாட்டு உள்ளூர் விளையாட்டு/பண்பாட்டு நிகழ்வு. தமிழ்நாடு/இ
+[skip] வெளிநாட்டு உள்நாட்டுக் கொள்கை — தமிழ்நாடு/இந்தியாவுக்கு நேரட
+[skip] உலக தொழில்நுட்பச் செய்திகளுக்கு தமிழ்நாடு/இந்திய தொடர்பு இல்
+[skip] பிரான்சிலെ மாணவர் போராட்டம் — பிற நாட்டின் உள்ளூர் விவகாரம்.
+[skip] பிரேசிலின் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்தியா வாசகரைப் பாத
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Health Department cautions candidates applying f
-[publish] பருவகால தொற்றுநோய்கள் பரவிவரும் தற்போது தெரிந்துகொள்ள வேண்டியவை
-[skip] தமிழ்நாட்டுப் பத்திரிகை — உள்ளூர் நகரம், உள்ளூர் குற்றம். வெ
-[market] தங்கம் 22K ₹13229 · சென்செக்ஸ் 72480
+[market] தங்கம் 22K ₹13239 · சென்செக்ஸ் 72480
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 0 · எழுதியவை 3
