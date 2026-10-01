@@ -1,8 +1,12 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.lrajkumardocs.twa",
-        "sha256_cert_fingerprints": ["5E:2C:CE:FF:8A:FB:4D:04:55:45:54:16:CF:BC:07:CD:66:E2:D9:92:55:78:54:A2:1C:10:EB:DF:65:28:EE:D3"]
-      }
-    }]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thulamul.app",
+      "sha256_cert_fingerprints": [
+        "DA:BE:E9:8A:56:09:F6:08:7A:43:56:90:53:DC:32:6F:27:05:97:D9:20:36:33:39:01:94:59:1C:3F:C5:FC:FC"
+      ]
+    }
+  }
+]
