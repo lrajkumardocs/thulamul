@@ -1,9 +1,9 @@
 [fetch] RBI: 5 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
-[fetch] BBC Tamil: 6 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
 [fetch] BBC World: 9 புதியவை
 [fetch] Al Jazeera: 16 புதியவை
 [fetch] ESPNcricinfo: 23 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fdd3720a990>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe008063150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,11 +67,9 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 579 → நிகழ்வுகள் 535
-[triage] 535 → 34 | காலி: assembly:2, world:1, crime:1
-[tts-edge] art_tech_20261001: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[filler] tech கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13358 · சென்செக்ஸ் 72368
+[run] புதியவை 585 → நிகழ்வுகள் 543
+[triage] சேமித்த மதிப்பெண் (479) — புதிய அழைப்பு இல்லை
+[triage] 543 → 58 | காலி: assembly:2, world:1, crime:1
+[market] தங்கம் 22K ₹13369 · சென்செக்ஸ் 72370
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 0
