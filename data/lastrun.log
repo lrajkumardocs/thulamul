@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 23 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] BBC World: 21 புதியவை
+[fetch] Al Jazeera: 21 புதியவை
 [fetch] ESPNcricinfo: 25 புதியவை
-[fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] The Hindu Sport: 29 புதியவை
+[fetch] The Hindu Cinema: 11 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 23 புதியவை
 [fetch] Wired: 21 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 6 புதியவை
+[fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 28 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,17 +28,17 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 7 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 6 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 16 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 20 புதியவை
+[fetch] India Today: 16 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 23 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 29 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd26efc9890>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7bee573090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,69 +67,60 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 690 → நிகழ்வுகள் 629
+[run] புதியவை 657 → நிகழ்வுகள் 600
 [triage] சேமித்த மதிப்பெண் (558) — புதிய அழைப்பு இல்லை
-[triage] 629 → 52 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் - தமிழ்நாடு/இந்திய வாசகரைப் பாத
-[skip] இது ஒரு சட்ட நிறுவன ஊழியர் மாற்றம் தொடர்பான உள்துறைச் செய்தி
-[skip] AIIMS Bhopal (மத்தியப் பிரதேசம்) மற்றும் FACT (கேரளா) ஆகிய இ
-[திருத்தம்] உலகின் 90% பாக்கு சொறிக்கும் தீமை 10 நாட → உலகின் 90% பாக்கு மெல்லலில் ஏற்படும் நோய
-[tts-edge] db383163969f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] உலகின் 90% பாக்கு மெல்லலில் ஏற்படும் நோய் சுமை 10 நாடுகளில் குவிந்துள்ளது
-[skip] திரைவிமர்சனம் — இப்பக்கத்தில் தடை. விமர்சனம் (மதிப்பெண், 'நன
-[skip] தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை. வெளிநாட்டு நிறுவனத்தி
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] fbc6df2d2ccb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வங்கிப் பங்கு விதிகளை தளர்த்திய இந்திய ரிசர்வ் வங்கி, பத்து சதவீதம் வரை ஒப்புதல்
-[திருத்தம்] ஆசிய விளையாட்டில் தங்கம் வென்ற வித்யா ரா → ஆசிய விளையாட்டுகளில் தங்கம் வென்ற வித்யா
-[publish] ஆசிய விளையாட்டுகளில் தங்கம் வென்ற வித்யாராம்ராஜுக்கு ₹75 லட்சம் பரிசு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது ஆந்திரப் பிரதேசத்தின் உள்ளூர் மாசுக் கட்டுப்பாட்டு நடவடி
-[skip] இது ஆந்திரப் பிரதேசம் திருப்பதியில் உள்ள உள்ளூர் சுத்தப்படுத
-[skip] ఆంధ్ర ప్రదేశ్ రాష్ట్ర సమాచారం - తమిழ్‌నాడుకు ఆచరణీయ సంబంధం ల
+[triage] 600 → 45 | காலி: tn:6, india:4, govt:4, world:3, court:3
+[skip] இது கர்நாடகா மாநில பொதுத் தேர்வாணையம் தொடர்பான ஆட்சேர்ப்பு வ
+[skip] இந்தியாவின் வேறு மாநிலம் (மத்திய பிரதேசம்) பல்கலைக்கழகத்தின்
+[skip] கேரளாவின் உள்ளூர் பிரச்சினை — தமிழ்நாட்டுக்கு நேரடித் தொடர்ப
+[skip] திரை விமர்சனம் — 'Baththa' படம் பற்றிய விமர்சனக் கட்டுரை. வி
+[skip] வெளிநாட்டு தயாரிப்பு அறிவிப்பு — தமிழ்நாடு/இந்தியாவுடன் நேரட
+[tts-edge] f5f966f33bb7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம், தாராபுரம் தொகுதிகளுக்கு அக்டோபர் 6 இடைத்தேர்தல்
+[skip] மூலத்தில் ஒரு வரித் தலைப்பு மட்டும் உள்ளது; நிகழ்வு, இடம், த
+[skip] அரசியல் நிகழ்வு — கட்சி தலைவரின் விமர்சனம். அரசு அறிவிப்பு அ
+[skip] வெளிநாட்டுக் குற்றவியல் வழக்கு — அமெரிக்க மரண தண்ணை செயல்பாட
+[skip] தமிழ்நாடு/இந்தியாவுக்குப் பொருந்தாத ব్యక్తిগత ক్రీడాවీర సাক्
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ED takes up ₹100-cr. cheating case against forme
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfc3NDEHfCtb3GMA39aEM'}
+[திருத்தம்] வாக்குறுதி நிறைவேற்றவில்லை என விஜய் மீது → கொடுத்த வாக்குறுதிகளை முதல்வர் விஜய் நிற
+[தரம்] தமிழ் அல்லாத எழுத்து: একডমি → ஒரு திருத்தம்
+[tts-edge] f39fcec1807d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கொடுத்த வாக்குறுதிகளை முதல்வர் விஜய் நிறைவேற்றவில்லை: பிரேமலதா விஜயகாந்த்
+[skip] மேற்கு வங்க உள்ளூர் அரசியல் பிரசாரச் செய்தி - தமிழ்நாட்டுடன்
+[skip] தஞ்சை/தமிழ்நாடு நீதிமன்றத் தீர்ப்பு அல்ல — இது ராஜஸ்தான் உயர
+[skip] கனடாவின் உள்நாட்டு அரசு கொள்கை. தமிழ்நாடு/இந்தியாவுக்கு நேரட
+[skip] கோல்கத்தாவுக்கு வந்த பிரேசில் கால்பந்து அணি — மேற்கு வங்கத்த
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chaos at college event as VCK cadres breach secu
+[skip] வெளிநாட்டு கேமிங் சாதனத்தின் உள்நாட்டு தொযுப்பு — தமிழ்நாடு 
+[skip] வெளிநாட்டு விமான நிறுவனத்தின் உள்ளூர் சம்பவம். தமிழ்நாட்டு/இ
+[skip] தமிழ்நாடு/இந்திய வாசகரின் முன்னுரிமை பொருந்தாது — ஆங்கிலப் ப
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Former minister accuses TVK govt of mismanaging 
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (WTA ரோம் ஓபன்) — இது இத்தாலியி
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TVK alliance leaders campaign together for first
-[skip] வெளிநாட்டு விமান நிகழ்வு — தமிழ்நாடு அல்லது இந்தியாவைப் பாதி
-[skip] தமிழ்நாட்டுக்குப் பொருந்தாத உள்ளூர் சிறு நிகழ்வு — ஆந்திர மா
+[திருத்தம்] இந்தியா-ஏ ஆஸ்திரேலியா-ஏவை 281 ஓட்டத்தில் → இந்தியா-ஏ அணி ஆஸ்திரேலியா-ஏவை 281 ஓட்டத்
+[publish] இந்தியா-ஏ அணி ஆஸ்திரேலியா-ஏவை 281 ஓட்டத்தில் வென்றது
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamil Nadu’s secretariat move needs vision, not 
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு ராணுவ அச்சுறுத்தல் — தமிழ்நாடு அல்லது இந்தியாவுடன
-[skip] மணிப்பூர் மாநில அரசின் உள்ளூர் அறிவிப்பு (நிவாரணத் தொகை) - த
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Special drive launched to enrol left-out and fir
-[திருத்தம்] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்கு விற்பனை இறுதி → ஜியோ பிளாட்ஃபார்ம்ஸ் ஐபிஓ இறுதிக் கட்டத்
-[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் ஐபிஓ இறுதிக் கட்டத்தில், 3.8 பில்லியன் டாலர் இலக்கு
-[skip] பிரான்சின் உள்ளூர் பள்ளிப் போராட்டம். தமிழ்நாடு/இந்திய வாசகர
-[திருத்தம்] விஜயபாஸ்கர் மீதான மோசடி புகார் வழக்கு மன → சி.விஜயபாஸ்கர் மீதான ₹4 கோடி மோசடி புகார
-[hold] சி.விஜயபாஸ்கர் மீதான ₹4 கோடி மோசடி புகாரில் மனு மூடியது உயர்நீதிமன்றம்
-[skip] கேரளா உயர்நீதிமன்றத்தின் உள்ளூர் வழக்கு தீர்ப்பு, தமிழ்நாட்ட
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: IIT Madras, HWA join hands to empower artisans t
-[image] களஞ்சியம் (2 சொல்): கார்ல்ஸ்பர்க் இந்தியா உள்ளிட்ட நான
-[publish] கார்ல்ஸ்பர்க் இந்தியா உள்ளிட்ட நான்கு நிறுவனங்களுக்கு செபி ஒப்புதல்
-[skip] தமிழ்நாட்டு வாசகரின் அன்றாட வாழ்வைத் தாக்கவோ, நாட்டின் கொள்க
-[திருத்தம்] ஜெம் கிரானைட்ஸ் நிறுவனர் வீரமணி பாக்சோ வ → ஜெம் கிரானைட்ஸ் வீரமணி பாக்சோ வழக்கு: சி
-[தரம்] தமிழ் அல்லாத எழுத்து: আ → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): ஜெம் கிரானைட்ஸ் வீரமணி பாக்சோ வழக்
-[publish] ஜெம் கிரானைட்ஸ் வீரமணி பாக்சோ வழக்கு: சிட் அதிகாரி விலகல் கோரிக்கை; பாஜக சிபிஐ விசாரணை கோரிக்கை
-[skip] இது மேற்கு வங்க மாநிலத்தின் உள்ளூர் நீதிமன்ற வழக்கு தொடர்பான
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ₹7cr restoration of Pallavaram Periya Eri begins
-[publish] இந்திய கடன்பத்திர வட்டி விகிதம் 2024 ஏப்ரலுக்குப் பின் உச்சம், ரிசர்வ் வங்கிக் கூட்டம் அடுத்த வாரம்
-[skip] பிரான்லியாக தேசிய அளவில் பொருத்தமின்றி — அமெரிக்க உள்நாட்டு 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfc1PVgY6c8c6Mn41no8G'}
-[skip] இது தெலங்கானா மாநிலத்தின் வாக்காளர் பட்டியல் திருத்தம் தொடர்
-[publish] உலக பத்திர வட்டி உயர்வால் ரூபாய் இரண்டு மாத குறைந்த நிலைக்கு சரிவு
-[skip] வெளிநாட்டுக் கால்பந்துத் தொடர்ச்சி — தமிழ்நாடு/இந்தியாவுக்கு
-[image] களஞ்சியம் (2 சொல்): தஞ்சாவூரில் தடைசெய்யப்பட்ட அமைப்பு
-[publish] தஞ்சாவூரில் தடைசெய்யப்பட்ட அமைப்பு ஆதரவாளர்கள் ஐவர் கைது
-[comic] கதை: சம்புவரையரின் வரவேற்பு
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.84) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.84) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic:panel4] gemini-2.5-flash-image பிழை HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=180)
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-02.png · நாள் 23
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹13382 · சென்செக்ஸ் 71910
+[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் மின் விநியோக அறிவிப்பு; தமி
+[skip] கேரளாவின் கலிகட் பல்கலைக்கழகம் மற்றும் ராஜஸ்தானின் எம்.எல்.எ
+[skip] மும்பையின் உள்ளூர் மனிதநேயச் செய்தி; தமிழ்நாட்டுடன் தொடர்பில
+[skip] பீகார் பாஜக எம்எல்ஏ தொடர்பான டெல்லி உயர்நீதிமன்ற வழக்கு - தம
+[skip] RITES Limited is a central PSU (Rail India Technical and Eco
+[skip] பொதுவான மருத்துவ நிபந்தனை பற்றிய விளக்க/கல்வி கட்டுரை; தமிழ்
+[skip] Malayalam cinema - not Tamil. AMMA is Malayalam film body, n
+[publish] விஜய் தலைமையிலான தவெக அரசுக்கு முதல் இடைத்தேர்தல் சோதனை
+[skip] மூலமே தமிழ் செய்திக் கட்டுரை அல்ல — ஆங்கிலப் பத்திரிகையின் ம
+[skip] இது கர்நாடக உயர்நீதிமன்றத்தில் ஜேஎஸ்டபிள்யூ ஸ்டீல் நிறுவனம் 
+[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் மருந்து விலை சம்பந்தமான செய்திக
+[skip] வெளிநாட்டுப் படம் / அனிமேஷன் தொடர் — தமிழ்நாட்டு அல்லது இந்த
+[publish] நீலகிரி மலை ரயில் பாதையில் புதிய பெட்டிகள் சோதனை ஓட்டம்
+[skip] கர்நாடகாவின் உள்ளூர் மின் வழங்கல் பிரச்சினை. தமிழ்நாட்டு வாச
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது — கைது செய்யப்பட்டவர் பெயர்
+[publish] கோவில் யானைகள் பங்கேற்பில் விதிமுறை வகுக்க உயர்நீதிமன்றம் உத்தரவு
+[market] தங்கம் 22K ₹13374 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 10
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 2 · எழுதியவை 6
