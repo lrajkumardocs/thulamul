@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 22 புதியவை
+[fetch] ET Markets: 20 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 4 புதியவை
-[fetch] Dinamani TN: 12 புதியவை
+[fetch] The Hindu TN: 2 புதியவை
+[fetch] Dinamani TN: 11 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 17 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
-[fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] BBC World: 19 புதியவை
+[fetch] Al Jazeera: 12 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] The Hindu Sport: 27 புதியவை
+[fetch] The Hindu Cinema: 3 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 23 புதியவை
-[fetch] Wired: 22 புதியவை
+[fetch] Wired: 20 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 12 புதியவை
+[fetch] FreeJobAlert: 8 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,20 +28,20 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 14 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 25 புதியவை
+[fetch] Dinamani Sports: 23 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 14 புதியவை
 [fetch] The Verge: 7 புதியவை
 [fetch] The Hindu National: 14 புதியவை
 [fetch] NDTV India: 11 புதியவை
-[fetch] India Today: 14 புதியவை
+[fetch] India Today: 13 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 27 புதியவை
+[fetch] Dinamani India: 23 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7f29ac4410>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7d2e111bd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 14 புதியவை
-[fetch] Dinamani Govt: 12 புதியவை
+[fetch] Dinamani Govt: 11 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,52 +67,18 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 18 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 500 → நிகழ்வுகள் 463
+[run] புதியவை 472 → நிகழ்வுகள் 441
 [triage] சேமித்த மதிப்பெண் (448) — புதிய அழைப்பு இல்லை
-[triage] 463 → 28 | காலி: india:3, world:2, jobs:2, health:2, cinema:2
-[tts-edge] 8bc663610baa: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இஸ்ரேல் செல்லும் விமானத்தில் இந்திய விமான ஓட்டி மீது கத்தியால் தாக்குதல்
-[skip] அமேசான் விலைப்பிரிவு விளம்பரச் செய்தி, தமிழ்நாடு/இந்திய வாசக
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள், சூழல், யார் எப்
-[திருத்தம்] ஆர்.ஜி.கர் தகன ஆதார வழக்கில் சிபிஐ விசார → ஆர்.ஜி.கர் தகன ஆதார வழக்கில் சிபிஐ விசார
-[image] களஞ்சியம் (3 சொல்): ஆர்.ஜி.கர் தகன ஆதார வழக்கில் சிபிஐ
-[tts-edge] f63d669a8ccb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆர்.ஜி.கர் தகன ஆதார வழக்கில் சிபிஐ விசாரணைக்கு கல்கத்தா உயர்நீதிமன்ற உத்தரவு
-[skip] இது அமெரிக்க பங்குச் சந்தை பற்றிய அன்றாட நிலவரச் செய்தி; தமி
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (எங்க
-[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் தொடர் — தமிழ்நாடு/இந்தியத்
-[தரம்] தமிழ் அல்லாத எழுத்து: কস → ஒரு திருத்தம்
-[publish] ஒரே நாடு ஒரே தேர்தல்: நாடாளுமன்றக் குழுவுடன் நீதிபதிகள் சந்திப்பு இல்லை
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] உலக அளவில் முக்கியமாக இல்லை. அமெரிக்க உள்நாட்டு கருத்துக் கண
-[skip] இது மகாராஷ்டிரா மாநிலத்தில் அதானி குழுமத்தின் முதலீடு தொடர்ப
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரங்கள் இல்ல
-[skip] இந்தியா ஏ அணிக்கு சம்பந்தம் இல்லை; தமிழ்நாடு வீரர்கள் அல்லது
-[skip] பலஸ்தீனிய மனிதர் ஒருவரின்葬送நிகழ்வு — உலகச் செய்திகளில் தமிழ்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] முழு செய்திப் பொருளே தெரியவில்லை — தலைப்பு மட்டும் இருக்கிறத
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கு விவரம், தேதி, சூழல்
-[skip] கென்யாவின் உள்நாட்டு வரலாற்றுப் பிரச்சினை — தமிழ்நாடு/இந்திய
-[திருத்தம்] மாநில பள்ளிகள் வாலிபால்: இறுதிச் சுற்றில → மாநில பள்ளிகள் வாலிபால்: இறுதிச் சுற்றில
-[image] களஞ்சியம் (2 சொல்): மாநில பள்ளிகள் வாலிபால்: இறுதிச் ச
-[publish] மாநில பள்ளிகள் வாலிபால்: இறுதிச் சுற்றில் ஆத்தூர்-கடலூர், சென்னை-கோவை மோதல்
-[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருந்தாத பிற நாட்டுக் அரசிய
-[skip] உலக செய்திகளில் இது தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இ
-[திருத்தம்] கிருஷ்ணகிரி சிறார் பாதுகாப்பு அலகில் ஆதர → கிருஷ்ணகிரி மாவட்ட சிறார் பாதுகாப்பு அலக
-[தரம்] தமிழ் அல்லாத எழுத்து: ইউি → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): கிருஷ்ணகிரி மாவட்ட சிறார் பாதுகாப்
-[publish] கிருஷ்ணகிரி மாவட்ட சிறார் பாதுகாப்பு அலகில் ஆதரவாளர் பணியிடம் அறிவிப்பு
-[தரம்] மூலத்தில் இல்லாத எண்: 1980 → ஒரு திருத்தம்
-[publish] விஜய் சேதுபதி நடிப்பு 'பத்தா' பற்றி பாலாஜி தரனீதரன் பேசினார்
+[triage] 441 → 9 | காலி: india:3, health:2, assembly:2, world:1, crime:1
+[skip] அயோத்தி ராமர் கோயில் ஊழியர் சரிபார்ப்பு தொடர்பான உள்ளூர் நிர
+[skip] வெளிநாட்டு ஐரோப்பிய அணிகளின் உள்ளூர் விளையாட்டு நிகழ்வு. தமி
+[skip] வெளிநாட்டு ওয়েব் சিরीஸ். தமிழ்நாட்டு/தமிழ்க் சினிமாவுடன் தொ
+[skip] வெளிநாட்டு அரசியல் — தமிழ்நாடு/இந்தியாவுக்குத் தொடர்பு இல்லை
+[skip] சத்தீஸ்கர் மாநிலத்தின் உள்ளூர் அரசியல் குற்றச்சாட்டு, தமிழ்ந
+[skip] கேரள மாநிலத்தின் உள்ளூர் தொல்லியல் ஆய்வு அறிவிப்பு - தமிழ்நா
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai traffic police hold helmet awareness ral
-[திருத்தம்] ஆরஆர்பி ஆட்டோமோ வேலை தேர்வு இரண்டாம் கட் → ஆரআর்பி ஆட்டோமো வேலை தேர்வு இரண்டாம் கட்
-[தரம்] தமிழ் அல்லாத எழுத்து: चीআধরো → ஒரு திருத்தம்
-[publish] ஆர்ஆர்பி ஆட்டோமொபைல் வேலை தேர்வு இரண்டாம் கட்ட தகுதி மதிப்பெண் வெளியானது
-[skip] வெளிநாட்டுப் படம் — தமிழ்நாடு/இந்தியாவுடன் தொடர்பு இல்லை. ஆங
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13377 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 5 · எழுதியவை 7
+[done] feed 300 · pending 5 · எழுதியவை 0
