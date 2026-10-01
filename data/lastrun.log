@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 23 புதியவை
+[fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 8 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
+[fetch] The Hindu TN: 7 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 17 புதியவை
+[fetch] Al Jazeera: 16 புதியவை
 [fetch] ESPNcricinfo: 25 புதியவை
 [fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Cinema: 4 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 23 புதியவை
-[fetch] Wired: 22 புதியவை
+[fetch] Wired: 21 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 22 புதியவை
+[fetch] FreeJobAlert: 14 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 18 புதியவை
+[fetch] The Hindu Legal: 14 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 14 புதியவை
-[fetch] The Verge: 8 புதியவை
-[fetch] The Hindu National: 18 புதியவை
+[fetch] The Verge: 7 புதியவை
+[fetch] The Hindu National: 14 புதியவை
 [fetch] NDTV India: 11 புதியவை
 [fetch] India Today: 13 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 23 புதியவை
+[fetch] Dinamani India: 25 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5d61ce2210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 18 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb8d92fa8d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 14 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,55 +67,46 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 562 → நிகழ்வுகள் 517
-[triage] சேமித்த மதிப்பெண் (558) — புதிய அழைப்பு இல்லை
-[triage] 517 → 45 | காலி: india:3, jobs:3, cinema:3, world:2, court:2
-[skip] வெளிநாட்டு (கோல்கத்தா, இந்தியாவின் பிற பகுதி) ரயில்வே வேலைவா
-[skip] பெங்களூரு நகரத்தின் உள்ளூர் பண்பாட்டு நிகழ்வு; தமிழ்நாட்டு வ
-[skip] அமெரிக்க அரசியல் (தேர்தல்), வெளிநாட்டு தொழில்நுட்ப நிறுவனங்க
+[run] புதியவை 529 → நிகழ்வுகள் 493
+[triage] 493 → 49 | காலி: india:3, jobs:3, world:2, crime:2, health:2
+[image] களஞ்சியம் (2 சொல்): ரயில்வே உதவி லோக்கோ பைலட் பணி இரண்
+[tts-edge] d65df5e4c17f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ரயில்வே உதவி லோக்கோ பைலட் பணி இரண்டாம் கட்டத் தேர்வு முடிவு வெளியீடு
+[image] களஞ்சியம் (3 சொல்): ஜெம் கிரானைட்ஸ் வீரமணி உள்ளிட்ட மூ
+[tts-edge] 2eef42cc9796: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] ஜெம் கிரானைட்ஸ் வீரமணி உள்ளிட்ட மூவர் போக்சோ வழக்கில் குண்டர் சட்டப்படி தடுப்புக்காவல்
+[திருத்தம்] ஜெம் கிரானைட்ஸ் வீரமணி போக்சோ வழக்கு விச → ஜெம் கிரானைட்ஸ் வீரமணி பாக்সோ வழக்கு: பெ
+[தரம்] தமிழ் அல்லாத எழுத்து: স → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): ஜெம் கிரானைட்ஸ் வீரமணி பாக்சோ வழக்
+[publish] ஜெம் கிரானைட்ஸ் வீரமணி பாக்சோ வழக்கு: பெண்கள் மட்டும் கொண்ட சிறப்பு விசாரணைக் குழு ஏற்கும்.
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை விவரிக்கப் போதுமா
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தெலங்கானா மாநில நிறுவனமான SCCL-இன் நிலக்கரி போக்குவரத்து குற
-[திருத்தம்] பண்டிகைக் காலத்திற்கு முன் சர்க்கரை விற் → பண்டிகைக் காலத்திற்கு முன் சர்க்கரை விற்
-[தரம்] தமிழ் அல்லாத எழுத்து: शদ → ஒரு திருத்தம்
-[tts-edge] 185b7f82b72c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பண்டிகைக் காலத்திற்கு முன் சர்க்கரை விற்பனையாளர் கையிருப்புக்கு அரசு 1,000 குவிண்டால் வரம்பு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை - குறிப்பி
-[skip] வெளிநாட்டு உள்ளூர் சட்ட மாற்றம் — தமிழ்நாடு/இந்தியப் வாசகருக
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai traffic police hold helmet awareness ral
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; செய்தியை உருவாக்க போதுமான 
-[skip] அமெரிக்க மத்திய வங்கி (Federal Reserve) வட்டி விகிதம் தொடர்ப
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — இது இஸ்রேல்-பாலஸ்தீன் பகுதிப்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamil Nadu to get four more weather radars in ne
-[tts-edge] 26c7dec43095: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சிவாஜி கணேசனின் 99வது பிறந்த நாள்: முதல்வர், விஜய் அஞ்சலி
-[திருத்தம்] கூகிள் செவ்வாய்ப் பார்வை — சிறு எழுத்துக → கூகுள் வழிநடத்தல் பார்வை — சிறு எழுத்துக
-[தரம்] தமிழ் அல்லாத எழுத்து: ర → ஒரு திருத்தம்
-[publish] கூகுள் வழிநடத்தல் பார்வை — சிறு எழுத்துகளைப் படிக்க உதவி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TNPDCL works out modalities for engaging private
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, செய்தியை விரி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two held in ₹1,417-cr. investment fraud case
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfc84CavGGwft3snW66Rw'}
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Redeployment plan could reduce doctor posts in g
-[திருத்தம்] அனுமதியின்றி போராட்டம்: எடப்பாடி பழனிசாம → அனுமதியின்றி போராட்டம்: எடப்பாடி கே.பழனி
-[publish] அனுமதியின்றி போராட்டம்: எடப்பாடி கே.பழனிசாமி மீதான வழக்கு ரத்து
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamil Nadu govt. to set up 1,000 more automatic 
+[திருத்தம்] ஸ்குவாஷ் வீராங்கனைகள் ஜோஷ்னா, ஷமீனாவுக்க → ஸ்குவாஷ் வீராங்கனைகள் ஜோஷ்னா சின்னப்பாவு
+[publish] ஸ்குவாஷ் வீராங்கனைகள் ஜோஷ்னா சின்னப்பாவுக்கு, ஷமீனா ரியாஸுக்கு தலா முப்பது லட்சம் பரிசு
+[skip] Asian Games cricket final — பாகிஸ்தான் எதிர் இந்தியாவின் இறு
+[தரம்] தமிழ் அல்லாத எழுத்து: আইি → ஒரு திருத்தம்
+[hold] காவலர்களிடம் மந்திரக்கோல் இல்லை என உயர்நீதிமன்றம் கருத்து
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfcA2SF8KasmCrMfiDbSy'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நிகழ்வு பற்றிய விவரங்கள் (
+[திருத்தம்] அந்தமான் கடலில் புதிய புயல் அறிகுறி, வான → அந்தமான் அருகே புதிய புயல் சின்னம், வானி
+[image] களஞ்சியம் (3 சொல்): அந்தமான் அருகே புதிய புயல் சின்னம்
+[publish] அந்தமான் அருகே புதிய புயல் சின்னம், வானிலை எச்சரிக்கை
+[திருத்தம்] டாஸ்மாக் முறைகேடு வழக்கு, மூலனூர் கார்த் → டாஸ்மாக் முறைகேடு வழக்கு: மூலனூர் கார்த்
+[hold] டாஸ்மாக் முறைகேடு வழக்கு: மூலனூர் கார்த்திக்கு நிபந்தனை ஜாமீன்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, சம்பவத்தின் விவரங்கள் (இடம
+[publish] தாராபுரத்தில் நாளை திமுக தலைவர் மு.க.ஸ்டாலின் பிரசாரம்
+[skip] மூலத்தில் தலைப்பு மற்றும் பெயர்கள் மட்டுமே உள்ளன; சம்பவம் பற
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfcAE2PWMGRX3jtGb2npV'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வடகிழக்குப் பருவமழை குறித்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 35-year-old man held for killing wife in Mangadu
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ED takes up ₹100-cr. cheating case against forme
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chaos at college event as VCK cadres breach secu
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Former minister accuses TVK govt of mismanaging 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TVK alliance leaders campaign together for first
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamil Nadu’s secretariat move needs vision, not 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Special drive launched to enrol left-out and fir
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: IIT Madras, HWA join hands to empower artisans t
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ₹7cr restoration of Pallavaram Periya Eri begins
-[skip] IFFCO மற்றும் AIIMS நாக்பூர் ஆகிய இரண்டும் தமிழ்நாட்டில் அமை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfc8FV98UjE7PoMc5uc8i'}
-[skip] Cinema topic ஆனால் விமர்சனம், সামাজிक মাধ্যம் சர்ச்சை, வসூல்
-[skip] வெளிநாட்டு சინிமா (ஹிந்தி/ஆங்கிலம்) — தமிழ் திரையுலகத்துடன் 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உள்ளடக்கம் இல்லை. 
+[திருத்தம்] சென்னை விமான நிலைய விரிவாக்கத்திற்கு நில → சென்னை விமான நிலைய விரிவாக்கத்திற்கு நில
+[publish] சென்னை விமான நிலைய விரிவாக்கத்திற்கு நில எடுப்புப் பணிக்கு சிறப்பு வருவாய் அலுவலர் நியமனம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விரிவான உள்ளடக்கம் இல்லை எ
+[திருத்தம்] ஆசிரியர் சிறப்பு தகுதித் தேர்வு முடிவு வ → ஆசிரியர் சிறப்பு தகுதித் தேர்வு முடிவு வ
+[publish] ஆசிரியர் சிறப்பு தகுதித் தேர்வு முடிவு வெளியிட சென்னை உயர்நீதிமன்றம் அனுமதி
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13380 · சென்செக்ஸ் 71910
+[market] தங்கம் 22K ₹13370 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 2 · எழுதியவை 4
+[done] feed 300 · pending 5 · எழுதியவை 10
