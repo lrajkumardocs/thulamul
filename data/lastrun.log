@@ -1,19 +1,19 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 7 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
+[fetch] The Hindu TN: 6 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 26 புதியவை
+[fetch] BBC World: 18 புதியவை
+[fetch] Al Jazeera: 19 புதியவை
+[fetch] ESPNcricinfo: 25 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
@@ -29,16 +29,16 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 7 புதியவை
+[fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 19 புதியவை
-[fetch] The Verge: 7 புதியவை
-[fetch] The Hindu National: 7 புதியவை
+[fetch] TechCrunch: 18 புதியவை
+[fetch] The Verge: 6 புதியவை
+[fetch] The Hindu National: 8 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 19 புதியவை
+[fetch] India Today: 18 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
@@ -56,34 +56,42 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f089325b7d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 7 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0a4b2f4110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 8 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 20 புதியவை
+[fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 542 → நிகழ்வுகள் 527
-[triage] சேமித்த மதிப்பெண் (541) — புதிய அழைப்பு இல்லை
-[triage] 527 → 12 | காலி: jobs:3, assembly:2, tn:1, india:1, world:1
-[skip] அமெரிக்காவின் உள்நாட்டு சிறைக் கொலை வழக்கு. தமிழ்நாடு / இந்த
-[skip] மேற்கு வங்க மாநிலத்தின் உள்ளூர் சம்பவம், தமிழ்நாட்டுடன் நேரட
-[skip] வெளிநாட்டு தொழில்நுட்பக் நிறுவனத்தின் உள்ளூர் மேலாண்மை மாற்ற
-[skip] வெளிநாட்டுப் பொதுவான இயற்கைக் கட்டமைப்பு சரிவு — தமிழ்நாடு/இ
-[திருத்தம்] மேட்டா கம்பனி ஐ.பி. যন்திரங்களுக்கு மூலக → மேட்டா கம்பனி மியூஸ் ஏஜென்ட் மூலக்குறியீ
-[tts-edge] c0a74765cc53: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மேட்டா கம்பனி மியூஸ் ஏஜென்ட் மூலக்குறியீடு பொதுவெளியில் விட்டுள்ளது
-[skip] வெளிநாட்டு சட்ட அமலாக்கத் தண்டனை நிகழ்வு — தமிழ்நாடு/இந்திய 
-[skip] வெளிநாட்டு நிகழ்வு — தமிழ்நாடு/இந்தியாவுக்கு நேரடித் தொடர்பு
-[skip] வெளிநாட்டுச் கணிப்பு — லத்தீன் அமெரிக்கா மற்றும் சீனா/அமெரிக
+[run] புதியவை 534 → நிகழ்வுகள் 518
+[triage] 518 → 20 | காலி: jobs:3, assembly:2, tn:1, india:1, world:1
+[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைக் குறிப்
+[skip] வெளிநாட்டு உள்நாட்டுக் கொள்கை — தமிழ்நாடு/இந்தியாவுடன் நேரடி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] ধর্মীয় சৈদ্ধান்তिक নিবন্ধ - সংবাদ নয়; তমिழ்நாடு/ভারত জনসাধ
-[skip] திரை விமர்சனம் — 'sharp social satire', 'coming-of-age tale'
-[skip] வெளிநாட்டுத் டி20 ஒருநாள் ஒட்டக குறுஞ்சுற்றாக்கம் (ILT20 — स
+[skip] வெளிநாட்டு உள்நாட்டு ஆற்றல் கொள்கை — தமிழ்நாடு/இந்திய வாசகரை
+[skip] பிரான்சின் உள்ளூர் கல்வி போராட்டம் — தமிழ்நாடு/இந்தியக் வாசக
+[skip] வெளிநாட்டு பல்கலைக்கழகத்தில் நடந்த உள்ளூர் வழக்கு. தமிழ்நாடு
+[skip] இது ஸ்பெயின் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்திய வாசகருக்குத
+[skip] பிரான்சின் உள்ளூர் பள்ளி/தலைமுறைப் போராட்டம்; தமிழ்நாடு/இந்த
+[skip] இஸ்ரائேல்-பாலஸ்தீன்갈등 சம்பந்தமான சர்வதேச நிலைமை. தமிழ்நாடு வ
+[skip] தமிழ்நாடு / இந்தியாவுடன் நேரடித் தொடர்பு இல்லை. இஸ்রேல் உள்ந
+[skip] வெளிநாட்டு எரிபொருள் கொள்கை — தமிழ்நாடு அல்லது இந்தியாவுக்கு
+[skip] சுடான் உள்நாட்டுப் போர் — தமிழ்நாட்டுக்கும் இந்திய வாசகருக்க
+[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாடு/இந்திய வாசகருக்குத் த
+[skip] உலக நிகழ்வு — ஆனால் தமிழ்நாடு/இந்தியாடன் நேரடித் தொடர்பு இல்
+[skip] ஸ்பெயின் அரசாங்கத்தின் உள்நாட்டு அரசியல் - தமிழ்நாடு/இந்திய 
+[skip] வெளிநாட்டுத் தேசிய அரசியல் — G7 அறிவிப்பு தமிழ்நாடு வாசகரைப்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfeAnmJacrTJvQN6Xg3mL'}
+[திருத்தம்] 棉花урожay 2026-27 தீர்மானிக்க பல காரணிகள் → பருத்தி விளைபொருள் 2026-27 தீர்மானிக்க ப
+[image] களஞ்சியம் (2 சொல்): பருத்தி விளைபொருள் 2026-27 தீர்மான
+[tts-edge] 14ea9217fab7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பருத்தி விளைபொருள் 2026-27 தீர்மானிக்க பல காரணிகள்
+[skip] cinema_review - திரை விமர்சனம். இப்பக்கத்தில் விமர்சனம் வேண்
+[skip] இங்கிலாந்து county cricket நிர்வாகம் — தமிழ்நாடு/இந்திய வாசக
 [market] தங்கம் 22K ₹13261 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 1 · எழுதியவை 1
