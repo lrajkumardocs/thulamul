@@ -1,5 +1,88 @@
 [
  {
+  "date": "2026-10-03",
+  "title": "மண்டபம் நிறைந்த மர்மம்",
+  "book": 1,
+  "book_ta": "புது வெள்ளம்",
+  "arc": "கடம்பூர் மாளிகை இரவு",
+  "day": 24,
+  "file": "data/comic/2026-10-03.png",
+  "summary": "பல சிற்றரசர்கள் கூடியிருப்பதைக் கண்டு இது வெறும் விருந்து அல்ல என வந்தியத்தேவன் ஐயுற்றான்.",
+  "next_hint": "கூட்டத்தினர் தனிமையில் என்ன பேசப் போகிறார்கள்?",
+  "hidden": false,
+  "script": {
+   "title_ta": "மண்டபம் நிறைந்த மர்மம்",
+   "panels": [
+    {
+     "scene_en": "Extreme wide shot of a grand torch-lit hall inside Kadambur mansion at night, filled with numerous seated chieftains in rich royal attire, periya_pazhuvettaraiyar as in reference image seated at the head of the hall, Vandiyathevan as in reference image hidden behind a stone pillar in the foreground shadow observing with suspicion, wide angle from behind the pillar, night.",
+     "characters": [
+      "vandiyathevan",
+      "periya_pazhuvettaraiyar"
+     ],
+     "caption_ta": "மண்டபம் நிறைந்தது சிற்றரசர் கூட்டத்தால்",
+     "bubbles": [
+      {
+       "speaker": "sambuvaraiyar",
+       "side": "R",
+       "text_ta": "வருக, வருக! அனைவரும் அமருங்கள்!"
+      }
+     ]
+    },
+    {
+     "scene_en": "Wide shot focusing on a cluster of sirrarasargal chieftains (extras malayaman, karuthiruman, ravidasan, parthibendran) seated together murmuring among themselves near torchlight, Vandiyathevan as in reference image faintly visible blurred in shadow at the frame's edge, tense whispering atmosphere, night.",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "ஒவ்வொரு மூலையிலும் அரசக் குடும்பங்கள்",
+     "bubbles": [
+      {
+       "speaker": "malayaman",
+       "side": "L",
+       "text_ta": "இத்தனை பேரும் ஏன் கூடினோம் இன்று?"
+      },
+      {
+       "speaker": "karuthiruman",
+       "side": "R",
+       "text_ta": "காத்திரு நண்பா, விரைவில் தெரியும்."
+      }
+     ]
+    },
+    {
+     "scene_en": "Medium shot of Vandiyathevan as in reference image crouched behind a carved stone pillar, counting the gathered chieftains with narrowed eyes and fingers, hall activity blurred in the background, side angle view, night.",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "வந்தியத்தேவன் எண்ணி வியந்தான்",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "இத்தனை சிற்றரசரும் ஒன்றாக... ஏன்?"
+      }
+     ]
+    },
+    {
+     "scene_en": "Extreme close-up of Vandiyathevan's face as in reference image, eyes narrowed in deep suspicion, flickering torchlight casting shadows on his features, a bead of sweat on his brow, night.",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "இது வெறும் விருந்து அல்ல... ஏதோ சூழ்ச்சி!"
+      }
+     ]
+    }
+   ],
+   "summary_ta": "பல சிற்றரசர்கள் கூடியிருப்பதைக் கண்டு இது வெறும் விருந்து அல்ல என வந்தியத்தேவன் ஐயுற்றான்.",
+   "tomorray_ta": "",
+   "tomorrow_ta": "கூட்டத்தினர் தனிமையில் என்ன பேசப் போகிறார்கள்?",
+   "story_so_far_ta": "ஆடித் திருநாளில் வந்தியத்தேவன் ஆதித்த கரிகாலனின் ஓலைச் சுருள்களுடன் கடம்பூர் செல்கையில், நண்பன் கந்தமாறன் அவனை இரவில் இரகசியமாக மாளிகைக்கு அழைத்தான். காவலரை முத்திரையால் சமன் செய்து உள்ளே சென்றனர். மறைவாக நின்ற வந்தியத்தேவன் மண்டபத்தில் பெரிய பழுவேட்டரையார் தலைமையில் கூடியிருந்த பெரும் கூட்டத்தையும், பெரிய-சின்ன பழுவேட்டரையார்கள் ரகசியமாகப் பேசுவதையும் கண்டு வியப்படைந்தான். சம்புவரையன் விருந்தினரை பெரும் மரியாதையுடன் வரவேற்கக் கண்டான். இன்று, பல சிற்றரசர்களும் ஒன்றுகூடி இருப்பதைக் கண்டு, இது வெறும் விருந்து அல்ல என்ற ஐயம் அவனுக்கு வலுத்தது."
+  }
+ },
+ {
   "date": "2026-10-02",
   "title": "சம்புவரையரின் வரவேற்பு",
   "book": 1,
