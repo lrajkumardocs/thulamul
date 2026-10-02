@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 24 புதியவை
+[fetch] The Hindu TN: 20 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 25 புதியவை
+[fetch] BBC World: 19 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 29 புதியவை
-[fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 17 புதியவை
+[fetch] ESPNcricinfo: 28 புதியவை
+[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Cinema: 16 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 19 புதியவை
-[fetch] Wired: 26 புதியவை
+[fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 9 புதியவை
+[fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 8 புதியவை
+[fetch] FreeJobAlert: 7 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 13 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 17 புதியவை
+[fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 13 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 26 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2315548610>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f51006d2dd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 13 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,67 +67,51 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 688 → நிகழ்வுகள் 643
-[triage] சேமித்த மதிப்பெண் (565) — புதிய அழைப்பு இல்லை
-[triage] 643 → 123 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] வெளிநாட்டுத் டி20 லீگ் (IPL) சம்பந்தப்பட்ட ஆட்டம்; தமிழ்நாடு
-[skip] தமிழ்நாட்டுக்கு பொருந்தாது. ராஜஸ்தான் பொதுச் சேவா ஆணையம் (RP
-[skip] சர্வதேশીய அமைப்புகளின் நிகழ்வு; தமிழ்நாடு அல்லது இந்திய அரசு
-[skip] മലയാളം സിനിമ — തമിഴ്നാട് വായനക്കാരുടെ പ്രാധാന്യമല്ല; തമിഴ് ര
-[skip] வெளிநாட்டு உள்ளூர் விபத்து - அமெரிக்க பல்கலைக்கழக நிறுவனத்தி
+[run] புதியவை 621 → நிகழ்வுகள் 596
+[triage] 596 → 51 | காலி: tn:5, govt:4, economy:3, court:3, jobs:3
+[skip] கேரளா மற்றும் ஆந்திரப் பிரதேசத்தில் உள்ள உள்ளூர் வேலைவாய்ப்ப
+[skip] வெளிநாட்டு திரைப்படம் — அமெரிக்க திரைப்படத்தின் விமர்சனம். த
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] கர்நாடக இசை தாள வாத்தியக் கலைஞர் திருச்ச → கர்நாடக இசை தாள வாத்தியக் கலைஞர் திருச்ச
-[tts-edge] 18a41be4404f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கர்நாடக இசை தாள வாத்தியக் கலைஞர் திருச்சி ஆர்.தயுமானவன் காலமானார்
-[skip] வெளிநாட்டு விமান விபத்து — தமிழ்நாடு/இந்திய வாசகருக்குத் தேச
-[skip] இதியோப்பியா-எரித்ரியার இராஜதந்திர உறவு முறிவு ஆফ்ரிக்காவுக்க
-[skip] எதியோப்பியாவின் உள்நாட்டுப் போராட்டம். தமிழ்நாடு/இந்தியாவுடன
-[திருத்தம்] ஆசிய விளையாட்டு: சீனாவை வென்று மகளிர் ஹா → ஆசிய விளையாட்டு 2026: சீனாவை வென்று மகளி
-[tts-edge] f246a423f108: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆசிய விளையாட்டு 2026: சீனாவை வென்று மகளிர் ஹாக்கி அணிக்கு முதல் தங்கம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfdwKjVRh5jKia2eDwFT6'}
-[skip] தலைப்பு மட்டுமே கிடைத்துள்ளது, செய்தியின் விவரங்கள், மேற்கோள
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfdwNwVZpKuEcvrN7nqae'}
-[skip] ஆந்திரப் பிரதேசத்தில் உள்ள உள்ளூர் விலங்குக் காட்சிசாலையின் 
-[skip] ஆந்திரா மாநிலத்தின் உள்ளூர் நிகழ்ச்சி (விசாகப்பட்டினம் சுத்த
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை முழுமையாக எழுத போ
-[image] களஞ்சியம் (2 சொல்): வேலூரில் யானைத் தந்தங்கள் வைத்திரு
-[publish] வேலூரில் யானைத் தந்தங்கள் வைத்திருந்த கும்பல் கைது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfdwW1sgkNTUZmzLQS9ar'}
-[skip] இது ஆந்திரப் பிரதேசம் விசாகப்பட்டினத்தில் நடந்த உள்ளூர்ப் போ
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், தேதி, எண்ணிக்கை, அதி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfdwZhJr8QjDyhkpeS1eF'}
-[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
-[publish] ராணிப்பேட்டை சிஎம்சி வளாகத்தில் குழந்தைகள் நல சிறப்பு மையம் தொடக்கம்
-[skip] இது ஒரு குறிப்பிட்ட ரயில்வே மண்டலத்தின் வழக்கமான சுத்தப்படுத
-[திருத்தம்] அமெரிக்காவில் தூக்குத் தண்டனை தோல்வி, கை → அமெரிக்காவில் தூக்குத் தண்டனை தோல்வி, கி
-[publish] அமெரிக்காவில் தூக்குத் தண்டனை தோல்வி, கிறிஸ்டா பைக் மருத்துவமனையில் சிகிச்சை
-[திருத்தம்] ஆசிய விளையாட்டு போட்டி: 44 ஆண்டுகளுக்குப → ஆசிய விளையாட்டு போட்டி: 44 ஆண்டுகளுக்குப
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[publish] ஆசிய விளையாட்டு போட்டி: 44 ஆண்டுகளுக்குப் பின் மகளிர் ஹாக்கியில் இந்தியாவுக்குத் தங்கம்
-[திருத்தம்] தலைமைத் தேர்தல் ஆணையர் நீக்கம், எஸ்ஐஆர்  → தலைமைத் தேர்தல் ஆணையர் நீக்கம், எஸ்ஐஆர் 
-[image] களஞ்சியம் (2 சொல்): தலைமைத் தேர்தல் ஆணையர் நீக்கம், எஸ
-[publish] தலைமைத் தேர்தல் ஆணையர் நீக்கம், எஸ்ஐஆர் ரத்து கோரி இடதுசாரிக் கட்சிகள்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்குத் தேவையான விவரங
-[திருத்தம்] மகாராஷ்டிரா சம்ருத்தி வேகவழிச் சாலையில்  → அம்ராவதி சம்ருத்தி வேகவழிச் சாலையில் விப
-[image] களஞ்சியம் (3 சொல்): அம்ராவதி சம்ருத்தி வேகவழிச் சாலையி
-[publish] அம்ராவதி சம்ருத்தி வேகவழிச் சாலையில் விபத்து, ஏழு பேர் பலி
-[திருத்தம்] புக்சா புலிகள் காப்பகத்தில் மூன்று வயது  → புக்சா காப்பகம் பெண் புலி விடுவிப்பால் ப
-[publish] புக்சா காப்பகம் பெண் புலி விடுவிப்பால் புலிகளின் நிலை திரும்பப் பெறுகிறது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfdwyW94KwubdcDg3WMsi'}
-[skip] இது பிற மாநிலத்தில் நடந்த உள்ளூர் கைது/ஜாமீன் வழக்கு; தமிழ்ந
-[skip] ஆந்திராவில் உள்ள ஆசார்ய நாகார்ஜுனா பல்கலைக்கழகத்தில் நடந்த உ
-[திருத்தம்] பஞ்சாப் எல்லையில் ஊடுருவல் முயற்சி இருவர → பஞ்சாப் எல்லையில் ஊடுருவல் முயற்சி: இருவ
-[தரம்] தமிழ் அல்லாத எழுத்து: న → ஒரு திருத்தம்
-[publish] பஞ்சாப் எல்லையில் ஊடுருவல் முயற்சி: இருவர் சுட்டுக் கொல்லப்பட்டனர்
-[comic] கதை: மண்டபம் நிறைந்த மர்மம்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-03.png · நாள் 24
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹13275 · சென்செக்ஸ் 71910
+[skip] மூலச் செய்தி தெளிவற்றது மற்றும் கற்பனைக் காட்சி/படம் தொடர்பா
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (என்ன
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; செய்திக்குத் தேவையான விவரங
+[திருத்தம்] திருவண்ணாமலையில் கிணறு தோண்டும்போது மண்  → திருவண்ணாமலையில் கிணறு தோண்டும்போது மண்ச
+[தரம்] தமிழ் அல்லாத எழுத்து: ना → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): திருவண்ணாமலையில் கிணறு தோண்டும்போத
+[tts-edge] 17c61a4fcacd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திருவண்ணாமலையில் கிணறு தோண்டும்போது மண்சரிவு இரண்டு பேர் பலி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfdy8TgbGmabWzKcf9PYP'}
+[tts-edge] fc0549267bbc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தூத்துக்குடியில் இந்தி பலகைகள் விவகாரம், இரு அதிகாரிகள் இடைநீக்கம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfdyDE8Q6H7kpoDmVGJYL'}
+[skip] மூலத்தில் உள்ள தகவல் உறுதியற்றது — விஜய் தமிழ்நாட்டின் முதலம
+[publish] ஐந்து தொகுதி இடைத்தேர்தல் ஒத்திவைப்பு மனு - தீர்ப்பு ஒத்திவைப்பு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரம் இல்லை. 
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfdyQbTrM6kMvBkHo6NwA'}
+[திருத்தம்] பாஜக பயம் குறித்து விஜய்யை விமர்சித்த மு → பாஜக பயம் குறித்து விஜயைக் கடுமையாக விமர
+[publish] பாஜக பயம் குறித்து விஜயைக் கடுமையாக விமர்சித்த முதல்வர் ஸ்டாலின்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] அல்ジீरியாவின் உள்நாட்டு சட்ட மாற்றம். தமிழ்நாடு/இந்தியாவுடன்
+[skip] இது ஒரு பகுப்பாய்வாளரின் எதிர்கால ஊகக் கருத்து மட்டுமே; உறுத
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfdycYyNA37fyHDsh28xn'}
+[image] களஞ்சியம் (4 சொல்): இந்தியப் பங்குச் சந்தையில் எட்டு வ
+[publish] இந்தியப் பங்குச் சந்தையில் எட்டு வாரச் சரிவு, இருபத்தாறு லட்சம் கோடி இழப்பு
+[திருத்தம்] 25 ஆண்டுகளில் இல்லாத நீண்ட வார சரிவில் இ → 25 ஆண்டுகளில் இல்லாத நீண்ட வார சரிவில் ட
+[image] களஞ்சியம் (4 சொல்): 25 ஆண்டுகளில் இல்லாத நீண்ட வார சரி
+[publish] 25 ஆண்டுகளில் இல்லாத நீண்ட வார சரிவில் டி-ஸ்ட்ரீட்
+[publish] மாநில அமைச்சரவையில் பாதி பேர் பெண்களாக இருக்க வேண்டும் - அண்ணாமலை
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தமிழகத்தில் நூறு சார்பதிவாளர் அலுவ
+[publish] தமிழகத்தில் நூறு சார்பதிவாளர் அலுவலகங்களில் சனிக்கிழமை வேலை நிறுத்தம்
+[திருத்தம்] தமிழக முதலமைச்சர் விஜய் வெற்றிப் பயணம் த → தமிழக முதலமைச்சர் விஜய் வெற்றிப் பயணம் த
+[image] களஞ்சியம் (2 சொல்): தமிழக முதலமைச்சர் விஜய் வெற்றிப் ப
+[publish] தமிழக முதலமைச்சர் விஜய் வெற்றிப் பயணம் திட்டத்தை அறிமுகப்படுத்தினார்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfdyvuBJFeaCmuQCNNJ7i'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] தொடர் விடுமுறையில் ஆம்னி பேருந்து கட்டண  → தொடர் விடுமுறையில் ஆம்னி பேருந்து கட்டணம
+[image] களஞ்சியம் (2 சொல்): தொடர் விடுமுறையில் ஆம்னி பேருந்து 
+[publish] தொடர் விடுமுறையில் ஆம்னி பேருந்து கட்டணம் தாங்குமா, தணிக்கை தீவிரப்படுத்தப்பட்டுள்ளது
+[market] தங்கம் 22K ₹13281 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 0 · எழுதியவை 10
