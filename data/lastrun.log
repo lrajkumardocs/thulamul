@@ -1,3 +1,4 @@
+[expire] db383163969f
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 20 புதியவை
 [fetch] MoneyControl: 0 புதியவை
@@ -5,7 +6,7 @@
 [fetch] Dinamani TN: 22 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 9 புதியவை
+[fetch] Al Jazeera: 10 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 27 புதியவை
 [fetch] The Hindu Cinema: 2 புதியவை
@@ -56,7 +57,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8f67a1efd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fae81f7f3d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 9 புதியவை
 [fetch] Dinamani Govt: 22 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
@@ -67,11 +68,14 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 18 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 476 → நிகழ்வுகள் 450
+[run] புதியவை 477 → நிகழ்வுகள் 451
 [triage] சேமித்த மதிப்பெண் (408) — புதிய அழைப்பு இல்லை
-[triage] 450 → 27 | காலி: india:3, health:2, assembly:2, world:1, crime:1
+[triage] 451 → 30 | காலி: india:3, health:2, assembly:2, world:1, crime:1
+[tts-edge] brief_2026-10-02: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[brief] காலை brief தயார்
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13392 · சென்செக்ஸ் 71910
+[market] தங்கம் 22K ₹13338 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 5 · எழுதியவை 0
+[done] feed 300 · pending 4 · எழுதியவை 0
