@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 10 புதியவை
+[fetch] The Hindu TN: 8 புதியவை
 [fetch] Dinamani TN: 23 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 27 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 13 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 6 புதியவை
+[fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 9 புதியவை
+[fetch] The Hindu Legal: 8 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
-[fetch] The Verge: 9 புதியவை
-[fetch] The Hindu National: 9 புதியவை
+[fetch] The Verge: 8 புதியவை
+[fetch] The Hindu National: 8 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 26 புதியவை
+[fetch] Sportstar: 25 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f93da0406d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 10 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fcbc29f03d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 8 புதியவை
 [fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,26 +67,21 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 562 → நிகழ்வுகள் 544
+[run] புதியவை 551 → நிகழ்வுகள் 534
 [triage] சேமித்த மதிப்பெண் (541) — புதிய அழைப்பு இல்லை
-[triage] 544 → 12 | காலி: jobs:3, assembly:2, tn:1, india:1, world:1
-[திருத்தம்] ஆப்பிள் மேக் கணினியில் நிறை வட்ட அணுக்கத → ஆப்பிள் மேக் கணினியில் முழு வட்ட அணுக்கத
-[tts-edge] e148a12b4219: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆப்பிள் மேக் கணினியில் முழு வட்ட அணுக்கத்திற்கு புதிய பாதுகாப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfe3Dx2mLHhcuoG1KhDQ8'}
+[triage] 534 → 10 | காலி: jobs:3, assembly:2, tn:1, india:1, world:1
+[skip] ஜம்மு காஷ்மீர் மாநில உள்ளூர் அரசியல்வாதி மற்றும் பாதுகாப்பு 
+[skip] இரான்-伊拉克் விமான சேவை ஒப்பந்தம் தமிழ்நாடு/இந்திய வாசகரைக் கண
+[skip] ஜம்மு-காஷ்மீர் மாநிலத்தின் உள்ளூர் அரசியல் சம்பவம்; தமிழ்நாட
+[skip] இது அமெரிக்க பங்குச் சந்தை மற்றும் வேலைவாய்ப்புத் தரவு பற்றி
+[skip] Netflix-ன் உள்நாட்டுத் தயாரிப்பு கொள்கை மாற்றம் தமிழ்நாட்டு 
+[skip] அமெரிக்க உள் அரசியல் மற்றும் சுற்றுச்சூழல் வழக்கு — தமிழ்நாட
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] ஈத்தியோப்பியாவின் உள்நாட்டு மோதல் — தமிழ்நாட்டு / இந்திய வாச
-[skip] வெளிநாட்டு ফুটबল ক্লাবের আইনি விষয় — தமிழ்நாடு/இந்திய வாசকদ
-[skip] கேரளத்தின் சுற்றலாவணைப் பற்றிய செய்தி. தமிழ்நாட்டு வாசகருக்க
-[திருத்தம்] கர்நாடக தாளவாத்தியக் கலைஞர் திருச்சி தாய → கர்நாடக தாளவாத்தியக் கலைஞர் திருச்சி ஆர்
-[நகல்] ஏற்கனவே வெளியானது: கர்நாடக இசை தாள வாத்தியக் கலைஞர் திருச்சி ஆர்.தயுமானவன் காலம
-[skip] பிற மாநிலத்தின் உள்ளூர் தேர்தல் நிர்வாகம் — தமிழ்நாட்டுக்கு 
-[skip] கட்சிச் செய்தி — அரசு அறிவிப்பு அல்ல. திமுக அல்லது அதிமுক அர
-[தரம்] தமிழ் அல்லாத எழுத்து: ে → ஒரு திருத்தம்
-[tts-edge] dba5c00039f1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மாதவிடாய் நிறுத்தம் முக்கியக் காலம்; சுகாதாரப் பதிவுகளில் புறக்கணிக்கப்பட்டுள்ளது
-[skip] திரை விமர்சனம் — தமிழ்நாட்டு வாசகருக்குப் பொருந்தாது. இப்பக்
-[market] தங்கம் 22K ₹13261 · சென்செக்ஸ் 71910
+[image] களஞ்சியம் (2 சொல்): ஜெம் கிரானைட்ஸ் உரிமையாளர் வீரமணி 
+[tts-edge] d2e4b7acb42a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] ஜெம் கிரானைட்ஸ் உரிமையாளர் வீரமணி மீது பாலியல் வழக்கு பதிவு
+[skip] திரை விமர்சனம் — விமர்சனம் இப்பக்கத்தில் வேண்டாம். வாரமலரில்
+[skip] வேস்ட் இந்தீஸ் அணியின் சர்வதேச ক்রிக்கெட் தொடரைப் பற்றிய செய
+[market] தங்கம் 22K ₹13250 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 2
+[done] feed 300 · pending 1 · எழுதியவை 1
