@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 24 புதியவை
+[fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 6 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
+[fetch] Dinamani TN: 22 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 13 புதியவை
-[fetch] Al Jazeera: 11 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
+[fetch] Al Jazeera: 8 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 25 புதியவை
@@ -41,7 +41,7 @@
 [fetch] India Today: 18 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 29 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7efee8923150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f79661730d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 8 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] Dinamani Govt: 22 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,22 +67,41 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 516 → நிகழ்வுகள் 501
+[run] புதியவை 509 → நிகழ்வுகள் 492
 [triage] சேமித்த மதிப்பெண் (482) — புதிய அழைப்பு இல்லை
-[triage] 501 → 12 | காலி: jobs:3, assembly:2, tn:1, india:1, world:1
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, வழக்கின் விவரங்கள் (எந்த ம
-[skip] UEFA Nations League ஆங்கிலேய-குரோয়েশிய ஆட்டமாகும். தமிழ்நாட
-[skip] குஜராத் மாநிலத்தின் உள்ளூர் சிவில் சட்ட மசோதா - தமிழ்நாட்டுட
-[skip] பொதுவான வழக்குப் பதிவு செய்திதான்; அரசு செயல் அல்ல. அரசு அறி
-[skip] மூலத்தில் தலைப்பு மற்றும் மிகக் குறைந்த குறிப்புகள் மட்டுமே 
-[skip] வெளிநாட்டு உள்நாட்டுக் குற்றச் செய்தி — தமிழ்நாடு/இந்திய வாச
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உரை இல்லை; நிகழ்வு
-[skip] இது அரசு அறிவிப்பு (govt) அல்ல; கட்சிச் செய்திக் குறிப்பு / 
-[skip] இஸ்ரேல்-கஜா முரண்பாடு பற்றிய கருத்து மாত்திரம். தமிழ்நாடு / 
-[tts-edge] fb262f1f0a82: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இந்திய விமானி கேப்டன் ஸ்மித் மச்சாருடன் பேசிய பிரதமர் மோடி
-[skip] பிற மொழிப் படம் — தமிழில் வெளியாகும் அல்லது தமிழ்க் கலைஞர் த
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமான விளையாட்டுச் செய்தி அல்ல
+[triage] 492 → 21 | காலி: jobs:3, assembly:2, tn:1, world:1, court:1
+[திருத்தம்] நாளை தமிழகத்தின் பல மாவட்டங்களில் மழைக்க → நாளை தமிழ்நாட்டின் பல மாவட்டங்களில் மழைக
+[image] களஞ்சியம் (2 சொல்): நாளை தமிழ்நாட்டின் பல மாவட்டங்களில
+[tts-edge] 5a8143bc87f4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] நாளை தமிழ்நாட்டின் பல மாவட்டங்களில் மழைக்கு வாய்ப்பு
+[tts-edge] 5a8143bc87f4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] எட்டு மாவட்டங்களில் நாளை மழைக்கு வாய்ப்பு என அறிவிப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfeFNuenv64gGzGsPKU1V'}
+[skip] வெளிநாட்டுக் விமான விபத்து. தமிழ்நாட்டுக்கு நேரடித் தொடர்பு 
+[திருத்தம்] ரூபாய் அழுத்தம், பணவீக்கம்: ரிசர்வ் வங்க → ரூபாய் அழுத்தம், பணவீக்கம்: ரிசர்வ் வங்க
+[publish] ரூபாய் அழுத்தம், பணவீக்கம்: ரிசர்வ் வங்கி வட்டிக் கொள்கை மறுபரிசீலனை செய்யுமா?
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது; விவரங்கள், எண்கள், 
+[skip] கட்சிச் செய்தி — அரசு அறிவிப்பு அல்ல। சீமான் (தவெக) தலைவர் ஒ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfeFXoGZjhvkTkvXQen6j'}
+[skip] கனடாவின் உள்நாட்டு தொழிலாளர் சட்டச் சர்ச்சை. தமிழ்நாடு / இந்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): லஞ்ச புகாரில் காவல் உதவி ஆய்வாளர் 
+[publish] லஞ்ச புகாரில் காவல் உதவி ஆய்வாளர் பணி நீக்கம்
+[திருத்தம்] ஆம்னி பேருந்து கட்டணத்தை அரசே நிர்ணயிக்க → ஆம்னி பேருந்து கட்டணத்தை அரசே நிர்ணயிக்க
+[publish] ஆம்னி பேருந்து கட்டணத்தை அரசே நிர்ணயிக்க வேண்டும் என உரிமையாளர்கள் கோரிக்கை
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான தகவல்கள் (எப்போது,
+[தரம்] தமிழ் அல்லாத எழுத்து: ধরা → ஒரு திருத்தம்
+[நகல்] ஏற்கனவே வெளியானது: ஆம்னி பேருந்து கட்டணத்தை அரசே நிர்ணயிக்க வேண்டும் என உரிமையா
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்குத் தேவையான விவரங
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, எந்த இடைத்தேர்தல், எப்போது
+[skip] மேற்கு வங்க உள்ளூர் அரசியல் குற்றச்சாட்டு - தமிழ்நாட்டுக்கு 
+[skip] கட்சிச் செய்தி — அரசு அறிவிப்பு அல்ல. ஜி.கே.வாசன் (தமிழ் மணி
+[skip] பிகார் மாநிலத்தின் உள்ளூர் ஆக்கிரமிப்பு அகற்றம் தொடர்பான வழக
+[skip] திரை விமர்சனம் — இப்பக்கத்தில் அனுமதி இல்லை। விமர்சனங்கள் வா
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — தமிழ்நாடு/இந்தியா/உலக முக்கிய
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: ஆம்னி பேருந்து கட்டணத்தை யார் நிர்ணயிக்க வேண்டும்?
 [market] தங்கம் 22K ₹13261 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 1
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 3 · எழுதியவை 5
