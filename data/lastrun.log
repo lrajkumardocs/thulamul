@@ -1,12 +1,12 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 25 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 6 புதியவை
-[fetch] Dinamani TN: 22 புதியவை
+[fetch] Dinamani TN: 16 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 13 புதியவை
-[fetch] Al Jazeera: 8 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] Al Jazeera: 6 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
 [fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 30 புதியவை
@@ -41,13 +41,13 @@
 [fetch] India Today: 18 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 29 புதியவை
+[fetch] Dinamani India: 23 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 25 புதியவை
+[fetch] Sportstar: 26 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f79661730d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3b03761710>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 8 புதியவை
-[fetch] Dinamani Govt: 22 புதியவை
+[fetch] Dinamani Govt: 16 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,41 +67,19 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 509 → நிகழ்வுகள் 492
+[run] புதியவை 488 → நிகழ்வுகள் 473
 [triage] சேமித்த மதிப்பெண் (482) — புதிய அழைப்பு இல்லை
-[triage] 492 → 21 | காலி: jobs:3, assembly:2, tn:1, world:1, court:1
-[திருத்தம்] நாளை தமிழகத்தின் பல மாவட்டங்களில் மழைக்க → நாளை தமிழ்நாட்டின் பல மாவட்டங்களில் மழைக
-[image] களஞ்சியம் (2 சொல்): நாளை தமிழ்நாட்டின் பல மாவட்டங்களில
-[tts-edge] 5a8143bc87f4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] நாளை தமிழ்நாட்டின் பல மாவட்டங்களில் மழைக்கு வாய்ப்பு
-[tts-edge] 5a8143bc87f4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] எட்டு மாவட்டங்களில் நாளை மழைக்கு வாய்ப்பு என அறிவிப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfeFNuenv64gGzGsPKU1V'}
-[skip] வெளிநாட்டுக் விமான விபத்து. தமிழ்நாட்டுக்கு நேரடித் தொடர்பு 
-[திருத்தம்] ரூபாய் அழுத்தம், பணவீக்கம்: ரிசர்வ் வங்க → ரூபாய் அழுத்தம், பணவீக்கம்: ரிசர்வ் வங்க
-[publish] ரூபாய் அழுத்தம், பணவீக்கம்: ரிசர்வ் வங்கி வட்டிக் கொள்கை மறுபரிசீலனை செய்யுமா?
-[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது; விவரங்கள், எண்கள், 
-[skip] கட்சிச் செய்தி — அரசு அறிவிப்பு அல்ல। சீமான் (தவெக) தலைவர் ஒ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfeFXoGZjhvkTkvXQen6j'}
-[skip] கனடாவின் உள்நாட்டு தொழிலாளர் சட்டச் சர்ச்சை. தமிழ்நாடு / இந்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): லஞ்ச புகாரில் காவல் உதவி ஆய்வாளர் 
-[publish] லஞ்ச புகாரில் காவல் உதவி ஆய்வாளர் பணி நீக்கம்
-[திருத்தம்] ஆம்னி பேருந்து கட்டணத்தை அரசே நிர்ணயிக்க → ஆம்னி பேருந்து கட்டணத்தை அரசே நிர்ணயிக்க
-[publish] ஆம்னி பேருந்து கட்டணத்தை அரசே நிர்ணயிக்க வேண்டும் என உரிமையாளர்கள் கோரிக்கை
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான தகவல்கள் (எப்போது,
-[தரம்] தமிழ் அல்லாத எழுத்து: ধরা → ஒரு திருத்தம்
-[நகல்] ஏற்கனவே வெளியானது: ஆம்னி பேருந்து கட்டணத்தை அரசே நிர்ணயிக்க வேண்டும் என உரிமையா
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்குத் தேவையான விவரங
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, எந்த இடைத்தேர்தல், எப்போது
-[skip] மேற்கு வங்க உள்ளூர் அரசியல் குற்றச்சாட்டு - தமிழ்நாட்டுக்கு 
-[skip] கட்சிச் செய்தி — அரசு அறிவிப்பு அல்ல. ஜி.கே.வாசன் (தமிழ் மணி
-[skip] பிகார் மாநிலத்தின் உள்ளூர் ஆக்கிரமிப்பு அகற்றம் தொடர்பான வழக
-[skip] திரை விமர்சனம் — இப்பக்கத்தில் அனுமதி இல்லை। விமர்சனங்கள் வா
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — தமிழ்நாடு/இந்தியா/உலக முக்கிய
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: ஆம்னி பேருந்து கட்டணத்தை யார் நிர்ணயிக்க வேண்டும்?
+[triage] 473 → 5 | காலி: jobs:3, assembly:2, world:1, court:1, cinema:1
+[skip] திரைவிமர்சனம் — தமிழ்நாட்டுச் சினிமாவும் சரி, ஆனால் விமர்சனம
+[திருத்தம்] இந்தியா மகளிர் ஹாக்கி குழு ஆசிய விளையாட் → இந்தியா மகளிர் ஹாக்கி குழு ஆசிய விளையாட்
+[tts-edge] af8ac9249b9e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்தியா மகளிர் ஹாக்கி குழு ஆசிய விளையாட்டில் பொற்பதகம் வென்றது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (யார், எப்போது, 
+[skip] மருத்துவக் கல்வி இயக்குநர் நியமனம் பற்றிய குற்றச்சாட்டு — அர
+[skip] இலங்கைத் தமிழ் வழக்கு — தமிழ்நாட்டு வாசகரைத் தவிர்க்க முடியா
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13261 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 3 · எழுதியவை 5
+[done] feed 300 · pending 3 · எழுதியவை 1
