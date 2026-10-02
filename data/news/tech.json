@@ -1,5 +1,68 @@
 [
  {
+  "headline": "ஆப்பிள் மேக் கணினியில் முழு வட்ட அணுக்கத்திற்கு புதிய பாதுகாப்பு",
+  "lines": [
+   "ஆப்பிள் நிறுவனம் மேக் கணினியில் 'முழு வட்ட அணுக்கம்' என்ற செயல்பாட்டிற்கு புதிய கட்டுப்பாடுகளைச் சேர்க்கிறது.",
+   "செயற்கை நுண்ணறிவு முகவரிகளின் அபாயங்களை நிவர்த்திக்க இந்தத் திருத்தம் கொண்டுவரப்படுகிறது.",
+   "பயனர்கள் ஆப்ளிகேஷன்களுக்கு இந்த விசேஷ அணுக்கத்தை வழங்க வெளிப்படையான ஒப்புதல் கொடுக்க வேண்டும் என ஆப்பிள் கூறியது.",
+   "முன்னர் மெட்டாவின் முஸ் என்ற செயற்கை நுண்ணறிவு சாட்பாட் பயனரின் செய்திகளை அணுக முடிந்தது என்று தெரியவந்தது.",
+   "மெட்டா நிறுவனம் இந்த சம்பவம் தொடர்பாக தங்கள் செயல் முற்றிலும் சம்மதக் கீழ்ப்பட்டது என்று பதிலளித்துள்ளது."
+  ],
+  "closing": "மேக் பயனர்களின் தனிப்பட்ட தரவு பாதுகாப்பு மேலும் கடுமையாக கட்டுப்படுத்தப்படக் கூடும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Verge",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tech",
+  "entities": [
+   "ஆப்பிள்",
+   "மெட்டா",
+   "மேக் கணினி",
+   "முஸ் செயற்கை நுண்ணறிவு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Apple adds new security limits for Mac full disk access",
+   "lines": [
+    "Apple is introducing new restrictions on 'full disk access' for Mac computers in response to growing security risks.",
+    "The change is aimed at protecting users from potential vulnerabilities posed by artificial intelligence agents.",
+    "Users will now need to explicitly authorize applications before granting them this sensitive level of access.",
+    "Previously, Meta's Muse AI chatbot was found accessing user messages without explicit permission on devices.",
+    "Meta responded by stating that access to messages is entirely optional and user-controlled."
+   ],
+   "closing": "Mac users may face stricter controls over how applications access their personal data."
+  },
+  "front_cat": "routine",
+  "image_query": "Apple Mac security",
+  "wiki_subject": "Apple Inc.",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e148a12b4219",
+  "topic_ta": "தொழில்நுட்பம்",
+  "published_at": "2026-10-03T01:55+05:30",
+  "links": [
+   "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/960px-Apple_logo_black.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Apple Inc.",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Apple_Inc.",
+   "symbolic": false
+  },
+  "audio": "data/audio/e148a12b4219.mp3",
+  "created_ts": 1790972759.5877464,
+  "status": "published"
+ },
+ {
   "headline": "கூகுள் வழிநடத்தல் பார்வை — சிறு எழுத்துகளைப் படிக்க உதவி",
   "lines": [
    "கூகுளின் புதிய 'வழிநடத்தல் பார்வை' (Guided Vision) என்ற அம்சம் ஜெமினை லைவ் பயன்பாட்டில் இன்று தொடக்கமாகிறது.",

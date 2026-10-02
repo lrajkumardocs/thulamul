@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 26 புதியவை
+[fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 10 புதியவை
 [fetch] Dinamani TN: 23 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
 [fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 28 புதியவை
+[fetch] ESPNcricinfo: 27 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 16 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 19 புதியவை
-[fetch] Wired: 26 புதியவை
+[fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 9 புதியவை
+[fetch] The Hindu Health: 6 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 4 புதியவை
+[fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 13 புதியவை
+[fetch] The Hindu Legal: 9 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 18 புதியவை
-[fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 13 புதியவை
+[fetch] The Verge: 9 புதியவை
+[fetch] The Hindu National: 9 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f871a398b10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f93da0406d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 10 புதியவை
 [fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,58 +65,28 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 22 புதியவை
+[fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 590 → நிகழ்வுகள் 567
+[run] புதியவை 562 → நிகழ்வுகள் 544
 [triage] சேமித்த மதிப்பெண் (541) — புதிய அழைப்பு இல்லை
-[triage] 567 → 29 | காலி: jobs:3, cinema:3, tn:2, world:2, court:2
-[திருத்தம்] கவிஞர் கண்ணதாசனின் நூற்றாண்டு நிறைவு: தத → கவிஞர் கண்ணதாசனின் நூற்றாண்டு நிறைவு: தத
-[தரம்] தமிழ் அல்லாத எழுத்து: तपদধমসৃ → ஒரு திருத்தம்
-[tts-edge] fe9c38920786: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கவிஞர் கண்ணதாசனின் நூற்றாண்டு நிறைவு: தத்துவ வசனங்களால் தமிழ் திரையுலகைச் செழுமைப்படுத்திய கவிஞன்.
-[skip] NEET PG என்பது மருத்துவ முதுமலர்நிலை தேர்வு — தமிழ்நாட்டின் 
-[skip] பிற நாட்டின் உள்ளூர் அமலாக்கத் துறைச் செயல்பாடு — தமிழ்நாடு/
-[திருத்தம்] பாஸ்போர்ட் கோரி சென்னை உயர் நீதிமன்றத்தி → பாஸ்போர்ட் கோரி சென்னை உயர்நீதிமன்றத்தில
-[தரம்] மூலத்தில் இல்லாத எண்: 2022 → ஒரு திருத்தம்
-[tts-edge] a091dc84a8e4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பாஸ்போர்ட் கோரி சென்னை உயர்நீதிமன்றத்தில் பேரறிவாளன் மனு
-[skip] ஆந்திரப் பிரதேசம் விஜயவாடாவில் நடந்த உள்ளூர் காந்தி ஜெயந்தி 
-[skip] ஆந்திரப் பிரதேசத்தின் கோనసీம மாவட்டத்தில் நடந்த உள்ளூர்ச் சம
-[skip] ஆந்திரப் பிரதேசத்தைச் சேர்ந்த உள்ளூர் அரசியல் நிகழ்வு, தமிழ்
+[triage] 544 → 12 | காலி: jobs:3, assembly:2, tn:1, india:1, world:1
+[திருத்தம்] ஆப்பிள் மேக் கணினியில் நிறை வட்ட அணுக்கத → ஆப்பிள் மேக் கணினியில் முழு வட்ட அணுக்கத
+[tts-edge] e148a12b4219: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆப்பிள் மேக் கணினியில் முழு வட்ட அணுக்கத்திற்கு புதிய பாதுகாப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfe3Dx2mLHhcuoG1KhDQ8'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] உத்தரப் பிரதேச காங்கிரஸ் கட்சியின் உள்ளூர் நியமனம் - தமிழ்நா
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக் கட்டுரையின் விவரங
-[image] களஞ்சியம் (2 சொல்): இந்தியாவில் வயதான மக்கள் அதிகரிப்ப
-[publish] இந்தியாவில் வயதான மக்கள் அதிகரிப்பு பெரும் சவாலாக இருக்கும்
-[திருத்தம்] பஜாஜ் ஃபைனான்ஸ் நிறுவனம் 17,500 கோடி ரூப → பஜாஜ் ஃபைனான்ஸ் 17,500 கோடி ரூபாய் திரட்
-[publish] பஜாஜ் ஃபைனான்ஸ் 17,500 கோடி ரூபாய் திரட்ட திட்டம்
-[skip] ஆஸ்திரேலிய உள்நாட்டு கிரிக்கெட் செய்தி — தமிழ்நாடு/இந்தியக் 
-[skip] ஆந்திரப்பிரதேச மாநிலத்தின் உள்ளூர் கூட்டம். தமிழ்நாட்டுக்கு 
-[திருத்தம்] கொనசீம வட்டாரத்தில் ஈटूலக ஆலைகளிலிருந்து → கொனசீம வட்டாரத்தில் இட್டுலக ஆலைகளிலிருந்
-[தரம்] தமிழ் அல்லாத எழுத்து: ್; மூலத்தில் இல்லாத எண்: 14 → ஒரு திருத்தம்
-[publish] கொனசீம வட்டாரத்தில் செங்கல் சூளைகளிலிருந்து மூன்று சிறுவர் மீட்கப்பட்டனர்.
-[skip] அமெரிக்க நிறுவனம் (Dish/Sling TV) தொடர்பான சেவை மாற்றம்; தமி
-[skip] வேறு மாநிலத்தின் உள்ளூர் அரசியல் — நெల்லிமர்ల (ஆந்திரப்பிரதே
-[skip] தெல்லியில் நடக்கும் போராட்டம் தொடர்பான செய்தி. தமிழ்நாடு வாச
-[skip] உத்தரப்பிரதேश மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாடு வாசகரை
-[skip] வெளிநாட்டு ராணுவ நிகழ்வு — பெங்களூர் நகரமாக இருந்தாலும், இந்
-[skip] CEED 2027, LPUNEST 2027 ஆகியவை தேசிய அளவிலான கல்லூரி சேர்க்க
-[திருத்தம்] துபை விமான விபத்தில் விமானி தற்காலிக மரண → துபை விமான விபத்தில் விமானி உயிர் நொந்து
-[publish] துபை விமான விபத்தில் விமானி உயிர் நொந்தும் கடமையை நிறைவேற்றினார்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two brothers found dead at lodge in Periamet
-[திருத்தம்] தன்மரணத்தின் கோரிக்கையில் சமரசம்: ஐராவதம → 尊ரிமையின் கடைசி செயல்: சுமிரா ராய்யின் '
-[தரம்] தமிழ் அல்லாத எழுத்து: करसाु्尊 → ஒரு திருத்தம்
-[publish] உரிமையின் கடைசி செயல்: சுமிரா ராய்யின் 'பாங்கார்' 72வது தேசிய விருது
-[திருத்தம்] மதுராந்தகம் இடைத்தேர்தலுக்கு முன் விஜய்  → மதுராந்தகம் இடைத்தேர்தலுக்கு முன் விஜய் 
-[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: மதுராந்தகம் இடைத்தேர்தலுக்கு முன் 
-[publish] மதுராந்தகம் இடைத்தேர்தலுக்கு முன் விஜய் அவர்கள் நடத்திய பேரணி
-[skip] வெளிநாட்டு உள் நிகழ்வு — கொங்கோ ইবোলா வெளிப்பாடு. தமிழ்நாடு/
-[skip] இந்தியாவில் நடக்கும் தাராபுரம் (தமிழ்நாடு) இடைத்தேர்தல் செய்
-[skip] कन्नड चलचित्र — तमिल राज्य वाचकांना संबंधित नाही. चित्रपट सम
-[skip] महाराष्ट्र राज्य (मराठी परीक्षा) — तमिलनाडु वाचकों के लिए प्
-[market] தங்கம் 22K ₹13278 · சென்செக்ஸ் 71910
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] ஈத்தியோப்பியாவின் உள்நாட்டு மோதல் — தமிழ்நாட்டு / இந்திய வாச
+[skip] வெளிநாட்டு ফুটबল ক্লাবের আইনি விষয় — தமிழ்நாடு/இந்திய வாசকদ
+[skip] கேரளத்தின் சுற்றலாவணைப் பற்றிய செய்தி. தமிழ்நாட்டு வாசகருக்க
+[திருத்தம்] கர்நாடக தாளவாத்தியக் கலைஞர் திருச்சி தாய → கர்நாடக தாளவாத்தியக் கலைஞர் திருச்சி ஆர்
+[நகல்] ஏற்கனவே வெளியானது: கர்நாடக இசை தாள வாத்தியக் கலைஞர் திருச்சி ஆர்.தயுமானவன் காலம
+[skip] பிற மாநிலத்தின் உள்ளூர் தேர்தல் நிர்வாகம் — தமிழ்நாட்டுக்கு 
+[skip] கட்சிச் செய்தி — அரசு அறிவிப்பு அல்ல. திமுக அல்லது அதிமுক அர
+[தரம்] தமிழ் அல்லாத எழுத்து: ে → ஒரு திருத்தம்
+[tts-edge] dba5c00039f1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மாதவிடாய் நிறுத்தம் முக்கியக் காலம்; சுகாதாரப் பதிவுகளில் புறக்கணிக்கப்பட்டுள்ளது
+[skip] திரை விமர்சனம் — தமிழ்நாட்டு வாசகருக்குப் பொருந்தாது. இப்பக்
+[market] தங்கம் 22K ₹13261 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[image] 2 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 8
+[done] feed 300 · pending 0 · எழுதியவை 2
