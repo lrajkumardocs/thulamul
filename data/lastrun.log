@@ -2,20 +2,20 @@
 [fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 6 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 19 புதியவை
-[fetch] ESPNcricinfo: 25 புதியவை
+[fetch] BBC World: 13 புதியவை
+[fetch] Al Jazeera: 11 புதியவை
+[fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 5 புதியவை
-[fetch] The Hindu Agriculture: 1 புதியவை
+[fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0a4b2f4110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7efee8923150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 8 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,31 +67,22 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 534 → நிகழ்வுகள் 518
-[triage] 518 → 20 | காலி: jobs:3, assembly:2, tn:1, india:1, world:1
-[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைக் குறிப்
-[skip] வெளிநாட்டு உள்நாட்டுக் கொள்கை — தமிழ்நாடு/இந்தியாவுடன் நேரடி
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்நாட்டு ஆற்றல் கொள்கை — தமிழ்நாடு/இந்திய வாசகரை
-[skip] பிரான்சின் உள்ளூர் கல்வி போராட்டம் — தமிழ்நாடு/இந்தியக் வாசக
-[skip] வெளிநாட்டு பல்கலைக்கழகத்தில் நடந்த உள்ளூர் வழக்கு. தமிழ்நாடு
-[skip] இது ஸ்பெயின் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்திய வாசகருக்குத
-[skip] பிரான்சின் உள்ளூர் பள்ளி/தலைமுறைப் போராட்டம்; தமிழ்நாடு/இந்த
-[skip] இஸ்ரائேல்-பாலஸ்தீன்갈등 சம்பந்தமான சர்வதேச நிலைமை. தமிழ்நாடு வ
-[skip] தமிழ்நாடு / இந்தியாவுடன் நேரடித் தொடர்பு இல்லை. இஸ்রேல் உள்ந
-[skip] வெளிநாட்டு எரிபொருள் கொள்கை — தமிழ்நாடு அல்லது இந்தியாவுக்கு
-[skip] சுடான் உள்நாட்டுப் போர் — தமிழ்நாட்டுக்கும் இந்திய வாசகருக்க
-[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாடு/இந்திய வாசகருக்குத் த
-[skip] உலக நிகழ்வு — ஆனால் தமிழ்நாடு/இந்தியாடன் நேரடித் தொடர்பு இல்
-[skip] ஸ்பெயின் அரசாங்கத்தின் உள்நாட்டு அரசியல் - தமிழ்நாடு/இந்திய 
-[skip] வெளிநாட்டுத் தேசிய அரசியல் — G7 அறிவிப்பு தமிழ்நாடு வாசகரைப்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfeAnmJacrTJvQN6Xg3mL'}
-[திருத்தம்] 棉花урожay 2026-27 தீர்மானிக்க பல காரணிகள் → பருத்தி விளைபொருள் 2026-27 தீர்மானிக்க ப
-[image] களஞ்சியம் (2 சொல்): பருத்தி விளைபொருள் 2026-27 தீர்மான
-[tts-edge] 14ea9217fab7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பருத்தி விளைபொருள் 2026-27 தீர்மானிக்க பல காரணிகள்
-[skip] cinema_review - திரை விமர்சனம். இப்பக்கத்தில் விமர்சனம் வேண்
-[skip] இங்கிலாந்து county cricket நிர்வாகம் — தமிழ்நாடு/இந்திய வாசக
+[run] புதியவை 516 → நிகழ்வுகள் 501
+[triage] சேமித்த மதிப்பெண் (482) — புதிய அழைப்பு இல்லை
+[triage] 501 → 12 | காலி: jobs:3, assembly:2, tn:1, india:1, world:1
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, வழக்கின் விவரங்கள் (எந்த ம
+[skip] UEFA Nations League ஆங்கிலேய-குரோয়েশிய ஆட்டமாகும். தமிழ்நாட
+[skip] குஜராத் மாநிலத்தின் உள்ளூர் சிவில் சட்ட மசோதா - தமிழ்நாட்டுட
+[skip] பொதுவான வழக்குப் பதிவு செய்திதான்; அரசு செயல் அல்ல. அரசு அறி
+[skip] மூலத்தில் தலைப்பு மற்றும் மிகக் குறைந்த குறிப்புகள் மட்டுமே 
+[skip] வெளிநாட்டு உள்நாட்டுக் குற்றச் செய்தி — தமிழ்நாடு/இந்திய வாச
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உரை இல்லை; நிகழ்வு
+[skip] இது அரசு அறிவிப்பு (govt) அல்ல; கட்சிச் செய்திக் குறிப்பு / 
+[skip] இஸ்ரேல்-கஜா முரண்பாடு பற்றிய கருத்து மாত்திரம். தமிழ்நாடு / 
+[tts-edge] fb262f1f0a82: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்திய விமானி கேப்டன் ஸ்மித் மச்சாருடன் பேசிய பிரதமர் மோடி
+[skip] பிற மொழிப் படம் — தமிழில் வெளியாகும் அல்லது தமிழ்க் கலைஞர் த
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமான விளையாட்டுச் செய்தி அல்ல
 [market] தங்கம் 22K ₹13261 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 1 · எழுதியவை 1
