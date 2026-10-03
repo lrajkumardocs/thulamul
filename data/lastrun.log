@@ -1,16 +1,16 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 6 புதியவை
+[fetch] The Hindu TN: 11 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 15 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
-[fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 17 புதியவை
+[fetch] The Hindu Tech: 15 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb07ae3f250>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9119ffe510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,12 +65,57 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 16 புதியவை
-[fetch] Times Chennai Crime: 16 புதியவை
-[run] புதியவை 655 → நிகழ்வுகள் 602
-[triage] 602 → 62 | காலி: jobs:2, assembly:2, court:1, cinema:1
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[fetch] TN Police News: 18 புதியவை
+[fetch] Times Chennai Crime: 20 புதியவை
+[run] புதியவை 665 → நிகழ்வுகள் 617
+[triage] 617 → 75 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] மத்திய பிரதேசம் மற்றும் குஜராத் பல்கலைக்கழகங்களின் உள்ளூர் த
+[skip] ஒரு ஹோட்டেலில் ஒரு பொருளின் மாதிரি சோதனை முடிவு — மாநிலத் தொ
+[திருத்தம்] சிங்கீதம் சிரீனிவாస ராவ் காலமானார் → சிங்கீதம் சிரீனிவாச ராவ் காலமானார்
+[தரம்] தமிழ் அல்லாத எழுத்து: త → ஒரு திருத்தம்
+[tts-edge] 839adecdad24: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சிங்கீதம் சிரீனிவாச ராவ் காலமானார்
+[skip] வெஸ்റ்இண்டீஸ் மற்றும் இந்தியா இடையே ஆடிய ஒரு குறுகிய வடிவ கி
+[திருத்தம்] கமுதி அருகே மின்சாரம் தாக்கி அக்கா தம்பி → கமுதி அருகே மின்சாரம் தாக்கி அக்கா, தம்ப
+[image] களஞ்சியம் (2 சொல்): கமுதி அருகே மின்சாரம் தாக்கி அக்கா
+[tts-edge] 6edb1dfeb30c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கமுதி அருகே மின்சாரம் தாக்கி அக்கா, தம்பி உயிரிழப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CffojwoLrghXComfh95gZ'}
+[publish] மேகமலை வனப் பகுதி ஆக்கிரமிப்பு வழக்கில் உச்ச நீதிமன்றம் மீண்டும் உத்தரவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CffoqvgnQqsdorDNsBoKz'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cffowy9nA3B1hFdeSMfey'}
+[publish] ஸ்டாலின் மீது உருவ கேலி குற்றச்சாட்டு: தேர்தல் ஆணையத்தில் புகார்
+[image] களஞ்சியம் (2 சொல்): விஜய் மல்யா இன்னும் 8,752 கோடி ரூப
+[publish] விஜய் மல்யா இன்னும் 8,752 கோடி ரூபாய் கடன் செலுத்த வேண்டும்: வங்கிகள்
+[skip] வெளிநாட்டின் வழக்கமான விமான விபத்து/குற்றச் செய்தி. தமிழ்நாட
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cffp8mvAMGCh1fpkh346X'}
+[skip] கென்யாவின் உள்ளூர் விபத்து. உலக வாசகருக்கு முக்கியமாக இல்லை.
+[hold] கார்ப்பரேட் மாஃபியா அரசு என ஸ்டாலின் கடும் குற்றச்சாட்டு
+[publish] ஊழல் இல்லா ஆட்சி என்ற கூற்றை பழனிசாமி கடுமையாக விமர்சனம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CffpLTSkeR2szd2nsceQ1'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CffpNzYppmYcR8t8yhDYN'}
+[திருத்தம்] தவெக துயர சக்தி என மதுராந்தகத்தில் ஸ்டால → தவெக தூய சக்தி அல்ல, துயர சக்தி என மதுரா
+[publish] தவெக தூய சக்தி அல்ல, துயர சக்தி என மதுராந்தகத்தில் ஸ்டாலின் விமர்சனம்
+[திருத்தம்] டிராக்டர் ஓட்டினால் விவசாயி ஆக முடியாது: → டிராக்டர் ஓட்டினால் விவசாயி ஆக முடியாது:
+[publish] டிராக்டர் ஓட்டினால் விவசாயி ஆக முடியாது: எடப்பாடி கே.பழனிசாமி விமர்சனம்
+[திருத்தம்] புதுச்சேரி காங்கிரஸ் முடிந்துபோன அத்தியா → புதுச்சேரியில் காங்கிரஸ் முடிந்துபோன அத்
+[publish] புதுச்சேரியில் காங்கிரஸ் முடிந்துபோன அத்தியாயம் என மு.க.ஸ்டாலின் கருத்து
+[malar] 2026-W40 · புதிதாக எழுதுவது: roundup, numbers, history, films, zen, poem, hero, essay, agri, spirit, food, word, books, remedy, tech
+[malar] 2026-W40 · களஞ்சியத்திலிருந்து: (இல்லை)
+[malar:refresh] Expecting value: line 1 column 1 (char 0)
+[malar] களஞ்சியத்தில் 11 புதிது சேர்ந்தது · இருப்பு — zen:1, poem:1, hero:1, essay:1, agri:1, spirit:1, food:1, word:1, books:1, remedy:1, tech:1
+[malar] புதிய வாரமலர் 2026-W40
+[comic] கதை: இரகசிய அறை நோக்கிய நடை
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.83) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-04.png · நாள் 25
+[rasi] ராசிபலன் தயார்
 [market] தங்கம் 22K ₹13230 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 1 · எழுதியவை 10
