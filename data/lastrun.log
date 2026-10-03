@@ -2,10 +2,10 @@
 [fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 6 புதியவை
-[fetch] Dinamani TN: 16 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 13 புதியவை
-[fetch] Al Jazeera: 6 புதியவை
+[fetch] Dinamani TN: 15 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 12 புதியவை
+[fetch] Al Jazeera: 8 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
 [fetch] The Hindu Cinema: 8 புதியவை
@@ -13,10 +13,10 @@
 [fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 0 புதியவை
+[fetch] FreeJobAlert: 1 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3b03761710>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f68f073f410>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 8 புதியவை
-[fetch] Dinamani Govt: 16 புதியவை
+[fetch] Dinamani Govt: 15 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -68,18 +68,54 @@
 [fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
 [run] புதியவை 488 → நிகழ்வுகள் 473
-[triage] சேமித்த மதிப்பெண் (482) — புதிய அழைப்பு இல்லை
-[triage] 473 → 5 | காலி: jobs:3, assembly:2, world:1, court:1, cinema:1
-[skip] திரைவிமர்சனம் — தமிழ்நாட்டுச் சினிமாவும் சரி, ஆனால் விமர்சனம
-[திருத்தம்] இந்தியா மகளிர் ஹாக்கி குழு ஆசிய விளையாட் → இந்தியா மகளிர் ஹாக்கி குழு ஆசிய விளையாட்
-[tts-edge] af8ac9249b9e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இந்தியா மகளிர் ஹாக்கி குழு ஆசிய விளையாட்டில் பொற்பதகம் வென்றது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (யார், எப்போது, 
-[skip] மருத்துவக் கல்வி இயக்குநர் நியமனம் பற்றிய குற்றச்சாட்டு — அர
-[skip] இலங்கைத் தமிழ் வழக்கு — தமிழ்நாட்டு வாசகரைத் தவிர்க்க முடியா
+[triage] 473 → 36 | காலி: jobs:3, assembly:2, world:1, court:1, cinema:1
+[திருத்தம்] ரயில்வே ஏএলபி பரீட்சை இரண்டாம் கட்ட முடி → ரயில்வே ஏএலபி பரீட்சை இரண்டாம் கட்ட முடி
+[தரம்] தமிழ் அல்லாத எழுத்து: এঞী → ஒரு திருத்தம்
+[tts-edge] 898cdc545d2e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ரயில்வே ஏஎல்பி பரீட்சை இரண்டாம் கட்ட முடிவு வெளியாக்கப்பட்டது
+[tts-edge] 2a19ba1cac4c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] யேமனில் மோதல் தீவிரம், 24 மணி நேரத்தில் 1,540 ஹூதி போராளிகள் பாதிப்பு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை விரிவாக்க போதுமான
+[திருத்தம்] ஆசிய விளையாட்டுக்களில் இந்தியப் பெண் வில → ஆசிய விளையாட்டுக்களில் இந்திய பெண் வில்வ
+[publish] ஆசிய விளையாட்டுக்களில் இந்திய பெண் வில்வித்தை அணி வரலாற்று தங்கப்பதக்கம் வென்றது
+[skip] வெளிநாட்டுத் தொலைதூர ঘটনை — வட/தென் கொரியா ஏவுகணை பরীட்சை. த
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] இடைத்தேர்தலுக்குப் பிறகு தவெக அரசு நிலைக்காது - தமிழிசை சௌந்தரராஜன்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரம் எதுவும் 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லாததால் நம்பக
+[publish] தவெக குறித்து எடப்பாடி பழனிசாமி கடும் விமர்சனம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான தகவல் எதுவும் இல்ல
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான செய்தி உள்ளடக்கம் 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfeLCsnyeLuj4rgPadnYE'}
+[skip] உலகச் சினிமாவோ உலகக் கிரிக்கெட் தொடரோ அல்ல. ஆசிய விளையாட்டுக
+[திருத்தம்] இந்தியாவின் ஒன்பது நகரங்களில் அலுவலக இடம → ஒன்பது நகரங்களில் அலுவலக இடம் குத்தகை சா
+[தரம்] மூலத்தில் இல்லாத எண்: 2.1, 6.64, 2.8 → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ஒன்பது நகரங்களில் அலுவலக இடம் குத்
+[publish] ஒன்பது நகரங்களில் அலுவலக இடம் குத்தகை சாதனை அளவை எட்டியது
+[skip] தமிழ்நாடு அல்லது இந்தியாவுடன் நேரடித் தொடர்பு இல்லாத தொலைதூர
+[skip] ஹாக்கி போட்டியின் ஒரு ஆட்ட விளக்கம். இது ஆசிய விளையாட்டு அல்
+[திருத்தம்] நான்கு நிறுவனங்களின் பங்கு விற்பனைக்கு ச → நான்கு நிறுவனங்களின் பங்குப் பிரச்சயனுக்
+[தரம்] தமிழ் அல்லாத எழுத்து: রা; மூலத்தில் இல்லாத எண்: 61, 18 → ஒரு திருத்தம்
+[publish] நான்கு நிறுவனங்களின் பங்கு வெளியீட்டுக்கு செபி ஒப்புதல்
+[skip] வெளிநாட்டு ஒரு ব்যক்তির ব்যক்তிগত பாதுகாப்புச் செய்தி — தமிழ
+[skip] வெளிநாட்டு விளையாட்டு நிகழ்வு — ஆசிய விளையாட்டுக்களில் இந்தி
+[skip] அமெரிக்காவின் உள்நாட்டு சட்டவழக்கு. தமிழ்நாடு/இந்தியாவுடன் ந
+[திருத்தம்] ஆசிய விளையாட்டுக் கோப்பை 2026: இந்திய கு → ஆசிய விளையாட்டுக் கோப்பை 2026: லவ்லினா, 
+[publish] ஆசிய விளையாட்டுக் கோப்பை 2026: லவ்லினா, பர்வீன், அங்குஷ் தங்கப் பதக்கம் வென்றனர்
+[skip] தமிழ்நாடு வாசகரைப் பாதிக்காத ஐரோப்பாவின் உள்நாட்டுக் கூட்டணி
+[skip] பொசনியாவின் உள்நாட்டு தேர்தல் — தமிழ்நாட்டு/இந்திய வாசகரைப் 
+[skip] வெளிநாட்டு உள்ளூர் சட்ட நடவடிக்கை. நியூயார்கில் நடந்த ஒரு பல
+[skip] இந்திய / தமிழ்நாட்டு வாசகர்களுக்குப் பொருத்தமற்ற உள்நாட்டு அ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfeLTZCwbmbC68p69Ux5t'}
+[skip] பிரேசிலின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப் பா
+[திருத்தம்] சென்னைப் பல்கலைக்கழகம் நிதி ரீதியாக உறுத → சென்னை பல்கலைக்கழகம் நிதி ரீதியாக உறுதிய
+[publish] சென்னை பல்கலைக்கழகம் நிதி ரீதியாக உறுதியாக உள்ளது - பதிவாளர்
+[தரம்] தமிழ் அல்லாத எழுத்து: کि → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): தாம்பரம் அருகே மணிமங்கலத்தில் காவல
+[publish] தாம்பரம் அருகே மணிமங்கலத்தில் காவலர் மீது தாக்குதல், சந்தேக நபர் கால் சுட்டு கைது
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13261 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 3 · எழுதியவை 1
+[done] feed 300 · pending 3 · எழுதியவை 10
