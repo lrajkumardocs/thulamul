@@ -1,5 +1,75 @@
 [
  {
+  "headline": "சென்னையில் இந்த ஆண்டு 4,500-க்கும் மேற்பட்ட டெங்கு வழக்குகள் பதிவு",
+  "lines": [
+   "சென்னையில் இந்த ஆண்டு இதுவரை 4,500-க்கும் மேற்பட்ட டெங்கு பாதிப்பு வழக்குகள் பதிவாகியுள்ளன.",
+   "கடந்த செப்டம்பர் மாதம் மட்டும் 1,293 டெங்கு வழக்குகள் கண்டறியப்பட்டன.",
+   "தினமும் நூறுக்கும் மேற்பட்ட மருத்துவ முகாம்கள் நடத்தப்பட்டு வருகின்றன.",
+   "கொசு ஒழிப்பு பணிகளுக்காக 3,703 பணியாளர்கள் களத்தில் ஈடுபடுத்தப்பட்டுள்ளனர்.",
+   "நோய் பரவலைக் கட்டுப்படுத்த பரிசோதனை முயற்சிகள் தீவிரப்படுத்தப்பட்டுள்ளன."
+  ],
+  "closing": "அடுத்த சில வாரங்களில் டெங்கு வழக்குகள் மேலும் அதிகரிக்குமா என்பதைக் கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "சென்னை",
+   "டெங்கு",
+   "மருத்துவ முகாம்",
+   "கொசு ஒழிப்பு பணியாளர்கள்",
+   "நகராட்சி நிர்வாகம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Chennai records over 4,500 dengue cases this year so far",
+   "lines": [
+    "Chennai has recorded more than 4,500 dengue cases so far this year.",
+    "In September alone, 1,293 dengue cases were detected in the city.",
+    "The civic body has been conducting more than 100 medical camps daily.",
+    "A total of 3,703 workers have been deployed for mosquito eradication efforts.",
+    "Testing and surveillance measures have been intensified to control the spread."
+   ],
+   "closing": "Whether dengue cases will rise further in the coming weeks remains to be seen."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "mosquito fogging chennai street",
+  "wiki_subject": "Dengue fever",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "88b0cf321a84",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-05T03:36+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/dengue-testing-stepped-up-in-chennai-over-4500-cases-recorded-this-year/article71543756.ece",
+   "https://www.thehindu.com/news/cities/chennai/dengue-testing-stepped-up-in-chennai-over-4500-cases-recorded-this-year/article71543756.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Denguerash.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Dengue fever",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Dengue_fever",
+   "symbolic": false
+  },
+  "audio": "data/audio/88b0cf321a84.mp3",
+  "created_ts": 1791151566.4913647,
+  "status": "published"
+ },
+ {
   "headline": "மெனிஸ்கஸ் மாற்றுச் சிகிச்சைத் திட்டம் தொடங்கியது",
   "lines": [
    "சென்னையில் ஒரு மருத்துவமனை மெனிஸ்கஸ் திசுப் பாதுகாப்பு மற்றும் மாற்றுச் சிகிச்சை நிரல் தொடங்கியுள்ளது. மெனிஸ்கஸ் என்பது முழங்கால் மூட்டின் மேல் மற்றும் கீழ் அடுக்கில் தசைக்கூட்டாக இருக்கும் திசுவாகும். பாதிக்கப்பட்ட நோயாளிகளுக்கு இச்சிகிச்சை பயன்படும்.",
