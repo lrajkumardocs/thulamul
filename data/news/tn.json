@@ -1,5 +1,75 @@
 [
  {
+  "headline": "திருவள்ளூரில் நெல் இடமாற்றத்தில் கண்காணிப்பு அதிகரிப்பு",
+  "lines": [
+   "திருவள்ளூர் மாவட்டத்தில் நெல் இடமாற்றம் தொடர்பாக கண்காணிப்பு நடவடிக்கைகள் வலுப்படுத்தப்பட்டுள்ளன.",
+   "அண்டை மாநிலங்களைச் சேர்ந்த சிலர் உள்பட சில வணிகர்கள் விவசாயிகளின் பெயரில் ஆவணங்களைச் சமர்ப்பிப்பதாக புகார் எழுந்துள்ளது.",
+   "இந்த ஆவணங்களைப் பயன்படுத்தி கொள்முதல் செய்யப்பட்ட நெல்லை அவர்கள் விற்பனை செய்வதாக விவசாயிகள் தெரிவித்துள்ளனர்.",
+   "இதனால் உண்மையான விவசாயிகளுக்குக் கிடைக்க வேண்டிய பலன் தவறி, இடைத்தரகர்கள் பயன்பெறுவதாக குற்றச்சாட்டு உள்ளது.",
+   "இந்த புகார்கள் குறித்து அதிகாரிகள் கவனம் செலுத்தி வருவதாகவும், கண்காணிப்பு தொடரும் என்றும் தெரிவிக்கப்பட்டுள்ளது."
+  ],
+  "closing": "விவசாயிகளின் பெயரில் தவறான ஆவணங்கள் சமர்ப்பிக்கப்படும் புகார் தொடர்பாக அதிகாரிகளின் நடவடிக்கை எவ்வளவு பயனுள்ளதாக இருக்கும் என்பதைக் கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "திருவள்ளூர்",
+   "நெல் கொள்முதல்",
+   "விவசாயிகள்",
+   "அண்டை மாநில வணிகர்கள்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Surveillance on paddy movement tightened in Tiruvallur",
+   "lines": [
+    "Surveillance measures have been strengthened regarding paddy movement in Tiruvallur district.",
+    "A complaint has emerged that some traders, including a few from neighbouring states, are submitting documents belonging to farmers.",
+    "Farmers allege that these traders use such papers to sell paddy procured under the scheme.",
+    "This has reportedly deprived genuine farmers of benefits while middlemen gain from the procurement.",
+    "Officials say they are looking into the complaints and that surveillance will continue."
+   ],
+   "closing": "It remains to be seen what action will follow the complaints about farmers' documents being misused for paddy sales."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "paddy procurement centre india",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "ff23d61e7d6e",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-05T04:34+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/surveillance-strengthened-on-paddy-movement-in-tiruvallur/article71544540.ece",
+   "https://www.thehindu.com/news/cities/chennai/surveillance-strengthened-on-paddy-movement-in-tiruvallur/article71544540.ece"
+  ],
+  "image": {
+   "url": "data/bank/agri02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/ff23d61e7d6e.mp3",
+  "created_ts": 1791155052.0310354,
+  "status": "published"
+ },
+ {
   "headline": "தமிழ்நாடு உள்பட நான்கு பகுதிகளில் இடைத்தேர்தல் பிரச்சாரம் நிறைவு",
   "lines": [
    "மேற்கு வங்காளம், தமிழ்நாடு, புதுச்சேரி சட்டமன்றத் தொகுதிகளுக்கும், அசாமில் ஒரு மக்களவைத் தொகுதிக்கும் நடைபெறும் இடைத்தேர்தல் பிரச்சாரம் நிறைவடைந்தது.",

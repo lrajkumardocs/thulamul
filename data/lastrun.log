@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 13 புதியவை
+[fetch] ET Markets: 12 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 15 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 4 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
+[fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 1 புதியவை
-[fetch] Al Jazeera: 10 புதியவை
-[fetch] ESPNcricinfo: 15 புதியவை
+[fetch] Al Jazeera: 12 புதியவை
+[fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 10 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 13 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 14 புதியவை
+[fetch] FreeJobAlert: 13 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 22 புதியவை
+[fetch] The Hindu Legal: 20 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 22 புதியவை
+[fetch] The Hindu National: 20 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,44 +56,57 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f01927029d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 22 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
-[fetch] Times Govt Schemes: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1eee853d90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 20 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
+[fetch] Times Govt Schemes: 14 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 546 → நிகழ்வுகள் 513
+[run] புதியவை 537 → நிகழ்வுகள் 506
 [triage] சேமித்த மதிப்பெண் (499) — புதிய அழைப்பு இல்லை
-[triage] 513 → 20 | காலி: india:3, world:3, govt:3, tn:2, crime:2
-[skip] உத்தரப் பிரதேசத்தின் உள்ளூர் விவசாயத் திட்டம், தமிழ்நாட்டுக்
-[skip] உத்தரப்பிரதேசத்தின் உள்ளூர் pertinent agricultural policy - 
-[tts-edge] 7b45f509f2cc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாடு உள்பட நான்கு பகுதிகளில் இடைத்தேர்தல் பிரச்சாரம் நிறைவு
-[skip] கன্னட சினிமா பற்றிய செய்தி. தமிழ்நாட்டு வாசகரைப் பாதிக்காது.
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfhz3DN7Yn3pNmShfW3ri'}
-[tts-edge] a62fdcd34469: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தேசிய சாதனையுடன் மூன்று பதக்கங்கள் வென்ற கோயம்புத்தூர் விதியா ராம்ராஜ்
-[publish] பொதுமக்கள் மனுக்களை காலக்கெடுவுக்குள் தீர்க்க உயர்நீதிமன்றம் உத்தரவு
-[skip] கேரள மாநிலத்தின் உள்ளூர் நீதிமன்ற வழக்கு - தமிழ்நாட்டுடன் நே
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Weekend night bike racing puts Chennai residents
-[skip] வெஸ்टइண்டீஸ் மற்றும் சிம்பாப்வே இடையே நடந்த T20 ஆட்டம் — தமி
-[திருத்தம்] செப்டம்பரில் வாகன விற்பனையில் கலவையான போ → செப்டம்பரில் வாகன விற்பனையில் கலவையான போ
-[தரம்] தமிழ் அல்லாத எழுத்து: ং → ஒரு திருத்தம்
-[publish] செப்டம்பரில் வாகன விற்பனையில் கலவையான போக்கு, ஜிஎஸ்டி அடிப்படை குழப்பம்
-[skip] பீகாரில் ஆசிரியர் பயிற்சி கல்லூரிக் குறிப்பேட்டு — தமிழ்நாட்
-[skip] மேகாலயாவின் உள்ளூர் சுகாதார விபத்து — தமிழ்நாடு வாசகரைப் பாத
-[skip] கேரளா மாநிலத்தின் உள்ளூர் வழக்கு; தமிழ்நாட்டுக்குத் தொடர்பு 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Police nab three migrant workers over murder of 
-[skip] J&K (Jammu & Kashmir) vs RoI (Rest of India) — ভারতীয় দেশীয
-[skip] கேரளத்தின் உள்ளூர் அரசு அறிவிப்பு. தமிழ்நாட்டுக்கு நேரடித் த
-[skip] தமிழ்நாடு வாசகரைப் பாதிக்காத வெளிநாட்டு உள்ளூர் அரசியல். ஐரோ
-[skip] வெளிநாட்டு அரசியல் ஊகக் கட்டுரை — தமிழ்நாடு/இந்தியப் பாதிப்ப
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருந்தாத உலகச் செய்தி. பொதுவான ஆரோ
-[market] தங்கம் 22K ₹13247 · சென்செக்ஸ் 71910
+[triage] 506 → 24 | காலி: india:3, world:3, govt:3, crime:2, assembly:2
+[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): திருவள்ளூரில் நெல் இடமாற்றத்தில் க
+[tts-edge] ff23d61e7d6e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திருவள்ளூரில் நெல் இடமாற்றத்தில் கண்காணிப்பு அதிகரிப்பு
+[skip] உலக அளவில் முக்கியமல்ல — லிபியாவின் உள்ளூர் நிகழ்வு, தமிழ்நா
+[skip] பிற மாநில வ்யாபாரிகள் தொடர்பான உள்ளூர் விவசாய கொள்முதல் சம்ப
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Surveillance strengthened on paddy movement in T
+[திருத்தம்] திருவள்ளூரில் நெல் போக்குவரத்தின் மீதான  → திருவள்ளூரில் நெல் போக்குவரத்தின் மீதான 
+[நகல்] ஏற்கனவே வெளியானது: திருவள்ளூரில் நெல் இடமாற்றத்தில் கண்காணிப்பு அதிகரிப்பு
+[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு/இந்தியக் கலவையு இல்லை
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, நிகழ்வின் விவரங்கள் (யார்,
+[skip] குற்றச் செய்தி; 'govt' என்ற துறை குறிப்பு சம்பந்தப்படாது. 'c
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Forging Path Beyond Auto
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfi2yTcrSiKcXkPEofWVy'}
+[skip] நிকரகுவாவின் உள்நாட்டு அரசியல் — மத்திய அமெரிக்கப் பாராளுமன்
+[திருத்தம்] ஜிஎஸ்டி அதிகாரிகள் கைது அதிகாரம் நீக்கம் → ஜிஎஸ்டி அதிகாரிகளுக்கு கைது அதிகாரம் நீக
+[tts-edge] 75c9093c0fd9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஜிஎஸ்டி அதிகாரிகளுக்கு கைது அதிகாரம் நீக்கம் பரிசீலனையில்
+[skip] செய்தி முழுமையாக வெளிப்படுத்தப்படவில்லை — தலைப்பில் மட்டும் 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: State wins on factory count, must make up in val
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfi361fLtN9mdFtsYjEQf'}
+[skip] பிரிட்டன் மற்றும் அமெரிக்கப் ராணுவ நடவடிக்கை. தமிழ்நாடு/இந்த
+[skip] அரசு அறிவிப்பு அல்ல — கொள்கை பற்றிய கருத்துரைப் கட்டுரை। மக்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘AI disrupts, but offers avenues to take on larg
+[skip] இது ஒரு குறிப்பிட்ட நிகழ்வு பற்றிய செய்தி அல்ல, மதுக்கொள்கை 
+[skip] வெளிநாட்டு/பொதுமைய செய்திகள் மாத்திரம் — தமிழ்நாட்டு வாசகரைப
+[skip] கேரளாவின் உள்ளூர் வேலைவாய்ப்பு — தமிழ்நாடு வாசகருக்குப் பொரு
+[தரம்] தமிழ் அல்லாத எழுத்து: ু্ → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): பூஞ்சணக் கொல்லிகளுக்கு பூஞ்சணங்கள்
+[publish] பூஞ்சணக் கொல்லிகளுக்கு பூஞ்சணங்கள் எதிர்ப்பு வளர்த்துக்கொள்கின்றன
+[திருத்தம்] சிங்கீதம் ஸ்ரீனிவாస ராவ்: சினிமாவின் தொட → சிங்கீதம் ஸ்ரீனிவாస ராவ்: சினிமாவின் தொட
+[தரம்] தமிழ் அல்லாத எழுத்து: స → ஒரு திருத்தம்
+[publish] சிங்கீதம் ஸ்ரீனிவாஸ ராவ்: சினிமாவின் தொடர் சோதனையாளர் 94 வயதில் மறைந்தார்
+[skip] வெளிநாட்டு கிரிக்கெட் — ஆஸ்திரேலிய தேசிய அணியின் நபர் மாற்றம
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: ஜிஎஸ்டி அதிகாரிகளின் கைது அதிகாரம் நீக்கப்பட வேண்டுமா?
+[market] தங்கம் 22K ₹13273 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 1 · எழுதியவை 4
