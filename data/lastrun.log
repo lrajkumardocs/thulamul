@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 14 புதியவை
+[fetch] ET Markets: 13 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 4 புதியவை
-[fetch] BBC World: 2 புதியவை
-[fetch] Al Jazeera: 14 புதியவை
+[fetch] BBC World: 1 புதியவை
+[fetch] Al Jazeera: 10 புதியவை
 [fetch] ESPNcricinfo: 15 புதியவை
-[fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Cinema: 11 புதியவை
 [fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 10 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 15 புதியவை
+[fetch] The Hindu Health: 13 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 16 புதியவை
+[fetch] FreeJobAlert: 14 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 23 புதியவை
+[fetch] The Hindu Legal: 22 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
-[fetch] Dinamani Sports: 30 புதியவை
+[fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 23 புதியவை
+[fetch] The Hindu National: 22 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 20 புதியவை
+[fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 20 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,73 +56,44 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f254dc463d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 23 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
-[fetch] Times Govt Schemes: 14 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f01927029d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 22 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
+[fetch] Times Govt Schemes: 13 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 581 → நிகழ்வுகள் 545
+[run] புதியவை 546 → நிகழ்வுகள் 513
 [triage] சேமித்த மதிப்பெண் (499) — புதிய அழைப்பு இல்லை
-[triage] 545 → 42 | காலி: india:4, govt:4, tn:3, world:3, economy:3
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர்பாக மட்டும் நிகழ்வு; தமிழ்நாடு/இ
-[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
-[tts-edge] 88b0cf321a84: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னையில் இந்த ஆண்டு 4,500-க்கும் மேற்பட்ட டெங்கு வழக்குகள் பதிவு
-[திருத்தம்] சென்னையில் டெங்கு பரிசோதனை தீவிரமடைந்துள → சென்னையில் டெங்கு பரிசோதனை தீவிரமடைந்துள
-[தரம்] தமிழ் அல்லாத எழுத்து: জিো → ஒரு திருத்தம்
-[நகல்] ஏற்கனவே வெளியானது: சென்னையில் இந்த ஆண்டு 4,500-க்கும் மேற்பட்ட டெங்கு வழக்குகள்
-[நகல்] ஏற்கனவே வெளியானது: சென்னையில் இந்த ஆண்டு 4,500-க்கும் மேற்பட்ட டெங்கு வழக்குகள்
-[skip] பிரேசிலின் உள்நாட்டுத் தேர்தல்; தமிழ்நாடு/இந்தியாவுடன் நேரடி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Dengue testing stepped up in Chennai, over 4,500
-[skip] ராஜ்யசபா தேர்தலுக்கான பாஜக வேட்பாளர் நியமனம் - தமிழ்நாட்டுடன
-[திருத்தம்] ஆட்டோ ஓட்டுநர்கள் வாழ்வாதாரம் பாதுகாக்க  → ஆட்டோ ஓட்டுநர்களின் வாழ்வாதாரம் பாதுகாக்
-[தரம்] தமிழ் அல்லாத எழுத்து: মর → ஒரு திருத்தம்
-[tts-edge] f4f0197ef891: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆட்டோ ஓட்டுநர்களின் வாழ்வாதாரம் பாதுகாக்க அரசு நடவடிக்கை எடுக்க வேண்டும்: தி. வேல்முருகன்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] கார்னெல் பல்கலைக்கழகத்தில் நியூயார்க்கில் நடந்த ஒரு பாலியல் 
-[publish] ஆசிய விளையாட்டுகளில் இந்தியா நான்காம் இடம் பெற்றது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான உண்மைத் தகவல்க
-[publish] கோவை, நீலகிரி உள்பட 5 மாவட்டங்களில் பலத்த மழைக்கு எச்சரிக்கை
-[publish] ஊழல் சொத்துக்கள் பறிமுதல் கட்டாயமாக்கப்பட வேண்டும் - மதுரை உயர்நீதிமன்றக் கிளை
-[skip] வெளிநாட்டு ஐரோப்பிய ফুட்பால் போட்டி — தமிழ்நாட்டு/இந்திய வாச
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள், சூழல், மேற்கோள்
-[skip] மூல உரையில் போதிய தகவல் இல்லை. அரசு அறிவிப்பு என்று கூறப்பட்
-[publish] பட்டினப்பாக்கம் சட்டமன்ற செயலக வளாகத் திட்டம் கைவிட பொதுநல மனு
-[skip] UEFA Nations League தொকுப்பு — உலகச் செய்திக்கு மிக முக்கியம
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் அரசியல்/ஊழல் வழக்கு தொடர்பான செ
-[திருத்தம்] ஆட்டோ ஓட்டுநர்கள் வாழ்வாதாரம் காக்க வேண் → ஆட்டோ ஓட்டுநர்களின் வாழ்வாதாரம் காக்க வே
-[நகல்] ஏற்கனவே வெளியானது: ஆட்டோ ஓட்டுநர்களின் வாழ்வாதாரம் பாதுகாக்க அரசு நடவடிக்கை எடு
-[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் போல், ஐரோப்பிய தேசங்களின் 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfhxugn3f8CALmsP97WGz'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfhxxXcicpdoDzNuC7KEL'}
-[publish] கம்போடியாவில் இந்திய உதவியுடன் கண்ணி வெடி நிலம் பாதுகாப்பாக மீட்பு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நிறுவனப் பெயர், காரணம், இட
-[skip] மேற்கு வங்க மாநிலத்தின் இரண்டு தொகுதிகளுக்கான உள்ளூர் இடைத்த
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரமான உள்ளடக்கம் இல்லை -
-[skip] தில்லியில் இண்டி கூட்டணியின் உள்ளூர் போராட்ட அறிவிப்பு, தமிழ
-[திருத்தம்] விரிவான சீர்திருத்தங்களால் இந்தியா எட்டு → விரிவான சீர்திருத்தங்களால் இந்தியப் பொரு
-[தரம்] தமிழ் அல்லாத எழுத்து: রা → ஒரு திருத்தம்
-[publish] விரிவான சீர்திருத்தங்களால் இந்தியப் பொருளாதாரம் 8% வளர்ச்சி: சக்திகாந்த தாஸ்
-[skip] இது உத்தரப் பிரதேச மாநிலத்தின் உள்ளூர் அரசியல் கூட்டணி பேச்ச
-[skip] உத்தரப் பிரதேசத்தின் உள்ளூர் மாவட்டப் பெயர் மாற்றம் - தமிழ்ந
-[திருத்தம்] NEET MDS 2026 மூன்றாம் கட்ட கலந்தாய்வு ப → நீட் எம்டிএஸ் 2026 மூன்றாம் கட்ட கலந்தாய
-[தரம்] தமிழ் அல்லாத எழுத்து: ंअआइउएऔक; வரி 1 முற்றுப்புள்ளி இல்லை → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): நீட் எம்டிஎஸ் 2026 மூன்றாம் கட்ட க
-[publish] நீட் எம்டிஎஸ் 2026 மூன்றாம் கட்ட கலந்தாய்வு பதிவு தொடக்கம்
-[skip] இது ஒரு வீடியோ/பாட்காஸ்ட் அத்தியாயத்தின் பொதுவான தலைப்புகளைப
-[திருத்தம்] இந்த வாரம் இந்தியாவில் 29 நிறுவனங்கள் பங → இந்த வாரம் 29 நிறுவனங்கள் பங்குச் சந்தை 
-[தரம்] தமிழ் அல்லாத எழுத்து: णहংগরস → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): இந்த வாரம் 29 நிறுவனங்கள் பங்குச் 
-[publish] இந்த வாரம் 29 நிறுவனங்கள் பங்குச் சந்தை பட்டியலிடப்பட உள்ளன; சாம்பல் சந்தை 59% லாபம் வரை குறிக்கிறது
-[market] தங்கம் 22K ₹13230 · சென்செக்ஸ் 71910
+[triage] 513 → 20 | காலி: india:3, world:3, govt:3, tn:2, crime:2
+[skip] உத்தரப் பிரதேசத்தின் உள்ளூர் விவசாயத் திட்டம், தமிழ்நாட்டுக்
+[skip] உத்தரப்பிரதேசத்தின் உள்ளூர் pertinent agricultural policy - 
+[tts-edge] 7b45f509f2cc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாடு உள்பட நான்கு பகுதிகளில் இடைத்தேர்தல் பிரச்சாரம் நிறைவு
+[skip] கன্னட சினிமா பற்றிய செய்தி. தமிழ்நாட்டு வாசகரைப் பாதிக்காது.
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfhz3DN7Yn3pNmShfW3ri'}
+[tts-edge] a62fdcd34469: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தேசிய சாதனையுடன் மூன்று பதக்கங்கள் வென்ற கோயம்புத்தூர் விதியா ராம்ராஜ்
+[publish] பொதுமக்கள் மனுக்களை காலக்கெடுவுக்குள் தீர்க்க உயர்நீதிமன்றம் உத்தரவு
+[skip] கேரள மாநிலத்தின் உள்ளூர் நீதிமன்ற வழக்கு - தமிழ்நாட்டுடன் நே
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Weekend night bike racing puts Chennai residents
+[skip] வெஸ்टइண்டீஸ் மற்றும் சிம்பாப்வே இடையே நடந்த T20 ஆட்டம் — தமி
+[திருத்தம்] செப்டம்பரில் வாகன விற்பனையில் கலவையான போ → செப்டம்பரில் வாகன விற்பனையில் கலவையான போ
+[தரம்] தமிழ் அல்லாத எழுத்து: ং → ஒரு திருத்தம்
+[publish] செப்டம்பரில் வாகன விற்பனையில் கலவையான போக்கு, ஜிஎஸ்டி அடிப்படை குழப்பம்
+[skip] பீகாரில் ஆசிரியர் பயிற்சி கல்லூரிக் குறிப்பேட்டு — தமிழ்நாட்
+[skip] மேகாலயாவின் உள்ளூர் சுகாதார விபத்து — தமிழ்நாடு வாசகரைப் பாத
+[skip] கேரளா மாநிலத்தின் உள்ளூர் வழக்கு; தமிழ்நாட்டுக்குத் தொடர்பு 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Police nab three migrant workers over murder of 
+[skip] J&K (Jammu & Kashmir) vs RoI (Rest of India) — ভারতীয় দেশীয
+[skip] கேரளத்தின் உள்ளூர் அரசு அறிவிப்பு. தமிழ்நாட்டுக்கு நேரடித் த
+[skip] தமிழ்நாடு வாசகரைப் பாதிக்காத வெளிநாட்டு உள்ளூர் அரசியல். ஐரோ
+[skip] வெளிநாட்டு அரசியல் ஊகக் கட்டுரை — தமிழ்நாடு/இந்தியப் பாதிப்ப
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருந்தாத உலகச் செய்தி. பொதுவான ஆரோ
+[market] தங்கம் 22K ₹13247 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 4
