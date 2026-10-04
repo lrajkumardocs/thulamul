@@ -1,5 +1,68 @@
 [
  {
+  "headline": "வறட்சையால் பாதிக்கப்பட்ட பகுதிகளுக்கு மத்திய குழுக்கள் சென்று வருகின்றன",
+  "lines": [
+   "வறட்சை நிலவும் மாவட்டங்களில் நீர்நிலைகள், மண்ணின் ஈரப்பதம், விவசாய நிலை ஆகியவற்றை மதிப்பீடு செய்ய மத்திய அரசுக் குழுக்கள் களவேலைகளைத் தொடர்ந்து நடத்தி வருகின்றன.",
+   "ஒவ்வொரு பகுதிக்கும் ஒன்று அல்லது இரண்டு வாரங்கள் வரை கணக்கெடுப்பு பணிகள் நடக்கும்.",
+   "அமலாக்கத் துறை அதிகாரிகள், சிவில் பொறியாளர்கள் மற்றும் விவசாய நிபுணர்கள் அடங்கிய குழுக்கள் நிலவுடைய வீட்டாளர்கள், விவசாயிகள், பஞ்சாயத்து உறுப்பினர்களிடம் தகவல் சேகரித்துக் கொண்டிருக்கின்றன.",
+   "வறட்சையின் கடுமை மற்றும் விவசாய உற்பத்திக்கு ஏற்பட்ட பாதிப்பு குறித்து விரிவான அறிக்கை தயாரிக்கப்பட்ட பிறகு மத்திய அரசு உதவித் தொகை அறிவிக்கும் வாய்ப்பு உண்டு.",
+   "இக்கணக்கெடுப்பு பணிகள் நிறுத்தம் பெறும் வரையில் பாதிக்கப்பட்ட வழக்குகளுக்கு உடனடி நிவாரணம் அளிக்க தமிழ்நாடு அரசு தனது சொந்த நிதிகளைப் பயன்படுத்த விருப்பத் தெரிவிக்கலாம்."
+  ],
+  "closing": "வறட்சைக்கான மத்திய உதவி அறிவிப்பு வரும் வாரங்களில் வெளிவர வாய்ப்புண்டு.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "வறட்சையால் பாதிக்கப்பட்ட பகுதிகள்",
+   "மத்திய அரசு",
+   "தமிழ்நாடு அரசு",
+   "பஞ்சாயத்து"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Central teams continue field visits to drought-affected districts",
+   "lines": [
+    "Central government teams are conducting ongoing field assessments in drought-hit areas to evaluate water resources, soil moisture levels, and agricultural conditions.",
+    "Survey work in each region is expected to continue for one to two weeks.",
+    "Teams comprising officials from the implementation department, civil engineers, and agricultural experts are gathering information from landowners, farmers, and panchayat members.",
+    "After a detailed report on drought severity and crop damage is prepared, the central government may announce financial assistance.",
+    "Until these survey operations conclude, the Tamil Nadu government may use its own funds to provide immediate relief to affected cases."
+   ],
+   "closing": "Central government drought relief assistance announcement may be forthcoming in the coming weeks."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "drought affected agricultural fields india",
+  "wiki_subject": "Drought in India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "d64201df46d4",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-05T05:01+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/karnataka/central-teams-continue-visits-to-drought-hit-areas/article71544446.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Drought_affected_area_in_Karnataka%2C_India%2C_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Drought in India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Drought_in_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/d64201df46d4.mp3",
+  "created_ts": 1791156663.5912805,
+  "status": "published"
+ },
+ {
   "headline": "கோவை, நீலகிரி உள்பட 5 மாவட்டங்களில் பலத்த மழைக்கு எச்சரிக்கை",
   "lines": [
    "தமிழ்நாட்டின் 5 மாவட்டங்களில் இன்று மற்றும் நாளை பலத்த மழைக்கு வாய்ப்பு உள்ளதாக வானிலை ஆய்வு நிலையம் எச்சரித்துள்ளது.",
@@ -1629,132 +1692,6 @@
   },
   "audio": "data/audio/85c2e430db10.mp3",
   "created_ts": 1790624099.2863686,
-  "status": "published"
- },
- {
-  "headline": "தமிழ்நாட்டில் புதிதாகப் பிறக்கும் குழந்தைகளுக்கு தங்க மோதிரத் திட்டம்",
-  "lines": [
-   "தமிழ்நாடு அரசு புதிதாகப் பிறக்கும் குழந்தைகளுக்கு ஒரு கிராம் தங்க மோதிரம் வழங்கும் திட்டத்தை அறிவித்துள்ளது.",
-   "இத்திட்டத்திற்கு 'தாய்மாமன் தங்க மோதிரத் திட்டம்' எனப் பெயரிடப்பட்டுள்ளது.",
-   "முதலமைச்சர் மு.க.ஸ்டாலின் இத்திட்டத்தின் தொடக்கத்தை அறிவித்துள்ளார்.",
-   "இத்திட்டத்திற்கான தகுதி நிபந்தனைகள் மற்றும் விண்ணப்பிக்கும் முறை குறித்த விரிவான வழிமுறைகள் இன்னும் வெளியிடப்படவில்லை.",
-   "பயனாளிகள் தேர்வு மற்றும் விண்ணப்ப நடைமுறை குறித்த அறிவிப்புகளை அரசுத் துறை விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இத்திட்டம் மூலம் பயனடையும் குடும்பங்களின் எண்ணிக்கை மற்றும் முழுமையான விண்ணப்ப நடைமுறை குறித்த தகவல்கள் இன்னும் அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "தமிழ்நாடு அரசு",
-   "மு.க.ஸ்டாலின்",
-   "தாய்மாமன் தங்க மோதிரத் திட்டம்",
-   "புதிதாகப் பிறக்கும் குழந்தைகள்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Tamil Nadu announces gold ring scheme for newborn babies",
-   "lines": [
-    "The Tamil Nadu government has announced a scheme to give a one-gram gold ring to newborn babies.",
-    "The scheme has been named Thaimaman Thanga Mothiram Thittam.",
-    "Chief Minister M. K. Stalin is reported to have announced the launch of the scheme.",
-    "Detailed eligibility conditions and the application process for the scheme have not yet been released.",
-    "The government is expected to soon announce guidelines on beneficiary selection and how to apply."
-   ],
-   "closing": "The number of families expected to benefit and the full application procedure have not yet been officially released."
-  },
-  "id": "0e5c955bd8e1",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-29T00:57+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/thai-maman-gold-ring-scheme-what-is-it-how-to-avail/article71518499.ece",
-   "https://www.thehindu.com/news/national/tamil-nadu/explained-what-is-the-tamil-nadu-government-one-gram-gold-ring-scheme-of-thaimaman-thanga-mothiram/article71399218.ece"
-  ],
-  "image": {
-   "url": "data/bank/govt01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/0e5c955bd8e1.mp3",
-  "created_ts": 1790623661.7952049,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ரபி பருவ பயிர் திட்டமிடலில் தண்ணீர் மதிப்பீடு செய்யக் கூறிய மத்திய அரசு",
-  "lines": [
-   "மத்திய வேளாண் அமைச்சர் சிவராஜ் சிங் சவுகான் ரபி பருவ பயிர் திட்டமிடலில் தண்ணீர் கிடைக்கும் அளவை மதிப்பீடு செய்யுமாறு மாநிலங்களுக்குக் கேட்டுக்கொண்டார்.",
-   "பருப்புவகைகள் மற்றும் எண்ணெய்வித்துக்களுக்கு முன்னுரிமை அளிக்குமாறு மாநில அரசுகளுக்கு அறிவுறுத்தல் வழங்கப்பட்டுள்ளது.",
-   "வேளாண் துறை செயலாளர் காலநிலை மாற்றத்தால் ரபி பருவத்தில் விளைச்சல் குறையும் அபாயம் உள்ளதாக எச்சரித்தார்.",
-   "தண்ணீர் மேலாண்மையை பயிர் திட்டமிடலுடன் இணைத்துச் செயல்பட வேண்டும் என மத்திய அரசு வலியுறுத்தியுள்ளது.",
-   "மாநிலங்கள் தங்கள் தண்ணீர் வரவு நிலவரத்தை மதிப்பீடு செய்து அறிக்கை அளிக்குமாறு கேட்டுக்கொள்ளப்பட்டுள்ளன."
-  ],
-  "closing": "காலநிலை மாற்றத்தால் ஏற்படக்கூடிய விளைச்சல் இழப்பு குறித்த கவலையின் அடிப்படையில் இந்த அறிவுறுத்தல் வழங்கப்பட்டுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "மத்திய வேளாண் அமைச்சகம்",
-   "சிவராஜ் சிங் சவுகான்",
-   "ரபி பருவம்",
-   "பருப்பு வகைகள்",
-   "எண்ணெய் வித்துக்கள்",
-   "தண்ணீர்"
-  ],
-  "id": "bb5b51793f6e",
-  "flags": [],
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-29T00:47+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/centre-to-send-teams-to-assess-drought-in-karnataka-maharashtra-shivraj-singh-chouhan/article71519176.ece",
-   "https://www.thehindu.com/news/national/centre-to-send-teams-to-assess-drought-in-karnataka-maharashtra-shivraj-singh-chouhan/article71519176.ece"
-  ],
-  "image": {
-   "url": "data/bank/govt10.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/bb5b51793f6e.mp3",
-  "created_ts": 1790623066.613943,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
   "status": "published"
  }
 ]
