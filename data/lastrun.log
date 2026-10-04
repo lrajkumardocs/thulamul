@@ -1,12 +1,13 @@
+[expire] feb73ea0a181
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 11 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 12 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 15 புதியவை
+[fetch] BBC World: 14 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
 [fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 30 புதியவை
@@ -16,7 +17,7 @@
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 29 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,19 +30,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 6 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 24 புதியவை
+[fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,66 +57,52 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9119ffe510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7feaaaecb690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
+[fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 18 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 665 → நிகழ்வுகள் 617
-[triage] 617 → 75 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] மத்திய பிரதேசம் மற்றும் குஜராத் பல்கலைக்கழகங்களின் உள்ளூர் த
-[skip] ஒரு ஹோட்டেலில் ஒரு பொருளின் மாதிரি சோதனை முடிவு — மாநிலத் தொ
-[திருத்தம்] சிங்கீதம் சிரீனிவாస ராவ் காலமானார் → சிங்கீதம் சிரீனிவாச ராவ் காலமானார்
-[தரம்] தமிழ் அல்லாத எழுத்து: త → ஒரு திருத்தம்
-[tts-edge] 839adecdad24: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சிங்கீதம் சிரீனிவாச ராவ் காலமானார்
-[skip] வெஸ்റ்இண்டீஸ் மற்றும் இந்தியா இடையே ஆடிய ஒரு குறுகிய வடிவ கி
-[திருத்தம்] கமுதி அருகே மின்சாரம் தாக்கி அக்கா தம்பி → கமுதி அருகே மின்சாரம் தாக்கி அக்கா, தம்ப
-[image] களஞ்சியம் (2 சொல்): கமுதி அருகே மின்சாரம் தாக்கி அக்கா
-[tts-edge] 6edb1dfeb30c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கமுதி அருகே மின்சாரம் தாக்கி அக்கா, தம்பி உயிரிழப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CffojwoLrghXComfh95gZ'}
-[publish] மேகமலை வனப் பகுதி ஆக்கிரமிப்பு வழக்கில் உச்ச நீதிமன்றம் மீண்டும் உத்தரவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CffoqvgnQqsdorDNsBoKz'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cffowy9nA3B1hFdeSMfey'}
-[publish] ஸ்டாலின் மீது உருவ கேலி குற்றச்சாட்டு: தேர்தல் ஆணையத்தில் புகார்
-[image] களஞ்சியம் (2 சொல்): விஜய் மல்யா இன்னும் 8,752 கோடி ரூப
-[publish] விஜய் மல்யா இன்னும் 8,752 கோடி ரூபாய் கடன் செலுத்த வேண்டும்: வங்கிகள்
-[skip] வெளிநாட்டின் வழக்கமான விமான விபத்து/குற்றச் செய்தி. தமிழ்நாட
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cffp8mvAMGCh1fpkh346X'}
-[skip] கென்யாவின் உள்ளூர் விபத்து. உலக வாசகருக்கு முக்கியமாக இல்லை.
-[hold] கார்ப்பரேட் மாஃபியா அரசு என ஸ்டாலின் கடும் குற்றச்சாட்டு
-[publish] ஊழல் இல்லா ஆட்சி என்ற கூற்றை பழனிசாமி கடுமையாக விமர்சனம்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CffpLTSkeR2szd2nsceQ1'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CffpNzYppmYcR8t8yhDYN'}
-[திருத்தம்] தவெக துயர சக்தி என மதுராந்தகத்தில் ஸ்டால → தவெக தூய சக்தி அல்ல, துயர சக்தி என மதுரா
-[publish] தவெக தூய சக்தி அல்ல, துயர சக்தி என மதுராந்தகத்தில் ஸ்டாலின் விமர்சனம்
-[திருத்தம்] டிராக்டர் ஓட்டினால் விவசாயி ஆக முடியாது: → டிராக்டர் ஓட்டினால் விவசாயி ஆக முடியாது:
-[publish] டிராக்டர் ஓட்டினால் விவசாயி ஆக முடியாது: எடப்பாடி கே.பழனிசாமி விமர்சனம்
-[திருத்தம்] புதுச்சேரி காங்கிரஸ் முடிந்துபோன அத்தியா → புதுச்சேரியில் காங்கிரஸ் முடிந்துபோன அத்
-[publish] புதுச்சேரியில் காங்கிரஸ் முடிந்துபோன அத்தியாயம் என மு.க.ஸ்டாலின் கருத்து
-[malar] 2026-W40 · புதிதாக எழுதுவது: roundup, numbers, history, films, zen, poem, hero, essay, agri, spirit, food, word, books, remedy, tech
-[malar] 2026-W40 · களஞ்சியத்திலிருந்து: (இல்லை)
-[malar:refresh] Expecting value: line 1 column 1 (char 0)
-[malar] களஞ்சியத்தில் 11 புதிது சேர்ந்தது · இருப்பு — zen:1, poem:1, hero:1, essay:1, agri:1, spirit:1, food:1, word:1, books:1, remedy:1, tech:1
-[malar] புதிய வாரமலர் 2026-W40
-[comic] கதை: இரகசிய அறை நோக்கிய நடை
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.83) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-04.png · நாள் 25
-[rasi] ராசிபலன் தயார்
+[run] புதியவை 660 → நிகழ்வுகள் 614
+[triage] 614 → 48 | காலி: india:4, govt:4, world:3, crime:3, jobs:3
+[skip] छत्तीसगढ़ वन रक्षक परीक्षा - तमिलनाडु वाचकों के लिए प्रासंगि
+[திருத்தம்] சென்னையில் மனநல முன்னேற்ற இயக்கம் சிறார் → 'ஹோப்பின் சுவர்' — மனநல விழிப்புணர்வு இய
+[tts-edge] 854079394034: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] 'ஹோப்பின் சுவர்' — மனநல விழிப்புணர்வு இயக்கம் சென்னையில் தொடங்கப்பட்டது
+[skip] ஆஸ்திரேலியாவின் உள்நாட்டுச் சோதனைக் கிரிக்கெட். தமிழ்நாடு அல
+[image] களஞ்சியம் (2 சொல்): மதுராந்தகம் இடைத்தேர்தலில் தவெக வே
+[tts-edge] 71b58ce3f73b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம் இடைத்தேர்தலில் தவெக வேட்பாளராக முன்னாள் அதிமுக எம்.எல்.ஏ.
+[publish] இந்தியா கூட்டணியில் முறைப்படி இணைந்தது தமிழக வெற்றிக் கழகம்
+[image] களஞ்சியம் (2 சொல்): அரியலூரில் மூன்று தொழிலாளர்கள் மூச
+[publish] அரியலூரில் மூன்று தொழிலாளர்கள் மூச்சுத்திணறலால் பலி, வீட்டு உரிமையாளர் கைது
+[நகல்] ஏற்கனவே வெளியானது: சிங்கீதம் சிரீனிவாச ராவ் காலமானார்
+[திருத்தம்] திருச்சி சிவா, கனிமொழிக்கு நாடாளுமன்ற நி → திருச்சி சிவா, கனிமொழிக்கு நாடாளுமன்ற நி
+[publish] திருச்சி சிவா, கனிமொழிக்கு நாடாளுமன்ற நிலைக் குழுக்கள் தலைமைப் பொறுப்பு
+[image] களஞ்சியம் (3 சொல்): மதுராந்தகம், தாராபுரம் இடைத்தேர்தல
+[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தல் பிரசாரம் இன்று நிறைவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfgQtD4APyWvoemcGAFat'}
+[திருத்தம்] டி-மார்ட் நிறுவன வருவாய் இரண்டாம் காலாண் → டி-மார்ட் வருவாய் இரண்டாம் காலாண்டில் 18
+[publish] டி-மார்ட் வருவாய் இரண்டாம் காலாண்டில் 18% உயர்வு; கடைகள் 518-ஆக
+[publish] இந்தியாவின் அந்நிய செலாவணி கையிருப்பு 18.3 பில்லியன் டாலர் வீழ்ச்சி
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; போராட்டத்தின் காரணம், இடம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு உரை இல்லை. Kavin யார்
+[திருத்தம்] விசிக செயல்பாட்டாளர் கொலை வழக்கில் கும்ப → விடுதலைச் சிறுத்தைகள் செயல்பாட்டாளர் கொல
+[image] களஞ்சியம் (3 சொல்): விடுதலைச் சிறுத்தைகள் செயல்பாட்டாள
+[publish] விடுதலைச் சிறுத்தைகள் செயல்பாட்டாளர் கொலை வழக்கில் கும்பல் கைது
+[image] களஞ்சியம் (2 சொல்): தராபுரத்தில் பயிர்க் கடன் தள்ளுபடி
+[publish] தராபுரத்தில் பயிர்க் கடன் தள்ளுபடி திட்டம் குறித்து விவசாயிகள் அதிருப்தி
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: தராபுரம் விவசாயிகள் ஏன் கடன் தள்ளுபடியில் குழப்பம் அடைகிறார்கள்?
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [market] தங்கம் 22K ₹13230 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 10
