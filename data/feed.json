@@ -1,5 +1,300 @@
 [
  {
+  "id": "art_tech_20261004",
+  "headline": "UPI பரிவர்த்தனை மற்றும் ஆதார் பாதுகாப்புக்கான அடிப்படை வழிகாட்டுதல்",
+  "lines": [
+   "UPI பயன்பாட்டில் பணம் அனுப்பும் முன் பெறுநரின் பெயர் மற்றும் தொகையை இரண்டு முறை சரிபார்க்க வேண்டும்.",
+   "UPI பின் எண்ணை யாருடனும் பகிரக்கூடாது, வங்கி அல்லது காவல் துறை என்று சொல்லி கேட்பவர்களும் அதில் அடங்குவர்.",
+   "ஆதார் அட்டையை பகிரும்போது மாஸ்க்டு ஆதார் (Masked Aadhaar) பதிப்பை பயன்படுத்துவது எண்ணின் கடைசி நான்கு இலக்கங்களை மட்டும் காட்டி பாதுகாப்பை அதிகரிக்கும்.",
+   "மொபைல் போனில் தெரியாத லிங்க்குகளை கிளிக் செய்வதையும், APK கோப்புகளை நம்பகமற்ற மூலங்களிலிருந்து பதிவிறக்குவதையும் தவிர்க்க வேண்டும்.",
+   "இரு-படி சரிபார்ப்பு (Two-Factor Authentication) அம்சத்தை வங்கி மற்றும் முக்கிய கணக்குகளில் இயக்கி வைப்பது கணக்கு பாதுகாப்பை மேம்படுத்தும்."
+  ],
+  "closing": "சிறு எச்சரிக்கை பெரிய மோசடியைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-04"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "UPI",
+   "பாதுகாப்பு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-04T23:37+05:30",
+  "created_ts": 1791137261.7107725,
+  "audio": "data/audio/art_tech_20261004.mp3"
+ },
+ {
+  "headline": "ஜர்மனி மெர்ஸ் கியேவில் 1.5 பில்லியன் டாலர் உதவி அறிவிப்பு",
+  "lines": [
+   "ஜர்மன் சான்சிலர் ஃப்ரீட்ரிக் மெர்ஸ் உக்ரைனின் தலைநகர் கியேவுக்கு அப்பற்பட்டு சென்றார். அங்கே 1.5 பில்லியன் டாலர் இராணுவ மற்றும் மீள்கட்டமைப்பு உதவி அறிவித்தார்.",
+   "ஜர்மனி உக்ரைனுக்கு ஆண்டுக்கு அதிக உதவி வழங்கும் நாடுகளில் ஒன்றாக உள்ளது.",
+   "மெர்ஸ் போர் முடிவுக்கு ரஷ்யாவை வலியுறுத்தினார். உக்ரைனை ஆதரிக்கும் நாடுகளில் ஜர்மனியும் முன்னணியில் உள்ளது.",
+   "உக்ரைன் அதன் பாதுகாப்பு மற்றும் மீள்கட்டமைப்புக்கு வெளிநாட்டு உதவிக்கு நம்பியுள்ளது.",
+   "ஜர்மனிக்குப் பிறகு அமெரிக்கா, பிரிட்டன், பொலந்து உக்ரைனுக்கு பெரிய உதவி வழங்கி வருகின்றன."
+  ],
+  "closing": "மெர்ஸின் கியேவ் பயணம் ஐரோப்பின் போர் நிறுத்தத்துக்கு ஜர்மனியின் உறுதி மீண்டும் வலியுறுத்துகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": "2026-10-04"
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ஜர்மனி",
+   "உக்ரைன்",
+   "கியேவ்",
+   "஫ிரீட்ரிக் மெர்ஸ்",
+   "ரஷ்யா"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "German Chancellor Merz in Kyiv announces 1.5 billion dollars in aid",
+   "lines": [
+    "German Chancellor Friedrich Merz made a surprise visit to Ukraine's capital Kyiv and announced 1.5 billion dollars in military and reconstruction aid.",
+    "Germany is among the top countries providing annual aid to Ukraine.",
+    "Merz urged Russia to end the war. Germany stands in the forefront of nations supporting Ukraine.",
+    "Ukraine relies on foreign assistance for its defense and reconstruction.",
+    "After Germany, the United States, Britain, and Poland are providing substantial aid to Ukraine."
+   ],
+   "closing": "Merz's Kyiv visit reiterates Germany's commitment to ending Europe's war."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "Germany Ukraine military aid Kyiv",
+  "wiki_subject": "Russia–Ukraine war",
+  "person_en": "Friedrich Merz",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7e10139ab27e",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-04T23:36+05:30",
+  "links": [
+   "https://www.aljazeera.com/video/newsfeed/2026/10/4/germany-merz-visits-kyiv-air-raids-ukraine?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Anti-terrorist_operation_in_eastern_Ukraine_%28War_Ukraine%29_%2827843153986%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Russo-Ukrainian war",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war",
+   "symbolic": false
+  },
+  "audio": "data/audio/7e10139ab27e.mp3",
+  "created_ts": 1791137181.08108,
+  "status": "published"
+ },
+ {
+  "headline": "நிஃப்டி, சென்செக்ஸ் ஒன்பதாம் வாரமாக சரிய வாய்ப்பு; டிசிஎஸ், ரிசர்வ் வங்கி கொள்கைக் கூட்டம் சந்தையை தீர்மானிக்கும்",
+  "lines": [
+   "இந்தியப் பங்குச் சந்தை தொடர் சரிவுக்கு உள்ளாகி வருகிறது. சென்செக்ஸ், நிஃப்டி ஆகிய குறியீடுகள் எட்டு வாரங்களாக சரிந்து வருவதுடன், இந்த நெடுங்கால சரிவு 25 ஆண்டுகளில் மிகமுக்கியமாக குறிப்பிடப்படுகிறது.",
+   "கச்சா எண்ணெய் விலை வேகமாக உயர்வு, அமெரிக்கப் பத்திர வருவாய் அதிகரிப்பு, வெளிநாட்டு நிறுவன முதலீட்டாளர்களின் தொடர் விற்பனை ஆகியவை இந்தச் சரிவுக்கு முக்கியக் காரணங்களாக அமைந்துள்ளன.",
+   "ரூபாய் மதிப்பு பலவீனமாக உள்ளது, இது முதலீட்டாளர்களிடையே கவலையை மேலும் அதிகரித்துள்ளது.",
+   "டிசிஎஸ், டிமார்ட் ஆகிய நிறுவனங்களின் இரண்டாம் காலாண்டு வருமான அறிக்கை, இந்திய ரிசர்வ் வங்கியின் பணவியல் கொள்கைக் கூட்டம் (எம்பிசி) ஆகியவை வரும் ஏழு தினங்களில் சந்தையின் போக்கை தீர்மானிக்கும் என எதிர்பார்க்கப்படுகிறது.",
+   "முதலீட்டாளர்கள் இந்த நிறுவனங்களின் வருமான அறிக்கைகளில் பொருளாதாரத்தின் உறுதித் தன்மைக்கான சமிக்ஞையைக் கண்டுபிடிக்க நம்பிக்கை கொண்டுள்ளனர்."
+  ],
+  "closing": "கச்சா எண்ணெய் விலை, அமெரிக்கப் பத்திர வருவாய் போன்ற வெளிநாட்டுக் காரணிகளுடன், டிசிஎஸ் வருமான அறிக்கை மற்றும் ரிசர்வ் வங்கியின் பணவியல் கொள்கைக் கூட்டம் ஆகியவை வரும் வாரங்களில் சந்தையின் போக்கை நிர்ணயிக்கும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "சென்செக்ஸ்",
+   "நிஃப்டி",
+   "டாடா கன்சல்டன்சி",
+   "டிமார்ட்",
+   "இந்திய ரிசர்வ் வங்கி",
+   "ரூபாய்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "India's stock market sees eighth straight week of losses",
+   "lines": [
+    "India's key stock market indices, Sensex and Nifty, have continued to fall for eight consecutive weeks.",
+    "This marks the longest stretch of weekly losses in twenty five years, according to market data.",
+    "Rising crude oil prices, higher US bond yields and sustained selling by foreign institutional investors are cited as key reasons for the decline.",
+    "A weakening rupee has further added to investor concerns, reports indicate.",
+    "Tata Consultancy Services and DMart's second quarter earnings, along with the Reserve Bank of India's monetary policy meeting this week, are expected to influence the market's direction."
+   ],
+   "closing": "Along with external factors like crude oil prices and US bond yields, upcoming corporate earnings are expected to shape the market's next move."
+  },
+  "front_cat": "routine",
+  "image_query": "stock market india trading",
+  "wiki_subject": "BSE SENSEX",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "25fde1d05ef3",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-04T23:35+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/will-nifty-sensex-plunge-for-9th-straight-week-tcs-q2-4-factors-to-drive-dalal-street-from-monday/articleshow/134669285.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/500px-Seal_of_the_Reserve_Bank_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Reserve Bank of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/25fde1d05ef3.mp3",
+  "created_ts": 1791137140.360076,
+  "status": "published"
+ },
+ {
+  "headline": "வட்டி வீத குறைப்புச் சுழற்சி திருப்புமுனைக்கு நெருங்குகிறது - இந்திய பத்திரங்களுக்கு முன்னே என்ன?",
+  "lines": [
+   "இந்திய ரிசர்வ் வங்கி அக்டோபர் மாதக் கொள்கைக் கூட்டத்தில் பணவியல் இறுக்க நடவடிக்கையை அறிவிக்கலாம் என நிபுணர்கள் எதிர்பார்க்கின்றனர்.",
+   "பொருளாதார வளர்ச்சி வலுவடைதல், எண்ணெய் விலை உயர்வு, அமெரிக்க கருவூலப் பத்திர வட்டி வீத உயர்வு ஆகியவை பணவீக்கக் கவலையை அதிகரிக்கின்றன.",
+   "நிபுணர்களின் கூற்றுப்படி, உள்நாட்டு வட்டி வீதம் உயர்ந்தால் ரூபாய் மதிப்புக்கு ஒரு அளவு ஆதரவு கிடைக்கும்.",
+   "அதே நேரத்தில், அரசு மற்றும் நிறுவனங்களுக்கான கடன் வாங்கும் செலவு அதிகரிக்கும் என எச்சரிக்கப்படுகிறது.",
+   "இந்த மாற்றம் பங்குச் சந்தை மற்றும் நுகர்வு மீது அழுத்தம் ஏற்படுத்தக்கூடும் என மதிப்பிடப்படுகிறது."
+  ],
+  "closing": "இந்திய ரிசர்வ் வங்கியின் அக்டோபர் மாதக் கொள்கை அறிவிப்பு, வட்டி வீதம் தொடர்பான இறுதி முடிவை வெளிப்படுத்தும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "இந்திய ரிசர்வ் வங்கி",
+   "ரூபாய்",
+   "அமெரிக்க கருவூலப் பத்திரம்",
+   "பங்குச் சந்தை",
+   "எண்ணெய் விலை"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "RBI may signal rate tightening at October policy meeting",
+   "lines": [
+    "The Reserve Bank of India is expected to signal monetary tightening at its October policy meeting, experts say.",
+    "Stronger economic growth, rising oil prices and elevated US Treasury yields are fuelling inflation concerns.",
+    "Analysts say higher domestic interest rates could offer some support to the rupee.",
+    "At the same time, borrowing costs for the government and companies are likely to rise, they caution.",
+    "The shift could put pressure on equities and consumption, according to market assessments."
+   ],
+   "closing": "The RBI's October policy announcement is expected to reveal the final decision on interest rates."
+  },
+  "front_cat": "price_policy",
+  "image_query": "Reserve Bank of India building",
+  "wiki_subject": "Reserve Bank of India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "d02da27af498",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-04T23:34+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/rate-cut-cycle-near-turning-point-what-lies-ahead-for-indian-bonds/articleshow/134671117.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/500px-Seal_of_the_Reserve_Bank_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Reserve Bank of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/d02da27af498.mp3",
+  "created_ts": 1791137080.4148505,
+  "status": "published"
+ },
+ {
+  "headline": "அக்டோபரில் ரெப்போ வட்டி விகிதம் உயரலாம் என நிபுணர் எச்சரிக்கை",
+  "lines": [
+   "பணவீக்க அழுத்தமும் உயரும் கச்சா எண்ணெய் விலையும் காரணமாக, இந்திய ரிசர்வ் வங்கி அடுத்த மாதம் ரெப்போ வட்டி விகிதத்தை உயர்த்தக்கூடும் என நிதி நிபுணர் சுனில் சங்காய் தெரிவித்துள்ளார்.",
+   "இந்த உயர்வு கால் சதவீதம் அதாவது இருபத்தைந்து பேசிஸ் புள்ளிகள் அளவில் இருக்கும் எனவும், மேலும் கடுமையான கொள்கை பின்பற்றப்படலாம் எனவும் அவர் கணித்துள்ளார்.",
+   "அமெரிக்காவுடனான வட்டி விகித இடைவெளி சுருங்கி வருவதால் ரூபாய் மதிப்பு மீது அழுத்தம் ஏற்படுவதாக அவர் சுட்டிக்காட்டினார்.",
+   "எனினும், வலுவான அந்நிய செலாவணி கையிருப்பும், கட்டுப்பாட்டில் உள்ள நடப்புக் கணக்கு பற்றாக்குறையும் பொருளாதாரத்திற்குப் பாதுகாப்பு அளிப்பதாக அவர் குறிப்பிட்டார்.",
+   "இந்திய ரிசர்வ் வங்கியின் அடுத்த பணவியல் கொள்கைக் கூட்டம் இந்த ஆண்டு அக்டோபர் மாதம் நடைபெற உள்ளது."
+  ],
+  "closing": "வட்டி விகிதம் உயர்ந்தால் வீட்டுக் கடன், வாகனக் கடன் தவணைத் தொகைகளில் மாற்றம் ஏற்படக்கூடும் என வல்லுநர்கள் கருத்து தெரிவிக்கின்றனர்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "இந்திய ரிசர்வ் வங்கி",
+   "ரெப்போ வட்டி விகிதம்",
+   "பணவீக்கம்",
+   "கச்சா எண்ணெய்",
+   "சுனில் சங்காய்"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "RBI may hike repo rate in October, warns expert",
+   "lines": [
+    "The Reserve Bank of India could raise the repo rate next month due to inflation pressure and rising crude oil prices, said financial expert Sunil Sanghai.",
+    "He estimated the hike could be around a quarter percent, or 25 basis points, with further tightening possibly following.",
+    "He pointed out that a narrowing interest rate gap with the United States is putting pressure on the rupee.",
+    "However, he noted that strong foreign exchange reserves and a manageable current account deficit provide a buffer for the economy.",
+    "The Reserve Bank of India's next monetary policy meeting is scheduled for October this year."
+   ],
+   "closing": "Experts say a rate hike could affect home loan and vehicle loan EMI amounts for borrowers."
+  },
+  "front_cat": "price_policy",
+  "image_query": "",
+  "wiki_subject": "Reserve Bank of India",
+  "person_en": "Sunil Sanghai",
+  "urgent": false,
+  "affected": "நாட்டின் பொருளாதாரம் மற்றும் கடன் வாங்குநர்கள்",
+  "id": "b021b5e612bd",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-04T23:33+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/rbi-may-hike-repo-rate-by-25-bps-as-inflation-and-oil-risks-mount-sunil-sanghai/articleshow/134672762.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/500px-Seal_of_the_Reserve_Bank_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Reserve Bank of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/b021b5e612bd.mp3",
+  "created_ts": 1791137041.5268488,
+  "status": "published"
+ },
+ {
   "id": "art_world_20261004",
   "headline": "உலக அரசியல் அமைப்புகளும் இந்தியாவின் வெளியுறவு வரலாறும்",
   "lines": [
@@ -18676,313 +18971,6 @@
   },
   "audio": "data/audio/0a86d13b32f5.mp3",
   "created_ts": 1790541249.8969884,
-  "status": "published"
- },
- {
-  "headline": "நிகோடின் பொட்டிகளுக்கு எதிரான நடவடிக்கை — சுகாதாரக் கோச்சரம்",
-  "lines": [
-   "சுகாதாரத் துறை நிகோடின் பொட்டிகளை விற்பனை செய்வதற்கு எதிரான நடவடிக்கை எடுக்க உத்தரவிட்டுள்ளது.",
-   "இப்பொட்டிகள் இந்தியாவில் சட்டவிரோதமாகக் கடத்தப்பட்டு இணையத்திலும் பற்றை விற்பனை நிலையங்களிலும் விற்கப்படுகின்றன.",
-   "அரசு மூலாதாரங்கள் கூறுகின்றன இந்தப் பொட்டிகள் சுகாதாரக் கேடுகளை ஏற்படுத்துவதாக அறிவுறுத்தப்பட்டுள்ளது.",
-   "நிகோடின் பொட்டிகளை உருவாக்கி விற்கும் வணிகம் சமீபகாலத்தில் இந்தியாவில் வேகம் பெற்றுள்ளது.",
-   "நடவடிக்கைக்குள் எந்த நிறுவனங்கள் குறிப்பிடப்பட்டுள்ளன என்பது சுகாதாரத் துறை விரைவில் தெரிவிக்கும்."
-  ],
-  "closing": "நிகோடின் பொட்டிகளை மருந்து ஆணையம் ஆனுமதிக்கவில்லை என்பதால் சட்டப்பூர்வமாக விற்பனை செய்ய முடியாது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "சுகாதாரத் துறை",
-   "நிகோடின் பொட்டிகள்",
-   "இந்தியா",
-   "பற்றை விற்பனை நிலையங்கள்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Health Ministry cracks down on nicotine pouches citing health risks",
-   "lines": [
-    "The Health Ministry has ordered action against the sale of nicotine pouches across India.",
-    "These pouches are being smuggled into the country illegally and sold online and through tobacco retail stores.",
-    "Government sources say nicotine pouches pose significant health hazards to consumers.",
-    "The business of manufacturing and selling nicotine pouches has grown rapidly in India recently.",
-    "The Health Ministry will soon announce which companies are being targeted in this enforcement action."
-   ],
-   "closing": "Nicotine pouches have not been approved by the drug regulator, making their legal sale impossible."
-  },
-  "front_cat": "health_emergency",
-  "image_query": "nicotine pouches banned",
-  "wiki_subject": "Nicotine",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "421a1afec96b",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-09-28T02:03+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/health/india-orders-crackdown-on-nicotine-pouches-citing-health-risks-letter-shows/article71511847.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Nicotine_structure.svg/330px-Nicotine_structure.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Nicotine",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Nicotine",
-   "symbolic": false
-  },
-  "audio": "data/audio/421a1afec96b.mp3",
-  "created_ts": 1790541219.9776843,
-  "status": "published"
- },
- {
-  "headline": "ஜப்பானில் வெள்ளிப் பதக்கம் — கேரளாவின் நாட்டிகாவில் கொண்டாட்டம்",
-  "lines": [
-   "கேரளாவின் நாட்டிகா நகரைச் சேர்ந்த வீராங்கனை ஆன்ஸி சோஜன், ஜப்பானில் நடைபெற்ற ஆசிய விளையாட்டுப் போட்டியில் வெள்ளிப் பதக்கம் வென்றார்.",
-   "இது தொடர்ந்து இரண்டாவது ஆசிய விளையாட்டுப் போட்டியிலும் அவர் வெள்ளிப் பதக்கம் பெறும் சாதனையாகும்.",
-   "இந்த வெற்றியை முன்னிட்டு அவரது சொந்த ஊரான நாட்டிகாவில் மக்கள் பெருமகிழ்ச்சியுடன் கொண்டாட்டங்களில் ஈடுபட்டனர்.",
-   "நிதி நெருக்கடிகளுக்கு இடையேயும் விளையாட்டைத் தேர்ந்தெடுத்த ஆன்ஸியின் குடும்பம், பல ஆண்டுகளாக அவருக்குத் துணையாக நின்றது.",
-   "இந்தப் பதக்கத்தின் பின்னணியில் உள்ள பல ஆண்டு கால போராட்டம் ஊர் மக்களிடையே பெருமிதத்தை ஏற்படுத்தியுள்ளது."
-  ],
-  "closing": "நிதி நெருக்கடிகளுக்கு இடையேயும் விளையாட்டுத் துறையைத் தேர்ந்தெடுத்த ஆன்ஸி சோஜனின் குடும்பத்தின் பல ஆண்டு கால உழைப்பே இந்த வெற்றிக்குப் பின்னணியாக உள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "ஆன்ஸி சோஜன்",
-   "நாட்டிகா",
-   "கேரளா",
-   "ஆசிய விளையாட்டுப் போட்டி",
-   "ஜப்பான்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Ancy Sojan wins silver for second straight Asian Games in Japan",
-   "lines": [
-    "Athlete Ancy Sojan from Nattika in Kerala won a silver medal at the Asian Games held in Japan.",
-    "This marks her second consecutive silver medal at the Asian Games.",
-    "Her hometown Nattika erupted in wild celebrations following the victory.",
-    "Ancy's family stood by her for years despite financial constraints, backing her sporting journey.",
-    "The years of struggle behind this achievement have filled the town with pride."
-   ],
-   "closing": "Behind this achievement lies years of persistence by Ancy Sojan's family, who kept choosing sports despite financial constraints."
-  },
-  "front_cat": "sports_historic",
-  "image_query": "Ancy Sojan athlete",
-  "wiki_subject": "",
-  "person_en": "Ancy Sojan",
-  "urgent": false,
-  "id": "9832f5a57b09",
-  "flags": [],
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-28T02:03+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/kerala/a-silver-in-japan-sparks-wild-celebrations-in-keralams-nattika/article71516682.ece",
-   "https://www.thehindu.com/news/national/kerala/a-silver-in-japan-sparks-wild-celebrations-in-keralams-nattika/article71516682.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/9832f5a57b09.mp3",
-  "created_ts": 1790541190.6420882,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ஆசிய விளையாட்டுப் போட்டிகளில் இந்திய பெண் கபடி அணி நான்காம் தங்கப் பதக்கம் வென்றது.",
-  "lines": [
-   "ஆசிய விளையாட்டுப் போட்டிகளில் இந்திய பெண் கபடி அணி தொடர் வெற்றியின் நான்காம் தங்கப் பதக்கம் வென்றுள்ளது.",
-   "இந்திய அணி இரான் அணியைத் தோற்கடித்து விளையாட்டு பட்டியலில் தனது ஆதிக்கத்தை நிலைநாட்டியுள்ளது.",
-   "2018 ஜகார்த்தா ஆசிய விளையாட்டுப் போட்டி தவிர மற்ற அனைத்து போட்டிகளிலும் இந்திய பெண் அணி தங்கப் பதக்கம் கைப்பற்றியுள்ளது.",
-   "பெண் கபடிக்கான தங்கப் பதக்கத்தை வென்றதன் மூலம் இந்தியா ஆசிய விளையாட்டுச் சம்மேளனத்தில் மீண்டும் சாதனை படைத்துவிட்டது.",
-   "ஆசிய விளையாட்டுப் போட்டிகளில் இந்திய பெண் கபடி அணியின் தொடர் வெற்றிப் பாரம்பரியம் தொடர்ந்து உள்ளது."
-  ],
-  "closing": "2018 ஜகார்த்தா விளையாட்டுப் போட்டி மட்டுமே இந்திய பெண் கபடி அணி தங்கப் பதக்கம் வெல்லாமல் போன ஒரே ஆசிய விளையாட்டுச் சம்மேளனமாகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "ஆசிய விளையாட்டுப் போட்டி 2026",
-   "இந்திய பெண் கபடி அணி",
-   "இரான் கபடி அணி",
-   "கபடி"
-  ],
-  "confidence": 0.92,
-  "en": {
-   "headline": "Indian women's kabaddi team wins fourth consecutive Asian Games gold medal",
-   "lines": [
-    "India's women's kabaddi team has clinched its sixth gold medal at the Asian Games, extending its record of excellence in the sport.",
-    "The Indian team defeated Iran's squad to firmly establish its dominance on the continental stage.",
-    "The Indian women's team has won gold in every Asian Games edition except for the 2018 Jakarta Games.",
-    "By winning the gold medal in women's kabaddi, India has once again set a benchmark in the Asian Games competition.",
-    "India's women's kabaddi team has maintained its winning tradition at the Asian Games consistently."
-   ],
-   "closing": "The 2018 Jakarta Asian Games remains the only continental competition where India's women's kabaddi team did not secure the gold medal."
-  },
-  "front_cat": "sports_historic",
-  "image_query": "Indian women's kabaddi team",
-  "wiki_subject": "Kabaddi at the Asian Games",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "f4e7ece73bce",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-28T02:01+05:30",
-  "links": [
-   "https://www.thehindu.com/sport/asian-games-2026-indias-women-roar-to-kabaddi-gold/article71511803.ece"
-  ],
-  "image": {
-   "url": "data/bank/sports07.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/f4e7ece73bce.mp3",
-  "created_ts": 1790541067.6289172,
-  "status": "published"
- },
- {
-  "headline": "சட்டம் - ஒழுங்கு தகவல் பெறுவதில் கட்டுப்பாடு ஏன்? அமைச்சர் நிர்மல்குமார் விளக்கம்",
-  "lines": [
-   "தமிழ்நாடு அமைச்சர் நிர்மல்குமார், சட்டம் - ஒழுங்கு தொடர்பான தகவல்களை பொதுமக்களுக்கு வெளியிடுவதில் உள்ள கட்டுப்பாடுகள் குறித்து விளக்கம் அளித்தார்.",
-   "இந்தத் தகவல்கள் ஏன் கட்டுப்பாட்டுடன் வழங்கப்படுகின்றன என்ற கேள்விக்கு அவர் பதிலளித்தார்.",
-   "காவல் துறை தொடர்பான தகவல்களை வெளியிடுவதில் சில நடைமுறைக் காரணங்கள் உள்ளதாக அமைச்சர் தெரிவித்தார்.",
-   "இது தொடர்பாக எதிர்க்கட்சிகள் அல்லது பொதுமக்களிடமிருந்து கேள்விகள் எழுந்த பின்னணியில் இந்த விளக்கம் அளிக்கப்பட்டது.",
-   "இது தொடர்பான மேலும் தெளிவான வழிமுறைகளை அரசு விரைவில் வெளியிடக்கூடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "சட்டம் - ஒழுங்கு தகவல் வெளியீட்டு நடைமுறை குறித்து அரசு இன்னும் விரிவான அறிவிப்பு வெளியிடுமா என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "நிர்மல்குமார்",
-   "தமிழ்நாடு அரசு",
-   "காவல் துறை"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Minister Nirmal Kumar explains restrictions on law and order information",
-   "lines": [
-    "Tamil Nadu Minister Nirmal Kumar gave an explanation regarding restrictions on releasing law and order related information to the public.",
-    "He responded to the question of why such information is being controlled.",
-    "The minister said there are certain procedural reasons for restricting release of police related information.",
-    "This clarification came against the backdrop of questions raised by opposition parties or the public.",
-    "The government is expected to issue clearer guidelines on this matter soon."
-   ],
-   "closing": "It remains to be seen whether the government will issue a more detailed statement on the law and order information disclosure process."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "Nirmal Kumar",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "bbfc2b3200cb",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-28T02:00+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/27/why-are-there-restrictions-on-obtaining-information-regarding-law-and-order-minister-nirmal-kumar-explains"
-  ],
-  "image": null,
-  "audio": "data/audio/bbfc2b3200cb.mp3",
-  "created_ts": 1790541024.3922238,
-  "status": "published"
- },
- {
-  "headline": "ஆசிய விளையாட்டு: கபடியில் இந்தியா இரட்டைப் பொன்னுக்கு",
-  "lines": [
-   "ஆசிய விளையாட்டுப் போட்டியில் இந்திய கபடி அணிகள் இரட்டைப் பொன்னுக்குச் சாதனை புரிந்துவிட்டன.",
-   "ஆண் அணி இரான் அணியை நெருங்கிய சண்டையில் 40-34 என்ற ஸ்கோரில் வென்றுவிட்டது.",
-   "பெண் அணியும் அதே நாளில் இரான் அணியை 37-34 என்ற ஸ்கோரில் தோற்கடித்துப் பொன்னுப் பதக்கத்தை வென்றுவிட்டது.",
-   "ஆண் அணி தங்கள் பொன்னுப் பதக்கத்தைத் தக்கவைத்துக்கொண்டுவிட்டது.",
-   "கபடியில் இரு அணிகளும் பொன்னை வென்றிருப்பது இந்தியாவுக்குப் பெரும் கெளரவம்."
-  ],
-  "closing": "ஆசிய விளையாட்டுப் போட்டியில் இந்திய கபடி வீரர்கள் தங்கள் திறமையை வெளிப்படுத்திக் கொண்டுவிட்டனர்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "இந்திய கபடி அணி",
-   "இரான் கபடி அணி",
-   "ஆசிய விளையாட்டு"
-  ],
-  "confidence": 0.92,
-  "en": {
-   "headline": "Asian Games: India wins kabaddi doubles gold",
-   "lines": [
-    "Indian kabaddi teams achieved a remarkable feat at the Asian Games with both winning gold medals.",
-    "The men's team defeated Iran 40-34 in a closely contested match.",
-    "The women's team won gold the same day by defeating Iran 40-34.",
-    "The men's team retained their gold medal from the previous Games.",
-    "Both Indian kabaddi teams have brought great honour to the nation."
-   ],
-   "closing": "Indian kabaddi players demonstrated their skills and prowess at the Asian Games."
-  },
-  "front_cat": "sports_historic",
-  "image_query": "Indian kabaddi team Asia Games gold medal",
-  "wiki_subject": "Kabaddi at the Asian Games",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "e9a9bfa88562",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-28T01:59+05:30",
-  "links": [
-   "https://www.thehindu.com/sport/asian-games-2026-kabaddi-title-gold-medal-indian-men-women-team-india-vs-iran-match/article71512501.ece"
-  ],
-  "image": {
-   "url": "data/bank/sports01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/e9a9bfa88562.mp3",
-  "created_ts": 1790540961.3508754,
   "status": "published"
  }
 ]

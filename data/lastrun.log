@@ -1,43 +1,42 @@
-[expire] 73a11cde655e
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
+[fetch] The Hindu TN: 20 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
-[fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 14 புதியவை
-[fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 11 புதியவை
+[fetch] BBC World: 13 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] The Hindu Sport: 29 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
+[fetch] Cinema Express: 29 புதியவை
+[fetch] The Hindu Tech: 10 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 14 புதியவை
+[fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 19 புதியவை
+[fetch] FreeJobAlert: 17 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
-[fetch] The Verge: 6 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Verge: 10 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fda77cae2d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa6c49dfe50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -68,28 +67,59 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 650 → நிகழ்வுகள் 593
-[triage] 593 → 44 | காலி: world:3, govt:3, court:2, jobs:2, sports:2
-[skip] உக்ரைன்-ரஷ்ய போர் தமிழ்நாடு வாசகரின் அன்றாட வாழ்வைப் பாதிக்க
-[skip] பிரேசிலின் உள்நாட்டு தேர்தல். தமிழ்நாடு/இந்தியாவுடன் நேரடித்
-[skip] பிரேசிலின் உள்நாட்டு தேர்தல். தமிழ்நாடு / இந்திய வாசகருக்குப
-[skip] கேரள மாநிலத்தின் உள்ளூர் மின்சாரத் திட்டம் - தமிழ்நாட்டுடன் 
-[skip] கேரளத்தின் உள்ளூர் ஆற்றல் திட்டம் — தமிழ்நாட்டு வாசகரைப் பாத
-[skip] மகாராஷ்ட்ர பொதுசேவா ஆணையத்தின் (MPSC) தேர்வு — தமிழ்நாட்டு வ
-[skip] வெளிநாட்டுத் தொடர் — இந்தியா/தமிழ்நாடு தொடர்பு இல்லை
-[skip] பொது ஆய்வுக் கட்டுரை — தமிழ்நாட்டு வாசகருக்குப் பாதிப்பு, நட
-[தரம்] தமிழ் அல்லாத எழுத்து: नনৃემ → ஒரு திருத்தம்
-[நகல்] ஏற்கனவே வெளியானது: சிங்கீதம் சிரீனிவாச ராவ் காலமானார்
-[skip] கேரளத்தின் உள்ளூர் அரசியல் மற்றும் விசாரணைச் செய்தி. தமிழ்நா
-[திருத்தம்] இமாசல் பிரதேசில் வாணிજ்ய ஆசிரியர் 154 பே → இமாசல் பிரதேசில் வாணிജ்ய ஆசிரியர் 154 பே
-[தரம்] தமிழ் அல்லாத எழுத்து: कষజജ → ஒரு திருத்தம்
-[tts-edge] 3414d970050f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இமாசல பிரதேசில் வணிகவியல் ஆசிரியர் 154 பேர் தேர்வு
-[skip] பাকிஸ்தான் பெண் கிரிக்கெட் வீரர் சர்வதேச விளையாட்டிலிருந்து 
-[skip] பெற்ற மாநிலம் — மேற்குவங்கம். தமிழ்நாடு வாசகரைப் பாதிக்காது.
-[tts-edge] art_world_20261004: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[filler] world கட்டுரை
+[run] புதியவை 655 → நிகழ்வுகள் 612
+[triage] 612 → 77 | காலி: govt:3, world:2, court:2, sports:2, assembly:2
+[skip] மூலத்தில் ஒரே ஒரு அறிமுகப் பத்தி மட்டுமே உள்ளது; இயக்குநர் ச
+[skip] மூலத்தில் ஒரே வாக்கியம் மட்டும் உள்ளது; இடம், தேதி, விவரங்கள
+[திருத்தம்] தேர்தல் ஆணையர் ராஜினாமா கோரி இந்தியா முழ → தேர்தல் ஆணையத் தலைவர் ராஜினாமா கோரி இந்த
+[tts-edge] e7e67367dcc6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] தேர்தல் ஆணையத் தலைவர் ராஜினாமா கோரி இந்தியா முழுவதும் போராட்டம் மூன்றாம் நாளாகத் தொடர்கிறது
+[skip] இது ஒரு புகைப்படக் கலைஞரின் மூன்றாண்டு கால அனுபவத்தை விவரிக்
+[skip] இது புது தில்லியில் நடந்த உள்ளூர்ப் போராட்டச் செய்தி; தமிழ்ந
+[tts-edge] b021b5e612bd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அக்டோபரில் ரெப்போ வட்டி விகிதம் உயரலாம் என நிபுணர் எச்சரிக்கை
+[திருத்தம்] அக்டோபர் கொள்கைக் கூட்டத்தில் வட்டி வீதம → வட்டி வீத குறைப்புச் சுழற்சி திருப்புமுன
+[publish] வட்டி வீத குறைப்புச் சுழற்சி திருப்புமுனைக்கு நெருங்குகிறது - இந்திய பத்திரங்களுக்கு முன்னே என்ன?
+[திருத்தம்] இந்தியப் பங்குச் சந்தை எட்டாம் வாரமாகத்  → நிஃப்டி, சென்செக்ஸ் ஒன்பதாம் வாரமாக சரிய
+[தரம்] தமிழ் அல்லாத எழுத்து: এি → ஒரு திருத்தம்
+[publish] நிஃப்டி, சென்செக்ஸ் ஒன்பதாம் வாரமாக சரிய வாய்ப்பு; டிசிஎஸ், ரிசர்வ் வங்கி கொள்கைக் கூட்டம் சந்தையை தீர்மானிக்கும்
+[skip] வெளிநாட்டு (BBC Tamil மூலம் என்பதால் பிரிட்டன் அல்லது பிற நா
+[skip] வெளிநாட்டு உள்நாட்டுப் போரச் செய்தி — தமிழ்நாட்டு / இந்திய வ
+[skip] யேமன் அரசு மற்றும் ஹௌதி இடையேயான உள்நாட்டுச் சர்ப்பம் — தமிழ
+[skip] எத்தியோப்பியாவின் உள்நாட்டு ராணுவ மோதல் — தமிழ்நாடு/இந்தியாவ
+[skip] வெளிநாட்டு சிறையின் மரண தண்டனை நிকழ்வு. தமிழ்நாடு/இந்தியவாசக
+[skip] வெளிநாட்டு உள்ளூர் குற்றச் செய்தி — தமிழ்நாடு/இந்திய வாசகரைப
+[skip] வெளிநாட்டு உள்ளூர் குற்றச் செய்தி — அமெரிக்காவின் ஒரு மாநிலத
+[skip] வெளிநாட்டு அரசுகளின் உள்நாட்டுச் சாசனச் செய்திகளுக் தமிழ்நாட
+[publish] ஜர்மனி மெர்ஸ் கியேவில் 1.5 பில்லியன் டாலர் உதவி அறிவிப்பு
+[skip] சூடান் உள் ஆயுதப் பகிரண்டு தொடர்பான நிகழ்வு. தமிழ்நாட்டுடன் 
+[skip] இசுரேல்-பாலஸ்தீன மோதல் தொடர்பான செய்தி. தமிழ்நாட்டு வாசகரைப்
+[skip] பிலிப்பைன்ஸ் உள்நாட்டுக் குற்றம்; தமிழ்நாடு/இந்தியாவுடன் நேர
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — ஜப்பான்-அமெரிக்கா இருதரப்புச்
+[skip] இসραएல்-Palestine உள்நாட்டு அரசியல் மற்றும் வரலாற்று விமர்சன
+[skip] இந்தியா தானியப் பயிர் உற்பத்தி — தமிழ்நாட்டுக்கும் பொருத்தமு
+[skip] கனடா-அமெரிக்கா ராணுவ ஒத்திகை — தமிழ்நாடு / இந்திய வாசகரைப் ப
+[skip] தமிழ்நாட்டுச் செய்தி — world துறைக்குப் பொருந்தாது. tn என்ற 
+[skip] தமிழ்நாட்டுச் செய்தி (ஈரோடு நிறுவனம், முதன்மையாகத் தமிழ்நாடு
+[skip] வெளிநாட்டுக் குற்றச் விசாரணை — தமிழ்நாட்டு / இந்திய வாசகரைப்
+[skip] அமெரிக்காவின் ஒரு பல்கலைக்கழகத்தின் உள்ளூர் குற்றச் சம்பவம்.
+[skip] கனடாவின் உள்நாட்டு ராணுவ உடற்பயிற்சி — தமிழ்நாட்டு / இந்திய 
+[skip] அவுஸ்திரேலியாவின் உள்ளூர் வானிலை நிகழ்வு. தமிழ்நாடு/இந்தியாவ
+[skip] 스페인의 주택 위기와 선거 관련 내용은 유럽 국가의 내부 정치 문제로, 타밀나두 독자들에게 직접적인 영향을 
+[skip] தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்காது. அமெரிக்கா ফুட்பால் அண
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்காவின் புலம்பெயர்வுச் 
+[skip] மூலத்தில் இடம், மாநிலம், பாதிப்பு அளவு போன்ற அடிப்படைத் தகவல
+[skip] This is a routine fire accident at a private godown, not a g
+[skip] வெளிநாட்டுத் தடுகட்டை (South Africa vs Australia) — தமிழ்நாட
+[skip] பஞ்சாப் மற்றும் ஹரியாணா உচ்ச நீதிமன்றத்தின் பஞ்சாப் மாநிலத்த
+[skip] தமிழ்நாட்டுடன் நேரடித் தொடர்பு இல்லை — இந்திய தাত்র ஆய்வு, த
+[skip] கர্நாടகத்து இயக்குநர் மற்றும் கன্নড சினிமாவுடன் தொடர்பான செய
+[skip] ஆந்திரப் பிரதேசம் — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை. உ
+[skip] தென்னாப்பிரிக்கா வெளிநாட்டு விளையாட்டு செய்தி — தமிழ்நாடு / 
+[skip] கேரளாவின் உள்ளூர் அரசியல் மற்றும் சட்டப் பிரச்சினை. தமிழ்நாட
+[filler] tech கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13230 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 1
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 1 · எழுதியவை 5
