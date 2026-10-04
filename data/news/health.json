@@ -1,5 +1,71 @@
 [
  {
+  "headline": "தமிழ்நாடு நாளொன்றுக்கு 200 டெங்கு நோயாளிகள்",
+  "lines": [
+   "தமிழ்நாட்டில் ஒவ்வொரு நாளும் சுமார் 200 டெங்கு நோயாளிகள் கண்டறியப்படுவதாக பொது சுகாதாரப் பணிகளுக்கான இயக்குனர் தெரிவித்தார்.",
+   "நோயாளிகள் எண்ணிக்கை நிலையாக உள்ளதாகவும் நோய் மொத்தமாக பரவியிருக்கும் அளவுக்கு இல்லை எனவும் அவர் சுட்டிக்காட்டினார்.",
+   "சென்னை பகுதிகளான திருவள்ளூர் மாவட்டம் மற்றும் காஞ்சிபுரம் மாவட்டத்தில் நோய் கண்டறியப்பட்டுள்ளது.",
+   "கோயம்புத்தூர், மதுரை உள்ளிட்ட பல நகரங்களிலும் நோய் பதிவாகி வருகிறது.",
+   "பொது சுகாதாரப் பணிகளுக்கான இயக்குனர் நிலைமை கட்டுக்குள் உள்ளது எனக் குறிப்பிட்டுள்ளார்."
+  ],
+  "closing": "தமிழ்நாட்டில் வேறு எந்த நகரங்களில் டெங்கு நோய் பரவி வருகிறது என்பதை கண்காணிக்க வேண்டியுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "தமிழ்நாடு",
+   "டெங்கு நோய்",
+   "பொது சுகாதாரப் பணிகளுக்கான இயக்குனர்",
+   "திருவள்ளூர்",
+   "காஞ்சிபுரம்",
+   "கோயம்புத்தூர்",
+   "மதுரை"
+  ],
+  "confidence": 0.85,
+  "front_cat": "health_emergency",
+  "image_query": "dengue awareness india",
+  "wiki_subject": "Dengue fever",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "en": {
+   "headline": "Tamil Nadu recording around 200 dengue cases daily",
+   "lines": [
+    "Tamil Nadu is reporting approximately 200 dengue cases every day, according to the Director of Public Health and Preventive Medicine.",
+    "The caseload remains steady and has not reached outbreak proportions, the director stated.",
+    "Cases are being reported in Chennai belt areas including Tiruvallur and Kancheepuram districts.",
+    "The disease is also being detected in cities such as Coimbatore and Madurai.",
+    "The Director of Public Health has indicated that the situation remains under control."
+   ],
+   "closing": "The state needs to monitor which other cities are seeing dengue cases emerge."
+  },
+  "id": "c8c634c6526a",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-04T10:11+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/tn-recoding-around-200-dengue-cases-a-day-numbers-remain-steady-dph/article71537135.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Denguerash.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Dengue fever",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Dengue_fever",
+   "symbolic": false
+  },
+  "audio": "data/audio/c8c634c6526a.mp3",
+  "created_ts": 1791088915.091044,
+  "status": "published"
+ },
+ {
   "headline": "'ஹோப்பின் சுவர்' — மனநல விழிப்புணர்வு இயக்கம் சென்னையில் தொடங்கப்பட்டது",
   "lines": [
    "சென்னையில் 'ஹோப்பின் சுவர்' என்ற மனநல விழிப்புணர்வு இயக்கம் இளையவர்களால் தொடங்கப்பட்டுள்ளது.",

@@ -1,23 +1,22 @@
-[expire] feb73ea0a181
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
+[fetch] The Hindu TN: 6 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 14 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 21 புதியவை
+[fetch] ESPNcricinfo: 20 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
 [fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 15 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 15 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 14 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 26 புதியவை
+[fetch] FreeJobAlert: 25 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -30,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 28 புதியவை
+[fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 6 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,52 +56,69 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7feaaaecb690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8acb0aac90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
+[fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 660 → நிகழ்வுகள் 614
-[triage] 614 → 48 | காலி: india:4, govt:4, world:3, crime:3, jobs:3
-[skip] छत्तीसगढ़ वन रक्षक परीक्षा - तमिलनाडु वाचकों के लिए प्रासंगि
-[திருத்தம்] சென்னையில் மனநல முன்னேற்ற இயக்கம் சிறார் → 'ஹோப்பின் சுவர்' — மனநல விழிப்புணர்வு இய
-[tts-edge] 854079394034: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] 'ஹோப்பின் சுவர்' — மனநல விழிப்புணர்வு இயக்கம் சென்னையில் தொடங்கப்பட்டது
-[skip] ஆஸ்திரேலியாவின் உள்நாட்டுச் சோதனைக் கிரிக்கெட். தமிழ்நாடு அல
-[image] களஞ்சியம் (2 சொல்): மதுராந்தகம் இடைத்தேர்தலில் தவெக வே
-[tts-edge] 71b58ce3f73b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகம் இடைத்தேர்தலில் தவெக வேட்பாளராக முன்னாள் அதிமுக எம்.எல்.ஏ.
-[publish] இந்தியா கூட்டணியில் முறைப்படி இணைந்தது தமிழக வெற்றிக் கழகம்
-[image] களஞ்சியம் (2 சொல்): அரியலூரில் மூன்று தொழிலாளர்கள் மூச
-[publish] அரியலூரில் மூன்று தொழிலாளர்கள் மூச்சுத்திணறலால் பலி, வீட்டு உரிமையாளர் கைது
-[நகல்] ஏற்கனவே வெளியானது: சிங்கீதம் சிரீனிவாச ராவ் காலமானார்
-[திருத்தம்] திருச்சி சிவா, கனிமொழிக்கு நாடாளுமன்ற நி → திருச்சி சிவா, கனிமொழிக்கு நாடாளுமன்ற நி
-[publish] திருச்சி சிவா, கனிமொழிக்கு நாடாளுமன்ற நிலைக் குழுக்கள் தலைமைப் பொறுப்பு
-[image] களஞ்சியம் (3 சொல்): மதுராந்தகம், தாராபுரம் இடைத்தேர்தல
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தல் பிரசாரம் இன்று நிறைவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfgQtD4APyWvoemcGAFat'}
-[திருத்தம்] டி-மார்ட் நிறுவன வருவாய் இரண்டாம் காலாண் → டி-மார்ட் வருவாய் இரண்டாம் காலாண்டில் 18
-[publish] டி-மார்ட் வருவாய் இரண்டாம் காலாண்டில் 18% உயர்வு; கடைகள் 518-ஆக
-[publish] இந்தியாவின் அந்நிய செலாவணி கையிருப்பு 18.3 பில்லியன் டாலர் வீழ்ச்சி
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; போராட்டத்தின் காரணம், இடம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு உரை இல்லை. Kavin யார்
-[திருத்தம்] விசிக செயல்பாட்டாளர் கொலை வழக்கில் கும்ப → விடுதலைச் சிறுத்தைகள் செயல்பாட்டாளர் கொல
-[image] களஞ்சியம் (3 சொல்): விடுதலைச் சிறுத்தைகள் செயல்பாட்டாள
-[publish] விடுதலைச் சிறுத்தைகள் செயல்பாட்டாளர் கொலை வழக்கில் கும்பல் கைது
-[image] களஞ்சியம் (2 சொல்): தராபுரத்தில் பயிர்க் கடன் தள்ளுபடி
-[publish] தராபுரத்தில் பயிர்க் கடன் தள்ளுபடி திட்டம் குறித்து விவசாயிகள் அதிருப்தி
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 12
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: தராபுரம் விவசாயிகள் ஏன் கடன் தள்ளுபடியில் குழப்பம் அடைகிறார்கள்?
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[run] புதியவை 638 → நிகழ்வுகள் 592
+[triage] 592 → 59 | காலி: india:4, govt:4, world:3, sports:3, court:2
+[தரம்] தமிழ் அல்லாத எழுத்து: রি → ஒரு திருத்தம்
+[tts-edge] 751ec7366321: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆசிய விளையாட்டுப் போட்டியில் பாகிஸ்தானைத் தோற்கடித்த இந்தியா
+[skip] திருப்பதி (ஆந்திரப் பிரதேசம்) தொழிற்சாலை விபத்து — பிற மாநில
+[skip] எத்தியோப்பிய உள்நாட்டுப் போர் — தமிழ்நாடு/இந்தியா வாசகருக்கு
+[skip] தமிழ்நாடு/இந்திய வாசகருக்குப் பொருத்தமல்ல. பிரேசிலின் உள்நாட
+[skip] யேமன் உள்நாட்டுப் போர் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர
+[skip] உலக செய்திகளில் இந்தியக் கலைஞர்களையோ இந்திய நிறுவனங்களையோ பா
+[skip] வெளிநாட்டு அரசியல் — இரான்-சவுதி அரேபியா பதற்றம், உள்ளூர் ஆள
+[skip] ஸ்பெயினின் உள்நாட்டுப் பிரச்சினை — தமிழ்நாடு/இந்தியவாசகரைப் 
+[skip] அமெரிக்கக் கடலோரத்தில் விமানம் மீட்கப்பட்ட செய்தி. தமிழ்நாடு
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டு உள்நாட்டுத் தேர்தல
+[skip] வெளிநாட்டு உள் அரசியல் — அமெரிக்க நடுகாலக் தேர்தல் தமிழ்நாடு
+[skip] யேமன் உள்நாட்டு மோதல் — தமிழ்நாடு/இந்தியாவுக்கு நேரடித் தொடர
+[skip] சaudiaරabiaയുടെ ആന്തരിക നിരাപത്ത കാര്യം. തമിഴ്നാട് വാസകന്റെ 
+[skip] அமெரிக்காவின் cornell பல்கலைக்கழகத்தின் உள்ளூர் வழக்கு. தமிழ
+[skip] வெளிநாட்டுச் சம்பவம் — கனடா பதிவுச் விமானம், பர்முடா-பாஸ்டன்
+[skip] அமெரிக்க உள்நாட்டு தேர்தல் — கலிஃபோர்னியா மாநிலத் தேர்தல் வே
+[skip] பலஸ்தீன-இஸ்ரேல் பராமர்சம், பரந்த உலக செய்தி என்றாலும் தமிழ்ந
+[skip] தமிழ்நாட்டு வாசகரைப் பரிமுக உளவியல்ல. கஜாவில் நடந்த தனிப்பட்
+[skip] அல்জেரியா-நைজர் மধ்య ராணுவ ஒத்திசைவு. தமிழ்நாடு / இந்திய வாச
+[skip] நாசிக் மாவட்டம் (மகாராஷ்டிரா) மற்றும் சூரத் மாநகராட்சி (குஜர
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfgaTo13aa3ttsP5a3jwc'}
+[tts-edge] f1d5da15b174: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஸ்ரீ சிட்டி மண்டலத்தில் கொப்பரை வெடிப்பு, ஐந்து தொழிலாளர்கள் பலி
+[திருத்தம்] தலைமை தேர்தல் ஆணையர் எதிர்ப்பு போராட்டம் → தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமாருக்கு எ
+[publish] தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமாருக்கு எதிரான போராட்டம்: டெல்லியில் 150 பேர் கைது
+[தரம்] தமிழ் அல்லாத எழுத்து: जञनशाे् → ஒரு திருத்தம்
+[publish] ராகுல் காந்தியால் 'சத்தியாகிரகம்' இணையதளம் அறிமுகம்
+[skip] இது தெலிங்கானா/டெல்லி மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் போ
+[திருத்தம்] இந்தியாவில் மூவாயிரம் எட்டு ச児குஆட்களுக் → இந்தியாவில் 3,832 குழந்தைகளுக்கு ஊனநோய் 
+[தரம்] மூலத்தில் இல்லாத எண்: 37 → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): இந்தியாவில் 3,832 குழந்தைகளுக்கு ஊ
+[hold] இந்தியாவில் 3,832 குழந்தைகளுக்கு ஊனநோய் கண்டறியப்பட்டது
+[திருத்தம்] சிங்கீதம் ஸ்ரீனிவాస రவுவின் படங்கள் இன்ற → சிங்கீதம் ஸ்ரீனிவாச ராவின் படங்கள் இன்றை
+[publish] சிங்கீதம் ஸ்ரீனிவாச ராவின் படங்கள் இன்றைய இயக்குநர்களைத் தொடர்ந்து பாதிக்கும்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Aged 71, a Chennai resident travels to top-tier 
+[திருத்தம்] ஸ்ரீ சிட்டிতে கொதிகலனில் வெடிப்பு; ஐந்து → ஸ்ரீ சிட்டিতে கொதிகலனில் வெடிப்பு; ஐந்து
+[தரம்] தமிழ் அல்லாத எழுத்து: তিে → ஒரு திருத்தம்
+[publish] ஸ்ரீ சிட்டியில் கொதிகலனில் வெடிப்பு; ஐந்து பேர் உயிரிழப்பு
+[skip] வெளிநாட்டு ক্রীড়া বিশ্লেষণ — இந்திய அணির பொதுவான விமர্சனம்.
+[skip] வேறு மாநில대학 (ஜார்கண்ட்) தேர்வு முடிவு — தமிழ்நாட்டுக்குத் த
+[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
+[publish] தமிழ்நாடு நாளொன்றுக்கு 200 டெங்கு நோயாளிகள்
+[skip] கன্னடத் திரையுலகின் உள்ளூர் செய்தி; தமிழ்நாட்டுக்குத் தொடர்ப
+[skip] தமிழ்நாட்டுக்கு நேரடித் தொடர்பில்லாத தேசிய அரசியல் போராட்டம்
+[skip] வெளிநாட்டுக் பெண்கள் கிரிக்கெட் லீগ் — ஆஸ்திரேலியா உள்ளூர் வ
+[தரம்] தமிழ் அல்லாத எழுத்து: ंच → ஒரு திருத்தம்
+[publish] ராகுல் காந்தி 'சத்யாக்கிரகம்' வலைத்தளத்தை வெளியிட்டார்
 [market] தங்கம் 22K ₹13230 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 9
