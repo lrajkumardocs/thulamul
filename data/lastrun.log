@@ -2,21 +2,21 @@
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 9 புதியவை
-[fetch] Dinamani TN: 15 புதியவை
-[fetch] BBC Tamil: 4 புதியவை
-[fetch] BBC World: 8 புதியவை
-[fetch] Al Jazeera: 0 புதியவை
+[fetch] Dinamani TN: 16 புதியவை
+[fetch] BBC Tamil: 3 புதியவை
+[fetch] BBC World: 6 புதியவை
+[fetch] Al Jazeera: 4 புதியவை
 [fetch] ESPNcricinfo: 8 புதியவை
 [fetch] The Hindu Sport: 21 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
-[fetch] Cinema Express: 28 புதியவை
-[fetch] The Hindu Tech: 10 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
+[fetch] Cinema Express: 26 புதியவை
+[fetch] The Hindu Tech: 9 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 13 புதியவை
+[fetch] FreeJobAlert: 23 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,17 +28,17 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 9 புதியவை
+[fetch] Bar and Bench: 6 புதியவை
+[fetch] The Hindu Legal: 11 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 26 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 9 புதியவை
+[fetch] The Hindu National: 11 புதியவை
 [fetch] NDTV India: 19 புதியவை
-[fetch] India Today: 9 புதியவை
+[fetch] India Today: 17 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 18 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 22 புதியவை
+[fetch] Sportstar: 20 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff8e9b0e310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 9 புதியவை
-[fetch] Dinamani Govt: 15 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4b955fc710>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 11 புதியவை
+[fetch] Dinamani Govt: 16 புதியவை
 [fetch] Times Govt Schemes: 12 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,35 +67,11 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 450 → நிகழ்வுகள் 420
-[triage] சேமித்த மதிப்பெண் (381) — புதிய அழைப்பு இல்லை
-[triage] 420 → 97 | காலி: world:2, assembly:2, india:1
-[skip] வெளிநாட்டு தயாரிப்பு நிறுவனத்தின் நிர்வாहक நடவடிக்கை; தமிழ்ந
-[skip] மூலத்தில் ஒரே தலைப்பு வரி மட்டுமே உள்ளது - இயக்குநரின் வயது,
-[skip] IIT பிலாய் (சத்தீஸ்கர்) மற்றும் CSIR NCL (புனே) ஆகியவை தமிழ்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfiXa35TZKXFwwcHjBJNy'}
-[skip] மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் அரசியல் சம்பவம் - பழங்குடி ம
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfiXdQTfPbYtkWLCHnSSg'}
-[tts-edge] 9d2341f401a8: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாடு உள்ளிட்ட நான்கு மாநிலங்களில் இடைத்தேர்தல் அறிவிப்பு
-[skip] இது இந்தி திரையுலக நடிகர் சஞ்சய் தத்தின் தனிப்பட்ட கருத்துச்
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் காவல்துறை நிர்வாக மறுசீரமைப்பு
-[skip] மேற்கு வங்க இடைத்தேர்தல் தொடர்பான உள்மாநில அரசியல் செய்தி; த
-[skip] உத்தரப் பிரதேசம் மற்றும் பஞ்சாப் மாநிலங்களின் உள்ளூர் காவல் 
-[skip] இது மேற்கு வங்காளத்தின் புக்சா புலிகள் காப்பகம் தொடர்பான உள்
-[skip] இது கர்நாடகா மாநில அரசு வேலைவாய்ப்பு நியமனம் தொடர்பான உள்ளூர
-[skip] ஆந்திரப் பிரதேசத்தின் உள்ளூர் அரசியல் சர்ச்சை; தமிழ்நாட்டுடன
-[skip] அமெரிக்காவின் உள்நாட்டுச் சட்ட நடைமுறை பற்றிய செய்தி. தமிழ்ந
-[skip] பிற நாடுகளின் உள்நாட்டு க்রிக்கெட் — நியூஜிலாந்து அணிக் காவல
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Campaign ends for high-stakes bypolls in three S
-[skip] வெளிநாட்டு ராணுவ நடவடிக்கை — தமிழ்நாடு/இந்தியாவுடன் நேரடித் 
-[skip] திரை விமர்சனம் — தமிழ்நாடு தொடர்பற்ற தெலுங்குப் படம், விமர்ச
-[skip] வெளிநாட்டு ஐரோப்பிய ফুட்பால் — தமிழ்நாடு/இந்திய வாசகரைப் பாத
-[skip] பிரேசிலின் உள்நாட்டு தேர்தல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித
-[திருத்தம்] கார்த்திக் சுப்பராஜ் டோரதி விமர்சனம் பற் → கார்த்திக் சுப்பராஜ் 'டோரதி' விமர்சனம் க
-[tts-edge] 53396a637ecd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கார்த்திக் சுப்பராஜ் 'டோரதி' விமர்சனம் குறித்து: 'அவர்கள் தங்களைப் பற்றி சிந்திக்கத் தொடங்கினர்…'
-[market] தங்கம் 22K ₹13235 · சென்செக்ஸ் 72194
+[run] புதியவை 476 → நிகழ்வுகள் 440
+[triage] 440 → 19 | காலி: world:2, assembly:2
+[tts-edge] art_tech_20261005: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[filler] tech கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13227 · சென்செக்ஸ் 72041
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 2
+[done] feed 300 · pending 0 · எழுதியவை 0
