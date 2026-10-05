@@ -1,23 +1,22 @@
-[expire] e7e67367dcc6
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 11 புதியவை
+[fetch] ET Markets: 12 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 10 புதியவை
 [fetch] Dinamani TN: 21 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 1 புதியவை
 [fetch] Al Jazeera: 6 புதியவை
-[fetch] ESPNcricinfo: 12 புதியவை
+[fetch] ESPNcricinfo: 11 புதியவை
 [fetch] The Hindu Sport: 27 புதியவை
 [fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 10 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 12 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 11 புதியவை
+[fetch] FreeJobAlert: 9 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -30,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 14 புதியவை
+[fetch] The Hindu Legal: 12 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 14 புதியவை
+[fetch] The Hindu National: 12 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 19 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f766f714f10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 14 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f56a4df21d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 12 புதியவை
 [fetch] Dinamani Govt: 21 புதியவை
-[fetch] Times Govt Schemes: 15 புதியவை
+[fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -68,27 +67,27 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 491 → நிகழ்வுகள் 467
+[run] புதியவை 482 → நிகழ்வுகள் 461
 [triage] சேமித்த மதிப்பெண் (431) — புதிய அழைப்பு இல்லை
-[triage] 467 → 16 | காலி: india:3, world:2, govt:2, crime:2, assembly:2
-[skip] இது ஒரு கருத்துரைக் கட்டுரை (opinion/analysis) - குறிப்பிட்ட
-[skip] வெளிநாட்டு ক্রীড়া ব্যক্তিগত মতামত — தமிழ்நாடு/இந்திய வாசகரை
-[skip] இது சரித்திர/பண்பாட்டு பகுப்பாய்வு; தற்கால செய়தி அல்ல. தமிழ
+[triage] 461 → 17 | காலி: india:3, world:2, govt:2, crime:2, assembly:2
+[skip] ஒடிசா மாநில அரசின் உள்ளூர்க் கொள்கை அறிவிப்பு — தமிழ்நாட்டுட
+[skip] வெளிநாட்டு உள்நாட்டுப் போர் மற்றும் பேரிடர் — தமிழ்நாடு/இந்த
+[skip] ஒடிசா மாநிலத்தின் உள்ளூர் அரசுக் கொள்கை — தமிழ்நாட்டு வாசகரு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Winged visitors from afar return to Chennai’s we
-[திருத்தம்] cancer drug விலை, மருந்து தவறுபயன்பாடு,  → புற்று நோய் மருந்து விலை, மருந்து தவறுபய
-[தரம்] தமிழ் அல்லாத எழுத்து: नयाि → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): புற்று நோய் மருந்து விலை, மருந்து 
-[tts-edge] ab3aa9e891b9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] புற்று நோய் மருந்து விலை, மருந்து தவறுபயன்பாடு, டெங்கு எச்சரிக்கை ஆராய்ச்சி
-[skip] உலகச் செய்தி — கிரிஸ்டியानו ரோனால்டோவின் போர্த்துகல் தேசிய அ
-[skip] வெளிநாட்டு ஆங்கில வெளியீடு; தமிழ்நாட்டு வாசகருக்குப் பொருந்த
-[skip] வெளிநாட்டு பொருளாதார நীতி — இந்திய ரிசர்வ் வங்கியின் பொதுவான
-[skip] இது அரசு அறிவிப்பு (govt) அல்ல — பொருளாதார வিশ்লேষணம். ஒரு ம
-[skip] SAIL CMLO (இந்திய எஃகு ஆணையம் துணை அமைப்பு) மற்றும் IIT ஜோத்
-[skip] இது கர்நாடக மாநில வீரர்களின் ஆசிய விளையாட்டுப் பதக்க சாதனை ப
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, எந்த மாநிலம், எந்த முதல்வர
-[skip] வெளிநாட்டு ஆசிய விளையாட்டுகள் — தமிழ்நாட்டுக்கு நேரடித் தொடர
+[skip] மூலச் செய்தி காலாவதியானது போல் தெரிகிறது — குறிப்பிட்ட ஆண்டு
+[skip] இது மகாராஷ்டிர மாநில உள்ளூர் அரசியல் தகராறு - தேவேந்திர ஃபட்
+[skip] பிற நாடுகளின் ফুटбольు போட்டியில் விளையாட்டு நடத்தை பற்றிய ச
+[skip] கேரளத்தின் உள்ளூர் வন்यजीவ செய்தி. தமிழ்நாட்டைப் பாதிக்கவில்
+[skip] வணிக நிறுவனத்தின் தலைவரின் கேட்டுக்கோரல் — அரசு அறிவிப்பு அல
+[skip] வங்கி வளர்ச்சிப் புள்ளிவிவரம் — தமிழ்நாட்டு வாசகரைப் நேரடியா
+[skip] தனியார் வங்கியின் நிர்வாহகத் தாவல் — அரசு அறிவிப்பு அல்ல; மக
+[skip] மகாராஷ்டிர உள்ளூர் அரசியல் சர்ச்சை - தமிழ்நாட்டுடன் நேரடித் 
+[skip] இந்தியாவின் பிற மாநிலத்து (மத்திய பிரதேசம்) பல்கலைக்கழக முடி
+[skip] வெளிநாட்டு ஐரோப்பிய ফுட்பால் லீக் — தமிழ்நாடு/இந்திய வாசகரைப
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Weekend night bike racing puts Chennai residents
-[market] தங்கம் 22K ₹13253 · சென்செக்ஸ் 71910
+[tts-edge] brief_2026-10-05: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[brief] காலை brief தயார்
+[market] தங்கம் 22K ₹13302 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 1
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 0
