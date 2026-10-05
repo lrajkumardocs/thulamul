@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 19 புதியவை
+[fetch] The Hindu TN: 25 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 12 புதியவை
+[fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
 [fetch] The Hindu Cinema: 10 புதியவை
-[fetch] Cinema Express: 24 புதியவை
+[fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 13 புதியவை
-[fetch] Wired: 22 புதியவை
+[fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -24,24 +24,24 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 9 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 28 புதியவை
+[fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,20 +56,72 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ffa3cb65ad0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5e95671310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 17 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 20 புதியவை
+[fetch] TN Police News: 29 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 657 → நிகழ்வுகள் 590
-[triage] சேமித்த மதிப்பெண் (518) — புதிய அழைப்பு இல்லை
-[triage] 590 → 137 | காலி: world:2, assembly:2
-[market] தங்கம் 22K ₹13220 · சென்செக்ஸ் 72382
+[run] புதியவை 677 → நிகழ்வுகள் 603
+[triage] 603 → 58 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] Gliders India மற்றும் IIT Delhi ஆகியவை தமிழ்நாட்டில் அமைந்தவ
+[skip] விஞ்ஞான விளக்க கட்டுரை — செய்தி அல்ல. தமிழ்நாட்டு வாசகருக்கு
+[tts-edge] bc416c08be91: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஜெயிலர் 2 டிரெய்லர் வெளியாக்கினர்
+[skip] தமிழ்நாட்டு வாசகரின் உடனடிக் கவனத்தை எதுவும் பாதிக்கவில்லை. 
+[image] களஞ்சியம் (3 சொல்): மதுராந்தகம், தாராபுரம் தொகுதிகளில்
+[tts-edge] 3e8d247f7797: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம், தாராபுரம் தொகுதிகளில் இன்று வாக்குப் பதிவு
+[publish] அமெரிக்கக் கடற்கரையில் விமானம் காணாமல், ஆறு பேர் பலியானதாக அனுமானம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfjwQyde4npy9AXBN6BEK'}
+[image] களஞ்சியம் (3 சொல்): திருத்தணியில் மகளுக்கு தொந்தரவு பற
+[publish] திருத்தணியில் மகளுக்கு தொந்தரவு பற்றி புகார் அளித்த விவசாயி கொலை
+[skip] வெளிநாட்டுத் துவக்கம் நிகழ்வு — தமிழ்நாடு/இந்தியாவைப் பாதிக்
+[skip] உலக அளவில் முக்கியமான செய்தியல்ல — உக்ரைன்-ரஷியப் போர்க் குற
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: இலங்கை கைது மீனவர்கள் விவகாரம்: மத
+[publish] இலங்கை கைது மீனவர்கள் விவகாரம்: மத்திய அரசுக்கு விஜய் கடிதம்
+[skip] வெளிநாட்டின் உள்ளூர் குற்றச் சம்பவம்; தமிழ்நாடு/இந்தியா வாசக
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfjwatjjzrQa6Jy5U5JMc'}
+[skip] நைஜீரியாவின் உள்ளூர் கடத்தல் சம்பவம் — தமிழ்நாடு அல்லது இந்த
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfjwdjL2ZcUJW3Tsy3Kk5'}
+[image] களஞ்சியம் (3 சொல்): தேர்தல் மனுக்கள் தள்ளுபடி கோரி விஜ
+[publish] தேர்தல் மனுக்கள் தள்ளுபடி கோரி விஜய் தாக்கல் மனு விசாரணை தொடக்கம்
+[திருத்தம்] மதுராந்தகம், தாராபுரம் தொகுதிகளுக்கு இன் → மதுராந்தகம், தாராபுரம் தொகுதிகளுக்கு அக்
+[image] களஞ்சியம் (2 சொல்): மதுராந்தகம், தாராபுரம் தொகுதிகளுக்
+[publish] மதுராந்தகம், தாராபுரம் தொகுதிகளுக்கு அக்டோபர் 6-ஆம் தேதி பொது விடுமுறை
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (3 சொல்): மதுராந்தகம் தொகுதி இடைத்தேர்தல்: இ
+[publish] மதுராந்தகம் தொகுதி இடைத்தேர்தல்: இன்று பொது விடுமுறை அறிவிப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfjwuwGp4HzBKpnohKZqF'}
+[திருத்தம்] நீலகிரி உள்பட ஐந்து மாவட்டங்களில் இன்று  → நீலகிரி உள்ளிட்ட ஐந்து மாவட்டங்களில் இன்
+[image] களஞ்சியம் (2 சொல்): நீலகிரி உள்ளிட்ட ஐந்து மாவட்டங்களி
+[publish] நீலகிரி உள்ளிட்ட ஐந்து மாவட்டங்களில் இன்று கனமழைக்கு வாய்ப்பு
+[skip] இந்தியக் கட்டுரை; தமிழ்நாட்டுக்குப் பொதுவாக முக்கியத்துவம் இ
+[skip] வெளிநாட்டு உள்ளூர் சம்பவம் — ரசியாவின் ஆய்வு மையத்தில் நடந்த
+[skip] பிற நாட்டின் உள்ளூர் சம்பவம் — தமிழ்நாடு/இந்தியாவுக்குத் தொட
+[skip] யேமன் உள் மோதல் — தமிழ்நாடு / இந்திய வாசகரைப் பாதிக்காது. சவ
+[skip] பிரேசிலின் உள்தேশीய அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப் பாத
+[திருத்தம்] அண்ணன் சீர் திட்டத்திற்கு 812 கோடி ரூபாய → அண்ணன் சீர் திட்டத்திற்கு ₹812 கோடி ஒதுக
+[image] களஞ்சியம் (2 சொல்): அண்ணன் சீர் திட்டத்திற்கு ₹812 கோட
+[publish] அண்ணன் சீர் திட்டத்திற்கு ₹812 கோடி ஒதுக்கீடு
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: மீனவர் கைது தொடர்கிறது, பணிக்குழு கூட்டப்படவில்லை ஏன்?
+[comic] கதை முயற்சி 1 தோல்வி: Expecting ',' delimiter: line 36 column 4 (char 2051)
+[comic] கதை: தேவராளன் வருகை
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.88) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-06.png · நாள் 27
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹13241 · சென்செக்ஸ் 72382
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
