@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 23 புதியவை
+[fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 9 புதியவை
-[fetch] Dinamani TN: 18 புதியவை
-[fetch] BBC Tamil: 5 புதியவை
+[fetch] Dinamani TN: 17 புதியவை
+[fetch] BBC Tamil: 4 புதியவை
 [fetch] BBC World: 1 புதியவை
-[fetch] Al Jazeera: 3 புதியவை
+[fetch] Al Jazeera: 2 புதியவை
 [fetch] ESPNcricinfo: 10 புதியவை
 [fetch] The Hindu Sport: 21 புதியவை
 [fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 29 புதியவை
-[fetch] The Hindu Tech: 9 புதியவை
+[fetch] The Hindu Tech: 10 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 12 புதியவை
+[fetch] The Hindu Health: 13 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 5 புதியவை
+[fetch] FreeJobAlert: 4 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -38,7 +38,7 @@
 [fetch] The Verge: 10 புதியவை
 [fetch] The Hindu National: 3 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 15 புதியவை
+[fetch] India Today: 11 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 18 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 29 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6f1487b850>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3c80523790>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 3 புதியவை
-[fetch] Dinamani Govt: 18 புதியவை
-[fetch] Times Govt Schemes: 13 புதியவை
+[fetch] Dinamani Govt: 17 புதியவை
+[fetch] Times Govt Schemes: 12 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,23 +67,24 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 437 → நிகழ்வுகள் 425
+[run] புதியவை 430 → நிகழ்வுகள் 418
 [triage] சேமித்த மதிப்பெண் (413) — புதிய அழைப்பு இல்லை
-[triage] 425 → 26 | காலி: india:3, world:2, assembly:2, jobs:1
-[skip] பஞ்சாப் மாநிலத்தின் உள்ளூர் குற்றச் சம்பவமும் உள்ளூர் அரசியல
-[skip] பொது சுகாதார வழிகாட்டல் — செய்திக் கட்டுரை அல்ல। தமிழ்நாடு/இ
-[skip] UEFA Nations League — வெளிநாட்டுக் ক্লাব/தேசীয় அணிகளின் உத்
-[திருத்தம்] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு  → மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு 
-[tts-edge] 376b3f2d3f03: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு உச்ச நீதிமன்றத்தில் மேல்முறையீடு
+[triage] 418 → 37 | காலி: india:3, world:2, assembly:2, jobs:1
+[skip] வெளிநாட்டு உள் அரசியல் — அமெரிக்கத் தேர்ந்தெடுக்கப்பட்ட அதிக
+[skip] உத்தரப் பிரதேச மாநிலத்தின் உள்ளூர் நிர்வாக முடிவு (மாவட்டப் 
+[skip] வெளிநாட்டுத் தடகளத் தொடர்ச்சி. தமிழ்நாடு/இந்தியாவுடன் தொடர்ப
+[skip] வெளிநாட்டு கிரிக்கெட் — ஐரிஷ் அணி. தமிழ்நாடு/இந்திய வாசகரைப்
+[tts-edge] 9de19226ff73: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தாராபுரம் இடைத்தேர்தல்: 340 பள்ளிகளுக்கு இரு நாள்கள் விடுமுறை
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Declare ‘Vettri Payanam’ scheme unconstitutional
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உண்மைத் தகவல்கள் விரிவாக இ
-[skip] இது உலகக் கச்சா எண்ணெய் விலை மற்றும் புவியரাஜनीய சக்திகளைப் 
+[skip] இது ஒரு தனிநபரின் உறுதிப்படுத்தப்படாத கூற்று மட்டுமே, போதிய 
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டு உள்நாட்டு தேர்தল் 
+[skip] வெளிநாட்டு கால்பந்துக் செய்தி — போர்த்துகால் அணி, ரொனால்டோ, 
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘Wall of Hope’, mental health initiative led by 
-[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் வாக்காளர் பட்டியல் சர்ச்சை 
-[skip] இது கர்நாடகா மாநிலத்துக்குள்ளான வாக்காளர் பட்டியல் தொடர்பான 
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் பல்கலைக்கழக পরीட்சை அட்டவணை — 
-[skip] அமெரிக்காவின் உள்நாட்டு விபத்து — தமிழ்நாடு/இந்தியாவுடன் நேர
-[market] தங்கம் 22K ₹13308 · சென்செக்ஸ் 71910
+[tts-edge] 64386a123999: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இந்திய ரயில்வே 99.6 சதவீதம் மின்மயமாக்கப்பட்டும் டீசல் என்ஜின் தொடர்கிறது
+[skip] வெளிநாட்டுப் பெண்கள் கால்பந்து லிகா — தமிழ்நாடு/இந்தியாவைப் 
+[skip] ওড়িশা অঞ্চলের (OSSC) নিয়োগ পরীক্ষা — তমிழ்நாட்டு வாসকரের জ
+[market] தங்கம் 22K ₹13252 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 1
+[done] feed 300 · pending 0 · எழுதியவை 2
