@@ -1,13 +1,13 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 12 புதியவை
+[fetch] ET Markets: 18 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 10 புதியவை
 [fetch] Dinamani TN: 21 புதியவை
 [fetch] BBC Tamil: 3 புதியவை
 [fetch] BBC World: 1 புதியவை
-[fetch] Al Jazeera: 6 புதியவை
+[fetch] Al Jazeera: 5 புதியவை
 [fetch] ESPNcricinfo: 11 புதியவை
-[fetch] The Hindu Sport: 27 புதியவை
+[fetch] The Hindu Sport: 26 புதியவை
 [fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 10 புதியவை
@@ -16,7 +16,7 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 9 புதியவை
+[fetch] FreeJobAlert: 8 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,16 +29,16 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 12 புதியவை
+[fetch] The Hindu Legal: 9 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 12 புதியவை
+[fetch] The Hindu National: 9 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 19 புதியவை
+[fetch] India Today: 18 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 18 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f56a4df21d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 12 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb1fda8ea50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 9 புதியவை
 [fetch] Dinamani Govt: 21 புதியவை
-[fetch] Times Govt Schemes: 16 புதியவை
+[fetch] Times Govt Schemes: 13 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,27 +67,30 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 482 → நிகழ்வுகள் 461
+[run] புதியவை 472 → நிகழ்வுகள் 454
 [triage] சேமித்த மதிப்பெண் (431) — புதிய அழைப்பு இல்லை
-[triage] 461 → 17 | காலி: india:3, world:2, govt:2, crime:2, assembly:2
-[skip] ஒடிசா மாநில அரசின் உள்ளூர்க் கொள்கை அறிவிப்பு — தமிழ்நாட்டுட
-[skip] வெளிநாட்டு உள்நாட்டுப் போர் மற்றும் பேரிடர் — தமிழ்நாடு/இந்த
-[skip] ஒடிசா மாநிலத்தின் உள்ளூர் அரசுக் கொள்கை — தமிழ்நாட்டு வாசகரு
+[triage] 454 → 20 | காலி: india:3, world:2, govt:2, crime:2, assembly:2
+[skip] மேற்கு வங்க மாநில அரசியல் பகுப்பாய்வுக் கட்டுரை - தமிழ்நாட்ட
+[skip] உலக அளவிலான அரசியல் மோதல்; தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொ
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Winged visitors from afar return to Chennai’s we
-[skip] மூலச் செய்தி காலாவதியானது போல் தெரிகிறது — குறிப்பிட்ட ஆண்டு
-[skip] இது மகாராஷ்டிர மாநில உள்ளூர் அரசியல் தகராறு - தேவேந்திர ஃபட்
-[skip] பிற நாடுகளின் ফুटбольు போட்டியில் விளையாட்டு நடத்தை பற்றிய ச
-[skip] கேரளத்தின் உள்ளூர் வন்यजीவ செய்தி. தமிழ்நாட்டைப் பாதிக்கவில்
-[skip] வணிக நிறுவனத்தின் தலைவரின் கேட்டுக்கோரல் — அரசு அறிவிப்பு அல
-[skip] வங்கி வளர்ச்சிப் புள்ளிவிவரம் — தமிழ்நாட்டு வாசகரைப் நேரடியா
-[skip] தனியார் வங்கியின் நிர்வாহகத் தாவல் — அரசு அறிவிப்பு அல்ல; மக
-[skip] மகாராஷ்டிர உள்ளூர் அரசியல் சர்ச்சை - தமிழ்நாட்டுடன் நேரடித் 
-[skip] இந்தியாவின் பிற மாநிலத்து (மத்திய பிரதேசம்) பல்கலைக்கழக முடி
-[skip] வெளிநாட்டு ஐரோப்பிய ফுட்பால் லீக் — தமிழ்நாடு/இந்திய வாசகரைப
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfiCRaiGbnhD8hrzB1DXW'}
+[image] களஞ்சியம் (3 சொல்): நிஃப்டி குறியீடு தொடர்ந்து எட்டாவத
+[tts-edge] 205cc4981bb3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நிஃப்டி குறியீடு தொடர்ந்து எட்டாவது வாரமும் சரிவு
+[image] களஞ்சியம் (3 சொல்): உலக சந்தை அழுத்தத்தால் நிஃப்டி, செ
+[tts-edge] 651af73b7127: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] உலக சந்தை அழுத்தத்தால் நிஃப்டி, சென்செக்ஸ் குறியீடுகள் சரிவு
+[image] களஞ்சியம் (2 சொல்): வீல்லி ஓட்டுதல், மூவர் சவாரிக்காக 
+[publish] வீல்லி ஓட்டுதல், மூவர் சவாரிக்காக 19 பேர் மீது சிசிபி வழக்கு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; தமிழ்நாட்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: சக்கரச் சவாரியாக மிதிவண்டி ஓட்டியவ
+[publish] சக்கரச் சவாரியாக மிதிவண்டி ஓட்டியவர்கள் 19 பேர் கைது
+[skip] கர্நாடக பொலிஸ் நியமன தேர்வு — தமிழ்நாடு வாசகரைப் பாதிக்காது.
+[skip] Formula 1 (Bahrain Grand Prix) என்பது தமிழ்நாட்டு/இந்திய வாச
+[skip] பிரான்சின் உள்ளூர் கல்வி நிகழ்வு. தமிழ்நாடு/இந்தியவாசகரைப் ப
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Weekend night bike racing puts Chennai residents
-[tts-edge] brief_2026-10-05: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[brief] காலை brief தயார்
-[market] தங்கம் 22K ₹13302 · சென்செக்ஸ் 71910
+[skip] வெளிநாட்டு உள்ளூர் குற்றச் செய்தி — தமிழ்நாட்டுத் தொடர்பு தெ
+[market] தங்கம் 22K ₹13305 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 0
+[done] feed 300 · pending 0 · எழுதியவை 4
