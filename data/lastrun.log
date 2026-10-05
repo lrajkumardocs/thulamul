@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 20 புதியவை
+[fetch] ET Markets: 23 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 9 புதியவை
-[fetch] Dinamani TN: 21 புதியவை
-[fetch] BBC Tamil: 4 புதியவை
-[fetch] BBC World: 2 புதியவை
-[fetch] Al Jazeera: 4 புதியவை
-[fetch] ESPNcricinfo: 11 புதியவை
-[fetch] The Hindu Sport: 22 புதியவை
+[fetch] Dinamani TN: 18 புதியவை
+[fetch] BBC Tamil: 5 புதியவை
+[fetch] BBC World: 1 புதியவை
+[fetch] Al Jazeera: 3 புதியவை
+[fetch] ESPNcricinfo: 10 புதியவை
+[fetch] The Hindu Sport: 21 புதியவை
 [fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 29 புதியவை
-[fetch] The Hindu Tech: 10 புதியவை
+[fetch] The Hindu Tech: 9 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 11 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 6 புதியவை
+[fetch] FreeJobAlert: 5 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,16 +29,16 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 8 புதியவை
+[fetch] The Hindu Legal: 3 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 8 புதியவை
+[fetch] The Hindu National: 3 புதியவை
 [fetch] NDTV India: 20 புதியவை
-[fetch] India Today: 17 புதியவை
+[fetch] India Today: 15 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 18 புதியவை
@@ -56,45 +56,34 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f80c6eba910>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 8 புதியவை
-[fetch] Dinamani Govt: 21 புதியவை
-[fetch] Times Govt Schemes: 14 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6f1487b850>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 3 புதியவை
+[fetch] Dinamani Govt: 18 புதியவை
+[fetch] Times Govt Schemes: 13 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 19 புதியவை
+[fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 461 → நிகழ்வுகள் 442
+[run] புதியவை 437 → நிகழ்வுகள் 425
 [triage] சேமித்த மதிப்பெண் (413) — புதிய அழைப்பு இல்லை
-[triage] 442 → 30 | காலி: india:3, world:2, govt:2, assembly:2, jobs:1
-[skip] கர்நாடகாவின் சிக்கபள்ளாபுர மாவட்டத்தில் நடந்த உள்ளூர் விபத்த
-[skip] கேரள மாநிலத்தின் எர்ணாகுளம் மாவட்ட பஞ்சாயத்தின் உள்ளூர்த் தி
-[skip] இது கேரளாவின் கோழிக்கோடு ரயில் நிலையத்தில் உள்ள உள்ளூர் தெரு
-[skip] இது கேரளாவில் உள்ள மத்திய பல்கலைக்கழகத்தின் உள்ளூர் மாணவர் அ
-[skip] இது கேரள மாநில உள்ளூர் அரசியல் கட்சித் தலைவரின் குற்றச்சாட்ட
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: காலாண்டு விடுமுறை முடிவு, இன்று தம
-[tts-edge] db49a8d3d904: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காலாண்டு விடுமுறை முடிவு, இன்று தமிழகப் பள்ளிகள் மீண்டும் திறப்பு
-[skip] வெளிநாட்டு உள் அரசியல் — பிரேசிலின் தேர்தல் செய்தி தமிழ்நாடு
-[skip] கர্நாடகாவின் உள்ளூர் விபத்து — தமிழ்நாட்டுக்குத் தொடர்பு இல்
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — இங்கிலாந்து மற்றும் ஆஸ்திரேலி
+[triage] 425 → 26 | காலி: india:3, world:2, assembly:2, jobs:1
+[skip] பஞ்சாப் மாநிலத்தின் உள்ளூர் குற்றச் சம்பவமும் உள்ளூர் அரசியல
+[skip] பொது சுகாதார வழிகாட்டல் — செய்திக் கட்டுரை அல்ல। தமிழ்நாடு/இ
+[skip] UEFA Nations League — வெளிநாட்டுக் ক্লাব/தேசীয় அணிகளின் உத்
+[திருத்தம்] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு  → மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு 
+[tts-edge] 376b3f2d3f03: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலுக்கு உச்ச நீதிமன்றத்தில் மேல்முறையீடு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Declare ‘Vettri Payanam’ scheme unconstitutional
-[skip] அமெரிக்காவின் உள்ளூர் அரசியல் ও சமூகப் பிரச்சனை. தமிழ்நாடு/இ
-[skip] கேரளத்தின் ഭാഗമായ എരുമാകുളം ജില്ലയിലെ പഞ്ചായത്തിന്റെ പാലിതരാ
-[skip] இது ஆசிய விளையாட்டு நிকழ்வு பற்றிய பொதுவான நோக்கு/வாதம்; குற
-[skip] கேரளத்தின் உள்ளூர் ரயில்வே நிலைய பிரச்சினை. தமிழ்நாட்டுக்குப
-[skip] கர்நாடகத்தின் உள்ளூர் பல்கலைக்கழக நிகழ்வு — தமிழ்நாட்டுக்கு 
-[skip] கேரளா அரசாங்கத்தின் உள்ளூர் அரசியல் — தமிழ்நாட்டு வாசகரைப் ப
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நீதிபதியின் பெயர், வழக்கு 
-[skip] இது டெல்லி நகரின் உள்ளூர் காற்று மாசு அறிக்கை; தமிழ்நாட்டுடன
-[image] களஞ்சியம் (2 சொல்): வெற்றிப் பயணம் திட்டத்துக்கு எதிர்
-[tts-edge] 78583a8ebba0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வெற்றிப் பயணம் திட்டத்துக்கு எதிர்ப்பு வழக்கு இன்று விசாரணை
-[skip] தனியார் நிறுவனத்தின் வணிக அறிக்கை — அரசு அறிவிப்பல்ல. govt க
-[skip] छत्तीसगढ़ राज्य की भर्ती अधिसूचना है - तमिलनाडु पाठकों के लि
-[market] தங்கம் 22K ₹13314 · சென்செக்ஸ் 71910
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உண்மைத் தகவல்கள் விரிவாக இ
+[skip] இது உலகக் கச்சா எண்ணெய் விலை மற்றும் புவியரাஜनीய சக்திகளைப் 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘Wall of Hope’, mental health initiative led by 
+[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் வாக்காளர் பட்டியல் சர்ச்சை 
+[skip] இது கர்நாடகா மாநிலத்துக்குள்ளான வாக்காளர் பட்டியல் தொடர்பான 
+[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் பல்கலைக்கழக পরीட்சை அட்டவணை — 
+[skip] அமெரிக்காவின் உள்நாட்டு விபத்து — தமிழ்நாடு/இந்தியாவுடன் நேர
+[market] தங்கம் 22K ₹13308 · சென்செக்ஸ் 71910
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 2
+[done] feed 300 · pending 0 · எழுதியவை 1
