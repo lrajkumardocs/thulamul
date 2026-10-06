@@ -1,42 +1,42 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 25 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 13 புதியவை
+[fetch] The Hindu TN: 22 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 10 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
+[fetch] ESPNcricinfo: 14 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
-[fetch] Cinema Express: 25 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
+[fetch] Cinema Express: 26 புதியவை
 [fetch] The Hindu Tech: 13 புதியவை
 [fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 23 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,72 +56,65 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5e95671310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f45631302d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 29 புதியவை
+[fetch] TN Police News: 28 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 677 → நிகழ்வுகள் 603
-[triage] 603 → 58 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] Gliders India மற்றும் IIT Delhi ஆகியவை தமிழ்நாட்டில் அமைந்தவ
-[skip] விஞ்ஞான விளக்க கட்டுரை — செய்தி அல்ல. தமிழ்நாட்டு வாசகருக்கு
-[tts-edge] bc416c08be91: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஜெயிலர் 2 டிரெய்லர் வெளியாக்கினர்
-[skip] தமிழ்நாட்டு வாசகரின் உடனடிக் கவனத்தை எதுவும் பாதிக்கவில்லை. 
-[image] களஞ்சியம் (3 சொல்): மதுராந்தகம், தாராபுரம் தொகுதிகளில்
-[tts-edge] 3e8d247f7797: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகம், தாராபுரம் தொகுதிகளில் இன்று வாக்குப் பதிவு
-[publish] அமெரிக்கக் கடற்கரையில் விமானம் காணாமல், ஆறு பேர் பலியானதாக அனுமானம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfjwQyde4npy9AXBN6BEK'}
-[image] களஞ்சியம் (3 சொல்): திருத்தணியில் மகளுக்கு தொந்தரவு பற
-[publish] திருத்தணியில் மகளுக்கு தொந்தரவு பற்றி புகார் அளித்த விவசாயி கொலை
-[skip] வெளிநாட்டுத் துவக்கம் நிகழ்வு — தமிழ்நாடு/இந்தியாவைப் பாதிக்
-[skip] உலக அளவில் முக்கியமான செய்தியல்ல — உக்ரைன்-ரஷியப் போர்க் குற
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: இலங்கை கைது மீனவர்கள் விவகாரம்: மத
-[publish] இலங்கை கைது மீனவர்கள் விவகாரம்: மத்திய அரசுக்கு விஜய் கடிதம்
-[skip] வெளிநாட்டின் உள்ளூர் குற்றச் சம்பவம்; தமிழ்நாடு/இந்தியா வாசக
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfjwatjjzrQa6Jy5U5JMc'}
-[skip] நைஜீரியாவின் உள்ளூர் கடத்தல் சம்பவம் — தமிழ்நாடு அல்லது இந்த
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfjwdjL2ZcUJW3Tsy3Kk5'}
-[image] களஞ்சியம் (3 சொல்): தேர்தல் மனுக்கள் தள்ளுபடி கோரி விஜ
-[publish] தேர்தல் மனுக்கள் தள்ளுபடி கோரி விஜய் தாக்கல் மனு விசாரணை தொடக்கம்
-[திருத்தம்] மதுராந்தகம், தாராபுரம் தொகுதிகளுக்கு இன் → மதுராந்தகம், தாராபுரம் தொகுதிகளுக்கு அக்
-[image] களஞ்சியம் (2 சொல்): மதுராந்தகம், தாராபுரம் தொகுதிகளுக்
-[publish] மதுராந்தகம், தாராபுரம் தொகுதிகளுக்கு அக்டோபர் 6-ஆம் தேதி பொது விடுமுறை
+[run] புதியவை 654 → நிகழ்வுகள் 592
+[triage] 592 → 64 | காலி: india:4, economy:3, crime:3, jobs:3, health:3
+[skip] ராஞ்சி பல்கலைக்கழகம் மற்றும் உஸ்மானியா பல்கலைக்கழகத் தேர்வு 
+[skip] வெளிநாட்டுச் செய்தி — தமிழ்நாடு/இந்தியாவுடன் நேரடி தொடர்பு இ
+[skip] பாகிஸ்தான் ক্রিকেट் அணির உள் சர்ச்சை — தமிழ்நாட்டு வாசகரைப் 
+[skip] அசாம் நாகான் உள்ளிட்ட பிற மாநிலங்களில் நடக்கும் இடைத்தேர்தல்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfkEkbqkdLfrEHBZB4F5k'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (3 சொல்): மதுராந்தகம் தொகுதி இடைத்தேர்தல்: இ
-[publish] மதுராந்தகம் தொகுதி இடைத்தேர்தல்: இன்று பொது விடுமுறை அறிவிப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfjwuwGp4HzBKpnohKZqF'}
-[திருத்தம்] நீலகிரி உள்பட ஐந்து மாவட்டங்களில் இன்று  → நீலகிரி உள்ளிட்ட ஐந்து மாவட்டங்களில் இன்
-[image] களஞ்சியம் (2 சொல்): நீலகிரி உள்ளிட்ட ஐந்து மாவட்டங்களி
-[publish] நீலகிரி உள்ளிட்ட ஐந்து மாவட்டங்களில் இன்று கனமழைக்கு வாய்ப்பு
-[skip] இந்தியக் கட்டுரை; தமிழ்நாட்டுக்குப் பொதுவாக முக்கியத்துவம் இ
-[skip] வெளிநாட்டு உள்ளூர் சம்பவம் — ரசியாவின் ஆய்வு மையத்தில் நடந்த
-[skip] பிற நாட்டின் உள்ளூர் சம்பவம் — தமிழ்நாடு/இந்தியாவுக்குத் தொட
-[skip] யேமன் உள் மோதல் — தமிழ்நாடு / இந்திய வாசகரைப் பாதிக்காது. சவ
-[skip] பிரேசிலின் உள்தேশीய அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப் பாத
-[திருத்தம்] அண்ணன் சீர் திட்டத்திற்கு 812 கோடி ரூபாய → அண்ணன் சீர் திட்டத்திற்கு ₹812 கோடி ஒதுக
-[image] களஞ்சியம் (2 சொல்): அண்ணன் சீர் திட்டத்திற்கு ₹812 கோட
-[publish] அண்ணன் சீர் திட்டத்திற்கு ₹812 கோடி ஒதுக்கீடு
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: மீனவர் கைது தொடர்கிறது, பணிக்குழு கூட்டப்படவில்லை ஏன்?
-[comic] கதை முயற்சி 1 தோல்வி: Expecting ',' delimiter: line 36 column 4 (char 2051)
-[comic] கதை: தேவராளன் வருகை
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.88) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-06.png · நாள் 27
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹13241 · சென்செக்ஸ் 72382
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfkErmsB19tcAaaZiFVeS'}
+[image] களஞ்சியம் (3 சொல்): மதுராந்தகம், தாராபுரம் தொகுதிகளில்
+[tts-edge] b2952c89043c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம், தாராபுரம் தொகுதிகளில் இடைத்தேர்தல் வாக்குப்பதிவு தொடக்கம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfkExrLTtDanxPaY4JDhv'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfkF4rwrNDDNPxeTpNvZm'}
+[திருத்தம்] ஆதவ் அர்ஜுனா, நிர்மல் குமார் மீது திமுக  → ஆதவ் அர்ஜுனா, நிர்மல் குமார் மீது திமுக 
+[tts-edge] 577153681fc7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] ஆதவ் அர்ஜுனா, நிர்மல் குமார் மீது திமுக ₹1 கோடி அவதூறு வழக்கு தொடர அனுமதி
+[திருத்தம்] பட்டினப்பாக்கம் புதிய செயலக வழக்கு திரும → பட்டினப்பாக்கத்தில் புதிய செயலக கட்டிடம்
+[publish] பட்டினப்பாக்கத்தில் புதிய செயலக கட்டிடம் — வழக்கு திரும்பப் பெறப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfkFCbztoEo2xy4zgAn1n'}
+[skip] மூலத்தில் ஒரே தலைப்பு வரி மட்டுமே உள்ளது; வழக்கு விவரங்கள், 
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது; வழக்கு விவரம், குற்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] நைஜீரியாவின் உள்நாட்டு குற்றச் சம்பவம். தமிழ்நாடு/இந்தியாவுட
+[திருத்தம்] முப்பத்தி ஏழாயிரத்து எழுநூறு கோடி ரூபாய் → முப்பத்தி ஏழாயிரத்து எழுநூறு கோடி ரூபாய்
+[publish] முப்பத்தி ஏழாயிரத்து எழுநூறு கோடி ரூபாய் ஜியோ பிளாட்ஃபார்ம்ஸ் ஐபிஓ அக்டோபர் இருபத்தொன்றாம் தேதி தொடங்க வாய்ப்பு
+[skip] வெளிநாட்டு ராணுவ ஒப்பந்தம் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் 
+[publish] மலிவு விலை வீட்டுக் கடன் நிதியை இரட்டிப்பாக்கும் தேசிய வீட்டு வசதி வங்கி
+[skip] வெளிநாட்டு உள்ளூர் சுகாதாரச் செய்தி - அமெரிக்கா ஒரு மாநிலத்த
+[skip] இது அமெரிக்க மென்பொருள் நிறுவனமான பிடிசியை பிரெஞ்சு நிறுவனமா
+[skip] உலக அளவிலான பிராந்திய மோதல் — தமிழ்நாடு/இந்திய வாசகரின் தাৎக
+[skip] எத்தியோப்பியாவின் உள்நாட்டுப் பிரச்சினை; தமிழ்நாட்டு/இந்திய 
+[திருத்தம்] வீரமணி வழக்கில் மூன்று ஓட்டுநர்கள் கைது  → வீரமணி வழக்கில் மூன்று ஓட்டுநர்கள் உதவாப
+[image] களஞ்சியம் (2 சொல்): வீரமணி வழக்கில் மூன்று ஓட்டுநர்கள்
+[publish] வீரமணி வழக்கில் மூன்று ஓட்டுநர்கள் உதவாபுரம் குற்றத்துக்காகக் கைது
+[திருத்தம்] யுபிஐ பரிவர்த்தனை கட்டணத்தின் மீது ஜிஎஸ் → யுபিஐ பரிவர்த்தனையில் எம்டிআர் மீது ஜிஎஸ
+[தரம்] தமிழ் அல்லாத எழுத்து: আি → ஒரு திருத்தம்
+[publish] யுபிஐ பரிவர்த்தனையில் எம்டிஆர் மீது ஜிஎஸ்டி விதிக்கக் கூடாது: சி.ரங்கராஜன்
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹13217 · சென்செக்ஸ் 72382
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 7
