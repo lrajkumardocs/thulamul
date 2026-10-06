@@ -1,5 +1,420 @@
 [
  {
+  "id": "art_tech_20261006",
+  "headline": "அன்றாடத் தொழில்நுட்பத்தில் பாதுகாப்பு: அறிந்திருக்க வேண்டிய அடிப்படைகள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது பின்கோடு அல்லது OTP ஐ யாருடனும் பகிர வேண்டாம்.",
+   "ஆதார் எண்ணை பயன்படுத்தும் முன் அதிகாரப்பூர்வ UIDAI இணையதளத்தில் மட்டுமே சரிபார்க்கவும்.",
+   "தெரியாத இணைப்புகளை கிளிக் செய்வதைத் தவிர்த்து, சந்தேகத்திற்குரிய மெசேஜ்களை புறக்கணிக்கவும்.",
+   "மொபைல் அமைப்புகளில் ஆப் அனுமதிகளை தொடர்ந்து பரிசோதித்து தேவையற்றவற்றை நீக்கவும்.",
+   "இரண்டு-படி சரிபார்ப்பை (2FA) அனைத்து முக்கிய கணக்குகளிலும் இயக்கி வைப்பது பாதுகாப்பை அதிகரிக்கும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை பெரிய மோசடியை தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-06"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-06T22:46+05:30",
+  "created_ts": 1791306995.227187,
+  "audio": "data/audio/art_tech_20261006.mp3"
+ },
+ {
+  "headline": "சுகாதாரச் சவால்களை எதிர்கொள்ள மருத்துவ மாநாடு",
+  "lines": [
+   "நான்கு நாள் மாநாடு எழுகிற தொழில்நுட்பம், தொற்று நோய்கள், மருத்துவ ஆய்வு, சுகாதார சேவை ஆகியவை பற்றி விவாதிக்கும்.",
+   "முதன்முறையாக மருத்துவக் கண்டுபிடிப்புகள் மக்கள் அளவில் எவ்வாறு பயன்படுத்த முடியும் என்பதை கவனம் செலுத்துகிறது.",
+   "தேசிய மற்றும் சர்வதேச மருத்துவ வல்லுநர்கள் பங்கேற்பார்கள்.",
+   "கொரோனா, புற்றுநோய், நீரிழிவு போன்ற நீண்டகால நோய்களையும் தீர்க்கமாக நோக்கிக் கொள்ளும் முறைகளையும் ஆராயப்படும்.",
+   "இந்த மாநாடு சுகாதாரக் கொள்கை வகுப்பவர்களுக்கு புதிய கண்ணோட்டம் அளிக்க உதவும்."
+  ],
+  "closing": "இந்த மாநாடு சுகாதாரப் பணியாளர்களுக்கு அவர்கள் அறிந்திராத புதிய முறைகளைச் சொல்லிக் கொடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "மருத்துவ மாநாடு",
+   "தொற்று நோய்கள்",
+   "மருத்துவ ஆய்வு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Medical conference to address emerging healthcare challenges",
+   "lines": [
+    "A four-day conference will discuss emerging technologies, infectious diseases, medical research and healthcare delivery.",
+    "For the first time, it focuses on how medical discoveries can be applied at the population level.",
+    "National and international medical experts will participate.",
+    "Chronic diseases like COVID-19, cancer and diabetes, and integrated approaches to address them, will be examined.",
+    "The conference will provide new perspectives for policymakers in healthcare."
+   ],
+   "closing": "The conference will introduce health workers to new methods they may not be familiar with."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "b3dd034b782d",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-06T22:46+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/medical-conference-to-focus-on-emerging-healthcare-challenges/article71550806.ece"
+  ],
+  "image": {
+   "url": "data/bank/health01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/b3dd034b782d.mp3",
+  "created_ts": 1791306967.90528,
+  "status": "published"
+ },
+ {
+  "headline": "தேர்தல் ஆணையத்திற்கு எதிராக ராகுல் காந்தி தலைமையில் நாள் முழுவதும் போராட்டம்",
+  "lines": [
+   "தேர்தல் ஆணையத்திற்கு எதிராக எதிர்க்கட்சிகள் நடத்திய அணிவகுப்பை காவல்துறை கலைத்த பின்னர், எதிர்க்கட்சித் தலைவர் ராகுல் காந்தி புதுடெல்லியில் தொடர் போராட்டத்தை நடத்தினார்.",
+   "தேசிய தலைநகரில் உள்ள வானொலி நிலையமான ஆகாஷ்வாணி பவன் வளாகத்தை மையமாகக் கொண்டு இந்தப் போராட்டம் நாள் முழுவதும் நடைபெற்றது.",
+   "சூரிய அஸ்தமனத்திற்குப் பிறகும் இந்த அமர்வுப் போராட்டம் தொடர்ந்தது என்று செய்திகள் தெரிவிக்கின்றன.",
+   "தேர்தல் ஆணையத்தின் செயல்பாடுகள் குறித்து எதிர்க்கட்சிகள் நீண்ட காலமாக கேள்விகளை எழுப்பி வருகின்றன.",
+   "காவல்துறை நடவடிக்கை மற்றும் போராட்டத்தின் அடுத்த கட்டம் குறித்து இதுவரை அதிகாரப்பூர்வ அறிவிப்பு வெளியாகவில்லை."
+  ],
+  "closing": "தேர்தல் ஆணையத்திற்கு எதிரான இந்தப் போராட்டம் நாடு முழுவதும் தேர்தல் நடைமுறை பற்றிய விவாதங்களுடன் தொடர்புடையது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "ராகுல் காந்தி",
+   "தேர்தல் ஆணையம்",
+   "ஆகாஷ்வாணி பவன்",
+   "புதுடெல்லி",
+   "காங்கிரஸ்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Rahul Gandhi leads daylong sit-in protest against Election Commission",
+   "lines": [
+    "After police broke up an Opposition march against the Election Commission, Leader of Opposition Rahul Gandhi led a continued protest in New Delhi.",
+    "The protest was centred at the Akashvani Bhawan campus, home to All India Radio, and lasted the entire day.",
+    "Reports indicate the sit-in continued well past sunset.",
+    "Opposition parties have long raised questions over the functioning of the Election Commission.",
+    "No official statement has yet been issued on police action or the next steps of the protest."
+   ],
+   "closing": "The protest against the Election Commission is linked to ongoing nationwide debates over electoral rolls."
+  },
+  "front_cat": "strike_protest",
+  "image_query": "Rahul Gandhi",
+  "wiki_subject": "Rahul Gandhi",
+  "person_en": "Rahul Gandhi",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "32ac53c4e5bc",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-06T22:45+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/the-protest-that-wouldnt-end-inside-rahul-gandhis-daylong-siege-of-akashvani-bhawan/article71552793.ece",
+   "https://www.thehindu.com/news/national/the-protest-that-wouldnt-end-inside-rahul-gandhis-daylong-siege-of-akashvani-bhawan/article71552793.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Rahul_Gandhi.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Rahul Gandhi",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Rahul_Gandhi",
+   "symbolic": false
+  },
+  "audio": "data/audio/32ac53c4e5bc.mp3",
+  "created_ts": 1791306924.5621386,
+  "status": "published"
+ },
+ {
+  "headline": "ஐந்து சட்டமன்றத் தொகுதிகளுக்கு இடைத்தேர்தல், மதுரைப்பட்டினத்தில் அதிக வாக்குப்பதிவு",
+  "lines": [
+   "இந்தியாவில் ஐந்து சட்டமன்றத் தொகுதிகளுக்கும் ஒரு மக்களவைத் தொகுதிக்கும் இடைத்தேர்தல் நடைபெற்றது.",
+   "தமிழ்நாட்டின் மதுரைப்பட்டினம் தொகுதியில் எண்பத்தாறு சதவீத வாக்குப்பதிவு நடந்தது, இது அனைத்துத் தொகுதிகளிலும் அதிகபட்சமாக உள்ளது.",
+   "மேற்கு வங்க மாநிலத்தின் தேர்தல் ஆணையர்க்கு வாக்குப்பதிவு நாளன்று தொண்ணூற்றேழு அதிகாரப்பூர்வப் புகார்கள் வந்ததாகத் தெரிவிக்கப்பட்டது.",
+   "வாக்காளர்களை மிரட்டியது, வாக்குச் சாவடிகளைக் கைப்பற்றியது போன்ற குற்றச்சாட்டுகளை முன்வைத்து, மேற்கு வங்க இடைத்தேர்தலை ரத்து செய்யக் காங்கிரஸ் கட்சி கோரிக்கை விடுத்துள்ளது.",
+   "தேர்தல் ஆணையம் இந்தப் புகார்களை ஆய்வு செய்து தொடர் நடவடிக்கையை அறிவிக்கும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "காலியான சட்டமன்ற மற்றும் மக்களவைத் தொகுதிகளை நிரப்ப பல்வேறு மாநிலங்களில் இத்தகைய இடைத்தேர்தல் நடத்தப்படுவது வழக்கமான நடைமுறையாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "மதுராந்தகம்",
+   "மேற்கு வங்கம்",
+   "காங்கிரஸ்",
+   "தேர்தல் ஆணையம்",
+   "மக்களவை"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "By-polls held in five assembly seats, Madurantakam records highest turnout",
+   "lines": [
+    "By-elections were held in five Assembly constituencies and one Lok Sabha seat across India, including Madurantakam in Tamil Nadu.",
+    "Madurantakam in Tamil Nadu recorded the highest voter turnout among all seats at 86 percent.",
+    "The West Bengal Chief Electoral Officer received 97 official complaints on the day of polling.",
+    "Citing allegations of voter intimidation and booth capturing, the Congress party has demanded cancellation of the West Bengal by-polls.",
+    "The Election Commission is expected to examine these complaints and announce follow-up action."
+   ]
+  },
+  "id": "5e072705d52b",
+  "flags": [],
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-06T22:44+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/bypolls-held-in-five-assembly-seats-one-lok-sabha-constituency/article71552494.ece",
+   "https://www.thehindu.com/news/national/bypolls-held-in-five-assembly-seats-one-lok-sabha-constituency/article71552494.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Seal_of_Tamil_Nadu.svg/960px-Seal_of_Tamil_Nadu.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Tamil Nadu Legislative Assembly",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Tamil_Nadu_Legislative_Assembly",
+   "symbolic": false
+  },
+  "audio": "data/audio/5e072705d52b.mp3",
+  "created_ts": 1791306884.6175334,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "விழுப்புரம் மாவட்டத்தில் உள்கட்டமைப்புத் தேவை மதிப்பீடு அக்டோபர் 7 முதல்",
+  "lines": [
+   "விழுப்புரம் மாவட்டத்தில் உள்கட்டமைப்புத் தேவைகள் தொடர்பான மதிப்பீடு அக்டோபர் 7 முதல் தொடங்கும் என மாவட்ட நிர்வாகம் அறிவித்துள்ளது.",
+   "இந்த மதிப்பீட்டுப் பணி மாவட்டம் முழுவதும் நடைபெறும் என அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "மாவட்ட நிர்வாகம் இது தொடர்பாக அறிவிப்பு வெளியிட்டுள்ளது.",
+   "அடிப்படை வசதிகள் குறித்த தேவைகளை அறிந்து, வளர்ச்சித் திட்டங்களை வகுக்கும் நோக்கில் இந்த மதிப்பீடு மேற்கொள்ளப்படுகிறது.",
+   "மதிப்பீட்டு முடிவுகளின் அடிப்படையில் அடுத்த கட்ட நடவடிக்கைகள் மேற்கொள்ளப்படும் என அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "உள்கட்டமைப்புத் தேவைகள் தொடர்பான இந்த மதிப்பீடு மாவட்ட அளவிலான வளர்ச்சித் திட்டமிடலுக்கு அடிப்படையாக அமையும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "விழுப்புரம் மாவட்டம்",
+   "மாவட்ட நிர்வாகம்",
+   "உள்கட்டமைப்பு மதிப்பீடு"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Villupuram infrastructure needs assessment to begin from October 7",
+   "lines": [
+    "An assessment of infrastructure requirements in Villupuram district will begin from October 7, the district administration has announced.",
+    "The assessment work will be carried out across the entire district, officials said.",
+    "The district administration has issued an announcement regarding this exercise.",
+    "The assessment is being conducted to identify basic amenity needs and to help plan future development projects.",
+    "Further action will be taken based on the findings of the assessment, officials stated."
+   ],
+   "closing": "The infrastructure needs assessment is expected to form the basis for district-level development planning."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "district infrastructure assessment india",
+  "wiki_subject": "Villupuram district",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c49966c4f0da",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-06T22:39+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/assessment-of-infrastructure-requirements-in-villupuram-to-be-held-from-october-7/article71551262.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Kalyana_Mahal_from_Rajagiri.jpg/3840px-Kalyana_Mahal_from_Rajagiri.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Viluppuram district",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Viluppuram_district",
+   "symbolic": false
+  },
+  "audio": "data/audio/c49966c4f0da.mp3",
+  "created_ts": 1791306586.5706375,
+  "status": "published"
+ },
+ {
+  "headline": "டிஎன்பிஎஸ்சி குரூப் 4 தேர்வு அறிவிப்பு, குரூப் 1 விடைக்குறிப்பு வெளியீடு",
+  "lines": [
+   "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையம் குரூப் 4 பணியிடங்களுக்கான தேர்வு அறிவிப்பை வெளியிட்டுள்ளது.",
+   "அதே வேளையில் குரூப் 1 தேர்வுக்கான உத்தேச விடைக்குறிப்பையும் ஆணையம் வெளியிட்டுள்ளது.",
+   "விண்ணப்பதாரர்கள் ஆணையத்தின் அதிகாரப்பூர்வ இணையதளத்தில் முழு விவரங்களைப் பார்க்கலாம் என்று தெரிவிக்கப்பட்டுள்ளது.",
+   "குரூப் 1 விடைக்குறிப்பு தொடர்பாக ஆட்சேபனை இருந்தால் குறிப்பிட்ட காலக்கெடுவுக்குள் தெரிவிக்குமாறு வேட்பாளர்களுக்குக் கேட்டுக்கொள்ளப்பட்டுள்ளது.",
+   "குரூப் 4 தேர்வுக்கான விண்ணப்ப நடைமுறை மற்றும் தகுதி விவரங்களை இணையதளத்தில் பார்க்குமாறு ஆணையம் அறிவித்துள்ளது."
+  ],
+  "closing": "இரு அறிவிப்புகள் தொடர்பான முழு விவரங்களையும் டிஎன்பிஎஸ்சியின் அதிகாரப்பூர்வ இணையதளத்தில் வேட்பாளர்கள் பெறலாம்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "டிஎன்பிஎஸ்சி",
+   "குரூப் 4",
+   "குரூப் 1",
+   "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையம்"
+  ],
+  "id": "d4cc604e96b7",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-10-06T22:38+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/06/tnpsc-group-4-exam-notification-released-are-you-ready-to-apply",
+   "https://www.dinamani.com/tamilnadu/2026/Oct/06/tentative-answer-key-released-for-the-tnpsc-group-1-exam-tn"
+  ],
+  "image": {
+   "url": "data/bank/jobs02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d4cc604e96b7.mp3",
+  "created_ts": 1791306523.5454922,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "13 வயது சிறுவனுக்குப் பாலியல் தொல்லை, ஆசிரியர் கைது",
+  "lines": [
+   "தமிழ்நாட்டில் ஒரு ஆசிரியர் பதின்மூன்று வயது சிறுவனுக்குப் பாலியல் ரீதியான தொல்லை கொடுத்த குற்றச்சாட்டில் கைது செய்யப்பட்டுள்ளார்.",
+   "சிறார் பாதுகாப்புச் சட்டமான பாக்ஸோ சட்டத்தின் கீழ் இந்தக் கைது நடவடிக்கை மேற்கொள்ளப்பட்டது.",
+   "காவல்துறையினர் குற்றச்சாட்டின் அடிப்படையில் வழக்குப் பதிவு செய்து விசாரணையைத் தொடங்கியுள்ளனர்.",
+   "பாதிக்கப்பட்ட சிறுவனின் அடையாளத்தைப் பாதுகாக்கும் வகையில் மேலதிக விவரங்கள் வெளியிடப்படவில்லை.",
+   "வழக்கு தொடர்பான முழு விசாரணை நடைபெற்று வருவதாகக் காவல்துறை தெரிவித்துள்ளது."
+  ],
+  "closing": "வழக்கின் முழு விவரங்கள் விசாரணை முடிந்த பின் வெளிவரும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ஆசிரியர்",
+   "சிறுவன்",
+   "பாக்ஸோ சட்டம்",
+   "காவல் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Teacher arrested for sexually harassing 13-year-old boy",
+   "lines": [
+    "A teacher in Tamil Nadu has been arrested on charges of sexually harassing a thirteen-year-old boy.",
+    "The arrest was made under the POCSO Act, the law protecting children from sexual offences.",
+    "Police have registered a case based on the complaint and begun their investigation.",
+    "No further details have been released in order to protect the identity of the victim.",
+    "Police said a full investigation into the case is currently underway."
+   ],
+   "closing": "Complete details of the case are expected to emerge once the investigation concludes"
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "Protection of Children from Sexual Offences Act, 2012",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "0c347a5b8400",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-06T22:34+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/teacher-arrested-under-pocso-act-for-sexually-harassing-a-13-year-old-boy/article71551583.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/960px-Emblem_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Protection of Children from Sexual Offences Act, 2012",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Protection_of_Children_from_Sexual_Offences_Act%2C_2012",
+   "symbolic": false
+  },
+  "audio": "data/audio/0c347a5b8400.mp3",
+  "created_ts": 1791306248.812738,
+  "status": "published"
+ },
+ {
   "id": "art_health_20261006",
   "headline": "பருவமாற்றத்தில் உடல்நலம் காக்க எளிய வழிகள்",
   "lines": [

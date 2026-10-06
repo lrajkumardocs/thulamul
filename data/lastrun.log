@@ -1,21 +1,20 @@
-[expire] 577153681fc7
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 16 புதியவை
+[fetch] The Hindu TN: 16 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 21 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 17 புதியவை
-[fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
-[fetch] Cinema Express: 28 புதியவை
-[fetch] The Hindu Tech: 16 புதியவை
-[fetch] Wired: 27 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] The Hindu Sport: 30 புதியவை
+[fetch] The Hindu Cinema: 14 புதியவை
+[fetch] Cinema Express: 29 புதியவை
+[fetch] The Hindu Tech: 17 புதியவை
+[fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 11 புதியவை
+[fetch] The Hindu Health: 14 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -24,25 +23,25 @@
 [fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 23 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 10 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 27 புதியவை
+[fetch] Dinamani Sports: 29 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
-[fetch] NDTV India: 19 புதியவை
+[fetch] The Hindu National: 29 புதியவை
+[fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 29 புதியவை
+[fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -57,65 +56,75 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0253b5c050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f12daf395d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 693 → நிகழ்வுகள் 615
-[triage] 615 → 67 | காலி: india:4, health:3, sports:3, world:2, govt:2
-[skip] தமிழ்நாட்டுக்குச் செய்திப் பொருத்தம் இல்லை — இது தேசியக் கொள
-[skip] ஆஸ்திரேலியாவின் உள்நாட்டுப் பெண் கிரிக்கெட் அணி விவகாரம். தம
-[திருத்தம்] மதுராந்தகம் தாராபுரம் இடைத்தேர்தல் வாக்க → மதுராந்தகம், தாராபுரம் இடைத்தேர்தல் வாக்
-[நகல்] ஏற்கனவே வெளியானது: மதுராந்தகம், தாராபுரம் தொகுதிகளில் இடைத்தேர்தல் வாக்குப்பதிவ
-[நகல்] ஏற்கனவே வெளியானது: மதுராந்தகம், தாராபுரம் தொகுதிகளில் இடைத்தேர்தல் வாக்குப்பதிவ
-[tts-edge] 98c6b47b464c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலில் மதியம் வரை 55 சதவீத வாக்குப்பதிவு
-[திருத்தம்] தரபுரம் தவெக வேட்பாளர் முப்பத்தொரு கோடி  → தரபுரம் தவெக வேட்பாளர் ₹31 கோடி செலவு கூ
-[tts-edge] 037ab7014f6c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தரபுரம் தவெக வேட்பாளர் ₹31 கோடி செலவு கூற்று வீடியோ தேர்தல் ஆணையத்திடம் சமர்ப்பிக்கப்பட்டது
+[run] புதியவை 701 → நிகழ்வுகள் 624
+[triage] 624 → 45 | காலி: india:4, sports:3, world:2, govt:2, jobs:2
+[skip] India A cricket team's domestic tour selection — not a major
+[திருத்தம்] மதுராந்தகம் இடைத்தேர்தலில் எண்பத்தி ஆறு  → மதுராந்தகம் இடைத்தேர்தலில் எண்பது ஆறு சத
+[நகல்] ஏற்கனவே வெளியானது: மதுராந்தகம் இடைத்தேர்தலில் இயந்திரக் கோளாறு, வாக்குப்பதிவு ந
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfmLxpWHgbtxGBjHtbC55'}
+[திருத்தம்] 13 வயது சிறுவனுக்கு பாலியல் தொல்லை, ஆசிர → 13 வயது சிறுவனுக்குப் பாலியல் தொல்லை, ஆச
+[tts-edge] 0c347a5b8400: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] 13 வயது சிறுவனுக்குப் பாலியல் தொல்லை, ஆசிரியர் கைது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfmM58zww3enCsniMVv1C'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfmM8UCvfGJT5bJaSR7ua'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfmMBVMDfBkvBqfqub4Bq'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfmMEGBoBk1GMGUoxo9zT'}
+[skip] மூலத்தில் மதுராந்தகம், தாராபுரம் இடைத்தேர்தல் வாக்குப்பதிவு 
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, வாக்குப்பதிவு சதவீதம், தொக
-[திருத்தம்] அமைச்சர் மேரி வில்சன் மீது வழக்குப் பதிவ → நிதியமைச்சர் மேரி வில்சன் மீது வழக்குப் 
-[publish] நிதியமைச்சர் மேரி வில்சன் மீது வழக்குப் பதிவு கோரி உயர் நீதிமன்றப் பொதுநல மனு
-[skip] மூலத்தில் 'TVK-தலைமையிலான அரசு' என்ற குறிப்பு குழப்பமானது, த
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, வாக்குப்பதிவு நிறுத்தத்திற
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfkp9Dq9xiqyv4qD9AUws'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, சம்பவத்தின் விவரங்கள் (எங்
-[skip] மூலத்தில் தலைப்பு மற்றும் படக்குறிப்பு மட்டுமே உள்ளது; என்ன 
+[திருத்தம்] டிஎன்பிஎஸ்சி குரூப் 4 தேர்வு அறிவிப்பு,  → டிএன்பিএஸ்சி குரூப் 4 தேர்வு அறிவிப்பு, 
+[தரம்] தமிழ் அல்லாத எழுத்து: এি → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): டிஎன்பிஎஸ்சி குரூப் 4 தேர்வு அறிவி
+[tts-edge] d4cc604e96b7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] டிஎன்பிஎஸ்சி குரூப் 4 தேர்வு அறிவிப்பு, குரூப் 1 விடைக்குறிப்பு வெளியீடு
+[skip] இங்கிலாந்து உள்நாட்டு அரசு நிர்வாகக் கேள்வி; தமிழ்நாடு/இந்தி
+[skip] health awareness feature - general education, not news of sp
+[skip] வெளிநாட்டு உள்நாட்டு நிউஸ் — அமெரிக்கா ராணுவ தண்டனை. தமிழ்நா
+[skip] தமிழ்நாட்டுத் தகவல். 'world' (உலகம்) குறிப்பு தவறு; 'tn' (தம
+[skip] உலகச் செய்தி — கருங்கடலில் ரஷ்யா-உக்ரைன் யுத்தம் தொடர்பான கப
+[skip] வெளிநாட்டு உள்ளூர் ராணுவக் குற்றம் — தமிழ்நாடு/இந்திய வாசகர்
+[skip] சऊதி அரேபியாவின் உள்ளூர் சட்ட நடவடிக்கை. தமிழ்நாடு/இந்தியாவு
+[திருத்தம்] விழுப்புரம் மாவட்டத்தில் உள்கட்டமைப்புத் → விழுப்புரம் மாவட்டத்தில் உள்கட்டமைப்புத்
+[publish] விழுப்புரம் மாவட்டத்தில் உள்கட்டமைப்புத் தேவை மதிப்பீடு அக்டோபர் 7 முதல்
+[skip] பிற நாட்டுக் அரசியல் — இந்தியாவே சம்பந்தப்பட்ட இந்திய நாடாளு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் போதிய தகவல் இல்லை - தலைப்பு மற்றும் ஒரு பகுதி வாக்
-[image] களஞ்சியம் (3 சொல்): மதுராந்தகம் இடைத்தேர்தலில் இயந்திர
-[publish] மதுராந்தகம் இடைத்தேர்தலில் இயந்திரக் கோளாறு, வாக்குப்பதிவு நிறுத்தம்
+[skip] கனடாவின் உள்ளூர் அரசியல் — தமிழ்நாடு/இந்திய வாசகருக்குப் பொர
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; மாற்றப்பட்ட அதிகாரிகளின் ப
+[skip] தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இல்லை. ஸ்பெயினின் உள்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfmMbWYKWcL9qXd7TrJqZ'}
+[skip] வெளிநாட்டு உள்நாட்டுக் கலாச்சாரப் பொருட்டு — ஐரோப்பா-ரஷ்யா இ
+[skip] இது இங்கிலாந்து-இஸ்رael இரு நாட்டின் இருதரப்புச் சிக்கல். தம
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfmMfGwdLXdgAxWG4VTNW'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யார் பணிநீக்கம் செய்யப்பட்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfkpSFsfQesimv2LYTtz2'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfkpUys5oVb3hiMEHkcDw'}
-[skip] உலகச் செய்தி — உகாண்டா/கெனியா எபোலா வெளிப்பாடு. தமிழ்நாட்டு 
-[skip] நைஜেரியாவின் உள்நாட்டு விபத்து — தமிழ்நாடு அல்லது இந்தியாவுட
-[skip] உலகச் செய்தி என்றாலும் தமிழ்நாடு/இந்திய வாசகருக்கான நாளிதழின
-[skip] வெளிநாட்டு உள்ளூர் சுகாதாரச் செய்தி. கென்யா ஈபோலா வழக்கு தமி
-[publish] அரியலூரில் கழிவறைத் தொட்டி சுத்தம் செய்யும்போது மூவர் பலி, குடும்பத்தினர் போராட்டம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, கனிமொழியின் கருத்து குறித்
-[image] களஞ்சியம் (3 சொல்): திண்டுக்கலில் திமுக பிரமுகர் கொலை 
-[publish] திண்டுக்கலில் திமுக பிரமுகர் கொலை வழக்கு குற்றவாளி வெட்டிக் கொலை
-[skip] மூலத்தில் ஒரே ஒரு வரி மட்டும் உள்ளது — சர்ச்சை என்ன, வீடியோவ
-[skip] மூலச் செய்தியில் போதிய விவரங்கள் இல்லை - போராட்டத்தின் காரணம
-[image] களஞ்சியம் (3 சொல்): இந்திய வங்கிகளுக்கு கடன் வளர்ச்சி 
-[publish] இந்திய வங்கிகளுக்கு கடன் வளர்ச்சி ஆறுதல், ஆனால் லாப வரம்பு சுருக்கம்
-[தரம்] தமிழ் அல்லாத எழுத்து: নরર → ஒரு திருத்தம்
-[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் ஐபிஓ: பதினொரு லட்சம் கோடி மதிப்பீடு எதிர்பார்ப்பு
-[skip] இது பங்குச் சந்தை ஊகம் மற்றும் முதலீட்டு ஆலோசனை கட்டுரை; ரிச
-[திருத்தம்] ரூபாய் மதிப்பு இரண்டு மாத கடைந்த நிலைக்க → ரூபாய் மதிப்பு இரண்டு மாத கடைந்த நிலைக்க
-[publish] ரூபாய் மதிப்பு இரண்டு மாத கடைந்த நிலைக்கு சரிவு, இந்திய ரிசர்வ் வங்கி தலையீடு எதிர்பார்ப்பு
-[filler] health கட்டுரை
+[skip] மங்கேர் (பீகார்) மற்றும் அலிகார் (உத்தரப் பிரதேசம்) ஆகிய பிற
+[திருத்தம்] ஐந்து சட்டமன்றத் தொகுதிகளுக்கு இடைத்தேர் → ஐந்து சட்டமன்றத் தொகுதிகளுக்கு இடைத்தேர்
+[publish] ஐந்து சட்டமன்றத் தொகுதிகளுக்கு இடைத்தேர்தல், மதுரைப்பட்டினத்தில் அதிக வாக்குப்பதிவு
+[publish] தேர்தல் ஆணையத்திற்கு எதிராக ராகுல் காந்தி தலைமையில் நாள் முழுவதும் போராட்டம்
+[skip] இது கர்நாடகா மைசூரு நகராட்சியின் உள்ளூர் குறைதீர்க்கும் கூட்
+[skip] கர்நாடகா மாநிலத்தின் பெங்களூரு காவல் ஆணையர் அமைப்பு மறுசீரமை
+[skip] This is a religious/spiritual opinion article about 'selfles
+[skip] பிहार் மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு நோட்டீஸ். தமிழ்நாடு 
+[தரம்] தமிழ் அல்லாத எழுத்து: শ → ஒரு திருத்தம்
+[publish] சுகாதாரச் சவால்களை எதிர்கொள்ள மருத்துவ மாநாடு
+[skip] வெளிநாட்டுத் தொலைக்காட்சி ஆங்கிலத் தொடரின் விமர்சனம். தமிழ்ந
+[skip] பிற நாட்டின் உள்நாட்டுத் தொடர் — இந்தியாவுக்கும் நিউசிலாந்து
+[skip] வெளிநாட்டு (পশ্চিমবঙ্গ) உপনির্বাচন; தமிழ்நாட்டுக்கு நேரடித் 
+[skip] விரிவான மருத்துவ/அறிவியல் கட்டுரை; தமிழ்நாட்டு வாசகர்களுக்கு
+[skip] மலയாளத் திரையுலக நிகழ்வு — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இ
+[filler] tech கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13297 · சென்செக்ஸ் 73068
+[market] தங்கம் 22K ₹13331 · சென்செக்ஸ் 73068
 [weather] புதுப்பிக்கப்பட்டது
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 9
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 6

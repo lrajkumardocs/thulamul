@@ -1,5 +1,420 @@
 [
  {
+  "id": "art_tech_20261006",
+  "headline": "அன்றாடத் தொழில்நுட்பத்தில் பாதுகாப்பு: அறிந்திருக்க வேண்டிய அடிப்படைகள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது பின்கோடு அல்லது OTP ஐ யாருடனும் பகிர வேண்டாம்.",
+   "ஆதார் எண்ணை பயன்படுத்தும் முன் அதிகாரப்பூர்வ UIDAI இணையதளத்தில் மட்டுமே சரிபார்க்கவும்.",
+   "தெரியாத இணைப்புகளை கிளிக் செய்வதைத் தவிர்த்து, சந்தேகத்திற்குரிய மெசேஜ்களை புறக்கணிக்கவும்.",
+   "மொபைல் அமைப்புகளில் ஆப் அனுமதிகளை தொடர்ந்து பரிசோதித்து தேவையற்றவற்றை நீக்கவும்.",
+   "இரண்டு-படி சரிபார்ப்பை (2FA) அனைத்து முக்கிய கணக்குகளிலும் இயக்கி வைப்பது பாதுகாப்பை அதிகரிக்கும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை பெரிய மோசடியை தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-06"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-06T22:46+05:30",
+  "created_ts": 1791306995.227187,
+  "audio": "data/audio/art_tech_20261006.mp3"
+ },
+ {
+  "headline": "சுகாதாரச் சவால்களை எதிர்கொள்ள மருத்துவ மாநாடு",
+  "lines": [
+   "நான்கு நாள் மாநாடு எழுகிற தொழில்நுட்பம், தொற்று நோய்கள், மருத்துவ ஆய்வு, சுகாதார சேவை ஆகியவை பற்றி விவாதிக்கும்.",
+   "முதன்முறையாக மருத்துவக் கண்டுபிடிப்புகள் மக்கள் அளவில் எவ்வாறு பயன்படுத்த முடியும் என்பதை கவனம் செலுத்துகிறது.",
+   "தேசிய மற்றும் சர்வதேச மருத்துவ வல்லுநர்கள் பங்கேற்பார்கள்.",
+   "கொரோனா, புற்றுநோய், நீரிழிவு போன்ற நீண்டகால நோய்களையும் தீர்க்கமாக நோக்கிக் கொள்ளும் முறைகளையும் ஆராயப்படும்.",
+   "இந்த மாநாடு சுகாதாரக் கொள்கை வகுப்பவர்களுக்கு புதிய கண்ணோட்டம் அளிக்க உதவும்."
+  ],
+  "closing": "இந்த மாநாடு சுகாதாரப் பணியாளர்களுக்கு அவர்கள் அறிந்திராத புதிய முறைகளைச் சொல்லிக் கொடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "மருத்துவ மாநாடு",
+   "தொற்று நோய்கள்",
+   "மருத்துவ ஆய்வு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Medical conference to address emerging healthcare challenges",
+   "lines": [
+    "A four-day conference will discuss emerging technologies, infectious diseases, medical research and healthcare delivery.",
+    "For the first time, it focuses on how medical discoveries can be applied at the population level.",
+    "National and international medical experts will participate.",
+    "Chronic diseases like COVID-19, cancer and diabetes, and integrated approaches to address them, will be examined.",
+    "The conference will provide new perspectives for policymakers in healthcare."
+   ],
+   "closing": "The conference will introduce health workers to new methods they may not be familiar with."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "b3dd034b782d",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-06T22:46+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/medical-conference-to-focus-on-emerging-healthcare-challenges/article71550806.ece"
+  ],
+  "image": {
+   "url": "data/bank/health01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/b3dd034b782d.mp3",
+  "created_ts": 1791306967.90528,
+  "status": "published"
+ },
+ {
+  "headline": "தேர்தல் ஆணையத்திற்கு எதிராக ராகுல் காந்தி தலைமையில் நாள் முழுவதும் போராட்டம்",
+  "lines": [
+   "தேர்தல் ஆணையத்திற்கு எதிராக எதிர்க்கட்சிகள் நடத்திய அணிவகுப்பை காவல்துறை கலைத்த பின்னர், எதிர்க்கட்சித் தலைவர் ராகுல் காந்தி புதுடெல்லியில் தொடர் போராட்டத்தை நடத்தினார்.",
+   "தேசிய தலைநகரில் உள்ள வானொலி நிலையமான ஆகாஷ்வாணி பவன் வளாகத்தை மையமாகக் கொண்டு இந்தப் போராட்டம் நாள் முழுவதும் நடைபெற்றது.",
+   "சூரிய அஸ்தமனத்திற்குப் பிறகும் இந்த அமர்வுப் போராட்டம் தொடர்ந்தது என்று செய்திகள் தெரிவிக்கின்றன.",
+   "தேர்தல் ஆணையத்தின் செயல்பாடுகள் குறித்து எதிர்க்கட்சிகள் நீண்ட காலமாக கேள்விகளை எழுப்பி வருகின்றன.",
+   "காவல்துறை நடவடிக்கை மற்றும் போராட்டத்தின் அடுத்த கட்டம் குறித்து இதுவரை அதிகாரப்பூர்வ அறிவிப்பு வெளியாகவில்லை."
+  ],
+  "closing": "தேர்தல் ஆணையத்திற்கு எதிரான இந்தப் போராட்டம் நாடு முழுவதும் தேர்தல் நடைமுறை பற்றிய விவாதங்களுடன் தொடர்புடையது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "ராகுல் காந்தி",
+   "தேர்தல் ஆணையம்",
+   "ஆகாஷ்வாணி பவன்",
+   "புதுடெல்லி",
+   "காங்கிரஸ்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Rahul Gandhi leads daylong sit-in protest against Election Commission",
+   "lines": [
+    "After police broke up an Opposition march against the Election Commission, Leader of Opposition Rahul Gandhi led a continued protest in New Delhi.",
+    "The protest was centred at the Akashvani Bhawan campus, home to All India Radio, and lasted the entire day.",
+    "Reports indicate the sit-in continued well past sunset.",
+    "Opposition parties have long raised questions over the functioning of the Election Commission.",
+    "No official statement has yet been issued on police action or the next steps of the protest."
+   ],
+   "closing": "The protest against the Election Commission is linked to ongoing nationwide debates over electoral rolls."
+  },
+  "front_cat": "strike_protest",
+  "image_query": "Rahul Gandhi",
+  "wiki_subject": "Rahul Gandhi",
+  "person_en": "Rahul Gandhi",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "32ac53c4e5bc",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-06T22:45+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/the-protest-that-wouldnt-end-inside-rahul-gandhis-daylong-siege-of-akashvani-bhawan/article71552793.ece",
+   "https://www.thehindu.com/news/national/the-protest-that-wouldnt-end-inside-rahul-gandhis-daylong-siege-of-akashvani-bhawan/article71552793.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Rahul_Gandhi.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Rahul Gandhi",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Rahul_Gandhi",
+   "symbolic": false
+  },
+  "audio": "data/audio/32ac53c4e5bc.mp3",
+  "created_ts": 1791306924.5621386,
+  "status": "published"
+ },
+ {
+  "headline": "ஐந்து சட்டமன்றத் தொகுதிகளுக்கு இடைத்தேர்தல், மதுரைப்பட்டினத்தில் அதிக வாக்குப்பதிவு",
+  "lines": [
+   "இந்தியாவில் ஐந்து சட்டமன்றத் தொகுதிகளுக்கும் ஒரு மக்களவைத் தொகுதிக்கும் இடைத்தேர்தல் நடைபெற்றது.",
+   "தமிழ்நாட்டின் மதுரைப்பட்டினம் தொகுதியில் எண்பத்தாறு சதவீத வாக்குப்பதிவு நடந்தது, இது அனைத்துத் தொகுதிகளிலும் அதிகபட்சமாக உள்ளது.",
+   "மேற்கு வங்க மாநிலத்தின் தேர்தல் ஆணையர்க்கு வாக்குப்பதிவு நாளன்று தொண்ணூற்றேழு அதிகாரப்பூர்வப் புகார்கள் வந்ததாகத் தெரிவிக்கப்பட்டது.",
+   "வாக்காளர்களை மிரட்டியது, வாக்குச் சாவடிகளைக் கைப்பற்றியது போன்ற குற்றச்சாட்டுகளை முன்வைத்து, மேற்கு வங்க இடைத்தேர்தலை ரத்து செய்யக் காங்கிரஸ் கட்சி கோரிக்கை விடுத்துள்ளது.",
+   "தேர்தல் ஆணையம் இந்தப் புகார்களை ஆய்வு செய்து தொடர் நடவடிக்கையை அறிவிக்கும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "காலியான சட்டமன்ற மற்றும் மக்களவைத் தொகுதிகளை நிரப்ப பல்வேறு மாநிலங்களில் இத்தகைய இடைத்தேர்தல் நடத்தப்படுவது வழக்கமான நடைமுறையாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "மதுராந்தகம்",
+   "மேற்கு வங்கம்",
+   "காங்கிரஸ்",
+   "தேர்தல் ஆணையம்",
+   "மக்களவை"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "By-polls held in five assembly seats, Madurantakam records highest turnout",
+   "lines": [
+    "By-elections were held in five Assembly constituencies and one Lok Sabha seat across India, including Madurantakam in Tamil Nadu.",
+    "Madurantakam in Tamil Nadu recorded the highest voter turnout among all seats at 86 percent.",
+    "The West Bengal Chief Electoral Officer received 97 official complaints on the day of polling.",
+    "Citing allegations of voter intimidation and booth capturing, the Congress party has demanded cancellation of the West Bengal by-polls.",
+    "The Election Commission is expected to examine these complaints and announce follow-up action."
+   ]
+  },
+  "id": "5e072705d52b",
+  "flags": [],
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-06T22:44+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/bypolls-held-in-five-assembly-seats-one-lok-sabha-constituency/article71552494.ece",
+   "https://www.thehindu.com/news/national/bypolls-held-in-five-assembly-seats-one-lok-sabha-constituency/article71552494.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Seal_of_Tamil_Nadu.svg/960px-Seal_of_Tamil_Nadu.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Tamil Nadu Legislative Assembly",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Tamil_Nadu_Legislative_Assembly",
+   "symbolic": false
+  },
+  "audio": "data/audio/5e072705d52b.mp3",
+  "created_ts": 1791306884.6175334,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "விழுப்புரம் மாவட்டத்தில் உள்கட்டமைப்புத் தேவை மதிப்பீடு அக்டோபர் 7 முதல்",
+  "lines": [
+   "விழுப்புரம் மாவட்டத்தில் உள்கட்டமைப்புத் தேவைகள் தொடர்பான மதிப்பீடு அக்டோபர் 7 முதல் தொடங்கும் என மாவட்ட நிர்வாகம் அறிவித்துள்ளது.",
+   "இந்த மதிப்பீட்டுப் பணி மாவட்டம் முழுவதும் நடைபெறும் என அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "மாவட்ட நிர்வாகம் இது தொடர்பாக அறிவிப்பு வெளியிட்டுள்ளது.",
+   "அடிப்படை வசதிகள் குறித்த தேவைகளை அறிந்து, வளர்ச்சித் திட்டங்களை வகுக்கும் நோக்கில் இந்த மதிப்பீடு மேற்கொள்ளப்படுகிறது.",
+   "மதிப்பீட்டு முடிவுகளின் அடிப்படையில் அடுத்த கட்ட நடவடிக்கைகள் மேற்கொள்ளப்படும் என அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "உள்கட்டமைப்புத் தேவைகள் தொடர்பான இந்த மதிப்பீடு மாவட்ட அளவிலான வளர்ச்சித் திட்டமிடலுக்கு அடிப்படையாக அமையும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "விழுப்புரம் மாவட்டம்",
+   "மாவட்ட நிர்வாகம்",
+   "உள்கட்டமைப்பு மதிப்பீடு"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Villupuram infrastructure needs assessment to begin from October 7",
+   "lines": [
+    "An assessment of infrastructure requirements in Villupuram district will begin from October 7, the district administration has announced.",
+    "The assessment work will be carried out across the entire district, officials said.",
+    "The district administration has issued an announcement regarding this exercise.",
+    "The assessment is being conducted to identify basic amenity needs and to help plan future development projects.",
+    "Further action will be taken based on the findings of the assessment, officials stated."
+   ],
+   "closing": "The infrastructure needs assessment is expected to form the basis for district-level development planning."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "district infrastructure assessment india",
+  "wiki_subject": "Villupuram district",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c49966c4f0da",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-06T22:39+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/assessment-of-infrastructure-requirements-in-villupuram-to-be-held-from-october-7/article71551262.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Kalyana_Mahal_from_Rajagiri.jpg/3840px-Kalyana_Mahal_from_Rajagiri.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Viluppuram district",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Viluppuram_district",
+   "symbolic": false
+  },
+  "audio": "data/audio/c49966c4f0da.mp3",
+  "created_ts": 1791306586.5706375,
+  "status": "published"
+ },
+ {
+  "headline": "டிஎன்பிஎஸ்சி குரூப் 4 தேர்வு அறிவிப்பு, குரூப் 1 விடைக்குறிப்பு வெளியீடு",
+  "lines": [
+   "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையம் குரூப் 4 பணியிடங்களுக்கான தேர்வு அறிவிப்பை வெளியிட்டுள்ளது.",
+   "அதே வேளையில் குரூப் 1 தேர்வுக்கான உத்தேச விடைக்குறிப்பையும் ஆணையம் வெளியிட்டுள்ளது.",
+   "விண்ணப்பதாரர்கள் ஆணையத்தின் அதிகாரப்பூர்வ இணையதளத்தில் முழு விவரங்களைப் பார்க்கலாம் என்று தெரிவிக்கப்பட்டுள்ளது.",
+   "குரூப் 1 விடைக்குறிப்பு தொடர்பாக ஆட்சேபனை இருந்தால் குறிப்பிட்ட காலக்கெடுவுக்குள் தெரிவிக்குமாறு வேட்பாளர்களுக்குக் கேட்டுக்கொள்ளப்பட்டுள்ளது.",
+   "குரூப் 4 தேர்வுக்கான விண்ணப்ப நடைமுறை மற்றும் தகுதி விவரங்களை இணையதளத்தில் பார்க்குமாறு ஆணையம் அறிவித்துள்ளது."
+  ],
+  "closing": "இரு அறிவிப்புகள் தொடர்பான முழு விவரங்களையும் டிஎன்பிஎஸ்சியின் அதிகாரப்பூர்வ இணையதளத்தில் வேட்பாளர்கள் பெறலாம்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "டிஎன்பிஎஸ்சி",
+   "குரூப் 4",
+   "குரூப் 1",
+   "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையம்"
+  ],
+  "id": "d4cc604e96b7",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-10-06T22:38+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/06/tnpsc-group-4-exam-notification-released-are-you-ready-to-apply",
+   "https://www.dinamani.com/tamilnadu/2026/Oct/06/tentative-answer-key-released-for-the-tnpsc-group-1-exam-tn"
+  ],
+  "image": {
+   "url": "data/bank/jobs02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d4cc604e96b7.mp3",
+  "created_ts": 1791306523.5454922,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "13 வயது சிறுவனுக்குப் பாலியல் தொல்லை, ஆசிரியர் கைது",
+  "lines": [
+   "தமிழ்நாட்டில் ஒரு ஆசிரியர் பதின்மூன்று வயது சிறுவனுக்குப் பாலியல் ரீதியான தொல்லை கொடுத்த குற்றச்சாட்டில் கைது செய்யப்பட்டுள்ளார்.",
+   "சிறார் பாதுகாப்புச் சட்டமான பாக்ஸோ சட்டத்தின் கீழ் இந்தக் கைது நடவடிக்கை மேற்கொள்ளப்பட்டது.",
+   "காவல்துறையினர் குற்றச்சாட்டின் அடிப்படையில் வழக்குப் பதிவு செய்து விசாரணையைத் தொடங்கியுள்ளனர்.",
+   "பாதிக்கப்பட்ட சிறுவனின் அடையாளத்தைப் பாதுகாக்கும் வகையில் மேலதிக விவரங்கள் வெளியிடப்படவில்லை.",
+   "வழக்கு தொடர்பான முழு விசாரணை நடைபெற்று வருவதாகக் காவல்துறை தெரிவித்துள்ளது."
+  ],
+  "closing": "வழக்கின் முழு விவரங்கள் விசாரணை முடிந்த பின் வெளிவரும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ஆசிரியர்",
+   "சிறுவன்",
+   "பாக்ஸோ சட்டம்",
+   "காவல் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Teacher arrested for sexually harassing 13-year-old boy",
+   "lines": [
+    "A teacher in Tamil Nadu has been arrested on charges of sexually harassing a thirteen-year-old boy.",
+    "The arrest was made under the POCSO Act, the law protecting children from sexual offences.",
+    "Police have registered a case based on the complaint and begun their investigation.",
+    "No further details have been released in order to protect the identity of the victim.",
+    "Police said a full investigation into the case is currently underway."
+   ],
+   "closing": "Complete details of the case are expected to emerge once the investigation concludes"
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "Protection of Children from Sexual Offences Act, 2012",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "0c347a5b8400",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-06T22:34+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/teacher-arrested-under-pocso-act-for-sexually-harassing-a-13-year-old-boy/article71551583.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/960px-Emblem_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Protection of Children from Sexual Offences Act, 2012",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Protection_of_Children_from_Sexual_Offences_Act%2C_2012",
+   "symbolic": false
+  },
+  "audio": "data/audio/0c347a5b8400.mp3",
+  "created_ts": 1791306248.812738,
+  "status": "published"
+ },
+ {
   "id": "art_health_20261006",
   "headline": "பருவமாற்றத்தில் உடல்நலம் காக்க எளிய வழிகள்",
   "lines": [
@@ -18628,444 +19043,6 @@
   },
   "audio": "data/audio/679c3e5e09be.mp3",
   "created_ts": 1790712387.313666,
-  "status": "published"
- },
- {
-  "headline": "இடைத்தேர்தல் செலவு வசூல் மனு தள்ளுபடி, வழக்கறிஞருக்கு ₹1 லட்சம் அபராதம்",
-  "lines": [
-   "ராஜினாமா செய்த சட்டமன்ற உறுப்பினர்களிடமிருந்து இடைத்தேர்தல் செலவை வசூலிக்கக் கோரி ஒரு வழக்கறிஞர் தாக்கல் செய்த மனுவை சென்னை உயர்நீதிமன்றம் தள்ளுபடி செய்தது.",
-   "இந்த மனுவைத் தாக்கல் செய்த வழக்கறிஞர் மீது நீதிமன்றம் ₹1 லட்சம் அபராதம் விதித்தது.",
-   "தலைமை நீதிபதி சுஸ்ருத் அரவிந்த் தர்மாதிகாரி மற்றும் நீதிபதி ஜி. அருள் முருகன் அடங்கிய அமர்வு, இந்த மனு பிரபலத்திற்காகவே தாக்கல் செய்யப்பட்டதாகக் குறிப்பிட்டது.",
-   "இதே போன்ற ஒரு மனுவை கடந்த வாரமே தகுதிக்கேற்ப தள்ளுபடி செய்திருந்ததாக நீதிபதிகள் நினைவுகூர்ந்தனர்.",
-   "இந்த உத்தரவை நீதிமன்றம் பதிவு செய்துள்ளது, மேல்முறையீடு குறித்து எந்த அறிவிப்பும் இதுவரை இல்லை."
-  ],
-  "closing": "இதே கோரிக்கையுடன் தாக்கல் செய்யப்பட்ட மனுக்கள் இதற்கு முன்னும் நீதிமன்றத்தால் தள்ளுபடி செய்யப்பட்டுள்ளன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர் நீதிமன்றம்",
-   "தலைமை நீதிபதி சுஸ்ருத் அரவிந்த் தர்மாதிகாரி",
-   "நீதிபதி ஜி.அருள் முருகன்",
-   "இடைத்தேர்தல் செலவு"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Madras HC dismisses bypoll cost recovery plea, fines lawyer one lakh",
-   "lines": [
-    "The Madras High Court dismissed a petition filed by a lawyer seeking to recover bypoll expenses from resigned MLAs.",
-    "The court imposed a cost of one lakh rupees on the lawyer who filed the petition.",
-    "A bench of Chief Justice Sushrut Arvind Dharmadhikari and Justice G. Arul Murugan said the plea was filed purely for publicity.",
-    "The judges noted that a similar petition had been dismissed on merits just last week.",
-    "The order has been recorded by the court, with no mention so far of any appeal."
-   ],
-   "closing": "Similar petitions with the same demand have previously been dismissed by the court."
-  },
-  "front_cat": "routine",
-  "image_query": "Madras High Court",
-  "wiki_subject": "Madras High Court",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "2109275360d5",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-09-30T01:11+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-imposes-1-lakh-cost-on-lawyer-who-sought-to-recover-bypoll-expenses-from-resigned-mlas/article71522623.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/2109275360d5.mp3",
-  "created_ts": 1790710879.1532393,
-  "status": "published"
- },
- {
-  "headline": "அதிமுக-திமுக கூட்டணி பேச்சுக்கு மக்களே பதில் சொல்வர் என அமைச்சர் ராஜ்மோகன்",
-  "lines": [
-   "அதிமுக, திமுக இடையே கூட்டணி ஏற்படலாம் என்ற ஊகங்களுக்கு மக்களே பதில் அளிப்பார்கள் என அமைச்சர் ராஜ்மோகன் தெரிவித்தார்.",
-   "தமிழக வெற்றிக் கழகத்தின் இடைத்தேர்தல் பிரச்சாரம் குறித்தும் அவர் கருத்து தெரிவித்தார்.",
-   "தவெகவின் பிரச்சாரத்தை அமைச்சர் ராஜ்மோகன் ஆதரித்துப் பேசியதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "கூட்டணி குறித்த ஊகங்கள் அரசியல் வட்டாரங்களில் தொடர்ந்து பேசப்பட்டு வருகின்றன.",
-   "இது தொடர்பான மேலும் தெளிவான விவரங்கள் இதுவரை வெளியிடப்படவில்லை."
-  ],
-  "closing": "இடைத்தேர்தல் நெருங்கும் நிலையில் கூட்டணி பேச்சு மேலும் எப்படி வளர்கிறது என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "அதிமுக",
-   "திமுக",
-   "தமிழக வெற்றிக் கழகம்",
-   "ராஜ்மோகன்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "People will decide on AIADMK-DMK alliance talk, says Minister",
-   "lines": [
-    "Minister Rajmohan said people will decide on speculation about an AIADMK-DMK alliance.",
-    "He also spoke about the Tamilaga Vettri Kazhagam's bypoll campaign.",
-    "The minister reportedly defended the TVK's campaign in the by-election.",
-    "Speculation about the alliance continues to circulate in political circles.",
-    "No further clear details on the matter have been released so far."
-   ],
-   "closing": "As the by-election approaches, how the alliance speculation develops further remains to be watched."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "04598207bb04",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-30T01:09+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/people-will-decide-on-aiadmk-dmk-alliance-speculation-says-minister/article71524051.ece"
-  ],
-  "image": {
-   "url": "data/bank/politics07.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/04598207bb04.mp3",
-  "created_ts": 1790710743.9887133,
-  "status": "published"
- },
- {
-  "headline": "சென்னை சேட்பெட்டில் ஐந்து பிரமுகர்களுக்கு நினைவகம் அமைக்கத் திட்டம்",
-  "lines": [
-   "சென்னை சேட்பெட்டில் உள்ள பல்கலைக்கழக யூனியன் மைதானத்தில் ஐந்து முக்கியப் பிரமுகர்களுக்கு நினைவக வளாகம் அமைக்கத் தமிழ்நாடு அரசு திட்டமிட்டுள்ளது.",
-   "இந்த மைதானம் மதுரைப் பல்கலைக்கழகத்திற்குச் சொந்தமானது, அதன் ஒரு பகுதியில் இந்த நினைவகம் கட்டப்படும் என அரசு தெரிவித்துள்ளது.",
-   "இத்திட்டத்திற்கு எதிர்ப்புத் தெரிவித்துள்ள உடற்பயிற்சி ஆசிரியர்கள், மைதானம் விளையாட்டுப் பயன்பாட்டிற்காகவே பாதுகாக்கப்பட வேண்டும் என வலியுறுத்துகின்றனர்.",
-   "மாணவர்களும் விளையாட்டு வீரர்களும் பயன்படுத்தி வரும் இம்மைதானத்தில் கட்டுமானம் மேற்கொண்டால் விளையாட்டு நடவடிக்கைகள் பாதிக்கப்படும் என அவர்கள் கருத்து தெரிவிக்கின்றனர்.",
-   "இந்த எதிர்ப்பையடுத்து அரசு இறுதி முடிவு என்ன எடுக்கும் என்பது இன்னும் தெரியவில்லை."
-  ],
-  "closing": "பல்கலைக்கழக யூனியன் மைதானம் நீண்டகாலமாக மாணவர்கள் மற்றும் விளையாட்டு வீரர்களின் பயிற்சிக்குப் பயன்பட்டு வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "சென்னை",
-   "செட்பட்",
-   "சென்னைப் பல்கலைக்கழகம்",
-   "தமிழ்நாடு அரசு",
-   "யூனியன் மைதானம்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "TN plans memorial for five icons on Chennai's Chetpet ground",
-   "lines": [
-    "The Tamil Nadu government has proposed building a memorial complex for five prominent icons on the University Union Grounds at Chetpet in Chennai.",
-    "The government has stated that the memorial will be built on a portion of the ground, which belongs to the University of Madras.",
-    "Physical education teachers who have objected to the plan insist that the ground should be preserved solely for sporting use.",
-    "They say that construction on the ground, which is regularly used by students and sportspersons, will disrupt sports activities.",
-    "It remains unclear what final decision the government will take following the objections."
-   ],
-   "closing": "The University Union Grounds has long served as a training space for students and sportspersons."
-  },
-  "front_cat": "routine",
-  "image_query": "sports ground Chennai",
-  "wiki_subject": "University of Madras",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "a6b8d50d0d77",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-30T01:08+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/tn-government-proposes-memorial-for-5-icons-on-university-union-grounds-at-chepet-in-chennai-sports-teachers-object/article71525294.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2e/Madras_University_Seal.svg/330px-Madras_University_Seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · University of Madras",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/University_of_Madras",
-   "symbolic": false
-  },
-  "audio": "data/audio/a6b8d50d0d77.mp3",
-  "created_ts": 1790710693.1533983,
-  "status": "published"
- },
- {
-  "headline": "மதுராந்தகம் வாக்காளர்களுக்கு நயினார் நாகேந்திரன் எச்சரிக்கை",
-  "lines": [
-   "பாஜக மூத்த தலைவர் நயினார் நாகேந்திரன், மதுராந்தகம் தொகுதி வாக்காளர்களிடம் பேசினார்.",
-   "வாக்குப் பதிவுக்கு முன் குதிரை வியாபாரம் பற்றி சிந்தித்து வாக்களிக்குமாறு அவர் கேட்டுக் கொண்டார்.",
-   "தேர்தலுக்குப் பின் தேர்ந்தெடுக்கப்பட்டவர்களை மற்றக் கட்சிகள் இழுத்துச் செல்லும் அபாயம் இருப்பதாக அவர் தெரிவித்தார்.",
-   "இந்தக் கருத்து மதுராந்தகம் தொகுதியில் நடைபெறும் தேர்தல் பிரச்சாரத்தின்போது வெளிவந்துள்ளது.",
-   "இது தொடர்பான மேலும் விவரங்கள் அடுத்த சில நாட்களில் வெளிவரும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "மதுராந்தகம் தொகுதியில் இந்த எச்சரிக்கை வாக்காளர்களிடையே என்ன தாக்கத்தை ஏற்படுத்தும் என்பது கவனிக்கப்பட வேண்டும்.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "நயினார் நாகேந்திரன்",
-   "மதுராந்தகம்",
-   "பாஜக",
-   "வாக்காளர்கள்"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Nagenthran Warns Madurantakam Voters Ahead of Election",
-   "lines": [
-    "Senior BJP leader Nainar Nagenthran addressed voters in the Madurantakam constituency.",
-    "He urged them to think about horse trading before casting their votes.",
-    "He said there was a risk of elected representatives being lured away by other parties after the election.",
-    "The remarks came during ongoing election campaigning in the Madurantakam constituency.",
-    "Further details on this matter are expected to emerge in the coming days."
-   ],
-   "closing": "It remains to be seen what impact this warning will have on voters in the Madurantakam constituency."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "Nainar Nagenthran",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "bd74955c3db2",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-09-30T01:07+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/nagenthran-urges-madurantakam-electorate-to-think-about-horse-trading-and-then-vote/article71525160.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/bd74955c3db2.mp3",
-  "created_ts": 1790710654.0873663,
-  "status": "published"
- },
- {
-  "headline": "ஒரு டாலருக்கு 96 ரூபாயைத் தாண்டிய இந்திய ரூபாய் மதிப்பு",
-  "lines": [
-   "கச்சா எண்ணெய் விலை உயர்வு மற்றும் அமெரிக்க டாலர் வலுப்பெற்றதால் இந்திய ரூபாயின் மதிப்பு கடுமையாகச் சரிந்தது.",
-   "ஜூலை மாதத்திற்குப் பிறகு முதல் முறையாக ஒரு டாலருக்கு 96 ரூபாய் என்ற எல்லையைத் தாண்டியது.",
-   "இந்திய ரிசர்வ் வங்கி தலையிட்டதால், ரூபாய் மீண்டு 95.98 என்ற மதிப்பில் வர்த்தகம் முடிந்தது.",
-   "வெளிநாட்டு அழுத்தங்கள் தொடர்வதால், நீண்ட காலத்தில் ரூபாய் மதிப்பு படிப்படியாகச் சரியக்கூடும் என பொருளாதார நிபுணர்கள் தெரிவித்தனர்.",
-   "கச்சா எண்ணெய் விலை மற்றும் டாலர் நகர்வுகளைப் பொருளாதாரவல்லுநர்கள் தொடர்ந்து கவனித்து வருகின்றனர்."
-  ],
-  "closing": "ரூபாய் மதிப்புச் சரிவு இறக்குமதிச் செலவுகளை உயர்த்தி, பொருட்களின் விலையில் தாக்கம் ஏற்படுத்தக்கூடும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": "2026-09-30"
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "இந்திய ரூபாய்",
-   "இந்திய ரிசர்வ் வங்கி",
-   "அமெரிக்க டாலர்",
-   "கச்சா எண்ணெய்"
-  ],
-  "confidence": 0.8,
-  "en": {
-   "headline": "Indian Rupee Breaches 96 Per Dollar Mark on Oil Surge",
-   "lines": [
-    "The Indian rupee fell sharply as surging crude oil prices and a firm dollar weighed heavily on the currency.",
-    "For the first time since July, the rupee breached the 96-per-dollar mark during trading.",
-    "The Reserve Bank of India intervened, helping the rupee recover to close at 95.98 against the dollar.",
-    "Economists said continued external pressures could lead to gradual depreciation of the rupee over the longer term.",
-    "Analysts are closely watching crude oil prices and dollar movements for further currency trends."
-   ],
-   "closing": "The rupee's slide could raise import costs and put pressure on domestic prices going forward."
-  },
-  "front_cat": "price_policy",
-  "image_query": "Indian rupee currency notes",
-  "wiki_subject": "Indian rupee",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "8679afe5e818",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-09-30T01:06+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-breaches-96-per-dollar-as-oil-surge-stokes-pressure-rbi-intervention-limits-fall/articleshow/134565213.cms"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Banknote_of_india.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Indian rupee",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Indian_rupee",
-   "symbolic": false
-  },
-  "audio": "data/audio/8679afe5e818.mp3",
-  "created_ts": 1790710579.818658,
-  "status": "published"
- },
- {
-  "headline": "காட்பாடி - திருப்பதி இரண்டாம் ரயில் பாதைக்கு நிலம் கையகப்படுத்த அரசாணை",
-  "lines": [
-   "காட்பாடி முதல் திருப்பதி வரையிலான ரயில் பாதையில் இரண்டாவது தண்டவாளம் அமைக்க தமிழ்நாடு அரசு அரசாணை வெளியிட்டது.",
-   "இந்தத் திட்டத்திற்குத் தேவையான நிலங்களைக் கையகப்படுத்த நடவடிக்கை தொடங்கப்பட்டுள்ளது.",
-   "புதிய பாதை அமைவதால் அந்த வழித்தடத்தில் ரயில் போக்குவரத்துத் திறன் அதிகரிக்கும் என அதிகாரிகள் தெரிவித்துள்ளனர்.",
-   "தற்போது இந்த வழித்தடத்தில் ஒரே தண்டவாளம் மட்டும் இயங்கி வருகிறது.",
-   "அரசாணையின் அடிப்படையில் தொடர்புடைய பகுதிகளில் நிலம் கையகப்படுத்தும் பணிகள் விரைவில் தொடங்கப்படும் என தெரிகிறது."
-  ],
-  "closing": "இந்தத் திட்டம் நிறைவடையும்போது காட்பாடி - திருப்பதி இடையேயான ரயில் இணைப்பு மேம்படும் என எதிர்பார்க்கப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "காட்பாடி",
-   "திருப்பதி",
-   "தமிழ்நாடு அரசு",
-   "ரானிப்பேட்டை",
-   "ரயில்வே"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Government order issued for land acquisition for second Katpadi Tirupati rail line",
-   "lines": [
-    "The Tamil Nadu government issued a government order to build a second railway track between Katpadi and Tirupati.",
-    "Land acquisition for the project has been initiated in the affected areas.",
-    "Officials said the new track will increase rail traffic capacity along this route.",
-    "Currently, only a single railway track operates on this route.",
-    "Based on the government order, land acquisition work in the concerned areas is expected to begin soon."
-   ],
-   "closing": "Once this project is completed, the rail connectivity between Katpadi and Tirupati is expected to improve."
-  },
-  "id": "32e614b48c97",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-09-30T01:02+05:30",
-  "links": [
-   "https://www.dinamani.com/all-editions/edition-vellore/2026/Sep/29/second-railway-line-between-katpadi-and-tirupati-government-order-issued-for-land-acquisition"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/3840px-Tirumala_090615.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Venkateswara Temple, Tirumala",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Venkateswara_Temple%2C_Tirumala",
-   "symbolic": false
-  },
-  "audio": "data/audio/32e614b48c97.mp3",
-  "created_ts": 1790710347.5164266,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ஐரிஷ் காஃபியும் சாஸி சாராவும் பெரிய பந்தயத்தில் மோதுகின்றன",
-  "lines": [
-   "குதிரைப் பந்தயத்தில் ஐரிஷ் காஃபி மற்றும் சாஸி சாரா குதிரைகள் வரவிருக்கும் பெரிய பந்தயத்தில் முதன்மை நிகழ்வாக வெகு விரைவில் பங்கேற்கும்.",
-   "இப்பந்தயம் குதிரைப் பந்தய ஆர்வலர்களிடையே முக்கிய கவனம் பெற்றுள்ளது.",
-   "இந்த இரு குதிரைகளும் தமக்கு முந்தைய பந்தயங்களில் வலுவான செயல்திறம் காட்டியுள்ளன.",
-   "பந்தய அதிகாரிகள் இந்நிகழ்வை ஆண்டின் சிறப்பு பந்தயங்களில் ஒன்றாகக் குறிப்பிட்டுள்ளனர்.",
-   "இந்தப் பந்தயம் வரவிருக்கும் வாரங்களில் நடைபெற இருப்பதாக அறிவிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "குதிரைப் பந்தய ஆர்வலர்கள் இந்தப் பெரிய மோதலுக்காக ஆவலுடன் காத்திருக்கின்றனர்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "ஐரிஷ் காஃபி (குதிரை)",
-   "சாஸி சாரா (குதிரை)",
-   "குதிரைப் பந்தயம்"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Irish Coffee and Sassy Sarah face off in major racing event",
-   "lines": [
-    "The racehorses Irish Coffee and Sassy Sarah will compete in an upcoming feature event, generating significant interest among horse racing enthusiasts.",
-    "This race has become a focal point of attention within the racing community.",
-    "Both horses have demonstrated strong performance in their previous racing outings.",
-    "Racing authorities have identified this event as one of the year's special racing spectacles.",
-    "The race is scheduled to take place in the coming weeks, according to official announcements."
-   ],
-   "closing": "Racing enthusiasts eagerly await this major showdown."
-  },
-  "front_cat": "routine",
-  "image_query": "horse racing",
-  "wiki_subject": "Horse racing",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "cab78c4f756f",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-09-30T00:50+05:30",
-  "links": [
-   "https://www.thehindu.com/sport/races/its-irish-coffee-vs-sassy-sarah-in-feature-event/article71524550.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/GGF_Race5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Horse racing",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Horse_racing",
-   "symbolic": false
-  },
-  "audio": "data/audio/cab78c4f756f.mp3",
-  "created_ts": 1790709609.0050461,
   "status": "published"
  }
 ]
