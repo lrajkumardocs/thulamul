@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] The Hindu TN: 29 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 13 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 26 புதியவை
+[fetch] The Hindu Tech: 27 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 18 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 27 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 20 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,51 +56,65 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff8ae9e34d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f870f081ed0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 729 → நிகழ்வுகள் 668
-[triage] 668 → 43 | காலி: govt:3, world:2, court:2, crime:2, health:2
-[skip] உக்ரைன்-ரஷ்யா போரில் வெளிநாடுகளுக்குள் நடக்கும் ராணுவ நடவடிக
-[skip] கென்யாவின் ஈபோலா வழக்கு தமிழ்நாடு/இந்தியா வாசகர்களைப் பிரயோজ
-[skip] அமெரிக்காவின் உள்ளூர் குற்றச் சம்பவம். தமிழ்நாடு / இந்தியா வ
-[skip] இலங்கைத் தகவல் — தமிழ்நாட்டுக்குப் பொருந்தாது. சிவராசா அனோஜன
-[skip] இலங்கைத் தேசிய அரசியல் — தமிழ்நாடு/இந்தியாக்கு நேரடித் தொடர்
-[skip] பிரான்ஸ் மாணவர் போராட்டம் — பிற நாட்டின் உள்நாட்டு பொலிஸ் நட
-[skip] இஸ்ரேல்-பாலஸ்தீன மோதல் பற்றிய செய்தி; தமிழ்நாட்டுக்கோ இந்திய
-[skip] Sri Lanka's internal political/legal matter. While the ex-fi
-[skip] வெளிநாட்டு அரசியல்/சட்ட விவகாரம் — தமிழ்நாடு அல்லது இந்தியாவ
-[skip] பிரான்சின் உள்ளூர் மாணவர் போராட்டம் — தமிழ்நாடு/இந்திய வாசகர
-[skip] ஜப்பான் ஒகினாவாவில் நடந்த கொலை வழக்கு அமெரிக்க இராணுவ வீரர் 
-[skip] மேற்கு வங்காள நந்திகிராம் இடைத்தேர்தல் வேட்பாளர் தொடர்பான உள
+[run] புதியவை 715 → நிகழ்வுகள் 658
+[triage] 658 → 55 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] தாமன் & தியூ சுகாதாரத் துறை மற்றும் ஆந்திராவின் ANGRAU நியமன
+[skip] பொதுவான கொள்கைப் பேசுதல் — குறிப்பிட்ட நிகழ்வு, திட்டம், அரச
+[skip] கன্னಡ സินിമാ സംബന്ധമായ ആഭ്യന്തര വിവരം - കർണാടക സിനിമാ ഇൻഡസ്ട
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (SA20) — தமிழ்நாட்டு/இந்திய விள
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; உண்மைகள், தேதி, மேற்கோள் ப
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: BESS policy and portal to be launched soon, says
-[skip] வெளிநாட்டுச் சுகாதாரச் செய்தி — தமிழ்நாடு அல்லது இந்தியாவுடன
-[திருத்தம்] ஜயசூர்யா, விநயകன் 'டைட்டன்ஸ்' திரைப்படத் → ஜயசூர்யா, விநயகன் 'டைட்டன்ஸ்' திரைப்படத்
-[tts-edge] fe1ef2ff88ee: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஜயசூர்யா, விநயகன் 'டைட்டன்ஸ்' திரைப்படத்தில் இணைந்தனர்
-[skip] ஆங்கிலேய கிரிக்கெட் வாரியத்தின் உள் கொள்கைப் பிரச்சினை — தமி
-[skip] பாங்களாதேশ் மாநிலத்தின் உள்நாட்டு அரசியல் விவகாரம். தமிழ்நாட
-[skip] குஜராத் மாநில வழக்கறிஞர் போராட்டம் பற்றிய கருத்துப் பகுப்பாய
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Boy who underwent treatment after suffering head
-[skip] வெளிநாட்டு மருத்துவ ஆணையின் பொதுவான வழிகாட்டல் — தமிழ்நாட்டு
-[skip] ரிச சாதா ஒரு இந்திய நடிகை; அவரது பயணக் காட்சி 'முசாஃபிரி' ஒர
-[திருத்தம்] தசரா யானைகளுக்கு பீரங்கிச் சத்தம் பழக்க  → தசரா யானைகளுக்குப் பீரங்கிச் சத்தம் பழக்
-[தரம்] தமிழ் அல்லாத எழுத்து: হ; மூலத்தில் இல்லாத எண்: 14 → ஒரு திருத்தம்
-[tts-edge] 2ac919cb26d2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தசரா யானைகளுக்குப் பீரங்கிச் சத்தம் பழக்க முதல் பயிற்சி
-[filler] tech கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13189 · சென்செக்ஸ் 72639
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfoVmatzHJfcdsxvfASKv'}
+[skip] இந்திய உள்நாட்டு அரசியல் நிகழ்வு — தமிழ்நாட்டு வாசகரைப் பாதி
+[image] களஞ்சியம் (4 சொல்): காவிரியில் பதினான்கு ஆண்டுகளில் இல
+[tts-edge] bb9f7a54651d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காவிரியில் பதினான்கு ஆண்டுகளில் இல்லாத குறைந்த நீர் வரத்து தமிழகத்திற்கு
+[image] களஞ்சியம் (2 சொல்): காவிரி நீர் ஒப்பந்தத்தை மறுபரிசீலன
+[tts-edge] 0d11ed6605f4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காவிரி நீர் ஒப்பந்தத்தை மறுபரிசீலனை செய்ய கர்நாடகா உத்தேசம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] மணல் கொள்ளை வழக்கில் அமலாக்கத் துறை தகவல → மணல் கொள்ளை வழக்கில் அமலாக்கத் துறை 2024
+[publish] மணல் கொள்ளை வழக்கில் அமலாக்கத் துறை 2024 தகவல் தொடர்பாக மதுரை உயர்நீதிமன்றக் கிளையில் மனு
+[publish] ஆடிட்டர் தவறால் தேர்தல் வெற்றி செல்லாதா? உயர்நீதிமன்றம் கேள்வி
+[திருத்தம்] ரூபாய் மதிப்பு குறைவாக உள்ளதாகவும் சரியா → ரூபாய் குறைவாக மதிப்பிடப்பட்டுள்ளது, சரி
+[publish] ரூபாய் குறைவாக மதிப்பிடப்பட்டுள்ளது, சரியான நிலைக்குக் கொண்டுவர ரிசர்வ் வங்கி உறுதி
+[skip] இஸ்ரேல்-பாலஸ்தீன் உள்நாட்டு அரசியல் — தமிழ்நாட்டு/இந்திய வாச
+[publish] இந்திய ரிசர்வ் வங்கி வட்டி விகிதம் ஐந்தரை சதவீதமாக உயர்வு
+[skip] கனடாவின் உள்நாட்டுக் கொள்கை; தமிழ்நாடு/இந்தியாவுக்கு நேரடித்
+[திருத்தம்] வட்டி உயர்வுக்குப் பின்னும் ரூபாய் மதிப் → வட்டி உயர்வுக்குப் பின்னும் ரூபாய் வரலாற
+[publish] வட்டி உயர்வுக்குப் பின்னும் ரூபாய் வரலாற்றுக் குறைந்த நிலைக்கு நெருங்கியது
+[skip] இஸ்ரায়েल் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகருக்கு ந
+[skip] வெளிநாட்டு உள்நாட்டுப் போராட்டம். தமிழ்நாடு/இந்தியாவுடன் நேர
+[skip] தலைப்பு மட்டுமே கிடைத்துள்ளது, செய்திக் கட்டுரையின் விரிவான 
+[skip] மூலச் செய்தியில் தலைப்பு மற்றும் உள்ளடக்கம் முரண்படுகிறது (ச
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தமிழ்நாட்டில் 25 துணை ஆய்வாளர் பயி
+[publish] தமிழ்நாட்டில் 25 துணை ஆய்வாளர் பயிற்சியாளர்கள் அணிவகுப்பு பூர்த்தி
+[திருத்தம்] ஆவின் மாதவரம் பால் பண்ணையில் புதிய ஆய்வக → ஆவின் மாதவரம் பால் பண்ணையில் புதிய ஆய்வக
+[publish] ஆவின் மாதவரம் பால் பண்ணையில் புதிய ஆய்வகம் திறந்தார் முதலமைச்சர் விஜய்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfoWZdo9CaQYMudSYxcCn'}
+[image] களஞ்சியம் (3 சொல்): எல் நினோ ஆண்டுகளில் தமிழ்நாட்டுக்க
+[publish] எல் நினோ ஆண்டுகளில் தமிழ்நாட்டுக்கு வேறுபட்ட மழை தாக்கம்
+[comic] கதை: குறவைக் கூத்தின் வசீகரம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.87) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.91) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-08.png · நாள் 29
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹13212 · சென்செக்ஸ் 72639
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 2
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
