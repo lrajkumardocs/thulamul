@@ -1,5 +1,169 @@
 [
  {
+  "id": "art_tech_20261007",
+  "headline": "UPI, ஆதார் பயன்பாட்டில் பாதுகாப்பு கடைபிடிக்க வேண்டிய அடிப்படை வழிமுறைகள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது உங்கள் UPI பின் எண்ணை யாருடனும் பகிரக்கூடாது.",
+   "பணம் பெறுவதற்கு UPI பின் தேவையில்லை, பணம் அனுப்புவதற்கு மட்டுமே அது பயன்படுத்தப்படுகிறது என்பதை நினைவில் கொள்ள வேண்டும்.",
+   "ஆதார் எண்ணை பகிரும்போது UIDAI வழங்கும் மாஸ்க்டு ஆதார் (Masked Aadhaar) வசதியைப் பயன்படுத்தலாம், இதில் முதல் எட்டு இலக்கங்கள் மறைக்கப்பட்டிருக்கும்.",
+   "அறியாத எண்களில் இருந்து வரும் அழைப்புகள் அல்லது செய்திகள் வழியாக OTP, பின் எண், கடவுச்சொல் போன்றவற்றைக் கேட்பது மோசடி முயற்சியாக இருக்கலாம் என்பதால் அவற்றை எந்த சூழலிலும் பகிரக்கூடாது.",
+   "மொபைல் போனில் தேவையற்ற செயலிகளுக்கு அளிக்கப்படும் அனுமதிகளை (permissions) அவ்வப்போது சரிபார்த்து, தேவையில்லாதவற்றை நீக்குவது தரவு பாதுகாப்பிற்கு உதவும்."
+  ],
+  "closing": "சிறு எச்சரிக்கை பெரும் இழப்பைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-07"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-07T20:24+05:30",
+  "created_ts": 1791384889.5626476,
+  "audio": "data/audio/art_tech_20261007.mp3"
+ },
+ {
+  "headline": "தசரா யானைகளுக்குப் பீரங்கிச் சத்தம் பழக்க முதல் பயிற்சி",
+  "lines": [
+   "மைசூரில் தசரா விழாவுக்குத் தயாரிப்பாக, பாம்பே ரெஜிமென்ட் யானைகள் பீரங்கிச் சத்தத்துக்குப் பழகவைக்க முதல் பயிற்சி நடத்தப்பட்டுள்ளது.",
+   "பல யானைகள் விழாவில் பங்குபெற இருக்கின்றன.",
+   "விழாவில் பயன்படும் பொருட்கள் மற்றும் ஒலி அதிர்வுகளுக்கு யானைகள் முன்கூட்டியே பழகிக்கொள்ள இந்தப் பயிற்சி வகையமைக்கப்பட்டுள்ளது.",
+   "மைசூர் வனவளம் மற்றும் பராமரிப்புத் துறை, பாம்பே ரெஜிமென்ட், மற்றும் உள்ளூர் நிபுணர்கள் இணைந்து யானைகளின் பாதுகாப்பு உறுதிசெய்தனர்.",
+   "இதிலிருந்து இரண்டாவது பயிற்சி மேலும் சில வாரங்களுக்குப் பிறகு நடக்க இருக்கிறது."
+  ],
+  "closing": "தசரா விழாவின் பாரம்பரியமான பகுதியான யானை ஊர்வலத்தில் பங்குபெற விழாவுக்கு முந்தைய நாட்களில் யானைகளை ஒதுக்கப்பட்ட சத்தத்துக்கும் செயல்பாடுகளுக்கும் பழகவைப்பது வழக்கம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "மைசூர்",
+   "தசரா விழா",
+   "பாம்பே ரெஜிமென்ட்",
+   "மைசூர் வன வளம் துறை"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Dasara elephants trained for cannon-firing drill in Mysore",
+   "lines": [
+    "Elephants of the Bomay Regiment underwent their first acclimatisation drill for cannon-firing in Mysore ahead of the Dasara festival celebrations.",
+    "Around 14 elephants are set to participate in the festival processions.",
+    "The training was designed to familiarise the animals with objects and sounds they will encounter during the festival events.",
+    "Forest and wildlife officials in Mysore, the Bomay Regiment, and expert handlers worked together to ensure the elephants' safety throughout the drill.",
+    "A second acclimatisation session is scheduled for a few weeks later."
+   ],
+   "closing": "It is customary to train elephants participating in the iconic Dasara procession to accustom them to sounds and activities in the days before the festival."
+  },
+  "front_cat": "routine",
+  "image_query": "Mysore Dasara elephants training",
+  "wiki_subject": "Mysore Dasara",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "2ac919cb26d2",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-07T20:24+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/karnataka/dasara-elephants-undergo-first-cannon-firing-acclimatisation-drill/article71556123.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mysore_Palace_Dussera_%2829633564994%29.jpg/3840px-Mysore_Palace_Dussera_%2829633564994%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Mysore Dasara",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Mysore_Dasara",
+   "symbolic": false
+  },
+  "audio": "data/audio/2ac919cb26d2.mp3",
+  "created_ts": 1791384875.9733355,
+  "status": "published"
+ },
+ {
+  "headline": "ஜயசூர்யா, விநயகன் 'டைட்டன்ஸ்' திரைப்படத்தில் இணைந்தனர்",
+  "lines": [
+   "ஜயசூர்யாவும் விநயகனும் 'ஆடு 3' க்குப் பிறகு 'டைட்டன்ஸ்' என்ற புதிய திரைப்படத்தில் மீண்டும் இணைந்துள்ளனர்.",
+   "பிரின்ஸ் ஜாய் இயக்கிய இப்படம் கற்பனைக் கதைத் தகவனமான நகையுண்டாக்கும் திரைப்படமாகும்.",
+   "ஜேம்ஸ் செபாஸ்டியன் எழுதிய திரைக்கதை முன்வைக்கப்பட்டுள்ளது.",
+   "பேபி ஜீன், நிஹால், சன்னி வெயின், இந்திரன்ஸ், சுரேஷ் கிருஷ்ணா ஆகியோரும் படத்தில் கலந்துள்ளனர்.",
+   "திரைப்படத்தின் டிரெய்லர் ஏற்கனவே வெளியாகியுள்ளது."
+  ],
+  "closing": "ஜயசூர்யா மற்றும் விநயகன் ஆகியோரது முந்தைய பணிப்பொருத்தம் வாசகர்களிடம் நல்ல வரவேற்பைப் பெற்றுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": "Cinema",
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "ஜயசூர்யா",
+   "விநயகன்",
+   "பிரின்ஸ் ஜாய்",
+   "ஜேம்ஸ் செபாஸ்டியன்",
+   "டைட்டன்ஸ்"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Jayasurya and Vinayakan reunite for fantasy film 'Titans'",
+   "lines": [
+    "Jayasurya and Vinayakan reunite for a new film titled 'Titans' after their collaboration in 'Aadu 3'.",
+    "Directed by Prince Joy, the film is a fantasy comedy with a lighthearted narrative.",
+    "The screenplay has been written by James Sebastian.",
+    "Baby Jean, Nihal, Sunny Wayne, Indrans, and Suresh Krishna also star in the film.",
+    "The trailer for the film has already been released."
+   ],
+   "closing": "The previous partnership between Jayasurya and Vinayakan has received good reception from audiences."
+  },
+  "front_cat": "routine",
+  "image_query": "Jayasurya actor",
+  "wiki_subject": "Jayasurya (actor)",
+  "person_en": "Jayasurya",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "fe1ef2ff88ee",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-10-07T20:23+05:30",
+  "links": [
+   "https://www.thehindu.com/entertainment/movies/titans-trailer-jayasurya-vinayakan-aadu-3-prince-joy-malayalam-movie/article71555548.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Jayasurya_in_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Jayasurya",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Jayasurya",
+   "symbolic": false
+  },
+  "audio": "data/audio/fe1ef2ff88ee.mp3",
+  "created_ts": 1791384814.1743925,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261007",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 11 · அரசு & தனியார்",
   "lines": [
