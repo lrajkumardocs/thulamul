@@ -1,5 +1,68 @@
 [
  {
+  "headline": "கேரளத் தலைமைச் செயலாளர் இரத்தக் குழாய் விரிவாக்கம் பற்றிய கூற்று மருத்துவ ஆய்வாளர்களிடையே விவாதத்தை எழுப்பியுள்ளது",
+  "lines": [
+   "கேரள முதல்வர் வி.டி.சதீசன் சமீபத்தில் ஒரு நிகழ்வில் தேவையற்ற இரத்தக் குழாய் விரிவாக்கம் தவிர்க்க வேண்டும் என்று கூறினார்.",
+   "பல இதயநோய் மருத்துவர்கள் இந்த பொதுமைப்படுத்தப்பட்ட கூற்றை எதிர்க்கின்றனர், அதேவேளை சிலர் தேவையற்ற சிகிச்சை நடைமுறை ஆகிவிட்டுள்ளது என்பதில் ஒப்புக்கொள்கின்றனர்.",
+   "எல்லா மருத்துவர்களும் அவசரநிலையில் இதய நோய் சந்தேகத்துடன் வரும் நோயாளி மருத்துவரை நம்பிக்கை இழக்கக் கூடாது என்பதில் ஒத்துக்கொள்கின்றனர்.",
+   "கேரள தலைப்பெயர்ச் இருப்பு இதயநோய் சிகிச்சை சபை, அவசரக் காலத்தில் தேவையற்ற சிகிச்சை பற்றிய மக்கள் அச்சம் உயிர் காக்கும் சிகிச்சையைத் தாமதப்படுத்தக் கூடாது என்று அறிவித்துள்ளது.",
+   "சுகாதாரப் பணிகளில் நம்பிக்கை வைத்து, தேவையான சிகிச்சையை நிராகரிக்காமல் செயல்படுவதன் முக்கியத்துவம் மருத்துவ உலகுக்குள் வலியுறுத்தப்பட்டுள்ளது."
+  ],
+  "closing": "தேவையற்ற சிகிச்சை குறைக்க வேண்டும் என்ற கருத்து சரியாக இருந்தாலும், அவசரக் கட்டாயத்தில் நோயாளிகள் மருத்துவ ஆலோசனையை நிராகரிக்கக் கூடாது என்பது மருத்துவ சமூகத்தின் முதன்மைக் கவலையாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "கேரள",
+   "வி.டி.சதீசன்",
+   "கேரள தலைப்பெயர்ச் இருப்பு இதயநோய் சிகிச்சை சபை",
+   "இரத்தக் குழாய் விரிவாக்கம்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Kerala CM's angioplasty statement sparks debate among cardiologists",
+   "lines": [
+    "Kerala Chief Minister V.D. Satheesan recently stated at an event that unnecessary angioplasty should be avoided.",
+    "While many cardiologists object to this generalized statement, some agree that unnecessary procedures have become routine practice.",
+    "All doctors agree that patients suspected of a heart attack in emergency situations should not lose trust in their physicians.",
+    "The Interventional Cardiology Council of Kerala has cautioned that public apprehension about unnecessary procedures should not delay life-saving treatment during emergencies.",
+    "The medical community emphasizes the importance of patients accepting necessary treatment rather than rejecting medical advice due to concerns about overtreatment."
+   ],
+   "closing": "Although reducing unnecessary procedures is a valid concern, the medical community's primary worry is that patients in emergencies should not reject medical advice."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "cardiologist performing angioplasty",
+  "wiki_subject": "Angioplasty",
+  "person_en": "V.D. Satheesan",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "8746376fdd60",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-07T06:39+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/kerala/kerala-cms-statement-on-angioplasty-elicit-contrasting-responses-from-doctors/article71547569.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Angioplasty-scheme.svg/330px-Angioplasty-scheme.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Angioplasty",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Angioplasty",
+   "symbolic": false
+  },
+  "audio": "data/audio/8746376fdd60.mp3",
+  "created_ts": 1791335356.4984248,
+  "status": "published"
+ },
+ {
   "headline": "சுகாதாரச் சவால்களை எதிர்கொள்ள மருத்துவ மாநாடு",
   "lines": [
    "நான்கு நாள் மாநாடு எழுகிற தொழில்நுட்பம், தொற்று நோய்கள், மருத்துவ ஆய்வு, சுகாதார சேவை ஆகியவை பற்றி விவாதிக்கும்.",
@@ -925,68 +988,6 @@
   },
   "audio": "data/audio/c087224c1109.mp3",
   "created_ts": 1790796516.0294082,
-  "status": "published"
- },
- {
-  "headline": "காசநோய் தடுப்பு சிகிச்சையின் பாதுகாப்பு ஓராண்டுக்குப் பின் குறையக்கூடும்: ஆய்வு",
-  "lines": [
-   "காசநோய் பாதிப்பு அதிகமுள்ள நாடுகளில் தடுப்பு சிகிச்சையின் பாதுகாப்பு ஓராண்டுக்குப் பின் குறையக்கூடும் என்று ஆய்வு கண்டறிந்துள்ளது.",
-   "தடுப்பு சிகிச்சை மூலம் கிடைக்கும் நீண்டகால நன்மைகளை முழுமையாக அடைய வேண்டுமெனில், பிற தலையீட்டு நடவடிக்கைகளுடன் இணைக்க வேண்டும் என்று ஆய்வாளர்கள் பரிந்துரை செய்துள்ளனர்.",
-   "காசநோய் பாதிப்பு அதிகமுள்ள நாடுகளுக்கு இந்த ஆய்வு முக்கிய வழிகாட்டுதல் வழங்குகிறது.",
-   "நோய் தடுப்பு முன்னேற்றம் நீண்டகாலமாக நிலைத்திருக்க, பல்வேறு உபாயங்களைப் பயன்படுத்த வேண்டியதன் முக்கியத்துவம் தெரிய வருகிறது.",
-   "இந்த ஆய்வு முடிவுகள் நோய் பாதிப்பு கட்டுப்படுத்தும் பொதுச் சுகாதாரக் கொள்கையை மாற்றியமைக்கக்கூடும்."
-  ],
-  "closing": "காசநோய்க்கு எதிரான முயற்சியில் பாதுகாப்பு நீண்டகாலமாக பராமரிக்க, தடுப்பு சிகிச்சைக்கு பக்கபலம் தேவை என்ற கண்டறிப்பு பொதுச் சுகாதாரக் கொள்கையை மீண்டும் சிந்திக்க வேண்டும் என்கிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "தக்ஷணவாயு நோய்",
-   "தடுப்பு சிகிச்சை",
-   "பொதுச் சுகாதாரம்"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "TB preventive treatment protection may wane after one year in high-burden countries",
-   "lines": [
-    "A study has found that protection from TB preventive treatment could diminish after one year in countries with high disease burden.",
-    "Researchers recommend combining preventive treatment with other interventions to achieve the long-term benefits these medications are capable of providing.",
-    "The study offers crucial guidance for countries facing significant TB disease burden.",
-    "The importance of using multiple strategies to sustain long-term disease prevention outcomes has become evident.",
-    "These study findings may reshape public health policy in the fight against TB."
-   ],
-   "closing": "The discovery that protection from TB preventive treatment requires additional measures to be maintained long-term suggests public health policy in TB control efforts needs reconsideration."
-  },
-  "front_cat": "health_emergency",
-  "image_query": "",
-  "wiki_subject": "Tuberculosis",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "f24f70ad3e4e",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-09-30T02:00+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/health/protection-from-tb-preventive-treatment-could-wane-after-one-year-in-high-burden-countries-study/article71519126.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Tuberculosis-x-ray-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Tuberculosis",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Tuberculosis",
-   "symbolic": false
-  },
-  "audio": "data/audio/f24f70ad3e4e.mp3",
-  "created_ts": 1790713813.8802783,
   "status": "published"
  }
 ]
