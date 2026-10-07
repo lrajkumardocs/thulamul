@@ -1,47 +1,48 @@
-[fetch] RBI: 5 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[expire] 950876fab5c6
+[fetch] RBI: 7 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 20 புதியவை
-[fetch] BBC Tamil: 4 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
+[fetch] The Hindu TN: 14 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
+[fetch] BBC Tamil: 5 புதியவை
+[fetch] BBC World: 15 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 19 புதியவை
+[fetch] The Hindu Tech: 25 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 10 புதியவை
+[fetch] The Hindu Health: 14 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 16 புதியவை
+[fetch] FreeJobAlert: 29 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
+[fetch] Bar and Bench: 17 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 26 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 29 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +57,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6d8835c850>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f828425a290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,52 +68,48 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 629 → நிகழ்வுகள் 576
-[triage] 576 → 41 | காலி: govt:4, crime:4, tn:3, india:3, world:3
-[tts-edge] e4504fa6db86: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] விமான நிலையங்கள் ஆணையத்தில் 18 ஆலோசகர் பணியிடங்களுக்கு அறிவிப்பு
-[திருத்தம்] கேரளத் தலைவர் இரத்தக் குழாய் விரிவாக்கம் → கேரளத் தலைமைச் செயலாளர் இரத்தக் குழாய் வ
-[tts-edge] 8746376fdd60: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கேரளத் தலைமைச் செயலாளர் இரத்தக் குழாய் விரிவாக்கம் பற்றிய கூற்று மருத்துவ ஆய்வாளர்களிடையே விவாதத்தை எழுப்பியுள்ளது
-[publish] மதுராந்தகம், தாராபுரம் உள்பட 6 தொகுதிகளில் இடைத்தேர்தல் வாக்குப்பதிவு நிறைவு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விரிவான உள்ளடக்
-[image] களஞ்சியம் (3 சொல்): தட்டாஞ்சாவடி இடைத்தேர்தலில் 80.81 
-[publish] தட்டாஞ்சாவடி இடைத்தேர்தலில் 80.81 சதவீதம் வாக்குகள் பதிவு
-[skip] யேமனின் உள்நாட்டு ஆயுதக் கலह செய்தி — தமிழ்நாடு/இந்தியாவுடன்
-[திருத்தம்] இந்தியாவில் கடன் வளர்ச்சி பதினான்கு சதவீ → இந்தியாவில் கடன் வளர்ச்சி பதினான்கு சதவீ
-[publish] இந்தியாவில் கடன் வளர்ச்சி பதினான்கு சதவீதம் வரை—எஸ் அண்ட் பி குளோபல் மதிப்பீடு
-[skip] இந்திய மகளிர் கிரிக்கெட் அணியின் தலைவி பதவி மாற்றம் — தமிழ்ந
-[skip] சுதാനின் உள்நாட்டுப் போர் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் த
-[skip] தென் சூடான் உள்நாட்டு நெருக்கடி — தமிழ்நாடு/இந்தியா வாசகரைப்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfmzJof4VHNKjit65scuL'}
-[skip] யேமனிலுள்ள ஒரு மலை உச்சி பற்றிய யுத்த முன்னேற்றம் — இரான்/ஈர
-[image] களஞ்சியம் (2 சொல்): தமிழகத்தில் கடந்த ஒன்பது ஆண்டுகளில
-[publish] தமிழகத்தில் கடந்த ஒன்பது ஆண்டுகளில் இல்லாத வெப்பம் பதிவு
-[skip] வெனிசுவேலா உள் அரசியல். தமிழ்நாடு/இந்தியாக்கு நேரடித் தொடர்ப
-[skip] மூலத்தில் ஒரே தலைப்பு வரி மட்டும் கிடைத்துள்ளது; யார் பேசினா
-[skip] யேமன் உள்நாட்டுப் போர் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை விரிவாக எழுத போதி
-[skip] மூல உரை மிகக் குறைவாக உள்ளது - தலைப்பு மற்றும் ஒரு பெயர் மட்
-[publish] தவெக வேட்பாளர் சர்ச்சை காணொலி: தேர்தல் ஆணையத்தில் திமுக புகார்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfmzWU1SqUkZJJNuz1j4G'}
-[skip] மூலத்தில் போதிய விவரங்கள் இல்லை - எந்த மாவட்டம், ஏன் இந்த மு
-[திருத்தம்] தமிழகத்தின் 19 மாவட்டங்களில் இன்று மிதமா → தமிழ்நாட்டின் 19 மாவட்டங்களில் இன்று மித
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டின் 19 மாவட்டங்களில் இன்
-[publish] தமிழ்நாட்டின் 19 மாவட்டங்களில் இன்று மிதமான மழைக்கு வாய்ப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfmzdgm6eUL6AGN8GgCPK'}
-[publish] தேர்தல் ஆணையர் ஞானேஷ் குமார் சத்தீஸ்கர் பயணம் ஒத்திவைப்பு
-[publish] ராகுல் காந்தி போராட்டம் அரசியல் நாடகம் என பாஜக குற்றச்சாட்டு
-[brief] காலை brief தயார்
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: தேர்தல் ஆணையர் பயணம் ஏன் திடீர் ஒத்திவைப்பு?
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.95) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.97) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-07.png · நாள் 28
-[market] தங்கம் 22K ₹13294 · சென்செக்ஸ் 73068
+[run] புதியவை 681 → நிகழ்வுகள் 625
+[triage] 625 → 50 | காலி: govt:4, crime:4, world:3, court:2, jobs:2
+[தரம்] தமிழ் அல்லாத எழுத்து: া → ஒரு திருத்தம்
+[tts-edge] af91b2fe15d3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கீவ் நகரில் ரஷ்யத் தாக்குதல், இருவர் பலி
+[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
+[tts-edge] e10278f1340f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ரிசர்வ் வங்கி கொள்கை வட்டி விகிதம் 5.50 சதவீதமாக உயர்வு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): நீலகிரி குன்னூர் மலைப் பாதையில் பா
+[publish] நீலகிரி குன்னூர் மலைப் பாதையில் பாறை விழுந்து ஒருவர் உயிரிழப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfnUCwr1mkmtkXMgqvQbM'}
+[publish] திருத்தணி முருகன் கோயிலில் சிலைகள் விழுந்து நான்கு பக்தர்கள் காயம்
+[publish] சேலத்தில் சட்டவிரோத சாயப்பட்டறையில் நச்சு வாயு கசிவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfnUP3PBKmemnsUxHnpbN'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): காக்களூர் சிப்காட் ரப்பர் தொழிற்சா
+[publish] காக்களூர் சிப்காட் ரப்பர் தொழிற்சாலையில் மின்கசிவால் தீ விபத்து
+[skip] வெளிநாட்டுக் உள்நாட் கட்சிப் போர், தமிழ்நாட்டு/இந்திய வாசகரை
+[skip] வெளிநாட்டு உள்நாட்டுப் போர் — தமிழ்நாடு அல்லது இந்திய வாசகரி
+[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாடு/இந்தியத் வாசகரைக் கிட
+[திருத்தம்] ரிலையன்ஸ் ஜியோ பங்கு விற்பனை ரூ. 37,700  → ரிலையன்ஸ் ஜியோ ஐபிஓ: ரூ. 37,700 கோடி மெக
+[publish] ரிலையன்ஸ் ஜியோ ஐபிஓ: ரூ. 37,700 கோடி மெகா பிரச்சயனம்
+[skip] வெளிநாட்டு உள்நாட்டுப்갈등— தமிழ்நாடு/இந்தியப் வாசகரின் அன்றாட
+[திருத்தம்] வங்கி வைப்பு விவரங்களையும் இணைக்க ஆர்பிஐ → வங்கி வைப்புத் தகவல்களையும் சேர்க்க ஆர்ப
+[தரம்] தமிழ் அல்லாத எழுத்து: আই → ஒரு திருத்தம்
+[publish] வங்கி வைப்புத் தகவல்களையும் சேர்க்க ஆர்பிஐ புதிய வழிமுறை அறிவிப்பு
+[skip] இந்தச் செய்தி இஸ்ரேலுக்குச் சொந்தமான உள்ளூர் நினைவு நாள் நிக
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டு கடல்சார் விபத்து. தமிழ்நாடு அல்லது இந்தியாவுக்கு 
+[திருத்தம்] இந்திய ரிசர்வ் வங்கி கொள்கை முடிவுக்கு ம → இந்திய ரிசர்வ் வங்கியின் பணவியல் கொள்கை 
+[publish] இந்திய ரிசர்வ் வங்கியின் பணவியல் கொள்கை முடிவுக்கு முன் ரூபாய் 96.45ஆக சரிவு
+[skip] வெனेசுয়েலার எண்ணெய் சுத்திகரிப்பு நிலையம் — தமிழ்நாடு/இந்தி
+[skip] ஆஸ்திரேலியாவின் உள்ளூர் நீதிமன்ற தீர்ப்பு. தமிழ்நாடு அல்லது 
+[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாடு/இந்தியா வாசகரைப் நேரட
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ஐசிஎம்ஆர் விஞ்ஞானி டி பணியிடங்களுக
+[publish] ஐசிஎம்ஆர் விஞ்ஞானி டி பணியிடங்களுக்கு விண்ணப்பம் கோரிக்கை
+[filler] govt கட்டுரை
+[jobs] தொகுப்பு 11
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13272 · சென்செக்ஸ் 72869
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 10
