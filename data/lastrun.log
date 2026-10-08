@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
+[fetch] The Hindu TN: 23 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 26 புதியவை
+[fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
-[fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 29 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Agriculture: 1 புதியவை
+[fetch] FreeJobAlert: 21 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 9 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: பிழை Exceeded 30 redirects.
+[fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,68 +56,65 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f302675b650>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe43a4f3210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 28 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 710 → நிகழ்வுகள் 647
-[triage] 647 → 61 | காலி: world:3, crime:3, jobs:3, cinema:3, sports:3
-[skip] டெல்லியில் உள்ள மருத்துவமனைகளின் உள்ளூர் வேலைவாய்ப்பு அறிவிப
-[skip] நடிகர் நண்ணா பាடேகர் மாநில வெளியீட்டு கட்டுரை — மகாராஷ்டிர/த
-[skip] பாகிஸ்தான்-இலங்கை T20I தொடர் — தமிழ்நாடு/இந்திய வாசகரைப் பொத
-[திருத்தம்] உக்ரைன் கிராமடோர்ஸ்க் நகரில் பேருந்துகள் → உக்ரைன் கிராமடோர்ஸ்க் நகரில் பேருந்துகள்
-[tts-edge] 16c67f2bd64e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உக்ரைன் கிராமடோர்ஸ்க் நகரில் பேருந்துகள் மீது ரஷ்ய தாக்குதல், குறைந்தது முப்பது பேர் பலி
-[image] களஞ்சியம் (2 சொல்): நெல்லை அருகே பேருந்து டிப்பர் லாரி
-[tts-edge] 012ce4280aba: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நெல்லை அருகே பேருந்து டிப்பர் லாரி மோதல் நடத்துநர் பலி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfpuZbE2nawxVoxusxK2A'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfpucmZjSWfhFTyG3Wre3'}
-[publish] கோடைக்கானல் நிலம் விவகாரம்: தேர்தல் மனு வழக்கில் ஆவணம் சமர்ப்பிப்பு
-[publish] அதிமுக எம்எல்ஏக்கள் தகுதிநீக்க வழக்கு, உச்ச நீதிமன்றத்தில் நாளை விசாரணை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfpun7NqXtBxvH8khySXA'}
-[skip] சிலியில் நடந்த வெள்ளம் தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்கவில
-[skip] எריட্ரியா-எதியோப்பியா எல்லைப் பிரச்சினை தமிழ்நாடு அல்லது இந்
-[publish] மின்னணு வாக்குப்பதிவு இயந்திரத்துக்கு எதிராக மக்கள் இயக்கம் வேண்டும் என திருமாவளவன்
-[skip] தேசிய அளவிலான राजनीतिक போராட்டம் என்றாலும், இது தமிழ்நாட்டுக
-[skip] தமிழ்நாட்டுக் செய்தி, world வகையாக குறிப்பிடப்படவில்லை. இது 
-[skip] வெளிநாட்டுத் தரப்பிலான நாவிக இறுதிக் கடல் நிகழ்வு; தமிழ்நாடு
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது. சிரியா-லெபனான்-அமெரிக்கா மத
-[skip] வெளிநாட்டு நாடுகளின் இதுவொருதலைப்பட்ட மூல உரையாக உள்ளது. பிர
-[skip] வெளிநாட்டுச் கடல் நিकழ்வு; தமிழ்நாடு/இந்திய வாசகரின் வாழ்க்க
-[skip] மங்கோலியாவில் நடந்த உள்ளூர் விலங்கு விபத்து. தமிழ்நாடு / இந்
-[skip] தமிழ்நாடு/இந்தியக்குத் தொடர்பு இல்லாத அமெரிக்காவின் உள்நாட்ட
-[skip] வெளிநாட்டு நீதிமன்றத்தின் உள்நாட்டு வழக்கு. தமிழ்நாடு/இந்திய
-[skip] வெளிநாட்டு உள்ளூர் அரசியல் — வெனிசுவேலா ஆட்சிப் பிரச்சினை. த
-[skip] வெளிநாட்டு நிறுவனங்களின் உள்ளூர் வர்த்தக மோசடிச் செய்தி. தமி
-[skip] அமெரிக்காவின் உள்நாட்டுக் குற்றச் செய்தி. தமிழ்நாடு/இந்தியாவ
-[skip] டெல்லி தொழில்நுட்பப் பல்கலைக்கழகம் மற்றும் ஹரியானா அங்கன்வாட
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், விவரம், எண் தரவுகள் 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Wildlife emergency ambulance launched in Chennai
-[skip] வெளிநாட்டு உள்ளூர் சுகாதார நிகழ்வு — தமிழ்நாடு/இந்தியாவுக்கு
-[skip] தமிழ்நாடு அரசு அல்லது மத்திய அரசுடன் நேரடித் தொடர்பு இல்லாத 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Car falls into sinkhole as road caves in near Ch
-[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): அக்டோபரில் பத்து பெரிய அரசு வேலைவா
-[publish] அக்டோபரில் பத்து பெரிய அரசு வேலைவாய்ப்பு அறிவிப்புகள்
-[skip] நடிகர் சுயசரிதை / பொதுவான பெயர்கள் மீள்பார்வை — இவை திரைச் ச
-[skip] வெளிநாட்டுக் கிரிக்கெட் - தமிழ்நாட்டுத் தொடர்பு இல்லை. World
-[skip] பொதுவான சுகாதாரக் கட்டுரை — தமிழ்நாட்டு/இந்திய குறிப்பிட்ட ந
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Nemmeli desalination plants to ramp up productio
-[skip] வெளிநாட்டு சினிமா (அமெரிக்க எழுத்தாளர், ஆங்கிலப் படம், Rober
-[skip] வெளிநாட்டு ক্রিকেট দল — தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்கா
-[filler] tech கட்டுரை
-[jobs] தொகுப்பு 3
-[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13250 · சென்செக்ஸ் 71593
+[run] புதியவை 708 → நிகழ்வுகள் 653
+[triage] 653 → 74 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] டெல்லி உயர்நீதிமன்றத்தின் உள்ளூர் வழக்கு — தமிழ்நாட்டுடன் தொ
+[skip] திரிபுரா மற்றும் மிசோரம் மாநில PSC தேர்வு விடைக்குறிப்புகள் 
+[திருத்தம்] புற்றுநோய் மருந்துகளின் விலை வரம்பு 30 ச → புற்றுநோய் மருந்துகளின் விற்பனை விளிம்பு
+[tts-edge] af457f2db21b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] புற்றுநோய் மருந்துகளின் விற்பனை விளிம்பு 30 சதவீதமாக வரம்பிடப்படும்
+[திருத்தம்] விஜய் தேவரகொண்ட, ரஷ்மிகா ராணபாளி திரைப்ப → விஜய் தேவரகொண்ட, ரஷ்மிகா 'ராணபாளி'த் திர
+[தரம்] மூலத்தில் இல்லாத எண்: 1878 → ஒரு திருத்தம்
+[tts-edge] 492d19d05e60: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] விஜய் தேவரகொண்ட, ரஷ்மிகா 'ராணபாளி'த் திரைப்படத்தில் ஆங்கிலேய ஆட்சிக்கு எதிரான போராட்டத்தை நடிக்கிறார்கள்.
+[skip] ஆஸ்திரேலிய உள்நாட்டுச் தொடரின் தெரிவு சம்பந்தமான செய்தி. தமி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqN6aiRc93DDg9Ncq5GN'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது ஒரு பழைய படம் பற்றிய திரும்பிப் பார்க்கும் கட்டுரை (feat
+[திருத்தம்] காசா போர்நிறுத்தம் பலவீனம், இஸ்ரேலிய தாக → காசாவில் போர்நிறுத்தம் இருந்தாலும் இஸ்ரே
+[publish] காசாவில் போர்நிறுத்தம் இருந்தாலும் இஸ்ரேலிய தாக்குதல்கள் தொடர்கின்றன, அமைதிக் காலம் தடைபட்டுள்ளது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqNGTiG9GzAjyi5ajiy3'}
+[திருத்தம்] ஸ்ரீவைகுண்டம் தவெக எம்எல்ஏ மீது கனிமொழி  → ஸ்ரீவைகுண்டம் தவெக எம்.எல்.ஏ. மீது கனிமொ
+[hold] ஸ்ரீவைகுண்டம் தவெக எம்.எல்.ஏ. மீது கனிமொழி எம்.பி. அடுக்கடுக்கான குற்றச்சாட்டு
+[திருத்தம்] முதல்வர் விஜய் ஆட்சியில் சட்டம் ஒழுங்கு  → முதல்வர் விஜய் ஆட்சியில் சட்டம் ஒழுங்கு 
+[publish] முதல்வர் விஜய் ஆட்சியில் சட்டம் ஒழுங்கு நிலை சீர்கெடும்: அதிமுக விமர்சனம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): தமிழகத்தில் அடுத்த மூன்று மணி நேரத
+[publish] தமிழகத்தில் அடுத்த மூன்று மணி நேரத்தில் பரவலான மழை எச்சரிக்கை
+[திருத்தம்] தமிழகத்துக்கு பதினைந்து நாள்கள் காவிரி ந → தமிழகத்துக்கு 15 நாள்களுக்குக் காவிரி நீ
+[publish] தமிழகத்துக்கு 15 நாள்களுக்குக் காவிரி நீர் திறக்க உத்தரவு
+[skip] இது அரசாங்கப் பத்திரங்கள் ஏலம் தொடர்பான வழக்கமான ரிசர்வ் வங்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqNZSRMZq7HcQZqwmaHA'}
+[திருத்தம்] இந்திய பாதுகாப்பு ரகசியம் பாகிஸ்தানுக்கு → இந்திய பாதுகாப்பு ரகசியங்கள் பாகிஸ்தானுக
+[தரம்] தமிழ் அல்லாத எழுத்து: শষ → ஒரு திருத்தம்
+[publish] இந்திய பாதுகாப்பு ரகசியங்கள் பாகிஸ்தானுக்கு விற்பனையா? கோவையில் கடற்படை ஊழியர் கைது
+[திருத்தம்] வேலூர் சுற்றுவட்டாரத்தில் காசநோய் இல்லா  → வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்களில் 
+[image] களஞ்சியம் (2 சொல்): வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்
+[publish] வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்களில் 319 கிராமங்கள் காசநோய் இல்லா கிராமங்களாக அங்கீகாரம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqNhvgCXMJPx1gfujkpg'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] சென்னை டைடல் பார்க் அருகே சாலையில் குழி  → சென்னை டிடல் பார்க் அருகே சாலையில் குழி 
+[publish] சென்னை டிடல் பார்க் அருகே சாலையில் குழி விழுந்து கார் சரிந்தது
+[comic] கதை முயற்சி 1 தோல்வி: Expecting ',' delimiter: line 33 column 4 (char 1762)
+[comic] கதை: பாடலினூடே பார்வை பரிமாற்றம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-09.png · நாள் 30
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹13276 · சென்செக்ஸ் 71593
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 6
+[done] feed 300 · pending 1 · எழுதியவை 10

@@ -1,5 +1,585 @@
 [
  {
+  "headline": "சென்னை டிடல் பார்க் அருகே சாலையில் குழி விழுந்து கார் சரிந்தது",
+  "lines": [
+   "சென்னை டைடல் பார்க் அருகே உள்ள சாலையில் திடீரென குழி ஏற்பட்டு, அதில் ஒரு கார் சரிந்தது.",
+   "கார் முழுவதும் குழிக்குள் விழுவதற்கு முன்பே, அதில் இருந்த பயணிகள் பாதுகாப்பாக வெளியேறினர்.",
+   "இதே சாலையில் கடந்த மே மாதம் ஒரு கால் டாக்சி இதேபோன்ற குழியில் விழுந்திருந்தது குறிப்பிடத்தக்கது.",
+   "மீண்டும் மீண்டும் இதே சாலையில் குழிகள் ஏற்படுவதால், சாலையின் அடித்தளம் பலவீனமடைந்திருப்பதாகக் கூறப்படுகிறது.",
+   "சம்பவம் தொடர்பாக உரிய அதிகாரிகள் ஆய்வு நடத்தி வருவதாகத் தெரிகிறது."
+  ],
+  "closing": "ஐந்து மாதங்களுக்கு முன் நடந்த இதேபோன்ற சம்பவத்திற்குப் பின்னரும் சாலை முறையாகப் பழுதுபார்க்கப்படவில்லையா என்ற கேள்வி எழுகிறது.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-10-09"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை",
+   "டைடல் பார்க்",
+   "கால் டாக்சி",
+   "சாலை குழி"
+  ],
+  "confidence": 0.72,
+  "en": {
+   "headline": "Road caves in near Chennai's Tidel Park, car falls into sinkhole",
+   "lines": [
+    "A road near Chennai's Tidel Park suddenly developed a sinkhole, into which a car fell.",
+    "The occupants managed to escape safely before the car fully sank into the pit.",
+    "Notably, a call taxi had fallen into a similar pit on the same road last May.",
+    "Residents say the road's foundation appears weakened, causing repeated cave-ins at the same spot.",
+    "Officials are reportedly conducting an inquiry into the incident."
+   ],
+   "closing": "The repeat incident on the same road, five months after a similar one, raises questions about whether proper repairs were carried out."
+  },
+  "front_cat": "routine",
+  "image_query": "road sinkhole collapse",
+  "wiki_subject": "Tidel Park",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "ef5462c75102",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-09T01:39+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/car-falls-into-sinkhole-as-road-caves-in-near-chennais-tidel-park/article71558860.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Tidel_Park.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · TIDEL Park",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/TIDEL_Park",
+   "symbolic": false
+  },
+  "audio": "data/audio/ef5462c75102.mp3",
+  "created_ts": 1791490196.530641,
+  "status": "published"
+ },
+ {
+  "headline": "வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்களில் 319 கிராமங்கள் காசநோய் இல்லா கிராமங்களாக அங்கீகாரம்",
+  "lines": [
+   "வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்களில் உள்ள 319 கிராமங்கள் காசநோய் இல்லா கிராமங்களாக தமிழ்நாடு அரசால் கெளரவிக்கப்பட்டன.",
+   "காசநோய் ஒழிப்புத் திட்டத்தின் கீழ் இந்த சாதனையை இந்தக் கிராமங்கள் எட்டியுள்ளன.",
+   "சுகாதாரத் துறை அதிகாரிகள் இந்த நிகழ்வில் கிராமங்களுக்கு சான்றிதழ்களை வழங்கினர்.",
+   "காசநோயைக் கண்டறிந்து சிகிச்சை அளிக்கும் பணிகளில் தொடர்ச்சியான முயற்சிகள் இதற்குக் காரணமாக இருந்துள்ளன.",
+   "மற்ற கிராமங்களும் இதே வழியில் காசநோயிலிருந்து விடுபட அரசு ஊக்குவிப்பு நடவடிக்கைகளைத் தொடர உள்ளது."
+  ],
+  "closing": "தேசிய காசநோய் ஒழிப்புத் திட்டத்தின் ஒரு பகுதியாக இந்த அங்கீகாரம் வழங்கப்பட்டுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "வேலூர் மாவட்டம்",
+   "தமிழ்நாடு அரசு",
+   "காசநோய் ஒழிப்புத் திட்டம்",
+   "சுகாதாரத் துறை"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Tamil Nadu honours 319 villages for becoming TB-free near Vellore",
+   "lines": [
+    "Tamil Nadu government honoured 319 villages in Vellore and nearby districts for becoming TB-free.",
+    "These villages achieved this milestone under the tuberculosis elimination programme.",
+    "Health department officials presented certificates to the villages at the event.",
+    "Sustained efforts in detecting and treating tuberculosis cases contributed to this achievement.",
+    "The government plans to continue encouraging other villages to follow the same path to becoming TB-free."
+   ],
+   "closing": "The recognition is part of the National Tuberculosis Elimination Programme."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "9d23045ce850",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-09T01:37+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-govt-honours-319-villages-for-becoming-tb-free-in-vellore-nearby-districts/article71559830.ece"
+  ],
+  "image": {
+   "url": "data/bank/health08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/9d23045ce850.mp3",
+  "created_ts": 1791490072.0164807,
+  "status": "published"
+ },
+ {
+  "headline": "இந்திய பாதுகாப்பு ரகசியங்கள் பாகிஸ்தானுக்கு விற்பனையா? கோவையில் கடற்படை ஊழியர் கைது",
+  "lines": [
+   "இந்தியாவின் பாதுகாப்பு ரகசிய தகவல்கள் பாகிஸ்தான் உளவு அமைப்புகளுக்கு அனுப்பப்பட்டதாக சந்தேகிக்கப்படுகிறது.",
+   "இந்த குற்றச்சாட்டின் அடிப்படையில் ஆந்திரப் பிரதேச உளவுப் பிரிவு விரிவான விசாரணை நடத்தி வருகிறது.",
+   "கடற்படையின் ஒரு ஊழியர் இந்த வழக்கில் கைது செய்யப்பட்டுள்ளார்.",
+   "பாதுகாப்பு ரகசியங்கள் வெளிப்படுவது தேசிய பாதுகாப்புக்கு ஆபத்தைக் கொண்டுவரும் என்று உளவு அமைப்புகள் கவலை தெரிவித்துள்ளன.",
+   "விசாரணை முடிந்தவுடன் குற்றம் நிரூபிக்கப்படும் நபர்களுக்கு சட்ட நடவடிக்கை எடுக்கப்படும் என்று அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "பாதுகாப்பு விஷயங்களில் தேசிய பாதுகாப்பு சட்டம் கடுமையான தண்டனை வழங்குகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "பாகிஸ்தான்",
+   "ஆந்திரப் பிரதேசம்",
+   "பாதுகாப்பு",
+   "உளவு"
+  ],
+  "confidence": 0.72,
+  "en": {
+   "headline": "Navy officer arrested on suspicion of selling Indian defence secrets to Pakistan",
+   "lines": [
+    "Indian defence secrets are suspected to have been sent to Pakistani intelligence agencies.",
+    "Based on these allegations, Andhra Pradesh intelligence division is conducting a detailed investigation.",
+    "A naval employee has been arrested in connection with this case.",
+    "Intelligence agencies have expressed concern that leaking defence secrets poses a threat to national security.",
+    "Once the investigation concludes, legal action will be taken against those found responsible, officials say."
+   ],
+   "closing": "National security laws impose strict penalties for matters related to defence."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "Indian Navy",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "be8b16ab93c4",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-09T01:37+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cqrmynlng9vlo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Indian_Navy_Insignia_%282022%29.svg/330px-Indian_Navy_Insignia_%282022%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Indian Navy",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Indian_Navy",
+   "symbolic": false
+  },
+  "audio": "data/audio/be8b16ab93c4.mp3",
+  "created_ts": 1791490040.4142578,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழகத்துக்கு 15 நாள்களுக்குக் காவிரி நீர் திறக்க உத்தரவு",
+  "lines": [
+   "காவிரி நீர் மேலாண்மை ஆணையம் தமிழகத்துக்கு 15 நாள்களுக்குக் காவிரி நீரைத் திறந்துவிடுமாறு உத்தரவிட்டுள்ளது.",
+   "இதற்கு முன்னதாக ஒழுங்காற்றுக் குழு இந்த 15 நாள் நீர் திறப்புக்குப் பரிந்துரை செய்திருந்தது.",
+   "ஒழுங்காற்றுக் குழுவின் பரிந்துரையை ஏற்றுக் காவிரி நீர் மேலாண்மை ஆணையம் இந்த உத்தரவைப் பிறப்பித்துள்ளது.",
+   "இந்த நீர் திறப்பு தமிழகத்தின் விவசாயப் பகுதிகளுக்குப் பயன்படும் என எதிர்பார்க்கப்படுகிறது.",
+   "உத்தரவின் அடிப்படையில் கர்நாடக அரசு நீரைத் திறந்துவிட வேண்டிய நடவடிக்கைகளை மேற்கொள்ள உள்ளது."
+  ],
+  "closing": "காவிரி நீர் பங்கீடு தொடர்பான இந்த முடிவு தமிழகம் மற்றும் கர்நாடக இடையேயான நீண்டகால நீர் பிரச்னையின் ஒரு பகுதியாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தமிழகம்",
+   "காவிரி நீர் மேலாண்மை ஆணையம்",
+   "கர்நாடகா",
+   "ஒழுங்காற்றுக் குழு"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Cauvery Water Management Authority orders 15-day water release to TN",
+   "lines": [
+    "The Cauvery Water Management Authority has ordered the release of Cauvery water to Tamil Nadu for fifteen days.",
+    "Earlier, the Regulation Committee had recommended this fifteen-day water release.",
+    "Accepting the committee's recommendation, the authority issued this order.",
+    "The water release is expected to benefit agricultural areas in Tamil Nadu.",
+    "Based on the order, Karnataka is required to take steps to release the water."
+   ],
+   "closing": "This decision on Cauvery water sharing is part of the long-standing water dispute between Tamil Nadu and Karnataka."
+  },
+  "front_cat": "farmer_water",
+  "image_query": "",
+  "wiki_subject": "Cauvery River",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "4cbd95aac08e",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-09T01:35+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/08/cauvery-water-management-authority-orders-release-of-cauvery-water-to-tamil-nadu",
+   "https://www.dinamani.com/tamilnadu/2026/Oct/08/cauvery-water-regulation-committee-recommends-releasing-cauvery-water-to-tamil-nadu-for-15-days"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Shivanasamudra_Falls_on_Kaveri.jpg/3840px-Shivanasamudra_Falls_on_Kaveri.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Kaveri",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Kaveri",
+   "symbolic": false
+  },
+  "audio": "data/audio/4cbd95aac08e.mp3",
+  "created_ts": 1791489957.9992394,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழகத்தில் அடுத்த மூன்று மணி நேரத்தில் பரவலான மழை எச்சரிக்கை",
+  "lines": [
+   "தமிழகத்தில் பன்னிரண்டு மாவட்டங்களில் அடுத்த மூன்று மணி நேரத்துக்குள் மழை பெய்யும் என வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "தமிழகம் முழுவதும் பரவலாக மழை பெய்யக்கூடும் என்றும் தனி அறிவிப்பில் தெரிவிக்கப்பட்டுள்ளது.",
+   "இது தொடர்பாக பொதுமக்கள் முன்னெச்சரிக்கை நடவடிக்கைகளை மேற்கொள்ளுமாறு அதிகாரிகள் கேட்டுக்கொண்டுள்ளனர்.",
+   "பாதிக்கப்படக்கூடிய மாவட்டங்களின் விரிவான பட்டியல் தற்போது வெளியிடப்படவில்லை.",
+   "மழை பெய்யும் பகுதிகளில் தேவையான முன்னெச்சரிக்கை நடவடிக்கைகள் தொடர்பான மேலும் தகவல்கள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "மழை தொடர்பான அதிகாரப்பூர்வ அறிவிப்புகளை பொதுமக்கள் தொடர்ந்து கவனிக்குமாறு கோரப்பட்டுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-09"
+   },
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-09"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தமிழகம்",
+   "வானிலை ஆய்வு மையம்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Widespread Rain Warning for Tamil Nadu in Next Three Hours",
+   "lines": [
+    "Twelve districts in Tamil Nadu are expected to receive rain within the next three hours, the weather department said.",
+    "A separate alert stated that widespread rain is likely across Tamil Nadu during the same period.",
+    "Officials have asked the public to take necessary precautionary measures in view of the forecast.",
+    "A detailed list of the affected districts has not yet been released.",
+    "Further updates on precautionary steps for the rain affected areas are expected soon."
+   ],
+   "closing": "The public has been asked to continue monitoring official weather updates."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "626a5847741a",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-09T01:35+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/08/rain-in-12-districts-over-the-next-3-hours",
+   "https://www.dinamani.com/tamilnadu/2026/Oct/08/widespread-rain-across-tamil-nadu-for-the-next-3-hours"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/626a5847741a.mp3",
+  "created_ts": 1791489930.0152009,
+  "status": "published"
+ },
+ {
+  "headline": "முதல்வர் விஜய் ஆட்சியில் சட்டம் ஒழுங்கு நிலை சீர்கெடும்: அதிமுக விமர்சனம்",
+  "lines": [
+   "அதிமுக பொதுச் செயலாளர் எடப்பாடி கே.பழனிசாமி தமிழக வெற்றிக் கழகத் தலைவர் விஜயை கடுமையாக விமர்சித்துள்ளார்.",
+   "விஜய் முதல்வராக ஆனால் மாநிலத்தில் சட்டம் ஒழுங்கு நிலை கேலிக்குரியதாக மாறும் என்று அவர் கூறியுள்ளார்.",
+   "ஆட்சி அனுபவம் இல்லாததால் நிர்வாகத்தைக் கையாள்வது தமிழக வெற்றிக் கழகத்துக்குக் கடினமாக இருக்கும் என அதிமுக தெரிவித்துள்ளது.",
+   "இந்த விமர்சனத்திற்கு தமிழக வெற்றிக் கழகத் தரப்பிலிருந்து இதுவரை அதிகாரப்பூர்வ பதில் வெளியிடப்படவில்லை.",
+   "வரவிருக்கும் சட்டமன்றத் தேர்தலுக்கு முன் கட்சிகளுக்கிடையேயான விமர்சனப் போர் தீவிரமடையும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "அடுத்த சட்டமன்றத் தேர்தலை முன்னிட்டு அதிமுக, தமிழக வெற்றிக் கழகம் இடையேயான குற்றச்சாட்டு பரிமாற்றம் தொடர்கிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "எடப்பாடி கே.பழனிசாமி",
+   "விஜய்",
+   "தமிழக வெற்றிக் கழகம்",
+   "அதிமுக"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "If Vijay becomes CM, law and order will collapse: EPS criticism",
+   "lines": [
+    "AIADMK general secretary Edappadi K Palaniswami has sharply criticised TVK leader Vijay.",
+    "He said that if Vijay becomes Chief Minister, the state's law and order situation would become a joke.",
+    "EPS stated that lacking administrative experience would make governance difficult for TVK.",
+    "TVK has not yet issued an official response to this criticism.",
+    "With the assembly elections approaching, the war of words between the parties is expected to intensify."
+   ],
+   "closing": "Ahead of the next assembly elections, the exchange of accusations between AIADMK and TVK continues."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Edappadi K. Palaniswami",
+  "person_en": "Edappadi K Palaniswami",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "f9f4ebabb63f",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-09T01:34+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/08/aiadmk-general-secretary-edappadi-palaniswami-alleges-that-law-and-order-has-collapsed-under-the-tvk-government"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/K._Palaniswami.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Edappadi K. Palaniswami",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Edappadi_K._Palaniswami",
+   "symbolic": false
+  },
+  "audio": "data/audio/f9f4ebabb63f.mp3",
+  "created_ts": 1791489855.809374,
+  "status": "published"
+ },
+ {
+  "headline": "காசாவில் போர்நிறுத்தம் இருந்தாலும் இஸ்ரேலிய தாக்குதல்கள் தொடர்கின்றன, அமைதிக் காலம் தடைபட்டுள்ளது",
+  "lines": [
+   "காசாவில் போர்நிறுத்தம் அமலில் இருந்தாலும் இஸ்ரேலிய தாக்குதல்கள் தொடர்வதாக செய்திகள் வெளியிட்டுள்ளன.",
+   "அமெரிக்கா முன்மொழிந்த போரை முடிவுக்குக் கொண்டுவரும் திட்டம் பெரும்பாலும் தடைபட்டுள்ளது.",
+   "பாலஸ்தீனியர்கள் பலர் இன்னும் நெரிசலான கூடார முகாம்களில் வாழ்ந்து வருகின்றனர்.",
+   "ஒவ்வொரு நாளும் கொலைகள் நடப்பவென உள்ளூர் மக்கள் தெரிவித்துள்ளனர்.",
+   "அமைதி ஒப்பந்தம் முழுமையாக செயல்படுத்தப்படும் தேதி குறித்து இதுவரை தெளிவில்லை."
+  ],
+  "closing": "போர்நிறுத்த ஒப்பந்தம் அறிவிக்கப்பட்ட பின்னரும் காசாவில் பதற்றம் தொடர்வது அமைதி முயற்சிகளுக்குச் சவாலாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "காசா",
+   "இஸ்ரேல்",
+   "பாலஸ்தீனியர்கள்",
+   "அமெரிக்கா"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Gaza Ceasefire Fragile as Israeli Strikes Continue",
+   "lines": [
+    "BBC reports that Israeli strikes continue in Gaza despite the ceasefire being in place.",
+    "The US-led plan to end the war is reported to have largely stalled.",
+    "Many Palestinians are said to still be living in cramped tent cities, according to the report.",
+    "The report cites local residents saying killings are occurring every day.",
+    "It remains unclear when the peace deal will be fully implemented."
+   ],
+   "closing": "Even after the ceasefire was announced, continuing tension in Gaza poses a challenge to peace efforts."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "wiki_subject": "Gaza Strip",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "1d4d72e564ee",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-09T01:32+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cmx2qlz7qrd4o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Gaza_Strip_in_Palestine.svg/960px-Gaza_Strip_in_Palestine.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Gaza Strip",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Gaza_Strip",
+   "symbolic": false
+  },
+  "audio": "data/audio/1d4d72e564ee.mp3",
+  "created_ts": 1791489726.1840172,
+  "status": "published"
+ },
+ {
+  "headline": "விஜய் தேவரகொண்ட, ரஷ்மிகா 'ராணபாளி'த் திரைப்படத்தில் ஆங்கிலேய ஆட்சிக்கு எதிரான போராட்டத்தை நடிக்கிறார்கள்.",
+  "lines": [
+   "ராகுல் சங்கிரித்யன் இயக்கிய தெலுங்குக் கால நாடக திரைப்படமான 'ராணபாளி'யின் டிரெய்லர் வெளியிடப்பட்டுள்ளது.",
+   "1876ஆம் ஆண்டு ஏற்பட்ட மதராஸ் பஞ்சம் காலத்தை பின்னணியாகக் கொண்டு, விஜய் தேவரகொண்ட, ரஷ்மிகா முக்கிய பாத்திரங்களில் நடித்துள்ளனர்.",
+   "சுதந்திரப் பூர்வ இந்தியாவில் குறைவாக அறியப்பட்ட வரலாற்றுக் கட்டத்தை இப்படம் சித்தரிக்கிறது.",
+   "ஆங்கிலேய ஆட்சிக்கு எதிராக மக்கள் எழுந்த போராட்டத்தை இப்படத்தின் கதை கூறுகிறது.",
+   "டிரெய்லரில் காட்டப்பட்ட காட்சிகள் கடுமையான பஞ்சம் மற்றும் அதன் விளைவுகளை எதிர்கொண்ட மக்கள் போராட்டம் பற்றியவை."
+  ],
+  "closing": "பஞ்சம் மற்றும் சமூக அநீதியை எதிர்கொண்ட ஆரம்பகால எழுச்சியை 'ராணபாளி' சித்தரிப்பதாக கூறப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "விஜய் தேவரகொண்ட",
+   "ரஷ்மிகா",
+   "ராகுல் சங்கிரித்யன்",
+   "ராணபாளி",
+   "மதராஸ் பஞ்சம்"
+  ],
+  "confidence": 0.72,
+  "en": {
+   "headline": "Vijay Deverakonda, Rashmika lead rebellion against British rule in Ranabaali",
+   "lines": [
+    "The trailer of Telugu period drama 'Ranabaali', directed by Rahul Sankrityan, has been released.",
+    "Vijay Deverakonda and Rashmika star in lead roles, set against the backdrop of the Madras famine of 1876-1878.",
+    "The film depicts a lesser-known chapter of pre-Independence Indian history.",
+    "The narrative centers on a people's uprising against British colonial rule.",
+    "Trailer visuals depict struggle against famine and social injustice during that period."
+   ],
+   "closing": "Ranabaali is reported to chronicle early resistance movements against famine and social inequality."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Vijay Deverakonda Rashmika Ranabaali",
+  "wiki_subject": "Ranabaali",
+  "person_en": "Vijay Deverakonda",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "492d19d05e60",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-10-09T01:29+05:30",
+  "links": [
+   "https://www.thehindu.com/entertainment/movies/ranabaali-trailer-vijay-deverakonda-rashmika-lead-a-rebellion-against-british-rule-in-rahul-sankrityans-film/article71560719.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Vijay_Devarakonda_snapped_during_Liger_promotions.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Vijay Deverakonda",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Vijay_Deverakonda",
+   "symbolic": false
+  },
+  "audio": "data/audio/492d19d05e60.mp3",
+  "created_ts": 1791489597.0867145,
+  "status": "published"
+ },
+ {
+  "headline": "புற்றுநோய் மருந்துகளின் விற்பனை விளிம்பு 30 சதவீதமாக வரம்பிடப்படும்",
+  "lines": [
+   "மத்திய அரசு திட்டமிடப்படாத புற்றுநோய் மருந்துகளின் விற்பனை விளிம்பை 30 சதவீதத்திற்குக் கட்டுப்படுத்த முயன்றுள்ளது.",
+   "தற்போது இந்த மருந்துகளின் சராசரி வியாபாரிக் விளிம்பு 170 சதவீதம் ஆக உள்ளது. சில இடங்களில் 700 சதவீதம் வரை அதிகமாக இருக்கிறது.",
+   "இந்த நடவடிக்கையின் மூலம் மருந்துகளின் விலை அதிகபட்ச விற்பனை விலையிலிருந்து 70 சதவீதம் வரை குறையும்.",
+   "புற்றுநோய் நோயாளிகள் வருடத்திற்கு ₹2,500 கோடி மிச்சம் செய்ய முடியும்.",
+   "இந்த விலைக் கட்டுப்பாடு விரைவில் அமல்படுத்தப்பட எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "புற்றுநோய் சிகிச்சைக்கான மருந்து விலை அதிகமாக இருப்பதால் பல நோயாளிகள் சிகிச்சை மறுக்க நேரிடுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "மத்திய அரசு",
+   "புற்றுநோய் மருந்துகள்",
+   "விலைக் கட்டுப்பாடு"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "Centre to cap trade margins on non-scheduled cancer drugs to 30%",
+   "lines": [
+    "The central government plans to cap trade margins on non-scheduled cancer drugs to 30% of maximum retail price.",
+    "Currently, average trade mark-up on these drugs stands at 170%, with some reaching 700%.",
+    "This intervention is expected to reduce drug prices by up to 70% of MRP.",
+    "Cancer patients could save ₹2,500 crore annually through this price regulation.",
+    "The price cap is expected to be implemented soon."
+   ],
+   "closing": "High cancer drug prices force many patients to abandon treatment, making affordability a critical health issue."
+  },
+  "front_cat": "price_policy",
+  "image_query": "cancer medicine pills pharmacy",
+  "wiki_subject": "Cancer treatment",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "af457f2db21b",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-09T01:29+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/centre-to-cap-trade-margins-on-non-scheduled-cancer-drugs-to-30-of-mrp/article71560801.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Patient_prepared_for_radiation_therapy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Cancer treatment",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Cancer_treatment",
+   "symbolic": false
+  },
+  "audio": "data/audio/af457f2db21b.mp3",
+  "created_ts": 1791489549.4088788,
+  "status": "published"
+ },
+ {
   "id": "art_tech_20261008",
   "headline": "UPI பரிவர்த்தனை மற்றும் ஆதார் தரவுகளை பாதுகாப்பாக வைக்கும் வழிகள்",
   "lines": [
@@ -18444,578 +19024,6 @@
   },
   "audio": "data/audio/09eb5d4e5fd5.mp3",
   "created_ts": 1790805934.484736,
-  "status": "published"
- },
- {
-  "headline": "இந்தியாவின் முதல் அசல் குறுந்தொடர் அனிமே அக்டோபரில் வெளியாகிறது",
-  "lines": [
-   "கேன்வாஸ் என்ற தளம் அக்டோபரின் முதல் வாரத்தில் 'ப்ரொஜெக்ட் மாயா' என்ற தொடரை வெளியிட இருக்கிறது.",
-   "இந்திய படைப்பாளிகளால் முழுவதும் உருவாக்கப்பட்ட இந்தியாவின் முதல் அசல் குறுந்தொடர் அனிமேயாக இது உருவெடுத்துள்ளது.",
-   "தொடரின் சரியான வெளியீட்டுத் தேதி மற்றும் கதைக் குறிப்பு குறித்த விவரங்கள் வரக்கூடும்.",
-   "இந்திய சினிமாவில் அனிமே தொடர்கள் தயாரிப்பு சமீபகாலங்களில் அதிகரித்து வருகிறது.",
-   "இந்திய படைப்பாளிகள் தங்கள் சொந்தக் கதைகளையும் ஆக்கங்களையும் பிரசாரம் செய்ய முனைந்து வருவது குறிப்பிடத்தக்கது."
-  ],
-  "closing": "இந்திய அனிமேஷன் தொழிலுறவில் புதிய மைல்கல்லாக 'ப்ரொஜெக்ட் மாயா' பதிவாகக்கூடும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Cinema",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "cinema",
-  "entities": [
-   "கேன்வாஸ்",
-   "ப்ரொஜெக்ட் மாயா",
-   "அனிமேஷன் தொடர்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "India's first original anime series to premiere in October",
-   "lines": [
-    "Canvas is set to launch 'Project Maya' in the first week of October.",
-    "The series is India's first original short-form anime created entirely by Indian creators.",
-    "More details about the exact release date and storyline are expected soon.",
-    "Production of anime series in Indian cinema has been increasing in recent times.",
-    "Indian artists are increasingly working to promote their own stories and original creations."
-   ],
-   "closing": "Project Maya could become a significant milestone in India's animation industry."
-  },
-  "front_cat": "cinema_culture",
-  "image_query": "anime series india",
-  "wiki_subject": "Anime",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "47c80eb8c8b2",
-  "topic_ta": "சினிமா",
-  "published_at": "2026-10-01T03:06+05:30",
-  "links": [
-   "https://www.thehindu.com/entertainment/movies/project-maya-short-form-hindi-anime-series-canvas-app-otaku-bharat-studios-october-release-canvas-app/article71527225.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%92%E3%83%AD%E3%82%A4%E3%83%B3%E3%81%9F%E3%82%8B%E3%82%82%E3%81%AE%EF%BC%81%EF%BD%9E%E5%AB%8C%E3%82%8F%E3%82%8C%E3%83%92%E3%83%AD%E3%82%A4%E3%83%B3%E3%81%A8%E5%86%85%E7%B7%92%E3%81%AE%E3%81%8A%E4%BB%95%E4%BA%8B%EF%BD%9E%E3%80%8D%E7%AC%AC2%E5%BC%BEPV_-_4%E6%9C%887%E6%97%A5%EF%BC%88%E6%9C%A8%EF%BC%89%E6%94%BE%E9%80%81%E9%96%8B%E5%A7%8B.webm/1920px--TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%92%E3%83%AD%E3%82%A4%E3%83%B3%E3%81%9F%E3%82%8B%E3%82%82%E3%81%AE%EF%BC%81%EF%BD%9E%E5%AB%8C%E3%82%8F%E3%82%8C%E3%83%92%E3%83%AD%E3%82%A4%E3%83%B3%E3%81%A8%E5%86%85%E7%B7%92%E3%81%AE%E3%81%8A%E4%BB%95%E4%BA%8B%EF%BD%9E%E3%80%8D%E7%AC%AC2%E5%BC%BEPV_-_4%E6%9C%887%E6%97%A5%EF%BC%88%E6%9C%A8%EF%BC%89%E6%94%BE%E9%80%81%E9%96%8B%E5%A7%8B.webm.jpg",
-   "credit": "விக்கிமீடியா · Anime",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Anime",
-   "symbolic": false
-  },
-  "audio": "data/audio/47c80eb8c8b2.mp3",
-  "created_ts": 1790804180.33049,
-  "status": "published"
- },
- {
-  "headline": "எம்டிஎல் பணிக்கற்றல் இரண்டாம் அபேக்ஷை பட்டியல் 2026 (சுற்று 3) — குழு அ, குழு ஆ ஆவண சரிபார்ப்பு அட்டவணை",
-  "lines": [
-   "எம்டிஎல் பணிக்கற்றல் இரண்டாம் அபேக்ஷை பட்டியல் 2026 மூன்றாம் சுற்றுக்கு செப்டம்பர் 30-ம் தேதி வெளியிடப்பட்டுள்ளது.",
-   "குழு அ மற்றும் குழு ஆ பட்டியல்கள், ஆவண சரிபார்ப்புத் தேதிகள் மற்றும் நிலையம் வருகை விவரங்கள் பிரசுரமாயுள்ளன.",
-   "தேர்வு பெற்ற விண்ணப்பதாரர்கள் குறிப்பிட்ட தேதிக்கு பணிக்கற்றல் நிலையங்களுக்கு ஆவண சரிபார்ப்புக்காக நேரடியாக வர வேண்டும்.",
-   "ஆவண சரிபார்ப்பு செயல்முறை தொடர்ந்து நடைபெற உள்ளது.",
-   "விண்ணப்பதாரர்கள் எம்டிஎல் அலுவலக வலைத்தளத்தில் பட்டியலை சரிபார்த்து ஆவண சரிபார்ப்புத் தேதிக்கு முன்பே அனைத்துத் தேவையான பத்திரிகைகளை ஆயத்த செய்திருக்க வேண்டும்."
-  ],
-  "closing": "எம்டிஎல் வலைத்தளத்தில் இப்போதே சுற்று 3 பட்டியல், ஆவண சரிபார்ப்பு நாள்கள் மற்றும் நிலையம் வருகை விவரங்களைத் தெரிந்துகொள்ளவும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-09-30"
-   }
-  ],
-  "topic": "jobs",
-  "entities": [
-   "எம்டிএல் (Mazagon Dock Limited)",
-   "பணிக்கற்றல் நிலையம்",
-   "ஆவண சரிபார்ப்பு"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "MDL Apprentice 2nd Waiting List Verification Schedule Released",
-   "lines": [
-    "The MDL Apprentice 2nd Waiting List for Round 3 was released on September 30, 2026.",
-    "Group A and Group B lists along with document verification schedule have been announced.",
-    "Selected candidates must report directly to the apprenticeship centers.",
-    "Document verification process will be conducted soon according to officials.",
-    "All qualified candidates should check the MDL website and prepare documents before the scheduled verification date."
-   ],
-   "closing": "Candidates can visit the MDL official website immediately to view details and gather all required documents ahead of verification."
-  },
-  "front_cat": "exam_jobs_deadline",
-  "image_query": "",
-  "wiki_subject": "Mazagon Dock Limited",
-  "person_en": "",
-  "urgent": true,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "f5f522e94706",
-  "topic_ta": "வேலை · தேர்வு",
-  "published_at": "2026-10-01T03:05+05:30",
-  "links": [
-   "https://www.freejobalert.com/articles/mdl-apprentice-2nd-waiting-list-2026-3070537"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/ce/Mazagon_Dock_Shipbuilders.svg/120px-Mazagon_Dock_Shipbuilders.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Mazagon Dock Shipbuilders",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Mazagon_Dock_Shipbuilders",
-   "symbolic": false
-  },
-  "audio": "data/audio/f5f522e94706.mp3",
-  "created_ts": 1790804156.5944653,
-  "status": "published"
- },
- {
-  "headline": "மூன்று நாட்களில் இந்தியப் பங்குச் சந்தையிலிருந்து 26,000 கோடி ரூபாய் வெளியேற்றம்",
-  "lines": [
-   "வெளிநாட்டு நிறுவன முதலீட்டாளர்கள் மூன்று வர்த்தக நாட்களில் இந்தியப் பங்குகளை 26,000 கோடி ரூபாய்க்கும் அதிகமாக விற்றுள்ளனர்.",
-   "இந்த விற்பனை செப்டம்பர் மாதத் சந்தைத் திருத்தத்தை மேலும் தீவிரப்படுத்தியுள்ளதாக பங்குச் சந்தை நிபுணர்கள் தெரிவித்துள்ளனர்.",
-   "கச்சா எண்ணெய் விலை உயர்வு, அமெரிக்க பாண்ட் மகசூல் அதிகரிப்பு, ரூபாய் மதிப்பு வீழ்ச்சி ஆகியவை அழுத்தத்திற்குக் காரணமாகக் கூறப்படுகின்றன.",
-   "இருப்பினும் பெரிய நிறுவனங்களின் பங்குகளில் தேர்ந்தெடுக்கப்பட்ட முதலீட்டு வாய்ப்புகள் உருவாகி வருவதாக ஆய்வாளர்கள் கருத்து தெரிவித்துள்ளனர்.",
-   "வெளிநாட்டு முதலீட்டாளர்களின் விற்பனை போக்கு தொடருமா என்பதை சந்தை வட்டாரங்கள் உற்று நோக்கி வருகின்றன."
-  ],
-  "closing": "இந்த விற்பனை போக்கு தொடர்ந்தால் இந்தியப் பங்குச் சந்தைக் குறியீடுகள் மேலும் பாதிக்கப்படலாம் என நிபுணர்கள் கருதுகின்றனர்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "வெளிநாட்டு நிறுவன முதலீட்டாளர்கள்",
-   "இந்தியப் பங்குச் சந்தை",
-   "கச்சா எண்ணெய்",
-   "அமெரிக்க பாண்ட் மகசூல்",
-   "ரூபாய் மதிப்பு"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Foreign Investors Pull Rs 26,000 Crore From Indian Stocks In Three Days",
-   "lines": [
-    "Foreign institutional investors sold Indian shares worth over Rs 26,000 crore across three trading sessions.",
-    "Market experts said the selling has intensified September's ongoing market correction.",
-    "High crude oil prices, rising US bond yields and a weaker rupee are cited as key pressure points.",
-    "Analysts however noted that selective investment opportunities are emerging in large-cap stocks.",
-    "Market circles are closely watching whether the foreign investor selling trend will continue."
-   ],
-   "closing": "Experts believe Indian stock market indices could face further pressure if this selling trend continues."
-  },
-  "id": "c24dad653147",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-01T03:02+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/news/fii-selling-worsens-foreign-investors-pull-out-rs-26000-crore-from-indian-equities-in-three-days/articleshow/134598196.cms"
-  ],
-  "image": {
-   "url": "data/bank/economy04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/c24dad653147.mp3",
-  "created_ts": 1790803929.2356575,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "இணைந்த பசுமை பட்டாசு உற்பத்திக்கு நிபந்தனையுடன் உச்ச நீதிமன்ற அனுமதி",
-  "lines": [
-   "இணைந்த பசுமை பட்டாசுகளை உற்பத்தி செய்ய உச்ச நீதிமன்றம் நிபந்தனைகளுடன் அனுமதி வழங்கியுள்ளது.",
-   "சிவகாசி பட்டாசு தொழிற்றுறையின் மொத்த உற்பத்தியில் இணைந்த பட்டாசுகள் குறைந்தது இருபது சதவீதம் இடம்பெற்றிருந்தன.",
-   "மாசு குறித்த கவலைகளைக் காரணம் காட்டி 2018ஆம் ஆண்டு இதே நீதிமன்றம் இந்த வகை பட்டாசுகளுக்குத் தடை விதித்திருந்தது.",
-   "அந்தத் தடையால் சிவகாசி பட்டாசு தொழிற்றுறையினர் பெரும் வணிக இழப்புக்கு உள்ளாகியதாக தொழில் வட்டாரங்கள் தெரிவித்தன.",
-   "பசுமை பட்டாசு தரநிலைகளுக்கு உட்பட்டு இணைந்த பட்டாசுகளை உற்பத்தி செய்ய இப்போது வழிவகை செய்யப்பட்டுள்ளது."
-  ],
-  "closing": "இணைந்த பட்டாசுகள் மீதான தடை நீக்கம் சிவகாசி பட்டாசு தொழிற்றுறைக்கு பெரும் நிவாரணமாக பார்க்கப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "சிவகாசி",
-   "உச்ச நீதிமன்றம்",
-   "பட்டாசு தொழிற்துறை",
-   "பசுமை பட்டாசு"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Supreme Court conditionally permits manufacture of joined green crackers",
-   "lines": [
-    "The Supreme Court has conditionally permitted the manufacture of joined green crackers.",
-    "Joined crackers had formed at least 20 percent of the total production in Sivakasi's fireworks industry.",
-    "The same court had banned this category of crackers in 2018 citing pollution concerns.",
-    "Industry circles said the ban had caused significant business losses to Sivakasi's fireworks manufacturers.",
-    "Manufacturers can now produce joined crackers provided they meet green cracker standards."
-   ],
-   "closing": "The lifting of the ban on joined crackers is being seen as a major relief for the Sivakasi fireworks industry."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "fireworks factory Sivakasi",
-  "wiki_subject": "Sivakasi",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "d0fd64909b57",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-01T03:01+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/Madurai/sivakasi-fireworks-industry-upbeat-as-supreme-court-permits-manufacture-of-joined-green-crackers/article71527387.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Kasi_Viswanathar%2C_Sivakasi1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Sivakasi",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Sivakasi",
-   "symbolic": false
-  },
-  "audio": "data/audio/d0fd64909b57.mp3",
-  "created_ts": 1790803877.875427,
-  "status": "published"
- },
- {
-  "headline": "கச்சா எண்ணெய் விலை குறைவால் அமெரிக்க டாலருக்கு எதிராக ரூபாய் மீட்சி",
-  "lines": [
-   "அமெரிக்க டாலருக்கு எதிராக இந்திய ரூபாயின் மதிப்பு காலை நேர வீழ்ச்சியில் இருந்து மீண்டு உயர்ந்தது.",
-   "ஒரு டாலருக்கு 95.83 ரூபாயாக பரிமாற்றம் நிகழ்ந்தது, இது 0.16 சதவீத உயர்வு ஆகும்.",
-   "சர்வதேச சந்தையில் ஒரு பீப்பாய் கச்சா எண்ணெய் விலை 103 டாலருக்குக் கீழே குறைந்ததே இதற்குக் காரணம்.",
-   "அரசுத் துறை வங்கிகள் டாலரை விற்றதும், ஆசிய நாணயங்களின் பொதுவான உயர்வும் ரூபாய் மீட்சிக்கு உதவியது.",
-   "வெளிநாட்டு முதலீட்டாளர்கள் பணத்தை வெளியே எடுத்துச் சென்றபோதும் இந்த மீட்சி நிகழ்ந்துள்ளது."
-  ],
-  "closing": "கச்சா எண்ணெய் விலை மற்றும் வெளிநாட்டு முதலீட்டு நகர்வுகளைப் பொறுத்து ரூபாயின் மதிப்பு அடுத்த நாட்களில் மாறுபடலாம்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "இந்திய ரூபாய்",
-   "அமெரிக்க டாலர்",
-   "கச்சா எண்ணெய்",
-   "அரசுத் துறை வங்கிகள்"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Rupee rebounds against US dollar as crude oil prices ease",
-   "lines": [
-    "The Indian rupee recovered against the US dollar after weakening earlier in the day's trading session.",
-    "It closed at 95.83 per dollar, marking a gain of 0.16 percent.",
-    "The recovery came as global crude oil prices eased below 103 dollars per barrel.",
-    "Dollar selling by public sector banks and broader gains across Asian currencies also supported the rupee.",
-    "The rebound occurred even as foreign investors continued to pull money out of Indian markets."
-   ],
-   "closing": "The rupee's movement in coming days will likely depend on crude oil prices and foreign investment flows."
-  },
-  "front_cat": "routine",
-  "image_query": "Indian rupee currency notes",
-  "wiki_subject": "Indian rupee",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "5b71cb4a31dc",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-01T03:00+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/forex/forex-news/indian-rupee-rebounds-to-95-83-vs-us-dollar-as-crude-prices-ease/articleshow/134600948.cms"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Banknote_of_india.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Indian rupee",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Indian_rupee",
-   "symbolic": false
-  },
-  "audio": "data/audio/5b71cb4a31dc.mp3",
-  "created_ts": 1790803834.7425487,
-  "status": "published"
- },
- {
-  "headline": "பசுமை மின்விநியோக வழித்தட திட்டத்துக்கு ₹1.86 லட்சம் கோடி ஒப்புதல்",
-  "lines": [
-   "நாடு முழுவதும் பசுமை எரிசக்தியைக் கொண்டு செல்லும் புதிய மின்விநியோக வழித்தட திட்டத்திற்கு மத்திய அமைச்சரவை ஒப்புதல் அளித்துள்ளது.",
-   "இந்தத் திட்டத்திற்காக மொத்தம் ஒரு லட்சத்து எண்பத்தாறாயிரம் கோடி ரூபாய் ஒதுக்கீடு செய்யப்பட்டுள்ளது.",
-   "புதுப்பிக்கத்தக்க எரிசக்தி மூலங்களிலிருந்து உற்பத்தியாகும் மின்சாரத்தை பல்வேறு மாநிலங்களுக்குக் கொண்டு செல்ல இந்த வழித்தடம் உதவும்.",
-   "இத்திட்டம் தொடர்பான செயல்பாட்டு விவரங்கள் இதுவரை அரசால் முழுமையாக வெளியிடப்படவில்லை.",
-   "இத்திட்டம் எந்தெந்த மாநிலங்களை இணைக்கும் என்பது குறித்த விவரங்கள் அடுத்த கட்டத்தில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்தியா முழுவதும் புதுப்பிக்கத்தக்க எரிசக்தி உள்கட்டமைப்பை விரிவுபடுத்தும் முயற்சியின் ஒரு பகுதியாக இந்த ஒப்புதல் வழங்கப்பட்டுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani India",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "மத்திய அமைச்சரவை",
-   "பசுமை மின்விநியோக வழித்தடம்",
-   "இந்தியா"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Cabinet approves rupees 1.86 lakh crore green energy corridor project",
-   "lines": [
-    "The Union Cabinet approved a new power transmission corridor project to carry green energy across the country.",
-    "A total of one lakh eighty six thousand crore rupees has been allocated for the project.",
-    "The corridor will help transport electricity generated from renewable energy sources to various states.",
-    "Detailed operational aspects of the project have not yet been fully released by the government.",
-    "Further details on which states the corridor will connect are expected to be announced in the next phase."
-   ],
-   "closing": "The approval comes as part of efforts to expand renewable energy infrastructure across India."
-  },
-  "front_cat": "big_project",
-  "image_query": "power transmission lines renewable energy india",
-  "wiki_subject": "Green Energy Corridor",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "8aa47effbda5",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-10-01T02:39+05:30",
-  "links": [
-   "https://www.dinamani.com/india/2026/Sep/30/cabinet-clears-rs-186-lakh-crore-pm-dhara-green-energy-scheme"
-  ],
-  "image": {
-   "url": "data/bank/power02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/8aa47effbda5.mp3",
-  "created_ts": 1790802582.9470508,
-  "status": "published"
- },
- {
-  "headline": "பள்ளிகள் வாலிபால்: நான்கு மாவட்ட அணிகள் காலிறுதியில்",
-  "lines": [
-   "தமிழ்நாடு மாநில பள்ளிகள் வாலிபால் போட்டியில் திருச்சி, கோவை, சேலம், ஈரோடு அணிகள் காலிறுதிக்குத் தகுதி பெற்றுள்ளன.",
-   "ஆண் மற்றும் பெண் பிரிவுகளில் முறையே நான்கு அணிகள் ஈடுபட்டுக் களிமுறை நிகழ்த்தி வருகிறது.",
-   "போட்டி மாநிலத்தின் பல மாவட்ட பள்ளிகளிலிருந்து பங்கேற்பு பெற்றுள்ளது.",
-   "காலிறுதி போட்டிகள் அடுத்த வாரத்தில் நடைபெற வாய்ப்புள்ளது.",
-   "இந்த வாலிபால் போட்டி மாணவர்களின் ஆற்றல் மற்றும் திறமை குறிப்பாக சோதிக்கப்படும் நிகழ்வாக அமைந்துள்ளது."
-  ],
-  "closing": "மாநில அளவிலான பள்ளிகள் வாலிபால் போட்டி மாணவ விளையாட்டு வீரர்களின் திறமையை வெளிப்படுத்துவதற்கு ஒரு பெரிய களமாக அமைந்துள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani Sports",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "திருச்சி",
-   "கோவை",
-   "சேலம்",
-   "ஈரோடு",
-   "தமிழ்நாடு பள்ளிகள் வாலிபால் போட்டி"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "School volleyball: Four district teams in semi-finals",
-   "lines": [
-    "Tiruchirappalli, Coimbatore, Salem, and Erode school teams have qualified for the semi-finals of the Tamil Nadu state school volleyball championship.",
-    "Teams from both boys and girls categories are competing across multiple districts of the state.",
-    "The tournament has drawn participation from several school volleyball teams across different districts.",
-    "Semi-final matches are expected to take place next week.",
-    "This school volleyball championship serves as a platform to test the skills and tactics of young athletes."
-   ],
-   "closing": "The state-level school volleyball tournament is likely to provide a significant platform for young volleyball players to showcase their talent and potential."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "900aebfb0b92",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-10-01T02:34+05:30",
-  "links": [
-   "https://www.dinamani.com/sports/sports-news/2026/Sep/30/state-school-volleyball-trichy-coimbatore-salem-erode-teams-in-quarterfinals"
-  ],
-  "image": {
-   "url": "data/bank/sports01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/900aebfb0b92.mp3",
-  "created_ts": 1790802298.250551,
-  "status": "published"
- },
- {
-  "headline": "புதுச்சேரி சிறுமி பாலியல் கொலை வழக்கு: குற்றவாளிக்கு விதிக்கப்பட்ட தூக்குத் தண்டனை ஆயுள் தண்டனையாகக் குறைக்கப்பட்டது",
-  "lines": [
-   "புதுச்சேரியில் நடந்த சிறுமி பாலியல் வன்கொடுமை மற்றும் கொலை வழக்கில் குற்றவாளிக்கு தண்டனை குறைக்கப்பட்டுள்ளது.",
-   "முன்னதாக நீதிமன்றம் இந்த வழக்கில் குற்றவாளிக்கு தூக்குத் தண்டனை விதித்திருந்தது.",
-   "மேல்முறையீட்டு விசாரணையின் பின்னர் அந்த தூக்குத் தண்டனை ஆயுள் தண்டனையாக மாற்றப்பட்டுள்ளது.",
-   "இந்த வழக்கு பாதுகாப்பு மற்றும் நீதி தொடர்பாக பொதுமக்கள் மத்தியில் கவனம் பெற்றிருந்தது.",
-   "இந்த தீர்ப்புக்கு எதிராக மேல்முறையீடு செய்யப்படுமா என்பது தொடர்பாக அதிகாரப்பூர்வ தகவல் இதுவரை வெளியாகவில்லை."
-  ],
-  "closing": "சிறார் பாதுகாப்பு தொடர்பான வழக்குகளில் விவரங்கள் வெளியிடப்படாத நிலையில், தண்டனை குறைப்பு தொடர்பான காரணங்கள் இன்னும் அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "தினமணி",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "தினமணி",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "புதுச்சேரி",
-   "நீதிமன்றம்",
-   "சிறார் பாதுகாப்பு"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Puducherry Child Rape-Murder Case Death Sentence Commuted to Life",
-   "lines": [
-    "In a child sexual assault and murder case in Puducherry, the convict's death sentence has been reduced.",
-    "The court had earlier awarded the death penalty to the accused in this case.",
-    "Following an appeal review, the death sentence was commuted to life imprisonment.",
-    "The case had drawn public attention regarding child safety and justice.",
-    "Official details on whether the verdict will be further challenged have not yet been released."
-   ],
-   "closing": "As details in cases involving minors are not disclosed, the specific reasons for the sentence reduction have not been officially released yet."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "3dc0ef9c7611",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-10-01T02:34+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Sep/30/puducherry-minor-girl-sexual-assault-and-murder-case-convicts-death-sentence-commuted-to-life-imprisonment",
-   "https://www.dinamani.com/tamilnadu/2026/Sep/30/puducherry-muthiyalpet-girls-murder-convicts-death-sentence-commuted-to-life-imprisonment"
-  ],
-  "image": {
-   "url": "data/bank/court01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/3dc0ef9c7611.mp3",
-  "created_ts": 1790802265.35115,
-  "status": "published"
- },
- {
-  "headline": "பெரியவர்களுக்கான குழந்தைப் படம் என்று கூறும் ஃபாஹத் ஃபாசில்",
-  "lines": [
-   "மலையாள நடிகர் ஃபாஹத் ஃபாசில் தனது புதிய திரைப்படத்தைப் பற்றி பேசினார்.",
-   "ஹைதராபாத்தில் உள்ள உண்மையான இடங்களில் படமாக்கப்பட்ட இந்தப் படத்திற்கு 'டோன்ட் ட்ரபிள் தி ட்ரபிள்' என்று பெயரிடப்பட்டுள்ளது.",
-   "இந்தப் படத்தை பெரியவர்களுக்கான குழந்தைப் படம் என்று அவர் விவரிக்கிறார்.",
-   "24 ஆண்டுகளாக சினிமாவில் பணியாற்றி வரும் அவர் மலையாளம், தெலுங்கு, தமிழ் சினிமா துறைகளைப் பற்றி பேசியுள்ளார்.",
-   "இந்த நடிகரின் முழு நேர்காணல் ஞாயிறு வாசிப்புப் பகுதியில் கிடைக்கிறது."
-  ],
-  "closing": "மலையாளம், தெலுங்கு, தமிழ் சினிமா துறைகளைப் பற்றி அவர் மேலும் விரிவாக விளக்கியுள்ளார்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Cinema",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "cinema",
-  "entities": [
-   "ഫാഹദ് ഫാസിൽ",
-   "Don't Trouble The Trouble",
-   "ഹൈദരാബാദ്",
-   "മലയാള സിനിമ"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Fahadh Faasil calls new film a kids' movie for grown-ups",
-   "lines": [
-    "Malayalam actor Fahadh Faasil has spoken about his upcoming film in a recent interview.",
-    "The film, titled 'Don't Trouble The Trouble', was shot on real locations in Hyderabad.",
-    "He describes the film as a kids' movie made for adult audiences.",
-    "With 24 years in cinema, he has discussed the Malayalam, Telugu, and Tamil film industries.",
-    "His full interview is available in the entertainment section."
-   ],
-   "closing": "He has elaborated on the Malayalam, Telugu, and Tamil cinema industries."
-  },
-  "front_cat": "cinema_culture",
-  "image_query": "Fahadh Faasil",
-  "wiki_subject": "Fahadh Faasil",
-  "person_en": "Fahadh Faasil",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "1126b6d551df",
-  "topic_ta": "சினிமா",
-  "published_at": "2026-10-01T02:00+05:30",
-  "links": [
-   "https://www.thehindu.com/entertainment/movies/fahadh-faasil-interview-dont-trouble-the-trouble-is-a-kids-film-for-grown-ups/article71518770.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Fahadh_Faasil_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Fahadh Faasil",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Fahadh_Faasil",
-   "symbolic": false
-  },
-  "audio": "data/audio/1126b6d551df.mp3",
-  "created_ts": 1790800213.0728393,
   "status": "published"
  }
 ]
