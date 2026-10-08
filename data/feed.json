@@ -1,5 +1,445 @@
 [
  {
+  "id": "art_tech_20261008",
+  "headline": "UPI பரிவர்த்தனை மற்றும் ஆதார் தரவுகளை பாதுகாப்பாக வைக்கும் வழிகள்",
+  "lines": [
+   "UPI பயன்பாட்டில் பரிவர்த்தனை செய்யும்போது உங்கள் UPI பின் எண்ணை யாருடனும் பகிர்ந்துகொள்ளக் கூடாது.",
+   "ஆதார் எண்ணை பகிரும் சூழல்களில் mAadhaar செயலியில் கிடைக்கும் Masked Aadhaar விருப்பத்தை பயன்படுத்தலாம்.",
+   "அறியாத தொலைபேசி எண்களிலிருந்து வரும் OTP கோரிக்கைகளுக்கு பதிலளிக்காமல் இருப்பது பாதுகாப்பானது.",
+   "மொபைல் செயலிகளுக்கு தேவையற்ற அனுமதிகளை வழங்குவதை தவிர்த்து, செட்டிங்ஸில் அவ்வப்போது சரிபார்க்கலாம்.",
+   "பொது வைஃபை நெட்வொர்க்குகளில் வங்கி பரிவர்த்தனைகளை செய்வதைத் தவிர்ப்பது பாதுகாப்பிற்கு நல்லது."
+  ],
+  "closing": "சிறிய எச்சரிக்கை நடவடிக்கைகள் பெரிய மோசடிகளைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-08"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "இணையப் பாதுகாப்பு",
+   "UPI பாதுகாப்பு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-08T19:48+05:30",
+  "created_ts": 1791469132.1314404,
+  "audio": "data/audio/art_tech_20261008.mp3"
+ },
+ {
+  "headline": "அக்டோபரில் பத்து பெரிய அரசு வேலைவாய்ப்பு அறிவிப்புகள்",
+  "lines": [
+   "ரயில்வே, தமிழ்நாடு பொதுச் சேவை ஆணையம், என்ஐசிஎல், ஹால் மற்றும் நீதிமன்ற, பாதுகாப்பு வேலைகளில் பத்து பெரிய அரசு நியமன அறிவிப்புகள் இந்த மாதத்தில் வெளியாகியுள்ளன.",
+   "ஒவ்வொரு பதவிக்கும் விண்ணப்பிக்க தேவையான தகுதி, பணி விபரங்கள் மற்றும் கடைசி நாளுக்கான விவரங்கள் பொதுவாக வெளிவந்துவிட்டன.",
+   "வேலைதேடுபவர்கள் தங்களுக்கு ஏற்ற வேலைகளை தேர்வு செய்து, விவரங்களைப் பார்த்து விண்ணப்பங்களை சமர்ப்பிக்க வேண்டும்.",
+   "ஒவ்வொரு பதவிக்கும் விண்ணப்பிப்பதற்கு முன் கல்வி, அனுபவம், வயது மற்றும் ஆரோக்கியம் சார்ந்த தகுதிகளை சரிபார்ப்பது அவசியம்.",
+   "விண்ணப்பிப்பதற்கான இணையத்தளம் மற்றும் கடைசி நாளைப் பற்றிய தகவல்கள் அரசு அறிவிப்பிலிருந்து கிடைக்கும்."
+  ],
+  "closing": "ரயில்வே, தமிழ்நாடு பொதுச் சேவை ஆணையம் மற்றும் பிற அரசு நிறுவனங்களின் இந்த அறிவிப்புகளுக்கு கடைசி நாளுக்கு முன்பாகவே விண்ணப்பிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-10-08"
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "ரயில்வே",
+   "தமிழ்நாடு பொதுச் சேவை ஆணையம் (திமுக)",
+   "என்ஐசிஎல்",
+   "ஹால்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Ten Major Government Job Recruitment Announcements in October",
+   "lines": [
+    "Ten major government recruitment announcements have been released this month in Railways, TNPSC, NICL, HAL and court positions.",
+    "Eligibility criteria, job descriptions and last dates for applying for each position are now publicly available.",
+    "Job seekers can select positions suitable for them, review details and submit their applications accordingly.",
+    "Before applying for each position, it is essential to verify educational qualifications, experience, age and health-related eligibility requirements.",
+    "Information about the application website and last dates for these government organization announcements can be found in official notices."
+   ],
+   "closing": "Applications for these Railways, TNPSC and other government organization positions must be submitted before the respective last dates."
+  },
+  "front_cat": "exam_jobs_deadline",
+  "image_query": "government recruitment job fair",
+  "wiki_subject": "Government recruitment in India",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "b4efada9452b",
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-10-08T19:48+05:30",
+  "links": [
+   "https://www.freejobalert.com/articles/10-major-govt-recruitment-opportunities-october-2026-10458"
+  ],
+  "image": {
+   "url": "data/bank/jobs05.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/b4efada9452b.mp3",
+  "created_ts": 1791469095.2762043,
+  "status": "published"
+ },
+ {
+  "headline": "மின்னணு வாக்குப்பதிவு இயந்திரத்துக்கு எதிராக மக்கள் இயக்கம் வேண்டும் என திருமாவளவன்",
+  "lines": [
+   "இந்தியா கூட்டணி நடத்தும் போராட்டத்துக்கு விடுதலைச் சிறுத்தைகள் கட்சியின் தலைவர் தொல்.திருமாவளவன் ஆதரவு தெரிவித்துள்ளார்.",
+   "தலைமை தேர்தல் ஆணையர் பதவி விலக வேண்டும் என்ற கோரிக்கையில் மட்டும் போராட்டம் நிற்கக்கூடாது என அவர் கூறியுள்ளார்.",
+   "மோடி அரசுக்கும் மின்னணு வாக்குப்பதிவு இயந்திரங்களுக்கும் எதிராக இது பெரும் மக்கள் இயக்கமாக வளர வேண்டும் என திருமாவளவன் தெரிவித்தார்.",
+   "இந்தியா கூட்டணிக் கட்சிகள் தேர்தல் முறையில் வெளிப்படைத்தன்மை கோரி தொடர்ந்து போராட்டம் நடத்தி வருகின்றன.",
+   "இந்தப் போராட்டம் அடுத்து எவ்வாறு விரிவடையும் என்பது குறித்து இந்தியா கூட்டணிக் கட்சிகள் விரைவில் முடிவெடுக்கும் எனத் தெரிகிறது."
+  ],
+  "closing": "தேர்தல் ஆணையத்தின் செயல்பாடு குறித்து எதிர்க்கட்சிகள் தொடர்ந்து கேள்வி எழுப்பி வருகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தொல்.திருமாவளவன்",
+   "இந்தியா கூட்டணி",
+   "விடுதலைச் சிறுத்தைகள்",
+   "தேர்தல் ஆணையம்",
+   "மோடி அரசு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Thirumavalavan calls for mass movement against EVMs",
+   "lines": [
+    "VCK leader Thol. Thirumavalavan has extended support to the INDIA bloc's protest.",
+    "He said the protest should not remain limited to demanding the Chief Election Commissioner's resignation.",
+    "He stated it should grow into a mass people's movement against the Modi government and EVMs.",
+    "INDIA bloc parties have been continuing protests demanding transparency in the electoral process.",
+    "It remains to be seen how the INDIA bloc parties decide to expand this protest further."
+   ],
+   "closing": "Opposition parties have repeatedly raised questions over the functioning of the Election Commission."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Thol. Thirumavalavan",
+  "person_en": "Thol. Thirumavalavan",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "4d0797c7a016",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-08T19:46+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/thirumavalavan-backs-india-bloc-protest-calls-for-peoples-movement-against-evms/article71559212.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Dr_Thiruma_Phd.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Thol. Thirumavalavan",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Thol._Thirumavalavan",
+   "symbolic": false
+  },
+  "audio": "data/audio/4d0797c7a016.mp3",
+  "created_ts": 1791468971.6008692,
+  "status": "published"
+ },
+ {
+  "headline": "அதிமுக எம்எல்ஏக்கள் தகுதிநீக்க வழக்கு, உச்ச நீதிமன்றத்தில் நாளை விசாரணை",
+  "lines": [
+   "அதிமுக எம்எல்ஏக்கள் தகுதிநீக்கம் தொடர்பான வழக்கு உச்ச நீதிமன்றத்தில் நாளை விசாரணைக்கு வருகிறது.",
+   "இந்த வழக்கு தமிழ்நாடு சட்டமன்றத் தலைவரின் முந்தைய முடிவைச் சார்ந்து நீண்ட காலமாக நடைபெற்று வருகிறது.",
+   "வழக்கின் தற்போதைய நிலை குறித்து உச்ச நீதிமன்றம் நாளை ஆய்வு செய்யும் என எதிர்பார்க்கப்படுகிறது.",
+   "இந்த வழக்கு தமிழ்நாடு அரசியலில் கடந்த காலங்களில் பெரும் விவாதத்தை ஏற்படுத்தியிருந்தது.",
+   "நாளை நடைபெறும் விசாரணையின் முடிவு அரசியல் கட்சிகளிடையே கவனத்துடன் எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்த வழக்கின் இறுதித் தீர்ப்பு தமிழ்நாடு சட்டமன்ற அரசியலில் என்ன தாக்கத்தை ஏற்படுத்தும் என்பது கவனிக்கத்தக்கது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-08"
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "அதிமுக",
+   "உச்ச நீதிமன்றம்",
+   "தமிழ்நாடு சட்டமன்றம்",
+   "எம்எல்ஏக்கள்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "AIADMK MLAs disqualification case hearing in Supreme Court tomorrow",
+   "lines": [
+    "The Supreme Court is set to hear the AIADMK MLAs disqualification case tomorrow.",
+    "This case has been ongoing for a long time, linked to an earlier decision by the Tamil Nadu Assembly Speaker.",
+    "The Supreme Court is expected to review the current status of the case during tomorrow's hearing.",
+    "The case had earlier triggered significant debate within Tamil Nadu's political circles.",
+    "The outcome of tomorrow's hearing is being closely watched by political parties."
+   ],
+   "closing": "The final verdict in this case is being watched for its potential impact on Tamil Nadu assembly politics."
+  },
+  "front_cat": "assembly_event",
+  "image_query": "Supreme Court India building",
+  "wiki_subject": "Supreme Court of India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "0fe765ea4791",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-08T19:44+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/08/disqualification-of-aiadmk-mlas-hearing-in-supreme-court-tomorrow"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Emblem_of_the_Supreme_Court_of_India.svg/1280px-Emblem_of_the_Supreme_Court_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Supreme Court of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Supreme_Court_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/0fe765ea4791.mp3",
+  "created_ts": 1791468885.4669075,
+  "status": "published"
+ },
+ {
+  "headline": "கோடைக்கானல் நிலம் விவகாரம்: தேர்தல் மனு வழக்கில் ஆவணம் சமர்ப்பிப்பு",
+  "lines": [
+   "தேர்தல் மனு தொடர்பான வழக்கு ஒன்றில் முதல்வர் விஜய் கோடைக்கானலில் உள்ள நிலம் தொடர்பான கிரயப் பத்திரத்தை சென்னை உயர்நீதிமன்றத்தில் சமர்ப்பித்தார்.",
+   "இந்த வழக்கை நீதிபதி வி.லட்சுமிநாராயணன் விசாரணை மேற்கொண்டார்.",
+   "நிலம் தொடர்பாக முரண்பட்ட ஆவணங்கள் இருக்கும்போது அதன் உரிமையை தேர்தல் தீர்ப்பாயம் தீர்மானிக்க முடியுமா என்று நீதிபதி கேள்வி எழுப்பினார்.",
+   "வழக்கின் முழு பின்னணி மற்றும் இதில் சம்பந்தப்பட்ட தரப்புகள் குறித்த விவரங்கள் முழுமையாக வெளியாகவில்லை.",
+   "இந்த வழக்கு மேலும் விசாரணைக்கு வரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "தேர்தல் மனுக்களில் சொத்து ஆவணங்கள் தொடர்பான சர்ச்சைகள் எவ்வாறு தீர்மானிக்கப்படும் என்பதை இந்த வழக்கு சுட்டிக்காட்டுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "கோடைக்கானல்",
+   "சென்னை உயர்நீதிமன்றம்",
+   "நீதிபதி வி.லட்சுமிநாராயணன்",
+   "தேர்தல் மனு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Election petition: Kodaikanal land sale deed produced in Madras High Court",
+   "lines": [
+    "In an election petition case, a person named Vijay produced a sale deed concerning land in Kodaikanal before the Madras High Court.",
+    "The case was heard by Justice V. Lakshminarayanan.",
+    "The judge asked whether an election tribunal can decide the title of a property when faced with conflicting documents.",
+    "Full details of the background and parties involved in the case have not been fully disclosed.",
+    "The case is expected to come up for further hearing."
+   ],
+   "closing": "The case highlights how disputes over property documents are examined in election petition proceedings."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Madras High Court",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "a9347ff2e060",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-08T19:44+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/election-petition-tamil-nadu-cm-vijay-produces-kodaikanal-land-sale-deed-before-madras-high-court/article71558877.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Madras High Court",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
+   "symbolic": false
+  },
+  "audio": "data/audio/a9347ff2e060.mp3",
+  "created_ts": 1791468850.4968364,
+  "status": "published"
+ },
+ {
+  "headline": "நெல்லை அருகே பேருந்து டிப்பர் லாரி மோதல் நடத்துநர் பலி",
+  "lines": [
+   "திருநெல்வேலி அருகே அரசுப் பேருந்து ஒன்று டிப்பர் லாரியுடன் நேருக்கு நேர் மோதிக்கொண்டது.",
+   "இந்த விபத்தில் பேருந்து நடத்துநர் உயிரிழந்தார், இருபது பேர் காயமடைந்தனர்.",
+   "காயமடைந்தவர்கள் அருகிலுள்ள அரசு மருத்துவமனையில் சிகிச்சை பெற்று வருகின்றனர்.",
+   "விபத்து ஏற்பட்ட காரணம் குறித்து காவல் துறை விசாரணை நடத்தி வருகிறது.",
+   "பலியான நடத்துநர் மற்றும் காயமடைந்தவர்கள் குறித்த விரிவான தகவல்கள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "விபத்துக்கான சரியான காரணம் மற்றும் பொறுப்பாளர்கள் குறித்து காவல் துறை விசாரணை தொடர்கிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "திருநெல்வேலி",
+   "அரசுப் பேருந்து",
+   "டிப்பர் லாரி"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Bus-dumper truck head-on collision near Nellai kills conductor",
+   "lines": [
+    "A government bus collided head-on with a dumper truck near Tirunelveli.",
+    "The accident killed the bus conductor and left twenty people injured.",
+    "The injured are undergoing treatment at a nearby government hospital.",
+    "Police are investigating the exact cause of the collision.",
+    "Further details about the deceased and injured are awaited."
+   ],
+   "closing": "Police investigation into the cause of the accident and responsibility is ongoing.",
+   "closing_type": "watch",
+   "sources": [
+    {
+     "name": "Dinamani TN",
+     "doc": null,
+     "date": null
+    }
+   ],
+   "topic": "crime",
+   "entities": [
+    "Tirunelveli",
+    "government bus",
+    "dumper truck"
+   ],
+   "confidence": 0.5,
+   "en_headline_check": true
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "012ce4280aba",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-08T19:41+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/08/collision-between-govt-bus-and-tipper-lorry-near-nellai-conductor-killed"
+  ],
+  "image": {
+   "url": "data/bank/crime21.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/012ce4280aba.mp3",
+  "created_ts": 1791468712.9756176,
+  "status": "published"
+ },
+ {
+  "headline": "உக்ரைன் கிராமடோர்ஸ்க் நகரில் பேருந்துகள் மீது ரஷ்ய தாக்குதல், குறைந்தது முப்பது பேர் பலி",
+  "lines": [
+   "உக்ரைனின் கிழக்குப் பகுதியான டோனெட்ஸ்க் மாகாணத்தில் உள்ள கிராமடோர்ஸ்க் நகரில் பேருந்துகள் மீது ரஷ்யா தாக்குதல் நடத்தியது.",
+   "இந்தத் தாக்குதலில் குறைந்தது முப்பது பேர் உயிரிழந்ததாக உள்ளூர் அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "மேலும் பதினெட்டு பேர் காயமடைந்ததாக அதிகாரிகள் தெரிவித்தனர்.",
+   "முடிந்தளவு அதிக பொதுமக்களைக் கொல்லும் நோக்கத்துடன் ரஷ்யா நெரிசலான வாகனங்களைக் குறிவைத்ததாக உக்ரைன் குற்றம் சாட்டியுள்ளது.",
+   "உக்ரைன் மீதான ரஷ்யாவின் உயிரழிப்புத் தாக்குதல்கள் சமீப காலமாக அதிகரித்து வருவதாக அறிக்கைகள் தெரிவிக்கின்றன."
+  ],
+  "closing": "டோனெட்ஸ்க் மாகாணத்தில் உள்ள கிராமடோர்ஸ்க் நகரம் போர்முனைக்கு அருகில் அமைந்துள்ள நகரமாகும், இது தொடர்ந்து தாக்குதல்களுக்கு உள்ளாகி வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": "2026-10-08"
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": "2026-10-08"
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "கிராமடோர்ஸ்க்",
+   "உக்ரைன்",
+   "ரஷ்யா",
+   "டொனெட்ஸ்க் மாகாணம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Russian strike on buses kills at least 30 in Ukraine's Kramatorsk",
+   "lines": [
+    "Russia struck buses in the city of Kramatorsk in Ukraine's eastern Donetsk region.",
+    "At least 30 people were killed in the attack, local officials said.",
+    "Another 18 people were wounded, authorities reported.",
+    "Ukraine accused Russia of targeting crowded vehicles to kill as many civilians as possible.",
+    "Reports indicate deadly Russian attacks on Ukraine have surged in recent times."
+   ],
+   "closing": "Kramatorsk, located near the front line in Donetsk region, has repeatedly come under attack."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "wiki_subject": "Kramatorsk",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "16c67f2bd64e",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-08T19:41+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/news/2026/10/8/russia-attack-in-ukraines-kramatorsk-kills-12?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B8_%D1%82%D0%B0_%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B8_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BA%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BE%D0%B1%D1%83%D0%B4%D1%96%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D1%83_DJI_0377.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Kramatorsk",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Kramatorsk",
+   "symbolic": false
+  },
+  "audio": "data/audio/16c67f2bd64e.mp3",
+  "created_ts": 1791468681.7108147,
+  "status": "published"
+ },
+ {
   "id": "art_health_20261008",
   "headline": "பருவமழைக் காலத்தில் உடல்நலம் காக்க எளிய வழிகள்",
   "lines": [
@@ -18576,455 +19016,6 @@
   },
   "audio": "data/audio/1126b6d551df.mp3",
   "created_ts": 1790800213.0728393,
-  "status": "published"
- },
- {
-  "headline": "பிரதமர் மோடி, டிரம்ப் இடையே தொலைபேசி உரையாடல்",
-  "lines": [
-   "பிரதமர் நரேந்திர மோடி மற்றும் அமெரிக்க அதிபர் டொனால்ட் டிரம்ப் இடையே தொலைபேசியில் பேச்சுவார்த்தை நடைபெற்றது.",
-   "இருவரும் சர்வதேச அமைதியை ஊக்குவிக்கும் வழிகள் குறித்து ஆலோசனை நடத்தினர் என்று தகவல் வெளியாகியுள்ளது.",
-   "இந்த உரையாடல் தொடர்பான விரிவான தகவல்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-   "இந்தியா மற்றும் அமெரிக்கா இடையேயான உறவுகள் தொடர்பாகவும் இந்த உரையாடலில் கருத்துப் பரிமாற்றம் நடந்திருக்கலாம் என்று கருதப்படுகிறது.",
-   "இரு தலைவர்களின் அலுவலகங்களிலிருந்து மேலும் விரிவான அறிக்கை வெளியாக வாய்ப்புள்ளது."
-  ],
-  "closing": "இந்த தொலைபேசி உரையாடல் தொடர்பான முழு விவரங்கள் இன்னும் வெளியாகவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani India",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "நரேந்திர மோடி",
-   "டொனால்ட் டிரம்ப்",
-   "இந்தியா",
-   "அமெரிக்கா"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "PM Modi, Trump hold phone conversation on global peace",
-   "lines": [
-    "Prime Minister Narendra Modi and US President Donald Trump held a telephonic conversation.",
-    "The two leaders reportedly discussed ways to promote international peace.",
-    "Detailed information about the conversation has not yet been officially released.",
-    "The discussion is believed to have also touched upon India-US relations.",
-    "A more detailed statement is expected to be issued by the offices of the two leaders."
-   ],
-   "closing": "Full details of the phone conversation are yet to be made public."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Narendra Modi",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "15ac6946142d",
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-10-01T01:59+05:30",
-  "links": [
-   "https://www.dinamani.com/india/2026/Sep/30/modi-trump-hold-productive-phone-call"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Narendra Modi",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Narendra_Modi",
-   "symbolic": false
-  },
-  "audio": "data/audio/15ac6946142d.mp3",
-  "created_ts": 1790800166.251573,
-  "status": "published"
- },
- {
-  "headline": "ஃப்ளைதுபாய் விமான சம்பவத்தில் காயமடைந்த இந்திய விமானிக்கு நெதன்யாகு பாராட்டு",
-  "lines": [
-   "ஃப்ளைதுபாய் நிறுவனத்தின் விமானம் ஒன்று வழிமாற்றப்பட்ட சம்பவத்தில் இந்திய விமானி மச்சர் காயமடைந்தார்.",
-   "அவரது நடவடிக்கையால் இஸ்ரேலிய குடிமக்கள் உள்பட மொத்தம் 174 பயணிகளின் உயிர் காப்பாற்றப்பட்டது.",
-   "இஸ்ரேலிய பிரதமர் நெதன்யாகு, விமானி மச்சர் அவர்களைப் பாராட்டி அறிக்கை வெளியிட்டார்.",
-   "விமானம் ஏன் வழிமாற்றப்பட்டது என்பது குறித்த முழு விவரங்கள் இதுவரை வெளியாகவில்லை.",
-   "விமானி மச்சர் அவர்களின் தற்போதைய உடல்நிலை குறித்த கூடுதல் தகவல்கள் எதிர்பார்க்கப்படுகின்றன."
-  ],
-  "closing": "இந்திய விமானி ஒருவரை இஸ்ரேலிய அரசு தலைவர் நேரடியாகப் பாராட்டியிருப்பது கவனத்தை ஈர்த்துள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "இந்தியா",
-   "இஸ்ரேல்",
-   "ஃப்ளைதுபாய்",
-   "நெதன்யாகு",
-   "விமானி மச்சர்"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Israeli PM praises Indian pilot hurt in flydubai flight diversion",
-   "lines": [
-    "An Indian pilot named Machchhar was injured after a flydubai flight was diverted.",
-    "His actions helped save the lives of 174 passengers, including Israeli citizens and other nationals.",
-    "Israeli Prime Minister Netanyahu issued a statement praising pilot Machchhar.",
-    "Full details on why the flight was diverted have not yet been released.",
-    "Further updates on the pilot's current health condition are awaited."
-   ],
-   "closing": "The direct praise from an Israeli head of government for an Indian pilot has drawn attention."
-  },
-  "id": "2c1724bb1f24",
-  "flags": [],
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-10-01T01:57+05:30",
-  "links": [
-   "https://www.thehindu.com/news/international/israeli-pm-hails-indian-pilot-wounded-in-diverted-flydubai-flight/article71530244.ece",
-   "https://www.thehindu.com/news/international/israeli-pm-hails-indian-pilot-wounded-in-diverted-flydubai-flight/article71530244.ece"
-  ],
-  "image": {
-   "url": "data/bank/india01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/2c1724bb1f24.mp3",
-  "created_ts": 1790800060.4853466,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "புதிதாக தோன்றும் நோய்களுக்கான மருந்து இந்தியாவின் அடுத்த கட்ட வளர்ச்சி",
-  "lines": [
-   "உலக மக்களுக்கு மருந்து விலையைக் குறைத்து உதவிய இந்தியா, இப்போது புதிதாக தோன்றும் நோய்களுக்கான மருந்து அணுகல் சாத்தியத்தை ஆய்வு செய்கிறது.",
-   "புதிதாக தோன்றும் நோய்களுக்கான மருந்துப் பிரிவு இன்று பல நாடுகளுக்குப் புதிய வாய்ப்பாக மாறி வருகிறது.",
-   "ஒழுங்குமுறைச் சட்டங்கள், பொருளாதார ஊக்கத்தொகைகள், அரசு கொள்முதல் ஆகியவற்றின் மூலம் இந்தியா இதைச் சாத்தியமாக்கலாம் என்று ஆய்வாளர்கள் கருதுகின்றனர்.",
-   "உலக மருந்து வணிகத்தில் இந்தியாவின் பங்கை வலுப்படுத்த இந்தப் பிரிவு உதவக்கூடும்.",
-   "சுகாதாரத் துறை நிபுணர்கள் இந்தத் திட்டங்களை முன்னெடுக்க அடுத்த சில ஆண்டுகள் முக்கியமானவை என்று கருதுகின்றனர்."
-  ],
-  "closing": "இந்தியா மருந்து ஏற்றுமதியை விரிவுபடுத்த, புதிதாக தோன்றும் நோய்களுக்கான மருந்துப் பிரிவு இன்றியமையாததாக இருக்கும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "இந்தியா",
-   "மருந்து நிறுவனங்கள்",
-   "உலக சுகாதாரக் கொள்கை"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "India eyes rare-disease drugs as next pharma opportunity",
-   "lines": [
-    "India, which has made medicines affordable to the world, is now exploring how to make rare-disease medications accessible.",
-    "The rare-disease pharmaceutical sector is becoming a new opportunity for many countries.",
-    "Experts believe India can achieve this through streamlined regulations, financial incentives, and government procurement.",
-    "This sector could help strengthen India's share in global pharmaceutical trade.",
-    "Health experts consider the coming years crucial for advancing these initiatives."
-   ],
-   "closing": "The rare-disease sector is essential for India to expand its pharmaceutical exports."
-  },
-  "front_cat": "routine",
-  "image_query": "rare disease drugs pharmacy india",
-  "wiki_subject": "Rare disease",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "785982dfbba8",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-10-01T01:45+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/science/rare-disease-drugs-could-become-indias-next-pharma-frontier/article71518560.ece"
-  ],
-  "image": {
-   "url": "data/bank/health06.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/785982dfbba8.mp3",
-  "created_ts": 1790799353.458775,
-  "status": "published"
- },
- {
-  "headline": "தேர்தல் ஆணையர் நியமனம்: மாறுபட்ட தீர்ப்பை திரும்பப் பெற மனு",
-  "lines": [
-   "தேர்தல் ஆணையர்கள் நியமனம் தொடர்பான வழக்கில் நீதிபதிகள் மாறுபட்ட தீர்ப்பு அளித்திருந்தனர்.",
-   "அந்தத் தீர்ப்பைத் திரும்பப் பெறக் கோரி உச்ச நீதிமன்றத்தில் ஒரு மனு தாக்கல் செய்யப்பட்டுள்ளது.",
-   "மனுவில் என்னென்ன கோரிக்கைகள் வைக்கப்பட்டுள்ளன என்பது தெரியவில்லை.",
-   "தேர்தல் ஆணையர் நியமனம் தொடர்பான வழக்கு முன்பே நாடு தழுவிய கவனத்தை ஈர்த்திருந்தது.",
-   "இந்த மனு மீதான விசாரணை உச்ச நீதிமன்றத்தில் அடுத்து நடைபெறவுள்ளது."
-  ],
-  "closing": "தேர்தல் ஆணையர்கள் நியமன முறை தொடர்பான இந்த வழக்கில் அடுத்த கட்ட விசாரணையை நீதிமன்றம் எப்போது எடுத்துக் கொள்கிறது என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani India",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "உச்ச நீதிமன்றம்",
-   "தேர்தல் ஆணையம்",
-   "தேர்தல் ஆணையர் நியமனம்"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Plea Filed to Withdraw Split Verdict on Election Commissioner Appointments",
-   "lines": [
-    "Judges had earlier delivered a split verdict in a case concerning the appointment of Election Commissioners.",
-    "A plea has now been filed in the Supreme Court seeking withdrawal of that split verdict.",
-    "Details of the specific demands made in the plea are not yet known.",
-    "The case on Election Commissioner appointments had earlier drawn nationwide attention.",
-    "The Supreme Court is expected to take up the plea for hearing next."
-   ],
-   "closing": "It remains to be seen when the Supreme Court will take up further hearings in this case concerning the appointment process for Election Commissioners."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "",
-  "wiki_subject": "Election Commission of India",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "1bf86e391524",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-10-01T01:44+05:30",
-  "links": [
-   "https://www.dinamani.com/india/2026/Sep/30/curative-plea-moved-in-sc-for-recall-of-sep-23-split-verdict-on-law-on-appointment-of-cec-ecs-2"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Election_Commission_of_India_Logo.svg/960px-Election_Commission_of_India_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Election Commission of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Election_Commission_of_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/1bf86e391524.mp3",
-  "created_ts": 1790799300.9079437,
-  "status": "published"
- },
- {
-  "headline": "எஸ்ஐஆர் முடிந்த மாநிலங்களில் படிவம் 6 மாற்றம் வாபஸ் — தேர்தல் ஆணையம்",
-  "lines": [
-   "சிறப்பு தீவிர திருத்தம் எனப்படும் எஸ்ஐஆர் பணி முடிவடைந்த மாநிலங்களில் தேர்தல் ஆணையம் புதிய நடவடிக்கை எடுத்துள்ளது.",
-   "வாக்காளர் பட்டியலில் புதிய பெயர் சேர்க்கப் பயன்படும் படிவம் 6-ல் செய்யப்பட்ட மாற்றங்கள் வாபஸ் பெறப்பட்டுள்ளன.",
-   "இந்த நடவடிக்கையை தேர்தல் ஆணையம் அதிகாரப்பூர்வமாக அறிவித்துள்ளது.",
-   "மாற்றம் வாபஸ் பெறப்பட்டதற்கான விரிவான காரணம் இதுவரை வெளியிடப்படவில்லை.",
-   "இது தொடர்பான கூடுதல் விவரங்களை தேர்தல் ஆணையம் விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "வாக்காளர் பட்டியல் திருத்தப் பணி நாடு முழுவதும் நடைபெற்று வரும் நிலையில், படிவம் தொடர்பான இந்த மாற்றம் எவ்வளவு பேரைப் பாதிக்கும் என்பது இன்னும் தெளிவாகவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani India",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "தேர்தல் ஆணையம்",
-   "படிவம் 6",
-   "எஸ்ஐஆர்"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Election Commission withdraws Form 6 change in states after SIR completion",
-   "lines": [
-    "The Election Commission has taken new action in states where the Special Intensive Revision, known as SIR, has been completed.",
-    "Changes made to Form 6, used for adding new names to the voter list, have been withdrawn.",
-    "The Election Commission has officially announced this action.",
-    "Detailed reasons for withdrawing the change have not been released so far.",
-    "Further details on this matter are expected to be released by the Election Commission soon."
-   ],
-   "closing": "With voter list revision work underway across the country, it remains unclear how many people this change to the form will affect."
-  },
-  "front_cat": "election_major",
-  "image_query": "",
-  "wiki_subject": "Election Commission of India",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "19dc0ae2476e",
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-10-01T01:44+05:30",
-  "links": [
-   "https://www.dinamani.com/india/2026/Sep/30/ec-withdraws-form-6-declaration-in-states-where-sir-is-done"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Election_Commission_of_India_Logo.svg/960px-Election_Commission_of_India_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Election Commission of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Election_Commission_of_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/19dc0ae2476e.mp3",
-  "created_ts": 1790799244.4545202,
-  "status": "published"
- },
- {
-  "headline": "வாக்குத் திருட்டு குற்றச்சாட்டில் அக். 2 முதல் இந்தியூர் கூட்டணி போராட்டம்",
-  "lines": [
-   "வாக்குத் திருட்டு குற்றச்சாட்டு தொடர்பாக இந்தியூர் கூட்டணிக் கட்சிகள் கூட்டாகப் போராட முடிவு செய்துள்ளன.",
-   "அக்டோபர் இரண்டாம் தேதி முதல் இந்தப் போராட்டம் தொடங்கப்படும் என அறிவிக்கப்பட்டுள்ளது.",
-   "இந்தியூர் கூட்டணியில் உள்ள கட்சிகள் இந்த விவகாரத்தில் ஒன்றிணைந்து குரல் கொடுக்க உள்ளன.",
-   "வாக்குப் பதிவு நடைமுறையில் முறைகேடு நடந்ததாக இக்கூட்டணி முன்னரே குற்றம் சாட்டி வந்துள்ளது.",
-   "போராட்டத்தின் தன்மை மற்றும் இடங்கள் குறித்த விரிவான அறிவிப்பு இன்னும் வெளியிடப்படவில்லை."
-  ],
-  "closing": "வாக்குத் திருட்டு தொடர்பான குற்றச்சாட்டுகள் குறித்து தேர்தல் ஆணையத்தின் பதில் இதுவரை வெளியிடப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani India",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "இண்டி கூட்டணி",
-   "வாக்குத் திருட்டு",
-   "காங்கிரஸ்",
-   "திமுக"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "INDIA bloc to launch joint protest from Oct 2 over vote theft claim",
-   "lines": [
-    "Parties in the INDIA bloc have decided to jointly protest over allegations of vote theft.",
-    "The protest is set to begin from October 2, according to the announcement.",
-    "Constituent parties of the alliance are expected to unite in raising their voices on this issue.",
-    "The bloc has earlier alleged irregularities in the voter registration and polling process.",
-    "Detailed plans regarding the nature and locations of the protest have not yet been released."
-   ],
-   "closing": "The Election Commission has not yet responded to the allegations of vote theft raised by the INDIA bloc."
-  },
-  "front_cat": "strike_protest",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "45303335aec4",
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-10-01T01:43+05:30",
-  "links": [
-   "https://www.dinamani.com/india/2026/Sep/30/india-bloc-announces-nation-wide-protest-from-oct-2"
-  ],
-  "image": {
-   "url": "data/bank/politics03.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/45303335aec4.mp3",
-  "created_ts": 1790799194.0862572,
-  "status": "published"
- },
- {
-  "headline": "கிரானைட் தொழிலதிபர் பாலியல் வழக்கில் இருவருக்கு ஜாமீன் மறுப்பு",
-  "lines": [
-   "தமிழ்நாட்டைச் சேர்ந்த கிரானைட் தொழிலதிபர் மீதான பாலியல் வன்கொடுமை வழக்கில் துணைக் குற்றம் சாட்டப்பட்ட தம்பதியினருக்கு நீதிமன்றம் ஜாமீன் மறுத்துள்ளது.",
-   "கடந்த ஆகஸ்ட் இருபத்தி எட்டாம் தேதி தொழிலதிபரின் உதவியாளருடன் சேர்ந்து இந்தத் தம்பதியினர் கைது செய்யப்பட்டனர்.",
-   "தொழிலதிபர் வாடகைக்கு எடுத்திருந்த வீட்டில் நடந்த பாலியல் வன்கொடுமைக்கு இவர்கள் துணைபோனதாக காவல் துறை குற்றம் சாட்டியுள்ளது.",
-   "குற்றம் சாட்டப்பட்டவர்கள் மீதான விசாரணை தற்போது தொடர்ந்து நடைபெற்று வருகிறது.",
-   "வழக்கு தொடர்பாக நீதிமன்றத்தில் அடுத்த கட்ட விசாரணை நடைபெறவுள்ளது."
-  ],
-  "closing": "இந்த வழக்கு தமிழ்நாட்டில் பரவலாகப் பேசப்பட்ட பாலியல் வன்கொடுமை புகாருடன் தொடர்புடையது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "NDTV India",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "தமிழ்நாடு",
-   "கிரானைட் தொழிலதிபர்",
-   "நீதிமன்றம்",
-   "தம்பதியினர்",
-   "காவல் துறை"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "No Bail For Two Accused In Granite Baron Sex Assault Case",
-   "lines": [
-    "A court has denied bail to a couple accused of abetting a sexual assault case linked to a Tamil Nadu granite baron.",
-    "The couple was arrested on August 28 along with an aide of the businessman.",
-    "Police allege the couple facilitated the sexual abuse that took place at a house rented by the businessman.",
-    "Investigation into those accused in the case is currently ongoing.",
-    "The next hearing in the case is expected to take place in court."
-   ],
-   "closing": "The case is linked to a widely reported sexual abuse complaint in Tamil Nadu."
-  },
-  "front_cat": "crime_major",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "675e9fd7e12a",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-01T01:42+05:30",
-  "links": [
-   "https://www.ndtv.com/india-news/no-bail-for-accused-in-alleged-sex-assault-case-linked-to-tamil-nadu-granite-baron-12122141#publisher=newsstand"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/675e9fd7e12a.mp3",
-  "created_ts": 1790799143.2385035,
   "status": "published"
  }
 ]
