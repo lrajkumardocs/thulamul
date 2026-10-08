@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 13 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
+[fetch] BBC World: 19 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
 [fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 27 புதியவை
+[fetch] The Hindu Tech: 30 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 17 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 25 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 17 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,59 +56,72 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f249e727c90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fbac2315f10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 696 → நிகழ்வுகள் 640
-[triage] 640 → 54 | காலி: india:4, govt:4, crime:4, world:3, jobs:3
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டில் அமைந்த அலுவலகங்கள் அல்ல (KRC
-[skip] கேரளத்தின் உள்ளூர் நீதிமன்றச் செய்தி. தமிழ்நாட்டுடன் நேரடித்
-[skip] வெளிநாட்டுப் படம் — தமிழ்நாட்டு வாசகர் தொடர்பு இல்லை. தமிழில
-[skip] தென்னாப்பிரிக்காவின் உள்நாட்டு ক্রিকெட் போட்டி — தமிழ்நாடு/இ
+[run] புதியவை 730 → நிகழ்வுகள் 676
+[triage] 676 → 41 | காலி: india:4, world:3, govt:3, crime:3, jobs:3
+[skip] கல்வித் தேர்வு முடிவு — வேலைவாய்ப்பு அல்ல. தமிழ்நாட்டுக்கும்
+[skip] வெளிநாட்டுக் கட்டுரை — நோபெல் பரிசுக் கருத்துரை. தமிழ்நாடு /
+[skip] வெளிநாட்டுச் சினிமாவுக்கான விமர்சனம். தமிழ்நாடு/இந்திய வாசகர
+[skip] வெளிநாட்டு இரு தேशोंின் அ-தொடர் ক்रिक్కेट் போட్డी. தமிழ்நாடு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfpKetq8D4Sdo21cJZyjD'}
+[தரம்] தமிழ் அல்லாத எழுத்து: जरইটন → ஒரு திருத்தம்
+[image] களஞ்சியம் (4 சொல்): சென்செக்ஸ் 700 புள்ளிகள் சரிவு, மு
+[tts-edge] 8af964bf7515: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்செக்ஸ் 700 புள்ளிகள் சரிவு, முதலீட்டாளர்களுக்கு ஏழு லட்சம் கோடி நஷ்டம்
+[திருத்தம்] மத மாற்ற அமைப்புகளுக்கு FCRA பதிவு கூடாத → மத மாற்ற அமைப்புகளுக்கு எফ்சிஆர்ஏ பதிவு 
+[தரம்] தமிழ் அல்லாத எழுத்து: ফ → ஒரு திருத்தம்
+[tts-edge] c60b3d231972: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மத மாற்ற அமைப்புகளுக்கு எஃப்சிஆர்ஏ பதிவு கூடாது: மதுரை உயர்நீதிமன்றக் கிளை தீர்ப்பு
+[skip] மூலத்தில் பரபரப்பான தலைப்பு மட்டுமே உள்ளது, உண்மையான தகவல், 
+[image] களஞ்சியம் (2 சொல்): தாராபுரம் இடைத்தேர்தல்: நாளை வாக்க
+[publish] தாராபுரம் இடைத்தேர்தல்: நாளை வாக்கு எண்ணிக்கை நடைபெறுகிறது
+[skip] தமிழ்நாட்டு உள்ளூர் வானிலை/பருவநிலை செய்தி. உலக அளவில் முக்க
+[skip] சவுதி அரேபியாவும் ஹூதி பிரிவினரும் மத்திய கிழக்கிற்கும் பொது
+[skip] கென்யாவில் ஒற்றைத் தொற்றாளரின் மரணம். உலக அளவில் பெரும் பரவல
+[skip] வெளிநாட்டுச் சம்பவம்; தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfpKx2w2NGdHJNkL3zFoh'}
+[திருத்தம்] தமிழகத்தில் 1.7 கோடி ஸ்மார்ட் மின் மீட்ட → தமிழகத்தில் 1.7 கோடி ஸ்மார்ட் மீட்டர்: ஒ
+[publish] தமிழகத்தில் 1.7 கோடி ஸ்மார்ட் மீட்டர்: ஒப்பந்தப்புள்ளி கோரியது மின் வாரியம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfoqCfGKfqz7rmavhdJ93'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfoqJq6L4qD8Y1Ki8Dtm7'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, நிகழ்வு பற்றிய விவரங்கள் (
+[திருத்தம்] மின் தட்டுப்பாட்டை சமாளிக்க 4,500 மெகாவா → மின் தட்டுப்பாட்டை சமாளிக்க 4,500 மெகாவா
+[image] களஞ்சியம் (3 சொல்): மின் தட்டுப்பாட்டை சமாளிக்க 4,500 
+[publish] மின் தட்டுப்பாட்டை சமாளிக்க 4,500 மெகாவாட் மின்சாரம் கொள்முதலுக்கு ஒப்பந்தம் கோரிய தமிழ்நாடு மின் வாரியம்
+[திருத்தம்] தேர்தல் ஆணையர் ராஜினாமா கோரி அக்டோபர் பத → தேர்தல் ஆணையர் ஞானேஷ் குமாரின் ராஜினாமா 
+[publish] தேர்தல் ஆணையர் ஞானேஷ் குமாரின் ராஜினாமா கோரி அக்டோபர் பத்தில் போராட்டம்
+[publish] மூத்த நடிகர் நானா பட்டேகர் கோவாவில் காலமானார்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] 2fddbc9526bb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மேற்கு ஆசியப் பதற்றத்தால் உலகப் பொருளாதாரம் பாதிப்பு என ரிசர்வ் வங்கி எச்சரிக்கை
-[tts-edge] 0aae82921170: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஞானேஷ் குமார் தலைமையிலான தேர்தல்கள் ரத்து செய்யப்பட வேண்டும்: சீமான் கோரிக்கை
-[திருத்தம்] ரிசர்வ் வங்கி கொள்கை வட்டி விகிதத்தை உயர → ரிசர்வ் வங்கி கொள்கை வட்டி விகிதத்தை உயர
-[தரம்] தமிழ் அல்லாத எழுத்து: আইম → ஒரு திருத்தம்
-[publish] ரிசர்வ் வங்கி கொள்கை வட்டி விகிதத்தை உயர்த்தியது, இஎம்ஐ பாதிப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): எஸ்ஐஆர் எதிர்ப்பு போராட்டத்தில் ரா
-[publish] எஸ்ஐஆர் எதிர்ப்பு போராட்டத்தில் ராகுல் காந்தி கைது, தவெக கண்டனம்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] பிரதமர் மோடி பதவி விலகும் வரை போராட்டம்: ஜோதிமணி எம்.பி. அறிவிப்பு
-[skip] வெளிநாட்டு உள்நாட்டு நிகழ்வு — இஸ்রேல்-பாலஸ்தீனம் மோதல். தமி
-[திருத்தம்] ரிசர்வ் வங்கி ரெப்போ வீதம் 5.50 சதவீதமாக → இந்திய ரிசர்வ் வங்கி ரெப்போ வீதத்தை 5.50
-[நகல்] ஏற்கனவே வெளியானது: இந்திய ரிசர்வ் வங்கி வட்டி விகிதம் ஐந்தரை சதவீதமாக உயர்வு
-[skip] யேமன் உள்நாட்டுப் போரின் ஒரு சிறு முன்னேற்றம். இந்தியா அல்லத
-[skip] லெபனான்-இஸ்ரேல் எல்லைப் பகுதியிலான சம்பவம்; தமிழ்நாடு வாசகரை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfoqwxqCitm3ftSU61VYx'}
-[திருத்தம்] குடும்ப ஒப்பந்த பத்திரங்களுக்கு நவம்பர்  → குடும்ப ஒப்பந்த பத்திரங்களுக்கு நவம்பர் 
-[publish] குடும்ப ஒப்பந்த பத்திரங்களுக்கு நவம்பர் 2 முதல் காகிதமில்லா பதிவு கட்டாயம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfor32zMyc29Sm19YvFA7'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfor6aF9WGM4SBMohGEbz'}
-[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாடு முழுவதும் 18,733 போக்சோ 
-[publish] தமிழ்நாடு முழுவதும் 18,733 போக்சோ வழக்குகள் நீதிமன்றங்களில் நிலுவை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CforEZavwTCT7pExYnym3'}
-[brief] காலை brief தயார்
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: வாக்காளர் பட்டியல் திருத்தம்: எதிர்ப்பும் கைதும் ஏன்?
-[market] தங்கம் 22K ₹13184 · சென்செக்ஸ் 72639
+[publish] பாகிஸ்தான் இரட்டை வேடத்தை அம்பலப்படுத்திய இந்தியா ஐக்கிய நாடுகள் சபையில்
+[skip] இவை மேற்கு வங்காளம் மற்றும் ஒடிசா மாநிலங்களின் உள்ளூர் வேலைவ
+[skip] ஆந்திரப் பிரதேசத்தின் JNTU-GV பல்கலைக்கழகத்தின் உள்ளூர் நிர்
+[skip] மூல உரையில் கொடுக்கப்பட்ட ஆங்கிலச் செய்திக் கட்டுரையைப் படிக
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Veeramani produced before POCSO court for sexual
+[skip] ஒரு தனியார் நடுவர் மன்றத்தின் விதிமுறை மாற்றம் பற்றிய நுணுக்
+[skip] இந்தியாவின் தேர்தல் ஆணையம் தொடர்பான செய்தி — தமிழ்நாட்டுக்கு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Dept. of Posts to hold Dak Adalat meeting in Che
+[skip] இது ஒரு பொதுவான நിரூபக சுலभ வேளைப்பு தளத்தின் தினசரி செய்தி 
+[திருத்தம்] சரம் நிறுவனத்தின் எச்பிவி தடுப்பூசி சர்வ → சீரம் நிறுவனத்தின் எச்பிவி தடுப்பூசி சர்
+[தரம்] தமிழ் அல்லாத எழுத்து: मषংসస → ஒரு திருத்தம்
+[தரம்] தோல்வி — வெளியிடப்படவில்லை: தமிழ் அல்லாத எழுத்து: मष
+[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் — அஸ்திரேലியப் பிரதேச அணிக
+[skip] நடிகர் நানா பട়ेकர் மறைந்தார் என்பது தமிழ்நாட்டு வாசகருக்குப
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man murders wife in Perungudi
+[skip] கேரளாவின் உள்ளூர் சுகாதார விவகாரம். தமிழ்நாட்டுக்கு நேரடித் 
+[skip] நம்ப பிம்बமாக பயன்படுத்தப்படும் நடிகர் மரணம் அல்ல; வெளிநாட்ட
+[skip] New Zealand cricket team's internal coaching arrangements. N
+[filler] health கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13249 · சென்செக்ஸ் 71914
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 7
+[done] feed 300 · pending 0 · எழுதியவை 8
