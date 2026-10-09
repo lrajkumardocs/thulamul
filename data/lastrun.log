@@ -1,22 +1,22 @@
-[fetch] RBI: 10 புதியவை
+[fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 23 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 18 புதியவை
+[fetch] The Hindu TN: 20 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 19 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 21 புதியவை
+[fetch] ESPNcricinfo: 20 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 21 புதியவை
+[fetch] FreeJobAlert: 19 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,65 +56,56 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe43a4f3210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa881a00fd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 28 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 708 → நிகழ்வுகள் 653
-[triage] 653 → 74 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] டெல்லி உயர்நீதிமன்றத்தின் உள்ளூர் வழக்கு — தமிழ்நாட்டுடன் தொ
-[skip] திரிபுரா மற்றும் மிசோரம் மாநில PSC தேர்வு விடைக்குறிப்புகள் 
-[திருத்தம்] புற்றுநோய் மருந்துகளின் விலை வரம்பு 30 ச → புற்றுநோய் மருந்துகளின் விற்பனை விளிம்பு
-[tts-edge] af457f2db21b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] புற்றுநோய் மருந்துகளின் விற்பனை விளிம்பு 30 சதவீதமாக வரம்பிடப்படும்
-[திருத்தம்] விஜய் தேவரகொண்ட, ரஷ்மிகா ராணபாளி திரைப்ப → விஜய் தேவரகொண்ட, ரஷ்மிகா 'ராணபாளி'த் திர
-[தரம்] மூலத்தில் இல்லாத எண்: 1878 → ஒரு திருத்தம்
-[tts-edge] 492d19d05e60: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] விஜய் தேவரகொண்ட, ரஷ்மிகா 'ராணபாளி'த் திரைப்படத்தில் ஆங்கிலேய ஆட்சிக்கு எதிரான போராட்டத்தை நடிக்கிறார்கள்.
-[skip] ஆஸ்திரேலிய உள்நாட்டுச் தொடரின் தெரிவு சம்பந்தமான செய்தி. தமி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqN6aiRc93DDg9Ncq5GN'}
+[run] புதியவை 690 → நிகழ்வுகள் 640
+[triage] 640 → 47 | காலி: india:4, govt:4, crime:4, economy:3, court:3
+[skip] பஞ்சாபி பல்கலைக்கழகம் மற்றும் ஆந்திரா பல்கலைக்கழக தேர்வு முட
+[skip] வெளிநாட்டு ক্রীড়াবিদদের ব্যক্তিগত বিষয়, தமிழ்நாடு বা இந்தি
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது ஒரு பழைய படம் பற்றிய திரும்பிப் பார்க்கும் கட்டுரை (feat
-[திருத்தம்] காசா போர்நிறுத்தம் பலவீனம், இஸ்ரேலிய தாக → காசாவில் போர்நிறுத்தம் இருந்தாலும் இஸ்ரே
-[publish] காசாவில் போர்நிறுத்தம் இருந்தாலும் இஸ்ரேலிய தாக்குதல்கள் தொடர்கின்றன, அமைதிக் காலம் தடைபட்டுள்ளது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqNGTiG9GzAjyi5ajiy3'}
-[திருத்தம்] ஸ்ரீவைகுண்டம் தவெக எம்எல்ஏ மீது கனிமொழி  → ஸ்ரீவைகுண்டம் தவெக எம்.எல்.ஏ. மீது கனிமொ
-[hold] ஸ்ரீவைகுண்டம் தவெக எம்.எல்.ஏ. மீது கனிமொழி எம்.பி. அடுக்கடுக்கான குற்றச்சாட்டு
-[திருத்தம்] முதல்வர் விஜய் ஆட்சியில் சட்டம் ஒழுங்கு  → முதல்வர் விஜய் ஆட்சியில் சட்டம் ஒழுங்கு 
-[publish] முதல்வர் விஜய் ஆட்சியில் சட்டம் ஒழுங்கு நிலை சீர்கெடும்: அதிமுக விமர்சனம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqhR8P8pV1KwhF4SNNb8'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): தமிழகத்தில் அடுத்த மூன்று மணி நேரத
-[publish] தமிழகத்தில் அடுத்த மூன்று மணி நேரத்தில் பரவலான மழை எச்சரிக்கை
-[திருத்தம்] தமிழகத்துக்கு பதினைந்து நாள்கள் காவிரி ந → தமிழகத்துக்கு 15 நாள்களுக்குக் காவிரி நீ
-[publish] தமிழகத்துக்கு 15 நாள்களுக்குக் காவிரி நீர் திறக்க உத்தரவு
-[skip] இது அரசாங்கப் பத்திரங்கள் ஏலம் தொடர்பான வழக்கமான ரிசர்வ் வங்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqNZSRMZq7HcQZqwmaHA'}
-[திருத்தம்] இந்திய பாதுகாப்பு ரகசியம் பாகிஸ்தানுக்கு → இந்திய பாதுகாப்பு ரகசியங்கள் பாகிஸ்தானுக
-[தரம்] தமிழ் அல்லாத எழுத்து: শষ → ஒரு திருத்தம்
-[publish] இந்திய பாதுகாப்பு ரகசியங்கள் பாகிஸ்தானுக்கு விற்பனையா? கோவையில் கடற்படை ஊழியர் கைது
-[திருத்தம்] வேலூர் சுற்றுவட்டாரத்தில் காசநோய் இல்லா  → வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்களில் 
-[image] களஞ்சியம் (2 சொல்): வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்
-[publish] வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்களில் 319 கிராமங்கள் காசநோய் இல்லா கிராமங்களாக அங்கீகாரம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqNhvgCXMJPx1gfujkpg'}
+[image] களஞ்சியம் (3 சொல்): மதுராந்தகம், தாராபுரம் தொகுதிகளுக்
+[tts-edge] e172b4032604: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம், தாராபுரம் தொகுதிகளுக்கான வாக்கு எண்ணிக்கை இன்று
+[திருத்தம்] அரசு ஊழியர் பதவி உயர்வுக்கு சொத்து விவரம → அரசு ஊழியர்கள் சொத்து விவரத்தை அக். 31-க
+[image] களஞ்சியம் (2 சொல்): அரசு ஊழியர்கள் சொத்து விவரத்தை அக்
+[tts-edge] 302cdad574b0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அரசு ஊழியர்கள் சொத்து விவரத்தை அக். 31-க்குள் சமர்ப்பித்தால் மட்டுமே பதவி உயர்வு: தமிழக அரசு உத்தரவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfqhfsx8mqFnwCqeDYmeN'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம் நடந்த தேதி, பாதிக்
+[publish] இலங்கைக் கடலில் ஈரான் கப்பல் நிறுத்தம் நூலிழையில் நெருக்கடி
+[தரம்] தமிழ் அல்லாத எழுத்து: ক → ஒரு திருத்தம்
+[publish] ரிசர்வ் வங்கி 25 அடிப்படை புள்ளி வட்டி உயர்வு, வீட்டுக் கடன் சுமை அதிகரிப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqhrAsABZr6LPQZhhHFr'}
+[தரம்] தமிழ் அல்லாத எழுத்து: ग → ஒரு திருத்தம்
+[publish] ரூபாய் சரிவைத் தடுக்க ரிசர்வ் வங்கி தலையீடு, அச்சம் தொடர்கிறது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqhwuzsWemSX1ZkPNBL5'}
+[publish] செய்யாறு அருகே கோழிப் பண்ணையில் தீவிபத்து, 5,000க்கும் மேற்பட்ட கோழிகள் இறப்பு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] சென்னை டைடல் பார்க் அருகே சாலையில் குழி  → சென்னை டிடல் பார்க் அருகே சாலையில் குழி 
-[publish] சென்னை டிடல் பார்க் அருகே சாலையில் குழி விழுந்து கார் சரிந்தது
-[comic] கதை முயற்சி 1 தோல்வி: Expecting ',' delimiter: line 33 column 4 (char 1762)
-[comic] கதை: பாடலினூடே பார்வை பரிமாற்றம்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-09.png · நாள் 30
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹13276 · சென்செக்ஸ் 71593
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfqi6zeR5zxkX75ipJ1Dz'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqiAGL4jkm7dSYBsZref'}
+[publish] மருந்து உறைகளில் இந்தி சொற்கள் அச்சிடப்பட்டமை தமிழகத்தில் சர்ச்சை
+[publish] தமிழ்நாட்டில் இளம் வாக்காளர் பதிவுக்கு அக்டோபர் 9 வரை சிறப்பு முகாம்
+[திருத்தம்] மதுரையில் சிறுமி பாலியல் வன்கொடுமை வழக்க → மதுரையில் சிறுமி பாலியல் வன்கொடுமை வழக்க
+[image] களஞ்சியம் (2 சொல்): மதுரையில் சிறுமி பாலியல் வன்கொடுமை
+[publish] மதுரையில் சிறுமி பாலியல் வன்கொடுமை வழக்கில் வீரமணி போக்ஸோ நீதிமன்றில் ஆஜர்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqiPRgFURPmrAWdD2VzY'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு உரை இல்லை; அமைச்சர் ப
+[திருத்தம்] டாஸ்மாக் கடைகளால் இடையூறு: அரசுக்கு உயர் → டாஸ்மாக் கடைகளுக்கு அருகில் வசிப்போருக்க
+[image] களஞ்சியம் (2 சொல்): டாஸ்மாக் கடைகளுக்கு அருகில் வசிப்ப
+[publish] டாஸ்மாக் கடைகளுக்கு அருகில் வசிப்போருக்கு இடையூறு: அரசுக்கு உயர்நீதிமன்றம் உத்தரவு
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: குடியிருப்புகளுக்கு அருகே மதுக்கடைகள் — யார் வழிவிட வேண்டும்?
+[market] தங்கம் 22K ₹13332 · சென்செக்ஸ் 71593
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 1 · எழுதியவை 10
