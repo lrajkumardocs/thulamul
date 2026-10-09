@@ -1,22 +1,22 @@
-[expire] 6c19ec066305
+[expire] a4ee9b16aab6
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 20 புதியவை
+[fetch] The Hindu TN: 23 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 19 புதியவை
-[fetch] The Hindu Agriculture: 2 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Agriculture: 1 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
@@ -29,20 +29,20 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 12 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 29 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 25 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -57,92 +57,45 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8d373c0150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff29f103dd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 719 → நிகழ்வுகள் 637
-[triage] 637 → 65 | காலி: india:4, crime:3, jobs:3, sports:3, court:2
-[skip] Andhra Pradesh PGCET counselling - வேற்றுமாநிலச் சேர்ச்சு நட
-[skip] அருணாচல் பிரதேশம் — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை. த
-[skip] மூலத்தில் ஒரே பொதுவான வாக்கியம் மட்டுமே உள்ளது, இரு முறை நகல
-[திருத்தம்] தமிழ்நாட்டு இடைத்தேர்தல் வாக்கு எண்ணிக்க → தமிழ்நாட்டு இடைத்தேர்தல் வாக்கெண்ணிக்கைய
-[தரம்] தமிழ் அல்லாத எழுத்து: किে → ஒரு திருத்தம்
-[tts-edge] 11d42ba39922: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டு இடைத்தேர்தல் வாக்கெண்ணிக்கையில் தவெகவுக்கு தொடக்க முன்னிலை
-[image] களஞ்சியம் (2 சொல்): மதுராந்தகம், தாராபுரம் இடைத்தேர்தல
-[tts-edge] ae283b03d890: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தல்: வாக்கு எண்ணிக்கையில் தவெக முன்னிலை
-[skip] போதிய விவரம் இல்லை - இரண்டு தலைப்புகள் மட்டுமே உள்ளன, முழு உ
-[திருத்தம்] தாராபுரம் இடைத்தேர்தல்: தவெக வேட்பாளர் ச → தாராபுரம் இடைத்தேர்தல்: தவெக வேட்பாளர் ச
-[நகல்] ஏற்கனவே வெளியானது: மதுராந்தகம், தாராபுரம் இடைத்தேர்தல்: வாக்கு எண்ணிக்கையில் தவ
-[நகல்] ஏற்கனவே வெளியானது: மதுராந்தகம், தாராபுரம் இடைத்தேர்தல்: வாக்கு எண்ணிக்கையில் தவ
-[image] களஞ்சியம் (2 சொல்): மதுராந்தகம் இடைத்தேர்தலில் தவெக வே
-[publish] மதுராந்தகம் இடைத்தேர்தலில் தவெக வேட்பாளர் முன்னிலை
-[publish] உக்ரைன் நகரில் ரஷ்யத் தாக்குதல்: பேருந்துகளில் 30 பேர் பலி
-[தரம்] தமிழ் அல்லாத எழுத்து: कराि少校; மூலத்தில் இல்லாத எண்: 2009 → ஒரு திருத்தம்
-[publish] ஃபோர்ட் ஹூட் துப்பாக்கிச் சூடு வழக்கில் மரண தண்டனை நேரலை ஒளிபரப்பு
-[skip] வெனிசுয়েலாவின் உள்நாட்டு அரசியல் மற்றும் அமெரிக்க குடிமக்கள
-[skip] வெளிநாட்டு உள்ளூர் செய்தி — ஸ்பெயின்ன் ஓர் ஓய்வூதியரின் வீட்
-[skip] பொதுவான ஃபோட்டோ ஆவணம் — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்கும
-[skip] நியூயார்க், அமெரிக்கா உள்ளூர் சம்பவம். அமெரிக்காவின் உள்நாட்
-[skip] நியூயார்க் நகரில் நடந்த உள்ளூர் சம்பவம். இந்திய அல்லது தமிழ்
-[skip] தமிழ்நாட்டு வாசகரைப் பரிந்துரையாகப் பாதிக்காத உலக நிகழ்வு. க
-[skip] வெளிநாட்டு உள்நாட்டு மோதல்; தமிழ்நாடு/இந்தியத் வாசகருக்குத் 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfrBCnVEMfKW4kuBgU1VY'}
-[திருத்தம்] சென்செக்ஸ் எண்ணூறு புள்ளிகள் உயர்வு, நிஃ → சென்செக்ஸ் 800 புள்ளிகள் உயர்வு, நிஃப்டி
-[image] களஞ்சியம் (4 சொல்): சென்செக்ஸ் 800 புள்ளிகள் உயர்வு, ந
-[publish] சென்செக்ஸ் 800 புள்ளிகள் உயர்வு, நிஃப்டி 22,500-ஐ கடந்தது
-[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: அமெரிக்கா 8 தொழில்நுட்ப நிறுவனங்கள
-[hold] அமெரிக்கா 8 தொழில்நுட்ப நிறுவனங்களுக்கெதிராக நடவடிக்கை
-[skip] வெளிநாட்டு உள்நாட்டு குற்றச் செய்தி — தமிழ்நாடு அல்லது இந்தி
-[skip] தமிழ்நாடு/இந்தியவாசகரைப் பொருத்தமாக இல்லை. அமெரிக்காவின் உள்
-[skip] வெளிநாட்டுக் குற்றவியல் வழக்கு — தமிழ்நாடு / இந்தியாவுடன் தொ
-[skip] உலக செய்திகளில் தமிழ்நாடு / இந்திய வாசகரைப் பாதிக்கும் நேரடி
-[skip] வெளிநாட்டின் (இந்தோனேசியா) உள்ளூர் குற்றச் செய்தி. தமிழ்நாடு
-[skip] இத்தாலியின் உள்நாட்டு அரசியல் மாற்றம் — தமிழ்நாடு வாசகரைப் ப
-[skip] அமெரிக்க உள்ளூர் தேர்தல் வேட்பாளரின் ব்যক்തிগত சம்பவம். தமிழ
-[skip] லெபனான் ரக்க அரசியல் மற்றும் ஹிஜ்புல்லாவின் உள்ளூர் முடிவுகள
-[skip] மெக்சிக்கோவின் உள்ளூர் அரசியல் மற்றும் உள்நாட்டு குற்றச் சம்
-[skip] அமெரிக்கத் தேதியாட்டம் — தொலைதூரமான, தமிழ்நாட்டுக்குப் பொருத
-[skip] ஸ்பெயின்ஸ் உள்ளூர் அரசியல் — தமிழ்நாடு/இந்திய வாசகருக்குப் ப
-[skip] சூடான் உள்நாட்டுப் பகைமை தொடர்பான ஐ.நா. அரசியல் — தமிழ்நாடு 
-[skip] இது எத்தியோப்பியாவின் உள்நாட்டுக் கூட்டு மற்றும் பிராந்திய அ
-[skip] பொதுவான வெளிநாட்டுப் போர்க் செய்தி — தமிழ்நாடு/இந்தியாவுடன் 
-[skip] வெளிநாட்டுப் பிராந்திய அரசியல் — தமிழ்நாட்டு / இந்திய வாசகரி
-[skip] ஐரோப்பிய நாட்டின் உள்ளூர் மாணவர் போராட்டம் — தமிழ்நாடு/இந்தி
-[skip] கேரள காவல்துறை மற்றும் புனேவில் உள்ள கோகலே நிறுவனத்தின் வேலை
-[publish] இடைத்தேர்தல் முடிவுகள்: தமிழ்நாட்டில் தவெக முன்னிலை, வங்காளத்தில் பாஜக முன்னேற்றம்
-[skip] ஆந்திரப் பிரதேச முதல்வர் பிரதமரைப் பாராட்டிய உள்ளூர் அரசியல்
-[skip] ஆந்திரப் பிரதேசத்தின் அரக்கு பகுதியில் உள்ள உள்ளூர் சுற்றுலா
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] மகேந்திரகிரி இஸ்ரோ வளாகத்தில் 22 பணியிடங்களுக்கு விண்ணப்பம்
-[skip] கேரள மாநிலத்தின் உள்ளூர் பள்ளி ஆசிரியர் முன்முயற்சி — தமிழ்ந
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamil Nadu Home Secretary, TNEB Chairman transfe
-[skip] மேற்கு வங்க மாநிலத்தின் வாக்காளர் பட்டியல் திருத்தம் மற்றும்
-[skip] வாழ்க்கை வரலாறு / மத நூல் வரைவு — செய்தி அல்ல. தமிழ்நாடு வாச
-[skip] ராज் குமார் இந்தி சினிமாவின் பிரபலமான நடிகர். இந்தச் செய்தி 
-[skip] பொதுவான சுகாதாரக் கல்வி — தமிழ்நாட்டு வாசகரின் அடிப்படைப் பா
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Dengue cases stabilise in Chennai as hotspots re
-[skip] நিউசிலாந்தின் உள்நாட்டுப் பணிகளுடன் தொடர்புடைய செய்தி. தமிழ்
-[skip] டெல்லி உயர்நீதிமன்றத்தில் யூத் காங்கிரஸ் தொடர்ந்த உள்ளூர் போ
-[skip] விமர்சனம் மற்றும் பழைய படங்களைப் பற்றிய மீள்பார்வை — தமிழ்நா
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: India has set a target of 100 GW of wind energy 
-[skip] நியூజிலாந்தின் கிரிக்கெட் வீரர் ஜீத் ராவல் சம்பந்தப்பட்ட செய
-[brief] காலை brief தயார்
-[filler] tech கட்டுரை
-[jobs] தொகுப்பு 12
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13450 · சென்செக்ஸ் 72379
+[run] புதியவை 741 → நிகழ்வுகள் 676
+[triage] 676 → 51 | காலி: india:3, crime:3, sports:3, court:2, govt:2
+[skip] வெளிநாட்டு domestic cricket — South Africa vs Australia test
+[தரம்] தமிழ் அல்லாத எழுத்து: नाচন → ஒரு திருத்தம்
+[tts-edge] e46ca7840f95: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ் வம்சாவளி நவநீதம் பிள்ளைக்கு அமைதிக்கான நோபல் பரிசு
+[skip] டெல்லி மாசுக் கட்டுப்பாட்டு வாரியம் மற்றும் மேற்கு வங்க ஐஐஇஎ
+[skip] இது ஒரு பொதுவான பட்டறை/செயலமர்வு அறிவிப்பு மட்டுமே, குறிப்பி
+[tts-edge] 1b1745908780: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலில் தவெக வேட்பாளர்கள் வெற்றி பெற்றனர்
+[skip] கேரளாவின் திருச்சூரில் உள்ளூர் பள்ளி விழா தொடர்பான செய்தி; த
+[skip] மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் வறட்சி மற்றும் விவசாயப் பிரச
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உண்மையான நிகழ்வு விவரங்கள்
+[skip] மூல உரை முழுவதும் வெளிநாட்டு/பொதுவான சொல்லாக உள்ளது. தமிழ்நா
+[skip] வெளிநாட்டுப் படம் — ஆங்கிலப் பেசவோ, தமிழ்க் கலைஞர் தொடர்பிலி
+[திருத்தம்] அத்வென்ததா மருத்துவமனை குறுந்தகைப் பயிற் → அத்வென்த மருத்துவமனை தலையீட்டு கதிரியக்க
+[தரம்] தமிழ் அல்லாத எழுத்து: तृ → ஒரு திருத்தம்
+[publish] அத்வென்த மருத்துவமனை தலையீட்டு கதிரியக்க மருத்துவத்தில் பெல்லோஷிப் அறிவிப்பு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Big Screen: Good Night Good Morning — Love, of a
+[skip] ஆஸ்திரேலியா A மற்றும் இந்தியா A ஆகியவை சர்வதேச தரப்புகளை பயி
+[skip] டெல்லி நீதிமன்றங்கள் மட்டும் சார்ந்த உள்ளூர் நிர்வாக அறிவிப்
+[skip] வெளிநாட்டு/தமிழ்நாட்டுக்கு அச்சுறுத்தல் இல்லாத சிறு அரசு பயி
+[skip] Hollywood திரையுலக மதிப்பீடு — தமிழ்நாடு வாசகரைப் பாதிக்காது
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Woven into Madras
+[skip] தமிழ்நாட்டு/இந்திய வாசகர்களுக்குப் பொருத்தமில்லை. ஆஸ்திரேலிய
+[filler] sports கட்டுரை
+[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
+[market] தங்கம் 22K ₹13423 · சென்செக்ஸ் 72472
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 9
+[done] feed 300 · pending 0 · எழுதியவை 3
