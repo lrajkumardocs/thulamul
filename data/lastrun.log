@@ -1,23 +1,22 @@
-[expire] a4ee9b16aab6
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 23 புதியவை
+[fetch] The Hindu TN: 26 புதியவை
 [fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 18 புதியவை
+[fetch] BBC World: 26 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] ESPNcricinfo: 20 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 13 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 18 புதியவை
-[fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Agriculture: 0 புதியவை
+[fetch] FreeJobAlert: 25 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,20 +28,20 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 29 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 4 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 25 புதியவை
+[fetch] Dinamani India: 28 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -57,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff29f103dd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5b95d87310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -68,34 +67,50 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 741 → நிகழ்வுகள் 676
-[triage] 676 → 51 | காலி: india:3, crime:3, sports:3, court:2, govt:2
-[skip] வெளிநாட்டு domestic cricket — South Africa vs Australia test
-[தரம்] தமிழ் அல்லாத எழுத்து: नाচন → ஒரு திருத்தம்
-[tts-edge] e46ca7840f95: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ் வம்சாவளி நவநீதம் பிள்ளைக்கு அமைதிக்கான நோபல் பரிசு
-[skip] டெல்லி மாசுக் கட்டுப்பாட்டு வாரியம் மற்றும் மேற்கு வங்க ஐஐஇஎ
-[skip] இது ஒரு பொதுவான பட்டறை/செயலமர்வு அறிவிப்பு மட்டுமே, குறிப்பி
-[tts-edge] 1b1745908780: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலில் தவெக வேட்பாளர்கள் வெற்றி பெற்றனர்
-[skip] கேரளாவின் திருச்சூரில் உள்ளூர் பள்ளி விழா தொடர்பான செய்தி; த
-[skip] மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் வறட்சி மற்றும் விவசாயப் பிரச
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உண்மையான நிகழ்வு விவரங்கள்
-[skip] மூல உரை முழுவதும் வெளிநாட்டு/பொதுவான சொல்லாக உள்ளது. தமிழ்நா
-[skip] வெளிநாட்டுப் படம் — ஆங்கிலப் பেசவோ, தமிழ்க் கலைஞர் தொடர்பிலி
-[திருத்தம்] அத்வென்ததா மருத்துவமனை குறுந்தகைப் பயிற் → அத்வென்த மருத்துவமனை தலையீட்டு கதிரியக்க
-[தரம்] தமிழ் அல்லாத எழுத்து: तृ → ஒரு திருத்தம்
-[publish] அத்வென்த மருத்துவமனை தலையீட்டு கதிரியக்க மருத்துவத்தில் பெல்லோஷிப் அறிவிப்பு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Big Screen: Good Night Good Morning — Love, of a
-[skip] ஆஸ்திரேலியா A மற்றும் இந்தியா A ஆகியவை சர்வதேச தரப்புகளை பயி
-[skip] டெல்லி நீதிமன்றங்கள் மட்டும் சார்ந்த உள்ளூர் நிர்வாக அறிவிப்
-[skip] வெளிநாட்டு/தமிழ்நாட்டுக்கு அச்சுறுத்தல் இல்லாத சிறு அரசு பயி
-[skip] Hollywood திரையுலக மதிப்பீடு — தமிழ்நாடு வாசகரைப் பாதிக்காது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Woven into Madras
-[skip] தமிழ்நாட்டு/இந்திய வாசகர்களுக்குப் பொருத்தமில்லை. ஆஸ்திரேலிய
-[filler] sports கட்டுரை
-[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
-[market] தங்கம் 22K ₹13423 · சென்செக்ஸ் 72472
+[run] புதியவை 723 → நிகழ்வுகள் 673
+[triage] 673 → 88 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது ஒரு கருத்துரை/பகுப்பாய்வுக் கட்டுரையின் தலைப்பு மட்டுமே;
+[தரம்] மூலத்தில் இல்லாத எண்: 71 → ஒரு திருத்தம்
+[tts-edge] 07e1a7426e5f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] IRCTC, RITES நிறுவனங்களில் காலிப்பணியிடங்களுக்கு விண்ணப்பம் கோரல்
+[skip] இது தமிழ்நாட்டு வாசகரைப் பாதிக்கும்구체적인நிகழ்வு அல்ல; பொதுவான
+[skip] மராठி/हिंदी நடிகரின் ஆளுமை விவரிப்பு - தமிழ்நாட்டுக்குத் தொட
+[skip] வெஸ்टிண்டீஸ் மற்றும் இந்தியா இடையே நடந்த பன்னாட்டு T20 ஆட்டம
+[திருத்தம்] ராகுல் காந்தி இன்று சென்னையில் மாணவர்களி → ராகுல் காந்தி இன்று சென்னையில் மாணவர்களி
+[tts-edge] aa1756742725: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ராகுல் காந்தி இன்று சென்னையில் மாணவர்களிடம் உரையாற்றுகிறார்
+[image] களஞ்சியம் (2 சொல்): பிரதமர் சென்னை வருகைக்கு ஐந்து அடு
+[publish] பிரதமர் சென்னை வருகைக்கு ஐந்து அடுக்கு பாதுகாப்பு ஏற்பாடு
+[publish] எதிர்க்கட்சித் தலைவர் ராகுல் காந்தி இன்று சென்னை வருகை
+[image] களஞ்சியம் (2 சொல்): மதுராந்தகம், தாராபுரம் இடைத்தேர்தல
+[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலில் தவெக வெற்றி, எம்எல்ஏக்கள் 109
+[publish] ஆர்பிஐ தலையீட்டால் 96.73ஆக மீண்ட ரூபாய் மதிப்பு
+[skip] இது அமெरிக்கா-இந்தியா வ்யாபார சர்ச்சை. தமிழ்நாடு வாசகரைப் பா
+[திருத்தம்] ரிலையன்ஸ் ஜியோ ஐபிஓவுக்கு விலை வரம்பு அற → ரிலையன்ஸ் ஜியோ ஐபিஓவுக்கு விலை வரம்பு அற
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[publish] ரிலையன்ஸ் ஜியோ ஐபிஓவுக்கு விலை வரம்பு அறிவிப்பு
+[publish] அமெரிக்கா: இந்திய ஐடி நிறுவனங்கள் 8 இடத்துக்கு எதிர் நடவடிக்கை
+[skip] உலகச் செய்தி ஆனால் தமிழ்நாடு/இந்தியாவைப் பாதிக்காது. அமெரிக்
+[skip] உலகச் செய்தி — தமிழ்நாட்டு வாசகரின் நேரடித் தொடர்பு இல்லை. ந
+[skip] மூலத்தில் தலைப்பு மற்றும் சுருக்கம் மட்டுமே உள்ளது; இடைத்தேர
+[skip] தென்னாப்பிரிக்காவில் நடக்கும் உள்ளூர் வன்முறை. தமிழ்நாடு/இந்
+[திருத்தம்] அதிமுகவில் மீண்டும் நெருக்கடியா? வாக்கு  → அதிமுகவில் மீண்டும் நெருக்கடியா? வாக்குப
+[publish] அதிமுகவில் மீண்டும் நெருக்கடியா? வாக்குப் பகுதி வீழ்ச்சியால் எடப்பாடி பழனிசாமி மீது கேள்வி
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfsCgqG5Eeq45k5wdhuFj'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfsCjfjRbiYgooJkRLs8Q'}
+[திருத்தம்] இடைத்தேர்தல் வெற்றி காட்டிக் கொடுப்பு அர → இடைத்தேர்தல் வெற்றி 'காட்டிக் கொடுப்பு அ
+[publish] இடைத்தேர்தல் வெற்றி 'காட்டிக் கொடுப்பு அரசியலின் தற்காலிக வெற்றி' - ஸ்டாலின்
+[comic] கதை: விருந்து பரிமாறும் வேளை
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.80) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.89) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-10.png · நாள் 31
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹13489 · சென்செக்ஸ் 72472
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 3
+[done] feed 300 · pending 0 · எழுதியவை 10

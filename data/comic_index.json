@@ -1,5 +1,79 @@
 [
  {
+  "date": "2026-10-10",
+  "title": "விருந்து பரிமாறும் வேளை",
+  "book": 1,
+  "book_ta": "புது வெள்ளம்",
+  "arc": "கடம்பூர் மாளிகை இரவு",
+  "day": 31,
+  "file": "data/comic/2026-10-10.png",
+  "summary": "விருந்து பரிமாற, பெரிய பழுவேட்டரையார் நேரில் உணவளிக்க, வந்தியத்தேவன் இது வெறும் மரியாதையன்று என்று ஐயுற்றான்.",
+  "next_hint": "தூணின் மறைவில் என்ன ரகசியம் காத்திருக்கிறது?",
+  "hidden": false,
+  "script": {
+   "title_ta": "விருந்து பரிமாறும் வேளை",
+   "panels": [
+    {
+     "scene_en": "extreme wide shot of the grand hall in Kadambur mansion at night, long rows of guests seated on mats, servants carrying golden plates of food down the hall, oil lamps lining the walls, festive atmosphere, as in reference image for setting only",
+     "characters": [],
+     "caption_ta": "விருந்து பரிமாறும் நேரம் வந்தது",
+     "bubbles": []
+    },
+    {
+     "scene_en": "wide shot, periya_pazhuvettaraiyar as in reference image standing near seated guests personally serving food with his own hands, sambuvaraiyar extra beside him watching with admiration, warm lamp light, day turned to night ambience",
+     "characters": [
+      "periya_pazhuvettaraiyar"
+     ],
+     "caption_ta": "",
+     "bubbles": [
+      {
+       "speaker": "periya_pazhuvettaraiyar",
+       "side": "L",
+       "text_ta": "இன்று நீங்கள் என் விருந்தினர்! தாராளமாய் உண்ணுங்கள்!"
+      }
+     ]
+    },
+    {
+     "scene_en": "medium shot, vandiyathevan as in reference image standing half-hidden behind a pillar at the edge of the hall, kandamaran extra whispering beside him, both watching the serving scene, vandiyathevan's face curious and amused, night, warm torchlight",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "bubbles": [
+      {
+       "speaker": "kandamaran",
+       "side": "R",
+       "text_ta": "இப்படி தன் கையால் பரிமாறுவது வெறும் மரியாதையா?"
+      },
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "வெறும் மரியாதை அல்ல, நண்பா — இது ஒரு வியூகம்!"
+      }
+     ],
+     "caption_ta": ""
+    },
+    {
+     "scene_en": "close-up shot of periya_pazhuvettaraiyar's face as in reference image, leaning close to sambuvaraiyar extra, lips moving in a low secretive whisper, eyes sharp and calculating, flickering lamp light casting shadows, night",
+     "characters": [
+      "periya_pazhuvettaraiyar"
+     ],
+     "caption_ta": "பரிமாறலுக்கிடையே ஒரு ரகசியக் குரல்...",
+     "bubbles": [
+      {
+       "speaker": "periya_pazhuvettaraiyar",
+       "side": "L",
+       "text_ta": "உணவுக்குப் பின் தூணின் மறைவில் பேசுவோம், சம்புவரையா."
+      }
+     ]
+    }
+   ],
+   "summary_ta": "விருந்து பரிமாற, பெரிய பழுவேட்டரையார் நேரில் உணவளிக்க, வந்தியத்தேவன் இது வெறும் மரியாதையன்று என்று ஐயுற்றான்.",
+   "tomorry_ta": "",
+   "tomorrow_ta": "தூணின் மறைவில் என்ன ரகசியம் காத்திருக்கிறது?",
+   "story_so_far_ta": "ஆடித் திருநாளில் கடம்பூர் சென்ற வந்தியத்தேவனை கந்தமாறன் இரவில் மாளிகைக்கு அழைத்தான். மறைவாக நின்று அவன் பெரிய பழுவேட்டரையார் தலைமையில் கூடிய சிற்றரசர் கூட்டத்தையும் ரகசியப் பேச்சையும் கண்டான். தேவராளன் வெறியாட்டத்தில் மதுராந்தகனே அரசனாவான் என வாக்களித்தான். குறவை மகளிர் கூத்தாட, பாடகர் வீரகாவியம் பாட, கூட்டம் மகிழ்ந்தது. பெரிய பழுவேட்டரையரும் சம்புவரையரும் பரிமாறிக்கொண்ட மறைவான பார்வையைக் கண்டு வந்தியத்தேவன் ஐயுற்றான். இன்று விருந்து பரிமாறத் தொடங்க, பெரிய பழுவேட்டரையார் தானே விருந்தினர்களுக்கு உணவளித்து மரியாதை செலுத்தினான். ஆனால் அந்த மரியாதையின் பின்னணியில் ஒரு சூழ்ச்சி இருப்பதாய் வந்தியத்தேவன் உணர்ந்தான்; பழுவேட்டரையார் சம்புவரையரிடம் தூணின் மறைவில் பேசுவோம் என்று மெல்லப் பேசியதைக் கேட்டு அவன் விழிப்புடன் நின்றான்."
+  }
+ },
+ {
   "date": "2026-10-09",
   "title": "பாடலினூடே பார்வை பரிமாற்றம்",
   "book": 1,
