@@ -1,22 +1,23 @@
-[fetch] RBI: 9 புதியவை
+[expire] 6c19ec066305
+[fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 19 புதியவை
+[fetch] BBC World: 20 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
+[fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 8 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
-[fetch] Wired: 30 புதியவை
+[fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
-[fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 19 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
+[fetch] The Hindu Agriculture: 2 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,7 +29,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
+[fetch] Bar and Bench: 12 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,56 +57,92 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa881a00fd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8d373c0150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 690 → நிகழ்வுகள் 640
-[triage] 640 → 47 | காலி: india:4, govt:4, crime:4, economy:3, court:3
-[skip] பஞ்சாபி பல்கலைக்கழகம் மற்றும் ஆந்திரா பல்கலைக்கழக தேர்வு முட
-[skip] வெளிநாட்டு ক্রীড়াবিদদের ব্যক্তিগত বিষয়, தமிழ்நாடு বা இந்தি
+[run] புதியவை 719 → நிகழ்வுகள் 637
+[triage] 637 → 65 | காலி: india:4, crime:3, jobs:3, sports:3, court:2
+[skip] Andhra Pradesh PGCET counselling - வேற்றுமாநிலச் சேர்ச்சு நட
+[skip] அருணாচல் பிரதேশம் — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை. த
+[skip] மூலத்தில் ஒரே பொதுவான வாக்கியம் மட்டுமே உள்ளது, இரு முறை நகல
+[திருத்தம்] தமிழ்நாட்டு இடைத்தேர்தல் வாக்கு எண்ணிக்க → தமிழ்நாட்டு இடைத்தேர்தல் வாக்கெண்ணிக்கைய
+[தரம்] தமிழ் அல்லாத எழுத்து: किে → ஒரு திருத்தம்
+[tts-edge] 11d42ba39922: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டு இடைத்தேர்தல் வாக்கெண்ணிக்கையில் தவெகவுக்கு தொடக்க முன்னிலை
+[image] களஞ்சியம் (2 சொல்): மதுராந்தகம், தாராபுரம் இடைத்தேர்தல
+[tts-edge] ae283b03d890: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தல்: வாக்கு எண்ணிக்கையில் தவெக முன்னிலை
+[skip] போதிய விவரம் இல்லை - இரண்டு தலைப்புகள் மட்டுமே உள்ளன, முழு உ
+[திருத்தம்] தாராபுரம் இடைத்தேர்தல்: தவெக வேட்பாளர் ச → தாராபுரம் இடைத்தேர்தல்: தவெக வேட்பாளர் ச
+[நகல்] ஏற்கனவே வெளியானது: மதுராந்தகம், தாராபுரம் இடைத்தேர்தல்: வாக்கு எண்ணிக்கையில் தவ
+[நகல்] ஏற்கனவே வெளியானது: மதுராந்தகம், தாராபுரம் இடைத்தேர்தல்: வாக்கு எண்ணிக்கையில் தவ
+[image] களஞ்சியம் (2 சொல்): மதுராந்தகம் இடைத்தேர்தலில் தவெக வே
+[publish] மதுராந்தகம் இடைத்தேர்தலில் தவெக வேட்பாளர் முன்னிலை
+[publish] உக்ரைன் நகரில் ரஷ்யத் தாக்குதல்: பேருந்துகளில் 30 பேர் பலி
+[தரம்] தமிழ் அல்லாத எழுத்து: कराि少校; மூலத்தில் இல்லாத எண்: 2009 → ஒரு திருத்தம்
+[publish] ஃபோர்ட் ஹூட் துப்பாக்கிச் சூடு வழக்கில் மரண தண்டனை நேரலை ஒளிபரப்பு
+[skip] வெனிசுয়েலாவின் உள்நாட்டு அரசியல் மற்றும் அமெரிக்க குடிமக்கள
+[skip] வெளிநாட்டு உள்ளூர் செய்தி — ஸ்பெயின்ன் ஓர் ஓய்வூதியரின் வீட்
+[skip] பொதுவான ஃபோட்டோ ஆவணம் — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்கும
+[skip] நியூயார்க், அமெரிக்கா உள்ளூர் சம்பவம். அமெரிக்காவின் உள்நாட்
+[skip] நியூயார்க் நகரில் நடந்த உள்ளூர் சம்பவம். இந்திய அல்லது தமிழ்
+[skip] தமிழ்நாட்டு வாசகரைப் பரிந்துரையாகப் பாதிக்காத உலக நிகழ்வு. க
+[skip] வெளிநாட்டு உள்நாட்டு மோதல்; தமிழ்நாடு/இந்தியத் வாசகருக்குத் 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfrBCnVEMfKW4kuBgU1VY'}
+[திருத்தம்] சென்செக்ஸ் எண்ணூறு புள்ளிகள் உயர்வு, நிஃ → சென்செக்ஸ் 800 புள்ளிகள் உயர்வு, நிஃப்டி
+[image] களஞ்சியம் (4 சொல்): சென்செக்ஸ் 800 புள்ளிகள் உயர்வு, ந
+[publish] சென்செக்ஸ் 800 புள்ளிகள் உயர்வு, நிஃப்டி 22,500-ஐ கடந்தது
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: அமெரிக்கா 8 தொழில்நுட்ப நிறுவனங்கள
+[hold] அமெரிக்கா 8 தொழில்நுட்ப நிறுவனங்களுக்கெதிராக நடவடிக்கை
+[skip] வெளிநாட்டு உள்நாட்டு குற்றச் செய்தி — தமிழ்நாடு அல்லது இந்தி
+[skip] தமிழ்நாடு/இந்தியவாசகரைப் பொருத்தமாக இல்லை. அமெரிக்காவின் உள்
+[skip] வெளிநாட்டுக் குற்றவியல் வழக்கு — தமிழ்நாடு / இந்தியாவுடன் தொ
+[skip] உலக செய்திகளில் தமிழ்நாடு / இந்திய வாசகரைப் பாதிக்கும் நேரடி
+[skip] வெளிநாட்டின் (இந்தோனேசியா) உள்ளூர் குற்றச் செய்தி. தமிழ்நாடு
+[skip] இத்தாலியின் உள்நாட்டு அரசியல் மாற்றம் — தமிழ்நாடு வாசகரைப் ப
+[skip] அமெரிக்க உள்ளூர் தேர்தல் வேட்பாளரின் ব்যক்തிগত சம்பவம். தமிழ
+[skip] லெபனான் ரக்க அரசியல் மற்றும் ஹிஜ்புல்லாவின் உள்ளூர் முடிவுகள
+[skip] மெக்சிக்கோவின் உள்ளூர் அரசியல் மற்றும் உள்நாட்டு குற்றச் சம்
+[skip] அமெரிக்கத் தேதியாட்டம் — தொலைதூரமான, தமிழ்நாட்டுக்குப் பொருத
+[skip] ஸ்பெயின்ஸ் உள்ளூர் அரசியல் — தமிழ்நாடு/இந்திய வாசகருக்குப் ப
+[skip] சூடான் உள்நாட்டுப் பகைமை தொடர்பான ஐ.நா. அரசியல் — தமிழ்நாடு 
+[skip] இது எத்தியோப்பியாவின் உள்நாட்டுக் கூட்டு மற்றும் பிராந்திய அ
+[skip] பொதுவான வெளிநாட்டுப் போர்க் செய்தி — தமிழ்நாடு/இந்தியாவுடன் 
+[skip] வெளிநாட்டுப் பிராந்திய அரசியல் — தமிழ்நாட்டு / இந்திய வாசகரி
+[skip] ஐரோப்பிய நாட்டின் உள்ளூர் மாணவர் போராட்டம் — தமிழ்நாடு/இந்தி
+[skip] கேரள காவல்துறை மற்றும் புனேவில் உள்ள கோகலே நிறுவனத்தின் வேலை
+[publish] இடைத்தேர்தல் முடிவுகள்: தமிழ்நாட்டில் தவெக முன்னிலை, வங்காளத்தில் பாஜக முன்னேற்றம்
+[skip] ஆந்திரப் பிரதேச முதல்வர் பிரதமரைப் பாராட்டிய உள்ளூர் அரசியல்
+[skip] ஆந்திரப் பிரதேசத்தின் அரக்கு பகுதியில் உள்ள உள்ளூர் சுற்றுலா
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqhR8P8pV1KwhF4SNNb8'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (3 சொல்): மதுராந்தகம், தாராபுரம் தொகுதிகளுக்
-[tts-edge] e172b4032604: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுராந்தகம், தாராபுரம் தொகுதிகளுக்கான வாக்கு எண்ணிக்கை இன்று
-[திருத்தம்] அரசு ஊழியர் பதவி உயர்வுக்கு சொத்து விவரம → அரசு ஊழியர்கள் சொத்து விவரத்தை அக். 31-க
-[image] களஞ்சியம் (2 சொல்): அரசு ஊழியர்கள் சொத்து விவரத்தை அக்
-[tts-edge] 302cdad574b0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அரசு ஊழியர்கள் சொத்து விவரத்தை அக். 31-க்குள் சமர்ப்பித்தால் மட்டுமே பதவி உயர்வு: தமிழக அரசு உத்தரவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfqhfsx8mqFnwCqeDYmeN'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம் நடந்த தேதி, பாதிக்
-[publish] இலங்கைக் கடலில் ஈரான் கப்பல் நிறுத்தம் நூலிழையில் நெருக்கடி
-[தரம்] தமிழ் அல்லாத எழுத்து: ক → ஒரு திருத்தம்
-[publish] ரிசர்வ் வங்கி 25 அடிப்படை புள்ளி வட்டி உயர்வு, வீட்டுக் கடன் சுமை அதிகரிப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqhrAsABZr6LPQZhhHFr'}
-[தரம்] தமிழ் அல்லாத எழுத்து: ग → ஒரு திருத்தம்
-[publish] ரூபாய் சரிவைத் தடுக்க ரிசர்வ் வங்கி தலையீடு, அச்சம் தொடர்கிறது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqhwuzsWemSX1ZkPNBL5'}
-[publish] செய்யாறு அருகே கோழிப் பண்ணையில் தீவிபத்து, 5,000க்கும் மேற்பட்ட கோழிகள் இறப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfqi6zeR5zxkX75ipJ1Dz'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqiAGL4jkm7dSYBsZref'}
-[publish] மருந்து உறைகளில் இந்தி சொற்கள் அச்சிடப்பட்டமை தமிழகத்தில் சர்ச்சை
-[publish] தமிழ்நாட்டில் இளம் வாக்காளர் பதிவுக்கு அக்டோபர் 9 வரை சிறப்பு முகாம்
-[திருத்தம்] மதுரையில் சிறுமி பாலியல் வன்கொடுமை வழக்க → மதுரையில் சிறுமி பாலியல் வன்கொடுமை வழக்க
-[image] களஞ்சியம் (2 சொல்): மதுரையில் சிறுமி பாலியல் வன்கொடுமை
-[publish] மதுரையில் சிறுமி பாலியல் வன்கொடுமை வழக்கில் வீரமணி போக்ஸோ நீதிமன்றில் ஆஜர்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfqiPRgFURPmrAWdD2VzY'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு உரை இல்லை; அமைச்சர் ப
-[திருத்தம்] டாஸ்மாக் கடைகளால் இடையூறு: அரசுக்கு உயர் → டாஸ்மாக் கடைகளுக்கு அருகில் வசிப்போருக்க
-[image] களஞ்சியம் (2 சொல்): டாஸ்மாக் கடைகளுக்கு அருகில் வசிப்ப
-[publish] டாஸ்மாக் கடைகளுக்கு அருகில் வசிப்போருக்கு இடையூறு: அரசுக்கு உயர்நீதிமன்றம் உத்தரவு
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: குடியிருப்புகளுக்கு அருகே மதுக்கடைகள் — யார் வழிவிட வேண்டும்?
-[market] தங்கம் 22K ₹13332 · சென்செக்ஸ் 71593
+[publish] மகேந்திரகிரி இஸ்ரோ வளாகத்தில் 22 பணியிடங்களுக்கு விண்ணப்பம்
+[skip] கேரள மாநிலத்தின் உள்ளூர் பள்ளி ஆசிரியர் முன்முயற்சி — தமிழ்ந
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamil Nadu Home Secretary, TNEB Chairman transfe
+[skip] மேற்கு வங்க மாநிலத்தின் வாக்காளர் பட்டியல் திருத்தம் மற்றும்
+[skip] வாழ்க்கை வரலாறு / மத நூல் வரைவு — செய்தி அல்ல. தமிழ்நாடு வாச
+[skip] ராज் குமார் இந்தி சினிமாவின் பிரபலமான நடிகர். இந்தச் செய்தி 
+[skip] பொதுவான சுகாதாரக் கல்வி — தமிழ்நாட்டு வாசகரின் அடிப்படைப் பா
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Dengue cases stabilise in Chennai as hotspots re
+[skip] நিউசிலாந்தின் உள்நாட்டுப் பணிகளுடன் தொடர்புடைய செய்தி. தமிழ்
+[skip] டெல்லி உயர்நீதிமன்றத்தில் யூத் காங்கிரஸ் தொடர்ந்த உள்ளூர் போ
+[skip] விமர்சனம் மற்றும் பழைய படங்களைப் பற்றிய மீள்பார்வை — தமிழ்நா
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: India has set a target of 100 GW of wind energy 
+[skip] நியூజிலாந்தின் கிரிக்கெட் வீரர் ஜீத் ராவல் சம்பந்தப்பட்ட செய
+[brief] காலை brief தயார்
+[filler] tech கட்டுரை
+[jobs] தொகுப்பு 12
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13450 · சென்செக்ஸ் 72379
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 10
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 1 · எழுதியவை 9
