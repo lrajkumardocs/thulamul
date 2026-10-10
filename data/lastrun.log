@@ -1,42 +1,42 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 20 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 25 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 17 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC World: 24 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Cinema: 11 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 29 புதியவை
-[fetch] Wired: 28 புதியவை
+[fetch] The Hindu Tech: 24 புதியவை
+[fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 14 புதியவை
+[fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 18 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 25 புதியவை
+[fetch] Bar and Bench: 18 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 25 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa9fbbb9e50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 25 புதியவை
-[fetch] Dinamani Govt: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fde3298d490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -66,46 +66,42 @@
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
-[fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 657 → நிகழ்வுகள் 615
-[triage] 615 → 78 | காலி: india:4, govt:4, crime:4, cinema:3, sports:3
-[திருத்தம்] தெజ ஸஜ்ஜா தெలுங்கு 'ட்ரেட்டர்ஸ்' வேண்டிக → தெஜ ஸஜ்ஜா 'தி ட்ரেட்டர்ஸ் தெலுங்கு' வேண்
-[தரம்] தமிழ் அல்லாத எழுத்து: টে → ஒரு திருத்தம்
-[tts-edge] e8217a340bc5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தெஜ ஸஜ்ஜா 'தி ட்ரேட்டர்ஸ் தெலுங்கு' வேண்டிக்குக் கடுமையான நடிப்பு அளிக்க வேண்டியிருந்ததாகக் கூறினார்
-[skip] Zimbabwe's internal team selection for a tour. Not significa
+[fetch] Times Chennai Crime: 19 புதியவை
+[run] புதியவை 703 → நிகழ்வுகள் 647
+[triage] 647 → 73 | காலி: govt:4, crime:3, sports:3, india:2, health:2
+[skip] ஆஸ்திரேலிய உள்நாட்டுச் செய்தி — தமிழ்நாடு/இந்தியாவுக்கு நேரட
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலச் செய்தி மிகக் குறைவான தகவலுடன் ஒரு வரி அளவில் மட்டுமே உ
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): தாராபுரம் முடிவு அறிவிப்பு, மதுராந
-[tts-edge] a2ceb2db3abf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தாராபுரம் முடிவு அறிவிப்பு, மதுராந்தகத்தில் தவெக முன்னிலை
-[skip] மூலத்தில் தேதி, பாதிப்பு எண்கள், அதிகாரப்பூர்வ அறிக்கை போன்ற
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfsp5YzF6eYPpZS57Mgqs'}
-[தரம்] தமிழ் அல்லாத எழுத்து: डर् → ஒரு திருத்தம்
-[publish] எரித்திரியப் படைகள் எல்லை தாண்டியதால் எத்தியோப்பியா எச்சரிக்கை
-[publish] ரியாத் விமான நிலையத்தில் ஹூத்தி ஏவுகணைத் தாக்குதல்: மூன்று சவூதியர் பலி
-[திருத்தம்] உக்ரைன் ட்ரோன் தாக்குதல் காரணமாக அமைதிப் → உக்ரைன் ட்রோன் தாக்குதல் காரணமாக அமைதிப்
-[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
-[publish] உக்ரைன் ட்ரோன் தாக்குதல் காரணமாக அமைதிப் பேச்சு சாத்தியமில்லை என புதின் கூற்று
-[publish] பனாமா தெற்குப் பகுதியில் இரட்டை நிலநடுக்கம், பேரிடர் பிரகடனம்
-[skip] சிரியா எல்லையில் லெபனானில் நடந்த சிறிய இஸ்ரேலிய தாக்குதல், ஆ
-[publish] தென் சூடானில் இனக்குழு மோதலில் 71 பேர் பலி
-[skip] RGCB (கேரளா) மற்றும் DIC ஆகிய இரு வேலைவாய்ப்பு அறிவிப்புகளும
-[image] களஞ்சியம் (2 சொல்): தேர்தல் ஆணையருக்கு எதிரான போராட்டத
-[publish] தேர்தல் ஆணையருக்கு எதிரான போராட்டத்தை டெல்லி காவல்துறை தடுத்தது
-[skip] இது டெல்லியில் நடந்த உள்ளூர் போலீஸ் நடவடிக்கை மற்றும் எதிர்ப
-[skip] வெளியுறவுத்துறை அமைச்சரின் வழக்கமான ஆப்பிரிக்கப் பயணம் தொடர்
-[திருத்தம்] பிரதமர் மோடி வருகை, சென்னையில் ட்ரோன் பற → பிரதமர் மோடி வருகை: சென்னையில் ட்ரோன் பற
-[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
-[publish] பிரதமர் மோடி வருகை: சென்னையில் ட்ரோன் பறத்தல் தடை அக்டோபர் 11ல்
-[திருத்தம்] புது தில்லியில் சிஜேபி போராட்டத்திற்கு ம → புதுதில்லியில் சிஜேபி போராட்டத்திற்கு மு
-[image] களஞ்சியம் (2 சொல்): புதுதில்லியில் சிஜேபி போராட்டத்திற
-[publish] புதுதில்லியில் சிஜேபி போராட்டத்திற்கு முன் கடும் பாதுகாப்பு ஏற்பாடு
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 12
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹13481 · சென்செக்ஸ் 72472
+[திருத்தம்] அந்நிய செலாவணி சந்தையில் புதிய கட்டுப்பா → அந்நிய செலாவணி சந்தையில் புதிய கட்டுப்பா
+[tts-edge] 5a7a0d201359: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அந்நிய செலாவணி சந்தையில் புதிய கட்டுப்பாடுகள் கொண்டு வந்த இந்திய ரிசர்வ் வங்கி
+[tts-edge] aec42650620b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அக்டோபர் 13ல் 25,000 கோடி அரசுப் பத்திரங்கள் விற்கும் ரிசர்வ் வங்கி
+[தரம்] மூலத்தில் இல்லாத எண்: 260 → ஒரு திருத்தம்
+[publish] வங்கிகளில் பணப்புழக்கம் கட்டுப்பாடு, பத்திரங்கள் விற்பனை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CftL7CzWc4dBEizSm13aX'}
+[தரம்] தமிழ் அல்லாத எழுத்து: ল → ஒரு திருத்தம்
+[publish] செபி புதிய தீர்வுத் தொகை கணக்கீட்டு விதிமுறையை அறிவித்தது
+[skip] அஸ்ஸாம் அரசு மற்றும் TISS வேலைவாய்ப்பு அறிவிப்புகள் தமிழ்நாட
+[skip] மூலத்தில் ஒரு கட்சியின் சுருக்கமான கூற்று மட்டுமே உள்ளது; யா
+[publish] டெல்லியில் தேர்தல் ஆணையர் பதவி விலகல் கோரி போராட்டம், 3,300 பேர் கைது
+[skip] பிற மாநிலத்தின் உள்ளூர் அரசியல் — தெல்லியில் நடந்த போராட்டம்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: PM Modi’s Chennai visit: traffic diversions on O
+[skip] வெளிநாட்டுச் சுகாதார அறிவுரை — தமிழ்நாட்டு வாசகர்க்கு முறை/ச
+[skip] திரையரங்க விமர்சனம் மற்றும் கலைக் கட்டுரை — செய்திக் கூறல் அ
+[skip] இது டெல்லியில் நடந்த உள்ளூர் சட்டத்தரணிகள் போராட்டம் தொடர்பா
+[skip] இது தெல்லியில் நடந்த உள்ளூர் அரசியல் போராட்டம். தமிழ்நாட்டு 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Giving old Golu dolls a new coat of paint
+[skip] வெளிநாட்டு cricket போட்டி — Afghanistan vs Bangladesh. தமிழ்
+[skip] கேரளாவின் உள்ளூர் சுகாதாரப் பிரச்சினை; தமிழ்நாட்டு வாசகரைப் 
+[skip] ஆமிர் கான் என்பவர் பாலிவுட்டு நடிகர்; தமிழ்நாட்டு தொடர்பு இல
+[skip] தமிழ்நாட்டுக்கு நேரடிப் பொருத்தமில்லை. டெல்லி போலீസ் நடவடிக்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 76 Years of Matsya: How a Chennai restaurant kee
+[skip] ஆஸ்திரேலியாவின் உள்நாட்டு ராணுவ தொடர் — தமிழ்நாடு/இந்தியக் வ
+[திருத்தம்] சென்னையில் தேர்தல் ஆணையம் எதிர்ப்பு; பல் → சென்னையில் தேர்தல் ஆணையம் எதிர்ப்பு; எஸ்
+[publish] சென்னையில் தேர்தல் ஆணையம் எதிர்ப்பு; எஸ்.ஐ.எஃப், எ.ஐ.வை.எஃப் உறுப்பினர்கள் கைது
+[filler] govt கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13462 · சென்செக்ஸ் 72472
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 6
