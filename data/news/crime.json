@@ -1,5 +1,72 @@
 [
  {
+  "headline": "பிரதமர் மோடி வருகை: சென்னையில் ட்ரோன் பறத்தல் தடை அக்டோபர் 11ல்",
+  "lines": [
+   "பிரதமர் நரேந்திர மோடி அக்டோபர் 11ம் தேதி சென்னைக்கு வருகை தருவதையொட்டி, நகரின் சில பகுதிகளில் ட்ரோன் பறத்தல் தடை செய்யப்பட்டுள்ளது.",
+   "பிரதமரின் வருகையை முன்னிட்டு சென்னை விமான நிலையத்திலும் பாதுகாப்பு ஏற்பாடுகள் கடுமையாக்கப்பட்டுள்ளன.",
+   "தமிழ்நாடு காவல் துறை இந்தத் தடை உத்தரவை வெளியிட்டு, பொதுமக்கள் விதிகளைக் கடைபிடிக்குமாறு கேட்டுக்கொண்டுள்ளது.",
+   "முக்கியத் தலைவர்களின் வருகையின் போது பாதுகாப்புக் காரணங்களுக்காக இதுபோன்ற தடைகள் வழக்கமாக அமல்படுத்தப்படுகின்றன.",
+   "பிரதமரின் சென்னைப் பயணம் தொடர்பான முழு விவரங்கள் விரைவில் வெளியிடப்படும் என்று எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "முக்கியத் தலைவர்கள் நகருக்கு வரும்போது இதுபோன்ற பாதுகாப்பு நடவடிக்கைகள் வழக்கமாகக் கடைபிடிக்கப்படுகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "TN Police News",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Times Chennai Crime",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சென்னை",
+   "நரேந்திர மோடி",
+   "சென்னை விமான நிலையம்",
+   "தமிழ்நாடு காவல் துறை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Drone flying banned in parts of Chennai ahead of PM Modi's October 11 visit",
+   "lines": [
+    "Drone flying has been banned in parts of Chennai ahead of Prime Minister Narendra Modi's visit on October 11.",
+    "Security has been tightened at Chennai airport in view of the Prime Minister's visit.",
+    "Tamil Nadu Police issued the ban order and requested the public to cooperate with the restrictions.",
+    "Such restrictions are routinely enforced for security reasons during visits of top leaders.",
+    "Full details of the Prime Minister's Chennai itinerary are expected to be released soon."
+   ],
+   "closing": "Such security measures are routinely followed whenever top leaders visit the city."
+  },
+  "front_cat": "routine",
+  "image_query": "Narendra Modi",
+  "wiki_subject": "Narendra Modi",
+  "person_en": "Narendra Modi",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [],
+  "id": "43bd82091e4c",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-10T08:39+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/drone-flying-banned-in-parts-of-chennai-on-october-11-ahead-of-pm-modis-visit/article71564368.ece",
+   "https://timesofindia.indiatimes.com/city/chennai/security-beefed-up-at-chennai-airport-ahead-of-modis-visit/articleshow/134841220.cms"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Narendra Modi",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Narendra_Modi",
+   "symbolic": false
+  },
+  "audio": "data/audio/43bd82091e4c.mp3",
+  "created_ts": 1791601764.6344075,
+  "status": "published"
+ },
+ {
   "headline": "மதுரையில் சிறுமி பாலியல் வன்கொடுமை வழக்கில் வீரமணி போக்ஸோ நீதிமன்றில் ஆஜர்",
   "lines": [
    "மதுரை காவல் துறையில் பதிவான ஒரு புகாரின் அடிப்படையில், ஒரு சிறுமி மீதான பாலியல் வன்கொடுமை வழக்கில் வீரமணி என்பவர் மீது வழக்குப் பதிவு செய்யப்பட்டது.",
@@ -1536,70 +1603,6 @@
   },
   "audio": "data/audio/f89f1c241b07.mp3",
   "created_ts": 1790968253.1414444,
-  "status": "published"
- },
- {
-  "headline": "ஜெம் கிரானைட்ஸ் வீரமணி பாக்சோ வழக்கு: பெண்கள் மட்டும் கொண்ட சிறப்பு விசாரணைக் குழு ஏற்கும்.",
-  "lines": [
-   "ஜெம் கிரானைட்ஸ் நிறுவனத்தின் வீரமணி மீதான போக்சோ சட்ட வழக்கு விசாரணையை பெண்கள் மட்டும் கொண்ட சிறப்பு குழு எடுத்துக்கொள்ள உத்தரவிடப்பட்டுள்ளது.",
-   "தமிழ்நாடு காவல்துறை தலைமை இயக்குநர் மகேஷ் குமார் அகர்வால் வெள்ளிக்கிழமை இந்த உத்தரவைப் பிறப்பித்தார்.",
-   "வழக்கு மற்றும் அதனுடன் தொடர்புடைய விவகாரங்களை திறம்பட விசாரிக்கும் பொருட்டு இந்தச் சிறப்பு குழு அமைக்கப்பட்டதாக உத்தரவில் தெரிவிக்கப்பட்டுள்ளது.",
-   "குழந்தைகளுக்கு எதிரான பாலியல் குற்றங்களைத் தடுக்கும் சட்டமான போக்சோ சட்டத்தின் கீழ் இந்த வழக்கு பதிவு செய்யப்பட்டுள்ளது.",
-   "சிறப்பு குழுவின் விசாரணை முன்னேற்றம் குறித்த அதிகாரப்பூர்வ தகவல் விரைவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "குழந்தைகளுக்கு எதிரான பாலியல் குற்றங்களைத் தடுக்கும் நோக்கில் பாக்சோ சட்டம் அமலில் உள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "ஜெம் கிரானைட்ஸ்",
-   "வீரமணி",
-   "போக்சோ சட்டம்",
-   "மகேஷ் குமார் அகர்வால்",
-   "சிறப்பு விசாரணைக் குழு"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "All-woman SIT to probe Gem Granites Veeramani POCSO case",
-   "lines": [
-    "An all-woman Special Investigation Team has been ordered to take over the POCSO Act case against Gem Granites' Veeramani.",
-    "Tamil Nadu Director General of Police Mahesh Kumar Aggarwal issued the order on Friday.",
-    "The order states the SIT was formed to investigate the case and related matters effectively.",
-    "The case has been registered under the POCSO Act, which deals with offences against children.",
-    "Official updates on the SIT's progress are expected to be released in the coming days."
-   ],
-   "closing": "The POCSO Act is in force to prevent sexual offences against children."
-  },
-  "front_cat": "crime_major",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "a81c41eaf0c7",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-02T02:00+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/gem-granites-veeramani-pocso-act-case-all-woman-sit-to-take-over-probe/article71507283.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/a81c41eaf0c7.mp3",
-  "created_ts": 1790886650.2533457,
   "status": "published"
  }
 ]

@@ -1,42 +1,42 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
+[fetch] Dinamani TN: 20 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 25 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Health: 14 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 21 புதியவை
+[fetch] FreeJobAlert: 18 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,67 +56,56 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7caeec6290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa9fbbb9e50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
+[fetch] Dinamani Govt: 20 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 697 → நிகழ்வுகள் 650
-[triage] 650 → 40 | காலி: india:4, govt:4, crime:4, court:3, health:3
-[skip] மத்திய அரசின் மருந்து விளம্பரக் கட்டுப்பாடு — தமிழ்நாட்டுக்க
-[skip] cinema_review - திரை விமர்சனம். செய்திப் பக்கத்திற்கு பொருந்
-[skip] வெளிநாட்டுத் திரிதரப் தொடர் — சிம்பாப்வே, ஆஃப்கானிஸ்தான், UA
+[run] புதியவை 657 → நிகழ்வுகள் 615
+[triage] 615 → 78 | காலி: india:4, govt:4, crime:4, cinema:3, sports:3
+[திருத்தம்] தெజ ஸஜ்ஜா தெలுங்கு 'ட்ரেட்டர்ஸ்' வேண்டிக → தெஜ ஸஜ்ஜா 'தி ட்ரেட்டர்ஸ் தெலுங்கு' வேண்
+[தரம்] தமிழ் அல்லாத எழுத்து: টে → ஒரு திருத்தம்
+[tts-edge] e8217a340bc5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தெஜ ஸஜ்ஜா 'தி ட்ரேட்டர்ஸ் தெலுங்கு' வேண்டிக்குக் கடுமையான நடிப்பு அளிக்க வேண்டியிருந்ததாகக் கூறினார்
+[skip] Zimbabwe's internal team selection for a tour. Not significa
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலச் செய்தி மிகக் குறைவான தகவலுடன் ஒரு வரி அளவில் மட்டுமே உ
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] தமிழ்நாடு உள்துறை செயலாளராக ஏ.கார்த்திக் → தமிழ்நாடு உள்துறை செயலாளராக ஏ.கார்த்திக்
-[image] களஞ்சியம் (3 சொல்): தமிழ்நாடு உள்துறை செயலாளராக ஏ.கார்
-[tts-edge] b55dbfacd363: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாடு உள்துறை செயலாளராக ஏ.கார்த்திக் நியமனம், கே.மணிவாசன் மாற்றம்; பிரேம் ஆனந்த் சின்ஹா ஊழல் தடுப்புக் கண்காணிப்புத் துறை இயக்குநர்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfsX7HaNQjAZrxdFx6waZ'}
-[திருத்தம்] காவிரி நீர் விவகாரம்: பிரதமரிடம் வலியுறு → காவிரி நீர் விவகாரம்: பிரதமரிடம் வலியுறு
-[tts-edge] c11ad338646d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காவிரி நீர் விவகாரம்: பிரதமரிடம் வலியுறுத்த முதல்வரிடம் உதயநிதி வேண்டுகோள்
-[திருத்தம்] தமிழ்நாடு லஞ்ச ஒழிப்புத் துறை இயக்குநராக → தமிழ்நாடு தெற்றிலிக்கொசைப்புத் துறை இயக்
-[நகல்] ஏற்கனவே வெளியானது: தமிழ்நாடு உள்துறை செயலாளராக ஏ.கார்த்திக் நியமனம், கே.மணிவாசன
-[skip] தாராபுரம், மதுராந்தகம் இடைத்தேர்தல் முடிவு தமிழ்நாட்டுத் தாண
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfsXJA7Tz1NWdpQikPgK4'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfsXM2EXYPFJ8E9Lo8qu6'}
-[image] களஞ்சியம் (2 சொல்): பிறப்பிடம் கொண்டு தப்பி ஓடும் அபாய
-[publish] பிறப்பிடம் கொண்டு தப்பி ஓடும் அபாயம் கூற முடியாது என்றார் நீதிபதி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfsXUN7ouRzqpQHotFQrD'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfsXXPFc57VMdVmTR1tJr'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] அதிமுக எம்எல்ஏக்கள் ராஜிநாமா வழக்கில் அடுத்த வாரம் தீர்ப்பு
-[திருத்தம்] காவிரி நீர்ப் பங்கீடு மறுஆய்வு முயற்சியை → காவிரி நீர்ப் பங்கீட்டு மறுஆய்வு முயற்சி
-[publish] காவிரி நீர்ப் பங்கீட்டு மறுஆய்வு முயற்சியை முறியடிக்க வேண்டும் - உதயநிதி ஸ்டாலின்
-[skip] கர்நாடகாவின் உள்ளூர் அரசியல் செய்தி - தமிழ்நாட்டுடன் நேரடித்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfsXnrqi4zqYASQaghi7T'}
-[skip] கர்வார் கடற்படைத் தளம் (கர்நாடகா) உள்ளூர் பயிற்சி நியமனமும்,
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது கர்நாடகா மாநில அரசின் கிரஹ லட்சுமி திட்டம் தொடர்பான உள்ள
-[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் வறட்சி அறிவிப்பு செய்தி; தம
-[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாட்டுக்கு நேரடி
-[skip] கர্நாடக மாநிலத்தின் உள்ளூர் ஊழல் வழக்கு; தமிழ்நாட்டுக்குத் த
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai Metrowater to hold open house meetings o
-[திருத்தம்] மாணவர் மனநலக் கூட்டாளர் பயிற்சிக்கு நিம் → மாணவர் நல தூதர்களாகப் பயிற்றுவிக்க நிம்ஹ
-[publish] மாணவர் நல தூதர்களாகப் பயிற்றுவிக்க நிம்ஹான்ஸ் இணையப் பாடம் தொடங்கியது
-[skip] திரை விமர்சனம் — இப்பக்கத்தில் தடை. விமர்சனம் வாரமலரில் மட்ட
-[skip] வெளிநாட்டுக் கிரிக்கெட் — தமிழ்நாடு/இந்தியாத் தொடர்பு இல்லை.
-[skip] தமிழ்நாட்டுச் செய்தி (இடைத்தேர்தல்/சட்டப்பேரவை) ஆனால் 'world
-[திருத்தம்] HLL மாணவ நிர்வாக உத்தியோகம் 55 பணியிடங்க → எச்.எல்.எல். 55 பணியிடங்களுக்கு நிர்வாகி
-[தரம்] தமிழ் அல்லாத எழுத்து: য় → ஒரு திருத்தம்
-[தரம்] திருத்தப் பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', '
-[தரம்] தோல்வி — வெளியிடப்படவில்லை: தமிழ் அல்லாத எழுத்து: য়
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: பிறப்பிடத்தை வைத்து குற்றம் சாட்டலாமா? நீதிமன்ற கேள்வி
+[image] களஞ்சியம் (2 சொல்): தாராபுரம் முடிவு அறிவிப்பு, மதுராந
+[tts-edge] a2ceb2db3abf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தாராபுரம் முடிவு அறிவிப்பு, மதுராந்தகத்தில் தவெக முன்னிலை
+[skip] மூலத்தில் தேதி, பாதிப்பு எண்கள், அதிகாரப்பூர்வ அறிக்கை போன்ற
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfsp5YzF6eYPpZS57Mgqs'}
+[தரம்] தமிழ் அல்லாத எழுத்து: डर् → ஒரு திருத்தம்
+[publish] எரித்திரியப் படைகள் எல்லை தாண்டியதால் எத்தியோப்பியா எச்சரிக்கை
+[publish] ரியாத் விமான நிலையத்தில் ஹூத்தி ஏவுகணைத் தாக்குதல்: மூன்று சவூதியர் பலி
+[திருத்தம்] உக்ரைன் ட்ரோன் தாக்குதல் காரணமாக அமைதிப் → உக்ரைன் ட்রோன் தாக்குதல் காரணமாக அமைதிப்
+[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
+[publish] உக்ரைன் ட்ரோன் தாக்குதல் காரணமாக அமைதிப் பேச்சு சாத்தியமில்லை என புதின் கூற்று
+[publish] பனாமா தெற்குப் பகுதியில் இரட்டை நிலநடுக்கம், பேரிடர் பிரகடனம்
+[skip] சிரியா எல்லையில் லெபனானில் நடந்த சிறிய இஸ்ரேலிய தாக்குதல், ஆ
+[publish] தென் சூடானில் இனக்குழு மோதலில் 71 பேர் பலி
+[skip] RGCB (கேரளா) மற்றும் DIC ஆகிய இரு வேலைவாய்ப்பு அறிவிப்புகளும
+[image] களஞ்சியம் (2 சொல்): தேர்தல் ஆணையருக்கு எதிரான போராட்டத
+[publish] தேர்தல் ஆணையருக்கு எதிரான போராட்டத்தை டெல்லி காவல்துறை தடுத்தது
+[skip] இது டெல்லியில் நடந்த உள்ளூர் போலீஸ் நடவடிக்கை மற்றும் எதிர்ப
+[skip] வெளியுறவுத்துறை அமைச்சரின் வழக்கமான ஆப்பிரிக்கப் பயணம் தொடர்
+[திருத்தம்] பிரதமர் மோடி வருகை, சென்னையில் ட்ரோன் பற → பிரதமர் மோடி வருகை: சென்னையில் ட்ரோன் பற
+[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
+[publish] பிரதமர் மோடி வருகை: சென்னையில் ட்ரோன் பறத்தல் தடை அக்டோபர் 11ல்
+[திருத்தம்] புது தில்லியில் சிஜேபி போராட்டத்திற்கு ம → புதுதில்லியில் சிஜேபி போராட்டத்திற்கு மு
+[image] களஞ்சியம் (2 சொல்): புதுதில்லியில் சிஜேபி போராட்டத்திற
+[publish] புதுதில்லியில் சிஜேபி போராட்டத்திற்கு முன் கடும் பாதுகாப்பு ஏற்பாடு
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [market] தங்கம் 22K ₹13481 · சென்செக்ஸ் 72472
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 6
+[done] feed 300 · pending 0 · எழுதியவை 10
