@@ -1,22 +1,22 @@
 [fetch] RBI: 8 புதியவை
 [fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
+[fetch] The Hindu TN: 20 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 29 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
+[fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
-[fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 23 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
+[fetch] Cinema Express: 28 புதியவை
+[fetch] The Hindu Tech: 22 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 13 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 29 புதியவை
+[fetch] FreeJobAlert: 23 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 4 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,42 +56,73 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff940857a90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc19e2d22d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 18 புதியவை
+[fetch] Times Govt Schemes: 14 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 696 → நிகழ்வுகள் 639
-[triage] 639 → 87 | காலி: govt:3, crime:3, sports:3, health:2, cinema:2
-[skip] வெளிநாட்டு Ashes தொடர் — ஆஸ்திரேலியா vs இங்கிலாந்து. இது தமி
-[திருத்தம்] TNJFU இளநிலை ஆய்வாளர் பணிக்கு விண்ணப்பிக → தமிழ்நாடு டாக்டர் ஜெ.ஜெயலலிதா மீன்வளப் ப
-[தரம்] தமிழ் அல்லாத எழுத்து: এরি → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாடு டாக்டர் ஜெ.ஜெயலலிதா மீன்
-[tts-edge] e2e8a1f79e4d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாடு டாக்டர் ஜெ.ஜெயலலிதா மீன்வளப் பல்கலைக்கழகத்தில் இளநிலை ஆய்வாளர் பணிக்கு விண்ணப்பிக்க அழைப்பு
-[skip] இது கர்நாடக மாநில சுகாதார அமைச்சரின் கோரிக்கை தொடர்பான உள்ளூ
-[skip] மூலம் தமிழ்நாடு அரசு அறிவிப்பு அல்ல; அரசியல் / சட்டப்பிரிவு 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: School in Tambaram rolls out the red carpet to f
-[skip] பொதுவான சுகாதாரக் கட்டுரை — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக
-[skip] தமிழ்நாட்டுக்குப் பொருந்தாத வெளிநாட்டு திரைப்படம். சினிமா வி
-[tts-edge] 88a8587b7e9c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எதிர்க்கட்சித் தலைவர்கள் தடுப்புக்காவல் வழக்கில் ஞாயிறு விசாரணை
-[skip] கர்நாடகாவின் உள்ளூர் அரசு அறிவிப்பு; தமிழ்நாட்டுடன் நேரடித் 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Thuvakkam to give old school benches a fresh loo
-[skip] வெளிநாட்டு கிரிக்கெட் தொடர் — இந்தியா vs மேற்குத் தீபகற்ப நா
-[skip] பிற மாநிலச் செய்தி — ஹைதராபாத் (தெலங்கானா). தமிழ்நாட்டுவாசகர
-[skip] வெளிநாட்டுத் திரையுலகச் செய்தி — தமிழ்நாடு/இந்திய வாசகரின் ந
-[skip] தெலங்கானా மாநிலத்தின் உள்ளூர் தேர்தல் நிர்வாகச் சிக்கல். தமி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Northeast monsoon likely to set in around Octobe
-[skip] இது ஸ்ரீலங்கா-பாகிஸ்தான் டி20 தொடர் — தமிழ்நாடு/இந்தியத் தொட
-[filler] tech கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[run] புதியவை 684 → நிகழ்வுகள் 634
+[triage] 634 → 106 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது கேரள உயர்நீதிமன்றத்தின் உள்ளூர் நிகழ்வு; தமிழ்நாட்டுடன் 
+[skip] AIIMS பிலாஸ்பூர் (இமாசலப் பிரதேசம்) மற்றும் AIIMS ஜோத்பூர் (
+[tts-edge] 740ef63853de: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கே.வி. திருவேங்கடம் நூற்றாண்டு விழாவில் பல்வேறு நிகழ்வுகள்
+[skip] கன্னड சினிமா செய்தி — தமிழ்நாடு வாசகருக்குப் பொருத்தமற்றது. 
+[skip] வெளிநாட்டுத் திறந்தவெளி கிரிக்கெட் — ஆஸ்திரேலிய உள்நாட்டுத் 
+[திருத்தம்] சென்னை மெட்ரோ இரண்டாம் கட்டம் பிரதமர் மோ → சென்னை மெட்ரோ இரண்டாம் கட்டம் பிரதமர் மோ
+[image] களஞ்சியம் (2 சொல்): சென்னை மெட்ரோ இரண்டாம் கட்டம் பிரத
+[tts-edge] 336bb9a0bc55: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னை மெட்ரோ இரண்டாம் கட்டம் பிரதமர் மோடி தொடக்கம், முதல்வர் விஜய்உடன் பயணம்
+[skip] இது சுமார் 100 ஆண்டுகளுக்கு முன்பு அமெரிக்காவில் நடந்த ஒரு வ
+[skip] டெல்லியில் நடந்த உள்ளூர் அரசியல் போராட்டம் தொடர்பான செய்தி; 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfu8EXp9jSvgy7bpGhZJj'}
+[skip] மூலத்தில் மிகக் குறைந்த தகவலே உள்ளது — ஒரே செய்தி வாக்கியம் 
+[publish] சூடான் துணை ராணுவப் படை ஆளில்லா விமானத் தாக்குதலில் 41 பேர் பலி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfu8Md4sHaoyYLcA7A9ip'}
+[publish] சவுதி தலைநகர் ரியாத் விமான நிலையத்தில் தாக்குதல், பலர் காயம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfu8U2hpqcNYWjSLYYwkS'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] பிரதமர் மோடியை சந்திக்கவுள்ள எடப்பாடி பழ → பிரதமர் மோடியை சந்திக்கவுள்ள எடப்பாடி கே
+[publish] பிரதமர் மோடியை சந்திக்கவுள்ள எடப்பாடி கே.பழனிசாமி
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை - முழுமையா
+[திருத்தம்] பிரதமர் மோடி சென்னை வருகை: அக்டோபர் 11-ல → பிரதமர் நரேந்திர மோடி சென்னை வருகை: அக்.
+[publish] பிரதமர் நரேந்திர மோடி சென்னை வருகை: அக்.11-ல் போக்குவரத்து மாற்றம்
+[skip] தில்லியில் நடந்த உள்ளூர் அரசியல் போராட்டம் மற்றும் கைது தொடர
+[skip] மூலச் செய்தி மிகவும் தெளிவற்றது மற்றும் முழுமையற்றது — கட்சி
+[publish] தில்லி நிகழ்வுகள் அவசரநிலை நினைவுகளை தூண்டுகின்றன: மு.க.ஸ்டாலின்
+[திருத்தம்] ரஷ்ய டீசல் இறக்குமதி முடிவு - டிரம்ப் நி → ரஷ்யாவிடம் இருந்து டீசல் வாங்க டிரம்ப் ம
+[publish] ரஷ்யாவிடம் இருந்து டீசல் வாங்க டிரம்ப் முடிவு - அமெரிக்கர்கள் ஆச்சரியம், ஸெலென்ஸ்கி கோபம்
+[skip] இது மகாராஷ்டிரா தொடர்பான தனிநபர் கைது சம்பவம், தமிழ்நாடு வாச
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது அமெரிக்காவின் உள்நாட்டுப் புயல் சேதச் செய்தி; தமிழ்நாடு/
+[image] களஞ்சியம் (3 சொல்): போலந்து பள்ளியில் கத்தி தாக்குதல்,
+[publish] போலந்து பள்ளியில் கத்தி தாக்குதல், மூவர் காயம்
+[skip] இது ஒரு குறிப்பிட்ட நாட்டின் பள்ளி தொடர்பான உள்ளூர் புலனாய்வ
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: எபோலா நோயாளி மூன்று நாடுகளைக் கடந்
+[publish] எபோலா நோயாளி மூன்று நாடுகளைக் கடந்து பயணம், கேள்விகள் எழுச்சி
+[malar] 2026-W41 · புதிதாக எழுதுவது: roundup, numbers, history, films, zen, poem, hero, essay, agri, spirit, food, word, books, remedy, tech
+[malar] 2026-W41 · களஞ்சியத்திலிருந்து: (இல்லை)
+[malar:refresh] Expecting value: line 1 column 1 (char 0)
+[malar] களஞ்சியத்தில் 0 புதிது சேர்ந்தது · இருப்பு — zen:1, poem:1, hero:1, essay:1, agri:1, spirit:1, food:1, word:1, books:1, remedy:1, tech:1
+[malar] புதிய வாரமலர் 2026-W41
+[comic] கதை: தூணின் மறைவில் ஒரு காது
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4: பலகை 3-ஐப் போலவே உள்ளது (0.96) — மீண்டும் வரைகிறேன்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-11.png · நாள் 32
+[rasi] ராசிபலன் தயார்
 [market] தங்கம் 22K ₹13462 · சென்செக்ஸ் 72472
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 2
+[push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10

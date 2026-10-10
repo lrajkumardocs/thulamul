@@ -1,5 +1,628 @@
 [
  {
+  "headline": "எபோலா நோயாளி மூன்று நாடுகளைக் கடந்து பயணம், கேள்விகள் எழுச்சி",
+  "lines": [
+   "நாற்பது வயது வணிகர் ஒருவர் எபோலா தொற்று தீவிரமடைந்த நிலையிலும் விமானம் மூலம் பயணம் செய்துள்ளார்.",
+   "இவர் மூன்று நாடுகளின் எல்லைகளைக் கடந்து சென்றதாக தகவல் வெளியாகியுள்ளது.",
+   "பயணத்தின்போது எந்தச் சுகாதாரப் பரிசோதனையிலும் இவர் கண்டறியப்படவில்லை என்று தெரிகிறது.",
+   "இவர் எவ்வாறு கண்காணிப்பில் சிக்காமல் சென்றார் என்பது தொடர்பாக பல கேள்விகள் எழுந்துள்ளன.",
+   "இந்த சம்பவம் குறித்து மேலும் விரிவான தகவல்கள் வெளிவர வேண்டும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்த வணிகர் பயணித்த நாடுகள் மற்றும் தொடர்பு கொண்டவர்கள் குறித்த விரிவான தகவல் இன்னும் வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "எபோலா",
+   "வணிகர்",
+   "மூன்று நாடுகள்",
+   "BBC"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Ebola patient's undetected travel across three nations raises questions",
+   "lines": [
+    "A 40-year-old businessman infected with Ebola reportedly travelled by air while seriously ill.",
+    "He is said to have crossed the borders of three countries during his journey.",
+    "He apparently went undetected at any health screening point throughout the trip.",
+    "Many questions have arisen over how he managed to travel without being flagged by authorities.",
+    "Further detailed information about the incident is expected to be released soon."
+   ],
+   "closing": "Details about which countries he travelled through and who he came into contact with have not yet been fully disclosed."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "",
+  "wiki_subject": "Ebola virus disease",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "5d6fa4b6f6cc",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-11T01:23+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cqp8gknl1njjo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world05.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/5d6fa4b6f6cc.mp3",
+  "created_ts": 1791661989.9222813,
+  "status": "published"
+ },
+ {
+  "headline": "போலந்து பள்ளியில் கத்தி தாக்குதல், மூவர் காயம்",
+  "lines": [
+   "போலந்து நாட்டில் உள்ள ஒரு பள்ளியில் பெண் ஒருவர் கத்தியால் தாக்கி மூவரைக் காயப்படுத்தினார்.",
+   "ஒரே வாரத்தில் பள்ளிகளில் நடந்த மூன்றாவது கத்தி தாக்குதல் சம்பவம் இது.",
+   "முன்னதாக இரு நாட்களில் நடந்த இரு தாக்குதல்களில் ஒரு பெண் பராமரிப்பாளர் உயிரிழந்தார், பலர் காயமடைந்தனர்.",
+   "இதையடுத்து காவல்துறையினர் பல பள்ளிகளில் ஏற்கெனவே குவிக்கப்பட்டிருந்தனர்.",
+   "தற்போதைய தாக்குதல் தொடர்பாக போலந்து காவல்துறை விசாரணை நடத்தி வருகிறது."
+  ],
+  "closing": "ஒரே வாரத்தில் பள்ளிகளை மையமாகக் கொண்டு நடந்த மூன்று தாக்குதல்களும் அந்நாட்டில் பாதுகாப்பு குறித்த கவலையை எழுப்பியுள்ளன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "போலந்து",
+   "பள்ளி",
+   "காவல்துறை",
+   "கத்தி தாக்குதல்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Woman injures three in Poland's third school knife attack",
+   "lines": [
+    "A woman attacked a school in Poland with a knife, injuring three people.",
+    "This is the third knife attack at a school within a single week.",
+    "In two earlier attacks over two days, a female caretaker was killed and several others were injured.",
+    "Following those incidents, police had already been deployed to schools as a precaution.",
+    "Polish police are continuing their investigation into the latest attack."
+   ],
+   "closing": "Three attacks targeting schools within a week have raised concerns about safety in the country."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "66bd6aef8720",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-11T01:20+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cv8ezd246z1wo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/crime17.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/66bd6aef8720.mp3",
+  "created_ts": 1791661844.7046123,
+  "status": "published"
+ },
+ {
+  "headline": "ரஷ்யாவிடம் இருந்து டீசல் வாங்க டிரம்ப் முடிவு - அமெரிக்கர்கள் ஆச்சரியம், ஸெலென்ஸ்கி கோபம்",
+  "lines": [
+   "அமெரிக்க அதிபர் டொனால்ட் டிரம்ப், ரஷ்யாவிடம் இருந்து டீசல் எரிபொருளை இறக்குமதி செய்ய முடிவெடுத்துள்ளார் என தகவல் வெளியாகியுள்ளது.",
+   "இந்த முடிவு, ரஷ்யா மீது கடும் பொருளாதாரத் தடைகளை வலியுறுத்திய டிரம்பின் முந்தைய நிலைப்பாட்டிலிருந்து ஒரு குறிப்பிடத்தக்க மாற்றமாகக் கருதப்படுகிறது.",
+   "இந்த அறிவிப்பு அமெரிக்க மக்களிடையே பெரும் ஆச்சரியத்தையும், குழப்பத்தையும் ஏற்படுத்தியுள்ளது.",
+   "உக்ரைன் அதிபர் வொலோதிமிர் ஸெலென்ஸ்கி, இந்த முடிவுக்கு கடுமையான கண்டனத்தையும் கோபத்தையும் வெளிப்படுத்தியுள்ளார்.",
+   "ரஷ்யா, உக்ரைன் இடையிலான பதற்றத்தில் இந்த மாற்றம் என்ன தாக்கத்தை ஏற்படுத்தும் என்பது கவனிக்கப்பட்டு வருகிறது."
+  ],
+  "closing": "ரஷ்யா மீதான பொருளாதாரத் தடைகளை டிரம்ப் முன்பு கடுமையாக வலியுறுத்திய நிலையில், இந்த முடிவு பலரது கவனத்தை ஈர்த்துள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "டொனால்ட் டிரம்ப்",
+   "ரஷ்யா",
+   "உக்ரைன்",
+   "வொலொடிமிர் ஸெலென்ஸ்கி"
+  ],
+  "id": "c17473dfedfa",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-11T01:18+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cm1j3g93gjk0o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world06.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/c17473dfedfa.mp3",
+  "created_ts": 1791661741.369287,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "தில்லி நிகழ்வுகள் அவசரநிலை நினைவுகளை தூண்டுகின்றன: மு.க.ஸ்டாலின்",
+  "lines": [
+   "தில்லியில் தற்போது அரங்கேறி வரும் சில அரசியல் நிகழ்வுகள் குறித்து தமிழக முதலமைச்சர் மு.க.ஸ்டாலின் கருத்து தெரிவித்துள்ளார்.",
+   "இந்த நிகழ்வுகள் தான் நேரடியாகக் கண்ட அவசரநிலைக் காலத்தின் வலி நிறைந்த நினைவுகளை மீண்டும் கண்முன் நிறுத்துவதாக அவர் குறிப்பிட்டார்.",
+   "தில்லியில் நடைபெற்று வரும் சம்பவங்களை முதலமைச்சர் தனது அறிக்கையில் விமர்சன நோக்கில் சுட்டிக்காட்டினார்.",
+   "மூலச் செய்தியில் இது தொடர்பான கூடுதல் விவரங்கள் இன்னும் தெளிவாகத் தரப்படவில்லை.",
+   "இது குறித்த முழு அறிக்கையும், அதற்கான அரசியல் எதிர்வினைகளும் அடுத்தடுத்த நாட்களில் வெளிவரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "அவசரநிலைக் காலம் 1975 முதல் 1977 வரை நாடு முழுவதும் அமலில் இருந்தது என்பது வரலாற்றுப் பின்னணி.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "மு.க.ஸ்டாலின்",
+   "தில்லி",
+   "தமிழ்நாடு",
+   "அவசரநிலை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Delhi events bring back Emergency memories: says CM Stalin",
+   "lines": [
+    "Tamil Nadu Chief Minister M. K. Stalin has commented on certain political events currently unfolding in Delhi.",
+    "He stated that these events bring back painful memories of the Emergency period which he personally lived through.",
+    "The Chief Minister pointed to the ongoing developments in Delhi in a critical tone in his statement.",
+    "Further details regarding this matter have not yet been clearly provided in the source report.",
+    "The complete statement and the political reactions to it are expected to emerge in the coming days."
+   ],
+   "closing": "The Emergency period, as historical background, was in effect across the country from 1975 to 1977."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "M. K. Stalin",
+  "person_en": "M. K. Stalin",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "ad19e87dfaea",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-11T01:17+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/10/bring-back-painful-memories-of-the-emergency-that-i-lived-through"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Chief_Minister_of_Tamil_Nadu%2C_Thiru_MK_Stalin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · M. K. Stalin",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/M._K._Stalin",
+   "symbolic": false
+  },
+  "audio": "data/audio/ad19e87dfaea.mp3",
+  "created_ts": 1791661682.7121909,
+  "status": "published"
+ },
+ {
+  "headline": "பிரதமர் நரேந்திர மோடி சென்னை வருகை: அக்.11-ல் போக்குவரத்து மாற்றம்",
+  "lines": [
+   "பிரதமர் நரேந்திர மோடி அக்டோபர் 11-ம் தேதி சென்னைக்கு வருகை தருவதால் நகரில் போக்குவரத்து ஏற்பாடுகளில் மாற்றங்கள் செய்யப்பட்டுள்ளன.",
+   "பிரதமரின் வருகையை முன்னிட்டு சில முக்கிய சாலைகளில் வாகனங்கள் திருப்பிவிடப்படும் என காவல்துறை தெரிவித்துள்ளது.",
+   "பாதுகாப்பு காரணங்களுக்காகவே இந்த ஏற்பாடுகள் மேற்கொள்ளப்பட்டுள்ளதாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "பொதுமக்கள் முன்கூட்டியே தங்கள் பயணத் திட்டத்தை மாற்றிக்கொள்ளுமாறு காவல்துறை கேட்டுக்கொண்டுள்ளது.",
+   "பிரதமரின் நிகழ்ச்சி நிரல் தொடர்பான முழு விவரங்கள் விரைவில் அதிகாரப்பூர்வமாக வெளியிடப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "பிரதமரின் சென்னை வருகை தொடர்பான முழு நிகழ்ச்சி நிரல் இன்னும் அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-11"
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "நரேந்திர மோடி",
+   "சென்னை",
+   "காவல் துறை",
+   "போக்குவரத்து"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "PM Modi's Chennai Visit: Traffic Changes on October 11",
+   "lines": [
+    "Prime Minister Narendra Modi is visiting Chennai today, October 11, leading to changes in traffic arrangements in the city.",
+    "Ahead of the Prime Minister's visit, vehicles will be diverted on some key roads, police have stated.",
+    "Officials have said that these arrangements have been made purely for security reasons.",
+    "Police have requested the public to change their travel plans in advance.",
+    "Full details regarding the Prime Minister's schedule are expected to be officially released soon."
+   ],
+   "closing": "The complete schedule regarding the Prime Minister's visit to Chennai has not yet been officially released."
+  },
+  "id": "0985419c18ac",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-11T01:17+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/10/pm-modis-visit-to-chennai-traffic-changes-on-oct-11"
+  ],
+  "image": {
+   "url": "data/bank/govt06.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/0985419c18ac.mp3",
+  "created_ts": 1791661628.588054,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "பிரதமர் மோடியை சந்திக்கவுள்ள எடப்பாடி கே.பழனிசாமி",
+  "lines": [
+   "அதிமுக பொதுச் செயலாளர் எடப்பாடி கே.பழனிசாமி, பிரதமர் நரேந்திர மோடியை சந்திக்கவுள்ளதாகத் தகவல் வெளியாகியுள்ளது.",
+   "இந்த சந்திப்பு எப்போது, எங்கே நடைபெறும் என்பது குறித்து விரிவான தகவல் இதுவரை வெளியிடப்படவில்லை.",
+   "சந்திப்பின் நோக்கம் குறித்தும் அதிகாரப்பூர்வமாக எதுவும் அறிவிக்கப்படவில்லை.",
+   "தமிழக அரசியல் வட்டாரங்களில் இந்தச் சந்திப்பு கவனத்தை ஈர்த்துள்ளது.",
+   "கூடுதல் விவரங்கள் வெளியாகும்போது தெளிவு கிடைக்கும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்தச் சந்திப்பு குறித்த முழு விவரங்களும் இன்னும் வெளியாகவில்லை என்பது கவனிக்கத்தக்கது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "எடப்பாடி கே.பழனிசாமி",
+   "நரேந்திர மோடி",
+   "அதிமுக"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "Edappadi Palaniswami Set to Meet PM Modi",
+   "lines": [
+    "AIADMK general secretary Edappadi K. Palaniswami is reported to be meeting Prime Minister Narendra Modi.",
+    "Detailed information about the timing and venue of the meeting has not yet been released.",
+    "The purpose of the meeting has also not been officially announced.",
+    "The meeting has drawn attention within Tamil Nadu political circles.",
+    "Further details are expected to emerge once official information is released."
+   ],
+   "closing": "It is worth noting that complete details about this meeting have not yet been made public."
+  },
+  "front_cat": "routine",
+  "image_query": "Edappadi K Palaniswami",
+  "wiki_subject": "Edappadi K. Palaniswami",
+  "person_en": "Edappadi K. Palaniswami",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "cba57076231b",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-11T01:15+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/10/edappadi-palaniswami-is-meeting-prime-minister-modi"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/K._Palaniswami.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Edappadi K. Palaniswami",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Edappadi_K._Palaniswami",
+   "symbolic": false
+  },
+  "audio": "data/audio/cba57076231b.mp3",
+  "created_ts": 1791661541.4517732,
+  "status": "published"
+ },
+ {
+  "headline": "சவுதி தலைநகர் ரியாத் விமான நிலையத்தில் தாக்குதல், பலர் காயம்",
+  "lines": [
+   "சவுதி அரேபியாவின் தலைநகர் ரியாத்தில் உள்ள கிங் கலித் சர்வதேச விமான நிலையத்தில் தாக்குதல் நடந்தது.",
+   "இந்தத் தாக்குதலில் பலர் காயமடைந்ததாக உள்ளூர் அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "இந்தத் தாக்குதல் குறித்து அவர்கள் விஷயமறிந்திருப்பதாக அமெரிக்க தூதரகம் அறிவித்துள்ளது.",
+   "இதற்கு சில நாட்களுக்கு முன்னர் யேமனின் ஹூதி படையினர் இதே விமான நிலையத்தைத் தாக்கியதாக அறிவித்திருந்தனர்.",
+   "இதையடுத்து விமான நிலைய இயக்கங்கள் தற்காலிகமாக நிறுத்தப்பட்டதாக சவுதி விமான சரக்குக் கூட்டுறவு ஆணையம் தெரிவித்துள்ளது."
+  ],
+  "closing": "இந்த வாரத்தில் இந்த விமான நிலையத்தின் மீது நடந்த இரண்டாவது தாக்குதல் இதுவாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ரியாத்",
+   "சவுதி அரேபியா",
+   "கிங் காலித் பன்னாட்டு விமான நிலையம்",
+   "யேமன் ஹூதி படையினர்",
+   "அமெரிக்க தூதரகம்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Attack on Riyadh airport in Saudi capital leaves several injured",
+   "lines": [
+    "An attack took place at King Khalid International Airport in Riyadh, the capital of Saudi Arabia.",
+    "Several people were injured in the attack, according to local authorities.",
+    "The US embassy said it is aware of the attacks on the airport.",
+    "Days earlier, Yemen's Houthi forces had claimed they struck the same airport.",
+    "Operations at the airport have been temporarily suspended, Saudi Arabia's Civil Aviation Authority said."
+   ],
+   "closing": "This marks the second attack on the same airport within this week."
+  },
+  "front_cat": "attack_terror",
+  "image_query": "",
+  "wiki_subject": "King Khalid International Airport",
+  "person_en": "",
+  "urgent": true,
+  "affected": "நாடு",
+  "flags": [
+   "unverified_claim"
+  ],
+  "id": "e4256e6327a7",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-11T01:13+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Riyadh-airport.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · King Khalid International Airport",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/King_Khalid_International_Airport",
+   "symbolic": false
+  },
+  "audio": "data/audio/e4256e6327a7.mp3",
+  "created_ts": 1791661404.862948,
+  "status": "published"
+ },
+ {
+  "headline": "சூடான் துணை ராணுவப் படை ஆளில்லா விமானத் தாக்குதலில் 41 பேர் பலி",
+  "lines": [
+   "சூடான் நாட்டின் கிழக்கு எத்தியோப்பிய எல்லைப் பகுதியில், துணை ராணுவப் படையின் ஆளில்லா விமானத் தாக்குதலில் 41 பேர் உயிரிழந்தனர் என மனித உரிமை அமைப்பு ஒன்று தெரிவித்துள்ளது.",
+   "இறந்தவர்களில் எட்டு குழந்தைகள் இருப்பதாக அந்த அமைப்பு குறிப்பிட்டுள்ளது.",
+   "இடம்பெயர்ந்த மக்கள் கூடியிருந்த ஓர் இடத்தின் மீது இந்தத் தாக்குதல் நடந்ததாக தகவல்கள் தெரிவிக்கின்றன.",
+   "சூடான் அரசுப் படைக்கும் துணை ராணுவப் படைக்கும் இடையிலான உள்நாட்டுப் போர் தொடர்ந்து நடைபெற்று வருகிறது.",
+   "இந்தச் சம்பவம் தொடர்பாக மேலும் விவரங்கள் வெளியாக வேண்டியுள்ளன."
+  ],
+  "closing": "இந்தத் தாக்குதல் குறித்து சூடான் துணை ராணுவப் படையிடமிருந்து இதுவரை அதிகாரப்பூர்வ பதில் வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "சூடான்",
+   "எத்தியோப்பியா எல்லை",
+   "துணை ராணுவப் படை",
+   "மனித உரிமை அமைப்பு"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Sudan paramilitary drone strike kills 41 near Ethiopian border",
+   "lines": [
+    "A drone strike by Sudan's paramilitary force near the eastern Ethiopian border killed 41 people, a rights group has said.",
+    "The group said eight children were among those killed in the attack.",
+    "Reports indicate the strike hit a gathering of displaced people at the location.",
+    "The civil war between Sudan's army and the paramilitary force continues without resolution.",
+    "Further details on the incident are yet to emerge."
+   ],
+   "closing": "There has been no official response from the Sudan paramilitary force regarding the strike so far."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "wiki_subject": "Sudanese civil war (2023–present)",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "57fdd6ba4cad",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-11T01:12+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/War_in_Sudan_%282023%29.svg/960px-War_in_Sudan_%282023%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Sudanese civil war (2023–present)",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)",
+   "symbolic": false
+  },
+  "audio": "data/audio/57fdd6ba4cad.mp3",
+  "created_ts": 1791661331.1660514,
+  "status": "published"
+ },
+ {
+  "headline": "சென்னை மெட்ரோ இரண்டாம் கட்டம் பிரதமர் மோடி தொடக்கம், முதல்வர் விஜய்உடன் பயணம்",
+  "lines": [
+   "சென்னை மெட்ரோ ரயில் இரண்டாம் கட்டப் பணிகளை பிரதமர் நரேந்திர மோடி தொடக்கி வைக்க உள்ளார்.",
+   "தொடக்கக் கட்டமாக பூந்தமல்லி முதல் வடபழனி வரை பதினைந்து ரயில்கள் இயக்கப்படும்.",
+   "பரபரப்பான நேரங்களில் ஒவ்வொரு பத்து நிமிடத்துக்கும் ஒரு ரயில் கிடைக்கும் என அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "தமிழ்நாடு முதல்வர் விஜயும் இத் தொடக்க விழாவில் பிரதமருடன் இணைந்து பயணிக்க உள்ளதாகத் தகவல் வெளியாகியுள்ளது.",
+   "இந்தத் திட்டத்தின் மூலம் சென்னை பொதுப் போக்குவரத்து வலையமைப்பு மேலும் விரிவடையும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "சென்னை மெட்ரோ இரண்டாம் கட்டம் நகரின் முக்கிய பகுதிகளை இணைக்கும் வகையில் படிப்படியாக விரிவடையும் என திட்டமிடப்பட்டுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை மெட்ரோ",
+   "நரேந்திர மோடி",
+   "பூந்தமல்லி",
+   "வடபழனி",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "PM Modi to Launch Chennai Metro Rail Phase 2",
+   "lines": [
+    "Prime Minister Narendra Modi is set to launch the second phase of Chennai Metro Rail.",
+    "In the initial stage, fifteen trains will operate between Poonamallee and Vadapalani.",
+    "Officials said commuters can expect a train every ten minutes during peak hours.",
+    "Reports indicate the Tamil Nadu Chief Minister will also travel with the Prime Minister during the launch event.",
+    "The project is expected to further expand Chennai's public transport network."
+   ],
+   "closing": "Chennai Metro Phase 2 is planned to expand gradually, connecting key parts of the city.",
+   "closing_type": "background"
+  },
+  "id": "336bb9a0bc55",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-11T01:10+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/pm-modi-to-launch-chennai-metro-rail-phase-2-to-share-ride-with-tamil-nadu-cm-vijay/article71568212.ece"
+  ],
+  "image": {
+   "url": "data/bank/transport03.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/336bb9a0bc55.mp3",
+  "created_ts": 1791661211.1173909,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "கே.வி. திருவேங்கடம் நூற்றாண்டு விழாவில் பல்வேறு நிகழ்வுகள்",
+  "lines": [
+   "புகழ்பெற்ற மருத்துவர் கே.வி. திருவேங்கடத்தின் நூற்றாண்டு ஆண்டாக இந்த ஆண்டு குறிப்பிடப்படுகிறது.",
+   "சென்னையிலும் அதற்கு அப்பாலும் மருத்துவம் மீது அவர் ஏற்படுத்திய தாக்கத்தைத் திரும்பிப் பார்க்கும் விழாக்கள் நடத்தப்படும்.",
+   "நோயாளிகளைக் கேட்டுக் கொள்ளுதல், படுக்கையணையில் சோதனை செய்தல், சோதனைப் பணிப்பொன்றை விடுமுன் சிந்தித்தல் — இவற்றை மீண்டும் வலியுறுத்த இந்த விழாக்கள் திட்டமிடப்பட்டுள்ளன.",
+   "நவீன தொழில்நுட்ப யுகத்தில் ஒரு நல்ல மருத்துவர் என்பது எவனாக வேண்டும் என்ற அடிப்படைக் கேள்விதான் இந்த விழாக்களின் மையம்.",
+   "மருத்துவ நடைமுறையிலிருந்து மரபுசார் மதிப்புகள் கெட்டுப் போயிருப்பதற்கு எதிராக இந்த நினைவுக் நிகழ்வுகள் மனிதமுகம் மீட்டுக்காட்ட விரும்புகின்றன."
+  ],
+  "closing": "கே.வி. திருவேங்கடம் சென்னையில் மருத்துவச் சிக்ஷணத்தின் தலைவர் ஆவார்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": "2026-10-11"
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "கே.வி. திருவேங்கடம்",
+   "சென்னை",
+   "மருத்துவம்"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "Multiple events planned to mark K.V. Thiruvengadam's centenary",
+   "lines": [
+    "The centenary year of renowned physician K.V. Thiruvengadam is being marked with a series of commemorative events.",
+    "These celebrations will recall his profound influence on medicine in Chennai and beyond.",
+    "The events will emphasize listening to patients, bedside examination, careful thinking before ordering tests, and reflection on what constitutes good medical practice.",
+    "At the heart of these commemorations lies a fundamental question about the role of a physician in an age of advanced technology.",
+    "These memorial events seek to restore the human element to medical practice, countering the erosion of traditional values in healthcare."
+   ],
+   "closing": "K.V. Thiruvengadam remains a benchmark for medical education leadership in Chennai."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "medical examination bedside patient listening",
+  "wiki_subject": "K.V. Thiruvengadam",
+  "person_en": "K.V. Thiruvengadam",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "740ef63853de",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-11T01:08+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/slew-of-events-planned-in-memory-of-kv-thiruvengadam-in-centenary-year/article71555118.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/740ef63853de.mp3",
+  "created_ts": 1791661143.8308074,
+  "status": "published"
+ },
+ {
   "id": "art_tech_20261010",
   "headline": "தினசரி பயன்பாட்டில் பாதுகாப்பு: UPI, ஆதார் குறிப்புகள்",
   "lines": [
@@ -18491,667 +19114,6 @@
   },
   "audio": "data/audio/807f093f5fca.mp3",
   "created_ts": 1790969834.6013203,
-  "status": "published"
- },
- {
-  "headline": "ஐந்து தொகுதி இடைத்தேர்தல் ஒத்திவைப்பு மனு - தீர்ப்பு ஒத்திவைப்பு",
-  "lines": [
-   "தமிழ்நாட்டில் ஐந்து சட்டமன்றத் தொகுதிகளுக்கான இடைத்தேர்தலை ஒத்திவைக்கக் கோரும் மனு மீதான தீர்ப்பை சென்னை உயர்நீதிமன்றம் ஒத்திவைத்துள்ளது.",
-   "இந்த மனு தொடர்பாக நீதிமன்றத்தில் இருதரப்பு வாதங்களும் முழுமையாகக் கேட்கப்பட்டதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "இந்திய தேர்தல் ஆணையம் சார்பில், இந்த வழக்கில் தங்கள் பங்கு எதிர்தரப்பாக இல்லை என வாதிடப்பட்டது.",
-   "சட்டத்தை நீதிமன்றம் எவ்வாறு விளக்குகிறதோ அதன்படியே செயல்படுவதாக தேர்தல் ஆணையம் தெரிவித்துள்ளது.",
-   "வழக்கின் இறுதி தீர்ப்பு விரைவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "ஐந்து தொகுதி இடைத்தேர்தல் ஒத்திவைப்பு தொடர்பான இறுதி தீர்ப்பை நீதிமன்றம் விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர்நீதிமன்றம்",
-   "இந்திய தேர்தல் ஆணையம்",
-   "இடைத்தேர்தல்",
-   "தமிழ்நாடு",
-   "ஐந்து தொகுதிகள்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Madras HC Reserves Verdict on Plea to Defer Bypolls in Five TN Seats",
-   "lines": [
-    "The Madras High Court has reserved its judgment on a plea seeking to defer bypolls in five Tamil Nadu assembly constituencies.",
-    "Both sides reportedly presented detailed arguments before the court on the matter.",
-    "The Election Commission of India argued that its role in the case is non-adversarial.",
-    "The Commission stated it would act in whichever way the court interprets the law.",
-    "The final verdict in the case is expected to be delivered soon."
-   ],
-   "closing": "The final verdict on deferring the bypolls in the five constituencies is expected to be delivered soon."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "Madras High Court building",
-  "wiki_subject": "Madras High Court",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "bd5f5a63f6c7",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-10-03T01:04+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-reserves-judgment-on-plea-to-defer-bypolls-in-five-tamil-nadu-constituencies/article71533470.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/bd5f5a63f6c7.mp3",
-  "created_ts": 1790969683.105745,
-  "status": "published"
- },
- {
-  "headline": "தூத்துக்குடியில் இந்தி பலகைகள் விவகாரம், இரு அதிகாரிகள் இடைநீக்கம்",
-  "lines": [
-   "தூத்துக்குடியில் சாலையோரப் பலகைகளில் இந்தி மொழி பயன்படுத்தப்பட்டதை திமுக தலைவர் மு.க.ஸ்டாலின் கண்டித்தார்.",
-   "இந்தத் தவறுக்குக் காரணமான உதவிப் பொறியாளர் மற்றும் உதவிப் பிரிவுப் பொறியாளர் ஆகிய இருவரும் இடைநீக்கம் செய்யப்பட்டனர்.",
-   "இந்த விவரத்தை அமைச்சர் ஆதவ் அர்ஜுனா வெளியிட்டார்.",
-   "தமிழக அரசு, தமிழ் மொழிக்கு முன்னுரிமை அளிக்க வேண்டும் என்ற கொள்கையை தொடர்ந்து வலியுறுத்தி வருகிறது.",
-   "இந்தி பலகைகள் தொடர்பாக மேலும் விசாரணை நடத்தப்படும் என அரசு தரப்பில் தெரிவிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "தமிழ்நாட்டில் இந்தி மொழி பலகைகள் குறித்த சர்ச்சை அவ்வப்போது அரசியல் விவாதத்தை ஏற்படுத்தி வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தூத்துக்குடி",
-   "மு.க.ஸ்டாலின்",
-   "ஆதவ் அர்ஜுனா",
-   "திமுக"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Thoothukudi Hindi signboard row, two officials suspended",
-   "lines": [
-    "DMK chief M. K. Stalin criticised the use of Hindi on roadside signboards in Thoothukudi.",
-    "An Assistant Engineer and an Assistant Divisional Engineer responsible for the lapse were suspended.",
-    "Minister Aadhav Arjuna shared these details publicly.",
-    "The Tamil Nadu government has consistently stressed the need to prioritise the Tamil language.",
-    "Further inquiry into the Hindi signboard issue is expected, officials said."
-   ],
-   "closing": "Disputes over Hindi signage in Tamil Nadu have periodically sparked political debate."
-  },
-  "front_cat": "routine",
-  "image_query": "road signboard Tamil Nadu",
-  "wiki_subject": "",
-  "person_en": "M. K. Stalin",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "fc0549267bbc",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-03T01:03+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/dmk-chief-stalin-slams-hindi-signboards-in-thoothukudi-officials-responsible-suspended-says-minister/article71536305.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Chief_Minister_of_Tamil_Nadu%2C_Thiru_MK_Stalin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · M. K. Stalin",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/M._K._Stalin",
-   "symbolic": false
-  },
-  "audio": "data/audio/fc0549267bbc.mp3",
-  "created_ts": 1790969604.982473,
-  "status": "published"
- },
- {
-  "headline": "திருவண்ணாமலையில் கிணறு தோண்டும்போது மண்சரிவு இரண்டு பேர் பலி",
-  "lines": [
-   "திருவண்ணாமலை மாவட்டத்தில் விவசாய கிணறு தோண்டும் பணியின்போது மண் சரிந்து இரண்டு தொழிலாளர்கள் உயிரிழந்தனர்.",
-   "சம்பவம் நடந்த இடத்தில் உடனடியாக மீட்புப் பணிகள் மேற்கொள்ளப்பட்டு, உடல்கள் வெளியே எடுக்கப்பட்டன.",
-   "காவல் துறையினர் இச்சம்பவம் தொடர்பாக வழக்குப் பதிவு செய்து விசாரணை நடத்தி வருகின்றனர்.",
-   "கிணறு தோண்டும் பணியின்போது ஏற்பட்ட இந்த மண்சரிவுக்கான காரணம் இன்னும் உறுதி செய்யப்படவில்லை.",
-   "சம்பவம் தொடர்பான மேலதிக விவரங்களை காவல் துறை விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "விவசாயக் கிணறு தோண்டும் பணிகளில் பாதுகாப்பு முறைகள் பின்பற்றப்படுகிறதா என்பது தொடர்பான கேள்வி இப்போது எழுந்துள்ளது.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "திருவண்ணாமலை",
-   "விவசாய கிணறு",
-   "தொழிலாளர்கள்",
-   "மண் சரிவு",
-   "காவல் துறை"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Two workers killed in soil collapse at farm well in Tiruvannamalai",
-   "lines": [
-    "Two workers died when soil collapsed during the construction of a farm well in Tiruvannamalai district.",
-    "Rescue operations were carried out immediately at the site, and the bodies were retrieved.",
-    "Police have registered a case related to the incident and are conducting an investigation.",
-    "The exact cause of the soil collapse during the well construction work has not yet been confirmed.",
-    "Further details regarding the incident are expected to be released by the police soon."
-   ],
-   "closing": "The incident has raised questions about whether safety measures are being followed during farm well digging work."
-  },
-  "closing_type_check": "question",
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "17c61a4fcacd",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-03T01:02+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/two-workers-killed-in-soil-collapse-during-farm-well-construction-in-tiruvannamalai/article71537031.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime16.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/17c61a4fcacd.mp3",
-  "created_ts": 1790969539.9895673,
-  "status": "published"
- },
- {
-  "headline": "பஞ்சாப் எல்லையில் ஊடுருவல் முயற்சி: இருவர் சுட்டுக் கொல்லப்பட்டனர்",
-  "lines": [
-   "பஞ்சாப் மாநிலம் தரன் தரன் மாவட்டத்தில் பாகிஸ்தான் எல்லை வழியாக மூவர் ஊடுருவ முயன்றதாகத் தெரிவிக்கப்படுகிறது.",
-   "நெல் வயல்கள் வழியாக எல்லை தாண்ட முயன்ற மூவரில் இருவரை எல்லைப் பாதுகாப்புப் படை (பிஎஸ்எஃப்) வீரர்கள் சுட்டுக் கொன்றனர்.",
-   "இறந்தவர்களின் உடல்களைத் திரும்பப் பெற்றுக்கொள்ள பாகிஸ்தான் ரேஞ்சர்ஸ் படையினர் ஒப்புக்கொண்டதாக அறிவிக்கப்பட்டுள்ளது.",
-   "மூன்றாவது நபர் தப்பியிருக்கலாம் என எல்லைப் பாதுகாப்புப் படை அதிகாரிகள் தெரிவித்துள்ளனர்.",
-   "இச்சம்பவம் தொடர்பாக எல்லைப் பாதுகாப்புப் படையினர் மேலும் விசாரணை நடத்தி வருகின்றனர்."
-  ],
-  "closing": "இரு நாடுகளுக்கு இடையேயான எல்லைப் பாதுகாப்பு ஒத்துழைப்பின் ஒரு பகுதியாக உடல்களைத் திரும்ப ஒப்படைக்கும் நடைமுறை தொடரும் என எதிர்பார்க்கப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "பஞ்சாப்",
-   "தரன் தரன் மாவட்டம்",
-   "எல்லைப் பாதுகாப்புப் படை",
-   "பாகிஸ்தான் ரேஞ்சர்ஸ்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Two Intruders Shot Dead Along Punjab Border by BSF",
-   "lines": [
-    "Three men allegedly attempted to cross into India through paddy fields in Tarn Taran district, Punjab.",
-    "Two of the three were shot dead by the Border Security Force, known as BSF, while attempting the crossing.",
-    "Pakistan Rangers have reportedly agreed to take back the bodies of the deceased.",
-    "BSF officials stated that the third person may have escaped during the incident.",
-    "Further investigation into the incident is being carried out by BSF personnel."
-   ],
-   "closing": "The handover of bodies is expected to proceed as part of routine cross-border security coordination between the two forces."
-  },
-  "front_cat": "war_conflict",
-  "image_query": "",
-  "wiki_subject": "Border Security Force",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "6203a94315ed",
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-10-03T00:48+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/two-suspected-pakistani-intruders-shot-dead-by-bsf-in-punjab/article71536515.ece",
-   "https://www.thehindu.com/news/national/two-suspected-pakistani-intruders-shot-dead-by-bsf-in-punjab/article71536515.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/BSF_Insignia.svg/250px-BSF_Insignia.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Border Security Force",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Border_Security_Force",
-   "symbolic": false
-  },
-  "audio": "data/audio/6203a94315ed.mp3",
-  "created_ts": 1790968711.017887,
-  "status": "published"
- },
- {
-  "headline": "புக்சா காப்பகம் பெண் புலி விடுவிப்பால் புலிகளின் நிலை திரும்பப் பெறுகிறது",
-  "lines": [
-   "மேற்கு வங்காள மாநிலத்தில் உள்ள புக்சா காப்பகத்தில் மூன்று வயது பெண் புலி ஒன்று சமீபத்தில் விடுவிக்கப்பட்டது.",
-   "இந்தப் புலி பீகார் மாநிலத்தில் உள்ள வால்மீகி காப்பகத்திலிருந்து புக்சாவுக்குக் கொண்டு வரப்பட்டு இடப்பெயர்ச்செய்யப்பட்டது.",
-   "இது புக்சாவில் நிலையான, சுயசார்புடைய புலிகள் குழுமத்தை உருவாக்கும் முதல் கட்ட முயற்சி என வனத் துறை அதிகாரிகள் தெரிவித்தனர்.",
-   "பல ஆண்டுகளாக புக்சா காப்பகத்தில் புலிகளின் எண்ணிக்கை மிகவும் குறைவாகவே இருந்து வந்தது.",
-   "படிப்படியாக மேலும் புலிகளை அனுப்பி எண்ணிக்கையை அதிகரிக்கும் திட்டம் தொடர்ந்து செயல்படுத்தப்படும் என அதிகாரிகள் தெரிவித்தனர்."
-  ],
-  "closing": "புக்சா காப்பகம் பல ஆண்டுகளாக புலிகளின் எண்ணிக்கைக் குறைவால் சவாலை எதிர்கொண்டு வந்தபடியாலே இந்த இடப்பெயர்ச்செய்கை மேற்கொள்ளப்பட்டுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "புக்சா புலிகள் காப்பகம்",
-   "மேற்கு வங்காளம்",
-   "வால்மீகி புலிகள் காப்பகம்",
-   "பீகார்",
-   "புலிகள் திட்டம்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Three-year-old tigress released in Buxa Tiger Reserve",
-   "lines": [
-    "A three-year-old tigress was recently released into the Buxa Tiger Reserve in West Bengal.",
-    "The tigress was translocated from the Valmiki Tiger Reserve in the state of Bihar.",
-    "Forest officials said this marks the first phase of efforts to establish a viable, self-sustaining tiger population in Buxa.",
-    "The tiger population in Buxa Reserve has reportedly remained very low for several years.",
-    "Officials said more tigers would be translocated in phases to gradually increase the population."
-   ],
-   "closing": "The translocation comes against the backdrop of Buxa Reserve facing a long-standing challenge of low tiger numbers."
-  },
-  "front_cat": "routine",
-  "image_query": "Bengal tiger forest release",
-  "wiki_subject": "Buxa Tiger Reserve",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [],
-  "id": "d47161b7f388",
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-10-03T00:47+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/west-bengal/tigress-released-in-bengals-buxa-tiger-reserve-plans-afoot-for-three-more-by-end-of-year/article71536359.ece",
-   "https://www.thehindu.com/news/national/west-bengal/tigress-released-in-bengals-buxa-tiger-reserve-plans-afoot-for-three-more-by-end-of-year/article71536359.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Buxa_Tiger_Reserve_forest_2014.jpg/3840px-Buxa_Tiger_Reserve_forest_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Buxa Tiger Reserve",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Buxa_Tiger_Reserve",
-   "symbolic": false
-  },
-  "audio": "data/audio/d47161b7f388.mp3",
-  "created_ts": 1790968624.145858,
-  "status": "published"
- },
- {
-  "headline": "அம்ராவதி சம்ருத்தி வேகவழிச் சாலையில் விபத்து, ஏழு பேர் பலி",
-  "lines": [
-   "மகாராஷ்டிராவின் அம்ராவதி அருகே சம்ருத்தி வேகவழிச் சாலையில் லாரி ஒன்று பயணிகள் வேன் மீது மோதியது.",
-   "இந்த விபத்தில் ஏழு பேர் உயிரிழந்ததாகவும், பதினெட்டு பேர் காயமடைந்ததாகவும் தெரிவிக்கப்பட்டுள்ளது.",
-   "இந்த விபத்து சாலைப் பாதுகாப்பு குறித்து மீண்டும் கவலைகளை எழுப்பியுள்ளதாக தெரிவிக்கப்படுகிறது.",
-   "இந்த வேகவழிச் சாலை இந்து ஹ்ருதயசாம்ராட் பாலாசாகேப் தாக்கரே மகாராஷ்டிரா சம்ருத்தி மகாமார்க் என அழைக்கப்படுகிறது.",
-   "இந்த விபத்து தொடர்பான மேலும் விவரங்கள் அதிகாரப்பூர்வமாக வெளியிடப்பட வேண்டும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்த சம்ருத்தி வேகவழிச் சாலை மகாராஷ்டிராவின் முக்கிய நீண்ட தூர வேகவழிச் சாலைகளில் ஒன்றாகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "மகாராஷ்டிரா",
-   "அம்ராவதி",
-   "சம்ருத்தி வேகவழிச் சாலை"
-  ],
-  "id": "3958166ef675",
-  "flags": [],
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-03T00:46+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/maharashtra/seven-killed-19-injured-as-truck-hits-pickup-van-in-maharashtras-amravati/article71538056.ece",
-   "https://www.thehindu.com/news/national/maharashtra/seven-killed-19-injured-as-truck-hits-pickup-van-in-maharashtras-amravati/article71538056.ece"
-  ],
-  "image": {
-   "url": "data/bank/accident05.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/3958166ef675.mp3",
-  "created_ts": 1790968580.5012937,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "தலைமைத் தேர்தல் ஆணையர் நீக்கம், எஸ்ஐஆர் ரத்து கோரி இடதுசாரிக் கட்சிகள்",
-  "lines": [
-   "இடதுசாரிக் கட்சிகள் தலைமைத் தேர்தல் ஆணையரை பதவியிலிருந்து நீக்கக் கோரிக்கை விடுத்துள்ளன.",
-   "வாக்காளர் பட்டியல் தொடர்பான சிறப்பு தீவிர திருத்த நடவடிக்கையையும் முழுமையாக ரத்து செய்ய வேண்டும் என அவர் வலியுறுத்தியுள்ளனர்.",
-   "இந்தக் கோரிக்கையை இடதுசாரிக் கட்சிகளின் தலைவர்கள் கூட்டாக முன்வைத்ததாகத் தகவல்கள் தெரிவிக்கின்றன.",
-   "தேர்தல் ஆணையத்தின் பணிநடைமுறைகள் மீதான விமர்சனங்கள் தொடர்ச்சியாக எழுந்து வரும் நிலையில் இந்தக் கோரிக்கை முன்வைக்கப்பட்டுள்ளது.",
-   "இது தொடர்பாக தேர்தல் ஆணையம் அல்லது மத்திய அரசு இதுவரை அதிகாரப்பூர்வமாக எந்தப் பதிலும் அளிக்கவில்லை."
-  ],
-  "closing": "வாக்காளர் பட்டியல் சிறப்பு தீவிர திருத்தம் என்பது தேர்தல் ஆணையத்தின் வழக்கமான பட்டியல் புதுப்பிப்பு நடைமுறையாகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "இடதுசாரிக் கட்சிகள்",
-   "தலைமைத் தேர்தல் ஆணையர்",
-   "தேர்தல் ஆணையம்",
-   "சிறப்பு தீவிர திருத்தம்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Left Parties Demand CEC's Removal and Cancellation of SIR",
-   "lines": [
-    "Left parties have demanded the removal of the Chief Election Commissioner from his post.",
-    "They have also insisted that the Special Intensive Revision of electoral rolls be completely cancelled.",
-    "The demand is reported to have been jointly raised by leaders of various Left parties.",
-    "The call comes amid continuing criticism over the functioning and procedures of the Election Commission.",
-    "Neither the Election Commission nor the central government has officially responded to the demand so far."
-   ],
-   "closing": "The Special Intensive Revision is a routine electoral roll updation process conducted by the Election Commission."
-  },
-  "id": "ba7b7bda5430",
-  "flags": [],
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-10-03T00:45+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/andhra-pradesh/left-parties-demand-cecs-removal-sir-cancellation/article71537810.ece",
-   "https://www.thehindu.com/news/national/andhra-pradesh/left-parties-demand-cecs-removal-sir-cancellation/article71537810.ece"
-  ],
-  "image": {
-   "url": "data/bank/india01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/ba7b7bda5430.mp3",
-  "created_ts": 1790968527.6342304,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ஆசிய விளையாட்டு போட்டி: 44 ஆண்டுகளுக்குப் பின் மகளிர் ஹாக்கியில் இந்தியாவுக்குத் தங்கம்",
-  "lines": [
-   "ஜப்பானின் ஐச்சி-நகோயாவில் நடைபெறும் ஆசிய விளையாட்டுப் போட்டியின் பதினான்காம் நாளான அக்டோபர் இரண்டாம் தேதி இந்திய மகளிர் ஹாக்கி அணி தங்கப் பதக்கம் வென்றது.",
-   "நாற்பத்து நான்கு ஆண்டுகளுக்குப் பின்பு இந்திய மகளிர் ஹாக்கி அணி இந்த வெற்றியைப் பெற்றுள்ளது.",
-   "குத்துச்சண்டைப் போட்டியில் லவ்லினா, பர்வீன், அங்குஷ் ஆகிய வீரர்கள் தங்கப் பதக்கங்களை வென்றனர்.",
-   "வில்வித்தையின் ரிகர்வ் பிரிவிலும், குத்துச்சண்டையில் சுஜீத் உள்ளிட்ட வீரர்களாலும் இந்தியாவுக்குக் கூடுதல் பதக்கங்கள் கிடைத்தன.",
-   "இந்த வெற்றிகளுடன் ஒட்டுமொத்த பதக்கப் பட்டியலில் இந்தியாவின் நிலை மேலும் உயர்ந்துள்ளது."
-  ],
-  "closing": "இந்திய மகளிர் ஹாக்கி அணி ஆசிய விளையாட்டுப் போட்டியில் கடைசியாகத் தங்கம் வென்றது 44 ஆண்டுகளுக்கு முன்பு ஆகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Sportstar",
-    "doc": null,
-    "date": "2026-10-02"
-   },
-   {
-    "name": "Sportstar",
-    "doc": null,
-    "date": "2026-10-02"
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "ஆசிய விளையாட்டுப் போட்டி",
-   "இந்திய மகளிர் ஹாக்கி அணி",
-   "லவ்லினா",
-   "பர்வீன்",
-   "அங்குஷ்",
-   "ஐச்சி நகோயா"
-  ],
-  "confidence": 0.8,
-  "en": {
-   "headline": "Asian Games 2026: India women's hockey team wins gold after 44 years",
-   "lines": [
-    "On day 14 of the Asian Games in Aichi-Nagoya, Japan, held on October 2, India's women's hockey team won the gold medal.",
-    "This marks India's first women's hockey gold at the Asian Games in 44 years.",
-    "In boxing, Lovlina, Parveen and Ankush won gold medals for India.",
-    "India also added medals in recurve archery and through Sujeet in boxing.",
-    "With these wins, India's overall position in the medal tally has improved further."
-   ],
-   "closing": "It is notable that India's women's hockey team had last won gold at the Asian Games 44 years ago."
-  },
-  "front_cat": "sports_historic",
-  "image_query": "Indian women's hockey team",
-  "wiki_subject": "India women's national field hockey team",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "1c4e6556141b",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-10-03T00:44+05:30",
-  "links": [
-   "https://sportstar.thehindu.com/asian-games/india-medal-tally-live-asian-games-2026-day-14-october-2-updated-gold-silver-bronze/article71535685.ece",
-   "https://sportstar.thehindu.com/asian-games/asian-games-live-updates-day-14-october-2-2026-match-scores-events-news-highlights/article71535622.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Hockey_India_Logo.svg/330px-Hockey_India_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · India women's national field hockey team",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/India_women's_national_field_hockey_team",
-   "symbolic": false
-  },
-  "audio": "data/audio/1c4e6556141b.mp3",
-  "created_ts": 1790968477.7177718,
-  "status": "published"
- },
- {
-  "headline": "அமெரிக்காவில் தூக்குத் தண்டனை தோல்வி, கிறிஸ்டா பைக் மருத்துவமனையில் சிகிச்சை",
-  "lines": [
-   "அமெரிக்காவின் டெனசி மாநிலத்தில் கொலைக் குற்றத்திற்காக தூக்குத் தண்டனை விதிக்கப்பட்ட கிறிஸ்டா பைக் என்பவருக்கு, இரண்டு முறை நிலைசெய்யப்பட்ட ஊசி மூலம் விஷம் செலுத்தப்பட்டும் தண்டனை நிறைவேறவில்லை.",
-   "இந்த சம்பவம் புதன்கிழமை இரவு நடந்ததாக தகவல்கள் தெரிவிக்கின்றன.",
-   "தற்போது அவர் ஒரு மருத்துவமனையில் சிகிச்சை பெற்று வருவதாக தெரிவிக்கப்பட்டுள்ளது.",
-   "பிபிசி செய்தியாளர் ஐயோன் வெல்ஸ் மருத்துவமனைக்கு வெளியே இருந்து இந்த சம்பவம் தொடர்பாக விரிவாக தெரிவித்தார்.",
-   "தண்டனை நிறைவேற்றும் முறையில் நிகழ்ந்த தோல்வி மற்றும் அடுத்து என்ன நடவடிக்கை எடுக்கப்படும் என்பது குறித்து அதிகாரப்பூர்வ அறிக்கைக்காக காத்திருக்கப்படுகிறது."
-  ],
-  "closing": "நிலைசெய்யப்பட்ட ஊசி மூலம் தூக்குத் தண்டனை நிறைவேற்றும் முறை தோல்வியடைந்தது, அமெரிக்காவில் இந்த தண்டனை முறை குறித்த விவாதத்தை மீண்டும் எழுப்பியுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "கிறிஸ்டா பைக்",
-   "டென்னசி",
-   "அமெரிக்கா",
-   "பிபிசி"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Failed execution in US leaves convicted killer hospitalised",
-   "lines": [
-    "In Tennessee, USA, convicted killer Christa Pike survived two lethal injection attempts intended to carry out her death sentence.",
-    "The incident is reported to have occurred on Wednesday night.",
-    "She is currently said to be receiving treatment at a hospital.",
-    "A BBC correspondent reported from outside the hospital regarding the incident.",
-    "Officials are yet to issue a formal statement on the execution method and what happens next."
-   ],
-   "closing": "The failed lethal injection has reignited debate in the US over the method used to carry out death sentences."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Christa Pike",
-  "person_en": "Christa Pike",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "d8a9ee221324",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-03T00:43+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-   "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/en/1/16/Christa_Pike_Mugshot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Christa Pike",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Christa_Pike",
-   "symbolic": false
-  },
-  "audio": "data/audio/d8a9ee221324.mp3",
-  "created_ts": 1790968435.4040067,
-  "status": "published"
- },
- {
-  "headline": "ராணிப்பேட்டை சிஎம்சி வளாகத்தில் குழந்தைகள் நல சிறப்பு மையம் தொடக்கம்",
-  "lines": [
-   "வேலூர் கிறிஸ்தவ மருத்துவக் கல்லூரி ராணிப்பேட்டை வளாகத்தில் புதிய குழந்தைகள் நல சிறப்பு மையத்தைத் திறந்துள்ளது.",
-   "இம்மையத்தில் குழந்தைகளுக்கான சிறப்பு மருத்துவ பரிசோதனை மற்றும் சிகிச்சை வசதிகள் ஏற்பாடு செய்யப்பட்டுள்ளன.",
-   "ராணிப்பேட்டை மற்றும் சுற்றுவட்டாரப் பகுதி மக்களுக்கு மேம்பட்ட குழந்தை நல சிகிச்சை கிடைக்கும் என சிஎம்சி நிர்வாகம் தெரிவித்துள்ளது.",
-   "வேலூர் சிஎம்சி பல ஆண்டுகளாக தமிழ்நாடு மற்றும் அண்டை மாநிலங்களைச் சேர்ந்த நோயாளிகளுக்கு சிறப்பு மருத்துவ சேவை அளித்து வருகிறது.",
-   "புதிய மையத்தின் முழு அளவிலான செயல்பாடு குறித்த கூடுதல் விவரங்களை சிஎம்சி விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "வேலூர் கிறிஸ்தவ மருத்துவக் கல்லூரி நாடு முழுவதும் அறியப்பட்ட மருத்துவக் கல்வி மற்றும் சிகிச்சை நிறுவனமாகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "வேலூர் கிறிஸ்தவ மருத்துவக் கல்லூரி",
-   "ராணிப்பேட்டை",
-   "குழந்தைகள் நல மையம்",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "CMC Opens New Paediatric Speciality Centre at Ranipet Campus",
-   "lines": [
-    "Christian Medical College, Vellore has opened a new paediatric speciality centre at its Ranipet campus.",
-    "The centre will offer specialised medical examination and treatment facilities for children.",
-    "CMC administration said the facility will provide improved child healthcare access to people in Ranipet and surrounding areas.",
-    "CMC Vellore has for many years provided specialised medical services to patients from Tamil Nadu and neighbouring states.",
-    "CMC is expected to release further details on the full functioning of the new centre soon."
-   ],
-   "closing": "Christian Medical College, Vellore is a nationally known institution for medical education and treatment."
-  },
-  "front_cat": "district_scheme",
-  "image_query": "children hospital building India",
-  "wiki_subject": "Christian Medical College, Vellore",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "115e9a3b642c",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-10-03T00:43+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/cmc-opens-paediatric-speciality-centre-at-its-ranipet-campus/article71537003.ece",
-   "https://www.thehindu.com/news/national/tamil-nadu/cmc-opens-paediatric-speciality-centre-at-its-ranipet-campus/article71537003.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/en/6/69/Christian_Medical_College_%26_Hospital%2C_Vellore_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Christian Medical College Vellore",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Christian_Medical_College_Vellore",
-   "symbolic": false
-  },
-  "audio": "data/audio/115e9a3b642c.mp3",
-  "created_ts": 1790968387.2512996,
   "status": "published"
  }
 ]
