@@ -1,47 +1,47 @@
-[fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] RBI: 8 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 24 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 29 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 20 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 24 புதியவை
+[fetch] The Hindu Tech: 23 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 15 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 13 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 29 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 0 புதியவை
+[fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
-[fetch] Dinamani Health: 1 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] Dinamani Health: 0 புதியவை
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 18 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 4 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 28 புதியவை
+[fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,52 +56,42 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fde3298d490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
-[fetch] Times Govt Schemes: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff940857a90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
-[fetch] Times Chennai Crime: 19 புதியவை
-[run] புதியவை 703 → நிகழ்வுகள் 647
-[triage] 647 → 73 | காலி: govt:4, crime:3, sports:3, india:2, health:2
-[skip] ஆஸ்திரேலிய உள்நாட்டுச் செய்தி — தமிழ்நாடு/இந்தியாவுக்கு நேரட
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] அந்நிய செலாவணி சந்தையில் புதிய கட்டுப்பா → அந்நிய செலாவணி சந்தையில் புதிய கட்டுப்பா
-[tts-edge] 5a7a0d201359: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அந்நிய செலாவணி சந்தையில் புதிய கட்டுப்பாடுகள் கொண்டு வந்த இந்திய ரிசர்வ் வங்கி
-[tts-edge] aec42650620b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அக்டோபர் 13ல் 25,000 கோடி அரசுப் பத்திரங்கள் விற்கும் ரிசர்வ் வங்கி
-[தரம்] மூலத்தில் இல்லாத எண்: 260 → ஒரு திருத்தம்
-[publish] வங்கிகளில் பணப்புழக்கம் கட்டுப்பாடு, பத்திரங்கள் விற்பனை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CftL7CzWc4dBEizSm13aX'}
-[தரம்] தமிழ் அல்லாத எழுத்து: ল → ஒரு திருத்தம்
-[publish] செபி புதிய தீர்வுத் தொகை கணக்கீட்டு விதிமுறையை அறிவித்தது
-[skip] அஸ்ஸாம் அரசு மற்றும் TISS வேலைவாய்ப்பு அறிவிப்புகள் தமிழ்நாட
-[skip] மூலத்தில் ஒரு கட்சியின் சுருக்கமான கூற்று மட்டுமே உள்ளது; யா
-[publish] டெல்லியில் தேர்தல் ஆணையர் பதவி விலகல் கோரி போராட்டம், 3,300 பேர் கைது
-[skip] பிற மாநிலத்தின் உள்ளூர் அரசியல் — தெல்லியில் நடந்த போராட்டம்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: PM Modi’s Chennai visit: traffic diversions on O
-[skip] வெளிநாட்டுச் சுகாதார அறிவுரை — தமிழ்நாட்டு வாசகர்க்கு முறை/ச
-[skip] திரையரங்க விமர்சனம் மற்றும் கலைக் கட்டுரை — செய்திக் கூறல் அ
-[skip] இது டெல்லியில் நடந்த உள்ளூர் சட்டத்தரணிகள் போராட்டம் தொடர்பா
-[skip] இது தெல்லியில் நடந்த உள்ளூர் அரசியல் போராட்டம். தமிழ்நாட்டு 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Giving old Golu dolls a new coat of paint
-[skip] வெளிநாட்டு cricket போட்டி — Afghanistan vs Bangladesh. தமிழ்
-[skip] கேரளாவின் உள்ளூர் சுகாதாரப் பிரச்சினை; தமிழ்நாட்டு வாசகரைப் 
-[skip] ஆமிர் கான் என்பவர் பாலிவுட்டு நடிகர்; தமிழ்நாட்டு தொடர்பு இல
-[skip] தமிழ்நாட்டுக்கு நேரடிப் பொருத்தமில்லை. டெல்லி போலீസ் நடவடிக்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 76 Years of Matsya: How a Chennai restaurant kee
-[skip] ஆஸ்திரேலியாவின் உள்நாட்டு ராணுவ தொடர் — தமிழ்நாடு/இந்தியக் வ
-[திருத்தம்] சென்னையில் தேர்தல் ஆணையம் எதிர்ப்பு; பல் → சென்னையில் தேர்தல் ஆணையம் எதிர்ப்பு; எஸ்
-[publish] சென்னையில் தேர்தல் ஆணையம் எதிர்ப்பு; எஸ்.ஐ.எஃப், எ.ஐ.வை.எஃப் உறுப்பினர்கள் கைது
-[filler] govt கட்டுரை
+[fetch] TN Police News: 23 புதியவை
+[fetch] Times Chennai Crime: 20 புதியவை
+[run] புதியவை 696 → நிகழ்வுகள் 639
+[triage] 639 → 87 | காலி: govt:3, crime:3, sports:3, health:2, cinema:2
+[skip] வெளிநாட்டு Ashes தொடர் — ஆஸ்திரேலியா vs இங்கிலாந்து. இது தமி
+[திருத்தம்] TNJFU இளநிலை ஆய்வாளர் பணிக்கு விண்ணப்பிக → தமிழ்நாடு டாக்டர் ஜெ.ஜெயலலிதா மீன்வளப் ப
+[தரம்] தமிழ் அல்லாத எழுத்து: এরি → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாடு டாக்டர் ஜெ.ஜெயலலிதா மீன்
+[tts-edge] e2e8a1f79e4d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாடு டாக்டர் ஜெ.ஜெயலலிதா மீன்வளப் பல்கலைக்கழகத்தில் இளநிலை ஆய்வாளர் பணிக்கு விண்ணப்பிக்க அழைப்பு
+[skip] இது கர்நாடக மாநில சுகாதார அமைச்சரின் கோரிக்கை தொடர்பான உள்ளூ
+[skip] மூலம் தமிழ்நாடு அரசு அறிவிப்பு அல்ல; அரசியல் / சட்டப்பிரிவு 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: School in Tambaram rolls out the red carpet to f
+[skip] பொதுவான சுகாதாரக் கட்டுரை — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக
+[skip] தமிழ்நாட்டுக்குப் பொருந்தாத வெளிநாட்டு திரைப்படம். சினிமா வி
+[tts-edge] 88a8587b7e9c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எதிர்க்கட்சித் தலைவர்கள் தடுப்புக்காவல் வழக்கில் ஞாயிறு விசாரணை
+[skip] கர்நாடகாவின் உள்ளூர் அரசு அறிவிப்பு; தமிழ்நாட்டுடன் நேரடித் 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Thuvakkam to give old school benches a fresh loo
+[skip] வெளிநாட்டு கிரிக்கெட் தொடர் — இந்தியா vs மேற்குத் தீபகற்ப நா
+[skip] பிற மாநிலச் செய்தி — ஹைதராபாத் (தெலங்கானா). தமிழ்நாட்டுவாசகர
+[skip] வெளிநாட்டுத் திரையுலகச் செய்தி — தமிழ்நாடு/இந்திய வாசகரின் ந
+[skip] தெலங்கானా மாநிலத்தின் உள்ளூர் தேர்தல் நிர்வாகச் சிக்கல். தமி
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Northeast monsoon likely to set in around Octobe
+[skip] இது ஸ்ரீலங்கா-பாகிஸ்தான் டி20 தொடர் — தமிழ்நாடு/இந்தியத் தொட
+[filler] tech கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13462 · சென்செக்ஸ் 72472
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 6
+[done] feed 300 · pending 0 · எழுதியவை 2
