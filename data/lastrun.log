@@ -1,16 +1,16 @@
 [fetch] RBI: 8 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 16 புதியவை
+[fetch] The Hindu TN: 14 புதியவை
+[fetch] Dinamani TN: 17 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 17 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 15 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 7 புதியவை
 [fetch] Cinema Express: 28 புதியவை
-[fetch] The Hindu Tech: 22 புதியவை
+[fetch] The Hindu Tech: 23 புதியவை
 [fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 27 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 27 புதியவை
+[fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,65 +56,58 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb322daaad0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 27 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
-[fetch] Times Govt Schemes: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc6faa99b50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
+[fetch] Dinamani Govt: 17 புதியவை
+[fetch] Times Govt Schemes: 12 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 642 → நிகழ்வுகள் 598
-[triage] 598 → 58 | காலி: india:4, crime:4, tn:3, economy:3, court:3
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfuPerykKCA3jic1SrrnA'}
-[skip] வெளிநாட்டு ஓடிটி தொடர் (ஹிந்தி மொழி), தமிழ்நாடு/இந்திய தமிழ்
-[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் தொடர் — தமிழ்நாடு / இந்திய
-[திருத்தம்] உக்ரைன் ஜப்போரிஷியா நகரில் ரஷ்ய தாக்குதல → உக்ரைன் சப்போரிஷ்ஜியா நகரில் ரஷ்ய தாக்கு
-[tts-edge] 146f2c9cb8c7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உக்ரைன் சப்போரிஷ்ஜியா நகரில் ரஷ்ய தாக்குதலில் இருபது பேர் பலி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfuPo7HgxGXHX3nGiW6sB'}
-[திருத்தம்] சென்னையில் பிரதமர் மோடியால் ரூ.13,000 கோ → சென்னையில் பிரதமர் நரேந்திர மோடி ரூ.13,0
-[tts-edge] 1c954c81d1e2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னையில் பிரதமர் நரேந்திர மோடி ரூ.13,000 கோடி வளர்ச்சித் திட்டங்கள் தொடக்கம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரங்கள் இல்ல
-[திருத்தம்] தமிழக வெற்றிக் கழக இடைத்தேர்தல் வெற்றி ம → தமிழக வெற்றிக் கழக இடைத்தேர்தல் வெற்றி ம
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தமிழக வெற்றிக் கழக இடைத்தேர்தல் வெ
-[publish] தமிழக வெற்றிக் கழக இடைத்தேர்தல் வெற்றி மக்கள் வெற்றி — விஜய் பாராட்டு
-[skip] இது ஊகம்/செயற்கை சர்ச்சை/சமூக ஊடக பரபரப்பு தன்மையுடைய, உறுதி
-[skip] மூலத்தில் ஒரே வரித் தலைப்பு மட்டுமே உள்ளது; விவரங்கள் இல்லை,
-[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது; செய்தியின் விவரம், 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரமான உரை இல்லை. மேலும் 
-[திருத்தம்] ஜியோவின் முப்பதாயிரம் கோடி ரூபாய் பங்கு  → ஜியோவின் 30,000 கோடி ரூபாய் ஐபিஓ உலகளாவி
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[publish] ஜியோவின் 30,000 கோடி ரூபாய் ஐபிஓ உலகளாவிய முதலீட்டாளர் தேடலுக்கு; முதலீட்டாளர்கள் அதிக பங்குவிகிதம் எதிர்பார்க்கிறார்கள்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfuQ8bsvqZa36dg29u7wh'}
-[skip] இச்செய்தி போதிய விவரங்கள் இல்லாத தேசிய அரசியல் அறிக்கை; எந்த
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfuQBe9vhU331bwDcWGVh'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfuQF4qKmJzk38KKgWXLv'}
+[run] புதியவை 613 → நிகழ்வுகள் 571
+[triage] 571 → 82 | காலி: crime:4, india:3, court:3, govt:3, jobs:3
+[skip] BEE (மத்திய ஆற்றல் திறன் பணியகம்) பணியமர்த்தல் அறிவிப்பு தமி
+[skip] இது திரை விமர்சனம். நীதி விமர்சனம் (மதிப்பெண், கதை விமர்சனம்
+[skip] ஆங்கிலேய county cricket — தமிழ்நாடு/இந்திய வாசகரின் நேரடிக் 
+[திருத்தம்] பூந்தமல்லி வடபழனி மெட்ரோ ரயில் சேவை இன்ற → பூந்தமல்லி - வடபழனி மெட்ரோ ரயில் சேவை இன
+[tts-edge] 0756780bfb42: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பூந்தமல்லி - வடபழனி மெட்ரோ ரயில் சேவை இன்று தொடக்கம்
+[திருத்தம்] மதுராந்தகம், தாராபுரம் இடைத்தேர்தலில் வெ → இரு தொகுதிகளிலும் தமிழக வெற்றிக் கழகம் வ
+[tts-edge] c0e760376386: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] இரு தொகுதிகளிலும் தமிழக வெற்றிக் கழகம் வெற்றி — இரு தரப்பு அரசியலுக்குத் திரும்பும் சாத்தியம்
+[திருத்தம்] டிமார்ட் நிறுவன லாபம் இரண்டாம் காலாண்டில → டிமார்ட் Q2 இயக்க நிகர லாபம் 9% உயர்ந்து
+[தரம்] மூலத்தில் இல்லாத எண்: 2026 → ஒரு திருத்தம்
+[publish] டிமார்ட் Q2 இயக்க நிகர லாபம் 9% உயர்ந்து 743 கோடி ரூபாயாக, வருவாய் 18% கூட்டம்
+[skip] இது ஏர்டெல் ஆப்பிரிக்காவின் நிதிச் சேவைப் பிரிவு லண்டன் பங்க
+[publish] சாதிச் சான்று கட்டாயமாகக் கேட்கக் கூடாது என சென்னை உயர்நீதிமன்றம் தீர்ப்பு
+[திருத்தம்] தமிழ்நாட்டில் வடகிழக்குப் பருவமழை அக்டோப → வடகிழக்குப் பருவமழை அக்டோபர் 17 அல்லது 1
+[publish] வடகிழக்குப் பருவமழை அக்டோபர் 17 அல்லது 18-ம் தேதியில் தொடங்கும்: வானிலை மையம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; போராட்டம் எது, எங்கே, எப்ப
-[publish] தவெக கூட்டணியில் விசிகவுக்கு முக்கியத்துவம் குறைவு: திருமாவளவன் குற்றச்சாட்டு
-[திருத்தம்] மக்களின் தீர்ப்பை திமுக மதிக்கவில்லை: மா → மக்களின் தீர்ப்பை மதிக்கவில்லை திமுக: மா
-[publish] மக்களின் தீர்ப்பை மதிக்கவில்லை திமுக: மாணிக்கம் தாகூர் விமர்சனம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை விவரிக்கும் உள்ளட
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; போராட்டம் எங்கே, எப்போது, 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfuQUGD4C53kqC32itckP'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfuQXbAequpGVpjX7F5DX'}
-[திருத்தம்] சர்வாதிகாரத்தால் ஜனநாயகக் குரலை ஒடுக்க ம → சர்வாதிகாரத்தால் ஜனநாயகத்தின் குரலை ஒடுக
-[publish] சர்வாதிகாரத்தால் ஜனநாயகத்தின் குரலை ஒடுக்க முடியாது, கனிமொழி கூற்று
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfuQdyym1p6HFa2gesj4X'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfuQhQFqx1AyH6EZmCKNS'}
-[திருத்தம்] தில்லியில் போராட்டக்காரர்கள் பலர் கைது,  → தில்லியில் போராட்டக்காரர்கள் கைது, சட்ட 
-[image] களஞ்சியம் (2 சொல்): தில்லியில் போராட்டக்காரர்கள் கைது,
-[publish] தில்லியில் போராட்டக்காரர்கள் கைது, சட்ட வல்லுநர்கள் ஆய்வு நடத்துகின்றனர்
-[skip] இது கேரளாவின் திருவனந்தபுரம் மாநகராட்சி தொடர்பான உள்ளூர் அரச
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: தில்லியில் போராட்டக்காரர் கைது: காரணம் என்ன?
+[publish] வகுப்புவாரி பிரதிநிதித்துவ நூற்றாண்டு: அரசுக்கு அன்புமணி வலியுறுத்தல்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] அதானி கிரீன் எனர்ஜி திறன் 24 சதவீதம் உயர → அதானி கிரீன் எனர்ஜி இயங்குதிறன் 24 சதவீத
+[தரம்] மூலத்தில் இல்லாத எண்: 2027 → ஒரு திருத்தம்
+[publish] அதானி கிரீன் எனர்ஜி இயங்குதிறன் 24 சதவீதம் உயர்வு 20,763 மெகாவாட்டாக
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] ரூபாய் அந்நிய செலாவணி ஒப்பந்த விதிகளை கட → ரூபாய் அந்நிய செலாவணி வழித்தோன்றல் விதிக
+[publish] ரூபாய் அந்நிய செலாவணி வழித்தோன்றல் விதிகளை கடுமையாக்கிய ரிசர்வ் வங்கி
+[image] களஞ்சியம் (2 சொல்): பூனாவாலா ஃபின்கார்ப் இரண்டாம் காலா
+[publish] பூனாவாலா ஃபின்கார்ப் இரண்டாம் காலாண்டு லாபம் ஐந்து மடங்கு உயர்வு
+[skip] உத்தராகண்டின் உள்ளூர் சிறிய நிலநடுக்கம் சம்பவம், சேதம் எதுவு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இரண்டு வேலைவாய்ப்பு அறிவிப்புகளும் தமிழ்நாட்டுடன் தொடர்பில்ல
+[skip] ஆந்திரப் பிரதேசத்தின் உள்ளூர் ஒப்பந்தச் சுகாதாரப் பணியாளர் வ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Key accused in ₹3.4-crore investment fraud arres
+[skip] உத்தரகாஂடு மாநிலத்தின் உள்ளூர் நிகழ்வு. தமிழ்நாடு வாசகரைப் ப
+[தரம்] தமிழ் அல்லாத எழுத்து: হ → ஒரு திருத்தம்
+[publish] புலம்பெயர்ந்த குழந்தைகளின் பெற்றோர் மன அழுத்தத்துக்கு உள்ளாகின்றனர்
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 5
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [market] தங்கம் 22K ₹13462 · சென்செக்ஸ் 72472
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 8
+[done] feed 300 · pending 1 · எழுதியவை 10
