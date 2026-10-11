@@ -1,21 +1,20 @@
-[expire] c0e760376386
-[fetch] RBI: 8 புதியவை
+[fetch] RBI: 7 புதியவை
 [fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 11 புதியவை
-[fetch] Dinamani TN: 19 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 17 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 15 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 14 புதியவை
+[fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 8 புதியவை
+[fetch] The Hindu Cinema: 3 புதியவை
 [fetch] Cinema Express: 27 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
-[fetch] Wired: 27 புதியவை
+[fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 13 புதியவை
+[fetch] The Hindu Health: 14 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 13 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 26 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fac61568d50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 19 புதியவை
-[fetch] Times Govt Schemes: 11 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3046ebdfd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
+[fetch] Times Govt Schemes: 9 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -68,37 +67,31 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 608 → நிகழ்வுகள் 560
-[triage] 560 → 79 | காலி: crime:4, india:3, cinema:3, sports:3, court:2
-[skip] வெளிநாட்டு অ্যানিমে திரைப்படம் — தமிழ்நாடு/இந்தியத் திரையுலக
-[skip] வেளிநாட்டு உள்நாட்டுத் தொடர் — பাংলাদேশ-ভারত সিরিசு தমிழ்நாड
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): இந்திய பங்குச் சந்தையில் 129 நிறுவ
-[tts-edge] b0110ad98897: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இந்திய பங்குச் சந்தையில் 129 நிறுவனங்கள் காலாண்டு முடிவு வெளியீடு
-[skip] டெல்லி மாநிலத்துடன் தொடர்புடைய உள்ளூர்ச் சிறு சர்ச்சை; தமிழ்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfv6copx2cmkrJVrCQwbV'}
-[skip] இது ஆந்திரா மாநிலத்தில் நடந்த உள்ளூர் தங்கக் கடத்தல் வழக்கு;
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: PM Modi in Tamil Nadu LIVE | Prime Minister, CM 
-[skip] இது டெல்லி மாநிலத்தின் உள்ளூர் போராட்டம் தொடர்பான உச்சநீதிமன
-[skip] தெலிங்கானா/தில்லி உள்ளூர் குற்றச் செய்தி — தமிழ்நாடு வாசகருக
-[skip] குஜராத் மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. தமிழ்நாட
-[skip] வெளிநாட்டு சுகாதாரப் பொதுமுறை வகுப்பு / சந்தர்ப்பம். தமிழ்நா
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Environment group in Chennai provides ‘Golden Wi
-[skip] வெளிநாட்டுத் தொலைக்காட்சிச் சரடு — தமிழ்நாட்டு / இந்திய வாசக
-[skip] வெளிநாட்டுக் குற்றஸ்থானம் — பাংলாதேশ் பெண்கள் ஒருநாள் கிரிக்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம், எண்கள், கூற்றுகள்
-[திருத்தம்] சென்னை மெட்ரோ ஃபேஸ் 2 பாதை பிரதமர் மோடி, → சென்னை மெட்ரோ ரயிலின் ஃபேஸ் 2 பாதை பிரதம
-[tts-edge] 2e14fbde8bae: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னை மெட்ரோ ரயிலின் ஃபேஸ் 2 பாதை பிரதமர் மோடி, முதல்வர் விஜய் தொடங்கி வைத்தனர்
-[skip] உத்தரப்பிரதேசத்தில் நடைபெறும் இராணுவ நிறைவேற்ற நடவடிக்கை. தம
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Ahead of NE monsoon, Chennai’s rainwear hub come
-[skip] cinema_review_excluded — திரை விமர்சனம் இப்பக்கத்தில் வேண்டா
-[skip] ஆஸ்திரேலியாவின் உள்நாட்டுக் கிரிக்கெட் ஆட்டம் (Sheffield Shi
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Murray & Co and its Sunday auction: the famous ‘
-[filler] tech கட்டுரை
+[run] புதியவை 625 → நிகழ்வுகள் 582
+[triage] 582 → 69 | காலி: crime:4, india:3, cinema:3, sports:3, court:2
+[skip] பிரதான பாத்திரம் பலிவுட் கோரিওகிராபர்; படம் இந்தி சினிமா; தம
+[skip] விளையாட்டுத் துறையில் தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்காத வெ
+[tts-edge] b862f50dab21: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எல்ஐசி ஹெச்எஃப்எல் நிறுவனத்தில் 50 மேலாண்மைப் பயிற்சியாளர் பணியிடங்கள் அறிவிப்பு
+[skip] கர்நாடக மாநில உள்ளூர் அரசியல் செய்தி - தமிழ்நாட்டுடன் நேரடித
+[skip] இது கேரளத்தின் கொச்சி விமான நிலையம் தொடர்பான உள்ளூர் செய்தி;
+[skip] இது ஆந்திரப் பிரதேசத்தின் உள்ளூர் மாநகராட்சி அரசியல் செய்தி;
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Bioluminescence lights up beaches along Chennai’
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள் இல்லாததால் உண்மை
+[skip] தமிழ்நாட்டுடன் தொடர்பு இல்லை — பிலாஸ்பூர் (஛த்தீஸ்கர்) நிয়ো
+[skip] கர্நாடக மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாட்டு வாசகரைப் ப
+[skip] வெளிநாட்டு உள்நாட்டுக் கொள்கை — அமெரிக்க சுகாதார அமைச்சரின் 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai accounts for 51.5% of Tamil Nadu’s resid
+[skip] விமர்சனம் — தலைப்பில் 'review' என்ற சொல் உள்ளது. திரைப் படம்
+[skip] வெஸ்டிண்டீஸ் vs இந்தியா ক্রિকெट ம经की ইন-গেম টীম পরিবর্তন — த
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai-bound Indigo flight from Delhi diverted 
+[skip] மங்கா (ஜப்பான் அமைப்புக் கதைப் புத்தகம்) மற்றும் அ‌ணிமே (ஜப்
+[skip] இந்தியா அல்லது தமிழ்நாட்டுடன் நேரடி தொடர்பு இல்லாத வெளிநாட்ட
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: PM Modi and Tamil Nadu CM Vijay flag off Chennai
+[tts-edge] art_sports_20261011: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[filler] sports கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13462 · சென்செக்ஸ் 72472
+[market] தங்கம் 22K ₹13470 · சென்செக்ஸ் 72472
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 2
+[done] feed 300 · pending 0 · எழுதியவை 1
