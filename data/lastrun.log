@@ -1,22 +1,22 @@
 [fetch] RBI: 7 புதியவை
-[fetch] ET Markets: 22 புதியவை
+[fetch] ET Markets: 20 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 25 புதியவை
+[fetch] The Hindu TN: 26 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 15 புதியவை
+[fetch] BBC World: 20 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 13 புதியவை
+[fetch] ESPNcricinfo: 12 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 3 புதியவை
+[fetch] The Hindu Cinema: 1 புதியவை
 [fetch] Cinema Express: 27 புதியவை
-[fetch] The Hindu Tech: 17 புதியவை
+[fetch] The Hindu Tech: 15 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 14 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 13 புதியவை
+[fetch] FreeJobAlert: 9 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,42 +56,77 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3046ebdfd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fdbf4289fd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 25 புதியவை
-[fetch] Times Govt Schemes: 9 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Times Govt Schemes: 11 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 625 → நிகழ்வுகள் 582
-[triage] 582 → 69 | காலி: crime:4, india:3, cinema:3, sports:3, court:2
-[skip] பிரதான பாத்திரம் பலிவுட் கோரিওகிராபர்; படம் இந்தி சினிமா; தம
-[skip] விளையாட்டுத் துறையில் தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்காத வெ
-[tts-edge] b862f50dab21: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எல்ஐசி ஹெச்எஃப்எல் நிறுவனத்தில் 50 மேலாண்மைப் பயிற்சியாளர் பணியிடங்கள் அறிவிப்பு
-[skip] கர்நாடக மாநில உள்ளூர் அரசியல் செய்தி - தமிழ்நாட்டுடன் நேரடித
-[skip] இது கேரளத்தின் கொச்சி விமான நிலையம் தொடர்பான உள்ளூர் செய்தி;
-[skip] இது ஆந்திரப் பிரதேசத்தின் உள்ளூர் மாநகராட்சி அரசியல் செய்தி;
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Bioluminescence lights up beaches along Chennai’
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள் இல்லாததால் உண்மை
-[skip] தமிழ்நாட்டுடன் தொடர்பு இல்லை — பிலாஸ்பூர் (஛த்தீஸ்கர்) நிয়ো
-[skip] கர্நாடக மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாட்டு வாசகரைப் ப
-[skip] வெளிநாட்டு உள்நாட்டுக் கொள்கை — அமெரிக்க சுகாதார அமைச்சரின் 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai accounts for 51.5% of Tamil Nadu’s resid
-[skip] விமர்சனம் — தலைப்பில் 'review' என்ற சொல் உள்ளது. திரைப் படம்
-[skip] வெஸ்டிண்டீஸ் vs இந்தியா ক্রિকெट ம经की ইন-গেম টীম পরিবর্তন — த
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai-bound Indigo flight from Delhi diverted 
-[skip] மங்கா (ஜப்பான் அமைப்புக் கதைப் புத்தகம்) மற்றும் அ‌ணிமே (ஜப்
-[skip] இந்தியா அல்லது தமிழ்நாட்டுடன் நேரடி தொடர்பு இல்லாத வெளிநாட்ட
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: PM Modi and Tamil Nadu CM Vijay flag off Chennai
-[tts-edge] art_sports_20261011: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[filler] sports கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[run] புதியவை 640 → நிகழ்வுகள் 600
+[triage] 600 → 71 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது நீதிமன்ற வழக்கு அல்லது தீர்ப்பு அல்ல; ஒரு நிறுவனத்தின் ம
+[skip] தெலங்கானா மாநிலத்தின் மஹாபூப்நகர் மாவட்டத்தின் உள்ளூர் வேலைவ
+[skip] வரலாற்று மருத்துவ கட்டுரை — வாழ்க்கை மூலம் தொடர்புடையது. தமி
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது. ஆமிர் கான் உৎপादன நிறுவனம் 
+[skip] வெளிநாட்டுத் Test cricket போட்டிக் குறிப்பு — தமிழ்நாட்டு/இந
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfvzcYkA9Kyr9NrYLdEua'}
+[tts-edge] 59f653865345: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ரியாத் விமான நிலையத்தில் ஹூத்தி தாக்குதலில் 12 பேர் பலி
+[திருத்தம்] சென்னை மெட்ரோ வடபழனி பூந்தமல்லி பகுதி தி → சென்னை மெட்ரோ வடபழனி–பூந்தமல்லி பகுதி தி
+[tts-edge] fc8780fdfb28: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னை மெட்ரோ வடபழனி–பூந்தமல்லி பகுதி திறந்து வைத்த பிரதமர் மோடி
+[publish] சவூதி தலைநகர் ரியாத் விமான நிலையம் மீது ஹூதி இரண்டாவது தாக்குதல்
+[திருத்தம்] பூந்தமல்லி வடபழனி மெட்ரோ ரயில் பாதையை தொ → பூந்தமல்லி–வடபழனி மெட்ரோ ரயில் பாதையை தொ
+[நகல்] ஏற்கனவே வெளியானது: சென்னை மெட்ரோ வடபழனி–பூந்தமல்லி பகுதி திறந்து வைத்த பிரதமர் 
+[publish] ஜிபூட்டி கடற்பகுதியில் படகு கவிழ்ந்து 139 பேர் உயிரிழப்பு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உண்மையான செய்தி விவரங்கள்,
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] சென்னையில் பிரதமர் மோடி ரூபாய் 13,000 கோ → சென்னையில் பிரதமர் நரேந்திர மோடி ரூ.13,0
+[dup] அதே தலைப்பு உள்ளது; தவிர்
+[skip] உலக அளவில் முக்கியமான செய்தி என்றாலும், உக்ரைனிய-ரஷ்ய ராணுவ 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfw17PjyEeHenrQuC1JNX'}
+[skip] பொலந்து பிரதமரின் கைது செய்திக்கு பொலந்துவாசகரின் உடனடி நலன்
+[skip] நேপாளத்தின் உள்ளூர் வெள்ளப் பேரிடர் — தமிழ்நாடு/இந்தியாவுடன்
+[skip] அமெரிக்காவின் உள்நாட்டு சட்ட நடவடிக்கை. தமிழ்நாடு/இந்தியா வா
+[skip] சaudि அரேபியாவின் உள்ளூர் நிরাপத்துத் தகவல்; தமிழ்நாடு/இந்தி
+[skip] 缅甸内부갈등은 தமிழ்நாட்டு வாசகர்களுக்கு நேரடி தாக்கம் இல்லை. உலகச்
+[skip] தமிழ்நாட்டு வாசகருக்குத் தேவையில்லை. அமெரிக்காவின் உள்ளூர் ச
+[skip] नेपाल में स्थानीय बाढ़ की घटना। तमिलनाडु/भारत के पाठकों को स
+[skip] யேமன் போரானது தமிழ்நாடு அல்லது இந்திய வாசகரைப் பாதிக்காது. வ
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] சிறுமி கொலை வழக்கில் தூக்குத்தண்டனை ஆயுள் தண்டனையாக மாற்றம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfw1HwZvZjuzHw2f93udi'}
+[திருத்தம்] ஜெம் கிரானைட் வீரமணி மீது ஆறாவது பாக்சோ  → ஜெம் கிரானைட் வீரமணி மீது ஆறாவது பாக்சோ 
+[image] களஞ்சியம் (2 சொல்): ஜெம் கிரானைட் வீரமணி மீது ஆறாவது ப
+[publish] ஜெம் கிரானைட் வீரமணி மீது ஆறாவது பாக்சோ வழக்கு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfw1Nt5E1bQDBnbgJHGbo'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, வழக்கு பற்றிய விவரங்கள் (எ
+[publish] தவெக கூட்டணியில் பாமக சேர்ந்தால் விசிக வெளியேறும் என அமைச்சர் தெரிவிப்பு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; கூற்றின் சூழல், இடம், விவர
+[skip] டெல்லி உள்ளூர் அரசியல் — தமிழ்நாடு/இந்திய தேசிய அளவில் மிக ம
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நிகழ்வு நடந்த இடம், நேரம்,
+[skip] பாரத வெளியுறவு / உள்நாட்டு அரசியல் மட்டுமே சம்பந்தப்பட்ட டெல
+[publish] கருணாநிதி, ஜெயலலிதா, விஜய் பற்றி பிரதமர் மோடி நெகிழ்ச்சி உரை
+[skip] இந்தியாவின் உள்நாட்டுக் கட்சிப் போராட்டம் — தமிழ்நாட்டுக்கு 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfw1e9annaR149S3GoY1W'}
+[skip] இந்தியா உள்நாட்டு அரசியல் — டெல்லிப் போராட்டம், குருத்வாரா ச
+[skip] மூலத்தில் ஒரே வரித் தலைப்பு மட்டுமே உள்ளது, விரிவான உள்ளடக்க
+[skip] பொலந்து பள்ளிகளில் நடந்த தாக்குதல் என்பது பொலந்தின் உள்நாட்ட
+[skip] வெளிநாட்டு மதத் தலைவரின் ஆரோக்கியப் பிரச்சினை — தமிழ்நாடு/இந
+[skip] தெலுங்கு, கன்నட, உருது மாநிலங்களின் உள்ளூர் அரசியல் வகையில் 
+[skip] வெளிநாட்டு அரசியல் — ஐக்கிய நாடுகள் அமெரிக்க அரசாங்கத்தின் ச
+[comic] கதை: இரு குரல்களின் இரகசியம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-12.png · நாள் 33
+[rasi] ராசிபலன் தயார்
 [market] தங்கம் 22K ₹13470 · சென்செக்ஸ் 72472
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 1
+[done] feed 300 · pending 0 · எழுதியவை 9
