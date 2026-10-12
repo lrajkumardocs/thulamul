@@ -1,53 +1,53 @@
-[fetch] RBI: 7 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] RBI: 8 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
-[fetch] Dinamani TN: 22 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 8 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 8 புதியவை
-[fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 1 புதியவை
-[fetch] Cinema Express: 27 புதியவை
-[fetch] The Hindu Tech: 13 புதியவை
-[fetch] Wired: 29 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 11 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 10 புதியவை
+[fetch] The Hindu Sport: 26 புதியவை
+[fetch] The Hindu Cinema: 3 புதியவை
+[fetch] Cinema Express: 24 புதியவை
+[fetch] The Hindu Tech: 11 புதியவை
+[fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 8 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 8 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 1 புதியவை
+[fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: 2 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] Bar and Bench: 29 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 29 புதியவை
+[fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 29 புதியவை
+[fetch] Sportstar: 30 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,71 +56,48 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4017fa30d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
-[fetch] Dinamani Govt: 22 புதியவை
-[fetch] Times Govt Schemes: 14 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ffb29bf8e10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 22 புதியவை
+[fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 570 → நிகழ்வுகள் 535
-[triage] 535 → 52 | காலி: india:4, govt:3, jobs:3, health:3, cinema:3
-[skip] இவை தமிழ்நாட்டில் அமைந்த மத்திய அலுவலகங்கள் அல்ல — ICMR NIRW
-[திருத்தம்] கர্நாடகத்தில் கிட்வாய் இல்லடிப்படை சிறப் → கர்நாடகத்தில் கிட்வாய் இல்லடிப்படை நோயுற
-[தரம்] தமிழ் அல்லாத எழுத்து: ंथसा् → ஒரு திருத்தம்
-[tts-edge] ae5a8a385cb7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கர்நாடகத்தில் கிட்வாய் இல்லடிப்படை நோயுறவு மருத்துவம் மூவாயிரம் பேரை சென்றடைந்தது
-[skip] தமிழ்நாடு வாசகரைப் பாதிக்காது. நেপாளில் நடக்கும் சர্வதேச திথ
-[skip] இந்திய கிரிக்கெட் தலைமைப் பயிற்றுனரின் வெள்ளைப் பந்துக் கிரி
-[tts-edge] 7a7b13407261: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தில்லியிலிருந்து சென்னை செல்ல வேண்டிய இண்டிகோ விமானம் புகை காரணமாக ஹைதராபாத்தில் பாதுகாப்பாக தரையிறக்கம்
-[தரம்] தமிழ் அல்லாத எழுத்து: রা → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): மதுரவாயில் மேம்பாலச் சாலையில் விபத
-[publish] மதுரவாயில் மேம்பாலச் சாலையில் விபத்து இருவர் பலி
-[திருத்தம்] தமிழ் கலாசாரம், இலக்கியத்தைப் பரப்ப வேண் → எங்கு சென்றாலும் தமிழ் கலாசாரம், இலக்கிய
-[publish] எங்கு சென்றாலும் தமிழ் கலாசாரம், இலக்கியத்தைப் பரப்புங்கள்: பிரதமர் மோடி
+[run] புதியவை 653 → நிகழ்வுகள் 598
+[triage] 598 → 52 | காலி: india:4, govt:3, court:2, health:2, cinema:2
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfx9HCMaXnXQVZVyDwKRA'}
+[திருத்தம்] சென்னையில் அக்டோபர் பதினான்கு முதல் மழைக → சென்னையில் அக்டோபர் 14 முதல் மழைக்கு வாய
+[image] களஞ்சியம் (3 சொல்): சென்னையில் அக்டோபர் 14 முதல் மழைக்
+[tts-edge] 5321ada28995: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னையில் அக்டோபர் 14 முதல் மழைக்கு வாய்ப்பு: புயல் சின்னம்
+[image] களஞ்சியம் (4 சொல்): சென்செக்ஸ் 1,200 புள்ளிகள் வீழ்ச்ச
+[tts-edge] c8daffccebc5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்செக்ஸ் 1,200 புள்ளிகள் வீழ்ச்சி, நிஃப்டி 22,350க்குக் கீழே சரிவு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfwbFzRjYUkXsc5aUppw1'}
+[image] களஞ்சியம் (3 சொல்): கணவர் மது அருந்தியதால் ஏற்பட்ட தகர
+[publish] கணவர் மது அருந்தியதால் ஏற்பட்ட தகராறில் தம்பதி தற்கொலை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfx9YLkXbUiy1ohiW8hzu'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விபரம், எண், தேதி போன்ற உண
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரமான உரை இல்லை. 'முதல்வ
+[திருத்தம்] மேட்டூர் அருகே பேருந்து விபத்தில் இருபத் → மேட்டூர் அருகே பேருந்து விபத்தில் 26 பேர
+[image] களஞ்சியம் (2 சொல்): மேட்டூர் அருகே பேருந்து விபத்தில் 
+[publish] மேட்டூர் அருகே பேருந்து விபத்தில் 26 பேர் காயம்
+[publish] இந்திய அரசுப் பத்திரங்களின் வட்டி விகிதம் மூன்று ஆண்டு உச்சத்தை எட்டியது
+[publish] ஜியோ பிளாட்பாரம்ஸ் பங்கு விற்பனை பதினொரு லட்சம் கோடி மதிப்பீடு எதிர்பார்ப்பு
+[தரம்] மூலத்தில் இல்லாத எண்: 25000 → ஒரு திருத்தம்
+[publish] இந்திய அரசுப் பத்திரங்களின் வட்டி 7.35 சதவீதமாக உயர்வு, மூன்றாண்டு உச்சம்
+[image] களஞ்சியம் (3 சொல்): அனுமதியற்ற பதாகை வழக்கு - FIR ரத்த
+[publish] அனுமதியற்ற பதாகை வழக்கு - FIR ரத்து கோரி தவெக எம்எல்ஏ மனு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfwbUKbEzGuDqWXVM3BmK'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfwbXYpYgMJHuExGKfLZr'}
-[skip] மூலத்தில் ஒரே வரித் தலைப்பு மட்டுமே உள்ளது; பிரதமர் எங்கு, எ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfwbbyRWQMPtrTPxzPPqP'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfwbfDaPEs2XHrjUAnJFU'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது மகாராஷ்டிர மாநில அரசுப் பணியாளர் தேர்வாணையம் (MPSC) தொடர
-[skip] ஆன்மிக/மத நூல் விளக்கம். செய்தி அல்ல — தமிழ்நாடு அரசு அறிவிப
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: 1,854 voters submit Form 6 for inclusion of name
-[skip] இது தெல்லிராவின் உள்ளூர் அரசியல் சம்பவம் (நீதிமன்ற விவாதம், 
-[திருத்தம்] ஆயுதக் கோட்டை திருச்சி – பதினொரு பணிப்பய → ஆயுதக் கோட்டை திருச்சி – பதினொரு காலிப்ப
-[தரம்] தமிழ் அல்லாத எழுத்து: আ → ஒரு திருத்தம்
-[publish] ஆயுதக் கோட்டை திருச்சி – பதினொரு காலிப்பணியிடங்கள்
-[skip] கேரளாவின் உள்ளூர் நோய்ப் பரவல் — தமிழ்நாடு வாசகரைப் பாதிக்கா
-[திருத்தம்] விஜய் சேதுபதி கேரளத் தமிழரைக் க감்சா கூறி → விஜய் சேதுபதி கேரள மக்களுக்குக் க感்சா கூ
-[தரம்] தமிழ் அல்லாத எழுத்து: অরജ感 → ஒரு திருத்தம்
-[publish] விஜய் சேதுபதி கேரள மக்களுக்கு நன்றி கூறினார்
-[திருத்தம்] தேசிய சதுரங்க திறந்த போட்டியில் அங்கிதா, → தேசிய சதுரங்க திறந்த போட்டியில் அங்கிதா,
-[தரம்] தமிழ் அல்லாத எழுத்து: र्ভিణ → ஒரு திருத்தம்
-[publish] தேசிய சதுரங்க திறந்த போட்டியில் அங்கிதா, வெங்கட்ராம் சாதனைக் குறிகளை நிர்ணயித்தனர்.
-[image] களஞ்சியம் (2 சொல்): மத்திய கிழக்கு பதற்றத்தால் அமெரிக்
-[publish] மத்திய கிழக்கு பதற்றத்தால் அமெரிக்க டாலர் உயர் மட்டத்தில் நிலைப்பு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Bioluminescence lights up beaches along Chennai’
-[skip] தேசிய அரசியல் நிகழ்வு — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்ல
-[skip] வெளிநாட்டு/மத்திய அரசுத் தொழிலாளர் நியமனம் — தமிழ்நாட்டுக்கு
-[skip] பிট्स पिलानी (BITS Pilani) ஹைதராபாத்தில் உள்ளது. இது தெலங்கா
-[skip] മലയാളം സിനിമ - തമിഴ്നാട്ടിലെ വായനക്കാരുമായി നേരിട്ടുള്ള ബന്ധ
-[skip] பிற மாநிலத்தின் உள்நாட்டுத் தொடர்பாடி போட்டி — தமிழ்நாடு வாச
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 8
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹13513 · சென்செக்ஸ் 72472
+[திருத்தம்] சிதம்பரத்தில் மறியல் போராட்டம், 42 வழக்க → சிதம்பரத்தில் மறியல் போராட்டம், 42 வழக்க
+[image] களஞ்சியம் (2 சொல்): சிதம்பரத்தில் மறியல் போராட்டம், 42
+[publish] சிதம்பரத்தில் மறியல் போராட்டம், 42 வழக்குரைஞர்கள் கைது
+[publish] அரிசி, பருப்பு விலை உயர்வு குறித்து அன்புமணி ராமதாஸ் வலியுறுத்தல்
+[filler] tech கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13263 · சென்செக்ஸ் 71816
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 8
+[done] feed 300 · pending 0 · எழுதியவை 10

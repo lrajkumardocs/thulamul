@@ -1,5 +1,682 @@
 [
  {
+  "id": "art_tech_20261012",
+  "headline": "UPI மற்றும் ஆதார் பயன்பாட்டில் பாதுகாப்பு குறிப்புகள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது உங்கள் UPI பின் எண்ணை யாருடனும் பகிர வேண்டாம்.",
+   "ஆதார் அடிப்படையிலான சேவைகளை பயன்படுத்தும்போது mAadhaar செயலியில் Lock/Unlock பயோமெட்ரிக் அம்சத்தை இயக்கி வைப்பது கூடுதல் பாதுகாப்பு அளிக்கும்.",
+   "தெரியாத எண்களில் இருந்து வரும் QR கோடுகளை ஸ்கேன் செய்து பணம் அனுப்புவதற்கு முன் யாருக்கு பணம் செல்கிறது என்பதை உறுதி செய்ய வேண்டும், ஏனெனில் QR ஸ்கேன் பொதுவாக பணம் பெறுவதற்கே பயன்படும்.",
+   "மொபைல் போனில் தேவையற்ற செயலிகளுக்கு Contacts, SMS, Camera போன்ற அனுமதிகளை தேவையில்லாத போது நீக்கி வைப்பது தனிப்பட்ட தரவு பாதுகாப்பிற்கு உதவும்.",
+   "வங்கி அல்லது அரசு அதிகாரி என்று அறிமுகப்படுத்திக் கொண்டு அழைப்பு வரும் போது OTP அல்லது கடவுச்சொல் கேட்கப்பட்டால், அது மோசடி அழைப்பாக இருக்கலாம் என்பதை நினைவில் கொள்ள வேண்டும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை பெரிய இழப்பைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-12"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "தொழில்நுட்பம்",
+   "பாதுகாப்பு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-12T15:37+05:30",
+  "created_ts": 1791799657.732064,
+  "audio": "data/audio/art_tech_20261012.mp3"
+ },
+ {
+  "headline": "அரிசி, பருப்பு விலை உயர்வு குறித்து அன்புமணி ராமதாஸ் வலியுறுத்தல்",
+  "lines": [
+   "பாமக தலைவர் அன்புமணி ராமதாஸ் அரிசி மற்றும் பருப்பு விலை உயர்வால் மக்கள் பாதிக்கப்படுவதாகக் கூறினார்.",
+   "அத்தியாவசியப் பொருட்களின் விலை தொடர்ந்து உயர்ந்து வருவதாக அவர் தெரிவித்தார்.",
+   "இதனால் சாதாரண மக்கள் கடும் சிரமத்துக்கு உள்ளாகியுள்ளதாக அவர் தெரிவித்தார்.",
+   "அரசு உடனடியாகத் தலையிட்டு விலையைக் கட்டுப்படுத்த வேண்டும் என அவர் வலியுறுத்தினார்.",
+   "இந்த வலியுறுத்தலுக்கு அரசு தரப்பில் இதுவரை பதில் எதுவும் வெளியிடப்படவில்லை."
+  ],
+  "closing": "அரசு இந்த கோரிக்கைக்கு என்ன நடவடிக்கை எடுக்கும் என்பது இன்னும் தெரியவில்லை.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "அன்புமணி ராமதாஸ்",
+   "பாமக",
+   "அரிசி",
+   "பருப்பு",
+   "தமிழ்நாடு அரசு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Anbumani Ramadoss urges govt action on rice, dal price rise",
+   "lines": [
+    "PMK leader Anbumani Ramadoss said people are being severely affected by the rise in rice and dal prices.",
+    "He stated that prices of essential commodities have been continuously increasing.",
+    "He said this has caused serious hardship for ordinary citizens.",
+    "He urged the government to immediately intervene and take steps to control prices.",
+    "The government has not yet issued any response to this demand."
+   ],
+   "closing": "It remains unclear what action the government will take on this demand."
+  },
+  "front_cat": "price_policy",
+  "image_query": "",
+  "wiki_subject": "Anbumani Ramadoss",
+  "person_en": "Anbumani Ramadoss",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "5e9ae41fdd91",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-12T15:37+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/12/severely-affecting-peoplegovt-must-act-immediately-anbumani-urges"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Anbumani_Ramadoss_briefing_the_media_after_his_meeting_with_the_Health_Ministers_of_Polio_affected_states_Delhi%2C_UP%2C_Bihar%2C_Uttaranchal%2C_Jharkhand%2C_MP%2C_Haryana_and_Maharashtra%2C_in_New_Delhi_on_September_21%2C_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Anbumani Ramadoss",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Anbumani_Ramadoss",
+   "symbolic": false
+  },
+  "audio": "data/audio/5e9ae41fdd91.mp3",
+  "created_ts": 1791799643.725207,
+  "status": "published"
+ },
+ {
+  "headline": "சிதம்பரத்தில் மறியல் போராட்டம், 42 வழக்குரைஞர்கள் கைது",
+  "lines": [
+   "சிதம்பரத்தில் நடைபெற்ற மறியல் போராட்டத்தில் ஈடுபட்ட வழக்குரைஞர்கள் மீது காவல்துறை நடவடிக்கை எடுத்தது.",
+   "மொத்தம் நாற்பத்தி இரண்டு வழக்குரைஞர்கள் காவல்துறையினரால் கைது செய்யப்பட்டனர்.",
+   "போராட்டத்தின் குறிப்பிட்ட கோரிக்கை குறித்து அதிகாரப்பூர்வ விளக்கம் உடனடியாக வெளியிடப்படவில்லை.",
+   "மறியல் காரணமாக அப்பகுதியில் சிறிது நேரம் பரபரப்பான சூழல் நிலவியது.",
+   "கைது செய்யப்பட்ட வழக்குரைஞர்கள் மீதான சட்ட நடவடிக்கை தொடர்பாக மேலும் விவரங்கள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "இந்த மறியல் போராட்டத்திற்கான உண்மையான காரணம் குறித்து இன்னும் தெளிவான அதிகாரப்பூர்வ அறிக்கை வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-12"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சிதம்பரம்",
+   "வழக்கறிஞர்கள்",
+   "காவல்துறை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Chidambaram Protest, 42 Lawyers Arrested by Police",
+   "lines": [
+    "Police took action against lawyers who took part in a sit-in protest in Chidambaram.",
+    "A total of forty-two lawyers were arrested by the police.",
+    "No official statement has yet been issued regarding the specific demand behind the protest.",
+    "The sit-in caused brief tension and disruption in the area.",
+    "Further details on the legal proceedings against the arrested lawyers are awaited."
+   ],
+   "closing": "The exact reason behind the sit-in protest has not yet been officially clarified."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "24df19666bec",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-12T15:36+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/12/42-lawyers-arrested-for-staging-a-road-blockade-protest-in-chidambaram"
+  ],
+  "image": {
+   "url": "data/bank/crime06.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/24df19666bec.mp3",
+  "created_ts": 1791799602.5581248,
+  "status": "published"
+ },
+ {
+  "headline": "அனுமதியற்ற பதாகை வழக்கு - FIR ரத்து கோரி தவெக எம்எல்ஏ மனு",
+  "lines": [
+   "தமிழக வெற்றிக் கழகத்தின் எம்எல்ஏ ஈ.சி.ஆர். சரவணன், அனுமதியற்ற பதாகைகள் வைத்த வழக்கில் பதிவான முதல் தகவல் அறிக்கையை ரத்து செய்யக் கோரி சென்னை உயர்நீதிமன்றத்தில் மனு தாக்கல் செய்தார்.",
+   "இந்த மனுவை நீதிபதி வி. லக்ஷ்மிநாராயணன் விசாரணைக்கு ஏற்றுக்கொண்டார்.",
+   "முதல் தகவல் அறிக்கையின் சான்று நகலைச் சமர்ப்பிக்காமலேயே மனுவைத் தாக்கல் செய்ய நீதிபதி அனுமதி வழங்கினார்.",
+   "அனுமதியற்ற பதாகைகள் வைத்த குற்றச்சாட்டின் அடிப்படையில் காவல் துறை இந்த வழக்கைப் பதிவு செய்திருந்தது.",
+   "இந்த மனுவின் மீதான விரிவான விசாரணை அடுத்த கட்டத்தில் நடைபெறவுள்ளது."
+  ],
+  "closing": "அனுமதியற்ற பதாகைகள் தொடர்பாக காவல் துறை பதிவு செய்த முதல் தகவல் அறிக்கையை எதிர்த்தே இந்த மனு தாக்கல் செய்யப்பட்டது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "ஈ.சி.ஆர்.சரவணன்",
+   "தமிழக வெற்றிக் கழகம்",
+   "சென்னை உயர்நீதிமன்றம்",
+   "நீதிபதி வி.லக்ஷ்மிநாராயணன்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "TVK MLA Moves Madras High Court to Quash FIR Over Banners",
+   "lines": [
+    "TVK MLA ECR Saravanan filed a petition in the Madras High Court seeking to quash the FIR registered against him in the unauthorised banners case.",
+    "Justice V. Lakshminarayanan admitted the petition for hearing.",
+    "The judge allowed the petition to be filed without submitting a certified copy of the FIR.",
+    "The police had registered the case on the charge of putting up banners without prior permission.",
+    "A detailed hearing on the petition is set to take place in the next stage."
+   ],
+   "closing": "The petition was filed against the FIR registered by the police over the unauthorised banners.",
+   "entities": [
+    "ECR Saravanan",
+    "TVK",
+    "Madras High Court",
+    "Justice V. Lakshminarayanan"
+   ]
+  },
+  "id": "802b4432b3d6",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-12T15:35+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tvk-mla-ecr-saravanan-moves-madras-high-court-to-quash-fir-in-unauthorised-banners-case/article71574163.ece"
+  ],
+  "image": {
+   "url": "data/bank/court04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/802b4432b3d6.mp3",
+  "created_ts": 1791799522.5264125,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "இந்திய அரசுப் பத்திரங்களின் வட்டி 7.35 சதவீதமாக உயர்வு, மூன்றாண்டு உச்சம்",
+  "lines": [
+   "திங்கட்கிழமை இந்திய அரசுப் பத்திரங்களின் விலை குறைந்து வட்டி விகிதம் கணிசமாக உயர்ந்தது.",
+   "இந்திய ரிசர்வ் வங்கியின் திரவத்தன்மைக் கட்டுப்பாடு நடவடிக்கைகளே இதற்குக் காரணம் என்று தெரிகிறது.",
+   "2036 முதிர்வுக் காலம் கொண்ட 6.94% பத்திரத்தின் வட்டி, மூன்றாண்டுகளில் இல்லாத அளவு உயர்ந்து 7.35% ஐ எட்டியது.",
+   "சந்தையில் திரவத்தன்மையை இறுக்கும் நோக்கில் பத்திரங்களை விற்பனை செய்வதாக இந்திய ரிசர்வ் வங்கி அறிவித்துள்ளது.",
+   "உலக சந்தையில் பிரெண்ட் எண்ணெய் விலை ஒரு பீப்பாய்க்கு 100 டாலருக்கு மேல் தொடர்வதால் பணவீக்க அச்சமும் அதிகரித்துள்ளது."
+  ],
+  "closing": "வட்டி விகித உயர்வு, கடன் வாங்குவோர் மற்றும் முதலீட்டாளர்கள் மீதான தாக்கத்தை அடுத்த சில வாரங்களில் தெளிவுபடுத்தும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "இந்திய ரிசர்வ் வங்கி",
+   "அரசுப் பத்திரங்கள்",
+   "ப்ரெண்ட் முடிசுத்தெண்ணெய்",
+   "திரவத்தன்மை"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "India's 10-year bond yield rises to 7.35%, three-year high",
+   "lines": [
+    "On Monday, Indian government bond prices fell, pushing yields up significantly.",
+    "The Reserve Bank of India's liquidity tightening measures appear to be the reason behind this.",
+    "The benchmark 6.94% bond maturing in 2036 rose to 7.35%, its highest level in three years.",
+    "The Reserve Bank of India announced it would sell bonds worth 25,000 crore rupees to tighten liquidity in the market.",
+    "Brent crude oil prices remaining above $100 per barrel globally has also heightened inflation concerns."
+   ],
+   "closing": "The rise in yields is expected to clarify its impact on borrowers and investors over the coming weeks."
+  },
+  "front_cat": "price_policy",
+  "image_query": "",
+  "wiki_subject": "Reserve Bank of India",
+  "id": "1a394ee33589",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-12T15:34+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-tops-7-35-as-rbis-liquidity-clamp-down-hurts/articleshow/134883445.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/500px-Seal_of_the_Reserve_Bank_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Reserve Bank of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/1a394ee33589.mp3",
+  "created_ts": 1791799454.8953328,
+  "person_en": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "ஜியோ பிளாட்பாரம்ஸ் பங்கு விற்பனை பதினொரு லட்சம் கோடி மதிப்பீடு எதிர்பார்ப்பு",
+  "lines": [
+   "ரிலையன்ஸ் நிறுவனத்தின் ஜியோ பிளாட்பாரம்ஸ் முப்பத்தாயிரம் கோடி ரூபாய் மதிப்பிலான பங்கு விற்பனைக்குத் திட்டமிட்டுள்ளது.",
+   "இந்த பங்கு விற்பனை மூலம் ஜியோவின் மதிப்பு பதினொரு லட்சம் கோடி ரூபாய் வரை நிர்ணயிக்கப்படலாம் என எதிர்பார்க்கப்படுகிறது.",
+   "இது இந்தியாவின் வரலாற்றிலேயே மிகப் பெரிய பங்கு விற்பனையாக அமையும் சாத்தியம் உள்ளது.",
+   "உள்நாட்டு மற்றும் வெளிநாட்டு முதலீட்டாளர்கள் இந்த பங்கு விற்பனையில் ஆர்வம் காட்டி வருவதாகத் தகவல்கள் தெரிவிக்கின்றன.",
+   "இந்த பட்டியலிடல் ஏர்டெல் நிறுவனத்துடன் ஜியோவின் மதிப்பீட்டை ஒப்பிடும் வாய்ப்பையும், தொலைத்தொடர்பு துறையின் வளர்ச்சிப் போக்கையும் மாற்றக்கூடும் என்று கருதப்படுகிறது."
+  ],
+  "closing": "இந்த பங்கு விற்பனை முதலீட்டாளர்களுக்கு ரிலையன்ஸின் டிஜிட்டல் வளர்ச்சியில் நேரடியாகப் பங்கேற்பதற்கான வாய்ப்பை வழங்கும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "ஜியோ பிளாட்பாரம்ஸ்",
+   "ரிலையன்ஸ்",
+   "முகேஷ் அம்பானி",
+   "பாரதி ஏர்டெல்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Jio Platforms IPO may value firm at Rs 11 lakh crore",
+   "lines": [
+    "Reliance's Jio Platforms is planning an initial public offering worth around Rs 30,000 crore.",
+    "The share sale could value Jio Platforms at as much as Rs 11 lakh crore, reports suggest.",
+    "Experts say this could become India's biggest-ever share sale in the country's history.",
+    "Both domestic and global investors are reportedly showing strong interest in the proposed offering.",
+    "The listing may allow comparisons with Bharti Airtel's valuation and reshape the telecom sector's dynamics."
+   ],
+   "closing": "The IPO is expected to give investors a direct route to participate in Reliance's digital growth story."
+  },
+  "front_cat": "big_project",
+  "image_query": "Reliance Jio India telecom",
+  "wiki_subject": "Jio Platforms",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "c215d50d034c",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-12T15:32+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-may-be-valued-at-rs-11-lakh-crore-what-it-means-for-ril-bharti-airtel-and-telecom-stocks/articleshow/134885702.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Jio Platforms",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Jio_Platforms",
+   "symbolic": false
+  },
+  "audio": "data/audio/c215d50d034c.mp3",
+  "created_ts": 1791799372.1864622,
+  "status": "published"
+ },
+ {
+  "headline": "இந்திய அரசுப் பத்திரங்களின் வட்டி விகிதம் மூன்று ஆண்டு உச்சத்தை எட்டியது",
+  "lines": [
+   "இந்தியாவின் பத்து ஆண்டு கால அரசுப் பத்திரங்களின் வட்டி விகிதம் திங்கள்கிழமை மூன்று ஆண்டு உச்சத்தை எட்டியது.",
+   "இந்திய ரிசர்வ் வங்கியின் புதிய பண வரவு கட்டுப்பாட்டு நடவடிக்கைகளால் பத்திரங்களுக்கான தேவை குறைந்துள்ளது.",
+   "வங்கி அமைப்பில் பண வரவு இறுக்கமடைவதால், வங்கிகள் அரசுப் பத்திரங்களில் முதலீடு செய்யும் திறன் குறையும் என நிபுணர்கள் தெரிவிக்கின்றனர்.",
+   "தேவை குறைவதால் பத்திரங்களின் விலை குறைந்து, அதன் விளைவாக வட்டி விகிதம் அதிகரித்துள்ளது.",
+   "இந்திய ரிசர்வ் வங்கியின் அடுத்த கட்ட பண வரவு நடவடிக்கைகளைப் பொருளாதார நிபுணர்கள் உற்று நோக்கி வருகின்றனர்."
+  ],
+  "closing": "இந்திய ரிசர்வ் வங்கியின் பண வரவு கட்டுப்பாட்டு நடவடிக்கைகள் அரசுப் பத்திரங்களுக்கான தேவையைப் பாதிப்பதே இச்செய்தியின் சாரம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "இந்திய ரிசர்வ் வங்கி",
+   "அரசுப் பத்திரங்கள்",
+   "வட்டி விகிதம்",
+   "இந்தியா"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "India's 10-year bond yield hits three-year high on liquidity squeeze",
+   "lines": [
+    "India's benchmark 10-year government bond yield hit a three-year high on Monday.",
+    "The Reserve Bank of India's latest liquidity-tightening measures have weakened demand for government bonds.",
+    "Experts say tighter banking-system liquidity reduces banks' capacity to invest in government securities.",
+    "Falling demand has pushed bond prices lower, causing yields to rise.",
+    "Economists are now watching the Reserve Bank of India's next liquidity actions closely."
+   ],
+   "closing": "The tightening of banking-system liquidity affecting demand for government bonds forms the background of this development."
+  },
+  "front_cat": "price_policy",
+  "image_query": "",
+  "wiki_subject": "Reserve Bank of India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "2b62626bec5a",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-12T15:31+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/indias-10-year-bond-yield-hits-3-year-high-as-rbis-liquidity-measure-weighs-on-demand/articleshow/134885914.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/500px-Seal_of_the_Reserve_Bank_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Reserve Bank of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/2b62626bec5a.mp3",
+  "created_ts": 1791799322.2097535,
+  "status": "published"
+ },
+ {
+  "headline": "மேட்டூர் அருகே பேருந்து விபத்தில் 26 பேர் காயம்",
+  "lines": [
+   "சேலம் மாவட்டம் மேட்டூர் அருகே நின்றிருந்த தனியார் பேருந்து மீது அரசு பேருந்து ஒன்று மோதியது.",
+   "இந்த விபத்தில் 26 பேர் காயமடைந்துள்ளனர்.",
+   "காயமடைந்தவர்கள் உடனடியாக அருகிலுள்ள மருத்துவமனையில் அனுமதிக்கப்பட்டு சிகிச்சை பெற்று வருகின்றனர்.",
+   "காவல் துறையினர் விபத்து நடந்த சூழல் குறித்து விசாரணை நடத்தி வருகின்றனர்.",
+   "விபத்துக்கான சரியான காரணம் விசாரணைக்குப் பின்னரே தெரியவரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "காயமடைந்தவர்களின் உடல்நிலை குறித்த மேலும் விவரங்கள் எதிர்பார்க்கப்படுகின்றன.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-12"
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "மேட்டூர்",
+   "சேலம்",
+   "அரசு பேருந்து",
+   "தனியார் பேருந்து"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Bus accident near Mettur leaves twenty six people injured",
+   "lines": [
+    "A government bus rammed into a stationary private bus near Mettur in Salem district.",
+    "Twenty six people were injured in the accident.",
+    "The injured were admitted to a nearby hospital and are undergoing treatment.",
+    "Police are investigating the circumstances that led to the accident.",
+    "The exact cause of the accident is expected to be known only after the investigation."
+   ],
+   "closing": "Further updates on the condition of the injured are awaited."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "b939014afc6e",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-12T15:31+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/12/accident-government-bus-rams-into-stationary-private-bus-near-mettur-26-injured"
+  ],
+  "image": {
+   "url": "data/bank/crime21.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/b939014afc6e.mp3",
+  "created_ts": 1791799277.9647563,
+  "status": "published"
+ },
+ {
+  "headline": "கணவர் மது அருந்தியதால் ஏற்பட்ட தகராறில் தம்பதி தற்கொலை",
+  "lines": [
+   "கணவர் மது அருந்தியதால் ஏற்பட்ட தகராறைத் தொடர்ந்து ஒரு தம்பதி விஷம் குடித்து உயிரிழந்துள்ளனர்.",
+   "இருவரும் காதலித்து திருமணம் செய்துகொண்டவர்கள் என காவல்துறை தெரிவித்துள்ளது.",
+   "சம்பவம் குறித்து உள்ளூர் காவல் நிலையம் வழக்குப் பதிவு செய்து விசாரணை நடத்தி வருகிறது.",
+   "தகராறின் விவரங்கள் மற்றும் இறப்பிற்கான முழுமையான காரணம் தொடர்பாக காவல்துறை ஆய்வு செய்து வருகிறது.",
+   "விசாரணை முடிந்த பின் முழு விவரங்கள் வெளியாகும் என காவல்துறை அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "மனரீதியான சிக்கல்களுக்கு உதவி தேவைப்பட்டால் மாநில தொலைபேசி உதவி எண் 104 அல்லது 14416-ஐ தொடர்பு கொள்ளலாம்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "காவல் துறை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Couple dies by suicide after dispute over husband's drinking",
+   "lines": [
+    "A couple died by consuming poison following a dispute that arose after the husband had been drinking alcohol.",
+    "Police said the two had married each other out of love.",
+    "The local police station has registered a case and is investigating the matter.",
+    "Police are examining the details of the dispute and the complete reasons behind the deaths.",
+    "Officials said full details would be released once the investigation is complete."
+   ],
+   "closing": "Those needing support for mental health concerns can contact the state helpline numbers 104 or 14416."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "0abdce923551",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-12T15:29+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/12/young-couple-commits-suicide-by-consuming-poison"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/0abdce923551.mp3",
+  "created_ts": 1791799163.9357681,
+  "status": "published"
+ },
+ {
+  "headline": "சென்செக்ஸ் 1,200 புள்ளிகள் வீழ்ச்சி, நிஃப்டி 22,350க்குக் கீழே சரிவு",
+  "lines": [
+   "இன்று இந்தியப் பங்குச் சந்தையில் சென்செக்ஸ் குறியீடு நாள் உச்சத்திலிருந்து 1,200 புள்ளிகள் வரை சரிந்தது.",
+   "நிஃப்டி குறியீடு 22,350 புள்ளிகளுக்குக் கீழே இறங்கியது.",
+   "வெளிநாட்டு நிறுவன முதலீட்டாளர்களின் தொடர் விற்பனையும், அரசாங்கக் கடன் பத்திர வட்டி விகிதங்களின் உயர்வும் சரிவுக்கு முக்கியக் காரணம் என சந்தை நிபுணர்கள் தெரிவித்தனர்.",
+   "தொழில்நுட்ப நிறுவனமான டெக் மஹிந்திரா பங்கு விலை கிட்டத்தட்ட நான்கு சதவீதம் வீழ்ச்சியடைந்து, அதிக இழப்பைச் சந்தித்த பங்காக அமைந்தது.",
+   "இருப்பினும், நிஃப்டி ஸ்மால்கேப் 100 குறியீடு சிறிய மற்றும் நடுத்தர நிறுவனப் பங்குகளில் சற்று உறுதியான செயல்பாட்டைக் காட்டியது."
+  ],
+  "closing": "வெளிநாட்டு முதலீட்டாளர் விற்பனையும் கடன் பத்திர வட்டி உயர்வும் தொடர்ந்தால் சந்தை மேலும் நிலையற்றதாக மாறக்கூடும் என பங்குச் சந்தை வட்டாரங்கள் கருதுகின்றன.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "சென்செக்ஸ்",
+   "நிஃப்டி",
+   "டெக் மஹிந்திரா",
+   "நிஃப்டி ஸ்மால்கேப் 100",
+   "வெளிநாட்டு முதலீட்டாளர்கள்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Sensex Sinks 1,200 Points, Nifty Falls Below 22,350 Mark",
+   "lines": [
+    "India's stock market saw the Sensex index drop as much as 1,200 points from the day's high in today's trading session.",
+    "The Nifty index slipped below the 22,350 mark during the session.",
+    "Market analysts attributed the fall mainly to continued selling by foreign institutional investors and rising government bond yields.",
+    "Tech Mahindra shares fell nearly four percent, making it the biggest loser among major stocks.",
+    "However, the Nifty Smallcap 100 index showed relative resilience, performing better than the broader large-cap market."
+   ],
+   "closing": "Market circles expect further volatility if foreign investor selling and rising bond yields continue in the coming sessions."
+  },
+  "front_cat": "routine",
+  "image_query": "stock market sensex nifty",
+  "wiki_subject": "BSE SENSEX",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c8daffccebc5",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-12T15:28+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-falling-today-sensex-drops-over-500-points-nifty-below-22400-5-key-factors-driving-market-downturn/articleshow/134884020.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/c8daffccebc5.mp3",
+  "created_ts": 1791799097.2983165,
+  "status": "published"
+ },
+ {
+  "headline": "சென்னையில் அக்டோபர் 14 முதல் மழைக்கு வாய்ப்பு: புயல் சின்னம்",
+  "lines": [
+   "தமிழ்நாட்டை ஒட்டிய வங்கக்கடலில் புயல் சின்னம் உருவாகும் சூழல் நிலவுவதாக வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "இதன் காரணமாக அக்டோபர் 14 முதல் சென்னை உள்ளிட்ட பகுதிகளில் மழை பெய்யும் வாய்ப்பு இருப்பதாகத் தெரிவிக்கப்பட்டுள்ளது.",
+   "வானிலை ஆய்வு மையத்தின் அதிகாரிகள் இது தொடர்பாக அறிக்கை ஒன்றை வெளியிட்டுள்ளனர்.",
+   "புயல் சின்னத்தின் வலிமை மற்றும் பாதிப்பு குறித்த முழு விவரங்கள் இன்னும் உறுதியாகத் தெரிவிக்கப்படவில்லை.",
+   "அடுத்த சில நாட்களில் நிலைமை குறித்து மேலும் தெளிவான தகவல் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "பருவமழைக் காலத்தில் வங்கக்கடலில் புயல் சின்னங்கள் உருவாவது வழக்கமான வானிலை நிகழ்வாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை",
+   "வங்கக்கடல்",
+   "வானிலை ஆய்வு மையம்",
+   "தமிழ்நாடு",
+   "அக்டோபர் பதினான்கு"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Chennai rain likely from October 14 due to storm sign",
+   "lines": [
+    "A cyclonic sign is forming over the Bay of Bengal near Tamil Nadu, the weather department has said.",
+    "As a result, Chennai and surrounding areas are likely to receive rain from October 14, officials indicated.",
+    "Weather department officials have released a report regarding this development.",
+    "Full details on the system's strength and impact have not yet been confirmed.",
+    "More clarity on the situation is expected to emerge over the coming days."
+   ],
+   "closing": "The formation of cyclonic signs over the Bay of Bengal during the monsoon season is a routine weather occurrence."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "tn rain",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "5321ada28995",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-12T15:27+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/12/cyclonic-disturbance-chance-of-rain-in-chennai"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/5321ada28995.mp3",
+  "created_ts": 1791799048.7265973,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261012",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 8 · அரசு & தனியார்",
   "lines": [
@@ -18401,786 +19078,6 @@
   },
   "audio": "data/audio/f1d5da15b174.mp3",
   "created_ts": 1791088888.3922517,
-  "status": "published"
- },
- {
-  "headline": "சிங்கீதம் ஸ்ரீனிவாச ராவின் படங்கள் இன்றைய இயக்குநர்களைத் தொடர்ந்து பாதிக்கும்",
-  "lines": [
-   "94 வயதான சிங்கீதம் ஸ்ரீனிவாச ராவ் தெலுங்குப் படம் 'சிங் கீதம்' வெளியாவதற்குத் தயாரிப்பில் இருக்கிறார்.",
-   "இயக்குநர்கள் விவேக் அத்ரேயா, மோகன கிருஷ்ணா இந்திரகந்தி, வெங்கடேஷ் மஹா ஆகியோர் அவரது படங்களை நினைந்து பாராட்டுகிறார்கள்.",
-   "சிங்கீதம் ஸ்ரீனிவாச ராவ் எண்ணற்ற புகழ்பெற்ற படங்களை இயக்கியுள்ளார் என்பது இந்த இயக்குநர்களின் கூற்றே வெளிப்படுத்துகிறது.",
-   "தமிழ், தெலுங்கு, கன்னட திரையுலகங்களில் அவர் ஏற்படுத்திய தாக்கம் இன்றும் தொடர்ந்து இயக்குநர்களுக்கு ஆக்க சக்தி அளிக்கிறது.",
-   "அவர் இயக்கிய படங்கள் திரைக்கலையின் வரலாறில் சிறப்பிடம் பெற்றுள்ளன."
-  ],
-  "closing": "சிங்கீதம் ஸ்ரீனிவாச ராவ் கணிதக் கோட்பாடுகள் மூலம் படங்களை இயக்கிய முன்னோடி ஆவார்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Cinema",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "cinema",
-  "entities": [
-   "சிங்கீதம் ஸ்ரீனிவாச ரவு",
-   "விவேக் அத்ரேயா",
-   "மோகன கிருஷ்ணா இந்திரகந்தி",
-   "வெங்கடேஷ் மஹா"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Singeetham Srinivasa Rao's films continue to influence contemporary directors",
-   "lines": [
-    "94-year-old director Singeetham Srinivasa Rao is preparing for the release of his Telugu film 'Sing Geetham'.",
-    "Directors Vivek Athreya, Mohana Krishna Indraganti and Venkatesh Maha recall his iconic works and express admiration for his contributions.",
-    "Singeetham Srinivasa Rao has created numerous acclaimed films throughout his career.",
-    "His impact on Tamil, Telugu and Kannada cinema continues to inspire filmmakers today.",
-    "His films hold a significant place in the history of Indian cinema."
-   ],
-   "closing": "Singeetham Srinivasa Rao is a pioneering filmmaker who revolutionised cinema through innovative use of mathematics."
-  },
-  "front_cat": "cinema_culture",
-  "image_query": "Singeetham Srinivasa Rao director",
-  "wiki_subject": "Singeetham Srinivasa Rao",
-  "person_en": "Singeetham Srinivasa Rao",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "b1c31613eba3",
-  "topic_ta": "சினிமா",
-  "published_at": "2026-10-04T10:10+05:30",
-  "links": [
-   "https://www.thehindu.com/entertainment/movies/the-enduring-impact-of-singeetham-srinivasa-raos-films-on-contemporary-filmmakers/article71075609.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Singeetam_srinivasa_rao.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Singeetham Srinivasa Rao",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Singeetham_Srinivasa_Rao",
-   "symbolic": false
-  },
-  "audio": "data/audio/b1c31613eba3.mp3",
-  "created_ts": 1791088863.1281269,
-  "status": "published"
- },
- {
-  "headline": "ராகுல் காந்தியால் 'சத்தியாகிரகம்' இணையதளம் அறிமுகம்",
-  "lines": [
-   "காங்கிரஸ் மூத்த தலைவர் ராகுல் காந்தி 'சத்தியாகிரகம்' எனப்படும் புதிய இணையதளத்தை அறிமுகப்படுத்தினார்.",
-   "தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமாருக்கு எதிரான போராட்டங்கள் நடைபெற்று வரும் நேரத்தில் இந்த அறிமுகம் நடந்தது.",
-   "இந்த இணையதளத்தின் நோக்கம் குறித்து ராகுல் காந்தியின் தரப்பில் இருந்து விரிவான விளக்கம் இதுவரை வெளியிடப்படவில்லை.",
-   "தேர்தல் ஆணையத்தின் செயல்பாடு குறித்து காங்கிரஸ் கட்சியினர் முன்னதாக கேள்விகளை எழுப்பியிருந்தனர்.",
-   "இந்த இணையதளம் தொடர்பான கூடுதல் விவரங்கள் இன்னும் வெளியாகவில்லை."
-  ],
-  "closing": "இந்த இணையதளத்தின் முழு நோக்கம் மற்றும் உள்ளடக்கம் குறித்த தகவல்கள் அடுத்தடுத்து வெளியாகுமா என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [],
-  "id": "a525be3de0ee",
-  "flags": [],
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-10-04T10:09+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/satyagraha-website-rahul-gandhi-explained-what-is-it/article71542853.ece",
-   "https://www.thehindu.com/news/national/satyagraha-website-rahul-gandhi-explained-what-is-it/article71542853.ece"
-  ],
-  "image": {
-   "url": "data/bank/india04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/a525be3de0ee.mp3",
-  "created_ts": 1791088794.630601,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமாருக்கு எதிரான போராட்டம்: டெல்லியில் 150 பேர் கைது",
-  "lines": [
-   "தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமாருக்கு எதிரான போராட்டத்தில் டெல்லியில் சுமார் 150 பேர் காவலில் வைக்கப்பட்டனர்.",
-   "மூத்த வழக்கறிஞர்கள் கபில் சிபல், பிரசாந்த் பூஷண், நித்யா ராமகிருஷ்ணன், பல்லவ் சிசோடியா ஆகியோர் போராட்டத்தில் கலந்து கொண்டனர்.",
-   "சமூக ஆர்வலர் யோகேந்திர யாதவ் மற்றும் அகில இந்திய மாணவர் சங்கத் தலைவர் நேஹா போரா உள்ளிட்டோரும் போராட்டக்காரர்களுடன் இணைந்தனர்.",
-   "மாணவர்கள் உள்பட பலர் இந்தப் போராட்டத்தில் பங்கேற்றதால், காவல்துறை நடவடிக்கை எடுத்தது.",
-   "கைது செய்யப்பட்டோரின் விடுதலை தொடர்பான நடவடிக்கைகள் தொடர்ந்து நடைபெற்று வருகின்றன."
-  ],
-  "closing": "இந்தப் போராட்டத்திற்கான குறிப்பிட்ட காரணம் தொடர்பாக அதிகாரப்பூர்வ விளக்கம் இன்னும் வெளியிடப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "தலைமை தேர்தல் ஆணையர் ஞானேஷ் குமார்",
-   "கபில் சிபல்",
-   "பிரசாந்த் பூஷண்",
-   "யோகேந்திர யாதவ்",
-   "நேஹா போரா",
-   "டெல்லி"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Protest Against CEC Gyanesh Kumar, 150 Detained in Delhi",
-   "lines": [
-    "About 150 people were detained in Delhi during a protest against Chief Election Commissioner Gyanesh Kumar.",
-    "Senior advocates Kapil Sibal, Prashant Bhushan, Nitya Ramakrishnan and Pallav Sisodia took part in the protest.",
-    "Activist Yogendra Yadav and AISA president Neha Bora were among others who joined the protesters.",
-    "Many participants, including students, were detained by police during the demonstration.",
-    "Further action regarding the release of those detained is reportedly ongoing."
-   ],
-   "closing": "The specific reason behind the protest has not yet been officially detailed."
-  },
-  "front_cat": "strike_protest",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "72061df56a8e",
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-10-04T10:08+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/delhi-protest-against-gyanesh-kumar-october-3-2026/article71539583.ece",
-   "https://www.thehindu.com/news/national/delhi-protest-against-gyanesh-kumar-october-3-2026/article71539583.ece"
-  ],
-  "image": {
-   "url": "data/bank/india02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/72061df56a8e.mp3",
-  "created_ts": 1791088736.087688,
-  "status": "published"
- },
- {
-  "headline": "ஸ்ரீ சிட்டி மண்டலத்தில் கொப்பரை வெடிப்பு, ஐந்து தொழிலாளர்கள் பலி",
-  "lines": [
-   "ஆந்திரப் பிரதேசத்தின் ஸ்ரீ சிட்டி சிறப்புப் பொருளாதார மண்டலத்தில் உள்ள ஒரு தொழிற்சாலையில் கொப்பரை வெடித்து ஐந்து தொழிலாளர்கள் உயிரிழந்தனர்.",
-   "இந்த விபத்தில் பத்துக்கும் மேற்பட்டோர் காயமடைந்து மருத்துவமனையில் சிகிச்சை பெறுகின்றனர்.",
-   "இறந்தவர்களின் குடும்பங்களுக்கு தலா ஐம்பது லட்சம் ரூபாய் நிவாரணம் வழங்கப்படும் என்று அரசு அறிவித்துள்ளது.",
-   "சம்பவம் தொடர்பாக விசாரணை நடத்த உயர்மட்ட குழு ஒன்றை அரசு அமைத்துள்ளது.",
-   "விபத்துக்கான காரணம் குறித்த விசாரணை அறிக்கை இன்னும் வெளியாகவில்லை."
-  ],
-  "closing": "ஸ்ரீ சிட்டி சிறப்புப் பொருளாதார மண்டலம் ஆந்திரப் பிரதேசம் மற்றும் தமிழ்நாடு எல்லைப் பகுதியில் அமைந்துள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "ஸ்ரீ சிட்டி சிறப்புப் பொருளாதார மண்டலம்",
-   "ஆந்திரப் பிரதேசம் அரசு",
-   "கொப்பரை வெடிப்பு",
-   "தொழிலாளர்கள்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Boiler explosion at Sri City SEZ kills five workers",
-   "lines": [
-    "A boiler exploded at a factory in the Sri City Special Economic Zone in Andhra Pradesh, killing five workers.",
-    "More than ten others were injured in the accident and are undergoing treatment in hospital.",
-    "The government has announced a relief of fifty lakh rupees each to the families of the deceased.",
-    "The government has set up a high-level committee to investigate the incident.",
-    "The investigation report on the cause of the accident has not yet been released."
-   ],
-   "closing": "The Sri City Special Economic Zone is located on the border of Andhra Pradesh and Tamil Nadu."
-  },
-  "id": "f1d5da15b174",
-  "flags": [],
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-04T10:08+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/andhra-pradesh/workers-killed-injured-in-a-boiler-explosion-at-a-sri-city-sez-facility/article71539836.ece",
-   "https://www.thehindu.com/news/national/andhra-pradesh/workers-killed-injured-in-a-boiler-explosion-at-a-sri-city-sez-facility/article71539836.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/f1d5da15b174.mp3",
-  "created_ts": 1791088691.408757,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ஆசிய விளையாட்டுப் போட்டியில் பாகிஸ்தானைத் தோற்கடித்த இந்தியா",
-  "lines": [
-   "ஆசிய விளையாட்டுக் கிரிக்கெட் போட்டியில் இந்திய அணி பாகிஸ்தானை ஒட்டுமொத்த வெற்றியுடன் தோற்கடித்துள்ளது.",
-   "இந்திய அணியின் தலைவர் ஸ்ரேயஸ் ஐயர் அணியின் திறமையான விளையாட்டையும் களத்தில் உள்ள வலுவான ஒருங்கிணைந்த முயற்சியையும் பாராட்டியுள்ளார்.",
-   "மழைக்கு எதிராக எந்தக் குறையும் சாக்கும் சொல்லாமல் விளையாடிய அணியின் மனோபலம் வெற்றியின் அறிகுறி என்று ஐயர் குறிப்பிட்டார்.",
-   "கிரிக்கெட் போட்டியில் சாதனைவாய்ந்த அணிகள் சவாலுக்கு அஞ்சாது விளையாடுவதை இந்திய அணி நிரூபித்துள்ளது.",
-   "ஆசிய விளையாட்டுப் போட்டியில் இந்தியாவின் கிரிக்கெட் பயணம் இந்த கட்டத்தில் முடிவடைந்தது."
-  ],
-  "closing": "ஆசிய விளையாட்டுப் போட்டியில் இந்திய கிரிக்கெட் அணியின் இந்த வெற்றி தென்னாசிய அணிகளிடையே முக்கிய செய்தியாக பதிவாகிவிட்டது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ESPNcricinfo",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "இந்திய கிரிக்கெட் அணி",
-   "பாகிஸ்தான் கிரிக்கெட் அணி",
-   "ஸ்ரேயஸ் ஐயர்",
-   "ஆசிய விளையாட்டுப் போட்டி"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "India defeats Pakistan in Asian Games cricket with comprehensive victory",
-   "lines": [
-    "India's cricket team has won comprehensively against Pakistan in the Asian Games cricket match.",
-    "Indian captain Shreyas Iyer praised the team's skilled performance and collective effort on the field.",
-    "Iyer noted that the team's morale without complaining or making excuses against rain is a sign of a champion team.",
-    "India's cricket team has proven that expert teams play fearlessly against challenges.",
-    "India's performance in the Asian Games cricket match has made a strong impact in South Asian cricket."
-   ],
-   "closing": "India's cricket team's victory at the Asian Games has become a significant news in South Asian cricket."
-  },
-  "front_cat": "sports_historic",
-  "image_query": "India Pakistan cricket Asian Games",
-  "wiki_subject": "2023 Asian Games cricket",
-  "person_en": "Shreyas Iyer",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "751ec7366321",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-10-04T10:05+05:30",
-  "links": [
-   "https://www.cricinfo.com/ci/content/story/1557029.html?ex_cid=OTC-RSS"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Shreyas_Iyer_snapped_at_the_airport_%28Cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Shreyas Iyer",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Shreyas_Iyer",
-   "symbolic": false
-  },
-  "audio": "data/audio/751ec7366321.mp3",
-  "created_ts": 1791088543.7766078,
-  "status": "published"
- },
- {
-  "id": "jobs_20261004",
-  "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
-  "lines": [
-   "நாசிக் மாவட்ட நிர்வாகத்தில் வருவாய் ஊழியர் (கோட்வால்) பணியிடங்கள் 3 காலியாக உள்ளன, கடைசி நாள் 2026-10-16.",
-   "சூரத் மாநகராட்சியில் (SMC) கௌரவ பயிற்சியாளர் (விளையாட்டு பயிற்சியாளர்) பணியிடங்கள் 8 காலியாக உள்ளன, கடைசி நாள் 2026-10-24.",
-   "பஞ்சாப்-ஹரியானா உயர் நீதிமன்றத்தில் (SSSC) கிளார்க் பணியிடங்கள் 1270 காலியாக உள்ளன, கடைசி நாள் 2026-11-04.",
-   "மாவட்ட பஞ்சாயத்து பல்ராம்பூரில் பஞ்சாயத்து செயலாளர் பணியிடங்கள் 10 காலியாக உள்ளன, கடைசி நாள் 2026-10-23.",
-   "பிருகன்மும்பை மாநகராட்சியில் (BMC) சிகிச்சை ஒருங்கிணைப்பாளர் பணியிடங்கள் 25 காலியாக உள்ளன, கடைசி நாள் 2026-10-09."
-  ],
-  "closing": "விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பை சரிபார்க்கவும்; பணம் கேட்கும் எந்த அறிவிப்பையும் இங்கு பட்டியலிடவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-10-04"
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-10-04"
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-10-04"
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-10-04"
-   }
-  ],
-  "topic": "jobs",
-  "topic_ta": "வேலை · தேர்வு",
-  "entities": [
-   "நாசிக் மாவட்ட நிர்வாகம்",
-   "சூரத் மாநகராட்சி (SMC)",
-   "பஞ்சாப்-ஹரியானா உயர் நீதிமன்றம் (SSSC)",
-   "மாவட்ட பஞ்சாயத்து பல்ராம்பூர்"
-  ],
-  "confidence": 0.8,
-  "flags": [],
-  "jobs": [
-   {
-    "org": "நாசிக் மாவட்ட நிர்வாகம்",
-    "post": "வருவாய் ஊழியர் (கோட்வால்)",
-    "count": "3",
-    "last_date": "2026-10-16",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/nashik-district-revenue-servant-recruitment-2026-apply-online-3070852"
-   },
-   {
-    "org": "சூரத் மாநகராட்சி (SMC)",
-    "post": "கௌரவ பயிற்சியாளர் (விளையாட்டு பயிற்சியாளர்)",
-    "count": "8",
-    "last_date": "2026-10-24",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/smc-sports-coach-recruitment-2026-apply-online-3070848"
-   },
-   {
-    "org": "பஞ்சாப்-ஹரியானா உயர் நீதிமன்றம் (SSSC)",
-    "post": "கிளார்க்",
-    "count": "1270",
-    "last_date": "2026-11-04",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/punjab-and-haryana-high-court-clerk-recruitment-2026-apply-online-for-1270-posts-3070846"
-   },
-   {
-    "org": "மாவட்ட பஞ்சாயத்து பல்ராம்பூர்",
-    "post": "பஞ்சாயத்து செயலாளர்",
-    "count": "10",
-    "last_date": "2026-10-23",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/district-panchayat-balrampur-panchayat-secretary-recruitment-2026-apply-offline-for-10-posts-3070845"
-   },
-   {
-    "org": "பிருகன்மும்பை மாநகராட்சி (BMC)",
-    "post": "சிகிச்சை ஒருங்கிணைப்பாளர் (Treatment Organizer)",
-    "count": "25",
-    "last_date": "2026-10-09",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/bmc-treatment-organizer-recruitment-2026-apply-online-for-25-posts-3070842"
-   },
-   {
-    "org": "கொங்கண் ரயில்வே கழகம் (KRCL)",
-    "post": "ஜூனியர் தொழில்நுட்ப உதவியாளர் (மெக்கானிக்கல்)",
-    "count": "10",
-    "last_date": "2026-10-21",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/krcl-junior-technical-assistant-mechanical-recruitment-2026-walkin-for-10-posts-3070838"
-   },
-   {
-    "org": "தெற்கு ரயில்வே ஆட்சேர்ப்பு பிரிவு (RRC)",
-    "post": "கலாச்சார ஒதுக்கீடு - பரத நாட்டியம் & மிருதங்கம்",
-    "count": "2",
-    "last_date": "2026-11-02",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/rrc-southern-railway-cultural-quota-recruitment-2026-apply-online-3070836"
-   },
-   {
-    "org": "இந்திய இரும்பு எஃகு ஆணையம் (SAIL CMLO)",
-    "post": "இளம் தொழில்நுட்ப நிபுணர்கள்",
-    "count": "4",
-    "last_date": "2026-10-22",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/sail-cmlo-young-professionals-recruitment-2026-apply-online-3070833"
-   },
-   {
-    "org": "இந்திய தொழில்நுட்பக் கழகம் ஜோத்பூர் (IIT Jodhpur)",
-    "post": "அறிவியல் அலுவலர் (கால்நடை மருத்துவம்)",
-    "count": "1",
-    "last_date": "2026-10-21",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/iit-jodhpur-scientific-officer-recruitment-2026-apply-online-3070831"
-   },
-   {
-    "org": "சத்தீஸ்கர் SAGES",
-    "post": "விரிவுரையாளர், உதவி ஆசிரியர் மற்றும் பலர்",
-    "count": "1812",
-    "last_date": "2026-10-21",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/chhattisgarh-sages-recruitment-2026-apply-online-for-1812-lecturer-assistant-teacher-and-more-posts-3070827"
-   },
-   {
-    "org": "சத்தீஸ்கர் SSB (CGSSB)",
-    "post": "வனக் காவலர் (Forest Guard)",
-    "count": null,
-    "last_date": "2026-10-26",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/cgssb-forest-guard-exam-date-2026-3070790"
-   },
-   {
-    "org": "பணியாளர் தேர்வு ஆணையம் (SSC)",
-    "post": "ஜூனியர் இன்ஜினியர் (JE)",
-    "count": "1748",
-    "last_date": null,
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/ssc-junior-engineer-je-exam-date-2026-3070804"
-   }
-  ],
-  "image": null,
-  "status": "published",
-  "published_at": "2026-10-04T08:05+05:30",
-  "created_ts": 1791081356.7102237,
-  "audio": "data/audio/jobs_20261004.mp3"
- },
- {
-  "headline": "தராபுரத்தில் பயிர்க் கடன் தள்ளுபடி திட்டம் குறித்து விவசாயிகள் அதிருப்தி",
-  "lines": [
-   "தமிழ்நாட்டின் தராபுரம் பகுதியில் உள்ள விவசாயிகள், அரசின் பயிர்க் கடன் தள்ளுபடி திட்டம் தொடர்பாக அதிருப்தி தெரிவித்துள்ளனர்.",
-   "இந்தத் திட்டத்தில் அரசு சில மாற்றங்களைச் செய்துள்ளதாக விவசாயிகள் தெரிவிக்கின்றனர்.",
-   "இது குறித்து ஒரு சமூகத் தலைவர், இந்த மாற்றங்கள் விவசாயிகளிடையே குழப்பத்தை மட்டுமே அதிகரித்துள்ளதாகக் கூறினார்.",
-   "கடன் தள்ளுபடி திட்டத்தின் விதிமுறைகளில் உள்ள தெளிவின்மை, பல விவசாயிகளைப் பாதிப்பதாக அவர் தெரிவித்தார்.",
-   "இந்த விவகாரத்தில் தமிழ்நாடு அரசு இதுவரை அதிகாரப்பூர்வமாக எந்த விளக்கமும் அளிக்கவில்லை."
-  ],
-  "closing": "பயிர்க் கடன் தள்ளுபடி திட்டங்களில் ஏற்படும் மாற்றங்கள் தொடர்பான விவசாயிகளின் குறைகள் தொடர்ந்து எழுந்து வருகின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தராபுரம்",
-   "தமிழ்நாடு அரசு",
-   "விவசாயிகள்",
-   "பயிர்க் கடன் தள்ளுபடி திட்டம்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Dharapuram farmers unhappy over crop loan waiver scheme changes",
-   "lines": [
-    "Farmers in the Dharapuram area of Tamil Nadu have expressed unhappiness over the state government's crop loan waiver scheme.",
-    "Farmers say the government has made certain changes to the scheme.",
-    "A community leader said these changes have only increased confusion among farmers.",
-    "He said the lack of clarity in the waiver scheme's rules is affecting many farmers.",
-    "The Tamil Nadu government has not yet issued an official clarification on the matter."
-   ],
-   "closing": "Farmers' grievances over changes to crop loan waiver schemes continue to surface."
-  },
-  "front_cat": "routine",
-  "image_query": "tamil nadu farmers agriculture field",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "f6de774b8f0e",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-04T08:05+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/dharapuram-farmers-unhappy-over-tn-governments-approach-on-crop-loan-waiver/article71541041.ece"
-  ],
-  "image": {
-   "url": "data/bank/agri01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/f6de774b8f0e.mp3",
-  "created_ts": 1791081323.3877232,
-  "status": "published"
- },
- {
-  "headline": "விடுதலைச் சிறுத்தைகள் செயல்பாட்டாளர் கொலை வழக்கில் கும்பல் கைது",
-  "lines": [
-   "விடுதலைச் சிறுத்தைகள் கட்சியின் செயல்பாட்டாளர் ஒருவர் கொலை செய்யப்பட்ட வழக்கில் காவல் துறையினர் கும்பல் ஒன்றைக் கைது செய்துள்ளனர்.",
-   "கைது செய்யப்பட்டவர்கள் வேலூர் மத்திய சிறையில் அடைக்கப்பட்டுள்ளனர் என காவல் துறை தெரிவித்துள்ளது.",
-   "கொலை வழக்கு தொடர்பாக காவல் துறை தொடர்ந்து விசாரணை நடத்தி வருகிறது.",
-   "வழக்கில் கைது செய்யப்பட்டவர்கள் தற்போது குற்றம் சாட்டப்பட்டவர்களாகவே கருதப்படுகின்றனர்.",
-   "வழக்கின் மேலும் விவரங்கள் விசாரணை முன்னேறும்போது வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்த வழக்கில் மேலும் யாரேனும் தொடர்புடையவர்களைக் கைது செய்ய காவல் துறை தொடர்ந்து விசாரணை நடத்தி வருகிறது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "விடுதலைச் சிறுத்தைகள் கட்சி",
-   "வேலூர் மத்தியச் சிறை",
-   "காவல்துறை",
-   "கொலை வழக்கு"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Gang arrested in connection with murder of VCK functionary",
-   "lines": [
-    "Police have arrested a gang in connection with the murder of a functionary of the Viduthalai Chiruthaigal Katchi.",
-    "The arrested persons have been lodged at the Central Prison in Vellore, police said.",
-    "Police are continuing their investigation into the murder case.",
-    "Those arrested in the case are currently being treated as accused.",
-    "Further details of the case are expected to emerge as the investigation progresses."
-   ],
-   "closing": "Police continue their investigation to arrest any other persons connected with the case.",
-   "closing_type": "watch"
-  },
-  "id": "89fe840f7215",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-04T08:04+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/gang-held-in-connection-with-murder-of-vck-functionary/article71540814.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/89fe840f7215.mp3",
-  "created_ts": 1791081277.105167,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "இந்தியாவின் அந்நிய செலாவணி கையிருப்பு 18.3 பில்லியன் டாலர் வீழ்ச்சி",
-  "lines": [
-   "செப்டம்பர் இருபத்தைந்தாம் தேதியுடன் முடிந்த வாரத்தில் இந்தியாவின் அந்நிய செலாவணி கையிருப்பு 18.34 பில்லியன் டாலர் குறைந்து, 747.56 பில்லியன் டாலராக பதிவானது.",
-   "இது தொடர்ச்சியாக மூன்றாவது வாரமாக கையிருப்பு குறைந்து வருவதைக் காட்டுகிறது.",
-   "செப்டம்பர் நான்காம் தேதி பதிவான 785.71 பில்லியன் டாலர் உச்ச அளவிலிருந்து, மூன்று வாரங்களில் மொத்தம் 38.15 பில்லியன் டாலர் குறைந்துள்ளது.",
-   "ரூபாய் மதிப்பைப் பாதுகாக்க இந்திய ரிசர்வ் வங்கி அந்நிய செலாவணிச் சந்தையில் தலையிட்டதால் இந்தச் சரிவு ஏற்பட்டதாகத் தெரிவிக்கப்படுகிறது.",
-   "அடுத்த வார அறிக்கையில் கையிருப்பு நிலை மேலும் குறையுமா என்பது கவனிக்கப்பட வேண்டும்."
-  ],
-  "closing": "ரூபாய் மதிப்பில் ஏற்படும் ஏற்ற இறக்கங்களைக் கட்டுப்படுத்த, இந்திய ரிசர்வ் வங்கி அவ்வப்போது அந்நிய செலாவணிச் சந்தையில் தலையிடுவது வழக்கமான நடைமுறையாகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "இந்திய ரிசர்வ் வங்கி",
-   "ரூபாய்",
-   "அந்நிய செலாவணி கையிருப்பு",
-   "இந்தியா"
-  ],
-  "confidence": 0.8,
-  "en": {
-   "headline": "India's Forex Reserves Fall By 18.3 Billion Dollars",
-   "lines": [
-    "In the week ended September 25, India's foreign exchange reserves fell by 18.34 billion dollars to 747.56 billion dollars.",
-    "This marks the third consecutive weekly decline in the reserves.",
-    "The reserves have dropped a total of 38.15 billion dollars over three weeks from their record high of 785.71 billion dollars recorded on September 4.",
-    "The decline is reported to be due to the Reserve Bank of India intervening in the foreign exchange market to defend the rupee.",
-    "It remains to be seen whether the reserves will decline further in the next weekly report."
-   ],
-   "closing": "The Reserve Bank of India routinely intervenes in the foreign exchange market to control fluctuations in the rupee's value."
-  },
-  "front_cat": "routine",
-  "image_query": "Reserve Bank of India building",
-  "wiki_subject": "Reserve Bank of India",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "4f13973d1a89",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-04T08:02+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/forex/forex-news/indias-forex-reserves-fall-18-3-bn-as-rbi-steps-in-to-defend-rupee/articleshow/134650624.cms"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/500px-Seal_of_the_Reserve_Bank_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Reserve Bank of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/4f13973d1a89.mp3",
-  "created_ts": 1791081177.9845424,
-  "status": "published"
- },
- {
-  "headline": "டி-மார்ட் வருவாய் இரண்டாம் காலாண்டில் 18% உயர்வு; கடைகள் 518-ஆக",
-  "lines": [
-   "ஏவென்யூ சூப்பர்மார்ட்ஸ் நிறுவனத்தின் டி-மார்ட் கடை வரிசை, நடப்பு நிதியாண்டின் இரண்டாம் காலாண்டில் வருவாய் வளர்ச்சியைப் பதிவு செய்துள்ளது.",
-   "கடந்த ஆண்டு இதே காலாண்டில் ரூ.16,218.79 கோடியாக இருந்த வருவாய், இந்த முறை ரூ.19,206.18 கோடியாக உயர்ந்துள்ளது.",
-   "இது முந்தைய ஆண்டுடன் ஒப்பிடும்போது 18.4 சதவீத வளர்ச்சியைக் காட்டுகிறது என நிறுவன தரவுகள் தெரிவிக்கின்றன.",
-   "முந்தைய காலாண்டில் பதிவான ரூ.18,343.49 கோடியுடன் ஒப்பிடும்போது, இது 4.7 சதவீத உயர்வாகும்.",
-   "நிறுவனத்தின் கடைகளின் எண்ணிக்கை தற்போது 518 ஆக உயர்ந்துள்ளது என அறிவிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "ஏவென்யூ சூப்பர்மார்ட்ஸ் நிறுவனம் டி-மார்ட் பெயரில் நாடு முழுவதும் தள்ளுபடி சில்லறை விற்பனை அங்காடிகளை நடத்தி வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "ஏவென்யூ சூப்பர்மார்ட்ஸ்",
-   "டி-மார்ட்",
-   "காலாண்டு வருவாய்",
-   "சில்லறை விற்பனை"
-  ],
-  "confidence": 0.85,
-  "en": {
-   "headline": "D-Mart parent reports 18% revenue growth in second quarter",
-   "lines": [
-    "Avenue Supermarts, which operates the D-Mart retail chain, has reported revenue growth for the second quarter of the current financial year.",
-    "Revenue rose to Rs 19,206.18 crore this quarter from Rs 16,218.79 crore in the same quarter last year.",
-    "This marks an 18.4 percent growth compared to the same period last year, as per company data.",
-    "Compared to the previous quarter's revenue of Rs 18,343.49 crore, this represents a 4.7 percent rise.",
-    "The company's total store count has now grown to 518, according to the announcement."
-   ],
-   "closing": "Avenue Supermarts operates discount retail stores under the D-Mart brand across the country."
-  },
-  "front_cat": "routine",
-  "image_query": "DMart supermarket India",
-  "wiki_subject": "Avenue Supermarts",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "1b72634ac675",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-04T08:02+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/earnings/d-mart-q2-revenue-rise-18-pc-to-rs-19206-cr-store-count-at-518/articleshow/134656472.cms"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Dmart_tirupati_%28cropped%29.jpg/3840px-Dmart_tirupati_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · DMart",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/DMart",
-   "symbolic": false
-  },
-  "audio": "data/audio/1b72634ac675.mp3",
-  "created_ts": 1791081144.81219,
-  "status": "published"
- },
- {
-  "headline": "மதுராந்தகம், தாராபுரம் இடைத்தேர்தல் பிரசாரம் இன்று நிறைவு",
-  "lines": [
-   "மதுராந்தகம் மற்றும் தாராபுரம் சட்டமன்றத் தொகுதிகளுக்கான இடைத்தேர்தல் பிரசாரம் இன்றுடன் நிறைவடைகிறது.",
-   "இரு தொகுதிகளிலும் பல்வேறு கட்சிகளைச் சேர்ந்த வேட்பாளர்கள் கடந்த சில நாட்களாகத் தீவிரப் பிரச்சாரத்தில் ஈடுபட்டனர்.",
-   "தேர்தல் ஆணையத்தின் விதிமுறைகளின்படி பிரசார நேரம் இன்றுடன் முடிவுக்கு வருகிறது.",
-   "வாக்காளர்களிடையே ஆதரவைத் திரட்டும் நோக்கில் கட்சித் தலைவர்கள் இறுதிக் கட்ட பிரச்சாரத்தில் கலந்துகொண்டனர்.",
-   "அடுத்த கட்டமாக வாக்குப்பதிவு நடைபெறவுள்ளது, அதன் விவரங்களை தேர்தல் ஆணையம் அறிவிக்கும்."
-  ],
-  "closing": "இரு தொகுதிகளுக்கான வாக்குப்பதிவு எப்போது நடைபெறும் என்பதை தேர்தல் ஆணையத்தின் அறிவிப்புக்காகக் காத்திருக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "மதுராந்தகம்",
-   "தாராபுரம்",
-   "தேர்தல் ஆணையம்"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Madurantakam, Tharapuram bypoll campaign ends today",
-   "lines": [
-    "Campaigning for the Madurantakam and Tharapuram assembly bypolls comes to an end today.",
-    "Candidates from several parties in both constituencies have been campaigning intensively over the past few days.",
-    "As per Election Commission rules, the campaign period concludes today.",
-    "Party leaders took part in last-minute campaigning to garner voter support.",
-    "The next stage is polling, with details to be announced by the Election Commission."
-   ],
-   "closing": "Voters and observers await the Election Commission's announcement on the polling date for both constituencies."
-  },
-  "front_cat": "election_major",
-  "image_query": "election campaign India",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "33fde4d1c4f6",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-04T08:01+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/03/campaigning-for-the-maduranthakam-and-dharapuram-by-elections-concludes-today"
-  ],
-  "image": {
-   "url": "data/bank/politics03.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/33fde4d1c4f6.mp3",
-  "created_ts": 1791081066.9065943,
   "status": "published"
  }
 ]
