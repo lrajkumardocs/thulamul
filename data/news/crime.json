@@ -1,5 +1,68 @@
 [
  {
+  "headline": "மதுரவாயில் மேம்பாலச் சாலையில் விபத்து இருவர் பலி",
+  "lines": [
+   "சென்னை மதுரவாயில் மேம்பாலச் சாலையில் இருசக்கர வாகனம் லாரியில் மோதி விபத்து நடந்தது.",
+   "விபத்தில் இருசக்கர வாகனத்தில் சென்ற யுகேஷ் குமார் மற்றும் பரதி குமார் ஆகியோர் உயிரிழந்தனர்.",
+   "இரும்புக் கம்பிகளை ஏற்றிச் சென்ற லாரியில் வாகனம் மோதியதாகக் காவல்துறை தெரிவித்தது.",
+   "வாகனத்தின் கட்டுப்பாட்டை இழந்ததால் இந்த விபத்து ஏற்பட்டதாகத் தகவல்கள் தெரிவிக்கின்றன.",
+   "சம்பவம் தொடர்பாக காவல்துறை வழக்குப்பதிவு செய்து விசாரணை நடத்தி வருகிறது."
+  ],
+  "closing": "காவல்துறையின் விசாரணை முடிவை அடுத்து மேலும் தகவல்கள் வெளியாக உள்ளன.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சென்னை",
+   "மதுரவாயில்",
+   "இரும்புக் கம்பிகள் லாரி",
+   "காவல் துறை"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Two killed in accident on Maduravoyal bypass road",
+   "lines": [
+    "A two-wheeler collided with a lorry on the Maduravoyal bypass road in Chennai.",
+    "Both riders on the two-wheeler died in the accident.",
+    "Police said the vehicle hit a lorry that was transporting iron rods.",
+    "Reports indicate the rider lost control of the vehicle before the collision.",
+    "Police have registered a case and are investigating the incident."
+   ],
+   "closing": "Further details are expected once the police investigation concludes."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1b99a62bfa83",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-12T08:24+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/two-killed-in-accident-on-maduravoyal-bypass-road/article71571054.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/1b99a62bfa83.mp3",
+  "created_ts": 1791773684.8778703,
+  "status": "published"
+ },
+ {
   "headline": "வேலூரில் 450 கிலோ செவ்வந்தனம் பறிமுதல், ஆறு பேர் கைது",
   "lines": [
    "தமிழ்நாடு வேலூர் மாவட்டத்தில் காவல்துறையினர் நடத்திய நடவடிக்கையில் 450 கிலோ செவ்வந்தனம் பறிமுதல் செய்யப்பட்டது.",
@@ -1238,69 +1301,6 @@
   "wiki_subject": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "அரியலூரில் மூன்று தொழிலாளர்கள் மூச்சுத்திணறலால் பலி, வீட்டு உரிமையாளர் கைது",
-  "lines": [
-   "அரியலூர் மாவட்டத்தில் ஒரு வீட்டில் மூன்று தொழிலாளர்கள் மூச்சுத்திணறல் காரணமாக உயிரிழந்தனர்.",
-   "இச்சம்பவம் தொடர்பாக காவல் துறையினர் அந்த வீட்டின் உரிமையாளரை தடுத்து வைத்து விசாரணை நடத்தி வருகின்றனர்.",
-   "இறந்த மூவரும் அந்த வீட்டில் பணிபுரிந்து வந்த தொழிலாளர்கள் என காவல் துறை தெரிவித்துள்ளது.",
-   "மூச்சுத்திணறலுக்கு வழிவகுத்த சரியான காரணம் குறித்து இதுவரை அதிகாரப்பூர்வமாக எதுவும் தெரிவிக்கப்படவில்லை.",
-   "சம்பவம் தொடர்பான முழு விசாரணை தொடர்ந்து நடைபெற்று வருவதாக காவல் துறை அறிவித்துள்ளது."
-  ],
-  "closing": "குற்றம் சாட்டப்பட்ட வீட்டு உரிமையாளர் மீதான விசாரணையில் என்ன தகவல் வெளிவரும் என்பது கவனிக்கத்தக்கது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "அரியலூர்",
-   "தொழிலாளர்கள்",
-   "காவல்துறை",
-   "வீட்டு உரிமையாளர்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Three workers die of suffocation in Ariyalur, house owner detained",
-   "lines": [
-    "Three workers died of suffocation inside a house in Ariyalur district.",
-    "Police have detained the owner of the house in connection with the incident and are questioning him.",
-    "Police said all three deceased were workers employed at the house.",
-    "The exact cause that led to the suffocation has not been officially disclosed so far.",
-    "Police stated that a full investigation into the incident is continuing."
-   ],
-   "closing": "It remains to be seen what emerges from the investigation into the accused house owner."
-  },
-  "front_cat": "mass_casualty",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "42d1bee326d8",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-04T07:58+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/three-workers-die-of-suffocation-in-ariyalur-police-detain-house-owner/article71540650.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/42d1bee326d8.mp3",
-  "created_ts": 1791080942.8441694,
   "status": "published"
  }
 ]
