@@ -1,24 +1,25 @@
-[fetch] RBI: 6 புதியவை
+[expire] 1cb8e889caa4
+[fetch] RBI: 7 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 21 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 22 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
-[fetch] The Hindu Sport: 27 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
-[fetch] Cinema Express: 28 புதியவை
-[fetch] The Hindu Tech: 15 புதியவை
+[fetch] ESPNcricinfo: 27 புதியவை
+[fetch] The Hindu Sport: 30 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
+[fetch] Cinema Express: 27 புதியவை
+[fetch] The Hindu Tech: 16 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 12 புதியவை
+[fetch] The Hindu Health: 13 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 2 புதியவை
+[fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
@@ -28,15 +29,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 13 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 20 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,55 +57,50 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc7b836dfd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f713483dd90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 20 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 681 → நிகழ்வுகள் 622
-[triage] 622 → 74 | காலி: india:4, court:3, govt:3, crime:3, cinema:3
-[skip] இது கர்நாடக உயர் நீதிமன்றத்தின் உள்ளூர் வழக்கு; தமிழ்நாட்டுட
-[skip] This is a Hollywood/Marvel Studios production, not a Tamil c
-[skip] வெளிநாட்டு உள்நாட்டுத் திரிகடல் சர்திக சாதனம். தமிழ்நாடு/இந்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] காவிரி பின்தங்கிய நீர் கோரிக்கை, உச்ச நீ → காவிரி பின்தங்கிய நீர் கோரிக்கை, உச்ச நீ
-[தரம்] தமிழ் அல்லாத எழுத்து: ।; வரி 1 முற்றுப்புள்ளி இல்லை → ஒரு திருத்தம்
-[tts-edge] cff16a35cd25: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காவிரி பின்தங்கிய நீர் கோரிக்கை, உச்ச நீதிமன்றம் பார்வையில் | விளக்கம்
-[திருத்தம்] அதிமுக எம்எல்ஏக்கள் ராஜினாமா ஏற்பு செல்ல → அதிமுக எம்எல்ஏக்களின் ராஜினாமா ஏற்பு செல
-[tts-edge] 300dbb191f9a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அதிமுக எம்எல்ஏக்களின் ராஜினாமா ஏற்பு செல்லும் என உயர் நீதிமன்றம் தீர்ப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] அதிமுக 6 எம்.எல்.ஏ. ராஜிநாமா வழக்கில் உயர்நீதிமன்றம் தீர்ப்பு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; ரூபாய் மதிப்பு, ரிசர்வ் வங
-[திருத்தம்] இந்திய ரூபாய் மதிப்பு இரண்டு நாளில் 177  → இந்திய ரூபாய் இரண்டு நாளில் 177 பைசா உயர
-[publish] இந்திய ரூபாய் இரண்டு நாளில் 177 பைசா உயர்வு — டாலருக்கு எதிராக
-[திருத்தம்] 2026இல் உலக வளர்ச்சி 3.1 சதவீதம் என ஐஎம் → 2026இல் உலக வளர்ச்சி 3.1 சதவீதம் என ஐএம்
-[தரம்] தமிழ் அல்லாத எழுத்து: এরা → ஒரு திருத்தம்
-[publish] 2026இல் உலக வளர்ச்சி 3.1 சதவீதம் என ஐஎம்எஃப் மதிப்பீடு; போர் மற்றும் கடன் அபாயம் எச்சரிக்கை
-[skip] இது கேரள சட்டமன்றத்தில் எழுப்பப்பட்ட கேரள மாநிலத்தின் உள்ளூர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfywd6ifNHJwW1ar89TN3'}
-[image] களஞ்சியம் (3 சொல்): பள்ளிக்கரணை சதுப்புநிலம் பாதிப்பு 
-[publish] பள்ளிக்கரணை சதுப்புநிலம் பாதிப்பு மண்டலம் 36 சர்வே எண்களுக்குக் குறைப்பு பரிந்துரை
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfywoPpMe9iThVrw3WvqR'}
-[publish] தனியார் மின்சார கொள்முதல் கையூட்டிற்காகவா என சீமான் கேள்வி
-[hold] மின் வாரியத் தனியார்மயமாக்கல் குற்றச்சாட்டு - விஜய் மீது எடப்பாடி பழனிசாமி கண்டனம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; உடல் உரை, சூழ
-[image] களஞ்சியம் (2 சொல்): பள்ளிகளில் வாரம் முழுவதும் உடற்கல்
-[publish] பள்ளிகளில் வாரம் முழுவதும் உடற்கல்வி வகுப்பு அறிவிப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfyx9DKNkoiK1kd6ooGtT'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyxCQMExRsr42UNV2mQt'}
-[publish] அதிமுகவிலிருந்து மேலும் பதினைந்து எம்.எல்.ஏக்கள் வரவிருப்பதாக செங்கோட்டையன் கூற்று
-[filler] tech கட்டுரை
+[run] புதியவை 715 → நிகழ்வுகள் 660
+[triage] 660 → 51 | காலி: india:4, crime:3, cinema:3, sports:3, govt:2
+[skip] வெளிநாட்டுப் படம் (ஆங்கிலம்), தமிழ்நாட்டு/இந்திய வாசகருக்கு 
+[skip] தமிழ்நாட்டு வாசகர்களுக்குப் பொருத்தமான விளையாட்டு செய்தி அல்
+[திருத்தம்] ஐபிஓ விதிகளில் தளர்வு 2027 மார்ச் வரை நீ → செபி ஐபிஓ தளர்வு விதிகளை மார்ச் 2027 வரை
+[tts-edge] aefc3398ae0f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] செபி ஐபிஓ தளர்வு விதிகளை மார்ச் 2027 வரை நீட்டிப்பு
+[skip] இது பாஜக, ஜேடி(யூ) கட்சிகள் காங்கிரஸ் மீது எழுப்பிய வழக்கமான
+[skip] ஒடிசாவின் கலஹண்டி வனத்துறை மற்றும் டேராடூன் வானொலி நிலையத்தி
+[skip] இது ஆந்திரப் பிரதேசம் நெல்லூர் மாவட்டத்தின் உள்ளூர்த் திட்டம
+[skip] மூலத்தில் உண்மையான செய்தி உள்ளடக்கம் இல்லை - தலைப்புகள் 1, 2
+[skip] இது கேரளாவின் கொச்சி மாநகராட்சி தொடர்பான உள்ளூர் நிர்வாக விவ
+[skip] இது ஒரு குறிப்பிட்ட மாநிலத்தின் உள்ளூர் சமூக அமைப்பு தொடர்பா
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three compulsory P.T. periods a week for school 
+[skip] வழிபாட்டுத் திருவிழா பற்றிய பொதுவான கலாச்சார கட்டுரை — அரசு 
+[skip] வெளிநாட்டுச் செய்திதான். தமிழ்நாடு/இந்திய வாசகরைப் பாதிக்கும
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tender for pathway for persons with disabilities
+[திருத்தம்] ஜெயிலர் 2 액션் இயக்குநர் சேதன் விசூசாவின் → ஜெயிலர் 2 நடிகர் ரஜினிகாந்த் மீது நடிப்ப
+[தரம்] தமிழ் அல்லாத எழுத்து: কর → ஒரு திருத்தம்
+[tts-edge] b7484dba671a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஜெயிலர் 2 நடிகர் ரஜினிகாந்த் மீது நடிப்பாளர் சேதன் டி' சூசாவின் வியப்பு
+[skip] வெளிநாட்டு cricket match — Australia vs South Africa. தமிழ்ந
+[skip] Rajasthan State (RPSC) — தமிழ்நாட்டு வாசகரைப் பாதிக்காத வேலை
+[தரம்] தமிழ் அல்லாத எழுத்து: शনাৌ → ஒரு திருத்தம்
+[publish] தொற்றுநோய்கள் புற்றுநோயின் 12% காரணம்: ஆய்வு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TNSTC to operate nearly 15,000 buses from Chenna
+[திருத்தம்] வீடியோ கேமை திரையில் பெயர்த்த 'Street Fi → 'Street Fighter' படத்தில் விஜயதம் தல்சிம
+[publish] 'Street Fighter' படத்தில் விஜயதம் தல்சிம் பாத்திரம் செய்தார் — வி஡ியோ விளையாட்டு உருவக்கதை திரைப்படமாக
+[skip] வெளிநாட்டுத் தদேশীய ক্রিকেট লীগ (বাংলাদেশ এনসিএল) — তমिल வாச
+[filler] sports கட்டுரை
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13248 · சென்செக்ஸ் 72598
+[market] தங்கம் 22K ₹13143 · சென்செக்ஸ் 73034
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 10
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 4
