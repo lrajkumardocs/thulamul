@@ -1,11 +1,12 @@
-[fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[expire] 0481b2e0eac4
+[fetch] RBI: 5 புதியவை
+[fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 21 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] BBC World: 20 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
 [fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 26 புதியவை
 [fetch] The Hindu Cinema: 7 புதியவை
@@ -13,10 +14,10 @@
 [fetch] The Hindu Tech: 11 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 9 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 23 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -56,9 +57,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f797a3d73d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0ea496a8d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,52 +68,54 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 668 → நிகழ்வுகள் 604
-[triage] 604 → 89 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இவை தமிழ்நாட்டில் அமைந்த நிறுவனங்கள் அல்ல — IIT (BHU) வாரணாச
-[தரம்] மூலத்தில் இல்லாத எண்: 50 → ஒரு திருத்தம்
-[tts-edge] 9194a26009e7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எலும்பு நோய் விழிப்புணர்வு முகாம் அக்டோபர் 20-ல்
-[skip] வெளிநாட்டு ஆங்கிலப் பொருளாக்கம். தமிழ்நாட்டு/இந்திய சினிமா அ
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர்பான செய்தி. இங்கிலாந்து கிரிக்கெ
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டின் நிரந்தர ஆளுநராக அர்ல
-[tts-edge] 9125e96af7e2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டின் நிரந்தர ஆளுநராக அர்லேகர் நியமனம்
+[run] புதியவை 654 → நிகழ்வுகள் 602
+[triage] 602 → 62 | காலி: tn:4, india:4, govt:4, crime:4, court:3
+[skip] ஆந்திரப் பிரதேசம் (ANGRAU) மற்றும் கர்நாடகா (ESIC கலபுரகி) ஆ
+[skip] வெளிநாட்டு தொலைக்காட்சிப் பணிக்காரர்; தமிழ்நாடு/இந்தியா தொடர
+[skip] rugby news from international sports; no direct connection t
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] போர்நிறுத்தத்திற்குப் பின்னும் ஆறு எரிசக்தி தளங்கள் தாக்கப்பட்டதாக ஜெலன்ஸ்கி தெரிவிப்பு
-[திருத்தம்] ரியாத் விமான நிலையத் தாக்குதலில் 13 பேர் → ரியாத் விமான நிலையத் தாக்குதலில் 13 பேர்
-[publish] ரியாத் விமான நிலையத் தாக்குதலில் 13 பேர் பலி, சவூதி கடுமையான பதிலுக்கு வாக்களிப்பு
+[tts-edge] a85cd121dfb0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பிரான்ஸ் பள்ளியில் சுட்டுத் தாக்குதல், இருவர் காயம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyPf5JvMztFqxMxJKicG'}
+[skip] பிற மாநிலத்தின் உள்ளூர் அரசியல் — டெல்லி தேர்தல் ஆணையர் மீதா
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இந்திய உள்நாட்டு அரசியல் - தேர்தல் ஆணையம் பற்றிய போராட்டம். 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyPmwNd1ytSdgNzec3hW'}
+[skip] தமிழ்நாட்டு வாசகருக்கு முதன்முறை பாதிப்பு இல்லை. இந்திய அரசு
+[திருத்தம்] சேலத்தில் ரூ.15 கோடி மதிப்பில் 600 கிலோ  → சேலத்தில் ரூ.15 கோடி மதிப்பிலான 600 கிலோ
+[image] களஞ்சியம் (2 சொல்): சேலத்தில் ரூ.15 கோடி மதிப்பிலான 60
+[tts-edge] 550f9da9b724: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சேலத்தில் ரூ.15 கோடி மதிப்பிலான 600 கிலோ வெள்ளிப் பொருள்கள் கொள்ளை
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது. பலஸ்தீன-இஸ்ரேல் மோதல் உலக ச
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[தரம்] தமிழ் அல்லாத எழுத்து: फএটস → ஒரு திருத்தம்
-[hold] காவிரி நீர் பற்றாக்குறை வழக்கில் உச்ச நீதிமன்றம் தீர்ப்பு ஒத்திவைப்பு
-[publish] வான்தள சதி குற்றச்சாட்டில் ஈரானியர் இருவர் மீது பிரிட்டன் தடை
-[publish] பிரிட்டன் ராணுவத் தளங்களில் சம்பவம், ஈரான் மீது சந்தேகம்
-[skip] எத்தியோப்பியாவின் உள்நாட்டுப் பிராந்திய மோதல் தொடர்பான சிறிய
-[skip] இது ரிசர்வ் வங்கியின் வழக்கமான பணவியல் சந்தை நடவடிக்கை (VRRR
-[skip] இது அமெரிக்க உள்நாட்டு அரசியல் சம்பவம்; தமிழ்நாடு/இந்திய வாச
-[skip] இது ரிசர்வ் வங்கியின் வழக்கமான அரசுப் பத்திரங்கள் ஏல அறிவிப்
-[skip] மூலத்தில் உண்மையான புள்ளிவிவரங்கள் இல்லை, வெறும் தரவு வெளியீ
-[திருத்தம்] பாலிகேப் இந்தியா பங்குகள் டிசம்பர் 30ல்  → பாலிகேப் இந்தியா டிசம்பர் 30ல் வழித்தோன்
-[தரம்] தமிழ் அல்லாத எழுத்து: ईইএরসাટล → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): பாலிகேப் இந்தியா டிசம்பர் 30ல் வழி
-[publish] பாலிகேப் இந்தியா டிசம்பர் 30ல் வழித்தோன்றல் பிரிவிலிருந்து நீக்கம்; திவால் நடவடிக்கைக்குத் தடை
-[திருத்தம்] ஆந்திர முதல்வரை சந்திக்கும் விஜய் - காவி → ஆந்திரப் பிரதேச முதல்வரை சந்திக்கும் விஜ
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ஆந்திரப் பிரதேச முதல்வரை சந்திக்கு
-[publish] ஆந்திரப் பிரதேச முதல்வரை சந்திக்கும் விஜய் - கோதாவரி-காவிரி இணைப்புத் திட்டம்
-[திருத்தம்] இந்திய எரிவாயு பரிமாற்ற நிறுவனத்துக்கு ப → இந்திய வாயு பரிமாற்ற நிறுவனத்துக்கு ஐபিஓ
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): இந்திய வாயு பரிமாற்ற நிறுவனத்துக்க
-[publish] இந்திய வாயு பரிமாற்ற நிறுவனத்துக்கு ஐபிஓ வெளியீட்டுக்கு செபி ஒப்புதல்
-[comic] கதை முயற்சி 1 தோல்வி: Expecting ',' delimiter: line 36 column 4 (char 2363)
-[comic] கதை: அரியணைச் சூழ்ச்சி வெளிப்படுகிறது
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-13.png · நாள் 34
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹13247 · சென்செக்ஸ் 71925
+[திருத்தம்] இந்திய தொலைத்தொடர்பு துறை வருவாய் 88,796 → தொலைத்தொடர்பு துறை 9.19% வளர்ச்சি, வருவா
+[தரம்] தமிழ் அல்லாத எழுத்து: ়ি → ஒரு திருத்தம்
+[publish] தொலைத்தொடர்பு துறை 9.19% வளர்ச்சி, வருவாய் 88,796 கோடி — ரிலையன்ஸ் ஜியோ முன்னணியில்
+[திருத்தம்] மேற்கு வங்கம், தமிழகம், புதுச்சேரி இடைத் → மேற்கு வங்கம், தமிழ்நாடு, புதுச்சேரி இடை
+[publish] மேற்கு வங்கம், தமிழ்நாடு, புதுச்சேரி இடைத்தேர்தலில் ஆளும் கட்சிகளுக்கு வெற்றி
+[skip] தமிழ்நாட்டுச் செய்திதான் என்றாலும், 'world' துறையாகக் குறிப்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; செய்தியின் முழு விவரங்கள்,
+[தரம்] தமிழ் அல்லாத எழுத்து: ষ → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: சௌதியில் சிவராசா அனோஜனுக்கு மரண தண
+[publish] சௌதியில் சிவராசா அனோஜனுக்கு மரண தண்டனை மேன்முறையீடு தாக்கல்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyQC1JvwXcDQZzRcypuH'}
+[publish] தேர்தல் ஆணையர் போராட்டம் குறித்து திமுக மற்றும் காங்கிரஸ் இடையே வாக்குவாதம்
+[publish] தென் தீபகற்பத்தில் இரண்டு மூன்று நாட்களில் வடகிழக்குப் பருவமழை தொடக்கம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyQMNRRneUieDhvAagGf'}
+[image] களஞ்சியம் (2 சொல்): ஈரோடு மாவட்டம் குண்டேரிப்பாளையத்தி
+[publish] ஈரோடு மாவட்டம் குண்டேரிப்பாளையத்தில் சேற்றில் சிக்கி பெண் யானை உயிரிழப்பு
+[image] களஞ்சியம் (3 சொல்): தமிழ்நாடு ஊழல் தடுப்புத் துறை புதி
+[publish] தமிழ்நாடு ஊழல் தடுப்புத் துறை புதிய இயக்குநராக பிரேம் ஆனந்த் சின்ஹா பொறுப்பேற்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyQYkxK5uudcizi75VqK'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] விவசாய மின் இணைப்புகளுக்கு தனி ஃபீடர் அமைக்க மின்வாரியம் நடவடிக்கை
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 2
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: தேர்தல் ஆணையர் போராட்டத்தில் திமுக ஏன் இல்லை?
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹13199 · சென்செக்ஸ் 71925
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 10
