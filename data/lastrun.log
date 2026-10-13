@@ -1,23 +1,22 @@
-[expire] 1cb8e889caa4
 [fetch] RBI: 7 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
+[fetch] The Hindu TN: 24 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 22 புதியவை
+[fetch] BBC World: 25 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 27 புதியவை
+[fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 13 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 27 புதியவை
-[fetch] The Hindu Tech: 16 புதியவை
+[fetch] The Hindu Tech: 15 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 13 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 27 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -25,11 +24,11 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 2 புதியவை
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 20 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -57,50 +56,64 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f713483dd90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fec918c42d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 715 → நிகழ்வுகள் 660
-[triage] 660 → 51 | காலி: india:4, crime:3, cinema:3, sports:3, govt:2
-[skip] வெளிநாட்டுப் படம் (ஆங்கிலம்), தமிழ்நாட்டு/இந்திய வாசகருக்கு 
-[skip] தமிழ்நாட்டு வாசகர்களுக்குப் பொருத்தமான விளையாட்டு செய்தி அல்
-[திருத்தம்] ஐபிஓ விதிகளில் தளர்வு 2027 மார்ச் வரை நீ → செபி ஐபிஓ தளர்வு விதிகளை மார்ச் 2027 வரை
-[tts-edge] aefc3398ae0f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] செபி ஐபிஓ தளர்வு விதிகளை மார்ச் 2027 வரை நீட்டிப்பு
-[skip] இது பாஜக, ஜேடி(யூ) கட்சிகள் காங்கிரஸ் மீது எழுப்பிய வழக்கமான
-[skip] ஒடிசாவின் கலஹண்டி வனத்துறை மற்றும் டேராடூன் வானொலி நிலையத்தி
-[skip] இது ஆந்திரப் பிரதேசம் நெல்லூர் மாவட்டத்தின் உள்ளூர்த் திட்டம
-[skip] மூலத்தில் உண்மையான செய்தி உள்ளடக்கம் இல்லை - தலைப்புகள் 1, 2
-[skip] இது கேரளாவின் கொச்சி மாநகராட்சி தொடர்பான உள்ளூர் நிர்வாக விவ
-[skip] இது ஒரு குறிப்பிட்ட மாநிலத்தின் உள்ளூர் சமூக அமைப்பு தொடர்பா
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Three compulsory P.T. periods a week for school 
-[skip] வழிபாட்டுத் திருவிழா பற்றிய பொதுவான கலாச்சார கட்டுரை — அரசு 
-[skip] வெளிநாட்டுச் செய்திதான். தமிழ்நாடு/இந்திய வாசகরைப் பாதிக்கும
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tender for pathway for persons with disabilities
-[திருத்தம்] ஜெயிலர் 2 액션் இயக்குநர் சேதன் விசூசாவின் → ஜெயிலர் 2 நடிகர் ரஜினிகாந்த் மீது நடிப்ப
-[தரம்] தமிழ் அல்லாத எழுத்து: কর → ஒரு திருத்தம்
-[tts-edge] b7484dba671a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஜெயிலர் 2 நடிகர் ரஜினிகாந்த் மீது நடிப்பாளர் சேதன் டி' சூசாவின் வியப்பு
-[skip] வெளிநாட்டு cricket match — Australia vs South Africa. தமிழ்ந
-[skip] Rajasthan State (RPSC) — தமிழ்நாட்டு வாசகரைப் பாதிக்காத வேலை
-[தரம்] தமிழ் அல்லாத எழுத்து: शনাৌ → ஒரு திருத்தம்
-[publish] தொற்றுநோய்கள் புற்றுநோயின் 12% காரணம்: ஆய்வு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TNSTC to operate nearly 15,000 buses from Chenna
-[திருத்தம்] வீடியோ கேமை திரையில் பெயர்த்த 'Street Fi → 'Street Fighter' படத்தில் விஜயதம் தல்சிம
-[publish] 'Street Fighter' படத்தில் விஜயதம் தல்சிம் பாத்திரம் செய்தார் — வி஡ியோ விளையாட்டு உருவக்கதை திரைப்படமாக
-[skip] வெளிநாட்டுத் தদேশীய ক্রিকেট লীগ (বাংলাদেশ এনসিএল) — তমिल வாச
-[filler] sports கட்டுரை
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13143 · சென்செக்ஸ் 73034
+[run] புதியவை 695 → நிகழ்வுகள் 633
+[triage] 633 → 70 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இவை மும்பை/நவி மும்பையில் உள்ள IIT Bombay மற்றும் ACTREC ஆகி
+[தரம்] தமிழ் அல்லாத எழுத்து: ও → ஒரு திருத்தம்
+[tts-edge] bb20cc7fe795: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கேரளாவில் மூத்த குடிமக்களின் உரிமைகளைக் காக்க புதிய மசோதா
+[image] களஞ்சியம் (2 சொல்): தசரா வாரம்: தெலுங்கு திரையரங்குகளி
+[tts-edge] d5459b986250: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தசரா வாரம்: தெலுங்கு திரையரங்குகளில் நான்கு படங்கள் வெளியாகின
+[skip] வெளிநாட்டுத் தொடரம் — ஆஸ்திரேலிய அணியின் உள்ளூர் பேச்சு. தமி
+[திருத்தம்] எல்.முருகன் மத்திய அமைச்சர் பதவியையும் ர → எல்.முருகன் அமைச்சர் பதவியையும் ராஜ்யசபா
+[publish] எல்.முருகன் அமைச்சர் பதவியையும் ராஜ்யசபா இடத்தையும் ராஜினாமா செய்தார்; தீபாவளிக்கு முன் அமைச்சரவை மறுசீரமைப்பு சாத்தியம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] போப் லியோவுக்கு நுரையீரல் புற்றுநோய், அறுவை சிகிச்சை வெற்றி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfzy8b3S35u3FrUVnfTZX'}
+[skip] இந்தியத் தேசியப் பொருளாதார அரசியல் — தமிழ்நாட்டு மத்திய அமைச
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfzyBsYwv5DSxKawoCakQ'}
+[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு/இந்தியாவுடன் தொடர்பு 
+[திருத்தம்] விலைவாசி உயர்வு குறித்து திமுக தலைவர் ஸ் → விலைவாசி உயர்வு குறித்து ஸ்டாலின் விமர்ச
+[publish] விலைவாசி உயர்வு குறித்து ஸ்டாலின் விமர்சனம்
+[publish] முன்னாள் அமைச்சர் பொன்முடி மீதான பணமோசடி வழக்கு ரத்து
+[திருத்தம்] கிங்கீ அருகே காணாமல் போன சிறுமி தேடுதல்  → கிங்கீ அருகே காணாமல் போன ஏழு வயது சிறுமி
+[image] களஞ்சியம் (2 சொல்): கிங்கீ அருகே காணாமல் போன ஏழு வயது 
+[publish] கிங்கீ அருகே காணாமல் போன ஏழு வயது சிறுமி தேடுதல் இரண்டாம் நாளாகத் தொடர்கிறது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfzySW1pZu2p6HZZVCBaq'}
+[skip] மூலத்தில் தலைப்பு வரி மட்டுமே உள்ளது; விவரம், தேதி, இடம், மு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் விஜய் என்பவரை 'தமிழ்நாடு முதல்வர்' என்று தவறாகக் க
+[திருத்தம்] ஜியோ பிளாட்பாரம்ஸ் பங்கு வெளியீட்டுக்கு  → ஜியோ பிளாட்ஃபார்ம்ஸ் பங்கு வெளியீட்டுக்க
+[தரம்] தமிழ் அல்லாத எழுத்து: টিে → ஒரு திருத்தம்
+[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்கு வெளியீட்டுக்கு இருபது பில்லியன் டாலர் ஏலம்
+[திருத்தம்] ரூபாய் மதிப்பு ஏற்ற இறக்கத்தைக் கட்டுப்ப → ரூபாய் ஏற்ற இறக்கத்தைக் கட்டுப்படுத்த ரி
+[publish] ரூபாய் ஏற்ற இறக்கத்தைக் கட்டுப்படுத்த ரிசர்வ் வங்கி முயற்சி: நிர்மலா சீதாராமன்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] ஆந்திரப் மாநிலம் மற்றும் அதன் முதலமைச்சரின் உள்ளூர் அரசியல் 
+[skip] தமிழ்நாடு உள்நாட்டு அரசியல் — உலக செய்தி அல்ல. இந்தச் செய்தி
+[skip] இந்தியாவின் உள்நாட்டு அரசியல் — சிஜேபி என்ற இந்திய அரசியல் க
+[skip] UK-அமெரிக்கா உள்நாட்டு பாதுகாப்புக் கூற்று. தமிழ்நாடு/இந்திய
+[skip] சௌதி அரேபியா-யேமன் மோதல் தமிழ்நாடு வாசகரைப் பாதிக்காது. உலக 
+[publish] வேலூர் பாலாறு நீர்ப்பாசனக் குளங்களில் களை அகற்றும் பணி தொடக்கம்
+[comic] கதை முயற்சி 1 தோல்வி: Expecting ',' delimiter: line 38 column 4 (char 2301)
+[comic] கதை முயற்சி 2 தோல்வி: Expecting ',' delimiter: line 7 column 448 (char 2144)
+[comic] கதை முயற்சி 3 தோல்வி: Expecting ',' delimiter: line 1 column 2292 (char 2291)
+[comic] பிழை கதை JSON மூன்று முயற்சியிலும் தோல்வி: Expecting ',' delimiter: line 1 column 2292 (char 2291)
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹13160 · சென்செக்ஸ் 73034
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 4
+[done] feed 300 · pending 0 · எழுதியவை 10
