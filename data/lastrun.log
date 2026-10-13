@@ -1,23 +1,22 @@
-[expire] 0481b2e0eac4
-[fetch] RBI: 5 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] RBI: 6 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 15 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
-[fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] The Hindu TN: 14 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 21 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 20 புதியவை
+[fetch] The Hindu Sport: 27 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 28 புதியவை
-[fetch] The Hindu Tech: 11 புதியவை
-[fetch] Wired: 29 புதியவை
+[fetch] The Hindu Tech: 15 புதியவை
+[fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 8 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 23 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
+[fetch] Bar and Bench: 13 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -57,65 +56,55 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0ea496a8d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc7b836dfd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 654 → நிகழ்வுகள் 602
-[triage] 602 → 62 | காலி: tn:4, india:4, govt:4, crime:4, court:3
-[skip] ஆந்திரப் பிரதேசம் (ANGRAU) மற்றும் கர்நாடகா (ESIC கலபுரகி) ஆ
-[skip] வெளிநாட்டு தொலைக்காட்சிப் பணிக்காரர்; தமிழ்நாடு/இந்தியா தொடர
-[skip] rugby news from international sports; no direct connection t
+[run] புதியவை 681 → நிகழ்வுகள் 622
+[triage] 622 → 74 | காலி: india:4, court:3, govt:3, crime:3, cinema:3
+[skip] இது கர்நாடக உயர் நீதிமன்றத்தின் உள்ளூர் வழக்கு; தமிழ்நாட்டுட
+[skip] This is a Hollywood/Marvel Studios production, not a Tamil c
+[skip] வெளிநாட்டு உள்நாட்டுத் திரிகடல் சர்திக சாதனம். தமிழ்நாடு/இந்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] a85cd121dfb0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பிரான்ஸ் பள்ளியில் சுட்டுத் தாக்குதல், இருவர் காயம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyPf5JvMztFqxMxJKicG'}
-[skip] பிற மாநிலத்தின் உள்ளூர் அரசியல் — டெல்லி தேர்தல் ஆணையர் மீதா
+[திருத்தம்] காவிரி பின்தங்கிய நீர் கோரிக்கை, உச்ச நீ → காவிரி பின்தங்கிய நீர் கோரிக்கை, உச்ச நீ
+[தரம்] தமிழ் அல்லாத எழுத்து: ।; வரி 1 முற்றுப்புள்ளி இல்லை → ஒரு திருத்தம்
+[tts-edge] cff16a35cd25: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காவிரி பின்தங்கிய நீர் கோரிக்கை, உச்ச நீதிமன்றம் பார்வையில் | விளக்கம்
+[திருத்தம்] அதிமுக எம்எல்ஏக்கள் ராஜினாமா ஏற்பு செல்ல → அதிமுக எம்எல்ஏக்களின் ராஜினாமா ஏற்பு செல
+[tts-edge] 300dbb191f9a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அதிமுக எம்எல்ஏக்களின் ராஜினாமா ஏற்பு செல்லும் என உயர் நீதிமன்றம் தீர்ப்பு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இந்திய உள்நாட்டு அரசியல் - தேர்தல் ஆணையம் பற்றிய போராட்டம். 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyPmwNd1ytSdgNzec3hW'}
-[skip] தமிழ்நாட்டு வாசகருக்கு முதன்முறை பாதிப்பு இல்லை. இந்திய அரசு
-[திருத்தம்] சேலத்தில் ரூ.15 கோடி மதிப்பில் 600 கிலோ  → சேலத்தில் ரூ.15 கோடி மதிப்பிலான 600 கிலோ
-[image] களஞ்சியம் (2 சொல்): சேலத்தில் ரூ.15 கோடி மதிப்பிலான 60
-[tts-edge] 550f9da9b724: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சேலத்தில் ரூ.15 கோடி மதிப்பிலான 600 கிலோ வெள்ளிப் பொருள்கள் கொள்ளை
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது. பலஸ்தீன-இஸ்ரேல் மோதல் உலக ச
+[publish] அதிமுக 6 எம்.எல்.ஏ. ராஜிநாமா வழக்கில் உயர்நீதிமன்றம் தீர்ப்பு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; ரூபாய் மதிப்பு, ரிசர்வ் வங
+[திருத்தம்] இந்திய ரூபாய் மதிப்பு இரண்டு நாளில் 177  → இந்திய ரூபாய் இரண்டு நாளில் 177 பைசா உயர
+[publish] இந்திய ரூபாய் இரண்டு நாளில் 177 பைசா உயர்வு — டாலருக்கு எதிராக
+[திருத்தம்] 2026இல் உலக வளர்ச்சி 3.1 சதவீதம் என ஐஎம் → 2026இல் உலக வளர்ச்சி 3.1 சதவீதம் என ஐএம்
+[தரம்] தமிழ் அல்லாத எழுத்து: এরা → ஒரு திருத்தம்
+[publish] 2026இல் உலக வளர்ச்சி 3.1 சதவீதம் என ஐஎம்எஃப் மதிப்பீடு; போர் மற்றும் கடன் அபாயம் எச்சரிக்கை
+[skip] இது கேரள சட்டமன்றத்தில் எழுப்பப்பட்ட கேரள மாநிலத்தின் உள்ளூர
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfywd6ifNHJwW1ar89TN3'}
+[image] களஞ்சியம் (3 சொல்): பள்ளிக்கரணை சதுப்புநிலம் பாதிப்பு 
+[publish] பள்ளிக்கரணை சதுப்புநிலம் பாதிப்பு மண்டலம் 36 சர்வே எண்களுக்குக் குறைப்பு பரிந்துரை
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] இந்திய தொலைத்தொடர்பு துறை வருவாய் 88,796 → தொலைத்தொடர்பு துறை 9.19% வளர்ச்சি, வருவா
-[தரம்] தமிழ் அல்லாத எழுத்து: ়ি → ஒரு திருத்தம்
-[publish] தொலைத்தொடர்பு துறை 9.19% வளர்ச்சி, வருவாய் 88,796 கோடி — ரிலையன்ஸ் ஜியோ முன்னணியில்
-[திருத்தம்] மேற்கு வங்கம், தமிழகம், புதுச்சேரி இடைத் → மேற்கு வங்கம், தமிழ்நாடு, புதுச்சேரி இடை
-[publish] மேற்கு வங்கம், தமிழ்நாடு, புதுச்சேரி இடைத்தேர்தலில் ஆளும் கட்சிகளுக்கு வெற்றி
-[skip] தமிழ்நாட்டுச் செய்திதான் என்றாலும், 'world' துறையாகக் குறிப்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; செய்தியின் முழு விவரங்கள்,
-[தரம்] தமிழ் அல்லாத எழுத்து: ষ → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: சௌதியில் சிவராசா அனோஜனுக்கு மரண தண
-[publish] சௌதியில் சிவராசா அனோஜனுக்கு மரண தண்டனை மேன்முறையீடு தாக்கல்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyQC1JvwXcDQZzRcypuH'}
-[publish] தேர்தல் ஆணையர் போராட்டம் குறித்து திமுக மற்றும் காங்கிரஸ் இடையே வாக்குவாதம்
-[publish] தென் தீபகற்பத்தில் இரண்டு மூன்று நாட்களில் வடகிழக்குப் பருவமழை தொடக்கம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyQMNRRneUieDhvAagGf'}
-[image] களஞ்சியம் (2 சொல்): ஈரோடு மாவட்டம் குண்டேரிப்பாளையத்தி
-[publish] ஈரோடு மாவட்டம் குண்டேரிப்பாளையத்தில் சேற்றில் சிக்கி பெண் யானை உயிரிழப்பு
-[image] களஞ்சியம் (3 சொல்): தமிழ்நாடு ஊழல் தடுப்புத் துறை புதி
-[publish] தமிழ்நாடு ஊழல் தடுப்புத் துறை புதிய இயக்குநராக பிரேம் ஆனந்த் சின்ஹா பொறுப்பேற்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyQYkxK5uudcizi75VqK'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfywoPpMe9iThVrw3WvqR'}
+[publish] தனியார் மின்சார கொள்முதல் கையூட்டிற்காகவா என சீமான் கேள்வி
+[hold] மின் வாரியத் தனியார்மயமாக்கல் குற்றச்சாட்டு - விஜய் மீது எடப்பாடி பழனிசாமி கண்டனம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; உடல் உரை, சூழ
+[image] களஞ்சியம் (2 சொல்): பள்ளிகளில் வாரம் முழுவதும் உடற்கல்
+[publish] பள்ளிகளில் வாரம் முழுவதும் உடற்கல்வி வகுப்பு அறிவிப்பு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] விவசாய மின் இணைப்புகளுக்கு தனி ஃபீடர் அமைக்க மின்வாரியம் நடவடிக்கை
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 2
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: தேர்தல் ஆணையர் போராட்டத்தில் திமுக ஏன் இல்லை?
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹13199 · சென்செக்ஸ் 71925
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cfyx9DKNkoiK1kd6ooGtT'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CfyxCQMExRsr42UNV2mQt'}
+[publish] அதிமுகவிலிருந்து மேலும் பதினைந்து எம்.எல்.ஏக்கள் வரவிருப்பதாக செங்கோட்டையன் கூற்று
+[filler] tech கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13248 · சென்செக்ஸ் 72598
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 10
