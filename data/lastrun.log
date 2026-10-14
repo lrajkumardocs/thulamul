@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 19 புதியவை
+[fetch] The Hindu TN: 24 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 22 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 25 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 21 புதியவை
+[fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] The Hindu Cinema: 11 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 21 புதியவை
+[fetch] The Hindu Health: 22 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,11 +24,11 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 1 புதியவை
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 11 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd8c13f7dd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f33ce2b1050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,26 +65,51 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 721 → நிகழ்வுகள் 659
-[triage] 659 → 52 | காலி: india:4, govt:3, jobs:2, sports:2, assembly:2
+[run] புதியவை 717 → நிகழ்வுகள் 662
+[triage] 662 → 64 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] IIT ரூர்க்கி தமிழ்நாட்டில் இல்லை; தமிழ்நாட்டு வாசகருக்குப் ப
+[தரம்] தமிழ் அல்லாத எழுத்து: রষা → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): டான்கர் அறக்கட்டளை வருடாந்திர விரு
+[tts-edge] 9b044bd1a3b5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] டான்கர் அறக்கட்டளை வருடாந்திர விருது பரிந்துரைக்க அழைப்பு
+[tts-edge] ad043293f02d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஜெயிலர் 2 ஆயிரம் கோடி வசூல் எட்டுமா?
+[image] களஞ்சியம் (2 சொல்): ஷாய் ஹோப் சதம், பால் ஐந்து விக்கெட
+[publish] ஷாய் ஹோப் சதம், பால் ஐந்து விக்கெட்; தொடர் 2-2 சமன்
+[திருத்தம்] தமிழ்நாட்டில் வடகிழக்குப் பருவமழை தொடக்க → தமிழ்நாட்டில் வடகிழக்குப் பருவமழை அக்டோப
+[image] களஞ்சியம் (3 சொல்): தமிழ்நாட்டில் வடகிழக்குப் பருவமழை 
+[publish] தமிழ்நாட்டில் வடகிழக்குப் பருவமழை அக்டோபர் 15-ல் தொடக்கம், அக்டோபர் 20 வரை பரவலான மழை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2iQmThz257X4p6qRQBL'}
+[publish] தமிழகத்தில் இன்று முதல் வடகிழக்கு பருவமழை தொடக்கம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2iWfNFhEcquRkEHQRW8'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2iZQwgEL2kk3puZPTTz'}
+[skip] தமிழ்நாடு அரசு அல்லது மத்திய அரசின் உடனடி நடவடிக்கை/அறிவிப்ப
+[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் முப்பதாயிரம் கோடி ரூபாய் ஆரம்ப பங்கு விற்பனை அக்டோபர் இருபத்தொன்றில்
+[skip] தமிழ்நாட்டுச் செய்தி; 'world' வகையாக வகைப்படுத்தப்பட்டுள்ளது
+[திருத்தம்] ரிலையன்ஸ் ஜியோ பங்கு விற்பனை அக்டோபர் இர → ரிலையன்ஸ் ஜியோ ஆர்எச்பி தாக்கல், அக்டோபர
+[தரம்] தமிழ் அல்லாத எழுத்து: ইপস → ஒரு திருத்தம்
+[publish] ரிலையன்ஸ் ஜியோ ஆர்எச்பி தாக்கல், அக்டோபர் 21-23 இல் ஐபிஓ அறிவிப்பு
+[image] களஞ்சியம் (2 சொல்): எரிவாயு மின் கொள்முதலால் நாளொன்றுக
+[publish] எரிவாயு மின் கொள்முதலால் நாளொன்றுக்கு ஏழு கோடி கூடுதல் செலவு
+[திருத்தம்] மின் கொள்முதலில் பெரும் ஊழல் நடந்ததாக பழ → மின்சாரக் கொள்முதலில் பெரும் ஊழல் நடந்தத
+[publish] மின்சாரக் கொள்முதலில் பெரும் ஊழல் நடந்ததாக பழனிசாமி குற்றச்சாட்டு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தெலங்கானா மாநில முதல்வரின் உள்ளூர் முதலீட்டு அழைப்பு நிகழ்வு
-[skip] தெலங்கானா மாநில உள்ளூர் அரசியல்/அரசு அறிவிப்பு - தமிழ்நாட்டு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] பீகாரில் கவிழ்ந்த படகில் துளை இருந்து அத → பீகாரில் கவிழ்ந்த படகில் துளை இருந்தது, 
-[tts-edge] c84d41c64abf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பீகாரில் கவிழ்ந்த படகில் துளை இருந்தது, அதிக பயணிகள் ஏற்றப்பட்டதாக காவல்துறை
-[skip] மூல உரையில் போதுமான தகவல் இல்லை - இது வெறும் பேனர்/படக் குறி
-[skip] தென்னாஃப்பிரிக்கா கிரிக்கெட்டின் உள்ளூர் அணிப் பிரச்சினை. தம
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man arrested for swindling ₹40 lakh in coaching 
-[skip] வெளிநாட்டுச் சினிமா — பிரிட்டிஷ்-அமெரிக்க நிறுவனத்தின் ஆங்கி
-[skip] தெலங்கானா முதல்வரின் பிரவேச நிகழ்வு — தமிழ்நாட்டுக்குத் தொடர
-[skip] பIndians ஐআईআईটி பி.ஹோபாலி மத்திய அலுவலகம் (மத்திய அரசு), ஆன
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — நিউజிலாந்தின் நாட்டிற்குள் நட
-[skip] தெலங்கானா அரசின் உள்ளூர் முதலீட்ட அறிவிப்பு — தமிழ்நாட்டு வா
-[market] தங்கம் 22K ₹12920 · சென்செக்ஸ் 72782
+[திருத்தம்] காவிரி நீர் தகராறு - முதல்வர் விஜயின் மௌ → காவிரி நீர் தகராறு — முதல்வர் விஜயின் மௌ
+[publish] காவிரி நீர் தகராறு — முதல்வர் விஜயின் மௌனம் குறித்து டி.டி.வி.தினகரன் கேள்வி
+[comic] கதை: தேவராளன் வாக்குறுதி
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.83) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.84) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4: பலகை 3-ஐப் போலவே உள்ளது (0.80) — மீண்டும் வரைகிறேன்
+[comic] பலகை 4: பலகை 3-ஐப் போலவே உள்ளது (0.80) — மீண்டும் வரைகிறேன்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-15.png · நாள் 36
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12947 · சென்செக்ஸ் 72782
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 1
+[done] feed 300 · pending 0 · எழுதியவை 10
