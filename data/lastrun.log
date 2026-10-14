@@ -1,22 +1,22 @@
-[fetch] RBI: 7 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] RBI: 9 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 18 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
+[fetch] Dinamani TN: 22 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC World: 16 புதியவை
 [fetch] Al Jazeera: 23 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
-[fetch] Cinema Express: 27 புதியவை
-[fetch] The Hindu Tech: 14 புதியவை
-[fetch] Wired: 28 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] Cinema Express: 28 புதியவை
+[fetch] The Hindu Tech: 17 புதியவை
+[fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 10 புதியவை
+[fetch] The Hindu Health: 18 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 25 புதியவை
+[fetch] FreeJobAlert: 24 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
+[fetch] Bar and Bench: 17 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,66 +56,70 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f574c78ad90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f454f2f2450>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] Dinamani Govt: 22 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 664 → நிகழ்வுகள் 606
-[triage] 606 → 53 | காலி: india:4, govt:4, tn:3, crime:3, jobs:3
-[skip] பூனா பல்கலைக்கழகத்தின் தேர்வு முடிவு — தமிழ்நாட்டுடன் நேரடித
-[skip] ஆஸ்திரேலியாவின் உள்நாட்டுக் கிரிக்கெட் போட்டி (One-Day Cup).
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] உலக செய்திகளில் தமிழ்நாட்டு வாசகரைப் பாதிக்கும் நேரடிச் சம்ப
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg1CxDbh6xCiFS2ZJW7CS'}
-[skip] வெளிநாட்டுக் குறிப்பிட்ட மாநிலக் சம்பவம் — சவுதி அரேபியா-ஹூத
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] உலகச் செய்தி என்றாலும் தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்காது.
-[திருத்தம்] உதயநிதி ஸ்டாலின் தேர்தல் உறுதிமொழி மனு க → உதயநிதி ஸ்டாலின் தேர்தல் உறுதிமொழி மனு க
-[தரம்] தமிழ் அல்லாத எழுத்து: ু → ஒரு திருத்தம்
-[tts-edge] 97601f1c7048: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உதயநிதி ஸ்டாலின் தேர்தல் உறுதிமொழி மனு குறித்து அறிக்கை கோரிய சென்னை உயர்நீதிமன்றம்
-[image] களஞ்சியம் (2 சொல்): உதயநிதி ஸ்டாலின் மீதான புகார் மனு:
-[tts-edge] f7e69147f7a2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உதயநிதி ஸ்டாலின் மீதான புகார் மனு: பதிலளிக்க நீதிமன்ற உத்தரவு
-[image] களஞ்சியம் (3 சொல்): போக்சோ வழக்கில் வீரமணி மூன்றாவது ம
-[publish] போக்சோ வழக்கில் வீரமணி மூன்றாவது முறை கைது
-[publish] காஞ்சிபுரத்தில் புற்றுநோய் சிகிச்சை மையம், ஜனவரியில் திறப்பு
-[திருத்தம்] ஐபிஓ அளவு மாற்ற சலுகையை நீட்டித்தது செபி → செபி ஐபிஓ அளவு மாற்ற சலுகையை ஆறு மாதங்கள
-[தரம்] தமிழ் அல்லாத எழுத்து: চ → ஒரு திருத்தம்
-[publish] செபி ஐபிஓ அளவு மாற்ற சலுகையை ஆறு மாதங்கள் நீட்டித்து 2027 மார்ச் வரை அவகாசம் வழங்கியது
-[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
-[publish] இர்கான் நிறுவனம் நான்கு நெடுஞ்சாலைச் சொத்துகளை விற்பனைக்கு வைப்பு
-[skip] தமிழ்நாட்டு / இந்திய வாசகரைப் பாதிக்காத வெளிநாட்டு உள்ளூர் ந
-[skip] மாரிசியஸ் நாட்டின் உள்ளூர் சம்பவம். தமிழ்நாடு/இந்தியக் கூட்ட
-[skip] இந்தச் செய்தி அமெரிக்காவின் உள்நாட்டு நீதிமன்றக் கூட்டம். தம
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg1DXxCBv2bbfYSDdeii1'}
-[skip] யேமனின் உள்நாட்டு conflict — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
-[image] களஞ்சியம் (3 சொல்): வேலூரில் போலி நோட்டு புழக்கம்: வங்
-[publish] வேலூரில் போலி நோட்டு புழக்கம்: வங்கி ஊழியர் உள்பட மூவர் கைது
-[skip] வெளிநாட்டு உள்நாட்டுச் சம்பவம் — சவுதி அரேபியாவில் நடந்த தாக
-[தரம்] தமிழ் அல்லாத எழுத்து: চ → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் மின் தேவை உயர்வு, 16
-[publish] தமிழ்நாட்டில் மின் தேவை உயர்வு, 16 நாட்களுக்கு அதிக விலை மின்சாரம் கொள்முதல்
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்க தேர்தல் மற்றும் அதன்
-[publish] ஈரநில ஆணையம் யாருக்குப் பொறுப்பு என அன்புமணி கேள்வி
-[திருத்தம்] ஜி.கே.மூப்பனார் 25வது நினைவு நாள்: காங்க → ஜி.கே.மூப்பனார் 25வது நினைவு நாள்: உள்ளா
-[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
-[publish] ஜி.கே.மூப்பனார் 25வது நினைவு நாள்: உள்ளாட்சித் தேர்தல் வரை தனித்து, பின்னர் காங்கிரசுடன் இணைவோம் என ஜி.கே.வாசன்
-[brief] காலை brief தயார்
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: பல்லிக்கரணை ஈரநிலம் குறைந்தது யாருக்காக?
-[comic] கதை முயற்சி 1 தோல்வி: Expecting ',' delimiter: line 36 column 4 (char 2718)
-[comic] கதை முயற்சி 2 தோல்வி: Expecting ',' delimiter: line 1 column 2052 (char 2051)
-[comic] கதை முயற்சி 3 தோல்வி: Expecting ',' delimiter: line 26 column 4 (char 1995)
-[comic] பிழை கதை JSON மூன்று முயற்சியிலும் தோல்வி: Expecting ',' delimiter: line 26 column 4 (char 1995)
-[market] தங்கம் 22K ₹13145 · சென்செக்ஸ் 73034
-[weather] பிழை 'current'
-[push] 0 அறிவிப்புகள்
+[run] புதியவை 676 → நிகழ்வுகள் 609
+[triage] 609 → 83 | காலி: india:4, govt:3, jobs:3, sports:3, world:2
+[skip] வினோபா பவே பல்கலைக்கழகம் ஛த்தீஸ்கர் மாநிலத்தில் அமைந்துள்ளது
+[skip] வெস்টইండিஸ் அணির बांग्लादेशத் தொடரைப் பற்றிய செய்தி. தமிழ்நா
+[image] களஞ்சியம் (2 சொல்): சவூதி அரேபியா மீதான ஹூத்தி ஏவுகணைத
+[tts-edge] df452091ea46: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சவூதி அரேபியா மீதான ஹூத்தி ஏவுகணைத் தாக்குதல் முறியடிப்பு
+[திருத்தம்] கீவ் மீது தொடர்ந்து இரண்டாம் நாளாக ரஷ்ய  → கீவ் மீது தொடர்ந்து இரண்டாம் நாளாக ரஷ்ய 
+[தரம்] தமிழ் அல்லாத எழுத்து: বయా్� → ஒரு திருத்தம்
+[tts-edge] 828dccf5ba62: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கீவ் மீது தொடர்ந்து இரண்டாம் நாளாக ரஷ்ய பாலிஸ்டிக் ஏவுகணைத் தாக்குதல்.
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg1bEgCMY4SjKpnJrGdue'}
+[publish] மாமல்லபுரம் கடற்பகுதியில் சிக்கிய ஆறு மீனவர்கள் மீட்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg1bLwRJU7XzY9MpUxfe5'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg1bPSaZ5eWTdi2hPUGDS'}
+[திருத்தம்] ரஷியாவின் சரடோவ் பகுதியில் உக்ரைன் ட்ரோன → ரஷியாவின் சரதோவ் பகுதியில் உக்ரைன் ட்ரோன
+[publish] ரஷியாவின் சரதோவ் பகுதியில் உக்ரைன் ட்ரோன் தாக்குதல்
+[skip] DR Congo அமைதிப் பேச்சுவார்த்தை தொடர்பான ஐக்கிய நாடுகள் தூதர
+[image] களஞ்சியம் (3 சொல்): நார்ட் ஸ்ட்ரீம் குழாய் வெடிப்பு வழ
+[publish] நார்ட் ஸ்ட்ரீம் குழாய் வெடிப்பு வழக்கில் உக்ரைன் முன்னாள் அதிகாரி விசாரணை
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: பாகிஸ்தான் கைபர் பக்துன்வா மாகாணத்
+[publish] பாகிஸ்தான் கைபர் பக்துன்வா மாகாணத்தில் அவசரநிலைக்கு எதிர்ப்பு வன்முறை
+[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு வரி அறிமுகம் மட்டுமே உள்ளது; க
+[skip] இது 2011ஆம் ஆண்டு சமச்சீர் கல்வி கொண்டுவரப்பட்ட வரலாற்றைப் ப
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது, சம்பவம் பற்றிய விவர
+[publish] தனியார் மின் கொள்முதல் விலை விவகாரம் - எடப்பாடி பழனிசாமி விமர்சனம்
+[skip] மூலத்தில் தலைப்பு மற்றும் rain என்ற ஒரு சொல் மட்டுமே உள்ளது;
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg1bmbJHFGuyMbFeQjHbk'}
+[skip] மூலத்தில் ஒரு தலைப்பு வரி மட்டுமே உள்ளது; கூடுதல் நீதிபதிகளி
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நீதிபதிகளின் பெயர், தேதி, 
+[திருத்தம்] இன்று நாளை தமிழ்நாட்டின் 4 மாவட்டங்களில் → இன்றும் நாளையும் தமிழ்நாட்டின் 4 மாவட்டங
+[image] களஞ்சியம் (3 சொல்): இன்றும் நாளையும் தமிழ்நாட்டின் 4 ம
+[publish] இன்றும் நாளையும் தமிழ்நாட்டின் 4 மாவட்டங்களில் பலத்த மழைக்கு வாய்ப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg1bwxcUBYekA6P4VPnBf'}
+[skip] மூலத் தகவல் மிகவும் குறைவாகவும் குழப்பமாகவும் உள்ளது — தலைப்
+[skip] மூலத்தில் போதிய விவரம் இல்லை — ஒரே தலைப்பு வாக்கியம் மட்டும்
+[திருத்தம்] ஒரு யூனிட் மின்சாரத்தை ரூபாய் 35-க்கு வா → ஒரு யூனிட் மின்சாரத்தை ரூபாய் 35-க்கு வா
+[publish] ஒரு யூனிட் மின்சாரத்தை ரூபாய் 35-க்கு வாங்க வேண்டிய அவசியம் என்ன என பிரேமலதா கேள்வி
+[திருத்தம்] வெளிச்சந்தை மின் கொள்முதல் விலை குறித்து → வெளிச்சந்தை மின் கொள்முதல் விலை குறித்து
+[publish] வெளிச்சந்தை மின் கொள்முதல் விலை குறித்து டி.டி.வி.தினகரன் சந்தேகம்
+[filler] tech கட்டுரை
+[jobs] தொகுப்பு 12
+[comic] கதை: சிற்றரசர் வாக்குறுதி
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.95) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.96) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-14.png · நாள் 35
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13096 · சென்செக்ஸ் 73002
+[weather] புதுப்பிக்கப்பட்டது
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 10
