@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 24 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 25 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 27 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 22 புதியவை
+[fetch] The Hindu Health: 21 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 26 புதியவை
+[fetch] FreeJobAlert: 24 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 29 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,60 +56,64 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f33ce2b1050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fda8f91a750>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 717 → நிகழ்வுகள் 662
-[triage] 662 → 64 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] IIT ரூர்க்கி தமிழ்நாட்டில் இல்லை; தமிழ்நாட்டு வாசகருக்குப் ப
-[தரம்] தமிழ் அல்லாத எழுத்து: রষা → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): டான்கர் அறக்கட்டளை வருடாந்திர விரு
-[tts-edge] 9b044bd1a3b5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] டான்கர் அறக்கட்டளை வருடாந்திர விருது பரிந்துரைக்க அழைப்பு
-[tts-edge] ad043293f02d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஜெயிலர் 2 ஆயிரம் கோடி வசூல் எட்டுமா?
-[image] களஞ்சியம் (2 சொல்): ஷாய் ஹோப் சதம், பால் ஐந்து விக்கெட
-[publish] ஷாய் ஹோப் சதம், பால் ஐந்து விக்கெட்; தொடர் 2-2 சமன்
-[திருத்தம்] தமிழ்நாட்டில் வடகிழக்குப் பருவமழை தொடக்க → தமிழ்நாட்டில் வடகிழக்குப் பருவமழை அக்டோப
-[image] களஞ்சியம் (3 சொல்): தமிழ்நாட்டில் வடகிழக்குப் பருவமழை 
-[publish] தமிழ்நாட்டில் வடகிழக்குப் பருவமழை அக்டோபர் 15-ல் தொடக்கம், அக்டோபர் 20 வரை பரவலான மழை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2iQmThz257X4p6qRQBL'}
-[publish] தமிழகத்தில் இன்று முதல் வடகிழக்கு பருவமழை தொடக்கம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2iWfNFhEcquRkEHQRW8'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2iZQwgEL2kk3puZPTTz'}
-[skip] தமிழ்நாடு அரசு அல்லது மத்திய அரசின் உடனடி நடவடிக்கை/அறிவிப்ப
-[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் முப்பதாயிரம் கோடி ரூபாய் ஆரம்ப பங்கு விற்பனை அக்டோபர் இருபத்தொன்றில்
-[skip] தமிழ்நாட்டுச் செய்தி; 'world' வகையாக வகைப்படுத்தப்பட்டுள்ளது
-[திருத்தம்] ரிலையன்ஸ் ஜியோ பங்கு விற்பனை அக்டோபர் இர → ரிலையன்ஸ் ஜியோ ஆர்எச்பி தாக்கல், அக்டோபர
-[தரம்] தமிழ் அல்லாத எழுத்து: ইপস → ஒரு திருத்தம்
-[publish] ரிலையன்ஸ் ஜியோ ஆர்எச்பி தாக்கல், அக்டோபர் 21-23 இல் ஐபிஓ அறிவிப்பு
-[image] களஞ்சியம் (2 சொல்): எரிவாயு மின் கொள்முதலால் நாளொன்றுக
-[publish] எரிவாயு மின் கொள்முதலால் நாளொன்றுக்கு ஏழு கோடி கூடுதல் செலவு
-[திருத்தம்] மின் கொள்முதலில் பெரும் ஊழல் நடந்ததாக பழ → மின்சாரக் கொள்முதலில் பெரும் ஊழல் நடந்தத
-[publish] மின்சாரக் கொள்முதலில் பெரும் ஊழல் நடந்ததாக பழனிசாமி குற்றச்சாட்டு
+[run] புதியவை 693 → நிகழ்வுகள் 643
+[triage] 643 → 70 | காலி: india:4, crime:4, world:3, court:3, govt:3
+[skip] மேற்கு வங்க மாநில அரசு வேலைவாய்ப்பு மற்றும் தமிழ்நாட்டுடன் த
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] காவிரி நீர் தகராறு - முதல்வர் விஜயின் மௌ → காவிரி நீர் தகராறு — முதல்வர் விஜயின் மௌ
-[publish] காவிரி நீர் தகராறு — முதல்வர் விஜயின் மௌனம் குறித்து டி.டி.வி.தினகரன் கேள்வி
-[comic] கதை: தேவராளன் வாக்குறுதி
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.83) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.84) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4: பலகை 3-ஐப் போலவே உள்ளது (0.80) — மீண்டும் வரைகிறேன்
-[comic] பலகை 4: பலகை 3-ஐப் போலவே உள்ளது (0.80) — மீண்டும் வரைகிறேன்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-15.png · நாள் 36
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹12947 · சென்செக்ஸ் 72782
+[skip] வெளிநாட்டு உள்நாட்டுக் கூலி வகை. ஐரிலாந்து மக்களைப் பாதிப்பத
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2wt23KQpe6L2dmCyWA8'}
+[skip] வெளிநாட்டுக் கடல் நிகழ்வு — தமிழ்நாட்டு/இந்திய வாசகரைக் கோலா
+[image] களஞ்சியம் (2 சொல்): அதிக மின் தேவை காரணம் - விலையுயர்ந
+[tts-edge] 48d6796e26e5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அதிக மின் தேவை காரணம் - விலையுயர்ந்த மின் ஒப்பந்தம் பற்றி தமிழ்நாடு அரசு விளக்கம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2wzyWDSBVucf4wvER4z'}
+[skip] மாரிசஸ் என்பது இந்தியத் திருமண்டலத்தில் உள்ள தீவு நாடு. அது 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2x4LgWYt5Nt5C2CZvzC'}
+[திருத்தம்] ஜியோ பிளாட்பாரம்ஸ் ஓங்கு பங்கு விற்பனைக் → ஜியோ பிளாட்பாரம்ஸ் ஐபিஓ-க்கு விலை வரம்பு
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[tts-edge] fef60485b001: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஜியோ பிளாட்பாரம்ஸ் ஐபிஓ-க்கு விலை வரம்பு அறிவிப்பு; 30,000 கோடி ரூபாய்க்கு மேல் திரட்டலுக்கான வாய்ப்பு
+[skip] தமிழ்நாட்டு / இந்திய வாசகருக்குப் பொருந்தாது. அமெரிக்காவின் 
+[திருத்தம்] பஜாஜ் கன்சூமர் கேர், எச்டிபி பைனான்சியல் → பஜாஜ் கன்சூமர் கேர், எச்டிএஃப்சி வங்கி ல
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): பஜாஜ் கன்சூமர் கேர், எச்டிஎஃப்சி வ
+[publish] பஜாஜ் கன்சூமர் கேர், எச்டிஎஃப்சி வங்கி லாப வளர்ச்சி அறிவிப்பு
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[publish] இறந்தவர் அடையாளம் உறுதி செய்ய உடல் வெளியே எடுக்க உயர்நீதிமன்ற உத்தரவு
+[skip] அமெரிக்க பங்குச் சந்தை பற்றிய நாளிதழ் ஏற்ற இறக்கச் செய்தி - 
+[skip] தமிழ்நாட்டுக்குத் தொடர்பே இல்லை. டெல்லி உள்ளூர் அரசியல் மற்ற
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2xM9NbpEgsyvw6uwDnX'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2xPqCHgzhDoLP5ud4ay'}
+[skip] வெளிநாட்டு உள்நாட்டுக் மோதல் — தமிழ்நாடு/இந்திய வாசகரைப் நேர
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2xVhb4KMQWLgn5Fa55m'}
+[skip] தமிழ்நாட்டு உள்ளூர் பொருளாதாரச் செய்தி — world நியமனத்துடன் 
+[image] களஞ்சியம் (4 சொல்): ஜெம் கிரானைட் வீரமணி இல்லத்தில் போ
+[hold] ஜெம் கிரானைட் வீரமணி இல்லத்தில் போக்சோ வழக்கில் முக்கிய ஆதாரங்கள் கைப்பற்றப்பட்டன
+[image] களஞ்சியம் (2 சொல்): ஜெட்வொர்க் ஐபிஓ: முன்கூட்டி முதலீட
+[publish] ஜெட்வொர்க் ஐபிஓ: முன்கூட்டி முதலீட்டில் 2,251 கோடி ரூபாய் திரட்டம்
+[skip] அமெரிக்க உள்நாட்டு பொருளாதாரச் செய்திகள் தமிழ்நாடு/இந்திய வா
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[publish] கைது செய்யப்பட்ட சிஜேபி ஆர்வலர்களுக்கு சட்ட உதவி அளிக்க திமுக தயார்
+[திருத்தம்] ரிலையன்ஸ் ஜியோ 30,213 கோடி ரூபாய் பங்கு  → ஜியோ ஐபிஓ: ரிலையன்ஸ் ஆதரவுடைய டிஜிটல் ரா
+[தரம்] தமிழ் அல்லாத எழுத்து: ট → ஒரு திருத்தம்
+[publish] ஜியோ ஐபிஓ: ரிலையன்ஸ் ஆதரவுடைய டிஜிட்டல் ராஜாவை முன்னிறுத்தும் 5 பலங்கள்
+[skip] கென்யாவில் ஈபோலா நோய்ச் சம்பவம் — தமிழ்நாட்டு வாசகரைப் பாதிக
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg2xuTvwe4i2dMDwNVVwB'}
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: தமிழ்நாட்டின் விலையுயர்ந்த மின் ஒப்பந்தம் — தேவையா, முறைகேடா?
+[market] தங்கம் 22K ₹12965 · சென்செக்ஸ் 72782
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 8
