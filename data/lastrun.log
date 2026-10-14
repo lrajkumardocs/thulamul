@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 22 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 14 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 21 புதியவை
+[fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 21 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -24,19 +24,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 29 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 11 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,50 +56,35 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6b92eae0d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd8c13f7dd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 21 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 721 → நிகழ்வுகள் 661
-[triage] 661 → 77 | காலி: india:4, govt:3, sports:3, jobs:2, cinema:2
-[skip] தென்னாபிரிக்க உள்நாட்டுத் தொடர் — தமிழ்நாடு/இந்திய வாசகரைப் 
-[தரம்] தமிழ் அல்லாத எழுத்து: जडनयरशाि → ஒரு திருத்தம்
-[tts-edge] 6044ff5af60f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] முப்பதாயிரம் கோடி ரூபாய் ஜியோ ஐபிஓ ஆவணம் இன்று தாக்கல்
-[திருத்தம்] பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ் நிகர லாபம் 12 → பாரத் ஹெவி ইലெக்ट்রிக்ளস் நிகர லாபம் 120
-[தரம்] தமிழ் அல்லாத எழுத்து: سटसইরসല → ஒரு திருத்தம்
-[tts-edge] a4854676c0a4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ் நிகர லாபம் 120 சதவீதம் உயர்வு
-[skip] சத்தீஸ்கர் மாநில உள்ளூர் ஜில்லா பஞ்சாயத்து வேலைவாய்ப்பு அறிவ
-[skip] இவை அசாம் மற்றும் பீகாரில் அமைந்த மத்திய நிறுவனங்களின் வேலைவ
-[skip] இது தில்லியில் நடந்த எதிர்ப்பு போராட்டம் தொடர்பான உள்ளூர் கா
-[திருத்தம்] பன்னீர் பெயரில் விற்பனையாகும் பால் அல்லா → பால் அல்லாத 'பன்னீர்' விரோதப் பொதுநல வழக
-[publish] பால் அல்லாத 'பன்னீர்' விரோதப் பொதுநல வழக்கில் சென்னை உயர்நீதிமன்றம் உணவுப் பாதுகாப்பு ஆணையத்திடம் விளக்கம் கோரியது
-[skip] மேற்கு வங்க மாநிலத்தின் உள்ளூர்த் திட்ட அறிவிப்பு - தமிழ்நாட
-[skip] கர்நாடகாவின் உள்ளூர் கரும்பு விவசாயிகள் போராட்டம் தொடர்பான ச
-[skip] தமிழ்நாட்டு அரசின் அறிவிப்பு அல்ல; சமய/பண்பாட்டு கட்டுரை; அர
-[திருத்தம்] தமிழ் வெளியீட்டுக்கு பிறகு 'திருஷ்யம் நி → 'திருஷ்யம் நிறைவு' இயக்குநர் அபிஷேக் பாத
-[publish] 'திருஷ்யம் நிறைவு' இயக்குநர் அபிஷேக் பாதக் பேட்டை
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Avadi police arrest three for duping people with
-[திருத்தம்] தேவையற்ற சிகிச்சை, சோதனை பெருகுவதை எச்சர → அதிகமான சிகிச்சை, மருந்து பயன்பாடு — இந்
-[image] களஞ்சியம் (3 சொல்): அதிகமான சிகிச்சை, மருந்து பயன்பாடு
-[publish] அதிகமான சிகிச்சை, மருந்து பயன்பாடு — இந்தியாவின் சிக்கல்
-[skip] Delhi-based protest and police action. No Tamil Nadu connect
-[skip] வெளிநாட்டு விளையாட்டு வீரர் (சিம்বாப்வே) மற்றும் சர্வதேச விள
-[skip] வெளிநாட்டு சிரிஸ் — ஆங்கிலத்தில் ஹলிவுட் நிர்மாணம். தமிழ்நாட
-[skip] தில்லியை மையமாக வைத்த உচ್ச நீதிமன்ற வழக்கு. தமிழ்நாடு வாசகரு
-[skip] ஆஸ்திரேலியா-பங்களாதேஷ் ஐக்கிய நாடுகள் சங்கத் தொடர் — தமிழ்நா
-[filler] sports கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13084 · சென்செக்ஸ் 72782
+[run] புதியவை 721 → நிகழ்வுகள் 659
+[triage] 659 → 52 | காலி: india:4, govt:3, jobs:2, sports:2, assembly:2
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] தெலங்கானா மாநில முதல்வரின் உள்ளூர் முதலீட்டு அழைப்பு நிகழ்வு
+[skip] தெலங்கானா மாநில உள்ளூர் அரசியல்/அரசு அறிவிப்பு - தமிழ்நாட்டு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] பீகாரில் கவிழ்ந்த படகில் துளை இருந்து அத → பீகாரில் கவிழ்ந்த படகில் துளை இருந்தது, 
+[tts-edge] c84d41c64abf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பீகாரில் கவிழ்ந்த படகில் துளை இருந்தது, அதிக பயணிகள் ஏற்றப்பட்டதாக காவல்துறை
+[skip] மூல உரையில் போதுமான தகவல் இல்லை - இது வெறும் பேனர்/படக் குறி
+[skip] தென்னாஃப்பிரிக்கா கிரிக்கெட்டின் உள்ளூர் அணிப் பிரச்சினை. தம
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man arrested for swindling ₹40 lakh in coaching 
+[skip] வெளிநாட்டுச் சினிமா — பிரிட்டிஷ்-அமெரிக்க நிறுவனத்தின் ஆங்கி
+[skip] தெலங்கானா முதல்வரின் பிரவேச நிகழ்வு — தமிழ்நாட்டுக்குத் தொடர
+[skip] பIndians ஐআईআईটி பி.ஹோபாலி மத்திய அலுவலகம் (மத்திய அரசு), ஆன
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — நিউజிலாந்தின் நாட்டிற்குள் நட
+[skip] தெலங்கானா அரசின் உள்ளூர் முதலீட்ட அறிவிப்பு — தமிழ்நாட்டு வா
+[market] தங்கம் 22K ₹12920 · சென்செக்ஸ் 72782
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 5
+[done] feed 300 · pending 0 · எழுதியவை 1
