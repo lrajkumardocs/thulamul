@@ -1,5 +1,356 @@
 [
  {
+  "id": "art_sports_20261014",
+  "headline": "தமிழக பாரம்பரிய விளையாட்டுகள் - வரலாறும் மரபும்",
+  "lines": [
+   "ஜல்லிக்கட்டு தமிழ்நாட்டின் பழமையான காளை அடக்கும் விளையாட்டாகும், இது பொங்கல் பண்டிகையுடன் நெருங்கிய தொடர்புடையது.",
+   "சிலம்பம் மூங்கில் தடியைக் கொண்டு பயிற்சி பெறும் பாரம்பரிய தற்காப்புக் கலையாகும், இதற்கு ஆயிரக்கணக்கான ஆண்டுகள் பழமை உண்டு.",
+   "கபடி தமிழக கிராமங்களில் பல தலைமுறைகளாக விளையாடப்படும் அணி விளையாட்டாகும், தற்போது இது தொழில்முறை லீக்குகள் வரை வளர்ந்துள்ளது.",
+   "மல்யுத்தம் பாரம்பரிய மட்டைகளில் பயிற்சி பெறப்படும் வலிமை மற்றும் நுட்பம் சார்ந்த விளையாட்டாகும், இது உடல் வலிமையை வளர்க்க உதவுகிறது.",
+   "தமிழ்நாட்டைச் சேர்ந்த பல வீரர்கள் தேசிய மற்றும் சர்வதேச அளவில் விளையாட்டுத் துறையில் சாதனைகள் படைத்துள்ளனர்."
+  ],
+  "closing": "பாரம்பரிய விளையாட்டுகள் தமிழக கலாச்சாரத்தின் வலுவான அடையாளமாக தொடர்கின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-14"
+   }
+  ],
+  "topic": "sports",
+  "topic_ta": "விளையாட்டு",
+  "entities": [
+   "தமிழ்",
+   "விளையாட்டு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-14T16:20+05:30",
+  "created_ts": 1791975020.8280807,
+  "audio": "data/audio/art_sports_20261014.mp3"
+ },
+ {
+  "headline": "அதிகமான சிகிச்சை, மருந்து பயன்பாடு — இந்தியாவின் சிக்கல்",
+  "lines": [
+   "இந்தியாவில் தேவையற்ற சோதனைகள், மருந்துப் பரிந்துரைகள், சிகிச்சை நடைமுறைகள் வேகமாக பெருகிவருகின்றன.",
+   "இந்த அதிகமான சிகிச்சை நோயாளிகளின் உடல்நலத்தையும் பணத்தையும் பாதிக்கிறது.",
+   "மருத்துவ நிபுணர்கள் இந்நடைமுறை குறித்து மக்களிடையே விழிப்புணர்வு அவசியம் என்று சுட்டிக்காட்டுகின்றனர்.",
+   "பல மருத்துவ மனைகள் அதிக வசூல் பெறுவதற்காக தேவையற்ற சோதனைகளை பரிந்துரைக்கின்றன.",
+   "நோயாளிகள் இரண்டாவது கருத்து பெறுவதன் மூலம் தேவையற்ற சிகிச்சைகளைத் தவிர்க்கலாம்."
+  ],
+  "closing": "நாட்டில் மருத்துவ நெறிமுறை மேம்பாடு தேவை என்கிறது இந்த அறிக்கை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "இந்தியா",
+   "மருத்துவ மனைகள்",
+   "நோயாளிகள்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Growing problem of unnecessary treatment and medication in India",
+   "lines": [
+    "India is seeing a rapid increase in unnecessary tests, medicines, and surgical procedures.",
+    "This practice of overtreatment harms patients' health and drains their finances.",
+    "Medical experts warn that public awareness about this trend is essential.",
+    "Many hospitals recommend unnecessary tests to increase their earnings.",
+    "Patients can avoid unwanted treatments by seeking a second medical opinion."
+   ],
+   "closing": "The report emphasizes the need for improved medical standards across the country."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "",
+  "wiki_subject": "Overmedication",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மக்கள்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "0af742d7f296",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-14T16:19+05:30",
+  "links": [
+   "https://www.thehindu.com/opinion/lead/indias-problem-of-overtreatment-and-overmedication/article71575996.ece"
+  ],
+  "image": {
+   "url": "data/bank/health01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/0af742d7f296.mp3",
+  "created_ts": 1791974986.216753,
+  "status": "published"
+ },
+ {
+  "headline": "'திருஷ்யம் நிறைவு' இயக்குநர் அபிஷேக் பாதக் பேட்டை",
+  "lines": [
+   "ஹிந்தி திரைப்படம் 'திருஷ்யம் நிறைவு' வசூலில் வலுவாக நிற்கும் நிலையில், இயக்குநர் அபிஷேக் பாதக் நாயக பாத்திரத்துக்குக் கிண்டல் வசனங்கள் வேண்டுமென்றே எழுதியதாகக் குறிப்பிட்டுள்ளார்.",
+   "தமிழ் வெளியீட்டைத் தொடர்ந்து பலரும் படத்தைப் பற்றிய மீம்கள் இணையத்தில் வைரலாகியுள்ளன.",
+   "இயக்குநர் பாதக் தமிழ் வெளியீட்டிற்குப் பிறகுதான் பேட்டை அளித்துள்ளார்.",
+   "இந்தப் படம் மலையாள் அசலிலிருந்து வேறுபட்ட கதை, பாத்திரங்கள் மற்றும் நகையாக எழுதப்பட்ட வசனங்களைக் கொண்டுள்ளது.",
+   "மீம் கலாச்சாரத்தின் மீதான பாதகின் எதிர்வினையும் பேட்டையில் மதிப்புக்குரியவை."
+  ],
+  "closing": "திருஷ்யம் தொடர்முறையின் முடிவாக வடிவமைக்கப்பட்ட இப்படம் ஹிந்தி திரையுலகத்தில் தனிச்சிறப்பான இடம் பெற்றுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "அபிஷேக் பாதக்",
+   "திருஷ்யம் நிறைவு",
+   "ஹிந்தி திரைப்படம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Drishyam The Conclusion director Abhishek Pathak speaks after Tamil release",
+   "lines": [
+    "As the Hindi film 'Drishyam The Conclusion' maintains strong box-office momentum, director Abhishek Pathak reveals he deliberately wrote comedic lines for the protagonist character.",
+    "Internet users have created numerous memes about the film following its release across regions.",
+    "Pathak gave this interview after the film's Tamil release.",
+    "The film deviates from the original Malayalam version with its own narrative, characters and humorous dialogues.",
+    "The director's response to the meme culture surrounding the film is noteworthy in the interview."
+   ],
+   "closing": "As the concluding chapter of the Drishyam series, this film has carved out a unique place in Hindi cinema."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Abhishek Pathak director",
+  "wiki_subject": "Drishyam 2 (film series)",
+  "person_en": "Abhishek Pathak",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "71db17c63144",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-10-14T16:19+05:30",
+  "links": [
+   "https://www.thehindu.com/entertainment/movies/drishyam-the-conclusion-director-abhishek-pathak-on-crafting-the-hindi-original-and-its-memetic-afterlife/article71582759.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/71db17c63144.mp3",
+  "created_ts": 1791974960.270355,
+  "status": "published"
+ },
+ {
+  "headline": "பால் அல்லாத 'பன்னீர்' விரோதப் பொதுநல வழக்கில் சென்னை உயர்நீதிமன்றம் உணவுப் பாதுகாப்பு ஆணையத்திடம் விளக்கம் கோரியது",
+  "lines": [
+   "டெல்லி உயர்நீதிமன்றத்தில் பன்னீர் எனப் பெயரிடப்பட்டு விற்கப்படும் பால் அல்லாத பொருள் தொடர்பாக பொதுநல வழக்கு தாக்கல் செய்யப்பட்டது.",
+   "இந்திய உணவுப் பாதுகாப்பு மற்றும் தரநிலை ஆணையம் எனப்படும் எஃப்எஸ்எஸ்ஏஐ தனது நிலைப்பாட்டை தெரிவிக்குமாறு நீதிமன்றம் உத்தரவிட்டது.",
+   "பன்னீர் என்பது அரசு நிர்ணயித்த தர விதிமுறைகளின் கீழ் வரும் நிலையான பால் பொருள் என்று மனுதாரர்கள் நீதிமன்றத்தில் தெரிவித்தனர்.",
+   "இதே போல காட்சியளிக்கும் பால் அல்லாத பொருளில் பால் சாராத பொருட்கள் கலக்கப்படுவதாகவும், அதில் சத்துப் பெறுமானம் குறைவாக உள்ளது எனவும் அவர்கள் குற்றம்சாட்டினர்.",
+   "எஃப்எஸ்எஸ்ஏஐ நீதிமன்றத்தில் பதில் அளித்த பிறகு இந்த வழக்கில் அடுத்த விசாரணை நடைபெறும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "பன்னீரின் தரநிலை தொடர்பான இந்த வழக்கின் தீர்ப்பு, நாடு முழுவதும் விற்கப்படும் பால்பொருட்களின் தர வரையறையை பெரிதும் பாதிக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "டெல்லி உயர்நீதிமன்றம்",
+   "எஃப்எஸ்எஸ்ஏஐ",
+   "பன்னீர்",
+   "பொதுநல வழக்கு"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Delhi High Court seeks FSSAI stand on non-dairy analogue 'paneer'",
+   "lines": [
+    "A public interest litigation was filed in the Delhi High Court against non-dairy products being sold as paneer.",
+    "The court directed the Food Safety and Standards Authority of India, known as FSSAI, to state its position.",
+    "Petitioners told the court that paneer is a standardised dairy product under existing food safety regulations.",
+    "They alleged that similar-looking non-dairy analogue products contain non-milk ingredients and have lower nutritional value.",
+    "The next hearing in the case is expected after FSSAI submits its response to the court."
+   ],
+   "closing": "The outcome of this case on paneer standards could affect the quality definition of similar dairy products sold across the country."
+  },
+  "front_cat": "routine",
+  "image_query": "paneer dairy product india",
+  "wiki_subject": "Food Safety and Standards Authority of India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7a71f0fe1bc1",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-14T16:18+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/delhi-high-court-seeks-fssai-stand-on-pil-against-non-dairy-analogous-paneer/article71583002.ece",
+   "https://www.thehindu.com/news/national/delhi-high-court-seeks-fssai-stand-on-pil-against-non-dairy-analogous-paneer/article71583002.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/e/e2/FSSAI_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Food Safety and Standards Authority of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Food_Safety_and_Standards_Authority_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/7a71f0fe1bc1.mp3",
+  "created_ts": 1791974917.585899,
+  "status": "published"
+ },
+ {
+  "headline": "பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ் நிகர லாபம் 120 சதவீதம் உயர்வு",
+  "lines": [
+   "பொதுத்துறை நிறுவனமான பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ், நடப்பு நிதியாண்டின் இரண்டாம் காலாண்டு முடிவுகளை வெளியிட்டுள்ளது.",
+   "நிகர லாபம் முந்தைய ஆண்டின் 368 கோடி ரூபாயிலிருந்து 120.1 சதவீதம் அதிகரித்து, 810 கோடி ரூபாயாக உயர்ந்துள்ளது.",
+   "இயக்குநிலை வருவாயும் 23.8 சதவீதம் அதிகரித்து, 9,300 கோடி ரூபாயை எட்டியுள்ளது.",
+   "இந்த எண்கள் நிறுவனத்தின் வலுவான நிதிச் செயல்பாட்டுக்கும் குறிப்பிடத்தக்க வளர்ச்சிக்கும் ஆதாரமாகும்.",
+   "பொதுத்துறை மின் உற்பத்தி சாதனங்களை உற்பத்தி செய்யும் முக்கிய நிறுவனமாக பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ் செயல்பட்டு வருகிறது."
+  ],
+  "closing": "பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ் மின் உற்பத்தி சாதனங்களை உற்பத்தி செய்யும் முக்கிய பொதுத்துறை நிறுவனமாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ்",
+   "நிகர லாபம்",
+   "இயக்குநிலை வருவாய்",
+   "இரண்டாம் காலாண்டு"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "BHEL Net Profit Jumps 120 Percent in Q2 Results",
+   "lines": [
+    "State-run Bharat Heavy Electricals Limited has announced its second quarter results for the current fiscal year.",
+    "Net profit rose 120.1 percent year-on-year to Rs 810 crore, up from Rs 368 crore in the same period last year.",
+    "Revenue from operations also increased by 23.8 percent, reaching Rs 9,300 crore.",
+    "The company said these figures reflect its strong financial performance during the quarter.",
+    "The company's results for the next quarter are expected to be announced in the coming months."
+   ],
+   "closing": "Bharat Heavy Electricals Limited is a major public sector company that manufactures power generation equipment."
+  },
+  "front_cat": "routine",
+  "image_query": "BHEL power plant",
+  "wiki_subject": "Bharat Heavy Electricals Limited",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "a4854676c0a4",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-14T16:17+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/earnings/bhel-q2-results-net-profit-skyrockets-120-yoy-to-rs-810-crore-revenue-rises-24/articleshow/134936902.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/BHEL_logo.svg/500px-BHEL_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Bharat Heavy Electricals Limited",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Bharat_Heavy_Electricals_Limited",
+   "symbolic": false
+  },
+  "audio": "data/audio/a4854676c0a4.mp3",
+  "created_ts": 1791974846.7135823,
+  "status": "published"
+ },
+ {
+  "headline": "முப்பதாயிரம் கோடி ரூபாய் ஜியோ ஐபிஓ ஆவணம் இன்று தாக்கல்",
+  "lines": [
+   "ரிலையன்ஸ் இண்டஸ்ட்ரீஸ் நிறுவனத்தின் துணை நிறுவனமான ஜியோ பிளாட்ஃபார்ம்ஸ், முப்பதாயிரம் கோடி ரூபாய் மதிப்பிலான பங்கு விற்பனைக்கான வரைவு ஆவணத்தை (ஆர்.எச்.பி) இன்று தாக்கல் செய்யக்கூடும் என தெரிவிக்கப்படுகிறது.",
+   "பங்கு ஒன்றுக்கு 1,065 முதல் 1,119 ரூபாய் வரை விலை வரம்பு நிர்ணயிக்கப்படக்கூடும் என தகவல்கள் தெரிவிக்கின்றன.",
+   "அக்டோபர் 21 முதல் 23 வரை இந்த பங்கு விற்பனை பொதுமக்களுக்கு திறக்கப்படும் என எதிர்பார்க்கப்படுகிறது.",
+   "இந்த பங்கு விற்பனை நிறைவடைந்தால், இது இந்தியாவின் மிகப்பெரிய பங்கு விற்பனையாக அமையும் என கணக்கிடப்படுகிறது.",
+   "தற்போதைய முதலீட்டாளர்கள் இந்த கட்டத்தில் தங்கள் பங்குகளை விற்பனை செய்ய வாய்ப்பில்லை என தகவல்கள் தெரிவிக்கின்றன."
+  ],
+  "closing": "ஜியோ பிளாட்ஃபார்ம்ஸ் நிறுவனம் ஜியோவின் மூலம் இந்தியாவில் முன்னணி தொலைத்தொடர்பு சேவை நிறுவனமாக செயல்பட்டு வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": "2026-10-14"
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "ஜியோ பிளாட்ஃபார்ம்ஸ்",
+   "ரிலையன்ஸ் இண்டஸ்ட்ரீஸ்",
+   "பங்குச் சந்தை",
+   "இந்தியா"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Jio likely to file IPO papers today for Rs 30,000 crore issue",
+   "lines": [
+    "Reliance Industries subsidiary Jio Platforms is expected to file its final IPO document today for a share sale worth Rs 30,000 crore.",
+    "The price band is likely to be set between Rs 1,065 and Rs 1,119 per share, according to reports.",
+    "The issue is expected to open for public subscription from October 21 to 23.",
+    "If completed, this would become India's largest-ever share sale, according to estimates.",
+    "Existing investors are not expected to sell their stakes during this round, as per the reports."
+   ],
+   "closing": "Jio Platforms operates as India's leading telecommunications service provider."
+  },
+  "front_cat": "big_project",
+  "image_query": "Reliance Jio Platforms India",
+  "wiki_subject": "Jio Platforms",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "6044ff5af60f",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-14T16:16+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/ipos/fpos/exclusive-countdown-begins-for-the-mother-of-all-ipos-jio-likely-to-file-rhp-today-for-record-rs-30000-crore-issue/articleshow/134932999.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Jio Platforms",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Jio_Platforms",
+   "symbolic": false
+  },
+  "audio": "data/audio/6044ff5af60f.mp3",
+  "created_ts": 1791974793.6378808,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261014",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
   "lines": [

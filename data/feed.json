@@ -1,5 +1,356 @@
 [
  {
+  "id": "art_sports_20261014",
+  "headline": "தமிழக பாரம்பரிய விளையாட்டுகள் - வரலாறும் மரபும்",
+  "lines": [
+   "ஜல்லிக்கட்டு தமிழ்நாட்டின் பழமையான காளை அடக்கும் விளையாட்டாகும், இது பொங்கல் பண்டிகையுடன் நெருங்கிய தொடர்புடையது.",
+   "சிலம்பம் மூங்கில் தடியைக் கொண்டு பயிற்சி பெறும் பாரம்பரிய தற்காப்புக் கலையாகும், இதற்கு ஆயிரக்கணக்கான ஆண்டுகள் பழமை உண்டு.",
+   "கபடி தமிழக கிராமங்களில் பல தலைமுறைகளாக விளையாடப்படும் அணி விளையாட்டாகும், தற்போது இது தொழில்முறை லீக்குகள் வரை வளர்ந்துள்ளது.",
+   "மல்யுத்தம் பாரம்பரிய மட்டைகளில் பயிற்சி பெறப்படும் வலிமை மற்றும் நுட்பம் சார்ந்த விளையாட்டாகும், இது உடல் வலிமையை வளர்க்க உதவுகிறது.",
+   "தமிழ்நாட்டைச் சேர்ந்த பல வீரர்கள் தேசிய மற்றும் சர்வதேச அளவில் விளையாட்டுத் துறையில் சாதனைகள் படைத்துள்ளனர்."
+  ],
+  "closing": "பாரம்பரிய விளையாட்டுகள் தமிழக கலாச்சாரத்தின் வலுவான அடையாளமாக தொடர்கின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-14"
+   }
+  ],
+  "topic": "sports",
+  "topic_ta": "விளையாட்டு",
+  "entities": [
+   "தமிழ்",
+   "விளையாட்டு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-14T16:20+05:30",
+  "created_ts": 1791975020.8280807,
+  "audio": "data/audio/art_sports_20261014.mp3"
+ },
+ {
+  "headline": "அதிகமான சிகிச்சை, மருந்து பயன்பாடு — இந்தியாவின் சிக்கல்",
+  "lines": [
+   "இந்தியாவில் தேவையற்ற சோதனைகள், மருந்துப் பரிந்துரைகள், சிகிச்சை நடைமுறைகள் வேகமாக பெருகிவருகின்றன.",
+   "இந்த அதிகமான சிகிச்சை நோயாளிகளின் உடல்நலத்தையும் பணத்தையும் பாதிக்கிறது.",
+   "மருத்துவ நிபுணர்கள் இந்நடைமுறை குறித்து மக்களிடையே விழிப்புணர்வு அவசியம் என்று சுட்டிக்காட்டுகின்றனர்.",
+   "பல மருத்துவ மனைகள் அதிக வசூல் பெறுவதற்காக தேவையற்ற சோதனைகளை பரிந்துரைக்கின்றன.",
+   "நோயாளிகள் இரண்டாவது கருத்து பெறுவதன் மூலம் தேவையற்ற சிகிச்சைகளைத் தவிர்க்கலாம்."
+  ],
+  "closing": "நாட்டில் மருத்துவ நெறிமுறை மேம்பாடு தேவை என்கிறது இந்த அறிக்கை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "இந்தியா",
+   "மருத்துவ மனைகள்",
+   "நோயாளிகள்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Growing problem of unnecessary treatment and medication in India",
+   "lines": [
+    "India is seeing a rapid increase in unnecessary tests, medicines, and surgical procedures.",
+    "This practice of overtreatment harms patients' health and drains their finances.",
+    "Medical experts warn that public awareness about this trend is essential.",
+    "Many hospitals recommend unnecessary tests to increase their earnings.",
+    "Patients can avoid unwanted treatments by seeking a second medical opinion."
+   ],
+   "closing": "The report emphasizes the need for improved medical standards across the country."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "",
+  "wiki_subject": "Overmedication",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மக்கள்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "0af742d7f296",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-14T16:19+05:30",
+  "links": [
+   "https://www.thehindu.com/opinion/lead/indias-problem-of-overtreatment-and-overmedication/article71575996.ece"
+  ],
+  "image": {
+   "url": "data/bank/health01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/0af742d7f296.mp3",
+  "created_ts": 1791974986.216753,
+  "status": "published"
+ },
+ {
+  "headline": "'திருஷ்யம் நிறைவு' இயக்குநர் அபிஷேக் பாதக் பேட்டை",
+  "lines": [
+   "ஹிந்தி திரைப்படம் 'திருஷ்யம் நிறைவு' வசூலில் வலுவாக நிற்கும் நிலையில், இயக்குநர் அபிஷேக் பாதக் நாயக பாத்திரத்துக்குக் கிண்டல் வசனங்கள் வேண்டுமென்றே எழுதியதாகக் குறிப்பிட்டுள்ளார்.",
+   "தமிழ் வெளியீட்டைத் தொடர்ந்து பலரும் படத்தைப் பற்றிய மீம்கள் இணையத்தில் வைரலாகியுள்ளன.",
+   "இயக்குநர் பாதக் தமிழ் வெளியீட்டிற்குப் பிறகுதான் பேட்டை அளித்துள்ளார்.",
+   "இந்தப் படம் மலையாள் அசலிலிருந்து வேறுபட்ட கதை, பாத்திரங்கள் மற்றும் நகையாக எழுதப்பட்ட வசனங்களைக் கொண்டுள்ளது.",
+   "மீம் கலாச்சாரத்தின் மீதான பாதகின் எதிர்வினையும் பேட்டையில் மதிப்புக்குரியவை."
+  ],
+  "closing": "திருஷ்யம் தொடர்முறையின் முடிவாக வடிவமைக்கப்பட்ட இப்படம் ஹிந்தி திரையுலகத்தில் தனிச்சிறப்பான இடம் பெற்றுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "அபிஷேக் பாதக்",
+   "திருஷ்யம் நிறைவு",
+   "ஹிந்தி திரைப்படம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Drishyam The Conclusion director Abhishek Pathak speaks after Tamil release",
+   "lines": [
+    "As the Hindi film 'Drishyam The Conclusion' maintains strong box-office momentum, director Abhishek Pathak reveals he deliberately wrote comedic lines for the protagonist character.",
+    "Internet users have created numerous memes about the film following its release across regions.",
+    "Pathak gave this interview after the film's Tamil release.",
+    "The film deviates from the original Malayalam version with its own narrative, characters and humorous dialogues.",
+    "The director's response to the meme culture surrounding the film is noteworthy in the interview."
+   ],
+   "closing": "As the concluding chapter of the Drishyam series, this film has carved out a unique place in Hindi cinema."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Abhishek Pathak director",
+  "wiki_subject": "Drishyam 2 (film series)",
+  "person_en": "Abhishek Pathak",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "71db17c63144",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-10-14T16:19+05:30",
+  "links": [
+   "https://www.thehindu.com/entertainment/movies/drishyam-the-conclusion-director-abhishek-pathak-on-crafting-the-hindi-original-and-its-memetic-afterlife/article71582759.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/71db17c63144.mp3",
+  "created_ts": 1791974960.270355,
+  "status": "published"
+ },
+ {
+  "headline": "பால் அல்லாத 'பன்னீர்' விரோதப் பொதுநல வழக்கில் சென்னை உயர்நீதிமன்றம் உணவுப் பாதுகாப்பு ஆணையத்திடம் விளக்கம் கோரியது",
+  "lines": [
+   "டெல்லி உயர்நீதிமன்றத்தில் பன்னீர் எனப் பெயரிடப்பட்டு விற்கப்படும் பால் அல்லாத பொருள் தொடர்பாக பொதுநல வழக்கு தாக்கல் செய்யப்பட்டது.",
+   "இந்திய உணவுப் பாதுகாப்பு மற்றும் தரநிலை ஆணையம் எனப்படும் எஃப்எஸ்எஸ்ஏஐ தனது நிலைப்பாட்டை தெரிவிக்குமாறு நீதிமன்றம் உத்தரவிட்டது.",
+   "பன்னீர் என்பது அரசு நிர்ணயித்த தர விதிமுறைகளின் கீழ் வரும் நிலையான பால் பொருள் என்று மனுதாரர்கள் நீதிமன்றத்தில் தெரிவித்தனர்.",
+   "இதே போல காட்சியளிக்கும் பால் அல்லாத பொருளில் பால் சாராத பொருட்கள் கலக்கப்படுவதாகவும், அதில் சத்துப் பெறுமானம் குறைவாக உள்ளது எனவும் அவர்கள் குற்றம்சாட்டினர்.",
+   "எஃப்எஸ்எஸ்ஏஐ நீதிமன்றத்தில் பதில் அளித்த பிறகு இந்த வழக்கில் அடுத்த விசாரணை நடைபெறும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "பன்னீரின் தரநிலை தொடர்பான இந்த வழக்கின் தீர்ப்பு, நாடு முழுவதும் விற்கப்படும் பால்பொருட்களின் தர வரையறையை பெரிதும் பாதிக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "டெல்லி உயர்நீதிமன்றம்",
+   "எஃப்எஸ்எஸ்ஏஐ",
+   "பன்னீர்",
+   "பொதுநல வழக்கு"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Delhi High Court seeks FSSAI stand on non-dairy analogue 'paneer'",
+   "lines": [
+    "A public interest litigation was filed in the Delhi High Court against non-dairy products being sold as paneer.",
+    "The court directed the Food Safety and Standards Authority of India, known as FSSAI, to state its position.",
+    "Petitioners told the court that paneer is a standardised dairy product under existing food safety regulations.",
+    "They alleged that similar-looking non-dairy analogue products contain non-milk ingredients and have lower nutritional value.",
+    "The next hearing in the case is expected after FSSAI submits its response to the court."
+   ],
+   "closing": "The outcome of this case on paneer standards could affect the quality definition of similar dairy products sold across the country."
+  },
+  "front_cat": "routine",
+  "image_query": "paneer dairy product india",
+  "wiki_subject": "Food Safety and Standards Authority of India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7a71f0fe1bc1",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-14T16:18+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/delhi-high-court-seeks-fssai-stand-on-pil-against-non-dairy-analogous-paneer/article71583002.ece",
+   "https://www.thehindu.com/news/national/delhi-high-court-seeks-fssai-stand-on-pil-against-non-dairy-analogous-paneer/article71583002.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/e/e2/FSSAI_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Food Safety and Standards Authority of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Food_Safety_and_Standards_Authority_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/7a71f0fe1bc1.mp3",
+  "created_ts": 1791974917.585899,
+  "status": "published"
+ },
+ {
+  "headline": "பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ் நிகர லாபம் 120 சதவீதம் உயர்வு",
+  "lines": [
+   "பொதுத்துறை நிறுவனமான பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ், நடப்பு நிதியாண்டின் இரண்டாம் காலாண்டு முடிவுகளை வெளியிட்டுள்ளது.",
+   "நிகர லாபம் முந்தைய ஆண்டின் 368 கோடி ரூபாயிலிருந்து 120.1 சதவீதம் அதிகரித்து, 810 கோடி ரூபாயாக உயர்ந்துள்ளது.",
+   "இயக்குநிலை வருவாயும் 23.8 சதவீதம் அதிகரித்து, 9,300 கோடி ரூபாயை எட்டியுள்ளது.",
+   "இந்த எண்கள் நிறுவனத்தின் வலுவான நிதிச் செயல்பாட்டுக்கும் குறிப்பிடத்தக்க வளர்ச்சிக்கும் ஆதாரமாகும்.",
+   "பொதுத்துறை மின் உற்பத்தி சாதனங்களை உற்பத்தி செய்யும் முக்கிய நிறுவனமாக பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ் செயல்பட்டு வருகிறது."
+  ],
+  "closing": "பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ் மின் உற்பத்தி சாதனங்களை உற்பத்தி செய்யும் முக்கிய பொதுத்துறை நிறுவனமாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "பாரத் ஹெவி எலக்ட்ரிக்கல்ஸ்",
+   "நிகர லாபம்",
+   "இயக்குநிலை வருவாய்",
+   "இரண்டாம் காலாண்டு"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "BHEL Net Profit Jumps 120 Percent in Q2 Results",
+   "lines": [
+    "State-run Bharat Heavy Electricals Limited has announced its second quarter results for the current fiscal year.",
+    "Net profit rose 120.1 percent year-on-year to Rs 810 crore, up from Rs 368 crore in the same period last year.",
+    "Revenue from operations also increased by 23.8 percent, reaching Rs 9,300 crore.",
+    "The company said these figures reflect its strong financial performance during the quarter.",
+    "The company's results for the next quarter are expected to be announced in the coming months."
+   ],
+   "closing": "Bharat Heavy Electricals Limited is a major public sector company that manufactures power generation equipment."
+  },
+  "front_cat": "routine",
+  "image_query": "BHEL power plant",
+  "wiki_subject": "Bharat Heavy Electricals Limited",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "a4854676c0a4",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-14T16:17+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/earnings/bhel-q2-results-net-profit-skyrockets-120-yoy-to-rs-810-crore-revenue-rises-24/articleshow/134936902.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/BHEL_logo.svg/500px-BHEL_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Bharat Heavy Electricals Limited",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Bharat_Heavy_Electricals_Limited",
+   "symbolic": false
+  },
+  "audio": "data/audio/a4854676c0a4.mp3",
+  "created_ts": 1791974846.7135823,
+  "status": "published"
+ },
+ {
+  "headline": "முப்பதாயிரம் கோடி ரூபாய் ஜியோ ஐபிஓ ஆவணம் இன்று தாக்கல்",
+  "lines": [
+   "ரிலையன்ஸ் இண்டஸ்ட்ரீஸ் நிறுவனத்தின் துணை நிறுவனமான ஜியோ பிளாட்ஃபார்ம்ஸ், முப்பதாயிரம் கோடி ரூபாய் மதிப்பிலான பங்கு விற்பனைக்கான வரைவு ஆவணத்தை (ஆர்.எச்.பி) இன்று தாக்கல் செய்யக்கூடும் என தெரிவிக்கப்படுகிறது.",
+   "பங்கு ஒன்றுக்கு 1,065 முதல் 1,119 ரூபாய் வரை விலை வரம்பு நிர்ணயிக்கப்படக்கூடும் என தகவல்கள் தெரிவிக்கின்றன.",
+   "அக்டோபர் 21 முதல் 23 வரை இந்த பங்கு விற்பனை பொதுமக்களுக்கு திறக்கப்படும் என எதிர்பார்க்கப்படுகிறது.",
+   "இந்த பங்கு விற்பனை நிறைவடைந்தால், இது இந்தியாவின் மிகப்பெரிய பங்கு விற்பனையாக அமையும் என கணக்கிடப்படுகிறது.",
+   "தற்போதைய முதலீட்டாளர்கள் இந்த கட்டத்தில் தங்கள் பங்குகளை விற்பனை செய்ய வாய்ப்பில்லை என தகவல்கள் தெரிவிக்கின்றன."
+  ],
+  "closing": "ஜியோ பிளாட்ஃபார்ம்ஸ் நிறுவனம் ஜியோவின் மூலம் இந்தியாவில் முன்னணி தொலைத்தொடர்பு சேவை நிறுவனமாக செயல்பட்டு வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": "2026-10-14"
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "ஜியோ பிளாட்ஃபார்ம்ஸ்",
+   "ரிலையன்ஸ் இண்டஸ்ட்ரீஸ்",
+   "பங்குச் சந்தை",
+   "இந்தியா"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Jio likely to file IPO papers today for Rs 30,000 crore issue",
+   "lines": [
+    "Reliance Industries subsidiary Jio Platforms is expected to file its final IPO document today for a share sale worth Rs 30,000 crore.",
+    "The price band is likely to be set between Rs 1,065 and Rs 1,119 per share, according to reports.",
+    "The issue is expected to open for public subscription from October 21 to 23.",
+    "If completed, this would become India's largest-ever share sale, according to estimates.",
+    "Existing investors are not expected to sell their stakes during this round, as per the reports."
+   ],
+   "closing": "Jio Platforms operates as India's leading telecommunications service provider."
+  },
+  "front_cat": "big_project",
+  "image_query": "Reliance Jio Platforms India",
+  "wiki_subject": "Jio Platforms",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "6044ff5af60f",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-14T16:16+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/ipos/fpos/exclusive-countdown-begins-for-the-mother-of-all-ipos-jio-likely-to-file-rhp-today-for-record-rs-30000-crore-issue/articleshow/134932999.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Jio Platforms",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Jio_Platforms",
+   "symbolic": false
+  },
+  "audio": "data/audio/6044ff5af60f.mp3",
+  "created_ts": 1791974793.6378808,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261014",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
   "lines": [
@@ -18723,386 +19074,6 @@
   "created_ts": 1791256390.3496652,
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "பட்டினப்பாக்கத்தில் புதிய செயலக கட்டிடம் — வழக்கு திரும்பப் பெறப்பட்டது",
-  "lines": [
-   "தமிழ்நாடு புதிய செயலக கட்டிடத்தை பட்டினப்பாக்கத்தில் கட்டுவதை எதிர்த்து தொடரப்பட்ட வழக்கு சென்னை உயர்நீதிமன்றத்தில் விசாரணைக்கு வந்தது.",
-   "வழக்கை விசாரித்த தலைமை நீதிபதி சுஷ்ருத் அரவிந்த் தர்மாதிகாரி மற்றும் நீதிபதி ஜி. அருள்முருகன் ஆகியோர் அடங்கிய அமர்வு இதை விசாரித்தது.",
-   "இந்த வழக்கு போதிய ஆய்வு இல்லாமல், பரபரப்புக்காக தாக்கல் செய்யப்பட்டதாக நீதிபதிகள் கருத்து தெரிவித்தனர்.",
-   "இதைத் தொடர்ந்து வழக்குத் தொடர்ந்தவர் சார்பில் ஆஜரான வழக்கறிஞர் வழக்கைத் திரும்பப் பெறுவதாக தெரிவித்தார்.",
-   "நீதிமன்றம் வழக்கை திரும்பப் பெறப்பட்டதாக பதிவு செய்து முடித்தது."
-  ],
-  "closing": "புதிய செயலக கட்டிடத் திட்டம் தொடர்பாக ஆறு மாதங்களாக பல்வேறு தரப்பினர் வெவ்வேறு கருத்துகளை முன்வைத்து வந்துள்ளனர்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர்நீதிமன்றம்",
-   "பட்டினப்பாக்கம்",
-   "தமிழ்நாடு புதிய செயலகம்",
-   "சுஷ்ருத் அரவிந்த் தர்மாதிகாரி",
-   "ஜி. அருள்முருகன்"
-  ],
-  "confidence": 0.8,
-  "en": {
-   "headline": "Madras HC case against new Secretariat site withdrawn",
-   "lines": [
-    "A case opposing construction of Tamil Nadu's new Secretariat building at Pattinapakkam came up for hearing at the Madras High Court.",
-    "The bench comprising Chief Justice Sushrut Arvind Dharmadhikari and Justice G. Arul Murugan heard the matter.",
-    "The judges observed that the petition appeared to have been filed casually and for publicity, without proper research.",
-    "Following these observations, counsel for the litigant informed the court that the petitioner wished to withdraw the case.",
-    "The court recorded the case as dismissed as withdrawn."
-   ],
-   "closing": "The new Secretariat project at Pattinapakkam has previously drawn varied opinions from different quarters."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Madras High Court",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "b0ab9e5d1202",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-10-06T08:36+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-dismisses-as-withdrawn-a-case-against-new-secretariat-complex-in-pattinapakkam/article71546062.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/b0ab9e5d1202.mp3",
-  "created_ts": 1791255996.9670334,
-  "status": "published"
- },
- {
-  "headline": "மதுராந்தகம், தாராபுரம் தொகுதிகளில் இடைத்தேர்தல் வாக்குப்பதிவு தொடக்கம்",
-  "lines": [
-   "தமிழ்நாட்டில் மதுராந்தகம் மற்றும் தாராபுரம் சட்டமன்றத் தொகுதிகளுக்கான இடைத்தேர்தல் வாக்குப்பதிவு இன்று தொடங்கியது.",
-   "இரு தொகுதிகளிலும் வாக்காளர்கள் காலை முதல் வாக்குச் சாவடிகளில் வரிசையில் நின்று வாக்களித்து வருகின்றனர்.",
-   "தேர்தல் ஆணையத்தின் வழிகாட்டுதலின்படி பாதுகாப்பு ஏற்பாடுகளுடன் வாக்குப்பதிவு நடைபெறுவதாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
-   "இந்த இரு தொகுதிகளிலும் ஏற்பட்ட காலியிடங்களைத் தொடர்ந்து இடைத்தேர்தல் நடத்தப்படுகிறது.",
-   "வாக்குப்பதிவு முடிவடைந்த பின் எண்ணிக்கை நடவடிக்கை மூலம் வெற்றி பெறும் வேட்பாளர்கள் அறிவிக்கப்படுவார்கள்."
-  ],
-  "closing": "மதுராந்தகம் மற்றும் தாராபுரம் தொகுதிகளின் இடைத்தேர்தல் முடிவு மாநில அரசியலில் என்ன தாக்கத்தை ஏற்படுத்தும் என்பதைப் பொதுமக்கள் கவனித்து வருகின்றனர்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": "2026-10-06"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "மதுராந்தகம்",
-   "தாராபுரம்",
-   "தேர்தல் ஆணையம்",
-   "தமிழ்நாடு சட்டமன்றம்"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Voting begins for Maduranthakam, Tharapuram bypolls",
-   "lines": [
-    "Voting began today for the by-elections to the Maduranthakam and Tharapuram assembly constituencies in Tamil Nadu.",
-    "Voters in both constituencies have been queuing at polling stations since morning to cast their votes.",
-    "Officials said polling is being conducted with security arrangements as per Election Commission guidelines.",
-    "The by-elections are being held to fill vacancies that arose in these two constituencies.",
-    "After voting concludes, the winning candidates will be announced through the counting process."
-   ],
-   "closing": "People are watching closely to see what impact the results from Maduranthakam and Tharapuram will have on state politics."
-  },
-  "front_cat": "election_major",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": true,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "b2952c89043c",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-06T08:33+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/06/madhuranthakam-and-dharapuram-by-elections-polling-has-begun"
-  ],
-  "image": {
-   "url": "data/bank/politics03.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/b2952c89043c.mp3",
-  "created_ts": 1791255801.367625,
-  "status": "published"
- },
- {
-  "headline": "அண்ணன் சீர் திட்டத்திற்கு ₹812 கோடி ஒதுக்கீடு",
-  "lines": [
-   "தமிழ்நாடு அரசு அண்ணன் சீர் திட்டத்திற்காக 812 கோடி ரூபாய் நிதி ஒதுக்கீடு செய்துள்ளது.",
-   "இந்தத் தொகை அரசாணை வடிவில் வெளியிடப்பட்டுள்ளது.",
-   "அரசாணை வெளியான நாளன்று அல்லது அதற்குப் பிறகு நடைபெறும் திருமணங்கள் மட்டுமே இத்திட்டத்தின் கீழ் பலன் பெறும் என அரசு தெரிவித்துள்ளது.",
-   "இதற்கு முன் நடந்த திருமணங்களுக்கு இந்த நிதி உதவி பொருந்தாது.",
-   "திட்டத்தின் விண்ணப்ப முறை மற்றும் தகுதி நிபந்தனைகள் குறித்து தொடர்புடைய துறை விரைவில் விளக்கம் அளிக்கும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "அரசாணை வெளியான தேதிக்குப் பின் நடக்கும் திருமணங்கள் மட்டுமே இத்திட்டத்தில் சேர்க்கப்படும் என்பது குறிப்பிடத்தக்கது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "தமிழ்நாடு அரசு",
-   "அண்ணன் சீர் திட்டம்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Tamil Nadu allocates ₹812 crore for Annan Seer scheme",
-   "lines": [
-    "The Tamil Nadu government has allocated ₹812 crore for the Annan Seer scheme.",
-    "The amount was announced through a government order.",
-    "The government stated that only marriages taking place on or after the date of issue of the order would be covered under the scheme.",
-    "Marriages conducted before this date will not be eligible for the financial assistance.",
-    "Details on the application process and eligibility criteria are expected to be released by the concerned department soon."
-   ],
-   "closing": "Beneficiaries are advised to note that only marriages after the date of the government order will qualify under the scheme."
-  },
-  "front_cat": "district_scheme",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "21f3befd7017",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-10-06T04:51+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/tn-allocated-812-crore-for-annan-seer-scheme/article71548872.ece"
-  ],
-  "image": {
-   "url": "data/bank/govt10.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/21f3befd7017.mp3",
-  "created_ts": 1791242513.2227013,
-  "status": "published"
- },
- {
-  "headline": "நீலகிரி உள்ளிட்ட ஐந்து மாவட்டங்களில் இன்று கனமழைக்கு வாய்ப்பு",
-  "lines": [
-   "தமிழ்நாட்டில் நீலகிரி உள்ளிட்ட ஐந்து மாவட்டங்களில் இன்று கனமழை பெய்யும் வாய்ப்பு இருப்பதாக வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
-   "இந்த ஐந்து மாவட்டங்களில் பலத்த மழை பதிவாகக்கூடும் என எச்சரிக்கை வெளியிடப்பட்டுள்ளது.",
-   "மலைப்பகுதியான நீலகிரி மாவட்டத்தில் மழையின் தாக்கம் கூடுதலாக இருக்கும் என எதிர்பார்க்கப்படுகிறது.",
-   "பாதிக்கப்படும் மற்ற நான்கு மாவட்டங்களின் பெயர்கள் குறித்த தெளிவான விவரம் இன்னும் வெளியிடப்படவில்லை.",
-   "வானிலை நிலவரம் தொடர்பாக அடுத்த சில நாட்களில் மேலும் விவரமான அறிவிப்புகள் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இன்று பின்னர் மாநிலத்தின் பிற பகுதிகளுக்கும் இந்த மழை எச்சரிக்கை விரிவடையுமா என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "தினமணி",
-    "doc": null,
-    "date": "2026-10-06"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "நீலகிரி",
-   "தமிழ்நாடு",
-   "வானிலை ஆய்வு மைய்யம்",
-   "கனமழை",
-   "ஐந்து மாவட்டங்கள்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Heavy rain likely in five districts including Nilgiris today",
-   "lines": [
-    "The weather department has said heavy rain is likely in five districts of Tamil Nadu including Nilgiris today.",
-    "An alert has been issued warning of heavy rainfall in these five districts.",
-    "The hilly Nilgiris district is expected to see a greater impact from the rain.",
-    "Clear details about the names of the other four affected districts have not yet been released.",
-    "Further detailed announcements on the weather situation are expected over the coming days."
-   ],
-   "closing": "It remains to be seen whether this rain alert will extend to other parts of the state later today."
-  },
-  "id": "bf988f495a9c",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-06T04:51+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/05/chance-of-heavy-rain-in-5-districts-today-4",
-   "https://www.dinamani.com/tamilnadu/2026/Oct/05/chance-of-heavy-rain-in-five-districts-including-nilgiris-today"
-  ],
-  "image": {
-   "url": "data/bank/weather04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/bf988f495a9c.mp3",
-  "created_ts": 1791242479.0320735,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "மதுராந்தகம் தொகுதி இடைத்தேர்தல்: இன்று பொது விடுமுறை அறிவிப்பு",
-  "lines": [
-   "மதுராந்தகம் சட்டமன்றத் தொகுதிக்கான இடைத்தேர்தல் இன்று நடைபெறுகிறது.",
-   "இதையொட்டி அப்பகுதி முழுவதும் இன்று பொது விடுமுறையாக அறிவிக்கப்பட்டுள்ளது.",
-   "வாக்காளர்கள் அனைவரும் தடையின்றி வாக்களிக்க வேண்டும் என்பதற்காக இந்த ஏற்பாடு செய்யப்பட்டுள்ளது.",
-   "தேர்தல் ஆணையத்தின் அறிவுறுத்தலின் பேரில் இந்த விடுமுறை நடைமுறைக்கு வந்துள்ளது.",
-   "வாக்கு எண்ணிக்கை தேதி குறித்து தேர்தல் ஆணையம் தனியாக அறிவிக்கும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "மதுராந்தகம் தொகுதி வாக்காளர்கள் இன்று தங்கள் உரிமையைப் பயன்படுத்த அழைக்கப்பட்டுள்ளனர்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "மதுராந்தகம்",
-   "தேர்தல் ஆணையம்",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Madhurantakam constituency bypoll: Public holiday declared today",
-   "lines": [
-    "The by-election for Madhurantakam assembly constituency is being held today.",
-    "A public holiday has been declared in the area in connection with the bypoll.",
-    "The arrangement has been made so that all voters can cast their votes without hindrance.",
-    "The holiday has come into effect following instructions from the Election Commission.",
-    "The counting date is expected to be announced separately by the Election Commission."
-   ],
-   "closing": "Voters in Madhurantakam constituency have been called upon to exercise their franchise today."
-  },
-  "front_cat": "election_major",
-  "image_query": "India assembly election polling booth",
-  "wiki": "",
-  "id": "c076312788fc",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-06T04:49+05:30",
-  "links": [
-   "https://www.dinamani.com/latest-news/sub-latest-news/2026/Oct/05/maduranthakam-constituency-by-election-public-holiday-today"
-  ],
-  "image": {
-   "url": "data/bank/politics03.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/c076312788fc.mp3",
-  "created_ts": 1791242391.9264958,
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "மதுராந்தகம், தாராபுரம் தொகுதிகளுக்கு அக்டோபர் 6-ஆம் தேதி பொது விடுமுறை",
-  "lines": [
-   "மதுராந்தகம் மற்றும் தாராபுரம் சட்டமன்றத் தொகுதிகளுக்கான இடைத்தேர்தல் காரணமாக அக்டோபர் 6-ஆம் தேதி பொது விடுமுறை அறிவிக்கப்பட்டுள்ளது.",
-   "இந்த இரு தொகுதிகளிலும் வாக்காளர்களாகப் பதிவு செய்துள்ள அனைத்து ஊழியர்களுக்கும் இந்த விடுமுறை பொருந்தும்.",
-   "செங்கல்பட்டு, திருப்பூர் மற்றும் அருகிலுள்ள மாவட்டங்களில் பணிபுரியும் ஊழியர்கள் தொடர்பாக அரசு தனி உத்தரவு பிறப்பித்துள்ளது.",
-   "மதுராந்தகம் அல்லது தாராபுரம் தொகுதிகளில் வாக்காளர்களாகப் பதிவு செய்துள்ள இந்த ஊழியர்களுக்கு ஊதியத்துடன் கூடிய விடுமுறை வழங்கப்படும் என உத்தரவில் தெரிவிக்கப்பட்டுள்ளது.",
-   "வாக்காளர்கள் தங்கள் உரிமையைப் பயன்படுத்த இந்த ஏற்பாடு உதவும் என அரசு தரப்பில் தெரிவிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "வெவ்வேறு மாவட்டங்களில் பணிபுரியும் இந்த வாக்காளர்கள் இன்று எவ்வளவு பேர் வாக்களிக்கச் செல்கின்றனர் என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": "2026-10-06"
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "மதுராந்தகம்",
-   "தாராபுரம்",
-   "செங்கல்பட்டு",
-   "திருப்பூர்",
-   "இடைத்தேர்தல்"
-  ],
-  "confidence": 0.8,
-  "en": {
-   "headline": "Public holiday declared for Madurantakam, Dharapuram bypolls today",
-   "lines": [
-    "A public holiday has been declared today, October 6, due to the by-elections in Madurantakam and Dharapuram assembly constituencies.",
-    "The holiday applies to all employees registered as voters in these two constituencies.",
-    "The government has issued a separate order for employees working in Chengalpattu, Tiruppur and neighbouring districts.",
-    "These employees, if registered as voters in Madurantakam or Dharapuram, will be given a paid holiday, the order stated.",
-    "Officials said the arrangement would help voters exercise their franchise."
-   ],
-   "closing": "It remains to be seen how many of these voters working across different districts turn out to vote today."
-  },
-  "front_cat": "election_major",
-  "image_query": "polling booth election India",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": true,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "f3126f95d698",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-10-06T04:48+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/byelections-in-tamil-nadu-public-holiday-for-madurantakam-dharapuram-on-october-6/article71546352.ece"
-  ],
-  "image": {
-   "url": "data/bank/govt01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/f3126f95d698.mp3",
-  "created_ts": 1791242295.3574774,
   "status": "published"
  }
 ]
