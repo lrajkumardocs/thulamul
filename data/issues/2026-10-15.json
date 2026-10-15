@@ -1,5 +1,236 @@
 [
  {
+  "id": "art_tech_20261015",
+  "headline": "UPI பயன்பாட்டில் பாதுகாப்பாக இருக்க அன்றாடக் குறிப்புகள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது பின் எண்ணை யாருடனும் பகிரக் கூடாது.",
+   "பணம் பெறுவதற்கு எந்த சூழலிலும் UPI பின் தேவைப்படாது என்பதை நினைவில் கொள்ள வேண்டும்.",
+   "அறியாத லிங்க் மூலம் வரும் கோரிக்கைகளை அனுமதிக்காமல் இருப்பது நல்லது.",
+   "ஆதார் எண்ணை பகிரும்போது மாஸ்க் செய்யப்பட்ட ஆதார் அல்லது வர்சுவல் ஐடி பயன்படுத்துவது பாதுகாப்பானது.",
+   "மொபைலில் தேவையற்ற செயலிகளுக்கு அனுமதிகளை (permissions) குறைவாக வைத்திருப்பது இணைய பாதுகாப்பிற்கு உதவும்."
+  ],
+  "closing": "சிறு எச்சரிக்கை, பெரிய மோசடியைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-15"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "UPI பாதுகாப்பு",
+   "இணைய பாதுகாப்பு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-15T16:17+05:30",
+  "created_ts": 1792061266.809951,
+  "audio": "data/audio/art_tech_20261015.mp3"
+ },
+ {
+  "headline": "அக்டோபர் 10 தடுப்பு நடவடிக்கை குறித்து தில்லி காவல்துறை உச்ச நீதிமன்றத்தில் விளக்கம்",
+  "lines": [
+   "அக்டோபர் பத்தாம் தேதி தடுத்து வைக்கப்பட்டவர்களுக்கு சூடான, புதிய, நல்ல உணவு வழங்கப்பட்டதாக தில்லி காவல்துறை உச்ச நீதிமன்றத்தில் தெரிவித்தது.",
+   "அந்த நேரத்தில் செல்லுலார் இணையம் மட்டுமே இடைநிறுத்தப்பட்டதாகவும் காவல்துறை விளக்கம் அளித்தது.",
+   "புது தில்லியின் முக்கிய, உணர்திறன் மிக்க பகுதியின் அமைதியையும் ஒழுங்கையும் காக்க முன்னெச்சரிக்கை நடவடிக்கைகள் அவசியமானவை என காவல்துறைத் தலைவர் தெரிவித்தார்.",
+   "இந்தத் தடுப்பு நடவடிக்கைகள் தொடர்பான வழக்கு உச்ச நீதிமன்றத்தில் விசாரணைக்கு வந்தது.",
+   "இந்த விவகாரம் தொடர்பான மேல் விசாரணை உச்ச நீதிமன்றத்தில் தொடரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இணைய இடைநிறுத்தமும் பெருமளவு தடுப்பு நடவடிக்கைகளும் குடிமக்கள் உரிமை தொடர்பான கேள்விகளை எழுப்பியுள்ளன.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "தில்லி காவல்துறை",
+   "உச்ச நீதிமன்றம்",
+   "புதுதில்லி",
+   "கைபேசி இணையம்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Delhi Police explains October 10 detentions before Supreme Court",
+   "lines": [
+    "Delhi Police told the Supreme Court that those detained on October 10 were provided hot, fresh and good meals.",
+    "Police said only cellular internet was suspended at the time, while other internet services continued.",
+    "The police chief said preventive measures were necessary to protect the peace and tranquility of the vital, sensitive New Delhi area.",
+    "A case concerning these detention measures came up for hearing before the Supreme Court.",
+    "Further proceedings on the matter are expected to continue in the Supreme Court."
+   ]
+  },
+  "id": "1a76361ee800",
+  "flags": [],
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-15T16:15+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/oct-10-detainees-provided-hot-fresh-good-meals-only-cellular-internet-was-suspended-delhi-police-to-sc/article71586610.ece",
+   "https://www.thehindu.com/news/national/oct-10-detainees-provided-hot-fresh-good-meals-only-cellular-internet-was-suspended-delhi-police-to-sc/article71586610.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Emblem_of_the_Supreme_Court_of_India.svg/1280px-Emblem_of_the_Supreme_Court_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Supreme Court of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Supreme_Court_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/1a76361ee800.mp3",
+  "created_ts": 1792061110.233715,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "மதம் மாறியவருக்கு இடஒதுக்கீடு இல்லை என உயர்நீதிமன்றத் தீர்ப்பை உறுதி செய்த உச்ச நீதிமன்றம்",
+  "lines": [
+   "இஸ்லாம் மதத்திற்கு மதம் மாறிய ஒருவர் தொடர்பான வழக்கில் உச்ச நீதிமன்றம் இன்று அக்டோபர் பதினைந்தாம் தேதி தீர்ப்பு அளித்தது.",
+   "மதம் மாறுவதற்கு முன் கொண்டிருந்த சமூக அந்தஸ்தின் அடிப்படையில் பிற்படுத்தப்பட்டோர் இடஒதுக்கீடு பெற முடியாது என்று நீதிமன்றம் தெளிவுபடுத்தியது.",
+   "இதே கருத்தைத் தெரிவித்த சென்னை உயர்நீதிமன்றத்தின் முந்தைய தீர்ப்பை உச்ச நீதிமன்றம் உறுதி செய்தது.",
+   "மதம் மாறிய நபர் தனது பழைய சமூக அந்தஸ்தைச் சுட்டிக்காட்டி இடஒதுக்கீடு கோரி மனு தாக்கல் செய்திருந்தார்.",
+   "இந்தத் தீர்ப்பு, மதம் மாறியோரின் இடஒதுக்கீடு கோரிக்கைகள் தொடர்பான வழக்குகளுக்கு முன்னுதாரணமாக அமையும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்து மதத்தைச் சேர்ந்த பிற்படுத்தப்பட்ட வகுப்பினர் இஸ்லாமிற்கு மதம் மாறினால், முன்பு கிடைத்த இடஒதுக்கீட்டு உரிமை தொடராது என்பதே இத்தீர்ப்பின் சாரம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": "2026-10-15"
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "உச்ச நீதிமன்றம்",
+   "சென்னை உயர் நீதிமன்றம்",
+   "இடஒதுக்கீடு",
+   "மதம் மாற்றம்",
+   "பிற்படுத்தப்பட்ட வகுப்பினர்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Supreme Court upholds HC ruling denying quota to religious converts",
+   "lines": [
+    "The Supreme Court of India delivered its verdict today, October 15, in a case involving a person who converted to Islam.",
+    "The court clarified that a person cannot claim backward class reservation benefits based on the social status held before religious conversion.",
+    "The Supreme Court upheld an earlier ruling by the Madras High Court that had made the same observation.",
+    "The convert had filed a petition seeking reservation benefits by citing his earlier social status as a backward class Hindu.",
+    "The verdict is expected to serve as a precedent for similar cases involving reservation claims by religious converts."
+   ],
+   "closing": "The essence of the ruling is that Hindus from backward classes who convert to Islam will no longer retain the reservation benefits they previously held."
+  },
+  "front_cat": "court_landmark",
+  "image_query": "Supreme Court of India building",
+  "wiki_subject": "Supreme Court of India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "ec6dc84799e4",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-15T16:12+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cm9dzq62zjz8o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Emblem_of_the_Supreme_Court_of_India.svg/1280px-Emblem_of_the_Supreme_Court_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Supreme Court of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Supreme_Court_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/ec6dc84799e4.mp3",
+  "created_ts": 1792060957.1154957,
+  "status": "published"
+ },
+ {
+  "headline": "பாகிஸ்தானின் வடமேற்குப் பகுதியில் பள்ளிக் கூரை இடிந்து 29 பேர் பலி",
+  "lines": [
+   "பாகிஸ்தானின் வடமேற்குப் பகுதியில் உள்ள பெஷாவர் நகரில் ஒரு தனியார் பள்ளியின் கூரை இடிந்து விழுந்தது.",
+   "இந்த விபத்தில் 28 மாணவர்களும் ஒரு ஆசிரியரும் உட்பட குறைந்தது 29 பேர் உயிரிழந்தனர்.",
+   "அல் கைர் கல்வி மையம் எனும் இந்தப் பள்ளியில் இந்த சம்பவம் நடந்தது.",
+   "இடிந்த கட்டிடத்தின் கீழ் மேலும் சிலர் சிக்கியிருக்கலாம் என்ற அச்சத்துடன் மீட்புப் பணிகள் தொடர்ந்து நடைபெற்று வருகின்றன.",
+   "விபத்துக்கான காரணம் தொடர்பாக விசாரணை தொடங்கப்பட்டுள்ளது."
+  ],
+  "closing": "பாகிஸ்தானில் பள்ளிக் கட்டிடங்கள் சிதைவடைந்து உயிரிழப்புகள் ஏற்படும் சம்பவங்கள் முன்பும் பதிவாகியுள்ளன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "பாகிஸ்தான்",
+   "பெஷாவர்",
+   "அல் கைர் கல்வி மையம்",
+   "மாணவர்கள்",
+   "ஆசிரியர்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "School Roof Collapse in Pakistan's Peshawar Kills 29 People",
+   "lines": [
+    "A roof at a private school in Peshawar, in northwestern Pakistan, suddenly collapsed.",
+    "The incident killed at least 29 people, including 28 students and one teacher.",
+    "Local officials said the collapse occurred at the Al-Khair Education Centre.",
+    "Rescue operations are continuing amid fears that more people may be trapped under the collapsed structure.",
+    "An investigation into the cause of the collapse has reportedly begun, with more details expected."
+   ],
+   "closing": "Pakistan has previously witnessed similar incidents of school building collapses leading to fatalities."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "Peshawar",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7baded7703b4",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-15T16:11+05:30",
+  "links": [
+   "https://www.aljazeera.com/news/2026/10/15/school-roof-collapses-in-northwestern-pakistan-killing-at-least-29-people?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Islamia_College_Peshawar_%28Public_Sector_University%29%2C_Khyber_Pakhtunkhwa%2C_Pakistan_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Peshawar",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Peshawar",
+   "symbolic": false
+  },
+  "audio": "data/audio/7baded7703b4.mp3",
+  "created_ts": 1792060909.1407223,
+  "status": "published"
+ },
+ {
   "id": "art_world_20261015",
   "headline": "ஐக்கிய நாடுகள் சபையும் இந்தியாவின் வெளியுறவுக் கொள்கை வரலாறும்",
   "lines": [
