@@ -1,42 +1,42 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 15 புதியவை
+[fetch] The Hindu TN: 22 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 16 புதியவை
+[fetch] BBC World: 22 புதியவை
+[fetch] Al Jazeera: 20 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] The Hindu Cinema: 11 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 24 புதியவை
+[fetch] The Hindu Tech: 23 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 20 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 29 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 1 புதியவை
+[fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 27 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 30 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8c022be890>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7effb58067d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,48 +65,45 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 722 → நிகழ்வுகள் 663
-[triage] 663 → 75 | காலி: india:4, crime:3, jobs:3, world:2, health:2
-[skip] இவை தமிழ்நாட்டில் அமையாத மத்திய நிறுவனங்களின் (ஐஐஎம் கோழிக்க
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] பாகிஸ்தான் பெஷாவரில் பள்ளிக் கூரை இடிந்த → பாகிஸ்தানின் வடமேற்குப் பகுதியில் பள்ளிக
-[தரம்] தமிழ் அல்லாத எழுத்து: না → ஒரு திருத்தம்
-[tts-edge] 7baded7703b4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பாகிஸ்தானின் வடமேற்குப் பகுதியில் பள்ளிக் கூரை இடிந்து 29 பேர் பலி
-[tts-edge] ec6dc84799e4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதம் மாறியவருக்கு இடஒதுக்கீடு இல்லை என உயர்நீதிமன்றத் தீர்ப்பை உறுதி செய்த உச்ச நீதிமன்றம்
-[skip] கேரள மாநிலத்தின் உள்ளூர் சாலை விபத்து - தமிழ்நாட்டுடன் நேரடி
-[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
-[skip] வெளிநாட்டு உள்நாட்டுப் போரின் தினசரி ராணுவ நடவடிக்கைகள் தமிழ
-[skip] ஐரோப்பிய நிதி நெருக்கடி — தமிழ்நாடு / இந்திய வாசகரைப் பாதிக்
-[skip] இலங்கை உள்நாட்டு விவகாரம் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் த
-[skip] வெளிநாட்டுக் সামরிக விவகாரம் — தமிழ்நாடு அல்லது இந்தியாவுக்க
-[skip] அல்பேனியாவின் உள்நாட்டு மாணவர் போராட்டம். தமிழ்நாடு/இந்தியா 
-[skip] வெளிநாட்டு நிறுவனத்தின் உள்ளூர் வேலைநீக்கம் — தமிழ்நாடு/இந்த
-[skip] பாக்கிய வாசகருக்குப் பொருந்தாது — வெளிநாட்டு மத நபர்களின் ஆர
-[skip] சீனா-வட கொரியா இடையேயான நாட்டுப்ற உள்ளாட்சிப் பணி. தமிழ்நாடு
-[skip] 伊拉克의 통화 평가절하는 현지 경제 문제이며, 타밀나두 또는 인도 독자에게 직접적인 영향을 미치지 않습니다.
-[skip] இவை மேகாலயா மற்றும் மகாராஷ்டிரா மாநிலங்களின் உள்ளூர் அரசு வே
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg3tKT8QvP4jLnwoPv6TJ'}
-[publish] அக்டோபர் 10 தடுப்பு நடவடிக்கை குறித்து தில்லி காவல்துறை உச்ச நீதிமன்றத்தில் விளக்கம்
-[skip] பஞ்சாப் மாநில காங்கிரஸ் கட்சியின் உள்ளூர் தலைமை மாற்றம் தொடர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg3tU3g2Mc4hJ6YTTN9DL'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg3tWW1rGGDBhtT4YLo85'}
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two arrested in Chennai for cheating over 60 peo
-[skip] தமிழ்நாட்டு வாசகரைக் குறிப்பாகப் பாதிக்காத பொதுவான ভোক்তা வி
-[skip] வெளிநாட்டுத் தொடர் — தமிழக வாசகரின் அன்றாட உறவே இல்லை. தமிழ்
-[skip] வெளிநாட்டு cricket வாசகர் செய்தி - தமிழ்நாடு/இந்திய வாசகரை ந
-[skip] தெல்லி மாநில அரசின் உள்ளூர் போலீஸ் நடவடிக்கை; தமிழ்நாட்டுக்க
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Open platform screen doors, poor signage among i
-[skip] മാണ്ഠ്യ സംബന്ധിതമായ സ്ഥാനിക അവസരം — കേരളത്തിലെ കോഴിക്കോട്ട് 
-[skip] விமர்சனம் மற்றும் ஊகம் — 'யார் சிறந்தவர்' என்ற ஒப்பீட்டு பகு
-[skip] தென்னாப்பிரிக்கா கிரிக்கெட் அணির உள் மாற்றம் — தமிழ்நாடு/இந்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Durga Puja 2026: Your guide to Chennai’s pandals
-[filler] tech கட்டுரை
+[run] புதியவை 735 → நிகழ்வுகள் 678
+[triage] 678 → 54 | காலி: india:4, crime:3, jobs:3, health:2, cinema:2
+[skip] அசாம் மாநிலத்தின் போடோலாந்து பிராந்தியத்தின் உள்ளூர் வேலைவாய
+[tts-edge] 4dfeead038ca: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] பாகிஸ்தான் பெஷாவரில் பள்ளிக்கூரை இடிந்து 33 பேர் பலி
+[skip] இது இந்தியாவின் ஒரு குறிப்பிட்ட மாநிலத்தில் நடந்த தனிப்பட்ட 
+[skip] உத்தரகாண்ட் மாநிலத்தின் உள்ளூர் வழக்கு; தமிழ்நாடு/இந்திய அளவ
+[skip] வெளிநாட்டு உள்நாட்டு குற்றவியல் வழக்கு — அமெரிக்க ராணுவ நீதி
+[skip] உலகச் செய்திதான் என்றாலும், இந்தச் செய்தி தமிழ்நாடு வாசகரைப்
+[skip] வெளிநாட்டு உள்ளூர் பேரிடர் செய்தி — தமிழ்நாடு/இந்தியத் தொடர்
+[skip] உலகக் கப்பல் போக்குவரத்துத் தகராறு — தமிழ்நாடு/இந்தியாவுக்கு
+[skip] அமெரிக்காவின் உள்நாட்டு சட்ட நடைமுறை. தமிழ்நாடு/இந்தியவாசகரு
+[skip] வெளிநாட்டுக் போர்ச்சம்பவம் — தமிழ்நாடு/இந்தியா வாசகரைத் தরப்
+[skip] பாகிஸ்தானின் உள்ளூர் விபத்து — தமிழ்நாட்டு/இந்திய வாசகரைப் ப
+[skip] பிற நாட்டின் உள்ளூர் சுற்றுச்சூழல் நிகழ்வு; தமிழ்நாடு/இந்திய
+[skip] அமெரிக்காவின் உள்நாட்டுக் குற்றம்; தமிழ்நாடு/இந்தியாவில் நேர
+[skip] வெளிநாட்டுத் தரப்பிலான உள்ளூர் அரசியல் / இராணுவ நடைமுறை. தமி
+[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத வேலைவாய்ப்பு அ
+[skip] கர்நாடக மாநிலத்தின் உள்ளூர் வனத்துறை விவகாரம் - பந்திப்பூர் 
+[skip] கேரளாவின் ஓட்டப்பாலம் ரயில் நிறுத்தம் தொடர்பான உள்ளூர் அரசிய
+[skip] போதிய விவரம் இல்லை, உள்ளூர் நிலம் தொடர்பான சர்ச்சை, தமிழ்நாட
+[skip] ஆந்திரா மற்றும் கேரளப் பல்கலைக்கழகங்களின் உள்ளூர் தேர்வு முட
+[skip] தெலங்கானா மாநிலத்தின் அரசு மருத்துவக் கல்லூரிகளுக்கான நிதி ஒ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man held for robbing ₹24 lakh from private firm 
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத தேசிய கொள்கைக் கட்டுரை; செய்த
+[skip] cinema_review - திரை விமர்சனம் இப்பக்கத்தில் கூடாது. மதிப்பெ
+[skip] ஆஸ்திரேலிய வீரர் கேமரன் க்ரீனின் சாதாரண சுகமான நிலை பற்றிய ச
+[skip] மூலத்தில் பொருளுள்ள தகவல் இல்லை — தலைப்பு மற்றும் உள்ளடக்கம்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Wrong-side driving persists on Chennai roads, pu
+[skip] வெளிநாட்டு ஆய்வு, தமிழ்நாட்டு வாசகரைப் பாதிக்கும் செய்திக்கா
+[tts-edge] 78a9c7a476c4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மனு அசோகன் வெப் தொடரில் பின்தொடர்தல் மனக்கசப்பை விரித்துக் கூறினார்
+[skip] பிற நாட்டுத் உள்நாட்டு சுবিதக் குரூப் (The Hundred — இங்கிலா
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MTC reinstates tender to procure low-floor AC e-
+[filler] india கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13105 · சென்செக்ஸ் 74316
+[market] தங்கம் 22K ₹13106 · சென்செக்ஸ் 74316
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 3
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 2
