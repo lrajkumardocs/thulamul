@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 22 புதியவை
+[fetch] The Hindu TN: 25 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 22 புதியவை
-[fetch] Al Jazeera: 20 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 17 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
+[fetch] ESPNcricinfo: 16 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 23 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 20 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 23 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,19 +24,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 1 புதியவை
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 30 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 3 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7effb58067d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc92f30c0d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,43 +67,59 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 735 → நிகழ்வுகள் 678
-[triage] 678 → 54 | காலி: india:4, crime:3, jobs:3, health:2, cinema:2
-[skip] அசாம் மாநிலத்தின் போடோலாந்து பிராந்தியத்தின் உள்ளூர் வேலைவாய
-[tts-edge] 4dfeead038ca: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] பாகிஸ்தான் பெஷாவரில் பள்ளிக்கூரை இடிந்து 33 பேர் பலி
-[skip] இது இந்தியாவின் ஒரு குறிப்பிட்ட மாநிலத்தில் நடந்த தனிப்பட்ட 
-[skip] உத்தரகாண்ட் மாநிலத்தின் உள்ளூர் வழக்கு; தமிழ்நாடு/இந்திய அளவ
-[skip] வெளிநாட்டு உள்நாட்டு குற்றவியல் வழக்கு — அமெரிக்க ராணுவ நீதி
-[skip] உலகச் செய்திதான் என்றாலும், இந்தச் செய்தி தமிழ்நாடு வாசகரைப்
-[skip] வெளிநாட்டு உள்ளூர் பேரிடர் செய்தி — தமிழ்நாடு/இந்தியத் தொடர்
-[skip] உலகக் கப்பல் போக்குவரத்துத் தகராறு — தமிழ்நாடு/இந்தியாவுக்கு
-[skip] அமெரிக்காவின் உள்நாட்டு சட்ட நடைமுறை. தமிழ்நாடு/இந்தியவாசகரு
-[skip] வெளிநாட்டுக் போர்ச்சம்பவம் — தமிழ்நாடு/இந்தியா வாசகரைத் தরப்
-[skip] பாகிஸ்தானின் உள்ளூர் விபத்து — தமிழ்நாட்டு/இந்திய வாசகரைப் ப
-[skip] பிற நாட்டின் உள்ளூர் சுற்றுச்சூழல் நிகழ்வு; தமிழ்நாடு/இந்திய
-[skip] அமெரிக்காவின் உள்நாட்டுக் குற்றம்; தமிழ்நாடு/இந்தியாவில் நேர
-[skip] வெளிநாட்டுத் தரப்பிலான உள்ளூர் அரசியல் / இராணுவ நடைமுறை. தமி
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத வேலைவாய்ப்பு அ
-[skip] கர்நாடக மாநிலத்தின் உள்ளூர் வனத்துறை விவகாரம் - பந்திப்பூர் 
-[skip] கேரளாவின் ஓட்டப்பாலம் ரயில் நிறுத்தம் தொடர்பான உள்ளூர் அரசிய
-[skip] போதிய விவரம் இல்லை, உள்ளூர் நிலம் தொடர்பான சர்ச்சை, தமிழ்நாட
-[skip] ஆந்திரா மற்றும் கேரளப் பல்கலைக்கழகங்களின் உள்ளூர் தேர்வு முட
-[skip] தெலங்கானா மாநிலத்தின் அரசு மருத்துவக் கல்லூரிகளுக்கான நிதி ஒ
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man held for robbing ₹24 lakh from private firm 
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத தேசிய கொள்கைக் கட்டுரை; செய்த
-[skip] cinema_review - திரை விமர்சனம் இப்பக்கத்தில் கூடாது. மதிப்பெ
-[skip] ஆஸ்திரேலிய வீரர் கேமரன் க்ரீனின் சாதாரண சுகமான நிலை பற்றிய ச
-[skip] மூலத்தில் பொருளுள்ள தகவல் இல்லை — தலைப்பு மற்றும் உள்ளடக்கம்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Wrong-side driving persists on Chennai roads, pu
-[skip] வெளிநாட்டு ஆய்வு, தமிழ்நாட்டு வாசகரைப் பாதிக்கும் செய்திக்கா
-[tts-edge] 78a9c7a476c4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மனு அசோகன் வெப் தொடரில் பின்தொடர்தல் மனக்கசப்பை விரித்துக் கூறினார்
-[skip] பிற நாட்டுத் உள்நாட்டு சுবিதக் குரூப் (The Hundred — இங்கிலா
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: MTC reinstates tender to procure low-floor AC e-
-[filler] india கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13106 · சென்செக்ஸ் 74316
+[run] புதியவை 698 → நிகழ்வுகள் 647
+[triage] 647 → 56 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது டெல்லி உயர்நீதிமன்றம் மற்றும் டெல்லி காவல்துறை தொடர்பான 
+[skip] இவை ஜம்மு (CSIR-IIIM) மற்றும் மேற்கு வங்கம் (விஸ்வ பாரதி) ஆக
+[tts-edge] 5e2899449d49: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மெனோபாஸ் திடீரென்று வருகிறது: ஆய்வு தகவல்
+[skip] ஹிந்தி சினிமா — தமிழ்நாட்டு வாசகருக்கு முதல் முன்னுரிமை அல்ல
+[திருத்தம்] பூனம் ரவுத் சர்வதேश விளையாட்டு வாழ்க்கைய → பூனம் ரௌத் சர்வதேச கிரிக்கெட்டிலிருந்து 
+[தரம்] தமிழ் அல்லாத எழுத்து: शশি → ஒரு திருத்தம்
+[tts-edge] 82e3eb61d319: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பூனம் ரவுத் சர்வதேச கிரிக்கெட்டிலிருந்து ஓய்வு பெற்றார்.
+[publish] ஏமனில் ஹூதி ஏவுகணைத் தாக்குதல்; அதிபர் மாளிகையில் இருவர் பலி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg4az4LD1bEBboEb3pKis'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg4b2pa4gNzFgCeBxk8F8'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, ஜியோ ஐபிஓ பத்திரிகையாளர் ச
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது இந்திய அரசியல் செய்தி; உலக செய்திக் குறிப்புக்குப் பொருத
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; நிகழ்வின் விவ
+[skip] இது தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லாத தேசிய அரசியல் விவ
+[skip] மூலத்தில் உள்ள தகவல் முரண்பாடானது — விஜய் தமிழ்நாட்டின் முதல
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விலைமதிப்பு, GMP, முக்கிய 
+[publish] அஞ்சில் மகேஷ் போயாமொழி முன்ஜாமீன் மனு - சென்னை உயர்நீதிமன்றத்தில் விசாரணை
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: டெக் மஹிந்திரா 1:1 போனஸ் பங்கு, 15
+[publish] டெக் மஹிந்திரா 1:1 போனஸ் பங்கு, 15 ரூபாய் ஈவுத்தொகை அறிவிப்பு
+[திருத்தம்] சென்னையில் 7.44 ஏக்கர் நில கையகப்படுத்தல → சென்னையில் 7.44 ஏக்கர் நிலக் கையகப்படுத்
+[publish] சென்னையில் 7.44 ஏக்கர் நிலக் கையகப்படுத்தல் உத்தரவை உயர்நீதிமன்றம் ரத்து செய்தது
+[திருத்தம்] ஜியோ நிறுவனம் 30,213 கோடி ரூபாய் பங்கு வ → ஆகாஷ், ঈஷாவின் கல்லூரிப் பணி ஜியோ உருவாக
+[தரம்] தமிழ் அல்லாத எழுத்து: ঈ → ஒரு திருத்தம்
+[publish] ஆகாஷ், ஈஷாவின் கல்லூரிப் பணி ஜியோ உருவாக்கத்திற்குக் காரணம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg4bUA8zHr59rUbyz3gY5'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg4bZnXty9ZwZpKMRhsuN'}
+[திருத்தம்] ஜியோ பங்கு விற்பனை குறித்து உதய் கோடக் க → ஜியோ பங்கு விற்பனை குறித்து உதய় கோடக் க
+[தரம்] தமிழ் அல்லாத எழுத்து: ीইটনর় → ஒரு திருத்தம்
+[publish] ஜியோ பங்கு விற்பனை குறித்து உதய் கோடக் கருத்து
+[திருத்தம்] அமைச்சர்கள் மீது எம்.எல்.ஏ.க்கள் வாங்கும → அமைச்சர்கள் மீது எம்.எல்.ஏ.க்கள் 'குதிரை
+[தரம்] தமிழ் அல்லாத எழுத்து: किর → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): அமைச்சர்கள் மீது எம்.எல்.ஏ.க்கள் '
+[publish] அமைச்சர்கள் மீது எம்.எல்.ஏ.க்கள் 'குதிரை வியாபாரம்' செய்யும் குற்றச்சாட்டு - ஆளுநருக்கு அதிமுக மனு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg4boL63zYkfLJTMPoNbk'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): போக்சோ வழக்கில் குற்றஞ்சாட்டப்பட்ட
+[publish] போக்சோ வழக்கில் குற்றஞ்சாட்டப்பட்டவர் முதல்வர் நியமனம்; உயர் நீதிமன்றம் கேள்வி
+[comic] கதை: தூணின் பின்னே மூச்சடக்கல்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.96) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.86) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-16.png · நாள் 37
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹13134 · சென்செக்ஸ் 74316
 [weather] புதுப்பிக்கப்பட்டது
 [image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 2
+[done] feed 300 · pending 1 · எழுதியவை 10
