@@ -1,66 +1,73 @@
 [
  {
-  "headline": "பாகிஸ்தான் பெஷாவரில் பள்ளிக்கூரை இடிந்து 33 பேர் பலி",
+  "headline": "வாக்காளர் பட்டியல் திருத்தம் தேர்தல் படுகொலை போன்றது - பிரகாஷ் ராஜ்",
   "lines": [
-   "பாகிஸ்தானின் வடமேற்கு நகரமான பெஷாவரில் ஒரு பள்ளியின் கூரை திடீரென இடிந்து விழுந்தது.",
-   "இந்த விபத்தில் குறைந்தது 33 மாணவர்களும் ஒரு ஆசிரியரும் உயிரிழந்துள்ளனர்.",
-   "மீட்புப் பணியாளர்கள், சிதைந்த கட்டிடத்தின் கீழ் இன்னும் சிலர் சிக்கியிருக்கலாம் என்று அஞ்சுகின்றனர்.",
-   "மீட்புப் பணிகள் தற்போதும் தொடர்ந்து நடைபெற்று வருகின்றன.",
-   "கூரை இடிந்ததற்கான சரியான காரணம் குறித்த விசாரணை இன்னும் முடிவடையவில்லை."
+   "வாக்காளர் பட்டியல் சிறப்பு தீவிர திருத்தம் (எஸ்ஐஆர்) தொடர்பாக நடிகர் பிரகாஷ் ராஜ் கடுமையான குற்றச்சாட்டு முன்வைத்துள்ளார்.",
+   "தற்போதைய சட்டங்களையும் அரசு அமைப்புகளையும் பயன்படுத்தி பதின்மூன்று கோடிக்கும் அதிகமான வாக்காளர்கள் பட்டியலில் இருந்து நீக்கப்பட்டுள்ளதாக அவர் தெரிவித்தார்.",
+   "இது வெறும் எண்ணிக்கை அல்ல, உரிமை உள்ள மனிதர்களின் சட்டப்பூர்வ வாழ்க்கை இவ்வாறு முடிவுக்கு கொண்டுவரப்பட்டுள்ளது என்று பிரகாஷ் ராஜ் கூறினார்.",
+   "இந்தத் திருத்த பணியை பாஜக தேர்தல் படுகொலைக்கான கருவியாகப் பயன்படுத்துவதாக அவர் குற்றம்சாட்டினார்.",
+   "இது தொடர்பாக பாஜக தரப்பில் எந்த பதிலும் இதுவரை வெளியிடப்படவில்லை."
   ],
-  "closing": "மீட்புப் பணிகள் நிறைவடைந்த பிறகே மொத்த உயிரிழப்பு எண்ணிக்கை உறுதியாகும் என எதிர்பார்க்கப்படுகிறது.",
-  "closing_type": "watch",
+  "closing": "இது நடிகர் பிரகாஷ் ராஜ் முன்வைத்த குற்றச்சாட்டு மட்டுமே, இதற்கான அதிகாரப்பூர்வ எண்ணிக்கை விவரங்கள் தனியாக உறுதிப்படுத்தப்படவில்லை.",
+  "closing_type": "background",
   "sources": [
    {
-    "name": "BBC World",
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
     "doc": null,
     "date": null
    }
   ],
-  "topic": "world",
+  "topic": "india",
   "entities": [
-   "பெஷாவர்",
-   "பாகிஸ்தான்",
-   "பள்ளி",
-   "மீட்புப் பணி"
+   "பிரகாஷ் ராஜ்",
+   "பாஜக",
+   "வாக்காளர் பட்டியல் திருத்தம்",
+   "எஸ்ஐஆர்"
   ],
-  "confidence": 0.65,
+  "confidence": 0.6,
   "en": {
-   "headline": "At least 33 pupils, teacher killed as school roof collapses in Pakistan",
+   "headline": "Voter roll revision like electoral genocide, says Prakash Raj",
    "lines": [
-    "A school roof suddenly collapsed in the north-western Pakistani city of Peshawar.",
-    "At least 33 pupils and one teacher were killed in the accident.",
-    "Rescue officials fear more people may still be buried under the debris.",
-    "Rescue operations are continuing at the site.",
-    "The exact cause of the roof collapse is still under investigation."
+    "Actor Prakash Raj has made a strong allegation regarding the Special Intensive Revision of electoral rolls, known as SIR.",
+    "He said over 13 crore voters have been removed from the rolls using existing laws and government agencies.",
+    "He said this is not just a number, and that the legal lives of human beings with rights have been ended this way.",
+    "He accused the BJP of using this revision exercise as a tool of electoral genocide.",
+    "There has been no response from the BJP on this so far."
    ],
-   "closing": "The final death toll is expected to be confirmed once rescue operations are complete."
+   "closing": "This is an allegation made solely by actor Prakash Raj, and the official figures have not been separately verified."
   },
-  "front_cat": "mass_casualty",
-  "image_query": "",
-  "wiki_subject": "Peshawar",
-  "person_en": "",
-  "urgent": true,
-  "affected": "ஊர்",
+  "front_cat": "policy_mass",
+  "image_query": "Prakash Raj actor",
+  "wiki_subject": "Prakash Raj",
+  "person_en": "Prakash Raj",
+  "urgent": false,
+  "affected": "நாடு",
   "flags": [
-   "numbers_conflict",
-   "single_source"
+   "defamation_risk",
+   "single_source",
+   "unverified_claim"
   ],
-  "id": "4dfeead038ca",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-15T20:57+05:30",
+  "id": "672ba7f5edf5",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-16T04:28+05:30",
   "links": [
-   "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss"
+   "https://www.thehindu.com/news/national/karnataka/bjp-using-sir-as-a-tool-of-electoral-genocide-says-prakash-raj/article71543322.ece",
+   "https://www.thehindu.com/news/national/karnataka/bjp-using-sir-as-a-tool-of-electoral-genocide-says-prakash-raj/article71543322.ece"
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Islamia_College_Peshawar_%28Public_Sector_University%29%2C_Khyber_Pakhtunkhwa%2C_Pakistan_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Peshawar",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Peshawar",
-   "symbolic": false
+   "url": "data/bank/india01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
   },
-  "audio": "data/audio/4dfeead038ca.mp3",
-  "created_ts": 1792078032.2329988,
+  "audio": "data/audio/672ba7f5edf5.mp3",
+  "created_ts": 1792105139.7120655,
   "status": "pending"
  }
 ]
