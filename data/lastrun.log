@@ -1,22 +1,23 @@
+[expire] 672ba7f5edf5
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
-[fetch] BBC Tamil: 5 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
+[fetch] BBC Tamil: 6 புதியவை
 [fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 20 புதியவை
 [fetch] ESPNcricinfo: 13 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 23 புதியவை
+[fetch] The Hindu Tech: 26 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 11 புதியவை
+[fetch] FreeJobAlert: 21 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +29,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 21 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Bar and Bench: 5 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 21 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,55 +57,72 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd5aa329b10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 21 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff4648d7d50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 621 → நிகழ்வுகள் 592
-[triage] 592 → 48 | காலி: india:4, govt:3, crime:3, cinema:3, tn:2
-[skip] திரைவிமர்சனம் — இப்பக்கத்தில் நிষேதம். விமர்சனம் வாரமலரில் ம
-[skip] இது சீனாவில் இருந்து அமெரிக்காவிற்கு பொம்மைகள் செல்லும் விதம
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg51GmyizkNaxXjAecGWL'}
-[skip] போதிய விவரங்கள் இல்லை, பழைய ஏமன்-சவூதி மோதல் தொடர்பான குறுகி
-[tts-edge] 9eed03a14fb1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டில் முன்கூட்டியே தொடங்கிய வடகிழக்குப் பருவமழை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg51MvAz5uevp7EM4wFje'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg51QbHWoSzqxirz2UXnG'}
-[image] களஞ்சியம் (2 சொல்): ஆகஸ்ட் மாதம் இந்தியாவின் நடப்புக் 
-[tts-edge] 60d51605068e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆகஸ்ட் மாதம் இந்தியாவின் நடப்புக் கணக்கு பற்றாக்குறை 5.2 பில்லியன் டாலராகக் குறைவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg51Y8QxQnAuDg86EZtbr'}
-[publish] மதுரந்தகம் இடைத்தேர்தல்: அதிமுக கோட்டையில் தவெக வெல்லுமா?
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg51fE4F22dVZttXiqckP'}
+[run] புதியவை 649 → நிகழ்வுகள் 597
+[triage] 597 → 41 | காலி: india:4, cinema:3, world:2, govt:2, crime:2
+[skip] കേരളത്തിലെ ഫുട്ബോൾ ഡോക്യുമെന്ററി സിരീസ് കുറിച്ച് കേരള സിനിമയ
+[tts-edge] ec13367c2ac3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அமெரிக்காவில் பள்ளித் துப்பாக்கிச் சூடு, மூன்று குழந்தைகள் உள்பட நான்கு பேர் பலி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg5MUEzopYRZTqymPwFKf'}
+[skip] வெளிநாட்டுக் கடல்வாணிப்பு, எண்ணெய் விலை ஏற்றத்தின் உலக விளைவ
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] தமிழகத்தில் வடகிழக்கு பருவமழை தொடக்கம்
+[skip] பாகிஸ்தான் பெஷாவர் நகரத்தில் நடந்த உள்ளூர் விபத்து. தமிழ்நாட
+[தரம்] தமிழ் அல்லாத எழுத்து: ూ → ஒரு திருத்தம்
+[tts-edge] 97f62ee90cc6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பெரியார் அறிவுலகம் திராவிட மாதிரி ஆட்சியின் சிந்தனை என ஸ்டாலின் தெரிவிப்பு
+[திருத்தம்] மோதி 25 ஆண்டு ஆட்சி - சந்திக்கும் பத்து  → மோடி 25 ஆண்டு ஆட்சி - சந்திக்கும் பத்து 
+[தரம்] தமிழ் அல்லாத எழுத்து: তে → ஒரு திருத்தம்
+[publish] மோடி 25 ஆண்டு ஆட்சி - சந்திக்கும் பத்து சவால்கள்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] அமெரிக்க ICE (Immigration and Customs Enforcement) நிலையங்கள
+[skip] அமெரிக்க உள்நாட்டுக் குற்றச் சம்பவம். தமிழ்நாடு வாசகரைப் பாத
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg5MmG6WYCBDdPYpN2pSA'}
+[skip] தமிழ்நாடு அல்லது இந்தியாவுடன் நேரடித் தொடர்பு இல்லாத ஆஜர்பைஜ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg5MpDRNG9EYgKLNRmFEb'}
+[skip] அமெரிக்க உள்நாட்டு விபத்து; தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தமிழ்நாடு அல்லது இந்தியாவுடன் நேரடித் தொடர்பு இல்லாத உலக செய
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg51x7d1Wjjc9vHZpExed'}
-[skip] வெளிநாட்டு அகதிக் கொள்கை — தமிழ்நாடு/இந்தியாவைப் பாதிக்காது.
-[publish] இந்திய ரூபாய் 95.05-ஆக உயர்வு, முன்கூட்டிய பிரீமியம் நான்கு ஆண்டு உச்சத்தில்
-[skip] உலக செய்திகளுக்கும் கட்டுரை பொருத்தமற்றது. இக்கட்டுரை கொட்டா
-[publish] விழுப்புரத்தில் விடுபட்ட வாக்காளர்களைச் சேர்க்க சிறப்பு இயக்கம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: உரிமம் இல்லாமல் அரசுப் பேருந்து ஓட
-[publish] உரிமம் இல்லாமல் அரசுப் பேருந்து ஓட்டிய தவெக எம்எல்ஏ மீது விசாரணை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg52DtCoj9V6tCcqrintg'}
-[publish] சென்னை உயர்நீதிமன்றத்தில் இரு புதிய நீதிபதிகள் பதவிப் பிரமாணம்
-[திருத்தம்] அமைச்சர் மீது நடவடிக்கை கோரி ஆளுநரிடம் அ → தவெக அமைச்சர் மீது நடவடிக்கை கோரி ஆளுநரி
-[image] களஞ்சியம் (2 சொல்): தவெக அமைச்சர் மீது நடவடிக்கை கோரி 
-[publish] தவெக அமைச்சர் மீது நடவடிக்கை கோரி ஆளுநரிடம் அதிமுக மனு அளிப்பு
-[brief] காலை brief தயார்
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: தவெக அமைச்சர் மீதான குற்றச்சாட்டு: விவரம் மறைப்பு ஏன்?
-[market] தங்கம் 22K ₹13102 · சென்செக்ஸ் 74316
+[skip] ப்ரேசிலின் உள்நாட்டு அரசியல். தமிழ்நாடு அல்லது இந்தியாவுடன் 
+[திருத்தம்] கர்ப்பிணிக்கு எச்.ஐ.வி. ரத்தம் செலுத்திய → கர்ப்பிணிக்கு எச்.ஐ.வி. ரத்தம் செலுத்திய
+[image] களஞ்சியம் (3 சொல்): கர்ப்பிணிக்கு எச்.ஐ.வி. ரத்தம் செல
+[publish] கர்ப்பிணிக்கு எச்.ஐ.வி. ரத்தம் செலுத்திய விவகாரம்: ₹40 லட்சம் நிவாரணம் அரசு அறிவிப்பு
+[skip] உலகக் கோப்பை, ஒலிம்பிக் போன்ற வரலாற்று நிகழ்வு அல்ல; FIFA-ன்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: அரிசி விலை கிலோவுக்கு ரூபாய் 120ஆக
+[publish] அரிசி விலை கிலோவுக்கு ரூபாய் 120ஆக உயரும் என அதிமுக எச்சரிக்கை
+[skip] இது இসραயேல்-பாலஸ்தீனம் பற்றிய உலகச் செய்தி; தமிழ்நாடு அல்லத
+[skip] 缅甸军事领导人的地区外交是地区性新闻，对印度和泰米尔纳德邦读者没有直接影响。这不是影响全球或印度政策的全国性事件。
+[skip] இராக்கின் உள்நாட்டு அரசியல் — தமிழ்நாடு அல்லது இந்தியாவுக்கு
+[skip] சிரியாவின் உள்நாட்டு ஆற்று பைப்லைன் சேதம் — தமிழ்நாடு/இந்திய
+[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருத்தமற்ற அமெரிக்க உள்நாட்
+[skip] சர்வதேச ஊடகத்தை (Al Jazeera) இலக்கு வைக்கும் இஸ்ரேலிய உளவு ந
+[skip] அமெரிக்க உள்நாட்டுத் தொடர்பான செய்தி. தமிழ்நாடு வாசகரைப் பாத
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] கர்நாடகாவின் மைசூரு தசரா விழாவின் உள்ளூர் மின்சார ஏற்பாடு கு
+[skip] கர்நாடகத்தின் உள்ளூர் பண்பாட்டு நிகழ்வு, தமிழ்நாட்டுடன் தொடர
+[skip] கர்நாடகாவில் உள்ள உள்ளூர் பொம்மை கண்காட்சி பற்றிய பிராந்திய 
+[skip] மூல உரையே 'The Hindu Faith' என்ற மதசார்ந்த கட்டுரை; தமிழ்நாட
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Surveillance strengthened on paddy movement in T
+[skip] கேரளாவின் உள்ளூர் திட்டம் — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு 
+[skip] வெளிநாட்டு கிரிக்கெட் தொடர் — தமிழ்நாட்டு / இந்திய வாசகருக்க
+[skip] தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை — உத्तर प्रदेशের கோரखप
+[skip] வெளிநாட்டு ஆங்கிலப் படம்; தமிழ்நாடு/இந்திய வாசகருக்குச் செய்
+[skip] வெளிநாட்டுக் வணிகப் பிரতিযோகிதை. தமிழ்நாடு/இந்திய அரசின் அறி
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Fresh meniscus transplantation programme launche
+[skip] வெளிநாட்டு உள்ளூர் அধ்যযனம் — தமிழ்நாடு/இந்திய மக்களின் நேரட
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — ஆஸ்திரேலியா மற்றும் நியூஜிலாந
+[skip] தெலுங்கு சினிமா — தமிழ்நாட்டு வாசகரின் நேரடி விவரம் அல்ல. 'R
+[jobs] தொகுப்பு 12
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹13138 · சென்செக்ஸ் 74622
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 9
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 5

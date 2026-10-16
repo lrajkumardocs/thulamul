@@ -1,5 +1,76 @@
 [
  {
+  "headline": "அமெரிக்காவில் பள்ளித் துப்பாக்கிச் சூடு, மூன்று குழந்தைகள் உள்பட நான்கு பேர் பலி",
+  "lines": [
+   "அமெரிக்காவின் ஒரிகான் மாநிலம் பெண்ட் நகரில் உள்ள ஒரு தொடக்கப் பள்ளியில் துப்பாக்கிச் சூடு நடந்தது.",
+   "இதில் ஐந்து, எட்டு, பதினொரு வயதுடைய மூன்று குழந்தைகள் மற்றும் ஒரு ஆசிரியர் உயிரிழந்தனர்.",
+   "பதினாறு வயது நபர் இந்தச் சம்பவத்தை நடத்தியதாக உள்ளூர் காவல்துறை தெரிவித்தது.",
+   "பள்ளிக்குள் அந்த நபரைப் பின்தொடர்ந்து சென்ற ஒரு பொதுமக்கள் அவரைச் சுட்டுக் கொன்றதாக காவல்துறை கூறியது.",
+   "சம்பவம் குறித்த முழு விசாரணை தற்போது நடைபெற்று வருவதாக அதிகாரிகள் தெரிவித்தனர்."
+  ],
+  "closing": "சம்பவம் தொடர்பான கூடுதல் விவரங்களை அதிகாரிகள் விரைவில் வெளியிடுவார்கள் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ஒரிகான்",
+   "பெண்ட் நகரம்",
+   "அமெரிக்கா",
+   "தொடக்கப் பள்ளி",
+   "காவல் துறை"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "US school shooting kills three children, a teacher in Oregon",
+   "lines": [
+    "A shooting occurred at a primary school in the city of Bend in the US state of Oregon.",
+    "Three children aged five, eight and eleven, along with a teacher, were killed in the incident.",
+    "Local police said a 16-year-old was responsible for carrying out the shooting.",
+    "Police said a community member who followed the suspect into the school shot him dead.",
+    "Officials said a full investigation into the incident is currently underway."
+   ],
+   "closing": "Further details about the incident are expected to be released by officials soon."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "unverified_claim"
+  ],
+  "id": "ec13367c2ac3",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-16T10:50+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
+   "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss"
+  ],
+  "image": {
+   "url": "data/bank/world08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/ec13367c2ac3.mp3",
+  "created_ts": 1792128004.709722,
+  "status": "published"
+ },
+ {
   "headline": "ஏமனில் ஹூதி ஏவுகணைத் தாக்குதல்; அதிபர் மாளிகையில் இருவர் பலி",
   "lines": [
    "ஏமன் நாட்டின் அல்-மாஷிக் அதிபர் மாளிகை மீது ஹூதி கிளர்ச்சியாளர்கள் ஏவுகணைத் தாக்குதல் நடத்தினர்.",
