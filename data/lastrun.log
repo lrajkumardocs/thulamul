@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 22 புதியவை
+[fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 21 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 18 புதியவை
-[fetch] ESPNcricinfo: 10 புதியவை
-[fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu TN: 23 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 11 புதியவை
+[fetch] Al Jazeera: 20 புதியவை
+[fetch] ESPNcricinfo: 12 புதியவை
+[fetch] The Hindu Sport: 30 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 19 புதியவை
+[fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 3 புதியவை
-[fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 13 புதியவை
+[fetch] The Hindu Health: 13 புதியவை
+[fetch] The Hindu Agriculture: 1 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 30 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 29 புதியவை
+[fetch] Sportstar: 30 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,63 +56,53 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f99f5ee0f50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 21 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fbb55576290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 28 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 618 → நிகழ்வுகள் 575
-[triage] 575 → 34 | காலி: india:3, jobs:3, world:2, govt:2, cinema:2
-[skip] ओडिशा மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. தமிழ்நாடு 
-[skip] இது தமிழ்நாடு அல்லாத ஒரு மாநிலத்தின் தனிப்பட்ட குடும்ப வன்மு
-[skip] தமிழ்நாட்டுக்குத் தொடர்பில்லாத டெல்லி உள்ளூர் அரசியல் — அகில
-[skip] வெளிநாட்டு உள்நாட்டுக் குற்றச் செய்தி — தமிழ்நாடு/இந்தியாவுட
-[skip] அமெரிக்காவின் ஓரிகான் மாநிலத்தில் நடந்த பள்ளிச் சம்பவம். தமி
-[skip] வெளிநாட்டுச் சம்பவம் — தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காத
-[skip] கலிஃபோர்னியா வனத்தீ — அமெரிக்க உள்நாட்டுத் தொடர் விபத்து. தம
-[skip] அமெரிக்காவின் ஒரு மாநிலத்தில் நடந்த உள்ளூர் சம்பவம். தமிழ்நா
-[skip] இது நடப்பு நிகழ்வு செய்தி அல்ல, சென்னை ஐஸ் ஹவுஸின் காலனிய கா
-[திருத்தம்] அத்தியாவசியப் பொருள் விலை உயர்வு கட்டுப் → அத்தியாவசியப் பொருள்களின் விலை உயர்வைக் 
-[tts-edge] 04cb4bfe252d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அத்தியாவசியப் பொருள்களின் விலை உயர்வைக் கட்டுப்படுத்த மத்திய அரசுக்கு மாணிக்கம் தாகூர் கோரிக்கை
+[run] புதியவை 697 → நிகழ்வுகள் 641
+[triage] 641 → 58 | காலி: india:2, world:2, govt:2, cinema:2, sports:2
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7XpQjvbQV62zFqpxzrX'}
+[tts-edge] 4400f35f0983: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கானா இசையை திரையுலகுக்கு கொண்டு வந்த இசையமைப்பாளர் தேவா காலமானார்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7XwCn2njdKYQVFVQnhe'}
+[tts-edge] e237f6723e38: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] புகழ்பெற்ற இசையமைப்பாளர் தேவா காலமானார்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] 2ea05a6d40f9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னையில் டெங்கு காய்ச்சலால் பெண் உயிரிழப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7B69uSuch174hbDnyN1'}
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — பிரேசிலின் தேர்தல் மற்றும் அம
-[skip] அமெரிக்க உள்நாட்டுக் கொள்கை மற்றும் உதாரண அளவில் தமிழ்நாடு/இ
-[skip] ஜெர்மனியில் நடந்த குடும்ப விவகாரம் — தமிழ்நாடு/இந்தியத் வாசக
-[skip] வெளிநாட்டு உள்நாட்டு சூழல் நிகழ்வு — தமிழ்நாடு/இந்திய வாசகரை
-[skip] யேமன் உள் நிர்பந்திக்கப்பட்ட மனித உரிமை நெருக்கடி — தமிழ்நாட
-[skip] அல்பேனியாவின் உள்ளூர் அரசியல் நிகழ்வு. தமிழ்நாடு / இந்திய வா
-[skip] இஸ்রேல்-பாலஸ்தீனம் பிரச்சினையில் இஸ்رائیली தொழில்நுட்ப நிறுவ
-[skip] Gaza-ல் உணவுப் பொருட்களுக் கான வாணிज்य நிழல்விற்க்குத் தொடர்
-[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): அமெரிக்காவில் கோயில் தாக்குதல் முய
-[publish] அமெரிக்காவில் கோயில் தாக்குதல் முயற்சி முறியடிப்பு, இந்தியர் பாதுகாப்பு கோரிக்கை
-[skip] தெலங்கானா மாநிலத்தின் பிரிவினை தொடர்பான உள்ளூர் அரசியல் விவக
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், எண்கள், விவரங்கள் எத
-[skip] வெளிநாட்டு உள் நிகழ்வு — அமெரிக்காவில் நடந்த சம்பவம். தமிழ்ந
-[skip] తెలుగు చలన చిత్రం, తమిழ్ నాటు సంబంధం లేనిది. తమిझ్ నాటు సిని
-[skip] வெளிநாட்டு விளையாட்டு நிகழ்வு — ஆசிய விளையாட்டுகள் கட்டுரை ஆ
-[publish] இளைஞர்கள் தொடங்கிய மனநல முன்முயற்சி 'நம்பிக்கையின் சுவர்' வெளியிடப்பட்டது
-[திருத்தம்] IARI இல் யங் ப்রொஃபெஷனல் பதவிக்கு நடைபயண → IARI-இல் யங் ப்ரொஃபெஷனல் II பதவிக்கு நடை
-[தரம்] தமிழ் அல்லாத எழுத்து: करसा्ধরষ → ஒரு திருத்தம்
-[publish] IARI-இல் யங் ப்ரொஃபெஷனல் II பதவிக்கு நடைபயண நேர்காணல்.
-[skip] தெலங்கானா அரசின் உள்ளூர் அரசியல் மாநில விவகாரம். தமிழ்நாட்டு
-[skip] பிற மாநிலத்தின் உல்லாசப் பாத்திரமல்ல, மற்றொரு மாநிலத்தைச் சா
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (Tennis Premier League) — தமிழ்
-[skip] இது அசம் மாநிலத்தின் (KKHSOU) பல்கலைக்கழக முடிவுறிப்பு. தமிழ
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 8
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[திருத்தம்] உக்ரைன் மீது ரஷ்ய தாக்குதல், எட்டு பேர்  → உக்ரைன் மீது ரஷ்ய தாக்குதல், குறைந்தது எ
+[publish] உக்ரைன் மீது ரஷ்ய தாக்குதல், குறைந்தது எட்டு பேர் பலி, 10 லட்சம் பேருக்கு மின்தடை
+[திருத்தம்] ரஷியா மீதான தடைகளை தளர்த்திய டிரம்ப், ஜெ → ரஷியா மீதான தடைகளைத் தளர்த்திய டிரம்ப், 
+[publish] ரஷியா மீதான தடைகளைத் தளர்த்திய டிரம்ப், ஜெலென்ஸ்கியுடன் முரண்பாடு அதிகரிப்பு
+[திருத்தம்] ரஷியா மீதான புதிய பொருளாதாரத் தடைகளை தற் → ரஷியா மீதான புதிய பொருளாதாரத் தடைகளை தற்
+[தரம்] தமிழ் அல்லாத எழுத்து: రര → ஒரு திருத்தம்
+[publish] ரஷியா மீதான புதிய பொருளாதாரத் தடைகளை தற்காலிகமாக நிறுத்திய அமெரிக்க அதிபர் டிரம்ப்.
+[திருத்தம்] தலைமைத் தேர்தல் ஆணையர் ஞானேஷ் குமாரை நீக → தேர்தல் ஆணையர் ஞானேஷ் குமாரை நீக்கக் கோர
+[publish] தேர்தல் ஆணையர் ஞானேஷ் குமாரை நீக்கக் கோரி திமுக தீர்மானம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7YR6He9yThmMXgpyNWx'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7YbMGZzSjdgEtpVNQuC'}
+[publish] இசையமைப்பாளர் தேவா மறைவு: முதல்வர் இரங்கல்
+[திருத்தம்] இசையமைப்பாளர் தேவா மறைவு, திருமாவளவன் இர → இசையமைப்பாளர் தேவா மறைவு, தொல்.திருமாவளவ
+[நகல்] ஏற்கனவே வெளியானது: இசையமைப்பாளர் தேவா மறைவு: முதல்வர் இரங்கல்
+[skip] வெளிநாட்டுத் தகராறு. தமிழ்நாட்டு/இந்திய வாசகரின் உடனடி நலன் 
+[skip] உலக அரசியல் — தமிழ்நாடு/இந்திய வாசகரின் தீரண செயலுக்கு நேரடி
+[skip] வெளிநாட்டுச் சிறுமையான குற்றவழக்கு — தமிழ்நாடு/இந்தியாவுக்கு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] முன்னாள் அமைச்சர் ஈ.வி.வேலு மகனுடன் முன் → முன்னாள் அமைச்சர் ஈ.வி.வேலு, மகன் ஈ.வி.க
+[image] களஞ்சியம் (3 சொல்): முன்னாள் அமைச்சர் ஈ.வி.வேலு, மகன் 
+[publish] முன்னாள் அமைச்சர் ஈ.வி.வேலு, மகன் ஈ.வி.குமரன் ஏரிப்பகுதி மணல் அகழ்வு வழக்கில் முன்கூட்டிய ஜாமீன் மனு
+[filler] tech கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13106 · சென்செக்ஸ் 74729
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 5
+[done] feed 300 · pending 0 · எழுதியவை 8
