@@ -1,5 +1,74 @@
 [
  {
+  "headline": "ஓவர்ஸ்பீடு வாகனக் கண்காணிப்பு குறித்து உயர்நீதிமன்றம் கேள்வி",
+  "lines": [
+   "மாநிலம் முழுவதும் சாலைகளில் பொருத்தப்பட்டுள்ள செயற்கை நுண்ணறிவு கேமராக்கள் மூலம் வேக வரம்பை மீறும் வாகனங்களைக் கண்டறிய முடியுமா என உயர்நீதிமன்றம் கேள்வி எழுப்பியுள்ளது.",
+   "மணிக்கு 150 கிலோமீட்டருக்கும் அதிக வேகத்தில் செல்லும் வாகனங்கள் குறித்த விவரங்களையும், எடுக்கப்பட்ட நடவடிக்கைகளையும் அளிக்குமாறு நீதிமன்றம் அரசுக்கு உத்தரவிட்டுள்ளது.",
+   "அனைத்துச் சாலைகளையும் இணைத்து ஒரே மத்திய கண்காணிப்பு அமைப்பை அமல்படுத்த எவ்வளவு காலம் தேவை என்பதையும் தெரிவிக்குமாறு அரசிடம் நீதிமன்றம் கேட்டுள்ளது.",
+   "சாலை விபத்துகளைத் தடுக்கும் நோக்கில் தொடரப்பட்ட வழக்கு விசாரணையின்போது இந்தக் கேள்விகள் எழுப்பப்பட்டன.",
+   "இது தொடர்பான முழு விவரங்களையும் அரசு அடுத்த விசாரணையின்போது நீதிமன்றத்தில் சமர்ப்பிக்க உள்ளது."
+  ],
+  "closing": "வேக வரம்பை மீறும் வாகனங்களைக் கண்காணிக்கும் தொழில்நுட்பம் குறித்த அரசின் பதில் அடுத்த விசாரணையில் வெளிப்படும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "உயர் நீதிமன்றம்",
+   "செயற்கை நுண்ணறிவு கேமரா",
+   "வேக வரம்பு",
+   "சாலை பாதுகாப்பு",
+   "மத்திய கண்காணிப்பு அமைப்பு"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "High Court Questions AI Camera Tracking of Overspeeding Vehicles",
+   "lines": [
+    "The High Court asked whether AI cameras installed on roads across the State can effectively track vehicles exceeding the speed limit.",
+    "The court directed the government to furnish details of vehicles travelling at speeds above 150 km/h and the action taken against them.",
+    "The court also asked the government to indicate how long it would take to implement a single centralized monitoring system linking all roads.",
+    "These questions arose during the hearing of a case aimed at preventing road accidents.",
+    "The government is expected to submit complete details on this issue during the next hearing."
+   ],
+   "closing": "The government's response on the technology used to monitor overspeeding vehicles will be revealed in the next hearing.",
+   "closing_type": "watch"
+  },
+  "id": "9d61a4d34788",
+  "flags": [],
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-18T04:46+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/kerala/hc-asks-if-ai-cameras-installed-on-roads-across-state-can-track-overspeeding-vehicles/article71589109.ece",
+   "https://www.thehindu.com/news/national/kerala/hc-asks-if-ai-cameras-installed-on-roads-across-state-can-track-overspeeding-vehicles/article71589109.ece"
+  ],
+  "image": {
+   "url": "data/bank/court01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/9d61a4d34788.mp3",
+  "created_ts": 1792278979.7070615,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "யாசின் மாலிக் நீதிமன்றத்தில் ஆஜராகாததால் திகார் சிறை அறிக்கை கோரிய டெல்லி உயர்நீதிமன்றம்",
   "lines": [
    "ஜம்மு காஷ்மீர் விடுதலை முன்னணி தலைவர் யாசின் மாலிக், பயங்கரவாத வழக்கு விசாரணைக்கு நீதிமன்றத்தில் ஆஜராகவில்லை.",
@@ -1650,125 +1719,6 @@
   },
   "audio": "data/audio/88a8587b7e9c.mp3",
   "created_ts": 1791646867.1313436,
-  "status": "published"
- },
- {
-  "headline": "அதிமுக எம்எல்ஏக்கள் ராஜிநாமா வழக்கில் அடுத்த வாரம் தீர்ப்பு",
-  "lines": [
-   "அதிமுக சட்டமன்ற உறுப்பினர்கள் சிலர் ராஜிநாமா செய்த விவகாரம் தொடர்பான வழக்கை சென்னை உயர்நீதிமன்றம் விசாரித்து வருகிறது.",
-   "நகராட்சி நிர்வாக துறையில் பணி நியமனத்தில் முறைகேடு நடந்ததாகக் கூறப்படும் வழக்குகளும் அதே நீதிமன்றத்தில் நிலுவையில் உள்ளன.",
-   "இந்த இரண்டு வகையான வழக்குகளிலும் அடுத்த வாரம் தீர்ப்பு வழங்கப்படும் என நீதிமன்றம் தெரிவித்துள்ளது.",
-   "அதிமுக எம்எல்ஏக்களின் ராஜிநாமா தொடர்பான வழக்கு கட்சியின் உள் அரசியல் நிகழ்வுகளுடன் இணைந்தது.",
-   "நகராட்சி நிர்வாக துறை பணி நியமனங்களில் முறைகேடு தொடர்பான குற்றச்சாட்டுகள் முன்பே எழுந்திருந்தன."
-  ],
-  "closing": "இரு வழக்குகளிலும் அடுத்த வாரம் என்ன தீர்ப்பு வெளியாகும் என்பதை அறிய வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர்நீதிமன்றம்",
-   "அதிமுக",
-   "நகராட்சி நிர்வாக துறை"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Verdict expected next week in AIADMK MLAs resignation case",
-   "lines": [
-    "The Madras High Court is hearing a case related to the resignation of several AIADMK legislators.",
-    "Cases concerning alleged irregularities in job appointments in the Municipal Administration department are also pending before the same court.",
-    "The court has indicated that verdicts in both categories of cases will be delivered next week.",
-    "The case on AIADMK MLAs' resignation is linked to the party's internal political developments.",
-    "Allegations of irregularities in Municipal Administration department appointments had surfaced earlier."
-   ],
-   "closing": "It remains to be seen what verdicts will be delivered in both cases next week."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "Madras High Court",
-  "wiki_subject": "Madras High Court",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "5323dd59bfea",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-10-10T04:57+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/09/no-verdict-today-in-the-aiadmk-mlas-resignation-case"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/5323dd59bfea.mp3",
-  "created_ts": 1791588454.3275325,
-  "status": "published"
- },
- {
-  "headline": "பிறப்பிடம் கொண்டு தப்பி ஓடும் அபாயம் கூற முடியாது என்றார் நீதிபதி",
-  "lines": [
-   "சென்னை உயர்நீதிமன்ற நீதிபதி என்.ரமேஷ், ஒரு பிணை மனு விசாரணையின் போது காவல் அதிகாரியின் வாதத்தை கேள்விக்குள்ளாக்கினார்.",
-   "குற்றம் சாட்டப்பட்டவர் வட இந்தியரைச் சேர்ந்தவர் என்பதால் அவர் தலைமறைவாகலாம் என காவல்துறை தெரிவித்திருந்தது.",
-   "இத்தகைய கூற்றை ஏற்க முடியாது என்றும், ஒருவரின் பிறப்பிடம் தப்பி ஓடும் அபாயத்திற்கான காரணமாக இருக்க முடியாது என்றும் நீதிபதி ரமேஷ் கூறினார்.",
-   "பிறப்பிடத்தை அடிப்படையாகக் கொண்டு ஒருவரைச் சந்தேகிப்பது நியாயமற்றது என நீதிமன்றம் சுட்டிக்காட்டியது.",
-   "இந்த பிணை மனு மீதான விசாரணையை நீதிமன்றம் தொடர்ந்து நடத்தவுள்ளது."
-  ],
-  "closing": "காவல்துறை வாதங்களில் பிறப்பிடம் போன்ற அடையாளங்களைப் பயன்படுத்துவது தொடர்பாக இனி கவனம் எடுக்கப்படுமா என்பது கேள்வியாக உள்ளது.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர்நீதிமன்றம்",
-   "நீதிபதி என்.ரமேஷ்",
-   "வட இந்தியர்",
-   "பிணை மனு",
-   "காவல்துறை"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Court Says Origin Cannot Imply Flight Risk in Bail"
-  },
-  "id": "f9916269b080",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-10-10T04:54+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/how-can-a-police-officer-aver-that-accused-will-abscond-because-he-is-a-north-indian-questions-madras-high-court/article71565175.ece"
-  ],
-  "image": {
-   "url": "data/bank/court01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/f9916269b080.mp3",
-  "created_ts": 1791588245.907267,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
   "status": "published"
  }
 ]
