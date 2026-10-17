@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 26 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 23 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 11 புதியவை
-[fetch] Al Jazeera: 20 புதியவை
-[fetch] ESPNcricinfo: 12 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 13 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
+[fetch] ESPNcricinfo: 13 புதியவை
+[fetch] The Hindu Sport: 29 புதியவை
 [fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 13 புதியவை
+[fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 30 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 24 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 28 புதியவை
+[fetch] Dinamani Cinema: 26 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,53 +56,40 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fbb55576290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fdca1d50950>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
-[fetch] Sarkari Yojana: 0 புதியவை
+[fetch] Sarkari Yojana: பிழை HTTPSConnectionPool(host='www.mygov.in', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 697 → நிகழ்வுகள் 641
-[triage] 641 → 58 | காலி: india:2, world:2, govt:2, cinema:2, sports:2
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7XpQjvbQV62zFqpxzrX'}
-[tts-edge] 4400f35f0983: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கானா இசையை திரையுலகுக்கு கொண்டு வந்த இசையமைப்பாளர் தேவா காலமானார்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7XwCn2njdKYQVFVQnhe'}
-[tts-edge] e237f6723e38: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] புகழ்பெற்ற இசையமைப்பாளர் தேவா காலமானார்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] உக்ரைன் மீது ரஷ்ய தாக்குதல், எட்டு பேர்  → உக்ரைன் மீது ரஷ்ய தாக்குதல், குறைந்தது எ
-[publish] உக்ரைன் மீது ரஷ்ய தாக்குதல், குறைந்தது எட்டு பேர் பலி, 10 லட்சம் பேருக்கு மின்தடை
-[திருத்தம்] ரஷியா மீதான தடைகளை தளர்த்திய டிரம்ப், ஜெ → ரஷியா மீதான தடைகளைத் தளர்த்திய டிரம்ப், 
-[publish] ரஷியா மீதான தடைகளைத் தளர்த்திய டிரம்ப், ஜெலென்ஸ்கியுடன் முரண்பாடு அதிகரிப்பு
-[திருத்தம்] ரஷியா மீதான புதிய பொருளாதாரத் தடைகளை தற் → ரஷியா மீதான புதிய பொருளாதாரத் தடைகளை தற்
-[தரம்] தமிழ் அல்லாத எழுத்து: రര → ஒரு திருத்தம்
-[publish] ரஷியா மீதான புதிய பொருளாதாரத் தடைகளை தற்காலிகமாக நிறுத்திய அமெரிக்க அதிபர் டிரம்ப்.
-[திருத்தம்] தலைமைத் தேர்தல் ஆணையர் ஞானேஷ் குமாரை நீக → தேர்தல் ஆணையர் ஞானேஷ் குமாரை நீக்கக் கோர
-[publish] தேர்தல் ஆணையர் ஞானேஷ் குமாரை நீக்கக் கோரி திமுக தீர்மானம்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7YR6He9yThmMXgpyNWx'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7YbMGZzSjdgEtpVNQuC'}
-[publish] இசையமைப்பாளர் தேவா மறைவு: முதல்வர் இரங்கல்
-[திருத்தம்] இசையமைப்பாளர் தேவா மறைவு, திருமாவளவன் இர → இசையமைப்பாளர் தேவா மறைவு, தொல்.திருமாவளவ
+[run] புதியவை 682 → நிகழ்வுகள் 623
+[triage] 623 → 26 | காலி: india:2, govt:2, sports:2, assembly:2, jobs:1
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7q58R3x3vqjhFyU3GfZ'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7q8fBp36QKgfNCTeVbg'}
+[skip] தமிழ்நாடு வாசகருக்குப் பொருத்தம் இருந்தாலும், இது தமிழ்த் தி
 [நகல்] ஏற்கனவே வெளியானது: இசையமைப்பாளர் தேவா மறைவு: முதல்வர் இரங்கல்
-[skip] வெளிநாட்டுத் தகராறு. தமிழ்நாட்டு/இந்திய வாசகரின் உடனடி நலன் 
-[skip] உலக அரசியல் — தமிழ்நாடு/இந்திய வாசகரின் தீரண செயலுக்கு நேரடி
-[skip] வெளிநாட்டுச் சிறுமையான குற்றவழக்கு — தமிழ்நாடு/இந்தியாவுக்கு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg7qFLAGcwH6NB8QSV8UB'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] முன்னாள் அமைச்சர் ஈ.வி.வேலு மகனுடன் முன் → முன்னாள் அமைச்சர் ஈ.வி.வேலு, மகன் ஈ.வி.க
-[image] களஞ்சியம் (3 சொல்): முன்னாள் அமைச்சர் ஈ.வி.வேலு, மகன் 
-[publish] முன்னாள் அமைச்சர் ஈ.வி.வேலு, மகன் ஈ.வி.குமரன் ஏரிப்பகுதி மணல் அகழ்வு வழக்கில் முன்கூட்டிய ஜாமீன் மனு
-[filler] tech கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[திருத்தம்] தேர்தல் ஆணையருக்கு எதிரான போராட்டக்காரர் → தேர்தல் ஆணையருக்கு எதிரான போராட்டக்காரர்
+[image] களஞ்சியம் (3 சொல்): தேர்தல் ஆணையருக்கு எதிரான போராட்டக
+[tts-edge] 02399749ae83: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தேர்தல் ஆணையருக்கு எதிரான போராட்டக்காரர்கள் கைது: முதல்வர் ஸ்டாலின் கண்டனம்
+[skip] இது டெல்லி மெட்ரோவில் நடந்த உள்ளூர்க் குற்றச் சம்பவம்; தமிழ்
+[skip] ஒடிசா முதல்வரின் உள்ளூர் கருத்து மட்டும் - தமிழ்நாட்டுடன் நே
+[skip] இது வங்கதேசம்-ஜிம்பாப்வே இடையேயான UAE திரிநாட்டுத் தொடர் செய
+[skip] மகாராஷ்ட్్ర மாநிலத்தின் உள்ளூர் விவசায விவகாரம். தமிழ்நாட்டு
+[skip] வெளிநாட்டுக் கிரிக்கெட் — தென்னாப்பிரிக்கா vs ஆஸ்திரேலியா. த
+[திருத்தம்] திருநெல்வேலி ஈசிআயসி மருத்துவமனையில் 46  → திருநெல்வேலி ஈசிআইசி மருத்துவமனையில் 46 
+[தரம்] தமிழ் அல்லாத எழுத்து: ईकिআইজভ → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: திருநெல்வேலி ஈஎஸ்ஐசி மருத்துவமனையி
+[tts-edge] 3032065b74e3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திருநெல்வேலி ஈஎஸ்ஐசி மருத்துவமனையில் 46 பணியிடங்கள் நிரப்ப நடைமுணை நேர்காணல்
+[skip] தில்லி நகரத்தில் நடந்த விபத்து — தமிழ்நாடு வாசகரைப் பாதிக்கவ
 [market] தங்கம் 22K ₹13106 · சென்செக்ஸ் 74729
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 8
+[done] feed 300 · pending 0 · எழுதியவை 2
