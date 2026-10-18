@@ -1,22 +1,22 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 22 புதியவை
+[fetch] ET Markets: 19 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 28 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 11 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 12 புதியவை
+[fetch] The Hindu TN: 23 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 12 புதியவை
+[fetch] Al Jazeera: 18 புதியவை
+[fetch] ESPNcricinfo: 11 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 26 புதியவை
 [fetch] The Hindu Tech: 18 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 11 புதியவை
+[fetch] The Hindu Health: 10 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 5 புதியவை
+[fetch] FreeJobAlert: 4 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,72 +56,46 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa588403c50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5b2d4c70d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
+[fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 29 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 653 → நிகழ்வுகள் 607
-[triage] 607 → 78 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[திருத்தம்] தமிழ்நாடு வணிக வங்கி ஆசிரியர் பணியிடங்கள → தமிழ்நாடு வணிக வங்கி கடன் பயிற்சியாளர் ப
-[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தமிழ்நாடு வணிக வங்கி கடன் பயிற்சிய
-[tts-edge] b524d7679cdc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாடு வணிக வங்கி கடன் பயிற்சியாளர் பணியிடங்கள்
-[skip] தமிழ்நாட்டுக்குப் பொருத்தமான குறிப்பிட்ட செய்தி இல்லை. பொதுவ
-[skip] தமிழ்நாடு/இந்திய சினிமா செய்தி அல்ல — இது பொதுவான ডকুமেंటरி 
-[skip] பাংலாதேશ் பெண்கள் கிரிக்கெட் அணியின் கேப்டன் நியமனம் — பாংலா
-[திருத்தம்] ரஷ்யாவின் போர் முடிவுக்கு வர வேண்டும் -  → ரஷ்யாவின் போர் முடிவுக்கு வர வேண்டும் - 
-[tts-edge] 245ff350f113: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ரஷ்யாவின் போர் முடிவுக்கு வர வேண்டும் - ஜெலென்ஸ்கி
-[திருத்தம்] சென்னைக்கு அதிகனமழை எச்சரிக்கை, விரைந்த  → சென்னைக்கு அதிகமழை எச்சரிக்கை, விரைந்த த
-[publish] சென்னைக்கு அதிகமழை எச்சரிக்கை, விரைந்த தேசிய பேரிடர் மீட்புப் படை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAHTf1UDafYzcrtfNbt8'}
+[run] புதியவை 613 → நிகழ்வுகள் 570
+[triage] 570 → 85 | காலி: india:4, govt:4, economy:3, court:3, health:3
+[தரம்] தமிழ் அல்லாத எழுத்து: গ → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): மருத்துவக் கல்லூரிகளுக்கு நோயாளி ப
+[tts-edge] 0fdeda90da06: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மருத்துவக் கல்லூரிகளுக்கு நோயாளி பாதுகாப்புக் குழு அவசியம்
+[skip] கருத்து மற்றும் விமர்சனம் — சினிமா பிரிவுக்கு 'நிகழ்வுச் செய
+[skip] பாகிஸ்தான், இலங்கை அணிகளின் உள்ளூர் தயாரிப்பு செய்திகள். தமி
+[தரம்] தமிழ் அல்லாத எழுத்து: ा → ஒரு திருத்தம்
+[tts-edge] 6d13546572b8: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இசையமைப்பாளர் தேவா அரசு மரியாதையுடன் இறுதி அஞ்சலி
+[publish] ஒரேகான் பள்ளித் துப்பாக்கிச் சூட்டு நடத்தியவரை சுட்டுக் கொன்ற தந்தை பாராட்டு
+[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
+[publish] இசையமைப்பாளர் தேவா உடலுக்கு அரசு மரியாதை, நல்லடக்கம்
+[தரம்] தமிழ் அல்லாத எழுத்து: না → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: அல்பேனியா உச்ச நீதிமன்றத்தில் தீ, 
+[publish] அல்பேனியா உச்ச நீதிமன்றத்தில் தீ, போராட்டம் ஐந்தாம் நாளில்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAToeujrN92vCogaReAF'}
+[publish] அல்பேனியாவில் ஆறாவது நாளாகத் தொடரும் வன்முறைப் போராட்டம்
+[image] களஞ்சியம் (2 சொல்): மரண தண்டனைக் கைதி எழுதிய நூலுக்கு 
+[publish] மரண தண்டனைக் கைதி எழுதிய நூலுக்கு இயல் விருது தேர்வு
+[திருத்தம்] நாகப்பட்டினம் கடற்கரையில் நூறு கோடி மதிப → நாகப்பட்டினம் கடற்கரையில் நூறு கோடி மதிப
+[publish] நாகப்பட்டினம் கடற்கரையில் நூறு கோடி மதிப்புள்ள போதைப்பொருள் பறிமுதல்
+[publish] பள்ளி தண்ணீர் தொட்டியில் மலம்; விசாரணை அறிக்கை கோரிய சென்னை உயர்நீதிமன்றம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAHZxyNMgeyjAeYExi7X'}
-[publish] ரஷியா மீதான பல தடைகளை ட்ரம்ப் தற்காலிகமாக நீக்கினார்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAHgAkhzDmUwNmEu8ePQ'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAHitKL73Gb87m7CEgJi'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAHmVkr3hCdhFjYeFhpj'}
-[திருத்தம்] சென்னையில் கனமழை, வட கிழக்குப் பருவமழை த → சென்னையில் கனமழை, வடகிழக்குப் பருவமழை தீ
-[publish] சென்னையில் கனமழை, வடகிழக்குப் பருவமழை தீவிரம்
-[திருத்தம்] விக்கிரவாண்டி அருகே விரைவு வாகன விபத்தில → விக்கிரவாண்டி அருகே எஸ்.யூ.வி. லாரியில் 
-[image] களஞ்சியம் (2 சொல்): விக்கிரவாண்டி அருகே எஸ்.யூ.வி. லார
-[publish] விக்கிரவாண்டி அருகே எஸ்.யூ.வி. லாரியில் மோதியதில் குடும்பத்தில் மூவர் பலி
-[திருத்தம்] சென்னையில் கனமழை, பகுதிகள் தண்ணீரில் மூழ → சென்னையில் கனமழை, பகுதிகள் நீரில் மூழ்கி
-[publish] சென்னையில் கனமழை, பகுதிகள் நீரில் மூழ்கின, உயிரிழப்பு இல்லை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAHynz1zsPbe36XfhzKV'}
-[publish] அம்பத்தூர் புழல் ஏரியில் குளிக்கச் சென்ற இரு சிறுவர்கள் காணாமல்
-[skip] செய்திகள் தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்கும் செய்திகளாக 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAJ6eXUqUqbWd8C9sFwZ'}
-[skip] தமிழ்நாடு/இந்திய தேசிய செய்திக்குப் பொருத்தமில்லை. மும்பைக்க
-[publish] சென்னைக்கு சிவப்பு எச்சரிக்கை, செல்போன்களில் அலாரம் மூலம் தகவல்
-[skip] பிரான்ஸின் உள்நாட்டுப் போராட்டம் — தமிழ்நாடு/இந்தியாவுடன் நே
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAJDzjqtmWEJwPnTBaPK'}
-[skip] உத்தரப் பிரதேசம் — இந்திய உள்நாட்டுச் செய்தி, பிற மாநிலத்தின
-[skip] பிரான்சின் உள்ளூர் அரசியல் மோதல்; தமிழ்நாடு/இந்திய வாசகரைப் 
-[skip] யேமன் உள்நாட்டுப் போர் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர
-[skip] தமிழ்நாடு / இந்தியவாசகரைப் பாதிக்காது. அமெரிக்க வெளியுறவுக் 
-[skip] தமிழ்நாட்டுக்குப் பொருந்தாத செய்தி. சினிமா நிகழ்வு என்றாலும்
-[skip] உலக நிகழ்வு, ஆனால் தமிழ்நாட்டு/இந்திய வாசகரின் தினசரி அவசரத்
-[skip] வெளிநாட்டின் உள்நாட்டுக் conflict — தமிழ்நாடு/இந்திய வாசகரைப
-[skip] தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இல்லாத வெளிநாட்டு அரச
-[திருத்தம்] பருவமழை முன்னேற்பாடு குறித்து நாகேந்திரன → பருவமழை முன்னேற்பாடு குறித்து நாயினார் ந
-[image] களஞ்சியம் (3 சொல்): பருவமழை முன்னேற்பாடு குறித்து நாயி
-[publish] பருவமழை முன்னேற்பாடு குறித்து நாயினார் நாகேந்திரன், டி.டி.வி.தினகரன் அரசுக்கு எதிர்ப்பு
-[comic] கதை: மாடத்தில் மர்மப் பல்லக்கு
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-19.png · நாள் 40
-[rasi] ராசிபலன் தயார்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAU8ZaYE4qBDvobGpZZJ'}
+[திருத்தம்] ரஷ்யாவின் செயின்ட் பீட்டர்ஸ்பர்க்கில் தா → செயின்ட் பீட்டர்ஸ்பர்க்கில் தாக்குதல், ஒ
+[publish] செயின்ட் பீட்டர்ஸ்பர்க்கில் தாக்குதல், ஒருவர் பலி
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13104 · சென்செக்ஸ் 74729
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
