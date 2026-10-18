@@ -1,23 +1,23 @@
-[expire] ccf33c36df8e
-[fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 25 புதியவை
+[expire] d74a3e4f00a0
+[fetch] RBI: 9 புதியவை
+[fetch] ET Markets: 23 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 19 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
-[fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 12 புதியவை
-[fetch] Al Jazeera: 17 புதியவை
-[fetch] ESPNcricinfo: 12 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 10 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
+[fetch] ESPNcricinfo: 15 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 12 புதியவை
-[fetch] Cinema Express: 28 புதியவை
-[fetch] The Hindu Tech: 17 புதியவை
+[fetch] Cinema Express: 23 புதியவை
+[fetch] The Hindu Tech: 18 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 21 புதியவை
+[fetch] FreeJobAlert: 17 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,15 +29,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 5 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 25 புதியவை
+[fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -52,68 +52,46 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
-[fetch] PIB All India: 0 புதியவை
+[fetch] PIB All India: பிழை HTTPSConnectionPool(host='pib.gov.in', port=443): Max retries exceeded with url: /PressReleseRss.aspx?Reg=3&Lang=1 (Caused by NameResolutionError("HTTPSConnection(host='pib.gov.in', port=443): Failed to resolve 'pib.gov.in' ([Errno -5] No address associated with hostname)"))
 [fetch] PIB Tamil Releases: 0 புதியவை
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff407230290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f07733ef690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 632 → நிகழ்வுகள் 575
-[triage] 575 → 73 | காலி: jobs:3, health:3, sports:3, cinema:2, assembly:2
-[skip] சத்தீஸ்கர் மற்றும் உத்தரகாண்ட் மாநிலங்களின் உள்ளூர் அரசு வேல
-[skip] தமிழ்நாட்டுச் செய்திக்குத் தெளிவான தகவல் குறைவு. மூலம் 'யாரை
-[skip] West Indies vs Bangladesh Test series — தமிழ்நாடு, இந்தியாவு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9Bm9spMo8bvzKuo1z9F'}
-[திருத்தம்] கொல்கத்தா இந்து திருவிழாவில் நெரிசல், பத → கொல்கத்தா இந்து திருவிழாவில் நெரிசல், கு
-[tts-edge] 72759304e5c9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கொல்கத்தா இந்து திருவிழாவில் நெரிசல், குறைந்தது 19 பேர் பலி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9BrU5LDuBDsrh4K6G98'}
-[image] களஞ்சியம் (2 சொல்): ஈரோடு இறுதிச் சடங்கில் சாதி பாகுபா
-[tts-edge] 5bb53cb1d349: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஈரோடு இறுதிச் சடங்கில் சாதி பாகுபாடு: அறிக்கை கேட்ட ஆணையம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9BxgTPXdsRbm6zsscWm'}
-[skip] மூலத்தில் 'தமிழ்நாடு முதல்வர் விஜய்' என்று குறிப்பிடப்பட்டுள
-[publish] ஹார்முஸ் நீரிணையில் கண்ணிவெடி மோதி இரண்டு எண்ணெய் கப்பல்களில் தீ
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; திட்டம் குறித்த விவரங்கள்,
-[திருத்தம்] பிரான்ஸில் போராட்டம் தீவிரம், லிமோஜஸ் நக → பிரான்ஸில் போராட்டம் தீவிரம், லிமோஜஸ் நக
-[publish] பிரான்ஸில் போராட்டம் தீவிரம், லிமோஜஸ் நகராட்சி கட்டிடம் தீக்கிரையானது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9CAJfYUrzyo1zB9yMY9'}
-[திருத்தம்] எஸ்சி எஸ்டி சட்ட வழக்கில் ஒன்பது பேர் பி → எஸ்சி/எஸ்டி சட்ட வழக்கில் ஒன்பது பேர் பி
-[publish] எஸ்சி/எஸ்டி சட்ட வழக்கில் ஒன்பது பேர் பிணை மனு பரிசீலிக்க சென்னை உயர்நீதிமன்றம் உத்தரவு
-[திருத்தம்] பெரும்பள்ளி தலித் இறுதிச் சடங்கு வழக்கில → பெரும்பாளை தலித் இறுதிச் சடங்கு வழக்கில்
-[image] களஞ்சியம் (3 சொல்): பெரும்பாளை தலித் இறுதிச் சடங்கு வழ
-[publish] பெரும்பாளை தலித் இறுதிச் சடங்கு வழக்கில் கைது தாமதம் — பகுஜன் சமாஜ் கட்சி உண்ணாவிரதம்
-[திருத்தம்] முன்னாள் அதிமுக எம்எல்ஏக்கள் தகுதி நீக்க → முன்னாள் அதிமுக எம்எல்ஏக்களின் தகுதி நீக
-[image] களஞ்சியம் (3 சொல்): முன்னாள் அதிமுக எம்எல்ஏக்களின் தகு
-[publish] முன்னாள் அதிமுக எம்எல்ஏக்களின் தகுதி நீக்கம் பற்றி சபாநாயகர் உறுதி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9CQvkbDMA2wRJpzHrYS'}
-[publish] பால் கொள்முதல் உயர்வு விலை திருத்தம் காரணம் என அமைச்சர்
-[skip] இது மாநில அரசு கடன் பத்திரங்களின் ஏலம் தொடர்பான தொழில்நுட்பக
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9CWBMKV3mgSnZqP2e9H'}
-[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
-[publish] ஐசிஐசிஐ வங்கி இரண்டாம் காலாண்டு லாபம் இருபது சதவீதம் உயர்வு
-[நகல்] ஏற்கனவே வெளியானது: ஐசிஐசிஐ வங்கி இரண்டாம் காலாண்டு லாபம் இருபது சதவீதம் உயர்வு
-[திருத்தம்] பாரஸ் ஹெல்த்கேர் பங்கு விற்பனை அக்டோபர்  → பாரஸ் ஹெல்த்கேர் ஐபிஓ அக்டோபர் 21-ல் தொட
-[தரம்] தமிழ் அல்லாத எழுத்து: राধরি → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): பாரஸ் ஹெல்த்கேர் ஐபிஓ அக்டோபர் 21-
-[publish] பாரஸ் ஹெல்த்கேர் ஐபிஓ அக்டோபர் 21-ல் தொடக்கம், பங்குக்கு 660-693 ரூபாய் விலை நிர்ணயம்
-[filler] health கட்டுரை
-[jobs] தொகுப்பு 1
-[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
+[run] புதியவை 646 → நிகழ்வுகள் 597
+[triage] 597 → 61 | காலி: jobs:3, sports:3, health:2, cinema:2, govt:1
+[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத வேறு மாநில/உள்
+[skip] வெளிநாட்டு கிரிக்கெட் தொடர் — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9Wn618mStgkmnZLj92N'}
+[tts-edge] aeb1607bb927: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அக்டோபரில் 52,000 கோடி ரூபாய் வெளிநாட்டு முதலீடு வெளியேற்றம்
+[skip] ராஜஸ்தான் CURAJ மற்றும் TISS Tanda ஆகியவை தமிழ்நாட்டுடன் தொட
+[skip] வரலாற்றுப் பின்னணிக் கட்டுரை — தற்போதைய செய்தி அல்ல. 'India'
+[skip] திரைப்படத் தொடர்பான பொதுவான விமர்சனம் / கண்ணோட்டப் பதிவு. 'த
+[skip] கேரளா உயர்நீதிமன்றத்தின் உத்தரவு — கேரளாவின் உள்ளூர் விஷயம்.
+[skip] வெளிநாட்டு நாட்டவரின் இலட்சியக் கிரிக்கெட் தொடர் (ஆஸ்திரேலிய
+[skip] கேரளத்தின் உள்ளூர் சுகாதாரச் செய்தி — தமிழ்நாட்டு வாசகரைப் ப
+[skip] வெளிநாட்டுப் பத்திரிகையின் பற்றி – இந்திய/தமிழ்நாட்டுத் சினி
+[தரம்] தமிழ் அல்லாத எழுத்து: टह → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: எஸ்.பி.ஐ.-யில் ஆறு பதவிகளுக்கு நிய
+[tts-edge] 5f7c1b6b9884: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எஸ்.பி.ஐ.-யில் ஆறு பதவிகளுக்கு நியமனம்; அக்டோபர் 19 முதல் விண்ணப்பம்
+[skip] வெளிநாட்டுக் கிரிக்கெட் ஆய்வு — தமிழ்நாட்டு/இந்திய வாசகருக்க
+[filler] tech கட்டுரை
 [image] தேடல் பொருந்தவில்லை → களஞ்சியம்: வேலூர் நேதாஜி சந்தையில் ஆக்கிரமிப்
 [image] 3 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13106 · சென்செக்ஸ் 74729
 [weather] புதுப்பிக்கப்பட்டது
+[push] 0 அறிவிப்புகள்
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 2
