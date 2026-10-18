@@ -1,22 +1,23 @@
+[expire] ccf33c36df8e
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 26 புதியவை
+[fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 22 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 21 புதியவை
+[fetch] BBC World: 12 புதியவை
+[fetch] Al Jazeera: 17 புதியவை
 [fetch] ESPNcricinfo: 12 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
-[fetch] Cinema Express: 29 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] Cinema Express: 28 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 13 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 23 புதியவை
+[fetch] FreeJobAlert: 21 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +30,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 24 புதியவை
+[fetch] Dinamani Cinema: 25 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,65 +57,63 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3ef4a6ce50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
-[fetch] Dinamani Govt: 22 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff407230290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
-[fetch] Sarkari Yojana: பிழை ('Connection broken: IncompleteRead(0 bytes read, 371 more expected)', IncompleteRead(0 bytes read, 371 more expected))
+[fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 22 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 619 → நிகழ்வுகள் 564
-[triage] 564 → 54 | காலி: jobs:3, health:3, sports:3, tn:2, govt:2
-[skip] குஜராத் மாநிலப் பல்கலைக்கழகங்களின் (GTU, SGGU) தேர்வு முடிவு
-[skip] கீழ்தெலங்கானாவின் தெலங்கানா மாநிலச் செய்தி — தமிழ்நாடு வாசகர
-[skip] வெளிநாட்டுத் தொடர் (ওয়ান் டে ஐ விளையாட்டு நিகழ்வு) மற்றும் 
-[tts-edge] a3ac7fe502ba: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கொல்கத்தாவில் பண்டிகை நிகழ்ச்சியில் நெரிசல், பதினேழு பேர் பலி
-[tts-edge] 8c83b95643ff: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழக முழுநேர ஆளுநராக பொறுப்பேற்றார் ராஜேந்திர விஸ்வநாத் ஆர்லேகர்
-[திருத்தம்] ஈரான் போர் பதற்றம், ஹோர்முஸ் நீரிணையில்  → ஈரான் பதற்றம்: ஹோர்முஸ் நீரிணையில் மூன்ற
-[publish] ஈரான் பதற்றம்: ஹோர்முஸ் நீரிணையில் மூன்று கப்பல்களுக்குத் தீ; இஸ்ரேலிய குடியேற்றவாசிகள் ஐரோப்பிய நயவஞ்சகர்கள் மீது தாக்குதல்
-[திருத்தம்] போர்நிறுத்தத்திற்கு இடையிலும் காசாவில் ட → போர்நிறுத்தத்திற்கிடையிலும் காசாவில் ட்ர
-[தரம்] தமிழ் அல்லாத எழுத்து: সি → ஒரு திருத்தம்
-[hold] போர்நிறுத்தத்திற்கிடையிலும் காசாவில் ட்ரோன் தாக்குதல் — ஆறு பேர் பலி
+[run] புதியவை 632 → நிகழ்வுகள் 575
+[triage] 575 → 73 | காலி: jobs:3, health:3, sports:3, cinema:2, assembly:2
+[skip] சத்தீஸ்கர் மற்றும் உத்தரகாண்ட் மாநிலங்களின் உள்ளூர் அரசு வேல
+[skip] தமிழ்நாட்டுச் செய்திக்குத் தெளிவான தகவல் குறைவு. மூலம் 'யாரை
+[skip] West Indies vs Bangladesh Test series — தமிழ்நாடு, இந்தியாவு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] வடகிழக்குப் பருவமழைக்குத் தமிழக அரசு தயா → வடகிழக்குப் பருவமழைக்குத் தமிழக அரசு தயா
-[தரம்] தமிழ் அல்லாத எழுத்து: ত → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): வடகிழக்குப் பருவமழைக்குத் தமிழக அர
-[publish] வடகிழக்குப் பருவமழைக்குத் தமிழக அரசு தயாரென அமைச்சர் செங்கோட்டையன்
-[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாடு/இந்திய வாசகருக்குத் த
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg8oxwPzHPdEip5XKNfrK'}
-[skip] அல்பேனியாவில் நடந்த பொலிஸ் மோதல் தமிழ்நாடு அல்லது இந்தியாவுட
-[image] களஞ்சியம் (3 சொல்): புதிய ஓய்வூதியத் திட்டத்தில் கூடுத
-[publish] புதிய ஓய்வூதியத் திட்டத்தில் கூடுதல் தொகை பிடித்தம் நிறுத்தம்
-[skip] சீனாவின் உள்ளூர் குற்றச் செய்தி. தமிழ்நாடு அல்லது இந்தியாவுட
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் மற்றும் சர்வதேச மோதல் — தமிழ்நா
-[skip] Saudi Arabia, Egypt, drone attacks — வெளிநாட்டு உள்நாட்டுச் 
-[skip] அல்பேனியாவின் உள்ளூர் அரசியல் மற்றும் போராட்டம். தமிழ்நாடு/இ
-[skip] வெளிநாட்டுப் கடல்நிலை மோதல் — தமிழ்நாட்டு/இந்திய வாசகரைப் பா
-[skip] அல்பேனியாவின் உள்நாட்டு அரசியல் மற்றும் போராட்டம். தமிழ்நாடு
-[skip] தமிழ்நாடு / இந்திய வாசகரைப் பாதிக்காத வெளிநாட்டுக் அரசியல் —
-[skip] வெளிநாட்டு உள்நாட்டு இரண்டு நாடுகளுக்கிடையே உள்ள பாதுகாப்புக
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] ரூபாய் மதிப்புப் பாதுகாப்புக்காக அந்நிய  → ரூபாய் பாதுகாப்புக்காக அந்நிய செலாவணி கை
-[image] களஞ்சியம் (2 சொல்): ரூபாய் பாதுகாப்புக்காக அந்நிய செலா
-[publish] ரூபாய் பாதுகாப்புக்காக அந்நிய செலாவணி கையிருப்பில் பெரும் சரிவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg8pGmyhjYgsgJbtWDvpz'}
-[தரம்] தமிழ் அல்லாத எழுத்து: যা → ஒரு திருத்தம்
-[publish] காவிரி விவகாரம்: உச்ச நீதிமன்ற கருத்துக்கு விவசாயிகள் அதிர்ச்சி
-[image] களஞ்சியம் (2 சொல்): காவிரி ஆற்றுப் பாலம் பழுதுபார்ப்பு
-[publish] காவிரி ஆற்றுப் பாலம் பழுதுபார்ப்புக்குப் பின் போக்குவரத்துக்குத் திறப்பு
-[publish] பொதுத்துறை ஊழியர்களுக்கு 30 சதவீத தீபாவளி போனஸ் வேண்டும் - அன்புமணி ராமதாஸ்
-[brief] காலை brief தயார்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9Bm9spMo8bvzKuo1z9F'}
+[திருத்தம்] கொல்கத்தா இந்து திருவிழாவில் நெரிசல், பத → கொல்கத்தா இந்து திருவிழாவில் நெரிசல், கு
+[tts-edge] 72759304e5c9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கொல்கத்தா இந்து திருவிழாவில் நெரிசல், குறைந்தது 19 பேர் பலி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9BrU5LDuBDsrh4K6G98'}
+[image] களஞ்சியம் (2 சொல்): ஈரோடு இறுதிச் சடங்கில் சாதி பாகுபா
+[tts-edge] 5bb53cb1d349: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஈரோடு இறுதிச் சடங்கில் சாதி பாகுபாடு: அறிக்கை கேட்ட ஆணையம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9BxgTPXdsRbm6zsscWm'}
+[skip] மூலத்தில் 'தமிழ்நாடு முதல்வர் விஜய்' என்று குறிப்பிடப்பட்டுள
+[publish] ஹார்முஸ் நீரிணையில் கண்ணிவெடி மோதி இரண்டு எண்ணெய் கப்பல்களில் தீ
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; திட்டம் குறித்த விவரங்கள்,
+[திருத்தம்] பிரான்ஸில் போராட்டம் தீவிரம், லிமோஜஸ் நக → பிரான்ஸில் போராட்டம் தீவிரம், லிமோஜஸ் நக
+[publish] பிரான்ஸில் போராட்டம் தீவிரம், லிமோஜஸ் நகராட்சி கட்டிடம் தீக்கிரையானது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9CAJfYUrzyo1zB9yMY9'}
+[திருத்தம்] எஸ்சி எஸ்டி சட்ட வழக்கில் ஒன்பது பேர் பி → எஸ்சி/எஸ்டி சட்ட வழக்கில் ஒன்பது பேர் பி
+[publish] எஸ்சி/எஸ்டி சட்ட வழக்கில் ஒன்பது பேர் பிணை மனு பரிசீலிக்க சென்னை உயர்நீதிமன்றம் உத்தரவு
+[திருத்தம்] பெரும்பள்ளி தலித் இறுதிச் சடங்கு வழக்கில → பெரும்பாளை தலித் இறுதிச் சடங்கு வழக்கில்
+[image] களஞ்சியம் (3 சொல்): பெரும்பாளை தலித் இறுதிச் சடங்கு வழ
+[publish] பெரும்பாளை தலித் இறுதிச் சடங்கு வழக்கில் கைது தாமதம் — பகுஜன் சமாஜ் கட்சி உண்ணாவிரதம்
+[திருத்தம்] முன்னாள் அதிமுக எம்எல்ஏக்கள் தகுதி நீக்க → முன்னாள் அதிமுக எம்எல்ஏக்களின் தகுதி நீக
+[image] களஞ்சியம் (3 சொல்): முன்னாள் அதிமுக எம்எல்ஏக்களின் தகு
+[publish] முன்னாள் அதிமுக எம்எல்ஏக்களின் தகுதி நீக்கம் பற்றி சபாநாயகர் உறுதி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9CQvkbDMA2wRJpzHrYS'}
+[publish] பால் கொள்முதல் உயர்வு விலை திருத்தம் காரணம் என அமைச்சர்
+[skip] இது மாநில அரசு கடன் பத்திரங்களின் ஏலம் தொடர்பான தொழில்நுட்பக
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9CWBMKV3mgSnZqP2e9H'}
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[publish] ஐசிஐசிஐ வங்கி இரண்டாம் காலாண்டு லாபம் இருபது சதவீதம் உயர்வு
+[நகல்] ஏற்கனவே வெளியானது: ஐசிஐசிஐ வங்கி இரண்டாம் காலாண்டு லாபம் இருபது சதவீதம் உயர்வு
+[திருத்தம்] பாரஸ் ஹெல்த்கேர் பங்கு விற்பனை அக்டோபர்  → பாரஸ் ஹெல்த்கேர் ஐபிஓ அக்டோபர் 21-ல் தொட
+[தரம்] தமிழ் அல்லாத எழுத்து: राধরি → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): பாரஸ் ஹெல்த்கேர் ஐபிஓ அக்டோபர் 21-
+[publish] பாரஸ் ஹெல்த்கேர் ஐபிஓ அக்டோபர் 21-ல் தொடக்கம், பங்குக்கு 660-693 ரூபாய் விலை நிர்ணயம்
+[filler] health கட்டுரை
+[jobs] தொகுப்பு 1
+[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
 [image] தேடல் பொருந்தவில்லை → களஞ்சியம்: வேலூர் நேதாஜி சந்தையில் ஆக்கிரமிப்
-[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
+[image] 3 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13106 · சென்செக்ஸ் 74729
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 2 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 10
