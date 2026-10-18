@@ -1,26 +1,26 @@
 [fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
+[fetch] The Hindu TN: 25 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 11 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 15 புதியவை
-[fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
-[fetch] Cinema Express: 25 புதியவை
-[fetch] The Hindu Tech: 19 புதியவை
+[fetch] ESPNcricinfo: 14 புதியவை
+[fetch] The Hindu Sport: 30 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
+[fetch] Cinema Express: 26 புதியவை
+[fetch] The Hindu Tech: 18 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 13 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 11 புதியவை
+[fetch] FreeJobAlert: 6 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
-[fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Read timed out. (read timeout=20)
+[fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
-[fetch] The Hindu Legal: 27 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 27 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd10c151090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 27 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
-[fetch] Times Govt Schemes: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7a87e3d950>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,26 +67,19 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 29 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 646 → நிகழ்வுகள் 603
-[triage] 603 → 60 | காலி: sports:3, jobs:2, health:2, cinema:2, govt:1
-[skip] பாকிস்தான் உள்நாட்டுக் கிரிக்கெட் — தமிழ்நாடு/இந்தியா வாசகரு
-[skip] இந்த இரு வேலைவாய்ப்பு அறிவிப்புகளும் போபால் மற்றும் ராஞ்சியி
-[skip] அசாம் மற்றும் பஞ்சாப் மாநிலங்களின் உள்ளூர் வேலைவாய்ப்பு அறிவ
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[tts-edge] ca43dc3b24e7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கர்ப்ப காலத்தில் மனச்சோர்வு சிகிச்சை குழந்தையின் மூளை வளர்ச்சிக்கு நன்மை
-[skip] வெளிநாட்டு ஆங்கில/அமெரிக்க தொலைக்காட்சித் தொடர் — தமிழ்நாடு/
-[skip] வெளிநாட்டுச் சட்டப்பிரிவு வழக்கு — தமிழ்நாட்டுக்குப் பொருந்த
-[skip] வெளிநாட்டு கிரிக்கெட் போட்டி — தமிழ்நாடு / இந்தியாவுடன் தொடர
-[skip] வெளிநாட்டு பொதுவான சுகாதார ஆய்வு; தமிழ்நாடு/இந்தியாவுக்கு உட
-[skip] வெளிநாட்டு வீடியோ விளையாட்டு (Cyberpunk 2077) பற்றிய தর্ cla
-[skip] தென்னாப்பிரிக்கச் சேனையுடைய உள்நாட்டுக் கிரிக்கெட் தொடர் — த
-[tts-edge] art_sports_20261018: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[filler] sports கட்டுரை
+[run] புதியவை 657 → நிகழ்வுகள் 607
+[triage] 607 → 73 | காலி: jobs:2, cinema:2, sports:2, govt:1, health:1
+[skip] தலசেരി மாவட்ட நீதிமன்றம் கேரளாவில் உள்ளது. கேரள அரசுத் துறைய
+[skip] வெளிநாட்டு சினிமாவ் அல்ல; ஆனால் மூல உரையே முழுமையாக இல்லை. ச
+[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் — பাकிஸ்தான் மற்றும் இலங்க
+[skip] பிற மாநில உள்ளூர் விபத்து — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு 
+[skip] சர்வதேசக் கட்டுரை மோசடி — தமிழ்நாடு அல்லது இந்தியாவுக்குத் த
+[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. தமிழ்ந
+[skip] 1997 கன্னட சினிமாப் படத்தைப் பற்றிய வரலாற்று மீள்பார்வை — தம
+[skip] வெளிநாட்டு ক্রীড়া நিকழ்வு — भारत–झिम्बाब्वे महिला ক्रिकेट म
 [image] தேடல் பொருந்தவில்லை → களஞ்சியம்: வேலூர் நேதாஜி சந்தையில் ஆக்கிரமிப்
-[image] 3 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13106 · சென்செக்ஸ் 74729
+[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13104 · சென்செக்ஸ் 74729
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 1
+[done] feed 300 · pending 0 · எழுதியவை 0
