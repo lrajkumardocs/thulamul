@@ -1,27 +1,26 @@
-[expire] d74a3e4f00a0
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 23 புதியவை
+[fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 10 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
+[fetch] The Hindu TN: 20 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 11 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 15 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 12 புதியவை
-[fetch] Cinema Express: 23 புதியவை
-[fetch] The Hindu Tech: 18 புதியவை
+[fetch] The Hindu Sport: 29 புதியவை
+[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] Cinema Express: 25 புதியவை
+[fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 12 புதியவை
+[fetch] The Hindu Health: 13 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 17 புதியவை
+[fetch] FreeJobAlert: 11 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
-[fetch] ICMR: 0 புதியவை
+[fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Read timed out. (read timeout=20)
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
@@ -29,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 5 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 27 புதியவை
+[fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -52,46 +51,42 @@
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
-[fetch] PIB All India: பிழை HTTPSConnectionPool(host='pib.gov.in', port=443): Max retries exceeded with url: /PressReleseRss.aspx?Reg=3&Lang=1 (Caused by NameResolutionError("HTTPSConnection(host='pib.gov.in', port=443): Failed to resolve 'pib.gov.in' ([Errno -5] No address associated with hostname)"))
+[fetch] PIB All India: 0 புதியவை
 [fetch] PIB Tamil Releases: 0 புதியவை
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f07733ef690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd10c151090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 29 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 646 → நிகழ்வுகள் 597
-[triage] 597 → 61 | காலி: jobs:3, sports:3, health:2, cinema:2, govt:1
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத வேறு மாநில/உள்
-[skip] வெளிநாட்டு கிரிக்கெட் தொடர் — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cg9Wn618mStgkmnZLj92N'}
-[tts-edge] aeb1607bb927: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அக்டோபரில் 52,000 கோடி ரூபாய் வெளிநாட்டு முதலீடு வெளியேற்றம்
-[skip] ராஜஸ்தான் CURAJ மற்றும் TISS Tanda ஆகியவை தமிழ்நாட்டுடன் தொட
-[skip] வரலாற்றுப் பின்னணிக் கட்டுரை — தற்போதைய செய்தி அல்ல. 'India'
-[skip] திரைப்படத் தொடர்பான பொதுவான விமர்சனம் / கண்ணோட்டப் பதிவு. 'த
-[skip] கேரளா உயர்நீதிமன்றத்தின் உத்தரவு — கேரளாவின் உள்ளூர் விஷயம்.
-[skip] வெளிநாட்டு நாட்டவரின் இலட்சியக் கிரிக்கெட் தொடர் (ஆஸ்திரேலிய
-[skip] கேரளத்தின் உள்ளூர் சுகாதாரச் செய்தி — தமிழ்நாட்டு வாசகரைப் ப
-[skip] வெளிநாட்டுப் பத்திரிகையின் பற்றி – இந்திய/தமிழ்நாட்டுத் சினி
-[தரம்] தமிழ் அல்லாத எழுத்து: टह → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: எஸ்.பி.ஐ.-யில் ஆறு பதவிகளுக்கு நிய
-[tts-edge] 5f7c1b6b9884: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எஸ்.பி.ஐ.-யில் ஆறு பதவிகளுக்கு நியமனம்; அக்டோபர் 19 முதல் விண்ணப்பம்
-[skip] வெளிநாட்டுக் கிரிக்கெட் ஆய்வு — தமிழ்நாட்டு/இந்திய வாசகருக்க
-[filler] tech கட்டுரை
+[run] புதியவை 646 → நிகழ்வுகள் 603
+[triage] 603 → 60 | காலி: sports:3, jobs:2, health:2, cinema:2, govt:1
+[skip] பாকிস்தான் உள்நாட்டுக் கிரிக்கெட் — தமிழ்நாடு/இந்தியா வாசகரு
+[skip] இந்த இரு வேலைவாய்ப்பு அறிவிப்புகளும் போபால் மற்றும் ராஞ்சியி
+[skip] அசாம் மற்றும் பஞ்சாப் மாநிலங்களின் உள்ளூர் வேலைவாய்ப்பு அறிவ
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[tts-edge] ca43dc3b24e7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கர்ப்ப காலத்தில் மனச்சோர்வு சிகிச்சை குழந்தையின் மூளை வளர்ச்சிக்கு நன்மை
+[skip] வெளிநாட்டு ஆங்கில/அமெரிக்க தொலைக்காட்சித் தொடர் — தமிழ்நாடு/
+[skip] வெளிநாட்டுச் சட்டப்பிரிவு வழக்கு — தமிழ்நாட்டுக்குப் பொருந்த
+[skip] வெளிநாட்டு கிரிக்கெட் போட்டி — தமிழ்நாடு / இந்தியாவுடன் தொடர
+[skip] வெளிநாட்டு பொதுவான சுகாதார ஆய்வு; தமிழ்நாடு/இந்தியாவுக்கு உட
+[skip] வெளிநாட்டு வீடியோ விளையாட்டு (Cyberpunk 2077) பற்றிய தর্ cla
+[skip] தென்னாப்பிரிக்கச் சேனையுடைய உள்நாட்டுக் கிரிக்கெட் தொடர் — த
+[tts-edge] art_sports_20261018: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[filler] sports கட்டுரை
 [image] தேடல் பொருந்தவில்லை → களஞ்சியம்: வேலூர் நேதாஜி சந்தையில் ஆக்கிரமிப்
 [image] 3 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹13106 · சென்செக்ஸ் 74729
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [image] 2 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 2
+[done] feed 300 · pending 0 · எழுதியவை 1
