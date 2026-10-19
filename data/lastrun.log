@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 16 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 23 புதியவை
+[fetch] BBC World: 24 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 14 புதியவை
+[fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
-[fetch] Wired: 27 புதியவை
+[fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 8 புதியவை
+[fetch] The Hindu Health: 7 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 2 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -24,19 +24,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 1 புதியவை
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 18 புதியவை
+[fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5689eddf10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff6da868d90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -66,21 +66,45 @@
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
-[fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 641 → நிகழ்வுகள் 587
-[triage] 587 → 70 | காலி: india:3, govt:3, sports:2, assembly:2, health:1
-[skip] ஒடிசா-ஆந்திரா மாநில எல்லைத் தகராறு தொடர்பான உள்ளூர் அரசியல் 
+[fetch] Times Chennai Crime: 17 புதியவை
+[run] புதியவை 631 → நிகழ்வுகள் 581
+[triage] 581 → 80 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது தில்லி சிறப்பு நிர்வாக மாஜிஸ்திரேட் நீதிமன்றம் தொடர்பான 
+[தரம்] தமிழ் அல்லாத எழுத்து: नहহ → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாடு மோட்டார் வாகன பராமரிப்பு
+[tts-edge] 0fd326ee3e4a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாடு மோட்டார் வாகன பராமரிப்புத் துறையில் 79 பணியிடங்கள்
+[tts-edge] be75db1f458f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] புற்றுநோய் எதிர்ப்பு 137 மருந்துக்கு அரசு விலை வரம்பு
+[தரம்] தமிழ் அல்லாத எழுத்து: তශ → ஒரு திருத்தம்
+[publish] இசையமைப்பாளர் தேவா தமிழ்ச் சினிமாவில் பெரும் பாரம்பரியம் நிறுத்திச் சென்றார்
+[skip] வெளிநாட்டு T20 போட்டி (Afghanistan vs Zimbabwe) — தமிழ்நாடு 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgCLc2iG7tN7QrnuLoewW'}
+[திருத்தம்] ருவாண்டா அதிபர் விமர்சகர் உகாண்டாவில் கொ → ருவாண்டா அதிபர் விமர்சகர் உகாண்டாவில் தல
+[தரம்] தமிழ் அல்லாத எழுத்து: রা → ஒரு திருத்தம்
+[publish] ருவாண்டா அதிபர் விமர்சகர் உகாண்டாவில் தலை துண்டிக்கப்பட்ட நிலையில் கண்டெடுக்கப்பட்டார்
+[publish] ஏமன் பயிற்சி முகாமில் ஹூதி ஏவுகணைத் தாக்குதல்; 50 பேர் பலி
+[திருத்தம்] சூடானில் ட்ரோன் தாக்குதல்களில் 160 பேர்  → சூடானில் ட்ரோன் தாக்குதல்களில் 160 பேர் 
+[publish] சூடானில் ட்ரோன் தாக்குதல்களில் 160 பேர் பலி
+[திருத்தம்] சோழவரம் அருகே ஆட்டோ கவிழ்ந்து விபத்து: இ → சோழவரம் அருகே ஆட்டோ கவிழ்ந்து விபத்து: 2
+[image] களஞ்சியம் (2 சொல்): சோழவரம் அருகே ஆட்டோ கவிழ்ந்து விபத
+[publish] சோழவரம் அருகே ஆட்டோ கவிழ்ந்து விபத்து: 2 குழந்தைகள் பலி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] கொல்கத்தா மெட்ரோவில் ஏற்பட்ட உள்ளூர் தொழில்நுட்பக் கோளாறு, ம
-[skip] மூல உரை தெளிவற்றது, முழுமையற்றது மற்றும் இந்தி எழுத்துகளில் 
-[skip] வெளிநாட்டுக் கிரிக்கெட் ஒட்டு — ஆஃப்கானிஸ்தான் vs சிம்பாப்வே
-[skip] பொதுவான சுகாதாரக் கட்டுரை — தமிழ்நாட்டுக்குப் பொருத்தமான குற
-[skip] விமர்சனம் மற்றும் பகுப்பாய்வு — செய்திக் கட்டுரை அல்ல। 'பெறு
-[skip] ஒடிசா மாநில அரசின் உள்ளூர் அரசியல் — தமிழ்நாடு வாசகருக்குப் 
-[skip] ஆஸ்திரேலியா-தென்னாப்பிரிக்கா கிரிக்கெட் தொடர் தமிழ்நாடு/இந்த
-[skip] மணிப்பூர் மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் பாதுகாப்பு விவ
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13044 · சென்செக்ஸ் 73853
+[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
+[publish] உளவுத்தகவல் கட்டுப்பாட்டால் யுக்ரைனியர்கள் உயிரிழப்பு என குற்றச்சாட்டு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgCM3JM4D3eJsqpnC21UL'}
+[திருத்தம்] கனடா ராணுவத் தளத்தில் தீ விபத்து நான்கு  → கனடா ராணுவத் தளத்தில் தீ விபத்து: நான்கு
+[publish] கனடா ராணுவத் தளத்தில் தீ விபத்து: நான்கு பேர் பலி
+[skip] இது இத்தாலியின் உள்நாட்டு அரசியல் மற்றும் பாதுகாப்புக் கொள்க
+[publish] ரஷ்யா மீதான பொருளாதாரத் தடைகளை இடைநிறுத்தினார் டிரம்ப்
+[comic] கதை: நிலவொளியில் ஓர் அழகு
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-20.png · நாள் 41
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹13034 · சென்செக்ஸ் 73853
 [weather] புதுப்பிக்கப்பட்டது
-[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 0
+[image] 2 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 10
