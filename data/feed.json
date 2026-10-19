@@ -1,5 +1,107 @@
 [
  {
+  "id": "art_tech_20261019",
+  "headline": "அன்றாட டிஜிட்டல் பாதுகாப்பு: UPI, ஆதார் பயன்பாட்டில் கவனிக்க வேண்டியவை",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது பெறுநரின் பெயரை உறுதிப்படுத்திய பின்னரே பணம் அனுப்புதல் நல்லது.",
+   "உங்கள் UPI பின் எண்ணை யாருடனும் பகிர வேண்டாம், வங்கி ஊழியர் என்று கூறி கேட்கும் அழைப்புகளும் மோசடியாக இருக்கலாம்.",
+   "ஆதார் எண்ணை பகிரும்போது மாஸ்க் செய்யப்பட்ட ஆதார் (Masked Aadhaar) பதிப்பைப் பயன்படுத்துவது அடையாள திருட்டைத் தடுக்க உதவும்.",
+   "மொபைல் போனில் தேவையற்ற ஆப்களுக்கு கேமரா, மைக்ரோஃபோன், தொடர்பு பட்டியல் அனுமதிகளை வழங்காமல் இருப்பது தனியுரிமையைப் பாதுகாக்கும்.",
+   "சந்தேகத்திற்குரிய இணைப்புகளை (links) கிளிக் செய்வதற்கு முன் அனுப்புநரின் அடையாளத்தை சரிபார்த்துக் கொள்வது நல்லது."
+  ],
+  "closing": "சிறிய எச்சரிக்கை பெரிய இழப்பைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-19"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "மோசடி"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-19T11:02+05:30",
+  "created_ts": 1792387968.9244857,
+  "audio": "data/audio/art_tech_20261019.mp3"
+ },
+ {
+  "headline": "இந்திய ரிசர்வ் வங்கி 10.53 பில்லியன் டாலர் பணப்புழக்கம் அறிவிப்பு",
+  "lines": [
+   "இந்திய ரிசர்வ் வங்கி, ரெப்போ செயல்பாட்டின் மூலம் வங்கிகளுக்குப் பணப்புழக்கம் அளிக்க உத்தரவிட்டுள்ளது.",
+   "இதன் மூலம் ஒரு லட்சம் கோடி ரூபாய் வரை (10.53 பில்லியன் அமெரிக்க டாலர்) அளிக்கப்படும்.",
+   "வரி செலுத்துதலால் ஏற்படும் பண வெளியேற்றத்தை நிதானம் செய்ய இந்த நடவடிக்கை உதவும் என வர்த்தகவாணிகர் குறிப்பிடுகின்றனர்.",
+   "தினசரி பண இருப்பு தேவை கடுமையாக்கப்பட்ட நிலையில் வங்கிகள் பண நெருக்கடியை எதிர்நோக்கி வருகின்றன.",
+   "இந்த ரெப்போ செயல்பாட்டின் மூலம் வங்கி அமைப்பில் பணப் பற்றாக்குறை குறையும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "வரிக் காலங்களில் ஏற்படும் பண நெருக்கடியைச் சமாளிக்க இந்திய ரிசர்வ் வங்கி அவ்வப்போது இதுபோன்ற பணப்புழக்க நடவடிக்கைகளை மேற்கொண்டு வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "இந்திய ரிசர்வ் வங்கி",
+   "ரெப்போ",
+   "வங்கி அமைப்பு",
+   "பணப்புழக்கம்",
+   "வரி செலுத்துதல்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "RBI Announces One Lakh Crore Rupee Liquidity Infusion",
+   "lines": [
+    "The Reserve Bank of India has ordered liquidity infusion into the banking system through repo auctions.",
+    "Up to one lakh crore rupees will be provided through this, equivalent to 10.53 billion US dollars.",
+    "This measure is expected to help offset cash outflows caused by tax payments, according to market circles.",
+    "Banks are reportedly facing cash crunch as daily cash reserve requirements have been tightened.",
+    "This repo operation is expected to ease the cash shortage in the banking system."
+   ],
+   "closing": "The Reserve Bank of India periodically undertakes such liquidity measures to address cash crunches arising during tax payment periods.",
+   "closing_type": "background"
+  },
+  "id": "6a6797a9cfe8",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-19T11:01+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/forex/rbi-announces-10-5-billion-liquidity-infusion-via-repo/articleshow/135038836.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/500px-Seal_of_the_Reserve_Bank_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Reserve Bank of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/6a6797a9cfe8.mp3",
+  "created_ts": 1792387867.5024438,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "பஜாஜ் ஃபைனான்ஸ் இரண்டாம் காலாண்டில் நிகர லாபம் 29%, நிகர வட்டி வருவாய் 24% உயரும் என எதிர்பார்ப்பு",
   "lines": [
    "பஜாஜ் ஃபைனான்ஸ் நிறுவனத்தின் ஜூலை-செப்டம்பர் காலாண்டு நிகர லாபம் 29% அளவு உயரக்கூடும் என எதிர்பார்க்கப்படுகிறது.",
@@ -1394,7 +1496,7 @@
    "https://www.dinamani.com/tamilnadu/2026/Oct/18/red-alert-for-chennai-warning-received-on-mobile-phones-accompanied-by-an-alarm"
   ],
   "image": {
-   "url": "https://images.unsplash.com/photo-1655829322327-c8952316293f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8Y2hlbm5haSUyMHJhaW4lMjB3ZWF0aGVyJTIwYWxlcnR8ZW58MXwwfHx8MTc5MjM1MzgyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+   "url": "https://images.unsplash.com/photo-1655829322327-c8952316293f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDU5NTc0fDB8MXxzZWFyY2h8MXx8Y2hlbm5haSUyMHJhaW4lMjB3ZWF0aGVyJTIwYWxlcnR8ZW58MXwwfHx8MTc5MjM4ODAxNHww&ixlib=rb-4.1.0&q=80&w=1080",
    "credit": "Ayrus Hill · Unsplash",
    "license": "Unsplash — இலவசம்",
    "symbolic": true
@@ -18740,134 +18842,6 @@
   },
   "audio": "data/audio/31286598d942.mp3",
   "created_ts": 1791747041.429798,
-  "status": "published"
- },
- {
-  "headline": "ஜிபூட்டி கடற்பகுதியில் படகு கவிழ்ந்து 139 பேர் உயிரிழப்பு",
-  "lines": [
-   "ஜிபூட்டியிலிருந்து ஏமன் நாட்டுக்குச் சென்ற ஒரு படகு, ஜிபூட்டியின் ஓபாக் துறைமுக நகருக்கு அருகில் வியாழக்கிழமை இரவு கவிழ்ந்தது.",
-   "படகில் 305 பேர் பயணித்த நிலையில், குழந்தைகள் உட்பட 139 பேர் உயிரிழந்ததாக ஐக்கிய நாடுகள் சபை தெரிவித்துள்ளது.",
-   "இந்தச் சம்பவம் குறித்து ஐக்கிய நாடுகள் சபை அதிகாரப்பூர்வமாக அறிக்கை வெளியிட்டு விவரங்களைத் தெரிவித்துள்ளது.",
-   "ஆப்பிரிக்காவிலிருந்து பணி தேடி பலர் இந்த ஆபத்தான கடல் பாதை வழியாக ஏமன் நாட்டுக்குச் செல்வது வழக்கமாக உள்ளது.",
-   "காணாமல் போனோரைத் தேடும் மீட்புப் பணிகள் தொடர்வதாகவும், மேலும் விவரங்கள் விசாரிக்கப்படுவதாகவும் தெரிவிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "காணாமல் போனோரைத் தேடும் மீட்புப் பணிகள் தொடர்வதாகவும் ஐக்கிய நாடுகள் சபை தெரிவித்துள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "ஜிபூட்டி",
-   "ஏமன்",
-   "ஓபாக்",
-   "ஐக்கிய நாடுகள் சபை"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Boat capsizes off Djibouti, 139 dead including children",
-   "lines": [
-    "A boat travelling from Djibouti to Yemen capsized near the Djibouti port town of Obock on Thursday night.",
-    "The boat was carrying 305 people, and 139 people, including children, died, the United Nations said.",
-    "The United Nations issued an official report on the incident, sharing further details.",
-    "Many people from Africa regularly use this dangerous sea route to reach Yemen in search of work.",
-    "Rescue operations to find those missing are continuing, and further details are being investigated."
-   ],
-   "closing": "People migrating from Djibouti to Yemen are reported to frequently use this sea route in search of work opportunities."
-  },
-  "front_cat": "mass_casualty",
-  "image_query": "",
-  "wiki_subject": "Obock",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "75b455dbe9e5",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-12T00:56+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Obock%2C_Djibouti.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Obock",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Obock",
-   "symbolic": false
-  },
-  "audio": "data/audio/75b455dbe9e5.mp3",
-  "created_ts": 1791746780.8382933,
-  "status": "published"
- },
- {
-  "headline": "சவூதி தலைநகர் ரியாத் விமான நிலையம் மீது ஹூதி இரண்டாவது தாக்குதல்",
-  "lines": [
-   "யேமனிய ஹூதி கிளர்ச்சிக் குழு சவூதி அரேபியா தலைநகர் ரியாத் மீது இரண்டு நாட்களில் இரண்டாவது தாக்குதல் நடத்தியதாக அறிவித்தது.",
-   "வார இறுதியில் நடந்த தாக்குதல்களில் 13 பேர் உயிரிழந்ததாக ஹூதி குழு தெரிவித்தது.",
-   "இரண்டு விமான நிலையங்களையும் எண்ணெய் வசதிகளையும் இலக்காகக் கொண்டு தாக்குதல் நடத்தியதாக அக்குழு கூறியது.",
-   "இந்தத் தாக்குதல் தொடர்பாக சவூதி அரேபியா இதுவரை அதிகாரப்பூர்வ உறுதிப்படுத்தல் எதுவும் அளிக்கவில்லை.",
-   "மேலும் தாக்குதல்கள் நடைபெறுமா என்பது குறித்து சர்வதேச அளவில் கவனம் குவிந்துள்ளது."
-  ],
-  "closing": "ஹூதி கிளர்ச்சிக் குழுவும் சவூதி அரேபியாவும் யேமன் உள்நாட்டுப் போரின் காரணமாக பல ஆண்டுகளாக மோதல் நிலையில் உள்ளனர்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "யேமன்",
-   "ஹூதி கிளர்ச்சிக் குழு",
-   "சவூதி அரேபியா",
-   "ரியாத்",
-   "விமான நிலையம்"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Houthi group claims second strike on Saudi capital airport",
-   "lines": [
-    "Yemen's Houthi group announced it carried out a second consecutive day of attacks on Saudi Arabia's capital Riyadh.",
-    "The group claimed that thirteen people were killed in the attacks over the weekend.",
-    "The group said the strikes targeted two airports and oil facilities.",
-    "Saudi Arabia has not yet officially confirmed the attack.",
-    "International attention is focused on whether further strikes will follow."
-   ],
-   "closing": "The Houthi group and Saudi Arabia have been in conflict for years amid Yemen's civil war."
-  },
-  "front_cat": "attack_terror",
-  "image_query": "",
-  "wiki_subject": "Houthi movement",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "a4f40d791855",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-12T00:54+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Ansar_Allah_Logo.svg/330px-Ansar_Allah_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Houthis",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Houthis",
-   "symbolic": false
-  },
-  "audio": "data/audio/a4f40d791855.mp3",
-  "created_ts": 1791746670.815207,
   "status": "published"
  }
 ]
