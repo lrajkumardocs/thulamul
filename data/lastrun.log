@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 19 புதியவை
+[fetch] The Hindu TN: 16 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 23 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 9 புதியவை
+[fetch] ESPNcricinfo: 14 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
-[fetch] Cinema Express: 23 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
-[fetch] Wired: 30 புதியவை
+[fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 9 புதியவை
+[fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 4 புதியவை
+[fetch] FreeJobAlert: 2 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,24 +24,24 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 23 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 19 புதியவை
+[fetch] TechCrunch: 18 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 26 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 29 புதியவை
+[fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,50 +56,31 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f498aa93b10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5689eddf10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 644 → நிகழ்வுகள் 594
-[triage] 594 → 71 | காலி: india:3, govt:3, sports:3, court:2, health:2
-[திருத்தம்] பவர் நாட்டுடைய ஆண் தேர்வாளராக நியமிக்கப் → பவர் ஆண் தேசிய தேர்வாளராக நியமனம்; ஓஜா த
-[tts-edge] 8d6449144bc4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பவர் ஆண் தேசிய தேர்வாளராக நியமனம்; ஓஜா தலைவராக
-[திருத்தம்] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்கு வழங்கலுக்கு 2 → ஜியோ பிளாட்ஃபார்ம்ஸ் ஐபிஓவுக்கு 2.5 லட்ச
-[tts-edge] 36d46c17847b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் ஐபிஓவுக்கு 2.5 லட்சம் கோடி ஆரம்ப கோரிக்கை: சாதனை முறிந்தது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgBWrEfAPNUeTavYdowkK'}
-[திருத்தம்] அல்ட்ராடெக் சிமெண்ட் நிகர லாபம் 21 சதவீத → அல்ட்राடெக் சிமெண்ட் நிகர லாபம் 21 சதவீத
-[தரம்] தமிழ் அல்லாத எழுத்து: रा → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): அல்ட்ராடெக் சிமெண்ட் நிகர லாபம் 21
-[publish] அல்ட்ராடெக் சிமெண்ட் நிகர லாபம் 21 சதவீதம் உயர்வு; 1,494 கோடி ரூபாய்.
-[தரம்] தமிழ் அல்லாத எழுத்து: আইি → ஒரு திருத்தம்
-[publish] எச்எஃப்சிஎல் நிகர லாபம் 448 சதவீதம் உயர்வு, பங்கு பெரும் ஏற்றம்
-[தரம்] தமிழ் அல்லாத எழுத்து: र → ஒரு திருத்தம்
-[publish] என்ஜினியர்ஸ் இந்தியா நிறுவனத்தில் 109 காலியிடங்கள்
-[skip] இது தில்லியைச் சார்ந்த ஒரு தனிப்பட்ட மாணவர் அமைப்பு உறுப்பின
-[publish] நீர்நிலை மீதான பட்டா ரத்தை உறுதி செய்த உச்ச நீதிமன்றம்
-[publish] காவல்துறை லஞ்ச வழக்கில் முன் அனுமதி தேவையில்லை என உச்ச நீதிமன்றம் தீர்ப்பு
-[திருத்தம்] நீர்நிலை மீது பட்டா ரத்து செய்த தீர்ப்பை → நீர்நிலை மீது பட்டா ரத்துசெய்த தீர்ப்பை 
-[தரம்] தமிழ் அல்லாத எழுத்து: া → ஒரு திருத்தம்
-[publish] நீர்நிலை மீது பட்டா ரத்துசெய்த தீர்ப்பை உச்ச நீதிமன்றம் உறுதிசெய்தது
-[skip] இது மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் போராட்டம் மற்றும் பம்பாய
-[திருத்தம்] தன்னலம் பாதிக்கப்பட்ட வயதான குழந்தைகளுக் → தன்னலம் பாதிக்கப்பட்ட வயதான குழந்தைகளுக்
-[publish] தன்னலம் பாதிக்கப்பட்ட வயதான குழந்தைகளுக்குப் பிறகு யார் பார்ப்பார் என்ற கவலையில் பெற்றோர்
-[நகல்] ஏற்கனவே வெளியானது: இசையமைப்பாளர் தேவா உடலுக்கு அரசு மரியாதை, நல்லடக்கம்
-[திருத்தம்] பொலிசாரிடமிருந்து லஞ்சம் கேட்டாலும் அனும → பொலிசாரிடம் இருந்து லஞ்சம் கேட்டாலும் அன
-[publish] பொலிசாரிடம் இருந்து லஞ்சம் கேட்டாலும் அனுமதி தேவையில்லை: உச்ச நீதிமன்றம்
+[run] புதியவை 641 → நிகழ்வுகள் 587
+[triage] 587 → 70 | காலி: india:3, govt:3, sports:2, assembly:2, health:1
+[skip] ஒடிசா-ஆந்திரா மாநில எல்லைத் தகராறு தொடர்பான உள்ளூர் அரசியல் 
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] கொல்கத்தா மெட்ரோவில் ஏற்பட்ட உள்ளூர் தொழில்நுட்பக் கோளாறு, ம
+[skip] மூல உரை தெளிவற்றது, முழுமையற்றது மற்றும் இந்தி எழுத்துகளில் 
+[skip] வெளிநாட்டுக் கிரிக்கெட் ஒட்டு — ஆஃப்கானிஸ்தான் vs சிம்பாப்வே
+[skip] பொதுவான சுகாதாரக் கட்டுரை — தமிழ்நாட்டுக்குப் பொருத்தமான குற
+[skip] விமர்சனம் மற்றும் பகுப்பாய்வு — செய்திக் கட்டுரை அல்ல। 'பெறு
+[skip] ஒடிசா மாநில அரசின் உள்ளூர் அரசியல் — தமிழ்நாடு வாசகருக்குப் 
+[skip] ஆஸ்திரேலியா-தென்னாப்பிரிக்கா கிரிக்கெட் தொடர் தமிழ்நாடு/இந்த
+[skip] மணிப்பூர் மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் பாதுகாப்பு விவ
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13146 · சென்செக்ஸ் 73853
+[market] தங்கம் 22K ₹13044 · சென்செக்ஸ் 73853
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 0
