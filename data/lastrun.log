@@ -1,20 +1,20 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 19 புதியவை
+[fetch] ET Markets: 15 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 23 புதியவை
+[fetch] The Hindu TN: 22 புதியவை
 [fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 12 புதியவை
-[fetch] Al Jazeera: 18 புதியவை
-[fetch] ESPNcricinfo: 11 புதியவை
+[fetch] BBC Tamil: 5 புதியவை
+[fetch] BBC World: 13 புதியவை
+[fetch] Al Jazeera: 16 புதியவை
+[fetch] ESPNcricinfo: 10 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 26 புதியவை
 [fetch] The Hindu Tech: 18 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 10 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 9 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 4 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 27 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 28 புதியவை
+[fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 19 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 27 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5b2d4c70d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fbdfc92dc50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 27 புதியவை
-[fetch] Times Govt Schemes: 18 புதியவை
+[fetch] Times Govt Schemes: 17 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,36 +67,58 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 613 → நிகழ்வுகள் 570
-[triage] 570 → 85 | காலி: india:4, govt:4, economy:3, court:3, health:3
-[தரம்] தமிழ் அல்லாத எழுத்து: গ → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): மருத்துவக் கல்லூரிகளுக்கு நோயாளி ப
-[tts-edge] 0fdeda90da06: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மருத்துவக் கல்லூரிகளுக்கு நோயாளி பாதுகாப்புக் குழு அவசியம்
-[skip] கருத்து மற்றும் விமர்சனம் — சினிமா பிரிவுக்கு 'நிகழ்வுச் செய
-[skip] பாகிஸ்தான், இலங்கை அணிகளின் உள்ளூர் தயாரிப்பு செய்திகள். தமி
-[தரம்] தமிழ் அல்லாத எழுத்து: ा → ஒரு திருத்தம்
-[tts-edge] 6d13546572b8: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இசையமைப்பாளர் தேவா அரசு மரியாதையுடன் இறுதி அஞ்சலி
-[publish] ஒரேகான் பள்ளித் துப்பாக்கிச் சூட்டு நடத்தியவரை சுட்டுக் கொன்ற தந்தை பாராட்டு
-[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
-[publish] இசையமைப்பாளர் தேவா உடலுக்கு அரசு மரியாதை, நல்லடக்கம்
-[தரம்] தமிழ் அல்லாத எழுத்து: না → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: அல்பேனியா உச்ச நீதிமன்றத்தில் தீ, 
-[publish] அல்பேனியா உச்ச நீதிமன்றத்தில் தீ, போராட்டம் ஐந்தாம் நாளில்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAToeujrN92vCogaReAF'}
-[publish] அல்பேனியாவில் ஆறாவது நாளாகத் தொடரும் வன்முறைப் போராட்டம்
-[image] களஞ்சியம் (2 சொல்): மரண தண்டனைக் கைதி எழுதிய நூலுக்கு 
-[publish] மரண தண்டனைக் கைதி எழுதிய நூலுக்கு இயல் விருது தேர்வு
-[திருத்தம்] நாகப்பட்டினம் கடற்கரையில் நூறு கோடி மதிப → நாகப்பட்டினம் கடற்கரையில் நூறு கோடி மதிப
-[publish] நாகப்பட்டினம் கடற்கரையில் நூறு கோடி மதிப்புள்ள போதைப்பொருள் பறிமுதல்
-[publish] பள்ளி தண்ணீர் தொட்டியில் மலம்; விசாரணை அறிக்கை கோரிய சென்னை உயர்நீதிமன்றம்
+[run] புதியவை 610 → நிகழ்வுகள் 560
+[triage] 560 → 34 | காலி: india:4, govt:4, economy:3, sports:3, court:2
+[skip] தென்னாப்பிரிக்கா-ஆஸ்திரேலியா இருதரப்பு கிரிக்கெட் தொடர் - இந
+[image] களஞ்சியம் (2 சொல்): தற்காலிக ஓய்வூதிய வரம்பு உத்தரவை த
+[tts-edge] f4c5977fd2bd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தற்காலிக ஓய்வூதிய வரம்பு உத்தரவை திரும்பப் பெற்றது தமிழ்நாடு அரசு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAU8ZaYE4qBDvobGpZZJ'}
-[திருத்தம்] ரஷ்யாவின் செயின்ட் பீட்டர்ஸ்பர்க்கில் தா → செயின்ட் பீட்டர்ஸ்பர்க்கில் தாக்குதல், ஒ
-[publish] செயின்ட் பீட்டர்ஸ்பர்க்கில் தாக்குதல், ஒருவர் பலி
+[skip] மூலங்களில் தலைப்பு மட்டுமே உள்ளது, மாவட்டங்களின் பெயர்கள், க
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAe6fWbFZgz7dBwYNw89'}
+[திருத்தம்] திருவண்ணாமலை கார்த்திகை தீபத் திருவிழாவு → திருவண்ணாமலை கார்த்திகை தீபத் திருவிழாவு
+[tts-edge] d63b0383cd14: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திருவண்ணாமலை கார்த்திகை தீபத் திருவிழாவுக்கு 50 லட்சம் பேர் வருகை எதிர்பார்ப்பு: அமைச்சர் ஆதவ் அர்ஜுனா
+[publish] மழைக்கால முன்னேற்பாட்டில் தாமதம், அரசு மீது சென்னை மேயர் குற்றச்சாட்டு
+[திருத்தம்] ஜெம் கிரானைட்ஸ் வீரமணி வழக்கில் இடைத்தரக → ஜெம் கிரானைட்ஸ் வீரமணி வழக்கில் முக்கிய 
+[image] களஞ்சியம் (2 சொல்): ஜெம் கிரானைட்ஸ் வீரமணி வழக்கில் மு
+[publish] ஜெம் கிரானைட்ஸ் வீரமணி வழக்கில் முக்கிய இடைத்தரகர் கைது
+[திருத்தம்] சென்னையில் முதல் மழை, நீர் தேங்கியது விர → சென்னை முதல் மழையில் நீர் தேங்கியது விரை
+[தரம்] தமிழ் அல்லாத எழுத்து: ।; வரி 1 முற்றுப்புள்ளி இல்லை → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): சென்னை முதல் மழையில் நீர் தேங்கியத
+[publish] சென்னை முதல் மழையில் நீர் தேங்கியது விரைவில் வடிந்தது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAePdLLRb7MSYC7KmrAa'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAeSvy5VHr954hNuqiUB'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (எங்க
+[திருத்தம்] சென்னை வெள்ளத்தடுப்பு பணிகளை மேம்படுத்த  → சென்னை வெள்ளத்தடுப்பு பணிகளை மேம்படுத்த 
+[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
+[publish] சென்னை வெள்ளத்தடுப்பு பணிகளை மேம்படுத்த அன்புமணி ராமதாஸ் வலியுறுத்தல்
+[skip] இது டெல்லியின் இரண்டு வாக்குச்சாவடிகளில் நடந்த உள்ளூர் தேர்த
+[publish] காங்கிரஸ் பேரணிக்கு தில்லி காவல்துறை அனுமதி நவம்பர் முதல் தேதி
+[skip] ஜம்மு காஷ்மீர் மற்றும் லடாக்கில் ஒரு மத அமைப்பின் உள்ளூர் மத
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgAegmgMZqHcnXUpRaEqM'}
+[skip] மூல உரை முழுமையாக இல்லை — செய்திக்கான தகவல் விவரம் கிடைக்கவி
+[தரம்] தமிழ் அல்லாத எழுத்து: ञজভিત → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): குஜராத் உயிரியல் பல்கலைக்கழகம் திட
+[publish] குஜராத் உயிரியல் பல்கலைக்கழகம் திட்ட விஞ்ஞானி நியமனம்
+[skip] World Mental Health Day விழா முடிந்துபோனதன் தொடர்ச்சி மட்டும
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Self-taught artist recreates the magnificence of
+[skip] சீன நாட்டுத் தொலைக்காட்சித் தொடரிகள் பற்றிய பொதுவான ஆய்வுக் 
+[skip] Delhi தொடர்பான செய்திகள் — தமிழ்நாடு வாசகருக்குப் பொருந்தாது
+[image] களஞ்சியம் (2 சொல்): நடுத்தர பங்குச் சந்தையில் எட்டு நி
+[publish] நடுத்தர பங்குச் சந்தையில் எட்டு நிறுவனங்களில் முதலீட்டு உயர்வு
+[skip] வெளிநாட்டுக் குதிரைப் பந்தயம் — இந்தியா/தமிழ்நாட்டுடன் தொடர்
+[skip] கர்நாटக மாநிலப் பல்கலைக்கழகத்தின் (KSOU) விश்ববিদ்যালய পরীक்
+[skip] கர்நாடகத்தில் நடந்த நிகழ்வு. தமிழ்நாட்டு வாசகருக்கு நேரடித் 
+[skip] தில்லி மாநிலத்தின் உள்ளூர் அரசியல் நிகழ்வு — காங்கிரஸ் கட்சி
+[திருத்தம்] பஜாஜ் ஃபைனான்ஸ் லாபம் இரண்டாம் காலாண்டில → பஜாஜ் ஃபைனான்ஸ் Q2-ல் நிகர லாபம் 29%, நி
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[publish] பஜாஜ் ஃபைனான்ஸ் இரண்டாம் காலாண்டில் நிகர லாபம் 29%, நிகர வட்டி வருவாய் 24% உயரும் என எதிர்பார்ப்பு
+[brief] காலை brief தயார்
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: சென்னை மழைநீர் வடிகால் பணி தாமதம் யார் பொறுப்பு
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13104 · சென்செக்ஸ் 74729
+[market] தங்கம் 22K ₹13159 · சென்செக்ஸ் 74729
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
