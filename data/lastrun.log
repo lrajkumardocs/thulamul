@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 24 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] BBC World: 21 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 5 புதியவை
+[fetch] The Hindu Cinema: 4 புதியவை
 [fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 7 புதியவை
+[fetch] The Hindu Health: 6 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 2 புதியவை
+[fetch] FreeJobAlert: 1 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,13 +28,13 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
-[fetch] TechCrunch: 19 புதியவை
+[fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
 [fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff6da868d90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa9741284d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 27 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,44 +67,42 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 17 புதியவை
-[run] புதியவை 631 → நிகழ்வுகள் 581
-[triage] 581 → 80 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இது தில்லி சிறப்பு நிர்வாக மாஜிஸ்திரேட் நீதிமன்றம் தொடர்பான 
-[தரம்] தமிழ் அல்லாத எழுத்து: नहহ → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாடு மோட்டார் வாகன பராமரிப்பு
-[tts-edge] 0fd326ee3e4a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாடு மோட்டார் வாகன பராமரிப்புத் துறையில் 79 பணியிடங்கள்
-[tts-edge] be75db1f458f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] புற்றுநோய் எதிர்ப்பு 137 மருந்துக்கு அரசு விலை வரம்பு
-[தரம்] தமிழ் அல்லாத எழுத்து: তශ → ஒரு திருத்தம்
-[publish] இசையமைப்பாளர் தேவா தமிழ்ச் சினிமாவில் பெரும் பாரம்பரியம் நிறுத்திச் சென்றார்
-[skip] வெளிநாட்டு T20 போட்டி (Afghanistan vs Zimbabwe) — தமிழ்நாடு 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgCLc2iG7tN7QrnuLoewW'}
-[திருத்தம்] ருவாண்டா அதிபர் விமர்சகர் உகாண்டாவில் கொ → ருவாண்டா அதிபர் விமர்சகர் உகாண்டாவில் தல
-[தரம்] தமிழ் அல்லாத எழுத்து: রা → ஒரு திருத்தம்
-[publish] ருவாண்டா அதிபர் விமர்சகர் உகாண்டாவில் தலை துண்டிக்கப்பட்ட நிலையில் கண்டெடுக்கப்பட்டார்
-[publish] ஏமன் பயிற்சி முகாமில் ஹூதி ஏவுகணைத் தாக்குதல்; 50 பேர் பலி
-[திருத்தம்] சூடானில் ட்ரோன் தாக்குதல்களில் 160 பேர்  → சூடானில் ட்ரோன் தாக்குதல்களில் 160 பேர் 
-[publish] சூடானில் ட்ரோன் தாக்குதல்களில் 160 பேர் பலி
-[திருத்தம்] சோழவரம் அருகே ஆட்டோ கவிழ்ந்து விபத்து: இ → சோழவரம் அருகே ஆட்டோ கவிழ்ந்து விபத்து: 2
-[image] களஞ்சியம் (2 சொல்): சோழவரம் அருகே ஆட்டோ கவிழ்ந்து விபத
-[publish] சோழவரம் அருகே ஆட்டோ கவிழ்ந்து விபத்து: 2 குழந்தைகள் பலி
+[run] புதியவை 623 → நிகழ்வுகள் 572
+[triage] 572 → 57 | காலி: tn:6, india:4, govt:4, economy:3, court:3
+[திருத்தம்] ஆறு மாதங்களுக்குக் கீழ் குழந்தைகளுக்கு ச → ஆறு மாதங்களுக்குக் கீழ் குழந்தைகளுக்கு ச
+[image] களஞ்சியம் (2 சொல்): ஆறு மாதங்களுக்குக் கீழ் குழந்தைகளு
+[tts-edge] ba49ea2bd500: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆறு மாதங்களுக்குக் கீழ் குழந்தைகளுக்கு சர்க்கரை, பிரக்டோஸ் சேர்க்கத் தடை
+[skip] வெளிநாட்டு விளையாட்டு வீரர்களின் ஆணையப் நிலக்ஷேபம் — தமிழ்நா
+[திருத்தம்] தமிழகத்தில் வலுவான வடகிழக்குப் பருவமழை,  → பல மாவட்டங்களில் கனமழைக்கு வாய்ப்பு, வடக
+[tts-edge] 279fb29670f9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பல மாவட்டங்களில் கனமழைக்கு வாய்ப்பு, வடகிழக்கில் பரவலான மழை
+[தரம்] மூலத்தில் இல்லாத எண்: 375000 → ஒரு திருத்தம்
+[publish] எஸ்பிஐ தரவு கசிவு புகார்: 3.75 லட்சம் கணக்குகள் பாதிப்பு எனத் தகவல்
+[திருத்தம்] பண்டிகைக் காலத்தில் வட்டி நெருக்கடி, ஆர் → பண்டிகைக் காலத்தில் பணப்புழக்க நெருக்கடி
+[publish] பண்டிகைக் காலத்தில் பணப்புழக்க நெருக்கடி, ஆர்பிஐ ஒரு லட்சம் கோடி இழவு செய்தது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgCaN3rDS7GuUAAG6oto2'}
+[திருத்தம்] காவல் துறையை முதல்வர் விஜய் கவனிக்கவில்ல → காவல்துறையை முதல்வர் விஜய் கவனிக்கவில்லை
+[publish] காவல்துறையை முதல்வர் விஜய் கவனிக்கவில்லை: ஸ்டாலின் குற்றச்சாட்டு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; கடன் தொகை, காரணம், அதிகாரப
+[திருத்தம்] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்கு முன்வைப்பில்  → ஜியோ பிளாட்ஃபார்ம்ஸ் ஆரம்ப முதலீட்டாளர் 
+[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் ஆரம்ப முதலீட்டாளர் சுற்றில் 8,110 கோடி ரூபாய் திரட்டியது
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
-[publish] உளவுத்தகவல் கட்டுப்பாட்டால் யுக்ரைனியர்கள் உயிரிழப்பு என குற்றச்சாட்டு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgCM3JM4D3eJsqpnC21UL'}
-[திருத்தம்] கனடா ராணுவத் தளத்தில் தீ விபத்து நான்கு  → கனடா ராணுவத் தளத்தில் தீ விபத்து: நான்கு
-[publish] கனடா ராணுவத் தளத்தில் தீ விபத்து: நான்கு பேர் பலி
-[skip] இது இத்தாலியின் உள்நாட்டு அரசியல் மற்றும் பாதுகாப்புக் கொள்க
-[publish] ரஷ்யா மீதான பொருளாதாரத் தடைகளை இடைநிறுத்தினார் டிரம்ப்
-[comic] கதை: நிலவொளியில் ஓர் அழகு
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-20.png · நாள் 41
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹13034 · சென்செக்ஸ் 73853
-[weather] புதுப்பிக்கப்பட்டது
-[image] 2 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[திருத்தம்] பஜாஜ் ஃபைனான்ஸ் இரண்டாம் காலாண்டு லாபம்  → பஜாஜ் ஃபைனான்ஸ் இரண்டாம் காலாண்டு நிகர ல
+[publish] பஜாஜ் ஃபைனான்ஸ் இரண்டாம் காலாண்டு நிகர லாபம் 29 சதவீதம் உயர்வு Rs 6,367 கோடி
+[திருத்தம்] ஆர்எஸ்எஸ் பேரணிக்கு உயர்நீதிமன்ற அனுமதி  → ஆர்எஸ்எஸ் பேரணிக்கு உயர்நீதிமன்ற அனுமதি 
+[தரம்] தமிழ் அல்லாத எழுத்து: িర → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): ஆர்எஸ்எஸ் பேரணிக்கு உயர்நீதிமன்ற அ
+[publish] ஆர்எஸ்எஸ் பேரணிக்கு உயர்நீதிமன்ற அனுமதி எதிர்த்து மேல்முறையீடு கோரிக்கை
+[திருத்தம்] பஜாஜ் ஃபைனான்ஸ் லாபம் இருபத்தொன்பது சதவீ → பஜாஜ் ஃபைனான்ஸ் இலாபம் 29% உயர்வு
+[publish] பஜாஜ் ஃபைனான்ஸ் இலாபம் 29% உயர்வு
+[திருத்தம்] அண்ணன் சீர் திட்டம்: தங்கம், பட்டு சேலை  → அண்ணன் சீர் திட்டம்: 8 கிராம் தங்கம், பட
+[image] களஞ்சியம் (2 சொல்): அண்ணன் சீர் திட்டம்: 8 கிராம் தங்க
+[publish] அண்ணன் சீர் திட்டம்: 8 கிராம் தங்கம், பட்டு சேலை வழங்க தமிழக அரசு அறிவிப்பு
+[brief] காலை brief தயார்
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: ஆர்எஸ்எஸ் பேரணிக்கு நீதிமன்ற அனுமதி, மேல்முறையீடு வேண்டுமா?
+[market] தங்கம் 22K ₹13008 · சென்செக்ஸ் 73853
+[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
+[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 1 · எழுதியவை 10
