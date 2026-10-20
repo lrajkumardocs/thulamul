@@ -1,21 +1,21 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 22 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 24 புதியவை
+[fetch] The Hindu TN: 12 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 25 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
-[fetch] Cinema Express: 24 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] Cinema Express: 19 புதியவை
 [fetch] The Hindu Tech: 14 புதியவை
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 11 புதியவை
-[fetch] The Hindu Agriculture: 0 புதியவை
+[fetch] The Hindu Health: 10 புதியவை
+[fetch] The Hindu Agriculture: 1 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 4 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,63 +56,36 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3ff728c210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 22 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f95fa531650>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 21 புதியவை
-[fetch] Times Chennai Crime: 2 புதியவை
-[run] புதியவை 640 → நிகழ்வுகள் 580
-[triage] 580 → 65 | காலி: india:4, sports:3, court:2, govt:2, crime:2
-[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருத்தமில்லை. தெക்கு ஆப்பிர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgDLfhAdWKtwmm5kL2jXk'}
-[தரம்] தமிழ் அல்லாத எழுத்து: ना → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): சென்னை - கோவா இண்டிகோ விமானத்திற்க
-[tts-edge] ac2ef00ff97c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னை - கோவா இண்டிகோ விமானத்திற்கு வெடிகுண்டு மிரட்டல்
-[image] களஞ்சியம் (2 சொல்): தாராபுரம் நாம் தமிழர் வேட்பாளர் கா
-[tts-edge] 4038eb0f5673: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தாராபுரம் நாம் தமிழர் வேட்பாளர் கார்த்திகா கைது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] முதல்வர் மீது அவதூறு பேச்சு - திமுக கவுன → முதல்வர் மீது அவதூறு பேச்சு — திமுக கவுன
-[நகல்] ஏற்கனவே வெளியானது: முதல்வர் விஜய் குறித்த அவதூறு பேச்சு: திமுக கவுன்சிலர் மீது 
-[தரம்] தமிழ் அல்லாத எழுத்து: লা → ஒரு திருத்தம்
-[image] களஞ்சியம் (4 சொல்): கோயில் நிலம் பாதுகாக்காததற்காக அதி
-[publish] கோயில் நிலம் பாதுகாக்காததற்காக அதிகாரி பணிநீக்கம் சரியே என உயர்நீதிமன்றம் தீர்ப்பு
-[skip] அரசியல் கட்சித் தலைவரின் கண்டனக் கருத்து மட்டும், போதிய விவர
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; கார்த்திகா யார், எங்கே கைத
-[publish] விஜய்யை மெளன சாமியார் என விமர்சித்த எடப்பாடி பழனிசாமி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgDMBaQS3RWwqz6cRrrLj'}
-[skip] தெலங்கானா (DMHO Suryapet) மற்றும் சண்டிகர் (PGIMER) ஆகிய வேற
-[திருத்தம்] மும்பையில் ஐக்கிய அரபு அமீரக அமைச்சருடன் → மும்பையில் ஐக்கிய அரபு அமீரக வெளியுறவு அ
-[publish] மும்பையில் ஐக்கிய அரபு அமீரக வெளியுறவு அமைச்சருடன் எஸ்.ஜெய்சங்கர் பேச்சு
-[திருத்தம்] தொடர்பு சாதனங்களை அத்தியாவசியப் பொருளாக் → தொடர்பு சாதனங்களை அத்தியாவசியப் பொருளாக 
-[image] களஞ்சியம் (2 சொல்): தொடர்பு சாதனங்களை அத்தியாவசியப் பொ
-[publish] தொடர்பு சாதனங்களை அத்தியாவசியப் பொருளாக வகைப்படுத்த கோரிக்கை
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் அரசியல் தொடர்பான செய்தி; தமிழ்ந
-[skip] இது ஒரு நினைவுகூரும் கட்டுரை/அம்ச இலக்கியம் (feature) - குறி
-[skip] பிற மாநிலத்தின் உள்ளூர் அரசியல் — தெலங்கானாவுக்குப் பொருத்தம
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: European bee-eater at Broken Bridge
-[திருத்தம்] மீண்டும் வந்த கருப்பை வீக்கத்திற்குப் பி → மீண்டும் வந்த கருப்பைக் கட்டிக்குப் பின்
-[publish] மீண்டும் வந்த கருப்பைக் கட்டிக்குப் பின் ஆரோக்கியமான குழந்தை பெற்றெடுத்தவர்
-[publish] சிறுவனின் அற்புத கதையைச் சொல்ல சரியான தொனி தேடினார் கௌசல் ஓசா
-[skip] வெளிநாட்டு உள்நாட்டுச் செய்திப் பொருள் — இங்கிலாந்தின் கிரிக
-[skip] அலகாபாத் உயர்நீதிமன்றத்தின் உள்ளூர் வழக்கு தொடர்பான உத்தரவு;
-[திருத்தம்] இந்திய வெளிநாட்டுக் கொள்கை அமைச்சர் ஐக்க → எஸ்.ஜெய்சங்கர் மும்பையில் ஐக்கிய அரபு எம
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[publish] எஸ்.ஜெய்சங்கர் மும்பையில் ஐக்கிய அரபு எமிரேட்ஸ் வெளிநாட்டுக் கொள்கை அமைச்சருடன் பேச்சுவார்த்தை; மேற்கு ஆசிய நிலை 'ஆழ்ந்த கவலை'
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Youth arrested for theft at Army officer’s house
-[தரம்] தமிழ் அல்லாத எழுத்து: মরা → ஒரு திருத்தம்
-[publish] பெங்களூரு மருத்துவமனை: மாதம் ஒரு முறை மார்பக சோதனை
-[filler] tech கட்டுரை
+[fetch] TN Police News: 5 புதியவை
+[fetch] Times Chennai Crime: 6 புதியவை
+[run] புதியவை 621 → நிகழ்வுகள் 552
+[triage] 552 → 40 | காலி: sports:3, india:2, assembly:2, court:1, govt:1
+[skip] வெளிநாட்டுத் தொடர் — தமிழ்நாடு/இந்தியா தொடர்பு இல்லை. அফ்கான
+[தரம்] தமிழ் அல்லாத எழுத்து: কগতবয → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: உச்ச நீதிமன்றத்தில் 65 பணியிடங்கள்
+[tts-edge] e86aabf0cfdd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] உச்ச நீதிமன்றத்தில் 65 பணியிடங்கள்: விண்ணப்பிக்க அழைப்பு
+[திருத்தம்] ராணிப்பேட்டை பிஎச்ஈஎல் ஃபீடர் சாலை விரிவ → ராணிப்பேட்டையில் பிஎச்ஈஎல் ஃபீடர் சாலை வ
+[tts-edge] 8c5d01789a0b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ராணிப்பேட்டையில் பிஎச்ஈஎல் ஃபீடர் சாலை விரிவாக்கம் டிசம்பரில் முடிவு
+[skip] இது கேரளாவின் சக்திகுளங்கரை பகுதியில் நடந்த உள்ளூர் குற்றச் 
+[skip] கல்கத்தா உயர்நீதிமன்றத்தில் மேற்கு வங்க மாநிலத்தின் உள்ளூர் 
+[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் விவசாய/கணக்ஷேத்ర சம்பந்தப்பட்ட 
+[skip] வெளிநாட்டு (বাংলা) சினிமா; தமிழ்நாடு/தமிழ்ப் படங்களுடன் நேரட
+[skip] महिला क्रिकेट टेस्ट मैच — अंतरराष्ट्रीय महिला क्रिकेट सीरीज।
+[skip] வெளிநாட்டுத் தொடர் — ஆங்கிலாந்து மற்றும் பாகிஸ்தான் இடையே நட
+[filler] sports கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12966 · சென்செக்ஸ் 73853
+[market] தங்கம் 22K ₹13024 · சென்செக்ஸ் 73853
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 2
