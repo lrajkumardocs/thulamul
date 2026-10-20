@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
+[fetch] The Hindu TN: 10 புதியவை
+[fetch] Dinamani TN: 16 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 26 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
+[fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 5 புதியவை
+[fetch] The Hindu Cinema: 4 புதியவை
 [fetch] Cinema Express: 20 புதியவை
-[fetch] The Hindu Tech: 13 புதியவை
+[fetch] The Hindu Tech: 12 புதியவை
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 12 புதியவை
-[fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 26 புதியவை
+[fetch] The Hindu Health: 11 புதியவை
+[fetch] The Hindu Agriculture: 0 புதியவை
+[fetch] FreeJobAlert: 16 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] The Hindu Legal: 24 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 24 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9044a31310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa62c30a810>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 24 புதியவை
+[fetch] Dinamani Govt: 16 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,63 +67,75 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 11 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 645 → நிகழ்வுகள் 573
-[triage] 573 → 50 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் நேரடித் தொடர்பில்லாத மிகச் 
-[skip] வழக்கமான நிர்வாக அறிவிப்பு — மாநிலத்தள சுகாதார அமைப்பின் உள்
-[skip] வதந்தி மற்றும் ரசிகர் பதிவு: சினிமா விமர்சனமோ, பாத்திரம் பற்
-[skip] வெளிநாட்டு கிரிக்கெட் வீராங்கனை (ভারত) குறித்த ব্যক্তিগত நিব
-[தரம்] தமிழ் அல்லாத எழுத்து: नाদনরাু → ஒரு திருத்தம்
-[tts-edge] ff7e710f6a2d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சூடானில் ராணுவ ட்ரோன் தாக்குதல், 300க்கும் மேற்பட்டோர் பலி
-[image] களஞ்சியம் (3 சொல்): சென்னை உள்பட தமிழ்நாட்டில் 23 மாவட
-[tts-edge] 4fa7d89656b0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] சென்னை உள்பட தமிழ்நாட்டில் 23 மாவட்டங்களில் இன்று மழைக்கு வாய்ப்பு
-[தரம்] தமிழ் அல்லாத எழுத்து: नमाม → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தமிழக கடலோரப் பகுதிகளில் இன்று இரவ
-[publish] தமிழக கடலோரப் பகுதிகளில் இன்று இரவு முதல் தொடர் மழை எச்சரிக்கை
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரமான உரை இல்லை — மழை அள
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgE4rXoX2BuqRhLaG55fM'}
-[image] களஞ்சியம் (2 சொல்): மங்களக்குடியில் அதிகபட்ச மழை பதிவு
-[publish] மங்களக்குடியில் அதிகபட்ச மழை பதிவு, தமிழகம் முழுவதும் மழை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgE4yFD5hd29A9r8p2ZMq'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgE52YhceB2ACjTJq42C2'}
-[skip] தமிழ்நாட்டு வாசகரைப் பொறுத்தமையில் உள்நாட்டுப் பாதிப்பு இல்ல
-[skip] கென்யா நோய்ப் பரவல் செய்தி தமிழ்நாடு வாசகரைப் பாதிக்காது. உல
-[skip] வெளிநாட்டு உள்நாட்டு மாற்றுக் கொள்கைச் செய்தி. தமிழ்நாடு வாச
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgE55r8CempxGbXomXS5A'}
+[run] புதியவை 591 → நிகழ்வுகள் 540
+[triage] 540 → 51 | காலி: india:4, crime:4, economy:3, court:3, govt:3
+[skip] அண்டமான் நிக்கோபார் தீவுகள் — தமிழ்நாட்டுக்கு வெளிப்புறமான ய
+[திருத்தம்] லெப்டோஸ்பைரோசிஸ்: மழைக்காலக் கொசுக் காய் → லெப்டோஸ்பைரோசிஸ்: மழைக்காலக் காய்ச்சலைப்
+[tts-edge] f57e6dce7430: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] லெப்டோஸ்பைரோசிஸ்: மழைக்காலக் காய்ச்சலைப் போல வரும் ஆபத்தான நோய்
+[skip] பாலிவுட் நடிகர்களுக்கு எதிரான தாக்குதல்கள் பற்றிய பொதுவான கட
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEJnNr2qjjnWhBypb5wN'}
+[திருத்தம்] வங்கக் கடலில் புயல் சின்னம்: 3 மாவட்டங்க → தென்மேற்கு வங்கக் கடலில் புயல் சின்னம்: 
+[image] களஞ்சியம் (2 சொல்): தென்மேற்கு வங்கக் கடலில் புயல் சின
+[tts-edge] 37c9bc558cbd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தென்மேற்கு வங்கக் கடலில் புயல் சின்னம்: 3 மாவட்டங்களுக்கு ஆரஞ்சு எச்சரிக்கை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEJuFGZREX7SB8TUBG86'}
+[skip] மூலச் செய்தி 2023ஆம் ஆண்டு அக்டோபர் 21ஆம் தேதி தொடங்கும் IPO
+[skip] பிரான்சின் உள்நாட்டுப் பொலிஸ் மோதல் — தமிழ்நாடு / இந்தியாவுட
+[skip] வெளிநாட்டு அரசியல் — இஸ்ரேல்-ஈரான் விவகாரம் தமிழ்நாடு/இந்திய
+[skip] உலகச் செய்திகளில் தமிழ்நாடு அல்லது இந்தியாவுக்கு நேரடித் தொட
+[image] களஞ்சியம் (2 சொல்): ஊரக வேலைவாய்ப்புத் திட்டப் பணி நாட
+[publish] ஊரக வேலைவாய்ப்புத் திட்டப் பணி நாட்கள் 150 ஆக உயர்வு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] பாரா விளையாட்டு வீரர்களுக்கு முப்பது லட்சம் பரிசு அறிவித்த விஜய்
-[தரம்] தமிழ் அல்லாத எழுத்து: म → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தவெக செயல்பாட்டாளர் கைது விஷயத்தில
-[publish] தவெக செயல்பாட்டாளர் கைது விஷயத்தில் விஜய் மௌனம் குறித்து எடப்பாடி கேள்வி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgE5LemVvhdC2kHtEMAVH'}
-[திருத்தம்] காவல்துறையில் கவனமின்மை, உயிரிழப்புகளுக் → முதல்வர் விஜய்க்குக் காவல்துறை கவனக்குறை
-[தரம்] தமிழ் அல்லாத எழுத்து: ় → ஒரு திருத்தம்
-[publish] முதல்வர் விஜய்க்குக் காவல்துறை கவனக்குறைவில் குற்றச்சாட்டு: ஸ்டாலின்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
-[publish] கார்த்திகா கைது கண்டனம், பெண் அரசியலுக்கு வருவது கடினம் - தமிழிசை
+[image] களஞ்சியம் (3 சொல்): இந்தியாவில் பிராண்டட் ஆடம்பர குடிய
+[publish] இந்தியாவில் பிராண்டட் ஆடம்பர குடியிருப்பு திட்டங்கள் 2032-க்குள் இரு மடங்கு அதிகரிப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEKDDkY5B2xfhirH2Ge3'}
+[skip] உலக நாடு (செஞ்சி = சிங்களம், ஸ்ரீலங்கா). தமிழ்நாடு / இந்தியா
+[திருத்தம்] ஈஏஏஏ இந்தியா ஆல்டர்நேட்டிவ்ஸ் நிறுவனம் ஆ → ஈஏஏஏ இந்தியா ஆல்டர்நேட்டிவ்ஸ் ஆயிரத்து இ
+[image] களஞ்சியம் (2 சொல்): ஈஏஏஏ இந்தியா ஆல்டர்நேட்டிவ்ஸ் ஆயிர
+[publish] ஈஏஏஏ இந்தியா ஆல்டர்நேட்டிவ்ஸ் ஆயிரத்து இருநூறு கோடி ரூபாய் ஐபிஓ அக்டோபர் 26-ல் வரவுள்ளது
+[திருத்தம்] பிரான்சில் 1500 கடைகள் சூறையாகின - மாணவர → சுமார் 1500 கடைகள் சூறை: மாணவர் போராட்டத
+[தரம்] தமிழ் அல்லாத எழுத்து: ইনা → ஒரு திருத்தம்
+[publish] சுமார் 1500 கடைகள் சூறை: மாணவர் போராட்டத்தில் வன்முறையால் கலக்கம்
+[image] களஞ்சியம் (2 சொல்): டோன்போ இமேஜிங் பங்கு வெளியீடு 140 
+[publish] டோன்போ இமேஜிங் பங்கு வெளியீடு 140 மடங்கு சந்தா பெற்றது
+[skip] உக்ரைன்-அமெரிக்கா இராணுவ உளவு பிரச்சினை தமிழ்நாடு/இந்திய வாச
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEKS5Fg5B3xCZSnfzNkt'}
+[skip] தமிழ்நாட்டு/இந்தியக் வாசகருக்கு நேரடி முக்கியத்துவம் இல்லை. 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, சம்பவம் குறித்த விவரங்கள் 
+[skip] அல்பேனியா உள் அரசியல் — தமிழ்நாடு வாசகரைப் பாதிக்காது. வெளிந
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): ஆயுத பூஜைக்கு சென்னையிலிருந்து 12,
-[publish] ஆயுத பூஜைக்கு சென்னையிலிருந்து 12,357 பேருந்துகள் இயக்கம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; முழு செய்தி விவரம், சூழல்,
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரமான உள்ளடக்கம் இல்லை. 
-[skip] கேரளா மற்றும் டெல்லியில் உள்ள அரசு மருத்துவமனைகளின் உள்ளூர் 
-[skip] ஹரியானா மாநிலத்தின் உள்ளூர் மின்சாரத் துறைச் சர்ச்சை - தமிழ்
-[skip] இது கேரள மாநிலத்தின் நெல் வயல் பாதுகாப்பு குறித்த கருத்துக் 
-[image] களஞ்சியம் (2 சொல்): கெளரவ விரிவுரையாளர் ஊதிய உயர்வு இன
-[publish] கெளரவ விரிவுரையாளர் ஊதிய உயர்வு இன்னும் அமலாகவில்லை
-[comic] கதை: மறக்க முடியாத முகம்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3: பலகை 2-ஐப் போலவே உள்ளது (0.81) — மீண்டும் வரைகிறேன்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4: பலகை 3-ஐப் போலவே உள்ளது (0.97) — மீண்டும் வரைகிறேன்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-21.png · நாள் 42
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹12958 · சென்செக்ஸ் 73853
+[skip] தமிழ்நாட்டு / இந்திய வாசகருக்குப் பொருத்தமற்ற உலகச் செய்தி. 
+[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[skip] US அரசியல் உள் நிகழ்வு — தமிழ்நாடு/இந்திய வாசகருக்கு நேரடி ப
+[skip] வெளிநாட்டு உள் அரசியல் — அமெரிக்க நாடாளுமன்ற உறுப்பினர் மீதா
+[skip] US-Iran மோதலுக்கான கருத்துரை. தமிழ்நாடு/இந்திய வாசகரைப் பாதி
+[skip] பிரான்ஸின் உள்ளூர் கலவரம் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்
+[skip] ஐரோப்பிய ஒன்றியத்தின் ஆர்க்டிக் கொள்கை மாற்றம் தமிழ்நாடு அல்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மேற்கு வங்க மாநிலத்தின் உள்ளூர் நிகழ்வு தொடர்பான அரசியல் விள
+[skip] GIMS (உத்தரப் பிரதேச மாநில மருத்துவ நிறுவனம்) மற்றும் NABCON
+[திருத்தம்] சென்னை மேயர் மீது ஆன்லைன் துன்புறுத்தல்  → சென்னை மேயர் ஆன்லைன் துன்புறுத்தல் புகார
+[image] களஞ்சியம் (2 சொல்): சென்னை மேயர் ஆன்லைன் துன்புறுத்தல்
+[publish] சென்னை மேயர் ஆன்லைன் துன்புறுத்தல் புகார்
+[skip] மகாராஷ்டிரா தானேயில் உள்ள உள்ளூர் துப்பாக்கிச் சூடு சம்பவம்,
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai Mayor alleges online harassment; lodges 
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் மற்றும் வாণிజ்য நிகழ்வு. தமிழ்ந
+[skip] வெளிநாட்டுத் தொடர் — ভারত-জিம்বாब్વे महिला क्रिकेट। தமிழ்நாட
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Traffic diversions for Police Commemoration Day 
+[skip] பங்களாதேশ் மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாடு வாசகருக்க
+[skip] தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லாத பொதுவான மருத்துவ গবேষ
+[skip] வெளிநாட்டுப் படத்தின் விநியோग உரிமைச் செய்தி — தமிழ்நாடு/இந்
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத தனிப்பட்ட வீரர் அறிக்கை. இந்த
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Police trace missing girl to a children’s home i
+[தரம்] தமிழ் அல்லாத எழுத்து: कसि → ஒரு திருத்தம்
+[நகல்] ஏற்கனவே வெளியானது: சென்னை மேயர் ஆன்லைன் துன்புறுத்தல் புகார்
+[skip] பஞ்சாப் மாநிலத்தின் உள்ளூர் கல்வி அரசு வேலைவாய்ப்பு. தமிழ்நா
+[skip] வெளிநாட்டுச் செய்தி — அமெரிக்க குளிர்காலக் காய்ச்சல் நிலவரம்
+[skip] வெளிநாட்டு சினிமா (DC Universe, ஹாலிவுட் படம்) — தமிழ்நாட்டு
+[editorial] பிழை 'cartoon'
+[market] தங்கம் 22K ₹12949 · சென்செக்ஸ் 73853
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 8
