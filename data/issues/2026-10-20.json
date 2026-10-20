@@ -1,5 +1,671 @@
 [
  {
+  "id": "art_tech_20261020",
+  "headline": "UPI, ஆதார் பயன்பாட்டில் பாதுகாப்பு குறிப்புகள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது உங்கள் UPI பின் எண்ணை யாருடனும் பகிர்ந்துகொள்ளக் கூடாது.",
+   "ஆதார் எண்ணை பகிரும்போது மாஸ்க் செய்யப்பட்ட ஆதார் (Masked Aadhaar) பயன்படுத்துவது பாதுகாப்பானது.",
+   "அறியாத எண்களிலிருந்து வரும் QR குறியீடுகளை ஸ்கேன் செய்வதைத் தவிர்க்க வேண்டும், ஏனெனில் அவை பணத்தை பெறுவதற்கு பதிலாக கழிக்கவும் பயன்படலாம்.",
+   "மொபைல் போனில் தேவையற்ற ஆப்களுக்கு கேமரா, மைக், கான்டாக்ட் அனுமதிகளை வழங்காமல் இருப்பது தனியுரிமையைப் பாதுகாக்கும்.",
+   "சந்தேகத்திற்குரிய லிங்க்கள் அல்லது மெசேஜ்கள் வந்தால், அதிகாரப்பூர்வ வங்கி அல்லது அரசு வலைதளத்தின் மூலம் மட்டும் சரிபார்த்துக்கொள்ள வேண்டும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கையே பெரிய பாதுகாப்பு.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-20"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-20T16:16+05:30",
+  "created_ts": 1792493202.6441941,
+  "audio": "data/audio/art_tech_20261020.mp3"
+ },
+ {
+  "headline": "பெங்களூரு மருத்துவமனை: மாதம் ஒரு முறை மார்பக சோதனை",
+  "lines": [
+   "பெங்களூரு மருத்துவமனை ஒன்று பெண்களுக்கு மாதந்தோறும் மார்பக சோதனை செய்ய பரிந்துரை செய்துள்ளது.",
+   "'லெஃப்ட் ரைட் கியா கியா?' என்ற விழிப்புணர்வு பிரச்சாரணை தொடங்கியுள்ளது.",
+   "மூன்று நிமிட மாதாந்திர சோதனையை வழக்கமாக மேற்கொள்ளவும் சரியான நேரத்தில் மருத்துவ ஆலோசனை பெறவும் இந்தப் பிரச்சாரணம் முயற்சி செய்துள்ளது.",
+   "மார்பக புற்றுநோய்க் கண்டறிதலில் ஆரம்ப சோதனையின் முக்கியத்துவம் பற்றி மருத்துவமனை வலியுறுத்தியுள்ளது.",
+   "பெண்கள் தங்களின் உடல் நிலை பற்றி விழிப்புணர்வு பெற்றுக்கொள்ள மருத்துவ நிபுணர்கள் முக்கிய ஆலோசனையை வழங்கியுள்ளனர்."
+  ],
+  "closing": "மாதாந்திர மார்பக சோதனை பழக்கத்தை மேற்கொள்வது பெண்களின் ஆரோக்கியப் பாதுகாப்பில் முக்கியமான படி என்று மருத்துவ நிபுணர்கள் கூறுகிறார்கள்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "பெங்களூரு",
+   "மாதிக மார்பக சோதனை",
+   "பெண்களின் ஆரோக்கியம்"
+  ],
+  "confidence": 0.72,
+  "en": {
+   "headline": "Bengaluru hospital urges women to make breast awareness monthly habit",
+   "lines": [
+    "A Bengaluru hospital has recommended that women perform self-examination of their breasts every month.",
+    "It has launched the 'Left Right Kiya Kya?' awareness campaign.",
+    "The campaign focuses on making three-minute monthly checks routine and encouraging timely medical consultation.",
+    "The hospital has emphasized the importance of early detection in breast cancer screening.",
+    "Medical experts have given key advice for women to become aware of their health status."
+   ],
+   "closing": "Making monthly breast self-examination a habit is an important step in women's health protection, medical experts say."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "breast self examination awareness women health",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "cf8f435bebf3",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-20T16:16+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/bengaluru-hospital-urges-women-to-make-breast-awareness-a-monthly-habit/article71603831.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Breast_Cancer_Awareness_Month_141010-F-XA488-014.jpg/1280px-Breast_Cancer_Awareness_Month_141010-F-XA488-014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · Staff Sgt. Sheila deVera",
+   "license": "Public domain",
+   "symbolic": true
+  },
+  "audio": "data/audio/cf8f435bebf3.mp3",
+  "created_ts": 1792493187.5118308,
+  "status": "published"
+ },
+ {
+  "headline": "எஸ்.ஜெய்சங்கர் மும்பையில் ஐக்கிய அரபு எமிரேட்ஸ் வெளிநாட்டுக் கொள்கை அமைச்சருடன் பேச்சுவார்த்தை; மேற்கு ஆசிய நிலை 'ஆழ்ந்த கவலை'",
+  "lines": [
+   "இந்திய வெளிநாட்டுக் கொள்கை அமைச்சர் எஸ்.ஜெய்சங்கர் மும்பையில் ஐக்கிய அரபு எமிரேட்ஸ் வெளிநாட்டுக் கொள்கை அமைச்சருடன் சந்தித்தார்.",
+   "இந்தியா மற்றும் ஐக்கிய அரபு எமிரேட்ஸ் இடையேயான விரிவான பொருளாதார கூட்டுணர்வு ஒப்பந்தம் (சேபா) இரு நாடுகளுக்கிடையேயான வர்த்தக மற்றும் பொருளாதார உறவுகளை கணிசமாக வளர்த்துவிட்டது.",
+   "ஜெய்சங்கர் மேற்கு ஆசிய பிராந்தியத்தில் நிலவும் நிலையை 'ஆழ்ந்த கவலை' என்று குறிப்பிட்டார்.",
+   "இரு நாடுகளும் பொருளாதார பிணைப்புகளை மேலும் முன்னெடுப்பதற்கு உடன்பாட்டை வெளிப்படுத்தின.",
+   "இந்திய வெளிநாட்டுக் கொள்கை அமைச்சகம் ஐக்கிய அரபு எமிரேட்ஸுடனான உறவை மேலும் வலுப்படுத்த முயன்றுவருகிறது."
+  ],
+  "closing": "மேற்கு ஆசிய பிராந்தியத்தின் நிலைமையை இந்தியா தொடர்ந்து கண்காணித்து வரும் நிலையில், வளர்ந்த நாடுகளுடன் பொருளாதார ஒத்துழைப்பை வலுப்படுத்துவது அதன் வெளிநாட்டுக் கொள்கையின் முக்கிய பகுதியாக இருந்துவருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": "Govt Policy",
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "எஸ்.ஜெய்சங்கர்",
+   "ஐக்கிய அரபு எமிரேட்ஸ்",
+   "இந்தியா",
+   "மும்பை",
+   "மேற்கு ஆசியம்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "India's Foreign Minister holds talks with UAE counterpart in Mumbai; expresses concern on West Asia situation",
+   "lines": [
+    "External Affairs Minister S. Jaishankar met with the United Arab Emirates' Foreign Minister in Mumbai.",
+    "The Comprehensive Economic Partnership Agreement between India and UAE has significantly strengthened bilateral trade and economic ties.",
+    "Jaishankar described the current situation in West Asia as a matter of deep concern.",
+    "Both nations expressed commitment to advancing their economic cooperation further.",
+    "India's foreign ministry continues to strengthen engagement with the UAE as part of its broader regional strategy."
+   ],
+   "closing": "As India closely monitors the situation in West Asia, deepening economic partnerships with developed nations remains a key component of its foreign policy."
+  },
+  "front_cat": "routine",
+  "image_query": "S. Jaishankar UAE foreign minister talks",
+  "wiki_subject": "S. Jaishankar",
+  "person_en": "S. Jaishankar",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "980facbcd768",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-20T16:15+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/jaishankar-holds-talks-with-uaes-foreign-minister-in-mumbai-west-asia-situation/article71604059.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_official_portrait_of_External_Minister_Subrahmanyam_Jaishankar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · S. Jaishankar",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/S._Jaishankar",
+   "symbolic": false
+  },
+  "audio": "data/audio/980facbcd768.mp3",
+  "created_ts": 1792493139.0861082,
+  "status": "published"
+ },
+ {
+  "headline": "சிறுவனின் அற்புத கதையைச் சொல்ல சரியான தொனி தேடினார் கௌசல் ஓசா",
+  "lines": [
+   "இயக்குநர் கௌசல் ஓசா தனது முதல் நீளத்திரைப் படமான 'லிட்டல் தாமஸ்' பற்றி பேசினார்.",
+   "ஒரு சிறுவனின் அற்புத கதை சொல்லலாம் என்ற எண்ணத்தில் பல ஆண்டுகள் பணி செய்தார்.",
+   "படத்தின் சரியான தொனி கண்டுபிடிப்பதில் தான் அதிகம் சவாலை எதிர்கொண்டதாக கௌசல் ஓசா கூறினார்.",
+   "புதிய கருத்துக்களை தயாரிப்பாளர்களுக்கு முன்வைக்கும்போது சிரமம் எதிர்கொள்வதாகவும் அவர் கூறினார்.",
+   "இப்படிப்பட்ட சவால்களையும் கடந்து தமிழ் சினிமாவில் இவ்வாறான அனுபவங்களைப் பகிரும் இயக்குநர்கள் பெரிதும் விரல் விட்டு எண்ணக்கூடியவர்களாக உள்ளனர்."
+  ],
+  "closing": "முதல் திரைப்படமாக மணிவண்ணன், அரசுவர்ஷ ஆகிய சிறு தயாரிப்பு நிறுவனங்களுடன் 'லிட்டல் தாமஸ்' என்ற சிறுவனின் கதையைச் சொல்லலாம் என்ற கருத்துடன் கௌசல் ஓசா முன்னேறினார்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "கௌசல் ஓசா",
+   "லிட்டில் தாமஸ்",
+   "திரையுலகம்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Director Kaushal Oza found right tone for Little Thomas, his feature debut",
+   "lines": [
+    "Director Kaushal Oza spoke about his feature debut 'Little Thomas', a film about a child's wondrous journey.",
+    "He spent several years developing the story before bringing it to screen.",
+    "Oza said finding the right tone for the film was his biggest challenge during the creative process.",
+    "He also shared that pitching newer ideas to producers often faces resistance in the industry.",
+    "Such experiences highlight how independent voices in Tamil cinema remain few and far between when sharing their creative struggles."
+   ],
+   "closing": "Through small production houses, Oza pursued his vision of bringing 'Little Thomas', the story of a child, to audiences."
+  },
+  "front_cat": "routine",
+  "image_query": "Kaushal Oza",
+  "wiki_subject": "",
+  "person_en": "Kaushal Oza",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "abf2c55ad47f",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-10-20T16:14+05:30",
+  "links": [
+   "https://www.thehindu.com/entertainment/movies/little-thomas-how-kaushal-oza-found-the-right-tone-while-telling-a-wondrous-story-of-a-kid/article71602164.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/abf2c55ad47f.mp3",
+  "created_ts": 1792493065.639447,
+  "status": "published"
+ },
+ {
+  "headline": "மீண்டும் வந்த கருப்பைக் கட்டிக்குப் பின் ஆரோக்கியமான குழந்தை பெற்றெடுத்தவர்",
+  "lines": [
+   "கருப்பையில் மீண்டும் வந்த கட்டியால் பாதிக்கப்பட்ட பெண் ஒருவர் தனது சொந்த முட்டைகளைப் பயன்படுத்திக் குழந்தையைப் பெற்றெடுத்துள்ளார்.",
+   "மகப்பேறு திறனைப் பாதுகாக்கும் சிகிச்சையின் மூலம் இச்சாதனை சாத்தியமாயிற்று.",
+   "மருத்துவ நிபுணர்கள் நோய்க்கு உள்ளான ஆபத்துகள் மற்றும் மீதமுள்ள கருப்பைத் திசுவின் அளவு பற்றிய சவால்களை மதிப்பீடு செய்துள்ளனர்.",
+   "பெண் தனது சொந்த முட்டைகளைக் கொண்டே குழந்தை பெற விரும்பினாள்.",
+   "இது போன்ற சிக்கலான நோய் நிலையிலும் மகப்பேறு முடிந்துவிடாது என்பதை நிரூபிக்கும் வெற்றிக் கதை."
+  ],
+  "closing": "கருப்பைக் கட்டி நோயாளிகளுக்கு மகப்பேறு திறன் பாதுகாப்புச் சிகிச்சைகள் நம்பிக்கையூட்டும் வழிமுறைகளாக அமையக்கூடும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "கருப்பை வீக்கம்",
+   "மகப்பேறு திறன் பாதுகாப்பு",
+   "கருமுட்டை பாதுகாப்பு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Woman with recurrent ovarian tumour delivers healthy baby after fertility preservation",
+   "lines": [
+    "A woman diagnosed with recurrent ovarian tumour has successfully delivered a healthy baby using her own eggs.",
+    "The achievement was made possible through fertility-preservation treatment tailored to her condition.",
+    "Medical specialists assessed the risks associated with her condition and the limited ovarian tissue available.",
+    "The woman expressed her desire to have a child using her own eggs despite the medical challenges.",
+    "This success story demonstrates that pregnancy remains possible even in complex gynaecological conditions with appropriate medical intervention."
+   ],
+   "closing": "Fertility-preservation treatments offer hope to patients with ovarian tumours seeking to become parents."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "",
+  "wiki_subject": "Ovarian cancer",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "3376a0e432f2",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-20T16:13+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/woman-with-recurrent-ovarian-tumour-delivers-healthy-baby-after-fertility-preservation-treatment/article71603702.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Mucinous_lmp_ovarian_tumour_intermed_mag.jpg/3840px-Mucinous_lmp_ovarian_tumour_intermed_mag.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Ovarian cancer",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Ovarian_cancer",
+   "symbolic": false
+  },
+  "audio": "data/audio/3376a0e432f2.mp3",
+  "created_ts": 1792493039.8950238,
+  "status": "published"
+ },
+ {
+  "headline": "தொடர்பு சாதனங்களை அத்தியாவசியப் பொருளாக வகைப்படுத்த கோரிக்கை",
+  "lines": [
+   "ஊனமுற்ற மருத்துவர்கள் அமைப்பு ஒன்று, மத்திய அரசிடம் ஒரு முக்கியக் கோரிக்கையை வைத்துள்ளது.",
+   "மாற்று தகவல் தொடர்பு சாதனங்களையும் செயற்கை உறுப்புகளையும் இன்றியமையாத உதவிக் கருவிகளாக வகைப்படுத்த வேண்டும் என அது கேட்டுக்கொண்டுள்ளது.",
+   "இந்தக் கோரிக்கை, ஊனமுற்றோர் உரிமைகள் சட்டம் திருத்த வரைவு விதிகள் 2026 தொடர்பாக முன்வைக்கப்பட்டுள்ளது.",
+   "தற்போதைய வகைப்பாடு காப்பீடு மற்றும் அரசு நிதியுதவி தொடர்பாகக் குழப்பத்தை ஏற்படுத்தக்கூடும் என அமைப்பு எச்சரித்துள்ளது.",
+   "இந்தக் கோரிக்கை குறித்து மத்திய அரசு இறுதி முடிவு எடுக்க உள்ளது."
+  ],
+  "closing": "வரைவு விதிகள் தொடர்பான இறுதி அறிவிப்பை மத்திய அரசு எப்போது வெளியிடும் என்பது இன்னும் தெரியவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "மத்திய அரசு",
+   "ஊனமுற்றோர் உரிமைகள் சட்டம்",
+   "ஊனமுற்ற மருத்துவர்கள் அமைப்பு",
+   "மாற்று தகவல் தொடர்பு சாதனங்கள்",
+   "செயற்கை உறுப்புகள்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Disability group seeks essential status for aids",
+   "lines": [
+    "A group of doctors with disabilities has made an important request to the central government.",
+    "It has sought classification of augmentative and alternative communication devices and prostheses as essential assistive products.",
+    "The demand was raised in response to the draft Rights of Persons with Disabilities Amendment Rules 2026.",
+    "The group warned that the current classification could create uncertainty over insurance and public financing.",
+    "The central government is yet to take a final decision on the request."
+   ],
+   "closing": "It remains unclear when the central government will issue its final notification on the draft rules."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "39105cac3e35",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-20T16:13+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/disability-group-urges-centre-to-classify-communication-aids-as-essential-products/article71603955.ece",
+   "https://www.thehindu.com/news/national/disability-group-urges-centre-to-classify-communication-aids-as-essential-products/article71603955.ece"
+  ],
+  "image": {
+   "url": "data/bank/india01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/39105cac3e35.mp3",
+  "created_ts": 1792493004.636248,
+  "status": "published"
+ },
+ {
+  "headline": "மும்பையில் ஐக்கிய அரபு அமீரக வெளியுறவு அமைச்சருடன் எஸ்.ஜெய்சங்கர் பேச்சு",
+  "lines": [
+   "இந்திய வெளியுறவு அமைச்சர் எஸ்.ஜெய்சங்கர் மும்பையில் ஐக்கிய அரபு அமீரக வெளியுறவு அமைச்சருடன் நேரடிப் பேச்சுவார்த்தை நடத்தினார்.",
+   "மேற்கு ஆசியாவில் நிலவும் சூழல் ஆழ்ந்த கவலைக்குரிய விஷயம் என அவர் இந்தச் சந்திப்பில் தெரிவித்தார்.",
+   "இந்தியாவுக்கும் ஐக்கிய அரபு அமீரகத்துக்கும் இடையிலான விரிவான பொருளாதார கூட்டாண்மை ஒப்பந்தம் (சீபா) பற்றியும் அவர் குறிப்பிட்டார்.",
+   "இந்த ஒப்பந்தம் இருநாட்டு வர்த்தக மற்றும் பொருளாதார உறவுகளை கணிசமாக மேம்படுத்தியுள்ளதாக அவர் தெரிவித்தார்.",
+   "இரு நாடுகளுக்கும் இடையிலான இராஜதந்திர மற்றும் வர்த்தக உறவுகளை மேலும் வலுப்படுத்தும் நடவடிக்கையாக இந்தப் பேச்சுவார்த்தை அமைந்துள்ளது."
+  ],
+  "closing": "மேற்கு ஆசியாவில் தொடரும் சூழல் பல நாடுகளின் கவலையை எழுப்பியுள்ள நிலையில் இந்தப் பேச்சுவார்த்தை நடைபெற்றுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "எஸ்.ஜெய்சங்கர்",
+   "ஐக்கிய அரபு அமீரகம்",
+   "மும்பை",
+   "மேற்கு ஆசியா",
+   "விரிவான பொருளாதார கூட்டாண்மை ஒப்பந்தம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Jaishankar holds talks with UAE Foreign Minister in Mumbai",
+   "lines": [
+    "India's External Affairs Minister S. Jaishankar held direct talks with the UAE's Foreign Minister in Mumbai.",
+    "He described the ongoing situation in West Asia as a matter of deep concern during the meeting.",
+    "He also referred to the Comprehensive Economic Partnership Agreement between India and the UAE.",
+    "Jaishankar said the agreement has significantly enhanced bilateral trade and economic ties between the two nations.",
+    "The talks are seen as a step to further strengthen diplomatic and trade relations between the two countries."
+   ],
+   "closing": "The talks come amid continuing tensions in West Asia that have drawn concern from several nations."
+  },
+  "id": "980facbcd768",
+  "flags": [],
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-20T16:12+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/jaishankar-holds-talks-with-uaes-foreign-minister-in-mumbai-west-asia-situation/article71604059.ece",
+   "https://www.thehindu.com/news/national/jaishankar-holds-talks-with-uaes-foreign-minister-in-mumbai-west-asia-situation/article71604059.ece"
+  ],
+  "image": {
+   "url": "data/bank/india02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/980facbcd768.mp3",
+  "created_ts": 1792492968.0202832,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "விஜய்யை மெளன சாமியார் என விமர்சித்த எடப்பாடி பழனிசாமி",
+  "lines": [
+   "அதிமுக பொதுச்செயலாளர் எடப்பாடி கே.பழனிசாமி, கட்சிக் கூட்டம் ஒன்றில் பேசினார்.",
+   "தமிழக வெற்றிக் கழகத் தலைவர் விஜய்யை அவர் மெளன சாமியார் என்று கடுமையாக விமர்சித்தார்.",
+   "இந்த விமர்சனத்திற்கான விரிவான காரணம் இதுவரை தெளிவாக வெளியிடப்படவில்லை.",
+   "தவெக தரப்பில் இதுகுறித்து எந்தப் பதிலும் இதுவரை வெளியிடப்படவில்லை.",
+   "இரு கட்சிகளுக்கும் இடையேயான அரசியல் விமர்சனங்கள் தொடரும் என அரசியல் வட்டாரங்கள் கருதுகின்றன."
+  ],
+  "closing": "இந்த விமர்சனம் தொடர்பான முழு விவரங்கள் இன்னும் வெளியாகவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-20"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "எடப்பாடி கே.பழனிசாமி",
+   "விஜய்",
+   "அதிமுக",
+   "தமிழக வெற்றிக் கழகம்"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Edappadi Palaniswami Slams Vijay as 'Silent Saint'",
+   "lines": [
+    "AIADMK general secretary Edappadi K. Palaniswami spoke at a party meeting.",
+    "He sharply criticised TVK leader Vijay, calling him a 'silent saint'.",
+    "The detailed reason behind this criticism has not yet been clearly disclosed.",
+    "TVK has not issued any response regarding this so far.",
+    "Political circles believe that the exchange of political criticism between the two parties will continue."
+   ],
+   "closing": "Complete details regarding this criticism have not yet been made public."
+  },
+  "id": "f5ca8c7bc1b3",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-20T16:11+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/20/eps-condemns-seizure-of-drugs-from-tvk-executives-house"
+  ],
+  "image": null,
+  "audio": "data/audio/f5ca8c7bc1b3.mp3",
+  "created_ts": 1792492863.688833,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "கோயில் நிலம் பாதுகாக்காததற்காக அதிகாரி பணிநீக்கம் சரியே என உயர்நீதிமன்றம் தீர்ப்பு",
+  "lines": [
+   "சென்னை உயர்நீதிமன்றம் இந்து சமய அறநிலையத் துறையின் நிர்வாக அதிகாரி ஒருவரை பணியிலிருந்து நீக்கியது சரியான நடவடிக்கை எனத் தீர்ப்பளித்துள்ளது.",
+   "கோயில் நிலத்தைப் பாதுகாக்கத் தவறியதால் அந்த அதிகாரி பணியிலிருந்து நீக்கப்பட்டதாக நீதிமன்றம் தெரிவித்துள்ளது.",
+   "நீதிபதி கிருஷ்ணசாமி கோவிந்தராஜன் இந்த வழக்கில் நீதிமன்றத்தின் சுயமுன்னெடுப்பு அதிகாரத்தையும் பயன்படுத்தியதாகத் தெரிவிக்கப்படுகிறது.",
+   "இழந்த கோயில் நிலத்தை மீட்பதற்காக தமிழ்நாடு அரசு எடுத்த நடவடிக்கைகள் குறித்த விவரங்களை நீதிமன்றம் கோரியுள்ளது.",
+   "தமிழ்நாடு அரசு அளிக்கும் விவரங்களின் அடிப்படையில் இந்த வழக்கில் அடுத்த கட்ட நடவடிக்கைகள் எடுக்கப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்து சமய அறநிலையத் துறை கோயில் நிலங்களைப் பாதுகாக்கும் பொறுப்பு கொண்டது என்பது இங்கு குறிப்பிடத்தக்கது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "சென்னை உயர்நீதிமன்றம்",
+   "இந்து சமய அறநிலையத் துறை",
+   "நீதிபதி கிருஷ்ணசாமி கோவிந்தராஜன்",
+   "தமிழ்நாடு அரசு",
+   "கோயில் நிலம்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Madras High Court Upholds Officer's Dismissal Over Temple Land Lapse",
+   "lines": [
+    "The Madras High Court has ruled that dismissing an HR&CE Executive Officer from service was the right decision.",
+    "The court stated that the officer was removed for failing to protect temple land under their charge.",
+    "Justice Krishnaswamy Govindarajan reportedly invoked the court's parens patriae jurisdiction while deciding the case.",
+    "The court has sought details on steps taken by the Tamil Nadu government to retrieve the lost temple land.",
+    "Further action in the case is expected based on the details to be submitted by the state government."
+   ],
+   "closing": "It is noted that the HR&CE Department is responsible for protecting temple lands.",
+   "closing_type": "background"
+  },
+  "id": "4da0883c4911",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-20T16:09+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/hrce-executive-officer-was-rightly-dismissed-from-service-for-failing-to-protect-temple-land-madras-high-court/article71603321.ece"
+  ],
+  "image": {
+   "url": "data/bank/court01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/4da0883c4911.mp3",
+  "created_ts": 1792492789.894774,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "தாராபுரம் நாம் தமிழர் வேட்பாளர் கார்த்திகா கைது",
+  "lines": [
+   "தாராபுரம் தொகுதியில் நாம் தமிழர் கட்சி சார்பில் வேட்பாளராக இருந்த கார்த்திகா காவல் துறையினரால் கைது செய்யப்பட்டுள்ளார்.",
+   "கைது செய்யப்பட்ட காரணம் குறித்து இதுவரை அதிகாரப்பூர்வ விவரம் வெளியிடப்படவில்லை.",
+   "இது தொடர்பாக காவல் துறையோ நாம் தமிழர் கட்சியோ இதுவரை அறிக்கை வெளியிடவில்லை.",
+   "சம்பவம் குறித்த கூடுதல் தகவல்கள் இன்னும் உறுதிப்படுத்தப்படவில்லை.",
+   "வழக்கு விசாரணை தொடர்பான மேலதிக தகவல்கள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "இந்தச் செய்தியின் முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக உறுதிப்படுத்தப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-20"
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "தாராபுரம்",
+   "நாம் தமிழர் கட்சி",
+   "கார்த்திகா"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "Naam Tamilar Candidate Karthika Arrested in Tharapuram",
+   "lines": [
+    "Karthika, who was contesting as the Naam Tamilar Katchi candidate in Tharapuram constituency, has been arrested by police.",
+    "Official details regarding the reason for the arrest have not yet been released.",
+    "Neither the police department nor the Naam Tamilar Katchi has issued a statement on the matter so far.",
+    "Further details about the incident remain unconfirmed at this time.",
+    "Additional information about the investigation is awaited."
+   ],
+   "closing": "Full details of this news have not yet been officially confirmed."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "4038eb0f5673",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-20T16:06+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/20/dharapuram-naam-tamilar-candidate-karthika-arrested"
+  ],
+  "image": {
+   "url": "data/bank/crime06.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/4038eb0f5673.mp3",
+  "created_ts": 1792492609.88657,
+  "status": "published"
+ },
+ {
+  "headline": "சென்னை - கோவா இண்டிகோ விமானத்திற்கு வெடிகுண்டு மிரட்டல்",
+  "lines": [
+   "சென்னையில் இருந்து கோவாவுக்குச் செல்லும் இண்டிகோ விமானத்திற்கு வெடிகுண்டு வைக்கப்பட்டுள்ளதாக மிரட்டல் தகவல் கிடைத்துள்ளது.",
+   "இந்த மிரட்டல் தொடர்பாக பாதுகாப்புப் படையினர் உடனடியாக கவனம் செலுத்தியுள்ளனர்.",
+   "விமான நிலைய அதிகாரிகள் இந்த விவகாரம் குறித்து விசாரணை நடத்திவருவதாகத் தெரிகிறது.",
+   "மிரட்டலின் உண்மைத்தன்மை குறித்து இதுவரை அதிகாரப்பூர்வமாக எதுவும் உறுதிப்படுத்தப்படவில்லை.",
+   "இது தொடர்பான முழு விவரங்கள் வெளியாகவேண்டும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இச்செய்தி குறித்த கூடுதல் விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-20"
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சென்னை",
+   "கோவா",
+   "இண்டிகோ விமான நிறுவனம்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Bomb Threat Reported for Chennai-Goa IndiGo Flight",
+   "lines": [
+    "A bomb threat has been reported for an IndiGo flight travelling from Chennai to Goa.",
+    "Security personnel responded immediately after the threat information was received.",
+    "Airport officials are reportedly investigating the matter.",
+    "The authenticity of the threat has not yet been officially confirmed.",
+    "Full details regarding this matter are awaited."
+   ],
+   "closing": "Further official details on this matter have not yet been released.",
+   "closing_type": "watch"
+  },
+  "id": "ac2ef00ff97c",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-20T16:06+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/20/bomb-threat-to-chennai-goa-indigo-flight"
+  ],
+  "image": {
+   "url": "data/bank/transport07.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/ac2ef00ff97c.mp3",
+  "created_ts": 1792492567.7139285,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "id": "art_court_20261020",
   "headline": "சாதாரண மக்களுக்கான அடிப்படை சட்ட அறிவு",
   "lines": [
