@@ -1,22 +1,23 @@
+[expire] be75db1f458f
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 21 புதியவை
+[fetch] BBC World: 23 புதியவை
 [fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 13 புதியவை
+[fetch] ESPNcricinfo: 12 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
 [fetch] The Hindu Cinema: 4 புதியவை
-[fetch] Cinema Express: 24 புதியவை
-[fetch] The Hindu Tech: 17 புதியவை
-[fetch] Wired: 29 புதியவை
+[fetch] Cinema Express: 23 புதியவை
+[fetch] The Hindu Tech: 14 புதியவை
+[fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 6 புதியவை
+[fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 1 புதியவை
+[fetch] FreeJobAlert: 6 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,7 +29,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
 [fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
@@ -56,53 +57,60 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa9741284d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe74c97af90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 27 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
-[fetch] Times Chennai Crime: 17 புதியவை
-[run] புதியவை 623 → நிகழ்வுகள் 572
-[triage] 572 → 57 | காலி: tn:6, india:4, govt:4, economy:3, court:3
-[திருத்தம்] ஆறு மாதங்களுக்குக் கீழ் குழந்தைகளுக்கு ச → ஆறு மாதங்களுக்குக் கீழ் குழந்தைகளுக்கு ச
-[image] களஞ்சியம் (2 சொல்): ஆறு மாதங்களுக்குக் கீழ் குழந்தைகளு
-[tts-edge] ba49ea2bd500: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆறு மாதங்களுக்குக் கீழ் குழந்தைகளுக்கு சர்க்கரை, பிரக்டோஸ் சேர்க்கத் தடை
-[skip] வெளிநாட்டு விளையாட்டு வீரர்களின் ஆணையப் நிலக்ஷேபம் — தமிழ்நா
-[திருத்தம்] தமிழகத்தில் வலுவான வடகிழக்குப் பருவமழை,  → பல மாவட்டங்களில் கனமழைக்கு வாய்ப்பு, வடக
-[tts-edge] 279fb29670f9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பல மாவட்டங்களில் கனமழைக்கு வாய்ப்பு, வடகிழக்கில் பரவலான மழை
-[தரம்] மூலத்தில் இல்லாத எண்: 375000 → ஒரு திருத்தம்
-[publish] எஸ்பிஐ தரவு கசிவு புகார்: 3.75 லட்சம் கணக்குகள் பாதிப்பு எனத் தகவல்
-[திருத்தம்] பண்டிகைக் காலத்தில் வட்டி நெருக்கடி, ஆர் → பண்டிகைக் காலத்தில் பணப்புழக்க நெருக்கடி
-[publish] பண்டிகைக் காலத்தில் பணப்புழக்க நெருக்கடி, ஆர்பிஐ ஒரு லட்சம் கோடி இழவு செய்தது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgCaN3rDS7GuUAAG6oto2'}
-[திருத்தம்] காவல் துறையை முதல்வர் விஜய் கவனிக்கவில்ல → காவல்துறையை முதல்வர் விஜய் கவனிக்கவில்லை
-[publish] காவல்துறையை முதல்வர் விஜய் கவனிக்கவில்லை: ஸ்டாலின் குற்றச்சாட்டு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; கடன் தொகை, காரணம், அதிகாரப
-[திருத்தம்] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்கு முன்வைப்பில்  → ஜியோ பிளாட்ஃபார்ம்ஸ் ஆரம்ப முதலீட்டாளர் 
-[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் ஆரம்ப முதலீட்டாளர் சுற்றில் 8,110 கோடி ரூபாய் திரட்டியது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] பஜாஜ் ஃபைனான்ஸ் இரண்டாம் காலாண்டு லாபம்  → பஜாஜ் ஃபைனான்ஸ் இரண்டாம் காலாண்டு நிகர ல
-[publish] பஜாஜ் ஃபைனான்ஸ் இரண்டாம் காலாண்டு நிகர லாபம் 29 சதவீதம் உயர்வு Rs 6,367 கோடி
-[திருத்தம்] ஆர்எஸ்எஸ் பேரணிக்கு உயர்நீதிமன்ற அனுமதி  → ஆர்எஸ்எஸ் பேரணிக்கு உயர்நீதிமன்ற அனுமதি 
-[தரம்] தமிழ் அல்லாத எழுத்து: িర → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): ஆர்எஸ்எஸ் பேரணிக்கு உயர்நீதிமன்ற அ
-[publish] ஆர்எஸ்எஸ் பேரணிக்கு உயர்நீதிமன்ற அனுமதி எதிர்த்து மேல்முறையீடு கோரிக்கை
-[திருத்தம்] பஜாஜ் ஃபைனான்ஸ் லாபம் இருபத்தொன்பது சதவீ → பஜாஜ் ஃபைனான்ஸ் இலாபம் 29% உயர்வு
-[publish] பஜாஜ் ஃபைனான்ஸ் இலாபம் 29% உயர்வு
-[திருத்தம்] அண்ணன் சீர் திட்டம்: தங்கம், பட்டு சேலை  → அண்ணன் சீர் திட்டம்: 8 கிராம் தங்கம், பட
-[image] களஞ்சியம் (2 சொல்): அண்ணன் சீர் திட்டம்: 8 கிராம் தங்க
-[publish] அண்ணன் சீர் திட்டம்: 8 கிராம் தங்கம், பட்டு சேலை வழங்க தமிழக அரசு அறிவிப்பு
-[brief] காலை brief தயார்
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: ஆர்எஸ்எஸ் பேரணிக்கு நீதிமன்ற அனுமதி, மேல்முறையீடு வேண்டுமா?
-[market] தங்கம் 22K ₹13008 · சென்செக்ஸ் 73853
-[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
+[fetch] TN Police News: 21 புதியவை
+[fetch] Times Chennai Crime: 9 புதியவை
+[run] புதியவை 601 → நிகழ்வுகள் 552
+[triage] 552 → 56 | காலி: india:4, tn:3, court:3, govt:3, crime:3
+[skip] ஆந்திரப் பிரதேச நகராட்சித் தேர்தல் தொடர்பான வைஎஸ்ஆர் காங்கிர
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — முக்கியமல்ல. இந்திய க্রிக்கெட
+[திருத்தம்] சென்னையில் வடகிழக்கு பருவமழை இன்று முதல் → சென்னையில் வடகிழக்கு பருவமழை இன்று முதல்
+[tts-edge] ef4dc3a54199: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னையில் வடகிழக்கு பருவமழை இன்று முதல் தீவிரமாகும்
+[image] களஞ்சியம் (3 சொல்): தமிழ்நாட்டில் ஏழு மாவட்டங்களுக்கு 
+[tts-edge] 1bf248ef1aec: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டில் ஏழு மாவட்டங்களுக்கு நாளை மிக கனமழை எச்சரிக்கை
+[image] களஞ்சியம் (2 சொல்): சென்னை உள்ளிட்ட 14 மாவட்டங்களில் இ
+[publish] சென்னை உள்ளிட்ட 14 மாவட்டங்களில் இன்று மாலை வரை மழைக்கு வாய்ப்பு
+[image] களஞ்சியம் (2 சொல்): முதல்வர் விஜய் குறித்த அவதூறு பேச்
+[publish] முதல்வர் விஜய் குறித்த அவதூறு பேச்சு: திமுக கவுன்சிலர் மீது வழக்கு
+[திருத்தம்] ஜியோ பங்கு விற்பனை அக்டோபர் இருபத்தி ஒன் → ஜியோ ஐபিஓ: அக்டோபர் 21-ல் தொடக்கம், 22% 
+[தரம்] தமிழ் அல்லாத எழுத்து: এমি → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): ஜியோ ஐபிஓ: அக்டோபர் 21-ல் தொடக்கம்
+[publish] ஜியோ ஐபிஓ: அக்டோபர் 21-ல் தொடக்கம், 22% பிரீமியம் எதிர்பார்ப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgCwwi6UALuPzsNxdKoA2'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgCwzEZbGd1oc3bcz997C'}
+[skip] மூலத்தில் தலைப்பு மற்றும் 'IMD' என்ற குறிப்பைத் தவிர வேறு வி
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டின் ஏழு மாவட்டங்களில் இர
+[publish] தமிழ்நாட்டின் ஏழு மாவட்டங்களில் இரண்டு மணி நேரத்தில் மழை எச்சரிக்கை
+[திருத்தம்] ராமேஸ்வரம் ராமநாதசுவாமி கோயிலில் மழைநீர் → ராமேசுவரம் ராமநாதசுவாமி கோயிலில் மழைநீர்
+[publish] ராமேசுவரம் ராமநாதசுவாமி கோயிலில் மழைநீர் தேங்கல், பக்தர்கள் அவதி
+[publish] புழல் ஏரியை திருவள்ளூர் ஆட்சியர் ஆய்வு, தொடர் கண்காணிப்புக்கு உத்தரவு
+[திருத்தம்] சென்னை வெள்ளத்தடுப்பு அறிக்கை வெளியிட சி → சென்னை வெள்ளத்தடுப்பு அறிக்கை வெளியிட சி
+[தரம்] தமிழ் அல்லாத எழுத்து: ईআি → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): சென்னை வெள்ளத்தடுப்பு அறிக்கை வெளி
+[publish] சென்னை வெள்ளத்தடுப்பு அறிக்கை வெளியிட சிபிஐ வலியுறுத்தல்
+[skip] இது டெல்லியில் நடந்த உள்ளூர் போராட்டம் தொடர்பான நீதிமன்ற காவ
+[skip] பஞ்சாப் மாநில அரசியல் விவகாரம் - தமிழ்நாட்டுடன் நேரடித் தொடர
+[skip] மகாராஷ்டிரா மற்றும் ஹைதராபாத் தொடர்புடைய போதைப்பொருள் வழக்கு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgCxJTumG3YCAYFdafr9z'}
+[skip] தெல்லியில் நடந்த போராட்டம் மற்றும் கைது — தமிழ்நாட்டுக்கு நே
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Heavy rain causes flooding in a few localities i
+[தரம்] தமிழ் அல்லாத எழுத்து: অইকটডধভম → ஒரு திருத்தம்
+[publish] எஸ்.பி.ஐ. எழுத்தர் பணிக்குப் பிற்படுத்தப்பட்ட மெயின்ஸ் அழைப்புக் கடிதம் வெளியீடு
+[filler] court கட்டுரை
+[jobs] தொகுப்பு 2
+[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹13006 · சென்செக்ஸ் 73853
+[weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 10
