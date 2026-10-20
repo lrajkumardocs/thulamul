@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
+[fetch] The Hindu TN: 14 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 25 புதியவை
+[fetch] BBC World: 26 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
-[fetch] Cinema Express: 19 புதியவை
-[fetch] The Hindu Tech: 14 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
+[fetch] Cinema Express: 20 புதியவை
+[fetch] The Hindu Tech: 13 புதியவை
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 10 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 4 புதியவை
-[fetch] The Hindu Legal: 27 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 27 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,36 +56,74 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f95fa531650>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 27 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9044a31310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 5 புதியவை
-[fetch] Times Chennai Crime: 6 புதியவை
-[run] புதியவை 621 → நிகழ்வுகள் 552
-[triage] 552 → 40 | காலி: sports:3, india:2, assembly:2, court:1, govt:1
-[skip] வெளிநாட்டுத் தொடர் — தமிழ்நாடு/இந்தியா தொடர்பு இல்லை. அফ்கான
-[தரம்] தமிழ் அல்லாத எழுத்து: কগতবয → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: உச்ச நீதிமன்றத்தில் 65 பணியிடங்கள்
-[tts-edge] e86aabf0cfdd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உச்ச நீதிமன்றத்தில் 65 பணியிடங்கள்: விண்ணப்பிக்க அழைப்பு
-[திருத்தம்] ராணிப்பேட்டை பிஎச்ஈஎல் ஃபீடர் சாலை விரிவ → ராணிப்பேட்டையில் பிஎச்ஈஎல் ஃபீடர் சாலை வ
-[tts-edge] 8c5d01789a0b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ராணிப்பேட்டையில் பிஎச்ஈஎல் ஃபீடர் சாலை விரிவாக்கம் டிசம்பரில் முடிவு
-[skip] இது கேரளாவின் சக்திகுளங்கரை பகுதியில் நடந்த உள்ளூர் குற்றச் 
-[skip] கல்கத்தா உயர்நீதிமன்றத்தில் மேற்கு வங்க மாநிலத்தின் உள்ளூர் 
-[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் விவசாய/கணக்ஷேத்ర சம்பந்தப்பட்ட 
-[skip] வெளிநாட்டு (বাংলা) சினிமா; தமிழ்நாடு/தமிழ்ப் படங்களுடன் நேரட
-[skip] महिला क्रिकेट टेस्ट मैच — अंतरराष्ट्रीय महिला क्रिकेट सीरीज।
-[skip] வெளிநாட்டுத் தொடர் — ஆங்கிலாந்து மற்றும் பாகிஸ்தான் இடையே நட
-[filler] sports கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹13024 · சென்செக்ஸ் 73853
+[fetch] TN Police News: 11 புதியவை
+[fetch] Times Chennai Crime: 20 புதியவை
+[run] புதியவை 645 → நிகழ்வுகள் 573
+[triage] 573 → 50 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் நேரடித் தொடர்பில்லாத மிகச் 
+[skip] வழக்கமான நிர்வாக அறிவிப்பு — மாநிலத்தள சுகாதார அமைப்பின் உள்
+[skip] வதந்தி மற்றும் ரசிகர் பதிவு: சினிமா விமர்சனமோ, பாத்திரம் பற்
+[skip] வெளிநாட்டு கிரிக்கெட் வீராங்கனை (ভারত) குறித்த ব্যক্তিগত நিব
+[தரம்] தமிழ் அல்லாத எழுத்து: नाদনরাু → ஒரு திருத்தம்
+[tts-edge] ff7e710f6a2d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சூடானில் ராணுவ ட்ரோன் தாக்குதல், 300க்கும் மேற்பட்டோர் பலி
+[image] களஞ்சியம் (3 சொல்): சென்னை உள்பட தமிழ்நாட்டில் 23 மாவட
+[tts-edge] 4fa7d89656b0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] சென்னை உள்பட தமிழ்நாட்டில் 23 மாவட்டங்களில் இன்று மழைக்கு வாய்ப்பு
+[தரம்] தமிழ் அல்லாத எழுத்து: नमाม → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): தமிழக கடலோரப் பகுதிகளில் இன்று இரவ
+[publish] தமிழக கடலோரப் பகுதிகளில் இன்று இரவு முதல் தொடர் மழை எச்சரிக்கை
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரமான உரை இல்லை — மழை அள
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgE4rXoX2BuqRhLaG55fM'}
+[image] களஞ்சியம் (2 சொல்): மங்களக்குடியில் அதிகபட்ச மழை பதிவு
+[publish] மங்களக்குடியில் அதிகபட்ச மழை பதிவு, தமிழகம் முழுவதும் மழை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgE4yFD5hd29A9r8p2ZMq'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgE52YhceB2ACjTJq42C2'}
+[skip] தமிழ்நாட்டு வாசகரைப் பொறுத்தமையில் உள்நாட்டுப் பாதிப்பு இல்ல
+[skip] கென்யா நோய்ப் பரவல் செய்தி தமிழ்நாடு வாசகரைப் பாதிக்காது. உல
+[skip] வெளிநாட்டு உள்நாட்டு மாற்றுக் கொள்கைச் செய்தி. தமிழ்நாடு வாச
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgE55r8CempxGbXomXS5A'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] பாரா விளையாட்டு வீரர்களுக்கு முப்பது லட்சம் பரிசு அறிவித்த விஜய்
+[தரம்] தமிழ் அல்லாத எழுத்து: म → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): தவெக செயல்பாட்டாளர் கைது விஷயத்தில
+[publish] தவெக செயல்பாட்டாளர் கைது விஷயத்தில் விஜய் மௌனம் குறித்து எடப்பாடி கேள்வி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgE5LemVvhdC2kHtEMAVH'}
+[திருத்தம்] காவல்துறையில் கவனமின்மை, உயிரிழப்புகளுக் → முதல்வர் விஜய்க்குக் காவல்துறை கவனக்குறை
+[தரம்] தமிழ் அல்லாத எழுத்து: ় → ஒரு திருத்தம்
+[publish] முதல்வர் விஜய்க்குக் காவல்துறை கவனக்குறைவில் குற்றச்சாட்டு: ஸ்டாலின்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
+[publish] கார்த்திகா கைது கண்டனம், பெண் அரசியலுக்கு வருவது கடினம் - தமிழிசை
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): ஆயுத பூஜைக்கு சென்னையிலிருந்து 12,
+[publish] ஆயுத பூஜைக்கு சென்னையிலிருந்து 12,357 பேருந்துகள் இயக்கம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; முழு செய்தி விவரம், சூழல்,
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரமான உள்ளடக்கம் இல்லை. 
+[skip] கேரளா மற்றும் டெல்லியில் உள்ள அரசு மருத்துவமனைகளின் உள்ளூர் 
+[skip] ஹரியானா மாநிலத்தின் உள்ளூர் மின்சாரத் துறைச் சர்ச்சை - தமிழ்
+[skip] இது கேரள மாநிலத்தின் நெல் வயல் பாதுகாப்பு குறித்த கருத்துக் 
+[image] களஞ்சியம் (2 சொல்): கெளரவ விரிவுரையாளர் ஊதிய உயர்வு இன
+[publish] கெளரவ விரிவுரையாளர் ஊதிய உயர்வு இன்னும் அமலாகவில்லை
+[comic] கதை: மறக்க முடியாத முகம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3: பலகை 2-ஐப் போலவே உள்ளது (0.81) — மீண்டும் வரைகிறேன்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4: பலகை 3-ஐப் போலவே உள்ளது (0.97) — மீண்டும் வரைகிறேன்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-21.png · நாள் 42
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12958 · சென்செக்ஸ் 73853
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 2
+[done] feed 300 · pending 1 · எழுதியவை 10
