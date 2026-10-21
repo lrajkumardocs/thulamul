@@ -1,22 +1,22 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
+[fetch] The Hindu TN: 25 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 13 புதியவை
+[fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 3 புதியவை
-[fetch] Cinema Express: 20 புதியவை
+[fetch] The Hindu Cinema: 2 புதியவை
+[fetch] Cinema Express: 22 புதியவை
 [fetch] The Hindu Tech: 18 புதியவை
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 11 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 22 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 8 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa2a98bd650>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4f3372cc10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,24 +65,50 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 21 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 671 → நிகழ்வுகள் 601
-[triage] 601 → 46 | காலி: india:3, crime:3, court:2, jobs:2, sports:2
-[skip] VNSGU (குஜராத்) மற்றும் IIT இந்தூர் (மத்தியப் பிரதேசம்) ஆகிய
-[skip] ஆந்திரப் பிரதேசத்தின் கர்னூல் நகரில் நடந்த உள்ளூர் விக்கிரக 
-[skip] டெல்லியில் இருவர் மீதான உள்ளூர் நீதிமன்ற வழக்கு, தமிழ்நாட்டு
-[skip] இது ஒரு குறிப்பிட்ட மாநிலத்தின் பாஜக தலைவரின் வழக்கமான கட்சி
-[skip] ஆந்திரப் பிரதேசத்தின் நெல்லூர் உள்ளாட்சித் தேர்தலில் ஜனசேனா 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Vandalur Zoo closed for two days after Avian Inf
-[skip] வெளிநாட்டுத் தொடர் — நியூசிலாந்தில் நடக்கும் கிரிக்கெட் தொடர
-[skip] கர்ந�टக மாநிலத்தின் உள்ளூர் நிகழ்வு. தமிழ்நாட்டுக்குப் பொருந
-[skip] வெளிநாட்டு திரைப்படம் (மலையாளம்) தமிழ்நாட்டு வாசகருக்குப் பொ
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Police Commemoration Day: Tamil Nadu CM Vijay pa
-[skip] டெல்லி உயர்நீதிமன்றத்தின் உள்ளூர் வணிக முத்திரை வழக்கு; தமிழ
-[skip] jammu-university-result-2026-not-tamil-nadu-jobs
-[skip] வெளிநாட்டுத் தணிக்கை cricket — ஆங்கிலேய काউன्टி cricket, லாங
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Northeast monsoon preparedness: Tamil Nadu gover
-[market] தங்கம் 22K ₹12934 · சென்செக்ஸ் 73710
+[run] புதியவை 668 → நிகழ்வுகள் 604
+[triage] 604 → 65 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] IIT ரூர்க்கி மற்றும் புனே MACS ARI ஆகியவை தமிழ்நாட்டில் அமைய
+[skip] பிற நாட்டுப் பொதுவான கல்வி விவாதம்; தமிழ்நாடு/இந்தியாவுக்குச
+[tts-edge] 645a8f740b46: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மூக்குத்தி அம்மன் 2 டீசர் வெளியீடு: நயன்தாரா புதிய சக்திகளுக்கு எதிராக
+[skip] வெளிநாட்டு cricket tournament - Bangladesh vs Afghanistan. த
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgG1pHWQ6wuLWbtX9nNnM'}
+[திருத்தம்] அமைச்சர்களுக்கு 26 லட்சம், எம்எல்ஏக்களுக → அமைச்சர்களுக்கு ரூ.26 லட்சம், எம்எல்ஏக்க
+[image] களஞ்சியம் (3 சொல்): அமைச்சர்களுக்கு ரூ.26 லட்சம், எம்எ
+[tts-edge] eae39251cba5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அமைச்சர்களுக்கு ரூ.26 லட்சம், எம்எல்ஏக்களுக்கு ரூ.15 லட்சம்: வாகனக் கொள்முதல் உச்சவரம்பு நிர்ணயம்
+[image] களஞ்சியம் (3 சொல்): தமிழ்நாட்டில் பத்தொன்பது மாவட்டங்க
+[publish] தமிழ்நாட்டில் பத்தொன்பது மாவட்டங்களில் இன்று மழைக்கு வாய்ப்பு
+[திருத்தம்] தமிழ்நாட்டில் அக்டோபர் இருபத்தி ஏழாம் தே → தமிழ்நாட்டில் அக்டோபர் இருபத்திஏழாம் தேத
+[publish] தமிழ்நாட்டில் அக்டோபர் இருபத்திஏழாம் தேதி வரை கனமழை எச்சரிக்கை
+[image] களஞ்சியம் (2 சொல்): வேலூரில் பட்டாசு கிடங்கு வெடிவிபத்
+[publish] வேலூரில் பட்டாசு கிடங்கு வெடிவிபத்து; பெண் பலி, ஒருவர் காயம்
+[திருத்தம்] வடகிழக்குப் பருவமழைக்கு முன் மழைநீர் தொட → வடகிழக்குப் பருவமழைக்கு முன் மழைநீர் சேக
+[image] களஞ்சியம் (2 சொல்): வடகிழக்குப் பருவமழைக்கு முன் மழைநீ
+[publish] வடகிழக்குப் பருவமழைக்கு முன் மழைநீர் சேகரிப்புக் கட்டமைப்புகளைப் பழுதுபார்க்க கட்டாயம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgG2CeWJo4jG9kF5CAZSm'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgG2FSbY9Hf9rPMY7UQBm'}
+[image] களஞ்சியம் (3 சொல்): செஞ்சி அருகே சிறுமி காணாமல் போன வழ
+[publish] செஞ்சி அருகே சிறுமி காணாமல் போன வழக்கு சிபிசிஐடிக்கு மாற்றம்
+[skip] மூலச் செய்தி மிகக் குறைவான, தெளிவற்ற தகவலை மட்டும் கொண்டுள்ள
+[image] களஞ்சியம் (2 சொல்): ராணிப்பேட்டையில் ஒரு வயது பெண் குழ
+[publish] ராணிப்பேட்டையில் ஒரு வயது பெண் குழந்தை காணாமல் போனது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgG2RKyCdg8gpWUYDGkrS'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, மாவட்டங்கள், திணைக்கள எச்ச
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: காவல் நிலையங்கள் செலவு நிதி பல மடங
+[publish] காவல் நிலையங்கள் செலவு நிதி பல மடங்கு உயர்வு, 71 கோடி ஒதுக்கீடு
+[தரம்] தமிழ் அல்லாத எழுத்து: ी → ஒரு திருத்தம்
+[publish] உக்ரைன் போரை முடிக்க பேச்சுவார்த்தைக்கு ரஷியா தயார்
+[comic] கதை: விடைபெறும் காலை
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-22.png · நாள் 43
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12942 · சென்செக்ஸ் 73710
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 0
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 10

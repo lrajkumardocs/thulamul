@@ -1,5 +1,75 @@
 [
  {
+  "headline": "உக்ரைன் போரை முடிக்க பேச்சுவார்த்தைக்கு ரஷியா தயார்",
+  "lines": [
+   "ரஷிய அதிபர் விளாடிமிர் புதின் அமெரிக்க சிறப்புத் தூதர் ஸ்டீவ் விட்காஃப் அவர்களை செயின்ட் பீட்டர்ஸ்பர்க்கில் சந்தித்தார்.",
+   "இந்தச் சந்திப்புக்குப் பிறகு உக்ரைன் மற்றும் அமெரிக்காவுடன் பேச்சுவார்த்தையை மீண்டும் தொடங்க ரஷியா தயார் என அறிவிக்கப்பட்டது.",
+   "உக்ரைன் போரை முடிவுக்குக் கொண்டுவர பேச்சுவார்த்தை நடத்த கொள்கை அளவில் ரஷியா இசைவு தெரிவித்துள்ளது.",
+   "அமெரிக்க அதிபர் டொனால்ட் டிரம்ப் அவர்களின் சிறப்புத் தூதராக ஸ்டீவ் விட்காஃப் இப் பேச்சுவார்த்தையில் முக்கியப் பங்கு வகித்தார்.",
+   "அடுத்த கட்ட பேச்சுவார்த்தை எப்போது, எந்த இடத்தில் நடைபெறும் என்பது குறித்து இன்னும் உறுதி செய்யப்படவில்லை."
+  ],
+  "closing": "கடந்த சில ஆண்டுகளாக நீடித்து வரும் உக்ரைன் போரை முடிவுக்குக் கொண்டுவர பல முறை பேச்சுவார்த்தை முயற்சிகள் நடந்துள்ளன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ரஷியா",
+   "உக்ரைன்",
+   "விளாடிமிர் புதின்",
+   "டொனால்ட் டிரம்ப்",
+   "ஸ்டீவ் விட்காஃப்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Russia signals readiness for talks to end Ukraine war",
+   "lines": [
+    "Russian President Vladimir Putin met US special envoy Steve Witkoff in St Petersburg.",
+    "After the meeting, Russia announced it is ready to resume talks with Ukraine and the US.",
+    "Russia has signalled it is willing in principle to hold talks to end the Ukraine war.",
+    "US President Donald Trump's special envoy Steve Witkoff played a key role in the meeting.",
+    "It remains unclear when and where the next round of talks will take place."
+   ],
+   "closing": "Multiple attempts at talks have been made over the past few years to end the prolonged Ukraine war."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "Putin Witkoff meeting Kremlin",
+  "wiki_subject": "Russian invasion of Ukraine",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "020c23c2780c",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-22T02:09+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/video/newsfeed/2026/10/21/russia-willing-to-resume-peace-talks-with-ukraine-us-after-witkoff-visit?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2022_Russian_invasion_of_Ukraine.svg/3840px-2022_Russian_invasion_of_Ukraine.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Russo-Ukrainian war (2022–present)",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)",
+   "symbolic": false
+  },
+  "audio": "data/audio/020c23c2780c.mp3",
+  "created_ts": 1792615145.3108816,
+  "status": "published"
+ },
+ {
   "headline": "சூடான்-தென்சூடான் எல்லையில் அபியி சந்தையில் ட்ரோன் தாக்குதலில் 150 பேர் பலி",
   "lines": [
    "சூடான் மற்றும் தென்சூடான் நாடுகளின் எல்லையில் உள்ள அபியி பகுதியில் ஒரு சந்தையின் மீது ட்ரோன் தாக்குதல் நடத்தப்பட்டுள்ளது.",
@@ -1930,185 +2000,5 @@
   "published_at": "2026-10-15T11:27+05:30",
   "created_ts": 1792043875.977247,
   "audio": "data/audio/art_world_20261015.mp3"
- },
- {
-  "headline": "பாகிஸ்தான் கைபர் பக்துன்வா மாகாணத்தில் அவசரநிலைக்கு எதிர்ப்பு வன்முறை",
-  "lines": [
-   "பாகிஸ்தானின் கைபர் பக்துன்வா மாகாணத்தில் போராட்டக்காரர்களும் காவல்துறையும் மோதிக் கொண்டனர்.",
-   "இம்ரான் கான் வலிமையான ஆதரவு பெற்றுள்ள பகுதியாகக் கருதப்படும் இம்மாகாணத்தில் இந்த மோதல் நடந்தது.",
-   "மாகாணத்தில் அவசரநிலை மற்றும் ஆளுநர் ஆட்சி அமல்படுத்தப்பட்டதை எதிர்த்து மக்கள் தெருவில் இறங்கினர் என்று அல்ஜசீரா செய்தி நிறுவனம் தெரிவித்துள்ளது.",
-   "இந்த நடவடிக்கைக்கு எதிர்ப்பு தெரிவித்தே மக்கள் காவல்துறையுடன் மோதியதாகத் தகவல் வெளியாகியுள்ளது.",
-   "இம்மோதலுக்குப் பிறகு பாகிஸ்தான் அரசின் மற்றும் மாகாண நிர்வாகத்தின் அடுத்தகட்ட நடவடிக்கை கவனிக்கப்பட்டு வருகிறது."
-  ],
-  "closing": "கைபர் பக்துன்வா மாகாணம் இம்ரான் கானின் அரசியல் செல்வாக்கு கொண்ட பகுதியாகக் கருதப்படுகிறது. இந்நிலையில் மாகாணத்தில் அமைதி திரும்புமா என்பது கவனிக்கப்பட வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "பாகிஸ்தான்",
-   "கைபர் பக்துன்வா",
-   "இம்ரான் கான்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Violence erupts in Pakistan over emergency rule in Khan stronghold",
-   "lines": [
-    "Protesters clashed with police in Pakistan's Khyber Pakhtunkhwa province.",
-    "The clashes occurred in a region widely seen as a stronghold of Imran Khan.",
-    "People took to the streets opposing the imposition of emergency and governor's rule, Al Jazeera reported.",
-    "The protests turned into clashes with police over the move, according to reports.",
-    "The next steps from the Pakistani government and provincial administration are being watched."
-   ],
-   "closing": "Khyber Pakhtunkhwa is considered a political stronghold of Imran Khan, and whether calm returns to the province remains to be seen."
-  },
-  "front_cat": "strike_protest",
-  "image_query": "Pakistan Khyber Pakhtunkhwa protest police",
-  "wiki_subject": "Khyber Pakhtunkhwa",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "43df7c49670e",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-14T11:13+05:30",
-  "links": [
-   "https://www.aljazeera.com/video/newsfeed/2026/10/14/pakistan-khyber-pakhtunkhwa-protests-emergency-rule?traffic_source=rss"
-  ],
-  "image": {
-   "url": "data/bank/world04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/43df7c49670e.mp3",
-  "created_ts": 1791956607.202571,
-  "status": "published"
- },
- {
-  "headline": "நார்ட் ஸ்ட்ரீம் குழாய் வெடிப்பு வழக்கில் உக்ரைன் முன்னாள் அதிகாரி விசாரணை",
-  "lines": [
-   "ஜெர்மனியில் நார்ட் ஸ்ட்ரீம் எரிவாயுக் குழாய் வெடிப்பு வழக்கில் குற்றம் சாட்டப்பட்ட உக்ரைனின் முன்னாள் இராணுவ அதிகாரி மீது நீதிமன்ற விசாரணை தொடங்கியுள்ளது.",
-   "இந்த வழக்கு விசாரணை பிப்ரவரி மாதம் வரை நீடிக்கும் என எதிர்பார்க்கப்படுகிறது.",
-   "இந்த வழக்கு ஜெர்மனியின் உக்ரைன் தொடர்பான அரசியல் நிலைப்பாட்டைச் சோதிக்கக்கூடும் என அரசியல் ஆய்வாளர்கள் கருத்து தெரிவித்துள்ளனர்.",
-   "நார்ட் ஸ்ட்ரீம் எரிவாயுக் குழாய்களில் ஏற்பட்ட வெடிப்புகள் ஐரோப்பாவின் எரிசக்தி விநியோகத்தில் பெரும் தாக்கத்தை ஏற்படுத்தியிருந்தன.",
-   "வழக்கின் மேல் விசாரணை தொடர்ந்து நடைபெறவுள்ளதாக நீதிமன்ற வட்டாரங்கள் தெரிவித்துள்ளன."
-  ],
-  "closing": "இந்த வழக்கின் தீர்ப்பு ஜெர்மனி உக்ரைன் உறவில் என்ன தாக்கத்தை ஏற்படுத்தும் என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "ஜெர்மனி",
-   "உக்ரைன்",
-   "நார்ட் ஸ்ட்ரீம் குழாய்",
-   "நீதிமன்றம்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Ukrainian ex-officer goes on trial in Germany over Nord Stream pipeline blasts"
-  },
-  "id": "d03bfbbd35dc",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-14T11:12+05:30",
-  "links": [
-   "https://www.aljazeera.com/news/2026/10/14/ukrainian-ex-officer-goes-on-trial-in-germany-over-nord-stream-blasts?traffic_source=rss"
-  ],
-  "image": {
-   "url": "data/bank/court01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/d03bfbbd35dc.mp3",
-  "created_ts": 1791956556.0481303,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ரஷியாவின் சரதோவ் பகுதியில் உக்ரைன் ட்ரோன் தாக்குதல்",
-  "lines": [
-   "உக்ரைனின் ட்ரோன்கள் ரஷியாவின் சரதோவ் பகுதியில் தாக்குதல் நடத்தியுள்ளன.",
-   "இந்தத் தாக்குதல் ரஷிய எல்லைக்குள் 100 கிலோமீட்டருக்கும் மேல் சென்று நடத்தப்பட்டுள்ளது.",
-   "பிராந்திய ஆளுநர் இந்தத் தாக்குதலில் ஒருவர் உயிரிழந்ததாக அறிவித்தார்.",
-   "உக்ரைன் மற்றும் ரஷியா இடையேயான போர் நீண்ட காலமாகத் தொடர்ந்து வருகிறது.",
-   "இந்தத் தாக்குதல் குறித்த கூடுதல் விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை."
-  ],
-  "closing": "ரஷிய எல்லைக்குள் ஆழமாகச் சென்று நடத்தப்படும் இத்தகைய தாக்குதல்கள் போரின் தீவிரத்தை எடுத்துக்காட்டுகின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "உக்ரைன்",
-   "ரஷியா",
-   "சரடோவ்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Ukrainian drones strike Russia's Saratov region, killing one",
-   "lines": [
-    "Ukrainian drones reportedly struck the Saratov region inside Russian territory.",
-    "The strike is said to have hit more than 100 kilometres inside Russia's border.",
-    "The regional governor confirmed that one person was killed in the attack.",
-    "The war between Ukraine and Russia has continued for an extended period.",
-    "Further official details about the strike have not yet been released."
-   ],
-   "closing": "Such deep strikes into Russian territory highlight the ongoing intensity of the war."
-  },
-  "front_cat": "war_conflict",
-  "image_query": "",
-  "wiki_subject": "Saratov Oblast",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "d992e756920b",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-14T11:11+05:30",
-  "links": [
-   "https://www.aljazeera.com/video/newsfeed/2026/10/14/ukrainian-drones-strike-more-than-100km-into-russian-territory?traffic_source=rss"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Saratov_Oblast.svg/1280px-Flag_of_Saratov_Oblast.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Saratov Oblast",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Saratov_Oblast",
-   "symbolic": false
-  },
-  "audio": "data/audio/d992e756920b.mp3",
-  "created_ts": 1791956493.0418472,
-  "status": "published"
  }
 ]
