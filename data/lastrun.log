@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 10 புதியவை
-[fetch] Dinamani TN: 16 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 26 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 17 புதியவை
+[fetch] The Hindu TN: 14 புதியவை
+[fetch] Dinamani TN: 15 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 23 புதியவை
+[fetch] Al Jazeera: 18 புதியவை
+[fetch] ESPNcricinfo: 15 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] The Hindu Cinema: 1 புதியவை
 [fetch] Cinema Express: 20 புதியவை
 [fetch] The Hindu Tech: 12 புதியவை
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 11 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 16 புதியவை
+[fetch] FreeJobAlert: 12 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] The Hindu Legal: 21 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Hindu National: 21 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,86 +56,77 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa62c30a810>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
-[fetch] Dinamani Govt: 16 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f91f6158550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 21 புதியவை
+[fetch] Dinamani Govt: 15 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 11 புதியவை
+[fetch] TN Police News: 15 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 591 → நிகழ்வுகள் 540
-[triage] 540 → 51 | காலி: india:4, crime:4, economy:3, court:3, govt:3
-[skip] அண்டமான் நிக்கோபார் தீவுகள் — தமிழ்நாட்டுக்கு வெளிப்புறமான ய
-[திருத்தம்] லெப்டோஸ்பைரோசிஸ்: மழைக்காலக் கொசுக் காய் → லெப்டோஸ்பைரோசிஸ்: மழைக்காலக் காய்ச்சலைப்
-[tts-edge] f57e6dce7430: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] லெப்டோஸ்பைரோசிஸ்: மழைக்காலக் காய்ச்சலைப் போல வரும் ஆபத்தான நோய்
-[skip] பாலிவுட் நடிகர்களுக்கு எதிரான தாக்குதல்கள் பற்றிய பொதுவான கட
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEJnNr2qjjnWhBypb5wN'}
-[திருத்தம்] வங்கக் கடலில் புயல் சின்னம்: 3 மாவட்டங்க → தென்மேற்கு வங்கக் கடலில் புயல் சின்னம்: 
-[image] களஞ்சியம் (2 சொல்): தென்மேற்கு வங்கக் கடலில் புயல் சின
-[tts-edge] 37c9bc558cbd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தென்மேற்கு வங்கக் கடலில் புயல் சின்னம்: 3 மாவட்டங்களுக்கு ஆரஞ்சு எச்சரிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEJuFGZREX7SB8TUBG86'}
-[skip] மூலச் செய்தி 2023ஆம் ஆண்டு அக்டோபர் 21ஆம் தேதி தொடங்கும் IPO
-[skip] பிரான்சின் உள்நாட்டுப் பொலிஸ் மோதல் — தமிழ்நாடு / இந்தியாவுட
-[skip] வெளிநாட்டு அரசியல் — இஸ்ரேல்-ஈரான் விவகாரம் தமிழ்நாடு/இந்திய
-[skip] உலகச் செய்திகளில் தமிழ்நாடு அல்லது இந்தியாவுக்கு நேரடித் தொட
-[image] களஞ்சியம் (2 சொல்): ஊரக வேலைவாய்ப்புத் திட்டப் பணி நாட
-[publish] ஊரக வேலைவாய்ப்புத் திட்டப் பணி நாட்கள் 150 ஆக உயர்வு
+[run] புதியவை 565 → நிகழ்வுகள் 520
+[triage] 520 → 43 | காலி: india:4, court:3, crime:3, jobs:3, cinema:3
+[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாதவை — மேற்கு வங்
+[skip] தமிழ்க் கலைஞர் அல்லது தமிழ் திரையுலகத்துடன் நேரடித் தொடர்பு 
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் அக்டோபர் 26 வரை கனமழ
+[tts-edge] dfeba6ab7597: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டில் அக்டோபர் 26 வரை கனமழைக்கு வாய்ப்பு, எச்சரிக்கை
+[skip] வெளிநாட்டுக் குறிப்பு — தமிழ்நாடு/இந்தியாவுக்குத் தொடர்பு தெ
+[skip] வெளிநாட்டுப் போல்-அரசியல் — தமிழ்நாடு/இந்தியா வாசகருக்குப் ப
+[image] களஞ்சியம் (2 சொல்): மழைக்காலத் தயார்நிலை குறித்து அதிக
+[tts-edge] 689c2d2aee2e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மழைக்காலத் தயார்நிலை குறித்து அதிகாரிகளுக்கு சுகாதார அமைச்சர் உத்தரவு
+[image] களஞ்சியம் (2 சொல்): வடகிழக்குப் பருவமழை தீவிரம், 125 இ
+[publish] வடகிழக்குப் பருவமழை தீவிரம், 125 இடங்களில் தீயணைப்புத் துறை முகாம்
+[skip] தமிழ்நாட்டின் உள்ளூர் அரசியல் — தாராபுரம் இடைத்தேர்தல் கைது.
+[skip] வங்கதேசம் மற்றும் சவுதி அரேபியாவுக்கு இடையேயான உலகச் செய்தி;
+[image] களஞ்சியம் (2 சொல்): அனல் மின் நிலையங்களில் ஆண்டுதோறும்
+[publish] அனல் மின் நிலையங்களில் ஆண்டுதோறும் பொங்குசாம்பல் தணிக்கை கட்டாயம்
+[skip] பிரான்சின் உள்நாட்டு அரசியல் சம்பவம். தமிழ்நாடு/இந்தியாவுக்க
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருத்தமற்ற வெளிநாட்டு உள்ளூ
+[image] களஞ்சியம் (2 சொல்): அரசு மருத்துவமனைகளில் தடையற்ற சேவை
+[publish] அரசு மருத்துவமனைகளில் தடையற்ற சேவை: அமைச்சர் அருண்ராஜ் உத்தரவு
+[skip] பிரான்சின் உள்நாட்டுச் செய்தி; தமிழ்நாடு/இந்தியாவுடன் நேரடித
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEViusm1MDucR3Gb8KfM'}
+[skip] வெளிநாட்டு பல்கலைக்கழகத்தின் உள்நாட்டு விவகாரம். தமிழ்நாடு /
+[skip] வெளிநாட்டின் உள்ளூர் சைபர் குற்றம். தமிழ்நாடு / இந்தியாவுக்க
+[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாட்டு / இந்திய வாசகரைப் ப
+[skip] தமிழ்நாட்டு வாசகருக்குக் குறிப்பிட்ட தொடர்பு இல்லை. உலகச் செ
+[skip] உலகச் செய்தி என்றாலும் தமிழ்நாடு/இந்தியாவைப் பாதிக்காது. கென
+[skip] கனடாவின் ஆல்பர্டா மாநிலத்தின் பிரிந்து செல்லும் இயக்கம் பற்ற
+[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[skip] NATO-ன் கருப்புக் கடல் பகுதிப் பராமரிப்பு அறிவிப்பு தமிழ்நாட
+[skip] ஈரான்-இருப்பு ஒப்பந்தம் பற்றிய பிரிட்டன் உள் விசாரணை. தமிழ்ந
+[skip] தமிழ்நாட்டு/இந்தியக் வாசகரைப் பாதிக்காத வெளிநாட்டு இராணுவ நட
+[skip] இது மகாராஷ்டிரா மாநில அரசியல் கட்சிக் கூட்டம் தொடர்பான உள்ளூ
+[skip] மேற்கு வங்க மாநிலத்தின் உள்ளூர் அரசியல் சர்ச்சை, தமிழ்நாட்டு
+[skip] இது தெலங்கானா மாநிலத்தின் சிங்கரேணி நிறுவன அதிகாரிகளுக்கான ச
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (3 சொல்): இந்தியாவில் பிராண்டட் ஆடம்பர குடிய
-[publish] இந்தியாவில் பிராண்டட் ஆடம்பர குடியிருப்பு திட்டங்கள் 2032-க்குள் இரு மடங்கு அதிகரிப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEKDDkY5B2xfhirH2Ge3'}
-[skip] உலக நாடு (செஞ்சி = சிங்களம், ஸ்ரீலங்கா). தமிழ்நாடு / இந்தியா
-[திருத்தம்] ஈஏஏஏ இந்தியா ஆல்டர்நேட்டிவ்ஸ் நிறுவனம் ஆ → ஈஏஏஏ இந்தியா ஆல்டர்நேட்டிவ்ஸ் ஆயிரத்து இ
-[image] களஞ்சியம் (2 சொல்): ஈஏஏஏ இந்தியா ஆல்டர்நேட்டிவ்ஸ் ஆயிர
-[publish] ஈஏஏஏ இந்தியா ஆல்டர்நேட்டிவ்ஸ் ஆயிரத்து இருநூறு கோடி ரூபாய் ஐபிஓ அக்டோபர் 26-ல் வரவுள்ளது
-[திருத்தம்] பிரான்சில் 1500 கடைகள் சூறையாகின - மாணவர → சுமார் 1500 கடைகள் சூறை: மாணவர் போராட்டத
-[தரம்] தமிழ் அல்லாத எழுத்து: ইনা → ஒரு திருத்தம்
-[publish] சுமார் 1500 கடைகள் சூறை: மாணவர் போராட்டத்தில் வன்முறையால் கலக்கம்
-[image] களஞ்சியம் (2 சொல்): டோன்போ இமேஜிங் பங்கு வெளியீடு 140 
-[publish] டோன்போ இமேஜிங் பங்கு வெளியீடு 140 மடங்கு சந்தா பெற்றது
-[skip] உக்ரைன்-அமெரிக்கா இராணுவ உளவு பிரச்சினை தமிழ்நாடு/இந்திய வாச
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEKS5Fg5B3xCZSnfzNkt'}
-[skip] தமிழ்நாட்டு/இந்தியக் வாசகருக்கு நேரடி முக்கியத்துவம் இல்லை. 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, சம்பவம் குறித்த விவரங்கள் 
-[skip] அல்பேனியா உள் அரசியல் — தமிழ்நாடு வாசகரைப் பாதிக்காது. வெளிந
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தமிழ்நாட்டு / இந்திய வாசகருக்குப் பொருத்தமற்ற உலகச் செய்தி. 
-[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
-[skip] US அரசியல் உள் நிகழ்வு — தமிழ்நாடு/இந்திய வாசகருக்கு நேரடி ப
-[skip] வெளிநாட்டு உள் அரசியல் — அமெரிக்க நாடாளுமன்ற உறுப்பினர் மீதா
-[skip] US-Iran மோதலுக்கான கருத்துரை. தமிழ்நாடு/இந்திய வாசகரைப் பாதி
-[skip] பிரான்ஸின் உள்ளூர் கலவரம் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்
-[skip] ஐரோப்பிய ஒன்றியத்தின் ஆர்க்டிக் கொள்கை மாற்றம் தமிழ்நாடு அல்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மேற்கு வங்க மாநிலத்தின் உள்ளூர் நிகழ்வு தொடர்பான அரசியல் விள
-[skip] GIMS (உத்தரப் பிரதேச மாநில மருத்துவ நிறுவனம்) மற்றும் NABCON
-[திருத்தம்] சென்னை மேயர் மீது ஆன்லைன் துன்புறுத்தல்  → சென்னை மேயர் ஆன்லைன் துன்புறுத்தல் புகார
-[image] களஞ்சியம் (2 சொல்): சென்னை மேயர் ஆன்லைன் துன்புறுத்தல்
-[publish] சென்னை மேயர் ஆன்லைன் துன்புறுத்தல் புகார்
-[skip] மகாராஷ்டிரா தானேயில் உள்ள உள்ளூர் துப்பாக்கிச் சூடு சம்பவம்,
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai Mayor alleges online harassment; lodges 
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் மற்றும் வாণிజ்য நிகழ்வு. தமிழ்ந
-[skip] வெளிநாட்டுத் தொடர் — ভারত-জিம்বாब్વे महिला क्रिकेट। தமிழ்நாட
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Traffic diversions for Police Commemoration Day 
-[skip] பங்களாதேশ் மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாடு வாசகருக்க
-[skip] தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லாத பொதுவான மருத்துவ গবேষ
-[skip] வெளிநாட்டுப் படத்தின் விநியோग உரிமைச் செய்தி — தமிழ்நாடு/இந்
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத தனிப்பட்ட வீரர் அறிக்கை. இந்த
+[skip] சாதாரண மத/பண்பாட்டு கட்டுரை — தமிழ்நாட்டு வாசகருக்கும் தேசிய
+[திருத்தம்] ஹரியாணா அரசுத் திருமண மகளிர் மருத்துவக்  → ஹரியாணா பிபிஎஸ் அரசு மருத்துவக் கல்லூரி 
+[தரம்] தமிழ் அல்லாத எழுத்து: ইউএ → ஒரு திருத்தம்
+[publish] ஹரியாணா பிபிஎஸ் அரசு மருத்துவக் கல்லூரி சர்வதேச விருது வென்றது
+[skip] வெளிநாட்டு county cricket — தமிழ்நாடு/இந்தியாவுடன் தொடர்பு இ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Top officials from Ministry of Civil Aviation, A
+[skip] கேரளா மாநிலத்தின் உள்ளூர் நியமன/சேர்க்கை அறிவிப்பு. தமிழ்நாட
+[skip] பொருளிலை — இசையமைப்பாளரின் ஒலிபெயர்ப்பு அல்லது திரைப்படத் தம
+[skip] महाराष्ट्र राज्य की स्थानीय राजनीति। शिव सेना (UBT) और एकनाथ
+[தரம்] தமிழ் அல்லாத எழுத்து: ড → ஒரு திருத்தம்
+[publish] குழந்தைகளின் இணையப் பயன்பாடு உணர்வுரீதி, உடல் பாதிப்பு ஏற்படுத்துவதாக ஆய்வு
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (Afghanistan vs Zimbabwe) தமிழ்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Police trace missing girl to a children’s home i
-[தரம்] தமிழ் அல்லாத எழுத்து: कसि → ஒரு திருத்தம்
-[நகல்] ஏற்கனவே வெளியானது: சென்னை மேயர் ஆன்லைன் துன்புறுத்தல் புகார்
-[skip] பஞ்சாப் மாநிலத்தின் உள்ளூர் கல்வி அரசு வேலைவாய்ப்பு. தமிழ்நா
-[skip] வெளிநாட்டுச் செய்தி — அமெரிக்க குளிர்காலக் காய்ச்சல் நிலவரம்
-[skip] வெளிநாட்டு சினிமா (DC Universe, ஹாலிவுட் படம்) — தமிழ்நாட்டு
-[editorial] பிழை 'cartoon'
-[market] தங்கம் 22K ₹12949 · சென்செக்ஸ் 73853
+[skip] हिमाचल प्रदेश (Himachal Pradesh) is not Tamil Nadu or nation
+[தரம்] [சொல்] 'தொழிற்நுட்ப' — தொழில்நுட்ப → ஒரு திருத்தம்
+[publish] சந்தனம் நடிப்பில் அதிசய பிறவி; முதல் பார்வை வெளியீடு
+[brief] காலை brief தயார்
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: குழந்தைகள் இணையத்தை நிறுத்த முடியாதது ஏன்?
+[market] தங்கம் 22K ₹12911 · சென்செக்ஸ் 73853
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 1 · எழுதியவை 8
