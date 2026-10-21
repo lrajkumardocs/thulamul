@@ -1,21 +1,20 @@
-[expire] 4fa7d89656b0
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
-[fetch] Dinamani TN: 19 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
 [fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 20 புதியவை
-[fetch] ESPNcricinfo: 14 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 1 புதியவை
-[fetch] Cinema Express: 18 புதியவை
-[fetch] The Hindu Tech: 12 புதியவை
-[fetch] Wired: 25 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] The Hindu Sport: 29 புதியவை
+[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] Cinema Express: 21 புதியவை
+[fetch] The Hindu Tech: 18 புதியவை
+[fetch] Wired: 26 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 7 புதியவை
+[fetch] The Hindu Health: 10 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -25,19 +24,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
-[fetch] The Hindu Legal: 21 புதியவை
+[fetch] Bar and Bench: 25 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 21 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,57 +56,54 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f98d22c13d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 21 புதியவை
-[fetch] Dinamani Govt: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f070e3ed6d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 12 புதியவை
+[fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 580 → நிகழ்வுகள் 517
-[triage] 517 → 41 | காலி: india:4, crime:3, jobs:3, court:2, cinema:2
-[skip] இவை மகாராஷ்டிரா (ஏசிடிஆர்இசி) மற்றும் கர்நாடகா (KSU) மாநிலங்
-[திருத்தம்] சூடான் தென் சூடான் எல்லையில் அபியி சந்தை → சூடான்-தென்சூடான் எல்லையில் அபியி சந்தைய
-[tts-edge] 787b9518bd85: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சூடான்-தென்சூடான் எல்லையில் அபியி சந்தையில் ட்ரோன் தாக்குதலில் 150 பேர் பலி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEssDcPERYiyGnzy8m8r'}
-[image] களஞ்சியம் (2 சொல்): சென்னை உள்பட 26 மாவட்டங்களில் இன்ற
-[tts-edge] 84d56b9ab44e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னை உள்பட 26 மாவட்டங்களில் இன்று பகல் வரை மழை
-[திருத்தம்] தமிழ்நாட்டில் ஆறு நாட்களுக்கு மழை எச்சரி → தமிழ்நாட்டில் 6 நாட்களுக்கு மழை எச்சரிக்
-[publish] தமிழ்நாட்டில் 6 நாட்களுக்கு மழை எச்சரிக்கை
-[தரம்] தமிழ் அல்லாத எழுத்து: भ → ஒரு திருத்தம்
-[publish] ஜியோ பிளாட்பாரம்ஸ் ஐபிஓ முதல் நாளிலேயே முழுமையாகப் பதிவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEt4tSo4V2d9iL54Dw4f'}
-[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — சவுதி அரேபியா, வங்கதேசம் — த
-[skip] வெளிநாட்டுத் விண்வெளி ஆய்வாகவும், நேரடியாக தமிழ்நாடு/இந்தியா
-[skip] இந்தியாவின் உள்நாட்டு விவகாரம், தமிழ்நாட்டு வாசகருக்கு நேரடி
-[skip] CGG (தெலங்கானா அரசு நிறுவனம்) மற்றும் IIM மும்பை ஆகியவற்றின்
-[skip] இது ஆவடி வரலாறு பற்றிய பின்னணிக் கட்டுரை, நடப்பு செய்தி நிகழ
-[திருத்தம்] இந்தியா நியூசிலாந்து சுதந்திர வர்த்தக ஒப → இந்தியா-நியூசிலாந்து சுதந்திர வர்த்தக ஒப
-[publish] இந்தியா-நியூசிலாந்து சுதந்திர வர்த்தக ஒப்பந்தம் அமலுக்கு வந்தது
+[run] புதியவை 683 → நிகழ்வுகள் 617
+[triage] 617 → 65 | காலி: india:4, crime:3, court:2, jobs:2, cinema:2
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; கொள்கைக் குழு முடிவுகள், வ
+[skip] ஆஸ்திரேலியாவின் உள்நாட்டு குற்றச் சம்பவம். தமிழ்நாடு/இந்திய 
+[skip] இது ஜப்பான் மத்திய வங்கியின் வட்டி விகித உத்தேசம் பற்றிய செய
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டு உள்நாட்டு மோதல். ச
+[skip] இது இங்கிலாந்தின் உள்நாட்டுப் பணவீக்க எண்ணிக்கை பற்றிய செய்த
+[skip] வெளிநாட்டுப் போர் மோதல் — இந்திய/தமிழ்நாட்டு வாசகரை நேரடியாக
+[திருத்தம்] சென்செக்ஸ் உச்சத்திலிருந்து 1,400 புள்ளி → சென்செக்ஸ் உச்சத்திலிருந்து 1,400 புள்ளி
+[tts-edge] c678ba61707a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்செக்ஸ் உச்சத்திலிருந்து 1,400 புள்ளிகள் வரை சரிவு; ₹8 லட்சம் கோடி விற்பனை
+[skip] வெளிநாட்டு வாசகரைக் குறிக்கும் செய்தி. தமிழ்நாடு / இந்தியாவி
+[skip] ஆஸ்திரேலிய உள்நாட்டு விபத்து/குற்றவழக்கு. தமிழ்நாடு அல்லது இ
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்க சட்டவழக்கு, தமிழ்நாட
+[skip] ஆஸ்திரேலிய உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப் பா
+[skip] யேமனின் உள்நாட்டுச் சர்ஆத்தம் — தமிழ்நாடு / இந்தியாவுக்குத் 
+[skip] டெல்லி உயர்நீதிமன்றத்தின் உள்ளூர் நடைமுறை வழக்கு, தமிழ்நாட்ட
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: No frills, the true Avadi story
-[skip] இது மேற்கு வங்கத்தின் உள்ளூர் சம்பவம் தொடர்பான கல்கத்தா உயர்
-[skip] திரை விமர்சனம் — இந்தக் கட்டுரை 'Little Thomas' படத்தின் விம
-[skip] ஆஸ்திரேலிய பெண்கள் கிரிக்கெட் லீக் (WBBL) — தமிழ்நாட்டு/இந்த
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருந்தாத பழைய சரிতிர நিবந்தனம். செ
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Traffic diversions for Police Commemoration Day 
-[skip] இது ஒரு குறிப்பிட்ட நிகழ்வு அல்லது தீர்ப்பு பற்றிய செய்தி அல
-[skip] கட்டுரை அறிவிப்பு மட்டுமே; உறுதிப்படுத்தப்பட்ட தகவல் இல்லை. 
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — ஆஸ்திரேலியா vs தென்னாப்பிரிக்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Top officials from Ministry of Civil Aviation, A
-[skip] ගුජරාત් ප්‍රකාශන සේවා කර්තෘ පරීක්ෂා දකුණු ඉන්දියාවේ නිකुතුවී
-[filler] tech கட்டுரை
-[jobs] தொகுப்பு 4
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[skip] இவை வேறு மாநில பல்கலைக்கழகங்களின் (RGPV - மத்தியப் பிரதேசம்,
+[skip] ஹைதராபாத் நிறுவனத்தின் மின்சார வாகனத் துறை நுழைவு தொடர்பான வ
+[skip] ஆந்திரப் பிரதேசத்தின் உள்ளூர் மாநகராட்சி அரசியல் செய்தி - தம
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Hookah services offered in some pubs and cafes i
+[skip] மும்பையில் நடிகர் டைகர் ஷ்ராஃப் தொடர்பான துப்பாக்கிச் சூடு வ
+[skip] இது ஹரியாணாவின் கர்ந�ால் நகரத்தில் அமைந்த மகாராணா பிரதாப் தோ
+[skip] தெலுங்கு திரையுலகத்தின் உள்நாட்டுச் செய்தி; தமிழ்நாட்டுவாசகர
+[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் — அஸ்திரேலியா Sheffield Sh
+[skip] மூலஉரை புரிந்துகொள்ள முடியாத, முழுமையற்ற வார்ப்புரு தரவு - உ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Pedestrian fatally knocked down by MTC bus in Ch
+[skip] இது டெல்லி தேசிய சட்டப் பல்கலைக்கழகம் மற்றும் தனியார் நிறுவன
+[தரம்] தமிழ் அல்லாத எழுத்து: চূ → ஒரு திருத்தம்
+[tts-edge] 30912b329b62: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இசையமைப்பாளர் தேவி ஸ்ரீ பிரசாத் நடிப்பில் அறிமுகம்
+[skip] বাংলাদেশ এবং আফগানিস্তানের মধ্যে একটি আন্তর্জাতিক ক্রিকেট খে
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Thota Tharrani retrospective in Chennai brings t
+[filler] india கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12930 · சென்செக்ஸ் 73960
+[market] தங்கம் 22K ₹12947 · சென்செக்ஸ் 73710
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 5
+[done] feed 300 · pending 0 · எழுதியவை 2
