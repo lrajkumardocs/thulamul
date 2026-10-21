@@ -1,5 +1,136 @@
 [
  {
+  "headline": "தமிழ்நாட்டில் 6 நாட்களுக்கு மழை எச்சரிக்கை",
+  "lines": [
+   "தென்மேற்கு வங்கக் கடலில் உருவாகும் வளிமண்டல சுழற்சியால் தமிழ்நாட்டில் கனமழை பெய்ய வாய்ப்பு உள்ளது.",
+   "அடுத்த 24 மணி நேரத்தில் தமிழக கடலோரப் பகுதிகளில் குறைந்த காற்றழுத்த தாழ்வுப் பகுதி உருவாகலாம்.",
+   "இந்திய வானிலை ஆய்வு மையம் 6 நாட்களுக்கு மழை எச்சரிக்கை வெளியிட்டுள்ளது.",
+   "பாதிக்கப்படும் மாவட்ட விவரங்கள் தெரிவிக்கப்படவில்லை.",
+   "மக்கள் வெள்ளம் மற்றும் இடிமழைக்கு எதிரான தயாரிப்பை மேற்கொள்ள அறிவுறுத்தப்பட்டுள்ளனர்."
+  ],
+  "closing": "வெள்ளம் மற்றும் புயல் எச்சரிக்கைக்கு உட்பட்ட பகுதியில் வசிப்பவர்கள் தங்களைத் தாங்களே பாதுகாத்துக் கொள்ள வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தமிழ்நாடு",
+   "வங்கக்கடல்",
+   "இந்திய வானிலை ஆய்வு மையம்"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Six-day rain alert issued for Tamil Nadu",
+   "lines": [
+    "Heavy rainfall is expected in Tamil Nadu due to an atmospheric circulation system forming over the southwest Bay of Bengal.",
+    "A low-pressure trough may develop over Tamil Nadu's coastal areas within the next 24 hours.",
+    "The Indian Meteorological Department has issued a six-day rainfall warning.",
+    "Details of affected districts have not been specified.",
+    "Residents are advised to prepare for potential flooding and thunderstorms."
+   ],
+   "closing": "People in flood and storm-prone areas must take precautions to protect themselves."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "heavy rain weather alert india",
+  "wiki_subject": "Indian Meteorological Department",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "82e609967b8e",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-21T11:35+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/c8r4yqgkqzk6o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/IMD_Mausam_Bhavan_Headquarters_New_Delhi_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · India Meteorological Department",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/India_Meteorological_Department",
+   "symbolic": false
+  },
+  "audio": "data/audio/82e609967b8e.mp3",
+  "created_ts": 1792562732.4307218,
+  "status": "published"
+ },
+ {
+  "headline": "சென்னை உள்பட 26 மாவட்டங்களில் இன்று பகல் வரை மழை",
+  "lines": [
+   "சென்னை மற்றும் புறநகர் பகுதிகளில் இன்று பகல் ஒரு மணி வரை மழை பெய்யும் என வானிலை மையம் தெரிவித்துள்ளது.",
+   "மாநிலம் முழுவதும் சென்னை உள்பட இருபத்தி ஆறு மாவட்டங்களில் மழைக்கான வாய்ப்பு உள்ளதாகத் தெரிவிக்கப்பட்டுள்ளது.",
+   "வானிலை மையம் இது குறித்து அதிகாரப்பூர்வ அறிவிப்பை வெளியிட்டுள்ளது.",
+   "சென்னையில் எழும்பூர் உள்ளிட்ட பகுதிகளில் மழை தாக்கம் அதிகமாக இருக்கும் என்று குறிப்பிடப்பட்டுள்ளது.",
+   "மழை தொடர்பான அடுத்தகட்ட அறிவிப்புகளை வானிலை மையம் வெளியிடவுள்ளது."
+  ],
+  "closing": "மழை நேரத்தில் பொதுமக்கள் தேவையற்ற பயணங்களைத் தவிர்த்து எச்சரிக்கையுடன் இருக்குமாறு அறிவுறுத்தப்பட்டுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-21"
+   },
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-21"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை",
+   "எழும்பூர்",
+   "வானிலை மையம்",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Rain likely in Chennai, 26 districts till afternoon today",
+   "lines": [
+    "The weather department has said rain is likely in Chennai and its suburbs till one in the afternoon today.",
+    "Rain is expected across the state, including Chennai, in twenty-six districts in total.",
+    "The weather department has issued an official forecast regarding this.",
+    "Areas including Egmore in Chennai are expected to see heavier rain impact, the forecast noted.",
+    "The weather department is expected to issue further updates on the rain situation."
+   ],
+   "closing": "The public have been advised to avoid unnecessary travel and remain cautious during the rain."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "84d56b9ab44e",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-21T11:35+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/21/weather-rain-in-chennai-26-districts-till-1-pm-oct-21",
+   "https://www.dinamani.com/tamilnadu/2026/Oct/21/weather-how-will-the-rain-be-in-chennai-and-its-suburbs-today"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/84d56b9ab44e.mp3",
+  "created_ts": 1792562705.4281547,
+  "status": "published"
+ },
+ {
   "headline": "வடகிழக்குப் பருவமழை தீவிரம், 125 இடங்களில் தீயணைப்புத் துறை முகாம்",
   "lines": [
    "தமிழ்நாட்டில் வடகிழக்குப் பருவமழை தீவிரமடையும் என எதிர்பார்க்கப்படும் நிலையில், தீயணைப்பு மற்றும் மீட்புத் துறை தயார் நிலையில் உள்ளது.",
@@ -3666,135 +3797,6 @@
   },
   "audio": "data/audio/536c7ff650bf.mp3",
   "created_ts": 1792104646.8716013,
-  "status": "published"
- },
- {
-  "headline": "அமைச்சர்கள் மீது எம்.எல்.ஏ.க்கள் 'குதிரை வியாபாரம்' செய்யும் குற்றச்சாட்டு - ஆளுநருக்கு அதிமுக மனு",
-  "lines": [
-   "தமிழ்நாடு சட்டமன்றத் தேர்தல் நெருங்கும் நிலையில், அதிமுக தனது எம்.எல்.ஏ.க்களை அரசு அமைச்சர்கள் பணம் கொடுத்து இழுக்க முயல்வதாக குற்றம் சாட்டியுள்ளது.",
-   "இது தொடர்பாக ஆளுநரிடம் மனு ஒன்று சமர்ப்பிக்கப்பட்டது.",
-   "அதிமுக பொதுச் செயலாளர் எடப்பாடி கே.பழனிசாமி சார்பாக, கட்சி எம்.எல்.ஏ. அக்ரி எஸ்.எஸ்.கிருஷ்ணமூர்த்தி இந்த மனுவை ஆளுநரிடம் அளித்தார்.",
-   "அரசு அமைச்சர்கள் சிலர் தங்கள் கட்சி எம்.எல்.ஏ.க்களைத் தொடர்பு கொண்டு வற்புறுத்துவதாக மனுவில் குற்றம் சாட்டப்பட்டுள்ளது.",
-   "இந்த விவகாரத்தில் உரிய நடவடிக்கை எடுக்குமாறு அதிமுக ஆளுநரிடம் கோரிக்கை வைத்துள்ளது.",
-   "ஆளுநர் அலுவலகத்திலிருந்து இதுவரை அதிகாரப்பூர்வ பதில் வெளியாகவில்லை."
-  ],
-  "closing": "தமிழ்நாடு சட்டமன்றத் தேர்தல் நெருங்கும் நிலையில் இந்தக் குற்றச்சாட்டு எழுந்துள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "அதிமுக",
-   "எடப்பாடி கே.பழனிசாமி",
-   "ஆளுநர்",
-   "எஸ்.எஸ்.கிருஷ்ணமூர்த்தி",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "AIADMK Seeks Governor's Action Over Alleged MLA 'Horse-Trading'",
-   "lines": [
-    "With the Tamil Nadu Assembly election nearing, the AIADMK has accused State Ministers of attempting to induce its MLAs with money.",
-    "A representation regarding this was submitted to the Governor.",
-    "On behalf of AIADMK General Secretary Edappadi K. Palaniswami, party MLA Agri S.S. Krishnamoorthy handed over the petition to the Governor.",
-    "The petition alleges that certain state ministers have been contacting and pressuring the party's MLAs.",
-    "The AIADMK has urged the Governor to take appropriate action in this matter, and no official response has yet been issued from the Governor's office."
-   ],
-   "closing": "The allegation comes as the Tamil Nadu Assembly election draws closer.",
-   "closing_type": "background"
-  },
-  "id": "63af6a9fa198",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-16T01:17+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/aiadmk-submits-representation-to-governor-seeking-action-against-ministers-for-alleged-horse-trading-of-its-mlas/article71587246.ece"
-  ],
-  "image": {
-   "url": "data/bank/economy06.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/63af6a9fa198.mp3",
-  "created_ts": 1792093639.0508552,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "வேலூர் சதுவாச்சேரி-விஐடி சாலையில் 65 எல்இடி தெரு விளக்குகள் அமைப்பு",
-  "lines": [
-   "வேலூர் நகரில் சதுவாச்சேரியிலிருந்து விஐடி பல்கலைக்கழகம் வரையிலான புதிய சாலையில் விபத்துகளைத் தடுக்க விஐடி நிறுவனம் தெரு விளக்குகள் அமைக்க முடிவு செய்துள்ளது.",
-   "இந்தச் சாலையில் மொத்தம் அறுபத்தைந்து எல்இடி தெரு விளக்குகள் பொருத்தப்பட உள்ளன.",
-   "தெரு விளக்குகள் இல்லாததால் வாகன ஓட்டிகளும் நடைபயணிகளும் படும் சிரமத்தை தி இந்து நாளிதழ் வெளிக்கொணர்ந்த செய்தியைத் தொடர்ந்து இந்த நடவடிக்கை எடுக்கப்பட்டுள்ளது.",
-   "இருட்டு காரணமாக இந்தச் சாலையில் சமீப காலமாக பல விபத்துகள் நிகழ்ந்து வந்ததாக பயணிகள் தெரிவித்திருந்தனர்.",
-   "தெரு விளக்குகள் பொருத்தும் பணி விரைவில் தொடங்கி முடிக்கப்படும் என்று தெரிவிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "தெரு விளக்கு இல்லாத சாலைகளில் பாதுகாப்பு குறித்த அக்கறை தொடர்ந்து எழுப்பப்பட்டு வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "விஐடி",
-   "வேலூர்",
-   "சதுவாச்சேரி",
-   "தெரு விளக்கு"
-  ],
-  "confidence": 0.8,
-  "en": {
-   "headline": "VIT to install 65 LED streetlights on Vellore road stretch",
-   "lines": [
-    "VIT university in Vellore has decided to install streetlights on the new Sathuvachari to VIT road stretch to prevent accidents.",
-    "A total of sixty five LED streetlights will be installed on this road.",
-    "The move comes after The Hindu newspaper highlighted the plight of motorists and pedestrians using the stretch without streetlights.",
-    "Commuters had reported several accidents on this stretch recently due to darkness.",
-    "The installation work is expected to begin and be completed soon."
-   ],
-   "closing": "Concerns over safety on roads lacking streetlights continue to be raised."
-  },
-  "front_cat": "district_scheme",
-  "image_query": "street light installation road",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "93f37ea46c5c",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-15T06:47+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/vit-to-install-65-led-streetlights-on-sathuvachari-vit-high-road-in-vellore-town-to-prevent-accidents/article71583717.ece"
-  ],
-  "image": {
-   "url": "data/bank/local04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/93f37ea46c5c.mp3",
-  "created_ts": 1792027069.778474,
   "status": "published"
  }
 ]

@@ -1,22 +1,23 @@
+[expire] 4fa7d89656b0
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 14 புதியவை
-[fetch] Dinamani TN: 15 புதியவை
+[fetch] Dinamani TN: 19 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 23 புதியவை
-[fetch] Al Jazeera: 18 புதியவை
-[fetch] ESPNcricinfo: 15 புதியவை
+[fetch] BBC World: 14 புதியவை
+[fetch] Al Jazeera: 20 புதியவை
+[fetch] ESPNcricinfo: 14 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 1 புதியவை
-[fetch] Cinema Express: 20 புதியவை
+[fetch] Cinema Express: 18 புதியவை
 [fetch] The Hindu Tech: 12 புதியவை
-[fetch] Wired: 27 புதியவை
+[fetch] Wired: 25 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 8 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 7 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 12 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,7 +29,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
+[fetch] Bar and Bench: 3 புதியவை
 [fetch] The Hindu Legal: 21 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,77 +57,57 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f91f6158550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f98d22c13d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 21 புதியவை
-[fetch] Dinamani Govt: 15 புதியவை
+[fetch] Dinamani Govt: 19 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 15 புதியவை
+[fetch] TN Police News: 12 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 565 → நிகழ்வுகள் 520
-[triage] 520 → 43 | காலி: india:4, court:3, crime:3, jobs:3, cinema:3
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாதவை — மேற்கு வங்
-[skip] தமிழ்க் கலைஞர் அல்லது தமிழ் திரையுலகத்துடன் நேரடித் தொடர்பு 
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் அக்டோபர் 26 வரை கனமழ
-[tts-edge] dfeba6ab7597: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டில் அக்டோபர் 26 வரை கனமழைக்கு வாய்ப்பு, எச்சரிக்கை
-[skip] வெளிநாட்டுக் குறிப்பு — தமிழ்நாடு/இந்தியாவுக்குத் தொடர்பு தெ
-[skip] வெளிநாட்டுப் போல்-அரசியல் — தமிழ்நாடு/இந்தியா வாசகருக்குப் ப
-[image] களஞ்சியம் (2 சொல்): மழைக்காலத் தயார்நிலை குறித்து அதிக
-[tts-edge] 689c2d2aee2e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மழைக்காலத் தயார்நிலை குறித்து அதிகாரிகளுக்கு சுகாதார அமைச்சர் உத்தரவு
-[image] களஞ்சியம் (2 சொல்): வடகிழக்குப் பருவமழை தீவிரம், 125 இ
-[publish] வடகிழக்குப் பருவமழை தீவிரம், 125 இடங்களில் தீயணைப்புத் துறை முகாம்
-[skip] தமிழ்நாட்டின் உள்ளூர் அரசியல் — தாராபுரம் இடைத்தேர்தல் கைது.
-[skip] வங்கதேசம் மற்றும் சவுதி அரேபியாவுக்கு இடையேயான உலகச் செய்தி;
-[image] களஞ்சியம் (2 சொல்): அனல் மின் நிலையங்களில் ஆண்டுதோறும்
-[publish] அனல் மின் நிலையங்களில் ஆண்டுதோறும் பொங்குசாம்பல் தணிக்கை கட்டாயம்
-[skip] பிரான்சின் உள்நாட்டு அரசியல் சம்பவம். தமிழ்நாடு/இந்தியாவுக்க
+[run] புதியவை 580 → நிகழ்வுகள் 517
+[triage] 517 → 41 | காலி: india:4, crime:3, jobs:3, court:2, cinema:2
+[skip] இவை மகாராஷ்டிரா (ஏசிடிஆர்இசி) மற்றும் கர்நாடகா (KSU) மாநிலங்
+[திருத்தம்] சூடான் தென் சூடான் எல்லையில் அபியி சந்தை → சூடான்-தென்சூடான் எல்லையில் அபியி சந்தைய
+[tts-edge] 787b9518bd85: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சூடான்-தென்சூடான் எல்லையில் அபியி சந்தையில் ட்ரோன் தாக்குதலில் 150 பேர் பலி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEssDcPERYiyGnzy8m8r'}
+[image] களஞ்சியம் (2 சொல்): சென்னை உள்பட 26 மாவட்டங்களில் இன்ற
+[tts-edge] 84d56b9ab44e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னை உள்பட 26 மாவட்டங்களில் இன்று பகல் வரை மழை
+[திருத்தம்] தமிழ்நாட்டில் ஆறு நாட்களுக்கு மழை எச்சரி → தமிழ்நாட்டில் 6 நாட்களுக்கு மழை எச்சரிக்
+[publish] தமிழ்நாட்டில் 6 நாட்களுக்கு மழை எச்சரிக்கை
+[தரம்] தமிழ் அல்லாத எழுத்து: भ → ஒரு திருத்தம்
+[publish] ஜியோ பிளாட்பாரம்ஸ் ஐபிஓ முதல் நாளிலேயே முழுமையாகப் பதிவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEt4tSo4V2d9iL54Dw4f'}
+[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — சவுதி அரேபியா, வங்கதேசம் — த
+[skip] வெளிநாட்டுத் விண்வெளி ஆய்வாகவும், நேரடியாக தமிழ்நாடு/இந்தியா
+[skip] இந்தியாவின் உள்நாட்டு விவகாரம், தமிழ்நாட்டு வாசகருக்கு நேரடி
+[skip] CGG (தெலங்கானா அரசு நிறுவனம்) மற்றும் IIM மும்பை ஆகியவற்றின்
+[skip] இது ஆவடி வரலாறு பற்றிய பின்னணிக் கட்டுரை, நடப்பு செய்தி நிகழ
+[திருத்தம்] இந்தியா நியூசிலாந்து சுதந்திர வர்த்தக ஒப → இந்தியா-நியூசிலாந்து சுதந்திர வர்த்தக ஒப
+[publish] இந்தியா-நியூசிலாந்து சுதந்திர வர்த்தக ஒப்பந்தம் அமலுக்கு வந்தது
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருத்தமற்ற வெளிநாட்டு உள்ளூ
-[image] களஞ்சியம் (2 சொல்): அரசு மருத்துவமனைகளில் தடையற்ற சேவை
-[publish] அரசு மருத்துவமனைகளில் தடையற்ற சேவை: அமைச்சர் அருண்ராஜ் உத்தரவு
-[skip] பிரான்சின் உள்நாட்டுச் செய்தி; தமிழ்நாடு/இந்தியாவுடன் நேரடித
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgEViusm1MDucR3Gb8KfM'}
-[skip] வெளிநாட்டு பல்கலைக்கழகத்தின் உள்நாட்டு விவகாரம். தமிழ்நாடு /
-[skip] வெளிநாட்டின் உள்ளூர் சைபர் குற்றம். தமிழ்நாடு / இந்தியாவுக்க
-[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாட்டு / இந்திய வாசகரைப் ப
-[skip] தமிழ்நாட்டு வாசகருக்குக் குறிப்பிட்ட தொடர்பு இல்லை. உலகச் செ
-[skip] உலகச் செய்தி என்றாலும் தமிழ்நாடு/இந்தியாவைப் பாதிக்காது. கென
-[skip] கனடாவின் ஆல்பர্டா மாநிலத்தின் பிரிந்து செல்லும் இயக்கம் பற்ற
-[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
-[skip] NATO-ன் கருப்புக் கடல் பகுதிப் பராமரிப்பு அறிவிப்பு தமிழ்நாட
-[skip] ஈரான்-இருப்பு ஒப்பந்தம் பற்றிய பிரிட்டன் உள் விசாரணை. தமிழ்ந
-[skip] தமிழ்நாட்டு/இந்தியக் வாசகரைப் பாதிக்காத வெளிநாட்டு இராணுவ நட
-[skip] இது மகாராஷ்டிரா மாநில அரசியல் கட்சிக் கூட்டம் தொடர்பான உள்ளூ
-[skip] மேற்கு வங்க மாநிலத்தின் உள்ளூர் அரசியல் சர்ச்சை, தமிழ்நாட்டு
-[skip] இது தெலங்கானா மாநிலத்தின் சிங்கரேணி நிறுவன அதிகாரிகளுக்கான ச
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: No frills, the true Avadi story
+[skip] இது மேற்கு வங்கத்தின் உள்ளூர் சம்பவம் தொடர்பான கல்கத்தா உயர்
+[skip] திரை விமர்சனம் — இந்தக் கட்டுரை 'Little Thomas' படத்தின் விம
+[skip] ஆஸ்திரேலிய பெண்கள் கிரிக்கெட் லீக் (WBBL) — தமிழ்நாட்டு/இந்த
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருந்தாத பழைய சரிতிர நিবந்தனம். செ
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Traffic diversions for Police Commemoration Day 
-[skip] சாதாரண மத/பண்பாட்டு கட்டுரை — தமிழ்நாட்டு வாசகருக்கும் தேசிய
-[திருத்தம்] ஹரியாணா அரசுத் திருமண மகளிர் மருத்துவக்  → ஹரியாணா பிபிஎஸ் அரசு மருத்துவக் கல்லூரி 
-[தரம்] தமிழ் அல்லாத எழுத்து: ইউএ → ஒரு திருத்தம்
-[publish] ஹரியாணா பிபிஎஸ் அரசு மருத்துவக் கல்லூரி சர்வதேச விருது வென்றது
-[skip] வெளிநாட்டு county cricket — தமிழ்நாடு/இந்தியாவுடன் தொடர்பு இ
+[skip] இது ஒரு குறிப்பிட்ட நிகழ்வு அல்லது தீர்ப்பு பற்றிய செய்தி அல
+[skip] கட்டுரை அறிவிப்பு மட்டுமே; உறுதிப்படுத்தப்பட்ட தகவல் இல்லை. 
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — ஆஸ்திரேலியா vs தென்னாப்பிரிக்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Top officials from Ministry of Civil Aviation, A
-[skip] கேரளா மாநிலத்தின் உள்ளூர் நியமன/சேர்க்கை அறிவிப்பு. தமிழ்நாட
-[skip] பொருளிலை — இசையமைப்பாளரின் ஒலிபெயர்ப்பு அல்லது திரைப்படத் தம
-[skip] महाराष्ट्र राज्य की स्थानीय राजनीति। शिव सेना (UBT) और एकनाथ
-[தரம்] தமிழ் அல்லாத எழுத்து: ড → ஒரு திருத்தம்
-[publish] குழந்தைகளின் இணையப் பயன்பாடு உணர்வுரீதி, உடல் பாதிப்பு ஏற்படுத்துவதாக ஆய்வு
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (Afghanistan vs Zimbabwe) தமிழ்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Police trace missing girl to a children’s home i
-[skip] हिमाचल प्रदेश (Himachal Pradesh) is not Tamil Nadu or nation
-[தரம்] [சொல்] 'தொழிற்நுட்ப' — தொழில்நுட்ப → ஒரு திருத்தம்
-[publish] சந்தனம் நடிப்பில் அதிசய பிறவி; முதல் பார்வை வெளியீடு
-[brief] காலை brief தயார்
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: குழந்தைகள் இணையத்தை நிறுத்த முடியாதது ஏன்?
-[market] தங்கம் 22K ₹12911 · சென்செக்ஸ் 73853
+[skip] ගුජරාત් ප්‍රකාශන සේවා කර්තෘ පරීක්ෂා දකුණු ඉන්දියාවේ නිකुතුවී
+[filler] tech கட்டுரை
+[jobs] தொகுப்பு 4
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12930 · சென்செக்ஸ் 73960
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 8
+[done] feed 300 · pending 0 · எழுதியவை 5
