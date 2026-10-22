@@ -1,23 +1,23 @@
-[expire] 92bd8c097c10
+[expire] 60f3d507ad58
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
+[fetch] The Hindu TN: 24 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 25 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 24 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
+[fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
-[fetch] Cinema Express: 26 புதியவை
-[fetch] The Hindu Tech: 28 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] Cinema Express: 27 புதியவை
+[fetch] The Hindu Tech: 27 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 12 புதியவை
+[fetch] The Hindu Health: 10 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 28 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,15 +29,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 4 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,8 +57,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3bdff7fcd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7e7513b4d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -66,45 +66,32 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 21 புதியவை
+[fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 704 → நிகழ்வுகள் 637
-[triage] 637 → 73 | காலி: india:4, sports:3, world:2, health:2, cinema:2
-[skip] வெளிநாட்டு உள்நாட்டு மோதல்: தெற்காப்பிரிக்கா vs ஆஸ்திரேலியா 
-[tts-edge] c5d485c7591f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பின்னணிப் பாடகர் கிருஷ்ணராஜ் காலமானார், வயது 75
-[skip] தென் பிரான்சின் உள்ளூர் நிகழ்வு; தமிழ்நாட்டு வாசகரைப் பாதிக்
-[skip] தமிழ்நாடு / இந்தியாவுடன் நேரடிச் சம்பர்க்கமுள்ள உலகச் செய்தி
-[skip] ஆஸ்திரேலியாவின் உள்ளூர் அரசியல் / உள்ளூர் விபத்து — தமிழ்நாட
-[திருத்தம்] கால்கேட் பாம்ஓலிவ் இந்தியா நிறுவன லாபம்  → கால்கேட்-பாம்ஒலிவ் இந்தியா நிறுவனம் லாபம
-[image] களஞ்சியம் (2 சொல்): கால்கேட்-பாம்ஒலிவ் இந்தியா நிறுவனம
-[tts-edge] d41386e3103c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கால்கேட்-பாம்ஒலிவ் இந்தியா நிறுவனம் லாபம் 4.3% உயர்ந்து 341.57 கோடி ரூபாய்
-[skip] எல் சால்வாடோர்-ஹைதி இடையிலான உள்நாட்டுக் குற்றச் சம்பவம். தம
-[skip] வெளிநாட்டு நাগரிக்களின் உள்ளூர் குற்றம்; தமிழ்நாடு/இந்தியா/உ
-[skip] வெளிநாட்டின் உள்ளூர் சுகாதார விவரம் — தமிழ்நாடு/இந்தியுடன் ந
-[skip] மெக்சிகோவின் உள்நாட்டு சட்ட நடவடிக்கை — தமிழ்நாடு / இந்திய வ
-[skip] வெளிநாட்டுச் குற்றவியல் வழக்கு — தமிழ்நாடு/இந்தியாவுடன் தொடர
-[skip] ஆஸ்திரேலிய உள்நாட்டுப் பொலிஸ் சம்பவம். தமிழ்நாடு அல்லது இந்த
-[skip] லடாக் மற்றும் புவனேஸ்வர் (ஒடிசா) பகுதிகளுக்கான உள்ளூர் வேலைவ
-[skip] இது கேரளத்தின் இடுக்கி மாவட்டப் பஞ்சாயத்தின் உள்ளூர் அரசியல்
-[skip] இது கர்நாடகா மாநிலத்துக்கான உள்ளூர் செய்தித் தொகுப்பு நிரல் 
-[skip] இது கேரளாவின் உள்ளூர் கோயில் நிர்வாக மற்றும் காவல்துறை விசார
-[திருத்தம்] கோவளம் ஸ்பா சுரண்டல் வழக்கில் தமிழ்நாடு  → கோவளம் ஸ்பா வழக்கு: சிறுமி பாலியல் சுரணை
-[image] களஞ்சியம் (2 சொல்): கோவளம் ஸ்பா வழக்கு: சிறுமி பாலியல்
-[publish] கோவளம் ஸ்பா வழக்கு: சிறுமி பாலியல் சுரணை புலனாய்வுக்கு தமிழ்நாடு குழு கேரளம் சென்றது
-[skip] பிரான்சில் நடந்த நிகழ்வு. தமிழ்நாடு அல்லது இந்தியாவுடன் நேரட
-[skip] பிற மொழி சினிமா விமர்சனம் — தமிழ்நாடு வாசகர் பொருத்தமல்ல. தம
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] ஆங்கிலத்தின் உள்நாட்டுக் கிரிக்கெட் நிகழ்வு. தமிழ்நாடு, இந்த
-[skip] தமிழ்நாடு அல்லது இந்திய வாசகரைப் பாதிக்கும் உடனடி செய்திக் க
-[தரம்] தமிழ் அல்லாத எழுத்து: ধযরাি; மூலத்தில் இல்லாத எண்: 2023 → ஒரு திருத்தம்
-[publish] ஜெயிலர் 2 முதல் வாரத்தில் 500 கோடி வசூல் எட்டியது
-[skip] நিউசிலாந்தில் நடக்கும் டெஸ্ட் சம்பவம்; தமிழ்நாடு வாசகரின் தத
-[filler] sports கட்டுரை
+[run] புதியவை 701 → நிகழ்வுகள் 639
+[triage] 639 → 48 | காலி: india:4, world:2, health:2, sports:2, assembly:2
+[skip] உலக செய்தியாக வகைப்படுத்தப்பட்டுள்ளது, ஆனால் இது தமிழ்நாட்டு
+[skip] world (வெளிநாட்டு விளையாட்டு) — தமிழ்நாடு/இந்திய வாசகருக்கு 
+[skip] Jio IPO is a stock market event in India, but this is primar
+[skip] தென்னாப்பிரிக்காவின் உள்ளூர் குற்றச் சம்பவம். தமிழ்நாடு/இந்த
+[skip] இந்தியர் இருந்தாலும், இது இந்தியத் தேசிய அளவுத் தாக்கம் இல்ல
+[skip] மேற்கு வங்காள மாநிலத்தில் நடந்த உள்ளூர் அரசியல் வன்முறைச் சம
+[skip] இது உத்தரப் பிரதேச மாநில உள்ளூர் அரசியல் செய்தி; தமிழ்நாட்டு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரம் இல்லை; இடம், தேதி, 
+[skip] கர்நாடகாவின் மைசூரில் நடக்கும் உள்ளூர் திரைப்பட திரையிடல் நி
+[skip] health advice/self-care article — not actionable news for Ta
+[skip] பாকிஸ்தான் உள்நாட்டுக் கிரிக்கெட் — தமிழ்நாடு/இந்தியா வாசகரை
+[skip] கர்நாடக உயர்நீதிமன்றத்தின் உள்ளூர் நிர்வாகப் பரிந்துரை - தமி
+[skip] மத்திய அரசுத் துறையின் பொதுவான வேலைவாய்ப்பு அறிவிப்பு. தமிழ்
+[திருத்தம்] சமூக வேறுபாடு நோய் பாதிப்பை அதிகரிக்கிறத → சமூக ஏற்றத்தாழ்வு நோய் பாதிப்பை அதிகரிக்
+[தரம்] தமிழ் அல்லாத எழுத்து: गठनংগস → ஒரு திருத்தம்
+[tts-edge] b6ddf4a2990c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] சமூக ஏற்றத்தாழ்வு நோய் பாதிப்பை அதிகரிக்கிறது: உலக சுகாதார அமைப்பு
+[skip] வெளிநாட்டு women's cricket championship cycle அறிவிப்பு — தம
+[tts-edge] art_india_20261022: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[filler] india கட்டுரை
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12819 · சென்செக்ஸ் 73249
+[market] தங்கம் 22K ₹12691 · சென்செக்ஸ் 73249
 [weather] புதுப்பிக்கப்பட்டது
-[push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 4
+[done] feed 300 · pending 1 · எழுதியவை 1
