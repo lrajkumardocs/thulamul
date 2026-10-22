@@ -1,24 +1,24 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
+[fetch] Dinamani TN: 21 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
+[fetch] BBC World: 15 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
 [fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
 [fetch] The Hindu Cinema: 1 புதியவை
-[fetch] Cinema Express: 22 புதியவை
+[fetch] Cinema Express: 23 புதியவை
 [fetch] The Hindu Tech: 18 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 18 புதியவை
+[fetch] FreeJobAlert: 14 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 1 புதியவை
+[fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,58 +56,56 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fcf7512ec50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fba31139cd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 21 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 21 புதியவை
+[fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 639 → நிகழ்வுகள் 584
-[triage] 584 → 45 | காலி: tn:4, india:4, economy:3, court:3, jobs:3
-[skip] இரண்டு செய்திகளும் தில்லி மற்றும் காஜியாபாத் அடிப்படையிலான உ
-[skip] கொங்கோவின் உள்நாட்டுச் சுகாதার நெருக்கடி. தமிழ்நாடு/இந்திய வ
-[skip] ஆஸ்திரேலியாவின் உள்நாட்டுக்রிக்கெட் நிகழ்வு. தமிழ்நாடு/இந்தி
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[tts-edge] 4294ca4b0fd4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அமைச்சர்களுக்கு கார் வாங்க 26 லட்சம் வரம்பு நிர்ணயம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgGHCyV4RC1V3C6J1PWiN'}
-[திருத்தம்] வங்கக் கடலில் புயல் சின்னங்கள், தமிழகத்த → வங்கக் கடலில் அடுத்தடுத்து புயல் சின்னங்
-[image] களஞ்சியம் (3 சொல்): வங்கக் கடலில் அடுத்தடுத்து புயல் ச
-[tts-edge] a8c09adc64a3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வங்கக் கடலில் அடுத்தடுத்து புயல் சின்னங்கள், தமிழகத்தில் பலத்த மழை எச்சரிக்கை
-[skip] Meta-க்கு எதிரான அமெரிக்கத் தணிக்கைத் திட்டம். தமிழ்நாடு / இ
-[skip] உகாண்டாவிலும் நைஜீரியாவிலும் நிகழ்ந்த நிகழ்வு — தமிழ்நாடு / 
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத பிற மாநிலத்தின் உள்ளூர் அரசிய
+[run] புதியவை 614 → நிகழ்வுகள் 562
+[triage] 562 → 35 | காலி: india:4, economy:3, jobs:3, health:3, sports:3
+[skip] உத்தரப்பிரதேச மாநில அரசு நிறுவனமான எஸ்ஜிपीஜிআই லக்கனோவில் நட
+[skip] பிற மாநில/பிற நாட்டு மருந்து விலை தகராறு — தமிழ்நாட்டு வாசகர
+[skip] ஆங்கிலாந்தின் county cricket — தமிழ்நாடு/இந்திய வாசகருக்குப்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgGTjhySU6SFLQQ1hGVrE'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgGTnrXisMNFcvK7LRiYJ'}
+[tts-edge] a250b6a4340b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எச்டிஎஃப்சி வங்கியில் தரவு கசிவு குற்றச்சாட்டு மீது உள் விசாரணை
+[tts-edge] 456877c9a868: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எஸ்பிஐ வங்கியின் 3,75,000 வாடிக்கையாளர் தரவு கசிவு குறித்து விசாரணை
+[skip] தெலங்கானா மாநிலத்து உள்ளூர் அரசியல் வழக்கு — தமிழ்நாட்டு வாச
+[skip] தமிழ்நாட்டுச் செய்தி (கோவை, பாரதியார் பல்கலைக்கழகம், திமுக அ
+[image] களஞ்சியம் (3 சொல்): IIT மெட்ராஸ் உயிரி தொழில்நுட்பப் ப
+[publish] IIT மெட்ராஸ் உயிரி தொழில்நுட்பப் பட்டதாரிகளுக்கு நடைமுறைப் பயிற்சி
+[skip] சவூதி அரேபியாவில் நடந்த விபத்து — தமிழ்நாடு வாசகரைப் பாதிக்க
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgGU456CFtJPCUaoGohvm'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] நைஜেரியாவின் ஈபோலா வழக்கு மிகவும் தொலைதூரக் கூட்டாங்கச் செய்
-[skip] புதுச்சேரி பகுதித் தேர்தல் அறிவிப்பு - தமிழ்நாட்டுக்கு நேரடி
-[skip] உலக செய்திகளில் தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்கும் நேரடிச்
-[திருத்தம்] காவல் துறை நினைவு தினம்: தமிழ்நாட்டில் ம → காவல் துறை நினைவு தினம்: முதல்வர் விஜய் 
-[image] களஞ்சியம் (2 சொல்): காவல் துறை நினைவு தினம்: முதல்வர் 
-[publish] காவல் துறை நினைவு தினம்: முதல்வர் விஜய் மலர் வணக்கம் செலுத்தினார்
-[skip] வெளிநாட்டு உள்நாட்டுச் செய்தி — அமெரிக்காவின் New Mexico மாந
-[திருத்தம்] தேர்தல் நடத்தை விதி மீறல்: ஆம் தமிழர் கட → தேர்தல் நடத்தை விதி மீறல்: நாம் தமிழர் க
-[publish] தேர்தல் நடத்தை விதி மீறல்: நாம் தமிழர் கட்சியினர் பன்னிரண்டு பேர் கைது
-[publish] தமிழ்நாட்டில் மழை நிலவரம் தொடர்ந்து கண்காணிப்பில், அமைச்சர் செங்கோட்டையன் தகவல்
-[திருத்தம்] விடுப்பு மறுத்தால் HR மேலாளர் மீது வழக்க → விடுப்பு மறுத்தால் HR மேலாளர் மீது வழக்க
-[publish] விடுப்பு மறுத்தால் HR மேலாளர் மீது வழக்கு இல்லை: சென்னை உயர்நீதிமன்றம்
-[publish] கடலூரில் வடகிழக்கு பருவமழை தயார்நிலை மதிப்பாய்வு செய்த அமைச்சர்
-[திருத்தம்] காவல் நிலையங்களுக்கு 71 கோடி கூடுதல் நித → காவல் நிலையங்களுக்கு ₹71 கோடி கூடுதல் நி
-[image] களஞ்சியம் (2 சொல்): காவல் நிலையங்களுக்கு ₹71 கோடி கூடு
-[publish] காவல் நிலையங்களுக்கு ₹71 கோடி கூடுதல் நிதி - தமிழ்நாடு அரசு
-[திருத்தம்] அன்பில் மகேஷ் பொய்யாமொழி மீது சிசிபி குற → அன்பில் மகேஷ் பொய்யாமொழிக்கு எதிரான குற்
-[image] களஞ்சியம் (3 சொல்): அன்பில் மகேஷ் பொய்யாமொழிக்கு எதிரா
-[publish] அன்பில் மகேஷ் பொய்யாமொழிக்கு எதிரான குற்றச்சாட்டு — சிசிபி உயர்நீதிமன்றத்தில் தெரிவித்தது
-[image] களஞ்சியம் (2 சொல்): மழைநீர் தேங்காமல் நடவடிக்கை எடுக்க
-[publish] மழைநீர் தேங்காமல் நடவடிக்கை எடுக்க அமைச்சர் அருண்ராஜ் உத்தரவு
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: அமைச்சர் மீதான சிசிபி குற்றச்சாட்டு — உண்மையா, அரசியல் பழிவாங்கலா?
-[market] தங்கம் 22K ₹12916 · சென்செக்ஸ் 73710
+[skip] தமிழ்நாடு வாசகரைப் பாதிக்காத வெளிநாட்டு அரசியல் — ஈரান்-வெளி
+[skip] மூலத்தில் ஒரே தலைப்பும் ஒற்றை வரி விளக்கமும் மட்டுமே உள்ளது;
+[image] களஞ்சியம் (3 சொல்): நிஃப்டி மிட்கேப் 150 குறியீடு திரு
+[publish] நிஃப்டி மிட்கேப் 150 குறியீடு திருத்த நிலைக்குள் நுழைவு, சிறு பங்குகள் வீழ்ச்சி
+[skip] வெளிநாட்டு உள்நாட்டு மோதல். தமிழ்நாட்டு / இந்திய வாசகரைப் பா
+[திருத்தம்] தமிழகத்தின் 37 மாவட்டங்களில் 2027 வரை சி → தமிழகத்தின் 37 மாவட்டங்களில் ஏப்ரல் 2027
+[image] களஞ்சியம் (2 சொல்): தமிழகத்தின் 37 மாவட்டங்களில் ஏப்ரல
+[publish] தமிழகத்தின் 37 மாவட்டங்களில் ஏப்ரல் 2027 வரை சிறப்பு அதிகாரிகள் நிர்வாகம்
+[image] களஞ்சியம் (2 சொல்): விதிமாற்றத்தால் இணைப்பு ஒப்பந்தங்க
+[publish] விதிமாற்றத்தால் இணைப்பு ஒப்பந்தங்களுக்கு பத்தாயிரம் கோடி நிதி வழங்கிய இந்திய வங்கிகள்
+[hold] திமுகவும், எடப்பாடி பழனிசாமியும் ஒன்றுதான்: அமைச்சர் செங்கோட்டையன் பேட்டி
+[image] களஞ்சியம் (2 சொல்): அரிசி விலை விரைவில் குறையும் என அம
+[publish] அரிசி விலை விரைவில் குறையும் என அமைச்சர் வெங்கடரமணன் தெரிவிப்பு
+[திருத்தம்] காலி எம்பிபிஎஸ் இடங்கள் 824: ஏழை மாணவர்க → காலியாக உள்ள 824 எம்பிபிএஸ் இடங்களை ஏழை 
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[publish] காலியாக உள்ள 824 எம்பிபிஎஸ் இடங்களை ஏழை மாணவர்களுக்கு ஒதுக்க வேண்டும்: மாணிக்கம் தாகூர்
+[publish] கிராமப்புற வேலை உறுதித் திட்டத்துக்கு கூடுதல் நிதி கோரிக்கை: அன்புமணி
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 9
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹12864 · சென்செக்ஸ் 73710
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 10
