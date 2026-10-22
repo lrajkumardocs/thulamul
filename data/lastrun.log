@@ -1,13 +1,12 @@
-[expire] 60f3d507ad58
 [fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 24 புதியவை
+[fetch] The Hindu TN: 27 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 24 புதியவை
+[fetch] BBC Tamil: 6 புதியவை
+[fetch] BBC World: 22 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 27 புதியவை
@@ -15,9 +14,9 @@
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 10 புதியவை
+[fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 28 புதியவை
+[fetch] FreeJobAlert: 27 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7e7513b4d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd84ba1da50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -66,32 +65,54 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 22 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 701 → நிகழ்வுகள் 639
-[triage] 639 → 48 | காலி: india:4, world:2, health:2, sports:2, assembly:2
-[skip] உலக செய்தியாக வகைப்படுத்தப்பட்டுள்ளது, ஆனால் இது தமிழ்நாட்டு
-[skip] world (வெளிநாட்டு விளையாட்டு) — தமிழ்நாடு/இந்திய வாசகருக்கு 
-[skip] Jio IPO is a stock market event in India, but this is primar
-[skip] தென்னாப்பிரிக்காவின் உள்ளூர் குற்றச் சம்பவம். தமிழ்நாடு/இந்த
-[skip] இந்தியர் இருந்தாலும், இது இந்தியத் தேசிய அளவுத் தாக்கம் இல்ல
-[skip] மேற்கு வங்காள மாநிலத்தில் நடந்த உள்ளூர் அரசியல் வன்முறைச் சம
-[skip] இது உத்தரப் பிரதேச மாநில உள்ளூர் அரசியல் செய்தி; தமிழ்நாட்டு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரம் இல்லை; இடம், தேதி, 
-[skip] கர்நாடகாவின் மைசூரில் நடக்கும் உள்ளூர் திரைப்பட திரையிடல் நி
-[skip] health advice/self-care article — not actionable news for Ta
-[skip] பாকிஸ்தான் உள்நாட்டுக் கிரிக்கெட் — தமிழ்நாடு/இந்தியா வாசகரை
-[skip] கர்நாடக உயர்நீதிமன்றத்தின் உள்ளூர் நிர்வாகப் பரிந்துரை - தமி
-[skip] மத்திய அரசுத் துறையின் பொதுவான வேலைவாய்ப்பு அறிவிப்பு. தமிழ்
-[திருத்தம்] சமூக வேறுபாடு நோய் பாதிப்பை அதிகரிக்கிறத → சமூக ஏற்றத்தாழ்வு நோய் பாதிப்பை அதிகரிக்
-[தரம்] தமிழ் அல்லாத எழுத்து: गठनংগস → ஒரு திருத்தம்
-[tts-edge] b6ddf4a2990c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] சமூக ஏற்றத்தாழ்வு நோய் பாதிப்பை அதிகரிக்கிறது: உலக சுகாதார அமைப்பு
-[skip] வெளிநாட்டு women's cricket championship cycle அறிவிப்பு — தம
-[tts-edge] art_india_20261022: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[filler] india கட்டுரை
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12691 · சென்செக்ஸ் 73249
+[run] புதியவை 691 → நிகழ்வுகள் 636
+[triage] 636 → 61 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] தமிழ்நாடு மாணவர்களின் பরীட்சை முடிவு என்றாலும், இதுத் தொழிற்
+[skip] வெளிநாட்டுச் சுகாதார செய்தி — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
+[skip] திரை விமர்சனம் — 'நன்றாக இருக்கிறது/இல்லை', கதை மதிப்பீடு, ந
+[skip] Australia vs South Africa Test series — வெளிநாட்டுத் திரிகோண
+[திருத்தம்] தமிழ்நாட்டில் தீவிரமடையும் பருவமழை, அக்ட → தமிழ்நாட்டில் தீவிரமடையும் பருவமழை; அக்ட
+[tts-edge] 7e824f1b0dd9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டில் தீவிரமடையும் பருவமழை; அக்டோபர் 26 வரை கனமழை தொடரும்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJ2pCoVT4LmgDgdafqSo'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, வானிலை எச்சரிக்கை பற்றிய வ
+[image] களஞ்சியம் (2 சொல்): சென்னைக்கு ஐந்து நாட்களுக்கு கனமழை
+[tts-edge] 89c71b930d0b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னைக்கு ஐந்து நாட்களுக்கு கனமழை எச்சரிக்கை
+[image] களஞ்சியம் (2 சொல்): இன்று 6 மாவட்டங்களுக்கு ஆரஞ்சு அலர
+[publish] இன்று 6 மாவட்டங்களுக்கு ஆரஞ்சு அலர்ட், சென்னையில் கனமழை எச்சரிக்கை
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): விஜய் டீப்ஃபேக் வீடியோ மோசடி வழக்க
+[publish] விஜய் டீப்ஃபேக் வீடியோ மோசடி வழக்கில் ராஜஸ்தான் இளைஞர் ஜாமீன் மனு
+[publish] இணையக் காணொளி மட்டும் தேர்தல் மனுவுக்குப் போதாது: உயர்நீதிமன்றம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJ3Dx6P9ZJgtwJwZ5KzY'}
+[image] களஞ்சியம் (2 சொல்): கிங்கியில் காணாமல் போன மாணவி விவகா
+[publish] கிங்கியில் காணாமல் போன மாணவி விவகாரம்: சிபி-சிஐடி விசாரணை தொடக்கம்
+[publish] வனவிலங்கு மோதல் தடுப்புக்கு தமிழ்நாடு அரசு 180 கோடி ஒதுக்கீடு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான விரிவான உண்மைத
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJ3QjmHHAxrjA3qZndec'}
+[skip] இது அக்டோபர் 22ஆம் தேதிக்கான வானிலை எச்சரிக்கை, இன்றைய தேதிக
+[நகல்] ஏற்கனவே வெளியானது: இன்று 6 மாவட்டங்களுக்கு ஆரஞ்சு அலர்ட், சென்னையில் கனமழை எச்ச
+[image] களஞ்சியம் (2 சொல்): ஏடி1 பத்திர வட்டி செலுத்த யெஸ் வங்
+[publish] ஏடி1 பத்திர வட்டி செலுத்த யெஸ் வங்கி தயக்கம்
+[skip] யேமன் உள் மோதல் — இந்தியா / தமிழ்நாட்டுக்கு நேரடித் தொடர்பு 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJ3cbPKnSZEuJ2BnjJMg'}
+[skip] உலக அளவிலான போர் செய்திகளாக இருந்தாலும், தமிழ்நாடு அல்லது இந
+[திருத்தம்] எண்ணெய் விலை உயர்வால் இந்திய அரசுக் கடன் → எண்ணெய் விலை உயர்வால் இந்திய அரசுக் கடன்
+[publish] எண்ணெய் விலை உயர்வால் இந்திய அரசுக் கடன் பத்திரங்கள் சரிவு, ஆர்பிஐ வட்டி உயர்வு அச்சம்
+[skip] வெளிநாட்டு தொழில்நுட்ப உரைகள் — தமிழ்நாடு/இந்தியா பாதிப்பு த
+[திருத்தம்] உள்ளாட்சித் தேர்தலுக்கு முன் தயாராகுமாறு → உள்ளாட்சித் தேர்தலுக்கு முன் தயாராகுமாறு
+[image] களஞ்சியம் (2 சொல்): உள்ளாட்சித் தேர்தலுக்கு முன் தயாரா
+[publish] உள்ளாட்சித் தேர்தலுக்கு முன் தயாராகுமாறு நாம் தமிழர் கட்சி அறிவுறுத்தல்
+[comic] கதை: பல்லக்கின் பின்னே
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-23.png · நாள் 44
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12652 · சென்செக்ஸ் 73249
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 1
+[done] feed 300 · pending 1 · எழுதியவை 10

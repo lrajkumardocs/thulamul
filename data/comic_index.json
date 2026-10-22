@@ -1,5 +1,80 @@
 [
  {
+  "date": "2026-10-23",
+  "title": "பல்லக்கின் பின்னே",
+  "book": 1,
+  "book_ta": "புது வெள்ளம்",
+  "arc": "கடம்பூர் மாளிகை இரவு",
+  "day": 44,
+  "file": "data/comic/2026-10-23.png",
+  "summary": "மாளிகையை விட்டு வெளியேறிய வந்தியத்தேவன், நந்தினியின் பல்லக்கு காட்டு வழியே செல்வதைக் கண்டு மறைவாகப் பின்தொடர்கிறான்.",
+  "next_hint": "காட்டு வழி எங்கே போய் முடியும்?",
+  "hidden": false,
+  "script": {
+   "title_ta": "பல்லக்கின் பின்னே",
+   "panels": [
+    {
+     "scene_en": "wide shot, morning light, Vandiyathevan as in reference image standing beside his horse at the mansion's outer gate, Kandamaran as in reference image waving farewell, empty sky above for dialogue space, 10th century Tamil architecture, warm dawn tone",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "காலை வெளிச்சத்தில் கடம்பூர் மாளிகை வாசல்",
+     "bubbles": [
+      {
+       "speaker": "kandamaran",
+       "side": "R",
+       "text_ta": "பத்திரமாய்ச் செல்க, நண்பா!"
+      },
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "கந்தமாறா, உதவிக்கு என்றும் நன்றி!"
+      }
+     ]
+    },
+    {
+     "scene_en": "medium shot, Vandiyathevan as in reference image mounted on his horse at a forest trail junction, turning his head to look toward a distant decorated palanquin moving among trees, curious expression, daytime, side angle",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "தூரத்தில் ஒரு பல்லக்கு காட்டு வழியே செல்கிறது",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "அது... நேற்றிரவு கண்ட பல்லக்கு அல்லவா?"
+      }
+     ]
+    },
+    {
+     "scene_en": "close-up on Vandiyathevan's face as in reference image, eyes narrowing with sharp curiosity and determination, sunlight filtering through leaves, forest background blurred, daytime",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "மனதில் எழும் ஐயமும் ஆவலும்",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "R",
+       "text_ta": "அவள் யாரோ, அறிந்தே தீர வேண்டும்!"
+      }
+     ]
+    },
+    {
+     "scene_en": "extreme wide shot, dense forest path seen from above, tiny figure of Vandiyathevan on horseback silently trailing far behind the small decorated palanquin disappearing into the woods, tense mood, midday light filtering through canopy, bird's-eye angle",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "மறைவாக பின் தொடரும் குதிரை வீரன்",
+     "bubbles": []
+    }
+   ],
+   "summary_ta": "மாளிகையை விட்டு வெளியேறிய வந்தியத்தேவன், நந்தினியின் பல்லக்கு காட்டு வழியே செல்வதைக் கண்டு மறைவாகப் பின்தொடர்கிறான்.",
+   "tomorrow_ta": "காட்டு வழி எங்கே போய் முடியும்?",
+   "story_so_far_ta": "ஆடித் திருநாளில் கடம்பூர் சென்ற வந்தியத்தேவனை கந்தமாறன் இரவில் மாளிகைக்கு இரகசியமாக அழைத்தான். மறைவாக நின்று பெரிய பழுவேட்டரையார் தலைமையில் கூடிய சிற்றரசர் கூட்டத்தையும், மதுராந்தகனுக்கு அரியணை அளிக்கும் ரகசியத் திட்டத்தையும், தேவராளனின் வாக்குறுதியையும் கண்டான். குறவைக் கூத்து, பாட்டு, விருந்து நடந்தன; காவலன் அருகில் வந்தபோது மூச்சடக்கி தப்பினான். தேவராளனின் முகம் தெரியாத கடும் பாதுகாப்பு கண்டு மர்மம் ஆழமானது என்று எண்ணினான். இரவு ஆழமானதும் மேல் மாடத்தை நோக்கி நகர்ந்தான்; அலங்கரிக்கப்பட்ட பல்லக்கு நெருங்குவதைக் கண்டான். பல்லக்கிலிருந்து இறங்கிய பழுவூர் இளையராணி நந்தினியின் அழகில் முற்றிலும் ஸ்தம்பித்தான். அன்றிரவு முழுவதும் அவளையே நினைத்து தூக்கமின்றி கிடந்தான். மறுநாள் காலையில் கந்தமாறனிடம் நன்றி கூறி விடைபெற்ற வந்தியத்தேவன், மாளிகையை விட்டு வெளியேறும்போது நந்தினியின் பல்லக்கு காட்டு வழியே செல்வதைக் கண்டு, மறைவாக அதைப் பின்தொடரத் தொடங்கினான்."
+  }
+ },
+ {
   "date": "2026-10-22",
   "title": "விடைபெறும் காலை",
   "book": 1,
