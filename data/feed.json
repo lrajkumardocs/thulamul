@@ -1,5 +1,298 @@
 [
  {
+  "id": "art_tech_20261022",
+  "headline": "UPI, ஆதார் பாதுகாப்பு: அன்றாடம் கவனிக்க வேண்டிய தொழில்நுட்பக் குறிப்புகள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது உங்கள் UPI பின் எண்ணை யாருடனும் பகிரக்கூடாது.",
+   "அறியாத நபர்கள் அனுப்பும் QR கோடுகளை ஸ்கேன் செய்வதற்கு முன் அதன் நோக்கத்தை உறுதிப்படுத்திக் கொள்ள வேண்டும், ஏனெனில் சில QR கோடுகள் பணம் பெறுவதற்கு பதிலாக பணம் செலுத்த வைக்கும் வகையில் வடிவமைக்கப்பட்டிருக்கும்.",
+   "ஆதார் அடிப்படையிலான சேவைகளைப் பயன்படுத்தும்போது, UIDAI இன் mAadhaar செயலி அல்லது அதிகாரப்பூர்வ இணையதளத்தை மட்டுமே நம்பகமான ஆதாரமாகக் கருத வேண்டும்.",
+   "தேவைப்படாத போது ஆதார் பயோமெட்ரிக் லாக் அம்சத்தை இயக்கி வைப்பது அடையாள மோசடியைத் தடுக்க உதவும்.",
+   "மொபைல் போனில் தெரியாத இணைப்புகளை (லிங்க்) கிளிக் செய்வதைத் தவிர்த்து, இரண்டு-படி சரிபார்ப்பு (Two-Factor Authentication) அம்சத்தை முக்கியமான கணக்குகளில் இயக்கி வைப்பது பாதுகாப்பை அதிகரிக்கும்."
+  ],
+  "closing": "சிறிய கவனம் பெரிய இழப்பைத் தடுக்கும் — தொழில்நுட்பத்தைப் புரிந்து பயன்படுத்துங்கள்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-22"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-22T13:09+05:30",
+  "created_ts": 1792654806.0827823,
+  "audio": "data/audio/art_tech_20261022.mp3"
+ },
+ {
+  "headline": "மத்திய கிடங்கு கழகத்தில் 327 பணியிடங்களுக்கு விண்ணப்பம்",
+  "lines": [
+   "மத்திய கிடங்கு கழகம் என்ற அரசு நிறுவனம், உதவி மேலாளர் மற்றும் இளநிலை நிர்வாகி பணியிடங்களுக்கு அறிவிப்பு வெளியிட்டுள்ளது.",
+   "மொத்தம் 327 காலியிடங்கள் இந்த ஆண்டு நிரப்பப்பட உள்ளன.",
+   "விண்ணப்பிக்க விரும்புவோர் அதிகாரப்பூர்வ இணையதளத்தில் விண்ணப்பிக்கலாம்.",
+   "ஆன்லைன் வழியில் மட்டுமே விண்ணப்பங்கள் ஏற்றுக்கொள்ளப்படும் என நிறுவனம் தெரிவித்துள்ளது.",
+   "விண்ணப்ப செயல்முறை அக்டோபர் 17 ஆம் தேதி தொடங்கி, நவம்பர் 15 ஆம் தேதி வரை நடைபெறும்."
+  ],
+  "closing": "தகுதி மற்றும் வயது வரம்பு தொடர்பான முழு விவரங்களை அதிகாரப்பூர்வ அறிவிப்பில் பார்க்குமாறு வேட்பாளர்களுக்குக் கோரப்பட்டுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": "CWC Recruitment 2026",
+    "date": null
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "மத்திய கிடங்கு கழகம்",
+   "உதவி மேலாளர்",
+   "இளநிலை நிர்வாகி"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Central Warehousing Corporation Announces 327 Vacancies",
+   "lines": [
+    "The Central Warehousing Corporation, a government organisation, has announced recruitment for Assistant Manager and Junior Executive posts.",
+    "A total of 327 vacancies are to be filled this year.",
+    "Interested candidates can apply through the official website cewacor.nic.in.",
+    "The corporation has stated that applications will be accepted only through the online mode.",
+    "The application process begins on October 17 and continues till November 15."
+   ],
+   "closing": "Candidates have been asked to check the official notification for complete details on eligibility and age limit."
+  },
+  "front_cat": "exam_jobs_deadline",
+  "image_query": "",
+  "wiki_subject": "Central Warehousing Corporation",
+  "person_en": "",
+  "urgent": true,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "9626e24a0c61",
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-10-22T13:07+05:30",
+  "links": [
+   "https://www.freejobalert.com/articles/cwc-recruitment-2026-apply-online-for-327-assistant-manager-junior-executive-posts-3074247",
+   "https://www.freejobalert.com/articles/lpssrb-recruitment-2026-apply-online-for-12-junior-assistant-computer-assistant-and-more-posts-3074174",
+   "https://www.freejobalert.com/articles/mygov-recruitment-2026-apply-online-for-5-junior-video-editor-video-editor-and-more-posts-3074990",
+   "https://www.freejobalert.com/articles/hpnlu-professor-of-law-recruitment-2026-apply-online-3074967"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/d/dd/Central-warehousing-corporation-logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Central Warehousing Corporation",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Central_Warehousing_Corporation",
+   "symbolic": false
+  },
+  "audio": "data/audio/9626e24a0c61.mp3",
+  "created_ts": 1792654654.2115126,
+  "status": "published"
+ },
+ {
+  "headline": "சென்செக்ஸ் 600 புள்ளி சரிவு, முதலீட்டாளர் செல்வம் ஐந்து லட்சம் கோடி இழப்பு",
+  "lines": [
+   "இந்திய பங்குச் சந்தைகள் வியாழக்கிழமை கடுமையான சரிவைச் சந்தித்தன, சென்செக்ஸ் மற்றும் நிஃப்டி குறியீடுகள் கணிசமாகக் குறைந்தன.",
+   "சென்செக்ஸ் குறியீடு அறுநூறு புள்ளிகளுக்கும் மேல் சரிந்தது, நிஃப்டி 50 குறியீடு 22,600 புள்ளிகளுக்குக் கீழே இறங்கியது.",
+   "இந்தச் சரிவால் முதலீட்டாளர்களின் செல்வத்தில் சுமார் ஐந்து லட்சம் கோடி ரூபாய் அழிந்ததாகத் தகவல்கள் தெரிவிக்கின்றன.",
+   "ஆப்சன் ஒப்பந்தங்களின் கடைசி நாள் என்பதால் ஏற்பட்ட ஏற்ற இறக்கம் இந்தச் சரிவுக்கு முக்கியக் காரணமாகக் கருதப்படுகிறது.",
+   "பரந்த சந்தைகள் மற்றும் துறை சார்ந்த குறியீடுகள் அனைத்தும் எதிர்மறையான போக்கிலேயே முடிவடைந்தன."
+  ],
+  "closing": "ஒப்பந்த கடைசி நாள் ஏற்படுத்திய ஏற்ற இறக்கம் காரணமாக இந்தச் சரிவு ஏற்பட்டதாகச் சந்தை நிபுணர்கள் கருத்து தெரிவிக்கின்றனர்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "சென்செக்ஸ்",
+   "நிஃப்டி ஐம்பது",
+   "இந்திய பங்குச் சந்தை",
+   "முதலீட்டாளர்கள்",
+   "ஆப்சன் ஒப்பந்தம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Sensex falls 600 points, investors lose Rs 5 lakh crore in wealth",
+   "lines": [
+    "Indian stock markets fell sharply on Thursday, with Sensex and Nifty indices dropping significantly.",
+    "Sensex dropped over 600 points, while the Nifty 50 index slipped below the 22,600 mark.",
+    "The selloff wiped out nearly Rs 5 lakh crore in investor wealth, according to reports.",
+    "The volatility caused by the expiry of options contracts is considered a key reason behind the fall.",
+    "Broader markets and sectoral indices all closed with a negative trend."
+   ],
+   "closing": "Market experts attribute the fall to volatility caused by the contract expiry day."
+  },
+  "front_cat": "routine",
+  "image_query": "stock market trading screen india",
+  "wiki_subject": "BSE SENSEX",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "454e61333879",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-22T13:06+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-falling-today-sensex-drops-600-points-nifty-below-22600-3-key-factors-behind-rs-5-lakh-crore-rout/articleshow/135106573.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/454e61333879.mp3",
+  "created_ts": 1792654616.384489,
+  "status": "published"
+ },
+ {
+  "headline": "ஈரோடு அசனூர் அருகே மனிதனைக் கொன்ற சிறுத்தை பிடிபட்டது",
+  "lines": [
+   "ஈரோடு மாவட்டம் அசனூர் அருகே ஒரு மனிதரின் மரணத்துடனும் பல கால்நடை கொலைகளுடனும் தொடர்புடையதாகக் கருதப்படும் சிறுத்தை பிடிக்கப்பட்டது.",
+   "வனத்துறையினர் கூண்டு வைத்து தொடர்ந்து கண்காணித்த பின்னர் இந்தச் சிறுத்தையைப் பிடித்துள்ளனர்.",
+   "மூத்த அதிகாரிகளின் உத்தரவின்படி, இந்தச் சிறுத்தையை கால்நடை மருத்துவர் ஒருவர் பரிசோதிப்பார் என வனத்துறை தெரிவித்துள்ளது.",
+   "பரிசோதனைக்குப் பின்னர் இதை அடர்ந்த வனப்பகுதி ஒன்றில் விடுவிக்கத் திட்டமிடப்பட்டுள்ளது.",
+   "பகுதி மக்களின் பாதுகாப்பு கருதி வனத்துறையினர் மேலும் கண்காணிப்பைத் தொடர்ந்து மேற்கொண்டு வருகின்றனர்."
+  ],
+  "closing": "சிறுத்தை தாக்குதல்கள் தொடர்பான முழு விவரங்கள் வனத்துறையின் அதிகாரப்பூர்வ விசாரணைக்குப் பின்னரே தெளிவாகும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "அசனூர்",
+   "ஈரோடு",
+   "வனத்துறை",
+   "சிறுத்தை"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Leopard linked to man's death, cattle kills caught near Hasanur",
+   "lines": [
+    "A leopard suspected to be linked to a man's death and several cattle kills has been caught near Hasanur in Erode district.",
+    "Forest officials captured the leopard after keeping it under watch using a cage trap.",
+    "As directed by senior officials, the leopard will be examined by a veterinarian, the forest department said.",
+    "After the examination, the leopard is planned to be released into a dense forest area.",
+    "Forest personnel continue to maintain surveillance in the region for the safety of local residents."
+   ],
+   "closing": "Full details on the attacks are expected only after an official inquiry by the forest department."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "8f81dff9c382",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-22T13:05+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Coimbatore/leopard-linked-to-mans-death-cattle-kills-caught-near-hasanur/article71610088.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime05.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/8f81dff9c382.mp3",
+  "created_ts": 1792654531.1770077,
+  "status": "published"
+ },
+ {
+  "headline": "சென்னை வந்தலூர் விலங்கு சாலை இரண்டு நாள் மூடப்படும்",
+  "lines": [
+   "சென்னை வந்தலூர் விலங்கு சாலை அக்டோபர் 22, 23 ஆகிய இரண்டு நாளுக்கு மூடப்பட்டிருக்கும்.",
+   "விலங்கு சாலையில் உள்ள நீர் வாழ் பறவைகளில் பறவை காய்ச்சல் உறுதி செய்யப்பட்டுள்ளது.",
+   "வனத்துறை அதிகாரிகள் கூறியபடி, அக்டோபர் 3 முதல் 7 வரை ஏழு நீர் வாழ் பறவைகள் இறந்துவிட்டன.",
+   "விலங்கு சாலையைத் தூய்மையாக்குவதற்கும் தொற்று பரவாமல் தடுப்பதற்கும் இந்த நடவடிக்கை எடுக்கப்பட்டுள்ளது.",
+   "கூடிய சீக்கிரமே விலங்கு சாலை மீண்டும் பொதுமக்களுக்கு திறக்கப்படும் என்று எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "சென்னை மற்றும் பக்கத்து மாவட்டங்களில் பறவை காய்ச்சல் பரவாமல் தடுக்க வனத்துறை எச்சரிக்கையுடன் இருக்கிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": "2026-10-22"
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "வந்தலூர் விலங்கு சாலை",
+   "சென்னை",
+   "ஆன்மிக தொற்று",
+   "வனத்துறை"
+  ],
+  "confidence": 0.95,
+  "en": {
+   "headline": "Vandalur Zoo in Chennai closed for two days over bird flu",
+   "lines": [
+    "Vandalur Zoo in Chennai will remain closed on October 22 and 23.",
+    "Avian influenza has been confirmed in water birds at the zoo.",
+    "Forest Department officials said seven water birds died between October 3 and 7.",
+    "The closure is to allow for sanitization and prevent further spread of the disease.",
+    "The zoo is expected to reopen to the public soon."
+   ],
+   "closing": "The Forest Department remains vigilant to prevent avian influenza spread in Chennai and nearby districts."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "Vandalur Zoo water birds",
+  "wiki_subject": "Vandalur Zoo",
+  "person_en": "",
+  "urgent": true,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "13b3b4ec1aba",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-22T13:04+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/vandalur-zoo-closed-for-two-days-after-avian-influenza-confirmed-in-water-birds/article71608151.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arignar_Anna_Zoological_park_27.jpg/3840px-Arignar_Anna_Zoological_park_27.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Arignar Anna Zoological Park",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Arignar_Anna_Zoological_Park",
+   "symbolic": false
+  },
+  "audio": "data/audio/13b3b4ec1aba.mp3",
+  "created_ts": 1792654484.6773512,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261022",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 9 · அரசு & தனியார்",
   "lines": [
@@ -18484,301 +18777,6 @@
   "wiki_subject": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "திருவண்ணாமலையில் லாரி மோதி இருசக்கர வாகன ஓட்டுநர் பலி",
-  "lines": [
-   "திருவண்ணாமலையில் லாரி ஒன்று இருசக்கர வாகனத்தின் மீது மோதியதில் ஒரு ஆட்கள் உயிரிழந்தார்.",
-   "விபத்துக்குப் பிறகு லாரி ஓட்டுநர் வாகனத்தை விட்டு தப்பி ஓடியுள்ளார்.",
-   "தலைமறைவான லாரி ஓட்டுநரைக் கைது செய்ய காவல்துறை சிறப்புக் குழுக்களை அமைத்துள்ளது.",
-   "விபத்து நடந்த இடம் மற்றும் காலம் தொடர்பான விவரங்கள் இன்னும் முழுமையாக வெளியிடப்படவில்லை.",
-   "லாரி ஓட்டுநரைக் கண்டுபிடிக்கும் பணியை காவல்துறை தீவிரப்படுத்தியுள்ளது."
-  ],
-  "closing": "தப்பி ஓடிய லாரி ஓட்டுநர் எப்போது கைது செய்யப்படுவார் என்பதை நோக்கி காவல்துறை விசாரணை தொடர்கிறது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "திருவண்ணாமலை",
-   "காவல்துறை",
-   "லாரி ஓட்டுநர்"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Man killed as lorry rams two-wheeler in Tiruvannamalai",
-   "lines": [
-    "A lorry rammed into a two-wheeler in Tiruvannamalai, killing its rider.",
-    "The lorry driver fled the scene after the accident.",
-    "Police have formed special teams to nab the absconding lorry driver.",
-    "Further details about the exact location and time of the accident have not been fully released.",
-    "Police have intensified efforts to trace and arrest the lorry driver."
-   ],
-   "closing": "It remains to be seen when the absconding lorry driver will be apprehended as the police investigation continues."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "5ebba5fe2724",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-15T06:34+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/man-killed-as-lorry-rams-two-wheeler-in-tiruvannamalai/article71583697.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime06.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/5ebba5fe2724.mp3",
-  "created_ts": 1792026294.276602,
-  "status": "published"
- },
- {
-  "headline": "ஜியோ ஐபிஓ: ரிலையன்ஸ் ஆதரவுடைய டிஜிட்டல் ராஜாவை முன்னிறுத்தும் 5 பலங்கள்",
-  "lines": [
-   "ரிலையன்ஸ் ஜியோ பிளாட்ஃபார்ம்ஸ் நிறுவனம் 30,213 கோடி ரூபாய் மதிப்பிலான பங்கு விற்பனைக்கு தயாராகி வருகிறது.",
-   "இந்த ஆரம்ப பொது பங்கு விற்பனைக்கு முன் நிறுவனம் தனது ஆவணத்தில் ஐந்து முக்கிய பலங்களை பட்டியலிட்டுள்ளது.",
-   "வருவாய் வளர்ச்சி, லாபம், பரந்த வாடிக்கையாளர் தளம், வலையமைப்பு உள்கட்டமைப்பு, தனித்துவமான தொழில்நுட்பம் ஆகியவற்றை நிறுவனம் தனது பலங்களாக குறிப்பிட்டுள்ளது.",
-   "நிலையான இணைய இணைப்பு, செயற்கை நுண்ணறிவு சேவைகள், டிஜிட்டல் சந்தா, வெளிநாட்டு தொழில்நுட்ப வருமானம் ஆகிய துறைகளில் வளர்ச்சி வாய்ப்புகளை நிறுவனம் எதிர்பார்க்கிறது.",
-   "பங்கு விற்பனை தொடர்பான முழு விவரங்களும் விரைவில் அதிகாரப்பூர்வமாக வெளியிடப்படும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "ஐபிஓவுக்கு முன் நிறுவனங்கள் தங்கள் நிதி நிலை, வளர்ச்சி திட்டங்கள் மற்றும் வணிக பலங்களை விவரிக்கும் ஆவணத்தை பதிவு செய்வது வழக்கமான நடைமுறை ஆகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "ரிலையன்ஸ் ஜியோ பிளாட்ஃபார்ம்ஸ்",
-   "ஆரம்ப பொது பங்கு விற்பனை",
-   "இந்தியா",
-   "பங்கு சந்தை"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Reliance Jio Plans Rs 30,213 Crore Share Sale",
-   "lines": [
-    "Reliance Jio Platforms is preparing for a share sale worth Rs 30,213 crore.",
-    "Ahead of this initial public offering, the company has listed five key strengths in its filing document.",
-    "The company cited revenue growth, profitability, a large customer base, network infrastructure and proprietary technology as its strengths.",
-    "The company expects growth opportunities in fixed broadband, AI-led services, digital subscriptions and overseas technology monetisation.",
-    "Full details of the share sale are expected to be officially released soon."
-   ],
-   "closing": "Filing such documents detailing financial health and growth plans ahead of a share sale is standard practice for companies."
-  },
-  "front_cat": "big_project",
-  "image_query": "Reliance Jio IPO",
-  "wiki_subject": "Jio Platforms",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "143ff240a157",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-15T04:32+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-5-strengths-that-put-the-reliance-backed-digital-giant-in-spotlight/articleshow/134946580.cms"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Jio Platforms",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Jio_Platforms",
-   "symbolic": false
-  },
-  "audio": "data/audio/143ff240a157.mp3",
-  "created_ts": 1792018973.0762935,
-  "status": "published"
- },
- {
-  "headline": "கைது செய்யப்பட்ட சிஜேபி ஆர்வலர்களுக்கு சட்ட உதவி அளிக்க திமுக தயார்",
-  "lines": [
-   "குடிமக்கள் நீதி அமைப்பு (சிஜேபி) சார்பில் செயல்பட்ட ஆஷுதோஷ் ரங்கா மற்றும் சௌரவ் தாஸ் ஆகியோர் கைது செய்யப்பட்டுள்ளனர்.",
-   "இந்த விவரத்தை தமிழ்நாடு முதல்வர் மு.க.ஸ்டாலின் தனது சமூக ஊடகப் பதிவு ஒன்றில் தெரிவித்தார்.",
-   "இருவருக்கும் தம் ஆதரவை வெளிப்படுத்திய முதல்வர், தேவையான அனைத்து சட்ட உதவியையும் திமுக வழங்கத் தயாராக உள்ளது என அறிவித்தார்.",
-   "\"அஷுதோஷ் ரங்கா மற்றும் சௌரவ் தாஸுடன் நிற்கிறோம். திமுக அவர்களுக்கு தேவையான அனைத்து சட்டப் பிரதிநிதித்துவம் மற்றும் ஆதரவை வழங்கத் தயாராக உள்ளது\" என முதல்வர் தனது பதிவில் குறிப்பிட்டுள்ளார்."
-  ],
-  "closing": "சிஜேபி ஆர்வலர்கள் கைது செய்யப்பட்ட முழு பின்னணியும் இதுவரை வெளிப்படையாக அறிவிக்கப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": "2026-10-15"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "மு.க.ஸ்டாலின்",
-   "திமுக",
-   "குடிமக்கள் நீதி அமைப்பு"
-  ],
-  "id": "1757bc01eacc",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-15T04:31+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/dmk-ready-to-provide-legal-aid-to-arrested-cjp-activists-mk-stalin/article71582697.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/1757bc01eacc.mp3",
-  "created_ts": 1792018908.1066773,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ஜெட்வொர்க் ஐபிஓ: முன்கூட்டி முதலீட்டில் 2,251 கோடி ரூபாய் திரட்டம்",
-  "lines": [
-   "உற்பத்தித் துறை நிறுவனமான ஜெட்வொர்க் மேனுஃபேக்சரிங் பிசினஸஸ், அக்டோபர் 15-ல் பொது பங்கு விற்பனையைத் தொடங்குகிறது.",
-   "பிளாக்ராக், கோல்ட்மேன் சாக்ஸ், நொமுரா உள்ளிட்ட 99 முக்கிய முதலீட்டாளர்களிடமிருந்து 2,251 கோடி ரூபாய் முன்கூட்டியே திரட்டப்பட்டது.",
-   "5,012 கோடி ரூபாய் மதிப்புடைய இந்த பங்கு விற்பனையில் ஒரு பங்கு விலை 143 முதல் 151 ரூபாய் வரை நிர்ணயிக்கப்பட்டுள்ளது.",
-   "இந்த பங்கு விற்பனையில் புதிய பங்குகள் வெளியீடும் தற்போதைய பங்குதாரர்களின் விற்பனையும் இடம்பெற்றுள்ளன.",
-   "பொது முதலீட்டாளர்களுக்கான விண்ணப்பம் அக்டோபர் 19-ல் வரை திறந்திருக்கும்."
-  ],
-  "closing": "இந்த பங்கு விற்பனை முடிவில் பங்குகள் பட்டியலிடப்படும் தேதியை முதலீட்டாளர்கள் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "ஜெட்வொர்க்",
-   "பிளாக்ராக்",
-   "கோல்ட்மேன் சாக்ஸ்",
-   "நொமுரா",
-   "ஐபிஓ"
-  ],
-  "confidence": 0.85,
-  "en": {
-   "headline": "Zetwerk raises Rs 2,251 crore from anchor investors ahead of IPO",
-   "lines": [
-    "Manufacturing firm Zetwerk Manufacturing Businesses opens its public share sale on October 15.",
-    "It raised Rs 2,251 crore from 99 anchor investors including BlackRock, Goldman Sachs and Nomura.",
-    "The Rs 5,012 crore issue is priced in a band of Rs 143 to Rs 151 per share.",
-    "The offering includes both a fresh issue of shares and an offer for sale by existing shareholders.",
-    "The public subscription window will remain open until October 19."
-   ],
-   "closing": "Investors are watching for the listing date once the subscription period closes."
-  },
-  "front_cat": "routine",
-  "image_query": "stock market trading floor",
-  "wiki_subject": "Zetwerk",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "306761056c1b",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-15T04:29+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/ipos/fpos/blackrock-goldman-sachs-nomura-among-key-investors-as-zetwerk-mops-up-rs-2251-crore-in-anchor-bidding-ipo-opens-on-oct-15/articleshow/134947568.cms"
-  ],
-  "image": {
-   "url": "data/bank/economy04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/306761056c1b.mp3",
-  "created_ts": 1792018804.1395993,
-  "status": "published"
- },
- {
-  "headline": "இறந்தவர் அடையாளம் உறுதி செய்ய உடல் வெளியே எடுக்க உயர்நீதிமன்ற உத்தரவு",
-  "lines": [
-   "சென்னை உயர்நீதிமன்ற நீதிபதி வி.லட்சுமிநாராயணன், ஒரு உடலை மண்ணிலிருந்து வெளியே எடுத்து டிஎன்ஏ பரிசோதனை செய்ய உத்தரவிட்டார்.",
-   "காணாமல் போன தங்கள் மகனைத் தேடி நீதிமன்றத்தை அணுகிய பெற்றோரின் வேண்டுகோளின் பேரில் இந்த உத்தரவு பிறப்பிக்கப்பட்டது.",
-   "டிஎன்ஏ பரிசோதனை முடிவுகள், அந்த உடல் அந்தத் தம்பதியினரின் மகனுடையது என்பதை உறுதி செய்தன.",
-   "உயிருடன் உள்ளவர்களுக்கு நிம்மதி அளிக்க, சில நேரங்களில் இறந்தவர்களைத் தொந்தரவு செய்ய வேண்டி வரும் என நீதிபதி கருத்து தெரிவித்தார்.",
-   "அடையாளம் உறுதி செய்யப்பட்ட பின்னர், இந்த வழக்கில் நீதிமன்றம் மேலும் என்ன நடவடிக்கை எடுக்கும் என்பது தெரியவரவுள்ளது."
-  ],
-  "closing": "காணாமல் போன மகனைத் தேடி நீதிமன்றம் வரை வந்த பெற்றோரின் வேண்டுகோளின் அடிப்படையில் இந்த டிஎன்ஏ பரிசோதனை நடத்தப்பட்டது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர்நீதிமன்றம்",
-   "நீதிபதி வி.லட்சுமிநாராயணன்",
-   "டிஎன்ஏ பரிசோதனை",
-   "தம்பதியினர்"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Madras High Court orders exhumation to confirm victim's identity",
-   "lines": [
-    "Madras High Court judge V. Lakshminarayanan ordered the exhumation of a body for DNA profiling.",
-    "The order came on a petition filed by parents searching for their missing son.",
-    "DNA test results confirmed that the body belonged to the couple's son.",
-    "The judge observed that sometimes, to give peace to the living, the dead would have to be disturbed.",
-    "It remains to be seen what further action the court will take now that identity has been confirmed."
-   ],
-   "closing": "The DNA test was conducted based on a plea from parents who had approached the court searching for their missing son."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "",
-  "wiki_subject": "Madras High Court",
-  "person_en": "V. Lakshminarayanan",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "94e27a72b0d8",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-10-15T04:25+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/sometimes-to-give-peace-to-the-living-the-dead-would-have-to-be-disturbed-says-madras-high-court/article71584560.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/94e27a72b0d8.mp3",
-  "created_ts": 1792018530.4519832,
   "status": "published"
  }
 ]

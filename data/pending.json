@@ -63,5 +63,68 @@
   "audio": "data/audio/92bd8c097c10.mp3",
   "created_ts": 1792635502.8661537,
   "status": "pending"
+ },
+ {
+  "headline": "நெஸ்லே, ஜைடஸ் வெல்னஸ்க்கு உணவுப் பாதுகாப்பு ஆணையத்தின் அறிவிப்பு",
+  "lines": [
+   "நெஸ்லே இந்தியா மற்றும் ஜைடஸ் வெல்னஸ் நிறுவனங்கள் தங்கள் பொருட்களின் விளம்பரங்களில் தவறான கூற்றுகளைக் கொண்டுள்ளதாக மத்திய உணவுப் பாதுகாப்பு ஆணையம் (எஃப்எஸ்எஸ்ஏஐ) குறிப்பிட்டுள்ளது.",
+   "ஆணையம் இந்த நிறுவனங்களுக்கு அறிவிப்பு அனுப்பியுள்ளது.",
+   "நிறுவனங்கள் தங்கள் விளம்பரக் கூற்றுகளை ஆதாரிக்க விஞ்ஞான ஆய்வுச் சான்றுகளை வழங்கும்படி ஆணையம் கோரியுள்ளது.",
+   "பல்வேறு நுகர்வோர் புகார்களைத் தொடர்ந்து இந்த நடவடிக்கை மேற்கொள்ளப்பட்டுள்ளது.",
+   "உணவுப் பாதுகாப்பு ஆணையம் நிறுவனங்களிடமிருந்து மேலும் பதிலளிப்புக்காகக் காத்திருக்கும்."
+  ],
+  "closing": "உணவுப் பொருட்களின் விளம்பரங்களில் தவறான அல்லது நிரூபணம் இல்லாத சுகாதாரக் கூற்றுக்கள் பயன்படுத்துவது சட்டவிரோத வகையாகக் கருதப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "நெஸ்லே இந்தியா",
+   "ஜிடாஸ் வெல்னெஸ்",
+   "மத்திய உணவுப் பாதுகாப்பு ஆணையம் (FSSAI)"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "FSSAI action against Nestle India, Zydus Wellness for misleading product claims",
+   "lines": [
+    "The Central Food Safety Authority has found that Nestle India and Zydus Wellness companies made false claims in their product advertisements.",
+    "The authority has issued notices to both companies.",
+    "The companies have been asked to provide scientific evidence to support their advertising claims.",
+    "This action follows multiple consumer protection complaints received by the authority.",
+    "The Food Safety Authority will await further responses from the companies following its investigation."
+   ],
+   "closing": "Using unproven or misleading health claims in advertisements of food products is considered a violation of food safety regulations."
+  },
+  "front_cat": "policy_mass",
+  "image_query": "FSSAI food safety inspection",
+  "wiki_subject": "Food Safety and Standards Authority of India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "numbers_conflict",
+   "single_source"
+  ],
+  "id": "60f3d507ad58",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-22T13:09+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/fssai-notices-to-nestle-india-zydus-wellness-over-misleading-claims-in-products/article71608592.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/e/e2/FSSAI_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Food Safety and Standards Authority of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Food_Safety_and_Standards_Authority_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/60f3d507ad58.mp3",
+  "created_ts": 1792654763.313776,
+  "status": "pending"
  }
 ]
