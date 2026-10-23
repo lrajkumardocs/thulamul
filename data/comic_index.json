@@ -1,5 +1,75 @@
 [
  {
+  "date": "2026-10-24",
+  "title": "காட்டு வழியில் எச்சரிக்கை",
+  "book": 1,
+  "book_ta": "புது வெள்ளம்",
+  "arc": "நந்தினியின் தரிசனம்",
+  "day": 45,
+  "file": "data/comic/2026-10-24.png",
+  "summary": "வந்தியத்தேவன் கொள்ளிடம் காட்டு வழியே பல்லக்கைப் பின்தொடர்ந்து சென்று, ஏதோ சலசலப்பு கேட்டு எச்சரிக்கையானான்.",
+  "next_hint": "முன்னே தெரிவது என்ன?",
+  "hidden": false,
+  "script": {
+   "title_ta": "காட்டு வழியில் எச்சரிக்கை",
+   "panels": [
+    {
+     "scene_en": "extreme wide shot of a dense forest path beside the Kollidam river at dawn, vandiyathevan as in reference image riding a horse small in the vast frame, mist over water, cautious mood, morning light, empty sky above for text space",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "கொள்ளிடம் காட்டு வழியே, பல்லக்கின் தடத்தைப் பின்தொடர்ந்து குதிரை நகர்ந்தது.",
+     "bubbles": []
+    },
+    {
+     "scene_en": "medium shot, vandiyathevan as in reference image on horseback amid tall trees, looking around warily, hand resting near his sword hilt, dappled forest light, tense alert posture, camera at eye level",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "பல்லக்கு எங்கே மறைந்தது? தடம் தெரியவில்லையே."
+      }
+     ]
+    },
+    {
+     "scene_en": "close-up of vandiyathevan as in reference image reining in his horse abruptly, head tilted listening, brows furrowed with suspicion, forest shadows around, shoulder-level angle, daytime",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "குதிரையை நிறுத்தி, காதுகளைக் கூர்மையாக்கினான்.",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "R",
+       "text_ta": "ஏதோ சலசலப்பு... மிருகமா, மனிதரா?"
+      }
+     ]
+    },
+    {
+     "scene_en": "extreme close-up of vandiyathevan's eyes as in reference image narrowing sharply, a bead of sweat on his temple, low angle from below emphasizing alertness, blurred green forest behind, daytime tension",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "கண்கள் விரிந்தன; முன்னே ஏதோ ஒளிர்ந்தது.",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "முன்னே ஏதோ இருக்கிறது... பார்க்கவே வேண்டும்!"
+      }
+     ]
+    }
+   ],
+   "summary_ta": "வந்தியத்தேவன் கொள்ளிடம் காட்டு வழியே பல்லக்கைப் பின்தொடர்ந்து சென்று, ஏதோ சலசலப்பு கேட்டு எச்சரிக்கையானான்.",
+   "tomorrow_ta": "முன்னே தெரிவது என்ன?",
+   "story_so_far_ta": "கடம்பூரில் கந்தமாறன் வந்தியத்தேவனை இரகசியமாக அழைத்தான்; பெரிய பழுவேட்டரையர் தலைமையில் சிற்றரசர் கூட்டம், மதுராந்தகனுக்கு அரியணை அளிக்கும் சூழ்ச்சி, தேவராளனின் மறைமுக வாக்குறுதி ஆகியவற்றை மறைந்து கண்டான். இரவு ஆழமானதும் அலங்கரிக்கப்பட்ட பல்லக்கிலிருந்து இறங்கிய பழுவூர் இளையராணி நந்தினியின் அழகில் முற்றிலும் ஸ்தம்பித்து, தூக்கமின்றி இரவைக் கழித்தான். மறுநாள் காலையில் கந்தமாறனிடம் விடைபெற்று மாளிகையை விட்டு வெளியேறும்போது, நந்தினியின் பல்லக்கு காட்டு வழியே செல்வதைக் கண்டு மறைவாகப் பின்தொடரத் தொடங்கினான். இன்று கொள்ளிடம் காட்டு வழியே குதிரையில் எச்சரிக்கையுடன் முன்னேறிய வந்தியத்தேவன், திடீரென ஏதோ சலசலப்புக் கேட்டு, முன்னே ஏதோ காத்திருப்பதை உணர்ந்து அதை நோக்கிப் பார்வையைத் திருப்பினான்."
+  }
+ },
+ {
   "date": "2026-10-23",
   "title": "பல்லக்கின் பின்னே",
   "book": 1,

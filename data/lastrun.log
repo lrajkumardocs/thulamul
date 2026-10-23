@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
+[fetch] The Hindu TN: 22 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 19 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 14 புதியவை
+[fetch] Al Jazeera: 23 புதியவை
+[fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 30 புதியவை
@@ -16,19 +16,19 @@
 [fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 29 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='agritech.tnau.ac.in', port=443) at 0x7f23fbe412d0>, 'Connection to agritech.tnau.ac.in timed out. (connect timeout=10)'))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 9 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -43,7 +43,7 @@
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
-[fetch] Behindwoods: பிழை HTTPSConnectionPool(host='www.behindwoods.com', port=443): Read timed out. (read timeout=20)
+[fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
@@ -56,44 +56,62 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fba0b2a6bd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f23fbe1d290>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 16 புதியவை
+[fetch] Times Govt Schemes: 12 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 706 → நிகழ்வுகள் 651
-[triage] 651 → 73 | காலி: india:3, world:2, cinema:2, sports:2, assembly:2
-[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): சாத்தான்குளம் அருகே வீடு புகுந்து 
-[tts-edge] b775cdebf6ba: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சாத்தான்குளம் அருகே வீடு புகுந்து தாக்குதல், தாய் உயிரிழப்பு, இளைஞர் கைது
-[நகல்] ஏற்கனவே வெளியானது: கோயம்புத்தூரில் மாணவர் உயிரிழப்பு: ஆசிரியர், முதல்வர் உள்பட 
-[tts-edge] 45f546718dbb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஜோர்தான் தேவாலய இறுதிச் சடங்கில் துப்பாக்கிச் சூடு, ஆறு பேர் பலி
-[skip] பாரிஸ் அருகே பிரான்சில் நடந்த பயங்கரவாதம் சம்பந்தமான சுட்டுக
-[skip] வெளிநாட்டுச் செய்திகளுக்குள் உக்ரைன்-ரஷ்யா போரில் தமிழ்நாடு 
-[skip] வங்கதேசம் சம்பந்தப்பட்ட வெளிநாட்டு விவகாரம்; தமிழ்நாடு/இந்தி
-[skip] பாகிஸ்தான், வளைகுடா நாடுகள், தென்கிழக்கு ஆசியா — இவற்றுக்கிட
-[skip] வெளிநாட்டு நாட்டின் உள்நாட்டு பரிணாம நிகழ்வு (உக்ரைனின் ராணு
-[skip] அமெரிக்கக் உள் அரசியல் — தமிழ்நாடு / இந்திய வாசகருக்குப் பொர
-[skip] சூடான் உட்புற மோதல் — தமிழ்நாடு அல்லது இந்திய வாசகருக்கு நேர
-[skip] வெளிநாட்டு உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியா வாசகரைப் 
-[skip] அமெரிக்கா உள்நாட்டு அரசியல் / உள்ளூர் விபத்து. தமிழ்நாடு/இந்
-[skip] இவை மும்பையில் உள்ள டாடா மெமோரியல் சென்டர் மற்றும் டெல்லியில
-[skip] இது கேரளாவின் பாலக்காடு கோட்டத்தில் நடந்த உள்ளூர் ரயில்வே சு
-[skip] ஆந்திரப் பிரதேசத்தின் விஜயநகரம் மாவட்ட உள்ளூர் அமைப்புத் தேர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgKRJcqxB1PdSSgiUKBeM'}
-[skip] This is a film review with critical analysis and opinions (s
-[skip] வெளிநாட்டு அணிகளுக்கு இடையிலான சர்வதேశ விளையாட்டு; தமிழ்நாடு
-[skip] வேறு மாநில ரயில்வே நிகழ்வு — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு
-[skip] புகைப்படக் கலைஞரின் ஆவணப்படம் பற்றிய ঘோषணை மட்டும்; திரையுலக
-[skip] வெளிநாட்டு cricket match preview — தமிழ்நாட்டு வாசகரின் அன்ற
-[market] தங்கம் 22K ₹12566 · சென்செக்ஸ் 73124
+[run] புதியவை 683 → நிகழ்வுகள் 624
+[triage] 624 → 71 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது டெல்லி உயர்நீதிமன்றத்தின் உள்ளூர் வழக்கு, தமிழ்நாட்டுடன்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டுக் கூட்டம், தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை
+[skip] தமிழ்நாட்டு/இந்திய சினிமாக் கலைஞரின் தொழிலாளர் அமைப்பு / தொழ
+[skip] வெளிநாட்டுத் টেস্ட் ক்রிக்கெட் — ஆஸ்ட்രேலிய அணிக் கலைஞரின் வ
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgKjvKX1MXxCYeVFsGBW9'}
+[திருத்தம்] கருங்கடலில் ட்ரோன் தாக்குதலில் கப்பல் மூ → கருங்கடலில் ட்ரோன் தாக்குதலில் கப்பல் மூ
+[tts-edge] f2ee87d193ee: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கருங்கடலில் ட்ரோன் தாக்குதலில் கப்பல் மூழ்சி, ரஷ்யா மீது ருமேனியா குற்றச்சாட்டு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgKk3UBMPkj8CXgh4WVyC'}
+[image] களஞ்சியம் (2 சொல்): போக்சோ வழக்கில் குற்றம் சாட்டப்பட்
+[tts-edge] 4683c3c54fdf: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] போக்சோ வழக்கில் குற்றம் சாட்டப்பட்ட வீரமணிக்கு 2 நாள் காவல் விசாரணை அனுமதி
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம், காரணம், விவரங்கள்
+[image] களஞ்சியம் (2 சொல்): கோவையில் பிளஸ் 1 மாணவர் தற்கொலை, ச
+[publish] கோவையில் பிளஸ் 1 மாணவர் தற்கொலை, சக மாணவர்கள் கைது
+[publish] மேல்மட்ட நிதி நிறுவனங்கள் பங்குச் சந்தையில் பதிவாக வேண்டும்: ரிசர்வ் வங்கி ஆளுநர்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgKkGiRDfAoQqc6b27b2C'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgKkK3C8csmYePvSnSjRR'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgKkRQNmhaQEkuFhheFW6'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgKkTxtBNfHDghbVqLQc5'}
+[திருத்தம்] ஈரோடு தாழ்த்தப்பட்ட சமூகத்தினர் இறுதிச்  → ஈரோடு இறுதிச் சடங்கு தகராறு: ஒன்பது பேர்
+[image] களஞ்சியம் (2 சொல்): ஈரோடு இறுதிச் சடங்கு தகராறு: ஒன்பத
+[hold] ஈரோடு இறுதிச் சடங்கு தகராறு: ஒன்பது பேர் மீது வழக்கு வாபஸ் பெற கோரிக்கை
+[image] களஞ்சியம் (2 சொல்): டாடா மோட்டார்ஸ் வணிக வாகனப் பிரிவு
+[publish] டாடா மோட்டார்ஸ் வணிக வாகனப் பிரிவுக்கு 1,254 கோடி லாபம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgKkeH1cU7YVfGJbUQqm7'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgKkhfvbxswmFnYgKQ6UE'}
+[image] களஞ்சியம் (2 சொல்): அக்டோபர் 26 வரை தமிழகத்தில் கனமழை 
+[publish] அக்டோபர் 26 வரை தமிழகத்தில் கனமழை எச்சரிக்கை
+[publish] வடகிழக்குப் பருவமழை தீவிரம்: இரு மாவட்டங்களுக்கு இன்று ரெட் அலர்ட்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[comic] கதை: காட்டு வழியில் எச்சரிக்கை
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-24.png · நாள் 45
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12572 · சென்செக்ஸ் 73124
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 2
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 1 · எழுதியவை 8
