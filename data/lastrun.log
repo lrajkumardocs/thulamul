@@ -1,12 +1,13 @@
+[expire] b6ddf4a2990c
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 27 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 21 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 22 புதியவை
+[fetch] BBC World: 20 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 17 புதியவை
+[fetch] ESPNcricinfo: 16 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 27 புதியவை
@@ -14,9 +15,9 @@
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 8 புதியவை
+[fetch] The Hindu Health: 7 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 27 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +30,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,63 +57,57 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd84ba1da50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f988bec86d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 691 → நிகழ்வுகள் 636
-[triage] 636 → 61 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] தமிழ்நாடு மாணவர்களின் பরীட்சை முடிவு என்றாலும், இதுத் தொழிற்
-[skip] வெளிநாட்டுச் சுகாதார செய்தி — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
-[skip] திரை விமர்சனம் — 'நன்றாக இருக்கிறது/இல்லை', கதை மதிப்பீடு, ந
-[skip] Australia vs South Africa Test series — வெளிநாட்டுத் திரிகோண
-[திருத்தம்] தமிழ்நாட்டில் தீவிரமடையும் பருவமழை, அக்ட → தமிழ்நாட்டில் தீவிரமடையும் பருவமழை; அக்ட
-[tts-edge] 7e824f1b0dd9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டில் தீவிரமடையும் பருவமழை; அக்டோபர் 26 வரை கனமழை தொடரும்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJ2pCoVT4LmgDgdafqSo'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, வானிலை எச்சரிக்கை பற்றிய வ
-[image] களஞ்சியம் (2 சொல்): சென்னைக்கு ஐந்து நாட்களுக்கு கனமழை
-[tts-edge] 89c71b930d0b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னைக்கு ஐந்து நாட்களுக்கு கனமழை எச்சரிக்கை
-[image] களஞ்சியம் (2 சொல்): இன்று 6 மாவட்டங்களுக்கு ஆரஞ்சு அலர
-[publish] இன்று 6 மாவட்டங்களுக்கு ஆரஞ்சு அலர்ட், சென்னையில் கனமழை எச்சரிக்கை
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): விஜய் டீப்ஃபேக் வீடியோ மோசடி வழக்க
-[publish] விஜய் டீப்ஃபேக் வீடியோ மோசடி வழக்கில் ராஜஸ்தான் இளைஞர் ஜாமீன் மனு
-[publish] இணையக் காணொளி மட்டும் தேர்தல் மனுவுக்குப் போதாது: உயர்நீதிமன்றம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJ3Dx6P9ZJgtwJwZ5KzY'}
-[image] களஞ்சியம் (2 சொல்): கிங்கியில் காணாமல் போன மாணவி விவகா
-[publish] கிங்கியில் காணாமல் போன மாணவி விவகாரம்: சிபி-சிஐடி விசாரணை தொடக்கம்
-[publish] வனவிலங்கு மோதல் தடுப்புக்கு தமிழ்நாடு அரசு 180 கோடி ஒதுக்கீடு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான விரிவான உண்மைத
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJ3QjmHHAxrjA3qZndec'}
-[skip] இது அக்டோபர் 22ஆம் தேதிக்கான வானிலை எச்சரிக்கை, இன்றைய தேதிக
-[நகல்] ஏற்கனவே வெளியானது: இன்று 6 மாவட்டங்களுக்கு ஆரஞ்சு அலர்ட், சென்னையில் கனமழை எச்ச
-[image] களஞ்சியம் (2 சொல்): ஏடி1 பத்திர வட்டி செலுத்த யெஸ் வங்
-[publish] ஏடி1 பத்திர வட்டி செலுத்த யெஸ் வங்கி தயக்கம்
-[skip] யேமன் உள் மோதல் — இந்தியா / தமிழ்நாட்டுக்கு நேரடித் தொடர்பு 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJ3cbPKnSZEuJ2BnjJMg'}
-[skip] உலக அளவிலான போர் செய்திகளாக இருந்தாலும், தமிழ்நாடு அல்லது இந
-[திருத்தம்] எண்ணெய் விலை உயர்வால் இந்திய அரசுக் கடன் → எண்ணெய் விலை உயர்வால் இந்திய அரசுக் கடன்
-[publish] எண்ணெய் விலை உயர்வால் இந்திய அரசுக் கடன் பத்திரங்கள் சரிவு, ஆர்பிஐ வட்டி உயர்வு அச்சம்
-[skip] வெளிநாட்டு தொழில்நுட்ப உரைகள் — தமிழ்நாடு/இந்தியா பாதிப்பு த
-[திருத்தம்] உள்ளாட்சித் தேர்தலுக்கு முன் தயாராகுமாறு → உள்ளாட்சித் தேர்தலுக்கு முன் தயாராகுமாறு
-[image] களஞ்சியம் (2 சொல்): உள்ளாட்சித் தேர்தலுக்கு முன் தயாரா
-[publish] உள்ளாட்சித் தேர்தலுக்கு முன் தயாராகுமாறு நாம் தமிழர் கட்சி அறிவுறுத்தல்
-[comic] கதை: பல்லக்கின் பின்னே
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-23.png · நாள் 44
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹12652 · சென்செக்ஸ் 73249
+[run] புதியவை 668 → நிகழ்வுகள் 611
+[triage] 611 → 67 | காலி: india:4, world:3, govt:3, crime:3, jobs:3
+[skip] டெல்லி தொழில்நுட்பப் பல்கலைக்கழகம் மற்றும் ஐஐஎஸ்இஆர் போபால் 
+[skip] மூல உரை பொதுவான கட்டுரை; குறிப்பிட்ட நிகழ்வு, அறிவிப்பு, அல்
+[skip] இறந்த திரைப்படக் கலைஞரின் நினைவுக் கட்டுரை. சினிமா செய்திக் 
+[skip] வெளிநாட்டு ক্রিকেட — தென்னாபிரிக்கா vs இந்தியா சோதனை தொடர். 
+[image] களஞ்சியம் (2 சொல்): சக்தி வாய்ந்த திபெத் நிலநடுக்கத்தி
+[tts-edge] bc35bf371d86: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] சக்தி வாய்ந்த திபெத் நிலநடுக்கத்தில் பதினாறு பேர் பலி என தகவல்
+[tts-edge] 8f9cdf7f86e4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] திபெத்தில் 7 அளவிலான நிலநடுக்கம், 16 பேர் பலி
+[image] களஞ்சியம் (4 சொல்): கோயம்புத்தூரில் மாணவர் உயிரிழப்பு:
+[publish] கோயம்புத்தூரில் மாணவர் உயிரிழப்பு: ஆசிரியர், முதல்வர் உள்பட நால்வர் மீது வழக்கு
+[skip] மூலத்தில் ஒரு வரிக் குறிப்பு மட்டுமே உள்ளது; திட்டவட்டமான தே
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தமிழக காவல் நிலையங்கள் சுத்தம் செய
+[publish] தமிழக காவல் நிலையங்கள் சுத்தம் செய்ய ஆண்டுக்கு 60 கோடி நிதி
+[திருத்தம்] யூடியூபர் மரணம்: செல்வாக்காளர் ஜேசன் சாம → யூடியூபர் ஹரிஷ் மரணம்: சமூக ஊடக செல்வாக்
+[image] களஞ்சியம் (2 சொல்): யூடியூபர் ஹரிஷ் மரணம்: சமூக ஊடக செ
+[publish] யூடியூபர் ஹரிஷ் மரணம்: சமூக ஊடக செல்வாக்காளர் ஜேசன் சாமுவேல் கைது
+[skip] பிரான்சு நாட்டின் உள்நாட்டு அரசியல் மற்றும் பாதுகாப்பு நடவடி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFFPKr94sfYMxdtgRDu'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFJm2uNaTXBwtaewu2a'}
+[publish] களியக்காவிளை அருகே மண் சரிவு: ரயில் என்ஜின் தடம் புரண்டது
+[publish] வடகிழக்குப் பருவமழை தீவிரம்: பள்ளிகளுக்கு முக்கிய உத்தரவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFWDZ9sXMC9xyV2U9Xs'}
+[image] களஞ்சியம் (2 சொல்): நாம் தமிழர் வேட்பாளர் கார்த்திகா உ
+[publish] நாம் தமிழர் வேட்பாளர் கார்த்திகா உள்பட ஒன்பது பேருக்கு ஜாமீன்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரங்கள் இல்ல
+[skip] மூலத்தில் தலைப்புகள் மட்டுமே உள்ளன, உண்மையான விவரங்கள், எண்க
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFduVBWLGkLWg2ZrPLg'}
+[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
+[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் ஐபிஓ இரண்டாம் நாளில் 5.57 மடங்கு சந்தா
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFkE8H1euv59fBuuawq'}
+[skip] இதிலோபியாவுக்கும் கென்யாவுக்கும் இடையேயான உள்நாட்டு மோதல். த
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFoRM2s5PLuBN2e4x4s'}
+[publish] ஐஐடி சென்னை செயற்கை நுண்ணறிவு ஆராய்ச்சித் திட்டங்கள் அறிவிப்பு
+[brief] காலை brief தயார்
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: யெஸ் வங்கி ஏடி1 வட்டி தாமதம்: தீர்ப்புக்குப் பின்னும் நிலுவை தொடருமா?
+[market] தங்கம் 22K ₹12633 · சென்செக்ஸ் 73249
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 10
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 2 · எழுதியவை 10
