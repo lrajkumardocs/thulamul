@@ -1,5 +1,616 @@
 [
  {
+  "id": "art_sports_20261023",
+  "headline": "தமிழ்நாட்டின் பாரம்பரிய விளையாட்டு மரபு ஓர் பார்வை.",
+  "lines": [
+   "ஜல்லிக்கட்டு தமிழ்நாட்டின் பாரம்பரிய காளை அடக்கும் விளையாட்டு ஆகும்.",
+   "இது பொங்கல் பண்டிகையின் போது பல ஊர்களில் கொண்டாடப்படுகிறது.",
+   "இளைஞர்கள் வீரத்துடன் காளையை அடக்கி தங்கள் திறமையை வெளிப்படுத்துகின்றனர்.",
+   "இந்த விளையாட்டு தமிழர்களின் பண்பாட்டு அடையாளமாக கருதப்படுகிறது.",
+   "அரசு இதற்கான பாதுகாப்பு நடவடிக்கைகளை தொடர்ந்து மேற்கொண்டு வருகிறது."
+  ],
+  "closing": "இவ்வாறு ஜல்லிக்கட்டு தமிழ் மரபின் முக்கிய அங்கமாக தொடர்கிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-23"
+   }
+  ],
+  "topic": "sports",
+  "topic_ta": "விளையாட்டு",
+  "entities": [],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-23T16:19+05:30",
+  "created_ts": 1792752595.8513086,
+  "audio": "data/audio/art_sports_20261023.mp3"
+ },
+ {
+  "headline": "ஒரு மணி நேர தூக்கக் குறைவு கொழுப்பு கல்லீரல் நோய் அபாயம் 24% அதிகரிக்கும்",
+  "lines": [
+   "தேவையான ஏழு முதல் எட்ட மணி நேர தூக்கத்திலிருந்து ஒரு மணி நேரம் குறைந்தால், கல்லீரலில் கொழுப்பு சேரும் அபாயம் 24 சதவீதம் அதிகரிக்கிறது.",
+   "நிலையான தூக்கம் இல்லாத நிலையில் உடலின் வளர்சிதை மாற்ற வேலை பாதிக்கப்பட்டு, கல்லீரலில் கொழுப்பு அணுக்கள் சேர்ந்து நோய் ஏற்படுகிறது.",
+   "மருத்துவ ஆய்வுகளிலிருந்து தூக்கக் குறைவும் கொழுப்பு கல்லீரல் நோய்க்கும் நேரடித் தொடர்பு உள்ளது என்பது தெரிந்துள்ளது.",
+   "வயது, உடல் எடை, உணவுப் பழக்கம் போன்ற பிற காரணிகளுக்கு மட்டுமல்ல, தூக்கக் குறைவுக்கும் இந்நோய் ஏற்படும் என்பது குறிப்பிடத்தக்கது.",
+   "கல்லீரல் நோயைத் தடுக்க ஆரோக்கியமான வாழ்க்கை நடை, சீரான உணவு, உடற்பயிற்சி உடன் சரியான தூக்கம் இன்றியமையாது."
+  ],
+  "closing": "கொழுப்பு கல்லீரல் நோயைத் தடுக்க தினைக்கு குறைந்தபட்சம் ஏழு மணி நேர தூக்கம் எடுப்பது அவசியமாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "கல்லீரல் நோய்",
+   "கொழுப்பு",
+   "தூக்கம்"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "One hour less sleep daily raises fatty liver disease risk by 24 percent",
+   "lines": [
+    "Reducing sleep by one hour from the recommended seven to eight hours daily increases the risk of fat accumulation in the liver by 24 percent.",
+    "Without consistent sleep, the body's metabolism is disrupted, causing fat cells to accumulate in the liver and trigger the disease.",
+    "Medical research confirms a direct link between sleep deprivation and fatty liver disease.",
+    "It is significant that this condition can develop not only from age, weight, and dietary habits, but also from insufficient sleep.",
+    "Adequate sleep of at least seven hours daily is essential alongside a healthy lifestyle, balanced diet, and exercise to prevent fatty liver disease."
+   ],
+   "closing": "Getting at least seven hours of sleep daily is crucial to prevent fatty liver disease."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "sleeping person bedroom",
+  "wiki_subject": "Fatty liver disease",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7f611b8a76a4",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-23T16:19+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/science/inadequate-sleep-increases-the-risk-of-fatty-liver-disease/article66658540.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Non-alcoholic_fatty_liver_disease1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Fatty liver disease",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Fatty_liver_disease",
+   "symbolic": false
+  },
+  "audio": "data/audio/7f611b8a76a4.mp3",
+  "created_ts": 1792752565.8031013,
+  "status": "published"
+ },
+ {
+  "headline": "ஷாமொண்டா வைரஸ் முதல்முறையாக மனிதரில் கண்டறியப்பட்டது",
+  "lines": [
+   "ஆடு, கோழி முதலான கால்நடைகளைப் பாதிக்கும் ஷாமொண்டா வைரஸ் முதல்முறையாக ஒரு மனிதரில் கண்டறியப்பட்டுள்ளது.",
+   "இந்த வைரஸ் இதுவரை கால்நடைகளிலும் பறவைகளிலும் மட்டுமே பரவி வந்துள்ளது.",
+   "சுகாதார நிறுவனங்கள் இந்த வைரஸின் மனித-கால்நடை பரவல் மற்றும் மனித-மனித பரவல் பற்றி ஆய்வு நடத்தி வருகின்றன.",
+   "கால்நடைப் பெயர்வு, கூட்ட வளர்ப்பு, பாதுகாப்பு நடவடிக்கை ஆகியவை ஆபத்துக் காரணிகளாகக் கருதப்படுகின்றன.",
+   "இந்த அண்மைக் கண்டுபிடிப்பு பரிணாம வைரஸ்களின் மனிதப் பாதிப்பு பற்றி எச்சரிக்கையை உயர்த்தியுள்ளது."
+  ],
+  "closing": "ஷாமொண்டா வைரஸ் மனிதர்களுக்குப் பொதுவான ஆபத்தாக உள்ளதா என்பது பற்றி மேலும் ஆய்வு நடப்பதாகத் தெரிய வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "ஷாமொண்டா வைரஸ்",
+   "கால்நடை நோய்",
+   "சுகாதாரம்"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "Shamonda virus detected in humans for first time",
+   "lines": [
+    "The Shamonda virus, which primarily affects livestock and poultry, has been detected in a human for the first time.",
+    "The virus has previously only been documented in animals and birds.",
+    "Health organizations are investigating the virus's potential transmission routes between livestock and humans, and between humans.",
+    "Livestock movement, crowded farming conditions, and inadequate safety measures are considered potential risk factors.",
+    "This recent discovery raises concerns about the human health impact of emerging viruses that jump species barriers."
+   ],
+   "closing": "Further research is underway to determine whether the Shamonda virus poses a significant public health threat to humans."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "virus laboratory microscope",
+  "wiki_subject": "Shamonda virus",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "3e700fc9a461",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-23T16:18+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/shamonda-virus-the-livestock-pathogen-detected-in-human-for-the-first-time-explained/article71615063.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Virus_de_Schmallenger.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Shamonda virus",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Shamonda_virus",
+   "symbolic": false
+  },
+  "audio": "data/audio/3e700fc9a461.mp3",
+  "created_ts": 1792752514.7438338,
+  "status": "published"
+ },
+ {
+  "headline": "தென்காசியில் தங்க நரி தூதர் திட்டம் விரிவுபடுத்தப்பட்டு மெட்ராஸ் முள்ளம்பன்றியும் பாதுகாப்பு",
+  "lines": [
+   "தமிழ்நாட்டின் தென்காசி மாவட்டத்தில் தங்க நரிகளைப் பாதுகாக்க நடத்தப்படும் 'கோல்டன் ஜாக்கல் தூதர்கள்' திட்டம் விரிவுபடுத்தப்பட்டுள்ளது.",
+   "இத்திட்டத்தின் கீழ் இப்போது அரிய வகை மெட்ராஸ் முள்ளம்பன்றியையும் பாதுகாக்கும் பணி சேர்க்கப்பட்டுள்ளது.",
+   "வனத்துறை அதிகாரிகள் இத்திட்டத்தை உள்ளூர் மக்கள் பங்கேற்புடன் நடத்தி வருவதாகத் தெரிவித்துள்ளனர்.",
+   "தங்க நரி தூதர்கள் எனப்படும் உள்ளூர் தன்னார்வலர்கள் வனவிலங்குகள் குறித்த விழிப்புணர்வை பரப்பி வருகின்றனர்.",
+   "இத்திட்டத்தின் மூலம் பகுதியில் உள்ள அரிய உயிரினங்களின் எண்ணிக்கை பாதுகாக்கப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இத்திட்டம் தென்காசி மாவட்டத்தின் உயிரியல் பன்முகத்தன்மையை பாதுகாக்கும் முயற்சியின் ஒரு பகுதியாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தென்காசி மாவட்டம்",
+   "தங்க நரி",
+   "மெட்ராஸ் முள்ளம்பன்றி",
+   "வனத்துறை"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Tenkasi's Golden Jackal Ambassadors programme now includes hedgehog",
+   "lines": [
+    "The Golden Jackal Ambassadors programme in Tenkasi district of Tamil Nadu has been expanded.",
+    "The initiative will now also work to conserve the rare Madras hedgehog species.",
+    "Forest department officials said the programme is being run with the participation of local communities.",
+    "Local volunteers, known as Golden Jackal Ambassadors, have been spreading awareness about wildlife conservation.",
+    "The expanded effort is expected to help protect the numbers of rare species found in the region."
+   ],
+   "closing": "The programme forms part of efforts to conserve the biodiversity of Tenkasi district."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "golden jackal wildlife India",
+  "wiki_subject": "Golden jackal",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "806b12243c01",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-23T16:17+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Madurai/golden-jackal-ambassadors-programme-expanded-in-tenkasi-district-to-conserve-madras-hedgehog-also/article71612506.ece",
+   "https://www.thehindu.com/news/cities/Madurai/golden-jackal-ambassadors-programme-expanded-in-tenkasi-district-to-conserve-madras-hedgehog-also/article71612506.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/033_Golden_jackal_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg/3840px-033_Golden_jackal_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Golden jackal",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Golden_jackal",
+   "symbolic": false
+  },
+  "audio": "data/audio/806b12243c01.mp3",
+  "created_ts": 1792752480.5657723,
+  "status": "published"
+ },
+ {
+  "headline": "காங்கிரஸ் கூட்டணி நவம்பர் ஒன்றாம் தேதி டெல்லி போராட்டம் மூலம் அராஜகத்தை உண்டாக்க முயல்வதாக பாஜக குற்றச்சாட்டு",
+  "lines": [
+   "காங்கிரஸ் கட்சியும் அதன் கூட்டணிக் கட்சிகளும் நவம்பர் முதல் தேதி டெல்லியில் போராட்டம் நடத்தத் திட்டமிட்டுள்ளதாக பாஜக குற்றம் சாட்டியுள்ளது.",
+   "இந்தத் தேதியானது 1984ஆம் ஆண்டு சீக்கிய எதிர்ப்புக் கலவரத்துடன் தொடர்புடையது என பாஜக செய்தித் தொடர்பாளர் சுதான்சு த்ரிவேதி குறிப்பிட்டார்.",
+   "நாட்டில் அராஜகத்தை உருவாக்கும் நோக்கத்துடன் இந்தத் தேதியைத் தேர்ந்தெடுத்துள்ளது என்று அவர் குற்றம் சாட்டினார்.",
+   "மேலும் ராகுல் காந்தியை தோல்வியடைந்த தலைவர் என அவர் விமர்சித்தார்.",
+   "இந்தக் குற்றச்சாட்டுக்கு காங்கிரஸ் தரப்பில் இதுவரை அதிகாரப்பூர்வ பதில் வெளியாகவில்லை."
+  ],
+  "closing": "நவம்பர் முதல் தேதி நடைபெறும் எனக் கூறப்படும் இந்தப் போராட்டம் குறித்த மேலும் விவரங்கள் இன்னும் வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "காங்கிரஸ்",
+   "பாஜக",
+   "ராகுல் காந்தி",
+   "சுதான்சு த்ரிவேதி",
+   "டெல்லி"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Congress alliance's Nov 1 Delhi protest aimed at anarchy: BJP claims",
+   "lines": [
+    "Congress and its allied parties are reportedly planning a protest in Delhi on November 1.",
+    "BJP spokesperson Sudhanshu Trivedi noted that the date is linked to the 1984 anti-Sikh riots.",
+    "He accused the Congress party of choosing this date deliberately to create anarchy in the country.",
+    "He also reportedly criticized Congress leader Rahul Gandhi, calling him a failed leader.",
+    "Congress has not yet issued an official response to these allegations."
+   ],
+   "closing": "Further details about the planned November 1 protest have not yet been released."
+  },
+  "id": "b5946c1d6977",
+  "flags": [],
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-23T16:16+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/congress-allies-aim-to-create-anarchy-through-november-1-delhi-protest-bjp/article71615493.ece",
+   "https://www.thehindu.com/news/national/congress-allies-aim-to-create-anarchy-through-november-1-delhi-protest-bjp/article71615493.ece"
+  ],
+  "image": {
+   "url": "data/bank/india09.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/b5946c1d6977.mp3",
+  "created_ts": 1792752379.6738188,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "வண்டலூர் பூங்காவில் பறவைக் காய்ச்சலால் 7 பறவைகள் இறப்பு",
+  "lines": [
+   "சென்னை அருகே வண்டலூர் அறிஞர் அண்ணா உயிரியல் பூங்காவில் ஏழு நீர்வாழ் பறவைகள் ஹெச்5என்1 வகை பறவைக் காய்ச்சலால் உயிரிழந்தன.",
+   "பறவைக் காய்ச்சல் நோய்ப் பாதிப்பு உறுதி செய்யப்பட்ட பிறகு பூங்கா அக்டோபர் 22, 23ஆம் தேதிகளில் மூடப்பட்டுள்ளது.",
+   "உயிரியல் பூங்கா அதிகாரிகள் வணிக நடவடிக்கைகளை நிறுத்தி கண்டறிதல் மற்றும் தடுப்பு நடவடிக்கைகளை மேற்கொண்டுள்ளனர்.",
+   "ஹெச்5என்1 வைரஸ் பொதுவாக பறவைகளில் பரவினாலும், மிக அரிதாக மனிதர்களுக்குப் பரவக்கூடியது.",
+   "சுகாதாரத் துறை மனிதர்களுக்கான பாதுகாப்பு வழிமுறைகள் பற்றிய வழிகாட்டுதல்களை வெளியிட்டுள்ளது."
+  ],
+  "closing": "பறவைக் காய்ச்சல் பாதிப்பு பெரிய வெடிப்பாக மாறக்கூடிய அபாயம் தொடர்ந்து கண்காணிக்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": "2026-10-23"
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "வண்டலூர் அறிஞர் அண்ணா உயிரியல் பூங்கா",
+   "சென்னை",
+   "ஹெச்5என்1",
+   "பறவைக் காய்ச்சல்"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Seven birds die from avian flu at Vandalur Zoo near Chennai",
+   "lines": [
+    "Seven aquatic birds at Arignar Anna Zoological Park near Chennai died from H5N1 avian flu.",
+    "The zoo closed on October 22 and 23 after the bird flu outbreak was confirmed.",
+    "Zoo authorities have halted commercial activities and implemented testing and prevention measures.",
+    "H5N1 virus typically spreads among birds but can rarely transmit to humans.",
+    "Health authorities have issued guidelines on safety precautions for the public."
+   ],
+   "closing": "The potential risk of avian flu spread is being continuously monitored."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "",
+  "wiki_subject": "Arignar Anna Zoological Park",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "747aeba557eb",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-23T16:14+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/c370prezv754o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arignar_Anna_Zoological_park_27.jpg/3840px-Arignar_Anna_Zoological_park_27.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Arignar Anna Zoological Park",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Arignar_Anna_Zoological_Park",
+   "symbolic": false
+  },
+  "audio": "data/audio/747aeba557eb.mp3",
+  "created_ts": 1792752285.1217692,
+  "status": "published"
+ },
+ {
+  "headline": "மேற்குக் கரையில் துப்பாக்கிச் சூடு; முழு முடக்கத்திற்கு இஸ்ரேல் தயாரிப்பு",
+  "lines": [
+   "இஸ்ரேலால் ஆக்கிரமிக்கப்பட்ட மேற்குக் கரையில் ஹெப்ரான் அருகே நடந்த துப்பாக்கிச் சண்டையில் இருவர் கொல்லப்பட்டனர்.",
+   "இந்தத் தாக்குதலைத் தொடர்ந்து இஸ்ரேலிய ராணுவம் பகுதியை முற்றிலும் முடக்கத் திட்டமிட்டுள்ளது.",
+   "இஸ்ரேலிய பிரதமர் முழு மேற்குக் கரைப் பகுதியையும் மூடும் உத்தரவிடத் தயாராகி வருகிறார்.",
+   "இஸ்ரேலிய குடியேற்றவாசிகளின் தாக்குதல்கள் பாலஸ்தீனப் பகுதிகளில் பதற்றத்தை அதிகரித்து வருவதாகத் தெரிவிக்கப்படுகிறது.",
+   "இந்த முடக்க உத்தரவு எப்போது அமலுக்கு வரும் என்பது குறித்து தெளிவான அறிவிப்பு இன்னும் வெளியாகவில்லை."
+  ],
+  "closing": "இந்தச் சம்பவம் மேற்குக் கரையில் நீடித்து வரும் இஸ்ரேல்-பாலஸ்தீன மோதலின் தொடர்ச்சியாகக் கருதப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "இஸ்ரேல்",
+   "மேற்குக் கரை",
+   "ஹெப்ரான்",
+   "பாலஸ்தீனம்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Gunfight near Hebron, Israel prepares full West Bank lockdown",
+   "lines": [
+    "Two people were killed in a gun battle near Hebron in the occupied West Bank.",
+    "Following the attack, the Israeli military is planning a complete lockdown of the area.",
+    "According to Al Jazeera, Israel's prime minister is preparing to order a full shutdown of the occupied West Bank.",
+    "Attacks by Israeli settlers are reported to be heightening tensions across Palestinian territories.",
+    "There is no clear announcement yet on when the lockdown order will take effect."
+   ],
+   "closing": "The incident is seen as part of the ongoing Israeli-Palestinian conflict in the West Bank."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "wiki_subject": "West Bank",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e635f4785570",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-23T16:14+05:30",
+  "links": [
+   "https://www.aljazeera.com/video/newsfeed/2026/10/23/israeli-military-kills-two-in-gun-battle-in-occupied-west-bank?traffic_source=rss",
+   "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss"
+  ],
+  "image": {
+   "url": "data/bank/world08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/e635f4785570.mp3",
+  "created_ts": 1792752253.7136545,
+  "status": "published"
+ },
+ {
+  "headline": "சிறுத்தை தாக்குதல்கள் - ஹசனூர் வனக்காப்பகம் அலுவலகத்தை முற்றுகையிட்ட மக்கள்",
+  "lines": [
+   "ஈரோடு மாவட்டம் ஹசனூர் பகுதியில் சிறுத்தை தாக்குதல்களால் பாதிக்கப்பட்ட உள்ளூர் மக்கள் வனக்காப்பகம் அலுவலகத்தை முற்றுகையிட்டனர்.",
+   "சிறுத்தை ஒன்றும் அதன் இரண்டு குட்டிகளும் வனத்துறையினரால் ஒரு நாள் முன்னதாகவே பிடிக்கப்பட்ட நிலையில் இந்த எதிர்ப்பு நடந்தது.",
+   "பகுதி மக்கள் தங்களது பாதுகாப்பு கோரிக்கைகளை வனத்துறை அதிகாரிகளிடம் வலியுறுத்தினர்.",
+   "தொடர்ந்து நடைபெறும் சிறுத்தை தாக்குதல்களால் விவசாயிகளும் கால்நடை வளர்ப்பாளர்களும் அச்சத்துடன் இருப்பதாக மக்கள் தெரிவித்தனர்.",
+   "பகுதியில் கூடுதல் கண்காணிப்பு மற்றும் பாதுகாப்பு நடவடிக்கைகளை வனத்துறை மேற்கொள்ளும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "சத்தியமங்கலம் புலிகள் காப்பகம் அருகே உள்ள ஹசனூர் பகுதியில் சிறுத்தைகள் மனித குடியிருப்புகளுக்கு அருகே அடிக்கடி தென்படுவதாக உள்ளூர் மக்கள் தெரிவிக்கின்றனர்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "ஹசனூர்",
+   "ஈரோடு",
+   "வனத்துறை",
+   "சிறுத்தை"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Residents lay siege to Hasanur forest office over leopard attacks",
+   "lines": [
+    "Residents affected by leopard attacks in Hasanur area of Erode district laid siege to the local forest office.",
+    "The protest came a day after the Forest Department captured a leopard along with its two cubs.",
+    "Local residents pressed forest officials with their demands for safety measures.",
+    "Farmers and livestock rearers said they have been living in fear due to repeated leopard attacks in the area.",
+    "The Forest Department is expected to step up surveillance and safety measures in the region."
+   ],
+   "closing": "Residents say leopards have frequently been spotted near human settlements in Hasanur, located close to the Sathyamangalam Tiger Reserve."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Sathyamangalam Tiger Reserve",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7f1213d53b7f",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-23T16:13+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Coimbatore/residents-lay-siege-to-hasanur-forest-office-over-leopard-attacks/article71615434.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Nilgiris_Biosphere_Reserve.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Sathyamangalam Tiger Reserve",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Sathyamangalam_Tiger_Reserve",
+   "symbolic": false
+  },
+  "audio": "data/audio/7f1213d53b7f.mp3",
+  "created_ts": 1792752212.103824,
+  "status": "published"
+ },
+ {
+  "headline": "டி-ஸ்ட்ரீட் ரத்தம் சிந்துகிறது! பிஎஸ்இ பங்குச் சந்தை மதிப்பு 450 லட்சம் கோடிக்குக் கீழே வீழ்ச்சி",
+  "lines": [
+   "பிஎஸ்இ-ல் பட்டியலிடப்பட்ட நிறுவனங்களின் மொத்த சந்தை மதிப்பு ஏப்ரல் மாதத்திற்குப் பிறகு முதல்முறையாக 450 லட்சம் கோடி ரூபாயைக் கீழே சரிந்துவிட்டது.",
+   "சென்செக்ஸ் மற்றும் நிஃப்டி குறியீடுகள் நான்காவது நாளாகவும் தொடர்ச்சியாக வீழ்ச்சியைச் சந்தித்துவருகின்றன.",
+   "இந்த வாரம் மட்டும் சுமார் 25 லட்சம் கோடி ரூபாயளவு செல்வம் கைமீறிவிட்டுள்ளது.",
+   "கச்சா எண்ணெய் விலையுயர்வும் கடன்பத்திர வட்டி விகிதங்களின் உயர்வும் சந்தை நம்பிக்கையை பாதித்துக் கொண்டிருக்கின்றன.",
+   "இனியும் என்னென்ன வலிகள் வரக்கூடும் எனப் பல கேள்விகள் எழுந்திருக்கின்றன."
+  ],
+  "closing": "கச்சா எண்ணெய் விலை மற்றும் கடன்பத்திர வட்டி விகிதங்களின் போக்கே வரும் நாட்களில் சந்தையின் திசையைத் தீர்மானிக்கும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "பிஎஸ்இ",
+   "சென்செக்ஸ்",
+   "நிஃப்டி",
+   "இந்திய பங்குச் சந்தை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "BSE Market Value Falls Below Rs 450 Lakh Crore",
+   "lines": [
+    "The total market capitalisation of companies listed on the Bombay Stock Exchange fell below Rs 450 lakh crore for the first time since April.",
+    "The Sensex and Nifty indices extended their losses for a fourth consecutive session.",
+    "Nearly Rs 25 lakh crore of investor wealth has been wiped out this week alone.",
+    "Rising crude oil prices and increasing bond yields are reported to have weighed on market sentiment.",
+    "Investors are closely watching how long the market slide will continue."
+   ],
+   "closing": "The direction of crude oil prices and bond yields over the coming days is expected to determine the market's trajectory."
+  },
+  "front_cat": "routine",
+  "image_query": "Bombay Stock Exchange building",
+  "wiki_subject": "Bombay Stock Exchange",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "3c144266eb18",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-23T16:12+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/d-street-bleeds-market-value-of-all-bse-listed-firms-falls-below-rs-450-lakh-crore-for-first-time-since-april-more-pain-ahead/articleshow/135140291.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Bombay Stock Exchange",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Bombay_Stock_Exchange",
+   "symbolic": false
+  },
+  "audio": "data/audio/3c144266eb18.mp3",
+  "created_ts": 1792752156.5473099,
+  "status": "published"
+ },
+ {
+  "headline": "சாத்தான்குளம் அருகே பெண் வெட்டிக் கொலை, கணவர், மகன் காயம், இரண்டு மகள்கள் கடத்தல்",
+  "lines": [
+   "தூத்துக்குடி மாவட்டம் சாத்தான்குளம் அருகே ஒரு பெண் வெட்டிக் கொல்லப்பட்டார்.",
+   "இதே சம்பவத்தில் அவரது கணவர் மற்றும் மகன் காயமடைந்து சிகிச்சை பெற்று வருகின்றனர்.",
+   "இந்தக் குடும்பத்தைச் சேர்ந்த இரண்டு மகள்கள் காணாமல் போயுள்ளதாகத் தகவல் வெளியாகியுள்ளது.",
+   "சம்பவம் குறித்து காவல்துறையினர் விரிவான விசாரணை நடத்தி வருகின்றனர்.",
+   "காணாமல் போன சிறுமிகளைக் கண்டுபிடிக்க தேடுதல் பணிகள் தொடங்கப்பட்டுள்ளன."
+  ],
+  "closing": "சம்பவம் தொடர்பான முழு விவரங்களும் காவல்துறையின் அதிகாரப்பூர்வ அறிக்கையில் தெளிவாகும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-23"
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சாத்தான்குளம்",
+   "தூத்துக்குடி மாவட்டம்",
+   "காவல் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Woman killed near Sathankulam, two others injured",
+   "lines": [
+    "A woman was killed in a knife attack near Sathankulam in Thoothukudi district.",
+    "In the same incident, her husband and son were injured and are undergoing treatment.",
+    "Two daughters from the same family are reported to be missing.",
+    "Police are conducting a detailed investigation into the incident.",
+    "A search operation has been launched to trace the missing girls."
+   ],
+   "closing": "Full details of the incident are expected once police issue an official statement."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "24be7328150e",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-23T16:11+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/23/woman-killed-husband-and-son-injured-near-sathankulam-two-girls-missing"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/24be7328150e.mp3",
+  "created_ts": 1792752102.134508,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261023",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
   "lines": [
@@ -18228,651 +18839,6 @@
   "image": null,
   "audio": "data/audio/f05d86da55e6.mp3",
   "created_ts": 1792128189.9313302,
-  "status": "published"
- },
- {
-  "headline": "பெரியார் அறிவுலகம் திராவிட மாதிரி ஆட்சியின் சிந்தனை என ஸ்டாலின் தெரிவிப்பு",
-  "lines": [
-   "முதலமைச்சர் மு.க.ஸ்டாலின், பெரியார் அறிவுலகம் திராவிட மாதிரி ஆட்சியின் சொந்தச் சிந்தனை என்று தெரிவித்தார்.",
-   "அண்ணா நூற்றாண்டு நூலகம் சென்னையிலும், கலைஞர் நூற்றாண்டு நூலகம் மதுரையிலும் அமைக்கப்பட்டதாக அவர் குறிப்பிட்டார்.",
-   "முதல்வர் படைப்பகங்கள் மற்றும் எழும்பூரில் உள்ள கொன்னிமரா பொது நூலகப் புதுப்பித்தல் பணிகளையும் அரசு மேற்கொண்டதாக அவர் தெரிவித்தார்.",
-   "அறிவு மையங்களை வளர்க்கும் நோக்கில் திமுக அரசு பல்வேறு நூலகத் திட்டங்களைச் செயல்படுத்தி வருவதாக முதல்வர் விளக்கினார்.",
-   "இத்தகைய திட்டங்கள் மூலம் தமிழக மக்களிடையே அறிவு பரவலை மேம்படுத்த அரசு தொடர்ந்து முயற்சிகள் மேற்கொள்ளும் என்று அவர் தெரிவித்தார்."
-  ],
-  "closing": "பெரியார் அறிவுலகம் சென்னையில் அமைந்துள்ள அறிவியல் மற்றும் அறிவுத் தொடர்பான ஒரு அறிவுக் காட்சியகமாகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "பெரியார் அறிவுலகம்",
-   "மு.க.ஸ்டாலின்",
-   "அண்ணா நூற்றாண்டு நூலகம்",
-   "கலைஞர் நூற்றாண்டு நூலகம்",
-   "கொன்னிமரா பொது நூலகம்",
-   "சென்னை"
-  ],
-  "confidence": 0.85,
-  "en": {
-   "headline": "Periyar Arivulagam is Dravidian model government's brainchild, says Stalin",
-   "lines": [
-    "Chief Minister M. K. Stalin said Periyar Arivulagam is the original brainchild of the Dravidian model government.",
-    "He noted that the Anna Centenary Library has been set up in Chennai and the Kalaignar Centenary Library in Madurai.",
-    "He also mentioned the Mudhalvar Padaippagams and the renovation works carried out at the Connemara Public Library in Egmore.",
-    "The Chief Minister explained that the DMK government has implemented several library projects aimed at developing knowledge centres.",
-    "He said the government will continue efforts to spread knowledge among the people of Tamil Nadu through such projects."
-   ],
-   "closing": "Periyar Arivulagam is a knowledge and science exhibition centre located in Chennai."
-  },
-  "front_cat": "cm_pm_announcement",
-  "image_query": "M K Stalin Tamil Nadu",
-  "wiki_subject": "",
-  "person_en": "M. K. Stalin",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "97f62ee90cc6",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-16T10:52+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/periyar-arivulagam-is-dravidian-model-governments-brainchild-says-stalin/article71591021.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Chief_Minister_of_Tamil_Nadu%2C_Thiru_MK_Stalin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · M. K. Stalin",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/M._K._Stalin",
-   "symbolic": false
-  },
-  "audio": "data/audio/97f62ee90cc6.mp3",
-  "created_ts": 1792128150.4919698,
-  "status": "published"
- },
- {
-  "headline": "அமெரிக்காவில் பள்ளித் துப்பாக்கிச் சூடு, மூன்று குழந்தைகள் உள்பட நான்கு பேர் பலி",
-  "lines": [
-   "அமெரிக்காவின் ஒரிகான் மாநிலம் பெண்ட் நகரில் உள்ள ஒரு தொடக்கப் பள்ளியில் துப்பாக்கிச் சூடு நடந்தது.",
-   "இதில் ஐந்து, எட்டு, பதினொரு வயதுடைய மூன்று குழந்தைகள் மற்றும் ஒரு ஆசிரியர் உயிரிழந்தனர்.",
-   "பதினாறு வயது நபர் இந்தச் சம்பவத்தை நடத்தியதாக உள்ளூர் காவல்துறை தெரிவித்தது.",
-   "பள்ளிக்குள் அந்த நபரைப் பின்தொடர்ந்து சென்ற ஒரு பொதுமக்கள் அவரைச் சுட்டுக் கொன்றதாக காவல்துறை கூறியது.",
-   "சம்பவம் குறித்த முழு விசாரணை தற்போது நடைபெற்று வருவதாக அதிகாரிகள் தெரிவித்தனர்."
-  ],
-  "closing": "சம்பவம் தொடர்பான கூடுதல் விவரங்களை அதிகாரிகள் விரைவில் வெளியிடுவார்கள் என எதிர்பார்க்கப்படுகிறது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "ஒரிகான்",
-   "பெண்ட் நகரம்",
-   "அமெரிக்கா",
-   "தொடக்கப் பள்ளி",
-   "காவல் துறை"
-  ],
-  "confidence": 0.8,
-  "en": {
-   "headline": "US school shooting kills three children, a teacher in Oregon",
-   "lines": [
-    "A shooting occurred at a primary school in the city of Bend in the US state of Oregon.",
-    "Three children aged five, eight and eleven, along with a teacher, were killed in the incident.",
-    "Local police said a 16-year-old was responsible for carrying out the shooting.",
-    "Police said a community member who followed the suspect into the school shot him dead.",
-    "Officials said a full investigation into the incident is currently underway."
-   ],
-   "closing": "Further details about the incident are expected to be released by officials soon."
-  },
-  "front_cat": "mass_casualty",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "unverified_claim"
-  ],
-  "id": "ec13367c2ac3",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-16T10:50+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
-   "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
-   "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss"
-  ],
-  "image": {
-   "url": "data/bank/world08.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/ec13367c2ac3.mp3",
-  "created_ts": 1792128004.709722,
-  "status": "published"
- },
- {
-  "headline": "தவெக அமைச்சர் மீது நடவடிக்கை கோரி ஆளுநரிடம் அதிமுக மனு அளிப்பு",
-  "lines": [
-   "அதிமுக கட்சியினர் தவெக அமைச்சர் மீது நடவடிக்கை எடுக்கக் கோரி தமிழ்நாடு ஆளுநரிடம் மனு அளித்தனர்.",
-   "மனுவில் குறிப்பிடப்பட்டுள்ள அமைச்சரின் பெயர் மற்றும் குற்றச்சாட்டு விவரங்கள் இதுவரை வெளியாகவில்லை.",
-   "மனு அளித்த அதிமுக பிரதிநிதிகள் விரைந்து நடவடிக்கை எடுக்க வேண்டும் என வலியுறுத்தியதாகத் தெரிகிறது.",
-   "இது தொடர்பாக ஆளுநர் அலுவலகம் இதுவரை அதிகாரப்பூர்வமாக எதுவும் தெரிவிக்கவில்லை.",
-   "இந்த மனுவின் அடுத்த கட்ட நடவடிக்கை குறித்து இன்னும் தெளிவு வரவில்லை."
-  ],
-  "closing": "இந்த மனு தொடர்பான முழு விவரங்கள் இன்னும் வெளியிடப்படாததால், குற்றச்சாட்டுகள் என்ன என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "அதிமுக",
-   "ஆளுநர் அலுவலகம்",
-   "தமிழ்நாடு அரசு"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "AIADMK Petitions Governor Seeking Action Against Minister",
-   "lines": [
-    "AIADMK members submitted a petition to the Tamil Nadu Governor demanding action against a minister.",
-    "The name of the minister and the specific allegations have not yet been made public.",
-    "The AIADMK representatives who submitted the petition reportedly urged swift action.",
-    "The Governor's office has not issued any official statement on the petition so far.",
-    "It remains unclear what the next course of action on this petition will be."
-   ],
-   "closing": "As full details of the petition have not been released, what the allegations actually are remains to be seen."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "id": "b279a151d38d",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-16T06:40+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/15/aiadmk-submits-petition-to-governor-seeking-action-against-tvk-minister"
-  ],
-  "image": {
-   "url": "data/bank/govt08.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/b279a151d38d.mp3",
-  "created_ts": 1792113014.7182577,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "சென்னை உயர்நீதிமன்றத்தில் இரு புதிய நீதிபதிகள் பதவிப் பிரமாணம்",
-  "lines": [
-   "சென்னை உயர்நீதிமன்றத்தில் நீதிபதிகள் டி.லிங்கேஸ்வரன், பி.கார்த்திகேயன் ஆகிய இருவரும் வியாழக்கிழமை பதவிப் பிரமாணம் செய்து கொண்டனர்.",
-   "இதன் மூலம் உயர்நீதிமன்றத்தில் பணியாற்றும் நீதிபதிகளின் எண்ணிக்கை அறுபத்தேழாக உயர்ந்துள்ளது.",
-   "தலைமை நீதிபதி சுஷ்ருத் அரவிந்த் தர்மாதிகாரி, இரு புதிய நீதிபதிகளுக்கும் பதவிப் பிரமாணம் செய்து வைத்தார்.",
-   "நீதிபதிகள் பணியிடங்களை நிரப்பும் நடவடிக்கையின் ஒரு பகுதியாக இந்த நியமனம் மேற்கொள்ளப்பட்டுள்ளது.",
-   "புதிய நீதிபதிகள் இருவரும் இன்றிலிருந்தே தங்கள் நீதிமன்றப் பணிகளைத் தொடங்கியுள்ளனர்."
-  ],
-  "closing": "நிலுவை வழக்குகள் அதிகரித்துவரும் நிலையில், நீதிமன்றங்களில் நீதிபதிகள் எண்ணிக்கையை நிரப்பும் நடவடிக்கைகள் தொடர்ந்து மேற்கொள்ளப்பட்டு வருகின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர்நீதிமன்றம்",
-   "டி.லிங்கேஸ்வரன்",
-   "பி.கார்த்திகேயன்",
-   "சுஷ்ருத் அரவிந்த் தர்மாதிகாரி"
-  ],
-  "confidence": 0.85,
-  "en": {
-   "headline": "Two more judges sworn in at Madras High Court, strength rises to 67",
-   "lines": [
-    "Justices D. Lingeswaran and B. Karthikeyan were sworn in at the Madras High Court on Thursday.",
-    "With this, the working strength of judges at the High Court has risen to 67.",
-    "Chief Justice Sushrut Arvind Dharmadhikari administered the oath of office to both new judges.",
-    "The appointment is part of ongoing efforts to fill vacant judicial posts at the court.",
-    "Both new judges have begun their judicial duties from today."
-   ],
-   "closing": "With pending cases on the rise, efforts to fill up judicial vacancies in courts continue to be undertaken.",
-   "closing_type": "background"
-  },
-  "id": "b5863cd84614",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-10-16T06:39+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/two-more-judges-sworn-in-at-madras-high-court-increasing-its-working-strength-to-67/article71589566.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/b5863cd84614.mp3",
-  "created_ts": 1792112952.7524345,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "உரிமம் இல்லாமல் அரசுப் பேருந்து ஓட்டிய தவெக எம்எல்ஏ மீது விசாரணை",
-  "lines": [
-   "தமிழக வெற்றிக் கழகத்தைச் சேர்ந்த எம்எல்ஏ குமார் அரசுப் பேருந்தை செல்லுபடியான ஓட்டுநர் உரிமம் இல்லாமல் ஓட்டியுள்ளார்.",
-   "ஒரு அரசுத் திட்டத் தொடக்க விழாவின்போது இந்தச் சம்பவம் நடந்ததாக தெரிகிறது.",
-   "சுமார் முப்பது பயணிகளுடன் அவர் பேருந்தை ஓட்டிச் செல்லும் காணொளி சமூக ஊடகங்களில் பரவியது.",
-   "இந்தக் காணொளி வெளியான பின்னர் சம்பந்தப்பட்ட அதிகாரிகள் விசாரணைக்கு உத்தரவிட்டுள்ளனர்.",
-   "விசாரணை முடிவுகளைப் பொறுத்து மேலும் நடவடிக்கை எடுக்கப்படும் என்று எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இச்சம்பவம் தொடர்பான முழு விவரங்களும் விசாரணை அறிக்கையும் இன்னும் வெளியிடப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "தமிழக வெற்றிக் கழகம்",
-   "எம்எல்ஏ குமார்",
-   "அரசுப் பேருந்து",
-   "அரசுத் திட்டம்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Probe ordered after TVK MLA drives govt bus without valid licence",
-   "lines": [
-    "A TVK MLA identified as Kumar was found driving a government bus without a valid driving licence.",
-    "The incident reportedly took place during the launch of a government scheme.",
-    "A video showing him driving the bus with around thirty commuters went viral on social media.",
-    "Following the video's circulation, officials have ordered a probe into the incident.",
-    "Further action is expected once the investigation findings are made public."
-   ],
-   "closing": "Complete details of the incident and the probe report have not yet been released."
-  },
-  "front_cat": "routine",
-  "image_query": "government bus india",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "f11d9b11743c",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-16T06:37+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/probe-into-tvk-mla-driving-government-bus-without-valid-licence-during-launch-of-scheme/article71540822.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/f11d9b11743c.mp3",
-  "created_ts": 1792112849.0815542,
-  "status": "published"
- },
- {
-  "headline": "விழுப்புரத்தில் விடுபட்ட வாக்காளர்களைச் சேர்க்க சிறப்பு இயக்கம்",
-  "lines": [
-   "விழுப்புரம் மாவட்டத்தில் வாக்காளர் பட்டியலில் இடம்பெறாத தகுதியானோரைச் சேர்க்க தேர்தல் ஆணையம் சிறப்பு பதிவு இயக்கத்தை நடத்துகிறது.",
-   "மாவட்ட தேர்தல் அலுவலரும் ஆட்சியருமான ஷேக் அப்துல் ரஹ்மான் இது தொடர்பாக அறிக்கை ஒன்றை வெளியிட்டார்.",
-   "சிறப்பு தீவிர திருத்தம் எனப்படும் எஸ்ஐஆர் கட்டத்தின்போது படிவம் 6-உடன் இணைந்த பிரகடனப் படிவம் பயன்படுத்தப்படும் என அவர் தெரிவித்தார்.",
-   "எஸ்ஐஆர் அல்லாத காலத்தில் வாக்காளர் பதிவு விதிகள் 1960-ன் கீழ் பொருந்தும் படிவங்கள் பயன்படுத்தப்படும் என அவர் விளக்கினார்.",
-   "விடுபட்ட வாக்காளர்கள் இந்த வாய்ப்பைப் பயன்படுத்தி பெயர் சேர்க்குமாறு அதிகாரிகள் கேட்டுக்கொண்டுள்ளனர்."
-  ],
-  "closing": "சிறப்பு தீவிர திருத்தம் என்பது வாக்காளர் பட்டியலைத் துல்லியமாகப் புதுப்பிக்க தேர்தல் ஆணையம் நடத்தும் நாடு தழுவிய பணியாகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "விழுப்புரம்",
-   "தேர்தல் ஆணையம்",
-   "ஷேக் அப்துல் ரஹ்மான்",
-   "படிவம் 6",
-   "எஸ்ஐஆர்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Special drive to enrol left-out electors in Villupuram",
-   "lines": [
-    "The Election Commission is conducting a special drive in Villupuram district to enrol eligible electors missing from the voter list.",
-    "District Election Officer and Collector Sheik Abdul Rahman released a statement regarding the drive.",
-    "He said the Declaration Form attached with Form 6 will be used during the Special Intensive Revision, or SIR, phase.",
-    "He explained that for the non-SIR period, forms applicable under the Registration of Electors Rules, 1960, will be used instead.",
-    "Officials have urged left-out electors to use this opportunity to get their names added."
-   ],
-   "closing": "Special Intensive Revision is a nationwide exercise conducted by the Election Commission to accurately update the voter list.",
-   "closing_type": "background"
-  },
-  "id": "4e0a7822a639",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-10-16T06:36+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/eci-to-conduct-special-drive-to-enrol-left-out-electors-in-villupuram/article71543022.ece"
-  ],
-  "image": {
-   "url": "data/bank/govt07.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/4e0a7822a639.mp3",
-  "created_ts": 1792112801.936129,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "இந்திய ரூபாய் 95.05-ஆக உயர்வு, முன்கூட்டிய பிரீமியம் நான்கு ஆண்டு உச்சத்தில்",
-  "lines": [
-   "வியாழக்கிழமை இந்திய ரூபாயின் மதிப்பு பத்து காசுகள் உயர்ந்து, ஒரு டாலருக்கு 95.05 ரூபாயாக முடிவடைந்தது.",
-   "இதே நேரத்தில், முன்கூட்டிய பணமாற்றுப் பிரீமியங்கள் கடந்த நான்கு ஆண்டுகளில் இல்லாத அளவுக்கு உயர்ந்துள்ளன.",
-   "இந்திய ரிசர்வ் வங்கி மேற்கொண்ட நடவடிக்கைகள் அந்நிய செலாவணி வழித்தோன்றல் சந்தையில் பெரும் தாக்கத்தை ஏற்படுத்தியதாகத் தெரிவிக்கப்படுகிறது.",
-   "இதன் காரணமாக முன்னெச்சரிக்கை பாதுகாப்பு ஏற்பாடுகளுக்கான செலவுகள் அதிகரித்துள்ளதாக சந்தை நிபுணர்கள் தெரிவிக்கின்றனர்.",
-   "அந்நிய செலாவணிச் சந்தை நிலவரத்தை இந்திய ரிசர்வ் வங்கி தொடர்ந்து கண்காணித்து வருவதாகத் தெரிகிறது."
-  ],
-  "closing": "அந்நிய செலாவணிச் சந்தையில் ஏற்படும் ஏற்ற இறக்கத்தைக் கட்டுப்படுத்த இந்திய ரிசர்வ் வங்கி அவ்வப்போது தலையிடுவது வழக்கமான நடைமுறை ஆகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": "2026-10-16"
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "இந்திய ரூபாய்",
-   "இந்திய ரிசர்வ் வங்கி",
-   "டாலர்",
-   "அந்நிய செலாவணிச் சந்தை"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Indian rupee strengthens to 95.05 as forward premiums hit four-year high",
-   "lines": [
-    "The Indian rupee gained 10 paise on Thursday to close at 95.05 against the US dollar.",
-    "At the same time, forward currency premiums rose to levels not seen in more than four years.",
-    "Measures taken by the Reserve Bank of India are reported to have significantly impacted the forex derivatives market.",
-    "As a result, hedging costs have risen, according to market experts.",
-    "The Reserve Bank of India is reported to be continuously monitoring conditions in the forex market."
-   ],
-   "closing": "The Reserve Bank of India routinely intervenes in the forex market to manage volatility."
-  },
-  "front_cat": "price_policy",
-  "image_query": "Indian rupee currency exchange",
-  "wiki_subject": "Indian rupee",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "198871b8c693",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-16T06:35+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-strengthens-to-95-05-a-dollar-as-forward-premiums-hit-four-year-high-amid-rbi-measures/articleshow/134979657.cms"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Banknote_of_india.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Indian rupee",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Indian_rupee",
-   "symbolic": false
-  },
-  "audio": "data/audio/198871b8c693.mp3",
-  "created_ts": 1792112730.2831745,
-  "status": "published"
- },
- {
-  "headline": "தமிழகத்தில் வடகிழக்கு பருவமழை தொடக்கம்",
-  "lines": [
-   "தமிழகத்தில் வடகிழக்கு பருவமழை தொடங்கியுள்ளதாக வானிலை ஆய்வு மையத் தகவல் தெரிவிக்கிறது.",
-   "இந்தப் பருவமழை பொதுவாக அக்டோபர் முதல் டிசம்பர் வரை தமிழகத்தில் பெய்யும் வழக்கம் உண்டு.",
-   "வளைகுடாவில் ஏற்படும் காற்றழுத்த மாற்றங்களே இந்தப் பருவமழைக்குக் காரணமாக அமைகின்றன.",
-   "தமிழகத்தின் பெரும்பாலான மழைப் பொழிவு இந்தப் பருவத்தின் மூலமே கிடைக்கிறது என வானிலை நிபுணர்கள் தெரிவிக்கின்றனர்.",
-   "அடுத்த சில நாட்களில் மாநிலம் முழுவதும் மழையின் தாக்கம் அதிகரிக்கும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "வடகிழக்கு பருவமழைக் காலத்தில் மழையின் தீவிரம் எப்படி மாறுகிறது என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": "2026-10-16"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தமிழ்நாடு",
-   "வடகிழக்கு பருவமழை",
-   "வானிலை ஆய்வு மையம்"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Northeast monsoon begins in Tamil Nadu",
-   "lines": [
-    "The northeast monsoon has begun in Tamil Nadu, according to weather department information.",
-    "This monsoon usually brings rainfall to Tamil Nadu from October through December.",
-    "Pressure changes over the Bay of Bengal are the main cause behind this seasonal rainfall.",
-    "Meteorologists note that most of Tamil Nadu's annual rainfall comes from this particular monsoon season.",
-    "Rainfall intensity across the state is expected to increase over the coming days."
-   ],
-   "closing": "How the rainfall intensity evolves through this northeast monsoon season remains to be seen."
-  },
-  "front_cat": "disaster_warning",
-  "image_query": "monsoon rain Tamil Nadu",
-  "wiki_subject": "Northeast monsoon",
-  "person_en": "",
-  "urgent": true,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "3c13da28f076",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-16T06:32+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/15/northeast-monsoon-begins-in-tamil-nadu"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Monsoon_clouds_near_Nagercoil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Monsoon",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Monsoon",
-   "symbolic": false
-  },
-  "audio": "data/audio/3c13da28f076.mp3",
-  "created_ts": 1792112552.0199072,
-  "status": "published"
- },
- {
-  "headline": "மதுரந்தகம் இடைத்தேர்தல்: அதிமுக கோட்டையில் தவெக வெல்லுமா?",
-  "lines": [
-   "மதுரந்தகம் தொகுதியில் இடைத்தேர்தல் நடைபெற உள்ள நிலையில், முன்னாள் அதிமுக தலைவர் மரகதம் குமரவேல் தமிழக வெற்றிக் கழகத்தின் வேட்பாளராக மீண்டும் போட்டியிடுகிறார்.",
-   "2026-ஆம் ஆண்டுத் தேர்தலில் வென்ற மூன்றே வாரங்களில் அவர் அதிமுக சட்டமன்ற உறுப்பினர் பதவியை ராஜினாமா செய்தார்.",
-   "மதுரந்தகம் தொகுதி நீண்ட காலமாக அதிமுகவின் கோட்டையாகக் கருதப்படுவதாக அரசியல் பார்வையாளர்கள் தெரிவிக்கின்றனர்.",
-   "சில வாக்காளர்கள் இன்னும் முடிவெடுக்காத நிலையில் உள்ளதாகவும், தவெக தலைவரின் செல்வாக்கு இருந்தாலும் தங்கள் வாக்கு அக்கட்சிக்குச் செல்லாது என்று சிலர் கூறுவதாகவும் தெரிகிறது.",
-   "இடைத்தேர்தல் முடிவு, அதிமுக கோட்டை தக்கவைக்கப்படுமா அல்லது தவெகவின் வளர்ந்துவரும் செல்வாக்கு வெற்றி பெறுமா என்பதைத் தீர்மானிக்கும்."
-  ],
-  "closing": "மதுரந்தகம் வாக்காளர்கள் யாருக்கு ஆதரவு தருவார்கள் என்பது இடைத்தேர்தல் முடிவில் தெரியவரும்.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "மதுரந்தகம்",
-   "அதிமுக",
-   "தமிழக வெற்றிக் கழகம்",
-   "மரகதம் குமரவேல்"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Madurantakam bypoll: Will AIADMK bastion fall to TVK?",
-   "lines": [
-    "With a by-election due in Madurantakam constituency, former AIADMK leader Maragatham Kumaravel is contesting again, this time as the TVK candidate.",
-    "She resigned as AIADMK MLA barely three weeks after winning the 2026 election.",
-    "Political observers say Madurantakam has long been considered an AIADMK stronghold.",
-    "Some voters remain undecided, while others say they may not vote for TVK despite the party leader's popularity.",
-    "The by-election result will determine whether the AIADMK bastion holds or TVK's growing influence prevails."
-   ],
-   "closing": "The by-election outcome will reveal which way Madurantakam voters lean."
-  },
-  "front_cat": "election_major",
-  "image_query": "Maragatham Kumaravel",
-  "wiki_subject": "",
-  "person_en": "Maragatham Kumaravel",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "71b58ce3f73b",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-16T06:30+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/madurantakam-by-election-will-the-aiadmk-bastion-fall-to-tvks-growing-popularity/article71540871.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/K._Maragatham_Lok_Sabha_MP_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · K. Maragatham",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/K._Maragatham",
-   "symbolic": false
-  },
-  "audio": "data/audio/71b58ce3f73b.mp3",
-  "created_ts": 1792112417.0954537,
-  "status": "published"
- },
- {
-  "headline": "ஆகஸ்ட் மாதம் இந்தியாவின் நடப்புக் கணக்கு பற்றாக்குறை 5.2 பில்லியன் டாலராகக் குறைவு",
-  "lines": [
-   "இந்திய ரிசர்வ் வங்கி வெளியிட்ட தரவுப்படி, ஆகஸ்ட் மாதத்தில் நாட்டின் நடப்புக் கணக்கு பற்றாக்குறை 5.2 பில்லியன் டாலராகக் குறைந்துள்ளது.",
-   "கடந்த ஆண்டு இதே மாதத்தில் இந்தப் பற்றாக்குறை 6.1 பில்லியன் டாலராக இருந்தது என்பது குறிப்பிடத்தக்கது.",
-   "மூலதனக் கணக்கு உபரி 50.6 பில்லியன் டாலராக உயர்ந்துள்ளது, இது வெளிநாட்டில் வசிக்கும் இந்தியர்களின் 83 பில்லியன் டாலர் வைப்புத்தொகையால் ஈர்க்கப்பட்டது.",
-   "இதன் விளைவாக, நாட்டின் மொத்தப் பணப்புழக்க சமநிலை 45.4 பில்லியன் டாலர் உபரியைக் காட்டியது, முந்தைய ஆண்டு இது 5.6 பில்லியன் டாலர் பற்றாக்குறையாக இருந்தது.",
-   "இதே காலத்தில், வெளிநாட்டு வணிகக் கடன் வாங்கல் மூலம் 22.4 பில்லியன் டாலர் நிகர வெளியோட்டம் பதிவாகியுள்ளது."
-  ],
-  "closing": "இந்திய ரிசர்வ் வங்கி ஒவ்வொரு மாதமும் நாட்டின் நடப்புக் கணக்கு மற்றும் மூலதனக் கணக்கு தரவுகளை வெளியிடுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "இந்தியா",
-   "இந்திய ரிசர்வ் வங்கி",
-   "நடப்புக் கணக்கு பற்றாக்குறை",
-   "மூலதனக் கணக்கு",
-   "வெளிநாட்டு வணிகக் கடன்"
-  ],
-  "confidence": 0.8,
-  "en": {
-   "headline": "India's current account deficit narrows to $5.2 billion in August",
-   "lines": [
-    "According to data released by the Reserve Bank of India, the country's current account deficit narrowed to $5.2 billion in August.",
-    "This deficit stood at $6.1 billion in the same month a year earlier, the data noted.",
-    "The capital account surplus rose to $50.6 billion, driven by $83 billion in non-resident Indian deposits.",
-    "As a result, the overall balance of payments showed a surplus of $45.4 billion, compared to a deficit of $5.6 billion in the previous year.",
-    "During the same period, external commercial borrowings recorded a net outflow of $22.4 billion."
-   ],
-   "closing": "The Reserve Bank of India releases the country's current account and capital account data every month.",
-   "closing_type": "background"
-  },
-  "id": "60d51605068e",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-16T06:28+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/news/indias-current-account-deficit-narrows-to-5-2-billion-in-august-as-capital-account-surplus-hits-50-6-billion/articleshow/134979546.cms"
-  ],
-  "image": {
-   "url": "data/bank/economy07.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/60d51605068e.mp3",
-  "created_ts": 1792112318.7553864,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
   "status": "published"
  }
 ]

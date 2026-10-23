@@ -1,20 +1,22 @@
+[expire] bc35bf371d86
+[expire] 8f9cdf7f86e4
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 7 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
 [fetch] BBC World: 21 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 20 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
-[fetch] Cinema Express: 27 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 9 புதியவை
+[fetch] The Hindu Health: 13 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -28,15 +30,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 6 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 7 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 30 புதியவை
+[fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,67 +58,66 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3795dd67d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6772c6da90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 22 புதியவை
+[fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 684 → நிகழ்வுகள் 617
-[triage] 617 → 78 | காலி: india:4, world:3, jobs:3, health:3, cinema:3
-[image] களஞ்சியம் (2 சொல்): ரயில் சக்கரத் தொழிற்சாலையில் வாட்ச
-[tts-edge] ca67f96d4ae5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ரயில் சக்கரத் தொழிற்சாலையில் வாட்சர், மேற்பார்வையாளர் பணியிடங்களுக்கு விண்ணப்பம்
-[skip] வெளிநாட்டுச் செய்தி — போலந்து அரசியல் மற்றும் அங்கு நடக்கும்
-[திருத்தம்] கார்த்திக் சுப்பராஜ் 'டோரதி'ல மிருகங்கள் → கார்த்திக் சுப்பராஜின் 'டோரதி'ல மிருகங்க
-[தரம்] தமிழ் அல்லாத எழுத்து: জহ → ஒரு திருத்தம்
-[tts-edge] 73efcd3fa86c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கார்த்திக் சுப்பராஜின் 'டோரதி'ல மிருகங்கள் வாயிலாக மனித சிறுமை
-[skip] இந்திய அணির ஒரு வீரர் ஒரு போட்டிக்குத் திரிபுண்டு விலக்கப்பட
-[நகல்] ஏற்கனவே வெளியானது: இன்று 6 மாவட்டங்களுக்கு ஆரஞ்சு அலர்ட், சென்னையில் கனமழை எச்ச
-[திருத்தம்] வங்கக் கடலில் புதிய காற்றழுத்த தாழ்வுப்  → வங்கக் கடலில் புதிய காற்றழுத்தத் தாழ்வுப
-[image] களஞ்சியம் (2 சொல்): வங்கக் கடலில் புதிய காற்றழுத்தத் த
-[publish] வங்கக் கடலில் புதிய காற்றழுத்தத் தாழ்வுப் பகுதி உருவானது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJdUWc5H7Ait4czDWsqi'}
-[திருத்தம்] சென்னை உள்பட 24 மாவட்டங்களில் இரண்டு மணி → சென்னை உள்பட 24 மாவட்டங்களில் அடுத்த 2 ம
-[image] களஞ்சியம் (3 சொல்): சென்னை உள்பட 24 மாவட்டங்களில் அடுத
-[publish] சென்னை உள்பட 24 மாவட்டங்களில் அடுத்த 2 மணிநேரத்தில் மழை எச்சரிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJdcgikzifNvPyMqYeGA'}
+[run] புதியவை 693 → நிகழ்வுகள் 632
+[triage] 632 → 69 | காலி: india:4, world:3, sports:3, health:2, cinema:2
+[skip] வெளிநாட்டு வீரரின் ஓய்வு பெறும் செய்தி. தமிழ்நாட்டு/இந்திய வ
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] சூடான் உள்갈등 - தமிழ்நாடு/இந்தியாவுக்குத் நேரடித் தொடர்பு இல்
-[skip] ஜெர்மனியின் உள்நாட்டு பாதுகாப்பு விவகாரம். தமிழ்நாடு அல்லது 
-[skip] உலக அளவில் முக்கியமான ரஷ்யா-உக்ரைன் யுദ்ধ செய்தி என்றாலும், 
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகருக்குப்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJdjkNywM7PkGuwHFLqo'}
-[skip] உலகச் செய்திகளில் இதுவும் பொதுவான பேரிடர் — தென்மேல் ஆசியாவி
-[skip] மூலத்தில் உள்ள தகவல் சரிபார்க்க முடியாதது. குறிப்பிடப்பட்டுள
-[skip] வெளிநாட்டு அமைப்பின் பரிசு பற்றிய செய்தி. தமிழ்நாடு அல்லது இ
-[திருத்தம்] தமிழ்நாடு அரசு 2027ஆம் ஆண்டு பொது விடுமு → தமிழ்நாடு அரசு 2027ஆம் ஆண்டு பொது விடுமு
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாடு அரசு 2027ஆம் ஆண்டு பொது 
-[publish] தமிழ்நாடு அரசு 2027ஆம் ஆண்டு பொது விடுமுறை பட்டியல் வெளியிடு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJdtQF1P4r1TwFTK2dgx'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgK2Zit5bwhEGPW2HDVAF'}
+[திருத்தம்] சாத்தான்குளம் அருகே பெண் வெட்டிக் கொலை,  → சாத்தான்குளம் அருகே பெண் வெட்டிக் கொலை, 
+[image] களஞ்சியம் (2 சொல்): சாத்தான்குளம் அருகே பெண் வெட்டிக் 
+[tts-edge] 24be7328150e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சாத்தான்குளம் அருகே பெண் வெட்டிக் கொலை, கணவர், மகன் காயம், இரண்டு மகள்கள் கடத்தல்
+[திருத்தம்] பிஎஸ்இ பங்குச் சந்தை மதிப்பு 450 லட்சம்  → டி-ஸ்ட்ரீட் ரத்தம் சிந்துகிறது! பிஎஸ்இ ப
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[tts-edge] 3c144266eb18: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] டி-ஸ்ட்ரீட் ரத்தம் சிந்துகிறது! பிஎஸ்இ பங்குச் சந்தை மதிப்பு 450 லட்சம் கோடிக்குக் கீழே வீழ்ச்சி
+[skip] வெளிநாட்டு உள்ளூர் பேரிடர் செய்தி — தமிழ்நாடு/இந்தியாவுடன் ந
+[skip] இஸ்ரேல் உள்நாட்டுப் பொதுவுரிமைச் செய்தி — தமிழ்நாடு/இந்திய வ
+[திருத்தம்] சிறுத்தை தாக்குதல்கள் - ஹசனூர் வனத்துறை  → சிறுத்தை தாக்குதல்கள் - ஹசனூர் வனக்காப்ப
+[publish] சிறுத்தை தாக்குதல்கள் - ஹசனூர் வனக்காப்பகம் அலுவலகத்தை முற்றுகையிட்ட மக்கள்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: மேற்குக் கரையில் துப்பாக்கிச் சூடு
+[publish] மேற்குக் கரையில் துப்பாக்கிச் சூடு; முழு முடக்கத்திற்கு இஸ்ரேல் தயாரிப்பு
+[publish] வண்டலூர் பூங்காவில் பறவைக் காய்ச்சலால் 7 பறவைகள் இறப்பு
+[skip] பிற நாட்டு உள்ளூர் நிரப்பு — இஸ்ரேல்-பாலஸ்தீன மோதல் தமிழ்நாட
+[skip] வெளிநாட்டு தொழில்நுட்ப செய்திக்குத் தமிழ்நாடு/இந்தியாவுடன் ந
+[skip] பிரேசிலின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித
+[skip] வெளிநாட்டு அரசுத்துறையின் உள்ளூர் சூழல் — தமிழ்நாடு/இந்தியாவ
+[skip] சர்பியாவின் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்தியாவுடன் நேரடித
+[skip] இஸ்राயேலின் உள்நாட்டுத் தேர்தல் — தமிழ்நாடு அல்லது இந்தியாவு
+[skip] செர்பியா உள் அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்கவில
+[திருத்தம்] காங்கிரஸ் கூட்டணியின் நவம்பர் ஒன்று டெல் → காங்கிரஸ் கூட்டணி நவம்பர் ஒன்றாம் தேதி ட
+[தரம்] தமிழ் அல்லாத எழுத்து: 弾指 → ஒரு திருத்தம்
+[publish] காங்கிரஸ் கூட்டணி நவம்பர் ஒன்றாம் தேதி டெல்லி போராட்டம் மூலம் அராஜகத்தை உண்டாக்க முயல்வதாக பாஜக குற்றச்சாட்டு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (இடம், தேதி, முட
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] முதல்வர் மேஜையில் 3 ஊழல் கோப்புகள்: அமைச → முதல்வர் மேஜையில் 3 ஊழல் கோப்புகள் விரைவ
-[publish] முதல்வர் மேஜையில் 3 ஊழல் கோப்புகள் விரைவில் வெளியாகும்: அமைச்சர் மரிய வில்சன்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJe8rSzoAzy8m93253zd'}
-[image] களஞ்சியம் (4 சொல்): எண்ணெய் விலை உயர்வால் சென்செக்ஸ் 1
-[publish] எண்ணெய் விலை உயர்வால் சென்செக்ஸ் 1,000 புள்ளி சரிவு, நிஃப்டி 22,500க்குக் கீழே
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJeF7q7vpzWkG3Z4KLza'}
-[திருத்தம்] கோடக் மகிந்திரா வங்கி இரண்டாம் காலாண்டு  → கோடக் மகிந்திரா வங்கி Q2 லாபம் 32 சதவீதம
-[image] களஞ்சியம் (3 சொல்): கோடக் மகிந்திரா வங்கி Q2 லாபம் 32 
-[publish] கோடக் மகிந்திரா வங்கி Q2 லாபம் 32 சதவீதம் வரை உயரலாம்
-[filler] health கட்டுரை
-[jobs] தொகுப்பு 12
+[skip] கர்நாடகாவின் உள்ளூர் விவசாயிகள் போராட்டம் - தமிழ்நாட்டுடன் ந
+[திருத்தம்] தென்காசியில் தங்க நரி பாதுகாப்புத் திட்ட → தென்காசியில் தங்க நரி அம்பாசেடர் திட்டம்
+[தரம்] தமிழ் அல்லாத எழுத்து: ে → ஒரு திருத்தம்
+[publish] தென்காசியில் தங்க நரி தூதர் திட்டம் விரிவுபடுத்தப்பட்டு மெட்ராஸ் முள்ளம்பன்றியும் பாதுகாப்பு
+[publish] ஷாமொண்டா வைரஸ் முதல்முறையாக மனிதரில் கண்டறியப்பட்டது
+[skip] சினிமா விமர்சனம் — இந்தப் பக்கத்தில் கூடாது (விமர்சனம் வாரமல
+[skip] பொதுவான வணிக அறிக்கை — நெசவுக் கொள்ளைக் பாயத்தின் விலைக் கவல
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai Northeast monsoon rains: T.N. CM Vijay d
+[skip] தெலங்கானாவில் அமைந்த ஐஐடி - தமிழ்நாட்டுக்குக் குறிப்பிட்ட தொ
+[skip] வெளிநாட்டுப் பெண் கிரிக்கெட் — தமிழ்நாட்டு வாசகரைப் பாதிக்கவ
+[திருத்தம்] தினைக்கு எட்ட மணி நேரம் தூக்கம் குறைந்தா → ஒரு மணி நேர தூக்கக் குறைவு கொழுப்பு கல்ல
+[publish] ஒரு மணி நேர தூக்கக் குறைவு கொழுப்பு கல்லீரல் நோய் அபாயம் 24% அதிகரிக்கும்
+[skip] திரை விமர்சனம் — இப்பக்கத்தில் தடை. விமர்சனம் (மதிப்பெண், நட
+[skip] பத்திரிகையாளர் கருத்து / பயிற்சியாளர் வெளிப்பாடு மட்டும்; உண
+[filler] sports கட்டுரை
 [தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12650 · சென்செக்ஸ் 72648
+[market] தங்கம் 22K ₹12652 · சென்செக்ஸ் 73124
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 8
+[done] feed 300 · pending 0 · எழுதியவை 9

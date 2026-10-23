@@ -1,5 +1,616 @@
 [
  {
+  "id": "art_sports_20261023",
+  "headline": "தமிழ்நாட்டின் பாரம்பரிய விளையாட்டு மரபு ஓர் பார்வை.",
+  "lines": [
+   "ஜல்லிக்கட்டு தமிழ்நாட்டின் பாரம்பரிய காளை அடக்கும் விளையாட்டு ஆகும்.",
+   "இது பொங்கல் பண்டிகையின் போது பல ஊர்களில் கொண்டாடப்படுகிறது.",
+   "இளைஞர்கள் வீரத்துடன் காளையை அடக்கி தங்கள் திறமையை வெளிப்படுத்துகின்றனர்.",
+   "இந்த விளையாட்டு தமிழர்களின் பண்பாட்டு அடையாளமாக கருதப்படுகிறது.",
+   "அரசு இதற்கான பாதுகாப்பு நடவடிக்கைகளை தொடர்ந்து மேற்கொண்டு வருகிறது."
+  ],
+  "closing": "இவ்வாறு ஜல்லிக்கட்டு தமிழ் மரபின் முக்கிய அங்கமாக தொடர்கிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-23"
+   }
+  ],
+  "topic": "sports",
+  "topic_ta": "விளையாட்டு",
+  "entities": [],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-23T16:19+05:30",
+  "created_ts": 1792752595.8513086,
+  "audio": "data/audio/art_sports_20261023.mp3"
+ },
+ {
+  "headline": "ஒரு மணி நேர தூக்கக் குறைவு கொழுப்பு கல்லீரல் நோய் அபாயம் 24% அதிகரிக்கும்",
+  "lines": [
+   "தேவையான ஏழு முதல் எட்ட மணி நேர தூக்கத்திலிருந்து ஒரு மணி நேரம் குறைந்தால், கல்லீரலில் கொழுப்பு சேரும் அபாயம் 24 சதவீதம் அதிகரிக்கிறது.",
+   "நிலையான தூக்கம் இல்லாத நிலையில் உடலின் வளர்சிதை மாற்ற வேலை பாதிக்கப்பட்டு, கல்லீரலில் கொழுப்பு அணுக்கள் சேர்ந்து நோய் ஏற்படுகிறது.",
+   "மருத்துவ ஆய்வுகளிலிருந்து தூக்கக் குறைவும் கொழுப்பு கல்லீரல் நோய்க்கும் நேரடித் தொடர்பு உள்ளது என்பது தெரிந்துள்ளது.",
+   "வயது, உடல் எடை, உணவுப் பழக்கம் போன்ற பிற காரணிகளுக்கு மட்டுமல்ல, தூக்கக் குறைவுக்கும் இந்நோய் ஏற்படும் என்பது குறிப்பிடத்தக்கது.",
+   "கல்லீரல் நோயைத் தடுக்க ஆரோக்கியமான வாழ்க்கை நடை, சீரான உணவு, உடற்பயிற்சி உடன் சரியான தூக்கம் இன்றியமையாது."
+  ],
+  "closing": "கொழுப்பு கல்லீரல் நோயைத் தடுக்க தினைக்கு குறைந்தபட்சம் ஏழு மணி நேர தூக்கம் எடுப்பது அவசியமாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "கல்லீரல் நோய்",
+   "கொழுப்பு",
+   "தூக்கம்"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "One hour less sleep daily raises fatty liver disease risk by 24 percent",
+   "lines": [
+    "Reducing sleep by one hour from the recommended seven to eight hours daily increases the risk of fat accumulation in the liver by 24 percent.",
+    "Without consistent sleep, the body's metabolism is disrupted, causing fat cells to accumulate in the liver and trigger the disease.",
+    "Medical research confirms a direct link between sleep deprivation and fatty liver disease.",
+    "It is significant that this condition can develop not only from age, weight, and dietary habits, but also from insufficient sleep.",
+    "Adequate sleep of at least seven hours daily is essential alongside a healthy lifestyle, balanced diet, and exercise to prevent fatty liver disease."
+   ],
+   "closing": "Getting at least seven hours of sleep daily is crucial to prevent fatty liver disease."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "sleeping person bedroom",
+  "wiki_subject": "Fatty liver disease",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7f611b8a76a4",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-23T16:19+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/science/inadequate-sleep-increases-the-risk-of-fatty-liver-disease/article66658540.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Non-alcoholic_fatty_liver_disease1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Fatty liver disease",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Fatty_liver_disease",
+   "symbolic": false
+  },
+  "audio": "data/audio/7f611b8a76a4.mp3",
+  "created_ts": 1792752565.8031013,
+  "status": "published"
+ },
+ {
+  "headline": "ஷாமொண்டா வைரஸ் முதல்முறையாக மனிதரில் கண்டறியப்பட்டது",
+  "lines": [
+   "ஆடு, கோழி முதலான கால்நடைகளைப் பாதிக்கும் ஷாமொண்டா வைரஸ் முதல்முறையாக ஒரு மனிதரில் கண்டறியப்பட்டுள்ளது.",
+   "இந்த வைரஸ் இதுவரை கால்நடைகளிலும் பறவைகளிலும் மட்டுமே பரவி வந்துள்ளது.",
+   "சுகாதார நிறுவனங்கள் இந்த வைரஸின் மனித-கால்நடை பரவல் மற்றும் மனித-மனித பரவல் பற்றி ஆய்வு நடத்தி வருகின்றன.",
+   "கால்நடைப் பெயர்வு, கூட்ட வளர்ப்பு, பாதுகாப்பு நடவடிக்கை ஆகியவை ஆபத்துக் காரணிகளாகக் கருதப்படுகின்றன.",
+   "இந்த அண்மைக் கண்டுபிடிப்பு பரிணாம வைரஸ்களின் மனிதப் பாதிப்பு பற்றி எச்சரிக்கையை உயர்த்தியுள்ளது."
+  ],
+  "closing": "ஷாமொண்டா வைரஸ் மனிதர்களுக்குப் பொதுவான ஆபத்தாக உள்ளதா என்பது பற்றி மேலும் ஆய்வு நடப்பதாகத் தெரிய வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "ஷாமொண்டா வைரஸ்",
+   "கால்நடை நோய்",
+   "சுகாதாரம்"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "Shamonda virus detected in humans for first time",
+   "lines": [
+    "The Shamonda virus, which primarily affects livestock and poultry, has been detected in a human for the first time.",
+    "The virus has previously only been documented in animals and birds.",
+    "Health organizations are investigating the virus's potential transmission routes between livestock and humans, and between humans.",
+    "Livestock movement, crowded farming conditions, and inadequate safety measures are considered potential risk factors.",
+    "This recent discovery raises concerns about the human health impact of emerging viruses that jump species barriers."
+   ],
+   "closing": "Further research is underway to determine whether the Shamonda virus poses a significant public health threat to humans."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "virus laboratory microscope",
+  "wiki_subject": "Shamonda virus",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "3e700fc9a461",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-23T16:18+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/shamonda-virus-the-livestock-pathogen-detected-in-human-for-the-first-time-explained/article71615063.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Virus_de_Schmallenger.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Shamonda virus",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Shamonda_virus",
+   "symbolic": false
+  },
+  "audio": "data/audio/3e700fc9a461.mp3",
+  "created_ts": 1792752514.7438338,
+  "status": "published"
+ },
+ {
+  "headline": "தென்காசியில் தங்க நரி தூதர் திட்டம் விரிவுபடுத்தப்பட்டு மெட்ராஸ் முள்ளம்பன்றியும் பாதுகாப்பு",
+  "lines": [
+   "தமிழ்நாட்டின் தென்காசி மாவட்டத்தில் தங்க நரிகளைப் பாதுகாக்க நடத்தப்படும் 'கோல்டன் ஜாக்கல் தூதர்கள்' திட்டம் விரிவுபடுத்தப்பட்டுள்ளது.",
+   "இத்திட்டத்தின் கீழ் இப்போது அரிய வகை மெட்ராஸ் முள்ளம்பன்றியையும் பாதுகாக்கும் பணி சேர்க்கப்பட்டுள்ளது.",
+   "வனத்துறை அதிகாரிகள் இத்திட்டத்தை உள்ளூர் மக்கள் பங்கேற்புடன் நடத்தி வருவதாகத் தெரிவித்துள்ளனர்.",
+   "தங்க நரி தூதர்கள் எனப்படும் உள்ளூர் தன்னார்வலர்கள் வனவிலங்குகள் குறித்த விழிப்புணர்வை பரப்பி வருகின்றனர்.",
+   "இத்திட்டத்தின் மூலம் பகுதியில் உள்ள அரிய உயிரினங்களின் எண்ணிக்கை பாதுகாக்கப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இத்திட்டம் தென்காசி மாவட்டத்தின் உயிரியல் பன்முகத்தன்மையை பாதுகாக்கும் முயற்சியின் ஒரு பகுதியாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தென்காசி மாவட்டம்",
+   "தங்க நரி",
+   "மெட்ராஸ் முள்ளம்பன்றி",
+   "வனத்துறை"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Tenkasi's Golden Jackal Ambassadors programme now includes hedgehog",
+   "lines": [
+    "The Golden Jackal Ambassadors programme in Tenkasi district of Tamil Nadu has been expanded.",
+    "The initiative will now also work to conserve the rare Madras hedgehog species.",
+    "Forest department officials said the programme is being run with the participation of local communities.",
+    "Local volunteers, known as Golden Jackal Ambassadors, have been spreading awareness about wildlife conservation.",
+    "The expanded effort is expected to help protect the numbers of rare species found in the region."
+   ],
+   "closing": "The programme forms part of efforts to conserve the biodiversity of Tenkasi district."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "golden jackal wildlife India",
+  "wiki_subject": "Golden jackal",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "806b12243c01",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-23T16:17+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Madurai/golden-jackal-ambassadors-programme-expanded-in-tenkasi-district-to-conserve-madras-hedgehog-also/article71612506.ece",
+   "https://www.thehindu.com/news/cities/Madurai/golden-jackal-ambassadors-programme-expanded-in-tenkasi-district-to-conserve-madras-hedgehog-also/article71612506.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/033_Golden_jackal_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg/3840px-033_Golden_jackal_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Golden jackal",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Golden_jackal",
+   "symbolic": false
+  },
+  "audio": "data/audio/806b12243c01.mp3",
+  "created_ts": 1792752480.5657723,
+  "status": "published"
+ },
+ {
+  "headline": "காங்கிரஸ் கூட்டணி நவம்பர் ஒன்றாம் தேதி டெல்லி போராட்டம் மூலம் அராஜகத்தை உண்டாக்க முயல்வதாக பாஜக குற்றச்சாட்டு",
+  "lines": [
+   "காங்கிரஸ் கட்சியும் அதன் கூட்டணிக் கட்சிகளும் நவம்பர் முதல் தேதி டெல்லியில் போராட்டம் நடத்தத் திட்டமிட்டுள்ளதாக பாஜக குற்றம் சாட்டியுள்ளது.",
+   "இந்தத் தேதியானது 1984ஆம் ஆண்டு சீக்கிய எதிர்ப்புக் கலவரத்துடன் தொடர்புடையது என பாஜக செய்தித் தொடர்பாளர் சுதான்சு த்ரிவேதி குறிப்பிட்டார்.",
+   "நாட்டில் அராஜகத்தை உருவாக்கும் நோக்கத்துடன் இந்தத் தேதியைத் தேர்ந்தெடுத்துள்ளது என்று அவர் குற்றம் சாட்டினார்.",
+   "மேலும் ராகுல் காந்தியை தோல்வியடைந்த தலைவர் என அவர் விமர்சித்தார்.",
+   "இந்தக் குற்றச்சாட்டுக்கு காங்கிரஸ் தரப்பில் இதுவரை அதிகாரப்பூர்வ பதில் வெளியாகவில்லை."
+  ],
+  "closing": "நவம்பர் முதல் தேதி நடைபெறும் எனக் கூறப்படும் இந்தப் போராட்டம் குறித்த மேலும் விவரங்கள் இன்னும் வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "காங்கிரஸ்",
+   "பாஜக",
+   "ராகுல் காந்தி",
+   "சுதான்சு த்ரிவேதி",
+   "டெல்லி"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Congress alliance's Nov 1 Delhi protest aimed at anarchy: BJP claims",
+   "lines": [
+    "Congress and its allied parties are reportedly planning a protest in Delhi on November 1.",
+    "BJP spokesperson Sudhanshu Trivedi noted that the date is linked to the 1984 anti-Sikh riots.",
+    "He accused the Congress party of choosing this date deliberately to create anarchy in the country.",
+    "He also reportedly criticized Congress leader Rahul Gandhi, calling him a failed leader.",
+    "Congress has not yet issued an official response to these allegations."
+   ],
+   "closing": "Further details about the planned November 1 protest have not yet been released."
+  },
+  "id": "b5946c1d6977",
+  "flags": [],
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-23T16:16+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/congress-allies-aim-to-create-anarchy-through-november-1-delhi-protest-bjp/article71615493.ece",
+   "https://www.thehindu.com/news/national/congress-allies-aim-to-create-anarchy-through-november-1-delhi-protest-bjp/article71615493.ece"
+  ],
+  "image": {
+   "url": "data/bank/india09.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/b5946c1d6977.mp3",
+  "created_ts": 1792752379.6738188,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "வண்டலூர் பூங்காவில் பறவைக் காய்ச்சலால் 7 பறவைகள் இறப்பு",
+  "lines": [
+   "சென்னை அருகே வண்டலூர் அறிஞர் அண்ணா உயிரியல் பூங்காவில் ஏழு நீர்வாழ் பறவைகள் ஹெச்5என்1 வகை பறவைக் காய்ச்சலால் உயிரிழந்தன.",
+   "பறவைக் காய்ச்சல் நோய்ப் பாதிப்பு உறுதி செய்யப்பட்ட பிறகு பூங்கா அக்டோபர் 22, 23ஆம் தேதிகளில் மூடப்பட்டுள்ளது.",
+   "உயிரியல் பூங்கா அதிகாரிகள் வணிக நடவடிக்கைகளை நிறுத்தி கண்டறிதல் மற்றும் தடுப்பு நடவடிக்கைகளை மேற்கொண்டுள்ளனர்.",
+   "ஹெச்5என்1 வைரஸ் பொதுவாக பறவைகளில் பரவினாலும், மிக அரிதாக மனிதர்களுக்குப் பரவக்கூடியது.",
+   "சுகாதாரத் துறை மனிதர்களுக்கான பாதுகாப்பு வழிமுறைகள் பற்றிய வழிகாட்டுதல்களை வெளியிட்டுள்ளது."
+  ],
+  "closing": "பறவைக் காய்ச்சல் பாதிப்பு பெரிய வெடிப்பாக மாறக்கூடிய அபாயம் தொடர்ந்து கண்காணிக்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": "2026-10-23"
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "வண்டலூர் அறிஞர் அண்ணா உயிரியல் பூங்கா",
+   "சென்னை",
+   "ஹெச்5என்1",
+   "பறவைக் காய்ச்சல்"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Seven birds die from avian flu at Vandalur Zoo near Chennai",
+   "lines": [
+    "Seven aquatic birds at Arignar Anna Zoological Park near Chennai died from H5N1 avian flu.",
+    "The zoo closed on October 22 and 23 after the bird flu outbreak was confirmed.",
+    "Zoo authorities have halted commercial activities and implemented testing and prevention measures.",
+    "H5N1 virus typically spreads among birds but can rarely transmit to humans.",
+    "Health authorities have issued guidelines on safety precautions for the public."
+   ],
+   "closing": "The potential risk of avian flu spread is being continuously monitored."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "",
+  "wiki_subject": "Arignar Anna Zoological Park",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "747aeba557eb",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-23T16:14+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/c370prezv754o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Arignar_Anna_Zoological_park_27.jpg/3840px-Arignar_Anna_Zoological_park_27.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Arignar Anna Zoological Park",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Arignar_Anna_Zoological_Park",
+   "symbolic": false
+  },
+  "audio": "data/audio/747aeba557eb.mp3",
+  "created_ts": 1792752285.1217692,
+  "status": "published"
+ },
+ {
+  "headline": "மேற்குக் கரையில் துப்பாக்கிச் சூடு; முழு முடக்கத்திற்கு இஸ்ரேல் தயாரிப்பு",
+  "lines": [
+   "இஸ்ரேலால் ஆக்கிரமிக்கப்பட்ட மேற்குக் கரையில் ஹெப்ரான் அருகே நடந்த துப்பாக்கிச் சண்டையில் இருவர் கொல்லப்பட்டனர்.",
+   "இந்தத் தாக்குதலைத் தொடர்ந்து இஸ்ரேலிய ராணுவம் பகுதியை முற்றிலும் முடக்கத் திட்டமிட்டுள்ளது.",
+   "இஸ்ரேலிய பிரதமர் முழு மேற்குக் கரைப் பகுதியையும் மூடும் உத்தரவிடத் தயாராகி வருகிறார்.",
+   "இஸ்ரேலிய குடியேற்றவாசிகளின் தாக்குதல்கள் பாலஸ்தீனப் பகுதிகளில் பதற்றத்தை அதிகரித்து வருவதாகத் தெரிவிக்கப்படுகிறது.",
+   "இந்த முடக்க உத்தரவு எப்போது அமலுக்கு வரும் என்பது குறித்து தெளிவான அறிவிப்பு இன்னும் வெளியாகவில்லை."
+  ],
+  "closing": "இந்தச் சம்பவம் மேற்குக் கரையில் நீடித்து வரும் இஸ்ரேல்-பாலஸ்தீன மோதலின் தொடர்ச்சியாகக் கருதப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "இஸ்ரேல்",
+   "மேற்குக் கரை",
+   "ஹெப்ரான்",
+   "பாலஸ்தீனம்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Gunfight near Hebron, Israel prepares full West Bank lockdown",
+   "lines": [
+    "Two people were killed in a gun battle near Hebron in the occupied West Bank.",
+    "Following the attack, the Israeli military is planning a complete lockdown of the area.",
+    "According to Al Jazeera, Israel's prime minister is preparing to order a full shutdown of the occupied West Bank.",
+    "Attacks by Israeli settlers are reported to be heightening tensions across Palestinian territories.",
+    "There is no clear announcement yet on when the lockdown order will take effect."
+   ],
+   "closing": "The incident is seen as part of the ongoing Israeli-Palestinian conflict in the West Bank."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "wiki_subject": "West Bank",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e635f4785570",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-23T16:14+05:30",
+  "links": [
+   "https://www.aljazeera.com/video/newsfeed/2026/10/23/israeli-military-kills-two-in-gun-battle-in-occupied-west-bank?traffic_source=rss",
+   "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss"
+  ],
+  "image": {
+   "url": "data/bank/world08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/e635f4785570.mp3",
+  "created_ts": 1792752253.7136545,
+  "status": "published"
+ },
+ {
+  "headline": "சிறுத்தை தாக்குதல்கள் - ஹசனூர் வனக்காப்பகம் அலுவலகத்தை முற்றுகையிட்ட மக்கள்",
+  "lines": [
+   "ஈரோடு மாவட்டம் ஹசனூர் பகுதியில் சிறுத்தை தாக்குதல்களால் பாதிக்கப்பட்ட உள்ளூர் மக்கள் வனக்காப்பகம் அலுவலகத்தை முற்றுகையிட்டனர்.",
+   "சிறுத்தை ஒன்றும் அதன் இரண்டு குட்டிகளும் வனத்துறையினரால் ஒரு நாள் முன்னதாகவே பிடிக்கப்பட்ட நிலையில் இந்த எதிர்ப்பு நடந்தது.",
+   "பகுதி மக்கள் தங்களது பாதுகாப்பு கோரிக்கைகளை வனத்துறை அதிகாரிகளிடம் வலியுறுத்தினர்.",
+   "தொடர்ந்து நடைபெறும் சிறுத்தை தாக்குதல்களால் விவசாயிகளும் கால்நடை வளர்ப்பாளர்களும் அச்சத்துடன் இருப்பதாக மக்கள் தெரிவித்தனர்.",
+   "பகுதியில் கூடுதல் கண்காணிப்பு மற்றும் பாதுகாப்பு நடவடிக்கைகளை வனத்துறை மேற்கொள்ளும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "சத்தியமங்கலம் புலிகள் காப்பகம் அருகே உள்ள ஹசனூர் பகுதியில் சிறுத்தைகள் மனித குடியிருப்புகளுக்கு அருகே அடிக்கடி தென்படுவதாக உள்ளூர் மக்கள் தெரிவிக்கின்றனர்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "ஹசனூர்",
+   "ஈரோடு",
+   "வனத்துறை",
+   "சிறுத்தை"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Residents lay siege to Hasanur forest office over leopard attacks",
+   "lines": [
+    "Residents affected by leopard attacks in Hasanur area of Erode district laid siege to the local forest office.",
+    "The protest came a day after the Forest Department captured a leopard along with its two cubs.",
+    "Local residents pressed forest officials with their demands for safety measures.",
+    "Farmers and livestock rearers said they have been living in fear due to repeated leopard attacks in the area.",
+    "The Forest Department is expected to step up surveillance and safety measures in the region."
+   ],
+   "closing": "Residents say leopards have frequently been spotted near human settlements in Hasanur, located close to the Sathyamangalam Tiger Reserve."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Sathyamangalam Tiger Reserve",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7f1213d53b7f",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-23T16:13+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Coimbatore/residents-lay-siege-to-hasanur-forest-office-over-leopard-attacks/article71615434.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Nilgiris_Biosphere_Reserve.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Sathyamangalam Tiger Reserve",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Sathyamangalam_Tiger_Reserve",
+   "symbolic": false
+  },
+  "audio": "data/audio/7f1213d53b7f.mp3",
+  "created_ts": 1792752212.103824,
+  "status": "published"
+ },
+ {
+  "headline": "டி-ஸ்ட்ரீட் ரத்தம் சிந்துகிறது! பிஎஸ்இ பங்குச் சந்தை மதிப்பு 450 லட்சம் கோடிக்குக் கீழே வீழ்ச்சி",
+  "lines": [
+   "பிஎஸ்இ-ல் பட்டியலிடப்பட்ட நிறுவனங்களின் மொத்த சந்தை மதிப்பு ஏப்ரல் மாதத்திற்குப் பிறகு முதல்முறையாக 450 லட்சம் கோடி ரூபாயைக் கீழே சரிந்துவிட்டது.",
+   "சென்செக்ஸ் மற்றும் நிஃப்டி குறியீடுகள் நான்காவது நாளாகவும் தொடர்ச்சியாக வீழ்ச்சியைச் சந்தித்துவருகின்றன.",
+   "இந்த வாரம் மட்டும் சுமார் 25 லட்சம் கோடி ரூபாயளவு செல்வம் கைமீறிவிட்டுள்ளது.",
+   "கச்சா எண்ணெய் விலையுயர்வும் கடன்பத்திர வட்டி விகிதங்களின் உயர்வும் சந்தை நம்பிக்கையை பாதித்துக் கொண்டிருக்கின்றன.",
+   "இனியும் என்னென்ன வலிகள் வரக்கூடும் எனப் பல கேள்விகள் எழுந்திருக்கின்றன."
+  ],
+  "closing": "கச்சா எண்ணெய் விலை மற்றும் கடன்பத்திர வட்டி விகிதங்களின் போக்கே வரும் நாட்களில் சந்தையின் திசையைத் தீர்மானிக்கும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "பிஎஸ்இ",
+   "சென்செக்ஸ்",
+   "நிஃப்டி",
+   "இந்திய பங்குச் சந்தை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "BSE Market Value Falls Below Rs 450 Lakh Crore",
+   "lines": [
+    "The total market capitalisation of companies listed on the Bombay Stock Exchange fell below Rs 450 lakh crore for the first time since April.",
+    "The Sensex and Nifty indices extended their losses for a fourth consecutive session.",
+    "Nearly Rs 25 lakh crore of investor wealth has been wiped out this week alone.",
+    "Rising crude oil prices and increasing bond yields are reported to have weighed on market sentiment.",
+    "Investors are closely watching how long the market slide will continue."
+   ],
+   "closing": "The direction of crude oil prices and bond yields over the coming days is expected to determine the market's trajectory."
+  },
+  "front_cat": "routine",
+  "image_query": "Bombay Stock Exchange building",
+  "wiki_subject": "Bombay Stock Exchange",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "3c144266eb18",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-23T16:12+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/d-street-bleeds-market-value-of-all-bse-listed-firms-falls-below-rs-450-lakh-crore-for-first-time-since-april-more-pain-ahead/articleshow/135140291.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BSE_logo.svg/330px-BSE_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Bombay Stock Exchange",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Bombay_Stock_Exchange",
+   "symbolic": false
+  },
+  "audio": "data/audio/3c144266eb18.mp3",
+  "created_ts": 1792752156.5473099,
+  "status": "published"
+ },
+ {
+  "headline": "சாத்தான்குளம் அருகே பெண் வெட்டிக் கொலை, கணவர், மகன் காயம், இரண்டு மகள்கள் கடத்தல்",
+  "lines": [
+   "தூத்துக்குடி மாவட்டம் சாத்தான்குளம் அருகே ஒரு பெண் வெட்டிக் கொல்லப்பட்டார்.",
+   "இதே சம்பவத்தில் அவரது கணவர் மற்றும் மகன் காயமடைந்து சிகிச்சை பெற்று வருகின்றனர்.",
+   "இந்தக் குடும்பத்தைச் சேர்ந்த இரண்டு மகள்கள் காணாமல் போயுள்ளதாகத் தகவல் வெளியாகியுள்ளது.",
+   "சம்பவம் குறித்து காவல்துறையினர் விரிவான விசாரணை நடத்தி வருகின்றனர்.",
+   "காணாமல் போன சிறுமிகளைக் கண்டுபிடிக்க தேடுதல் பணிகள் தொடங்கப்பட்டுள்ளன."
+  ],
+  "closing": "சம்பவம் தொடர்பான முழு விவரங்களும் காவல்துறையின் அதிகாரப்பூர்வ அறிக்கையில் தெளிவாகும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-23"
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சாத்தான்குளம்",
+   "தூத்துக்குடி மாவட்டம்",
+   "காவல் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Woman killed near Sathankulam, two others injured",
+   "lines": [
+    "A woman was killed in a knife attack near Sathankulam in Thoothukudi district.",
+    "In the same incident, her husband and son were injured and are undergoing treatment.",
+    "Two daughters from the same family are reported to be missing.",
+    "Police are conducting a detailed investigation into the incident.",
+    "A search operation has been launched to trace the missing girls."
+   ],
+   "closing": "Full details of the incident are expected once police issue an official statement."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "24be7328150e",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-23T16:11+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/23/woman-killed-husband-and-son-injured-near-sathankulam-two-girls-missing"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/24be7328150e.mp3",
+  "created_ts": 1792752102.134508,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261023",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
   "lines": [
