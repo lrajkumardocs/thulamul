@@ -1,23 +1,22 @@
-[expire] b6ddf4a2990c
-[fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] RBI: 10 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
-[fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 16 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 21 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
+[fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Cinema: 7 புதியவை
 [fetch] Cinema Express: 27 புதியவை
-[fetch] The Hindu Tech: 27 புதியவை
+[fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 7 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 9 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 26 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 27 புதியவை
+[fetch] Bar and Bench: 6 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 27 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,57 +56,67 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f988bec86d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 27 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3795dd67d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 668 → நிகழ்வுகள் 611
-[triage] 611 → 67 | காலி: india:4, world:3, govt:3, crime:3, jobs:3
-[skip] டெல்லி தொழில்நுட்பப் பல்கலைக்கழகம் மற்றும் ஐஐஎஸ்இஆர் போபால் 
-[skip] மூல உரை பொதுவான கட்டுரை; குறிப்பிட்ட நிகழ்வு, அறிவிப்பு, அல்
-[skip] இறந்த திரைப்படக் கலைஞரின் நினைவுக் கட்டுரை. சினிமா செய்திக் 
-[skip] வெளிநாட்டு ক্রিকেட — தென்னாபிரிக்கா vs இந்தியா சோதனை தொடர். 
-[image] களஞ்சியம் (2 சொல்): சக்தி வாய்ந்த திபெத் நிலநடுக்கத்தி
-[tts-edge] bc35bf371d86: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] சக்தி வாய்ந்த திபெத் நிலநடுக்கத்தில் பதினாறு பேர் பலி என தகவல்
-[tts-edge] 8f9cdf7f86e4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] திபெத்தில் 7 அளவிலான நிலநடுக்கம், 16 பேர் பலி
-[image] களஞ்சியம் (4 சொல்): கோயம்புத்தூரில் மாணவர் உயிரிழப்பு:
-[publish] கோயம்புத்தூரில் மாணவர் உயிரிழப்பு: ஆசிரியர், முதல்வர் உள்பட நால்வர் மீது வழக்கு
-[skip] மூலத்தில் ஒரு வரிக் குறிப்பு மட்டுமே உள்ளது; திட்டவட்டமான தே
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தமிழக காவல் நிலையங்கள் சுத்தம் செய
-[publish] தமிழக காவல் நிலையங்கள் சுத்தம் செய்ய ஆண்டுக்கு 60 கோடி நிதி
-[திருத்தம்] யூடியூபர் மரணம்: செல்வாக்காளர் ஜேசன் சாம → யூடியூபர் ஹரிஷ் மரணம்: சமூக ஊடக செல்வாக்
-[image] களஞ்சியம் (2 சொல்): யூடியூபர் ஹரிஷ் மரணம்: சமூக ஊடக செ
-[publish] யூடியூபர் ஹரிஷ் மரணம்: சமூக ஊடக செல்வாக்காளர் ஜேசன் சாமுவேல் கைது
-[skip] பிரான்சு நாட்டின் உள்நாட்டு அரசியல் மற்றும் பாதுகாப்பு நடவடி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFFPKr94sfYMxdtgRDu'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFJm2uNaTXBwtaewu2a'}
-[publish] களியக்காவிளை அருகே மண் சரிவு: ரயில் என்ஜின் தடம் புரண்டது
-[publish] வடகிழக்குப் பருவமழை தீவிரம்: பள்ளிகளுக்கு முக்கிய உத்தரவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFWDZ9sXMC9xyV2U9Xs'}
-[image] களஞ்சியம் (2 சொல்): நாம் தமிழர் வேட்பாளர் கார்த்திகா உ
-[publish] நாம் தமிழர் வேட்பாளர் கார்த்திகா உள்பட ஒன்பது பேருக்கு ஜாமீன்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரங்கள் இல்ல
-[skip] மூலத்தில் தலைப்புகள் மட்டுமே உள்ளன, உண்மையான விவரங்கள், எண்க
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFduVBWLGkLWg2ZrPLg'}
-[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
-[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் ஐபிஓ இரண்டாம் நாளில் 5.57 மடங்கு சந்தா
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFkE8H1euv59fBuuawq'}
-[skip] இதிலோபியாவுக்கும் கென்யாவுக்கும் இடையேயான உள்நாட்டு மோதல். த
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJFoRM2s5PLuBN2e4x4s'}
-[publish] ஐஐடி சென்னை செயற்கை நுண்ணறிவு ஆராய்ச்சித் திட்டங்கள் அறிவிப்பு
-[brief] காலை brief தயார்
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: யெஸ் வங்கி ஏடி1 வட்டி தாமதம்: தீர்ப்புக்குப் பின்னும் நிலுவை தொடருமா?
-[market] தங்கம் 22K ₹12633 · சென்செக்ஸ் 73249
+[run] புதியவை 684 → நிகழ்வுகள் 617
+[triage] 617 → 78 | காலி: india:4, world:3, jobs:3, health:3, cinema:3
+[image] களஞ்சியம் (2 சொல்): ரயில் சக்கரத் தொழிற்சாலையில் வாட்ச
+[tts-edge] ca67f96d4ae5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ரயில் சக்கரத் தொழிற்சாலையில் வாட்சர், மேற்பார்வையாளர் பணியிடங்களுக்கு விண்ணப்பம்
+[skip] வெளிநாட்டுச் செய்தி — போலந்து அரசியல் மற்றும் அங்கு நடக்கும்
+[திருத்தம்] கார்த்திக் சுப்பராஜ் 'டோரதி'ல மிருகங்கள் → கார்த்திக் சுப்பராஜின் 'டோரதி'ல மிருகங்க
+[தரம்] தமிழ் அல்லாத எழுத்து: জহ → ஒரு திருத்தம்
+[tts-edge] 73efcd3fa86c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கார்த்திக் சுப்பராஜின் 'டோரதி'ல மிருகங்கள் வாயிலாக மனித சிறுமை
+[skip] இந்திய அணির ஒரு வீரர் ஒரு போட்டிக்குத் திரிபுண்டு விலக்கப்பட
+[நகல்] ஏற்கனவே வெளியானது: இன்று 6 மாவட்டங்களுக்கு ஆரஞ்சு அலர்ட், சென்னையில் கனமழை எச்ச
+[திருத்தம்] வங்கக் கடலில் புதிய காற்றழுத்த தாழ்வுப்  → வங்கக் கடலில் புதிய காற்றழுத்தத் தாழ்வுப
+[image] களஞ்சியம் (2 சொல்): வங்கக் கடலில் புதிய காற்றழுத்தத் த
+[publish] வங்கக் கடலில் புதிய காற்றழுத்தத் தாழ்வுப் பகுதி உருவானது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJdUWc5H7Ait4czDWsqi'}
+[திருத்தம்] சென்னை உள்பட 24 மாவட்டங்களில் இரண்டு மணி → சென்னை உள்பட 24 மாவட்டங்களில் அடுத்த 2 ம
+[image] களஞ்சியம் (3 சொல்): சென்னை உள்பட 24 மாவட்டங்களில் அடுத
+[publish] சென்னை உள்பட 24 மாவட்டங்களில் அடுத்த 2 மணிநேரத்தில் மழை எச்சரிக்கை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJdcgikzifNvPyMqYeGA'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] சூடான் உள்갈등 - தமிழ்நாடு/இந்தியாவுக்குத் நேரடித் தொடர்பு இல்
+[skip] ஜெர்மனியின் உள்நாட்டு பாதுகாப்பு விவகாரம். தமிழ்நாடு அல்லது 
+[skip] உலக அளவில் முக்கியமான ரஷ்யா-உக்ரைன் யுദ்ধ செய்தி என்றாலும், 
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகருக்குப்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJdjkNywM7PkGuwHFLqo'}
+[skip] உலகச் செய்திகளில் இதுவும் பொதுவான பேரிடர் — தென்மேல் ஆசியாவி
+[skip] மூலத்தில் உள்ள தகவல் சரிபார்க்க முடியாதது. குறிப்பிடப்பட்டுள
+[skip] வெளிநாட்டு அமைப்பின் பரிசு பற்றிய செய்தி. தமிழ்நாடு அல்லது இ
+[திருத்தம்] தமிழ்நாடு அரசு 2027ஆம் ஆண்டு பொது விடுமு → தமிழ்நாடு அரசு 2027ஆம் ஆண்டு பொது விடுமு
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாடு அரசு 2027ஆம் ஆண்டு பொது 
+[publish] தமிழ்நாடு அரசு 2027ஆம் ஆண்டு பொது விடுமுறை பட்டியல் வெளியிடு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJdtQF1P4r1TwFTK2dgx'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (இடம், தேதி, முட
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] முதல்வர் மேஜையில் 3 ஊழல் கோப்புகள்: அமைச → முதல்வர் மேஜையில் 3 ஊழல் கோப்புகள் விரைவ
+[publish] முதல்வர் மேஜையில் 3 ஊழல் கோப்புகள் விரைவில் வெளியாகும்: அமைச்சர் மரிய வில்சன்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJe8rSzoAzy8m93253zd'}
+[image] களஞ்சியம் (4 சொல்): எண்ணெய் விலை உயர்வால் சென்செக்ஸ் 1
+[publish] எண்ணெய் விலை உயர்வால் சென்செக்ஸ் 1,000 புள்ளி சரிவு, நிஃப்டி 22,500க்குக் கீழே
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgJeF7q7vpzWkG3Z4KLza'}
+[திருத்தம்] கோடக் மகிந்திரா வங்கி இரண்டாம் காலாண்டு  → கோடக் மகிந்திரா வங்கி Q2 லாபம் 32 சதவீதம
+[image] களஞ்சியம் (3 சொல்): கோடக் மகிந்திரா வங்கி Q2 லாபம் 32 
+[publish] கோடக் மகிந்திரா வங்கி Q2 லாபம் 32 சதவீதம் வரை உயரலாம்
+[filler] health கட்டுரை
+[jobs] தொகுப்பு 12
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12650 · சென்செக்ஸ் 72648
 [weather] புதுப்பிக்கப்பட்டது
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 10
+[done] feed 300 · pending 2 · எழுதியவை 8

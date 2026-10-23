@@ -1,5 +1,692 @@
 [
  {
+  "id": "jobs_20261023",
+  "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
+  "lines": [
+   "ரயில் வீல் தொழிற்சாலை (RWF) — வாட்சர் · கடைசி நாள் 2026-10-29.",
+   "ரயில் வீல் தொழிற்சாலை (RWF) — சூப்பர்வைசர் (ஜூனியர் இன்ஜினியர், சீனியர் செக்‌ஷன் இன்ஜினியர்) (11 இடங்கள்) · கடைசி நாள் 2026-11-06.",
+   "தெலங்காணா அரசு - DMHO ராஜண்ணா சிர்சில்லா — ஸ்டாஃப் நர்ஸ், ANM, லேப் டெக்னீஷியன், பார்மசிஸ்ட் மற்றும் பிற பதவிகள் (33 இடங்கள்) · கடைசி நாள் 2026-10-30.",
+   "மும்பை ரயில்வே விகாஸ் கார்ப்பரேஷன் (MRVC) — அசிஸ்டன்ட் மேனேஜர் (3 இடங்கள்) · கடைசி நாள் 2026-11-12.",
+   "ஹோமி பாபா புற்றுநோய் மருத்துவமனை (HBCH), சங்ரூர் — லாண்ட்ரி சூப்பர்வைசர், லாண்ட்ரி அட்டென்டண்ட் (4 இடங்கள்) · கடைசி நாள் 2026-10-27."
+  ],
+  "closing": "விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பை சரிபார்க்கவும். பணம் கேட்கும் எந்த அறிவிப்பையும் நாங்கள் பட்டியலிடுவதில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-10-23"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-10-23"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-10-23"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-10-23"
+   }
+  ],
+  "topic": "jobs",
+  "topic_ta": "வேலை · தேர்வு",
+  "entities": [
+   "ரயில் வீல் தொழிற்சாலை (RWF)",
+   "ரயில் வீல் தொழிற்சாலை (RWF)",
+   "தெலங்காணா அரசு - DMHO ராஜண்ணா சிர்சில்லா",
+   "மும்பை ரயில்வே விகாஸ் கார்ப்பரேஷன் (MRVC)"
+  ],
+  "confidence": 0.8,
+  "flags": [],
+  "jobs": [
+   {
+    "org": "ரயில் வீல் தொழிற்சாலை (RWF)",
+    "post": "வாட்சர்",
+    "count": null,
+    "last_date": "2026-10-29",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/rwf-watcher-recruitment-2026-apply-offline-3075233"
+   },
+   {
+    "org": "ரயில் வீல் தொழிற்சாலை (RWF)",
+    "post": "சூப்பர்வைசர் (ஜூனியர் இன்ஜினியர், சீனியர் செக்‌ஷன் இன்ஜினியர்)",
+    "count": "11",
+    "last_date": "2026-11-06",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/rwf-supervisor-recruitment-2026-apply-online-for-11-posts-3075231"
+   },
+   {
+    "org": "தெலங்காணா அரசு - DMHO ராஜண்ணா சிர்சில்லா",
+    "post": "ஸ்டாஃப் நர்ஸ், ANM, லேப் டெக்னீஷியன், பார்மசிஸ்ட் மற்றும் பிற பதவிகள்",
+    "count": "33",
+    "last_date": "2026-10-30",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/dmho-rajanna-sircilla-recruitment-2026-apply-offline-for-33-staff-nurse-anm-and-more-posts-3075221"
+   },
+   {
+    "org": "மும்பை ரயில்வே விகாஸ் கார்ப்பரேஷன் (MRVC)",
+    "post": "அசிஸ்டன்ட் மேனேஜர்",
+    "count": "3",
+    "last_date": "2026-11-12",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/mrvc-assistant-manager-recruitment-2026-apply-offline-3075219"
+   },
+   {
+    "org": "ஹோமி பாபா புற்றுநோய் மருத்துவமனை (HBCH), சங்ரூர்",
+    "post": "லாண்ட்ரி சூப்பர்வைசர், லாண்ட்ரி அட்டென்டண்ட்",
+    "count": "4",
+    "last_date": "2026-10-27",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/hbch-recruitment-2026-walkin-for-4-laundry-supervisor-laundry-attendant-posts-3075217"
+   },
+   {
+    "org": "ஆச்சார்யஸ்ரீ பிக்ஷு அரசு மருத்துவமனை (ABGH)",
+    "post": "ஜூனியர் ரெசிடென்ட்",
+    "count": "3",
+    "last_date": "2026-10-27",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/abgh-junior-resident-recruitment-2026-apply-offline-3075211"
+   },
+   {
+    "org": "பஞ்சாபி பல்கலைக்கழகம்",
+    "post": "கெஸ்ட் ஃபேகல்டி",
+    "count": "10",
+    "last_date": "2026-11-02",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/punjabi-university-guest-faculty-recruitment-2026-apply-online-for-10-posts-3075208"
+   },
+   {
+    "org": "தேசிய பசுமை தீர்ப்பாயம் (NGT)",
+    "post": "துணை பதிவாளர், உதவி பதிவாளர்",
+    "count": "3",
+    "last_date": "2026-11-16",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/national-green-tribunal-recruitment-2026-apply-offline-for-3-deputy-registrar-assistant-registrar-posts-3075206"
+   },
+   {
+    "org": "சர்வதேச மேம்பட்ட ஆராய்ச்சி மையம் தூள் உலோகவியல் & புதிய பொருட்கள் (ARCI)",
+    "post": "டிரைவர் A, டெக்னீஷியன் A, சயின்டிஸ்ட் B, ஆஃபிசர் B மற்றும் பிற பதவிகள்",
+    "count": "29",
+    "last_date": "2026-11-21",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/arci-recruitment-2026-apply-online-for-29-driver-technician-and-more-posts-3074206"
+   },
+   {
+    "org": "பனாரஸ் இந்து பல்கலைக்கழகம் (BHU)",
+    "post": "யங் ப்ரொஃபஷனல்",
+    "count": "4",
+    "last_date": "2026-10-30",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/bhu-young-professional-recruitment-2026-apply-online-for-4-posts-3075204"
+   },
+   {
+    "org": "இந்திய வன மேலாண்மை நிறுவனம் (IIFM)",
+    "post": "ஸ்டெனோகிராபர் கிரேடு II",
+    "count": null,
+    "last_date": "2026-11-21",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/iifm-stenographer-recruitment-2026-apply-online-3075202"
+   },
+   {
+    "org": "இந்திய வன மேலாண்மை நிறுவனம் (IIFM)",
+    "post": "அசிஸ்டன்ட் மேனேஜர் (ஹார்டிகல்சர்), சீனியர் லைப்ரரி & இன்ஃபர்மேஷன் அசிஸ்டன்ட், அசிஸ்டன்ட் Gr.I மற்றும் பிற பதவிகள்",
+    "count": "9",
+    "last_date": "2026-11-21",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/iifm-recruitment-2026-apply-offline-for-9-assistant-assistant-manager-and-more-posts-3075200"
+   }
+  ],
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-23T11:20+05:30",
+  "created_ts": 1792734600.175004,
+  "audio": "data/audio/jobs_20261023.mp3"
+ },
+ {
+  "id": "art_health_20261023",
+  "headline": "பருவமாற்றத்தில் உடல்நலம் காக்கும் எளிய வழிகள்",
+  "lines": [
+   "அக்டோபர் மாத இறுதியில் காலநிலை மாற்றம் காரணமாக சளி, இருமல், காய்ச்சல் போன்ற பருவகால நோய்கள் அதிகரிக்கும் வாய்ப்புள்ளது.",
+   "மழைநீர் தேங்கும் இடங்களில் கொசு இனப்பெருக்கம் அதிகரிப்பதால் டெங்கு, சிக்குன்குனியா போன்ற நோய்கள் பரவாமல் இருக்க வீட்டைச் சுற்றியுள்ள தேங்கிய நீரை அகற்ற வேண்டும்.",
+   "நோய் எதிர்ப்பு சக்தியை மேம்படுத்த விட்டமின் சி நிறைந்த நெல்லிக்காய், ஆரஞ்சு போன்ற பழங்களையும், இஞ்சி, மஞ்சள் போன்ற இயற்கை பொருட்களையும் தினசரி உணவில் சேர்த்துக் கொள்ளலாம்.",
+   "சித்த மருத்துவ முறைப்படி, கபசுர குடிநீர் போன்ற மூலிகை கசாயங்கள் பருவகால நோய்களைத் தடுக்க உதவும் என பாரம்பரிய அறிவு கூறுகிறது.",
+   "அரசு ஆரம்ப சுகாதார நிலையங்களில் இலவச காய்ச்சல் பரிசோதனை மற்றும் தடுப்பூசி சேவைகள் தற்போது கிடைக்கின்றன என்பதை பொதுமக்கள் பயன்படுத்திக் கொள்ள வேண்டும்."
+  ],
+  "closing": "சிறு முன்னெச்சரிக்கை நடவடிக்கைகள் பெரும் நோய்களைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-23"
+   }
+  ],
+  "topic": "health",
+  "topic_ta": "சுகாதாரம்",
+  "entities": [
+   "சுகாதாரம்",
+   "பருவகாலம்"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-23T11:19+05:30",
+  "created_ts": 1792734564.6389492,
+  "audio": "data/audio/art_health_20261023.mp3"
+ },
+ {
+  "headline": "கோடக் மகிந்திரா வங்கி Q2 லாபம் 32 சதவீதம் வரை உயரலாம்",
+  "lines": [
+   "கோடக் மகிந்திரா வங்கியின் நடப்பு நிதியாண்டின் இரண்டாம் காலாண்டு (Q2FY27) லாப அறிக்கை விரைவில் வெளியாக உள்ளது.",
+   "நிகர வட்டி வருமான வளர்ச்சியால் வரி கழித்த லாபம் 27 முதல் 31.9 சதவீதம் வரை உயரலாம் என ப்ரோக்கரேஜ் நிறுவனங்கள் மதிப்பிட்டுள்ளன.",
+   "கடன் வழங்கல் மற்றும் வைப்புத் தொகை வளர்ச்சியே வங்கியின் ஒட்டுமொத்த செயல்திறனையும் லாபத்தையும் தீர்மானிக்கும் முக்கியக் காரணிகளாக உள்ளன.",
+   "நிகர வட்டி விளிம்பு மற்றும் செயல்பாட்டுச் செலவுகள் நிலையாக இருக்குமா என்பதை முதலீட்டாளர்கள் உன்னிப்பாகக் கவனித்து வருகின்றனர்.",
+   "இந்த மதிப்பீடுகள் வெவ்வேறு ப்ரோக்கரேஜ் நிறுவனங்களின் முன்கணிப்புகளை அடிப்படையாகக் கொண்டவை; உண்மையான முடிவுகள் வேறுபடலாம்."
+  ],
+  "closing": "இந்த மதிப்பீடுகள் வெவ்வேறு நிதி நிறுவனங்களின் முன்கணிப்புகளை அடிப்படையாகக் கொண்டவை, உண்மையான முடிவுகள் வேறுபடலாம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "கோடக் மகிந்திரா வங்கி",
+   "நிகர வட்டி வருமானம்",
+   "கடன் வளர்ச்சி",
+   "வைப்புத் தொகை வளர்ச்சி"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Kotak Mahindra Bank Q2 profit may rise up to 32 percent",
+   "lines": [
+    "Kotak Mahindra Bank is set to announce its second quarter results for the current financial year soon.",
+    "Brokerages estimate profit after tax could rise between 27 and 31.9 percent, driven by strong net interest income growth.",
+    "Analysts say loan and deposit growth will remain the key factors determining the bank's overall performance.",
+    "Investors are closely watching net interest margins and operating expenses for signs of sustainability.",
+    "The bank's full second quarter results are expected to be officially released shortly."
+   ],
+   "closing": "These estimates are based on projections from various brokerages, and actual results may vary."
+  },
+  "front_cat": "routine",
+  "image_query": "Kotak Mahindra Bank",
+  "wiki_subject": "Kotak Mahindra Bank",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "b12c75af265d",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-23T11:19+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/earnings/kotak-mahindra-bank-q2-results-preview-pat-may-rise-up-to-32-yoy-margins-loan-growth-in-focus/articleshow/135134211.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy07.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/b12c75af265d.mp3",
+  "created_ts": 1792734548.283024,
+  "status": "published"
+ },
+ {
+  "headline": "எண்ணெய் விலை உயர்வால் சென்செக்ஸ் 1,000 புள்ளி சரிவு, நிஃப்டி 22,500க்குக் கீழே",
+  "lines": [
+   "உலக அளவில் எண்ணெய் விலை உயர்ந்ததால் இந்தியப் பங்குச் சந்தைகள் பெரும் வீழ்ச்சியைச் சந்தித்தன.",
+   "சென்செக்ஸ் குறியீடு நாளின் உச்ச நிலையிலிருந்து 1,000 புள்ளிகளுக்கும் மேல் சரிந்தது, நிஃப்டி 22,500 புள்ளிகளுக்குக் கீழே வர்த்தகமானது.",
+   "இடைத்தர மற்றும் சிறு நிறுவனப் பங்குகளும் கணிசமான இழப்பைச் சந்தித்தன.",
+   "எனினும் அடுத்த வாரம் பெரிய நிறுவனப் பங்குகளில் ஏற்றம் ஏற்படக்கூடும் என்று சில ஆய்வாளர்கள் நம்பிக்கை தெரிவித்துள்ளனர்.",
+   "எண்ணெய் விலைப் போக்கு மற்றும் உலகச் சந்தை நிலவரத்தைப் பொறுத்தே அடுத்த கட்ட சந்தை இயக்கம் அமையும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "எண்ணெய் விலை ஏற்றம் தொடர்ந்தால் இந்தியப் பங்குச் சந்தையின் வீழ்ச்சி மேலும் நீடிக்கலாம் என்ற கவலை முதலீட்டாளர்களிடையே நிலவுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "சென்செக்ஸ்",
+   "நிஃப்டி",
+   "எண்ணெய் விலை",
+   "இந்தியப் பங்குச் சந்தை",
+   "முதலீட்டாளர்கள்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Sensex sinks over 1,000 points on oil price surge, Nifty below 22,500",
+   "lines": [
+    "Indian stock markets saw a sharp fall as global crude oil prices surged.",
+    "The Sensex plunged over 1,000 points from the day's high, while Nifty traded below the 22,500 mark.",
+    "Mid-cap and small-cap stocks also suffered significant losses, market experts said.",
+    "However, some analysts expressed hope that large-cap stocks could see a rally next week.",
+    "Future market movement is expected to depend on oil price trends and global market conditions."
+   ],
+   "closing": "Investors remain concerned that the market slide could extend further if oil prices keep rising."
+  },
+  "front_cat": "routine",
+  "image_query": "stock market trading India",
+  "wiki_subject": "BSE SENSEX",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "f8c0cdf67cf5",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-23T11:17+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/sensex-drops-over-400-points-nifty-below-22500-while-small-midcap-indices-plunge-up-to-3-what-lies-ahead-for-dalal-street/articleshow/135134693.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/f8c0cdf67cf5.mp3",
+  "created_ts": 1792734464.912927,
+  "status": "published"
+ },
+ {
+  "headline": "முதல்வர் மேஜையில் 3 ஊழல் கோப்புகள் விரைவில் வெளியாகும்: அமைச்சர் மரிய வில்சன்",
+  "lines": [
+   "தமிழக அமைச்சர் மரிய வில்சன் ஓர் அறிக்கையில் முக்கியத் தகவல் ஒன்றைத் தெரிவித்தார்.",
+   "முதல்வரின் மேஜையில் மூன்று ஊழல் தொடர்பான கோப்புகள் உள்ளதாக அவர் குறிப்பிட்டார்.",
+   "இந்த மூன்று கோப்புகளும் விரைவில் வெளியிடப்படும் என அவர் தெரிவித்தார்.",
+   "இந்தக் கோப்புகளில் என்ன விவரங்கள் உள்ளன என்பது குறித்து அவர் விளக்கவில்லை.",
+   "இது தொடர்பான உறுதிப்பாடு அரசு தரப்பில் இதுவரை வெளியிடப்படவில்லை."
+  ],
+  "closing": "அமைச்சர் மரிய வில்சனின் இந்தக் கூற்று குறித்து அரசு தரப்பில் எந்த விளக்கமும் இதுவரை வரவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "முதல்வர்",
+   "அமைச்சர் மரிய வில்சன்",
+   "ஊழல் கோப்புகள்"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Three corruption files on CM's desk: Minister Maria Wilson claims",
+   "lines": [
+    "Tamil Nadu Minister Maria Wilson made an important statement in a remark.",
+    "He said three corruption-related files are currently on the Chief Minister's desk.",
+    "He stated that these three files would be released soon.",
+    "He did not explain what details these files contain.",
+    "No confirmation on this matter has been issued by the government so far."
+   ],
+   "closing": "No clarification has come from the government regarding Minister Maria Wilson's claim so far."
+  },
+  "front_cat": "scam_expose",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "aef72f9711ac",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-23T11:16+05:30",
+  "links": [
+   "https://www.dinamani.com/all-editions/edition-thirunelveli/2026/Oct/22/3-corruption-files-on-the-chief-ministers-desk-will-be-released-soon-minister-maria-wilson"
+  ],
+  "image": null,
+  "audio": "data/audio/aef72f9711ac.mp3",
+  "created_ts": 1792734376.280079,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழ்நாடு அரசு 2027ஆம் ஆண்டு பொது விடுமுறை பட்டியல் வெளியிடு",
+  "lines": [
+   "தமிழ்நாடு அரசு 2027ஆம் ஆண்டுக்கான அரசு அலுவலகங்கள் மற்றும் கல்வி நிறுவனங்களுக்கான பொது விடுமுறை நாட்கள் பட்டியலை வெளியிட்டுள்ளது.",
+   "இந்தப் பட்டியலில் பொது விடுமுறை நாட்கள் மற்றும் கட்டுப்படுத்தப்பட்ட விடுமுறை நாட்கள் என இரு வகைகள் இடம்பெற்றுள்ளன.",
+   "ஆண்டுதோறும் அடுத்த ஆண்டுக்கான விடுமுறை நாட்களை முன்கூட்டியே அறிவிப்பது தமிழ்நாடு அரசின் வழக்கமான நடைமுறை.",
+   "இந்த அறிவிப்பு அரசு ஆணையாக வெளியிடப்பட்டுள்ளதாகத் தெரிகிறது.",
+   "பணியாளர்கள் மற்றும் மாணவர்கள் இந்தப் பட்டியலின் அடிப்படையில் 2027ஆம் ஆண்டுக்கான பணி மற்றும் கல்விக் காலண்டரைத் திட்டமிடலாம்."
+  ],
+  "closing": "இதுபோன்ற முன்கூட்டிய விடுமுறைப் பட்டியல் வெளியீடு, பள்ளிகள் கல்லூரிகள் மற்றும் அரசு அலுவலகங்கள் ஆண்டுத் திட்டமிடலுக்கு உதவும் வழக்கமான நடைமுறை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "2027 விடுமுறை பட்டியல்",
+   "அரசு அலுவலகங்கள்",
+   "கல்வி நிறுவனங்கள்"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Tamil Nadu Government Releases 2027 Public Holiday List",
+   "lines": [
+    "The Tamil Nadu government has released the list of public holidays for government offices and educational institutions for the year 2027.",
+    "The list includes both general public holidays and restricted holidays.",
+    "Announcing the next year's holiday list in advance is a regular practice followed annually by the Tamil Nadu government.",
+    "The announcement appears to have been issued as a government order.",
+    "Employees and students can use this list to plan their work and academic calendars for 2027."
+   ],
+   "closing": "Such advance release of holiday lists is a routine practice that helps schools, colleges and government offices plan their annual calendars."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "21f5e0516faa",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-23T11:12+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-releases-list-of-public-holidays-for-2027/article71611311.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/21f5e0516faa.mp3",
+  "created_ts": 1792734180.8767042,
+  "status": "published"
+ },
+ {
+  "headline": "சென்னை உள்பட 24 மாவட்டங்களில் அடுத்த 2 மணிநேரத்தில் மழை எச்சரிக்கை",
+  "lines": [
+   "சென்னை உள்பட தமிழ்நாட்டின் 24 மாவட்டங்களில் அடுத்த 2 மணிநேரத்தில் மழை பெய்யும் என எச்சரிக்கை விடுக்கப்பட்டுள்ளது.",
+   "மாநிலம் முழுவதும் மொத்தம் 24 மாவட்டங்களுக்கு இந்த குறுகிய கால மழை எச்சரிக்கை பொருந்தும் என தெரிவிக்கப்பட்டுள்ளது.",
+   "திடீர் மழைக்கான வாய்ப்பு இருப்பதால் பொதுமக்கள் முன்னெச்சரிக்கையுடன் இருக்குமாறு கேட்டுக்கொள்ளப்பட்டுள்ளனர்.",
+   "வெளியே பயணிப்பவர்களும் விவசாயிகளும் வானிலை மாற்றத்தை கவனத்தில் கொள்ளுமாறு அறிவுறுத்தப்பட்டுள்ளனர்.",
+   "மழையின் தீவிரம் தொடர்பான மேலும் விவரங்களை அதிகாரிகள் தொடர்ந்து கண்காணித்து வருகின்றனர்."
+  ],
+  "closing": "இந்த எச்சரிக்கை குறுகிய கால மழை முன்னறிவிப்பாக வெளியிடப்பட்டுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை",
+   "தமிழ்நாடு",
+   "மழை எச்சரிக்கை",
+   "24 மாவட்டங்கள்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Rain warning for 24 districts including Chennai in two hours",
+   "lines": [
+    "A rain warning has been issued for 24 districts of Tamil Nadu, including Chennai, for the next two hours.",
+    "This short-term rain alert applies to a total of 24 districts across the state.",
+    "Due to the possibility of sudden rain, the public has been asked to remain cautious.",
+    "Travelers and farmers have also been advised to keep an eye on the changing weather conditions.",
+    "Officials continue to monitor further details regarding the intensity of the rain."
+   ],
+   "closing": "This warning has been issued as a short-term rain forecast.",
+   "closing_type": "watch"
+  },
+  "id": "f0a3575ac69e",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-23T11:09+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/23/rain-in-24-districts-including-chennai-for-the-next-2-hours"
+  ],
+  "image": {
+   "url": "data/bank/weather06.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/f0a3575ac69e.mp3",
+  "created_ts": 1792733960.3049407,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "வங்கக் கடலில் புதிய காற்றழுத்தத் தாழ்வுப் பகுதி உருவானது",
+  "lines": [
+   "வங்கக் கடலில் புதிய காற்றழுத்தத் தாழ்வுப் பகுதி ஒன்று உருவாகியுள்ளதாக வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "இந்தத் தாழ்வுப் பகுதி அடுத்த சில நாட்களில் மேலும் வலுவடையக்கூடும் என எதிர்பார்க்கப்படுகிறது.",
+   "இதன் நகர்வுப் பாதையை வானிலை ஆய்வு மையம் தொடர்ந்து கண்காணித்து வருவதாகத் தெரிவித்துள்ளது.",
+   "இதன் தாக்கத்தால் தமிழ்நாடு உள்ளிட்ட தென்னிந்தியக் கடலோர பகுதிகளில் மழை பெய்யக்கூடும் என அனுமானிக்கப்படுகிறது.",
+   "வானிலை ஆய்வு மையத்தின் அடுத்தக் கட்ட அறிவிப்பு எதிர்பார்க்கப்படுவதாகத் தெரிகிறது."
+  ],
+  "closing": "இந்தத் தாழ்வுப் பகுதி எந்த அளவுக்கு வலுப்பெறும் என்பது அடுத்த சில நாட்களில் தெரியவரும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-23"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "வங்கக் கடல்",
+   "தமிழ்நாடு",
+   "வானிலை ஆய்வு மையம்",
+   "காற்றழுத்தத் தாழ்வுப் பகுதி"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "New Low-Pressure Area Forms in Bay of Bengal",
+   "lines": [
+    "A new low-pressure area has formed in the Bay of Bengal, according to the meteorological department.",
+    "The system is expected to intensify further over the next few days.",
+    "The meteorological department said it is continuously monitoring the movement of the system.",
+    "Its impact could bring rain to Tamil Nadu and other south Indian coastal states, officials said.",
+    "The department's next update on the system is awaited."
+   ],
+   "closing": "How much the system will intensify will become clear over the coming days."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "Bay of Bengal storm clouds",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "bc6b0487399c",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-23T11:07+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/23/a-new-low-pressure-area-has-formed-in-the-bay-of-bengal-3"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/bc6b0487399c.mp3",
+  "created_ts": 1792733854.2928505,
+  "status": "published"
+ },
+ {
+  "headline": "கார்த்திக் சுப்பராஜின் 'டோரதி'ல மிருகங்கள் வாயிலாக மனித சிறுமை",
+  "lines": [
+   "இயக்குநர் கார்த்திக் சுப்பராஜின் புதிய படம் 'டோரதி' காலப்போக்கு நாடகமாக உள்ளது.",
+   "இந்தப் படத்தில் உள்ள வனவிலங்கு காட்சிகள் மனிதர்களின் இழிவான செயல்களை வெளிப்படுத்துகின்றன.",
+   "ஆண்களின் ஆணவத்தால் ஏற்படும் வன்முறையின் வெறுமையை படம் வெளிப்படுத்துகிறது.",
+   "மனித முன்னெச்சரிக்கைகள் எவ்வளவு சிறியவை என்பதை இயற்கை மாறிலி எனும் வடிவத்தில் படம் சித்தரிக்கிறது.",
+   "கலை, சிறுமை, ஆணவம் ஆகிய கருத்துக்களைக் குறிப்பிட உயிரினங்களை உயர்த்திய இயக்குநரின் கைலாசமான பொருட்கோட்பாடு கவனிக்கப்படுகிறது."
+  ],
+  "closing": "பல்லுயிர் உலகம் மனித ஆணவத்தை எவ்வாறு பிரதிபலிப்பிக்கிறது என்பதை 'டோரதி' வாயிலாக கார்த்திக் சுப்பராஜ் பயனுள்ள ஆய்வு முன்வைக்கிறார்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "கார்த்திக் சுப்பராஜ்",
+   "டோரதி",
+   "வனப்பகுதி நாடகம்"
+  ],
+  "confidence": 0.72,
+  "en": {
+   "headline": "In Karthik Subbaraj's 'Dorothy', wildlife exposes human smallness through male ego",
+   "lines": [
+    "Director Karthik Subbaraj's new film 'Dorothy' is set as a period drama.",
+    "The wildlife depictions in this film reveal the absurdity of human prejudice.",
+    "The film exposes the emptiness of violence caused by male arrogance.",
+    "Through nature as a constant, the film illustrates how human concerns are remarkably small.",
+    "To convey ideas about art, smallness, and arrogance, the director elevates animals—a profound thematic choice worth noting."
+   ],
+   "closing": "Through 'Dorothy', Karthik Subbaraj offers a meaningful exploration of how the living world reflects human arrogance."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Karthik Subbaraj director",
+  "wiki_subject": "Karthik Subbaraj",
+  "person_en": "Karthik Subbaraj",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "73efcd3fa86c",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-10-23T11:05+05:30",
+  "links": [
+   "https://www.thehindu.com/entertainment/movies/the-animals-of-dorothy-and-the-hollow-violence-of-male-ego/article71614520.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Karthik_Subbaraj_at_Iraivi_Press_Meet.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Karthik Subbaraj",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Karthik_Subbaraj",
+   "symbolic": false
+  },
+  "audio": "data/audio/73efcd3fa86c.mp3",
+  "created_ts": 1792733753.031164,
+  "status": "published"
+ },
+ {
+  "headline": "ரயில் சக்கரத் தொழிற்சாலையில் வாட்சர், மேற்பார்வையாளர் பணியிடங்களுக்கு விண்ணப்பம்",
+  "lines": [
+   "இந்திய ரயில்வேயின் ரயில் சக்கரத் தொழிற்சாலை (RWF), வாட்சர் மற்றும் மேற்பார்வையாளர் பணியிடங்களுக்கு தனித்தனி அறிவிப்புகளை வெளியிட்டுள்ளது.",
+   "மேற்பார்வையாளர் பணியிடத்தில் ஜூனியர் இன்ஜினியர், சீனியர் செக்ஷன் இன்ஜினியர் உள்பட மொத்தம் 11 காலிப்பணியிடங்கள் உள்ளன.",
+   "வாட்சர் பணிக்கு விண்ணப்பங்களை நேரடியாக அனுப்ப வேண்டும் என அறிவிப்பு தெரிவிக்கிறது.",
+   "மேற்பார்வையாளர் பணிக்கு மின்னஞ்சல் வழியாக மட்டுமே விண்ணப்பிக்க வேண்டும் என தொழிற்சாலை நிர்வாகம் தெரிவித்துள்ளது.",
+   "வாட்சர் பணிக்கு அக்டோபர் 29 வரையிலும், மேற்பார்வையாளர் பணிக்கு நவம்பர் 6 வரையிலும் விண்ணப்பிக்கலாம்."
+  ],
+  "closing": "விரிவான தகுதி மற்றும் விண்ணப்ப முறை பற்றிய தகவல்களை rwf.indianrailways.gov.in இணையதளத்தில் பெறலாம்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": "RWF/RC-1/157",
+    "date": null
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "ரயில் சக்கரத் தொழிற்சாலை",
+   "இந்திய ரயில்வே",
+   "வாட்சர் பணியிடம்",
+   "மேற்பார்வையாளர் பணியிடம்",
+   "rwf.indianrailways.gov.in"
+  ],
+  "id": "ca67f96d4ae5",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-10-23T11:04+05:30",
+  "links": [
+   "https://www.freejobalert.com/articles/rwf-watcher-recruitment-2026-apply-offline-3075233",
+   "https://www.freejobalert.com/articles/rwf-supervisor-recruitment-2026-apply-online-for-11-posts-3075231",
+   "https://www.freejobalert.com/articles/mrvc-assistant-manager-recruitment-2026-apply-offline-3075219",
+   "https://www.freejobalert.com/articles/punjabi-university-guest-faculty-recruitment-2026-apply-online-for-10-posts-3075208",
+   "https://www.freejobalert.com/articles/national-green-tribunal-recruitment-2026-apply-offline-for-3-deputy-registrar-assistant-registrar-posts-3075206",
+   "https://www.freejobalert.com/articles/iifm-recruitment-2026-apply-offline-for-9-assistant-assistant-manager-and-more-posts-3075200"
+  ],
+  "image": {
+   "url": "data/bank/jobs02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/ca67f96d4ae5.mp3",
+  "created_ts": 1792733699.8237169,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "ஐஐடி சென்னை செயற்கை நுண்ணறிவு ஆராய்ச்சித் திட்டங்கள் அறிவிப்பு",
   "lines": [
    "இந்திய தொழில்நுட்பக் கழகம் சென்னை வளாகம், செயற்கை நுண்ணறிவு தொடர்பான புதிய ஆராய்ச்சித் திட்டங்களை அறிவித்துள்ளது.",
@@ -18180,633 +18867,6 @@
   },
   "audio": "data/audio/60d51605068e.mp3",
   "created_ts": 1792112318.7553864,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "தமிழ்நாட்டில் முன்கூட்டியே தொடங்கிய வடகிழக்குப் பருவமழை",
-  "lines": [
-   "தமிழ்நாட்டில் இந்த ஆண்டு வடகிழக்குப் பருவமழை வழக்கத்தைவிட முன்கூட்டியே தொடங்கியுள்ளது.",
-   "வடகிழக்குப் பருவக்காற்று சாதாரண காலத்துக்கு முன்பே மாநிலத்தில் பாய்ந்துள்ளது.",
-   "பிராந்திய வானிலை மையம் இந்த பருவத்தில் சாதாரண அளவு மழை பொழியும் என அறிவித்துள்ளது.",
-   "முன்கூட்டியே பருவமழை தொடங்கினாலும், அது சராசரியைவிட அதிக மழை பெய்யும் என்பதற்கு உத்தரவாதம் இல்லை என வானிலை நிபுணர்கள் தெரிவித்துள்ளனர்.",
-   "அடுத்த சில வாரங்களில் மாநிலம் முழுவதும் மழையின் தீவிரம் மற்றும் பரவல் குறித்து மேலும் தகவல்கள் வெளியாக உள்ளன."
-  ],
-  "closing": "வடகிழக்குப் பருவமழை தமிழ்நாட்டின் முக்கிய மழைக்காலமாகக் கருதப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தமிழ்நாடு",
-   "வடகிழக்குப் பருவமழை",
-   "பிராந்திய வானிலை மையம்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Northeast monsoon arrives early in Tamil Nadu this year",
-   "lines": [
-    "The northeast monsoon has arrived earlier than usual in Tamil Nadu this year.",
-    "The seasonal winds have set in over the State ahead of the normal schedule.",
-    "The Regional Meteorological Centre has forecast normal rainfall for the season.",
-    "Meteorologists noted that an early onset does not guarantee above normal rainfall.",
-    "More details on rainfall intensity and spread across the State are expected in the coming weeks."
-   ],
-   "closing": "The northeast monsoon is considered Tamil Nadu's main rainy season."
-  },
-  "front_cat": "routine",
-  "image_query": "monsoon rain Tamil Nadu",
-  "wiki_subject": "Northeast monsoon",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "9eed03a14fb1",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-16T06:26+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/northeast-monsoon-2026-arrives-early-in-tamil-nadu/article71588489.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Monsoon_clouds_near_Nagercoil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Monsoon",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Monsoon",
-   "symbolic": false
-  },
-  "audio": "data/audio/9eed03a14fb1.mp3",
-  "created_ts": 1792112186.7317579,
-  "status": "published"
- },
- {
-  "headline": "ஐபிபிஎஸ் எஸஓ முன்னிலைத் தேர்வு முடிவு வெளியீடு",
-  "lines": [
-   "ஐபிபிஎஸ் எஸஓ முன்னிலைத் தேர்வின் முடிவு அக்டோபர் 15ம் தேதியன்று வெளியிடப்பட்டது.",
-   "சிஆர்பி எஸ்பிஎல் XVI பதிப்பின் கீழ் நிபுணத் துறை அலுவலர் பணியிடங்களுக்கான தேர்வு நடத்தப்பட்டுள்ளது.",
-   "முன்னிலைத் தேர்வு ஆகஸ்ட் 29ம் தேதியன்று நடத்தப்பட்டது; மூலத் தேர்வு நவம்பர் 1ம் தேதியன்று நடைபெறவுள்ளது.",
-   "விண்ணப்பதாரர்கள் பதிவுப் பண்ணை, உருள் பண்ணை, கடவுரை அல்லது பிறந்த தேதி மூலம் முடிவைச் சரிபார்க்கலாம்.",
-   "ஐபிபிஎஸ் அதிகாரப் பணையில் முடிவு இணைப்பு மற்றும் முக்கியத் தகவல்கள் கிடைக்கும்."
-  ],
-  "closing": "தகுதி பெற்றவர்கள் நவம்பர் 1ம் தேதிக்கான மூலத் தேர்வுக்குத் தயாரிக்க வேண்டியுள்ளனர்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-10-15"
-   }
-  ],
-  "topic": "jobs",
-  "entities": [
-   "ஐபிபிஎஸ்",
-   "சிஆர்பி எஸ்பிஎல் XVI",
-   "நிபுணத்துறை அலுவலர்",
-   "முன்னிலைத் தேர்வு"
-  ],
-  "confidence": 0.92,
-  "en": {
-   "headline": "IBPS SO Prelims Result 2026 Released",
-   "lines": [
-    "The IBPS SO Prelims Result was released on October 15th for CRP SPL-XVI Specialist Officer recruitment.",
-    "The preliminary examination was held on August 29th, and the Main Exam is scheduled for November 1st.",
-    "Candidates can check their results using registration number, roll number, password, or date of birth.",
-    "The official result link is available on the IBPS website with further updates.",
-    "Qualified candidates must prepare for the Main Exam scheduled for November 1st."
-   ],
-   "closing": "Qualified candidates need to prepare for the Main Exam on November 1st."
-  },
-  "front_cat": "exam_jobs_deadline",
-  "image_query": "IBPS Specialist Officer recruitment",
-  "wiki_subject": "Institute of Banking Personnel Selection",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "016c6425e018",
-  "topic_ta": "வேலை · தேர்வு",
-  "published_at": "2026-10-16T04:30+05:30",
-  "links": [
-   "https://www.freejobalert.com/articles/ibps-so-xvi-pre-result-2026-3073966"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/IBPS_LOGO.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Institute of Banking Personnel Selection",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Institute_of_Banking_Personnel_Selection",
-   "symbolic": false
-  },
-  "audio": "data/audio/016c6425e018.mp3",
-  "created_ts": 1792105203.9148462,
-  "status": "published"
- },
- {
-  "headline": "தமிழக மீனவர்கள் 25 பேரை மீட்க மத்திய அரசுக்கு முதல்வர் வலியுறுத்தல்",
-  "lines": [
-   "இலங்கைக் கடற்படையினரால் தடுத்து வைக்கப்பட்டுள்ளதாகக் கூறப்படும் தமிழக மீனவர்கள் 25 பேரை உடனடியாக மீட்க நடவடிக்கை எடுக்குமாறு தமிழ்நாடு அரசு கோரிக்கை விடுத்துள்ளது.",
-   "இந்த 25 மீனவர்களை மீட்பதற்கான நடவடிக்கைகளை மேற்கொள்ளுமாறு மத்திய அரசுக்குத் தமிழ்நாடு முதல்வர் கடிதம் மூலம் வலியுறுத்தியுள்ளார்.",
-   "மீனவர்களின் பாதுகாப்பு மற்றும் விரைவான விடுதலை குறித்துத் தமிழ்நாடு அரசு தொடர்ந்து கவனம் செலுத்தி வருவதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "இலங்கைக் கடல் எல்லையை அண்மித்து மீன்பிடிக்கும் போது தமிழக மீனவர்கள் அடிக்கடி இத்தகைய சிக்கல்களை எதிர்கொள்வது வழக்கமான நிகழ்வாக உள்ளது.",
-   "மத்திய அரசு இந்த விவகாரத்தில் இலங்கை அரசுடன் பேச்சுவார்த்தை நடத்தி மீனவர்களை விடுவிக்க நடவடிக்கை எடுக்கும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இலங்கைக் கடற்படையால் தமிழக மீனவர்கள் தடுத்து வைக்கப்படும் சம்பவங்கள் தொடர்ந்து நடைபெற்று வரும் நிலையில், மத்திய அரசு இதற்கு என்ன நடவடிக்கை எடுக்கும் என்பதே கவனிக்கப்பட வேண்டியது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தமிழ்நாடு",
-   "இலங்கை",
-   "மத்திய அரசு",
-   "தமிழக மீனவர்கள்"
-  ],
-  "id": "1581e8da69f8",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-16T04:27+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/15/steps-to-rescue-25-tamil-nadu-fishermen-chief-minister-urges-central-government"
-  ],
-  "image": {
-   "url": "data/bank/india08.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/1581e8da69f8.mp3",
-  "created_ts": 1792105046.2222648,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ரூ. இருபது லட்சம் லஞ்சம்: பெருநிறுவன விவகாரத் துறை அதிகாரி கைது",
-  "lines": [
-   "பெருநிறுவன விவகாரத் துறையின் மோசடி தடுப்புப் பிரிவு துணை இயக்குநரை சிபிஐ கைது செய்துள்ளது.",
-   "அவர் லஞ்சமாக ரூபாய் இருபது லட்சம் பெற்றதாகக் குற்றம் சாட்டப்பட்டுள்ளது.",
-   "மத்திய புலனாய்வுப் பிரிவான சிபிஐ அதிகாரிகள் இந்த நடவடிக்கையை மேற்கொண்டனர்.",
-   "வழக்கு தொடர்பாக மேலும் விசாரணை நடைபெறுவதாகத் தெரிவிக்கப்படுகிறது.",
-   "இது குறித்த முழு விவரங்களை சிபிஐ விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "பெருநிறுவன விவகாரத் துறையில் ஊழல் தடுப்பு நடவடிக்கைகளின் ஒரு பகுதியாக இந்த கைது பதிவாகியுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "சிபிஐ",
-   "பெருநிறுவன விவகாரத் துறை",
-   "மோசடி தடுப்புப் பிரிவு",
-   "லஞ்சம்"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Rs 20 lakh bribe case: Corporate Affairs official arrested by CBI",
-   "lines": [
-    "A deputy director of the fraud prevention wing in the Corporate Affairs Department has been arrested by the CBI.",
-    "He is accused of accepting a bribe of Rs 20 lakh.",
-    "Officials from the Central Bureau of Investigation carried out the action, reports say.",
-    "Further investigation into the case is said to be underway.",
-    "Complete details regarding the case are expected to be released by the CBI soon."
-   ],
-   "closing": "The arrest comes as part of anti-corruption efforts within the Corporate Affairs Department."
-  },
-  "front_cat": "scam_expose",
-  "image_query": "",
-  "wiki_subject": "Central Bureau of Investigation",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "9a48a319e772",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-16T04:26+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/15/rs-20-lakh-bribe-deputy-director-of-the-fraud-investigation-unit-under-the-ministry-of-corporate-affairs-arrested-cbi-takes-action"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Cbi_logo.svg/330px-Cbi_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Central Bureau of Investigation",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Central_Bureau_of_Investigation",
-   "symbolic": false
-  },
-  "audio": "data/audio/9a48a319e772.mp3",
-  "created_ts": 1792104968.2744527,
-  "status": "published"
- },
- {
-  "headline": "தமிழ்நாட்டில் 260 கடைகளில் கிலோ ₹30-க்கு புழுங்கல் அரிசி",
-  "lines": [
-   "தமிழ்நாடு அரசு மாநிலம் முழுவதும் உள்ள 260 அமுதம் மற்றும் கூட்டுறவுக் கடைகள் வழியாக புழுங்கல் அரிசி விற்பனை செய்ய உள்ளது.",
-   "ஒரு கிலோ புழுங்கல் அரிசி ₹30 விலையில் விற்கப்படும் என அமைச்சர் தெரிவித்தார்.",
-   "குறைந்த விலையில் மக்களுக்கு அரிசி கிடைக்கச் செய்யும் நோக்கில் இந்த நடவடிக்கை மேற்கொள்ளப்படுவதாக அமைச்சர் கூறினார்.",
-   "அமுதம் கடைகள் மற்றும் கூட்டுறவுக் கடைகள் இரண்டும் இணைந்து இந்த விநியோகத்தை மேற்கொள்ளும் என அரசு தெரிவித்துள்ளது.",
-   "இந்தத் திட்டம் விரைவில் மாநிலம் முழுவதும் செயல்படுத்தப்படும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "குறைந்த விலையில் அரிசி கிடைக்கச் செய்யும் நோக்கில் இந்தத் திட்டம் அறிவிக்கப்பட்டுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "தமிழ்நாடு அரசு",
-   "அமுதம் கடைகள்",
-   "கூட்டுறவுக் கடைகள்",
-   "புழுங்கல் அரிசி"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Tamil Nadu to sell parboiled rice at ₹30 per kg in 260 stores",
-   "lines": [
-    "The Tamil Nadu government will sell parboiled rice through 260 Amudham and cooperative stores across the state.",
-    "One kilogram of parboiled rice will be sold at ₹30, the minister said.",
-    "The minister said the move aims to make rice available to people at an affordable price.",
-    "Both Amudham stores and cooperative stores will jointly handle the distribution, the government said.",
-    "The scheme is expected to be rolled out across the state soon."
-   ],
-   "closing": "The scheme has been announced with the aim of making rice available at an affordable price."
-  },
-  "front_cat": "price_policy",
-  "image_query": "rice sacks market tamil nadu",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "6e21e6ae1ac9",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-10-16T04:24+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/tn-govt-to-sell-parboiled-rice-at-30-per-kg-through-260-amudham-cooperative-stores-minister/article71588224.ece"
-  ],
-  "image": {
-   "url": "data/bank/govt10.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/6e21e6ae1ac9.mp3",
-  "created_ts": 1792104891.7813926,
-  "status": "published"
- },
- {
-  "headline": "வங்கக்கடல், அரபிக்கடலில் ஒரே நேரத்தில் இரு புயல் சின்னங்கள் வாய்ப்பு",
-  "lines": [
-   "வங்கக்கடலிலும் அரபிக்கடலிலும் ஒரே நேரத்தில் இரண்டு புயல் சின்னங்கள் உருவாகும் வாய்ப்பு உள்ளதாக வானிலை ஆய்வாளர்கள் தெரிவித்துள்ளனர்.",
-   "இந்த இரட்டைப் புயல் அமைப்பு தமிழ்நாடு உள்ளிட்ட கடலோர மாநிலங்களின் மழை நிலையைப் பாதிக்கக்கூடும் என எதிர்பார்க்கப்படுகிறது.",
-   "புயல் சின்னங்கள் உருவாகும் துல்லியமான தேதி, திசை குறித்த விரிவான தகவல் இதுவரை வெளியிடப்படவில்லை.",
-   "கடலோரப் பகுதி மக்கள் வானிலை மையத்தின் அறிவிப்புகளை தொடர்ந்து கவனித்து வருமாறு கேட்டுக்கொள்ளப்பட்டுள்ளனர்.",
-   "அடுத்த சில நாட்களில் புயல் அமைப்புகளின் தீவிரம், பாதிக்கப்படும் பகுதிகள் குறித்து தெளிவான தகவல் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இரு கடல்களிலும் ஒரே நேரத்தில் புயல் சின்னங்கள் உருவாகும் நிலையில், அடுத்த எச்சரிக்கைக்காக அனைவரும் காத்திருக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "வங்கக் கடல்",
-   "அரபிக் கடல்",
-   "தமிழ்நாடு",
-   "வானிலை மையம்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Bay of Bengal, Arabian Sea may see cyclone signs at the same time",
-   "lines": [
-    "Weather analysts have indicated that signs of two cyclonic systems may form simultaneously in the Bay of Bengal and the Arabian Sea.",
-    "This twin cyclone pattern is expected to affect rainfall conditions in coastal states, including Tamil Nadu.",
-    "No detailed information regarding the exact date and direction of the cyclone formations has been released so far.",
-    "Coastal residents have been advised to continue closely monitoring announcements from the weather department.",
-    "Clearer information about the intensity of the cyclonic systems and the areas likely to be affected is expected to be released over the next few days."
-   ],
-   "closing": "With cyclone signs likely to form in both seas at the same time, everyone is advised to wait for the next official warning.",
-   "closing_type": "watch"
-  },
-  "id": "63631c9b3021",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-16T04:22+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/15/possibility-of-two-cyclonic-systems-forming-simultaneously-in-the-bay-of-bengal-and-the-arabian-sea"
-  ],
-  "image": {
-   "url": "data/bank/weather02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/63631c9b3021.mp3",
-  "created_ts": 1792104724.7742932,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "தவெக இந்தியா கூட்டணியில் இணைப்பு; அக்டோபர் 13, 14-ல் போராட்டம்",
-  "lines": [
-   "தமிழக வெற்றிக் கழகம் (தவெக) எதிர்க்கட்சிகளின் இந்தியா கூட்டணியில் முறைப்படி இணைந்துள்ளது.",
-   "கூட்டணிக் கட்சிகளின் கூட்டத்தில் இந்த முடிவு எடுக்கப்பட்டதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "'ஜனநாயகத்தைக் காப்போம்' என்ற பெயரில் போராட்டங்கள் நடத்த முடிவு செய்யப்பட்டுள்ளது.",
-   "தமிழ்நாடு முழுவதும் உள்ள மாவட்ட தலைமையகங்களில் அக்டோபர் 13, 14 தேதிகளில் இப்போராட்டம் நடைபெறும்.",
-   "பாஜக மற்றும் தேர்தல் ஆணையத்துக்கு எதிராக இந்தப் போராட்டங்கள் ஏற்பாடு செய்யப்பட்டுள்ளன."
-  ],
-  "closing": "இந்தியா கூட்டணியில் தவெக இணைந்த பின் தமிழக அரசியலில் ஏற்படும் மாற்றங்களை அரசியல் வட்டாரங்கள் உற்று நோக்கி வருகின்றன.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தமிழக வெற்றிக் கழகம்",
-   "இந்தியா கூட்டணி",
-   "பாஜக",
-   "தேர்தல் ஆணையம்",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "TVK formally joins INDIA bloc, protests set for Oct 13 and 14",
-   "lines": [
-    "Tamilaga Vettri Kazhagam has formally joined the opposition INDIA bloc alliance.",
-    "The decision was taken at a meeting of alliance parties, according to reports.",
-    "It was decided that protests titled Save Democracy would be organised.",
-    "The protests will be held at district headquarters across Tamil Nadu on October 13 and 14.",
-    "The demonstrations are being organised against the BJP and the Election Commission."
-   ],
-   "closing": "Political observers are watching for the changes this TVK alliance move may bring to Tamil Nadu politics."
-  },
-  "front_cat": "assembly_event",
-  "image_query": "",
-  "wiki_subject": "Tamilaga Vettri Kazhagam",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "536c7ff650bf",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-16T04:20+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/tvk-formally-joins-india-bloc-set-to-join-demonstrations-against-bjp-and-ec/article71540550.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Indian_Election_Symbol_Whistle.svg/960px-Indian_Election_Symbol_Whistle.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Tamilaga Vettri Kazhagam",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Tamilaga_Vettri_Kazhagam",
-   "symbolic": false
-  },
-  "audio": "data/audio/536c7ff650bf.mp3",
-  "created_ts": 1792104646.8716013,
-  "status": "published"
- },
- {
-  "headline": "மதுரை ஆட்சியர் அலுவலகத்தில் உதவியாளர் பணிக்கு விண்ணப்பம் கோரிக்கை",
-  "lines": [
-   "மதுரை மாவட்ட ஆட்சியர் அலுவலகத்தின் சிறார் பாதுகாப்புப் பிரிவு உதவியாளர் பணியிடத்திற்கு அறிவிப்பு வெளியிட்டுள்ளது.",
-   "விண்ணப்பிக்க விரும்புவோர் 30 அக்டோபர் 2026-க்குள் விண்ணப்பிக்க வேண்டும் என அறிவிக்கப்பட்டுள்ளது.",
-   "விண்ணப்பங்களை நேரடியாக (ஆஃப்லைன்) அலுவலகத்தில் சமர்ப்பிக்க வேண்டும் என அதிகாரிகள் தெரிவித்துள்ளனர்.",
-   "தகுதி விவரங்கள் மற்றும் முழு அறிவிப்பு மாவட்ட ஆட்சியர் அலுவலகத்தில் பெறலாம் என தகவல் வெளியாகியுள்ளது.",
-   "தகுதியுடைய ஆர்வமுள்ளோர் கடைசி நாளுக்குள் விண்ணப்பிக்குமாறு அலுவலகம் கேட்டுக்கொண்டுள்ளது."
-  ],
-  "closing": "விண்ணப்பதாரர்கள் தகுதி விவரங்களை மாவட்ட ஆட்சியர் அலுவலகத்தில் நேரடியாகத் தொடர்புகொண்டு உறுதிசெய்துகொள்வது நல்லது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "jobs",
-  "entities": [
-   "மதுரை மாவட்ட ஆட்சியர் அலுவலகம்",
-   "சிறார் பாதுகாப்புப் பிரிவு",
-   "மதுரை"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Madurai Collectorate Invites Applications for Support Person Post",
-   "lines": [
-    "The District Child Protection Unit under Madurai Collectorate has released a notification for the Support Person post.",
-    "Interested candidates must apply before the last date of October 30.",
-    "Applications must be submitted offline directly at the office, officials said.",
-    "Eligibility details and the full notification are available at the Madurai Collectorate office.",
-    "Eligible and interested candidates have been asked to apply before the deadline."
-   ],
-   "closing": "Applicants are advised to directly contact the Madurai Collectorate office to confirm eligibility details."
-  },
-  "front_cat": "exam_jobs_deadline",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": true,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "f90b3eff7152",
-  "topic_ta": "வேலை · தேர்வு",
-  "published_at": "2026-10-16T04:19+05:30",
-  "links": [
-   "https://www.freejobalert.com/articles/district-collectorate-madurai-support-person-recruitment-2026-apply-offline-3073972",
-   "https://www.freejobalert.com/articles/dlsa-bijnor-peon-recruitment-2026-3073970",
-   "https://www.freejobalert.com/articles/cuddalore-district-recruitment-2026-apply-offline-for-support-person-translator-and-more-posts-3073939",
-   "https://www.freejobalert.com/articles/mimul-recruitment-2026-management-trainee-executive-3073941",
-   "https://www.freejobalert.com/articles/nalgonda-district-recruitment-2026-apply-offline-for-22-watchman-messenger-and-more-posts-3073934"
-  ],
-  "image": {
-   "url": "data/bank/jobs02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/f90b3eff7152.mp3",
-  "created_ts": 1792104556.762325,
-  "status": "published"
- },
- {
-  "headline": "போக்சோ வழக்கில் குற்றஞ்சாட்டப்பட்டவர் முதல்வர் நியமனம்; உயர் நீதிமன்றம் கேள்வி",
-  "lines": [
-   "போக்சோ சட்டத்தின் கீழ் குற்றஞ்சாட்டப்பட்ட நபர் ஒருவரை, பாதிக்கப்பட்ட மாணவி பயிலும் கல்லூரியின் முதல்வராக நியமிக்கும் விவகாரம் நீதிமன்றம் முன் வந்தது.",
-   "இது தொடர்பாக உயர் நீதிமன்றம் கடுமையான கேள்விகளை எழுப்பியுள்ளது.",
-   "குற்றஞ்சாட்டப்பட்ட அதே நபரை, பாதிக்கப்பட்ட மாணவி படிக்கும் கல்லூரியில் முதல்வராக எவ்வாறு நியமிக்க முடியும் என்று நீதிமன்றம் கேட்டுள்ளது.",
-   "இந்த நியமனம் தொடர்பான விவகாரம் தற்போது நீதிமன்ற விசாரணையில் உள்ளது.",
-   "வழக்கு தொடர்பாக அடுத்த கட்ட விசாரணை விரைவில் நடைபெறும் என்று எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்த நியமனம் தொடர்பாக சம்பந்தப்பட்ட அதிகாரிகள் என்ன விளக்கம் அளிக்கின்றனர் என்பதை நீதிமன்றம் இன்னும் கேட்க வேண்டியுள்ளது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "போக்சோ சட்டம்",
-   "உயர் நீதிமன்றம்",
-   "கல்லூரி முதல்வர் நியமனம்",
-   "மாணவி"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "POCSO accused appointed college principal; High Court questions move",
-   "lines": [
-    "A person accused under the POCSO Act was appointed principal of the college where the affected student studies.",
-    "The High Court has raised pointed questions regarding this appointment.",
-    "The court asked how the accused could be appointed principal of the very college where the victim studies.",
-    "The matter concerning this appointment is currently under judicial review.",
-    "The next phase of the hearing in this case is expected to take place soon."
-   ],
-   "closing": "The court is yet to hear what explanation the concerned officials will offer regarding this appointment."
-  },
-  "id": "0c4135be9aa4",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-10-16T01:19+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/15/pocso-how-person-accused-be-appointed-principal-of-college-where-student-studies"
-  ],
-  "image": {
-   "url": "data/bank/court01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/0c4135be9aa4.mp3",
-  "created_ts": 1792093790.4103358,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "அமைச்சர்கள் மீது எம்.எல்.ஏ.க்கள் 'குதிரை வியாபாரம்' செய்யும் குற்றச்சாட்டு - ஆளுநருக்கு அதிமுக மனு",
-  "lines": [
-   "தமிழ்நாடு சட்டமன்றத் தேர்தல் நெருங்கும் நிலையில், அதிமுக தனது எம்.எல்.ஏ.க்களை அரசு அமைச்சர்கள் பணம் கொடுத்து இழுக்க முயல்வதாக குற்றம் சாட்டியுள்ளது.",
-   "இது தொடர்பாக ஆளுநரிடம் மனு ஒன்று சமர்ப்பிக்கப்பட்டது.",
-   "அதிமுக பொதுச் செயலாளர் எடப்பாடி கே.பழனிசாமி சார்பாக, கட்சி எம்.எல்.ஏ. அக்ரி எஸ்.எஸ்.கிருஷ்ணமூர்த்தி இந்த மனுவை ஆளுநரிடம் அளித்தார்.",
-   "அரசு அமைச்சர்கள் சிலர் தங்கள் கட்சி எம்.எல்.ஏ.க்களைத் தொடர்பு கொண்டு வற்புறுத்துவதாக மனுவில் குற்றம் சாட்டப்பட்டுள்ளது.",
-   "இந்த விவகாரத்தில் உரிய நடவடிக்கை எடுக்குமாறு அதிமுக ஆளுநரிடம் கோரிக்கை வைத்துள்ளது.",
-   "ஆளுநர் அலுவலகத்திலிருந்து இதுவரை அதிகாரப்பூர்வ பதில் வெளியாகவில்லை."
-  ],
-  "closing": "தமிழ்நாடு சட்டமன்றத் தேர்தல் நெருங்கும் நிலையில் இந்தக் குற்றச்சாட்டு எழுந்துள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "அதிமுக",
-   "எடப்பாடி கே.பழனிசாமி",
-   "ஆளுநர்",
-   "எஸ்.எஸ்.கிருஷ்ணமூர்த்தி",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "AIADMK Seeks Governor's Action Over Alleged MLA 'Horse-Trading'",
-   "lines": [
-    "With the Tamil Nadu Assembly election nearing, the AIADMK has accused State Ministers of attempting to induce its MLAs with money.",
-    "A representation regarding this was submitted to the Governor.",
-    "On behalf of AIADMK General Secretary Edappadi K. Palaniswami, party MLA Agri S.S. Krishnamoorthy handed over the petition to the Governor.",
-    "The petition alleges that certain state ministers have been contacting and pressuring the party's MLAs.",
-    "The AIADMK has urged the Governor to take appropriate action in this matter, and no official response has yet been issued from the Governor's office."
-   ],
-   "closing": "The allegation comes as the Tamil Nadu Assembly election draws closer.",
-   "closing_type": "background"
-  },
-  "id": "63af6a9fa198",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-16T01:17+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/aiadmk-submits-representation-to-governor-seeking-action-against-ministers-for-alleged-horse-trading-of-its-mlas/article71587246.ece"
-  ],
-  "image": {
-   "url": "data/bank/economy06.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/63af6a9fa198.mp3",
-  "created_ts": 1792093639.0508552,
   "front_cat": "routine",
   "image_query": "",
   "person_en": "",
