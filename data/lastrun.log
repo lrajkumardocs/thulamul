@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 7 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
+[fetch] BBC Tamil: 6 புதியவை
 [fetch] BBC World: 13 புதியவை
 [fetch] Al Jazeera: 23 புதியவை
-[fetch] ESPNcricinfo: 16 புதியவை
+[fetch] ESPNcricinfo: 15 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 11 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 10 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 22 புதியவை
+[fetch] FreeJobAlert: 21 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,7 +24,7 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
@@ -56,56 +56,72 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9576691c90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f946f4246d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
+[fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 668 → நிகழ்வுகள் 616
-[triage] 616 → 57 | காலி: tn:4, india:4, govt:4, court:3, jobs:3
-[skip] பிहार் பொறியியல் பல்கலைக்கழகத்தின் (மேற்குத் தபால் பகுதி) தே
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் சுகாதார அமைப்பு பற்றிய பகுப்பா
-[தரம்] தமிழ் அல்லாத எழுத்து: নাധമയലളാ → ஒரு திருத்தம்
-[tts-edge] fcb1f3138082: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சூர்யாவின் 'சீன்' படத்தில் நஸ்லேன் தீய பாத்திரம்
-[skip] வெளிநாட்டுக் கிரிக்கெட் தொடர் — தமிழ்நாடு/இந்தியக் கோணம் இல்
-[திருத்தம்] தமிழகத்தில் இரு நாள் பலத்த மழை எச்சரிக்க → தமிழகத்தில் இரு நாட்கள் பலத்த மழை எச்சரி
-[நகல்] ஏற்கனவே வெளியானது: அக்டோபர் 26 வரை தமிழகத்தில் கனமழை எச்சரிக்கை
-[திருத்தம்] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்கு வெளியீட்டில்  → ஜியோ பிளாட்ஃபார்ம்ஸ் பங்கு வெளியீட்டில் 
-[tts-edge] d484cb792cf6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்கு வெளியீட்டில் நான்கரை லட்சம் கோடி ரூபாய் ஏலம்: பன்னிரெண்டு சாதனைகள்
-[திருத்தம்] ஜெம் கிரானைட்ஸ் வீரமணியின் மகள் விமானத்த → 'ஜெம் கிரானைட்ஸ்' வீரமணியின் மகள் விமானத
-[தரம்] தமிழ் அல்லாத எழுத்து: আইটনাি → ஒரு திருத்தம்
-[publish] 'ஜெம் கிரானைட்ஸ்' வீரமணியின் மகள் விமானத்திலிருந்து சிஐடி தடுத்து வைத்தது
-[publish] ரூபாய் மதிப்புக்கு இலக்கு இல்லை என ரிசர்வ் வங்கி ஆளுநர் தெளிவு
-[திருத்தம்] சென்னை விமான நிலையத்தில் விமான எரிபொருள் → சென்னை விமான நிலையத்தில் விமான டர்பைன் எ
-[publish] சென்னை விமான நிலையத்தில் விமான டர்பைன் எரிபொருள் வரி 29 சதவீதத்திலிருந்து 16 சதவீதமாகக் குறைப்பு
-[திருத்தம்] கோயம்புத்தூர் மாணவர் மரணம்: சாதி துன்புற → கோயம்புத்தூர் மாணவர் மரணம்: சாதி துன்புற
-[image] களஞ்சியம் (2 சொல்): கோயம்புத்தூர் மாணவர் மரணம்: சாதி த
-[publish] கோயம்புத்தூர் மாணவர் மரணம்: சாதி துன்புறுத்தல் குற்றச்சாட்டில் இருவர் கைது; தலைமை ஆசிரியர், ஆசிரியர் பணியிடை நீக்கம்
-[திருத்தம்] காவிரி நீர்: கர்நாடகா 15 நாட்களுக்கு 3,0 → காவிரி நீர்: கர்நாடகா 15 நாட்களுக்கு 3,0
-[publish] காவிரி நீர்: கர்நாடகா 15 நாட்களுக்கு 3,000 கன அடி திறக்க உத்தரவு
-[திருத்தம்] விமான எரிபொருள் மீதான வரியைக் குறைத்தது  → விமான எரிபொருள் மீதான மதிப்புக் கூட்டு வ
-[image] களஞ்சியம் (2 சொல்): விமான எரிபொருள் மீதான மதிப்புக் கூ
-[publish] விமான எரிபொருள் மீதான மதிப்புக் கூட்டு வரியைக் குறைத்தது தமிழக அரசு
-[skip] வெளிநாட்டுத் தகவல்: ரஷ்யா-உக்रைன் போர் தமிழ்நாடு/இந்தியாவைப்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgKzR56Xv497Sx864VUNL'}
-[image] களஞ்சியம் (2 சொல்): ஈஏஏஏ இந்தியா ஆல்டர்நேட்டிவ்ஸ் ஐபிஓ
-[publish] ஈஏஏஏ இந்தியா ஆல்டர்நேட்டிவ்ஸ் ஐபிஓவுக்கு முன் 360 கோடி ரூபாய் திரட்டியது
-[திருத்தம்] ஷ்ரீராம் ஃபைனான்ஸ் லாபம் 59 சதவீதம் உயர் → ஷ்ரீராம் ஃபைனான்ஸ் லாபம் 59% உயர்வு
-[தரம்] தமிழ் அல்லாத எழுத்து: ി; மூலத்தில் இல்லாத எண்: 2026 → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): ஷ்ரீராம் ஃபைனான்ஸ் லாபம் 59% உயர்வ
-[publish] ஷ்ரீராம் ஃபைனான்ஸ் லாபம் 59% உயர்வு
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: காவிரி நீர் பகிர்வு: உத்தரவு மட்டுமே போதுமா?
+[run] புதியவை 650 → நிகழ்வுகள் 598
+[triage] 598 → 59 | காலி: india:4, tn:3, court:3, jobs:3, health:3
+[skip] ஒடிசா காவல்துறை மற்றும் லக்னோ பல்கலைக்கழக வேலைவாய்ப்பு அறிவி
+[தரம்] தமிழ் அல்லாத எழுத்து: ভরা → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): மருத்துவ விளம்பரத்தில் வேறுபாடு — 
+[tts-edge] 393f8a6ab22e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மருத்துவ விளம்பரத்தில் வேறுபாடு — தேசிய மருத்துவ ஆணையம் புதிய வழிகாட்டல்
+[skip] வেளிநாட்டுக் கிரிக்கெட் — பাংলாதேশ் vs வெஸ்ட் இண்டீஸ் தொடர் 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; அமைச்சர் பெயர், இடம், தேதி
+[skip] இது ஒடிசா மாநிலத்தில் அமையவிருக்கும் மின் உற்பத்தி நிலையம் த
+[tts-edge] 688a57039f12: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அமைச்சர்கள், சட்டமன்ற உறுப்பினர்களுக்கான கார் கொள்முதல் வரம்பு நிர்ணயம்
+[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): 97 புதிய துணை மின் நிலையங்களுக்கு 
+[publish] 97 புதிய துணை மின் நிலையங்களுக்கு ஒப்பந்தம் கோரிய மின்வாரியம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] Criticizing government may invite action → அரசை விமர்சித்தால் ஒழுங்கு நடவடிக்கை: சு
+[image] களஞ்சியம் (2 சொல்): அரசை விமர்சித்தால் ஒழுங்கு நடவடிக்
+[publish] அரசை விமர்சித்தால் ஒழுங்கு நடவடிக்கை: சுகாதாரத் துறை உத்தரவால் சர்ச்சை
+[image] களஞ்சியம் (2 சொல்): புழல் சிறையில் கைதிகள் தப்பிய சம்ப
+[publish] புழல் சிறையில் கைதிகள் தப்பிய சம்பவம்: பாதுகாப்பு அதிகரிப்பு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] ஹெப்ரான் துப்பாக்கிச் சூட்டில் இரு இஸ்ரேலிய வீரர்கள் பலி, மேற்குக் கரையில் முடக்கம்
+[skip] உலகச் செய்தி என்றாலும், தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்
+[skip] இসுரேல்-பாலஸ்தீன மோதல் பற்றிய வெளிநாட்டு உள்நாட்டுச் செய்தி.
+[திருத்தம்] சென்னை கிரெடாய் ஊழல் தடுப்புக் குழு அமைப → சென்னை கிரெடாய் ஊழல் தடுப்புக் குழு அமைப
+[தரம்] தமிழ் அல்லாத எழுத்து: नाা → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): சென்னை கிரெடாய் ஊழல் தடுப்புக் குழ
+[publish] சென்னை கிரெடாய் ஊழல் தடுப்புக் குழு அமைப்பு, புகாரளிக்க செயல்நெறி வகுத்தது
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; இடம், விவரம்,
+[திருத்தம்] விவசாயிகள் கைது கண்டித்த பாஜக தலைவர் நாக → கடன் தள்ளுபடி கோரி போராட்டம் நடத்திய விவ
+[publish] கடன் தள்ளுபடி கோரி போராட்டம் நடத்திய விவசாயிகள் கைது கண்டித்தார் பாஜக தலைவர்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; அமைச்சர் யார், எந்த நிக
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgLCChN8QgdBsbBRE5t9p'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நீதிமன்றம், இடம், தேதி, வழ
+[திருத்தம்] நகராட்சி நிர்வாகம் குடிநீர் வழங்கல் துறை → நகராட்சி நிர்வாகம், குடிநீர் வழங்கல் துற
+[image] களஞ்சியம் (3 சொல்): நகராட்சி நிர்வாகம், குடிநீர் வழங்க
+[publish] நகராட்சி நிர்வாகம், குடிநீர் வழங்கல் துறை பணி நியமன முறைகேடு வழக்கில் அக்டோபர் 26-இல் தீர்ப்பு
+[திருத்தம்] தமிழ்நாட்டில் சிறப்புக் கலந்தாய்வு மூலம் → தமிழ்நாட்டில் சிறப்புக் கலந்தாய்வு மூலம்
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தமிழ்நாட்டில் சிறப்புக் கலந்தாய்வு
+[publish] தமிழ்நாட்டில் சிறப்புக் கலந்தாய்வு மூலம் எம்பிபிஎஸ் இடங்கள் முழுமையாக நிரப்பப்பட்டன
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [market] தங்கம் 22K ₹12565 · சென்செக்ஸ் 73124
 [weather] புதுப்பிக்கப்பட்டது
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+  warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 10
