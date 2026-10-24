@@ -1,22 +1,23 @@
+[expire] c292a1793d62
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 24 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 25 புதியவை
-[fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 13 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
-[fetch] ESPNcricinfo: 15 புதியவை
+[fetch] The Hindu TN: 11 புதியவை
+[fetch] Dinamani TN: 21 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC World: 18 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
+[fetch] ESPNcricinfo: 14 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Cinema: 7 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 10 புதியவை
-[fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 21 புதியவை
+[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Agriculture: 1 புதியவை
+[fetch] FreeJobAlert: 22 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,11 +25,11 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
+[fetch] Bar and Bench: 3 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,9 +57,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f946f4246d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f30ce066bd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 25 புதியவை
+[fetch] Dinamani Govt: 21 புதியவை
 [fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,61 +68,39 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 650 → நிகழ்வுகள் 598
-[triage] 598 → 59 | காலி: india:4, tn:3, court:3, jobs:3, health:3
-[skip] ஒடிசா காவல்துறை மற்றும் லக்னோ பல்கலைக்கழக வேலைவாய்ப்பு அறிவி
-[தரம்] தமிழ் அல்லாத எழுத்து: ভরা → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): மருத்துவ விளம்பரத்தில் வேறுபாடு — 
-[tts-edge] 393f8a6ab22e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மருத்துவ விளம்பரத்தில் வேறுபாடு — தேசிய மருத்துவ ஆணையம் புதிய வழிகாட்டல்
-[skip] வেளிநாட்டுக் கிரிக்கெட் — பাংলாதேশ் vs வெஸ்ட் இண்டீஸ் தொடர் 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; அமைச்சர் பெயர், இடம், தேதி
-[skip] இது ஒடிசா மாநிலத்தில் அமையவிருக்கும் மின் உற்பத்தி நிலையம் த
-[tts-edge] 688a57039f12: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அமைச்சர்கள், சட்டமன்ற உறுப்பினர்களுக்கான கார் கொள்முதல் வரம்பு நிர்ணயம்
-[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): 97 புதிய துணை மின் நிலையங்களுக்கு 
-[publish] 97 புதிய துணை மின் நிலையங்களுக்கு ஒப்பந்தம் கோரிய மின்வாரியம்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] Criticizing government may invite action → அரசை விமர்சித்தால் ஒழுங்கு நடவடிக்கை: சு
-[image] களஞ்சியம் (2 சொல்): அரசை விமர்சித்தால் ஒழுங்கு நடவடிக்
-[publish] அரசை விமர்சித்தால் ஒழுங்கு நடவடிக்கை: சுகாதாரத் துறை உத்தரவால் சர்ச்சை
-[image] களஞ்சியம் (2 சொல்): புழல் சிறையில் கைதிகள் தப்பிய சம்ப
-[publish] புழல் சிறையில் கைதிகள் தப்பிய சம்பவம்: பாதுகாப்பு அதிகரிப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] ஹெப்ரான் துப்பாக்கிச் சூட்டில் இரு இஸ்ரேலிய வீரர்கள் பலி, மேற்குக் கரையில் முடக்கம்
-[skip] உலகச் செய்தி என்றாலும், தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்
-[skip] இসுரேல்-பாலஸ்தீன மோதல் பற்றிய வெளிநாட்டு உள்நாட்டுச் செய்தி.
-[திருத்தம்] சென்னை கிரெடாய் ஊழல் தடுப்புக் குழு அமைப → சென்னை கிரெடாய் ஊழல் தடுப்புக் குழு அமைப
-[தரம்] தமிழ் அல்லாத எழுத்து: नाা → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): சென்னை கிரெடாய் ஊழல் தடுப்புக் குழ
-[publish] சென்னை கிரெடாய் ஊழல் தடுப்புக் குழு அமைப்பு, புகாரளிக்க செயல்நெறி வகுத்தது
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; இடம், விவரம்,
-[திருத்தம்] விவசாயிகள் கைது கண்டித்த பாஜக தலைவர் நாக → கடன் தள்ளுபடி கோரி போராட்டம் நடத்திய விவ
-[publish] கடன் தள்ளுபடி கோரி போராட்டம் நடத்திய விவசாயிகள் கைது கண்டித்தார் பாஜக தலைவர்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; அமைச்சர் யார், எந்த நிக
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgLCChN8QgdBsbBRE5t9p'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நீதிமன்றம், இடம், தேதி, வழ
-[திருத்தம்] நகராட்சி நிர்வாகம் குடிநீர் வழங்கல் துறை → நகராட்சி நிர்வாகம், குடிநீர் வழங்கல் துற
-[image] களஞ்சியம் (3 சொல்): நகராட்சி நிர்வாகம், குடிநீர் வழங்க
-[publish] நகராட்சி நிர்வாகம், குடிநீர் வழங்கல் துறை பணி நியமன முறைகேடு வழக்கில் அக்டோபர் 26-இல் தீர்ப்பு
-[திருத்தம்] தமிழ்நாட்டில் சிறப்புக் கலந்தாய்வு மூலம் → தமிழ்நாட்டில் சிறப்புக் கலந்தாய்வு மூலம்
-[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தமிழ்நாட்டில் சிறப்புக் கலந்தாய்வு
-[publish] தமிழ்நாட்டில் சிறப்புக் கலந்தாய்வு மூலம் எம்பிபிஎஸ் இடங்கள் முழுமையாக நிரப்பப்பட்டன
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 12
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹12565 · சென்செக்ஸ் 73124
-[weather] புதுப்பிக்கப்பட்டது
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
-  warnings.warn(message, FutureWarning)
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
-  warnings.warn(message, FutureWarning)
-[push] 0 அறிவிப்புகள்
-[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 10
+[run] புதியவை 660 → நிகழ்வுகள் 609
+[triage] 609 → 59 | காலி: india:4, sports:3, court:2, jobs:2, health:2
+[skip] IPL 2027 என்பது வரவிருக்கும் IPL நிகழ்வு; வெளிநாட்டு வீரர் (
+[image] களஞ்சியம் (3 சொல்): சீர்காழி அருகே தம்பதி மர்மமான முறை
+[tts-edge] 06d1fd5273a5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சீர்காழி அருகே தம்பதி மர்மமான முறையில் உயிரிழப்பு, மகன் மீட்பு
+[திருத்தம்] உதகை அருகே மண்சரிவில் சிக்கி அரசுப் பேரு → உதகை அருகே மண்சரிவில் சிக்கிய அரசுப் பேர
+[தரம்] தமிழ் அல்லாத எழுத்து: ത → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): உதகை அருகே மண்சரிவில் சிக்கிய அரசு
+[tts-edge] d9e4708f8238: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] உதகை அருகே மண்சரிவில் சிக்கிய அரசுப் பேருந்து; ஓட்டுநர் பலி
+[publish] உதகை மலைப்பாதையில் கனமழை: போக்குவரத்து முடக்கம், வாகனர் அவதி
+[image] களஞ்சியம் (2 சொல்): ஏர்வாடி அருகே மூவருக்குக் கத்திக்க
+[publish] ஏர்வாடி அருகே மூவருக்குக் கத்திக்குத்து: ஒருவர் கைது
+[skip] உலக நிகழ்வு ஆனால் தமிழ்நாட்டு வாசகரைத் தெரிந்தே பாதிக்காது —
+[skip] செர்பியாவின் உள்நாட்டு தேர்தல் — தமிழ்நாடு/இந்தியத் வாசகருக்
+[skip] யேமனின் உள்நாட்டு மோதல் — தமிழ்நாட்டு / இந்திய வாசகருக்கு உட
+[skip] பலஸ்தீனம்-இஸ்ரேல் மோதல் தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்
+[skip] இந்திய பிரதமர் வீட்டுக்கு அருகிலுள்ள ஒரு பள்ளிவாசல் குறித்த 
+[திருத்தம்] விலங்கு கொடுமை தடுப்பு வரைவு விதிகள் குற → விலங்கு கொடுமை தடுப்பு விதிகள், 2026 குற
+[publish] விலங்கு கொடுமை தடுப்பு விதிகள், 2026 குறித்து தயாநிதி மாறன் கவலை
+[skip] தைவான் புயல் பாதிப்பு தமிழ்நாடு/இந்திய வாசகரை நேரடியாகப் பாத
+[skip] கென்யாவிலுள்ள ஈபோலா பரவல் தமிழ்நாடு அல்லது இந்தியாவைப் பாதிக
+[skip] வெளிநாட்டு உள்நாட்டுக் கொடுமைச் செய்தி — தமிழ்நாடு/இந்திய வா
+[publish] அர்ஜென்டினா அதிபர் மிலேயி மீதான கிரிப்டோ மோசடி வழக்கு ரத்து
+[திருத்தம்] தமிழ்நாடு அறநிலையத் துறை மீது சென்னை உயர → சென்னை உயர்நீதிமன்றம் தமிழ்நாடு அறநிலையத
+[publish] சென்னை உயர்நீதிமன்றம் தமிழ்நாடு அறநிலையத் துறை மீது கடும் விமர்சனம்
+[publish] வேலூரில் பட்டாசு ஆலை வெடிவிபத்து, உரிமம் ரத்து
+[திருத்தம்] அரசுப் பள்ளி மாணவர்களுக்கு 390 கோடியில்  → அரசுப் பள்ளி மாணவர்களுக்கு ரூ.390 கோடியி
+Traceback (most recent call last):
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 2221, in <module>
+    main()
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1858, in main
+    story["flags"] = sorted(set(story.get("flags", []) + extra_flags))
+                                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'list'
