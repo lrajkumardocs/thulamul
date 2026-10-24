@@ -1,5 +1,67 @@
 [
  {
+  "headline": "வங்கக்கடலில் புயல் அபாயம், தமிழ்நாட்டில் 3 மாவட்டங்களுக்கு சிவப்பு எச்சரிக்கை.",
+  "lines": [
+   "வங்கக்கடலில் உருவான காற்றழுத்தத் தாழ்வுப் பகுதி வலுப்பெற்று ஆழ்ந்த காற்றழுத்தத் தாழ்வுப் பகுதியாக மாறியுள்ளது.",
+   "இது அக்டோபர் 26ஆம் தேதி புயலாக மாறக்கூடும் என சென்னை வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "இதையடுத்து நாளை தமிழ்நாட்டின் மூன்று மாவட்டங்களுக்கு சிவப்பு எச்சரிக்கை விடுக்கப்பட்டுள்ளது.",
+   "மற்ற மாவட்டங்களுக்கும் மஞ்சள் மற்றும் ஆரஞ்சு நிற எச்சரிக்கைகள் வழங்கப்படக்கூடும் என எதிர்பார்க்கப்படுகிறது.",
+   "வானிலை ஆய்வு மையம் தாழ்வுப் பகுதியின் நகர்வைத் தொடர்ந்து கண்காணித்து மேலும் விவரங்களை வெளியிடும் என தெரிவிக்கப்பட்டுள்ளது."
+  ],
+  "closing": "புயலாக மாறும் நிலையைப் பொறுத்து பாதிக்கப்படும் மாவட்டங்களின் எண்ணிக்கை மாறக்கூடும் என வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "வங்கக்கடல்",
+   "தமிழ்நாடு",
+   "சென்னை வானிலை ஆய்வு மையம்",
+   "புயல்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Bay of Bengal Storm Alert: Red Alert for 3 Tamil Nadu Districts Tomorrow",
+   "lines": [
+    "A low pressure area over the Bay of Bengal has intensified into a deep depression, weather officials said.",
+    "The Regional Meteorological Centre in Chennai said it could turn into a cyclone by October 26.",
+    "Following this, a red alert has been issued for three districts in Tamil Nadu for tomorrow.",
+    "Yellow and orange alerts are expected to be issued for other districts as well.",
+    "The weather centre said it will continue monitoring the system's movement and release further updates."
+   ]
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "Bay of Bengal cyclone storm",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "a409b96e9f80",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-24T20:31+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cmvgxkypvk18o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/weather02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/a409b96e9f80.mp3",
+  "created_ts": 1792854120.6186764,
+  "status": "published"
+ },
+ {
   "headline": "ரூ.1 லட்சம் பயிர்க் கடன் தள்ளுபடியை முதல்வர் அறிவிக்க வேண்டும்: 50-க்கும் விவசாய சங்கங்கள் கோரிக்கை",
   "lines": [
    "தமிழ்நாட்டில் உள்ள ஐம்பதுக்கும் மேற்பட்ட விவசாய சங்கங்கள் ஒரு முக்கியக் கோரிக்கையை முன்வைத்துள்ளன.",
@@ -3690,68 +3752,6 @@
   },
   "audio": "data/audio/bab62bc897d1.mp3",
   "created_ts": 1792353617.9775572,
-  "status": "published"
- },
- {
-  "headline": "சென்னையில் கனமழை, பகுதிகள் நீரில் மூழ்கின, உயிரிழப்பு இல்லை",
-  "lines": [
-   "சென்னை நகரில் கடந்த சில நாட்களாகப் பெய்த கனமழையால் பல பகுதிகள் தண்ணீரில் மூழ்கின.",
-   "இதுவரை எந்த உயிரிழப்பும் பதிவாகவில்லை என்று பெருநகர சென்னை மாநகராட்சி தெரிவித்துள்ளது.",
-   "அக்டோபர் இருபத்தோறாம் தேதி வரை கூடுதல் பணியாளர் குழுக்கள் களமிறக்கப்பட்டதாக அமைச்சர் தெரிவித்தார்.",
-   "மேலும் மழை பெய்யும் என்று எதிர்பார்க்கப்படுவதால் இந்த ஏற்பாடு செய்யப்பட்டதாக அவர் விளக்கினார்.",
-   "மழை நீடிக்கும் சூழலில் பொதுமக்கள் எச்சரிக்கையுடன் இருக்குமாறு அதிகாரிகள் கேட்டுக்கொண்டுள்ளனர்."
-  ],
-  "closing": "அடுத்த சில நாட்களில் சென்னையில் மழை தீவிரம் எவ்வாறு மாறுகிறது என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "சென்னை",
-   "பெருநகர சென்னை மாநகராட்சி",
-   "கனமழை"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Heavy rain floods parts of Chennai, no fatalities reported",
-   "lines": [
-    "Several parts of Chennai city were left waterlogged after heavy rain in recent days.",
-    "The Greater Chennai Corporation said no fatalities have been reported so far.",
-    "The Minister said additional teams have been mobilised until October 21.",
-    "He explained that this arrangement was made as further rain is expected.",
-    "Officials have asked the public to remain cautious as rain is likely to continue."
-   ],
-   "closing": "It remains to be seen how the intensity of rain in Chennai changes over the coming days."
-  },
-  "front_cat": "disaster_warning",
-  "image_query": "Chennai rain flooding street",
-  "wiki_subject": "Greater Chennai Corporation",
-  "person_en": "",
-  "urgent": true,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "19af7e36d13c",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-19T01:27+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/chennai/no-fatalities-reported-as-heavy-rain-leaves-parts-of-chennai-waterlogged-says-gcc/article71599352.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Chennai_Corporation_Emblem.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Greater Chennai Corporation",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Greater_Chennai_Corporation",
-   "symbolic": false
-  },
-  "audio": "data/audio/19af7e36d13c.mp3",
-  "created_ts": 1792353433.3358662,
   "status": "published"
  }
 ]
