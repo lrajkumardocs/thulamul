@@ -1,42 +1,42 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
+[fetch] The Hindu TN: 14 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
+[fetch] BBC Tamil: 6 புதியவை
+[fetch] BBC World: 7 புதியவை
+[fetch] Al Jazeera: 13 புதியவை
 [fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
+[fetch] The Hindu Cinema: 7 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 23 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 24 புதியவை
+[fetch] FreeJobAlert: 15 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,69 +56,35 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fb43d98ac50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
-[fetch] Times Govt Schemes: 12 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8db68a5690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
+[fetch] Times Govt Schemes: 14 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 29 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 668 → நிகழ்வுகள் 616
-[triage] 616 → 62 | காலி: india:3, jobs:2, health:2, cinema:2, sports:2
-[திருத்தம்] வங்கக்கடலில் புயல் அபாயம், தமிழ்நாட்டில் → வங்கக்கடலில் புயல் அபாயம், தமிழ்நாட்டில்
-[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): வங்கக்கடலில் புயல் அபாயம், தமிழ்நா
-[tts-edge] a409b96e9f80: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வங்கக்கடலில் புயல் அபாயம், தமிழ்நாட்டில் 3 மாவட்டங்களுக்கு சிவப்பு எச்சரிக்கை.
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] பிற நாட்டு உள்ளூர் விபத்து/மோதல் — தமிழ்நாட்டு/இந்திய வாசகரை
-[skip] ஆந்திரப் பிரதேசத்தின் உள்ளூர் குற்றச் சம்பவம். தமிழ்நாட்டுக்
-[skip] வெளிநாட்டுப் போர்/மோதல் செய்தி. தமிழ்நாடு/இந்தியா வாசகரைப் ந
-[skip] உலகச் செய்தி என்றாலும், ஜோர்டানில் நடந்த பாதிரிவர் சபைத் தாக
-[skip] வெளிநாட்டுப் ராணுவ மோதல் — தமிழ்நாட்டு வாசகரைப் பாதிக்கவில்ல
-[skip] பிற நாட்டின் உள்ளூர் குற்றச் செய்தி — ஜோர்டனில் நடந்த கோயில்
-[skip] பிரான்சின் உள்ளூர் போராட்டம் — தமிழ்நாடு வாசகரைப் பாதிக்காது
-[தரம்] தமிழ் அல்லாத எழுத்து: রি → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): நியூசிலாந்துக்கெதிரான டி20 தொடரில்
-[tts-edge] 4ac2283914a2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நியூசிலாந்துக்கெதிரான டி20 தொடரில் இந்தியா இரண்டாவது வெற்றி
-[skip] தமிழ்நாட்டு வாசகரின் முதல் சோதனை விफலம். அமெரிக்காவின் H-1B/
-[skip] பிற நாட்டின் உள்ளூர் சம்பவம் — அமெரிக்க பள்ளிக் குற்றம், தொல
-[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
-[skip] வெளிநாட்டுள் அரசியல் — அமெரிக்க-கனடா வாணிজ்య நীति. தமிழ்நாடு
-[skip] அலாஸ்கா மாநிலத்தின் உள்ளூர் தேர்தல் சட்டப்பிரச்சினை. தமிழ்நா
-[skip] அமெரிக்க உள்நாட்டுக் கொள்கை மற்றும் அரசியல் — தமிழ்நாட்டு / 
-[skip] வெளிநாட்டு அதிகார பீட்ठத்தின் உள் சம்பிரதாயம் — தமிழ்நாட்டு 
-[skip] அமெரிக்க உள்நாட்டுத் தொடரியல். தமிழ்நாடு / இந்தியாவைப் பாதிக
-[skip] பிரேசிலின் உள்நாட்டுக் கொள்கை மற்றும் அந்நாட்டு தேர்தல் தமிழ
-[skip] பிரான்சின் உள்ளூர் அரசியல் மோதல்/போராட்டம் — தமிழ்நாடு அல்லத
-[skip] கலிஃபோர்னியா மாநிலத்தின் உள்ளூர் வரிக்கொள்கை வாக்கெடுப்பு. த
-[skip] வெளிநாட்டு உள்நாட்டுத் தேர்தல் அரசியல் — தமிழ்நாடு/இந்தியத் 
-[skip] வெளிநாட்டு உள்நாட்டுப் போர் — தமிழ்நாடு / இந்திய வாசகரைப் பா
-[skip] வெளிநாட்டு ক্রীড়া; தமிழ்நாடு/இந்தியாவுடன் தொடர்பு இல்லை. ফ্
-[skip] வெளிநாட்டு ফुटबল லீگ் - தமிழ்நாடு/இந்திய வாசகருக்கு பொருந்தா
-[skip] பிரேசிலுத் தேர்தல் தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்கவில்லை. 
-[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியக் வாசகரின் நிత்
-[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாடு / இந்திய வாசகர் அன்றா
-[skip] இரண்டும் தமிழ்நாட்டுடன் தொடர்பில்லாத பிற மாநில/பொதுவான வேலைவ
-[skip] இவை உத்தரப்பிரதேசம் (பஹ்ரைச்) மற்றும் டெல்லியில் உள்ள அரசு ம
-[skip] மூலங்களில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (இடம், தேதி, நி
-[skip] இது கேரள மாநிலத்தின் உள்ளூர்ச் சட்டம் ஒழுங்கு விவகாரம் - ஒரு
-[skip] இது பீகார்/ஜார்க்கண்ட் மாநில அரசியலில் பாஜக தலைவர் ஒருவர் கா
-[skip] மத்திய அரசு (NMC) அறிவிப்பு என்றாலும், இது மருத்துவ கல்வி நி
-[திருத்தம்] நடிகை ருக்மிணி வாசந்த் இயக்குநர் ஶ்രீ கா → நடிகை ருக்மிணி வாசந்த் இயக்குநர் கார்த்த
-[தரம்] தமிழ் அல்லாத எழுத்து: езийлрт → ஒரு திருத்தம்
-[publish] நடிகை ருக்மிணி வாசந்த் இயக்குநர் கார்த்திக் சுப்பராஜுடன் புதிய படம்
-[skip] பாकிஸ்தான் உள் போட்டி — தமிழ்நாடு/இந்தியவாசகருக்குப் பொருத்த
-[skip] இது பெங்களூரு நீதிமன்றத்தில் நடந்த ஒரு நிறுவனத் தொழிலாளர் வழ
-[skip] போலந்தின் கருக்கலைப்பு சட்டம் பற்றிய செய்தி தமிழ்நாடு அல்லது
-[தரம்] தமிழ் அல்லாத எழுத்து: लজভযে → ஒரு திருத்தம்
-[publish] நாற்பது ஆண்டுக்குப் பிறகு ரஜினிகாந்த் தனது படத்தை ரசிகர்களுடன் பார்த்தார்
-[skip] New Zealand vs India ODI match — வெளிநாட்டுக் கிரிக்கெட் தொட
+[run] புதியவை 642 → நிகழ்வுகள் 599
+[triage] 599 → 33 | காலி: india:3, jobs:2, health:2, assembly:2, court:1
+[skip] TISS (மும்பை) மற்றும் KSRTC (கேரளா) வேலைவாய்ப்பு அறிவிப்புகள
+[skip] ஜம்மு காஷ்மீர் மாநிலத்தின் தலைமைச் செயலாளர் நியமனம் என்பது அ
+[திருத்தம்] இலவச ரேஷன் அரிசி கிலோ முப்பது ரூபாய்க்கு → இலவச ரேஷன் அரிசி கிலோ முப்பது ரூபாய்க்கு
+[image] களஞ்சியம் (3 சொல்): இலவச ரேஷன் அரிசி கிலோ முப்பது ரூபா
+[tts-edge] d2ad0371cd06: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இலவச ரேஷன் அரிசி கிலோ முப்பது ரூபாய்க்கு விற்பனை — உதயநிதி குற்றச்சாட்டு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgMWhwDjYBW2y6ojW2rLj'}
+[skip] தெலிவாக உள்ள உள்நாட்டுப் பணியறிவிப்பு — தமிழ்நாட்டுக்கும் தொ
+[skip] வெளிநாட்டுத் தனியார் மருத்துவமனை நிர்வாகியின் அரசு ஆலோசனைக் 
+[skip] குறிப்பிட்ட மாதிரிக் கோலி, ঘরைத் தொடர்பு, போட்டியின் தெளிவான
+[skip] வெளிநாட்டு உள்ளூர் சட்ட மாற்றம் — தமிழ்நாடு/இந்தியாவுடன் நேர
 [market] தங்கம் 22K ₹12560 · சென்செக்ஸ் 73124
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 4
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+  warnings.warn(message, FutureWarning)
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 1
