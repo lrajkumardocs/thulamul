@@ -1,5 +1,435 @@
 [
  {
+  "id": "art_tech_20261024",
+  "headline": "UPI பயன்பாடு மற்றும் இணைய மோசடி தவிர்ப்பு - அறிந்து கொள்ள வேண்டிய அடிப்படைத் தகவல்கள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும் போது உங்கள் UPI பின் எண்ணை யாருடனும் பகிர்ந்து கொள்ளக் கூடாது.",
+   "அந்நிய நபர் அனுப்பும் QR கோடை ஸ்கேன் செய்வதால் பணம் உங்களுக்கு வராது, மாறாக உங்கள் கணக்கிலிருந்து பணம் எடுக்கப்படும் என்பதை நினைவில் கொள்ள வேண்டும்.",
+   "ஆதார் எண்ணை பகிரும் போது அதன் மாஸ்க் செய்யப்பட்ட பதிப்பை மட்டும் பயன்படுத்துவது பாதுகாப்பானது.",
+   "மொபைல் போனில் தெரியாத இணைப்புகளை கிளிக் செய்வதையும், சந்தேகத்திற்குரிய செயலிகளை நிறுவுவதையும் தவிர்க்க வேண்டும்.",
+   "வங்கி அல்லது அரசு அமைப்பு என கூறி அழைக்கும் நபர்கள் தனிப்பட்ட தகவல்களை கேட்டால், அதை உடனடியாக சரிபார்த்து பின்னரே பதிலளிக்க வேண்டும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை பெரிய இழப்பை தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-24"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-24T17:24+05:30",
+  "created_ts": 1792842882.7843158,
+  "audio": "data/audio/art_tech_20261024.mp3"
+ },
+ {
+  "headline": "பிரதமர் மோடி அக்டோபர் 25-ல் வாரணாசி, புவனேஸ்வர் பயணம்; திட்டங்கள் தொடக்கம்",
+  "lines": [
+   "பிரதமர் நரேந்திர மோடி அக்டோபர் 25-ல் வாரணாசி மற்றும் புவனேஸ்வருக்குப் பயணம் மேற்கொள்கிறார்.",
+   "இரு நகரங்களிலும் பல முக்கியத் திட்டங்களை அவர் தொடக்கி வைக்க உள்ளார்.",
+   "வாரணாசியில் உள்ள நமோ காட் எனும் இடத்தில் விமானப்படை தினத்தை முன்னிட்டு நடைபெறும் ஆகாயக் காட்சிக் கண்காட்சியையும் அவர் பார்வையிடுவார்.",
+   "இந்த ஆகாயக் காட்சிக் கண்காட்சி 2026-ல் நடத்தப்படும் விமானப்படை தினத்தின் ஒரு பகுதியாக உள்ளது.",
+   "பிரதமரின் இப்பயணம் தொடர்பான முழு நிகழ்ச்சி நிரல் விரைவில் வெளியிடப்படும் என அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "பிரதமரின் இந்தப் பயணம் வாரணாசி மற்றும் புவனேஸ்வர் பகுதிகளுக்கான வளர்ச்சித் திட்டங்களுடன் தொடர்புடையது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "நரேந்திர மோடி",
+   "வாரணாசி",
+   "புவனேஸ்வர்",
+   "நமோ காட்",
+   "இந்திய விமானப்படை"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "PM Modi to visit Varanasi, Bhubaneswar tomorrow; to inaugurate key projects",
+   "lines": [
+    "Prime Minister Narendra Modi will travel to Varanasi and Bhubaneswar on October 25.",
+    "He is set to inaugurate several important projects in both cities.",
+    "He will also witness the Air Force Day Aerial Display at Namo Ghat in Varanasi.",
+    "The aerial display showcases the capabilities of the Indian Air Force as part of the 2026 edition of the event.",
+    "Officials said the full schedule of the Prime Minister's visit will be announced soon."
+   ],
+   "closing": "The Prime Minister's visit is linked to development projects planned for the Varanasi and Bhubaneswar regions."
+  },
+  "front_cat": "cm_pm_announcement",
+  "image_query": "Narendra Modi",
+  "wiki_subject": "Narendra Modi",
+  "person_en": "Narendra Modi",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [],
+  "id": "e6933d627d47",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-24T17:24+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/pm-modi-to-visit-varanasi-and-bhubaneswar-on-october-25-inaugurate-key-projects/article71619745.ece",
+   "https://www.thehindu.com/news/national/pm-modi-to-visit-varanasi-and-bhubaneswar-on-october-25-inaugurate-key-projects/article71619745.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Narendra_Modi_Portrait_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Narendra Modi",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Narendra_Modi",
+   "symbolic": false
+  },
+  "audio": "data/audio/e6933d627d47.mp3",
+  "created_ts": 1792842850.3107383,
+  "status": "published"
+ },
+ {
+  "headline": "கொல்கத்தா கூட்டநெரிசல்: ஒலிபெருக்கி அறிவிப்பில் இருவர் மீது குற்றச்சாட்டு",
+  "lines": [
+   "கொல்கத்தா சோர்பகான் பூஜைப் பந்தலில் ஒரு பகுதி இடிந்து விழுகிறது என ஒலிபெருக்கியில் அறிவிக்கப்பட்டது.",
+   "இந்த அறிவிப்பு பொதுமக்களிடையே பீதியை ஏற்படுத்தி, கூட்டநெரிசல் போன்ற சூழ்நிலை உருவாயிற்று.",
+   "இந்த சம்பவம் தொடர்பாக இருவர் மீது குற்றம் சாட்டப்பட்டுள்ளது.",
+   "இவர்களின் குரல் மாதிரிகளை சேகரிக்க அனுமதி கோரி காவல் துறை நீதிமன்றத்தை அணுகியுள்ளது.",
+   "குரல் மாதிரி சோதனை முடிவுகளின் அடிப்படையில் மேலும் விசாரணை நடைபெறும் என அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "ஒலிபெருக்கி அறிவிப்பு உண்மையானதா என்பது குறித்து இதுவரை காவல் துறை உறுதிப்படுத்தவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "கொல்கத்தா",
+   "சோர்பகான்",
+   "காவல்துறை",
+   "பூஜை பந்தல்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Kolkata stampede: Police seek voice samples of two accused",
+   "lines": [
+    "A stampede-like situation occurred at a puja pandal in Chorbagan, Kolkata, following a loudspeaker announcement.",
+    "Two people have been accused in connection with the incident.",
+    "Police have moved court seeking permission to collect voice samples from the accused.",
+    "Police said the announcement that a portion of the pandal was collapsing allegedly triggered panic among the crowd.",
+    "Officials said further investigation will proceed based on the voice sample test results."
+   ],
+   "closing": "Police have not yet confirmed whether the loudspeaker announcement about the pandal collapsing was true."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "c8ba47cbe789",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-24T17:23+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-police-seek-voice-samples-of-2-accused-over-loudspeaker-announcement-move-court/article71619736.ece",
+   "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-police-seek-voice-samples-of-2-accused-over-loudspeaker-announcement-move-court/article71619736.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/c8ba47cbe789.mp3",
+  "created_ts": 1792842798.734603,
+  "status": "published"
+ },
+ {
+  "headline": "ரூ.1 லட்சம் பயிர்க் கடன் தள்ளுபடியை முதல்வர் அறிவிக்க வேண்டும்: 50-க்கும் விவசாய சங்கங்கள் கோரிக்கை",
+  "lines": [
+   "தமிழ்நாட்டில் உள்ள ஐம்பதுக்கும் மேற்பட்ட விவசாய சங்கங்கள் ஒரு முக்கியக் கோரிக்கையை முன்வைத்துள்ளன.",
+   "விவசாயிகளுக்கு வழங்கப்பட்ட ஒரு லட்சம் ரூபாய் வரையிலான பயிர்க் கடனைத் தள்ளுபடி செய்யக் கோரியுள்ளன.",
+   "இந்தத் தள்ளுபடியை முதல்வர் உடனடியாக அறிவிக்க வேண்டும் என விவசாய சங்கங்கள் வலியுறுத்துகின்றன.",
+   "விவசாயிகளின் கடன் சுமையைக் குறைப்பதற்கு இந்த நடவடிக்கை அவசியம் என அவர்கள் தெரிவிக்கின்றன.",
+   "இந்தக் கோரிக்கை குறித்து தமிழ்நாடு அரசு இதுவரை அதிகாரப்பூர்வமாக எதுவும் தெரிவிக்கவில்லை."
+  ],
+  "closing": "விவசாய சங்கங்களின் இந்தக் கோரிக்கைக்கு அரசின் பதில் இன்னும் வரவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "விவசாய சங்கங்கள்",
+   "பயிர்க் கடன்",
+   "முதல்வர்",
+   "தமிழ்நாடு அரசு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Farmer bodies demand waiver of rupees one lakh crop loans",
+   "lines": [
+    "More than fifty farmer associations across Tamil Nadu have raised a key demand.",
+    "They have sought a waiver of crop loans up to rupees one lakh given to farmers.",
+    "The associations have urged the Chief Minister to announce the waiver immediately.",
+    "They state that such a step is essential to ease the debt burden on farmers.",
+    "The Tamil Nadu government has not yet officially responded to this demand."
+   ],
+   "closing": "The state government's response to the farmer associations' demand is still awaited."
+  },
+  "front_cat": "farmer_water",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "fc34fbedd55a",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-24T17:22+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/24/minimum-rs-1-lakh-crop-loan-waiver-in-tamil-nadu-over-50-farmers-associations-seek"
+  ],
+  "image": {
+   "url": "data/bank/agri01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/fc34fbedd55a.mp3",
+  "created_ts": 1792842724.6219583,
+  "status": "published"
+ },
+ {
+  "headline": "விடுதி மாணவர்களின் உணவுப் படி உயர்த்தியுள்ளது தமிழ்நாடு அரசு",
+  "lines": [
+   "தமிழ்நாடு சமூக நீதித் துறை அரசாணை வெளியிட்டு, விடுதிகள் மற்றும் உறைவிடப் பள்ளிகளில் தங்கியிருக்கும் மாணவர்களின் உணவுப் படியை உயர்த்தியுள்ளது.",
+   "இந்த உயர்வு மாநிலம் முழுவதும் உள்ள அரசு விடுதிகள் மற்றும் உறைவிடப் பள்ளிகளில் தங்கியிருக்கும் அனைத்து மாணவர்களுக்கும் பொருந்தும்.",
+   "சட்டப்பேரவை பட்ஜெட் கூட்டத்தொடரின் போது அமைச்சர் வன்னி அரசு இந்த உயர்வு குறித்து அறிவிப்பு வெளியிட்டிருந்தார்.",
+   "அந்த அறிவிப்பைத் தொடர்ந்து, சமூக நீதித் துறை இதனை நடைமுறைப்படுத்த அரசாணை பிறப்பித்துள்ளது.",
+   "அரசாணையின் அடிப்படையில், புதிய உணவுப் படி விரைவில் விடுதிகளில் அமலுக்கு வரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "பட்ஜெட் கூட்டத்தொடரின் போது அறிவிக்கப்பட்ட பல்வேறு நலத்திட்டங்களில் இந்த உணவுப் படி உயர்வும் ஒன்று.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு சமூக நீதித் துறை",
+   "வன்னி அரசு",
+   "விடுதி மாணவர்கள்",
+   "உறைவிடப் பள்ளிகள்",
+   "சட்டப்பேரவை பட்ஜெட் கூட்டத்தொடர்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Tamil Nadu govt raises food allowance for hostel students",
+   "lines": [
+    "The Tamil Nadu Social Justice Department issued a G.O. raising the food allowance for students in hostels and residential schools.",
+    "The increase applies to all students staying in government hostels and residential schools across the state.",
+    "Minister Vanni Arasu had announced the hike during the Budget session of the Legislative Assembly.",
+    "Following the announcement, the Social Justice Department issued a G.O. to implement it.",
+    "Based on the G.O., the new food allowance is expected to come into effect in hostels soon."
+   ],
+   "closing": "This food allowance hike is one of several welfare schemes announced during the Budget session."
+  },
+  "id": "53f6663918e4",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-24T17:19+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-social-justice-dept-raises-food-allowance-for-students-in-hostels-residential-schools/article71619359.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/53f6663918e4.mp3",
+  "created_ts": 1792842595.521487,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "நீலகிரி உள்பட 9 மாவட்டங்களுக்கு இன்று ஆரஞ்சு எச்சரிக்கை",
+  "lines": [
+   "நீலகிரி மாவட்டத்தில் இன்று அதிக அளவு கனமழை பெய்யும் என வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "இதையொட்டி தமிழ்நாட்டின் ஒன்பது மாவட்டங்களுக்கு இன்றைய தினத்திற்கான ஆரஞ்சு நிற எச்சரிக்கை விடுக்கப்பட்டுள்ளது.",
+   "கனமழை காரணமாக பல பகுதிகளில் பாதிப்பு ஏற்படும் வாய்ப்பு உள்ளதாக வானிலை அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "ஆரஞ்சு எச்சரிக்கை என்பது மிக அதிக அளவு மழை பெய்யும் வாய்ப்பைக் குறிக்கும் எச்சரிக்கை நிலையாகும்.",
+   "பொதுமக்கள் முன்னெச்சரிக்கை நடவடிக்கைகளை மேற்கொள்ளுமாறு மாவட்ட நிர்வாகங்கள் அறிவுறுத்தியுள்ளன."
+  ],
+  "closing": "ஆரஞ்சு எச்சரிக்கை பெற்ற மற்ற எட்டு மாவட்டங்களின் பெயர்கள் விரைவில் அதிகாரப்பூர்வமாக வெளியாக வாய்ப்புள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-24"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "நீலகிரி",
+   "தமிழ்நாடு",
+   "வானிலை ஆய்வு மையம்"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Orange alert for Nilgiris and 9 districts in Tamil Nadu today",
+   "lines": [
+    "The weather department has forecast extremely heavy rainfall in Nilgiris district today.",
+    "Following this, an orange alert has been issued for nine districts across Tamil Nadu for today.",
+    "Officials said the heavy rain could cause disruption in several areas.",
+    "An orange alert indicates a warning level for very heavy rainfall expected.",
+    "District administrations have advised the public to take precautionary measures."
+   ],
+   "closing": "The names of the remaining eight districts under the orange alert are expected to be officially confirmed soon."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "heavy rain weather alert india",
+  "wiki_subject": "Nilgiris district",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "a87384a73ea6",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-24T17:17+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/24/extremely-heavy-rainfall-in-the-nilgiris-today-red-alert"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Telescope_House_in_Doddabetta_Peak_-_Ooty%2CTamil_Nadu.JPG/3840px-Telescope_House_in_Doddabetta_Peak_-_Ooty%2CTamil_Nadu.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Nilgiris district",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Nilgiris_district",
+   "symbolic": false
+  },
+  "audio": "data/audio/a87384a73ea6.mp3",
+  "created_ts": 1792842477.2985988,
+  "status": "published"
+ },
+ {
+  "headline": "திலக், ரெட்டி, தீர் வெற்றியைத் திணித்தனர்; இந்தியா நியூசிலாந்துக்கு எதிராக 2-0 வில் முன்னிறுத்தியது",
+  "lines": [
+   "கிறிஸ்ட்சர்ச்சில் நடந்த போட்டியில் இந்தியா நியூசிலாந்தைத் தோல்வியடையச் செய்து தொடரை 2-0 வில் முன்னிறுத்தியது.",
+   "இந்தியா 70 ரன்களுக்கு ஐந்து விக்கெட் இழந்த நிலையில் இருந்து எழுந்து நியூசிலாந்து அறிவித்த 181 ரன் இலக்கை எட்டியது.",
+   "திலக் வர்மா, சங்கர் ரெட்டி, ஞேய குமார் தீர் ஆகியோர் முக்கிய பங்கெற்றனர்.",
+   "நியூசிலாந்தின் மோசமான ஃபீல்டிங்கால் நான்கு இந்திய வீரர்கள் பலிக்குத் தப்பினர்.",
+   "தொடரின் மூன்றாவது போட்டி விரைவில் நடைபெறவுள்ளது."
+  ],
+  "closing": "இந்தியா நியூசிலாந்து மூன்று போட்டி தொடரில் ஆற்றலாக வெற்றி பெற்று வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ESPNcricinfo",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "sports",
+  "entities": [
+   "இந்தியா",
+   "நியூசிலாந்து",
+   "கிறிஸ்டசர்চ்",
+   "திலக் வர்மா",
+   "சங்கர் ரெட்டி",
+   "ஞேய குமார் தீர்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "India clinches thriller against New Zealand to go 2-0 up in series",
+   "lines": [
+    "India defeated New Zealand in Christchurch and moved to 2-0 in the Varanasi T20I series.",
+    "India recovered from 70 for 5 and successfully chased down New Zealand's total of 181 runs.",
+    "Tilak Verma, Sankar Reddy, and Gnaneshwar Dhir played crucial roles in the victory.",
+    "Four Indian batsmen were reprieved due to New Zealand's poor fielding performance.",
+    "The third match of the series is expected to take place soon."
+   ],
+   "closing": "India continues to demonstrate strong performance against New Zealand in the three-match T20I series."
+  },
+  "front_cat": "routine",
+  "image_query": "India cricket team vs New Zealand",
+  "wiki_subject": "India national cricket team",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "23f86ce43074",
+  "topic_ta": "விளையாட்டு",
+  "published_at": "2026-10-24T17:15+05:30",
+  "links": [
+   "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Board_of_Control_for_Cricket_in_India_Logo_%282024%29.svg/960px-Board_of_Control_for_Cricket_in_India_Logo_%282024%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · India national cricket team",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/India_national_cricket_team",
+   "symbolic": false
+  },
+  "audio": "data/audio/23f86ce43074.mp3",
+  "created_ts": 1792842344.0979567,
+  "status": "published"
+ },
+ {
   "headline": "வேலூரில் பட்டாசு ஆலை வெடிவிபத்து, உரிமம் ரத்து",
   "lines": [
    "வேலூர் மாவட்டத்தில் உள்ள பட்டாசு தயாரிப்பு ஆலையில் ஏற்பட்ட வெடிவிபத்தில் ஒரு தொழிலாளி உயிரிழந்தார்.",
@@ -18297,510 +18727,6 @@
   },
   "audio": "data/audio/9df5c4fbb5fe.mp3",
   "created_ts": 1792227673.4226732,
-  "status": "published"
- },
- {
-  "headline": "புகழ்பெற்ற இசையமைப்பாளர் தேவா காலமானார்",
-  "lines": [
-   "தமிழ் திரையிசை உலகில் பிரபலமான இசையமைப்பாளர் தேவா காலமானார் என்ற தகவல் வெளியாகியுள்ளது.",
-   "பல ஆண்டுகளாக தமிழ் சினிமாவில் பல்வேறு படங்களுக்கு இசையமைத்து பெயர் எடுத்தவர் இவர்.",
-   "அவரது மறைவு தமிழ் சினிமா மற்றும் இசை ரசிகர்கள் மத்தியில் வருத்தத்தை ஏற்படுத்தியுள்ளது.",
-   "இறப்புக்கான காரணம் தொடர்பான விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-   "இறுதிச் சடங்கு ஏற்பாடுகள் குறித்த தகவல்கள் விரைவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "தமிழ் சினிமா இசை உலகில் பல தசாப்தங்களாக பங்களித்த இசையமைப்பாளர் தேவாவின் மறைவு குறித்த முழு விவரங்கள் இன்னும் தெரியவரவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": "2026-10-17"
-   }
-  ],
-  "topic": "cinema",
-  "entities": [
-   "தேவா",
-   "தமிழ் சினிமா",
-   "இசையமைப்பாளர்",
-   "இசை உலகம்"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Renowned music composer Deva passes away",
-   "lines": [
-    "Popular Tamil film music composer Deva has reportedly passed away.",
-    "He had composed music for numerous Tamil films over several decades and gained wide popularity.",
-    "His demise has caused grief among Tamil cinema and music fans.",
-    "Details regarding the cause of death have not yet been officially released.",
-    "Information on funeral arrangements is expected to be announced soon."
-   ],
-   "closing": "Full details about the passing of composer Deva, who contributed to Tamil film music for decades, are yet to emerge."
-  },
-  "front_cat": "leader_death",
-  "image_query": "",
-  "wiki_subject": "Deva (composer)",
-  "person_en": "Deva",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "e237f6723e38",
-  "topic_ta": "சினிமா",
-  "published_at": "2026-10-17T14:29+05:30",
-  "links": [
-   "https://www.dinamani.com/cinema/cinema-news/2026/Oct/17/music-composer-deva-has-passed-away"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Deva_Music_Director.jpg/3840px-Deva_Music_Director.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Deva (composer)",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Deva_(composer)",
-   "symbolic": false
-  },
-  "audio": "data/audio/e237f6723e38.mp3",
-  "created_ts": 1792227591.7220492,
-  "status": "published"
- },
- {
-  "headline": "கானா இசையை திரையுலகுக்கு கொண்டு வந்த இசையமைப்பாளர் தேவா காலமானார்",
-  "lines": [
-   "சென்னையின் தெரு கானா பாணியை தமிழ் சினிமாவின் முக்கிய அலைக்குள் கொண்டு வந்த இசையமைப்பாளர் தேவா காலமானார் என்று தெரிவிக்கப்பட்டுள்ளது.",
-   "அவர் கானா இசையின் நிலக் கொண்ட தாளங்களையும், திரைப்படப் பாடல்களின் மக்கள் செல்வாக்கையும், இசை மற்றும் பக்தி இசையின் மெலோடிக் வளத்தையும் இணைத்து பணியாற்றினார்.",
-   "இசைத்துறையினரும் தமிழ் சினிமா ரசிகர்களும் இவரது மறைவுக்கு இரங்கல் தெரிவித்து வருகின்றனர்.",
-   "கானா இசையை தெருவிலிருந்து திரை அரங்கிற்கு கொண்டு சென்ற முதல் தலைமுறை இசையமைப்பாளர்களில் தேவா ஒருவராக கருதப்படுகிறார்.",
-   "இவரது இசைப் பணிகள் குறித்த நினைவுகளும் பாராட்டுகளும் தொடர்ந்து வெளியாகி வருகின்றன."
-  ],
-  "closing": "தேவாவின் மறைவுக்கு இசைத்துறையினரிடமிருந்தும் ரசிகர்களிடமிருந்தும் தொடர்ந்து இரங்கல் செய்திகள் வெளியாகி வருகின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "cinema",
-  "entities": [
-   "தேவா",
-   "கானா இசை",
-   "தமிழ் சினிமா",
-   "சென்னை",
-   "இசையமைப்பாளர்"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Composer Deva, who took Chennai's gaana music mainstream, passes away",
-   "lines": [
-    "Music composer Deva, who brought Chennai's gaana tradition into mainstream Tamil cinema, has reportedly passed away.",
-    "He was known for blending the earthy rhythms of gaana, the mass appeal of film songs, and the melodic richness of classical and devotional music.",
-    "Members of the music industry and Tamil cinema fans have been expressing condolences over his passing.",
-    "Deva is regarded as one of the first-generation composers to bring gaana music from the streets to the big screen.",
-    "Tributes and memories of his musical contributions continue to be shared widely."
-   ],
-   "closing": "Condolence messages from the music fraternity and fans continue to pour in following Deva's passing."
-  },
-  "front_cat": "leader_death",
-  "image_query": "",
-  "wiki_subject": "Deva (composer)",
-  "person_en": "Deva",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "4400f35f0983",
-  "topic_ta": "சினிமா",
-  "published_at": "2026-10-17T14:28+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/deva-the-composer-who-took-chennais-gaana-to-mainstream-cinema-is-no-more/article71595678.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Deva_Music_Director.jpg/3840px-Deva_Music_Director.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Deva (composer)",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Deva_(composer)",
-   "symbolic": false
-  },
-  "audio": "data/audio/4400f35f0983.mp3",
-  "created_ts": 1792227503.6251059,
-  "status": "published"
- },
- {
-  "id": "jobs_20261017",
-  "headline": "இன்றைய வேலை அறிவிப்புகள் — 8 · அரசு & தனியார்",
-  "lines": [
-   "ஜாஜ்பூர் மாவட்ட கனிம அறக்கட்டளை (DMF Jajpur) — ஸ்பெஷலிஸ்ட் (O&G, குழந்தை, கண்), GDMO மற்றும் பிற (12 இடங்கள்) · கடைசி நாள் 2026-10-22.",
-   "இந்திய வேளாண் ஆராய்ச்சி நிறுவனம் (IARI) — யங் புரொபஷனல்-II · கடைசி நாள் 2026-11-20.",
-   "பக்ரா பியாஸ் மேலாண்மை வாரியம் (BBMB) — டிரேட் அப்ரண்டிஸ் லைன்மேன் & எலக்ட்ரீசியன் (9 இடங்கள்) · கடைசி நாள் 2026-11-14.",
-   "வருமான வரித்துறை, டெல்லி (விளையாட்டு ஒதுக்கீடு) — எம்.டி.எஸ், ஸ்டெனோகிராபர், டாக்ஸ் அசிஸ்டென்ட் (119 இடங்கள்) · கடைசி நாள் 2026-11-10.",
-   "CWS, இந்திய வெளிநாட்டு வர்த்தக நிறுவனம் (IIFT) — கன்சல்டன்ட் (Ph.D) · கடைசி நாள் 2026-10-30."
-  ],
-  "closing": "விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பை சரிபார்க்கவும்; பணம் கேட்கும் எந்த அறிவிப்பையும் பட்டியலிடாது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-10-17"
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-10-17"
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-10-17"
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-10-17"
-   }
-  ],
-  "topic": "jobs",
-  "topic_ta": "வேலை · தேர்வு",
-  "entities": [
-   "ஜாஜ்பூர் மாவட்ட கனிம அறக்கட்டளை (DMF Jajpur)",
-   "இந்திய வேளாண் ஆராய்ச்சி நிறுவனம் (IARI)",
-   "பக்ரா பியாஸ் மேலாண்மை வாரியம் (BBMB)",
-   "வருமான வரித்துறை, டெல்லி (விளையாட்டு ஒதுக்கீடு)"
-  ],
-  "confidence": 0.8,
-  "flags": [],
-  "jobs": [
-   {
-    "org": "ஜாஜ்பூர் மாவட்ட கனிம அறக்கட்டளை (DMF Jajpur)",
-    "post": "ஸ்பெஷலிஸ்ட் (O&G, குழந்தை, கண்), GDMO மற்றும் பிற",
-    "count": "12",
-    "last_date": "2026-10-22",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/dmf-jajpur-recruitment-2026-walkin-for-12-specialist-gdmo-and-more-posts-3074275"
-   },
-   {
-    "org": "இந்திய வேளாண் ஆராய்ச்சி நிறுவனம் (IARI)",
-    "post": "யங் புரொபஷனல்-II",
-    "count": null,
-    "last_date": "2026-11-20",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/iari-young-professional-ii-recruitment-2026-walkin-3074268"
-   },
-   {
-    "org": "பக்ரா பியாஸ் மேலாண்மை வாரியம் (BBMB)",
-    "post": "டிரேட் அப்ரண்டிஸ் லைன்மேன் & எலக்ட்ரீசியன்",
-    "count": "9",
-    "last_date": "2026-11-14",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/bbmb-recruitment-2026-apply-online-for-9-trade-apprentice-lineman-trade-apprentice-electrician-posts-3074265"
-   },
-   {
-    "org": "வருமான வரித்துறை, டெல்லி (விளையாட்டு ஒதுக்கீடு)",
-    "post": "எம்.டி.எஸ், ஸ்டெனோகிராபர், டாக்ஸ் அசிஸ்டென்ட்",
-    "count": "119",
-    "last_date": "2026-11-10",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/income-tax-delhi-sports-quota-recruitment-2026-3073318"
-   },
-   {
-    "org": "CWS, இந்திய வெளிநாட்டு வர்த்தக நிறுவனம் (IIFT)",
-    "post": "கன்சல்டன்ட் (Ph.D)",
-    "count": null,
-    "last_date": "2026-10-30",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/cws-iift-consultant-recruitment-2026-apply-online-3074260"
-   },
-   {
-    "org": "தேசிய சோதனை இல்லம் (NTH)",
-    "post": "சயின்டிஸ்ட்-பி (கெமிக்கல்)",
-    "count": "2",
-    "last_date": "2026-11-01",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/nth-scientist-b-recruitment-2026-apply-online-3074257"
-   },
-   {
-    "org": "சைனிக் பள்ளி, ரேவாரி",
-    "post": "நர்சிங் அசிஸ்டென்ட், PGT மற்றும் பிற பதவிகள்",
-    "count": "5",
-    "last_date": "2026-11-06",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/sainik-school-rewari-recruitment-2026-apply-offline-for-5-nursing-assistant-pgt-and-other-posts-3074253"
-   },
-   {
-    "org": "மாவட்ட குழந்தை பாதுகாப்பு அலகு, திருப்பூர் (DCPU Tiruppur)",
-    "post": "சப்போர்ட் பர்சன்ஸ்",
-    "count": "20",
-    "last_date": "2026-10-27",
-    "type": "அரசு",
-    "link": "https://www.freejobalert.com/articles/dcpu-tiruppur-support-persons-recruitment-2026-apply-offline-for-20-posts-3074250"
-   }
-  ],
-  "image": null,
-  "status": "published",
-  "published_at": "2026-10-17T09:59+05:30",
-  "created_ts": 1792211375.6499634,
-  "audio": "data/audio/jobs_20261017.mp3"
- },
- {
-  "headline": "IARI-இல் யங் ப்ரொஃபெஷனல் II பதவிக்கு நடைபயண நேர்காணல்.",
-  "lines": [
-   "இந்திய விவசாய ஆராய்ச்சி நிறுவனம் யங் ப்ரொஃபெஷனல்-II பதவிக்கான நியமனத் தொடரைத் தொடங்கியுள்ளது.",
-   "பதவிக்குரிய தகுதி மற்றும் கால அளவு சம்பந்தமான விவரங்கள் அதிகாரப்பூர்வமாக தெரிவிக்கப்படவில்லை.",
-   "தேர்வு செயல்முறை ஒரு நடைபயண நேர்காணல் மூலம் நடைபெறும்.",
-   "நடைபயண நேர்காணல் நாள் நவம்பர் 20, 2026 என நிர்ணயிக்கப்பட்டுள்ளது.",
-   "விண்ணப்பிக்க விரும்பினால் IARI அதிகாரப்பூர்வ இணையதளத்தை பார்வையிடவும்."
-  ],
-  "closing": "மேலும் விவரங்களுக்கு நிறுவனத்தின் அறிவிப்பினைக் கணக்கில் கொள்ளுங்கள்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-10-17"
-   }
-  ],
-  "topic": "jobs",
-  "entities": [
-   "இந்திய விவசாய ஆராய்ச்சி நிறுவனம்",
-   "யங் ப்रொஃபெஷனல்-II",
-   "நடைபயண साक्षाத्कार"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "IARI Recruits Young Professional-II Through Walk-in Interview",
-   "lines": [
-    "Indian Agricultural Research Institute has released recruitment notification for Young Professional-II posts.",
-    "Complete eligibility criteria and number of vacancies have not been officially detailed.",
-    "Selection will be conducted through a walk-in interview process.",
-    "The walk-in interview is scheduled for November 20, 2026.",
-    "Interested candidates should visit the IARI official website for more details."
-   ],
-   "closing": "Check the institution's official notification for complete information."
-  },
-  "front_cat": "exam_jobs_deadline",
-  "image_query": "IARI Indian Agricultural Research Institute",
-  "wiki_subject": "Indian Agricultural Research Institute",
-  "person_en": "",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "731529c02e94",
-  "topic_ta": "வேலை · தேர்வு",
-  "published_at": "2026-10-17T09:58+05:30",
-  "links": [
-   "https://www.freejobalert.com/articles/iari-young-professional-ii-recruitment-2026-walkin-3074268"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/en/7/73/Indian_Agricultural_Research_Institute_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Indian Agricultural Research Institute",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Indian_Agricultural_Research_Institute",
-   "symbolic": false
-  },
-  "audio": "data/audio/731529c02e94.mp3",
-  "created_ts": 1792211336.4951825,
-  "status": "published"
- },
- {
-  "headline": "இளைஞர்கள் தொடங்கிய மனநல முன்முயற்சி 'நம்பிக்கையின் சுவர்' வெளியிடப்பட்டது",
-  "lines": [
-   "சென்னையில் இளைஞர்களால் வழிநடத்தப்படும் 'நம்பிக்கையின் சுவர்' என்ற மனநல முன்முயற்சி சமீபத்தில் வெளியிடப்பட்டது.",
-   "இம் முன்முயற்சியின் நோக்கம் மனநல விழிப்புணர்வை அதிகரித்து சமூகத்தில் இதன் முக்கியத்துவம் பற்றிய புரிதல் வளர்ப்பது.",
-   "இப்பணி இளைஞர்களை மனநல சவால்களை எதிர்கொள்ள ஆதரவளிப்பதையும் தெரிந்துகொள்ள ஊக்குவிப்பதையும் குறிக்கிறது.",
-   "சென்னை மக்களிடையே மனநல பிரச்சினைக்கு ஆலோசனை பெற விரும்புவோருக்கு இம் முன்முயற்சி வழிகாட்டும் வகையில் வடிவமைக்கப்பட்டுள்ளது.",
-   "மனநல விழிப்புணர்வு, சிகிச்சை வழிகாட்டல், சமூக ஒத்துழைப்பு என்பவை இத்திட்டத்தின் முக்கிய அம்சங்களாக உள்ளன."
-  ],
-  "closing": "மனநல பிரச்சினைகள் குறித்த சமூக மனநிலை மாற்றத்தைத் தூண்டுவதே இந்த முன்முயற்சியின் மூலக்கோள்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "சென்னை",
-   "நம்பிக்கையின் சுவர்",
-   "மனநல விழிப்புணர்வு",
-   "இளைஞர்கள்"
-  ],
-  "confidence": 0.72,
-  "en": {
-   "headline": "Youth-led mental health initiative 'Wall of Hope' unveiled in city",
-   "lines": [
-    "A mental health initiative called 'Wall of Hope', spearheaded by young people, was recently launched in Chennai.",
-    "The initiative aims to raise awareness about mental health and foster understanding of its importance in society.",
-    "The project seeks to support youth in facing mental health challenges and encourage them to seek knowledge.",
-    "The initiative has been designed to guide those in Chennai who wish to seek counseling for mental health issues.",
-    "Key aspects of the programme include mental health awareness, treatment guidance, and community engagement."
-   ],
-   "closing": "The primary goal of this initiative is to shift societal attitudes regarding mental health concerns."
-  },
-  "front_cat": "routine",
-  "image_query": "mental health awareness youth",
-  "wiki_subject": "Mental health",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "854079394034",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-10-17T09:58+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/chennai/wall-of-hope-mental-health-initiative-led-by-youth-unveiled-in-city/article71540374.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Psi_with_Rod_of_Asclepius.svg/330px-Psi_with_Rod_of_Asclepius.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Mental health",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Mental_health",
-   "symbolic": false
-  },
-  "audio": "data/audio/854079394034.mp3",
-  "created_ts": 1792211294.3599386,
-  "status": "published"
- },
- {
-  "headline": "அமெரிக்காவில் கோயில் தாக்குதல் முயற்சி முறியடிப்பு, இந்தியர் பாதுகாப்பு கோரிக்கை",
-  "lines": [
-   "அமெரிக்காவின் இல்லினாய் மாநிலத்தில் ஒரு கோயிலில் நடைபெற இருந்த துப்பாக்கிச் சூடு தாக்குதல் முயற்சி முறியடிக்கப்பட்டது.",
-   "இந்த சம்பவம் தொடர்பாக இந்திய வெளியுறவு அமைச்சக செய்தித் தொடர்பாளர் ரந்தீர் ஜெய்ஸ்வால் கருத்து தெரிவித்தார்.",
-   "அமெரிக்காவில் இந்திய சமூகத்தினர் மீதான வெறுப்புக் குற்றங்கள் மற்றும் இனப் பாகுபாடு சம்பவங்கள் அதிகரித்து வருவதை இந்த முயற்சி எடுத்துக்காட்டுவதாக அவர் தெரிவித்தார்.",
-   "இந்தியர்களின் பாதுகாப்பு மற்றும் பத்திரத்தை உறுதி செய்யுமாறு அமெரிக்க அரசிடம் இந்திய வெளியுறவு அமைச்சகம் கோரிக்கை வைத்துள்ளது.",
-   "இந்த விவகாரம் தொடர்பாக அமெரிக்க அதிகாரிகளின் அதிகாரப்பூர்வ விளக்கம் இதுவரை வெளியாகவில்லை."
-  ],
-  "closing": "அமெரிக்காவில் இந்திய சமூகத்தினர் மீதான வெறுப்புக் குற்றங்கள் குறித்து இந்திய அரசு தொடர்ந்து கவனம் செலுத்தி வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "இல்லினாய்",
-   "அமெரிக்கா",
-   "இந்திய வெளியுறவு அமைச்சகம்",
-   "ரந்தீர் ஜெய்ஸ்வால்",
-   "இந்திய சமூகம்"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "MEA urges U.S. to ensure Indian safety after foiled Illinois temple attack",
-   "lines": [
-    "An attempted mass shooting at a temple in Illinois, United States, was foiled by authorities.",
-    "Ministry of External Affairs spokesperson Randhir Jaiswal commented on the incident.",
-    "He said the attempted attack highlights the increasing cases of hate crimes and racial discrimination against the Indian community in the United States.",
-    "India's Ministry of External Affairs has called on the U.S. government to ensure the safety and security of Indians there.",
-    "An official response from U.S. authorities on the matter has not yet been issued."
-   ],
-   "closing": "India's government continues to monitor rising hate crimes against the Indian community in the United States."
-  },
-  "front_cat": "attack_terror",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "2336dece40f5",
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-10-17T09:57+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/mea-calls-on-us-to-ensure-safety-security-of-indians-after-foiled-illinois-temple-attack/article71594327.ece",
-   "https://www.thehindu.com/news/national/mea-calls-on-us-to-ensure-safety-security-of-indians-after-foiled-illinois-temple-attack/article71594327.ece"
-  ],
-  "image": {
-   "url": "data/bank/india08.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/2336dece40f5.mp3",
-  "created_ts": 1792211237.8106003,
-  "status": "published"
- },
- {
-  "headline": "சென்னையில் டெங்கு காய்ச்சலால் பெண் உயிரிழப்பு",
-  "lines": [
-   "சென்னையில் டெங்கு காய்ச்சல் காரணமாக ஒரு பெண் உயிரிழந்துள்ளார்.",
-   "இந்தச் சம்பவம் தொடர்பான முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-   "சுகாதாரத் துறை அதிகாரிகள் இந்த விவகாரம் குறித்து விசாரணை நடத்தி வருவதாகத் தெரிகிறது.",
-   "நகரில் டெங்கு காய்ச்சல் பாதிப்பு குறித்த பின்னணி தகவல்கள் தற்போது கிடைக்கவில்லை.",
-   "மேலும் விவரங்கள் வெளியான பிறகே இந்தச் சம்பவம் குறித்த முழுமையான தகவல் தெரியவரும்."
-  ],
-  "closing": "இந்தச் சம்பவம் தொடர்பாக சுகாதாரத் துறையின் அதிகாரப்பூர்வ விளக்கம் இன்னும் வெளியாகவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "சென்னை",
-   "டெங்கு காய்ச்சல்",
-   "சுகாதாரத் துறை"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Woman dies of dengue fever in Chennai",
-   "lines": [
-    "A woman has died due to dengue fever in Chennai.",
-    "Complete details regarding this incident have not yet been officially released.",
-    "Health department officials are reportedly investigating the matter.",
-    "Background information on the dengue outbreak in the city is currently unavailable.",
-    "Further details are expected to emerge once more information is released."
-   ],
-   "closing": "An official statement from the health department on this incident is yet to be issued."
-  },
-  "front_cat": "health_emergency",
-  "image_query": "",
-  "wiki_subject": "Dengue fever",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "2ea05a6d40f9",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-10-17T09:55+05:30",
-  "links": [
-   "https://www.dinamani.com/all-editions/edition-chennai/chennai/2026/Oct/16/woman-dies-of-dengue-fever"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Denguerash.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Dengue fever",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Dengue_fever",
-   "symbolic": false
-  },
-  "audio": "data/audio/2ea05a6d40f9.mp3",
-  "created_ts": 1792211102.1206431,
   "status": "published"
  }
 ]

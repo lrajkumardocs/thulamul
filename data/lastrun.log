@@ -1,23 +1,22 @@
-[expire] c292a1793d62
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 11 புதியவை
-[fetch] Dinamani TN: 21 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
 [fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 14 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 29 புதியவை
-[fetch] Wired: 30 புதியவை
+[fetch] The Hindu Tech: 25 புதியவை
+[fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 22 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 28 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f30ce066bd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 21 புதியவை
-[fetch] Times Govt Schemes: 18 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f10534df950>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
+[fetch] Times Govt Schemes: 12 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -68,39 +67,57 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 660 → நிகழ்வுகள் 609
-[triage] 609 → 59 | காலி: india:4, sports:3, court:2, jobs:2, health:2
-[skip] IPL 2027 என்பது வரவிருக்கும் IPL நிகழ்வு; வெளிநாட்டு வீரர் (
-[image] களஞ்சியம் (3 சொல்): சீர்காழி அருகே தம்பதி மர்மமான முறை
-[tts-edge] 06d1fd5273a5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சீர்காழி அருகே தம்பதி மர்மமான முறையில் உயிரிழப்பு, மகன் மீட்பு
-[திருத்தம்] உதகை அருகே மண்சரிவில் சிக்கி அரசுப் பேரு → உதகை அருகே மண்சரிவில் சிக்கிய அரசுப் பேர
-[தரம்] தமிழ் அல்லாத எழுத்து: ത → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): உதகை அருகே மண்சரிவில் சிக்கிய அரசு
-[tts-edge] d9e4708f8238: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உதகை அருகே மண்சரிவில் சிக்கிய அரசுப் பேருந்து; ஓட்டுநர் பலி
-[publish] உதகை மலைப்பாதையில் கனமழை: போக்குவரத்து முடக்கம், வாகனர் அவதி
-[image] களஞ்சியம் (2 சொல்): ஏர்வாடி அருகே மூவருக்குக் கத்திக்க
-[publish] ஏர்வாடி அருகே மூவருக்குக் கத்திக்குத்து: ஒருவர் கைது
-[skip] உலக நிகழ்வு ஆனால் தமிழ்நாட்டு வாசகரைத் தெரிந்தே பாதிக்காது —
-[skip] செர்பியாவின் உள்நாட்டு தேர்தல் — தமிழ்நாடு/இந்தியத் வாசகருக்
-[skip] யேமனின் உள்நாட்டு மோதல் — தமிழ்நாட்டு / இந்திய வாசகருக்கு உட
-[skip] பலஸ்தீனம்-இஸ்ரேல் மோதல் தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்
-[skip] இந்திய பிரதமர் வீட்டுக்கு அருகிலுள்ள ஒரு பள்ளிவாசல் குறித்த 
-[திருத்தம்] விலங்கு கொடுமை தடுப்பு வரைவு விதிகள் குற → விலங்கு கொடுமை தடுப்பு விதிகள், 2026 குற
-[publish] விலங்கு கொடுமை தடுப்பு விதிகள், 2026 குறித்து தயாநிதி மாறன் கவலை
-[skip] தைவான் புயல் பாதிப்பு தமிழ்நாடு/இந்திய வாசகரை நேரடியாகப் பாத
-[skip] கென்யாவிலுள்ள ஈபோலா பரவல் தமிழ்நாடு அல்லது இந்தியாவைப் பாதிக
-[skip] வெளிநாட்டு உள்நாட்டுக் கொடுமைச் செய்தி — தமிழ்நாடு/இந்திய வா
-[publish] அர்ஜென்டினா அதிபர் மிலேயி மீதான கிரிப்டோ மோசடி வழக்கு ரத்து
-[திருத்தம்] தமிழ்நாடு அறநிலையத் துறை மீது சென்னை உயர → சென்னை உயர்நீதிமன்றம் தமிழ்நாடு அறநிலையத
-[publish] சென்னை உயர்நீதிமன்றம் தமிழ்நாடு அறநிலையத் துறை மீது கடும் விமர்சனம்
-[publish] வேலூரில் பட்டாசு ஆலை வெடிவிபத்து, உரிமம் ரத்து
-[திருத்தம்] அரசுப் பள்ளி மாணவர்களுக்கு 390 கோடியில்  → அரசுப் பள்ளி மாணவர்களுக்கு ரூ.390 கோடியி
-Traceback (most recent call last):
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 2221, in <module>
-    main()
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1858, in main
-    story["flags"] = sorted(set(story.get("flags", []) + extra_flags))
-                                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
-TypeError: unsupported operand type(s) for +: 'dict' and 'list'
+[run] புதியவை 684 → நிகழ்வுகள் 627
+[triage] 627 → 45 | காலி: india:4, sports:3, jobs:2, health:2, cinema:2
+[திருத்தம்] நியூசிலாந்துக்கு எதிரான நிலக்கோ வெற்றியை → திலக், ரெட்டி, தீர் வெற்றியைத் திணித்தனர
+[தரம்] தமிழ் அல்லாத எழுத்து: চ → ஒரு திருத்தம்
+[tts-edge] 23f86ce43074: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திலக், ரெட்டி, தீர் வெற்றியைத் திணித்தனர்; இந்தியா நியூசிலாந்துக்கு எதிராக 2-0 வில் முன்னிறுத்தியது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[நகல்] ஏற்கனவே வெளியானது: காவிரி நீர்: கர்நாடகா 15 நாட்களுக்கு 3,000 கன அடி திறக்க உத்
+[tts-edge] a87384a73ea6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நீலகிரி உள்பட 9 மாவட்டங்களுக்கு இன்று ஆரஞ்சு எச்சரிக்கை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgM1XoL4KoYkutBVGKR87'}
+[skip] தமிழ்நாட்டுச் செய்தி; 'world' என்ற துறை குறிப்பு தவறு. இது t
+[skip] இந்தியா-சீன எல்லைச் சர்ச்சை — இந்தியாவிற்கு முக்கியம்; தமிழ்
+[skip] வெளிநாட்டு உள்ளூர் நிகழ்வு — ஜெர்மன் ஐতিহாசிক இடத்தில் தீ; த
+[skip] கென்யாவின் ஒரு நகரத்தில் நடந்த கட்டிடச் சரிவு. தமிழ்நாடு/இந்
+[திருத்தம்] விடுதி மாணவர்களின் உணவுப் படி உயர்த்தி த → விடுதி மாணவர்களின் உணவுப் படி உயர்த்தியு
+[image] களஞ்சியம் (2 சொல்): விடுதி மாணவர்களின் உணவுப் படி உயர்
+[publish] விடுதி மாணவர்களின் உணவுப் படி உயர்த்தியுள்ளது தமிழ்நாடு அரசு
+[skip] வெளிநாட்டுச் சம்பவம் — ஜெர்மனி எனும் ஐரோப்பிய நாட்டில் நிகழ்
+[skip] மூலம் ஒரு தொகுப்புக் கட்டுரை (compilation) தலைப்பு மட்டும், 
+[skip] பிரான்சில் நடந்த குற்றச் செய்தி. தமிழ்நாடு அல்லது இந்தியாவுட
+[skip] மூலத்தில் தலைப்பும் ஒரு சிறு குறிப்பும் மட்டுமே உள்ளது; இடம்
+[skip] பிரான்சின் உள்நாட்டுப் போராட்டம். தமிழ்நாடு/இந்திய வாசகரைப் 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgM1ijuz7U2yJxt8xWeKD'}
+[skip] பிற நாட்டுப் அரசியல் மற்றும் ராணுவ நடவடிக்கை — தமிழ்நாடு/இந்
+[திருத்தம்] ரூ.1 லட்சம் பயிர்க் கடன் தள்ளுபடி கோரி வ → ரூ.1 லட்சம் பயிர்க் கடன் தள்ளுபடியை முதல
+[image] களஞ்சியம் (2 சொல்): ரூ.1 லட்சம் பயிர்க் கடன் தள்ளுபடிய
+[publish] ரூ.1 லட்சம் பயிர்க் கடன் தள்ளுபடியை முதல்வர் அறிவிக்க வேண்டும்: 50-க்கும் விவசாய சங்கங்கள் கோரிக்கை
+[skip] கொடகு (கர்நாடகா) மற்றும் பரேலி (உத்தரப் பிரதேசம்) உள்ளூர் பள
+[skip] அருணாச்சல பிரதேசம் மற்றும் கேரளாவின் உள்ளூர் அரசு வேலைவாய்ப்
+[skip] ஆந்திரப் பிரதேச மாநில உள்ளூர் அரசியல் விமர்சனம் - தமிழ்நாட்ட
+[skip] மூலத்தில் போதிய விவரம் இல்லை — இடம், சூழல், நிகழ்வின் பின்னண
+[image] களஞ்சியம் (2 சொல்): கொல்கத்தா கூட்டநெரிசல்: ஒலிபெருக்க
+[publish] கொல்கத்தா கூட்டநெரிசல்: ஒலிபெருக்கி அறிவிப்பில் இருவர் மீது குற்றச்சாட்டு
+[திருத்தம்] பிரதமர் மோடி நாளை வாரணாசி, புவனேஸ்வர் பய → பிரதமர் மோடி அக்டோபர் 25-ல் வாரணாசி, புவ
+[தரம்] தமிழ் அல்லாத எழுத்து: रদ → ஒரு திருத்தம்
+[publish] பிரதமர் மோடி அக்டோபர் 25-ல் வாரணாசி, புவனேஸ்வர் பயணம்; திட்டங்கள் தொடக்கம்
+[skip] கேரளத்தின் உள்ளூர் சுகாதாரக் கொள்கைச் சர்ச்சை — தமிழ்நாடு அல
+[skip] வெளிநாட்டு ராக் இசைக்குழுவின் பத்திரிக்கை / சிनेमா வரலாறு — 
+[skip] இது கேரள உயர்நீதிமன்றத்தின் உள்ளூர் பயிற்சி கொள்கை மாற்றம் த
+[skip] முதல்வர் / பெரிய தேசிய விளையாட்டு நிகழ்வு / தமிழ்நாடு தொடர்ப
+[skip] பொதுவான சுகாதார தகவல் — குறிப்பிட்ட நிகழ்வு, அரசு அறிவிப்பு,
+[skip] இந்தி மொழிப் படம்; தமிழ்நாட்டு வாசகருக்குப் பொருத்தமில்லை. த
+[skip] பাকிஸ்தான் உள் நாட்டுத் தொடர் — தமிழ்நாடு/இந்திய வாசகருக்குப
+[filler] tech கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12560 · சென்செக்ஸ் 73124
+[weather] புதுப்பிக்கப்பட்டது
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+  warnings.warn(message, FutureWarning)
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 0 · எழுதியவை 6

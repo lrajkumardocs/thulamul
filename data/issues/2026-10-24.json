@@ -1,5 +1,945 @@
 [
  {
+  "id": "art_tech_20261024",
+  "headline": "UPI பயன்பாடு மற்றும் இணைய மோசடி தவிர்ப்பு - அறிந்து கொள்ள வேண்டிய அடிப்படைத் தகவல்கள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும் போது உங்கள் UPI பின் எண்ணை யாருடனும் பகிர்ந்து கொள்ளக் கூடாது.",
+   "அந்நிய நபர் அனுப்பும் QR கோடை ஸ்கேன் செய்வதால் பணம் உங்களுக்கு வராது, மாறாக உங்கள் கணக்கிலிருந்து பணம் எடுக்கப்படும் என்பதை நினைவில் கொள்ள வேண்டும்.",
+   "ஆதார் எண்ணை பகிரும் போது அதன் மாஸ்க் செய்யப்பட்ட பதிப்பை மட்டும் பயன்படுத்துவது பாதுகாப்பானது.",
+   "மொபைல் போனில் தெரியாத இணைப்புகளை கிளிக் செய்வதையும், சந்தேகத்திற்குரிய செயலிகளை நிறுவுவதையும் தவிர்க்க வேண்டும்.",
+   "வங்கி அல்லது அரசு அமைப்பு என கூறி அழைக்கும் நபர்கள் தனிப்பட்ட தகவல்களை கேட்டால், அதை உடனடியாக சரிபார்த்து பின்னரே பதிலளிக்க வேண்டும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை பெரிய இழப்பை தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-24"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-24T17:24+05:30",
+  "created_ts": 1792842882.7843158,
+  "audio": "data/audio/art_tech_20261024.mp3"
+ },
+ {
+  "headline": "பிரதமர் மோடி அக்டோபர் 25-ல் வாரணாசி, புவனேஸ்வர் பயணம்; திட்டங்கள் தொடக்கம்",
+  "lines": [
+   "பிரதமர் நரேந்திர மோடி அக்டோபர் 25-ல் வாரணாசி மற்றும் புவனேஸ்வருக்குப் பயணம் மேற்கொள்கிறார்.",
+   "இரு நகரங்களிலும் பல முக்கியத் திட்டங்களை அவர் தொடக்கி வைக்க உள்ளார்.",
+   "வாரணாசியில் உள்ள நமோ காட் எனும் இடத்தில் விமானப்படை தினத்தை முன்னிட்டு நடைபெறும் ஆகாயக் காட்சிக் கண்காட்சியையும் அவர் பார்வையிடுவார்.",
+   "இந்த ஆகாயக் காட்சிக் கண்காட்சி 2026-ல் நடத்தப்படும் விமானப்படை தினத்தின் ஒரு பகுதியாக உள்ளது.",
+   "பிரதமரின் இப்பயணம் தொடர்பான முழு நிகழ்ச்சி நிரல் விரைவில் வெளியிடப்படும் என அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "பிரதமரின் இந்தப் பயணம் வாரணாசி மற்றும் புவனேஸ்வர் பகுதிகளுக்கான வளர்ச்சித் திட்டங்களுடன் தொடர்புடையது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "நரேந்திர மோடி",
+   "வாரணாசி",
+   "புவனேஸ்வர்",
+   "நமோ காட்",
+   "இந்திய விமானப்படை"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "PM Modi to visit Varanasi, Bhubaneswar tomorrow; to inaugurate key projects",
+   "lines": [
+    "Prime Minister Narendra Modi will travel to Varanasi and Bhubaneswar on October 25.",
+    "He is set to inaugurate several important projects in both cities.",
+    "He will also witness the Air Force Day Aerial Display at Namo Ghat in Varanasi.",
+    "The aerial display showcases the capabilities of the Indian Air Force as part of the 2026 edition of the event.",
+    "Officials said the full schedule of the Prime Minister's visit will be announced soon."
+   ],
+   "closing": "The Prime Minister's visit is linked to development projects planned for the Varanasi and Bhubaneswar regions."
+  },
+  "front_cat": "cm_pm_announcement",
+  "image_query": "Narendra Modi",
+  "wiki_subject": "Narendra Modi",
+  "person_en": "Narendra Modi",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [],
+  "id": "e6933d627d47",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-10-24T17:24+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/pm-modi-to-visit-varanasi-and-bhubaneswar-on-october-25-inaugurate-key-projects/article71619745.ece",
+   "https://www.thehindu.com/news/national/pm-modi-to-visit-varanasi-and-bhubaneswar-on-october-25-inaugurate-key-projects/article71619745.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Narendra_Modi_Portrait_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Narendra Modi",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Narendra_Modi",
+   "symbolic": false
+  },
+  "audio": "data/audio/e6933d627d47.mp3",
+  "created_ts": 1792842850.3107383,
+  "status": "published"
+ },
+ {
+  "headline": "கொல்கத்தா கூட்டநெரிசல்: ஒலிபெருக்கி அறிவிப்பில் இருவர் மீது குற்றச்சாட்டு",
+  "lines": [
+   "கொல்கத்தா சோர்பகான் பூஜைப் பந்தலில் ஒரு பகுதி இடிந்து விழுகிறது என ஒலிபெருக்கியில் அறிவிக்கப்பட்டது.",
+   "இந்த அறிவிப்பு பொதுமக்களிடையே பீதியை ஏற்படுத்தி, கூட்டநெரிசல் போன்ற சூழ்நிலை உருவாயிற்று.",
+   "இந்த சம்பவம் தொடர்பாக இருவர் மீது குற்றம் சாட்டப்பட்டுள்ளது.",
+   "இவர்களின் குரல் மாதிரிகளை சேகரிக்க அனுமதி கோரி காவல் துறை நீதிமன்றத்தை அணுகியுள்ளது.",
+   "குரல் மாதிரி சோதனை முடிவுகளின் அடிப்படையில் மேலும் விசாரணை நடைபெறும் என அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "ஒலிபெருக்கி அறிவிப்பு உண்மையானதா என்பது குறித்து இதுவரை காவல் துறை உறுதிப்படுத்தவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "கொல்கத்தா",
+   "சோர்பகான்",
+   "காவல்துறை",
+   "பூஜை பந்தல்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Kolkata stampede: Police seek voice samples of two accused",
+   "lines": [
+    "A stampede-like situation occurred at a puja pandal in Chorbagan, Kolkata, following a loudspeaker announcement.",
+    "Two people have been accused in connection with the incident.",
+    "Police have moved court seeking permission to collect voice samples from the accused.",
+    "Police said the announcement that a portion of the pandal was collapsing allegedly triggered panic among the crowd.",
+    "Officials said further investigation will proceed based on the voice sample test results."
+   ],
+   "closing": "Police have not yet confirmed whether the loudspeaker announcement about the pandal collapsing was true."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "c8ba47cbe789",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-24T17:23+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-police-seek-voice-samples-of-2-accused-over-loudspeaker-announcement-move-court/article71619736.ece",
+   "https://www.thehindu.com/news/national/west-bengal/kolkata-stampede-police-seek-voice-samples-of-2-accused-over-loudspeaker-announcement-move-court/article71619736.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/c8ba47cbe789.mp3",
+  "created_ts": 1792842798.734603,
+  "status": "published"
+ },
+ {
+  "headline": "ரூ.1 லட்சம் பயிர்க் கடன் தள்ளுபடியை முதல்வர் அறிவிக்க வேண்டும்: 50-க்கும் விவசாய சங்கங்கள் கோரிக்கை",
+  "lines": [
+   "தமிழ்நாட்டில் உள்ள ஐம்பதுக்கும் மேற்பட்ட விவசாய சங்கங்கள் ஒரு முக்கியக் கோரிக்கையை முன்வைத்துள்ளன.",
+   "விவசாயிகளுக்கு வழங்கப்பட்ட ஒரு லட்சம் ரூபாய் வரையிலான பயிர்க் கடனைத் தள்ளுபடி செய்யக் கோரியுள்ளன.",
+   "இந்தத் தள்ளுபடியை முதல்வர் உடனடியாக அறிவிக்க வேண்டும் என விவசாய சங்கங்கள் வலியுறுத்துகின்றன.",
+   "விவசாயிகளின் கடன் சுமையைக் குறைப்பதற்கு இந்த நடவடிக்கை அவசியம் என அவர்கள் தெரிவிக்கின்றன.",
+   "இந்தக் கோரிக்கை குறித்து தமிழ்நாடு அரசு இதுவரை அதிகாரப்பூர்வமாக எதுவும் தெரிவிக்கவில்லை."
+  ],
+  "closing": "விவசாய சங்கங்களின் இந்தக் கோரிக்கைக்கு அரசின் பதில் இன்னும் வரவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "விவசாய சங்கங்கள்",
+   "பயிர்க் கடன்",
+   "முதல்வர்",
+   "தமிழ்நாடு அரசு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Farmer bodies demand waiver of rupees one lakh crop loans",
+   "lines": [
+    "More than fifty farmer associations across Tamil Nadu have raised a key demand.",
+    "They have sought a waiver of crop loans up to rupees one lakh given to farmers.",
+    "The associations have urged the Chief Minister to announce the waiver immediately.",
+    "They state that such a step is essential to ease the debt burden on farmers.",
+    "The Tamil Nadu government has not yet officially responded to this demand."
+   ],
+   "closing": "The state government's response to the farmer associations' demand is still awaited."
+  },
+  "front_cat": "farmer_water",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "fc34fbedd55a",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-24T17:22+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/24/minimum-rs-1-lakh-crop-loan-waiver-in-tamil-nadu-over-50-farmers-associations-seek"
+  ],
+  "image": {
+   "url": "data/bank/agri01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/fc34fbedd55a.mp3",
+  "created_ts": 1792842724.6219583,
+  "status": "published"
+ },
+ {
+  "headline": "விடுதி மாணவர்களின் உணவுப் படி உயர்த்தியுள்ளது தமிழ்நாடு அரசு",
+  "lines": [
+   "தமிழ்நாடு சமூக நீதித் துறை அரசாணை வெளியிட்டு, விடுதிகள் மற்றும் உறைவிடப் பள்ளிகளில் தங்கியிருக்கும் மாணவர்களின் உணவுப் படியை உயர்த்தியுள்ளது.",
+   "இந்த உயர்வு மாநிலம் முழுவதும் உள்ள அரசு விடுதிகள் மற்றும் உறைவிடப் பள்ளிகளில் தங்கியிருக்கும் அனைத்து மாணவர்களுக்கும் பொருந்தும்.",
+   "சட்டப்பேரவை பட்ஜெட் கூட்டத்தொடரின் போது அமைச்சர் வன்னி அரசு இந்த உயர்வு குறித்து அறிவிப்பு வெளியிட்டிருந்தார்.",
+   "அந்த அறிவிப்பைத் தொடர்ந்து, சமூக நீதித் துறை இதனை நடைமுறைப்படுத்த அரசாணை பிறப்பித்துள்ளது.",
+   "அரசாணையின் அடிப்படையில், புதிய உணவுப் படி விரைவில் விடுதிகளில் அமலுக்கு வரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "பட்ஜெட் கூட்டத்தொடரின் போது அறிவிக்கப்பட்ட பல்வேறு நலத்திட்டங்களில் இந்த உணவுப் படி உயர்வும் ஒன்று.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு சமூக நீதித் துறை",
+   "வன்னி அரசு",
+   "விடுதி மாணவர்கள்",
+   "உறைவிடப் பள்ளிகள்",
+   "சட்டப்பேரவை பட்ஜெட் கூட்டத்தொடர்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Tamil Nadu govt raises food allowance for hostel students",
+   "lines": [
+    "The Tamil Nadu Social Justice Department issued a G.O. raising the food allowance for students in hostels and residential schools.",
+    "The increase applies to all students staying in government hostels and residential schools across the state.",
+    "Minister Vanni Arasu had announced the hike during the Budget session of the Legislative Assembly.",
+    "Following the announcement, the Social Justice Department issued a G.O. to implement it.",
+    "Based on the G.O., the new food allowance is expected to come into effect in hostels soon."
+   ],
+   "closing": "This food allowance hike is one of several welfare schemes announced during the Budget session."
+  },
+  "id": "53f6663918e4",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-10-24T17:19+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-social-justice-dept-raises-food-allowance-for-students-in-hostels-residential-schools/article71619359.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/53f6663918e4.mp3",
+  "created_ts": 1792842595.521487,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "நீலகிரி உள்பட 9 மாவட்டங்களுக்கு இன்று ஆரஞ்சு எச்சரிக்கை",
+  "lines": [
+   "நீலகிரி மாவட்டத்தில் இன்று அதிக அளவு கனமழை பெய்யும் என வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "இதையொட்டி தமிழ்நாட்டின் ஒன்பது மாவட்டங்களுக்கு இன்றைய தினத்திற்கான ஆரஞ்சு நிற எச்சரிக்கை விடுக்கப்பட்டுள்ளது.",
+   "கனமழை காரணமாக பல பகுதிகளில் பாதிப்பு ஏற்படும் வாய்ப்பு உள்ளதாக வானிலை அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "ஆரஞ்சு எச்சரிக்கை என்பது மிக அதிக அளவு மழை பெய்யும் வாய்ப்பைக் குறிக்கும் எச்சரிக்கை நிலையாகும்.",
+   "பொதுமக்கள் முன்னெச்சரிக்கை நடவடிக்கைகளை மேற்கொள்ளுமாறு மாவட்ட நிர்வாகங்கள் அறிவுறுத்தியுள்ளன."
+  ],
+  "closing": "ஆரஞ்சு எச்சரிக்கை பெற்ற மற்ற எட்டு மாவட்டங்களின் பெயர்கள் விரைவில் அதிகாரப்பூர்வமாக வெளியாக வாய்ப்புள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-24"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "நீலகிரி",
+   "தமிழ்நாடு",
+   "வானிலை ஆய்வு மையம்"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Orange alert for Nilgiris and 9 districts in Tamil Nadu today",
+   "lines": [
+    "The weather department has forecast extremely heavy rainfall in Nilgiris district today.",
+    "Following this, an orange alert has been issued for nine districts across Tamil Nadu for today.",
+    "Officials said the heavy rain could cause disruption in several areas.",
+    "An orange alert indicates a warning level for very heavy rainfall expected.",
+    "District administrations have advised the public to take precautionary measures."
+   ],
+   "closing": "The names of the remaining eight districts under the orange alert are expected to be officially confirmed soon."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "heavy rain weather alert india",
+  "wiki_subject": "Nilgiris district",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "a87384a73ea6",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-24T17:17+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/24/extremely-heavy-rainfall-in-the-nilgiris-today-red-alert"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Telescope_House_in_Doddabetta_Peak_-_Ooty%2CTamil_Nadu.JPG/3840px-Telescope_House_in_Doddabetta_Peak_-_Ooty%2CTamil_Nadu.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Nilgiris district",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Nilgiris_district",
+   "symbolic": false
+  },
+  "audio": "data/audio/a87384a73ea6.mp3",
+  "created_ts": 1792842477.2985988,
+  "status": "published"
+ },
+ {
+  "headline": "திலக், ரெட்டி, தீர் வெற்றியைத் திணித்தனர்; இந்தியா நியூசிலாந்துக்கு எதிராக 2-0 வில் முன்னிறுத்தியது",
+  "lines": [
+   "கிறிஸ்ட்சர்ச்சில் நடந்த போட்டியில் இந்தியா நியூசிலாந்தைத் தோல்வியடையச் செய்து தொடரை 2-0 வில் முன்னிறுத்தியது.",
+   "இந்தியா 70 ரன்களுக்கு ஐந்து விக்கெட் இழந்த நிலையில் இருந்து எழுந்து நியூசிலாந்து அறிவித்த 181 ரன் இலக்கை எட்டியது.",
+   "திலக் வர்மா, சங்கர் ரெட்டி, ஞேய குமார் தீர் ஆகியோர் முக்கிய பங்கெற்றனர்.",
+   "நியூசிலாந்தின் மோசமான ஃபீல்டிங்கால் நான்கு இந்திய வீரர்கள் பலிக்குத் தப்பினர்.",
+   "தொடரின் மூன்றாவது போட்டி விரைவில் நடைபெறவுள்ளது."
+  ],
+  "closing": "இந்தியா நியூசிலாந்து மூன்று போட்டி தொடரில் ஆற்றலாக வெற்றி பெற்று வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ESPNcricinfo",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "sports",
+  "entities": [
+   "இந்தியா",
+   "நியூசிலாந்து",
+   "கிறிஸ்டசர்চ்",
+   "திலக் வர்மா",
+   "சங்கர் ரெட்டி",
+   "ஞேய குமார் தீர்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "India clinches thriller against New Zealand to go 2-0 up in series",
+   "lines": [
+    "India defeated New Zealand in Christchurch and moved to 2-0 in the Varanasi T20I series.",
+    "India recovered from 70 for 5 and successfully chased down New Zealand's total of 181 runs.",
+    "Tilak Verma, Sankar Reddy, and Gnaneshwar Dhir played crucial roles in the victory.",
+    "Four Indian batsmen were reprieved due to New Zealand's poor fielding performance.",
+    "The third match of the series is expected to take place soon."
+   ],
+   "closing": "India continues to demonstrate strong performance against New Zealand in the three-match T20I series."
+  },
+  "front_cat": "routine",
+  "image_query": "India cricket team vs New Zealand",
+  "wiki_subject": "India national cricket team",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "23f86ce43074",
+  "topic_ta": "விளையாட்டு",
+  "published_at": "2026-10-24T17:15+05:30",
+  "links": [
+   "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Board_of_Control_for_Cricket_in_India_Logo_%282024%29.svg/960px-Board_of_Control_for_Cricket_in_India_Logo_%282024%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · India national cricket team",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/India_national_cricket_team",
+   "symbolic": false
+  },
+  "audio": "data/audio/23f86ce43074.mp3",
+  "created_ts": 1792842344.0979567,
+  "status": "published"
+ },
+ {
+  "headline": "வேலூரில் பட்டாசு ஆலை வெடிவிபத்து, உரிமம் ரத்து",
+  "lines": [
+   "வேலூர் மாவட்டத்தில் உள்ள பட்டாசு தயாரிப்பு ஆலையில் ஏற்பட்ட வெடிவிபத்தில் ஒரு தொழிலாளி உயிரிழந்தார்.",
+   "இந்த விபத்தில் மற்றொரு தொழிலாளி கடுமையாகக் காயமடைந்து மருத்துவமனையில் சிகிச்சை பெற்று வருகிறார்.",
+   "பட்டாசு பொதி செய்யும் பணியின்போது ஏற்பட்ட வெடிப்பில் கட்டிடம் முழுவதும் தரைமட்டமானது.",
+   "சம்பவத்தைத் தொடர்ந்து வேலூர் மாவட்ட ஆட்சியர் அந்த ஆலையின் உரிமத்தை ரத்து செய்ய உத்தரவிட்டார்.",
+   "சம்பவம் தொடர்பாக மேலும் விசாரணை நடைபெற்று வருவதாக அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "பட்டாசு ஆலைகளில் பாதுகாப்பு நடைமுறைகள் குறித்த கண்காணிப்பை அதிகாரிகள் தீவிரப்படுத்தி வருகின்றனர்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "வேலூர்",
+   "பட்டாசு ஆலை",
+   "வேலூர் மாவட்ட ஆட்சியர்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Vellore firecracker unit blast, license cancelled",
+   "lines": [
+    "An explosion at a firecracker manufacturing unit in Vellore district killed one worker.",
+    "Another worker was critically injured in the blast and is undergoing treatment in hospital.",
+    "The explosion occurred while workers were packing firecrackers, flattening the entire building.",
+    "Following the incident, the Vellore District Collector ordered cancellation of the unit's license.",
+    "Authorities said further investigation into the incident is underway."
+   ],
+   "closing": "Authorities have been stepping up monitoring of safety practices at firecracker units."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "0ce7ed9d4f98",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-24T12:15+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/collector-orders-cancellation-of-license-of-firecracker-unit-after-blast-in-vellore/article71611599.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/0ce7ed9d4f98.mp3",
+  "created_ts": 1792824348.409031,
+  "status": "published"
+ },
+ {
+  "headline": "சென்னை உயர்நீதிமன்றம் தமிழ்நாடு அறநிலையத் துறை மீது கடும் விமர்சனம்",
+  "lines": [
+   "2011-ஆம் ஆண்டு தவறிழைத்த ஒரு நிர்வாக அலுவலர் மீது உடனடி நடவடிக்கை எடுக்கத் தவறியதாக தமிழ்நாடு அறநிலையத் துறையை சென்னை உயர்நீதிமன்றம் விமர்சித்தது.",
+   "நீதிபதிகள் எஸ்.எம்.சுப்ரமணியம் மற்றும் கிருஷ்ணசாமி கோவிந்தராஜன் ஆகியோர் கொண்ட அமர்வு இந்த வழக்கை விசாரித்தது.",
+   "நிகழ்வுகளின் வரிசை துறையில் முறையான கண்காணிப்பும் சரிசெய்தலும் இல்லாததையும் நிர்வாகக் குறைபாடுகளையும் காட்டுவதாக நீதிபதிகள் குறிப்பிட்டனர்.",
+   "பொறுப்பான அலுவலர் மீது உரிய காலத்தில் நடவடிக்கை எடுக்கப்படாததால் இந்த விவகாரம் நீதிமன்றம் வரை சென்றதாகத் தெரிகிறது.",
+   "இது தொடர்பான முழு விவரங்களையும் நீதிமன்றம் பரிசீலித்து வருவதாகவும், அடுத்த கட்ட நடவடிக்கைகள் எதிர்பார்க்கப்படுவதாகவும் தகவல்கள் தெரிவிக்கின்றன."
+  ],
+  "closing": "2011-ஆம் ஆண்டு நடந்த நிகழ்வு மீதான நீதிமன்ற விசாரணை இப்போது நடைபெற்று வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "சென்னை உயர்நீதிமன்றம்",
+   "இந்து சமய அறநிலையத் துறை",
+   "எஸ்.எம்.சுப்ரமணியம்",
+   "கிருஷ்ணசாமி கோவிந்தராஜன்"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Madras High Court Criticises Tamil Nadu HR&CE Department",
+   "lines": [
+    "The Madras High Court criticised the Tamil Nadu Hindu Religious and Charitable Endowments department for failing to act promptly against an erring executive officer in 2011.",
+    "A bench of Justices S.M. Subramaniam and Krishnaswamy Govindarajan heard the case.",
+    "The judges observed that the sequence of events revealed a lack of proper oversight and poor management within the department.",
+    "It appears the matter reached the court because timely action was not taken against the responsible officer.",
+    "The court is said to be examining the full details of the matter, with further proceedings expected."
+   ],
+   "closing": "Though the incident dates back to 2011, the court proceedings related to it are continuing at present."
+  },
+  "front_cat": "routine",
+  "image_query": "Madras High Court building",
+  "wiki_subject": "Madras High Court",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "ea0a7de5aa7a",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-24T12:15+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-pulls-up-tn-hrampce-department-for-failing-to-act-promptly-against-an-erring-eo-in-2011/article71615366.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Madras High Court",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
+   "symbolic": false
+  },
+  "audio": "data/audio/ea0a7de5aa7a.mp3",
+  "created_ts": 1792824307.5549111,
+  "status": "published"
+ },
+ {
+  "headline": "அர்ஜென்டினா அதிபர் மிலேயி மீதான கிரிப்டோ மோசடி வழக்கு ரத்து",
+  "lines": [
+   "அர்ஜென்டினா அதிபர் ஜேவியர் மிலேயி மீது தொடரப்பட்ட கிரிப்டோ நாணய மோசடி விசாரணையை அங்குள்ள நீதிமன்றம் ரத்து செய்துள்ளது.",
+   "ஒரு கிரிப்டோ நாணயத்தை சமூக ஊடகத்தில் பகிர்ந்த அதிபர் மிலேயி, அதன் விலை வீழ்ச்சியடைந்தவுடன் அந்தப் பதிவை நீக்கியிருந்தார்.",
+   "அதிபரின் பங்கு மோசடித் திட்டமாகக் கருத முடியாது என்று வழக்கை விசாரித்த நீதிபதி தெரிவித்தார்.",
+   "தான் மோசடியில் ஈடுபடவில்லை என்று அதிபர் மிலேயி முன்னதாகவே மறுத்திருந்தார் என்பது குறிப்பிடத்தக்கது.",
+   "இந்த வழக்கு தொடர்பாக மேல்முறையீடு செய்யப்படுமா என்பது இதுவரை உறுதிப்படுத்தப்படவில்லை."
+  ],
+  "closing": "கிரிப்டோ நாணயத்தின் விலை வீழ்ச்சியால் முதலீட்டாளர்கள் பெரும் இழப்பை சந்தித்த நிலையில், அதிபர் மிலேயியின் பங்கு குறித்த விசாரணை இப்படி முடிவடைந்துள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "அர்ஜென்டினா",
+   "ஜேவியர் மிலேயி",
+   "கிரிப்டோ நாணயம்",
+   "நீதிமன்றம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Argentina drops crypto fraud probe against President Milei",
+   "lines": [
+    "An Argentine court has dropped the fraud investigation against President Javier Milei over a cryptocurrency scandal.",
+    "Milei had shared a post about the cryptocurrency on social media and deleted it after its value crashed.",
+    "The judge said the president's role in the matter does not amount to a fraudulent scheme.",
+    "Milei had earlier denied any wrongdoing, maintaining that he did not act fraudulently.",
+    "It remains unclear whether an appeal will be filed against the court's decision."
+   ],
+   "closing": "The investigation concludes after investors suffered heavy losses when the cryptocurrency's value collapsed, raising questions about Milei's involvement."
+  },
+  "front_cat": "scam_expose",
+  "image_query": "",
+  "wiki_subject": "Javier Milei",
+  "person_en": "Javier Milei",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "8ce09548c28f",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-24T12:14+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/news/2026/10/24/argentinian-judge-drops-fraud-investigation-into-milei-over-crypto-scandal?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Javier_Milei_in_pull-aside_meeting_at_the_United_Nations_Headquarters_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Javier Milei",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Javier_Milei",
+   "symbolic": false
+  },
+  "audio": "data/audio/8ce09548c28f.mp3",
+  "created_ts": 1792824249.4697356,
+  "status": "published"
+ },
+ {
+  "headline": "விலங்கு கொடுமை தடுப்பு விதிகள், 2026 குறித்து தயாநிதி மாறன் கவலை",
+  "lines": [
+   "மத்திய அரசு முன்மொழிந்துள்ள விலங்கு கொடுமை தடுப்பு விதிகள், 2026 குறித்து திமுக நாடாளுமன்ற உறுப்பினர் தயாநிதி மாறன் கவலை தெரிவித்துள்ளார்.",
+   "இந்த வரைவு விதிகளை தற்போதைய வடிவில் திரும்பப் பெற வேண்டும் என அவர் மத்திய அரசுக்கு கடிதம் எழுதியுள்ளார்.",
+   "சுயேச்சையான விலங்கு நல நிபுணர்கள், விஞ்ஞானிகள், கால்நடை மருத்துவர்கள், ஆய்வு நிறுவனங்கள் மற்றும் சமூக அமைப்புகளுடன் ஆலோசனை நடத்தி முழுமையான மறுபரிசீலனை செய்ய வேண்டும் என அவர் கோரிக்கை விடுத்துள்ளார்.",
+   "தற்போதைய வரைவு விதிகளால் ஏற்படக்கூடிய நடைமுறைச் சிக்கல்கள் குறித்தும் அவர் தனது கடிதத்தில் சுட்டிக்காட்டியுள்ளார்.",
+   "மத்திய அரசு இந்தக் கோரிக்கைக்கு எவ்வாறு பதிலளிக்கும் என்பது இன்னும் தெரியவில்லை."
+  ],
+  "closing": "விலங்கு நல விதிகள் தொடர்பாக பல்வேறு தரப்பினரிடமிருந்தும் கருத்துகள் தெரிவிக்கப்பட்டு வரும் நிலையில், மத்திய அரசின் இறுதி முடிவை கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தயாநிதி மாறன்",
+   "திமுக",
+   "மத்திய அரசு",
+   "விலங்கு கொடுமை தடுப்பு விதிகள்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Dayanidhi Maran raises concerns over new animal cruelty rules",
+   "lines": [
+    "DMK Member of Parliament Dayanidhi Maran has flagged concerns over the Centre's proposed Prevention of Cruelty to Animals Rules, 2026.",
+    "He has written to the Central government urging it to withdraw the draft rules in their current form.",
+    "He has requested a comprehensive review in consultation with independent animal welfare experts, scientists, veterinarians, research institutions and civil society organisations.",
+    "In his letter, he has also pointed out practical difficulties that could arise from the proposed rules.",
+    "It remains to be seen how the Central government will respond to the request."
+   ],
+   "closing": "With various stakeholders weighing in on the proposed animal welfare rules, the Centre's final decision is awaited."
+  },
+  "front_cat": "routine",
+  "image_query": "Dayanidhi Maran",
+  "wiki_subject": "Dayanidhi Maran",
+  "person_en": "Dayanidhi Maran",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "60a8e0674e6b",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-24T12:13+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/dayanidhi-maran-flags-concerns-about-proposed-prevention-of-cruelty-to-animals-rules-2026-urges-centre-for-a-review/article71618974.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Dayanidhi_Maran.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Dayanidhi Maran",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Dayanidhi_Maran",
+   "symbolic": false
+  },
+  "audio": "data/audio/60a8e0674e6b.mp3",
+  "created_ts": 1792824189.9214816,
+  "status": "published"
+ },
+ {
+  "headline": "ஏர்வாடி அருகே மூவருக்குக் கத்திக்குத்து: ஒருவர் கைது",
+  "lines": [
+   "இராமநாதபுரம் மாவட்டம் ஏர்வாடி அருகே மூன்று பேர் கத்தியால் தாக்கப்பட்ட சம்பவம் நடந்துள்ளது.",
+   "இந்தத் தாக்குதலில் மூன்று பேர் காயமடைந்துள்ளனர்.",
+   "இந்தச் சம்பவம் தொடர்பாக காவல் துறையினர் ஒருவரைக் கைது செய்துள்ளனர்.",
+   "தாக்குதலுக்கான காரணம் குறித்து காவல் துறை இதுவரை உறுதிப்படுத்தவில்லை.",
+   "இந்த வழக்கில் மேலும் விரிவான விசாரணை நடைபெற்று வருவதாகத் தெரிகிறது."
+  ],
+  "closing": "இச்சம்பவம் தொடர்பான முழு விவரங்களும் விசாரணை முடிந்த பிறகே தெளிவாகும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-24"
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ஏர்வாடி",
+   "ராமநாதபுரம்",
+   "காவல் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Three stabbed near Erwadi; one person arrested",
+   "lines": [
+    "Three people were stabbed near Erwadi in Ramanathapuram district in a recent incident.",
+    "All three victims sustained injuries in the attack.",
+    "Police have arrested one person in connection with the incident.",
+    "The exact reason behind the attack has not yet been confirmed by police.",
+    "A detailed investigation into the case is reportedly underway."
+   ],
+   "closing": "Complete details of the incident are expected to emerge once the investigation concludes."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "a09b75e08115",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-24T12:12+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/24/three-people-stabbed-near-ervadi-one-arrested"
+  ],
+  "image": {
+   "url": "data/bank/crime06.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/a09b75e08115.mp3",
+  "created_ts": 1792824125.6787229,
+  "status": "published"
+ },
+ {
+  "headline": "உதகை மலைப்பாதையில் கனமழை: போக்குவரத்து முடக்கம், வாகனர் அவதி",
+  "lines": [
+   "நீலகிரி மாவட்டம் உதகை மலைப்பாதையில் தொடர்ந்து கனமழை பெய்து வருகிறது.",
+   "கனமழையால் மலைப்பாதையில் போக்குவரத்து பெரிதும் பாதிக்கப்பட்டுள்ளது.",
+   "வாகன ஓட்டிகள் மலைப்பாதையில் பயணிக்க கடும் சிரமத்தை எதிர்கொள்கின்றனர்.",
+   "மூடுபனி மற்றும் மழையால் சாலையில் பார்வைத் தெளிவு குறைந்துள்ளதாகத் தெரிகிறது.",
+   "மழை தொடர்ந்தால் மேலும் போக்குவரத்துச் சிக்கல் ஏற்படலாம் என அஞ்சப்படுகிறது."
+  ],
+  "closing": "உதகை மலைப்பகுதியில் பயணிகள் கவனமாக வாகனம் ஓட்ட வேண்டும் என அறிவுறுத்தப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "உதகை",
+   "நீலகிரி மாவட்டம்",
+   "மலைப்பாதை",
+   "வாகன ஓட்டிகள்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Heavy rain in Udhagai hills disrupts traffic, strands drivers",
+   "lines": [
+    "Heavy rain continues to lash the Udhagai hill road in Nilgiris district.",
+    "Traffic movement on the hill road has been severely affected due to the rain.",
+    "Vehicle drivers are facing major difficulties while travelling on the hill road.",
+    "Fog and rain have reportedly reduced visibility on the road.",
+    "Authorities fear further traffic disruption if the rain continues."
+   ],
+   "closing": "Travellers are advised to drive cautiously in the Udhagai hill region."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Ooty",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c3559c849d2f",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-24T12:11+05:30",
+  "links": [
+   "https://www.dinamani.com/all-editions/edition-coimbatore/coimbatore/2026/Oct/24/major-landslide-on-the-mettupalayamudhagamandalam-road-traffic-disrupted"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ooty_lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Ooty",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Ooty",
+   "symbolic": false
+  },
+  "audio": "data/audio/c3559c849d2f.mp3",
+  "created_ts": 1792824094.1544433,
+  "status": "published"
+ },
+ {
+  "headline": "உதகை அருகே மண்சரிவில் சிக்கிய அரசுப் பேருந்து; ஓட்டுநர் பலி",
+  "lines": [
+   "நீலகிரி மாவட்டம் உதகை அருகே மண்சரிவு ஏற்பட்டு, அதில் ஓர் அரசுப் பேருந்து சிக்கியது.",
+   "இந்த விபத்தில் பேருந்து ஓட்டுநர் உயிரிழந்துவிட்டதாகத் தெரிகிறது.",
+   "பேருந்தில் பயணம் செய்த மற்ற பயணிகள் உயிர் தப்பியதாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "நீலகிரி மலைப்பகுதியில் தொடர் மழை காரணமாக மண்சரிவு அபாயம் குறித்து முன்னதாகவே எச்சரிக்கைகள் விடுக்கப்பட்டிருந்தன.",
+   "சம்பவ இடத்தில் மீட்புப் பணிகள் தொடர்வதாகவும், சரியான காரணம் குறித்து விசாரணை நடைபெறுவதாகவும் தெரிகிறது."
+  ],
+  "closing": "நீலகிரி மலைப்பகுதியில் தொடர் மழை காரணமாக மண்சரிவு ஆபத்து தொடர்கிறது என்பது கவனிக்கத்தக்கது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "உதகை",
+   "நீலகிரி மாவட்டம்",
+   "அரசுப் பேருந்து",
+   "ஓட்டுநர்"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Government Bus Driver Killed in Landslide Near Udhagai",
+   "lines": [
+    "A landslide occurred near Udhagai in the Nilgiris district, trapping a government bus.",
+    "The bus driver is reported to have died in the accident.",
+    "Officials said the other passengers on board the bus escaped unharmed.",
+    "Warnings about landslide risk in the Nilgiris hill region had earlier been issued due to continuous rain.",
+    "Rescue operations are said to be underway at the site, with an inquiry into the exact cause reportedly in progress."
+   ],
+   "closing": "It is worth noting that the risk of landslides continues in the Nilgiris hill region due to persistent rainfall."
+  },
+  "front_cat": "disaster_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "d9e4708f8238",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-24T12:10+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/24/government-bus-gets-stuck-in-landslide-near-ooty-driver-dies-passengers-escape-unhurt"
+  ],
+  "image": {
+   "url": "data/bank/accident04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d9e4708f8238.mp3",
+  "created_ts": 1792824061.940756,
+  "status": "published"
+ },
+ {
+  "headline": "சீர்காழி அருகே தம்பதி மர்மமான முறையில் உயிரிழப்பு, மகன் மீட்பு",
+  "lines": [
+   "தஞ்சாவூர் மாவட்டம் சீர்காழி அருகே ஒரு தம்பதி மர்மமான முறையில் உயிரிழந்த சம்பவம் பரபரப்பை ஏற்படுத்தியுள்ளது.",
+   "வீட்டில் தந்தை தூக்கில் தொங்கிய நிலையிலும், தாய் உயிரிழந்த நிலையிலும் காணப்பட்டனர்.",
+   "இந்தச் சம்பவம் தொடர்பாக குடும்பத்தின் மகனை காவல்துறையினர் பாதுகாப்பாக மீட்டனர்.",
+   "இது கொலையா அல்லது தற்கொலையா என்பது குறித்து காவல்துறையினர் விசாரணை நடத்தி வருகின்றனர்.",
+   "சம்பவம் தொடர்பான முழு விவரங்கள் விசாரணைக்குப் பின்னரே வெளியாகும் என காவல்துறை தெரிவித்துள்ளது."
+  ],
+  "closing": "மனரீதியான நெருக்கடியில் உள்ளவர்கள் உதவிக்கு 104 அல்லது 14416 என்ற எண்ணைத் தொடர்பு கொள்ளலாம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சீர்காழி",
+   "தஞ்சாவூர் மாவட்டம்",
+   "காவல் துறை"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Couple Found Dead Near Sirkazhi, Son Rescued",
+   "lines": [
+    "A couple was found dead under mysterious circumstances near Sirkazhi in Thanjavur district.",
+    "The father was found hanged inside the house while the mother was found dead in the same premises.",
+    "Police rescued and secured the couple's son in connection with the incident.",
+    "Police are investigating whether the deaths were a case of murder or suicide.",
+    "Police said full details would be released only after the investigation is complete."
+   ],
+   "closing": "Those facing emotional distress can contact the helplines 104 or 14416 for support."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "06d1fd5273a5",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-24T12:10+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/24/father-hanged-near-sirkazhi-mother-and-son-found-dead-in-a-pool-of-blood-rescued"
+  ],
+  "image": {
+   "url": "data/bank/crime02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/06d1fd5273a5.mp3",
+  "created_ts": 1792824010.5641675,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261024",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
   "lines": [
