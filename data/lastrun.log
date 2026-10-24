@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
+[fetch] The Hindu TN: 21 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 13 புதியவை
-[fetch] ESPNcricinfo: 17 புதியவை
+[fetch] BBC World: 9 புதியவை
+[fetch] Al Jazeera: 16 புதியவை
+[fetch] ESPNcricinfo: 16 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 7 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 23 புதியவை
 [fetch] Wired: 29 புதியவை
-[fetch] Employment News: 0 புதியவை
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7fad40d604d0>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 19 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 15 புதியவை
+[fetch] FreeJobAlert: 11 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -32,7 +32,7 @@
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 28 புதியவை
+[fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
@@ -56,30 +56,57 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f8db68a5690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fad40d42a90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
-[fetch] Times Govt Schemes: 14 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
+[fetch] Times Govt Schemes: 13 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 29 புதியவை
+[fetch] TN Police News: 30 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 642 → நிகழ்வுகள் 599
-[triage] 599 → 33 | காலி: india:3, jobs:2, health:2, assembly:2, court:1
-[skip] TISS (மும்பை) மற்றும் KSRTC (கேரளா) வேலைவாய்ப்பு அறிவிப்புகள
-[skip] ஜம்மு காஷ்மீர் மாநிலத்தின் தலைமைச் செயலாளர் நியமனம் என்பது அ
-[திருத்தம்] இலவச ரேஷன் அரிசி கிலோ முப்பது ரூபாய்க்கு → இலவச ரேஷன் அரிசி கிலோ முப்பது ரூபாய்க்கு
-[image] களஞ்சியம் (3 சொல்): இலவச ரேஷன் அரிசி கிலோ முப்பது ரூபா
-[tts-edge] d2ad0371cd06: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இலவச ரேஷன் அரிசி கிலோ முப்பது ரூபாய்க்கு விற்பனை — உதயநிதி குற்றச்சாட்டு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgMWhwDjYBW2y6ojW2rLj'}
-[skip] தெலிவாக உள்ள உள்நாட்டுப் பணியறிவிப்பு — தமிழ்நாட்டுக்கும் தொ
-[skip] வெளிநாட்டுத் தனியார் மருத்துவமனை நிர்வாகியின் அரசு ஆலோசனைக் 
-[skip] குறிப்பிட்ட மாதிரிக் கோலி, ঘরைத் தொடர்பு, போட்டியின் தெளிவான
-[skip] வெளிநாட்டு உள்ளூர் சட்ட மாற்றம் — தமிழ்நாடு/இந்தியாவுடன் நேர
+[run] புதியவை 651 → நிகழ்வுகள் 609
+[triage] 609 → 70 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[tts-edge] 0a16f5b085d5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இஸ்ரோ செயற்கைக்கோள் மையத்தில் அறுபத்தொன்று பணியிடங்களுக்கு அறிவிப்பு
+[skip] தமிழ்நாட்டைப் பாதிக்காத வெளிநாட்டுச் சுகாதார செய்தி. கென்யாவ
+[skip] மூலம் திரைவிமர்சனம் — 'Dorothy' படத்தின் கதை விமர்சனம், நடிப
+[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காது. பாக்கிஸ்தான்-இங்கிலா
+[திருத்தம்] வேலூர் பட்டாசு தொழிற்சாலை விபத்து, மற்றொ → வேலூர் பட்டாசு தொழிற்சாலை விபத்தில் மற்ற
+[tts-edge] 1d8f89ee204a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வேலூர் பட்டாசு தொழிற்சாலை விபத்தில் மற்றொரு தொழிலாளி உயிரிழப்பு; உரிமையாளர் கைது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgMio63qpCzW6ssk9LPcn'}
+[image] களஞ்சியம் (2 சொல்): சென்னையில் மனைவியைக் கொலை செய்து க
+[publish] சென்னையில் மனைவியைக் கொலை செய்து கணவர் தற்கொலை
+[publish] நீலகிரியில் கனமழை எச்சரிக்கை, சுற்றுலா தலங்கள் மூடல்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] தமிழ்நாட்டில் சட்டம் ஒழுங்கு மோசம் - பழன → தமிழ்நாட்டில் சட்டம் ஒழுங்கு மோசம் — பழன
+[publish] தமிழ்நாட்டில் சட்டம் ஒழுங்கு மோசம் — பழனிசாமி குற்றச்சாட்டு
+[திருத்தம்] ஆரணி அருகே பாகிஸ்தான் உளவாளி என சந்தேகிக → ஆரணி அருகே பாகிஸ்தான் உளவாளி கைது
+[image] களஞ்சியம் (2 சொல்): ஆரணி அருகே பாகிஸ்தான் உளவாளி கைது
+[publish] ஆரணி அருகே பாகிஸ்தான் உளவாளி கைது
+[image] களஞ்சியம் (2 சொல்): சென்னையில் இன்று இரவு முதல் மழைக்க
+[publish] சென்னையில் இன்று இரவு முதல் மழைக்கு வாய்ப்பு என அறிவிப்பு
+[publish] முறைகேடான முதலீட்டு ஆலோசனை: அவதூத் சாதேவுக்கு 546 கோடி திரும்பக் கட்டளை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgMjCwEg7eHC869bNHhAm'}
+[திருத்தம்] திருமாவளவனை முதல்வராக்க முயன்றோம் என தின → திருமாவளவனை முதல்வராக்க முயன்றோம் என டி.
+[publish] திருமாவளவனை முதல்வராக்க முயன்றோம் என டி.டி.வி.தினகரன் கூற்று
+[தரம்] தமிழ் அல்லாத எழுத்து: ര → ஒரு திருத்தம்
+[publish] முன்னாள் தமிழ்நாடு தலைமைச் செயலாளர் சுகவனேஷ்வர் காலமானார்
+[malar] 2026-W43 · புதிதாக எழுதுவது: roundup, numbers, history, films, zen, poem, hero, essay, agri, spirit, food, word, books, remedy, tech
+[malar] 2026-W43 · களஞ்சியத்திலிருந்து: (இல்லை)
+[malar:refresh] Expecting value: line 1 column 1 (char 0)
+[malar] களஞ்சியத்தில் 0 புதிது சேர்ந்தது · இருப்பு — zen:1, poem:1, hero:1, essay:1, agri:1, spirit:1, food:1, word:1, books:1, remedy:1, tech:1
+[malar] புதிய வாரமலர் 2026-W43
+[comic] கதை: காட்டில் ஒரு அலங்காரப் பல்லக்கு
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-25.png · நாள் 46
+[rasi] ராசிபலன் தயார்
 [market] தங்கம் 22K ₹12560 · சென்செக்ஸ் 73124
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
@@ -87,4 +114,5 @@
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 1
+[image] 2 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10

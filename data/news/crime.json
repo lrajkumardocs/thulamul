@@ -1,5 +1,194 @@
 [
  {
+  "headline": "ஆரணி அருகே பாகிஸ்தான் உளவாளி கைது",
+  "lines": [
+   "திருவண்ணாமலை மாவட்டம் ஆரணி அருகே பாகிஸ்தான் நாட்டு உளவாளி என சந்தேகிக்கப்படும் ஒருவர் கைது செய்யப்பட்டார்.",
+   "கைது செய்யப்பட்டவர் குறித்த விரிவான தகவல்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+   "இந்த வழக்கில் காவல் துறையினர் விசாரணையைத் தொடங்கியுள்ளனர்.",
+   "தேசியப் பாதுகாப்பு தொடர்பான இந்தச் சம்பவம் குறித்து மேலும் விவரங்கள் எதிர்பார்க்கப்படுகின்றன.",
+   "வழக்கு தொடர்பான கூடுதல் தகவல்கள் விசாரணை முடிவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்த வழக்கில் காவல் துறையின் அதிகாரப்பூர்வ அறிக்கை வெளியாகியுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ஆரணி",
+   "திருவண்ணாமலை மாவட்டம்",
+   "பாகிஸ்தான்",
+   "காவல் துறை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Suspected Pakistani spy arrested near Aarani in Tamil Nadu",
+   "lines": [
+    "A person suspected to be a Pakistani spy was arrested near Aarani in Thiruvannamalai district.",
+    "Detailed information about the arrested person has not yet been officially released.",
+    "Police appear to have begun an investigation into the case.",
+    "Further details regarding this incident, which is linked to national security, are awaited.",
+    "Additional information about the case is expected to emerge once the investigation concludes."
+   ],
+   "closing": "An official statement from the police on this case is awaited."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "1c97802ab0f5",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-25T02:23+05:30",
+  "links": [
+   "https://www.dinamani.com/all-editions/edition-chennai/tiruvannamalai/2026/Oct/24/pakistani-spy-arrested-near-arani"
+  ],
+  "image": {
+   "url": "data/bank/crime06.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/1c97802ab0f5.mp3",
+  "created_ts": 1792875187.8475704,
+  "status": "published"
+ },
+ {
+  "headline": "சென்னையில் மனைவியைக் கொலை செய்து கணவர் தற்கொலை",
+  "lines": [
+   "சென்னையில் ஒரு கணவர் தனது மனைவியைக் கொலை செய்த பின்னர் தூக்கிட்டுத் தற்கொலை செய்துகொண்டார்.",
+   "இந்தச் சம்பவம் தொடர்பான முழு விவரங்களையும் காவல் துறையினர் தற்போது சேகரித்து வருகின்றனர்.",
+   "இருவரின் உடல்களையும் காவல் துறையினர் கண்டெடுத்து, பிரேத பரிசோதனைக்காக அரசு மருத்துவமனைக்கு அனுப்பி வைத்துள்ளனர்.",
+   "கணவன், மனைவி இடையேயான கணக்குத் தொடர்பான முரண்பாடுதான் இதற்குக் காரணமா என்பது தெளிவாகத் தெரியவில்லை.",
+   "காவல் துறையினர் வழக்குப் பதிவு செய்து, சம்பவத்தின் சரியான காரணம் குறித்து விரிவாக விசாரித்து வருகின்றனர்."
+  ],
+  "closing": "மனத் தளர்ச்சி அல்லது தற்கொலை எண்ணம் உள்ளவர்கள் உதவிக்கு 104 என்ற எண்ணில் தொடர்பு கொள்ளலாம்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சென்னை",
+   "காவல் துறை"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "Man kills wife, dies by suicide by hanging in Chennai",
+   "lines": [
+    "A man in Chennai allegedly murdered his wife before taking his own life by hanging.",
+    "Police are currently gathering complete details regarding the incident.",
+    "Both bodies were recovered by police and sent to a government hospital for post mortem examination.",
+    "It is not yet clear whether a dispute between the couple was the reason behind the incident.",
+    "Police have registered a case and are investigating the exact cause of the incident in detail."
+   ],
+   "closing": "Those experiencing distress or suicidal thoughts can contact the helpline at 104 for support."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "375f5ab6ff0f",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-25T02:20+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/24/man-murders-wife-and-dies-by-suicide-by-hanging-in-chennai"
+  ],
+  "image": {
+   "url": "data/bank/crime14.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/375f5ab6ff0f.mp3",
+  "created_ts": 1792875032.2212303,
+  "status": "published"
+ },
+ {
+  "headline": "வேலூர் பட்டாசு தொழிற்சாலை விபத்தில் மற்றொரு தொழிலாளி உயிரிழப்பு; உரிமையாளர் கைது",
+  "lines": [
+   "வேலூரில் நடந்த பட்டாசு தொழிற்சாலை விபத்தில் காயமடைந்திருந்த மற்றொரு தொழிலாளி சிகிச்சை பலனின்றி உயிரிழந்தார்.",
+   "இதனால் இந்த விபத்தில் உயிரிழந்த தொழிலாளர்களின் எண்ணிக்கை மேலும் அதிகரித்துள்ளது.",
+   "சம்பவம் தொடர்பாக பட்டாசு தொழிற்சாலை உரிமையாளரை காவல்துறையினர் கைது செய்துள்ளனர்.",
+   "மாவட்ட ஆட்சியர் பி.எஸ்.லீலா அலெக்ஸ், முதலமைச்சர் பொதுநல நிதியிலிருந்து நான்கு லட்சம் ரூபாய் நிவாரணத் தொகையை வழங்கினார்.",
+   "இறந்த தொழிலாளர்களின் குடும்பத்தினரிடம் இந்த நிவாரணத் தொகை நேரடியாக கையளிக்கப்பட்டது."
+  ],
+  "closing": "தொழிற்சாலையில் பாதுகாப்பு விதிமுறைகள் கடைப்பிடிக்கப்பட்டதா என்பது குறித்து மேலும் விசாரணை நடைபெற உள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "வேலூர்",
+   "பி.எஸ்.லீலா அலெக்ஸ்",
+   "பட்டாசு தொழிற்சாலை",
+   "முதலமைச்சர் பொதுநல நிதி"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Vellore Cracker Unit Accident: Another Worker Dies, Owner Arrested",
+   "lines": [
+    "Another worker injured in a cracker factory accident in Vellore succumbed to his injuries while undergoing treatment.",
+    "This has further increased the number of workers who died in the accident.",
+    "Police arrested the owner of the cracker manufacturing unit in connection with the incident.",
+    "District Collector P.S. Leela Alex handed over four lakh rupees as ex-gratia from the Chief Minister's Public Relief Fund.",
+    "The relief amount was directly given to the family members of the deceased workers."
+   ],
+   "closing": "Further investigation is underway into whether safety norms were followed at the factory."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "Vellore",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1d8f89ee204a",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-25T02:19+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/another-worker-succumbs-to-injuries-in-vellore-cracker-unit-owner-arrested/article71619252.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Javadi_Hills.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Vellore",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Vellore",
+   "symbolic": false
+  },
+  "audio": "data/audio/1d8f89ee204a.mp3",
+  "created_ts": 1792874947.534231,
+  "status": "published"
+ },
+ {
   "headline": "கொல்கத்தா கூட்டநெரிசல்: ஒலிபெருக்கி அறிவிப்பில் இருவர் மீது குற்றச்சாட்டு",
   "lines": [
    "கொல்கத்தா சோர்பகான் பூஜைப் பந்தலில் ஒரு பகுதி இடிந்து விழுகிறது என ஒலிபெருக்கியில் அறிவிக்கப்பட்டது.",
@@ -2165,75 +2354,6 @@
   },
   "audio": "data/audio/10303c549366.mp3",
   "created_ts": 1792271734.4656048,
-  "status": "published"
- },
- {
-  "headline": "திருவண்ணாமலையில் இரு தனி விபத்துகளில் இருவர் பலி",
-  "lines": [
-   "திருவண்ணாமலை மாவட்டத்தில் தனித்தனியாக நடந்த இரண்டு சாலை விபத்துகளில் இருவர் உயிரிழந்தனர் என காவல்துறை தெரிவித்துள்ளது.",
-   "முதல் சம்பவத்தில் லாரி ஒன்று இருசக்கர வாகனத்தில் மோதியதில் ஒருவர் உடனடியாக உயிரிழந்தார்.",
-   "அரணி அருகே நடந்த இரண்டாவது சம்பவத்தில் கார் ஒன்று மோதியதில் அரசுப் பள்ளி ஆசிரியர் ஒருவர் பலியானார்.",
-   "இரு சம்பவங்களிலும் வாகனங்களை ஓட்டியவர்கள் சம்பவ இடத்தைவிட்டு தப்பியோடியுள்ளனர் என காவல்துறை தெரிவித்தது.",
-   "தப்பியோடிய இரு வாகன ஓட்டிகளையும் கைது செய்ய காவல்துறை தனித்தனி சிறப்புக் குழுக்களை அமைத்துள்ளது."
-  ],
-  "closing": "இரு சம்பவங்களிலும் தப்பியோடிய வாகன ஓட்டிகளுக்காக காவல்துறையின் தேடுதல் தொடர்கிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "திருவண்ணாமலை",
-   "அரணி",
-   "காவல் துறை",
-   "அரசுப் பள்ளி ஆசிரியர்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Two killed in separate road accidents in Tiruvannamalai district",
-   "lines": [
-    "Two people were killed in two separate road accidents in Tiruvannamalai district, police said.",
-    "In the first incident, a lorry rammed a two-wheeler, killing one person instantly.",
-    "In the second incident near Arani, a car rammed a two-wheeler, killing a government schoolteacher.",
-    "In both incidents, the vehicle drivers fled the scene, police said.",
-    "Special teams have been formed to nab the two absconding drivers."
-   ],
-   "closing": "Search is on for the drivers who fled the scene in both cases."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "5ebba5fe2724",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-18T02:43+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/man-killed-as-lorry-rams-two-wheeler-in-tiruvannamalai/article71583697.ece",
-   "https://www.thehindu.com/news/national/tamil-nadu/government-schoolteacher-killed-as-car-rams-two-wheeler-near-arani/article71596218.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime06.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/5ebba5fe2724.mp3",
-  "created_ts": 1792271604.6494193,
   "status": "published"
  }
 ]
