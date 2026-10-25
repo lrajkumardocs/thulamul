@@ -1,47 +1,47 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
-[fetch] Dinamani TN: 20 புதியவை
-[fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 9 புதியவை
-[fetch] Al Jazeera: 18 புதியவை
-[fetch] ESPNcricinfo: 14 புதியவை
+[fetch] The Hindu TN: 12 புதியவை
+[fetch] Dinamani TN: 22 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC World: 2 புதியவை
+[fetch] Al Jazeera: 9 புதியவை
+[fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 24 புதியவை
+[fetch] The Hindu Tech: 16 புதியவை
 [fetch] Wired: 29 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7fd47bfa6d10>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7f28f54b82d0>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 15 புதியவை
+[fetch] The Hindu Health: 12 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 8 புதியவை
+[fetch] FreeJobAlert: 4 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 28 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd47c0437d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
-[fetch] Dinamani Govt: 20 புதியவை
-[fetch] Times Govt Schemes: 13 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f28f5505410>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
+[fetch] Dinamani Govt: 22 புதியவை
+[fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,70 +67,50 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 29 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 604 → நிகழ்வுகள் 566
-[triage] சேமித்த மதிப்பெண் (527) — புதிய அழைப்பு இல்லை
-[triage] 566 → 53 | காலி: india:4, court:3, health:3, sports:3, govt:2
-[திருத்தம்] மருத்துவர்கள் பெற்றோர்களுக்கு மரபணு சார் → பெற்றோர்களுக்கு பொதுமருந்து பற்றிய ஆலோசன
-[தரம்] தமிழ் அல்லாத எழுத்து: μמमএস → ஒரு திருத்தம்
-[tts-edge] 2b12a1447e8e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பெற்றோர்களுக்கு பொதுமருந்து பற்றிய ஆலோசனை — சாத் மருத்துவமனை எஸ்எம்ஏ சிகிச்சை நிலையம்
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — இந்தியா A vs நিউசிலாந்து A போ
-[skip] வெளிநாட்டு பாதுகாப்பு மீறல் — இந்திய அல்லது தமிழ்நாட்டுச் செ
-[skip] அயர்லாந்தின் உள்நாட்டுக் குற்றச் சம்பவம். தமிழ்நாடு/இந்திய வ
-[skip] பிரேசிலின் ஐக்கிய மாநிலம் அல்லாத வெளிநாட்டு உள்நாட்டு அரசியல
-[skip] வெளிநாட்டின் உள்நாட்டு விபத்து — தமிழ்நாட்டு வாசகரைப் பாதிக்
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது. பிரேசில் தேர்தல் — உள்நாட்ட
-[skip] இসראயேலின் உள்நாட்டு அரசியல் — தேர்தல் முந்தைய போராட்டம். தம
-[skip] பாரிசில் நடைபெறும் போராட்டம் தமிழ்நாடு/இந்தியாவுக்குத் தொடர்
-[skip] அல்பேனியாவின் உள்ளூர் அரசியல் போராட்டம். தமிழ்நாடு/இந்தியாவு
-[skip] பிரேசிலின் உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியாவாசகரைப் ப
-[skip] இத்தாலியின் உள்ளூர் அரசியல் — தமிழ்நாடு/இந்தியச் வாசகரைப் பா
-[skip] உத்தரப் பிரதேச மாநிலத்தின் உள்ளூர் கிராமம் ஒன்றின் கோயில் தொ
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருந்தாத சர்ச்சை மற்றும் தகவல் பாத
-[skip] இது உত்तர பிரதேச மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் ஊர்க்கே
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgN2c4i1NgQZ6r24teDts'}
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Workers clear drains without adequate safety gea
-[திருத்தம்] ஏயு சிறு நிதி வங்கி காலாண்டு லாபம் 53 சத → ஏயு சிறு நிதி வங்கி Q2 லாபம் 53% உயர்ந்த
-[tts-edge] 6dc4185282f0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஏயு சிறு நிதி வங்கி Q2 லாபம் 53% உயர்ந்து 858 கோடி ரூபாய்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விருது பெற்றவர் பெயர், விர
-[தரம்] மூலத்தில் இல்லாத எண்: 24, 48 → ஒரு திருத்தம்
-[publish] புயல் எச்சரிக்கை: தமிழகத்தில் பலத்த மழை வாய்ப்பு
-[நகல்] ஏற்கனவே வெளியானது: புயல் எச்சரிக்கை: தமிழகத்தில் பலத்த மழை வாய்ப்பு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: When safety slips through a gaping hole
+[run] புதியவை 576 → நிகழ்வுகள் 540
+[triage] 540 → 41 | காலி: india:4, court:3, sports:3, jobs:2, cinema:2
+[skip] New Zealand T20I series — பிற நாட்டின் உள்நாட்டுத் தொடர், தம
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgNQVtxWzCs3ozBSb4YjJ'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgNQZ8QyhD3gwTbxPTBVW'}
+[image] களஞ்சியம் (2 சொல்): சென்னை உள்பட 30 மாவட்டங்களில் இன்ன
+[tts-edge] 4eca60349117: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னை உள்பட 30 மாவட்டங்களில் இன்னும் 2 மணி நேரம் மழை தொடரும்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgNQh8G2QTwecA2K6nmQq'}
+[skip] போதிய தகவல்/விவரம் இல்லை, மூலம் மிகக் குறுகியது; சிறார் தொடர
+[skip] மூல உரையில் செய்தியின் விவரங்கள் இல்லை, தலைப்பு மட்டுமே உள்ள
+[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு படக்குறிப்பு மட்டுமே உள்ளது; உ
+[திருத்தம்] சிறார் மாயமான வழக்கில் தீவிர விசாரணை கோர → சிறார் மாயமான வழக்கில் தீவிர விசாரணை கோர
+[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): சிறார் மாயமான வழக்கில் தீவிர விசார
+[tts-edge] 773e5e962ad1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சிறார் மாயமான வழக்கில் தீவிர விசாரணை கோரிய எடப்பாடி கே. பழனிசாமி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] அவசரகாலத்தை எதிர்கொள்ள 60,000 பேருக்கு ராணுவப் பயிற்சி திட்டம்
-[skip] இது அரசு அறிவிப்பு (govt) அல்ல; கட்சிச் செய்தி மற்றும் குற்ற
-[image] களஞ்சியம் (3 சொல்): பாஜக மாவட்டத் தலைவருக்குக் கொலை மி
-[publish] பாஜக மாவட்டத் தலைவருக்குக் கொலை மிரட்டல், மூவர் மீது வழக்கு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgN3348j4rcS8UT5EikXU'}
-[திருத்தம்] பாரத் பெட்ரோலியம் நிறுவன லாபம் 21.45 சதவ → பாரத் பெட்ரோலியம் நிறுவனம் Q2 FY27-இல் 2
-[publish] பாரத் பெட்ரோலியம் நிறுவனம் Q2 FY27-இல் 21.45% நிகர லாப சரிவு அறிவித்தது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgN398bXjASNH5ViK5iKv'}
-[publish] அதானி பவர் நிகர லாபம் 142 சதவீதம் உயர்வு
-[skip] தமிழ்நாடு/இந்தியாவுக்கு நேரடித் தொடர்பு இல்லாத உலகச் செய்தி.
-[skip] பெரும்பாலும் வெளிநாட்டு உள்நாட்டுப் பிரச்சினை — பாரிசில் உள்
-[skip] தமிழ்நாடு/இந்தியவாசகருக்குப் நேரடிப் பொருத்தமில்லை. உக்ரைனுக
-[skip] European domestic protests and police actions - not directly
-[skip] வெளிநாட்டுச் செய்திகளிலும் தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொ
-[skip] வெளிநாட்டு உள்நாட்டுரைய அரசியல் — டிரம்புக்கும் மெலேனியாவுக்
-[skip] நைஜீரியாவின் உள்நாட்டு வன்முறை. தமிழ்நாடு/இந்திய வாசகரைப் பா
-[skip] அமெரிக்க உள்நாட்டு அரசியல்; தமிழ்நாடு/இந்தியா வாசகருக்குப் ப
-[skip] வெளிநாட்டின் உள்ளூர் விபத்து — தமிழ்நாட்டு / இந்திய வாசகர்க்
-[skip] வெளிநாட்டுச் செய்திகளில் தமிழ்நாடு / இந்தியாவுடன் நேரடித் தொ
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — செர்பியாவின் உள்ளூர் தேர்தல்,
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத வேலைவாய்ப்பு அ
-[திருத்தம்] மத்தியப் பிரதேசத்தில் போலி மது சோகம், பத → மத்தியப் பிரதேசத்தில் போலி மது சோகம், பத
-[hold] மத்தியப் பிரதேசத்தில் போலி மது சோகம், பத்துக்கும் மேற்பட்டோர் பலி; நிர்வாகம் மறுப்பு
-[skip] உত्तर प्रदेश மாநிலத்தில் அமைந்த மருத்துவ நிறுவனத்தின் உள்ளூர
-[திருத்தம்] முக்கூற்று மார்பக암ஐ இரத்தப் பரிசோதனையில் → முக்கூற்று மார்பக புற்றுநோயை இரத்தப் பரி
-[image] களஞ்சியம் (3 சொல்): முக்கூற்று மார்பக புற்றுநோயை இரத்த
-[publish] முக்கூற்று மார்பக புற்றுநோயை இரத்தப் பரிசோதனையில் முன்கூட்டியே கண்டறிய திட்டம்
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர். சிம்বாப்வே அணির சொந்த போட்டி; 
-[skip] இப்படம் இந்தியில் இயக்கப்படும் மும்பையைத் தலைமையிடமாக கொண்ட 
-[skip] வெளிநாட்டு நிறுவனத்தின் AI ஆராய்ச்சி — தமிழ்நாடு/இந்திய வாசக
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — பிரேக்சம்பு இண்டারন্যாশனাল ম்
-[brief] காலை brief தயார்
+[publish] கனமழை காரணமாக ஊட்டி மலை ரயில் சேவை இரண்டு நாள் ரத்து
+[skip] வெளிநாட்டு உள்நாட்டு விவகாரம் — சவுதி அரேபிய நீதிமுறை, வங்கத
+[skip] வெளிநாட்டு உள்நாட்டு சம்பவம் — அமெரிக்க மாநிலத்தின் உள்ளூர் 
+[skip] இஸ்ரேலின் உள்நாட்டு அரசியல் நிகழ்வு. தமிழ்நாடு/இந்திய வாசகரு
+[skip] வெளிநாட்டு உள்நாட்டுக் கட்சிக் கொந்தளிப்பு — தமிழ்நாடு/இந்தி
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] சுகாதாரச் சவால்களுக்குக் கூட்டுத் தொழில்நுட்பத் தீர்வு தேவை என செயலாளர் கருத்து
+[image] களஞ்சியம் (2 சொல்): சென்னை சாலையோரங்களில் குவிந்த வண்ட
+[publish] சென்னை சாலையோரங்களில் குவிந்த வண்டல் மண் பாதுகாப்பு அச்சம்
+[திருத்தம்] மழை காரணமாக பார்வதமலை ஏறும் நேரத்தை கட்ட → மழை காரணமாக பார்வதமலை ஏறும் நேரத்தைக் கட
+[publish] மழை காரணமாக பார்வதமலை ஏறும் நேரத்தைக் கட்டுப்படுத்திய வனத்துறை
+[image] களஞ்சியம் (2 சொல்): படைகளின் ஒருங்கிணைப்பு இந்தியப் பா
+[publish] படைகளின் ஒருங்கிணைப்பு இந்தியப் பாதுகாப்புத் தேவைக்கு ஏற்ப இருக்க வேண்டும்: விமானப்படைத் தளபதி
+[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத வேலைவாய்ப்புகள
+[publish] வடகிழக்கில் போதைப்பொருள் கும்பலுக்கு எதிராக பெரும் நடவடிக்கை: அமித் ஷா
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] ஆந்திரா, ஒடிசாவில் கடும் புயல் அபாயம், த → ஆந்திரா, ஒடிசாவில் கடும் புயல் அபாயம்; த
+[image] களஞ்சியம் (2 சொல்): ஆந்திரா, ஒடிசாவில் கடும் புயல் அபா
+[publish] ஆந்திரா, ஒடிசாவில் கடும் புயல் அபாயம்; தமிழகத்திலும் மழை எச்சரிக்கை
+[திருத்தம்] நாஸ்லেனின் தமிழ் அறிமுக திரைப்படம் 'சீன் → சூர்யா制作வின் 'சீன்': நாஸ்லேனின் தமிழ் அற
+[தரம்] தமிழ் அல்லாத எழுத்து: ठনষাത作制 → ஒரு திருத்தம்
+[publish] சூர்யா தயாரித்த 'சீன்': நாஸ்லேனின் தமிழ் அறிமுக திரைப்படம் நவம்பர் 6-இல் வெளியாகிறது
+[filler] court கட்டுரை
+[jobs] தொகுப்பு 4
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹12560 · சென்செக்ஸ் 73124
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
@@ -138,4 +118,4 @@
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 9
+[done] feed 300 · pending 1 · எழுதியவை 10
