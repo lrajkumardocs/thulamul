@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 22 புதியவை
+[fetch] ET Markets: 16 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
+[fetch] The Hindu TN: 20 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 11 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
-[fetch] ESPNcricinfo: 12 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
+[fetch] ESPNcricinfo: 10 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 1 புதியவை
 [fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 14 புதியவை
 [fetch] Wired: 29 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7fbb9babaa50>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7fcb3ad7ad10>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 14 புதியவை
+[fetch] The Hindu Health: 13 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 0 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 26 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 28 புதியவை
+[fetch] Dinamani India: 29 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,29 +56,57 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fbb9b9d3410>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fcb3ad04f10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 26 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 13 புதியவை
+[fetch] Times Govt Schemes: 12 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 617 → நிகழ்வுகள் 573
-[triage] 573 → 43 | காலி: india:3, court:2, sports:2, assembly:2, jobs:1
-[tts-edge] 3d821338de23: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எபிரோனில் 70 வயது பாலஸ்தீனிய கடைக்காரரை இஸ்ரேலிய வீரர்கள் தாக்கியது
-[image] களஞ்சியம் (2 சொல்): ராணிப்பேட்டையில் இருசக்கர வாகனத் த
-[tts-edge] edc398e6490e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ராணிப்பேட்டையில் இருசக்கர வாகனத் திருட்டு வழக்கில் இருவர் கைது
-[image] களஞ்சியம் (2 சொல்): வேலூரில் கட்டுமானத் தொழிலாளர்களுக்
-[publish] வேலூரில் கட்டுமானத் தொழிலாளர்களுக்கு இலவச மருத்துவ முகாம்
-[skip] டெல்லி ஜாமியா பல்கலைக்கழக உள்ளூர் போராட்டச் செய்தி; காரணம், 
-[publish] ஹர்மன்பிரீத், தீப்தி நூறை எடுத்தனர்; இந்தியா தொடர் வென்றது
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமில்லை — நিউசிலாந்து தலைமைப்
+[run] புதியவை 601 → நிகழ்வுகள் 555
+[triage] 555 → 45 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] பொதுவான சுகாதாரச் செய்திப் பின்னணி — இந்தியாவில் ஒரு நோய் பற
+[skip] அனிமேஷன் தொடர் (anime series) — தமிழ்நாட்டு/இந்திய சினிமாவல்
+[skip] ஆஸ்திரேலிய உள்நாட்டுக் கிரிக்கெட் — தமிழ்நாடு/இந்திய வாசகரைப
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgPbAGDBrPy9C5C7pXFYM'}
+[திருத்தம்] வங்கக் கடலில் நாளை 'அர்னாப்' தீவிர புயல் → வங்கக்கடலில் நாளை 'அர்னாப்' தீவிர புயல் 
+[tts-edge] 008c598f5d8b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வங்கக்கடலில் நாளை 'அர்னாப்' தீவிர புயல் உருவாகிறது
+[image] களஞ்சியம் (2 சொல்): வங்கக்கடலில் காற்றழுத்தத் தாழ்வு ம
+[tts-edge] d0a25eac87ad: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வங்கக்கடலில் காற்றழுத்தத் தாழ்வு மண்டலம், ஐந்து மாவட்டங்களுக்கு சிவப்பு எச்சரிக்கை
+[image] களஞ்சியம் (3 சொல்): ஜெம் வீரமணி மீது எட்டாவது போக்சோ வ
+[publish] ஜெம் வீரமணி மீது எட்டாவது போக்சோ வழக்கு பதிவு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (3 சொல்): தமிழகத்தில் இன்று மிதமான மழை, மூன்
+[publish] தமிழகத்தில் இன்று மிதமான மழை, மூன்று மாவட்டங்களில் கனமழை எச்சரிக்கை
+[திருத்தம்] புதுச்சேரியில் கனமழை, மீனவர்களுக்கு கடல் → புதுச்சேரியில் கனமழை, மீனவர்களுக்குக் கட
+[image] களஞ்சியம் (3 சொல்): புதுச்சேரியில் கனமழை, மீனவர்களுக்க
+[publish] புதுச்சேரியில் கனமழை, மீனவர்களுக்குக் கடல் செல்ல வேண்டாம் எச்சரிக்கை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgPbZKayq7TZJHg55Q9UK'}
+[image] களஞ்சியம் (2 சொல்): ஆத்தூர் அருகே மேட்டூர் குடிநீர்க் 
+[publish] ஆத்தூர் அருகே மேட்டூர் குடிநீர்க் குழாய் உடைப்பு, சாலையில் பெருக்கெடுத்து ஓடிய நீர்
+[image] களஞ்சியம் (2 சொல்): திருமணிமுத்தாறில் நுரையுடன் வெள்ளப
+[publish] திருமணிமுத்தாறில் நுரையுடன் வெள்ளப்பெருக்கு, சாயக் கழிவு குற்றச்சாட்டு
+[தரம்] முடிவு வரி முற்றுப்புள்ளி இல்லை → ஒரு திருத்தம்
+[hold] காசா இஸ்லாமிய பல்கலைக்கழகத்தின் மீது இஸ்ரேலிய வான்தாக்குதல் - எட்டு பேர் பலி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgPbqfWjb5CCwQprnVwP3'}
+[திருத்தம்] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்கு அக்டோபர் 28ல் → ஜியோ பிளாட்ஃபாரம்ஸ் பங்கு அக்டோபர் 28ல் 
+[publish] ஜியோ பிளாட்ஃபாரம்ஸ் பங்கு அக்டோபர் 28ல் பட்டியலிடல்
+[image] களஞ்சியம் (2 சொல்): பங்குச் சந்தை விதிகளை திருத்த திட்
+[publish] பங்குச் சந்தை விதிகளை திருத்த திட்டமிடும் செபி
+[comic] கதை: திரை விலகும் தருணம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.94) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-26.png · நாள் 47
+[rasi] ராசிபலன் தயார்
 [market] தங்கம் 22K ₹12558 · சென்செக்ஸ் 73124
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
@@ -86,4 +114,4 @@
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 4
+[done] feed 300 · pending 1 · எழுதியவை 10

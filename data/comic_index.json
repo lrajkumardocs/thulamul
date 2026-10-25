@@ -1,5 +1,69 @@
 [
  {
+  "date": "2026-10-26",
+  "title": "திரை விலகும் தருணம்",
+  "book": 1,
+  "book_ta": "புது வெள்ளம்",
+  "arc": "நந்தினியின் தரிசனம்",
+  "day": 47,
+  "file": "data/comic/2026-10-26.png",
+  "summary": "காற்றில் பல்லக்கின் திரை விலக, உள்ளே இருந்த அழகிய முகம் வந்தியத்தேவனுக்குத் தெரிந்தது.",
+  "next_hint": "அந்த முகம் அவனை என்ன செய்யும்?",
+  "hidden": false,
+  "script": {
+   "title_ta": "திரை விலகும் தருணம்",
+   "panels": [
+    {
+     "scene_en": "Extreme wide shot of a misty forest clearing in Kollidam woods, an ornate silk-curtained palanquin resting on the ground surrounded by armed guards, Vandiyathevan (as in reference image) crouched behind dense bushes in the foreground, tense posture, daytime, early morning light filtering through trees.",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "கொள்ளிடம் காட்டில் அலங்காரப் பல்லக்கு அசைவின்றி நின்றது.",
+     "bubbles": []
+    },
+    {
+     "scene_en": "Medium shot of the palanquin's silk curtain beginning to rustle in a sudden gust of wind, two guards glancing upward at swaying tree branches, Vandiyathevan (as in reference image) leaning forward slightly from his hiding spot behind a boulder, alert expression, daytime.",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "திடீரென்று காற்று வீசத் தொடங்கியது.",
+     "bubbles": [
+      {
+       "speaker": "guard",
+       "side": "R",
+       "text_ta": "இந்தக் காற்று ஏதோ சொல்லுகிறது போலும்."
+      }
+     ]
+    },
+    {
+     "scene_en": "Close-up on the corner of the ornate silk curtain lifting in the breeze, a delicate hand barely visible at its edge, Vandiyathevan's (as in reference image) wide watching eyes peeking from behind a tree trunk at the frame's edge, daytime, soft dappled light.",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "பட்டுத் திரை மெல்ல அசைந்தது.",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "அந்தத் திரைக்குள் யார் இருக்கிறார்கள்?"
+      }
+     ]
+    },
+    {
+     "scene_en": "Extreme close-up of a beautiful woman's face partially revealed through the parted silk curtain, serene yet striking eyes, as in reference image for Nandini, soft daylight falling on her features, mysterious calm expression, daytime.",
+     "characters": [
+      "nandini"
+     ],
+     "caption_ta": "திரை விலக, அழகிய முகம் ஒன்று தெரிந்தது.",
+     "bubbles": []
+    }
+   ],
+   "summary_ta": "காற்றில் பல்லக்கின் திரை விலக, உள்ளே இருந்த அழகிய முகம் வந்தியத்தேவனுக்குத் தெரிந்தது.",
+   "tomorrow_ta": "அந்த முகம் அவனை என்ன செய்யும்?",
+   "story_so_far_ta": "கடம்பூரில் கந்தமாறன் வந்தியத்தேவனை இரகசியமாக அழைத்தான்; பெரிய பழுவேட்டரையர் தலைமையில் சிற்றரசர் கூட்டம், மதுராந்தகனுக்கு அரியணை அளிக்கும் சூழ்ச்சியைக் கண்டான். இரவு அலங்கரிக்கப்பட்ட பல்லக்கிலிருந்து இறங்கிய நந்தினியின் அழகில் ஸ்தம்பித்தான். மறுநாள் கந்தமாறனிடம் விடைபெற்று, நந்தினியின் பல்லக்கு காட்டு வழியே செல்வதைக் கண்டு மறைவாகப் பின்தொடரத் தொடங்கினான். கொள்ளிடம் காட்டில் காவலர் சூழ்ந்த பல்லக்கைக் கண்டு மறைந்திருந்து கூர்ந்து நோக்கிக் கொண்டிருந்தான். இன்று திடீரென்று காற்று வீசி, பல்லக்கின் பட்டுத் திரை மெல்ல அசைந்தது. திரை விலகியபோது உள்ளே இருந்த ஒரு பெண்ணின் அழகிய முகம் அவனுக்குத் தெரிந்தது — அது நந்தினியே."
+  }
+ },
+ {
   "date": "2026-10-25",
   "title": "காட்டில் ஒரு அலங்காரப் பல்லக்கு",
   "book": 1,
