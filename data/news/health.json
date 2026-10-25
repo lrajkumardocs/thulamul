@@ -1,5 +1,73 @@
 [
  {
+  "headline": "வேலூரில் கட்டுமானத் தொழிலாளர்களுக்கு இலவச மருத்துவ முகாம்",
+  "lines": [
+   "வேலூரில் கட்டுமானத் தொழிலாளர்களுக்காக ஒரு நாள் முழுவதும் இலவச மருத்துவ முகாம் நடத்தப்பட்டது.",
+   "இந்த முகாமில் 600 க்கும் மேற்பட்ட கட்டுமானத் தொழிலாளர்கள் பங்கேற்றனர்.",
+   "முகாமின் மூலம் தொழிலாளர்களுக்கு உடல்நலப் பரிசோதனை மற்றும் மருத்துவ ஆலோசனை வழங்கப்பட்டது.",
+   "கட்டுமானத் துறையில் பணிபுரியும் தொழிலாளர்களின் நலனைக் கருத்தில் கொண்டு இந்த முகாம் ஏற்பாடு செய்யப்பட்டது.",
+   "இதுபோன்ற மருத்துவ முகாம்கள் தொடர்ந்து நடத்தப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "கட்டுமானத் தொழிலாளர்களுக்கான நலத்திட்டங்களின் ஒரு பகுதியாக இந்த முகாம் நடத்தப்பட்டது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "வேலூர்",
+   "கட்டுமானத் தொழிலாளர்கள்",
+   "இலவச மருத்துவ முகாம்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Free medical camp held for construction workers in Vellore",
+   "lines": [
+    "A day-long free medical camp was organised for construction workers in Vellore.",
+    "More than 600 construction workers took part in the camp.",
+    "The camp reportedly provided health check-ups and medical consultations to the workers.",
+    "The event was organised keeping in mind the welfare of workers employed in the construction sector.",
+    "Such medical camps are expected to be held regularly in the future."
+   ],
+   "closing": "The camp was held as part of welfare initiatives for construction workers."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "medical camp construction workers",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "31cd9682552c",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-25T23:31+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/free-medical-camp-held-for-construction-workers-in-vellore/article71623138.ece",
+   "https://www.thehindu.com/news/national/tamil-nadu/free-medical-camp-held-for-construction-workers-in-vellore/article71623138.ece"
+  ],
+  "image": {
+   "url": "data/bank/health02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/31cd9682552c.mp3",
+  "created_ts": 1792951283.118118,
+  "status": "published"
+ },
+ {
   "headline": "சுகாதாரச் சவால்களுக்குக் கூட்டுத் தொழில்நுட்பத் தீர்வு தேவை என செயலாளர் கருத்து",
   "lines": [
    "சென்னையில் நடைபெற்ற தமிழ்நாடு மெட்கிளேவ் இரண்டாயிரத்து இருபத்தி ஆறு நிகழ்வில் மாநில சுகாதாரத் துறை செயலாளர் உரையாற்றினார்.",
@@ -1161,42 +1229,5 @@
   "audio": "data/audio/ca43dc3b24e7.mp3",
   "created_ts": 1792332209.2306283,
   "status": "published"
- },
- {
-  "id": "art_health_20261018",
-  "headline": "பருவமழைக் காலத்தில் உடல்நலம் காக்க எளிய வழிகள்",
-  "lines": [
-   "அக்டோபர் மாதத்தில் பெய்யும் வட்டார மழையால் கொசு பெருக்கம் அதிகரித்து டெங்கு, சிக்குன்குனியா போன்ற காய்ச்சல்கள் பரவும் வாய்ப்பு உள்ளது.",
-   "வீட்டைச் சுற்றியுள்ள தேங்கிய நீரை தினமும் அகற்றுவதன் மூலம் கொசு இனப்பெருக்கத்தைக் கட்டுப்படுத்தலாம்.",
-   "இந்தக் காலகட்டத்தில் சளி, இருமல் போன்ற பருவகால நோய்களைத் தவிர்க்க சூடான நீர் அருந்துவதும் தூய்மையான உணவைச் சாப்பிடுவதும் நல்லது.",
-   "சித்த மருத்துவத்தில் கூறப்படும் மிளகு, இஞ்சி, துளசி கலந்த காடை நோய் எதிர்ப்பு சக்தியை மேம்படுத்த உதவும் என பாரம்பரிய அறிவு தெரிவிக்கிறது.",
-   "தமிழ்நாடு அரசின் அரசு மருத்துவமனைகளில் பருவகால நோய்களுக்கான இலவச பரிசோதனை மற்றும் சிகிச்சை வசதிகள் தற்போது கிடைக்கின்றன."
-  ],
-  "closing": "சிறிய முன்னெச்சரிக்கை நடவடிக்கைகள் பெரிய நோய்களைத் தடுக்க உதவும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "துலாமுள் தொகுப்பு",
-    "doc": null,
-    "date": "2026-10-18"
-   }
-  ],
-  "topic": "health",
-  "topic_ta": "சுகாதாரம்",
-  "entities": [
-   "சுகாதாரம்",
-   "பருவகாலம்"
-  ],
-  "confidence": 0.9,
-  "flags": [],
-  "front_cat": "routine",
-  "urgent": false,
-  "affected": "",
-  "kind": "article",
-  "image": null,
-  "status": "published",
-  "published_at": "2026-10-18T11:37+05:30",
-  "created_ts": 1792303674.0046153,
-  "audio": "data/audio/art_health_20261018.mp3"
  }
 ]
