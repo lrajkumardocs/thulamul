@@ -1,23 +1,22 @@
-[expire] 3aef52ce74b6
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 25 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 13 புதியவை
-[fetch] Dinamani TN: 20 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 13 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
-[fetch] ESPNcricinfo: 15 புதியவை
+[fetch] BBC World: 12 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 14 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 16 புதியவை
+[fetch] The Hindu Cinema: 1 புதியவை
+[fetch] Cinema Express: 29 புதியவை
+[fetch] The Hindu Tech: 15 புதியவை
 [fetch] Wired: 29 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7f98171588d0>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7f523845e2d0>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 14 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 2 புதியவை
+[fetch] FreeJobAlert: 1 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,16 +28,16 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
-[fetch] NDTV India: 20 புதியவை
+[fetch] The Hindu National: 29 புதியவை
+[fetch] NDTV India: 19 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
@@ -57,36 +56,44 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f981721fad0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 20 புதியவை
-[fetch] Times Govt Schemes: 11 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f52384170d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
+[fetch] Times Govt Schemes: 13 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
-[fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 596 → நிகழ்வுகள் 555
-[triage] 555 → 38 | காலி: india:3, sports:3, court:2, assembly:2, jobs:1
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத ஆட்டக்காரர் ব்যক்তிக் நேர்காண
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgNna21cJgtXQnUngQGXQ'}
-[skip] மணிப்பூர் மாநிலத்தின் உள்ளூர் வன்முறைச் சம்பவம். தமிழ்நாட்டு
-[skip] தமிழ்நாடு/இந்தியா வாসகரைப் பாதிக்கும் செய்தி அல்ல; தனிநபர் ம
-[skip] நைஜেரியாவின் உள்நாட்டு அपरাધ நிகழ்வு; தமிழ்நாட்டு வாசகரை நேர
+[fetch] TN Police News: 27 புதியவை
+[fetch] Times Chennai Crime: 20 புதியவை
+[run] புதியவை 625 → நிகழ்வுகள் 586
+[triage] 586 → 56 | காலி: india:3, sports:3, court:2, assembly:2, jobs:1
+[skip] ஆங்கிலேய உள்நாட்டுப் போட்டி (County Cricket). தமிழ்நாடு/இந்த
+[image] களஞ்சியம் (2 சொல்): வங்கக்கடலில் காற்றழுத்தத் தாழ்வு ம
+[tts-edge] d0a25eac87ad: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வங்கக்கடலில் காற்றழுத்தத் தாழ்வு மண்டலம்: ஐந்து மாவட்டங்களுக்கு சிவப்பு எச்சரிக்கை
+[skip] பொதுவான உலக அரசியல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு
+[skip] தமிழ்நாட்டு வாசகரின் தாமதமான தாக்கத்திற்கு சீரான அவசரம் இல்ல
+[skip] இந்தியத் தேசிய கோலாபண்ணை (NLC) சுரங்க விரிவாக்கம் தமிழ்நாட்ட
+[skip] வெளிநாட்டு உள்நாட்டுத் தேர்தல் — தமிழ்நாடு / இந்திய வாசகருக்
+[skip] உலகச் செய்திதான் என்றாலும் தமிழ்நாடு/இந்தியாவுக்கு நேரடி தாக
+[skip] இஸ்রேலின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
+[skip] பிராந்திய ராணுவ மோதல். சவுதி அரேபியா, ஹூதி, ஈமன் — தமிழ்நாடு
+[skip] செர்பியாவின் உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியாவுடன் நே
+[skip] வெளிநாட்டு உள்நாட்டு மோதல். தமிழ்நாடு/இந்திய வாசகர்களுக்கு ந
+[skip] ஈரানின் உள்நாட்டு ராணுவ அபிযான அறிவிப்பு. தமிழ்நாட்டு வாசகரை
+[skip] வெளிநாட்டு உள்ளூர் மோதல் — சவூதி அரேபியா மற்றும் ஹூதி இடையேய
+[skip] கேரள மாநில அரசின் உள்ளூர் அறிவிப்பு - தமிழ்நாட்டுடன் நேரடித்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgNngshEcfUbMpj8WN54j'}
-[skip] கர்நாடகா மாநில விவசாயிகள் குழுக்களுக்கும் அம்மாநில முதல்வருக
-[skip] CCI (Competition Commission of India) தமிழ்நாட்டில் மிக சிறி
-[திருத்தம்] சுமன் ரஜினிகாந்தின் நலம் விரும்பி பாராட் → சுமன் ரஜினிகாந்தைப் பாராட்டினார் - ஜெயில
-[tts-edge] f557a2d6f7ba: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சுமன் ரஜினிகாந்தைப் பாராட்டினார் - ஜெயிலர் 2 படம் குறித்து
-[skip] வெளிநாட்டு ক্রিকেট — বাংলাদেশ ও আফগানিস্তানের U-19 ওয়ান-ডে 
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — ஆஸ்திரேலிய Sheffield Shield (
-[tts-edge] art_tech_20261025: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[filler] tech கட்டுரை
+[skip] ஆந்திரப் பிரதேச உள்ளூர் அரசியல் (YSRCP-TDP தனிப்பட்ட தாக்குத
+[skip] தலைப்பு மட்டுமே கிடைத்துள்ளது; கட்டுரையின் உண்மைத் தகவல்கள்,
+[skip] உत்தர் பிரதேச மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. தம
+[skip] नेपाल प्रीमियर लीगएक नेपाली घरेलू टी20 लीग है जिसका तमिलनाडु
+[skip] வெளிநாட்டுக் கிரிக்கெட் (ইংল்যান্ড vs পাকிস্தান) — தமிழ்நாடு
+[tts-edge] art_sports_20261025: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[filler] sports கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12560 · சென்செக்ஸ் 73124
+[market] தங்கம் 22K ₹12558 · சென்செக்ஸ் 73124
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 0 · எழுதியவை 1
