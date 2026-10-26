@@ -1,23 +1,23 @@
-[expire] e1f51c701452
+[expire] 16ac4cf9e62f
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 13 புதியவை
-[fetch] Dinamani TN: 18 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 8 புதியவை
-[fetch] Al Jazeera: 20 புதியவை
-[fetch] ESPNcricinfo: 8 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC World: 12 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
+[fetch] ESPNcricinfo: 13 புதியவை
 [fetch] The Hindu Sport: 26 புதியவை
-[fetch] The Hindu Cinema: 1 புதியவை
-[fetch] Cinema Express: 26 புதியவை
-[fetch] The Hindu Tech: 14 புதியவை
+[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] Cinema Express: 25 புதியவை
+[fetch] The Hindu Tech: 16 புதியவை
 [fetch] Wired: 29 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7f18ce6fc090>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Faith: 3 புதியவை
-[fetch] The Hindu Health: 7 புதியவை
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7f5fc0a49310>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 13 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,15 +29,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 8 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] Bar and Bench: 22 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,74 +57,45 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f18ce74fc10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
-[fetch] Dinamani Govt: 18 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5fc0ad1550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 587 → நிகழ்வுகள் 536
-[triage] 536 → 52 | காலி: govt:4, health:3, india:2, world:2, court:2
-[skip] தமிழ்நாட்டுக்குப் பொருத்தமான구체적 செய்தி இல்லை — பொதுவான கொள்க
-[skip] இது 2022ஆம் ஆண்டு நடந்த பிரேசில் அதிபர் தேர்தல் பற்றிய பழைய 
-[திருத்தம்] தமிழ்நாட்டில் கடும் தாழ்வு மண்டலத்தால் க → தமிழ்நாட்டில் கனமழை; 26-ஆம் தேதி பல மாவட
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் கனமழை; 26-ஆம் தேதி ப
-[tts-edge] 43a1dc0dac1a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டில் கனமழை; 26-ஆம் தேதி பல மாவட்டங்களில் பள்ளிகளுக்கு விடுமுறை
-[image] களஞ்சியம் (2 சொல்): வங்கக்கடலில் அர்னாப் புயல் உருவாக்
-[tts-edge] 00752f564a74: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வங்கக்கடலில் அர்னாப் புயல் உருவாக்கம், தமிழ்நாட்டில் மழை எச்சரிக்கை
-[skip] மூலத்தில் ஒரே வாக்கியம் மட்டுமே உள்ளது; தேதி, பின்னணி, எண் வ
+[run] புதியவை 673 → நிகழ்வுகள் 607
+[triage] 607 → 47 | காலி: govt:3, india:2, health:2, sports:2, assembly:2
+[skip] ஐரோப்பிய நாடுகளின் உள்நாட்டு பாதுகாப்புக் கூட்டம். தமிழ்நாடு
+[skip] இஸ்রேல்-பாலஸ்தீனம் தொடர்பான உள்நாட்டுரக பகுப்பாய்வு. தமிழ்நா
+[skip] பிரேசிலின் அரசியல் நிகழ்வு — தமிழ்நாடு/இந்தியாவுடன் நேரடித் 
+[skip] இரண்டு மூலங்களும் தெலங்கானா மற்றும் டெல்லியின் உள்ளூர் அரசு 
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] பிரேசிலில் லுலா நான்காம் முறை அதிபராகத் தேர்ந்தெடுக்கப்பட்டார்
-[skip] பிரேசிலின் உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியாவுடன் நேரட
-[skip] செர்பியா ஒரு வெளிநாடு. தமிழ்நாடு அல்லது இந்தியாவுடன் நேரடி த
-[skip] இஸ்রேல் உள்நாட்டுத் தேர்தல் — தமிழ்நாடு வாசகரைப் பாதிக்காது.
-[skip] வெளிநாட்டு உள்ளூர் அரசியல் — ப்राசிலின் தேர்தல் நிகழ்வு தமிழ
-[skip] பிரேசிலின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித
-[skip] வெளிநாட்டு உள்ளூர் தேர்தல் — தமிழ்நாடு/இந்தியவாசகரைப் பாதிக்
-[skip] செர்பியாவின் உள்நாட்டு தேர்தல் — தமிழ்நாடு/இந்தியாவுடன் நேரட
-[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் தொடர் — NZ vs India என்றால
-[skip] வெளிநாட்டு உள்நாட்டுக் கால்பந்து லீग் — தமிழ்நாடு / இந்திய வ
-[skip] தமிழ்நாட்டுச் செய்திதான் என்றாலும், 'world' என்று குறிப்பிடப
-[skip] அமெரிக்கா உள் அரசியல், தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்காது
-[skip] உலகச் செய்தி — கிழக்குக் காங்கோவில் ஈபோலா ஆஆய்வுக்கு செல்லும
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது. வட கொரியா-தென் கொரியা தரப்ப
-[skip] வெளிநாட்டு உள்ளூர் இயற்கை ஆபத்து — தமிழ்நாடு/இந்தியவாசகரைப் 
-[skip] இஸ்ரேல் தேசிய தேர்தல் — தமிழ்நாடு/இந்திய வாசகருக்குப் பொருத்
-[skip] வெளிநாட்டு உள்நாட்டுக் கால்பந்து பதிப்புக் கூடுதல் (ஸ்பெயின்
-[publish] அவதூறு வழக்கு தீர்ப்புக்காக சுல்தான்பூர் செல்லும் ராகுல் காந்தி
-[skip] இவை பஞ்சாப் மற்றும் பீகார் மாநிலப் பல்கலைக்கழகங்களின் தேர்வு
-[skip] ஜம்மு காஷ்மீரில் உள்ளூர் சந்தை தீ விபத்து, உயிரிழப்பு இல்லை,
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத ஆன்மிக/ஆலய சொற்பொழிவு. அரசு அ
-[publish] கே.என்.நேரு மறு ஆய்வு மனுவை தள்ளுபடி செய்த சென்னை உயர்நீதிமன்றம்
-[skip] வெளிநாட்டு (ভারতীয় அল்লাহ) வেலைவாய்ப்பு - தமிழ்நாட்டு வாசகர
-[skip] விமர்சனம் — திரைக்கலை மதிப்பீடு ('hollow violence', 'absurdi
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: GCC ready for accommodating 40,000 residents in 
-[skip] மதத் தொடர்பான மெய்யியல் கட்டுரை. செய்திக் கட்டுரை அல்ல; அரசு
-[skip] மத்திய பிரதேশ மாநிலத்தின் உள்ளூர் சம்பவம்; தமிழ்நாட்டுக்கு ந
-[skip] இது கர்நாடகாவின் உள்ளூர் நீதிமன்ற வழக்கு - பெங்களூரு நீதிமன்
-[தரம்] தமிழ் அல்லாத எழுத்து: শ → ஒரு திருத்தம்
-[publish] சூர்யா: நினைத்ததை நிஜமாக்க மீண்டும் கவனம் செலுத்த வேண்டும்
-[skip] ஆய்வுக் கட்டுரை / சாதாரண பாரம்பரிய விவரண்ணனை — செய்திக் கட்ட
-[திருத்தம்] ஐதராபாद் ஓசோனியா மருத்துவமனையில் திருநங் → ஐதராபாத்தில் உள்ள ஓசோனியா மருத்துவமனை தி
-[தரம்] தமிழ் அல்லாத எழுத்து: রతതත別性 → ஒரு திருத்தம்
-[publish] ஐதராபாத்தில் உள்ள ஓசோனியா மருத்துவமனை திருநங்கைகளுக்கான பாலின உறுதிப்படுத்தல் அறுவை சிகிச்சைப் பணிகளை வலுப்படுத்தியுள்ளது
-[skip] பிற மாநிலத்தின் உள்ளூர் அரசியல் — ராகுல் காந்தியின் உத்தரப்ப
-[filler] govt கட்டுரை
-[jobs] தொகுப்பு 5
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[திருத்தம்] முன்னாள் அமைச்சர் அன்பில் மகேஷ் போயாமொழி → முன்னாள் அமைச்சர் அன்பில் மகேஷ் போயாமொழி
+[tts-edge] bf0e19c14cb1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] முன்னாள் அமைச்சர் அன்பில் மகேஷ் போயாமொழி கைது, ₹100 கோடி மோசடி வழக்கு
+[image] களஞ்சியம் (2 சொல்): குதிரை பேரம் புகார்: சிபிஐ விசாரணை
+[tts-edge] 6656fc199f44: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] குதிரை பேரம் புகார்: சிபிஐ விசாரணை மனு தள்ளுபடி
+[நகல்] ஏற்கனவே வெளியானது: முன்னாள் அமைச்சர் அன்பில் மகேஷ் போயாமொழி கைது, ₹100 கோடி மோச
+[skip] தமிழ்நாட்டுக்குத் தொடர்பு இருந்தாலும், இது ஒரு நீதிமன்றக் கோ
+[skip] இந்தியாவின் உள்நாட்டுச் செய்தி — தமிழ்நாட்டுக்கு நேரடித் தொட
+[skip] வெளிநாட்டுக் கிரிக்கெட் தொடர் — பাகிஸ்தான் vs இலங்கை ஐசিசি ம
+[skip] இந்தியர் அல்லாத ஆங்கிலப் பெயர்ச் சொல்லும், தமிழ்நாட்டு/தமிழ்
+[skip] கேரளா அரசியல் — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை. ஆரோக்
+[skip] IPL auction announcement - franchise-focused administrative 
+[skip] ओडिशा மते उड़ीसा आणि आंध्र प्रदेश यांच्यातील सीमांत विवाद. त
+[filler] tech கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12635 · சென்செக்ஸ் 73128
+[market] தங்கம் 22K ₹12656 · சென்செக்ஸ் 73607
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 7
+[done] feed 300 · pending 1 · எழுதியவை 2

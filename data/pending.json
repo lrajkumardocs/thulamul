@@ -1,66 +1,73 @@
 [
  {
-  "headline": "பிரேசில் தேர்தலில் லூலா நான்காவது முறை வெற்றி",
+  "headline": "குதிரை பேரம் புகார்: சிபிஐ விசாரணை மனு தள்ளுபடி",
   "lines": [
-   "பிரேசில் அதிபர் தேர்தலின் இரண்டாம் சுற்று வாக்கெடுப்பில் லூலா டா சில்வா மீண்டும் வெற்றி பெற்றார்.",
-   "வலதுசாரி எதிர்வேட்பாளர் ஜாயர் போல்சோனாரோவை நெருக்கமான போட்டியில் லூலா வென்றதாக தகவல்கள் தெரிவிக்கின்றன.",
-   "இந்த வெற்றியின் மூலம் லூலா நான்காவது முறையாக பிரேசில் அதிபராகப் பதவியேற்க உள்ளார்.",
-   "இரு தரப்பினருக்கும் இடையே கடும் போட்டி நிலவியதாக தேர்தல் முடிவுகள் காட்டுவதாக செய்திகள் கூறுகின்றன.",
-   "புதிய அரசு எப்போது பதவியேற்கும் என்பது குறித்த விரிவான அறிவிப்பு விரைவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
+   "தமிழ்நாடு சட்டமன்றத் தேர்தலுக்குப் பின் குதிரை பேரம் நடந்ததாகக் கூறி தொடரப்பட்ட மனுவை உச்ச நீதிமன்றம் தள்ளுபடி செய்தது.",
+   "அமைச்சர் என்.ஆனந்த் மற்றும் முன்னாள் அதிமுக சட்டமன்ற உறுப்பினர்கள் நான்கு பேர் மீது இந்தக் குற்றச்சாட்டு முன்வைக்கப்பட்டது.",
+   "பெரும்பான்மையை உறுதி செய்வதற்காக இவர்கள் குதிரை பேரம் நடத்தியதாக மனுதாரர் குற்றம் சாட்டியிருந்தார்.",
+   "இந்தக் குற்றச்சாட்டு தொடர்பாக மத்திய புலனாய்வு அமைப்பான சிபிஐ மூலம் விசாரணை நடத்த வேண்டும் என மனுதாரர் கோரிக்கை விடுத்திருந்தார்.",
+   "மனுவைத் தள்ளுபடி செய்த உச்ச நீதிமன்றம், கூடுதல் விசாரணைக்கு எந்த உத்தரவும் பிறப்பிக்கவில்லை."
   ],
-  "closing": "லூலா டா சில்வா ஏற்கெனவே பல முறை பிரேசில் அதிபராகப் பணியாற்றியவர்.",
+  "closing": "பெரும்பான்மை உறுதிப்பாடு தொடர்பான இந்த சர்ச்சை தமிழ்நாடு அரசியலில் முன்னதாகவே எழுந்திருந்தது.",
   "closing_type": "background",
   "sources": [
    {
-    "name": "Al Jazeera",
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
     "doc": null,
     "date": null
    }
   ],
-  "topic": "world",
+  "topic": "court",
   "entities": [
-   "பிரேசில்",
-   "லூலா டா சில்வா",
-   "ஜாயர் போல்சனாரோ",
-   "அதிபர் தேர்தல்"
+   "தமிழ்நாடு சட்டமன்றம்",
+   "என்.ஆனந்த்",
+   "அதிமுக",
+   "உச்ச நீதிமன்றம்",
+   "சிபிஐ"
   ],
-  "confidence": 0.55,
+  "confidence": 0.75,
   "en": {
-   "headline": "Lula wins fourth term as Brazil president in tight runoff",
+   "headline": "Supreme Court Rejects Plea for CBI Probe Into Horse-Trading",
    "lines": [
-    "Brazil's presidential runoff election has resulted in another victory for Lula da Silva.",
-    "Reports indicate Lula narrowly defeated right-wing challenger Jair Bolsonaro in a close contest.",
-    "With this win, Lula is set to begin his unprecedented fourth term as Brazil's president.",
-    "News reports suggest the election results reflected a tightly contested race between both sides.",
-    "Further details on when the new government will take office are expected to be announced soon."
+    "The Supreme Court dismissed a petition alleging horse-trading following the Tamil Nadu Assembly elections.",
+    "The plea had named Tamil Nadu Minister N. Anand and four former AIADMK MLAs in the allegations.",
+    "The petitioner claimed these individuals engaged in horse-trading to secure a majority in the Assembly.",
+    "The petitioner had sought a CBI investigation into the alleged horse-trading.",
+    "The Supreme Court dismissed the petition without ordering any further probe."
    ],
-   "closing": "It is worth noting that Lula da Silva has previously served multiple terms as Brazil's president."
+   "closing": "The controversy over securing an Assembly majority had previously surfaced in Tamil Nadu politics."
   },
-  "front_cat": "election_major",
-  "image_query": "Lula da Silva president",
-  "wiki_subject": "Luiz Inácio Lula da Silva",
-  "person_en": "Lula da Silva",
+  "front_cat": "court_landmark",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
   "urgent": false,
-  "affected": "நாடு",
+  "affected": "மாநிலம்",
   "flags": [
-   "numbers_conflict",
+   "defamation_risk",
    "single_source"
   ],
-  "id": "16ac4cf9e62f",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-26T06:31+05:30",
+  "id": "6656fc199f44",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-26T17:15+05:30",
   "links": [
-   "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off?traffic_source=rss"
+   "https://www.thehindu.com/news/national/sc-rejects-plea-for-cbi-probe-into-horse-trading-post-tn-assembly-polls/article71626557.ece",
+   "https://www.thehindu.com/news/national/sc-rejects-plea-for-cbi-probe-into-horse-trading-post-tn-assembly-polls/article71626557.ece"
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29_denoise_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Luiz Inácio Lula da Silva",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
-   "symbolic": false
+   "url": "data/bank/court05.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
   },
-  "audio": "data/audio/16ac4cf9e62f.mp3",
-  "created_ts": 1792976478.6410692,
+  "audio": "data/audio/6656fc199f44.mp3",
+  "created_ts": 1793015153.4056106,
   "status": "pending"
  }
 ]
