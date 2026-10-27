@@ -1,18 +1,16 @@
-[expire] 25cfbc19dbf6
-[expire] 0aeca5480bf8
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 15 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 11 புதியவை
 [fetch] Cinema Express: 25 புதியவை
-[fetch] The Hindu Tech: 18 புதியவை
+[fetch] The Hindu Tech: 22 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
@@ -25,20 +23,20 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
 [fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 30 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -58,63 +56,72 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd09b514310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
-[fetch] Times Govt Schemes: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fc28c6db1d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
+[fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 716 → நிகழ்வுகள் 656
-[triage] 656 → 71 | காலி: tn:4, india:4, sports:3, court:2, govt:2
-[skip] இந்திய கிரிக்கெட் வீரர் ஒருவரின் ব্যক்তিগত நிবন্ধ সম্পর্কিত 
-[tts-edge] 19ebc5f0e94e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உக்ரைன் நகரில் போர் நிறுத்தம், உதவிப் பொருட்கள் நுழைய வழி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSnkVUduC5bNwtw8JAiu'}
+[run] புதியவை 691 → நிகழ்வுகள் 630
+[triage] 630 → 70 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது ஹரியானா மாநிலத்தின் உள்ளூர் நீதிமன்ற அதிகார வரம்பு தொடர்
+[skip] கோவா மற்றும் மகாராஷ்டிரா மாநிலங்களின் உள்ளூர் வேலைவாய்ப்பு அ
+[skip] வெளிநாட்டு சுகாதார செய்திக் குறிப்பு. நைஜீரியா, கென்யா, கங்க
+[skip] கன্னड வெப் சீரிজ் — தமிழ்நாட்டுக்கு சம்பந்தமில்லை. தமிழ்ப் ப
+[skip] Test cricket match report from South Africa — neither Tamil 
+[image] களஞ்சியம் (4 சொல்): ஒர்னாப் புயல் ஆந்திரத்தில் கரையைக்
+[tts-edge] dbf73e7ec042: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஒர்னாப் புயல் ஆந்திரத்தில் கரையைக் கடக்கத் தொடக்கம், எண்ணூரில் கடல் சீற்றம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgTEnPiT2Vg8UpbEx5dCV'}
+[image] களஞ்சியம் (3 சொல்): புயல் அர்னாப்: வட சென்னை, திருவள்ள
+[tts-edge] f60a6480ec74: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] புயல் அர்னாப்: வட சென்னை, திருவள்ளூரில் கடல் அலைகள் அதிகரிப்பு
+[skip] எகிப்தின் உள்ளூர் அரசியல் மற்றும் பத்திரிகை சுதந்திரம் பிரச்
+[publish] தீபாவளிக்கு முன் ஆவின் பால் பொருட்கள் விலை உயர்வு
+[skip] உலகச் செய்தியாக இருந்தாலும் தமிழ்நாடு/இந்தியாவுடன் நேரடித் த
+[image] களஞ்சியம் (3 சொல்): ஆரோவில் அருகே பூதூரில் நிலத் தரகர்
+[publish] ஆரோவில் அருகே பூதூரில் நிலத் தரகர் வெட்டிக் கொலை
+[skip] இஸ்ரேல் உள் தேர்தல் — தமிழ்நாடு/இந்தியாவுடன் நேரடி தொடர்பு இ
+[image] களஞ்சியம் (2 சொல்): அரசு நிறுவன ஊழியர்களுக்கு பொங்கல் 
+[publish] அரசு நிறுவன ஊழியர்களுக்கு பொங்கல் பொருட்டு ஊக்கத்தொகை அறிவிப்பு
+[skip] வட-கிழக்கு நைஜீரியாவில் நடந்த உள்ளூர் மோதல். தமிழ்நாடு / இந்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgTF5Lj6NXWXbicPFF3z6'}
+[skip] இஸ்ரேல் உள் அரசியல் நிகழ்வு — தமிழ்நாடு/இந்தியா வாசகரை நேரடி
+[திருத்தம்] காவிரி நீர் உத்தரவு மீறல்: உச்சநீதிமன்றத → காவிரி நீர் உத்தரவு மீறல்: உச்ச நீதிமன்ற
+[publish] காவிரி நீர் உத்தரவு மீறல்: உச்ச நீதிமன்றத்தில் தமிழக அரசு மனு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgTFCzEmptDCunKQRkRYV'}
+[image] களஞ்சியம் (2 சொல்): ஆந்திரம் நோக்கி நகரும் ஒர்னாப் புய
+[publish] ஆந்திரம் நோக்கி நகரும் ஒர்னாப் புயல், சென்னையில் நான்கு நாள் வெயில்
+[skip] தமிழ்நாடு நிகழ்வு; தேனி சிறைக் கலவரம் தேசிய அளவில் முக்கியம்
+[skip] தேனி சிறைக் கைதிகள் தப்பியது தமிழ்நாடு உள்ளூர் குற்றச் செய்த
+[skip] வங்கக்கடலில் ஆந்திரப் பிரதேச கடலோரத்தில் கரையைக் கடக்கவுள்ள 
+[தரம்] தமிழ் அல்லாத எழுத்து: ু → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): சிங்கப்பூர் விமானத்தில் ஏறிய அர்ச்
+[publish] சிங்கப்பூர் விமானத்தில் ஏறிய அர்ச்சனா வீரமணி சென்னையில் கைது
+[skip] வெளிநாட்டு அரசியல் — நாட்டுக்குள்ளான விளைவு குறிப்பிடப் படவி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] தென் கொரிய எல்லையில் வட கொரிய ஹோவிட்சர்  → தென் கொரிய எல்லையில் வட கொரிய ஹௌவிட்சர் 
-[tts-edge] 74b41528b8fd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தென் கொரிய எல்லையில் வட கொரிய ஹௌவிட்சர் பீரங்கிகள் கண்டறிப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] தேனி சிறையில் இருந்து கைதிகள் பிரதான வாய → தேனி சிறையில் இருந்து கைதிகள் பிரதான நுழ
-[image] களஞ்சியம் (2 சொல்): தேனி சிறையில் இருந்து கைதிகள் பிரத
-[hold] தேனி சிறையில் இருந்து கைதிகள் பிரதான நுழைவு வாயில் வழியாகத் தப்பினர்
-[தரம்] தமிழ் அல்லாத எழுத்து: মু → ஒரு திருத்தம்
-[publish] இஸ்ரேல் தேர்தலில் பல தசாப்தங்களில் இல்லாத வாக்குப்பதிவு
-[skip] இரு மூலங்களும் முரண்பட்ட தகவலைத் தருகின்றன - ஒன்று தமிழக அரச
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSo8N2XXBAvcM1dEax46'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (3 சொல்): தேனி சிறையிலிருந்து தப்பிய மேலும் 
-[publish] தேனி சிறையிலிருந்து தப்பிய மேலும் ஒருவர் கைது
-[திருத்தம்] ஆம்ஸ்ட்ராங் வழக்கில் தொழிலதிபரை மிரட்டிய → ஆம்ஸ்ட்ராங் கொலை வழக்கில் தொழிலதிபரை மிர
-[image] களஞ்சியம் (2 சொல்): ஆம்ஸ்ட்ராங் கொலை வழக்கில் தொழிலதிப
-[publish] ஆம்ஸ்ட்ராங் கொலை வழக்கில் தொழிலதிபரை மிரட்டிய காவல் ஆய்வாளருக்கு ஜாமீன்
-[skip] மூலத்தில் ஒரே வரித் தலைப்பு மட்டுமே உள்ளது, போதிய விவரம் இல்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] மாருதி சுசுகி லாபம் 26 சதவீதம் சரிவு, வருவாய் உயர்வு
-[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): சென்னை சாலைகள் பழுதுபார்க்க நெடுஞ்
-[publish] சென்னை சாலைகள் பழுதுபார்க்க நெடுஞ்சாலைத் துறை பணி தொடக்கம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது; விவரங்கள் இல்லாததால
-[திருத்தம்] கற்பாறைகள் ஏற்றுமதி தடையை மூன்று மாதங்கள → கரடர் கல் ஏகப்பட்ட தடையை தமிழ்நாடு மூன்ற
-[தரம்] தமிழ் அல்லாத எழுத்து: না → ஒரு திருத்தம்
-[publish] கரடர் கல் தடையை தமிழ்நாடு மூன்று மாதங்கள் நீட்டித்தது.
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSofcXXw6CzaaL4paoSu'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSokwDZyPvGFFtqPwcLs'}
-[image] களஞ்சியம் (2 சொல்): கள்ளக்குறிச்சியில் மழை பாதிப்பு பக
-[publish] கள்ளக்குறிச்சியில் மழை பாதிப்பு பகுதிகளை அமைச்சர் வண்ணி அரசு ஆய்வு
-[filler] sports கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12675 · சென்செக்ஸ் 73599
+[skip] ப்ராஜிலின் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்தியாவுடன் நேரடித்
+[திருத்தம்] பள்ளிக்கரணை சதுப்பு நிலத்தை ஈரநிலச் சட்ட → பள்ளிக்கரணை ஈரநிலத்தை ஈரநிலச் சட்டத்தின்
+[தரம்] தமிழ் அல்லாத எழுத்து: এডম → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): பள்ளிக்கரணை ஈரநிலத்தை ஈரநிலச் சட்ட
+[publish] பள்ளிக்கரணை ஈரநிலத்தை ஈரநிலச் சட்டத்தின் கீழ் அறிவிக்கக் கோரிக்கை
+[skip] வெளிநாட்டு உள்நாட்டுச் சட்ட வழக்கு — தமிழ்நாடு/இந்தியாவுடன் 
+[திருத்தம்] ஒரு யூனிட் நாற்பத்தி ஒன்று ரூபாய்க்கு மி → ஒரு யூனிட் ₹41.50க்கு மின்சாரம் வாங்கியத
+[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): ஒரு யூனிட் ₹41.50க்கு மின்சாரம் வா
+[publish] ஒரு யூனிட் ₹41.50க்கு மின்சாரம் வாங்கியதாக குற்றச்சாட்டு மறுப்பு
+[comic] கதை: திரை விலகும் நொடி
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-28.png · நாள் 49
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12775 · சென்செக்ஸ் 73599
 [weather] புதுப்பிக்கப்பட்டது
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
-  warnings.warn(message, FutureWarning)
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
-  warnings.warn(message, FutureWarning)
-[push] 0 அறிவிப்புகள்
 [done] feed 300 · pending 1 · எழுதியவை 10
