@@ -1,22 +1,22 @@
-[fetch] RBI: 10 புதியவை
+[fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 26 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 21 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 12 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 16 புதியவை
+[fetch] BBC World: 10 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
+[fetch] ESPNcricinfo: 15 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 13 புதியவை
 [fetch] Wired: 30 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7f3dd449dd90>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 9 புதியவை
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7f7cc9ca9610>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 8 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 23 புதியவை
+[fetch] FreeJobAlert: 21 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 26 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,66 +56,64 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3dd444fb90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f7cc9d42b90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 652 → நிகழ்வுகள் 602
-[triage] 602 → 83 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgRc5nECuhK3VGoF6Gmf5'}
-[திருத்தம்] UPSC புவி விஞ்ஞானி தேர்வு தேதி அறிவிப்பு → UPSC புவி விஞ்ஞானி தேர்வு தேதி 2027 அறிவ
-[tts-edge] a38777ebd3e2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] UPSC புவி விஞ்ஞானி தேர்வு தேதி 2027 அறிவிப்பு, 127 காலிப்பணியிடங்கள்
-[தரம்] தமிழ் அல்லாத எழுத்து: জশষিে → ஒரு திருத்தம்
-[tts-edge] a0bd70750f42: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இரும்பு சேர்ந்த உப்பு — இரத்தசோகை குறைக்க எளிய தீர்வு
-[திருத்தம்] சை பள்ளவி ஐபிஎஸ் அதிகாரியாக ஓம் பாகம் ஒன → சை பள்ளவி ஐபிஎஸ் அதிகாரியாக 'ஓம் – அத்தி
-[தரம்] தமிழ் அல்லாத எழுத்து: ല → ஒரு திருத்தம்
-[publish] சை பள்ளவி ஐபிஎஸ் அதிகாரியாக 'ஓம் – அத்தியாயம் 1'-ல்
-[skip] வெளிநாட்டு county cricket குறித்த செய்தி; தமிழ்நாடு/இந்திய வ
-[image] களஞ்சியம் (2 சொல்): முன்னாள் அமைச்சர் அன்பில் மகேஸ் நூ
-[publish] முன்னாள் அமைச்சர் அன்பில் மகேஸ் நூறு கோடி மோசடியில் கைது
-[திருத்தம்] அர்னாப் புயல் தீவிரமடைந்து நாளை கரையை கட → அர்னாப் புயல் தீவிரமடைந்து நாளை கரையைக் 
+[run] புதியவை 638 → நிகழ்வுகள் 587
+[triage] 587 → 71 | காலி: tn:5, india:4, economy:3, court:3, govt:3
+[skip] West Indies-Bangladesh Test match, தமிழ்நாட்டுக்குப் பொருத்த
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgRszxUKXBMT45WnXuZQ1'}
+[skip] மூலத்தில் போதிய விவரங்கள் இல்லை - ஒரே வரி தகவல் மட்டும், தேத
+[திருத்தம்] வடகிழக்கு பருவமழையில் பதினான்கு பேர் பலி → வடகிழக்கு பருவமழையால் 14 பேர் பலி: அமைச்
+[image] களஞ்சியம் (2 சொல்): வடகிழக்கு பருவமழையால் 14 பேர் பலி:
+[tts-edge] 71b212365dc8: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வடகிழக்கு பருவமழையால் 14 பேர் பலி: அமைச்சர் செங்கோட்டையன்
+[tts-edge] 25cfbc19dbf6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] தேவாலயம் மீதான தாக்குதலுக்குப் பின் சிரியா மீது ஜோர்டான் வான்தாக்குதல்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், தேதி, சிறுவனின் வயது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgRtCEVJN6SG2BjJHRMNB'}
+[skip] ஒரே மூலத்திலிருந்து மிகக் குறுகிய தகவல் மட்டுமே உள்ளது; எண்,
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[hold] ஜெம் கிரானைட்ஸ் வீரமணி வழக்கில் குற்றப்பத்திரிகை விரைவில் எனத் தகவல்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] ரோமानியாவின் உள்நாட்டுப் பாதுகாப்புச் சம்பவம். தமிழ்நாடு/இந்
+[publish] உதயநிதி மனு மீதான தீர்ப்பு ஒத்திவைப்பு: தேர்தல் வழக்கு நிராகரிப்பு கோரிக்கை
+[skip] வெளிநாட்டு உள்ளூர் குற்றச் செய்தி — ஜோர்டான் கிறிஸ்துவ சர্ச்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம், இடம், தேதி, விவரம
+[திருத்தம்] தீபாவளி சீட்டு மோசடி எட்டாயிரத்து ஐநூறு  → 8,500 பேரிடம் ரூ. 18 கோடி தீபாவளி சீட்டு
+[publish] 8,500 பேரிடம் ரூ. 18 கோடி தீபாவளி சீட்டு மோசடி
+[திருத்தம்] பழனி மடம் நில மோசடி வழக்கில் சிபிசிஐடி க → பழனி மடம் நில மோசடி வழக்கில் சிபিசিআইডி 
+[தரம்] தமிழ் அல்லாத எழுத்து: ईআইডি → ஒரு திருத்தம்
+[publish] பழனி மடம் நில மோசடி வழக்கில் சிபிசிஐடி குற்றப்பத்திரிகை தாக்கல்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgRthRC3C6qx41ZzsaRnr'}
+[skip] மூலச் செய்தியில் இடம், தேதி, தெளிவான விவரங்கள் இல்லை; தலைப்ப
+[publish] இந்தியன் ஓவர்சீஸ் வங்கி லாபம் 56 சதவீதம் உயர்வு, 500 மில்லியன் டாலர் திரட்ட திட்டம்
 [தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): அர்னாப் புயல் தீவிரமடைந்து நாளை கர
-[publish] அர்னாப் புயல் தீவிரமடைந்து நாளை கரையைக் கடக்கிறது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (இடம், காரணம், ப
-[திருத்தம்] திருச்சி அருகே நெடுஞ்சாலையில் பேருந்து வ → திருச்சி மாவட்டத்தில் நெடுஞ்சாலையில் பேர
-[image] களஞ்சியம் (2 சொல்): திருச்சி மாவட்டத்தில் நெடுஞ்சாலையி
-[publish] திருச்சி மாவட்டத்தில் நெடுஞ்சாலையில் பேருந்து விபத்து, ஓம்னிபஸ் சுத்தப்படுத்துபவர் பலி, 40-க்கும் மேற்பட்ட பயணிகள் காயம்
-[திருத்தம்] ஸ்பெயின் பார்சிலோனா அருகே பேருந்து விபத் → ஸ்பெயின் பார்சிலோனா அருகே பேருந்து விபத்
-[publish] ஸ்பெயின் பார்சிலோனா அருகே பேருந்து விபத்தில் 80 பேர் காயம்
-[திருத்தம்] அமைச்சர் நேரு சகோதரர் ரவிச்சந்திரனை அமலா → அமைச்சர் கே.என்.நேரு சகோதரர் ரவிச்சந்திர
-[image] களஞ்சியம் (2 சொல்): அமைச்சர் கே.என்.நேரு சகோதரர் ரவிச்
-[hold] அமைச்சர் கே.என்.நேரு சகோதரர் ரவிச்சந்திரனை அமலாக்கத் துறை விசாரணைக்கு அழைத்தது
-[hold] வேலைக்குப் பணம் வழக்கு: நேரு மனுவை நிராகரித்த உயர்நீதிமன்றம்
-[skip] ஒடிசாவில் RBI தரவு மையம் திறப்பு விழா - உள்ளூர் நிகழ்வு, தமி
-[skip] பிரேசிலின் உள்நாட்டு தேர்தல். தமிழ்நாடு/இந்தியா வாசகரைக் குற
-[skip] டিআর் காங்গோவில் நடந்த உள்ளூர் சம்பவம். தமிழ்நாடு/இந்தியா வா
-[skip] பிரேசிலின் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்தியா வாசகரைப் பாத
-[திருத்தம்] விமான எரிபொருள் வரி குறைப்பு பின் அதிக வ → விமান எரிபொருள் வரி குறைப்பிற்குப் பின் 
-[தரம்] தமிழ் அல்லாத எழுத்து: না → ஒரு திருத்தம்
-[publish] விமான எரிபொருள் வரி குறைப்பிற்குப் பின் சென்னை விமான நிலையத்தில் அதிக சேவைகள் அறிமுகப்படுத்த அரசு கோரிக்கை
-[comic] கதை: வசீகரத்தில் அசைவற்ற வீரன்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.82) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-27.png · நாள் 48
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹12660 · சென்செக்ஸ் 73607
+[image] களஞ்சியம் (3 சொல்): கோமியின் மகள் பணிநீக்கம் சட்டவிரோத
+[publish] கோமியின் மகள் பணிநீக்கம் சட்டவிரோதம் என அமெரிக்க நீதிபதி தீர்ப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgRtuezqKTKvn5pqcKwmi'}
+[திருத்தம்] அமெரிக்க டாலருக்கு எதிராக ரூபாய் மதிப்பு → அமெரிக்க டாலருக்கு எதிராக ரூபாய் 95.18ஆக
+[publish] அமெரிக்க டாலருக்கு எதிராக ரூபாய் 95.18ஆகச் சரிவு, எண்ணெய் விலை உயர்வு காரணம்
+[publish] சந்திரசேகரன் மீள்நியமனத்தை எதிர்த்து நோயல் டாடா கேள்வி
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: டாடா சன்ஸ் தலைமை நியமனத்தில் நோயல் டாடா எழுப்பும் கேள்விகள் என்ன?
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹12657 · சென்செக்ஸ் 73607
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 10
+[done] feed 300 · pending 4 · எழுதியவை 10
