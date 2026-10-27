@@ -1,24 +1,24 @@
-[expire] 87347b6d2360
-[expire] e3183de668a2
-[fetch] RBI: 9 புதியவை
+[expire] 25cfbc19dbf6
+[expire] 0aeca5480bf8
+[fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 22 புதியவை
+[fetch] The Hindu TN: 21 புதியவை
 [fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 13 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 16 புதியவை
-[fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] BBC World: 15 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 24 புதியவை
+[fetch] The Hindu Sport: 30 புதியவை
+[fetch] The Hindu Cinema: 11 புதியவை
 [fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 18 புதியவை
 [fetch] Wired: 30 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7f3f63f389d0>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 10 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 28 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -26,19 +26,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 13 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 30 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -58,8 +58,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3f63e3e210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fd09b514310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
 [fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -67,49 +67,54 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 21 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 670 → நிகழ்வுகள் 614
-[triage] 614 → 67 | காலி: tn:4, india:4, govt:3, sports:3, court:2
-[skip] வெளிநாட்டு இலேசான நிகழ்வு — நিউசிலாந்து உள்நாட்டுத் தொடரில் 
-[திருத்தம்] தேனி துணைச் சிறையில் இருந்து 17 கைதிகள்  → தேனி துணைச் சிறையில் இருந்து 17 கைதிகள் 
-[image] களஞ்சியம் (3 சொல்): தேனி துணைச் சிறையில் இருந்து 17 கை
-[tts-edge] 946d86399e45: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தேனி துணைச் சிறையில் இருந்து 17 கைதிகள் தப்பித்தல்; நான்கு பேர் கைது
-[நகல்] ஏற்கனவே வெளியானது: தேனி துணைச் சிறையில் இருந்து 17 கைதிகள் தப்பித்தல்; நான்கு ப
-[image] களஞ்சியம் (3 சொல்): மேலூர் சிறுவன் உயிரிழப்பு வழக்கு க
-[tts-edge] ead308a8fe39: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மேலூர் சிறுவன் உயிரிழப்பு வழக்கு கொலையாக மாற்றம்
-[publish] இஸ்ரேலில் 2026 பொதுத் தேர்தல் தொடக்கம், நெதன்யாகுவுக்குக் கடும் சவால்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSK7aw8RvmypYkFZM8U2'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSKApACFkrdbZviV7yoj'}
-[திருத்தம்] தேனி சிறை தப்பித்தல்: மனிதத் தவறே காரணம் → தேனி சிறைத் தப்பித்தல்: மனிதத் தவறே காரண
-[publish] தேனி சிறைத் தப்பித்தல்: மனிதத் தவறே காரணம் என டிஜிபி-சிறைத் தெரிவிப்பு
-[skip] மூலம் மிகக் குறைவான தகவலே கொண்டுள்ளது — தேதி, எண்கள், மேற்கோ
-[image] களஞ்சியம் (2 சொல்): தேனி சிறையிலிருந்து தப்பியோடியவர் 
-[publish] தேனி சிறையிலிருந்து தப்பியோடியவர் தேடி கேரளாவுக்கு எச்சரிக்கை
-[image] களஞ்சியம் (3 சொல்): தேனி சிறையிலிருந்து தப்பியோடிய கைத
-[publish] தேனி சிறையிலிருந்து தப்பியோடிய கைதிகளில் நான்கு பேர் கைது
-[skip] சிரியாவிலும் ஜோர்டனிலும் நிகழ்ந்த ராணுவ மோதல் — தமிழ்நாடு / 
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — இஸ்রேல் தேர்தல் தமிழ்நாடு/இந்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSKSecfBqGP9WmLwiJWs'}
-[skip] கேபாண்ட் கடற்கொள்ளை — மக்கள் விடயமாகப் பாதிக்கும் என்றாலும்,
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSKW6VVuZwJfJofNy7k1'}
-[image] களஞ்சியம் (2 சொல்): தேனி சிறையிலிருந்து 17 கைதிகள் தப்
-[publish] தேனி சிறையிலிருந்து 17 கைதிகள் தப்பிய வழக்கு: 9 காவலர்கள் பணி நீக்கம்
-[publish] ஆவின் பால் பொருட்களின் விலை உயர்வு நாளை முதல் அமலுக்கு வருகிறது
-[தரம்] தமிழ் அல்லாத எழுத்து: তি → ஒரு திருத்தம்
-[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்குகள் நாளை பதிவு, 22 சதவீத பிரீமியம் எதிர்பார்ப்பு
-[திருத்தம்] நேட்டோ ஆணை பெற்ற சிக்மா பங்கு ஐந்து சதவீ → சிக்மா அட்வான்ஸ்டு சிஸ்டம்ஸ் பங்கு 5% உய
-[image] களஞ்சியம் (2 சொல்): சிக்மா அட்வான்ஸ்டு சிஸ்டம்ஸ் பங்கு
-[publish] சிக்மா அட்வான்ஸ்டு சிஸ்டம்ஸ் பங்கு 5% உயர்வு — நேட்டோவிடமிருந்து ₹973 கோடி ஆணை
-[filler] tech கட்டுரை
+[run] புதியவை 716 → நிகழ்வுகள் 656
+[triage] 656 → 71 | காலி: tn:4, india:4, sports:3, court:2, govt:2
+[skip] இந்திய கிரிக்கெட் வீரர் ஒருவரின் ব্যক்তিগত நிবন্ধ সম্পর্কিত 
+[tts-edge] 19ebc5f0e94e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] உக்ரைன் நகரில் போர் நிறுத்தம், உதவிப் பொருட்கள் நுழைய வழி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSnkVUduC5bNwtw8JAiu'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] தென் கொரிய எல்லையில் வட கொரிய ஹோவிட்சர்  → தென் கொரிய எல்லையில் வட கொரிய ஹௌவிட்சர் 
+[tts-edge] 74b41528b8fd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தென் கொரிய எல்லையில் வட கொரிய ஹௌவிட்சர் பீரங்கிகள் கண்டறிப்பு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] தேனி சிறையில் இருந்து கைதிகள் பிரதான வாய → தேனி சிறையில் இருந்து கைதிகள் பிரதான நுழ
+[image] களஞ்சியம் (2 சொல்): தேனி சிறையில் இருந்து கைதிகள் பிரத
+[hold] தேனி சிறையில் இருந்து கைதிகள் பிரதான நுழைவு வாயில் வழியாகத் தப்பினர்
+[தரம்] தமிழ் அல்லாத எழுத்து: মু → ஒரு திருத்தம்
+[publish] இஸ்ரேல் தேர்தலில் பல தசாப்தங்களில் இல்லாத வாக்குப்பதிவு
+[skip] இரு மூலங்களும் முரண்பட்ட தகவலைத் தருகின்றன - ஒன்று தமிழக அரச
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSo8N2XXBAvcM1dEax46'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (3 சொல்): தேனி சிறையிலிருந்து தப்பிய மேலும் 
+[publish] தேனி சிறையிலிருந்து தப்பிய மேலும் ஒருவர் கைது
+[திருத்தம்] ஆம்ஸ்ட்ராங் வழக்கில் தொழிலதிபரை மிரட்டிய → ஆம்ஸ்ட்ராங் கொலை வழக்கில் தொழிலதிபரை மிர
+[image] களஞ்சியம் (2 சொல்): ஆம்ஸ்ட்ராங் கொலை வழக்கில் தொழிலதிப
+[publish] ஆம்ஸ்ட்ராங் கொலை வழக்கில் தொழிலதிபரை மிரட்டிய காவல் ஆய்வாளருக்கு ஜாமீன்
+[skip] மூலத்தில் ஒரே வரித் தலைப்பு மட்டுமே உள்ளது, போதிய விவரம் இல்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] மாருதி சுசுகி லாபம் 26 சதவீதம் சரிவு, வருவாய் உயர்வு
+[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): சென்னை சாலைகள் பழுதுபார்க்க நெடுஞ்
+[publish] சென்னை சாலைகள் பழுதுபார்க்க நெடுஞ்சாலைத் துறை பணி தொடக்கம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது; விவரங்கள் இல்லாததால
+[திருத்தம்] கற்பாறைகள் ஏற்றுமதி தடையை மூன்று மாதங்கள → கரடர் கல் ஏகப்பட்ட தடையை தமிழ்நாடு மூன்ற
+[தரம்] தமிழ் அல்லாத எழுத்து: না → ஒரு திருத்தம்
+[publish] கரடர் கல் தடையை தமிழ்நாடு மூன்று மாதங்கள் நீட்டித்தது.
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSofcXXw6CzaaL4paoSu'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgSokwDZyPvGFFtqPwcLs'}
+[image] களஞ்சியம் (2 சொல்): கள்ளக்குறிச்சியில் மழை பாதிப்பு பக
+[publish] கள்ளக்குறிச்சியில் மழை பாதிப்பு பகுதிகளை அமைச்சர் வண்ணி அரசு ஆய்வு
+[filler] sports கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12608 · சென்செக்ஸ் 73545
+[market] தங்கம் 22K ₹12675 · சென்செக்ஸ் 73599
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 2 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 10
