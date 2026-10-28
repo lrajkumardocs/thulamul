@@ -1,23 +1,22 @@
-[expire] 7f81cc7e5f77
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 21 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] The Hindu TN: 10 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 20 புதியவை
+[fetch] Al Jazeera: 21 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Cinema: 11 புதியவை
 [fetch] Cinema Express: 25 புதியவை
-[fetch] The Hindu Tech: 22 புதியவை
+[fetch] The Hindu Tech: 23 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 23 புதியவை
+[fetch] FreeJobAlert: 17 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -30,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 24 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 24 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,67 +56,58 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fad9697b2d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
-[fetch] Times Govt Schemes: 15 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f769d734490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 24 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
+[fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 20 புதியவை
+[fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 668 → நிகழ்வுகள் 610
-[triage] 610 → 51 | காலி: india:4, world:3, economy:3, court:3, jobs:3
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத பிற மாநில வேலை
-[skip] மூல உரை முழுமையாக இல்லை. வார்த்தைகள் மாறி, நிறைய பகுதி வெட்ட
-[skip] மராठी திரையுலகம், மராठி பிரাந்தியம் — தமிழ்நாட்டு வாசகருக்கு
-[skip] மிச்சற்குறைய செய்திகள் — ஆஸ்திரேலியப் பேச்சுக் கட்டுரை, தமிழ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgTZEDtgRra8KsgxxZw16'}
-[skip] மூலத்தில் போதிய விவரங்கள் இல்லை — தலைப்பு மற்றும் ஒரு வாக்கி
-[image] களஞ்சியம் (3 சொல்): தமிழகத்தில் தனித் தனி சாலை விபத்து
-[tts-edge] e53c6edc472e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழகத்தில் தனித் தனி சாலை விபத்துகளில் இருவர் பலி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgTZMwF2dfgUyF7ZBW687'}
-[திருத்தம்] தேனி சிறை தப்பிய கைதிகளில் பலர் கைது, தே → தேனி சிறை தப்பிய கைதிகளில் 13 பேர் கைது,
-[image] களஞ்சியம் (3 சொல்): தேனி சிறை தப்பிய கைதிகளில் 13 பேர்
-[tts-edge] 96addbb8756c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தேனி சிறை தப்பிய கைதிகளில் 13 பேர் கைது, தேடுதல் தொடர்பு
-[skip] இது அமெரிக்க மத்திய வங்கியின் கூட்டம் தொடங்கியது பற்றிய ஆரம்
-[skip] தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இல்லாத வெளிநாட்டுப் ப
-[திருத்தம்] நகர்ப்புற கூட்டுறவு வங்கிகளின் வீட்டுக்  → நகர்ப்புற கூட்டுறவு வங்கிகளின் வீட்டுக் 
-[தரம்] தமிழ் அல்லாத எழுத்து: न → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: நகர்ப்புற கூட்டுறவு வங்கிகளின் வீட
-[publish] நகர்ப்புற கூட்டுறவு வங்கிகளின் வீட்டுக் கடன் வரம்பு உயர்வு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் 'CM Vijay' என்ற குறிப்பு தமிழ்நாட்டின் தற்போதைய மு
-[திருத்தம்] கற்பாறை இதர மாநில போக்குவரத்து தடை மூன்ற → கற்குவாரி இதர மாநில போக்குவரத்து தடை மூன
-[image] களஞ்சியம் (2 சொல்): கற்குவாரி இதர மாநில போக்குவரத்து த
-[publish] கற்குவாரி இதர மாநில போக்குவரத்து தடை மூன்று மாதம் நீட்டிப்பு
-[skip] மூலத்தில் போதிய தகவல் இல்லை - தலைப்பு மட்டுமே உள்ளது, அமைச்ச
-[திருத்தம்] டாஸ்மாக் கடைகளில் ரூ.1,000க்கு மேல் மதுப → டாஸ்மாக் கடைகளில் ரூ.1,000-க்கு மேல் மது
-[தரம்] தமிழ் அல்லாத எழுத்து: আই → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): டாஸ்மாக் கடைகளில் ரூ.1,000-க்கு மே
-[publish] டாஸ்மாக் கடைகளில் ரூ.1,000-க்கு மேல் மதுபானம் வாங்கினால் டிஜிட்டல் கட்டணம் கட்டாயம்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] தமிழக அரசு கல்லூரிகளில் 2,708 பேராசிரியர் பணியிடங்கள் விரைவில் நிரப்பம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgTZvh9PGYwxcsosGXGtU'}
-[publish] ரிலையன்ஸ் நிறுவனம் அக்டோபர் 30ல் காலாண்டு முடிவு வெளியீடு
-[publish] கடன் பத்திர அறங்காவலர் விதிமுறை கடைசி நாளை நீட்டித்த செபி
-[skip] இஸ்ரேல் உள் அரசியல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு
-[skip] வெளிநாட்டு நாடுகளின் உள்நாட்டு அரசியல் மற்றும் இரு நாட்டுக் 
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது. எகிப்தின் உள்ளூர்언론ச் சம்பி
-[skip] வெளிநாட்டுத் தலைவர்களின் சாதாரணக் கூட்டம் — தமிழ்நாடு/இந்திய
-[skip] வெளிநாட்டுச் செய்தி — இந்தோனேசியாவின் உள்நாட்டுச் சூழல்சிக்க
-[image] களஞ்சியம் (3 சொல்): காட்பாடி ரயில் நிலையம் அருகே கார் 
-[publish] காட்பாடி ரயில் நிலையம் அருகே கார் திருட்டு வழக்கில் ஒருவர் கைது
-[திருத்தம்] ஓஎம்ஆர், இசிஆர் இணைப்புச் சாலைக்கு திட்ட → ஓஎம்ஆர், ইসিआர இணைப்புச் சாலைக்கு திட்ட 
-[தரம்] தமிழ் அல்லாத எழுத்து: आআইসি → ஒரு திருத்தம்
-[publish] ஓஎம்ஆர், ஈசிஆர் இணைப்புச் சாலைக்கு திட்ட அறிக்கை தயாரிப்பு
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: பள்ளிக்கரணை ஈரநிலத்தில் கட்டிடமா, சட்டப் பாதுகாப்பா?
-[market] தங்கம் 22K ₹12799 · சென்செக்ஸ் 73599
+[run] புதியவை 642 → நிகழ்வுகள் 593
+[triage] 593 → 37 | காலி: india:4, world:3, court:3, health:3, cinema:3
+[skip] வெளிநாட்டு மருந்து சோதனை. தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்
+[திருத்தம்] கரிவిడి லட்சுமி பாத்திரம் மிகக் கடினமாக  → கரிவிடி லட்சுமி பாத்திரம் மிகக் கடினமாக 
+[tts-edge] 62123e69dcbc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கரிவிடி லட்சுமி பாத்திரம் மிகக் கடினமாக இருந்தது என அனந்தி
+[skip] வெளிநாட்டுத் திரையுலக சினிமா / விளையாட்டு — இதாலி T10 கிரிக்
+[image] களஞ்சியம் (2 சொல்): அர்னாப் புயல்: ஆந்திரக் கடற்கரையில
+[tts-edge] 229d5e962b17: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அர்னாப் புயல்: ஆந்திரக் கடற்கரையில் தாக்கம், தமிழகத்திலும் மழை அபாயம்
+[திருத்தம்] முதல்வருக்கு கொலை மிரட்டல்: திமுக கவுன்ச → முதல்வருக்கு கொலை மிரட்டல்: திமுக கவுன்ச
+[image] களஞ்சியம் (3 சொல்): முதல்வருக்கு கொலை மிரட்டல்: திமுக 
+[publish] முதல்வருக்கு கொலை மிரட்டல்: திமுக கவுன்சிலர் மீது 4 பிரிவுகளில் வழக்கு
+[skip] வங்கக்கடலில் நகரும் அர்னாப் புயல் — ஆந்திரப் பிரதேசம் மற்றும
+[திருத்தம்] பத்தாயிரம் பெண்களுக்கு விலையில்லா கறவை ம → 10,000 பெண்களுக்கு விலையில்லா கறவை மாடுக
+[image] களஞ்சியம் (2 சொல்): 10,000 பெண்களுக்கு விலையில்லா கறவை
+[publish] 10,000 பெண்களுக்கு விலையில்லா கறவை மாடுகள் வழங்கும் திட்டம்: ரூ.57 கோடி ஒதுக்கியது தமிழக அரசு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம், இடம், காரணம், அதி
+[திருத்தம்] காவிரி ஆணைய உத்தரவை மீறல்: உச்சநீதிமன்றத → காவிரி ஆணையத்தின் உத்தரவை மீறல்: உச்ச நீ
+[நகல்] ஏற்கனவே வெளியானது: காவிரி நீர் உத்தரவு மீறல்: உச்ச நீதிமன்றத்தில் தமிழக அரசு மன
+[image] களஞ்சியம் (2 சொல்): திருவண்ணாமலையில் தொடர்ந்து 3 மாணவி
+[publish] திருவண்ணாமலையில் தொடர்ந்து 3 மாணவிகள் காணாமல் போனது, விசாரணை தீவிரம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை எழுத போதுமான விவர
+[திருத்தம்] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்குகள் இன்று பங்க → ஜியோ பிளாட்ஃபார்ம்ஸ் பங்குகள் இன்று பங்க
+[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்குகள் இன்று பங்குச் சந்தையில் பட்டியலிடப்படுகின்றன
+[தரம்] தமிழ் அல்லாத எழுத்து: আইএ → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): இந்தியா எட்டு சதவீத வளர்ச்சியை எட்
+[publish] இந்தியா எட்டு சதவீத வளர்ச்சியை எட்டும் தூரத்தில்: சக்திகாந்த தாஸ்
+[skip] இந்தியத் தொலைத்தொடர்பு நிறுவனத்தின் பங்குச்சந்தை அறிமுகம் பி
+[திருத்தம்] உலகளாவிய சவால்கள் மத்தியிலும் இந்தியப் ப → உலகளாவிய சவால்கள் மத்தியிலும் இந்தியப் ப
+[தரம்] தமிழ் அல்லாத எழுத்து: రా → ஒரு திருத்தம்
+[publish] உலகளாவிய சவால்கள் மத்தியிலும் இந்தியப் பொருளாதார வளர்ச்சி உறுதி: ரிசர்வ் வங்கி
+[திருத்தம்] யேலகிரி மலைச் சாலையில் பாதுகாப்பு கான்கி → யேலகிரி மலைச் சாலையில் கான்கிரீட் விளிம்
+[image] களஞ்சியம் (3 சொல்): யேலகிரி மலைச் சாலையில் கான்கிரீட் 
+[publish] யேலகிரி மலைச் சாலையில் கான்கிரீட் விளிம்பு அமைப்பு; பாதுகாப்புத் திட்டம்
+[திருத்தம்] சிறை பாதுகாப்பு குறித்து அன்புமணி ராமதாஸ → சிறை அதிகாரிகள் மீது நடவடிக்கை எடுக்க வே
+[publish] சிறை அதிகாரிகள் மீது நடவடிக்கை எடுக்க வேண்டும்: அன்புமணி ராமதாஸ்
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹12749 · சென்செக்ஸ் 73599
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
