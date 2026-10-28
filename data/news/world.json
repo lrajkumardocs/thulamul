@@ -1,5 +1,69 @@
 [
  {
+  "headline": "ஸ்பெயினில் இரு ரயில்கள் மோதி 64 பேர் உயிரிழப்பு",
+  "lines": [
+   "ஸ்பெயின் நாட்டில் இரு ரயில்கள் மோதி மோசமான விபத்து ஏற்பட்டுள்ளது.",
+   "இந்த விபத்தில் குறைந்தது 64 பேர் உயிரிழந்துள்ளனர்.",
+   "இது பெரும் அதிர்ச்சியை ஏற்படுத்தியுள்ளதாக ஸ்பெயின் பிரதமர் பெட்ரோ சான்செஸ் தெரிவித்துள்ளார்.",
+   "விபத்து குறித்த விரிவான விவரங்கள் இன்னும் வெளியாகவில்லை.",
+   "மீட்புப் பணிகள் தற்போது தொடர்ந்து நடைபெற்று வருவதாகத் தெரிகிறது."
+  ],
+  "closing": "விபத்துக்கான காரணம் மற்றும் உயிரிழந்தோர் தொடர்பான முழு விவரங்களை அதிகாரிகள் விரைவில் வெளியிடக்கூடும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ஸ்பெயின்",
+   "பெட்ரோ சான்செஸ்",
+   "ரயில் விபத்து"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Two trains collide in Spain, at least 64 killed",
+   "lines": [
+    "A major accident occurred in Spain after two trains collided.",
+    "At least sixty four people have died in the crash.",
+    "Spanish Prime Minister Pedro Sanchez said the accident has caused great shock.",
+    "Detailed information about the accident has not yet been released.",
+    "Rescue operations are reportedly continuing at the site."
+   ],
+   "closing": "Authorities are expected to release full details on the cause of the crash and the victims soon.",
+   "closing_type": "watch"
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "7c165920a03d",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-28T20:10+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/crgqwk15kkyvo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/accident01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/7c165920a03d.mp3",
+  "created_ts": 1793198421.7578557,
+  "status": "published"
+ },
+ {
   "headline": "இஸ்ரேல் தேர்தலில் பல தசாப்தங்களில் இல்லாத வாக்குப்பதிவு",
   "lines": [
    "ஹமாஸ் தலைமையிலான தாக்குதலுக்குப் பின் முதல் முறையாக இஸ்ரேலில் இன்று முக்கியத் தேர்தல் நடைபெறுகிறது.",

@@ -1,22 +1,23 @@
+[expire] 48670a745fff
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 11 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 20 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 14 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 19 புதியவை
+[fetch] The Hindu Cinema: 22 புதியவை
 [fetch] Cinema Express: 25 புதியவை
 [fetch] The Hindu Tech: 28 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 15 புதியவை
+[fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 28 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,21 +30,21 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 18 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
-[fetch] Behindwoods: பிழை HTTPSConnectionPool(host='www.behindwoods.com', port=443): Read timed out.
+[fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
@@ -56,75 +57,47 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f92de33a690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
-[fetch] Times Govt Schemes: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3ba0c41390>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
+[fetch] Times Govt Schemes: 17 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 19 புதியவை
+[fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 717 → நிகழ்வுகள் 651
-[triage] 651 → 68 | காலி: india:4, world:3, court:3, health:3, sports:3
-[skip] இது ஒரு தனியார் பல்கலைக்கழகத்தின் (SGT University) ஆன்லைன் ச
-[skip] செய்திக் குறிப்பு (Feature/Column) — உடனடி நிகழ்வு இல்லை; பொ
-[skip] வெளிநாட்டுத் கிரிக்கெட் (ওয়েস্ট இন্ডीজ vs பাংলাদেশ টেস্ট ম্
-[நகல்] ஏற்கனவே வெளியானது: தேனி சிறை தப்பிய கைதிகளில் 13 பேர் கைது, தேடுதல் தொடர்பு
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, சம்பவத்தின் வ
-[திருத்தம்] இஸ்ரேல் பாராளுமன்றத் தேர்தல் - நெதன்யாகு → இஸ்ரேல் பாராளுமன்றத் தேர்தல் — நெதன்யாகு
-[tts-edge] 48670a745fff: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] இஸ்ரேல் பாராளுமன்றத் தேர்தல் — நெதன்யாகு கூட்டணிக்கு சிறு முன்னிலை
-[திருத்தம்] தேனி சிறை தப்பிய கைதிகளில் மேலும் 2 பேர் → தேனி சிறையிலிருந்து தப்பிய கைதிகளில் மேல
-[நகல்] ஏற்கனவே வெளியானது: தேனி சிறை தப்பிய கைதிகளில் 13 பேர் கைது, தேடுதல் தொடர்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgUGcE3Vt9whxZR4vZYRT'}
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[image] களஞ்சியம் (4 சொல்): தமிழக கடலோரப் பகுதிகளில் கடல் சீற்
-[tts-edge] 0385045542e1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழக கடலோரப் பகுதிகளில் கடல் சீற்றம் எச்சரிக்கை, முன்னெச்சரிக்கை நடவடிக்கை தீவிரம்
-[skip] உக்ரைனில் நடக்கும் போர்—தமிழ்நாடு/இந்திய வாசகருக்கு நேரடி பா
-[skip] வெளிநாட்டு உள்நாட்டுத் தகராறு — தமிழ்நாடு/இந்தியத் வாசகருக்க
-[skip] ஆക்ரமணக் களத்தின் வெளிநாட்டு உள்நாட்டுச் சம்பவம். தமிழ்நாடு 
-[skip] சிரியா-ஜோர்டான் எல்லை மீண்டும் திறப்பு — இது மধ்தகிழக்கின் உ
-[skip] இஸ்ரேல் தேர்தல் — இஸ்ரேல் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்தி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgUGkEsZveeu3YqG8wm4G'}
-[திருத்தம்] அதானி போர்ட்ஸ் நிறுவனத்தின் இரண்டாம் கால → அதானி போர்ட்ஸ் நிறுவனத்தின் இரண்டாம் கால
-[image] களஞ்சியம் (2 சொல்): அதானி போர்ட்ஸ் நிறுவனத்தின் இரண்டா
-[publish] அதானி போர்ட்ஸ் நிறுவனத்தின் இரண்டாம் காலாண்டு நிகர லாபம் 17% வளர்ச்சி
-[skip] தேனி சிறை நிகழ்வு தமிழ்நாட்டுச் செய்தி; world என்று குறிப்பி
-[skip] கேரளத்தின் உள்ளூர் கொலை வழக்கு. தமிழ்நாடு/இந்திய தேசிய அளவில
-[skip] வெளிநாட்டு உள்நாட்டுக் குற்றவழக்கு — அமெரிக்க உள்ளூர் நீதி ம
-[skip] நைஜেரியாவின் உள்நாட்டு சிறைக்காவல் விபத்து — தமிழ்நாடு/இந்தி
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் மற்றும் சர்ச்சை — தமிழ்நாடு/இந்
-[skip] வெனிசுয়েலாவின் உள்ளூர் அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப்
-[skip] வெளிநாட்டு அரசியல் கருத்துரை — தமிழ்நாடு/இந்தியா வாசகரைப் பா
-[skip] எகிப்தின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
-[skip] இஸ்ரேலின் உள்நாட்டுக் கட்சித் தேர்தல் — தமிழ்நாடு/இந்திய வாச
-[skip] இஸ்ரேலின் உள் அரசியல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்
-[skip] மும்பை உள்ளூர் சிறு தீ விபத்து, உயிரிழப்பு இல்லை, தமிழ்நாட்ட
-[தரம்] தமிழ் அல்லாத எழுத்து: আম애 → ஒரு திருத்தம்
-[publish] தொழில் வரையறைக்கு எதிரான மனுவை விசாரிக்க உச்ச நீதிமன்றம் ஒப்புதல்
-[publish] ஆந்திரக் கடற்கரையைக் கடந்த புயல் அர்நாப், உயிரிழப்பு இல்லை
-[skip] மேற்கு வங்கத்தின் உள்ளூர் சட்டம் ஒழுங்கு சம்பவம் - தமிழ்நாட்
-[skip] ஹிந்திப் படம் — தமிழ்நாட்டு வாசகருக்கான செய்தி அல்ல. தமிழில்
-[skip] தெலுங்கானா / தिल्ली தொடர்பு: செய்தி தெலுங்கான அரசு மருத்துவ 
-[திருத்தம்] பிரச்சனைக்குள்ளான வீட்டுத் திட்டங்களுக்க → பிரச்சனைக்குள்ளான வீட்டுத் திட்டங்களுக்க
-[publish] பிரச்சனைக்குள்ளான வீட்டுத் திட்டங்களுக்குத் தீர்வு அளிக்க இயலாது என உச்ச நீதிமன்றம்
-[skip] வெளிநாட்டு ஆய்வுக் குறிப்பு — தமிழ்நாடு/இந்தியாவுடன் நேரடித்
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (WBBL) — தமிழ்நாடு/இந்தியாவுக்க
-[skip] வெளிநாட்டு சிற்றரங்கக் கோப்பைகளும் அதன் பெயரிடல் விழாவும் தம
-[skip] கேரள உயர்நீதிமன்றத்தில் உள்ளூர் ஏமாற்று வழக்கு தீர்வு — தமிழ
-[skip] இந்தியா மற்றும் அமெரிக்காவின் ஒப்பாய்வு ஆய்வு. தமிழ்நாட்டு வ
-[skip] வেস্टইண்டீஸ் மற்றும் বাংলादেশ இடையே கிரிക்கெட் தொடரில் ஒரு வ
-[filler] health கட்டுரை
+[run] புதியவை 719 → நிகழ்வுகள் 654
+[triage] 654 → 33 | காலி: india:3, world:3, sports:3, health:2, cinema:2
+[skip] வেস্टிண்டீஸ் மற்றும் பাங்களாதேশ் இடையிலான சர্வதேশக் கிரிக்கெ
+[image] களஞ்சியம் (2 சொல்): ஸ்பெயினில் இரு ரயில்கள் மோதி 64 பே
+[tts-edge] 7c165920a03d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஸ்பெயினில் இரு ரயில்கள் மோதி 64 பேர் உயிரிழப்பு
+[skip] அர்னாப் புயல் ஆந்திரப் பிரதேசத்தை முதன்மையாகப் பாதித்துள்ளது
+[skip] இந்திய கிழக்குக் கடற்கரையில் சூறாவளி தாக்கியது ஒரு தேசிய செய
+[image] களஞ்சியம் (2 சொல்): வில்லுப்பாட்டு தற்காலிக பேராசிரியர
+[tts-edge] 2fe6e70fedae: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வில்லுப்பாட்டு தற்காலிக பேராசிரியர் பணிக்கு நவம்பர் 10 கடைசி நாள்
+[skip] இது இரு நிறுவனங்களுக்கு இடையேயான ஆராய்ச்சி ஒத்துழைப்பு அறிவி
+[skip] இது ஒரு சிறிய/குறிப்பிடத்தக்கதாக இல்லாத அரசியல் அமைப்பின் அற
+[publish] சென்னை உள்ளிட்ட பகுதிகளில் ஆட்டோ கட்டணம் திருத்தம்
+[திருத்தம்] நித்திரையில் ஏற்பட்ட பக்கவாதம் சிகிச்சை  → விழித்திருக்கும் போது ஏற்படும் பக்கவாதம்
+[publish] விழித்திருக்கும் போது ஏற்படும் பக்கவாதம் — இமேஜிங் தொழில்நுட்பம் சிகிச்சைக்கு வழி
+[skip] கन্নড மொழிப் படம். தமிழ்நாட்டுக் வாசகர் அல்லது தமிழ்க் கலைஞர
+[skip] ராகுல் காந்தி - சாவர்க்கர் குடும்பத்தினர் இடையிலான வரலாற்றுக
+[skip] வெளிநாட்டு பெண்கள் கிரிக்கெட் தொடர் (Zimbabwe எதிர்) — தமிழ்
+[image] களஞ்சியம் (2 சொல்): புற்றுநோய் மருந்துகளின் விலைக் கட்
+[publish] புற்றுநோய் மருந்துகளின் விலைக் கட்டுப்பாடு சிகிச்சைச் செலவைக் குறைக்குமா?
+[skip] கேரளத்தின் உள்ளூர் திட்டம்; தமிழ்நாட்டு வாசகருக்குப் பொருத்த
+[skip] महिला प्रीमियर लीग (WPL) ऑक्शन भारतीय महिला क्रिकेट का प्रमु
+[filler] tech கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12729 · சென்செக்ஸ் 73416
+[market] தங்கம் 22K ₹12740 · சென்செக்ஸ் 73246
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 6
+[done] feed 300 · pending 0 · எழுதியவை 5
