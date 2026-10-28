@@ -1,1 +1,66 @@
-[]
+[
+ {
+  "headline": "இஸ்ரேல் பாராளுமன்றத் தேர்தல் — நெதன்யாகு கூட்டணிக்கு சிறு முன்னிலை",
+  "lines": [
+   "இஸ்ரேல் நாட்டில் நடைபெற்ற பாராளுமன்றத் தேர்தலில் வாக்கு எண்ணிக்கை நடைபெற்று வருகிறது.",
+   "பாதிக்கும் மேற்பட்ட வாக்குகள் எண்ணப்பட்ட நிலையில், பிரதமர் பெஞ்சமின் நெதன்யாகு தலைமையிலான கூட்டணி சிறு முன்னிலையில் உள்ளது.",
+   "எனினும் அந்தக் கூட்டணிக்குப் பெரும்பான்மை பெற தேவையான இடங்கள் இன்னும் கிடைக்கவில்லை என தெரிவிக்கப்படுகிறது.",
+   "எதிர்க்கட்சிக் கூட்டணி சற்றே பின்தங்கிய நிலையில் உள்ளதாக ஆரம்ப முடிவுகள் தெரிவிக்கின்றன.",
+   "வாக்கு எண்ணிக்கை முழுமையாக முடிவடைந்த பின்னரே இறுதி முடிவு தெளிவாகும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "வாக்கு எண்ணிக்கை இன்னும் நிறைவடையாத நிலையில், இறுதி முடிவுக்காக காத்திருக்க வேண்டிய சூழல் நிலவுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "இஸ்ரேல்",
+   "பெஞ்சமின் நெதன்யாகு",
+   "பாராளுமன்றத் தேர்தல்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Israel parliamentary election - Netanyahu bloc holds slight lead",
+   "lines": [
+    "Vote counting is underway in Israel's parliamentary election.",
+    "With more than half the votes counted, Prime Minister Benjamin Netanyahu's bloc holds a slight lead.",
+    "However, the bloc is reported to be short of the seats needed for a majority.",
+    "Early results indicate the opposition coalition is trailing slightly behind.",
+    "The final outcome is expected to become clear only after counting is fully completed."
+   ],
+   "closing": "With vote counting still incomplete, the final result remains awaited."
+  },
+  "front_cat": "election_major",
+  "image_query": "",
+  "wiki_subject": "Elections in Israel",
+  "person_en": "Benjamin Netanyahu",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "numbers_conflict",
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "48670a745fff",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-10-28T13:19+05:30",
+  "links": [
+   "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Benjamin_Netanyahu%2C_February_2023_%28cropped%29%28b%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Benjamin Netanyahu",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu",
+   "symbolic": false
+  },
+  "audio": "data/audio/48670a745fff.mp3",
+  "created_ts": 1793173756.2865715,
+  "status": "pending"
+ }
+]

@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 10 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
+[fetch] The Hindu TN: 11 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
 [fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 21 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 11 புதியவை
+[fetch] The Hindu Cinema: 19 புதியவை
 [fetch] Cinema Express: 25 புதியவை
-[fetch] The Hindu Tech: 23 புதியவை
-[fetch] Wired: 30 புதியவை
+[fetch] The Hindu Tech: 28 புதியவை
+[fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 17 புதியவை
+[fetch] FreeJobAlert: 28 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,22 +28,22 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] Bar and Bench: 18 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 24 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
-[fetch] Behindwoods: 0 புதியவை
+[fetch] Behindwoods: பிழை HTTPSConnectionPool(host='www.behindwoods.com', port=443): Read timed out.
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
@@ -56,10 +56,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f769d734490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f92de33a690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,52 +67,64 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 642 → நிகழ்வுகள் 593
-[triage] 593 → 37 | காலி: india:4, world:3, court:3, health:3, cinema:3
-[skip] வெளிநாட்டு மருந்து சோதனை. தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்
-[திருத்தம்] கரிவిడి லட்சுமி பாத்திரம் மிகக் கடினமாக  → கரிவிடி லட்சுமி பாத்திரம் மிகக் கடினமாக 
-[tts-edge] 62123e69dcbc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கரிவிடி லட்சுமி பாத்திரம் மிகக் கடினமாக இருந்தது என அனந்தி
-[skip] வெளிநாட்டுத் திரையுலக சினிமா / விளையாட்டு — இதாலி T10 கிரிக்
-[image] களஞ்சியம் (2 சொல்): அர்னாப் புயல்: ஆந்திரக் கடற்கரையில
-[tts-edge] 229d5e962b17: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அர்னாப் புயல்: ஆந்திரக் கடற்கரையில் தாக்கம், தமிழகத்திலும் மழை அபாயம்
-[திருத்தம்] முதல்வருக்கு கொலை மிரட்டல்: திமுக கவுன்ச → முதல்வருக்கு கொலை மிரட்டல்: திமுக கவுன்ச
-[image] களஞ்சியம் (3 சொல்): முதல்வருக்கு கொலை மிரட்டல்: திமுக 
-[publish] முதல்வருக்கு கொலை மிரட்டல்: திமுக கவுன்சிலர் மீது 4 பிரிவுகளில் வழக்கு
-[skip] வங்கக்கடலில் நகரும் அர்னாப் புயல் — ஆந்திரப் பிரதேசம் மற்றும
-[திருத்தம்] பத்தாயிரம் பெண்களுக்கு விலையில்லா கறவை ம → 10,000 பெண்களுக்கு விலையில்லா கறவை மாடுக
-[image] களஞ்சியம் (2 சொல்): 10,000 பெண்களுக்கு விலையில்லா கறவை
-[publish] 10,000 பெண்களுக்கு விலையில்லா கறவை மாடுகள் வழங்கும் திட்டம்: ரூ.57 கோடி ஒதுக்கியது தமிழக அரசு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம், இடம், காரணம், அதி
-[திருத்தம்] காவிரி ஆணைய உத்தரவை மீறல்: உச்சநீதிமன்றத → காவிரி ஆணையத்தின் உத்தரவை மீறல்: உச்ச நீ
-[நகல்] ஏற்கனவே வெளியானது: காவிரி நீர் உத்தரவு மீறல்: உச்ச நீதிமன்றத்தில் தமிழக அரசு மன
-[image] களஞ்சியம் (2 சொல்): திருவண்ணாமலையில் தொடர்ந்து 3 மாணவி
-[publish] திருவண்ணாமலையில் தொடர்ந்து 3 மாணவிகள் காணாமல் போனது, விசாரணை தீவிரம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை எழுத போதுமான விவர
-[திருத்தம்] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்குகள் இன்று பங்க → ஜியோ பிளாட்ஃபார்ம்ஸ் பங்குகள் இன்று பங்க
-[publish] ஜியோ பிளாட்ஃபார்ம்ஸ் பங்குகள் இன்று பங்குச் சந்தையில் பட்டியலிடப்படுகின்றன
-[தரம்] தமிழ் அல்லாத எழுத்து: আইএ → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): இந்தியா எட்டு சதவீத வளர்ச்சியை எட்
-[publish] இந்தியா எட்டு சதவீத வளர்ச்சியை எட்டும் தூரத்தில்: சக்திகாந்த தாஸ்
-[skip] இந்தியத் தொலைத்தொடர்பு நிறுவனத்தின் பங்குச்சந்தை அறிமுகம் பி
-[திருத்தம்] உலகளாவிய சவால்கள் மத்தியிலும் இந்தியப் ப → உலகளாவிய சவால்கள் மத்தியிலும் இந்தியப் ப
-[தரம்] தமிழ் அல்லாத எழுத்து: రా → ஒரு திருத்தம்
-[publish] உலகளாவிய சவால்கள் மத்தியிலும் இந்தியப் பொருளாதார வளர்ச்சி உறுதி: ரிசர்வ் வங்கி
-[திருத்தம்] யேலகிரி மலைச் சாலையில் பாதுகாப்பு கான்கி → யேலகிரி மலைச் சாலையில் கான்கிரீட் விளிம்
-[image] களஞ்சியம் (3 சொல்): யேலகிரி மலைச் சாலையில் கான்கிரீட் 
-[publish] யேலகிரி மலைச் சாலையில் கான்கிரீட் விளிம்பு அமைப்பு; பாதுகாப்புத் திட்டம்
-[திருத்தம்] சிறை பாதுகாப்பு குறித்து அன்புமணி ராமதாஸ → சிறை அதிகாரிகள் மீது நடவடிக்கை எடுக்க வே
-[publish] சிறை அதிகாரிகள் மீது நடவடிக்கை எடுக்க வேண்டும்: அன்புமணி ராமதாஸ்
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 12
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹12749 · சென்செக்ஸ் 73599
+[run] புதியவை 717 → நிகழ்வுகள் 651
+[triage] 651 → 68 | காலி: india:4, world:3, court:3, health:3, sports:3
+[skip] இது ஒரு தனியார் பல்கலைக்கழகத்தின் (SGT University) ஆன்லைன் ச
+[skip] செய்திக் குறிப்பு (Feature/Column) — உடனடி நிகழ்வு இல்லை; பொ
+[skip] வெளிநாட்டுத் கிரிக்கெட் (ওয়েস্ট இন্ডीজ vs பাংলাদেশ টেস্ট ম্
+[நகல்] ஏற்கனவே வெளியானது: தேனி சிறை தப்பிய கைதிகளில் 13 பேர் கைது, தேடுதல் தொடர்பு
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, சம்பவத்தின் வ
+[திருத்தம்] இஸ்ரேல் பாராளுமன்றத் தேர்தல் - நெதன்யாகு → இஸ்ரேல் பாராளுமன்றத் தேர்தல் — நெதன்யாகு
+[tts-edge] 48670a745fff: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] இஸ்ரேல் பாராளுமன்றத் தேர்தல் — நெதன்யாகு கூட்டணிக்கு சிறு முன்னிலை
+[திருத்தம்] தேனி சிறை தப்பிய கைதிகளில் மேலும் 2 பேர் → தேனி சிறையிலிருந்து தப்பிய கைதிகளில் மேல
+[நகல்] ஏற்கனவே வெளியானது: தேனி சிறை தப்பிய கைதிகளில் 13 பேர் கைது, தேடுதல் தொடர்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgUGcE3Vt9whxZR4vZYRT'}
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[image] களஞ்சியம் (4 சொல்): தமிழக கடலோரப் பகுதிகளில் கடல் சீற்
+[tts-edge] 0385045542e1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழக கடலோரப் பகுதிகளில் கடல் சீற்றம் எச்சரிக்கை, முன்னெச்சரிக்கை நடவடிக்கை தீவிரம்
+[skip] உக்ரைனில் நடக்கும் போர்—தமிழ்நாடு/இந்திய வாசகருக்கு நேரடி பா
+[skip] வெளிநாட்டு உள்நாட்டுத் தகராறு — தமிழ்நாடு/இந்தியத் வாசகருக்க
+[skip] ஆക்ரமணக் களத்தின் வெளிநாட்டு உள்நாட்டுச் சம்பவம். தமிழ்நாடு 
+[skip] சிரியா-ஜோர்டான் எல்லை மீண்டும் திறப்பு — இது மধ்தகிழக்கின் உ
+[skip] இஸ்ரேல் தேர்தல் — இஸ்ரேல் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்தி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgUGkEsZveeu3YqG8wm4G'}
+[திருத்தம்] அதானி போர்ட்ஸ் நிறுவனத்தின் இரண்டாம் கால → அதானி போர்ட்ஸ் நிறுவனத்தின் இரண்டாம் கால
+[image] களஞ்சியம் (2 சொல்): அதானி போர்ட்ஸ் நிறுவனத்தின் இரண்டா
+[publish] அதானி போர்ட்ஸ் நிறுவனத்தின் இரண்டாம் காலாண்டு நிகர லாபம் 17% வளர்ச்சி
+[skip] தேனி சிறை நிகழ்வு தமிழ்நாட்டுச் செய்தி; world என்று குறிப்பி
+[skip] கேரளத்தின் உள்ளூர் கொலை வழக்கு. தமிழ்நாடு/இந்திய தேசிய அளவில
+[skip] வெளிநாட்டு உள்நாட்டுக் குற்றவழக்கு — அமெரிக்க உள்ளூர் நீதி ம
+[skip] நைஜেரியாவின் உள்நாட்டு சிறைக்காவல் விபத்து — தமிழ்நாடு/இந்தி
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் மற்றும் சர்ச்சை — தமிழ்நாடு/இந்
+[skip] வெனிசுয়েலாவின் உள்ளூர் அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப்
+[skip] வெளிநாட்டு அரசியல் கருத்துரை — தமிழ்நாடு/இந்தியா வாசகரைப் பா
+[skip] எகிப்தின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
+[skip] இஸ்ரேலின் உள்நாட்டுக் கட்சித் தேர்தல் — தமிழ்நாடு/இந்திய வாச
+[skip] இஸ்ரேலின் உள் அரசியல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்
+[skip] மும்பை உள்ளூர் சிறு தீ விபத்து, உயிரிழப்பு இல்லை, தமிழ்நாட்ட
+[தரம்] தமிழ் அல்லாத எழுத்து: আম애 → ஒரு திருத்தம்
+[publish] தொழில் வரையறைக்கு எதிரான மனுவை விசாரிக்க உச்ச நீதிமன்றம் ஒப்புதல்
+[publish] ஆந்திரக் கடற்கரையைக் கடந்த புயல் அர்நாப், உயிரிழப்பு இல்லை
+[skip] மேற்கு வங்கத்தின் உள்ளூர் சட்டம் ஒழுங்கு சம்பவம் - தமிழ்நாட்
+[skip] ஹிந்திப் படம் — தமிழ்நாட்டு வாசகருக்கான செய்தி அல்ல. தமிழில்
+[skip] தெலுங்கானா / தिल्ली தொடர்பு: செய்தி தெலுங்கான அரசு மருத்துவ 
+[திருத்தம்] பிரச்சனைக்குள்ளான வீட்டுத் திட்டங்களுக்க → பிரச்சனைக்குள்ளான வீட்டுத் திட்டங்களுக்க
+[publish] பிரச்சனைக்குள்ளான வீட்டுத் திட்டங்களுக்குத் தீர்வு அளிக்க இயலாது என உச்ச நீதிமன்றம்
+[skip] வெளிநாட்டு ஆய்வுக் குறிப்பு — தமிழ்நாடு/இந்தியாவுடன் நேரடித்
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (WBBL) — தமிழ்நாடு/இந்தியாவுக்க
+[skip] வெளிநாட்டு சிற்றரங்கக் கோப்பைகளும் அதன் பெயரிடல் விழாவும் தம
+[skip] கேரள உயர்நீதிமன்றத்தில் உள்ளூர் ஏமாற்று வழக்கு தீர்வு — தமிழ
+[skip] இந்தியா மற்றும் அமெரிக்காவின் ஒப்பாய்வு ஆய்வு. தமிழ்நாட்டு வ
+[skip] வেস্टইண்டீஸ் மற்றும் বাংলादেশ இடையே கிரிക்கெட் தொடரில் ஒரு வ
+[filler] health கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12729 · சென்செக்ஸ் 73416
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 6
