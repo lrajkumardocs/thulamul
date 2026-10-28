@@ -1,23 +1,22 @@
-[expire] 48670a745fff
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 14 புதியவை
+[fetch] The Hindu TN: 26 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 20 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] ESPNcricinfo: 20 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 22 புதியவை
-[fetch] Cinema Express: 25 புதியவை
+[fetch] The Hindu Cinema: 20 புதியவை
+[fetch] Cinema Express: 26 புதியவை
 [fetch] The Hindu Tech: 28 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 18 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,47 +56,75 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3ba0c41390>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
-[fetch] Times Govt Schemes: 17 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f6d687776d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Times Govt Schemes: 18 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 21 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 719 → நிகழ்வுகள் 654
-[triage] 654 → 33 | காலி: india:3, world:3, sports:3, health:2, cinema:2
-[skip] வেস্टிண்டீஸ் மற்றும் பাங்களாதேশ் இடையிலான சர্வதேশக் கிரிக்கெ
-[image] களஞ்சியம் (2 சொல்): ஸ்பெயினில் இரு ரயில்கள் மோதி 64 பே
-[tts-edge] 7c165920a03d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஸ்பெயினில் இரு ரயில்கள் மோதி 64 பேர் உயிரிழப்பு
-[skip] அர்னாப் புயல் ஆந்திரப் பிரதேசத்தை முதன்மையாகப் பாதித்துள்ளது
-[skip] இந்திய கிழக்குக் கடற்கரையில் சூறாவளி தாக்கியது ஒரு தேசிய செய
-[image] களஞ்சியம் (2 சொல்): வில்லுப்பாட்டு தற்காலிக பேராசிரியர
-[tts-edge] 2fe6e70fedae: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வில்லுப்பாட்டு தற்காலிக பேராசிரியர் பணிக்கு நவம்பர் 10 கடைசி நாள்
-[skip] இது இரு நிறுவனங்களுக்கு இடையேயான ஆராய்ச்சி ஒத்துழைப்பு அறிவி
-[skip] இது ஒரு சிறிய/குறிப்பிடத்தக்கதாக இல்லாத அரசியல் அமைப்பின் அற
-[publish] சென்னை உள்ளிட்ட பகுதிகளில் ஆட்டோ கட்டணம் திருத்தம்
-[திருத்தம்] நித்திரையில் ஏற்பட்ட பக்கவாதம் சிகிச்சை  → விழித்திருக்கும் போது ஏற்படும் பக்கவாதம்
-[publish] விழித்திருக்கும் போது ஏற்படும் பக்கவாதம் — இமேஜிங் தொழில்நுட்பம் சிகிச்சைக்கு வழி
-[skip] கन্নড மொழிப் படம். தமிழ்நாட்டுக் வாசகர் அல்லது தமிழ்க் கலைஞர
-[skip] ராகுல் காந்தி - சாவர்க்கர் குடும்பத்தினர் இடையிலான வரலாற்றுக
-[skip] வெளிநாட்டு பெண்கள் கிரிக்கெட் தொடர் (Zimbabwe எதிர்) — தமிழ்
-[image] களஞ்சியம் (2 சொல்): புற்றுநோய் மருந்துகளின் விலைக் கட்
-[publish] புற்றுநோய் மருந்துகளின் விலைக் கட்டுப்பாடு சிகிச்சைச் செலவைக் குறைக்குமா?
-[skip] கேரளத்தின் உள்ளூர் திட்டம்; தமிழ்நாட்டு வாசகருக்குப் பொருத்த
-[skip] महिला प्रीमियर लीग (WPL) ऑक्शन भारतीय महिला क्रिकेट का प्रमु
-[filler] tech கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12740 · சென்செக்ஸ் 73246
+[run] புதியவை 715 → நிகழ்வுகள் 650
+[triage] 650 → 56 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது மகாராஷ்டிரா பம்பாய் உயர்நீதிமன்றத்தில் நடந்த ஒரு தனிப்பட
+[skip] இவை தமிழ்நாட்டுடன் தொடர்பில்லாத வேலைவாய்ப்பு அறிவிப்புகள் — 
+[skip] கருத்துரை/தலையங்கம் — செய்தி அல்ல। 'இந்தியா கட்டமைக்க வேண்டு
+[skip] செய்திக் கூறு இல்லை. 'Jailer 2' என்ற படத்தின் அறிவிப்பு, வெள
+[skip] வெளிநாட்டு cricket செய்தி - Australia vs New Zealand test se
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVEPsSgbwcBMWSYpmk6s'}
+[image] களஞ்சியம் (2 சொல்): தேனி சிறையிலிருந்து தப்பிய பதினேழு
+[tts-edge] 967a4de55c44: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தேனி சிறையிலிருந்து தப்பிய பதினேழு பேரும் மீண்டும் பிடிபட்டனர்
+[திருத்தம்] தீபாவளி முன்னிட்டு நவம்பர் ஒன்பதாம் தேதி → தீபாவளி முன்னிட்டு நவம்பர் 9-ம் தேதி பொத
+[image] களஞ்சியம் (2 சொல்): தீபாவளி முன்னிட்டு நவம்பர் 9-ம் தே
+[tts-edge] 3d8191632ad1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தீபாவளி முன்னிட்டு நவம்பர் 9-ம் தேதி பொது விடுமுறை
+[தரம்] தமிழ் அல்லாத எழுத்து: ना → ஒரு திருத்தம்
+[publish] தலைமை தேர்தல் ஆணையர் மீது நடவடிக்கை கோரி ஸ்டாலின் கடிதம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVEbnS97EVAVXW4Hk1xT'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVEhN8ZjRiDz6cdpHmfY'}
+[திருத்தம்] தேனி சிறை தப்பிய சம்பவம்: சிறைகளில் ஆயுத → தேனி சிறையில் இருந்து 17 கைதிகள் தப்பிய 
+[publish] தேனி சிறையில் இருந்து 17 கைதிகள் தப்பிய சம்பவம்: சிறைகளில் ஆயுதக் காவலர்கள் நியமனம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVEpTpKoxxwDgBjhZtzu'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விடுமுறை தேதி, துறை, காரணம
+[publish] ஸ்பெயினில் இரயில் மோதலில் 68 பேர் உயிரிழப்பு
+[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகருக்குப் ப
+[skip] தமிழ்நாட்டுச் சம்பவம் (ராணிப்பேட்டை) என்றாலும், குழந்தை கடத்
+[skip] இஸ்ரேல் உள்நாட்டு தேர்தல் — தமிழ்நாடு / இந்தியா வாசகரைப் பாத
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமான உள்ளூர் செய்தி இல்லை. உல
+[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — தமிழ்நாடு அல்லது இந்தியாவுடன் நே
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVEy1GuGAgTyvZgRJiH8'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] கரூர் நெரிசல் சர்ச்சை கருத்து: திமுக கவு → கரூர் நெரிசல் சம்பவம்: திமுக கவுன்சிலர் 
+[image] களஞ்சியம் (3 சொல்): கரூர் நெரிசல் சம்பவம்: திமுக கவுன்
+[hold] கரூர் நெரிசல் சம்பவம்: திமுக கவுன்சிலர் கைது
+[publish] தமிழ்நாடு முதலீட்டு மாற்று மாநாடு நவம்பரில்; ஜெர்மனி செல்லும் அமைச்சர்
+[திருத்தம்] மதுரை கிளை புதிய கட்டிடத் திட்டத்திற்கு  → மதுரை உயர்நீதிமன்றக் கிளைக்கான புதிய கட்
+[image] களஞ்சியம் (2 சொல்): மதுரை உயர்நீதிமன்றக் கிளைக்கான புத
+[publish] மதுரை உயர்நீதிமன்றக் கிளைக்கான புதிய கட்டிடத் திட்டத்திற்கு தமிழக அரசு ஒப்புதல்
+[திருத்தம்] வங்கக் கடலில் இன்று புதிய புயல் சின்னம்  → வங்கக்கடலில் இன்று புதிய புயல் சின்னம் உ
+[image] களஞ்சியம் (2 சொல்): வங்கக்கடலில் இன்று புதிய புயல் சின
+[publish] வங்கக்கடலில் இன்று புதிய புயல் சின்னம் உருவாக வாய்ப்பு
+[திருத்தம்] செஞ்சி சிறுமி வழக்கில் புலன் விசாரணை தீவ → செஞ்சி சிறுமி வழக்கில் புலன் விசாரணை தீவ
+[தரம்] தமிழ் அல்லாத எழுத்து: ईআএ → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): செஞ்சி சிறுமி வழக்கில் புலன் விசார
+[publish] செஞ்சி சிறுமி வழக்கில் புலன் விசாரணை தீவிரப்படுத்த சிபிஐஎம் கோரிக்கை
+[comic] கதை: காட்டின் நடுவே அந்த அழைப்பு
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-10-29.png · நாள் 50
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12837 · சென்செக்ஸ் 73246
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 5
+[done] feed 300 · pending 1 · எழுதியவை 10

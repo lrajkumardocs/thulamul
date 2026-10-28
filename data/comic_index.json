@@ -1,5 +1,75 @@
 [
  {
+  "date": "2026-10-29",
+  "title": "காட்டின் நடுவே அந்த அழைப்பு",
+  "book": 1,
+  "book_ta": "புது வெள்ளம்",
+  "arc": "நந்தினியின் தரிசனம்",
+  "day": 50,
+  "file": "data/comic/2026-10-29.png",
+  "summary": "பல்லக்கிலிருந்து நந்தினி வந்தியத்தேவனை அழைத்து, 'நீ யார்? எங்கே செல்கிறாய்?' என இனிய குரலில் கேட்டாள்.",
+  "next_hint": "அவள் குரலின் மயக்கத்தில் அவன் என்ன சொல்வான்?",
+  "hidden": false,
+  "script": {
+   "title_ta": "காட்டின் நடுவே அந்த அழைப்பு",
+   "panels": [
+    {
+     "scene_en": "Extreme wide shot of the Kolidam forest clearing at dusk, the decorated palanquin surrounded by guards as Nandini's hand parts the curtain fully, calling out toward the thicket where Vandiyathevan hides, tense atmosphere, as in reference image",
+     "characters": [
+      "nandini"
+     ],
+     "caption_ta": "காற்றும் அசைந்தது; நந்தினியின் குரல் காட்டில் ஒலித்தது.",
+     "bubbles": [
+      {
+       "speaker": "nandini",
+       "side": "R",
+       "text_ta": "மறைந்திருப்பவனே, அஞ்சாமல் வெளியே வா!"
+      }
+     ]
+    },
+    {
+     "scene_en": "Medium shot of Vandiyathevan stepping out hesitantly from behind the trees into the open path, shoulder angle from behind the bushes, uncertain and alert expression, forest foliage around him, daylight fading, as in reference image",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "மனதில் ஆயிரம் எண்ணங்களுடன் அவன் முன்னே வந்தான்.",
+     "bubbles": [
+      {
+       "speaker": "vandiyathevan",
+       "side": "L",
+       "text_ta": "இவள் என்னைக் கண்டுவிட்டாளா? என்ன செய்வது?"
+      }
+     ]
+    },
+    {
+     "scene_en": "Close-up of Nandini's face framed by the palanquin curtain, eyes fixed intently, a faint enchanting smile playing on her lips, soft evening light on her features, as in reference image",
+     "characters": [
+      "nandini"
+     ],
+     "caption_ta": "அவள் குரலில் ஏதோ ஒரு வசீகர இழை.",
+     "bubbles": [
+      {
+       "speaker": "nandini",
+       "side": "L",
+       "text_ta": "நீ யார்? எங்கே செல்கிறாய், அறிந்துகொள்ளலாமா?"
+      }
+     ]
+    },
+    {
+     "scene_en": "Extreme close-up of Vandiyathevan's face, eyes wide, lips slightly parted as if about to speak but frozen, beads of sweat, intense inner conflict, dim forest light, as in reference image",
+     "characters": [
+      "vandiyathevan"
+     ],
+     "caption_ta": "அவள் கேள்வி காற்றில் தொங்கியது; அவன் நாவெழவில்லை.",
+     "bubbles": []
+    }
+   ],
+   "summary_ta": "பல்லக்கிலிருந்து நந்தினி வந்தியத்தேவனை அழைத்து, 'நீ யார்? எங்கே செல்கிறாய்?' என இனிய குரலில் கேட்டாள்.",
+   "tomorrow_ta": "அவள் குரலின் மயக்கத்தில் அவன் என்ன சொல்வான்?",
+   "story_so_far_ta": "கடம்பூரில் கந்தமாறன் வந்தியத்தேவனுக்கு பெரிய பழுவேட்டரையர் சூழ்ச்சியைக் காட்டினான். இரவு பல்லக்கிலிருந்து இறங்கிய நந்தினியின் அழகில் அவன் ஸ்தம்பித்தான். மறுநாள் விடைபெற்று, அவள் பல்லக்கு காட்டு வழியே செல்வதைக் கண்டு மறைவாகப் பின்தொடர்ந்தான். கொள்ளிடம் காட்டில் காவலர் சூழ்ந்த பல்லக்கைக் கண்டு மறைந்து நோக்கினான். காற்றில் திரை விலக, உள்ளிருந்த அழகிய முகம் நந்தினியே என்று தெரிந்தது. அவள் வசீகரத்தில் அவன் அசைவற்றுப் போனான். பல்லக்கு முழுவதுமாக நின்றது; நந்தினி திரையை முழுமையாக விலக்கி நேராக அவன் மறைந்திருந்த திசையை நோக்கி உற்றுப் பார்த்தாள். இன்று அவள் அவனை வெளியே வரச் சொல்லி, இனிய குரலில் 'நீ யார்? எங்கே செல்கிறாய்?' என்று கேட்டாள்; அவன் பதில் சொல்ல முடியாமல் அவள் வசீகரத்தில் சிக்கினான்."
+  }
+ },
+ {
   "date": "2026-10-28",
   "title": "திரை விலகும் நொடி",
   "book": 1,
