@@ -1,5 +1,664 @@
 [
  {
+  "id": "jobs_20261029",
+  "headline": "இன்றைய வேலை அறிவிப்புகள் — 8 · அரசு & தனியார்",
+  "lines": [
+   "இந்திய தொழில்நுட்ப கழகம், மண்டி — திட்ட உதவியாளர் · கடைசி நாள் 2026-10-30.",
+   "இந்திய தொழில்நுட்ப கழகம், மண்டி — இணை பேராசிரியர் · கடைசி நாள் 2026-11-06.",
+   "ராஜீவ் காந்தி உயிரி தொழில்நுட்ப மையம் (RGCB) — ஆராய்ச்சி உதவியாளர்-I · கடைசி நாள் 2026-11-16.",
+   "இந்திய புவிக்காந்த நிறுவனம் (IIG) — ஸ்டெனோகிராபர், தொழில்நுட்ப உதவியாளர் மற்றும் பிற பதவிகள் (8 இடங்கள்) · கடைசி நாள் 2026-11-10.",
+   "கிடங்கு மேம்பாடு மற்றும் ஒழுங்குமுறை ஆணையம் (WDRA) — துணை செயலாளர் (நிர்வாகம் & நிதி) · கடைசி நாள் 2026-11-18."
+  ],
+  "closing": "விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பை சரிபார்க்கவும்; பணம் கேட்கும் எந்த அறிவிப்பையும் இதில் பட்டியலிடவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-10-29"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-10-29"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-10-29"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-10-29"
+   }
+  ],
+  "topic": "jobs",
+  "topic_ta": "வேலை · தேர்வு",
+  "entities": [
+   "இந்திய தொழில்நுட்ப கழகம், மண்டி",
+   "இந்திய தொழில்நுட்ப கழகம், மண்டி",
+   "ராஜீவ் காந்தி உயிரி தொழில்நுட்ப மையம் (RGCB)",
+   "இந்திய புவிக்காந்த நிறுவனம் (IIG)"
+  ],
+  "confidence": 0.8,
+  "flags": [],
+  "jobs": [
+   {
+    "org": "இந்திய தொழில்நுட்ப கழகம், மண்டி",
+    "post": "திட்ட உதவியாளர்",
+    "count": null,
+    "last_date": "2026-10-30",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/iit-mandi-project-associate-dora-recruitment-2026-3076874"
+   },
+   {
+    "org": "இந்திய தொழில்நுட்ப கழகம், மண்டி",
+    "post": "இணை பேராசிரியர்",
+    "count": null,
+    "last_date": "2026-11-06",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/iit-mandi-associate-professor-recruitment-2026-3076873"
+   },
+   {
+    "org": "ராஜீவ் காந்தி உயிரி தொழில்நுட்ப மையம் (RGCB)",
+    "post": "ஆராய்ச்சி உதவியாளர்-I",
+    "count": null,
+    "last_date": "2026-11-16",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/rgcb-research-associate-i-recruitment-2026-3076849"
+   },
+   {
+    "org": "இந்திய புவிக்காந்த நிறுவனம் (IIG)",
+    "post": "ஸ்டெனோகிராபர், தொழில்நுட்ப உதவியாளர் மற்றும் பிற பதவிகள்",
+    "count": "8",
+    "last_date": "2026-11-10",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/iig-recruitment-2026-apply-online-for-8-stenographer-technical-assistant-and-more-posts-3076872"
+   },
+   {
+    "org": "கிடங்கு மேம்பாடு மற்றும் ஒழுங்குமுறை ஆணையம் (WDRA)",
+    "post": "துணை செயலாளர் (நிர்வாகம் & நிதி)",
+    "count": null,
+    "last_date": "2026-11-18",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/wdra-under-secretary-administration-finance-recruitment-2026-3076869"
+   },
+   {
+    "org": "இந்திரா காந்தி தேசிய கலை மையம் (IGNCA)",
+    "post": "திட்ட உதவியாளர், திட்ட உதவியாளர்",
+    "count": "2",
+    "last_date": "2026-11-05",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/ignca-recruitment-2026-project-associate-project-assistant-3076866"
+   },
+   {
+    "org": "இஸ்லாமிய அறிவியல் & தொழில்நுட்ப பல்கலைக்கழகம், காஷ்மீர் (IUST)",
+    "post": "உதவி பேராசிரியர்",
+    "count": "48",
+    "last_date": "2026-12-02",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/iust-recruitment-2026-assistant-professor-3076864"
+   },
+   {
+    "org": "நீர் வளத்துறை, நதி மேம்பாடு மற்றும் கங்கை புத்துயிர்ப்பு துறை (DoWR RD & GR)",
+    "post": "",
+    "count": null,
+    "last_date": "",
+    "type": "அரசு",
+    "link": ""
+   }
+  ],
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-29T17:42+05:30",
+  "created_ts": 1793275977.9662995,
+  "audio": "data/audio/jobs_20261029.mp3"
+ },
+ {
+  "id": "art_sports_20261029",
+  "headline": "தமிழகத்தின் பாரம்பரிய விளையாட்டு மரபு — வீரமும் பண்பாடும்",
+  "lines": [
+   "ஜல்லிக்கட்டு தமிழகத்தின் பழமையான காளை அடக்கும் விளையாட்டாகும், இது பொங்கல் பண்டிகையுடன் தொடர்புடையது.",
+   "சிலம்பம் தமிழர்களின் பாரம்பரிய தற்காப்புக் கலையாகும், இதில் மூங்கில் தடியைப் பயன்படுத்தி பயிற்சி அளிக்கப்படுகிறது.",
+   "கபடி தமிழகத்தில் கிராமப்புற விளையாட்டாக பல நூற்றாண்டுகளாக விளையாடப்பட்டு வருகிறது, இது தற்போது தேசிய அளவில் அங்கீகரிக்கப்பட்ட விளையாட்டாகும்.",
+   "மல்யுத்தம் தமிழக கிராமங்களில் பாரம்பரிய பண்டிகைகளின் போது நடத்தப்படும் ஒரு பழமையான போட்டியாகும்.",
+   "இந்த பாரம்பரிய விளையாட்டுகள் உடல் வலிமையையும் சமூக ஒற்றுமையையும் வளர்க்கும் நோக்கத்துடன் தலைமுறை தலைமுறையாக கடத்தப்பட்டு வருகின்றன."
+  ],
+  "closing": "தமிழக பாரம்பரிய விளையாட்டுகள் நமது கலாச்சார அடையாளத்தின் முக்கிய அங்கமாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-29"
+   }
+  ],
+  "topic": "sports",
+  "topic_ta": "விளையாட்டு",
+  "entities": [
+   "பாரம்பரியம்",
+   "விளையாட்டு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-29T17:41+05:30",
+  "created_ts": 1793275932.7335927,
+  "audio": "data/audio/art_sports_20261029.mp3"
+ },
+ {
+  "headline": "டிரெண்ட் நிறுவனம் நிகர லாபம் 25% உயர்வு, 468 கோடி ரூபாய்",
+  "lines": [
+   "டாடா குழுமத்தின் சில்லறை விற்பனை நிறுவனமான டிரெண்ட், நடப்பு நிதியாண்டின் இரண்டாம் காலாண்டு முடிவுகளை வெளியிட்டது.",
+   "நிறுவனத்தின் ஒருங்கிணைந்த நிகர லாபம் 25.3% உயர்ந்து 468 கோடி ரூபாயாக பதிவானது.",
+   "இதே காலாண்டில் நிறுவனத்தின் மொத்த வருவாய் 21.9% அதிகரித்து 5,873 கோடி ரூபாயை எட்டியது.",
+   "வட்டி மற்றும் வரி விலக்கிய லாபம் 29.6% உயர்ந்து 1,054 கோடி ரூபாயாக இருந்தது; லாப வரம்பு 18.2% ஆக மேம்பட்டது.",
+   "வெஸ்ட்சைட், ஜூடியோ உள்ளிட்ட தனது வாழ்க்கை முறை அங்காடிகளின் எண்ணிக்கையை நிறுவனம் தொடர்ந்து விரிவுபடுத்தி வருகிறது."
+  ],
+  "closing": "வெஸ்ட்சைட் மற்றும் ஜூடியோ பிராண்டுகள் மூலம் நாடு முழுவதும் கடைகளை இயக்கி வரும் நிறுவனமாக டிரெண்ட் உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "டிரெண்ட்",
+   "டாடா குழுமம்",
+   "வெஸ்ட்சைட்",
+   "ஜூடியோ"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Trent Q2 Net Profit Jumps 25 Percent To Rs 468 Crore",
+   "lines": [
+    "Tata Group retail company Trent announced its results for the second quarter of the current financial year.",
+    "The company's consolidated net profit rose 25.3 percent year on year to reach Rs 468 crore.",
+    "Total revenue for the same quarter grew 21.9 percent to touch Rs 5,873 crore.",
+    "Earnings before interest and tax rose 29.6 percent to Rs 1,054 crore, with margins improving to 18.2 percent.",
+    "The company continues to expand its footprint of lifestyle stores including Westside and Zudio."
+   ],
+   "closing": "Trent operates stores across the country under brands including Westside and Zudio."
+  },
+  "front_cat": "routine",
+  "image_query": "retail store shopping india",
+  "wiki_subject": "Trent",
+  "id": "560d355dd5d4",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-29T17:41+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/earnings/trent-q2-results-profit-jumps-25-yoy-to-rs-468-crore-revenue-climbs-22/articleshow/135302253.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/560d355dd5d4.mp3",
+  "created_ts": 1793275919.0922542,
+  "person_en": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "இசையமைப்பாளர் இளையராஜாவின் கிதார் கலைஞர் சாதா மாஸ்டர் மறைந்துவிட்டார்",
+  "lines": [
+   "புகழ்பெற்ற இசையமைப்பாளர் இளையராஜாவுடன் பணிபுரிந்த மூத்த கிதார் கலைஞர் சாதா மாஸ்டர் எண்பது வயதில் மறைந்துவிட்டார்.",
+   "சாதனந்தம் என்ற இயற்பெயர் கொண்ட இவர் இளையராஜாவின் நூற்றுக்கணக்கான பாடல்களில் கிதார் வாசித்து அவரது இசைக்குழுவை வளமாக்கினார்.",
+   "இளையராஜா தனது செய்திக்குறிப்பில் சாதா மாஸ்டரின் மறைவுக்கு வருத்தம் தெரிவித்துக் கூறினார்: ஆரம்ப காலங்களிலிருந்தே அவர் என்னுடன் இருந்தவர்.",
+   "தமிழ் சினிமாவின் பொற்காலத்தில் கிதார் இசையை உயர்ந்த தளத்துக்குக் கொண்டுசென்ற கலைஞர்களில் சாதா மாஸ்டர் முக்கியமான இடம் வகிக்கிறார்.",
+   "இவரின் கலைப்பணி எண்ணிலடங்கா மக்களின் நினைவுகளுடன் நீங்கா இடம் பெற்றிருக்கும்."
+  ],
+  "closing": "தமிழ் சினிமாவின் இசை வரலாற்றில் சாதா மாஸ்டரின் கொடை ஒற்றையொளியாக தொடர்ந்து பிரகாசிக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "சாதா மாஸ்டர்",
+   "இளையராஜா",
+   "தமிழ் சினிமா",
+   "கிதார் இசை"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "Sada 'Master', acclaimed guitarist who enriched Ilaiyaraaja's compositions, passes away at 80",
+   "lines": [
+    "Sada 'Master', a renowned guitarist who collaborated with legendary composer Ilaiyaraaja, has passed away at the age of 80.",
+    "Sadanandam, as he was known by birth name, played guitar on hundreds of Ilaiyaraaja's compositions, enhancing their richness and depth.",
+    "Ilaiyaraaja expressed his sorrow in a statement, saying: I am saddened by Sadanandam's death. He was with me from the early days.",
+    "Sada 'Master' holds a significant place among guitarists who elevated the instrument to a higher artistic level during Tamil cinema's golden era.",
+    "His artistic contributions will remain a lasting memory in the hearts of countless listeners."
+   ],
+   "closing": "Sada 'Master's legacy in Tamil cinema's musical history will continue to shine as a beacon of artistic brilliance."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Ilaiyaraaja music composer",
+  "wiki_subject": "Ilaiyaraaja",
+  "person_en": "Ilaiyaraaja",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1c5c71a27be5",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-10-29T17:40+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/sada-master-ace-guitarist-who-enriched-ilaiyaraajas-compositions-dies-at-80/article71639851.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Ilaiyaraaja",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Ilaiyaraaja",
+   "symbolic": false
+  },
+  "audio": "data/audio/1c5c71a27be5.mp3",
+  "created_ts": 1793275846.1738722,
+  "status": "published"
+ },
+ {
+  "headline": "கோத்ரேஜ் கன்சூமர் லாபம் 14 சதவீதம் உயர்வு, பங்குக்கு 5 ரூபாய் ஈவுத்தொகை",
+  "lines": [
+   "கோத்ரேஜ் கன்சூமர் பொருட்கள் நிறுவனம் நடப்பு நிதியாண்டின் இரண்டாம் காலாண்டு முடிவுகளை வெளியிட்டது.",
+   "நிகர லாபம் 522.92 கோடி ரூபாயாக உயர்ந்துள்ளது, இது கடந்த ஆண்டு இதே காலாண்டை விட 13.8 சதவீதம் அதிகம்.",
+   "மொத்த வருவாய் 4,413.09 கோடி ரூபாயாக பதிவானது, இது 19 சதவீத வளர்ச்சியைக் குறிக்கிறது.",
+   "வெளிநாட்டு வணிகச் செயல்பாடுகளும் வீட்டுப் பராமரிப்புப் பிரிவு வளர்ச்சியும் இந்த முன்னேற்றத்திற்கு துணை புரிந்ததாக நிறுவனம் தெரிவித்துள்ளது.",
+   "பங்குதாரர்களுக்கு ஒரு பங்குக்கு 5 ரூபாய் இடைக்கால ஈவுத்தொகை வழங்க நிறுவனம் அறிவித்துள்ளது."
+  ],
+  "closing": "கோத்ரேஜ் கன்சூமர் பொருட்கள் நாடு முழுவதும் வீட்டுப் பராமரிப்பு, தனிநபர் பராமரிப்பு பொருட்களை உற்பத்தி செய்யும் முன்னணி நிறுவனங்களில் ஒன்றாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "கோத்ரேஜ் கன்சூமர் புராடக்ட்ஸ்",
+   "இந்தியா",
+   "வீட்டுப் பராமரிப்பு",
+   "ஈவுத்தொகை"
+  ],
+  "confidence": 0.88,
+  "en": {
+   "headline": "Godrej Consumer profit rises 14 percent, announces Rs 5 dividend per share",
+   "lines": [
+    "Godrej Consumer Products released its second quarter results for the current financial year.",
+    "Net profit rose to Rs 523 crore, up 14 percent compared to the same quarter last year.",
+    "Total revenue was recorded at Rs 4,413 crore, marking a 19 percent growth.",
+    "The company said strong international operations and growth in the home care segment supported this performance.",
+    "The company announced an interim dividend of Rs 5 per share for shareholders."
+   ],
+   "closing": "Godrej Consumer Products is one of the leading manufacturers of home care and personal care products across the country."
+  },
+  "front_cat": "routine",
+  "image_query": "Godrej Consumer Products company",
+  "wiki_subject": "Godrej Consumer Products",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "4f293cf37d47",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-29T17:39+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/earnings/godrej-consumer-q2-results-profit-rises-14-yoy-to-rs-523-crore-revenue-jumps-19-co-declares-rs-5/share-dividend/articleshow/135306134.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/4f293cf37d47.mp3",
+  "created_ts": 1793275800.598551,
+  "status": "published"
+ },
+ {
+  "headline": "நிபா நோயாளிகளுக்குக் காலாவதியான மருந்து கொடுக்கப்பட்ட சந்தேகம், விசாரணை",
+  "lines": [
+   "கேரளாவில் நிபா வைரஸ் நோயால் பாதிக்கப்பட்டவர்களுக்குக் காலாவதியான ரெம்டிசிவிர் மருந்து கொடுக்கப்பட்டிருக்கலாம் என்ற சந்தேகம் எழுந்துள்ளது.",
+   "இதுதொடர்பாக மருத்துவ வாரியம் விசாரணை நடத்தவுள்ளதாகக் கேரள சுகாதார அமைச்சர் கே.முரளிதரன் தெரிவித்தார்.",
+   "காலாவதியான மருந்து பயன்பாடு நிபா நோயாளிகளின் மரணத்திற்குக் காரணமாக இருந்ததா என்பதை வாரியம் ஆராயும் என்று அவர் கூறினார்.",
+   "இந்த சம்பவம் தொடர்பாக அரசு இதுவரை முழுமையான அதிகாரப்பூர்வ அறிக்கை வெளியிடவில்லை.",
+   "மருத்துவ வாரியத்தின் விசாரணை முடிவுகளைப் பொறுத்தே அடுத்த நடவடிக்கை மேற்கொள்ளப்படும் என்று அமைச்சர் தெரிவித்தார்."
+  ],
+  "closing": "நிபா வைரஸ் கேரளாவில் அவ்வப்போது பரவி உயிரிழப்புகளை ஏற்படுத்திவருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "கேரளா",
+   "நிபா வைரஸ்",
+   "கே.முரளிதரன்",
+   "ரெம்டிசிவிர்",
+   "மருத்துவக் குழு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Keralam Probes If Expired Drugs Given to Nipah Patients",
+   "lines": [
+    "It has emerged that Nipah virus patients in Keralam may have been given expired Remdesivir medicine.",
+    "Keralam Health Minister K. Muraleedharan said a medical board will investigate the matter.",
+    "He said the board will examine whether the use of expired drugs led to the deaths of Nipah patients.",
+    "The government has not yet issued a complete official statement regarding the incident.",
+    "The minister said further action will depend on the findings of the medical board's inquiry."
+   ],
+   "closing": "Nipah virus has periodically spread in Keralam, causing deaths in the state."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "",
+  "wiki_subject": "Nipah virus infection",
+  "person_en": "K. Muraleedharan",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "7928c3c7f455",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-29T17:38+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/kerala/expired-drugs-possibly-given-to-nipah-patients-says-keralam-health-minister/article71640126.ece",
+   "https://www.thehindu.com/news/national/kerala/expired-drugs-possibly-given-to-nipah-patients-says-keralam-health-minister/article71640126.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Henipavirus_structure.svg/500px-Henipavirus_structure.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Nipah virus infection",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Nipah_virus_infection",
+   "symbolic": false
+  },
+  "audio": "data/audio/7928c3c7f455.mp3",
+  "created_ts": 1793275710.385995,
+  "status": "published"
+ },
+ {
+  "headline": "அக்டோபர் 31ல் கனிமொழி தலைமையில் திமுக மகளிரணி கண்டன ஆர்ப்பாட்டம்",
+  "lines": [
+   "திமுக மகளிர் அணி சார்பில் அக்டோபர் 31ல் கண்டன ஆர்ப்பாட்டம் நடைபெற உள்ளது.",
+   "இந்த ஆர்ப்பாட்டத்திற்கு திமுக மூத்த தலைவர் கனிமொழி தலைமை தாங்குவார் என அறிவிக்கப்பட்டுள்ளது.",
+   "மாநிலத்தில் சட்டம் - ஒழுங்கு நிலை தொடர்பாக கண்டனம் தெரிவிக்கும் வகையில் இந்த ஆர்ப்பாட்டம் ஏற்பாடு செய்யப்பட்டுள்ளது.",
+   "ஆர்ப்பாட்டம் நடைபெறும் இடம் மற்றும் முழு விவரங்கள் கட்சி தரப்பில் இதுவரை வெளியிடப்படவில்லை.",
+   "அக்டோபர் 31ல் இந்த ஆர்ப்பாட்டம் நடைபெறவுள்ள நிலையில், மேலும் விவரங்கள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "ஆர்ப்பாட்டத்தின் காரணம் மற்றும் இடம் தொடர்பான முழு விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-29"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "திமுக மகளிர் அணி",
+   "கனிமொழி",
+   "திமுக",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "DMK Women's Wing to Hold Protest Led by Kanimozhi on October 31",
+   "lines": [
+    "The DMK Women's Wing will hold a condemnation protest on October thirty first.",
+    "Senior DMK leader Kanimozhi is set to lead the protest, according to the announcement.",
+    "The protest has been organised to condemn the state's law and order situation.",
+    "The location and full details of the protest have not yet been released by the party.",
+    "With the protest set for October thirty first, further details are awaited."
+   ],
+   "closing": "The exact reason and venue for the protest have not yet been made public."
+  },
+  "front_cat": "routine",
+  "image_query": "Kanimozhi",
+  "wiki_subject": "Kanimozhi",
+  "person_en": "Kanimozhi",
+  "urgent": false,
+  "affected": "",
+  "id": "0466427eaf7c",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-29T17:37+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/29/law-and-order-dmk-women-wing-protest-on-oct-31"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Kanimozhi_Karunanidhi_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Kanimozhi Rajathi Karunanidhi",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Kanimozhi_Rajathi_Karunanidhi",
+   "symbolic": false
+  },
+  "audio": "data/audio/0466427eaf7c.mp3",
+  "created_ts": 1793275645.6272864,
+  "status": "published"
+ },
+ {
+  "headline": "அம்பாசமுத்திரம் இடைத்தேர்தலில் போட்டியிடுவதாக சீமான் அறிவிப்பு",
+  "lines": [
+   "நாம் தமிழர் கட்சியின் தலைவர் சீமான், அம்பாசமுத்திரம் தொகுதி இடைத்தேர்தலில் போட்டியிடுவதாக அறிவித்துள்ளார்.",
+   "இந்த அறிவிப்பை அவர் நேரடியாக வெளியிட்டதாகத் தெரிவிக்கப்படுகிறது.",
+   "தாம் இத்தொகுதியில் போட்டியிடுவதாக சீமான் உறுதியாகக் கூறியுள்ளார்.",
+   "அம்பாசமுத்திரம் தொகுதியில் இடைத்தேர்தல் நடைபெற உள்ள நிலையில் இந்த அறிவிப்பு வெளியாகியுள்ளது.",
+   "வேட்பாளர் பட்டியல் மற்றும் தேர்தல் தேதி குறித்த கூடுதல் விவரங்கள் இன்னும் வெளியாகவில்லை."
+  ],
+  "closing": "அம்பாசமுத்திரம் இடைத்தேர்தலில் வேட்பாளர் பரிந்துரைகள் தொடர்பான அதிகாரப்பூர்வ அறிவிப்புகளை அடுத்து கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சீமான்",
+   "நாம் தமிழர் கட்சி",
+   "அம்பாசமுத்திரம்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Seeman announces contest in Ambasamudram by-election",
+   "lines": [
+    "Naam Tamilar Katchi leader Seeman has announced that he will contest the Ambasamudram constituency by-election.",
+    "The announcement is reported to have been made directly by him.",
+    "Seeman has firmly stated that he will be contesting from this constituency.",
+    "The announcement comes as a by-election is set to be held in the Ambasamudram constituency.",
+    "Further details on candidate lists and the election date have not yet been released."
+   ],
+   "closing": "Official announcements on candidate nominations for the Ambasamudram by-election are expected to follow."
+  },
+  "front_cat": "election_major",
+  "image_query": "Seeman politician",
+  "wiki_subject": "Seeman",
+  "person_en": "Seeman",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "8f3945ac0549",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-29T17:36+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/29/i-am-contesting-the-ambasamudram-by-election-seeman"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Tamil_Eelam_Champion_Seeman_Speech_Outside_UN_headquarters_Geneva_002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Seeman",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Seeman",
+   "symbolic": false
+  },
+  "audio": "data/audio/8f3945ac0549.mp3",
+  "created_ts": 1793275567.3209283,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழ்நாட்டில் 27 நாட்களில் மழை அளவு கணிசமாக உயர்வு",
+  "lines": [
+   "அக்டோபர் 1 முதல் 27 வரை தமிழ்நாட்டில் மழைப்பொழிவு அளவில் பெரிய மாற்றம் ஏற்பட்டுள்ளது.",
+   "இந்த காலகட்டத்தில் மாநிலம் முழுவதும் சராசரியாக 217.2 மில்லிமீட்டர் மழை பதிவானது, இது வழக்கமான 144.2 மில்லிமீட்டரை விட 51 சதவீதம் அதிகம்.",
+   "இதன் விளைவாக முன்னர் மழைப் பற்றாக்குறையில் இருந்த 18 மாவட்டங்கள் தற்போது சாதாரண அல்லது அதிகப்படியான மழைப் பிரிவுக்கு மாறியுள்ளன.",
+   "இந்த மாவட்டங்கள் ஏற்கெனவே பருவமழை தாமதம் காரணமாக பற்றாக்குறைப் பட்டியலில் இருந்தன.",
+   "வடகிழக்கு பருவமழை தொடர்ந்து வலுப்பெறுவதால் மேலும் மாவட்டங்களில் மழை அளவு உயரக்கூடும் என வானிலை மையம் கண்காணித்து வருகிறது."
+  ],
+  "closing": "அக்டோபர் மாத தொடக்கத்தில் பல மாவட்டங்களில் காணப்பட்ட மழைப் பற்றாக்குறை, மாத இறுதிக்குள் எவ்வாறு குறைந்தது என்பதை இந்த புள்ளிவிவரங்கள் காட்டுகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-10-29"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தமிழ்நாடு",
+   "வானிலை மையம்",
+   "வடகிழக்கு பருவமழை",
+   "அக்டோபர் மாதம்"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Tamil Nadu rainfall rises sharply across 27 days in October",
+   "lines": [
+    "Between October 1 and 27, Tamil Nadu's rainfall pattern changed significantly across the state.",
+    "During this period, the state recorded an average of 217.2 mm of rain against the normal of 144.2 mm, a surplus of 51 percent.",
+    "As a result, 18 districts that were earlier in the deficit category have now moved into normal or excess rainfall categories.",
+    "These districts had earlier been in the deficit list due to delayed onset of the northeast monsoon, according to weather reports.",
+    "With the northeast monsoon continuing to strengthen, more districts are expected to see rainfall levels rise, officials said they are monitoring the situation."
+   ],
+   "closing": "The figures show how the rainfall deficit seen in several districts at the start of October eased by the end of the month."
+  },
+  "front_cat": "routine",
+  "image_query": "Tamil Nadu monsoon rain",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "89a449e9488b",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-29T17:32+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadus-rainfall-picture-changes-dramatically-in-27-days-18-deficit-districts-move-into-normal-or-excess-categories/article71639906.ece"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/89a449e9488b.mp3",
+  "created_ts": 1793275380.457571,
+  "status": "published"
+ },
+ {
+  "headline": "இராமாயணத்தின் ஒளிப்பதிவாளர் பங்கஜ் குமார்: சூரிய ஒளி தொட்ட பயணம்",
+  "lines": [
+   "நிதேஷ் திவாரி இயக்கிய 'இராமாயணம்' திரைப்படத்தின் ஒளிப்பதிவாளர் பங்கஜ் குமார் படத்தின் பிரம்மாண்ட காட்சிகளை உருவாக்கியுள்ளார்.",
+   "சுயம்வரம் போன்ற முக்கிய காட்சிகளைத் திரையில் கொண்டு வருவதற்குத் தெளிவான முன் திட்டமிடல் பணிகளை மேற்கொண்டுள்ளார்.",
+   "குமார் சூரிய ஒளியைப் பயன்படுத்திக் கடவுளர் உலகத்தை காட்சிப்படுத்துவதில் தனது தெளிந்த நோக்கத்தை விளக்கியுள்ளார்.",
+   "ஒளிப்பதிவுக்கான தனது தத்துவம் மற்றும் படத்தின் பிரம்மாண்ட விஷ்வப் படைப்பு பற்றி அவர் வெளிப்படுத்தியுள்ளார்.",
+   "திரைப்படம் தெய்வ ஆண்களையும் பெண்களையும் சித்தரிப்பதில் ஒளியின் பங்கு முக்கியமாக இருப்பதாக ஒளிப்பதிவாளர் குறிப்பிட்டுள்ளார்."
+  ],
+  "closing": "இந்தச் சிறப்புக் கட்டுரை சினிமா தொழில்நுட்பத்தின் மையமாக ஒளிப்பதிவையை நோக்கிய ஓர் ஆழ்ந்த விமர்சனமாக அமைகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "நிதேஷ் திவாரி",
+   "பங்கஜ் குமார்",
+   "இராமாயணம்",
+   "சுயம்வரம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Cinematographer Pankaj Kumar discusses chasing sunlight for Ramayana epic",
+   "lines": [
+    "Cinematographer Pankaj Kumar has crafted the grand visuals for director Nitesh Tiwari's 'Ramayana' film.",
+    "He employed meticulous pre-visualisation techniques to bring crucial scenes such as the Swayamvara to the screen.",
+    "Kumar explained his deliberate approach to using sunlight for depicting the world of the Gods.",
+    "He elaborated on his philosophy towards cinematography and the epic world-building of the film.",
+    "The cinematographer emphasized the critical role of light in portraying divine male and female characters."
+   ],
+   "closing": "This feature presents an in-depth examination of cinematography as a core force in cinema technology."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Pankaj Kumar cinematographer",
+  "wiki_subject": "Ramayana film",
+  "person_en": "Pankaj Kumar",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1097b09a5051",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-10-29T17:26+05:30",
+  "links": [
+   "https://www.thehindu.com/entertainment/movies/ramayana-cinematographer-pankaj-kumar-on-chasing-sunlight-and-building-a-world-of-gods-ranbir-kapoor-nitesh-tiwari-yash/article71639829.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/1097b09a5051.mp3",
+  "created_ts": 1793275016.3770154,
+  "status": "published"
+ },
+ {
   "id": "art_tech_20261029",
   "headline": "UPI, ஆதார் பாதுகாப்பு: அன்றாடம் கடைபிடிக்க வேண்டிய எளிய பழக்கங்கள்",
   "lines": [
