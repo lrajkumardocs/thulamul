@@ -1,21 +1,21 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 23 புதியவை
+[fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 19 புதியவை
+[fetch] The Hindu Cinema: 18 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 14 புதியவை
-[fetch] The Hindu Agriculture: 1 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 28 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Bar and Bench: 9 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,82 +56,55 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2efd305190>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2e1ae8f150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 748 → நிகழ்வுகள் 697
-[triage] 697 → 50 | காலி: india:4, jobs:3, cinema:3, sports:3, economy:2
-[skip] கর্nataka State Open University (KSOU) என்பது கர্ನாடக மாநிலத
-[திருத்தம்] இராமாயணத்தின் ஒளிப்பதிவாளர் பங்கஜ் குமார → இராமாயணத்தின் ஒளிப்பதிவாளர் பங்கஜ் குமார
-[tts-edge] 1097b09a5051: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இராமாயணத்தின் ஒளிப்பதிவாளர் பங்கஜ் குமார்: சூரிய ஒளி தொட்ட பயணம்
-[skip] வেস்टাண்டீஸ் vs பங்களாதேசத்தின் நடுநடுவே நடக்கும் டெஸ্ட் ஆட்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgWVFSEQUDQzFWy4oBzWM'}
-[skip] மூலச் செய்தியில் சம்பவம் நடந்த மாநிலம், தேதி, அதிகாரிகள் கூற
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இஸ்ரேல் உள்நாட்டு தேர்தல் — தமிழ்நாடு/இந்தியாவுக்குத் தேசிய 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgWVSC6u4mcbsw3Yw1d7V'}
-[skip] தமிழ்நாட்டுச் செய்தி இருந்தாலும், துறை குறிப்பு 'world' (உலக
-[திருத்தம்] முன்னாள் அமைச்சர் கே.என்.நேரு இல்லத்தில் → முன்னாள் அமைச்சர் கே.என்.நேரு இல்லத்தில்
-[நகல்] ஏற்கனவே வெளியானது: முன்னாள் அமைச்சர் கே.என்.நேரு வீட்டில் மீண்டும் லஞ்ச ஒழிப்பு
-[skip] வெளிநாட்டு உள்நாட்டு விபத்து — தமிழ்நாடு/இந்திய வாசகரைப் பாத
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgWVYSbhVGEe99w5Em7h9'}
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — இஸ்رائேலின் தேர்தல் தமிழ்நாடு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgWVc2cvHWNygEmoL4fx6'}
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — இஸ்ரேல் தேர்தல் தமிழ்நாடு/இந்
-[image] களஞ்சியம் (3 சொல்): தமிழ்நாட்டில் 27 நாட்களில் மழை அளவ
-[tts-edge] 89a449e9488b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டில் 27 நாட்களில் மழை அளவு கணிசமாக உயர்வு
-[skip] இந்தியா-சீனா உறவு பற்றிய பொதுவான பின்னணி/বিশ்లேषணம். தமிழ்நா
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] அமெரிக்க நாட்டின் உள்ளூர் பாதுகாப்புச் சம்பவம்; தமிழ்நாடு/இந
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; குற்றச்சாட்டு என்ன, யார் ம
-[skip] உலகப் பொதுவாக விளையாடுபவர்களுக்கு பொருத்தமான செய்தி அல்ல. எல
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgWVnrRZHWVqiQxLyCvCx'}
-[skip] வெளிநாட்டு உள்நாட்டு ராணுவ வாங்கல் — தமிழ்நாடு/இந்தியாவுக்கு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgWVqiQgu3Y8bciKAnP3X'}
-[skip] இஸ்ரேல் தூதரகத்துக்கு வெளியே பெல்கிரேடில் நடந்த சம்பவம். தமி
-[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
-[publish] அம்பாசமுத்திரம் இடைத்தேர்தலில் போட்டியிடுவதாக சீமான் அறிவிப்பு
-[skip] இமயய மலை பகுதிகளில் கட்டுமானத்தால் ஏற்படும் பேரிடர் அபாயம் த
-[skip] மூலத்தில் ஒரு வரித் தலைப்பு மட்டுமே உள்ளது; மாற்றம் ஏன், எங்
-[publish] அக்டோபர் 31ல் கனிமொழி தலைமையில் திமுக மகளிரணி கண்டன ஆர்ப்பாட்டம்
-[skip] IIT மண்டி இமாச்சலப் பிரதேசத்தில் உள்ளது, தமிழ்நாட்டுடன் தொடர
-[திருத்தம்] நிபா நோயாளிகளுக்கு காலாவதியான மருந்து அள → நிபா நோயாளிகளுக்குக் காலாவதியான மருந்து 
-[தரம்] தமிழ் அல்லாத எழுத்து: र → ஒரு திருத்தம்
-[publish] நிபா நோயாளிகளுக்குக் காலாவதியான மருந்து கொடுக்கப்பட்ட சந்தேகம், விசாரணை
-[skip] தெலங்கானா மாநில அரசின் தரவு மையங்களுக்கான உள்ளூர் தீ பாதுகாப
-[skip] கர்நாடகாவின் உள்ளூர்ப் பால் விலை உயர்வு — தமிழ்நாட்டுடன் நேர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgWW8pToSn9K2BLJZirkG'}
-[image] களஞ்சியம் (2 சொல்): கோத்ரேஜ் கன்சூமர் லாபம் 14 சதவீதம்
-[publish] கோத்ரேஜ் கன்சூமர் லாபம் 14 சதவீதம் உயர்வு, பங்குக்கு 5 ரூபாய் ஈவுத்தொகை
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் சுகாதாரக் கட்டுப்பாடு பற்றிய ச
-[skip] பொதுவான விஞ்ஞான/வேளாண் கட்டுரை — தமிழ்நாடு அரசு அறிவிப்பு, அ
-[publish] இசையமைப்பாளர் இளையராஜாவின் கிதார் கலைஞர் சாதா மாஸ்டர் மறைந்துவிட்டார்
-[skip] வெளிநாட்டுத் தொடர் (NZ vs India) — தமிழ்நாட்டு/இந்திய வீரர் 
-[திருத்தம்] டிரெண்ட் நிறுவன நிகர லாபம் 25 சதவீதம் உய → டிரெண்ட் நிறுவனம் நிகர லாபம் 25% உயர்வு,
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): டிரெண்ட் நிறுவனம் நிகர லாபம் 25% உ
-[publish] டிரெண்ட் நிறுவனம் நிகர லாபம் 25% உயர்வு, 468 கோடி ரூபாய்
-[filler] sports கட்டுரை
-[jobs] தொகுப்பு 8
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[run] புதியவை 719 → நிகழ்வுகள் 665
+[triage] 665 → 53 | காலி: india:4, jobs:2, sports:2, assembly:2, world:1
+[tts-edge] d4f72b2bef19: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] உக்ரைன் ரயில் நிலையத்தில் ரஷிய ட்ரோன் தாக்குதல்; பதினான்கு பேர் பலி
+[skip] தமிழ்நாட்டுச் செய்தி — world topic அல்ல. tn topic ஆக இருக்க 
+[skip] ಈ ಸುದ್ದಿಯು ತೆಲುಂಗಾಣದ ಸ್ಥಳೀಯ ಅರಾಜಕತೆ ಮತ್ತು ಪೊಲೀಸ್ ವಿವಾದವಾಗಿದೆ
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டு உள்நாட்டு갈등. இஸ்ரே
+[skip] சीரியா-ஜோர்டான் எல்லைப் பகுதியில் ஒரு குடும்பம் கொல்லப்பட்ட 
+[image] களஞ்சியம் (2 சொல்): செயற்கை நுண்ணறிவு செலவு அதிகரிப்பா
+[tts-edge] 84fd05f8856f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] செயற்கை நுண்ணறிவு செலவு அதிகரிப்பால் கூகுள் பங்கு மதிப்பு 13 சதவீதம் சரிவு
+[skip] தமிழ்நாடு செய்தி, world நுழைவுக் குறிப்பல்ல — தமிழ்நாடு அரசு
+[skip] பிரேசிலுக்கான உள்நாட்டுக் கட்சிக் செய்தி. தமிழ்நாடு/இந்திய வ
+[skip] சீனாவின் உள்நாட்டு அரசியலமைப்பு மாற்றம் — தமிழ்நாடு அல்லது இ
+[skip] அமெரிக்க அரசின் உள்நாட்டு பாதுகாப்புத் துறையின் ஊழியர் தகவல்
+[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காத வெளிநாட்டு உள்ளூர் அரச
+[skip] வெளிநாட்டுத் உள்நாட்டு அரசியல் — சூடான் உள்நாட முரண்பாடு, UA
+[skip] இஸ்ரேல்-கட்டார் இடையேயான அரசியல் பிரச்சினை. தமிழ்நாடு/இந்திய
+[skip] கர்னூல் (தெலங்கானா) மற்றும் டெல்லி மாநில சட்ட சேவை ஆணையங்களி
+[திருத்தம்] காரைக்குடி சிஎஸ்ஐஆர் கழகத்தில் ஐந்து பணி → காரைக்குடி சிசிআர்-சிஈசிஆர்ஐ ஆய்வு நிறுவ
+[தரம்] தமிழ் அல்லாத எழுத்து: আ → ஒரு திருத்தம்
+[publish] காரைக்குடி சிசிஆர்-சிஈசிஆர்ஐ ஆய்வு நிறுவனத்தில் ஐந்து பணியிடங்களுக்கு நேர்காணல்
+[skip] ஆந்திரப் பிரதேசத்தின் உள்ளூர் அரசியல் செய்தி - TDP தலைவரின் 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgWxYv2cX2f3VMJrbNYMh'}
+[skip] உத்தரப் பிரதேச எம்எல்சி தேர்தல் பகுப்பாய்வு - மாநில உள்ளூர் 
+[skip] இது உத்தரப் பிரதேச மாநில சட்டமன்றப் பேரவைத் தேர்தல் முடிவு த
+[skip] பிற நாட்டுக் கிரிக்கெட் நிகழ்வு — இங்கிலாந்து-பாகிஸ்தான் முக
+[skip] மூல உரையில் போதுமான செய்தித் தகவல் இல்லை — படிம மெட்டாடேட்டா
+[skip] கொங்கோ எபோலா — தமிழ்நாட்டு வாசகருக்குத் தேசிய அளவிலான நேரடித
+[skip] தெలுங்கு சினிமாவுக்குக் குறிப்பிட்ட தமிழ்நாட்டுத் தொடர்பு இல
+[skip] வெளிநாட்டுத் Test cricket — ஆஸ்திரேலியா vs தென்னாபிரிக்கா. த
+[filler] india கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12673 · சென்செக்ஸ் 74151
+[market] தங்கம் 22K ₹12648 · சென்செக்ஸ் 74151
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 8
+[done] feed 300 · pending 0 · எழுதியவை 3
