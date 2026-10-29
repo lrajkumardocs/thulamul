@@ -1,1 +1,66 @@
-[]
+[
+ {
+  "headline": "சென்னை பிரஸ் கிளப் தலைவர் உள்ளிட்ட மூவர் முன் ஜாமீன் மனு",
+  "lines": [
+   "சென்னை பிரஸ் கிளப் தலைவர் உள்ளிட்ட மூன்று பத்திரிகையாளர்கள் சென்னை உயர்நீதிமன்றத்தில் முன்னெச்சரிக்கை ஜாமீன் கோரி மனு தாக்கல் செய்துள்ளனர்.",
+   "சக பத்திரிகையாளர் ஒருவர் அளித்த அவதூறு புகாரின் அடிப்படையில் சென்னை காவல்துறை இவர்கள் மீது வழக்குப் பதிவு செய்துள்ளது.",
+   "இந்த வழக்கில் காவல்துறை தங்களைக் கைது செய்யக்கூடும் என்ற அச்சத்தில் மூவரும் நீதிமன்றத்தை அணுகியுள்ளனர்.",
+   "வழக்கு தொடர்பான முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+   "முன்னெச்சரிக்கை ஜாமீன் மனு மீதான விசாரணை விரைவில் நீதிமன்றத்தில் நடைபெற உள்ளது."
+  ],
+  "closing": "இந்த மனு மீது சென்னை உயர்நீதிமன்றம் என்ன தீர்ப்பளிக்கும் என்பதை அடுத்து கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "சென்னை பிரஸ் கிளப்",
+   "சென்னை உயர்நீதிமன்றம்",
+   "சென்னை காவல்துறை",
+   "பத்திரிகையாளர்கள்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Chennai Press Club chief, two journalists seek anticipatory bail",
+   "lines": [
+    "The Chennai Press Club president along with two other journalists have moved the Madras High Court seeking anticipatory bail.",
+    "A case was registered against them by the Chennai police based on a defamation complaint filed by a fellow journalist.",
+    "Fearing arrest by the city police in connection with the case, the three journalists approached the court.",
+    "Full details of the case have not been officially made public so far.",
+    "The hearing on the anticipatory bail petition is expected to take place in the High Court soon."
+   ],
+   "closing": "What the Madras High Court decides on this petition remains to be seen."
+  },
+  "front_cat": "routine",
+  "image_query": "Madras High Court building",
+  "wiki_subject": "Madras High Court",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "defamation_risk",
+   "single_source"
+  ],
+  "id": "905ca9a8838b",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-10-30T03:48+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/chennai-press-club-president-and-two-other-journalists-move-madras-high-court-seeking-anticipatory-bail/article71640943.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Madras High Court",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
+   "symbolic": false
+  },
+  "audio": "data/audio/905ca9a8838b.mp3",
+  "created_ts": 1793312331.155749,
+  "status": "pending"
+ }
+]
