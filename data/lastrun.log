@@ -1,24 +1,25 @@
+[expire] 286ff8513233
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
 [fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] BBC World: 18 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 20 புதியவை
-[fetch] Cinema Express: 26 புதியவை
-[fetch] The Hindu Tech: 28 புதியவை
-[fetch] Wired: 29 புதியவை
+[fetch] The Hindu Cinema: 19 புதியவை
+[fetch] Cinema Express: 28 புதியவை
+[fetch] The Hindu Tech: 29 புதியவை
+[fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 2 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 14 புதியவை
-[fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 24 புதியவை
+[fetch] The Hindu Agriculture: 1 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 1 புதியவை
+[fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
@@ -28,20 +29,20 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Bar and Bench: 9 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 26 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 29 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,56 +57,74 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f5a6caabe90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4bf0c5ff50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 25 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 682 → நிகழ்வுகள் 625
-[triage] 625 → 47 | காலி: tn:4, india:4, economy:3, jobs:3, health:3
-[skip] இந்திய புள்ளியியல் கழகத்தின் (ISI) இந்த இரு வேலைவாய்ப்பு அறி
-[skip] வெளிநாட்டு அமைப்பின் சட்டப்பின்னணிய விவகாரம்; தமிழ்நாட்டு வா
-[skip] தமிழ்நாட்டுக்குத் தொடர்பு இல்லை — தர்மசாலா (ஹிமாச்சல் பிரதேশ
-[skip] தென்னாபிரிக்கா அணியின் உள்நாட்டு விளையாட்டு மற்றும் விளையாட்
-[திருத்தம்] ஸ்பெயினில் ரயில் மோதல் விபத்தில் அறுபத்த → ஸ்பெயினில் அதிவேக ரயில் மோதல் விபத்தில் 
-[tts-edge] 57cf444b547f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஸ்பெயினில் அதிவேக ரயில் மோதல் விபத்தில் 68 பேர் பலி
-[tts-edge] 8023a47c70c3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மத்திய அமைச்சர் எல்.முருகன் பதவி ராஜினாமா, அமைச்சரவை மாற்றம் பேச்சு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVZ4XpAzcTj454aePmhM'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVZ7wZ1iNEB8mnwWVjmB'}
-[திருத்தம்] தேனி சிறையிலிருந்து தப்பிய பதினேழு பேரும → தேனி மாவட்டச் சிறையிலிருந்து தப்பிய பதின
-[நகல்] ஏற்கனவே வெளியானது: தேனி சிறையிலிருந்து தப்பிய பதினேழு பேரும் மீண்டும் பிடிபட்டன
-[image] களஞ்சியம் (2 சொல்): முன்னாள் அமைச்சர் அன்பில் மகேஷ் பொ
-[publish] முன்னாள் அமைச்சர் அன்பில் மகேஷ் பொய்யமொழி ஜாமீன் கோரி மனு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVZHNWSafoFHN6MLYkp2'}
-[skip] 缅甸是东南亚国家,与泰米尔纳德邦和印度没有直接关系。虽然这是世界新闻,但对泰米尔纳德邦读者的影响有限,不符合选择标准。
-[skip] அமெரிக்க நிதிக் கொள்கை — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்கா
-[திருத்தம்] கரூர், திருப்பூர், தென்காசிக்கு புதிய மா → கரூர், திருப்பூர், தென்காசிக்கு புதிய ஆட
-[image] களஞ்சியம் (2 சொல்): கரூர், திருப்பூர், தென்காசிக்கு பு
-[publish] கரூர், திருப்பூர், தென்காசிக்கு புதிய ஆட்சியர்கள் நியமனம்
-[image] களஞ்சியம் (3 சொல்): சாட்டை துரைமுருகனுக்கு எதிரான வழக்
-[publish] சாட்டை துரைமுருகனுக்கு எதிரான வழக்கு, முன்னறிவிப்பு ஜாமீன் கோரி மனு
+[run] புதியவை 691 → நிகழ்வுகள் 626
+[triage] 626 → 44 | காலி: india:4, economy:3, jobs:3, health:3, cinema:3
+[skip] கர்நாடகா மற்றும் தெலங்கானா மாநிலங்களின் உள்ளூர் வேலைவாய்ப்பு
+[skip] கேரளத்தில் நடந்த ஆய்வு; தமிழ்நாட்டு வாசகரைப் பாதிக்கும் நேரட
+[skip] கேரளத்தின் உள்ளூர் வழக்கு — தமிழ்நாட்டு வாசகருக்குப் பொருத்த
+[skip] வெளிநாட்டு cricket நிகழ்வு — தென்னாப்பிரிக்கா vs ஆஸ்திரேலியா
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVztZpDXZdFooRN3Jra7'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVzwhEnccACEdhX76EHd'}
+[skip] மூலத்தில் உண்மைத் தகவல் இல்லை; தலைப்பு மட்டுமே உள்ளது, உள்ளட
+[tts-edge] 3c89f31099bb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] முன்னாள் அமைச்சர் கே.என்.நேரு வீட்டில் மீண்டும் லஞ்ச ஒழிப்புத் துறை சோதனை
+[tts-edge] 67ea9658b378: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பொருளாதார நிபுணர் கலையரசன் கைது: அரசியல் கட்சிகள் கண்டனம்
+[skip] வெளிநாட்டுத் தொஞ்சனம் — ரஷ்யா-உக்ரைன் போர் நிகழ்வு. தமிழ்நாட
+[skip] பிற நாட்டுக் உள்நாட்டு சர்ச்சை — தமிழ்நாடு/இந்திய வாசகரைப் ப
+[skip] Sudan-specific internal conflict. While tragic, this is a lo
+[skip] பிற நாட்டின் உள்நாட்டு மோதல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித
+[skip] ஸ்பெயின் நாட்டின் உள்நாட்டு விபத்து மற்றும் உள் அரசியல் — தம
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgVZYT3D2vTtSCe6vKwnK'}
-[திருத்தம்] நொய்யல் ஆற்று நுரைக்கு சோப்பு காரணம் என  → நொய்யல் ஆற்று நுரைக்கு சோப்பு, ஷாம்பு பய
-[publish] நொய்யல் ஆற்று நுரைக்கு சோப்பு, ஷாம்பு பயன்பாடே காரணம் என அமைச்சர் கூற்று சர்ச்சை
-[image] களஞ்சியம் (2 சொல்): மூத்த ஐஏஎஸ் அதிகாரி சையத் முனீர் ஹ
-[publish] மூத்த ஐஏஎஸ் அதிகாரி சையத் முனீர் ஹோதா காலமானார்
+[skip] இஸ்ரேல் உள் அரசியல் — தமிழ்நாடு வாசகருக்குத் தேசிய/வெளிநாட்ட
+[திருத்தம்] திருவண்ணாமலை மூன்று பள்ளி மாணவிகள் கிளாம → திருவண்ணாமலையைச் சேர்ந்த மூன்று பள்ளி மா
+[image] களஞ்சியம் (2 சொல்): திருவண்ணாமலையைச் சேர்ந்த மூன்று பள
+[publish] திருவண்ணாமலையைச் சேர்ந்த மூன்று பள்ளி மாணவிகள் கிளம்பாக்கம் பேருந்து முனையத்தில் மீட்பு
+[skip] வெளிநாட்டு அரசியல் உள்நாட்டு விஷயம் — இரான்-அமெரிக்க உறவு, அ
+[image] களஞ்சியம் (3 சொல்): ராணிப்பேட்டையில் கடத்தப்பட்ட குழந்
+[publish] ராணிப்பேட்டையில் கடத்தப்பட்ட குழந்தை மீட்பு, நால்வர் கைது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgW1Lc2tvjmgQShLixzKB'}
+[publish] தவெக ரெய்டுக்கு திமுக தொண்டர் அஞ்ச மாட்டார் - முதலமைச்சர் ஸ்டாலின்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரங்கள் (சூழ
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை. எந்த சம்ப
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): சிறுமிகள் பாலியல் வன்கொடுமை வழக்கி
+[publish] சிறுமிகள் பாலியல் வன்கொடுமை வழக்கில் ஜான் பாண்டியனிடம் விசாரணை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgW1dgF7qfVNZ9fXaHvzN'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgW1h5YvPyXMLqhwQtQdv'}
+[skip] இது கேரள உயர்நீதிமன்றம் தொடர்பான மலையாளத் திரைப்பட நபர்கள் ச
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgW1kcXKgEsyhRpCS7CFJ'}
+[skip] மத்தியப் பிரதேசத்தில் உள்ள பல்கலைக்கழகங்களின் உள்ளூர் தேர்வு
+[திருத்தம்] அமெரிக்க டாலருக்கு எதிராக 11 காசுகள் உயர → அமெரிக்க டாலருக்கு எதிராக 11 பைசாக்கள் உ
+[publish] அமெரிக்க டாலருக்கு எதிராக 11 பைசாக்கள் உயர்ந்த ரூபாய் மதிப்பு
+[skip] இது கேரளாவின் திருவனந்தபுரம் கடற்கரையில் மீனவர் சமூகத்தின் வ
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] தமிழ்நாடு அரசு / மத்திய அரசின் அறிவிப்பு அல்ல; மக்கள் செயல்ப
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (3 சொல்): வெளிப்பணி முறையில் ஒப்பந்தப் பணியா
-[publish] வெளிப்பணி முறையில் ஒப்பந்தப் பணியாளர் தேர்வு: தமிழக அரசு உத்தரவு
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: நொய்யல் நுரைக்குக் காரணம் சோப்பா, தொழிற்சாலையா?
-[market] தங்கம் 22K ₹12755 · சென்செக்ஸ் 73246
+[திருத்தம்] நாளொறும் நூறு பேர் பக்கவாதத்தால் பாதிக்க → நிம்ஹான்ஸில் 40% நோயாளிகள் பக்கவாதம்; ஹு
+[தரம்] தமிழ் அல்லாத எழுத்து: চ → ஒரு திருத்தம்
+[publish] நிம்ஹான்ஸில் 40% நோயாளிகள் பக்கவாதம்; ஹுப்பளி பல்கலைக்கழகம் மாதம் 120 பேரைச் சிகிச்சை செய்கிறது
+[brief] காலை brief தயார்
+[filler] tech கட்டுரை
+[jobs] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgW25DdCWCCadbApdUqCi'}
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12730 · சென்செக்ஸ் 73767
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 8
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+  warnings.warn(message, FutureWarning)
+[push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 8

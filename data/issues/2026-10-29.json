@@ -1,5 +1,542 @@
 [
  {
+  "id": "art_tech_20261029",
+  "headline": "UPI, ஆதார் பாதுகாப்பு: அன்றாடம் கடைபிடிக்க வேண்டிய எளிய பழக்கங்கள்",
+  "lines": [
+   "UPI பயன்பாட்டில் பணம் அனுப்பும் முன் பெறுநரின் பெயரை திரையில் உறுதி செய்து கொள்ள வேண்டும்.",
+   "UPI பின் எண்ணை யாருடனும், போனில் அழைத்தவர் வங்கி ஊழியர் என்று கூறினாலும், பகிரக் கூடாது.",
+   "ஆதார் எண்ணை பகிரும் போது மாஸ்க் செய்யப்பட்ட ஆதார் (Masked Aadhaar) பதிப்பை பயன்படுத்துவது நல்லது, ஏனெனில் இதில் கடைசி நான்கு எண்கள் மட்டும் தெரியும்.",
+   "UIDAI இணையதளத்தில் Aadhaar Lock/Unlock வசதியை பயன்படுத்தி, தேவையில்லாத நேரங்களில் உங்கள் பயோமெட்ரிக் தரவை பூட்டி வைக்கலாம்.",
+   "மொபைல் போனில் தெரியாத லிங்க்குகளை கிளிக் செய்வதையும், அறியாத APK கோப்புகளை இன்ஸ்டால் செய்வதையும் தவிர்க்க வேண்டும், ஏனெனில் இவை மோசடி செயலிகளாக இருக்கக்கூடும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை, பெரிய இழப்பை தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-29"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-29T11:30+05:30",
+  "created_ts": 1793253634.942962,
+  "audio": "data/audio/art_tech_20261029.mp3"
+ },
+ {
+  "headline": "நிம்ஹான்ஸில் 40% நோயாளிகள் பக்கவாதம்; ஹுப்பளி பல்கலைக்கழகம் மாதம் 120 பேரைச் சிகிச்சை செய்கிறது",
+  "lines": [
+   "நிம்ஹான்ஸ் நரம்பியல் அவசரநிலை பிரிவில் வரும் நோயாளிகளில் 40 சதவீதம் பக்கவாதம் (stroke) உள்ளவர்கள் என தெரியவந்துள்ளது.",
+   "கர்நாடக மெடிக்கல் கலெஜ் ஆராய்ச்சி நிறுவனம் (KMCRI) ஹுப்பளியில் மாதம் 120 பக்கவாதப் பாதிப்புள்ளவர்களுக்குச் சிகிச்சை அளித்து வருகிறது.",
+   "வடக்கு கர்நாடகத்தில் 'ஹப்-ஆண்ட்-ஸ்போக்' மாதிரிப் பணிமுறை நிறுவப்பட்டதன் மூலம் பக்கவாதச் சிகிச்சை சேவை விரிந்துவந்துள்ளது.",
+   "இம்முறை சிகிச்சை நிலையங்கள் விரிவடைவதால் பெங்களூருக்கு அவசரநிலை மாற்றுவு சம்பவங்கள் குறைந்துவிட்டன.",
+   "பக்கவாதம் பற்றிய விழிப்புணர்வு ஏற்படுத்த அக்டோபர் 29 உலக பக்கவாத நாளாக கடைப்பிடிக்கப்படுகிறது."
+  ],
+  "closing": "பக்கவாதம் தடுக்க ஆரம்பகால அறிகுறிகளை உணர்ந்து உடனடிச் சிகிச்சை பெறுவது அவசியம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": "2026-10-29"
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "நிம்ஹான்ஸ்",
+   "கர்நாடக மெडिक்கல் கலெஜ் ஹுப்பளி",
+   "பக்கவாதம்",
+   "பெங்களூரு",
+   "வடக்கு கர்நாடகம்"
+  ],
+  "confidence": 0.78,
+  "en": {
+   "headline": "40% of NIMHANS neurology patients have stroke; hub-and-spoke model serves north Karnataka",
+   "lines": [
+    "Forty percent of patients attending NIMHANS neurology casualty are diagnosed with stroke, a new report reveals.",
+    "Karnataka Medical College Research Institute in Hubbali treats about 120 stroke cases monthly.",
+    "A hub-and-spoke model is extending specialised stroke care throughout northern Karnataka.",
+    "This integrated system has reduced emergency transfers to Bengaluru hospitals significantly.",
+    "World Stroke Day is observed on October 29 to raise awareness about the condition."
+   ],
+   "closing": "Early recognition of stroke symptoms and prompt medical care are essential to prevent complications."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "stroke awareness medical illustration",
+  "wiki_subject": "Stroke",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஆயிரம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "fe316def99b9",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-29T11:30+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/40-of-patients-at-nimhans-neurology-casualty-have-stroke-kmcri-in-hubbali-treats-120-cases-a-month/article71636352.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/MCA_Territory_Infarct.svg/330px-MCA_Territory_Infarct.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Stroke",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Stroke",
+   "symbolic": false
+  },
+  "audio": "data/audio/fe316def99b9.mp3",
+  "created_ts": 1793253615.524684,
+  "status": "published"
+ },
+ {
+  "headline": "அமெரிக்க டாலருக்கு எதிராக 11 பைசாக்கள் உயர்ந்த ரூபாய் மதிப்பு",
+  "lines": [
+   "இன்று காலை வர்த்தக நேரத்தில் அமெரிக்க டாலருக்கு எதிராக இந்திய ரூபாயின் மதிப்பு 11 காசுகள் உயர்ந்தது.",
+   "இதன் விளைவாக ஒரு டாலருக்கு 95.17 ரூபாயாக பரிவர்த்தனை நடைபெற்றது.",
+   "அமெரிக்க மத்திய வங்கியான பெடரல் ரிசர்வ், வட்டி விகிதத்தை 3.75 முதல் 4.00 சதவீதம் வரை மாற்றாமல் வைத்திருப்பதாக அறிவித்தது.",
+   "இந்த முடிவு எதிர்பார்க்கப்பட்டதே என்றாலும், சந்தை இதை டாலருக்கு சாதகமற்ற நிலையாகக் கருதியதாக அந்நிய செலாவணி வர்த்தகர்கள் தெரிவித்தனர்.",
+   "உலகளாவிய சந்தை நிலவரங்களைப் பொறுத்து ரூபாயின் மதிப்பு மேலும் மாறக்கூடும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "ஃபெடரல் ரிசர்வின் வட்டி விகித முடிவு இந்திய ரூபாய் மதிப்பிலும் சந்தைகளிலும் நேரடித் தாக்கத்தை ஏற்படுத்தியுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "இந்திய ரூபாய்",
+   "அமெரிக்க டாலர்",
+   "பெடரல் ரிசர்வ்",
+   "அந்நிய செலாவணி சந்தை"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Rupee rises 11 paise to 95.17 against U.S. dollar in early trade",
+   "lines": [
+    "The Indian rupee rose 11 paise against the U.S. dollar in early trade this morning.",
+    "As a result, one dollar was trading at 95.17 rupees.",
+    "The U.S. Federal Reserve announced it was keeping interest rates unchanged at 3.75 to 4.00 percent.",
+    "Although the decision was widely expected, forex traders said the market reaction turned mildly negative for the dollar.",
+    "The rupee's value is expected to fluctuate further depending on global market conditions."
+   ],
+   "closing": "Decisions on interest rates by the U.S. Federal Reserve have a direct impact on global markets and the value of the Indian rupee."
+  },
+  "front_cat": "price_policy",
+  "image_query": "indian rupee currency notes",
+  "wiki_subject": "Federal Reserve",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [],
+  "id": "19e924ee25df",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-10-29T11:27+05:30",
+  "links": [
+   "https://www.thehindu.com/business/markets/rupee-rises-11-paise-against-us-dollar-in-early-trade-on-thursday/article71639047.ece",
+   "https://www.thehindu.com/business/markets/rupee-rises-11-paise-against-us-dollar-in-early-trade-on-thursday/article71639047.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Seal_of_the_United_States_Federal_Reserve_System.svg/250px-Seal_of_the_United_States_Federal_Reserve_System.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Federal Reserve",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Federal_Reserve",
+   "symbolic": false
+  },
+  "audio": "data/audio/19e924ee25df.mp3",
+  "created_ts": 1793253475.1926763,
+  "status": "published"
+ },
+ {
+  "headline": "சிறுமிகள் பாலியல் வன்கொடுமை வழக்கில் ஜான் பாண்டியனிடம் விசாரணை",
+  "lines": [
+   "சிறுமிகள் மீதான பாலியல் வன்கொடுமை வழக்கு தொடர்பாக ஜான் பாண்டியன் எனப்படுபவரிடம் காவல்துறையினர் விசாரணை நடத்தி வருகின்றனர்.",
+   "இந்த வழக்கு தொடர்பான முழு விவரங்களை காவல்துறை இதுவரை அதிகாரப்பூர்வமாக வெளியிடவில்லை.",
+   "பாதிக்கப்பட்டவர்களின் அடையாளத்தைப் பாதுகாக்கும் வகையில் விவரங்கள் வெளியிடப்படாமல் விசாரணை நடைபெறுகிறது.",
+   "இது தொடர்பாக மேலும் தகவல்கள் விரைவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது.",
+   "வழக்கின் மேல்நிலை விசாரணை தொடர்பாக காவல்துறை தரப்பில் அறிக்கை வெளியிடப்பட வேண்டும் என்று கோரப்படுகிறது."
+  ],
+  "closing": "இந்த வழக்கில் குற்றம் சாட்டப்பட்டவர் மீதான விசாரணை முடிவுகள் வெளியாகும் வரை, மேலும் தெளிவான தகவல்களுக்காகக் காத்திருக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ஜான் பாண்டியன்",
+   "காவல்துறை",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "Police question John Pandian in child sexual abuse case",
+   "lines": [
+    "Police are questioning a man identified as John Pandian in connection with a case of sexual abuse against minor girls.",
+    "Authorities have not yet officially released full details of the case.",
+    "To protect the identity of the victims, further details have not been made public during the probe.",
+    "More information is expected to be released as the investigation progresses.",
+    "There are calls for police to issue an official statement once the probe concludes."
+   ],
+   "closing": "Further clarity is awaited until investigators complete their inquiry into the accused in this case."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "d166f7b84fe0",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-29T11:24+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/28/minor-girls-sexual-assault-case-john-pandian-questioned"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d166f7b84fe0.mp3",
+  "created_ts": 1793253279.140858,
+  "status": "published"
+ },
+ {
+  "headline": "தவெக ரெய்டுக்கு திமுக தொண்டர் அஞ்ச மாட்டார் - முதலமைச்சர் ஸ்டாலின்",
+  "lines": [
+   "தமிழக வெற்றிக் கழகம் தொடர்பான சோதனை நடவடிக்கைக்கு திமுகத் தொண்டர்கள் அஞ்ச மாட்டார்கள் என முதலமைச்சர் மு.க.ஸ்டாலின் தெரிவித்தார்.",
+   "திமுக தொண்டரின் கால் நகம்கூட அந்த நடவடிக்கைக்கு அஞ்சாது என்று அவர் கூறினார்.",
+   "இந்தக் கருத்தை அவர் ஓர் அரசியல் நிகழ்வில் தெரிவித்ததாக தகவல் வெளியாகியுள்ளது.",
+   "தவெகவிற்கும் திமுகவிற்கும் இடையிலான அரசியல் விமர்சனப் பரிமாற்றத்தின் ஒரு பகுதியாக இந்தக் கருத்து வெளிவந்தது.",
+   "இது தொடர்பான மேலும் விரிவான தகவல்கள் இன்னும் வெளியிடப்படவில்லை."
+  ],
+  "closing": "இந்தக் கருத்து எந்தச் சூழலில், எங்கு தெரிவிக்கப்பட்டது என்பது குறித்த விரிவான தகவல் மூலத்தில் இல்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "மு.க.ஸ்டாலின்",
+   "திமுக",
+   "தமிழக வெற்றிக் கழகம்"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "DMK Workers Won't Fear TVK Raid, Says CM Stalin",
+   "lines": [
+    "Chief Minister M.K. Stalin said DMK workers would not fear any action or searches linked to Tamilaga Vettri Kazhagam.",
+    "He reportedly said that not even the toenail of a DMK worker would fear such a raid.",
+    "The remark was reportedly made by him at a political event.",
+    "The statement came amid an ongoing exchange of political criticism between TVK and DMK.",
+    "Further detailed information on this statement has not yet been released."
+   ],
+   "closing": "The exact context and venue of the statement are not clear from the available source."
+  },
+  "front_cat": "routine",
+  "image_query": "M K Stalin politician",
+  "wiki_subject": "M. K. Stalin",
+  "person_en": "M. K. Stalin",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "c9685b56737e",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-29T11:22+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/29/dmk-leader-mk-stalin-has-stated-that-not-even-a-toenail-of-a-dmk-worker-would-be-intimidated-by-the-raids-the-tamizhaga-vettri-kazhagam"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Chief_Minister_of_Tamil_Nadu%2C_Thiru_MK_Stalin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · M. K. Stalin",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/M._K._Stalin",
+   "symbolic": false
+  },
+  "audio": "data/audio/c9685b56737e.mp3",
+  "created_ts": 1793253139.744874,
+  "status": "published"
+ },
+ {
+  "headline": "ராணிப்பேட்டையில் கடத்தப்பட்ட குழந்தை மீட்பு, நால்வர் கைது",
+  "lines": [
+   "கடந்த செப்டம்பர் 23-ஆம் தேதி நள்ளிரவுக்குப் பின்னர் ராணிப்பேட்டையில் ஒரு குழந்தை கடத்தப்பட்ட சம்பவம் தொடர்பாக காவல்துறை விசாரணை நடத்தியது.",
+   "இந்த வழக்கில் நால்வரைக் காவல்துறையினர் கைது செய்து, கடத்தப்பட்ட குழந்தையை பாதுகாப்பாக மீட்டுள்ளனர்.",
+   "நள்ளிரவுக்குப் பின் குழந்தையைக் கடத்தியதாக குற்றம் சாட்டப்பட்டவர்கள் காவல் விசாரணையில் ஒப்புக்கொண்டுள்ளனர்.",
+   "பாதுகாப்புக் காரணங்களுக்காக குழந்தையின் பெயர் மற்றும் குடும்பத்தினரின் விவரங்கள் வெளியிடப்படவில்லை.",
+   "இந்த வழக்கில் மேலும் விசாரணை நடைபெற்று வருவதாக ராணிப்பேட்டை காவல்துறை தெரிவித்துள்ளது."
+  ],
+  "closing": "இந்தச் சம்பவம் தொடர்பாக காவல்துறையினர் மேலும் விசாரணை நடத்தி வருகின்றனர்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ராணிப்பேட்டை",
+   "காவல்துறை",
+   "குழந்தை கடத்தல்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Kidnapped child rescued in Ranipet, four persons arrested",
+   "lines": [
+    "Following the kidnapping of a child in Ranipet past midnight on September 23, police launched an investigation into the incident.",
+    "Police arrested four persons in connection with the case and safely rescued the kidnapped child.",
+    "The accused reportedly admitted to police during questioning that they had kidnapped the child after midnight.",
+    "The names and details of the child and family have not been released for safety reasons.",
+    "Ranipet police stated that further investigation into the case is underway."
+   ],
+   "closing": "Police are continuing their investigation into the incident."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7d8e78512ef7",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-29T11:20+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/child-rescued-in-ranipet-four-persons-held/article71636182.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime18.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/7d8e78512ef7.mp3",
+  "created_ts": 1793253049.3376744,
+  "status": "published"
+ },
+ {
+  "headline": "திருவண்ணாமலையைச் சேர்ந்த மூன்று பள்ளி மாணவிகள் கிளம்பாக்கம் பேருந்து முனையத்தில் மீட்பு",
+  "lines": [
+   "திருவண்ணாமலையைச் சேர்ந்த மூன்று பள்ளி மாணவிகள் சென்னை கிளம்பாக்கம் பேருந்து முனையத்தில் மீட்கப்பட்டனர்.",
+   "மாணவிகள் மூவரும் பாதுகாப்பாகக் கண்டறியப்பட்டு அதிகாரிகளிடம் ஒப்படைக்கப்பட்டனர்.",
+   "மீட்கப்பட்ட மாணவிகள் சிறார் நல குழுவிடம் ஒப்படைக்கப்பட்டு ஆலோசனை வழங்கப்பட்டது.",
+   "ஆலோசனைக்குப் பிறகு மாணவிகள் மூவரும் அவரவர் குடும்ப உறுப்பினர்களிடம் திருப்பி அனுப்பப்பட்டனர்.",
+   "சம்பவம் தொடர்பாக சிறார் நல குழு மேலும் தேவையான நடவடிக்கைகளை மேற்கொண்டு வருகிறது."
+  ],
+  "closing": "இதுபோன்ற சம்பவங்களில் சிறார் நல குழு, மீட்கப்பட்ட குழந்தைகளுக்கு ஆலோசனை அளித்து பாதுகாப்பாகக் குடும்பத்திடம் திருப்பி அனுப்புவது வழக்கம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "திருவண்ணாமலை",
+   "கிளாம்பாக்கம்",
+   "சிறார் நல குழு",
+   "சென்னை"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Three schoolgirls from Tiruvannamalai rescued at Kilambakkam",
+   "lines": [
+    "Three schoolgirls from Tiruvannamalai were rescued at the Kilambakkam bus terminus in Chennai.",
+    "All three girls were found safe and handed over to the authorities.",
+    "The rescued girls were handed over to the Child Welfare Committee for counselling.",
+    "After counselling, the girls were reunited with their respective family members.",
+    "The Child Welfare Committee is continuing further necessary action regarding the matter."
+   ],
+   "closing": "In such cases, the Child Welfare Committee typically provides counselling to rescued children before safely reuniting them with their families."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "5ce13be19e42",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-29T11:20+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/three-schoolgirls-from-tiruvannamalai-rescued-at-kilambakkam-bus-terminus/article71634937.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime15.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/5ce13be19e42.mp3",
+  "created_ts": 1793253004.5616393,
+  "status": "published"
+ },
+ {
+  "headline": "பொருளாதார நிபுணர் கலையரசன் கைது: அரசியல் கட்சிகள் கண்டனம்",
+  "lines": [
+   "பொருளாதார நிபுணர் கலையரசன் கைது செய்யப்பட்டதாகத் தகவல் வெளியாகியுள்ளது.",
+   "இந்தக் கைது சட்டவிரோதமானது என திமுக எம்.பி. பெ. சண்முகம் கண்டனம் தெரிவித்துள்ளார்.",
+   "இதேபோல திமுக எம்.பி. கனிமொழியும் இந்தக் கைதைக் கண்டித்து அறிக்கை வெளியிட்டார்.",
+   "கைது செய்யப்பட்ட காரணம் குறித்த விரிவான தகவல்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+   "இந்த விவகாரம் தொடர்பாக மேலும் தெளிவான தகவல்கள் வெளியாக வேண்டும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்தக் கைது தொடர்பான முழு விவரங்கள் இன்னும் அதிகாரப்பூர்வமாக வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "கலையரசன்",
+   "பெ.சண்முகம்",
+   "கனிமொழி",
+   "திமுக"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Economist Kalaiyarasan's Arrest Draws Political Condemnation",
+   "lines": [
+    "Economist Kalaiyarasan has reportedly been arrested, according to news reports.",
+    "DMK MP Pe. Shanmugam condemned the arrest, calling it illegal.",
+    "DMK MP Kanimozhi also issued a statement condemning the arrest.",
+    "Detailed official information about the reason for the arrest has not yet been released.",
+    "Further clarity on the matter is expected to emerge in the coming days."
+   ],
+   "closing": "Complete details about the arrest have not yet been officially released."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "Kalaiyarasan",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "67ea9658b378",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-29T11:18+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/29/economist-kalaiyarasan-arrested-illegally-pe-shanmugam-condemns-the-action",
+   "https://www.dinamani.com/tamilnadu/2026/Oct/29/economist-kalaiyarasan-arrested-kanimozhi-condemns-the-move"
+  ],
+  "image": null,
+  "audio": "data/audio/67ea9658b378.mp3",
+  "created_ts": 1793252898.5949452,
+  "status": "published"
+ },
+ {
+  "headline": "முன்னாள் அமைச்சர் கே.என்.நேரு வீட்டில் மீண்டும் லஞ்ச ஒழிப்புத் துறை சோதனை",
+  "lines": [
+   "முன்னாள் அமைச்சர் கே.என்.நேருவின் வீட்டில் லஞ்ச ஒழிப்புத் துறை மீண்டும் சோதனை நடத்தியுள்ளது.",
+   "இதற்கு முன்பும் அவரது வீட்டில் இதே போன்ற சோதனை நடைபெற்றிருந்ததாகத் தெரிகிறது.",
+   "சோதனைக்கான துல்லியமான காரணம் தொடர்பாக அதிகாரப்பூர்வ விளக்கம் இதுவரை வெளியிடப்படவில்லை.",
+   "இது தொடர்பான முழு விவரங்களும் மூல செய்தியில் குறிப்பிடப்படவில்லை.",
+   "விசாரணை தொடர்பான கூடுதல் தகவல்கள் விரைவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "லஞ்ச ஒழிப்புத் துறை சோதனையின் விரிவான காரணமும் முடிவும் இன்னும் தெரியவரவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "கே.என்.நேரு",
+   "லஞ்ச ஒழிப்புத் துறை",
+   "திருச்சி"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Anti-Corruption Raid Again at Former Minister K.N. Nehru's House"
+  },
+  "id": "3c89f31099bb",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-29T11:17+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/29/dvac-team-conducted-a-raid-at-the-residence-of-former-minister-kn-nehru"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/3c89f31099bb.mp3",
+  "created_ts": 1793252853.369336,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "வெளிப்பணி முறையில் ஒப்பந்தப் பணியாளர் தேர்வு: தமிழக அரசு உத்தரவு",
   "lines": [
    "தமிழக அரசு, வெளிப்பணி முறையில் ஒப்பந்தப் பணியாளர்களைத் தேர்வு செய்வதற்கான புதிய உத்தரவை பிறப்பித்துள்ளது.",
