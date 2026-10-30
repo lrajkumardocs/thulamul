@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 23 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 15 புதியவை
-[fetch] BBC World: 25 புதியவை
+[fetch] BBC World: 20 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 13 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 27 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 27 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,79 +56,66 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f140be54f90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f20affc8cd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[fetch] Dinamalar Crime: 0 புதியவை
+[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 21 புதியவை
+[fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 720 → நிகழ்வுகள் 659
-[triage] 659 → 65 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இது பம்பாய் உயர்நீதிமன்றத்தின் உள்நாட்டு நிர்வாக தொடர்பான வி
-[skip] இவை மேற்கு வங்காளம் (ஜார்கிராம்) மற்றும் டெல்லி (ஜாமியா மில்
-[skip] சன் பார்மா தொழிற்சாலையின் உடனடி நடவடிக்கை தமிழ்நாட்டு வாசகரை
-[skip] இது திரை விமர்சனம். விமர்சனம் (மதிப்பெண், 'நன்றாக/மோசமாக', க
-[skip] வெளிநாட்டுத் টেস্ट் ক্রிকেট (ஆஸ்ட்রேலியா-தென் ஆப்பிரிக்கா) த
-[திருத்தம்] உத்தரகாண்டில் ஹெலிகாப்டர் விபத்து; ஆறு ப → உத்தரப்பிரதேசில் ஹெலிகாப்டர் விபத்து; ஆற
-[tts-edge] cf81f7dd7d2c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உத்தரப்பிரதேசில் ஹெலிகாப்டர் விபத்து; ஆறு பேர் பலி
-[skip] ஓரிகான் மாநிலத்தில் நடந்த உள்ளூர் விமான விபத்து, உலக முக்கிய
-[திருத்தம்] சிதிலமடைந்த குடியிருப்புகள் காலி செய்ய வ → சிதிலமடைந்த குடியிருப்புகளைக் காலி செய்ய
-[tts-edge] 9fbd9b3991cb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சிதிலமடைந்த குடியிருப்புகளைக் காலி செய்ய வேண்டுகோள் விடுத்த TNUHDB
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZ1pitvgqACvSMYMR6mD'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZ1t5j9Avy6QccBJZRTn'}
-[திருத்தம்] சென்னை நுழைவாயில் சாலைப் பணி அடுத்த வாரம → சென்นை நுழைவாயில் சாலைப் பணி அடுத்த வாரம
-[தரம்] தமிழ் அல்லாத எழுத்து: น → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): சென்னை நுழைவாயில் சாலைப் பணி அடுத்
-[publish] சென்னை நுழைவாயில் சாலைப் பணி அடுத்த வாரம் தொடக்கம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZ1zHrKhN6B75ty2QnEo'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZ2347R64Dg8Chh5zrs3'}
+[run] புதியவை 697 → நிகழ்வுகள் 640
+[triage] 640 → 35 | காலி: tn:5, india:3, world:3, govt:3, crime:3
+[skip] JCI (ஜூட் கார்ப்பரேஷன்), VPA (விசாகப்பட்டினம் துறைமுக ஆணையம்
+[skip] கர்நாடக அரசின் உள்ளூர் அறிவிப்பு; தமிழ்நாட்டுக்குப் பொருத்தம
+[skip] ஹிந்தி திரையுலகம் — தமிழ்நாட்டு வாசகருக்கு முற்றாக அம்பொத்தம
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர். ஆஸ்திரேलியாவின் BBL (Big Bash 
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ஜப்பானின் ஓம்ரான் ஹெல்த்கேர் நிறுவ
+[tts-edge] 7947495f4d68: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஜப்பானின் ஓம்ரான் ஹெல்த்கேர் நிறுவனம் சென்னை அருகே முதல் இந்திய ஆலை தொடக்கம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] உলகச் செய்திகளிலும் தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்கும் முக
-[திருத்தம்] சிர்மா எஸ்ஜிஎஸ் நிறுவன இலாபம் 87 சதவீதம் → சிர்மா எஸ்ஜிஎஸ் நிகர லாபம் 87.2% உயர்வு;
-[publish] சிர்மா எஸ்ஜிஎஸ் நிகர லாபம் 87.2% உயர்வு; வருவாய் 73% அதிகரிப்பு
-[skip] ரஷ்ய செய்திதாள் மூடல் — தமிழ்நாடு/இந்திய வாசகருக்குப் பொருத்
-[திருத்தம்] ஜீ என்டர்டெயின்மென்ட் நிகர லாபம் 40 சதவீ → ஜீ என்டர்டெயின்மென்ட் நிகர லாபம் 40 சதவீ
-[தரம்] தமிழ் அல்லாத எழுத்து: এি → ஒரு திருத்தம்
-[publish] ஜீ என்டர்டெயின்மென்ட் நிகர லாபம் 40 சதவீதம் சரிவு; இபிட்டிடிஏ இலாப வரம்பு 3.2 சதவீதமாக சுருங்கியது
-[skip] தமிழ்நாடு / இந்தியாவில் நேரடிப் பாதிப்பு இல்லை. அமெரிக்கத் த
-[skip] இது மும்பை தலைமையிடமாகக் கொண்ட லோதா டெவலப்பர்ஸ் நிறுவனத்தின்
+[திருத்தம்] ரிலையன்ஸ் நிறுவனம் மாற்றத் தகுதியற்ற கடன → ரிலையன்ஸ் இண்டஸ்ட்ரீஸ் 15,000 கோடி ரூபாய
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ரிலையன்ஸ் இண்டஸ்ட்ரீஸ் 15,000 கோடி
+[tts-edge] 6859a0fafd8d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ரிலையன்ஸ் இண்டஸ்ட்ரீஸ் 15,000 கோடி ரூபாய் திரட்ட அறிவிப்பு — மாற்றத் தகுதியற்ற கடன் பத்திரங்கள் மூலம்
+[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
+[publish] திமுக, அதிமுக ஆதரவை ஏற்கலாம் என அம்பாசமுத்திரத்தில் சீமான் கருத்து
+[திருத்தம்] கூட்டுறவு சூப்பர் மார்க்கெட்டில் 200 ரூப → கூட்டுறவு சூப்பர் மார்க்கெட்டில் 200 ரூப
+[publish] கூட்டுறவு சூப்பர் மார்க்கெட்டில் 200 ரூபாய்க்கு 10 பொருட்கள் தொகுப்பு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] ரஷ்ய-ஐரோப்பிய அரசியல் மோதல். தமிழ்நாடு / இந்தியக் வாசகருக்கு
-[திருத்தம்] பேங்க் ஆஃப் பரோடா இரண்டாம் காலாண்டு லாபம → பேங்க் ஆஃப் பரோடா Q2 லாபம் 36% உயர்வு, 6
-[publish] பேங்க் ஆஃப் பரோடா Q2 லாபம் 36% உயர்வு, 6,532 கோடி ரூபாய்
-[திருத்தம்] ரணிப்பேட்டையில் நாட்டுவெடி பொருட்களுடன்  → ரணிப்பேட்டையில் 22 நாட்டுவெடிப் பொருட்கள
-[image] களஞ்சியம் (3 சொல்): ரணிப்பேட்டையில் 22 நாட்டுவெடிப் பொ
-[publish] ரணிப்பேட்டையில் 22 நாட்டுவெடிப் பொருட்களுடன் நபர் கைது
-[skip] பாকிസitan் உள்நாட்டு சட்டப்பிரிவு விவகாரம். தமிழ்நாடு/இந்திய
-[திருத்தம்] ரிலையன்ஸ் நிறுவனம் சாதனை லாபம் 29,550 கோ → ரிலையன்ஸ் சாதனை லாபம் 29,550 கோடி ரூபாய்
-[தரம்] தமிழ் அல்லாத எழுத்து: ट; மூலத்தில் இல்லாத எண்: 2026 → ஒரு திருத்தம்
-[publish] ரிலையன்ஸ் சாதனை லாபம் 29,550 கோடி ரூபாய் — திங்கட்கிழமைக்கு முதலீட்டாளர்கள் கவனம்
-[திருத்தம்] குற்றச் சம்பவங்களில் பாதிக்கப்பட்டோர் மீ → குற்றச் சம்பவங்களில் பாதிக்கப்பட்டோர் மீ
-[publish] குற்றச் சம்பவங்களில் பாதிக்கப்பட்டோர் மீண்டும் பாதிக்கப்படக் கூடாது: சென்னை உயர்நீதிமன்ற தலைமை நீதிபதி
-[திருத்தம்] ரிலையன்ஸ் ரிடெய்ல் வருவாய் ஆறு சதவீதம் உ → ரிலையன்ஸ் ரிடெயில் வருவாய் ஆறு சதவீதம் உ
-[தரம்] தமிழ் அல்லாத எழுத்து: ড → ஒரு திருத்தம்
-[publish] ரிலையன்ஸ் ரிடெயில் வருவாய் ஆறு சதவீதம் உயர்வு, லாபம் பாதிப்பு
-[comic] கதை: வந்தியத்தேவன் விடை சொல்கிறான்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.90) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.91) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-31.png · நாள் 52
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹12165 · சென்செக்ஸ் 74460
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZJeNEB5gf669wxfyKqV'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZJhQ5PHFEGrbnAxTTEL'}
+[skip] இரண்டு மூலங்களும் தமிழ்நாடு தொடர்பற்ற வேலைவாய்ப்பு அறிவிப்பு
+[skip] IISER திருவனந்தபுரம் (கேரளா) மற்றும் IIT கரக்பூர் (மேற்கு வங
+[skip] ராஜஸ்தான் மாநிலத்தின் உள்ளூர் பஞ்சாயத்து தேர்தல் செய்தி - தம
+[skip] இது பீகார் மாநிலத்தின் உள்ளூர் கட்சி அரசியல் நிகழ்வு (ஜேடி-ய
+[skip] இது ஜம்மு காஷ்மீர் மாநிலத்தின் உள்ளூர் போக்குவரத்து நிர்வாகப
+[publish] மும்பை இந்தியன்ஸ் அணிக்கு ராபின் உதப்பா பேட்டிங் பயிற்சியாளர்
+[publish] பினன்ஸ் மேடையில் 59 ஆயிரம் கோடி ரூபாய் கிரிப்டோ திருட்டு
+[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமான செய்திக் குறிப்பு கிடைக்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Gagandeep Singh Bedi conducts review meeting of 
+[skip] தமிழ்நாட்டுச் செய்தி — 'world' துறைக்குப் பொருந்தாது. இத்தகை
+[skip] வணிக நிறுவனத்தின் இலாব அறிக்கை — தமிழ்நாடு வாசகருக்குப் பொது
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai’s artists sketch their way through Inkto
+[skip] ஆந்திர பிரதேசம் — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை. பிற
+[skip] வெளிநாட்டுத் தொழிலில் ஆங்கிலேயர்; தமிழ்நாடு/இந்திய வாசகரைப் 
+[skip] வেस্टइண்டீஸ் மற்றும் பங்களாதேশ் இடையே நடக்கும் ঢাকாவில் உள்ள
+[skip] இஸ்ரேல் உள் அரசியல் தேர்தல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
+[skip] தமிழ்நாட்டுக்குத் தொடர்பில்லாத வேறு மாநிலத்தின் உள்ளூர் அரசு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Body of youth exhumed near Pazhaverkadu
+[skip] கேரளாவின் உள்நாட்டுச் சுகாதாரச் சிவப்பொளி விவகாரம். தமிழ்நாட
+[skip] திரைவிமர்சனம் — இப்பக்கத்தில் விதிக்கப்படாத கலை. விமர்சனம் வ
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: 59,000 கோடி கிரிப்டோ திருட்டு: கட்டுப்பாடா, சுய சுதந்திரமா?
+[market] தங்கம் 22K ₹12174 · சென்செக்ஸ் 74460
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 10
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 6
