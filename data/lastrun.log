@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
+[fetch] The Hindu TN: 12 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] BBC World: 15 புதியவை
+[fetch] Al Jazeera: 18 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 17 புதியவை
-[fetch] Cinema Express: 30 புதியவை
+[fetch] Cinema Express: 28 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 27 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Health: 17 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 20 புதியவை
+[fetch] FreeJobAlert: 18 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 26 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 29 புதியவை
+[fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,69 +56,77 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fa21e077850>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f2e2ab61050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 26 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[fetch] Dinamalar Crime: 0 புதியவை
+[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 28 புதியவை
+[fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 694 → நிகழ்வுகள் 646
-[triage] 646 → 63 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இரண்டு மூலங்களும் மகாராஷ்டிரா மற்றும் கர்நாடகாவின் உள்ளூர் அ
-[தரம்] மூலத்தில் இல்லாத எண்: 29 → ஒரு திருத்தம்
-[tts-edge] bb34e98700fc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பக்கவாதத் தடுப்பு விழிப்புணர்வுக்கு எம்.ஜி.எம். சுகாதாரக் குடும்பம் நடைபயணம்
-[skip] வெளிநாட்டுப் ஆங்கிலப் ஆடியோ வெளியீடு; தமிழ்நாடு அல்லது இந்தி
-[skip] ஆஸ்திரேலியா உள் cricket செய்தி - தமிழ்நாடு/இந்திய வாசகரை நேர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgXJ79721HcWTbKFB4Ck1'}
+[run] புதியவை 664 → நிகழ்வுகள் 623
+[triage] 623 → 56 | காலி: tn:5, india:4, world:3, jobs:3, cinema:3
+[skip] மத்திய பிரதேசத்து அரசு நிறுவனத்தின் நியமனம் — தமிழ்நாடு வாசக
+[skip] ஆங்கிலப் படம், தமிழ்நாட்டு வாசகருக்குத் தொடர்பு இல்லை. விமர்
+[skip] இங்கிலாந்து மற்றும் இலங்கை இடையிலான தொடரி ক্রিকெट் ম্যাচ் — 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgXbPYLBsqj3ZsLEMDf11'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgXbSebowL6PC3R8MN43G'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உள்ளடக்கம் இல்லை எ
+[skip] வெளிநாட்டுக் கடல்சார் நிகழ்வு — தமிழ்நாடு/இந்தியாவுக்குத் தற
+[image] களஞ்சியம் (2 சொல்): திருவண்ணாமலையில் சாலை விபத்தில் தந
+[tts-edge] 4649a9fceb71: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திருவண்ணாமலையில் சாலை விபத்தில் தந்தையும் மகளும் உயிரிழப்பு
+[திருத்தம்] வேலூரில் வெடிமருந்து கிடங்கில் வெடிவிபத் → வேலூரில் வெடிமருந்து கிடங்கில் வெடிவிபத்
+[image] களஞ்சியம் (2 சொல்): வேலூரில் வெடிமருந்து கிடங்கில் வெட
+[tts-edge] c1d25b45f2b4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வேலூரில் வெடிமருந்து கிடங்கில் வெடிவிபத்து; மூன்று வாகனங்கள் சேதம்
+[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு வரி சுருக்கம் மட்டுமே உள்ளது; 
+[திருத்தம்] கோயம்புத்தூரில் மாணவர் உயிரிழப்பு சாதி த → கோயம்புத்தூரில் மாணவர் சாதி துன்புறுத்தல
+[image] களஞ்சியம் (2 சொல்): கோயம்புத்தூரில் மாணவர் சாதி துன்பு
+[publish] கோயம்புத்தூரில் மாணவர் சாதி துன்புறுத்தலுக்கு பிறகு உயிரிழப்பு
+[திருத்தம்] சமூக நீதி கணக்கெடுப்புக்கு அமைச்சரவை ஒப் → சமூக நீதி கணக்கெடுப்புக்கு அமைச்சரவை ஒப்
+[நகல்] ஏற்கனவே வெளியானது: சமூக நீதி கணக்கெடுப்புக்கு ஆணையம் அமைக்க தமிழ்நாடு அமைச்சரவை
+[திருத்தம்] இடஒதுக்கீட்டைப் பாதுகாக்க சட்டத் திருத்த → இடஒதுக்கீட்டைப் பாதுகாக்க சட்டத் திருத்த
+[publish] இடஒதுக்கீட்டைப் பாதுகாக்க சட்டத் திருத்தம் வேண்டும்: விடுதலைச் சிறுத்தைகள் வலியுறுத்தல்
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது, செய்தியின் முழு விவ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgXbuDtWKnKcMUpofGAgG'}
+[publish] ஜாதிவாரிக் கணக்கெடுப்புக்கு ஆணையம் அமைப்பை வரவேற்ற மாணிக்கம் தாகூர்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (3 சொல்): சமூக நீதி கணக்கெடுப்புக்கு ஆணையம் 
-[tts-edge] 56ddbe0588a9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சமூக நீதி கணக்கெடுப்புக்கு ஆணையம் அமைக்க தமிழ்நாடு அமைச்சரவை முடிவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgXJHERn6bm7LxPvQy1WR'}
-[image] களஞ்சியம் (3 சொல்): அன்பில் மகேஷ் கைது விவகாரம்: நீதிம
-[publish] அன்பில் மகேஷ் கைது விவகாரம்: நீதிமன்றத்தில் வழக்கறிஞர், அரசு தரப்பு முரண்பாடு
-[image] களஞ்சியம் (2 சொல்): கல்வி நிறுவனங்கள் அருகே மது விற்பன
-[publish] கல்வி நிறுவனங்கள் அருகே மது விற்பனை கட்டுப்பாடு குறித்து உயர்நீதிமன்றம் கேள்வி
-[திருத்தம்] வேலூரில் சேகர் ரெட்டி இடங்களில் ஊழல் தடு → வேலூரில் சேகர் ரெட்டி இடங்களில் டிவிஏசி 
-[publish] வேலூரில் சேகர் ரெட்டி இடங்களில் டிவிஏசி சோதனை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgXJaeg2BpVsEMZ84EzcD'}
-[hold] சென்னை பிரஸ் கிளப் தலைவர் உள்ளிட்ட மூவர் முன் ஜாமீன் மனு
-[image] களஞ்சியம் (3 சொல்): மீட்ஸ் பேராசிரியர் கலையரசன் மீது க
-[publish] மீட்ஸ் பேராசிரியர் கலையரசன் மீது காவல்துறை தொந்தரவு புகார்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] பாதுகாப்புப் பங்குகளில் 500 சதவீதம் வரை  → பாதுகாப்புப் பங்குகளில் 500% வரை உயர்வு;
-[image] களஞ்சியம் (2 சொல்): பாதுகாப்புப் பங்குகளில் 500% வரை உ
-[publish] பாதுகாப்புப் பங்குகளில் 500% வரை உயர்வு; ஐந்து பங்குகள் பல மடங்கு லாபம்
-[skip] தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்காத வெளிநாட்டு உள்நாட்டுப் 
-[skip] தமிழ்நாடு வாசகரைப் பாதிக்காது. ஸ்பெயின்ல் ரயில் விபத்து — உள
-[skip] வெளிநாட்டு உள்நாட்டுச் சர்ச்சை — இஸ்ரேல்-பாலஸ்தீனப் பகை தொடர
-[skip] அமெரிக்க உள்நாட்டுக் கட்சிக் கோசாரி / ஒரு நபரின் ব்যক்திগত வ
-[skip] பெற்ற செய்தி பலஸ்தீன-இஸ்رায়েல் மோதல்பற்றியது. இது தமிழ்நாட்
-[skip] பிரான்சின் உள்ளூர் குற்றச் சம்பவம். தமிழ்நாடு/இந்திய வாசகருக
-[skip] இসுரேல்-பாலஸ்தீனக் கட்சிச் சாய்பு — தமிழ்நாட்டு வாசகருக்கு வ
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் ஐந்து முன்மாதிரி பதி
-[publish] தமிழ்நாட்டில் ஐந்து முன்மாதிரி பதிவு மையங்கள் அமைக்க அரசு திட்டம்
-[skip] வெளிநாட்டு ராணுவ அமலாக்கத்தொடர்பான செய்தி. தமிழ்நாடு/இந்தியா
-[image] களஞ்சியம் (2 சொல்): எண்ணூர் குடியிருப்பாளர்கள் அரசு து
-[publish] எண்ணூர் குடியிருப்பாளர்கள் அரசு துறைகளுக்கு மதிப்பீட்டு அறிக்கை வெளியீடு
-[comic] கதை: குரலின் மயக்கம்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-10-30.png · நாள் 51
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹12676 · சென்செக்ஸ் 74151
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உடல் உரை இல்லை; தமிழ் தலைப
+[திருத்தம்] ரூ.5,000 கோடி மோசடி குற்றச்சாட்டு, சென்ன → ரூ. 5,000 கோடி மோசடி குற்றச்சாட்டு, சென்
+[image] களஞ்சியம் (2 சொல்): ரூ. 5,000 கோடி மோசடி குற்றச்சாட்டு
+[hold] ரூ. 5,000 கோடி மோசடி குற்றச்சாட்டு, சென்னையில் தொழிலதிபர் கைது
+[திருத்தம்] மேற்கு ஆசியா பதற்றத்தால் வங்கிக் கடன் தே → மேற்கு ஆசியா மோதல் வங்கிக் கடன் தேவை 15-
+[image] களஞ்சியம் (2 சொல்): மேற்கு ஆசியா மோதல் வங்கிக் கடன் தே
+[publish] மேற்கு ஆசியா மோதல் வங்கிக் கடன் தேவை 15-20% உயர்வு
+[skip] பிற நாட்டின் உள்நாட்டுத் திரிபல மோதல். கென்யா-எதியோப்பியா எல
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgXcC338Skd7ZoV5Q7NQ4'}
+[skip] தமிழ்நாட்டு அல்லது இந்திய வாசகரைப் பாதிக்காத வெளிநாட்டு உள்ள
+[திருத்தம்] பஞ்சாப் நேஷனல் வங்கி மோசடி வழக்கில் பன்ன → பஞ்சாப் நேஷனல் வங்கி 10 கோடி ரூபாய் மோசட
+[தரம்] தமிழ் அல்லாத எழுத்து: আইি → ஒரு திருத்தம்
+[hold] பஞ்சாப் நேஷனல் வங்கி 10 கோடி ரூபாய் மோசடி: 12 பணியாளர்கள் இடைநீக்கம், சிபிஐ வழக்கு
+[skip] சவுதி அரேபியா - ஹூதி மோதலுகள் உலகச் செய்திக்கு தமிழ்நாடு வாச
+[skip] பிரான்சின் உள்ளூர் போராட்டம் — தமிழ்நாடு/இந்திய வாசகரைப் பாத
+[skip] இஸ்রேலிய உள்நாட்டு அரசியல். தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்
+[திருத்தம்] வேலூர், திருவண்ணாமலையில் 3,000 எல்இடி தெ → வேலூர், திருவண்ணாமலையில் 3,000 எல்இடி தெ
+[publish] வேலூர், திருவண்ணாமலையில் 3,000 எல்இடி தெரு விளக்குகள் பொருத்தப்படவுள்ளன
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgXcPnmiWpyw7mnfsfew4'}
+[திருத்தம்] கடலூரில் குறு சிறு தொழில்களுக்கு 584.67  → கடலூரில் எம்.எஸ்.எம்.ஈ.க்கு ₹584.67 கோடி
+[image] களஞ்சியம் (2 சொல்): கடலூரில் எம்.எஸ்.எம்.ஈ.க்கு ₹584.6
+[publish] கடலூரில் எம்.எஸ்.எம்.ஈ.க்கு ₹584.67 கோடி கடன் வழங்கப்பட்டது
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: இடஒதுக்கீட்டுக்கு இன்னும் சட்டப் பாதுகாப்பு தேவையா?
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹12627 · சென்செக்ஸ் 74151
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 3 · எழுதியவை 10
