@@ -1,45 +1,42 @@
-[expire] 905ca9a8838b
-[expire] c1acf508aa0d
-[expire] d15ea20d215b
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 10 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 13 புதியவை
-[fetch] BBC World: 22 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 17 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
+[fetch] BBC Tamil: 16 புதியவை
+[fetch] BBC World: 24 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
+[fetch] The Hindu Sport: 29 புதியவை
+[fetch] The Hindu Cinema: 18 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 29 புதியவை
-[fetch] Wired: 27 புதியவை
+[fetch] The Hindu Tech: 27 புதியவை
+[fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 19 புதியவை
-[fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 26 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Agriculture: 2 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
-[fetch] Dinamani Health: 1 புதியவை
+[fetch] Dinamani Health: 2 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 15 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Bar and Bench: 19 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -59,71 +56,66 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4da9516710>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f05d0acc150>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 20 புதியவை
+[fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 717 → நிகழ்வுகள் 658
-[triage] 658 → 36 | காலி: india:4, tn:3, world:3, cinema:3, sports:3
-[skip] விமர்சனம் — இப் பக்கத்தில் கூடாது. தலைப்பிலேயே 'movie review
-[skip] வெளிநாட்டு பெண் கிரிக்கெட் லீگ் (WBBL) — தமிழ்நாடு/இந்தியா வ
-[திருத்தம்] அமெரிக்க இடைத்தேர்தலுக்கு முன் இரு பேரணி → அமெரிக்க இடைத்தேர்தலுக்கு முன் இரு பேரணி
-[தரம்] தமிழ் அல்லாத எழுத்து: স → ஒரு திருத்தம்
-[tts-edge] a23d1c5d2d1f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அமெரிக்க இடைத்தேர்தலுக்கு முன் இரு பேரணிகளை ரத்து செய்த ட்ரம்ப்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgY6Bs6bri192bgtD6Kdv'}
-[skip] வெளிநாட்டு ক্রিப்টோ கரண்सி நிறுவனத்தின் தகவல் தொழில்நுட்ப அப
-[image] களஞ்சியம் (3 சொல்): எண்ணெய் விலை உயர்வால் சென்செக்ஸ், 
-[tts-edge] 6d6d801d6656: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எண்ணெய் விலை உயர்வால் சென்செக்ஸ், நிஃப்டி சரிவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgY6KB4HYxEDzec6dk8sX'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgY6NHfEoZgL3Gkvx2Yff'}
-[publish] ரிலையன்ஸ் இன்டஸ்ட்ரீஸ் இன்று இரண்டாம் காலாண்டு நிதி முடிவுகள் வெளியீடு
-[publish] நீதிபதிகளுக்கு எதிரான பொதுக்கூட்டங்களுக்கு அனுமதி வேண்டாம் என சென்னை உயர்நீதிமன்றம் உத்தரவு
-[skip] வெளிநாட்டுப் பங்குச் சந்தைச் செய்தி — தமிழ்நாடு வாசகரின் நேர
+[run] புதியவை 744 → நிகழ்வுகள் 679
+[triage] 679 → 33 | காலி: tn:3, cinema:3, sports:3, india:2, world:2
+[skip] ஆங்கிலப் படம் — தமிழ்நாட்டு வாசகருக்குப் பொருத்தமில்லை. திரை
+[skip] வெளிநாட்டுக் கிரிக்கெட் வீரருடைய காயமடைந்த பாகத்தின் குணநிலை
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, சம்பவம் குறித்த விரிவான உண
+[திருத்தம்] ரிலையன்ஸ் நிறுவன இரண்டாம் காலாண்டு லாபம் → ரிலையன்ஸ் நிறுவனம் இரண்டாம் காலாண்டில் ல
+[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
+[tts-edge] 24aa7be32c3d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ரிலையன்ஸ் நிறுவனம் இரண்டாம் காலாண்டில் லாபம் 41 சதவீதம் உயர்ந்து 25,548 கோடி ரூபாய்
+[திருத்தம்] திண்டிவனத்தில் சிறார் பாலியல் வழக்கில் ஒ → திண்டுக்குடியில் சிறார் பாலியல் வழக்கில்
+[image] களஞ்சியம் (3 சொல்): திண்டுக்குடியில் சிறார் பாலியல் வழ
+[tts-edge] f9d3471cb20c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திண்டுக்குடியில் சிறார் பாலியல் வழக்கில் ஒருவருக்கு ஆயுள் தண்டனை
+[திருத்தம்] கெயில் நிறுவன லாபம் 139 சதவீதம் உயர்வு,  → கெயில் நிறுவனம் லாபம் 139 சதவீதம் உயர்வு
+[image] களஞ்சியம் (3 சொல்): கெயில் நிறுவனம் லாபம் 139 சதவீதம் 
+[publish] கெயில் நிறுவனம் லாபம் 139 சதவீதம் உயர்வு, துணை நிறுவனம் ஐபிஓவுக்கு ஒப்புதல்
+[image] களஞ்சியம் (2 சொல்): அரசு வேலைக்கு நேரடி ஆட்சேர்ப்பில் 
+[publish] அரசு வேலைக்கு நேரடி ஆட்சேர்ப்பில் வயது வரம்பு ஐந்து ஆண்டு உயர்வு
+[திருத்தம்] மூத்த மேடை நடிகை வத்சலா ராஜகோபால் காலமான → நடிகை வத்சலா ராஜகோபால் 93 வயதில் காலமானா
+[publish] நடிகை வத்சலா ராஜகோபால் 93 வயதில் காலமானார்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] அமெரிக்க நடுக்கால் தேர்தல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிப
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgYeNiN1mPzsg75HUjDnQ'}
+[publish] தேனி சிறை தப்பிப்பு - பிடிபட்ட கைதிகள் வெவ்வேறு சிறைகளுக்கு மாற்றம்
+[திருத்தம்] சிதம்பரம் கோயில் நிர்வாகம் முறைகேடு - உய → சிதம்பரம் சபாநாயகர் கோயிலை போது தீட்சிதர
+[publish] சிதம்பரம் சபாநாயகர் கோயிலை போது தீட்சிதர்கள் முறைகேடாக நிர்வகித்தனர் - உயர்நீதிமன்றம் வாரியம் அமைப்பு
+[திருத்தம்] சட்டம் ஒழுங்கு, விலைவாசி உயர்வு - விஜய்  → சட்டம் ஒழுங்கு, விலைவாசி உயர்வு — விஜய் 
+[publish] சட்டம் ஒழுங்கு, விலைவாசி உயர்வு — விஜய் அரசுக்கு எதிராக திமுக போராட்டம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgYecaEksBu5Jp6HKZG4n'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டுச் தொலைவான இயற்கைப் பேரிடர் — தமிழ்நாடு/இந்திய வாச
-[skip] வெளிநாட்டு உள்நாட்டுச் சம்பர্க வழக்கு — இஸ்রேல்-பாலஸ்தீனம் ம
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgY6gk8TNrzgxhPh1HMD8'}
-[skip] சிரியாவில் நடந்த உள்ளூர் இயற்கைப் பேரிடர். தமிழ்நாடு / இந்தி
-[skip] மூலத்தில் ஒரு தலைப்பு மட்டுமே உள்ளது; மாணிக்கம் தாகூர் யார்,
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள், தேதி, சூழல் எது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgY6qU7nkSGaeBdXhB6DX'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யாரை நோக்கி விமர்சனம், எந்
-[image] களஞ்சியம் (2 சொல்): கன்னியாகுமரியில் அலுவலக உதவியாளர் 
-[publish] கன்னியாகுமரியில் அலுவலக உதவியாளர் பணிக்கு விண்ணப்பம் கோரிக்கை
-[skip] ஆந்திரப் பிரதேச மாநில போக்குவரத்துக் கழகத்தின் உள்ளூர் நிர்வ
-[publish] தலைமைத் தேர்தல் ஆணையர் மீதான பொதுக் குற்றச்சாட்டு நிகழ்வு ஒத்திவைப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] ஆந்திரா சூறாவளி பாதிப்பு: பத்தாயிரம் பேர → சூறாவளி அர்னாப்: ஆந்திரப் பிரதேசத்தில் ப
-[தரம்] தமிழ் அல்லாத எழுத்து: ంకరళశాీు → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): சூறாவளி அர்னாப்: ஆந்திரப் பிரதேசத்
-[publish] சூறாவளி அர்னாப்: ஆந்திரப் பிரதேசத்தில் பத்தாயிரம் பேர் நிவாரண முகாமில்
-[skip] பশ্চিம வங்காளத்தின் உள்ளூர் தேர்வு — தமிழ்நாடு வாசகருக்கு நே
-[skip] பொதுவான கல்வி নীতி விவாদம்; தமிழ்நாட்டுக்கு நேரடி நடவடிக்கைய
-[skip] இது கேரள உயர்நீதிமன்றத்தில் உள்ள உள்ளூர் வழக்கு தொடர்பான செய
-[skip] வெளிநாட்டு நடிகர்களின் தனிப்பட்ட நினைவு - தமிழ்நாடு/இந்திய வ
-[skip] தமிழ்நாட்டு/இந்திய வாசகருக்குப் பொருத்தமில்லை. ஆஸ்திரேலியாவி
-[skip] கர্நாடகாவில் நடந்த மருத்துவ ஆய்வு — தமிழ்நாட்டுவாசகரை நேரடிய
-[skip] வெளிநாட்டு (இந்தியா) திரையுலக வழக்கு — தெலங்கானா/ஹைதராபாத்தி
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (tri-series) — தமிழ்நாடு/இந்திய
-[filler] tech கட்டுரை
+[publish] அன்பில் மகேஷுக்கு எதிராக போலீஸ் காவல் கோரி மனு, நவம்பர் 2 தீர்ப்பு
+[skip] மகாராஷ்டிரா மற்றும் அசாமில் உள்ள உள்ளூர் கல்வி நிறுவனங்களின்
+[skip] கர்நாடகாவின் உள்ளூர் ராஜ்யோத்சவ விருது அறிவிப்பு - தமிழ்நாடு
+[skip] இது கர்நாடகாவின் உள்ளூர் போதைப்பொருள் வழக்கு, தமிழ்நாட்டுடன்
+[skip] இது 21ஆம் நூற்றாண்டின் திகில் படங்கள் பட்டியலிடும் கட்டுரை; 
+[skip] world topic என குறிப்பிடப்பட்டுள்ளாலும், இது பிற நாட்டிலுள்ள
+[skip] பொதுவான சுகாதார விழிப்புணர்வுக் கட்டுரை — குறிப்பிட்ட தமிழ்ந
+[skip] திரைவிமர்சனம் — இப் பக்கத்தில் கூடாது। விமர்சனம் (மதிப்பீடு,
+[skip] வெளிநாட்டுத் தொடர் — தென்னாப்பிரிக்கா அல்லது இங்கிலாந்து போத
+[skip] ஒரு தனிநபர் ক্রীড়াবিদின் ব্যক্তিগত உপস্থিতির বিষয়। தমिழநாட
+[திருத்தம்] ஹெபடைடிஸ் பி வைரஸின் டிএன்ஏ அமைதிப்படுத் → ஹெபடைடிஸ் பி வைரஸின் டிএன்ஏவை அமைதிப்படு
+[தரம்] தமிழ் அல்லாத எழுத்து: আএমর → ஒரு திருத்தம்
+[publish] ஹெபடைடிஸ் பி வைரஸின் டிஎன்ஏவை அமைதிப்படுத்தும் மரபணு சிகிச்சை
+[filler] sports கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12541 · சென்செக்ஸ் 74501
+[market] தங்கம் 22K ₹12282 · சென்செக்ஸ் 74460
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 7
+[done] feed 300 · pending 0 · எழுதியவை 10
