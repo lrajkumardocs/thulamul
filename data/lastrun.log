@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 22 புதியவை
+[fetch] ET Markets: 21 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 15 புதியவை
-[fetch] BBC World: 20 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
+[fetch] BBC Tamil: 13 புதியவை
+[fetch] BBC World: 23 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
-[fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] ESPNcricinfo: 15 புதியவை
+[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 27 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
-[fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 27 புதியவை
+[fetch] The Hindu Health: 14 புதியவை
+[fetch] The Hindu Agriculture: 0 புதியவை
+[fetch] FreeJobAlert: 16 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,60 +56,68 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f20affc8cd0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f733f1b6210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 19 புதியவை
+[fetch] TN Police News: 18 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 697 → நிகழ்வுகள் 640
-[triage] 640 → 35 | காலி: tn:5, india:3, world:3, govt:3, crime:3
-[skip] JCI (ஜூட் கார்ப்பரேஷன்), VPA (விசாகப்பட்டினம் துறைமுக ஆணையம்
-[skip] கர்நாடக அரசின் உள்ளூர் அறிவிப்பு; தமிழ்நாட்டுக்குப் பொருத்தம
-[skip] ஹிந்தி திரையுலகம் — தமிழ்நாட்டு வாசகருக்கு முற்றாக அம்பொத்தம
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர். ஆஸ்திரேलியாவின் BBL (Big Bash 
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ஜப்பானின் ஓம்ரான் ஹெல்த்கேர் நிறுவ
-[tts-edge] 7947495f4d68: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஜப்பானின் ஓம்ரான் ஹெல்த்கேர் நிறுவனம் சென்னை அருகே முதல் இந்திய ஆலை தொடக்கம்
+[run] புதியவை 656 → நிகழ்வுகள் 608
+[triage] 608 → 66 | காலி: tn:3, india:3, crime:3, jobs:3, health:3
+[tts-edge] 28e3c82711c9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அமிர்தா பல்கலைக்கழகத்தில் பேராசிரியர் பணியிடங்களுக்கு விண்ணப்பிக்க இன்றே கடைசி நாள்
+[skip] வெளிநாட்டு மருத்துவ தொழில்நுட்பத்தின் சாধாரண அறிவிப்பு. தமிழ
+[skip] வெளிநாட்டுப் பட்டைக் கட்டுரை — தமிழ்த் திரையுலகத்துடன் வெளிப
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZZdEnAVxYUMqXUZfN2Y'}
+[skip] வெளிநாட்டு ক্রিপ্টோ நிறுவனத்தின் உள்ளூர் நிதிச் சம்பவம்; தமி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZZgDDz2cqmRvDDWTNyd'}
+[skip] வெளிநாட்டுக் கிரிப்டோக்களின் தொழில்நுட்பக் குற்றம். தமிழ்நாட
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZZjh492L2WYtxEeDZXo'}
+[skip] வெளிநாட்டு உள்நாட்டுப் பிரச்சினை — ஈரான் மற்றும் அமெரிக்கா இ
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நிகழ்வின் இடம், தேதி, விரி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] ரிலையன்ஸ் நிறுவனம் மாற்றத் தகுதியற்ற கடன → ரிலையன்ஸ் இண்டஸ்ட்ரீஸ் 15,000 கோடி ரூபாய
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ரிலையன்ஸ் இண்டஸ்ட்ரீஸ் 15,000 கோடி
-[tts-edge] 6859a0fafd8d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ரிலையன்ஸ் இண்டஸ்ட்ரீஸ் 15,000 கோடி ரூபாய் திரட்ட அறிவிப்பு — மாற்றத் தகுதியற்ற கடன் பத்திரங்கள் மூலம்
-[தரம்] தமிழ் அல்லாத எழுத்து: ্ → ஒரு திருத்தம்
-[publish] திமுக, அதிமுக ஆதரவை ஏற்கலாம் என அம்பாசமுத்திரத்தில் சீமான் கருத்து
-[திருத்தம்] கூட்டுறவு சூப்பர் மார்க்கெட்டில் 200 ரூப → கூட்டுறவு சூப்பர் மார்க்கெட்டில் 200 ரூப
-[publish] கூட்டுறவு சூப்பர் மார்க்கெட்டில் 200 ரூபாய்க்கு 10 பொருட்கள் தொகுப்பு
+[திருத்தம்] நீதிபதிகள் மீதான விமர்சனப் பேரணிக்கு அனு → நீதிபதிகள் மீதான விமர்சனப் பேரணிக்கு அனு
+[tts-edge] d9466a07ceec: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நீதிபதிகள் மீதான விமர்சனப் பேரணிக்கு அனுமதி வேண்டாம்: சென்னை உயர்நீதிமன்றம் உத்தரவு
+[திருத்தம்] தமிழர் ஒருவர் பிரதமராவார் - துணைக் குடிய → தமிழர் ஒருவர் நிச்சயம் பிரதமராவார் - குட
+[publish] தமிழர் ஒருவர் நிச்சயம் பிரதமராவார் - குடியரசு துணைத் தலைவர் கருத்து
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZZzFb8KaEegwxXs7Rbx'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZa3RktRseGcVr47K4cw'}
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[publish] மீனாட்சி அம்மன் கோயிலில் மின்தடை குறித்து அமைச்சர் விளக்கம்
+[skip] வெளிநாட்டு ராணுவ ஆயுதப் பற்றாக்குறை — தமிழ்நாட்டு/இந்திய வாச
+[skip] பிற நாட்டின் உள்ளூர் அரசியல் — பொலந்தின் உচ்சநீதிமன்றப் பதவி
+[skip] பரந்த உலகச் சுற்ற ஒப்பந்தம் — தமிழ்நாடு வாசகருக்கு நேரடித் த
+[skip] பிற நாட்டின் உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகருக்குப்
+[skip] அமெரிக்க செனட்டர் மற்றும் எகிப்து언론்ச் சுதந்திரம் — பிற நாட்
+[skip] வெளிநாட்டு நிறுவனத்தின் உள்ளூர் அமெரிக்க உளவு விஷயம்; தமிழ்ந
+[hold] எம்.ஐ.டி.எஸ். பேராசிரியர் கலையரசன் மீதான காவல்துறை நடவடிக்கையை சக ஆசிரியர்கள் கண்டனம்
+[skip] செர்பியாவின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப் 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZaGYBTHBs9rWpVGP9xX'}
+[skip] உக்రைனுக்கும் தமிழ்நாட்டுக்கும் நேரடித் தொடர்பு இல்லை. வெளிந
+[திருத்தம்] தமிழக தலைமைத் தகவல் ஆணையராக ஓய்வுபெற்ற ஐ → தமிழக தலைமைத் தகவல் ஆணையராக ஓய்வுபெற்ற ஐ
+[publish] தமிழக தலைமைத் தகவல் ஆணையராக ஓய்வுபெற்ற ஐஏஎஸ் அதிகாரி எஸ்.நடராஜன் நியமனம்
+[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு வாசகரைப் பாதிக்காது. 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZaPqFKQDryfJt2TDXvX'}
+[skip] பொலந்து நாட்டின் உள்நாட்டு அரசியல் நிகழ்வு. தமிழ்நாட்டு/இந்த
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZJeNEB5gf669wxfyKqV'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZJhQ5PHFEGrbnAxTTEL'}
-[skip] இரண்டு மூலங்களும் தமிழ்நாடு தொடர்பற்ற வேலைவாய்ப்பு அறிவிப்பு
-[skip] IISER திருவனந்தபுரம் (கேரளா) மற்றும் IIT கரக்பூர் (மேற்கு வங
-[skip] ராஜஸ்தான் மாநிலத்தின் உள்ளூர் பஞ்சாயத்து தேர்தல் செய்தி - தம
-[skip] இது பீகார் மாநிலத்தின் உள்ளூர் கட்சி அரசியல் நிகழ்வு (ஜேடி-ய
-[skip] இது ஜம்மு காஷ்மீர் மாநிலத்தின் உள்ளூர் போக்குவரத்து நிர்வாகப
-[publish] மும்பை இந்தியன்ஸ் அணிக்கு ராபின் உதப்பா பேட்டிங் பயிற்சியாளர்
-[publish] பினன்ஸ் மேடையில் 59 ஆயிரம் கோடி ரூபாய் கிரிப்டோ திருட்டு
-[skip] தமிழ்நாட்டு வாசகருக்குப் பொருத்தமான செய்திக் குறிப்பு கிடைக்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Gagandeep Singh Bedi conducts review meeting of 
-[skip] தமிழ்நாட்டுச் செய்தி — 'world' துறைக்குப் பொருந்தாது. இத்தகை
-[skip] வணிக நிறுவனத்தின் இலாব அறிக்கை — தமிழ்நாடு வாசகருக்குப் பொது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai’s artists sketch their way through Inkto
-[skip] ஆந்திர பிரதேசம் — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை. பிற
-[skip] வெளிநாட்டுத் தொழிலில் ஆங்கிலேயர்; தமிழ்நாடு/இந்திய வாசகரைப் 
-[skip] வেस্टइண்டீஸ் மற்றும் பங்களாதேশ் இடையே நடக்கும் ঢাকாவில் உள்ள
-[skip] இஸ்ரேல் உள் அரசியல் தேர்தல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
-[skip] தமிழ்நாட்டுக்குத் தொடர்பில்லாத வேறு மாநிலத்தின் உள்ளூர் அரசு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Body of youth exhumed near Pazhaverkadu
-[skip] கேரளாவின் உள்நாட்டுச் சுகாதாரச் சிவப்பொளி விவகாரம். தமிழ்நாட
-[skip] திரைவிமர்சனம் — இப்பக்கத்தில் விதிக்கப்படாத கலை. விமர்சனம் வ
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: 59,000 கோடி கிரிப்டோ திருட்டு: கட்டுப்பாடா, சுய சுதந்திரமா?
+[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியப் பொதுமக்களு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZaWmZ1obG62Wgd3fCo4'}
+[skip] பொலந்து அரசியல் — தமிழ்நாடு/இந்தியா வாசகருக்குப் பொருந்தமில்
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, செய்தியின் உட
+[skip] வெளிநாட்டு உள்நாட்டு சட்ட விவகாரம் — அமெரிக்க அரசியல்வாதியின
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZacqjT1t9HHoiRTTssm'}
+[skip] லাইবেரியாவின் முன்னாள் கிளர்ச்சிக் கமாண்டரின் சர்வதேச குற்றவ
+[image] களஞ்சியம் (2 சொல்): ஆம்னி பேருந்து அதிக கட்டணம் வசூலித
+[publish] ஆம்னி பேருந்து அதிக கட்டணம் வசூலித்தால் அனுமதி ரத்து எச்சரிக்கை
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 9
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [market] தங்கம் 22K ₹12174 · சென்செக்ஸ் 74460
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
@@ -117,5 +125,5 @@
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 6
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 7
