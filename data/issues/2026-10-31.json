@@ -1,5 +1,610 @@
 [
  {
+  "id": "art_tech_20261031",
+  "headline": "UPI, ஆதார் பாதுகாப்பு: அன்றாடம் கடைப்பிடிக்க வேண்டிய பழக்கங்கள்",
+  "lines": [
+   "UPI பயன்பாட்டில் பரிவர்த்தனை செய்யும்போது உங்கள் MPIN-ஐ யாருடனும் பகிரக் கூடாது.",
+   "ஆதார் எண்ணை பகிரும்போது மாஸ்க் செய்யப்பட்ட ஆதார் (masked Aadhaar) பயன்படுத்துவது தனிப்பட்ட தகவலைப் பாதுகாக்க உதவும்.",
+   "அறியப்படாத லிங்க்குகள் அல்லது QR கோடுகள் மூலம் வரும் கோரிக்கைகளை ஒருபோதும் அங்கீகரிக்க வேண்டாம், ஏனெனில் பணம் பெறுவதற்கு QR ஸ்கேன் தேவையில்லை.",
+   "மொபைல் போனில் இரண்டு-படி சரிபார்ப்பு (two-factor authentication) இயக்கி வைப்பது கணக்கு பாதுகாப்பை அதிகரிக்கும்.",
+   "சந்தேகத்திற்குரிய அழைப்புகள் அல்லது செய்திகள் வந்தால், அதிகாரப்பூர்வ வங்கி அல்லது UPI செயலியின் வாடிக்கையாளர் சேவை எண்ணைத் தொடர்பு கொண்டு உறுதிப்படுத்திக் கொள்ளலாம்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை பெரிய இழப்பைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-10-31"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "UPI பாதுகாப்பு",
+   "ஆதார் தகவல்"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-10-31T14:59+05:30",
+  "created_ts": 1793438997.4679823,
+  "audio": "data/audio/art_tech_20261031.mp3"
+ },
+ {
+  "headline": "தன்னோடு போரிடும் நோய்களின் மரபணு தொடர்பு குறித்து ஆய்வு",
+  "lines": [
+   "இந்திய மருத்துவ ஆராய்ச்சிக் கவுன்சில் தன்னோடு போரிடும் நோய்களின் மரபணு தொடர்பு கண்டறிவதற்கான ஆய்வுக்கு நிதியளித்துள்ளது.",
+   "இந்த ஆய்வு நோய்களின் செயல்முறைகளை விஞ்ஞானிகள் சிறிதளவு புரிந்துகொள்ள உதவும்.",
+   "புதிய சிகிச்சை முறைகள் வளர்ப்பதற்கான சாத்தியமான இலக்குகளைக் கண்டறிய இந்த ஆய்வு மதிப்பாக இருக்கும்.",
+   "தன்னோடு போரிடும் நோய்களாவன உடலின் நோய் எதிர்ப்பு மண்டலம் தன் சொந்த திசுக்களை தாக்கும் நிலை ஆகும்.",
+   "இந்த ஆய்வின் முடிவுகள் பொதுமக்களுக்குப் பயனுள்ள புதிய சிகிச்சை முறைகளைக் கொண்டுவர உதவக்கூடும்."
+  ],
+  "closing": "மரபணு தொடர்புடைய தன்னோடு போரிடும் நோய்களின் ஆய்வு இந்தியாவில் முதன்முறையாக பெரிய அளவில் மேற்கொள்ளப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "இந்திய மருத்துவ ஆராய்ச்சிக் கவுன்சில்",
+   "தன்னோடு போரிடும் நோய்கள்",
+   "மரபணு ஆய்வு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "ICMR funds study to identify genetic links in autoimmune diseases",
+   "lines": [
+    "The Indian Council of Medical Research has funded a study to identify genetic associations in autoimmune diseases.",
+    "The research will help scientists better understand the disease mechanisms involved in these conditions.",
+    "The findings could support identification of potential targets for developing new therapeutic approaches.",
+    "Autoimmune diseases occur when the body's immune system attacks its own tissues.",
+    "The study results could contribute to bringing new treatment methods beneficial to the general public."
+   ],
+   "closing": "The study of genetic links in autoimmune diseases is being undertaken in India at a large scale for the first time."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "",
+  "wiki_subject": "Autoimmune_disease",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "ba50209c5cc8",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-10-31T14:59+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/icmr-funds-study-to-identify-genetic-links-potential-therapies-for-autoimmune-diseases/article71641434.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Lupusfoto.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Autoimmune disease",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Autoimmune_disease",
+   "symbolic": false
+  },
+  "audio": "data/audio/ba50209c5cc8.mp3",
+  "created_ts": 1793438980.123534,
+  "status": "published"
+ },
+ {
+  "headline": "மதுரை மீனாட்சியம்மன் கோயிலில் மின்வெட்டு: டிடிவி தினகரன் விமர்சனம்",
+  "lines": [
+   "மதுரை மீனாட்சியம்மன் கோயிலில் ஏற்பட்ட மின்வெட்டு குறித்து அமமுக பொதுச் செயலாளர் டிடிவி தினகரன் கருத்து தெரிவித்தார்.",
+   "தமிழ்நாடு முழுவதும் அண்மைக் காலமாக அடிக்கடி மின்வெட்டு ஏற்படுவதாக அவர் குற்றம் சாட்டினார்.",
+   "மாநிலத்தை இருளில் மூழ்கடித்த மின்சாரத் துறைக்கு வெளிச்சம் வருவது எப்போது என்று அவர் கேள்வி எழுப்பினார்.",
+   "தமிழ்நாடு அரசு மின் உற்பத்தி மற்றும் விநியோகத்தில் குறைபாடு இருப்பதாக அவர் தெரிவித்தார்.",
+   "இது தொடர்பாக தமிழ்நாடு அரசு தரப்பில் இதுவரை அதிகாரப்பூர்வ பதில் வெளியாகவில்லை."
+  ],
+  "closing": "இந்த விமர்சனம் மாநிலத்தில் மின்வெட்டு பிரச்சினை குறித்த அரசியல் விவாதத்தைத் தூண்டியுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "டிடிவி தினகரன்",
+   "மதுரை மீனாட்சியம்மன் கோயில்",
+   "தமிழ்நாடு மின்சாரத் துறை",
+   "அமமுக"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "TTV Dhinakaran Criticises Power Cuts at Madurai Meenakshi Temple",
+   "lines": [
+    "AMMK general secretary T. T. V. Dhinakaran spoke about a power outage at the Madurai Meenakshi Amman Temple.",
+    "He alleged that frequent power cuts have been occurring across Tamil Nadu in recent times.",
+    "He questioned when light would return to the electricity department that has plunged the state into darkness.",
+    "He claimed the Tamil Nadu government has failed in power generation and distribution.",
+    "There has been no official response from the state government on this matter so far."
+   ],
+   "closing": "The criticism has sparked political debate over the power cut issue in the state."
+  },
+  "front_cat": "routine",
+  "image_query": "TTV Dhinakaran politician",
+  "wiki_subject": "T. T. V. Dhinakaran",
+  "person_en": "T. T. V. Dhinakaran",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "b9bd0275d05f",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-31T14:57+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/31/ttv-dhinakaran-on-power-cuts-at-madurai-meenakshi-amman-temple"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/T._T._V._Dhinakaran.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · T. T. V. Dhinakaran",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/T._T._V._Dhinakaran",
+   "symbolic": false
+  },
+  "audio": "data/audio/b9bd0275d05f.mp3",
+  "created_ts": 1793438850.8551311,
+  "status": "published"
+ },
+ {
+  "headline": "நவம்பர் 1-ம் தேதி தில்லியில் இந்தியா கூட்டணி போராட்டம்; தமிழக அணிதிரட்டல்",
+  "lines": [
+   "நவம்பர் 1-ம் தேதி புது தில்லியில் நடைபெறும் இந்தியா கூட்டணி போராட்டத்திற்காக தமிழக காங்கிரஸ் கட்சியும், விடுதலைச் சிறுத்தைகள் கட்சியும் தங்கள் கட்சியினரை அணிதிரட்டி வருகின்றன.",
+   "நாடு முழுவதும் ஐந்து லட்சத்திற்கும் அதிகமான காங்கிரஸ் தொண்டர்கள் இப்போராட்டத்தில் கலந்துகொள்வார்கள் என எதிர்பார்க்கப்படுகிறது.",
+   "தமிழ்நாட்டின் ஒவ்வொரு மாவட்டத்தையும் சேர்ந்த குறைந்தது நூறு கட்சி தொண்டர்களாவது புது தில்லிக்குச் செல்வார்கள் என்று நாடாளுமன்ற உறுப்பினர் ஆர்.சுதா தெரிவித்தார்.",
+   "இந்தியா கூட்டணியின் கீழ் இணைந்துள்ள கட்சிகள் இந்தப் போராட்டத்தை ஒருங்கிணைந்து நடத்த திட்டமிட்டுள்ளன.",
+   "நவம்பர் 1-ம் தேதி நடைபெறவுள்ள இந்தப் போராட்டத்திற்கான ஏற்பாடுகள் தற்போது தீவிரமாக நடைபெற்று வருகின்றன."
+  ],
+  "closing": "இந்தியா கூட்டணி என்பது மத்திய அரசுக்கு எதிரான பல்வேறு எதிர்க்கட்சிகளின் கூட்டமைப்பு ஆகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தமிழக காங்கிரஸ் கமிட்டி",
+   "விடுதலைச் சிறுத்தைகள் கட்சி",
+   "இந்தியா கூட்டணி",
+   "புது தில்லி",
+   "ஆர்.சுதா"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "TN Congress, VCK mobilise cadres for Nov. 1 Delhi protest",
+   "lines": [
+    "Tamil Nadu Congress Committee and the Viduthalai Chiruthaigal Katchi are mobilising their cadres for the INDIA bloc protest in New Delhi on November 1.",
+    "More than five lakh Congress cadres across the country are expected to take part in the protest, officials said.",
+    "At least 100 party workers from each district in Tamil Nadu are expected to reach New Delhi, MP R. Sudha said.",
+    "Parties within the INDIA bloc are reportedly planning to jointly organise the protest."
+   ]
+  },
+  "id": "41253f9ede23",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-31T14:55+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-congress-vck-mobilise-cadres-for-nov-1-india-bloc-protest-in-new-delhi/article71646455.ece"
+  ],
+  "image": {
+   "url": "data/bank/india01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/41253f9ede23.mp3",
+  "created_ts": 1793438754.2725012,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "வேலூர் பேரணாம்பட்டு அரசுப் பள்ளி மாணவிகள் இருவர் காணாமல் போனார்கள்",
+  "lines": [
+   "வேலூர் மாவட்டம் பேரணாம்பட்டு அரசுப் பள்ளியில் பிளஸ் ஒன் படிக்கும் இரு மாணவிகள் திடீரென காணாமல் போனதாகத் தெரிகிறது.",
+   "பாதிக்கப்பட்ட மாணவிகள் இருவரும் ஒரே பள்ளியில் படிக்கும் மாணவிகள் என்று தெரிகிறது.",
+   "இந்தச் சம்பவம் தொடர்பாக உள்ளூர் காவல் நிலையப் போலீசார் வழக்குப் பதிவு செய்து விசாரணை நடத்தி வருகின்றனர்.",
+   "மாணவிகள் காணாமல் போனதற்கான காரணம் குறித்து இதுவரை உறுதியான தகவல் வெளியிடப்படவில்லை.",
+   "காணாமல் போன மாணவிகளைக் கண்டறியும் முயற்சியில் போலீசார் தேடுதல் நடவடிக்கையைத் தொடர்ந்து மேற்கொண்டு வருகின்றனர்."
+  ],
+  "closing": "சிறார் தொடர்பான இச்சம்பவத்தில் மேலும் விவரங்கள் வெளியாக வேண்டியுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "பேரணாம்பட்டு",
+   "வேலூர் மாவட்டம்",
+   "அரசுப் பள்ளி",
+   "போலீசார்"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Two Plus-One girl students go missing from Pernambut govt school",
+   "lines": [
+    "Two Plus-One students from a government school in Pernambut, Vellore district, have reportedly gone missing suddenly.",
+    "Both the missing girls are said to be studying in the same school.",
+    "Local police have registered a case regarding the incident and launched an investigation.",
+    "No confirmed details about the reason behind the girls going missing have been released so far.",
+    "Police continue their search operations in an effort to trace the missing students."
+   ],
+   "closing": "More details are awaited in this case involving minors."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "9e343835f01a",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-31T14:54+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/31/two-plus-1-girl-students-from-a-government-school-in-pernambut-go-missing-police-investigate"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/9e343835f01a.mp3",
+  "created_ts": 1793438683.8145432,
+  "status": "published"
+ },
+ {
+  "headline": "பெண்களுக்கு எதிரான குற்றங்கள் அதிகரிப்பு பற்றி முதல்வர் ஸ்டாலின் கருத்து",
+  "lines": [
+   "தமிழகத்தில் பெண்களுக்கு எதிரான குற்றங்கள் அதிகரித்து வருவதாக முதல்வர் மு.க.ஸ்டாலின் தெரிவித்தார்.",
+   "இந்தக் கூற்றுக்கு ஆதரவாக எந்தப் புள்ளிவிவரமும் இதுவரை அவர் வெளியிடவில்லை.",
+   "அவர் இந்தக் கருத்தை எந்தச் சூழலில், எந்த நிகழ்வில் தெரிவித்தார் என்பது தெளிவாகத் தெரியவில்லை.",
+   "பெண்கள் பாதுகாப்பு தொடர்பான அரசு நடவடிக்கைகள் குறித்து மேலும் விவரங்கள் வெளியாகவில்லை.",
+   "இது தொடர்பான முழு அறிக்கை மற்றும் தெளிவான தகவல்கள் பின்னர் வெளிவரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இச்செய்தி ஒரே மூலத்திலிருந்து பெறப்பட்டது; முதல்வரின் முழு அறிக்கையோ சூழலோ இதுவரை தெளிவாக வெளியாகவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தமிழகம்",
+   "மு.க.ஸ்டாலின்",
+   "பெண்கள் பாதுகாப்பு"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "Rising Crimes Against Women in Tamil Nadu, Says CM Stalin",
+   "lines": [
+    "Tamil Nadu Chief Minister M. K. Stalin said crimes against women are increasing in the state.",
+    "No statistics have been released so far to support this statement.",
+    "It is unclear in what context or at which event he made this remark.",
+    "No further details have been released about government measures on women's safety.",
+    "A fuller statement and clearer details are expected to be released later."
+   ],
+   "closing": "This report is based on a single source; the Chief Minister's full statement and context have not yet been clearly released."
+  },
+  "id": "744f5ac479fd",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-31T14:53+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/31/crimes-against-women-are-on-the-rise-in-tamil-nadu-mk-stalin"
+  ],
+  "image": {
+   "url": "data/bank/crime14.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/744f5ac479fd.mp3",
+  "created_ts": 1793438596.2398837,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "விலைவாசி, சட்டம் ஒழுங்கு மீது முதல்வர் விஜயிடம் ஸ்டாலின் வேண்டுகோள்",
+  "lines": [
+   "எதிர்க்கட்சித் தலைவர் மு.க.ஸ்டாலின், விலைவாசி உயர்வு மற்றும் சட்டம் ஒழுங்கு குறித்து பெண்களின் போராட்டத்தை கவனிக்குமாறு முதல்வர் விஜயிடம் வேண்டுகோள் விடுத்துள்ளார்.",
+   "இந்த வேண்டுகோளை அவர் ஒரு சமூக ஊடகப் பதிவின் மூலம் தெரிவித்தார்.",
+   "பெண்கள் மணி அடித்துவிட்டனர், அரசு நிர்வாகத்தில் கவனம் செலுத்த வேண்டும் என்று ஸ்டாலின் குறிப்பிட்டார்.",
+   "விமர்சகர்களை வேட்டையாடுவதாகவும், இடைத்தேர்தலுக்கான காட்சிக்கு அரசு தயாராகி வருவதாகவும் அவர் குற்றம் சாட்டினார்.",
+   "இது தொடர்பாக முதலமைச்சர் அலுவலகத்தின் தரப்பில் இதுவரை அதிகாரப்பூர்வ பதில் வெளியிடப்படவில்லை."
+  ],
+  "closing": "இந்த விமர்சனத்திற்கு முதலமைச்சர் விஜய் தரப்பில் பதில் வருமா என்பது கவனிக்கப்பட வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "மு.க.ஸ்டாலின்",
+   "விஜய்",
+   "தமிழ்நாடு அரசு",
+   "இடைத்தேர்தல்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Stalin Urges CM Vijay to Heed Women's Protest Over Prices",
+   "lines": [
+    "Opposition leader M. K. Stalin urged Chief Minister Vijay to pay attention to women protesting rising prices and law and order issues.",
+    "He conveyed this request through a social media post.",
+    "Stalin said that women have sounded the alarm and that the government administration must pay attention.",
+    "He accused the government of hunting down critics and preparing a spectacle for the by-election.",
+    "There has been no official response from the Chief Minister's office on this matter so far."
+   ],
+   "closing": "It remains to be seen whether Chief Minister Vijay's side will respond to this criticism.",
+   "closing_type": "watch"
+  },
+  "id": "99029c87c9ce",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-10-31T14:50+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/stalin-urges-cm-vijay-to-heed-womens-protest-over-rising-prices-deteriorating-law-and-order/article71648766.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt03.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/99029c87c9ce.mp3",
+  "created_ts": 1793438456.5503337,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "சிதம்பரம் அருகே மனைவியைக் கொன்று உடலை எரித்த கணவர் சம்பவம்",
+  "lines": [
+   "சிதம்பரம் அருகே ஒரு கணவர் தனது மனைவியைத் தாக்கிக் கொலை செய்ததாகத் தகவல் வெளியாகி உள்ளது.",
+   "கொலைக்குப் பிறகு உடலை யாருக்கும் தெரியாமல் எரித்ததாக குற்றம் சாட்டப்பட்டுள்ளது.",
+   "இந்தச் சம்பவம் தொடர்பாக உள்ளூர் காவல் நிலையத்தின் போலீசார் வழக்குப் பதிவு செய்து விசாரணை நடத்தி வருகின்றனர்.",
+   "சம்பவம் எவ்வாறு நடந்தது என்பது குறித்த முழு விவரங்கள் இன்னும் உறுதி செய்யப்படவில்லை.",
+   "குற்றம் சாட்டப்பட்டவரைக் கண்டறிந்து நடவடிக்கை எடுக்கும் பணியில் காவல் துறையினர் ஈடுபட்டுள்ளனர்."
+  ],
+  "closing": "இந்த வழக்கில் காவல் துறையின் விசாரணை முடிவுகள் வெளியாகும் விதம் கவனிக்கப்பட வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-10-31"
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சிதம்பரம்",
+   "கணவர்",
+   "மனைவி",
+   "போலீசார்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Near Chidambaram, Husband Allegedly Kills Wife, Burns Body",
+   "lines": [
+    "Near Chidambaram, a husband is alleged to have beaten his wife to death.",
+    "After the killing, the accused is said to have burned the body without anyone's knowledge.",
+    "Local police have registered a case regarding the incident and are investigating.",
+    "Full details of how the incident occurred have not yet been confirmed.",
+    "Police are working to identify and take action against the accused."
+   ],
+   "closing": "How the police investigation unfolds in this case remains to be seen."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "cb3c2ed5d727",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-31T14:49+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/31/sensation-near-chidambaram-husband-beats-wife-to-death-and-burns-her-body-without-anyone-knowing"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Le_temple_de_Shiva_Nataraja_%28Chidambaram%2C_Inde%29_%2814037020332%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Nataraja Temple, Chidambaram",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Nataraja_Temple%2C_Chidambaram",
+   "symbolic": false
+  },
+  "audio": "data/audio/cb3c2ed5d727.mp3",
+  "created_ts": 1793438350.2541702,
+  "status": "published"
+ },
+ {
+  "headline": "தலையில் கல்லைப் போட்டு 78 வயது மூதாட்டி கொலை: காவல்துறை விசாரணை",
+  "lines": [
+   "தமிழ்நாட்டில் ஒரு பகுதியில் 78 வயது மூதாட்டி தலையில் கல் வீசப்பட்டு கொலை செய்யப்பட்டார்.",
+   "இந்தச் சம்பவம் தொடர்பாக காவல்துறையினர் வழக்குப் பதிவு செய்து விசாரணை நடத்தி வருகின்றனர்.",
+   "கொலைக்கான காரணம் குறித்து விரிவான விசாரணை நடைபெற்று வருவதாக காவல்துறை தெரிவித்துள்ளது.",
+   "சம்பவம் தொடர்பான கூடுதல் விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை என்று தகவல்கள் தெரிவிக்கின்றன.",
+   "குற்றம் சாட்டப்பட்டவர்களைக் கண்டறியும் பணியில் காவல்துறையினர் தீவிரமாக ஈடுபட்டுள்ளனர்."
+  ],
+  "closing": "இச்சம்பவம் தொடர்பாக காவல்துறையினர் கூடுதல் விவரங்களை சேகரித்து வருகின்றனர்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "தமிழ்நாடு",
+   "மூதாட்டி",
+   "காவல் துறை",
+   "கொலை வழக்கு"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "78-Year-Old Woman Killed With Stones in Tamil Nadu, Police Investigate",
+   "lines": [
+    "A 78-year-old woman was killed in a part of Tamil Nadu after stones were dropped on her head.",
+    "Police have registered a case regarding the incident and are conducting an investigation.",
+    "Police stated that a detailed probe is underway to determine the motive behind the murder.",
+    "No further official details about the incident have been released so far, according to reports.",
+    "Police are actively working to identify the accused persons responsible for the crime."
+   ],
+   "closing": "Police are gathering additional details regarding the incident."
+  },
+  "front_cat": "crime_major",
+  "image_query": "scales of justice",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "e9d6d141ed27",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-31T14:48+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Oct/31/78-year-old-woman-murdered-with-stones-dropped-on-her-head-police-investigation"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/e9d6d141ed27.mp3",
+  "created_ts": 1793438307.1434457,
+  "status": "published"
+ },
+ {
+  "headline": "தேனி சிறையிலிருந்து பதினேழு கைதிகள் தப்பியோட்டம், நாற்பத்திரண்டு மணி நேரத்தில் பிடிப்பு",
+  "lines": [
+   "தேனி மாவட்டச் சிறையில் கடந்த அக்டோபர் இருபத்தாறாம் தேதி இரவு, பதினேழு ரிமாண்ட் கைதிகள் தப்பிச் செல்ல முயன்றனர்.",
+   "தமிழ்நாடு காவல்துறையின் பல்வேறு குழுக்களும் ஆளில்லா விமானங்களும் பயன்படுத்திய தேடுதலில், நாற்பத்திரண்டு மணி நேரத்திற்குள் அனைவரும் மீண்டும் பிடிபட்டனர்.",
+   "சிறைச்சாலை நெரிசல், பணியாளர் பற்றாக்குறை, பாதுகாப்புக் குறைபாடுகள் பற்றிய கேள்விகளை இந்தச் சம்பவம் எழுப்பியுள்ளதாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "இந்நிகழ்வு தேனி சிறையின் கட்டமைப்பு மற்றும் பாதுகாப்பு ஏற்பாடுகள் குறித்த விரிவான மறுஆய்வுக்கு வழிவகுக்கும் என எதிர்பார்க்கப்படுகிறது.",
+   "தப்பியோடிய கைதிகள் மீதான விசாரணை தொடர்கிறது; சிறைச்சாலைச் சீர்திருத்தம் குறித்த விவாதங்களும் தொடங்கியுள்ளன."
+  ],
+  "closing": "தமிழ்நாட்டின் சிறைகளில் நிலவும் நெரிசல் மற்றும் பாதுகாப்புக் குறைபாடுகள் பற்றிய பழைய பிரச்சினைகளை இந்தச் சம்பவம் மீண்டும் முன்னிலைப்படுத்தியுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "தேனி சிறை",
+   "தமிழ்நாடு காவல்துறை",
+   "ரிமாண்ட் கைதிகள்",
+   "ஆளில்லா விமானம்"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Seventeen prisoners escape Theni jail, caught within 42 hours",
+   "lines": [
+    "On the night of October 26, seventeen remand prisoners attempted to escape from Theni district jail.",
+    "A search operation involving multiple Tamil Nadu police teams and drones recaptured all of them within 42 hours.",
+    "Officials said the incident has raised questions about prison overcrowding, staff shortages and security gaps.",
+    "The episode is expected to trigger a broader review of the jail's infrastructure and security arrangements.",
+    "Investigation into the escaped prisoners continues, and discussions on prison reform have begun."
+   ],
+   "closing": "The incident has again highlighted long-standing concerns over overcrowding and security lapses in Tamil Nadu's prisons."
+  },
+  "front_cat": "crime_major",
+  "image_query": "prison jail fence",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "aba5bc8c0900",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-10-31T14:47+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/the-great-escape-from-tamil-nadus-theni-jail/article71645449.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime17.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/aba5bc8c0900.mp3",
+  "created_ts": 1793438240.3983366,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261031",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 9 · அரசு & தனியார்",
   "lines": [

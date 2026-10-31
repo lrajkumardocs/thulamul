@@ -1,22 +1,23 @@
+[expire] ad7da30f4d43
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 21 புதியவை
+[fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 13 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
+[fetch] The Hindu TN: 16 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 13 புதியவை
-[fetch] BBC World: 23 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 15 புதியவை
+[fetch] BBC World: 12 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
+[fetch] ESPNcricinfo: 19 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 9 புதியவை
+[fetch] The Hindu Cinema: 10 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 27 புதியவை
+[fetch] The Hindu Tech: 26 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 14 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 16 புதியவை
+[fetch] FreeJobAlert: 24 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +29,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 25 புதியவை
-[fetch] Dinamalar Aanmeegam: 0 புதியவை
+[fetch] Bar and Bench: 30 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 25 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +57,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f733f1b6210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 25 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1d7c570b90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,63 +68,65 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 18 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 656 → நிகழ்வுகள் 608
-[triage] 608 → 66 | காலி: tn:3, india:3, crime:3, jobs:3, health:3
-[tts-edge] 28e3c82711c9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அமிர்தா பல்கலைக்கழகத்தில் பேராசிரியர் பணியிடங்களுக்கு விண்ணப்பிக்க இன்றே கடைசி நாள்
-[skip] வெளிநாட்டு மருத்துவ தொழில்நுட்பத்தின் சாধாரண அறிவிப்பு. தமிழ
-[skip] வெளிநாட்டுப் பட்டைக் கட்டுரை — தமிழ்த் திரையுலகத்துடன் வெளிப
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZZdEnAVxYUMqXUZfN2Y'}
-[skip] வெளிநாட்டு ক্রিপ্টோ நிறுவனத்தின் உள்ளூர் நிதிச் சம்பவம்; தமி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZZgDDz2cqmRvDDWTNyd'}
-[skip] வெளிநாட்டுக் கிரிப்டோக்களின் தொழில்நுட்பக் குற்றம். தமிழ்நாட
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZZjh492L2WYtxEeDZXo'}
-[skip] வெளிநாட்டு உள்நாட்டுப் பிரச்சினை — ஈரான் மற்றும் அமெரிக்கா இ
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நிகழ்வின் இடம், தேதி, விரி
+[run] புதியவை 705 → நிகழ்வுகள் 650
+[triage] 650 → 43 | காலி: india:3, crime:3, health:3, cinema:3, world:2
+[skip] பொதுவான சுகாதாரக் கட்டுரை — குறிப்பிட்ட நிகழ்வு, அறிவிப்பு, 
+[skip] இந்திய சினிமாவின் வட இந்திய இயக்குநர் — தமிழ்நாட்டுக்குத் தொ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cga4agdie5V3nWasNoP63'}
+[image] களஞ்சியம் (2 சொல்): தேனி சிறையிலிருந்து பதினேழு கைதிகள
+[tts-edge] aba5bc8c0900: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தேனி சிறையிலிருந்து பதினேழு கைதிகள் தப்பியோட்டம், நாற்பத்திரண்டு மணி நேரத்தில் பிடிப்பு
+[skip] மூலத்தில் போதிய விவரம் இல்லை, மேலும் 'முதல்வர் விஜய்' எனும் 
+[திருத்தம்] தமிழ்நாட்டில் எழுபத்தெட்டு வயது மூதாட்டி → தலையில் கல்லைப் போட்டு 78 வயது மூதாட்டி 
+[image] களஞ்சியம் (3 சொல்): தலையில் கல்லைப் போட்டு 78 வயது மூத
+[tts-edge] e9d6d141ed27: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தலையில் கல்லைப் போட்டு 78 வயது மூதாட்டி கொலை: காவல்துறை விசாரணை
+[publish] சிதம்பரம் அருகே மனைவியைக் கொன்று உடலை எரித்த கணவர் சம்பவம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] நீதிபதிகள் மீதான விமர்சனப் பேரணிக்கு அனு → நீதிபதிகள் மீதான விமர்சனப் பேரணிக்கு அனு
-[tts-edge] d9466a07ceec: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நீதிபதிகள் மீதான விமர்சனப் பேரணிக்கு அனுமதி வேண்டாம்: சென்னை உயர்நீதிமன்றம் உத்தரவு
-[திருத்தம்] தமிழர் ஒருவர் பிரதமராவார் - துணைக் குடிய → தமிழர் ஒருவர் நிச்சயம் பிரதமராவார் - குட
-[publish] தமிழர் ஒருவர் நிச்சயம் பிரதமராவார் - குடியரசு துணைத் தலைவர் கருத்து
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZZzFb8KaEegwxXs7Rbx'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZa3RktRseGcVr47K4cw'}
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[publish] மீனாட்சி அம்மன் கோயிலில் மின்தடை குறித்து அமைச்சர் விளக்கம்
-[skip] வெளிநாட்டு ராணுவ ஆயுதப் பற்றாக்குறை — தமிழ்நாட்டு/இந்திய வாச
-[skip] பிற நாட்டின் உள்ளூர் அரசியல் — பொலந்தின் உচ்சநீதிமன்றப் பதவி
-[skip] பரந்த உலகச் சுற்ற ஒப்பந்தம் — தமிழ்நாடு வாசகருக்கு நேரடித் த
-[skip] பிற நாட்டின் உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகருக்குப்
-[skip] அமெரிக்க செனட்டர் மற்றும் எகிப்து언론்ச் சுதந்திரம் — பிற நாட்
-[skip] வெளிநாட்டு நிறுவனத்தின் உள்ளூர் அமெரிக்க உளவு விஷயம்; தமிழ்ந
-[hold] எம்.ஐ.டி.எஸ். பேராசிரியர் கலையரசன் மீதான காவல்துறை நடவடிக்கையை சக ஆசிரியர்கள் கண்டனம்
-[skip] செர்பியாவின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியா வாசகரைப் 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZaGYBTHBs9rWpVGP9xX'}
-[skip] உக்రைனுக்கும் தமிழ்நாட்டுக்கும் நேரடித் தொடர்பு இல்லை. வெளிந
-[திருத்தம்] தமிழக தலைமைத் தகவல் ஆணையராக ஓய்வுபெற்ற ஐ → தமிழக தலைமைத் தகவல் ஆணையராக ஓய்வுபெற்ற ஐ
-[publish] தமிழக தலைமைத் தகவல் ஆணையராக ஓய்வுபெற்ற ஐஏஎஸ் அதிகாரி எஸ்.நடராஜன் நியமனம்
-[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு வாசகரைப் பாதிக்காது. 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZaPqFKQDryfJt2TDXvX'}
-[skip] பொலந்து நாட்டின் உள்நாட்டு அரசியல் நிகழ்வு. தமிழ்நாட்டு/இந்த
+[திருத்தம்] விலைவாசி, சட்டம் ஒழுங்கு மீது முதல்வர் வ → விலைவாசி, சட்டம் ஒழுங்கு மீது முதல்வர் வ
+[image] களஞ்சியம் (3 சொல்): விலைவாசி, சட்டம் ஒழுங்கு மீது முதல
+[publish] விலைவாசி, சட்டம் ஒழுங்கு மீது முதல்வர் விஜயிடம் ஸ்டாலின் வேண்டுகோள்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cga4yUB1YQXrtgSBzRfCb'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cga526tvHxoLRBKUHArRK'}
+[திருத்தம்] பெண்கள் மீதான குற்றங்கள் அதிகரிப்பு பற்ற → பெண்களுக்கு எதிரான குற்றங்கள் அதிகரிப்பு
+[image] களஞ்சியம் (2 சொல்): பெண்களுக்கு எதிரான குற்றங்கள் அதிக
+[publish] பெண்களுக்கு எதிரான குற்றங்கள் அதிகரிப்பு பற்றி முதல்வர் ஸ்டாலின் கருத்து
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியப் பொதுமக்களு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZaWmZ1obG62Wgd3fCo4'}
-[skip] பொலந்து அரசியல் — தமிழ்நாடு/இந்தியா வாசகருக்குப் பொருந்தமில்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, செய்தியின் உட
-[skip] வெளிநாட்டு உள்நாட்டு சட்ட விவகாரம் — அமெரிக்க அரசியல்வாதியின
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgZacqjT1t9HHoiRTTssm'}
-[skip] லাইবেரியாவின் முன்னாள் கிளர்ச்சிக் கமாண்டரின் சர்வதேச குற்றவ
-[image] களஞ்சியம் (2 சொல்): ஆம்னி பேருந்து அதிக கட்டணம் வசூலித
-[publish] ஆம்னி பேருந்து அதிக கட்டணம் வசூலித்தால் அனுமதி ரத்து எச்சரிக்கை
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 9
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹12174 · சென்செக்ஸ் 74460
+[image] களஞ்சியம் (3 சொல்): வேலூர் பேரணாம்பட்டு அரசுப் பள்ளி ம
+[publish] வேலூர் பேரணாம்பட்டு அரசுப் பள்ளி மாணவிகள் இருவர் காணாமல் போனார்கள்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யார், எப்போது, எப்படி தப்ப
+[திருத்தம்] நவம்பர் ஒன்றில் தில்லியில் இந்தியா கூட்ட → நவம்பர் 1-ம் தேதி தில்லியில் இந்தியா கூட
+[image] களஞ்சியம் (3 சொல்): நவம்பர் 1-ம் தேதி தில்லியில் இந்தி
+[publish] நவம்பர் 1-ம் தேதி தில்லியில் இந்தியா கூட்டணி போராட்டம்; தமிழக அணிதிரட்டல்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] மதுரை மீனாட்சியம்மன் கோயில் மின்வெட்டு க → மதுரை மீனாட்சியம்மன் கோயிலில் மின்வெட்டு
+[தரம்] தமிழ் அல்லாத எழுத்து: टीట → ஒரு திருத்தம்
+[publish] மதுரை மீனாட்சியம்மன் கோயிலில் மின்வெட்டு: டிடிவி தினகரன் விமர்சனம்
+[skip] இது சண்டிகரின் பஞ்ச்குலா பகுதியில் நடந்த உள்ளூர்க் குற்றச் ச
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cga5UhPKBNp9dHwQYhgLi'}
+[skip] ராஜஸ்தான் மாநில அரசுப் பள்ளி ஆசிரியர் தொடர்பான உள்ளூர் நிர்வ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: DMK women cadre protest across Tamil Nadu over p
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டுத் தொடர் — ஆஸ்திரேலிய உள்நாட்டு கிரிக்கெட் (தస்மேன
+[skip] இது பஞ்சாப் மற்றும் ஹரியானா உயர்நீதிமன்றம் பஞ்சாப் மாநிலச் ச
+[skip] This is a religious/philosophical article about Sanatana Dha
+[skip] கேரளத்தின் உள்ளூர் வேலை அறிவிப்பு — தமிழ்நாட்டு வாசகரைப் பாத
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Stolen Chola-era bronze idol of Kannappa Nayanar
+[skip] கேரளத்தின் உள்ளூர் சுகாதார நிகழ்வு. தமிழ்நாட்டு வாசகரைப் பாத
+[skip] தமிழ்நாட்டுக்கு தொடர்பு இல்லை — ஹிந்தி/மராठी படம், தமிழ் கலை
+[skip] வெளிநாட்டுக் கூட்டணி அறிவிப்பு — தமிழ்நாடு/இந்தியாவுக்குத் த
+[skip] வெளிநாட்டுத் திரிபுளி தொடர் — தமிழ்நாடு, இந்தியா, உலக அளவிலா
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: The great escape from Theni jail
+[தரம்] தமிழ் அல்லாத எழுத்து: ু → ஒரு திருத்தம்
+[publish] தன்னோடு போரிடும் நோய்களின் மரபணு தொடர்பு குறித்து ஆய்வு
+[skip] தெలుங்கு திரைப்படம்; தமிழ்நாட்டு வாசகர்களுக்கு நேரடி பொருத்த
+[filler] tech கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12219 · சென்செக்ஸ் 74460
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 7
+[done] feed 300 · pending 0 · எழுதியவை 9
