@@ -1,23 +1,22 @@
-[expire] ad7da30f4d43
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 13 புதியவை
-[fetch] BBC World: 12 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
-[fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
+[fetch] BBC Tamil: 14 புதியவை
+[fetch] BBC World: 17 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
+[fetch] The Hindu Sport: 30 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 26 புதியவை
+[fetch] The Hindu Tech: 24 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 14 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 11 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 24 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,9 +28,9 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 30 புதியவை
+[fetch] Bar and Bench: 5 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
-[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
@@ -57,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1d7c570b90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f293b32f690>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -68,60 +67,29 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 18 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 705 → நிகழ்வுகள் 650
-[triage] 650 → 43 | காலி: india:3, crime:3, health:3, cinema:3, world:2
-[skip] பொதுவான சுகாதாரக் கட்டுரை — குறிப்பிட்ட நிகழ்வு, அறிவிப்பு, 
-[skip] இந்திய சினிமாவின் வட இந்திய இயக்குநர் — தமிழ்நாட்டுக்குத் தொ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cga4agdie5V3nWasNoP63'}
-[image] களஞ்சியம் (2 சொல்): தேனி சிறையிலிருந்து பதினேழு கைதிகள
-[tts-edge] aba5bc8c0900: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தேனி சிறையிலிருந்து பதினேழு கைதிகள் தப்பியோட்டம், நாற்பத்திரண்டு மணி நேரத்தில் பிடிப்பு
-[skip] மூலத்தில் போதிய விவரம் இல்லை, மேலும் 'முதல்வர் விஜய்' எனும் 
-[திருத்தம்] தமிழ்நாட்டில் எழுபத்தெட்டு வயது மூதாட்டி → தலையில் கல்லைப் போட்டு 78 வயது மூதாட்டி 
-[image] களஞ்சியம் (3 சொல்): தலையில் கல்லைப் போட்டு 78 வயது மூத
-[tts-edge] e9d6d141ed27: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தலையில் கல்லைப் போட்டு 78 வயது மூதாட்டி கொலை: காவல்துறை விசாரணை
-[publish] சிதம்பரம் அருகே மனைவியைக் கொன்று உடலை எரித்த கணவர் சம்பவம்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] விலைவாசி, சட்டம் ஒழுங்கு மீது முதல்வர் வ → விலைவாசி, சட்டம் ஒழுங்கு மீது முதல்வர் வ
-[image] களஞ்சியம் (3 சொல்): விலைவாசி, சட்டம் ஒழுங்கு மீது முதல
-[publish] விலைவாசி, சட்டம் ஒழுங்கு மீது முதல்வர் விஜயிடம் ஸ்டாலின் வேண்டுகோள்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cga4yUB1YQXrtgSBzRfCb'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cga526tvHxoLRBKUHArRK'}
-[திருத்தம்] பெண்கள் மீதான குற்றங்கள் அதிகரிப்பு பற்ற → பெண்களுக்கு எதிரான குற்றங்கள் அதிகரிப்பு
-[image] களஞ்சியம் (2 சொல்): பெண்களுக்கு எதிரான குற்றங்கள் அதிக
-[publish] பெண்களுக்கு எதிரான குற்றங்கள் அதிகரிப்பு பற்றி முதல்வர் ஸ்டாலின் கருத்து
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (3 சொல்): வேலூர் பேரணாம்பட்டு அரசுப் பள்ளி ம
-[publish] வேலூர் பேரணாம்பட்டு அரசுப் பள்ளி மாணவிகள் இருவர் காணாமல் போனார்கள்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யார், எப்போது, எப்படி தப்ப
-[திருத்தம்] நவம்பர் ஒன்றில் தில்லியில் இந்தியா கூட்ட → நவம்பர் 1-ம் தேதி தில்லியில் இந்தியா கூட
-[image] களஞ்சியம் (3 சொல்): நவம்பர் 1-ம் தேதி தில்லியில் இந்தி
-[publish] நவம்பர் 1-ம் தேதி தில்லியில் இந்தியா கூட்டணி போராட்டம்; தமிழக அணிதிரட்டல்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] மதுரை மீனாட்சியம்மன் கோயில் மின்வெட்டு க → மதுரை மீனாட்சியம்மன் கோயிலில் மின்வெட்டு
-[தரம்] தமிழ் அல்லாத எழுத்து: टीట → ஒரு திருத்தம்
-[publish] மதுரை மீனாட்சியம்மன் கோயிலில் மின்வெட்டு: டிடிவி தினகரன் விமர்சனம்
-[skip] இது சண்டிகரின் பஞ்ச்குலா பகுதியில் நடந்த உள்ளூர்க் குற்றச் ச
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cga5UhPKBNp9dHwQYhgLi'}
-[skip] ராஜஸ்தான் மாநில அரசுப் பள்ளி ஆசிரியர் தொடர்பான உள்ளூர் நிர்வ
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: DMK women cadre protest across Tamil Nadu over p
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டுத் தொடர் — ஆஸ்திரேலிய உள்நாட்டு கிரிக்கெட் (தస்மேன
-[skip] இது பஞ்சாப் மற்றும் ஹரியானா உயர்நீதிமன்றம் பஞ்சாப் மாநிலச் ச
-[skip] This is a religious/philosophical article about Sanatana Dha
-[skip] கேரளத்தின் உள்ளூர் வேலை அறிவிப்பு — தமிழ்நாட்டு வாசகரைப் பாத
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Stolen Chola-era bronze idol of Kannappa Nayanar
-[skip] கேரளத்தின் உள்ளூர் சுகாதார நிகழ்வு. தமிழ்நாட்டு வாசகரைப் பாத
-[skip] தமிழ்நாட்டுக்கு தொடர்பு இல்லை — ஹிந்தி/மராठी படம், தமிழ் கலை
-[skip] வெளிநாட்டுக் கூட்டணி அறிவிப்பு — தமிழ்நாடு/இந்தியாவுக்குத் த
-[skip] வெளிநாட்டுத் திரிபுளி தொடர் — தமிழ்நாடு, இந்தியா, உலக அளவிலா
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: The great escape from Theni jail
-[தரம்] தமிழ் அல்லாத எழுத்து: ু → ஒரு திருத்தம்
-[publish] தன்னோடு போரிடும் நோய்களின் மரபணு தொடர்பு குறித்து ஆய்வு
-[skip] தெలుங்கு திரைப்படம்; தமிழ்நாட்டு வாசகர்களுக்கு நேரடி பொருத்த
-[filler] tech கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[run] புதியவை 697 → நிகழ்வுகள் 639
+[triage] 639 → 37 | காலி: india:3, cinema:3, world:2, health:2, sports:2
+[skip] பிற மாநிலத்தின் சினிமா நிகழ்வு — தமிழ்நாட்டுக்கு நேரடித் தொட
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgaZZRJLMxyumLfshjThL'}
+[skip] இவை பீகார் மாநிலத்தின் உள்ளூர் மாவட்ட அரசு வேலைவாய்ப்பு அறிவ
+[skip] இது கர்நாடகா மாநிலத்தின் உள்ளூர் அரசு திட்டம் (இ-காதா பிரஜாச
+[skip] இது உச்ச நீதிமன்ற பதிவாளர் அலுவலக அதிகாரிகள் தேசிய ஒருமைப்பா
+[திருத்தம்] கேப் டவுன் வெற்றியுடன் தென்னாப்பிரிக்காவ → கேப் டவுனில் தென்னாப்பிரிக்கா வெற்றி, ஆஸ
+[தரம்] தமிழ் அல்லாத எழுத்து: াర → ஒரு திருத்தம்
+[tts-edge] bf8d1087e4fb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கேப் டவுனில் தென்னாப்பிரிக்கா வெற்றி, ஆஸ்திரேலியா முதலிடம் இழந்தது
+[skip] கர்நாடகாவின் உள்ளூர் விவசாயப் போராட்டம், தமிழ்நாட்டுடன் நேரட
+[skip] வெளிநாட்டுச் செய்தி — தமிழ்நாடு அல்லது இந்தியாவுக்கு நேரடிப்
+[skip] வெளிநாட்டு ক্রিকেট দল — বাংলাদেশ vs (எதிர் அணி தெளிவாக குறிப
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; நிகழ்வு எப்போது, எங்கே நடந
+[image] களஞ்சியம் (2 சொல்): ஈ-கட்ட வசதி: 590 உடையாளர்களுக்குப்
+[tts-edge] 3c53d96afcc5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஈ-கட்ட வசதி: 590 உடையாளர்களுக்குப் பிரஜாசேவா சிறப்பு நடவடிக்கை
+[skip] சீனத் தொலைக்காட்சி நாடகம் பற்றிய பொதுவான ஆய்வுக்கட்டுரை. தமி
+[skip] அமெரிக்க உள்நாட்டு தேர்தல் — தமிழ்நாடு/இந்திய வாசகரைப் நேரடி
+[skip] வெளிநாட்டு ஆரோக்கியக் கொள்கை — தமிழ்நாட்டுக்குத் தனிப்பட்ட ப
+[தரம்] தமிழ் அல்லாத எழுத்து: স → ஒரு திருத்தம்
+[publish] சிவாஜி மகாராஜ் பற்றிய இரண்டு பகுதி வரலாற்றுப் படம் தயாரிப்பு
 [market] தங்கம் 22K ₹12219 · சென்செக்ஸ் 74460
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
@@ -129,4 +97,4 @@
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 9
+[done] feed 300 · pending 0 · எழுதியவை 3
