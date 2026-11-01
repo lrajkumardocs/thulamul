@@ -1,43 +1,42 @@
-[expire] 87bf2db0cae6
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 25 புதியவை
+[fetch] ET Markets: 22 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 13 புதியவை
-[fetch] Dinamani TN: 20 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 14 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 16 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 0 புதியவை
+[fetch] The Hindu Cinema: 1 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 19 புதியவை
+[fetch] The Hindu Tech: 16 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 3 புதியவை
+[fetch] The Hindu Health: 5 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 8 புதியவை
+[fetch] FreeJobAlert: 11 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
-[fetch] Dinamani Health: 2 புதியவை
+[fetch] Dinamani Health: 1 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 26 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,61 +56,62 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fae78e8aa10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9f7bfcf850>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
-[fetch] Sarkari Yojana: 0 புதியவை
-[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
+[fetch] Sarkari Yojana: பிழை ('Connection broken: IncompleteRead(0 bytes read, 1569 more expected)', IncompleteRead(0 bytes read, 1569 more expected))
+[fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 28 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 610 → நிகழ்வுகள் 565
-[triage] 565 → 43 | காலி: india:4, govt:3, sports:3, health:2, cinema:2
-[skip] New Zealand மற்றும் India இடையிலான T20 சர்தேசிய பொരுத்தம் — 
-[திருத்தம்] வங்கக்கடலில் புயலாக மாறும் தாழ்வு மண்டலம → வங்கக் கடலில் புயலாக மாறும் தாழ்வு மண்டல
-[image] களஞ்சியம் (2 சொல்): வங்கக் கடலில் புயலாக மாறும் தாழ்வு
-[tts-edge] c9177322e147: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வங்கக் கடலில் புயலாக மாறும் தாழ்வு மண்டலம், தமிழ்நாட்டில் கனமழை எச்சரிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgbt9ZPnjEVHW1FA6NYFQ'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgbtCw4Mn5mjQji64yZGC'}
-[திருத்தம்] அடுத்த மூன்று மணி நேரத்தில் உருவாகும் மு → அடுத்த 3 மணி நேரத்தில் உருவாகும் முரசு ப
-[image] களஞ்சியம் (2 சொல்): அடுத்த 3 மணி நேரத்தில் உருவாகும் ம
-[tts-edge] 5aafe517e66c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அடுத்த 3 மணி நேரத்தில் உருவாகும் முரசு புயல்!
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; புயலின் தேதி, இடம், வேகம்,
-[திருத்தம்] தமிழ்நாட்டில் 26 புதிய பாக்சோ நீதிமன்றங் → தமிழ்நாட்டில் 26 பாக்சோ நீதிமன்றங்கள், ந
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தமிழ்நாட்டில் 26 பாக்சோ நீதிமன்றங்
-[publish] தமிழ்நாட்டில் 26 பாக்சோ நீதிமன்றங்கள், நான்கு போதைப்பொருள் நீதிமன்றங்கள் அமைப்பு
+[run] புதியவை 639 → நிகழ்வுகள் 591
+[triage] 591 → 67 | காலி: sports:3, india:2, govt:2, health:2, cinema:2
+[skip] வெளிநாட்டுத் திரைப்படங்கள், அ-இந்திய விளையாட்டுக் கூட்டணிகளி
+[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் சம்பவம் (மாணவர்கள் உயிரிழப
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] ராமேஸ்வரம் மீனவர்கள் ஏழு பேரை இலங்கை கடற → ராமேஸ்வரம் மீனவர்கள் ஏழு பேரை இலங்கைக் க
-[publish] ராமேஸ்வரம் மீனவர்கள் ஏழு பேரை இலங்கைக் கடற்படை கைது செய்தது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgbtWd96n7avjKZLwursP'}
-[skip] மூலம் தெளிவற்றது மற்றும் முரண்பாடானது - தலைப்பில் 'TVK-led r
-[publish] கட்சதீவு அருகே இராமேஸ்வரம் மீனவர்கள் ஏழு பேர் இலங்கை கடற்படையினரால் தடுப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgbteZjwVaKKj3waZaBQv'}
-[skip] ஆந்திரப் பிரதேசத்தின் உள்ளூர் குற்றச் சம்பவம் — தமிழ்நாடு/இந
+[skip] ஹரியாணாவின் உள்ளூர்ப் பள்ளிச் சம்பவம் - தமிழ்நாட்டுடன் நேரடி
+[திருத்தம்] காசா பகுதியில் இஸ்ரேலிய தாக்குதலில் ஒன்ப → காசா பகுதியில் இஸ்ரேலிய தாக்குதலில் குறை
+[tts-edge] 4f74f56acb7b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காசா பகுதியில் இஸ்ரேலிய தாக்குதலில் குறைந்தது ஒன்பது பேர் பலி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] என்டிபிசி நிகர லாபம் 14 சதவீதம் உயர்வு 5 → என்டிபிசி நிகர லாபம் 14 சதவீதம் உயர்வு; 
-[publish] என்டிபிசி நிகர லாபம் 14 சதவீதம் உயர்வு; 5,320 கோடி ரூபாய்
+[தரம்] தமிழ் அல்லாத எழுத்து: না → ஒரு திருத்தம்
+[tts-edge] 75368c83fb89: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காசாவில் இஸ்ரேலிய தாக்குதல்களில் எட்டு பலஸ்தீனியர்கள் பலி
+[publish] போர் அச்சுறுத்தல் நடுவே ஈரான், அமெரிக்கா இராஜதந்திர முயற்சி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] நியூ இந்தியா அஷூரன்ஸுக்கு இரண்டாம் காலாண்டில் 1,267 கோடி நஷ்டம்
-[publish] பாரோடா வங்கி இரண்டாம் காலாண்டு லாபம் 36 சதவீதம் உயர்வு
-[திருத்தம்] உத்தரகாண்ட் ஹெலிகாப்டர் விபத்து: ஆறு பேர → உத்தரகாண்ட் ஹெலிகாப்டர் விபத்து: ஆறு பேர
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: உத்தரகாண்ட் ஹெலிகாப்டர் விபத்து: ஆ
-[publish] உத்தரகாண்ட் ஹெலிகாப்டர் விபத்து: ஆறு பேரின் உடல்கள் மீட்பு, ரிஷிகேஷ் எய்ம்ஸுக்கு அனுப்பப்பட்டன
-[skip] கர்நாடகா மாநிலத்தின் மைசூரு மாநகராட்சி சொத்துவரி வசூல் பற்றி
-[திருத்தம்] காங்கிரஸ் போராட்டம் மூடத்தனமான நாடகம் என → காங்கிரஸ் போராட்டம் மூடத்தனமான நாடகம் என
-[publish] காங்கிரஸ் போராட்டம் மூடத்தனமான நாடகம் என அமித் ஷா குற்றச்சாட்டு
-[filler] tech கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12219 · சென்செக்ஸ் 74460
+[skip] இந்தியாவின் உள்நாட்டு அரசியல் நிகழ்வு — இந்திய வாசகருக்குப் 
+[skip] உலக செய்தி, ஆனால் தமிழ்நாடு/இந்திய வாசகருக்கு நேரடிப் பாதிப்
+[skip] வெளிநாட்டு உள் அரசியல் — அமெரிக்கத் தேர்தல் விவகாரம் தமிழ்நா
+[skip] இந்திய உள்நாட்டு அரசியல் நிகழ்வு — தேசிய அளவில் முக்கியமான ச
+[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — தமிழ்நாட்டு/இந்திய வாசகரைப் பாதி
+[skip] பிற நாடுகளின் உள்நாட்டு தேர்தல் செய்திகள் தமிழ்நாடு வாசகரைப்
+[skip] அமெரிக்க உள்நாட்டு தேர்தল — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக
+[skip] தமிழ்நாட்டு வாசகருக்குத் தெளிவான பொருத்தம் இல்லை. நேபாளின் உ
+[skip] வெளிநாட்டுத் உள்ளூர் அரசியல் — இந்தியாவின் உள்ளூர் போராட்டம்
+[publish] பினான்ஸ் நிறுவனத்தில் 6.3 பில்லியன் டாலர் சைபர் திருட்டு, வட கொரியா மீது சந்தேகம்
+[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் விவசாயச் செய்தி (கோலார் மாவட்டம
+[skip] ஆந்திரப் பிரதேச மாவட்டங்களின் உள்ளூர் அமைப்புத் தேர்தல் தொடர
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டு மருத்துவ நிবந்தனம் — தமிழ்நாடு/இந்தியா குறிப்பு இ
+[skip] வெளிநாட்டுச் சினிமா (அமெரிக்க OTT தொடர்). தமிழ்நாடு/இந்தியா 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, நிகழ்வு பற்றிய விவரங்கள் இ
+[skip] Australian domestic cricket (Sheffield Shield) — தமிழ்நாடு/இ
+[skip] இது ஆந்திரப் பிரதேசத்தின் உள்ளூர் அரசியல் செய்தி. தமிழ்நாட்ட
+[தரம்] தமிழ் அல்லாத எழுத்து: ષ → ஒரு திருத்தம்
+[publish] கீமோதெரபியின் குமட்டலைக் கட்டுப்படுத்த ஸ்டெராய்டு மாற்று முறை
+[திருத்தம்] ஒரே ஒரு ஷாட்டில் பல நிகழ்வுகள் — மிஸ்கின → ஒரே ஷாட்டில் சிக்கல் நடிப்பு — மிஸ்கின் 
+[தரம்] தமிழ் அல்லாத எழுத்து: শ → ஒரு திருத்தம்
+[publish] ஒரே ஷாட்டில் சிக்கல் நடிப்பு — மிஸ்கின் விளக்கம்
+[திருத்தம்] நியூசிலாந்தில் இந்தியா டி20 தொடரை வென்றத → காம்பீர், தயாரிப்புக் காலம் குறைவாக இருந
+[publish] காம்பீர், தயாரிப்புக் காலம் குறைவாக இருந்தும் இந்தியாவின் கடுமையான விளையாட்டைப் பாராட்டினார்
+[market] தங்கம் 22K ₹12218 · சென்செக்ஸ் 74460
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 7
