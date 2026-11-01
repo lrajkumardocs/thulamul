@@ -1,14 +1,14 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 25 புதியவை
+[fetch] The Hindu TN: 10 புதியவை
+[fetch] Dinamani TN: 12 புதியவை
 [fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] BBC World: 16 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
+[fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] The Hindu Cinema: 3 புதியவை
 [fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 24 புதியவை
 [fetch] Wired: 30 புதியவை
@@ -29,19 +29,19 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 23 புதியவை
+[fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 23 புதியவை
+[fetch] The Hindu National: 26 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 29 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,9 +56,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fbee16aad10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 23 புதியவை
-[fetch] Dinamani Govt: 25 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f22f9042b90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 26 புதியவை
+[fetch] Dinamani Govt: 12 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,53 +67,48 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 647 → நிகழ்வுகள் 601
-[triage] 601 → 49 | காலி: tn:4, india:4, economy:3, court:3, govt:3
-[skip] இவை பஞ்சாப்-ஹரியானா உயர்நீதிமன்றம் மற்றும் IIT இந்தூர் (மத்த
-[skip] பழைய நிகழ்வின் மறுபிரசுரம் — 2004 ஆம் ஆண்டு நேர்காணல். நடிகை
-[skip] ஆஸ்திரேலிய உள்நாட்டுத் தொடர் — தமிழ்நாடு/இந்தியத் வாசகரைப் ப
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgb96bN1gbwhAPxyyXaV5'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgb994C7eGkvkJco2Ftvp'}
-[skip] பிற நாடுகளின் உள்நாட்டுக் மோதல்; தமிழ்நாடு/இந்தியாவுடன் நேரட
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgb9C8BZGNKwQbrW8WcfT'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgb9FJcxRepxZskaofbxg'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, புயலின் தாக்க பகுதி, வேகம்
+[run] புதியவை 618 → நிகழ்வுகள் 564
+[triage] 564 → 28 | காலி: india:4, court:3, govt:3, jobs:3, cinema:3
+[திருத்தம்] பாரதியார் பல்கலைக்கழகத்தில் தேர்வுக் கட் → பாரதியார் பல்கலைக்கழகத்தில் கூடுதல் தேர்
+[tts-edge] 3943cbef5607: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பாரதியார் பல்கலைக்கழகத்தில் கூடுதல் தேர்வுக் கட்டுப்பாட்டாளர் பணியிடம் காலி
+[skip] இது சினிமா தொடர்பான கட்டுரை அல்ல. ஆன்டার্க்টிகாவில் இந்தியாவ
+[skip] வெளிநாட்டு ওডிআই தொடர் — பাকিস్தান vs இலங்கை/অন্য দল। தமிழ்ந
+[skip] இந்திய உள்நாட்டு அரசியல் — தேர்தல் ஆணையம் பற்றிய கேள்வி. தமி
+[திருத்தம்] ஆங்கில நீதிமன்ற மொழி தொடர்பான 1965 முடிவ → சென்னை உயர்நீதிமன்ற வழக்கறிஞர்கள் சங்கம்
+[tts-edge] bb2391ed255f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னை உயர்நீதிமன்ற வழக்கறிஞர்கள் சங்கம், 1965 ஆங்கில மொழி முடிவைச் சவால் செய்தது
+[skip] உலகச் செய்தி — ஹோர்முஜ் நீர்பாதை, ஈரான், கடर் நடுவிலான பேச்ச
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgbNVUKkvtf1yE73ZoNgZ'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உண்மைத் தகவல்கள், எண்கள், 
+[திருத்தம்] குட்கா முறைகேடு வழக்கில் அறிக்கை கேட்டு  → குட்கா முறைகேடு வழக்கில் அறிக்கை தாக்கல்
+[publish] குட்கா முறைகேடு வழக்கில் அறிக்கை தாக்கல் செய்ய சென்னை உயர்நீதிமன்றம் உத்தரவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgbNcvPrk5SdwQ1t24XEh'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] இன்று தமிழ்நாடு நாள் விழா, 76 அறிஞர்களுக → இன்று தமிழ்நாடு நாள் விழா; 76 அறிஞர்களுக
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: இன்று தமிழ்நாடு நாள் விழா; 76 அறிஞ
-[tts-edge] b2ce7df93d54: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இன்று தமிழ்நாடு நாள் விழா; 76 அறிஞர்களுக்கு விருது, 179 மாணவர்களுக்குப் பரிசு
-[திருத்தம்] பிரான்ஸில் உயிர்வாழ்க்கைச் செலவுக்கு எதி → பிரான்ஸில் உயிர்வாழ்க்கைச் செலவுக்கு எதி
-[tts-edge] 3ef1a8112a73: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பிரான்ஸில் உயிர்வாழ்க்கைச் செலவுக்கு எதிராக 3,20,000 பேர் போராட்டம்
-[publish] வெளிநாட்டு முதலீட்டாளர் விதிகள் குறித்து ஆலோசனை அறிக்கை வெளியிட செபி திட்டம்
-[திருத்தம்] பங்குச் சந்தை வளர்ச்சி மற்றும் முதலீட்டா → பங்குச் சந்தை வளர்ச்சி மற்றும் முதலீட்டா
-[image] களஞ்சியம் (2 சொல்): பங்குச் சந்தை வளர்ச்சி மற்றும் முத
-[publish] பங்குச் சந்தை வளர்ச்சி மற்றும் முதலீட்டாளர் பாதுகாப்பில் கவனம் செலுத்தும் செபி: தலைவர் பாண்டே
-[skip] வட-கிழக்கு நைஜீரியாவில் ஈபோலா சந்தேகம் — தமிழ்நாடு/இந்திய வா
-[skip] ஹைதராபாத் தளத்திலான சில்லறை விற்பனை நிறுவனத்தின் ஐபிஓ அனுமதி
-[skip] பிரான்சின் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியாவுக்கு நேரடி
-[திருத்தம்] ஷோளிங்கூர் அருகே பிரிட்டிஷ் கால பாலத்துக → ஷோளிங்கூர் அருகே பிரிட்டிஷ் கால பாலத்துக
-[publish] ஷோளிங்கூர் அருகே பிரிட்டிஷ் கால பாலத்துக்குப் பதிலாகப் புதிய பாலம் திறக்கப்படவுள்ளது
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரங்கள் இல்ல
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgb9o7CkabJABvXGvV2Qi'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (அதிகாரிகளின் பெ
+[திருத்தம்] அமிர்தா பல்கலைக்கழகத்தில் பேராசிரியர் பண → அமிர்தா விஸ்வ வித்யாபீடத்தில் ஆங்கிலத் த
+[publish] அமிர்தா விஸ்வ வித்யாபீடத்தில் ஆங்கிலத் துறை பேராசிரியர் பணியிடங்களுக்கு விண்ணப்பம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம், இடம், நீதிமன்றம்,
-[திருத்தம்] சிறைச்சாலை பாதுகாப்பில் தமிழக அரசுக்கு எ → சிறைச்சாலை பாதுகாப்பில் தமிழக அரசுக்கு எ
-[publish] சிறைச்சாலை பாதுகாப்பில் தமிழக அரசுக்கு எடப்பாடி கே.பழனிசாமி விமர்சனம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, திட்டத்தின் விவரங்கள் (தகு
-[திருத்தம்] ரேஷன் கடைகளில் தரமான சன்னரக அரிசி வேண்டு → ரேஷன் கடைகளில் தரமான சன்னரக அரிசி விற்பன
-[publish] ரேஷன் கடைகளில் தரமான சன்னரக அரிசி விற்பனை செய்ய வேண்டும்: அன்புமணி ராமதாஸ் கோரிக்கை
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; காரணம், எண் விவரம், அதிகார
-[skip] மூலத்தில் தலைப்பு மற்றும் இரு பெயர்கள் தவிர வேறு விவரம் இல்ல
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; உரையோ விவரங்களோ இல்லாததால்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgbA8LunK9h1krxKKGZc7'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (உடல்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgbACyBirzpeyJeBc5AZr'}
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: கலையரசன் கைது: அதிகாரிகள் அத்துமீறினரா, சட்டப்படி செயல்பட்டனரா?
+[திருத்தம்] முத்தூட் ஃபைனான்ஸ் இரண்டாம் காலாண்டு லாப → முத்தூட் ஃபைனான்ஸ் Q2 இணைந்த நிகர லாபம் 
+[publish] முத்தூட் ஃபைனான்ஸ் Q2 இணைந்த நிகர லாபம் 36% உயர்வு; சொத்து மதிப்பு 42% அதிகரிப்பு
+[skip] ஆந்திரப் பிரதேச மாநிலத்தின் உள்ளூர் அமைப்புத் தேர்தல் தொடர்ப
+[skip] இது பஞ்சாப் மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் 2027 தேர்தலு
+[skip] இவை இரண்டும் தமிழ்நாட்டுடன் தொடர்பில்லாத, உத்தரப் பிரதேசம் ம
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgbNzSkoXXetwbMyRKDLh'}
+[skip] தெலிவল்ல விவரம் தெரியவில்லை. பொதுவாக கட்சிக் கூட்டம், அரசியல
+[skip] தமிழ்நாட்டுக்கு நেரிട நிকழ்வு இல்லை — பொதுவான மருத்துவ விழிப
+[skip] ஆந்திர பிரதேশ மாநிலத்தின் உள்ளூர் தேர்தல் — தமிழ்நாட்டுக்கு 
+[திருத்தம்] படம் நிரந்தரம் தொடரும்: இயக்குநர் ராகுல் → படம் நிரந்தரம் தொடரும்: இயக்குநர் ராகுல்
+[தரம்] தமிழ் அல்லாத எழுத்து: যణ → ஒரு திருத்தம்
+[publish] படம் நிரந்தரம் தொடரும்: இயக்குநர் ராகுல் சங்கர்த்யன் கூற்று
+[skip] பাংলாதேশ உள்நாட்டுத் தொடரின் விவரம். தமிழ்நாடு/இந்தியத் தொடர
+[skip] வெளிநாட்டு/பொதுவான விதிமுறை — தமிழ்நாட்டு வாசகரைக் குறிப்பிட
+[skip] பஞ்சாப் மாநிலத்தின் உள்ளூர் அரசியல் — தமிழ்நாடு வாசகருக்குப்
+[skip] கேரளத்தின் உள்ளூர் அரசியல்/சினிமா சர்ச்சை. தமிழ்நாடு வாசகரைப
+[skip] வெளிநாட்டு Test cricket தொடர் (South Africa vs Australia). த
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [market] தங்கம் 22K ₹12219 · சென்செக்ஸ் 74460
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
@@ -121,5 +116,5 @@
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 7
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 1 · எழுதியவை 6
