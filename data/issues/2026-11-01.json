@@ -1,5 +1,684 @@
 [
  {
+  "id": "art_tech_20261101",
+  "headline": "UPI பரிவர்த்தனையிலும் ஆதார் பாதுகாப்பிலும் கவனம் தேவை",
+  "lines": [
+   "UPI பயன்பாட்டில் பணம் அனுப்பும் முன் பெறுநரின் பெயரை திரையில் உறுதி செய்து கொள்ள வேண்டும்.",
+   "UPI பின் எண்ணை யாருடனும், போன் அழைப்பிலோ செய்தியிலோ பகிரக் கூடாது.",
+   "ஆதார் எண்ணை பகிரும் போது மாஸ்க்டு ஆதார் (masked Aadhaar) பதிப்பைப் பயன்படுத்துவது பாதுகாப்பானது.",
+   "UIDAI இணையதளத்தில் Aadhaar Lock/Unlock வசதியை பயன்படுத்தி பயோமெட்ரிக் தரவை பூட்டி வைக்கலாம்.",
+   "தெரியாத இணைப்புகளை (links) கிளிக் செய்யாமலும், APK கோப்புகளை சந்தேகத்திற்குரிய மூலங்களில் இருந்து பதிவிறக்காமலும் இருப்பது மோசடியைத் தவிர்க்க உதவும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை பெரிய இழப்பைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-01"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "UPI பாதுகாப்பு",
+   "ஆதார் தகவல்"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-01T14:02+05:30",
+  "created_ts": 1793521951.2215953,
+  "audio": "data/audio/art_tech_20261101.mp3"
+ },
+ {
+  "headline": "காங்கிரஸ் போராட்டம் மூடத்தனமான நாடகம் என அமித் ஷா குற்றச்சாட்டு",
+  "lines": [
+   "யூனியன் மந்திரி அமித் ஷா, காங்கிரஸ் கட்சியின் தற்போதைய போராட்டத்தை மூடத்தனமான நாடகம் என வர்ணித்தார்.",
+   "இந்தப் போராட்டம் காங்கிரஸ் கட்சியின் அரசியல் எதிர்காலத்திற்கு இறுதி ஆணி ஆகும் என அவர் கூறினார்.",
+   "ஜனநாயகத்தை குழப்பத்திற்கும் ஒழுங்கின்மைக்கும் ஒப்படைக்கும் நோக்கத்தோடு திட்டமிடப்பட்ட சதியின் ஒரு பகுதி என்று நட்டா குற்றம் சாட்டினார்.",
+   "காங்கிரஸ் சார்பில் இதுவரை இக்குற்றச்சாட்டுக்கு எந்த எதிர்வினையும் வெளியிடப்படவில்லை.",
+   "இந்தக் கருத்துப் போர் தொடர்பாக அரசியல் தரப்புகளின் அடுத்தக் கட்ட எதிர்வினைகள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "இந்தக் கூற்று மத்திய அமைச்சர் அமித் ஷாவால் வெளியிடப்பட்டதாகத் தெரிவிக்கப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "ஜே.பி.நட்டா",
+   "காங்கிரஸ்",
+   "பாஜக"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Nadda calls Congress protest foolish drama, final nail",
+   "lines": [
+    "Union Minister J.P. Nadda described the ongoing Congress protest as a foolish drama.",
+    "He said the protest would be the final nail in the coffin of Congress' political future.",
+    "Nadda alleged the protest was part of a well-thought-out conspiracy to surrender democracy to anarchy and disorder.",
+    "Congress has not yet issued any response to Nadda's allegations.",
+    "Further political reactions from both sides are expected in the coming days."
+   ],
+   "closing": "The statement was made by Union Minister J.P. Nadda, as reported by The Hindu."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "J. P. Nadda",
+  "person_en": "J. P. Nadda",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "63600b88bca7",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-11-01T14:02+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/foolish-drama-will-be-final-nail-in-coffin-of-congress-political-future-nadda/article71652408.ece",
+   "https://www.thehindu.com/news/national/foolish-drama-will-be-final-nail-in-coffin-of-congress-political-future-nadda/article71652408.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Jagat_Prakash_Nadda_in_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · J. P. Nadda",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/J._P._Nadda",
+   "symbolic": false
+  },
+  "audio": "data/audio/63600b88bca7.mp3",
+  "created_ts": 1793521940.374196,
+  "status": "published"
+ },
+ {
+  "headline": "உத்தரகாண்ட் ஹெலிகாப்டர் விபத்து: ஆறு பேரின் உடல்கள் மீட்பு, ரிஷிகேஷ் எய்ம்ஸுக்கு அனுப்பப்பட்டன",
+  "lines": [
+   "உத்தரகாண்டில் நடந்த ஹெலிகாப்டர் விபத்தில் உயிரிழந்த ஆறு பேரின் உடல்கள் முழுமையாக மீட்கப்பட்டுள்ளன.",
+   "விபத்தில் உயிரிழந்த அனைத்து ஆறு பேரின் உடல்களும் மீட்பு பணியின் மூலம் கண்டறியப்பட்டன.",
+   "தேவையான சம்பிரதாய நடைமுறைகளை முடித்த பின்னர் உடல்கள் ரிஷிகேஷ் எய்ம்ஸ் மருத்துவமனைக்கு அனுப்பப்பட்டதாக அதிகாரிகள் தெரிவித்தனர்.",
+   "உடல்களை எடுத்துச் செல்ல ஹெலிகாப்டர் பயன்படுத்தப்பட்டதாக அதிகாரப்பூர்வத் தகவல் தெரிவிக்கிறது.",
+   "விபத்துக்கான காரணம் குறித்த விரிவான விசாரணை தொடரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இந்த விபத்து தொடர்பான முழு விவரங்களும் அதிகாரிகளிடமிருந்து இன்னும் வெளியாகவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "உத்தரகாண்டு",
+   "ரிஷிகேஷ் எய்ம்ஸ்",
+   "ஹெலிகாப்டர் விபத்து"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Uttarakhand chopper crash: Bodies of all six victims recovered",
+   "lines": [
+    "All six bodies of those killed in a helicopter crash in Uttarakhand have been fully recovered.",
+    "The remains of all six victims were located during the recovery operation.",
+    "Officials said the mortal remains were sent to AIIMS Rishikesh after completing necessary formalities.",
+    "A helicopter was used to transport the bodies, officials confirmed.",
+    "A detailed investigation into the cause of the crash is expected to continue."
+   ],
+   "closing": "Complete details about the crash have not yet been released by officials."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "All India Institute of Medical Sciences, Rishikesh",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "546a7ff03e1f",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-11-01T14:01+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/uttarakhand/uttarakhand-chopper-crash-mortal-remains-of-all-six-victims-recovered-sent-to-rishikesh-aiims/article71652291.ece",
+   "https://www.thehindu.com/news/national/uttarakhand/uttarakhand-chopper-crash-mortal-remains-of-all-six-victims-recovered-sent-to-rishikesh-aiims/article71652291.ece"
+  ],
+  "image": {
+   "url": "data/bank/india09.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/546a7ff03e1f.mp3",
+  "created_ts": 1793521902.4235175,
+  "status": "published"
+ },
+ {
+  "headline": "பாரோடா வங்கி இரண்டாம் காலாண்டு லாபம் 36 சதவீதம் உயர்வு",
+  "lines": [
+   "பாரோடா வங்கி நடப்பு நிதியாண்டின் இரண்டாம் காலாண்டில் நிகர லாபத்தில் பெரும் உயர்வைப் பதிவு செய்துள்ளது.",
+   "இந்த காலாண்டில் வங்கியின் நிகர லாபம் கடந்த ஆண்டு இதே காலாண்டோடு ஒப்பிடும்போது 36 சதவீதம் அதிகரித்து ₹6,532 கோடியாக உயர்ந்துள்ளது.",
+   "வட்டி அல்லாத வருமானம் அதிகரித்தமை, முன்னர் தள்ளுபடி செய்யப்பட்ட கணக்குகளிலிருந்து மீட்கப்பட்ட தொகை ஆகியவை இந்த லாப உயர்வுக்குக் காரணமாக அமைந்தன என வங்கி தெரிவித்துள்ளது.",
+   "தேசிய பங்குச் சந்தையில் வங்கி வைத்திருந்த பங்குகளில் ஒரு பகுதியை விற்றதன் மூலம் கிடைத்த லாபமும் இந்த உயர்வுக்கு உதவியது என அறிக்கையில் தெரிவிக்கப்பட்டுள்ளது.",
+   "அடுத்த காலாண்டுகளிலும் இதே போக்கு தொடருமா என்பதை வங்கியின் வரும் நிதி அறிக்கைகள் தெரிவிக்கும்."
+  ],
+  "closing": "தேசிய பங்குச் சந்தையில் பங்கு விற்பனை வங்கிகளுக்குக் கூடுதல் வருமான ஆதாரமாக அமைவது வழக்கமான நடைமுறை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "பாரோடா வங்கி",
+   "தேசிய பங்குச் சந்தை",
+   "நிகர லாபம்",
+   "இரண்டாம் காலாண்டு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Bank of Baroda Q2 net profit rises 36 percent year on year",
+   "lines": [
+    "Bank of Baroda has reported a sharp rise in net profit for the second quarter of the current financial year.",
+    "The bank's net profit for the quarter rose 36 percent compared to the same period last year, reaching 6,532 crore rupees.",
+    "The bank said the rise was driven by higher non-interest income and recoveries from previously written-off accounts.",
+    "Gains from the partial sale of its stake in the National Stock Exchange also contributed to the profit increase, the report said.",
+    "Whether this trend continues in the coming quarters will be seen in the bank's future financial reports."
+   ],
+   "closing": "Gains from stock exchange stake sales are a common additional revenue source for banks."
+  },
+  "front_cat": "routine",
+  "image_query": "Bank of Baroda branch",
+  "wiki_subject": "Bank of Baroda",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "8cc71ca1d38b",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-01T14:00+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/earnings/bank-of-barodas-q2-profit-surges-36-yoy-on-nse-stake-sale/articleshow/135387894.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f2/BankOfBarodaLogo.svg/250px-BankOfBarodaLogo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Bank of Baroda",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Bank_of_Baroda",
+   "symbolic": false
+  },
+  "audio": "data/audio/8cc71ca1d38b.mp3",
+  "created_ts": 1793521859.963133,
+  "status": "published"
+ },
+ {
+  "headline": "நியூ இந்தியா அஷூரன்ஸுக்கு இரண்டாம் காலாண்டில் 1,267 கோடி நஷ்டம்",
+  "lines": [
+   "நியூ இந்தியா அஷூரன்ஸ் நிறுவனம், செப்டம்பர் மாதம் முடிந்த இரண்டாம் காலாண்டில் 1,267 கோடி ரூபாய் நஷ்டத்தை அறிவித்தது.",
+   "கடந்த ஆண்டு இதே காலாண்டில் இந்நிறுவனம் 63 கோடி ரூபாய் லாபம் ஈட்டியிருந்தது என்பது குறிப்பிடத்தக்கது.",
+   "சொத்து, வாகனம், மருத்துவக் காப்பீடு ஆகிய முக்கியப் பிரிவுகளில் ஏற்பட்ட இழப்புகளே இந்த நஷ்டத்திற்குக் காரணம் எனத் தெரிவிக்கப்பட்டுள்ளது.",
+   "இதற்கிடையில், மொத்த காப்பீட்டுத் தொகை கடந்த ஆண்டை விட 5.14 சதவீதம் அதிகரித்து 11,083 கோடி ரூபாயாக உயர்ந்துள்ளது.",
+   "நிறுவனத்தின் அடுத்த காலாண்டு செயல்பாடுகள் மீது முதலீட்டாளர்கள் கவனம் செலுத்தி வருகின்றனர்."
+  ],
+  "closing": "நியூ இந்தியா அஷூரன்ஸ் நிறுவனம் அரசுடமையிலான முன்னணி பொதுக் காப்பீட்டு நிறுவனங்களில் ஒன்றாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "நியூ இந்தியா அஷூரன்ஸ்",
+   "காப்பீட்டுத் துறை",
+   "இந்தியா",
+   "இரண்டாம் காலாண்டு நிதி முடிவு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "New India Assurance posts rupees 1,267 crore loss in Q2",
+   "lines": [
+    "New India Assurance Company reported a net loss of rupees 1,267 crore for the quarter ended September.",
+    "The company had posted a profit of rupees 63 crore in the same quarter last year.",
+    "The loss was attributed to underwriting losses in property, motor, and health insurance segments.",
+    "Meanwhile, gross written premiums rose 5.14 percent year-on-year to rupees 11,083 crore.",
+    "Investors are closely watching the company's performance in the coming quarter."
+   ],
+   "closing": "New India Assurance is one of the leading public sector general insurance companies in India."
+  },
+  "front_cat": "routine",
+  "image_query": "insurance company office finance",
+  "wiki_subject": "New India Assurance Company",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "9ded1ddef2a6",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-01T14:00+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/earnings/new-india-slips-into-red-with-1267-cr-loss-in-q2/articleshow/135387922.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/9ded1ddef2a6.mp3",
+  "created_ts": 1793521808.1959078,
+  "status": "published"
+ },
+ {
+  "headline": "என்டிபிசி நிகர லாபம் 14 சதவீதம் உயர்வு; 5,320 கோடி ரூபாய்",
+  "lines": [
+   "மத்திய அரசுக்குச் சொந்தமான மின் உற்பத்தி நிறுவனமான என்டிபிசி, நடப்பு நிதியாண்டின் இரண்டாம் காலாண்டு முடிவுகளை வெளியிட்டுள்ளது.",
+   "தனிப்பட்ட நிகர லாபம் கடந்த ஆண்டு இதே காலாண்டை விட 14 சதவீதம் உயர்ந்து 5,320 கோடி ரூபாயாகப் பதிவானது.",
+   "செயல்பாட்டு வருவாய் 16.8 சதவீதம் அதிகரித்துள்ளதாக நிறுவனம் தெரிவித்துள்ளது.",
+   "பங்குதாரர்களுக்கு ஒரு பங்குக்கு மூன்று ரூபாய் இடைக்கால ஈவுத்தொகை வழங்க நிறுவனம் அறிவித்துள்ளது.",
+   "ஆற்றல் சேமிப்பு முயற்சிகளுக்கான மூலதன செலவை அதிகரிக்க என்டிபிசி திட்டமிட்டுள்ளது."
+  ],
+  "closing": "நாட்டின் மிகப்பெரிய மின் உற்பத்தி நிறுவனமான என்டிபிசி, புதுப்பிக்கத்தக்க சக்தி மற்றும் சேமிப்புத் திட்டங்களில் முதலீட்டை விரிவுபடுத்தி வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": "2026-11-01"
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "என்டிபிசி",
+   "இடைக்கால ஈவுத்தொகை",
+   "பம்ப்டு ஸ்டோரேஜ் திட்டம்",
+   "நிதியாண்டு இரண்டாம் காலாண்டு"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "NTPC Net Profit Rises 14 Percent To Rs 5,320 Crore",
+   "lines": [
+    "State-run power generator NTPC has released its financial results for the second quarter of the current fiscal year.",
+    "Standalone net profit rose 14 percent year-on-year to Rs 5,320 crore compared to the same quarter last year.",
+    "The company reported that operational revenue increased by 16.8 percent during the quarter.",
+    "NTPC announced an interim dividend of Rs 3 per share for its shareholders.",
+    "The company plans to increase investment in pumped storage power generation projects."
+   ],
+   "closing": "NTPC, the country's largest power generation company, has been expanding its investments in renewable energy and storage projects."
+  },
+  "front_cat": "routine",
+  "image_query": "NTPC power plant India",
+  "wiki_subject": "NTPC Limited",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "ada79bf2ae2d",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-01T13:58+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/earnings/ntpc-q2-results-net-profit-rises-14-yoy-to-rs-5320-crore-revenue-up-17/articleshow/135399399.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/National_Thermal_Power_logo.svg/1280px-National_Thermal_Power_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · NTPC Limited",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/NTPC_Limited",
+   "symbolic": false
+  },
+  "audio": "data/audio/ada79bf2ae2d.mp3",
+  "created_ts": 1793521723.973223,
+  "status": "published"
+ },
+ {
+  "headline": "கட்சதீவு அருகே இராமேஸ்வரம் மீனவர்கள் ஏழு பேர் இலங்கை கடற்படையினரால் தடுப்பு",
+  "lines": [
+   "இராமேஸ்வரத்தைச் சேர்ந்த ஏழு மீனவர்களை இலங்கை கடற்படையினர் கட்சதீவு தீவுப் பகுதி அருகே தடுத்து வைத்துள்ளனர்.",
+   "தடுத்து வைக்கப்பட்ட மீனவர்களின் எண்ணிக்கை ஏழு என்றும், அவர்கள் படகுகளுடன் கடற்படையினரிடம் சிக்கியுள்ளனர் என்றும் தெரிகிறது.",
+   "இந்த நடவடிக்கையைக் கண்டித்த மீனவர் தலைவர்கள், விரைவில் மீனவர்களை விடுவிக்க வேண்டும் என்று கோரிக்கை விடுத்துள்ளனர்.",
+   "இந்திய மற்றும் இலங்கை அரசுகள் உடனடியாகத் தலையிட்டு மீனவர்களை மீட்க வேண்டும் என்று மீனவர் தலைவர்கள் வலியுறுத்தியுள்ளனர்.",
+   "மீனவர்களை விடுவிக்கும் நடவடிக்கைகள் குறித்த அதிகாரப்பூர்வத் தகவல் இதுவரை வெளியாகவில்லை."
+  ],
+  "closing": "கட்சதீவு பகுதியில் இந்திய மீனவர்கள் இலங்கை கடற்படையினரால் தடுத்து வைக்கப்படும் சம்பவங்கள் முன்னரும் பல முறை நடந்துள்ளன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "இராமேஸ்வரம்",
+   "இலங்கை கடற்படை",
+   "கட்சதீவு",
+   "மீனவர் தலைவர்கள்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Seven Rameswaram Fishermen Detained Near Katchatheevu by Sri Lankan Navy",
+   "lines": [
+    "Seven fishermen from Rameswaram have been detained by the Sri Lankan Navy near the Katchatheevu islet.",
+    "The detained group reportedly includes seven fishermen along with their boats, now in the custody of the Sri Lankan Navy.",
+    "Fishermen leaders have condemned the incident and demanded the immediate release of the detained fishermen.",
+    "Fishermen leaders have urged both the Indian and Sri Lankan governments to intervene urgently and secure the release of the fishermen.",
+    "No official information has yet been released regarding steps being taken to free the fishermen."
+   ],
+   "closing": "Incidents of Indian fishermen being detained by the Sri Lankan Navy near Katchatheevu have occurred on several previous occasions."
+  },
+  "front_cat": "routine",
+  "id": "5c1640bf9e46",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-01T13:56+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/seven-rameswaram-fishermen-detained-by-sri-lankan-navy-near-katchatheevu-islet/article71652111.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Ramanathaswamy_temple7.JPG/1920px-Ramanathaswamy_temple7.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Ramanathaswamy Temple",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Ramanathaswamy_Temple",
+   "symbolic": false
+  },
+  "audio": "data/audio/5c1640bf9e46.mp3",
+  "created_ts": 1793521605.4520955,
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "ராமேஸ்வரம் மீனவர்கள் ஏழு பேரை இலங்கைக் கடற்படை கைது செய்தது",
+  "lines": [
+   "தமிழ்நாட்டின் ராமேஸ்வரத்தைச் சேர்ந்த ஏழு மீனவர்களை இலங்கைக் கடற்படையினர் கைது செய்துள்ளனர்.",
+   "கைது செய்யப்பட்ட மீனவர்களின் எண்ணிக்கை ஏழு என்று தெரிவிக்கப்பட்டுள்ளது.",
+   "கைது நடந்த சரியான இடம் மற்றும் நேரம் குறித்த விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியாகவில்லை.",
+   "பாக்கு நீரிணைப் பகுதியில் மீன்பிடிக்கும்போது தமிழக மீனவர்கள் அடிக்கடி இலங்கைக் கடற்படையால் கைது செய்யப்படுவது தொடர்கதையாக உள்ளது.",
+   "கைது செய்யப்பட்ட மீனவர்களை விடுவிக்க தமிழக அரசு நடவடிக்கை எடுக்கும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "பாக்கு நீரிணையில் மீன்பிடி தொடர்பான மீனவர் கைது பிரச்சினை பல ஆண்டுகளாகத் தொடர்ந்து வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "ராமேஸ்வரம்",
+   "இலங்கைக் கடற்படை",
+   "தமிழக மீனவர்கள்",
+   "பாக்கு நீரிணை"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Seven Rameswaram Fishermen Arrested by Sri Lankan Navy",
+   "lines": [
+    "Seven fishermen from Rameswaram in Tamil Nadu have been arrested by the Sri Lankan Navy.",
+    "The number of fishermen arrested has been confirmed as seven.",
+    "Exact details of the location and time of the arrest have not yet been officially released.",
+    "Tamil Nadu fishermen are frequently arrested by the Sri Lankan Navy while fishing in the Palk Strait, an ongoing recurring issue.",
+    "The Tamil Nadu government is expected to take steps to secure the release of the arrested fishermen."
+   ],
+   "closing": "The arrest of fishermen in the Palk Strait has remained a persistent issue for several years."
+  },
+  "front_cat": "routine",
+  "image_query": "fishing boats Rameswaram Tamil Nadu",
+  "wiki_subject": "Rameswaram",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "1a9f4db157af",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-01T13:54+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/01/7-fishermen-from-rameswaram-arrested"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Rameswaram_Morning.jpg/3840px-Rameswaram_Morning.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Rameswaram",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Rameswaram",
+   "symbolic": false
+  },
+  "audio": "data/audio/1a9f4db157af.mp3",
+  "created_ts": 1793521497.2177517,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழ்நாட்டில் 26 பாக்சோ நீதிமன்றங்கள், நான்கு போதைப்பொருள் நீதிமன்றங்கள் அமைப்பு",
+  "lines": [
+   "தமிழ்நாடு அரசு 26 பாக்சோ சட்ட நீதிமன்றங்களையும், நான்கு போதைப்பொருள் தடுப்புச் சட்ட நீதிமன்றங்களையும் அமைக்க முடிவு செய்துள்ளது.",
+   "இதன் மூலம் மாநிலம் முழுவதும் பாக்சோ சிறப்பு நீதிமன்றங்களின் எண்ணிக்கை 52 ஆக உயரும்.",
+   "இந்தப் புதிய நீதிமன்றங்கள் மாநிலத்தின் 47 காவல் மாவட்டங்களில் அமைக்கப்படும் என அரசு தெரிவித்துள்ளது.",
+   "சிறார்கள் மீதான பாலியல் குற்ற வழக்குகளை விரைவாகத் தீர்த்து வைக்கும் நோக்கில் இந்த நடவடிக்கை எடுக்கப்படுகிறது.",
+   "புதிய நீதிமன்றங்கள் விரைவில் செயல்படத் தொடங்கும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "சிறார்கள் மீதான பாலியல் குற்றங்களை விரைவாக விசாரித்து தண்டனை வழங்கும் நோக்கில் பாக்சோ சட்டம் இயற்றப்பட்டது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "பாக்சோ சட்டம்",
+   "போதைப்பொருள் தடுப்புச் சட்டம்",
+   "சிறப்பு நீதிமன்றங்கள்",
+   "காவல் மாவட்டங்கள்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Tamil Nadu to set up 26 new POCSO courts, four NDPS courts",
+   "lines": [
+    "The Tamil Nadu government has decided to set up 26 new POCSO Act courts and four NDPS Act courts.",
+    "With this addition, the number of special POCSO courts across the state will rise to 52.",
+    "The new courts will be established across 47 police districts in the state, officials said.",
+    "The move aims to ensure faster trial and resolution of cases involving sexual offences against children.",
+    "The new courts are expected to begin functioning soon."
+   ],
+   "closing": "The POCSO Act was enacted to ensure speedy trial and punishment for sexual offences against children."
+  },
+  "front_cat": "policy_mass",
+  "image_query": "Indian court building justice",
+  "wiki_subject": "Protection of Children from Sexual Offences Act, 2012",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "495e30b0baa3",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-11-01T13:53+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-to-set-up-26-pocso-act-courts-and-four-ndps-courts/article71652310.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/495e30b0baa3.mp3",
+  "created_ts": 1793521413.495054,
+  "status": "published"
+ },
+ {
+  "headline": "அடுத்த 3 மணி நேரத்தில் உருவாகும் முரசு புயல்!",
+  "lines": [
+   "அடுத்த 3 மணி நேரத்தில் முரசு எனப்படும் புயல் உருவாகும் என எச்சரிக்கை விடுக்கப்பட்டுள்ளது.",
+   "இந்தப் புயல் விரைவில் தீவிரப் புயலாக வலுவடையும் என கணிக்கப்பட்டுள்ளது.",
+   "வானிலை ஆய்வாளர்கள் இது தொடர்பாக தொடர்ந்து கண்காணிப்பை மேற்கொண்டு வருகின்றனர்.",
+   "பாதிக்கப்படக்கூடிய பகுதிகள் குறித்த விரிவான தகவல் இன்னும் உறுதிப்படுத்தப்படவில்லை.",
+   "அடுத்த சில மணி நேரங்களில் புயல் நிலவரம் குறித்து மேலும் விவரங்கள் வெளியாக உள்ளன."
+  ],
+  "closing": "புயல் பாதிக்கும் பகுதிகள் மற்றும் தீவிரம் குறித்த அதிகாரப்பூர்வ அறிவிப்புக்காக காத்திருக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-01"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "முரசு புயல்",
+   "தமிழ்நாடு",
+   "வானிலை ஆய்வு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Cyclone Murasu Set to Form Within Three Hours",
+   "lines": [
+    "A warning has been issued that a cyclone named Murasu will form within the next three hours.",
+    "The cyclone is forecast to rapidly intensify into a severe cyclonic storm soon after forming.",
+    "Weather observers are continuing close monitoring of the system's development.",
+    "Details about which areas could be affected have not yet been confirmed.",
+    "Further updates on the cyclone's status are expected within the next few hours."
+   ],
+   "closing": "Official updates are awaited on the areas likely to be affected and the storm's intensity."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "cyclone storm satellite image",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "5aafe517e66c",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-01T13:52+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/01/cyclone-murasu-to-form-in-the-next-3-hours"
+  ],
+  "image": {
+   "url": "data/bank/weather02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/5aafe517e66c.mp3",
+  "created_ts": 1793521351.437216,
+  "status": "published"
+ },
+ {
+  "headline": "வங்கக் கடலில் புயலாக மாறும் தாழ்வு மண்டலம், தமிழ்நாட்டில் கனமழை எச்சரிக்கை",
+  "lines": [
+   "வங்கக் கடலில் உருவாகியுள்ள காற்றழுத்தத் தாழ்வு மண்டலம் படிப்படியாக வலுப்பெற்று வருவதாக இந்திய வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "இது நவம்பர் 1ஆம் தேதி நள்ளிரவுக்குள் புயலாக மாறும் வாய்ப்பு உள்ளதாக அறிவிக்கப்பட்டுள்ளது.",
+   "இந்திய வானிலை ஆய்வு மையம் இந்த நிலையைக் கண்காணித்து வருவதாக தெரிவித்துள்ளது.",
+   "இதன் தாக்கத்தால் தமிழ்நாட்டின் பல பகுதிகளில் கனமழை பெய்யக்கூடும் என எதிர்பார்க்கப்படுகிறது.",
+   "புயலின் பாதை மற்றும் பாதிக்கப்படக்கூடிய மாவட்டங்கள் குறித்த விரிவான தகவல் விரைவில் வெளியிடப்படும் என அறிவிக்கப்பட்டுள்ளது."
+  ],
+  "closing": "வங்கக் கடலில் உருவாகும் தாழ்வு மண்டலங்கள் பெரும்பாலும் இந்தப் பருவத்தில் புயல்களாக மாறுவது வழக்கம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": "2026-11-01"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "வங்கக்கடல்",
+   "தமிழ்நாடு",
+   "இந்திய வானிலை ஆய்வு மையம்",
+   "புயல்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Bay of Bengal low pressure likely to turn into cyclone, heavy rain alert for Tamil Nadu",
+   "lines": [
+    "The low pressure area formed over the Bay of Bengal is gradually intensifying, the India Meteorological Department has said.",
+    "It is likely to turn into a cyclone by midnight on November 1, the department has announced.",
+    "The India Meteorological Department said it is closely monitoring the weather system.",
+    "As a result, heavy rain is expected in several parts of Tamil Nadu, authorities said.",
+    "Detailed information on the cyclone's path and the districts likely to be affected will be released soon, officials said."
+   ],
+   "closing": "Low pressure systems forming over the Bay of Bengal often intensify into cyclones during this season."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "Bay of Bengal cyclone satellite",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c9177322e147",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-01T13:50+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cwly0e12v0nlo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/weather02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/c9177322e147.mp3",
+  "created_ts": 1793521202.9639304,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261101",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
   "lines": [
