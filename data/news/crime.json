@@ -1,5 +1,139 @@
 [
  {
+  "headline": "மராமலை நகர் அருகே 25 கால்நடைகள் மீட்கப்பட்டன",
+  "lines": [
+   "செங்கல்பட்டு மாவட்டம் மராமலை நகர் அருகே, முறையான ஆவணங்கள் இன்றி கொண்டு செல்லப்பட்ட 25 கால்நடைகளை காவல்துறையினர் மீட்டனர்.",
+   "இவை கேரளாவுக்கு கசாப்புக்காக கொண்டு செல்லப்பட்டிருந்தன.",
+   "வாகனத்தை நிறுத்தி சோதனை செய்த காவல்துறையினர், தேவையான அனுமதிப் பத்திரங்கள் இல்லாததை கண்டறிந்தனர்.",
+   "கால்நடைகளை ஓர் ஊரிலிருந்து மற்றோர் ஊருக்கு அனுப்ப முன் முறையான அனுமதி பெற வேண்டும் என்பது விதி.",
+   "இந்த சம்பவம் தொடர்பாக வழக்கு பதிவு செய்யப்பட்டு, மேலும் விசாரணை நடைபெற்று வருகிறது."
+  ],
+  "closing": "கால்நடைகளை கொண்டு சென்றவர்கள் யார் என்பதும், அவர்கள் மீது என்ன நடவடிக்கை எடுக்கப்படும் என்பதும் தெரியவரவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "TN Police News",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Times Chennai Crime",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "மராமலை நகர்",
+   "செங்கல்பட்டு",
+   "கேரளா",
+   "தமிழ்நாடு காவல்துறை"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "25 Cattle Rescued Near Maraimalai Nagar from Slaughter Transport",
+   "lines": [
+    "Near Maraimalai Nagar in Chengalpattu district, police rescued 25 cattle being transported without proper documents.",
+    "The 25 cattle were reportedly being taken to Keralam for slaughter.",
+    "Police stopped the vehicle for inspection and found that required permit documents were missing.",
+    "Rules mandate proper authorisation before transporting cattle from one place to another.",
+    "A case has been registered in connection with the incident and further investigation is underway."
+   ],
+   "closing": "It remains unclear who was transporting the cattle and what action will be taken against them."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "0cabe08aed19",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-02T01:42+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/25-cattle-rescued-while-being-transported-to-keralam-for-slaughter/article71652642.ece",
+   "https://timesofindia.indiatimes.com/city/chennai/25-cattle-transported-for-slaughter-without-proper-documents-rescued-near-maraimalai-nagar/articleshow/135434991.cms"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/0cabe08aed19.mp3",
+  "created_ts": 1793563978.7282588,
+  "status": "published"
+ },
+ {
+  "headline": "கொரட்டூர் குடியிருப்பில் தீ விபத்தில் மாற்றுத்திறனாளி பெண் உயிரிழப்பு",
+  "lines": [
+   "சென்னை கொரட்டூர் பகுதியில் உள்ள ஒரு குடியிருப்பில் ஏற்பட்ட தீ விபத்தில் மாற்றுத்திறனாளியான பெண் ஒருவர் உயிரிழந்தார்.",
+   "வீட்டில் இருந்த குளிர்சாதனப் பெட்டி மற்றும் ஏசி உள்ளிட்ட மின்சாதனங்கள் வெடித்து தீ வேகமாக பரவியதாக தெரிகிறது.",
+   "மின்சுற்று குறுக்கு வெட்டு காரணமாகவே இந்த தீ விபத்து ஏற்பட்டிருக்கலாம் என சந்தேகிக்கப்படுகிறது.",
+   "சம்பவம் குறித்து தீயணைப்பு மற்றும் காவல் துறையினர் கூடுதல் விவரங்களை சேகரித்து வருகின்றனர்.",
+   "சம்பவம் தொடர்பாக முழுமையான விசாரணை நடைபெற்று வருவதாக அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "மின் கோளாறு காரணம் என சந்தேகிக்கப்பட்டாலும், தீ பரவிய விதம் குறித்த முழுமையான காரணம் விசாரணைக்குப் பின்னரே தெரியவரும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "கொரட்டூர்",
+   "சென்னை",
+   "தீ விபத்து",
+   "மின் கோளாறு",
+   "குடியிருப்பு"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Woman with disability dies in Korattur apartment fire",
+   "lines": [
+    "A woman with a disability died in a fire that broke out at an apartment in Korattur, Chennai.",
+    "An air-conditioner and a refrigerator, among other electrical appliances, reportedly exploded as the fire spread rapidly.",
+    "Police suspect that an electrical short circuit may have triggered the fire.",
+    "Fire service and police personnel are gathering further details about the incident.",
+    "Officials said a full investigation into the incident is currently underway."
+   ],
+   "closing": "While a short circuit is suspected, the exact cause of how the fire spread will only be known after the investigation concludes."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "eac75ac0fa8f",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-02T01:33+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/woman-with-disability-dies-in-midnight-fire-at-korattur-apartment/article71652193.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/eac75ac0fa8f.mp3",
+  "created_ts": 1793563434.8874671,
+  "status": "published"
+ },
+ {
   "headline": "கோயம்புத்தூர் சிறையிலிருந்து தப்பிக்கவில்லை என ஏடிஜிபி விளக்கம்",
   "lines": [
    "கோயம்புத்தூர் சிறையிலிருந்து கைதிகள் தப்பிச் சென்றதாக பரவிய தகவல்கள் தொடர்பாக தமிழக சிறைத் துறை இயக்குநர் ஏடிஜிபி சங்கர் விளக்கம் அளித்துள்ளார்.",
@@ -3028,69 +3162,6 @@
   },
   "audio": "data/audio/3691cae387dd.mp3",
   "created_ts": 1792906906.8198166,
-  "status": "published"
- },
- {
-  "headline": "பாஜக மாவட்டத் தலைவருக்குக் கொலை மிரட்டல், மூவர் மீது வழக்கு",
-  "lines": [
-   "பாரதிய ஜனதா கட்சியின் ஒரு மாவட்டத் தலைவருக்குக் கொலை மிரட்டல் விடுக்கப்பட்ட சம்பவம் நடந்துள்ளது.",
-   "இந்த வழக்கில் கருப்பு முருகானந்தம் உள்பட மூன்று பேர் மீது காவல் துறையினர் வழக்குப் பதிவு செய்துள்ளனர்.",
-   "இதுகுறித்து காவல் துறையினர் விசாரணை நடத்தி வருவதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "மிரட்டலுக்கான சரியான காரணம் இதுவரை உறுதியாகத் தெரிவிக்கப்படவில்லை.",
-   "குற்றம் சாட்டப்பட்டவர்களைக் கைது செய்யும் நடவடிக்கையில் காவல் துறை ஈடுபட்டுள்ளது."
-  ],
-  "closing": "இந்த வழக்கில் மேலும் விவரங்கள் வெளியாக வேண்டும் என்பதை கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "பாரதிய ஜனதா கட்சி",
-   "கருப்பு முருகானந்தம்",
-   "காவல்துறை"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "BJP district chief gets death threat, case filed against three",
-   "lines": [
-    "A district chief of the Bharatiya Janata Party has received a death threat in a recent incident.",
-    "Police have registered a case against three persons, including one Karuppu Muruganandam, in connection with the threat.",
-    "Police officials said an investigation into the matter is currently underway.",
-    "The exact reason behind the threat has not yet been officially confirmed.",
-    "Police are working to apprehend the accused named in the case."
-   ],
-   "closing": "Further details on the case are awaited as the investigation continues."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "b878e52dfb46",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-25T06:18+05:30",
-  "links": [
-   "https://www.dinamani.com/all-editions/edition-trichy/tanjore/2026/Oct/24/death-threat-to-bjp-district-president-case-filed-against-3-including-karuppu-muruganandam"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/b878e52dfb46.mp3",
-  "created_ts": 1792889308.3254128,
   "status": "published"
  }
 ]

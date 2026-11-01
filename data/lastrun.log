@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 22 புதியவை
+[fetch] ET Markets: 17 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 16 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] The Hindu TN: 24 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 7 புதியவை
+[fetch] BBC World: 20 புதியவை
+[fetch] Al Jazeera: 21 புதியவை
+[fetch] ESPNcricinfo: 16 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 1 புதியவை
-[fetch] Cinema Express: 30 புதியவை
+[fetch] The Hindu Cinema: 0 புதியவை
+[fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 16 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 5 புதியவை
+[fetch] The Hindu Health: 3 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 11 புதியவை
+[fetch] FreeJobAlert: 12 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,20 +28,20 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 29 புதியவை
+[fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,57 +56,73 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9f7bfcf850>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ff1929620d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
-[fetch] Sarkari Yojana: பிழை ('Connection broken: IncompleteRead(0 bytes read, 1569 more expected)', IncompleteRead(0 bytes read, 1569 more expected))
-[fetch] Dinamalar Crime: 0 புதியவை
+[fetch] Sarkari Yojana: 0 புதியவை
+[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 28 புதியவை
+[fetch] TN Police News: 29 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 639 → நிகழ்வுகள் 591
-[triage] 591 → 67 | காலி: sports:3, india:2, govt:2, health:2, cinema:2
-[skip] வெளிநாட்டுத் திரைப்படங்கள், அ-இந்திய விளையாட்டுக் கூட்டணிகளி
-[skip] இது தெலங்கானா மாநிலத்தின் உள்ளூர் சம்பவம் (மாணவர்கள் உயிரிழப
+[run] புதியவை 640 → நிகழ்வுகள் 595
+[triage] 595 → 51 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] மத்திய பள்ளிக் கல்வி நிறுவனத்தின் வேலைவாய்ப்பு அறிவிப்பு, ஆன
+[skip] பொதுவான சர்வதேশீய மருத்துவ வழிகாட்டல் — தமிழ்நாடு/இந்திய வாச
+[skip] மூல உரையில் வெளியீட்டு தேதி இல்லை; 'இந்த தேதியில்' என்று சொன
+[skip] இந்தியா ஏ மற்றும் நியூசிலாந்து அணிகளுக்கான உள்நாட்டு/பயிற்சி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgcoUxxqNojpUxKnFd7Zn'}
+[திருத்தம்] கடற்கரைகளுக்குச் செல்ல வேண்டாம்: தமிழக அ → கடற்கரைகளுக்குச் செல்வதைத் தவிர்க்குமாறு
+[image] களஞ்சியம் (2 சொல்): கடற்கரைகளுக்குச் செல்வதைத் தவிர்க்
+[tts-edge] 0f3bb5f0dbd0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கடற்கரைகளுக்குச் செல்வதைத் தவிர்க்குமாறு தமிழக அரசு எச்சரிக்கை
+[image] களஞ்சியம் (2 சொல்): முரசு புயல்: ஒன்பது துறைமுகங்களில்
+[tts-edge] a2850b59edc8: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] முரசு புயல்: ஒன்பது துறைமுகங்களில் எச்சரிக்கை, சென்னைக்கு ஆரஞ்சு அலர்ட்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] ஹரியாணாவின் உள்ளூர்ப் பள்ளிச் சம்பவம் - தமிழ்நாட்டுடன் நேரடி
-[திருத்தம்] காசா பகுதியில் இஸ்ரேலிய தாக்குதலில் ஒன்ப → காசா பகுதியில் இஸ்ரேலிய தாக்குதலில் குறை
-[tts-edge] 4f74f56acb7b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காசா பகுதியில் இஸ்ரேலிய தாக்குதலில் குறைந்தது ஒன்பது பேர் பலி
+[skip] வெளிநாட்டுச் சர் áfrica, தமிழ்நாடு அல்லது இந்தியாவுடன் நேரடி
+[skip] பிற நாட்டின் உள்நாட்டு மோதல் — தமிழ்நாடு/இந்திய வாசகரைப் நேர
+[skip] பிற நாட்டின் உள்நாட்டு மோதல் — தமிழ்நாடு/இந்திய வாசகரின் நேர
+[publish] வழக்கு விசாரணை தொடங்கிய பின் தீர்வானால் கட்டணம் திரும்பாது: உயர்நீதிமன்றம்
+[image] களஞ்சியம் (2 சொல்): கொரட்டூர் குடியிருப்பில் தீ விபத்த
+[publish] கொரட்டூர் குடியிருப்பில் தீ விபத்தில் மாற்றுத்திறனாளி பெண் உயிரிழப்பு
+[திருத்தம்] சென்னை உள்ளிட்ட நான்கு மாவட்டங்களுக்கு இ → சென்னை உள்ளிட்ட நான்கு மாவட்டங்களுக்கு ந
+[image] களஞ்சியம் (3 சொல்): சென்னை உள்ளிட்ட நான்கு மாவட்டங்களு
+[publish] சென்னை உள்ளிட்ட நான்கு மாவட்டங்களுக்கு நாளை மழை எச்சரிக்கை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgcotY14ye1cLv8viJQw4'}
+[skip] இது நவம்பர் 1ஆம் தேதிக்கான அடுத்த இரண்டு மணி நேர மழை எச்சரிக
+[skip] உக்ரைன்-ரஷ்யா போரியல் செய்திகள் உக்ரைன் மக்களுக்கு முக்கியம்
+[skip] வெளிநாட்டுத் தொழிற்ச் செய்திகள் — ஜெர்மனி, பிரான்சு உள்நாட்ட
+[skip] ஜர்மனியின் உள்நாட்டு போராட்டம் — தமிழ்நாடு அல்லது இந்தியாவுட
+[skip] பிரான்சின் உள்நாட்டுப் போராட்டம் மற்றும் காவல் நடவடிக்கை — த
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgcoy66jds83PUFyUP3By'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgcp1d5c76qsFmWXNwyyX'}
+[image] களஞ்சியம் (2 சொல்): அர்னாப் புயலுக்குப் பின் முரசு புய
+[publish] அர்னாப் புயலுக்குப் பின் முரசு புயல் அச்சுறுத்தல், ஆந்திரா எச்சரிக்கை
+[publish] சென்னை உள்பட 4,000 கி.மீ. புல்லட் ரயில் திட்டத்திற்கு பிரதமர் மோடி ஒப்புதல்
+[திருத்தம்] ஜோலார்பேட்டை அருகே சரக்கு ரயில் ஏழு பெட் → ஜோலார்பேட்டை அருகே சரக்கு ரயிலின் ஏழு பெ
+[publish] ஜோலார்பேட்டை அருகே சரக்கு ரயிலின் ஏழு பெட்டிகள் தடம் புரண்டன
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgcpGNhLa2RLM1E3Y9q3J'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgcpKfXD8teR3Mhu8tCUt'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[தரம்] தமிழ் அல்லாத எழுத்து: না → ஒரு திருத்தம்
-[tts-edge] 75368c83fb89: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] காசாவில் இஸ்ரேலிய தாக்குதல்களில் எட்டு பலஸ்தீனியர்கள் பலி
-[publish] போர் அச்சுறுத்தல் நடுவே ஈரான், அமெரிக்கா இராஜதந்திர முயற்சி
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இந்தியாவின் உள்நாட்டு அரசியல் நிகழ்வு — இந்திய வாசகருக்குப் 
-[skip] உலக செய்தி, ஆனால் தமிழ்நாடு/இந்திய வாசகருக்கு நேரடிப் பாதிப்
-[skip] வெளிநாட்டு உள் அரசியல் — அமெரிக்கத் தேர்தல் விவகாரம் தமிழ்நா
-[skip] இந்திய உள்நாட்டு அரசியல் நிகழ்வு — தேசிய அளவில் முக்கியமான ச
-[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — தமிழ்நாட்டு/இந்திய வாசகரைப் பாதி
-[skip] பிற நாடுகளின் உள்நாட்டு தேர்தல் செய்திகள் தமிழ்நாடு வாசகரைப்
-[skip] அமெரிக்க உள்நாட்டு தேர்தল — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக
-[skip] தமிழ்நாட்டு வாசகருக்குத் தெளிவான பொருத்தம் இல்லை. நேபாளின் உ
-[skip] வெளிநாட்டுத் உள்ளூர் அரசியல் — இந்தியாவின் உள்ளூர் போராட்டம்
-[publish] பினான்ஸ் நிறுவனத்தில் 6.3 பில்லியன் டாலர் சைபர் திருட்டு, வட கொரியா மீது சந்தேகம்
-[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் விவசாயச் செய்தி (கோலார் மாவட்டம
-[skip] ஆந்திரப் பிரதேச மாவட்டங்களின் உள்ளூர் அமைப்புத் தேர்தல் தொடர
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு மருத்துவ நிবந்தனம் — தமிழ்நாடு/இந்தியா குறிப்பு இ
-[skip] வெளிநாட்டுச் சினிமா (அமெரிக்க OTT தொடர்). தமிழ்நாடு/இந்தியா 
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, நிகழ்வு பற்றிய விவரங்கள் இ
-[skip] Australian domestic cricket (Sheffield Shield) — தமிழ்நாடு/இ
-[skip] இது ஆந்திரப் பிரதேசத்தின் உள்ளூர் அரசியல் செய்தி. தமிழ்நாட்ட
-[தரம்] தமிழ் அல்லாத எழுத்து: ષ → ஒரு திருத்தம்
-[publish] கீமோதெரபியின் குமட்டலைக் கட்டுப்படுத்த ஸ்டெராய்டு மாற்று முறை
-[திருத்தம்] ஒரே ஒரு ஷாட்டில் பல நிகழ்வுகள் — மிஸ்கின → ஒரே ஷாட்டில் சிக்கல் நடிப்பு — மிஸ்கின் 
-[தரம்] தமிழ் அல்லாத எழுத்து: শ → ஒரு திருத்தம்
-[publish] ஒரே ஷாட்டில் சிக்கல் நடிப்பு — மிஸ்கின் விளக்கம்
-[திருத்தம்] நியூசிலாந்தில் இந்தியா டி20 தொடரை வென்றத → காம்பீர், தயாரிப்புக் காலம் குறைவாக இருந
-[publish] காம்பீர், தயாரிப்புக் காலம் குறைவாக இருந்தும் இந்தியாவின் கடுமையான விளையாட்டைப் பாராட்டினார்
+[skip] CIP ரான்சி மற்றும் IIT (ISM) தன்பாத் ஆகியவை ஜார்க்கண்ட் மாநி
+[skip] இது ஒரு கருத்துரை/பகுப்பாய்வுக் கட்டுரை; குறிப்பிட்ட எண்கள்,
+[skip] மூலத்தில் தலைப்பும் ஒரு வரி உட்கருத்தும் மட்டுமே உள்ளது; இஸ்
+[திருத்தம்] மராமலை நகர் அருகே 25 கால்நடைகள் கடத்தல்  → மராமலை நகர் அருகே 25 கால்நடைகள் மீட்கப்ப
+[image] களஞ்சியம் (2 சொல்): மராமலை நகர் அருகே 25 கால்நடைகள் மீ
+[publish] மராமலை நகர் அருகே 25 கால்நடைகள் மீட்கப்பட்டன
+[தரம்] தமிழ் அல்லாத எழுத்து: রি → ஒரு திருத்தம்
+[publish] பாரதியார் பல்கலைக்கழகத்தில் இயக்குநர் பணியிடம் விண்ணப்பம்
+[comic] கதை: நந்தினியின் மோதிரம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.94) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-11-02.png · நாள் 54
+[rasi] ராசிபலன் தயார்
 [market] தங்கம் 22K ₹12218 · சென்செக்ஸ் 74460
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
@@ -114,4 +130,4 @@
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 7
+[done] feed 300 · pending 0 · எழுதியவை 10
