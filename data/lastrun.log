@@ -1,42 +1,42 @@
-[fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 13 புதியவை
+[fetch] RBI: 9 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 22 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 21 புதியவை
 [fetch] BBC Tamil: 7 புதியவை
-[fetch] BBC World: 15 புதியவை
-[fetch] Al Jazeera: 23 புதியவை
+[fetch] BBC World: 17 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
 [fetch] ESPNcricinfo: 16 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 0 புதியவை
-[fetch] Cinema Express: 28 புதியவை
+[fetch] Cinema Express: 24 புதியவை
 [fetch] The Hindu Tech: 16 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 2 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 0 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 7 புதியவை
+[fetch] FreeJobAlert: 1 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
-[fetch] Dinamani Health: 1 புதியவை
+[fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
-[fetch] Dinamalar Aanmeegam: 0 புதியவை
+[fetch] The Hindu Legal: 21 புதியவை
+[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 26 புதியவை
+[fetch] The Hindu National: 21 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,68 +56,59 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fbce85e6a50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f668dc6cd50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 21 புதியவை
+[fetch] Dinamani Govt: 21 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[fetch] Dinamalar Crime: 0 புதியவை
+[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 28 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 19 புதியவை
-[run] புதியவை 599 → நிகழ்வுகள் 561
-[triage] 561 → 36 | காலி: india:4, govt:4, world:3, economy:3, health:3
-[skip] வெளிநாட்டு/தேசிய அளவில் ஆய்வுப் பொருள் — தமிழ்நாடு வாசகருக்க
-[skip] சினிமா வதந்தி — உறுதிப்படுத்தப்படாத கூற்று. தமிழ்நாடு வாசகரி
-[skip] New Zealand domestic cricket selection - not relevant to Tam
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgd68hnwQT9wv7n31nZV4'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgd6BUuNnkJj8q9ZDCHbm'}
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டுக்குத் தனிக் கொடி வேண்ட
-[tts-edge] e03d37578d3c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தமிழ்நாட்டுக்குத் தனிக் கொடி வேண்டும் என ஆதவ் அர்ஜுனா கோரிக்கை
-[skip] உள்நாட்டுக் தகவல் அல்ல — ரஷ்யா-உக்ரைன் போரின் ஒரு பகுதிப் பக
-[skip] பெற்றிறப்பு மோதல் — உலக அளவில் முக்கியமானாலும் தமிழ்நாட்டு வ
-[tts-edge] b8e2fe3cf75d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அதிமுக மாவட்டச் செயலாளர்கள் கூட்டத்தில் கிளர்ச்சித் தலைவர்கள் பங்கேற்பில்லை
-[நகல்] ஏற்கனவே வெளியானது: கொரட்டூர் குடியிருப்பில் தீ விபத்தில் மாற்றுத்திறனாளி பெண் உ
-[திருத்தம்] தமிழகத்தில் புதிதாக 26 போக்ஸோ நீதிமன்றங் → தமிழ்நாட்டில் புதிதாக 26 போக்ஸோ நீதிமன்ற
-[publish] தமிழ்நாட்டில் புதிதாக 26 போக்ஸோ நீதிமன்றங்கள் அமைக்க அரசாணை
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgd6ZytGUJbUpNxwMmsHQ'}
-[publish] சிதம்பரம் கோயில் தீர்ப்பை உறுதி செய்ய அன்புமணி வலியுறுத்தல்
-[திருத்தம்] அமிர்தா பல்கலைக்கழகத்தில் பணியிடங்களுக்க → அமிர்தா விஸ்வ வித்யாபீடத்தில் பல்வேறு பண
-[publish] அமிர்தா விஸ்வ வித்யாபீடத்தில் பல்வேறு பணியிடங்களுக்கு விண்ணப்பிக்க அழைப்பு
-[skip] இது கியூபா மீதான அமெரிக்க தடை குறித்த தி ஹிந்து தலையங்கக் கர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgd6kYWM1ZDM3xo95zvgX'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] சூர்யா நடிப்பில் சீன் படத்தின் ஆடியோ வெளியீட்டு விழா
-[skip] இது பாஜக தரப்பு ஊகக் குற்றச்சாட்டு மட்டும், காங்கிரஸ் கட்சிக
-[skip] சமயக் கட்டுரை — செய்தி அல்ல. வாசகரைப் பாதிக்கும் அரசு அறிவிப
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: I was offered ₹5 crore to make someone Iyal Isai
-[skip] அலிகர் முஸ்லிம் பல்கலைக்கழகம் (AMU) உத்தரப் பிரதேசத்தில் அமை
-[தரம்] தமிழ் அல்லாத எழுத்து: চ → ஒரு திருத்தம்
-[publish] இந்திய எண்ணெய் நிறுவனங்களுக்கு 30,106 கோடி ரூபாய் லாபம்
-[skip] மூல உரையே கிடைக்கவில்லை. 'Health Wrap' ஆடியோ/வீடியோ தொடரின் 
-[skip] வசூல் எண்களும் தொடர்ந்த விவரங்களும் இல்லாமல் தெளிவான செய்திக
-[skip] வெளிநாட்டு T20I தொடர் — தமிழ்நாடு/இந்திய வீரர் தொடர்பு இல்லை
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai Corporation removes unauthorised hoardin
-[skip] வெளிநாட்டுக் பல்கலைக்கழகம் அல்ல; ஆனால் ஹரியாணாவிலுள்ள (தமிழ்
-[skip] cyclone_warning செய்திகளுக்கு முன்னுரிமை கொடுக்கப்படும்; ஆனா
-[skip] வெளிநாட்டுக் கிரிக்கெட் தொடர் — தமிழ்நாடு/இந்திய அணி இல்லை. 
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] செய்தி தமிழ்நாடு/இந்தியாவுடன் தொடர்பு இல்லாத வெளிநாட்டு விபத
-[skip] வெளிநாட்டுத் தொடர் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு 
-[skip] வெளிநாட்டுக் கொள்கை — அமெரிக்க-கியூபா உறவு. தமிழ்நாடு/இந்திய
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: எண்ணெய் நிறுவன லாபம் 30,106 கோடி, விலை ஏன் குறையவில்லை?
-[market] தங்கம் 22K ₹12253 · சென்செக்ஸ் 74460
+[run] புதியவை 576 → நிகழ்வுகள் 547
+[triage] 547 → 39 | காலி: india:4, world:3, govt:3, health:3, sports:3
+[skip] ஆஸ்திரேலிய கிரிக்கெட் அணியின் ஆங்கிலேயர்களுக்கு எதிரான பயிற்
+[திருத்தம்] புயல் காரணமாக சென்னை, திருவள்ளூரில் பள்ள → புயல் முராசு: சென்னை, திருவள்ளூரில் பள்ள
+[image] களஞ்சியம் (2 சொல்): புயல் முராசு: சென்னை, திருவள்ளூரில
+[tts-edge] 9ea8b7ac6229: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] புயல் முராசு: சென்னை, திருவள்ளூரில் பள்ளிகள், கல்லூரிகளுக்கு விடுமுறை
+[திருத்தம்] முரசு புயல் பாதிப்பு: வட தமிழகத்தில் கனம → முரசு புயல்: வட தமிழகத்தில் கனமழை, சென்ன
+[image] களஞ்சியம் (2 சொல்): முரசு புயல்: வட தமிழகத்தில் கனமழை,
+[tts-edge] 9b349b0da387: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] முரசு புயல்: வட தமிழகத்தில் கனமழை, சென்னையில் பள்ளிகளுக்கு விடுமுறை
+[skip] வெளிநாட்டு உள்நாட்டுப் போர் / முரண்பாடு — தமிழ்நாட்டு வாசகரி
+[skip] அமெரிக்க உள்நாட்டு அரசியல் செய்தி. தமிழ்நாடு/இந்திய வாசகரைப்
+[skip] ஒடிசா மாநிலத்தின் உள்ளூர் புயல் நிவாரண அறிவிப்பு - தமிழ்நாட்
+[skip] இது ஒரு குறிப்பிட்ட செய்தி நிகழ்வு அல்ல - புயல்களுக்கு பெயரி
+[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் விவசாயப் பிரச்சினை - தமிழ்நாட்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgdMZ3vKdjiQEmgcYiiJu'}
+[skip] ஒடிசா மாநிலத்தின் உள்ளூர் அரசு அறிவிப்பு. தமிழ்நாட்டுக்குத் 
+[திருத்தம்] ஈரான் மோதல் பின்னணி: கச்சா எண்ணெய் விலை  → ஈரான்-கத்தார் பேச்சுவார்த்தை: கச்சா எண்ண
+[தரம்] தமிழ் அல்லாத எழுத்து: আইটডি → ஒரு திருத்தம்
+[publish] ஈரான்-கத்தார் பேச்சுவார்த்தை: கச்சா எண்ணெய் விலை 111 டாலராகச் சரிவு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ‘Murasu’ strengthens into Severe Cyclonic Storm
+[skip] மூல உரை முழுவதும் கிடைக்கவில்லை. தலைப்பு மட்டும் உள்ளது; நடி
+[skip] இது பिहार மாநிலத்தின் (Munger) வேலைவாய்ப்பு அறிவிப்பு. தமிழ்
+[skip] தமிழ்நாடு வாசகருக்குப் பொருத்தமான செய்தி அல்ல. இது புவியியல்
+[skip] ஆஸ்திரேலியாவின் உள்நாட்டுக் கிரிக்கெட் குழு தலைவர் தெரிவு பற
+[skip] இது பங்குச் சந்தை நேரடி புதுப்பிப்பு தலைப்பு மட்டுமே; உறுதிய
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Cyclone Murasu: Holiday for schools and colleges
+[திருத்தம்] நசலன் பாத்திரம் கெடுமையல்ல சூர்யாவுடன் ந → நசலன் பாத்திரம் கெடுமையல்ல; சூர்யாவுடன் 
+[தரம்] தமிழ் அல்லாத எழுத்து: 맡은 → ஒரு திருத்தம்
+[publish] நசலன் பாத்திரம் கெடுமையல்ல; சூர்யாவுடன் நடிக்க பயமாக இருந்ததாக கூறினார்
+[skip] பிரான்சின் உள்நாட்டு போராட்டம் — தமிழ்நாடு / இந்தியாவுடன் நே
+[skip] தெலங்கானாவின் உள்ளூர் விவசாயச் செய்தி — தமிழ்நாட்டுக்கு நேரட
+[skip] ஆப்கானிஸ்தான் மற்றும் சிம்பாப்வே இடையிலான டி20 கிரிக்கெட் மா
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 1
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹12240 · சென்செக்ஸ் 74460
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 7
+[done] feed 300 · pending 0 · எழுதியவை 4

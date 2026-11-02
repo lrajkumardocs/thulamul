@@ -1,5 +1,71 @@
 [
  {
+  "headline": "முரசு புயல்: வட தமிழகத்தில் கனமழை, சென்னையில் பள்ளிகளுக்கு விடுமுறை",
+  "lines": [
+   "முரசு எனப்படும் புயலின் பாதிப்பால், சென்னை உள்ளிட்ட வட தமிழக மாவட்டங்களில் கனமழை பெய்யும் என எதிர்வு கூறப்பட்டுள்ளது.",
+   "சென்னை, செங்கல்பட்டு, காஞ்சிபுரம், ராணிப்பேட்டை, நீலகிரி மாவட்டங்களில் தனிமைப்பட்ட இடங்களில் கனமழை பதிவாகும் என வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "இதையடுத்து, சென்னை மாவட்ட ஆட்சியர் எஸ்.மாலதி ஹெலன் பள்ளிகளுக்கு விடுமுறை அறிவித்துள்ளார்.",
+   "கனமழையால் பாதிப்பு ஏற்படும் அபாயம் கருதியே இந்த முடிவு எடுக்கப்பட்டதாக ஆட்சியர் அலுவலகம் தெரிவித்துள்ளது.",
+   "பொதுமக்கள் முன்னெச்சரிக்கையுடன் இருக்குமாறும், அவசியமில்லாமல் வெளியே செல்ல வேண்டாம் எனவும் அதிகாரிகள் கேட்டுக்கொண்டுள்ளனர்."
+  ],
+  "closing": "மழையின் தீவிரம் அடுத்த சில மணி நேரங்களில் அதிகரிக்கக் கூடும் என்பதால், மக்கள் வானிலை அறிக்கைகளை தொடர்ந்து கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-11-02"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை",
+   "செங்கல்பட்டு",
+   "காஞ்சிபுரம்",
+   "ராணிப்பேட்டை",
+   "நீலகிரி",
+   "எஸ்.மாலதி ஹெலன்",
+   "முரசு புயல்"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Storm Murasu: Heavy rain hits north Tamil Nadu, schools in Chennai shut",
+   "lines": [
+    "Due to the impact of storm Murasu, heavy rain is expected today across north Tamil Nadu districts including Chennai.",
+    "The weather department has forecast isolated heavy rainfall in Chennai, Chengalpattu, Kancheepuram, Ranipet and Nilgiris districts.",
+    "Following this, Chennai District Collector S. Malathi Helen has announced a holiday for schools.",
+    "The decision was taken keeping in mind the risk of disruption due to heavy rain, the Collector's office said.",
+    "Officials have appealed to the public to stay cautious and avoid unnecessary travel outdoors."
+   ],
+   "closing": "As rain intensity may increase in the coming hours, people are advised to keep monitoring weather updates."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "heavy rain flooded street chennai",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "9b349b0da387",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-02T08:29+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/storm-murasu-to-bring-very-heavy-rains-over-north-tamil-nadu/article71653048.ece"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/9b349b0da387.mp3",
+  "created_ts": 1793588386.746172,
+  "status": "published"
+ },
+ {
   "headline": "சிதம்பரம் கோயில் தீர்ப்பை உறுதி செய்ய அன்புமணி வலியுறுத்தல்",
   "lines": [
    "சிதம்பரம் நடராஜர் கோயில் விவகாரத்தில் உயர்நீதிமன்றம் அளித்த தீர்ப்பை உடனடியாக உறுதி செய்ய வேண்டும் என பாமக தலைவர் அன்புமணி ராமதாஸ் கோரிக்கை விடுத்துள்ளார்.",
@@ -3728,69 +3794,6 @@
   "wiki_subject": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "யூனிட் மின் கொள்முதல் ரூபாய் நாற்பத்தி ஆறு: மத்திய குறைபாடு — அமைச்சர்",
-  "lines": [
-   "தமிழ்நாடு மின் வாரியம் அமைச்சர் சி.டி.ஆர்.நிர்மல் குமார், மின்சாரம் ஒரு யூனிட்டுக்கு ரூபாய் 46.09-க்கு கொள்முதல் செய்யப்பட்டதாகத் தெரிவித்தார்.",
-   "இவ்வளவு அதிக விலையில் மின்சாரம் வாங்க நேரிட்டதற்குக் காரணம் மத்திய அரசின் திட்டமிடல் குறைபாடு எனக் குறிப்பிட்டார்.",
-   "மின் தேவையை முன்கூட்டியே மதிப்பிட்டு நடவடிக்கை எடுப்பதில் மத்திய அரசு தவறியதாக அவர் விமர்சித்தார்.",
-   "இதனால் மாநிலங்கள் அவசர கட்டத்தில் அதிக விலைக்கு மின்சாரம் வாங்க வேண்டிய நிலை ஏற்பட்டதாக அமைச்சர் தெரிவித்தார்.",
-   "இந்த விமர்சனம் தொடர்பாக மத்திய அரசின் பதில் இதுவரை வெளியிடப்படவில்லை."
-  ],
-  "closing": "மத்திய அரசு இந்த விமர்சனத்திற்கு என்ன பதிலளிக்கும் என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "சி.டி.ஆர்.நிர்மல் குமார்",
-   "தமிழ்நாடு அரசு",
-   "மத்திய அரசு",
-   "மின்சாரம்"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Power Purchase at Rs 46.09 Per Unit: Minister Blames Centre",
-   "lines": [
-    "Tamil Nadu Electricity Minister C.T.R. Nirmal Kumar said electricity was purchased at a rate of Rs 46.09 per unit.",
-    "He said this high cost was the result of a planning deficiency on the part of the central government.",
-    "He criticised the Centre for failing to assess power demand in advance and act accordingly.",
-    "He said this forced states into a situation of buying electricity at very high prices during emergencies.",
-    "No response has been issued by the central government to this criticism so far."
-   ],
-   "closing": "It remains to be seen how the central government will respond to this criticism."
-  },
-  "front_cat": "price_policy",
-  "image_query": "C.T.R. Nirmal Kumar minister",
-  "wiki_subject": "",
-  "person_en": "C. T. R. Nirmal Kumar",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "66de5a1c406a",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-26T06:36+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/25/electricity-procurement-at-rs4609-per-unit-central-governments-planning-flaw-minister-ctr-nirmal-kumar"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/CTR_Nirmal_Kumar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · C. T. R. Nirmal Kumar",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/C._T._R._Nirmal_Kumar",
-   "symbolic": false
-  },
-  "audio": "data/audio/66de5a1c406a.mp3",
-  "created_ts": 1792976802.030089,
   "status": "published"
  }
 ]
