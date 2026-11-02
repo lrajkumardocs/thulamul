@@ -1,5 +1,363 @@
 [
  {
+  "id": "art_tech_20261102",
+  "headline": "UPI, ஆதார் பயன்பாட்டில் பாதுகாப்பு — தினசரி அறிவிக்க வேண்டிய அடிப்படைகள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது உங்கள் UPI பின் எண்ணை யாருடனும் பகிர்ந்து கொள்ளக் கூடாது.",
+   "வங்கியோ அரசு அமைப்போ ஒருபோதும் தொலைபேசி அழைப்பில் OTP அல்லது பின் எண்ணைக் கேட்காது என்பதை நினைவில் கொள்ள வேண்டும்.",
+   "ஆதார் எண்ணை பகிரும் முன் UIDAI இணையதளத்தில் Masked Aadhaar விருப்பத்தைப் பயன்படுத்துவது அடையாளத் தகவல் கசிவைக் குறைக்கும்.",
+   "மொபைல் போனில் தேவையற்ற செயலிகளுக்கு Contacts, SMS, Camera போன்ற அனுமதிகளை வழங்குவதைத் தவிர்த்து, Settings > Apps பகுதியில் தொடர்ந்து சரிபார்க்க வேண்டும்.",
+   "அறியாத லிங்க் அல்லது QR கோடை ஸ்கேன் செய்வதற்கு முன் அனுப்பியவர் யார் என்பதை உறுதிப்படுத்திக் கொள்வது மோசடியைத் தடுக்க உதவும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை பெரிய இழப்பைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-02"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-02T16:15+05:30",
+  "created_ts": 1793616321.83686,
+  "audio": "data/audio/art_tech_20261102.mp3"
+ },
+ {
+  "headline": "மருந்துகளின் விலை நிர்ணயம் செய்யும் அதிகாரம் யாரிடம்?",
+  "lines": [
+   "இந்தியாவில் மருந்துகளை அனுமதிப்பது மற்றும் விலை நிர்ணயம் செய்வது வெவ்வேறு அமைப்புகளுக்குக் கீழ் உள்ளன.",
+   "மருந்து ஒப்புதலுக்கு மத்திய மருந்து மான ஆணையம் (சிடிஎஸ்கோ) பொறுப்பாக உள்ளது.",
+   "விலை நிர்ணயம் தேசிய மருந்து விலை ஆணையம் (என்பிபிஏ) செய்து வருகிறது.",
+   "இந்த இரு அமைப்புகளுக்கிடையே மேம்பட்ட ஒருங்கிணைப்பும் ஆலோசனையும் தேவைப்படுகிறது.",
+   "மருந்தியல் மற்றும் சுகாதாரப் பொருளாதாரம் தொடர்பான நிபுணத்துவம் இந்தப் பிரச்சினைத் தீர்வுக்கு உதவும்."
+  ],
+  "closing": "தெளிவான ஒருங்கிணைப்பு இல்லாமல் சீரான மருந்து கொள்கை செயல்படுவது சவாலாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "மத்திய மருந்து மான ஆணையம்",
+   "தேசிய மருந்து விலை ஆணையம்",
+   "இந்தியா"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Who decides the cost of medicines in India?",
+   "lines": [
+    "In India, medicine licensing and pricing fall under different regulatory bodies.",
+    "The Central Drugs Standard Control Organisation (CDSCO) handles medicine approvals.",
+    "The National Pharmaceutical Pricing Authority (NPPA) determines medicine prices.",
+    "Better coordination between these two bodies and consultation are needed.",
+    "Expertise in pharmacology and health economics could help resolve this issue."
+   ],
+   "closing": "Without clear coordination, consistent medicine policy remains a challenge."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "National Pharmaceutical Pricing Authority",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "03cc868e46a0",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-02T16:14+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/who-decides-the-cost-of-medicines-in-india/article71625998.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Logo_of_National_Pharmaceutical_Pricing_Authority.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · National Pharmaceutical Pricing Authority",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/National_Pharmaceutical_Pricing_Authority",
+   "symbolic": false
+  },
+  "audio": "data/audio/03cc868e46a0.mp3",
+  "created_ts": 1793616255.309716,
+  "status": "published"
+ },
+ {
+  "headline": "அமெரிக்க இடைத்தேர்தல் நாளை; இந்திய சந்தையில் அதிர்வு எதிர்பார்ப்பு",
+  "lines": [
+   "அமெரிக்காவின் நாடாளுமன்ற இடைத்தேர்தல் நவம்பர் 3 ஆம் தேதி நடைபெற உள்ளது.",
+   "இத்தேர்தலில் குடியரசுக் கட்சி இடங்களை இழக்கக்கூடும் என ஆய்வாளர்கள் கணிக்கின்றனர்.",
+   "பிரிந்த அரசாங்கம் அமையும் பட்சத்தில் சந்தையில் ஏற்ற இறக்கம் அதிகரிக்கும் என நிபுணர்கள் தெரிவிக்கின்றனர்.",
+   "கடந்தகால புள்ளிவிவரங்களின்படி, இதுபோன்ற தேர்தல்களுக்குப் பின் ஆண்டு அடிப்படை வருமானத்தில் பெரிய மாற்றம் இருந்ததில்லை என ஆய்வாளர்கள் சுட்டிக்காட்டுகின்றனர்.",
+   "இந்திய முதலீட்டாளர்கள் டாலர் மதிப்பு, அமெரிக்க பத்திர வட்டி விகிதம், கச்சா எண்ணெய் விலை மற்றும் வெளிநாட்டு நிதி வரவு ஆகியவற்றை உன்னிப்பாகக் கவனிக்க வேண்டும் என கூறப்படுகிறது."
+  ],
+  "closing": "ஏற்கெனவே சவாலான சூழலில் உள்ள உலக சந்தைகளுக்கு இடையே இந்தத் தேர்தல் முடிவு இந்திய பங்குச் சந்தை போக்கையும் பாதிக்கக்கூடும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": "2026-11-02"
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "அமெரிக்கா",
+   "குடியரசுக் கட்சி",
+   "சென்செக்ஸ்",
+   "நிஃப்டி",
+   "இந்திய பங்குச் சந்தை"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "US midterm elections tomorrow; Indian markets brace for volatility",
+   "lines": [
+    "The United States congressional midterm elections are scheduled for November 3.",
+    "Analysts anticipate the Republican Party could lose seats in this election.",
+    "Experts say a divided government could increase volatility in global markets.",
+    "Historical data shows annualised returns after such elections have largely remained unaffected, analysts point out.",
+    "Indian investors are advised to closely watch the dollar, US bond yields, crude oil prices and foreign fund flows."
+   ],
+   "closing": "Amid an already challenging global market environment, the election outcome could also influence trends in Indian stock markets."
+  },
+  "front_cat": "routine",
+  "image_query": "stock exchange trading floor",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "ff014a96987d",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-02T16:11+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/us-midterm-elections-begin-tomorrow-can-trumps-likely-defeat-sparkle-sensex-nifty-heres-what-analysts-say/articleshow/135446891.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/ff014a96987d.mp3",
+  "created_ts": 1793616117.579041,
+  "status": "published"
+ },
+ {
+  "headline": "சிட்னியின் பாண்டை கடற்கரைத் தாக்குதலுக்குப் பின் ஆயுதக் காவல் ரோந்து",
+  "lines": [
+   "ஆஸ்திரேலியாவின் சிட்னியில் உள்ள பாண்டை கடற்கரையில் நடந்த தாக்குதலுக்குப் பின்னர் ஆயுதமேந்திய காவல்துறையினர் ரோந்துப் பணியைத் தொடங்கியுள்ளனர்.",
+   "கடந்த ஆண்டு ஹனுக்கா பண்டிகை நிகழ்ச்சியில் நடந்த சுட்டுத் தாக்குதலில் பலர் உயிரிழந்த நிலையில், இந்தப் பாதுகாப்பு நடவடிக்கை மேற்கொள்ளப்பட்டுள்ளது.",
+   "புதிய சிறப்புப் பாதுகாப்புப் படையணி பொது இடங்களில் கண்காணிப்பை அதிகரிக்கும் என காவல்துறை அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "பிபிசி மற்றும் அல் ஜசீரா ஊடகங்கள் இந்தப் பாதுகாப்பு நடவடிக்கை குறித்துச் செய்தி வெளியிட்டுள்ளன.",
+   "பொதுமக்களின் பாதுகாப்பை உறுதி செய்யும் வகையில் இந்த ரோந்துப் பணி தொடரும் என அதிகாரிகள் அறிவித்துள்ளனர்."
+  ],
+  "closing": "கடந்த ஆண்டு நடந்த இந்தத் தாக்குதல் ஆஸ்திரேலியாவின் பாதுகாப்புக் கொள்கையில் மாற்றத்தை ஏற்படுத்தியுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "சிட்னி",
+   "பாண்டை கடற்கரை",
+   "ஆஸ்திரேலியா",
+   "ஹனுக்கா பண்டிகை",
+   "காவல்துறை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Armed Police Begin Patrols After Sydney Bondi Beach Attack",
+   "lines": [
+    "Heavily armed police officers have begun patrols in Sydney, Australia, following an attack at Bondi Beach.",
+    "The measure comes after last year's deadly shooting attack at a Hanukkah festival that killed several people.",
+    "Police officials said the new special security unit will increase surveillance in public places.",
+    "Both BBC and Al Jazeera reported on the new security deployment.",
+    "Officials stated that the patrols will continue to ensure public safety."
+   ],
+   "closing": "Last year's attack has led to changes in Australia's security policy."
+  },
+  "front_cat": "attack_terror",
+  "image_query": "",
+  "wiki_subject": "Bondi Beach",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [],
+  "id": "1a07280e2088",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-02T16:10+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/video/newsfeed/2026/11/2/sydney-deploys-heavily-armed-police-unit-after-bondi-attack?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Bondi_from_above.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Bondi Beach",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Bondi_Beach",
+   "symbolic": false
+  },
+  "audio": "data/audio/1a07280e2088.mp3",
+  "created_ts": 1793616016.8008428,
+  "status": "published"
+ },
+ {
+  "headline": "புளோரிடாவில் சிறிய விமான விபத்து; ஒன்பது பேர் பலி",
+  "lines": [
+   "அமெரிக்காவின் புளோரிடா மாநிலத்தில் ஒரு சிறிய விமானம் சாலையில் மோதி விழுந்தது.",
+   "இந்த விபத்தில் ஒன்பது பேர் உயிரிழந்ததாகத் தெரிவிக்கப்பட்டுள்ளது.",
+   "அமெரிக்க போக்குவரத்துத் துறை செயலாளர் சீன் டஃபி இதை கொடூரமான பேரிடர் என்று விவரித்தார்.",
+   "ஜனாதிபதி டொனால்ட் டிரம்பிற்குச் சொந்தமான மார்-அ-லாகோ உல்லாசத் தலத்திற்கு அருகில் இச்சம்பவம் நடைபெற்றது.",
+   "விபத்து குறித்த விரிவான தகவல்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை."
+  ],
+  "closing": "மார்-அ-லாகோ உல்லாசத் தலம் அமெரிக்க ஜனாதிபதி டொனால்ட் டிரம்புக்குச் சொந்தமானது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": "2026-11-02"
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "புளோரிடா",
+   "மார் அ லாகோ",
+   "டொனால்ட் டிரம்ப்",
+   "சீன் டஃபி"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Small jet crash in Florida kills nine near Mar-a-Lago",
+   "lines": [
+    "A small jet crashed on a street in Florida, in the United States.",
+    "Nine people were reportedly killed in the accident.",
+    "US Transportation Secretary Sean Duffy described the crash as a horrific tragedy.",
+    "The crash occurred near President Donald Trump's Mar-a-Lago resort.",
+    "Detailed official information about the crash has not yet been released."
+   ],
+   "closing": "It is worth noting that the Mar-a-Lago resort belongs to US President Donald Trump."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "Mar-a-Lago",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "27c8c1facaf4",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-02T16:08+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Mar-a-Lago%2C_Palm_Beach._FL%2C_US.jpg/3840px-Mar-a-Lago%2C_Palm_Beach._FL%2C_US.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Mar-a-Lago",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Mar-a-Lago",
+   "symbolic": false
+  },
+  "audio": "data/audio/27c8c1facaf4.mp3",
+  "created_ts": 1793615926.748258,
+  "status": "published"
+ },
+ {
+  "headline": "'ஏவுகணைபோல்' தரையில் மோதிய விமானம் – ஃபுளோரிடா விபத்தில் 9 பேர் உயிரிழப்பு",
+  "lines": [
+   "அமெரிக்காவின் ஃபுளோரிடா மாகாணத்தில் ஒரு குடியிருப்புப் பகுதியில் தனியார் விமானம் ஒன்று விழுந்து நொறுங்கியது.",
+   "இந்த விபத்து ஞாயிற்றுக்கிழமை நடைபெற்றதாகவும், விமானத்தில் இருந்த ஒன்பது பேரும் உயிரிழந்ததாகவும் தெரிவிக்கப்பட்டுள்ளது.",
+   "அமெரிக்கப் போக்குவரத்துத் துறை அமைச்சர் இந்த உயிரிழப்புத் தகவலை உறுதிப்படுத்தியுள்ளார்.",
+   "விமானம் ஏவுகணை போன்று வேகமாக தரையில் மோதியதாக நேரில் கண்டவர்கள் தெரிவித்ததாகச் செய்திகூறுகிறது.",
+   "விபத்துக்கான காரணம் குறித்து அதிகாரிகள் விசாரணை நடத்தி வருவதாகத் தெரிவிக்கப்பட்டுள்ளது."
+  ],
+  "closing": "விபத்து ஏற்பட்டதற்கான சரியான காரணம் குறித்த விசாரணை முடிவு இன்னும் வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ஃபுளோரிடா",
+   "அமெரிக்கா",
+   "தனியார் விமானம்",
+   "போக்குவரத்துத் துறை அமைச்சர்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Private plane crash in Florida kills nine people",
+   "lines": [
+    "A private plane crashed into a residential area in Florida, United States.",
+    "The crash occurred on Sunday and all nine people aboard the aircraft died.",
+    "The US Transportation Secretary confirmed the deaths.",
+    "Eyewitnesses said the plane hit the ground at high speed, like a missile, according to the report.",
+    "Authorities said an investigation into the cause of the crash is underway."
+   ],
+   "closing": "The exact cause of the crash has not yet been determined, officials said."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "6c97770aadef",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-02T16:07+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cqrlywgx286xo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world05.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/6c97770aadef.mp3",
+  "created_ts": 1793615881.3606198,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261102",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 1 · அரசு & தனியார்",
   "lines": [

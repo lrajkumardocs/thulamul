@@ -1,5 +1,363 @@
 [
  {
+  "id": "art_tech_20261102",
+  "headline": "UPI, ஆதார் பயன்பாட்டில் பாதுகாப்பு — தினசரி அறிவிக்க வேண்டிய அடிப்படைகள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது உங்கள் UPI பின் எண்ணை யாருடனும் பகிர்ந்து கொள்ளக் கூடாது.",
+   "வங்கியோ அரசு அமைப்போ ஒருபோதும் தொலைபேசி அழைப்பில் OTP அல்லது பின் எண்ணைக் கேட்காது என்பதை நினைவில் கொள்ள வேண்டும்.",
+   "ஆதார் எண்ணை பகிரும் முன் UIDAI இணையதளத்தில் Masked Aadhaar விருப்பத்தைப் பயன்படுத்துவது அடையாளத் தகவல் கசிவைக் குறைக்கும்.",
+   "மொபைல் போனில் தேவையற்ற செயலிகளுக்கு Contacts, SMS, Camera போன்ற அனுமதிகளை வழங்குவதைத் தவிர்த்து, Settings > Apps பகுதியில் தொடர்ந்து சரிபார்க்க வேண்டும்.",
+   "அறியாத லிங்க் அல்லது QR கோடை ஸ்கேன் செய்வதற்கு முன் அனுப்பியவர் யார் என்பதை உறுதிப்படுத்திக் கொள்வது மோசடியைத் தடுக்க உதவும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை பெரிய இழப்பைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-02"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-02T16:15+05:30",
+  "created_ts": 1793616321.83686,
+  "audio": "data/audio/art_tech_20261102.mp3"
+ },
+ {
+  "headline": "மருந்துகளின் விலை நிர்ணயம் செய்யும் அதிகாரம் யாரிடம்?",
+  "lines": [
+   "இந்தியாவில் மருந்துகளை அனுமதிப்பது மற்றும் விலை நிர்ணயம் செய்வது வெவ்வேறு அமைப்புகளுக்குக் கீழ் உள்ளன.",
+   "மருந்து ஒப்புதலுக்கு மத்திய மருந்து மான ஆணையம் (சிடிஎஸ்கோ) பொறுப்பாக உள்ளது.",
+   "விலை நிர்ணயம் தேசிய மருந்து விலை ஆணையம் (என்பிபிஏ) செய்து வருகிறது.",
+   "இந்த இரு அமைப்புகளுக்கிடையே மேம்பட்ட ஒருங்கிணைப்பும் ஆலோசனையும் தேவைப்படுகிறது.",
+   "மருந்தியல் மற்றும் சுகாதாரப் பொருளாதாரம் தொடர்பான நிபுணத்துவம் இந்தப் பிரச்சினைத் தீர்வுக்கு உதவும்."
+  ],
+  "closing": "தெளிவான ஒருங்கிணைப்பு இல்லாமல் சீரான மருந்து கொள்கை செயல்படுவது சவாலாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "மத்திய மருந்து மான ஆணையம்",
+   "தேசிய மருந்து விலை ஆணையம்",
+   "இந்தியா"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Who decides the cost of medicines in India?",
+   "lines": [
+    "In India, medicine licensing and pricing fall under different regulatory bodies.",
+    "The Central Drugs Standard Control Organisation (CDSCO) handles medicine approvals.",
+    "The National Pharmaceutical Pricing Authority (NPPA) determines medicine prices.",
+    "Better coordination between these two bodies and consultation are needed.",
+    "Expertise in pharmacology and health economics could help resolve this issue."
+   ],
+   "closing": "Without clear coordination, consistent medicine policy remains a challenge."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "National Pharmaceutical Pricing Authority",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "03cc868e46a0",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-02T16:14+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/who-decides-the-cost-of-medicines-in-india/article71625998.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Logo_of_National_Pharmaceutical_Pricing_Authority.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · National Pharmaceutical Pricing Authority",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/National_Pharmaceutical_Pricing_Authority",
+   "symbolic": false
+  },
+  "audio": "data/audio/03cc868e46a0.mp3",
+  "created_ts": 1793616255.309716,
+  "status": "published"
+ },
+ {
+  "headline": "அமெரிக்க இடைத்தேர்தல் நாளை; இந்திய சந்தையில் அதிர்வு எதிர்பார்ப்பு",
+  "lines": [
+   "அமெரிக்காவின் நாடாளுமன்ற இடைத்தேர்தல் நவம்பர் 3 ஆம் தேதி நடைபெற உள்ளது.",
+   "இத்தேர்தலில் குடியரசுக் கட்சி இடங்களை இழக்கக்கூடும் என ஆய்வாளர்கள் கணிக்கின்றனர்.",
+   "பிரிந்த அரசாங்கம் அமையும் பட்சத்தில் சந்தையில் ஏற்ற இறக்கம் அதிகரிக்கும் என நிபுணர்கள் தெரிவிக்கின்றனர்.",
+   "கடந்தகால புள்ளிவிவரங்களின்படி, இதுபோன்ற தேர்தல்களுக்குப் பின் ஆண்டு அடிப்படை வருமானத்தில் பெரிய மாற்றம் இருந்ததில்லை என ஆய்வாளர்கள் சுட்டிக்காட்டுகின்றனர்.",
+   "இந்திய முதலீட்டாளர்கள் டாலர் மதிப்பு, அமெரிக்க பத்திர வட்டி விகிதம், கச்சா எண்ணெய் விலை மற்றும் வெளிநாட்டு நிதி வரவு ஆகியவற்றை உன்னிப்பாகக் கவனிக்க வேண்டும் என கூறப்படுகிறது."
+  ],
+  "closing": "ஏற்கெனவே சவாலான சூழலில் உள்ள உலக சந்தைகளுக்கு இடையே இந்தத் தேர்தல் முடிவு இந்திய பங்குச் சந்தை போக்கையும் பாதிக்கக்கூடும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": "2026-11-02"
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "அமெரிக்கா",
+   "குடியரசுக் கட்சி",
+   "சென்செக்ஸ்",
+   "நிஃப்டி",
+   "இந்திய பங்குச் சந்தை"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "US midterm elections tomorrow; Indian markets brace for volatility",
+   "lines": [
+    "The United States congressional midterm elections are scheduled for November 3.",
+    "Analysts anticipate the Republican Party could lose seats in this election.",
+    "Experts say a divided government could increase volatility in global markets.",
+    "Historical data shows annualised returns after such elections have largely remained unaffected, analysts point out.",
+    "Indian investors are advised to closely watch the dollar, US bond yields, crude oil prices and foreign fund flows."
+   ],
+   "closing": "Amid an already challenging global market environment, the election outcome could also influence trends in Indian stock markets."
+  },
+  "front_cat": "routine",
+  "image_query": "stock exchange trading floor",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "ff014a96987d",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-02T16:11+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/us-midterm-elections-begin-tomorrow-can-trumps-likely-defeat-sparkle-sensex-nifty-heres-what-analysts-say/articleshow/135446891.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/ff014a96987d.mp3",
+  "created_ts": 1793616117.579041,
+  "status": "published"
+ },
+ {
+  "headline": "சிட்னியின் பாண்டை கடற்கரைத் தாக்குதலுக்குப் பின் ஆயுதக் காவல் ரோந்து",
+  "lines": [
+   "ஆஸ்திரேலியாவின் சிட்னியில் உள்ள பாண்டை கடற்கரையில் நடந்த தாக்குதலுக்குப் பின்னர் ஆயுதமேந்திய காவல்துறையினர் ரோந்துப் பணியைத் தொடங்கியுள்ளனர்.",
+   "கடந்த ஆண்டு ஹனுக்கா பண்டிகை நிகழ்ச்சியில் நடந்த சுட்டுத் தாக்குதலில் பலர் உயிரிழந்த நிலையில், இந்தப் பாதுகாப்பு நடவடிக்கை மேற்கொள்ளப்பட்டுள்ளது.",
+   "புதிய சிறப்புப் பாதுகாப்புப் படையணி பொது இடங்களில் கண்காணிப்பை அதிகரிக்கும் என காவல்துறை அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "பிபிசி மற்றும் அல் ஜசீரா ஊடகங்கள் இந்தப் பாதுகாப்பு நடவடிக்கை குறித்துச் செய்தி வெளியிட்டுள்ளன.",
+   "பொதுமக்களின் பாதுகாப்பை உறுதி செய்யும் வகையில் இந்த ரோந்துப் பணி தொடரும் என அதிகாரிகள் அறிவித்துள்ளனர்."
+  ],
+  "closing": "கடந்த ஆண்டு நடந்த இந்தத் தாக்குதல் ஆஸ்திரேலியாவின் பாதுகாப்புக் கொள்கையில் மாற்றத்தை ஏற்படுத்தியுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "சிட்னி",
+   "பாண்டை கடற்கரை",
+   "ஆஸ்திரேலியா",
+   "ஹனுக்கா பண்டிகை",
+   "காவல்துறை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Armed Police Begin Patrols After Sydney Bondi Beach Attack",
+   "lines": [
+    "Heavily armed police officers have begun patrols in Sydney, Australia, following an attack at Bondi Beach.",
+    "The measure comes after last year's deadly shooting attack at a Hanukkah festival that killed several people.",
+    "Police officials said the new special security unit will increase surveillance in public places.",
+    "Both BBC and Al Jazeera reported on the new security deployment.",
+    "Officials stated that the patrols will continue to ensure public safety."
+   ],
+   "closing": "Last year's attack has led to changes in Australia's security policy."
+  },
+  "front_cat": "attack_terror",
+  "image_query": "",
+  "wiki_subject": "Bondi Beach",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [],
+  "id": "1a07280e2088",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-02T16:10+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/video/newsfeed/2026/11/2/sydney-deploys-heavily-armed-police-unit-after-bondi-attack?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Bondi_from_above.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Bondi Beach",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Bondi_Beach",
+   "symbolic": false
+  },
+  "audio": "data/audio/1a07280e2088.mp3",
+  "created_ts": 1793616016.8008428,
+  "status": "published"
+ },
+ {
+  "headline": "புளோரிடாவில் சிறிய விமான விபத்து; ஒன்பது பேர் பலி",
+  "lines": [
+   "அமெரிக்காவின் புளோரிடா மாநிலத்தில் ஒரு சிறிய விமானம் சாலையில் மோதி விழுந்தது.",
+   "இந்த விபத்தில் ஒன்பது பேர் உயிரிழந்ததாகத் தெரிவிக்கப்பட்டுள்ளது.",
+   "அமெரிக்க போக்குவரத்துத் துறை செயலாளர் சீன் டஃபி இதை கொடூரமான பேரிடர் என்று விவரித்தார்.",
+   "ஜனாதிபதி டொனால்ட் டிரம்பிற்குச் சொந்தமான மார்-அ-லாகோ உல்லாசத் தலத்திற்கு அருகில் இச்சம்பவம் நடைபெற்றது.",
+   "விபத்து குறித்த விரிவான தகவல்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை."
+  ],
+  "closing": "மார்-அ-லாகோ உல்லாசத் தலம் அமெரிக்க ஜனாதிபதி டொனால்ட் டிரம்புக்குச் சொந்தமானது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": "2026-11-02"
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "புளோரிடா",
+   "மார் அ லாகோ",
+   "டொனால்ட் டிரம்ப்",
+   "சீன் டஃபி"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Small jet crash in Florida kills nine near Mar-a-Lago",
+   "lines": [
+    "A small jet crashed on a street in Florida, in the United States.",
+    "Nine people were reportedly killed in the accident.",
+    "US Transportation Secretary Sean Duffy described the crash as a horrific tragedy.",
+    "The crash occurred near President Donald Trump's Mar-a-Lago resort.",
+    "Detailed official information about the crash has not yet been released."
+   ],
+   "closing": "It is worth noting that the Mar-a-Lago resort belongs to US President Donald Trump."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "Mar-a-Lago",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "27c8c1facaf4",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-02T16:08+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Mar-a-Lago%2C_Palm_Beach._FL%2C_US.jpg/3840px-Mar-a-Lago%2C_Palm_Beach._FL%2C_US.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Mar-a-Lago",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Mar-a-Lago",
+   "symbolic": false
+  },
+  "audio": "data/audio/27c8c1facaf4.mp3",
+  "created_ts": 1793615926.748258,
+  "status": "published"
+ },
+ {
+  "headline": "'ஏவுகணைபோல்' தரையில் மோதிய விமானம் – ஃபுளோரிடா விபத்தில் 9 பேர் உயிரிழப்பு",
+  "lines": [
+   "அமெரிக்காவின் ஃபுளோரிடா மாகாணத்தில் ஒரு குடியிருப்புப் பகுதியில் தனியார் விமானம் ஒன்று விழுந்து நொறுங்கியது.",
+   "இந்த விபத்து ஞாயிற்றுக்கிழமை நடைபெற்றதாகவும், விமானத்தில் இருந்த ஒன்பது பேரும் உயிரிழந்ததாகவும் தெரிவிக்கப்பட்டுள்ளது.",
+   "அமெரிக்கப் போக்குவரத்துத் துறை அமைச்சர் இந்த உயிரிழப்புத் தகவலை உறுதிப்படுத்தியுள்ளார்.",
+   "விமானம் ஏவுகணை போன்று வேகமாக தரையில் மோதியதாக நேரில் கண்டவர்கள் தெரிவித்ததாகச் செய்திகூறுகிறது.",
+   "விபத்துக்கான காரணம் குறித்து அதிகாரிகள் விசாரணை நடத்தி வருவதாகத் தெரிவிக்கப்பட்டுள்ளது."
+  ],
+  "closing": "விபத்து ஏற்பட்டதற்கான சரியான காரணம் குறித்த விசாரணை முடிவு இன்னும் வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ஃபுளோரிடா",
+   "அமெரிக்கா",
+   "தனியார் விமானம்",
+   "போக்குவரத்துத் துறை அமைச்சர்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Private plane crash in Florida kills nine people",
+   "lines": [
+    "A private plane crashed into a residential area in Florida, United States.",
+    "The crash occurred on Sunday and all nine people aboard the aircraft died.",
+    "The US Transportation Secretary confirmed the deaths.",
+    "Eyewitnesses said the plane hit the ground at high speed, like a missile, according to the report.",
+    "Authorities said an investigation into the cause of the crash is underway."
+   ],
+   "closing": "The exact cause of the crash has not yet been determined, officials said."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "6c97770aadef",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-02T16:07+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cqrlywgx286xo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world05.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/6c97770aadef.mp3",
+  "created_ts": 1793615881.3606198,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261102",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 1 · அரசு & தனியார்",
   "lines": [
@@ -18776,398 +19134,6 @@
   },
   "audio": "data/audio/bc3df452b951.mp3",
   "created_ts": 1792960393.6516716,
-  "status": "published"
- },
- {
-  "headline": "வங்கக்கடலில் காற்றழுத்தத் தாழ்வு மண்டலம், ஐந்து மாவட்டங்களுக்கு சிவப்பு எச்சரிக்கை",
-  "lines": [
-   "வங்கக்கடலில் நிலவி வந்த ஆழ்ந்த காற்றழுத்தத் தாழ்வுப் பகுதி, காற்றழுத்தத் தாழ்வு மண்டலமாக வலுப்பெற்றுள்ளது.",
-   "இதன் விளைவாக தமிழகத்தில் ஐந்து மாவட்டங்களுக்கு சிவப்பு எச்சரிக்கை விடுக்கப்பட்டுள்ளது.",
-   "இந்திய வானிலை ஆய்வு மையம் இந்த நிலவரத்தை உறுதிப்படுத்தி அறிவிப்பு வெளியிட்டுள்ளது.",
-   "எந்தெந்த மாவட்டங்கள் கடுமையாகப் பாதிக்கப்படும் என்ற விரிவான பட்டியல் இன்னும் வெளியிடப்படவில்லை.",
-   "தற்போதைய நிலவரம் தொடர்பாக வானிலை ஆய்வு மையம் அடுத்த சில நாட்களில் மேலும் தகவல்களை வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "ஐந்து மாவட்டங்களின் பெயர்கள் உள்ளிட்ட விரிவான எச்சரிக்கை தகவல்களுக்காக வானிலை ஆய்வு மையத்தின் அறிவிப்புகளைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "BBC Tamil",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "வங்கக்கடல்",
-   "இந்திய வானிலை ஆய்வு மையம்",
-   "தமிழகம்"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Bay of Bengal Depression Forms, Red Alert for Five Districts",
-   "lines": [
-    "A deep depression over the Bay of Bengal has intensified into a depression, weather officials said.",
-    "As a result, a red alert has been issued for five districts in Tamil Nadu.",
-    "The India Meteorological Department confirmed the development in its latest bulletin.",
-    "A detailed list of the districts expected to be worst affected has not yet been released.",
-    "The weather department is expected to issue further updates in the coming days."
-   ],
-   "closing": "Residents are advised to watch for further weather bulletins naming the five affected districts."
-  },
-  "front_cat": "disaster_warning",
-  "image_query": "storm clouds bay of bengal",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": true,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "d0a25eac87ad",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-26T02:02+05:30",
-  "links": [
-   "https://www.bbc.com/tamil/articles/ck4g109033jvo?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "data/bank/space04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/d0a25eac87ad.mp3",
-  "created_ts": 1792960350.8774438,
-  "status": "published"
- },
- {
-  "headline": "வங்கக்கடலில் நாளை 'அர்னாப்' தீவிர புயல் உருவாகிறது",
-  "lines": [
-   "வங்கக்கடலில் நாளை 'அர்னாப்' எனப்படும் தீவிர புயல் உருவாக உள்ளது.",
-   "இந்தப் புயல் படிப்படியாக தீவிரமடையும் சாத்தியம் உள்ளதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "இதனால் சென்னைக்குப் பாதிப்பு ஏற்படுமா என்ற கேள்வி எழுந்துள்ளது.",
-   "வங்கக்கடலில் உருவாகும் புயல்கள் பொதுவாக தமிழகக் கடலோர மாவட்டங்களைப் பாதிக்கும் வாய்ப்பு உள்ளது.",
-   "புயலின் பாதை மற்றும் தீவிரம் குறித்து அடுத்த சில நாட்களில் மேலும் தெளிவு கிடைக்கும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்தப் புயல் தமிழகத்தைப் பாதிக்கும் அளவு இன்னும் உறுதியாகத் தெரியவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "வங்கக் கடல்",
-   "அர்னாப் புயல்",
-   "சென்னை",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Severe Cyclone 'Arnab' To Form In Bay Of Bengal Tomorrow",
-   "lines": [
-    "A severe cyclone named 'Arnab' is set to form in the Bay of Bengal tomorrow.",
-    "The cyclone is expected to intensify gradually, according to the report.",
-    "This has raised questions on whether Chennai will be affected.",
-    "Cyclones forming in the Bay of Bengal usually have the potential to impact Tamil Nadu's coastal districts.",
-    "More clarity on the cyclone's path and intensity is expected over the coming days."
-   ],
-   "closing": "It remains unclear how severely this cyclone will affect Tamil Nadu."
-  },
-  "front_cat": "disaster_warning",
-  "image_query": "Bay of Bengal cyclone satellite",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": true,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "008c598f5d8b",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-26T02:01+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/25/severe-cyclone-arnap-to-form-in-bay-of-bengal-tomorrow-will-it-affect-chennai"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Cyclone_05B_1999_India_Bay_of_Bengal_satellite_image_NOAA_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா Commons · NOAA",
-   "license": "Public domain",
-   "symbolic": true
-  },
-  "audio": "data/audio/008c598f5d8b.mp3",
-  "created_ts": 1792960300.4104455,
-  "status": "published"
- },
- {
-  "headline": "ஹர்மன்பிரீத், தீப்தி நூறை எடுத்தனர்; இந்தியா தொடர் வென்றது",
-  "lines": [
-   "மகளிர் ஒருநாள் கிரிக்கெட்டில் இந்தியா ஜிம்பாப்வேயை 121 ரன்களால் வென்று தொடரை முடித்தது.",
-   "ஹர்மன்பிரீத் கவுர் மற்றும் தீப்தி ஷர்மா இருவரும் நூறிற்கு மேல் ஆட்டம் விளையாடினர்.",
-   "வைஷ்ணவி சர்மா தனது இரண்டாவது ஒருநாள் ஆட்டத்தில் நான்கு விக்கெட் வீழ்த்தினார்.",
-   "இந்திய பெண்கள் அணி ஆட்டச் சவாலை எல்லா முறைகளிலும் சாத்திக்காட்டியுள்ளது.",
-   "தொடர்ச்சி வெற்றி இந்திய அணியின் பலத்தை வெளிக்காட்டுகிறது."
-  ],
-  "closing": "ஹர்மன்பிரீத்தின் தலைமையில் இந்திய பெண்கள் அணி ஆட்டத் தரத்தை உயர்த்திக் கொண்டு சென்றுவருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ESPNcricinfo",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "ஹர்மன்பிரீத் கவுர்",
-   "தீப்தி ஷர்மா",
-   "வைஷ்णவி சர்மா",
-   "இந்திய பெண்கள் கிரிக்கெட் அணி",
-   "ஜிம்பாப்வே"
-  ],
-  "confidence": 0.85,
-  "en": {
-   "headline": "Harmanpreet, Deepti centuries seal India's series win",
-   "lines": [
-    "India defeated Zimbabwe by 121 runs in women's ODI cricket to clinch the series.",
-    "Harmanpreet Kaur and Deepti Sharma both scored centuries for the Indian team.",
-    "Vaishnavi Sharma took four wickets in her second ODI appearance.",
-    "The Indian women's team dominated the match across all departments.",
-    "The consecutive victory showcases the strength of the Indian squad."
-   ],
-   "closing": "Under Harmanpreet's leadership, the Indian women's team continues to raise its performance standards."
-  },
-  "front_cat": "sports_historic",
-  "image_query": "India women cricket team",
-  "wiki_subject": "India national women's cricket team",
-  "person_en": "Harmanpreet Kaur",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "9dbf813e3048",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-10-25T23:31+05:30",
-  "links": [
-   "https://www.cricinfo.com/ci/content/story/1560024.html?ex_cid=OTC-RSS"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Board_of_Control_for_Cricket_in_India_Logo_%282024%29.svg/960px-Board_of_Control_for_Cricket_in_India_Logo_%282024%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · India women's national cricket team",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/India_women's_national_cricket_team",
-   "symbolic": false
-  },
-  "audio": "data/audio/9dbf813e3048.mp3",
-  "created_ts": 1792951319.5001767,
-  "status": "published"
- },
- {
-  "headline": "வேலூரில் கட்டுமானத் தொழிலாளர்களுக்கு இலவச மருத்துவ முகாம்",
-  "lines": [
-   "வேலூரில் கட்டுமானத் தொழிலாளர்களுக்காக ஒரு நாள் முழுவதும் இலவச மருத்துவ முகாம் நடத்தப்பட்டது.",
-   "இந்த முகாமில் 600 க்கும் மேற்பட்ட கட்டுமானத் தொழிலாளர்கள் பங்கேற்றனர்.",
-   "முகாமின் மூலம் தொழிலாளர்களுக்கு உடல்நலப் பரிசோதனை மற்றும் மருத்துவ ஆலோசனை வழங்கப்பட்டது.",
-   "கட்டுமானத் துறையில் பணிபுரியும் தொழிலாளர்களின் நலனைக் கருத்தில் கொண்டு இந்த முகாம் ஏற்பாடு செய்யப்பட்டது.",
-   "இதுபோன்ற மருத்துவ முகாம்கள் தொடர்ந்து நடத்தப்படும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "கட்டுமானத் தொழிலாளர்களுக்கான நலத்திட்டங்களின் ஒரு பகுதியாக இந்த முகாம் நடத்தப்பட்டது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "வேலூர்",
-   "கட்டுமானத் தொழிலாளர்கள்",
-   "இலவச மருத்துவ முகாம்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Free medical camp held for construction workers in Vellore",
-   "lines": [
-    "A day-long free medical camp was organised for construction workers in Vellore.",
-    "More than 600 construction workers took part in the camp.",
-    "The camp reportedly provided health check-ups and medical consultations to the workers.",
-    "The event was organised keeping in mind the welfare of workers employed in the construction sector.",
-    "Such medical camps are expected to be held regularly in the future."
-   ],
-   "closing": "The camp was held as part of welfare initiatives for construction workers."
-  },
-  "front_cat": "district_scheme",
-  "image_query": "medical camp construction workers",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "31cd9682552c",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-10-25T23:31+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/free-medical-camp-held-for-construction-workers-in-vellore/article71623138.ece",
-   "https://www.thehindu.com/news/national/tamil-nadu/free-medical-camp-held-for-construction-workers-in-vellore/article71623138.ece"
-  ],
-  "image": {
-   "url": "data/bank/health02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/31cd9682552c.mp3",
-  "created_ts": 1792951283.118118,
-  "status": "published"
- },
- {
-  "headline": "ராணிப்பேட்டையில் இருசக்கர வாகனத் திருட்டு வழக்கில் இருவர் கைது",
-  "lines": [
-   "வேலூர் மாவட்டம் ராணிப்பேட்டையில் இருசக்கர வாகனங்களைத் திருடிய வழக்கில் இருவர் கைது செய்யப்பட்டனர்.",
-   "திடீர் வாகனச் சோதனையின் போது காவல்துறையினர் இந்த இருவரையும் பிடித்தனர்.",
-   "காவல்துறையினர் இவர்கள் மீது வழக்குப் பதிவு செய்து விசாரணையைத் தொடங்கியுள்ளனர்.",
-   "இந்தத் திருட்டு சம்பவம் தொடர்பாக காவல்துறை கூடுதல் தகவல்களைத் திரட்டி வருகிறது.",
-   "குற்றம் சாட்டப்பட்டவர்கள் விரைவில் நீதிமன்றத்தில் ஆஜர்படுத்தப்படவுள்ளனர்."
-  ],
-  "closing": "இருசக்கர வாகனத் திருட்டுகளைத் தடுக்க காவல்துறை திடீர் வாகனச் சோதனைகளை தொடர்ந்து மேற்கொண்டு வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "ராணிப்பேட்டை",
-   "வேலூர் மாவட்டம்",
-   "காவல்துறை",
-   "இருசக்கர வாகனம்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Two Arrested in Ranipet for Stealing Two-Wheelers",
-   "lines": [
-    "Two persons were arrested in Ranipet, Vellore district, for stealing two-wheelers.",
-    "The police caught the duo during a surprise vehicle check.",
-    "Police have registered a case against them and begun investigation.",
-    "Police are gathering further information related to this theft incident.",
-    "The accused are expected to be produced before court soon."
-   ],
-   "closing": "Police continue to conduct surprise vehicle checks to prevent two-wheeler thefts."
-  },
-  "front_cat": "routine",
-  "image_query": "scales of justice",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "edc398e6490e",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-25T23:30+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/two-persons-arrested-in-ranipet-for-stealing-two-wheelers/article71623047.ece",
-   "https://www.thehindu.com/news/national/tamil-nadu/two-persons-arrested-in-ranipet-for-stealing-two-wheelers/article71623047.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/edc398e6490e.mp3",
-  "created_ts": 1792951233.8007524,
-  "status": "published"
- },
- {
-  "headline": "எபிரோனில் 70 வயது பாலஸ்தீனிய கடைக்காரரை இஸ்ரேலிய வீரர்கள் தாக்கியது",
-  "lines": [
-   "மேற்குக் கரையில் உள்ள எபிரோன் நகரில், இஸ்ரேலிய ராணுவ வீரர்கள் ஒரு மூத்த பாலஸ்தீனியரைத் தாக்கியதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "தாக்கப்பட்டவர் ஹிஜாசி ஷாவர் என்பவர்; அவருக்கு வயது 70; அவர் உள்ளூர் கடைக்காரரும் சமூகத் தலைவருமாவார்.",
-   "இந்தத் தாக்குதலில் அவர் காயமடைந்ததாக அல் ஜசீரா செய்தி நிறுவனம் தெரிவித்துள்ளது.",
-   "சம்பவம் தொடர்பாக இஸ்ரேலிய ராணுவத்தின் அதிகாரப்பூர்வ விளக்கம் இதுவரை வெளியிடப்படவில்லை.",
-   "மேற்குக் கரையில் இதுபோன்ற சம்பவங்கள் குறித்து சர்வதேச அளவில் கவலை தொடர்ந்து தெரிவிக்கப்பட்டு வருகிறது."
-  ],
-  "closing": "மேற்குக் கரையில் பாலஸ்தீனியர்கள் மீதான இஸ்ரேலிய ராணுவ நடவடிக்கைகள் தொடர்பான பதற்றம் தொடர்ந்து நிலவி வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "எபிரோன்",
-   "பாலஸ்தீனம்",
-   "இஸ்ரேலிய ராணுவம்",
-   "ஹிஜாசி ஷாவர்",
-   "மேற்குக் கரை"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Israeli soldiers beat 70-year-old Palestinian shopkeeper in Hebron",
-   "lines": [
-    "In the West Bank city of Hebron, Israeli soldiers reportedly beat an elderly Palestinian man.",
-    "The victim, Hijazi Shawer, is a 70-year-old shopkeeper and local community leader.",
-    "He was injured in the assault, according to a report by Al Jazeera.",
-    "No official statement has been issued by the Israeli military regarding the incident.",
-    "Concerns over such incidents in the West Bank continue to be raised internationally."
-   ],
-   "closing": "Tensions over Israeli military actions against Palestinians in the West Bank remain ongoing."
-  },
-  "front_cat": "war_conflict",
-  "image_query": "",
-  "wiki_subject": "Hebron",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "3d821338de23",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-25T23:29+05:30",
-  "links": [
-   "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-soldiers-beat-elderly-palestinian-in-hebron?traffic_source=rss"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/BTS_Hebron_Tour_280215_24.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Hebron",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Hebron",
-   "symbolic": false
-  },
-  "audio": "data/audio/3d821338de23.mp3",
-  "created_ts": 1792951193.4056187,
   "status": "published"
  }
 ]
