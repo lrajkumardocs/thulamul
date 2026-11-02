@@ -1,5 +1,251 @@
 [
  {
+  "headline": "தமிழ்நாட்டில் 14 மாவட்டங்களில் மழை தொடர்பான எச்சரிக்கை",
+  "lines": [
+   "தமிழ்நாட்டில் சென்னை உள்பட பதினான்கு மாவட்டங்களில் மழை தொடரும் என வானிலை மையம் தெரிவித்துள்ளது.",
+   "ஒன்பது மாவட்டங்களில் இரவு பத்து மணி வரையும், பதினான்கு மாவட்டங்களில் மாலை நான்கு மணி வரையும் மழை இருக்கும் என அறிவிக்கப்பட்டுள்ளது.",
+   "வானிலை ஆய்வு மையம் இந்த எச்சரிக்கையை வெளியிட்டுள்ளது.",
+   "கடந்த சில நாட்களாக மாநிலத்தின் பல பகுதிகளில் மழை பெய்து வருகிறது.",
+   "பாதிக்கப்படக்கூடிய பகுதிகளில் மக்கள் அதிகாரிகளின் அறிவுறுத்தல்களைக் கவனிக்குமாறு கேட்டுக்கொள்ளப்பட்டுள்ளனர்."
+  ],
+  "closing": "அடுத்த சில மணி நேரங்களில் மழையின் தீவிரம் எவ்வாறு இருக்கும் என்பதை வானிலை மையம் தொடர்ந்து கண்காணித்து வருகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-02"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை",
+   "தமிழ்நாடு",
+   "வானிலை ஆய்வு மையம்"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Rain warning issued for 14 districts across Tamil Nadu",
+   "lines": [
+    "The weather department has said rain will continue in fourteen districts of Tamil Nadu, including Chennai.",
+    "Nine districts are expected to receive rain until 10 pm, while fourteen districts will see rain until 4 pm.",
+    "The regional meteorological centre issued this weather alert.",
+    "Several parts of the state have been receiving rain over the past few days.",
+    "People in vulnerable areas have been asked to follow instructions from local authorities."
+   ],
+   "closing": "The weather department continues to monitor how the intensity of rain will change over the coming hours."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "rain clouds Chennai weather",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "fa403f3e913a",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-03T02:17+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/02/weather-update-rain-in-9-districts-until-10-pm",
+   "https://www.dinamani.com/tamilnadu/2026/Nov/02/rain-will-continue-until-4-pm-in-14-districts-including-chennai"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/fa403f3e913a.mp3",
+  "created_ts": 1793652459.206271,
+  "status": "published"
+ },
+ {
+  "headline": "சென்னை, புறநகர் பகுதிகளுக்கு கனமழை எச்சரிக்கை",
+  "lines": [
+   "சென்னை மற்றும் சுற்றுவட்டாரப் பகுதிகளுக்கு கனமழை பெய்யும் என எச்சரிக்கை விடுக்கப்பட்டது.",
+   "இந்த எச்சரிக்கை நவம்பர் 2 இரவு 7 மணி வரை அமலில் இருக்கும்.",
+   "வானிலை ஆய்வு மையம் இந்தத் தகவலை வெளியிட்டுள்ளது.",
+   "கனமழை காரணமாக சில பகுதிகளில் போக்குவரத்து பாதிக்கப்படலாம் என எச்சரிக்கையில் தெரிவிக்கப்பட்டது.",
+   "பொதுமக்கள் அனாவசியமாக வெளியே செல்வதைத் தவிர்க்குமாறும், தொடர்ந்து வானிலை தகவல்களைக் கவனிக்குமாறும் அறிவுறுத்தப்பட்டுள்ளனர்."
+  ],
+  "closing": "கனமழை தொடர்பான அடுத்தகட்ட எச்சரிக்கைகளை வானிலை ஆய்வு மையம் விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-02"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை",
+   "புறநகர் பகுதிகள்",
+   "வானிலை ஆய்வு மையம்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Heavy Rain Alert Issued For Chennai And Suburbs",
+   "lines": [
+    "A heavy rain warning was issued for Chennai and its surrounding suburban areas.",
+    "The alert remained in effect until 7 pm on November 2nd.",
+    "The Regional Meteorological Centre issued this weather warning.",
+    "The alert noted that traffic could be affected in some areas due to heavy rain.",
+    "Residents were advised to avoid unnecessary travel and to keep monitoring further weather updates."
+   ],
+   "closing": "The Meteorological Centre is expected to issue further updates on the rain situation soon."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "26491cd105c6",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-03T02:16+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/02/weather-forecast-heavy-rain-warning-for-chennai-and-its-suburbs-until-7-pm-nov-2"
+  ],
+  "image": {
+   "url": "data/bank/space04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/26491cd105c6.mp3",
+  "created_ts": 1793652402.0925455,
+  "status": "published"
+ },
+ {
+  "headline": "முல்லைப் பெரியாறு அணையில் விரிவான பாதுகாப்பு ஆய்வு: உச்சநீதிமன்றத்தை அணுக கேரளம் திட்டம்",
+  "lines": [
+   "முல்லைப் பெரியாறு அணையில் விரிவான பாதுகாப்பு ஆய்வு நடத்த கேரள அரசு திட்டமிட்டுள்ளது.",
+   "இது தொடர்பாக உச்ச நீதிமன்றத்தை அணுக கேரளம் தயாராகி வருவதாகத் தெரிகிறது.",
+   "முல்லைப் பெரியாறு அணையின் பாதுகாப்பு குறித்து தமிழ்நாடு மற்றும் கேரளம் இடையே பல ஆண்டுகளாக கருத்து வேறுபாடு நீடிக்கிறது.",
+   "அணையின் பராமரிப்பு மற்றும் பாதுகாப்பு குறித்து தமிழ்நாடு அரசு முன்னர் பல முறை உறுதி அளித்துள்ளது.",
+   "இந்த விவகாரத்தில் உச்ச நீதிமன்றம் என்ன நிலைப்பாடு எடுக்கும் என்பது எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "முல்லைப் பெரியாறு அணை பிரச்சினை தமிழ்நாடு மற்றும் கேரளத்திற்கு இடையேயான நீண்ட கால நீர் மேலாண்மை சர்ச்சையாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "முல்லைப் பெரியாறு அணை",
+   "தமிழ்நாடு",
+   "கேரளம்",
+   "உச்ச நீதிமன்றம்"
+  ],
+  "confidence": 0.35,
+  "id": "d2e1bf73ec09",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-03T02:16+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/02/comprehensive-safety-inspection-of-the-mullaperiyar-dam-kerala-plans-to-approach-the-supreme-court"
+  ],
+  "image": {
+   "url": "data/bank/agri04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d2e1bf73ec09.mp3",
+  "created_ts": 1793652363.5012808,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "தீவிரப் புயல் முரசு கரையைக் கடக்கிறது, தமிழகத்தில் 5 மாவட்டங்களுக்கு மழை எச்சரிக்கை",
+  "lines": [
+   "வங்கக்கடலில் உருவான தீவிரப் புயலான முரசு ஆந்திரப் பிரதேசக் கரையை நெருங்கி வருகிறது.",
+   "நெல்லூர் மற்றும் நரசாபுரம் இடையே, ஓங்கோலுக்குத் தெற்கே இந்தப் புயல் கரையைக் கடக்கும் என எதிர்பார்க்கப்படுகிறது.",
+   "இன்று (நவம்பர் 2) இரவு 11.30 மணி முதல் நாளை அதிகாலை 4 மணிக்குள் இந்த நிகழ்வு நடக்கும் என இந்திய வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "இதன் தாக்கமாக தமிழ்நாட்டில் ஐந்து மாவட்டங்களுக்குக் கனமழை எச்சரிக்கை விடுக்கப்பட்டுள்ளது.",
+   "பாதிக்கப்படக்கூடிய பகுதிகளில் வசிப்பவர்கள் வானிலைத் துறையின் அறிவிப்புகளை தொடர்ந்து கவனிக்குமாறு கேட்டுக்கொள்ளப்பட்டுள்ளனர்."
+  ],
+  "closing": "புயல் கரையைக் கடந்த பிறகு தமிழ்நாட்டில் மழையின் தாக்கம் எவ்வாறு இருக்கும் என்பதை வானிலைத் துறையின் அடுத்த அறிவிப்புகள் தெளிவுபடுத்தும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": "2026-11-02"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "புயல் முரசு",
+   "வங்கக்கடல்",
+   "ஆந்திரப் பிரதேசம்",
+   "இந்திய வானிலை ஆய்வு மையம்",
+   "தமிழ்நாடு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Severe Cyclone Murasu to Cross Coast, Rain Alert for 5 TN Districts",
+   "lines": [
+    "A severe cyclonic storm named Murasu, which formed over the Bay of Bengal, is approaching the coast of Andhra Pradesh.",
+    "The cyclone is expected to cross the coast between Nellore and Narasapuram, south of Ongole.",
+    "The India Meteorological Department stated this will occur between eleven thirty at night and four in the morning.",
+    "As a result, a heavy rain alert has been issued for five districts in Tamil Nadu.",
+    "Residents in the affected areas have been asked to continue monitoring updates from the weather department."
+   ],
+   "closing": "The next updates from the weather department will clarify the extent of rain impact in Tamil Nadu after the cyclone crosses the coast."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "cyclone storm clouds satellite",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "b6464da2c2be",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-03T02:07+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cj3vq0kvrp0po?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/weather02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/b6464da2c2be.mp3",
+  "created_ts": 1793651853.0585682,
+  "status": "published"
+ },
+ {
   "headline": "முரசு புயல்: வட தமிழகத்தில் கனமழை, சென்னையில் பள்ளிகளுக்கு விடுமுறை",
   "lines": [
    "முரசு எனப்படும் புயலின் பாதிப்பால், சென்னை உள்ளிட்ட வட தமிழக மாவட்டங்களில் கனமழை பெய்யும் என எதிர்வு கூறப்பட்டுள்ளது.",
@@ -3536,264 +3782,6 @@
   },
   "audio": "data/audio/4ad107c9f11f.mp3",
   "created_ts": 1793106879.1515646,
-  "status": "published"
- },
- {
-  "headline": "வடகிழக்கு பருவமழையால் 14 பேர் பலி: அமைச்சர் செங்கோட்டையன்",
-  "lines": [
-   "தமிழ்நாட்டில் பெய்து வரும் வடகிழக்கு பருவமழையால் 14 பேர் உயிரிழந்ததாக அமைச்சர் செங்கோட்டையன் தெரிவித்தார்.",
-   "பலியானோரின் எண்ணிக்கை 14 ஆக பதிவாகியுள்ளதாக அவர் குறிப்பிட்டார்.",
-   "மழை பாதிப்பு தொடர்பான நிலவரத்தை அமைச்சர் செங்கோட்டையன் விளக்கியதாக தகவல் வெளியாகியுள்ளது.",
-   "பாதிப்பு தொடர்பான முழு விவரங்கள் இன்னும் தெளிவாக வெளியிடப்படவில்லை.",
-   "மேலும் தகவல்கள் அரசு தரப்பிலிருந்து எதிர்பார்க்கப்படுகின்றன."
-  ],
-  "closing": "வடகிழக்கு பருவமழை தொடர்பான மேலும் விவரங்கள் அரசு தரப்பிலிருந்து எதிர்பார்க்கப்படுகின்றன.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "வடகிழக்கு பருவமழை",
-   "தமிழ்நாடு",
-   "செங்கோட்டையன்"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Fourteen dead in northeast monsoon rains: Minister Sengottaiyan",
-   "lines": [
-    "Fourteen people have died due to the northeast monsoon rains in Tamil Nadu, Minister Sengottaiyan said.",
-    "The death toll has been recorded at fourteen, he noted.",
-    "The minister reportedly explained the current situation regarding the rain-related damage.",
-    "Complete details about the extent of the damage have not yet been clearly released.",
-    "Further information is awaited from the government."
-   ],
-   "closing": "Further details regarding the northeast monsoon are awaited from the government.",
-   "closing_type": "watch"
-  },
-  "id": "71b212365dc8",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-27T07:04+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/27/14-deaths-due-to-northeast-monsoon-minister-sengottaiyan"
-  ],
-  "image": {
-   "url": "data/bank/weather04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/71b212365dc8.mp3",
-  "created_ts": 1793064845.553779,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "அர்னாப் புயல் தீவிரமடைந்து நாளை கரையைக் கடக்கிறது",
-  "lines": [
-   "அர்னாப் எனப் பெயரிடப்பட்ட புயல் தீவிரமடைந்து நாளை கரையைக் கடக்க உள்ளதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "இந்தப் புயல் தீவிர புயல் நிலைக்கு வலுப்பெற்றிருப்பதாக அறிவிக்கப்பட்டுள்ளது.",
-   "புயல் கரையைக் கடக்கும் திட்டவட்டமான இடம் மற்றும் பாதிப்புக்குள்ளாகும் பகுதிகள் குறித்து இன்னும் விரிவான தகவல் வெளியிடப்படவில்லை.",
-   "இதற்கு முன் வங்காள விரிகுடாவில் உருவான புயல்கள் தமிழக கடலோரப் பகுதிகளில் பாதிப்பை ஏற்படுத்தியிருந்த நிலையில் இந்தப் புயல் குறித்த எச்சரிக்கை வெளியாகியுள்ளது.",
-   "அடுத்த சில மணி நேரங்களில் புயலின் பாதை, வேகம் தொடர்பான அதிகாரப்பூர்வ விவரங்கள் வெளியாக உள்ளன."
-  ],
-  "closing": "புயல் கரையைக் கடக்கும் திசை மற்றும் பாதிக்கப்படும் மாவட்டங்கள் குறித்த அதிகாரப்பூர்வ அறிவிப்புக்காக காத்திருக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": "2026-10-27"
-   },
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": "2026-10-27"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "அர்னாப் புயல்",
-   "தமிழ்நாடு கடலோரம்",
-   "வங்காள விரிகுடா"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Cyclone Arnab Intensifies, Set to Cross Coast Tomorrow",
-   "lines": [
-    "A cyclone named Arnab has intensified and is expected to cross the coast tomorrow, reports say.",
-    "The system has strengthened into a severe cyclonic storm, according to the reports.",
-    "Detailed information on the exact landfall location and the areas likely to be affected has not yet been released.",
-    "Earlier cyclones formed in the Bay of Bengal had caused damage along the Tamil Nadu coast, and this warning comes against that backdrop.",
-    "Official details regarding the storm's path and speed are expected to be released within the next few hours."
-   ],
-   "closing": "Residents must await the official announcement regarding the storm's landfall direction and the districts likely to be affected.",
-   "closing_type": "watch"
-  },
-  "id": "33018d282860",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-27T03:38+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/26/cyclone-arnab-to-cross-the-coast-tomorrow",
-   "https://www.dinamani.com/tamilnadu/2026/Oct/26/intensifying-into-a-severe-cyclonic-storm-arnab-is-set-to-cross-the-coast-tomorrow"
-  ],
-  "image": {
-   "url": "data/bank/weather02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/33018d282860.mp3",
-  "created_ts": 1793052515.0953975,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "வங்கக்கடலில் அர்னாப் புயல் உருவாக்கம், தமிழ்நாட்டில் மழை எச்சரிக்கை",
-  "lines": [
-   "வங்கக்கடலில் அர்னாப் எனப்படும் புயல் உருவாகியுள்ளதாக இந்திய வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
-   "இந்தப் புயல் மேலும் வலுப்பெற்று தீவிரப் புயலாக மாறக்கூடும் என ஆய்வு மையம் கூறியுள்ளது.",
-   "அதைத் தொடர்ந்து இது மிகத் தீவிரப் புயலாகவும் மாறும் வாய்ப்புள்ளதாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
-   "இந்தப் புயலின் தாக்கத்தால் தமிழ்நாட்டின் பல பகுதிகளில் மழை பெய்யக்கூடும் என எச்சரிக்கை விடுக்கப்பட்டுள்ளது.",
-   "புயலின் பாதை மற்றும் தீவிரம் குறித்து இந்திய வானிலை ஆய்வு மையம் தொடர்ந்து கண்காணித்து வருகிறது."
-  ],
-  "closing": "இந்திய வானிலை ஆய்வு மையம் வெளியிடும் அடுத்தகட்ட எச்சரிக்கைகளை தமிழக மக்கள் கவனத்தில் கொள்ள வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "BBC Tamil",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "வங்கக்கடல்",
-   "அர்னாப் புயல்",
-   "இந்திய வானிலை ஆய்வு மையம்",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Cyclone Arnab forms in Bay of Bengal, rain alert for Tamil Nadu",
-   "lines": [
-    "A cyclone named Arnab has formed in the Bay of Bengal, the India Meteorological Department said.",
-    "The department said the system is likely to intensify further into a severe cyclonic storm.",
-    "Officials also said it may subsequently strengthen into a very severe cyclonic storm.",
-    "Due to the impact of the cyclone, several parts of Tamil Nadu are likely to receive rainfall, the alert said.",
-    "The India Meteorological Department continues to monitor the cyclone's path and intensity."
-   ],
-   "closing": "Residents in Tamil Nadu are advised to watch for further alerts from the India Meteorological Department."
-  },
-  "front_cat": "disaster_warning",
-  "image_query": "cyclone bay of bengal satellite",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": true,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "00752f564a74",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-26T11:18+05:30",
-  "links": [
-   "https://www.bbc.com/tamil/articles/cmx23wzl54dqo?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "data/bank/weather02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/00752f564a74.mp3",
-  "created_ts": 1792993692.626841,
-  "status": "published"
- },
- {
-  "headline": "தமிழ்நாட்டில் கனமழை; 26-ஆம் தேதி பல மாவட்டங்களில் பள்ளிகளுக்கு விடுமுறை",
-  "lines": [
-   "தமிழ்நாட்டில் கனமழை தொடர்ந்து பெய்து வருவதால் பல மாவட்டங்களில் 26-ஆம் தேதி பள்ளிகளுக்கு விடுமுறை அறிவிக்கப்பட்டுள்ளது.",
-   "வங்காள விரிகுடாவில் உருவான தாழ்வு மண்டலம் தென்மேற்கு நோக்கி நகர்ந்து, கடந்த ஆறு மணி நேரத்தில் கடும் தாழ்வு மண்டலமாக தீவிரமடைந்துள்ளது.",
-   "இந்திய வானிலை ஆய்வு மையம் (ஐ.எம்.டி) தனது சமீபத்திய வானிலை அறிக்கையில் இந்த விவரத்தை வெளியிட்டுள்ளது.",
-   "இந்த கடும் தாழ்வு மண்டலத்தின் தாக்கத்தால் மாநிலத்தின் பல பகுதிகளில் மேலும் மழை பெய்யக்கூடும் என எதிர்பார்க்கப்படுகிறது.",
-   "மாணவர்களின் பாதுகாப்பைக் கருதி மாவட்ட நிர்வாகங்கள் முன்னெச்சரிக்கை நடவடிக்கையாக பள்ளி விடுமுறையை அறிவித்துள்ளன."
-  ],
-  "closing": "கடும் தாழ்வு மண்டலம் அடுத்த சில மணி நேரங்களில் எந்த திசையில் நகர்கிறது என்பதைப் பொறுத்தே தமிழ்நாட்டின் மழை நிலைமை தீர்மானிக்கப்படும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": "2026-10-26"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தமிழ்நாடு",
-   "இந்திய வானிலை ஆய்வு மையம்",
-   "வங்காள விரிகுடா",
-   "கடும் தாழ்வு மண்டலம்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Deep Depression Brings Heavy Rain, Schools Shut in Tamil Nadu",
-   "lines": [
-    "Heavy rain continued across Tamil Nadu, prompting school closures in several districts today.",
-    "A depression over the Bay of Bengal moved southwestwards and intensified into a deep depression over the past six hours.",
-    "The India Meteorological Department shared this update in its latest weather bulletin.",
-    "The deep depression is expected to bring more rain to several parts of the state in the coming hours.",
-    "District administrations announced school holidays as a precautionary measure for students' safety."
-   ],
-   "closing": "The rain situation in Tamil Nadu will depend on which direction the deep depression moves in the coming hours."
-  },
-  "id": "43a1dc0dac1a",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-26T11:17+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-heavy-rainfall-cyclone-arnab-on-october-26-2026/article71625472.ece"
-  ],
-  "image": {
-   "url": "data/bank/india09.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/43a1dc0dac1a.mp3",
-  "created_ts": 1792993648.8046749,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
   "status": "published"
  }
 ]
