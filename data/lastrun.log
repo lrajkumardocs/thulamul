@@ -1,26 +1,26 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 24 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 16 புதியவை
+[fetch] The Hindu TN: 26 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 20 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 3 புதியவை
-[fetch] Cinema Express: 22 புதியவை
+[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] Cinema Express: 20 புதியவை
 [fetch] The Hindu Tech: 17 புதியவை
-[fetch] Wired: 29 புதியவை
+[fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 3 புதியவை
+[fetch] The Hindu Health: 9 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 25 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
-[fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.icmr.gov.in', port=443): Failed to resolve 'www.icmr.gov.in' ([Errno -5] No address associated with hostname)"))
+[fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
+[fetch] Bar and Bench: 17 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,24 +56,78 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1e0e793e50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f0590d80450>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 657 → நிகழ்வுகள் 602
-[triage] 602 → 68 | காலி: india:4, govt:4, crime:4, economy:3, jobs:3
-[திருத்தம்] இந்திய ஸ்டேட் பேங்க் ரிஸ்க் ஸ்பெஷலிஸ்ட்  → இந்திய ஸ்டேட் வங்கி ரிஸ்க் ஸ்பெஷலிஸ்ட் ப
-Traceback (most recent call last):
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 2221, in <module>
-    main()
-  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1858, in main
-    story["flags"] = sorted(set(story.get("flags", []) + extra_flags))
-                                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
-TypeError: unsupported operand type(s) for +: 'dict' and 'list'
+[run] புதியவை 702 → நிகழ்வுகள் 635
+[triage] 635 → 65 | காலி: india:4, govt:4, crime:4, economy:3, jobs:3
+[skip] உত्तर प्रदेश அரசு (UPSSSC) நியமனம் — தமிழ்நாட்டுக்கு நேரடித்
+[skip] நியூயார்க், அமெரிக்கா — தமிழ்நாடு/இந்தியாவுக்கு நேரடித் தொடர
+[skip] தமிழ்நாடு, இந்தியா அல்லது உலகக் கிரிக்கெட் முக்கியப் போட்டிக
+[skip] இது குறிப்பிட்ட நிகழ்வு அல்ல, இடைத்தேர்தல் பற்றிய முன்கணிப்ப
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[tts-edge] 33915b716f56: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தேனி சிறை காவலர் தாக்குதல் குற்றச்சாட்டு, மருத்துவ பரிசோதனைக்கு உத்தரவு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[tts-edge] be1386e788fe: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நேபாளத்தில் ஹெலிகாப்டர் மோதல் விபத்தில் தமிழக பயணி உயிரிழப்பு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): அமைதி ஏற்பட்டால் உக்ரைனுக்கு ஐரோப்
+[publish] அமைதி ஏற்பட்டால் உக்ரைனுக்கு ஐரோப்பியப் படை அனுப்ப ஒத்திகை
+[skip] இது ஈரான் தொடர்பான ஒரு குடும்பத்தின் தனிப்பட்ட நீதி தேடல் பற
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgfpn6sBoaort4nM2MuG5'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgfppPqi1SgXrENxQf7tk'}
+[திருத்தம்] புயல் மூரசு பாதிப்பு - சென்னையில் வெள்ளந → புயல் மூரசு பாதிப்பு — சென்னையில் வெள்ளந
+[image] களஞ்சியம் (2 சொல்): புயல் மூரசு பாதிப்பு — சென்னையில் 
+[publish] புயல் மூரசு பாதிப்பு — சென்னையில் வெள்ளநீர் வடிகிறது, சாலைச் சேதம் கவலை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgfpvusQG9oJzRSAVKHUU'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgfq2dSrFFP5iifGXY2nS'}
+[திருத்தம்] ஜிஎஸ்டி வருவாய் சரிவு, தவெக ஆட்சியில் தம → ஜிஎஸ்டி வருவாய் சரிவு, தவெக ஆட்சியில் தம
+[publish] ஜிஎஸ்டி வருவாய் சரிவு, தவெக ஆட்சியில் தமிழ்நாடு 'அழிந்துவிடும்' என ஸ்டாலின் கூற்று
+[skip] சவுதி அரேபியாவில் நடந்த தாக்குதல் மற்றும் அதன் காரணமாக ஏசியन
+[skip] மூலத்தில் மாவட்டங்களின் பெயர்கள், மழை அளவு போன்ற அடிப்படை வி
+[skip] வெளிநாட்டு வাணிज்ய உடன்பாடு — தமிழ்நாட்டு வாசகரைப் நேரடியாகப
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgfqCE4hMRpGcDaeTyX9c'}
+[skip] ஆஸ்திரேலியாவின் உள்நாட்டுச் சட்ட விவகாரம்; தமிழ்நாடு/இந்தியா
+[skip] உক்ரேனுக்கும் ரஷ்யாவுக்கும் இடையிலான தொழில்நுட்ப ரணகளம் — தம
+[skip] அமெரிக்க இடைத்தேர்தல் பற்றிய ஊகக் கணிப்பு கட்டுரை; உறுதியான 
+[திருத்தம்] நாமக்கல், சேலத்தில் டாசுமாக் கடைகளை மூடி → நாமக்கல், சேலத்தில் டாஸ்மாக் கடைகளை மூடி
+[publish] நாமக்கல், சேலத்தில் டாஸ்மாக் கடைகளை மூடி ஊழியர்கள் போராட்டம்
+[திருத்தம்] தாசில் மது விலை பத்து ரூபாய் உயர்வு, பல  → தாசக் கடைகளில் குழப்பம், மது விலை பத்து 
+[publish] தாசக் கடைகளில் குழப்பம், மது விலை பத்து ரூபாய் உயர்வு
+[skip] பேரிடர் எச்சரிக்கை நிகழ்ந்து விட்டது — ஆந்திரப் பிரதேசத்தில்
+[திருத்தம்] தமிழக ஜிஎஸ்டி வருவாய் குறித்து அண்ணாமலை  → தமிழகத்தின் ஜிএஸ்டி வசூலைக் குறித்து அண்
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[publish] தமிழகத்தின் ஜிஎஸ்டி வசூலைக் குறித்து அண்ணாமலை எழுப்பிய கேள்விகள்
+[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு / இந்தியாவுடன் நேரடி 
+[திருத்தம்] ஐஐடி சென்னையில் நவீன ஆராய்ச்சி கூடங்கள்  → செயிண்ட்-கோபெயினும் ஐஐடி-மெட்ராசும் நவீன
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: செயிண்ட்-கோபெயினும் ஐஐடி-மெட்ராசும
+[publish] செயிண்ட்-கோபெயினும் ஐஐடி-மெட்ராசும் நவீன ஆராய்ச்சி கூடங்கள் அமைக்க ஒப்பந்தம்
+[skip] வெளிநாட்டு சைபர் குற்றம், தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொட
+[திருத்தம்] ஆவின் பால் விலை 5 ரூபாய் உயர்வை எதிர்த்த → ஆவின் பால் விலை ₹5 உயர்வை எதிர்த்த அன்பு
+[publish] ஆவின் பால் விலை ₹5 உயர்வை எதிர்த்த அன்புமணி ராமதாஸ்
+[brief] காலை brief தயார்
+[filler] health கட்டுரை
+[jobs] தொகுப்பு 5
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: தப்பிய கைதிகளைப் பிடித்தபின் தாக்குதல் — உண்மை என்ன?
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12240 · சென்செக்ஸ் 76918
+[weather] புதுப்பிக்கப்பட்டது
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+  warnings.warn(message, FutureWarning)
+[push] 0 அறிவிப்புகள்
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
