@@ -1,26 +1,26 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 28 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 24 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 17 புதியவை
+[fetch] BBC World: 16 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 4 புதியவை
-[fetch] Cinema Express: 20 புதியவை
-[fetch] The Hindu Tech: 15 புதியவை
+[fetch] The Hindu Cinema: 3 புதியவை
+[fetch] Cinema Express: 22 புதியவை
+[fetch] The Hindu Tech: 17 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 3 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 25 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
-[fetch] ICMR: 0 புதியவை
+[fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.icmr.gov.in', port=443): Failed to resolve 'www.icmr.gov.in' ([Errno -5] No address associated with hostname)"))
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
@@ -28,7 +28,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,74 +56,24 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3b92a20910>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1e0e793e50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 669 → நிகழ்வுகள் 611
-[triage] 611 → 70 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இது ஒரு சட்ட நிறுவனத்தின் முப்பத்தைந்தாம் ஆண்டு நிறைவு பற்றி
-[skip] இவை தமிழ்நாட்டில் அமைந்த அலுவலகங்கள் அல்ல; CSIR-NBRI லக்னோவி
-[skip] பொதுவான சர்வதேச சுகாதார கருத்து; தமிழ்நாட்டு / இந்திய வாসகர்
-[திருத்தம்] அக்ரி ரைடு: விஜேஷ் ராஜன், யசோதை பார்த்தச → 'அக்ரி ரைடு': விஜேஷ் ராஜன், யசோதை பார்த்
-[தரம்] தமிழ் அல்லாத எழுத்து: सগটবযষ → ஒரு திருத்தம்
-[tts-edge] bdff1dbf2bd6: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] 'அக்ரி ரைடு': விஜேஷ் ராஜன், யசோதை பார்த்தசாரதி இயக்கிய விசித்திரக் குறுமுன்னணி
-[skip] வெளிநாட்டு விளையாட்டு — ஆஸ்திரேலிய வீரர்களின் ஓய்வு பெரும்பா
-[skip] தலைப்பு மட்டுமே கிடைத்துள்ளது, முழு செய்தி உரை இல்லை - 5 வரி
-[தரம்] தமிழ் அல்லாத எழுத்து: लూ → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தீவிரப் புயல் முரசு கரையைக் கடக்கி
-[tts-edge] b6464da2c2be: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தீவிரப் புயல் முரசு கரையைக் கடக்கிறது, தமிழகத்தில் 5 மாவட்டங்களுக்கு மழை எச்சரிக்கை
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (உள்ள
-[image] களஞ்சியம் (2 சொல்): உக்ரைன் உதவி மையத்தில் ரஷிய தாக்கு
-[publish] உக்ரைன் உதவி மையத்தில் ரஷிய தாக்குதல்: 26 பேர் பலி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgekGRypyRTdKthEGdoPu'}
-[publish] உக்ரைன் போரில் நீண்ட போர்நிறுத்தத்திற்குப் பின் கெர்சன் பகுதியில் மீண்டும் சண்டை
-[publish] முன்னாள் அமைச்சர் அன்பில் மகேஷுக்கு நவம்பர் 4 வரை காவல் நீட்டிப்பு
-[திருத்தம்] பழனி மடம் நில மோசடி வழக்கு - பிணை மனுவில → பழனி மடம் நில மோசடி வழக்கு — பிணை மனுவில
-[தரம்] தமிழ் அல்லாத எழுத்து: ু → ஒரு திருத்தம்
-[publish] பழனி மடம் நில மோசடி வழக்கு — பிணை மனுவில் உச்ச நீதிமன்றம் நோட்டீஸ்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உள்ளடக்கம் இல்லை; 
-[skip] தமிழ்நாடு உள்ளூர் நீதிமன்ற வழக்கு. 'world' துறை என்று குறிப்
-[skip] வெளிநாட்டு உள்ளூர் வணிக நிகழ்வு — தமிழ்நாடு/இந்திய வாசகருக்க
-[skip] உக்ரெய்னின் உள்நாட்டுப் பாதுகாப்புச் செய்தி. தமிழ்நாடு வாசகர
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; தாக்குதல் எப்போது எங்கே நட
-[skip] பிற நாட்டுகளின் உள்நாட்டு ராணுவ நடவடிக்கை. தமிழ்நாடு/இந்தியா
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgekYx8zGCun44qFLYPRz'}
-[திருத்தம்] தேனி சிறை கைதிகள் தப்பித்த சம்பவம், சித் → தேனி சிறை கைதிகள் தப்பிப்போ, சித்திரவதைப
-[publish] தேனி சிறை கைதிகள் தப்பிப்போ, சித்திரவதைப் புகாரை விசாரணைக்கு உத்தரவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgekesWrGuXdvhb7fPEqS'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] முல்லைப் பெரியாறு அணை பாதுகாப்பு ஆய்வு,  → முல்லைப் பெரியாறு அணையில் விரிவான பாதுகா
-[image] களஞ்சியம் (2 சொல்): முல்லைப் பெரியாறு அணையில் விரிவான 
-[publish] முல்லைப் பெரியாறு அணையில் விரிவான பாதுகாப்பு ஆய்வு: உச்சநீதிமன்றத்தை அணுக கேரளம் திட்டம்
-[திருத்தம்] சென்னை, புறநகர் பகுதிகளுக்கு கனமழை எச்சர → சென்னை, புறநகர் பகுதிகளுக்கு கனமழை எச்சர
-[image] களஞ்சியம் (2 சொல்): சென்னை, புறநகர் பகுதிகளுக்கு கனமழை
-[publish] சென்னை, புறநகர் பகுதிகளுக்கு கனமழை எச்சரிக்கை
-[skip] மூலத்தில் போதிய விவரங்கள் இல்லை - எச்சரிக்கை எந்த நாளுக்கானத
-[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் 14 மாவட்டங்களில் மழை
-[publish] தமிழ்நாட்டில் 14 மாவட்டங்களில் மழை தொடர்பான எச்சரிக்கை
-[comic] கதை: நந்தினியின் மோதிர ரகசியம்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-03.png · நாள் 55
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹12380 · சென்செக்ஸ் 75693
-[weather] புதுப்பிக்கப்பட்டது
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
-  warnings.warn(message, FutureWarning)
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
-  warnings.warn(message, FutureWarning)
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 10
+[run] புதியவை 657 → நிகழ்வுகள் 602
+[triage] 602 → 68 | காலி: india:4, govt:4, crime:4, economy:3, jobs:3
+[திருத்தம்] இந்திய ஸ்டேட் பேங்க் ரிஸ்க் ஸ்பெஷலிஸ்ட்  → இந்திய ஸ்டேட் வங்கி ரிஸ்க் ஸ்பெஷலிஸ்ட் ப
+Traceback (most recent call last):
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 2221, in <module>
+    main()
+  File "/home/runner/work/thulamul/thulamul/pipeline/run.py", line 1858, in main
+    story["flags"] = sorted(set(story.get("flags", []) + extra_flags))
+                                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'list'
