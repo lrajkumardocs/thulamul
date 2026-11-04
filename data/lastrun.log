@@ -1,42 +1,43 @@
+[expire] 5fb1e6c0d6c3
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 21 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] BBC World: 19 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 8 புதியவை
-[fetch] Cinema Express: 22 புதியவை
-[fetch] The Hindu Tech: 18 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
+[fetch] Cinema Express: 28 புதியவை
+[fetch] The Hindu Tech: 24 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 2 புதியவை
-[fetch] The Hindu Health: 12 புதியவை
-[fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 23 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Agriculture: 1 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='agritech.tnau.ac.in', port=443) at 0x7f37e8555610>, 'Connection to agritech.tnau.ac.in timed out. (connect timeout=10)'))
-[fetch] ICAR: 0 புதியவை
+[fetch] TNAU Agritech: 0 புதியவை
+[fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 30 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,70 +57,59 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f37e84be750>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe2b4d2f510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 24 புதியவை
-[fetch] Times Chennai Crime: 19 புதியவை
-[run] புதியவை 675 → நிகழ்வுகள் 621
-[triage] 621 → 63 | காலி: tn:6, india:4, crime:4, govt:3, jobs:3
-[skip] Oil India Limited (வடகிழக்கு இந்தியா/அசாம் தொடர்பு) மற்றும் 
-[skip] வெளிநாட்டு உள்நாட்டுக் கொள்கை — தமிழ்நாடு/இந்திய வாசகருக்குத
-[skip] வெளிநாட்டு ক্রিকெট ম্যাচ (இந்தியா vs நিউசிலாந்து ওয়ান்டে) —
+[fetch] Times Chennai Crime: 20 புதியவை
+[run] புதியவை 743 → நிகழ்வுகள் 686
+[triage] 686 → 62 | காலி: india:4, health:3, sports:3, tn:2, govt:2
+[skip] பொது சுகாதாரக் கட்டுரை — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்
+[skip] West Indies cricket series progress is not relevant to Tamil
+[திருத்தம்] அமெரிக்க இடைக்கால தேர்தலில் குடியரசுக் க → அமெரிக்க இடைக்கால தேர்தலில் குடியரசுக் க
+[tts-edge] e29d290d2379: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அமெரிக்க இடைக்கால தேர்தலில் குடியரசுக் கட்சிக்குப் பின்னடைவு, டிரம்பைக் குற்றம் சாட்டும் கட்சியினர்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] இஸ்ரேல் தேர்தலில் நெதன்யாகுவுக்கு நெருக் → இஸ்ரேல் தேர்தலில் நெதன்யாகுவுக்கு நெருக்
-[tts-edge] c3a99fecfe77: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இஸ்ரேல் தேர்தலில் நெதன்யாகுவுக்கு நெருக்கடி, அரபுக் கட்சிகள் தீர்மானிக்கும் சக்தியாக
-[skip] இது அமெரிக்க இடைக்காலத் தேர்தல் பற்றிய ஊகக் கணிப்பு கட்டுரை;
-[skip] அமெரிக்காவின் உள்நாட்டு விமான விபத்து விசாரணைச் செய்தி; தமிழ
-[skip] அமெரிக்க மாநில ஆளுநர் தேர்தல் முடிவு, தமிழ்நாடு வாசகருக்கோ உ
-[skip] அமெரிக்க உள்நாட்டு மாநில செனட் தேர்தல் முடிவு, உலக அளவில் மு
-[திருத்தம்] இஸ்ரேலுக்கான ராணுவ உதவி நிறுத்தம் டிரம்ப → இஸ்ரேலுக்கான ராணுவ உதவி நிறுத்தம் — டிரம
-[tts-edge] e399449b1f95: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] இஸ்ரேலுக்கான ராணுவ உதவி நிறுத்தம் — டிரம்ப் அறிவிப்பு
-[skip] அமெரிக்க மாநிலத் தேர்தல் (ஜார்ஜியா செனட் இடம்) - தமிழ்நாடு/இ
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CghCAY25XSCVo8gH9KsEA'}
-[திருத்தம்] சொத்துக் குவிப்பு வழக்கு: முன்னாள் அமைச் → சொத்துக் குவிப்பு வழக்கு: முன்னாள் அமைச்
-[publish] சொத்துக் குவிப்பு வழக்கு: முன்னாள் அமைச்சர் சி.விஜயபாஸ்கருக்கு அமலாக்கத் துறை அழைப்பாணை
-[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): மழைநீரில் மின்கசிவு, பைக் இளைஞர் உ
-[publish] மழைநீரில் மின்கசிவு, பைக் இளைஞர் உயிரிழப்பு
-[image] களஞ்சியம் (2 சொல்): முரசு புயலால் இன்று மூன்று விரைவு 
-[publish] முரசு புயலால் இன்று மூன்று விரைவு ரயில்கள் ரத்து
-[skip] ஜார்ஜியாவின் உள்நாட்டு தேர்தல் செய்தி. அமெரிக்காவின் உள் அரச
-[skip] ஸ்பெயின் ஒரு ஐரோப்பிய நாடு; அந்த நாட்டின் உள்நாட்டு விபத்து 
-[skip] வெளிநாட்டு உள்ளூர் வணிக விபத்து — தமிழ்நாடு/இந்தியாவுடன் நேர
-[skip] வெளிநாட்டுச் விபத்து — தமிழ்நாடு / இந்திய வாசகரைப் பாதிக்கவி
-[skip] அமெரிக்க உள்நாட்டுக் கட்சிச் செய்திகள் — தமிழ்நாடு/இந்திய வா
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டின் தனி கொடி கோரிக்கை ஐம
-[publish] தமிழ்நாட்டின் தனி கொடி கோரிக்கை ஐம்பது ஆண்டுகளுக்கும் மேலானது
-[publish] இந்து சமய அறநிலையத் துறை அமைச்சருக்கு வந்த புகார்களால் கோயில் நில குத்தகை ரத்து
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CghCeqGCD33ZEtPgpJJEv'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] வெங்காயம் கொள்முதலில் தாமதம் - தவெக அரசு → வெங்காயம் கொள்முதலில் தாமதம் - தவெக அரசு
-[publish] வெங்காயம் கொள்முதலில் தாமதம் - தவெக அரசுக்கு எடப்பாடி கே.பழனிசாமி குற்றச்சாட்டு
-[publish] டாஸ்மாக் ஊழியர்கள் பணிக்குத் திரும்பியும் பாட்டில் திரும்பப் பெறும் திட்டத்தில் சிக்கல்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CghCuJ8covDsiFq19DidZ'}
-[skip] இது 1976 ஆம் ஆண்டு கருணாநிதி தொடர்பான பழைய வழக்கு பற்றிய வரல
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CghCyJ6yyNfwsZkYDC9Mo'}
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 10
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹12317 · சென்செக்ஸ் 76918
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: உச்ச நீதிமன்றக் கிளை சென்னையில் அம
+[tts-edge] 48bd90542a57: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] உச்ச நீதிமன்றக் கிளை சென்னையில் அமைக்க பிரதமரிடம் முதலமைச்சர் வேண்டுகோள்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CghqF2NaGwUxeKq9g7jWY'}
+[publish] கருவில் கணிசமான குறைபாடு: கருக்கலைப்புக்கு சென்னை உயர்நீதிமன்றம் அனுமதி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CghqMh2vhDMP54iJD7zf9'}
+[skip] மூலத்தில் தலைப்பு மற்றும் பழைய படக்குறிப்பு மட்டுமே உள்ளது; 
+[skip] மூல உரை மிகக் குறைவான தகவலுடன் உள்ளது — தலைப்பு மற்றும் ஒரு 
+[திருத்தம்] நைக்கா நிறுவன லாபம் 207 சதவீதம் உயர்வு,  → நைக்கா நிறுவனம் Q2 இல் 207% லாப உயர்வு, 
+[image] களஞ்சியம் (2 சொல்): நைக்கா நிறுவனம் Q2 இல் 207% லாப உய
+[publish] நைக்கா நிறுவனம் Q2 இல் 207% லாப உயர்வு, 101 கோடி ரூபாய்; சிம்ப்ளி நாமில் 82% பங்குக் கையகப்பற்று
+[திருத்தம்] லென்ஸ்கார்ட் நிறுவன இலாபம் 122 சதவீதம் உ → லென்ஸ்கார்ட் இலாபம் 122% உயர்வு; வருவாய்
+[publish] லென்ஸ்கார்ட் இலாபம் 122% உயர்வு; வருவாய் 36% வளர்ச்சி
+[திருத்தம்] சரேகாமா இந்தியா நிகர லாபம் 46 சதவீதம் உய → சரேகாமா இந்தியா நிகர லாபம் 46 சதவீதம் உய
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: சரேகாமா இந்தியா நிகர லாபம் 46 சதவீ
+[publish] சரேகாமா இந்தியா நிகர லாபம் 46 சதவீதம் உயர்வு, 64.2 கோடி ரூபாயை எட்டியது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CghqcpbmNKR7YdLsn3GEp'}
+[திருத்தம்] பிஎல்எம் கூட்டுறவு சங்க மோசடி வழக்கில் 1 → பிஎல்எம் கூட்டுறவு சங்கப் பணமோசடி வழக்கி
+[publish] பிஎல்எம் கூட்டுறவு சங்கப் பணமோசடி வழக்கில் 11 இடங்களில் சோதனை
+[publish] டாஸ்மாக் மதுபாட்டில் திரும்பப்பெறும் திட்டத்தை எதிர்க்கும் ஊழியர்கள்
+[திருத்தம்] அன்பில் மகேஷுக்கு நீதிமன்றக் காவல் நீட்ட → அன்பில் மகேசுக்கு நவ. 6 வரை நீதிமன்றக் க
+[image] களஞ்சியம் (2 சொல்): அன்பில் மகேசுக்கு நவ. 6 வரை நீதிமன
+[hold] அன்பில் மகேசுக்கு நவ. 6 வரை நீதிமன்றக் காவல்
+[திருத்தம்] தவெகவுக்கான ஆதரவு தொடரும்: திருமாவளவன் உ → தவெகவுக்கான ஆதரவு தொடரும்: தொல். திருமாவ
+[image] களஞ்சியம் (2 சொல்): தவெகவுக்கான ஆதரவு தொடரும்: தொல். த
+[publish] தவெகவுக்கான ஆதரவு தொடரும்: தொல். திருமாவளவன் உறுதிமொழி, பிறந்தநாளில் விஜய் வாழ்த்து
+[filler] health கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12664 · சென்செக்ஸ் 77301
 [weather] புதுப்பிக்கப்பட்டது
-/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
-/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
 [image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 9
+[done] feed 300 · pending 1 · எழுதியவை 10
