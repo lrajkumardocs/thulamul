@@ -1,16 +1,16 @@
-[expire] 5fb1e6c0d6c3
+[expire] 2f456fd68a6a
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 19 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
+[fetch] The Hindu TN: 21 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
 [fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 19 புதியவை
+[fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
+[fetch] ESPNcricinfo: 25 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 13 புதியவை
-[fetch] Cinema Express: 28 புதியவை
+[fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 24 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -29,7 +29,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 30 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -57,59 +57,76 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fe2b4d2f510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f54b3ed1490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 743 → நிகழ்வுகள் 686
-[triage] 686 → 62 | காலி: india:4, health:3, sports:3, tn:2, govt:2
-[skip] பொது சுகாதாரக் கட்டுரை — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்
-[skip] West Indies cricket series progress is not relevant to Tamil
-[திருத்தம்] அமெரிக்க இடைக்கால தேர்தலில் குடியரசுக் க → அமெரிக்க இடைக்கால தேர்தலில் குடியரசுக் க
-[tts-edge] e29d290d2379: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அமெரிக்க இடைக்கால தேர்தலில் குடியரசுக் கட்சிக்குப் பின்னடைவு, டிரம்பைக் குற்றம் சாட்டும் கட்சியினர்
+[run] புதியவை 711 → நிகழ்வுகள் 648
+[triage] 648 → 62 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgiQHhZf2KgcxREKFfM2g'}
+[skip] NHIDCL மற்றும் TMC ஆகிய இரண்டு வேலைவாய்ப்பு அறிவிப்புகளும் த
+[skip] Aragonda is a village in Andhra Pradesh. This is a local hos
+[skip] தெలుங்கு திரைப்படம் — தமிழ்நாடு வாசகருக்குப் பொருந்தாது. தெల
+[skip] வெளிநாட்டு உள்நாட்டு T10 லீக். தமிழ்நாடு/இந்திய வீரர் முக்கி
+[skip] மூலத் தலைப்பில் உள்ள தகவல் குழப்பமானது மற்றும் சரிபார்க்க மு
+[skip] தமிழ்நாட்டு உள்ளூர் விவசாய நிகழ்வு — கோழிப் பண்ணை இறப்புக் க
+[திருத்தம்] தென்காசி செங்கோட்டை அருகே ரயில் மோதி புல → தென்காசி செங்கோட்டையருகே ரயில் மோதி புலி
+[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): தென்காசி செங்கோட்டையருகே ரயில் மோத
+[tts-edge] 85fc66323678: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தென்காசி செங்கோட்டையருகே ரயில் மோதி புலி உயிரிழப்பு
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத உலகச் செய்தி — உக்ரைன்-ரஷ்யாப
+[tts-edge] 17256912326a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சிதம்பரம் கோயில் தொடர்பான உயர்நீதிமன்ற உத்தரவுக்கு உச்ச நீதிமன்றம் தடை
+[skip] தமிழ்நாட்டு வாசகரைப் பொதிப்பாக பாதிக்காத உலகப் போர் செய்தி. 
+[திருத்தம்] பாரதியார் பல்கலைக்கழக நிலம் மாற்றத்திற்க → பாரதியார் பல்கலைக்கழக நிலம் திடிகோவிற்கு
+[publish] பாரதியார் பல்கலைக்கழக நிலம் திடிகோவிற்கு மாற்றுவதற்கு சென்னை உயர்நீதிமன்றம் தடை
+[skip] மூலத்தில் தலைப்பும் ஒரு பெயரும் மட்டும் உள்ளது; தேதி, இடம், 
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: உச்ச நீதிமன்றக் கிளை சென்னையில் அம
-[tts-edge] 48bd90542a57: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உச்ச நீதிமன்றக் கிளை சென்னையில் அமைக்க பிரதமரிடம் முதலமைச்சர் வேண்டுகோள்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CghqF2NaGwUxeKq9g7jWY'}
-[publish] கருவில் கணிசமான குறைபாடு: கருக்கலைப்புக்கு சென்னை உயர்நீதிமன்றம் அனுமதி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CghqMh2vhDMP54iJD7zf9'}
-[skip] மூலத்தில் தலைப்பு மற்றும் பழைய படக்குறிப்பு மட்டுமே உள்ளது; 
-[skip] மூல உரை மிகக் குறைவான தகவலுடன் உள்ளது — தலைப்பு மற்றும் ஒரு 
-[திருத்தம்] நைக்கா நிறுவன லாபம் 207 சதவீதம் உயர்வு,  → நைக்கா நிறுவனம் Q2 இல் 207% லாப உயர்வு, 
-[image] களஞ்சியம் (2 சொல்): நைக்கா நிறுவனம் Q2 இல் 207% லாப உய
-[publish] நைக்கா நிறுவனம் Q2 இல் 207% லாப உயர்வு, 101 கோடி ரூபாய்; சிம்ப்ளி நாமில் 82% பங்குக் கையகப்பற்று
-[திருத்தம்] லென்ஸ்கார்ட் நிறுவன இலாபம் 122 சதவீதம் உ → லென்ஸ்கார்ட் இலாபம் 122% உயர்வு; வருவாய்
-[publish] லென்ஸ்கார்ட் இலாபம் 122% உயர்வு; வருவாய் 36% வளர்ச்சி
-[திருத்தம்] சரேகாமா இந்தியா நிகர லாபம் 46 சதவீதம் உய → சரேகாமா இந்தியா நிகர லாபம் 46 சதவீதம் உய
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: சரேகாமா இந்தியா நிகர லாபம் 46 சதவீ
-[publish] சரேகாமா இந்தியா நிகர லாபம் 46 சதவீதம் உயர்வு, 64.2 கோடி ரூபாயை எட்டியது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CghqcpbmNKR7YdLsn3GEp'}
-[திருத்தம்] பிஎல்எம் கூட்டுறவு சங்க மோசடி வழக்கில் 1 → பிஎல்எம் கூட்டுறவு சங்கப் பணமோசடி வழக்கி
-[publish] பிஎல்எம் கூட்டுறவு சங்கப் பணமோசடி வழக்கில் 11 இடங்களில் சோதனை
-[publish] டாஸ்மாக் மதுபாட்டில் திரும்பப்பெறும் திட்டத்தை எதிர்க்கும் ஊழியர்கள்
-[திருத்தம்] அன்பில் மகேஷுக்கு நீதிமன்றக் காவல் நீட்ட → அன்பில் மகேசுக்கு நவ. 6 வரை நீதிமன்றக் க
-[image] களஞ்சியம் (2 சொல்): அன்பில் மகேசுக்கு நவ. 6 வரை நீதிமன
-[hold] அன்பில் மகேசுக்கு நவ. 6 வரை நீதிமன்றக் காவல்
-[திருத்தம்] தவெகவுக்கான ஆதரவு தொடரும்: திருமாவளவன் உ → தவெகவுக்கான ஆதரவு தொடரும்: தொல். திருமாவ
-[image] களஞ்சியம் (2 சொல்): தவெகவுக்கான ஆதரவு தொடரும்: தொல். த
-[publish] தவெகவுக்கான ஆதரவு தொடரும்: தொல். திருமாவளவன் உறுதிமொழி, பிறந்தநாளில் விஜய் வாழ்த்து
-[filler] health கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12664 · சென்செக்ஸ் 77301
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgiQe3TYxpnP7kPqqcGrx'}
+[publish] அமெரிக்க டாலருக்கு எதிராக பதினேழு காசுகள் உயர்ந்த ரூபாய்
+[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்திய வாசகரை நேரடி
+[skip] அமெரிக்காவின் உள்நாட்டு தேர்தலம் — தமிழ்நாடு வாசகரை நேரடியாக
+[skip] தமிழ்நாடு மாநிலத்தின் உள்ளூர் நிகழ்வு. சென்னை காசிமேட்டிலிரு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள், எப்போது, யார் அ
+[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியக் வாசகரைப் ப
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] தில்லி வாயு மாசின் நிலை தமிழ்நாட்டு வாசகரைப் பாதிக்கவில்லை. 
+[திருத்தம்] டிவிகே ஆட்சி கார்ப்பரேட் கைப்பாவை என்று  → டிவிகே அரசு கார்ப்பரேட் நலன்களால் நிয়ந்
+[தரம்] தமிழ் அல்லாத எழுத்து: য় → ஒரு திருத்தம்
+[publish] டிவிகே அரசு கார்ப்பரேட் நலன்களால் நியந்திக்கப்படும் 'சர்க்கஸ்' என்று ஸ்டாலின்
+[skip] அமெரிக்க உள்நாட்டு தேர்தல் மற்றும் ஈரான்-அமெரிக்க உறவுகளைப் 
+[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது; நேரம், அமைப்பு, தேத
+[skip] அமெரிக்கப் பிரதேச தேர்தல். தமிழ்நாடு/இந்திய வாசகருக்கு நேரடி
+[publish] வங்காள நரி, தங்க நரி பாதுகாப்புக்கு தமிழ்நாடு அரசு நிதி ஒதுக்கீடு
+[skip] அமெரிக்கத் தேர்தல் — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்காது. 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgiR112nRCeZAEU3TCSCY'}
+[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியக் வாசகரைப் பாத
+[திருத்தம்] அடையாள சான்று தொடர்பாக பிரதமருக்கு சிபிஎ → அடையாளச் சான்று தொடர்பாக பிரதமருக்கு சிப
+[தரம்] தமிழ் அல்லாத எழுத்து: আইএ → ஒரு திருத்தம்
+[publish] அடையாளச் சான்று தொடர்பாக பிரதமருக்கு சிபிஎம் கேள்வி
+[skip] அமெரிக்க உள்நாட்டு தேர்தல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இஸ்রேல் உள்நாட்டுத் தேர்தல் மற்றும் பாலஸ்தீன குடிமக்கள் — இஸ
+[publish] தவெக ஆட்சி வந்தால் ஜோசியர்களே முடிவெடுப்பார்கள் என ஸ்டாலின் விமர்சனம்
+[publish] விஜய் விமர்சனத்துக்கு முதல்வர் பதவி பற்றி மு.க.ஸ்டாலின் பதிலடி
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgiRRpD6cjJAvi3YBpgUD'}
+[comic] கதை: திரை மூடும் நேரம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-11-05.png · நாள் 57
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12719 · சென்செக்ஸ் 77301
 [weather] புதுப்பிக்கப்பட்டது
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
-  warnings.warn(message, FutureWarning)
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
-  warnings.warn(message, FutureWarning)
-[push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 9
