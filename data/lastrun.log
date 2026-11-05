@@ -1,20 +1,20 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 23 புதியவை
+[fetch] The Hindu TN: 26 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 12 புதியவை
+[fetch] BBC World: 18 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 24 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 16 புதியவை
-[fetch] Cinema Express: 30 புதியவை
+[fetch] The Hindu Cinema: 14 புதியவை
+[fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 26 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 20 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7fabc1f4c310>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9ace8bc210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,45 +65,56 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 28 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 732 → நிகழ்வுகள் 664
-[triage] 664 → 34 | காலி: india:4, crime:3, sports:3, world:2, economy:2
-[skip] வெளிநாட்டு இடைநாட்டுக் கிரிக்கெட் தொடர் — ஜிம்பாப்வே vs ஆப்க
-[skip] தமிழ்நாட்டு நபர்கள் ஆந்திரப்রதேசில் சம்பவத்தில் சம்பந்தப்பட்
-[skip] வெளிநாட்டு உள்ளூர் விபத்து — நியூயார்க் நகரத்தின் சிறிய தீ வ
-[skip] உக்రைனில் ரஷ்ய தாக்குதலுடன் தொடர்புடைய செய்தி. தமிழ்நாட்டு/இ
-[skip] இது தெலங்கானா மாநில அரசின் உள்ளூர்த் திட்டம் (காளேஸ்வரம் தடு
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர்த் திட்டம் தொடர்பான செய்தி; தமி
-[skip] கர்நாடகாவின் மைசூரில் உள்ளூர் விவசாயிகள் போராட்டம், பேருந்து
-[skip] இது ஒரு குறிப்பிட்ட மாவட்ட/மாநில உள்ளூர் நிர்வாக உத்தரவு (கி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Death of Chennai fishermen: CM Vijay announces c
-[skip] இது தில்லி தேசிய தலைநகரப் பகுதியை மையமாகக் கொண்ட ஒரு தனியார்
-[திருத்தம்] கலேஸ்வரம் அணையை மீட்டெடுக்க டிசம்பரில் ப → கலேஸ்வரம் பாராप்பை மீட்டெடுக்க டிசம்பரில
-[தரம்] தமிழ் அல்லாத எழுத்து: कपि → ஒரு திருத்தம்
-[tts-edge] 8f47b20c6f04: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கலேஸ்வரம் பாராஜை மீட்டெடுக்க டிசம்பரில் பணிகள் தொடக்கம்.
-[skip] கட்டுரை குழந்தைகளின் கண்களின் கீழ் கருமை பற்றிய பொதுவான சுகா
-[skip] இது ஹிந்தி திரையுலக ஆய்வுக் கட்டுரை. தமிழ்நாடு வாசகர்களுக்கு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: ISRO’s latest navigation satellite NVS-03 is ful
-[skip] வெளிநாட்டுத் தொடர் — ஐக்கிய இராச்சிய அணி (Lions) மற்றும் மேற
-[திருத்தம்] கிளென்மார்க் பார்மா நிகர லாபம் 56 சதவீதம → கிளென்மார்க் பார்மா நிகர லாபம் 56 சதவீதம
-[tts-edge] c35f5d7e9130: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கிளென்மார்க் பார்மா நிகர லாபம் 56 சதவீதம் சரிவு — ₹264 கோடி
-[skip] தெலங்கானா மாநிலத்தின் உள்ளூர் அரசு திட்ட செய்தி. தமிழ்நாட்டு
-[skip] மருத்துவ ஆலோசனை/பொதுச் சுகாதாரக் கட்டுரை — செய்தி அல்ல। தமிழ
-[திருத்தம்] இயக்குநர் சிரிகார் நாயன்: 'சம்மர் ஹாலிடே → இயக்குநர் சிரிகார் நாயன்: 'சம்மர் ஹாலிடே
-[publish] இயக்குநர் சிரிகார் நாயன்: 'சம்மர் ஹாலிடேஸ்' நினைவுகளை மீறியது
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Tamil Nadu’s wildlife conservation initiatives a
-[skip] வெস்टインிடீஸ்-பাங்களாதேশ் টெஸ்ட் ম్క్రிக్കెట் போட்டி தமிழ்நாட
-[filler] tech கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12830 · சென்செக்ஸ் 79310
+[run] புதியவை 711 → நிகழ்வுகள் 647
+[triage] 647 → 46 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இவை மேற்கு வங்காளம் (பிர்பூம்) மற்றும் கர்நாடகா (தார்வாட்) ம
+[skip] பொதுவான ஆலோசனা/বিশ্লেষணம் — குறிப்பிட்ட நிகழ்வு, அரசு அறிவிப
+[tts-edge] 9fbcb659d88c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சிவா நடிப்பில் தமிழ் படம் 3 படப்பிடிப்பு தொடக்கம்
+[skip] வெস்টిண்டீஸ் ক্রিকেট வாசকர்களைப் பாதிக்கும் செய்தி. தமிழ்நாட
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgkWmJpBGPDr7VpcUjUYt'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgkWp72bJ1xWL4oAt5Lmk'}
+[tts-edge] c8e641e15ee0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆந்திரக் கடற்கரையில் கரை ஒதுங்கிய 9 தமிழக மீனவர்களின் உடல்கள்
+[திருத்தம்] காவிரி நீர் தொடர்பாக கர்நாடகத்துக்கு எதி → காவிரி நீர் தொடர்பாக கர்நாடகத்துக்கு எதி
+[publish] காவிரி நீர் தொடர்பாக கர்நாடகத்துக்கு எதிராக உச்ச நீதிமன்றத்தில் தமிழக அரசு அவசர முறையீடு
+[திருத்தம்] பராகுவே அதிபர் சாண்டியாகோ பேனா பதவி விலக → பராகுவே அதிபர் சாண்டியாகோ பேனா பதவி விலக
+[தரம்] தமிழ் அல்லாத எழுத்து: জটডি → ஒரு திருத்தம்
+[publish] பராகுவே அதிபர் சாண்டியாகோ பேனா பதவி விலகியுள்ளார்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgkX41SdCpK8RbZUXMRPo'}
+[திருத்தம்] தவெக அரசை ஸ்திரமின்மைக்கு தள்ள எதிர்க்கட → தவெக அரசை ஸ்திரமின்மைக்குத் தள்ள எதிர்க்
+[publish] தவெக அரசை ஸ்திரமின்மைக்குத் தள்ள எதிர்க்கட்சிகள் முயல்வதாக மாணிக்கம் தாகூர் குற்றச்சாட்டு
+[திருத்தம்] செங்கல்பட்டில் உலக வர்த்தக மைய தொகுப்பகம → செங்கல்பட்டில் உலக வர்த்தக மையத் தொகுப்ப
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: செங்கல்பட்டில் உலக வர்த்தக மையத் த
+[publish] செங்கல்பட்டில் உலக வர்த்தக மையத் தொகுப்பகம் திட்டம்
+[தரம்] தமிழ் அல்லாத எழுத்து: যা → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): வேலூரில் சட்டவிரோத மின்வேலியில் வி
+[publish] வேலூரில் சட்டவிரோத மின்வேலியில் விவசாயி, மகன் உயிரிழப்பு
+[திருத்தம்] தமிழ்நாட்டில் விவசாய நில மாற்று விதிகளில → தமிழ்நாட்டில் விவசாய நில மாற்று விதிகளில
+[publish] தமிழ்நாட்டில் விவசாய நில மாற்று விதிகளில் பாதுகாப்பு தளர்வு - சுற்றுச்சூழல் அமைப்பு குற்றச்சாட்டு
+[திருத்தம்] பள்ளிக்கரணை சதுப்பு நில திட்டங்களில் முற → பள்ளிக்கரணை சதுப்பு நில திட்டங்களில் பெர
+[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
+[publish] பள்ளிக்கரணை சதுப்பு நில திட்டங்களில் பெரும் முறைகேடு - அன்புமணி குற்றச்சாட்டு
+[திருத்தம்] பட்டினப்பாக்கம் செயலக வளாகத் திட்டத்துக் → பட்டினப்பாக்கம் செயலக வளாகத் திட்டத்தில்
+[image] களஞ்சியம் (2 சொல்): பட்டினப்பாக்கம் செயலக வளாகத் திட்ட
+[publish] பட்டினப்பாக்கம் செயலக வளாகத் திட்டத்தில் மீனவர்கள் வெளிப்படைத்தன்மை கோரிக்கை
+[comic] கதை: மரத்தின் மறைவில் ஒரு கண்காணிப்பு
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.97) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.97) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-11-06.png · நாள் 58
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12773 · சென்செக்ஸ் 79310
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 3
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
