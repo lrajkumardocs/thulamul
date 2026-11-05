@@ -1,23 +1,22 @@
-[expire] 2f456fd68a6a
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 25 புதியவை
+[fetch] BBC Tamil: 6 புதியவை
+[fetch] BBC World: 14 புதியவை
+[fetch] Al Jazeera: 21 புதியவை
+[fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 13 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 24 புதியவை
+[fetch] The Hindu Tech: 25 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Faith: 2 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 27 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,10 +28,10 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 28 புதியவை
+[fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
@@ -42,7 +41,7 @@
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 30 புதியவை
+[fetch] Dinamani India: 29 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -57,7 +56,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f54b3ed1490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f75d2329510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -68,65 +67,62 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 711 → நிகழ்வுகள் 648
-[triage] 648 → 62 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgiQHhZf2KgcxREKFfM2g'}
-[skip] NHIDCL மற்றும் TMC ஆகிய இரண்டு வேலைவாய்ப்பு அறிவிப்புகளும் த
-[skip] Aragonda is a village in Andhra Pradesh. This is a local hos
-[skip] தெలుங்கு திரைப்படம் — தமிழ்நாடு வாசகருக்குப் பொருந்தாது. தெల
-[skip] வெளிநாட்டு உள்நாட்டு T10 லீக். தமிழ்நாடு/இந்திய வீரர் முக்கி
-[skip] மூலத் தலைப்பில் உள்ள தகவல் குழப்பமானது மற்றும் சரிபார்க்க மு
-[skip] தமிழ்நாட்டு உள்ளூர் விவசாய நிகழ்வு — கோழிப் பண்ணை இறப்புக் க
-[திருத்தம்] தென்காசி செங்கோட்டை அருகே ரயில் மோதி புல → தென்காசி செங்கோட்டையருகே ரயில் மோதி புலி
-[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தென்காசி செங்கோட்டையருகே ரயில் மோத
-[tts-edge] 85fc66323678: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தென்காசி செங்கோட்டையருகே ரயில் மோதி புலி உயிரிழப்பு
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத உலகச் செய்தி — உக்ரைன்-ரஷ்யாப
-[tts-edge] 17256912326a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சிதம்பரம் கோயில் தொடர்பான உயர்நீதிமன்ற உத்தரவுக்கு உச்ச நீதிமன்றம் தடை
-[skip] தமிழ்நாட்டு வாசகரைப் பொதிப்பாக பாதிக்காத உலகப் போர் செய்தி. 
-[திருத்தம்] பாரதியார் பல்கலைக்கழக நிலம் மாற்றத்திற்க → பாரதியார் பல்கலைக்கழக நிலம் திடிகோவிற்கு
-[publish] பாரதியார் பல்கலைக்கழக நிலம் திடிகோவிற்கு மாற்றுவதற்கு சென்னை உயர்நீதிமன்றம் தடை
-[skip] மூலத்தில் தலைப்பும் ஒரு பெயரும் மட்டும் உள்ளது; தேதி, இடம், 
+[run] புதியவை 689 → நிகழ்வுகள் 628
+[triage] 628 → 60 | காலி: india:4, govt:4, crime:4, world:3, jobs:3
+[skip] இவை தமிழ்நாட்டில் அமையாத மத்திய ஆராய்ச்சி நிறுவனங்களின் (ICA
+[skip] பிற மாநிலத்தின் மருந்து ஒழுங்குவிதி செய்தி. தமிழ்நாட்டுக்குத
+[skip] வெளிநாட்டுப் படம் (இந்தி) — தமிழ்நாடு வாசகரின் முக்கிய கவனமா
+[skip] வெளிநாட்டு நாட்டில் (நியூசிலாந்து) நடக்கும் கிரிக்கெட் தொடர்
+[tts-edge] fb84ecde4b32: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சமூக ஊடக பதிவுகளுக்கு வழக்குப் பதிவு குறித்து வழிகாட்டுதல் கோரி மனு
+[image] களஞ்சியம் (2 சொல்): நீட் தேர்வை ரத்து செய்ய வேண்டும்: 
+[tts-edge] 91521f785ce2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] நீட் தேர்வை ரத்து செய்ய வேண்டும்: தவெக தலைவர் விஜய் வலியுறுத்தல்
+[image] களஞ்சியம் (2 சொல்): வேலூர் ஒடுகத்தூரில் புதிய தீயணைப்ப
+[publish] வேலூர் ஒடுகத்தூரில் புதிய தீயணைப்பு நிலையம் தொடக்கம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgiqFfRXpn7vGhT6gQUtN'}
+[திருத்தம்] தவெக தலைவர் விஜய் பத்தாம், பன்னிரண்டாம்  → தமிழக வெற்றிக் கழகம் தலைவர் விஜய் பத்தாம
+[publish] தமிழக வெற்றிக் கழகம் தலைவர் விஜய் பத்தாம், பன்னிரண்டாம் வகுப்பு மாணவர்களுக்குப் பாராட்டு
+[image] களஞ்சியம் (2 சொல்): சிறப்பு டெட் தேர்ச்சி மதிப்பெண் அன
+[publish] சிறப்பு டெட் தேர்ச்சி மதிப்பெண் அனைவருக்கும் 60 ஆக்க கோரிக்கை
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgiQe3TYxpnP7kPqqcGrx'}
-[publish] அமெரிக்க டாலருக்கு எதிராக பதினேழு காசுகள் உயர்ந்த ரூபாய்
-[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்திய வாசகரை நேரடி
-[skip] அமெரிக்காவின் உள்நாட்டு தேர்தலம் — தமிழ்நாடு வாசகரை நேரடியாக
-[skip] தமிழ்நாடு மாநிலத்தின் உள்ளூர் நிகழ்வு. சென்னை காசிமேட்டிலிரு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள், எப்போது, யார் அ
-[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியக் வாசகரைப் ப
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (தொகை, பயனாளிகள்
+[திருத்தம்] வேளச்சேரி கோயில் நிலத்தில் சாலை திட்டம்: → வேளச்சேரி கோயில் நிலத்தில் சாலை திட்டம்:
+[publish] வேளச்சேரி கோயில் நிலத்தில் சாலை திட்டம்: பதிலளிக்க சென்னை உயர்நீதிமன்றம் உத்தரவு
+[திருத்தம்] தமிழகத்தில் 20 கிளைச் சிறைகள் மூடல்; 11  → தமிழகத்தில் 20 கிளைச் சிறைகள் மூடல்; 11 
+[தரம்] தமிழ் அல்லாத எழுத்து: ग → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): தமிழகத்தில் 20 கிளைச் சிறைகள் மூடல
+[publish] தமிழகத்தில் 20 கிளைச் சிறைகள் மூடல்; 11 பெட்ரோல் பங்குகள் தனியாரிடம் ஒப்படைப்பு
+[skip] வெளிநாட்டின் உள்நாட்டு தேர்தல். தமிழ்நாடு/இந்தியாவுடன் நேரடி
+[skip] இது அமெரிக்க உள்நாட்டு இடைத்தேர்தல் முடிவால் ஏற்பட்ட அமெரிக்
+[skip] வெளிநாட்டு மோதல்/போர்ச் செய்தி — தமிழ்நாடு/இந்தியா வாசகரைப் 
+[திருத்தம்] திருவண்ணாமலை சாத்தனூர் அணை பாதுகாப்பு ஆய → திருவண்ணாமலை சாத்தனூர் அணையின் பாதுகாப்ப
+[image] களஞ்சியம் (2 சொல்): திருவண்ணாமலை சாத்தனூர் அணையின் பாத
+[publish] திருவண்ணாமலை சாத்தனூர் அணையின் பாதுகாப்பு ஆய்வு செய்த நிபுணர் குழு
+[skip] மேற்கு வங்காளம் (மால்டா) மற்றும் பஞ்சாப் மாநிலங்களின் உள்ளூர
+[skip] இது பீகார் மாநிலத்தின் உள்ளூர் கட்சி அரசியல் தகராறு, தமிழ்நா
+[skip] இது ஜம்மு காஷ்மீர் மாநில அரசியல் கட்சிக்குள்ளான பிரச்சினை — 
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தில்லி வாயு மாசின் நிலை தமிழ்நாட்டு வாசகரைப் பாதிக்கவில்லை. 
-[திருத்தம்] டிவிகே ஆட்சி கார்ப்பரேட் கைப்பாவை என்று  → டிவிகே அரசு கார்ப்பரேட் நலன்களால் நிয়ந்
-[தரம்] தமிழ் அல்லாத எழுத்து: য় → ஒரு திருத்தம்
-[publish] டிவிகே அரசு கார்ப்பரேட் நலன்களால் நியந்திக்கப்படும் 'சர்க்கஸ்' என்று ஸ்டாலின்
-[skip] அமெரிக்க உள்நாட்டு தேர்தல் மற்றும் ஈரான்-அமெரிக்க உறவுகளைப் 
-[skip] மூலத்தில் தலைப்பு மட்டுமே கிடைத்துள்ளது; நேரம், அமைப்பு, தேத
-[skip] அமெரிக்கப் பிரதேச தேர்தல். தமிழ்நாடு/இந்திய வாசகருக்கு நேரடி
-[publish] வங்காள நரி, தங்க நரி பாதுகாப்புக்கு தமிழ்நாடு அரசு நிதி ஒதுக்கீடு
-[skip] அமெரிக்கத் தேர்தல் — தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்காது. 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgiR112nRCeZAEU3TCSCY'}
-[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியக் வாசகரைப் பாத
-[திருத்தம்] அடையாள சான்று தொடர்பாக பிரதமருக்கு சிபிஎ → அடையாளச் சான்று தொடர்பாக பிரதமருக்கு சிப
-[தரம்] தமிழ் அல்லாத எழுத்து: আইএ → ஒரு திருத்தம்
-[publish] அடையாளச் சான்று தொடர்பாக பிரதமருக்கு சிபிஎம் கேள்வி
-[skip] அமெரிக்க உள்நாட்டு தேர்தல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இஸ்রேல் உள்நாட்டுத் தேர்தல் மற்றும் பாலஸ்தீன குடிமக்கள் — இஸ
-[publish] தவெக ஆட்சி வந்தால் ஜோசியர்களே முடிவெடுப்பார்கள் என ஸ்டாலின் விமர்சனம்
-[publish] விஜய் விமர்சனத்துக்கு முதல்வர் பதவி பற்றி மு.க.ஸ்டாலின் பதிலடி
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgiRRpD6cjJAvi3YBpgUD'}
-[comic] கதை: திரை மூடும் நேரம்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-05.png · நாள் 57
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹12719 · சென்செக்ஸ் 77301
+[skip] மேற்கு வங்காள மாநிலத்தின் உள்ளூர் நிலம் கையகப்படுத்தல் எதிர்
+[skip] மதம்/தத்ত்வ விளக்கம் — செய்தி அல்ல। அரசு அறிவிப்பு, மக்கள் ச
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Mobile orthopaedic and spine care unit launched
+[skip] இது பொதுவான கலாச்சார/மதக் கட்டுரை; தமிழ்நாட்டு வாசகரைப் பாதி
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Toll plazas on Chennai-Tiruchi national highway 
+[திருத்தம்] ரயில்வே: இரண்டு நாடக கலைஞர், கதக் நৃத்தக → ரயில்வே: இரண்டு நாடக கலைஞர், கதக் நৃத்தன
+[தரம்] தமிழ் அல்லாத எழுத்து: ৃ → ஒரு திருத்தம்
+[publish] ரயில்வே: இரண்டு நாடக கலைஞர், கதக் நடனக் கலைஞர் பணிக்கு விண்ணப்பம்
+[skip] பொதுவான சுகாதார নীதி கட்டுரை — குறிப்பிட்ட நிகழ்வு, அறிவிப்ப
+[திருத்தம்] நாగార்ஜுனன் பதினெட்டு ஆண்டுகளுக்குப் பிற → நாகார்ஜுனன் இருபத்தெட்டு ஆண்டுகளுக்குப் 
+[publish] நாகார்ஜுனன் இருபத்தெட்டு ஆண்டுகளுக்குப் பிறகு தபுவுடன் திரையொருக்கம்
+[brief] காலை brief தயார்
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: நீட் ரத்து கோரிக்கை: மருத்துவக் கல்வி நுழைவு யாருக்கு எளிதாகும்?
+[market] தங்கம் 22K ₹12752 · சென்செக்ஸ் 77301
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 9
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+  warnings.warn(message, FutureWarning)
+[push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
