@@ -1,20 +1,20 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 17 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
 [fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 21 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 16 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 25 புதியவை
+[fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 2 புதியவை
-[fetch] The Hindu Health: 19 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 20 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
 [fetch] FreeJobAlert: 27 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -28,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 16 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,73 +56,74 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f75d2329510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f3f022d1590>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 26 புதியவை
-[fetch] Times Govt Schemes: 20 புதியவை
+[fetch] Times Govt Schemes: 19 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
-[fetch] Dinamalar Crime: 0 புதியவை
+[fetch] Dinamalar Crime: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 689 → நிகழ்வுகள் 628
-[triage] 628 → 60 | காலி: india:4, govt:4, crime:4, world:3, jobs:3
-[skip] இவை தமிழ்நாட்டில் அமையாத மத்திய ஆராய்ச்சி நிறுவனங்களின் (ICA
-[skip] பிற மாநிலத்தின் மருந்து ஒழுங்குவிதி செய்தி. தமிழ்நாட்டுக்குத
-[skip] வெளிநாட்டுப் படம் (இந்தி) — தமிழ்நாடு வாசகரின் முக்கிய கவனமா
-[skip] வெளிநாட்டு நாட்டில் (நியூசிலாந்து) நடக்கும் கிரிக்கெட் தொடர்
-[tts-edge] fb84ecde4b32: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சமூக ஊடக பதிவுகளுக்கு வழக்குப் பதிவு குறித்து வழிகாட்டுதல் கோரி மனு
-[image] களஞ்சியம் (2 சொல்): நீட் தேர்வை ரத்து செய்ய வேண்டும்: 
-[tts-edge] 91521f785ce2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நீட் தேர்வை ரத்து செய்ய வேண்டும்: தவெக தலைவர் விஜய் வலியுறுத்தல்
-[image] களஞ்சியம் (2 சொல்): வேலூர் ஒடுகத்தூரில் புதிய தீயணைப்ப
-[publish] வேலூர் ஒடுகத்தூரில் புதிய தீயணைப்பு நிலையம் தொடக்கம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgiqFfRXpn7vGhT6gQUtN'}
-[திருத்தம்] தவெக தலைவர் விஜய் பத்தாம், பன்னிரண்டாம்  → தமிழக வெற்றிக் கழகம் தலைவர் விஜய் பத்தாம
-[publish] தமிழக வெற்றிக் கழகம் தலைவர் விஜய் பத்தாம், பன்னிரண்டாம் வகுப்பு மாணவர்களுக்குப் பாராட்டு
-[image] களஞ்சியம் (2 சொல்): சிறப்பு டெட் தேர்ச்சி மதிப்பெண் அன
-[publish] சிறப்பு டெட் தேர்ச்சி மதிப்பெண் அனைவருக்கும் 60 ஆக்க கோரிக்கை
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் (தொகை, பயனாளிகள்
-[திருத்தம்] வேளச்சேரி கோயில் நிலத்தில் சாலை திட்டம்: → வேளச்சேரி கோயில் நிலத்தில் சாலை திட்டம்:
-[publish] வேளச்சேரி கோயில் நிலத்தில் சாலை திட்டம்: பதிலளிக்க சென்னை உயர்நீதிமன்றம் உத்தரவு
-[திருத்தம்] தமிழகத்தில் 20 கிளைச் சிறைகள் மூடல்; 11  → தமிழகத்தில் 20 கிளைச் சிறைகள் மூடல்; 11 
-[தரம்] தமிழ் அல்லாத எழுத்து: ग → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தமிழகத்தில் 20 கிளைச் சிறைகள் மூடல
-[publish] தமிழகத்தில் 20 கிளைச் சிறைகள் மூடல்; 11 பெட்ரோல் பங்குகள் தனியாரிடம் ஒப்படைப்பு
-[skip] வெளிநாட்டின் உள்நாட்டு தேர்தல். தமிழ்நாடு/இந்தியாவுடன் நேரடி
-[skip] இது அமெரிக்க உள்நாட்டு இடைத்தேர்தல் முடிவால் ஏற்பட்ட அமெரிக்
-[skip] வெளிநாட்டு மோதல்/போர்ச் செய்தி — தமிழ்நாடு/இந்தியா வாசகரைப் 
-[திருத்தம்] திருவண்ணாமலை சாத்தனூர் அணை பாதுகாப்பு ஆய → திருவண்ணாமலை சாத்தனூர் அணையின் பாதுகாப்ப
-[image] களஞ்சியம் (2 சொல்): திருவண்ணாமலை சாத்தனூர் அணையின் பாத
-[publish] திருவண்ணாமலை சாத்தனூர் அணையின் பாதுகாப்பு ஆய்வு செய்த நிபுணர் குழு
-[skip] மேற்கு வங்காளம் (மால்டா) மற்றும் பஞ்சாப் மாநிலங்களின் உள்ளூர
-[skip] இது பீகார் மாநிலத்தின் உள்ளூர் கட்சி அரசியல் தகராறு, தமிழ்நா
-[skip] இது ஜம்மு காஷ்மீர் மாநில அரசியல் கட்சிக்குள்ளான பிரச்சினை — 
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மேற்கு வங்காள மாநிலத்தின் உள்ளூர் நிலம் கையகப்படுத்தல் எதிர்
-[skip] மதம்/தத்ত்வ விளக்கம் — செய்தி அல்ல। அரசு அறிவிப்பு, மக்கள் ச
+[run] புதியவை 712 → நிகழ்வுகள் 643
+[triage] 643 → 52 | காலி: india:4, crime:4, world:3, health:3, sports:3
+[skip] நிகழ்வு நடந்த இடம், மாநிலம் தெரியவில்லை. தமிழ்நாட்டுச் செய்த
+[skip] வெளிநாட்டுத் திரைப்படத் தொடரியல்; மகளிர் பிரீமியர் லீக் (WPL
+[திருத்தம்] ஹாங்காங் ஜனநாயக ஆர்வலர் ஜோசுவா வோங்கிற்க → ஹாங்காங் ஜனநாயக ஆர்வலர் ஜோசுவா வோங்கிற்க
+[tts-edge] 79e2afd27123: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஹாங்காங் ஜனநாயக ஆர்வலர் ஜோசுவா வோங்கிற்கு பத்தாண்டு சிறைத் தண்டனை
+[skip] தமிழ்நாடு வாசகரைப் பாதிக்காத வெளிநாட்டு உள்நாட்டு அரசியல். அ
+[skip] வெளிநாட்டு ஆயிரவாதப் பிரச்சினை; தமிழ்நாடு/இந்தியாவுடன் நேரடி
+[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[skip] பாகிஸ்தான் உள்நாட்டுக் குற்றம், அமெரிக்க சிறை நடவடிக்கை — தம
+[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியவாசகருக்குப் 
+[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு வாசகரைப் பாதிக்காது. 
+[skip] இஸ்ரேல் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்தியவாசகரைப் பாதிக்கா
+[skip] அமெரிக்கத் தேர்தல் — தமிழ்நாடு/இந்திய வாசகருக்குப் பொருத்தமற
+[skip] நியூசிலாந்தின் உள்நாட்டு தேர்தல். தமிழ்நாடு/இந்திய வாசகரைப் 
+[skip] தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இல்லாத வெளிநாட்டுப் ப
+[skip] பரகுவே என்பது தெற்கு அமெரிக்காவின் உள்ளூர் நிகழ்வு. தமிழ்நாட
+[skip] தென்னாப்பிரிக்காவின் உள்நாட்டு தேர்தல் — தமிழ்நாடு/இந்திய வா
+[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்திய வாசகருக்குப்
+[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் 
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்க நির்வாচனம் தமிழ்நாடு
+[skip] தமிழ்நாடு/இந்திய வாசகரின் அன்றாட வாழ்க்கையை நேரடியாகப் பாதிக
+[திருத்தம்] மெட்டா தளங்களில் சிறார் பாலியல் துஷ்பிரய → மெட்டா தளங்களில் சிறார் பாலியல் துஷ்பிரய
+[image] களஞ்சியம் (3 சொல்): மெட்டா தளங்களில் சிறார் பாலியல் து
+[tts-edge] 558281d5b70a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மெட்டா தளங்களில் சிறார் பாலியல் துஷ்பிரயோக உள்ளடக்கம் பரவல் — டெல்லி காவல்துறை வழக்குப் பதிவு
+[publish] பிஎஸ்எஃப் சட்ட அதிகாரி, துணைத் தளபதி பணியிடங்களுக்கு விண்ணப்பம் ஏழு காலியிடங்கள்
+[skip] இது கேரளா மாநிலத்தின் திருவனந்தபுரம் பகுதியில் உள்ள மீன்பிடி
+[skip] இரு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத வேறு மாநில உள்ளூர
+[skip] தெலங்கானாவின் உள்ளூர் பல்கலைக்கழக ஊழியர் வேலைநிறுத்தம் தொடர்
+[தரம்] தமிழ் அல்லாத எழுத்து: আইটি → ஒரு திருத்தம்
+[publish] திருப்பதி நெய் கலப்பட வழக்கு மாற்றம் மறுத்த உச்ச நீதிமன்றம்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Mobile orthopaedic and spine care unit launched
-[skip] இது பொதுவான கலாச்சார/மதக் கட்டுரை; தமிழ்நாட்டு வாசகரைப் பாதி
+[skip] இது ரிசர்வ் வங்கியின் அரசுப் பத்திரங்கள் பிணையமாக்கல் ஏலம் த
+[skip] விளம்பர / தயாரிப்பு அறிவிப்பு — அரசு அறிவிப்பு அல்ல. தமிழ்நா
+[skip] வெளிநாட்டுச் செய்தி — அமெரிக்காவின் டெக்சாஸ் மாநிலத்தின் சட்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Toll plazas on Chennai-Tiruchi national highway 
-[திருத்தம்] ரயில்வே: இரண்டு நாடக கலைஞர், கதக் நৃத்தக → ரயில்வே: இரண்டு நாடக கலைஞர், கதக் நৃத்தன
-[தரம்] தமிழ் அல்லாத எழுத்து: ৃ → ஒரு திருத்தம்
-[publish] ரயில்வே: இரண்டு நாடக கலைஞர், கதக் நடனக் கலைஞர் பணிக்கு விண்ணப்பம்
-[skip] பொதுவான சுகாதார নীதி கட்டுரை — குறிப்பிட்ட நிகழ்வு, அறிவிப்ப
-[திருத்தம்] நாగార்ஜுனன் பதினெட்டு ஆண்டுகளுக்குப் பிற → நாகார்ஜுனன் இருபத்தெட்டு ஆண்டுகளுக்குப் 
-[publish] நாகார்ஜுனன் இருபத்தெட்டு ஆண்டுகளுக்குப் பிறகு தபுவுடன் திரையொருக்கம்
-[brief] காலை brief தயார்
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: நீட் ரத்து கோரிக்கை: மருத்துவக் கல்வி நுழைவு யாருக்கு எளிதாகும்?
-[market] தங்கம் 22K ₹12752 · சென்செக்ஸ் 77301
+[skip] தெலிக்குப் பெரிய நகரம் — தமிழ்நாட்டுக்கும் இந்தியாவுக்கும் ந
+[skip] வெளிநாட்டுத் தொடர் — நியூஜிலாந்து தொடர் தமிழ்நாட்டுக்கு நேரட
+[skip] மூல உரையில் போதுமான தகவல் இல்லை - ஒரு படத்தின் தலைப்பு மற்று
+[skip] வெளிநாட்டு அனிமேশன் படம். தமிழ்நாட்டு வாசகருக்குப் பொருத்தமி
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: South T.N. likely to experience a wet Deepavali 
+[skip] நீதிமன்றத் தீர்ப்பு / வழக்கு நிலை — மையச் செய்தி அல்ல. தமிழ்
+[skip] Bangladesh women's cricket tournament - not Tamil Nadu, Indi
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man arrested for pelting train with stones near 
+[skip] இது ரிசர்வ் வங்கியின் வழக்கமான இரவுநேரத் திரும்பக் கொள்முதல்
+[filler] health கட்டுரை
+[jobs] தொகுப்பு 12
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12871 · சென்செக்ஸ் 78952
 [weather] புதுப்பிக்கப்பட்டது
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
-/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.17) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 4

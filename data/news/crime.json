@@ -1,5 +1,75 @@
 [
  {
+  "headline": "மெட்டா தளங்களில் சிறார் பாலியல் துஷ்பிரயோக உள்ளடக்கம் பரவல் — டெல்லி காவல்துறை வழக்குப் பதிவு",
+  "lines": [
+   "மெட்டா நிறுவனத்தின் சமூக ஊடகத் தளங்களில் சிறார் பாலியல் துஷ்பிரயோக உள்ளடக்கம் பரவியதாகக் குற்றச்சாட்டு எழுந்துள்ளது.",
+   "இது தொடர்பாக டெல்லி காவல்துறையில் வழக்குப் பதிவு செய்யப்பட்டுள்ளது.",
+   "புகாரில் சுமார் பத்து இணைப்புகள் இந்த உள்ளடக்கத்தைக் கொண்டிருப்பதாகக் குறிப்பிடப்பட்டுள்ளது.",
+   "இந்தக் குற்றச்சாட்டுகளின் உண்மைத்தன்மையை உறுதிப்படுத்த காவல்துறை விசாரணை தொடங்கியுள்ளதாக அதிகாரி ஒருவர் கூறினார்.",
+   "மேலும் விசாரணை நடைபெற்று வருகிறது."
+  ],
+  "closing": "சிறார் பாதுகாப்பு தொடர்பான இத்தகைய புகார்கள் ஊடகத் தளங்களின் கண்காணிப்பு மற்றும் விதிமுறைகள் குறித்த கேள்விகளை எழுப்புகின்றன.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "டெல்லி காவல்துறை",
+   "மெட்டா",
+   "சிறார் பாதுகாப்பு",
+   "சைபர் குற்றம்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Delhi Police files FIR over alleged child sexual abuse content on Meta",
+   "lines": [
+    "An allegation has emerged that child sexual abuse material was circulated on Meta's social media platforms.",
+    "Delhi Police has registered an FIR in connection with this complaint.",
+    "The complaint flagged approximately ten links said to contain such content.",
+    "An official said police have begun an investigation to verify the authenticity of these allegations.",
+    "The probe is ongoing, and further action is expected to be announced subsequently."
+   ],
+   "closing": "Such complaints raise questions about content moderation and platform accountability for child safety online."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "558281d5b70a",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-05T13:03+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Delhi/delhi-police-registers-fir-over-alleged-circulation-of-child-sexual-abuse-material-on-meta-platforms/article71668968.ece",
+   "https://www.thehindu.com/news/cities/Delhi/delhi-police-registers-fir-over-alleged-circulation-of-child-sexual-abuse-material-on-meta-platforms/article71668968.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/558281d5b70a.mp3",
+  "created_ts": 1793864028.7689047,
+  "status": "published"
+ },
+ {
   "headline": "பிஎல்எம் கூட்டுறவு சங்கப் பணமோசடி வழக்கில் 11 இடங்களில் சோதனை",
   "lines": [
    "கேரளா மற்றும் தமிழ்நாட்டில் உள்ள பதினொரு இடங்களில் அமலாக்கத் துறை சோதனை நடத்தியது.",
@@ -2184,119 +2254,6 @@
   },
   "audio": "data/audio/e53c6edc472e.mp3",
   "created_ts": 1793141336.9865015,
-  "status": "published"
- },
- {
-  "headline": "சிங்கப்பூர் விமானத்தில் ஏறிய அர்ச்சனா வீரமணி சென்னையில் கைது",
-  "lines": [
-   "சென்னையில் நடைபெறும் ஒரு வழக்கில் குற்றம் சாட்டப்பட்ட அர்ச்சனா வீரமணி மீது கிரேட்டர் சென்னை காவல் துறை பொதுத் தேடல் அறிவிப்பு (லுக் அவுட் சர்குலர்) பிறப்பித்துள்ளது.",
-   "கடந்த வெள்ளிக்கிழமை (அக்டோபர் 23) சிங்கப்பூர் செல்லும் விமானத்தில் ஏறிய அவரை, சிறப்பு புலனாய்வுக் குழு சென்னை விமான நிலையத்தில் கைது செய்தது.",
-   "அவரது வணிக நிறுவனங்களுக்குச் சொந்தமான வங்கிக் கணக்குகள் புலனாய்வாளர்களால் முடக்கப்பட்டுள்ளன.",
-   "இந்த வழக்குத் தொடர்பான பல விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-   "சிறப்பு புலனாய்வுக் குழு மேலும் விசாரணை நடத்தி வருவதாக அறிய முடிந்தது."
-  ],
-  "closing": "இந்த வழக்கில் அர்ச்சனா வீரமணி மீதான குற்றச்சாட்டுகள் குறித்த முழு விவரங்களும் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": "2026-10-28"
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "சென்னை பெருநகர காவல் துறை",
-   "அர்ச்சனா வீரமணி"
-  ],
-  "id": "9125d47e4623",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-28T00:23+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/greater-chennai-police-issue-look-out-circular-against-archana-veeramani/article71631529.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime16.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/9125d47e4623.mp3",
-  "created_ts": 1793127225.4497483,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ஆரோவில் அருகே பூதூரில் நிலத் தரகர் வெட்டிக் கொலை",
-  "lines": [
-   "ஆரோவில் அருகே உள்ள பூதூரில் நிலத் தரகர் ஒருவர் வெட்டிக் கொல்லப்பட்டார்.",
-   "சம்பவம் தொடர்பான முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-   "காவல்துறையினர் சம்பவ இடத்திற்குச் சென்று தடயவியல் ஆய்வு நடத்தி வருகின்றனர்.",
-   "கொலைக்கான காரணம் மற்றும் குற்றம் சாட்டப்பட்டோர் குறித்து விசாரணை தொடர்கிறது.",
-   "மேலும் விவரங்கள் காவல்துறையிடமிருந்து விரைவில் வெளியாக வாய்ப்புள்ளது."
-  ],
-  "closing": "இந்தச் சம்பவம் தொடர்பாக காவல்துறையின் அதிகாரப்பூர்வ அறிக்கை இன்னும் வெளியாக வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "பூதூர்",
-   "ஆரோவில்",
-   "நிலத் தரகர்",
-   "காவல்துறை"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Realtor hacked to death in Poothurai near Auroville",
-   "lines": [
-    "A realtor was hacked to death in Poothurai near Auroville.",
-    "Complete details of the incident have not yet been officially released.",
-    "Police visited the scene and are conducting a forensic investigation.",
-    "The motive for the killing and the accused persons are still under investigation.",
-    "Further details are expected to be released by the police soon."
-   ],
-   "closing": "An official statement from the police on this incident is still awaited."
-  },
-  "front_cat": "crime_major",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "acf5e08248e1",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-10-28T00:18+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/realtor-hacked-to-death-in-poothurai-near-auroville/article71631359.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/acf5e08248e1.mp3",
-  "created_ts": 1793126911.3099735,
   "status": "published"
  }
 ]
