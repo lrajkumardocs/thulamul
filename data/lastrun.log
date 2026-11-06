@@ -1,22 +1,22 @@
 [fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 26 புதியவை
+[fetch] The Hindu TN: 19 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 18 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] BBC World: 19 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 14 புதியவை
-[fetch] Cinema Express: 29 புதியவை
+[fetch] The Hindu Cinema: 13 புதியவை
+[fetch] Cinema Express: 27 புதியவை
 [fetch] The Hindu Tech: 26 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 15 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 27 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,65 +56,83 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f9ace8bc210>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f1291084790>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 28 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 711 → நிகழ்வுகள் 647
-[triage] 647 → 46 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இவை மேற்கு வங்காளம் (பிர்பூம்) மற்றும் கர்நாடகா (தார்வாட்) ம
-[skip] பொதுவான ஆலோசனা/বিশ্লেষணம் — குறிப்பிட்ட நிகழ்வு, அரசு அறிவிப
-[tts-edge] 9fbcb659d88c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சிவா நடிப்பில் தமிழ் படம் 3 படப்பிடிப்பு தொடக்கம்
-[skip] வெস்টిண்டீஸ் ক্রিকেট வாசকர்களைப் பாதிக்கும் செய்தி. தமிழ்நாட
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgkWmJpBGPDr7VpcUjUYt'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgkWp72bJ1xWL4oAt5Lmk'}
-[tts-edge] c8e641e15ee0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆந்திரக் கடற்கரையில் கரை ஒதுங்கிய 9 தமிழக மீனவர்களின் உடல்கள்
-[திருத்தம்] காவிரி நீர் தொடர்பாக கர்நாடகத்துக்கு எதி → காவிரி நீர் தொடர்பாக கர்நாடகத்துக்கு எதி
-[publish] காவிரி நீர் தொடர்பாக கர்நாடகத்துக்கு எதிராக உச்ச நீதிமன்றத்தில் தமிழக அரசு அவசர முறையீடு
-[திருத்தம்] பராகுவே அதிபர் சாண்டியாகோ பேனா பதவி விலக → பராகுவே அதிபர் சாண்டியாகோ பேனா பதவி விலக
-[தரம்] தமிழ் அல்லாத எழுத்து: জটডি → ஒரு திருத்தம்
-[publish] பராகுவே அதிபர் சாண்டியாகோ பேனா பதவி விலகியுள்ளார்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgkX41SdCpK8RbZUXMRPo'}
-[திருத்தம்] தவெக அரசை ஸ்திரமின்மைக்கு தள்ள எதிர்க்கட → தவெக அரசை ஸ்திரமின்மைக்குத் தள்ள எதிர்க்
-[publish] தவெக அரசை ஸ்திரமின்மைக்குத் தள்ள எதிர்க்கட்சிகள் முயல்வதாக மாணிக்கம் தாகூர் குற்றச்சாட்டு
-[திருத்தம்] செங்கல்பட்டில் உலக வர்த்தக மைய தொகுப்பகம → செங்கல்பட்டில் உலக வர்த்தக மையத் தொகுப்ப
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: செங்கல்பட்டில் உலக வர்த்தக மையத் த
-[publish] செங்கல்பட்டில் உலக வர்த்தக மையத் தொகுப்பகம் திட்டம்
-[தரம்] தமிழ் அல்லாத எழுத்து: যা → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): வேலூரில் சட்டவிரோத மின்வேலியில் வி
-[publish] வேலூரில் சட்டவிரோத மின்வேலியில் விவசாயி, மகன் உயிரிழப்பு
-[திருத்தம்] தமிழ்நாட்டில் விவசாய நில மாற்று விதிகளில → தமிழ்நாட்டில் விவசாய நில மாற்று விதிகளில
-[publish] தமிழ்நாட்டில் விவசாய நில மாற்று விதிகளில் பாதுகாப்பு தளர்வு - சுற்றுச்சூழல் அமைப்பு குற்றச்சாட்டு
-[திருத்தம்] பள்ளிக்கரணை சதுப்பு நில திட்டங்களில் முற → பள்ளிக்கரணை சதுப்பு நில திட்டங்களில் பெர
-[தரம்] தமிழ் அல்லாத எழுத்து: র → ஒரு திருத்தம்
-[publish] பள்ளிக்கரணை சதுப்பு நில திட்டங்களில் பெரும் முறைகேடு - அன்புமணி குற்றச்சாட்டு
-[திருத்தம்] பட்டினப்பாக்கம் செயலக வளாகத் திட்டத்துக் → பட்டினப்பாக்கம் செயலக வளாகத் திட்டத்தில்
-[image] களஞ்சியம் (2 சொல்): பட்டினப்பாக்கம் செயலக வளாகத் திட்ட
-[publish] பட்டினப்பாக்கம் செயலக வளாகத் திட்டத்தில் மீனவர்கள் வெளிப்படைத்தன்மை கோரிக்கை
-[comic] கதை: மரத்தின் மறைவில் ஒரு கண்காணிப்பு
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.97) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.97) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-06.png · நாள் 58
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹12773 · சென்செக்ஸ் 79310
+[run] புதியவை 690 → நிகழ்வுகள் 630
+[triage] 630 → 43 | காலி: india:4, economy:3, court:3, govt:3, crime:3
+[திருத்தம்] குமரகுரு வேளாண் கல்லூரியில் உதவிப் பேராச → குமரகுரு வேளாண் நிறுவனத்தில் உதவிப் பேரா
+[தரம்] தமிழ் அல்லாத எழுத்து: আই → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): குமரகுரு வேளாண் நிறுவனத்தில் உதவிப
+[tts-edge] f34131d3eeb7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] குமரகுரு வேளாண் நிறுவனத்தில் உதவிப் பேராசிரியர் பணியிடம்
+[skip] பொதுவான விளக்கக் கட்டுரை — தமிழ்நாட்டு அல்லது இந்திய வாசகருக
+[skip] வெளிநாட்டுக் கிரிக்கெட் — நியூசிலாந்து உள் தொடர். தமிழ்நாடு/
+[skip] மூலம் மிகக் குறைவான தகவலுடன் கூடிய ஒரு வரி மட்டுமே கொண்ட லைவ
+[image] களஞ்சியம் (2 சொல்): ஆந்திரப் பிரதேசத்தில் தமிழக மீனவர்
+[tts-edge] dc305e9967e8: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆந்திரப் பிரதேசத்தில் தமிழக மீனவர்கள் ஐவர் உடல் மீட்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgkr6JXYmpYYuJjpdAVjU'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgkr9bjz8whSrH6KjsXpw'}
+[skip] மேற்குத் துருக்கியில் நடந்த துப்பாக்கிச் சூட்டு சம்பவம் தமிழ
+[திருத்தம்] ஐரோப்பாவில் விமானங்களுக்கு போலி குண்டு ம → ஐரோப்பாவில் விமானங்களுக்குப் போலிக் குண்
+[image] களஞ்சியம் (3 சொல்): ஐரோப்பாவில் விமானங்களுக்குப் போலிக
+[hold] ஐரோப்பாவில் விமானங்களுக்குப் போலிக் குண்டு மிரட்டல் பரபரப்பு
+[publish] கலிபோர்னியாவில் 548 பேருக்கு ஆயுள் தண்டனையாக மாற்றம்
+[திருத்தம்] அமெரிக்க நாஸ்டாக் சந்தையில் தொழில்நுட்பப → நாஸ்டாக் மூன்று சதவீதத்திற்கும் மேல் வீழ
+[image] களஞ்சியம் (2 சொல்): நாஸ்டாக் மூன்று சதவீதத்திற்கும் மே
+[publish] நாஸ்டாக் மூன்று சதவீதத்திற்கும் மேல் வீழ்ச்சி; தொழில்நுட்பப் பங்குகள் பெரும் இழப்பு
+[skip] இது இங்கிலாந்து மத்திய வங்கியின் வட்டி விகித உயர்வு பற்றிய ச
+[skip] தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்காத அமெரிக்க உள்நாட்டுப் பொ
+[publish] ஈரோடு மாவட்டத்தில் காவிரி நீர் பச்சை நிறமாக மாற்றம்
+[skip] லாஸ் ஏஞ்சல்ஸ் நகரின் உள்ளூர் தேர்தல் — தமிழ்நாடு அல்லது இந்த
+[திருத்தம்] காவிரி நீர் பிரச்சினை: உச்ச நீதிமன்றத்தி → காவிரி நீர் பிரச்சினை: உச்ச நீதிமன்றத்தி
+[publish] காவிரி நீர் பிரச்சினை: உச்ச நீதிமன்றத்தில் தமிழ்நாடு அவசர வாய்மூல விண்ணப்பம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgkrVqDQHbh3yFzRz6cVN'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] நியூசிலாந்தின் உள்நாட்டுத் தேர்தல் தமிழ்நாடு/இந்திய வாசகருக்
+[skip] பாலஸ்தீன-இஸ்ரேலி மோதலின் உள்நாட்டு/স்தানிய நிகழ்வு; தமிழ்நாட
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்கா-ரஷ்யா இருதரப்பு மோத
+[skip] தமிழ்நாடு/இந்தியாவுடன் எந்தத் தொடர்பும் இல்லாத அமெரிக்க உள்ள
+[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் செய்தி. தமிழ்நாடு/இந்திய வாசகரை
+[skip] மேற்குக் கரையில் பாலஸ்தீனிய வீடுகள் இடிக்கப்பட்ட நிகழ்வு. தம
+[skip] தமிழ்நாட்டு வாசகருக்கு நேரடிப் பாதிப்பு இல்லை. சவூதி அரேபியா
+[skip] இவை பீகார் மாநிலத்தில் உள்ள நாளந்தா சைனிக் பள்ளி மற்றும் நாள
+[skip] உத்தரகாண்ட் மின் ஒழுங்குமுறை ஆணையம் மற்றும் நவ்சாரி வேளாண் ப
+[skip] மேற்கு வங்க மாநிலத்தின் உள்ளூர் தொழில்துறை அறிவிப்பு, தமிழ்ந
+[skip] ஜம்மு காஷ்மீர் மாநிலத்துக்கான AIIMS கட்டிடக் கட்டுமானம் தொடர
+[skip] ராஜஸ்தான் பஞ்சாயத் தேர்தல் வன்முறை என்பது ஒரு மாநிலத்தின் உள
+[skip] இது கர்நாடகத்தின் பெங்களூரு நகரத்துக்கு மட்டுமான உள்ளூர் உணவ
+[skip] மூல உரை தமிழ்நாடு அரசு அறிவிப்பு, அரசியல், அல்லது பொது அগ்রह
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Deafblind persons urge government to include the
+[skip] இது விமர்சனம். திரைத் துறை நிகழ்வுச் செய்திகளுக்கான வரம்பு: 
+[skip] பெற்றிய செய்தி மேற்குவங்கத்தைப் பற்றியது. தமிழ்நாட்டுக்குப் 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Man severely injured after falling from moving t
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்கும் முக்கியமான health policy செய
+[skip] நியூசிலாந்தின் உள்நாட்டுக் கிரிக்கெட் சம்பவம். தமிழ்நாடு/இந்
+[skip] இந்தச் செய்திக்குத் தமிழ்நாட்டு வாசகருக்கு முதல் நிலைப் பொரு
+[skip] ஜம்முக் காஷ்மீர் மாநிலத்தின் உள்ளூர் அரசு அறிவிப்பு. தமிழ்நா
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Long-term survivors of diabetes honoured
+[skip] தெல்லி (டில்லி) நகரத்தின் காற்றுமாசு — தமிழ்நாடு வாசகரைப் பா
+[skip] இங்கிலாந்து county cricket — தமிழ்நாட்டு/இந்திய வாசகருக்குப்
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: காவிரி நீர்ப் பங்கீடு: உச்ச நீதிமன்றம் வரை செல்லும் பழைய பிரச்சினை
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹12699 · சென்செக்ஸ் 79310
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 7

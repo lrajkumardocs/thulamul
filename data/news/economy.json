@@ -1,5 +1,70 @@
 [
  {
+  "headline": "நாஸ்டாக் மூன்று சதவீதத்திற்கும் மேல் வீழ்ச்சி; தொழில்நுட்பப் பங்குகள் பெரும் இழப்பு",
+  "lines": [
+   "அமெரிக்காவில் வியாழக்கிழமை பங்குச் சந்தை கடுமையான வீழ்ச்சியைச் சந்தித்தது, குறிப்பாக தொழில்நுட்பப் பங்குகள் பெரிதும் பாதிக்கப்பட்டன.",
+   "நாஸ்டாக் கூட்டுக் குறியீடு மூன்று சதவீதத்திற்கும் அதிகமாக வீழ்ச்சியடைந்தது; டெஸ்லா பங்கு ஒன்பது சதவீதம் சரிந்தது.",
+   "ஜனநாயக் கட்சி இடைத்தேர்தலில் பெரும்பான்மை பெற்றதையடுத்து, செயற்கை நுண்ணறிவுத் துறைக்கு மிகுந்த கட்டுப்பாடுகள் வரக்கூடும் என முதலீட்டாளர்கள் கவலை தெரிவித்தனர்.",
+   "என்விடியா, அ.டி.எம்.டி. (அ.எம்.டி.) உள்ளிட்ட முக்கிய சிப் தயாரிப்பு நிறுவனங்களின் பங்குகளும் கணிசமாக சரிந்தன.",
+   "தேர்தல் முடிவுகளுக்குப் பின் ஏற்பட்ட மனநிலை மாற்றம் சந்தையில் தொடர்ந்து தாக்கத்தை ஏற்படுத்தி வருகிறது."
+  ],
+  "closing": "ஜனநாயக் கட்சியின் இடைத்தேர்தல் வெற்றிக்குப் பிறகு ஏற்பட்ட இந்த சந்தை வீழ்ச்சி, தொழில்நுட்பத் துறை மீதான கட்டுப்பாடு அச்சத்தை வெளிப்படுத்துகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "நாஸ்டாக்",
+   "டெஸ்லா",
+   "என்விடியா",
+   "அட்வான்ஸ்டு மைக்ரோ டிவைசஸ்",
+   "டெமாக்ரடிக் கட்சி",
+   "அமெரிக்கா"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Nasdaq tech stocks tumble over 3% after Democrats' midterm sweep",
+   "lines": [
+    "US stocks faced a sharp decline on Thursday, with technology shares hit particularly hard.",
+    "The Nasdaq Composite fell over 3%, while Tesla shares plunged 9%.",
+    "Investors expressed worries that stronger Democratic control could bring tighter regulation on the artificial intelligence industry.",
+    "Major chipmakers including Nvidia and Advanced Micro Devices also saw their shares slide significantly.",
+    "Analysts are watching closely to see if the shift in sentiment following the election results continues to weigh on markets."
+   ],
+   "closing": "The market selloff follows the Democrats' midterm election victories, reflecting investor concerns about tighter regulatory scrutiny on the tech sector."
+  },
+  "front_cat": "routine",
+  "image_query": "Nasdaq stock market decline",
+  "wiki_subject": "Nasdaq Composite",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7dc5c4128d32",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-06T07:32+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-falls-at-open-after-midterms-fueled-surge-as-chip-data-center-stocks-fall/articleshow/135577537.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/7dc5c4128d32.mp3",
+  "created_ts": 1793930526.8769984,
+  "status": "published"
+ },
+ {
   "headline": "கிளென்மார்க் பார்மா நிகர லாபம் 56 சதவீதம் சரிவு — ₹264 கோடி",
   "lines": [
    "மருந்து தயாரிப்பு நிறுவனமான கிளென்மார்க் பார்மாவின் நிகர லாபம் செப்டம்பர் காலாண்டில் பெருமளவு குறைந்துள்ளது.",
@@ -2217,182 +2282,6 @@
   },
   "audio": "data/audio/f37d7f3f0e9d.mp3",
   "created_ts": 1793173988.4738517,
-  "status": "published"
- },
- {
-  "headline": "உலகளாவிய சவால்கள் மத்தியிலும் இந்தியப் பொருளாதார வளர்ச்சி உறுதி: ரிசர்வ் வங்கி",
-  "lines": [
-   "இந்திய ரிசர்வ் வங்கியின் துணை ஆளுநர் பூனம் குப்தா, உலகளாவிய சவால்கள் இருந்தும் இந்தியாவின் பொருளாதார வளர்ச்சி உறுதியாக உள்ளது என்று தெரிவித்தார்.",
-   "வெளிநாட்டு அதிர்வுகளால் உண்மையான மொத்த உள்நாட்டு உற்பத்தி வளர்ச்சி எதிர்பார்த்த அளவை எட்டவில்லை என்று அவர் சுட்டிக்காட்டினார்.",
-   "கடந்த சில ஆண்டுகளில் சவாலான சூழலிலும் இந்தியா ஏழு சதவீதத்திற்கும் அதிகமான வளர்ச்சியை அடைந்துள்ளது என்று அவர் கூறினார்.",
-   "உலகளாவிய சூழல் மேம்பட்டால் வளர்ச்சி விகிதம் மேலும் ஒரு சதவீதம் உயரக்கூடும் என்று நம்பிக்கை தெரிவித்தார்.",
-   "பொருளாதார நடவடிக்கைகளைப் பல்வகைப்படுத்தி அபாயங்களைக் குறைக்க வேண்டும் என்றும், எல் நினோ சூழலிலும் உணவுப் பாதுகாப்பு நிலையானதாக உள்ளது என்றும் அவர் தெரிவித்தார்."
-  ],
-  "closing": "உலகப் பொருளாதார நிலைமைகளில் ஏற்படும் மாற்றங்கள் இந்தியாவின் வளர்ச்சி விகிதத்தை எவ்வாறு பாதிக்கும் என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": "2026-10-28"
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "இந்திய ரிசர்வ் வங்கி",
-   "பூனம் குப்தா",
-   "மொத்த உள்நாட்டு உற்பத்தி",
-   "எல் நினோ",
-   "இந்தியா"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "India's Growth Momentum Stays Resilient Despite Global Headwinds: RBI",
-   "lines": [
-    "RBI Deputy Governor Poonam Gupta said India's economic growth remains resilient despite global challenges.",
-    "She pointed out that real GDP growth fell short of expectations due to external shocks.",
-    "India managed to achieve over seven percent growth despite challenging conditions in recent years, she said.",
-    "She expressed confidence that improved global conditions could boost growth by another percentage point.",
-    "She said diversifying economic activities is needed to mitigate risks, and that food security remains stable amid El Nino."
-   ],
-   "closing": "It remains to be seen how changes in the global economic situation will affect India's growth rate going forward."
-  },
-  "front_cat": "routine",
-  "image_query": "Poonam Gupta RBI",
-  "wiki_subject": "",
-  "person_en": "Poonam Gupta",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "6522f9de1c26",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-28T07:34+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/news/indias-growth-momentum-stays-resilient-despite-global-headwinds-rbi-deputy-governor-poonam-gupta/articleshow/135248487.cms"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Seal_of_the_Reserve_Bank_of_India.svg/500px-Seal_of_the_Reserve_Bank_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Reserve Bank of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Reserve_Bank_of_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/6522f9de1c26.mp3",
-  "created_ts": 1793153063.0187964,
-  "status": "published"
- },
- {
-  "headline": "இந்தியா எட்டு சதவீத வளர்ச்சியை எட்டும் தூரத்தில்: சக்திகாந்த தாஸ்",
-  "lines": [
-   "சக்திகாந்த தாஸ், சீர்திருத்தங்களின் மூலம் இந்தியா எட்டு சதவீத பொருளாதார வளர்ச்சியை அடையும் தூரத்தில் உள்ளதாகக் கூறினார்.",
-   "வங்கி, நிதி மற்றும் காப்பீட்டுத் துறை (பிஎஃப்எஸ்ஐ), இந்தியாவை கீழ்நிலை நடுத்தர வருமான நாட்டிலிருந்து உயர் வருமான நாடாக மாற்றுவதில் முக்கியப் பங்கு வகிக்கும் என்று அவர் தெரிவித்தார்.",
-   "நிதி வளங்களை ஒதுக்கீடு செய்வதில் இந்தத் துறையின் இடைத்தரகல் பணி, இந்த மாற்றத்தை உறுதிப்படுத்தும் என்று அவர் விளக்கினார்.",
-   "அடுத்த தலைமுறை டிஜிட்டல் பொதுக் கட்டமைப்புக்கு (டிபிஐ) ஆதரவளிப்பது, பசுமை மற்றும் மாற்றுத் தொழில்நுட்ப நிதியுதவியில் முன்னணி வகிப்பது ஆகியவை துறையின் பொறுப்புகள் என்று அவர் கூறினார்.",
-   "நிதி சேவைகளை அனைவருக்கும் கிடைக்கச் செய்யும் பணியில் இந்தத் துறை முக்கியத் தூண்டுதலாகச் செயல்பட வேண்டும் என்று அவர் வலியுறுத்தினார்."
-  ],
-  "closing": "வங்கி, நிதி மற்றும் காப்பீட்டுத் துறையின் பங்கு, இந்தியாவின் பொருளாதார இலக்கை எட்டுவதில் முக்கியமானதாகக் கருதப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "சக்திகாந்த தாஸ்",
-   "BFSI"
-  ],
-  "id": "e9ffaf562cd1",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-28T07:33+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/news/india-in-striking-distance-of-8-growth-as-reforms-boost-economy-shaktikanta-das/articleshow/135248583.cms"
-  ],
-  "image": {
-   "url": "data/bank/economy01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/e9ffaf562cd1.mp3",
-  "created_ts": 1793152998.2949367,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ஜியோ பிளாட்ஃபார்ம்ஸ் பங்குகள் இன்று பங்குச் சந்தையில் பட்டியலிடப்படுகின்றன",
-  "lines": [
-   "ரிலையன்ஸ் ஜியோ நிறுவனத்தின் துணை நிறுவனமான ஜியோ பிளாட்ஃபார்ம்ஸின் பங்குகள் இன்று பங்குச் சந்தையில் பட்டியலிடப்படுகின்றன.",
-   "மொத்தம் முப்பதாயிரத்து இருநூற்று பதின்மூன்று கோடி ரூபாய் திரட்டிய இந்த ஆரம்ப பொதுப் பங்கு விற்பனைக்கு, முதலீட்டாளர்களிடமிருந்து அதிக வரவேற்பு கிடைத்தது.",
-   "சந்தை நிபுணர்கள், சாம்பல் சந்தை பிரீமியம் உயர்வாக இருப்பதால் பங்குகள் வலுவான தொடக்கத்துடன் பட்டியலிடப்படும் என எதிர்பார்க்கின்றனர்.",
-   "ஜியோவின் பரந்த வாடிக்கையாளர் தளமும், எதிர்கால விரிவாக்கத் திட்டங்களும் முதலீட்டாளர் ஆர்வத்தை அதிகரிக்கும் என கூறப்படுகிறது.",
-   "பங்குகளின் இறுதி பட்டியல் விலை, இன்றைய பங்குச் சந்தை நடவடிக்கைகளின் முடிவில் தெரியவரும்."
-  ],
-  "closing": "ரிலையன்ஸ் ஜியோ நாட்டின் மிகப்பெரிய தொலைத்தொடர்பு நிறுவனங்களில் ஒன்றாக செயல்பட்டு வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "ஜியோ பிளாட்ஃபார்ம்ஸ்",
-   "ரிலையன்ஸ் ஜியோ",
-   "தேசிய பங்குச் சந்தை",
-   "பம்பாய் பங்குச் சந்தை"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Jio Platforms Shares to List on Stock Market Today",
-   "lines": [
-    "Jio Platforms, a subsidiary of Reliance Jio, is set to have its shares listed on the stock market today.",
-    "The initial public offering, which raised a total of thirty thousand two hundred and thirteen crore rupees, saw strong demand from investors.",
-    "Market analysts expect a strong debut for the shares, citing a high grey market premium.",
-    "Jio's wide subscriber base and future expansion plans are said to be driving investor interest.",
-    "The final listing price of the shares will become clear at the close of today's stock market trading."
-   ],
-   "closing": "Reliance Jio operates as one of the country's largest telecommunications companies."
-  },
-  "front_cat": "big_project",
-  "image_query": "stock exchange trading floor India",
-  "wiki_subject": "Jio Platforms",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "ec9c9fa25c92",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-28T07:31+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/ipos/fpos/indias-biggest-listing-jio-shares-to-debut-today-what-to-expect-from-gmp-and-analysts/articleshow/135245742.cms"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Reliance_Jio_Logo.svg/960px-Reliance_Jio_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Jio Platforms",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Jio_Platforms",
-   "symbolic": false
-  },
-  "audio": "data/audio/ec9c9fa25c92.mp3",
-  "created_ts": 1793152916.9734867,
   "status": "published"
  }
 ]
