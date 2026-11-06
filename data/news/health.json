@@ -1,5 +1,192 @@
 [
  {
+  "headline": "தீபாவளி வெளிச்சத்தில் கண் பாதுகாப்பு எச்சரிக்கை",
+  "lines": [
+   "தீபாவளிக்கு வெடிக்குண்டுகள் வெடிப்பது வழக்கம்.",
+   "ஆனால் கண் நிபுணர்கள் எச்சரிக்கிறார்கள் — ஒரு நொடிப்பொழுதும் கூடாது.",
+   "ஒரு தவறு கண்ணில் அபாயகரமான காயத்தை ஏற்படுத்திவிடக் கூடும்.",
+   "சிறிய கீறல் தொடங்கி கடுமையான விழிப் புண் வரை பல்வேறு பாதிப்புகள் வரக் கூடும்.",
+   "வெடிக்குண்டுகளுடன் விளையாடும்போது பாதுகாப்பு முறைகளைப் பின்பற்றுவது அவசியம் என்று கூறினார்கள்."
+  ],
+  "closing": "கண்களைப் பாதிக்கிற எந்த விபத்தும் ஆயுள் காட்சிக் குறைவுக்கு வழிவிடக் கூடும் என்பதால் பொதுமக்கள் கூடுதல் எச்சரிக்கை எடுக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": "2026-11-06"
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "தீபாவளி",
+   "வெடிக்குண்டு",
+   "கண் நிபுணர்",
+   "கண் காயம்"
+  ],
+  "confidence": 0.95,
+  "en": {
+   "headline": "Ophthalmologists warn of eye injuries during Deepavali fireworks",
+   "lines": [
+    "Crackers and fireworks are a traditional part of Deepavali celebrations.",
+    "Eye doctors are sounding a caution — even a moment of carelessness can cause harm.",
+    "A single slip can result in serious eye injury.",
+    "Injuries can range from minor scratches to severe ocular trauma affecting vision.",
+    "Experts stress that following safety precautions when handling firecrackers is essential."
+   ],
+   "closing": "Since any eye injury can lead to permanent vision loss, the public must exercise extra caution during the festive season."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "firecracker eye injury safety",
+  "wiki_subject": "Firecracker",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "02d3e119b7c5",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-06T14:29+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/amid-the-sparkle-of-deepavali-ophthalmologists-sound-a-note-of-caution/article71668913.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Firecrackers.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Firecracker",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Firecracker",
+   "symbolic": false
+  },
+  "audio": "data/audio/02d3e119b7c5.mp3",
+  "created_ts": 1793955545.7843983,
+  "status": "published"
+ },
+ {
+  "headline": "குடும்ப மருத்துவர்கள் முதன்மை சுகாதாரத்தை வலுப்படுத்த பெரும் பங்கு",
+  "lines": [
+   "குடும்ப மருத்துவர்களின் பங்கையும் முக்கியத்துவத்தையும் எடுத்துக்காட்டும் ஆவணப்படம் வெளிவந்துள்ளது.",
+   "நகர்ப்புற மற்றும் கிராமப்புற சமூகங்களில் முதன்மை சுகாதாரப் பணிமுறையை மீட்டெடுக்க பரந்த உரையாடலை ஏற்படுத்துவதே இப்படத்தின் நோக்கமாகும்.",
+   "சுகாதார அமைப்பின் இன்றியமையாத பகுதியாக பக்கத்து மருத்துவர்களை அங்கீகரிப்பதை இப்படம் முன்வைக்கிறது.",
+   "முதன்மை சுகாதாரப் பணிமுறையை மீட்டெடுப்பதிலும் சமூக சார்ந்த மருத்துவ சேவையை வலுப்படுத்துவதிலும் குடும்ப மருத்துவர்கள் முக்கிய பங்காற்றுகின்றனர்."
+  ],
+  "closing": "சுகாதாரச் சேவை கட்டமைப்பை நவீனமாக்கவும் சமூக சார்ந்த மருத்துவப் பணிமுறையை மேம்படுத்தவும் குடும்ப மருத்துவர்களின் பங்கு அவசியமாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "குடும்ப மருத்துவர்கள்",
+   "முதன்மை சுகாதாரம்",
+   "சுகாதாரப் பணிமுறை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Family physicians play vital role in strengthening primary healthcare",
+   "lines": [
+    "A documentary highlighting the role and significance of family physicians in healthcare has been released.",
+    "The film emphasizes the importance of neighbourhood doctors in reviving primary healthcare services in urban and rural communities.",
+    "The documentary seeks to recognize community physicians as an integral component of the healthcare system.",
+    "Family physicians play a crucial role in reviving primary healthcare delivery and strengthening community-centered medical services.",
+    "The documentary aims to generate broader public dialogue on transforming primary healthcare infrastructure."
+   ],
+   "closing": "The role of family physicians across urban and rural boundaries is essential to modernize healthcare service frameworks and enhance community-oriented medical practice."
+  },
+  "front_cat": "routine",
+  "image_query": "family physician consultation",
+  "wiki_subject": "Primary health care",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "fc4fb19d910c",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-06T14:28+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/bangalore/bengaluru-news-documentary-highlights-role-of-family-physicians-in-strengthening-primary-healthcare/article71671059.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Consultation_des_femmes_et_des_b%C3%A9b%C3%A9s.jpg/3840px-Consultation_des_femmes_et_des_b%C3%A9b%C3%A9s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Primary health care",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Primary_health_care",
+   "symbolic": false
+  },
+  "audio": "data/audio/fc4fb19d910c.mp3",
+  "created_ts": 1793955498.0858347,
+  "status": "published"
+ },
+ {
+  "headline": "இந்திய எனஜிஓ ரீச் கொச்சன் பரிசு 2026 பெற்றது",
+  "lines": [
+   "இந்திய எனஜிஓ ரீச் காசநோய்த் தடுப்பு முயற்சிக்காக கொச்சன் பரிசு 2026ஐ வென்றுள்ளது.",
+   "கொரிய சுயாதீன தொண்டு நிறுவனமான கொச்சன் அறக்கட்டளை மற்றும் Stop TB Partnership நிறுவனத்தின் கூட்டுப் பணிமூலம் இப் பரிசு வழங்கப்படுகிறது.",
+   "கொச்சன் பரிசு காசநோயைத் தடுக்கும் பணிக்காக குறிப்பிடத்தக்க பங்களிப்பு செய்த நபர்கள் மற்றும் நிறுவனங்களை கம்மியிடுகிறது.",
+   "ரீச் இந்தியாவில் சுகாதாரத்திற்கான அணுகல் மற்றும் கல்வி வளர்ச்சியில் கவனம் செலுத்தும் எனஜிஓ ஆகும்.",
+   "இப் பரிசு உலக அளவிலான சுகாதாரப் பிரச்சினைகளுக்கு எதிரான போராட்டத்தில் இந்திய நிறுவனங்களின் பங்கை உயர்த்திக்காட்டுகிறது."
+  ],
+  "closing": "இந்தியாவில் காசநோய்த் தடுப்பு முயற்சிகள் தொடர்ந்து வலுவடைந்து வருகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "ரீச் (REACH)",
+   "கொச்சன் அறக்கட்டளை",
+   "யக்ஷ்மை நோய் தடுப்பு",
+   "இந்தியா"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Indian NGO REACH receives Kochon Prize 2026",
+   "lines": [
+    "The Indian NGO REACH has won the Kochon Prize 2026 for its contributions to disease prevention efforts.",
+    "The prize is awarded jointly by the Kochon Foundation, an independent Korean non-profit, and the global health partnership.",
+    "The Kochon Prize recognises individuals and organisations making significant contributions to fighting tuberculosis.",
+    "REACH is an NGO focused on improving access to healthcare and education in India.",
+    "This award recognises Indian organisations' efforts in addressing major global health challenges."
+   ],
+   "closing": "Tuberculosis prevention efforts in India continue to strengthen and expand."
+  },
+  "front_cat": "routine",
+  "image_query": "tuberculosis prevention health workers India",
+  "wiki_subject": "REACH (NGO)",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "542c421da4ec",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-06T14:19+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/indian-ngo-reach-receives-kochon-prize-2026/article71673359.ece"
+  ],
+  "image": {
+   "url": "data/bank/health08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/542c421da4ec.mp3",
+  "created_ts": 1793954987.7173016,
+  "status": "published"
+ },
+ {
   "id": "art_health_20261105",
   "headline": "பருவமாற்ற காலத்தில் உடல்நலம் காக்க எளிய வழிகள்",
   "lines": [
@@ -743,42 +930,5 @@
   "audio": "data/audio/54f61f09bbbf.mp3",
   "created_ts": 1793198594.0029755,
   "status": "published"
- },
- {
-  "id": "art_health_20261028",
-  "headline": "பருவமாற்ற காலத்தில் உடல் நலம் காக்க எளிய வழிகள்",
-  "lines": [
-   "அக்டோபர் இறுதியில் ஏற்படும் பருவமாற்றத்தால் சளி, இருமல், காய்ச்சல் போன்ற தொற்று நோய்கள் பரவும் வாய்ப்பு அதிகரிக்கிறது.",
-   "குறிப்பாக மழைநீர் தேங்கும் இடங்களில் கொசு இனப்பெருக்கம் அதிகரித்து டெங்கு, சிக்குன்குனியா பரவும் அபாயம் உள்ளதால் வீட்டைச் சுற்றி நீர் தேங்காமல் பார்த்துக் கொள்ள வேண்டும்.",
-   "தினமும் சூடான நீர் அருந்துவது, இஞ்சி-துளசி கசாயம் போன்ற சித்த மருத்துவ வழிமுறைகளை பின்பற்றுவது உடலின் எதிர்ப்புச் சக்தியை மேம்படுத்த உதவும் என சித்த மருத்துவர்கள் தெரிவிக்கின்றனர்.",
-   "பருவகால பழங்கள், பச்சை காய்கறிகள், புரதச்சத்து நிறைந்த உணவுகளை தினசரி உணவில் சேர்த்துக் கொள்வது நோய் எதிர்ப்பு சக்தியை வலுப்படுத்தும்.",
-   "அரசு ஆரம்ப சுகாதார நிலையங்களில் இலவச காய்ச்சல் பரிசோதனை மற்றும் டெங்கு விழிப்புணர்வு முகாம்கள் நடைபெற்று வருவதால் பொதுமக்கள் அவற்றைப் பயன்படுத்திக் கொள்ளலாம்."
-  ],
-  "closing": "சிறு முன்னெச்சரிக்கை நடவடிக்கைகள் மூலம் பருவகால நோய்களை தவிர்க்கலாம்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "துலாமுள் தொகுப்பு",
-    "doc": null,
-    "date": "2026-10-28"
-   }
-  ],
-  "topic": "health",
-  "topic_ta": "சுகாதாரம்",
-  "entities": [
-   "சுகாதாரம்",
-   "தடுப்பு"
-  ],
-  "confidence": 0.9,
-  "flags": [],
-  "front_cat": "routine",
-  "urgent": false,
-  "affected": "",
-  "kind": "article",
-  "image": null,
-  "status": "published",
-  "published_at": "2026-10-28T13:28+05:30",
-  "created_ts": 1793174298.1853707,
-  "audio": "data/audio/art_health_20261028.mp3"
  }
 ]

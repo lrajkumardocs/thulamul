@@ -1,5 +1,633 @@
 [
  {
+  "id": "art_tech_20261106",
+  "headline": "அன்றாட டிஜிட்டல் பாதுகாப்பு: UPI, ஆதார் பயன்பாட்டில் கவனம் தேவை",
+  "lines": [
+   "UPI பணப்பரிமாற்றம் செய்யும்போது பெறுநரின் பெயர் திரையில் சரியாகத் தெரிகிறதா என்பதை உறுதி செய்த பின்னரே பணத்தை அனுப்ப வேண்டும்.",
+   "அந்நிய நபர்கள் அனுப்பும் QR குறியீடுகளை ஸ்கேன் செய்வதன் மூலம் பணம் வருவதில்லை, மாறாக பணம் கழிக்கப்படும் அபாயம் உள்ளது என்பதை நினைவில் கொள்ள வேண்டும்.",
+   "ஆதார் எண்ணை பகிரும்போது UIDAI வழங்கும் Masked Aadhaar வசதியைப் பயன்படுத்தி கடைசி நான்கு இலக்கங்கள் மட்டும் தெரியும் வகையில் பிரதி எடுக்கலாம்.",
+   "மொபைல் போனில் தெரியாத இணைப்புகளை (லிங்க்) கிளிக் செய்வதற்கு முன், அனுப்பியவர் யார் என்பதை சரிபார்த்துக் கொள்வது மோசடியைத் தவிர்க்க உதவும்.",
+   "வங்கி கணக்கு, UPI பின் எண், OTP போன்ற தகவல்களை போன் அழைப்பில் யாரிடமும் பகிரக் கூடாது என்பதை வங்கிகள் தொடர்ந்து எச்சரிக்கின்றன."
+  ],
+  "closing": "சிறிய எச்சரிக்கையுடன் பெரிய இழப்பைத் தவிர்க்கலாம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-06"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "டிஜிட்டல்"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-06T14:29+05:30",
+  "created_ts": 1793955561.3935246,
+  "audio": "data/audio/art_tech_20261106.mp3"
+ },
+ {
+  "headline": "தீபாவளி வெளிச்சத்தில் கண் பாதுகாப்பு எச்சரிக்கை",
+  "lines": [
+   "தீபாவளிக்கு வெடிக்குண்டுகள் வெடிப்பது வழக்கம்.",
+   "ஆனால் கண் நிபுணர்கள் எச்சரிக்கிறார்கள் — ஒரு நொடிப்பொழுதும் கூடாது.",
+   "ஒரு தவறு கண்ணில் அபாயகரமான காயத்தை ஏற்படுத்திவிடக் கூடும்.",
+   "சிறிய கீறல் தொடங்கி கடுமையான விழிப் புண் வரை பல்வேறு பாதிப்புகள் வரக் கூடும்.",
+   "வெடிக்குண்டுகளுடன் விளையாடும்போது பாதுகாப்பு முறைகளைப் பின்பற்றுவது அவசியம் என்று கூறினார்கள்."
+  ],
+  "closing": "கண்களைப் பாதிக்கிற எந்த விபத்தும் ஆயுள் காட்சிக் குறைவுக்கு வழிவிடக் கூடும் என்பதால் பொதுமக்கள் கூடுதல் எச்சரிக்கை எடுக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": "2026-11-06"
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "தீபாவளி",
+   "வெடிக்குண்டு",
+   "கண் நிபுணர்",
+   "கண் காயம்"
+  ],
+  "confidence": 0.95,
+  "en": {
+   "headline": "Ophthalmologists warn of eye injuries during Deepavali fireworks",
+   "lines": [
+    "Crackers and fireworks are a traditional part of Deepavali celebrations.",
+    "Eye doctors are sounding a caution — even a moment of carelessness can cause harm.",
+    "A single slip can result in serious eye injury.",
+    "Injuries can range from minor scratches to severe ocular trauma affecting vision.",
+    "Experts stress that following safety precautions when handling firecrackers is essential."
+   ],
+   "closing": "Since any eye injury can lead to permanent vision loss, the public must exercise extra caution during the festive season."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "firecracker eye injury safety",
+  "wiki_subject": "Firecracker",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "02d3e119b7c5",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-06T14:29+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/amid-the-sparkle-of-deepavali-ophthalmologists-sound-a-note-of-caution/article71668913.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Firecrackers.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Firecracker",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Firecracker",
+   "symbolic": false
+  },
+  "audio": "data/audio/02d3e119b7c5.mp3",
+  "created_ts": 1793955545.7843983,
+  "status": "published"
+ },
+ {
+  "headline": "குடும்ப மருத்துவர்கள் முதன்மை சுகாதாரத்தை வலுப்படுத்த பெரும் பங்கு",
+  "lines": [
+   "குடும்ப மருத்துவர்களின் பங்கையும் முக்கியத்துவத்தையும் எடுத்துக்காட்டும் ஆவணப்படம் வெளிவந்துள்ளது.",
+   "நகர்ப்புற மற்றும் கிராமப்புற சமூகங்களில் முதன்மை சுகாதாரப் பணிமுறையை மீட்டெடுக்க பரந்த உரையாடலை ஏற்படுத்துவதே இப்படத்தின் நோக்கமாகும்.",
+   "சுகாதார அமைப்பின் இன்றியமையாத பகுதியாக பக்கத்து மருத்துவர்களை அங்கீகரிப்பதை இப்படம் முன்வைக்கிறது.",
+   "முதன்மை சுகாதாரப் பணிமுறையை மீட்டெடுப்பதிலும் சமூக சார்ந்த மருத்துவ சேவையை வலுப்படுத்துவதிலும் குடும்ப மருத்துவர்கள் முக்கிய பங்காற்றுகின்றனர்."
+  ],
+  "closing": "சுகாதாரச் சேவை கட்டமைப்பை நவீனமாக்கவும் சமூக சார்ந்த மருத்துவப் பணிமுறையை மேம்படுத்தவும் குடும்ப மருத்துவர்களின் பங்கு அவசியமாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "குடும்ப மருத்துவர்கள்",
+   "முதன்மை சுகாதாரம்",
+   "சுகாதாரப் பணிமுறை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Family physicians play vital role in strengthening primary healthcare",
+   "lines": [
+    "A documentary highlighting the role and significance of family physicians in healthcare has been released.",
+    "The film emphasizes the importance of neighbourhood doctors in reviving primary healthcare services in urban and rural communities.",
+    "The documentary seeks to recognize community physicians as an integral component of the healthcare system.",
+    "Family physicians play a crucial role in reviving primary healthcare delivery and strengthening community-centered medical services.",
+    "The documentary aims to generate broader public dialogue on transforming primary healthcare infrastructure."
+   ],
+   "closing": "The role of family physicians across urban and rural boundaries is essential to modernize healthcare service frameworks and enhance community-oriented medical practice."
+  },
+  "front_cat": "routine",
+  "image_query": "family physician consultation",
+  "wiki_subject": "Primary health care",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "fc4fb19d910c",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-06T14:28+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/bangalore/bengaluru-news-documentary-highlights-role-of-family-physicians-in-strengthening-primary-healthcare/article71671059.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Consultation_des_femmes_et_des_b%C3%A9b%C3%A9s.jpg/3840px-Consultation_des_femmes_et_des_b%C3%A9b%C3%A9s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Primary health care",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Primary_health_care",
+   "symbolic": false
+  },
+  "audio": "data/audio/fc4fb19d910c.mp3",
+  "created_ts": 1793955498.0858347,
+  "status": "published"
+ },
+ {
+  "headline": "IBPS கிளர்க் மெயின் தேர்வு டிசம்பர் 27-ல் நடைபெறும்",
+  "lines": [
+   "இந்திய வங்கி பெயர்சன் தேர்வுக் குழு (IBPS) கிளர்க் பொறுமை நிரப்பலுக்கான மெயின் தேர்வை டிசம்பர் 27, 2026-ல் நடத்தவுள்ளது.",
+   "இந்த தேர்வில் 11,663 கிளர்க் பொறுமை நிரப்பப்படும்; தேர்வில் 160 கேள்விகள், 200 மதிப்பெண்களுக்கு 125 நிமிடங்களில் நடைபெறும்.",
+   "IBPS அக்டோபர் 10 மற்றும் 11-ல் பிரிலிம்ஸ் தேர்வு நடத்தியது; அதன் முடிவு நவம்பர் 2026-ல் வெளியிடப்படும்.",
+   "மெயின் தேர்வுக்கான அனுமதி கடதாசி வெளியீட்ட தேதி ibps.in இணையதளத்தில் உறுதிப்படுத்தப்பட வேண்டுமென்று எதிர்பார்க்கப்படுகிறது.",
+   "விண்ணப்பிக்குவோர் IBPS உத்தியோகபூர்வ இணையதளம் (ibps.in)-ல் இந்த தகவல்களைச் சரிபார்க்கலாம்."
+  ],
+  "closing": "மெயின் தேர்வில் வெற்றி பெற்ற விண்ணப்பிக்குநர்களுக்கு நேர்காணல் நடத்தப்படும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-11-06"
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "IBPS",
+   "வங்கி",
+   "பொறுமை நிরப்பல்"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "IBPS Clerk Mains Exam Scheduled for December 27, 2026",
+   "lines": [
+    "The Indian Banks' Personnel Selection (IBPS) has announced the Mains exam date for Clerk recruitment as December 27, 2026.",
+    "The exam will fill 11,663 Clerk vacancies and will comprise 160 questions for 200 marks in 125 minutes.",
+    "IBPS conducted the Prelims exam on October 10 and 11; results are expected to be released in November 2026.",
+    "The admit card release date for the Mains exam has not been officially announced yet.",
+    "Candidates can visit the official IBPS website (ibps.in) for further details and updates."
+   ],
+   "closing": "Candidates who qualify the Mains exam will proceed to the interview stage as per IBPS selection procedure."
+  },
+  "front_cat": "exam_jobs_deadline",
+  "image_query": "IBPS bank clerk exam",
+  "wiki_subject": "Indian Banks' Personnel Selection",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "3cbea91334de",
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-11-06T14:26+05:30",
+  "links": [
+   "https://www.freejobalert.com/articles/ibps-clerk-mains-exam-date-2026-3079284"
+  ],
+  "image": {
+   "url": "data/bank/jobs03.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/3cbea91334de.mp3",
+  "created_ts": 1793955410.313666,
+  "status": "published"
+ },
+ {
+  "headline": "சமூக ஊடக வழிமுறைகளால் குழந்தைகள் அதிக பயன்பாடு மற்றும் அடிமையாதல் — உச்ச நீதிமன்றம் மேட்டா, மத்திய அரசிடம் விளக்கம் கோரியது",
+  "lines": [
+   "குழந்தைகளை சமூக ஊடகங்களில் அதிகமாக ஈடுபடுத்தும் வகையில் வடிவமைக்கப்பட்ட வழிமுறைகள் தொடர்பான ஒரு மனுவில் உச்ச நீதிமன்றம் விளக்கம் கோரியுள்ளது.",
+   "மத்திய அரசு மற்றும் மேட்டா நிறுவனத்திடம் பதில் அளிக்குமாறு நீதிமன்றம் உத்தரவிட்டுள்ளது.",
+   "குழந்தைகளை சமூக ஊடகப் பழக்கத்துக்கு உள்ளாக்கும் வகையிலான வழிமுறைகள் குறித்து மனுதாரர் கவலை தெரிவித்துள்ளார்.",
+   "இந்த மனு தொடர்பான முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+   "அடுத்த விசாரணையில் மத்திய அரசும் மேட்டாவும் தங்கள் நிலைப்பாட்டை நீதிமன்றத்தில் முன்வைக்க உள்ளன."
+  ],
+  "closing": "சமூக ஊடக வழிமுறைகளின் குழந்தைகள் மீதான தாக்கத்தை ஆய்வுசெய்ய உச்ச நீதிமன்றம் ஆரம்ப கட்ட நடவடிக்கைகளை மேற்கொண்டுவருகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Bar and Bench",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "உச்ச நீதிமன்றம்",
+   "மத்திய அரசு",
+   "மேட்டா",
+   "சமூக ஊடகம்",
+   "குழந்தைகள்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Supreme Court seeks Centre, Meta response on child social media addiction plea",
+   "lines": [
+    "The Supreme Court has sought a response in a plea concerning social media algorithms designed to keep children engaged for longer periods.",
+    "The court has directed the Centre and Meta to file their responses.",
+    "The petitioner has raised concerns about algorithms designed to make children habituated to social media use.",
+    "Complete details regarding the plea have not yet been officially released.",
+    "At the next hearing, the Centre and Meta are expected to present their stand before the court."
+   ],
+   "closing": "This case raises the possibility of bringing the design practices of social media companies under judicial scrutiny.",
+   "closing_type": "watch",
+   "sources": [
+    {
+     "name": "Bar and Bench",
+     "doc": null,
+     "date": null
+    }
+   ]
+  },
+  "id": "594cc7cc1077",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-11-06T14:25+05:30",
+  "links": [
+   "https://www.barandbench.com/news/supreme-court-seeks-response-from-newsclick-prabir-purkayastha-on-ed-plea-challenging-quashing-of-pmla-case",
+   "https://www.barandbench.com/news/litigation/supreme-court-seeks-response-from-centre-meta-to-plea-against-social-media-algorithms-addicting-children"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Emblem_of_the_Supreme_Court_of_India.svg/1280px-Emblem_of_the_Supreme_Court_of_India.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Supreme Court of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Supreme_Court_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/594cc7cc1077.mp3",
+  "created_ts": 1793955351.117417,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "UPSC குடிமைப் பணி முதன்மைத் தேர்வு 2026 முடிவு வெளியீடு",
+  "lines": [
+   "ஒன்றிய பொதுத் தேர்வாணையம் 2026ஆம் ஆண்டுக்கான குடிமைப் பணித் தேர்வின் முதன்மைத் தேர்வு முடிவுகளை வெளியிட்டுள்ளது.",
+   "இந்தத் தேர்வு ஐஏஎஸ், ஐஎஃப்எஸ், ஐபிஎஸ் உள்ளிட்ட பல்வேறு பணிகளுக்கு ஆட்களைத் தேர்ந்தெடுக்க ஒவ்வோர் ஆண்டும் நடத்தப்படுகிறது.",
+   "தேர்வு எழுதிய வேட்பாளர்கள் தங்களது பதிவு எண் மூலம் முடிவை அதிகாரப்பூர்வ இணையதளத்தில் சரிபார்த்துக்கொள்ளலாம் என ஆணையம் தெரிவித்துள்ளது.",
+   "இந்தத் தேர்வு முதல்நிலைத் தேர்வு, முதன்மைத் தேர்வு, நேர்காணல் ஆகிய மூன்று கட்டங்களில் நடைபெறும் என்பது குறிப்பிடத்தக்கது.",
+   "முதன்மைத் தேர்வில் தேர்ச்சி பெற்றவர்களுக்கான நேர்காணல் கட்டத்துக்கான அழைப்பு அடுத்த கட்டமாக வெளியிடப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "குடிமைப் பணித் தேர்வு ஒவ்வோர் ஆண்டும் மூன்று கட்டங்களில் நடத்தப்பட்டு, இறுதியில் நேர்காணல் மூலம் தேர்வு முடிவடையும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "UPSC",
+   "ஐஏஎஸ்",
+   "ஐஎஃப்எஸ்",
+   "ஐபிஎஸ்",
+   "முதன்மைத் தேர்வு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "UPSC Civil Services Mains Result 2026 Declared",
+   "lines": [
+    "The Union Public Service Commission has declared the mains result of the Civil Services Examination 2026.",
+    "The exam is conducted annually to select candidates for IAS, IFS, IPS and other allied services.",
+    "Candidates can check their results on the official website using their registration number, the commission said.",
+    "The selection process involves three stages, preliminary, mains, and interview, before final appointment.",
+    "The interview stage call letters for those who cleared the mains are expected to be issued next."
+   ]
+  },
+  "front_cat": "exam_jobs_deadline",
+  "image_query": "UPSC exam civil services India",
+  "wiki_subject": "Union Public Service Commission",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "24682f9df528",
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-11-06T14:24+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/upsc-cse-mains-result-2026-how-to-check/article71673065.ece",
+   "https://www.thehindu.com/news/national/upsc-cse-mains-result-2026-how-to-check/article71673065.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/b/bf/Union_public_service_commission.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Union Public Service Commission",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Union_Public_Service_Commission",
+   "symbolic": false
+  },
+  "audio": "data/audio/24682f9df528.mp3",
+  "created_ts": 1793955271.7710633,
+  "status": "published"
+ },
+ {
+  "headline": "டெல்லி-தேசிய தலைநகர் பகுதியின் காற்று மாசுக்கு வாகனப் புகைதான் முக்கியக் காரணம் என உச்ச நீதிமன்றம்",
+  "lines": [
+   "டெல்லி மற்றும் சுற்றுவட்டாரப் பகுதிகளில் காற்று மாசுபாட்டுக்கு வாகனப் புகைதான் முக்கியக் காரணம் என உச்ச நீதிமன்றம் தெரிவித்தது.",
+   "டெல்லியை காஜியாபாத், கிரேட்டர் நொய்டா, குருகிராம், ஃபரிதாபாத் ஆகிய பகுதிகளுடன் இணைக்கும் சாலைகளில் ஏராளமான வாகனங்கள் இயங்குவதாக நீதிபதிகள் குறிப்பிட்டனர்.",
+   "இந்த வாகனங்களின் எண்ணிக்கையே காற்று மாசுபாட்டை அதிகரிக்கும் முக்கியக் காரணியாக உள்ளது என நீதிமன்றம் கருத்துத் தெரிவித்தது.",
+   "டெல்லி தேசிய தலைநகர் பகுதியில் ஒவ்வோர் ஆண்டும் குளிர்காலத்தில் காற்று மாசு கடுமையாக அதிகரிப்பது வழக்கமாக உள்ளது.",
+   "இந்த விவகாரம் தொடர்பான மேலும் விசாரணையை உச்ச நீதிமன்றம் தொடரும் என்று எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "வாகனப் புகையைக் கட்டுப்படுத்த என்ன நடவடிக்கை எடுக்கப்படும் என்பதைக் கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "உச்ச நீதிமன்றம்",
+   "டெல்லி",
+   "காஜியாபாத்",
+   "கிரேட்டர் நொய்டா",
+   "குருகிராம்",
+   "ஃபரிதாபாத்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Vehicular emissions major pollution cause in Delhi, says Supreme Court",
+   "lines": [
+    "The Supreme Court said vehicular emissions are a major contributor to air pollution in Delhi and the surrounding region.",
+    "The bench noted the large number of vehicles plying on roads connecting Delhi with Ghaziabad, Greater Noida, Gurugram and Faridabad.",
+    "The court observed that this volume of vehicles is a key factor worsening air pollution levels.",
+    "Air pollution in the Delhi national capital region typically worsens every winter season.",
+    "Further hearings on the matter are expected to continue in the Supreme Court."
+   ],
+   "closing": "It remains to be seen what measures will be taken to curb vehicular emissions."
+  },
+  "front_cat": "routine",
+  "image_query": "Delhi traffic air pollution",
+  "wiki_subject": "Air pollution in Delhi",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "ffe0c71c7d44",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-11-06T14:23+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/supreme-court-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/article71673419.ece",
+   "https://www.thehindu.com/news/national/supreme-court-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/article71673419.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Poulluted_killer_fog_in_Delhi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Air pollution in Delhi",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Air_pollution_in_Delhi",
+   "symbolic": false
+  },
+  "audio": "data/audio/ffe0c71c7d44.mp3",
+  "created_ts": 1793955234.1267273,
+  "status": "published"
+ },
+ {
+  "headline": "காசிமேடு மீனவர்கள் படகுக்கு இயந்திரக் கோளாறு, ஐவர் காணாமல்",
+  "lines": [
+   "சென்னை காசிமேடு துறைமுகத்தைச் சேர்ந்த ஒன்பது மீனவர்கள் கடந்த அக்டோபர் இருபத்தி ஒன்பதாம் தேதி முரசு புயலின்போது கடலுக்குச் சென்றிருந்தனர்.",
+   "இவர்கள் பயணித்த படகு நவம்பர் மூன்றாம் தேதி ஆந்திரப் பிரதேசம் ராமாயபட்டினம் துறைமுகத்திற்கு அருகில் இயந்திரக் கோளாறுக்கு உள்ளானது.",
+   "ஒன்பது மீனவர்களில் ஐவர் தற்போதும் காணவில்லை என்று தமிழ்நாடு அரசு தெரிவித்துள்ளது.",
+   "காணாமல் போன மீனவர்களைத் தேடும் பணி தீவிரப்படுத்தப்பட்டுள்ளதாக அரசு அறிக்கை வெளியிட்டுள்ளது.",
+   "கடலோரக் காவல்படை மற்றும் மீன்வளத் துறை இணைந்து தேடுதல் நடவடிக்கையைத் தொடர்ந்து மேற்கொண்டு வருகின்றன."
+  ],
+  "closing": "முரசு புயலின்போது கடலுக்குச் சென்ற மீனவர்களின் பாதுகாப்பு குறித்த தேடுதல் பணி இன்னும் முடிவுக்கு வரவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "காசிமேடு",
+   "சென்னை",
+   "முரசு புயல்",
+   "ராமாயபட்டினம் துறைமுகம்",
+   "ஆந்திரப் பிரதேசம்",
+   "தமிழ்நாடு அரசு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Engine Failure Leaves Five Kasimedu Fishermen Missing",
+   "lines": [
+    "Nine fishermen from Kasimedu port in Chennai went out to sea on October 29 during Cyclone Murasu.",
+    "Their boat suffered engine failure near Ramayapatnam Port in Andhra Pradesh on November 3.",
+    "The Tamil Nadu government has said that five of the nine fishermen remain missing.",
+    "An official statement said the search for the missing fishermen has been intensified.",
+    "The Coast Guard and the Fisheries Department are jointly continuing the search operation."
+   ],
+   "closing": "The search operation for the safety of the fishermen who went to sea during Cyclone Murasu has not yet concluded.",
+   "closing_type": "watch"
+  },
+  "id": "483e1e4a2c8c",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-06T14:22+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/cyclone-murasu-search-for-five-missing-fishermen-intensified-says-tamil-nadu-government/article71673361.ece"
+  ],
+  "image": {
+   "url": "data/bank/fisher01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/483e1e4a2c8c.mp3",
+  "created_ts": 1793955123.374224,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "இந்திய எனஜிஓ ரீச் கொச்சன் பரிசு 2026 பெற்றது",
+  "lines": [
+   "இந்திய எனஜிஓ ரீச் காசநோய்த் தடுப்பு முயற்சிக்காக கொச்சன் பரிசு 2026ஐ வென்றுள்ளது.",
+   "கொரிய சுயாதீன தொண்டு நிறுவனமான கொச்சன் அறக்கட்டளை மற்றும் Stop TB Partnership நிறுவனத்தின் கூட்டுப் பணிமூலம் இப் பரிசு வழங்கப்படுகிறது.",
+   "கொச்சன் பரிசு காசநோயைத் தடுக்கும் பணிக்காக குறிப்பிடத்தக்க பங்களிப்பு செய்த நபர்கள் மற்றும் நிறுவனங்களை கம்மியிடுகிறது.",
+   "ரீச் இந்தியாவில் சுகாதாரத்திற்கான அணுகல் மற்றும் கல்வி வளர்ச்சியில் கவனம் செலுத்தும் எனஜிஓ ஆகும்.",
+   "இப் பரிசு உலக அளவிலான சுகாதாரப் பிரச்சினைகளுக்கு எதிரான போராட்டத்தில் இந்திய நிறுவனங்களின் பங்கை உயர்த்திக்காட்டுகிறது."
+  ],
+  "closing": "இந்தியாவில் காசநோய்த் தடுப்பு முயற்சிகள் தொடர்ந்து வலுவடைந்து வருகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "ரீச் (REACH)",
+   "கொச்சன் அறக்கட்டளை",
+   "யக்ஷ்மை நோய் தடுப்பு",
+   "இந்தியா"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Indian NGO REACH receives Kochon Prize 2026",
+   "lines": [
+    "The Indian NGO REACH has won the Kochon Prize 2026 for its contributions to disease prevention efforts.",
+    "The prize is awarded jointly by the Kochon Foundation, an independent Korean non-profit, and the global health partnership.",
+    "The Kochon Prize recognises individuals and organisations making significant contributions to fighting tuberculosis.",
+    "REACH is an NGO focused on improving access to healthcare and education in India.",
+    "This award recognises Indian organisations' efforts in addressing major global health challenges."
+   ],
+   "closing": "Tuberculosis prevention efforts in India continue to strengthen and expand."
+  },
+  "front_cat": "routine",
+  "image_query": "tuberculosis prevention health workers India",
+  "wiki_subject": "REACH (NGO)",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "542c421da4ec",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-06T14:19+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/indian-ngo-reach-receives-kochon-prize-2026/article71673359.ece"
+  ],
+  "image": {
+   "url": "data/bank/health08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/542c421da4ec.mp3",
+  "created_ts": 1793954987.7173016,
+  "status": "published"
+ },
+ {
+  "headline": "சட்டப் படிப்பு சேர்க்கைக்கான வயது வரம்பு நீக்கம்: பார் கவுன்சில் உச்ச நீதிமன்றத்திடம் தெரிவிப்பு",
+  "lines": [
+   "சட்டப் படிப்புகளில் சேர்க்கைக்கான வயது வரம்பை நீக்கியதாக இந்திய பார் கவுன்சில் உச்ச நீதிமன்றத்திடம் தெரிவித்துள்ளது.",
+   "இதுவரை சட்டப் படிப்பில் சேர குறிப்பிட்ட வயது வரம்பு நடைமுறையில் இருந்து வந்தது.",
+   "இந்த வயது வரம்பு தொடர்பான வழக்கு விசாரணையின்போது பார் கவுன்சில் சார்பில் இந்தத் தகவல் தெரிவிக்கப்பட்டது.",
+   "வழக்கு உச்ச நீதிமன்றத்தில் தற்போது விசாரணையில் உள்ளது.",
+   "இது தொடர்பாக உச்ச நீதிமன்றம் என்ன உத்தரவிடும் என்பது எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "வயது வரம்பு நீக்கப்பட்டால், அதிக வயதுடையோரும் சட்டப் படிப்பில் சேர வாய்ப்பு கிடைக்கும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Bar and Bench",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "இந்திய பார் கவுன்சில்",
+   "உச்ச நீதிமன்றம்",
+   "சட்டப் படிப்பு",
+   "வயது வரம்பு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Bar Council tells Supreme Court age limit for law courses withdrawn",
+   "lines": [
+    "The Bar Council of India informed the Supreme Court that it has withdrawn the age limit for admission to law courses.",
+    "An age limit for admission to law courses had reportedly been in place until now.",
+    "The Bar Council made this statement during a hearing on a case related to the age limit.",
+    "The matter is currently under consideration before the Supreme Court.",
+    "It remains to be seen what order the Supreme Court will pass on this issue."
+   ],
+   "closing": "With the age limit reportedly removed, older applicants may now get an opportunity to pursue law courses."
+  },
+  "front_cat": "policy_mass",
+  "image_query": "supreme court india building",
+  "wiki_subject": "Bar Council of India",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "b07a0f966243",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-11-06T14:19+05:30",
+  "links": [
+   "https://www.barandbench.com/news/age-limits-for-admission-to-law-courses-withdrawn-bci-tells-supreme-court"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/6/6e/Logo_of_Bar_Council_of_India.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Bar Council of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Bar_Council_of_India",
+   "symbolic": false
+  },
+  "audio": "data/audio/b07a0f966243.mp3",
+  "created_ts": 1793954968.5982614,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261106",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
   "lines": [
