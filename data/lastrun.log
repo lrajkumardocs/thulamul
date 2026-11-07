@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 26 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 27 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 18 புதியவை
+[fetch] Dinamani TN: 22 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 11 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] BBC World: 9 புதியவை
+[fetch] Al Jazeera: 18 புதியவை
 [fetch] ESPNcricinfo: 17 புதியவை
-[fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 13 புதியவை
-[fetch] Cinema Express: 29 புதியவை
+[fetch] The Hindu Sport: 30 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] Cinema Express: 28 புதியவை
 [fetch] The Hindu Tech: 25 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 11 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 10 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 27 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,77 +56,63 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f4df9ed9d50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x73394c714d50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
+[fetch] Dinamani Govt: 22 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 697 → நிகழ்வுகள் 633
-[triage] 633 → 69 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] சூரத் மாநகராட்சி (குஜராத்) மற்றும் தேசிய புத்தக அறக்கட்டளை (
-[skip] தெல்லியின் வாயு மாசுபடல் செய்தி; தமிழ்நாட்டுக்கு நேரடித் தொட
-[திருத்தம்] தியாகராஜன் குமாரராஜா இயக்கும் பாக்கெட் ந → தியாகராஜன் குமாரரஜா இயக்கும் 'பாக்கெட் ந
-[tts-edge] 6128730041c3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தியாகராஜன் குமாரரஜா இயக்கும் 'பாக்கெட் நாவல்' பண்டிகைக் காலத்தில் வெளியீடு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgnRBZiqUP9eGdb1Af8wy'}
+[run] புதியவை 642 → நிகழ்வுகள் 586
+[triage] 586 → 45 | காலி: tn:4, india:4, govt:4, world:3, economy:3
+[தரம்] மூலத்தில் இல்லாத எண்: 20 → ஒரு திருத்தம்
+[தரம்] தோல்வி — வெளியிடப்படவில்லை: மூலத்தில் இல்லாத எண்: 20
+[skip] IISER பர்ஹம்பூர் (ஒடிசா) மற்றும் ஐஐடி டெல்லி ஆகியவை தமிழ்நாட
+[skip] இது ஒரு வினாடி விளையாட்டு/கேள்விப்பத்திரம் மட்டுமே. வாசகரைப்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgnhLruKRgexhoqJRRbSo'}
+[திருத்தம்] பெரியார் அறிவுலகம் புத்தக சர்ச்சை: விளக் → பெரியார் அறிவுலகம் புத்தக சர்ச்சை: நடவடி
+[image] களஞ்சியம் (2 சொல்): பெரியார் அறிவுலகம் புத்தக சர்ச்சை:
+[tts-edge] 786065495587: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பெரியார் அறிவுலகம் புத்தக சர்ச்சை: நடவடிக்கை கோரி அரசியல் தலைவர்கள்
+[திருத்தம்] மனித-வன உயிரின மோதல் காயங்களுக்கான இழப்ப → மனித-வனயிரின மோதல் காயங்களுக்கான இழப்பீட
+[tts-edge] 16a4dfa85eb0: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மனித-வனயிரின மோதல் காயங்களுக்கான இழப்பீடு ஐந்து லட்சமாக உயர்வு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgnhXs72KJ2oGQGmfnkYL'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgnhaemDMjwG8WiaKLi2q'}
+[image] களஞ்சியம் (3 சொல்): வனவிலங்கு பாதிப்புக்கான இழப்பீட்டு
+[publish] வனவிலங்கு பாதிப்புக்கான இழப்பீட்டுத் தொகை உயர்வு: அரசாணை
+[திருத்தம்] 1.5 டிரில்லியன் டாலர் இலக்கிற்கு தமிழக அ → 1.5 டிரில்லியன் டாலர் இலக்கை எட்ட முதலீட
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: 1.5 டிரில்லியன் டாலர் இலக்கை எட்ட 
+[publish] 1.5 டிரில்லியன் டாலர் இலக்கை எட்ட முதலீட்டு ஊக்குவிப்பு ஆணையம் அமைப்பு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள் (என்ன சொன்னார், 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgnhktjsACEurYoAR6Nxz'}
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாடு மத்திய-மாநில உறவுகள் உயர
+[publish] தமிழ்நாடு மத்திய-மாநில உறவுகள் உயர்மட்டக் குழு கலைப்பு, பணி சட்ட ஆணையத்திடம் மாற்றம்
+[திருத்தம்] முன்னாள் அமைச்சர் பொய்யாமொழி காவல் நீட்ட → முன்னாள் அமைச்சர் பொய்யாமொழி காவல் நீட்ட
+[publish] முன்னாள் அமைச்சர் பொய்யாமொழி காவல் நீட்டிப்பு, தனியார் பள்ளி லஞ்ச வழக்கு
+[image] களஞ்சியம் (2 சொல்): சுதந்திரமான பத்திரிகைத் தொழில் நில
+[publish] சுதந்திரமான பத்திரிகைத் தொழில் நிலைத்திருப்பது பெரும் சவால்: கனிமொழி
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான தகவல் இல்லை. மேலும
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgnRHyUG9K2b7RAAccyDk'}
-[skip] உலகச் செய்தி என்றாலும் தமிழ்நாடு வாசகரைக் கோட்டை வைக்க மிகக்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgnRLprv4nrtVogzUdQ1c'}
-[image] களஞ்சியம் (2 சொல்): வீரமணி மீதான சிறார் பாலியல் வழக்கு
-[tts-edge] 4845c8cb7687: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வீரமணி மீதான சிறார் பாலியல் வழக்குகளுக்கு சிறப்பு வழக்கறிஞர்கள் நியமனம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்குத் தேவையான விவரங
+[திருத்தம்] ஆட்சியைக் கலைக்க முயன்றால் பெண்கள் புரட் → ஆட்சியைக் கலைக்க முயன்றால் பெண்கள் புரட்
+[publish] ஆட்சியைக் கலைக்க முயன்றால் பெண்கள் புரட்சி வெடிக்கும்: அமைச்சர் ஆதவ் அர்ஜுனா எச்சரிக்கை
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] சட்டவிரோத மணல் சுரங்க வழக்கில் துரைமுருக → சட்டவிரோத மணல் சுரங்க வழக்கில் துரைமுருக
-[hold] சட்டவிரோத மணல் சுரங்க வழக்கில் துரைமுருகன் மீது டிவிஏசி வழக்குப் பதிவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgnRZ5Gw1sLybS9po5Ui6'}
-[publish] நூலக நூல் கொள்முதலில் முறைகேடு - எழுத்தாளர் பெருமாள் முருகன் குற்றச்சாட்டு
-[திருத்தம்] பெரியார் அறிவுலகம் புத்தக கொள்முதல் சர்ச → பெரியார் அறிவுலகம் புத்தக கொள்முதல் சர்ச
-[publish] பெரியார் அறிவுலகம் புத்தக கொள்முதல் சர்ச்சை: ஊழலுக்கு திமுகைக் குற்றம் சாட்டிய விஜய்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgnRjELQg9XM8cqork2BT'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (யார்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கு விவரங்கள், எப்போது,
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் முழு விவரங்கள் 
-[skip] மூலத்தில் போதிய விவரம் இல்லை - தலைப்பு மணல் குவாரி வழக்கு பற
-[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு பெயர் தவிர வேறு விவரங்கள் இல்ல
-[திருத்தம்] திமுக முன்னாள் அமைச்சர் துரைமுருகன் மீது → திமுக முன்னாள் அமைச்சர் துரைமுருகன் உள்ள
-[தரம்] மூலத்தில் இல்லாத எண்: 24 → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): திமுக முன்னாள் அமைச்சர் துரைமுருகன
-[publish] திமுக முன்னாள் அமைச்சர் துரைமுருகன் உள்ளிட்டு பலர் மீது லஞ்ச ஒழிப்பு வழக்கு
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; என்ன நூலகங்கள
-[skip] மூலத்தில் தலைப்பு மட்டுமே தரப்பட்டுள்ளது; யார் சம்பந்தப்பட்ட
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்க நடுத்தர்ம் தேர்தல் த
-[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காத வெளிநாட்டுள்நாட்டுத் தொடர் — 
-[skip] பெரும்பாலும் வெளிநாட்டுக் ব্যক்তிগত அடுக்கு விபத்து. தமிழ்நா
-[skip] தانزانிয়া ஒரு வெளிநாட்டு நாடு; தமிழ்நாடு அல்லது இந்தியாவுக்
-[skip] அமெரிக்க அரசியல் உள் செய்தி — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
-[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாடு/இந்திய வாசகர் நேரடிச்
-[skip] வெளிநாட்டு உள்நாட்டு அரசாங்க ஒழுங்கு மாற்றம் — தமிழ்நாடு/இந்
-[skip] பராகுவே நாட்டின் உள்நாட்டு வங்கி நெருக்கடி மற்றும் அரசியல் வ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgniDQ5CSKPdVty5X31dV'}
+[நகல்] ஏற்கனவே வெளியானது: நூலக நூல் கொள்முதலில் முறைகேடு - எழுத்தாளர் பெருமாள் முருகன்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] சென்னைப் பல்கலைக்கழகம் - சதர்லேண்ட் நிறு → சென்னைப் பல்கலைக்கழகம் - சதர்லேண்ட் கிளோ
-[தரம்] தமிழ் அல்லாத எழுத்து: धनयि → ஒரு திருத்தம்
-[publish] சென்னைப் பல்கலைக்கழகம் - சதர்லேண்ட் கிளோபல் சர்வீசஸ் செயற்கை நுண்ணறிவு ஆய்வகம் அமைக்க ஒப்பந்தம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgnS9771dYaFYEg6GgXwr'}
-[திருத்தம்] குதிரை பேரம் புகார்: முன்னாள் மதுரை துணை → குதிரை பேரம் புகார்: முன்னாள் மதுரை துணை
-[image] களஞ்சியம் (3 சொல்): குதிரை பேரம் புகார்: முன்னாள் மதுர
-[publish] குதிரை பேரம் புகார்: முன்னாள் மதுரை துணை மேயர் பி.எம்.மன்னான் கைது, ஜாமீனில் விடுதலை
-[comic] கதை முயற்சி 1 தோல்வி: Expecting ',' delimiter: line 33 column 4 (char 2424)
-[comic] கதை: நிழலில் இருந்து ஒரு நண்பன்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3: பலகை 1-ஐப் போலவே உள்ளது (0.94) — மீண்டும் வரைகிறேன்
-[comic] பலகை 3: பலகை 1-ஐப் போலவே உள்ளது (0.86) — மீண்டும் வரைகிறேன்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-07.png · நாள் 59
-[rasi] ராசிபலன் தயார்
+[skip] VNMKV (மகாராஷ்டிரா) மற்றும் IIT தில்லி ஆகியவை தமிழ்நாட்டில் 
+[திருத்தம்] ஜம்மு காஷ்மீர் மிர்வாய்ஸ் தொடர்ந்து ஆறாம → ஜம்மு காஷ்மீர்: மிர்வாய்ஸ் ஆறாம் நாளாக வ
+[publish] ஜம்மு காஷ்மீர்: மிர்வாய்ஸ் ஆறாம் நாளாக வீட்டுக் காவலில், தொழுகை மறுக்கப்பட்டது
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: மிர்வாய்ஸ் தொடர் வீட்டுக் காவல்: பாதுகாப்பா, உரிமை மறுப்பா?
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [market] தங்கம் 22K ₹12644 · சென்செக்ஸ் 81028
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
@@ -134,4 +120,4 @@
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 8
+[done] feed 300 · pending 1 · எழுதியவை 9
