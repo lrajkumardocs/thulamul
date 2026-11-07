@@ -1,5 +1,293 @@
 [
  {
+  "id": "art_sports_20261107",
+  "headline": "தமிழகத்தின் பாரம்பரிய விளையாட்டுகள் பற்றிய ஒரு பார்வை",
+  "lines": [
+   "ஜல்லிக்கட்டு தமிழகத்தின் பழமையான காளை மாட்டு விளையாட்டாகும், இது பொங்கல் பண்டிகையின் போது நடைபெறுகிறது.",
+   "சிலம்பம் தமிழர்களின் பாரம்பரிய தற்காப்புக் கலையாகும், இதில் மூங்கில் கழிகள் பயன்படுத்தப்படுகின்றன.",
+   "கபடி தமிழகத்தில் பல நூற்றாண்டுகளாக கிராமப்புற விளையாட்டாக விளையாடப்பட்டு வந்துள்ளது, இன்று இது சர்வதேச அளவில் பிரபலமடைந்துள்ளது.",
+   "மல்யுத்தம் தமிழக கிராமங்களில் திருவிழாக்களின் ஒரு பகுதியாகவும் பாரம்பரிய பலப் பயிற்சியாகவும் நடைபெற்று வருகிறது.",
+   "தமிழகம் தடகளம், கபடி மற்றும் பிற துறைகளில் பல வீரர்களை தேசிய அணிகளுக்கு வழங்கியுள்ளது."
+  ],
+  "closing": "இந்த பாரம்பரிய விளையாட்டுகள் தமிழக கலாச்சாரத்தின் வலுவான அடையாளங்களாக தொடர்கின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-07"
+   }
+  ],
+  "topic": "sports",
+  "topic_ta": "விளையாட்டு",
+  "entities": [
+   "ஜல்லிக்கட்டு",
+   "கபடி"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-07T20:19+05:30",
+  "created_ts": 1794063001.3853862,
+  "audio": "data/audio/art_sports_20261107.mp3"
+ },
+ {
+  "headline": "அமெரிக்க இடைத்தேர்தல் முடிவுக்குப் பின் இந்திய பங்குச் சந்தை உயர்வு",
+  "lines": [
+   "அமெரிக்க இடைத்தேர்தல் முடிவுகளுக்குப் பிறகு, இந்திய பங்குச் சந்தை கணிசமான உயர்வைக் கண்டது.",
+   "நிஃப்டி குறியீடு பெரிய அளவில் உயர்ந்து, முக்கிய நகர்வு சராசரிக் கோடுகளை மீண்டும் எட்டியது.",
+   "இதனால் சந்தை உணர்வு மேம்பட்டுள்ளது என்பது உறுதியாகிறது.",
+   "நிஃப்டி குறியீடு 25,000 முதல் 25,200 வரையிலான எதிர்ப்புப் பகுதியை நெருங்கும் நிலையில், சிறிது விலை உறுதிப்படுத்தல் நிலவக்கூடும் என எதிர்பார்க்கப்படுகிறது.",
+   "பல்வேறு துறை குறியீடுகள், நிஃப்டி 500 குறியீட்டுடன் ஒப்பிடும்போது வெவ்வேறு வேகத்தைக் காட்டியுள்ளன."
+  ],
+  "closing": "அமெரிக்க இடைத்தேர்தல் முடிவுகள் முதலீட்டாளர்களுக்கு சாதகமாக அமைந்ததே இந்த உயர்வுக்கு முக்கியக் காரணமாகக் கருதப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "நிஃப்டி குறியீடு",
+   "இந்திய பங்குச் சந்தை",
+   "அமெரிக்க இடைத்தேர்தல்",
+   "நிஃப்டி 500"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Indian stock market rallies after US midterm election results",
+   "lines": [
+    "Following the results of the US midterm elections, the Indian stock market rallied significantly this week.",
+    "The Nifty index rose sharply and reclaimed key moving averages.",
+    "Market experts said investor sentiment had improved as a result.",
+    "With the Nifty approaching a resistance zone of 25,000 to 25,200, some price consolidation is expected, analysts said.",
+    "Various sector indices showed differing momentum when compared with the broader Nifty 500 index."
+   ],
+   "closing": "The favourable outcome of the US midterm elections for investors is seen as a key reason behind the rally."
+  },
+  "front_cat": "routine",
+  "image_query": "stock market trading floor india",
+  "wiki_subject": "NIFTY 50",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "0500002175e5",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-07T20:19+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-week-ahead-nifty-bulls-come-back-to-life-but-2500025200-zone-poses-next-test/articleshow/135634291.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/be/Nifty_50_Logo.svg/960px-Nifty_50_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · NIFTY 50",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/NIFTY_50",
+   "symbolic": false
+  },
+  "audio": "data/audio/0500002175e5.mp3",
+  "created_ts": 1794062954.850344,
+  "status": "published"
+ },
+ {
+  "headline": "நெதன்யாகுவுக்குப் பிறகு இஸ்ரேல் பிரதமர் யார்?",
+  "lines": [
+   "இஸ்ரேலின் நாடாளுமன்றத்தில் அரசாங்கம் அமைப்பதற்கு 61 உறுப்பினர்களின் ஆதரவு தேவை. அரபு கட்சிகளின் 19 இடங்கள் முக்கியமாக உள்ளன.",
+   "ஐசென்கோட் என்ற தலைவரிடம் அரபு கட்சிகளின் ஆதரவு இருந்தால் 67 நாடாளுமன்ற உறுப்பினர்களின் ஆதரவைப் பெறலாம்.",
+   "நெதன்யாகுவின் லிக்குட் கட்சியின் ஆட்சி முடிவுக்கு வந்த நிலையில் இஸ்ரேல் அரசியல் பெரும் மாற்றத்தின் விளிம்பில் உள்ளது.",
+   "அரபு கட்சிகளைப் பொதுவாக அரசாங்கம் அமைப்பில் சேர்க்கவில்லை என்பதால் இந்த முயற்சி வரலாற்றுச் சாட்சி நிகழ்வாகும்.",
+   "இஸ்ரேலின் அடுத்த அரசாங்கம் எவ்வாறு அமையும் என்பது வரும் வாரங்களில் தெரியவரும்."
+  ],
+  "closing": "சிக்கலான ஆட்சிக் கணிதத்தைச் சமாளிக்க இஸ்ரேல் சிக்கனமான பேச்சுவார்த்தைகளை எதிர்கொள்கிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "இஸ்ரேல்",
+   "நாடாளுமன்றம்",
+   "ஐசென்கோட்",
+   "அரபு கட்சிகள்",
+   "நெதன்யாகு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Who will be Israel's next prime minister after Netanyahu?",
+   "lines": [
+    "Israel's parliament requires 61 members to form a government. The 19 seats held by Arab parties are crucial.",
+    "If Eisenkot gains support from Arab parties, he could secure backing from 67 parliament members.",
+    "Netanyahu's Likud-led government has come to an end, and Israel faces significant political change.",
+    "Including Arab parties in government coalition formation is historically unprecedented in Israel.",
+    "How Israel's next government is formed will become clear in the coming weeks."
+   ],
+   "closing": "Israel faces delicate coalition negotiations to manage complex arithmetic of governance."
+  },
+  "front_cat": "govt_fall",
+  "image_query": "Israel parliament Knesset",
+  "wiki_subject": "Israeli legislative election",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "6b0132563443",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-07T20:17+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cw1l33qegzldo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/6b0132563443.mp3",
+  "created_ts": 1794062860.9016483,
+  "status": "published"
+ },
+ {
+  "headline": "தீபாவளியில் பைக் சாகசம் செய்வோர் மீது நடவடிக்கை: காவல்துறை எச்சரிக்கை",
+  "lines": [
+   "தீபாவளி பண்டிகையை முன்னிட்டு, பைக் சாகசங்களில் ஈடுபடுவோர் மீது கடும் நடவடிக்கை எடுக்கப்படும் என தமிழக காவல்துறை எச்சரிக்கை விடுத்துள்ளது.",
+   "ஆபத்தான முறையில் இருசக்கர வாகனம் ஓட்டுவோர் மீது வழக்குப் பதிவு செய்யப்படும் என தெரிவிக்கப்பட்டுள்ளது.",
+   "பொதுமக்களின் பாதுகாப்பைக் கருத்தில் கொண்டே இந்த நடவடிக்கை மேற்கொள்ளப்படுவதாக காவல்துறை தெரிவித்துள்ளது.",
+   "பண்டிகை நாட்களில் இளைஞர்கள் சாலைகளில் வேகமாகவும் ஆபத்தான முறையிலும் வாகனம் ஓட்டுவது வழக்கமாக பதிவாகி வருகிறது.",
+   "தீபாவளி நாட்களில் முக்கியச் சாலைகளில் காவல்துறையினர் கண்காணிப்பை அதிகரிக்க உள்ளனர்."
+  ],
+  "closing": "பண்டிகை நாட்களில் சாலை விபத்துகளைத் தடுக்கும் நோக்கில் இந்த எச்சரிக்கை வெளியிடப்பட்டுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-07"
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "தமிழக காவல்துறை",
+   "தீபாவளி",
+   "இருசக்கர வாகனம்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Tamil Nadu Police Warn Against Bike Stunts During Diwali",
+   "lines": [
+    "Ahead of Diwali, Tamil Nadu Police have warned that strict action will be taken against those performing bike stunts.",
+    "Cases will be registered against those riding two-wheelers in a dangerous manner, police said.",
+    "Police stated that the action is being taken keeping public safety in mind.",
+    "It has become common during festival days for youths to ride vehicles at high speed and in a risky manner on roads.",
+    "Police will step up patrolling on major roads during the Diwali days."
+   ],
+   "closing": "The warning has been issued with the aim of preventing road accidents during the festive season."
+  },
+  "front_cat": "routine",
+  "image_query": "traffic police patrol India",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "d175204e1983",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-07T20:15+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/07/diwali-strict-action-against-those-engaging-in-bike-stunts-police-warning"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d175204e1983.mp3",
+  "created_ts": 1794062719.8881,
+  "status": "published"
+ },
+ {
+  "headline": "தேர்தல் பணியாற்றிய அரசு ஊழியர்களுக்கு ₹45,000 வரை சிறப்பு ஊதியம்",
+  "lines": [
+   "தமிழ்நாடு சட்டமன்றத் தேர்தல் பணியில் ஈடுபட்ட அரசு ஊழியர்களுக்கு தமிழ்நாடு அரசு சிறப்பு ஊதியம் அறிவித்துள்ளது.",
+   "பணியில் ஈடுபட்ட ஊழியர்களுக்கு அதிகபட்சம் 45,000 ரூபாய் வரை ஊதியமாக வழங்கப்படும்.",
+   "இதற்காக தமிழ்நாடு அரசு மொத்தம் ₹198 கோடி ஒதுக்கீடு செய்துள்ளது.",
+   "தேர்தல் பணியில் பங்கேற்ற பல்வேறு துறை ஊழியர்களுக்கும் இந்த ஊதியம் பொருந்தும் என தெரிவிக்கப்பட்டுள்ளது.",
+   "இந்தத் தொகை விரைவில் பணியாளர்களின் வங்கிக் கணக்குகளில் செலுத்தப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "தேர்தல் பணியில் ஈடுபட்ட ஊழியர்களுக்கான இந்த ஊக்கத்தொகை குறித்த முழு விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-07"
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "அரசு ஊழியர்கள்",
+   "சட்டமன்றத் தேர்தல்",
+   "198 கோடி ஒதுக்கீடு"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Tamil Nadu offers up to Rs 45,000 for poll duty staff",
+   "lines": [
+    "The Tamil Nadu government has announced special pay for government employees who worked on assembly election duty.",
+    "Employees who performed poll duty will receive up to forty five thousand rupees as special pay.",
+    "The state government has allocated a total of one hundred and ninety eight crore rupees for this purpose.",
+    "Employees from various departments who took part in election duty are said to be eligible for this payment.",
+    "The amount is expected to be credited to employees bank accounts soon."
+   ],
+   "closing": "Full details on the disbursement schedule for this election duty incentive have not yet been released."
+  },
+  "front_cat": "price_policy",
+  "image_query": "Tamil Nadu election officials",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c90ce5035f35",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-11-07T20:13+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/07/incentives-of-up-to-rs-45000-for-govt-employees-who-worked-on-election-duty"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Polling_officials_checking_the_Electronic_Voting_Machines_%28EVM%60s%29_and_other_necessary_inputs_required_for_the_Assembly_Election%2C_in_Tamil_Nadu_on_April_13%2C_2011.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · Election Commission of India\n",
+   "license": "GODL-India",
+   "symbolic": true
+  },
+  "audio": "data/audio/c90ce5035f35.mp3",
+  "created_ts": 1794062626.6843784,
+  "status": "published"
+ },
+ {
   "id": "art_health_20261107",
   "headline": "குளிர்கால தொடக்கத்தில் உடல்நலம் காக்கும் வழிமுறைகள்",
   "lines": [
@@ -18889,328 +19177,5 @@
   "published_at": "2026-10-29T17:41+05:30",
   "created_ts": 1793275932.7335927,
   "audio": "data/audio/art_sports_20261029.mp3"
- },
- {
-  "headline": "டிரெண்ட் நிறுவனம் நிகர லாபம் 25% உயர்வு, 468 கோடி ரூபாய்",
-  "lines": [
-   "டாடா குழுமத்தின் சில்லறை விற்பனை நிறுவனமான டிரெண்ட், நடப்பு நிதியாண்டின் இரண்டாம் காலாண்டு முடிவுகளை வெளியிட்டது.",
-   "நிறுவனத்தின் ஒருங்கிணைந்த நிகர லாபம் 25.3% உயர்ந்து 468 கோடி ரூபாயாக பதிவானது.",
-   "இதே காலாண்டில் நிறுவனத்தின் மொத்த வருவாய் 21.9% அதிகரித்து 5,873 கோடி ரூபாயை எட்டியது.",
-   "வட்டி மற்றும் வரி விலக்கிய லாபம் 29.6% உயர்ந்து 1,054 கோடி ரூபாயாக இருந்தது; லாப வரம்பு 18.2% ஆக மேம்பட்டது.",
-   "வெஸ்ட்சைட், ஜூடியோ உள்ளிட்ட தனது வாழ்க்கை முறை அங்காடிகளின் எண்ணிக்கையை நிறுவனம் தொடர்ந்து விரிவுபடுத்தி வருகிறது."
-  ],
-  "closing": "வெஸ்ட்சைட் மற்றும் ஜூடியோ பிராண்டுகள் மூலம் நாடு முழுவதும் கடைகளை இயக்கி வரும் நிறுவனமாக டிரெண்ட் உள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "டிரெண்ட்",
-   "டாடா குழுமம்",
-   "வெஸ்ட்சைட்",
-   "ஜூடியோ"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Trent Q2 Net Profit Jumps 25 Percent To Rs 468 Crore",
-   "lines": [
-    "Tata Group retail company Trent announced its results for the second quarter of the current financial year.",
-    "The company's consolidated net profit rose 25.3 percent year on year to reach Rs 468 crore.",
-    "Total revenue for the same quarter grew 21.9 percent to touch Rs 5,873 crore.",
-    "Earnings before interest and tax rose 29.6 percent to Rs 1,054 crore, with margins improving to 18.2 percent.",
-    "The company continues to expand its footprint of lifestyle stores including Westside and Zudio."
-   ],
-   "closing": "Trent operates stores across the country under brands including Westside and Zudio."
-  },
-  "front_cat": "routine",
-  "image_query": "retail store shopping india",
-  "wiki_subject": "Trent",
-  "id": "560d355dd5d4",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-29T17:41+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/earnings/trent-q2-results-profit-jumps-25-yoy-to-rs-468-crore-revenue-climbs-22/articleshow/135302253.cms"
-  ],
-  "image": {
-   "url": "data/bank/economy01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/560d355dd5d4.mp3",
-  "created_ts": 1793275919.0922542,
-  "person_en": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "இசையமைப்பாளர் இளையராஜாவின் கிதார் கலைஞர் சாதா மாஸ்டர் மறைந்துவிட்டார்",
-  "lines": [
-   "புகழ்பெற்ற இசையமைப்பாளர் இளையராஜாவுடன் பணிபுரிந்த மூத்த கிதார் கலைஞர் சாதா மாஸ்டர் எண்பது வயதில் மறைந்துவிட்டார்.",
-   "சாதனந்தம் என்ற இயற்பெயர் கொண்ட இவர் இளையராஜாவின் நூற்றுக்கணக்கான பாடல்களில் கிதார் வாசித்து அவரது இசைக்குழுவை வளமாக்கினார்.",
-   "இளையராஜா தனது செய்திக்குறிப்பில் சாதா மாஸ்டரின் மறைவுக்கு வருத்தம் தெரிவித்துக் கூறினார்: ஆரம்ப காலங்களிலிருந்தே அவர் என்னுடன் இருந்தவர்.",
-   "தமிழ் சினிமாவின் பொற்காலத்தில் கிதார் இசையை உயர்ந்த தளத்துக்குக் கொண்டுசென்ற கலைஞர்களில் சாதா மாஸ்டர் முக்கியமான இடம் வகிக்கிறார்.",
-   "இவரின் கலைப்பணி எண்ணிலடங்கா மக்களின் நினைவுகளுடன் நீங்கா இடம் பெற்றிருக்கும்."
-  ],
-  "closing": "தமிழ் சினிமாவின் இசை வரலாற்றில் சாதா மாஸ்டரின் கொடை ஒற்றையொளியாக தொடர்ந்து பிரகாசிக்கும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Cinema",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "cinema",
-  "entities": [
-   "சாதா மாஸ்டர்",
-   "இளையராஜா",
-   "தமிழ் சினிமா",
-   "கிதார் இசை"
-  ],
-  "confidence": 0.92,
-  "en": {
-   "headline": "Sada 'Master', acclaimed guitarist who enriched Ilaiyaraaja's compositions, passes away at 80",
-   "lines": [
-    "Sada 'Master', a renowned guitarist who collaborated with legendary composer Ilaiyaraaja, has passed away at the age of 80.",
-    "Sadanandam, as he was known by birth name, played guitar on hundreds of Ilaiyaraaja's compositions, enhancing their richness and depth.",
-    "Ilaiyaraaja expressed his sorrow in a statement, saying: I am saddened by Sadanandam's death. He was with me from the early days.",
-    "Sada 'Master' holds a significant place among guitarists who elevated the instrument to a higher artistic level during Tamil cinema's golden era.",
-    "His artistic contributions will remain a lasting memory in the hearts of countless listeners."
-   ],
-   "closing": "Sada 'Master's legacy in Tamil cinema's musical history will continue to shine as a beacon of artistic brilliance."
-  },
-  "front_cat": "cinema_culture",
-  "image_query": "Ilaiyaraaja music composer",
-  "wiki_subject": "Ilaiyaraaja",
-  "person_en": "Ilaiyaraaja",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "1c5c71a27be5",
-  "topic_ta": "சினிமா",
-  "published_at": "2026-10-29T17:40+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/sada-master-ace-guitarist-who-enriched-ilaiyaraajas-compositions-dies-at-80/article71639851.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Ilaiyaraaja",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Ilaiyaraaja",
-   "symbolic": false
-  },
-  "audio": "data/audio/1c5c71a27be5.mp3",
-  "created_ts": 1793275846.1738722,
-  "status": "published"
- },
- {
-  "headline": "கோத்ரேஜ் கன்சூமர் லாபம் 14 சதவீதம் உயர்வு, பங்குக்கு 5 ரூபாய் ஈவுத்தொகை",
-  "lines": [
-   "கோத்ரேஜ் கன்சூமர் பொருட்கள் நிறுவனம் நடப்பு நிதியாண்டின் இரண்டாம் காலாண்டு முடிவுகளை வெளியிட்டது.",
-   "நிகர லாபம் 522.92 கோடி ரூபாயாக உயர்ந்துள்ளது, இது கடந்த ஆண்டு இதே காலாண்டை விட 13.8 சதவீதம் அதிகம்.",
-   "மொத்த வருவாய் 4,413.09 கோடி ரூபாயாக பதிவானது, இது 19 சதவீத வளர்ச்சியைக் குறிக்கிறது.",
-   "வெளிநாட்டு வணிகச் செயல்பாடுகளும் வீட்டுப் பராமரிப்புப் பிரிவு வளர்ச்சியும் இந்த முன்னேற்றத்திற்கு துணை புரிந்ததாக நிறுவனம் தெரிவித்துள்ளது.",
-   "பங்குதாரர்களுக்கு ஒரு பங்குக்கு 5 ரூபாய் இடைக்கால ஈவுத்தொகை வழங்க நிறுவனம் அறிவித்துள்ளது."
-  ],
-  "closing": "கோத்ரேஜ் கன்சூமர் பொருட்கள் நாடு முழுவதும் வீட்டுப் பராமரிப்பு, தனிநபர் பராமரிப்பு பொருட்களை உற்பத்தி செய்யும் முன்னணி நிறுவனங்களில் ஒன்றாகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "கோத்ரேஜ் கன்சூமர் புராடக்ட்ஸ்",
-   "இந்தியா",
-   "வீட்டுப் பராமரிப்பு",
-   "ஈவுத்தொகை"
-  ],
-  "confidence": 0.88,
-  "en": {
-   "headline": "Godrej Consumer profit rises 14 percent, announces Rs 5 dividend per share",
-   "lines": [
-    "Godrej Consumer Products released its second quarter results for the current financial year.",
-    "Net profit rose to Rs 523 crore, up 14 percent compared to the same quarter last year.",
-    "Total revenue was recorded at Rs 4,413 crore, marking a 19 percent growth.",
-    "The company said strong international operations and growth in the home care segment supported this performance.",
-    "The company announced an interim dividend of Rs 5 per share for shareholders."
-   ],
-   "closing": "Godrej Consumer Products is one of the leading manufacturers of home care and personal care products across the country."
-  },
-  "front_cat": "routine",
-  "image_query": "Godrej Consumer Products company",
-  "wiki_subject": "Godrej Consumer Products",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "4f293cf37d47",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-10-29T17:39+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/earnings/godrej-consumer-q2-results-profit-rises-14-yoy-to-rs-523-crore-revenue-jumps-19-co-declares-rs-5/share-dividend/articleshow/135306134.cms"
-  ],
-  "image": {
-   "url": "data/bank/economy01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/4f293cf37d47.mp3",
-  "created_ts": 1793275800.598551,
-  "status": "published"
- },
- {
-  "headline": "நிபா நோயாளிகளுக்குக் காலாவதியான மருந்து கொடுக்கப்பட்ட சந்தேகம், விசாரணை",
-  "lines": [
-   "கேரளாவில் நிபா வைரஸ் நோயால் பாதிக்கப்பட்டவர்களுக்குக் காலாவதியான ரெம்டிசிவிர் மருந்து கொடுக்கப்பட்டிருக்கலாம் என்ற சந்தேகம் எழுந்துள்ளது.",
-   "இதுதொடர்பாக மருத்துவ வாரியம் விசாரணை நடத்தவுள்ளதாகக் கேரள சுகாதார அமைச்சர் கே.முரளிதரன் தெரிவித்தார்.",
-   "காலாவதியான மருந்து பயன்பாடு நிபா நோயாளிகளின் மரணத்திற்குக் காரணமாக இருந்ததா என்பதை வாரியம் ஆராயும் என்று அவர் கூறினார்.",
-   "இந்த சம்பவம் தொடர்பாக அரசு இதுவரை முழுமையான அதிகாரப்பூர்வ அறிக்கை வெளியிடவில்லை.",
-   "மருத்துவ வாரியத்தின் விசாரணை முடிவுகளைப் பொறுத்தே அடுத்த நடவடிக்கை மேற்கொள்ளப்படும் என்று அமைச்சர் தெரிவித்தார்."
-  ],
-  "closing": "நிபா வைரஸ் கேரளாவில் அவ்வப்போது பரவி உயிரிழப்புகளை ஏற்படுத்திவருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "கேரளா",
-   "நிபா வைரஸ்",
-   "கே.முரளிதரன்",
-   "ரெம்டிசிவிர்",
-   "மருத்துவக் குழு"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Keralam Probes If Expired Drugs Given to Nipah Patients",
-   "lines": [
-    "It has emerged that Nipah virus patients in Keralam may have been given expired Remdesivir medicine.",
-    "Keralam Health Minister K. Muraleedharan said a medical board will investigate the matter.",
-    "He said the board will examine whether the use of expired drugs led to the deaths of Nipah patients.",
-    "The government has not yet issued a complete official statement regarding the incident.",
-    "The minister said further action will depend on the findings of the medical board's inquiry."
-   ],
-   "closing": "Nipah virus has periodically spread in Keralam, causing deaths in the state."
-  },
-  "front_cat": "health_emergency",
-  "image_query": "",
-  "wiki_subject": "Nipah virus infection",
-  "person_en": "K. Muraleedharan",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "7928c3c7f455",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-10-29T17:38+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/kerala/expired-drugs-possibly-given-to-nipah-patients-says-keralam-health-minister/article71640126.ece",
-   "https://www.thehindu.com/news/national/kerala/expired-drugs-possibly-given-to-nipah-patients-says-keralam-health-minister/article71640126.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Henipavirus_structure.svg/500px-Henipavirus_structure.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Nipah virus infection",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Nipah_virus_infection",
-   "symbolic": false
-  },
-  "audio": "data/audio/7928c3c7f455.mp3",
-  "created_ts": 1793275710.385995,
-  "status": "published"
- },
- {
-  "headline": "அக்டோபர் 31ல் கனிமொழி தலைமையில் திமுக மகளிரணி கண்டன ஆர்ப்பாட்டம்",
-  "lines": [
-   "திமுக மகளிர் அணி சார்பில் அக்டோபர் 31ல் கண்டன ஆர்ப்பாட்டம் நடைபெற உள்ளது.",
-   "இந்த ஆர்ப்பாட்டத்திற்கு திமுக மூத்த தலைவர் கனிமொழி தலைமை தாங்குவார் என அறிவிக்கப்பட்டுள்ளது.",
-   "மாநிலத்தில் சட்டம் - ஒழுங்கு நிலை தொடர்பாக கண்டனம் தெரிவிக்கும் வகையில் இந்த ஆர்ப்பாட்டம் ஏற்பாடு செய்யப்பட்டுள்ளது.",
-   "ஆர்ப்பாட்டம் நடைபெறும் இடம் மற்றும் முழு விவரங்கள் கட்சி தரப்பில் இதுவரை வெளியிடப்படவில்லை.",
-   "அக்டோபர் 31ல் இந்த ஆர்ப்பாட்டம் நடைபெறவுள்ள நிலையில், மேலும் விவரங்கள் எதிர்பார்க்கப்படுகின்றன."
-  ],
-  "closing": "ஆர்ப்பாட்டத்தின் காரணம் மற்றும் இடம் தொடர்பான முழு விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": "2026-10-29"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "திமுக மகளிர் அணி",
-   "கனிமொழி",
-   "திமுக",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "DMK Women's Wing to Hold Protest Led by Kanimozhi on October 31",
-   "lines": [
-    "The DMK Women's Wing will hold a condemnation protest on October thirty first.",
-    "Senior DMK leader Kanimozhi is set to lead the protest, according to the announcement.",
-    "The protest has been organised to condemn the state's law and order situation.",
-    "The location and full details of the protest have not yet been released by the party.",
-    "With the protest set for October thirty first, further details are awaited."
-   ],
-   "closing": "The exact reason and venue for the protest have not yet been made public."
-  },
-  "front_cat": "routine",
-  "image_query": "Kanimozhi",
-  "wiki_subject": "Kanimozhi",
-  "person_en": "Kanimozhi",
-  "urgent": false,
-  "affected": "",
-  "id": "0466427eaf7c",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-10-29T17:37+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/29/law-and-order-dmk-women-wing-protest-on-oct-31"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Kanimozhi_Karunanidhi_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Kanimozhi Rajathi Karunanidhi",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Kanimozhi_Rajathi_Karunanidhi",
-   "symbolic": false
-  },
-  "audio": "data/audio/0466427eaf7c.mp3",
-  "created_ts": 1793275645.6272864,
-  "status": "published"
  }
 ]

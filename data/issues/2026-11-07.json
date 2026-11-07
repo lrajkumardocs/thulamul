@@ -1,5 +1,293 @@
 [
  {
+  "id": "art_sports_20261107",
+  "headline": "தமிழகத்தின் பாரம்பரிய விளையாட்டுகள் பற்றிய ஒரு பார்வை",
+  "lines": [
+   "ஜல்லிக்கட்டு தமிழகத்தின் பழமையான காளை மாட்டு விளையாட்டாகும், இது பொங்கல் பண்டிகையின் போது நடைபெறுகிறது.",
+   "சிலம்பம் தமிழர்களின் பாரம்பரிய தற்காப்புக் கலையாகும், இதில் மூங்கில் கழிகள் பயன்படுத்தப்படுகின்றன.",
+   "கபடி தமிழகத்தில் பல நூற்றாண்டுகளாக கிராமப்புற விளையாட்டாக விளையாடப்பட்டு வந்துள்ளது, இன்று இது சர்வதேச அளவில் பிரபலமடைந்துள்ளது.",
+   "மல்யுத்தம் தமிழக கிராமங்களில் திருவிழாக்களின் ஒரு பகுதியாகவும் பாரம்பரிய பலப் பயிற்சியாகவும் நடைபெற்று வருகிறது.",
+   "தமிழகம் தடகளம், கபடி மற்றும் பிற துறைகளில் பல வீரர்களை தேசிய அணிகளுக்கு வழங்கியுள்ளது."
+  ],
+  "closing": "இந்த பாரம்பரிய விளையாட்டுகள் தமிழக கலாச்சாரத்தின் வலுவான அடையாளங்களாக தொடர்கின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-07"
+   }
+  ],
+  "topic": "sports",
+  "topic_ta": "விளையாட்டு",
+  "entities": [
+   "ஜல்லிக்கட்டு",
+   "கபடி"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-07T20:19+05:30",
+  "created_ts": 1794063001.3853862,
+  "audio": "data/audio/art_sports_20261107.mp3"
+ },
+ {
+  "headline": "அமெரிக்க இடைத்தேர்தல் முடிவுக்குப் பின் இந்திய பங்குச் சந்தை உயர்வு",
+  "lines": [
+   "அமெரிக்க இடைத்தேர்தல் முடிவுகளுக்குப் பிறகு, இந்திய பங்குச் சந்தை கணிசமான உயர்வைக் கண்டது.",
+   "நிஃப்டி குறியீடு பெரிய அளவில் உயர்ந்து, முக்கிய நகர்வு சராசரிக் கோடுகளை மீண்டும் எட்டியது.",
+   "இதனால் சந்தை உணர்வு மேம்பட்டுள்ளது என்பது உறுதியாகிறது.",
+   "நிஃப்டி குறியீடு 25,000 முதல் 25,200 வரையிலான எதிர்ப்புப் பகுதியை நெருங்கும் நிலையில், சிறிது விலை உறுதிப்படுத்தல் நிலவக்கூடும் என எதிர்பார்க்கப்படுகிறது.",
+   "பல்வேறு துறை குறியீடுகள், நிஃப்டி 500 குறியீட்டுடன் ஒப்பிடும்போது வெவ்வேறு வேகத்தைக் காட்டியுள்ளன."
+  ],
+  "closing": "அமெரிக்க இடைத்தேர்தல் முடிவுகள் முதலீட்டாளர்களுக்கு சாதகமாக அமைந்ததே இந்த உயர்வுக்கு முக்கியக் காரணமாகக் கருதப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "நிஃப்டி குறியீடு",
+   "இந்திய பங்குச் சந்தை",
+   "அமெரிக்க இடைத்தேர்தல்",
+   "நிஃப்டி 500"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Indian stock market rallies after US midterm election results",
+   "lines": [
+    "Following the results of the US midterm elections, the Indian stock market rallied significantly this week.",
+    "The Nifty index rose sharply and reclaimed key moving averages.",
+    "Market experts said investor sentiment had improved as a result.",
+    "With the Nifty approaching a resistance zone of 25,000 to 25,200, some price consolidation is expected, analysts said.",
+    "Various sector indices showed differing momentum when compared with the broader Nifty 500 index."
+   ],
+   "closing": "The favourable outcome of the US midterm elections for investors is seen as a key reason behind the rally."
+  },
+  "front_cat": "routine",
+  "image_query": "stock market trading floor india",
+  "wiki_subject": "NIFTY 50",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "0500002175e5",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-07T20:19+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-week-ahead-nifty-bulls-come-back-to-life-but-2500025200-zone-poses-next-test/articleshow/135634291.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/be/Nifty_50_Logo.svg/960px-Nifty_50_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · NIFTY 50",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/NIFTY_50",
+   "symbolic": false
+  },
+  "audio": "data/audio/0500002175e5.mp3",
+  "created_ts": 1794062954.850344,
+  "status": "published"
+ },
+ {
+  "headline": "நெதன்யாகுவுக்குப் பிறகு இஸ்ரேல் பிரதமர் யார்?",
+  "lines": [
+   "இஸ்ரேலின் நாடாளுமன்றத்தில் அரசாங்கம் அமைப்பதற்கு 61 உறுப்பினர்களின் ஆதரவு தேவை. அரபு கட்சிகளின் 19 இடங்கள் முக்கியமாக உள்ளன.",
+   "ஐசென்கோட் என்ற தலைவரிடம் அரபு கட்சிகளின் ஆதரவு இருந்தால் 67 நாடாளுமன்ற உறுப்பினர்களின் ஆதரவைப் பெறலாம்.",
+   "நெதன்யாகுவின் லிக்குட் கட்சியின் ஆட்சி முடிவுக்கு வந்த நிலையில் இஸ்ரேல் அரசியல் பெரும் மாற்றத்தின் விளிம்பில் உள்ளது.",
+   "அரபு கட்சிகளைப் பொதுவாக அரசாங்கம் அமைப்பில் சேர்க்கவில்லை என்பதால் இந்த முயற்சி வரலாற்றுச் சாட்சி நிகழ்வாகும்.",
+   "இஸ்ரேலின் அடுத்த அரசாங்கம் எவ்வாறு அமையும் என்பது வரும் வாரங்களில் தெரியவரும்."
+  ],
+  "closing": "சிக்கலான ஆட்சிக் கணிதத்தைச் சமாளிக்க இஸ்ரேல் சிக்கனமான பேச்சுவார்த்தைகளை எதிர்கொள்கிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "இஸ்ரேல்",
+   "நாடாளுமன்றம்",
+   "ஐசென்கோட்",
+   "அரபு கட்சிகள்",
+   "நெதன்யாகு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Who will be Israel's next prime minister after Netanyahu?",
+   "lines": [
+    "Israel's parliament requires 61 members to form a government. The 19 seats held by Arab parties are crucial.",
+    "If Eisenkot gains support from Arab parties, he could secure backing from 67 parliament members.",
+    "Netanyahu's Likud-led government has come to an end, and Israel faces significant political change.",
+    "Including Arab parties in government coalition formation is historically unprecedented in Israel.",
+    "How Israel's next government is formed will become clear in the coming weeks."
+   ],
+   "closing": "Israel faces delicate coalition negotiations to manage complex arithmetic of governance."
+  },
+  "front_cat": "govt_fall",
+  "image_query": "Israel parliament Knesset",
+  "wiki_subject": "Israeli legislative election",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "6b0132563443",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-07T20:17+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cw1l33qegzldo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/6b0132563443.mp3",
+  "created_ts": 1794062860.9016483,
+  "status": "published"
+ },
+ {
+  "headline": "தீபாவளியில் பைக் சாகசம் செய்வோர் மீது நடவடிக்கை: காவல்துறை எச்சரிக்கை",
+  "lines": [
+   "தீபாவளி பண்டிகையை முன்னிட்டு, பைக் சாகசங்களில் ஈடுபடுவோர் மீது கடும் நடவடிக்கை எடுக்கப்படும் என தமிழக காவல்துறை எச்சரிக்கை விடுத்துள்ளது.",
+   "ஆபத்தான முறையில் இருசக்கர வாகனம் ஓட்டுவோர் மீது வழக்குப் பதிவு செய்யப்படும் என தெரிவிக்கப்பட்டுள்ளது.",
+   "பொதுமக்களின் பாதுகாப்பைக் கருத்தில் கொண்டே இந்த நடவடிக்கை மேற்கொள்ளப்படுவதாக காவல்துறை தெரிவித்துள்ளது.",
+   "பண்டிகை நாட்களில் இளைஞர்கள் சாலைகளில் வேகமாகவும் ஆபத்தான முறையிலும் வாகனம் ஓட்டுவது வழக்கமாக பதிவாகி வருகிறது.",
+   "தீபாவளி நாட்களில் முக்கியச் சாலைகளில் காவல்துறையினர் கண்காணிப்பை அதிகரிக்க உள்ளனர்."
+  ],
+  "closing": "பண்டிகை நாட்களில் சாலை விபத்துகளைத் தடுக்கும் நோக்கில் இந்த எச்சரிக்கை வெளியிடப்பட்டுள்ளது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-07"
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "தமிழக காவல்துறை",
+   "தீபாவளி",
+   "இருசக்கர வாகனம்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Tamil Nadu Police Warn Against Bike Stunts During Diwali",
+   "lines": [
+    "Ahead of Diwali, Tamil Nadu Police have warned that strict action will be taken against those performing bike stunts.",
+    "Cases will be registered against those riding two-wheelers in a dangerous manner, police said.",
+    "Police stated that the action is being taken keeping public safety in mind.",
+    "It has become common during festival days for youths to ride vehicles at high speed and in a risky manner on roads.",
+    "Police will step up patrolling on major roads during the Diwali days."
+   ],
+   "closing": "The warning has been issued with the aim of preventing road accidents during the festive season."
+  },
+  "front_cat": "routine",
+  "image_query": "traffic police patrol India",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "d175204e1983",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-07T20:15+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/07/diwali-strict-action-against-those-engaging-in-bike-stunts-police-warning"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/d175204e1983.mp3",
+  "created_ts": 1794062719.8881,
+  "status": "published"
+ },
+ {
+  "headline": "தேர்தல் பணியாற்றிய அரசு ஊழியர்களுக்கு ₹45,000 வரை சிறப்பு ஊதியம்",
+  "lines": [
+   "தமிழ்நாடு சட்டமன்றத் தேர்தல் பணியில் ஈடுபட்ட அரசு ஊழியர்களுக்கு தமிழ்நாடு அரசு சிறப்பு ஊதியம் அறிவித்துள்ளது.",
+   "பணியில் ஈடுபட்ட ஊழியர்களுக்கு அதிகபட்சம் 45,000 ரூபாய் வரை ஊதியமாக வழங்கப்படும்.",
+   "இதற்காக தமிழ்நாடு அரசு மொத்தம் ₹198 கோடி ஒதுக்கீடு செய்துள்ளது.",
+   "தேர்தல் பணியில் பங்கேற்ற பல்வேறு துறை ஊழியர்களுக்கும் இந்த ஊதியம் பொருந்தும் என தெரிவிக்கப்பட்டுள்ளது.",
+   "இந்தத் தொகை விரைவில் பணியாளர்களின் வங்கிக் கணக்குகளில் செலுத்தப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "தேர்தல் பணியில் ஈடுபட்ட ஊழியர்களுக்கான இந்த ஊக்கத்தொகை குறித்த முழு விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-07"
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "அரசு ஊழியர்கள்",
+   "சட்டமன்றத் தேர்தல்",
+   "198 கோடி ஒதுக்கீடு"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Tamil Nadu offers up to Rs 45,000 for poll duty staff",
+   "lines": [
+    "The Tamil Nadu government has announced special pay for government employees who worked on assembly election duty.",
+    "Employees who performed poll duty will receive up to forty five thousand rupees as special pay.",
+    "The state government has allocated a total of one hundred and ninety eight crore rupees for this purpose.",
+    "Employees from various departments who took part in election duty are said to be eligible for this payment.",
+    "The amount is expected to be credited to employees bank accounts soon."
+   ],
+   "closing": "Full details on the disbursement schedule for this election duty incentive have not yet been released."
+  },
+  "front_cat": "price_policy",
+  "image_query": "Tamil Nadu election officials",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c90ce5035f35",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-11-07T20:13+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/07/incentives-of-up-to-rs-45000-for-govt-employees-who-worked-on-election-duty"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Polling_officials_checking_the_Electronic_Voting_Machines_%28EVM%60s%29_and_other_necessary_inputs_required_for_the_Assembly_Election%2C_in_Tamil_Nadu_on_April_13%2C_2011.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · Election Commission of India\n",
+   "license": "GODL-India",
+   "symbolic": true
+  },
+  "audio": "data/audio/c90ce5035f35.mp3",
+  "created_ts": 1794062626.6843784,
+  "status": "published"
+ },
+ {
   "id": "art_health_20261107",
   "headline": "குளிர்கால தொடக்கத்தில் உடல்நலம் காக்கும் வழிமுறைகள்",
   "lines": [
