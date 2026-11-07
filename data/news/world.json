@@ -1,5 +1,75 @@
 [
  {
+  "headline": "போலந்தின் கிரகோவ் நகரில் துப்பாக்கிச் சூடு, ஆறு பேர் பலி",
+  "lines": [
+   "போலந்தின் இரண்டாவது பெரிய நகரமான கிரகோவில் ராணுவ உடை அணிந்த ஒருவர் துப்பாக்கிச் சூடு நடத்தினார்.",
+   "இந்தத் தாக்குதலில் குறைந்தது ஆறு பேர் உயிரிழந்ததாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "போலந்தின் பிரதமர் டொனால்டு டஸ்க், இது ஒரு சோகமான சம்பவம் என்று கூறி, காவல்துறை விசாரணை நடத்தி வருவதாகத் தெரிவித்தார்.",
+   "துப்பாக்கிச் சூடு நடத்திய நபரின் அடையாளம் மற்றும் தாக்குதலுக்கான காரணம் இதுவரை உறுதி செய்யப்படவில்லை.",
+   "காவல்துறையினர் சம்பவ இடத்தில் விசாரணையைத் தீவிரப்படுத்தியுள்ளனர்; மேலும் தகவல்கள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "சம்பவம் தொடர்பான மேலும் தகவல்களைக் காவல்துறை விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "கிரகோவ்",
+   "போலந்து",
+   "டொனால்டு டஸ்க்",
+   "காவல்துறை",
+   "துப்பாக்கிச் சூடு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Shooting in Poland's Krakow city leaves six dead",
+   "lines": [
+    "A man dressed in military fatigues opened fire in Krakow, Poland's second largest city.",
+    "At least six people were killed in the attack, officials have said.",
+    "Polish Prime Minister Donald Tusk called it a tragic incident and said police are investigating.",
+    "The identity of the gunman and the motive for the attack have not yet been confirmed.",
+    "Police have intensified investigations at the scene, and further details are awaited."
+   ],
+   "closing": "More details about the incident are expected to be released by police soon."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "Kraków",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "unverified_claim"
+  ],
+  "id": "10a11a207755",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-08T00:42+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Krakow_Rynek_Glowny_panorama_2.jpg/3840px-Krakow_Rynek_Glowny_panorama_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Kraków",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
+   "symbolic": false
+  },
+  "audio": "data/audio/10a11a207755.mp3",
+  "created_ts": 1794078723.6909285,
+  "status": "published"
+ },
+ {
   "headline": "நெதன்யாகுவுக்குப் பிறகு இஸ்ரேல் பிரதமர் யார்?",
   "lines": [
    "இஸ்ரேலின் நாடாளுமன்றத்தில் அரசாங்கம் அமைப்பதற்கு 61 உறுப்பினர்களின் ஆதரவு தேவை. அரபு கட்சிகளின் 19 இடங்கள் முக்கியமாக உள்ளன.",
@@ -1965,69 +2035,6 @@
   },
   "audio": "data/audio/a23d1c5d2d1f.mp3",
   "created_ts": 1793348140.3085644,
-  "status": "published"
- },
- {
-  "headline": "உக்ரைன் ரயில் நிலையத்தில் ரஷிய ட்ரோன் தாக்குதல்; பதினான்கு பேர் பலி",
-  "lines": [
-   "உக்ரைனின் மத்திய நகரமான டினீப்ரோவில் உள்ள ரயில் நிலையத்தின் மீது ரஷியா ட்ரோன் தாக்குதல் நடத்தியது.",
-   "இந்தத் தாக்குதலில் குறைந்தது பதினான்கு பேர் உயிரிழந்ததாக உள்ளூர் அதிகாரிகள் தெரிவித்துள்ளனர்.",
-   "பதினொரு வயது சிறுவன் உள்பட பலர் காயமடைந்ததாகவும் அதிகாரிகள் கூறியுள்ளனர்.",
-   "காயமடைந்தோர் மருத்துவமனைகளில் அனுமதிக்கப்பட்டு சிகிச்சை பெற்று வருகின்றனர்.",
-   "தாக்குதல் தொடர்பான முழு விவரங்களையும் உக்ரைன் அரசு சேகரித்து வருகிறது."
-  ],
-  "closing": "ரஷியா, உக்ரைன் இடையிலான போர் நீடிப்பதால் குடிமக்கள் பகுதிகளில் இதுபோன்ற தாக்குதல்கள் அவ்வப்போது பதிவாகின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": "2026-10-29"
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "உக்ரைன்",
-   "ரஷியா",
-   "டினீப்ரோ",
-   "ரயில் நிலையம்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Russian drone attack on Ukraine train station kills fourteen",
-   "lines": [
-    "Russia carried out a drone attack on a train station in the central Ukrainian city of Dnipro.",
-    "At least fourteen people were killed in the attack, local officials said.",
-    "Several others, including an 11-year-old boy, were wounded in the strike, officials added.",
-    "The injured have been admitted to hospitals and are undergoing treatment.",
-    "Ukrainian authorities are gathering full details about the attack."
-   ],
-   "closing": "As the war between Russia and Ukraine continues, such attacks on civilian areas are being reported from time to time."
-  },
-  "front_cat": "war_conflict",
-  "image_query": "",
-  "wiki_subject": "Dnipro",
-  "person_en": "",
-  "urgent": true,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "d4f72b2bef19",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-10-29T23:21+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9_%D1%81%D0%BE%D0%B2%D0%B5%D1%82.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Dnipro",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Dnipro",
-   "symbolic": false
-  },
-  "audio": "data/audio/d4f72b2bef19.mp3",
-  "created_ts": 1793296307.8838046,
   "status": "published"
  }
 ]
