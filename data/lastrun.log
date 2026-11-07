@@ -1,42 +1,42 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 17 புதியவை
+[fetch] ET Markets: 15 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 11 புதியவை
-[fetch] Dinamani TN: 19 புதியவை
+[fetch] The Hindu TN: 12 புதியவை
+[fetch] Dinamani TN: 20 புதியவை
 [fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 16 புதியவை
+[fetch] BBC World: 8 புதியவை
 [fetch] Al Jazeera: 21 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
-[fetch] The Hindu Sport: 29 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] The Hindu Sport: 27 புதியவை
 [fetch] The Hindu Cinema: 12 புதியவை
 [fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 20 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 8 புதியவை
+[fetch] The Hindu Health: 7 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 21 புதியவை
+[fetch] FreeJobAlert: 13 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 26 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +47,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 28 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,85 +56,61 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x70969d608650>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7be24c118e90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 26 புதியவை
+[fetch] Dinamani Govt: 20 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 28 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 631 → நிகழ்வுகள் 570
-[triage] 570 → 53 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இந்திய வீரர் ஆனாலும், இது கிரிக்கெட் ஓய்வெடுப்பு மட்டுமே. வி
-[skip] இது டெல்லி உயர்நீதிமன்றத்தின் உள்ளூர் வாகனத் தடை விலக்கு தொட
-[skip] ஜார்கண்ட் மற்றும் மேகாலயா மாநிலங்களின் உள்ளூர் அரசு வேலைவாய்
-[skip] கேரளத்தின் உள்ளூர் சபை நிகழ்வு; தமிழ்நாட்டு வாசகரைப் பாதிக்க
-[tts-edge] 123db5b7b243: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சுர்யாவின் கலக்கலான நடிப்பு; 'சீன்' படம் கலாட்டா நகையாய் சுவை தருகிறது
-[tts-edge] 10a11a207755: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] போலந்தின் கிரகோவ் நகரில் துப்பாக்கிச் சூடு, ஆறு பேர் பலி
-[image] களஞ்சியம் (2 சொல்): சென்னை உள்ளிட்ட 23 மாவட்டங்களில் இ
-[publish] சென்னை உள்ளிட்ட 23 மாவட்டங்களில் இன்றிரவு மழைக்கு வாய்ப்பு
-[skip] New Zealand உள் தேர்தல் — தமிழ்நாடு வாசகருக்கு நேரடித் தொடர்
-[skip] குவாதேமாலாவின் உள்ளூர் அரசியல் வன்முறை — தமிழ்நாடு / இந்திய 
-[திருத்தம்] சென்னையின் எஃப்சி 5-3 கணக்கில் கிழக்கு வ → சென்னையின் எஃப்சி 5-3 கணக்கில் ஈஸ்ட் பெங
-[தரம்] தமிழ் அல்லாத எழுத்து: യ → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): சென்னையின் எஃப்சி 5-3 கணக்கில் ஈஸ்
-[publish] சென்னையின் எஃப்சி 5-3 கணக்கில் ஈஸ்ட் பெங்கால் எஃப்சியை வீழ்த்தி முதல் வெற்றி
-[திருத்தம்] ஆசிய மகளிர் சாம்பியன்ஸ் லீக் காலிறுதிக்க → ஆசிய மகளிர் சாம்பியன்ஸ் லீக் கால்சறுதிக்
-[publish] ஆசிய மகளிர் சாம்பியன்ஸ் லீக் கால்சறுதிக்கு ஈஸ்ட் பெங்கால் தகுதி
+[run] புதியவை 601 → நிகழ்வுகள் 554
+[triage] 554 → 52 | காலி: crime:4, tn:3, india:3, economy:3, govt:3
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): பெரியார் அறிவாலயம் புத்தக கொள்முதல
-[publish] பெரியார் அறிவாலயம் புத்தக கொள்முதலில் முறைகேடு - விசாரணைக்கு கோரிக்கை
-[skip] தமிழ்நாடுடன் நேரடித் தொடர்பு இல்லாத இந்திய-நியூசிலாந்து ஒருந
-[திருத்தம்] விஜயகுமார் மனுவை நிராகரித்த சென்னை உயர்ந → விஜயகுமாரின் மனுவை நிராகரித்த சென்னை உயர
-[publish] விஜயகுமாரின் மனுவை நிராகரித்த சென்னை உயர்நீதிமன்றம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgp78qk57qAB8shEoGWj2'}
-[skip] தமிழ்நாடு வாசகருக்குப் பொருத்தமான உள்நாட்டுச் செய்தி இல்லை. 
-[திருத்தம்] மின்சக்தி சேமிப்பு கொள்கை விலை உயர் மின் → மின்சக்தி சேமிப்பு கொள்கை உচ்சவிலை மின்க
-[தரம்] தமிழ் அல்லாத எழுத்து: চ → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): மின்சக்தி சேமிப்பு கொள்கை உச்சவிலை
-[publish] மின்சக்தி சேமிப்பு கொள்கை உச்சவிலை மின்கொள்முதலைக் குறைக்க வேண்டும் எனக் கோரிக்கை
+[skip] கேரளாவில் நடந்த உள்ளூர் குற்றச் செய்தி. தமிழ்நாட்டு வாசகரைப்
+[திருத்தம்] அம்பேத்கர் சட்டப் பல்கலை பதவி உயர்வு அரச → அம்பேத்கர் சட்டப் பல்கலை பதிவாளர் பதவி உ
+[tts-edge] 03055fbeda4f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அம்பேத்கர் சட்டப் பல்கலை பதிவாளர் பதவி உயர்வு அரசாணை திரும்பப் பெறப்படும்
+[skip] இஸ்ரேலின் உள்நாட்டு அரசியல் — தமிழ்நாட்டு வாசகருக்குப் பொருத
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டு நீர்த்தேக்கங்களில் நீர
+[tts-edge] 6c69f3bee877: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டு நீர்த்தேக்கங்களில் நீர்மட்டம் கடுமையாகக் குறைவு
+[skip] உலக அளவில் முக்கியமான போர்க் குறிப்புகள் இல்லை. உக்రைனின் உள
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgpPK5B75vi5ujGTEmarW'}
+[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: அறிவியல் தொழில்நுட்ப ஆராய்ச்சியில்
+[publish] அறிவியல் தொழில்நுட்ப ஆராய்ச்சியில் நீதி ஆயோக் பட்டியலில் தமிழகத்துக்கு முதலிடம்
+[publish] பெரியார் அறிவுலக ஊழல் குற்றச்சாட்டு விசாரணைக்குத் தயார் என உதயநிதி ஸ்டாலின்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgpPW8kyKKS6Hrfv8Vzae'}
+[திருத்தம்] பெரியார் அறிவுலகம் தொடர்பாக லஞ்ச ஒழிப்பு → பெரியார் அறிவுலகம் தொடர்பாக லஞ்ச ஒழிப்பு
+[image] களஞ்சியம் (2 சொல்): பெரியார் அறிவுலகம் தொடர்பாக லஞ்ச ஒ
+[publish] பெரியார் அறிவுலகம் தொடர்பாக லஞ்ச ஒழிப்புத் துறையில் திமுக புகார் மனு
+[திருத்தம்] இந்திய பெண்கள் ஹாக்கி பயிற்சியாளர் குர்த → இந்திய பெண்கள் ஹாக்கி பயிற்சியாளர் குர்த
+[தரம்] தமிழ் அல்லாத எழுத்து: ি্യ → ஒரு திருத்தம்
+[publish] இந்திய பெண்கள் ஹாக்கி பயிற்சியாளர் குர்தியால் சிங் பாங்கு காலமானார்
+[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — தமிழ்நாடு வாசகரைப் பாதிக்காது; த
+[skip] பிரான்சின் உள்ளூர் அரசியல் மற்றும் குறிப்பிட்ட மாநிலத் தாக்க
+[skip] பிரான்சின் உள்நாட்டு அரசியல். தமிழ்நாடு/இந்திய வாசகரைக் கூடு
+[skip] வெளிநாட்டு உள்நாட்டுச் சம்பவம் — ஐரோப்பாவின் உள் பாதுகாப்பு.
+[skip] பிரான்சின் உள்நாட்டு போராட்டம் — தமிழ்நாடு/இந்திய வாசகரைப் ப
+[திருத்தம்] கொல்கத்தா நெடுஞ்சாலையில் நல்லூர் டோல் சா → கொல்கத்தா தேசிய நெடுஞ்சாலையில் நல்லூர் க
+[image] களஞ்சியம் (2 சொல்): கொல்கத்தா தேசிய நெடுஞ்சாலையில் நல்
+[publish] கொல்கத்தா தேசிய நெடுஞ்சாலையில் நல்லூர் கட்டணச் சாவடி துறைநல்லூருக்கு மாற்றப்படுவது
+[skip] பரகுவே அதிபரின் உள் அரசியல் — தமிழ்நாடு/இந்திய வாசகரைப் பாதி
+[publish] மருத்துவக் கருவித் துறை ஒத்துழைப்புக்கு அண்ணா பல்கலைக்கழகம் ஒப்பந்தம்
+[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்திய வாசகரைக் கேட்க
+[திருத்தம்] தாமிரபரணி மீன் இனங்கள் அச்சுறுத்தல்: திர → தாமிரபரணி மீன் இனங்கள் அச்சுறுத்தல்: திர
+[publish] தாமிரபரணி மீன் இனங்கள் அச்சுறுத்தல்: திருநெல்வேலி ஆட்சியருக்கு தேசிய பசுமை தீர்ப்பாயம் நோட்டீஸ்
 [skip] யேமன் உள்நாட்டு மோதல் — தமிழ்நாடு/இந்தியாவுக்கு நேரடித் தொடர
-[image] களஞ்சியம் (2 சொல்): தீபாவளி பயணம்: சுங்கச்சாவடிகளில் இ
-[publish] தீபாவளி பயணம்: சுங்கச்சாவடிகளில் இரண்டாம் நாளும் நெரிசல்
-[skip] பிரிட்டனுக்கும் இந்திய/தமிழ்நாட்டு வாசகருக்கும் நேரடித் தொடர
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; செய்தியின் விவரங்கள், தேதி
-[skip] ட்ரம்ப் அரசு நியமனம் — அமெரிக்காவின் உள்நாட்டு அரசியல். தமிழ
-[skip] வெளிநாட்டு ஒரு நபரின் ব்যক்তிगত சட்ட வழக்கு. தமிழ்நாடு/இந்தி
-[skip] அமெரிக்க உள்நாட்டு அரசியல் — தெக்சாஸ் மாநிலத்தின் உள்ளூர்경찰 
-[skip] வெளிநாட்டுக் குண்டுவெடிப்பு அச்சுறுத்தல் — தமிழ்நாடு / இந்தி
-[skip] பாரাகுவே என்ற தென் அமெரிக்க நாட்டின் உள்நாட்டு அரசியல் — வங்
-[skip] வெளிநாட்டுக் ராணுவ நடவடிக்கை — தமிழ்நாடு/இந்திய வாசகரைப் பாத
-[skip] ஈரান் உள் ராணுவ நடவடிக்கையுடன் தொடர்பில்லாத தமிழ்நாடு/இந்திய
-[skip] 伊拉克의 대외 정책 성명은 중동 지역 정치이며, 타밀나두 또는 인도 독자에게 직접적인 영향을 미치지 않습니다
-[skip] நিউசிலாந்தின் உள்நாட்டுத் தேர்தல். தமிழ்நாடு/இந்தியாவுக்கு ந
-[skip] அமெரிக்க உள் அரசியல் — தமிழ்நாடு/இந்தியப் வாசகரைப் பாதிக்காத
-[skip] இரு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத வேறு மாநிலங்களின்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgp7PwoNzZTs3W357yuFb'}
-[நகல்] ஏற்கனவே வெளியானது: பெரியார் அறிவாலயம் புத்தக கொள்முதலில் முறைகேடு - விசாரணைக்கு
-[skip] கர்நாடகாவின் பெங்களூரு பல்கலைக்கழகம் தொடர்பான உள்ளூர் கல்விச
-[திருத்தம்] இஸ்ரேல் மீதான இந்தியக் கொள்கை மாற்றம் வர → இஸ்ரேல் மீதான இந்தியக் கொள்கை மாற்றம் வர
-[publish] இஸ்ரேல் மீதான இந்தியக் கொள்கை மாற்றம் வருந்தத்தக்கது என முன்னாள் மதுரை உயர்நீதிமன்றக் கிளை நீதிபதி
-[malar] 2026-W45 · புதிதாக எழுதுவது: roundup, numbers, history, films, zen, poem, hero, essay, agri, spirit, food, word, books, remedy, tech
-[malar] 2026-W45 · களஞ்சியத்திலிருந்து: (இல்லை)
-[malar:refresh] Expecting value: line 1 column 1 (char 0)
-[malar] களஞ்சியத்தில் 0 புதிது சேர்ந்தது · இருப்பு — zen:1, poem:1, hero:1, essay:1, agri:1, spirit:1, food:1, word:1, books:1, remedy:1, tech:1
-[malar] புதிய வாரமலர் 2026-W45
-[comic] கதை: அந்தப் பெண் யார்?
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.88) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.99) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4: பலகை 3-ஐப் போலவே உள்ளது (0.82) — மீண்டும் வரைகிறேன்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-08.png · நாள் 60
-[rasi] ராசிபலன் தயார்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, குற்றச்சாட்டின் விவரங்கள் 
+[image] களஞ்சியம் (2 சொல்): காவிரி டெல்டா மாவட்டங்களுக்கு இன்ற
+[publish] காவிரி டெல்டா மாவட்டங்களுக்கு இன்று மழைக்கான மஞ்சள் எச்சரிக்கை
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: காவிரி டெல்டாவில் நீர்த்தேக்கங்கள் காலி: அடுத்தது என்ன?
 [market] தங்கம் 22K ₹12632 · சென்செக்ஸ் 81028
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
@@ -142,4 +118,5 @@
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 10
