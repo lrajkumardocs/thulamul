@@ -1,43 +1,42 @@
-[expire] 1d36fd13737e
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 13 புதியவை
-[fetch] Dinamani TN: 21 புதியவை
+[fetch] The Hindu TN: 11 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
 [fetch] BBC Tamil: 13 புதியவை
-[fetch] BBC World: 7 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] BBC World: 11 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
 [fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 11 புதியவை
+[fetch] The Hindu Tech: 9 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 4 புதியவை
+[fetch] The Hindu Health: 2 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 4 புதியவை
+[fetch] FreeJobAlert: 13 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 25 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 26 புதியவை
+[fetch] The Hindu National: 25 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,44 +56,62 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ca2d65c2710>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 21 புதியவை
-[fetch] Times Govt Schemes: 20 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x77c962f5fed0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 25 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
+[fetch] Times Govt Schemes: 16 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 596 → நிகழ்வுகள் 534
-[triage] 534 → 52 | காலி: india:3, govt:3, crime:3, health:2, assembly:2
-[திருத்தம்] செனிகல் கடற்பகுதியில் படகு கவிழ்ந்து இரு → செனেগাল் கடற்பகுதியில் படகு கவிழ்ந்து 21
-[தரம்] தமிழ் அல்லாத எழுத்து: গলাে → ஒரு திருத்தம்
-[tts-edge] dbae0af08f3c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] செனிகல் கடற்பகுதியில் படகு கவிழ்ந்து 21 பேர் பலி
-[tts-edge] 78e746cd2202: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] போலந்து தாக்குதலில் ஆறு பேர் பலி, பயங்கரவாத விசாரணை தொடக்கம்
-[தரம்] தமிழ் அல்லாத எழுத்து: तनपरविेो → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): உக்ரைனில் ரஷ்ய தாக்குதல், எட்டரை ல
-[publish] உக்ரைனில் ரஷ்ய தாக்குதல், எட்டரை லட்சம் பேருக்கு மின்தடை
-[skip] மூலத்தில் தலைப்பும் ஒரு வரி சுருக்கமும் மட்டுமே உள்ளது; குறி
-[publish] காஸாவில் கனமழையால் வெள்ளம், பல்லாயிரக்கணக்கானோர் தங்குமிடம் இழப்பு
+[run] புதியவை 599 → நிகழ்வுகள் 528
+[triage] 528 → 51 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[திருத்தம்] NIOS-இல் இணை இயக்குநர் பணியிடங்களுக்கு வ → பல்வேறு பதவிகளுக்கு விண்ணப்பிக்க அழைப்பு
+[tts-edge] 2b3d477bfe48: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பல்வேறு பதவிகளுக்கு விண்ணப்பிக்க அழைப்பு — NIOS, DUK, NIT சில்சார், INSA, AIIMS பாபநாசம்
+[skip] மகாராஷ்ட்ர மாநிலத்தின் உள்ளூர் நடவடிக்கை. தமிழ்நாட்டுக்கு நே
+[skip] வெளிநாட்டுப் படம் — ஆங்கிலம் மொழியிலான அமெரிக்க/வெளிநாட்டு உ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgr6Wd3LyYFxvCYsXjGFZ'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgr6Z1va2RbQi9J9dfEjm'}
+[tts-edge] fd082421c347: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எகிப்தில் இரு ரயில்கள் மோதல்: ஏழு பேர் பலி, நூறுக்கும் மேற்பட்டோர் காயம்
+[skip] தீபாவளிக்குப் பிறகு இந்தியாவின் காற்றின் தரம் பற்றிய செய்தி,
+[publish] எகிப்தில் தொடர் வண்டி விபத்து: ஏழு பேர் பலி, பலர் காயம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உடல் உரை இல்லை. எந்த அமைப்
+[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
+[நகல்] ஏற்கனவே வெளியானது: எகிப்தில் இரு ரயில்கள் மோதல்: ஏழு பேர் பலி, நூறுக்கும் மேற்ப
+[publish] தீபாவளி பட்டாசுகளால் ராயபுரத்தில் காற்றின் தரம் மோசமடைவு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இரு வேலைவாய்ப்புச் செய்திகளும் தமிழ்நாட்டிற்கு வெளியே (கொல்க
-[skip] இது இங்கிலாந்தில் உள்ள பள்ளி மற்றும் நீதிமன்ற உள்ளூர் விவகார
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgqkGFFhdTrTzGm3fXVsb'}
-[skip] கர்நாடக மாநிலத்தின் உள்ளூர் குற்றச் சம்பவம். தமிழ்நாட்டுடன் 
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Jumbo hustle: the transfer of elephants to Tamil
-[skip] பொது/சர্வதேশிக் சுகாதார விஷயம் — தமிழ்நாட்டுக்குத் தனிப்பட்ட
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது யுனைटेड கிங்டம் (UK) நாட்டில் நடந்த ஒரு குடும்பத்தின் சட
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: RPF steps up Deepavali vigil, apprehends five wi
-[skip] பொருந்தாதது — அமெரிக்காவின் உள்ளூர் வழக்கு. தமிழ்நாடு / இந்த
-[தரம்] தமிழ் அல்லாத எழுத்து: 조치 → ஒரு திருத்தம்
-[publish] கலைஞர் நூற்றாண்டு நூலகத்தில் போலிப் புத்தகம்: கடுமையான நடவடிக்கைக்கு அழைப்பு
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: A wet Deepavali ahead for many parts of Tamil Na
+[skip] வெளிநாட்டுத் தாய்லாந்துக்குத் தொடர்பற்ற உள்நாட்டு அரசியல் — 
+[திருத்தம்] தமிழ்நாட்டில் தீபாவளி பண்டிகையில் மழை எச → தமிழ்நாட்டில் தீபாவளிக்கு முன் மழை
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் தீபாவளிக்கு முன் மழை
+[publish] தமிழ்நாட்டில் தீபாவளிக்கு முன் மழை
+[publish] தமிழ்நாடு, புதுச்சேரி, காரைக்காலில் கனமழைக்கு வானிலை மையம் எச்சரிக்கை
+[image] களஞ்சியம் (2 சொல்): பெரியார் அறிவுலக விவகாரம்: நூலகத் 
+[publish] பெரியார் அறிவுலக விவகாரம்: நூலகத் துறை இயக்குநர் பதவி நீக்கம், ஷஜீவனா நியமனம்
+[skip] வெளிநாட்டு அரசுகளுக்கிடையேயான அச்சுறுத்தல் மற்றும் ராணுவ பயா
+[image] களஞ்சியம் (3 சொல்): ஜெம் கிரானைட்ஸ் வீரமணி மீது மீண்டு
+[hold] ஜெம் கிரானைட்ஸ் வீரமணி மீது மீண்டும் பாலியல் தொல்லை புகார்
+[image] களஞ்சியம் (2 சொல்): இஸ்ரேலில் கட்டுமானப் பணி விபத்தில்
+[publish] இஸ்ரேலில் கட்டுமானப் பணி விபத்தில் திண்டுக்கல் இளைஞர் உயிரிழப்பு
+[image] களஞ்சியம் (3 சொல்): திருவண்ணாமலையில் செண்பகத்தோப்பு அண
+[publish] திருவண்ணாமலையில் செண்பகத்தோப்பு அணை நீர் திறப்பு, ஆற்றோர மக்களுக்கு எச்சரிக்கை
+[comic] கதை: மர்மமான உறவு வெளிப்பாடு
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.95) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-11-09.png · நாள் 61
+[rasi] ராசிபலன் தயார்
 [market] தங்கம் 22K ₹12629 · சென்செக்ஸ் 80999
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 0 · எழுதியவை 5
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+  warnings.warn(message, FutureWarning)
+[push] 0 அறிவிப்புகள்
+[done] feed 300 · pending 1 · எழுதியவை 10

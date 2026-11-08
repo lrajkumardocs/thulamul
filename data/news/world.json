@@ -1,5 +1,130 @@
 [
  {
+  "headline": "எகிப்தில் தொடர் வண்டி விபத்து: ஏழு பேர் பலி, பலர் காயம்",
+  "lines": [
+   "எகிப்து தலைநகர் கெய்ரோவுக்கு அருகே பயணிகள் தொடர் வண்டி ஒன்று பாதையைவிட்டு தடம் புரண்டது.",
+   "இந்த விபத்தில் ஏழு பேர் உயிரிழந்துள்ளனர், பலர் படுகாயம் அடைந்துள்ளனர்.",
+   "கெய்ரோவில் இருந்து அஸ்வான் நகருக்குச் சென்று கொண்டிருந்த தொடர் வண்டியின் பெட்டிகள் கவிழ்ந்தன.",
+   "விபத்துக்கான காரணம் குறித்து அதிகாரப்பூர்வ விளக்கம் இதுவரை வெளியிடப்படவில்லை.",
+   "மீட்புப் பணிகள் நடைபெற்று வருகின்றன, விபத்து குறித்த விசாரணை தொடங்கப்பட்டுள்ளது."
+  ],
+  "closing": "கெய்ரோவில் இருந்து அஸ்வான் செல்லும் இரயில் பாதையில் இந்த விபத்து நடந்துள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "எகிப்து",
+   "கெய்ரோ",
+   "அஸ்வான்",
+   "தொடர் வண்டி விபத்து"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Train crash near Cairo, Egypt kills seven, injures dozens",
+   "lines": [
+    "A passenger train derailed near Egypt's capital Cairo.",
+    "The crash killed seven people and left dozens injured.",
+    "The train was travelling from Cairo to Aswan when its carriages overturned.",
+    "Officials have not yet issued an explanation for the cause of the crash.",
+    "Rescue operations are underway and an investigation into the incident has begun."
+   ],
+   "closing": "The accident occurred on the railway line connecting Cairo to Aswan."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "4963a03c5869",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-09T02:03+05:30",
+  "links": [
+   "https://www.aljazeera.com/news/2026/11/8/train-crash-kills-four-injures-dozens-near-egypts-cairo-city?traffic_source=rss"
+  ],
+  "image": {
+   "url": "data/bank/world08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/4963a03c5869.mp3",
+  "created_ts": 1794169990.840428,
+  "status": "published"
+ },
+ {
+  "headline": "எகிப்தில் இரு ரயில்கள் மோதல்: ஏழு பேர் பலி, நூறுக்கும் மேற்பட்டோர் காயம்",
+  "lines": [
+   "எகிப்தின் கிசா நகருக்கு அருகே இரு ரயில்கள் ஒரே திசையில் சென்றபோது மோதிக் கொண்டன.",
+   "இந்த விபத்தில் ஏழு பேர் உயிரிழந்துள்ளனர், நூறுக்கும் மேற்பட்டோர் காயமடைந்துள்ளனர்.",
+   "மோதலின் தாக்கத்தால் பல ரயில் பெட்டிகள் தண்டவாளம் தவறிச் சென்றதாகத் தகவல்கள் தெரிவிக்கின்றன.",
+   "விபத்து ஏற்பட்ட காரணம் குறித்து எகிப்திய அதிகாரிகள் விசாரணை நடத்தி வருகின்றனர்.",
+   "காயமடைந்தவர் அருகிலுள்ள மருத்துவமனைகளில் அனுமதிக்கப்பட்டு சிகிச்சை பெற்று வருகின்றனர்."
+  ],
+  "closing": "இரு ரயில்கள் ஒரே திசையில் பயணித்தபோது ஏற்பட்ட இந்த மோதலுக்கான உண்மையான காரணம் விசாரணையில் இன்னும் உறுதியாகத் தெரியவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "எகிப்து",
+   "கிஸா"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Egypt Train Collision: Seven Dead, Over 100 Injured",
+   "lines": [
+    "Two trains travelling in the same direction collided near the city of Giza in Egypt.",
+    "The crash left seven people dead and more than 100 others injured.",
+    "Several carriages reportedly derailed as a result of the collision.",
+    "Egyptian authorities are investigating the cause of the accident.",
+    "The injured have been admitted to nearby hospitals for treatment."
+   ],
+   "closing": "The exact cause of the collision between the two trains travelling in the same direction remains unconfirmed as investigations continue."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "fd082421c347",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-09T02:02+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/fd082421c347.mp3",
+  "created_ts": 1794169949.034149,
+  "status": "published"
+ },
+ {
   "headline": "காஸாவில் கனமழையால் வெள்ளம், பல்லாயிரக்கணக்கானோர் தங்குமிடம் இழப்பு",
   "lines": [
    "காஸாவில் கடுமையான மழை காரணமாக ஏற்பட்ட வெள்ளத்தால் பல்லாயிரக்கணக்கான மக்கள் தங்குமிடம் இல்லாமல் தவிக்கின்றனர்.",
