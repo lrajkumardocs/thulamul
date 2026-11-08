@@ -1,42 +1,43 @@
+[expire] 1d36fd13737e
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 10 புதியவை
-[fetch] Dinamani TN: 16 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 9 புதியவை
-[fetch] Al Jazeera: 17 புதியவை
-[fetch] ESPNcricinfo: 21 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
+[fetch] Dinamani TN: 21 புதியவை
+[fetch] BBC Tamil: 13 புதியவை
+[fetch] BBC World: 7 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 24 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 12 புதியவை
+[fetch] The Hindu Tech: 11 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 6 புதியவை
+[fetch] The Hindu Health: 4 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 7 புதியவை
+[fetch] FreeJobAlert: 4 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 25 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 30 புதியவை
+[fetch] Dinamani Sports: 25 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 25 புதியவை
+[fetch] The Hindu National: 26 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +57,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x761e013eac50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 25 புதியவை
-[fetch] Dinamani Govt: 16 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ca2d65c2710>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 26 புதியவை
+[fetch] Dinamani Govt: 21 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,28 +68,33 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 581 → நிகழ்வுகள் 520
-[triage] 520 → 29 | காலி: india:3, govt:3, crime:3, world:2, health:2
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத பிற மாநிலப் பல
-[skip] இது பஞ்சாப் மாநிலத்தின் உள்ளூர்க் குற்றச் சம்பவம் தொடர்பான ச
-[skip] மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் நீதிமன்ற வழக்கு, தமிழ்நாட்டு
-[tts-edge] 1d36fd13737e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] காங்கிரஸ் நன்கொடை பத்தாண்டில் இல்லாத அளவு குறைவு
-[skip] பஞ্சாப் மாநிலத்தின் உள்ளூர் குற்றச் சம்பவம். தமிழ்நாடு வாசகர
+[run] புதியவை 596 → நிகழ்வுகள் 534
+[triage] 534 → 52 | காலி: india:3, govt:3, crime:3, health:2, assembly:2
+[திருத்தம்] செனிகல் கடற்பகுதியில் படகு கவிழ்ந்து இரு → செனেগাল் கடற்பகுதியில் படகு கவிழ்ந்து 21
+[தரம்] தமிழ் அல்லாத எழுத்து: গলাে → ஒரு திருத்தம்
+[tts-edge] dbae0af08f3c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] செனிகல் கடற்பகுதியில் படகு கவிழ்ந்து 21 பேர் பலி
+[tts-edge] 78e746cd2202: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] போலந்து தாக்குதலில் ஆறு பேர் பலி, பயங்கரவாத விசாரணை தொடக்கம்
+[தரம்] தமிழ் அல்லாத எழுத்து: तनपरविेो → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): உக்ரைனில் ரஷ்ய தாக்குதல், எட்டரை ல
+[publish] உக்ரைனில் ரஷ்ய தாக்குதல், எட்டரை லட்சம் பேருக்கு மின்தடை
+[skip] மூலத்தில் தலைப்பும் ஒரு வரி சுருக்கமும் மட்டுமே உள்ளது; குறி
+[publish] காஸாவில் கனமழையால் வெள்ளம், பல்லாயிரக்கணக்கானோர் தங்குமிடம் இழப்பு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இரு வேலைவாய்ப்புச் செய்திகளும் தமிழ்நாட்டிற்கு வெளியே (கொல்க
+[skip] இது இங்கிலாந்தில் உள்ள பள்ளி மற்றும் நீதிமன்ற உள்ளூர் விவகார
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgqkGFFhdTrTzGm3fXVsb'}
+[skip] கர்நாடக மாநிலத்தின் உள்ளூர் குற்றச் சம்பவம். தமிழ்நாட்டுடன் 
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Jumbo hustle: the transfer of elephants to Tamil
-[skip] வெளிநாட்டு உள்நாட்டுச் சிக்கல் — தமிழ்நாடு/இந்தியாவுக்கு நேர
-[skip] இது தகவல் மாத்திரை வகை நிகழ்ப்பு — பத்திரிகைக் குழுவின் விவா
-[skip] மகாராஷ்டிரத்து தேனெ நகரத்தில் நடந்த வழக்கு. தமிழ்நாட்டு வாசக
+[skip] பொது/சர্வதேশிக் சுகாதார விஷயம் — தமிழ்நாட்டுக்குத் தனிப்பட்ட
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] இது யுனைटेड கிங்டம் (UK) நாட்டில் நடந்த ஒரு குடும்பத்தின் சட
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: RPF steps up Deepavali vigil, apprehends five wi
-[திருத்தம்] டிரம்பின் புதிய பணியாளர் இந்தியாவுக்கு அ → டிரம்பின் புதிய தலைமைப் பணியாளர் இந்தியா
-[tts-edge] 2d347c6105fd: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] டிரம்பின் புதிய தலைமைப் பணியாளர் இந்தியாவுக்கு அழுத்தம் அதிகரிக்குமா?
-[skip] தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இல்லை. வரலாற்று விவரம
-[skip] இந்தியக் கட்சியின் நிதி அறிக்கை — தமிழ்நாட்டுக்குக் கூறிய செ
+[skip] பொருந்தாதது — அமெரிக்காவின் உள்ளூர் வழக்கு. தமிழ்நாடு / இந்த
+[தரம்] தமிழ் அல்லாத எழுத்து: 조치 → ஒரு திருத்தம்
+[publish] கலைஞர் நூற்றாண்டு நூலகத்தில் போலிப் புத்தகம்: கடுமையான நடவடிக்கைக்கு அழைப்பு
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: A wet Deepavali ahead for many parts of Tamil Na
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgqBu6xZsq1He5wUmFjYr'}
-[filler] tech கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12632 · சென்செக்ஸ் 81028
+[market] தங்கம் 22K ₹12629 · சென்செக்ஸ் 80999
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 2
+[done] feed 300 · pending 0 · எழுதியவை 5
