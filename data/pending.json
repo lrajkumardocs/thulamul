@@ -61,5 +61,74 @@
   "audio": "data/audio/442f81c83d86.mp3",
   "created_ts": 1794170323.5399063,
   "status": "pending"
+ },
+ {
+  "headline": "மழை காரணமாக சென்னை ஓபன் இறுதிப்போட்டி ஒரு நாள் தள்ளிவைப்பு",
+  "lines": [
+   "சென்னை ஓபன் டென்னிஸ் போட்டியின் மகளிர் ஒற்றையர் இறுதிப்போட்டி மழை மற்றும் மோசமான காற்று தரம் காரணமாக ஒரு நாள் தள்ளி வைக்கப்பட்டது.",
+   "ஜானிஸ் டியென் மற்றும் மக்தா லினெட் இடையேயான இறுதிப்போட்டி நவம்பர் ஒன்பதாம் தேதி காலை பதினொரு மணிக்கு நடைபெறும் என அறிவிக்கப்பட்டுள்ளது.",
+   "தள்ளி வைக்கப்பட்ட போட்டிக்கான டிக்கெட் வைத்திருப்பவர்கள், அதே டிக்கெட்டுடன் அரங்கிற்குள் நுழையலாம் என ஏற்பாட்டாளர்கள் தெரிவித்துள்ளனர்.",
+   "போட்டி தொடரின் இருப்பு நாளாக ஒதுக்கப்பட்ட தேதியில் இந்த இறுதிப்போட்டி நடத்தப்படுவதாக தகவல் வெளியாகியுள்ளது.",
+   "வானிலை மேம்பட்டால் மட்டுமே இறுதிப்போட்டி திட்டமிட்ட நேரத்தில் தொடங்கும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "மழை மற்றும் காற்று மாசு காரணமாக விளையாட்டுப் போட்டிகள் தள்ளி வைக்கப்படுவது சென்னையில் அண்மைக் காலமாக அதிகரித்து வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Sport",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Sportstar",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "sports",
+  "entities": [
+   "சென்னை ஓபன்",
+   "ஜானிஸ் டியென்",
+   "மக்தா லினெட்",
+   "சென்னை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Chennai Open final postponed by a day due to rain",
+   "lines": [
+    "The women's singles final of the Chennai Open tennis tournament was postponed by a day due to rain and poor air quality.",
+    "The match between Janice Tjen and Magda Linette will now be held at 11 a.m. on November 9.",
+    "Organisers said spectators holding tickets for the postponed match can enter the venue with the same tickets.",
+    "The final will be played on the tournament's designated reserve day, organisers confirmed.",
+    "The final is expected to begin on schedule only if weather conditions improve."
+   ],
+   "closing": "Rain and poor air quality have increasingly disrupted sporting events in Chennai in recent times."
+  },
+  "front_cat": "routine",
+  "image_query": "tennis court Chennai Open",
+  "wiki_subject": "Chennai Open",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "numbers_conflict"
+  ],
+  "id": "889fab327efa",
+  "topic_ta": "விளையாட்டு",
+  "published_at": "2026-11-09T05:49+05:30",
+  "links": [
+   "https://www.thehindu.com/sport/tennis/chennai-open-tennis-singles-final-postponed-due-to-rain-and-air-quality/article71681215.ece",
+   "https://sportstar.thehindu.com/tennis/chennai-open-2026-singles-final-janice-tjen-vs-magda-linette-postponed-rain-poor-air-quality/article71681114.ece"
+  ],
+  "image": {
+   "url": "data/bank/sports01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/889fab327efa.mp3",
+  "created_ts": 1794183545.969646,
+  "status": "pending"
  }
 ]
