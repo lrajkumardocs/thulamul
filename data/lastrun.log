@@ -1,24 +1,23 @@
-[expire] 442f81c83d86
-[expire] 889fab327efa
+[expire] 7fe1605623c2
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 3 புதியவை
-[fetch] Dinamani TN: 25 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
+[fetch] The Hindu TN: 15 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
 [fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 25 புதியவை
-[fetch] The Hindu Sport: 23 புதியவை
-[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 30 புதியவை
+[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Cinema: 1 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 12 புதியவை
+[fetch] The Hindu Tech: 15 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 0 புதியவை
+[fetch] The Hindu Health: 6 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 21 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -30,26 +29,26 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 4 புதியவை
-[fetch] The Hindu Legal: 25 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 21 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 25 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 28 புதியவை
+[fetch] Dinamani India: 29 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 29 புதியவை
+[fetch] Sportstar: 30 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -58,90 +57,56 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f50ba15c910>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 25 புதியவை
-[fetch] Dinamani Govt: 25 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7be72df59e90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 7 புதியவை
-[fetch] Times Chennai Crime: 9 புதியவை
-[run] புதியவை 577 → நிகழ்வுகள் 508
-[triage] 508 → 48 | காலி: crime:4, india:3, court:3, govt:3, cinema:3
-[skip] இது உத்தரப் பிரதேச மாநிலத்தின் உள்ளூர் நீதிமன்ற வழக்கு தொடர்
-[skip] திரைவிமர்சனம் — விமர்சனம் வாரமலரில் மட்டும் வெளிவரவேண்டும், 
+[fetch] TN Police News: 12 புதியவை
+[fetch] Times Chennai Crime: 18 புதியவை
+[run] புதியவை 637 → நிகழ்வுகள் 571
+[triage] 571 → 70 | காலி: india:3, govt:3, cinema:3, court:2, sports:2
+[skip] This is a cinema review article. Per guidelines, cinema revi
+[திருத்தம்] திருச்சி சமயபுரத்தில் இரு சிறுவர்கள் கொட → திருச்சி சமயபுரத்தில் இரு சிறுவர்கள் கொல
+[image] களஞ்சியம் (2 சொல்): திருச்சி சமயபுரத்தில் இரு சிறுவர்க
+[tts-edge] 01e3d1bab6f5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திருச்சி சமயபுரத்தில் இரு சிறுவர்கள் கொலை
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (3 சொல்): சென்னையில் இளைஞர் வெட்டிக் கொலை - 
-[tts-edge] 3ed859ae3196: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னையில் இளைஞர் வெட்டிக் கொலை - தீபாவளி காலத்தில் ஒன்பதாவது சம்பவம்
-[skip] பொலந்தின் உள்நாட்டு குற்றச் செய்தி. தமிழ்நாட்டு/இந்திய வாசகர
-[skip] பிரான்சின் உள்ளூர் குற்றச் செய்தி. தமிழ்நாடு/இந்தியாவைப் பாத
-[skip] சவூதி அரேபியாவின் உள்நாட்டுப் பகையா இரான் சார்பு ஹூதி இயக்கத
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; கூற்றின் பின்னணி, சூழல், எ
-[skip] வெளிநாட்டுச் செய்தி — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை உறுதியாக எழுத போத
-[skip] பொலந்து நாட்டின் உள்நாட்டுக் குற்றச் சம்பவம்; தமிழ்நாடு அல்ல
-[skip] மூலத்தில் தலைப்பு மற்றும் படம் மட்டும் உள்ளது; விவரமான உள்ளட
-[skip] போலந்தில் நடந்த உள்ளூர் குற்றச் சம்பவம். தமிழ்நாடு/இந்திய வா
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] பொதுவான வெளிநாட்டு மனிதாधार நெருக்கடி. தமிழ்நாடு/இந்தியாவுடன
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgrxcP8vDYxJ8QcEH1LUo'}
-[skip] மூலத்தில் போதிய விவரங்கள் இல்லை - சம்பவம் என்ன, யார் தாக்கப்
-[திருத்தம்] ஈராக் குர்திஸ்தான் எரிவாயு மையத்தின் மீத → ஈராக் குர்திஸ்தான் எரிவாயுத் தளத்தின் மீ
-[image] களஞ்சியம் (2 சொல்): ஈராக் குர்திஸ்தான் எரிவாயுத் தளத்த
-[tts-edge] 5f1f35e39458: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஈராக் குர்திஸ்தான் எரிவாயுத் தளத்தின் மீது ட்ரோன் தாக்குதல், பெரும் மின்தடை
-[skip] ஆழமான பகுப்பாய்வு கட்டுரை — செய்திக் கட்டுரை அல்ல. 'What is 
-[skip] வெளிநாட்டுக் செய்தி — தமிழ்நாடு/இந்தியாவைப் பாதிக்காது. டெல்
-[skip] வெளிநாட்டுச் நகரத்தின் உள்ளூர் சுற்றுச்சூழல் பிரச்சினை. தமிழ
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விமானக் கட்டண உயர்வு குறித
-[image] களஞ்சியம் (2 சொல்): சென்னையில் இதுவரை 200 டன் பட்டாசுக
-[publish] சென்னையில் இதுவரை 200 டன் பட்டாசுக் கழிவுகள் அகற்றம்
-[திருத்தம்] தவெக தீபாவளி கொண்டாட்டம் குறித்து டிடிவி → தீபாவளி கொண்டாட்டம் குறித்து டி.டி.வி.தி
-[publish] தீபாவளி கொண்டாட்டம் குறித்து டி.டி.வி.தினகரன் கேள்வி
+[skip] மூலம் ஒரு பகுப்பாய்வுக் கட்டுரையின் தலைப்பும் ஒரு அறிமுக வரி
+[image] களஞ்சியம் (2 சொல்): தேனியில் பட்டாசு வெடித்தவர்களை கேள
+[tts-edge] a1ee84807b05: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தேனியில் பட்டாசு வெடித்தவர்களை கேள்வி கேட்ட காவல் அதிகாரி உயிரிழப்பு
+[publish] செனகல் கடற்கரையில் புலம்பெயர் படகு கவிழ்வு; 39 பேர் உயிரிழப்பு
+[publish] கிரீட் தீவு அருகே படகு கவிழ்ந்து பதின்மூன்று புலம்பெயர்ந்தோர் உயிரிழப்பு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] தேனியில் சிறப்பு அரசு வழக்கறிஞர் கொலை வழ → தேனியில் சிறப்பு சார்பு ஆய்வாளர் கொலை வழ
-[image] களஞ்சியம் (2 சொல்): தேனியில் சிறப்பு சார்பு ஆய்வாளர் க
-[publish] தேனியில் சிறப்பு சார்பு ஆய்வாளர் கொலை வழக்கில் 3 பேர் கைது
-[திருத்தம்] தேனியில் ரீல்ஸ் எடுத்தோரைக் கண்டித்த காவ → தேனியில் ரீல்ஸ் எடுத்தோரைக் கண்டித்த காவ
-[image] களஞ்சியம் (3 சொல்): தேனியில் ரீல்ஸ் எடுத்தோரைக் கண்டித
-[publish] தேனியில் ரீல்ஸ் எடுத்தோரைக் கண்டித்த காவல்துறை உதவி ஆய்வாளர் கொலை
-[skip] மூலத்தில் தலைப்பைத் தவிர போதிய விவரம் இல்லை - காற்று மாசு, வ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgsnxks33uGzkyteV4Dob'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] ஆந்திரப் பிரதேச மாநிலத்தின் உள்ளூர் கல்விக் கொள்கை மாற்றம் -
+[publish] எத்தியோப்பியா எல்லை மோதலில் ஐம்பதாயிரத்துக்கும் மேற்பட்டோர் இடம்பெயர்வு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது கேரளாவின் கொச்சி நகர உள்ளூர் போக்குவரத்துச் செய்தி; தமிழ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgryCXVRC4hAddo8pV32T'}
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: An invitation to parents, educators to rethink ‘
-[skip] ஆந்திரப் பிரதேச மாநிலத்தின் உள்ளூர் கல்வி நीति. தமிழ்நாட்டுக
-[skip] நூல் வெளியீட்டு சர্ச்சை — ஆஸ்திரேலிய பயிற்சியாளர்-நடுவகர் வி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai’s air quality deteriorates to ‘poor’ the
-[skip] மணிப்பூர் உயர்நீதிமன்றத்தின் உள்ளூர் உத்தரவு — மணிப்பூர் மாந
-[skip] கோச்சி (கேரளா) அரசு போலீஸ் செயல்பாடு. தமிழ்நாட்டு வாசகரைப் ப
-[skip] கேரளத் திரையுலக விவகாரம் — தமிழ்நாடு வாசகரைப் பாதிக்காது. கே
-[skip] வெளிநாட்டு உள் நாட்டுத் திரடை — ஆஸ்திரேலியாவில் ஆங்கிலேய அணি
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Poor response from residents to Chennai Corporat
-[skip] இது உத்தரப் பிரதேசத்தின் உள்ளூர் நிர்வாக நடவடிக்கை தொடர்பான 
-[திருத்தம்] நாடாளுமன்றக் குளிர்காலக் கூட்டம் 88 நாட் → நாடாளுமன்றக் மழைக்காலக் கூட்டம் 88 நாட்க
-[தரம்] தமிழ் அல்லாத எழுத்து: কণরাജയ → ஒரு திருத்தம்
-[hold] நாடாளுமன்றக் மழைக்காலக் கூட்டம் 88 நாட்களைக் கடந்துவிட்டது
-[skip] கன্னடத் திரையுலக செய்தி — தமிழ்நாடு வாசகருக்குப் பொருத்தமில்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: RPF steps up Deepavali vigil, apprehends five wi
-[skip] இது என்விடியா நிறுவனத்தின் தலைவர் மீதான உள்நாட்டு விசாரணை தொ
-[brief] காலை brief தயார்
-[filler] court கட்டுரை
-[jobs] தொகுப்பு 12
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgsoBczrwJ6UwcnGHXRhc'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] தீபாவளிக்குப் பின் சென்னையில் காற்று தரம் மோசம்; மணலியில் அதிகம்
+[image] களஞ்சியம் (3 சொல்): துறையூரில் புகார் செய்தவரைத் தாக்க
+[hold] துறையூரில் புகார் செய்தவரைத் தாக்கியதாக துணை சபாநாயகர் மீது குற்றச்சாட்டு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யார் எம்எல்ஏ, எந்த மாவட்டம
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, சீமான் கூற்றின் விவரங்கள் 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgsoXvea4LjFD34VFZ6sk'}
+[image] களஞ்சியம் (3 சொல்): ஜெம் கிரானைட்ஸ் வீரமணி மீதான சிறார
+[publish] ஜெம் கிரானைட்ஸ் வீரமணி மீதான சிறார் வழக்கில் மூன்றாவது வீடியோ கைப்பற்றம்
+[filler] tech கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12754 · சென்செக்ஸ் 80791
+[market] தங்கம் 22K ₹12744 · சென்செக்ஸ் 81107
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 7
+[done] feed 300 · pending 1 · எழுதியவை 8

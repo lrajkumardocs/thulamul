@@ -1,5 +1,69 @@
 [
  {
+  "headline": "தீபாவளிக்குப் பின் சென்னையில் காற்று தரம் மோசம்; மணலியில் அதிகம்",
+  "lines": [
+   "தீபாவளி பண்டிகையையடுத்த காலையில் சென்னையின் காற்று தரம் மோசமான நிலைக்குச் சென்றுள்ளது.",
+   "மணலி பகுதியில் காற்று தர குறியீடு 296 ஆக பதிவானது, இது நகரிலேயே அதிக அளவு ஆகும்.",
+   "அரும்பாக்கத்தில் 265, கொடுங்கையூரில் 215, ராயப்புரத்தில் 184, வேளச்சேரி குடியிருப்புப் பகுதியில் 142 எனவும் பதிவாகியுள்ளது.",
+   "பட்டாசு எரிப்பு காரணமாக காற்றில் புகை, தூசுத் துகள்கள் அதிகரித்ததால் இந்த நிலை ஏற்பட்டதாகக் கருதப்படுகிறது.",
+   "காற்று தர கண்காணிப்பு நிலையங்கள் நகரின் பல்வேறு பகுதிகளில் தரவுகளைத் தொடர்ந்து பதிவு செய்து வருகின்றன."
+  ],
+  "closing": "ஒவ்வொரு ஆண்டும் தீபாவளிக்குப் பின்னர் சென்னையில் காற்று தர மட்டம் இதேபோன்று உயர்வதாகப் பதிவாகி வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "சென்னை",
+   "மணலி",
+   "அரும்பாக்கம்",
+   "கொடுங்கையூர்",
+   "வேளச்சேரி"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Chennai's air quality turns poor after Deepavali, Manali records highest",
+   "lines": [
+    "On the morning after Deepavali, Chennai's air quality deteriorated to the poor category.",
+    "Manali Village recorded the highest Air Quality Index at 296, the worst in the city.",
+    "Arumbakkam recorded 265, Kodungaiyur 215, Royapuram 184, and Velachery Residential Area 142.",
+    "The spike is believed to be caused by smoke and particulate matter from firecracker bursting.",
+    "Air quality monitoring stations across the city are continuing to record data."
+   ],
+   "closing": "Air quality levels in Chennai have reportedly risen in a similar pattern every year after Deepavali."
+  },
+  "front_cat": "routine",
+  "image_query": "Chennai air pollution",
+  "id": "2bc2ae9ceff6",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-09T23:37+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/chennais-air-quality-deteriorates-to-poor-the-morning-after-deepavali/article71681457.ece"
+  ],
+  "image": {
+   "url": "data/bank/health08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/2bc2ae9ceff6.mp3",
+  "created_ts": 1794247662.6759334,
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "தீபாவளியில் டெல்லியில் பட்டாசு தடை மீறல்: காற்று மாசு அளவு கடுமை",
   "lines": [
    "தீபாவளி பண்டிகையை முன்னிட்டு டெல்லியில் பட்டாசுகளுக்கு விதிக்கப்பட்ட தடையை பலரும் மீறியதாகத் தெரிகிறது.",

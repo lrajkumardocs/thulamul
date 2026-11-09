@@ -1,65 +1,66 @@
 [
  {
-  "headline": "நாடாளுமன்றக் மழைக்காலக் கூட்டம் 88 நாட்களைக் கடந்துவிட்டது",
+  "headline": "துறையூரில் புகார் செய்தவரைத் தாக்கியதாக துணை சபாநாயகர் மீது குற்றச்சாட்டு",
   "lines": [
-   "நவம்பர் 9, 2026 அன்று பிற்பகல் வரை, நாடாளுமன்றின் இரு சபைகளும் அதிகாரப்பூர்வமாக நிறைவடையவில்லை.",
-   "லோக்சபா மற்றும் ராஜ்யசபா இரண்டிலுமே உத்தரவு பிறப்பிக்கப்படாத நிலை நீடிக்கிறது.",
-   "இச்செய்திப் பிரகாரம், நீடித்த கூட்டம் நடைபெறுவதற்கான சாத்தியம் எஞ்சியுள்ளது.",
-   "பாரம்பரியமாக மாற்றுச் சபைகள் நெகிழ்வான கால அட்டவணைகளைப் பின்பற்றுவதுண்டு.",
-   "அடுத்த நடவடிக்கை பற்றிய தகவல் வழக்கமாகப் பாராளுமன்றத் தலைவர் அல்லது அரசிலிருந்து வெளிவரும்."
+   "திருச்சி மாவட்டம் துறையூரில் குடிமைப் பிரச்சினை குறித்து புகார் செய்த ஒருவரைத் தாக்கியதாக தமிழ்நாடு சட்டமன்ற துணை சபாநாயகர் மீது குற்றச்சாட்டு எழுந்துள்ளது.",
+   "தாக்குதல் நடந்ததாகக் கூறப்படும் காட்சிகள் இடம்பெற்ற வீடியோ சமூக ஊடகங்களில் பரவலாகப் பரவியது.",
+   "இருட்டில் படம்பிடிக்கப்பட்ட அந்த வீடியோவில் ஒருவர் இன்னொருவரைத் தாக்குவதாகத் தோன்றுகிறது.",
+   "வீடியோவில் உள்ளவர்களின் முகங்கள் தெளிவாகத் தெரியாததால் அவர்களை அடையாளம் கண்டுபிடிக்க முடியவில்லை.",
+   "இது தொடர்பாக அதிகாரப்பூர்வ விளக்கமோ காவல்துறை நடவடிக்கையோ இதுவரை வெளியிடப்படவில்லை."
   ],
-  "closing": "இது ஒரு நிரதிசயக் கூட்ட நிலை; வழக்கமான நடைமுறை முடிவை அரசு கீழ்வந்திருக்குமோ என்பது தெரிய வேண்டும்.",
-  "closing_type": "background",
+  "closing": "சம்பவம் தொடர்பான முழு விவரங்கள் உறுதி செய்யப்படாத நிலையில், அடுத்து என்ன நடவடிக்கை எடுக்கப்படும் என்பது தெரியவில்லை.",
+  "closing_type": "question",
   "sources": [
    {
-    "name": "The Hindu",
-    "doc": "Govt Policy",
-    "date": "2026-11-09"
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
    }
   ],
-  "topic": "govt",
+  "topic": "crime",
   "entities": [
-   "நாடாளுமன்றம்",
-   "லோக்சபா",
-   "რাজ்यसभा"
+   "துறையூர்",
+   "திருச்சி மாவட்டம்",
+   "தமிழ்நாடு சட்டமன்றம்",
+   "துணை சபாநாயகர்"
   ],
-  "confidence": 0.65,
+  "confidence": 0.35,
   "en": {
-   "headline": "Parliament's monsoon session unprorogued for record 88 days",
+   "headline": "TN Deputy Speaker accused of assaulting Thuraiyur resident over complaint",
    "lines": [
-    "As of November 9, 2026 afternoon, neither the Lok Sabha nor the Rajya Sabha had been formally prorogued.",
-    "No official order had been issued to conclude either house of Parliament.",
-    "The continued status leaves open the possibility of an extended sitting of the current session.",
-    "Parliament houses typically follow flexible scheduling protocols for prolonged sessions.",
-    "Further details on next steps are expected from parliamentary leadership or the government."
-   ],
-   "closing": "This is an unusual parliamentary situation; clarification on the government's intended course is awaited."
+    "A Thuraiyur resident in Tiruchi district has accused the Tamil Nadu Assembly Deputy Speaker of assaulting him over a civic complaint.",
+    "A video showing the alleged assault went viral on social media platforms.",
+    "Shot in the dark, the clip shows a man assaulting another person.",
+    "The faces of those in the video are not clearly visible, leaving the incident unverified in full.",
+    "No official clarification or police action has been announced regarding the matter so far."
+   ]
   },
-  "front_cat": "assembly_event",
+  "front_cat": "routine",
   "image_query": "",
-  "wiki_subject": "Parliament of India",
+  "wiki_subject": "",
   "person_en": "",
   "urgent": false,
-  "affected": "நாடு",
+  "affected": "ஊர்",
   "flags": [
-   "numbers_conflict",
-   "single_source"
+   "defamation_risk",
+   "single_source",
+   "unverified_claim"
   ],
-  "id": "7fe1605623c2",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-11-09T13:07+05:30",
+  "id": "9659a4eb40db",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-09T23:38+05:30",
   "links": [
-   "https://www.thehindu.com/news/national/parliaments-monsoon-session-remains-unprorogued-for-record-88-days/article71681364.ece"
+   "https://www.thehindu.com/news/national/tamil-nadu/tn-deputy-speaker-faces-row-over-alleged-assault-of-thuraiyur-resident-for-complaining-about-civic-issue/article71682973.ece"
   ],
   "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RSJune22%2C2026Partywise.svg/500px-RSJune22%2C2026Partywise.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Parliament of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Parliament_of_India",
-   "symbolic": false
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
   },
-  "audio": "data/audio/7fe1605623c2.mp3",
-  "created_ts": 1794209826.0260808,
+  "audio": "data/audio/9659a4eb40db.mp3",
+  "created_ts": 1794247719.1856651,
   "status": "pending"
  }
 ]

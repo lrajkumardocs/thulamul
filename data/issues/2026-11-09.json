@@ -1,5 +1,490 @@
 [
  {
+  "id": "art_tech_20261109",
+  "headline": "அன்றாட டிஜிட்டல் பாதுகாப்பு: UPI, ஆதார் மற்றும் மொபைல் பழக்கங்கள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது, பணம் அனுப்புவதற்கு முன் பெறுநரின் பெயரை திரையில் உறுதிப்படுத்திக் கொள்ள வேண்டும்.",
+   "அறியாத நபர்களிடமிருந்து வரும் QR குறியீடுகளை ஸ்கேன் செய்வதற்கு முன் அவை எதற்காக என்று தெளிவாகத் தெரிந்துகொள்வது நல்லது.",
+   "ஆதார் எண்ணை பகிரும்போது, UIDAI வழங்கும் Masked Aadhaar அல்லது mAadhaar செயலியைப் பயன்படுத்துவது தனிப்பட்ட தகவல் பாதுகாப்பிற்கு உதவும்.",
+   "வங்கி, UPI அல்லது OTP விவரங்களை போனில் கேட்கும் எந்த அழைப்பும் மோசடியாக இருக்கலாம் என்பதால், அவற்றை யாருடனும் பகிரக் கூடாது.",
+   "மொபைல் செயலிகளுக்கு தேவையற்ற அனுமதிகளை (Permissions) வழங்குவதைத் தவிர்த்து, செட்டிங்ஸில் அவ்வப்போது அவற்றை சரிபார்த்துக் கொள்வது நல்ல பழக்கம்."
+  ],
+  "closing": "சிறு எச்சரிக்கை பெரிய இழப்பைத் தவிர்க்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-09"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "டிஜிட்டல்",
+   "பாதுகாப்பு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-09T23:40+05:30",
+  "created_ts": 1794247864.869108,
+  "audio": "data/audio/art_tech_20261109.mp3"
+ },
+ {
+  "headline": "ஜெம் கிரானைட்ஸ் வீரமணி மீதான சிறார் வழக்கில் மூன்றாவது வீடியோ கைப்பற்றம்",
+  "lines": [
+   "ஜெம் கிரானைட்ஸ் நிறுவனர் வீரமணி மீது சிறுவர் மீதான பாலியல் வன்கொடுமை குற்றச்சாட்டில் காவல்துறை தொடர்ந்து விசாரணை நடத்தி வருகிறது.",
+   "குற்றம் சாட்டப்பட்டவர் தொடர்பான மூன்றாவது வீடியோ ஆதாரமாக காவல்துறையினரால் கைப்பற்றப்பட்டுள்ளது.",
+   "அழிக்கப்பட்டிருந்த இந்தக் காட்சிகளை சைபர் தடயவியல் நிபுணர்கள் ஒரு சேமிப்புக் கருவியிலிருந்து மீட்டெடுத்ததாக காவல்துறை வட்டாரங்கள் தெரிவித்துள்ளன.",
+   "இதற்கு முன்னர் இதே வழக்கில் இரண்டு வீடியோக்கள் ஏற்கெனவே ஆதாரமாகச் சேகரிக்கப்பட்டிருந்ததாகத் தகவல்கள் தெரிவிக்கின்றன.",
+   "வழக்கு தொடர்பான விசாரணை தொடர்ந்து நடைபெற்று வருவதாகவும், மேலும் ஆதாரங்கள் சேகரிக்கப்பட்டு வருவதாகவும் காவல்துறை தெரிவித்துள்ளது."
+  ],
+  "closing": "இந்த வழக்கில் முன்னதாக இரண்டு வீடியோக்கள் ஆதாரமாக கைப்பற்றப்பட்டிருந்த நிலையில், இப்போது மூன்றாவது வீடியோவும் கிடைத்துள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ஜெம் கிரானைட்ஸ்",
+   "வீரமணி",
+   "காவல்துறை",
+   "சைபர் தடயவியல்",
+   "சிறார் பாதுகாப்பு"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Police seize third video in Gem Granites Veeramani minor abuse case",
+   "lines": [
+    "Police are continuing their investigation into allegations that Gem Granites founder Veeramani sexually abused a minor boy.",
+    "A third video linked to the accused has now been seized by police as evidence.",
+    "Cyber forensic experts reportedly retrieved the deleted footage from a storage device, according to police sources.",
+    "Two other videos had already been collected earlier as evidence in the same case, reports indicate.",
+    "Police said the investigation is ongoing and further evidence is being gathered."
+   ],
+   "closing": "Two videos had earlier been seized as evidence in this case, and a third video has now been recovered."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "id": "b050d6f792f4",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-09T23:40+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/police-seize-third-video-allegedly-showing-gem-granites-veeramani-abusing-minor/article71683139.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime03.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/b050d6f792f4.mp3",
+  "created_ts": 1794247851.506919,
+  "person_en": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "தீபாவளிக்குப் பின் சென்னையில் காற்று தரம் மோசம்; மணலியில் அதிகம்",
+  "lines": [
+   "தீபாவளி பண்டிகையையடுத்த காலையில் சென்னையின் காற்று தரம் மோசமான நிலைக்குச் சென்றுள்ளது.",
+   "மணலி பகுதியில் காற்று தர குறியீடு 296 ஆக பதிவானது, இது நகரிலேயே அதிக அளவு ஆகும்.",
+   "அரும்பாக்கத்தில் 265, கொடுங்கையூரில் 215, ராயப்புரத்தில் 184, வேளச்சேரி குடியிருப்புப் பகுதியில் 142 எனவும் பதிவாகியுள்ளது.",
+   "பட்டாசு எரிப்பு காரணமாக காற்றில் புகை, தூசுத் துகள்கள் அதிகரித்ததால் இந்த நிலை ஏற்பட்டதாகக் கருதப்படுகிறது.",
+   "காற்று தர கண்காணிப்பு நிலையங்கள் நகரின் பல்வேறு பகுதிகளில் தரவுகளைத் தொடர்ந்து பதிவு செய்து வருகின்றன."
+  ],
+  "closing": "ஒவ்வொரு ஆண்டும் தீபாவளிக்குப் பின்னர் சென்னையில் காற்று தர மட்டம் இதேபோன்று உயர்வதாகப் பதிவாகி வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "சென்னை",
+   "மணலி",
+   "அரும்பாக்கம்",
+   "கொடுங்கையூர்",
+   "வேளச்சேரி"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Chennai's air quality turns poor after Deepavali, Manali records highest",
+   "lines": [
+    "On the morning after Deepavali, Chennai's air quality deteriorated to the poor category.",
+    "Manali Village recorded the highest Air Quality Index at 296, the worst in the city.",
+    "Arumbakkam recorded 265, Kodungaiyur 215, Royapuram 184, and Velachery Residential Area 142.",
+    "The spike is believed to be caused by smoke and particulate matter from firecracker bursting.",
+    "Air quality monitoring stations across the city are continuing to record data."
+   ],
+   "closing": "Air quality levels in Chennai have reportedly risen in a similar pattern every year after Deepavali."
+  },
+  "front_cat": "routine",
+  "image_query": "Chennai air pollution",
+  "id": "2bc2ae9ceff6",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-09T23:37+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/chennais-air-quality-deteriorates-to-poor-the-morning-after-deepavali/article71681457.ece"
+  ],
+  "image": {
+   "url": "data/bank/health08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/2bc2ae9ceff6.mp3",
+  "created_ts": 1794247662.6759334,
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "எத்தியோப்பியா எல்லை மோதலில் ஐம்பதாயிரத்துக்கும் மேற்பட்டோர் இடம்பெயர்வு",
+  "lines": [
+   "எத்தியோப்பியா எல்லைப் பகுதியில் நடந்த மோதல்களால் ஐம்பதாயிரத்துக்கும் மேற்பட்டோர் தங்கள் இருப்பிடங்களை விட்டு வெளியேறியுள்ளனர்.",
+   "இந்த மோதல்களில் பலர் உயிரிழந்ததாக அல் ஜசீரா செய்தி நிறுவனம் தெரிவித்துள்ளது.",
+   "உணவும் தங்குமிடமும் இல்லாமல் பல குடும்பங்கள் கென்யாவுக்குள் நுழைந்துள்ளதாகத் தகவல்கள் தெரிவிக்கின்றன.",
+   "இடம்பெயர்ந்தோரை ஏற்றுக்கொள்ளும் உள்ளூர் மக்கள் வளங்கள் போதாமையால் சிரமப்படுவதாகக் கூறப்படுகிறது.",
+   "மோதலுக்கான காரணம் மற்றும் நிவாரண நடவடிக்கைகள் குறித்து இதுவரை அதிகாரப்பூர்வத் தகவல் வெளியாகவில்லை."
+  ],
+  "closing": "எத்தியோப்பியா-கென்யா எல்லைப் பகுதியில் தொடர்ந்து நிலவும் பதற்றம் காரணமாக இடம்பெயர்வோர் எண்ணிக்கை இன்னும் அதிகரிக்கலாம்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "எத்தியோப்பியா",
+   "கென்யா",
+   "எல்லை மோதல்",
+   "இடம்பெயர்வு"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Over 50,000 displaced by deadly Ethiopia border clashes",
+   "lines": [
+    "More than 50,000 people have been displaced after deadly clashes along the Ethiopia border.",
+    "Several people are reported to have died in the fighting, according to Al Jazeera.",
+    "Families are arriving in Kenya with little food or shelter, reports say.",
+    "Host communities in Kenya are reportedly struggling to cope due to lack of resources.",
+    "No official details on the cause of the clashes or relief measures have been confirmed so far."
+   ],
+   "closing": "The displacement crisis could worsen if tensions along the Ethiopia-Kenya border continue."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "031c48b899bb",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-09T23:33+05:30",
+  "links": [
+   "https://www.aljazeera.com/news/2026/11/9/more-than-50000-displaced-by-deadly-ethiopia-border-clashes?traffic_source=rss"
+  ],
+  "image": {
+   "url": "data/bank/world02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/031c48b899bb.mp3",
+  "created_ts": 1794247435.570027,
+  "status": "published"
+ },
+ {
+  "headline": "கிரீட் தீவு அருகே படகு கவிழ்ந்து பதின்மூன்று புலம்பெயர்ந்தோர் உயிரிழப்பு",
+  "lines": [
+   "கிரீட் தீவு அருகே ஒரு படகு கடலில் கவிழ்ந்து பதின்மூன்று புலம்பெயர்ந்தோர் உயிரிழந்தனர்.",
+   "கிரேக்கக் கடலோரக் காவல்படை இந்தச் சம்பவத்தில் பதினெட்டு பேரை உயிருடன் மீட்டுள்ளதாக அறிவித்துள்ளது.",
+   "மீட்கப்பட்டவர்கள் அனைவரும் சூடான் நாட்டைச் சேர்ந்த குடிமக்கள் என்று கிரேக்க அதிகாரிகள் தெரிவித்தனர்.",
+   "மத்தியதரைக் கடல் வழியாக ஐரோப்பாவை நோக்கிச் செல்லும் புலம்பெயர்வோர் பாதை ஆபத்தானதாகவே தொடர்ந்து கருதப்படுகிறது.",
+   "மீட்பு மற்றும் விசாரணை நடவடிக்கைகள் தற்போது தொடர்ந்து நடைபெற்று வருவதாக கிரேக்க அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "மத்தியதரைக் கடல் வழியாக ஐரோப்பாவை அடைய முயலும் புலம்பெயர்வோரின் படகு விபத்துகள் அவ்வப்போது நிகழ்ந்து வருகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "கிரீட் தீவு",
+   "கிரேக்கம்",
+   "சூடான்",
+   "கடலோரக் காவல்படை",
+   "மத்தியதரைக் கடல்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Boat capsizes off Crete, thirteen migrants killed",
+   "lines": [
+    "A boat capsized off the Greek island of Crete, killing thirteen migrants.",
+    "The Greek coastguard said it rescued eighteen people alive from the incident.",
+    "Officials confirmed all those rescued were Sudanese nationals.",
+    "The Mediterranean route to Europe continues to be considered dangerous for migrants.",
+    "Rescue and investigation efforts are ongoing, Greek authorities said."
+   ],
+   "closing": "Boat accidents involving migrants attempting to reach Europe via the Mediterranean occur periodically."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e2d0dd2e983a",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-09T23:31+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/c65ynyxrjdyeo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/e2d0dd2e983a.mp3",
+  "created_ts": 1794247262.6776793,
+  "status": "published"
+ },
+ {
+  "headline": "செனகல் கடற்கரையில் புலம்பெயர் படகு கவிழ்வு; 39 பேர் உயிரிழப்பு",
+  "lines": [
+   "மேற்கு ஆப்பிரிக்க நாடான செனகலின் கடற்கரைக்கு அருகே ஐரோப்பாவை நோக்கிச் சென்ற புலம்பெயர்ந்தோர் படகு ஒன்று கவிழ்ந்தது.",
+   "இந்த விபத்தில் குறைந்தது முப்பத்தொன்பது பேர் உயிரிழந்ததாக தகவல்கள் தெரிவிக்கின்றன.",
+   "ஸ்பெயின் நாட்டின் கேனரி தீவுகளை அடைய முயன்ற படகில் பலர் பயணித்ததாக அறியப்படுகிறது.",
+   "கேனரி தீவுகளை நோக்கிய அட்லாண்டிக் பெருங்கடல் பயணம் புலம்பெயர்வோருக்குத் தொடர்ந்து பெரும் ஆபத்தாக உள்ளது.",
+   "மீட்புப் பணிகள் தொடர்வதாகவும், விபத்து குறித்த முழு விவரங்கள் இன்னும் வெளியாகவில்லை என்றும் தெரிவிக்கப்படுகிறது."
+  ],
+  "closing": "ஐரோப்பாவை அடைய முயலும் ஆப்பிரிக்கப் புலம்பெயர்ந்தோருக்கு கேனரி தீவுகள் வழியிலான அட்லாண்டிக் கடல் பயணம் உலகின் மிகவும் ஆபத்தான வழிகளில் ஒன்றாகக் கருதப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "செனகல்",
+   "கேனரி தீவுகள்",
+   "ஸ்பெயின்",
+   "அட்லாண்டிக் பெருங்கடல்",
+   "புலம்பெயர்ந்தோர்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "At Least 39 Die After Migrant Boat Sinks Off Senegal Coast",
+   "lines": [
+    "A boat carrying migrants bound for Europe sank off the coast of Senegal in West Africa.",
+    "At least thirty nine people are reported to have died in the disaster.",
+    "The boat was reportedly attempting to reach Spain's Canary Islands with many passengers aboard.",
+    "The Atlantic crossing toward the Canary Islands continues to be a highly dangerous route for migrants.",
+    "Rescue operations are said to be ongoing, with full details of the accident yet to emerge."
+   ],
+   "closing": "The Atlantic route to Spain's Canary Islands is considered one of the deadliest migration paths for Africans seeking to reach Europe."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "474691794557",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-09T23:30+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world05.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/474691794557.mp3",
+  "created_ts": 1794247223.649174,
+  "status": "published"
+ },
+ {
+  "headline": "தேனியில் பட்டாசு வெடித்தவர்களை கேள்வி கேட்ட காவல் அதிகாரி உயிரிழப்பு",
+  "lines": [
+   "தேனி மாவட்டத்தில் சாலையை மறித்துப் பட்டாசு வெடித்துப் ரீல்ஸ் எடுத்த இளைஞர்களைக் கேள்வி கேட்ட காவல் சிறப்பு உதவி ஆய்வாளர் ஒருவர் தாக்கப்பட்டு உயிரிழந்துள்ளார்.",
+   "இந்த சம்பவம் தொடர்பாக மூன்று பேர் காவல் துறையினரால் கைது செய்யப்பட்டுள்ளனர்.",
+   "சாலையை மறித்துப் பட்டாசு வெடித்தது தொடர்பாக கேள்வி எழுப்பியதே இந்த தாக்குதலுக்குக் காரணம் என காவல் துறை தெரிவித்துள்ளது.",
+   "குற்றம் சாட்டப்பட்டவர்கள் மீது என்ன வழக்குகள் பதிவு செய்யப்பட்டுள்ளன என்பது தொடர்பாக மேலும் விவரங்கள் வெளியாகவில்லை.",
+   "சம்பவம் தொடர்பான முழு விசாரணை காவல் துறையால் தொடரும் என்று தெரிவிக்கப்பட்டுள்ளது."
+  ],
+  "closing": "கைது செய்யப்பட்ட மூவர் மீதான வழக்கு விசாரணையின் முன்னேற்றத்தைக் கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "தேனி மாவட்டம்",
+   "காவல்துறை",
+   "சிறப்பு உதவி ஆய்வாளர்",
+   "பட்டாசு",
+   "ரீல்ஸ்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Police officer killed after questioning youths bursting crackers for reels",
+   "lines": [
+    "In Theni district, a police special sub-inspector was attacked and killed after questioning youths who blocked a road to burst crackers while filming reels.",
+    "Three people have been arrested by police in connection with the incident.",
+    "Police said the attack occurred after the officer questioned the youths for blocking the road and bursting crackers.",
+    "Further details on the specific charges against the accused have not been released.",
+    "Police said a full investigation into the incident is continuing."
+   ],
+   "closing": "The progress of the investigation against the three arrested persons remains to be watched."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "a1ee84807b05",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-09T23:29+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/c6ewew5rjl24o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/a1ee84807b05.mp3",
+  "created_ts": 1794247181.1663296,
+  "status": "published"
+ },
+ {
+  "headline": "திருச்சி சமயபுரத்தில் இரு சிறுவர்கள் கொலை",
+  "lines": [
+   "திருச்சி அருகே சமயபுரத்தில் இரு சிறுவர்கள் கொலை செய்யப்பட்டனர்.",
+   "கால்வாய் கரைசாலையில் நவம்பர் 8 ஆம் தேதி இரவு பதினொரு மணியளவில் இந்த சம்பவம் நடந்துள்ளது.",
+   "கூர்மையான ஆயுதங்களைப் பயன்படுத்தி இந்தக் கொலை நடத்தப்பட்டிருக்கலாம் என காவல்துறையினர் தெரிவித்தனர்.",
+   "கொலை செய்தவர்கள் யார் என்பது இதுவரை கண்டறியப்படவில்லை.",
+   "சம்பவம் தொடர்பாக காவல்துறையினர் தீவிர விசாரணை நடத்தி வருகின்றனர்."
+  ],
+  "closing": "சிறார் வழக்கு என்பதால் பாதிக்கப்பட்டோர் குறித்த விவரங்கள் வெளியிடப்படவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-11-09"
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சமயபுரம்",
+   "திருச்சி",
+   "காவல் துறை"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Two minor boys murdered near Samayapuram, Tiruchi",
+   "lines": [
+    "Two minor boys were murdered near Samayapuram in Tiruchi.",
+    "The incident took place on the canal bank road around eleven at night yesterday.",
+    "Police said the crime may have been committed using sharp weapons.",
+    "The identity of the killers has not yet been established.",
+    "Police are conducting an intensive investigation into the case."
+   ],
+   "closing": "As this is a case involving minors, details of the victims have not been disclosed."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "01e3d1bab6f5",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-09T23:26+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Tiruchirapalli/two-minor-boys-murdered-at-samayapuram-near-tiruchi/article71681405.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/01e3d1bab6f5.mp3",
+  "created_ts": 1794246986.169199,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261109",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
   "lines": [
