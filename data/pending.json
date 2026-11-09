@@ -1,134 +1,65 @@
 [
  {
-  "headline": "ஜெம் கிரானைட்ஸ் வீரமணி மீது மீண்டும் பாலியல் தொல்லை புகார்",
+  "headline": "நாடாளுமன்றக் மழைக்காலக் கூட்டம் 88 நாட்களைக் கடந்துவிட்டது",
   "lines": [
-   "ஜெம் கிரானைட்ஸ் நிறுவனர் வீரமணி மீது புதிய பாலியல் தொல்லை புகார் பதிவு செய்யப்பட்டுள்ளது.",
-   "ஏற்கெனவே பதிவான ஒரு வழக்கில் சாட்சியாக இருந்த சிறுமியின் வாக்குமூலத்தின் அடிப்படையில் இந்த நடவடிக்கை தொடங்கப்பட்டுள்ளது.",
-   "இந்தப் புகார் தொடர்பாக தமிழ்நாடு காவல்துறை தேவையான நடவடிக்கைகளை மேற்கொண்டு வருவதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "முன்னதாக பதிவான வழக்கில் இந்த சிறுமி முக்கிய சாட்சியாக இருந்ததாக தகவல்கள் தெரிவிக்கின்றன.",
-   "இந்த வழக்கில் மேலும் விரிவான விசாரணை நடைபெற உள்ளதாக அதிகாரிகள் தெரிவித்துள்ளனர்."
+   "நவம்பர் 9, 2026 அன்று பிற்பகல் வரை, நாடாளுமன்றின் இரு சபைகளும் அதிகாரப்பூர்வமாக நிறைவடையவில்லை.",
+   "லோக்சபா மற்றும் ராஜ்யசபா இரண்டிலுமே உத்தரவு பிறப்பிக்கப்படாத நிலை நீடிக்கிறது.",
+   "இச்செய்திப் பிரகாரம், நீடித்த கூட்டம் நடைபெறுவதற்கான சாத்தியம் எஞ்சியுள்ளது.",
+   "பாரம்பரியமாக மாற்றுச் சபைகள் நெகிழ்வான கால அட்டவணைகளைப் பின்பற்றுவதுண்டு.",
+   "அடுத்த நடவடிக்கை பற்றிய தகவல் வழக்கமாகப் பாராளுமன்றத் தலைவர் அல்லது அரசிலிருந்து வெளிவரும்."
   ],
-  "closing": "இதற்கு முன்னரே வீரமணி மீது பாலியல் தொல்லை வழக்கு பதிவாகி விசாரணை நடைபெற்று வருகிறது.",
+  "closing": "இது ஒரு நிரதிசயக் கூட்ட நிலை; வழக்கமான நடைமுறை முடிவை அரசு கீழ்வந்திருக்குமோ என்பது தெரிய வேண்டும்.",
   "closing_type": "background",
   "sources": [
    {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
+    "name": "The Hindu",
+    "doc": "Govt Policy",
+    "date": "2026-11-09"
    }
   ],
-  "topic": "crime",
+  "topic": "govt",
   "entities": [
-   "ஜெம் கிரானைட்ஸ்",
-   "வீரமணி",
-   "தமிழ்நாடு காவல் துறை"
+   "நாடாளுமன்றம்",
+   "லோக்சபா",
+   "რাজ்यसभा"
   ],
-  "confidence": 0.6,
+  "confidence": 0.65,
   "en": {
-   "headline": "Fresh sexual harassment complaint filed against Gem Granites' Veeramani",
+   "headline": "Parliament's monsoon session unprorogued for record 88 days",
    "lines": [
-    "A fresh sexual harassment complaint has been filed against Gem Granites founder Veeramani.",
-    "The action was initiated based on the statement of a minor who was earlier a witness in an already registered case.",
-    "Police have reportedly begun necessary action following the complaint.",
-    "Reports indicate the minor had earlier served as a key witness in the previously registered case.",
-    "Officials have said that a detailed investigation will be carried out in this case."
+    "As of November 9, 2026 afternoon, neither the Lok Sabha nor the Rajya Sabha had been formally prorogued.",
+    "No official order had been issued to conclude either house of Parliament.",
+    "The continued status leaves open the possibility of an extended sitting of the current session.",
+    "Parliament houses typically follow flexible scheduling protocols for prolonged sessions.",
+    "Further details on next steps are expected from parliamentary leadership or the government."
    ],
-   "closing": "A sexual harassment case against Veeramani was already registered earlier and is under investigation."
+   "closing": "This is an unusual parliamentary situation; clarification on the government's intended course is awaited."
   },
-  "front_cat": "crime_major",
+  "front_cat": "assembly_event",
   "image_query": "",
-  "wiki_subject": "",
+  "wiki_subject": "Parliament of India",
   "person_en": "",
   "urgent": false,
-  "affected": "சிலர்",
+  "affected": "நாடு",
   "flags": [
-   "defamation_risk",
+   "numbers_conflict",
    "single_source"
   ],
-  "id": "442f81c83d86",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-09T02:08+05:30",
+  "id": "7fe1605623c2",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-11-09T13:07+05:30",
   "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/fresh-sexual-harassment-complaint-against-granite-baron-veeramani/article71680898.ece"
+   "https://www.thehindu.com/news/national/parliaments-monsoon-session-remains-unprorogued-for-record-88-days/article71681364.ece"
   ],
   "image": {
-   "url": "data/bank/crime16.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RSJune22%2C2026Partywise.svg/500px-RSJune22%2C2026Partywise.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Parliament of India",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Parliament_of_India",
+   "symbolic": false
   },
-  "audio": "data/audio/442f81c83d86.mp3",
-  "created_ts": 1794170323.5399063,
-  "status": "pending"
- },
- {
-  "headline": "மழை காரணமாக சென்னை ஓபன் இறுதிப்போட்டி ஒரு நாள் தள்ளிவைப்பு",
-  "lines": [
-   "சென்னை ஓபன் டென்னிஸ் போட்டியின் மகளிர் ஒற்றையர் இறுதிப்போட்டி மழை மற்றும் மோசமான காற்று தரம் காரணமாக ஒரு நாள் தள்ளி வைக்கப்பட்டது.",
-   "ஜானிஸ் டியென் மற்றும் மக்தா லினெட் இடையேயான இறுதிப்போட்டி நவம்பர் ஒன்பதாம் தேதி காலை பதினொரு மணிக்கு நடைபெறும் என அறிவிக்கப்பட்டுள்ளது.",
-   "தள்ளி வைக்கப்பட்ட போட்டிக்கான டிக்கெட் வைத்திருப்பவர்கள், அதே டிக்கெட்டுடன் அரங்கிற்குள் நுழையலாம் என ஏற்பாட்டாளர்கள் தெரிவித்துள்ளனர்.",
-   "போட்டி தொடரின் இருப்பு நாளாக ஒதுக்கப்பட்ட தேதியில் இந்த இறுதிப்போட்டி நடத்தப்படுவதாக தகவல் வெளியாகியுள்ளது.",
-   "வானிலை மேம்பட்டால் மட்டுமே இறுதிப்போட்டி திட்டமிட்ட நேரத்தில் தொடங்கும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "மழை மற்றும் காற்று மாசு காரணமாக விளையாட்டுப் போட்டிகள் தள்ளி வைக்கப்படுவது சென்னையில் அண்மைக் காலமாக அதிகரித்து வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Sport",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "Sportstar",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "sports",
-  "entities": [
-   "சென்னை ஓபன்",
-   "ஜானிஸ் டியென்",
-   "மக்தா லினெட்",
-   "சென்னை"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Chennai Open final postponed by a day due to rain",
-   "lines": [
-    "The women's singles final of the Chennai Open tennis tournament was postponed by a day due to rain and poor air quality.",
-    "The match between Janice Tjen and Magda Linette will now be held at 11 a.m. on November 9.",
-    "Organisers said spectators holding tickets for the postponed match can enter the venue with the same tickets.",
-    "The final will be played on the tournament's designated reserve day, organisers confirmed.",
-    "The final is expected to begin on schedule only if weather conditions improve."
-   ],
-   "closing": "Rain and poor air quality have increasingly disrupted sporting events in Chennai in recent times."
-  },
-  "front_cat": "routine",
-  "image_query": "tennis court Chennai Open",
-  "wiki_subject": "Chennai Open",
-  "person_en": "",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "numbers_conflict"
-  ],
-  "id": "889fab327efa",
-  "topic_ta": "விளையாட்டு",
-  "published_at": "2026-11-09T05:49+05:30",
-  "links": [
-   "https://www.thehindu.com/sport/tennis/chennai-open-tennis-singles-final-postponed-due-to-rain-and-air-quality/article71681215.ece",
-   "https://sportstar.thehindu.com/tennis/chennai-open-2026-singles-final-janice-tjen-vs-magda-linette-postponed-rain-poor-air-quality/article71681114.ece"
-  ],
-  "image": {
-   "url": "data/bank/sports01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/889fab327efa.mp3",
-  "created_ts": 1794183545.969646,
+  "audio": "data/audio/7fe1605623c2.mp3",
+  "created_ts": 1794209826.0260808,
   "status": "pending"
  }
 ]
