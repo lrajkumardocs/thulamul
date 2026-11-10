@@ -1,39 +1,38 @@
-[expire] 81fe78199b26
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 29 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 20 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 26 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 28 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 28 புதியவை
+[fetch] ESPNcricinfo: 26 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 29 புதியவை
-[fetch] The Hindu Tech: 22 புதியவை
+[fetch] The Hindu Tech: 23 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 19 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 18 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 24 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 4 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 26 புதியவை
+[fetch] Dinamani Sports: 27 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
@@ -57,68 +56,76 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x763959b91810>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x70d5094bd410>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
-[fetch] Times Govt Schemes: 20 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Times Govt Schemes: 17 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 20 புதியவை
+[fetch] TN Police News: 18 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 712 → நிகழ்வுகள் 646
-[triage] 646 → 61 | காலி: india:4, govt:3, sports:3, economy:2, court:2
-[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் — 2023 Ashes, Lord's இலிரு
-[skip] மூலத்தில் ஒரு தலைப்பு வரியும் ஒரு துணைத் தகவலும் மட்டுமே உள்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உரை இல்லை - செய்தி
-[tts-edge] 9521e9d61c9e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தவெக ஆட்சியில் 50 கொலைகள் எனக் குற்றச்சாட்டு எழுப்பிய நயினார் நாகேந்திரன்
-[திருத்தம்] சட்டம் ஒழுங்கு கோமாவில் என முதல்வர் ஸ்டா → சட்டம் ஒழுங்கு ஐசியுவில் இருப்பதாக முதல்
-[tts-edge] 9e54a90e4333: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சட்டம் ஒழுங்கு ஐசியுவில் இருப்பதாக முதல்வர் ஸ்டாலின் கடும் விமர்சனம்
-[திருத்தம்] வேலூரில் தப்பிக்க முயன்ற சந்தேக நபரை காவ → வேலூரில் தப்பிக்க முயன்ற வரலாற்றுக் குற்
-[image] களஞ்சியம் (2 சொல்): வேலூரில் தப்பிக்க முயன்ற வரலாற்றுக
-[publish] வேலூரில் தப்பிக்க முயன்ற வரலாற்றுக் குற்றவாளியை காவல் துணை ஆய்வாளர் சுட்டார்
-[திருத்தம்] மின் உற்பத்தி நிலைய ஊழியர் போராட்டத்திற் → அனல் மின் உற்பத்தி நிலைய ஊழியர்களின் வேல
-[publish] அனல் மின் உற்பத்தி நிலைய ஊழியர்களின் வேலைநிறுத்தத்திற்குத் தடை விதித்த சென்னை உயர்நீதிமன்றம்
+[run] புதியவை 697 → நிகழ்வுகள் 639
+[triage] 639 → 62 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இரண்டு மூலங்களும் பெங்களூரு மற்றும் திருச்சூரில் உள்ள குறிப்
+[skip] வெளிநாட்டு தனியார் நிறுவனத்தின் தயாரிப்பு அறிவிப்பு — தமிழ்ந
+[skip] வெளிநாட்டுக் நபர்; சர்ச்சைக்குறிய கருத்துப் பக்ষபாடு; தமிழ்ந
+[skip] IPL பற்றிய சர்ச்சைக் கூற்று மட்டும். தமிழ்நாடு/இந்திய வீரர்/
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் தனித்தனி சாலை விபத்த
+[tts-edge] e40f8d74b5dc: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தமிழ்நாட்டில் தனித்தனி சாலை விபத்துகளில் இருவர் உயிரிழப்பு
+[skip] வெளிநாட்டுக் உள்நாட்டு அரசியல். தমிழ்நாடு வாசகரைப் பாதிக்கவி
+[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு கருத்துவரி மட்டுமே உள்ளது; யார
+[skip] புல்கேரியாவில் நடந்த சாலை விபத்து. உலகச் செய்திக்கு தமிழ்நாட
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வட இஸ்பெயினில் நிகழ்ந்த உள்நாட்டுக் குற்றச் சம்பவம். தமிழ்நா
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgv1PwaZ25woxYGWMohPD'}
+[skip] பலஸ்தீனிய சம்பவம் — தமிழ்நாடு வாசகரின் உடனிய கவனத்திற்குத் த
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgv1TMU5XEwy8eAo6mAnB'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgv1W7rrNLfZfxN48We5F'}
+[திருத்தம்] ஆந்த்ரோபிக் நிறுவனம் அமெரிக்க பங்குச் சந → ஆன்த்ரொபிக் நிறுவனத்தின் ஐபিஓ உலகின் மிக
 [தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[hold] முன்னாள் அமைச்சர் அன்பில் மகேஷுக்கு ஜாமீன் மறுப்பு
-[publish] சட்டம் ஒழுங்கு குறித்து முதலமைச்சர் பதவி விலக பாஜக கோரிக்கை
+[tts-edge] b25bb9fe2255: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆன்த்ரொபிக் நிறுவனத்தின் ஐபிஓ உலகின் மிகப்பெரிய பங்குச் சந்தை பட்டியலிடல்களில் சேர்ந்துவிடும்.
+[skip] இது தைவான் தொழில்நுட்ப நிறுவனமான TSMC, அமெரிக்க AI நிறுவனங்க
+[skip] இது அமெரிக்க நிறுவனமான ஆந்த்ரோபிக்கின் IPO திட்டம் பற்றிய செ
+[skip] மலேசியாவின் உள்நாட்டு அரசியல் மற்றும் குற்ற வழக்கு. தமிழ்நாட
+[skip] வெளிநாட்டு உள்நாட்டுச் செய்திகளிலும் (இஸ்ரேல்-ஹமாஸ் மோதல்) த
+[publish] தமிழக அரசு மீதான விமர்சனத்திற்கு வைகோ குற்ற அறிக்கை மூலம் பதில்
+[skip] வெளிநாட்டு உள்ளூர் விசாரணை — தமிழ்நாடு/இந்திய வாசகரைப் பாதிக
+[image] களஞ்சியம் (3 சொல்): தமிழ்நாடு முழுவதும் குண்டர் தடுப்ப
+[publish] தமிழ்நாடு முழுவதும் குண்டர் தடுப்பு நடவடிக்கை, 443 பேர் கைது
+[skip] வெளிநாட்டு உள்நாட்டு விষயம் — பிரான்சிலെ ஒரு நபரின் விசாரணை,
+[திருத்தம்] தமிழ்நாட்டில் 74 லட்சம் வாக்காளர் பெயர்க → தமிழ்நாட்டில் 74 லட்சம் வாக்காளர் பெயர்க
+[தரம்] தமிழ் அல்லாத எழுத்து: ষ → ஒரு திருத்தம்
+[publish] தமிழ்நாட்டில் 74 லட்சம் வாக்காளர் பெயர்கள் காணாமல் போனதாக அடையாளம்
+[skip] கொங்கோ ডেমোক্রেটিক রিপাবলিকের உள்நாட்டு സൈന്യക്കാർ സംബന്ധമായ
+[தரம்] தமிழ் அல்லாத எழுத்து: ম → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): சோழர் கால லைடன் செப்புப் பட்டயங்கள
+[publish] சோழர் கால லைடன் செப்புப் பட்டயங்கள் தமிழகம் திரும்பலாம்
+[skip] வெளிநாட்டு உள்ளூர் செய்தி — சிங்கப்பூரில் ஒரு கப்பல் கைப்பற்
+[image] களஞ்சியம் (2 சொல்): கள்ளக்குறிச்சி கலெக்டர் துன்புறுத்
+[publish] கள்ளக்குறிச்சி கலெக்டர் துன்புறுத்தல் குற்றச்சாட்டு: விசாரணை கோரிக்கை
+[skip] தமிழ்நாட்டு வாசகரைப் பாதிக்காது. அமெரிக்கா-சீனாவுக்கு இடையே 
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] செஞ்சி சிறுமி கடத்தல் தொடரும் நிலையில் ம → செஞ்சி சிறுமி கடத்தல் தொடரும் நிலையில் ம
-[image] களஞ்சியம் (3 சொல்): செஞ்சி சிறுமி கடத்தல் தொடரும் நிலை
-[publish] செஞ்சி சிறுமி கடத்தல் தொடரும் நிலையில் மற்றொரு சிறுமி கடத்தப்பட்டுள்ளது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] குறிப்பிட்ட சம்பவ விவரம் இல்லாத, ஒரு வரி புகார் தலைப்பு மட்ட
-[skip] மூலத்தில் ஒரு தலைப்பு மட்டுமே உள்ளது, போதிய விவரங்கள் இல்லை,
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgubNMiXW4CPmvwZeuLhj'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] ஐஏஎஸ் அதிகாரி பாதிப்பு தொடர்பாக விஜய் மீது உதயநிதி விமர்சனம்
-[skip] தமிழ்நாட்டு மாநில செய்தி — world குறிப்பு தவறு. இது 'tn' அல்
-[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — பிற நாட்டின் உள்ளூர் கட்சி பொருச
-[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு / இந்திய வாசகரைப் பாত
-[skip] இவை ஆந்திரப் பிரதேசம் மற்றும் அசாமில் உள்ள உள்ளூர் வேலைவாய்ப
-[skip] இவை மேற்கு வங்காளத்தில் உள்ள மத்திய அரசு நிறுவனங்களின் (டிஏச
-[skip] ஆந்திரப் பிரதேச மாநில போக்குவரத்துக் கழகத்தின் (APSRTC) உள்ள
-[skip] மூலத் தகவல் தெளிவற்றது, முரண்பாடானது (TVK அரசு என்பது புரிதல
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgubapaPSf4pVmStYJhJ8'}
-[skip] இது உத்தரபிரதேச மாநில உள்ளூர் அரசியல் செய்தி - அகிலேஷ் யாதவ்
-[skip] धार्मिक ग्रंथ पर विश्लेषणात्मक लेख है, सरकारी अधिसूचना या नी
-[skip] இது அமெரிக்க பங்குச் சந்தை பற்றிய உள்ளூர் செய்தி; தமிழ்நாடு/
-[திருத்தம்] பொதுநூலகங்களில் போலி புத்தகங்கள்: FIR பத → பொதுநூலகங்களில் போலி, செயற்கை நுண்ணறிவு 
-[தரம்] தமிழ் அல்லாத எழுத்து: फ → ஒரு திருத்தம்
-[publish] பொதுநூலகங்களில் போலி, செயற்கை நுண்ணறிவு புத்தகங்கள்: சென்னை உயர்நீதிமன்றம் எஃப்.ஐ.ஆர். பதிவுக்கு உத்தரவு
-[skip] வரலாற்று நபர் பற்றிய பொது குறிப்பு - நடப்பு செய்தி அல்ல. தமி
-[skip] வெளிநாட்டுப் பொது ஆங்கிலத் திரைத் தொடர் — தமிழ்நாட்டு வாசகரி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Committee to be set up for transparent procureme
-[skip] ఆంధ్ర ప్రదేశ్ రోడ్ ట్రాన్సిట్ కর్పొరేషన్ సమస్యలు తమిழ్నాడుకు
-[skip] விளையாட்டுச் செய்திகளில் தமிழ்நாடு / இந்திய தேசிய அணி / பெரு
-[தரம்] தமிழ் அல்லாத எழுத்து: রা → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): அமெரிக்காவில் நுகர்வோர் விலைக் குற
-[publish] அமெரிக்காவில் நுகர்வோர் விலைக் குறியீடு எதிர்பார்ப்பை மீறி உயர்வு
-[filler:sports] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages mus
-[market] தங்கம் 22K ₹12487 · சென்செக்ஸ் 81107
+[publish] அதிக விலை மின் ஒப்பந்தம் குறித்து தமிழ்நாடு அரசு விளக்கம்
+[திருத்தம்] தென்கிழக்கு வங்கக் கடலில் புயல் சின்னம்  → தென்கிழக்கு வங்கக்கடலில் புயல் சின்னம் உ
+[image] களஞ்சியம் (2 சொல்): தென்கிழக்கு வங்கக்கடலில் புயல் சின
+[publish] தென்கிழக்கு வங்கக்கடலில் புயல் சின்னம் உருவாக வாய்ப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgv2FPDGszoxMiiibp7qC'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; செய்தியை உறுதிப்படுத்த போத
+[publish] பாடநூல்கள் கொள்முதலில் முழு விசாரணை வேண்டும்: எம்.பி. மாணிக்கம் தாகூர் கோரிக்கை
+[comic] கதை: காட்டின் மறைவில் சபதம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.83) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.96) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-11-11.png · நாள் 63
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12525 · சென்செக்ஸ் 81107
 [weather] புதுப்பிக்கப்பட்டது
 [done] feed 300 · pending 1 · எழுதியவை 10
