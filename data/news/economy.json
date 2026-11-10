@@ -1,5 +1,69 @@
 [
  {
+  "headline": "எண்விடியா பங்கு விலை ஒன்பது சதவீதம் சரிவு, தலைமை நிர்வாகி மீது உளவு சர்ச்சை",
+  "lines": [
+   "அமெரிக்க செயற்கை நுண்ணறிவு சிப் தயாரிப்பு நிறுவனமான எண்விடியாவின் பங்கு விலை ஒரே நாளில் ஒன்பது சதவீதம் வரை சரிந்தது.",
+   "நிறுவனத்தின் தலைமை நிர்வாக அதிகாரி ஜென்சன் ஹுவாங், உளவுத்துறை தொடர்புடைய ஒரு நிர்வாகியுடன் தொடர்பு வைத்திருந்ததாக தகவல் வெளியானது.",
+   "இது தொடர்பாக எண்விடியா நிறுவனம் உள்விசாரணை தொடங்கியுள்ளதாக அறிவித்துள்ளது.",
+   "ஹுவாங் அந்த நிர்வாகியுடனான தொடர்பை ஒப்புக்கொண்டதாகவும், இது பாதுகாப்பு கவலைகளை எழுப்பியதாகவும் தெரிவிக்கப்படுகிறது.",
+   "ஹுவாங்கின் தலைமைப்பொறுப்பு தொடர்வது குறித்து நிச்சயமின்மை நிலவும் நிலையில், செயற்கை நுண்ணறிவு துறையில் நிறுவன வளர்ச்சிக்கு அவரது தலைமை இன்றியமையாதது என ஆய்வாளர்கள் கருத்து தெரிவித்துள்ளனர்."
+  ],
+  "closing": "எண்விடியா நிறுவனம் உலகின் முன்னணி செயற்கை நுண்ணறிவு சிப் தயாரிப்பாளராக இருப்பதால், இந்த சர்ச்சை உலகத் தொழில்நுட்பப் பங்குச் சந்தைகளிலும் தாக்கத்தை ஏற்படுத்தக்கூடும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "எண்விடியா",
+   "ஜென்சன் ஹுவாங்",
+   "அமெரிக்கா",
+   "செயற்கை நுண்ணறிவு",
+   "பங்குச் சந்தை"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Nvidia Stock Plunges Nine Percent Amid CEO Espionage Controversy",
+   "lines": [
+    "Shares of American AI chipmaker Nvidia fell by as much as nine percent in a single day.",
+    "Reports emerged that CEO Jensen Huang had a connection with an executive linked to intelligence efforts.",
+    "Nvidia announced it has launched an internal investigation into the matter.",
+    "Huang reportedly acknowledged his relationship with the executive, raising security concerns.",
+    "Amid uncertainty over whether Huang will continue as CEO, analysts say his leadership remains essential for the company's growth in the AI sector."
+   ],
+   "closing": "As Nvidia is the world's leading AI chipmaker, this controversy is expected to impact global technology stock markets as well."
+  },
+  "id": "85f5a9318b11",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-10T14:10+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nvidia-stock-crashes-8-after-a-foreign-intelligence-probe-initiated-by-ai-company-into-ceo-jensen-huang/articleshow/135685302.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/85f5a9318b11.mp3",
+  "created_ts": 1794300054.4256282,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "புதிய சம்வத்தில் இந்தியச் சந்தை வளர்ச்சி எதிர்பார்ப்பு: ஏஎன்எம்ஐ தலைவர் கமலேஷ் ஷ்ரோஃப் கருத்து",
   "lines": [
    "இந்தியப் பொருளாதாரம் புதிய சம்வத் ஆண்டில் ஏழு சதவீதத்திற்கும் அதிகமான வளர்ச்சியை எட்டும் என, சென்னை பங்குச் சந்தை ஏஎன்எம்ஐ தலைவர் கமலேஷ் ஷ்ரோஃப் தெரிவித்தார்.",
@@ -1647,69 +1711,6 @@
   "wiki_subject": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "வெளிநாட்டு முதலீட்டாளர் விதிகள் குறித்து ஆலோசனை அறிக்கை வெளியிட செபி திட்டம்",
-  "lines": [
-   "இந்திய பங்குச் சந்தை கட்டுப்பாட்டு நிறுவனமான செபியின் தலைவர் துஹின் கந்த பாண்டே, அடுத்த சில வாரங்களில் ஓர் ஆலோசனை அறிக்கை வெளியிடப்படும் என்று தெரிவித்தார்.",
-   "வெளிநாட்டு முதலீட்டாளர்களுக்கான இணக்கத் தேவைகள் குறித்து இந்த ஆவணம் ஆலோசனைகளை வெளியிடும் என்று அவர் கூறினார்.",
-   "பெரிய அளவில் வெளிநாட்டு முதலீடுகள் வெளியேறி வரும் நிலையில், இந்திய விதிமுறைகளை உலகத் தரத்துடன் ஒருங்கிணைக்கும் வழிகள் ஆராயப்படும் என்றார் பாண்டே.",
-   "சுயாதீன இயக்குநர்களின் செயல்திறனை மேம்படுத்த திறன் மேம்பாட்டு வலையமைப்பு ஒன்றையும் செபி உருவாக்கத் திட்டமிட்டுள்ளது.",
-   "இந்த ஆலோசனை அறிக்கை வெளியான பிறகு, பொதுமக்கள் மற்றும் தொழில் வல்லுநர்களின் கருத்துகள் பெறப்படும் என்று எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "கடந்த சில மாதங்களாக இந்திய பங்குச் சந்தையிலிருந்து வெளிநாட்டு முதலீட்டாளர்கள் பெரிய அளவில் பணத்தை வெளியே எடுத்து வருவது குறிப்பிடத்தக்கது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "செபி",
-   "துஹின் கந்த பாண்டே",
-   "வெளிநாட்டு நிறுவன முதலீட்டாளர்கள்",
-   "சுயாதீன இயக்குநர்கள்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Sebi plans consultation paper on foreign investor compliance norms",
-   "lines": [
-    "Sebi chairman Tuhin Kanta Pandey said a consultation paper will be released within the next few weeks.",
-    "The document will seek views on compliance requirements for foreign institutional investors, he said.",
-    "Amid heavy outflows of foreign investment, the paper will explore aligning Indian norms with global standards, Pandey said.",
-    "Sebi is also planning a capacity-building network to strengthen the effectiveness of independent directors.",
-    "Once released, the paper is expected to invite feedback from the public and industry experts."
-   ],
-   "closing": "It is notable that foreign institutional investors have been pulling out significant funds from Indian stock markets in recent months."
-  },
-  "front_cat": "routine",
-  "image_query": "SEBI India stock market",
-  "wiki_subject": "Securities and Exchange Board of India",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "b7d444894eb2",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-11-01T04:31+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/news/sebi-to-release-fii-compliance-consultation-paper-within-weeks-says-chairman-tuhin-kanta-pandey/articleshow/135400429.cms"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Securities_Exchange_Board_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Securities and Exchange Board of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Securities_and_Exchange_Board_of_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/b7d444894eb2.mp3",
-  "created_ts": 1793487707.3815677,
   "status": "published"
  }
 ]

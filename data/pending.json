@@ -1,67 +1,67 @@
 [
  {
-  "headline": "துருக்கியில் இரும்பு எஃகு ஆலையில் வெடிப்பு, பலர் பலி",
+  "headline": "FEMA வழக்கில் சென்னை உயர்நீதிமன்றத்தை அணுகிய திமுக எம்.பி. ஜெகத்ரட்சகன்",
   "lines": [
-   "துருக்கியில் உள்ள ஓர் இரும்பு எஃகு ஆலையில் பெரிய வெடிப்பு ஏற்பட்டதாக அல் ஜசீரா செய்தி நிறுவனம் தெரிவித்துள்ளது.",
-   "இந்த வெடிப்பில் பலர் உயிரிழந்துள்ளதாகத் தெரிகிறது, ஆனால் துல்லியமான எண்ணிக்கை இன்னும் உறுதிப்படுத்தப்படவில்லை.",
-   "சம்பவ இடத்தில் மீட்புப் பணிகள் நடைபெற்று வருவதாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
-   "வெடிப்புக்கான காரணம் குறித்து மூலத்தில் கூடுதல் விவரங்கள் இதுவரை வெளியிடப்படவில்லை.",
-   "விசாரணை முடிவுகளும் உயிரிழப்பு எண்ணிக்கையும் உறுதிப்படுத்தப்பட்ட பிறகு மேலும் விவரங்கள் வெளியாக வாய்ப்புள்ளது."
+   "திமுக நாடாளுமன்ற உறுப்பினர் ஜெகத்ரட்சகன் மற்றும் அவரது மகன் சுந்தீப் ஆனந்த், தவெக நிறுவனத் தலைவர் ஆகியோர், அந்நிய செலாவணி மேலாண்மைச் சட்டம் தொடர்பான வழக்கில் சென்னை உயர்நீதிமன்றத்தை அணுகியுள்ளனர்.",
+   "சிங்கப்பூரில் பதிவு செய்யப்பட்ட ஒரு நிறுவனம் தொடர்பாக ₹161.12 கோடி வழக்குப் பொருளாய் பதிவு செய்யப்பட்டுள்ளது.",
+   "இதில் இந்தியாவில் உள்ள ₹45.34 கோடி மதிப்பான சொத்துகள் பறிமுதல் செய்யப்பட்டுள்ளன.",
+   "இந்தப் பறிமுதல் நடவடிக்கையை எதிர்த்து இருவரும் நீதிமன்றத்தில் மனு தாக்கல் செய்துள்ளனர்.",
+   "இந்த மனு மீதான விசாரணை சென்னை உயர்நீதிமன்றத்தில் நடைபெற உள்ளது."
   ],
-  "closing": "இந்தச் சம்பவம் தொடர்பான அதிகாரப்பூர்வ விவரங்கள் இன்னும் முழுமையாக வெளியாகவில்லை.",
-  "closing_type": "watch",
+  "closing": "அந்நிய செலாவணி மேலாண்மைச் சட்டம் (FEMA) மீறல் வழக்குகளை அமலாக்கத் துறை விசாரிக்கும் என்பது குறிப்பிடத்தக்கது.",
+  "closing_type": "background",
   "sources": [
    {
-    "name": "Al Jazeera",
+    "name": "The Hindu TN",
     "doc": null,
     "date": null
    }
   ],
-  "topic": "world",
+  "topic": "court",
   "entities": [
-   "துருக்கி",
-   "இரும்பு எஃகு ஆலை",
-   "வெடிவெடிப்பு",
-   "மீட்புப் பணி"
+   "ஜெகத்ரட்சகன்",
+   "சுந்தீப் ஆனந்த்",
+   "சென்னை உயர்நீதிமன்றம்",
+   "திமுக",
+   "சிங்கப்பூர் நிறுவனம்"
   ],
-  "confidence": 0.35,
+  "confidence": 0.6,
   "en": {
-   "headline": "Deadly explosion at iron and steel plant in Turkiye",
+   "headline": "DMK MP Jagathrakshakan moves Madras High Court over FEMA case",
    "lines": [
-    "A major explosion occurred at an iron and steel plant in Turkiye, according to a report by Al Jazeera.",
-    "Several people are reported to have died in the explosion, though the exact death toll has not been confirmed.",
-    "Officials are said to be carrying out rescue operations at the site of the incident.",
-    "No further details about the cause of the explosion have been released as per the source.",
-    "More details are expected to emerge once investigations are completed and casualty figures are confirmed."
+    "DMK Member of Parliament Jagathrakshakan and his son Sundeep Anand have moved the Madras High Court over a case under the Foreign Exchange Management Act.",
+    "The case, involving a company incorporated in Singapore, is valued at ₹161.12 crore.",
+    "Properties worth ₹45.34 crore in India are reported to have been seized in connection with the case.",
+    "Both of them have filed a petition in court challenging the seizure action.",
+    "Further hearing on the petition is expected to take place at the Madras High Court."
    ],
-   "closing": "Full official details about this incident have not yet been released."
+   "closing": "The Foreign Exchange Management Act, known as FEMA, violation cases are investigated by the Enforcement Directorate."
   },
-  "front_cat": "mass_casualty",
+  "front_cat": "scam_expose",
   "image_query": "",
-  "wiki_subject": "",
+  "wiki_subject": "Madras High Court",
   "person_en": "",
   "urgent": false,
-  "affected": "நாடு",
+  "affected": "சிலர்",
   "flags": [
-   "numbers_conflict",
-   "single_source",
-   "unverified_claim"
+   "defamation_risk",
+   "single_source"
   ],
-  "id": "49b909e40b31",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-11-10T06:41+05:30",
+  "id": "81fe78199b26",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-11-10T14:00+05:30",
   "links": [
-   "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss"
+   "https://www.thehindu.com/news/national/tamil-nadu/dmk-mp-jagathrakshakan-son-sundeep-anand-of-tvk-move-madras-high-court-over-16112-crore-fema-case/article71685047.ece"
   ],
   "image": {
-   "url": "data/bank/world08.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Madras High Court",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
+   "symbolic": false
   },
-  "audio": "data/audio/49b909e40b31.mp3",
-  "created_ts": 1794273077.1629198,
+  "audio": "data/audio/81fe78199b26.mp3",
+  "created_ts": 1794299430.6199856,
   "status": "pending"
  }
 ]
