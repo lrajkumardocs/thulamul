@@ -1,5 +1,541 @@
 [
  {
+  "headline": "அமெரிக்காவில் நுகர்வோர் விலைக் குறியீடு எதிர்பார்ப்பை மீறி உயர்வு",
+  "lines": [
+   "அமெரிக்காவில் அக்டோபர் மாதத்தில் நுகர்வோர் விலைக் குறியீடு எதிர்பார்த்ததை விட அதிகமாக உயர்ந்துள்ளது.",
+   "இது அமெரிக்க ஃபெடரல் ரிசர்வ் வங்கியின் எதிர்கால வட்டி விகித முடிவுகளைப் பாதிக்கக்கூடும் என்று கூறப்படுகிறது.",
+   "நுகர்வோர் விலைக் குறியீடு 0.4 சதவீதம் உயர்ந்துள்ளது, கடந்த செப்டம்பரில் இது 0.6 சதவீதமாக பதிவாகியிருந்தது.",
+   "அடிப்படை விலைக் குறியீடும் உயர்வு கண்டதால், டிசம்பர் மாதத்தில் வட்டி விகிதம் உயரும் என பலர் கருதுகின்றனர்.",
+   "ஆண்டுக்கு ஆண்டு தரவுகள் எதிர்பார்ப்பை மீறியிருந்தாலும், பணவீக்கம் ஃபெடரல் ரிசர்வ் வங்கியின் இரண்டு சதவீத இலக்கை விட கணிசமாக அதிகமாகவே உள்ளது."
+  ],
+  "closing": "ஃபெடரல் ரிசர்வ் வங்கி பணவீக்கத்தை இரண்டு சதவீதமாக வைத்திருக்க இலக்கு வைத்துள்ள நிலையில், தற்போதைய எண்கள் அதை விட அதிகமாக உள்ளன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "அமெரிக்கா",
+   "அமெரிக்க மத்திய வங்கி",
+   "நுகர்வோர் விலைக் குறியீடு",
+   "டிசம்பர் கூட்டம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "US Consumer Price Index Rises More Than Expected in October",
+   "lines": [
+    "Consumer price index in the United States rose more than expected in October."
+   ]
+  },
+  "id": "07b30e8d6cac",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-10T22:27+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/us-stocks/news/us-consumer-prices-rise-above-expectations-in-october/articleshow/135712897.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy07.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/07b30e8d6cac.mp3",
+  "created_ts": 1794329823.486412,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "பொதுநூலகங்களில் போலி, செயற்கை நுண்ணறிவு புத்தகங்கள்: சென்னை உயர்நீதிமன்றம் எஃப்.ஐ.ஆர். பதிவுக்கு உத்தரவு",
+  "lines": [
+   "தமிழ்நாட்டின் பொதுநூலகங்களில் செயற்கை நுண்ணறிவு மூலம் உருவாக்கப்பட்ட போலி புத்தகங்கள் இருப்பதாகக் கூறப்படும் வழக்கை சென்னை உயர்நீதிமன்றம் விசாரித்தது.",
+   "இது தொடர்பாக காவல் துறையிடம் முறையான புகார் பதிவு செய்ய வேண்டும் என நீதிமன்றம் உத்தரவிட்டுள்ளது.",
+   "விசாரணையின் போது இந்த விவகாரத்தை நீதிபதிகள் கடுமையாகக் கருத்தில் கொண்டதாகத் தெரிகிறது.",
+   "வழக்கின் முழு பின்னணி மற்றும் புகார் தொடர்பான விரிவான தகவல்கள் தற்போது வெளியாகவில்லை.",
+   "காவல் துறை இது தொடர்பாக என்ன நடவடிக்கை எடுக்கிறது என்பது அடுத்த விசாரணையில் தெரியவரும்."
+  ],
+  "closing": "பொதுநூலகங்களில் போலி புத்தகங்கள் எவ்வாறு சேர்க்கப்பட்டன என்பது தொடர்பான விரிவான விவரங்கள் இன்னும் வெளியாகவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Bar and Bench",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "சென்னை உயர் நீதிமன்றம்",
+   "பொதுநூலகங்கள்",
+   "செயற்கை நுண்ணறிவு",
+   "போலி புத்தகங்கள்",
+   "காவல் துறை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Madras High Court orders FIR over fake AI-generated library books",
+   "lines": [
+    "The Madras High Court heard a case alleging fake, AI-generated books were found in public libraries across Tamil Nadu.",
+    "The court has directed that a formal police complaint be filed in connection with the matter.",
+    "Judges reportedly treated the issue seriously during the hearing.",
+    "Detailed background on how the books were introduced into libraries has not yet been made public.",
+    "What action the police take on the complaint is expected to be known at the next hearing."
+   ],
+   "closing": "Further details on how the fake books entered public libraries have not yet emerged."
+  },
+  "front_cat": "routine",
+  "image_query": "Madras High Court building",
+  "wiki_subject": "Madras High Court",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "3ab518c814a4",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-11-10T22:25+05:30",
+  "links": [
+   "https://www.barandbench.com/news/litigation/madras-high-court-orders-fir-over-fake-ai-generated-books-in-public-libraries"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Madras High Court",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
+   "symbolic": false
+  },
+  "audio": "data/audio/3ab518c814a4.mp3",
+  "created_ts": 1794329735.5455112,
+  "status": "published"
+ },
+ {
+  "headline": "ஐஏஎஸ் அதிகாரி பாதிப்பு தொடர்பாக விஜய் மீது உதயநிதி விமர்சனம்",
+  "lines": [
+   "திமுக அமைச்சர் உதயநிதி ஸ்டாலின், தமிழக வெற்றிக் கழகத் தலைவர் விஜய் மீது கடும் விமர்சனம் முன்வைத்துள்ளார்.",
+   "ஓர் ஐஏஎஸ் அதிகாரி பாதிக்கப்பட்ட சம்பவம் தொடர்பாக விஜய் பொறுப்பேற்கவில்லை என அவர் குற்றம் சாட்டியுள்ளார்.",
+   "விஜய் தற்போது எந்த நடவடிக்கையும் எடுக்காமல் செயலற்ற நிலையில் இருப்பதாக உதயநிதி ஸ்டாலின் கூறியுள்ளார்.",
+   "இந்த விமர்சனம் குறித்து தமிழக வெற்றிக் கழகத் தரப்பில் இதுவரை பதில் எதுவும் வெளியிடப்படவில்லை.",
+   "இந்த விவகாரம் தமிழக அரசியலில் புதிய விவாதத்தை ஏற்படுத்தியுள்ளது, மேலும் தகவல்கள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "ஐஏஎஸ் அதிகாரிக்கு ஏற்பட்டதாகக் கூறப்படும் பாதிப்பு குறித்த முழு விவரங்கள் இதுவரை வெளியாகவில்லை.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-10"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "உதயநிதி ஸ்டாலின்",
+   "விஜய்",
+   "தமிழக வெற்றிக் கழகம்",
+   "திமுக",
+   "ஐஏஎஸ் அதிகாரி"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Udhayanidhi Stalin criticises Vijay over affected IAS officer",
+   "lines": [
+    "DMK minister Udhayanidhi Stalin has launched a sharp attack on Tamilaga Vettri Kazhagam leader Vijay.",
+    "He accused Vijay of failing to take responsibility over an incident involving an affected IAS officer.",
+    "Udhayanidhi Stalin said Vijay is currently inactive and not taking any steps on the matter.",
+    "There has been no response so far from the Tamilaga Vettri Kazhagam side on this criticism.",
+    "The issue has sparked fresh debate in Tamil Nadu politics, with more details awaited."
+   ],
+   "closing": "Full details of the alleged harm caused to the IAS officer have not yet been made public."
+  },
+  "id": "7b9bbd7f3158",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-10T22:23+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/10/cm-vijay-remains-in-sleep-mode-taking-no-responsibility-for-anything-udhayanidhi"
+  ],
+  "image": null,
+  "audio": "data/audio/7b9bbd7f3158.mp3",
+  "created_ts": 1794329591.9258683,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "செஞ்சி சிறுமி கடத்தல் தொடரும் நிலையில் மற்றொரு சிறுமி கடத்தப்பட்டுள்ளது",
+  "lines": [
+   "செஞ்சி பகுதியில் கடத்தப்பட்ட சிறுமி இன்னும் கண்டுபிடிக்கப்படாத நிலையில் மற்றொரு சிறுமி கடத்தப்பட்ட சம்பவம் பதற்றத்தை ஏற்படுத்தியுள்ளது.",
+   "இரண்டாவது சிறுமி கடத்தல் தொடர்பான முழு விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
+   "நாடாளுமன்ற உறுப்பினர் கனிமொழி இந்த இரு சம்பவங்கள் குறித்து கடும் வருத்தம் தெரிவித்துள்ளார்.",
+   "முதல் சிறுமியைக் கண்டுபிடிக்கும் பணியில் காவல் துறை இதுவரை முழுமையான வெற்றி பெறவில்லை.",
+   "இரு வழக்குகளிலும் விசாரணை தீவிரப்படுத்தப்பட்டு வருவதாகத் தகவல்கள் தெரிவிக்கின்றன."
+  ],
+  "closing": "இரு சிறுமிகளின் பாதுகாப்பு குறித்த அதிகாரப்பூர்வ விளக்கத்தை காவல் துறை இதுவரை வெளியிடவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "செஞ்சி",
+   "கனிமொழி",
+   "காவல் துறை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Second child abducted as Senji girl remains untraced",
+   "lines": [
+    "In Senji area, a second girl has been abducted while the earlier abducted girl remains untraced, causing concern.",
+    "Full details of the second abduction have not yet been made public.",
+    "MP Kanimozhi expressed deep distress over both incidents.",
+    "Police have not yet succeeded fully in locating the first missing girl.",
+    "Investigations into both cases are reportedly being intensified."
+   ],
+   "closing": "Police have not yet issued an official statement on the safety of the two girls."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "13a77835eefb",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-10T22:19+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/10/girl-from-gingee-remains-untraced-another-girl-abducted-kanimozhi-expresses-concern"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/13a77835eefb.mp3",
+  "created_ts": 1794329388.6166046,
+  "status": "published"
+ },
+ {
+  "headline": "சட்டம் ஒழுங்கு குறித்து முதலமைச்சர் பதவி விலக பாஜக கோரிக்கை",
+  "lines": [
+   "தமிழ்நாடு பாஜக மாநிலத் தலைவர் நயினார் நாகேந்திரன், மாநிலத்தின் சட்டம் ஒழுங்கு நிலை குறித்து கடுமையான குற்றச்சாட்டுகளை முன்வைத்தார்.",
+   "இதன் காரணமாக முதலமைச்சர் விஜய் உடனடியாகப் பதவி விலக வேண்டும் என்று அவர் கோரிக்கை விடுத்தார்.",
+   "இந்தக் கருத்தை நயினார் நாகேந்திரன் தெரிவித்ததாக தி இந்து நாளிதழ் செய்தி வெளியிட்டுள்ளது.",
+   "இது தொடர்பாக ஆளும் கட்சியிடமிருந்தோ முதலமைச்சர் அலுவலகத்திடமிருந்தோ இதுவரை அதிகாரப்பூர்வ பதில் வெளியாகவில்லை.",
+   "இந்தக் கோரிக்கை மீது அரசியல் கட்சிகளிடையே என்ன எதிர்வினை வருகிறது என்பதைக் கவனிக்க வேண்டும்."
+  ],
+  "closing": "இது பாஜகவின் அரசியல் கோரிக்கையாக மட்டும் வெளிவந்துள்ளது; இது தொடர்பான மேலும் விவரங்கள் இதுவரை வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "நயினார் நாகேந்திரன்",
+   "தமிழ்நாடு பாஜக",
+   "முதலமைச்சர் விஜய்",
+   "சட்டம் ஒழுங்கு"
+  ],
+  "id": "f42de7e218a4",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-10T22:18+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-bjp-chief-nainar-nagenthran-demands-cm-vijays-resignation-over-law-and-order/article71685529.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/f42de7e218a4.mp3",
+  "created_ts": 1794329301.5665154,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "அனல் மின் உற்பத்தி நிலைய ஊழியர்களின் வேலைநிறுத்தத்திற்குத் தடை விதித்த சென்னை உயர்நீதிமன்றம்",
+  "lines": [
+   "தமிழ்நாட்டில் உள்ள அனல் மின் உற்பத்தி நிலைய ஊழியர்கள் மேற்கொள்ள திட்டமிட்டிருந்த வேலைநிறுத்தத்திற்கு சென்னை உயர்நீதிமன்றம் தற்காலிக இடைக்கால தடை விதித்துள்ளது.",
+   "நீதிபதிகள் எஸ்.எம்.சுப்ரமணியம் மற்றும் ஆர்.ராஜேஷ் விவேகானந்தன் ஆகியோர் அமர்வு இந்த இடைக்கால தடை உத்தரவை பிறப்பித்தனர்.",
+   "முன்மொழியப்பட்ட வேலைநிறுத்தத்தை எதிர்த்து தாக்கல் செய்யப்பட்ட பொதுநல வழக்கின் அடிப்படையில் இந்த உத்தரவு வழங்கப்பட்டது.",
+   "வேலைநிறுத்தம் நடைபெற்றால் மின்சார உற்பத்தியும் பொதுமக்களுக்கான மின் விநியோகமும் பாதிக்கப்படும் என்ற கவலை வழக்கில் எழுப்பப்பட்டது.",
+   "இந்த பொதுநல வழக்கில் மேலும் விரிவான விசாரணை அடுத்த கட்டத்தில் நடைபெறும் என்று நீதிமன்ற வட்டாரங்கள் தெரிவித்துள்ளன."
+  ],
+  "closing": "முன்மொழியப்பட்ட வேலைநிறுத்தம் தொடர்பான இறுதி முடிவு வழக்கின் மேலதிக விசாரணைக்குப் பின்னரே வெளிவரும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "சென்னை உயர்நீதிமன்றம்",
+   "எஸ்.எம்.சுப்ரமணியம்",
+   "ஆர்.ராஜேஷ் விவேகானந்தன்",
+   "அனல் மின் உற்பத்தி நிலையம்",
+   "வேலைநிறுத்தம்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Madras High Court restrains thermal power plant workers from strike",
+   "lines": [
+    "The Madras High Court has granted an interim injunction restraining thermal power plant workers in Tamil Nadu from going ahead with a planned strike.",
+    "A bench comprising Justices S.M. Subramaniam and R. Rajesh Vivekananthan passed the interim order.",
+    "The order was issued based on a public interest litigation petition filed against the proposed strike.",
+    "Concerns were raised in the petition that the strike could disrupt power generation and supply to the public.",
+    "Further detailed hearing in the case is expected to take place in the coming days, court sources said."
+   ],
+   "closing": "A final decision on the proposed strike is expected only after further hearings in the case."
+  },
+  "front_cat": "strike_protest",
+  "image_query": "thermal power plant india",
+  "wiki_subject": "Madras High Court",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1bd38dcffacb",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-11-10T22:16+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-restrains-thermal-power-plant-workers-from-going-on-strike/article71686540.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Madras High Court",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
+   "symbolic": false
+  },
+  "audio": "data/audio/1bd38dcffacb.mp3",
+  "created_ts": 1794329202.5437117,
+  "status": "published"
+ },
+ {
+  "headline": "வேலூரில் தப்பிக்க முயன்ற வரலாற்றுக் குற்றவாளியை காவல் துணை ஆய்வாளர் சுட்டார்",
+  "lines": [
+   "வேலூர் மாவட்டம் குடியாத்தம் அருகே காவல் துணை ஆய்வாளர் ராஜா மீது வரலாற்றுக் குற்றவாளி பூவரசன் தாக்குதல் நடத்தினார்.",
+   "தப்பிக்க முயன்ற பூவரசன் தாக்குதல் நடத்தியதைத் தொடர்ந்து காவல் துணை ஆய்வாளர் அவரைச் சுட்டார்.",
+   "காவல் துறை தகவலின்படி பூவரசன் முன்னர் பல வழக்குகளில் குற்றம் சாட்டப்பட்ட நபராக அறியப்படுகிறார்.",
+   "காவல் துணை ஆய்வாளர் ராஜா மற்றும் பூவரசன் ஆகிய இருவரும் குடியாத்தம் அரசு தாலுகா மருத்துவமனையில் அனுமதிக்கப்பட்டுள்ளனர்.",
+   "இந்தச் சம்பவம் தொடர்பாக காவல் துறை மேலும் விசாரணை நடத்தி வருகிறது."
+  ],
+  "closing": "வரலாற்றுக் குற்றவாளி பூவரசன் முன்னர் பல வழக்குகளில் குற்றம் சாட்டப்பட்டவராக காவல் துறையால் பதிவு செய்யப்பட்டுள்ளார் என்பது குறிப்பிடத்தக்கது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "வேலூர்",
+   "குடியாத்தம்",
+   "அரசு தாலுகா மருத்துவமனை",
+   "காவல் துறை"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Vellore sub-inspector shoots suspect during escape attempt",
+   "lines": [
+    "In Gudiyatham near Vellore district, history-sheeter suspect Poovarasan attacked sub-inspector Raja.",
+    "As Poovarasan tried to escape and attacked the officer, the sub-inspector shot him.",
+    "Police said Poovarasan had been accused in multiple cases earlier.",
+    "Both sub-inspector Raja and Poovarasan have been admitted to the Government Taluk Hospital in Gudiyatham.",
+    "Police are continuing their investigation into the incident."
+   ],
+   "closing": "It is notable that the suspect has been recorded by police as having been accused in several previous cases."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "62ab940e81f3",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-10T22:15+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/sub-inspector-shoots-at-history-sheeter-for-attacking-him-during-escape-bid-in-vellore/article71684958.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/62ab940e81f3.mp3",
+  "created_ts": 1794329149.1257465,
+  "status": "published"
+ },
+ {
+  "headline": "சட்டம் ஒழுங்கு ஐசியுவில் இருப்பதாக முதல்வர் ஸ்டாலின் கடும் விமர்சனம்",
+  "lines": [
+   "தமிழ்நாடு முதலமைச்சர் மு.க.ஸ்டாலின், சட்டம் ஒழுங்கு நிலைமை தீவிர சிகிச்சைப் பிரிவில் (ஐசியு) இருப்பதாகக் கருத்து தெரிவித்தார்.",
+   "ஆட்சி நிர்வாகம் முழுமையாகச் செயலிழந்து கோமா நிலையில் உள்ளதாக அவர் விமர்சனம் வைத்தார்.",
+   "இந்தக் கருத்தை அவர் ஒரு பொதுக் கூட்டத்தில் அல்லது அறிக்கை மூலம் தெரிவித்ததாகத் தகவல் வெளியாகியுள்ளது.",
+   "இந்த விமர்சனம் யாரை நோக்கி முன்வைக்கப்பட்டது என்பது தெளிவாகத் தெரியவில்லை.",
+   "இது தொடர்பாக மேலும் விரிவான தகவல்கள் வெளியாக வேண்டியுள்ளது."
+  ],
+  "closing": "இந்தக் கருத்துக்கு எந்தச் சூழலில், யாரை நோக்கி முதல்வர் விமர்சனம் முன்வைத்தார் என்பது இன்னும் தெளிவுபடுத்தப்படவில்லை.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "மு.க.ஸ்டாலின்",
+   "தமிழ்நாடு அரசு",
+   "சட்டம் ஒழுங்கு"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "Law and order in coma, says CM Stalin in sharp criticism",
+   "lines": [
+    "Tamil Nadu Chief Minister M. K. Stalin remarked that the law and order situation is in intensive care.",
+    "He criticised that the administration has completely stopped functioning and is in a coma.",
+    "It is learnt that he made this remark either at a public meeting or through a statement.",
+    "It is not clear who or which administration this criticism was directed at.",
+    "Further detailed information on this matter is awaited."
+   ],
+   "closing": "It remains unclear in what context, and against whom, the Chief Minister made this remark."
+  },
+  "front_cat": "routine",
+  "image_query": "M K Stalin",
+  "wiki_subject": "M. K. Stalin",
+  "person_en": "M. K. Stalin",
+  "id": "9e54a90e4333",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-10T22:15+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/10/law-order-icu-governance-coma-mk-stalin"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Chief_Minister_of_Tamil_Nadu%2C_Thiru_MK_Stalin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · M. K. Stalin",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/M._K._Stalin",
+   "symbolic": false
+  },
+  "audio": "data/audio/9e54a90e4333.mp3",
+  "created_ts": 1794329108.95848,
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "தவெக ஆட்சியில் 50 கொலைகள் எனக் குற்றச்சாட்டு எழுப்பிய நயினார் நாகேந்திரன்",
+  "lines": [
+   "தமிழக வெற்றிக் கழகத்தின் ஆட்சியில் ஆறு மாதங்களில் ஐம்பது கொலைகள் நடந்ததாக பாஜக தலைவர் நயினார் நாகேந்திரன் குற்றம் சாட்டினார்.",
+   "இந்தச் சம்பவங்களை முன்வைத்து, முதல்வர் பதவியை விட்டு விலக வேண்டும் என அவர் கோரிக்கை விடுத்தார்.",
+   "இந்தக் குற்றச்சாட்டை நயினார் நாகேந்திரன் தமது அறிக்கையில் வலியுறுத்திக் கூறினார்.",
+   "இது தொடர்பாக தமிழக வெற்றிக் கழகம் சார்பில் இதுவரை எந்த அதிகாரப்பூர்வ மறுப்பும் வெளியிடப்படவில்லை.",
+   "இந்தக் கருத்துக்கு தமிழக வெற்றிக் கழகத்தின் பதில் என்ன என்பதை அடுத்து எதிர்பார்க்கலாம்."
+  ],
+  "closing": "இந்தக் குற்றச்சாட்டு தொடர்பான எண்ணிக்கை விவரங்களை அரசு அல்லது சம்பந்தப்பட்ட கட்சி உறுதிப்படுத்தவில்லை என்பதைக் கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-10"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "நயினார் நாகேந்திரன்",
+   "தமிழக வெற்றிக் கழகம்",
+   "பாஜக",
+   "முதல்வர்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Nainar Nagendran accuses TVK rule of 50 murders in six months",
+   "lines": [
+    "BJP leader Nainar Nagendran alleged that fifty murders took place in six months under the Tamilaga Vettri Kazhagam's rule.",
+    "Citing these incidents, he demanded that the Chief Minister step down from office.",
+    "Nainar Nagendran made this claim in a statement to the press.",
+    "There has been no official response yet from the Tamilaga Vettri Kazhagam regarding this allegation.",
+    "The party's reaction to this claim is awaited in the coming days."
+   ],
+   "closing": "It should be noted that the specific figures cited in this allegation have not been officially confirmed by the government or the concerned party."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "Nainar Nagendran",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "9521e9d61c9e",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-10T22:14+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/10/50-murders-in-6-months-under-the-tvk-government-the-chief-minister-must-resign-nainar-nagendran"
+  ],
+  "image": null,
+  "audio": "data/audio/9521e9d61c9e.mp3",
+  "created_ts": 1794329044.7401814,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261110",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
   "lines": [
@@ -18692,586 +19228,6 @@
   "image": null,
   "audio": "data/audio/418558580230.mp3",
   "created_ts": 1793498356.446568,
-  "status": "published"
- },
- {
-  "headline": "முத்தூட் ஃபைனான்ஸ் Q2 இணைந்த நிகர லாபம் 36% உயர்வு; சொத்து மதிப்பு 42% அதிகரிப்பு",
-  "lines": [
-   "தங்க அடமான கடன் வழங்கும் நிறுவனமான முத்தூட் ஃபைனான்ஸ் நிறுவனம் இரண்டாம் காலாண்டு நிதி முடிவுகளை வெளியிட்டுள்ளது.",
-   "கடந்த ஆண்டு இதே காலாண்டுடன் ஒப்பிடும்போது இணைந்த நிகர லாபம் 36 சதவீதம் உயர்ந்து 3,278 கோடி ரூபாயாக பதிவாகியுள்ளது.",
-   "நிறுவனத்தின் நிர்வாகத்தின் கீழ் உள்ள மொத்த சொத்து மதிப்பு 42 சதவீதம் அதிகரித்து 2.09 லட்சம் கோடி ரூபாயை எட்டியுள்ளது.",
-   "எனினும் தனி நிறுவன அளவில் வசூலாகாத கடன் விகிதம் முந்தைய காலாண்டில் இருந்த 2.28 சதவீதத்தில் இருந்து 3.87 சதவீதமாக உயர்ந்துள்ளது.",
-   "வசூலாகாத கடன் உயர்வு தொடருமா என்பது அடுத்த காலாண்டு முடிவுகளில் தெளிவாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இரண்டு பிரதான நிதி நிறுவனங்களும் Q2 இல் வலுவான லாப வளர்ச்சியை பதிவுசெய்துள்ளன.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "முத்தூட் ஃபைனான்ஸ்",
-   "தங்க அடமான கடன்",
-   "நிகர லாபம்",
-   "வசூலாகாத கடன் விகிதம்"
-  ],
-  "confidence": 0.85,
-  "en": {
-   "headline": "Muthoot Finance Q2 Net Profit Rises 36 Percent",
-   "lines": [
-    "Gold loan lender Muthoot Finance has announced its second quarter financial results.",
-    "Consolidated net profit rose 36 percent year on year to Rs 3,278 crore compared to the same quarter last year.",
-    "The company's assets under management grew 42 percent to reach Rs 2.09 lakh crore.",
-    "However, the standalone gross NPA ratio rose to 3.87 percent from 2.28 percent in the previous quarter.",
-    "Whether this rise in bad loans continues will become clear in the coming quarterly results."
-   ],
-   "closing": "Despite profit growth, the deterioration in asset quality will be closely watched in upcoming quarters."
-  },
-  "front_cat": "routine",
-  "image_query": "Muthoot Finance gold loan",
-  "wiki_subject": "Muthoot Finance",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "63cfbdbf059c",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-11-01T07:27+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/earnings/muthoot-finance-q2-cons-profit-jumps-36-yoy-to-rs-3278-crore/articleshow/135401237.cms",
-   "https://economictimes.indiatimes.com/markets/stocks/earnings/cdsl-q2-results-net-profit-jumps-24-yoy-to-rs-173-crore-revenue-up-24/articleshow/135397659.cms"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/20/Muthoot_Finance_Logo.svg/500px-Muthoot_Finance_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Muthoot Finance",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Muthoot_Finance",
-   "symbolic": false
-  },
-  "audio": "data/audio/63cfbdbf059c.mp3",
-  "created_ts": 1793498252.897395,
-  "status": "published"
- },
- {
-  "headline": "அமிர்தா விஸ்வ வித்யாபீடத்தில் ஆங்கிலத் துறை பேராசிரியர் பணியிடங்களுக்கு விண்ணப்பம்",
-  "lines": [
-   "அமிர்தா விஸ்வ வித்யாபீடம் பேராசிரியர் பணியிடங்களுக்கான அறிவிப்பை வெளியிட்டுள்ளது.",
-   "ஆங்கிலத் துறையில் பேராசிரியர் பணிக்கும், பொதுவான பேராசிரியர் பணிகளுக்கும் தனித்தனி அறிவிப்புகள் வெளியாகியுள்ளன.",
-   "விண்ணப்பிக்க விரும்புவோர் அமிர்தா பல்கலைக்கழகத்தின் அதிகாரப்பூர்வ இணையதளமான amrita.edu வழியாக ஆன்லைனில் விண்ணப்பிக்க வேண்டும்.",
-   "இரண்டு பணியிடங்களுக்கும் விண்ணப்பிக்க கடைசி நாளாக இந்த ஆண்டு நவம்பர் முப்பதாம் தேதி நிர்ணயிக்கப்பட்டுள்ளது.",
-   "தகுதி மற்றும் விண்ணப்ப முறை தொடர்பான முழு விவரங்களை பல்கலைக்கழக இணையதளத்தில் பெறலாம்."
-  ],
-  "closing": "தகுதிபெற்ற விண்ணப்பதாரர்கள் கடைசி நாளுக்கு முன் விண்ணப்பிக்குமாறு கேட்டுக்கொள்ளப்படுகிறார்கள்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "jobs",
-  "entities": [
-   "அமிர்தா விஸ்வ வித்யாபீடம்",
-   "ஆங்கிலத் துறை",
-   "கோயம்புத்தூர்"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Amrita Vishwa Vidyapeetham invites applications for faculty posts",
-   "lines": [
-    "Amrita Vishwa Vidyapeetham has released notifications for faculty recruitment.",
-    "Separate notifications have been issued for a faculty post in the Department of English and for general faculty positions.",
-    "Interested candidates can apply online through the official website, amrita.edu.",
-    "The last date to apply for both positions is November 30 this year.",
-    "Full details on eligibility and the application process are available on the university website."
-   ],
-   "closing": "Eligible candidates interested in academic positions are advised to apply before the deadline."
-  },
-  "front_cat": "exam_jobs_deadline",
-  "image_query": "university faculty recruitment campus",
-  "wiki_subject": "Amrita Vishwa Vidyapeetham",
-  "person_en": "",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "67d59cfc15a4",
-  "topic_ta": "வேலை · தேர்வு",
-  "published_at": "2026-11-01T07:25+05:30",
-  "links": [
-   "https://www.freejobalert.com/articles/amrita-vishwa-vidyapeetham-faculty-in-department-recruitment-2026-3077643",
-   "https://www.freejobalert.com/articles/amrita-vishwa-vidyapeetham-faculty-recruitment-2026-3077641",
-   "https://www.freejobalert.com/articles/amrita-vishwa-vidyapeetham-administrative-assistant-recruitment-2026-3077639",
-   "https://www.freejobalert.com/articles/dhanlaxmi-bank-information-system-auditor-recruitment-2026-3077629",
-   "https://www.freejobalert.com/articles/tsu-senior-officer-recruitment-2026-3077621",
-   "https://www.freejobalert.com/articles/atma-simdega-recruitment-2026-block-technology-manager-3077619",
-   "https://www.freejobalert.com/articles/mgug-professor-associate-professor-assistant-recruitment-2026-3077610",
-   "https://www.freejobalert.com/articles/mgug-recruitment-2026-professor-associate-professor-3077596"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/30/Amrita_Vishwa_Vidyapeetham_-_Logo_Icon.svg/330px-Amrita_Vishwa_Vidyapeetham_-_Logo_Icon.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Amrita Vishwa Vidyapeetham",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Amrita_Vishwa_Vidyapeetham",
-   "symbolic": false
-  },
-  "audio": "data/audio/67d59cfc15a4.mp3",
-  "created_ts": 1793498148.9527488,
-  "status": "published"
- },
- {
-  "headline": "குட்கா முறைகேடு வழக்கில் அறிக்கை தாக்கல் செய்ய சென்னை உயர்நீதிமன்றம் உத்தரவு",
-  "lines": [
-   "குட்கா விற்பனை முறைகேடு தொடர்பான வழக்கு ஒன்றில் சென்னை உயர்நீதிமன்றம் முக்கிய உத்தரவு பிறப்பித்துள்ளது.",
-   "இந்த வழக்கை விசாரித்து வரும் சிறப்பு நீதிமன்றம், விசாரணை நிலை குறித்த விரிவான அறிக்கையைத் தாக்கல் செய்ய வேண்டும் என உத்தரவிட்டுள்ளது.",
-   "குட்கா தடை சட்டத்தை மீறியதாகக் கூறப்படும் முறைகேடு தொடர்பாக இந்த வழக்கு நடைபெற்று வருகிறது.",
-   "சிறப்பு நீதிமன்றத்தின் அறிக்கையை அடிப்படையாகக் கொண்டு மேலதிக நடவடிக்கை எடுக்கப்படும் என எதிர்பார்க்கப்படுகிறது.",
-   "அறிக்கை தாக்கல் செய்யப்பட்ட பின்னர் இந்த வழக்கின் அடுத்தகட்ட விசாரணை தொடரும் என தெரிகிறது."
-  ],
-  "closing": "தமிழ்நாட்டில் குட்கா தடை தொடர்பான வழக்குகள் பல்வேறு நீதிமன்றங்களில் இன்னும் நிலுவையில் உள்ளன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர்நீதிமன்றம்",
-   "குட்கா",
-   "சிறப்பு நீதிமன்றம்"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Madras High Court orders report in gutka irregularity case",
-   "lines": [
-    "The Madras High Court has passed an important order in a case related to irregularities in gutka sales.",
-    "The special court hearing the case has been directed to submit a detailed report on the status of the trial.",
-    "The case pertains to alleged violations of the gutka ban in the state.",
-    "Further action is expected to be taken based on the report submitted by the special court.",
-    "The next stage of the trial is expected to continue once the report is filed."
-   ],
-   "closing": "Several gutka ban related cases are still pending before various courts in Tamil Nadu."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Madras High Court",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "fca8c98c5599",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-11-01T07:22+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/31/gutkha-scam-case-high-court-orders-special-court-to-file-a-report"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/fca8c98c5599.mp3",
-  "created_ts": 1793497974.2558649,
-  "status": "published"
- },
- {
-  "headline": "சென்னை உயர்நீதிமன்ற வழக்கறிஞர்கள் சங்கம், 1965 ஆங்கில மொழி முடிவைச் சவால் செய்தது",
-  "lines": [
-   "சென்னை உயர்நீதிமன்ற வழக்கறிஞர்கள் சங்கம், உச்ச நீதிமன்றம் மற்றும் அனைத்து உயர்நீதிமன்றங்களிலும் ஆங்கிலத்தைப் பொதுமொழியாகத் தொடர வேண்டும் என்ற 1965 மத்திய அமைச்சரவை முடிவைச் சவால் செய்துள்ளது.",
-   "இந்த முடிவு 2025இல் மட்டுமே சங்கத்தின் கவனத்திற்கு வந்தது. தகவல் அறியும் உரிமைச் சட்டம், 2005இன் கீழ் ஒரு வழக்கறிஞர் பெற்ற தகவல்களின் மூலம் இது வெளிவந்ததாக சங்கம் கூறியுள்ளது.",
-   "ஐம்பது ஆண்டுகளுக்கும் மேலாக இந்த முடிவு பொதுமக்களுக்குத் தெரியாமல் பாதுகாக்கப்பட்டிருந்ததாக சங்கம் குற்றம் சாட்டியுள்ளது.",
-   "இந்த வழக்கில் நீதிமன்றம் எந்த தீர்ப்பு அளிக்கும் என்பது இன்னும் தெரியவில்லை.",
-   "நீதிமன்ற மொழிக் கொள்கை தொடர்பான நீண்ட ஆண்டுகளைய விவாதத்தை இந்த வழக்கு மீண்டும் முன்னிலைப்படுத்தியுள்ளது."
-  ],
-  "closing": "நீதிமன்ற மொழிக் கொள்கை தொடர்பான நீண்டகால விவாதத்தை இந்த வழக்கு மீண்டும் முன்னிலைப்படுத்தியுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர்நீதிமன்றம்",
-   "சென்னை உயர்நீதிமன்ற வழக்கறிஞர்கள் சங்கம்",
-   "மத்திய அரசு",
-   "தகவல் அறியும் உரிமைச் சட்டம்"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Plea Challenges 1965 Cabinet Decision on English as Court Language",
-   "lines": [
-    "The Madras High Court Advocates Association has filed a plea challenging the Union Cabinet decision to continue English as the common language for the Supreme Court and all High Courts.",
-    "The association said this decision was taken by the Union Cabinet in 1965.",
-    "It stated that the decision came to light only in 2025, after a lawyer obtained details under the Right to Information Act, 2005.",
-    "The association alleged that the decision had remained hidden from the public for more than fifty years.",
-    "It is not yet known what ruling the court will give in this case."
-   ],
-   "closing": "The plea has reignited a long-standing debate over the language policy of the courts."
-  },
-  "front_cat": "routine",
-  "image_query": "Madras High Court building",
-  "wiki_subject": "Madras High Court",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "bb2391ed255f",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-11-01T07:21+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-advocates-association-challenges-1965-union-cabinet-decision-to-continue-english-as-common-language-for-supreme-court-and-all-high-courts/article71648537.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/bb2391ed255f.mp3",
-  "created_ts": 1793497867.5063329,
-  "status": "published"
- },
- {
-  "headline": "பாரதியார் பல்கலைக்கழகத்தில் கூடுதல் தேர்வுக் கட்டுப்பாட்டாளர் பணியிடம் காலி",
-  "lines": [
-   "கோயம்புத்தூர் பாரதியார் பல்கலைக்கழகம் கூடுதல் தேர்வுக் கட்டுப்பாட்டாளர் பணியிடத்திற்கு அறிவிப்பு வெளியிட்டுள்ளது.",
-   "விண்ணப்பிக்க விரும்புவோர் அஞ்சல் வழியாக மட்டுமே விண்ணப்பிக்க வேண்டும்.",
-   "விண்ணப்ப செயல்முறை இந்த மாதம் முதல் நாளிலிருந்து தொடங்குகிறது.",
-   "விண்ணப்பிக்க கடைசி நாளாக நவம்பர் 30 ம் தேதி பல்கலைக்கழகம் அறிவித்துள்ளது.",
-   "தகுதி மற்றும் விண்ணப்ப முறை தொடர்பான முழு விவரங்களுக்கு அதிகாரப்பூர்வ அறிவிப்பைப் பார்வையிட வேண்டும்."
-  ],
-  "closing": "பாரதியார் பல்கலைக்கழகத்தின் அதிகாரப்பூர்வ இணையதளத்தில் விரிவான தகுதி விவரங்களைப் பெறலாம்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-11-01"
-   },
-   {
-    "name": "FreeJobAlert",
-    "doc": null,
-    "date": "2026-11-01"
-   }
-  ],
-  "topic": "jobs",
-  "entities": [
-   "பாரதியார் பல்கலைக்கழகம்",
-   "கோயம்புத்தூர்",
-   "தேர்வுக் கட்டுப்பாட்டாளர்",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Bharathiar University Opens Additional Controller of Examinations Post",
-   "lines": [
-    "Bharathiar University in Coimbatore has released a notification for the post of Additional Controller of Examinations.",
-    "Interested candidates must apply only through the offline postal method.",
-    "The application process begins from the first of this month.",
-    "The university has fixed the last date to apply as November 30.",
-    "Full details on eligibility and application procedure can be found in the official notification."
-   ],
-   "closing": "Detailed eligibility criteria are available on the official Bharathiar University website."
-  },
-  "front_cat": "exam_jobs_deadline",
-  "image_query": "",
-  "wiki_subject": "Bharathiar University",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "3943cbef5607",
-  "topic_ta": "வேலை · தேர்வு",
-  "published_at": "2026-11-01T07:19+05:30",
-  "links": [
-   "https://www.freejobalert.com/articles/bharathiar-university-additional-controller-recruitment-2026-3077657",
-   "https://www.freejobalert.com/articles/bharathiar-university-additional-controller-recruitment-2026-3077655",
-   "https://www.freejobalert.com/articles/bharathiar-university-director-recruitment-2026-3077653",
-   "https://www.freejobalert.com/articles/bharathiar-university-dean-college-development-recruitment-2026-3077651",
-   "https://www.freejobalert.com/articles/bharathiar-university-dean-college-development-recruitment-2026-3077649",
-   "https://www.freejobalert.com/articles/bharathiar-university-public-relations-officer-recruitment-2026-3077647",
-   "https://www.freejobalert.com/articles/bharathiar-university-programme-co-ordinator-nss-recruitment-2026-3077645",
-   "https://www.freejobalert.com/articles/uppcl-recruitment-2026-director-3077633"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/en/5/51/Bharathiar_University_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Bharathiar University",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Bharathiar_University",
-   "symbolic": false
-  },
-  "audio": "data/audio/3943cbef5607.mp3",
-  "created_ts": 1793497801.2558746,
-  "status": "published"
- },
- {
-  "headline": "ரேஷன் கடைகளில் தரமான சன்னரக அரிசி விற்பனை செய்ய வேண்டும்: அன்புமணி ராமதாஸ் கோரிக்கை",
-  "lines": [
-   "பாமக தலைவர் அன்புமணி ராமதாஸ், ரேஷன் கடைகள் மூலம் தரமான சன்னரக அரிசி விற்பனை செய்ய வேண்டும் என்று கோரிக்கை விடுத்துள்ளார்.",
-   "தமிழ்நாடு முழுவதும் உள்ள நியாய விலைக் கடைகளுக்கு இந்தக் கோரிக்கையை அவர் முன்வைத்துள்ளார்.",
-   "தற்போது விநியோகிக்கப்படும் அரிசியின் தரம் மேம்படுத்தப்பட வேண்டும் என்று அவர் தெரிவித்துள்ளார்.",
-   "இது தொடர்பாக மாநில அரசு உடனடி நடவடிக்கை எடுக்க வேண்டும் என அவர் வலியுறுத்தியுள்ளார்.",
-   "அன்புமணி ராமதாஸ் வெளியிட்ட அறிக்கையில் இந்தக் கோரிக்கை இடம்பெற்றுள்ளது."
-  ],
-  "closing": "ரேஷன் கடை அரிசியின் தரம் தொடர்பாக மாநில அரசு என்ன நடவடிக்கை எடுக்கும் என்பது இன்னும் தெரியவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": "2026-11-01"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "அன்புமணி ராமதாஸ்",
-   "பாமக",
-   "ரேஷன் கடை",
-   "சன்னரக அரிசி",
-   "தமிழ்நாடு அரசு"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Give quality raw rice in ration shops: Anbumani demands",
-   "lines": [
-    "PMK leader Anbumani Ramadoss has demanded that quality raw rice be sold through ration shops.",
-    "He placed this demand for fair price shops across Tamil Nadu.",
-    "He stated that the quality of rice currently being supplied needs to be improved.",
-    "He urged the state government to take immediate action on this matter.",
-    "This demand was made in a statement released by Anbumani Ramadoss."
-   ],
-   "closing": "It is not yet known what action the state government will take regarding the quality of rice in ration shops."
-  },
-  "front_cat": "routine",
-  "image_query": "Anbumani Ramadoss",
-  "wiki_subject": "Anbumani Ramadoss",
-  "person_en": "Anbumani Ramadoss",
-  "id": "c574d78f4247",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-01T04:38+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/31/quality-fine-variety-rice-should-be-sold-in-ration-shops-anbumani"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Anbumani_Ramadoss_briefing_the_media_after_his_meeting_with_the_Health_Ministers_of_Polio_affected_states_Delhi%2C_UP%2C_Bihar%2C_Uttaranchal%2C_Jharkhand%2C_MP%2C_Haryana_and_Maharashtra%2C_in_New_Delhi_on_September_21%2C_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Anbumani Ramadoss",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Anbumani_Ramadoss",
-   "symbolic": false
-  },
-  "audio": "data/audio/c574d78f4247.mp3",
-  "created_ts": 1793488108.9339921,
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "சிறைச்சாலை பாதுகாப்பில் தமிழக அரசுக்கு எடப்பாடி கே.பழனிசாமி விமர்சனம்",
-  "lines": [
-   "அதிமுக பொதுச் செயலாளர் எடப்பாடி கே.பழனிசாமி தமிழக அரசின் சிறைச்சாலை பாதுகாப்பு குறித்து கடும் விமர்சனம் தெரிவித்துள்ளார்.",
-   "சிறைச்சாலையைப் பாதுகாக்க முடியாத அரசின் மீது மக்களுக்கு நம்பிக்கை வராது என அவர் கூறினார்.",
-   "தமிழக அரசின் பாதுகாப்பு நிர்வாகத்தில் பெரும் குறைபாடு உள்ளதாக அவர் குற்றம் சாட்டினார்.",
-   "இந்த விமர்சனத்திற்கு ஆளும் திமுக தரப்பில் இதுவரை அதிகாரப்பூர்வ பதில் வெளியிடப்படவில்லை.",
-   "இந்தக் கருத்து தமிழக அரசியலில் புதிய விவாதத்தைத் தூண்டியுள்ளது."
-  ],
-  "closing": "இந்தக் கருத்து எந்தக் குறிப்பிட்ட சிறைச்சாலை சம்பவம் தொடர்பாக வெளியிடப்பட்டது என்பது தெளிவாகத் தெரியவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "எடப்பாடி கே.பழனிசாமி",
-   "அதிமுக",
-   "தமிழக அரசு",
-   "சிறைச்சாலை",
-   "திமுக"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Edappadi Palaniswami Criticises Tamil Nadu Govt Over Prison Security",
-   "lines": [
-    "AIADMK general secretary Edappadi K. Palaniswami strongly criticised the Tamil Nadu government over prison security.",
-    "He said people would not trust a government that cannot secure its own prisons.",
-    "He alleged a major lapse in the state's security administration.",
-    "The ruling DMK has not yet issued an official response to the criticism.",
-    "The remark has triggered fresh political debate in Tamil Nadu."
-   ],
-   "closing": "It remains unclear which specific prison incident prompted this statement."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Edappadi K. Palaniswami",
-  "person_en": "Edappadi K. Palaniswami",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "d9b5d13701fc",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-01T04:37+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Oct/31/people-will-not-have-faith-in-a-government-that-cannot-secure-a-prison-edappadi-k-palaniswami"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/K._Palaniswami.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Edappadi K. Palaniswami",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Edappadi_K._Palaniswami",
-   "symbolic": false
-  },
-  "audio": "data/audio/d9b5d13701fc.mp3",
-  "created_ts": 1793488032.0247176,
-  "status": "published"
- },
- {
-  "headline": "ஷோளிங்கூர் அருகே பிரிட்டிஷ் கால பாலத்துக்குப் பதிலாகப் புதிய பாலம் திறக்கப்படவுள்ளது",
-  "lines": [
-   "வேலூர் மாவட்டம் ஷோளிங்கூர் அருகே உள்ள பிரிட்டிஷ் காலத்துப் பழைய பாலத்துக்குப் பதிலாக புதிய பாலம் கட்டி முடிக்கப்பட்டுள்ளது.",
-   "இந்தப் பழைய பாலம் பிரிட்டிஷ் ஆட்சிக் காலத்தில் கட்டப்பட்டதாகக் கூறப்படுகிறது.",
-   "புதிய பாலம் விரைவில் பொதுமக்கள் பயன்பாட்டுக்கு திறக்கப்படவுள்ளது.",
-   "பழைய பாலத்தின் வலிமை குறைந்துவந்த நிலையில் இந்த மாற்றுப் பாலம் அமைக்கப்பட்டதாகக் கூறப்படுகிறது.",
-   "புதிய பாலம் திறக்கப்படும் நாள் தொடர்பாக உத்தியோகபூர்வ அறிவிப்பு இன்னும் வெளியிடப்படவில்லை."
-  ],
-  "closing": "புதிய பாலம் எப்போது திறந்துவைக்கப்படும் என்பது குறித்த உறுதியான தேதி இதுவரை அறிவிக்கப்படவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "ஷோளிங்கூர்",
-   "வேலூர் மாவட்டம்",
-   "பிரிட்டிஷ் கால பாலம்",
-   "புதிய பாலம்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "New bridge near Sholinghur to replace British-era structure",
-   "lines": [
-    "A new bridge has been built near Sholinghur in Vellore district to replace an old British-era bridge.",
-    "The old bridge is understood to have been constructed during British rule.",
-    "The new bridge is reportedly set to be opened soon for public use.",
-    "The replacement bridge appears to have been built as the old structure had weakened over time.",
-    "No official date has yet been announced for the opening of the new bridge."
-   ],
-   "closing": "The exact date for the inauguration of the new bridge has not yet been confirmed."
-  },
-  "front_cat": "district_scheme",
-  "image_query": "bridge construction Tamil Nadu",
-  "wiki_subject": "Sholinghur",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "d78814e88a42",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-01T04:33+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/new-bridge-to-be-opened-near-sholinghur-to-replace-british-era-structure/article71649181.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Sholinghur_town_from_Temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Sholinghur",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Sholinghur",
-   "symbolic": false
-  },
-  "audio": "data/audio/d78814e88a42.mp3",
-  "created_ts": 1793487834.0931742,
-  "status": "published"
- },
- {
-  "headline": "பங்குச் சந்தை வளர்ச்சி மற்றும் முதலீட்டாளர் பாதுகாப்பில் கவனம் செலுத்தும் செபி: தலைவர் பாண்டே",
-  "lines": [
-   "இந்திய பத்திரங்கள் மற்றும் பரிமாற்ற வாரியம் (செபி)யின் தலைவர் துயின் கந்தா பாண்டே, சமீபத்தில் நடந்த ஒரு மன்றத்தில் பங்குச் சந்தைகளை எளிதில் அணுகக்கூடியதாகவும் திறம்பட செயல்படுவதாகவும் மாற்றுவதன் முக்கியத்துவத்தை வலியுறுத்தினார்.",
-   "பங்குச் சந்தையின் மொத்த மூலதன மதிப்பு உயர்ந்துள்ளதையும், பங்குகள் மற்றும் கடன் பத்திரங்கள் மூலம் ஆண்டுதோறும் கணிசமான அளவு நிதி திரட்டப்படுவதையும் அவர் எடுத்துக்காட்டினார்.",
-   "மேற்கு வங்காள மாநிலத்தில் முதலீட்டாளர்களின் எண்ணிக்கை கணிசமாக அதிகரித்துள்ளது, இதுவே பிற்பகுதிய மாநிலங்களிலும் சந்தைப் பங்கேற்பு வளர்ந்து வருவதைக் குறிக்கிறது என்றும் அவர் சுட்டிக்காட்டினார்.",
-   "நிறுவனங்களின் நிதி திரட்டல் செயல்முறை மற்றும் இணக்கத் தேவைகளை எளிமைப்படுத்த பல நடவடிக்கைகள் மேற்கொள்ளப்பட்டுள்ளது என்றும் அவர் கூறினார்.",
-   "முதலீட்டாளர் பாதுகாப்பு மற்றும் பங்குச் சந்தையின் உறுதித்தன்மையை மேலும் வலுப்படுத்துவதில் செபி தொடர்ந்து கவனம் செலுத்தும் என்று அவர் உறுதி கூறினார்."
-  ],
-  "closing": "செபி தலைவரின் இந்த வருக்கங்கள் இந்திய பங்குச் சந்தையின் வளர்ச்சி நிலை மற்றும் ஒழுங்குமுறை மாற்றங்கள் குறித்த பொருத்தமான சூழலில் தெரிவிக்கப்பட்டவை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "செபி",
-   "துயின் கந்தா பாண்டே"
-  ],
-  "id": "81b5ee02fdd5",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-11-01T04:32+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/news/sebi-pushes-for-resilient-capital-markets-focuses-on-investor-protection-chairman/articleshow/135393379.cms"
-  ],
-  "image": {
-   "url": "data/bank/economy04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/81b5ee02fdd5.mp3",
-  "created_ts": 1793487775.5758047,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
   "status": "published"
  }
 ]

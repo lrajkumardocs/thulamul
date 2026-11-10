@@ -1,5 +1,541 @@
 [
  {
+  "headline": "அமெரிக்காவில் நுகர்வோர் விலைக் குறியீடு எதிர்பார்ப்பை மீறி உயர்வு",
+  "lines": [
+   "அமெரிக்காவில் அக்டோபர் மாதத்தில் நுகர்வோர் விலைக் குறியீடு எதிர்பார்த்ததை விட அதிகமாக உயர்ந்துள்ளது.",
+   "இது அமெரிக்க ஃபெடரல் ரிசர்வ் வங்கியின் எதிர்கால வட்டி விகித முடிவுகளைப் பாதிக்கக்கூடும் என்று கூறப்படுகிறது.",
+   "நுகர்வோர் விலைக் குறியீடு 0.4 சதவீதம் உயர்ந்துள்ளது, கடந்த செப்டம்பரில் இது 0.6 சதவீதமாக பதிவாகியிருந்தது.",
+   "அடிப்படை விலைக் குறியீடும் உயர்வு கண்டதால், டிசம்பர் மாதத்தில் வட்டி விகிதம் உயரும் என பலர் கருதுகின்றனர்.",
+   "ஆண்டுக்கு ஆண்டு தரவுகள் எதிர்பார்ப்பை மீறியிருந்தாலும், பணவீக்கம் ஃபெடரல் ரிசர்வ் வங்கியின் இரண்டு சதவீத இலக்கை விட கணிசமாக அதிகமாகவே உள்ளது."
+  ],
+  "closing": "ஃபெடரல் ரிசர்வ் வங்கி பணவீக்கத்தை இரண்டு சதவீதமாக வைத்திருக்க இலக்கு வைத்துள்ள நிலையில், தற்போதைய எண்கள் அதை விட அதிகமாக உள்ளன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "அமெரிக்கா",
+   "அமெரிக்க மத்திய வங்கி",
+   "நுகர்வோர் விலைக் குறியீடு",
+   "டிசம்பர் கூட்டம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "US Consumer Price Index Rises More Than Expected in October",
+   "lines": [
+    "Consumer price index in the United States rose more than expected in October."
+   ]
+  },
+  "id": "07b30e8d6cac",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-10T22:27+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/us-stocks/news/us-consumer-prices-rise-above-expectations-in-october/articleshow/135712897.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy07.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/07b30e8d6cac.mp3",
+  "created_ts": 1794329823.486412,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "பொதுநூலகங்களில் போலி, செயற்கை நுண்ணறிவு புத்தகங்கள்: சென்னை உயர்நீதிமன்றம் எஃப்.ஐ.ஆர். பதிவுக்கு உத்தரவு",
+  "lines": [
+   "தமிழ்நாட்டின் பொதுநூலகங்களில் செயற்கை நுண்ணறிவு மூலம் உருவாக்கப்பட்ட போலி புத்தகங்கள் இருப்பதாகக் கூறப்படும் வழக்கை சென்னை உயர்நீதிமன்றம் விசாரித்தது.",
+   "இது தொடர்பாக காவல் துறையிடம் முறையான புகார் பதிவு செய்ய வேண்டும் என நீதிமன்றம் உத்தரவிட்டுள்ளது.",
+   "விசாரணையின் போது இந்த விவகாரத்தை நீதிபதிகள் கடுமையாகக் கருத்தில் கொண்டதாகத் தெரிகிறது.",
+   "வழக்கின் முழு பின்னணி மற்றும் புகார் தொடர்பான விரிவான தகவல்கள் தற்போது வெளியாகவில்லை.",
+   "காவல் துறை இது தொடர்பாக என்ன நடவடிக்கை எடுக்கிறது என்பது அடுத்த விசாரணையில் தெரியவரும்."
+  ],
+  "closing": "பொதுநூலகங்களில் போலி புத்தகங்கள் எவ்வாறு சேர்க்கப்பட்டன என்பது தொடர்பான விரிவான விவரங்கள் இன்னும் வெளியாகவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Bar and Bench",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "சென்னை உயர் நீதிமன்றம்",
+   "பொதுநூலகங்கள்",
+   "செயற்கை நுண்ணறிவு",
+   "போலி புத்தகங்கள்",
+   "காவல் துறை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Madras High Court orders FIR over fake AI-generated library books",
+   "lines": [
+    "The Madras High Court heard a case alleging fake, AI-generated books were found in public libraries across Tamil Nadu.",
+    "The court has directed that a formal police complaint be filed in connection with the matter.",
+    "Judges reportedly treated the issue seriously during the hearing.",
+    "Detailed background on how the books were introduced into libraries has not yet been made public.",
+    "What action the police take on the complaint is expected to be known at the next hearing."
+   ],
+   "closing": "Further details on how the fake books entered public libraries have not yet emerged."
+  },
+  "front_cat": "routine",
+  "image_query": "Madras High Court building",
+  "wiki_subject": "Madras High Court",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "3ab518c814a4",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-11-10T22:25+05:30",
+  "links": [
+   "https://www.barandbench.com/news/litigation/madras-high-court-orders-fir-over-fake-ai-generated-books-in-public-libraries"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Madras High Court",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
+   "symbolic": false
+  },
+  "audio": "data/audio/3ab518c814a4.mp3",
+  "created_ts": 1794329735.5455112,
+  "status": "published"
+ },
+ {
+  "headline": "ஐஏஎஸ் அதிகாரி பாதிப்பு தொடர்பாக விஜய் மீது உதயநிதி விமர்சனம்",
+  "lines": [
+   "திமுக அமைச்சர் உதயநிதி ஸ்டாலின், தமிழக வெற்றிக் கழகத் தலைவர் விஜய் மீது கடும் விமர்சனம் முன்வைத்துள்ளார்.",
+   "ஓர் ஐஏஎஸ் அதிகாரி பாதிக்கப்பட்ட சம்பவம் தொடர்பாக விஜய் பொறுப்பேற்கவில்லை என அவர் குற்றம் சாட்டியுள்ளார்.",
+   "விஜய் தற்போது எந்த நடவடிக்கையும் எடுக்காமல் செயலற்ற நிலையில் இருப்பதாக உதயநிதி ஸ்டாலின் கூறியுள்ளார்.",
+   "இந்த விமர்சனம் குறித்து தமிழக வெற்றிக் கழகத் தரப்பில் இதுவரை பதில் எதுவும் வெளியிடப்படவில்லை.",
+   "இந்த விவகாரம் தமிழக அரசியலில் புதிய விவாதத்தை ஏற்படுத்தியுள்ளது, மேலும் தகவல்கள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "ஐஏஎஸ் அதிகாரிக்கு ஏற்பட்டதாகக் கூறப்படும் பாதிப்பு குறித்த முழு விவரங்கள் இதுவரை வெளியாகவில்லை.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-10"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "உதயநிதி ஸ்டாலின்",
+   "விஜய்",
+   "தமிழக வெற்றிக் கழகம்",
+   "திமுக",
+   "ஐஏஎஸ் அதிகாரி"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Udhayanidhi Stalin criticises Vijay over affected IAS officer",
+   "lines": [
+    "DMK minister Udhayanidhi Stalin has launched a sharp attack on Tamilaga Vettri Kazhagam leader Vijay.",
+    "He accused Vijay of failing to take responsibility over an incident involving an affected IAS officer.",
+    "Udhayanidhi Stalin said Vijay is currently inactive and not taking any steps on the matter.",
+    "There has been no response so far from the Tamilaga Vettri Kazhagam side on this criticism.",
+    "The issue has sparked fresh debate in Tamil Nadu politics, with more details awaited."
+   ],
+   "closing": "Full details of the alleged harm caused to the IAS officer have not yet been made public."
+  },
+  "id": "7b9bbd7f3158",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-10T22:23+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/10/cm-vijay-remains-in-sleep-mode-taking-no-responsibility-for-anything-udhayanidhi"
+  ],
+  "image": null,
+  "audio": "data/audio/7b9bbd7f3158.mp3",
+  "created_ts": 1794329591.9258683,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "செஞ்சி சிறுமி கடத்தல் தொடரும் நிலையில் மற்றொரு சிறுமி கடத்தப்பட்டுள்ளது",
+  "lines": [
+   "செஞ்சி பகுதியில் கடத்தப்பட்ட சிறுமி இன்னும் கண்டுபிடிக்கப்படாத நிலையில் மற்றொரு சிறுமி கடத்தப்பட்ட சம்பவம் பதற்றத்தை ஏற்படுத்தியுள்ளது.",
+   "இரண்டாவது சிறுமி கடத்தல் தொடர்பான முழு விவரங்கள் இன்னும் வெளியிடப்படவில்லை.",
+   "நாடாளுமன்ற உறுப்பினர் கனிமொழி இந்த இரு சம்பவங்கள் குறித்து கடும் வருத்தம் தெரிவித்துள்ளார்.",
+   "முதல் சிறுமியைக் கண்டுபிடிக்கும் பணியில் காவல் துறை இதுவரை முழுமையான வெற்றி பெறவில்லை.",
+   "இரு வழக்குகளிலும் விசாரணை தீவிரப்படுத்தப்பட்டு வருவதாகத் தகவல்கள் தெரிவிக்கின்றன."
+  ],
+  "closing": "இரு சிறுமிகளின் பாதுகாப்பு குறித்த அதிகாரப்பூர்வ விளக்கத்தை காவல் துறை இதுவரை வெளியிடவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "செஞ்சி",
+   "கனிமொழி",
+   "காவல் துறை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Second child abducted as Senji girl remains untraced",
+   "lines": [
+    "In Senji area, a second girl has been abducted while the earlier abducted girl remains untraced, causing concern.",
+    "Full details of the second abduction have not yet been made public.",
+    "MP Kanimozhi expressed deep distress over both incidents.",
+    "Police have not yet succeeded fully in locating the first missing girl.",
+    "Investigations into both cases are reportedly being intensified."
+   ],
+   "closing": "Police have not yet issued an official statement on the safety of the two girls."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "13a77835eefb",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-10T22:19+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/10/girl-from-gingee-remains-untraced-another-girl-abducted-kanimozhi-expresses-concern"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/13a77835eefb.mp3",
+  "created_ts": 1794329388.6166046,
+  "status": "published"
+ },
+ {
+  "headline": "சட்டம் ஒழுங்கு குறித்து முதலமைச்சர் பதவி விலக பாஜக கோரிக்கை",
+  "lines": [
+   "தமிழ்நாடு பாஜக மாநிலத் தலைவர் நயினார் நாகேந்திரன், மாநிலத்தின் சட்டம் ஒழுங்கு நிலை குறித்து கடுமையான குற்றச்சாட்டுகளை முன்வைத்தார்.",
+   "இதன் காரணமாக முதலமைச்சர் விஜய் உடனடியாகப் பதவி விலக வேண்டும் என்று அவர் கோரிக்கை விடுத்தார்.",
+   "இந்தக் கருத்தை நயினார் நாகேந்திரன் தெரிவித்ததாக தி இந்து நாளிதழ் செய்தி வெளியிட்டுள்ளது.",
+   "இது தொடர்பாக ஆளும் கட்சியிடமிருந்தோ முதலமைச்சர் அலுவலகத்திடமிருந்தோ இதுவரை அதிகாரப்பூர்வ பதில் வெளியாகவில்லை.",
+   "இந்தக் கோரிக்கை மீது அரசியல் கட்சிகளிடையே என்ன எதிர்வினை வருகிறது என்பதைக் கவனிக்க வேண்டும்."
+  ],
+  "closing": "இது பாஜகவின் அரசியல் கோரிக்கையாக மட்டும் வெளிவந்துள்ளது; இது தொடர்பான மேலும் விவரங்கள் இதுவரை வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "நயினார் நாகேந்திரன்",
+   "தமிழ்நாடு பாஜக",
+   "முதலமைச்சர் விஜய்",
+   "சட்டம் ஒழுங்கு"
+  ],
+  "id": "f42de7e218a4",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-10T22:18+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-bjp-chief-nainar-nagenthran-demands-cm-vijays-resignation-over-law-and-order/article71685529.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/f42de7e218a4.mp3",
+  "created_ts": 1794329301.5665154,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "அனல் மின் உற்பத்தி நிலைய ஊழியர்களின் வேலைநிறுத்தத்திற்குத் தடை விதித்த சென்னை உயர்நீதிமன்றம்",
+  "lines": [
+   "தமிழ்நாட்டில் உள்ள அனல் மின் உற்பத்தி நிலைய ஊழியர்கள் மேற்கொள்ள திட்டமிட்டிருந்த வேலைநிறுத்தத்திற்கு சென்னை உயர்நீதிமன்றம் தற்காலிக இடைக்கால தடை விதித்துள்ளது.",
+   "நீதிபதிகள் எஸ்.எம்.சுப்ரமணியம் மற்றும் ஆர்.ராஜேஷ் விவேகானந்தன் ஆகியோர் அமர்வு இந்த இடைக்கால தடை உத்தரவை பிறப்பித்தனர்.",
+   "முன்மொழியப்பட்ட வேலைநிறுத்தத்தை எதிர்த்து தாக்கல் செய்யப்பட்ட பொதுநல வழக்கின் அடிப்படையில் இந்த உத்தரவு வழங்கப்பட்டது.",
+   "வேலைநிறுத்தம் நடைபெற்றால் மின்சார உற்பத்தியும் பொதுமக்களுக்கான மின் விநியோகமும் பாதிக்கப்படும் என்ற கவலை வழக்கில் எழுப்பப்பட்டது.",
+   "இந்த பொதுநல வழக்கில் மேலும் விரிவான விசாரணை அடுத்த கட்டத்தில் நடைபெறும் என்று நீதிமன்ற வட்டாரங்கள் தெரிவித்துள்ளன."
+  ],
+  "closing": "முன்மொழியப்பட்ட வேலைநிறுத்தம் தொடர்பான இறுதி முடிவு வழக்கின் மேலதிக விசாரணைக்குப் பின்னரே வெளிவரும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "சென்னை உயர்நீதிமன்றம்",
+   "எஸ்.எம்.சுப்ரமணியம்",
+   "ஆர்.ராஜேஷ் விவேகானந்தன்",
+   "அனல் மின் உற்பத்தி நிலையம்",
+   "வேலைநிறுத்தம்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Madras High Court restrains thermal power plant workers from strike",
+   "lines": [
+    "The Madras High Court has granted an interim injunction restraining thermal power plant workers in Tamil Nadu from going ahead with a planned strike.",
+    "A bench comprising Justices S.M. Subramaniam and R. Rajesh Vivekananthan passed the interim order.",
+    "The order was issued based on a public interest litigation petition filed against the proposed strike.",
+    "Concerns were raised in the petition that the strike could disrupt power generation and supply to the public.",
+    "Further detailed hearing in the case is expected to take place in the coming days, court sources said."
+   ],
+   "closing": "A final decision on the proposed strike is expected only after further hearings in the case."
+  },
+  "front_cat": "strike_protest",
+  "image_query": "thermal power plant india",
+  "wiki_subject": "Madras High Court",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1bd38dcffacb",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-11-10T22:16+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-restrains-thermal-power-plant-workers-from-going-on-strike/article71686540.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Madras High Court",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
+   "symbolic": false
+  },
+  "audio": "data/audio/1bd38dcffacb.mp3",
+  "created_ts": 1794329202.5437117,
+  "status": "published"
+ },
+ {
+  "headline": "வேலூரில் தப்பிக்க முயன்ற வரலாற்றுக் குற்றவாளியை காவல் துணை ஆய்வாளர் சுட்டார்",
+  "lines": [
+   "வேலூர் மாவட்டம் குடியாத்தம் அருகே காவல் துணை ஆய்வாளர் ராஜா மீது வரலாற்றுக் குற்றவாளி பூவரசன் தாக்குதல் நடத்தினார்.",
+   "தப்பிக்க முயன்ற பூவரசன் தாக்குதல் நடத்தியதைத் தொடர்ந்து காவல் துணை ஆய்வாளர் அவரைச் சுட்டார்.",
+   "காவல் துறை தகவலின்படி பூவரசன் முன்னர் பல வழக்குகளில் குற்றம் சாட்டப்பட்ட நபராக அறியப்படுகிறார்.",
+   "காவல் துணை ஆய்வாளர் ராஜா மற்றும் பூவரசன் ஆகிய இருவரும் குடியாத்தம் அரசு தாலுகா மருத்துவமனையில் அனுமதிக்கப்பட்டுள்ளனர்.",
+   "இந்தச் சம்பவம் தொடர்பாக காவல் துறை மேலும் விசாரணை நடத்தி வருகிறது."
+  ],
+  "closing": "வரலாற்றுக் குற்றவாளி பூவரசன் முன்னர் பல வழக்குகளில் குற்றம் சாட்டப்பட்டவராக காவல் துறையால் பதிவு செய்யப்பட்டுள்ளார் என்பது குறிப்பிடத்தக்கது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "வேலூர்",
+   "குடியாத்தம்",
+   "அரசு தாலுகா மருத்துவமனை",
+   "காவல் துறை"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Vellore sub-inspector shoots suspect during escape attempt",
+   "lines": [
+    "In Gudiyatham near Vellore district, history-sheeter suspect Poovarasan attacked sub-inspector Raja.",
+    "As Poovarasan tried to escape and attacked the officer, the sub-inspector shot him.",
+    "Police said Poovarasan had been accused in multiple cases earlier.",
+    "Both sub-inspector Raja and Poovarasan have been admitted to the Government Taluk Hospital in Gudiyatham.",
+    "Police are continuing their investigation into the incident."
+   ],
+   "closing": "It is notable that the suspect has been recorded by police as having been accused in several previous cases."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "62ab940e81f3",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-10T22:15+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/sub-inspector-shoots-at-history-sheeter-for-attacking-him-during-escape-bid-in-vellore/article71684958.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/62ab940e81f3.mp3",
+  "created_ts": 1794329149.1257465,
+  "status": "published"
+ },
+ {
+  "headline": "சட்டம் ஒழுங்கு ஐசியுவில் இருப்பதாக முதல்வர் ஸ்டாலின் கடும் விமர்சனம்",
+  "lines": [
+   "தமிழ்நாடு முதலமைச்சர் மு.க.ஸ்டாலின், சட்டம் ஒழுங்கு நிலைமை தீவிர சிகிச்சைப் பிரிவில் (ஐசியு) இருப்பதாகக் கருத்து தெரிவித்தார்.",
+   "ஆட்சி நிர்வாகம் முழுமையாகச் செயலிழந்து கோமா நிலையில் உள்ளதாக அவர் விமர்சனம் வைத்தார்.",
+   "இந்தக் கருத்தை அவர் ஒரு பொதுக் கூட்டத்தில் அல்லது அறிக்கை மூலம் தெரிவித்ததாகத் தகவல் வெளியாகியுள்ளது.",
+   "இந்த விமர்சனம் யாரை நோக்கி முன்வைக்கப்பட்டது என்பது தெளிவாகத் தெரியவில்லை.",
+   "இது தொடர்பாக மேலும் விரிவான தகவல்கள் வெளியாக வேண்டியுள்ளது."
+  ],
+  "closing": "இந்தக் கருத்துக்கு எந்தச் சூழலில், யாரை நோக்கி முதல்வர் விமர்சனம் முன்வைத்தார் என்பது இன்னும் தெளிவுபடுத்தப்படவில்லை.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "மு.க.ஸ்டாலின்",
+   "தமிழ்நாடு அரசு",
+   "சட்டம் ஒழுங்கு"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "Law and order in coma, says CM Stalin in sharp criticism",
+   "lines": [
+    "Tamil Nadu Chief Minister M. K. Stalin remarked that the law and order situation is in intensive care.",
+    "He criticised that the administration has completely stopped functioning and is in a coma.",
+    "It is learnt that he made this remark either at a public meeting or through a statement.",
+    "It is not clear who or which administration this criticism was directed at.",
+    "Further detailed information on this matter is awaited."
+   ],
+   "closing": "It remains unclear in what context, and against whom, the Chief Minister made this remark."
+  },
+  "front_cat": "routine",
+  "image_query": "M K Stalin",
+  "wiki_subject": "M. K. Stalin",
+  "person_en": "M. K. Stalin",
+  "id": "9e54a90e4333",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-10T22:15+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/10/law-order-icu-governance-coma-mk-stalin"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Chief_Minister_of_Tamil_Nadu%2C_Thiru_MK_Stalin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · M. K. Stalin",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/M._K._Stalin",
+   "symbolic": false
+  },
+  "audio": "data/audio/9e54a90e4333.mp3",
+  "created_ts": 1794329108.95848,
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "தவெக ஆட்சியில் 50 கொலைகள் எனக் குற்றச்சாட்டு எழுப்பிய நயினார் நாகேந்திரன்",
+  "lines": [
+   "தமிழக வெற்றிக் கழகத்தின் ஆட்சியில் ஆறு மாதங்களில் ஐம்பது கொலைகள் நடந்ததாக பாஜக தலைவர் நயினார் நாகேந்திரன் குற்றம் சாட்டினார்.",
+   "இந்தச் சம்பவங்களை முன்வைத்து, முதல்வர் பதவியை விட்டு விலக வேண்டும் என அவர் கோரிக்கை விடுத்தார்.",
+   "இந்தக் குற்றச்சாட்டை நயினார் நாகேந்திரன் தமது அறிக்கையில் வலியுறுத்திக் கூறினார்.",
+   "இது தொடர்பாக தமிழக வெற்றிக் கழகம் சார்பில் இதுவரை எந்த அதிகாரப்பூர்வ மறுப்பும் வெளியிடப்படவில்லை.",
+   "இந்தக் கருத்துக்கு தமிழக வெற்றிக் கழகத்தின் பதில் என்ன என்பதை அடுத்து எதிர்பார்க்கலாம்."
+  ],
+  "closing": "இந்தக் குற்றச்சாட்டு தொடர்பான எண்ணிக்கை விவரங்களை அரசு அல்லது சம்பந்தப்பட்ட கட்சி உறுதிப்படுத்தவில்லை என்பதைக் கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-10"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "நயினார் நாகேந்திரன்",
+   "தமிழக வெற்றிக் கழகம்",
+   "பாஜக",
+   "முதல்வர்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Nainar Nagendran accuses TVK rule of 50 murders in six months",
+   "lines": [
+    "BJP leader Nainar Nagendran alleged that fifty murders took place in six months under the Tamilaga Vettri Kazhagam's rule.",
+    "Citing these incidents, he demanded that the Chief Minister step down from office.",
+    "Nainar Nagendran made this claim in a statement to the press.",
+    "There has been no official response yet from the Tamilaga Vettri Kazhagam regarding this allegation.",
+    "The party's reaction to this claim is awaited in the coming days."
+   ],
+   "closing": "It should be noted that the specific figures cited in this allegation have not been officially confirmed by the government or the concerned party."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "Nainar Nagendran",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "9521e9d61c9e",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-10T22:14+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/10/50-murders-in-6-months-under-the-tvk-government-the-chief-minister-must-resign-nainar-nagendran"
+  ],
+  "image": null,
+  "audio": "data/audio/9521e9d61c9e.mp3",
+  "created_ts": 1794329044.7401814,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261110",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
   "lines": [

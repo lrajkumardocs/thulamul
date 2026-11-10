@@ -1,21 +1,21 @@
-[expire] 49b909e40b31
+[expire] 81fe78199b26
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
+[fetch] The Hindu TN: 20 புதியவை
 [fetch] Dinamani TN: 28 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 25 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 26 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 29 புதியவை
+[fetch] ESPNcricinfo: 28 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 5 புதியவை
+[fetch] The Hindu Cinema: 7 புதியவை
 [fetch] Cinema Express: 29 புதியவை
 [fetch] The Hindu Tech: 22 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -24,20 +24,20 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 5 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 4 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 20 புதியவை
+[fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,8 +57,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7ee7e5ee7390>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x763959b91810>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -66,50 +66,59 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 17 புதியவை
+[fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 690 → நிகழ்வுகள் 626
-[triage] 626 → 69 | காலி: tn:4, india:4, economy:3, court:3, govt:3
-[skip] கர்நாடகா உயர்நீதிமன்றத்தின் உள்ளூர் வழக்கு; தமிழ்நாட்டுடன் த
-[skip] ஜார்க்கண்ட் மத்திய பல்கலைக்கழகம் மற்றும் தெலங்கானா மாவட்ட அல
-[skip] வெளிநாட்டு கிரிக்கெட் – ஆஸ்திரேலிய பொதுக்கொள்கைக் சர்ச்சை. த
-[திருத்தம்] தவெக அரசு ஆட்சி ஆறு மாதம் நிறைவு, நலத்தி → தவெக அரசு ஆட்சி ஆறு மாதம் நிறைவு, பொதுமக
-[tts-edge] 2955c5d34ca3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தவெக அரசு ஆட்சி ஆறு மாதம் நிறைவு, பொதுமக்கள் நல்லெண்ணம் நிலவினும் திசை குறித்த கவலை
+[run] புதியவை 712 → நிகழ்வுகள் 646
+[triage] 646 → 61 | காலி: india:4, govt:3, sports:3, economy:2, court:2
+[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் — 2023 Ashes, Lord's இலிரு
+[skip] மூலத்தில் ஒரு தலைப்பு வரியும் ஒரு துணைத் தகவலும் மட்டுமே உள்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உரை இல்லை - செய்தி
+[tts-edge] 9521e9d61c9e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தவெக ஆட்சியில் 50 கொலைகள் எனக் குற்றச்சாட்டு எழுப்பிய நயினார் நாகேந்திரன்
+[திருத்தம்] சட்டம் ஒழுங்கு கோமாவில் என முதல்வர் ஸ்டா → சட்டம் ஒழுங்கு ஐசியுவில் இருப்பதாக முதல்
+[tts-edge] 9e54a90e4333: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சட்டம் ஒழுங்கு ஐசியுவில் இருப்பதாக முதல்வர் ஸ்டாலின் கடும் விமர்சனம்
+[திருத்தம்] வேலூரில் தப்பிக்க முயன்ற சந்தேக நபரை காவ → வேலூரில் தப்பிக்க முயன்ற வரலாற்றுக் குற்
+[image] களஞ்சியம் (2 சொல்): வேலூரில் தப்பிக்க முயன்ற வரலாற்றுக
+[publish] வேலூரில் தப்பிக்க முயன்ற வரலாற்றுக் குற்றவாளியை காவல் துணை ஆய்வாளர் சுட்டார்
+[திருத்தம்] மின் உற்பத்தி நிலைய ஊழியர் போராட்டத்திற் → அனல் மின் உற்பத்தி நிலைய ஊழியர்களின் வேல
+[publish] அனல் மின் உற்பத்தி நிலைய ஊழியர்களின் வேலைநிறுத்தத்திற்குத் தடை விதித்த சென்னை உயர்நீதிமன்றம்
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[hold] முன்னாள் அமைச்சர் அன்பில் மகேஷுக்கு ஜாமீன் மறுப்பு
+[publish] சட்டம் ஒழுங்கு குறித்து முதலமைச்சர் பதவி விலக பாஜக கோரிக்கை
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] தீபாவளியில் தமிழக தாஸ்மாக் மது விற்பனை 4 → தீபாவளியில் தமிழக தாஸ்மாக் மது விற்பனை 4
-[image] களஞ்சியம் (2 சொல்): தீபாவளியில் தமிழக தாஸ்மாக் மது விற
-[tts-edge] fc6ed3105179: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தீபாவளியில் தமிழக தாஸ்மாக் மது விற்பனை 441 கோடி ரூபாயை எட்டியது
-[திருத்தம்] தென் தமிழ்நாட்டில் நவம்பர் பன்னிரண்டு வர → தென் தமிழ்நாட்டில் நவம்பர் 12 வரை கனமழை 
-[image] களஞ்சியம் (3 சொல்): தென் தமிழ்நாட்டில் நவம்பர் 12 வரை 
-[publish] தென் தமிழ்நாட்டில் நவம்பர் 12 வரை கனமழை எச்சரிக்கை
-[திருத்தம்] முன்னாள் அதிமுக நான்கு எம்எல்ஏக்கள் தகுத → முன்னாள் அதிமுக நான்கு எம்எல்ஏக்கள் தகுத
-[publish] முன்னாள் அதிமுக நான்கு எம்எல்ஏக்கள் தகுதி நீக்கம் பற்றி சபாநாயகர் மீண்டும் விசாரணை
-[hold] FEMA வழக்கில் சென்னை உயர்நீதிமன்றத்தை அணுகிய திமுக எம்.பி. ஜெகத்ரட்சகன்
-[image] களஞ்சியம் (2 சொல்): திருவண்ணாமலையில் நீர்ப்பாசனக் குளத
-[publish] திருவண்ணாமலையில் நீர்ப்பாசனக் குளத்தில் மூழ்கி ஐந்து பேர் உயிரிழப்பு
+[திருத்தம்] செஞ்சி சிறுமி கடத்தல் தொடரும் நிலையில் ம → செஞ்சி சிறுமி கடத்தல் தொடரும் நிலையில் ம
+[image] களஞ்சியம் (3 சொல்): செஞ்சி சிறுமி கடத்தல் தொடரும் நிலை
+[publish] செஞ்சி சிறுமி கடத்தல் தொடரும் நிலையில் மற்றொரு சிறுமி கடத்தப்பட்டுள்ளது
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] அகல்விளக்கு வங்கிக் கணக்கு முடக்கம் வழக் → அகல்விளக்கு வங்கிக் கணக்கு முடக்கம் வழக்
-[publish] அகல்விளக்கு வங்கிக் கணக்கு முடக்கம் வழக்கில் சென்னை உயர்நீதிமன்றம் கேள்வி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgtwRn1venak8vPVcoCHd'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; கள்ளக்குறிச்சி எம்எல்ஏ விவ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgtwWqhKp5akvLNxdPgqi'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgtwa1gvD3mq2tJe6rUVo'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgtwctG2LjgaUerdEy11F'}
-[publish] தவெக எம்எல்ஏ மீது புகார் என்றால் நடவடிக்கை, அமைச்சர் ராஜ்மோகன்
-[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு பெயர் மட்டுமே உள்ளது; சர்ச்சைய
-[திருத்தம்] ஆட்சியருக்கு ஆபாச குறுஞ்செய்தி: எம்எல்ஏ  → ஆட்சியருக்கு ஆபாச குறுஞ்செய்தி: தவெக எம்
-[image] களஞ்சியம் (3 சொல்): ஆட்சியருக்கு ஆபாச குறுஞ்செய்தி: தவ
-[publish] ஆட்சியருக்கு ஆபாச குறுஞ்செய்தி: தவெக எம்எல்ஏ மீது நடவடிக்கை கோரிக்கை
-[skip] மூலத்தில் தலைப்பு மற்றும் அமர்வு பெயர் மட்டுமே உள்ளது; வழக்க
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgtwsYpPhNaifAfFjFxcC'}
-[publish] எண்விடியா பங்கு விலை ஒன்பது சதவீதம் சரிவு, தலைமை நிர்வாகி மீது உளவு சர்ச்சை
-[filler] tech கட்டுரை
-[jobs] தொகுப்பு 12
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12790 · சென்செக்ஸ் 81107
+[skip] குறிப்பிட்ட சம்பவ விவரம் இல்லாத, ஒரு வரி புகார் தலைப்பு மட்ட
+[skip] மூலத்தில் ஒரு தலைப்பு மட்டுமே உள்ளது, போதிய விவரங்கள் இல்லை,
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgubNMiXW4CPmvwZeuLhj'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] ஐஏஎஸ் அதிகாரி பாதிப்பு தொடர்பாக விஜய் மீது உதயநிதி விமர்சனம்
+[skip] தமிழ்நாட்டு மாநில செய்தி — world குறிப்பு தவறு. இது 'tn' அல்
+[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — பிற நாட்டின் உள்ளூர் கட்சி பொருச
+[skip] வெளிநாட்டு உள்ளூர் விபத்து — தமிழ்நாடு / இந்திய வாசகரைப் பாত
+[skip] இவை ஆந்திரப் பிரதேசம் மற்றும் அசாமில் உள்ள உள்ளூர் வேலைவாய்ப
+[skip] இவை மேற்கு வங்காளத்தில் உள்ள மத்திய அரசு நிறுவனங்களின் (டிஏச
+[skip] ஆந்திரப் பிரதேச மாநில போக்குவரத்துக் கழகத்தின் (APSRTC) உள்ள
+[skip] மூலத் தகவல் தெளிவற்றது, முரண்பாடானது (TVK அரசு என்பது புரிதல
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgubapaPSf4pVmStYJhJ8'}
+[skip] இது உத்தரபிரதேச மாநில உள்ளூர் அரசியல் செய்தி - அகிலேஷ் யாதவ்
+[skip] धार्मिक ग्रंथ पर विश्लेषणात्मक लेख है, सरकारी अधिसूचना या नी
+[skip] இது அமெரிக்க பங்குச் சந்தை பற்றிய உள்ளூர் செய்தி; தமிழ்நாடு/
+[திருத்தம்] பொதுநூலகங்களில் போலி புத்தகங்கள்: FIR பத → பொதுநூலகங்களில் போலி, செயற்கை நுண்ணறிவு 
+[தரம்] தமிழ் அல்லாத எழுத்து: फ → ஒரு திருத்தம்
+[publish] பொதுநூலகங்களில் போலி, செயற்கை நுண்ணறிவு புத்தகங்கள்: சென்னை உயர்நீதிமன்றம் எஃப்.ஐ.ஆர். பதிவுக்கு உத்தரவு
+[skip] வரலாற்று நபர் பற்றிய பொது குறிப்பு - நடப்பு செய்தி அல்ல. தமி
+[skip] வெளிநாட்டுப் பொது ஆங்கிலத் திரைத் தொடர் — தமிழ்நாட்டு வாசகரி
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Committee to be set up for transparent procureme
+[skip] ఆంధ్ర ప్రదేశ్ రోడ్ ట్రాన్సిట్ కর్పొరేషన్ సమస్యలు తమిழ్నాడుకు
+[skip] விளையாட்டுச் செய்திகளில் தமிழ்நாடு / இந்திய தேசிய அணி / பெரு
+[தரம்] தமிழ் அல்லாத எழுத்து: রা → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): அமெரிக்காவில் நுகர்வோர் விலைக் குற
+[publish] அமெரிக்காவில் நுகர்வோர் விலைக் குறியீடு எதிர்பார்ப்பை மீறி உயர்வு
+[filler:sports] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages mus
+[market] தங்கம் 22K ₹12487 · சென்செக்ஸ் 81107
 [weather] புதுப்பிக்கப்பட்டது
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 10
