@@ -1,5 +1,68 @@
 [
  {
+  "headline": "சென்னையில் பட்டாசு காரணமாக கண் காயங்கள் அதிகரிப்பு",
+  "lines": [
+   "சென்னையில் பட்டாசு வெடிப்பு காரணமாக கண் காயங்களுக்கு சிகிச்சை பெறுவோர் எண்ணிக்கை கணிசமாக அதிகரித்துள்ளது.",
+   "பகுதி கண் சிகிச்சை நிறுவனம் மற்றும் அரசு கண் மருத்துவமனை சுமார் 50 நோயாளிகளைச் சிகிச்சை செய்துள்ளன.",
+   "அவர்களுள் சுமார் 10 பேர் மருத்துவமனையில் சேர்த்து சிகிச்சை பெற்றுள்ளதாக அதிகாரிகள் தெரிவித்தனர்.",
+   "மருத்துவர்கள் பட்டாசு வெடிக்கும்போது கூடுதல் எச்சரிக்கை மற்றும் பாதுகாப்பு நடவடிக்கை கைக்கொள்ள பொதுமக்களை வேண்டிக்கொண்டுள்ளனர்.",
+   "பட்டாசு வெடிப்பால் கண்களுக்கு ஏற்படும் நிரந்தர சேதத்தைத் தடுக்க உடனடி மருத்துவ ஆலோசனை பெறுவது முக்கியம் என்று அவர்கள் கூறினர்."
+  ],
+  "closing": "விழாக்கால பட்டாசு பயன்படுத்தும்போது கண் பாதுகாப்பு மீது கவனம் செலுத்துவது ஆபத்துகளைக் குறைக்க உதவும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "சென்னை",
+   "பகுதி கண் சிகிச்சை நிறுவனம்",
+   "அரசு கண் மருத்துவமனை",
+   "பட்டாசு காயங்கள்"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "Eye injuries from crackers rise in Chennai; doctors urge caution",
+   "lines": [
+    "Chennai has seen a significant surge in eye injuries caused by firecrackers being treated at medical facilities.",
+    "The Regional Institute of Ophthalmology and Government Ophthalmic Hospital have treated around 50 patients.",
+    "About 10 of them have been admitted to the hospital for treatment, according to officials.",
+    "Doctors have appealed to the public to take extra precautions and safety measures when bursting firecrackers.",
+    "Seeking immediate medical attention is crucial to prevent permanent damage to the eyes from firecracker injuries, they said."
+   ],
+   "closing": "Focusing on eye protection while using festival crackers can help reduce such incidents."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "eye injury treatment hospital",
+  "wiki_subject": "Ophthalmology",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e03860a5b4c3",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-10T06:38+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/chennai-sees-dozens-of-cracker-related-eye-injuries-doctors-call-for-caution/article71681956.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/US_Navy_080607-N-9689V-008_Cmdr._Kenneth_Kubis_and_U.S._Air_Force_Capt._Tighe_Richardson_use_an_operating_microscope_while_performing_cataract_eye_surgery_to_return_sight_to_Marylin_Kansi%2C_a_12-year-old_girl_from_Cotabato.jpg/3840px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Ophthalmology",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Ophthalmology",
+   "symbolic": false
+  },
+  "audio": "data/audio/e03860a5b4c3.mp3",
+  "created_ts": 1794272892.5258505,
+  "status": "published"
+ },
+ {
   "headline": "தீபாவளிக்குப் பின் சென்னையில் காற்று தரம் மோசம்; மணலியில் அதிகம்",
   "lines": [
    "தீபாவளி பண்டிகையையடுத்த காலையில் சென்னையின் காற்று தரம் மோசமான நிலைக்குச் சென்றுள்ளது.",
@@ -723,131 +786,6 @@
   },
   "audio": "data/audio/e9184ca5dea3.mp3",
   "created_ts": 1793547729.9270916,
-  "status": "published"
- },
- {
-  "headline": "நோயாளிகளுக்கான நிதி பாதுகாப்பு ஒரே நடவடிக்கையில் சாத்தியமில்லை",
-  "lines": [
-   "முன்னாள் தேசிய சுகாதார ஆணைய தலைவர் இந்து பூஷணன் நோயாளிகளுக்கான நிதி பாதுகாப்பு பல்வேறு நிலைகளில் ஏற்பட வேண்டும் என்று கூறினார்.",
-   "சேவைகளை எவ்வாறு கொள்முதல் செய்வது, மருத்துவ வழங்குநர்களுக்கு எவ்வாறு பணம் வழங்குவது, நோயாளிகள் எவ்வாறு சிகிச்சை பெறுவது ஆகிய விஷயங்களில் அரசு கவனம் செலுத்த வேண்டும் என்று அவர் தெரிவித்தார்.",
-   "சுகாதாரமுறை எவ்வாறு தரம் உறுதிசெய்வது என்ற கேள்வியும் கவனத்தில் கொள்ள வேண்டும் என்று இந்து பூஷணன் சுட்டிக்காட்டினார்.",
-   "முழுமையான நிதி பாதுகாப்பு அமைப்புக்கு மத்திய அரசின் சுகாதாரக் கொள்கைகளில் மாற்றம் தேவை என்று அவர் வலியுறுத்தினார்.",
-   "நோயாளி நலத்துக்கான முக்கிய பணிகளை மேம்படுத்தும் முயற்சிகள் நாட்டின் பல்வேறு பகுதிகளில் முன்னேற்றம் அடைந்து வருவதாக தெரிவிக்கப்பட்டுள்ளது."
-  ],
-  "closing": "நோயாளிகளுக்கான செலவுச் சுமை குறைப்பதற்கு சுகாதாரக் கட்டமைப்பு, நிதிநிலை, சேவை வழங்கல் ஆகிய மூன்று பகுதிகளிலும் ஒருங்கிணைந்த மாற்றம் அவசியம் என்பது நிபுணர்களின் கருத்தாக உள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "இந்து பூஷணி",
-   "தேசிய சுகாதார ஆணையம்",
-   "மத்திய அரசு",
-   "சுகாதாரக் கொள்கை"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Financial protection for patients requires multiple approaches, not single intervention",
-   "lines": [
-    "Former National Health Authority CEO Indu Bhushan stated that patient financial protection must develop across multiple levels in India's healthcare system.",
-    "He emphasized that government must address service procurement methods, provider payment systems, patient treatment access, and quality assurance mechanisms.",
-    "Bhushan highlighted that comprehensive financial protection requires attention to how healthcare systems ensure quality and accountability.",
-    "He stressed that achieving complete patient financial protection requires evolution in central government healthcare policies.",
-    "According to experts, reducing patient financial burden demands coordinated changes across healthcare infrastructure, financial mechanisms, and service delivery systems."
-   ],
-   "closing": "Experts agree that comprehensive financial protection for patients requires integrated reforms in healthcare infrastructure, financing mechanisms, and service delivery systems."
-  },
-  "front_cat": "routine",
-  "image_query": "healthcare finance patient protection india",
-  "wiki_subject": "Healthcare in India",
-  "person_en": "Indu Bhushan",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "a1a2f5f66bbd",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-11-01T01:09+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/health/financial-protection-cannot-be-achieved-through-a-single-intervention-indu-bhushan/article71640220.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Dr._Indu_Bhushan.jpg/3840px-Dr._Indu_Bhushan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Indu Bhushan",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Indu_Bhushan",
-   "symbolic": false
-  },
-  "audio": "data/audio/a1a2f5f66bbd.mp3",
-  "created_ts": 1793475553.8579986,
-  "status": "published"
- },
- {
-  "headline": "தன்னோடு போரிடும் நோய்களின் மரபணு தொடர்பு குறித்து ஆய்வு",
-  "lines": [
-   "இந்திய மருத்துவ ஆராய்ச்சிக் கவுன்சில் தன்னோடு போரிடும் நோய்களின் மரபணு தொடர்பு கண்டறிவதற்கான ஆய்வுக்கு நிதியளித்துள்ளது.",
-   "இந்த ஆய்வு நோய்களின் செயல்முறைகளை விஞ்ஞானிகள் சிறிதளவு புரிந்துகொள்ள உதவும்.",
-   "புதிய சிகிச்சை முறைகள் வளர்ப்பதற்கான சாத்தியமான இலக்குகளைக் கண்டறிய இந்த ஆய்வு மதிப்பாக இருக்கும்.",
-   "தன்னோடு போரிடும் நோய்களாவன உடலின் நோய் எதிர்ப்பு மண்டலம் தன் சொந்த திசுக்களை தாக்கும் நிலை ஆகும்.",
-   "இந்த ஆய்வின் முடிவுகள் பொதுமக்களுக்குப் பயனுள்ள புதிய சிகிச்சை முறைகளைக் கொண்டுவர உதவக்கூடும்."
-  ],
-  "closing": "மரபணு தொடர்புடைய தன்னோடு போரிடும் நோய்களின் ஆய்வு இந்தியாவில் முதன்முறையாக பெரிய அளவில் மேற்கொள்ளப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "இந்திய மருத்துவ ஆராய்ச்சிக் கவுன்சில்",
-   "தன்னோடு போரிடும் நோய்கள்",
-   "மரபணு ஆய்வு"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "ICMR funds study to identify genetic links in autoimmune diseases",
-   "lines": [
-    "The Indian Council of Medical Research has funded a study to identify genetic associations in autoimmune diseases.",
-    "The research will help scientists better understand the disease mechanisms involved in these conditions.",
-    "The findings could support identification of potential targets for developing new therapeutic approaches.",
-    "Autoimmune diseases occur when the body's immune system attacks its own tissues.",
-    "The study results could contribute to bringing new treatment methods beneficial to the general public."
-   ],
-   "closing": "The study of genetic links in autoimmune diseases is being undertaken in India at a large scale for the first time."
-  },
-  "front_cat": "health_emergency",
-  "image_query": "",
-  "wiki_subject": "Autoimmune_disease",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "ba50209c5cc8",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-10-31T14:59+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/health/icmr-funds-study-to-identify-genetic-links-potential-therapies-for-autoimmune-diseases/article71641434.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Lupusfoto.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Autoimmune disease",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Autoimmune_disease",
-   "symbolic": false
-  },
-  "audio": "data/audio/ba50209c5cc8.mp3",
-  "created_ts": 1793438980.123534,
   "status": "published"
  }
 ]

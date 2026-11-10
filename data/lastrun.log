@@ -1,20 +1,20 @@
-[expire] 7fe1605623c2
+[expire] 9659a4eb40db
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 15 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
-[fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 14 புதியவை
+[fetch] The Hindu TN: 12 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 22 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 30 புதியவை
 [fetch] The Hindu Sport: 28 புதியவை
-[fetch] The Hindu Cinema: 1 புதியவை
+[fetch] The Hindu Cinema: 0 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 15 புதியவை
+[fetch] The Hindu Tech: 16 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 6 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 26 புதியவை
@@ -30,14 +30,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
-[fetch] Dinamani Sports: 21 புதியவை
+[fetch] Dinamani Sports: 17 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,56 +57,67 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7be72df59e90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7e5b79bbe890>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 12 புதியவை
-[fetch] Times Chennai Crime: 18 புதியவை
-[run] புதியவை 637 → நிகழ்வுகள் 571
-[triage] 571 → 70 | காலி: india:3, govt:3, cinema:3, court:2, sports:2
-[skip] This is a cinema review article. Per guidelines, cinema revi
-[திருத்தம்] திருச்சி சமயபுரத்தில் இரு சிறுவர்கள் கொட → திருச்சி சமயபுரத்தில் இரு சிறுவர்கள் கொல
-[image] களஞ்சியம் (2 சொல்): திருச்சி சமயபுரத்தில் இரு சிறுவர்க
-[tts-edge] 01e3d1bab6f5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] திருச்சி சமயபுரத்தில் இரு சிறுவர்கள் கொலை
+[fetch] TN Police News: 19 புதியவை
+[fetch] Times Chennai Crime: 20 புதியவை
+[run] புதியவை 643 → நிகழ்வுகள் 581
+[triage] 581 → 87 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இரண்டு மூலங்களும் தமிழ்நாடு தொடர்பற்றவை - IIEST ஷிப்பூர் (மே
+[tts-edge] e03860a5b4c3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னையில் பட்டாசு காரணமாக கண் காயங்கள் அதிகரிப்பு
+[tts-edge] 73f302d72ca2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சூர்யாவின் 'சீன்' படம் பற்றி மகேஷ் பாபு பாராட்டு
+[skip] வெளிநாட்டுக் கிரிக்கெட் ইতিহাস — தமிழ்நாடு/இந்தியத் வாசகருக்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgtMXWErr9k9sUEwgu917'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgtMaWXJjwhBQ4m3brzFb'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgtMcpy8RQ8zoQ5TeQhyH'}
+[திருத்தம்] துருக்கியில் இரும்பு எஃகு ஆலையில் வெடிவெ → துருக்கியில் இரும்பு எஃகு ஆலையில் வெடிப்
+[hold] துருக்கியில் இரும்பு எஃகு ஆலையில் வெடிப்பு, பலர் பலி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலம் ஒரு பகுப்பாய்வுக் கட்டுரையின் தலைப்பும் ஒரு அறிமுக வரி
-[image] களஞ்சியம் (2 சொல்): தேனியில் பட்டாசு வெடித்தவர்களை கேள
-[tts-edge] a1ee84807b05: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தேனியில் பட்டாசு வெடித்தவர்களை கேள்வி கேட்ட காவல் அதிகாரி உயிரிழப்பு
-[publish] செனகல் கடற்கரையில் புலம்பெயர் படகு கவிழ்வு; 39 பேர் உயிரிழப்பு
-[publish] கிரீட் தீவு அருகே படகு கவிழ்ந்து பதின்மூன்று புலம்பெயர்ந்தோர் உயிரிழப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgsnxks33uGzkyteV4Dob'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] எத்தியோப்பியா எல்லை மோதலில் ஐம்பதாயிரத்துக்கும் மேற்பட்டோர் இடம்பெயர்வு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgsoBczrwJ6UwcnGHXRhc'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] தீபாவளிக்குப் பின் சென்னையில் காற்று தரம் மோசம்; மணலியில் அதிகம்
-[image] களஞ்சியம் (3 சொல்): துறையூரில் புகார் செய்தவரைத் தாக்க
-[hold] துறையூரில் புகார் செய்தவரைத் தாக்கியதாக துணை சபாநாயகர் மீது குற்றச்சாட்டு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யார் எம்எல்ஏ, எந்த மாவட்டம
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, சீமான் கூற்றின் விவரங்கள் 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgsoXvea4LjFD34VFZ6sk'}
-[image] களஞ்சியம் (3 சொல்): ஜெம் கிரானைட்ஸ் வீரமணி மீதான சிறார
-[publish] ஜெம் கிரானைட்ஸ் வீரமணி மீதான சிறார் வழக்கில் மூன்றாவது வீடியோ கைப்பற்றம்
-[filler] tech கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12744 · சென்செக்ஸ் 81107
+[திருத்தம்] நடிகர் ரஸ்ஸல் பிராண்ட்டுக்கு பாலியல் வன் → நடிகர் ரஸ்ஸல் பிராண்ட்டுக்கு பாலியல் வன்
+[image] களஞ்சியம் (3 சொல்): நடிகர் ரஸ்ஸல் பிராண்ட்டுக்கு பாலிய
+[publish] நடிகர் ரஸ்ஸல் பிராண்ட்டுக்கு பாலியல் வன்கொடுமை வழக்கில் 10.5 ஆண்டுகள் சிறைத் தண்டனை
+[publish] தென்காசியில் காட்டு யானைத் தாக்குதலில் ஓய்வுபெற்ற அரசு ஊழியர் உயிரிழப்பு
+[திருத்தம்] துருக்கியில் எஃகு ஆலை வெடிவிபத்தில் பதின → துருக்கியில் எஃகு ஆலை வெடிவிபத்தில் 16 ப
+[தரம்] தமிழ் அல்லாத எழுத்து: য় → ஒரு திருத்தம்
+[publish] துருக்கியில் எஃகு ஆலை வெடிவிபத்தில் 16 பேர் பலி
+[திருத்தம்] கடமையில் உயிரிழக்கும் காவல் துறையினருக்க → கடமையில் உயிரிழக்கும் காவல்துறையினருக்கு
+[publish] கடமையில் உயிரிழக்கும் காவல்துறையினருக்கு ரூ.1 கோடி நிவாரணம்
+[skip] மூலச் செய்தியில் ஒரே ஒரு வாக்கியம் மட்டும் உள்ளது — தேதி, இட
+[திருத்தம்] தேனியில் உதவி ஆய்வாளர் அடித்துக் கொலை, ம → தேனியில் சிறப்பு உதவி ஆய்வாளர் அடித்துக்
+[image] களஞ்சியம் (3 சொல்): தேனியில் சிறப்பு உதவி ஆய்வாளர் அடி
+[publish] தேனியில் சிறப்பு உதவி ஆய்வாளர் அடித்துக் கொலை, மூவர் கைது
+[skip] மூலத்தில் 'முதல்வர் விஜய்' எனக் குறிப்பிடப்பட்டுள்ளது உண்மைக
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgtN6QeR7FPK2HevhRihZ'}
+[திருத்தம்] அமெரிக்க பாதுகாப்பு செயலர் ஹெக்செத் மீது → அமெரிக்க பாதுகாப்பு செயலர் பீட் ஹெக்செத்
+[publish] அமெரிக்க பாதுகாப்பு செயலர் பீட் ஹெக்செத் மீது பதவி நீக்கத் தீர்மானம்
+[skip] பிற நாட்டின் உள் மோதல் — தமிழ்நாடு/இந்தியத் வாசகரின் அன்றாட 
+[திருத்தம்] முரசு புயல் இறப்புகளுக்கு கூடுதல் இழப்பீ → முரசு புயல் இறப்புகளுக்கு கூடுதல் இழப்பீ
+[image] களஞ்சியம் (2 சொல்): முரசு புயல் இறப்புகளுக்கு கூடுதல் 
+[publish] முரசு புயல் இறப்புகளுக்கு கூடுதல் இழப்பீடு கோரும் மீனவர்
+[brief] காலை brief தயார்
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: முரசு புயல் இழப்பீடு: ஏழு லட்சம் போதுமா?
+[comic] கதை: ஆழ்வார்க்கடியானின் தந்திரம்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-11-10.png · நாள் 62
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹12848 · சென்செக்ஸ் 81107
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 8
+[done] feed 300 · pending 1 · எழுதியவை 10
