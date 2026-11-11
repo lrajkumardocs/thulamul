@@ -1,44 +1,43 @@
-[expire] d58fd47fdfb8
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 25 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 28 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 17 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 15 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 25 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 5 புதியவை
-[fetch] Cinema Express: 29 புதியவை
-[fetch] The Hindu Tech: 23 புதியவை
-[fetch] Wired: 30 புதியவை
+[fetch] Cinema Express: 28 புதியவை
+[fetch] The Hindu Tech: 28 புதியவை
+[fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 20 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 20 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 24 புதியவை
+[fetch] Bar and Bench: 15 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 26 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 24 புதியவை
-[fetch] NDTV India: 19 புதியவை
+[fetch] The Hindu National: 29 புதியவை
+[fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
@@ -57,99 +56,69 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x74ba3c015c50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x70e6b92bf850>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 28 புதியவை
-[fetch] Times Govt Schemes: 16 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 18 புதியவை
+[fetch] TN Police News: 16 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 649 → நிகழ்வுகள் 599
-[triage] 599 → 57 | காலி: india:4, world:3, court:3, govt:3, jobs:3
-[skip] டெல்லி மற்றும் சண்டிகர் பகுதிகளுக்கான உள்ளூர் வேலைவாய்ப்பு அ
-[தரம்] தமிழ் அல்லாத எழுத்து: थপবযস়াো → ஒரு திருத்தம்
-[tts-edge] 3aba54088f9a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுரையில் தீபாவளிக்குப் பின் 331 டன் குப்பை அகற்றப்பட்டது
-[skip] வெளிநாட்டுச் திரைத்துறை செய்தி — தமிழ்நாடு/இந்திய சினிமாவுடன
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — பெண்கள் BBL (Big Bash League)
-[skip] வெளிநாட்டுப் பாதுகாப்புக் கொள்ுகை — இந்தியா அல்லது தமிழ்நாட்
+[run] புதியவை 700 → நிகழ்வுகள் 613
+[triage] 613 → 43 | காலி: india:3, world:3, court:3, govt:3, cinema:3
+[skip] மத்திய பிரதேச உயர்நீதிமன்றத்தின் உள்ளூர் தீர்ப்பு, தமிழ்நாட்
+[skip] வெளிநாட்டுப் படம் — ஹாலிவுட்; தமிழ்நாடு/இந்தியத் தொடர்பு இல்
+[skip] பாকிஸ்தான்-இலங்கை கிரிக்கெட் தொடர். தமிழ்நாட்டு/இந்திய வாசகர
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgvryn7wwnUFbsDbWVA18'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] ஈத்தியோப்பியாவின் உள்நாட்டுத் தகராறு. தமிழ்நாடு/இந்திய வாசகர
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] பிற நாட்டின் உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகரை நேரடி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgvKJwR6WHF6c44r9m3r9'}
-[skip] வெளிநாட்டு உள்நாட்டுச் செய்திகள் — அமெரிக்க பதவிநிரப்பல், ইর
-[skip] வெளிநாட்டுத் தகராறு — இস்ரேலி-பாலஸ்தீனிய மோதல் தமிழ்நாட்டு வ
-[skip] வெளிநாட்டு உள்நாட்டுக் கூட்டமணி (Lebanon-Israel எல்லைப் பகுத
-[skip] வெளிநாட்டுச் சிப்ஐ வழக்கு — தமிழ்நாடு/இந்தியாவுக்கு நேரடித் 
-[skip] இஸ்ரேல் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் த
-[திருத்தம்] எம்ஆர்எஃப் நிறுவன நிகர லாபம் 23 சதவீதம்  → எம்ஆர்எஃப் நிகர லாபம் 22.8 சதவீதம் வீழ்ச
-[tts-edge] 15d46152f4d5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] எம்ஆர்எஃப் நிகர லாபம் 22.8 சதவீதம் வீழ்ச்சி
-[skip] இது அமெரிக்க பங்குச் சந்தையின் வழக்கமான ஏற்ற இறக்கம் பற்றிய 
-[skip] இது அமெரிக்க மத்திய வங்கி அதிகாரி ஒருவரின் கருத்து மட்டுமே; 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgvKShi47Ah5ddUJ8qWbS'}
-[திருத்தம்] வேலூர் உள்ளிட்ட மாவட்டங்களில் பட்டாசு கா → வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்களில் 
-[image] களஞ்சியம் (2 சொல்): வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்
-[publish] வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்களில் பட்டாசு காயங்களால் 150 பேர் சிகிச்சை
-[skip] இது அமெரிக்க பங்குச் சந்தை இயக்கம் பற்றிய வழக்கமான செய்தி; த
-[image] களஞ்சியம் (3 சொல்): ஜெம் கிரானைட்ஸ் உரிமையாளர் வீரமணி 
-[publish] ஜெம் கிரானைட்ஸ் உரிமையாளர் வீரமணி வழக்கில் காவலாளி கைது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது ஒரு குறிப்பிட்ட செய்தி நிகழ்வு அல்ல, மாறாக முன்னர் வெளிய
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgvKjsk2SoAR6nnuJtdjH'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை - ஐந்து வா
-[skip] உலக நாடுகளுக்கிடையேயான பாதுகாப்புச் சம்பவம் — தமிழ்நாட்டுக்க
-[image] களஞ்சியம் (3 சொல்): பட்டாசு வெடித்தது தொடர்பான தகராறில
-[publish] பட்டாசு வெடித்தது தொடர்பான தகராறில் ஐ.டி. ஊழியர் கொலை, மூவர் கைது
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்க பாராளுமன்றத்தின் உள்
-[skip] மூலத்தில் ஒரு வரித் தலைப்பு மட்டுமே உள்ளது, போதிய விவரம் இல்
-[skip] கென்யா மக்களைப் பாதிக்கும் உள்ளூர் இயற்கை வேளாமை நிகழ்வு. தம
-[தரம்] தமிழ் அல்லாத எழுத்து: শষে → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): தமிழகத்தில் ரௌடிகள் மீது நடவடிக்கை
-[publish] தமிழகத்தில் ரௌடிகள் மீது நடவடிக்கை, இரு நாளில் 955 பேர் கைது
-[skip] வெளிநாட்டுச் சட்ட நிகழ்வு — தமிழ்நாடு/இந்தியாவுக்குத் தொடர்ப
-[skip] தமிழ்நாட்டு / இந்திய வாசகருக்கு நேரடிப் பாதிப்பு இல்லை. அமெர
-[skip] ஈரানின் கடலூர் எரிவாயு தளத்தில் ஏற்பட்ட தீ நிகழ்வு. தமிழ்நாட
-[skip] மோல்டோவা-ரஷ்யா கூட்டறிக்கை — தமிழ்நாடு/இந்தியாவுடன் நேரடித் 
-[skip] அமெரிக்க உள்நாட்டு அரசியல் — தமிழ்நாடு வாசகரைப் பாதிக்கவில்ல
-[skip] அமெரிக்க உள்நாட்டுத் தேர்தல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித
-[skip] அமெரிக்க உள்நாட்டுச் செய்திகளில் தமிழ்நாடு/இந்தியாவுடன் நேரட
-[skip] வெளிநாட்டு உள்நாட்டுக் கிரীடைச் செய்தி — தமிழ்நாடு/இந்தியப் 
-[skip] IIT ஹைதராபாத் மற்றும் ஜாமியா மிலியா இஸ்லாமியா (டெல்லி) ஆகியவ
-[திருத்தம்] பிரதமர் பதவி மீது பிரணாப் முகர்ஜிக்கு ஆச → பிரணாப் முகர்ஜி பிரதமர் பதவி விரும்பியதா
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[publish] பிரணாப் முகர்ஜி பிரதமர் பதவி விரும்பியதாக சோனியா காந்தி நினைவுக் குறிப்பில் கூறினார்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] பீகார் மாநிலத்தின் உள்ளூர் நிர்வாக நடவடிக்கை - தமிழ்நாட்டுடன
-[திருத்தம்] தேயிலைக்கு குறைந்தபட்ச நிலைத்தன்மை விலை  → தேயிலைக்குக் குறைந்தபட்ச நிலைத்தன்மை வில
-[publish] தேயிலைக்குக் குறைந்தபட்ச நிலைத்தன்மை விலை நிர்ணயம் பரிந்துரைத்த தேயிலை வாரியம்
-[skip] இதொரு பழைய கட்டுரை, அல்லது பொதுவான சிந்தனைக் கட்டுரை — அரசுத
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Focus on Tamil during Kandasashthi: Minister
-[skip] பிற மாநிலத்தின் அரசியல் / நபர்களின் தனிப்பட்ட வரலாற்றுக் குற
-[skip] கோவாவின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு — தமிழ்நாட்டுடன் தொட
-[skip] வெளிநாட்டுச் சுகாதாரக் காவலாய்ப்பு அறிவிப்பு — தமிழ்நாட்டு வ
-[skip] இந்தக் கட்டுரை சினிமாவிற்கு தொடர்புடைய பொதுவான முன்னுரை மற்ற
-[skip] வெளிநாட்டு ক্রীড়াবিদின் ব্যক্তিগত விபদ (ஆஸ்திரேলிய வேகப் பந
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Recent repairs on OMR come undone
-[claude] பிழை Extra data: line 4 column 4 (char 180)
-[திருத்தம்] தமிழ்நாட்டில் உலக சுகாதார அமைப்பின் 'அறி → தமிழ்நாட்டில் உலக சுகாதார அமைப்பின் 'அறி
-[தரம்] தமிழ் அல்லாத எழுத்து: শু → ஒரு திருத்தம்
-[publish] தமிழ்நாட்டில் உலக சுகாதார அமைப்பின் 'அறிவியலும் சுகாதாரமும் ஒன்றாக' இயக்கம் வலுப்பெற்றுள்ளது
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 12
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: கலெக்டர் துன்புறுத்தல் குற்றச்சாட்டு விசாரணை கோரும் குரல்கள்
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹12562 · சென்செக்ஸ் 81107
+[image] களஞ்சியம் (2 சொல்): மகளுடன் உறவை முடிக்க மறுத்த இளைஞனை
+[tts-edge] 56d72e57530f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மகளுடன் உறவை முடிக்க மறுத்த இளைஞனை தந்தை கத்தியால் குத்திக் கொலை
+[image] களஞ்சியம் (3 சொல்): சமயபுரம் இரட்டைக் கொலை வழக்கு சந்த
+[tts-edge] 5a4ed589d74a: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சமயபுரம் இரட்டைக் கொலை வழக்கு சந்தேக நபர் காவலரைத் தாக்கி தப்ப முயற்சி
+[skip] DRC-ன் உள்நாட்டுக் குறிப்பு. தமிழ்நாடு/இந்தியாவுக்கு நேரடித்
+[திருத்தம்] காஞ்சிபுரத்தில் தாசி பண வசூல் வாகனம் கொள → காஞ்சிபுரத்தில் தாஸ்மாக் பண வசூல் வாகனம்
+[image] களஞ்சியம் (3 சொல்): காஞ்சிபுரத்தில் தாஸ்மாக் பண வசூல் 
+[publish] காஞ்சிபுரத்தில் தாஸ்மாக் பண வசூல் வாகனம் கொள்ளை, ₹1.50 கோடி பறிமுதல்
+[திருத்தம்] பொது நூலக புத்தக கொள்முதல் மோசடி வழக்கில → பொது நூலக புத்தக கொள்முதல் மோசடி வழக்கில
+[தரம்] தமிழ் அல்லாத எழுத்து: कणफषि्ര → ஒரு திருத்தம்
+[publish] பொது நூலக புத்தக கொள்முதல் மோசடி வழக்கில் எஃப்.ஐ.ஆர். பதிவுக்கு சென்னை உயர்நீதிமன்றம் உத்தரவு
+[திருத்தம்] தமிழக வட மாவட்டங்களை நோக்கி நகரும் புதிய → தமிழக வட மாவட்டங்களை நோக்கி நகரும் புதிய
+[publish] தமிழக வட மாவட்டங்களை நோக்கி நகரும் புதிய சூறாவளி சின்னம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கின் விவரங்கள், தரப்பு
+[image] களஞ்சியம் (3 சொல்): சென்னையில் ஆட்டோ ஓட்டுநரை குத்திக்
+[publish] சென்னையில் ஆட்டோ ஓட்டுநரை குத்திக் கொலை: நான்கு பேர் கைது
+[skip] வங்கதேசம் மற்றும் சீனாவிடையே ஏற்பட்ட தகராறு — தமிழ்நாடு வாசக
+[skip] உலக செய்திகளில் உக்రைன்-ரஷ்யா போர் தமிழ்நாடு/இந்திய வாசகர்கள
+[skip] புட்டின் மற்றும் உக்ரைன் சமரசம் பற்றிய ரஷ்ய அரசியல் நிகழ்பாட
+[skip] வெளிநாட்டுத் தராசில் சாய்ந்த செய்தி. ஈரান்-அமெரிக்கா இடையே ஹ
+[skip] யேமனில் நடக்கும் உள்நாட்டு மோதல் — தமிழ்நாடு அல்லது இந்தியாவ
+[skip] வெளிநாட்டுப் போர்ச் செய்தி — தமிழ்நாடு/இந்தியாவுடன் நேரடித் 
+[skip] ஈரான் அக்கறையின் உள்ளூர் இராணுவ நடவடிக்கை. தமிழ்நாடு / இந்தி
+[skip] Haiti-El Salvador gang conflict: not relevant to Tamil Nadu 
+[திருத்தம்] தமிழ்நாடு பட்டியல் சாதியினர், பழங்குடியி → தமிழ்நாடு பட்டியல் சாதியினர், பழங்குடியி
+[தரம்] தமிழ் அல்லாத எழுத்து: ় → ஒரு திருத்தம்
+[publish] தமிழ்நாடு பட்டியல் சாதியினர், பழங்குடியினர் ஆணையத் தலைவராக ஓய்வுபெற்ற நீதிபதி எம்.வி.முரளிதரன் நியமனம்.
+[image] களஞ்சியம் (2 சொல்): பசுமை பட்டாசு உற்பத்தி குறித்து சி
+[publish] பசுமை பட்டாசு உற்பத்தி குறித்து சிவகாசியில் கூட்டம் நடத்த அரசு முடிவு
+[தரம்] தமிழ் அல்லாத எழுத்து: এ → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் இரண்டு துறைகளில் வேல
+[publish] தமிழ்நாட்டில் இரண்டு துறைகளில் வேலைவாய்ப்பு அறிவிப்புகள் வெளியீடு
+[skip] டெல்லி தொல்லியல் துறை மற்றும் ஐஐடி பிஎச்யு (வாரணாசி) ஆகிய வே
+[image] களஞ்சியம் (3 சொல்): சமயபுரத்தில் இரு சிறார்கள் கொலை வழ
+[publish] சமயபுரத்தில் இரு சிறார்கள் கொலை வழக்கு: ஆறு பேர் கைது
+[filler] world கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12567 · சென்செக்ஸ் 81764
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 9
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
