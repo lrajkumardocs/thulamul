@@ -1,5 +1,293 @@
 [
  {
+  "id": "art_tech_20261111",
+  "headline": "UPI பரிவர்த்தனைகளிலும் ஆதார் தகவல்களிலும் பாதுகாப்பு கடைப்பிடிக்க வேண்டிய வழிமுறைகள்",
+  "lines": [
+   "UPI பின் எண்ணை யாருடனும் பகிரக் கூடாது, அது வங்கி அதிகாரிகள் கேட்கும் தகவல் அல்ல.",
+   "அறியாத நபர்கள் அனுப்பும் QR குறியீட்டை ஸ்கேன் செய்வதன் மூலம் பணம் வரவு கிடைக்காது, மாறாக பணம் பிடுங்கப்படும் வாய்ப்பே அதிகம்.",
+   "ஆதார் எண்ணை பயன்படுத்தும்போது mAadhaar செயலியில் உள்ள மாஸ்க்டு ஆதார் (Masked Aadhaar) விருப்பத்தைப் பயன்படுத்துவது அடையாளத் திருட்டைத் தடுக்க உதவும்.",
+   "மொபைல் போனில் தேவையற்ற செயலிகளுக்கு கேமரா, மைக், கான்டாக்ட் அனுமதிகளை வழங்காமல் இருப்பது தனிப்பட்ட தரவு கசிவதைக் குறைக்கும்.",
+   "சந்தேகத்திற்குரிய இணைப்புகளை (Link) கிளிக் செய்யும் முன், அனுப்பியவரின் எண்ணை உறுதி செய்து, இரண்டு-படி சரிபார்ப்பை (2FA) அனைத்து முக்கிய கணக்குகளிலும் இயக்கி வைப்பது நல்லது."
+  ],
+  "closing": "சிறு எச்சரிக்கையே பெரிய இழப்பைத் தடுக்கும் முதல் படி.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-11"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "மோசடி"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-11T22:25+05:30",
+  "created_ts": 1794416157.5263438,
+  "audio": "data/audio/art_tech_20261111.mp3"
+ },
+ {
+  "headline": "ஓ சாதி ரெ நெட்ஃபிளிக்ஸ் தொடர்: வெளியீட்டு தேதி அறிவிப்பு",
+  "lines": [
+   "அதிதி ராவ் ஹைதரி, அர்ஜுன் ராம்பால், அவினாஷ் திவாரி நடிக்கும் 'ஓ சாதி ரெ' நெட்ஃபிளிக்ஸ் தொடரின் வெளியீட்டு தேதி அறிவிக்கப்பட்டுள்ளது.",
+   "இம்திஆஜ் அலி இதைக் கூ-எழுதி, உருவாக்கியுள்ளார்.",
+   "அரிஃப் அலி இந்தத் தொடரை இயக்கியுள்ளார் என நெட்ஃபிளிக்ஸ் தரப்பு தெரிவித்துள்ளது.",
+   "இம்திஆஜ் அலி திரையுலகில் பல படங்களுக்கு இசையமைப்பு மற்றும் இயக்குநர் பணிகளுக்கு அறியப்பட்டவர்.",
+   "தொடரின் வெளியீட்டு தேதி பற்றிய விவரங்கள் விரைவில் கிடைக்கும் என்று தெரிவிக்கப்பட்டுள்ளது."
+  ],
+  "closing": "நடிகர்கள் அதிதி ராவ் ஹைதரி, அர்ஜுன் ராம்பால், அவினாஷ் திவாரியின் அடுத்த வெளியீடு எவ்வகை சிறப்பை ஏற்படுத்தும் என்பது பார்க்கத்தக்கது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "அதிதி ராவ் ஹைதரி",
+   "அர்ஜுன் ராம்பால்",
+   "அவினாஷ் திவாரி",
+   "இம்திஆஜ் அலி",
+   "அரிஃப் அலி",
+   "நெட்ஃபிளிக்ஸ்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "'O Saathi Re' Netflix series announces release date",
+   "lines": [
+    "The Netflix series 'O Saathi Re' starring Aditi Rao Hydari, Arjun Rampal and Avinash Tiwary has announced its release date.",
+    "Imtiaz Ali has co-written and created the series.",
+    "Arif Ali directs the series, according to Netflix.",
+    "Imtiaz Ali is known in the film industry for his music composition and directorial work on several remake films.",
+    "Details about the series' exact release date will be shared soon, the platform indicated."
+   ],
+   "closing": "The impact of this series featuring actors Aditi Rao Hydari, Arjun Rampal and Avinash Tiwary remains to be seen."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "",
+  "wiki_subject": "Imtiaz Ali (composer)",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "f59c4c9e7db1",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-11-11T22:25+05:30",
+  "links": [
+   "https://www.thehindu.com/entertainment/movies/o-saathi-re-aditi-rao-hydari-arjun-rampal-and-avinash-tiwarys-show-gets-release-date/article71689232.ece"
+  ],
+  "image": {
+   "url": "data/bank/cinema06.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/f59c4c9e7db1.mp3",
+  "created_ts": 1794416138.3650744,
+  "status": "published"
+ },
+ {
+  "headline": "பெதுப்பள்ளி ஏரிக் காப்பாற்றல் பணிக்கு 63 தீயணைப்புக் காவலர்கள் பாராட்டப்பட்டனர்",
+  "lines": [
+   "தமிழ்நாடு அரசு பெதுப்பள்ளி ஏரிக் காப்பாற்றல் நடவடிக்கையில் ஈடுபட்ட 63 தீயணைப்புக் காவலர்களைப் பாராட்டியுள்ளது.",
+   "ஆபத்தான சூழ்நிலையில் கடமையுணர்வுடன் செயல்பட்ட தீயணைப்பு வீரர்களுக்கு அரசு சாதனப் பத்திரம் வழங்கியுள்ளது.",
+   "பெதுப்பள்ளி ஏரிக் கரையில் நிகழ்ந்த விபத்தில் தடுமாறிய மக்களை தீயணைப்புக் கலைஞர்கள் வேகமாக மீட்டெடுத்ததாகச் சாட்சியங்கள் தெரிவிக்கின்றன.",
+   "இந்தக் காப்பாற்றல் நடவடிக்கை அவர்களின் தைரியம் மற்றும் தொழில் நைபுணத்தின் தெளிவான உதாரணம் எனக் கூறப்பட்டுள்ளது.",
+   "மக்களுக்குப் பாதுகாப்பு வழங்குவதே தீயணைப்புத் துறையின் முதன்மை பொறுப்பு என அரசு நினைவுறுத்தியுள்ளது."
+  ],
+  "closing": "ஆபத்து மீட்பு நடவடிக்கையில் செயல்பட்ட தீயணைப்புக் கலைஞர்கள் சமூகத்திற்குப் பெரும் ஆபத்தில் தங்களை இட்டுக்கொடுப்பவர்கள் என அரசு தெரிவித்துள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": "Govt Policy",
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "பெதுப்பள்ளி ஏரி",
+   "தீயணைப்புத் துறை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "63 firefighters felicitated for Bethupalli Lake rescue operation",
+   "lines": [
+    "Tamil Nadu government honored 63 firefighters who participated in the Bethupalli Lake rescue operation.",
+    "The state presented commendation certificates to the fire personnel for their courageous actions during hazardous circumstances.",
+    "Eyewitnesses reported that the firefighters rapidly rescued distressed people at the Bethupalli Lake shore.",
+    "The rescue operation exemplified the bravery and professional expertise of the fire services, according to officials.",
+    "The government reiterated that providing public safety is the primary responsibility of the fire department."
+   ],
+   "closing": "The government stated that firefighters engaged in rescue operations are those who risk their lives for the community during critical emergencies."
+  },
+  "front_cat": "routine",
+  "image_query": "fire rescue operation water safety",
+  "wiki_subject": "Bethupalli Lake",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "240af967debe",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-11-11T22:25+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/telangana/63-fire-personnel-felicitated-for-bethupalli-lake-rescue-operation/article71689492.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Oregon_Army_National_Guard_aviators_from_B_Company%2C_1st_Battalion%2C_168th_Aviation_Regiment_partnered_with_Clackamas_Fire%27s_Water_Rescue_Team_at_Aurora_State_Airport_on_July_24%2C_2025_-_12.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா Commons · Oregon National Guard",
+   "license": "CC BY 4.0",
+   "symbolic": true
+  },
+  "audio": "data/audio/240af967debe.mp3",
+  "created_ts": 1794416107.2860796,
+  "status": "published"
+ },
+ {
+  "headline": "வேகமான பயணத் தேர்வுக்கு கூடுதல் கட்டணம் வசூலித்த ஓலாவுக்கு ₹10 லட்சம் அபராதம்",
+  "lines": [
+   "ஓலா நிறுவனம் வேகமான பயணம் எனும் சிறப்பு தேர்வுக்கு பயணிகளிடம் கூடுதல் தொகை வசூலித்து வந்தது.",
+   "இந்த வசதி உண்மையில் வேகமான வாகனத்தை பயணிகளுக்கு வழங்கவில்லை என மத்திய நுகர்வோர் பாதுகாப்பு ஆணையம் கண்டறிந்தது.",
+   "இதையடுத்து ஓலா நிறுவனத்திற்கு ₹10 லட்சம் அபராதம் விதிக்கப்பட்டது.",
+   "இந்த நடைமுறையை உடனடியாக நிறுத்துமாறு மத்திய நுகர்வோர் பாதுகாப்பு ஆணையம் உத்தரவிட்டுள்ளது.",
+   "இது தொடர்பாக ஓலா நிறுவனத்தின் பதில் இதுவரை வெளியாகவில்லை."
+  ],
+  "closing": "கோடிக்கணக்கான பயனர்களைக் கொண்ட ஓலா போன்ற கேப் சேவை நிறுவனங்களின் சிறப்பு வசதிகள் மீது மேலும் விசாரணை நடைபெறுமா என்பதை கவனிக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Bar and Bench",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "court",
+  "entities": [
+   "ஓலா",
+   "மத்திய நுகர்வோர் பாதுகாப்பு ஆணையம்",
+   "வேகமான பயணம் வசதி"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "CCPA fines Ola ten lakh rupees over fake faster ride feature",
+   "lines": [
+    "Ola had been charging passengers extra money for a special option called faster rides.",
+    "The Central Consumer Protection Authority found that this feature did not actually provide faster vehicles to passengers.",
+    "Following this, Ola was slapped with a penalty of ten lakh rupees.",
+    "The Central Consumer Protection Authority has ordered the company to immediately scrap this practice.",
+    "Ola's response on the matter has not been released so far."
+   ],
+   "closing": "It remains to be seen whether further scrutiny will follow on similar special features offered by cab aggregators with millions of users."
+  },
+  "front_cat": "routine",
+  "image_query": "Ola cab app ride",
+  "wiki_subject": "Ola Cabs",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "6f176dfe7ece",
+  "topic_ta": "நீதிமன்றம்",
+  "published_at": "2026-11-11T22:24+05:30",
+  "links": [
+   "https://www.barandbench.com/news/litigation/olas-extra-pay-for-faster-rides-feature-doesnt-work-ccpa-asks-it-to-scrap-practice-slaps-10-lakh-penalty"
+  ],
+  "image": {
+   "url": "data/bank/court02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/6f176dfe7ece.mp3",
+  "created_ts": 1794416070.5434992,
+  "status": "published"
+ },
+ {
+  "headline": "திருப்பதி ட்ரெக் குழுவினர் ஆகாய விளக்குகளுடன் தீபாவளி கொண்டாடினர்",
+  "lines": [
+   "திருப்பதி அட்வெஞ்சர் அடிக்ட்ஸ் பெயரைய் கொண்ட ட்ரெக் குழுவினர் ஆகாய விளக்குகளை வெளியிட்டனர்.",
+   "வெடிக்குச் சாம்பிராணிகளுக்குப் பதிலாக ஆகாய விளக்குகளைப் பயன்படுத்தி சுற்றுச்சூழலைப் பாதுகாத்தனர்.",
+   "அருகிலுள்ள மலைக்குறுவையின் உச்சிலிருந்தும் நகரத்தின் கீழ்ப் பகுதியிலிருந்தும் விளக்குகளின் காட்சி அழகாக இருந்தது.",
+   "விளக்குகள் வானில் பறந்து சென்றதைக் கூட்டத்தினர் கவனித்து களிப்புற்றனர்.",
+   "இந்தக் குழுவின் முயற்சி சுற்றுச்சூழல் விழிப்புணர்வுடன் பண்டிகையைக் கொண்டாடிய உதாரணமாக இருந்தது."
+  ],
+  "closing": "சுற்றுச்சூழல் நெறிகளை மதித்து பண்டிகைகளைக் கொண்டாடும் வழக்கம் மற்ற பகுதிகளிலும் ஏற்றுக்கொள்ளப்பட வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "திருப்பதி",
+   "திருப்பதி அட்வெஞ்சர் அடிக்ட்ஸ்",
+   "ஆகாய விளக்குகள்",
+   "தீபாவளி"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Tirupati trekking group celebrates Deepavali with sky lanterns instead of firecrackers",
+   "lines": [
+    "Tirupati Adventure Addicts group released sky lanterns into the air to celebrate Deepavali.",
+    "They replaced traditional firecrackers with sky lanterns to protect the environment.",
+    "The lanterns were visible from the clifftop and the city below, creating a beautiful sight.",
+    "The gathering watched the lanterns float skyward with wonder.",
+    "This group's effort set an example of celebrating festivals in harmony with environmental principles."
+   ],
+   "closing": "Other areas should adopt the practice of celebrating festivals while respecting environmental standards."
+  },
+  "front_cat": "routine",
+  "image_query": "sky lanterns Tirupati night festival",
+  "wiki_subject": "Tirupati",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "f7b9876eb1d3",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-11T22:23+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/andhra-pradesh/tirupati-trekking-group-replaces-firecrackers-with-sky-lanterns-to-celebrate-deepavali/article71688986.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/3840px-Tirumala_090615.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Tirupati",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Tirupati",
+   "symbolic": false
+  },
+  "audio": "data/audio/f7b9876eb1d3.mp3",
+  "created_ts": 1794415992.3309639,
+  "status": "published"
+ },
+ {
   "id": "art_world_20261111",
   "headline": "ஐக்கிய நாடுகள் சபையும் இந்தியாவின் வெளியுறவு பாரம்பரியமும்",
   "lines": [
