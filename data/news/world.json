@@ -1,5 +1,329 @@
 [
  {
+  "headline": "நியூயார்க்கில் கட்டிடம் இடிந்து விழுந்து நான்கு பேர் பலி",
+  "lines": [
+   "அமெரிக்காவின் நியூயார்க் நகர் புரூக்ளின் பகுதியில் மூன்று மாடிக் கட்டிடம் ஒன்று திடீரென இடிந்து விழுந்தது.",
+   "இந்த விபத்தில் குறைந்தது நான்கு பேர் உயிரிழந்துள்ளனர் என அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "இடிபாடுகளுக்கு அடியில் சிக்கியிருக்கக்கூடியவர்களை மீட்பதற்காகத் தீயணைப்பு மற்றும் மீட்புக் குழுவினர் தேடுதல் பணியில் ஈடுபட்டுள்ளனர்.",
+   "இந்தச் சம்பவம் புதன்கிழமை பிற்பகல் நடந்ததாகத் தகவல்கள் தெரிவிக்கின்றன.",
+   "மீட்புப் பணி ஆபத்தான சூழலில் தொடர்ந்து நடைபெற்று வருவதாகவும், மேலும் பலி எண்ணிக்கை அதிகரிக்கலாம் எனவும் அஞ்சப்படுகிறது."
+  ],
+  "closing": "கட்டிடம் ஏன் இடிந்தது என்பது குறித்த விசாரணை நடைபெற்று வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "நியூயார்க்",
+   "புரூக்ளின்",
+   "அமெரிக்கா"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Four dead after building collapse in Brooklyn, New York",
+   "lines": [
+    "A three-storey building collapsed suddenly in Brooklyn, New York, in the United States.",
+    "At least four people have died in the collapse, officials said.",
+    "Firefighters and rescue teams are searching through the rubble for anyone who may be trapped.",
+    "The incident occurred on Wednesday afternoon, according to reports.",
+    "Rescue operations continue in dangerous conditions, with fears the death toll could rise further."
+   ],
+   "closing": "An investigation into why the building collapsed has not yet begun."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "33604caf57a6",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-12T17:38+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/accident08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/33604caf57a6.mp3",
+  "created_ts": 1794485289.5013263,
+  "status": "published"
+ },
+ {
+  "headline": "தைவான் மீளிணைப்பு நிச்சயம் நடக்க வேண்டும் என சீன அதிபர் சி ஜினபிங் கூறினார்.",
+  "lines": [
+   "சீன அதிபர் சி ஜினபிங், தைவான் நாட்டுடன் சமாதான வழியில் மீளிணைவு நடக்க வேண்டும் என்று அறிவித்தார்.",
+   "தைவானை சீனாவின் பிரிக்க முடியாத ஒரு பகுதியாகவே பெய்ஜிங் அரசு தொடர்ந்து கருதி வருகிறது.",
+   "மீளிணைப்பு நிச்சயமாக நடக்க வேண்டும் என்று அதிபர் சி ஜினபிங் தனது கருத்தை வலியுறுத்தினார்.",
+   "தைவான் தற்போது தனித்த ஆட்சி அமைப்புடன் இயங்கி வருகிறது என்பது குறிப்பிடத்தக்கது.",
+   "சீனா மற்றும் தைவான் இடையிலான இந்த நிலைப்பாடு குறித்து உலக நாடுகள் தொடர்ந்து கவனித்து வருகின்றன."
+  ],
+  "closing": "சீனாவும் தைவானும் பல தசாப்தங்களாக இறையாண்மை தொடர்பான கருத்து வேறுபாட்டில் இருந்து வருகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "சீனா",
+   "தைவான்",
+   "ஜி ஜின்பிங்",
+   "பெய்ஜிங்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Xi Jinping says Taiwan reunification with China must happen",
+   "lines": [
+    "Chinese President Xi Jinping has called for peaceful reunification of Taiwan with China.",
+    "Beijing continues to regard Taiwan as an inseparable part of China.",
+    "President Xi stressed that reunification must inevitably take place.",
+    "Taiwan currently functions under its own separate self governance.",
+    "The stance between China and Taiwan continues to draw attention from nations worldwide."
+   ]
+  },
+  "front_cat": "routine",
+  "image_query": "Xi Jinping",
+  "wiki_subject": "Xi Jinping",
+  "person_en": "Xi Jinping",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "f2f673a28b79",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-12T17:33+05:30",
+  "links": [
+   "https://www.aljazeera.com/video/newsfeed/2026/11/12/xi-jinping-says-taiwan-reunification-with-china-must-happen?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Xi Jinping",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Xi_Jinping",
+   "symbolic": false
+  },
+  "audio": "data/audio/f2f673a28b79.mp3",
+  "created_ts": 1794485031.500591,
+  "status": "published"
+ },
+ {
+  "headline": "காசா நாசர் மருத்துவமனையில் தாக்குதல், ஆறு பேர் பலி",
+  "lines": [
+   "தென் காசாவில் உள்ள நாசர் மருத்துவமனையில் நடந்த இஸ்ரேலிய தாக்குதலில் ஆறு பாலஸ்தீனியர்கள் உயிரிழந்தனர் என காசா சுகாதார அமைச்சகம் தெரிவித்துள்ளது.",
+   "அறுவை சிகிச்சைப் பிரிவு மற்றும் தீவிர சிகிச்சைப் பிரிவு அமைந்துள்ள கட்டடத்தின் மீது ஏவுகணை தாக்கியதாக கண்ட நபர்கள் தெரிவிக்கின்றனர்.",
+   "நாசர் மருத்துவமனை தென் காசாவின் மிகப்பெரிய மருத்துவமனை ஆகும் என தெரிவிக்கப்படுகிறது.",
+   "இஸ்ரேலிய ராணுவத்தின் தரப்பில் இந்தத் தாக்குதல் குறித்து இதுவரை எந்த அதிகாரப்பூர்வ விளக்கமும் வெளியிடப்படவில்லை.",
+   "சம்பவம் தொடர்பான மேலும் தகவல்கள் மற்றும் விசாரணை விவரங்கள் வெளியாக உள்ளன."
+  ],
+  "closing": "நாசர் மருத்துவமனை காசா பகுதியின் முக்கிய சிகிச்சை மையமாக செயல்பட்டு வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "காசா",
+   "நாசர் மருத்துவமனை",
+   "இஸ்ரேல்",
+   "பாலஸ்தீனம்",
+   "சுகாதார அமைச்சகம்"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Israeli strike on Gaza's Nasser hospital kills six people",
+   "lines": [
+    "An Israeli strike on Nasser hospital in southern Gaza killed six Palestinians, according to the Gaza health ministry.",
+    "Witnesses say a missile hit a building containing the surgical wards and intensive care units.",
+    "Nasser hospital is described as the largest hospital in southern Gaza.",
+    "There has been no official statement so far from the Israeli military on the strike.",
+    "Further details and investigation findings on the incident are awaited."
+   ],
+   "closing": "Nasser hospital has served as a key medical facility for the Gaza region."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "wiki_subject": "Nasser Hospital",
+  "person_en": "",
+  "urgent": true,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "b8bb9c4cdad0",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-12T17:32+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/b8bb9c4cdad0.mp3",
+  "created_ts": 1794484935.3956888,
+  "status": "published"
+ },
+ {
+  "headline": "பாகிஸ்தானில் தங்கச் சுரங்கத் தாக்குதலில் 28 பேர் பலி",
+  "lines": [
+   "பாகிஸ்தானின் கைபர் பக்துன்க்வா மாகாணத்தில் உள்ள கோஹாட் மாவட்டத்தில் புதன்கிழமை ஆயுதக் குழுவினருக்கும் காவல் துறையினருக்கும் இடையே மோதல் நடந்தது.",
+   "சட்டவிரோத தங்கச் சுரங்க நடவடிக்கைக்கு எதிரான பணியை முடித்துத் திரும்பிய காவலர்கள் மீது தாக்குதல் நடத்தப்பட்டது.",
+   "இந்தத் தாக்குதலில் பத்து காவலர்கள் உட்பட மொத்தம் இருபத்தி எட்டு பேர் உயிரிழந்ததாக காவல் துறை தெரிவித்துள்ளது.",
+   "சட்டவிரோதமாக இயங்கி வந்த தங்கச் சுரங்கம் தொடர்பான நடவடிக்கையின்போது இந்த மோதல் வெடித்ததாகப் போலீஸார் கூறியுள்ளனர்.",
+   "சம்பவம் தொடர்பாக மேலும் விசாரணை நடைபெற்று வருவதாக அதிகாரிகள் தெரிவித்துள்ளனர்."
+  ],
+  "closing": "கைபர் பக்துன்க்வா மாகாணத்தில் சட்டவிரோத சுரங்க நடவடிக்கைகளுக்கு எதிரான நடவடிக்கைகள் அடிக்கடி ஆயுதக் குழுக்களின் எதிர்ப்பைச் சந்தித்து வருகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "பாகிஸ்தான்",
+   "கைபர் பக்துன்க்வா",
+   "கோஹாட் மாவட்டம்",
+   "காவல்துறை"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Twenty eight killed in Pakistan illegal gold mine clash",
+   "lines": [
+    "In Kohat district of Pakistan's Khyber Pakhtunkhwa province, a clash broke out on Wednesday between armed men and police.",
+    "The attack targeted policemen who were returning after completing an operation against illegal gold mining.",
+    "Police said a total of 28 people, including 10 policemen, were killed in the attack.",
+    "Officials said the clash erupted during action against an illegally operating gold mine.",
+    "Authorities said further investigation into the incident is underway."
+   ],
+   "closing": "Operations against illegal mining in Khyber Pakhtunkhwa have frequently faced resistance from armed groups."
+  },
+  "front_cat": "attack_terror",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7343065d5918",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-12T17:31+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cmq8l2197qdko?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/7343065d5918.mp3",
+  "created_ts": 1794484898.4033318,
+  "status": "published"
+ },
+ {
+  "headline": "உக்ரைன் பேச்சுவார்த்தைக்காக அமெரிக்கத் தூதர்கள் மாஸ்கோ வருகை",
+  "lines": [
+   "அமெரிக்காவின் சிறப்புத் தூதர்களான ஜாரெட் குஷ்னர் மற்றும் ஸ்டீவ் விட்ஹாஃப் ஆகியோர் ரஷ்ய அதிபர் விளாடிமிர் புதின் உடன் பேச்சுவார்த்தை நடத்த மாஸ்கோ வந்துள்ளனர்.",
+   "இந்தச் சந்திப்பு ஐக்கிய அரபு அமீரகத்தில் நடந்த இரு நாள் முத்தரப்புப் பேச்சுவார்த்தைகளுக்குப் பின் நடைபெறுகிறது.",
+   "அந்தப் பேச்சுவார்த்தைகளில் எந்த உடன்பாடும் எட்டப்படவில்லை.",
+   "அதே நாளின் பிற்பகுதியில் குஷ்னர் மற்றும் விட்ஹாஃப் ஆகியோர் டப்ளின் நகருக்குச் சென்று உக்ரைன் அதிபர் வொலோடிமிர் ஜெலென்ஸ்கியைச் சந்திக்க உள்ளனர்.",
+   "இரு நாடுகளுக்கும் இடையிலான பேச்சுவார்த்தைகளில் எந்த அளவு முன்னேற்றம் ஏற்படும் என்பது கவனிக்கப்பட வேண்டியது."
+  ],
+  "closing": "ரஷ்ய-உக்ரைன் போர் தொடர்பான அமைதிப் பேச்சுவார்த்தைகளில் அமெரிக்கா தீவிரமாகச் செயல்பட்டு வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ஜரட் குஷ்னர்",
+   "ஸ்டீவ் விட்காஃப்",
+   "விளாடிமிர் புதின்",
+   "வோலோடிமிர் ஜெலென்ஸ்கி",
+   "மாஸ்கோ",
+   "டப்ளின்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "US envoys arrive in Moscow for Ukraine talks with Putin",
+   "lines": [
+    "US special envoys Jared Kushner and Steve Witkoff have arrived in Moscow to hold talks with Russian President Vladimir Putin.",
+    "The meeting follows two days of trilateral talks held in the United Arab Emirates.",
+    "Those talks reportedly ended without any breakthrough or agreement.",
+    "Later the same day, Kushner and Witkoff are scheduled to travel to Dublin to meet Ukrainian President Volodymyr Zelensky.",
+    "How much progress these discussions achieve between the two nations remains to be seen."
+   ],
+   "closing": "The United States has been actively engaged in peace negotiations related to the Russia-Ukraine war."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "wiki_subject": "Russian invasion of Ukraine",
+  "person_en": "",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c6a88938b538",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-12T17:30+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2022_Russian_invasion_of_Ukraine.svg/3840px-2022_Russian_invasion_of_Ukraine.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Russo-Ukrainian war (2022–present)",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)",
+   "symbolic": false
+  },
+  "audio": "data/audio/c6a88938b538.mp3",
+  "created_ts": 1794484860.5302863,
+  "status": "published"
+ },
+ {
   "headline": "சௌதியில் மரண தண்டனைக்குரிய இலங்கை தமிழர் அனோஜன் விடுதலை",
   "lines": [
    "ஃபேஸ்புக்கில் முகமது நபி பற்றி அவதூறாக பேசிய குற்றச்சாட்டில் சௌதி அரேபியாவில் மரண தண்டனை பெற்றிருந்த இலங்கை தமிழர் சிவராசா அனோஜன் முழுவதுமாக விடுதலை செய்யப்பட்டுள்ளார்.",
@@ -2064,133 +2388,6 @@
   },
   "audio": "data/audio/2a1eb018a2c3.mp3",
   "created_ts": 1793729977.072096,
-  "status": "published"
- },
- {
-  "headline": "அமைதி ஏற்பட்டால் உக்ரைனுக்கு ஐரோப்பியப் படை அனுப்ப ஒத்திகை",
-  "lines": [
-   "அமைதி ஒப்பந்தம் கைச்சாத்தானால் உக்ரைனில் நிலைகொள்ள ஆயிரக்கணக்கான ஐரோப்பிய நாடுகளின் வீரர்கள் ஒத்திகை பயிற்சியில் ஈடுபடவுள்ளனர்.",
-   "இந்த ஒத்திகை அமைதிக்குப் பின் உக்ரைனுக்குப் படை அனுப்பும் திட்டத்தின் ஒரு பகுதியாக நடத்தப்படுகிறது.",
-   "இந்தப் படை எந்தவொரு தாக்குதல் நடவடிக்கையிலும் ஈடுபடமாட்டாது என மேற்கத்திய அதிகாரிகள் தெரிவித்துள்ளனர்.",
-   "அமைதி உடன்படிக்கையைப் பாதுகாக்கும் நோக்கில் மட்டுமே இந்தப் படையினர் நிறுத்தப்படுவார்கள் என்று கூறப்படுகிறது.",
-   "உக்ரைன் மற்றும் ரஷ்யா இடையிலான பேச்சுவார்த்தைகளின் முன்னேற்றத்தைப் பொறுத்தே இந்தத் திட்டத்தின் அடுத்தக் கட்டம் அமையும்."
-  ],
-  "closing": "உக்ரைன் போரில் அமைதி உடன்படிக்கை குறித்த பேச்சுவார்த்தைகள் நடைபெற்று வரும் நிலையில் இந்த ஒத்திகை நடவடிக்கை கவனம் பெறுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "உக்ரைன்",
-   "ஐரோப்பா",
-   "ரஷ்யா"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Thousands of European troops to rehearse Ukraine deployment plan",
-   "lines": [
-    "Thousands of troops from European nations are set to take part in a rehearsal for possible deployment to Ukraine if a peace deal is signed.",
-    "The exercise is part of a plan to send a reassurance force to Ukraine once a peace agreement is reached.",
-    "Western officials have stressed that this force would not take part in any offensive operations.",
-    "The troops are said to be deployed solely to safeguard the terms of any peace agreement.",
-    "The next stage of the plan will depend on the progress of ongoing peace talks between Ukraine and Russia."
-   ],
-   "closing": "The rehearsal comes as peace talks over the Ukraine war continue, drawing attention to how such a force might be deployed."
-  },
-  "front_cat": "war_conflict",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "உலகம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "9d0eb81c9039",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-11-03T15:48+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "data/bank/world02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/9d0eb81c9039.mp3",
-  "created_ts": 1793701090.8080432,
-  "status": "published"
- },
- {
-  "headline": "நேபாளத்தில் ஹெலிகாப்டர் மோதல் விபத்தில் தமிழக பயணி உயிரிழப்பு",
-  "lines": [
-   "நேபாளத்தின் எவரெஸ்ட் அடிவார முகாமுக்கு அருகேயுள்ள பெரிச்சே கிராமத்தில் இரண்டு ஹெலிகாப்டர்கள் மோதிக்கொண்டன.",
-   "இந்த விபத்தில் தமிழ்நாட்டைச் சேர்ந்த இந்தியப் பயணி ஒருவர் உயிரிழந்தார்; மூவர் காயமடைந்தனர்.",
-   "தரையிறங்கும் நேரத்தில் இந்த மோதல் ஏற்பட்டதாக உள்ளூர் அதிகாரிகள் தெரிவித்துள்ளனர்.",
-   "காயமடைந்தவர்களுக்கு உடனடியாக மருத்துவ உதவி அளிக்கப்பட்டதாக அறிவிக்கப்பட்டுள்ளது.",
-   "விபத்துக்கான காரணம் தொடர்பான முழுமையான விசாரணை அறிக்கை இன்னும் வெளியாகவில்லை."
-  ],
-  "closing": "எவரெஸ்ட் அடிவார முகாம் பகுதியில் சுற்றுலாப் பயணிகளுக்காக ஹெலிகாப்டர் சேவைகள் அடிக்கடி இயக்கப்படுகின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC Tamil",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "நேபாளம்",
-   "பெரிச்சே கிராமம்",
-   "எவரெஸ்ட் அடிவார முகாம்",
-   "தமிழ்நாடு",
-   "ஹெலிகாப்டர் விபத்து"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Tamil Nadu traveller dies in Nepal helicopter collision crash",
-   "lines": [
-    "Two helicopters collided in Pericha village near Everest Base Camp in Nepal.",
-    "An Indian traveller from Tamil Nadu died in the accident, while three others were injured.",
-    "Local officials said the collision occurred as the helicopters were attempting to land.",
-    "The injured were given immediate medical attention, authorities said.",
-    "A full inquiry report into the cause of the crash has not yet been released."
-   ],
-   "closing": "Helicopter services are frequently operated for tourists in the Everest Base Camp region."
-  },
-  "front_cat": "mass_casualty",
-  "image_query": "",
-  "wiki_subject": "Everest Base Camp",
-  "person_en": "",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "be1386e788fe",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-11-03T15:46+05:30",
-  "links": [
-   "https://www.bbc.com/tamil/articles/cxp8g727z58yo?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Khumbutse.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Everest base camps",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Everest_base_camps",
-   "symbolic": false
-  },
-  "audio": "data/audio/be1386e788fe.mp3",
-  "created_ts": 1793701006.5173028,
   "status": "published"
  }
 ]

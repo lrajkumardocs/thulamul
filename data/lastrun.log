@@ -1,22 +1,23 @@
+[expire] a688c3923261
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 19 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 16 புதியவை
+[fetch] The Hindu TN: 23 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] ESPNcricinfo: 25 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 5 புதியவை
-[fetch] Cinema Express: 19 புதியவை
-[fetch] The Hindu Tech: 30 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] Cinema Express: 17 புதியவை
+[fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 21 புதியவை
+[fetch] The Hindu Health: 22 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 19 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -28,15 +29,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 1 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 7 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -47,7 +48,7 @@
 [fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
-[fetch] Sportstar: 30 புதியவை
+[fetch] Sportstar: 29 புதியவை
 [fetch] Olympics India: பிழை HTTPSConnectionPool(host='olympics.com', port=443): Read timed out. (read timeout=20)
 [fetch] Hindu Tamil TN: 0 புதியவை
 [fetch] PIB Releases: 0 புதியவை
@@ -56,10 +57,10 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x730777d99010>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
-[fetch] Times Govt Schemes: 19 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7a5edf0f4a10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
@@ -67,57 +68,51 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 673 → நிகழ்வுகள் 615
-[triage] 615 → 54 | காலி: tn:4, india:4, economy:3, crime:3, jobs:3
-[skip] IIM Ranchi மற்றும் IIT Kharagpur ஆகியவை முறையே ஜார்க்கண்ட் ம
+[run] புதியவை 714 → நிகழ்வுகள் 637
+[triage] 637 → 66 | காலி: india:4, health:3, sports:3, world:2, economy:2
+[skip] வெளிநாட்டு மருத்துவ গবேষணைப் பொதுவாகக் கட்டுரை; தமிழ்நாட்டுக
+[skip] பன்னாட்டுக் கிரிக்கெட் ஆணையத்தின் (ICC) உள் நிர்வாह முடிவு. 
+[tts-edge] c6a88938b538: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] உக்ரைன் பேச்சுவார்த்தைக்காக அமெரிக்கத் தூதர்கள் மாஸ்கோ வருகை
+[tts-edge] 7343065d5918: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பாகிஸ்தானில் தங்கச் சுரங்கத் தாக்குதலில் 28 பேர் பலி
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: காசா நாசர் மருத்துவமனையில் தாக்குத
+[publish] காசா நாசர் மருத்துவமனையில் தாக்குதல், ஆறு பேர் பலி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgxzzECXKpxvLYjgPhGSn'}
+[திருத்தம்] தைவான் மீளிணைப்பு நிச்சயம் நடக்கும் என ச → தைவான் மீளிணைப்பு நிச்சயம் நடக்க வேண்டும
+[தரம்] தமிழ் அல்லாத எழுத்து: নপ → ஒரு திருத்தம்
+[publish] தைவான் மீளிணைப்பு நிச்சயம் நடக்க வேண்டும் என சீன அதிபர் சி ஜினபிங் கூறினார்.
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[தரம்] தமிழ் அல்லாத எழுத்து: এনভরািুా → ஒரு திருத்தம்
-[tts-edge] 033ae8fa0912: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நடிகை சிவத்மிகா ராஜசேகர் 'ஈஎன்ஈ ரிபீட்' பற்றிக் கூறினார்
-[skip] வெளிநாட்டு வூமன்ஸ் டிசி / ডোமেস்টিক லিগ் (நিউஜிலாந்து நகரக்ர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgxMiZSAE89uF4GqnStXa'}
-[skip] வெளிநாட்டு உள்நாட்டுப் போர்/மோதல் செய்தி. தமிழ்நாடு/இந்தியாவ
-[திருத்தம்] ஐஏஎஸ் அதிகாரி அன்சுல் மிஸ்ரா சிறை தண்டனை → ஐஏஎஸ் அதிகாரி அன்சுல் மிஸ்ரா சிறைத் தண்ட
-[tts-edge] d33f75a9e478: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஐஏஎஸ் அதிகாரி அன்சுல் மிஸ்ரா சிறைத் தண்டனை ரத்து செய்த சென்னை உயர்நீதிமன்றம்
-[திருத்தம்] ஸ்டெர்லைட் எதிர்ப்புப் போராட்ட பாதிக்கப் → ஸ்டெர்லைட் எதிர்ப்புப் போராட்ட பாதிக்கப்
-[தரம்] மூலத்தில் இல்லாத எண்: 2018 → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): ஸ்டெர்லைட் எதிர்ப்புப் போராட்ட பாத
-[publish] ஸ்டெர்லைட் எதிர்ப்புப் போராட்ட பாதிக்கப்பட்டோருக்கு ₹5.25 கோடி கூடுதல் நிவாரணம்
-[திருத்தம்] கொரிய நிறுவனங்கள் தமிழகத்தில் 1,370 கோடி → கொரிய நிறுவனங்கள் தமிழ்நாட்டில் ₹1,370 க
-[publish] கொரிய நிறுவனங்கள் தமிழ்நாட்டில் ₹1,370 கோடி முதலீடு
-[image] களஞ்சியம் (2 சொல்): ஆளுநர் அர்லேகர் நாளை அமித் ஷாவை சந
-[publish] ஆளுநர் அர்லேகர் நாளை அமித் ஷாவை சந்திக்கிறார், சட்டம் ஒழுங்கு பிரச்னை முக்கியக் கருப்பொருள்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgy1AjYebh2usjStKCFBS'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு பெயர் மட்டுமே உள்ளது; நிகழ்வு 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgy1HKGbzLwXu3gvM1Cyq'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgy1LTqNZPA5nWVPE1anN'}
+[image] களஞ்சியம் (4 சொல்): நியூயார்க்கில் கட்டிடம் இடிந்து வி
+[publish] நியூயார்க்கில் கட்டிடம் இடிந்து விழுந்து நான்கு பேர் பலி
+[திருத்தம்] கோவையில் பேருந்தில் மோதி கண்டெய்னர் லாரி → கோவையில் பேருந்தில் மோதி கண்டெய்னர் லாரி
+[image] களஞ்சியம் (2 சொல்): கோவையில் பேருந்தில் மோதி கண்டெய்னர
+[publish] கோவையில் பேருந்தில் மோதி கண்டெய்னர் லாரியில் புகுந்த காரில் கணவன், மனைவி பலி
+[திருத்தம்] மதுரையில் டாடா டானிஷ்க் நகைக் கடையில் பெ → மதுரையில் டாடா டணிஷ்க் நகைக் கடையில் பெர
+[publish] மதுரையில் டாடா டணிஷ்க் நகைக் கடையில் பெரும் தங்கத் திருட்டு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; யார் அதிகாரி, எந்த நீதிமன்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgy1YdTQVNtBaC9L7seey'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgy1bch6urtuxxMxkv8zP'}
+[skip] மூலத் தகவல் சரிபார்க்க முடியாதது — தற்போதைய தமிழ்நாடு முதல்வ
+[image] களஞ்சியம் (3 சொல்): மதுரையில் நகைக்கடை திருட்டு, பூட்ட
+[publish] மதுரையில் நகைக்கடை திருட்டு, பூட்டு உடைக்காமல் நடந்த சம்பவம்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; எப்போது நடந்தது, எப்படி நட
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgy1kAjPsdrWzscqgdDR7'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgxNCZEXiUrmA5wT3X2Hg'}
-[skip] நியூயார்க் கட்டிடச் சரிவு — அமெரிக்காவின் உள்நாட்டு விபத்து.
-[skip] நியூயார்க் நகரத்தின் உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசக
-[skip] தமிழ்நாடு/இந்திய வாசகரைப் பাதிக்காத வெளிநாட்டு உள்ளூர் விபத்
-[publish] வங்காள விரிகுடாவில் தாழ்வுமண்டலம்: மழைப் பற்றாக்குறை குறையும் என எதிர்பார்ப்பு
-[image] களஞ்சியம் (2 சொல்): பாமக நிர்வாகி கொலை வழக்கில் வேலூரி
-[publish] பாமக நிர்வாகி கொலை வழக்கில் வேலூரில் பழங்குடியினர் கைது
-[தரம்] தமிழ் அல்லாத எழுத்து: రര → ஒரு திருத்தம்
-[publish] சென்னை விமான நிலையத்தில் ஐந்தாம் முனையம் அமைக்க சிஐஐ பரிந்துரை
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மற்றும் படக்குறிப்பு மட்டுமே உள்ளது; விரிவ
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] துணி தர மேம்பாட்டுக்கு ரூ.14 கோடியில் இய → துணிநூல் தரமேம்பாட்டுக்கு ரூ.14 கோடியில்
-[image] களஞ்சியம் (2 சொல்): துணிநூல் தரமேம்பாட்டுக்கு ரூ.14 கோ
-[publish] துணிநூல் தரமேம்பாட்டுக்கு ரூ.14 கோடியில் இயந்திரங்கள்: தமிழக அரசு திட்டம்
-[publish] தெற்கு ரயில்வே நிலையங்களில் பத்து மாதத்தில் 413 குழந்தைகள் மீட்பு
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 6
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹12334 · சென்செக்ஸ் 82033
+[திருத்தம்] நம்பிக்கையில்லா தீர்மானம் குறித்து நிலைப → நம்பிக்கையில்லா தீர்மானம் குறித்து நிலைப
+[publish] நம்பிக்கையில்லா தீர்மானம் குறித்து நிலைப்பாடு சொல்ல மறுத்த எடப்பாடி கே.பழனிசாமி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Cgy1vA31GvUTmCYAL7XDi'}
+[filler] health கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12268 · சென்செக்ஸ் 81911
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 9
