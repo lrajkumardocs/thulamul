@@ -1,5 +1,67 @@
 [
  {
+  "headline": "எட்டு வயது சிறுவன் அரிய விழுங்கும் நோயிற்குக் குறைந்த ஆக்கிரமணச் சிகிச்சை",
+  "lines": [
+   "சென்னையின் ரேலா மருத்துவமனையில் எட்டு வயது சிறுவன் விழுங்கும் பிரச்சனைக்குக் குறைந்த ஆக்கிரமணச் சிகிச்சை பெற்றுள்ளான்.",
+   "சிறுவனுக்கு இரண்டாம் வகை அகலாசியா நோய் கண்டறியப்பட்டுள்ளது.",
+   "இக்குறிப்புக் கருவி வழிச் சிகிச்சை உணவுக் குழாயில் அடைப்பைத் திறக்க உதவியுள்ளது.",
+   "விழுங்கும் சிரமம் உணவை செரிமான பாதைக்கோ சுருங்கிய தசைக்கோ செல்ல முடியாமல் தடுக்குமாதலால் ஏற்படுகிறது.",
+   "இந்த சிகிச்சை முறை சிறுவனுக்கு விரைவான குணம் அளித்துள்ளது."
+  ],
+  "closing": "குறைந்த ஆக்கிரமணச் சிகிச்சை மூலம் நோயாளிகள் விரைவாக குணம் பெறலாம் என மருத்துவர்கள் குறிப்பிடுகின்றனர்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "ரேலா மருத்துவமனை",
+   "சென்னை",
+   "அகலாசியா நோய்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Eight-year-old boy undergoes endoscopic treatment for rare swallowing disorder",
+   "lines": [
+    "An eight-year-old boy received endoscopic treatment for a swallowing problem at Rela Hospital in Chennai.",
+    "The boy was diagnosed with Type II achalasia.",
+    "The minimally invasive procedure helped open the blockage in the food pipe.",
+    "The swallowing difficulty had restricted food from moving down the digestive tract.",
+    "The treatment has provided quick recovery for the child."
+   ],
+   "closing": "Doctors note that minimally invasive procedures allow patients to recover faster."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "endoscopy procedure medical",
+  "wiki_subject": "Achalasia",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "ef7450a314b5",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-13T01:24+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/eight-year-old-undergoes-endoscopic-treatment-for-rare-swallowing-disorder/article71693330.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Achalasia2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Esophageal achalasia",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Esophageal_achalasia",
+   "symbolic": false
+  },
+  "audio": "data/audio/ef7450a314b5.mp3",
+  "created_ts": 1794513299.1124825,
+  "status": "published"
+ },
+ {
   "id": "art_health_20261112",
   "headline": "குளிர்கால மாற்றம்: பருவகால நோய்களிலிருந்து பாதுகாப்பு பெறுவது எப்படி",
   "lines": [
@@ -787,42 +849,5 @@
   "published_at": "2026-11-04T17:24+05:30",
   "created_ts": 1793793290.9430857,
   "audio": "data/audio/art_health_20261104.mp3"
- },
- {
-  "id": "art_health_20261103",
-  "headline": "பருவமாற்றத்தில் உடல்நலம் காக்க எளிய வழிகள்",
-  "lines": [
-   "நவம்பர் மாதத்தில் பகலில் வெப்பமும் இரவில் குளிரும் மாறி மாறி வருவதால் சளி, இருமல், காய்ச்சல் போன்றவை எளிதில் பரவுகின்றன.",
-   "மழைக்குப் பின் தேங்கிய நீரில் கொசு வளர்ச்சி அதிகரிப்பதால் டெங்கு, சிக்குன்குனியா ஆகியவற்றிற்கு எதிராக வீடு மற்றும் சுற்றுப்புறத்தை சுத்தமாக வைத்திருப்பது அவசியம்.",
-   "நோய் எதிர்ப்பு சக்தியை அதிகரிக்க மஞ்சள், இஞ்சி, துளசி சேர்த்த உணவுகளை சித்த மருத்துவ முறையில் பாரம்பரியமாகப் பயன்படுத்துகின்றனர்.",
-   "பருவகால நோய்களில் இருந்து பாதுகாப்பாக இருக்க போதுமான தூக்கம், சூடான நீர் அருந்துதல், பழங்கள் மற்றும் காய்கறிகள் நிறைந்த சமச்சீர் உணவு முறை பின்பற்றப்பட வேண்டும்.",
-   "அரசு சுகாதார மையங்களில் இலவச காய்ச்சல் பரிசோதனை மற்றும் டெங்கு விழிப்புணர்வு முகாம்கள் இம்மாதம் நடத்தப்படுகின்றன; உள்ளூர் சுகாதார நிலையத்தைத் தொடர்பு கொள்ளலாம்."
-  ],
-  "closing": "சிறு முன்னெச்சரிக்கை பெரும் நோய்களைத் தடுக்கும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "துலாமுள் தொகுப்பு",
-    "doc": null,
-    "date": "2026-11-03"
-   }
-  ],
-  "topic": "health",
-  "topic_ta": "சுகாதாரம்",
-  "entities": [
-   "சுகாதாரம்",
-   "பருவகாலம்"
-  ],
-  "confidence": 0.9,
-  "flags": [],
-  "front_cat": "routine",
-  "urgent": false,
-  "affected": "",
-  "kind": "article",
-  "image": null,
-  "status": "published",
-  "published_at": "2026-11-03T15:59+05:30",
-  "created_ts": 1793701767.2255106,
-  "audio": "data/audio/art_health_20261103.mp3"
  }
 ]
