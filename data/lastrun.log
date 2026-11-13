@@ -1,15 +1,16 @@
+[expire] f9345f35c626
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 21 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] The Hindu TN: 22 புதியவை
+[fetch] Dinamani TN: 25 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 12 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] BBC World: 17 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 26 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 13 புதியவை
-[fetch] Cinema Express: 19 புதியவை
+[fetch] The Hindu Cinema: 19 புதியவை
+[fetch] Cinema Express: 20 புதியவை
 [fetch] The Hindu Tech: 30 புதியவை
 [fetch] Wired: 29 புதியவை
 [fetch] Employment News: 0 புதியவை
@@ -22,13 +23,13 @@
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
-[fetch] Dinamani Health: 0 புதியவை
+[fetch] Dinamani Health: 1 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=10)
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 24 புதியவை
+[fetch] Bar and Bench: 6 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -56,65 +57,63 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x77345d72fc50>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x77620e955b10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Dinamani Govt: 25 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 22 புதியவை
+[fetch] TN Police News: 24 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 729 → நிகழ்வுகள் 654
-[triage] 654 → 55 | காலி: india:4, govt:4, jobs:3, cinema:3, sports:3
-[தரம்] தமிழ் அல்லாத எழுத்து: এনি → ஒரு திருத்தம்
-[tts-edge] a6ed729bf0ce: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ரயில் விகாஸ் நிகத்தில் இரண்டு உயர் பணியிடங்களுக்கு விண்ணப்பிக்க வாய்ப்பு
-[திருத்தம்] விநீத் நடிகை பாத்திரங்களிலிருந்து சிறப்ப → விநீத் ரொமாண்டிக் நாயகனிலிருந்து பாத்திர
-[தரம்] தமிழ் அல்லாத எழுத்து: 怖恐 → ஒரு திருத்தம்
-[tts-edge] 0afd7d44f767: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] விநீத் ரொமாண்டிக் நாயகனிலிருந்து பாத்திர நடிகனாக மாறினார்
-[skip] வெளிநாட்டுத் Test cricket — இங்கிலாந்து vs தென்னாபிரிக்கா. த
-[திருத்தம்] வங்காள விரிகுடாவில் தாழ்வழுத்தப் பகுதி உ → வங்காள விரிகுடாவில் தாழ்வழுத்தப் பகுதி உ
-[image] களஞ்சியம் (2 சொல்): வங்காள விரிகுடாவில் தாழ்வழுத்தப் ப
-[publish] வங்காள விரிகுடாவில் தாழ்வழுத்தப் பகுதி உருவாக்கம், நவம்பர் 15-ஆம் தேதிக்குள் மண்டபமாக வலுப்பெறும் வாய்ப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgzYCJ3f21hnQUPBmDdEo'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgzYFCDzY221xkjhXghug'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; ஆளுநர் பெ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgzYJxDzEtvQcS2BCxVHo'}
-[publish] 3,000 மெகாவாட் மின்சாரம் கொள்முதல் செய்ய TNPDCL அனுமதி கோரிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgzYRLYqJxPJ9LaAQ2c4n'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgzYU7dHjRm9NgtAtUVDM'}
-[image] களஞ்சியம் (3 சொல்): ஜெம் கிரானைட்ஸ் வீரமணி பாக்சோ வழக்
-[hold] ஜெம் கிரானைட்ஸ் வீரமணி பாக்சோ வழக்கில் முதல் குற்றப்பத்திரிகை தாக்கல்
-[skip] மூலத்தில் போதிய விவரம் இல்லை - ஜெயக்குமார் என்ன குறிப்பிட்டு
+[run] புதியவை 723 → நிகழ்வுகள் 660
+[triage] 660 → 50 | காலி: india:4, govt:3, sports:3, health:2, cinema:2
+[skip] வெளிநாட்டுக் கிரிக்கெட் — ஆங்கிலேய county cricket. தமிழ்நாடு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch1C2XHHgAtHigSGBHQos'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch1C5rGs9dF4EizwJAurb'}
+[image] களஞ்சியம் (2 சொல்): குழந்தைகள் தின விழா- பள்ளி மாணவர்க
+[tts-edge] 9630c3ef21ee: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] குழந்தைகள் தின விழா- பள்ளி மாணவர்களுக்கு கேக், இனிப்புப் பொங்கல் விநியோகம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] நவம்பர் பத்தொன்பதில் வங்கக் கடலில் அக்வா → நவம்பர் பத்தொன்பதில் வங்கக் கடலில் 'அக்வ
-[publish] நவம்பர் பத்தொன்பதில் வங்கக் கடலில் 'அக்வான்' புயல் உருவாகக்கூடும் என அறிவிப்பு
-[image] களஞ்சியம் (2 சொல்): எஸ்பிஐ பென்ஷன் நிதி மாநில அரசுக் க
-[publish] எஸ்பிஐ பென்ஷன் நிதி மாநில அரசுக் கடன் பத்திரங்களில் முதலீடு அதிகரிப்பு
-[publish] பிற்படுத்தப்பட்ட பிரிவு அந்தஸ்து நிரந்தரமானது அல்ல - சென்னை உயர்நீதிமன்றம்
+[skip] மூலத்தில் 'CM Vijay' எனக் குறிப்பிடப்பட்டுள்ளது ஆனால் தமிழ்ந
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch1CHv9rjV8sdnhoxdVDV'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் போதிய தகவல் இல்லை - ஒரு முழுமையற்ற வாக்கியம் மட்டு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை; மேலும் மு
+[tts-edge] 7fa4358da268: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஒன் மொபிக்விக் நிறுவனத்திற்கு ரிசர்வ் வங்கி ஒன்பது லட்சம் ரூபாய் அபராதம்
+[image] களஞ்சியம் (2 சொல்): ரேசர்பே, செம்கார்ப் கிரீன் இன்ஃப்ர
+[publish] ரேசர்பே, செம்கார்ப் கிரீன் இன்ஃப்ரா நிறுவனங்களுக்கு ஐபிஓவுக்கு செபி ஒப்புதல்
+[publish] இந்திய அரசுப் பத்திரங்களில் விற்பனை அழுத்தம், பணவீக்கக் கவலை
+[தரம்] மூலத்தில் இல்லாத எண்: 14 → ஒரு திருத்தம்
+[publish] நீலகிரி மாவட்டத்தில் 43,000 மாணவர்களுக்கு குழந்தைகள் தின கேக், வாழ்த்து அட்டை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch1CgUuxHNtLSYeFQ3bfm'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை விவரிக்கப் போதிய 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011CgzYy37EQUvYdLAAkxnEd'}
-[skip] மூலத்தில் ஒரு வரித் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லை.
-[skip] மூலத்தில் ஒரு வரித் தலைப்பு மட்டுமே உள்ளது, போதுமான விவரங்கள
-[திருத்தம்] மது பாட்டில் விலை உயர்வு மனு, தமிழக அரசு → மது பாட்டிலுக்கு ₹10 விலை உயர்வை எதிர்த்
-[publish] மது பாட்டிலுக்கு ₹10 விலை உயர்வை எதிர்த்து மனு, சென்னை உயர்நீதிமன்றம் தமிழக அரசுக்கு உத்தரவு
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; முழு செய்தி உ
-[publish] வங்கக் கடலில் தாழ்வுப் பகுதி, மீனவர்களுக்கு எச்சரிக்கை
-[filler] tech கட்டுரை
-[jobs] தொகுப்பு 5
+[publish] சட்டம் ஒழுங்கு விவகாரத்தில் தவெக அரசுக்கு காங்கிரஸ் கடும் விமர்சனம்
+[skip] இரு வேலைவாய்ப்பு அறிவிப்புகளும் பிகார் (மதேபுரா) மற்றும் புத
+[skip] கர்நாடகா மாநிலத்தின் உள்ளூர் விவசாயிகள் போராட்டம் தொடர்பான ச
+[skip] இது தெலங்கானா மாநிலத்தின் ஹைதராபாத் பேரிடர் மீட்பு மற்றும் ச
+[skip] இது கேரளாவில் உள்ள இருவழிஞ்சி ஆற்றில் நடந்த உள்ளூர் மீட்புப்
+[skip] இது கேரள மாநில உள்ளூர் அரசு அறிவிப்பு (கால்நடை மருத்துவமனை த
+[skip] மூலம் தமிழ்நாடு அரசின் அறிவிப்பு அல்ல; தர்ம/ஆன்மிக எழுத்து —
+[skip] வெளிநாட்டு உள்ளாட்சி செய்தி - அமெரிக்க ஆணையாட்சி முடிவு, தமி
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] கர்நாடகாவின் உள்ளூர் விவசாய விசயம் — தமிழ்நாட்டுக்கு நேரடித்
+[skip] வெளிநாட்டு T20 தொடர். தமிழ்நாடு, இந்தியா அணிகளுடன் தொடர்பு இ
+[skip] மூலப் பக்கம் ஆங்கிலத்தில் உள்ள சுத்த விஞ்ஞான ஆய்வுக் கட்டுரை
+[skip] இது திரை விமர்சனம். விமர்சனம் (மதிப்பெண், 'நன்றாக/மோசமாக இரு
+[skip] தெலங்கானாவின் உள்ளூர் அரசுத் நடவடிக்கை — தமிழ்நாட்டுக்குத் த
+[skip] இது இங்கிலாந்து கிரிக்கெட் நாட்டின் உள்நாட்டுத் தொடரைப் பற்ற
+[filler] sports கட்டுரை
 [தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹12124 · சென்செக்ஸ் 81450
-[weather] புதுப்பிக்கப்பட்டது
+[market] தங்கம் 22K ₹12076 · சென்செக்ஸ் 81592
+[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 6
