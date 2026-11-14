@@ -1,42 +1,42 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 12 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 22 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] The Hindu TN: 10 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 19 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
+[fetch] ESPNcricinfo: 23 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 16 புதியவை
-[fetch] Cinema Express: 20 புதியவை
+[fetch] The Hindu Cinema: 20 புதியவை
+[fetch] Cinema Express: 21 புதியவை
 [fetch] The Hindu Tech: 30 புதியவை
-[fetch] Wired: 29 புதியவை
+[fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 21 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 22 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 25 புதியவை
+[fetch] FreeJobAlert: 28 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
-[fetch] Dinamani Health: 1 புதியவை
+[fetch] Dinamani Health: 3 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=10)
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 26 புதியவை
+[fetch] Bar and Bench: 30 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 26 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,60 +56,69 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7be61355ce10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 26 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
-[fetch] Times Govt Schemes: 18 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7892076f19d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
+[fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 19 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 681 → நிகழ்வுகள் 616
-[triage] 616 → 50 | காலி: tn:4, india:3, economy:3, govt:3, jobs:3
-[skip] அசாம் மற்றும் இமாச்சலப் பிரதேசத்தின் உள்ளூர் வேலைவாய்ப்பு அற
-[skip] திரை விமர்சனம் — விதிப்படி இப்பக்கத்தில் வேண்டாம். விமர்சனம்
-[skip] Australia தேசிய குழுவின் தேர்வு தொடர்பான செய்தி. தமிழ்நாடு/இ
-[திருத்தம்] அமெரிக்காவில் தொலைத்தொடர்பு கோளாறு அனைத் → அமெரிக்காவில் தொலைத்தொடர்பு செயலிழப்பு: 
-[தரம்] தமிழ் அல்லாத எழுத்து: এফ → ஒரு திருத்தம்
-[tts-edge] 18cbd11c783f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அமெரிக்காவில் தொலைத்தொடர்பு செயலிழப்பு: அனைத்து விமானப் புறப்பாடுகளும் நிறுத்தம்
-[skip] கத்தார்-துருக்கி பாதுகாப்பு ஒப்பந்தம் மற்றும் யேமன் மோதல் கு
-[tts-edge] 9ae854f934fa: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அமெரிக்காவில் தகவல்தொடர்பு கோளாறு காரணமாக விமானங்கள் தரையிறக்கம்
-[publish] ஹோர்முஸ் நீரிணையில் கப்பல் கண்ணிவெடி மோதல் என ஈரான் படை தகவல்
-[publish] காஸாவில் தீக்காயச் சிறுமிக்கான மருத்துவப் பொருட்களைத் தடுத்த இஸ்ரேல்
+[run] புதியவை 728 → நிகழ்வுகள் 663
+[triage] 663 → 43 | காலி: tn:3, india:3, economy:3, cinema:3, sports:3
+[tts-edge] e6b5da929d8e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] இராமாயணம் ₹1,000 கோடி வசூல் எட்டிய 11வது இந்திய படம்
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (ILT20 — ஐக்கிய அரபு எமிரேட்ஸ்)
+[திருத்தம்] மதுரை காவல் நிலைய கழிவறையில் ஓட்டுநர் உய → மதுரை செக்கானூரணி காவல் நிலையில் ஓட்டுநர
+[image] களஞ்சியம் (3 சொல்): மதுரை செக்கானூரணி காவல் நிலையில் ஓ
+[tts-edge] e787bacdfb78: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுரை செக்கானூரணி காவல் நிலையில் ஓட்டுநர் உயிரிழப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch2WZrnkaszVidt6XJvHD'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; எந்தச் சுகாதாரத் தரவுகள், 
+[skip] மூலத்தில் தலைப்பு மற்றும் படக்குறிப்பு மட்டுமே உள்ளது; செய்த
+[திருத்தம்] தமிழக அரசு வங்கிக் கணக்கில் ரூ.22 கோடி ம → தமிழக அரசின் வங்கிக் கணக்கில் ரூ.22 கோடி
+[image] களஞ்சியம் (2 சொல்): தமிழக அரசின் வங்கிக் கணக்கில் ரூ.2
+[publish] தமிழக அரசின் வங்கிக் கணக்கில் ரூ.22 கோடி மோசடி: 7 பேர் கைது
+[திருத்தம்] நீட் தேர்வு முறையை மறுஆய்வு செய்ய வேண்டு → நீட் தேர்வு முறையை மறுஆய்வு செய்ய வேண்டு
+[publish] நீட் தேர்வு முறையை மறுஆய்வு செய்ய வேண்டும்: அன்புமணி ராமதாஸ் கோரிக்கை
+[திருத்தம்] மீஷோ பங்குகளை விற்ற சாப்ட்பேங்க், 1,885  → மீஷோ பங்குகளை விற்ற சாஃப்ட்பேங்க், 1,885
+[தரம்] தமிழ் அல்லாத எழுத்து: ই → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: மீஷோ பங்குகளை விற்ற சாஃப்ட்பேங்க்,
+[publish] மீஷோ பங்குகளை விற்ற சாஃப்ட்பேங்க், 1,885 கோடி பரிவர்த்தனை
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள், எண்கள், தேதி எத
-[skip] பொறியியல் கோளாறு — செய்திக்குரிய விளைவு தமிழ்நாடு/இந்தியாவில
-[skip] உலகச் செய்தி என்றாலும் தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்கும் 
-[skip] அமெரிக்கா உள்நாட்டு விபத்து — தமிழ்நாடு/இந்திய வாசகரின் அவசர
-[skip] Guinea-ன் உள்நாட்டு தனிமைப்படுத்தப்பட்ட சம்பவம். தமிழ்நாட்டு
-[skip] ஈரான்-ஈராக் போரின் (1980–88) பழைய வரலாற்று நிகழ்வு. இன்று தம
-[skip] இஸ்রேல் உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியப் பாதிப்பு இல்ல
-[திருத்தம்] அமெரிக்காவில் சரக்குக் கப்பல் மோதி பயணிக → 'மிசிசிப்பியில் அற்புதம்' — சரக்குக் கப்
-[publish] 'மிசிசிப்பியில் அற்புதம்' — சரக்குக் கப்பல் மோதலுக்குப் பிறகு பயணிகள் கப்பல் பயணிகள் அனைவரும் மீட்கப்பட்டனர்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவரங்கள் இல்லாததால் உண்மை
-[நகல்] ஏற்கனவே வெளியானது: பணவீக்கம் உயர்வு: விலைக் கட்டுப்பாட்டுக்கு நடவடிக்கை எடுக்க 
-[திருத்தம்] கோயம்புத்தூர் பதினொரு கிராமங்களில் வனவில → கோயம்புத்தூர் பதினொரு கிராமங்களில் மனிதர
-[image] களஞ்சியம் (2 சொல்): கோயம்புத்தூர் பதினொரு கிராமங்களில்
-[publish] கோயம்புத்தூர் பதினொரு கிராமங்களில் மனிதர்-வனவிலங்கு மோதல் தணிப்புத் திட்டம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, செய்தியை விரி
-[image] களஞ்சியம் (2 சொல்): மதுபான கூடுதல் கட்டண உத்தரவை எதிர்
-[publish] மதுபான கூடுதல் கட்டண உத்தரவை எதிர்த்து வழக்கு, அரசுக்கு உத்தரவு
-[image] களஞ்சியம் (2 சொல்): சபரிமலை நெய் விநியோக மோசடி: தமிழகத
-[publish] சபரிமலை நெய் விநியோக மோசடி: தமிழகத்தைச் சேர்ந்த இருவர் கைது
-[image] களஞ்சியம் (2 சொல்): சொத்துக் குவிப்பு வழக்கு: அதிமுக ம
-[publish] சொத்துக் குவிப்பு வழக்கு: அதிமுக முன்னாள் எம்.எல்.ஏ தம்பதிக்கு நீதிமன்றம் எச்சரிக்கை
-[publish] கொளத்தூர் முதல் சீனிவாச நகர் வரை மெட்ரோ சுரங்கப் பணி நிறைவு
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 12
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: மதுபானத்துக்கு கூடுதல் பத்து ரூபாய் ஏன் என்ற வழக்கு
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹12092 · சென்செக்ஸ் 81592
+[திருத்தம்] வேலூர் சுற்றுவட்டார நூலகங்களில் இருந்து  → வேலூர் மற்றும் அருகிலுள்ள மாவட்ட மையப் ப
+[image] களஞ்சியம் (2 சொல்): வேலூர் மற்றும் அருகிலுள்ள மாவட்ட ம
+[publish] வேலூர் மற்றும் அருகிலுள்ள மாவட்ட மையப் பொதுநூலகங்களில் இருந்து 7,000-க்கும் மேற்பட்ட புத்தகங்கள் அகற்றம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch2WwJ7LeHPeUxj45NqFS'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch2WzMEhHZmM3Wd6KNuu2'}
+[skip] மூலத்தில் போதிய தகவல் இல்லை, தலைப்பு தெளிவற்றதாகவும் முரணாகவ
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, மேட்டூர் அணை நீர்வரத்து பற
+[image] களஞ்சியம் (3 சொல்): சம்பா நெல் பயிர்களைக் காப்பாற்ற கு
+[publish] சம்பா நெல் பயிர்களைக் காப்பாற்ற குடங்களில் தண்ணீர் ஊற்றும் விவசாயிகள்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: அம்பேத்கர் உயர்கல்வி உதவித்தொகை வழ
+[publish] அம்பேத்கர் உயர்கல்வி உதவித்தொகை வழங்கலில் தாமதம் இல்லை: தமிழ்நாடு அரசு விளக்கம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch2XDnUcFJWvUQHF5weYp'}
+[திருத்தம்] பெண்கள், குழந்தைகள் பாதுகாப்பை உறுதி செய → பெண்கள், குழந்தைகள் பாதுகாப்பை உறுதிப்பட
+[publish] பெண்கள், குழந்தைகள் பாதுகாப்பை உறுதிப்படுத்த வேண்டும்: எடப்பாடி பழனிசாமி
+[skip] இந்த இரு வேலைவாய்ப்பு அறிவிப்புகளும் தமிழ்நாட்டுடன் தொடர்பில
+[skip] இவை தமிழ்நாட்டில் இல்லாத மத்திய அரசு நிறுவனங்களின் (ADA - பெ
+[skip] மேற்கு வங்க மாநில அரசியல் தொடர்பான உள்ளூர்ச் செய்தி, தமிழ்நா
+[skip] கர்நாடகாவில் ஒரு தனியார் தளவாட நிறுவனத்தின் வணிக விரிவாக்கம்
+[skip] இது கேரள மாநிலத்தின் உள்ளூர்ச் செய்தி - மகாத்மா காந்தி பல்கல
+[skip] தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை. ஛ட்ठ் பூஜை பிहार, उत्
+[skip] பொதுவான சுகாதார விழிப்புணர்வு ஆய்வு; தமிழ்நாட்டுக்குத் தனிப்
+[skip] இது அமெரிக்க மத்திய வங்கியின் உள்நாட்டு கணக்கெடுப்பு செய்தி;
+[skip] ISKCON প্রতিষ্ঠাতার জীবনচরিত্র — தমিழ்நாটের সাথে সরাসরি সংযো
+[skip] ஆஸ்திரேலியன் உள்நாட்டுக் கிரிக்கெட் சர்ச்சை; தமிழ்நாடு/இந்தி
+[skip] இது பশ্চिम வங்கம் அரசியல்। তமிழ்நாடு வாசகரைப் பாதிக்கவில்லை।
+[publish] நுண்ணுயிர் எதிர்ப்பு சக்தி: பல்துறை ஒத்துழைப்பு அவசியம்
+[filler] tech கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹12089 · சென்செக்ஸ் 81592
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
