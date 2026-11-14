@@ -1,5 +1,68 @@
 [
  {
+  "headline": "கடலூர் மாவட்டத்தில் பறவைக் காய்ச்சல் உறுதி; 1,500க்கும் மேற்பட்ட கோழிகள் அழிப்பு",
+  "lines": [
+   "கடலூர் மாவட்டத்தில் பறவைக் காய்ச்சல் நோய் உறுதி செய்யப்பட்டுள்ளது.",
+   "செத்த கோழியின் மாதிரி நவம்பர் 5-ம் தேதி பூபாலில் உள்ள தேசிய ஆய்வகத்திற்கு அனுப்பப்பட்டது.",
+   "அந்த மாதிரியில் எச்5என்1 வைரஸ் இருப்பது நவம்பர் 13-ம் தேதி உறுதியானது.",
+   "இதையடுத்து, பாதிக்கப்பட்ட பகுதியில் 1,500க்கும் மேற்பட்ட கோழிகள் அழிக்கப்பட்டுள்ளன.",
+   "நோய் பரவாமல் தடுக்க சுற்றுப்புறப் பகுதிகளில் கண்காணிப்பு நடத்தப்பட்டுவருகிறது."
+  ],
+  "closing": "பறவைக் காய்ச்சல் வைரஸ் கட்டுப்படுத்தப்படுகிறதா என்பதே அடுத்து கவனிக்க வேண்டியது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-11-14"
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "கடலூர்",
+   "பறவைக் காய்ச்சல்",
+   "H5N1",
+   "பூபால் ஆய்வகம்"
+  ],
+  "confidence": 0.8,
+  "en": {
+   "headline": "Cuddalore confirms bird flu, over 1,500 chickens culled",
+   "lines": [
+    "Avian influenza has been confirmed at a poultry farm in Cuddalore district.",
+    "A sample from a dead chicken was sent to a national laboratory in Bhopal on November 5.",
+    "The sample tested positive for the H5N1 avian influenza virus on November 13.",
+    "Following this, over 1,500 chickens in the affected area have been culled.",
+    "Health officials are monitoring the surrounding areas to prevent further spread of the virus."
+   ],
+   "closing": "Whether the spread of the avian influenza virus is being contained remains to be watched."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "poultry farm chickens india",
+  "wiki_subject": "H5N1",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "5aae2c7b1c29",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-14T21:01+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/avian-influenza-confirmed-in-cuddalore-over-1500-chickens-culled/article71701325.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Colorized_transmission_electron_micrograph_of_Avian_influenza_A_H5N1_viruses.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Influenza A virus subtype H5N1",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Influenza_A_virus_subtype_H5N1",
+   "symbolic": false
+  },
+  "audio": "data/audio/5aae2c7b1c29.mp3",
+  "created_ts": 1794670287.883292,
+  "status": "published"
+ },
+ {
   "headline": "நுண்ணுயிர் எதிர்ப்பு சக்தி: பல்துறை ஒத்துழைப்பு அவசியம்",
   "lines": [
    "உலக நுண்ணுயிர் எதிர்ப்பு விழிப்புணர்வு வாரத்துக்கு முந்தையாக சுகாதாரத் துறை நிபுணர்கள் பல்துறை கூட்டுப்பணியை வலியுறுத்தியுள்ளனர்.",
