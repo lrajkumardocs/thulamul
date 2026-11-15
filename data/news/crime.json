@@ -1,5 +1,137 @@
 [
  {
+  "headline": "பிஎன்பி நிதி முறைகேடு வழக்கு: உண்மையான கோரிக்கைகள் ஏற்கப்படும் - வங்கி",
+  "lines": [
+   "பஞ்சாப் நேஷனல் வங்கியில் நிதி முறைகேடு நடந்ததாகக் குற்றச்சாட்டு எழுந்துள்ளது.",
+   "இது தொடர்பாக உத்தரப் பிரதேசத்தின் கிரேட்டர் நொய்டாவில் புகார் பதிவு செய்யப்பட்டுள்ளது.",
+   "பாதிக்கப்பட்ட வாடிக்கையாளர்களின் உண்மையான கோரிக்கைகள் ஏற்றுக்கொள்ளப்படும் என வங்கி தெரிவித்துள்ளது.",
+   "தொடர்புடைய அதிகாரிகளுக்கு முழு ஒத்துழைப்பு அளிக்கப்படுவதாக பிஎன்பி நிர்வாகம் அறிவித்துள்ளது.",
+   "வாடிக்கையாளர்களின் கவலைகளைத் தீர்க்க தேவையான நடவடிக்கைகள் எடுக்கப்படுவதாகவும் வங்கி கூறியுள்ளது."
+  ],
+  "closing": "விசாரணை முன்னேறும்போது இந்த முறைகேடு தொடர்பான மேலும் விவரங்கள் வெளிவரும் என எதிர்பார்க்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "பஞ்சாப் நேஷனல் வங்கி",
+   "கிரேட்டர் நொய்டா",
+   "உத்தரப் பிரதேசம்",
+   "நிதி முறைகேடு"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "PNB Fraud Case: Genuine Claims Will Be Honoured, Says Bank",
+   "lines": [
+    "Punjab National Bank has been accused of fund misappropriation.",
+    "An FIR has been registered in connection with the case in Greater Noida, Uttar Pradesh.",
+    "The bank said genuine claims of affected customers will be honoured.",
+    "PNB management said it is extending full cooperation to the concerned authorities.",
+    "The bank also said necessary steps are being taken to address customers' concerns."
+   ],
+   "closing": "Further details on the fraud case are expected as the investigation progresses."
+  },
+  "front_cat": "scam_expose",
+  "image_query": "",
+  "wiki_subject": "Punjab National Bank",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "010c2edbd9e1",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-15T13:02+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/uttar-pradesh/pnb-fund-misappropriation-case-bank-says-genuine-claims-to-be-honoured-fir-registered-in-gr-noida/article71643462.ece",
+   "https://www.thehindu.com/news/national/uttar-pradesh/pnb-fund-misappropriation-case-bank-says-genuine-claims-to-be-honoured-fir-registered-in-gr-noida/article71643462.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/010c2edbd9e1.mp3",
+  "created_ts": 1794727973.4806693,
+  "status": "published"
+ },
+ {
+  "headline": "சீர்காழி அருகே வீட்டில் தீ விபத்தில் பெண் பலி",
+  "lines": [
+   "சீர்காழி அருகே உள்ள ஒரு வீட்டில் திடீரென தீ பற்றியது.",
+   "இந்தத் தீ விபத்தில் வீட்டில் இருந்த ஒரு பெண் படுகாயமடைந்து உயிரிழந்தார்.",
+   "தீ விபத்து தொடர்பாக உள்ளூர் காவல் துறையினர் விசாரணையில் ஈடுபட்டுள்ளனர்.",
+   "தீ ஏற்பட்டதற்கான காரணம் குறித்து இதுவரை உறுதியான தகவல் வெளியாகவில்லை.",
+   "சம்பவம் தொடர்பான முழு விவரங்களைத் திரட்டும் பணியில் காவல் துறையினர் ஈடுபட்டுள்ளனர்."
+  ],
+  "closing": "சீர்காழி மயிலாடுதுறை மாவட்டத்தில் அமைந்துள்ள ஒரு முக்கியப் பகுதியாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சீர்காழி",
+   "மயிலாடுதுறை மாவட்டம்",
+   "காவல் துறை"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Woman dies in house fire near Sirkazhi, Mayiladuthurai",
+   "lines": [
+    "A sudden fire broke out in a house near Sirkazhi in Mayiladuthurai district.",
+    "A woman present in the house was critically injured in the fire and later died.",
+    "Local police are investigating the circumstances surrounding the fire accident.",
+    "The exact cause of the fire has not yet been officially confirmed.",
+    "Police are continuing to gather further details related to the incident."
+   ],
+   "closing": "Sirkazhi is a significant town located in Mayiladuthurai district."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "id": "fdcb694461e2",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-15T12:55+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/15/woman-dies-after-house-catches-fire-near-sirkazhi"
+  ],
+  "image": {
+   "url": "data/bank/crime21.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/fdcb694461e2.mp3",
+  "created_ts": 1794727539.8575437,
+  "person_en": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
   "headline": "உள்ளாட்சித் துறை அதிகாரிகள் 23 பேர் மீது லஞ்ச வழக்குப் பதிவு",
   "lines": [
    "லஞ்சப் பணம் பறிமுதல் செய்யப்பட்ட வழக்கில் உள்ளாட்சித் துறையைச் சேர்ந்த 23 அதிகாரிகள் மீது வழக்குப் பதிவு செய்யப்பட்டுள்ளது.",
@@ -3270,131 +3402,6 @@
   "wiki_subject": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "திமுக முன்னாள் அமைச்சர் துரைமுருகன் உள்ளிட்டு பலர் மீது லஞ்ச ஒழிப்பு வழக்கு",
-  "lines": [
-   "திமுக முன்னாள் அமைச்சர் துரைமுருகன் உள்ளிட்டு பலர் மீது லஞ்ச ஒழிப்புத் துறை போலீசார் வழக்குப் பதிவு செய்துள்ளனர்.",
-   "இந்த வழக்கில் பல பேர் மீது குற்றச்சாட்டுகள் பதிவு செய்யப்பட்டுள்ளன.",
-   "லஞ்ச ஒழிப்புத் துறை இது தொடர்பாக அதிகாரப்பூர்வமாக வழக்குப் பதிவு செய்தது உறுதி செய்யப்பட்டுள்ளது.",
-   "குற்றம் சாட்டப்பட்டவர்களின் முழு விவரங்களும், குற்றச்சாட்டுகளின் தன்மையும் இன்னும் முழுமையாக வெளியிடப்படவில்லை.",
-   "இந்த வழக்கு தொடர்பான விசாரணை நடவடிக்கைகள் தொடரும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்த வழக்கில் குறிப்பிட்ட குற்றச்சாட்டுகள் என்ன என்பது தொடர்பாக லஞ்ச ஒழிப்புத் துறையிடமிருந்து மேலும் விவரங்கள் எதிர்பார்க்கப்படுகின்றன.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "திமுக",
-   "துரைமுருகன்",
-   "லஞ்ச ஒழிப்புத் துறை"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "DVAC Files Case Against Ex-DMK Minister Durai Murugan, 24 Others",
-   "lines": [
-    "The Directorate of Vigilance and Anti-Corruption has registered a case against former DMK minister Durai Murugan and others.",
-    "A total of 24 people have been named in the case, according to officials.",
-    "The anti-corruption department has officially confirmed the registration of the case.",
-    "Complete details of the charges and the accused have not yet been fully disclosed.",
-    "Further investigation into the case is expected to continue."
-   ],
-   "closing": "Further details on the specific charges in this case are awaited from the anti-corruption department."
-  },
-  "front_cat": "scam_expose",
-  "image_query": "",
-  "wiki_subject": "Durai Murugan",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "0d8fcc7f7574",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-07T03:32+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Nov/06/dvac-files-case-against-former-dmk-minister-durai-murugan-and-23-others"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/0d8fcc7f7574.mp3",
-  "created_ts": 1794002572.2474036,
-  "status": "published"
- },
- {
-  "headline": "வீரமணி மீதான சிறார் பாலியல் வழக்குகளுக்கு சிறப்பு வழக்கறிஞர்கள் நியமனம்",
-  "lines": [
-   "சிறார் பாலியல் வல்லுறவுத் தடுப்புச் சட்டத்தின் கீழ் வீரமணி மீது பதிவான வழக்குகளை நடத்த சிறப்பு அரசு வழக்கறிஞர்களை நியமித்துள்ளது.",
-   "வீரமணி மீது ஏழு சிறார் பாலியல் குற்றச் சட்ட வழக்குகளும், ஒரு சிறுமியை தற்கொலைக்குத் தூண்டிய வழக்கும் பதிவாகியுள்ளன.",
-   "இந்த வழக்குகளை விரைவாக நடத்த சிறப்பு வழக்கறிஞர்கள் நியமிக்கப்பட்டதாக தெரிவிக்கப்பட்டுள்ளது.",
-   "குற்றம் சாட்டப்பட்டவர் மீதான வழக்கு விசாரணை நீதிமன்றத்தில் நடைபெற்று வருகிறது.",
-   "சிறப்பு வழக்கறிஞர்கள் நியமனத்துடன் வழக்கு விசாரணை தொடரும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்த வழக்குகள் தொடர்பான முழு விசாரணை நடவடிக்கைகளும் நீதிமன்றத்தில் தொடர உள்ளன.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "வீரமணி",
-   "தமிழ்நாடு அரசு",
-   "சிறார் பாலியல் வல்லுறவுத் தடுப்புச் சட்டம்"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Special prosecutors appointed for POCSO cases against Veeramani",
-   "lines": [
-    "The Tamil Nadu government has appointed special public prosecutors to conduct trial in POCSO Act cases filed against Veeramani.",
-    "Veeramani faces seven cases under the POCSO Act along with one case of abetting the suicide of a minor.",
-    "The government stated that special prosecutors were appointed to ensure speedy conduct of the trial.",
-    "The case against the accused is currently under trial before the court.",
-    "With the appointment of special prosecutors, the trial proceedings are expected to continue."
-   ],
-   "closing": "The complete trial proceedings in these cases are set to continue before the court."
-  },
-  "front_cat": "crime_major",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "4845c8cb7687",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-07T03:26+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/special-public-prosecutors-appointed-to-conduct-trial-in-pocso-act-cases-against-veeramani/article71675111.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/4845c8cb7687.mp3",
-  "created_ts": 1794002188.623761,
   "status": "published"
  }
 ]
