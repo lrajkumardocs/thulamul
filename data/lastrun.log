@@ -1,43 +1,42 @@
-[expire] 5718a376b68a
-[fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 18 புதியவை
+[fetch] RBI: 8 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 10 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 17 புதியவை
-[fetch] Al Jazeera: 21 புதியவை
-[fetch] ESPNcricinfo: 17 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 7 புதியவை
-[fetch] Cinema Express: 20 புதியவை
-[fetch] The Hindu Tech: 16 புதியவை
+[fetch] The Hindu TN: 24 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 15 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] The Hindu Sport: 29 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] Cinema Express: 25 புதியவை
+[fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Health: 22 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 28 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
-[fetch] Dinamani Health: 3 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: 0 புதியவை
+[fetch] Dinamani Health: 2 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='agritech.tnau.ac.in', port=443) at 0x7e22afb561d0>, 'Connection to agritech.tnau.ac.in timed out. (connect timeout=10)'))
+[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 4 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 21 புதியவை
+[fetch] Dinamani Cinema: 27 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,86 +56,67 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7d73780274d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7e22afb77d90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 9 புதியவை
+[fetch] TN Police News: 12 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 632 → நிகழ்வுகள் 567
-[triage] 567 → 72 | காலி: govt:4, india:3, economy:3, jobs:3, health:3
+[run] புதியவை 689 → நிகழ்வுகள் 618
+[triage] 618 → 69 | காலி: india:3, govt:3, jobs:3, world:2, economy:2
+[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் நேரடித் தொடர்பில்லாத வேலைவா
+[திருத்தம்] வங்கக்கடலில் அக்வான் புயல் உருவாக்கம், ச → வங்கக் கடலில் அக்வான் புயல் உருவாக்கம், 
+[image] களஞ்சியம் (2 சொல்): வங்கக் கடலில் அக்வான் புயல் உருவாக
+[tts-edge] 89a8cb9904bb: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வங்கக் கடலில் அக்வான் புயல் உருவாக்கம், சென்னைக்கு இரு நாள் கனமழை எச்சரிக்கை
+[skip] இது இலங்கையின் உள்ளூர்ச் சம்பவம் - உலக அளவில் முக்கியத்துவம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] கொங்கோவின் உள்நாட்டு சுகாதார நংக। தமிழ்நாடு/இந்தியவாசகரைப் ந
-[tts-edge] e6b5da929d8e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ராமாயணம் ₹1,000 கோடி வசூல் தாண்டிய 11-ஆம் இந்திய படம்
-[தரம்] தமிழ் அல்லாத எழுத்து: আইরিയ → ஒரு திருத்தம்
-[tts-edge] 9556d40450f3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சர்வதேச கிரிக்கெட் கவுன்சில் தலைவராக ஜே ஷா மீண்டும் தேர்வு
-[image] களஞ்சியம் (2 சொல்): வங்கக் கடலில் காற்றழுத்தத் தாழ்வு,
-[publish] வங்கக் கடலில் காற்றழுத்தத் தாழ்வு, ஆக்வான் புயலாக மாறும் அபாயம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch6DXG7uVNibwWAMZrvVW'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): சின்னசேலத்தில் ஏரியில் மூன்று சிறு
-[publish] சின்னசேலத்தில் ஏரியில் மூன்று சிறுவர்கள் சடலமாக மீட்பு
-[திருத்தம்] வங்கக்கடலில் புயல் உருவாக வாய்ப்பு, தமிழ → வங்கக் கடலில் புயல் உருவாக வாய்ப்பு, தமி
-[image] களஞ்சியம் (2 சொல்): வங்கக் கடலில் புயல் உருவாக வாய்ப்ப
-[publish] வங்கக் கடலில் புயல் உருவாக வாய்ப்பு, தமிழகத்திற்கு எச்சரிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch6Di97n7cYrdACJeKcsX'}
-[திருத்தம்] திமுக ஆட்சியில் பதிவான 92,000 வழக்குகள்  → திமுக ஆட்சியில் பதியப்பட்ட 92,000 வழக்கு
-[image] களஞ்சியம் (2 சொல்): திமுக ஆட்சியில் பதியப்பட்ட 92,000 
-[publish] திமுக ஆட்சியில் பதியப்பட்ட 92,000 வழக்குகள் ரத்து செய்ய தமிழ்நாடு அரசு உத்தரவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch6DoZYrCmZjkqJyxGNTt'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; புயல் பாதை, தீவிரம், அதிகா
-[திருத்தம்] ரூ.400 கோடி மோசடி வழக்கு முன்னாள் எம்.எல → ரூ.400 கோடி மோசடி வழக்கு: முன்னாள் எம்.எ
-[image] களஞ்சியம் (2 சொல்): ரூ.400 கோடி மோசடி வழக்கு: முன்னாள்
-[publish] ரூ.400 கோடி மோசடி வழக்கு: முன்னாள் எம்.எல்.ஏ. முத்துக்குமாருக்கு நவம்பர் 16 வரை நீதிமன்றக் காவல்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, புயல் பற்றிய விவரங்கள் (இட
-[திருத்தம்] சென்னையில் நாளை முதல் பலத்த மழைக்கு வாய் → சென்னையில் நாளைமுதல் பலத்த மழைக்கு வாய்ப
-[தரம்] தமிழ் அல்லாத எழுத்து: र → ஒரு திருத்தம்
-[publish] சென்னையில் நாளைமுதல் பலத்த மழைக்கு வாய்ப்பு
-[skip] இது தனிப்பட்ட சில என்பிஎஃப்சி நிறுவனங்களின் பதிவு ரத்து/surr
-[skip] தாய்லாந்தின் உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகரைப் பாத
-[skip] அமெரிக்க உள்நாட்டு விமான போக்குவரத்து நிர்வாகம். தமிழ்நாடு/இ
-[publish] செப்டம்பரில் இந்தியாவின் நடப்புக் கணக்கு பற்றாக்குறை உயர்வு, ரிசர்வ் வங்கி தரவு
-[skip] இந்தியாவின் உள்நாட்டு அரசியல் போராட்டம்; தமிழ்நாட்டுக்கு நேர
-[skip] world category ஆனாலும், இது தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்
-[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்கத் தெரியவில்லை. உலக செய்த
-[skip] வெளிநாட்டு அரசுகளுக் கிடையிலான மோதல் — தமிழ்நாட்டு வாசகர்களு
-[skip] யேமன் உள்நாட்டுப் போர் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர
-[skip] உலகச் செய்திகளில் உக்ரைன்-ரஷ்ய போரின் தொழில்நுட்ப பக்கம் மட்
-[skip] வெளிநாட்டுத் தொழில்நுட்பப் பெருமனிய சர்ச்சை — தமிழ்நாடு/இந்த
-[skip] வெளிநாட்டு உள்ளூர் குற்றச் செய்தி — மெக்சிகோ ஒழுங்குமுறை நிர
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — ஹைதியின் உள்ளூர் தேர்தல் நிகழ
-[skip] பொதுவான வெளிநாட்டு விபத்து — தமிழ்நாடு/இந்தியத் வாசகருக்குப்
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியாவுக்குத் தேவ
-[skip] வெளிநாட்டு பகுப்பாய்வு/கருத்துரை — தமிழ்நாடு/இந்தியக் கவனம் 
-[skip] இரான்-அமெரிக்கா மோதல் வெளிநாட்டு உள்நாட்டுக் கொள்கை; தமிழ்நா
-[skip] வெளிநாட்டு அரசியல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு 
-[skip] ஹைதியின் உள்நாட்டுத் தேர்தல் செய்திக்கு தமிழ்நாடு வாசகர்களுக
-[skip] உலக செய்திகளில் ஒரு மாநிலத்தின் உள்ளூர் சுற்றுச்சூழல் சிக்கல
-[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காத சீனா-தென்கிழக்கு ஆசிய 
-[skip] யெமனின் உள்நாட்டு ராணுவ மோதல். தமிழ்நாடு/இந்தியாவுடன் நேரடித
-[skip] பெரு நாட்டின் உள்நாட்டு விபத்து மற்றும் சுற்றுச்சூழல் கூற்று
-[skip] வெளிநாட்டுச் சுற்றுச்சூழல் நிகழ்வு — தமிழ்நாடு/இந்தியக் வாசக
-[skip] வெளிநாட்டின் உள்ளூர் குற்றச் செய்தி. மெக்சிகோவின் போதைப்பொரு
-[skip] வெளிநாட்டின் உள்ளூர் பொருளாதார விவகாரம் — தமிழ்நாடு அல்லது இ
-[திருத்தம்] ஆந்திரா நோக்கி புயல் அச்சுறுத்தல், தமிழ் → ஆந்திரா நோக்கி புயல் அச்சுறுத்தல்; தமிழ்
-[image] களஞ்சியம் (2 சொல்): ஆந்திரா நோக்கி புயல் அச்சுறுத்தல்;
-[publish] ஆந்திரா நோக்கி புயல் அச்சுறுத்தல்; தமிழ்நாட்டில் மழை எச்சரிக்கை
-[filler] health கட்டுரை
-[jobs] தொகுப்பு 3
-[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
+[skip] தமிழ்நாட்டுச் செய்தி — 'world' என நிर्दिष्ட வகை தவறு. மதுரை 
+[skip] தமிழ்நாடு/இந்தியা ஒட்டுமொத்த வாசகருக்கு பொருந்தும் தேசிய அளவ
+[skip] தென்னாப்பிரிக்காவின் உள்நாட்டு குற்றச் செய்தி. தமிழ்நாட்டு/இ
+[skip] தென்னாப்பிரிக்காவின் உள்நாட்டுக் குற்றச் சம்பவம். தமிழ்நாடு/
+[திருத்தம்] ஐபிஓ விதிமுறைகள் மறுஆய்வுக்கு செபி புதிய → ஐபিஓ விதிமுறைகள் மறுஆய்வுக்கு செபி புதிய
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[tts-edge] 88d4a80f6779: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஐபிஓ விதிமுறைகள் மறுஆய்வுக்கு செபி புதிய துணைக்குழு அமைப்பு
+[publish] மூலதனச் சந்தை விதிகளை எளிமைப்படுத்த செபி பத்து பேர் கொண்ட குழு அமைப்பு
+[திருத்தம்] அந்நிய முதலீட்டாளர் உரிமை வரம்பை 25 சதவீ → அந்நிய முதலீட்டாளர் பயனாளர் உரிமை வரம்பை
+[publish] அந்நிய முதலீட்டாளர் பயனாளர் உரிமை வரம்பை 25 சதவீதமாக உயர்த்த செபி திட்டம்
+[skip] தமிழ்நாட்டுச் செய்தி — 'world' என்று குறிப்பிடப்பட்டுள்ளது. 
+[skip] வெளிநாட்டுத் தனிநபர் மனக் கதை — தமிழ்நாட்டு/இந்திய வாசகரைப் 
+[skip] உலகச் செய்தி — ரஷ்யா-உக்ரைன் போரின் நடப்பு நிகழ்வு. தமிழ்நாட
+[skip] உலகச் செய்தி — தமிழ்நாடு/இந்திய வாசகரின் அன்றாட வாழ்வைத் தாக
+[skip] இவை தமிழ்நாட்டிற்கு வெளியே (மீரட், தராஷிவ்-மகாராஷ்டிரா) உள்ள
+[திருத்தம்] தணிக்கைத் துறை சீர்திருத்தங்கள் குறித்து → பொது பொறுப்புணர்வை வலுப்படுத்த தணிக்கைத்
+[publish] பொது பொறுப்புணர்வை வலுப்படுத்த தணிக்கைத் துறை தொழில்நுட்பம், சீர்திருத்தங்களில் கவனம்
+[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு வரி மட்டுமே உள்ளது; எண், தேதி,
+[publish] இருபத்தைந்து லட்சம் லஞ்சம் வழக்கில் என்சிபி அதிகாரிகள் இருவர் கைது
+[skip] இவை குஜராத் கம்தேனு பல்கலைக்கழகம் மற்றும் ஹைதராபாத்தில் உள்ள
+[skip] மதச் செயல்பாட்டு விளக்கம் — செய்திக்குப் பொருத்தமல்ல
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch72KvpTbhxMH7jWoFFEr'}
+[திருத்தம்] ஐআইஎம்எஸ் டெல்லியில் முதல் முறை கருவில்  → ஐআईএம்எஸ் டெல்லியில் முதல் முறை கருவில் 
+[தரம்] தமிழ் அல்லாத எழுத்து: ईআএతത → ஒரு திருத்தம்
+[publish] எய்ம்ஸ் டெல்லியில் முதல் முறையாக கருவில் முள்ளந்தண்டு பழுது சரி செய்தனர்.
+[skip] வெளிநாட்டு சினிமா / ஆங்கிலம் நடிகர் — தமிழ்நாடு வாசகரைப் பாத
+[skip] வெளிநாட்டுத் தொடர் (SMAT — Syed Mushtaq Ali Trophy). தமிழ்நா
+[publish] பொதுக் கணக்கு ஆய்வாளர் தொழில்நுட்பம், சீர்திருத்தத்தில் கவனம்
+[skip] இது ஒரு சட்ட ஆய்வுக் கட்டுரை (Nvidia தலைமை நிர்வாகி தொடர்பான
+[publish] தாய்மையின் போது மனநலப் பிரச்சினைகளுக்கு ஆலோசனை வேண்டும்
+[skip] வெளிநாட்டுத் திரையுலக நடிகரின் ஆங்கில நேர்காணல். தமிழ்நாட்டு
+[skip] IPL வர்த்தக செய்திகள் — வீரர் பரிமாற்றம் — தமிழ்நாடு அணி அல்
+[skip] அமெரிக்கா உல்லாசப் பயணம் மற்றும் கல்வி நிகழ்வு — தமிழ்நாடு வ
+[filler] tech கட்டுரை
 [image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹11978 · சென்செக்ஸ் 82053
+[market] தங்கம் 22K ₹11996 · சென்செக்ஸ் 82105
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 9
