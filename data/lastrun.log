@@ -1,51 +1,51 @@
-[expire] f4eec4b647ef
+[expire] 5718a376b68a
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 0 புதியவை
+[fetch] ET Markets: 18 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 13 புதியவை
-[fetch] Dinamani TN: 22 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 14 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 18 புதியவை
+[fetch] The Hindu TN: 10 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 17 புதியவை
+[fetch] Al Jazeera: 21 புதியவை
+[fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 8 புதியவை
-[fetch] Cinema Express: 21 புதியவை
-[fetch] The Hindu Tech: 24 புதியவை
+[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] Cinema Express: 20 புதியவை
+[fetch] The Hindu Tech: 16 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 18 புதியவை
+[fetch] The Hindu Health: 16 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 7 புதியவை
-[fetch] Sarkari Result: 10 புதியவை
-[fetch] The Hindu Jobs: 0 புதியவை
+[fetch] FreeJobAlert: 28 புதியவை
+[fetch] Sarkari Result: 0 புதியவை
+[fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 3 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 23 புதியவை
+[fetch] Bar and Bench: 4 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
-[fetch] Dinamani Cinema: 22 புதியவை
+[fetch] Dinamani Cinema: 21 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 23 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
-[fetch] Indian Express India: 30 புதியவை
+[fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
-[fetch] Indian Express Cinema: 7 புதியவை
+[fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
 [fetch] Sportstar: 30 புதியவை
@@ -57,71 +57,86 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x716d7d2fd1d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 23 புதியவை
-[fetch] Dinamani Govt: 22 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7d73780274d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 22 புதியவை
+[fetch] TN Police News: 9 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 634 → நிகழ்வுகள் 590
-[triage] 590 → 47 | காலி: govt:4, tn:3, india:3, world:3, economy:3
-[skip] महाराष्ट्र மாநில மருத்துவக் கல்லூரியின் உள்ளூர் வேலைவாய்ப்பு
-[skip] காஷ்மீரின் உள்ளூர் சுகாதாரப் பிரச்சினை — தமிழ்நாட்டு வாசகருக
-[skip] வெளிநாட்டுப் படம் — தமிழ்நாடு/இந்தியத் திரையுலகம் தொடர்புடைய
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — தென்னாப்பிரிக்கா vs விரோधி நா
-[image] களஞ்சியம் (3 சொல்): சென்னையில் போலி போக்சோ வழக்கு, இன்
-[tts-edge] 32e8b8da8e8f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சென்னையில் போலி போக்சோ வழக்கு, இன்ஸ்பெக்டர், கான்ஸ்டபிள் பணியிடை நீக்கம்
-[skip] மூலம் ஒரு live blog தலைப்பு மட்டுமே; திட்டவட்டமான தேதி, எண்,
-[image] களஞ்சியம் (2 சொல்): மதுரையில் காவல் காவலில் தேனி ஓட்டு
-[tts-edge] e787bacdfb78: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மதுரையில் காவல் காவலில் தேனி ஓட்டுநர் மரணம், மூவர் இடைநீக்கம்
-[publish] எம்எல்ஏ குறுஞ்செய்தி விவகாரம்: மகளிர் ஆணையம் விசாரணை
+[run] புதியவை 632 → நிகழ்வுகள் 567
+[triage] 567 → 72 | காலி: govt:4, india:3, economy:3, jobs:3, health:3
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] பின்னணி: ডিআর কঙ্গো-র ইবোলা প্রাদুষ্যিক দেশীয় আঞ্চলিক সংকট,
-[திருத்தம்] சட்டம் ஒழுங்கு விவகாரம்: அமைச்சர் விஸ்வந → சட்ட ஒழுங்கு விவகாரம்: அமைச்சர் விஸ்வநாத
-[தரம்] தமிழ் அல்லாத எழுத்து: ক → ஒரு திருத்தம்
-[publish] சட்ட ஒழுங்கு விவகாரம்: அமைச்சர் விஸ்வநாதன், செல்வபெருந்தகை வாக்குவாதம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch5g2LrVLVeoZJKJaj8sh'}
-[திருத்தம்] பெண்ணுக்கு பாலியல் தொல்லை வழக்கு: தவெக ந → பெண்ணுக்கு பாலியல் தொல்லை வழக்கு: தமிழக 
-[image] களஞ்சியம் (2 சொல்): பெண்ணுக்கு பாலியல் தொல்லை வழக்கு: 
-[hold] பெண்ணுக்கு பாலியல் தொல்லை வழக்கு: தமிழக வெற்றிக் கழகத்தின் நிர்வாகிகள் இருவர் கைது
-[நகல்] ஏற்கனவே வெளியானது: போதைப்பொருள் புழக்கத்தைக் கட்டுப்படுத்தத் தவறினால் பணியிடை ந
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்குத் தேவையான விவரங
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch5gDVgccXU3iZz6ZX32e'}
-[திருத்தம்] போலி போக்சோ வழக்கு: சென்னையில் இரு போலீச → போலி போக்சோ வழக்கு: சென்னையில் இரு காவல்
-[நகல்] ஏற்கனவே வெளியானது: சென்னையில் போலி போக்சோ வழக்கு, இன்ஸ்பெக்டர், கான்ஸ்டபிள் பணி
-[திருத்தம்] ரஷியா எல்லைச் சாவடிகளை மூட எஸ்தோனியா முட → எஸ்தோனியா ரஷியாவுடனான எல்லைச் சாவடிகளை ம
-[publish] எஸ்தோனியா ரஷியாவுடனான எல்லைச் சாவடிகளை மூடுகிறது
-[skip] இஸ்রேல் உள்நாட்டு அரசியல் — இந்தியா/தமிழ்நாட்டு வாசகருக்கு ந
-[skip] வெளிநாட்டு நாடுகளின் பரஸ்பர இராజதந்திர அறிக்கை. இஸ்ரேல்-பாலஸ
-[skip] யேமனின் உள்நாட்டுப் போரில் ஹூத்தி தரப்பின் கைதிகளை விடுதலை ச
-[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாடு/இந்தியவாசகரைப் பொதுவா
-[skip] கார்ட் மண்டபத் தாக்குதல் — ஜோர்டான் நாட்டின் உள்நாட்டு குற்ற
-[skip] தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்வுக்குப் பொருத்தமில்ல
-[skip] யேமன் உள் அரசியல் மற்றும் ராணுவ நிலைமாற்றம். தமிழ்நாடு / இந்
-[publish] சென்னை மாநகராட்சியின் எழுபது கிலோமீட்டர் சாலைகள் நெடுஞ்சாலைத் துறைக்கு மாற்றம்
-[திருத்தம்] கொடுங்கையூரில் பேருந்து நடத்துநர் மீது க → கொடுங்கையூரில் பேருந்து நடத்துநர் மீது க
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): கொடுங்கையூரில் பேருந்து நடத்துநர் 
-[publish] கொடுங்கையூரில் பேருந்து நடத்துநர் மீது கும்பல் தாக்குதல், கும்பலைத் தேடி காவல் துறை மதுரைக்குப் பயணம்
-[திருத்தம்] கரமடை தவெக பதவியாளர் மீது பாலியல் தொல்லை → கரமடை தவெக ஒன்றியச் செயலாளர் மீது பாலியல
-[publish] கரமடை தவெக ஒன்றியச் செயலாளர் மீது பாலியல் தொல்லை வழக்கு விசாரணை தீவிரம்
-[திருத்தம்] அமைச்சர் நிகழ்ச்சியில் மின்தடை, இளநிலைப் → அமைச்சர் பங்கேற்ற நிகழ்ச்சியில் மின்தடை:
-[publish] அமைச்சர் பங்கேற்ற நிகழ்ச்சியில் மின்தடை: இளநிலைப் பொறியாளர் பணிநீக்கம்
-[brief] காலை brief தயார்
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: அமைச்சர் முன் மின்தடை: பொறியாளர் பணிநீக்கம் நியாயமா?
-[market] தங்கம் 22K ₹12097 · சென்செக்ஸ் 81592
+[skip] கொங்கோவின் உள்நாட்டு சுகாதார நংக। தமிழ்நாடு/இந்தியவாசகரைப் ந
+[tts-edge] e6b5da929d8e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ராமாயணம் ₹1,000 கோடி வசூல் தாண்டிய 11-ஆம் இந்திய படம்
+[தரம்] தமிழ் அல்லாத எழுத்து: আইরিയ → ஒரு திருத்தம்
+[tts-edge] 9556d40450f3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சர்வதேச கிரிக்கெட் கவுன்சில் தலைவராக ஜே ஷா மீண்டும் தேர்வு
+[image] களஞ்சியம் (2 சொல்): வங்கக் கடலில் காற்றழுத்தத் தாழ்வு,
+[publish] வங்கக் கடலில் காற்றழுத்தத் தாழ்வு, ஆக்வான் புயலாக மாறும் அபாயம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch6DXG7uVNibwWAMZrvVW'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): சின்னசேலத்தில் ஏரியில் மூன்று சிறு
+[publish] சின்னசேலத்தில் ஏரியில் மூன்று சிறுவர்கள் சடலமாக மீட்பு
+[திருத்தம்] வங்கக்கடலில் புயல் உருவாக வாய்ப்பு, தமிழ → வங்கக் கடலில் புயல் உருவாக வாய்ப்பு, தமி
+[image] களஞ்சியம் (2 சொல்): வங்கக் கடலில் புயல் உருவாக வாய்ப்ப
+[publish] வங்கக் கடலில் புயல் உருவாக வாய்ப்பு, தமிழகத்திற்கு எச்சரிக்கை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch6Di97n7cYrdACJeKcsX'}
+[திருத்தம்] திமுக ஆட்சியில் பதிவான 92,000 வழக்குகள்  → திமுக ஆட்சியில் பதியப்பட்ட 92,000 வழக்கு
+[image] களஞ்சியம் (2 சொல்): திமுக ஆட்சியில் பதியப்பட்ட 92,000 
+[publish] திமுக ஆட்சியில் பதியப்பட்ட 92,000 வழக்குகள் ரத்து செய்ய தமிழ்நாடு அரசு உத்தரவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch6DoZYrCmZjkqJyxGNTt'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; புயல் பாதை, தீவிரம், அதிகா
+[திருத்தம்] ரூ.400 கோடி மோசடி வழக்கு முன்னாள் எம்.எல → ரூ.400 கோடி மோசடி வழக்கு: முன்னாள் எம்.எ
+[image] களஞ்சியம் (2 சொல்): ரூ.400 கோடி மோசடி வழக்கு: முன்னாள்
+[publish] ரூ.400 கோடி மோசடி வழக்கு: முன்னாள் எம்.எல்.ஏ. முத்துக்குமாருக்கு நவம்பர் 16 வரை நீதிமன்றக் காவல்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, புயல் பற்றிய விவரங்கள் (இட
+[திருத்தம்] சென்னையில் நாளை முதல் பலத்த மழைக்கு வாய் → சென்னையில் நாளைமுதல் பலத்த மழைக்கு வாய்ப
+[தரம்] தமிழ் அல்லாத எழுத்து: र → ஒரு திருத்தம்
+[publish] சென்னையில் நாளைமுதல் பலத்த மழைக்கு வாய்ப்பு
+[skip] இது தனிப்பட்ட சில என்பிஎஃப்சி நிறுவனங்களின் பதிவு ரத்து/surr
+[skip] தாய்லாந்தின் உள்ளூர் விபத்து — தமிழ்நாடு/இந்திய வாசகரைப் பாத
+[skip] அமெரிக்க உள்நாட்டு விமான போக்குவரத்து நிர்வாகம். தமிழ்நாடு/இ
+[publish] செப்டம்பரில் இந்தியாவின் நடப்புக் கணக்கு பற்றாக்குறை உயர்வு, ரிசர்வ் வங்கி தரவு
+[skip] இந்தியாவின் உள்நாட்டு அரசியல் போராட்டம்; தமிழ்நாட்டுக்கு நேர
+[skip] world category ஆனாலும், இது தமிழ்நாடு/இந்திய வாசகரைப் பாதிக்
+[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்கத் தெரியவில்லை. உலக செய்த
+[skip] வெளிநாட்டு அரசுகளுக் கிடையிலான மோதல் — தமிழ்நாட்டு வாசகர்களு
+[skip] யேமன் உள்நாட்டுப் போர் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர
+[skip] உலகச் செய்திகளில் உக்ரைன்-ரஷ்ய போரின் தொழில்நுட்ப பக்கம் மட்
+[skip] வெளிநாட்டுத் தொழில்நுட்பப் பெருமனிய சர்ச்சை — தமிழ்நாடு/இந்த
+[skip] வெளிநாட்டு உள்ளூர் குற்றச் செய்தி — மெக்சிகோ ஒழுங்குமுறை நிர
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — ஹைதியின் உள்ளூர் தேர்தல் நிகழ
+[skip] பொதுவான வெளிநாட்டு விபத்து — தமிழ்நாடு/இந்தியத் வாசகருக்குப்
+[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — தமிழ்நாடு/இந்தியாவுக்குத் தேவ
+[skip] வெளிநாட்டு பகுப்பாய்வு/கருத்துரை — தமிழ்நாடு/இந்தியக் கவனம் 
+[skip] இரான்-அமெரிக்கா மோதல் வெளிநாட்டு உள்நாட்டுக் கொள்கை; தமிழ்நா
+[skip] வெளிநாட்டு அரசியல் — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு 
+[skip] ஹைதியின் உள்நாட்டுத் தேர்தல் செய்திக்கு தமிழ்நாடு வாசகர்களுக
+[skip] உலக செய்திகளில் ஒரு மாநிலத்தின் உள்ளூர் சுற்றுச்சூழல் சிக்கல
+[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காத சீனா-தென்கிழக்கு ஆசிய 
+[skip] யெமனின் உள்நாட்டு ராணுவ மோதல். தமிழ்நாடு/இந்தியாவுடன் நேரடித
+[skip] பெரு நாட்டின் உள்நாட்டு விபத்து மற்றும் சுற்றுச்சூழல் கூற்று
+[skip] வெளிநாட்டுச் சுற்றுச்சூழல் நிகழ்வு — தமிழ்நாடு/இந்தியக் வாசக
+[skip] வெளிநாட்டின் உள்ளூர் குற்றச் செய்தி. மெக்சிகோவின் போதைப்பொரு
+[skip] வெளிநாட்டின் உள்ளூர் பொருளாதார விவகாரம் — தமிழ்நாடு அல்லது இ
+[திருத்தம்] ஆந்திரா நோக்கி புயல் அச்சுறுத்தல், தமிழ் → ஆந்திரா நோக்கி புயல் அச்சுறுத்தல்; தமிழ்
+[image] களஞ்சியம் (2 சொல்): ஆந்திரா நோக்கி புயல் அச்சுறுத்தல்;
+[publish] ஆந்திரா நோக்கி புயல் அச்சுறுத்தல்; தமிழ்நாட்டில் மழை எச்சரிக்கை
+[filler] health கட்டுரை
+[jobs] தொகுப்பு 3
+[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹11978 · சென்செக்ஸ் 82053
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 10
