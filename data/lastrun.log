@@ -1,22 +1,23 @@
+[expire] f4eec4b647ef
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 3 புதியவை
+[fetch] ET Markets: 0 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 24 புதியவை
+[fetch] The Hindu TN: 13 புதியவை
+[fetch] Dinamani TN: 22 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 12 புதியவை
-[fetch] Al Jazeera: 22 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] BBC World: 14 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 18 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 8 புதியவை
 [fetch] Cinema Express: 21 புதியவை
 [fetch] The Hindu Tech: 24 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 18 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 8 புதியவை
+[fetch] FreeJobAlert: 7 புதியவை
 [fetch] Sarkari Result: 10 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -29,14 +30,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] The Hindu Legal: 23 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 22 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 23 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 30 புதியவை
@@ -56,74 +57,71 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x72f3eea670d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 24 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x716d7d2fd1d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 23 புதியவை
+[fetch] Dinamani Govt: 22 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 22 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 659 → நிகழ்வுகள் 609
-[triage] 609 → 45 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] மகாராஷ்டிரா மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்புகள் (M
-[skip] பொது சுகாதார தகவல் — தமிழ்நாட்டுக்குப் பொருத்தமான செய்தி அல்
-[skip] வெளிமாநிலச் சினிமா — தெலుங்குப் படங்கள். தமிழ்நாட்டுடன் நேரட
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (WPL) நிষ்பத்திய மாநாட்டுத் திட
-[image] களஞ்சியம் (2 சொல்): கள்ளக்குறிச்சி விவகாரத்தில் விசாரண
-[tts-edge] 17cb82a08cd9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கள்ளக்குறிச்சி விவகாரத்தில் விசாரணைக்கு தேசிய மகளிர் ஆணையம் உத்தரவு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch5LsZEfKvdpR3q4RYrwK'}
-[திருத்தம்] தொழிலதிபரிடம் லஞ்சம் பெற்று பொய் வழக்கு: → தொழிலதிபரிடம் ரூ. 5.50 லட்சம் லஞ்சம் பெற
-[image] களஞ்சியம் (2 சொல்): தொழிலதிபரிடம் ரூ. 5.50 லட்சம் லஞ்ச
-[tts-edge] b08fabfcd667: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தொழிலதிபரிடம் ரூ. 5.50 லட்சம் லஞ்சம் பெற்று இளைஞர் மீது பொய் வழக்கு: ஆய்வாளர், காவலர் பணி நீக்கம்
-[image] களஞ்சியம் (3 சொல்): மனைவி இழப்பால் மனமுடைந்து 81 வயது 
-[publish] மனைவி இழப்பால் மனமுடைந்து 81 வயது முதியவர் உயிரிழப்பு
-[image] களஞ்சியம் (2 சொல்): வேலூரில் மகன் இறந்த துயரத்தில் தந்
-[publish] வேலூரில் மகன் இறந்த துயரத்தில் தந்தை உயிரிழப்பு
-[திருத்தம்] போதைப்பொருள் கட்டுப்பாட்டில் தவறினால் பண → போதைப்பொருள் புழக்கத்தைக் கட்டுப்படுத்தத
-[publish] போதைப்பொருள் புழக்கத்தைக் கட்டுப்படுத்தத் தவறினால் பணியிடை நீக்கம்: டிஜிபி எச்சரிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch5M7oakncfStMsDrdDQV'}
-[skip] பொதுவான உலகச் செய்தி; தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு
-[skip] உலகச் செய்தி ஆனால் தமிழ்நாடு/இந்திய வாசகருக்குத் தக்கவாறு உட
-[திருத்தம்] கோடனாடு எஸ்டேட் சாலையை பொதுச் சாலையாக மா → கோடனாடு எஸ்டேட் சாலையை பொதுச் சாலையாக மா
-[publish] கோடனாடு எஸ்டேட் சாலையை பொதுச் சாலையாக மாற்ற அரசு நிலம் கையகப்படுத்த வேண்டும்: சென்னை உயர்நீதிமன்றத்தில் பொதுநல வழக்கு
-[திருத்தம்] பகுதிநேர விரிவுரையாளர் ஊதிய உயர்வு கோரிக → பகுதிநேர விரிவுரையாளர்களுக்கு ஊதிய உயர்வ
-[publish] பகுதிநேர விரிவுரையாளர்களுக்கு ஊதிய உயர்வு கோரிக்கை வைத்த அன்புமணி
+[run] புதியவை 634 → நிகழ்வுகள் 590
+[triage] 590 → 47 | காலி: govt:4, tn:3, india:3, world:3, economy:3
+[skip] महाराष्ट्र மாநில மருத்துவக் கல்லூரியின் உள்ளூர் வேலைவாய்ப்பு
+[skip] காஷ்மீரின் உள்ளூர் சுகாதாரப் பிரச்சினை — தமிழ்நாட்டு வாசகருக
+[skip] வெளிநாட்டுப் படம் — தமிழ்நாடு/இந்தியத் திரையுலகம் தொடர்புடைய
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் — தென்னாப்பிரிக்கா vs விரோधி நா
+[image] களஞ்சியம் (3 சொல்): சென்னையில் போலி போக்சோ வழக்கு, இன்
+[tts-edge] 32e8b8da8e8f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னையில் போலி போக்சோ வழக்கு, இன்ஸ்பெக்டர், கான்ஸ்டபிள் பணியிடை நீக்கம்
+[skip] மூலம் ஒரு live blog தலைப்பு மட்டுமே; திட்டவட்டமான தேதி, எண்,
+[image] களஞ்சியம் (2 சொல்): மதுரையில் காவல் காவலில் தேனி ஓட்டு
+[tts-edge] e787bacdfb78: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] மதுரையில் காவல் காவலில் தேனி ஓட்டுநர் மரணம், மூவர் இடைநீக்கம்
+[publish] எம்எல்ஏ குறுஞ்செய்தி விவகாரம்: மகளிர் ஆணையம் விசாரணை
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி உரை இல்லை என்ப
-[திருத்தம்] கடலூர், புதுச்சேரியில் ஒன்றாம் எண் புயல் → கடலூர், புதுச்சேரியில் ஒன்றாம் எண் புயல்
-[image] களஞ்சியம் (2 சொல்): கடலூர், புதுச்சேரியில் ஒன்றாம் எண்
-[publish] கடலூர், புதுச்சேரியில் ஒன்றாம் எண் புயல் எச்சரிக்கைக் கூண்டு ஏற்றம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உள்ளடக்கம் இல்லை எ
-[திருத்தம்] ஆந்திரத்தை நோக்கி நகரும் அக்வான் புயல்:  → ஆந்திரத்தை நோக்கி நகரும் 'அக்வான்' புயல்
-[image] களஞ்சியம் (2 சொல்): ஆந்திரத்தை நோக்கி நகரும் 'அக்வான்'
-[publish] ஆந்திரத்தை நோக்கி நகரும் 'அக்வான்' புயல்: வானிலை ஆய்வு மையம் தகவல்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch5MTxwsokomKY5i7mp2N'}
-[skip] இது கேரளா மாநிலத்தின் உள்ளூர் விபத்துச் செய்தி; தமிழ்நாட்டுட
-[skip] மூலத்தில் ஒன்றிரண்டு வாக்கியங்கள் மட்டுமே உள்ளன; மாநாட்டின் 
-[திருத்தம்] இளவரசர் வில்லியம், இளவரசி கேட் இந்தியா வ → இளவரசர் வில்லியம், இளவரசி கேட் இந்தியா வ
-[image] களஞ்சியம் (2 சொல்): இளவரசர் வில்லியம், இளவரசி கேட் இந்
-[publish] இளவரசர் வில்லியம், இளவரசி கேட் இந்தியா வருகை; மோடியைச் சந்திப்பு
-[comic] கதை: கொள்ளிடத்தில் படகுப் பயணம்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.86) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3: பலகை 2-ஐப் போலவே உள்ளது (0.93) — மீண்டும் வரைகிறேன்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-16.png · நாள் 68
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹12088 · சென்செக்ஸ் 81592
-[weather] பிழை 'current'
+[skip] பின்னணி: ডিআর কঙ্গো-র ইবোলা প্রাদুষ্যিক দেশীয় আঞ্চলিক সংকট,
+[திருத்தம்] சட்டம் ஒழுங்கு விவகாரம்: அமைச்சர் விஸ்வந → சட்ட ஒழுங்கு விவகாரம்: அமைச்சர் விஸ்வநாத
+[தரம்] தமிழ் அல்லாத எழுத்து: ক → ஒரு திருத்தம்
+[publish] சட்ட ஒழுங்கு விவகாரம்: அமைச்சர் விஸ்வநாதன், செல்வபெருந்தகை வாக்குவாதம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch5g2LrVLVeoZJKJaj8sh'}
+[திருத்தம்] பெண்ணுக்கு பாலியல் தொல்லை வழக்கு: தவெக ந → பெண்ணுக்கு பாலியல் தொல்லை வழக்கு: தமிழக 
+[image] களஞ்சியம் (2 சொல்): பெண்ணுக்கு பாலியல் தொல்லை வழக்கு: 
+[hold] பெண்ணுக்கு பாலியல் தொல்லை வழக்கு: தமிழக வெற்றிக் கழகத்தின் நிர்வாகிகள் இருவர் கைது
+[நகல்] ஏற்கனவே வெளியானது: போதைப்பொருள் புழக்கத்தைக் கட்டுப்படுத்தத் தவறினால் பணியிடை ந
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்குத் தேவையான விவரங
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch5gDVgccXU3iZz6ZX32e'}
+[திருத்தம்] போலி போக்சோ வழக்கு: சென்னையில் இரு போலீச → போலி போக்சோ வழக்கு: சென்னையில் இரு காவல்
+[நகல்] ஏற்கனவே வெளியானது: சென்னையில் போலி போக்சோ வழக்கு, இன்ஸ்பெக்டர், கான்ஸ்டபிள் பணி
+[திருத்தம்] ரஷியா எல்லைச் சாவடிகளை மூட எஸ்தோனியா முட → எஸ்தோனியா ரஷியாவுடனான எல்லைச் சாவடிகளை ம
+[publish] எஸ்தோனியா ரஷியாவுடனான எல்லைச் சாவடிகளை மூடுகிறது
+[skip] இஸ்রேல் உள்நாட்டு அரசியல் — இந்தியா/தமிழ்நாட்டு வாசகருக்கு ந
+[skip] வெளிநாட்டு நாடுகளின் பரஸ்பர இராజதந்திர அறிக்கை. இஸ்ரேல்-பாலஸ
+[skip] யேமனின் உள்நாட்டுப் போரில் ஹூத்தி தரப்பின் கைதிகளை விடுதலை ச
+[skip] வெளிநாட்டு உள்நாட்டு மோதல் — தமிழ்நாடு/இந்தியவாசகரைப் பொதுவா
+[skip] கார்ட் மண்டபத் தாக்குதல் — ஜோர்டான் நாட்டின் உள்நாட்டு குற்ற
+[skip] தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்வுக்குப் பொருத்தமில்ல
+[skip] யேமன் உள் அரசியல் மற்றும் ராணுவ நிலைமாற்றம். தமிழ்நாடு / இந்
+[publish] சென்னை மாநகராட்சியின் எழுபது கிலோமீட்டர் சாலைகள் நெடுஞ்சாலைத் துறைக்கு மாற்றம்
+[திருத்தம்] கொடுங்கையூரில் பேருந்து நடத்துநர் மீது க → கொடுங்கையூரில் பேருந்து நடத்துநர் மீது க
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): கொடுங்கையூரில் பேருந்து நடத்துநர் 
+[publish] கொடுங்கையூரில் பேருந்து நடத்துநர் மீது கும்பல் தாக்குதல், கும்பலைத் தேடி காவல் துறை மதுரைக்குப் பயணம்
+[திருத்தம்] கரமடை தவெக பதவியாளர் மீது பாலியல் தொல்லை → கரமடை தவெக ஒன்றியச் செயலாளர் மீது பாலியல
+[publish] கரமடை தவெக ஒன்றியச் செயலாளர் மீது பாலியல் தொல்லை வழக்கு விசாரணை தீவிரம்
+[திருத்தம்] அமைச்சர் நிகழ்ச்சியில் மின்தடை, இளநிலைப் → அமைச்சர் பங்கேற்ற நிகழ்ச்சியில் மின்தடை:
+[publish] அமைச்சர் பங்கேற்ற நிகழ்ச்சியில் மின்தடை: இளநிலைப் பொறியாளர் பணிநீக்கம்
+[brief] காலை brief தயார்
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: அமைச்சர் முன் மின்தடை: பொறியாளர் பணிநீக்கம் நியாயமா?
+[market] தங்கம் 22K ₹12097 · சென்செக்ஸ் 81592
+[weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 10
