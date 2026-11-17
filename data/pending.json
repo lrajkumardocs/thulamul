@@ -1,1 +1,72 @@
-[]
+[
+ {
+  "headline": "சென்னைக்கு விடுக்கப்பட்ட கனமழை ஆரஞ்சு எச்சரிக்கை திரும்பப் பெறப்பட்டது",
+  "lines": [
+   "சென்னைக்கு நவம்பர் பத்தொன்பதாம் தேதிக்கு விடுக்கப்பட்டிருந்த கனமழை ஆரஞ்சு எச்சரிக்கை திரும்பப் பெறப்பட்டுள்ளது.",
+   "முதலில் வானிலை ஆய்வு மையம் சென்னைக்குக் கனமழை குறித்த ஆரஞ்சு அபாய எச்சரிக்கையை வெளியிட்டிருந்தது.",
+   "பின்னர் அந்த எச்சரிக்கையை வானிலை ஆய்வு மையமே வாபஸ் பெற்றதாக அறிவித்துள்ளது.",
+   "மழை அளவு எதிர்பார்த்ததை விடக் குறைவாக இருக்கலாம் என்பதால் எச்சரிக்கை மாற்றப்பட்டதாகத் தகவல்கள் தெரிவிக்கின்றன.",
+   "வானிலை மாற்றங்களைக் கவனித்து, வரும் நாட்களில் அதிகாரப்பூர்வ அறிவிப்புகளைப் பின்பற்றுமாறு மக்களுக்குத் தெரிவிக்கப்பட்டுள்ளது."
+  ],
+  "closing": "ஆரஞ்சு எச்சரிக்கை என்பது கனமழைக்கான இரண்டாம் நிலை அபாய அறிவிப்பு என்பது குறிப்பிடத்தக்கது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "சென்னை",
+   "வானிலை ஆய்வு மையம்",
+   "ஆரஞ்சு எச்சரிக்கை",
+   "கனமழை"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Orange heavy rain alert for Chennai withdrawn by weather office",
+   "lines": [
+    "The orange heavy rain warning issued for Chennai for November nineteen has been withdrawn.",
+    "Earlier, the weather department had issued an orange alert warning of heavy rain in Chennai.",
+    "Later, the weather department itself announced that the alert has been withdrawn.",
+    "Reports indicate the alert was revised as rainfall intensity may be lower than earlier expected.",
+    "People have been advised to monitor weather changes and follow official updates in the coming days."
+   ],
+   "closing": "It may be noted that an orange alert is the second-highest level of rainfall warning."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "heavy rain weather warning chennai",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "numbers_conflict",
+   "single_source"
+  ],
+  "id": "ca55c7e27b76",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-18T00:30+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/17/heavy-rain-warning-for-chennai-on-nov-19",
+   "https://www.dinamani.com/tamilnadu/2026/Nov/17/orange-alert-issued-for-chennai-for-tomorrow-has-been-withdrawn"
+  ],
+  "image": {
+   "url": "data/bank/weather04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/ca55c7e27b76.mp3",
+  "created_ts": 1794942006.2298515,
+  "status": "pending"
+ }
+]

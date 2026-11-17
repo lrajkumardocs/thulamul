@@ -1,21 +1,21 @@
-[fetch] RBI: 8 புதியவை
+[fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 27 புதியவை
+[fetch] The Hindu TN: 25 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 6 புதியவை
-[fetch] BBC World: 20 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 21 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
-[fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 4 புதியவை
+[fetch] ESPNcricinfo: 27 புதியவை
+[fetch] The Hindu Sport: 30 புதியவை
+[fetch] The Hindu Cinema: 6 புதியவை
 [fetch] Cinema Express: 26 புதியவை
 [fetch] The Hindu Tech: 20 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 23 புதியவை
-[fetch] The Hindu Agriculture: 0 புதியவை
+[fetch] The Hindu Agriculture: 1 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
@@ -23,20 +23,20 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
 [fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 30 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 4 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x791903701790>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x775e3b6dd8d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,67 +65,55 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 29 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 730 → நிகழ்வுகள் 655
-[triage] 655 → 76 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch8FTzavj5jZYkrjMf7fE'}
-[skip] IISER மொஹாலி (பஞ்சாப்) மற்றும் ICAR-CPCRI (கேரளா) ஆகியவை தமி
-[skip] கேരளாவின் உள்ளூர் சுகாதார செய்தி — தமிழ்நாட்டு வாசகரைப் பாதி
+[run] புதியவை 727 → நிகழ்வுகள் 651
+[triage] 651 → 67 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது கர்நாடகா உயர் நீதிமன்றத்தின் உள்ளூர் வழக்கு தொடர்பான செய
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch91N8bqKDa75JRie8kUf'}
+[திருத்தம்] சென்னையில் பத்து வயது சிறுவனுக்கு நெஞ்சக → சென்னையில் பத்து வயது சிறுவனுக்கு அரிய க
+[tts-edge] 1464f4a911ed: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சென்னையில் பத்து வயது சிறுவனுக்கு அரிய குருதிக் குழாய் நோயுக்கான சிக்கலான அதிய அறுவை சிகிச்சை
+[திருத்தம்] தனுஷ், மம்முட்டির 'ஓ.எம்' இயக்குனர் ராஜ் → தனுஷ், மம்முட்டி நடித்த 'ஓ.எம்'-ல் இயக்க
+[tts-edge] 7079d1f6ff82: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தனுஷ், மம்முட்டி நடித்த 'ஓ.எம்'-ல் இயக்குனர் ராஜ்குமார் பெரியசாமி பேட்டி
+[skip] வெளிநாட்டு விளையாட்டு வீரர்களின் IPL நியமன/நீக்கம் செய்திகள்
+[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
+[publish] கிரிமியப் பாலத்தின் மீது ஏழு கட்ட தாக்குதல், பெரும் சேதம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch91a57pWawwGPKWeg17E'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (ஆஸ்திரேலிய பெண்கள் கிரிக்கெட் 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch8FZ7igNHxvF9KVEcRZh'}
-[image] களஞ்சியம் (2 சொல்): கள்ளக்குறிச்சி ஏரியில் மூன்று சிறு
-[tts-edge] 05554c22db62: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கள்ளக்குறிச்சி ஏரியில் மூன்று சிறுவர்கள் உயிரிழப்பு
-[image] களஞ்சியம் (2 சொல்): உக்ரைன் தெற்குப் பகுதியில் இரட்டைத
-[tts-edge] b1602a2dbd67: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] உக்ரைன் தெற்குப் பகுதியில் இரட்டைத் தாக்குதலில் எழுபத்திரண்டு பேர் பலி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch8FiLY7Kv4T5omPSLEfg'}
-[திருத்தம்] புயல் அக்வான் காரணமாக கடலோர தமிழகத்தில்  → புயல் அக்வான் காரணமாக கடலோர தமிழகத்தில் 
-[image] களஞ்சியம் (3 சொல்): புயல் அக்வான் காரணமாக கடலோர தமிழகத
-[publish] புயல் அக்வான் காரணமாக கடலோர தமிழகத்தில் நவம்பர் 17-ல் லேசான மழை
-[image] களஞ்சியம் (2 சொல்): ஆந்திரக் கரையைக் கடக்கும் அக்வான் 
-[publish] ஆந்திரக் கரையைக் கடக்கும் அக்வான் புயல், சென்னைக்கு ஆரஞ்சு எச்சரிக்கை
-[skip] உலக அளவில் முக்கியமான செய்தியே ஆனாலும், தமிழ்நாடு வாசகர்களுக
-[skip] மொজாம்பிக் உள் அரசியல் — தமிழ்நாடு/இந்தியாவுக்குத் தேவையற்ற 
-[skip] உலக அரசியல் மோதல் — தமிழ்நாட்டு வாசகரின் அன்றாட வாழ்க்கையை ந
-[skip] வெளிநாட்டு உள்நாட்டு갈등 — தமிழ்நாடு/இந்தியாவுக்குத் தெரிந்த த
-[image] களஞ்சியம் (2 சொல்): சட்டவிரோத மணல் அகழ்வு வழக்கு - துர
-[publish] சட்டவிரோத மணல் அகழ்வு வழக்கு - துரைமுருகன் உள்ளிட்டோர் மீது குற்றச்சாட்டு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch91fpH21fgrhrsrxtuZe'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch91iXAhEzou1TsQwRNmM'}
+[skip] மூலத்தில் ஒரு BBC நிருபரின் க்ளிப் குறிப்பு மட்டுமே உள்ளது; 
+[image] களஞ்சியம் (2 சொல்): சென்னைக்கு விடுக்கப்பட்ட கனமழை ஆரஞ
+[hold] சென்னைக்கு விடுக்கப்பட்ட கனமழை ஆரஞ்சு எச்சரிக்கை திரும்பப் பெறப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch91tqAws22X437iGFR5d'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] அரசு அதிகாரிகளை எம்எல்ஏக்கள் மிரட்டக் கூடாது என சென்னை உயர்நீதிமன்றம் தீர்ப்பு
-[திருத்தம்] மதுரை காவல் நிலையத்தில் லாரி ஓட்டுநர் மர → செக்கனூரணி காவல் நிலையத்தில் லாரி ஓட்டுந
-[image] களஞ்சியம் (3 சொல்): செக்கனூரணி காவல் நிலையத்தில் லாரி 
-[publish] செக்கனூரணி காவல் நிலையத்தில் லாரி ஓட்டுநர் மரணம், சிபிசிஐடி புதிய வழக்கு
-[publish] கடலூரில் பறவைக் காய்ச்சல்: 23 பேர் பரிசோதனையில் H5N1 இல்லை
-[திருத்தம்] ஊட்டி ஏரியில் சுமார் 250 மீன்கள் மரணம் ம → ஊட்டி ஏரியில் சுமார் 250 இந்திய கெண்டை ம
-[தரம்] தமிழ் அல்லாத எழுத்து: ম → ஒரு திருத்தம்
-[publish] ஊட்டி ஏரியில் சுமார் 250 இந்திய கெண்டை மீன்கள் மரணம் — மாசுபாடு அச்சம்
-[திருத்தம்] கள்ளக்குறிச்சியில் தனியார் வங்கியில் 1.2 → கள்ளக்குறிச்சியில் தனியார் வங்கியிலிருந்
-[image] களஞ்சியம் (2 சொல்): கள்ளக்குறிச்சியில் தனியார் வங்கியி
-[publish] கள்ளக்குறிச்சியில் தனியார் வங்கியிலிருந்து ₹1.21 கோடி மோசடி, ஆறு பேர் கைது
-[brief] காலை brief தயார்
-[filler] economy கட்டுரை
-[jobs] தொகுப்பு 12
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: அதிகாரிகளை மிரட்டும் பிரதிநிதிகள்: எல்லை எங்கே?
-[comic] கதை: ஆற்றின் அமைதியில் எண்ணங்கள்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch91zuseWzzGCDhndFnBU'}
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[திருத்தம்] அக்வான் புயல் ஆந்திரம் நோக்கி நகர்வு வட  → அக்வான் புயல் ஆந்திரம் நோக்கி நகர்வு; வட
+[image] களஞ்சியம் (2 சொல்): அக்வான் புயல் ஆந்திரம் நோக்கி நகர்
+[publish] அக்வான் புயல் ஆந்திரம் நோக்கி நகர்வு; வட தமிழகத்தில் லேசான மழை எதிர்பார்ப்பு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டு அரசியல், பொருளாதாரம், விபத்து, சர்ச்சைக்குரிய நபர
+[skip] 2002 குஜராத் கலவரக் குற்றத் தொடர்பான உச்ச நீதிமன்றத் தீர்ப்ப
+[skip] அமெரிக்கச் செய்தி — தமிழ்நாட்டு வாசகரைப் பாதிக்கவில்லை. உலக 
+[skip] 2002ல் நடந்த வழக்கின் 2024ல் நீதிமன்றத் தீர்ப்பு தொடர்பான செ
+[skip] கோஸ்தா ரிக்கா என்பது மத்திய அமெரிக்கா நாடு. தமிழ்நாடு/இந்திய
+[skip] வெளிநாட்டு நেতாக்களின் சந்திப்பு தமிழ்நாடு/இந்தியாவுக்குப் ப
+[skip] வெளிநாட்டுத் தலைவர்களின் சாத்தியமான சந்திப்பு பற்றிய ஊகம்; த
+[skip] வெளிநாட்டுத் தொழில்நுட்பத் தகராறு — தமிழ்நாட்டு/இந்திய வாசகர
+[திருத்தம்] நடுவர் தகுதி சரிபார்க்க வழிமுறை இல்லை என → நடுவர் தகுதி சரிபார்க்க வழிமுறை இல்லை என
+[publish] நடுவர் தகுதி சரிபார்க்க வழிமுறை இல்லை என நீதிபதி ஆனந்த் வெங்கடேஷ் கருத்து
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (2 சொல்): அண்ணன் சீர் திருமண உதவித் திட்டத்த
+[publish] அண்ணன் சீர் திருமண உதவித் திட்டத்திற்கு தமிழ்நாடு அரசு வழிகாட்டுதல் வெளியீடு
+[comic] கதை: படகில் ஒரு புதிய பயணி
 [comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.82) — மீண்டும் வரைகிறேன்
+[comic:panel2] gemini-2.5-flash-image பிழை HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=180)
 [comic] பலகை 2 தயார்
-[comic] பலகை 3: பலகை 2-ஐப் போலவே உள்ளது (0.82) — மீண்டும் வரைகிறேன்
-[comic] பலகை 3: பலகை 2-ஐப் போலவே உள்ளது (0.82) — மீண்டும் வரைகிறேன்
 [comic] பலகை 3 தயார்
 [comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-17.png · நாள் 69
-[rasi] ராசிபலன் தயார்
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹11918 · சென்செக்ஸ் 82684
-[weather] புதுப்பிக்கப்பட்டது
-/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
-  warnings.warn(message, FutureWarning)
-/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
-  warnings.warn(message, FutureWarning)
-[push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 10
+[comic] பக்கம் தயார்: 2026-11-18.png · நாள் 70
