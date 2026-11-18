@@ -1,5 +1,76 @@
 [
  {
+  "headline": "சீனாவில் டிரம்ப், புடின், ஜி ஜின்பிங் முதன்முறை சந்திப்பு",
+  "lines": [
+   "அமெரிக்க அதிபர் டொனால்ட் டிரம்ப் சீனாவின் ஷென்சென் நகரை வந்தடைந்தார், இது ஏசியா-பசிபிக் பொருளாதார ஒத்துழைப்பு (ஏபிஈசி) உச்சி மாநாட்டில் கலந்துகொள்வதற்காக.",
+   "மூன்று உலகத் தலைவர்களும் — அமெரிக்க அதிபர் டொனால்ட் டிரம்ப், ரஷ்ய அதிபர் விளாடிமிர் புடின், சீன அதிபர் ஜி ஜின்பிங் — இந்த வியாழக்கிழமை முதன்முறையாக ஒன்றாகச் சந்திக்கவுள்ளனர்.",
+   "டிரம்ப் சீனாவை வந்தடைந்தபோது ஷென்சென் நகரில் பெரும் கூட்டம் அவரை வரவேற்றது.",
+   "மூன்று பெரும் வல்லரசுகளின் தலைவர்கள் ஒன்றாகக் கலந்துகொள்ளும் இந்த நிகழ்வு உலக நாடுகளின் கவனத்தை ஈர்த்துள்ளது.",
+   "வியாழக்கிழமை நடைபெறவுள்ள இந்தச் சந்திப்பில் பேசப்படும் விவரங்கள் குறித்து இதுவரை அதிகாரப்பூர்வ அறிவிப்பு வெளியாகவில்லை."
+  ],
+  "closing": "ஏசியா-பசிபிக் பொருளாதார ஒத்துழைப்பு (ஏபிஈசி) உச்சி மாநாடு தற்போது சீனாவில் நடைபெற்று வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "டொனால்ட் டிரம்ப்",
+   "விளாடிமிர் புடின்",
+   "ஜி ஜின்பிங்",
+   "சீனா",
+   "ஷென்சென்",
+   "ஏசிய பசிபிக் பொருளாதார ஒத்துழைப்பு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Trump, Putin, Xi to meet for first time together in China",
+   "lines": [
+    "US President Donald Trump arrived in Shenzhen, China, to attend the Asia-Pacific Economic Cooperation summit.",
+    "The three world leaders, Trump, Russian President Vladimir Putin and Chinese President Xi Jinping, are set to meet together for the first time this Thursday.",
+    "Large crowds gathered in Shenzhen to welcome Trump as he arrived in China.",
+    "The gathering of leaders from three major powers together has drawn attention from countries around the world.",
+    "No official details have been released yet about what will be discussed at Thursday's meeting."
+   ],
+   "closing": "The Asia-Pacific Economic Cooperation summit is currently being held in China."
+  },
+  "front_cat": "routine",
+  "image_query": "Donald Trump",
+  "wiki_subject": "",
+  "person_en": "Donald Trump",
+  "urgent": false,
+  "affected": "உலகம்",
+  "flags": [
+   "unverified_claim"
+  ],
+  "id": "eba19e73279e",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-19T00:06+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+   "https://www.aljazeera.com/video/newsfeed/2026/11/18/crowds-gather-as-trump-arrives-in-china-ahead-of-talks-with-xi-and-putin?traffic_source=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Donald Trump",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Donald_Trump",
+   "symbolic": false
+  },
+  "audio": "data/audio/eba19e73279e.mp3",
+  "created_ts": 1795026985.943072,
+  "status": "published"
+ },
+ {
   "headline": "ரஷ்யாவில் ராணுவ விமான விபத்து; 19 பேர் பலி",
   "lines": [
    "ரஷ்யாவின் சைபீரியாவில் உள்ள கெமரோவோ பகுதியில் ராணுவ விமான ஒன்று விபத்துக்குள்ளானது.",
@@ -1693,198 +1764,6 @@
   "wiki_subject": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "எத்தியோப்பியா எல்லை மோதலில் ஐம்பதாயிரத்துக்கும் மேற்பட்டோர் இடம்பெயர்வு",
-  "lines": [
-   "எத்தியோப்பியா எல்லைப் பகுதியில் நடந்த மோதல்களால் ஐம்பதாயிரத்துக்கும் மேற்பட்டோர் தங்கள் இருப்பிடங்களை விட்டு வெளியேறியுள்ளனர்.",
-   "இந்த மோதல்களில் பலர் உயிரிழந்ததாக அல் ஜசீரா செய்தி நிறுவனம் தெரிவித்துள்ளது.",
-   "உணவும் தங்குமிடமும் இல்லாமல் பல குடும்பங்கள் கென்யாவுக்குள் நுழைந்துள்ளதாகத் தகவல்கள் தெரிவிக்கின்றன.",
-   "இடம்பெயர்ந்தோரை ஏற்றுக்கொள்ளும் உள்ளூர் மக்கள் வளங்கள் போதாமையால் சிரமப்படுவதாகக் கூறப்படுகிறது.",
-   "மோதலுக்கான காரணம் மற்றும் நிவாரண நடவடிக்கைகள் குறித்து இதுவரை அதிகாரப்பூர்வத் தகவல் வெளியாகவில்லை."
-  ],
-  "closing": "எத்தியோப்பியா-கென்யா எல்லைப் பகுதியில் தொடர்ந்து நிலவும் பதற்றம் காரணமாக இடம்பெயர்வோர் எண்ணிக்கை இன்னும் அதிகரிக்கலாம்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "எத்தியோப்பியா",
-   "கென்யா",
-   "எல்லை மோதல்",
-   "இடம்பெயர்வு"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Over 50,000 displaced by deadly Ethiopia border clashes",
-   "lines": [
-    "More than 50,000 people have been displaced after deadly clashes along the Ethiopia border.",
-    "Several people are reported to have died in the fighting, according to Al Jazeera.",
-    "Families are arriving in Kenya with little food or shelter, reports say.",
-    "Host communities in Kenya are reportedly struggling to cope due to lack of resources.",
-    "No official details on the cause of the clashes or relief measures have been confirmed so far."
-   ],
-   "closing": "The displacement crisis could worsen if tensions along the Ethiopia-Kenya border continue."
-  },
-  "front_cat": "war_conflict",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": true,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "031c48b899bb",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-11-09T23:33+05:30",
-  "links": [
-   "https://www.aljazeera.com/news/2026/11/9/more-than-50000-displaced-by-deadly-ethiopia-border-clashes?traffic_source=rss"
-  ],
-  "image": {
-   "url": "data/bank/world02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/031c48b899bb.mp3",
-  "created_ts": 1794247435.570027,
-  "status": "published"
- },
- {
-  "headline": "கிரீட் தீவு அருகே படகு கவிழ்ந்து பதின்மூன்று புலம்பெயர்ந்தோர் உயிரிழப்பு",
-  "lines": [
-   "கிரீட் தீவு அருகே ஒரு படகு கடலில் கவிழ்ந்து பதின்மூன்று புலம்பெயர்ந்தோர் உயிரிழந்தனர்.",
-   "கிரேக்கக் கடலோரக் காவல்படை இந்தச் சம்பவத்தில் பதினெட்டு பேரை உயிருடன் மீட்டுள்ளதாக அறிவித்துள்ளது.",
-   "மீட்கப்பட்டவர்கள் அனைவரும் சூடான் நாட்டைச் சேர்ந்த குடிமக்கள் என்று கிரேக்க அதிகாரிகள் தெரிவித்தனர்.",
-   "மத்தியதரைக் கடல் வழியாக ஐரோப்பாவை நோக்கிச் செல்லும் புலம்பெயர்வோர் பாதை ஆபத்தானதாகவே தொடர்ந்து கருதப்படுகிறது.",
-   "மீட்பு மற்றும் விசாரணை நடவடிக்கைகள் தற்போது தொடர்ந்து நடைபெற்று வருவதாக கிரேக்க அதிகாரிகள் தெரிவித்துள்ளனர்."
-  ],
-  "closing": "மத்தியதரைக் கடல் வழியாக ஐரோப்பாவை அடைய முயலும் புலம்பெயர்வோரின் படகு விபத்துகள் அவ்வப்போது நிகழ்ந்து வருகின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "கிரீட் தீவு",
-   "கிரேக்கம்",
-   "சூடான்",
-   "கடலோரக் காவல்படை",
-   "மத்தியதரைக் கடல்"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Boat capsizes off Crete, thirteen migrants killed",
-   "lines": [
-    "A boat capsized off the Greek island of Crete, killing thirteen migrants.",
-    "The Greek coastguard said it rescued eighteen people alive from the incident.",
-    "Officials confirmed all those rescued were Sudanese nationals.",
-    "The Mediterranean route to Europe continues to be considered dangerous for migrants.",
-    "Rescue and investigation efforts are ongoing, Greek authorities said."
-   ],
-   "closing": "Boat accidents involving migrants attempting to reach Europe via the Mediterranean occur periodically."
-  },
-  "front_cat": "mass_casualty",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "உலகம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "e2d0dd2e983a",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-11-09T23:31+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/c65ynyxrjdyeo?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "data/bank/world08.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/e2d0dd2e983a.mp3",
-  "created_ts": 1794247262.6776793,
-  "status": "published"
- },
- {
-  "headline": "செனகல் கடற்கரையில் புலம்பெயர் படகு கவிழ்வு; 39 பேர் உயிரிழப்பு",
-  "lines": [
-   "மேற்கு ஆப்பிரிக்க நாடான செனகலின் கடற்கரைக்கு அருகே ஐரோப்பாவை நோக்கிச் சென்ற புலம்பெயர்ந்தோர் படகு ஒன்று கவிழ்ந்தது.",
-   "இந்த விபத்தில் குறைந்தது முப்பத்தொன்பது பேர் உயிரிழந்ததாக தகவல்கள் தெரிவிக்கின்றன.",
-   "ஸ்பெயின் நாட்டின் கேனரி தீவுகளை அடைய முயன்ற படகில் பலர் பயணித்ததாக அறியப்படுகிறது.",
-   "கேனரி தீவுகளை நோக்கிய அட்லாண்டிக் பெருங்கடல் பயணம் புலம்பெயர்வோருக்குத் தொடர்ந்து பெரும் ஆபத்தாக உள்ளது.",
-   "மீட்புப் பணிகள் தொடர்வதாகவும், விபத்து குறித்த முழு விவரங்கள் இன்னும் வெளியாகவில்லை என்றும் தெரிவிக்கப்படுகிறது."
-  ],
-  "closing": "ஐரோப்பாவை அடைய முயலும் ஆப்பிரிக்கப் புலம்பெயர்ந்தோருக்கு கேனரி தீவுகள் வழியிலான அட்லாண்டிக் கடல் பயணம் உலகின் மிகவும் ஆபத்தான வழிகளில் ஒன்றாகக் கருதப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "செனகல்",
-   "கேனரி தீவுகள்",
-   "ஸ்பெயின்",
-   "அட்லாண்டிக் பெருங்கடல்",
-   "புலம்பெயர்ந்தோர்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "At Least 39 Die After Migrant Boat Sinks Off Senegal Coast",
-   "lines": [
-    "A boat carrying migrants bound for Europe sank off the coast of Senegal in West Africa.",
-    "At least thirty nine people are reported to have died in the disaster.",
-    "The boat was reportedly attempting to reach Spain's Canary Islands with many passengers aboard.",
-    "The Atlantic crossing toward the Canary Islands continues to be a highly dangerous route for migrants.",
-    "Rescue operations are said to be ongoing, with full details of the accident yet to emerge."
-   ],
-   "closing": "The Atlantic route to Spain's Canary Islands is considered one of the deadliest migration paths for Africans seeking to reach Europe."
-  },
-  "front_cat": "mass_casualty",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "474691794557",
-  "topic_ta": "உலகம்",
-  "published_at": "2026-11-09T23:30+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "data/bank/world05.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/474691794557.mp3",
-  "created_ts": 1794247223.649174,
   "status": "published"
  }
 ]
