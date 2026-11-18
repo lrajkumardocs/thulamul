@@ -1,18 +1,17 @@
-[expire] ca55c7e27b76
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 23 புதியவை
+[fetch] The Hindu TN: 17 புதியவை
 [fetch] Dinamani TN: 29 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 16 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 11 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 26 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 5 புதியவை
-[fetch] Cinema Express: 26 புதியவை
-[fetch] The Hindu Tech: 20 புதியவை
-[fetch] Wired: 28 புதியவை
+[fetch] The Hindu Sport: 28 புதியவை
+[fetch] The Hindu Cinema: 8 புதியவை
+[fetch] Cinema Express: 28 புதியவை
+[fetch] The Hindu Tech: 22 புதியவை
+[fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 22 புதியவை
@@ -24,20 +23,20 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Read timed out. (read timeout=20)
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='icar.org.in', port=443): Failed to resolve 'icar.org.in' ([Errno -3] Temporary failure in name resolution)"))
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 16 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7e15d38e4050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7d2969bc45d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
 [fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -66,57 +65,68 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 707 → நிகழ்வுகள் 640
-[triage] 640 → 50 | காலி: tn:5, india:4, crime:4, economy:3, govt:3
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் நேரடித் தொடர்பில்லாத வேலைவா
-[skip] வெளிநாட்டுத் தொடர் — தென்னாபிரிக்கா vs பங்களாதேஷ் பரীட்சை நே
+[run] புதியவை 713 → நிகழ்வுகள் 640
+[triage] 640 → 37 | காலி: india:4, crime:4, tn:3, sports:3, economy:2
+[skip] வெளிநாட்டு உள்நாட்டு விளையாட்டு விவகாரம் — ஆஸ்திரேலியாவின் உ
+[திருத்தம்] சங்கராபுரம் அருகே பாம்பு கடியால் இரு குழ → சங்கராபுரம் அருகே பாம்பு கடியால் இரு குழ
+[image] களஞ்சியம் (2 சொல்): சங்கராபுரம் அருகே பாம்பு கடியால் இ
+[tts-edge] 8c4f196a9018: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சங்கராபுரம் அருகே பாம்பு கடியால் இரு குழந்தைகள் பலி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): அக்வான் புயல் தீவிரமடையும்: சென்னை
-[tts-edge] 5ed4f7f88324: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அக்வான் புயல் தீவிரமடையும்: சென்னை, திருவள்ளூருக்கு மஞ்சள் எச்சரிக்கை
-[tts-edge] 31c7e24129a2: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ரஷ்யாவில் ராணுவ விமான விபத்து; 19 பேர் பலி
-[skip] வெளிநாட்டு அரசியல் — தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்காது.
-[திருத்தம்] நகர்ப்புறக் கால்நடைகளுக்கு உரிமம், டேக்  → நகர்ப்புறக் கால்நடைகளுக்கு உரிமம், குறி 
-[publish] நகர்ப்புறக் கால்நடைகளுக்கு உரிமம், குறி கட்டாயம் - சென்னை உயர்நீதிமன்றம் உத்தரவு
-[skip] வெளிநாட்டுச் செய்திகளில் தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்
-[image] களஞ்சியம் (3 சொல்): திருப்பரங்குன்றம் கார்த்திகை தீப வ
-[publish] திருப்பரங்குன்றம் கார்த்திகை தீப விவகாரம்: உயர்நீதிமன்ற உத்தரவுக்கு தமிழக அரசு தடை கோரிக்கை
+[skip] தமிழ்நாட்டுச் செய்தி — 'world' துறை குறிப்பிற்கு பொருந்தாது।
+[திருத்தம்] பள்ளிக்கரணை சதுப்பு நிலக் கட்டுமானத் தடை → பள்ளிக்கரணை சதுப்பு நிலக் கட்டுமानத் தடை
+[தரம்] தமிழ் அல்லாத எழுத்து: ना → ஒரு திருத்தம்
+[tts-edge] 2d42c034fb99: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பள்ளிக்கரணை சதுப்பு நிலக் கட்டுமானத் தடை வழக்கு உச்சநீதிமன்றத்திற்கு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch9Y5qw9PYRf8EVZuXCXd'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; முழு செய்தியை
-[திருத்தம்] சமக்ர சிக்ஷா நிதி ரூ.5,000 கோடி விடுவிக் → சமக்ர சிக்ஷா நிதி ரூ.5,000 கோடி உடனடியாக
-[publish] சமக்ர சிக்ஷா நிதி ரூ.5,000 கோடி உடனடியாக விடுவிக்க அமைச்சர் ராஜ்மோகன் கோரிக்கை
-[publish] போக்ஸோ வழக்கில் வீரமணி மீது குற்றப்பத்திரிகை தாக்கல்
-[திருத்தம்] திருப்பரங்குன்றம் தீப விவகாரம்: உயர்நீதி → திருப்பரங்குன்றம் தீப விவகாரம்: உயர் நீத
-[publish] திருப்பரங்குன்றம் தீப விவகாரம்: உயர் நீதிமன்ற உத்தரவுக்குத் தடை கோரி உச்ச நீதிமன்றத்தில் தமிழக அரசு வாதம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch9YLKnL92u2iqkPoXgvx'}
-[publish] வேளாண் பொருள் வணிக ஒப்பந்தங்களுக்கு செபி வரம்புத் தொகை குறைப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011Ch9YSS9zXL4hEYk8Q5rz7'}
-[skip] உலக அளவில் முக்கியமான செய்தி என்றாலும், தமிழ்நாடு வாசகரைத் த
-[skip] வெளிநாட்டுத் உள்ளூர் சட்ட ஒழுங்குச் செய்திக்கு தமிழ்நாட்டு/இ
-[skip] வெளிநாட்டு அரசியல் — அமெரிக்கா-ஈரான் பகைமை தமிழ்நாடு/இந்திய 
-[skip] உலகச் செய்திகளிலும் தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு இ
-[திருத்தம்] ஐஐடி சென்னை நாடு முழுவதும் ஆசிரியர்களுக் → ஐஐடி மெட்ராஸ் நாடு முழுவதும் ஆசிரியர்களு
-[publish] ஐஐடி மெட்ராஸ் நாடு முழுவதும் ஆசிரியர்களுக்கு செயற்கை நுண்ணறிவு பயிற்சி
+[publish] பள்ளிக்கரணை சதுப்பு நில வழக்கு: உச்ச நீதிமன்றத்தை அணுகக் கூறிய சென்னை உயர்நீதிமன்றம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChAA4R1rbHVaejBgi5oAC'}
+[hold] காவிரி தொழில்நுட்பக் குழு துணைத் தலைவர் நியமனத்தில் தாமதம், அண்ணாமலை குற்றச்சாட்டு
+[தரம்] தமிழ் அல்லாத எழுத்து: ডভ → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): மதுரை தனிஷ்க் நகைக்கடை கொள்ளை: நகை
+[publish] மதுரை தனிஷ்க் நகைக்கடை கொள்ளை: நகைகள் முழுவதும் மீட்பு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] அரசு விரைவுப் போக்குவரத்து ஊழியர் குடும் → அரசு விரைவுப் போக்குவரத்து ஊழியர்களின் க
-[image] களஞ்சியம் (3 சொல்): அரசு விரைவுப் போக்குவரத்து ஊழியர்க
-[publish] அரசு விரைவுப் போக்குவரத்து ஊழியர்களின் குடும்பத்தினர் அனைத்து பேருந்துகளிலும் பயணிக்கலாம்
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 4
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: வேளாண் வணிகத்தில் பாதுகாப்புத் தொகை குறைப்பு: யாருக்குச் சாதகம்?
-[rasi] ராசிபலன் தயார்
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹11783 · சென்செக்ஸ் 82532
-[weather] புதுப்பிக்கப்பட்டது
+[தரம்] தமிழ் அல்லாத எழுத்து: कि → ஒரு திருத்தம்
+[publish] அக்வான் புயல் பாதை மாற்றம்? கரையைக் கடக்கும் இடம் குறித்து புதிய தகவல்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவரங்கள், தேதி, வழக்கின் 
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, கனிமொழி பேட்டியின் உண்மையா
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[image] களஞ்சியம் (3 சொல்): அரக்கோணம் உள்பட பல பகுதிகளில் அரசு
+[publish] அரக்கோணம் உள்பட பல பகுதிகளில் அரசு மருத்துவமனை கட்டடங்கள் திறப்பு
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] SPA New Delhi மற்றும் NEHU (மேகாலயா) ஆகியவை தமிழ்நாட்டுடன் த
+[skip] இவை மேற்கு வங்காளம் மற்றும் தெலங்கானா மாநிலங்களின் உள்ளூர் வ
+[skip] கர்நாடகாவின் கலபுரகி நகரத்துக்கான குடிநீர் திட்ட ஒதுக்கீடு -
+[skip] இது வட இந்திய மத குருவின் உள்ளூர் சர்ச்சை தொடர்பான செய்தி; த
+[skip] கர்நாடகாவின் துமக்கூருவில் உள்ள தொழிற்சாலை விரிவாக்கம் - தமி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChAAaHxJ1iurzfRqX9L5a'}
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Six Chennai flyovers get a makeover
+[image] களஞ்சியம் (2 சொல்): பங்கு பரிவர்த்தனை வரி குறைப்பு பரி
+[publish] பங்கு பரிவர்த்தனை வரி குறைப்பு பரிசீலனையில் மத்திய அரசு
+[skip] கோயில் வரலாறு, சமயப் பண்பாடு — செய்திக் கட்டுரை அல்ல. நடப்பு
+[skip] அமெரிக்கா உள் நலச் செய்தி — தமிழ்நாடு/இந்தியாவுடன் நேரடித் த
+[skip] வெளிநாட்டு சினிமாவும் (ஜேம்ஸ் பாண்ட் - பிரிட்டிஷ் படங்கள்), 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two arrested for assaulting traffic police const
+[skip] வெளிநாட்டு உள்நாட்டு Test தொடரில் நடக்கும் ஒரு ஆட்டம். New Z
+[திருத்தம்] தோட்டக்கலை உற்பத்தியில் புதிய சாதனை நிறு → தோட்டக்கலை உற்பத்தியில் புதிய சாதனை; 202
+[தரம்] தமிழ் அல்லாத எழுத்து: ে; மூலத்தில் இல்லாத எண்: 26, 2025 → ஒரு திருத்தம்
+[publish] தோட்டக்கலை உற்பத்தியில் புதிய சாதனை; 2024-25 ஆண்டில் 4.36% அதிகரிப்பு
+[skip] வெளிநாட்டு ஆய்வு மருந்துப் பற்றிய கட்டுரை — இந்தியா / தமிழ்ந
+[skip] சினிமா அல்ல — இசையமைப்பாளர்/இசைக் கலைஞர் நியூஸ். சினிமா துறை
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: How MGR and his Tamil Nadu administration acted 
+[skip] வெளிநாட்டு உள்நாட்டுத் தொடர் (இங்கிலாந்து-ஆஸ்திரேலியா ஒரு தொ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai’s new beachfront lounge Soak serves cock
+[திருத்தம்] செப்டம்பர் காலாண்டில் முன்னணி முதலீட்டாள → செப்டம்பர் காலாண்டில் முன்னணி முதலீட்டாள
+[publish] செப்டம்பர் காலாண்டில் முன்னணி முதலீட்டாளர்களின் பங்குத்தொகுப்பு மறுசீரமைப்பு
+[filler] sports கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹11660 · சென்செக்ஸ் 82093
+[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 3 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 10
