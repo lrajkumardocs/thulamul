@@ -1,5 +1,759 @@
 [
  {
+  "id": "jobs_20261119",
+  "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
+  "lines": [
+   "மண் மற்றும் நில பயன்பாட்டு ஆய்வு இந்தியா (SLUSI) — மூத்த கணினி பகுப்பாய்வாளர் · கடைசி நாள் 2027-01-17.",
+   "IIT ஜம்மு — நிர்வாக உதவியாளர் · கடைசி நாள் 2026-12-03.",
+   "சுகாதார மற்றும் குடும்ப நல சமிதி, புருலியா (DHFWS) — ஸ்டாஃப் நர்ஸ் & மருந்தாளர் (NUHM) (3 இடங்கள்) · கடைசி நாள் 2026-12-02.",
+   "முதன்மை மருத்துவ மற்றும் சுகாதார அலுவலர் அலுவலகம், நாராயண்பூர் — ஸ்டாஃப் நர்ஸ், டெக்னிக்கல் அசிஸ்டன்ட், ஆடியாலஜிஸ்ட் மற்றும் பிற (9 இடங்கள்) · கடைசி நாள் 2026-12-04.",
+   "இந்திய ஸ்டேட் வங்கி (SBI) — ஜிஎம் & தலைவர் - சைபர்பாதுகாப்பு மற்றும் தொழில்நுட்ப அபாய உத்தரவாதம் · கடைசி நாள் 2026-12-03."
+  ],
+  "closing": "விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பை சரிபார்க்கவும். பணம் கேட்கும் எந்த அறிவிப்பையும் இதில் பட்டியலிடவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-11-19"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-11-19"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-11-19"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-11-19"
+   }
+  ],
+  "topic": "jobs",
+  "topic_ta": "வேலை · தேர்வு",
+  "entities": [
+   "மண் மற்றும் நில பயன்பாட்டு ஆய்வு இந்தியா (SLUSI)",
+   "IIT ஜம்மு",
+   "சுகாதார மற்றும் குடும்ப நல சமிதி, புருலியா (DHFWS)",
+   "முதன்மை மருத்துவ மற்றும் சுகாதார அலுவலர் அலுவலகம், நாராயண்பூர்"
+  ],
+  "confidence": 0.8,
+  "flags": [],
+  "jobs": [
+   {
+    "org": "மண் மற்றும் நில பயன்பாட்டு ஆய்வு இந்தியா (SLUSI)",
+    "post": "மூத்த கணினி பகுப்பாய்வாளர்",
+    "count": null,
+    "last_date": "2027-01-17",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/slusi-senior-system-analyst-recruitment-2027-3082367"
+   },
+   {
+    "org": "IIT ஜம்மு",
+    "post": "நிர்வாக உதவியாளர்",
+    "count": null,
+    "last_date": "2026-12-03",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/iit-jammu-administrative-assistant-recruitment-2026-apply-online-3082579"
+   },
+   {
+    "org": "சுகாதார மற்றும் குடும்ப நல சமிதி, புருலியா (DHFWS)",
+    "post": "ஸ்டாஃப் நர்ஸ் & மருந்தாளர் (NUHM)",
+    "count": "3",
+    "last_date": "2026-12-02",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/dhfws-purulia-recruitment-2026-apply-online-for-3-staff-nurse-pharmacist-posts-3082577"
+   },
+   {
+    "org": "முதன்மை மருத்துவ மற்றும் சுகாதார அலுவலர் அலுவலகம், நாராயண்பூர்",
+    "post": "ஸ்டாஃப் நர்ஸ், டெக்னிக்கல் அசிஸ்டன்ட், ஆடியாலஜிஸ்ட் மற்றும் பிற",
+    "count": "9",
+    "last_date": "2026-12-04",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/chief-medical-and-health-officer-narayanpur-recruitment-2026-staff-3082373"
+   },
+   {
+    "org": "இந்திய ஸ்டேட் வங்கி (SBI)",
+    "post": "ஜிஎம் & தலைவர் - சைபர்பாதுகாப்பு மற்றும் தொழில்நுட்ப அபாய உத்தரவாதம்",
+    "count": null,
+    "last_date": "2026-12-03",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/sbi-gm-head-cstra-cybersecurity-tech-risk-assurance-recruitment-2026-3082558"
+   },
+   {
+    "org": "மாவட்ட திட்ட அலுவலர் (ICDS), காசிபூர்",
+    "post": "அங்கன்வாடி ஊழியர்",
+    "count": "174",
+    "last_date": "2026-12-09",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/district-programme-officer-icds-ghazipur-anganwadi-recruitment-2026-3082371"
+   },
+   {
+    "org": "அந்தமான் நிக்கோபார் நிர்வாகம்",
+    "post": "மூத்த கட்டிடக் கலைஞர் (Sr. Architect)",
+    "count": null,
+    "last_date": "2027-01-18",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/a-n-administration-sr-architect-recruitment-2027-3082567"
+   },
+   {
+    "org": "அந்தமான் நிக்கோபார் நிர்வாகம்",
+    "post": "கட்டிடக் கலைஞர் (Architect)",
+    "count": null,
+    "last_date": "2027-01-18",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/a-n-administration-architect-recruitment-2027-3082565"
+   },
+   {
+    "org": "கால்நடை வளர்ப்பு மற்றும் பால்வள துறை (DAHD)",
+    "post": "மூத்த பால்பண்ணை பொறியாளர்",
+    "count": null,
+    "last_date": "2027-01-16",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/dahd-senior-dairy-engineer-recruitment-2027-3082560"
+   },
+   {
+    "org": "மகாராஷ்டிரா மாநில மின் விநியோக நிறுவனம் (MSEDCL)",
+    "post": "கண்காணிப்பு பொறியாளர் (மாவட்டம்)",
+    "count": "11",
+    "last_date": "2026-12-04",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/msedcl-superintending-engineer-dist-recruitment-2026-3082383"
+   },
+   {
+    "org": "IIT (BHU) வாரணாசி நூலகம்",
+    "post": "நூலக தொழில்முறை பயிற்சியாளர்",
+    "count": "13",
+    "last_date": "2026-11-30",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/iit-bhu-library-professional-trainee-recruitment-2026-apply-online-for-13-posts-3082555"
+   },
+   {
+    "org": "அகில இந்திய மருத்துவ அறிவியல் நிறுவனம், டெல்லி (AIIMS)",
+    "post": "கிளினிகல் அசிஸ்டன்ட் & ப்ராஜெக்ட் அசிஸ்டன்ட்",
+    "count": "2",
+    "last_date": "2026-12-07",
+    "type": "அரசு",
+    "link": ""
+   }
+  ],
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-19T13:52+05:30",
+  "created_ts": 1795076563.4312644,
+  "audio": "data/audio/jobs_20261119.mp3"
+ },
+ {
+  "id": "art_tech_20261119",
+  "headline": "UPI, ஆதார் பாதுகாப்பு — அன்றாடம் கவனிக்க வேண்டிய எளிய வழிகள்",
+  "lines": [
+   "UPI பயன்பாட்டில் பரிவர்த்தனை செய்யும்போது PIN எண்ணை யாருடனும் பகிர்ந்து கொள்ளக் கூடாது.",
+   "அறியாத நபர்கள் அனுப்பும் QR கோட்களை ஸ்கேன் செய்வதன் மூலம் பணம் பெறமுடியாது, ஆனால் பணம் செலுத்தும் QR மட்டுமே அவ்வாறு செயல்படும் என்பதை நினைவில் கொள்ள வேண்டும்.",
+   "UIDAI இணையதளம் வழியாக ஆதார் எண்ணை பயன்படுத்தி Aadhaar Lock/Unlock வசதியை இயக்கினால் மோசடி பயன்பாட்டை தடுக்கலாம்.",
+   "மொபைல் போனில் தேவையற்ற செயலிகளுக்கு Location, Contacts, SMS அனுமதிகளை தவிர்க்க Settings > Apps பகுதியில் சரிபார்க்கலாம்.",
+   "வங்கி அல்லது அரசு அலுவலகம் என அறிமுகப்படுத்திக்கொண்டு OTP கேட்கும் அழைப்புகளுக்கு பதிலளிக்காமல் இருப்பது பாதுகாப்பான நடைமுறையாகும்."
+  ],
+  "closing": "சிறிய கவனம் பெரிய இழப்பைத் தவிர்க்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-19"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "UPI",
+   "பாதுகாப்பு"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-19T13:51+05:30",
+  "created_ts": 1795076515.5119448,
+  "audio": "data/audio/art_tech_20261119.mp3"
+ },
+ {
+  "headline": "இந்திய அரசுப் பத்திரங்கள் விலை உயர்வு, டிசம்பர் வட்டி முடிவு எதிர்பார்ப்பு",
+  "lines": [
+   "இந்திய அரசுப் பத்திரங்களின் விலை இன்று தொடக்க வர்த்தக நேரத்தில் சிறிய உயர்வு கண்டது.",
+   "வெளிநாட்டு முதலீட்டாளர்களின் வாங்குதல் இந்த உயர்விற்குக் காரணமாக அமைந்தது.",
+   "இரண்டாயிரத்து முப்பத்தாறாம் ஆண்டு முதிர்வுக்கான ஆறு புள்ளி தொண்ணூற்று நான்கு சதவீத வட்டிப் பத்திரத்தின் மகசூல் சிறிய அளவில் மாறுபட்டது.",
+   "அமெரிக்க கருவூலப் பத்திரங்களின் மகசூல் சமீபத்திய ஏற்ற இறக்கத்திற்குப் பின் நிலைப்புத் தன்மை பெற்றது; கச்சா எண்ணெய் விலையும் நிலையாக உள்ளது.",
+   "வரும் டிசம்பர் மாதம் இந்திய ரிசர்வ் வங்கி வட்டி விகிதம் தொடர்பாக முடிவெடுக்கும் என சந்தை வட்டாரங்கள் எதிர்பார்க்கின்றன."
+  ],
+  "closing": "வெளிநாட்டு முதலீட்டாளர்களின் வாங்குதல் போக்கு தொடருமா என்பதை சந்தை வட்டாரங்கள் கவனித்து வருகின்றன.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "இந்திய அரசுப் பத்திரங்கள்",
+   "இந்திய ரிசர்வ் வங்கி",
+   "அமெரிக்க கருவூலப் பத்திரங்கள்",
+   "கச்சா எண்ணெய்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Indian bonds hold early gains as crude, Treasury moves stay key triggers",
+   "lines": [
+    "Indian government bonds posted modest gains in early trading sessions today.",
+    "Foreign investor buying activity was behind the uptick in bond prices.",
+    "The benchmark 6.94 percent 2036 bond yield showed only minor fluctuations.",
+    "US Treasury yields stabilised after recent volatility, while crude oil prices held firm on global supply and demand trends.",
+    "Market participants expect the Reserve Bank of India to take a rate decision in December."
+   ],
+   "closing": "Market watchers are tracking whether the foreign investor buying trend continues."
+  },
+  "front_cat": "routine",
+  "image_query": "Indian government bonds market",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "6c2063131281",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-19T13:51+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/bonds/india-bonds-hold-on-to-opening-gains-moves-in-crude-treasuries-to-stay-main-trigger/articleshow/135978286.cms"
+  ],
+  "image": {
+   "url": "data/bank/economy05.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/6c2063131281.mp3",
+  "created_ts": 1795076495.9926398,
+  "status": "published"
+ },
+ {
+  "headline": "கோல்ட்மேன் சாக்ஸ் 22 இந்தியப் பங்குகளுக்கு வாங்கும் பரிந்துரை",
+  "lines": [
+   "கோல்ட்மேன் சாக்ஸ் நிறுவனம் இந்திய பங்குச் சந்தையில் உயர் வளர்ச்சி வாய்ப்புள்ள 22 நிறுவனங்களை அடையாளம் கண்டுள்ளது.",
+   "இந்த இருபத்தி இரண்டு நிறுவனங்களில் இருபத்தி ஒன்றுக்கு வாங்கும் பரிந்துரை வழங்கப்பட்டுள்ளது.",
+   "இந்த நிறுவனங்கள் கட்டமைப்பு ரீதியான வளர்ச்சி கருப்பொருள்களுடன் தொடர்புடையவை என கோல்ட்மேன் சாக்ஸ் அறிக்கையில் தெரிவித்துள்ளது.",
+   "பார்தி ஏர்டெல், எட்டர்னல், எச்டிஎஃப்சி வங்கி, இண்டர்குளோப் ஏவியேஷன் ஆகியவை பட்டியலில் முக்கிய இடம் பெற்றுள்ளன.",
+   "இந்தப் பரிந்துரை முதலீட்டாளர்களின் முடிவுகளில் தாக்கத்தை ஏற்படுத்தக்கூடும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "சர்வதேச முதலீட்டு நிறுவனங்களின் இத்தகைய பரிந்துரைகள் பங்குச் சந்தையின் போக்கைப் பாதிக்கும் என்பது குறிப்பிடத்தக்கது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "ET Markets",
+    "doc": null,
+    "date": "2026-11-19"
+   }
+  ],
+  "topic": "economy",
+  "entities": [
+   "கோல்ட்மேன் சாக்ஸ்",
+   "பார்தி ஏர்டெல்",
+   "எட்டர்னல்",
+   "எச்டிஎஃப்சி வங்கி",
+   "இண்டர்குளோப் ஏவியேஷன்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Goldman Sachs recommends Buy on 22 Indian stocks",
+   "lines": [
+    "Goldman Sachs has identified 22 Indian companies with high growth potential in the stock market.",
+    "Of these twenty two companies, Buy ratings have been given to twenty one.",
+    "Goldman Sachs stated in its report that these companies are linked to structural growth themes.",
+    "Bharti Airtel, Eternal, HDFC Bank and InterGlobe Aviation feature prominently on the list.",
+    "This recommendation is expected to influence the decisions of investors."
+   ],
+   "closing": "Such recommendations from global investment firms are known to influence stock market trends."
+  },
+  "front_cat": "routine",
+  "image_query": "stock market trading screen",
+  "wiki_subject": "Goldman Sachs",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "c99f976a1740",
+  "topic_ta": "பொருளாதாரம்",
+  "published_at": "2026-11-19T13:50+05:30",
+  "links": [
+   "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-names-22-high-growth-stocks-bharti-airtel-eternal-and-hdfc-bank-feature-in-the-list/slideshow/135981076.cms"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Goldman_Sachs_%2855312935052%29.jpg/3840px-Goldman_Sachs_%2855312935052%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Goldman Sachs",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+   "symbolic": false
+  },
+  "audio": "data/audio/c99f976a1740.mp3",
+  "created_ts": 1795076452.021536,
+  "status": "published"
+ },
+ {
+  "headline": "இயக்குநர் பாரத்பாலா ஏ.ஆர்.ரஹ்மானுடன் 'பனாரஸ்' திரைப்படத்தில் மீண்டும் பணியாற்றுகிறார்.",
+  "lines": [
+   "இயக்குநர் பாரத்பாலா ஏ.ஆர்.ரஹ்மானுடன் மீண்டும் பணியாற்றுகிறார்.",
+   "தந்தை-மகளுக்கு இடையிலான நாடகம் வகையைச் சார்ந்த 'பனாரஸ்' தென்னிந்திய திரைப்படம்.",
+   "படத்தில் அபிஷேக் பானர்ஜி, சாஹனா கோஸ்வாமி, நீரஜ் கபி, ஛யா கதாம், இந்திரா திவாரி, அந்தோனிதாசன் ஜெசுதாசன் நடிக்கிறார்கள்.",
+   "பாரத்பாலா மற்றும் ரஹ்மான் முன்னர் 'இந்தியன்' மற்றும் 'பாஜீரே' போன்ற படங்களில் பணியாற்றியுள்ளனர்.",
+   "பனாரஸ் வெளியீட்டு தேதி தெரிவிக்கப்படவில்லை."
+  ],
+  "closing": "தந்தை-மகளுக்கு இடையிலான உறவை ஆராயும் இந்தப் படத்தில் மாறுபட்ட கலைஞர்கள் ஒன்றுசேர்ந்துள்ளனர்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Cinema",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "cinema",
+  "entities": [
+   "பாரத்பாலா",
+   "ஏ.ஆர்.ரஹ்மான்",
+   "பனாரஸ்"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "Filmmaker Bharatbala reunites with AR Rahman for 'Banaras' drama",
+   "lines": [
+    "Director Bharatbala is collaborating again with composer AR Rahman.",
+    "The drama 'Banaras' tells a story between a father and daughter.",
+    "The film stars Abhishek Banerjee, Shahana Goswami, Neeraj Kabi, Chhaya Kadam, Indira Tiwari, and Antonythasan Jesuthasan.",
+    "Bharatbala and Rahman previously worked together on films like 'Indian' and 'Bajarangi'.",
+    "The release date of Banaras has not been announced."
+   ],
+   "closing": "The film brings together diverse talents to explore the relationship between a father and daughter."
+  },
+  "front_cat": "cinema_culture",
+  "image_query": "Bharatbala director",
+  "wiki_subject": "Bharatbala",
+  "person_en": "Bharatbala",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "80d6f926c7af",
+  "topic_ta": "சினிமா",
+  "published_at": "2026-11-19T13:49+05:30",
+  "links": [
+   "https://www.thehindu.com/entertainment/movies/filmmaker-bharatbala-reunites-with-ar-rahman-for-father-daughter-drama-banaras/article71718798.ece"
+  ],
+  "image": null,
+  "audio": "data/audio/80d6f926c7af.mp3",
+  "created_ts": 1795076395.2402365,
+  "status": "published"
+ },
+ {
+  "headline": "இந்திய ஜனநாயகம் 'புனிதமானது', தேர்தல்களைப் புறக்கணிப்பது அதை முடிவுக்குக் கொண்டு வரும்: ராகுல் காந்தி",
+  "lines": [
+   "காங்கிரஸ் முன்னாள் தலைவர் ராகுல் காந்தி அமெரிக்காவின் சிகாகோ பல்கலைக்கழகத்தில் உரையாற்றினார்.",
+   "இந்திய ஜனநாயகம் புனிதமானது என்றும், தேர்தல்களைப் புறக்கணிப்பது அதை முடிவுக்குக் கொண்டு வரும் என்றும் அவர் தெரிவித்தார்.",
+   "நடப்பதை வெளிக்கொணர்வதே தங்கள் கட்சியின் உத்தி என்று அவர் கூறினார்.",
+   "அமைப்பு முறை முழுமையாக சிதைக்கப்பட்டுள்ளதை மக்கள் உணரும் வரை தாக்குதல்களைச் சந்திக்கத் தயாராக இருப்பதாக அவர் தெரிவித்தார்.",
+   "இந்தக் கருத்து தொடர்பாக காங்கிரஸ் அல்லது பாஜகவிடமிருந்து அதிகாரப்பூர்வ மறுமொழி இதுவரை வெளியாகவில்லை."
+  ],
+  "closing": "ராகுல் காந்தியின் இந்தக் கருத்து, தேர்தல் முறைமை குறித்த அவரது முந்தைய குற்றச்சாட்டுகளின் தொடர்ச்சியாக அமைந்துள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "ராகுல் காந்தி",
+   "காங்கிரஸ்",
+   "சிகாகோ பல்கலைக்கழகம்",
+   "இந்திய ஜனநாயகம்"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Indian democracy sacred, says Rahul Gandhi at University of Chicago",
+   "lines": [
+    "Congress leader Rahul Gandhi delivered an address at the University of Chicago in the United States.",
+    "He said Indian democracy was sacred and that boycotting elections would end it.",
+    "He stated that their strategy is to expose what is going on in the system.",
+    "He said they are prepared to take the beating until people realise the system has been fully demolished.",
+    "There has been no official response from the Congress party or the BJP on these remarks so far."
+   ],
+   "closing": "Rahul Gandhi's remarks come as a continuation of his earlier allegations about the electoral system."
+  },
+  "front_cat": "routine",
+  "image_query": "Rahul Gandhi",
+  "wiki_subject": "Rahul Gandhi",
+  "person_en": "Rahul Gandhi",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "7aca7b397b9e",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-11-19T13:48+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/indian-democracy-sacred-boycotting-polls-will-end-it-rahul-gandhi-at-university-of-chicago/article71719252.ece",
+   "https://www.thehindu.com/news/national/indian-democracy-sacred-boycotting-polls-will-end-it-rahul-gandhi-at-university-of-chicago/article71719252.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Rahul_Gandhi.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Rahul Gandhi",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Rahul_Gandhi",
+   "symbolic": false
+  },
+  "audio": "data/audio/7aca7b397b9e.mp3",
+  "created_ts": 1795076320.0648816,
+  "status": "published"
+ },
+ {
+  "headline": "இந்திய ஸ்டேட் வங்கியில் பொது மேலாளர் பணியிடத்திற்கு விண்ணப்பிக்க அழைப்பு",
+  "lines": [
+   "இந்திய ஸ்டேட் வங்கி, இணைய பாதுகாப்பு மற்றும் தொழில்நுட்ப அபாய மதிப்பீட்டு பிரிவுக்கான பொது மேலாளர் பதவிக்கு அறிவிப்பு வெளியிட்டுள்ளது.",
+   "இந்தப் பணியிடத்திற்கான அறிவிப்பு எண் சிஆர்பிடி/எஸ்சிஓ/2026-27/36 என பதிவு செய்யப்பட்டுள்ளது.",
+   "தகுதியுடைய விண்ணப்பதாரர்கள் வங்கியின் அதிகாரப்பூர்வ இணையதளமான sbi.bank.in என்ற முகவரியில் விண்ணப்பிக்கலாம் என வங்கி தெரிவித்துள்ளது.",
+   "விண்ணப்ப செயல்முறை நவம்பர் 19 தொடங்கி, டிசம்பர் 3 வரை நடைபெறும்.",
+   "ஆர்வமுள்ளவர்கள் கடைசி நாளுக்கு முன்பாக இணையதளம் வழியாக விண்ணப்பத்தைச் சமர்ப்பிக்குமாறு வங்கி அறிவுறுத்தியுள்ளது."
+  ],
+  "closing": "இணைய பாதுகாப்பு மற்றும் தொழில்நுட்ப அபாய மதிப்பீட்டு பிரிவை வலுப்படுத்தும் நோக்கில் இந்தப் பணியிடம் உருவாக்கப்பட்டுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": "CRPD/SCO/2026-27/36",
+    "date": "2026-11-19"
+   }
+  ],
+  "topic": "jobs",
+  "entities": [
+   "இந்திய ஸ்டேட் வங்கி",
+   "பொது மேலாளர் பதவி",
+   "இணைய பாதுகாப்பு",
+   "sbi.bank.in"
+  ],
+  "confidence": 0.85,
+  "en": {
+   "headline": "State Bank of India Invites Applications for General Manager Post",
+   "lines": [
+    "The State Bank of India has released a notification for the post of General Manager and Head for its Cybersecurity and Tech Risk Assurance division.",
+    "The notification for this post has been registered under notification number CRPD/SCO/2026-27/36.",
+    "The bank has stated that eligible applicants can apply through its official website, sbi.bank.in.",
+    "The application process will begin on November 19 and continue until December 3.",
+    "Interested candidates have been advised by the bank to submit their applications through the website before the last date."
+   ],
+   "closing": "The post has been created with the aim of strengthening the Cybersecurity and Tech Risk Assurance division."
+  },
+  "id": "f833f612859a",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "வேலை · தேர்வு",
+  "published_at": "2026-11-19T13:48+05:30",
+  "links": [
+   "https://www.freejobalert.com/articles/iit-jammu-administrative-assistant-recruitment-2026-apply-online-3082579",
+   "https://www.freejobalert.com/articles/sbi-gm-head-cstra-cybersecurity-tech-risk-assurance-recruitment-2026-3082558",
+   "https://www.freejobalert.com/articles/iit-bhu-library-professional-trainee-recruitment-2026-apply-online-for-13-posts-3082555"
+  ],
+  "image": {
+   "url": "data/bank/jobs02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/f833f612859a.mp3",
+  "created_ts": 1795076285.0393054,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "தமிழக ஆளுநர் ஆர்.வி. அர்லேகர் சென்னை தனியார் மருத்துவமனையில் அனுமதி",
+  "lines": [
+   "தமிழக ஆளுநர் ஆர்.வி. அர்லேகர் சென்னையில் உள்ள ஒரு தனியார் மருத்துவமனையில் சிகிச்சைக்காக அனுமதிக்கப்பட்டுள்ளார்.",
+   "அவர் எந்த உடல்நலக் குறைவுக்காக அனுமதிக்கப்பட்டுள்ளார் என்பது குறித்து இதுவரை விரிவான தகவல் வெளியாகவில்லை.",
+   "ஆளுநர் அலுவலகத்தின் சார்பில் இது தொடர்பாக அதிகாரப்பூர்வ அறிக்கை எதுவும் இன்னும் வெளியிடப்படவில்லை.",
+   "மருத்துவமனை வட்டாரங்கள் இது தொடர்பாக எந்தத் தகவலையும் பகிரங்கமாக வெளியிடவில்லை என்பது குறிப்பிடத்தக்கது.",
+   "ஆளுநரின் உடல்நிலை குறித்த மேலும் விவரங்கள் விரைவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "ஆளுநரின் உடல்நிலை தொடர்பான அதிகாரப்பூர்வ அறிக்கை வெளியாகும் வரை காத்திருக்க வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "ஆர்.வி. அர்லேகர்",
+   "தமிழக ஆளுநர்",
+   "சென்னை",
+   "தனியார் மருத்துவமனை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Tamil Nadu Governor RV Arlekar admitted to Chennai private hospital",
+   "lines": [
+    "Tamil Nadu Governor RV Arlekar has been admitted to a private hospital in Chennai for treatment.",
+    "Detailed information about the health condition for which he was admitted has not yet been released.",
+    "No official statement has been issued so far by the Governor's office regarding this matter.",
+    "Hospital sources have also not publicly shared any information about his condition.",
+    "Further details about the Governor's health are expected to be released soon."
+   ],
+   "closing": "Caution is needed until an official statement is released about the Governor's health condition."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "0880ced40097",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-19T13:44+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/19/tamil-nadu-governor-admitted-to-hospital-for-treatment"
+  ],
+  "image": {
+   "url": "data/bank/jobs07.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/0880ced40097.mp3",
+  "created_ts": 1795076074.8882365,
+  "status": "published"
+ },
+ {
+  "headline": "வெற்றி மகளிர் திட்டத்தில் பயன்பெற ஆதார் எண் கட்டாயம் என அறிவிப்பு",
+  "lines": [
+   "தமிழ்நாடு அரசு நடத்தும் வெற்றி மகளிர் திட்டத்தில் பயன்பெற விரும்பும் பெண்களுக்கு ஆதார் எண் கட்டாயம் எனத் தெரிவிக்கப்பட்டுள்ளது.",
+   "திட்டத்தின் பலன்களைப் பெற விண்ணப்பிக்கும் பெண்கள் தங்கள் ஆதார் விவரங்களைச் சமர்ப்பிக்க வேண்டும் என அறிவிக்கப்பட்டுள்ளது.",
+   "சம்பந்தப்பட்ட துறை அதிகாரிகள் இந்த விதிமுறை அனைத்து பயனாளிகளுக்கும் பொருந்தும் எனக் குறிப்பிட்டுள்ளனர்.",
+   "ஆதார் விவரங்கள் இணைக்கப்படாத விண்ணப்பங்கள் ஏற்றுக்கொள்ளப்படாது எனவும் தெரிவிக்கப்பட்டுள்ளது.",
+   "பயனாளிகள் விரைவில் தங்கள் ஆதார் விவரங்களைப் பதிவு செய்யுமாறு அரசு வலியுறுத்தியுள்ளது."
+  ],
+  "closing": "ஆதார் இணைப்பு இல்லாதோர் திட்டத்தின் பலன்களை இழக்க நேரிடலாம் என அதிகாரிகள் தெரிவித்துள்ளனர்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "தினமணி",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "வெற்றி மகளிர் திட்டம்",
+   "தமிழ்நாடு அரசு",
+   "ஆதார் எண்"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Aadhaar number mandatory for Vetri Magalir scheme benefits",
+   "lines": [
+    "The Tamil Nadu government has announced that an Aadhaar number is mandatory for women seeking benefits under the Vetri Magalir scheme.",
+    "Women applying for benefits under the scheme must submit their Aadhaar details, officials said.",
+    "Department officials stated that this requirement applies to all beneficiaries of the scheme.",
+    "Applications without linked Aadhaar details will not be accepted, the announcement said.",
+    "The government has urged beneficiaries to register their Aadhaar details at the earliest."
+   ],
+   "closing": "Officials noted that those without Aadhaar linkage may risk losing scheme benefits."
+  },
+  "front_cat": "policy_mass",
+  "image_query": "Aadhaar card India",
+  "wiki_subject": "Aadhaar",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "af67833b4639",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-11-19T13:43+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/19/aadhaar-number-is-mandatory-to-avail-benefits-under-the-vetri-magalir-scheme"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/cf/Aadhaar_Logo.svg/330px-Aadhaar_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Aadhaar",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Aadhaar",
+   "symbolic": false
+  },
+  "audio": "data/audio/af67833b4639.mp3",
+  "created_ts": 1795076017.2685857,
+  "status": "published"
+ },
+ {
+  "headline": "முதல்வர் விஜய் மருத்துவமனை, கல்லூரிக் கட்டிடங்கள் காணொலி வழி திறப்பு",
+  "lines": [
+   "தமிழ்நாடு முதல்வர் விஜய், புதிதாகக் கட்டப்பட்ட மருத்துவமனை கட்டிடங்கள் மற்றும் உயர்கல்வி உள்கட்டமைப்பு வசதிகளை காணொலி வழியாகத் திறந்து வைத்தார்.",
+   "இந்நிகழ்ச்சியில் பல மாவட்டங்களில் அமைந்துள்ள மருத்துவமனைக் கட்டிடங்களும், கல்லூரிக் கட்டிடங்களும் ஒருசேரத் திறக்கப்பட்டன.",
+   "சுகாதாரத் துறை அமைச்சர் கே.ஜி.அருண்ராஜ், உயர்கல்வித் துறை அமைச்சர் பி.விஸ்வநாதன் ஆகியோர் இந்நிகழ்ச்சியில் கலந்து கொண்டனர்.",
+   "தலைமைச் செயலாளர் எம்.சாய்குமார் உள்ளிட்ட உயர் அதிகாரிகளும் இந்த நிகழ்வில் பங்கேற்றனர்.",
+   "மாணவர்கள் மற்றும் நோயாளிகளுக்குப் பயன்தரும் வகையில் இந்த புதிய வசதிகள் விரைவில் செயல்பாட்டுக்கு வரும் என அரசு தெரிவித்துள்ளது."
+  ],
+  "closing": "இந்த வசதிகள் மாநிலத்தின் சுகாதாரம் மற்றும் உயர்கல்வித் துறைகளில் உள்கட்டமைப்பு மேம்பாட்டின் ஒரு பகுதியாக அமைகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "முதல்வர் விஜய்",
+   "சுகாதாரத் துறை",
+   "உயர்கல்வித் துறை"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "CM Vijay Virtually Inaugurates Hospital, Higher Education Buildings",
+   "lines": [
+    "Tamil Nadu Chief Minister Vijay virtually inaugurated newly built hospital buildings and higher education infrastructure facilities.",
+    "The event saw the simultaneous inauguration of hospital buildings and college buildings in several districts.",
+    "Health and Family Welfare Minister K.G. Arunraj and Higher Education Minister P. Viswanathan attended the event.",
+    "Chief Secretary M. Sai Kumar and other senior officials were also present at the inauguration.",
+    "The government stated that these new facilities would soon become operational for the benefit of students and patients."
+   ],
+   "closing": "The new facilities are part of the state's ongoing efforts to improve infrastructure in the health and higher education sectors."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "6bb42885ad4e",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-11-19T13:41+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/cm-vijay-virtually-inaugurates-hospital-buildings-higher-education-infrastructure/article71715501.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt10.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/6bb42885ad4e.mp3",
+  "created_ts": 1795075910.5033774,
+  "status": "published"
+ },
+ {
+  "headline": "அரியநோய் மருந்து விலை ₹9 கோடியிலிருந்து ₹2.5 லட்சமாகக் குறைந்தது; ஏழு குழந்தைகளுக்குச் சிகிச்சை இலவசம்",
+  "lines": [
+   "ஐதராபாதில் ஒரு மருத்துவர் அரிய மரபியல் நோயின் மருந்து விலையைப் பெரிய அளவில் குறைத்துள்ளார்.",
+   "அலன்-ஹெர்ண்டன்-டட்லி நோய் (ஏஎச்டிஎஸ்) என்ற அரிய மரபணு நோயாளர்களுக்குப் பயன்படும் டிராட்ரிக்கோல் மருந்தின் விலை ஒரு ஆண்டுக்கு ₹9 கோடியிலிருந்து ₹2.5 லட்சமாகக் குறைந்துள்ளது.",
+   "இந்த மருந்தினைத் திரவ வடிவத்தில் (கம்பவுண்ட்) தயாரிப்பதன் மூலம் செலவு கணிசமாகக் குறைக்கப்பட்டுள்ளது.",
+   "நவம்பர் 30-ம் நாளுக்குள் ஆண்டு முழுவதாகப் பயன்படுத்தக்கூடிய மருந்து ஏழு குழந்தைகளுக்கு இலவசமாக வழங்கப்பட உள்ளது.",
+   "தயாரிக்கப்பட்ட கம்பவுண்ட் மருந்து ஒரு குழந்தைக்கு ஆண்டுக்கு ₹2.5 லட்சம் மதிப்புடையதாக மதிப்பிடப்பட்டுள்ளது."
+  ],
+  "closing": "மரபணு நோய் சிகிச்சையில் இந்த தயாரிப்புமுறை பிற அரிய நோய்களுக்கான மருந்து உற்பத்திக்கும் மாதிரியாக அமையலாம்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Health",
+    "doc": null,
+    "date": "2026-11-19"
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "ஐதராபாத்",
+   "அலன்-ஹர்னடன்-டாட்லி நோய்",
+   "டிராட்ரிக்கோல் மருந்து"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "Hyderabad doctor reduces rare disease drug cost from ₹9 crore to ₹2.5 lakh per year",
+   "lines": [
+    "A Hyderabad physician has significantly reduced the cost of treatment for a rare genetic disorder affecting multiple children.",
+    "Tiratricol, used to treat Allan-Herndon-Dudley syndrome, now costs ₹2.5 lakh per child annually instead of ₹9 crore through compounded formulation.",
+    "The reduced-cost medicine was developed using an alternative manufacturing process that lowers expenses substantially.",
+    "Seven children suffering from this inherited condition are set to receive affordable treatment through this initiative.",
+    "By November 30, all seven children will receive a full year's supply of the medicine at the reduced cost."
+   ],
+   "closing": "This alternative production method for rare genetic disease treatment could serve as a model for developing affordable medicines for other uncommon conditions."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "rare genetic disease treatment",
+  "wiki_subject": "Allan-Herndon-Dudley syndrome",
+  "person_en": "",
+  "urgent": false,
+  "affected": "சிலர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "ca3293e09c1d",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-19T13:38+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-doctor-brings-down-rare-disease-drug-cost-by-65-lakh-seven-children-to-get-free-treatment/article71718621.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/X-linked_recessive.svg/960px-X-linked_recessive.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Allan–Herndon–Dudley syndrome",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Allan%E2%80%93Herndon%E2%80%93Dudley_syndrome",
+   "symbolic": false
+  },
+  "audio": "data/audio/ca3293e09c1d.mp3",
+  "created_ts": 1795075718.3108804,
+  "status": "published"
+ },
+ {
   "headline": "பள்ளிக்கரணை சதுப்பு நிலக் கட்டுமானத் தடை வழக்கு, உச்சநீதிமன்றம் செல்ல உத்தரவு",
   "lines": [
    "சென்னை பள்ளிக்கரணை சதுப்பு நிலப் பகுதியில் கட்டுமானங்களுக்கு விதிக்கப்பட்ட தடையை எதிர்த்து வழக்கு தொடரப்பட்டது.",
@@ -18267,697 +19021,5 @@
   "published_at": "2026-11-10T14:10+05:30",
   "created_ts": 1794300067.3267467,
   "audio": "data/audio/art_tech_20261110.mp3"
- },
- {
-  "headline": "எண்விடியா பங்கு விலை ஒன்பது சதவீதம் சரிவு, தலைமை நிர்வாகி மீது உளவு சர்ச்சை",
-  "lines": [
-   "அமெரிக்க செயற்கை நுண்ணறிவு சிப் தயாரிப்பு நிறுவனமான எண்விடியாவின் பங்கு விலை ஒரே நாளில் ஒன்பது சதவீதம் வரை சரிந்தது.",
-   "நிறுவனத்தின் தலைமை நிர்வாக அதிகாரி ஜென்சன் ஹுவாங், உளவுத்துறை தொடர்புடைய ஒரு நிர்வாகியுடன் தொடர்பு வைத்திருந்ததாக தகவல் வெளியானது.",
-   "இது தொடர்பாக எண்விடியா நிறுவனம் உள்விசாரணை தொடங்கியுள்ளதாக அறிவித்துள்ளது.",
-   "ஹுவாங் அந்த நிர்வாகியுடனான தொடர்பை ஒப்புக்கொண்டதாகவும், இது பாதுகாப்பு கவலைகளை எழுப்பியதாகவும் தெரிவிக்கப்படுகிறது.",
-   "ஹுவாங்கின் தலைமைப்பொறுப்பு தொடர்வது குறித்து நிச்சயமின்மை நிலவும் நிலையில், செயற்கை நுண்ணறிவு துறையில் நிறுவன வளர்ச்சிக்கு அவரது தலைமை இன்றியமையாதது என ஆய்வாளர்கள் கருத்து தெரிவித்துள்ளனர்."
-  ],
-  "closing": "எண்விடியா நிறுவனம் உலகின் முன்னணி செயற்கை நுண்ணறிவு சிப் தயாரிப்பாளராக இருப்பதால், இந்த சர்ச்சை உலகத் தொழில்நுட்பப் பங்குச் சந்தைகளிலும் தாக்கத்தை ஏற்படுத்தக்கூடும் என எதிர்பார்க்கப்படுகிறது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "எண்விடியா",
-   "ஜென்சன் ஹுவாங்",
-   "அமெரிக்கா",
-   "செயற்கை நுண்ணறிவு",
-   "பங்குச் சந்தை"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Nvidia Stock Plunges Nine Percent Amid CEO Espionage Controversy",
-   "lines": [
-    "Shares of American AI chipmaker Nvidia fell by as much as nine percent in a single day.",
-    "Reports emerged that CEO Jensen Huang had a connection with an executive linked to intelligence efforts.",
-    "Nvidia announced it has launched an internal investigation into the matter.",
-    "Huang reportedly acknowledged his relationship with the executive, raising security concerns.",
-    "Amid uncertainty over whether Huang will continue as CEO, analysts say his leadership remains essential for the company's growth in the AI sector."
-   ],
-   "closing": "As Nvidia is the world's leading AI chipmaker, this controversy is expected to impact global technology stock markets as well."
-  },
-  "id": "85f5a9318b11",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-11-10T14:10+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nvidia-stock-crashes-8-after-a-foreign-intelligence-probe-initiated-by-ai-company-into-ceo-jensen-huang/articleshow/135685302.cms"
-  ],
-  "image": {
-   "url": "data/bank/economy02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/85f5a9318b11.mp3",
-  "created_ts": 1794300054.4256282,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "ஆட்சியருக்கு ஆபாச குறுஞ்செய்தி: தவெக எம்எல்ஏ மீது நடவடிக்கை கோரிக்கை",
-  "lines": [
-   "ஒரு மாவட்ட ஆட்சியருக்கு ஆபாசமான குறுஞ்செய்தி அனுப்பியதாக தவெக எம்எல்ஏ ஒருவர் மீது குற்றச்சாட்டு எழுந்துள்ளது.",
-   "இந்தச் சம்பவம் குறித்து காங்கிரஸ் தலைவர் ஜோதிமணி கடும் கண்டனம் தெரிவித்துள்ளார்.",
-   "சம்பந்தப்பட்ட எம்எல்ஏ மீது உடனடியாகக் கடும் நடவடிக்கை எடுக்க வேண்டும் என அவர் வலியுறுத்தியுள்ளார்.",
-   "இந்த வழக்கில் அதிகாரப்பூர்வ உறுதிப்படுத்தலோ காவல் துறை நடவடிக்கை விவரமோ இதுவரை வெளியாகவில்லை.",
-   "குற்றம் சாட்டப்பட்டவரின் பெயர் இன்னும் அறிவிக்கப்படாததால் இந்த விவகாரம் தொடர்பான மேலும் தகவல்கள் எதிர்பார்க்கப்படுகின்றன."
-  ],
-  "closing": "இச்செய்தியில் சம்பந்தப்பட்ட எம்எல்ஏ பெயரோ காவல் துறையின் அதிகாரப்பூர்வ நிலையோ இதுவரை வெளியிடப்படவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": "2026-11-10"
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "ஜோதிமணி",
-   "தமிழக வெற்றிக் கழகம்",
-   "மாவட்ட ஆட்சியர்"
-  ],
-  "confidence": 0.3,
-  "en": {
-   "headline": "Obscene Text Message to Collector: Demand for Action Against MLA",
-   "lines": [
-    "An MLA from the Tamizhaga Vettri Kazhagam (TVK) has been accused of sending an obscene text message to a district Collector.",
-    "Congress leader Jothimani has strongly condemned the incident.",
-    "She has demanded that immediate and strict action be taken against the MLA concerned.",
-    "No official confirmation or details of any police action in this case have been released so far.",
-    "Since the name of the accused has not yet been announced, further details regarding this matter are awaited."
-   ],
-   "closing": "The name of the MLA involved and the official position of the police have not been disclosed so far in this news.",
-   "closing_type": "watch"
-  },
-  "id": "93e33755ad38",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-10T14:08+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Nov/10/obscene-text-message-to-collector-strict-action-needed-against-tvk-mla-jothimani"
-  ],
-  "image": {
-   "url": "data/bank/crime16.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/93e33755ad38.mp3",
-  "created_ts": 1794299923.064314,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "தவெக எம்எல்ஏ மீது புகார் என்றால் நடவடிக்கை, அமைச்சர் ராஜ்மோகன்",
-  "lines": [
-   "தமிழக வெற்றிக் கழகத்தைச் சேர்ந்த சட்டமன்ற உறுப்பினர் மீது மாவட்ட ஆட்சியர் புகார் அளித்தால் நடவடிக்கை எடுக்கப்படும் என்று கல்வி அமைச்சர் ராஜ்மோகன் தெரிவித்தார்.",
-   "எந்தக் கட்சியைச் சேர்ந்தவர் என்பதைப் பொருட்படுத்தாமல் பாரபட்சமின்றி சட்டப்படி நடவடிக்கை எடுக்கப்படும் என்று அவர் உறுதியளித்தார்.",
-   "அரசு நிர்வாக நடைமுறைகளுக்கு இணங்காமல் நடந்துகொள்வோர் மீது புகார் வந்தால் அதைப் பரிசீலிக்கும் பொறுப்பு மாவட்ட ஆட்சியருக்கு உள்ளது என்றும் அவர் விளக்கினார்.",
-   "இது குறித்த விரிவான விவரங்களையோ, எந்தச் சட்டமன்ற உறுப்பினர் தொடர்பான பின்னணியையோ அமைச்சர் இதுவரை தெளிவாகத் தெரிவிக்கவில்லை.",
-   "இந்த விவகாரம் தொடர்பாக மேலும் விளக்கம் அளிக்கப்படும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இது தொடர்பான முழு விவரங்கள் இன்னும் உறுதிப்படுத்தப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": "2026-11-10"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தமிழக வெற்றிக் கழகம்",
-   "ராஜ்மோகன்",
-   "மாவட்ட ஆட்சியர்",
-   "தமிழ்நாடு அரசு"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Action if District Collector complains against TVK MLA, says Minister Rajmohan",
-   "lines": [
-    "Minister Rajmohan said action will be taken if the District Collector files a complaint against a Tamilaga Vettri Kazhagam MLA.",
-    "He assured that action would be taken strictly as per law without bias, regardless of the party the MLA belongs to.",
-    "He explained that it is the District Collector's responsibility to examine complaints against those who do not comply with government administrative procedures.",
-    "The minister has not yet given detailed information or background on which specific MLA this concerns.",
-    "Further clarification on this matter is expected to be given soon."
-   ],
-   "closing": "Complete details regarding this matter have not yet been confirmed."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "Rajmohan",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "a27776368427",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-10T14:07+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Nov/10/action-will-be-taken-if-the-district-collector-files-a-complaint-against-the-tvk-mla-rajmohan"
-  ],
-  "image": null,
-  "audio": "data/audio/a27776368427.mp3",
-  "created_ts": 1794299840.3028193,
-  "status": "published"
- },
- {
-  "headline": "அகல்விளக்கு வங்கிக் கணக்கு முடக்கம் வழக்கில் சென்னை உயர்நீதிமன்றம் கேள்வி",
-  "lines": [
-   "சென்னை உயர்நீதிமன்றத்தின் மதுரை அமர்வில் அகல்விளக்கு எனும் திட்டம் தொடர்பான வங்கிக் கணக்கை முடக்கக் கோரி மனு தாக்கல் செய்யப்பட்டது.",
-   "இந்த மனுவை விசாரித்த நீதிபதிகள், சம்பந்தப்பட்ட வங்கிக் கணக்கு தொடர்பாக இதுவரை காவல் துறையில் வழக்குப் பதிவு செய்யப்படாதது ஏன் எனக் கேள்வி எழுப்பினர்.",
-   "மனுதாரர் சார்பில், அகல்விளக்கு திட்டத்தின் பெயரில் பணம் திரட்டப்பட்டதாகவும், அதைத் தடுக்க வங்கிக் கணக்கு உடனடியாக முடக்கப்பட வேண்டும் எனவும் வாதிடப்பட்டது.",
-   "வழக்குப் பதிவில் ஏற்பட்டுள்ள தாமதம் குறித்து காவல் துறை இதுவரை உத்தியோகபூர்வ விளக்கம் அளிக்கவில்லை.",
-   "அடுத்த விசாரணையின்போது இது தொடர்பாக பதில் அளிக்குமாறு நீதிமன்றம் காவல் துறைக்கு உத்தரவிட்டுள்ளது."
-  ],
-  "closing": "அகல்விளக்கு திட்டம் தொடர்பான முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர் நீதிமன்றம்",
-   "மதுரை அமர்வு",
-   "அகல்விளக்கு திட்டம்",
-   "வங்கிக் கணக்கு",
-   "காவல் துறை"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Madras High Court Madurai Bench questions bank account freeze plea",
-   "lines": [
-    "A petition seeking to freeze a bank account linked to a scheme called Agal Vilakku was filed before the Madurai Bench of the Madras High Court.",
-    "Hearing the plea, the judges questioned why no case had yet been registered with the police regarding the bank account in question.",
-    "The petitioner argued that money had been collected in the name of the Agal Vilakku scheme and that the bank account must be frozen immediately to prevent further collection.",
-    "The police have so far not given an official explanation for the delay in registering a case.",
-    "The court has directed the police to respond on the matter at the next hearing."
-   ],
-   "closing": "Full details regarding the Agal Vilakku scheme have not yet been officially released."
-  },
-  "front_cat": "scam_expose",
-  "image_query": "",
-  "wiki_subject": "Madras High Court",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "0172f825e567",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-11-10T14:03+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Nov/10/freeze-agalvilakku-account-why-hasnt-a-case-registered-hc"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/0172f825e567.mp3",
-  "created_ts": 1794299589.1534328,
-  "status": "published"
- },
- {
-  "headline": "திருவண்ணாமலையில் நீர்ப்பாசனக் குளத்தில் மூழ்கி ஐந்து பேர் உயிரிழப்பு",
-  "lines": [
-   "திருவண்ணாமலை மாவட்டத்தில் நீர்ப்பாசனக் குளத்தில் மூழ்கி ஐந்து பேர் உயிரிழந்துள்ளனர்.",
-   "இறந்தவர்களில் ஒருவர் செவிலியாராகவும், மற்ற நான்கு பேர் அரசு அங்கீகாரம் பெற்ற சிறுமிகள் இல்லத்தின் மாணவிகளாகவும் அடையாளம் காணப்பட்டுள்ளனர்.",
-   "சம்பவம் குறித்து காவல் துறையினர் விசாரணை நடத்தி வருவதாகத் தெரிவிக்கப்பட்டுள்ளது.",
-   "பாதிக்கப்பட்டவர்களின் அடையாளம் உறுதி செய்யப்பட்டாலும், சம்பவம் நடந்த விதம் குறித்து முழு விவரம் வெளியாகவில்லை.",
-   "மேலும் விசாரணை நடைபெற்று வருவதாக உள்ளூர் நிர்வாகம் தெரிவித்துள்ளது."
-  ],
-  "closing": "சம்பவம் தொடர்பான முழு விசாரணை முடிவுகள் இன்னும் வெளியிடப்படவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "திருவண்ணாமலை",
-   "நீர்ப்பாசனக் குளம்",
-   "சிறுமிகள் இல்லம்",
-   "காவல் துறை"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Five Dead After Drowning in Tiruvannamalai Irrigation Tank",
-   "lines": [
-    "Five people drowned in an irrigation tank in Tiruvannamalai district.",
-    "One of the deceased was identified as a staff nurse, while the other four were children from a government-recognized girls' home.",
-    "Police are investigating the incident.",
-    "While the identities of the victims have been confirmed, full details of how the incident occurred have not been released.",
-    "Local authorities stated that further investigation is underway."
-   ],
-   "closing": "Full investigation results related to the incident have not yet been released."
-  },
-  "id": "94859fab289c",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-10T14:01+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/five-persons-including-four-girls-drown-in-irrigation-tank-in-tiruvannamalai/article71682584.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime02.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/94859fab289c.mp3",
-  "created_ts": 1794299490.3508303,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "முன்னாள் அதிமுக நான்கு எம்எல்ஏக்கள் தகுதி நீக்கம் பற்றி சபாநாயகர் மீண்டும் விசாரணை",
-  "lines": [
-   "2026 சட்டமன்றத் தேர்தலில் அதிமுக சின்னத்தில் வெற்றி பெற்ற நான்கு உறுப்பினர்கள் சில வாரங்களுக்குள் பதவி விலகி ஆளும் தவெக கட்சியில் இணைந்தனர்.",
-   "எசக்கி சுபையா, எஸ். ஜெயக்குமார், பி. சத்யபாமா, மரகதம் குமரவேல் ஆகிய நான்கு பேர் இவர்கள்.",
-   "இவர்களது உறுப்பினர் தகுதி நீக்கம் பற்றிய மனுக்கள் மீது சட்டமன்ற சபாநாயகர் மீண்டும் விசாரணை தொடங்கியுள்ளார்.",
-   "இந்த நான்கு பேரும் ஆளும் தவெக கட்சியில் இணைந்தது தகுதி நீக்கச் சட்டத்தின் கீழ் வருகிறது என்பது குறித்து ஆய்வு நடைபெறுகிறது.",
-   "சபாநாயகரின் விசாரணை எப்போது முடிவடையும் என்பது குறித்து இதுவரை அதிகாரப்பூர்வ அறிவிப்பு வெளியாகவில்லை."
-  ],
-  "closing": "இந்த நான்கு பேரும் 2026 தேர்தலில் வெற்றி பெற்று சில வாரங்களுக்குள் பதவி விலகியவர்கள் ஆவர்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "assembly",
-  "entities": [
-   "தமிழ்நாடு சட்டமன்றம்",
-   "சபாநாயகர்",
-   "அதிமுக",
-   "தவெக",
-   "எசக்கி சுபையா",
-   "மரகதம் குமரவேல்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Speaker reopens probe into disqualification of four ex-AIADMK MLAs",
-   "lines": [
-    "Four members who won on AIADMK symbols in the 2026 Assembly elections resigned within weeks and joined the ruling TVK.",
-    "The four are identified as Esakki Subaya, S. Jayakumar, P. Sathyabama, and Maragatham Kumaravel.",
-    "The Tamil Nadu Assembly Speaker has begun another round of inquiry into pleas seeking their disqualification.",
-    "The inquiry is examining whether their joining the ruling TVK falls under anti-defection provisions.",
-    "No official timeline has been announced yet for when the Speaker's inquiry will conclude."
-   ],
-   "closing": "It may be noted that all four had won the 2026 election and resigned within just a few weeks of being elected."
-  },
-  "front_cat": "assembly_event",
-  "image_query": "Tamil Nadu Legislative Assembly building",
-  "wiki_subject": "Tamil Nadu Legislative Assembly",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "b0e58325c6eb",
-  "topic_ta": "சட்டமன்றம்",
-  "published_at": "2026-11-10T13:59+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-speaker-begins-another-round-of-inquiry-into-disqualification-pleas-against-four-ex-aiadmk-mlas/article71685178.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Seal_of_Tamil_Nadu.svg/960px-Seal_of_Tamil_Nadu.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Tamil Nadu Legislative Assembly",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Tamil_Nadu_Legislative_Assembly",
-   "symbolic": false
-  },
-  "audio": "data/audio/b0e58325c6eb.mp3",
-  "created_ts": 1794299380.6828122,
-  "status": "published"
- },
- {
-  "headline": "தென் தமிழ்நாட்டில் நவம்பர் 12 வரை கனமழை எச்சரிக்கை",
-  "lines": [
-   "தென் தமிழ்நாட்டில் நவம்பர் 12 வரை கனமழை தொடரும் என வானிலை ஆய்வு மையம் எச்சரிக்கை விடுத்துள்ளது.",
-   "தூத்துக்குடி மற்றும் இராமநாதபுரம் மாவட்டங்களில் நவம்பர் 10-ல் தனித்தனி இடங்களில் கனமழை பெய்ய வாய்ப்புள்ளது.",
-   "சென்னையில் நவம்பர் 11 வரை லேசான மழை பெய்ய வாய்ப்புள்ளதாக வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
-   "தமிழ்நாட்டில் வடகிழக்குப் பருவமழைக் காலம் தற்போது நடைபெற்று வரும் நிலையில் இந்த மழை எச்சரிக்கை வெளியிடப்பட்டுள்ளது.",
-   "அடுத்த சில நாட்களில் மழையளவு குறித்த மேலும் விரிவான அறிவிப்புகளை வானிலை ஆய்வு மையம் வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "தென் மாவட்டங்களில் மழையளவு மேலும் அதிகரிக்கிறதா என்பதை அடுத்த சில நாட்களில் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தூத்துக்குடி",
-   "ராமநாதபுரம்",
-   "சென்னை",
-   "வானிலை ஆய்வு மையம்",
-   "தமிழ்நாடு"
-  ],
-  "id": "27642569eb4b",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-10T13:58+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/south-tamil-nadu-to-witness-intense-rainfall-till-november-12-2026/article71682829.ece"
-  ],
-  "image": {
-   "url": "data/bank/weather04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/27642569eb4b.mp3",
-  "created_ts": 1794299333.8855057,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "தீபாவளியில் தமிழக தாஸ்மாக் மது விற்பனை 441 கோடி ரூபாயை எட்டியது",
-  "lines": [
-   "தீபாவளி பண்டிகையையொட்டி தமிழ்நாட்டில் தாஸ்மாக் மது விற்பனை 441 கோடி ரூபாயை எட்டியது.",
-   "சென்னை மண்டலத்தில் 95.85 கோடி ரூபாய் மதிப்பிலான மது விற்பனை பதிவாயிற்று.",
-   "திருச்சி மண்டலத்தில் 98.97 கோடி ரூபாய், மதுரை மண்டலத்தில் 88.38 கோடி ரூபாய் விற்பனையாயிற்று.",
-   "விற்பனையின் போது பல தாஸ்மாக் கடைகளில் பாஸ் இயந்திரங்களில் தொழில்நுட்பக் கோளாறுகள் ஏற்பட்டன.",
-   "இந்தக் கோளாறுகள் காரணமாக சில இடங்களில் வாடிக்கையாளர்கள் அதிக நேரம் காத்திருக்க நேர்ந்தது."
-  ],
-  "closing": "தமிழ்நாடு மார்க்கெட்டிங் கார்ப்பரேஷன் என அழைக்கப்படும் தாஸ்மாக் மூலம் மது விற்பனையிலிருந்து கிடைக்கும் வருவாய் மாநில அரசுக்கு முக்கிய வருமான ஆதாரமாக உள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": "2026-11-10"
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தாஸ்மாக்",
-   "தமிழ்நாடு",
-   "சென்னை",
-   "திருச்சி",
-   "மதுரை",
-   "தீபாவளி"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Tasmac liquor sales in Tamil Nadu touch 441 crore rupees this Deepavali",
-   "lines": [
-    "Tasmac's liquor sales across Tamil Nadu touched 441 crore rupees during the Deepavali festival period.",
-    "The Chennai zone alone recorded liquor sales worth 95.85 crore rupees.",
-    "The Tiruchi zone recorded 98.97 crore rupees in sales, followed by Madurai at 88.38 crore rupees.",
-    "Reports indicate that several Tasmac outlets faced technical glitches in their POS machines during the sales period.",
-    "Due to these glitches, customers at some outlets had to wait longer than usual in queues."
-   ],
-   "closing": "Liquor sales revenue through Tasmac, the Tamil Nadu State Marketing Corporation, remains a major source of income for the state government."
-  },
-  "front_cat": "routine",
-  "image_query": "TASMAC liquor shop Tamil Nadu",
-  "wiki_subject": "Tamil Nadu State Marketing Corporation",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "fc6ed3105179",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-10T13:57+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/tasmacs-deepavali-sales-touch-441-crore-amid-pos-machine-glitches/article71683625.ece"
-  ],
-  "image": {
-   "url": "data/bank/economy01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/fc6ed3105179.mp3",
-  "created_ts": 1794299268.0712671,
-  "status": "published"
- },
- {
-  "headline": "தவெக அரசு ஆட்சி ஆறு மாதம் நிறைவு, பொதுமக்கள் நல்லெண்ணம் நிலவினும் திசை குறித்த கவலை",
-  "lines": [
-   "தமிழக வெற்றிக் கழகம் தலைமையிலான தமிழ்நாடு அரசு ஆட்சிக்கு வந்து ஆறு மாதங்கள் நிறைவடைந்துள்ளன.",
-   "முதல்வர் ஜோசப் விஜய், பதவியேற்ற முதல் நாளிலேயே அரசுக் கருவூலம் காலியாக உள்ளதாக அறிவித்திருந்தார்.",
-   "இந்நிலையிலும், முந்தைய அரசின் முக்கிய நலத்திட்டங்கள் அனைத்தும் தற்போதைய அரசால் தொடரப்பட்டு வருகின்றன.",
-   "ஆட்சி திசைதவறியுள்ளதாகக் கவலைகள் எழுந்திருந்த போதிலும், பொதுமக்களிடையே அரசுக்கு நல்லெண்ணம் நிலவுவதாகத் தெரிகிறது.",
-   "அரசின் அடுத்த கட்ட நடவடிக்கைகள் மற்றும் புதிய கொள்கை அறிவிப்புகள் குறித்து இன்னும் தெளிவு வெளிவரவில்லை."
-  ],
-  "closing": "அரசின் அடுத்தக்கட்ட கொள்கை முடிவுகள் மீது பொதுமக்களின் கவனம் குவிந்துள்ளது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தமிழக வெற்றிக் கழகம்",
-   "ஜோசப் விஜய்",
-   "தமிழ்நாடு அரசு",
-   "நலத்திட்டங்கள்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "TVK govt completes six months, welfare schemes continue",
-   "lines": [
-    "The Tamil Vettri Kazhagam-led government in Tamil Nadu has completed six months in office.",
-    "Chief Minister Joseph Vijay had declared on his very first day that he inherited an empty treasury.",
-    "Despite this, the government has continued all the major welfare schemes started by the previous administration.",
-    "Although concerns have been raised about the government lacking direction, public goodwill towards it appears to remain intact.",
-    "There is still no clarity on the government's next steps or new policy announcements."
-   ],
-   "closing": "Attention remains on what policy decisions the government will announce next."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "C. Joseph Vijay",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "2955c5d34ca3",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-10T13:56+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/six-months-into-its-rule-tvk-led-government-enjoys-public-goodwill-despite-concerns-about-it-being-directionless/article71683549.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/JosephVijay.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · C. Joseph Vijay",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/C._Joseph_Vijay",
-   "symbolic": false
-  },
-  "audio": "data/audio/2955c5d34ca3.mp3",
-  "created_ts": 1794299180.2308526,
-  "status": "published"
- },
- {
-  "headline": "முரசு புயல் இறப்புகளுக்கு கூடுதல் இழப்பீடு கோரும் மீனவர்",
-  "lines": [
-   "முரசு புயலில் உயிரிழந்த மீனவர் குடும்பங்களுக்கு கூடுதல் இழப்பீடு வழங்க வேண்டும் என நெய்தல் மக்கள் கட்சி கோரிக்கை விடுத்துள்ளது.",
-   "தற்போது வழங்கப்பட்டுள்ள ஏழு லட்சம் ரூபாய் இழப்பீடு, குடும்பத்தின் ஒரே வருமான ஈட்டுபவரை இழந்தவர்களுக்குப் போதுமானதாக இல்லை என கட்சியினர் தெரிவித்தனர்.",
-   "நெய்தல் மக்கள் கட்சியின் கே.பாரதி, இந்தத் தொகை பாதிக்கப்பட்ட குடும்பங்களின் நலனைப் பாதுகாக்கப் போதுமானதாக இல்லை என்று கூறினார்.",
-   "முரசு புயலால் பாதிக்கப்பட்ட பல மீனவக் குடும்பங்கள் வருமான வழியின்றித் தவிக்கின்றனர் என அவர் சுட்டிக்காட்டினார்.",
-   "இழப்பீடு தொகையை உயர்த்துமாறு அரசிடம் கோரிக்கை விடுக்கப்பட்டுள்ள நிலையில், அரசின் பதில் இன்னும் வெளியாகவில்லை."
-  ],
-  "closing": "முரசு புயல் காரணமாக உயிரிழந்தோரின் குடும்பங்களுக்கு இழப்பீடு வழங்கும் திட்டம் தமிழக அரசால் முன்னர் அறிவிக்கப்பட்டிருந்தது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "நெய்தல் மக்கள் கட்சி",
-   "கே.பாரதி",
-   "முரசு புயல்",
-   "மீனவர்கள்",
-   "இழப்பீடு"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Fisherfolk group demands higher compensation for Murasu cyclone deaths",
-   "lines": [
-    "Neithal Makkal Katchi has demanded additional compensation for families of fishermen who died in Cyclone Murasu.",
-    "The party said the current compensation of seven lakh rupees is not sufficient for families who lost their sole breadwinner.",
-    "Party leader K. Bharathi said the amount is inadequate to protect the welfare of affected families.",
-    "He pointed out that many fisherfolk families affected by Cyclone Murasu are struggling without a source of income.",
-    "A request has been submitted to the government to increase the compensation amount, but the government's response is yet to be announced."
-   ]
-  },
-  "id": "1792fa58d7da",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-10T06:48+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/chennai/fisherfolk-seek-higher-compensation-for-men-who-died-in-murasu-cyclone/article71683325.ece"
-  ],
-  "image": {
-   "url": "data/bank/economy01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/1792fa58d7da.mp3",
-  "created_ts": 1794273536.6320002,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "அமெரிக்க பாதுகாப்பு செயலர் பீட் ஹெக்செத் மீது பதவி நீக்கத் தீர்மானம்",
-  "lines": [
-   "அமெரிக்காவின் பாதுகாப்பு செயலர் பீட் ஹெக்செத் மீது பதவி நீக்கத் தீர்மானத்தை குடியரசுக் கட்சி எம்பி தாமஸ் மாஸி முன்மொழிந்துள்ளார்.",
-   "சட்டவிரோத உத்தரவுகள் பிறப்பித்ததாக குற்றம் சாட்டி இந்த தீர்மானம் காங்கிரசில் தாக்கல் செய்யப்பட்டுள்ளது.",
-   "பதவி விலக இருக்கும் எம்பியான தாமஸ் மாஸி, ஹெக்செத்தை பதவி நீக்க வேண்டும் என காங்கிரசை வலியுறுத்தியுள்ளார்.",
-   "இந்தத் தீர்மானம் தொடர்பாக பாதுகாப்புத் துறையோ ஹெக்செத்தோ இதுவரை அதிகாரப்பூர்வமாகப் பதிலளிக்கவில்லை.",
-   "இத்தீர்மானம் குறித்து காங்கிரசில் எப்போது விவாதம் நடைபெறும் என்பது இன்னும் தெளிவாகத் தெரியவில்லை."
-  ],
-  "closing": "தாமஸ் மாஸி தனது பதவிக் காலத்தை முடித்துக்கொண்டு விலக உள்ள நிலையில் இந்தத் தீர்மானத்தைத் தாக்கல் செய்துள்ளார் என்பது குறிப்பிடத்தக்கது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "doc": "US congressman files resolution to impeach Defence Secretary Pete Hegseth",
-    "date": null
-   },
-   {
-    "name": "Al Jazeera",
-    "doc": "Republican lawmaker moves to impeach US Defense Secretary Hegseth",
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "அமெரிக்கா",
-   "தாமஸ் மாஸி",
-   "பீட் ஹெக்செத்",
-   "காங்கிரஸ்",
-   "குடியரசுக் கட்சி"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "US Congressman files resolution to impeach Defense Secretary Hegseth",
-   "lines": [
-    "Republican Congressman Thomas Massie has introduced a resolution to impeach US Defense Secretary Pete Hegseth.",
-    "The resolution accuses Hegseth of issuing unlawful orders and has been filed in Congress.",
-    "Massie, an outgoing lawmaker, has called on Congress to remove Hegseth from his post.",
-    "Neither the Defense Department nor Hegseth has officially responded to the resolution so far.",
-    "It remains unclear when Congress will take up the resolution for debate."
-   ],
-   "closing": "It is notable that Thomas Massie filed the resolution as he is set to leave Congress at the end of his term."
-  },
-  "front_cat": "leader_arrest",
-  "image_query": "",
-  "wiki_subject": "Pete Hegseth",
-  "id": "32b6523ccabd",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "உலகம்",
-  "published_at": "2026-11-10T06:47+05:30",
-  "links": [
-   "https://www.aljazeera.com/news/2026/11/9/us-congressman-files-resolution-to-impeach-defence-secretary-pete-hegseth?traffic_source=rss",
-   "https://www.aljazeera.com/video/newsfeed/2026/11/9/republican-lawmaker-moves-to-impeach-us-defense-secretary-hegseth?traffic_source=rss"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Pete_Hegseth_Official_Portrait.jpg/3840px-Pete_Hegseth_Official_Portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Pete Hegseth",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Pete_Hegseth",
-   "symbolic": false
-  },
-  "audio": "data/audio/32b6523ccabd.mp3",
-  "created_ts": 1794273467.7363605,
-  "person_en": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
  }
 ]
