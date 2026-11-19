@@ -1,42 +1,42 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 27 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 23 புதியவை
+[fetch] The Hindu TN: 24 புதியவை
+[fetch] Dinamani TN: 29 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 20 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] ESPNcricinfo: 21 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 12 புதியவை
-[fetch] Cinema Express: 26 புதியவை
+[fetch] Cinema Express: 23 புதியவை
 [fetch] The Hindu Tech: 23 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 22 புதியவை
+[fetch] The Hindu Health: 19 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
-[fetch] ICMR: 0 புதியவை
+[fetch] ICMR: பிழை HTTPSConnectionPool(host='www.icmr.gov.in', port=443): Read timed out. (read timeout=20)
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 23 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 8 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,88 +56,52 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x778002ec68d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x72b1c996f510>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 29 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 729 → நிகழ்வுகள் 650
-[triage] 650 → 67 | காலி: india:4, economy:3, crime:3, health:3, cinema:3
-[திருத்தம்] அரியநோய் மருந்து விலை ஒன்பது கோடியிலிருந → அரியநோய் மருந்து விலை ₹9 கோடியிலிருந்து 
-[தரம்] தமிழ் அல்லாத எழுத்து: এনরাে → ஒரு திருத்தம்
-[tts-edge] ca3293e09c1d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அரியநோய் மருந்து விலை ₹9 கோடியிலிருந்து ₹2.5 லட்சமாகக் குறைந்தது; ஏழு குழந்தைகளுக்குச் சிகிச்சை இலவசம்
-[skip] வட இந்திய இயக்குநர், வட இந்திய நடிகர், வட இந்திய திரையுலக நே
-[skip] வெளிநாட்டுக் கிரிக்கெட் தொடர் — பாகிஸ்தான் vs இலங்கை. தமிழ்ந
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChBwqAQHEwPKrwmGdzbTZ'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChBwt6qoLPa4tGimio4AN'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChBwvmVnnL1HNoMv6VxGY'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChBwyRoTXNAjKNzpPx55S'}
-[image] களஞ்சியம் (3 சொல்): முதல்வர் விஜய் மருத்துவமனை, கல்லூர
-[tts-edge] 6bb42885ad4e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] முதல்வர் விஜய் மருத்துவமனை, கல்லூரிக் கட்டிடங்கள் காணொலி வழி திறப்பு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; அமைச்சர் என்ன சொன்னார், எங
-[skip] வெளிநாட்டு அரசியல் — ஆங்கிலிய உராய்ச்சி அல்ல, இந்தியா அல்ல, 
+[run] புதியவை 718 → நிகழ்வுகள் 649
+[triage] 649 → 42 | காலி: india:3, crime:3, sports:3, health:2, cinema:2
+[skip] இங்கிலாந்து county cricket — தமிழ்நாடு/இந்தியா வாசகரைப் பாதி
+[skip] இது கேரள மாநில சட்டப்பேரவை உறுப்பினர் ஒருவரின் மரணம் தொடர்பா
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டுக் রাஜதந்திரச் சிந்தனை — தமிழ்நாடு/இந்திய வாசகரின்
-[publish] வெற்றி மகளிர் திட்டத்தில் பயன்பெற ஆதார் எண் கட்டாயம் என அறிவிப்பு
-[skip] வெளிநாட்டுத் தரப்பிற் கூட்டம் — தமிழ்நாட்டு/இந்திய வாசகரின் 
-[image] களஞ்சியம் (2 சொல்): தமிழக ஆளுநர் ஆர்.வி. அர்லேகர் சென்
-[publish] தமிழக ஆளுநர் ஆர்.வி. அர்லேகர் சென்னை தனியார் மருத்துவமனையில் அனுமதி
+[skip] தமிழ்நாட்டுச் செய்தி என்றாலும், இது ஒரு நபரின் மரணம் பற்றிய 
+[skip] வெளிநாட்டு நেতாக்களின் மாநாடு — தமிழ்நாடு/இந்தியாவுடன் நேரடி
+[skip] வெளிநாட்டுத் தொடர்பான சர்வதேச நீதிமன்றத் தீர்ப்பு. தமிழ்நாட்
+[skip] வெளிநாட்டுத் தகவல்: ஆங்கிலேய/அமெரிக்க ஊடகம் வெளியிட்ட ইসরائे
+[skip] தமிழ்நாட்டுக் உள்நாட்டு அரசியல் சர்ச்சை — இந்த குறிப்பிடப்பட
+[skip] வெளிநாட்டுத் துகள் நிகழ்வு — செனிகால் நகரத்தின் உள்ளூர் விபத
+[skip] வெளிநாட்டுத் தொலைபேசி போரின் உள்ளூர் στρατηγική விவரம். தமிழ
+[skip] உலக நிகழ்வு — தமிழ்நாட்டு வாசகரின் அன்றாட வாழ்வைக் கோட்டிட்ட
+[tts-edge] 0ff8890dad50: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] வாக்காளர் பட்டியல் நீக்கம்: நவம்பர் 30 கடைசி நாள் என உச்ச நீதிமன்றம் அறிவுறுத்தல்
+[skip] உத்தரப் பிரதேசத்தில் நடந்த உள்ளூர் அரசியல் கட்சிகளுக்கிடையேய
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] தமிழ்நாட்டுச் செய்தி என்றாலும், இது உலக செய்திப் பிரிவாக குற
-[skip] உலக அளவில் முக்கியமற்ற மற்றும் தமிழ்நாடு/இந்தியாவுடன் நேரடித
-[skip] வெளிநாட்டு உள்நாட்டு உளவு வழக்கு — தமிழ்நாட்டு/இந்திய வாசகரை
-[skip] அலாஸ்காவின் உள்நாட்டு தேர்தল் — தமிழ்நாடு/இந்தியாவுக்குத் தொ
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — தமிழ்நாட்டு/இந்திய வாசகரின் அ
-[skip] வெளிநாட்டுத் தலைவர்களின் சாத்தியமான சந்திப்பு பற்றிய ஊகம். இ
-[skip] வெளிநாட்டுத் தகராறு — தமிழ்நாடு/இந்தியாவுடன் நேரடித் தொடர்பு
-[skip] வெளிநாட்டு உள்நாட்டு அரசியல் — அமெரிக்க அதிபர் மற்றும் வெனிச
-[skip] வெளிநாட்டுப் உள்ளூர் குற்றவழக்கு. ஐக்கிய நாட்டின் உள்ளூர் நீ
-[skip] வெளிநாட்டுச் சட்டப்போர் — தமிழ்நாடு/இந்தியாவுக்குத் நேரடித் 
-[skip] வெளிநாட்டுக் குறிப்பாக இருந்தாலும், தமிழ்நாடு அல்லது இந்திய 
-[skip] இரண்டு மூலங்களும் தமிழ்நாட்டுடன் தொடர்பில்லாத வேறு மாநில/தேச
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[தரம்] தமிழ் அல்லாத எழுத்து: ড → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): இந்திய ஸ்டேட் வங்கியில் பொது மேலாள
-[publish] இந்திய ஸ்டேட் வங்கியில் பொது மேலாளர் பணியிடத்திற்கு விண்ணப்பிக்க அழைப்பு
-[திருத்தம்] இந்திய ஜனநாயகம் புனிதமானது என ராகுல் காந → இந்திய ஜனநாயகம் 'புனிதமானது', தேர்தல்களை
-[publish] இந்திய ஜனநாயகம் 'புனிதமானது', தேர்தல்களைப் புறக்கணிப்பது அதை முடிவுக்குக் கொண்டு வரும்: ராகுல் காந்தி
-[skip] ஆந்திரப் பிரதேசம் குண்டூரில் நடந்த உள்ளூர் வேலை மோசடி வழக்கு
-[skip] இது ஹைதராபாத்தில் மட்டும் சோதனை அடிப்படையில் தொடங்கப்படும் ர
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Alliance Francaise of Madras’ new director, Oliv
-[skip] ஆன்மிக/மத நம்பிக்கைக் கட்டுரை — செய்திக் கருத்து அல்ல. தமிழ்
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Egmore Museum Theatre to stage ‘Anna of Nazareth
-[skip] அசாம் மாநிலத்தின் உள்ளூர் மருத்துவக் கல்லூரி விவகாரம். தமிழ்
-[திருத்தம்] பாரத்பாலா இயக்குநர் 'பனாரஸ்' திரைப்படத்த → இயக்குநர் பாரத்பாலா ஏ.ஆர்.ரஹ்மானுடன் 'பன
-[தரம்] தமிழ் அல்லாத எழுத்து: ো → ஒரு திருத்தம்
-[publish] இயக்குநர் பாரத்பாலா ஏ.ஆர்.ரஹ்மானுடன் 'பனாரஸ்' திரைப்படத்தில் மீண்டும் பணியாற்றுகிறார்.
-[skip] வெளிநாட்டுத் தொடர் — நியூజிலாந்து உள்நாட்டு ক্রিকெட். தமிழ்ந
-[skip] வெளிநாட்டுத் தலைவர் உரை — தமிழ்நாட்டு வாசகரின் அவசர நடவடிக்க
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Ramachandra Guha explores Gandhi’s contested leg
-[skip] பொதுவான கொள்கைக் கட்டுரை — செய்தி அல்ல। தமிழ்நாட்டுக்கான குற
-[skip] வெளிநாட்டுத் திரைப்படம் — தமிழ்நாட்டு/இந்திய திரையுலக செய்தி
-[skip] வெளிநாட்டுப் கிரிக்கெட்; தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்க
-[publish] கோல்ட்மேன் சாக்ஸ் 22 இந்தியப் பங்குகளுக்கு வாங்கும் பரிந்துரை
-[image] களஞ்சியம் (2 சொல்): இந்திய அரசுப் பத்திரங்கள் விலை உயர
-[publish] இந்திய அரசுப் பத்திரங்கள் விலை உயர்வு, டிசம்பர் வட்டி முடிவு எதிர்பார்ப்பு
-[skip] இது மோர்கன் ஸ்டான்லி என்ற முதலீட்டு நிறுவனத்தின் பங்கு பரிந்
-[filler] tech கட்டுரை
-[jobs] தொகுப்பு 12
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹11507 · சென்செக்ஸ் 82543
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Chennai Corporation not taking up new initiative
+[skip] வெளிநாட்டுத் தத்துவக் கட்டுரை — தமிழ்நாட்டு/இந்திய மருத்துவம
+[skip] திரைப்படத் திறனாய்வு — தமிழ்நாட்டு வாசகரின் செய்திக் கட்டுரை
+[skip] இது அரசுப் பத்திரங்கள் தொடர்பான இந்திய ரிசர்வ் வங்கியின் உள்
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: DRI seizes over 70 kg of heroin worth ₹700 crore
+[skip] வெளிநாட்டுத் தொடர் — Bangladesh வெளிநாட்டுத் தொடரில் நடந்த ஒ
+[skip] வெளிநாட்டுத் தயாரிப்பு நிறுவனத்தின் ஆய்வுச் செய்தி — தமிழ்நா
+[skip] தெலుங్ణ చలన చిత్రం; తమిழ్ నేటివ్ సినిమా కాదు. తమిழ్ నాడు పాఠ
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: TVK MLA V.S. Babu, who defeated M.K. Stalin in K
+[skip] வெளிநாட்டுக் கிரிக்கெட் — தென்னாப्रிკா vs பாங்களாதேஷ் T20 உல
+[tts-edge] art_sports_20261119: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[filler] sports கட்டுரை
+[தரம்] பழையவை: 0 திருத்தம், 1 நீக்கம்
+[market] தங்கம் 22K ₹11336 · சென்செக்ஸ் 83022
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 9
+[done] feed 300 · pending 0 · எழுதியவை 1
