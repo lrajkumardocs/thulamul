@@ -1,24 +1,24 @@
-[expire] 5ced32433ed6
+[expire] 46a3bf1bbf77
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 22 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 25 புதியவை
+[fetch] The Hindu TN: 25 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
+[fetch] BBC Tamil: 9 புதியவை
+[fetch] BBC World: 26 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 29 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Cinema: 9 புதியவை
 [fetch] Cinema Express: 27 புதியவை
 [fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 23 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 22 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
-[fetch] Sarkari Result: 0 புதியவை
+[fetch] FreeJobAlert: 26 புதியவை
+[fetch] Sarkari Result: 10 புதியவை
 [fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
@@ -29,9 +29,9 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 2 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
-[fetch] Dinamalar Aanmeegam: 0 புதியவை
+[fetch] Dinamalar Aanmeegam: பிழை HTTPSConnectionPool(host='www.dinamalar.com', port=443): Read timed out. (read timeout=20)
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
@@ -40,12 +40,12 @@
 [fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
-[fetch] Indian Express India: 0 புதியவை
+[fetch] Indian Express India: 30 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
-[fetch] Indian Express Cinema: 0 புதியவை
+[fetch] Indian Express Cinema: 9 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
 [fetch] Sportstar: 30 புதியவை
@@ -57,72 +57,63 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7cac9f605c90>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x723c3079ea10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 25 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 706 → நிகழ்வுகள் 628
-[triage] 628 → 75 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இது இந்திய சட்ட நிறுவனங்களுக்கான உள்ளூர் கிரிக்கெட் போட்டி ப
-[skip] குஜராத் மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்புகள் - தமிழ
-[skip] வெளிநாட்டுச் சுகாதாரக் கட்டுரை — தமிழ்நாட்டு/இந்திய வாசகரின்
-[skip] வெளிநாட்டுத் தொலைக்காட்சித் தொடர் — தமிழ்நாட்டு/இந்தியத் தொட
-[skip] வெளிநாட்டுத் தனிநபர் நேர்காணல் — தமிழ்நாட்டு/இந்திய வாசகரின்
-[திருத்தம்] அக்வான் புயல் பாதை மாற்றம், தமிழகத்தில்  → அக்வான் புயல் பாதை மாற்றம்; தமிழகத்தில் 
-[image] களஞ்சியம் (2 சொல்): அக்வான் புயல் பாதை மாற்றம்; தமிழகத
-[tts-edge] ea8d06a954c5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அக்வான் புயல் பாதை மாற்றம்; தமிழகத்தில் நவம்பர் 23 வரை கனமழை தாமதம்
+[run] புதியவை 765 → நிகழ்வுகள் 684
+[triage] 684 → 72 | காலி: india:4, govt:4, economy:3, court:3, crime:3
+[skip] தமிழ்நாட்டுக்கு பொருத்தமான வேலைவாய்ப்பு செய்திக் கூறுகளை இவ்
+[skip] வெளிநாட்டுப் பொதுவான கருத்துரை - தமிழ்நாட்டு/இந்திய வாசகரின்
+[skip] வெளிநாட்டுத் தயாரிப்பு — தமிழ்நாட்டு/தமிழ்க் கலைஞர்களின் பங்
+[skip] வெளிநாட்டுத் தொடர்பான கிரிக்கெட் சர்ச்சை — தமிழ்நாட்டு/இந்தி
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ரோஹிங்கியா படுகொலை வழக்கில் மியான்
+[tts-edge] cd24719f402d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ரோஹிங்கியா படுகொலை வழக்கில் மியான்மருக்கு வரலாற்றுத் தீர்ப்பு எதிர்பார்ப்பு
+[tts-edge] 1a28af3a3ec3: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] புதிய டாஸ்மாக் கடைகள் வேண்டாம்: மதுரை உயர்நீதிமன்றக் கிளை உத்தரவு
+[publish] காசாவில் மஞ்சள் கோட்டைத் தாண்டி இஸ்ரேலிய ராணுவ அரிய நடவடிக்கை
+[திருத்தம்] பரந்தூர் விமான நிலைய கைவிடல் முடிவு செல் → பரந்தூர் விமான நிலைய கைவிடல் முடிவு அரசி
+[தரம்] தமிழ் அல்லாத எழுத்து: రా → ஒரு திருத்தம்
+[publish] பரந்தூர் விமான நிலைய கைவிடல் முடிவு அரசியலமைப்புக்கு முரணானது என வழக்கு
+[skip] இது பிரான்ஸ் நாட்டின் உள்நாட்டுக் குற்றவியல் வழக்கு; உலக அளவ
+[திருத்தம்] தமிழக அரசு 2,221 சாலைப் பணிகளுக்கு 6,513 → தமிழக அரசு 2,221 சாலைப் பணிகளுக்கு 6,513
+[image] களஞ்சியம் (2 சொல்): தமிழக அரசு 2,221 சாலைப் பணிகளுக்கு
+[publish] தமிழக அரசு 2,221 சாலைப் பணிகளுக்கு 6,513 கோடி ரூபாய் நிர்வாக ஒப்புதல் வழங்கியது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChBP259ygzfQ1E9xV7nPf'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChBP55BoF85DU3e8r2APu'}
+[publish] வ.உ.சிதம்பரம் பிள்ளை நினைவு நாளில் தலைவர்கள் அஞ்சலி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChBPD7uUqtnifTHTv8Ka3'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[தரம்] தமிழ் அல்லாத எழுத்து: আি → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): மேகதாது அணைக்கு தமிழக அமைச்சர்கள் 
-[tts-edge] b789618618b1: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மேகதாது அணைக்கு தமிழக அமைச்சர்கள் மீண்டும் எதிர்ப்பு தெரிவிப்பு
-[publish] சீனாவில் டிரம்ப், புடின், ஜி ஜின்பிங் முதன்முறை சந்திப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChAstxhCyxXADhw8h9TJJ'}
-[skip] தமிழ்நாட்டு உள்ளூர் சட்ட வழக்கு — தேசிய அல்லது உலக அளவில் மு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] மேகதாது அணை குறித்து தமிழ்நாடு புதிய அறி → மேகதாது அணை குறித்து தமிழ்நாட்டின் புதிய
-[தரம்] தமிழ் அல்லாத எழுத்து: ি্ → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): மேகதாது அணை குறித்து தமிழ்நாட்டின்
-[publish] மேகதாது அணை குறித்து தமிழ்நாட்டின் புதிய பிரதிநிதித்துவத்தில் நடுவர் மன்ற கோரிக்கை இல்லை.
-[skip] பிரிட்டன் அரச குடும்பத்தின் உள்நாட்டு நண்பிக்கை ஆலோசனை — தமி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChAt69C3snyhgLjppGRyK'}
-[skip] வெளிநாட்டுத் தொலைதூர வழக்கு — தமிழ்நாடு/இந்தியாவுடன் நேரடித்
-[image] களஞ்சியம் (2 சொல்): நீலகிரி பண்டலூரில் காட்டு யானை தாக
-[publish] நீலகிரி பண்டலூரில் காட்டு யானை தாக்குதலில் நபர் பலி
-[skip] வெளிநாட்டுப் போர்/மோதல் செய்தி — தமிழ்நாட்டு வாசகரின் அன்றாட
-[image] களஞ்சியம் (2 சொல்): கரூர் அருகே குடும்பத்தினர் ஐந்து ப
-[publish] கரூர் அருகே குடும்பத்தினர் ஐந்து பேர் உயிரிழப்பு
-[திருத்தம்] நவம்பர் இருபத்து மூன்றில் பதினான்கு மாவட → நவம்பர் 23ல் 14 மாவட்டங்களுக்குக் கனமழை 
-[image] களஞ்சியம் (2 சொல்): நவம்பர் 23ல் 14 மாவட்டங்களுக்குக் 
-[publish] நவம்பர் 23ல் 14 மாவட்டங்களுக்குக் கனமழை எச்சரிக்கை
-[திருத்தம்] சோத்துப்பாறை அணை திறப்பு - தவெகவினர் மீத → சோத்துப்பாறை அணை திறப்பு - தவெகவினர் மீத
-[publish] சோத்துப்பாறை அணை திறப்பு - தவெகவினர் மீது எடப்பாடி கே.பழனிசாமி கண்டனம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உண்மையான செய்தி விவரங்கள் 
-[திருத்தம்] தேனி சோத்துப்பாறை அணையை தவெகவினர் திறந்த → தேனி சோத்துப்பாறை அணையை தவெகவினர் அதிகார
-[image] களஞ்சியம் (2 சொல்): தேனி சோத்துப்பாறை அணையை தவெகவினர் 
-[publish] தேனி சோத்துப்பாறை அணையை தவெகவினர் அதிகாரிகளுக்குத் தெரிவிக்காமல் திறந்ததால் பரபரப்பு
-[hold] ஆற்று மணல் முறைகேடு: துரைமுருகன் உள்பட 27 பேர் மீது வழக்குப்பதிவு
-[comic] கதை: ஆற்றில் ஓர் அறிமுகம்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (1.00) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-19.png · நாள் 71
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹11554 · சென்செக்ஸ் 82032
-[weather] புதுப்பிக்கப்பட்டது
+[நகல்] ஏற்கனவே வெளியானது: வ.உ.சிதம்பரம் பிள்ளை நினைவு நாளில் தலைவர்கள் அஞ்சலி
+[திருத்தம்] தமிழக காவல் துறையில் 36,000 பணியிடங்களுக → தமிழ்நாடு காவல்துறையில் 36,000 பணியிடங்க
+[publish] தமிழ்நாடு காவல்துறையில் 36,000 பணியிடங்களுக்குப் புதிய நியமனம்
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] வெளிநாட்டுத் தரப்பிடையே நடந்த ராணுவ மோதல். தமிழ்நாடு அல்லது 
+[skip] அமெரிக்கக் கட்சி உள்நாட்டு அரசியல். தமிழ்நாடு/இந்தியா வாசகரை
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தி விவரங்கள் (என்ன நடந
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தமிழ்நாடு பாலிடெக்னிக் பாடத்திட்டத
+[publish] தமிழ்நாடு பாலிடெக்னிக் பாடத்திட்டத்தில் தொழில்துறைத் திறன்கள் சேர்க்கை
+[publish] பள்ளிக்கரணை சதுப்பு நிலம் தொடர்பான உயர்நீதிமன்ற உத்தரவை வரவேற்ற அன்புமணி ராமதாஸ்
+[image] களஞ்சியம் (2 சொல்): பள்ளிக்கரணை சதுப்பு நிலக் கட்டுமான
+[publish] பள்ளிக்கரணை சதுப்பு நிலக் கட்டுமானத் தடை வழக்கு, உச்சநீதிமன்றம் செல்ல உத்தரவு
+[brief] காலை brief தயார்
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: பள்ளிக்கரணை சதுப்பு நிலத்தில் சுவர் கட்டுமானம்: சுற்றுச்சூழலா, வளர்ச்சியா?
+[market] தங்கம் 22K ₹11579 · சென்செக்ஸ் 82032
+[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 0 · எழுதியவை 10
