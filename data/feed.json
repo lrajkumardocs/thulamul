@@ -1,5 +1,637 @@
 [
  {
+  "id": "jobs_20261120",
+  "headline": "இன்றைய வேலை அறிவிப்புகள் — 12 · அரசு & தனியார்",
+  "lines": [
+   "முதன்மை மாவட்ட & அமர்வு நீதிபதி அலுவலகம், வைஷாலி — எழுத்தர், சுருக்கெழுத்தாளர் மற்றும் பல (3 இடங்கள்) · கடைசி நாள் 2026-12-03.",
+   "மாவட்ட சுகாதார சங்கம், கரூர் — செவிலியர் (21 இடங்கள்) · கடைசி நாள் 2026-12-04.",
+   "தேசிய கூட்டுறவு பயிற்சி கவுன்சில் (NCCT) — கணக்கு அலுவலர், தணிக்கை அலுவலர் (2 இடங்கள்) · கடைசி நாள் 2026-12-21.",
+   "தமிழ்நாடு வனத்துறை, வனவிலங்கு பிரிவு, இராமநாதபுரம் — தொழில்நுட்ப உதவியாளர் · கடைசி நாள் 2026-11-25.",
+   "சிவில் நீதிமன்றங்கள், சஹர்சா — சுருக்கெழுத்தாளர், எழுத்தர், பியூன் (3 இடங்கள்) · கடைசி நாள் 2026-12-17."
+  ],
+  "closing": "விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ அறிவிப்பை சரிபார்க்கவும்; துலாமுள் பணம் கேட்கும் எந்த அறிவிப்பையும் பட்டியலிடாது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-11-20"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-11-20"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-11-20"
+   },
+   {
+    "name": "FreeJobAlert",
+    "doc": null,
+    "date": "2026-11-20"
+   }
+  ],
+  "topic": "jobs",
+  "topic_ta": "வேலை · தேர்வு",
+  "entities": [
+   "முதன்மை மாவட்ட & அமர்வு நீதிபதி அலுவலகம், வைஷாலி",
+   "மாவட்ட சுகாதார சங்கம், கரூர்",
+   "தேசிய கூட்டுறவு பயிற்சி கவுன்சில் (NCCT)",
+   "தமிழ்நாடு வனத்துறை, வனவிலங்கு பிரிவு, இராமநாதபுரம்"
+  ],
+  "confidence": 0.8,
+  "flags": [],
+  "jobs": [
+   {
+    "org": "முதன்மை மாவட்ட & அமர்வு நீதிபதி அலுவலகம், வைஷாலி",
+    "post": "எழுத்தர், சுருக்கெழுத்தாளர் மற்றும் பல",
+    "count": "3",
+    "last_date": "2026-12-03",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/principal-district-sessions-judge-vaishali-recruitment-2026-clerk-3083318"
+   },
+   {
+    "org": "மாவட்ட சுகாதார சங்கம், கரூர்",
+    "post": "செவிலியர்",
+    "count": "21",
+    "last_date": "2026-12-04",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/district-health-society-karur-staff-nurse-recruitment-2026-3083316"
+   },
+   {
+    "org": "தேசிய கூட்டுறவு பயிற்சி கவுன்சில் (NCCT)",
+    "post": "கணக்கு அலுவலர், தணிக்கை அலுவலர்",
+    "count": "2",
+    "last_date": "2026-12-21",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/ncct-recruitment-2026-accounts-officer-audit-officer-3083314"
+   },
+   {
+    "org": "தமிழ்நாடு வனத்துறை, வனவிலங்கு பிரிவு, இராமநாதபுரம்",
+    "post": "தொழில்நுட்ப உதவியாளர்",
+    "count": null,
+    "last_date": "2026-11-25",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/tn-forest-technical-assistant-recruitment-2026-3083310"
+   },
+   {
+    "org": "சிவில் நீதிமன்றங்கள், சஹர்சா",
+    "post": "சுருக்கெழுத்தாளர், எழுத்தர், பியூன்",
+    "count": "3",
+    "last_date": "2026-12-17",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/civil-courts-saharsa-recruitment-2026-stenographer-clerk-peon-orderly-3083308"
+   },
+   {
+    "org": "இந்தியன் வங்கி",
+    "post": "AI ஸ்பெஷலிஸ்ட் அதிகாரி, AI பொறியாளர் மற்றும் பல",
+    "count": "8",
+    "last_date": "2026-12-01",
+    "type": "தனியார்",
+    "link": "https://www.freejobalert.com/articles/indian-bank-recruitment-2026-ai-specialist-officer-ai-engineer-3083304"
+   },
+   {
+    "org": "JIPMER",
+    "post": "DEO, திட்ட தொழில்நுட்பர் மற்றும் பல",
+    "count": "6",
+    "last_date": "2026-12-07",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/jipmer-recruitment-2026-deo-project-technician-3083300"
+   },
+   {
+    "org": "மாவட்ட சுகாதார சங்கம், கோயம்புத்தூர்",
+    "post": "செவிலியர்",
+    "count": "56",
+    "last_date": "2026-12-04",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/dhs-staff-nurse-recruitment-2026-3083290"
+   },
+   {
+    "org": "மாவட்ட சுகாதார சங்கம், கிருஷ்ணகிரி",
+    "post": "செவிலியர்",
+    "count": "73",
+    "last_date": "2026-12-04",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/dhs-krishnagiri-staff-nurse-recruitment-2026-3083288"
+   },
+   {
+    "org": "தேசிய மின்-ஆளுகை பிரிவு, டிஜிட்டல் இந்தியா கார்ப்பரேஷன் (NeGD)",
+    "post": "திட்ட மேலாளர், DevOps பொறியாளர் மற்றும் பல",
+    "count": "16",
+    "last_date": "2026-11-30",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/negd-recruitment-2026-program-manager-devops-engineer-3083286"
+   },
+   {
+    "org": "தேனி மாவட்ட சுகாதார சங்கம் (NHM தேனி)",
+    "post": "செவிலியர்",
+    "count": "33",
+    "last_date": "2026-12-04",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/nhm-theni-staff-nurse-recruitment-2026-3083284"
+   },
+   {
+    "org": "கர்நாடக மாநில தீயணைப்பு மற்றும் அவசர சேவைகள் (KSFES)",
+    "post": "தீயணைப்பு நிலைய அலுவலர்",
+    "count": "16",
+    "last_date": "2026-12-22",
+    "type": "அரசு",
+    "link": "https://www.freejobalert.com/articles/ksfes-fire-station-officer-recruitment-2026-3083269"
+   }
+  ],
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-20T21:55+05:30",
+  "created_ts": 1795191907.0932121,
+  "audio": "data/audio/jobs_20261120.mp3"
+ },
+ {
+  "id": "art_tech_20261120",
+  "headline": "UPI பரிவர்த்தனை மற்றும் ஆதார் தரவுகளை பாதுகாப்பாக பயன்படுத்த வழிகாட்டி",
+  "lines": [
+   "UPI பின் எண்ணை யாருடனும் பகிர வேண்டாம், அது வங்கி ஊழியர் கேட்டாலும் தர வேண்டாம்.",
+   "ஆதார் எண்ணை பயன்படுத்தும்போது mAadhaar செயலி மூலம் Masked Aadhaar விருப்பத்தை தேர்வு செய்யலாம், இது முழு எண்ணை மறைக்கும்.",
+   "அறியாத லிங்க்கள் அல்லது QR குறியீடுகள் மூலம் வரும் பணம் கோரிக்கைகளை ஸ்கேன் செய்யும் முன் அனுப்புநர் யார் என்று உறுதி செய்ய வேண்டும்.",
+   "மொபைலில் தேவையற்ற செயலிகளுக்கு Camera, Microphone, Location அனுமதிகளை Settings > Apps வழியாக சரிபார்த்து நிறுத்தலாம்.",
+   "சந்தேகத்திற்குரிய மோசடி அழைப்புகள் அல்லது செய்திகளை 1930 சைபர் க்ரைம் ஹெல்ப்லைனில் புகாரளிக்கலாம்."
+  ],
+  "closing": "சிறிய எச்சரிக்கை, பெரிய இழப்பைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-20"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "UPI பாதுகாப்பு",
+   "ஆதார் தனியுரிமை"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-20T21:54+05:30",
+  "created_ts": 1795191885.7872822,
+  "audio": "data/audio/art_tech_20261120.mp3"
+ },
+ {
+  "headline": "தண்ணீர் இருந்தால் தமிழகத்துக்கு வழங்குவோம் - கர்நாடக முதல்வர் பேச்சு",
+  "lines": [
+   "காவிரி நீர் பங்கீடு தொடர்பாக கர்நாடக முதல்வர் டி.கே.சிவகுமார் கருத்து தெரிவித்துள்ளார்.",
+   "தங்களிடம் தண்ணீர் கிடைக்கும் பட்சத்தில் நிச்சயம் தமிழகத்துக்கு வழங்குவதாக அவர் தெரிவித்தார்.",
+   "இது தொடர்பாக கர்நாடக முதல்வர் ஊடகங்களிடம் பேசும்போது இந்தக் கருத்தை தெரிவித்தார்.",
+   "காவிரி நீர் பங்கீடு தமிழகம் மற்றும் கர்நாடகா இடையே பல ஆண்டுகளாக நீடிக்கும் பிரச்சினையாக உள்ளது.",
+   "இரு மாநிலங்களுக்கும் இடையிலான நீர் பங்கீடு பேச்சுவார்த்தை தொடரும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "காவிரி நதி நீர் மேலாண்மை குழு வழிகாட்டுதலின்படி இரு மாநிலங்களுக்கும் இடையே நீர் பங்கீடு தொடர்பான பேச்சுவார்த்தைகள் தொடர்ந்து நடைபெற்று வருகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தமிழகம்",
+   "கர்நாடகா",
+   "காவிரி நீர்",
+   "டி.கே.சிவகுமார்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "If we have water, we will give it to Tamil Nadu: Karnataka CM",
+   "lines": [
+    "Karnataka Chief Minister D. K. Shivakumar commented on the Cauvery water sharing issue.",
+    "He stated that if water is available with Karnataka, it would certainly be given to Tamil Nadu.",
+    "The Karnataka Chief Minister made this statement while speaking to the media.",
+    "Cauvery water sharing has remained a long-standing issue between Tamil Nadu and Karnataka for several years.",
+    "Talks between the two states on water sharing are expected to continue."
+   ],
+   "closing": "Discussions between the two states on water allocation continue under the guidance of the Cauvery Water Management Authority."
+  },
+  "front_cat": "farmer_water",
+  "image_query": "",
+  "wiki_subject": "Cauvery River",
+  "person_en": "D. K. Shivakumar",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "4d56b8475335",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-20T21:53+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/20/if-we-have-water-we-will-certainly-provide-it-to-tamil-nadu-karnataka-chief-ministers-statement"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Shivanasamudra_Falls_on_Kaveri.jpg/3840px-Shivanasamudra_Falls_on_Kaveri.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Kaveri",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Kaveri",
+   "symbolic": false
+  },
+  "audio": "data/audio/4d56b8475335.mp3",
+  "created_ts": 1795191812.8784437,
+  "status": "published"
+ },
+ {
+  "headline": "கொளத்தூர் எம்.எல்.ஏ. வி.எஸ். பாபு உடல் அரசு மரியாதையுடன் தகனம்",
+  "lines": [
+   "சென்னை கொளத்தூர் சட்டப்பேரவைத் தொகுதியின் உறுப்பினராக இருந்த வி.எஸ். பாபு காலமானார்.",
+   "அவரது உடலுக்கு அரசு மரியாதையுடன் இறுதிச் சடங்குகள் நடத்தப்பட்டன.",
+   "கொளத்தூர் தொகுதியைப் பிரதிநிதித்துவப்படுத்தி அவர் சட்டப்பேரவை உறுப்பினராகப் பணியாற்றி வந்தார்.",
+   "அவரது மறைவு தொடர்பான முழு விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+   "இறுதிச் சடங்கு ஏற்பாடுகள் தொடர்பான கூடுதல் தகவல்கள் எதிர்பார்க்கப்படுகின்றன."
+  ],
+  "closing": "கொளத்தூர் சட்டப்பேரவைத் தொகுதியின் அடுத்தகட்ட நடவடிக்கைகள் குறித்து இதுவரை அதிகாரப்பூர்வ அறிவிப்பு வெளியாகவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "கொளத்தூர்",
+   "சட்டப்பேரவை",
+   "வி.எஸ்.பாபு",
+   "சென்னை"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Kolathur MLA V. S. Babu's body cremated with state honours",
+   "lines": [
+    "V. S. Babu, who served as the MLA of Kolathur assembly constituency in Chennai, has passed away.",
+    "His body was cremated with state honours in the presence of officials.",
+    "He had been representing the Kolathur constituency as its elected assembly member.",
+    "Complete details regarding the circumstances of his passing have not yet been officially released.",
+    "Further information regarding the funeral arrangements is awaited."
+   ],
+   "closing": "No official announcement has yet been made regarding the next steps for the Kolathur assembly seat."
+  },
+  "front_cat": "leader_death",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "V. S. Babu",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "b3048aa2bfef",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-20T21:52+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/20/kolathur-tvk-mla-vs-babus-body-cremated"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/en/e/ef/V._S._Babu.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · V. S. Babu",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/V._S._Babu",
+   "symbolic": false
+  },
+  "audio": "data/audio/b3048aa2bfef.mp3",
+  "created_ts": 1795191757.2651792,
+  "status": "published"
+ },
+ {
+  "headline": "பல்லாவரத்தில் 26 வயது இளைஞர் கொலை, ஒருவர் கைது",
+  "lines": [
+   "சென்னை பல்லாவரம் பகுதியில் இருபத்தாறு வயது இளைஞர் ஒருவர் கொலை செய்யப்பட்டுள்ளார்.",
+   "இந்தச் சம்பவத்தில் ஈடுபட்டதாகக் கருதப்படும் இருவரில் ஒருவரை காவல்துறையினர் கைது செய்துள்ளனர்.",
+   "மற்றொரு நபருக்காக காவல்துறையினர் தீவிரமாகத் தேடி வருகின்றனர்.",
+   "கொலைக்கான காரணம் தொடர்பாக காவல்துறை இதுவரை விவரம் வெளியிடவில்லை.",
+   "வழக்கு குறித்த மேலதிக விசாரணை தொடர்ந்து நடைபெற்று வருகிறது."
+  ],
+  "closing": "இந்தச் சம்பவம் தொடர்பாக பல்லாவரம் காவல் நிலையத்தில் வழக்குப் பதிவு செய்யப்பட்டு விசாரணை நடைபெறுகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "பல்லாவரம்",
+   "சென்னை",
+   "காவல் துறை"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "26-year-old man murdered in Pallavaram, one arrested",
+   "lines": [
+    "A 26-year-old man was murdered in the Pallavaram area of Chennai.",
+    "Police have arrested one of the two persons suspected to be involved in the incident.",
+    "Police are actively searching for the second suspect.",
+    "Authorities have not yet disclosed the reason behind the murder.",
+    "Further investigation into the case is continuing."
+   ],
+   "closing": "A case has been registered at the Pallavaram police station and investigation is underway."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "71676d8a2244",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-20T21:50+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/26-year-old-man-murdered-by-two-friends-in-pallavaram/article71723432.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/71676d8a2244.mp3",
+  "created_ts": 1795191610.3668973,
+  "status": "published"
+ },
+ {
+  "headline": "மதுரையில் முன்னாள் திமுக அமைச்சர் பி.மூர்த்தியின் வீட்டில் கனிம குவாரி முறைகேடு சோதனை",
+  "lines": [
+   "மதுரையில் கனிமப் பொருட்கள் குவாரி முறைகேடு தொடர்பாக முன்னாள் திமுக அமைச்சர் பி.மூர்த்தியின் வீட்டில் காவல்துறையினர் சோதனை நடத்தினர்.",
+   "சோதனையின்போது நிலம் மற்றும் குத்தகை ஒப்பந்தங்கள் தொடர்பான ஆவணங்கள் பரிசோதிக்கப்பட்டதாகத் தெரிகிறது.",
+   "தனது நிலத்தை குத்தகைக்கு மட்டுமே விட்டதாகவும், முறைகேடுகள் குறித்து தனக்குத் தெரியாது எனவும் முன்னாள் அமைச்சர் பி.மூர்த்தி கூறினார்.",
+   "இந்த வழக்கில் காவல்துறையினர் தொடர்ந்து விசாரணை நடத்திவருவதாகத் தெரிவிக்கப்படுகிறது.",
+   "விசாரணை முடிந்த பின்னர் அடுத்த நடவடிக்கை குறித்து அதிகாரப்பூர்வ அறிவிப்பு இன்னும் வெளியிடப்படவில்லை."
+  ],
+  "closing": "இந்த முறைகேடுகளில் முன்னாள் அமைச்சரின் உண்மையான பங்கு என்ன என்பது விசாரணை முடிவுகளிலேயே தெரியவரும்.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "மதுரை",
+   "பி.மூர்த்தி",
+   "திமுக",
+   "காவல்துறை",
+   "கனிம குவாரி"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Police search former DMK minister's house over quarry irregularities",
+   "lines": [
+    "Police conducted a search at the Madurai residence of former DMK minister P. Moorthi over irregularities in mineral quarrying.",
+    "During the search, documents related to land and lease agreements were reportedly examined.",
+    "Moorthi said he had only leased out his land and was unaware of any irregularities.",
+    "Police are reportedly continuing their investigation into the case.",
+    "No official statement has been issued yet on the next course of action after the inquiry."
+   ],
+   "closing": "The former minister's actual role in the alleged irregularities will only become clear once the investigation concludes."
+  },
+  "front_cat": "scam_expose",
+  "image_query": "illegal mining quarry site",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "5b92cd8e032e",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-20T21:48+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/irregularities-in-quarrying-minerals-police-search-former-dmk-minister-p-moorthis-house-in-madurai/article71723362.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/5b92cd8e032e.mp3",
+  "created_ts": 1795191534.4640982,
+  "status": "published"
+ },
+ {
+  "headline": "ஈரோட்டில் டெங்கு சந்தேகத்தில் கர்ப்பிணிப் பெண் உயிரிழப்பு",
+  "lines": [
+   "ஈரோடு மாவட்டத்தில் கர்ப்பிணிப் பெண் ஒருவர் டெங்கு காய்ச்சல் சந்தேகத்தில் உயிரிழந்துள்ளார்.",
+   "இந்த மரணத்தைத் தொடர்ந்து சுகாதாரத் துறை அதிகாரிகள் பாதிக்கப்பட்ட பகுதியில் ஆய்வு தொடங்கியுள்ளனர்.",
+   "டெங்கு பரவலைத் தடுக்கும் நடவடிக்கைகள் மேற்கொள்ளப்பட்டு வருவதாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "மரணத்திற்கான உறுதியான காரணம் மருத்துவ பரிசோதனை முடிவுகளுக்குப் பிறகே தெரியவரும் என எதிர்பார்க்கப்படுகிறது.",
+   "பகுதி மக்களிடையே கொசு வளர்ச்சியைக் கட்டுப்படுத்தும் பணிகள் தொடரும் என சுகாதாரத் துறை தெரிவித்துள்ளது."
+  ],
+  "closing": "கொசு வளரும் இடங்களை அகற்றுவது மற்றும் காய்ச்சல் அறிகுறிகள் தென்பட்டால் உடனடியாக மருத்துவரை அணுகுவது தொடர்பாக பொதுமக்கள் விழிப்புடன் இருக்குமாறு பரிந்துரைக்கப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "ஈரோடு மாவட்டம்",
+   "சுகாதாரத் துறை",
+   "டெங்கு"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Pregnant woman dies of suspected dengue in Erode district",
+   "lines": [
+    "A pregnant woman in Erode district has died of suspected dengue fever.",
+    "Following the death, Health Department officials have begun inspecting the affected neighbourhood.",
+    "Officials said preventive measures against the spread of dengue are being carried out in the area.",
+    "The exact cause of death is expected to be confirmed only after medical test results are available.",
+    "The Health Department said efforts to control mosquito breeding in the locality will continue."
+   ],
+   "closing": "Residents are advised to remain watchful, clear stagnant water where mosquitoes breed, and consult a doctor promptly if fever symptoms appear."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "5319f416162b",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-20T21:47+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/pregnant-woman-dies-of-suspected-dengue-in-erode-district/article71723832.ece"
+  ],
+  "image": {
+   "url": "data/bank/health02.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/5319f416162b.mp3",
+  "created_ts": 1795191444.0279326,
+  "status": "published"
+ },
+ {
+  "headline": "போலந்தின் மீது ரஷ்ய ஏவுகணை தாக்குதல் என துஸ்க் தெரிவிப்பு",
+  "lines": [
+   "போலந்தின் மீது ரஷ்ய ஏவுகணை ஒன்று வந்து விழுந்ததாக அந்நாட்டுப் பிரதமர் டொனால்ட் துஸ்க் தெரிவித்துள்ளார்.",
+   "உக்ரைனின் நட்பு நாடுகள் கூட்டு இராணுவப் பயிற்சியில் ஈடுபட்டிருந்த நேரத்தில் இந்த சம்பவம் நடந்ததாகத் தெரிவிக்கப்படுகிறது.",
+   "இந்தத் தாக்குதலில் யாரும் காயமடையவில்லை என்றும், எந்தச் சேதமும் பதிவாகவில்லை என்றும் தெரிவிக்கப்பட்டுள்ளது.",
+   "இந்தச் சம்பவத்தை மாஸ்கோவின் \"ஆக்கினைத்தீட்டல்\" நடவடிக்கை என்று போலந்தின் தலைநகர் வார்சா குற்றம் சாட்டியுள்ளது.",
+   "இந்நிகழ்வு குறித்து போலந்து அரசு மேலும் விரிவான விளக்கம் வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "ரஷ்யா-உக்ரைன் போர் பதற்றம் நேட்டோ எல்லை நாடுகளுக்கும் நீளும் அபாயம் குறித்த கவலையை இந்த சம்பவம் மீண்டும் எழுப்பியுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "போலந்து",
+   "ரஷ்யா",
+   "உக்ரைன்",
+   "டொனால்ட் துஸ்க்",
+   "வார்சா"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Russian missile hit Poland during allied drill, says Tusk",
+   "lines": [
+    "Polish Prime Minister Donald Tusk said a Russian missile struck Poland.",
+    "The incident reportedly occurred while Ukraine's allies were holding a joint military exercise.",
+    "No one was hurt in the strike, and no damage has been reported so far.",
+    "Warsaw has described the incident as a provocation by Moscow.",
+    "Further details from the Polish government are expected to follow."
+   ],
+   "closing": "The incident has renewed concerns over Russia-Ukraine war tensions spilling over into NATO border countries."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "Poland missile incident",
+  "wiki_subject": "Donald Tusk",
+  "person_en": "Donald Tusk",
+  "urgent": true,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "acf404f6e9c1",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-20T21:43+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Donald_Tusk_2025_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Donald Tusk",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Donald_Tusk",
+   "symbolic": false
+  },
+  "audio": "data/audio/acf404f6e9c1.mp3",
+  "created_ts": 1795191184.2507615,
+  "status": "published"
+ },
+ {
+  "headline": "கிரிமியப் பாலம் தாக்குதலுக்குப் பின் கியேவ் மீது ரஷியப் பெரும் வான்வழித் தாக்குதல்",
+  "lines": [
+   "உக்ரைன் தலைநகர் கியேவ் அருகே உள்ள பாலங்கள் மற்றும் நதிக் கடவைகளை ரஷியா குறிவைத்து தாக்குதல் நடத்தியுள்ளது.",
+   "இந்தத் தாக்குதல் போர் தொடங்கியதிலிருந்து மிகப் பெரிய வான்வழித் தாக்குதல்களில் ஒன்றாகக் கருதப்படுகிறது.",
+   "உக்ரைனுக்குப் பாதுகாப்பு உத்தரவாதம் அளிப்பதை ரஷியா மறுத்துவிட்டது.",
+   "இதற்குச் சில நாட்களுக்கு முன்னர் உக்ரைன் படைகள் ரஷியா இணைத்த கிரிமியப் பாலத்தைத் தாக்கியிருந்தன.",
+   "இரு நாடுகளுக்கும் இடையிலான பதற்றம் நீடிப்பதால், உலக நாடுகள் அடுத்தக் கட்ட நடவடிக்கைகளுக்காகக் காத்திருக்கின்றன."
+  ],
+  "closing": "கிரிமியப் பாலம் தாக்குதலுக்குப் பிறகு ரஷியாவுக்கும் உக்ரைனுக்கும் இடையிலான மோதல் மேலும் தீவிரமடைந்துள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ரஷியா",
+   "உக்ரைன்",
+   "கியேவ்",
+   "கிரிமியப் பாலம்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Russia launches major attack on Kyiv after Crimean Bridge strike",
+   "lines": [
+    "Russia carried out a large-scale attack targeting bridges and crossings near Kyiv, Ukraine's capital.",
+    "The strike is being seen as one of the biggest air attacks since the war began.",
+    "Russia has reportedly rejected the possibility of offering security guarantees to Ukraine.",
+    "Days earlier, Ukrainian forces had struck the Crimean Bridge, which Russia had annexed and built.",
+    "Tensions between the two nations continue to rise as the world watches for the next development."
+   ],
+   "closing": "Tensions between Russia and Ukraine have escalated further following the attack on the Crimean Bridge."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "wiki_subject": "Crimean Bridge",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "f451b9b779d9",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-20T21:41+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_13_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2019_%D0%B3%D0%BE%D0%B4%D0%B0_%281%29.jpg/3840px-%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_13_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2019_%D0%B3%D0%BE%D0%B4%D0%B0_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Crimean Bridge",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Crimean_Bridge",
+   "symbolic": false
+  },
+  "audio": "data/audio/f451b9b779d9.mp3",
+  "created_ts": 1795191090.8919537,
+  "status": "published"
+ },
+ {
   "id": "art_health_20261120",
   "headline": "குளிர்காலம் தொடங்கும் நேரத்தில் உடல்நலம் காக்க எளிய வழிகள்",
   "lines": [
@@ -18415,578 +19047,5 @@
   "published_at": "2026-11-11T07:44+05:30",
   "created_ts": 1794363264.679267,
   "audio": "data/audio/jobs_20261111.mp3"
- },
- {
-  "headline": "தமிழ்நாட்டில் உலக சுகாதார அமைப்பின் 'அறிவியலும் சுகாதாரமும் ஒன்றாக' இயக்கம் வலுப்பெற்றுள்ளது",
-  "lines": [
-   "அறிவியல் ஆய்வாளர்கள், கொள்கை வகுப்பவர்கள், சுகாதாரப் பணியாளர்கள், தொடர்பாளர்கள், சிவில் சமூக அமைப்புகள், இளைஞர்கள் மற்றும் சமூகங்கள் ஒன்றுபட்ட உலக இயக்கம் தமிழ்நாட்டில் வலுவான ஆதரவைப் பெற்றுள்ளது.",
-   "உலக சுகாதார அமைப்பு ஏற்பாடு செய்துள்ள இந்த 'அறிவியலும் சுகாதாரமும் ஒன்றாக' இயக்கம் சிறந்த சுகாதாரத்துக்கு அறிவியலை அடித்தளமாக மாற்றக் குறிக்கிறது.",
-   "விஞ்ஞான உறவாய்வுக் கூடம் (எஸ்.சி.ஏ.ஆர்.எஃப்) துணைத் தலைவர் ஆர். தாரா, இம்முயற்சி சமூகம், இளைஞர்கள், பொதுமக்கள் உட்பட பலரை இணைத்துள்ளதாகக் கூறினார்.",
-   "பல்வேறு துறையினரும் தொடர்புநிறுவனங்களும் இயக்கத்தில் கலந்துகொண்டுள்ளனர்.",
-   "சுகாதார முன்னேற்றத்துக்கு அறிவியல் அடிப்படை பெற்றிருக்க வேண்டும் என்ற நோக்கில் இயக்கம் முன்னெடுத்துச் செல்லப்படுகிறது."
-  ],
-  "closing": "தமிழ்நாட்டில் அறிவியல் ஆய்வையும் சுகாதார வளர்ச்சியையும் இணைப்பதில் உலக சுகாதார அமைப்பின் இயக்கம் முக்கிய பங்குவகிக்கிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "உலக சுகாதார அமைப்பு",
-   "விஞ்ஞான உறவாய்வுக் கூடம் (எஸ்.சி.ஏ.ஆர்.எஃப்)",
-   "ஆர். தாரா",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "WHO's 'Together for Science and Health' movement gains momentum in Tamil Nadu",
-   "lines": [
-    "A global initiative bringing together researchers, policymakers, health professionals and communities has found strong support in Tamil Nadu.",
-    "The movement convened by the World Health Organization aims to establish science as a foundation for better health outcomes.",
-    "R. Thara, vice chairperson of SCARF, highlighted how the initiative engages scientists, communicators, civil society, and young people.",
-    "Multiple stakeholders and related organizations have joined the movement.",
-    "The WHO's initiative plays a key role in integrating scientific research with health advancement in Tamil Nadu."
-   ],
-   "closing": "The World Health Organization's movement is making a significant contribution to linking scientific research and healthcare development in Tamil Nadu."
-  },
-  "front_cat": "routine",
-  "image_query": "WHO health science conference",
-  "wiki_subject": "World Health Organization",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "6b736c8ca3e2",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-11-11T07:43+05:30",
-  "links": [
-   "https://www.thehindu.com/sci-tech/health/whos-together-for-science-and-health-movement-finds-strong-support-in-tamil-nadu/article71685076.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg/3840px-World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · World Health Organization",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/World_Health_Organization",
-   "symbolic": false
-  },
-  "audio": "data/audio/6b736c8ca3e2.mp3",
-  "created_ts": 1794363231.6997821,
-  "status": "published"
- },
- {
-  "headline": "தேயிலைக்குக் குறைந்தபட்ச நிலைத்தன்மை விலை நிர்ணயம் பரிந்துரைத்த தேயிலை வாரியம்",
-  "lines": [
-   "இந்திய தேயிலை வாரியம், தேயிலைக்குக் குறைந்தபட்ச நிலைத்தன்மை விலை அமல்படுத்த ஒரு பரிந்துரையை மத்திய வர்த்தக அமைச்சகத்திற்கு அனுப்பியுள்ளது.",
-   "இந்தப் புதிய விலை முறை தேயிலை உற்பத்தி மற்றும் விற்பனையில் ஒரு குறைந்தபட்ச விலை உத்தரவாதத்தை உருவாக்க நோக்கம் கொண்டது.",
-   "பல தேயிலை உற்பத்தியாளர்கள் இந்த முன்மொழிவை வரவேற்று, இது தொழிலின் நீண்டகால நிலைத்தன்மைக்கு அவசியம் என்று கூறியுள்ளனர்.",
-   "தற்போது தேயிலை விலை நிர்ணயத்தில் தெளிவின்மை நிலவும் நிலையில், இந்தப் பரிந்துரை ஒரு கட்டமைப்பாக அமையும் என்று பங்குதாரர்கள் கருத்து தெரிவித்துள்ளனர்.",
-   "இந்தப் பரிந்துரை மீதான மத்திய அரசின் இறுதி முடிவு இன்னும் வெளியிடப்படவில்லை."
-  ],
-  "closing": "இந்த முன்மொழிவு குறித்த மத்திய வர்த்தக அமைச்சகத்தின் இறுதி அறிவிப்பைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu Legal",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu National",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "இந்தியத் தேயிலை வாரியம்",
-   "மத்திய வர்த்தக அமைச்சகம்",
-   "தேயிலை உற்பத்தியாளர்கள்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Tea Board recommends minimum sustainable price for tea industry",
-   "lines": [
-    "The Tea Board of India has sent a proposal to the Ministry of Commerce to implement a minimum sustainable price for tea.",
-    "The new pricing system aims to guarantee a baseline price for tea production and sales.",
-    "Several tea producers have welcomed the proposal, calling it essential for the industry's long-term sustainability.",
-    "With uncertainty currently prevailing in tea price fixing, stakeholders said this proposal could provide a structured framework.",
-    "The central government's final decision on the proposal has not yet been announced."
-   ],
-   "closing": "The Ministry of Commerce's final announcement on this proposal remains to be seen."
-  },
-  "front_cat": "price_policy",
-  "image_query": "tea plantation india",
-  "wiki_subject": "Tea Board of India",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "e6afb538bb64",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-11-11T07:42+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/west-bengal/producers-welcome-proposal-for-minimum-sustainable-price-for-tea/article71686974.ece",
-   "https://www.thehindu.com/news/national/west-bengal/producers-welcome-proposal-for-minimum-sustainable-price-for-tea/article71686974.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Tea_Board_of_India_20180823_144554.jpg/1920px-Tea_Board_of_India_20180823_144554.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Tea Board of India",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Tea_Board_of_India",
-   "symbolic": false
-  },
-  "audio": "data/audio/e6afb538bb64.mp3",
-  "created_ts": 1794363132.835319,
-  "status": "published"
- },
- {
-  "headline": "பிரணாப் முகர்ஜி பிரதமர் பதவி விரும்பியதாக சோனியா காந்தி நினைவுக் குறிப்பில் கூறினார்",
-  "lines": [
-   "முன்னாள் காங்கிரஸ் தலைவர் சோனியா காந்தி தனது நினைவுக் குறிப்பில், 2010ம் ஆண்டின் ஒரு உரையாடலை நினைவுகூர்ந்துள்ளார்.",
-   "அந்த உரையாடலின்போது பிரணாப் முகர்ஜி பிரதமர் பதவிக்கான விருப்பத்தைக் குறிப்பிட்டதாக சோனியா காந்தி எழுதியுள்ளார்.",
-   "இந்தக் கூற்று தனக்கு அதிர்ச்சி அளித்ததாக சோனியா காந்தி தெரிவித்துள்ளார்.",
-   "பிரணாப் முகர்ஜியின் மகள் சர்மிஷ்டா, இதற்குப் பதிலளிக்கும் வகையில் அதிலென்ன அதிர்ச்சி இருக்க முடியும் என்று வினவினார், மேலும் லட்சியம் கொண்டிருப்பது குற்றமல்ல என்று கூறினார்.",
-   "பிரணாப் முகர்ஜி பின்னாளில் இந்தியக் குடியரசுத் தலைவர் பதவிக்கு தேர்ந்தெடுக்கப்பட்டார்."
-  ],
-  "closing": "பிரணாப் முகர்ஜி இந்தியக் குடியரசுத் தலைவராகவும் காங்கிரஸின் மூத்த தலைவராகவும் பணியாற்றியவர் ஆவார்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   },
-   {
-    "name": "The Hindu",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "india",
-  "entities": [
-   "சோனியா காந்தி",
-   "பிரணாப் முகர்ஜி",
-   "காங்கிரஸ்",
-   "சர்மிஷ்டா முகர்ஜி"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Pranab Mukherjee hinted at PM ambition, Sonia Gandhi writes",
-   "lines": [
-    "Former Congress president Sonia Gandhi has shared a revealing detail in her memoir.",
-    "She writes that during a conversation in 2010, Pranab Mukherjee hinted at his desire to become Prime Minister.",
-    "Sonia Gandhi states in her book that this claim left her shocked.",
-    "Pranab Mukherjee's daughter Sharmistha Mukherjee has responded, questioning what there was to be shocked about and saying ambition is not a crime.",
-    "Debate over the memoir is likely to continue within the Congress party and political circles."
-   ]
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Sonia Gandhi",
-  "person_en": "Sonia Gandhi",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "b462e93ed386",
-  "topic_ta": "இந்தியா",
-  "published_at": "2026-11-11T07:40+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/pranab-mukherjee-hinted-at-desire-to-become-pm-shocked-me-writes-sonia-gandhi/article71686777.ece",
-   "https://www.thehindu.com/news/national/pranab-mukherjee-hinted-at-desire-to-become-pm-shocked-me-writes-sonia-gandhi/article71686777.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Sonia_Gandhi_in_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Sonia Gandhi",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Sonia_Gandhi",
-   "symbolic": false
-  },
-  "audio": "data/audio/b462e93ed386.mp3",
-  "created_ts": 1794363032.7427924,
-  "status": "published"
- },
- {
-  "headline": "தமிழகத்தில் ரௌடிகள் மீது நடவடிக்கை, இரு நாளில் 955 பேர் கைது",
-  "lines": [
-   "தமிழ்நாடு முழுவதும் காவல்துறை நடத்திய சிறப்பு சோதனையில் ரௌடிகள் மீது கடும் நடவடிக்கை எடுக்கப்பட்டது.",
-   "இரண்டு நாட்களில் மாநிலம் முழுவதும் மொத்தம் 955 பேர் கைது செய்யப்பட்டுள்ளனர்.",
-   "இந்த நடவடிக்கை தொடர்பாக காவல்துறை அதிகாரிகள் அறிக்கை வெளியிட்டுள்ளனர்.",
-   "சட்டம் ஒழுங்கைப் பலப்படுத்தும் நோக்கில் இந்த சோதனை நடவடிக்கை மேற்கொள்ளப்பட்டதாக தெரிவிக்கப்பட்டுள்ளது.",
-   "இதுபோன்ற சோதனை நடவடிக்கைகள் தொடர்ந்து மேற்கொள்ளப்படும் என காவல்துறை தெரிவித்துள்ளது."
-  ],
-  "closing": "தமிழ்நாட்டில் சட்டம் ஒழுங்கைப் பலப்படுத்தும் நோக்கில் காவல்துறை அவ்வப்போது இதுபோன்ற சோதனை நடவடிக்கைகளை நடத்தி வருகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "தமிழ்நாடு",
-   "தமிழ்நாடு காவல்துறை",
-   "ரௌடிகள்",
-   "சட்டம் ஒழுங்கு"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Tamil Nadu police arrest 955 rowdies in two-day crackdown",
-   "lines": [
-    "Tamil Nadu Police carried out a special crackdown on rowdies across the state.",
-    "A total of 955 persons were arrested across the state within two days.",
-    "Police officials issued a statement regarding this crackdown operation.",
-    "Officials said the operation was carried out to strengthen law and order.",
-    "Police said similar crackdown operations will continue to be conducted in the future."
-   ],
-   "closing": "Tamil Nadu Police regularly conducts such crackdown operations to strengthen law and order in the state."
-  },
-  "front_cat": "routine",
-  "image_query": "police arrest india",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "a3e1a40623ac",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-11T07:39+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Nov/10/crackdown-on-rowdies-955-arrested-in-tamil-nadu-over-two-days"
-  ],
-  "image": {
-   "url": "data/bank/crime06.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/a3e1a40623ac.mp3",
-  "created_ts": 1794362952.6402173,
-  "status": "published"
- },
- {
-  "headline": "பட்டாசு வெடித்தது தொடர்பான தகராறில் ஐ.டி. ஊழியர் கொலை, மூவர் கைது",
-  "lines": [
-   "பட்டாசு வெடித்ததை முன்னிட்டு ஏற்பட்ட தகராறில் ஐ.டி. நிறுவன ஊழியர் ஒருவர் கொலை செய்யப்பட்டார்.",
-   "இந்த கொலை வழக்கில் தொடர்புடைய மூன்று பேரை காவல் துறையினர் கைது செய்துள்ளனர்.",
-   "சம்பவம் தொடர்பாக காவல் துறை விரிவான விசாரணையை மேற்கொண்டு வருகிறது.",
-   "கைது செய்யப்பட்டவர்கள் மீது கொலைக் குற்றச்சாட்டின் அடிப்படையில் வழக்குப் பதிவு செய்யப்பட்டுள்ளது.",
-   "வழக்கு தொடர்பாக மேலும் சில விவரங்களை காவல் துறை விரைவில் வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "பட்டாசு வெடித்ததை மையமாக வைத்து ஏற்பட்ட தகராறு கொலையில் முடிந்ததாக காவல் துறை தெரிவித்துள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "தினமணி",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "ஐ.டி. நிறுவன ஊழியர்",
-   "கொலை வழக்கு",
-   "காவல்துறை",
-   "பட்டாசு தகராறு"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "IT employee murdered in firecracker dispute, three arrested",
-   "lines": [
-    "An IT company employee was murdered following a dispute that broke out over firecrackers being burst.",
-    "Police have arrested three persons connected to this murder case.",
-    "Police are conducting a detailed investigation into the incident.",
-    "A case has been registered against the arrested persons on murder charges.",
-    "Police are expected to release further details regarding the case soon."
-   ],
-   "closing": "Police said the dispute that began over firecrackers ended in murder."
-  },
-  "front_cat": "crime_major",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "9fc3be6fafbc",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-11T07:38+05:30",
-  "links": [
-   "https://www.dinamani.com/all-editions/edition-trichy/trichy/2026/Nov/11/dispute-over-bursting-firecrackers-3-arrested-in-murder-case-of-it-company-employee"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/9fc3be6fafbc.mp3",
-  "created_ts": 1794362885.5836728,
-  "status": "published"
- },
- {
-  "headline": "ஜெம் கிரானைட்ஸ் உரிமையாளர் வீரமணி வழக்கில் காவலாளி கைது",
-  "lines": [
-   "ஜெம் கிரானைட்ஸ் நிறுவன உரிமையாளர் வீரமணி தொடர்பான வழக்கில் அவரது வீட்டுக் காவலாளி காவல்துறையால் கைது செய்யப்பட்டார்.",
-   "பாதிக்கப்பட்டவர்களை வீட்டிற்கு அழைத்து வரும்போது மின்சாரத்தைத் துண்டிப்பது அல்லது கண்காணிப்புக் கேமராக்களின் கோணத்தை மாற்றுவது போன்ற செயல்களில் காவலாளி ஈடுபட்டதாகக் குற்றம் சுமத்தப்பட்டுள்ளது.",
-   "இந்தச் செயல்களின் மூலம் வீட்டில் நடந்த சம்பவங்கள் கேமராவில் பதிவாகாமல் தடுக்கப்பட்டதாக காவல்துறை தெரிவித்துள்ளது.",
-   "வீரமணி மீதான முக்கிய வழக்குத் தொடர்பான விசாரணை ஏற்கனவே நடைபெற்று வரும் நிலையில் இந்தக் கைது மேற்கொள்ளப்பட்டுள்ளது.",
-   "காவலாளியிடம் மேலும் விசாரணை நடத்தப்பட்டு வருவதாகவும், வழக்கின் அடுத்த கட்ட நடவடிக்கைகள் தொடரும் என்றும் காவல்துறை அதிகாரிகள் தெரிவித்துள்ளனர்."
-  ],
-  "closing": "இந்த வழக்கில் முன்னதாக பல்வேறு குற்றச்சாட்டுகள் எழுப்பப்பட்டிருந்த நிலையில் இப்போது துணை நபர்கள் மீதும் நடவடிக்கை தொடங்கியுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "ஜெம் கிரானைட்ஸ்",
-   "வீரமணி",
-   "காவலாளி",
-   "தமிழ்நாடு காவல்துறை"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Watchman of Gem Granites owner Veeramani arrested in case",
-   "lines": [
-    "A watchman employed at the residence of Gem Granites owner Veeramani was arrested by police in connection with the ongoing case against him."
-   ]
-  },
-  "id": "21c1bee217bd",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-11T07:35+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/gem-granite-owner-veeramanis-watchman-arrested/article71658273.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime16.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/21c1bee217bd.mp3",
-  "created_ts": 1794362725.3844883,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "வேலூர் மற்றும் அருகிலுள்ள மாவட்டங்களில் பட்டாசு காயங்களால் 150 பேர் சிகிச்சை",
-  "lines": [
-   "வேலூர் மாவட்டம் மற்றும் அதனைச் சுற்றியுள்ள பகுதிகளில் பட்டாசு வெடிப்பால் பலர் காயமடைந்தனர்.",
-   "சுமார் 150 பேர் தீக்காயங்களுக்கு உள்ளாகி அருகிலுள்ள மருத்துவமனைகளில் சிகிச்சை பெற்றனர்.",
-   "பட்டாசு பயன்பாட்டின் காரணமாக ஏற்பட்ட காயங்கள் குறித்து மருத்துவமனை வட்டாரங்கள் தகவல் தெரிவித்தன.",
-   "இதே மாவட்டங்களில் பட்டாசு கழிவுகளும் பெருமளவில் குவிந்துள்ளது.",
-   "இந்தக் கழிவுகளை அகற்றும் பணிகள் அதிகாரிகளால் மேற்கொள்ளப்படும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "அடுத்த சில நாட்களில் இம்மாவட்டங்களில் பட்டாசு கழிவுகள் முழுமையாக அகற்றப்படுமா என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "வேலூர்",
-   "தீபாவளி",
-   "பட்டாசு",
-   "மருத்துவமனை"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "Around 150 treated for cracker-related burns in Vellore region",
-   "lines": [
-    "Many people suffered injuries from Diwali firecrackers in Vellore district and nearby areas.",
-    "About 150 persons were treated for cracker-related burns at hospitals in the region.",
-    "Hospital sources confirmed the injuries were caused by the use of firecrackers during the festival.",
-    "The same districts also reported a large accumulation of firecracker waste after the celebrations.",
-    "Authorities are expected to undertake cleanup operations to clear the firecracker waste."
-   ],
-   "closing": "It remains to be seen whether the firecracker waste in these districts will be fully cleared in the coming days."
-  },
-  "id": "0bd1dce1d05d",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-11T07:34+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/around-150-persons-treated-for-cracker-related-burns-in-vellore-nearby-districts/article71686216.ece"
-  ],
-  "image": {
-   "url": "data/bank/health01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/0bd1dce1d05d.mp3",
-  "created_ts": 1794362652.0156062,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "எம்ஆர்எஃப் நிகர லாபம் 22.8 சதவீதம் வீழ்ச்சி",
-  "lines": [
-   "சென்னையை தலைமையிடமாகக் கொண்ட டயர் உற்பத்தி நிறுவனமான எம்ஆர்எஃப், ஜூலை முதல் செப்டம்பர் வரையிலான காலாண்டில் நிகர லாபம் 22.8 சதவீதம் குறைந்ததாக அறிவித்துள்ளது.",
-   "இதே காலாண்டில் நிறுவனத்தின் இயக்கச் செயல்பாட்டு வருவாய் 17.4 சதவீதம் உயர்ந்து 8,660 கோடி ரூபாயைத் தாண்டியுள்ளது.",
-   "மூலப்பொருள் விலை கணிசமாக உயர்ந்ததால் மொத்த செலவும் பெரிதும் அதிகரித்ததாக நிறுவனம் தெரிவித்தது.",
-   "வருவாய் வளர்ச்சி பதிவானாலும் செலவு உயர்வால் லாபம் பாதிக்கப்பட்டதாக நிறுவன தரப்பு கூறியது.",
-   "இதற்கிடையே பங்குதாரர்களுக்கு ஒரு பங்குக்கு 3 ரூபாய் வீதம் இடைக்கால ஈவுத்தொகை வழங்க நிறுவனம் அறிவித்துள்ளது."
-  ],
-  "closing": "எம்ஆர்எஃப் நிறுவனம் சென்னையை தலைமையிடமாகக் கொண்டு நாட்டின் முன்னணி டயர் உற்பத்தி நிறுவனங்களில் ஒன்றாகும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "ET Markets",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "எம்ஆர்எஃப்",
-   "சென்னை",
-   "டயர் தொழில்",
-   "ஈவுத்தொகை"
-  ],
-  "confidence": 0.85,
-  "en": {
-   "headline": "MRF net profit falls 23 percent in Q2 results",
-   "lines": [
-    "Chennai headquartered tyre maker MRF reported a 22.8 percent decline in net profit for the July to September quarter.",
-    "During the same quarter, the company's operational revenue grew 17.4 percent to cross Rs 8,660 crore.",
-    "The company said total expenses rose significantly due to a sharp increase in raw material costs.",
-    "Despite revenue growth, profit was impacted by rising costs, the company stated.",
-    "Meanwhile, the company announced an interim dividend of Rs 3 per share to shareholders."
-   ],
-   "closing": "MRF is one of the country's leading tyre manufacturers, headquartered in Chennai."
-  },
-  "front_cat": "routine",
-  "image_query": "MRF tyre company",
-  "wiki_subject": "MRF (company)",
-  "person_en": "",
-  "urgent": false,
-  "affected": "நாடு",
-  "flags": [
-   "single_source"
-  ],
-  "id": "15d46152f4d5",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-11-11T07:32+05:30",
-  "links": [
-   "https://economictimes.indiatimes.com/markets/stocks/earnings/higher-input-costs-drag-mrf-q2-net-profit-down-23/articleshow/135722166.cms"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/EXCON_2025%2C_Bangalore_International_Exhibition_Centre_%28338%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · MRF (company)",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/MRF_(company)",
-   "symbolic": false
-  },
-  "audio": "data/audio/15d46152f4d5.mp3",
-  "created_ts": 1794362547.7752876,
-  "status": "published"
- },
- {
-  "headline": "மதுரையில் தீபாவளிக்குப் பின் 331 டன் குப்பை அகற்றப்பட்டது",
-  "lines": [
-   "தீபாவளிக் கொண்டாட்டத்துக்குப் பிறகு மதுரை நகரில் 331 டன் குப்பை அகற்றப்பட்டுவிட்டது.",
-   "மாநகராட்சி வேலையாட்கள் மற்றும் சுத்தத் திட்டக் கூலிகள் சேர்ந்து இந்த வேலையை முடித்துவிட்டனர்.",
-   "நகரின் பல்வேறு பகுதிகளில் வெடிக்குண்டு மற்றும் விளக்கெண்ணெய் பயன்பாட்டால் சிதறிய குப்பை சேகரிக்கப்பட்டது.",
-   "தீபாவளிக்கு முந்தைய நாட்களில் தெருக்களையும் பொதுப் பகுதிகளையும் சுத்தம் செய்ய அதிகமான சிப்பந்தி நியமிக்கப்பட்டிருந்தனர்.",
-   "கொண்டாட்டத்தின் பின் நகரக் கழிவு மேலாண்மையைச் சீராக்க மாநகராட்சி பணிகளைத் தொடர்ந்து நடத்திக்கொண்டிருக்கிறது."
-  ],
-  "closing": "பொதுவாக திருவிழாக்களின் பின் மாநகர் பகுதிகளில் குப்பை சேகரணம் சாதாரணமாக இரண்டு வாரம் வரை நீடிக்கக் கூடும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Health",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "health",
-  "entities": [
-   "மதுரை நகர",
-   "மதுரை மாநகராட்சி",
-   "தீபாவளி"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "331 tonnes of garbage removed from Madurai city after Deepavali",
-   "lines": [
-    "Madurai city has removed 331 tonnes of waste following Deepavali celebrations.",
-    "Municipal corporation workers and sanitation scheme employees completed the cleanup work.",
-    "Garbage scattered from fireworks and oil lamps was collected from various parts of the city.",
-    "Additional sanitation staff were deployed in streets and public areas before the festival.",
-    "The municipal corporation continues cleanup operations to restore the city's waste management to normal."
-   ],
-   "closing": "Post-festival garbage collection in urban areas typically continues for up to two weeks."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "Madurai",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "3aba54088f9a",
-  "topic_ta": "சுகாதாரம்",
-  "published_at": "2026-11-11T07:29+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/Madurai/331-tonnes-of-garbage-removed-from-madurai-city-after-deepavali-2026/article71683721.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Meenakshi_Amman_West_Tower.jpg/3840px-Meenakshi_Amman_West_Tower.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madurai",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madurai",
-   "symbolic": false
-  },
-  "audio": "data/audio/3aba54088f9a.mp3",
-  "created_ts": 1794362343.419308,
-  "status": "published"
  }
 ]
