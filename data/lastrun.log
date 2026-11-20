@@ -1,16 +1,17 @@
+[expire] 25b13c7ec7be
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 24 புதியவை
+[fetch] The Hindu TN: 22 புதியவை
 [fetch] Dinamani TN: 27 புதியவை
-[fetch] BBC Tamil: 13 புதியவை
-[fetch] BBC World: 23 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC World: 19 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 16 புதியவை
-[fetch] Cinema Express: 25 புதியவை
-[fetch] The Hindu Tech: 23 புதியவை
+[fetch] Cinema Express: 24 புதியவை
+[fetch] The Hindu Tech: 25 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
@@ -28,7 +29,7 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 5 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
 [fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -41,7 +42,7 @@
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
-[fetch] Dinamani India: 29 புதியவை
+[fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
 [fetch] Indian Express Cinema: 0 புதியவை
@@ -56,7 +57,7 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x73a0cfeb8950>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x747cd54a0110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
@@ -65,61 +66,56 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 24 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 720 → நிகழ்வுகள் 639
-[triage] 639 → 99 | காலி: india:4, world:3, govt:3, cinema:3, sports:3
-[skip] बॉलीवुड फिल्म (हिंदी) — तमिलनाडु दर्शकों के लिए प्रासंगिक नह
-[skip] வெளிநாட்டுத் தொடர் — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்
-[tts-edge] 25b13c7ec7be: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] திருப்பரங்குன்றம் மலையில் ஒருமுறை தீபம் ஏற்ற உச்ச நீதிமன்றம் அனுமதி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEUNNVuywutNzfVorxMa'}
-[திருத்தம்] கிரிமியா பாலம் தாக்குதலுக்குப் பின் கியே → கிரிமியப் பாலம் தாக்குதலுக்குப் பின் கிய
-[tts-edge] f451b9b779d9: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கிரிமியப் பாலம் தாக்குதலுக்குப் பின் கியேவ் மீது ரஷியப் பெரும் வான்வழித் தாக்குதல்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEUU3DxA243viG2jfHWr'}
-[publish] போலந்தின் மீது ரஷ்ய ஏவுகணை தாக்குதல் என துஸ்க் தெரிவிப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEUaxVeDfN1aPiqihGbu'}
+[run] புதியவை 709 → நிகழ்வுகள் 631
+[triage] 631 → 62 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[image] களஞ்சியம் (2 சொல்): தர்மபுரியில் 57 செவிலியர் பணியிடங்
+[tts-edge] 1f9b598b6224: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தர்மபுரியில் 57 செவிலியர் பணியிடங்களுக்கு விண்ணப்பிக்க அழைப்பு
+[skip] வெளிநாட்டுச் சுகாதாரக் கொள்கை — தமிழ்நாட்டு/இந்திய வாசகரைப் 
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது கேரள எம்எல்ஏ இறுதிச் சடங்கு தொடர்பான உள்ளூர்ச் செய்தி; த
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEUknoFtZv4QxvJx624f'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): ஈரோட்டில் டெங்கு சந்தேகத்தில் கர்ப
-[publish] ஈரோட்டில் டெங்கு சந்தேகத்தில் கர்ப்பிணிப் பெண் உயிரிழப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEUuqsZRE42C6NHhAhRw'}
-[திருத்தம்] மதுரையில் முன்னாள் திமுக அமைச்சர் வீட்டி → மதுரையில் முன்னாள் திமுக அமைச்சர் பி.மூர
-[image] களஞ்சியம் (2 சொல்): மதுரையில் முன்னாள் திமுக அமைச்சர் 
-[publish] மதுரையில் முன்னாள் திமுக அமைச்சர் பி.மூர்த்தியின் வீட்டில் கனிம குவாரி முறைகேடு சோதனை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEV2cR7v8B9s4JuPEU7E'}
-[image] களஞ்சியம் (3 சொல்): பல்லாவரத்தில் 26 வயது இளைஞர் கொலை,
-[publish] பல்லாவரத்தில் 26 வயது இளைஞர் கொலை, ஒருவர் கைது
-[skip] மூலத்தில் ஒரே தலைப்பு வரியும் ஒரு சிறு குறிப்பும் மட்டுமே உள
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEV8WQeP5if7m7ywJ1Jd'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] கொளத்தூர் எம்.எல்.ஏ. வி.எஸ்.பாபு உடல் அர → கொளத்தூர் எம்.எல்.ஏ. வி.எஸ். பாபு உடல் அ
-[publish] கொளத்தூர் எம்.எல்.ஏ. வி.எஸ். பாபு உடல் அரசு மரியாதையுடன் தகனம்
-[skip] இது சவுதி-ஹூதி மோதல் தொடர்பான எச்சரிக்கைச் செய்தி, போதிய விவ
-[skip] மூலத்தில் போதுமான தகவல் இல்லை - வி.எஸ்.பாபு யார், எங்கே, எப்
-[publish] தண்ணீர் இருந்தால் தமிழகத்துக்கு வழங்குவோம் - கர்நாடக முதல்வர் பேச்சு
-[skip] வெளிநாட்டுத் தலைவர்களின் சந்திப்பு / ராஜதந்திர அনுமானம் — தம
-[skip] உலக நியதிமன்றச் செய்தி — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட 
-[skip] வெளிநாட்டு உள்ளாட்சி — அமெரிக்க அரசின் உள் பணியாளர் மாற்றம்.
-[skip] நைஜீரியாவின் உள்நாட்டு சட்ட மாற்றம். தமிழ்நாட்டு/இந்திய வாசக
-[skip] வெளிநாட்டுத் தகவல் — தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்கும் 
-[skip] வெளிநாட்டு நிறுவனத்தின் பங்குச் சந்தை அறிவிப்பு — தமிழ்நாட்ட
-[skip] அமெரிக்கா ஐயோவாவில் நடக்கும் உள்நாட்டு சம்பவம். தமிழ்நாடு அல
-[skip] வெனிசுவேலா-அமெரிக்கா ராணுவ உடன்பாடு தமிழ்நாட்டு/இந்திய வாசகர
-[skip] வெளிநாட்டு உள்நாட்டு குற்றவழக்கு — தமிழ்நாடு/இந்தியா வாசகரின
-[skip] உகாண்டாவின் உள்ளூர் நிகழ்வு. தமிழ்நாடு/இந்தியாவுடன் நேரடித் 
-[skip] வெளிநாட்டு உள்நாட்டு சிக்கல். பிரேசிலின் அமेசான் காட்டில் உள
-[skip] அமெரிக்கா உள் நிகழ்வு. தமிழ்நாடு/இந்தியா வாசகரைப் பாதிக்கவில
-[skip] வெளிநாட்டு அரசியல் பிர评론 — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றா
-[skip] பிரிட்டன்-ஐரோப்பிய ஒன்றியத்தின் பொதுவான வர்த்தக ஒப்பந்தம். த
-[filler] tech கட்டுரை
-[jobs] தொகுப்பு 12
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹10878 · சென்செக்ஸ் 83920
+[skip] வெளிநாட்டுத் தொடர் — SMAT (Syed Mushtaq Ali Trophy) உள்நாட்ட
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEzPfeZF17NmuWS1KuEt'}
+[திருத்தம்] முன்னாள் டிஜிபி மனைவி உயில் வழக்கில் சிப → முன்னாள் டிஜிபி மனைவி உயில் வழக்கில் சிப
+[image] களஞ்சியம் (3 சொல்): முன்னாள் டிஜிபி மனைவி உயில் வழக்கி
+[tts-edge] 64dd7d9a3f08: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] முன்னாள் டிஜிபி மனைவி உயில் வழக்கில் சிபி சிஐடி விசாரணைக்கு உத்தரவு
+[திருத்தம்] காவிரி நீர் தகராறு: பதினொரு டிஎம்சி நீர் → காவிரி நீர் தகராறு: 11 டிএমসி நீர் கோரிய
+[தரம்] தமிழ் அல்லாத எழுத்து: এমস → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): காவிரி நீர் தகராறு: 11 டிஎம்சி நீர
+[publish] காவிரி நீர் தகராறு: 11 டிஎம்சி நீர் கோரிய தமிழக மனு தள்ளுபடி.
+[publish] பரந்தூர் விமான நிலைய திட்டம் கைவிடப்பட்டது குறித்து உயர்நீதிமன்றத்தில் அரசு விளக்கம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEzguPmnsqrF2z4qdKN9'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEzjzdcuy36Qppo3gXEw'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEznuHViQBnUQaDLn9y8'}
+[திருத்தம்] போலி புத்தக முறைகேட்டில் வழக்குப் பதியாத → போலிப் புத்தக முறைகேட்டில் வழக்குப் பதிய
+[publish] போலிப் புத்தக முறைகேட்டில் வழக்குப் பதியாததா? உயர்நீதிமன்றம் கேள்வி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEzumMCCSYtd3sLzbbuo'}
+[skip] உலக நிகழ்வு — தமிழ்நாட்டு வாசகரின் அன்றாட வாழ்வைத் தனிப்பட்ட
+[skip] வெளிநாட்டுத் தகராறு — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ
+[skip] உலக செய்திகள் — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்வைப் 
+[திருத்தம்] கல்லூரிக் கல்வி இயக்குநர் பதவிக்கு மூத்த → கல்லூரிக் கல்வி இயக்குநர் பதவிக்கு மூத்த
+[image] களஞ்சியம் (2 சொல்): கல்லூரிக் கல்வி இயக்குநர் பதவிக்கு
+[publish] கல்லூரிக் கல்வி இயக்குநர் பதவிக்கு மூத்த அரசுக் கல்லூரி முதல்வர் நியமனம் கோரிக்கை
+[திருத்தம்] கையிடன்ஸ் ஊழியர் பணிநீக்கம்: விளக்கம் கோ → கைடன்ஸ் ஊழியர் பணிநீக்கம்: விளக்கம் கோரி
+[publish] கைடன்ஸ் ஊழியர் பணிநீக்கம்: விளக்கம் கோரிய அன்புமணி ராமதாஸ்
+[திருத்தம்] பள்ளிக்கரணை சதுப்புநிலம் கட்டுமானத் தடை  → பள்ளிக்கரணை சதுப்பு நிலம் கட்டுமானத் தடை
+[publish] பள்ளிக்கரணை சதுப்பு நிலம் கட்டுமானத் தடை - உச்ச நீதிமன்றம் செல்கிறது கிரேடாய்
+[திருத்தம்] திருப்பரங்குன்றம் தீபத்தூண் விளக்கேற்ற அ → திருப்பரங்குன்றம் தீபத்தூண் விளக்கேற்ற அ
+[hold] திருப்பரங்குன்றம் தீபத்தூண் விளக்கேற்ற அனுமதி உச்ச நீதிமன்றம் வழங்கியது
+[image] களஞ்சியம் (2 சொல்): தனியார் மருத்துவமனைகளில் அறுவை சிக
+[publish] தனியார் மருத்துவமனைகளில் அறுவை சிகிச்சைப் பிரசவம் அதிகம் என ஆய்வு
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: பிரசவங்களில் அறுவை சிகிச்சை ஏன் இத்தனை அதிகரிப்பு?
+[comic] கதை: படகில் மூன்றாம் குரல்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.87) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-11-21.png · நாள் 73
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹10824 · சென்செக்ஸ் 83920
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 8
+[done] feed 300 · pending 1 · எழுதியவை 10
