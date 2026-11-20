@@ -1,34 +1,34 @@
 [fetch] RBI: 9 புதியவை
-[fetch] ET Markets: 27 புதியவை
+[fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 25 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
+[fetch] Dinamani TN: 27 புதியவை
 [fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 18 புதியவை
+[fetch] BBC World: 20 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 19 புதியவை
+[fetch] ESPNcricinfo: 20 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
-[fetch] Cinema Express: 22 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] Cinema Express: 21 புதியவை
 [fetch] The Hindu Tech: 24 புதியவை
-[fetch] Wired: 30 புதியவை
+[fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 20 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
-[fetch] Sarkari Result: 10 புதியவை
+[fetch] FreeJobAlert: 29 புதியவை
+[fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
+[fetch] Bar and Bench: 19 புதியவை
 [fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
@@ -39,12 +39,12 @@
 [fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
-[fetch] Indian Express India: 30 புதியவை
+[fetch] Indian Express India: 0 புதியவை
 [fetch] Business Standard India: 0 புதியவை
 [fetch] Dinamani India: 30 புதியவை
 [fetch] Hindu Tamil India: 0 புதியவை
 [fetch] Behindwoods: 0 புதியவை
-[fetch] Indian Express Cinema: 9 புதியவை
+[fetch] Indian Express Cinema: 0 புதியவை
 [fetch] Hindu Tamil Cinema: 0 புதியவை
 [fetch] Hindu Tamil Sports: 0 புதியவை
 [fetch] Sportstar: 30 புதியவை
@@ -56,72 +56,65 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7752f7f88550>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7f69d9758190>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] Dinamani Govt: 27 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 21 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 748 → நிகழ்வுகள் 672
-[triage] 672 → 50 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[tts-edge] 6285f71f1654: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மயிலாடுதுறையில் தொழில்நுட்ப உதவியாளர் பணிக்கு விண்ணப்பிக்க கடைசி நாள் நவம்பர் 24
-[skip] WHO அறிக்கை பொதுவாக வெளியுறவுச் செய்தி; தமிழ்நாட்டு வாசகரின்
-[skip] ஹிந்தி திரைப்படம் — தமிழ்நாட்டுக் வாசகரின் அன்றாட வாழ்வைப் ப
-[skip] ஆஸ்திரேலிய உள்நாட்டு லீக் — தமிழ்நாட்டு/இந்திய வாசகரின் முன்
-[திருத்தம்] கொளத்தூர் தொகுதியில் ஸ்டாலினை வென்ற தவெக → கொளத்தூர் தொகுதியில் மு.க.ஸ்டாலினை வென்ற
-[image] களஞ்சியம் (2 சொல்): கொளத்தூர் தொகுதியில் மு.க.ஸ்டாலினை
-[tts-edge] defc20c157e5: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] கொளத்தூர் தொகுதியில் மு.க.ஸ்டாலினை வென்ற தவெக எம்எல்ஏ வி.எஸ்.பாபு காலமானார்
-[publish] கொளத்தூர் எம்.எல்.ஏ. வி.எஸ்.பாபு உடலுக்கு நாளை நல்லடக்கம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChDCgAfuETHzBds1VCVS2'}
+[run] புதியவை 712 → நிகழ்வுகள் 650
+[triage] 650 → 60 | காலி: india:4, world:3, court:3, govt:3, health:3
+[skip] இது டெல்லி உயர்நீதிமன்றத்தின் உள்ளூர் தீர்ப்பு தொடர்பான செய்
+[skip] வெளிநாட்டுச் சுகாதாரக் கொள்கைப் பிரச்சினை — தமிழ்நாட்டு/இந்த
+[skip] திரை விமர்சனம் — தமிழ்நாட்டு நாளிதழில் வெளிவரும் விமர்சனங்கள
+[skip] வெளிநாட்டு விளையாட்டு நிறுவனத்தின் உள்ளூர் நியமனம் — தமிழ்நா
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChDm43hYf6zHX8tu2SkfL'}
+[தரம்] தமிழ் அல்லாத எழுத்து: ডમ → ஒரு திருத்தம்
+[tts-edge] 0a12341a5394: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கூடுதல் காவிரி நீர் கோரி தமிழ்நாடு தாக்கல் செய்த மனு உச்ச நீதிமன்றத்தில் தள்ளுபடி
+[image] களஞ்சியம் (3 சொல்): காவிரி நீர் திறக்கக் கோரிய தமிழக அ
+[tts-edge] 0a703d1a1848: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காவிரி நீர் திறக்கக் கோரிய தமிழக அரசு மனு தள்ளுபடி
+[திருத்தம்] காவிரி விவகாரம்: தமிழக அரசின் இரு மனுக்க → காவிரி விவகாரம்: தமிழக அரசின் இரு இடைக்க
+[publish] காவிரி விவகாரம்: தமிழக அரசின் இரு இடைக்கால மனுக்களை தள்ளுபடி செய்த உச்ச நீதிமன்றம்
+[publish] காவிரி நீர் வழக்கில் இன்று உச்ச நீதிமன்றம் தீர்ப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChDmPLTtE8Aci9hSSskDh'}
+[skip] வெளிநாட்டு நீதிமன்ற தீர்ப்பு — தமிழ்நாட்டு/இந்திய வாசகர்களுக
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChDmS5kvvMc4v5Mo3H3Vb'}
+[publish] குவாரிப் பொருட்கள் இடமாற்றத் தடையை ரத்து செய்தது சென்னை உயர்நீதிமன்றம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு துண்டிக்கப்பட்ட ஆங்கில வாக்கிய
+[skip] மூலத்தில் போதிய தகவல் இல்லை - முன்னாள் அமைச்சர் மூர்த்தி யார
+[skip] மூலம் ஒரே வரித் தலைப்பு மட்டும்; 'முதல்வர் விஜய்' என்பது தற்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] களஞ்சியம் (2 சொல்): சென்னையில் ரூ.700 கோடி போதைப்பொருள
-[publish] சென்னையில் ரூ.700 கோடி போதைப்பொருள் பறிமுதல்: இருவர் கைது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; முழு செய்தி விவரங்கள், நிக
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வி.எஸ்.பாபு யார், எந்த மாந
-[publish] ஈழத்துத் தமிழ்க் கவிஞர் சேரன் கனடாவில் காலமானார்
-[publish] வி.எஸ்.பாபு மறைவு: தவெக 7 நாள் துக்கம் அனுசரிப்பு அறிவிப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChDmiz65pNU41gdzoFTV2'}
+[தரம்] தமிழ் அல்லாத எழுத்து: রি → ஒரு திருத்தம்
+[publish] ஐபிஓ வேகமாக்க, வெளிநாட்டு முதலீட்டை எளிதாக்க செபி திட்டம்
+[image] களஞ்சியம் (2 சொல்): சென்னை மாநகராட்சி கடலோரக் கட்டிடங்
+[publish] சென்னை மாநகராட்சி கடலோரக் கட்டிடங்களுக்கு 124 வெளியேற்ற அறிவிப்பு வழங்கியது
+[திருத்தம்] மேகேதாது அணைக்கு எதிராக ஒன்றுபட வேண்டும் → மேகேதாது அணைக்கு எதிராக ஒன்றுபட வேண்டும்
+[image] களஞ்சியம் (2 சொல்): மேகேதாது அணைக்கு எதிராக ஒன்றுபட வே
+[publish] மேகேதாது அணைக்கு எதிராக ஒன்றுபட வேண்டும் என தமிழ்நாடு காங்கிரஸ் வலியுறுத்தல்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: வேலூர் விட் பல்கலைக்கழக விடுதியில்
-[publish] வேலூர் விட் பல்கலைக்கழக விடுதியில் மாணவர் உயிரிழப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChDDAycghXoRdQPnRr9ZK'}
-[skip] POCSO வழக்கு - சிறார் தொடர்பான செய்தியில் பெயர்/விவரம் இல்லா
-[திருத்தம்] ஐடிபிஐ பங்கு விற்பனைக்கு எதிர்ப்பு, டிசம → ஐடிபிஐ பங்குகள் விற்பனைக்கு எதிர்ப்பு, ட
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): ஐடிபிஐ பங்குகள் விற்பனைக்கு எதிர்ப
-[publish] ஐடிபிஐ பங்குகள் விற்பனைக்கு எதிர்ப்பு, டிசம்பர் 3-இல் வங்கி ஊழியர் வேலைநிறுத்தம்
-[publish] மின்வாரிய ஊழியர்களுக்கு பணிக்கொடை உச்சவரம்பு ரூ.25 லட்சமாக உயர்வு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChDDN6vYDpm4CaxYJERJj'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChDDRPqN9xYPPgEEedWEt'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChDDUiXqPdojPrdpA7DAz'}
-[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு சொல் மட்டுமே உள்ளது; உண்மையான 
-[skip] இவை தமிழ்நாட்டுடன் தொடர்பில்லாத பிற மாநில (உத்தரப் பிரதேசம்,
-[skip] இது மேற்கு வங்காள மாநிலத்தின் உள்ளூர் அரசியல் குற்றச்சாட்டு 
-[skip] மேற்கு வங்காளத்தின் உள்ளூர் அரசியல் மோதல் - கொல்கத்தா மருத்த
-[skip] உத்தரப் பிரதேசம் மற்றும் மத்தியப் பிரதேசம் மாநில அரசு நியமனங
-[skip] ராஜஸ்தான் மாநில முதல்வர் பற்றிய உள்ளூர் அரசியல் பகுப்பாய்வு 
-[skip] இது பீகார் மாநிலத்தின் உள்ளூர் அரசியல் சர்ச்சை; தமிழ்நாட்டுட
-[skip] கடவுள், மதம், சாமியார் பற்றிய தத்துவ/ஆன்மீக கட்டுரை — செய்தி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Two Tamil Nadu schools win inaugural Children’s 
-[skip] தமிழ்நாட்டு செய்தி, வட்டாரச் செய்திக்கோல். 'world' என்று குற
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: ஐடிபிஐ வங்கி தனியார் கையில்? ஊழியர் எதிர்ப்பு ஏன்?
-[comic] கதை: பூக்கூடை இளைஞனின் பதில்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.98) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.94) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-20.png · நாள் 72
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹11132 · சென்செக்ஸ் 83022
-[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
-[done] feed 300 · pending 0 · எழுதியவை 9
+[திருத்தம்] மகளிர் உதவித்தொகை நிறுத்தம் என பாஜக தலைவ → மகளிர் உதவித்தொகை நிறுத்தம் குறித்து பாஜ
+[publish] மகளிர் உதவித்தொகை நிறுத்தம் குறித்து பாஜக தலைவர் நயினார் நாகேந்திரன் குற்றச்சாட்டு
+[image] களஞ்சியம் (2 சொல்): காவிரி டெல்டா மாவட்டங்களை வறட்சி ப
+[publish] காவிரி டெல்டா மாவட்டங்களை வறட்சி பகுதியாக அறிவிக்க விவசாயிகள் கோரிக்கை
+[brief] காலை brief தயார்
+[filler] health கட்டுரை
+[jobs] பிழை 'post'
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹10901 · சென்செக்ஸ் 83699
+[weather] புதுப்பிக்கப்பட்டது
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+  warnings.warn(message, FutureWarning)
+[push] 0 அறிவிப்புகள்
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
