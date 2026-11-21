@@ -1,42 +1,43 @@
+[expire] fc858918dbf5
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 28 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 14 புதியவை
-[fetch] Dinamani TN: 28 புதியவை
-[fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 24 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
+[fetch] The Hindu TN: 16 புதியவை
+[fetch] Dinamani TN: 26 புதியவை
+[fetch] BBC Tamil: 11 புதியவை
+[fetch] BBC World: 21 புதியவை
+[fetch] Al Jazeera: 25 புதியவை
+[fetch] ESPNcricinfo: 26 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 16 புதியவை
-[fetch] Cinema Express: 24 புதியவை
-[fetch] The Hindu Tech: 25 புதியவை
-[fetch] Wired: 28 புதியவை
+[fetch] Cinema Express: 27 புதியவை
+[fetch] The Hindu Tech: 27 புதியவை
+[fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 19 புதியவை
+[fetch] The Hindu Health: 21 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 22 புதியவை
+[fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
-[fetch] The Hindu Jobs: 2 புதியவை
+[fetch] The Hindu Jobs: 1 புதியவை
 [fetch] WHO News: 0 புதியவை
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: 0 புதியவை
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 28 புதியவை
+[fetch] Bar and Bench: 8 புதியவை
+[fetch] The Hindu Legal: 29 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 28 புதியவை
+[fetch] The Hindu National: 29 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,56 +57,63 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7c3b959066d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 28 புதியவை
-[fetch] Dinamani Govt: 28 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x70d462bbf3d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 29 புதியவை
+[fetch] Dinamani Govt: 26 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 26 புதியவை
+[fetch] TN Police News: 18 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 689 → நிகழ்வுகள் 619
-[triage] 619 → 44 | காலி: tn:4, india:4, govt:4, crime:4, world:3
-[skip] ஹரியாணாவின் உள்ளூர் சினிமா — தமிழ்நாட்டு வாசகரைப் பாதிக்கவில
-[skip] வெளிநாட்டுத் தொடர் (ஆஸ்திரேலிய நக்கற்றவாள் பெண்கள் லীக்). தம
-[image] களஞ்சியம் (3 சொல்): அக்வான் புயல் பின் நாளை முதல் தமிழ
-[tts-edge] eb9ddf0bdcf4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] அக்வான் புயல் பின் நாளை முதல் தமிழகத்தில் மீண்டும் பருவமழை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChFP1EN77G6qyrNkimiNw'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான விவரமான உடலுரை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChFP64qFpFYoKAJ5yxc5L'}
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவகாரத்தின் விவரங்கள், பி
-[tts-edge] c487ed028952: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தவெக மீது உதயநிதி ஸ்டாலின் கடும் கண்டனம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: குடியரசு துணைத் தலைவர் வருகை: சென்
-[publish] குடியரசு துணைத் தலைவர் வருகை: சென்னையில் இன்று, நாளை போக்குவரத்து மாற்றம்
-[skip] உலக காலநிலைப் பேச்சுவார்த்தை (COP31) தமிழ்நாட்டு/இந்திய வாசக
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChFPG99k2TPS2yg46GRhT'}
-[skip] உலக நிகழ்வு — ஈரான், சவுதி அரேபியா, ஹூதி, அमेरिका ஆகியவற்றுக
-[திருத்தம்] அமெரிக்க டாலருக்கு எதிராக ரூபாய் மதிப்பு → அமெரிக்க டாலருக்கு எதிராக ரூபாய் 93க்கு 
-[publish] அமெரிக்க டாலருக்கு எதிராக ரூபாய் 93க்கு மேல் உயர்வு
-[skip] வெளிநாட்டுத் தலைமை மாநாட்டு நிகழ்வு; தமிழ்நாடு அல்லது இந்திய
-[தரம்] மூலத்தில் இல்லாத எண்: 2026 → ஒரு திருத்தம்
-[publish] ரூபாய் மதிப்பு உயர்வால் ஐடி நிறுவனங்கள் வருமானம் 13 சதவீதம் வரை குறையக்கூடும்
-[திருத்தம்] முன்னாள் அமைச்சர் ஈ.வி.வேலு சித்திரத்திற → முன்னாள் திமுக அமைச்சர் ஈ.வி.வேலு சித்தி
-[publish] முன்னாள் திமுக அமைச்சர் ஈ.வி.வேலு சித்திரத்திற்கு சென்னை உயர்நீதிமன்றம் தடை
-[image] களஞ்சியம் (2 சொல்): காசிமேடு மீனவர்கள் காலவரையற்ற போரா
-[publish] காசிமேடு மீனவர்கள் காலவரையற்ற போராட்டம் தொடக்கம்
-[image] களஞ்சியம் (2 சொல்): விபத்துகளைத் தடுக்க கைவிடப்பட்ட கு
-[publish] விபத்துகளைத் தடுக்க கைவிடப்பட்ட குவாரிகளுக்கு வேலி அமைக்க தமிழ்நாடு அரசு உத்தரவு
-[திருத்தம்] சாலை விபத்தில் உயிரிழந்த மென்பொறியாளர் க → சாலை விபத்தில் உயிரிழந்த மென்பொறியாளர் க
-[image] களஞ்சியம் (2 சொல்): சாலை விபத்தில் உயிரிழந்த மென்பொறிய
-[publish] சாலை விபத்தில் உயிரிழந்த மென்பொறியாளர் குடும்பத்துக்கு ₹2.11 கோடி இழப்பீடு உத்தரவு
+[run] புதியவை 713 → நிகழ்வுகள் 660
+[triage] 660 → 79 | காலி: india:4, crime:4, world:3, govt:3, cinema:3
+[skip] வெளிநாட்டுத் திரைப்படத் திருவிழாவின் ஆய்வுரை — தமிழ்நாட்டு வ
+[skip] வெளிநாட்டுத் தொடர்பான கிரிக்கெட் அரசியல் — ஆஸ்திரேலிய வீரர்க
+[திருத்தம்] ரயில் தண்டவாளம் கடக்கும்போது சிறுமி பலி → சிங்கப்பெருமாள் கோவில் நிலையம் அருகே ரயி
+[image] களஞ்சியம் (3 சொல்): சிங்கப்பெருமாள் கோவில் நிலையம் அரு
+[tts-edge] 1ffd2d8c211f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] சிங்கப்பெருமாள் கோவில் நிலையம் அருகே ரயில் மோதி சிறுமி பலி
+[திருத்தம்] ஏற்காடு மலைப்பாதையில் கார் பள்ளத்தில் வி → ஏற்காடு மலைப்பாதையில் சுற்றுலாப் பயணிகள்
+[tts-edge] 8b34b06325e7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஏற்காடு மலைப்பாதையில் சுற்றுலாப் பயணிகள் கார் 300 அடி பள்ளத்தில் விழுந்து ஒருவர் பலி
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[publish] போலந்தில் ரஷ்ய ஏவுகணை விழுந்ததாகக் குற்றச்சாட்டு, நேட்டோ பதில் குறித்து பரபரப்பு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், நபர் பெயர், மாவட்டம்
 [தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
-[publish] பரந்தூர் விமான நிலையத் திட்டம் குறித்து உயர்நீதிமன்றம் கேள்வி
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 7
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[market] தங்கம் 22K ₹10825 · சென்செக்ஸ் 83920
-[weather] புதுப்பிக்கப்பட்டது
+[image] களஞ்சியம் (3 சொல்): தாய் கொலை வழக்கில் மகளே கைது, நகைக
+[publish] தாய் கொலை வழக்கில் மகளே கைது, நகைகள் கொள்ளை சம்பவம்
+[திருத்தம்] இராக்கின் பஸ்ராவில் மின் நிலையத்தில் தீ  → இராக்கின் பஸ்ராவில் மின் நிலையத்தில் தீ 
+[தரம்] தமிழ் அல்லாத எழுத்து: र → ஒரு திருத்தம்
+[hold] இராக்கின் பஸ்ராவில் மின் நிலையத்தில் தீ விபத்து — நான்கு பேர் பலி
+[தரம்] தமிழ் அல்லாத எழுத்து: कधनरवािং; மூலத்தில் இல்லாத எண்: 2017 → ஒரு திருத்தம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ரோஹிஞ்சா இனப்படுகொலை: மியான்மருக்க
+[publish] ரோஹிஞ்சா இனப்படுகொலை: மியான்மருக்கு எதிரான வரலாற்றுத் தீர்ப்பு
+[skip] வெளிநாட்டுத் தொலைதூர வழக்கு — தமிழ்நாட்டு/இந்திய வாசகரின் அன
+[skip] வெளிநாட்டுத் தலைவர்களின் ব্যক்তிগত வாக்குவாதம். தமிழ்நாட்டு/
+[skip] வெளிநாட்டுத் தலைமை மாநாட்டு செய்திகள் — தமிழ்நாட்டு/இந்திய வ
+[skip] வெளிநாட்டு உள் அரசியல் — அமெরிக்க அரசின் உள்நாட்டு AI கொள்கை
+[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் அங்கீகரிக்கப்பட்ட கட
+[publish] தமிழ்நாட்டில் அங்கீகரிக்கப்பட்ட கட்டிடத் தளங்களுக்கு மாதாந்திர ஆய்வு கட்டாயம்
+[skip] வெளிநாட்டுப் பிற்போக்கு வழக்கு — தமிழ்நாடு/இந்தியாவின் உள்நா
+[திருத்தம்] நகர்ப்புற உள்கட்டமைப்பு பணிகளுக்கு 387 க → நகர்ப்புற உள்கட்டமைப்பு பணிகளுக்கு ₹387 
+[image] களஞ்சியம் (2 சொல்): நகர்ப்புற உள்கட்டமைப்பு பணிகளுக்கு
+[publish] நகர்ப்புற உள்கட்டமைப்பு பணிகளுக்கு ₹387 கோடி ஒப்புதல் அளித்த தமிழ்நாடு அரசு
+[skip] வெளிநாட்டுத் உள்ளூர் நிகழ்வு. தமிழ்நாட்டு/இந்திய வாசகரைப் பா
+[திருத்தம்] திருப்பரங்குன்றம் வழக்கு தீர்ப்பு அதிர்ச → திருப்பரங்குன்றம் வழக்கு தீர்ப்பு அதிர்ச
+[publish] திருப்பரங்குன்றம் வழக்கு தீர்ப்பு அதிர்ச்சி என தொல்.திருமாவளவன் கருத்து
+[skip] தென்னாப்பிரிக்கா உள்ளூர் அரசியல் — தமிழ்நாட்டு/இந்திய வாசகரை
+[நகல்] ஏற்கனவே வெளியானது: முன்னாள் டிஜிபி மனைவி உயில் வழக்கில் சிபி சிஐடி விசாரணைக்கு 
+[திருத்தம்] நீலகிரி, கொடைக்கானலில் இரண்டு நாட்கள் உற → நீலகிரி, கொடைக்கானலில் இரண்டு நாட்களுக்க
+[image] களஞ்சியம் (2 சொல்): நீலகிரி, கொடைக்கானலில் இரண்டு நாட்
+[publish] நீலகிரி, கொடைக்கானலில் இரண்டு நாட்களுக்கு உறைபனி எச்சரிக்கை
+[filler] tech கட்டுரை
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: குடியரசு துணைத் தலைவர் வருகை: சென்
+[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹10753 · சென்செக்ஸ் 83920
+[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.

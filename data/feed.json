@@ -1,5 +1,609 @@
 [
  {
+  "id": "art_tech_20261121",
+  "headline": "UPI பரிவர்த்தனைகளில் பாதுகாப்பு: அன்றாடம் கடைப்பிடிக்க வேண்டிய வழிமுறைகள்",
+  "lines": [
+   "UPI பரிவர்த்தனை செய்யும்போது UPI PIN-ஐ யாருடனும் பகிர்ந்துகொள்ளக் கூடாது.",
+   "ஆதார் எண்ணை பொது இடங்களில் பகிரும்போது மாஸ்க் செய்யப்பட்ட ஆதார் எண்ணைப் பயன்படுத்துவது பாதுகாப்பானது.",
+   "அறியப்படாத லிங்க்கள் அல்லது QR கோடுகளை ஸ்கேன் செய்வதற்கு முன் அவற்றின் மூலத்தை உறுதிப்படுத்திக் கொள்ள வேண்டும்.",
+   "மொபைல் போனில் இரண்டு-படி சரிபார்ப்பு அம்சத்தை இயக்கி வைப்பது கணக்கு பாதுகாப்பை அதிகரிக்கும்.",
+   "சந்தேகத்திற்குரிய அழைப்புகள் அல்லது செய்திகள் மூலம் OTP கேட்கப்பட்டால், அதை பகிர்ந்துகொள்ளாமல் உடனடியாக தொடர்புடைய வங்கிக்கு புகார் அளிக்க வேண்டும்."
+  ],
+  "closing": "சிறிய எச்சரிக்கையே பெரிய இழப்பைத் தடுக்கும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-21"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-21T17:36+05:30",
+  "created_ts": 1795262797.8009365,
+  "audio": "data/audio/art_tech_20261121.mp3"
+ },
+ {
+  "headline": "நீலகிரி, கொடைக்கானலில் இரண்டு நாட்களுக்கு உறைபனி எச்சரிக்கை",
+  "lines": [
+   "நீலகிரி மற்றும் கொடைக்கானல் மலைப்பகுதிகளில் அடுத்த இரண்டு நாட்களுக்கு உறைபனி ஏற்படும் என வானிலை ஆய்வு மையம் தெரிவித்துள்ளது.",
+   "இந்த இரண்டு மலைவாழிடங்களிலும் வெப்பநிலை கணிசமாகக் குறையும் என எச்சரிக்கை விடப்பட்டுள்ளது.",
+   "குளிர்காலத்தில் இந்த மலைப் பகுதிகளில் வழக்கமாக வெப்பநிலை கடுமையாகக் குறைவதால் இந்த நிலை ஏற்படுகிறது.",
+   "மலை ஏறும் சுற்றுலாப் பயணிகள் தேவையான கதகதப்பான ஆடைகளுடன் வர வேண்டும் என அறிவுறுத்தப்படுகிறது.",
+   "அடுத்த இரண்டு நாட்களில் இப்பகுதிகளின் வெப்பநிலை நிலவரம் தொடர்ந்து கண்காணிக்கப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "நீலகிரி, கொடைக்கானல் பகுதிகளுக்குச் செல்லும் பயணிகள் வானிலை எச்சரிக்கையைக் கவனத்தில் கொள்ள வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": "2026-11-21"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "நீலகிரி",
+   "கொடைக்கானல்",
+   "வானிலை ஆய்வு மைய்யம்"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Nilgiris, Kodaikanal to see frost for two days: weather alert",
+   "lines": [
+    "The Meteorological Department has forecast frost conditions in the Nilgiris and Kodaikanal hill regions for the next two days.",
+    "A significant drop in temperature has been predicted for both these hill destinations.",
+    "Such conditions typically occur in winter when temperatures in these hill areas fall sharply.",
+    "Tourists visiting the hill stations have been advised to carry warm clothing.",
+    "Temperature levels in these regions will continue to be monitored over the next two days."
+   ],
+   "closing": "Travellers heading to the Nilgiris and Kodaikanal are advised to take note of the weather alert."
+  },
+  "front_cat": "disaster_warning",
+  "image_query": "Nilgiris hills frost winter",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1eef8ec324f7",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-21T17:36+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/21/frost-expected-in-the-nilgiris-and-kodaikanal-for-2-days-weather-warning"
+  ],
+  "image": {
+   "url": "data/bank/space04.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/1eef8ec324f7.mp3",
+  "created_ts": 1795262773.0014508,
+  "status": "published"
+ },
+ {
+  "headline": "திருப்பரங்குன்றம் வழக்கு தீர்ப்பு அதிர்ச்சி என தொல்.திருமாவளவன் கருத்து",
+  "lines": [
+   "திருப்பரங்குன்றம் வழக்கில் உச்ச நீதிமன்றம் அளித்த இடைக்கால உத்தரவு குறித்து விடுதலைச் சிறுத்தைகள் கட்சித் தலைவர் தொல்.திருமாவளவன் கருத்து தெரிவித்துள்ளார்.",
+   "இந்தத் தீர்ப்பு அதிர்ச்சியளிப்பதாக இருப்பதாக அவர் தெரிவித்துள்ளார்.",
+   "இதை வகுப்புவாத சக்திகள் தங்களது சொந்த வெற்றியாகக் கூறிக் கொள்ளக்கூடும் என அவர் எச்சரித்துள்ளார்.",
+   "இந்தத் தீர்ப்பு வன்முறைக்கு சாதகமான சூழலை உருவாக்கக்கூடும் என்றும் அவர் அச்சம் தெரிவித்தார்.",
+   "வழக்கின் இறுதி விசாரணை தொடர்பான அடுத்தகட்ட நடவடிக்கைகள் குறித்து தெளிவான தகவல் இன்னும் வெளியாகவில்லை."
+  ],
+  "closing": "திருப்பரங்குன்றம் மலை உச்சியில் உள்ள கோயில் மற்றும் தர்கா தொடர்பான நில உரிமைச் சர்ச்சையே இந்த வழக்கின் பின்னணியாக உள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "தொல். திருமாவளவன்",
+   "விடுதலைச் சிறுத்தைகள்",
+   "உச்ச நீதிமன்றம்",
+   "திருப்பரங்குன்றம்"
+  ],
+  "confidence": 0.65,
+  "en": {
+   "headline": "Thirumavalavan calls Thirupparankundram case verdict shocking",
+   "lines": [
+    "Viduthalai Chiruthaigal Katchi chief Thol. Thirumavalavan has reacted to the Supreme Court's interim order in the Thirupparankundram case.",
+    "He termed the verdict as shocking.",
+    "He warned that communal forces could claim the ruling as a victory for themselves.",
+    "He also expressed fear that the verdict could create an atmosphere conducive to violence.",
+    "No clear details have emerged yet on the next steps in the case's final hearing."
+   ],
+   "closing": "The case stems from a long-standing land dispute over a temple and a dargah located atop the Thirupparankundram hill."
+  },
+  "front_cat": "routine",
+  "image_query": "Thol Thirumavalavan politician",
+  "wiki_subject": "Thol. Thirumavalavan",
+  "person_en": "Thol. Thirumavalavan",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "e6c0c4c7c298",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-21T17:34+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/vck-chief-terms-supreme-courts-interim-verdict-in-thirupparankundram-case-shocking/article71724836.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Dr_Thiruma_Phd.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Thol. Thirumavalavan",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Thol._Thirumavalavan",
+   "symbolic": false
+  },
+  "audio": "data/audio/e6c0c4c7c298.mp3",
+  "created_ts": 1795262656.8885992,
+  "status": "published"
+ },
+ {
+  "headline": "நகர்ப்புற உள்கட்டமைப்பு பணிகளுக்கு ₹387 கோடி ஒப்புதல் அளித்த தமிழ்நாடு அரசு",
+  "lines": [
+   "தமிழ்நாடு அரசு நகர்ப்புற உள்கட்டமைப்பு பணிகளுக்கு ₹387 கோடி ஒதுக்கீடு செய்துள்ளது.",
+   "ஒப்புதல் அளிக்கப்பட்ட திட்டங்களில் பெரும்பாலானவை சாலைப் பணிகளாக உள்ளன.",
+   "தமிழ்நாடு முழுவதும் 1,540 சாலைப் பணிகளுக்கு அனுமதி வழங்கப்பட்டுள்ளது.",
+   "நகர்ப்புறங்களில் சாலை வசதிகளை மேம்படுத்தும் நோக்கில் இந்த நிதி ஒதுக்கீடு செய்யப்பட்டுள்ளதாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "ஒப்புதல் அளிக்கப்பட்ட பணிகள் விரைவில் தொடங்கப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "இது தமிழ்நாடு அரசு தொடர்ந்து நகர்ப்புற உள்கட்டமைப்புத் திட்டங்களுக்கு நிதி ஒதுக்கீடு செய்து வரும் நடவடிக்கையின் ஒரு பகுதியாகும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு அரசு",
+   "நகர்ப்புற உள்கட்டமைப்பு",
+   "சாலைப் பணிகள்",
+   "387 கோடி ரூபாய்",
+   "1,540 சாலை பணிகள்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Tamil Nadu Government Approves ₹387 Crore for Urban Infrastructure Works",
+   "lines": [
+    "The Tamil Nadu government has newly allocated ₹387 crore for urban infrastructure works.",
+    "Majority of the approved projects relate to road works, according to the report.",
+    "The state has approved a total of 1,540 road works across Tamil Nadu.",
+    "Officials said the funds were allocated to improve road facilities in urban areas.",
+    "The approved works are expected to begin soon."
+   ],
+   "closing": "This allocation is part of the Tamil Nadu government's ongoing funding for urban infrastructure projects."
+  },
+  "front_cat": "district_scheme",
+  "image_query": "road construction india infrastructure",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "8521d4cf1af9",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-11-21T17:33+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/tamil-nadu-government-clears-another-387-crore-for-urban-infrastructure-works/article71727702.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt10.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/8521d4cf1af9.mp3",
+  "created_ts": 1795262600.3017035,
+  "status": "published"
+ },
+ {
+  "headline": "தமிழ்நாட்டில் அங்கீகரிக்கப்பட்ட கட்டிடத் தளங்களுக்கு மாதாந்திர ஆய்வு கட்டாயம்",
+  "lines": [
+   "தமிழ்நாட்டில் அங்கீகாரம் பெற்ற கட்டிடக் கட்டுமானத் தளங்களுக்கு மாதந்தோறும் ஆய்வு நடத்த வேண்டும் என மாநகராட்சி நிர்வாகத் துறை உத்தரவிட்டுள்ளது.",
+   "ஆய்வுக்குப் பின் நடவடிக்கை எடுக்கப்பட்ட விவரம் தொடர்பான அறிக்கையைத் தாக்கல் செய்வதும் கட்டாயமாக்கப்பட்டுள்ளது.",
+   "இந்த உத்தரவை அமல்படுத்துவதில் தாமதம் அல்லது கவனக்குறைவு ஏற்பட்டால் ஆணையர்கள் மற்றும் களப் பணிய்ளர்கள் நேரடிப் பொறுப்பாளர்களாக இருப்பார்கள் என துறை தெரிவித்துள்ளது.",
+   "சட்டவிரோதக் கட்டுமானங்களைக் கண்காணிக்கவும், அனுமதி விதிமுறைகளை மீறும் தளங்களைக் கண்டறியவும் இந்த நடவடிக்கை உதவும் என அதிகாரிகள் தெரிவித்தனர்.",
+   "அனைத்து உள்ளாட்சி அமைப்புகளும் இந்த உத்தரவைக் கடைபிடிக்க வேண்டும் என மாநகராட்சி நிர்வாகத் துறை அறிவுறுத்தியுள்ளது."
+  ],
+  "closing": "தமிழ்நாட்டில் அங்கீகாரமற்ற கட்டுமானங்கள் தொடர்பான புகார்கள் தொடர்ந்து எழுந்து வரும் நிலையில் இந்த உத்தரவு பிறப்பிக்கப்பட்டுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "govt",
+  "entities": [
+   "தமிழ்நாடு",
+   "மாநகராட்சி நிர்வாகத் துறை",
+   "ஆணையர்",
+   "உள்ளாட்சி அமைப்பு",
+   "கட்டிடக் கட்டுமானம்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Tamil Nadu makes monthly inspections mandatory for approved building sites",
+   "lines": [
+    "The Tamil Nadu municipal administration department has directed that approved building construction sites be inspected every month.",
+    "Filing an action-taken report after each inspection has also been made mandatory.",
+    "The department has said commissioners and field inspection staff will be held personally accountable for any delay or negligence in implementing the directive.",
+    "Officials said the move will help monitor unauthorised constructions and identify sites violating approval norms.",
+    "The department has instructed all local bodies to comply with the order with immediate effect."
+   ],
+   "closing": "The order comes amid continuing complaints about unauthorised constructions across Tamil Nadu."
+  },
+  "front_cat": "routine",
+  "image_query": "building construction site inspection",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "18d51e4b3e50",
+  "topic_ta": "அரசு அறிவிப்புகள்",
+  "published_at": "2026-11-21T17:32+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/monthly-inspections-action-taken-reports-mandatory-for-approved-building-sites-in-tn/article71727774.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt07.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/18d51e4b3e50.mp3",
+  "created_ts": 1795262548.6371796,
+  "status": "published"
+ },
+ {
+  "headline": "ரோஹிஞ்சா இனப்படுகொலை: மியான்மருக்கு எதிரான வரலாற்றுத் தீர்ப்பு",
+  "lines": [
+   "சர்வதேச நீதிமன்றம் மியான்மர் ராணுவம் ரோஹிஞ்சா முஸ்லிம் மக்களுக்கு எதிராக இனப்படுகொலை செய்ததாக தீர்ப்பளித்துள்ளது.",
+   "அப்போது நடந்த இந்தச் சம்பவத்தில் பல லட்சம் ரோஹிஞ்சா மக்கள் பாங்களாதேஷுக்கு தப்பியோடினர்.",
+   "நீதிமன்றம் மியான்மர் ராணுவத்தின் நோக்கம் ரோஹிஞ்சா மக்களை முழுவதுமாக அழிப்பது என்று நிரூபிக்கப்பட்டதாக கூறியுள்ளது.",
+   "இந்தத் தீர்ப்பு காஸா தொடர்பாக இஸ்ரேலுக்கு எதிரான இனப்படுகொலை வழக்கில் முன்னுதாரணமாக பயன்படுத்தப்படக் கூடும்.",
+   "வழக்குகளில் இனப்படுகொலை என்பதை நிரூபிப்பதற்கான சட்ட அடிப்படை இந்த வழக்கால் வலுப்படுத்தப்பட்டுள்ளது."
+  ],
+  "closing": "2016 ல் தொடங்கிய ரோஹிஞ்சா நெருக்கடி சர்வதேச மனித உரிமை மற்றும் சட்டக் கவலையுடன் முழுவதுமாக பதிவு செய்யப்பட்டுள்ளது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC Tamil",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "சர்வதேச நீதிமன்றம்",
+   "மியான்மர்",
+   "ரோஹிஞ்சா",
+   "பாংலாதேশ"
+  ],
+  "confidence": 0.92,
+  "en": {
+   "headline": "Rohingya genocide: Historic verdict against Myanmar",
+   "lines": [
+    "The International Court of Justice has ruled that Myanmar's military committed genocide against the Rohingya Muslim population.",
+    "In 2017, over half a million Rohingya people fled the country to Bangladesh during the crackdown.",
+    "The court found that Myanmar's military had the intent to completely destroy the Rohingya people.",
+    "This verdict could serve as a precedent in the genocide case against Israel concerning Gaza.",
+    "The legal basis for proving genocide in cases has been strengthened by this judgment."
+   ],
+   "closing": "The Rohingya crisis that began in 2016 has been fully documented with international humanitarian and legal concerns."
+  },
+  "front_cat": "court_landmark",
+  "image_query": "International Court of Justice Myanmar Rohingya",
+  "wiki_subject": "Rohingya genocide",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1d3b08f7945c",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-21T17:31+05:30",
+  "links": [
+   "https://www.bbc.com/tamil/articles/cwp9dypxv2x9o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/court01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/1d3b08f7945c.mp3",
+  "created_ts": 1795262479.9744887,
+  "status": "published"
+ },
+ {
+  "headline": "தாய் கொலை வழக்கில் மகளே கைது, நகைகள் கொள்ளை சம்பவம்",
+  "lines": [
+   "தமிழ்நாட்டில் ஒரு பெண் கொலை செய்யப்பட்டு, வீட்டில் இருந்த நகைகள் கொள்ளையடிக்கப்பட்ட சம்பவம் நடந்துள்ளது.",
+   "இந்த வழக்கில் காவல்துறையினர் விசாரணை நடத்திவந்த நிலையில், திடீர் திருப்பம் ஏற்பட்டுள்ளது.",
+   "கொல்லப்பட்ட பெண்ணின் மகளுக்கே இந்தக் கொலையுடன் தொடர்பு இருப்பதாக காவல்துறை கண்டறிந்துள்ளது.",
+   "இதையடுத்து, அந்தப் பெண்ணின் மகளை காவல்துறையினர் கைது செய்துள்ளனர்.",
+   "வழக்குத் தொடர்பான முழு விவரங்கள் குறித்து காவல்துறை மேலும் விசாரணை நடத்திவருகிறது."
+  ],
+  "closing": "இச்சம்பவம் தொடர்பான முழுமையான அதிகாரப்பூர்வ விவரங்களை காவல்துறை இதுவரை வெளியிடவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "தமிழ்நாடு",
+   "காவல் துறை",
+   "நகை கொள்ளை",
+   "கொலை வழக்கு"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Daughter arrested in mother's murder case over jewellery theft",
+   "lines": [
+    "A woman was murdered in Tamil Nadu and jewellery kept at her home was stolen in the incident.",
+    "Police investigating the case found a sudden twist in the probe.",
+    "Police have found that the victim's own daughter is linked to the murder.",
+    "Following this, police have arrested the woman's daughter in connection with the case.",
+    "Police are continuing further investigation to establish the full details of the case."
+   ],
+   "closing": "Police are yet to release complete official details regarding the case."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "a9ca80d3b134",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-21T17:29+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/21/woman-murdered-daughter-arrested"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/a9ca80d3b134.mp3",
+  "created_ts": 1795262375.4337578,
+  "status": "published"
+ },
+ {
+  "headline": "போலந்தில் ரஷ்ய ஏவுகணை விழுந்ததாகக் குற்றச்சாட்டு, நேட்டோ பதில் குறித்து பரபரப்பு",
+  "lines": [
+   "போலந்து எல்லைக்குள் ரஷ்ய ஏவுகணைகள் வந்து விழுந்ததாக வார்சா அரசு குற்றம் சாட்டியுள்ளது.",
+   "இது வேண்டுமென்றே செய்யப்பட்ட தூண்டுதல் நடவடிக்கை என போலந்து அரசு தெரிவித்துள்ளது.",
+   "ரஷ்யா இதுகுறித்து இதுவரை அதிகாரப்பூர்வமாக எந்தப் பதிலும் அளிக்கவில்லை.",
+   "நேட்டோவின் கூட்டுப் பாதுகாப்புப் பிரிவு இயக்கப்பட வேண்டுமெனில் தேவையான நிபந்தனைகள் மிகக் கடுமையானவை என வல்லுநர்கள் தெரிவிக்கின்றனர்.",
+   "இச்சம்பவம் தொடர்பாக நேட்டோ நாடுகள் என்ன நிலைப்பாடு எடுக்கும் என்பது இன்னும் தெளிவாகவில்லை."
+  ],
+  "closing": "போலந்து நேட்டோ கூட்டமைப்பின் உறுப்பு நாடாக இருப்பதால், இந்தச் சம்பவம் கூட்டமைப்பின் ஐந்தாவது பிரிவை இயக்குமா என்பது கவனிக்கப்பட வேண்டும்.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "போலந்து",
+   "ரஷ்யா",
+   "நேட்டோ",
+   "வார்சா",
+   "மாஸ்கோ"
+  ],
+  "confidence": 0.35,
+  "en": {
+   "headline": "Russia accused of missile strike on Poland, NATO response in question",
+   "lines": [
+    "Warsaw has accused Russia of launching missiles that struck Polish territory.",
+    "Poland's government has described the strike as an intentional act of provocation.",
+    "Russia has so far not issued any official response to the accusation.",
+    "Experts say the threshold for triggering NATO's collective defence clause remains very high.",
+    "It remains unclear what stance NATO member states will take following the incident."
+   ],
+   "closing": "As Poland is a NATO member state, attention will be on whether this incident triggers the alliance's Article 5 collective defence clause."
+  },
+  "front_cat": "war_conflict",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "உலகம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "42f62b2e7356",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-21T17:28+05:30",
+  "links": [
+   "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss"
+  ],
+  "image": {
+   "url": "data/bank/world01.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/42f62b2e7356.mp3",
+  "created_ts": 1795262319.8654776,
+  "status": "published"
+ },
+ {
+  "headline": "ஏற்காடு மலைப்பாதையில் சுற்றுலாப் பயணிகள் கார் 300 அடி பள்ளத்தில் விழுந்து ஒருவர் பலி",
+  "lines": [
+   "சேலம் அருகே ஏற்காடு மலைப்பாதையில் சுற்றுலாப் பயணிகள் பயணித்த கார் கட்டுப்பாடு இழந்து பள்ளத்தில் விழுந்தது.",
+   "இந்த விபத்தில் காரில் இருந்த ஒருவர் உயிரிழந்தார்.",
+   "கார் சுமார் 300 அடி ஆழமுள்ள பள்ளத்தில் விழுந்ததாக காவல்துறை தெரிவித்துள்ளது.",
+   "மீட்பு பணியில் ஈடுபட்ட காவல்துறையினர் மற்றும் உள்ளூர் மக்கள் காரில் இருந்தவர்களை மீட்டனர்.",
+   "சம்பவம் தொடர்பாக காவல்துறை வழக்குப்பதிவு செய்து விசாரணை நடத்தி வருகிறது."
+  ],
+  "closing": "மலைப்பாதையில் வாகனம் ஓட்டும்போது பாதுகாப்பு முன்னெச்சரிக்கை நடவடிக்கைகள் கடைப்பிடிக்கப்பட வேண்டும் என்பது இச்சம்பவத்தின் மூலம் மீண்டும் வலியுறுத்தப்படுகிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "ஏற்காடு",
+   "சேலம்",
+   "காவல்துறை",
+   "சுற்றுலாப் பயணிகள்"
+  ],
+  "confidence": 0.7,
+  "en": {
+   "headline": "Tourist dies as car plunges into gorge near Yercaud hill road",
+   "lines": [
+    "A car carrying tourists lost control and plunged into a gorge on the Yercaud hill road near Salem.",
+    "One person in the car died in the accident.",
+    "Police said the car fell into a gorge around 300 feet deep.",
+    "Police personnel and local residents rescued the occupants of the car.",
+    "Police have registered a case and are investigating the incident."
+   ],
+   "closing": "The incident has once again highlighted the need for safety precautions while driving on hill roads."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "Yercaud",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "8b34b06325e7",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-21T17:27+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/21/one-dead-as-tourist-car-plunges-into-300-foot-gorge-near-salem"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Yercaud_lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Yercaud",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Yercaud",
+   "symbolic": false
+  },
+  "audio": "data/audio/8b34b06325e7.mp3",
+  "created_ts": 1795262231.685258,
+  "status": "published"
+ },
+ {
+  "headline": "சிங்கப்பெருமாள் கோவில் நிலையம் அருகே ரயில் மோதி சிறுமி பலி",
+  "lines": [
+   "சிங்கப்பெருமாள் கோவில் ரயில் நிலையம் அருகே கடந்த வெள்ளிக்கிழமை மாலை பதினாறு வயது சிறுமி ரயில் மோதி உயிரிழந்தார்.",
+   "விளையாட்டு மைதானத்திற்குச் செல்வதற்காக சிறுமி ரயில் தண்டவாளத்தைக் கடந்து கொண்டிருந்தார்.",
+   "அப்போது வேகமாக வந்த விரைவு ரயில் சிறுமியை மோதியது என காவல் துறையினர் தெரிவித்தனர்.",
+   "சம்பவம் குறித்து உள்ளூர் காவல் நிலையத்தில் வழக்குப் பதிவு செய்யப்பட்டுள்ளது.",
+   "சம்பவம் தொடர்பான விசாரணை தொடர்கிறது என அதிகாரிகள் தெரிவித்தனர்."
+  ],
+  "closing": "தண்டவாளம் கடக்கும் இடங்களில் பாதுகாப்பு வசதிகள் குறித்த கேள்வி இச்சம்பவத்தால் மீண்டும் எழுந்துள்ளது.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "சிங்கப்பெருமாள் கோவில்",
+   "ரயில் நிலையம்",
+   "தமிழ்நாடு காவல் துறை"
+  ],
+  "confidence": 0.6,
+  "en": {
+   "headline": "Girl dies crossing railway tracks near Singaperumal Koil",
+   "lines": [
+    "A 16 year old girl died after being hit by an express train near Singaperumal Koil railway station last Friday evening.",
+    "The girl was crossing the railway tracks on her way to a nearby playground when the incident occurred.",
+    "Police said a fast moving express train struck the girl while she was crossing the tracks.",
+    "A case has been registered at the local police station regarding the incident.",
+    "Officials said investigation into the incident is continuing."
+   ],
+   "closing": "The incident has once again raised questions about safety measures at railway track crossing points."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "1ffd2d8c211f",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-21T17:26+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/chennai/girl-crossing-railway-tracks-killed-after-being-hit-by-express-train-near-singaperumal-koil-station/article71727923.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/1ffd2d8c211f.mp3",
+  "created_ts": 1795262203.0494401,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261121",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 7 · அரசு & தனியார்",
   "lines": [
@@ -18457,635 +19061,6 @@
   "wiki_subject": "",
   "urgent": false,
   "affected": "",
-  "status": "published"
- },
- {
-  "headline": "கொரிய நிறுவனங்கள் தமிழ்நாட்டில் ₹1,370 கோடி முதலீடு",
-  "lines": [
-   "கொரிய நிறுவனங்கள் சில ஆந்திரப் பிரதேசத்திற்கு இடம்பெயர உள்ளதாக தகவல்கள் வெளியான நிலையில், ஹ்வாஷின் மற்றும் சியோயான் நிறுவனங்கள் தமிழ்நாட்டில் முதலீடு செய்ய ஒப்புக்கொண்டுள்ளன.",
-   "இரு நிறுவனங்களும் சேர்ந்து மொத்தம் ஆயிரத்து முன்னூற்றி எழுபது கோடி ரூபாய் முதலீடு செய்ய உள்ளதாக தெரிவிக்கப்படுகிறது.",
-   "தமிழ்நாடு அரசு நடத்தும் வருகின்ற முதலீட்டு மாற்று மாநாட்டில் இதற்கான முறையான புரிந்துணர்வு ஒப்பந்தம் கையெழுத்தாகும் என எதிர்பார்க்கப்படுகிறது.",
-   "கொரிய நிறுவனங்கள் சில ஆந்திரப் பிரதேசத்தை நோக்கி நகர்வதாக தகவல்கள் வந்த பின்னரே, இந்த இரு நிறுவனங்களின் தமிழ்நாட்டு முதலீட்டு முடிவு வெளியானது.",
-   "முதலீட்டு மாற்று மாநாட்டில் இந்த ஒப்பந்தம் முறைப்படுத்தப்படும் என தமிழ்நாடு அரசு எதிர்பார்ப்பு தெரிவித்துள்ளது."
-  ],
-  "closing": "வேறு மாநிலங்களுக்கு நிறுவனங்கள் இடம்பெயர்வதாக தகவல்கள் வரும் நிலையில், தமிழ்நாடு இந்த முதலீடுகளை ஈர்த்திருப்பது குறிப்பிடத்தக்கது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "தமிழ்நாடு அரசு",
-   "ஹ்வாஷின்",
-   "சியோயான்",
-   "முதலீட்டு மாற்று மாநாடு",
-   "ஆந்திரப் பிரதேசம்"
-  ],
-  "confidence": 0.7,
-  "en": {
-   "headline": "Korean firms commit ₹1,370 crore investment in Tamil Nadu",
-   "lines": [
-    "Amid reports of some Korean firms shifting to Andhra Pradesh, Hwashin and Seoyon have agreed to invest in Tamil Nadu.",
-    "The two companies together are expected to invest a total of ₹1,370 crore.",
-    "A formal memorandum of understanding is expected to be signed at the upcoming Investment Conversion Conclave held by the Tamil Nadu government.",
-    "The investment decision by these two firms came after reports surfaced that some Korean companies were moving towards Andhra Pradesh.",
-    "The Tamil Nadu government has indicated that the agreement will be formalised at the Investment Conversion Conclave."
-   ],
-   "closing": "The development comes even as reports suggest some companies are shifting to other states, with Tamil Nadu managing to secure these investments."
-  },
-  "front_cat": "big_project",
-  "image_query": "factory investment Tamil Nadu industrial",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "7e63188520a3",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-11-12T09:26+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/amid-reports-of-korean-firms-shifting-to-ap-hwashin-and-seoyon-commit-1370-crore-investments-in-tn/article71690137.ece"
-  ],
-  "image": {
-   "url": "data/bank/economy01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/7e63188520a3.mp3",
-  "created_ts": 1794455792.9682424,
-  "status": "published"
- },
- {
-  "headline": "ஸ்டெர்லைட் எதிர்ப்புப் போராட்ட பாதிக்கப்பட்டோருக்கு ₹5.25 கோடி கூடுதல் நிவாரணம்",
-  "lines": [
-   "தமிழ்நாடு முதல்வர் மு.க.ஸ்டாலின், தூத்துக்குடி ஸ்டெர்லைட் எதிர்ப்புப் போராட்டத்தில் பாதிக்கப்பட்டோருக்கு கூடுதல் நிவாரணம் வழங்க உத்தரவிட்டார்.",
-   "ரூபாய் ஐந்து கோடியே இருபத்தைந்து லட்சம் கூடுதல் நிவாரணமாக வழங்கப்பட உள்ளது.",
-   "இந்த விவரத்தை தமிழ்நாடு அரசு அறிக்கை மூலம் தெரிவித்துள்ளது.",
-   "தூத்துக்குடியில் நடந்த ஸ்டெர்லைட் தொழிற்சாலை எதிர்ப்புப் போராட்டத்தின்போது காவல்துறை துப்பாக்கிச் சூட்டில் பலர் உயிரிழந்தனர்.",
-   "இந்தக் கூடுதல் நிவாரணத் தொகை பாதிக்கப்பட்டோரின் குடும்பங்களுக்கு வழங்கப்படும் என அரசு தெரிவித்துள்ளது."
-  ],
-  "closing": "தூத்துக்குடி ஸ்டெர்லைட் எதிர்ப்புப் போராட்டத்தில் நடந்த காவல்துறை துப்பாக்கிச் சூட்டு சம்பவம் தொடர்பான நிவாரண நடவடிக்கைகள் தொடர்கின்றன.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "தூத்துக்குடி",
-   "ஸ்டெர்லைட்",
-   "மு.க.ஸ்டாலின்",
-   "தமிழ்நாடு அரசு"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "CM orders additional relief for Anti-Sterlite protest victims",
-   "lines": [
-    "Tamil Nadu Chief Minister M. K. Stalin has ordered additional relief for those affected by the Anti-Sterlite protests in Thoothukudi.",
-    "An additional amount of five crore twenty five lakh rupees will be provided as relief.",
-    "The Tamil Nadu government shared this information through an official statement.",
-    "In 2018, several people died in police firing during protests against the Sterlite industrial plant in Thoothukudi.",
-    "The government said this additional relief amount will be given to the families of the affected victims."
-   ],
-   "closing": "Relief measures continue in connection with the 2018 police firing incident during the Anti-Sterlite protests in Thoothukudi."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "2018 Thoothukudi anti-Sterlite protests",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "2c3c04c8ff4d",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-11-12T09:25+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/anti-sterlite-protest-cm-orders-525-cr-additional-relief-to-victims/article71689687.ece"
-  ],
-  "image": {
-   "url": "data/bank/govt01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/2c3c04c8ff4d.mp3",
-  "created_ts": 1794455749.4997325,
-  "status": "published"
- },
- {
-  "headline": "ஐஏஎஸ் அதிகாரி அன்சுல் மிஸ்ரா சிறைத் தண்டனை ரத்து செய்த சென்னை உயர்நீதிமன்றம்",
-  "lines": [
-   "சென்னை உயர்நீதிமன்றப் பிரிவு அமர்வு, ஐஏஎஸ் அதிகாரி அன்சுல் மிஸ்ராவுக்கு விதிக்கப்பட்ட ஒரு மாத எளிய சிறைத் தண்டனையை ரத்து செய்தது.",
-   "நீதிமன்ற உத்தரவுகளை அவர் பின்பற்றாததால், அவமதிப்பு வழக்கில் ஒற்றை நீதிபதி இந்தத் தண்டனையை முன்பு விதித்திருந்தார்.",
-   "நீதிமன்ற உத்தரவுகளைச் செயல்படுத்துவதில் தாமதம் காட்டியதற்காக, பிரிவு அமர்வு கடும் அதிருப்தியை வெளிப்படுத்தியது.",
-   "தண்டனையை ரத்து செய்தாலும், அதிகாரியின் நடவடிக்கை குறித்து நீதிமன்றம் கடுமையான கருத்துகளைப் பதிவு செய்துள்ளது.",
-   "இந்த மேல்முறையீட்டு வழக்கின் முழு விவரங்கள் இன்னும் முழுமையாக வெளியிடப்படவில்லை."
-  ],
-  "closing": "ஐஏஎஸ் அதிகாரி நீதிமன்ற உத்தரவை பின்பற்றாததால் எழுந்த அவமதிப்பு நடவடிக்கையில் இருந்தே இந்த வழக்கு தொடங்கியது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர்நீதிமன்றம்",
-   "அன்சுல் மிஸ்ரா",
-   "ஐஏஎஸ்",
-   "அவமதிப்பு வழக்கு"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Madras HC sets aside jail term for IAS officer Anshul Mishra",
-   "lines": [
-    "A Division Bench of the Madras High Court set aside the one-month simple imprisonment imposed on IAS officer Anshul Mishra.",
-    "A single judge had earlier imposed the punishment in contempt proceedings for his failure to comply with court orders.",
-    "The Division Bench, however, expressed strong displeasure over the delay on his part in complying with the court's directions.",
-    "While quashing the sentence, the Bench recorded sharp observations regarding the officer's conduct.",
-    "Further details of the appellate proceedings have not yet been fully disclosed."
-   ],
-   "closing": "The case originated from contempt proceedings after the officer failed to comply with earlier court orders."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "Anshul Mishra",
-  "wiki_subject": "",
-  "person_en": "Anshul Mishra",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "d33f75a9e478",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-11-12T09:24+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-sets-aside-one-month-simple-imprisonment-imposed-on-ias-officer-anshul-mishra-in-contempt-proceedings/article71688901.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chennai_High_Court.jpg/3840px-Chennai_High_Court.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Madras High Court",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Madras_High_Court",
-   "symbolic": false
-  },
-  "audio": "data/audio/d33f75a9e478.mp3",
-  "created_ts": 1794455698.7927084,
-  "status": "published"
- },
- {
-  "headline": "நடிகை சிவத்மிகா ராஜசேகர் 'ஈஎன்ஈ ரிபீட்' பற்றிக் கூறினார்",
-  "lines": [
-   "நடிகை சிவத்மிகா ராஜசேகர் தெலுங்கு மற்றும் தமிழ் சினிமாவில் தனது நடிப்பு பயணத்தைப் பற்றி பேசினார்.",
-   "இயக்குநர் தருண் பாஸ்கர் இயக்கிய 'ஈஎன்ஈ ரிபீட்' படத்தில் நடித்ததற்கு அவர் ஆச்சரியம் வெளிப்படுத்தினார்.",
-   "வெப் சீரிஸ் 'வாரம்' படத்தில் ஒரு பாலியல் தொழிலாளி பாத்திரத்தில் நடித்த சிவத்மிகா தனது கலை முயற்சிகள் பற்றி விவரித்தார்.",
-   "தன் பேச்சில் சவாலான பாத்திரங்களை ஏற்றுக்கொள்வது பற்றி சிவத்மிகா தனது கருத்தைத் தெரிவித்தார்.",
-   "'ஈஎன்ஈ ரிபீட்' படம் வெகு சீக்கிரத்தில் வெளியாக காத்திருப்பதாக அவர் கூறினார்."
-  ],
-  "closing": "சவாலான பாத்திரங்களாலும் பல்வேறு வகையான படங்களாலும் நடிப்புத்துறையில் தனது நிலைப்பாட்டை உறுதிப்படுத்தி வருகிறார்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu Cinema",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "cinema",
-  "entities": [
-   "சிவத்மிகா ராஜசேகர்",
-   "தারுண் பாஸ்கர்",
-   "ஈஎன்ஈ ரிபீட்",
-   "வாரம் வெப் சீரிஸ்",
-   "தெலுங்கு சினிமா"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Shivathmika Rajashekar speaks on 'ENE Repeat': I never imagined such a mainstream film",
-   "lines": [
-    "Actor Shivathmika Rajashekar reflected on her acting journey across Telugu and Tamil cinema.",
-    "She expressed her surprise at being part of 'ENE Repeat', directed by Tharun Bhascker.",
-    "Shivathmika, who played a sex worker in the web series 'Varam', described her artistic choices.",
-    "In her remarks, she discussed taking on challenging roles in her career.",
-    "She said she eagerly awaits the release of the film 'ENE Repeat'."
-   ],
-   "closing": "Through challenging characters and diverse films, she continues to establish herself in cinema."
-  },
-  "front_cat": "cinema_culture",
-  "image_query": "Shivathmika Rajashekar actress",
-  "wiki_subject": "Shivathmika Rajashekar",
-  "person_en": "Shivathmika Rajashekar",
-  "urgent": false,
-  "affected": "சிலர்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "033ae8fa0912",
-  "topic_ta": "சினிமா",
-  "published_at": "2026-11-12T09:23+05:30",
-  "links": [
-   "https://www.thehindu.com/entertainment/movies/shivathmika-rajashekar-on-ene-repeat-i-never-imagined-myself-in-such-a-massive-mainstream-film/article71678107.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/033ae8fa0912.mp3",
-  "created_ts": 1794455613.9065075,
-  "status": "published"
- },
- {
-  "headline": "கோயம்புத்தூர் பெரியார் அறிவுலக புத்தக கொள்முதல் சர்ச்சை விசாரணை விரிவு",
-  "lines": [
-   "கோயம்புத்தூர் பெரியார் அறிவுலகத்திற்கான புத்தகங்கள் கொள்முதல் தொடர்பான சர்ச்சை தமிழ்நாட்டில் பெரும் பரபரப்பை ஏற்படுத்தியுள்ளது.",
-   "இந்த வழக்கு தற்போது ஊழல் தடுப்பு மற்றும் கண்காணிப்புத் துறையின் விசாரணைக்கு சென்றுள்ளது.",
-   "நீதிமன்றமும் இந்த விவகாரத்தில் தலையிட்டு தேவையான உத்தரவுகளை பிறப்பித்துள்ளது.",
-   "விசாரணையின் எல்லை விரிவாக்கப்பட்டு, மாநிலத்தின் பிற நூலகங்களின் புத்தகப் பட்டியல்களும் இதில் சேர்க்கப்பட்டுள்ளன.",
-   "இந்த வழக்கில் அடுத்த கட்ட நடவடிக்கைகள் குறித்து தமிழ்நாடு முழுவதும் எதிர்பார்ப்பு நிலவுகிறது."
-  ],
-  "closing": "இந்த கொள்முதல் சர்ச்சை தொடர்பான விசாரணை முடிவுகள் அடுத்தடுத்த நாட்களில் வெளிவரும் என எதிர்பார்க்கப்படுகிறது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "கோயம்புத்தூர்",
-   "பெரியார் அறிவுலகம்",
-   "ஊழல் தடுப்புத் துறை",
-   "நீதிமன்றம்"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Coimbatore Periyar Arivalayam book procurement row probe widens",
-   "lines": [
-    "A controversy over procurement of books for Periyar Arivalayam in Coimbatore has caused a major stir in Tamil Nadu.",
-    "The case has now moved to an inquiry by the Directorate of Vigilance and Anti-Corruption.",
-    "The court has also intervened in the matter and issued necessary directions.",
-    "The scope of the investigation has widened to include book inventories of several other libraries in the state.",
-    "Expectations are high across Tamil Nadu on the next steps to be taken in this case."
-   ],
-   "closing": "Outcomes of the inquiry into this procurement controversy are expected to emerge in the coming days."
-  },
-  "front_cat": "scam_expose",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "0dc61bbfb885",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-12T04:56+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/the-controversy-surrounding-procuring-books-for-the-periyar-arivulagam-explained/article71688957.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/0dc61bbfb885.mp3",
-  "created_ts": 1794439590.8028147,
-  "status": "published"
- },
- {
-  "headline": "பொதுநூலக புத்தக மோசடி வழக்கில் எஃப்ஐஆர் பதிவுக்கு மதுரை உயர்நீதிமன்றக் கிளை உத்தரவு",
-  "lines": [
-   "தமிழ்நாடு பொதுநூலகங்களுக்கான புத்தக கொள்முதலில் நடந்த மோசடி தொடர்பாக சென்னை உயர்நீதிமன்றத்தின் மதுரை கிளை முக்கிய உத்தரவு பிறப்பித்தது.",
-   "இந்த வழக்கில் குற்றம் சாட்டப்பட்ட அகல் விளக்கு பதிப்பகம் மற்றும் அதன் உரிமையாளர் மோகன் உள்ளிட்டோர் மீது உடனடியாக வழக்குப் பதிவு செய்யுமாறு ஊழல் ஒழிப்புத் துறைக்கு நீதிபதிகள் உத்தரவிட்டனர்.",
-   "சம்பந்தப்பட்டவர்களின் வங்கிக் கணக்குகளை உடனடியாக முடக்குமாறும் நீதிமன்றம் பணித்துள்ளது.",
-   "மோசடியில் ஈடுபட்ட அரசு அதிகாரிகளை பணி இடைநீக்கம் செய்வது உள்ளிட்ட ஒழுங்குத் தண்டனை நடவடிக்கை எடுக்குமாறு தமிழ்நாடு அரசுக்கு நீதிபதிகள் அறிவுறுத்தியுள்ளனர்.",
-   "நீதிமன்ற உத்தரவுக்குப் பிறகு ஊழல் ஒழிப்புத் துறை அடுத்தக் கட்ட விசாரணை நடவடிக்கைகளை மேற்கொள்ள உள்ளது."
-  ],
-  "closing": "பொதுநூலகங்களுக்கான புத்தக கொள்முதலில் முறைகேடு நடந்ததாக எழுந்த குற்றச்சாட்டுடன் இந்த வழக்கு தொடர்புடையது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "மதுரை கிளை",
-   "சென்னை உயர்நீதிமன்றம்",
-   "அகல் விளக்கு பதிப்பகம்",
-   "மோகன்",
-   "ஊழல் ஒழிப்புத் துறை",
-   "தமிழ்நாடு அரசு"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Madurai Bench directs DVAC to register FIR in library book scam",
-   "lines": [
-    "The Madurai Bench of the Madras High Court passed a key order regarding a scam in book purchases for Tamil Nadu's public libraries.",
-    "The judges directed the Directorate of Vigilance and Anti-Corruption to immediately register a case against Agal Vilakku Publications and its accused proprietor Mohan, among others.",
-    "The court also ordered the immediate freezing of bank accounts belonging to those involved.",
-    "The judges instructed the Tamil Nadu government to take disciplinary action, including suspension, against officials involved in the scam.",
-    "Following the court's order, the Directorate of Vigilance and Anti-Corruption is set to take up the next stage of investigation."
-   ],
-   "closing": "The case is related to allegations of irregularities in book purchases for public libraries.",
-   "closing_type": "background"
-  },
-  "id": "c42e111edfdb",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-11-12T04:55+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/register-fir-in-public-library-book-scam-case-madurai-bench-of-madras-high-court-directs-dvac/article71685854.ece"
-  ],
-  "image": {
-   "url": "data/bank/court01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/c42e111edfdb.mp3",
-  "created_ts": 1794439546.924803,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "நூலக புத்தக கொள்முதலுக்குக் குழு அமைக்க அரசு முடிவு",
-  "lines": [
-   "தமிழ்நாட்டு நூலகங்களுக்குப் புத்தகங்கள் வாங்கும் பணியில் வெளிப்படைத்தன்மையை உறுதி செய்ய ஒரு குழு அமைக்கப்படும் என்று அமைச்சர் ராஜ்மோகன் தெரிவித்தார்.",
-   "இந்தக் குழு, கொள்முதல் நடைமுறைகளை ஆய்வு செய்து பரிந்துரைகளை வழங்கும் என்று அவர் கூறினார்.",
-   "தற்போதைய அரசு எந்தப் புத்தகத்தையும் வாங்கவில்லை என்று அமைச்சர் ராஜ்மோகன் தெளிவுபடுத்தினார்.",
-   "இது தொடர்பாக எழுந்த கேள்விகளுக்குப் பதிலளிக்கும் வகையில் இந்த அறிக்கை வெளியிடப்பட்டதாக தெரிகிறது.",
-   "குழு எப்போது அமைக்கப்படும் என்பது குறித்து அரசு விரைவில் அதிகாரப்பூர்வ அறிவிப்பு வெளியிடும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "நூலக புத்தக கொள்முதல் தொடர்பான முழு விவரங்களும் குழு அமைக்கப்பட்ட பின்னரே தெளிவாகும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "தமிழ்நாடு",
-   "நூலகம்",
-   "அமைச்சர் ராஜ்மோகன்",
-   "புத்தக கொள்முதல்",
-   "குழு"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Panel to be formed for transparent library book procurement",
-   "lines": [
-    "Minister Rajmohan said a committee will be set up to ensure transparency in procuring books for Tamil Nadu's libraries.",
-    "He said the committee would review procurement procedures and offer recommendations.",
-    "The Minister clarified that the current government has not purchased any books so far.",
-    "The statement appears to be a response to questions raised regarding the matter.",
-    "The government is expected to make an official announcement soon on when the committee will be formed."
-   ],
-   "closing": "Full details on the library book procurement process are expected once the committee is formed."
-  },
-  "front_cat": "routine",
-  "image_query": "public library books india",
-  "wiki_subject": "",
-  "person_en": "Rajmohan",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "a87c9b41eb13",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-11-12T04:54+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/committee-to-be-set-up-for-transparent-procurement-of-library-books-in-tamil-nadu-minister-rajmohan/article71686551.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/a87c9b41eb13.mp3",
-  "created_ts": 1794439473.2737834,
-  "status": "published"
- },
- {
-  "headline": "திருச்சி காமராஜர் பெருநூலகத்திற்கான புத்தக கொள்முதல் உத்தரவு ரத்து",
-  "lines": [
-   "திருச்சி காமராஜர் பெருநூலகத்திற்காக வழங்கப்பட்டிருந்த புத்தக கொள்முதல் உத்தரவு, பெரியார் அறிவுலகம் தொடர்பான சர்ச்சையைத் தொடர்ந்து ரத்து செய்யப்பட்டுள்ளது.",
-   "வெளியீட்டாளர்கள் சமர்ப்பித்திருந்த புத்தகங்களைத் திரும்பப் பெற்றுக்கொள்ளுமாறு அதிகாரிகள் அவர்களுக்கு அறிவுறுத்தியுள்ளனர்.",
-   "இந்தப் புத்தகங்கள் தற்போது திருச்சி மாவட்ட மைய நூலகத்தில் பாதுகாப்பாக வைக்கப்பட்டுள்ளன.",
-   "பெரியார் அறிவுலகம் தொடர்பான சர்ச்சையைத் தொடர்ந்து இந்த முடிவு எடுக்கப்பட்டதாகத் தெரிவிக்கப்படுகிறது.",
-   "இது குறித்து அரசு தரப்பில் இதுவரை விரிவான அதிகாரப்பூர்வ விளக்கம் வெளியிடப்படவில்லை."
-  ],
-  "closing": "பெரியார் அறிவுலகம் தொடர்பான சர்ச்சை தமிழ்நாட்டில் கவனத்தை ஈர்த்து வரும் நிலையில், இந்த நூலக முடிவு எவ்வாறு நடைமுறைப்படுத்தப்படும் என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "திருச்சி",
-   "காமராஜர் பெருநூலகம்",
-   "பெரியார் அறிவுலகம்",
-   "மாவட்ட மைய நூலகம்"
-  ],
-  "confidence": 0.5,
-  "en": {
-   "headline": "Book purchase order for Tiruchi library cancelled amid row",
-   "lines": [
-    "The book purchase order issued for Tiruchi's Kamarajar Grand Library has been cancelled following the Periyar Arivulagam row.",
-    "Publishers who had submitted their books have been asked by officials to take them back.",
-    "These books are currently being kept in storage at the District Central Library in Tiruchi.",
-    "The decision is reported to have been taken following the controversy linked to Periyar Arivulagam.",
-    "There has been no detailed official explanation from the government side on the matter so far."
-   ],
-   "closing": "With the Periyar Arivulagam row drawing attention across Tamil Nadu, how this library decision will be implemented remains to be seen."
-  },
-  "front_cat": "district_scheme",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "2e2df3564b84",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-12T04:53+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/Tiruchirapalli/book-purchase-order-for-kamarajar-grand-library-cancelled/article71686227.ece"
-  ],
-  "image": {
-   "url": "data/bank/edu03.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/2e2df3564b84.mp3",
-  "created_ts": 1794439424.2715278,
-  "status": "published"
- },
- {
-  "headline": "தமிழகம் முழுவதும் 376 கோடியில் 2,880 உள்கட்டமைப்பு பணிகளுக்கு ஒப்புதல்",
-  "lines": [
-   "தமிழ்நாடு அரசு மாநிலம் முழுவதும் சாலைகள், குடிநீர் வசதி, நீர்நிலைகள் தொடர்பான 2,880 பணிகளுக்கு ஒப்புதல் அளித்துள்ளது.",
-   "இந்தப் பணிகளுக்காக மொத்தம் 376 கோடி ரூபாய் ஒதுக்கீடு செய்யப்பட்டுள்ளது.",
-   "சென்னை மாநகராட்சி, பிற மாநகராட்சிகள், நகராட்சிகள் மற்றும் பேரூராட்சிகள் பகுதிகளில் இந்தப் பணிகள் மேற்கொள்ளப்படும்.",
-   "சாலை மேம்பாடு, பூங்காக்கள் அமைத்தல், தடுப்புச் சுவர்கள் கட்டுதல் ஆகியவையும் இதில் அடங்கும் என அரசு தெரிவித்துள்ளது.",
-   "ஒப்புதல் அளிக்கப்பட்ட பணிகள் விரைவில் தொடங்கப்படும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "நகர்ப்புற உள்ளாட்சி அமைப்புகளில் அடிப்படை வசதிகளை மேம்படுத்தும் நோக்கில் இந்த ஒப்புதல் வழங்கப்பட்டுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "govt",
-  "entities": [
-   "தமிழ்நாடு அரசு",
-   "சென்னை மாநகராட்சி",
-   "நகராட்சிகள்",
-   "பேரூராட்சிகள்"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Tamil Nadu clears 2,880 infrastructure works worth 376 crore rupees",
-   "lines": [
-    "The Tamil Nadu government has approved 2,880 works related to roads, water supply, and waterbodies across the state.",
-    "A total of 376 crore rupees has been allocated for these works.",
-    "The works will be carried out in Chennai Corporation, other municipal corporations, municipalities, and town panchayats.",
-    "The government said the works also include road upgrades, park development, and construction of retaining walls.",
-    "The approved works are expected to begin soon."
-   ],
-   "closing": "The approval has been given with the aim of improving basic amenities in urban local bodies."
-  },
-  "image_query": "road construction infrastructure india",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "aa3e5ff9f70e",
-  "topic_ta": "அரசு அறிவிப்புகள்",
-  "published_at": "2026-11-12T04:50+05:30",
-  "links": [
-   "https://www.thehindu.com/news/cities/chennai/th-exclusive-from-cities-to-panchayats-cms-mission-clears-376-crore-worth-infra-work-561-km-of-roads-on-upgrade-list/article71648373.ece"
-  ],
-  "image": {
-   "url": "data/bank/local04.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/aa3e5ff9f70e.mp3",
-  "created_ts": 1794439249.7495663,
-  "front_cat": "routine",
-  "status": "published"
- },
- {
-  "headline": "பள்ளிக்கரணை சதுப்பு நிலம் கட்டுமானத் தடை வழக்கில் உத்தரவு ஒத்திவைப்பு",
-  "lines": [
-   "பள்ளிக்கரணை சதுப்பு நிலத்தைச் சுற்றி ஒரு கிலோமீட்டர் தொலைவில் கட்டுமானத் தடை விதித்த தேசிய பசுமை தீர்ப்பாயத்தின் உத்தரவை எதிர்த்து தொடரப்பட்ட வழக்குகளை சென்னை உயர்நீதிமன்றம் விசாரித்தது.",
-   "இந்த வழக்குகளில் தலைமை நீதிபதி சுஷ்ருத் அரவிந்த் தர்மாதிகாரி மற்றும் நீதிபதி ஜி.அருள்முருகன் அடங்கிய அமர்வு தீர்ப்பை ஒத்திவைத்தது.",
-   "தீர்ப்பு எந்த நாளில் வெளியிடப்படும் என்பதை நீதிபதிகள் இதுவரை குறிப்பிடவில்லை.",
-   "சதுப்பு நிலப் பகுதியைப் பாதுகாக்கும் நோக்கில் தேசிய பசுமை தீர்ப்பாயம் இந்தக் கட்டுமானத் தடையை முன்பு விதித்திருந்தது.",
-   "வழக்கின் தீர்ப்பு எப்போது வெளியிடப்படும் என்பதை நீதிமன்றம் பின்னர் அறிவிக்கும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "பள்ளிக்கரணை சதுப்பு நிலம் சென்னையின் முக்கிய சதுப்பு நில சுற்றுச்சூழல் பகுதியாகக் கருதப்படுகிறது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "சென்னை உயர்நீதிமன்றம்",
-   "பள்ளிக்கரணை சதுப்பு நிலம்",
-   "தேசிய பசுமை தீர்ப்பாயம்",
-   "சுஷ்ருத் அரவிந்த் தர்மாதிகாரி",
-   "ஜி.அருள் முருகன்"
-  ],
-  "confidence": 0.8,
-  "en": {
-   "headline": "Madras HC reserves verdict on Pallikaranai marsh construction ban case",
-   "lines": [
-    "The Madras High Court heard petitions challenging the National Green Tribunal's order banning construction within one kilometre of Pallikaranai marshland.",
-    "The bench of Chief Justice Sushrut Arvind Dharmadhikari and Justice G. Arul Murugan reserved its verdict in the matter.",
-    "The judges did not specify a date on which the orders would be pronounced.",
-    "The National Green Tribunal had earlier imposed the construction ban to protect the marshland ecosystem.",
-    "The court is expected to announce the date of its verdict at a later time."
-   ],
-   "closing": "Pallikaranai marshland is considered one of Chennai's major wetland ecological zones."
-  },
-  "front_cat": "court_landmark",
-  "image_query": "Madras High Court",
-  "wiki_subject": "Pallikaranai Marsh",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "52f95260568a",
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-11-12T04:49+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-reserves-orders-in-cases-challenging-ngts-construction-ban-on-1-km-radius-around-pallikaranai-marshland/article71690916.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pallikaranai_Marsh_Residential_Complex_Sholinganallur_Apr22_D72_23210.jpg/3840px-Pallikaranai_Marsh_Residential_Complex_Sholinganallur_Apr22_D72_23210.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Pallikaranai Marsh",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Pallikaranai_Marsh",
-   "symbolic": false
-  },
-  "audio": "data/audio/52f95260568a.mp3",
-  "created_ts": 1794439177.6156569,
   "status": "published"
  }
 ]
