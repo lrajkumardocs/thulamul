@@ -1,21 +1,21 @@
-[expire] fc858918dbf5
+[expire] 8bcd47af2cf4
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 28 புதியவை
+[fetch] ET Markets: 24 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 26 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 21 புதியவை
+[fetch] The Hindu TN: 11 புதியவை
+[fetch] Dinamani TN: 23 புதியவை
+[fetch] BBC Tamil: 10 புதியவை
+[fetch] BBC World: 17 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
 [fetch] ESPNcricinfo: 26 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 16 புதியவை
-[fetch] Cinema Express: 27 புதியவை
+[fetch] Cinema Express: 30 புதியவை
 [fetch] The Hindu Tech: 27 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 21 புதியவை
+[fetch] The Hindu Health: 20 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -24,20 +24,20 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+[fetch] TNAU Agritech: 0 புதியவை
 [fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 8 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 6 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,67 +57,86 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x70d462bbf3d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 26 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x74b83f967190>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 23 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 18 புதியவை
+[fetch] TN Police News: 25 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 713 → நிகழ்வுகள் 660
-[triage] 660 → 79 | காலி: india:4, crime:4, world:3, govt:3, cinema:3
-[skip] வெளிநாட்டுத் திரைப்படத் திருவிழாவின் ஆய்வுரை — தமிழ்நாட்டு வ
-[skip] வெளிநாட்டுத் தொடர்பான கிரிக்கெட் அரசியல் — ஆஸ்திரேலிய வீரர்க
-[திருத்தம்] ரயில் தண்டவாளம் கடக்கும்போது சிறுமி பலி → சிங்கப்பெருமாள் கோவில் நிலையம் அருகே ரயி
-[image] களஞ்சியம் (3 சொல்): சிங்கப்பெருமாள் கோவில் நிலையம் அரு
-[tts-edge] 1ffd2d8c211f: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] சிங்கப்பெருமாள் கோவில் நிலையம் அருகே ரயில் மோதி சிறுமி பலி
-[திருத்தம்] ஏற்காடு மலைப்பாதையில் கார் பள்ளத்தில் வி → ஏற்காடு மலைப்பாதையில் சுற்றுலாப் பயணிகள்
-[tts-edge] 8b34b06325e7: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஏற்காடு மலைப்பாதையில் சுற்றுலாப் பயணிகள் கார் 300 அடி பள்ளத்தில் விழுந்து ஒருவர் பலி
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] போலந்தில் ரஷ்ய ஏவுகணை விழுந்ததாகக் குற்றச்சாட்டு, நேட்டோ பதில் குறித்து பரபரப்பு
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; இடம், நபர் பெயர், மாவட்டம்
-[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
-[image] களஞ்சியம் (3 சொல்): தாய் கொலை வழக்கில் மகளே கைது, நகைக
-[publish] தாய் கொலை வழக்கில் மகளே கைது, நகைகள் கொள்ளை சம்பவம்
-[திருத்தம்] இராக்கின் பஸ்ராவில் மின் நிலையத்தில் தீ  → இராக்கின் பஸ்ராவில் மின் நிலையத்தில் தீ 
-[தரம்] தமிழ் அல்லாத எழுத்து: र → ஒரு திருத்தம்
-[hold] இராக்கின் பஸ்ராவில் மின் நிலையத்தில் தீ விபத்து — நான்கு பேர் பலி
-[தரம்] தமிழ் அல்லாத எழுத்து: कधनरवािং; மூலத்தில் இல்லாத எண்: 2017 → ஒரு திருத்தம்
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: ரோஹிஞ்சா இனப்படுகொலை: மியான்மருக்க
-[publish] ரோஹிஞ்சா இனப்படுகொலை: மியான்மருக்கு எதிரான வரலாற்றுத் தீர்ப்பு
-[skip] வெளிநாட்டுத் தொலைதூர வழக்கு — தமிழ்நாட்டு/இந்திய வாசகரின் அன
-[skip] வெளிநாட்டுத் தலைவர்களின் ব্যক்তிগত வாக்குவாதம். தமிழ்நாட்டு/
-[skip] வெளிநாட்டுத் தலைமை மாநாட்டு செய்திகள் — தமிழ்நாட்டு/இந்திய வ
-[skip] வெளிநாட்டு உள் அரசியல் — அமெরிக்க அரசின் உள்நாட்டு AI கொள்கை
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் அங்கீகரிக்கப்பட்ட கட
-[publish] தமிழ்நாட்டில் அங்கீகரிக்கப்பட்ட கட்டிடத் தளங்களுக்கு மாதாந்திர ஆய்வு கட்டாயம்
-[skip] வெளிநாட்டுப் பிற்போக்கு வழக்கு — தமிழ்நாடு/இந்தியாவின் உள்நா
-[திருத்தம்] நகர்ப்புற உள்கட்டமைப்பு பணிகளுக்கு 387 க → நகர்ப்புற உள்கட்டமைப்பு பணிகளுக்கு ₹387 
-[image] களஞ்சியம் (2 சொல்): நகர்ப்புற உள்கட்டமைப்பு பணிகளுக்கு
-[publish] நகர்ப்புற உள்கட்டமைப்பு பணிகளுக்கு ₹387 கோடி ஒப்புதல் அளித்த தமிழ்நாடு அரசு
-[skip] வெளிநாட்டுத் உள்ளூர் நிகழ்வு. தமிழ்நாட்டு/இந்திய வாசகரைப் பா
-[திருத்தம்] திருப்பரங்குன்றம் வழக்கு தீர்ப்பு அதிர்ச → திருப்பரங்குன்றம் வழக்கு தீர்ப்பு அதிர்ச
-[publish] திருப்பரங்குன்றம் வழக்கு தீர்ப்பு அதிர்ச்சி என தொல்.திருமாவளவன் கருத்து
-[skip] தென்னாப்பிரிக்கா உள்ளூர் அரசியல் — தமிழ்நாட்டு/இந்திய வாசகரை
-[நகல்] ஏற்கனவே வெளியானது: முன்னாள் டிஜிபி மனைவி உயில் வழக்கில் சிபி சிஐடி விசாரணைக்கு 
-[திருத்தம்] நீலகிரி, கொடைக்கானலில் இரண்டு நாட்கள் உற → நீலகிரி, கொடைக்கானலில் இரண்டு நாட்களுக்க
-[image] களஞ்சியம் (2 சொல்): நீலகிரி, கொடைக்கானலில் இரண்டு நாட்
-[publish] நீலகிரி, கொடைக்கானலில் இரண்டு நாட்களுக்கு உறைபனி எச்சரிக்கை
-[filler] tech கட்டுரை
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: குடியரசு துணைத் தலைவர் வருகை: சென்
-[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
+[run] புதியவை 703 → நிகழ்வுகள் 643
+[triage] 643 → 43 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] இது கர்நாடக மாநில பொதுச் சேவை ஆணையத்தின் (KPSC) ஆட்சேர்ப்பு 
+[skip] கேரளாவின் (கோട്ടയം) உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. தமிழ்நாட
+[skip] வெளிநாட்டு ஆய்வு — இந்தியாவில் அகதிகளுக்கான மனநல ஆய்வு. தமிழ
+[skip] வெளிநாட்டுத் திரைப்படம் (ஜப்பান் — 'Godzilla Minus Zero'). த
+[skip] பாக்கிஸ்தான் அணির உள் நடவடிக்கை. தமிழ்நாட்டு/இந்திய வாசகரின்
+[skip] மூலத்தில் கேள்விகள் மட்டுமே உள்ளன, உண்மையான தகவல்கள், எண்கள்
+[skip] வெளிநாட்டுச் செய்திகளில் முன்னுரிமை — இஸ்ரேல்-பாலஸ்தீன பிரச்
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; உச்ச நீதிமன்ற உத்தரவு என்ன
+[skip] வெளிநாட்டுத் தகராறு — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ
+[திருத்தம்] திருப்பரங்குன்றம் தீப விவகாரம்: உச்சநீதி → திருப்பரங்குன்றம் தீப விவகாரம்: உச்ச நீத
+[tts-edge] 1ec6088ef76c: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[hold] திருப்பரங்குன்றம் தீப விவகாரம்: உச்ச நீதிமன்றத்தின் நிலைப்பாட்டை எதிர்த்த தொல். திருமாவளவன்
+[திருத்தம்] செபி புதிய நிர்வாக வயது வரம்பு முன்மொழிவ → செபி, பங்குச் சந்தை நிறுவனங்களின் நிர்வா
+[tts-edge] 22133e835f07: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] செபி, பங்குச் சந்தை நிறுவனங்களின் நிர்வாகிகளின் பதவிக் காலம் வரம்பிட முன்மொழிவு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விரிவான தகவல், எண்கள், கார
+[skip] வெளிநாட்டுத் தலைமை அரசியல் — தமிழ்நாட்டு/இந்திய வாசகரின் அன்
+[publish] வெளிநாட்டு முதலீட்டாளர் விதிகளை எளிமைப்படுத்த செபி ஆலோசனைக் குறிப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChGZKSGPVf53Fcc9UHeeA'}
+[skip] உலக நிகழ்வு — ரஷ்யா-உக்ரைன் போரின் நடப்பு நிலை. தமிழ்நாட்டு/
+[publish] கிஃப்ட் சிட்டியில் இரட்டை வகை பங்கு திட்டம் ஆய்வு
+[skip] வெளிநாட்டு சமুद்রக் கொள்ளை / இரான்-ஓமான் பகுதி மோதல். தமிழ்ந
+[skip] உலக செய்திகளில் தமிழ்நாட்டு/இந்திய வாசகரின் நேரடிப் பாதிப்பு
+[skip] பீகார் (ஷேக்பூரா) மற்றும் ஆந்திரப் பிரதேசம் (பிரகாசம்) மாவட்
+[skip] கர்நாடகா மாநிலத்தின் கோலார் மற்றும் சித்ரதுர்கா மாவட்ட சுகாத
+[skip] திரிபுரா நகராட்சித் தேர்தல் தொடர்பான உள்ளூர்ச் செய்தி; தமிழ்
+[skip] கர்நாடகா எழுத்தாளர் தொடர்பான கேரளா/கர்நாடக உள்ளூர் சர்ச்சை, 
+[skip] ஜம்மு காஷ்மீர் மாநிலத்தின் உள்ளூர் சுற்றுச்சூழல் பிரச்சினை; 
+[skip] ஆந்திராவின் உள்ளூர் விளையாட்டுச் செய்தி, தமிழ்நாட்டுடன் நேரட
+[skip] ஐதீகக் கதை / மத வெளிப்பாடு — செய்திக் கருத்தில்லை
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Residents flag civic neglect in Sithalapakkam TN
+[skip] வேறு மாநிலம் — திரிபுரா உள்ளூர் நிர்வாக மாநிலத் தேர்தல். தமி
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Skill development centre in RA Puram empowers wo
+[skip] மத்தியப் பிரதேச உயர்நீதிமன்ற தலைமை நீதிபதியின் கருத்துரை/நேர
+[skip] வெளிநாட்டு உள்நாட்டு சுகாதாரச் செய்தி — தமிழ்நாடு/இந்தியாவுட
+[skip] வெளிநாட்டுத் திரைப்படம் — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட
+[skip] வெளிநாட்டுத் தொடர் — ஆஸ்திரேலிய Shield மற்றும் அதன் உள்ளூர் 
+[skip] கர்நாടக மாநிலத்தின் உள்ளூர் அரசியல் மற்றும் கன்നட எழுத்தாளரி
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Eight winners of Greater Chennai Corporation sch
+[publish] நெருங்கிய உறவினர் திருமணங்களால் ஆரோக்கிய பாதிப்பு: சட்டம் வேண்டும் என உச்ச நீதிமன்றம் பரிந்துரை
+[skip] வெளிநாட்டுச் சுகாதாரம் — தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்க
+[skip] வெளிநாட்டுத் திரையுலக நிகழ்வு — தமிழ்நாட்டு/இந்திய வாசகரின் 
+[skip] வெளிநாட்டுத் test cricket ஆட்டம் (Australia vs England) தமிழ
+[skip] வேறு மாநிலத்தின் உள்ளூர் சூழல் / விவசாய சிக்கல். தமிழ்நாட்டு
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Solar Mela in Kilpauk on November 28
+[திருத்தம்] இசையமைப்பாளர் அனிருத் கவ்யா திருமண வரவேற → இசையமைப்பாளர் அனிருத் ரவிச்சந்தர்-கவ்யா 
+[publish] இசையமைப்பாளர் அனிருத் ரவிச்சந்தர்-கவ்யா திருமண வரவேற்பில் அரசியல் எதிரிகள் கலந்துகொண்டனர்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChGZfT6oC7m8UUxmAPXzf'}
+[malar] 2026-W47 · புதிதாக எழுதுவது: roundup, numbers, history, films, zen, poem, hero, essay, agri, spirit, food, word, books, remedy, tech
+[malar] 2026-W47 · களஞ்சியத்திலிருந்து: (இல்லை)
+[malar:refresh] Expecting value: line 1 column 1 (char 0)
+[malar] களஞ்சியத்தில் 0 புதிது சேர்ந்தது · இருப்பு — zen:1, poem:1, hero:1, essay:1, agri:1, spirit:1, food:1, word:1, books:1, remedy:1, tech:1
+[malar] புதிய வாரமலர் 2026-W47
+[comic] கதை: தஞ்சைக் கரையில் கால் பதித்தல்
+[comic] பலகை 1 தயார்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.93) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.89) — மீண்டும் வரைகிறேன்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-11-22.png · நாள் 74
+[rasi] ராசிபலன் தயார்
 [market] தங்கம் 22K ₹10753 · சென்செக்ஸ் 83920
-[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
+[weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 1 · எழுதியவை 10
+[done] feed 300 · pending 1 · எழுதியவை 6
