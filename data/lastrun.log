@@ -1,12 +1,11 @@
-[expire] 25b13c7ec7be
 [fetch] RBI: 10 புதியவை
 [fetch] ET Markets: 30 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 22 புதியவை
-[fetch] Dinamani TN: 27 புதியவை
+[fetch] The Hindu TN: 14 புதியவை
+[fetch] Dinamani TN: 28 புதியவை
 [fetch] BBC Tamil: 8 புதியவை
-[fetch] BBC World: 19 புதியவை
-[fetch] Al Jazeera: 25 புதியவை
+[fetch] BBC World: 20 புதியவை
+[fetch] Al Jazeera: 24 புதியவை
 [fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
 [fetch] The Hindu Cinema: 16 புதியவை
@@ -14,10 +13,10 @@
 [fetch] The Hindu Tech: 25 புதியவை
 [fetch] Wired: 28 புதியவை
 [fetch] Employment News: 0 புதியவை
-[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Faith: 1 புதியவை
 [fetch] The Hindu Health: 19 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 22 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 2 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -30,14 +29,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] The Hindu Legal: 28 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 28 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,65 +56,60 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x747cd54a0110>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7c3b959066d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 28 புதியவை
+[fetch] Dinamani Govt: 28 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 27 புதியவை
+[fetch] TN Police News: 26 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 709 → நிகழ்வுகள் 631
-[triage] 631 → 62 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[image] களஞ்சியம் (2 சொல்): தர்மபுரியில் 57 செவிலியர் பணியிடங்
-[tts-edge] 1f9b598b6224: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] தர்மபுரியில் 57 செவிலியர் பணியிடங்களுக்கு விண்ணப்பிக்க அழைப்பு
-[skip] வெளிநாட்டுச் சுகாதாரக் கொள்கை — தமிழ்நாட்டு/இந்திய வாசகரைப் 
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] வெளிநாட்டுத் தொடர் — SMAT (Syed Mushtaq Ali Trophy) உள்நாட்ட
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEzPfeZF17NmuWS1KuEt'}
-[திருத்தம்] முன்னாள் டிஜிபி மனைவி உயில் வழக்கில் சிப → முன்னாள் டிஜிபி மனைவி உயில் வழக்கில் சிப
-[image] களஞ்சியம் (3 சொல்): முன்னாள் டிஜிபி மனைவி உயில் வழக்கி
-[tts-edge] 64dd7d9a3f08: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] முன்னாள் டிஜிபி மனைவி உயில் வழக்கில் சிபி சிஐடி விசாரணைக்கு உத்தரவு
-[திருத்தம்] காவிரி நீர் தகராறு: பதினொரு டிஎம்சி நீர் → காவிரி நீர் தகராறு: 11 டிএমসி நீர் கோரிய
-[தரம்] தமிழ் அல்லாத எழுத்து: এমস → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): காவிரி நீர் தகராறு: 11 டிஎம்சி நீர
-[publish] காவிரி நீர் தகராறு: 11 டிஎம்சி நீர் கோரிய தமிழக மனு தள்ளுபடி.
-[publish] பரந்தூர் விமான நிலைய திட்டம் கைவிடப்பட்டது குறித்து உயர்நீதிமன்றத்தில் அரசு விளக்கம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEzguPmnsqrF2z4qdKN9'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEzjzdcuy36Qppo3gXEw'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEznuHViQBnUQaDLn9y8'}
-[திருத்தம்] போலி புத்தக முறைகேட்டில் வழக்குப் பதியாத → போலிப் புத்தக முறைகேட்டில் வழக்குப் பதிய
-[publish] போலிப் புத்தக முறைகேட்டில் வழக்குப் பதியாததா? உயர்நீதிமன்றம் கேள்வி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChEzumMCCSYtd3sLzbbuo'}
-[skip] உலக நிகழ்வு — தமிழ்நாட்டு வாசகரின் அன்றாட வாழ்வைத் தனிப்பட்ட
-[skip] வெளிநாட்டுத் தகராறு — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ
-[skip] உலக செய்திகள் — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்வைப் 
-[திருத்தம்] கல்லூரிக் கல்வி இயக்குநர் பதவிக்கு மூத்த → கல்லூரிக் கல்வி இயக்குநர் பதவிக்கு மூத்த
-[image] களஞ்சியம் (2 சொல்): கல்லூரிக் கல்வி இயக்குநர் பதவிக்கு
-[publish] கல்லூரிக் கல்வி இயக்குநர் பதவிக்கு மூத்த அரசுக் கல்லூரி முதல்வர் நியமனம் கோரிக்கை
-[திருத்தம்] கையிடன்ஸ் ஊழியர் பணிநீக்கம்: விளக்கம் கோ → கைடன்ஸ் ஊழியர் பணிநீக்கம்: விளக்கம் கோரி
-[publish] கைடன்ஸ் ஊழியர் பணிநீக்கம்: விளக்கம் கோரிய அன்புமணி ராமதாஸ்
-[திருத்தம்] பள்ளிக்கரணை சதுப்புநிலம் கட்டுமானத் தடை  → பள்ளிக்கரணை சதுப்பு நிலம் கட்டுமானத் தடை
-[publish] பள்ளிக்கரணை சதுப்பு நிலம் கட்டுமானத் தடை - உச்ச நீதிமன்றம் செல்கிறது கிரேடாய்
-[திருத்தம்] திருப்பரங்குன்றம் தீபத்தூண் விளக்கேற்ற அ → திருப்பரங்குன்றம் தீபத்தூண் விளக்கேற்ற அ
-[hold] திருப்பரங்குன்றம் தீபத்தூண் விளக்கேற்ற அனுமதி உச்ச நீதிமன்றம் வழங்கியது
-[image] களஞ்சியம் (2 சொல்): தனியார் மருத்துவமனைகளில் அறுவை சிக
-[publish] தனியார் மருத்துவமனைகளில் அறுவை சிகிச்சைப் பிரசவம் அதிகம் என ஆய்வு
-[cartoon] gemini-2.5-flash-image: படம் தயார்
-[editorial] தராசில் இன்று: பிரசவங்களில் அறுவை சிகிச்சை ஏன் இத்தனை அதிகரிப்பு?
-[comic] கதை: படகில் மூன்றாம் குரல்
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.87) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-21.png · நாள் 73
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹10824 · சென்செக்ஸ் 83920
+[run] புதியவை 689 → நிகழ்வுகள் 619
+[triage] 619 → 44 | காலி: tn:4, india:4, govt:4, crime:4, world:3
+[skip] ஹரியாணாவின் உள்ளூர் சினிமா — தமிழ்நாட்டு வாசகரைப் பாதிக்கவில
+[skip] வெளிநாட்டுத் தொடர் (ஆஸ்திரேலிய நக்கற்றவாள் பெண்கள் லীக்). தம
+[image] களஞ்சியம் (3 சொல்): அக்வான் புயல் பின் நாளை முதல் தமிழ
+[tts-edge] eb9ddf0bdcf4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] அக்வான் புயல் பின் நாளை முதல் தமிழகத்தில் மீண்டும் பருவமழை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChFP1EN77G6qyrNkimiNw'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான விவரமான உடலுரை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChFP64qFpFYoKAJ5yxc5L'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; விவகாரத்தின் விவரங்கள், பி
+[tts-edge] c487ed028952: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தவெக மீது உதயநிதி ஸ்டாலின் கடும் கண்டனம்
+[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: குடியரசு துணைத் தலைவர் வருகை: சென்
+[publish] குடியரசு துணைத் தலைவர் வருகை: சென்னையில் இன்று, நாளை போக்குவரத்து மாற்றம்
+[skip] உலக காலநிலைப் பேச்சுவார்த்தை (COP31) தமிழ்நாட்டு/இந்திய வாசக
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChFPG99k2TPS2yg46GRhT'}
+[skip] உலக நிகழ்வு — ஈரான், சவுதி அரேபியா, ஹூதி, அमेरिका ஆகியவற்றுக
+[திருத்தம்] அமெரிக்க டாலருக்கு எதிராக ரூபாய் மதிப்பு → அமெரிக்க டாலருக்கு எதிராக ரூபாய் 93க்கு 
+[publish] அமெரிக்க டாலருக்கு எதிராக ரூபாய் 93க்கு மேல் உயர்வு
+[skip] வெளிநாட்டுத் தலைமை மாநாட்டு நிகழ்வு; தமிழ்நாடு அல்லது இந்திய
+[தரம்] மூலத்தில் இல்லாத எண்: 2026 → ஒரு திருத்தம்
+[publish] ரூபாய் மதிப்பு உயர்வால் ஐடி நிறுவனங்கள் வருமானம் 13 சதவீதம் வரை குறையக்கூடும்
+[திருத்தம்] முன்னாள் அமைச்சர் ஈ.வி.வேலு சித்திரத்திற → முன்னாள் திமுக அமைச்சர் ஈ.வி.வேலு சித்தி
+[publish] முன்னாள் திமுக அமைச்சர் ஈ.வி.வேலு சித்திரத்திற்கு சென்னை உயர்நீதிமன்றம் தடை
+[image] களஞ்சியம் (2 சொல்): காசிமேடு மீனவர்கள் காலவரையற்ற போரா
+[publish] காசிமேடு மீனவர்கள் காலவரையற்ற போராட்டம் தொடக்கம்
+[image] களஞ்சியம் (2 சொல்): விபத்துகளைத் தடுக்க கைவிடப்பட்ட கு
+[publish] விபத்துகளைத் தடுக்க கைவிடப்பட்ட குவாரிகளுக்கு வேலி அமைக்க தமிழ்நாடு அரசு உத்தரவு
+[திருத்தம்] சாலை விபத்தில் உயிரிழந்த மென்பொறியாளர் க → சாலை விபத்தில் உயிரிழந்த மென்பொறியாளர் க
+[image] களஞ்சியம் (2 சொல்): சாலை விபத்தில் உயிரிழந்த மென்பொறிய
+[publish] சாலை விபத்தில் உயிரிழந்த மென்பொறியாளர் குடும்பத்துக்கு ₹2.11 கோடி இழப்பீடு உத்தரவு
+[தரம்] தமிழ் அல்லாத எழுத்து: ि → ஒரு திருத்தம்
+[publish] பரந்தூர் விமான நிலையத் திட்டம் குறித்து உயர்நீதிமன்றம் கேள்வி
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 7
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹10825 · சென்செக்ஸ் 83920
 [weather] புதுப்பிக்கப்பட்டது
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+  warnings.warn(message, FutureWarning)
+[push] 0 அறிவிப்புகள்
+[image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 1 · எழுதியவை 10
