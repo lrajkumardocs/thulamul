@@ -1,5 +1,545 @@
 [
  {
+  "id": "art_tech_20261122",
+  "headline": "UPI, ஆதார் பயன்பாட்டில் பாதுகாப்பு குறிப்புகள் அறிவோம்",
+  "lines": [
+   "UPI பயன்பாட்டில் பணம் அனுப்பும் முன் பெறுநரின் பெயரை திரையில் உறுதி செய்து கொள்ள வேண்டும்.",
+   "ஆதார் எண்ணை பகிரும்போது மாஸ்க் செய்யப்பட்ட ஆதார் அல்லது VID எண்ணை பயன்படுத்துவது பாதுகாப்பானது.",
+   "அறியப்படாத லிங்க்கள் வழியாக வரும் செய்திகளில் OTP அல்லது UPI பின் எண்ணை ஒருபோதும் பகிரக் கூடாது.",
+   "மொபைல் அமைப்புகளில் ஆப் அனுமதிகளை (Permissions) அவ்வப்போது சரிபார்த்து தேவையற்றவற்றை நீக்குவது நல்லது.",
+   "வங்கி அல்லது அரசு அமைப்பு என கூறி அழைப்பு வரும்போது, நேரடியாக அதிகாரப்பூர்வ எண்ணில் தொடர்பு கொண்டு உறுதி செய்வது முக்கியம்."
+  ],
+  "closing": "சிறு எச்சரிக்கை, பெரிய பாதுகாப்பு.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "துலாமுள் தொகுப்பு",
+    "doc": null,
+    "date": "2026-11-22"
+   }
+  ],
+  "topic": "tech",
+  "topic_ta": "தொழில்நுட்பம்",
+  "entities": [
+   "பாதுகாப்பு",
+   "UPI"
+  ],
+  "confidence": 0.9,
+  "flags": [],
+  "front_cat": "routine",
+  "urgent": false,
+  "affected": "",
+  "kind": "article",
+  "image": null,
+  "status": "published",
+  "published_at": "2026-11-22T17:52+05:30",
+  "created_ts": 1795350136.17548,
+  "audio": "data/audio/art_tech_20261122.mp3"
+ },
+ {
+  "headline": "ஷாங்காய் ஒத்துழைப்பு அமைப்பு நாகரிக உரையாடல்: பாகிஸ்தான் அழைப்பு — விருப்பங்கள் திறந்திருப்பதாக அதிகாரிகள்",
+  "lines": [
+   "ஷாங்காய் ஒத்துழைப்பு அமைப்பு நடத்திய நாகரிக உரையாடல் நிகழ்விற்கு பாகிஸ்தானும் அழைக்கப்பட்டதாகத் தகவல் வெளியாகியுள்ளது.",
+   "இந்த அழைப்பில் முரண்பாடு இருப்பதாகக் கூறி மத்திய அரசு விமர்சனத்தை எதிர்கொண்டு வருகிறது.",
+   "இந்த அழைப்பு பொதுவான நாகரிகப் பண்புக்கான வாய்ப்பு சாளரத்தை உருவாக்கும் முயற்சி எனப் பெரும் அதிகாரிகள் தெரிவித்தனர்.",
+   "அடுத்த ஆண்டு ஷாங்காய் ஒத்துழைப்பு அமைப்பின் முழு அளவிலான கூட்டம் நடைபெறும் என வட்டாரங்கள் தெரிவிக்கின்றன.",
+   "இந்த அழைப்பு குறித்த முழுமையான அதிகாரப்பூர்வ விளக்கம் இதுவரை வெளியிடப்படவில்லை."
+  ],
+  "closing": "ஷாங்காய் ஒத்துழைப்பு அமைப்பில் இந்தியா, சீனா, ரஷ்யா, பாகிஸ்தான் உள்ளிட்ட நாடுகள் உறுப்பினர்களாக உள்ளன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu Legal",
+    "doc": null,
+    "date": null
+   },
+   {
+    "name": "The Hindu National",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "india",
+  "entities": [
+   "ஷாங்காய் ஒத்துழைப்பு அமைப்பு",
+   "பாகிஸ்தான்",
+   "இந்திய அரசு"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Pakistan Invite To SCO Dialogue Draws Government Criticism",
+   "lines": [
+    "Reports indicate Pakistan was invited to a Civilisational Dialogue event organised under the Shanghai Cooperation Organisation.",
+    "The central government is facing criticism over what is being called an inconsistency in extending this invitation.",
+    "Officials said the invite could be seen as building a window of opportunity for common civility.",
+    "Sources indicate the full SCO meeting is expected to take place next year.",
+    "A complete official explanation regarding the invitation has not yet been issued."
+   ],
+   "closing": "The Shanghai Cooperation Organisation includes India, China, Russia and Pakistan among its member nations."
+  },
+  "front_cat": "routine",
+  "image_query": "Shanghai Cooperation Organisation summit",
+  "wiki_subject": "Shanghai Cooperation Organisation",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "113008cdbd1f",
+  "topic_ta": "இந்தியா",
+  "published_at": "2026-11-22T17:50+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/sco-civilisational-dialogue-leaves-options-open-for-pakistan-sco-meets-next-year-say-sources/article71731201.ece",
+   "https://www.thehindu.com/news/national/sco-civilisational-dialogue-leaves-options-open-for-pakistan-sco-meets-next-year-say-sources/article71731201.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/44/Shanghai_Cooperation_Organisation_%28logo%29.svg/330px-Shanghai_Cooperation_Organisation_%28logo%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · Shanghai Cooperation Organisation",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Shanghai_Cooperation_Organisation",
+   "symbolic": false
+  },
+  "audio": "data/audio/113008cdbd1f.mp3",
+  "created_ts": 1795350048.5686066,
+  "status": "published"
+ },
+ {
+  "headline": "நெல் கொள்முதல் கைவிடப்படுகிறதா? அன்புமணி ராமதாஸ் கண்டனம்",
+  "lines": [
+   "பாமக நிறுவனர் அன்புமணி ராமதாஸ் தமிழ்நாடு அரசுக்கு எதிராகக் கடுமையான கண்டனம் தெரிவித்துள்ளார்.",
+   "அரசின் கடன் தொகையைக் குறைத்துக் காட்டும் நோக்கத்துடன் நெல் கொள்முதல் கைவிடப்படுகிறதா என அவர் கேள்வி எழுப்பியுள்ளார்.",
+   "நெல் கொள்முதல் நிறுத்தப்பட்டால் விவசாயிகள் கடுமையாகப் பாதிக்கப்படுவார்கள் என அவர் தெரிவித்துள்ளார்.",
+   "இந்தக் குற்றச்சாட்டு தொடர்பாகத் தமிழ்நாடு அரசு இதுவரை அதிகாரப்பூர்வமாக எந்த விளக்கமும் அளிக்கவில்லை.",
+   "இந்த விவகாரத்தில் அரசின் பதில் என்னவாக இருக்கும் என்பது கவனிக்கத்தக்கது."
+  ],
+  "closing": "நெல் கொள்முதல் தொடர்பான இந்தக் குற்றச்சாட்டுக்கு தமிழ்நாடு அரசு எவ்வாறு பதிலளிக்கும் என்பது வரவிருக்கக்கூடிய நிம்மதிக்கான முக்கியக் கேள்வியாக உள்ளது.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "அன்புமணி ராமதாஸ்",
+   "பாமக",
+   "தமிழ்நாடு அரசு",
+   "நெல் கொள்முதல்"
+  ],
+  "confidence": 0.45,
+  "en": {
+   "headline": "Is paddy procurement being halted? Anbumani condemns move",
+   "lines": [
+    "PMK founder Anbumani Ramadoss has strongly condemned the Tamil Nadu government.",
+    "He questioned whether paddy procurement is being abandoned to show reduced government debt figures.",
+    "He stated that farmers would be severely affected if paddy procurement is stopped.",
+    "The Tamil Nadu government has not yet officially responded to this allegation.",
+    "It remains to be seen how the government will respond to this issue."
+   ],
+   "closing": "It remains a question how the Tamil Nadu government will respond to this allegation regarding paddy procurement."
+  },
+  "front_cat": "farmer_water",
+  "image_query": "Anbumani Ramadoss",
+  "wiki_subject": "Anbumani Ramadoss",
+  "person_en": "Anbumani Ramadoss",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "2ba0e9c5af5d",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-22T17:49+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/22/is-paddy-procurement-being-shifted-to-conceal-the-state-govts-debt"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Anbumani_Ramadoss_briefing_the_media_after_his_meeting_with_the_Health_Ministers_of_Polio_affected_states_Delhi%2C_UP%2C_Bihar%2C_Uttaranchal%2C_Jharkhand%2C_MP%2C_Haryana_and_Maharashtra%2C_in_New_Delhi_on_September_21%2C_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Anbumani Ramadoss",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Anbumani_Ramadoss",
+   "symbolic": false
+  },
+  "audio": "data/audio/2ba0e9c5af5d.mp3",
+  "created_ts": 1795349995.184545,
+  "status": "published"
+ },
+ {
+  "headline": "ராமநாதபுரத்தில் சுகாதாரத் தொழிலாளர்கள் நிரந்தரப் பணிக்கோரி போராட்டம்",
+  "lines": [
+   "ராமநாதபுரத்தில் சுகாதாரத் தொழிலாளர்கள் பலர் ஒன்று கூடி போராட்டத்தில் ஈடுபட்டனர்.",
+   "தங்களைப் பணி நிரந்தரப்படுத்த வேண்டும் என்பதே தொழிலாளர்களின் முதன்மைக் கோரிக்கையாக இருந்தது.",
+   "ஒப்பந்த அடிப்படையில் பணிபுரியும் இந்தத் தொழிலாளர்கள் இந்தக் கோரிக்கையை வலியுறுத்தி போராட்டம் நடத்தினர்.",
+   "உள்ளூர் நிர்வாக அலுவலர்களிடம் தொழிலாளர்கள் தங்களது கோரிக்கைகளை முன்வைத்தனர்.",
+   "இந்தப் பிரச்சினை தொடர்பாக அரசு மட்டத்தில் அடுத்து என்ன நடவடிக்கை எடுக்கப்படும் என்பது தெரியவரவில்லை."
+  ],
+  "closing": "ஒப்பந்தத் தொழிலாளர்களை நிரந்தரப்படுத்தும் கோரிக்கை தமிழ்நாட்டின் பல்வேறு உள்ளாட்சி அமைப்புகளிலும் அவ்வப்போது எழுந்து வருகிறது.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "ராமநாதபுரம்",
+   "சுகாதாரத் தொழிலாளர்கள்"
+  ],
+  "id": "faeff3d03a25",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-22T17:49+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Madurai/sanitary-workers-protest-in-ramanathapuram-pressing-for-regularisation/article71728397.ece"
+  ],
+  "image": {
+   "url": "data/bank/govt03.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/faeff3d03a25.mp3",
+  "created_ts": 1795349944.454992,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "இரண்டு கோடி தொண்டர்கள் உங்களை பொதுச்செயலாளர் ஆக்கினர்; அவர்களின் குரல் புறக்கணிக்க முடியாது: வேலுமணி பழனிசாமிக்கு",
+  "lines": [
+   "கோயம்புத்தூர் விமான நிலையத்தில் நிருபர்களிடம் எடப்பாடி கே.பழனிசாமி நவம்பர் இருபத்தி இரண்டாம் தேதி பேசினார்.",
+   "வெளியேற்றப்பட்டவர்களை, வி.கே.சசிகலா உட்பட, கட்சியில் மீண்டும் சேர்த்துக் கொள்ளுமாறு வேலுமணி முன்னதாகக் கோரியிருந்தார்.",
+   "இரண்டு கோடி கட்சித் தொண்டர்கள் தன்னை பொதுச்செயலாளர் ஆக்கியதாகவும், அவர்களின் குரலைப் புறக்கணிக்க முடியாது எனவும் வேலுமணி கூறியிருந்தார்.",
+   "இக்கருத்து குறித்து நிருபர்கள் எழுப்பிய கேள்விகளுக்கு பழனிசாமி பதிலளித்தார்.",
+   "வெளியேற்றப்பட்டவர்களின் மீள்சேர்க்கை தொடர்பாக அதிமுகவின் அதிகாரப்பூர்வ முடிவு இதுவரை வெளியிடப்படவில்லை."
+  ],
+  "closing": "வெளியேற்றப்பட்ட முன்னாள் தலைவர்களின் மீள்சேர்க்கை குறித்த விவாதம் அதிமுகவுக்குள் தொடர்கிறது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": "2026-11-22"
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "எடப்பாடி கே.பழனிசாமி",
+   "வேலுமணி",
+   "வி.கே.சசிகலா",
+   "அதிமுக",
+   "கோயம்புத்தூர்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Palaniswami Responds to Velumani on Expelled Leaders' Return",
+   "lines": [
+    "Edappadi K. Palaniswami spoke to reporters at Coimbatore airport on November 22.",
+    "Velumani had earlier appealed to bring back expelled leaders, including V.K. Sasikala, into the party.",
+    "Velumani had said that two crore party cadres made Palaniswami general secretary and their voices cannot be ignored.",
+    "Palaniswami answered questions from reporters regarding this remark.",
+    "The AIADMK has not yet issued an official decision on readmitting expelled leaders."
+   ],
+   "closing": "Debate continues within AIADMK over the possible return of expelled former leaders."
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "All India Anna Dravida Munnetra Kazhagam",
+  "person_en": "Edappadi K. Palaniswami",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "928943d59ea5",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-22T17:46+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/two-crore-cadre-made-you-general-secretary-their-voices-cant-be-ignored-velumani-to-palaniswami/article71730742.ece"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Indian_Election_Symbol_Two_Leaves.svg/500px-Indian_Election_Symbol_Two_Leaves.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "விக்கிமீடியா · All India Anna Dravida Munnetra Kazhagam",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/All_India_Anna_Dravida_Munnetra_Kazhagam",
+   "symbolic": false
+  },
+  "audio": "data/audio/928943d59ea5.mp3",
+  "created_ts": 1795349813.9431016,
+  "status": "published"
+ },
+ {
+  "headline": "ரயிலில் பெண் சடலம் மீட்பு வழக்கு: அறிக்கை கோரி டிஜிபிக்கு மகளிர் ஆணையம் உத்தரவு",
+  "lines": [
+   "ரயிலில் ஒரு பெண்ணின் சடலம் மீட்கப்பட்ட சம்பவம் தொடர்பாக தேசிய மகளிர் ஆணையம் நடவடிக்கை எடுத்துள்ளது.",
+   "இந்த சம்பவம் தொடர்பான முழு விவரங்கள் அடங்கிய அறிக்கையை ஏழு நாட்களுக்குள் சமர்ப்பிக்குமாறு டிஜிபிக்கு கேட்டுக்கொள்ளப்பட்டுள்ளது.",
+   "காவல் துறை தலைவரான டிஜிபிக்கு இந்த உத்தரவை தேசிய மகளிர் ஆணையம் வழங்கியுள்ளது.",
+   "சம்பவம் தொடர்பான கூடுதல் விவரங்கள் இதுவரை அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+   "காவல் துறையின் விசாரணை அறிக்கை வரும் நாட்களில் சமர்ப்பிக்கப்படும் என எதிர்பார்க்கப்படுகிறது."
+  ],
+  "closing": "அறிக்கை சமர்ப்பிக்கப்பட்ட பின்னரே இந்த வழக்கில் காவல் துறையின் விசாரணை முன்னேற்றம் குறித்த தெளிவு கிடைக்கும்.",
+  "closing_type": "question",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "தேசிய மகளிர் ஆணையம்",
+   "டிஜிபி",
+   "ரயில்"
+  ],
+  "confidence": 0.4,
+  "en": {
+   "headline": "Train Death of Woman: Women's Panel Orders DGP Report in Seven Days",
+   "lines": [
+    "The discovery of a woman's body on a train has prompted action by the National Commission for Women.",
+    "A detailed report on the incident has been sought within seven days.",
+    "The order has been issued to the state's Director General of Police.",
+    "Further details regarding the incident have not yet been officially released.",
+    "The police investigation report is expected to be submitted in the coming days."
+   ],
+   "closing": "Only after the report is submitted will the progress of the police investigation into this case become clear."
+  },
+  "front_cat": "crime_major",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "மாநிலம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "dac40fbaaf8e",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-22T17:44+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/22/national-commission-for-women-directs-dgp-to-submit-a-report-on-the-incident-involving-the-murder-of-a-woman-on-a-train"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/dac40fbaaf8e.mp3",
+  "created_ts": 1795349678.7749832,
+  "status": "published"
+ },
+ {
+  "headline": "கள்ளக்குறிச்சி எம்எல்ஏ விவகாரத்தில் முதல்வர் மௌனம், தினகரன் கேள்வி",
+  "lines": [
+   "கள்ளக்குறிச்சி தொகுதி எம்எல்ஏ தொடர்பான விவகாரம் குறித்து அமமுக பொதுச் செயலாளர் டி.டி.வி.தினகரன் அறிக்கை வெளியிட்டுள்ளார்.",
+   "இந்த விவகாரத்தில் முதல்வர் மு.க.ஸ்டாலின் இதுவரை மௌனம் காப்பது ஏன் என்று அவர் கேள்வி எழுப்பியுள்ளார்.",
+   "தமிழக அரசு இது தொடர்பாக உடனடியாக பதிலளிக்க வேண்டும் என்று அவர் வலியுறுத்தியுள்ளார்.",
+   "இதுகுறித்து தமிழக அரசு தரப்பில் இதுவரை அதிகாரப்பூர்வ விளக்கம் வெளியிடப்படவில்லை.",
+   "இந்த விவகாரம் தொடர்பாக அடுத்து என்ன நடவடிக்கை எடுக்கப்படும் என்பது இன்னும் தெளிவாகவில்லை."
+  ],
+  "closing": "கள்ளக்குறிச்சி எம்எல்ஏ விவகாரம் குறித்த முழு விவரங்களும் இன்னும் அதிகாரப்பூர்வமாக வெளியிடப்படவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "Dinamani TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "கள்ளக்குறிச்சி",
+   "டிடிவி தினகரன்",
+   "மு.க.ஸ்டாலின்",
+   "அமமுக"
+  ],
+  "confidence": 0.3,
+  "en": {
+   "headline": "TTV Dhinakaran questions CM's silence on Kallakurichi MLA issue",
+   "lines": [
+    "AMMK general secretary TTV Dhinakaran has issued a statement regarding an issue related to the Kallakurichi constituency MLA.",
+    "He questioned why Chief Minister M K Stalin has remained silent on this matter so far.",
+    "He urged the Tamil Nadu government to respond to the issue immediately.",
+    "The state government has not yet issued an official clarification on the matter.",
+    "It remains unclear what further action will be taken regarding this issue."
+   ],
+   "closing": "Full details regarding the Kallakurichi MLA issue have not yet been officially released.",
+   "closing_type": "background"
+  },
+  "front_cat": "routine",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "T. T. V. Dhinakaran",
+  "urgent": false,
+  "affected": "மாவட்டம்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "ab4a15405a8d",
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-22T17:42+05:30",
+  "links": [
+   "https://www.dinamani.com/tamilnadu/2026/Nov/22/why-is-cm-still-silent-on-kallakurichi-mla-issue-questions-ttv-dhinakaran"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/T._T._V._Dhinakaran.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · T. T. V. Dhinakaran",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/T._T._V._Dhinakaran",
+   "symbolic": false
+  },
+  "audio": "data/audio/ab4a15405a8d.mp3",
+  "created_ts": 1795349574.3108552,
+  "status": "published"
+ },
+ {
+  "headline": "காவிரி மனுக்கள் தள்ளுபடி: முதல்வருக்கு தெரியாதா என எடப்பாடி கே.பழனிசாமி விமர்சனம்",
+  "lines": [
+   "அதிமுக பொதுச்செயலாளர் எடப்பாடி கே.பழனிசாமி, தமிழ்நாட்டு அரசுக்கு எதிராக சமூக வலைதளத்தில் கருத்து பதிவிட்டார்.",
+   "தமிழ்நாட்டின் காவிரி தொடர்பான மனுக்களை உச்ச நீதிமன்றம் தள்ளுபடி செய்தது குறித்து அவர் கேள்வி எழுப்பினார்.",
+   "இந்த தீர்ப்பு குறித்து முதல்வருக்கே தெரியாது என்று பழனிசாமி தனது பதிவில் குற்றம் சாட்டினார்.",
+   "காவிரி நீர் தொடர்பான வழக்குகள் பல ஆண்டுகளாக நீதிமன்றங்களில் நிலுவையில் இருந்து வருகின்றன.",
+   "இந்த விவகாரம் குறித்து மாநில அரசு தரப்பில் எந்த அதிகாரப்பூர்வ பதிலும் இதுவரை வெளியிடப்படவில்லை."
+  ],
+  "closing": "காவிரி நீர் பங்கீடு தொடர்பான வழக்குகள் தமிழ்நாட்டில் நீண்ட காலமாக அரசியல் விவாதப் பொருளாக இருந்து வருகின்றன.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "tn",
+  "entities": [
+   "எடப்பாடி கே.பழனிசாமி",
+   "அதிமுக",
+   "தமிழக அரசு",
+   "உச்ச நீதிமன்றம்",
+   "காவிரி"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Palaniswami slams Cauvery plea dismissal, says CM unaware of ruling",
+   "lines": [
+    "AIADMK general secretary Edappadi K Palaniswami posted criticism against the Tamil Nadu government on social media.",
+    "He questioned the Supreme Court's dismissal of Tamil Nadu's pleas related to the Cauvery water issue.",
+    "In his post, Palaniswami alleged that the Chief Minister was unaware of this verdict.",
+    "Cases related to Cauvery water sharing have remained pending in courts for several years.",
+    "The state government has not yet issued any official response on this matter."
+   ],
+   "closing": "Cases related to Cauvery water sharing have long been a subject of political debate in Tamil Nadu.",
+   "closing_type": "background"
+  },
+  "id": "f6f1b205ce35",
+  "flags": [
+   "single_source"
+  ],
+  "topic_ta": "தமிழ்நாடு",
+  "published_at": "2026-11-22T17:41+05:30",
+  "links": [
+   "https://www.thehindu.com/news/national/tamil-nadu/palaniswami-criticises-tvk-led-government-over-sc-dismissal-of-tns-cauvery-pleas/article71730986.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/%E0%AE%AA%E0%AE%B4%E0%AE%A8%E0%AE%BF_%E0%AE%AE%E0%AF%81%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AE%A9%E0%AF%8D_%E0%AE%95%E0%AF%8B%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · Dhandayuthapani Swamy Temple",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/Dhandayuthapani_Swamy_Temple",
+   "symbolic": false
+  },
+  "audio": "data/audio/f6f1b205ce35.mp3",
+  "created_ts": 1795349469.8586004,
+  "front_cat": "routine",
+  "image_query": "",
+  "person_en": "",
+  "wiki_subject": "",
+  "urgent": false,
+  "affected": "",
+  "status": "published"
+ },
+ {
+  "headline": "தஞ்சாவூரில் லாரி மோதி பெண் உள்பட மூவர் பலி",
+  "lines": [
+   "தஞ்சாவூர் அருகே எதிரே வந்த லாரி ஒன்று, பெண் ஒருவர் மற்றும் அவரது இரண்டு மகன்கள் சென்ற இருசக்கர வாகனத்தில் மோதியது.",
+   "விபத்தில் அந்தப் பெண்ணும், அவரது ஒரு மகனும் சம்பவ இடத்திலேயே உயிரிழந்தனர்.",
+   "மற்றொரு மகன் மருத்துவமனைக்கு கொண்டு செல்லப்படும் வழியில் உயிரிழந்தார்.",
+   "காயமடைந்த மற்றொரு மகன் திருவையாறு அரசு மருத்துவமனையில் அனுமதிக்கப்பட்டு சிகிச்சை பெற்று வருகிறார்.",
+   "காவல்துறையினர் வழக்குப் பதிவு செய்து, லாரி தொடர்பான விசாரணையை தொடங்கியுள்ளனர்."
+  ],
+  "closing": "லாரி ஓட்டுநர் மீது காவல்துறை என்ன நடவடிக்கை எடுக்கிறது என்பது கவனிக்கத்தக்கது.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "The Hindu TN",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "crime",
+  "entities": [
+   "தஞ்சாவூர்",
+   "திருவையாறு அரசு மருத்துவமனை",
+   "லாரி",
+   "இருசக்கர வாகனம்",
+   "காவல்துறை"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Woman, two minor sons killed as lorry rams scooter in Thanjavur",
+   "lines": [
+    "A lorry coming from the opposite direction near Thanjavur rammed a scooter carrying a woman and her three sons.",
+    "The woman and one of her sons were killed on the spot in the accident.",
+    "Another son died while being taken to the hospital.",
+    "A third son who was injured is undergoing treatment at the Government Hospital in Thiruvaiyaru.",
+    "Police have registered a case and are investigating the lorry involved in the accident."
+   ],
+   "closing": "It remains to be seen what action police will take against the lorry driver."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": false,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source"
+  ],
+  "id": "22da24ccb245",
+  "topic_ta": "சட்டம் ஒழுங்கு",
+  "published_at": "2026-11-22T17:38+05:30",
+  "links": [
+   "https://www.thehindu.com/news/cities/Tiruchirapalli/woman-two-minor-sons-killed-as-lorry-rams-scooter-in-thanjavur/article71730946.ece"
+  ],
+  "image": {
+   "url": "data/bank/crime16.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/22da24ccb245.mp3",
+  "created_ts": 1795349322.6731982,
+  "status": "published"
+ },
+ {
   "id": "jobs_20261122",
   "headline": "இன்றைய வேலை அறிவிப்புகள் — 9 · அரசு & தனியார்",
   "lines": [
@@ -18526,571 +19066,6 @@
   },
   "audio": "data/audio/c6a88938b538.mp3",
   "created_ts": 1794531230.2664955,
-  "status": "published"
- },
- {
-  "headline": "எண்விடியா நிறுவனத் தலைவர் ஜென்சன் ஹுவாங் பதவி விலகல், சீன உளவாளி தொடர்பு குற்றச்சாட்டு",
-  "lines": [
-   "செயற்கை நுண்ணறிவு சிப் தயாரிப்பில் முன்னணியில் உள்ள எண்விடியா நிறுவனத்தின் தலைமை நிர்வாக அதிகாரி ஜென்சன் ஹுவாங் பதவி விலகியுள்ளார்.",
-   "இதனால் உலகின் முன்னணி செயற்கை நுண்ணறிவு சிப் தயாரிப்பு நிறுவனம் பெரும் குழப்பத்தில் சிக்கியுள்ளது.",
-   "அமெரிக்க நாடாளுமன்ற உறுப்பினர்கள் அவரை விசாரிக்க விரும்புவதாக அறிவிக்கப்பட்டுள்ளது.",
-   "ஹுவாங்கின் தொடர்புகளில் ஒன்று சீன உளவாளியுடன் இருந்ததாக குற்றச்சாட்டு எழுப்பப்பட்டுள்ளது.",
-   "இந்த விவகாரம் தொடர்பாக மேலும் விசாரணை நடைபெறும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்தக் குற்றச்சாட்டுகள் தொடர்பாக எண்விடியா நிறுவனமோ ஜென்சன் ஹுவாங்கோ இதுவரை அதிகாரப்பூர்வமாக எந்தப் பதிலும் அளிக்கவில்லை.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "எண்விடியா",
-   "ஜென்சன் ஹுவாங்",
-   "அமெரிக்க நாடாளுமன்றம்",
-   "சீனா",
-   "செயற்கை நுண்ணறிவு"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Nvidia CEO Jensen Huang resigns amid Chinese spy allegation scandal",
-   "lines": [
-    "Jensen Huang, chief executive of leading AI chipmaker Nvidia, has stepped down from his position.",
-    "The resignation has thrown the world's top AI chipmaking company into major turmoil.",
-    "Reports indicate that members of the US Congress wish to question him.",
-    "Allegations have surfaced that one of Jensen Huang's contacts was a Chinese spy.",
-    "Further investigation into the matter is expected to take place."
-   ],
-   "closing": "Neither Nvidia nor Jensen Huang has officially responded to these allegations so far.",
-   "closing_type": "watch"
-  },
-  "id": "ea7faee11632",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "உலகம்",
-  "published_at": "2026-11-13T06:22+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "data/bank/world08.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/ea7faee11632.mp3",
-  "created_ts": 1794531181.559259,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "திணகரன், சசிகலா மீண்டும் இணைவு பேச்சை பழனிசாமி மறுப்பு",
-  "lines": [
-   "அதிமுக ஒருங்கிணைந்த செயலாளர் எடப்பாடி கே.பழனிசாமி ஒரு முக்கிய அறிக்கையை வெளியிட்டார்.",
-   "டி.டி.வி.திருமாவளவன் மற்றும் சசிகலா மீண்டும் அதிமுகவில் இணைக்கப்படுவார்கள் என்ற பேச்சுகளை அவர் நிராகரித்தார்.",
-   "இது குறித்து அண்மையில் அரசியல் வட்டாரங்களில் பல்வேறு ஊகங்கள் பரவி வந்தன.",
-   "கட்சியின் தற்போதைய நிலைப்பாட்டில் எவ்வித மாற்றமும் இல்லை என்று அவர் தெளிவுபடுத்தினார்.",
-   "இந்த விவகாரம் தொடர்பாக அதிமுக தரப்பில் மேலும் விளக்கம் வெளிவரும் எனக் கருதப்படுகிறது."
-  ],
-  "closing": "இந்தப் பேச்சுகளுக்கான காரணம் என்ன என்பது குறித்து இதுவரை தெளிவான அதிகாரப்பூர்வ விளக்கம் வெளியிடப்படவில்லை.",
-  "closing_type": "question",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "எடப்பாடி கே.பழனிசாமி",
-   "டி.டி.வி.தினகரன்",
-   "சசிகலா",
-   "அதிமுக"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "Palaniswami denies talk of Dhinakaran, Sasikala rejoining AIADMK",
-   "lines": [
-    "AIADMK coordinator Edappadi K Palaniswami issued a key statement on the matter.",
-    "He rejected speculation that T T V Dhinakaran and Sasikala would be readmitted into the party.",
-    "Various rumours had been circulating in political circles about this issue recently.",
-    "He clarified that there was no change in the party's current stance.",
-    "Further clarification from the AIADMK leadership on this matter is expected."
-   ],
-   "closing": "No official clarification has yet been issued on what prompted this speculation."
-  },
-  "front_cat": "routine",
-  "image_query": "Edappadi K Palaniswami",
-  "wiki_subject": "Edappadi K. Palaniswami",
-  "person_en": "Edappadi K Palaniswami",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "084ff1db969b",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-13T01:37+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/palaniswami-rejects-speculation-of-dhinakaran-sasikala-being-readmitted-into-aiadmk/article71694996.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/K._Palaniswami.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Edappadi K. Palaniswami",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Edappadi_K._Palaniswami",
-   "symbolic": false
-  },
-  "audio": "data/audio/084ff1db969b.mp3",
-  "created_ts": 1794514039.6379707,
-  "status": "published"
- },
- {
-  "headline": "சீர்காழி அரசு மருத்துவமனையில் பெண் உயிரிழப்பு, உறவினர்கள் சாலை மறியல்",
-  "lines": [
-   "சீர்காழி அரசு மருத்துவமனையில் சிகிச்சைக்காக அனுமதிக்கப்பட்ட பெண் ஒருவர் உயிரிழந்தார்.",
-   "தவறான சிகிச்சையால் இந்த உயிரிழப்பு நேர்ந்ததாக உறவினர்கள் குற்றம் சாட்டியுள்ளனர்.",
-   "இதைக் கண்டித்து உறவினர்கள் மருத்துவமனை அருகே சாலையில் மறியல் நடத்தினர்.",
-   "சம்பவம் தொடர்பாக மருத்துவமனை நிர்வாகத்தின் அதிகாரப்பூர்வ விளக்கம் இதுவரை வெளியிடப்படவில்லை.",
-   "காவல் துறையினர் இடம் சென்று உறவினர்களிடம் பேச்சுவார்த்தை நடத்தி நிலைமையைக் கட்டுப்படுத்தினர்."
-  ],
-  "closing": "தவறான சிகிச்சை குற்றச்சாட்டு தொடர்பாக அதிகாரப்பூர்வ விசாரணை நடைபெறுமா என்பது கவனிக்கப்பட வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "சீர்காழி",
-   "அரசு மருத்துவமனை",
-   "உறவினர்கள்",
-   "காவல் துறை"
-  ],
-  "confidence": 0.45,
-  "en": {
-   "headline": "Woman dies at Sirkazhi government hospital, kin block road",
-   "lines": [
-    "A woman admitted for treatment at the Sirkazhi government hospital died.",
-    "Relatives allege that improper treatment led to her death.",
-    "Protesting the death, relatives staged a road blockade near the hospital.",
-    "Hospital authorities have not yet issued an official response regarding the incident.",
-    "Police arrived at the spot and held talks with the relatives to bring the situation under control."
-   ],
-   "closing": "It remains to be seen whether an official inquiry will be ordered into the negligence allegations."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "ஊர்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "388a66de4087",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-13T01:35+05:30",
-  "links": [
-   "https://www.dinamani.com/all-editions/edition-nagapattinam/mayiladuthurai/2026/Nov/12/woman-dies-after-seeking-treatment-at-sirkazhi-government-hospital-relatives-stage-road-blockade"
-  ],
-  "image": {
-   "url": "data/bank/crime01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/388a66de4087.mp3",
-  "created_ts": 1794513946.964102,
-  "status": "published"
- },
- {
-  "headline": "செந்தில் பாலாஜி வழக்கு: நீதிமன்றம் தாமதத்துக்கு எச்சரிக்கை",
-  "lines": [
-   "தமிழ்நாடு முன்னாள் அமைச்சர் செந்தில் பாலாஜி மீதான வழக்கு விசாரணையில் ஏற்பட்டுள்ள தாமதம் குறித்து நீதிமன்றம் கவலை தெரிவித்துள்ளது.",
-   "வழக்கை தேவையின்றி இழுத்தடிக்க அனுமதிக்க முடியாது என்று நீதிமன்றம் தெளிவாக எச்சரித்துள்ளது.",
-   "விசாரணையை விரைவாக முடிக்க வேண்டும் என்று நீதிமன்றம் சம்பந்தப்பட்டவர்களுக்கு உத்தரவிட்டுள்ளது.",
-   "இந்த வழக்கு தொடர்பாக முன்னதாகவும் நீதிமன்றத்தில் பல்வேறு கட்டங்களில் விசாரணை நடைபெற்று வந்துள்ளது.",
-   "அடுத்த விசாரணை எப்போது நடைபெறும் என்பது குறித்து தெளிவான தகவல் இன்னும் வெளியாகவில்லை."
-  ],
-  "closing": "இந்த எச்சரிக்கைக்குப் பிறகு வழக்கு விசாரணையில் என்ன வேகம் ஏற்படும் என்பது கவனிக்கத்தக்கது.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "Dinamani TN",
-    "doc": null,
-    "date": "2026-11-13"
-   }
-  ],
-  "topic": "court",
-  "entities": [
-   "செந்தில் பாலாஜி",
-   "நீதிமன்றம்",
-   "தமிழ்நாடு"
-  ],
-  "confidence": 0.35,
-  "en": {
-   "headline": "Court warns against delay in Senthil Balaji case"
-  },
-  "id": "424f5b14d93c",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "நீதிமன்றம்",
-  "published_at": "2026-11-13T01:33+05:30",
-  "links": [
-   "https://www.dinamani.com/tamilnadu/2026/Nov/12/case-against-senthil-balaji-court-warns-not-allow-the-case-to-be-dragged-out"
-  ],
-  "image": {
-   "url": "data/bank/court01.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/424f5b14d93c.mp3",
-  "created_ts": 1794513827.4369986,
-  "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "தனியார் பள்ளி லஞ்ச வழக்கில் முன்னாள் எம்எல்ஏ முத்துக்குமாருக்கு ஐந்து நாள் காவல்",
-  "lines": [
-   "தனியார் பள்ளி லஞ்ச வழக்கில் முன்னாள் சட்டமன்ற உறுப்பினர் முத்துக்குமாரை ஐந்து நாள் காவல் துறை காவலில் வைக்க நீதிமன்றம் அனுமதி அளித்தது.",
-   "ஆயிரத்திற்கும் மேற்பட்ட தனியார் பள்ளிகளிடமிருந்து நிரந்தர அங்கீகாரம் உள்ளிட்ட அனுமதிகளுக்காக பணம் வசூலிக்கப்பட்டதாக புகார் கூறுகிறது.",
-   "முந்தைய திமுக ஆட்சிக் காலத்தில் இந்த பணம் வசூல் நடந்ததாக தனியார் பள்ளிகள் சங்கம் அளித்த புகாரின் பேரில் வழக்கு பதிவு செய்யப்பட்டது.",
-   "இந்த புகாரின் அடிப்படையில் காவல் துறை முறையான விசாரணை நடத்தி வருவதாக அதிகாரிகள் தெரிவித்தனர்.",
-   "ஐந்து நாள் காவலில் விரிவான விசாரணை நடத்தி மேலும் தகவல்களை சேகரிக்க காவல் துறை திட்டமிட்டுள்ளது."
-  ],
-  "closing": "முந்தைய திமுக ஆட்சிக் காலத்தில் தனியார் பள்ளிகளுக்கு அங்கீகாரம் வழங்கியதில் முறைகேடுகள் நடந்ததாக தனியார் பள்ளிகள் சங்கம் புகார் அளித்தபின்பே இந்த வழக்கு பதிவு செய்யப்பட்டது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "முத்துக்குமார்",
-   "திமுக",
-   "தனியார் பள்ளிகள் சங்கம்",
-   "காவல் துறை"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Ex-MLA Muthukumar gets five-day custody in private school bribery case",
-   "lines": [
-    "A court granted police five-day custody of former MLA Muthukumar in a private school bribery case.",
-    "The complaint alleges that money was collected from more than 1,000 private schools for permanent recognition and other permissions.",
-    "A private schools association filed a complaint stating the collections took place during the previous DMK government, leading to the case being registered.",
-    "Police said they are conducting a thorough investigation based on the complaint.",
-    "Police plan to question the former MLA further during the five-day custody to gather more information."
-   ],
-   "closing": "The case was registered after a private schools association complained of irregularities in granting recognition to private schools during the previous DMK regime."
-  },
-  "front_cat": "scam_expose",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source",
-   "unverified_claim"
-  ],
-  "id": "8a5fe833fd46",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-13T01:32+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/police-get-five-day-custody-of-ex-mla-muthukumar-in-private-school-bribery-case/article71693294.ece"
-  ],
-  "image": {
-   "url": "data/bank/crime16.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/8a5fe833fd46.mp3",
-  "created_ts": 1794513755.1425774,
-  "status": "published"
- },
- {
-  "headline": "அவநம்பிக்கைத் தீர்மானத்தை எதிர்கொள்ளத் தயார் - அமைச்சர் செங்கோட்டையன்",
-  "lines": [
-   "உள்ளாட்சித் தேர்தல் நடத்துவது குறித்து அமைச்சர் செங்கோட்டையன் செய்தியாளர்களிடம் பேசினார்.",
-   "நகர்ப்பஞ்சாயத்திகளின் தற்போதைய பதவிக்காலம் பிப்ரவரி மாதம் வரை தொடரும் என்று அவர் தெரிவித்தார்.",
-   "அதற்குப் பிறகு தேவையான நடவடிக்கைகளை அரசு மேற்கொள்ளும் என்றும் அவர் கூறினார்.",
-   "அவநம்பிக்கைத் தீர்மானம் தொடர்பான கேள்விக்குப் பதிலளித்த அவர், அரசு அதை எதிர்கொள்ளத் தயாராக உள்ளது என்றார்.",
-   "உள்ளாட்சித் தேர்தல் தேதி குறித்த விரிவான அறிவிப்பு எதிர்வரும் நாட்களில் வெளியாகலாம் என்று கருதப்படுகிறது."
-  ],
-  "closing": "நகர்ப்பஞ்சாயத்திகள் உள்ளிட்ட உள்ளாட்சி அமைப்புகளின் பதவிக்காலம் முடிவடையும் தேதி நெருங்கும் நிலையில் அடுத்த கட்ட நடவடிக்கைகள் என்ன என்பது கவனிக்கப்பட வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "செங்கோட்டையன்",
-   "பேரூராட்சி",
-   "உள்ளாட்சித் தேர்தல்",
-   "தமிழ்நாடு அரசு"
-  ],
-  "confidence": 0.6,
-  "en": {
-   "headline": "Government ready to face no-confidence motion, says Minister Sengottaiyan",
-   "lines": [
-    "Minister Sengottaiyan spoke to reporters regarding the conduct of local body elections.",
-    "He stated that the tenure of town panchayats would continue until February.",
-    "He said the government would take appropriate action after that period.",
-    "Responding to a question on the no-confidence motion, he said the government is ready to face it.",
-    "A detailed announcement on the local body election date is expected to be made in the coming days."
-   ],
-   "closing": "As the tenure of local bodies including town panchayats nears its end, the next course of action remains to be watched."
-  },
-  "front_cat": "routine",
-  "image_query": "",
-  "wiki_subject": "",
-  "person_en": "Sengottaiyan",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "6d1cae10c816",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-13T01:31+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/government-ready-to-face-no-confidence-motion-says-minister-sengottaiyan/article71693150.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/K.A._Sengottaiyan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · K. A. Sengottaiyan",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/K._A._Sengottaiyan",
-   "symbolic": false
-  },
-  "audio": "data/audio/6d1cae10c816.mp3",
-  "created_ts": 1794513670.472445,
-  "status": "published"
- },
- {
-  "headline": "ஏ2பி பெரும்பான்மைப் பங்கு போதி ட்ரீக்கு 180 மில்லியன் டாலர் ஒப்பந்தத்தில் விற்பனை",
-  "lines": [
-   "சென்னையை தளமாகக் கொண்ட பிரபலமான உணவக நிறுவனமான ஏ2பி பெரும்பான்மைப் பங்குகளை போதி ட்ரீ நிறுவனம் வாங்கியுள்ளது.",
-   "இந்த ஒப்பந்தத்தின் மதிப்பு 180 மில்லியன் டாலர் என ஒரு மூலம் தெரிவிக்கிறது.",
-   "இந்த ஒப்பந்தத்தின் அடிப்படையில் ஏ2பி நிறுவனத்தின் மொத்த மதிப்பு 350 மில்லியன் டாலராக மதிப்பிடப்பட்டுள்ளது.",
-   "இந்த விவரத்தை உறுதிப்படுத்தும் அதிகாரப்பூர்வ அறிக்கை நிறுவனங்களிடமிருந்து இதுவரை வெளியிடப்படவில்லை.",
-   "ஒப்பந்தம் தொடர்பான கூடுதல் விவரங்கள் விரைவில் வெளியாகும் என எதிர்பார்க்கப்படுகிறது."
-  ],
-  "closing": "இந்த ஒப்பந்தத்தின் மதிப்பு குறித்த தகவல் ஒரு தரப்பு மூலத்தை அடிப்படையாகக் கொண்டது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": "2026-11-13"
-   }
-  ],
-  "topic": "economy",
-  "entities": [
-   "அடையார் ஆனந்த பவன்",
-   "போதி ட்ரீ",
-   "சென்னை",
-   "தமிழ்நாடு",
-   "180 மில்லியன் டாலர்"
-  ],
-  "confidence": 0.55,
-  "en": {
-   "headline": "A2B sells majority stake to Bodhi Tree in 180 million dollar deal",
-   "lines": [
-    "Chennai-based popular restaurant chain A2B, Adyar Ananda Bhavan, has sold its majority stake to Bodhi Tree.",
-    "The deal is reported to be worth 180 million dollars.",
-    "Based on this deal, A2B's total valuation is estimated at 350 million dollars, according to a source.",
-    "No official statement confirming these details has been released by the companies so far.",
-    "Further details about the deal are expected to be made public soon."
-   ],
-   "closing": "The Hindu report notes that the valuation figure is based on information from a single source."
-  },
-  "front_cat": "big_project",
-  "image_query": "Adyar Ananda Bhavan restaurant chennai",
-  "wiki_subject": "Adyar Ananda Bhavan",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "9d648322de9c",
-  "topic_ta": "பொருளாதாரம்",
-  "published_at": "2026-11-13T01:29+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/a2b-secures-180-million-investment-from-james-murdoch-uday-shankar-backed-bodhi-tree/article71694799.ece"
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8a/Adyar_Ananda_Bhavan.svg/250px-Adyar_Ananda_Bhavan.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "credit": "விக்கிமீடியா · Adyar Ananda Bhavan",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Adyar_Ananda_Bhavan",
-   "symbolic": false
-  },
-  "audio": "data/audio/9d648322de9c.mp3",
-  "created_ts": 1794513551.0741363,
-  "status": "published"
- },
- {
-  "headline": "குறைந்த மாணவர் சேர்க்கை காரணமாக அரசுப் பள்ளி மூடப்படாது - அமைச்சர் ராஜ்மோகன்",
-  "lines": [
-   "தமிழ்நாட்டில் மாணவர் சேர்க்கை குறைவாக இருப்பதால் எந்த அரசுப் பள்ளியும் மூடப்பட மாட்டாது என அமைச்சர் ராஜ்மோகன் தெரிவித்தார்.",
-   "அரசுப் பள்ளிகளை மூடுவது தொடர்பாக எழுந்த கவலைகளுக்கு பதிலளிக்கும் வகையில் அமைச்சர் இந்த அறிக்கையை வெளியிட்டார்.",
-   "குறைந்த மாணவர் எண்ணிக்கை உள்ள பள்ளிகளையும் தொடர்ந்து இயங்க வைப்பதே அரசின் கொள்கை என அவர் உறுதிளித்தார்.",
-   "பள்ளிக் கல்வித் துறை தொடர்பான இந்த உறுதிமொழி மாணவர்கள் மற்றும் பெற்றோர் மத்தியில் நம்பிக்கையை ஏற்படுத்தும் என எதிர்பார்க்கப்படுகிறது.",
-   "அரசின் இந்த அறிவிப்பு தொடர்பான மேலும் விரிவான வழிகாட்டுதல்கள் பள்ளிக் கல்வித் துறையிடமிருந்து எதிர்வரும் நாட்களில் வெளியாக வாய்ப்புள்ளது."
-  ],
-  "closing": "அரசுப் பள்ளிகளை மூடுவது தொடர்பான கவலைகள் முன்பு பல்வேறு தரப்பினரால் எழுப்பப்பட்ட நிலையில் இந்த அறிக்கை வெளியாகியுள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "tn",
-  "entities": [
-   "தமிழ்நாடு அரசு",
-   "அரசுப் பள்ளிகள்",
-   "அமைச்சர் ராஜ்மோகன்",
-   "பள்ளிக் கல்வித் துறை"
-  ],
-  "confidence": 0.4,
-  "en": {
-   "headline": "No government school to close over low enrolment, says Minister Rajmohan",
-   "lines": [
-    "Minister Rajmohan stated that no government school in Tamil Nadu will be closed due to low student enrolment.",
-    "The announcement came in response to concerns raised about the closure of government schools.",
-    "He assured that even schools with low enrolment numbers will continue to operate under government policy.",
-    "This assurance related to the school education department is expected to bring confidence among students and parents.",
-    "Further detailed guidelines on this announcement are likely to be issued by the school education department in the coming days."
-   ],
-   "closing": "The statement comes amid earlier concerns raised by various sections over the possible closure of government schools."
-  },
-  "front_cat": "routine",
-  "image_query": "Rajmohan Tamil Nadu minister",
-  "wiki_subject": "",
-  "person_en": "Rajmohan",
-  "urgent": false,
-  "affected": "மாநிலம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "4fc042890699",
-  "topic_ta": "தமிழ்நாடு",
-  "published_at": "2026-11-13T01:28+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/no-government-school-will-be-closed-due-to-low-enrolment-minister-rajmohan/article71694175.ece"
-  ],
-  "image": null,
-  "audio": "data/audio/4fc042890699.mp3",
-  "created_ts": 1794513495.924058,
-  "status": "published"
- },
- {
-  "headline": "கிருஷ்ணகிரியில் தொழிற்சாலை தொட்டியில் மூவர் மூச்சுத் திணறி பலி",
-  "lines": [
-   "கிருஷ்ணகிரி மாவட்டம் ராயக்கோட்டை அருகே வண்ணியப்பூரத்தில் உள்ள டாடா எலக்ட்ரானிக்ஸ் மேரிகோல்ட் தொழிற்சாலையில் நவம்பர் 9, 2026 அன்று மூன்று தொழிலாளர்கள் மூச்சுத் திணறி உயிரிழந்தனர்.",
-   "நானோ வடிகட்டும் தொட்டியை சுத்தம் செய்யும் பராமரிப்புப் பணியில் ஈடுபட்டிருந்தபோது இந்தச் சம்பவம் நடந்தது.",
-   "தொழிலாளர் சங்கமான சிஐடியு இந்தச் சம்பவத்தில் டாடா எலக்ட்ரானிக்ஸ் நிறுவனத்தின் பங்கு குறித்து விசாரணை நடத்த வேண்டும் என கோரிக்கை விடுத்துள்ளது.",
-   "பாதுகாப்பு ஏற்பாடுகள் இல்லாமல் தொழிலாளர்களை மூடிய தொட்டிக்குள் இறக்கியது குறித்து கேள்விகள் எழுந்துள்ளன.",
-   "சம்பவம் தொடர்பாக காவல்துறை வழக்கு பதிவு செய்து விசாரணை நடத்தி வருகிறது."
-  ],
-  "closing": "சிஐடியு கோரிக்கையின் பேரில் அதிகாரிகள் விசாரணையை எவ்வாறு முன்னெடுக்கிறார்கள் என்பதைக் கவனிக்க வேண்டும்.",
-  "closing_type": "watch",
-  "sources": [
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": "2026-11-13"
-   },
-   {
-    "name": "The Hindu TN",
-    "doc": null,
-    "date": "2026-11-13"
-   }
-  ],
-  "topic": "crime",
-  "entities": [
-   "டாடா எலக்ட்ரானிக்ஸ்",
-   "மேரிகோல்ட் தொழிற்சாலை",
-   "கிருஷ்ணகிரி",
-   "ராயக்கோட்டை",
-   "சிஐடியு"
-  ],
-  "confidence": 0.75,
-  "en": {
-   "headline": "Three workers die of asphyxiation in Krishnagiri factory tank",
-   "lines": [
-    "Three workers died of asphyxiation on November 9 at the Tata Electronics Marigold plant in Vanniyapuram near Rayakottai in Krishnagiri district.",
-    "The incident occurred while they were carrying out maintenance and cleaning work inside a nano-filtration feed tank.",
-    "The trade union CITU has demanded an inquiry into the role of Tata Electronics in the deaths.",
-    "Questions have been raised over workers being sent into the enclosed tank without adequate safety measures.",
-    "Police have registered a case and are investigating the incident."
-   ],
-   "closing": "How authorities proceed with the inquiry following CITU's demand remains to be seen."
-  },
-  "front_cat": "mass_casualty",
-  "image_query": "",
-  "wiki_subject": "Tata Electronics",
-  "person_en": "",
-  "urgent": false,
-  "affected": "மாவட்டம்",
-  "flags": [
-   "single_source"
-  ],
-  "id": "d1858c4820b2",
-  "topic_ta": "சட்டம் ஒழுங்கு",
-  "published_at": "2026-11-13T01:26+05:30",
-  "links": [
-   "https://www.thehindu.com/news/national/tamil-nadu/citu-seeks-inquiry-into-role-of-tata-electronics-as-principal-employer-in-death-of-three-workers-due-to-asphyxiation/article71690628.ece",
-   "https://www.thehindu.com/news/national/tamil-nadu/three-workers-die-of-asphyxiationin-krishnagiri/article71683560.ece"
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bombay_house_mast.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "credit": "விக்கிமீடியா · Tata Group",
-   "license": "CC / பொதுச் சொத்து",
-   "page": "https://en.wikipedia.org/wiki/Tata_Group",
-   "symbolic": false
-  },
-  "audio": "data/audio/d1858c4820b2.mp3",
-  "created_ts": 1794513404.0386643,
   "status": "published"
  }
 ]

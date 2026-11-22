@@ -1,22 +1,22 @@
-[expire] 1ec6088ef76c
+[expire] 1395438f28a7
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 13 புதியவை
+[fetch] ET Markets: 20 புதியவை
 [fetch] MoneyControl: 0 புதியவை
 [fetch] The Hindu TN: 16 புதியவை
-[fetch] Dinamani TN: 20 புதியவை
-[fetch] BBC Tamil: 10 புதியவை
-[fetch] BBC World: 20 புதியவை
-[fetch] Al Jazeera: 20 புதியவை
-[fetch] ESPNcricinfo: 20 புதியவை
+[fetch] Dinamani TN: 21 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 9 புதியவை
+[fetch] Al Jazeera: 22 புதியவை
+[fetch] ESPNcricinfo: 17 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 8 புதியவை
+[fetch] The Hindu Cinema: 3 புதியவை
 [fetch] Cinema Express: 30 புதியவை
-[fetch] The Hindu Tech: 27 புதியவை
+[fetch] The Hindu Tech: 19 புதியவை
 [fetch] Wired: 30 புதியவை
 [fetch] Employment News: 0 புதியவை
 [fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 17 புதியவை
-[fetch] The Hindu Agriculture: 0 புதியவை
+[fetch] The Hindu Health: 16 புதியவை
+[fetch] The Hindu Agriculture: 1 புதியவை
 [fetch] FreeJobAlert: 9 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 1 புதியவை
@@ -30,14 +30,14 @@
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
 [fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 22 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 22 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -57,82 +57,76 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7296eef01610>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 22 புதியவை
-[fetch] Dinamani Govt: 20 புதியவை
-[fetch] Times Govt Schemes: 14 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x786b67dd1490>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 21 புதியவை
+[fetch] Times Govt Schemes: 12 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 29 புதியவை
+[fetch] TN Police News: 28 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 618 → நிகழ்வுகள் 578
-[triage] 578 → 54 | காலி: india:4, govt:4, world:3, crime:3, health:3
-[skip] வெளிநாட்டுத் தொடர் — ஆஸ்திரேலியா vs இங்கிலாந்து T20 சாதாரண த
-[skip] கேரளாவின் உள்ளூர் நிபந்தனை. தமிழ்நாட்டு வாசகரைப் பாதிக்கும் 
-[skip] வெளிநாட்டுப் படம் — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்வ
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChHH8rnrfrp92Kfx58edk'}
-[tts-edge] f152d2776513: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] நைஜீரியாவில் இறுதிச்சடங்கு படகு கவிழ்ந்து 24 பேர் பலி
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChHHF5vHzpeqf6zmJAPwR'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChHHJJnnGgqR5CyjzAfR4'}
-[skip] வெளிநாட்டுத் தரப்பிற்கிற்கிடையான இராணுவ மோதல். தமிழ்நாட்டு/இ
-[skip] வெளிநாட்டுக் உள்நாட்டு அரசியல் — ডেনমার্ক-রஷ்யா-அமெரிக்கா வி
-[skip] வெளிநாட்டுச் மோதல் — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்
-[skip] பிரான்சின் உள்ளூர் அரசியல் மற்றும் போராட்டம் — தமிழ்நாடு/இந்
-[skip] உலக அளவில் முக்கியமான செய்திக்குத் தமிழ்நாட்டு/இந்திய வாசகரி
-[skip] ஈரான் மற்றும் அமெரிக்கா இடையான பொருளாதாரப் போர் பற்றிய உள்ளூ
-[skip] வெளிநாட்டுத் தரப்பிற்கிடையேயான இராணுவ மோதல். தமிழ்நாட்டு/இந்
-[skip] வெளிநாட்டுப் போர்க் கொள்ளை நிகழ்வு — தமிழ்நாட்டு/இந்திய வாசக
-[skip] வெளிநாட்டுக் கூட்டுறவு நடவடிக்கை — தமிழ்நாட்டு/இந்திய வாசகரி
-[skip] அமெரிக்கத் தொழில்நுட்ப அமலாக்கத் துறையின் உள்நாட்டு சைபர் நி
+[run] புதியவை 625 → நிகழ்வுகள் 580
+[triage] 580 → 53 | காலி: india:4, cinema:3, sports:3, world:2, govt:2
+[skip] தெలుங்கு சினிமா — தமிழ்நாட்டு வாசகரின் முதல் முன்னுரிமை அல்ல
+[skip] Durham cricket club (England county cricket) — தமிழ்நாடு அல்
+[image] களஞ்சியம் (2 சொல்): தஞ்சாவூரில் லாரி மோதி பெண் உள்பட ம
+[tts-edge] 22da24ccb245: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] தஞ்சாவூரில் லாரி மோதி பெண் உள்பட மூவர் பலி
+[skip] உலக செய்திக் குறிப்பாக வகைப்படுத்தப்பட்ட திருப்பரங்குன்றம் (
+[skip] உலக நிகழ்வு — தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்கவில்லை. உள்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChHwZvKYVWbWE3YEbXWjb'}
+[skip] உலக நிகழ்வு — இந்தோனேசியாவின் உள்ளூர் விபத்து. தமிழ்நாட்டு/இ
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChHwckZFukAAJMgpRYddw'}
+[skip] மெக்சிகோவில் நடந்த உள்நாட்டு குற்றச் சம்பவம். தமிழ்நாடு/இந்த
+[திருத்தம்] காவிரி மனுக்கள் தள்ளுபடி: முதல்வருக்கு த → காவிரி மனுக்கள் தள்ளுபடி: முதல்வருக்கு த
+[tts-edge] f6f1b205ce35: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காவிரி மனுக்கள் தள்ளுபடி: முதல்வருக்கு தெரியாதா என எடப்பாடி கே.பழனிசாமி விமர்சனம்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது; திருப்பரங்குன
+[திருத்தம்] கள்ளக்குறிச்சி எம்எல்ஏ விவகாரத்தில் முதல → கள்ளக்குறிச்சி எம்எல்ஏ விவகாரத்தில் முதல
+[publish] கள்ளக்குறிச்சி எம்எல்ஏ விவகாரத்தில் முதல்வர் மௌனம், தினகரன் கேள்வி
+[skip] தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, முழு உள்ளடக்கம் இல்லை; 
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChHwukWVqT5YM6xNw3pHE'}
+[image] களஞ்சியம் (3 சொல்): ரயிலில் பெண் சடலம் மீட்பு வழக்கு: 
+[publish] ரயிலில் பெண் சடலம் மீட்பு வழக்கு: அறிக்கை கோரி டிஜிபிக்கு மகளிர் ஆணையம் உத்தரவு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChHx29DuaDVVsFWLvM3Zr'}
+[skip] தமிழ்நாட்டுச் செய்தி — world என குறிப்பிடப்பட்டுள்ளது ஆனால் 
+[skip] தென்கொரியாவின் உள்ளூர் கல্விக் கொள்கைச் சர்ச்சை. தமிழ்நாடு அ
+[skip] உலக நிகழ்வு — தமிழ்நாட்டு வாசகரைப் நேரடியாகப் பாதிக்கவில்லை.
+[skip] உலக நிகழ்வு — ரஷ்ய-உக்ரைன் போர் தொடர்பான கப்பல் சம்பவம். இது
+[skip] வெளிநாட்டுத் தொலிநிலப் போர்ச்செய்தி — தமிழ்நாட்டு/இந்திய வாச
+[skip] சூடான் பிரச்சினை தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்வைப்
+[skip] வெளிநாட்டுத் தட்டுவளவான காலநிலை உடன்பாடு — தமிழ்நாட்டு/இந்தி
+[திருத்தம்] வேலுமணி கருத்துக்கு பழனிசாமி பதில் - மீள → இரண்டு கோடி தொண்டர்கள் உங்களை பொதுச்செயல
+[publish] இரண்டு கோடி தொண்டர்கள் உங்களை பொதுச்செயலாளர் ஆக்கினர்; அவர்களின் குரல் புறக்கணிக்க முடியாது: வேலுமணி பழனிசாமிக்கு
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியின் விவரங்கள் (சம்ப
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; சம்பவம் எப்போது நடந்தது, ப
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChHxE8Gx7KQDBmexrDRTM'}
+[image] களஞ்சியம் (2 சொல்): ராமநாதபுரத்தில் சுகாதாரத் தொழிலாளர
+[publish] ராமநாதபுரத்தில் சுகாதாரத் தொழிலாளர்கள் நிரந்தரப் பணிக்கோரி போராட்டம்
+[திருத்தம்] நெல் கொள்முதல் கைவிடப்படுகிறதா? அன்புமணி → நெல் கொள்முதல் கைவிடப்படுகிறதா? அன்புமணி
+[publish] நெல் கொள்முதல் கைவிடப்படுகிறதா? அன்புமணி ராமதாஸ் கண்டனம்
+[skip] இது ஜம்மு காஷ்மீர் மாநில சேவை தேர்வாணையத்தின் உள்ளூர் தேர்வு
+[skip] இது உத்தரப் பிரதேச மாநில அரசியல் கூட்டணி பேச்சுவார்த்தை தொடர
+[திருத்தம்] ஷாங்காய் ஒத்துழைப்பு அமைப்பு நிகழ்வில் ப → ஷாங்காய் ஒத்துழைப்பு அமைப்பு நாகரிக உரைய
+[publish] ஷாங்காய் ஒத்துழைப்பு அமைப்பு நாகரிக உரையாடல்: பாகிஸ்தான் அழைப்பு — விருப்பங்கள் திறந்திருப்பதாக அதிகாரிகள்
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] ead2e2703c19: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] வாக்காளர் பட்டியலில் பெயர் சேர்க்க, திருத்த சிறப்பு வாய்ப்பு
-[தரம்] தமிழ் அல்லாத எழுத்து: गभভা → ஒரு திருத்தம்
-[publish] சபரிமலை பக்தர்களுக்காக தமிழகம் வழியாக சிறப்பு ரயில்கள்
-[திருத்தம்] சென்னை பன்னாட்டு புத்தகத் திருவிழா ஜனவரி → சென்னை பன்னாட்டு புத்தகத் திருவிழா ஜனவரி
-[publish] சென்னை பன்னாட்டு புத்தகத் திருவிழா ஜனவரி 16-ஆம் தேதியில் தொடக்கம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChHHi5Zicm8DncK3EHwdy'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChHHp2KBKPqaBwN7ftwT7'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] உலக அளவிலான போர் செய்திகள் — தமிழ்நாட்டு வாசகரின் அன்றாட வாழ
-[skip] வெளிநாட்டுத் உள்ளூர் குற்றச் செய்தி — மெக்சிகோவின் உள்நாட்டு
-[skip] வெளிநாட்டு உள் அமலாக்கத் துறையின் தொழில்நுட்பச் சம்பவம். தமி
-[skip] அமெரிக்கா உள்நாட்டு குற்றவழக்கு — தமிழ்நாட்டு/இந்திய வாசகரைப
-[skip] அமெரிக்க அரச நிர்வாகக் குறிப்பாக இது தமிழ்நாட்டு/இந்திய வாசக
-[skip] வெளிநாட்டுத் தகவல் — பெரு நாட்டில் நடந்த சாধாரண நிலநடுக்கம்.
-[skip] வெளிநாட்டுச் குற்றவியல் வழக்கு — தமிழ்நாடு அல்லது இந்திய நிய
-[skip] தமிழ்நாட்டு/இந்திய வாசகரைப் பாதிக்கும் நேரடித் தொடர்பு இல்லை
-[skip] அமெரிக்கத் உள்நாட்டு அரசியல் — தமிழ்நாட்டு/இந்திய வாசகரைப் ப
-[publish] ராஜஸ்தான் கோட்டாவில் யாத்ரீகர் வாகன விபத்தில் ஒன்பது பேர் பலி
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] இது ஃபுஜிஃபிலம் நிறுவனத்தின் பெங்களூரு நகர விளம்பர நிகழ்வு த
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] राजस्थान में राजस्थान के कोटा में हुई सड़क दुर्घटना — तमिलना
+[skip] உணவு/சமையல் பாரம்பரியம் பற்றிய கலாச்சாரக் கட்டுரை — செய்திக்
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Heritage Calendar: The Indo-Saracenic structure 
-[skip] बिहार राज्य का स्थानीय शिक्षा नियुक्ति; तमिलनाडु पाठकों के ल
-[skip] வெளிநாட்டுச் செய்திப் பாணி — தமிழ்நாட்டு வாசகருக்குக் குறிப்
-[skip] வெளிநாட்டுத் தொடர் — ஆஸ்திரேலியா vs இங்கிலாந்து சர்வதேச T20.
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Municipal staff transfers to move online by Tami
-[திருத்தம்] பத்து லட்சம் டோசுகள்: பன்னிரண்டு மாதங்கள → ஒரு கோடி டோசுகள்: ஒன்பது மாதங்களில் கர்ப
-[தரம்] தமிழ் அல்லாத எழுத்து: हকష → ஒரு திருத்தம்
-[publish] ஒரு கோடி டோசுகள்: ஒன்பது மாதங்களில் கர்ப மற்றும் கர்ப்பப்பிண்ட புற்றுநோய் தடுப்பு சிறுமிகளுக்கு
-[skip] வெளிநாட்டுத் திரையுலக நிகழ்வு — கேரளாவின் ஆவணப்படக் குறிப்பு
-[skip] BSI (Botanical Survey of India) இந்திய அரசுத் துறை, ஆனால் இத
-[skip] வெளிநாட்டுக் நிறுவனத்தின் விளம்பரக் நிகழ்வு; தமிழ்நாட்டுக்கு
-[skip] வெளிநாட்டுத் தொடர் — நியூசிலாந்து அணிக்குப் பொருந்தாது. தமிழ
+[skip] வரலாற்றுச் குறிப்பு — தற்கால செய்திக் கூறுகள் இல்லை. கடம்பின
+[skip] மணிப்பூர் மாநிலத்தின் உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு. தமிழ்ந
+[skip] திரை விமர்சனம் — தமிழ்நாட்டு நாளிதழில் வெளியிடுவதில்லை. விமர
+[skip] பாகிஸ்தான் அணி ஸ்ரீலங்கா அணிக்கு எதிரான தொடரின் பிறகு நடிகர்
+[skip] ஜம்மு-காஷ்மீரின் உள்ளூர் தேர்வுத் தேவாலாய — தமிழ்நாட்டுக்கு 
 [மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: T.N. to set up Statewide online registry of volu
-[skip] மணिपुर் (Manipur) என்பது உத்திரபிரதேশ் மாநிலத்தைத் தொடர்ந்த 
-[skip] This is a film review article. According to guidelines, revi
-[skip] வெளிநாட்டுத் தலைமை அரசுகளின் இருதரப்புச் சந்திப்பு பற்றிய செ
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 9
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[skip] கேரளாவின் உள்ளூர் சுகாதார செய்தி. தமிழ்நாட்டுக்கு நேரடித் தொ
+[skip] வெளிநாட்டுத் திரைப்படம் (அமெரிக்கா), தமிழ்நாட்டு/இந்திய வாசக
+[skip] தென்னாப்பிரிக்கா-பাங்களாதேশ் இருதரப்புப் போட்டி. தமிழ்நாட்டு
+[filler] tech கட்டுரை
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
 [market] தங்கம் 22K ₹10753 · சென்செக்ஸ் 83920
 [weather] புதுப்பிக்கப்பட்டது
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
@@ -140,4 +134,4 @@
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 1 · எழுதியவை 6
+[done] feed 300 · pending 0 · எழுதியவை 8
