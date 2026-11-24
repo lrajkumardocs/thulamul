@@ -1,22 +1,22 @@
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 27 புதியவை
-[fetch] Dinamani TN: 29 புதியவை
+[fetch] The Hindu TN: 20 புதியவை
+[fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 22 புதியவை
+[fetch] BBC World: 21 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 23 புதியவை
+[fetch] ESPNcricinfo: 22 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 6 புதியவை
+[fetch] The Hindu Cinema: 5 புதியவை
 [fetch] Cinema Express: 29 புதியவை
-[fetch] The Hindu Tech: 22 புதியவை
+[fetch] The Hindu Tech: 25 புதியவை
 [fetch] Wired: 30 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7a8e80b02490>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Faith: 0 புதியவை
-[fetch] The Hindu Health: 19 புதியவை
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7892b6bf6850>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Faith: 1 புதியவை
+[fetch] The Hindu Health: 20 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 29 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,19 +24,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Max retries exceeded with url: /rss.xml (Caused by NewConnectionError("HTTPSConnection(host='icar.org.in', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 0 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 6 புதியவை
+[fetch] The Hindu Legal: 27 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 27 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,71 +56,77 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7a8e80ae4050>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 29 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7892b6be3190>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 27 புதியவை
+[fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 21 புதியவை
+[fetch] TN Police News: 23 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 712 → நிகழ்வுகள் 637
-[triage] 637 → 63 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] இவை தமிழ்நாட்டுடன் நேரடித் தொடர்பில்லாத குஜராத் மற்றும் பிற 
-[skip] வெளிநாட்ட மூலம்; தமிழ்நாட்டுக்கான குறிப்பிட்ட தரவு இல்லை. தே
-[skip] வெளிநாட்டுத் திரையுலக செய்தி — தமிழ்நாட்டு/இந்திய திரைப்படம்
-[skip] IPL அணியின் உள்நாட்டு பயிற்சிப் பணி நியुক్తி — தமிழ்நாட்டு வ
-[திருத்தம்] மயிலம் அருகே பேருந்து மோதல்: இருவர் பலி, → மயிலாடுதுறை அருகே பேருந்து மோதல்: இருவர்
-[image] களஞ்சியம் (2 சொல்): மயிலாடுதுறை அருகே பேருந்து மோதல்: 
-[tts-edge] 81aaa2c40f2e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] மயிலாடுதுறை அருகே பேருந்து மோதல்: இருவர் பலி, 13 பேர் காயம்
-[திருத்தம்] என்எஸ்இஎல் 14 ஆண்டு பழைய பணப் பிரச்சினைக → என்எஸ்இஎல் 14 ஆண்டு பழைய பணப் பிரச்சினைக
-[tts-edge] ab6c66c63dae: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] என்எஸ்இஎல் 14 ஆண்டு பழைய பணப் பிரச்சினைக்குத் தீர்வு, 1,950 கோடி செலுத்தம்
-[image] களஞ்சியம் (4 சொல்): பொன்முடி விடுதலைக்கு எதிராக அரசு ம
-[publish] பொன்முடி விடுதலைக்கு எதிராக அரசு மேல்முறையீடு, தாமத மன்னிப்பு மனு விசாரணை
+[run] புதியவை 706 → நிகழ்வுகள் 651
+[triage] 651 → 49 | காலி: india:4, world:3, govt:3, crime:3, jobs:3
+[skip] ஜிவாஜி பல்கலைக்கழகம் ஐந்து மாநிலங்களில் பரவியுள்ளது (மாளவா, 
+[skip] பொதுவான மனோசிகிత்சைச் சாধனை — தமிழ்நாட்டு வாசகரின் அவசர நடவட
+[skip] வெளிநாட்டு சিரிஸ் — தமிழ்நாடு/இந்திய வாசகரின் அன்றாடத் வாழ்க
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] கோலாத்தூர் தொகுதி காலியானதாக சபாநாயகர் அறிவிப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChLWknXeN3cn5piDvo4Ea'}
-[image] தேடல் பொருந்தவில்லை → களஞ்சியம்: தொகுதி கோரிக்கைகள் குறித்து கூட்டண
-[publish] தொகுதி கோரிக்கைகள் குறித்து கூட்டணி எம்எல்ஏக்களுடன் விஜய் ஆலோசனை
-[skip] மூலத்தில் ஒரே தலைப்பு மட்டுமே உள்ளது, விபத்து எப்போது எங்கே 
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChLWuPKeRd8RMnbL5Rwbb'}
+[tts-edge] a4bbfc999215: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] ஆட்சியரை அவமதித்த தவெக எம்எல்ஏ கைது கோரி ஸ்டாலின் அறிக்கை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChMB8YN9eWRvYebPuv1hQ'}
+[skip] தமிழ்நாட்டு உள்ளூர் அரசியல் மற்றும் நபர்சார் சர்ச்சை — தேசிய
+[tts-edge] c3a9d49bb66e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] பெண் மாவட்ட ஆட்சியருக்கு நீதி கோரி தவெக எம்எல்ஏவுக்கு எதிராக நடவடிக்கை கோரிக்கை
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChMBG2UXZPZuM8ChKXpsz'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்தியை விவரிக்கும் போதிய
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChLX2Mf8FNsWLBa7ZdMTW'}
-[திருத்தம்] தூய்மைப் பணியாளர்களுடன் இரண்டாம் கட்டப்  → தூய்மைப் பணியாளர்களுடன் இரண்டாம் கட்டப் 
-[publish] தூய்மைப் பணியாளர்களுடன் இரண்டாம் கட்டப் பேச்சு, 5 கோரிக்கைகள் நிறைவேற்றுவதாக உறுதி
+[publish] கள்ளக்குறிச்சி எம்எல்ஏ மீது தமிழிசை சௌந்தரராஜன் கடும் விமர்சனம்
+[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு வரி சுருக்கம் மட்டுமே உள்ளது; 
+[publish] பாஜக மாநிலத் தலைவர் நயினார் நாகேந்திரன் வீட்டுக் காவலில் வைப்பு
+[திருத்தம்] சாஸ்த்ரா பல்கலைக்கழகத்துக்கு எதிரான நடவட → சாஸ்த्ரா பல்கலைக்கழகத்துக்கு எதிரான நடவட
+[தரம்] தமிழ் அல்லாத எழுத்து: ् → ஒரு திருத்தம்
+[publish] சாஸ்த்ரா பல்கலைக்கழகத்துக்கு எதிரான நடவடிக்கைக்கு உச்ச நீதிமன்றம் தடை
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChLXCa7kigF9gxy3mabAR'}
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChLXFoi9r57S5PeiEF5QC'}
-[skip] மூலத்தில் ஒரு தலைப்பு மற்றும் முடிக்கப்படாத ஒரு வாக்கியம் மட
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்குத் தேவையான விவரங
-[skip] மூலத்தில் போதிய தகவல் இல்லை - வெறும் தலைப்பு மட்டும், உரை இல
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; எந்த மாவட்டம்/ஆணையர், உத்த
-[திருத்தம்] மதுராந்தகம், தாராபுரம் தவெக வெற்றிக்கு எ → மதுராந்தகம், தாராபுரம் இடைத்தேர்தல்: தவெ
-[image] களஞ்சியம் (3 சொல்): மதுராந்தகம், தாராபுரம் இடைத்தேர்தல
-[publish] மதுராந்தகம், தாராபுரம் இடைத்தேர்தல்: தவெக வெற்றிக்கு எதிராக உயர்நீதிமன்றத்தில் வழக்கு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChLXQ47YbzRqyP5KJfbNw'}
-[publish] இலங்கை மாணவர்களுக்கு மருத்துவக் கல்வி உதவித்தொகை நீட்டிப்பு திட்டம்
-[திருத்தம்] வங்கி மேலாளர் தாக்குதல் வழக்கில் மன்னிப் → வங்கி மேலாளர் மன்னிப்பை ஏற்கச் சம்மதிப்ப
-[தரம்] தமிழ் அல்லாத எழுத்து: পষি → ஒரு திருத்தம்
-[publish] வங்கி மேலாளர் மன்னிப்பை ஏற்கச் சம்மதிப்பாரா? - சென்னை உயர்நீதிமன்றம் கேள்வி
-[image] களஞ்சியம் (2 சொல்): கள்ளக்குறிச்சி தவெக எம்எல்ஏ மீது ஆ
-[publish] கள்ளக்குறிச்சி தவெக எம்எல்ஏ மீது ஆட்சியர் புகார்
-[comic] கதை: புறநகர் வழியில் நடை
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.88) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.89) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-24.png · நாள் 76
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹11150 · சென்செக்ஸ் 82436
+[publish] திருப்பரங்குன்றம் மலையில் நாளை கார்த்திகை தீபம் ஏற்ற உச்ச நீதிமன்றம் அனுமதி
+[skip] வெளிநாட்டு உள் அரசியல் மற்றும் பன்னாட்டு தண்டனை — தமிழ்நாட்ட
+[publish] திருப்பரங்குன்றம் மலை உச்சியில் உள்ளது கணக்கெடுப்புக் கல் என அரசு அறிக்கை
+[திருத்தம்] CSIR மற்றும் பாரத் எலக்ட்ரானிக்ஸ் நிறுவன → சிஐএஸஐஆர் மற்றும் பாரத் எலக்ட்ரானிக்ஸ் ந
+[தரம்] தமிழ் அல்லாத எழுத்து: আইএব → ஒரு திருத்தம்
+[image] களஞ்சியம் (2 சொல்): சிஐஎஸஐஆர் மற்றும் பாரத் எலக்ட்ரானி
+[publish] சிஐஎஸஐஆர் மற்றும் பாரத் எலக்ட்ரானிக்ஸ் நிறுவனங்களில் காலியிடங்கள் அறிவிப்பு
+[skip] சத்தீஸ்கர் மாநில உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு மற்றும் ஐதரா
+[திருத்தம்] ஜெவார் விமான நிலையத்திற்கு மோடி பெயர் -  → ஜெவார் விமான நிலையத்திற்கு மோடி பெயர் — 
+[தரம்] தமிழ் அல்லாத எழுத்து: হ → ஒரு திருத்தம்
+[publish] ஜெவார் விமான நிலையத்திற்கு மோடி பெயர் — காங்கிரஸ் கண்டனம்
+[skip] இது கேரள உயர்நீதிமன்றத்தின் உள்ளூர் நிர்வாக உத்தரவு தொடர்பான
+[skip] டெல்லியின் உள்ளூர் கட்டிடச் சரிவு வழக்கு தொடர்பான நீதிமன்ற ந
+[skip] இது கேரள மாநிலத்தின் உள்ளூர் கூட்டணி அரசியல் செய்தி (யுடிஎஃப
+[skip] ஆன்மிக/மத நிகழ்வு பற்றிய கட்டுரை — செய்திற்குரிய நிகழ்வு, அர
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: What stands atop Thiruparankundram hill is a sur
+[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
+[skip] உत്தரப்রதேশ விমான நிலையத்தின் பெயர் மாற்றம் — பிற மாநிலத்தின
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: GCC to identify locked houses to assess risk of 
+[skip] பொது சுகாதார ஆலோசனை — தமிழ்நாட்டு வாசகரின் அவசர நடவடிக்கைக்க
+[skip] தெலுங்கு/கன്నড திரைப்படம்; தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இ
+[skip] வெளிநாட்டுத் தொடர் — தென்னாப்பிரிக்கா மற்றும் ஆஸ்திரேலிய கிர
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChMC2pgNQGUVpt213mik4'}
+[skip] கேரளாவின் உள்ளூர் நீதிமன்றத் தீர்ப்பு; தமிழ்நாட்டுக்கு நேரடி
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Autism lab, sleep research facility inaugurated 
+[திருத்தம்] ரோட்டারி மெட்ராஸ் மற்றும் தமிழ்நாடு அரசு → ரோட்டரி கிளப் ஆஃப் மெட்ராஸ் தமிழ்நாடு அர
+[தரம்] மூலத்தில் இல்லாத எண்: 45 → ஒரு திருத்தம்
+[publish] ரோட்டரி கிளப் ஆஃப் மெட்ராஸ் தமிழ்நாடு அரசுடன் 3.5 லட்சம் பெண் சிறுமிகளுக்கு எச்பிவி தடுப்பூசி
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[editorial] பிழை 'cartoon'
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹11149 · சென்செக்ஸ் 82436
 [weather] புதுப்பிக்கப்பட்டது
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
+  warnings.warn(message, FutureWarning)
+[push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
 [done] feed 300 · pending 0 · எழுதியவை 10
