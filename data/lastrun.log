@@ -1,22 +1,22 @@
-[fetch] RBI: 10 புதியவை
+[fetch] RBI: 9 புதியவை
 [fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 20 புதியவை
+[fetch] The Hindu TN: 22 புதியவை
 [fetch] Dinamani TN: 30 புதியவை
 [fetch] BBC Tamil: 12 புதியவை
-[fetch] BBC World: 21 புதியவை
+[fetch] BBC World: 25 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 22 புதியவை
-[fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 5 புதியவை
-[fetch] Cinema Express: 29 புதியவை
-[fetch] The Hindu Tech: 25 புதியவை
-[fetch] Wired: 30 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7892b6bf6850>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Faith: 1 புதியவை
+[fetch] ESPNcricinfo: 26 புதியவை
+[fetch] The Hindu Sport: 29 புதியவை
+[fetch] The Hindu Cinema: 7 புதியவை
+[fetch] Cinema Express: 23 புதியவை
+[fetch] The Hindu Tech: 22 புதியவை
+[fetch] Wired: 29 புதியவை
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7e16f937ca10>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Faith: 0 புதியவை
 [fetch] The Hindu Health: 20 புதியவை
 [fetch] The Hindu Agriculture: 0 புதியவை
-[fetch] FreeJobAlert: 29 புதியவை
+[fetch] FreeJobAlert: 28 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -24,19 +24,19 @@
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 0 புதியவை
 [fetch] TNAU Agritech: 0 புதியவை
-[fetch] ICAR: பிழை HTTPSConnectionPool(host='icar.org.in', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+[fetch] ICAR: 0 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 6 புதியவை
-[fetch] The Hindu Legal: 27 புதியவை
+[fetch] Bar and Bench: 2 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 27 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,8 +56,8 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7892b6be3190>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 27 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7e16f92c11d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
 [fetch] Dinamani Govt: 30 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
@@ -65,68 +65,58 @@
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 23 புதியவை
+[fetch] TN Police News: 20 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 706 → நிகழ்வுகள் 651
-[triage] 651 → 49 | காலி: india:4, world:3, govt:3, crime:3, jobs:3
-[skip] ஜிவாஜி பல்கலைக்கழகம் ஐந்து மாநிலங்களில் பரவியுள்ளது (மாளவா, 
-[skip] பொதுவான மனோசிகிత்சைச் சாধனை — தமிழ்நாட்டு வாசகரின் அவசர நடவட
-[skip] வெளிநாட்டு சিரிஸ் — தமிழ்நாடு/இந்திய வாசகரின் அன்றாடத் வாழ்க
+[run] புதியவை 706 → நிகழ்வுகள் 650
+[triage] 650 → 69 | காலி: india:3, world:3, govt:3, crime:3, cinema:3
+[skip] வெளிநாட்டு ஆங்கிலத் திரைப்படம் — தமிழ்நாட்டு/இந்திய வாசகரின்
+[skip] வெளிநாட்டுக் குழுவின் உள்நாட்டு தேர்வு — தமிழ்நாட்டு/இந்திய 
+[திருத்தம்] திருப்பரங்குன்றம் தீப விழா தடை உத்தரவு ம → திருப்பரங்குன்றம் தீப விழா தடை உத்தரவு ம
+[tts-edge] d53dc1091541: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] திருப்பரங்குன்றம் தீப விழா தடை உத்தரவு மறுபரிசீலனைக்கு உயர்நீதிமன்றம் உத்தரவு
+[skip] தமிழ்நாட்டுச் செய்தி — 'world' வகையில் பொருந்தாது। திருப்பரங
+[skip] தமிழ்நாட்டுச் செய்திதான் என்றாலும், தமிழ்நாட்டு வாசகரின் அறி
+[skip] உலக செய்திக் குறிப்பு என்றாலும், இது தமிழ்நாட்டு அரசின் தொল்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChN2JSDYiExEKiAxgiPLT'}
+[திருத்தம்] காப்பீடு, ஓய்வூதிய நிதி பங்குச் சந்தைக்க → காப்பீடு, ஓய்வூதிய நிதி பங்குச் சந்தைக்க
+[image] களஞ்சியம் (2 சொல்): காப்பீடு, ஓய்வூதிய நிதி பங்குச் சந
+[tts-edge] f6feef26e356: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காப்பீடு, ஓய்வூதிய நிதி பங்குச் சந்தைக்கு மாற்றம்; அரசுப் பத்திரத் தேவை குறைவு
+[திருத்தம்] ரிசர்வ் வங்கி வட்டி உயர்வு எதிர்பார்ப்பை → 50 அடிப்படைப் புள்ளி வட்டி உயர்வு நிதி ஸ
+[publish] 50 அடிப்படைப் புள்ளி வட்டி உயர்வு நிதி ஸ்திரத்தன்மைக்கு ஆபத்து: எஸ்பிஐ அறிக்கை
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[tts-edge] a4bbfc999215: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஆட்சியரை அவமதித்த தவெக எம்எல்ஏ கைது கோரி ஸ்டாலின் அறிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChMB8YN9eWRvYebPuv1hQ'}
-[skip] தமிழ்நாட்டு உள்ளூர் அரசியல் மற்றும் நபர்சார் சர்ச்சை — தேசிய
-[tts-edge] c3a9d49bb66e: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] பெண் மாவட்ட ஆட்சியருக்கு நீதி கோரி தவெக எம்எல்ஏவுக்கு எதிராக நடவடிக்கை கோரிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChMBG2UXZPZuM8ChKXpsz'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] கள்ளக்குறிச்சி எம்எல்ஏ மீது தமிழிசை சௌந்தரராஜன் கடும் விமர்சனம்
-[skip] மூலத்தில் தலைப்பு மற்றும் ஒரு வரி சுருக்கம் மட்டுமே உள்ளது; 
-[publish] பாஜக மாநிலத் தலைவர் நயினார் நாகேந்திரன் வீட்டுக் காவலில் வைப்பு
-[திருத்தம்] சாஸ்த்ரா பல்கலைக்கழகத்துக்கு எதிரான நடவட → சாஸ்த्ரா பல்கலைக்கழகத்துக்கு எதிரான நடவட
-[தரம்] தமிழ் அல்லாத எழுத்து: ् → ஒரு திருத்தம்
-[publish] சாஸ்த்ரா பல்கலைக்கழகத்துக்கு எதிரான நடவடிக்கைக்கு உச்ச நீதிமன்றம் தடை
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] திருப்பரங்குன்றம் மலையில் நாளை கார்த்திகை தீபம் ஏற்ற உச்ச நீதிமன்றம் அனுமதி
-[skip] வெளிநாட்டு உள் அரசியல் மற்றும் பன்னாட்டு தண்டனை — தமிழ்நாட்ட
-[publish] திருப்பரங்குன்றம் மலை உச்சியில் உள்ளது கணக்கெடுப்புக் கல் என அரசு அறிக்கை
-[திருத்தம்] CSIR மற்றும் பாரத் எலக்ட்ரானிக்ஸ் நிறுவன → சிஐএஸஐஆர் மற்றும் பாரத் எலக்ட்ரானிக்ஸ் ந
-[தரம்] தமிழ் அல்லாத எழுத்து: আইএব → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): சிஐஎஸஐஆர் மற்றும் பாரத் எலக்ட்ரானி
-[publish] சிஐஎஸஐஆர் மற்றும் பாரத் எலக்ட்ரானிக்ஸ் நிறுவனங்களில் காலியிடங்கள் அறிவிப்பு
-[skip] சத்தீஸ்கர் மாநில உள்ளூர் வேலைவாய்ப்பு அறிவிப்பு மற்றும் ஐதரா
-[திருத்தம்] ஜெவார் விமான நிலையத்திற்கு மோடி பெயர் -  → ஜெவார் விமான நிலையத்திற்கு மோடி பெயர் — 
-[தரம்] தமிழ் அல்லாத எழுத்து: হ → ஒரு திருத்தம்
-[publish] ஜெவார் விமான நிலையத்திற்கு மோடி பெயர் — காங்கிரஸ் கண்டனம்
-[skip] இது கேரள உயர்நீதிமன்றத்தின் உள்ளூர் நிர்வாக உத்தரவு தொடர்பான
-[skip] டெல்லியின் உள்ளூர் கட்டிடச் சரிவு வழக்கு தொடர்பான நீதிமன்ற ந
-[skip] இது கேரள மாநிலத்தின் உள்ளூர் கூட்டணி அரசியல் செய்தி (யுடிஎஃப
-[skip] ஆன்மிக/மத நிகழ்வு பற்றிய கட்டுரை — செய்திற்குரிய நிகழ்வு, அர
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: What stands atop Thiruparankundram hill is a sur
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[skip] உत്தரப்রதேশ விমான நிலையத்தின் பெயர் மாற்றம் — பிற மாநிலத்தின
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: GCC to identify locked houses to assess risk of 
-[skip] பொது சுகாதார ஆலோசனை — தமிழ்நாட்டு வாசகரின் அவசர நடவடிக்கைக்க
-[skip] தெலுங்கு/கன്నড திரைப்படம்; தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இ
-[skip] வெளிநாட்டுத் தொடர் — தென்னாப்பிரிக்கா மற்றும் ஆஸ்திரேலிய கிர
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChMC2pgNQGUVpt213mik4'}
-[skip] கேரளாவின் உள்ளூர் நீதிமன்றத் தீர்ப்பு; தமிழ்நாட்டுக்கு நேரடி
-[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Autism lab, sleep research facility inaugurated 
-[திருத்தம்] ரோட்டারி மெட்ராஸ் மற்றும் தமிழ்நாடு அரசு → ரோட்டரி கிளப் ஆஃப் மெட்ராஸ் தமிழ்நாடு அர
-[தரம்] மூலத்தில் இல்லாத எண்: 45 → ஒரு திருத்தம்
-[publish] ரோட்டரி கிளப் ஆஃப் மெட்ராஸ் தமிழ்நாடு அரசுடன் 3.5 லட்சம் பெண் சிறுமிகளுக்கு எச்பிவி தடுப்பூசி
-[brief] காலை brief தயார்
-[jobs] தொகுப்பு 12
-[editorial] பிழை 'cartoon'
-[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹11149 · சென்செக்ஸ் 82436
-[weather] புதுப்பிக்கப்பட்டது
+[skip] வெளிநாட்டுத் தகவல் — இஸ்ரேல்-பாலஸ்தீன மோதல். தமிழ்நாட்டு/இந்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChN2ZFs7cniqp6ni7rn7b'}
+[skip] உத்தரபிரதேச மாநில சட்டமன்றத் தேர்தல் கூட்டணி இட ஒதுக்கீடு பே
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உள்ளடக்கம் இல்லை; 
+[image] களஞ்சியம் (2 சொல்): இந்திய விண்வெளி நிறுவனங்கள் இடையே 
+[publish] இந்திய விண்வெளி நிறுவனங்கள் இடையே மிகப்பெரும் செயற்கைக்கோள் ஒப்பந்தம்
+[skip] பிற மாநில அரசியல் — உத்திரபிரதேச சட்டமன்றத் தேர்தல். தமிழ்நா
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Four arrested for smuggling 80 kg ganja near Per
+[skip] வெளிநாட்டு நிகழ்வு — தமிழ்நாடு/இந்தியா தொடர்பு இல்லை. தமிழ்ந
+[skip] வெளிநாட்டு நிறுவனம் அல்ல; இந்தியன் ஆயில் (IOCL) இந்தியக் கொள
+[skip] வெளிநாட்டுச் செய்திதாக இருக்கக்கூடியது; Tatkola என்ற இடம் தம
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: School teacher arrested for misbehaving with col
+[திருத்தம்] சிறுப்பட இயக்குநர் ஸ்ரீஹரி ஹரிதாஸ் 'அஜयന → அறிமுக இயக்குநர் ஸ்ரீஹரி ஹரிதாஸ் 'அஜயന്त
+[தரம்] தமிழ் அல்லாத எழுத்து: तेতনীুംക → ஒரு திருத்தம்
+[publish] அறிமுக இயக்குநர் ஸ்ரீஹரி ஹரிதாஸ் 'அஜயந்தே மரணம்: ஒரு கேஸ் ஸ்டடி' திரைப்படத்தைப் பற்றிக் கூறினார்
+[skip] வெளிநாட்டு உள்நாட்டுக் கிரிக்கெட் — ஆங்கிலேய काউন்டி க्रिकेट
+[skip] வெளிநாட்டுச் செய்திக்கு தமிழ்நாட்டுடன் நேரடித் தொடர்பு இல்லை
+[skip] வெளிநாட்டு தனியார் நிறுவனங்களுக்கு இடையேயான வணிக ஒப்பந்தம்; 
+[மூலம்] ஒரே ஊடகம் (crime) — வெளியிடப்படவில்லை: Webinar on autoimmune conditions to be held on N
+[skip] வெளிநாட்டு சினிமா — தமிழ்நாட்டு/இந்திய வாசகரின் அன்றாட வாழ்வ
+[skip] இந்தியா ஏ அணி vs ஐக்கிய அரபு எமிரேட்ஸ் போட்டி ஒரு நட்சத்திர 
+[filler] world கட்டுரை
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: ஜெவார் விமான நிலையத்திற்கு பிரதமர் பெயர் — ஏன் இந்த கண்டனம்?
+[image] 2 பொருந்தாத படம் மாற்றப்பட்டது
+[market] தங்கம் 22K ₹10979 · சென்செக்ஸ் 82436
+[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
 [image] 1 குறியீட்டுப் படங்கள் சேர்க்கப்பட்டன
-[done] feed 300 · pending 0 · எழுதியவை 10
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 5
