@@ -1,20 +1,21 @@
+[expire] 59a112c342f4
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 18 புதியவை
-[fetch] Dinamani TN: 30 புதியவை
-[fetch] BBC Tamil: 11 புதியவை
-[fetch] BBC World: 24 புதியவை
+[fetch] The Hindu TN: 26 புதியவை
+[fetch] Dinamani TN: 21 புதியவை
+[fetch] BBC Tamil: 12 புதியவை
+[fetch] BBC World: 28 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 26 புதியவை
+[fetch] ESPNcricinfo: 27 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
-[fetch] Cinema Express: 29 புதியவை
+[fetch] The Hindu Cinema: 12 புதியவை
+[fetch] Cinema Express: 28 புதியவை
 [fetch] The Hindu Tech: 29 புதியவை
 [fetch] Wired: 27 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x7679b6173850>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x778bb1375190>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
 [fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 19 புதியவை
+[fetch] The Hindu Health: 20 புதியவை
 [fetch] The Hindu Agriculture: 2 புதியவை
 [fetch] FreeJobAlert: 30 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
@@ -23,20 +24,20 @@
 [fetch] ICMR: 0 புதியவை
 [fetch] Times Health: 0 புதியவை
 [fetch] Dinamani Health: 1 புதியவை
-[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='agritech.tnau.ac.in', port=443) at 0x7679b6173b90>, 'Connection to agritech.tnau.ac.in timed out. (connect timeout=10)'))
+[fetch] TNAU Agritech: பிழை HTTPSConnectionPool(host='agritech.tnau.ac.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='agritech.tnau.ac.in', port=443) at 0x778bb12b5150>, 'Connection to agritech.tnau.ac.in timed out. (connect timeout=10)'))
 [fetch] ICAR: 1 புதியவை
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 29 புதியவை
-[fetch] The Hindu Legal: 29 புதியவை
+[fetch] Bar and Bench: 1 புதியவை
+[fetch] The Hindu Legal: 30 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 29 புதியவை
+[fetch] The Hindu National: 30 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -56,9 +57,9 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x7679b61f4d10>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 29 புதியவை
-[fetch] Dinamani Govt: 30 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x778bb12cd7d0>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 30 புதியவை
+[fetch] Dinamani Govt: 21 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
@@ -67,45 +68,51 @@
 [fetch] Dinamani Crime: 0 புதியவை
 [fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 754 → நிகழ்வுகள் 698
-[triage] 698 → 57 | காலி: india:4, court:3, govt:3, cinema:3, sports:3
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, உண்மைத் தகவல்கள் இல்லை; இத
-[skip] மലയாളம் திரைப்படம் — தமிழ்நாட்டு சினிமா அல்ல. மலையாள வாசகருக
-[skip] ஆங்கிலேய county cricket அணிகளின் உள்ளூர் நிகழ்வு. தமிழ்நாட்ட
-[image] களஞ்சியம் (2 சொல்): ஏற்காடு மலைப்பாதையில் சிறுமி உடல் 
-[tts-edge] 983f8293449d: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] ஏற்காடு மலைப்பாதையில் சிறுமி உடல் மீட்பு, கொலை சந்தேகம்
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChRUm2VphDnESfjJNYhi6'}
+[run] புதியவை 726 → நிகழ்வுகள் 639
+[triage] 639 → 107 | காலி: tn:6, india:4, govt:4, crime:4, world:3
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விரிவான உள்ளடக்கம் இல்லை. 
+[skip] ராஜஸ்தான் பல்கலைக்கழகம் மற்றும் கர்நாடகா NRLM வேலைவாய்ப்பு அ
+[skip] தேசிய தலைப்பு — தமிழ்நாட்டுக்கு நேரடித் தொடர்பு இல்லை। டெல்ல
+[skip] வெளிநாட்டுத் திரையுலக விமர்சனம் — தமிழ்நாட்டு வாசகர்க்கு பொர
+[skip] உலக அளவிலான A-அணி (இளைஞர்) கிரிக்கெட் — தமிழ்நாட்டு வாசகரின்
+[tts-edge] 1fc85f46c817: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காசாவில் இஸ்ரேல் தாக்குதலில் ஹமாஸ் அதிகாரி உள்பட எட்டு பேர் பலி
+[திருத்தம்] எகிப்து காய்ரோ அருகே எரிபொருள் லாரி விபத → எகிப்து: காய்ரோ அருகே எரிபொருள் லாரி விப
+[tts-edge] 74c9cfc45f60: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] எகிப்து: காய்ரோ அருகே எரிபொருள் லாரி விபத்தில் 31 பேர் பலி
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChSC4gJuLtE47NRFcPYsg'}
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChSC83VT3atPgj1dEwZA6'}
+[திருத்தம்] திருப்பரங்குன்றம் தீபத்தூண் வழக்கு விஜய் → திருப்பரங்குன்றம் தீப தூண் வழக்கு: விஜய்
+[publish] திருப்பரங்குன்றம் தீப தூண் வழக்கு: விஜய் பங்கு விளக்க உச்ச நீதிமன்றம் ஒப்புதல்
+[image] களஞ்சியம் (2 சொல்): முன்னாள் அமைச்சர் கே.என்.நேருவின் 
+[publish] முன்னாள் அமைச்சர் கே.என்.நேருவின் நெருங்கிய நபர் கவி பிரசாத் கைது
+[திருத்தம்] பள்ளிக் கல்வித் துறை முறைகேடு வழக்கில் ச → பள்ளிக் கல்வித் துறை முறைகேடு வழக்கில் ச
+[image] களஞ்சியம் (2 சொல்): பள்ளிக் கல்வித் துறை முறைகேடு வழக்
+[publish] பள்ளிக் கல்வித் துறை முறைகேடு வழக்கில் சிபிஐ விசாரணை கோரி பொதுநல மனு
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChRUsPfi5PFfTDeDVk5X5'}
+[publish] கள்ளக்குறிச்சி எம்எல்ஏ விவகாரம்: சிபிஐ விசாரணை கோரி ஆளுநரிடம் உதயநிதி ஸ்டாலின் மனு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChSCYfAEfbmp4MNeoCNNZ'}
+[image] களஞ்சியம் (2 சொல்): கள்ளக்குறிச்சி ஆட்சியர் ஆபாச குறுஞ
+[publish] கள்ளக்குறிச்சி ஆட்சியர் ஆபாச குறுஞ்செய்தி வழக்கில் ரகசிய வாக்குமூலம்
+[திருத்தம்] அமெரிக்கா புதிய இறக்குமதி வரி, இந்தியா அ → அமெரிக்கா புதிய இறக்குமதி வரி, இந்தியா-அ
+[image] களஞ்சியம் (2 சொல்): அமெரிக்கா புதிய இறக்குமதி வரி, இந்
+[publish] அமெரிக்கா புதிய இறக்குமதி வரி, இந்தியா-அமெரிக்கா ஒப்பந்தம் மீது அச்சம்
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChSCjQCsQL5NhTUYQyTUr'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[தரம்] தமிழ் அல்லாத எழுத்து: यूএম → ஒரு திருத்தம்
-[tts-edge] 59a112c342f4: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[hold] நமாஸ் தொழுகைக்கு யாரையும் தடுக்க முடியாது என சென்னை உயர்நீதிமன்றம் தீர்ப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] துணை தேர்வு உரிமை அரசியலமைப்புச் சுதந்தி → துணை தேர்வு உரிமை அரசியலமைப்புச் சுதந்தி
-[publish] துணை தேர்வு உரிமை அரசியலமைப்புச் சுதந்திரம் — தொல். திருமாவளவன் கருத்து
-[skip] மூலத்தில் தலைப்பு மற்றும் இரு பெயர்கள் மட்டுமே உள்ளன; சம்பவம
-[image] களஞ்சியம் (3 சொல்): அகல் விளக்கு பதிப்பக உரிமையாளர் மோ
-[publish] அகல் விளக்கு பதிப்பக உரிமையாளர் மோகனுக்கு மூன்று நாள் போலீஸ் காவல்
-[skip] மூலம் தெளிவற்றது மற்றும் முரண்பாடானது - விஜய் தற்போது தமிழக 
-[skip] மூல உரையில் போதுமான தகவல் இல்லை - தலைப்பு மட்டும் உள்ளது, வழ
-[skip] மூலத்தில் ஒரே வரிப் பொதுத் தகவல் மட்டுமே உள்ளது (தலைப்பு மற்
-[திருத்தம்] சட்டம் ஒழுங்கு, விலைவாசி உயர்வு கண்டித்த → சட்டம் ஒழுங்கு, விலைவாசி உயர்வுகண்டித்து
-[publish] சட்டம் ஒழுங்கு, விலைவாசி உயர்வுகண்டித்து டிசம்பர் 2ல் அதிமுக ஆர்ப்பாட்டம்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கின் விவரங்கள், பின்னண
-[திருத்தம்] மாநில சுயாட்சி கோரி திமுக போராட்டம் தொடர → மாநில சுயாட்சி மற்றும் கூட்டாட்சிக்கான த
-[publish] மாநில சுயாட்சி மற்றும் கூட்டாட்சிக்கான திமுகவின் போராட்டம் தொடரும்: ஸ்டாலின் அறிவிப்பு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[publish] கள்ளக்குறிச்சி எம்எல்ஏ விவகாரம்: ஆளுநரைச் சந்திக்கும் உதயநிதி ஸ்டாலின்
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] எண்ணெய் விலை உயர்வால் இந்திய பத்திரங்கள் → எண்ணெய் விலை உயர்வால் இந்திய பத்திரங்கள்
-[publish] எண்ணெய் விலை உயர்வால் இந்திய பத்திரங்கள் சரிவு, பணவீக்கம் குறித்து இந்திய ரிசர்வ் வங்கி எச்சரிக்கை
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChRVkFjPPcCapSp16v8tF'}
-[publish] ஊடக கருத்து தொடர்பாக அதிமுக கட்சியினருக்கு எச்சரிக்கை அறிவுறுத்தல்
-[filler] court கட்டுரை
-[image] 1 பொருந்தாத படம் மாற்றப்பட்டது
-[market] தங்கம் 22K ₹10977 · சென்செக்ஸ் 84329
+[image] களஞ்சியம் (3 சொல்): திருச்சி கிழக்கு உள்பட 5 தொகுதி இட
+[publish] திருச்சி கிழக்கு உள்பட 5 தொகுதி இடைத்தேர்தல் தடை வழக்கு நாளை தீர்ப்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChSCu7SqUiZk6LTuv6sic'}
+[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, செய்திக்கான போதுமான விவரங்
+[skip] இது ஒரு பிபிசி செய்தியாளரின் தனிப்பட்ட விசாரணைக் கதை, உறுதிய
+[skip] மூலத்தில் ஒரே ஒரு வாக்கியம் மட்டுமே உள்ளது; போதிய உண்மைத் தக
+[publish] குவைத்தில் தாக்குதலில் இரு இத்தாலியர் பலி; ஈரான் பொறுப்பு மறுப்பு
+[comic] கதை: வாணி அம்மாளின் அன்பு விருந்து
+[comic] பலகை 1 தயார்
+[comic] பலகை 2 தயார்
+[comic] பலகை 3 தயார்
+[comic] பலகை 4 தயார்
+[comic] பக்கம் தயார்: 2026-11-27.png · நாள் 79
+[rasi] ராசிபலன் தயார்
+[market] தங்கம் 22K ₹10964 · சென்செக்ஸ் 84329
 [weather] புதுப்பிக்கப்பட்டது
-[done] feed 300 · pending 1 · எழுதியவை 9
+[done] feed 300 · pending 0 · எழுதியவை 10
