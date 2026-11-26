@@ -1,24 +1,22 @@
-[expire] e2758b4a73a7
-[expire] fe84302127fa
 [fetch] RBI: 10 புதியவை
-[fetch] ET Markets: 30 புதியவை
+[fetch] ET Markets: 29 புதியவை
 [fetch] MoneyControl: 0 புதியவை
-[fetch] The Hindu TN: 27 புதியவை
-[fetch] Dinamani TN: 23 புதியவை
-[fetch] BBC Tamil: 9 புதியவை
-[fetch] BBC World: 27 புதியவை
+[fetch] The Hindu TN: 21 புதியவை
+[fetch] Dinamani TN: 24 புதியவை
+[fetch] BBC Tamil: 8 புதியவை
+[fetch] BBC World: 28 புதியவை
 [fetch] Al Jazeera: 25 புதியவை
-[fetch] ESPNcricinfo: 25 புதியவை
+[fetch] ESPNcricinfo: 24 புதியவை
 [fetch] The Hindu Sport: 30 புதியவை
-[fetch] The Hindu Cinema: 10 புதியவை
+[fetch] The Hindu Cinema: 11 புதியவை
 [fetch] Cinema Express: 26 புதியவை
-[fetch] The Hindu Tech: 26 புதியவை
+[fetch] The Hindu Tech: 25 புதியவை
 [fetch] Wired: 28 புதியவை
-[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x79a7454bdc10>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Faith: 1 புதியவை
-[fetch] The Hindu Health: 21 புதியவை
+[fetch] Employment News: பிழை HTTPSConnectionPool(host='www.employmentnews.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.employmentnews.gov.in', port=443) at 0x75951c2bfc10>, 'Connection to www.employmentnews.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Faith: 0 புதியவை
+[fetch] The Hindu Health: 20 புதியவை
 [fetch] The Hindu Agriculture: 1 புதியவை
-[fetch] FreeJobAlert: 30 புதியவை
+[fetch] FreeJobAlert: 25 புதியவை
 [fetch] Sarkari Result: 0 புதியவை
 [fetch] The Hindu Jobs: 0 புதியவை
 [fetch] WHO News: 0 புதியவை
@@ -30,15 +28,15 @@
 [fetch] Dinamani Agri: 0 புதியவை
 [fetch] Krishi Jagran: 0 புதியவை
 [fetch] Live Law: 0 புதியவை
-[fetch] Bar and Bench: 3 புதியவை
-[fetch] The Hindu Legal: 30 புதியவை
+[fetch] Bar and Bench: 0 புதியவை
+[fetch] The Hindu Legal: 26 புதியவை
 [fetch] Dinamalar Aanmeegam: 0 புதியவை
 [fetch] Dinamani Cinema: 28 புதியவை
 [fetch] Dinamani Sports: 30 புதியவை
 [fetch] Dinamani Tech: 0 புதியவை
 [fetch] TechCrunch: 20 புதியவை
 [fetch] The Verge: 10 புதியவை
-[fetch] The Hindu National: 30 புதியவை
+[fetch] The Hindu National: 26 புதியவை
 [fetch] NDTV India: 20 புதியவை
 [fetch] India Today: 20 புதியவை
 [fetch] Indian Express India: 0 புதியவை
@@ -58,76 +56,60 @@
 [fetch] PIB Chennai: 0 புதியவை
 [fetch] Press Information Bureau: 0 புதியவை
 [fetch] India Gov Announcements: 0 புதியவை
-[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x79a7453bd090>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
-[fetch] The Hindu Govt Policy: 30 புதியவை
-[fetch] Dinamani Govt: 23 புதியவை
+[fetch] TN Gov Orders: பிழை HTTPSConnectionPool(host='cms.tn.gov.in', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='cms.tn.gov.in', port=443) at 0x75951c2e7390>, 'Connection to cms.tn.gov.in timed out. (connect timeout=10)'))
+[fetch] The Hindu Govt Policy: 26 புதியவை
+[fetch] Dinamani Govt: 24 புதியவை
 [fetch] Times Govt Schemes: 20 புதியவை
 [fetch] TNPSC Notifications: 0 புதியவை
 [fetch] Sarkari Yojana: 0 புதியவை
 [fetch] Dinamalar Crime: 0 புதியவை
 [fetch] Hindu Tamil Crime: 0 புதியவை
 [fetch] Dinamani Crime: 0 புதியவை
-[fetch] TN Police News: 29 புதியவை
+[fetch] TN Police News: 27 புதியவை
 [fetch] Times Chennai Crime: 20 புதியவை
-[run] புதியவை 722 → நிகழ்வுகள் 649
-[triage] 649 → 80 | காலி: tn:6, india:4, govt:4, crime:4, world:3
-[skip] டெல்லியில் உள்ள தனியார் சட்ட நிறுவனத்தின் உள்ளூர் வேலைவாய்ப்
-[skip] குர்நூல் மாவட்ட நீதிமன்றம் மற்றும் பெங்களூரு IISc ஆகிய வேலைவ
-[skip] வெளிநாட்டு மருத்துவ மாநாட்டின் பொதுவான அறிவிப்பு; தமிழ்நாட்ட
-[skip] வெளிநாட்டுத் திரையுலக விমர்சனம் — தமிழ்நாட்டு வாசகரின் அன்றா
-[skip] ஆங்கிலேய உள்நாட்டு T20 தொடர் (County Cricket). தமிழ்நாடு அல்
+[run] புதியவை 692 → நிகழ்வுகள் 639
+[triage] 639 → 72 | காலி: india:4, world:3, court:3, govt:3, crime:3
+[திருத்தம்] காற்று மாசு மস்തிஷ்கத்தின் நோய் எதிர்ப்ப → காற்று மாசு மস்তிஷ்கத்தின் நோய் எதிர்ப்ப
+[தரம்] தமிழ் அல்லாத எழுத்து: তস → ஒரு திருத்தம்
+[image] களஞ்சியம் (3 சொல்): காற்று மாசு மூளையின் நோய் எதிர்ப்ப
+[tts-edge] 348e2542e984: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] காற்று மாசு மூளையின் நோய் எதிர்ப்பு செல்களை மீளமைத்து, வறிதை விரைவிக்கும்: ஆய்வு
+[skip] வெளிநாட்டுத் திரையுலக ஆய்வுச் செய்தி — தமிழ்நாட்டு வாசகரின் 
+[skip] வெளிநாட்டுத் தொடர் (ஆஸ்திரேலிய உள்நாட்டு cricket) — தமிழ்நாட
+[image] களஞ்சியம் (3 சொல்): கெய்ரோவில் எரிபொருள் டேங்கர் லாரி 
+[tts-edge] f1f30c98b1ad: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
+[publish] கெய்ரோவில் எரிபொருள் டேங்கர் லாரி தீ விபத்தில் முப்பத்தொரு பேர் பலி
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChQDqYVUUJFQXy8aDAPgc'}
-[திருத்தம்] முதலீட்டாளர் மாநாட்டில் 78 ஒப்பந்தங்கள், → முதலீட்டாளர் மாநாட்டில் 78 புரிந்துணர்வு
-[tts-edge] c7c808f63538: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] முதலீட்டாளர் மாநாட்டில் 78 புரிந்துணர்வு ஒப்பந்தங்கள், 65,786 பேருக்கு வேலை வாய்ப்பு
+[image] களஞ்சியம் (2 சொல்): உக்ரைன் போரில் ஐந்து லட்சம் பேரை இ
+[publish] உக்ரைன் போரில் ஐந்து லட்சம் பேரை இழந்ததாக ரஷ்ய தரவு வெளிப்பாடு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChQmM8LMSQzTnBeXYhPZr'}
+[publish] ரஷ்ய வான்தளத்தில் தாக்குதல்: ஐந்து போர் விமானங்கள் சேதம் என உக்ரைன் கூற்று
+[திருத்தம்] ஜெம் வீரமணி வழக்கில் பதினெட்டு சிறுமிகள் → ஜெம் வீரமணி வழக்கில் பதினெட்டு சிறுமிகள்
+[image] களஞ்சியம் (2 சொல்): ஜெம் வீரமணி வழக்கில் பதினெட்டு சிற
+[publish] ஜெம் வீரமணி வழக்கில் பதினெட்டு சிறுமிகள் பாதிப்பு என காவல்துறை தகவல்
+[திருத்தம்] கொலம்பியாவில் சூப்பர் மார்க்கெட்டில் 76  → கொலம்பியாவில் சூப்பர் மார்க்கெட்டில் 76 
+[publish] கொலம்பியாவில் சூப்பர் மார்க்கெட்டில் 76 பேர் பணயக் கைதிகளாக 17 மணி நேரம் வைக்கப்பட்டு மீட்பு
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChQmaTkXkDKsdarpEd8MW'}
 [validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] செபியின் புதிய கேஒய்சி விதிமுறை, முதலீட் → செபியின் புதிய கேஒய்சி விதிமுறை, முதலீட்
-[தரம்] தமிழ் அல்லாத எழுத்து: ে → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): செபியின் புதிய கேஒய்சி விதிமுறை, ம
-[tts-edge] b7083748296b: 403, message='Invalid response status', url='wss://speech.platform.bing.com/cons
-[publish] செபியின் புதிய கேஒய்சி விதிமுறை, முதலீட்டாளர் பதிவு எளிமைப்படுத்தல் — டிசம்பர் 24 முதல் அமலுக்கு
-[skip] துறை குறிப்பு 'world' ஆனால், செய்தி தமிழ்நாட்டு (அரியலூர்) உ
-[skip] வெளிநாட்டு இராணுவ மோதல் — தமிழ்நாடு/இந்தியா வாசகரின் அன்றாட 
-[தரம்] தமிழ் அல்லாத எழுத்து: ি → ஒரு திருத்தம்
-[image] களஞ்சியம் (2 சொல்): உதவி பெறும் கலை அறிவியல் கல்லூரி ஆ
-[publish] உதவி பெறும் கலை அறிவியல் கல்லூரி ஆசிரியர்களுக்கு பணி முன்னேற்ற ஆணை வெளியீடு
-[image] களஞ்சியம் (3 சொல்): குடும்பப் பிரச்சினையில் மனைவியைக் 
-[publish] குடும்பப் பிரச்சினையில் மனைவியைக் கொலை செய்த கணவர் கைது
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, விவசாயிகள் போராட்டம் எங்கே
-[image] களஞ்சியம் (2 சொல்): காவிரி நீர்: பிளிகுண்டுலுவில் 2,00
-[publish] காவிரி நீர்: பிளிகுண்டுலுவில் 2,000 கன அடி திறப்புக்கு தமிழ்நாடு எதிர்ப்பு
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChQEJAbbNT8AoM1VzLuW7'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChQEQZ3t86tXBbjYoHdDF'}
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] தமிழகத்தில் வெற்றி முதலீட்டு மாநாட்டில்  → வெற்றி முதலீட்டு மாநாட்டில் 78 புரிந்துண
-[image] களஞ்சியம் (2 சொல்): வெற்றி முதலீட்டு மாநாட்டில் 78 புர
-[publish] வெற்றி முதலீட்டு மாநாட்டில் 78 புரிந்துணர்வு ஒப்பந்தங்கள்; 58,214 கோடி ரூபாய் முதலீடு
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChQEeGEV2Qn8sqUm3rexk'}
-[image] களஞ்சியம் (2 சொல்): தமிழ்நாட்டில் 18 மாவட்டங்களுக்கு ம
-[publish] தமிழ்நாட்டில் 18 மாவட்டங்களுக்கு மழை எச்சரிக்கை
-[validate] தவறான வடிவம், தவிர்க்கப்பட்டது
-[திருத்தம்] காவிரி நீர் மேலாண்மை ஆணையத் தலைவராக பியூ → காவிரி நீர் மேலாண்மை ஆணையத் தலைவராக பியூ
-[publish] காவிரி நீர் மேலாண்மை ஆணையத் தலைவராக பியூஷ் சிங் பொறுப்பேற்றார்
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது, முழு செய்தி விவரங்கள் (எந்
-[skip] மூலத்தில் தலைப்பு மட்டுமே கொடுக்கப்பட்டுள்ளது, முழு செய்தி உ
-[skip] மூலத்தில் தலைப்பு மட்டுமே உள்ளது; வழக்கின் விவரங்கள், தேதி, 
-[comic] கதை: பேசா அன்பின் மொழி
-[comic] பலகை 1 தயார்
-[comic] பலகை 2: பலகை 1-ஐப் போலவே உள்ளது (0.96) — மீண்டும் வரைகிறேன்
-[comic] பலகை 2 தயார்
-[comic] பலகை 3: பலகை 2-ஐப் போலவே உள்ளது (0.80) — மீண்டும் வரைகிறேன்
-[comic] பலகை 3 தயார்
-[comic] பலகை 4 தயார்
-[comic] பக்கம் தயார்: 2026-11-26.png · நாள் 78
-[rasi] ராசிபலன் தயார்
-[market] தங்கம் 22K ₹10880 · சென்செக்ஸ் 83938
-[weather] புதுப்பிக்கப்பட்டது
+[claude] பிழை Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0: user messages must have non-empty content'}, 'request_id': 'req_011ChQmgRjedQpGp7DP1Dg2W'}
+[skip] இது அமெரிக்காவின் உள்நாட்டு குடிவரவுச் சட்ட அமலாக்க நடவடிக்க
+[திருத்தம்] நெதன்யாகு மீதான ஊழல் வழக்கை கைவிட நீதிபத → நெதன்யாகு மீதான ஊழல் வழக்கை முடிவுக்குக்
+[publish] நெதன்யாகு மீதான ஊழல் வழக்கை முடிவுக்குக் கொண்டு வரச் சொல்லி நீதிபதிகள் பரிந்துரை
+[publish] வடகிழக்கு சிரியாவில் பாதுகாப்புக் காவல் நிலையத்தின் மீது தற்கொலைத் தாக்குதல்; இருவர் பலி
+[திருத்தம்] உச்ச நீதிமன்ற உத்தரவு இணக்கம் குறித்து ஆ → உச்ச நீதிமன்ற உத்தரவு இணக்கம் குறித்து ஆ
+[publish] உச்ச நீதிமன்ற உத்தரவு இணக்கம் குறித்து ஆளுநர் முதலமைச்சரிடம் அறிக்கை கோரிக்கை
+[publish] கள்ளக்குறிச்சி தவெக எம்எல்ஏ அருள் விக்னேஷ் துன்புறுத்தல் வழக்கில் விசாரணைக்கு அழைப்பு
+[brief] காலை brief தயார்
+[jobs] தொகுப்பு 12
+[cartoon] gemini-2.5-flash-image: படம் தயார்
+[editorial] தராசில் இன்று: உச்ச நீதிமன்ற உத்தரவு அறிக்கை கோரிக்கை ஏன் இந்த நேரத்தில்?
+[தரம்] பழையவை: 1 திருத்தம், 0 நீக்கம்
+[market] தங்கம் 22K ₹11042 · சென்செக்ஸ் 83938
+[weather] பிழை HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=15)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.api_core past that date.
   warnings.warn(message, FutureWarning)
 /opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.11.18) which Google will stop supporting in new releases of google.cloud.firestore_v1 once it reaches its end of life (2027-10-24). Please upgrade to the latest Python version, or at least Python 3.12, to continue receiving updates for google.cloud.firestore_v1 past that date.
   warnings.warn(message, FutureWarning)
 [push] 0 அறிவிப்புகள்
-[done] feed 300 · pending 0 · எழுதியவை 8
+[image] 1 பொருந்தாத பொதுப் படங்கள் நீக்கப்பட்டன
+[done] feed 300 · pending 0 · எழுதியவை 10
