@@ -1,5 +1,67 @@
 [
  {
+  "headline": "உச்ச நீதிமன்றம் ஆரோக்கியமற்ற உணவுப் பொதிகளுக்குச் சிவப்பு எச்சரிக்கைச் சீப்பளவிடு கட்டளை",
+  "lines": [
+   "உச்ச நீதிமன்றம் இந்திய உணவு பாதுகாப்பு மற்றும் தர ஆணையத்திற்கு (எஃப்எஸ்எஸ்ஐ) ஆரோக்கியமற்ற உணவுகளுக்கு சிவப்பு எச்சரிக்கைச் சீப்பளவிடுதல் (எஃப்ஓபிஎன்எல்) ஒற்றைக்கட்ட முறையைக் கொண்டுவரக் கட்டளையிட்டுள்ளது.",
+   "பொதிந்த உணவுகளின் முன்புறத்தில் ஆரோக்கியத் தகவலை வெளிப்படையாகக் காட்டுவதற்கான முறையை நீதிமன்றம் நிர்ணயித்துவிட்டது.",
+   "நீதிமன்றத்தின் அறிவுறுத்தலுக்கு இணங்கக் உணவு பாதுகாப்பு ஆணையம் நான்கு மாதத்திற்குள் வரைவு விதிமுறைகளை இறுதிப்படுத்தவேண்டும்.",
+   "இந்திய உணவு பாதுகாப்பு மற்றும் தர ஆணையம் பொதிந்த உணவுகளின் முன்புறத்தில் ஆரோக்கியம் சம்பந்தமான சீப்பளவிடுதல் முறையைக் கொண்டுவருவதற்கான முன்னேற்றம் பற்றிய விபரங்களை உச்ச நீதிமன்றத்திற்குத் தெரிவிக்கும் பொறுப்பை ஏற்கவேண்டும்.",
+   "ஆரோக்கியமற்ற உணவுப் பொதிகளுக்குச் சிவப்பு எச்சரிக்கைச் சீப்பளவிடு மக்களுக்கு ஆரோக்கியமற்ற உணவுகளை எளிதாக அடையாளம் கண்டுகொள்ள உதவும் என்று நீதிமன்றம் நம்புகிறது."
+  ],
+  "closing": "முன்புறச் சீப்பளவிடு நடைமுறை நாட்டில் உணவு சம்பந்தமான தீர்வுகளுக்கான முக்கியமான படிமுறையாக அமையும்.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "The Hindu",
+    "doc": "Supreme Court directive on FSSAI nutrition labelling",
+    "date": "2026-11-28"
+   }
+  ],
+  "topic": "health",
+  "entities": [
+   "உச்ச நீதிமன்றம்",
+   "உணவு பாதுகாப்பு மற்றும் தர ஆணையம்",
+   "முன்சாய்ச்சு சீப்பளவிடு"
+  ],
+  "confidence": 0.75,
+  "en": {
+   "headline": "Supreme Court directs food authority to implement colour-coded labels in four months",
+   "lines": [
+    "The Supreme Court has instructed the Food Safety and Standards Authority to introduce warning labels on unhealthy packaged foods using colour codes.",
+    "The court has mandated a single-phase front-of-pack nutrition labelling system to be implemented on food packages.",
+    "The Food Safety and Standards Authority must finalise draft regulations for the new labelling system within four months as per the court's directive.",
+    "The nutrition labelling requirement applies to all packaged food products sold across India.",
+    "The authority will need to submit progress updates to the Supreme Court regarding implementation of the new regulations."
+   ],
+   "closing": "The colour-coded labelling system is expected to help consumers easily identify unhealthy food products and make informed dietary choices."
+  },
+  "front_cat": "health_emergency",
+  "image_query": "",
+  "wiki_subject": "Food labelling",
+  "person_en": "",
+  "urgent": false,
+  "affected": "நாடு",
+  "flags": [
+   "single_source"
+  ],
+  "id": "8d7c88f79227",
+  "topic_ta": "சுகாதாரம்",
+  "published_at": "2026-11-28T09:59+05:30",
+  "links": [
+   "https://www.thehindu.com/sci-tech/health/why-the-supreme-court-wants-red-warning-labels-on-unhealthy-packaged-foods-explained/article71753487.ece"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Fuji_apple_with_PLU_code.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "credit": "விக்கிமீடியா · List of food labeling regulations",
+   "license": "CC / பொதுச் சொத்து",
+   "page": "https://en.wikipedia.org/wiki/List_of_food_labeling_regulations",
+   "symbolic": false
+  },
+  "audio": "data/audio/8d7c88f79227.mp3",
+  "created_ts": 1795840145.2900496,
+  "status": "published"
+ },
+ {
   "id": "art_health_20261127",
   "headline": "குளிர்காலத் தொடக்கத்தில் உடல்நலம் காக்க எளிய வழிகள்",
   "lines": [
@@ -852,42 +914,5 @@
   "audio": "data/audio/dd06df4f2ff2.mp3",
   "created_ts": 1794851163.3085206,
   "status": "published"
- },
- {
-  "id": "art_health_20261116",
-  "headline": "பருவகால நோய்களிலிருந்து பாதுகாப்பு: ஊட்டச்சத்தும் பாரம்பரிய அறிவும்",
-  "lines": [
-   "நவம்பர் மாதத்தில் பருவநிலை மாற்றம் காரணமாக சளி, இருமல், காய்ச்சல் போன்ற வைரஸ் தொற்றுகள் அதிகரிக்கின்றன.",
-   "மழைநீர் தேங்கும் இடங்களில் கொசு இனப்பெருக்கம் ஏற்படுவதால் டெங்கு, சிக்குன்குனியா நோய்கள் பரவும் அபாயம் உள்ளது.",
-   "வீட்டைச் சுற்றியுள்ள தேங்கிய நீரை அகற்றுவதும், கொசு வலைகளைப் பயன்படுத்துவதும் எளிய தடுப்பு வழிகளாகும்.",
-   "இஞ்சி, மஞ்சள், துளசி போன்ற பொருட்களைக் கொண்ட கசாயம் நோய் எதிர்ப்பு சக்தியை மேம்படுத்த உதவும் என சித்த மருத்துவ நூல்கள் குறிப்பிடுகின்றன.",
-   "அரசு தொடங்கியுள்ள 104 சுகாதார உதவி எண் மற்றும் அரசு மருத்துவமனைகளில் இலவச காய்ச்சல் பரிசோதனை வசதிகள் பொதுமக்களுக்குப் பயன்படுகின்றன."
-  ],
-  "closing": "சிறிய முன்னெச்சரிக்கை பெரிய நோய்களைத் தடுக்கும்.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "துலாமுள் தொகுப்பு",
-    "doc": null,
-    "date": "2026-11-16"
-   }
-  ],
-  "topic": "health",
-  "topic_ta": "சுகாதாரம்",
-  "entities": [
-   "சுகாதாரம்",
-   "தடுப்பு"
-  ],
-  "confidence": 0.9,
-  "flags": [],
-  "front_cat": "routine",
-  "urgent": false,
-  "affected": "",
-  "kind": "article",
-  "image": null,
-  "status": "published",
-  "published_at": "2026-11-16T13:10+05:30",
-  "created_ts": 1794814817.5608592,
-  "audio": "data/audio/art_health_20261116.mp3"
  }
 ]
