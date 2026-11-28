@@ -1,5 +1,132 @@
 [
  {
+  "headline": "ஆப்கானிஸ்தான் அசதாபாத் பள்ளி அருகே வெடிப்பில் ஆறு மாணவர்கள் பலி",
+  "lines": [
+   "ஆப்கானிஸ்தானின் அசதாபாத் நகரில் ஒரு நடுநிலைப் பள்ளிக்கு அருகில் வெடிப்பு ஏற்பட்டது.",
+   "இந்த வெடிப்பில் குறைந்தது ஆறு மாணவர்கள் உயிரிழந்துள்ளனர், தொண்ணூற்று ஏழு பேர் காயமடைந்துள்ளனர்.",
+   "சம்பவம் தொடர்பாக உள்ளூர் அதிகாரிகள் விசாரணை நடத்தி வருகிறார்கள்.",
+   "வெடிப்புக்கான காரணம் இதுவரை உறுதிப்படுத்தப்படவில்லை என அல் ஜசீரா செய்தி நிறுவனம் தெரிவித்துள்ளது.",
+   "காயமடைந்தவர்களுக்கு அருகிலுள்ள மருத்துவமனைகளில் சிகிச்சை அளிக்கப்பட்டு வருகிறது."
+  ],
+  "closing": "வெடிப்புக்கான காரணம் மற்றும் பொறுப்பேற்பு தொடர்பான விவரங்கள் இன்னும் வெளியாகவில்லை.",
+  "closing_type": "watch",
+  "sources": [
+   {
+    "name": "அல் ஜசீரா",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "அசதாபாத்",
+   "ஆப்கானிஸ்தான்",
+   "நடுநிலைப் பள்ளி",
+   "மாணவர்கள்"
+  ],
+  "confidence": 0.55,
+  "en": {
+   "headline": "Six students killed in blast near Afghan school in Asadabad",
+   "lines": [
+    "An explosion occurred beside a middle school in Asadabad, Afghanistan.",
+    "At least six students were killed and ninety seven others were injured in the blast.",
+    "Local authorities are reportedly investigating the incident.",
+    "The cause of the explosion has not yet been confirmed, according to Al Jazeera.",
+    "The injured are being treated at nearby hospitals."
+   ],
+   "closing": "Details about the cause of the blast and responsibility have not yet emerged."
+  },
+  "front_cat": "attack_terror",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "ஊர்",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "ffbf778222ce",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-28T19:24+05:30",
+  "links": [
+   "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school?traffic_source=rss"
+  ],
+  "image": {
+   "url": "data/bank/world08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/ffbf778222ce.mp3",
+  "created_ts": 1795874095.830638,
+  "status": "published"
+ },
+ {
+  "headline": "ஆப்கானிஸ்தானில் வெடிபொருள் களஞ்சிய வெடிப்பில் 10 மாணவர்கள் பலி",
+  "lines": [
+   "ஆப்கானிஸ்தானில் ஒரு வெடிபொருள் களஞ்சியத்திற்கு அருகில் ஏற்பட்ட வெடிப்பில் பத்து மாணவர்கள் உயிரிழந்தனர்.",
+   "இந்த வெடிப்பில் நூறுக்கும் மேற்பட்டோர் காயமடைந்ததாக அதிகாரிகள் தெரிவித்துள்ளனர்.",
+   "இது கவனக்குறைவால் ஏற்பட்ட வெடிப்பு என ஆப்கானிஸ்தான் உள்துறை அமைச்சகத்தின் செய்தித் தொடர்பாளர் கூறினார்.",
+   "வெடிபொருள் களஞ்சியம் இருந்த இடம் குறித்தும், பாதிக்கப்பட்டோர் குறித்தும் கூடுதல் விவரங்கள் இதுவரை வெளியிடப்படவில்லை.",
+   "சம்பவம் தொடர்பாக மேலும் விசாரணை நடைபெற்று வருவதாகத் தெரிகிறது."
+  ],
+  "closing": "இந்தச் சம்பவம் தொடர்பான முழு விவரங்கள் இன்னும் உறுதி செய்யப்படவில்லை.",
+  "closing_type": "background",
+  "sources": [
+   {
+    "name": "BBC World",
+    "doc": null,
+    "date": null
+   }
+  ],
+  "topic": "world",
+  "entities": [
+   "ஆப்கானிஸ்தான்",
+   "உள்துறை அமைச்சகம்",
+   "வெடிபொருள் களஞ்சியம்"
+  ],
+  "confidence": 0.5,
+  "en": {
+   "headline": "Afghanistan explosives depot blast kills 10 students",
+   "lines": [
+    "An explosion near an explosives depot in Afghanistan killed ten students.",
+    "More than one hundred people were injured in the blast, officials said.",
+    "A spokesman for Afghanistan's interior ministry said the explosion was caused by carelessness at the depot.",
+    "Further details about the exact location and the victims have not yet been released.",
+    "An investigation into the incident appears to be ongoing."
+   ],
+   "closing": "Full details of the incident have not yet been confirmed."
+  },
+  "front_cat": "mass_casualty",
+  "image_query": "",
+  "wiki_subject": "",
+  "person_en": "",
+  "urgent": true,
+  "affected": "நாடு",
+  "flags": [
+   "single_source",
+   "unverified_claim"
+  ],
+  "id": "a7161e835424",
+  "topic_ta": "உலகம்",
+  "published_at": "2026-11-28T19:22+05:30",
+  "links": [
+   "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss"
+  ],
+  "image": {
+   "url": "data/bank/world08.jpg",
+   "credit": "துலாமுள் AI ஓவியம்",
+   "license": "சொந்தப் படைப்பு",
+   "symbolic": true,
+   "bank": true
+  },
+  "audio": "data/audio/a7161e835424.mp3",
+  "created_ts": 1795873981.4165518,
+  "status": "published"
+ },
+ {
   "headline": "காசாவில் மருத்துவர்கள் அமைப்பு மருத்துவக்கூடம் மீது இஸ்ரேல் தாக்குதல், இருவர் பலி",
   "lines": [
    "காசாவில் எல்லைகள் இல்லா மருத்துவர்கள் அமைப்பு (எம்எஸ்எஃப்) இயக்கும் மருத்துவக்கூடம் மீது இஸ்ரேலிய ராணுவம் தாக்குதல் நடத்தியுள்ளது.",
@@ -1686,69 +1813,6 @@
   "audio": "data/audio/1fc541486538.mp3",
   "created_ts": 1794941748.6974957,
   "front_cat": "routine",
-  "image_query": "",
-  "person_en": "",
-  "wiki_subject": "",
-  "urgent": false,
-  "affected": "",
-  "status": "published"
- },
- {
-  "headline": "உக்ரைன் தெற்குப் பகுதியில் இரட்டைத் தாக்குதலில் எழுபத்திரண்டு பேர் பலி",
-  "lines": [
-   "உக்ரைன் நாட்டின் தெற்குப் பகுதியில் நடந்த இரட்டைத் தாக்குதலில் எழுபத்திரண்டு பேர் உயிரிழந்ததாக அதிகாரிகள் தெரிவித்தனர்.",
-   "இரட்டைத் தாக்குதல் என்பது முதல் தாக்குதலுக்குப் பிறகு, மீட்புப் பணியில் ஈடுபட்டவர்களைக் குறிவைத்து இரண்டாவது தாக்குதல் நடத்துவதாகும்.",
-   "ரஷ்யா வேண்டுமென்றே மீட்புப் பணியை இலக்காகக் கொண்டுத் தாக்கியதாக உக்ரைன் அரசு குற்றம் சாட்டியுள்ளது.",
-   "தொடர்ந்து நடைபெறும் ரஷ்யத் தாக்குதல்களால் உடல்களை மீட்கும் பணி பெரிதும் தடைபட்டுள்ளதாக அதிகாரிகள் தெரிவித்தனர்.",
-   "மீட்புப் பணிகள் தற்போதும் தொடர்ந்து நடைபெற்று வருவதாக அதிகாரிகள் உறுதிப்படுத்தியுள்ளனர்."
-  ],
-  "closing": "ரஷ்யா உக்ரைன் இடையிலான போர் தொடர்ந்து நடைபெறும் நிலையில் இந்தத் தாக்குதல் நடந்துள்ளது.",
-  "closing_type": "background",
-  "sources": [
-   {
-    "name": "BBC World",
-    "doc": null,
-    "date": null
-   }
-  ],
-  "topic": "world",
-  "entities": [
-   "உக்ரைன்",
-   "ரஷ்யா",
-   "தெற்கு உக்ரைன்",
-   "மீட்புப் பணி"
-  ],
-  "confidence": 0.65,
-  "en": {
-   "headline": "Double-tap strike in southern Ukraine kills seventy-two people",
-   "lines": [
-    "A double-tap strike in southern Ukraine killed seventy-two people, officials said.",
-    "A second strike reportedly targeted rescuers who had rushed to the scene after the first attack.",
-    "Ukraine has accused Russia of deliberately targeting the rescue operation.",
-    "Officials said continuing Russian strikes have severely hampered efforts to recover the bodies.",
-    "Officials confirmed that recovery operations are still ongoing."
-   ],
-   "closing": "The strike took place amid the continuing Russia-Ukraine war."
-  },
-  "front_cat": "world",
-  "id": "b1602a2dbd67",
-  "flags": [
-   "single_source"
-  ],
-  "topic_ta": "உலகம்",
-  "published_at": "2026-11-17T14:50+05:30",
-  "links": [
-   "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss"
-  ],
-  "image": {
-   "url": "data/bank/crime05.jpg",
-   "credit": "துலாமுள் AI ஓவியம்",
-   "license": "சொந்தப் படைப்பு",
-   "symbolic": true,
-   "bank": true
-  },
-  "audio": "data/audio/b1602a2dbd67.mp3",
-  "created_ts": 1794907249.4075038,
   "image_query": "",
   "person_en": "",
   "wiki_subject": "",
